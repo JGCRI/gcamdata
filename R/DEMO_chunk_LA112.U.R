@@ -1,6 +1,6 @@
-#' module_energy_LA112.U_DEMO_DISABLED
+#' module_energy_LA112.U_DEMO
 #'
-#' Briefly describe what this chunk does.
+#' Produce uranium supply curves for nuclear energy potential.
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
@@ -13,9 +13,8 @@
 #' @importFrom tibble tibble
 #' @import dplyr
 #' @importFrom tidyr gather spread
-#' @author Author name(s)
-#' @export
-module_energy_LA112.U_DEMO_DISABLED <- function(command, ...) {
+#' @author BBL
+module_energy_LA112.U_DEMO <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "common/GCAM_region_names",
              FILE = "energy/A12.U_curves",
@@ -27,31 +26,50 @@ module_energy_LA112.U_DEMO_DISABLED <- function(command, ...) {
     all_data <- list(...)[[1]]
 
     # Load required inputs
-    # DEMO: these are file inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
     A12.U_curves <- get_data(all_data, "energy/A12.U_curves")
-    # DEMO: this data is produced elsewhere in the data system. It's guaranteed
-    # that we won't be called until this is available
     L113.RsrcCurves_EJ_R_MSW <- get_data(all_data, "L113.RsrcCurves_EJ_R_MSW")
 
-    # ===================================================
-    # TRANSLATED PROCESSING CODE GOES HERE...
-    # ===================================================
+    # -----------------------------------------------------------------------------
+    # 2. Perform computations
+    # 2a. Uranium supply curves
+    # Currently not built up from inventory data; just using GCAM 3.0 values
+    #These were not disaggregated to regions in GCAM 3.0. Keeping this convention for now.
+ #   printlog( "NOTE: Assigning global uranium supply curve to GCAM_region_ID 1")
+
+    tibble(GCAM_region_ID = 1,
+           resource = A12.U_curves$resource,
+           subresource = A12.U_curves$subresource,
+           grade = A12.U_curves$grade,
+           extractioncost = A12.U_curves$extractioncost,
+           available = A12.U_curves$available ) %>%
+      # step 2
+      mutate(DEMO_VALUE = energy.ENERGY_DEMO_CONSTANT)  ->
+      L112.RsrcCurves_Mt_R_U
+
+      # step 3
+    if(OLD_DATA_SYSTEM_BEHAVIOR) {
+      L112.RsrcCurves_Mt_R_U$DEMO_OOPS <- 1
+    } else {
+      L112.RsrcCurves_Mt_R_U$DEMO_OOPS <- 2
+    }
+
+    # 2b. Historical uranium prices (currently assumed at global level, so no level 1 processing necessary)
+
+    # step 4
+    L112.RsrcCurves_Mt_R_U %>%
+      left_join(GCAM_region_names, by = "GCAM_region_ID") %>%
 
     # Produce outputs
-    # Temporary code below sends back empty data frames marked "don't test"
-    # Remove FLAG_NO_TEST when an output dataset is ready
-    # Note that all precursor names (in `add_precursor`) must be in this chunk's inputs
-    # If no precursors (very rare) don't call `add_precursor` at all
-    tibble() %>%
-      add_title("descriptive title of data") %>%
-      add_units("units") %>%
-      add_comments("comments describing how data generated") %>%
-      add_comments("can be multiple lines") %>%
-      add_precursors("precursor1", "precursor2", "etc") %>%
+      add_title("Uranium supply curves") %>%
+      add_units("Mt") %>%
+      add_comments("These curves determine nuclear energy generation capability") %>%
+      add_comments("Currently not built up from inventory data; just using GCAM 3.0 values") %>%
+      add_precursors("common/GCAM_region_names",
+                     "energy/A12.U_curves") %>%
       # typical flags, but there are others--see `constants.R`
       add_legacy_name("L112.RsrcCurves_Mt_R_U_DEMO") %>%
-      add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
+      add_flags(FLAG_NO_XYEAR) ->
       L112.RsrcCurves_Mt_R_U_DEMO
 
     return_data(L112.RsrcCurves_Mt_R_U_DEMO)
