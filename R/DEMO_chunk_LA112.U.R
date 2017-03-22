@@ -58,7 +58,7 @@ module_energy_LA112.U_DEMO <- function(command, ...) {
       L112.RsrcCurves_Mt_R_U$DEMO_OOPS <- 2
     }
 
-    # step 4: blah blah blah
+    # step 4: KVC is a big fathead who is too picky about documentation
     L112.RsrcCurves_Mt_R_U %>%
       left_join(GCAM_region_names, by = "GCAM_region_ID") %>%
 
