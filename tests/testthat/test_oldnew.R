@@ -8,7 +8,8 @@ test_that("matches old data system output", {
 
   # If we're on Travis, need to run the driver to ensure chunk outputs saved
   # Don't do this locally, to speed things up
-  if (identical(Sys.getenv("TRAVIS"), "true")) {
+  if(identical(Sys.getenv("TRAVIS"), "true")) {
+    stop()
     driver(write_outputs = TRUE)
   }
 
