@@ -20,6 +20,10 @@ HISTORICAL_YEARS <- 1971:2010
 FUTURE_YEARS <- seq( 2015, 2100, 5 )
 
 # ======================================================================
+# GCAM constants
+gcam.USA_CODE <- 1
+
+# ======================================================================
 # aglu constants
 AGLU_HISTORICAL_YEARS <- 1971:2010
 FAO_HISTORICAL_YEARS <- 1961:2011
@@ -31,6 +35,8 @@ GTAP_HISTORICAL_YEAR <- 2000
 aglu.GLU <- "GLU"
 aglu.GLU_NAME_DELIMITER <- ""  # delimiter between the GLU name and number
 
+# Carbon content of all cellulose
+aglu.CCONTENT_CELLULOSE <- 0.45
 
 # ======================================================================
 # energy constants
@@ -47,11 +53,12 @@ CONV_ONES_THOUS <- 0.001
 CONV_TON_MEGATON <- 1e-6
 CONV_MCAL_PCAL <- 1e-9
 CONV_HA_BM2 <- 1e-5
-CONV_1990_2010_USD <- 1.510
-CONV_2001_1975_USD <- 0.3711
+CONV_THA_KGM2 <- 0.1   # tons C/ha -> kg C/m2
+CONV_GG_TG <- 0.001
 
 # Cubic meters (m3) to billion cubic meters (bm3)
 CONV_M3_BM3 <- 1e-09
+CONV_MILLION_M3_KM3 <- 1e-03
 
 
 # ======================================================================
@@ -81,3 +88,21 @@ modeltime.MAGICC_C_START_YEAR <- 1705
 modeltime.HECTOR_END_YEAR <- 2100
 modeltime.HECTOR_EMISSIONS_YEAR <- 2005
 modeltime.HECTOR_INI_FILE <- "../input/climate/hector-gcam.ini"
+
+# ======================================================================
+# socioeconomics constants
+
+# Population years - note that these sequences shouldn't have any overlap,
+# and should contain all historical years used by other modules
+socioeconomics.MADDISON_HISTORICAL_YEARS <- seq(1700, 1900, 50) # Years for which to use Maddison data
+socioeconomics.UN_HISTORICAL_YEARS <- c(1950, 1971:2010) # Years for which to use UN data
+
+socioeconomics.BASE_POP_SCEN <- "SSP2"
+
+
+# ======================================================================
+# emissions constants
+
+emissions.EPA_HISTORICAL_YEARS <- 1971:2002
+emissions.TST_TO_TG <- 0.000907 # Conversion from thousand short tons to Tg
+emissions.NH3_EXTRA_YEARS <- 1971:1989

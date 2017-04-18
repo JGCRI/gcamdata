@@ -41,12 +41,20 @@ test_that("matches old data system output", {
 
     # Reshape new data if necessary--see comment above
     if(flag_long_year_form) {
-      newdata %>%
-        spread(year, value) ->
-        newdata
+      expect_true(all(c("year", "value") %in% names(newdata)),
+                  info = paste("FLAG_LONG_YEAR_FORM specified in", basename(newf),
+                               "but no 'year' and 'value' columns present"))
+      newdata <- try(spread(newdata, year, value))
+      if(isTRUE(class(newdata) == "try-error")) {
+        stop("Error reshaping ", basename(newf), "; are there `year`` and `value` columns?")
+        next
+      }
     }
     if(flag_no_xyear_form) {
       yearcols <- grep("^[0-9]{4}$", names(newdata))
+      expect_true(length(yearcols) > 0,
+                  info = paste("FLAG_NO_XYEAR specified in", basename(newf),
+                               "but no year-type columns seem to be present"))
       names(newdata)[yearcols] <- paste0("X", names(newdata)[yearcols])
     }
 
@@ -55,7 +63,7 @@ test_that("matches old data system output", {
 
     if(length(oldf) == 1) {
       # If the old file has an "INPUT_TABLE" header, need to skip that
-      old_firstline <- readLines(oldf, n = 1)
+      old_firstline <- read_lines(oldf, n_max = 1)
       oldskip <- ifelse(old_firstline == "INPUT_TABLE", 4, 0)
       olddata <- read_csv(oldf, comment = COMMENT_CHAR, skip = oldskip)
 
