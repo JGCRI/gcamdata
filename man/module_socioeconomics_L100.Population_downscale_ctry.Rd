@@ -21,8 +21,8 @@ original data system was \code{L100.Population_downscale_ctry.R} (socioeconomics
 Briefly describe what this chunk does.
 }
 \details{
-Describe in detail what this chunk does.
+(1) Cleans Maddison historical population data and interpolates to country and year (1700-2010). (2) Cleans SSP population scenarios for smooth join with final base year population.
 }
 \author{
-YourInitials CurrentMonthName 2017
+STW May 2017
 }

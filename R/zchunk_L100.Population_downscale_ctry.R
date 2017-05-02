@@ -8,12 +8,12 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L100.Pop_thous_ctry_Yh}, \code{L100.Pop_thous_SSP_ctry_Yfut}. The corresponding file in the
 #' original data system was \code{L100.Population_downscale_ctry.R} (socioeconomics level1).
-#' @details Describe in detail what this chunk does.
+#' @details (1) Cleans Maddison historical population data and interpolates to country and year (1700-2010). (2) Cleans SSP population scenarios for smooth join with final base year population.
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
-#' @author YourInitials CurrentMonthName 2017
-#' @export
+#' @author STW May 2017
+
 module_socioeconomics_L100.Population_downscale_ctry <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "socioeconomics/socioeconomics_ctry",
@@ -33,10 +33,9 @@ module_socioeconomics_L100.Population_downscale_ctry <- function(command, ...) {
     SSP_database_v9 <- get_data(all_data, "socioeconomics/SSP_database_v9")
     UN_popTot <- get_data(all_data, "socioeconomics/UN_popTot")
 
-    # if(0) {
-
     # ===================================================
-    ## Historical population by country
+
+    ## (1) Historical population by country
 
     # First clean up Maddison raw data -- NOTE: Maddison data are used to develop population ratios relative to 1950 to combine with UN data from 1950 onward
     pop_thous_ctry_reg <- Maddison_population %>%
@@ -126,7 +125,7 @@ module_socioeconomics_L100.Population_downscale_ctry <- function(command, ...) {
       rename(value = pop) %>%
       select(-ratio_iso)
 
-    ## SSP population projections by country
+    ## (2) SSP population projections by country
 
     # Final historical population from UN
     pop_final_hist <- filter(L100.Pop_thous_ctry_Yh, year == socioeconomics.FINAL_HIST_YEAR) %>%
@@ -158,7 +157,6 @@ module_socioeconomics_L100.Population_downscale_ctry <- function(command, ...) {
       mutate(value = pop_final_hist * ratio_iso_ssp) %>%  # Units are 1000 persons (UN 2010 value is in thousands)
       select(-pop_final_hist, -ratio_iso_ssp)
 
-    # }
     # ===================================================
 
     # Produce outputs
