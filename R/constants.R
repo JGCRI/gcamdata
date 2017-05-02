@@ -148,3 +148,10 @@ emissions.TST_TO_TG <- 0.000907 # Conversion from thousand short tons to Tg
 emissions.NH3_HISTORICAL_YEARS <- 1990:2002
 emissions.NH3_EXTRA_YEARS <- 1971:1989
 emissions.EDGAR_YEARS <- 1971:2008
+
+#======================================================================
+# Land area aggregation constants
+
+LANDTOLERANCE <- 0.001
+DIGITS_LAND_TOTAL <- 2
+DIGITS_LAND_USE <- 5
