@@ -18,8 +18,8 @@ module_aglu_LB125.LC_tot <- function(command, ...) {
     return(c( "L120.LC_bm2_R_UrbanLand_Yh_GLU",
               "L120.LC_bm2_R_Tundra_Yh_GLU",
               "L120.LC_bm2_R_RckIceDsrt_Yh_GLU",
-              FILE = "temp-data-inject/L122.LC_bm2_R_HarvCropLand_Yh_GLU",
-              FILE = "temp-data-inject/L122.LC_bm2_R_OtherArableLand_Yh_GLU",
+              "L122.LC_bm2_R_HarvCropLand_Yh_GLU",
+              "L122.LC_bm2_R_OtherArableLand_Yh_GLU",
               FILE = "temp-data-inject/L123.LC_bm2_R_MgdPast_Yh_GLU",
               FILE = "temp-data-inject/L123.LC_bm2_R_MgdFor_Yh_GLU",
               FILE = "temp-data-inject/L124.LC_bm2_R_Shrub_Yh_GLU_adj",
@@ -38,8 +38,8 @@ module_aglu_LB125.LC_tot <- function(command, ...) {
     L120.LC_bm2_R_UrbanLand_Yh_GLU <- get_data(all_data, "L120.LC_bm2_R_UrbanLand_Yh_GLU")
     L120.LC_bm2_R_Tundra_Yh_GLU <- get_data(all_data, "L120.LC_bm2_R_Tundra_Yh_GLU")
     L120.LC_bm2_R_RckIceDsrt_Yh_GLU <- get_data(all_data, "L120.LC_bm2_R_RckIceDsrt_Yh_GLU")
-    L122.LC_bm2_R_HarvCropLand_Yh_GLU <- get_data(all_data, "temp-data-inject/L122.LC_bm2_R_HarvCropLand_Yh_GLU")
-    L122.LC_bm2_R_OtherArableLand_Yh_GLU <- get_data(all_data, "temp-data-inject/L122.LC_bm2_R_OtherArableLand_Yh_GLU")
+    L122.LC_bm2_R_HarvCropLand_Yh_GLU <- get_data(all_data, "L122.LC_bm2_R_HarvCropLand_Yh_GLU")
+    L122.LC_bm2_R_OtherArableLand_Yh_GLU <- get_data(all_data, "L122.LC_bm2_R_OtherArableLand_Yh_GLU")
     L123.LC_bm2_R_MgdPast_Yh_GLU <- get_data(all_data, "temp-data-inject/L123.LC_bm2_R_MgdPast_Yh_GLU")
     L123.LC_bm2_R_MgdFor_Yh_GLU <- get_data(all_data, "temp-data-inject/L123.LC_bm2_R_MgdFor_Yh_GLU")
     L124.LC_bm2_R_Shrub_Yh_GLU_adj <- get_data(all_data, "temp-data-inject/L124.LC_bm2_R_Shrub_Yh_GLU_adj")
@@ -140,8 +140,8 @@ module_aglu_LB125.LC_tot <- function(command, ...) {
       add_comments("Aggregated Land area by GCAM region") %>%
       add_comments("Rounded to 2 digit") %>%
       add_legacy_name("L125.LC_bm2_R") %>%
-      add_precursors("temp-data-inject/L122.LC_bm2_R_HarvCropLand_Yh_GLU",
-                     "temp-data-inject/L122.LC_bm2_R_OtherArableLand_Yh_GLU",
+      add_precursors("L122.LC_bm2_R_HarvCropLand_Yh_GLU",
+                     "L122.LC_bm2_R_OtherArableLand_Yh_GLU",
                      "temp-data-inject/L123.LC_bm2_R_MgdPast_Yh_GLU",
                      "temp-data-inject/L123.LC_bm2_R_MgdFor_Yh_GLU",
                      "temp-data-inject/L124.LC_bm2_R_Shrub_Yh_GLU_adj",
@@ -159,8 +159,8 @@ module_aglu_LB125.LC_tot <- function(command, ...) {
       add_units("bm2") %>%
       add_comments("Aggregated Land area by GCAM region x GLU") %>%
       add_legacy_name("L125.LC_bm2_R_GLU") %>%
-      add_precursors("temp-data-inject/L122.LC_bm2_R_HarvCropLand_Yh_GLU",
-                     "temp-data-inject/L122.LC_bm2_R_OtherArableLand_Yh_GLU",
+      add_precursors("L122.LC_bm2_R_HarvCropLand_Yh_GLU",
+                     "L122.LC_bm2_R_OtherArableLand_Yh_GLU",
                      "temp-data-inject/L123.LC_bm2_R_MgdPast_Yh_GLU",
                      "temp-data-inject/L123.LC_bm2_R_MgdFor_Yh_GLU",
                      "temp-data-inject/L124.LC_bm2_R_Shrub_Yh_GLU_adj",
@@ -179,8 +179,8 @@ module_aglu_LB125.LC_tot <- function(command, ...) {
       add_comments("Data was read in from multiple data sources for each land cover type") %>%
       add_comments("Rounded to 5 digit") %>%
       add_legacy_name("L125.LC_bm2_R_LT_Yh_GLU") %>%
-      add_precursors("temp-data-inject/L122.LC_bm2_R_HarvCropLand_Yh_GLU",
-                     "temp-data-inject/L122.LC_bm2_R_OtherArableLand_Yh_GLU",
+      add_precursors("L122.LC_bm2_R_HarvCropLand_Yh_GLU",
+                     "L122.LC_bm2_R_OtherArableLand_Yh_GLU",
                      "temp-data-inject/L123.LC_bm2_R_MgdPast_Yh_GLU",
                      "temp-data-inject/L123.LC_bm2_R_MgdFor_Yh_GLU",
                      "temp-data-inject/L124.LC_bm2_R_Shrub_Yh_GLU_adj",
