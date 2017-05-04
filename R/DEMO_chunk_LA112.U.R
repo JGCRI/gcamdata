@@ -13,7 +13,7 @@
 #' @importFrom tibble tibble
 #' @import dplyr
 #' @importFrom tidyr gather spread
-#' @author Author name(s)
+#' @author KD, May 2017
 
 module_energy_LA112.U_DEMO <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
@@ -33,7 +33,7 @@ module_energy_LA112.U_DEMO <- function(command, ...) {
 
     # ===================================================
     # Creating a tibble of global uranium supply curves
-    tibble(GCAM_region_ID = 1,
+    tibble(GCAM_region_ID = gcam.USA_REGION_CODE,
       resource = A12.U_curves$resource,
       subresource = A12.U_curves$subresource,
       grade = A12.U_curves$grade,
