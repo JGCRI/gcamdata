@@ -163,7 +163,7 @@ DEFAULT_UNLIMITED_WITHD_WATER_PRICE <- 0.001
 
 LANDTOLERANCE <- 0.001
 DIGITS_LAND_TOTAL <- 2
-DIGITS_LAND_USE <- 5
+DIGITS_LAND_USE <- 7
 
 # ======================================================================
 # emissions constants
