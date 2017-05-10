@@ -1,8 +1,8 @@
-INPUT_TABLE
-Variable ID
-GDPCtrlSteep
-
-region,supplysector,subsector,stub.technology,year,Non.CO2,ctrl.name,steepness
+# INPUT_TABLE
+# Variable ID
+# GDPCtrlSteep
+#
+"region","supplysector","subsector","stub.technology","year","Non.CO2","ctrl.name","steepness"
 Africa_Eastern,comm heating,coal,coal,1975,SO2_3,GDP_control,3.5
 Africa_Eastern,comm heating,refined liquids,refined liquids,1975,SO2_3,GDP_control,3.5
 Africa_Eastern,comm others,biomass,biomass,1975,SO2_3,GDP_control,3.5
