@@ -556,7 +556,6 @@ screen_forbidden <- function(fn) {
 #' @export
 oldnew_compare <- function(x) {
   assert_that(is.character(x))
-  assert_that(is.logical(plot))
 
   newfile <- file.path("outputs/", pattern = paste0(x, ".csv"))
   message("Reading new data ", newfile)
