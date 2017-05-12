@@ -537,3 +537,63 @@ screen_forbidden <- function(fn) {
   }
   rslt
 }
+
+
+
+#' oldnew_compare
+#'
+#' Load and merge (if possible) an old-vs-new comparison for a data system object.
+#'
+#' @param x Name of an object in the data system, character
+#' @note This is a development/debugging routine. It's highly dependent on a specific file layout.
+#' @return Merged data from old and new data system for this object, if possible, or a
+#' list with the datasets, if not.
+#' @examples
+#' \dontrun{
+#' oldnew_compare("L100.gdp_mil90usd_ctry_Yh.csv")
+#' oldnew_compare("L133.ag_Cost_75USDkg_C")
+#' }
+#' @export
+oldnew_compare <- function(x) {
+  assert_that(is.character(x))
+  assert_that(is.logical(plot))
+
+  newfile <- file.path("outputs/", pattern = paste0(x, ".csv"))
+  message("Reading new data ", newfile)
+  # If "FLAG" occurs in first line, skip it; not foolproof but should get most
+  new_firstline <- readLines(newfile, n = 1)
+  nskip <- grepl("FLAG", new_firstline)
+  newdata <- read_csv(newfile, skip = nskip, comment = "#")
+  oldfile <- list.files("tests/testthat/comparison_data/", pattern = x, full.names = TRUE, recursive = TRUE)
+  message("Reading old data ", oldfile)
+  olddata <- read_csv(oldfile, comment = "#")
+
+  # Look for year columns in old data and reshape if possible
+  yearcols <- grep("^X[0-9]{4}$", names(olddata))
+  if(length(yearcols)) {
+    cat("Reshaping old data...\n")
+    olddata %>%
+      tidyr::gather_("year", "value.old", gather_cols = names(olddata)[yearcols]) %>%
+      mutate(year = as.integer(substr(year, 2, 5))) ->
+      olddata
+    if("value" %in% names(olddata)) olddata <- rename(olddata, value.old = value)
+  }
+
+  # Look for year columns in new data (unusual) and reshape if possible
+  yearcols <- grep("^X[0-9]{4}$", names(newdata))
+  if(length(yearcols)) {
+    cat("Reshaping new data...\n")
+    newdata %>%
+      tidyr::gather_("year", "value", gather_cols = names(newdata)[yearcols]) %>%
+      mutate(year = as.integer(substr(year, 2, 5))) ->
+      newdata
+  }
+
+  combined <- list("olddata" = olddata, "newdata" = newdata)
+
+  try({
+    combined <- full_join(newdata, olddata, suffix = c(".old", ""))
+  })
+
+  combined
+}
