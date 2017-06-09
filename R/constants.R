@@ -178,6 +178,13 @@ names(MAPPED_WATER_TYPES_SHORT) <- MAPPED_WATER_TYPES
 DEFAULT_UNLIMITED_WATER_PRICE <- 0
 DEFAULT_UNLIMITED_WITHD_WATER_PRICE <- 0.001
 
+#======================================================================
+# Land area aggregation constants
+
+LANDTOLERANCE <- 0.001
+DIGITS_LAND_TOTAL <- 2
+DIGITS_LAND_USE <- 7
+
 # ======================================================================
 # emissions constants
 
