@@ -1,10 +1,11 @@
 # ****** NOTE ******
-# This is NOT the default old data system file; it was produced by changing the 
-# calculation for this data frame (lines 76-78) to 
-L107.an_FeedIO_R_C_Sys_Fd_Y[ X_AGLU_historical_years ] <- round(L107.an_Feed_Mt_R_C_Sys_Fd_Y[ X_AGLU_historical_years ], 10) / round(L107.an_Prod_Mt_R_C_Sys_Fd_Y[
-      match( vecpaste( L107.an_Feed_Mt_R_C_Sys_Fd_Y[ R_C_Sys_Fd ] ), vecpaste( L107.an_Prod_Mt_R_C_Sys_Fd_Y[ R_C_Sys_Fd ] ) ),
-      X_AGLU_historical_years ], 10)
-L107.an_FeedIO_R_C_Sys_Fd_Y[ X_AGLU_historical_years ] <- round(L107.an_FeedIO_R_C_Sys_Fd_Y[ X_AGLU_historical_years ], 6)
+# This is NOT the default old data system file!
+# This was produced by changing the calculation for this data frame (lines 76-78) to 
+# 
+# L107.an_FeedIO_R_C_Sys_Fd_Y[ X_AGLU_historical_years ] <- round(L107.an_Feed_Mt_R_C_Sys_Fd_Y[ X_AGLU_historical_years ], 10) / round(L107.an_Prod_Mt_R_C_Sys_Fd_Y[
+#      match( vecpaste( L107.an_Feed_Mt_R_C_Sys_Fd_Y[ R_C_Sys_Fd ] ), vecpaste( L107.an_Prod_Mt_R_C_Sys_Fd_Y[ R_C_Sys_Fd ] ) ),
+#      X_AGLU_historical_years ], 10)
+# L107.an_FeedIO_R_C_Sys_Fd_Y[ X_AGLU_historical_years ] <- round(L107.an_FeedIO_R_C_Sys_Fd_Y[ X_AGLU_historical_years ], 6)
 #
 # See discussion in this PR: https://github.com/JGCRI/gcamdata/pull/443
 # 
