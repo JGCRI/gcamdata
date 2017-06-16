@@ -1,0 +1,1611 @@
+INPUT_TABLE
+Variable ID
+GlobalTechCapital
+
+sector.name,subsector.name,technology,year,input.capital,capital.overnight,fixed.charge.rate,capacity.factor
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),1975,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),1975,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),1975,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),1975,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),1975,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),1975,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),1975,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),1975,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),1975,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),1975,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),1975,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),1975,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1975,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),1975,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),1975,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),1975,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1975,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),1975,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),1975,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),1975,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),1975,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),1975,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),1975,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),1975,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),1975,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),1975,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),1975,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),1975,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),1975,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),1975,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),1975,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),1975,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1975,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1975,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1975,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1975,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),1975,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),1975,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),1975,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),1975,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),1975,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1975,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1975,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1975,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),1975,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),1975,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),1975,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),1975,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),1975,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),1975,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),1975,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),1975,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),1975,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),1975,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),1975,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),1975,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),1975,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),1975,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1975,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1975,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1975,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),1975,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),1975,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),1975,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),1975,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),1975,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),1975,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),1975,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),1975,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),1975,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),1975,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),1975,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),1975,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),1990,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),1990,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),1990,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),1990,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),1990,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),1990,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),1990,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),1990,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),1990,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),1990,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),1990,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),1990,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),1990,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),1990,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),1990,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),1990,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),1990,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),1990,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),1990,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),1990,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),1990,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),1990,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),1990,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),1990,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),1990,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),1990,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),1990,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),1990,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),1990,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),1990,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),1990,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),1990,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),1990,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),1990,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),1990,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),1990,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),1990,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),1990,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),1990,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),1990,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),1990,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),1990,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),1990,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),1990,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),1990,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),1990,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),1990,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),1990,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),1990,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),1990,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),1990,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),1990,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),1990,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),1990,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),1990,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),1990,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),1990,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),1990,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),1990,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),1990,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),1990,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),1990,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),1990,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),1990,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),1990,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),1990,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),1990,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),1990,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),1990,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),1990,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),1990,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),1990,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),1990,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2005,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2005,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2005,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2005,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2005,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2005,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2005,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2005,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2005,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2005,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2005,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2005,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2005,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2005,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2005,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2005,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2005,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2005,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2005,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2005,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2005,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2005,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2005,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2005,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2005,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2005,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2005,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2005,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2005,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2005,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2005,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2005,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2005,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2005,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2005,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2005,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2005,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2005,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2005,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2005,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2005,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2005,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2005,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2005,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2005,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2005,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2005,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2005,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2005,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2005,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2005,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2005,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2005,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2005,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2005,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2005,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2005,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2005,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2005,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2005,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2005,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2005,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2005,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2005,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2005,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2005,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2005,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2005,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2005,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2005,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2005,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2005,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2005,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2010,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2010,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2010,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2010,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2010,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2010,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2010,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2010,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2010,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2010,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2010,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2010,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2010,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2010,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2010,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2010,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2010,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2010,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2010,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2010,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2010,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2010,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2010,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2010,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2010,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2010,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2010,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2010,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2010,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2010,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2010,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2010,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2010,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2010,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2010,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2010,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2010,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2010,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2010,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2010,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2010,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2010,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2010,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2010,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2010,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2010,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2010,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2010,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2010,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2010,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2010,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2010,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2010,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2010,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2010,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2010,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2010,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2010,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2010,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2010,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2010,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2010,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2010,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2010,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2010,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2010,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2010,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2010,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2010,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2010,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2010,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2010,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2010,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2015,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2015,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2015,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2015,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2015,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2015,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2015,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2015,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2015,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2015,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2015,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2015,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2015,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2015,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2015,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2015,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2015,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2015,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2015,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2015,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2015,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2015,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2015,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2015,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2015,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2015,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2015,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2015,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2015,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2015,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2015,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2015,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2015,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2015,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2015,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2015,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2015,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2015,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2015,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2015,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2015,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2015,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2015,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2015,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2015,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2015,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2015,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2015,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2015,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2015,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2015,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2015,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2015,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2015,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2015,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2015,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2015,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2015,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2015,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2015,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2015,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2015,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2015,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2015,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2015,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2015,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2015,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2015,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2015,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2015,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2015,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2015,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2015,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2020,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2020,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2020,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2020,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2020,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2020,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2020,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2020,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2020,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2020,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2020,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2020,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2020,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2020,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2020,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2020,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2020,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2020,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2020,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2020,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2020,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2020,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2020,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2020,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2020,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2020,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2020,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2020,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2020,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2020,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2020,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2020,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2020,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2020,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2020,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2020,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2020,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2020,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2020,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2020,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2020,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2020,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2020,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2020,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2020,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2020,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2020,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2020,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2020,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2020,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2020,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2020,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2020,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2020,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2020,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2020,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2020,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2020,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2020,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2020,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2020,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2020,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2020,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2020,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2020,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2020,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2020,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2020,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2020,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2020,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2020,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2020,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2020,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2025,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2025,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2025,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2025,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2025,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2025,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2025,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2025,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2025,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2025,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2025,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2025,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2025,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2025,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2025,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2025,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2025,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2025,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2025,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2025,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2025,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2025,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2025,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2025,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2025,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2025,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2025,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2025,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2025,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2025,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2025,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2025,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2025,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2025,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2025,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2025,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2025,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2025,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2025,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2025,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2025,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2025,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2025,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2025,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2025,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2025,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2025,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2025,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2025,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2025,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2025,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2025,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2025,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2025,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2025,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2025,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2025,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2025,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2025,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2025,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2025,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2025,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2025,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2025,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2025,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2025,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2025,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2025,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2025,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2025,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2025,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2025,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2025,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2030,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2030,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2030,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2030,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2030,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2030,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2030,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2030,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2030,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2030,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2030,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2030,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2030,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2030,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2030,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2030,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2030,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2030,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2030,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2030,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2030,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2030,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2030,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2030,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2030,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2030,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2030,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2030,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2030,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2030,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2030,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2030,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2030,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2030,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2030,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2030,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2030,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2030,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2030,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2030,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2030,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2030,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2030,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2030,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2030,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2030,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2030,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2030,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2030,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2030,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2030,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2030,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2030,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2030,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2030,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2030,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2030,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2030,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2030,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2030,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2030,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2030,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2030,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2030,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2030,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2030,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2030,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2030,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2030,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2030,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2030,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2030,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2030,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2035,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2035,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2035,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2035,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2035,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2035,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2035,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2035,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2035,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2035,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2035,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2035,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2035,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2035,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2035,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2035,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2035,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2035,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2035,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2035,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2035,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2035,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2035,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2035,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2035,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2035,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2035,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2035,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2035,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2035,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2035,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2035,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2035,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2035,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2035,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2035,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2035,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2035,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2035,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2035,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2035,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2035,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2035,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2035,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2035,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2035,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2035,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2035,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2035,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2035,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2035,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2035,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2035,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2035,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2035,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2035,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2035,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2035,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2035,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2035,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2035,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2035,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2035,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2035,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2035,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2035,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2035,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2035,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2035,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2035,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2035,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2035,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2035,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2040,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2040,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2040,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2040,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2040,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2040,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2040,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2040,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2040,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2040,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2040,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2040,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2040,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2040,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2040,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2040,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2040,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2040,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2040,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2040,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2040,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2040,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2040,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2040,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2040,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2040,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2040,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2040,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2040,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2040,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2040,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2040,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2040,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2040,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2040,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2040,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2040,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2040,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2040,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2040,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2040,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2040,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2040,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2040,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2040,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2040,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2040,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2040,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2040,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2040,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2040,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2040,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2040,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2040,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2040,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2040,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2040,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2040,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2040,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2040,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2040,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2040,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2040,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2040,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2040,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2040,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2040,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2040,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2040,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2040,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2040,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2040,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2040,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2045,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2045,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2045,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2045,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2045,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2045,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2045,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2045,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2045,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2045,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2045,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2045,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2045,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2045,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2045,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2045,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2045,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2045,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2045,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2045,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2045,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2045,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2045,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2045,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2045,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2045,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2045,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2045,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2045,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2045,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2045,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2045,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2045,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2045,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2045,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2045,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2045,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2045,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2045,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2045,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2045,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2045,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2045,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2045,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2045,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2045,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2045,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2045,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2045,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2045,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2045,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2045,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2045,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2045,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2045,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2045,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2045,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2045,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2045,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2045,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2045,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2045,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2045,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2045,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2045,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2045,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2045,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2045,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2045,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2045,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2045,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2045,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2045,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2050,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2050,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2050,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2050,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2050,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2050,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2050,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2050,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2050,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2050,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2050,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2050,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2050,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2050,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2050,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2050,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2050,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2050,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2050,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2050,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2050,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2050,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2050,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2050,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2050,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2050,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2050,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2050,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2050,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2050,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2050,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2050,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2050,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2050,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2050,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2050,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2050,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2050,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2050,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2050,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2050,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2050,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2050,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2050,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2050,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2050,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2050,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2050,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2050,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2050,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2050,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2050,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2050,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2050,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2050,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2050,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2050,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2050,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2050,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2050,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2050,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2050,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2050,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2050,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2050,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2050,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2050,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2050,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2050,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2050,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2050,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2050,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2050,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2055,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2055,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2055,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2055,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2055,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2055,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2055,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2055,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2055,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2055,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2055,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2055,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2055,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2055,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2055,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2055,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2055,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2055,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2055,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2055,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2055,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2055,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2055,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2055,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2055,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2055,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2055,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2055,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2055,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2055,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2055,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2055,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2055,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2055,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2055,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2055,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2055,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2055,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2055,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2055,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2055,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2055,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2055,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2055,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2055,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2055,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2055,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2055,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2055,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2055,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2055,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2055,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2055,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2055,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2055,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2055,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2055,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2055,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2055,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2055,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2055,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2055,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2055,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2055,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2055,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2055,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2055,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2055,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2055,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2055,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2055,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2055,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2055,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2060,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2060,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2060,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2060,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2060,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2060,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2060,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2060,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2060,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2060,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2060,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2060,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2060,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2060,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2060,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2060,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2060,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2060,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2060,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2060,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2060,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2060,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2060,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2060,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2060,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2060,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2060,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2060,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2060,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2060,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2060,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2060,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2060,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2060,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2060,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2060,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2060,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2060,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2060,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2060,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2060,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2060,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2060,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2060,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2060,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2060,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2060,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2060,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2060,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2060,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2060,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2060,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2060,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2060,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2060,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2060,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2060,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2060,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2060,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2060,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2060,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2060,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2060,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2060,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2060,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2060,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2060,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2060,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2060,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2060,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2060,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2060,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2060,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2065,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2065,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2065,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2065,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2065,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2065,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2065,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2065,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2065,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2065,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2065,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2065,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2065,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2065,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2065,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2065,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2065,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2065,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2065,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2065,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2065,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2065,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2065,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2065,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2065,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2065,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2065,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2065,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2065,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2065,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2065,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2065,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2065,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2065,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2065,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2065,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2065,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2065,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2065,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2065,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2065,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2065,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2065,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2065,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2065,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2065,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2065,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2065,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2065,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2065,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2065,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2065,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2065,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2065,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2065,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2065,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2065,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2065,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2065,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2065,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2065,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2065,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2065,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2065,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2065,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2065,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2065,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2065,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2065,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2065,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2065,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2065,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2065,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2070,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2070,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2070,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2070,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2070,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2070,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2070,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2070,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2070,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2070,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2070,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2070,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2070,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2070,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2070,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2070,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2070,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2070,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2070,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2070,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2070,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2070,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2070,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2070,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2070,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2070,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2070,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2070,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2070,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2070,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2070,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2070,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2070,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2070,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2070,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2070,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2070,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2070,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2070,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2070,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2070,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2070,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2070,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2070,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2070,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2070,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2070,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2070,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2070,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2070,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2070,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2070,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2070,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2070,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2070,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2070,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2070,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2070,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2070,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2070,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2070,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2070,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2070,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2070,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2070,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2070,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2070,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2070,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2070,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2070,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2070,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2070,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2070,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2075,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2075,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2075,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2075,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2075,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2075,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2075,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2075,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2075,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2075,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2075,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2075,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2075,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2075,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2075,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2075,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2075,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2075,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2075,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2075,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2075,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2075,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2075,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2075,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2075,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2075,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2075,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2075,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2075,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2075,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2075,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2075,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2075,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2075,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2075,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2075,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2075,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2075,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2075,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2075,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2075,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2075,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2075,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2075,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2075,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2075,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2075,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2075,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2075,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2075,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2075,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2075,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2075,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2075,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2075,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2075,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2075,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2075,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2075,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2075,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2075,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2075,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2075,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2075,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2075,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2075,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2075,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2075,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2075,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2075,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2075,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2075,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2075,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2080,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2080,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2080,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2080,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2080,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2080,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2080,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2080,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2080,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2080,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2080,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2080,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2080,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2080,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2080,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2080,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2080,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2080,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2080,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2080,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2080,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2080,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2080,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2080,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2080,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2080,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2080,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2080,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2080,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2080,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2080,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2080,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2080,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2080,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2080,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2080,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2080,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2080,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2080,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2080,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2080,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2080,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2080,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2080,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2080,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2080,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2080,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2080,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2080,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2080,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2080,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2080,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2080,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2080,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2080,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2080,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2080,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2080,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2080,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2080,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2080,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2080,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2080,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2080,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2080,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2080,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2080,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2080,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2080,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2080,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2080,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2080,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2080,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2085,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2085,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2085,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2085,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2085,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2085,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2085,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2085,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2085,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2085,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2085,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2085,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2085,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2085,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2085,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2085,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2085,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2085,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2085,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2085,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2085,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2085,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2085,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2085,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2085,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2085,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2085,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2085,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2085,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2085,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2085,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2085,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2085,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2085,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2085,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2085,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2085,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2085,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2085,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2085,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2085,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2085,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2085,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2085,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2085,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2085,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2085,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2085,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2085,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2085,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2085,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2085,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2085,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2085,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2085,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2085,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2085,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2085,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2085,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2085,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2085,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2085,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2085,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2085,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2085,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2085,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2085,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2085,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2085,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2085,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2085,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2085,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2085,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2090,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2090,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2090,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2090,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2090,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2090,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2090,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2090,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2090,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2090,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2090,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2090,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2090,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2090,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2090,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2090,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2090,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2090,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2090,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2090,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2090,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2090,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2090,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2090,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2090,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2090,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2090,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2090,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2090,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2090,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2090,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2090,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2090,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2090,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2090,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2090,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2090,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2090,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2090,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2090,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2090,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2090,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2090,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2090,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2090,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2090,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2090,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2090,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2090,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2090,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2090,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2090,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2090,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2090,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2090,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2090,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2090,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2090,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2090,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2090,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2090,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2090,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2090,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2090,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2090,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2090,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2090,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2090,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2090,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2090,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2090,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2090,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2090,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2095,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2095,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2095,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2095,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2095,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2095,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2095,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2095,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2095,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2095,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2095,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2095,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2095,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2095,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2095,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2095,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2095,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2095,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2095,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2095,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2095,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2095,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2095,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2095,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2095,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2095,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2095,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2095,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2095,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2095,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2095,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2095,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2095,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2095,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2095,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2095,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2095,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2095,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2095,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2095,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2095,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2095,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2095,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2095,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2095,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2095,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2095,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2095,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2095,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2095,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2095,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2095,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2095,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2095,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2095,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2095,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2095,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2095,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2095,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2095,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2095,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2095,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2095,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2095,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2095,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2095,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2095,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2095,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2095,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2095,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2095,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2095,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2095,cooling system,61,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2100,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2100,cooling system,6,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2100,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2100,cooling system,9,0.15,0.6
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2100,cooling system,61,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (once through),2100,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (seawater),2100,cooling system,6,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (recirculating),2100,cooling system,9,0.15,0.6
+elec_coal (IGCC),coal (IGCC),coal (IGCC) (dry cooling),2100,cooling system,61,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (once through),2100,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (seawater),2100,cooling system,6,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (recirculating),2100,cooling system,9,0.15,0.6
+elec_coal (conv pul CCS),coal (conv pul CCS),coal (conv pul CCS) (dry cooling),2100,cooling system,61,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (once through),2100,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (seawater),2100,cooling system,6,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (recirculating),2100,cooling system,9,0.15,0.6
+elec_coal (IGCC CCS),coal (IGCC CCS),coal (IGCC CCS) (dry cooling),2100,cooling system,61,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2100,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2100,cooling system,6,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2100,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2100,cooling system,9,0.15,0.6
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2100,cooling system,61,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (once through),2100,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (seawater),2100,cooling system,6,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2100,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2100,cooling system,9,0.15,0.6
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2100,cooling system,61,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (once through),2100,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (seawater),2100,cooling system,6,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (recirculating),2100,cooling system,9,0.15,0.6
+elec_gas (CC CCS),gas (CC CCS),gas (CC CCS) (dry cooling),2100,cooling system,61,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2100,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2100,cooling system,6,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2100,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2100,cooling system,9,0.15,0.6
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2100,cooling system,61,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (once through),2100,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (seawater),2100,cooling system,6,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (recirculating),2100,cooling system,9,0.15,0.6
+elec_refined liquids (CC),refined liquids (CC),refined liquids (CC) (dry cooling),2100,cooling system,61,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (once through),2100,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (seawater),2100,cooling system,6,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (recirculating),2100,cooling system,9,0.15,0.6
+elec_refined liquids (CC CCS),refined liquids (CC CCS),refined liquids (CC CCS) (dry cooling),2100,cooling system,61,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2100,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2100,cooling system,6,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2100,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2100,cooling system,9,0.15,0.6
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2100,cooling system,61,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (once through),2100,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (seawater),2100,cooling system,6,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (recirculating),2100,cooling system,9,0.15,0.6
+elec_biomass (IGCC),biomass (IGCC),biomass (IGCC) (dry cooling),2100,cooling system,61,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (once through),2100,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (seawater),2100,cooling system,6,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (recirculating),2100,cooling system,9,0.15,0.6
+elec_biomass (conv CCS),biomass (conv CCS),biomass (conv CCS) (dry cooling),2100,cooling system,61,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (once through),2100,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (seawater),2100,cooling system,6,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (recirculating),2100,cooling system,9,0.15,0.6
+elec_biomass (IGCC CCS),biomass (IGCC CCS),biomass (IGCC CCS) (dry cooling),2100,cooling system,61,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2100,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2100,cooling system,6,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2100,cooling system,9,0.15,0.6
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2100,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (once through),2100,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (seawater),2100,cooling system,6,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (recirculating),2100,cooling system,9,0.15,0.6
+elec_Gen_III,Gen_III,Gen_III (cooling pond),2100,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (recirculating),2100,cooling system,9,0.15,0.6
+elec_CSP_storage,CSP_storage,CSP_storage (dry_hybrid),2100,cooling system,61,0.15,0.6
+elec_geothermal,geothermal,geothermal (recirculating),2100,cooling system,9,0.15,0.6
+elec_geothermal,geothermal,geothermal (dry_hybrid),2100,cooling system,61,0.15,0.6

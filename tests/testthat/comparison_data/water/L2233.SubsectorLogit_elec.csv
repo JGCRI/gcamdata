@@ -1,0 +1,325 @@
+INPUT_TABLE
+Variable ID
+SubsectorLogit
+
+region,supplysector,subsector,logit.year.fillout,logit.exponent
+USA,electricity,coal,1975,-10
+USA,electricity,gas,1975,-10
+USA,electricity,refined liquids,1975,-10
+USA,electricity,biomass,1975,-10
+USA,electricity,nuclear,1975,-6
+USA,electricity,hydro,1975,-6
+USA,electricity,wind,1975,-6
+USA,electricity,solar,1975,-6
+USA,electricity,geothermal,1975,-6
+USA,elect_td_bld,rooftop_pv,1975,-6
+Africa_Eastern,electricity,coal,1975,-10
+Africa_Eastern,electricity,gas,1975,-10
+Africa_Eastern,electricity,refined liquids,1975,-10
+Africa_Eastern,electricity,biomass,1975,-10
+Africa_Eastern,electricity,nuclear,1975,-6
+Africa_Eastern,electricity,hydro,1975,-6
+Africa_Eastern,electricity,wind,1975,-6
+Africa_Eastern,electricity,solar,1975,-6
+Africa_Eastern,electricity,geothermal,1975,-6
+Africa_Eastern,elect_td_bld,rooftop_pv,1975,-6
+Africa_Northern,electricity,coal,1975,-10
+Africa_Northern,electricity,gas,1975,-10
+Africa_Northern,electricity,refined liquids,1975,-10
+Africa_Northern,electricity,biomass,1975,-10
+Africa_Northern,electricity,nuclear,1975,-6
+Africa_Northern,electricity,hydro,1975,-6
+Africa_Northern,electricity,wind,1975,-6
+Africa_Northern,electricity,solar,1975,-6
+Africa_Northern,electricity,geothermal,1975,-6
+Africa_Northern,elect_td_bld,rooftop_pv,1975,-6
+Africa_Southern,electricity,coal,1975,-10
+Africa_Southern,electricity,gas,1975,-10
+Africa_Southern,electricity,refined liquids,1975,-10
+Africa_Southern,electricity,biomass,1975,-10
+Africa_Southern,electricity,nuclear,1975,-6
+Africa_Southern,electricity,hydro,1975,-6
+Africa_Southern,electricity,wind,1975,-6
+Africa_Southern,electricity,solar,1975,-6
+Africa_Southern,electricity,geothermal,1975,-6
+Africa_Southern,elect_td_bld,rooftop_pv,1975,-6
+Africa_Western,electricity,coal,1975,-10
+Africa_Western,electricity,gas,1975,-10
+Africa_Western,electricity,refined liquids,1975,-10
+Africa_Western,electricity,biomass,1975,-10
+Africa_Western,electricity,nuclear,1975,-6
+Africa_Western,electricity,hydro,1975,-6
+Africa_Western,electricity,wind,1975,-6
+Africa_Western,electricity,solar,1975,-6
+Africa_Western,electricity,geothermal,1975,-6
+Africa_Western,elect_td_bld,rooftop_pv,1975,-6
+Australia_NZ,electricity,coal,1975,-10
+Australia_NZ,electricity,gas,1975,-10
+Australia_NZ,electricity,refined liquids,1975,-10
+Australia_NZ,electricity,biomass,1975,-10
+Australia_NZ,electricity,nuclear,1975,-6
+Australia_NZ,electricity,hydro,1975,-6
+Australia_NZ,electricity,wind,1975,-6
+Australia_NZ,electricity,solar,1975,-6
+Australia_NZ,electricity,geothermal,1975,-6
+Australia_NZ,elect_td_bld,rooftop_pv,1975,-6
+Brazil,electricity,coal,1975,-10
+Brazil,electricity,gas,1975,-10
+Brazil,electricity,refined liquids,1975,-10
+Brazil,electricity,biomass,1975,-10
+Brazil,electricity,nuclear,1975,-6
+Brazil,electricity,hydro,1975,-6
+Brazil,electricity,wind,1975,-6
+Brazil,electricity,solar,1975,-6
+Brazil,electricity,geothermal,1975,-6
+Brazil,elect_td_bld,rooftop_pv,1975,-6
+Canada,electricity,coal,1975,-10
+Canada,electricity,gas,1975,-10
+Canada,electricity,refined liquids,1975,-10
+Canada,electricity,biomass,1975,-10
+Canada,electricity,nuclear,1975,-6
+Canada,electricity,hydro,1975,-6
+Canada,electricity,wind,1975,-6
+Canada,electricity,solar,1975,-6
+Canada,electricity,geothermal,1975,-6
+Canada,elect_td_bld,rooftop_pv,1975,-6
+Central America and Caribbean,electricity,coal,1975,-10
+Central America and Caribbean,electricity,gas,1975,-10
+Central America and Caribbean,electricity,refined liquids,1975,-10
+Central America and Caribbean,electricity,biomass,1975,-10
+Central America and Caribbean,electricity,nuclear,1975,-6
+Central America and Caribbean,electricity,hydro,1975,-6
+Central America and Caribbean,electricity,wind,1975,-6
+Central America and Caribbean,electricity,solar,1975,-6
+Central America and Caribbean,electricity,geothermal,1975,-6
+Central America and Caribbean,elect_td_bld,rooftop_pv,1975,-6
+Central Asia,electricity,coal,1975,-10
+Central Asia,electricity,gas,1975,-10
+Central Asia,electricity,refined liquids,1975,-10
+Central Asia,electricity,biomass,1975,-10
+Central Asia,electricity,nuclear,1975,-6
+Central Asia,electricity,hydro,1975,-6
+Central Asia,electricity,wind,1975,-6
+Central Asia,electricity,solar,1975,-6
+Central Asia,electricity,geothermal,1975,-6
+Central Asia,elect_td_bld,rooftop_pv,1975,-6
+China,electricity,coal,1975,-10
+China,electricity,gas,1975,-10
+China,electricity,refined liquids,1975,-10
+China,electricity,biomass,1975,-10
+China,electricity,nuclear,1975,-6
+China,electricity,hydro,1975,-6
+China,electricity,wind,1975,-6
+China,electricity,solar,1975,-6
+China,electricity,geothermal,1975,-6
+China,elect_td_bld,rooftop_pv,1975,-6
+EU-12,electricity,coal,1975,-10
+EU-12,electricity,gas,1975,-10
+EU-12,electricity,refined liquids,1975,-10
+EU-12,electricity,biomass,1975,-10
+EU-12,electricity,nuclear,1975,-6
+EU-12,electricity,hydro,1975,-6
+EU-12,electricity,wind,1975,-6
+EU-12,electricity,solar,1975,-6
+EU-12,electricity,geothermal,1975,-6
+EU-12,elect_td_bld,rooftop_pv,1975,-6
+EU-15,electricity,coal,1975,-10
+EU-15,electricity,gas,1975,-10
+EU-15,electricity,refined liquids,1975,-10
+EU-15,electricity,biomass,1975,-10
+EU-15,electricity,nuclear,1975,-6
+EU-15,electricity,hydro,1975,-6
+EU-15,electricity,wind,1975,-6
+EU-15,electricity,solar,1975,-6
+EU-15,electricity,geothermal,1975,-6
+EU-15,elect_td_bld,rooftop_pv,1975,-6
+Europe_Eastern,electricity,coal,1975,-10
+Europe_Eastern,electricity,gas,1975,-10
+Europe_Eastern,electricity,refined liquids,1975,-10
+Europe_Eastern,electricity,biomass,1975,-10
+Europe_Eastern,electricity,nuclear,1975,-6
+Europe_Eastern,electricity,hydro,1975,-6
+Europe_Eastern,electricity,wind,1975,-6
+Europe_Eastern,electricity,solar,1975,-6
+Europe_Eastern,electricity,geothermal,1975,-6
+Europe_Eastern,elect_td_bld,rooftop_pv,1975,-6
+Europe_Non_EU,electricity,coal,1975,-10
+Europe_Non_EU,electricity,gas,1975,-10
+Europe_Non_EU,electricity,refined liquids,1975,-10
+Europe_Non_EU,electricity,biomass,1975,-10
+Europe_Non_EU,electricity,nuclear,1975,-6
+Europe_Non_EU,electricity,hydro,1975,-6
+Europe_Non_EU,electricity,wind,1975,-6
+Europe_Non_EU,electricity,solar,1975,-6
+Europe_Non_EU,electricity,geothermal,1975,-6
+Europe_Non_EU,elect_td_bld,rooftop_pv,1975,-6
+European Free Trade Association,electricity,coal,1975,-10
+European Free Trade Association,electricity,gas,1975,-10
+European Free Trade Association,electricity,refined liquids,1975,-10
+European Free Trade Association,electricity,biomass,1975,-10
+European Free Trade Association,electricity,nuclear,1975,-6
+European Free Trade Association,electricity,hydro,1975,-6
+European Free Trade Association,electricity,wind,1975,-6
+European Free Trade Association,electricity,solar,1975,-6
+European Free Trade Association,electricity,geothermal,1975,-6
+European Free Trade Association,elect_td_bld,rooftop_pv,1975,-6
+India,electricity,coal,1975,-10
+India,electricity,gas,1975,-10
+India,electricity,refined liquids,1975,-10
+India,electricity,biomass,1975,-10
+India,electricity,nuclear,1975,-6
+India,electricity,hydro,1975,-6
+India,electricity,wind,1975,-6
+India,electricity,solar,1975,-6
+India,electricity,geothermal,1975,-6
+India,elect_td_bld,rooftop_pv,1975,-6
+Indonesia,electricity,coal,1975,-10
+Indonesia,electricity,gas,1975,-10
+Indonesia,electricity,refined liquids,1975,-10
+Indonesia,electricity,biomass,1975,-10
+Indonesia,electricity,nuclear,1975,-6
+Indonesia,electricity,hydro,1975,-6
+Indonesia,electricity,wind,1975,-6
+Indonesia,electricity,solar,1975,-6
+Indonesia,electricity,geothermal,1975,-6
+Indonesia,elect_td_bld,rooftop_pv,1975,-6
+Japan,electricity,coal,1975,-10
+Japan,electricity,gas,1975,-10
+Japan,electricity,refined liquids,1975,-10
+Japan,electricity,biomass,1975,-10
+Japan,electricity,nuclear,1975,-6
+Japan,electricity,hydro,1975,-6
+Japan,electricity,wind,1975,-6
+Japan,electricity,solar,1975,-6
+Japan,electricity,geothermal,1975,-6
+Japan,elect_td_bld,rooftop_pv,1975,-6
+Mexico,electricity,coal,1975,-10
+Mexico,electricity,gas,1975,-10
+Mexico,electricity,refined liquids,1975,-10
+Mexico,electricity,biomass,1975,-10
+Mexico,electricity,nuclear,1975,-6
+Mexico,electricity,hydro,1975,-6
+Mexico,electricity,wind,1975,-6
+Mexico,electricity,solar,1975,-6
+Mexico,electricity,geothermal,1975,-6
+Mexico,elect_td_bld,rooftop_pv,1975,-6
+Middle East,electricity,coal,1975,-10
+Middle East,electricity,gas,1975,-10
+Middle East,electricity,refined liquids,1975,-10
+Middle East,electricity,biomass,1975,-10
+Middle East,electricity,nuclear,1975,-6
+Middle East,electricity,hydro,1975,-6
+Middle East,electricity,wind,1975,-6
+Middle East,electricity,solar,1975,-6
+Middle East,electricity,geothermal,1975,-6
+Middle East,elect_td_bld,rooftop_pv,1975,-6
+Pakistan,electricity,coal,1975,-10
+Pakistan,electricity,gas,1975,-10
+Pakistan,electricity,refined liquids,1975,-10
+Pakistan,electricity,biomass,1975,-10
+Pakistan,electricity,nuclear,1975,-6
+Pakistan,electricity,hydro,1975,-6
+Pakistan,electricity,wind,1975,-6
+Pakistan,electricity,solar,1975,-6
+Pakistan,electricity,geothermal,1975,-6
+Pakistan,elect_td_bld,rooftop_pv,1975,-6
+Russia,electricity,coal,1975,-10
+Russia,electricity,gas,1975,-10
+Russia,electricity,refined liquids,1975,-10
+Russia,electricity,biomass,1975,-10
+Russia,electricity,nuclear,1975,-6
+Russia,electricity,hydro,1975,-6
+Russia,electricity,wind,1975,-6
+Russia,electricity,solar,1975,-6
+Russia,electricity,geothermal,1975,-6
+Russia,elect_td_bld,rooftop_pv,1975,-6
+South Africa,electricity,coal,1975,-10
+South Africa,electricity,gas,1975,-10
+South Africa,electricity,refined liquids,1975,-10
+South Africa,electricity,biomass,1975,-10
+South Africa,electricity,nuclear,1975,-6
+South Africa,electricity,hydro,1975,-6
+South Africa,electricity,wind,1975,-6
+South Africa,electricity,solar,1975,-6
+South Africa,electricity,geothermal,1975,-6
+South Africa,elect_td_bld,rooftop_pv,1975,-6
+South America_Northern,electricity,coal,1975,-10
+South America_Northern,electricity,gas,1975,-10
+South America_Northern,electricity,refined liquids,1975,-10
+South America_Northern,electricity,biomass,1975,-10
+South America_Northern,electricity,nuclear,1975,-6
+South America_Northern,electricity,hydro,1975,-6
+South America_Northern,electricity,wind,1975,-6
+South America_Northern,electricity,solar,1975,-6
+South America_Northern,electricity,geothermal,1975,-6
+South America_Northern,elect_td_bld,rooftop_pv,1975,-6
+South America_Southern,electricity,coal,1975,-10
+South America_Southern,electricity,gas,1975,-10
+South America_Southern,electricity,refined liquids,1975,-10
+South America_Southern,electricity,biomass,1975,-10
+South America_Southern,electricity,nuclear,1975,-6
+South America_Southern,electricity,hydro,1975,-6
+South America_Southern,electricity,wind,1975,-6
+South America_Southern,electricity,solar,1975,-6
+South America_Southern,electricity,geothermal,1975,-6
+South America_Southern,elect_td_bld,rooftop_pv,1975,-6
+South Asia,electricity,coal,1975,-10
+South Asia,electricity,gas,1975,-10
+South Asia,electricity,refined liquids,1975,-10
+South Asia,electricity,biomass,1975,-10
+South Asia,electricity,nuclear,1975,-6
+South Asia,electricity,hydro,1975,-6
+South Asia,electricity,wind,1975,-6
+South Asia,electricity,solar,1975,-6
+South Asia,electricity,geothermal,1975,-6
+South Asia,elect_td_bld,rooftop_pv,1975,-6
+South Korea,electricity,coal,1975,-10
+South Korea,electricity,gas,1975,-10
+South Korea,electricity,refined liquids,1975,-10
+South Korea,electricity,biomass,1975,-10
+South Korea,electricity,nuclear,1975,-6
+South Korea,electricity,hydro,1975,-6
+South Korea,electricity,wind,1975,-6
+South Korea,electricity,solar,1975,-6
+South Korea,electricity,geothermal,1975,-6
+South Korea,elect_td_bld,rooftop_pv,1975,-6
+Southeast Asia,electricity,coal,1975,-10
+Southeast Asia,electricity,gas,1975,-10
+Southeast Asia,electricity,refined liquids,1975,-10
+Southeast Asia,electricity,biomass,1975,-10
+Southeast Asia,electricity,nuclear,1975,-6
+Southeast Asia,electricity,hydro,1975,-6
+Southeast Asia,electricity,wind,1975,-6
+Southeast Asia,electricity,solar,1975,-6
+Southeast Asia,electricity,geothermal,1975,-6
+Southeast Asia,elect_td_bld,rooftop_pv,1975,-6
+Taiwan,electricity,coal,1975,-10
+Taiwan,electricity,gas,1975,-10
+Taiwan,electricity,refined liquids,1975,-10
+Taiwan,electricity,biomass,1975,-10
+Taiwan,electricity,nuclear,1975,-6
+Taiwan,electricity,hydro,1975,-6
+Taiwan,electricity,wind,1975,-6
+Taiwan,electricity,solar,1975,-6
+Taiwan,electricity,geothermal,1975,-6
+Taiwan,elect_td_bld,rooftop_pv,1975,-6
+Argentina,electricity,coal,1975,-10
+Argentina,electricity,gas,1975,-10
+Argentina,electricity,refined liquids,1975,-10
+Argentina,electricity,biomass,1975,-10
+Argentina,electricity,nuclear,1975,-6
+Argentina,electricity,hydro,1975,-6
+Argentina,electricity,wind,1975,-6
+Argentina,electricity,solar,1975,-6
+Argentina,electricity,geothermal,1975,-6
+Argentina,elect_td_bld,rooftop_pv,1975,-6
+Colombia,electricity,coal,1975,-10
+Colombia,electricity,gas,1975,-10
+Colombia,electricity,refined liquids,1975,-10
+Colombia,electricity,biomass,1975,-10
+Colombia,electricity,nuclear,1975,-6
+Colombia,electricity,hydro,1975,-6
+Colombia,electricity,wind,1975,-6
+Colombia,electricity,solar,1975,-6
+Colombia,electricity,geothermal,1975,-6
+Colombia,elect_td_bld,rooftop_pv,1975,-6

@@ -1,0 +1,34 @@
+INPUT_TABLE
+Variable ID
+GlobalTechSCurve
+
+sector.name,subsector.name,technology,year,lifetime,steepness,half.life
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (once through),2010,60,0.1,30
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (seawater),2010,60,0.1,30
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (recirculating),2010,60,0.1,30
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (cooling pond),2010,60,0.1,30
+elec_coal (conv pul),coal (conv pul),coal (conv pul) (dry cooling),2010,60,0.1,30
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (once through),2010,60,0.1,30
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (seawater),2010,60,0.1,30
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (recirculating),2010,60,0.1,30
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (cooling pond),2010,60,0.1,30
+elec_gas (steam/CT),gas (steam/CT),gas (steam/CT) (dry cooling),2010,60,0.1,30
+elec_gas (CC),gas (CC),gas (CC) (once through),2010,60,0.1,30
+elec_gas (CC),gas (CC),gas (CC) (seawater),2010,60,0.1,30
+elec_gas (CC),gas (CC),gas (CC) (recirculating),2010,60,0.1,30
+elec_gas (CC),gas (CC),gas (CC) (cooling pond),2010,60,0.1,30
+elec_gas (CC),gas (CC),gas (CC) (dry cooling),2010,60,0.1,30
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (once through),2010,60,0.1,30
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (seawater),2010,60,0.1,30
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (recirculating),2010,60,0.1,30
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (cooling pond),2010,60,0.1,30
+elec_refined liquids (steam/CT),refined liquids (steam/CT),refined liquids (steam/CT) (dry cooling),2010,60,0.1,30
+elec_biomass (conv),biomass (conv),biomass (conv) (once through),2010,60,0.1,30
+elec_biomass (conv),biomass (conv),biomass (conv) (seawater),2010,60,0.1,30
+elec_biomass (conv),biomass (conv),biomass (conv) (recirculating),2010,60,0.1,30
+elec_biomass (conv),biomass (conv),biomass (conv) (cooling pond),2010,60,0.1,30
+elec_biomass (conv),biomass (conv),biomass (conv) (dry cooling),2010,60,0.1,30
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (once through),2010,60,0.1,30
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (seawater),2010,60,0.1,30
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (recirculating),2010,60,0.1,30
+elec_Gen_II_LWR,Gen_II_LWR,Gen_II_LWR (cooling pond),2010,60,0.1,30
