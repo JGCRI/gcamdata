@@ -1,0 +1,191 @@
+INPUT_TABLE
+Variable ID
+Supplysector
+
+region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent
+USA,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+USA,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+USA,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+USA,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+USA,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+USA,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Africa_Eastern,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Africa_Eastern,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Africa_Eastern,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Africa_Eastern,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Africa_Eastern,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Africa_Eastern,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Africa_Northern,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Africa_Northern,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Africa_Northern,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Africa_Northern,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Africa_Northern,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Africa_Northern,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Africa_Southern,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Africa_Southern,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Africa_Southern,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Africa_Southern,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Africa_Southern,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Africa_Southern,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Africa_Western,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Africa_Western,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Africa_Western,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Africa_Western,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Africa_Western,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Africa_Western,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Australia_NZ,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Australia_NZ,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Australia_NZ,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Australia_NZ,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Australia_NZ,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Australia_NZ,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Brazil,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Brazil,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Brazil,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Brazil,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Brazil,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Brazil,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Canada,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Canada,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Canada,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Canada,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Canada,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Canada,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Central America and Caribbean,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Central America and Caribbean,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Central America and Caribbean,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Central America and Caribbean,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Central America and Caribbean,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Central America and Caribbean,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Central Asia,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Central Asia,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Central Asia,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Central Asia,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Central Asia,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Central Asia,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+China,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+China,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+China,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+China,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+China,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+China,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+EU-12,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+EU-12,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+EU-12,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+EU-12,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+EU-12,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+EU-12,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+EU-15,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+EU-15,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+EU-15,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+EU-15,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+EU-15,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+EU-15,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Europe_Eastern,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Europe_Eastern,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Europe_Eastern,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Europe_Eastern,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Europe_Eastern,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Europe_Eastern,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Europe_Non_EU,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Europe_Non_EU,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Europe_Non_EU,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Europe_Non_EU,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Europe_Non_EU,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Europe_Non_EU,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+European Free Trade Association,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+European Free Trade Association,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+European Free Trade Association,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+European Free Trade Association,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+European Free Trade Association,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+European Free Trade Association,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+India,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+India,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+India,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+India,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+India,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+India,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Indonesia,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Indonesia,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Indonesia,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Indonesia,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Indonesia,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Indonesia,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Japan,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Japan,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Japan,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Japan,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Japan,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Japan,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Mexico,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Mexico,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Mexico,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Mexico,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Mexico,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Mexico,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Middle East,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Middle East,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Middle East,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Middle East,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Middle East,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Middle East,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Pakistan,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Pakistan,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Pakistan,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Pakistan,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Pakistan,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Pakistan,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Russia,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Russia,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Russia,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Russia,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Russia,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Russia,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+South Africa,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+South Africa,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+South Africa,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+South Africa,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+South Africa,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+South Africa,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+South America_Northern,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+South America_Northern,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+South America_Northern,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+South America_Northern,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+South America_Northern,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+South America_Northern,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+South America_Southern,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+South America_Southern,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+South America_Southern,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+South America_Southern,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+South America_Southern,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+South America_Southern,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+South Asia,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+South Asia,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+South Asia,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+South Asia,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+South Asia,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+South Asia,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+South Korea,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+South Korea,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+South Korea,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+South Korea,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+South Korea,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+South Korea,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Southeast Asia,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Southeast Asia,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Southeast Asia,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Southeast Asia,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Southeast Asia,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Southeast Asia,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Argentina,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Argentina,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Argentina,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Argentina,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Argentina,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Argentina,Exports_Meat,Mt,Mt,1975$/kg,1975,0
+Colombia,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0
+Colombia,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0
+Colombia,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0
+Colombia,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0
+Colombia,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0
+Colombia,Exports_Meat,Mt,Mt,1975$/kg,1975,0
