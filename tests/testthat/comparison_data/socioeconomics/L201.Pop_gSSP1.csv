@@ -1,0 +1,709 @@
+INPUT_TABLE
+Variable ID
+Pop
+
+region,year,totalPop
+USA,1975,222133
+Africa_Eastern,1975,98152
+Africa_Northern,1975,81664
+Africa_Southern,1975,53002
+Africa_Western,1975,161693
+Australia_NZ,1975,16973
+Brazil,1975,108224
+Canada,1975,23142
+Central America and Caribbean,1975,44882
+Central Asia,1975,52283
+China,1975,919644
+EU-12,1975,99055
+EU-15,1975,349576
+Europe_Eastern,1975,62222
+Europe_Non_EU,1975,60758
+European Free Trade Association,1975,10605
+India,1975,622097
+Indonesia,1975,134106
+Japan,1975,110808
+Mexico,1975,60225
+Middle East,1975,78497
+Pakistan,1975,68483
+Russia,1975,134233
+South Africa,1975,25699
+South America_Northern,1975,13851
+South America_Southern,1975,42863
+South Asia,1975,111771
+South Korea,1975,34722
+Southeast Asia,1975,208938
+Taiwan,1975,16081
+Argentina,1975,26079
+Colombia,1975,23961
+USA,1990,256971
+Africa_Eastern,1990,152395
+Africa_Northern,1990,119694
+Africa_Southern,1990,82371
+Africa_Western,1990,243864
+Australia_NZ,1990,20494
+Brazil,1990,149650
+Canada,1990,27701
+Central America and Caribbean,1990,59547
+Central Asia,1990,68820
+China,1990,1151349
+EU-12,1990,107019
+EU-15,1990,364443
+Europe_Eastern,1990,66269
+Europe_Non_EU,1990,78332
+European Free Trade Association,1990,11199
+India,1990,873785
+Indonesia,1990,184346
+Japan,1990,122251
+Mexico,1990,84307
+Middle East,1990,132332
+Pakistan,1990,111845
+Russia,1990,148244
+South Africa,1990,36794
+South America_Northern,1990,20934
+South America_Southern,1990,59145
+South Asia,1990,155484
+South Korea,1990,42980
+Southeast Asia,1990,287781
+Taiwan,1990,20233
+Argentina,1990,32642
+Colombia,1990,33203
+USA,2005,300712
+Africa_Eastern,2005,227408
+Africa_Northern,2005,153606
+Africa_Southern,2005,120072
+Africa_Western,2005,361978
+Australia_NZ,2005,24538
+Brazil,2005,185987
+Canada,2005,32283
+Central America and Caribbean,2005,75197
+Central Asia,2005,76041
+China,2005,1314885
+EU-12,2005,103910
+EU-15,2005,387381
+Europe_Eastern,2005,60516
+Europe_Non_EU,2005,92029
+European Free Trade Association,2005,12370
+India,2005,1140043
+Indonesia,2005,227303
+Japan,2005,126393
+Mexico,2005,106484
+Middle East,2005,190129
+Pakistan,2005,158645
+Russia,2005,143843
+South Africa,2005,47793
+South America_Northern,2005,28112
+South America_Southern,2005,75654
+South Asia,2005,216282
+South Korea,2005,47044
+Southeast Asia,2005,365562
+Taiwan,2005,22728
+Argentina,2005,38681
+Colombia,2005,43041
+USA,2010,314242
+Africa_Eastern,2010,258513
+Africa_Northern,2010,165907
+Africa_Southern,2010,135522
+Africa_Western,2010,411864
+Australia_NZ,2010,26637
+Brazil,2010,194946
+Canada,2010,34017
+Central America and Caribbean,2010,80249
+Central Asia,2010,80114
+China,2010,1348932
+EU-12,2010,103663
+EU-15,2010,397391
+Europe_Eastern,2010,58617
+Europe_Non_EU,2010,96668
+European Free Trade Association,2010,12904
+India,2010,1224614
+Indonesia,2010,239871
+Japan,2010,126536
+Mexico,2010,113423
+Middle East,2010,215480
+Pakistan,2010,173593
+Russia,2010,142958
+South Africa,2010,50133
+South America_Northern,2010,30490
+South America_Southern,2010,80408
+South Asia,2010,231965
+South Korea,2010,48184
+Southeast Asia,2010,388124
+Taiwan,2010,23216
+Argentina,2010,40412
+Colombia,2010,46295
+USA,2015,327023
+Africa_Eastern,2015,288888
+Africa_Northern,2015,176993
+Africa_Southern,2015,150592
+Africa_Western,2015,461002
+Australia_NZ,2015,28779
+Brazil,2015,202295
+Canada,2015,35901
+Central America and Caribbean,2015,84171
+Central Asia,2015,83429
+China,2015,1368436
+EU-12,2015,103468
+EU-15,2015,406547
+Europe_Eastern,2015,56886
+Europe_Non_EU,2015,100482
+European Free Trade Association,2015,13450
+India,2015,1297953
+Indonesia,2015,250506
+Japan,2015,126340
+Mexico,2015,119292
+Middle East,2015,238344
+Pakistan,2015,188197
+Russia,2015,142360
+South Africa,2015,52396
+South America_Northern,2015,32527
+South America_Southern,2015,84208
+South Asia,2015,246873
+South Korea,2015,48969
+Southeast Asia,2015,407518
+Taiwan,2015,23216
+Argentina,2015,41866
+Colombia,2015,49087
+USA,2020,340456
+Africa_Eastern,2020,319057
+Africa_Northern,2020,186682
+Africa_Southern,2020,165992
+Africa_Western,2020,511407
+Australia_NZ,2020,30902
+Brazil,2020,208260
+Canada,2020,37898
+Central America and Caribbean,2020,87318
+Central Asia,2020,86003
+China,2020,1379408
+EU-12,2020,103149
+EU-15,2020,414416
+Europe_Eastern,2020,55233
+Europe_Non_EU,2020,103568
+European Free Trade Association,2020,13983
+India,2020,1361281
+Indonesia,2020,259299
+Japan,2020,125483
+Mexico,2020,124230
+Middle East,2020,258423
+Pakistan,2020,202269
+Russia,2020,141243
+South Africa,2020,54709
+South America_Northern,2020,34289
+South America_Southern,2020,87270
+South Asia,2020,261286
+South Korea,2020,49590
+Southeast Asia,2020,424261
+Taiwan,2020,23216
+Argentina,2020,43044
+Colombia,2020,51481
+USA,2025,354057
+Africa_Eastern,2025,347984
+Africa_Northern,2025,194591
+Africa_Southern,2025,181124
+Africa_Western,2025,562145
+Australia_NZ,2025,33012
+Brazil,2025,212851
+Canada,2025,39903
+Central America and Caribbean,2025,89775
+Central Asia,2025,87675
+China,2025,1379362
+EU-12,2025,102637
+EU-15,2025,422110
+Europe_Eastern,2025,53718
+Europe_Non_EU,2025,106033
+European Free Trade Association,2025,14549
+India,2025,1415174
+Indonesia,2025,265939
+Japan,2025,124106
+Mexico,2025,128156
+Middle East,2025,276482
+Pakistan,2025,214784
+Russia,2025,139667
+South Africa,2025,56784
+South America_Northern,2025,35798
+South America_Southern,2025,89657
+South Asia,2025,273953
+South Korea,2025,50042
+Southeast Asia,2025,437648
+Taiwan,2025,23216
+Argentina,2025,43956
+Colombia,2025,53502
+USA,2030,367213
+Africa_Eastern,2030,374614
+Africa_Northern,2030,200726
+Africa_Southern,2030,195279
+Africa_Western,2030,611004
+Australia_NZ,2030,35030
+Brazil,2030,215840
+Canada,2030,41821
+Central America and Caribbean,2030,91495
+Central Asia,2030,88545
+China,2030,1368365
+EU-12,2030,101817
+EU-15,2030,429475
+Europe_Eastern,2030,52339
+Europe_Non_EU,2030,107859
+European Free Trade Association,2030,15116
+India,2030,1458929
+Indonesia,2030,270466
+Japan,2030,122372
+Mexico,2030,131005
+Middle East,2030,292539
+Pakistan,2030,225226
+Russia,2030,137807
+South Africa,2030,58468
+South America_Northern,2030,37031
+South America_Southern,2030,91327
+South Asia,2030,284327
+South Korea,2030,50283
+Southeast Asia,2030,447275
+Taiwan,2030,23216
+Argentina,2030,44611
+Colombia,2030,55123
+USA,2035,379917
+Africa_Eastern,2035,399676
+Africa_Northern,2035,205810
+Africa_Southern,2035,208964
+Africa_Western,2035,659661
+Australia_NZ,2035,36985
+Brazil,2035,217569
+Canada,2035,43650
+Central America and Caribbean,2035,92665
+Central Asia,2035,88975
+China,2035,1348131
+EU-12,2035,100747
+EU-15,2035,436676
+Europe_Eastern,2035,51102
+Europe_Non_EU,2035,109252
+European Free Trade Association,2035,15666
+India,2035,1495682
+Indonesia,2035,273396
+Japan,2035,120409
+Mexico,2035,133024
+Middle East,2035,307457
+Pakistan,2035,234342
+Russia,2035,136159
+South Africa,2035,59893
+South America_Northern,2035,38039
+South America_Southern,2035,92454
+South Asia,2035,292938
+South Korea,2035,50248
+Southeast Asia,2035,454127
+Taiwan,2035,23216
+Argentina,2035,45095
+Colombia,2035,56430
+USA,2040,392065
+Africa_Eastern,2040,422340
+Africa_Northern,2040,209812
+Africa_Southern,2040,221540
+Africa_Western,2040,706308
+Australia_NZ,2040,38915
+Brazil,2040,217973
+Canada,2040,45444
+Central America and Caribbean,2040,93226
+Central Asia,2040,88965
+China,2040,1318372
+EU-12,2040,99579
+EU-15,2040,443773
+Europe_Eastern,2040,49959
+Europe_Non_EU,2040,110117
+European Free Trade Association,2040,16199
+India,2040,1523660
+Indonesia,2040,274521
+Japan,2040,118294
+Mexico,2040,134126
+Middle East,2040,320778
+Pakistan,2040,242043
+Russia,2040,134630
+South Africa,2040,61035
+South America_Northern,2040,38778
+South America_Southern,2040,92988
+South Asia,2040,299493
+South Korea,2040,49904
+Southeast Asia,2040,457904
+Taiwan,2040,23216
+Argentina,2040,45367
+Colombia,2040,57370
+USA,2045,403360
+Africa_Eastern,2045,441957
+Africa_Northern,2045,212525
+Africa_Southern,2045,232577
+Africa_Western,2045,749234
+Australia_NZ,2045,40810
+Brazil,2045,217119
+Canada,2045,47224
+Central America and Caribbean,2045,93176
+Central Asia,2045,88401
+China,2045,1280034
+EU-12,2045,98339
+EU-15,2045,450401
+Europe_Eastern,2045,48795
+Europe_Non_EU,2045,110330
+European Free Trade Association,2045,16717
+India,2045,1542224
+Indonesia,2045,273772
+Japan,2045,116058
+Mexico,2045,134280
+Middle East,2045,331827
+Pakistan,2045,248078
+Russia,2045,132918
+South Africa,2045,61855
+South America_Northern,2045,39243
+South America_Southern,2045,92909
+South Asia,2045,303787
+South Korea,2045,49264
+Southeast Asia,2045,458394
+Taiwan,2045,23216
+Argentina,2045,45390
+Colombia,2045,57922
+USA,2050,414016
+Africa_Eastern,2050,458288
+Africa_Northern,2050,213764
+Africa_Southern,2050,241967
+Africa_Western,2050,787398
+Australia_NZ,2050,42636
+Brazil,2050,214893
+Canada,2050,48969
+Central America and Caribbean,2050,92547
+Central Asia,2050,87231
+China,2050,1234329
+EU-12,2050,96963
+EU-15,2050,456146
+Europe_Eastern,2050,47557
+Europe_Non_EU,2050,109847
+European Free Trade Association,2050,17217
+India,2050,1550397
+Indonesia,2050,271071
+Japan,2050,113714
+Mexico,2050,133522
+Middle East,2050,340196
+Pakistan,2050,252222
+Russia,2050,130788
+South Africa,2050,62344
+South America_Northern,2050,39442
+South America_Southern,2050,92241
+South Asia,2050,305735
+South Korea,2050,48351
+Southeast Asia,2050,455744
+Taiwan,2050,23216
+Argentina,2050,45173
+Colombia,2050,58090
+USA,2055,424346
+Africa_Eastern,2055,471606
+Africa_Northern,2055,213649
+Africa_Southern,2055,249904
+Africa_Western,2055,821011
+Australia_NZ,2055,44358
+Brazil,2055,211428
+Canada,2055,50646
+Central America and Caribbean,2055,91439
+Central Asia,2055,85584
+China,2055,1182924
+EU-12,2055,95393
+EU-15,2055,460806
+Europe_Eastern,2055,46262
+Europe_Non_EU,2055,108766
+European Free Trade Association,2055,17688
+India,2055,1548521
+Indonesia,2055,266646
+Japan,2055,111324
+Mexico,2055,132026
+Middle East,2055,346105
+Pakistan,2055,254627
+Russia,2055,128355
+South Africa,2055,62471
+South America_Northern,2055,39415
+South America_Southern,2055,91087
+South Asia,2055,305650
+South Korea,2055,47215
+Southeast Asia,2055,450535
+Taiwan,2055,23216
+Argentina,2055,44762
+Colombia,2055,57932
+USA,2060,434591
+Africa_Eastern,2060,482021
+Africa_Northern,2060,212272
+Africa_Southern,2060,256421
+Africa_Western,2060,850012
+Australia_NZ,2060,45962
+Brazil,2060,206803
+Canada,2060,52240
+Central America and Caribbean,2060,89896
+Central Asia,2060,83572
+China,2060,1127193
+EU-12,2060,93605
+EU-15,2060,464498
+Europe_Eastern,2060,44940
+Europe_Non_EU,2060,107174
+European Free Trade Association,2060,18124
+India,2060,1536252
+Indonesia,2060,260655
+Japan,2060,108560
+Mexico,2060,129884
+Middle East,2060,349724
+Pakistan,2060,255356
+Russia,2060,125733
+South Africa,2060,62215
+South America_Northern,2060,39176
+South America_Southern,2060,89493
+South Asia,2060,303655
+South Korea,2060,45917
+Southeast Asia,2060,443176
+Taiwan,2060,23216
+Argentina,2060,44177
+Colombia,2060,57473
+USA,2065,444306
+Africa_Eastern,2065,489763
+Africa_Northern,2065,209886
+Africa_Southern,2065,261656
+Africa_Western,2065,874744
+Australia_NZ,2065,47307
+Brazil,2065,201168
+Canada,2065,53645
+Central America and Caribbean,2065,88100
+Central Asia,2065,81361
+China,2065,1068585
+EU-12,2065,91504
+EU-15,2065,466425
+Europe_Eastern,2065,43506
+Europe_Non_EU,2065,105088
+European Free Trade Association,2065,18463
+India,2065,1513670
+Indonesia,2065,253356
+Japan,2065,105281
+Mexico,2065,127397
+Middle East,2065,351206
+Pakistan,2065,254687
+Russia,2065,122747
+South Africa,2065,61587
+South America_Northern,2065,38734
+South America_Southern,2065,87622
+South Asia,2065,300208
+South Korea,2065,44504
+Southeast Asia,2065,434018
+Taiwan,2065,23216
+Argentina,2065,43445
+Colombia,2065,56752
+USA,2070,453285
+Africa_Eastern,2070,494731
+Africa_Northern,2070,206537
+Africa_Southern,2070,265490
+Africa_Western,2070,894814
+Australia_NZ,2070,48368
+Brazil,2070,194680
+Canada,2070,54767
+Central America and Caribbean,2070,86069
+Central Asia,2070,78950
+China,2070,1008852
+EU-12,2070,89140
+EU-15,2070,466554
+Europe_Eastern,2070,41959
+Europe_Non_EU,2070,102548
+European Free Trade Association,2070,18702
+India,2070,1481442
+Indonesia,2070,245009
+Japan,2070,101598
+Mexico,2070,124605
+Middle East,2070,350542
+Pakistan,2070,252655
+Russia,2070,119382
+South Africa,2070,60580
+South America_Northern,2070,38100
+South America_Southern,2070,85482
+South Asia,2070,295379
+South Korea,2070,42917
+Southeast Asia,2070,423241
+Taiwan,2070,23216
+Argentina,2070,42562
+Colombia,2070,55786
+USA,2075,461302
+Africa_Eastern,2075,496836
+Africa_Northern,2075,202241
+Africa_Southern,2075,267886
+Africa_Western,2075,909965
+Australia_NZ,2075,49160
+Brazil,2075,187439
+Canada,2075,55610
+Central America and Caribbean,2075,83804
+Central Asia,2075,76311
+China,2075,949170
+EU-12,2075,86557
+EU-15,2075,464971
+Europe_Eastern,2075,40291
+Europe_Non_EU,2075,99571
+European Free Trade Association,2075,18854
+India,2075,1440148
+Indonesia,2075,235810
+Japan,2075,97678
+Mexico,2075,121548
+Middle East,2075,347722
+Pakistan,2075,249253
+Russia,2075,115575
+South Africa,2075,59213
+South America_Northern,2075,37284
+South America_Southern,2075,83055
+South Asia,2075,289235
+South Korea,2075,41147
+Southeast Asia,2075,410864
+Taiwan,2075,23216
+Argentina,2075,41530
+Colombia,2075,54593
+USA,2080,467265
+Africa_Eastern,2080,496166
+Africa_Northern,2080,197080
+Africa_Southern,2080,268893
+Africa_Western,2080,920197
+Australia_NZ,2080,49595
+Brazil,2080,179584
+Canada,2080,56171
+Central America and Caribbean,2080,81278
+Central Asia,2080,73450
+China,2080,889381
+EU-12,2080,83752
+EU-15,2080,461958
+Europe_Eastern,2080,38513
+Europe_Non_EU,2080,96189
+European Free Trade Association,2080,18909
+India,2080,1390771
+Indonesia,2080,225992
+Japan,2080,93649
+Mexico,2080,118263
+Middle East,2080,342901
+Pakistan,2080,244545
+Russia,2080,111316
+South Africa,2080,57540
+South America_Northern,2080,36301
+South America_Southern,2080,80354
+South Asia,2080,281880
+South Korea,2080,39309
+Southeast Asia,2080,396994
+Taiwan,2080,23216
+Argentina,2080,40356
+Colombia,2080,53185
+USA,2085,470822
+Africa_Eastern,2085,492851
+Africa_Northern,2085,191205
+Africa_Southern,2085,268565
+Africa_Western,2085,925749
+Australia_NZ,2085,49638
+Brazil,2085,171168
+Canada,2085,56298
+Central America and Caribbean,2085,78501
+Central Asia,2085,70431
+China,2085,829296
+EU-12,2085,80733
+EU-15,2085,456831
+Europe_Eastern,2085,36673
+Europe_Non_EU,2085,92482
+European Free Trade Association,2085,18860
+India,2085,1334355
+Indonesia,2085,215720
+Japan,2085,89408
+Mexico,2085,114407
+Middle East,2085,336066
+Pakistan,2085,238698
+Russia,2085,106778
+South Africa,2085,55624
+South America_Northern,2085,35142
+South America_Southern,2085,77366
+South Asia,2085,273465
+South Korea,2085,37484
+Southeast Asia,2085,381744
+Taiwan,2085,23216
+Argentina,2085,38935
+Colombia,2085,51553
+USA,2090,472314
+Africa_Eastern,2090,487040
+Africa_Northern,2090,184845
+Africa_Southern,2090,266927
+Africa_Western,2090,926832
+Australia_NZ,2090,49324
+Brazil,2090,161790
+Canada,2090,56000
+Central America and Caribbean,2090,75485
+Central Asia,2090,67352
+China,2090,769792
+EU-12,2090,77538
+EU-15,2090,449781
+Europe_Eastern,2090,34826
+Europe_Non_EU,2090,88529
+European Free Trade Association,2090,18715
+India,2090,1272411
+Indonesia,2090,205160
+Japan,2090,85155
+Mexico,2090,110054
+Middle East,2090,327538
+Pakistan,2090,231953
+Russia,2090,102158
+South Africa,2090,53526
+South America_Northern,2090,33734
+South America_Southern,2090,74103
+South Asia,2090,264082
+South Korea,2090,35664
+Southeast Asia,2090,365102
+Taiwan,2090,23216
+Argentina,2090,37319
+Colombia,2090,49582
+USA,2095,471376
+Africa_Eastern,2095,478938
+Africa_Northern,2095,178108
+Africa_Southern,2095,263994
+Africa_Western,2095,923668
+Australia_NZ,2095,48724
+Brazil,2095,151778
+Canada,2095,55359
+Central America and Caribbean,2095,72185
+Central Asia,2095,64294
+China,2095,710487
+EU-12,2095,74337
+EU-15,2095,441373
+Europe_Eastern,2095,32995
+Europe_Non_EU,2095,84402
+European Free Trade Association,2095,18489
+India,2095,1206553
+Indonesia,2095,194444
+Japan,2095,80988
+Mexico,2095,105231
+Middle East,2095,317367
+Pakistan,2095,224540
+Russia,2095,97559
+South Africa,2095,51285
+South America_Northern,2095,32125
+South America_Southern,2095,70533
+South Asia,2095,253930
+South Korea,2095,33785
+Southeast Asia,2095,347561
+Taiwan,2095,23216
+Argentina,2095,35563
+Colombia,2095,47341
+USA,2100,467930
+Africa_Eastern,2100,468775
+Africa_Northern,2100,170660
+Africa_Southern,2100,259834
+Africa_Western,2100,916461
+Australia_NZ,2100,47905
+Brazil,2100,141412
+Canada,2100,54469
+Central America and Caribbean,2100,68627
+Central Asia,2100,61276
+China,2100,650857
+EU-12,2100,71189
+EU-15,2100,431987
+Europe_Eastern,2100,31081
+Europe_Non_EU,2100,79842
+European Free Trade Association,2100,18198
+India,2100,1138436
+Indonesia,2100,183659
+Japan,2100,76936
+Mexico,2100,99745
+Middle East,2100,305468
+Pakistan,2100,216638
+Russia,2100,92534
+South Africa,2100,48935
+South America_Northern,2100,30369
+South America_Southern,2100,66709
+South Asia,2100,243140
+South Korea,2100,31937
+Southeast Asia,2100,329299
+Taiwan,2100,23216
+Argentina,2100,33709
+Colombia,2100,44903
