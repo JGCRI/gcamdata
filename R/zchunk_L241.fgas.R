@@ -8,12 +8,11 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L241.hfc_all}, \code{L241.pfc_all}, \code{L241.hfc_future}, \code{L241.fgas_all_units}. The corresponding file in the
 #' original data system was \code{L241.fgas.R} (emissions level2).
-#' @details Describe in detail what this chunk does. KALYN
+#' @details This chunk
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
-#' @author YourInitials CurrentMonthName 2017 KALYN
-#' @export
+#' @author KD July 2017
 module_emissions_L241.fgas <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "common/GCAM_region_names",
@@ -53,12 +52,11 @@ module_emissions_L241.fgas <- function(command, ...) {
     # HFC emissions
     # L241.hfc: F-gas emissions for technologies in all regions
     # #Interpolate and add region name
-
     L141.hfc_R_S_T_Yh %>%
       filter(year %in% BASE_YEARS) %>%
       left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID") %>%
       mutate(input.emissions = round(value, emissions.DIGITS)) %>%
-      select(-GCAM_region_ID, -value) -> #do i need spaces between teh - and teh word??/
+      select(-GCAM_region_ID, -value) -> #do i need spaces between the - and the word??/
       L241.hfc_all
 
 
@@ -107,13 +105,11 @@ module_emissions_L241.fgas <- function(command, ...) {
        mutate(USA_factor = if_else(Non.CO2 == "HFC134a", USA_factor/3, USA_factor)) -> # replace was not working
        L241.hfc_cool_ef_2010_USfactor
 
-# dim good
      L241.hfc_cool_ef_2010_USfactor %>%
        filter(USA_factor > value) %>%
        rename("2010" = `value`, "2030" = `USA_factor`) %>%
        select(-year) ->
        L241.hfc_cool_ef_update
-# dim good
 
      L241.hfc_cool_ef_update %>%
        mutate(`2015` = `2010`+(5 / 20)*(`2030` - `2010`)) %>%
@@ -136,8 +132,6 @@ module_emissions_L241.fgas <- function(command, ...) {
        left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID") ->
        L241.hfc_ef_2010
 
-     # Okay kalyn stopped here, you are having problems with matching by species and keeping data, some is droped
-     # i think you might be doing a right join or something idk...
      #Use Data from Guus Velders to Update EF in the near term for non-cooling
      FUT_EMISS_GV %>%
        select(-Emissions, -GDP) %>%
@@ -151,8 +145,8 @@ module_emissions_L241.fgas <- function(command, ...) {
        mutate(Ratio_2030 =  `2030` / `2010`) ->
        L241.FUT_EF_Ratio
 
-     # Because there are different number of flournated gases in the two data sets we can used left join here because
-     # we ecpect that there will be NA values, utlimately the NA values will be removed.
+     # Because there are different number of fgas gases in the two data sets we can used left join here because
+     # we expect that there will be NA values, ultimately the NA values will be removed.
      L241.hfc_ef_2010 %>%
        left_join(L241.FUT_EF_Ratio, by = c("Non.CO2" = "Species")) %>%
        mutate(`2020` = value * Ratio_2020) %>%
@@ -175,22 +169,27 @@ module_emissions_L241.fgas <- function(command, ...) {
        select(region, supplysector, subsector, stub.technology, year, Non.CO2, emiss.coeff) ->
        L241.hfc_future
 
-     if(OLD_DATA_SYSTEM_BEHAVIOR){
-       # Now subset only the relevant techonologies and gases (i.e., drop ones whose values are zero in all years). The old data system
-       # fails to drop techonologies and gases that have zero emissions in all years. I talked to Kate and she said that this
-       # this has no implications for model performance. The if(OLD_DATA_SYSTEM_BEHVAIOR) is technically uncessary because the 0s
+     # I commented this section out just in case it was causing some issues.
+   #  if(OLD_DATA_SYSTEM_BEHAVIOR){
+       # Now subset only the relevant technologies and gases (i.e., drop ones whose values are zero in all years). The old data system
+       # fails to drop technologies and gases that have zero emissions in all years. I talked to Kate and she said that this
+       # this has no implications for model performance. The if(OLD_DATA_SYSTEM_BEHVAIOR) is technically unnecessary because the 0s
        # can be left in.
-
-     }else{
-
-       # Subset so that only the relevant technologies and gases (i.e., those whose emission values are zero for all years are dropped).
        L241.hfc_all %>%
-         spread(year, input.emissions) %>%
-         mutate(yrsum = rowSums(.[grep(YEAR_PATTERN, names(.))])) %>%
-         filter(yrsum != 0) %>%
-         gather(year, input.emissions, grep(YEAR_PATTERN, names(.))) ->
+         mutate(year = as.numeric(year)) ->
          L241.hfc_all
-     } # end of if old data system
+
+     # }else{
+     #
+     #   # Subset so that only the relevant technologies and gases (i.e., those whose emission values are zero for all years are dropped).
+     #   L241.hfc_all %>%
+     #     spread(year, input.emissions) %>%
+     #     mutate(yrsum = rowSums(.[grep(YEAR_PATTERN, names(.))])) %>%
+     #     filter(yrsum != 0) %>%
+     #     gather(year, input.emissions, grep(YEAR_PATTERN, names(.))) %>%
+     #     mutate(year = as.numeric(year)) ->
+     #     L241.hfc_all
+     # } # end of if old data system
 
      # Set the units string for all fgases
      L241.pfc_all %>%
@@ -201,7 +200,8 @@ module_emissions_L241.fgas <- function(command, ...) {
        mutate(emissions.unit = emissions.F_GAS_UNITS) ->
        L241.fgas_all_units
 
-     # Formating the data frames to write as csv. Add value and year to columns.
+     # Formating the data frames to write as csv. Add value and year to columns. Now the columns names of the
+     # new.csv files do not match
      L241.hfc_all %>%
        rename(value = `input.emissions`) ->
        L241.hfc_all
@@ -218,9 +218,6 @@ module_emissions_L241.fgas <- function(command, ...) {
        rename(value = `emissions.unit`) ->
        L241.fgas_all_units
 
-     # THERE IS SOME ISSUE WIHT THE WAY THAT THIS INFOMRATION IS STORED!!!! WHEN TRYING TO WRITE THE TIBBLES I GET
-     # Error during wrapup: Each variable must be a 1d atomic vector or list.
-     # Problem variables: 'L241.fgas_all_units'
 
     # ===================================================
 
@@ -277,7 +274,8 @@ module_emissions_L241.fgas <- function(command, ...) {
       add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
       L241.fgas_all_units
 
-    return_data(L241.hfc_all, L241.pfc_all, L241.hfc_future, L241.fgas_all_units)
+   return_data(L241.hfc_all, L241.pfc_all, L241.hfc_future, L241.fgas_all_units)
+
   } else {
     stop("Unknown command")
   }
