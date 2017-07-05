@@ -230,9 +230,7 @@ module_emissions_L241.fgas <- function(command, ...) {
       add_legacy_name("L241.hfc_all") %>%
       add_precursors("common/GCAM_region_names", "emissions/A_regions", "emissions/FUT_EMISS_GV",
                      "temp-data-inject/L141.hfc_R_S_T_Yh", "temp-data-inject/L142.pfc_R_S_T_Yh",
-                     "temp-data-inject/L141.hfc_ef_R_cooling_Yh") %>%
-      # typical flags, but there are others--see `constants.R`
-      add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
+                     "temp-data-inject/L141.hfc_ef_R_cooling_Yh") ->
       L241.hfc_all
 
     L241.pfc_all %>%
@@ -243,9 +241,7 @@ module_emissions_L241.fgas <- function(command, ...) {
       add_legacy_name("L241.pfc_all") %>%
       add_precursors("common/GCAM_region_names", "emissions/A_regions", "emissions/FUT_EMISS_GV",
                      "temp-data-inject/L141.hfc_R_S_T_Yh", "temp-data-inject/L142.pfc_R_S_T_Yh",
-                     "temp-data-inject/L141.hfc_ef_R_cooling_Yh") %>%
-      # typical flags, but there are others--see `constants.R`
-      add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
+                     "temp-data-inject/L141.hfc_ef_R_cooling_Yh") ->
       L241.pfc_all
 
     L241.hfc_future %>%
@@ -256,9 +252,7 @@ module_emissions_L241.fgas <- function(command, ...) {
       add_legacy_name("L241.hfc_future") %>%
       add_precursors("common/GCAM_region_names", "emissions/A_regions", "emissions/FUT_EMISS_GV",
                      "temp-data-inject/L141.hfc_R_S_T_Yh", "temp-data-inject/L142.pfc_R_S_T_Yh",
-                     "temp-data-inject/L141.hfc_ef_R_cooling_Yh") %>%
-      # typical flags, but there are others--see `constants.R`
-      add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
+                     "temp-data-inject/L141.hfc_ef_R_cooling_Yh") ->
       L241.hfc_future
 
     L241.fgas_all_units %>%
@@ -269,9 +263,7 @@ module_emissions_L241.fgas <- function(command, ...) {
       add_legacy_name("L241.fgas_all_units") %>%
       add_precursors("common/GCAM_region_names", "emissions/A_regions", "emissions/FUT_EMISS_GV",
                      "temp-data-inject/L141.hfc_R_S_T_Yh", "temp-data-inject/L142.pfc_R_S_T_Yh",
-                     "temp-data-inject/L141.hfc_ef_R_cooling_Yh") %>%
-      # typical flags, but there are others--see `constants.R`
-      add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
+                     "temp-data-inject/L141.hfc_ef_R_cooling_Yh") ->
       L241.fgas_all_units
 
    return_data(L241.hfc_all, L241.pfc_all, L241.hfc_future, L241.fgas_all_units)
@@ -280,4 +272,3 @@ module_emissions_L241.fgas <- function(command, ...) {
     stop("Unknown command")
   }
 }
-
