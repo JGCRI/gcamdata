@@ -1,0 +1,1245 @@
+INPUT_TABLE
+Variable ID
+SubsectorLogit_relative-cost-logit
+
+region,supplysector,subsector,logit.type
+USA,FoodDemand_Crops,Corn,relative-cost-logit
+USA,FoodDemand_Crops,FiberCrop,relative-cost-logit
+USA,FoodDemand_Crops,MiscCrop,relative-cost-logit
+USA,FoodDemand_Crops,OilCrop,relative-cost-logit
+USA,FoodDemand_Crops,OtherGrain,relative-cost-logit
+USA,FoodDemand_Crops,PalmFruit,relative-cost-logit
+USA,FoodDemand_Crops,Rice,relative-cost-logit
+USA,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+USA,FoodDemand_Crops,SugarCrop,relative-cost-logit
+USA,FoodDemand_Crops,Wheat,relative-cost-logit
+USA,FoodDemand_Meat,Beef,relative-cost-logit
+USA,FoodDemand_Meat,Dairy,relative-cost-logit
+USA,FoodDemand_Meat,Pork,relative-cost-logit
+USA,FoodDemand_Meat,Poultry,relative-cost-logit
+USA,FoodDemand_Meat,SheepGoat,relative-cost-logit
+USA,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+USA,NonFoodDemand_Crops,Corn,relative-cost-logit
+USA,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+USA,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+USA,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+USA,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+USA,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+USA,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+USA,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+USA,NonFoodDemand_Crops,Rice,relative-cost-logit
+USA,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+USA,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+USA,NonFoodDemand_Crops,Wheat,relative-cost-logit
+USA,NonFoodDemand_Meat,Beef,relative-cost-logit
+USA,NonFoodDemand_Meat,Dairy,relative-cost-logit
+USA,NonFoodDemand_Meat,Pork,relative-cost-logit
+USA,NonFoodDemand_Meat,Poultry,relative-cost-logit
+USA,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+USA,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+USA,NonFoodDemand_Forest,Forest,relative-cost-logit
+USA,Exports_Meat,Beef,relative-cost-logit
+USA,Exports_Meat,Dairy,relative-cost-logit
+USA,Exports_Meat,Pork,relative-cost-logit
+USA,Exports_Meat,Poultry,relative-cost-logit
+USA,Exports_Meat,SheepGoat,relative-cost-logit
+Africa_Eastern,FoodDemand_Crops,Corn,relative-cost-logit
+Africa_Eastern,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Africa_Eastern,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Africa_Eastern,FoodDemand_Crops,OilCrop,relative-cost-logit
+Africa_Eastern,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Africa_Eastern,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Africa_Eastern,FoodDemand_Crops,Rice,relative-cost-logit
+Africa_Eastern,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Africa_Eastern,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Africa_Eastern,FoodDemand_Crops,Wheat,relative-cost-logit
+Africa_Eastern,FoodDemand_Meat,Beef,relative-cost-logit
+Africa_Eastern,FoodDemand_Meat,Dairy,relative-cost-logit
+Africa_Eastern,FoodDemand_Meat,Pork,relative-cost-logit
+Africa_Eastern,FoodDemand_Meat,Poultry,relative-cost-logit
+Africa_Eastern,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Africa_Eastern,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Crops,Corn,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Crops,Rice,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Meat,Beef,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Meat,Pork,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Africa_Eastern,NonFoodDemand_Forest,Forest,relative-cost-logit
+Africa_Eastern,Exports_Meat,Beef,relative-cost-logit
+Africa_Eastern,Exports_Meat,Dairy,relative-cost-logit
+Africa_Eastern,Exports_Meat,Pork,relative-cost-logit
+Africa_Eastern,Exports_Meat,Poultry,relative-cost-logit
+Africa_Eastern,Exports_Meat,SheepGoat,relative-cost-logit
+Africa_Northern,FoodDemand_Crops,Corn,relative-cost-logit
+Africa_Northern,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Africa_Northern,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Africa_Northern,FoodDemand_Crops,OilCrop,relative-cost-logit
+Africa_Northern,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Africa_Northern,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Africa_Northern,FoodDemand_Crops,Rice,relative-cost-logit
+Africa_Northern,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Africa_Northern,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Africa_Northern,FoodDemand_Crops,Wheat,relative-cost-logit
+Africa_Northern,FoodDemand_Meat,Beef,relative-cost-logit
+Africa_Northern,FoodDemand_Meat,Dairy,relative-cost-logit
+Africa_Northern,FoodDemand_Meat,Pork,relative-cost-logit
+Africa_Northern,FoodDemand_Meat,Poultry,relative-cost-logit
+Africa_Northern,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Africa_Northern,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Africa_Northern,NonFoodDemand_Crops,Corn,relative-cost-logit
+Africa_Northern,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Africa_Northern,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Africa_Northern,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Africa_Northern,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Africa_Northern,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Africa_Northern,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Africa_Northern,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Africa_Northern,NonFoodDemand_Crops,Rice,relative-cost-logit
+Africa_Northern,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Africa_Northern,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Africa_Northern,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Africa_Northern,NonFoodDemand_Meat,Beef,relative-cost-logit
+Africa_Northern,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Africa_Northern,NonFoodDemand_Meat,Pork,relative-cost-logit
+Africa_Northern,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Africa_Northern,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Africa_Northern,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Africa_Northern,NonFoodDemand_Forest,Forest,relative-cost-logit
+Africa_Northern,Exports_Meat,Beef,relative-cost-logit
+Africa_Northern,Exports_Meat,Dairy,relative-cost-logit
+Africa_Northern,Exports_Meat,Pork,relative-cost-logit
+Africa_Northern,Exports_Meat,Poultry,relative-cost-logit
+Africa_Northern,Exports_Meat,SheepGoat,relative-cost-logit
+Africa_Southern,FoodDemand_Crops,Corn,relative-cost-logit
+Africa_Southern,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Africa_Southern,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Africa_Southern,FoodDemand_Crops,OilCrop,relative-cost-logit
+Africa_Southern,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Africa_Southern,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Africa_Southern,FoodDemand_Crops,Rice,relative-cost-logit
+Africa_Southern,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Africa_Southern,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Africa_Southern,FoodDemand_Crops,Wheat,relative-cost-logit
+Africa_Southern,FoodDemand_Meat,Beef,relative-cost-logit
+Africa_Southern,FoodDemand_Meat,Dairy,relative-cost-logit
+Africa_Southern,FoodDemand_Meat,Pork,relative-cost-logit
+Africa_Southern,FoodDemand_Meat,Poultry,relative-cost-logit
+Africa_Southern,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Africa_Southern,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Africa_Southern,NonFoodDemand_Crops,Corn,relative-cost-logit
+Africa_Southern,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Africa_Southern,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Africa_Southern,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Africa_Southern,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Africa_Southern,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Africa_Southern,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Africa_Southern,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Africa_Southern,NonFoodDemand_Crops,Rice,relative-cost-logit
+Africa_Southern,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Africa_Southern,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Africa_Southern,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Africa_Southern,NonFoodDemand_Meat,Beef,relative-cost-logit
+Africa_Southern,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Africa_Southern,NonFoodDemand_Meat,Pork,relative-cost-logit
+Africa_Southern,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Africa_Southern,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Africa_Southern,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Africa_Southern,NonFoodDemand_Forest,Forest,relative-cost-logit
+Africa_Southern,Exports_Meat,Beef,relative-cost-logit
+Africa_Southern,Exports_Meat,Dairy,relative-cost-logit
+Africa_Southern,Exports_Meat,Pork,relative-cost-logit
+Africa_Southern,Exports_Meat,Poultry,relative-cost-logit
+Africa_Southern,Exports_Meat,SheepGoat,relative-cost-logit
+Africa_Western,FoodDemand_Crops,Corn,relative-cost-logit
+Africa_Western,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Africa_Western,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Africa_Western,FoodDemand_Crops,OilCrop,relative-cost-logit
+Africa_Western,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Africa_Western,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Africa_Western,FoodDemand_Crops,Rice,relative-cost-logit
+Africa_Western,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Africa_Western,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Africa_Western,FoodDemand_Crops,Wheat,relative-cost-logit
+Africa_Western,FoodDemand_Meat,Beef,relative-cost-logit
+Africa_Western,FoodDemand_Meat,Dairy,relative-cost-logit
+Africa_Western,FoodDemand_Meat,Pork,relative-cost-logit
+Africa_Western,FoodDemand_Meat,Poultry,relative-cost-logit
+Africa_Western,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Africa_Western,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Africa_Western,NonFoodDemand_Crops,Corn,relative-cost-logit
+Africa_Western,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Africa_Western,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Africa_Western,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Africa_Western,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Africa_Western,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Africa_Western,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Africa_Western,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Africa_Western,NonFoodDemand_Crops,Rice,relative-cost-logit
+Africa_Western,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Africa_Western,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Africa_Western,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Africa_Western,NonFoodDemand_Meat,Beef,relative-cost-logit
+Africa_Western,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Africa_Western,NonFoodDemand_Meat,Pork,relative-cost-logit
+Africa_Western,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Africa_Western,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Africa_Western,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Africa_Western,NonFoodDemand_Forest,Forest,relative-cost-logit
+Africa_Western,Exports_Meat,Beef,relative-cost-logit
+Africa_Western,Exports_Meat,Dairy,relative-cost-logit
+Africa_Western,Exports_Meat,Pork,relative-cost-logit
+Africa_Western,Exports_Meat,Poultry,relative-cost-logit
+Africa_Western,Exports_Meat,SheepGoat,relative-cost-logit
+Australia_NZ,FoodDemand_Crops,Corn,relative-cost-logit
+Australia_NZ,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Australia_NZ,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Australia_NZ,FoodDemand_Crops,OilCrop,relative-cost-logit
+Australia_NZ,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Australia_NZ,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Australia_NZ,FoodDemand_Crops,Rice,relative-cost-logit
+Australia_NZ,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Australia_NZ,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Australia_NZ,FoodDemand_Crops,Wheat,relative-cost-logit
+Australia_NZ,FoodDemand_Meat,Beef,relative-cost-logit
+Australia_NZ,FoodDemand_Meat,Dairy,relative-cost-logit
+Australia_NZ,FoodDemand_Meat,Pork,relative-cost-logit
+Australia_NZ,FoodDemand_Meat,Poultry,relative-cost-logit
+Australia_NZ,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Australia_NZ,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Australia_NZ,NonFoodDemand_Crops,Corn,relative-cost-logit
+Australia_NZ,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Australia_NZ,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Australia_NZ,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Australia_NZ,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Australia_NZ,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Australia_NZ,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Australia_NZ,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Australia_NZ,NonFoodDemand_Crops,Rice,relative-cost-logit
+Australia_NZ,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Australia_NZ,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Australia_NZ,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Australia_NZ,NonFoodDemand_Meat,Beef,relative-cost-logit
+Australia_NZ,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Australia_NZ,NonFoodDemand_Meat,Pork,relative-cost-logit
+Australia_NZ,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Australia_NZ,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Australia_NZ,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Australia_NZ,NonFoodDemand_Forest,Forest,relative-cost-logit
+Australia_NZ,Exports_Meat,Beef,relative-cost-logit
+Australia_NZ,Exports_Meat,Dairy,relative-cost-logit
+Australia_NZ,Exports_Meat,Pork,relative-cost-logit
+Australia_NZ,Exports_Meat,Poultry,relative-cost-logit
+Australia_NZ,Exports_Meat,SheepGoat,relative-cost-logit
+Brazil,FoodDemand_Crops,Corn,relative-cost-logit
+Brazil,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Brazil,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Brazil,FoodDemand_Crops,OilCrop,relative-cost-logit
+Brazil,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Brazil,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Brazil,FoodDemand_Crops,Rice,relative-cost-logit
+Brazil,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Brazil,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Brazil,FoodDemand_Crops,Wheat,relative-cost-logit
+Brazil,FoodDemand_Meat,Beef,relative-cost-logit
+Brazil,FoodDemand_Meat,Dairy,relative-cost-logit
+Brazil,FoodDemand_Meat,Pork,relative-cost-logit
+Brazil,FoodDemand_Meat,Poultry,relative-cost-logit
+Brazil,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Brazil,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Brazil,NonFoodDemand_Crops,Corn,relative-cost-logit
+Brazil,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Brazil,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Brazil,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Brazil,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Brazil,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Brazil,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Brazil,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Brazil,NonFoodDemand_Crops,Rice,relative-cost-logit
+Brazil,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Brazil,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Brazil,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Brazil,NonFoodDemand_Meat,Beef,relative-cost-logit
+Brazil,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Brazil,NonFoodDemand_Meat,Pork,relative-cost-logit
+Brazil,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Brazil,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Brazil,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Brazil,NonFoodDemand_Forest,Forest,relative-cost-logit
+Brazil,Exports_Meat,Beef,relative-cost-logit
+Brazil,Exports_Meat,Dairy,relative-cost-logit
+Brazil,Exports_Meat,Pork,relative-cost-logit
+Brazil,Exports_Meat,Poultry,relative-cost-logit
+Brazil,Exports_Meat,SheepGoat,relative-cost-logit
+Canada,FoodDemand_Crops,Corn,relative-cost-logit
+Canada,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Canada,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Canada,FoodDemand_Crops,OilCrop,relative-cost-logit
+Canada,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Canada,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Canada,FoodDemand_Crops,Rice,relative-cost-logit
+Canada,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Canada,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Canada,FoodDemand_Crops,Wheat,relative-cost-logit
+Canada,FoodDemand_Meat,Beef,relative-cost-logit
+Canada,FoodDemand_Meat,Dairy,relative-cost-logit
+Canada,FoodDemand_Meat,Pork,relative-cost-logit
+Canada,FoodDemand_Meat,Poultry,relative-cost-logit
+Canada,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Canada,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Canada,NonFoodDemand_Crops,Corn,relative-cost-logit
+Canada,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Canada,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Canada,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Canada,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Canada,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Canada,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Canada,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Canada,NonFoodDemand_Crops,Rice,relative-cost-logit
+Canada,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Canada,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Canada,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Canada,NonFoodDemand_Meat,Beef,relative-cost-logit
+Canada,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Canada,NonFoodDemand_Meat,Pork,relative-cost-logit
+Canada,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Canada,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Canada,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Canada,NonFoodDemand_Forest,Forest,relative-cost-logit
+Canada,Exports_Meat,Beef,relative-cost-logit
+Canada,Exports_Meat,Dairy,relative-cost-logit
+Canada,Exports_Meat,Pork,relative-cost-logit
+Canada,Exports_Meat,Poultry,relative-cost-logit
+Canada,Exports_Meat,SheepGoat,relative-cost-logit
+Central America and Caribbean,FoodDemand_Crops,Corn,relative-cost-logit
+Central America and Caribbean,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Central America and Caribbean,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Central America and Caribbean,FoodDemand_Crops,OilCrop,relative-cost-logit
+Central America and Caribbean,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Central America and Caribbean,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Central America and Caribbean,FoodDemand_Crops,Rice,relative-cost-logit
+Central America and Caribbean,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Central America and Caribbean,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Central America and Caribbean,FoodDemand_Crops,Wheat,relative-cost-logit
+Central America and Caribbean,FoodDemand_Meat,Beef,relative-cost-logit
+Central America and Caribbean,FoodDemand_Meat,Dairy,relative-cost-logit
+Central America and Caribbean,FoodDemand_Meat,Pork,relative-cost-logit
+Central America and Caribbean,FoodDemand_Meat,Poultry,relative-cost-logit
+Central America and Caribbean,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Central America and Caribbean,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Crops,Corn,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Crops,Rice,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Meat,Beef,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Meat,Pork,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Central America and Caribbean,NonFoodDemand_Forest,Forest,relative-cost-logit
+Central America and Caribbean,Exports_Meat,Beef,relative-cost-logit
+Central America and Caribbean,Exports_Meat,Dairy,relative-cost-logit
+Central America and Caribbean,Exports_Meat,Pork,relative-cost-logit
+Central America and Caribbean,Exports_Meat,Poultry,relative-cost-logit
+Central America and Caribbean,Exports_Meat,SheepGoat,relative-cost-logit
+Central Asia,FoodDemand_Crops,Corn,relative-cost-logit
+Central Asia,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Central Asia,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Central Asia,FoodDemand_Crops,OilCrop,relative-cost-logit
+Central Asia,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Central Asia,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Central Asia,FoodDemand_Crops,Rice,relative-cost-logit
+Central Asia,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Central Asia,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Central Asia,FoodDemand_Crops,Wheat,relative-cost-logit
+Central Asia,FoodDemand_Meat,Beef,relative-cost-logit
+Central Asia,FoodDemand_Meat,Dairy,relative-cost-logit
+Central Asia,FoodDemand_Meat,Pork,relative-cost-logit
+Central Asia,FoodDemand_Meat,Poultry,relative-cost-logit
+Central Asia,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Central Asia,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Central Asia,NonFoodDemand_Crops,Corn,relative-cost-logit
+Central Asia,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Central Asia,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Central Asia,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Central Asia,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Central Asia,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Central Asia,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Central Asia,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Central Asia,NonFoodDemand_Crops,Rice,relative-cost-logit
+Central Asia,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Central Asia,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Central Asia,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Central Asia,NonFoodDemand_Meat,Beef,relative-cost-logit
+Central Asia,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Central Asia,NonFoodDemand_Meat,Pork,relative-cost-logit
+Central Asia,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Central Asia,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Central Asia,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Central Asia,NonFoodDemand_Forest,Forest,relative-cost-logit
+Central Asia,Exports_Meat,Beef,relative-cost-logit
+Central Asia,Exports_Meat,Dairy,relative-cost-logit
+Central Asia,Exports_Meat,Pork,relative-cost-logit
+Central Asia,Exports_Meat,Poultry,relative-cost-logit
+Central Asia,Exports_Meat,SheepGoat,relative-cost-logit
+China,FoodDemand_Crops,Corn,relative-cost-logit
+China,FoodDemand_Crops,FiberCrop,relative-cost-logit
+China,FoodDemand_Crops,MiscCrop,relative-cost-logit
+China,FoodDemand_Crops,OilCrop,relative-cost-logit
+China,FoodDemand_Crops,OtherGrain,relative-cost-logit
+China,FoodDemand_Crops,PalmFruit,relative-cost-logit
+China,FoodDemand_Crops,Rice,relative-cost-logit
+China,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+China,FoodDemand_Crops,SugarCrop,relative-cost-logit
+China,FoodDemand_Crops,Wheat,relative-cost-logit
+China,FoodDemand_Meat,Beef,relative-cost-logit
+China,FoodDemand_Meat,Dairy,relative-cost-logit
+China,FoodDemand_Meat,Pork,relative-cost-logit
+China,FoodDemand_Meat,Poultry,relative-cost-logit
+China,FoodDemand_Meat,SheepGoat,relative-cost-logit
+China,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+China,NonFoodDemand_Crops,Corn,relative-cost-logit
+China,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+China,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+China,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+China,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+China,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+China,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+China,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+China,NonFoodDemand_Crops,Rice,relative-cost-logit
+China,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+China,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+China,NonFoodDemand_Crops,Wheat,relative-cost-logit
+China,NonFoodDemand_Meat,Beef,relative-cost-logit
+China,NonFoodDemand_Meat,Dairy,relative-cost-logit
+China,NonFoodDemand_Meat,Pork,relative-cost-logit
+China,NonFoodDemand_Meat,Poultry,relative-cost-logit
+China,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+China,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+China,NonFoodDemand_Forest,Forest,relative-cost-logit
+China,Exports_Meat,Beef,relative-cost-logit
+China,Exports_Meat,Dairy,relative-cost-logit
+China,Exports_Meat,Pork,relative-cost-logit
+China,Exports_Meat,Poultry,relative-cost-logit
+China,Exports_Meat,SheepGoat,relative-cost-logit
+EU-12,FoodDemand_Crops,Corn,relative-cost-logit
+EU-12,FoodDemand_Crops,FiberCrop,relative-cost-logit
+EU-12,FoodDemand_Crops,MiscCrop,relative-cost-logit
+EU-12,FoodDemand_Crops,OilCrop,relative-cost-logit
+EU-12,FoodDemand_Crops,OtherGrain,relative-cost-logit
+EU-12,FoodDemand_Crops,PalmFruit,relative-cost-logit
+EU-12,FoodDemand_Crops,Rice,relative-cost-logit
+EU-12,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+EU-12,FoodDemand_Crops,SugarCrop,relative-cost-logit
+EU-12,FoodDemand_Crops,Wheat,relative-cost-logit
+EU-12,FoodDemand_Meat,Beef,relative-cost-logit
+EU-12,FoodDemand_Meat,Dairy,relative-cost-logit
+EU-12,FoodDemand_Meat,Pork,relative-cost-logit
+EU-12,FoodDemand_Meat,Poultry,relative-cost-logit
+EU-12,FoodDemand_Meat,SheepGoat,relative-cost-logit
+EU-12,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+EU-12,NonFoodDemand_Crops,Corn,relative-cost-logit
+EU-12,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+EU-12,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+EU-12,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+EU-12,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+EU-12,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+EU-12,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+EU-12,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+EU-12,NonFoodDemand_Crops,Rice,relative-cost-logit
+EU-12,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+EU-12,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+EU-12,NonFoodDemand_Crops,Wheat,relative-cost-logit
+EU-12,NonFoodDemand_Meat,Beef,relative-cost-logit
+EU-12,NonFoodDemand_Meat,Dairy,relative-cost-logit
+EU-12,NonFoodDemand_Meat,Pork,relative-cost-logit
+EU-12,NonFoodDemand_Meat,Poultry,relative-cost-logit
+EU-12,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+EU-12,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+EU-12,NonFoodDemand_Forest,Forest,relative-cost-logit
+EU-12,Exports_Meat,Beef,relative-cost-logit
+EU-12,Exports_Meat,Dairy,relative-cost-logit
+EU-12,Exports_Meat,Pork,relative-cost-logit
+EU-12,Exports_Meat,Poultry,relative-cost-logit
+EU-12,Exports_Meat,SheepGoat,relative-cost-logit
+EU-15,FoodDemand_Crops,Corn,relative-cost-logit
+EU-15,FoodDemand_Crops,FiberCrop,relative-cost-logit
+EU-15,FoodDemand_Crops,MiscCrop,relative-cost-logit
+EU-15,FoodDemand_Crops,OilCrop,relative-cost-logit
+EU-15,FoodDemand_Crops,OtherGrain,relative-cost-logit
+EU-15,FoodDemand_Crops,PalmFruit,relative-cost-logit
+EU-15,FoodDemand_Crops,Rice,relative-cost-logit
+EU-15,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+EU-15,FoodDemand_Crops,SugarCrop,relative-cost-logit
+EU-15,FoodDemand_Crops,Wheat,relative-cost-logit
+EU-15,FoodDemand_Meat,Beef,relative-cost-logit
+EU-15,FoodDemand_Meat,Dairy,relative-cost-logit
+EU-15,FoodDemand_Meat,Pork,relative-cost-logit
+EU-15,FoodDemand_Meat,Poultry,relative-cost-logit
+EU-15,FoodDemand_Meat,SheepGoat,relative-cost-logit
+EU-15,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+EU-15,NonFoodDemand_Crops,Corn,relative-cost-logit
+EU-15,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+EU-15,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+EU-15,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+EU-15,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+EU-15,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+EU-15,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+EU-15,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+EU-15,NonFoodDemand_Crops,Rice,relative-cost-logit
+EU-15,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+EU-15,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+EU-15,NonFoodDemand_Crops,Wheat,relative-cost-logit
+EU-15,NonFoodDemand_Meat,Beef,relative-cost-logit
+EU-15,NonFoodDemand_Meat,Dairy,relative-cost-logit
+EU-15,NonFoodDemand_Meat,Pork,relative-cost-logit
+EU-15,NonFoodDemand_Meat,Poultry,relative-cost-logit
+EU-15,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+EU-15,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+EU-15,NonFoodDemand_Forest,Forest,relative-cost-logit
+EU-15,Exports_Meat,Beef,relative-cost-logit
+EU-15,Exports_Meat,Dairy,relative-cost-logit
+EU-15,Exports_Meat,Pork,relative-cost-logit
+EU-15,Exports_Meat,Poultry,relative-cost-logit
+EU-15,Exports_Meat,SheepGoat,relative-cost-logit
+Europe_Eastern,FoodDemand_Crops,Corn,relative-cost-logit
+Europe_Eastern,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Europe_Eastern,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Europe_Eastern,FoodDemand_Crops,OilCrop,relative-cost-logit
+Europe_Eastern,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Europe_Eastern,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Europe_Eastern,FoodDemand_Crops,Rice,relative-cost-logit
+Europe_Eastern,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Europe_Eastern,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Europe_Eastern,FoodDemand_Crops,Wheat,relative-cost-logit
+Europe_Eastern,FoodDemand_Meat,Beef,relative-cost-logit
+Europe_Eastern,FoodDemand_Meat,Dairy,relative-cost-logit
+Europe_Eastern,FoodDemand_Meat,Pork,relative-cost-logit
+Europe_Eastern,FoodDemand_Meat,Poultry,relative-cost-logit
+Europe_Eastern,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Europe_Eastern,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Crops,Corn,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Crops,Rice,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Meat,Beef,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Meat,Pork,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Europe_Eastern,NonFoodDemand_Forest,Forest,relative-cost-logit
+Europe_Eastern,Exports_Meat,Beef,relative-cost-logit
+Europe_Eastern,Exports_Meat,Dairy,relative-cost-logit
+Europe_Eastern,Exports_Meat,Pork,relative-cost-logit
+Europe_Eastern,Exports_Meat,Poultry,relative-cost-logit
+Europe_Eastern,Exports_Meat,SheepGoat,relative-cost-logit
+Europe_Non_EU,FoodDemand_Crops,Corn,relative-cost-logit
+Europe_Non_EU,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Europe_Non_EU,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Europe_Non_EU,FoodDemand_Crops,OilCrop,relative-cost-logit
+Europe_Non_EU,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Europe_Non_EU,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Europe_Non_EU,FoodDemand_Crops,Rice,relative-cost-logit
+Europe_Non_EU,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Europe_Non_EU,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Europe_Non_EU,FoodDemand_Crops,Wheat,relative-cost-logit
+Europe_Non_EU,FoodDemand_Meat,Beef,relative-cost-logit
+Europe_Non_EU,FoodDemand_Meat,Dairy,relative-cost-logit
+Europe_Non_EU,FoodDemand_Meat,Pork,relative-cost-logit
+Europe_Non_EU,FoodDemand_Meat,Poultry,relative-cost-logit
+Europe_Non_EU,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Europe_Non_EU,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Crops,Corn,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Crops,Rice,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Meat,Beef,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Meat,Pork,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Europe_Non_EU,NonFoodDemand_Forest,Forest,relative-cost-logit
+Europe_Non_EU,Exports_Meat,Beef,relative-cost-logit
+Europe_Non_EU,Exports_Meat,Dairy,relative-cost-logit
+Europe_Non_EU,Exports_Meat,Pork,relative-cost-logit
+Europe_Non_EU,Exports_Meat,Poultry,relative-cost-logit
+Europe_Non_EU,Exports_Meat,SheepGoat,relative-cost-logit
+European Free Trade Association,FoodDemand_Crops,Corn,relative-cost-logit
+European Free Trade Association,FoodDemand_Crops,FiberCrop,relative-cost-logit
+European Free Trade Association,FoodDemand_Crops,MiscCrop,relative-cost-logit
+European Free Trade Association,FoodDemand_Crops,OilCrop,relative-cost-logit
+European Free Trade Association,FoodDemand_Crops,OtherGrain,relative-cost-logit
+European Free Trade Association,FoodDemand_Crops,PalmFruit,relative-cost-logit
+European Free Trade Association,FoodDemand_Crops,Rice,relative-cost-logit
+European Free Trade Association,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+European Free Trade Association,FoodDemand_Crops,SugarCrop,relative-cost-logit
+European Free Trade Association,FoodDemand_Crops,Wheat,relative-cost-logit
+European Free Trade Association,FoodDemand_Meat,Beef,relative-cost-logit
+European Free Trade Association,FoodDemand_Meat,Dairy,relative-cost-logit
+European Free Trade Association,FoodDemand_Meat,Pork,relative-cost-logit
+European Free Trade Association,FoodDemand_Meat,Poultry,relative-cost-logit
+European Free Trade Association,FoodDemand_Meat,SheepGoat,relative-cost-logit
+European Free Trade Association,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Crops,Corn,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Crops,Rice,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Crops,Wheat,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Meat,Beef,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Meat,Dairy,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Meat,Pork,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Meat,Poultry,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+European Free Trade Association,NonFoodDemand_Forest,Forest,relative-cost-logit
+European Free Trade Association,Exports_Meat,Beef,relative-cost-logit
+European Free Trade Association,Exports_Meat,Dairy,relative-cost-logit
+European Free Trade Association,Exports_Meat,Pork,relative-cost-logit
+European Free Trade Association,Exports_Meat,Poultry,relative-cost-logit
+European Free Trade Association,Exports_Meat,SheepGoat,relative-cost-logit
+India,FoodDemand_Crops,Corn,relative-cost-logit
+India,FoodDemand_Crops,FiberCrop,relative-cost-logit
+India,FoodDemand_Crops,MiscCrop,relative-cost-logit
+India,FoodDemand_Crops,OilCrop,relative-cost-logit
+India,FoodDemand_Crops,OtherGrain,relative-cost-logit
+India,FoodDemand_Crops,PalmFruit,relative-cost-logit
+India,FoodDemand_Crops,Rice,relative-cost-logit
+India,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+India,FoodDemand_Crops,SugarCrop,relative-cost-logit
+India,FoodDemand_Crops,Wheat,relative-cost-logit
+India,FoodDemand_Meat,Beef,relative-cost-logit
+India,FoodDemand_Meat,Dairy,relative-cost-logit
+India,FoodDemand_Meat,Pork,relative-cost-logit
+India,FoodDemand_Meat,Poultry,relative-cost-logit
+India,FoodDemand_Meat,SheepGoat,relative-cost-logit
+India,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+India,NonFoodDemand_Crops,Corn,relative-cost-logit
+India,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+India,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+India,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+India,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+India,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+India,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+India,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+India,NonFoodDemand_Crops,Rice,relative-cost-logit
+India,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+India,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+India,NonFoodDemand_Crops,Wheat,relative-cost-logit
+India,NonFoodDemand_Meat,Beef,relative-cost-logit
+India,NonFoodDemand_Meat,Dairy,relative-cost-logit
+India,NonFoodDemand_Meat,Pork,relative-cost-logit
+India,NonFoodDemand_Meat,Poultry,relative-cost-logit
+India,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+India,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+India,NonFoodDemand_Forest,Forest,relative-cost-logit
+India,Exports_Meat,Beef,relative-cost-logit
+India,Exports_Meat,Dairy,relative-cost-logit
+India,Exports_Meat,Pork,relative-cost-logit
+India,Exports_Meat,Poultry,relative-cost-logit
+India,Exports_Meat,SheepGoat,relative-cost-logit
+Indonesia,FoodDemand_Crops,Corn,relative-cost-logit
+Indonesia,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Indonesia,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Indonesia,FoodDemand_Crops,OilCrop,relative-cost-logit
+Indonesia,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Indonesia,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Indonesia,FoodDemand_Crops,Rice,relative-cost-logit
+Indonesia,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Indonesia,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Indonesia,FoodDemand_Crops,Wheat,relative-cost-logit
+Indonesia,FoodDemand_Meat,Beef,relative-cost-logit
+Indonesia,FoodDemand_Meat,Dairy,relative-cost-logit
+Indonesia,FoodDemand_Meat,Pork,relative-cost-logit
+Indonesia,FoodDemand_Meat,Poultry,relative-cost-logit
+Indonesia,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Indonesia,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Indonesia,NonFoodDemand_Crops,Corn,relative-cost-logit
+Indonesia,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Indonesia,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Indonesia,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Indonesia,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Indonesia,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Indonesia,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Indonesia,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Indonesia,NonFoodDemand_Crops,Rice,relative-cost-logit
+Indonesia,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Indonesia,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Indonesia,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Indonesia,NonFoodDemand_Meat,Beef,relative-cost-logit
+Indonesia,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Indonesia,NonFoodDemand_Meat,Pork,relative-cost-logit
+Indonesia,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Indonesia,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Indonesia,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Indonesia,NonFoodDemand_Forest,Forest,relative-cost-logit
+Indonesia,Exports_Meat,Beef,relative-cost-logit
+Indonesia,Exports_Meat,Dairy,relative-cost-logit
+Indonesia,Exports_Meat,Pork,relative-cost-logit
+Indonesia,Exports_Meat,Poultry,relative-cost-logit
+Indonesia,Exports_Meat,SheepGoat,relative-cost-logit
+Japan,FoodDemand_Crops,Corn,relative-cost-logit
+Japan,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Japan,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Japan,FoodDemand_Crops,OilCrop,relative-cost-logit
+Japan,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Japan,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Japan,FoodDemand_Crops,Rice,relative-cost-logit
+Japan,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Japan,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Japan,FoodDemand_Crops,Wheat,relative-cost-logit
+Japan,FoodDemand_Meat,Beef,relative-cost-logit
+Japan,FoodDemand_Meat,Dairy,relative-cost-logit
+Japan,FoodDemand_Meat,Pork,relative-cost-logit
+Japan,FoodDemand_Meat,Poultry,relative-cost-logit
+Japan,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Japan,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Japan,NonFoodDemand_Crops,Corn,relative-cost-logit
+Japan,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Japan,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Japan,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Japan,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Japan,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Japan,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Japan,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Japan,NonFoodDemand_Crops,Rice,relative-cost-logit
+Japan,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Japan,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Japan,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Japan,NonFoodDemand_Meat,Beef,relative-cost-logit
+Japan,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Japan,NonFoodDemand_Meat,Pork,relative-cost-logit
+Japan,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Japan,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Japan,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Japan,NonFoodDemand_Forest,Forest,relative-cost-logit
+Japan,Exports_Meat,Beef,relative-cost-logit
+Japan,Exports_Meat,Dairy,relative-cost-logit
+Japan,Exports_Meat,Pork,relative-cost-logit
+Japan,Exports_Meat,Poultry,relative-cost-logit
+Japan,Exports_Meat,SheepGoat,relative-cost-logit
+Mexico,FoodDemand_Crops,Corn,relative-cost-logit
+Mexico,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Mexico,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Mexico,FoodDemand_Crops,OilCrop,relative-cost-logit
+Mexico,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Mexico,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Mexico,FoodDemand_Crops,Rice,relative-cost-logit
+Mexico,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Mexico,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Mexico,FoodDemand_Crops,Wheat,relative-cost-logit
+Mexico,FoodDemand_Meat,Beef,relative-cost-logit
+Mexico,FoodDemand_Meat,Dairy,relative-cost-logit
+Mexico,FoodDemand_Meat,Pork,relative-cost-logit
+Mexico,FoodDemand_Meat,Poultry,relative-cost-logit
+Mexico,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Mexico,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Mexico,NonFoodDemand_Crops,Corn,relative-cost-logit
+Mexico,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Mexico,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Mexico,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Mexico,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Mexico,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Mexico,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Mexico,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Mexico,NonFoodDemand_Crops,Rice,relative-cost-logit
+Mexico,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Mexico,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Mexico,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Mexico,NonFoodDemand_Meat,Beef,relative-cost-logit
+Mexico,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Mexico,NonFoodDemand_Meat,Pork,relative-cost-logit
+Mexico,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Mexico,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Mexico,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Mexico,NonFoodDemand_Forest,Forest,relative-cost-logit
+Mexico,Exports_Meat,Beef,relative-cost-logit
+Mexico,Exports_Meat,Dairy,relative-cost-logit
+Mexico,Exports_Meat,Pork,relative-cost-logit
+Mexico,Exports_Meat,Poultry,relative-cost-logit
+Mexico,Exports_Meat,SheepGoat,relative-cost-logit
+Middle East,FoodDemand_Crops,Corn,relative-cost-logit
+Middle East,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Middle East,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Middle East,FoodDemand_Crops,OilCrop,relative-cost-logit
+Middle East,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Middle East,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Middle East,FoodDemand_Crops,Rice,relative-cost-logit
+Middle East,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Middle East,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Middle East,FoodDemand_Crops,Wheat,relative-cost-logit
+Middle East,FoodDemand_Meat,Beef,relative-cost-logit
+Middle East,FoodDemand_Meat,Dairy,relative-cost-logit
+Middle East,FoodDemand_Meat,Pork,relative-cost-logit
+Middle East,FoodDemand_Meat,Poultry,relative-cost-logit
+Middle East,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Middle East,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Middle East,NonFoodDemand_Crops,Corn,relative-cost-logit
+Middle East,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Middle East,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Middle East,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Middle East,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Middle East,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Middle East,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Middle East,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Middle East,NonFoodDemand_Crops,Rice,relative-cost-logit
+Middle East,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Middle East,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Middle East,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Middle East,NonFoodDemand_Meat,Beef,relative-cost-logit
+Middle East,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Middle East,NonFoodDemand_Meat,Pork,relative-cost-logit
+Middle East,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Middle East,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Middle East,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Middle East,NonFoodDemand_Forest,Forest,relative-cost-logit
+Middle East,Exports_Meat,Beef,relative-cost-logit
+Middle East,Exports_Meat,Dairy,relative-cost-logit
+Middle East,Exports_Meat,Pork,relative-cost-logit
+Middle East,Exports_Meat,Poultry,relative-cost-logit
+Middle East,Exports_Meat,SheepGoat,relative-cost-logit
+Pakistan,FoodDemand_Crops,Corn,relative-cost-logit
+Pakistan,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Pakistan,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Pakistan,FoodDemand_Crops,OilCrop,relative-cost-logit
+Pakistan,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Pakistan,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Pakistan,FoodDemand_Crops,Rice,relative-cost-logit
+Pakistan,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Pakistan,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Pakistan,FoodDemand_Crops,Wheat,relative-cost-logit
+Pakistan,FoodDemand_Meat,Beef,relative-cost-logit
+Pakistan,FoodDemand_Meat,Dairy,relative-cost-logit
+Pakistan,FoodDemand_Meat,Pork,relative-cost-logit
+Pakistan,FoodDemand_Meat,Poultry,relative-cost-logit
+Pakistan,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Pakistan,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Pakistan,NonFoodDemand_Crops,Corn,relative-cost-logit
+Pakistan,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Pakistan,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Pakistan,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Pakistan,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Pakistan,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Pakistan,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Pakistan,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Pakistan,NonFoodDemand_Crops,Rice,relative-cost-logit
+Pakistan,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Pakistan,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Pakistan,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Pakistan,NonFoodDemand_Meat,Beef,relative-cost-logit
+Pakistan,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Pakistan,NonFoodDemand_Meat,Pork,relative-cost-logit
+Pakistan,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Pakistan,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Pakistan,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Pakistan,NonFoodDemand_Forest,Forest,relative-cost-logit
+Pakistan,Exports_Meat,Beef,relative-cost-logit
+Pakistan,Exports_Meat,Dairy,relative-cost-logit
+Pakistan,Exports_Meat,Pork,relative-cost-logit
+Pakistan,Exports_Meat,Poultry,relative-cost-logit
+Pakistan,Exports_Meat,SheepGoat,relative-cost-logit
+Russia,FoodDemand_Crops,Corn,relative-cost-logit
+Russia,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Russia,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Russia,FoodDemand_Crops,OilCrop,relative-cost-logit
+Russia,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Russia,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Russia,FoodDemand_Crops,Rice,relative-cost-logit
+Russia,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Russia,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Russia,FoodDemand_Crops,Wheat,relative-cost-logit
+Russia,FoodDemand_Meat,Beef,relative-cost-logit
+Russia,FoodDemand_Meat,Dairy,relative-cost-logit
+Russia,FoodDemand_Meat,Pork,relative-cost-logit
+Russia,FoodDemand_Meat,Poultry,relative-cost-logit
+Russia,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Russia,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Russia,NonFoodDemand_Crops,Corn,relative-cost-logit
+Russia,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Russia,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Russia,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Russia,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Russia,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Russia,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Russia,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Russia,NonFoodDemand_Crops,Rice,relative-cost-logit
+Russia,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Russia,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Russia,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Russia,NonFoodDemand_Meat,Beef,relative-cost-logit
+Russia,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Russia,NonFoodDemand_Meat,Pork,relative-cost-logit
+Russia,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Russia,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Russia,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Russia,NonFoodDemand_Forest,Forest,relative-cost-logit
+Russia,Exports_Meat,Beef,relative-cost-logit
+Russia,Exports_Meat,Dairy,relative-cost-logit
+Russia,Exports_Meat,Pork,relative-cost-logit
+Russia,Exports_Meat,Poultry,relative-cost-logit
+Russia,Exports_Meat,SheepGoat,relative-cost-logit
+South Africa,FoodDemand_Crops,Corn,relative-cost-logit
+South Africa,FoodDemand_Crops,FiberCrop,relative-cost-logit
+South Africa,FoodDemand_Crops,MiscCrop,relative-cost-logit
+South Africa,FoodDemand_Crops,OilCrop,relative-cost-logit
+South Africa,FoodDemand_Crops,OtherGrain,relative-cost-logit
+South Africa,FoodDemand_Crops,PalmFruit,relative-cost-logit
+South Africa,FoodDemand_Crops,Rice,relative-cost-logit
+South Africa,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+South Africa,FoodDemand_Crops,SugarCrop,relative-cost-logit
+South Africa,FoodDemand_Crops,Wheat,relative-cost-logit
+South Africa,FoodDemand_Meat,Beef,relative-cost-logit
+South Africa,FoodDemand_Meat,Dairy,relative-cost-logit
+South Africa,FoodDemand_Meat,Pork,relative-cost-logit
+South Africa,FoodDemand_Meat,Poultry,relative-cost-logit
+South Africa,FoodDemand_Meat,SheepGoat,relative-cost-logit
+South Africa,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+South Africa,NonFoodDemand_Crops,Corn,relative-cost-logit
+South Africa,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+South Africa,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+South Africa,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+South Africa,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+South Africa,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+South Africa,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+South Africa,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+South Africa,NonFoodDemand_Crops,Rice,relative-cost-logit
+South Africa,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+South Africa,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+South Africa,NonFoodDemand_Crops,Wheat,relative-cost-logit
+South Africa,NonFoodDemand_Meat,Beef,relative-cost-logit
+South Africa,NonFoodDemand_Meat,Dairy,relative-cost-logit
+South Africa,NonFoodDemand_Meat,Pork,relative-cost-logit
+South Africa,NonFoodDemand_Meat,Poultry,relative-cost-logit
+South Africa,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+South Africa,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+South Africa,NonFoodDemand_Forest,Forest,relative-cost-logit
+South Africa,Exports_Meat,Beef,relative-cost-logit
+South Africa,Exports_Meat,Dairy,relative-cost-logit
+South Africa,Exports_Meat,Pork,relative-cost-logit
+South Africa,Exports_Meat,Poultry,relative-cost-logit
+South Africa,Exports_Meat,SheepGoat,relative-cost-logit
+South America_Northern,FoodDemand_Crops,Corn,relative-cost-logit
+South America_Northern,FoodDemand_Crops,FiberCrop,relative-cost-logit
+South America_Northern,FoodDemand_Crops,MiscCrop,relative-cost-logit
+South America_Northern,FoodDemand_Crops,OilCrop,relative-cost-logit
+South America_Northern,FoodDemand_Crops,OtherGrain,relative-cost-logit
+South America_Northern,FoodDemand_Crops,PalmFruit,relative-cost-logit
+South America_Northern,FoodDemand_Crops,Rice,relative-cost-logit
+South America_Northern,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+South America_Northern,FoodDemand_Crops,SugarCrop,relative-cost-logit
+South America_Northern,FoodDemand_Crops,Wheat,relative-cost-logit
+South America_Northern,FoodDemand_Meat,Beef,relative-cost-logit
+South America_Northern,FoodDemand_Meat,Dairy,relative-cost-logit
+South America_Northern,FoodDemand_Meat,Pork,relative-cost-logit
+South America_Northern,FoodDemand_Meat,Poultry,relative-cost-logit
+South America_Northern,FoodDemand_Meat,SheepGoat,relative-cost-logit
+South America_Northern,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+South America_Northern,NonFoodDemand_Crops,Corn,relative-cost-logit
+South America_Northern,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+South America_Northern,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+South America_Northern,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+South America_Northern,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+South America_Northern,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+South America_Northern,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+South America_Northern,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+South America_Northern,NonFoodDemand_Crops,Rice,relative-cost-logit
+South America_Northern,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+South America_Northern,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+South America_Northern,NonFoodDemand_Crops,Wheat,relative-cost-logit
+South America_Northern,NonFoodDemand_Meat,Beef,relative-cost-logit
+South America_Northern,NonFoodDemand_Meat,Dairy,relative-cost-logit
+South America_Northern,NonFoodDemand_Meat,Pork,relative-cost-logit
+South America_Northern,NonFoodDemand_Meat,Poultry,relative-cost-logit
+South America_Northern,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+South America_Northern,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+South America_Northern,NonFoodDemand_Forest,Forest,relative-cost-logit
+South America_Northern,Exports_Meat,Beef,relative-cost-logit
+South America_Northern,Exports_Meat,Dairy,relative-cost-logit
+South America_Northern,Exports_Meat,Pork,relative-cost-logit
+South America_Northern,Exports_Meat,Poultry,relative-cost-logit
+South America_Northern,Exports_Meat,SheepGoat,relative-cost-logit
+South America_Southern,FoodDemand_Crops,Corn,relative-cost-logit
+South America_Southern,FoodDemand_Crops,FiberCrop,relative-cost-logit
+South America_Southern,FoodDemand_Crops,MiscCrop,relative-cost-logit
+South America_Southern,FoodDemand_Crops,OilCrop,relative-cost-logit
+South America_Southern,FoodDemand_Crops,OtherGrain,relative-cost-logit
+South America_Southern,FoodDemand_Crops,PalmFruit,relative-cost-logit
+South America_Southern,FoodDemand_Crops,Rice,relative-cost-logit
+South America_Southern,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+South America_Southern,FoodDemand_Crops,SugarCrop,relative-cost-logit
+South America_Southern,FoodDemand_Crops,Wheat,relative-cost-logit
+South America_Southern,FoodDemand_Meat,Beef,relative-cost-logit
+South America_Southern,FoodDemand_Meat,Dairy,relative-cost-logit
+South America_Southern,FoodDemand_Meat,Pork,relative-cost-logit
+South America_Southern,FoodDemand_Meat,Poultry,relative-cost-logit
+South America_Southern,FoodDemand_Meat,SheepGoat,relative-cost-logit
+South America_Southern,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+South America_Southern,NonFoodDemand_Crops,Corn,relative-cost-logit
+South America_Southern,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+South America_Southern,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+South America_Southern,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+South America_Southern,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+South America_Southern,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+South America_Southern,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+South America_Southern,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+South America_Southern,NonFoodDemand_Crops,Rice,relative-cost-logit
+South America_Southern,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+South America_Southern,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+South America_Southern,NonFoodDemand_Crops,Wheat,relative-cost-logit
+South America_Southern,NonFoodDemand_Meat,Beef,relative-cost-logit
+South America_Southern,NonFoodDemand_Meat,Dairy,relative-cost-logit
+South America_Southern,NonFoodDemand_Meat,Pork,relative-cost-logit
+South America_Southern,NonFoodDemand_Meat,Poultry,relative-cost-logit
+South America_Southern,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+South America_Southern,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+South America_Southern,NonFoodDemand_Forest,Forest,relative-cost-logit
+South America_Southern,Exports_Meat,Beef,relative-cost-logit
+South America_Southern,Exports_Meat,Dairy,relative-cost-logit
+South America_Southern,Exports_Meat,Pork,relative-cost-logit
+South America_Southern,Exports_Meat,Poultry,relative-cost-logit
+South America_Southern,Exports_Meat,SheepGoat,relative-cost-logit
+South Asia,FoodDemand_Crops,Corn,relative-cost-logit
+South Asia,FoodDemand_Crops,FiberCrop,relative-cost-logit
+South Asia,FoodDemand_Crops,MiscCrop,relative-cost-logit
+South Asia,FoodDemand_Crops,OilCrop,relative-cost-logit
+South Asia,FoodDemand_Crops,OtherGrain,relative-cost-logit
+South Asia,FoodDemand_Crops,PalmFruit,relative-cost-logit
+South Asia,FoodDemand_Crops,Rice,relative-cost-logit
+South Asia,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+South Asia,FoodDemand_Crops,SugarCrop,relative-cost-logit
+South Asia,FoodDemand_Crops,Wheat,relative-cost-logit
+South Asia,FoodDemand_Meat,Beef,relative-cost-logit
+South Asia,FoodDemand_Meat,Dairy,relative-cost-logit
+South Asia,FoodDemand_Meat,Pork,relative-cost-logit
+South Asia,FoodDemand_Meat,Poultry,relative-cost-logit
+South Asia,FoodDemand_Meat,SheepGoat,relative-cost-logit
+South Asia,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+South Asia,NonFoodDemand_Crops,Corn,relative-cost-logit
+South Asia,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+South Asia,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+South Asia,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+South Asia,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+South Asia,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+South Asia,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+South Asia,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+South Asia,NonFoodDemand_Crops,Rice,relative-cost-logit
+South Asia,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+South Asia,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+South Asia,NonFoodDemand_Crops,Wheat,relative-cost-logit
+South Asia,NonFoodDemand_Meat,Beef,relative-cost-logit
+South Asia,NonFoodDemand_Meat,Dairy,relative-cost-logit
+South Asia,NonFoodDemand_Meat,Pork,relative-cost-logit
+South Asia,NonFoodDemand_Meat,Poultry,relative-cost-logit
+South Asia,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+South Asia,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+South Asia,NonFoodDemand_Forest,Forest,relative-cost-logit
+South Asia,Exports_Meat,Beef,relative-cost-logit
+South Asia,Exports_Meat,Dairy,relative-cost-logit
+South Asia,Exports_Meat,Pork,relative-cost-logit
+South Asia,Exports_Meat,Poultry,relative-cost-logit
+South Asia,Exports_Meat,SheepGoat,relative-cost-logit
+South Korea,FoodDemand_Crops,Corn,relative-cost-logit
+South Korea,FoodDemand_Crops,FiberCrop,relative-cost-logit
+South Korea,FoodDemand_Crops,MiscCrop,relative-cost-logit
+South Korea,FoodDemand_Crops,OilCrop,relative-cost-logit
+South Korea,FoodDemand_Crops,OtherGrain,relative-cost-logit
+South Korea,FoodDemand_Crops,PalmFruit,relative-cost-logit
+South Korea,FoodDemand_Crops,Rice,relative-cost-logit
+South Korea,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+South Korea,FoodDemand_Crops,SugarCrop,relative-cost-logit
+South Korea,FoodDemand_Crops,Wheat,relative-cost-logit
+South Korea,FoodDemand_Meat,Beef,relative-cost-logit
+South Korea,FoodDemand_Meat,Dairy,relative-cost-logit
+South Korea,FoodDemand_Meat,Pork,relative-cost-logit
+South Korea,FoodDemand_Meat,Poultry,relative-cost-logit
+South Korea,FoodDemand_Meat,SheepGoat,relative-cost-logit
+South Korea,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+South Korea,NonFoodDemand_Crops,Corn,relative-cost-logit
+South Korea,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+South Korea,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+South Korea,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+South Korea,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+South Korea,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+South Korea,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+South Korea,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+South Korea,NonFoodDemand_Crops,Rice,relative-cost-logit
+South Korea,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+South Korea,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+South Korea,NonFoodDemand_Crops,Wheat,relative-cost-logit
+South Korea,NonFoodDemand_Meat,Beef,relative-cost-logit
+South Korea,NonFoodDemand_Meat,Dairy,relative-cost-logit
+South Korea,NonFoodDemand_Meat,Pork,relative-cost-logit
+South Korea,NonFoodDemand_Meat,Poultry,relative-cost-logit
+South Korea,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+South Korea,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+South Korea,NonFoodDemand_Forest,Forest,relative-cost-logit
+South Korea,Exports_Meat,Beef,relative-cost-logit
+South Korea,Exports_Meat,Dairy,relative-cost-logit
+South Korea,Exports_Meat,Pork,relative-cost-logit
+South Korea,Exports_Meat,Poultry,relative-cost-logit
+South Korea,Exports_Meat,SheepGoat,relative-cost-logit
+Southeast Asia,FoodDemand_Crops,Corn,relative-cost-logit
+Southeast Asia,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Southeast Asia,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Southeast Asia,FoodDemand_Crops,OilCrop,relative-cost-logit
+Southeast Asia,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Southeast Asia,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Southeast Asia,FoodDemand_Crops,Rice,relative-cost-logit
+Southeast Asia,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Southeast Asia,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Southeast Asia,FoodDemand_Crops,Wheat,relative-cost-logit
+Southeast Asia,FoodDemand_Meat,Beef,relative-cost-logit
+Southeast Asia,FoodDemand_Meat,Dairy,relative-cost-logit
+Southeast Asia,FoodDemand_Meat,Pork,relative-cost-logit
+Southeast Asia,FoodDemand_Meat,Poultry,relative-cost-logit
+Southeast Asia,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Southeast Asia,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Southeast Asia,NonFoodDemand_Crops,Corn,relative-cost-logit
+Southeast Asia,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Southeast Asia,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Southeast Asia,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Southeast Asia,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Southeast Asia,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Southeast Asia,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Southeast Asia,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Southeast Asia,NonFoodDemand_Crops,Rice,relative-cost-logit
+Southeast Asia,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Southeast Asia,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Southeast Asia,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Southeast Asia,NonFoodDemand_Meat,Beef,relative-cost-logit
+Southeast Asia,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Southeast Asia,NonFoodDemand_Meat,Pork,relative-cost-logit
+Southeast Asia,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Southeast Asia,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Southeast Asia,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Southeast Asia,NonFoodDemand_Forest,Forest,relative-cost-logit
+Southeast Asia,Exports_Meat,Beef,relative-cost-logit
+Southeast Asia,Exports_Meat,Dairy,relative-cost-logit
+Southeast Asia,Exports_Meat,Pork,relative-cost-logit
+Southeast Asia,Exports_Meat,Poultry,relative-cost-logit
+Southeast Asia,Exports_Meat,SheepGoat,relative-cost-logit
+Argentina,FoodDemand_Crops,Corn,relative-cost-logit
+Argentina,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Argentina,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Argentina,FoodDemand_Crops,OilCrop,relative-cost-logit
+Argentina,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Argentina,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Argentina,FoodDemand_Crops,Rice,relative-cost-logit
+Argentina,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Argentina,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Argentina,FoodDemand_Crops,Wheat,relative-cost-logit
+Argentina,FoodDemand_Meat,Beef,relative-cost-logit
+Argentina,FoodDemand_Meat,Dairy,relative-cost-logit
+Argentina,FoodDemand_Meat,Pork,relative-cost-logit
+Argentina,FoodDemand_Meat,Poultry,relative-cost-logit
+Argentina,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Argentina,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Argentina,NonFoodDemand_Crops,Corn,relative-cost-logit
+Argentina,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Argentina,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Argentina,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Argentina,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Argentina,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Argentina,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Argentina,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Argentina,NonFoodDemand_Crops,Rice,relative-cost-logit
+Argentina,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Argentina,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Argentina,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Argentina,NonFoodDemand_Meat,Beef,relative-cost-logit
+Argentina,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Argentina,NonFoodDemand_Meat,Pork,relative-cost-logit
+Argentina,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Argentina,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Argentina,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Argentina,NonFoodDemand_Forest,Forest,relative-cost-logit
+Argentina,Exports_Meat,Beef,relative-cost-logit
+Argentina,Exports_Meat,Dairy,relative-cost-logit
+Argentina,Exports_Meat,Pork,relative-cost-logit
+Argentina,Exports_Meat,Poultry,relative-cost-logit
+Argentina,Exports_Meat,SheepGoat,relative-cost-logit
+Colombia,FoodDemand_Crops,Corn,relative-cost-logit
+Colombia,FoodDemand_Crops,FiberCrop,relative-cost-logit
+Colombia,FoodDemand_Crops,MiscCrop,relative-cost-logit
+Colombia,FoodDemand_Crops,OilCrop,relative-cost-logit
+Colombia,FoodDemand_Crops,OtherGrain,relative-cost-logit
+Colombia,FoodDemand_Crops,PalmFruit,relative-cost-logit
+Colombia,FoodDemand_Crops,Rice,relative-cost-logit
+Colombia,FoodDemand_Crops,Root_Tuber,relative-cost-logit
+Colombia,FoodDemand_Crops,SugarCrop,relative-cost-logit
+Colombia,FoodDemand_Crops,Wheat,relative-cost-logit
+Colombia,FoodDemand_Meat,Beef,relative-cost-logit
+Colombia,FoodDemand_Meat,Dairy,relative-cost-logit
+Colombia,FoodDemand_Meat,Pork,relative-cost-logit
+Colombia,FoodDemand_Meat,Poultry,relative-cost-logit
+Colombia,FoodDemand_Meat,SheepGoat,relative-cost-logit
+Colombia,FoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Colombia,NonFoodDemand_Crops,Corn,relative-cost-logit
+Colombia,NonFoodDemand_Crops,FiberCrop,relative-cost-logit
+Colombia,NonFoodDemand_Crops,FodderGrass,relative-cost-logit
+Colombia,NonFoodDemand_Crops,FodderHerb,relative-cost-logit
+Colombia,NonFoodDemand_Crops,MiscCrop,relative-cost-logit
+Colombia,NonFoodDemand_Crops,OilCrop,relative-cost-logit
+Colombia,NonFoodDemand_Crops,OtherGrain,relative-cost-logit
+Colombia,NonFoodDemand_Crops,PalmFruit,relative-cost-logit
+Colombia,NonFoodDemand_Crops,Rice,relative-cost-logit
+Colombia,NonFoodDemand_Crops,Root_Tuber,relative-cost-logit
+Colombia,NonFoodDemand_Crops,SugarCrop,relative-cost-logit
+Colombia,NonFoodDemand_Crops,Wheat,relative-cost-logit
+Colombia,NonFoodDemand_Meat,Beef,relative-cost-logit
+Colombia,NonFoodDemand_Meat,Dairy,relative-cost-logit
+Colombia,NonFoodDemand_Meat,Pork,relative-cost-logit
+Colombia,NonFoodDemand_Meat,Poultry,relative-cost-logit
+Colombia,NonFoodDemand_Meat,SheepGoat,relative-cost-logit
+Colombia,NonFoodDemand_Meat,OtherMeat_Fish,relative-cost-logit
+Colombia,NonFoodDemand_Forest,Forest,relative-cost-logit
+Colombia,Exports_Meat,Beef,relative-cost-logit
+Colombia,Exports_Meat,Dairy,relative-cost-logit
+Colombia,Exports_Meat,Pork,relative-cost-logit
+Colombia,Exports_Meat,Poultry,relative-cost-logit
+Colombia,Exports_Meat,SheepGoat,relative-cost-logit
