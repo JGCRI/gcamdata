@@ -14,11 +14,11 @@
 #' @importFrom tidyr gather spread
 #' @author YourInitials CurrentMonthName 2017
 #' @export
-module_emissions_L111.nonghg_en_R_S_T_Y_DISABLED <- function(command, ...) {
+module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "common/iso_GCAM_regID",
-             FILE = "emissions/EDGAR_sector",
-             FILE = "emissions/EPA_tech",
+             FILE = "emissions/EDGAR/EDGAR_sector",
+             FILE = "emissions/mappings/EPA_tech",
              # ** NOTE *** the following file has been removed from the repo
              # please talk to Kate about why and how to work around this. Thanks
              # FILE = "emissions/EDGAR_nation",
@@ -29,11 +29,11 @@ module_emissions_L111.nonghg_en_R_S_T_Y_DISABLED <- function(command, ...) {
              "L101.nox_tgej_USA_en_Sepa_F_Yh",
              "L101.voc_tgej_USA_en_Sepa_F_Yh",
              "L101.nh3_tgej_USA_en_Sepa_F_Yh",
-             FILE = "emissions/EDGAR_SO2",
-             FILE = "emissions/EDGAR_CO",
-             FILE = "emissions/EDGAR_NOx",
-             FILE = "emissions/EDGAR_NMVOC",
-             FILE = "emissions/EDGAR_NH3"))
+             FILE = "emissions/EDGAR/EDGAR_SO2",
+             FILE = "emissions/EDGAR/EDGAR_CO",
+             FILE = "emissions/EDGAR/EDGAR_NOx",
+             FILE = "emissions/EDGAR/EDGAR_NMVOC",
+             FILE = "emissions/EDGAR/EDGAR_NH3"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L111.nonghg_tg_R_en_S_F_Yh",
              "L111.nonghg_tgej_R_en_S_F_Yh"))
@@ -43,43 +43,120 @@ module_emissions_L111.nonghg_en_R_S_T_Y_DISABLED <- function(command, ...) {
 
     # Load required inputs
     iso_GCAM_regID <- get_data(all_data, "common/iso_GCAM_regID")
-    EDGAR_sector <- get_data(all_data, "emissions/EDGAR_sector")
-    EPA_tech <- get_data(all_data, "emissions/EPA_tech")
-    EDGAR_nation <- get_data(all_data, "emissions/EDGAR_nation")
+    EDGAR_sector <- get_data(all_data, "emissions/EDGAR/EDGAR_sector")
+    EPA_tech <- get_data(all_data, "emissions/mappings/EPA_tech")
     GCAM_sector_tech <- get_data(all_data, "emissions/mappings/GCAM_sector_tech")
-    L101.in_EJ_R_en_Si_F_Yh <- get_data(all_data, "L101.in_EJ_R_en_Si_F_Yh")
-    L101.so2_tgej_USA_en_Sepa_F_Yh <- get_data(all_data, "L101.so2_tgej_USA_en_Sepa_F_Yh")
     L101.co_tgej_USA_en_Sepa_F_Yh <- get_data(all_data, "L101.co_tgej_USA_en_Sepa_F_Yh")
+    L101.so2_tgej_USA_en_Sepa_F_Yh <- get_data(all_data, "L101.so2_tgej_USA_en_Sepa_F_Yh")
     L101.nox_tgej_USA_en_Sepa_F_Yh <- get_data(all_data, "L101.nox_tgej_USA_en_Sepa_F_Yh")
     L101.voc_tgej_USA_en_Sepa_F_Yh <- get_data(all_data, "L101.voc_tgej_USA_en_Sepa_F_Yh")
     L101.nh3_tgej_USA_en_Sepa_F_Yh <- get_data(all_data, "L101.nh3_tgej_USA_en_Sepa_F_Yh")
-    EDGAR_SO2 <- get_data(all_data, "emissions/EDGAR_SO2")
-    EDGAR_CO <- get_data(all_data, "emissions/EDGAR_CO")
-    EDGAR_NOx <- get_data(all_data, "emissions/EDGAR_NOx")
-    EDGAR_NMVOC <- get_data(all_data, "emissions/EDGAR_NMVOC")
-    EDGAR_NH3 <- get_data(all_data, "emissions/EDGAR_NH3")
+
+    get_data(all_data, "L101.in_EJ_R_en_Si_F_Yh") %>%
+      gather(year, value, -GCAM_region_ID, -fuel, -technology, -sector) %>%
+      mutate(year = as.integer(substr(year, 1, 4))) ->
+      L101.in_EJ_R_en_Si_F_Yh
+    get_data(all_data, "emissions/EDGAR/EDGAR_SO2") %>%
+      gather(year, value, -`IPCC-Annex`, -`World Region`, -ISO_A3, -Name, -IPCC, -IPCC_description) %>%
+      mutate(year = as.integer(substr(year, 1, 4))) ->
+      EDGAR_SO2
+    get_data(all_data, "emissions/EDGAR/EDGAR_CO") %>%
+      gather(year, value, -`IPCC-Annex`, -`World Region`, -ISO_A3, -Name, -IPCC, -IPCC_description) %>%
+      mutate(year = as.integer(substr(year, 1, 4))) ->
+      EDGAR_CO
+    get_data(all_data, "emissions/EDGAR/EDGAR_NOx") %>%
+      gather(year, value, -`IPCC-Annex`, -`World Region`, -ISO_A3, -Name, -IPCC, -IPCC_description) %>%
+      mutate(year = as.integer(substr(year, 1, 4))) ->
+      EDGAR_NOx
+    get_data(all_data, "emissions/EDGAR/EDGAR_NMVOC") %>%
+      gather(year, value, -`IPCC-Annex`, -`World Region`, -ISO_A3, -Name, -IPCC, -IPCC_description) %>%
+      mutate(year = as.integer(substr(year, 1, 4))) ->
+      EDGAR_NMVOC
+    get_data(all_data, "emissions/EDGAR/EDGAR_NH3") %>%
+      gather(year, value, -`IPCC-Annex`, -`World Region`, -ISO_A3, -Name, -IPCC, -IPCC_description) %>%
+      mutate(year = as.integer(substr(year, 1, 4))) ->
+      EDGAR_NH3
 
     # ===================================================
     # TRANSLATED PROCESSING CODE GOES HERE...
-    #
-    # If you find a mistake/thing to update in the old code and
-    # fixing it will change the output data, causing the tests to fail,
-    # (i) open an issue on GitHub, (ii) consult with colleagues, and
-    # then (iii) code a fix:
-    #
-    # if(OLD_DATA_SYSTEM_BEHAVIOR) {
-    #   ... code that replicates old, incorrect behavior
-    # } else {
-    #   ... new code with a fix
-    # }
-    #
-    #
-    # NOTE: there are 'match' calls in this code. You probably want to use left_join_error_no_match
-    # For more information, see https://github.com/JGCRI/gcamdata/wiki/Name-That-Function
-    # NOTE: This code uses vecpaste
-    # This function can be removed; see https://github.com/JGCRI/gcamdata/wiki/Name-That-Function
-    # NOTE: This code uses repeat_and_add_vector
-    # This function can be removed; see https://github.com/JGCRI/gcamdata/wiki/Name-That-Function
+    # First, add gas name and bind all dataframes together.
+
+    L101.so2_tgej_USA_en_Sepa_F_Yh$Non.CO2 <- "SO2"
+    L101.co_tgej_USA_en_Sepa_F_Yh$Non.CO2 <- "CO"
+    L101.nox_tgej_USA_en_Sepa_F_Yh$Non.CO2 <- "NOx"
+    L101.voc_tgej_USA_en_Sepa_F_Yh$Non.CO2 <- "NMVOC"
+
+    L101.nh3_tgej_USA_en_Sepa_F_Yh %>%
+      mutate(Non.CO2 = "NH3") %>%
+      bind_rows(L101.so2_tgej_USA_en_Sepa_F_Yh, L101.co_tgej_USA_en_Sepa_F_Yh,
+                L101.nox_tgej_USA_en_Sepa_F_Yh, L101.voc_tgej_USA_en_Sepa_F_Yh, .)  %>%
+      group_by(Non.CO2, sector, fuel) ->
+      L111.nonghg_tgej_USA_en_Sepa_F_Yh.tmp1
+
+    # Computed unscaled emissions by country and technology.
+    # Then, add non-ghg gases for combination of sector, fuel, and technology.
+
+    L101.in_EJ_R_en_Si_F_Yh %>%
+      rename(xyear = year) %>%
+      rename(energy = value)  %>%
+      left_join_keep_first_only(select(GCAM_sector_tech, sector, fuel, technology, EPA_agg_sector, EPA_agg_fuel),
+                                by =c("sector","fuel","technology"))  %>%
+      repeat_add_columns(tibble(Non.CO2 = emissions.NONGHG_GASES)) ->
+      L111.nonghg_tg_R_en_Si_F_Yh.tmp1
+
+    # Match in emissions factors
+    # Compute unscaled emissions
+
+    L111.nonghg_tgej_USA_en_Sepa_F_Yh.tmp1 %>%
+      rename(EPA_agg_sector = sector) %>%
+      rename(EPA_agg_fuel = fuel)->
+      L111.nonghg_tgej_USA_en_Sepa_F_Yh.tmp2
+
+    # L111.nonghg_tg_R_en_Si_F_Yh.tmp1 %>%
+    #   rename(year = xyear) %>%
+    #   left_join(L111.nonghg_tgej_USA_en_Sepa_F_Yh.tmp1, by =c("Non.CO2", "sector", "fuel", "year"))  %>%
+    #   rename(emfact = value) ->
+    #   test1
+
+    L111.nonghg_tg_R_en_Si_F_Yh.tmp1 %>%
+      rename(year = xyear) %>%
+      left_join(L111.nonghg_tgej_USA_en_Sepa_F_Yh.tmp2, by = c("Non.CO2", "EPA_agg_sector","EPA_agg_fuel","year"))  %>%
+      rename(emfact = value) %>%
+      mutate(epa_emissions = energy * emfact)  %>%
+      na.omit() ->
+      test2
+
+    # Aggregate by EDGAR sector and region
+    test2 %>%
+      left_join_keep_first_only(select(GCAM_sector_tech, sector, fuel, EDGAR_agg_sector),
+                                by =c("sector","fuel"))  ->
+      test3
+
+    test3 %>%
+      group_by(GCAM_region_ID,Non.CO2, EDGAR_agg_sector, year) %>%
+      summarise(EPA_emissions = sum(epa_emissions)) ->
+      L111.nonghg_tg_R_en_Sedgar_Yh.melt
+
+    # compute EDGAR emissions by region and sector.
+
+    EDGAR_SO2$Non.CO2 <- "SO2"
+    EDGAR_CO$Non.CO2 <- "CO"
+    EDGAR_NOx$Non.CO2 <- "NOx"
+    EDGAR_NH3$Non.CO2 <- "NH3"
+    EDGAR_NMVOC %>%
+      mutate(Non.CO2 = "NMVOC") %>%
+      bind_rows(EDGAR_SO2, EDGAR_CO, EDGAR_NOx,., EDGAR_NH3)  %>%
+      filter(year, year < 2009) ->
+      etest
+
+    etest %>%
+      left_join(EDGAR_sector, by = "IPCC_description") %>%
+      standardize_iso(col = "ISO_A3") %>%
+      change_iso_code('rou', 'rom') %>%                                        # Switch Romania iso code to its pre-2002 value
+      left_join(iso_GCAM_regID, by = "iso")  %>%
+      L111.EDGAR
+
+
     # ===================================================
 
     # Produce outputs
@@ -93,7 +170,21 @@ module_emissions_L111.nonghg_en_R_S_T_Y_DISABLED <- function(command, ...) {
       add_comments("comments describing how data generated") %>%
       add_comments("can be multiple lines") %>%
       add_legacy_name("L111.nonghg_tg_R_en_S_F_Yh") %>%
-      add_precursors("precursor1", "precursor2", "etc") %>%
+      add_precursors("common/iso_GCAM_regID",
+                     "emissions/EDGAR/EDGAR_sector",
+                     "emissions/mappings/EPA_tech",
+                     "emissions/mappings/GCAM_sector_tech",
+                     "L101.in_EJ_R_en_Si_F_Yh",
+                     "L101.so2_tgej_USA_en_Sepa_F_Yh",
+                     "L101.co_tgej_USA_en_Sepa_F_Yh",
+                     "L101.nox_tgej_USA_en_Sepa_F_Yh",
+                     "L101.voc_tgej_USA_en_Sepa_F_Yh",
+                     "L101.nh3_tgej_USA_en_Sepa_F_Yh",
+                     "emissions/EDGAR/EDGAR_SO2",
+                     "emissions/EDGAR/EDGAR_CO",
+                     "emissions/EDGAR/EDGAR_NOx",
+                     "emissions/EDGAR/EDGAR_NMVOC",
+                     "emissions/EDGAR/EDGAR_NH3") %>%
       # typical flags, but there are others--see `constants.R`
       add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
       L111.nonghg_tg_R_en_S_F_Yh
@@ -103,7 +194,21 @@ module_emissions_L111.nonghg_en_R_S_T_Y_DISABLED <- function(command, ...) {
       add_comments("comments describing how data generated") %>%
       add_comments("can be multiple lines") %>%
       add_legacy_name("L111.nonghg_tgej_R_en_S_F_Yh") %>%
-      add_precursors("precursor1", "precursor2", "etc") %>%
+      add_precursors("common/iso_GCAM_regID",
+                     "emissions/EDGAR/EDGAR_sector",
+                     "emissions/mappings/EPA_tech",
+                     "emissions/mappings/GCAM_sector_tech",
+                     "L101.in_EJ_R_en_Si_F_Yh",
+                     "L101.so2_tgej_USA_en_Sepa_F_Yh",
+                     "L101.co_tgej_USA_en_Sepa_F_Yh",
+                     "L101.nox_tgej_USA_en_Sepa_F_Yh",
+                     "L101.voc_tgej_USA_en_Sepa_F_Yh",
+                     "L101.nh3_tgej_USA_en_Sepa_F_Yh",
+                     "emissions/EDGAR/EDGAR_SO2",
+                     "emissions/EDGAR/EDGAR_CO",
+                     "emissions/EDGAR/EDGAR_NOx",
+                     "emissions/EDGAR/EDGAR_NMVOC",
+                     "emissions/EDGAR/EDGAR_NH3") %>%
       # typical flags, but there are others--see `constants.R`
       add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
       L111.nonghg_tgej_R_en_S_F_Yh

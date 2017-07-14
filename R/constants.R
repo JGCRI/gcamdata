@@ -292,3 +292,4 @@ emissions.CONV_C_CO2           <- 44 / 12 # Convert Carbon to CO2
 emissions.DEFOREST_COEF_YEARS  <- c(2000, 2005)
 emissions.AGR_SECTORS          <- c("rice", "fertilizer", "soil")
 emissions.AGR_GASES            <- c("CH4_AGR", "N2O_AGR", "NH3_AGR", "NOx_AGR")
+emissions.NONGHG_GASES         <- c( "SO2", "NOx", "CO", "NMVOC", "NH3" )
