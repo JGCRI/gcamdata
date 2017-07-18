@@ -100,7 +100,7 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
       rename(xyear = year) %>%
       rename(energy = value)  %>%
       left_join_keep_first_only(select(GCAM_sector_tech, sector, fuel, technology, EPA_agg_sector, EPA_agg_fuel),
-                                by =c("sector","fuel","technology"))  %>%
+                                by =c("sector", "fuel", "technology"))  %>%
       repeat_add_columns(tibble(Non.CO2 = emissions.NONGHG_GASES)) ->
       L111.nonghg_tg_R_en_Si_F_Yh.tmp1
 
@@ -109,30 +109,23 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
 
     L111.nonghg_tgej_USA_en_Sepa_F_Yh.tmp1 %>%
       rename(EPA_agg_sector = sector) %>%
-      rename(EPA_agg_fuel = fuel)->
+      rename(EPA_agg_fuel = fuel) ->
       L111.nonghg_tgej_USA_en_Sepa_F_Yh.tmp2
 
-    # L111.nonghg_tg_R_en_Si_F_Yh.tmp1 %>%
-    #   rename(year = xyear) %>%
-    #   left_join(L111.nonghg_tgej_USA_en_Sepa_F_Yh.tmp1, by =c("Non.CO2", "sector", "fuel", "year"))  %>%
-    #   rename(emfact = value) ->
-    #   test1
-
+    # Aggregate by EDGAR sector and region
     L111.nonghg_tg_R_en_Si_F_Yh.tmp1 %>%
       rename(year = xyear) %>%
-      left_join(L111.nonghg_tgej_USA_en_Sepa_F_Yh.tmp2, by = c("Non.CO2", "EPA_agg_sector","EPA_agg_fuel","year"))  %>%
+      # Keep NAs for now.
+      left_join(L111.nonghg_tgej_USA_en_Sepa_F_Yh.tmp2, by = c("Non.CO2", "EPA_agg_sector", "EPA_agg_fuel", "year"))  %>%
       rename(emfact = value) %>%
       mutate(epa_emissions = energy * emfact)  %>%
-      na.omit() ->
-      test2
-
-    # Aggregate by EDGAR sector and region
-    test2 %>%
+      na.omit() %>%
       left_join_keep_first_only(select(GCAM_sector_tech, sector, fuel, EDGAR_agg_sector),
-                                by =c("sector","fuel"))  ->
-      test3
+                                by =c("sector", "fuel")) ->
+      L111.nonghg_tg_R_en_Si_F_Yh.tmp1
 
-    test3 %>%
+    # Create column of total EPA emissions by EDGAR sector and region
+    L111.nonghg_tg_R_en_Si_F_Yh.tmp1 %>%
       group_by(GCAM_region_ID,Non.CO2, EDGAR_agg_sector, year) %>%
       summarise(EPA_emissions = sum(epa_emissions)) ->
       L111.nonghg_tg_R_en_Sedgar_Yh.melt
@@ -143,18 +136,17 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
     EDGAR_CO$Non.CO2 <- "CO"
     EDGAR_NOx$Non.CO2 <- "NOx"
     EDGAR_NH3$Non.CO2 <- "NH3"
-    EDGAR_NMVOC %>%
-      mutate(Non.CO2 = "NMVOC") %>%
-      bind_rows(EDGAR_SO2, EDGAR_CO, EDGAR_NOx,., EDGAR_NH3)  %>%
-      filter(year, year < 2009) ->
-      etest
 
-    etest %>%
-      left_join(EDGAR_sector, by = "IPCC_description") %>%
-      standardize_iso(col = "ISO_A3") %>%
-      change_iso_code('rou', 'rom') %>%                                        # Switch Romania iso code to its pre-2002 value
-      left_join(iso_GCAM_regID, by = "iso")  %>%
-      L111.EDGAR
+    # EDGAR_NMVOC %>%
+    #   mutate(Non.CO2 = "NMVOC") %>%
+    #   bind_rows(EDGAR_SO2, EDGAR_CO, EDGAR_NOx,., EDGAR_NH3)  %>%
+    #   # To match the old code we want EDGAR years (1971-2008) and 1970.
+    #   filter(year, year %in% EDGAR_YEARS_PLUS) %>%
+    #   left_join(EDGAR_sector, by = "IPCC_description") %>%
+    #   standardize_iso(col = "ISO_A3") %>%
+    #   change_iso_code('rou', 'rom') %>%                                        # Switch Romania iso code to its pre-2002 value
+    #   left_join(iso_GCAM_regID, by = "iso")  %>%
+    #   L111.EDGAR
 
 
     # ===================================================
