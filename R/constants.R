@@ -230,13 +230,6 @@ modeltime.HECTOR_EMISSIONS_YEAR <- 2005
 modeltime.HECTOR_INI_FILE <- "../input/climate/hector-gcam.ini"
 
 
-# Energy constants ======================================================================
-
-DEFAULT_ELECTRIC_EFFICIENCY <- 0.33  # Default electric efficiency
-ELECTRICITY_INPUT_FUELS<- c("biomass", "coal", "gas", "refined liquids")
-STUBTECHYR <- c("GCAM_region_ID", "supplysector", "subsector", "stub.technology", "xyear")
-
-
 # Socioeconomics constants ======================================================================
 
 # Population years - note that these sequences shouldn't have any overlap,
@@ -267,9 +260,18 @@ MAPPED_WATER_TYPES_SHORT            <- c("C", "W")
 names(MAPPED_WATER_TYPES_SHORT)     <- MAPPED_WATER_TYPES
 DEFAULT_UNLIMITED_WATER_PRICE       <- 0
 DEFAULT_UNLIMITED_WITHD_WATER_PRICE <- 0.001
+WATER_UNITS_QUANTITY                <- "km^3"
+WATER_UNITS_PRICE                   <- "1975$/m^3"
+AG_ONLY_WATER_TYPES                 <- "biophysical water consumption"
+
 
 
 # Emissions constants ======================================================================
+
+emissions.DIGITS_EMISSIONS <- 10
+emissions.CTRL_BASE_YEAR   <- 1975  # Year to read in pollution controls
+emissions.MODEL_BASE_YEARS <- BASE_YEARS[BASE_YEARS < 2008]
+emissions.FINAL_EMISS_YEAR <- min(max(BASE_YEARS), 2005)
 
 emissions.EPA_HISTORICAL_YEARS <- 1971:2002
 emissions.TST_TO_TG            <- 0.000907 # Thousand short tons to Tg
@@ -292,4 +294,14 @@ emissions.CONV_C_CO2           <- 44 / 12 # Convert Carbon to CO2
 emissions.DEFOREST_COEF_YEARS  <- c(2000, 2005)
 emissions.AGR_SECTORS          <- c("rice", "fertilizer", "soil")
 emissions.AGR_GASES            <- c("CH4_AGR", "N2O_AGR", "NH3_AGR", "NOx_AGR")
+<<<<<<< HEAD
 emissions.NONGHG_GASES         <- c( "SO2", "NOx", "CO", "NMVOC", "NH3" )
+=======
+
+
+# Uncomment these lines to run under 'timeshift' conditions
+# HISTORICAL_YEARS <- 1971:2005       # normally 1971:2010
+# FUTURE_YEARS <- seq(2010, 2100, 5)  # normally seq(2015, 2100, 5)
+# BASE_YEARS <- c(1975, 1990, 2005)   # normally (1975, 1990, 2005, 2010)
+# MODEL_YEARS <- c(BASE_YEARS, FUTURE_YEARS)
+>>>>>>> master
