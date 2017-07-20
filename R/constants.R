@@ -294,9 +294,8 @@ emissions.CONV_C_CO2           <- 44 / 12 # Convert Carbon to CO2
 emissions.DEFOREST_COEF_YEARS  <- c(2000, 2005)
 emissions.AGR_SECTORS          <- c("rice", "fertilizer", "soil")
 emissions.AGR_GASES            <- c("CH4_AGR", "N2O_AGR", "NH3_AGR", "NOx_AGR")
-<<<<<<< HEAD
 emissions.NONGHG_GASES         <- c( "SO2", "NOx", "CO", "NMVOC", "NH3" )
-=======
+# =======
 
 
 # Uncomment these lines to run under 'timeshift' conditions
@@ -304,4 +303,4 @@ emissions.NONGHG_GASES         <- c( "SO2", "NOx", "CO", "NMVOC", "NH3" )
 # FUTURE_YEARS <- seq(2010, 2100, 5)  # normally seq(2015, 2100, 5)
 # BASE_YEARS <- c(1975, 1990, 2005)   # normally (1975, 1990, 2005, 2010)
 # MODEL_YEARS <- c(BASE_YEARS, FUTURE_YEARS)
->>>>>>> master
+
