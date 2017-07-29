@@ -1,0 +1,133 @@
+INPUT_TABLE
+Variable ID
+SubsectorLogit_relative-cost-logit
+
+region,supplysector,subsector,logit.type
+USA,regional biomass,regional biomass,relative-cost-logit
+USA,total biomass,domestic biomass,relative-cost-logit
+USA,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,USA traded biomass,relative-cost-logit
+Africa_Eastern,regional biomass,regional biomass,relative-cost-logit
+Africa_Eastern,total biomass,domestic biomass,relative-cost-logit
+Africa_Eastern,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Africa_Eastern traded biomass,relative-cost-logit
+Africa_Northern,regional biomass,regional biomass,relative-cost-logit
+Africa_Northern,total biomass,domestic biomass,relative-cost-logit
+Africa_Northern,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Africa_Northern traded biomass,relative-cost-logit
+Africa_Southern,regional biomass,regional biomass,relative-cost-logit
+Africa_Southern,total biomass,domestic biomass,relative-cost-logit
+Africa_Southern,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Africa_Southern traded biomass,relative-cost-logit
+Africa_Western,regional biomass,regional biomass,relative-cost-logit
+Africa_Western,total biomass,domestic biomass,relative-cost-logit
+Africa_Western,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Africa_Western traded biomass,relative-cost-logit
+Australia_NZ,regional biomass,regional biomass,relative-cost-logit
+Australia_NZ,total biomass,domestic biomass,relative-cost-logit
+Australia_NZ,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Australia_NZ traded biomass,relative-cost-logit
+Brazil,regional biomass,regional biomass,relative-cost-logit
+Brazil,total biomass,domestic biomass,relative-cost-logit
+Brazil,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Brazil traded biomass,relative-cost-logit
+Canada,regional biomass,regional biomass,relative-cost-logit
+Canada,total biomass,domestic biomass,relative-cost-logit
+Canada,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Canada traded biomass,relative-cost-logit
+Central America and Caribbean,regional biomass,regional biomass,relative-cost-logit
+Central America and Caribbean,total biomass,domestic biomass,relative-cost-logit
+Central America and Caribbean,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Central America and Caribbean traded biomass,relative-cost-logit
+Central Asia,regional biomass,regional biomass,relative-cost-logit
+Central Asia,total biomass,domestic biomass,relative-cost-logit
+Central Asia,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Central Asia traded biomass,relative-cost-logit
+China,regional biomass,regional biomass,relative-cost-logit
+China,total biomass,domestic biomass,relative-cost-logit
+China,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,China traded biomass,relative-cost-logit
+EU-12,regional biomass,regional biomass,relative-cost-logit
+EU-12,total biomass,domestic biomass,relative-cost-logit
+EU-12,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,EU-12 traded biomass,relative-cost-logit
+EU-15,regional biomass,regional biomass,relative-cost-logit
+EU-15,total biomass,domestic biomass,relative-cost-logit
+EU-15,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,EU-15 traded biomass,relative-cost-logit
+Europe_Eastern,regional biomass,regional biomass,relative-cost-logit
+Europe_Eastern,total biomass,domestic biomass,relative-cost-logit
+Europe_Eastern,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Europe_Eastern traded biomass,relative-cost-logit
+Europe_Non_EU,regional biomass,regional biomass,relative-cost-logit
+Europe_Non_EU,total biomass,domestic biomass,relative-cost-logit
+Europe_Non_EU,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Europe_Non_EU traded biomass,relative-cost-logit
+European Free Trade Association,regional biomass,regional biomass,relative-cost-logit
+European Free Trade Association,total biomass,domestic biomass,relative-cost-logit
+European Free Trade Association,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,European Free Trade Association traded biomass,relative-cost-logit
+India,regional biomass,regional biomass,relative-cost-logit
+India,total biomass,domestic biomass,relative-cost-logit
+India,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,India traded biomass,relative-cost-logit
+Indonesia,regional biomass,regional biomass,relative-cost-logit
+Indonesia,total biomass,domestic biomass,relative-cost-logit
+Indonesia,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Indonesia traded biomass,relative-cost-logit
+Japan,regional biomass,regional biomass,relative-cost-logit
+Japan,total biomass,domestic biomass,relative-cost-logit
+Japan,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Japan traded biomass,relative-cost-logit
+Mexico,regional biomass,regional biomass,relative-cost-logit
+Mexico,total biomass,domestic biomass,relative-cost-logit
+Mexico,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Mexico traded biomass,relative-cost-logit
+Middle East,regional biomass,regional biomass,relative-cost-logit
+Middle East,total biomass,domestic biomass,relative-cost-logit
+Middle East,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Middle East traded biomass,relative-cost-logit
+Pakistan,regional biomass,regional biomass,relative-cost-logit
+Pakistan,total biomass,domestic biomass,relative-cost-logit
+Pakistan,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Pakistan traded biomass,relative-cost-logit
+Russia,regional biomass,regional biomass,relative-cost-logit
+Russia,total biomass,domestic biomass,relative-cost-logit
+Russia,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Russia traded biomass,relative-cost-logit
+South Africa,regional biomass,regional biomass,relative-cost-logit
+South Africa,total biomass,domestic biomass,relative-cost-logit
+South Africa,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,South Africa traded biomass,relative-cost-logit
+South America_Northern,regional biomass,regional biomass,relative-cost-logit
+South America_Northern,total biomass,domestic biomass,relative-cost-logit
+South America_Northern,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,South America_Northern traded biomass,relative-cost-logit
+South America_Southern,regional biomass,regional biomass,relative-cost-logit
+South America_Southern,total biomass,domestic biomass,relative-cost-logit
+South America_Southern,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,South America_Southern traded biomass,relative-cost-logit
+South Asia,regional biomass,regional biomass,relative-cost-logit
+South Asia,total biomass,domestic biomass,relative-cost-logit
+South Asia,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,South Asia traded biomass,relative-cost-logit
+South Korea,regional biomass,regional biomass,relative-cost-logit
+South Korea,total biomass,domestic biomass,relative-cost-logit
+South Korea,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,South Korea traded biomass,relative-cost-logit
+Southeast Asia,regional biomass,regional biomass,relative-cost-logit
+Southeast Asia,total biomass,domestic biomass,relative-cost-logit
+Southeast Asia,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Southeast Asia traded biomass,relative-cost-logit
+Taiwan,regional biomass,regional biomass,relative-cost-logit
+Taiwan,total biomass,domestic biomass,relative-cost-logit
+Taiwan,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Taiwan traded biomass,relative-cost-logit
+Argentina,regional biomass,regional biomass,relative-cost-logit
+Argentina,total biomass,domestic biomass,relative-cost-logit
+Argentina,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Argentina traded biomass,relative-cost-logit
+Colombia,regional biomass,regional biomass,relative-cost-logit
+Colombia,total biomass,domestic biomass,relative-cost-logit
+Colombia,total biomass,imported biomass,relative-cost-logit
+USA,traded biomass,Colombia traded biomass,relative-cost-logit
