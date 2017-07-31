@@ -144,64 +144,60 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
 
     EDGAR_NMVOC %>%
       mutate(Non.CO2 = "NMVOC") %>%
-      bind_rows(EDGAR_SO2, EDGAR_CO, EDGAR_NOx,., EDGAR_NH3) %>%
+      bind_rows(EDGAR_SO2, EDGAR_CO, EDGAR_NOx,., EDGAR_NH3)  %>%
       # To match the old code we want EDGAR years (1971-2008) and 1970.
       filter(year, year %in% emissions.EDGAR_YEARS_PLUS) %>%
-      left_join(select(EDGAR_sector, agg_sector), by = c("IPCC")) ->
-      testfp
-    #   rename(EDGAR_agg_sector = agg_sector) %>%
-    #   standardize_iso(col = "ISO_A3") %>%
-    #   change_iso_code('rou', 'rom')  %>%
-    #   # Switch Romania iso code to its pre-2002 value
-    #   left_join(select(iso_GCAM_regID, GCAM_region_ID, iso), by = "iso") ->
-    #   L111.EDGAR
-    #
-    # L111.EDGAR %>%
-    #   spread(year,value) ->
-    #   testlong
-    #
-    # # Create new table for international shipping & aviation emissions only.
-    # L111.EDGAR %>%
-    #   filter(iso %in% c("sea","air")) %>%
-    #   select(-IPCC, -IPCC_description, -`World Region`, -iso, -Name, -GCAM_region_ID, -`IPCC-Annex`) %>%
-    #   na.omit() %>%
-    #   group_by(EDGAR_agg_sector, Non.CO2) ->
-    #   L111_EDGAR_intl
-    #
-    # # Drop unnecessary columns, aggregate by region, and group by region, sector, NONGHG, and year.
-    # L111.EDGAR %>%
-    #   select(-IPCC, -IPCC_description, -`World Region`, -iso, -Name, -`IPCC-Annex`) %>%
-    #   na.omit() %>%
-    #   # filter(year,year %in% emissions.EDGAR_YEARS) %>%
-    #   group_by(GCAM_region_ID,Non.CO2,EDGAR_agg_sector, year) %>%
-    #   summarize(value = sum(value)) %>%
-    #   filter(year,year %in% emissions.EDGAR_YEARS)  %>%
-    #   na.omit ->
-    #   L111.EDGAR.tmp1
-    #
-    # # Scale EPA emissions by tech to match EDGAR totals
-    # # First compute scalers
-    # L111.nonghg_tg_R_en_Sedgar_Yh.tmp1 %>%
-    #   left_join(L111.EDGAR.tmp1, by = c("GCAM_region_ID", "Non.CO2", "EDGAR_agg_sector", "year"))  %>%
-    #   rename(EDGAR_emissions = value)  %>%
-    #   mutate(scaler = EDGAR_emissions / EPA_emissions /1000.0) ->
-    #   L111.emiss_scaler
-    #
-    # # Now, scale EPA emissions
-    # L111.nonghg_tg_R_en_Si_F_Yh.tmp1 %>%
-    #   left_join(L111.emiss_scaler, by=c("GCAM_region_ID","Non.CO2","EDGAR_agg_sector","year")) %>%
-    #   mutate(emissions = epa_emissions * scaler) %>%
-    #   replace_na(list(EDGAR_emissions = 0))  %>%
-    #   select(-EDGAR_emissions, -EPA_emissions) ->
-    #   test3
-    #
-    # test3 %>%
-    #   filter(EDGAR_agg_sector %in% c("trn_intl_ship", "trn_intl_air")) ->
-    #   L111.nonghg_tg_R_en_Si_F_Yh_intl.tmp1
-    #
-    # test3 %>%
-    #   filter(!EDGAR_agg_sector %in% c("trn_intl_ship", "trn_intl_air")) ->
-    #   L111.nonghg_tg_R_en_Si_F_Yh_dom.tmp1
+      left_join(EDGAR_sector,by =c("IPCC", "IPCC_description"))  %>%
+      rename(EDGAR_agg_sector = agg_sector) %>%
+      standardize_iso(col = "ISO_A3") %>%
+      change_iso_code('rou', 'rom')  %>%
+      # Switch Romania iso code to its pre-2002 value
+      left_join(iso_GCAM_regID, by = "iso")  %>%
+      select(-country_name, -region_GCAM3) ->
+      L111.EDGAR
+
+    # Create new table for international shipping & aviation emissions only.
+    L111.EDGAR %>%
+      filter(iso %in% c("sea","air")) %>%
+      select(-IPCC, -IPCC_description, -`World Region`, -iso, -Name, -GCAM_region_ID, -`IPCC-Annex`) %>%
+      na.omit() %>%
+      group_by(EDGAR_agg_sector, Non.CO2) ->
+      L111_EDGAR_intl
+
+    # Drop unnecessary columns, aggregate by region, and group by region, sector, NONGHG, and year.
+    L111.EDGAR %>%
+      select(-IPCC, -IPCC_description, -`World Region`, -iso, -Name, -`IPCC-Annex`) %>%
+      na.omit() %>%
+      # filter(year,year %in% emissions.EDGAR_YEARS) %>%
+      group_by(GCAM_region_ID,Non.CO2,EDGAR_agg_sector, year) %>%
+      summarize(value = sum(value)) %>%
+      filter(year,year %in% emissions.EDGAR_YEARS)  %>%
+      na.omit ->
+      L111.EDGAR.tmp1
+
+    # Scale EPA emissions by tech to match EDGAR totals
+    # First compute scalers
+    L111.nonghg_tg_R_en_Sedgar_Yh.tmp1 %>%
+      left_join(L111.EDGAR.tmp1, by = c("GCAM_region_ID", "Non.CO2", "EDGAR_agg_sector", "year"))  %>%
+      rename(EDGAR_emissions = value)  %>%
+      mutate(scaler = EDGAR_emissions / EPA_emissions /1000.0) ->
+      L111.emiss_scaler
+
+    # Now, scale EPA emissions
+    L111.nonghg_tg_R_en_Si_F_Yh.tmp1 %>%
+      left_join_keep_first_only(L111.emiss_scaler, by=c("GCAM_region_ID","Non.CO2","EDGAR_agg_sector","year")) %>%
+      mutate(emissions = epa_emissions * scaler) %>%
+      replace_na(list(EDGAR_emissions = 0))  %>%
+      select(-EDGAR_emissions, -EPA_emissions) ->
+      test3
+
+    test3 %>%
+      filter(EDGAR_agg_sector %in% c("trn_intl_ship", "trn_intl_air")) ->
+      L111.nonghg_tg_R_en_Si_F_Yh_intl.tmp1
+
+    test3 %>%
+      filter(!EDGAR_agg_sector %in% c("trn_intl_ship", "trn_intl_air")) ->
+      L111.nonghg_tg_R_en_Si_F_Yh_dom.tmp1
     # ===================================================
 
     # Produce outputs
