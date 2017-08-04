@@ -18,11 +18,14 @@ the generated outputs: \code{L111.nonghg_tg_R_en_S_F_Yh}, \code{L111.nonghg_tgej
 original data system was \code{L111.nonghg_en_R_S_T_Y.R} (emissions level1).
 }
 \description{
-Briefly describe what this chunk does.
+Compute historical emissions factors for energy by GCAM technology, from EPA emissions data and IEA energy balances.
 }
 \details{
-Describe in detail what this chunk does.
+This code produces two outputs: non-ghg emission totals and non-ghg emission shares by total emissions.
+First, non-ghg gas emissions were combined and grouped by sector and region.  Then, emissions were scaled, and international
+shipping & aviation emission data was calculated based on total emission and total emission shares. Then non-ghg emission
+totals and shares were calculated by GCAM sector, fuel, technology, and driver type for EDGAR historical years.
 }
 \author{
-YourInitials CurrentMonthName 2017
+CDL August 2017
 }

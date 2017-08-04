@@ -8,12 +8,14 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L111.nonghg_tg_R_en_S_F_Yh}, \code{L111.nonghg_tgej_R_en_S_F_Yh}. The corresponding file in the
 #' original data system was \code{L111.nonghg_en_R_S_T_Y.R} (emissions level1).
-#' @details Describe in detail what this chunk does.
+#' @details This code produces two outputs: non-ghg emission totals and non-ghg emission shares by total emissions.
+#' First, non-ghg gas emissions were combined and grouped by sector and region.  Then, emissions were scaled, and international
+#' shipping & aviation emission data was calculated based on total emission and total emission shares. Then non-ghg emission
+#' totals and shares were calculated by GCAM sector, fuel, technology, and driver type for EDGAR historical years.
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
 #' @author CDL August 2017
-#' @export
 module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "common/iso_GCAM_regID",
@@ -99,7 +101,7 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
       rename(EPA_agg_fuel = fuel) ->
       L111.nonghg_tgej_USA_en_Sepa_F_Yh.tmp1
 
-    # Computed unscaled emissions by country and technology.
+    # Compute unscaled emissions by country and technology.
 
     # Add non-ghg gases for combination of sector, fuel, and technology.
     L101.in_EJ_R_en_Si_F_Yh %>%
@@ -111,12 +113,12 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
       repeat_add_columns(tibble(Non.CO2 = emissions.NONGHG_GASES)) ->
       L111.nonghg_tg_R_en_Si_F_Yh.tmp1
 
-    # Match in emissions factors then compute unscaled emissions.
+    # Match in emissions factors and then compute unscaled emissions.
 
     # Aggregate by EDGAR sector and region
     L111.nonghg_tg_R_en_Si_F_Yh.tmp1 %>%
       rename(year = xyear) %>%
-      # Keep NAs for now.
+      # Join in USA non-ghg emission factor data.  Keep NAs for now.
       left_join(L111.nonghg_tgej_USA_en_Sepa_F_Yh.tmp1, by = c("Non.CO2", "EPA_agg_sector", "EPA_agg_fuel", "year"))  %>%
       rename(emfact = value)  %>%
       # Scale emission factors by energy sectors.
@@ -240,7 +242,7 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
       summarize(energy = sum(value)) ->
       L101.in_EJ_R_en_S_F_Yh.tmp
 
-    # Get emission shares by energy totals.
+    # Calculate emission shares by energy totals.
     L111.nonghg_tg_R_en_S_F_Yh %>%
       left_join(L101.in_EJ_R_en_S_F_Yh.tmp, by=c("GCAM_region_ID", "supplysector", "subsector", "stub.technology", "year")) %>%
       mutate(emfact = input.emissions / energy) %>%
@@ -250,12 +252,14 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
 
     # Produce outputs
 
-    #L111.nonghg_tg_R_en_S_F_Yh
-    tibble() %>%
-      add_title("descriptive title of data") %>%
+    L111.nonghg_tg_R_en_S_F_Yh %>%
+      add_title("Non-ghg emission totals by GCAM sector, fuel, technology, and driver type for EDGAR historical years.") %>%
       add_units("Tg") %>%
-      add_comments("comments describing how data generated") %>%
-      add_comments("can be multiple lines") %>%
+      add_comments("First, computed unscaled non-ghg emissions by country and technology.") %>%
+      add_comments("Then, computed EDGAR emissions by region and sector.") %>%
+      add_comments("Then, scaled EPA emissions by tech to match EDGAR totals.") %>%
+      add_comments("Then, computed international shipping and international aviation emissions.") %>%
+      add_comments("Finally, calculated non-ghg emission totals by GCAM sector, fuel, technology, and driver type for EDGAR historical years.") %>%
       add_legacy_name("L111.nonghg_tg_R_en_S_F_Yh") %>%
       add_precursors("common/iso_GCAM_regID",
                      "emissions/EDGAR/EDGAR_sector",
@@ -272,15 +276,13 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
                      "emissions/EDGAR/EDGAR_NOx",
                      "emissions/EDGAR/EDGAR_NMVOC",
                      "emissions/EDGAR/EDGAR_NH3") %>%
-      # typical flags, but there are others--see `constants.R`
       add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
       L111.nonghg_tg_R_en_S_F_Yh
-    #L111.nonghg_tgej_R_en_S_F_Yh
-    tibble() %>%
-      add_title("descriptive title of data") %>%
+
+    L111.nonghg_tgej_R_en_S_F_Yh %>%
+      add_title("Non-ghg emission total shares by GCAM sector, fuel, technology, and driver type for EDGAR historical years.") %>%
       add_units("Tg/EJ") %>%
-      add_comments("comments describing how data generated") %>%
-      add_comments("can be multiple lines") %>%
+      add_comments("Used non-ghg emission totals by GCAM sector, fuel, technology, and driver type for EDGAR historical years to derive emission shares.") %>%
       add_legacy_name("L111.nonghg_tgej_R_en_S_F_Yh") %>%
       add_precursors("common/iso_GCAM_regID",
                      "emissions/EDGAR/EDGAR_sector",
@@ -297,7 +299,6 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
                      "emissions/EDGAR/EDGAR_NOx",
                      "emissions/EDGAR/EDGAR_NMVOC",
                      "emissions/EDGAR/EDGAR_NH3") %>%
-      # typical flags, but there are others--see `constants.R`
       add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
       L111.nonghg_tgej_R_en_S_F_Yh
 
