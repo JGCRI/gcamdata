@@ -215,11 +215,9 @@ DEFAULT_ELECTRIC_EFFICIENCY <- 0.33
 
 ELECTRICITY_INPUT_FUELS<- c("biomass", "coal", "gas", "refined liquids")
 
-<<<<<<< HEAD
-=======
 energy.CLIMATE_NORMAL_YEARS <- 1981:2000
 
->>>>>>> master
+
 # Conversion constants ======================================================================
 # The naming convention is CONV_(FROM-UNIT)_(TO-UNIT).
 

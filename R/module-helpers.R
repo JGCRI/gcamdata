@@ -278,7 +278,6 @@ replace_GLU <- function(d, map, GLU_pattern = "^GLU[0-9]{3}$") {
   d
 }
 
-<<<<<<< HEAD
 #' get_ssp4_regions
 #'
 #' Get regions for different income groups in SSP4
@@ -314,7 +313,6 @@ get_ssp4_regions <- function(pcGDP, reg_names, income_group) {
   return(regions$region)
 }
 
-=======
 #' get_ssp_regions
 #'
 #' Get regions for different income groups in SSP4 2010 (by default)
@@ -355,4 +353,3 @@ get_ssp_regions <- function(pcGDP, reg_names, income_group,
 
   regions$region
 }
->>>>>>> master
