@@ -350,7 +350,11 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
       add_comments("Combine individual fuel tables, including L122.out_EJ_R_gasproc_gas_Yh, L122.out_EJ_R_gasproc_bio_Yh, and L122.out_EJ_R_gasproc_coal_Yh") %>%
       add_legacy_name("L122.out_EJ_R_gasproc_F_Yh") %>%
       add_precursors("common/GCAM_region_names", "aglu/FAO/FAO_ag_items_PRODSTAT", "energy/calibrated_techs",
+<<<<<<< HEAD
+                     "energy/A_regions", "energy/A21.globaltech_coef", "energy/A22.globaltech_coef", "temp-data-inject/L1011.en_bal_EJ_R_Si_Fi_Yh",
+=======
                      "energy/A_regions", "energy/A21.globaltech_coef", "energy/A22.globaltech_coef", "L1011.en_bal_EJ_R_Si_Fi_Yh",
+>>>>>>> master
                      "L121.in_EJ_R_unoil_F_Yh") %>%
       add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
       L122.out_EJ_R_gasproc_F_Yh
@@ -361,7 +365,11 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
       add_comments("Based on outputs and gasproc coefficients. Obtained as L122.out_EJ_R_gasproc_F_Yh times L122.gasproc_coef ") %>%
       add_legacy_name("L122.in_EJ_R_gasproc_F_Yh") %>%
       add_precursors("common/GCAM_region_names", "aglu/FAO/FAO_ag_items_PRODSTAT", "energy/calibrated_techs",
+<<<<<<< HEAD
+                     "energy/A_regions", "energy/A21.globaltech_coef", "energy/A22.globaltech_coef", "temp-data-inject/L1011.en_bal_EJ_R_Si_Fi_Yh",
+=======
                      "energy/A_regions", "energy/A21.globaltech_coef", "energy/A22.globaltech_coef", "L1011.en_bal_EJ_R_Si_Fi_Yh",
+>>>>>>> master
                      "L121.in_EJ_R_unoil_F_Yh") %>%
       add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
       L122.in_EJ_R_gasproc_F_Yh
@@ -372,7 +380,11 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
       add_comments("Obtained by caltulating the ratio inpout/output for oil refining from L122.in_EJ_R_oilrefining_F_Yh and L122.out_EJ_R_oilrefining_Yh") %>%
       add_legacy_name("L122.IO_R_oilrefining_F_Yh") %>%
       add_precursors("common/GCAM_region_names", "aglu/FAO/FAO_ag_items_PRODSTAT", "energy/calibrated_techs",
+<<<<<<< HEAD
+                     "energy/A_regions", "energy/A21.globaltech_coef", "energy/A22.globaltech_coef", "temp-data-inject/L1011.en_bal_EJ_R_Si_Fi_Yh",
+=======
                      "energy/A_regions", "energy/A21.globaltech_coef", "energy/A22.globaltech_coef", "L1011.en_bal_EJ_R_Si_Fi_Yh",
+>>>>>>> master
                      "L121.in_EJ_R_unoil_F_Yh") %>%
       add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
       L122.IO_R_oilrefining_F_Yh
@@ -383,7 +395,11 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
       add_comments("Combines all calibrated refinery output tables, including oil refining, gtl-ctl and biofuels ") %>%
       add_legacy_name("L122.out_EJ_R_refining_F_Yh") %>%
       add_precursors("common/GCAM_region_names", "aglu/FAO/FAO_ag_items_PRODSTAT", "energy/calibrated_techs",
+<<<<<<< HEAD
+                     "energy/A_regions", "energy/A21.globaltech_coef", "energy/A22.globaltech_coef", "temp-data-inject/L1011.en_bal_EJ_R_Si_Fi_Yh",
+=======
                      "energy/A_regions", "energy/A21.globaltech_coef", "energy/A22.globaltech_coef", "L1011.en_bal_EJ_R_Si_Fi_Yh",
+>>>>>>> master
                      "L121.in_EJ_R_unoil_F_Yh") %>%
       add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
       L122.out_EJ_R_refining_F_Yh
@@ -394,7 +410,11 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
       add_comments("Combines all calibrated refinery input tables, including oil refining, gtl-ctl and biofuels") %>%
       add_legacy_name("L122.in_EJ_R_refining_F_Yh") %>%
       add_precursors("common/GCAM_region_names", "aglu/FAO/FAO_ag_items_PRODSTAT", "energy/calibrated_techs",
+<<<<<<< HEAD
+                     "energy/A_regions", "energy/A21.globaltech_coef", "energy/A22.globaltech_coef", "temp-data-inject/L1011.en_bal_EJ_R_Si_Fi_Yh",
+=======
                      "energy/A_regions", "energy/A21.globaltech_coef", "energy/A22.globaltech_coef", "L1011.en_bal_EJ_R_Si_Fi_Yh",
+>>>>>>> master
                      "L121.in_EJ_R_unoil_F_Yh") %>%
       add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
       L122.in_EJ_R_refining_F_Yh
@@ -405,7 +425,11 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
       add_comments("Created by matching 1st generation bio with the global technologies coefficients for existing minicam energy inputs") %>%
       add_legacy_name("L122.in_Mt_R_C_Yh") %>%
       add_precursors("common/GCAM_region_names", "aglu/FAO/FAO_ag_items_PRODSTAT", "energy/calibrated_techs",
+<<<<<<< HEAD
+                     "energy/A_regions", "energy/A21.globaltech_coef", "energy/A22.globaltech_coef", "temp-data-inject/L1011.en_bal_EJ_R_Si_Fi_Yh",
+=======
                      "energy/A_regions", "energy/A21.globaltech_coef", "energy/A22.globaltech_coef", "L1011.en_bal_EJ_R_Si_Fi_Yh",
+>>>>>>> master
                      "L121.in_EJ_R_unoil_F_Yh") %>%
       add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
       L122.in_Mt_R_C_Yh
