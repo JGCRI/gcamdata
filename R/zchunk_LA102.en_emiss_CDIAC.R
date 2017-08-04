@@ -47,6 +47,7 @@ module_energy_LA102.en_emiss_CDIAC <- function(command, ...) {
       mutate(year = as.integer(substr(year, 2, 5))) ->   # change Xyear to year
       L1011.en_bal_EJ_R_Si_Fi_Yh
 
+
     # ===================================================
     # TRANSLATED PROCESSING CODE GOES HERE...
 
@@ -91,6 +92,12 @@ module_energy_LA102.en_emiss_CDIAC <- function(command, ...) {
     DEFAULT_COAL_CCOEF <- 27.3
     DEFAULT_LIQUIDS_CCOEF <- 19.6
 
+<<<<<<< HEAD
+=======
+    L102.CO2_Mt_R_F_Yh %>%
+      filter(year %in% HISTORICAL_YEARS) -> L102.CO2_Mt_R_F_Yh
+
+>>>>>>> master
     # Calculate the regional emissions coefficients by fuel, using only the energy whose carbon is assumed to be emitted
     L102.CO2_Mt_R_F_Yh %>%
       filter(fuel %in% L102.en_emitted_EJ_R_Fi_Yh$fuel) %>%
@@ -141,7 +148,11 @@ module_energy_LA102.en_emiss_CDIAC <- function(command, ...) {
       add_units("kgC/GJ") %>%
       add_comments("ratio of CDIAC carbon emissions to energy consumption") %>%
       add_legacy_name("L102.Ccoef_kgCGJ_R_F_Yh") %>%
+<<<<<<< HEAD
       add_precursors("L100.CDIAC_CO2_ctry_hist", "common/iso_GCAM_regID", "emissions/mappings/CDIAC_fuel", "temp-data-inject/L1011.en_bal_EJ_R_Si_Fi_Yh", "energy/A32.nonenergy_Cseq") %>%
+=======
+      add_precursors("L100.CDIAC_CO2_ctry_hist", "common/iso_GCAM_regID", "emissions/mappings/CDIAC_fuel", "L1011.en_bal_EJ_R_Si_Fi_Yh", "energy/A32.nonenergy_Cseq") %>%
+>>>>>>> master
       add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
       L102.Ccoef_kgCGJ_R_F_Yh
 
@@ -150,7 +161,11 @@ module_energy_LA102.en_emiss_CDIAC <- function(command, ...) {
       add_units("kgC/GJ") %>%
       add_comments("aggregated regional data for CDIAC carbon emissions and energy balances to find global ratios") %>%
       add_legacy_name("L102.Ccoef_kgCGJ_F_Yh") %>%
+<<<<<<< HEAD
       add_precursors("L100.CDIAC_CO2_ctry_hist", "common/iso_GCAM_regID", "emissions/mappings/CDIAC_fuel", "temp-data-inject/L1011.en_bal_EJ_R_Si_Fi_Yh", "energy/A32.nonenergy_Cseq") %>%
+=======
+      add_precursors("L100.CDIAC_CO2_ctry_hist", "common/iso_GCAM_regID", "emissions/mappings/CDIAC_fuel", "L1011.en_bal_EJ_R_Si_Fi_Yh", "energy/A32.nonenergy_Cseq") %>%
+>>>>>>> master
       add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
       L102.Ccoef_kgCGJ_F_Yh
 
