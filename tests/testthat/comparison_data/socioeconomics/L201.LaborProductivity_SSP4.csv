@@ -1,0 +1,677 @@
+INPUT_TABLE
+Variable ID
+LaborProductivity
+
+region,year,laborproductivity
+USA,1990,0.02453
+Africa_Eastern,1990,0.00078
+Africa_Northern,1990,0.02233
+Africa_Southern,1990,-0.0027
+Africa_Western,1990,-0.0159
+Australia_NZ,1990,0.01678
+Brazil,1990,0.0102
+Canada,1990,0.01775
+Central America and Caribbean,1990,0.00529
+Central Asia,1990,0.00965
+China,1990,0.07016
+EU-12,1990,0.0214
+EU-15,1990,0.02379
+Europe_Eastern,1990,0.02293
+Europe_Non_EU,1990,0.02537
+European Free Trade Association,1990,0.02093
+India,1990,0.02391
+Indonesia,1990,0.04647
+Japan,1990,0.03868
+Mexico,1990,0.01247
+Middle East,1990,-0.0119
+Pakistan,1990,0.02835
+Russia,1990,0.01736
+South Africa,1990,-0.00377
+South America_Northern,1990,-0.01446
+South America_Southern,1990,0.00401
+South Asia,1990,0.01714
+South Korea,1990,0.07694
+Southeast Asia,1990,0.03367
+Taiwan,1990,0.06958
+Argentina,1990,-0.01574
+Colombia,1990,0.01934
+USA,2005,0.02063
+Africa_Eastern,2005,0.01413
+Africa_Northern,2005,0.02265
+Africa_Southern,2005,0.00609
+Africa_Western,2005,0.01102
+Australia_NZ,2005,0.02066
+Brazil,2005,0.01144
+Canada,2005,0.0171
+Central America and Caribbean,2005,0.01521
+Central Asia,2005,-0.00245
+China,2005,0.0844
+EU-12,2005,0.02292
+EU-15,2005,0.01709
+Europe_Eastern,2005,-0.01725
+Europe_Non_EU,2005,0.02084
+European Free Trade Association,2005,0.01342
+India,2005,0.04094
+Indonesia,2005,0.02941
+Japan,2005,0.00926
+Mexico,2005,0.0134
+Middle East,2005,0.01866
+Pakistan,2005,0.01888
+Russia,2005,-0.00454
+South Africa,2005,0.00715
+South America_Northern,2005,0.00262
+South America_Southern,2005,0.02596
+South Asia,2005,0.02466
+South Korea,2005,0.05294
+Southeast Asia,2005,0.03534
+Taiwan,2005,0.04531
+Argentina,2005,0.02521
+Colombia,2005,0.01212
+USA,2010,-0.00137
+Africa_Eastern,2010,0.03682
+Africa_Northern,2010,0.02982
+Africa_Southern,2010,0.05164
+Africa_Western,2010,0.03389
+Australia_NZ,2010,0.00952
+Brazil,2010,0.03472
+Canada,2010,0.00217
+Central America and Caribbean,2010,0.02809
+Central Asia,2010,0.06982
+China,2010,0.1032
+EU-12,2010,0.03088
+EU-15,2010,0.00189
+Europe_Eastern,2010,0.03275
+Europe_Non_EU,2010,0.01959
+European Free Trade Association,2010,0.00651
+India,2010,0.06775
+Indonesia,2010,0.04609
+Japan,2010,0.0031
+Mexico,2010,0.00647
+Middle East,2010,0.02049
+Pakistan,2010,0.01569
+Russia,2010,0.0367
+South Africa,2010,0.02262
+South America_Northern,2010,0.0203
+South America_Southern,2010,0.03382
+South Asia,2010,0.04985
+South Korea,2010,0.03616
+Southeast Asia,2010,0.03733
+Taiwan,2010,0.03702
+Argentina,2010,0.0475
+Colombia,2010,0.03022
+USA,2015,0.01634
+Africa_Eastern,2015,0.02361
+Africa_Northern,2015,0.02153
+Africa_Southern,2015,0.03077
+Africa_Western,2015,0.03518
+Australia_NZ,2015,0.01729
+Brazil,2015,0.02443
+Canada,2015,0.01334
+Central America and Caribbean,2015,0.02526
+Central Asia,2015,0.04898
+China,2015,0.08241
+EU-12,2015,0.02621
+EU-15,2015,0.00943
+Europe_Eastern,2015,0.0446
+Europe_Non_EU,2015,0.03184
+European Free Trade Association,2015,0.01308
+India,2015,0.05157
+Indonesia,2015,0.05385
+Japan,2015,0.0119
+Mexico,2015,0.0235
+Middle East,2015,0.02185
+Pakistan,2015,0.01445
+Russia,2015,0.04026
+South Africa,2015,0.02822
+South America_Northern,2015,0.024
+South America_Southern,2015,0.03936
+South Asia,2015,0.04753
+South Korea,2015,0.03542
+Southeast Asia,2015,0.03642
+Taiwan,2015,0.03669
+Argentina,2015,0.03552
+Colombia,2015,0.0337
+USA,2020,0.02172
+Africa_Eastern,2020,0.04028
+Africa_Northern,2020,0.03985
+Africa_Southern,2020,0.0341
+Africa_Western,2020,0.03693
+Australia_NZ,2020,0.01834
+Brazil,2020,0.03223
+Canada,2020,0.01456
+Central America and Caribbean,2020,0.02518
+Central Asia,2020,0.0488
+China,2020,0.07653
+EU-12,2020,0.03216
+EU-15,2020,0.01376
+Europe_Eastern,2020,0.04226
+Europe_Non_EU,2020,0.03195
+European Free Trade Association,2020,0.01481
+India,2020,0.05505
+Indonesia,2020,0.05847
+Japan,2020,0.01201
+Mexico,2020,0.02259
+Middle East,2020,0.02305
+Pakistan,2020,0.02161
+Russia,2020,0.03773
+South Africa,2020,0.03507
+South America_Northern,2020,0.01708
+South America_Southern,2020,0.03662
+South Asia,2020,0.04903
+South Korea,2020,0.03612
+Southeast Asia,2020,0.0402
+Taiwan,2020,0.03964
+Argentina,2020,0.03067
+Colombia,2020,0.02966
+USA,2025,0.01905
+Africa_Eastern,2025,0.02766
+Africa_Northern,2025,0.03906
+Africa_Southern,2025,0.02131
+Africa_Western,2025,0.03145
+Australia_NZ,2025,0.01669
+Brazil,2025,0.02607
+Canada,2025,0.01091
+Central America and Caribbean,2025,0.02282
+Central Asia,2025,0.04876
+China,2025,0.05946
+EU-12,2025,0.03025
+EU-15,2025,0.01415
+Europe_Eastern,2025,0.04062
+Europe_Non_EU,2025,0.02618
+European Free Trade Association,2025,0.01305
+India,2025,0.04897
+Indonesia,2025,0.05532
+Japan,2025,0.01683
+Mexico,2025,0.02232
+Middle East,2025,0.02241
+Pakistan,2025,0.02132
+Russia,2025,0.03575
+South Africa,2025,0.03174
+South America_Northern,2025,0.02208
+South America_Southern,2025,0.03136
+South Asia,2025,0.03974
+South Korea,2025,0.0336
+Southeast Asia,2025,0.03369
+Taiwan,2025,0.02474
+Argentina,2025,0.02695
+Colombia,2025,0.02072
+USA,2030,0.01758
+Africa_Eastern,2030,0.02152
+Africa_Northern,2030,0.03737
+Africa_Southern,2030,0.01544
+Africa_Western,2030,0.02493
+Australia_NZ,2030,0.01717
+Brazil,2030,0.0229
+Canada,2030,0.01248
+Central America and Caribbean,2030,0.02114
+Central Asia,2030,0.04247
+China,2030,0.0459
+EU-12,2030,0.02918
+EU-15,2030,0.01572
+Europe_Eastern,2030,0.03878
+Europe_Non_EU,2030,0.02359
+European Free Trade Association,2030,0.01465
+India,2030,0.04306
+Indonesia,2030,0.04895
+Japan,2030,0.01993
+Mexico,2030,0.02398
+Middle East,2030,0.02423
+Pakistan,2030,0.0183
+Russia,2030,0.0349
+South Africa,2030,0.02905
+South America_Northern,2030,0.02158
+South America_Southern,2030,0.0283
+South Asia,2030,0.02998
+South Korea,2030,0.02949
+Southeast Asia,2030,0.02952
+Taiwan,2030,0.01796
+Argentina,2030,0.02505
+Colombia,2030,0.02367
+USA,2035,0.01551
+Africa_Eastern,2035,0.015
+Africa_Northern,2035,0.03314
+Africa_Southern,2035,0.00957
+Africa_Western,2035,0.01764
+Australia_NZ,2035,0.01773
+Brazil,2035,0.02047
+Canada,2035,0.01503
+Central America and Caribbean,2035,0.01833
+Central Asia,2035,0.03743
+China,2035,0.0348
+EU-12,2035,0.02684
+EU-15,2035,0.01657
+Europe_Eastern,2035,0.03521
+Europe_Non_EU,2035,0.02088
+European Free Trade Association,2035,0.01519
+India,2035,0.03771
+Indonesia,2035,0.04309
+Japan,2035,0.01974
+Mexico,2035,0.02363
+Middle East,2035,0.02328
+Pakistan,2035,0.01496
+Russia,2035,0.03174
+South Africa,2035,0.02627
+South America_Northern,2035,0.02274
+South America_Southern,2035,0.02518
+South Asia,2035,0.02036
+South Korea,2035,0.02518
+Southeast Asia,2035,0.02457
+Taiwan,2035,0.01482
+Argentina,2035,0.02236
+Colombia,2035,0.0236
+USA,2040,0.01302
+Africa_Eastern,2040,0.01472
+Africa_Northern,2040,0.02929
+Africa_Southern,2040,0.00994
+Africa_Western,2040,0.01539
+Australia_NZ,2040,0.01708
+Brazil,2040,0.01973
+Canada,2040,0.01482
+Central America and Caribbean,2040,0.0172
+Central Asia,2040,0.03145
+China,2040,0.0289
+EU-12,2040,0.0231
+EU-15,2040,0.01645
+Europe_Eastern,2040,0.03148
+Europe_Non_EU,2040,0.01951
+European Free Trade Association,2040,0.01393
+India,2040,0.03406
+Indonesia,2040,0.03946
+Japan,2040,0.01789
+Mexico,2040,0.02223
+Middle East,2040,0.01968
+Pakistan,2040,0.01425
+Russia,2040,0.02615
+South Africa,2040,0.02409
+South America_Northern,2040,0.02018
+South America_Southern,2040,0.02385
+South Asia,2040,0.01673
+South Korea,2040,0.02131
+Southeast Asia,2040,0.02238
+Taiwan,2040,0.01197
+Argentina,2040,0.01917
+Colombia,2040,0.02367
+USA,2045,0.01115
+Africa_Eastern,2045,0.01468
+Africa_Northern,2045,0.02634
+Africa_Southern,2045,0.01238
+Africa_Western,2045,0.0142
+Australia_NZ,2045,0.01648
+Brazil,2045,0.01868
+Canada,2045,0.01347
+Central America and Caribbean,2045,0.01601
+Central Asia,2045,0.02509
+China,2045,0.02481
+EU-12,2045,0.01931
+EU-15,2045,0.01569
+Europe_Eastern,2045,0.02765
+Europe_Non_EU,2045,0.01758
+European Free Trade Association,2045,0.0126
+India,2045,0.0304
+Indonesia,2045,0.03515
+Japan,2045,0.01762
+Mexico,2045,0.0215
+Middle East,2045,0.01512
+Pakistan,2045,0.01275
+Russia,2045,0.01957
+South Africa,2045,0.02195
+South America_Northern,2045,0.01844
+South America_Southern,2045,0.02264
+South Asia,2045,0.01349
+South Korea,2045,0.01904
+Southeast Asia,2045,0.02024
+Taiwan,2045,0.00823
+Argentina,2045,0.01653
+Colombia,2045,0.02292
+USA,2050,0.00948
+Africa_Eastern,2050,0.01442
+Africa_Northern,2050,0.0244
+Africa_Southern,2050,0.01523
+Africa_Western,2050,0.01388
+Australia_NZ,2050,0.01482
+Brazil,2050,0.0178
+Canada,2050,0.01189
+Central America and Caribbean,2050,0.01468
+Central Asia,2050,0.01883
+China,2050,0.0205
+EU-12,2050,0.01722
+EU-15,2050,0.01486
+Europe_Eastern,2050,0.02485
+Europe_Non_EU,2050,0.01625
+European Free Trade Association,2050,0.01231
+India,2050,0.02762
+Indonesia,2050,0.03157
+Japan,2050,0.01663
+Mexico,2050,0.02175
+Middle East,2050,0.01106
+Pakistan,2050,0.01126
+Russia,2050,0.01469
+South Africa,2050,0.02007
+South America_Northern,2050,0.01746
+South America_Southern,2050,0.0216
+South Asia,2050,0.01132
+South Korea,2050,0.01728
+Southeast Asia,2050,0.01819
+Taiwan,2050,0.00448
+Argentina,2050,0.01597
+Colombia,2050,0.02251
+USA,2055,0.00889
+Africa_Eastern,2055,0.01479
+Africa_Northern,2055,0.02391
+Africa_Southern,2055,0.01776
+Africa_Western,2055,0.01467
+Australia_NZ,2055,0.01378
+Brazil,2055,0.01804
+Canada,2055,0.01105
+Central America and Caribbean,2055,0.01373
+Central Asia,2055,0.01603
+China,2055,0.01701
+EU-12,2055,0.01618
+EU-15,2055,0.01453
+Europe_Eastern,2055,0.0243
+Europe_Non_EU,2055,0.01572
+European Free Trade Association,2055,0.01243
+India,2055,0.02589
+Indonesia,2055,0.02924
+Japan,2055,0.01636
+Mexico,2055,0.02185
+Middle East,2055,0.00925
+Pakistan,2055,0.01097
+Russia,2055,0.01382
+South Africa,2055,0.01917
+South America_Northern,2055,0.01707
+South America_Southern,2055,0.02085
+South Asia,2055,0.01049
+South Korea,2055,0.01681
+Southeast Asia,2055,0.01712
+Taiwan,2055,0.00187
+Argentina,2055,0.01559
+Colombia,2055,0.02227
+USA,2060,0.00896
+Africa_Eastern,2060,0.01536
+Africa_Northern,2060,0.02389
+Africa_Southern,2060,0.01952
+Africa_Western,2060,0.01544
+Australia_NZ,2060,0.01419
+Brazil,2060,0.01832
+Canada,2060,0.01157
+Central America and Caribbean,2060,0.01306
+Central Asia,2060,0.01638
+China,2060,0.01608
+EU-12,2060,0.01684
+EU-15,2060,0.01495
+Europe_Eastern,2060,0.0248
+Europe_Non_EU,2060,0.01536
+European Free Trade Association,2060,0.01265
+India,2060,0.02466
+Indonesia,2060,0.02738
+Japan,2060,0.01622
+Mexico,2060,0.02152
+Middle East,2060,0.00887
+Pakistan,2060,0.01151
+Russia,2060,0.01603
+South Africa,2060,0.01871
+South America_Northern,2060,0.01696
+South America_Southern,2060,0.02038
+South Asia,2060,0.01024
+South Korea,2060,0.01498
+Southeast Asia,2060,0.01624
+Taiwan,2060,0.00182
+Argentina,2060,0.01518
+Colombia,2060,0.022
+USA,2065,0.00922
+Africa_Eastern,2065,0.01594
+Africa_Northern,2065,0.02327
+Africa_Southern,2065,0.02061
+Africa_Western,2065,0.0158
+Australia_NZ,2065,0.01449
+Brazil,2065,0.01768
+Canada,2065,0.01271
+Central America and Caribbean,2065,0.01208
+Central Asia,2065,0.0171
+China,2065,0.01485
+EU-12,2065,0.01763
+EU-15,2065,0.01499
+Europe_Eastern,2065,0.02441
+Europe_Non_EU,2065,0.01488
+European Free Trade Association,2065,0.01313
+India,2065,0.02329
+Indonesia,2065,0.02539
+Japan,2065,0.01571
+Mexico,2065,0.02107
+Middle East,2065,0.00914
+Pakistan,2065,0.01215
+Russia,2065,0.01575
+South Africa,2065,0.01805
+South America_Northern,2065,0.01598
+South America_Southern,2065,0.0197
+South Asia,2065,0.00962
+South Korea,2065,0.01414
+Southeast Asia,2065,0.01526
+Taiwan,2065,0.00824
+Argentina,2065,0.01446
+Colombia,2065,0.0214
+USA,2070,0.00868
+Africa_Eastern,2070,0.01624
+Africa_Northern,2070,0.0218
+Africa_Southern,2070,0.02104
+Africa_Western,2070,0.0161
+Australia_NZ,2070,0.01418
+Brazil,2070,0.01729
+Canada,2070,0.0131
+Central America and Caribbean,2070,0.01107
+Central Asia,2070,0.01631
+China,2070,0.01362
+EU-12,2070,0.01726
+EU-15,2070,0.01423
+Europe_Eastern,2070,0.02255
+Europe_Non_EU,2070,0.01436
+European Free Trade Association,2070,0.01308
+India,2070,0.02182
+Indonesia,2070,0.02327
+Japan,2070,0.01503
+Mexico,2070,0.02003
+Middle East,2070,0.0093
+Pakistan,2070,0.01264
+Russia,2070,0.01459
+South Africa,2070,0.01716
+South America_Northern,2070,0.01497
+South America_Southern,2070,0.01901
+South Asia,2070,0.00888
+South Korea,2070,0.01434
+Southeast Asia,2070,0.0139
+Taiwan,2070,0.00748
+Argentina,2070,0.01359
+Colombia,2070,0.02062
+USA,2075,0.0083
+Africa_Eastern,2075,0.01617
+Africa_Northern,2075,0.02036
+Africa_Southern,2075,0.021
+Africa_Western,2075,0.01621
+Australia_NZ,2075,0.0133
+Brazil,2075,0.01766
+Canada,2075,0.01273
+Central America and Caribbean,2075,0.01024
+Central Asia,2075,0.01457
+China,2075,0.01226
+EU-12,2075,0.01593
+EU-15,2075,0.01325
+Europe_Eastern,2075,0.02007
+Europe_Non_EU,2075,0.01374
+European Free Trade Association,2075,0.01247
+India,2075,0.02048
+Indonesia,2075,0.02179
+Japan,2075,0.01399
+Mexico,2075,0.01929
+Middle East,2075,0.00952
+Pakistan,2075,0.01229
+Russia,2075,0.01269
+South Africa,2075,0.01678
+South America_Northern,2075,0.0145
+South America_Southern,2075,0.01831
+South Asia,2075,0.00842
+South Korea,2075,0.01323
+Southeast Asia,2075,0.01259
+Taiwan,2075,0.00597
+Argentina,2075,0.01272
+Colombia,2075,0.01975
+USA,2080,0.0089
+Africa_Eastern,2080,0.01575
+Africa_Northern,2080,0.01936
+Africa_Southern,2080,0.02051
+Africa_Western,2080,0.01603
+Australia_NZ,2080,0.01298
+Brazil,2080,0.01758
+Canada,2080,0.01283
+Central America and Caribbean,2080,0.00956
+Central Asia,2080,0.01395
+China,2080,0.01234
+EU-12,2080,0.01502
+EU-15,2080,0.01298
+Europe_Eastern,2080,0.01868
+Europe_Non_EU,2080,0.01333
+European Free Trade Association,2080,0.01236
+India,2080,0.01961
+Indonesia,2080,0.02096
+Japan,2080,0.01339
+Mexico,2080,0.01883
+Middle East,2080,0.00995
+Pakistan,2080,0.01151
+Russia,2080,0.01164
+South Africa,2080,0.01638
+South America_Northern,2080,0.0147
+South America_Southern,2080,0.01779
+South Asia,2080,0.00825
+South Korea,2080,0.01318
+Southeast Asia,2080,0.01153
+Taiwan,2080,0.0046
+Argentina,2080,0.01249
+Colombia,2080,0.01928
+USA,2085,0.00901
+Africa_Eastern,2085,0.01547
+Africa_Northern,2085,0.01855
+Africa_Southern,2085,0.0199
+Africa_Western,2085,0.01564
+Australia_NZ,2085,0.01257
+Brazil,2085,0.01743
+Canada,2085,0.01268
+Central America and Caribbean,2085,0.00879
+Central Asia,2085,0.01346
+China,2085,0.01193
+EU-12,2085,0.01424
+EU-15,2085,0.01277
+Europe_Eastern,2085,0.01784
+Europe_Non_EU,2085,0.01296
+European Free Trade Association,2085,0.01212
+India,2085,0.01886
+Indonesia,2085,0.02029
+Japan,2085,0.01359
+Mexico,2085,0.01837
+Middle East,2085,0.01024
+Pakistan,2085,0.01095
+Russia,2085,0.0113
+South Africa,2085,0.01582
+South America_Northern,2085,0.01479
+South America_Southern,2085,0.01724
+South Asia,2085,0.00816
+South Korea,2085,0.01271
+Southeast Asia,2085,0.01045
+Taiwan,2085,0.00266
+Argentina,2085,0.01238
+Colombia,2085,0.01866
+USA,2090,0.00923
+Africa_Eastern,2090,0.0153
+Africa_Northern,2090,0.01806
+Africa_Southern,2090,0.01929
+Africa_Western,2090,0.01529
+Australia_NZ,2090,0.01259
+Brazil,2090,0.01751
+Canada,2090,0.01273
+Central America and Caribbean,2090,0.00829
+Central Asia,2090,0.01337
+China,2090,0.01179
+EU-12,2090,0.01384
+EU-15,2090,0.01296
+Europe_Eastern,2090,0.01731
+Europe_Non_EU,2090,0.01289
+European Free Trade Association,2090,0.01223
+India,2090,0.01841
+Indonesia,2090,0.0198
+Japan,2090,0.01375
+Mexico,2090,0.01804
+Middle East,2090,0.01068
+Pakistan,2090,0.01091
+Russia,2090,0.0113
+South Africa,2090,0.01548
+South America_Northern,2090,0.01497
+South America_Southern,2090,0.01684
+South Asia,2090,0.00831
+South Korea,2090,0.01226
+Southeast Asia,2090,0.00965
+Taiwan,2090,0.00115
+Argentina,2090,0.01245
+Colombia,2090,0.01814
+USA,2095,0.00954
+Africa_Eastern,2095,0.0152
+Africa_Northern,2095,0.01766
+Africa_Southern,2095,0.01873
+Africa_Western,2095,0.0148
+Australia_NZ,2095,0.01295
+Brazil,2095,0.01779
+Canada,2095,0.01319
+Central America and Caribbean,2095,0.00794
+Central Asia,2095,0.01318
+China,2095,0.01159
+EU-12,2095,0.01381
+EU-15,2095,0.01324
+Europe_Eastern,2095,0.01681
+Europe_Non_EU,2095,0.01298
+European Free Trade Association,2095,0.01252
+India,2095,0.01803
+Indonesia,2095,0.01939
+Japan,2095,0.01381
+Mexico,2095,0.01777
+Middle East,2095,0.01106
+Pakistan,2095,0.01118
+Russia,2095,0.01128
+South Africa,2095,0.01522
+South America_Northern,2095,0.01513
+South America_Southern,2095,0.01659
+South Asia,2095,0.00854
+South Korea,2095,0.01184
+Southeast Asia,2095,0.00902
+Taiwan,2095,-0.00032
+Argentina,2095,0.01253
+Colombia,2095,0.01768
+USA,2100,0.00959
+Africa_Eastern,2100,0.01518
+Africa_Northern,2100,0.01696
+Africa_Southern,2100,0.01828
+Africa_Western,2100,0.01455
+Australia_NZ,2100,0.01303
+Brazil,2100,0.0179
+Canada,2100,0.01347
+Central America and Caribbean,2100,0.00758
+Central Asia,2100,0.01241
+China,2100,0.01118
+EU-12,2100,0.01371
+EU-15,2100,0.01329
+Europe_Eastern,2100,0.01596
+Europe_Non_EU,2100,0.01288
+European Free Trade Association,2100,0.01265
+India,2100,0.01741
+Indonesia,2100,0.0188
+Japan,2100,0.01352
+Mexico,2100,0.01728
+Middle East,2100,0.01129
+Pakistan,2100,0.01153
+Russia,2100,0.01077
+South Africa,2100,0.01493
+South America_Northern,2100,0.01499
+South America_Southern,2100,0.01628
+South Asia,2100,0.00872
+South Korea,2100,0.01167
+Southeast Asia,2100,0.00836
+Taiwan,2100,-0.00179
+Argentina,2100,0.01231
+Colombia,2100,0.01704
