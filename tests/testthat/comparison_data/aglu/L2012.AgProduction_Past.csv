@@ -1,0 +1,1517 @@
+INPUT_TABLE
+Variable ID
+AgProduction
+
+region,AgSupplySector,AgSupplySubsector,AgProductionTechnology,year,calOutputValue,share.weight.year,subs.share.weight,tech.share.weight
+USA,Pasture,Pasture_ArkWhtRedR,Pasture_ArkWhtRedR,1975,36.6491007,1975,1,1
+USA,Pasture,Pasture_California,Pasture_California,1975,5.5561541,1975,1,1
+USA,Pasture,Pasture_Caribbean,Pasture_Caribbean,1975,0.3809486,1975,1,1
+USA,Pasture,Pasture_FraserR,Pasture_FraserR,1975,0.0032509,1975,1,1
+USA,Pasture,Pasture_GreatBasin,Pasture_GreatBasin,1975,3.1820743,1975,1,1
+USA,Pasture,Pasture_GreatLakes,Pasture_GreatLakes,1975,1.1669085,1975,1,1
+USA,Pasture,Pasture_MexCstNW,Pasture_MexCstNW,1975,0.1966899,1975,1,1
+USA,Pasture,Pasture_MissouriR,Pasture_MissouriR,1975,71.8743698,1975,1,1
+USA,Pasture,Pasture_MissppRN,Pasture_MissppRN,1975,4.7609713,1975,1,1
+USA,Pasture,Pasture_MissppRS,Pasture_MissppRS,1975,4.4106694,1975,1,1
+USA,Pasture,Pasture_NelsonR,Pasture_NelsonR,1975,2.6615861,1975,1,1
+USA,Pasture,Pasture_OhioR,Pasture_OhioR,1975,4.5865477,1975,1,1
+USA,Pasture,Pasture_PacArctic,Pasture_PacArctic,1975,0.3637786,1975,1,1
+USA,Pasture,Pasture_RioGrande,Pasture_RioGrande,1975,17.9665065,1975,1,1
+USA,Pasture,Pasture_TennR,Pasture_TennR,1975,1.2958264,1975,1,1
+USA,Pasture,Pasture_TexasCst,Pasture_TexasCst,1975,30.8311968,1975,1,1
+USA,Pasture,Pasture_UsaColoRN,Pasture_UsaColoRN,1975,6.3681198,1975,1,1
+USA,Pasture,Pasture_UsaColoRS,Pasture_UsaColoRS,1975,8.5435554,1975,1,1
+USA,Pasture,Pasture_UsaCstE,Pasture_UsaCstE,1975,1.560151,1975,1,1
+USA,Pasture,Pasture_UsaCstNE,Pasture_UsaCstNE,1975,0.1534803,1975,1,1
+USA,Pasture,Pasture_UsaCstSE,Pasture_UsaCstSE,1975,7.365211,1975,1,1
+USA,Pasture,Pasture_UsaPacNW,Pasture_UsaPacNW,1975,10.3296048,1975,1,1
+Africa_Eastern,Pasture,Pasture_AfrCstE,Pasture_AfrCstE,1975,3.5074329,1975,1,1
+Africa_Eastern,Pasture,Pasture_AfrCstNE,Pasture_AfrCstNE,1975,9.0313915,1975,1,1
+Africa_Eastern,Pasture,Pasture_AfrIntN,Pasture_AfrIntN,1975,0.3656601,1975,1,1
+Africa_Eastern,Pasture,Pasture_CongoR,Pasture_CongoR,1975,0.4119381,1975,1,1
+Africa_Eastern,Pasture,Pasture_LChad,Pasture_LChad,1975,3.3417879,1975,1,1
+Africa_Eastern,Pasture,Pasture_Madasgacar,Pasture_Madasgacar,1975,17.8177583,1975,1,1
+Africa_Eastern,Pasture,Pasture_NileR,Pasture_NileR,1975,55.9180751,1975,1,1
+Africa_Eastern,Pasture,Pasture_RiftValley,Pasture_RiftValley,1975,5.1993405,1975,1,1
+Africa_Eastern,Pasture,Pasture_ShebJubR,Pasture_ShebJubR,1975,14.4406141,1975,1,1
+Africa_Northern,Pasture,Pasture_AfrCstNE,Pasture_AfrCstNE,1975,0.0001094,1975,1,1
+Africa_Northern,Pasture,Pasture_AfrCstNW,Pasture_AfrCstNW,1975,1.9625664,1975,1,1
+Africa_Northern,Pasture,Pasture_AfrIntN,Pasture_AfrIntN,1975,3.157153,1975,1,1
+Africa_Northern,Pasture,Pasture_DeadSea,Pasture_DeadSea,1975,3e-07,1975,1,1
+Africa_Northern,Pasture,Pasture_LChad,Pasture_LChad,1975,0.004719,1975,1,1
+Africa_Northern,Pasture,Pasture_MeditS,Pasture_MeditS,1975,3.3516429,1975,1,1
+Africa_Northern,Pasture,Pasture_NigerR,Pasture_NigerR,1975,0.0050706,1975,1,1
+Africa_Southern,Pasture,Pasture_AfrCstE,Pasture_AfrCstE,1975,5.9895987,1975,1,1
+Africa_Southern,Pasture,Pasture_AfrCstS,Pasture_AfrCstS,1975,0.5449012,1975,1,1
+Africa_Southern,Pasture,Pasture_AfrCstSE,Pasture_AfrCstSE,1975,1.8149572,1975,1,1
+Africa_Southern,Pasture,Pasture_AfrCstSW,Pasture_AfrCstSW,1975,0.6877752,1975,1,1
+Africa_Southern,Pasture,Pasture_AfrIntS,Pasture_AfrIntS,1975,7.4014786,1975,1,1
+Africa_Southern,Pasture,Pasture_AngolaCst,Pasture_AngolaCst,1975,4.0144468,1975,1,1
+Africa_Southern,Pasture,Pasture_CongoR,Pasture_CongoR,1975,3.1035224,1975,1,1
+Africa_Southern,Pasture,Pasture_GuineaGulf,Pasture_GuineaGulf,1975,0.0361398,1975,1,1
+Africa_Southern,Pasture,Pasture_LimpopoR,Pasture_LimpopoR,1975,2.1755642,1975,1,1
+Africa_Southern,Pasture,Pasture_NileR,Pasture_NileR,1975,0.4234865,1975,1,1
+Africa_Southern,Pasture,Pasture_OrangeR,Pasture_OrangeR,1975,2.3355715,1975,1,1
+Africa_Southern,Pasture,Pasture_RiftValley,Pasture_RiftValley,1975,1.1146868,1975,1,1
+Africa_Southern,Pasture,Pasture_ZambeziR,Pasture_ZambeziR,1975,8.6589067,1975,1,1
+Africa_Western,Pasture,Pasture_AfrCstNW,Pasture_AfrCstNW,1975,0.066854,1975,1,1
+Africa_Western,Pasture,Pasture_AfrCstW,Pasture_AfrCstW,1975,8.6288987,1975,1,1
+Africa_Western,Pasture,Pasture_AfrIntN,Pasture_AfrIntN,1975,2.3354199,1975,1,1
+Africa_Western,Pasture,Pasture_CongoR,Pasture_CongoR,1975,6.7487108,1975,1,1
+Africa_Western,Pasture,Pasture_GuineaGulf,Pasture_GuineaGulf,1975,2.9679039,1975,1,1
+Africa_Western,Pasture,Pasture_LChad,Pasture_LChad,1975,14.4535271,1975,1,1
+Africa_Western,Pasture,Pasture_NigerR,Pasture_NigerR,1975,18.3686637,1975,1,1
+Africa_Western,Pasture,Pasture_NileR,Pasture_NileR,1975,0.0870867,1975,1,1
+Africa_Western,Pasture,Pasture_SenegalR,Pasture_SenegalR,1975,5.8262728,1975,1,1
+Africa_Western,Pasture,Pasture_VoltaR,Pasture_VoltaR,1975,3.2359845,1975,1,1
+Africa_Western,Pasture,Pasture_ZambeziR,Pasture_ZambeziR,1975,0.0080273,1975,1,1
+Australia_NZ,Pasture,Pasture_AusCstE,Pasture_AusCstE,1975,10.4270063,1975,1,1
+Australia_NZ,Pasture,Pasture_AusCstN,Pasture_AusCstN,1975,33.0988344,1975,1,1
+Australia_NZ,Pasture,Pasture_AusCstS,Pasture_AusCstS,1975,7.9023699,1975,1,1
+Australia_NZ,Pasture,Pasture_AusCstW,Pasture_AusCstW,1975,9.5365023,1975,1,1
+Australia_NZ,Pasture,Pasture_AusInt,Pasture_AusInt,1975,54.1736609,1975,1,1
+Australia_NZ,Pasture,Pasture_MurrayDrlg,Pasture_MurrayDrlg,1975,15.0826319,1975,1,1
+Australia_NZ,Pasture,Pasture_NewZealand,Pasture_NewZealand,1975,6.8709366,1975,1,1
+Australia_NZ,Pasture,Pasture_Tasmania,Pasture_Tasmania,1975,1.2812023,1975,1,1
+Brazil,Pasture,Pasture_AmazonR,Pasture_AmazonR,1975,0.6898475,1975,1,1
+Brazil,Pasture,Pasture_BrzCstE,Pasture_BrzCstE,1975,3.4633779,1975,1,1
+Brazil,Pasture,Pasture_BrzCstN,Pasture_BrzCstN,1975,4.4356812,1975,1,1
+Brazil,Pasture,Pasture_BrzCstS,Pasture_BrzCstS,1975,30.2602293,1975,1,1
+Brazil,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,1975,20.5345485,1975,1,1
+Brazil,Pasture,Pasture_ParnaibaR,Pasture_ParnaibaR,1975,3.5902084,1975,1,1
+Brazil,Pasture,Pasture_RioLaPlata,Pasture_RioLaPlata,1975,73.4702987,1975,1,1
+Brazil,Pasture,Pasture_SAmerCstNE,Pasture_SAmerCstNE,1975,0.1788538,1975,1,1
+Brazil,Pasture,Pasture_SaoFrancR,Pasture_SaoFrancR,1975,18.7938932,1975,1,1
+Brazil,Pasture,Pasture_TocantinsR,Pasture_TocantinsR,1975,35.2901344,1975,1,1
+Canada,Pasture,Pasture_CanAtl,Pasture_CanAtl,1975,0.0542657,1975,1,1
+Canada,Pasture,Pasture_ChurchillR,Pasture_ChurchillR,1975,4.01e-05,1975,1,1
+Canada,Pasture,Pasture_FraserR,Pasture_FraserR,1975,0.0419045,1975,1,1
+Canada,Pasture,Pasture_GreatLakes,Pasture_GreatLakes,1975,0.1605712,1975,1,1
+Canada,Pasture,Pasture_HudsonBay,Pasture_HudsonBay,1975,0.0606249,1975,1,1
+Canada,Pasture,Pasture_Mackenzie,Pasture_Mackenzie,1975,0.3343853,1975,1,1
+Canada,Pasture,Pasture_MissouriR,Pasture_MissouriR,1975,0.1609113,1975,1,1
+Canada,Pasture,Pasture_NelsonR,Pasture_NelsonR,1975,1.8569184,1975,1,1
+Canada,Pasture,Pasture_NWTerr,Pasture_NWTerr,1975,0.0869407,1975,1,1
+Canada,Pasture,Pasture_PacArctic,Pasture_PacArctic,1975,0.0583405,1975,1,1
+Canada,Pasture,Pasture_StLwrncR,Pasture_StLwrncR,1975,0.0441756,1975,1,1
+Canada,Pasture,Pasture_UsaCstNE,Pasture_UsaCstNE,1975,0.0101244,1975,1,1
+Canada,Pasture,Pasture_UsaPacNW,Pasture_UsaPacNW,1975,0.0181332,1975,1,1
+Central America and Caribbean,Pasture,Pasture_Caribbean,Pasture_Caribbean,1975,11.7411377,1975,1,1
+Central America and Caribbean,Pasture,Pasture_CntAmer,Pasture_CntAmer,1975,18.8533404,1975,1,1
+Central America and Caribbean,Pasture,Pasture_ColEcuaCst,Pasture_ColEcuaCst,1975,1.0547672,1975,1,1
+Central America and Caribbean,Pasture,Pasture_GrijUsuR,Pasture_GrijUsuR,1975,1.3987144,1975,1,1
+Central America and Caribbean,Pasture,Pasture_SAmerCstN,Pasture_SAmerCstN,1975,0.1005218,1975,1,1
+Central America and Caribbean,Pasture,Pasture_YucatanP,Pasture_YucatanP,1975,1.2358982,1975,1,1
+Central Asia,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,1975,2.3749127,1975,1,1
+Central Asia,Pasture,Pasture_AmurR,Pasture_AmurR,1975,4.1073611,1975,1,1
+Central Asia,Pasture,Pasture_BlackSeaN,Pasture_BlackSeaN,1975,0.0051987,1975,1,1
+Central Asia,Pasture,Pasture_BlackSeaS,Pasture_BlackSeaS,1975,0.0968931,1975,1,1
+Central Asia,Pasture,Pasture_CaspianE,Pasture_CaspianE,1975,2.5013387,1975,1,1
+Central Asia,Pasture,Pasture_CaspianNE,Pasture_CaspianNE,1975,4.7539151,1975,1,1
+Central Asia,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,1975,0.7226817,1975,1,1
+Central Asia,Pasture,Pasture_Gobi,Pasture_Gobi,1975,12.1049327,1975,1,1
+Central Asia,Pasture,Pasture_LBalkash,Pasture_LBalkash,1975,3.9617358,1975,1,1
+Central Asia,Pasture,Pasture_ObR,Pasture_ObR,1975,8.7396167,1975,1,1
+Central Asia,Pasture,Pasture_SyrDaryaR,Pasture_SyrDaryaR,1975,13.1257086,1975,1,1
+Central Asia,Pasture,Pasture_Tarim,Pasture_Tarim,1975,0.032976,1975,1,1
+Central Asia,Pasture,Pasture_UralR,Pasture_UralR,1975,1.3876814,1975,1,1
+Central Asia,Pasture,Pasture_VolgaR,Pasture_VolgaR,1975,0.1306244,1975,1,1
+Central Asia,Pasture,Pasture_YeniseiR,Pasture_YeniseiR,1975,6.4255981,1975,1,1
+China,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,1975,7.33e-05,1975,1,1
+China,Pasture,Pasture_AmurR,Pasture_AmurR,1975,11.6886998,1975,1,1
+China,Pasture,Pasture_BoHai,Pasture_BoHai,1975,4.7613826,1975,1,1
+China,Pasture,Pasture_ChinaCst,Pasture_ChinaCst,1975,2.4271757,1975,1,1
+China,Pasture,Pasture_GangesR,Pasture_GangesR,1975,2.513123,1975,1,1
+China,Pasture,Pasture_Gobi,Pasture_Gobi,1975,15.0210425,1975,1,1
+China,Pasture,Pasture_Hainan,Pasture_Hainan,1975,0.3430803,1975,1,1
+China,Pasture,Pasture_Hong,Pasture_Hong,1975,0.8416281,1975,1,1
+China,Pasture,Pasture_HuangHeR,Pasture_HuangHeR,1975,12.604709,1975,1,1
+China,Pasture,Pasture_IndusR,Pasture_IndusR,1975,0.4584914,1975,1,1
+China,Pasture,Pasture_IrrawaddyR,Pasture_IrrawaddyR,1975,0.2276229,1975,1,1
+China,Pasture,Pasture_LBalkash,Pasture_LBalkash,1975,1.0686819,1975,1,1
+China,Pasture,Pasture_Mekong,Pasture_Mekong,1975,1.5108764,1975,1,1
+China,Pasture,Pasture_ObR,Pasture_ObR,1975,1.2905617,1975,1,1
+China,Pasture,Pasture_RusCstSE,Pasture_RusCstSE,1975,0.2303095,1975,1,1
+China,Pasture,Pasture_Salween,Pasture_Salween,1975,1.0865601,1975,1,1
+China,Pasture,Pasture_SChinaSea,Pasture_SChinaSea,1975,0.555413,1975,1,1
+China,Pasture,Pasture_SyrDaryaR,Pasture_SyrDaryaR,1975,0.0005214,1975,1,1
+China,Pasture,Pasture_Taiwan,Pasture_Taiwan,1975,0.3054357,1975,1,1
+China,Pasture,Pasture_Tarim,Pasture_Tarim,1975,4.6556031,1975,1,1
+China,Pasture,Pasture_Tibet,Pasture_Tibet,1975,2.0675487,1975,1,1
+China,Pasture,Pasture_XunJiang,Pasture_XunJiang,1975,4.5947905,1975,1,1
+China,Pasture,Pasture_Yangtze,Pasture_Yangtze,1975,17.8660057,1975,1,1
+China,Pasture,Pasture_ZiyaHe,Pasture_ZiyaHe,1975,3.5534833,1975,1,1
+EU-12,Pasture,Pasture_AdrBlkSea,Pasture_AdrBlkSea,1975,4.4541386,1975,1,1
+EU-12,Pasture,Pasture_BalticSea,Pasture_BalticSea,1975,1.5647537,1975,1,1
+EU-12,Pasture,Pasture_DanubeR,Pasture_DanubeR,1975,26.5601038,1975,1,1
+EU-12,Pasture,Pasture_DaugavaR,Pasture_DaugavaR,1975,0.8454156,1975,1,1
+EU-12,Pasture,Pasture_DniesterR,Pasture_DniesterR,1975,0.0164342,1975,1,1
+EU-12,Pasture,Pasture_DnkGrmCst,Pasture_DnkGrmCst,1975,0,1975,0,0
+EU-12,Pasture,Pasture_ElbeR,Pasture_ElbeR,1975,2.2223552,1975,1,1
+EU-12,Pasture,Pasture_MeditE,Pasture_MeditE,1975,0.0157256,1975,1,1
+EU-12,Pasture,Pasture_NarvaR,Pasture_NarvaR,1975,0.2735045,1975,1,1
+EU-12,Pasture,Pasture_NemanR,Pasture_NemanR,1975,1.3476187,1975,1,1
+EU-12,Pasture,Pasture_OderR,Pasture_OderR,1975,5.0197955,1975,1,1
+EU-12,Pasture,Pasture_PolandCst,Pasture_PolandCst,1975,1.4514907,1975,1,1
+EU-12,Pasture,Pasture_WislaR,Pasture_WislaR,1975,8.4464672,1975,1,1
+EU-15,Pasture,Pasture_AdrBlkSea,Pasture_AdrBlkSea,1975,10.6928523,1975,1,1
+EU-15,Pasture,Pasture_DanubeR,Pasture_DanubeR,1975,8.0422274,1975,1,1
+EU-15,Pasture,Pasture_DnkGrmCst,Pasture_DnkGrmCst,1975,3.2783728,1975,1,1
+EU-15,Pasture,Pasture_DouroR,Pasture_DouroR,1975,4.5614655,1975,1,1
+EU-15,Pasture,Pasture_EbroR,Pasture_EbroR,1975,4.0674856,1975,1,1
+EU-15,Pasture,Pasture_ElbeR,Pasture_ElbeR,1975,4.6424433,1975,1,1
+EU-15,Pasture,Pasture_EmsWeserR,Pasture_EmsWeserR,1975,4.2193579,1975,1,1
+EU-15,Pasture,Pasture_EngWales,Pasture_EngWales,1975,18.763005,1975,1,1
+EU-15,Pasture,Pasture_Finland,Pasture_Finland,1975,0.3500062,1975,1,1
+EU-15,Pasture,Pasture_FranceCstS,Pasture_FranceCstS,1975,0.9122493,1975,1,1
+EU-15,Pasture,Pasture_FranceCstW,Pasture_FranceCstW,1975,8.1290432,1975,1,1
+EU-15,Pasture,Pasture_Gironde,Pasture_Gironde,1975,6.1486019,1975,1,1
+EU-15,Pasture,Pasture_GuadalqR,Pasture_GuadalqR,1975,2.32711,1975,1,1
+EU-15,Pasture,Pasture_GuadianaR,Pasture_GuadianaR,1975,2.9352906,1975,1,1
+EU-15,Pasture,Pasture_IberiaCst,Pasture_IberiaCst,1975,0.9781019,1975,1,1
+EU-15,Pasture,Pasture_Ireland,Pasture_Ireland,1975,15.461809,1975,1,1
+EU-15,Pasture,Pasture_ItalyCstE,Pasture_ItalyCstE,1975,3.4520697,1975,1,1
+EU-15,Pasture,Pasture_ItalyCstW,Pasture_ItalyCstW,1975,2.9768667,1975,1,1
+EU-15,Pasture,Pasture_LoireR,Pasture_LoireR,1975,11.4223018,1975,1,1
+EU-15,Pasture,Pasture_MeditE,Pasture_MeditE,1975,0.0104438,1975,1,1
+EU-15,Pasture,Pasture_MeditIsl,Pasture_MeditIsl,1975,1.968792,1975,1,1
+EU-15,Pasture,Pasture_NevaR,Pasture_NevaR,1975,0.0074539,1975,1,1
+EU-15,Pasture,Pasture_OderR,Pasture_OderR,1975,0.2874808,1975,1,1
+EU-15,Pasture,Pasture_PoR,Pasture_PoR,1975,3.6918634,1975,1,1
+EU-15,Pasture,Pasture_RhineR,Pasture_RhineR,1975,10.3549314,1975,1,1
+EU-15,Pasture,Pasture_RhoneR,Pasture_RhoneR,1975,5.3862643,1975,1,1
+EU-15,Pasture,Pasture_ScheldtR,Pasture_ScheldtR,1975,1.033739,1975,1,1
+EU-15,Pasture,Pasture_ScndnvN,Pasture_ScndnvN,1975,0.0251344,1975,1,1
+EU-15,Pasture,Pasture_Scotland,Pasture_Scotland,1975,10.2973165,1975,1,1
+EU-15,Pasture,Pasture_SeineR,Pasture_SeineR,1975,5.1755001,1975,1,1
+EU-15,Pasture,Pasture_SpainCstSE,Pasture_SpainCstSE,1975,4.6929356,1975,1,1
+EU-15,Pasture,Pasture_Sweden,Pasture_Sweden,1975,1.9147652,1975,1,1
+EU-15,Pasture,Pasture_TagusR,Pasture_TagusR,1975,2.9731499,1975,1,1
+EU-15,Pasture,Pasture_TiberR,Pasture_TiberR,1975,0.8892483,1975,1,1
+Europe_Eastern,Pasture,Pasture_BlackSeaN,Pasture_BlackSeaN,1975,9.0735351,1975,1,1
+Europe_Eastern,Pasture,Pasture_DanubeR,Pasture_DanubeR,1975,1.4995498,1975,1,1
+Europe_Eastern,Pasture,Pasture_DaugavaR,Pasture_DaugavaR,1975,2.3640725,1975,1,1
+Europe_Eastern,Pasture,Pasture_DnieperR,Pasture_DnieperR,1975,27.7265892,1975,1,1
+Europe_Eastern,Pasture,Pasture_DniesterR,Pasture_DniesterR,1975,2.4205885,1975,1,1
+Europe_Eastern,Pasture,Pasture_DonR,Pasture_DonR,1975,2.9321395,1975,1,1
+Europe_Eastern,Pasture,Pasture_NemanR,Pasture_NemanR,1975,2.8620783,1975,1,1
+Europe_Eastern,Pasture,Pasture_NevaR,Pasture_NevaR,1975,0.0510593,1975,1,1
+Europe_Eastern,Pasture,Pasture_WislaR,Pasture_WislaR,1975,0.8255014,1975,1,1
+Europe_Non_EU,Pasture,Pasture_AdrBlkSea,Pasture_AdrBlkSea,1975,5.4278747,1975,1,1
+Europe_Non_EU,Pasture,Pasture_BlackSeaS,Pasture_BlackSeaS,1975,5.0913731,1975,1,1
+Europe_Non_EU,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,1975,1.0752601,1975,1,1
+Europe_Non_EU,Pasture,Pasture_DanubeR,Pasture_DanubeR,1975,5.6935896,1975,1,1
+Europe_Non_EU,Pasture,Pasture_EJrdnSyr,Pasture_EJrdnSyr,1975,0.0011554,1975,1,1
+Europe_Non_EU,Pasture,Pasture_MeditE,Pasture_MeditE,1975,5.1560537,1975,1,1
+Europe_Non_EU,Pasture,Pasture_TigrEuphR,Pasture_TigrEuphR,1975,4.810964,1975,1,1
+European Free Trade Association,Pasture,Pasture_DanubeR,Pasture_DanubeR,1975,0.1220067,1975,1,1
+European Free Trade Association,Pasture,Pasture_Iceland,Pasture_Iceland,1975,2.6679196,1975,1,1
+European Free Trade Association,Pasture,Pasture_PoR,Pasture_PoR,1975,0.2125211,1975,1,1
+European Free Trade Association,Pasture,Pasture_RhineR,Pasture_RhineR,1975,1.7778485,1975,1,1
+European Free Trade Association,Pasture,Pasture_RhoneR,Pasture_RhoneR,1975,0.392029,1975,1,1
+European Free Trade Association,Pasture,Pasture_ScndnvN,Pasture_ScndnvN,1975,0.1555085,1975,1,1
+European Free Trade Association,Pasture,Pasture_Sweden,Pasture_Sweden,1975,0.003438,1975,1,1
+India,Pasture,Pasture_BengalBay,Pasture_BengalBay,1975,0.0601822,1975,1,1
+India,Pasture,Pasture_BengalW,Pasture_BengalW,1975,0.3301095,1975,1,1
+India,Pasture,Pasture_BrahmaniR,Pasture_BrahmaniR,1975,0.3070741,1975,1,1
+India,Pasture,Pasture_CauveryR,Pasture_CauveryR,1975,0.440418,1975,1,1
+India,Pasture,Pasture_GangesR,Pasture_GangesR,1975,6.328382,1975,1,1
+India,Pasture,Pasture_GodavariR,Pasture_GodavariR,1975,1.7358383,1975,1,1
+India,Pasture,Pasture_IndCstE,Pasture_IndCstE,1975,0.2307792,1975,1,1
+India,Pasture,Pasture_IndCstNE,Pasture_IndCstNE,1975,0.2094622,1975,1,1
+India,Pasture,Pasture_IndCstS,Pasture_IndCstS,1975,0.1410029,1975,1,1
+India,Pasture,Pasture_IndCstW,Pasture_IndCstW,1975,0.2375321,1975,1,1
+India,Pasture,Pasture_IndusR,Pasture_IndusR,1975,3.3803635,1975,1,1
+India,Pasture,Pasture_IrrawaddyR,Pasture_IrrawaddyR,1975,0.1505478,1975,1,1
+India,Pasture,Pasture_KrishnaR,Pasture_KrishnaR,1975,1.3004801,1975,1,1
+India,Pasture,Pasture_MahanadiR,Pasture_MahanadiR,1975,0.789861,1975,1,1
+India,Pasture,Pasture_MahiR,Pasture_MahiR,1975,0.2148123,1975,1,1
+India,Pasture,Pasture_NarmadaR,Pasture_NarmadaR,1975,0.3455734,1975,1,1
+India,Pasture,Pasture_PennarR,Pasture_PennarR,1975,0.5916072,1975,1,1
+India,Pasture,Pasture_SabarmatiR,Pasture_SabarmatiR,1975,1.941447,1975,1,1
+India,Pasture,Pasture_TaptiR,Pasture_TaptiR,1975,0.398424,1975,1,1
+Indonesia,Pasture,Pasture_BorneoCstN,Pasture_BorneoCstN,1975,0.0438077,1975,1,1
+Indonesia,Pasture,Pasture_FlyR,Pasture_FlyR,1975,0.0077101,1975,1,1
+Indonesia,Pasture,Pasture_IdnE,Pasture_IdnE,1975,0.4572209,1975,1,1
+Indonesia,Pasture,Pasture_IrianJaya,Pasture_IrianJaya,1975,7.1151064,1975,1,1
+Indonesia,Pasture,Pasture_JavaTimor,Pasture_JavaTimor,1975,3.1569575,1975,1,1
+Indonesia,Pasture,Pasture_Kalimantan,Pasture_Kalimantan,1975,5.0032727,1975,1,1
+Indonesia,Pasture,Pasture_MalaysiaP,Pasture_MalaysiaP,1975,0.00129,1975,1,1
+Indonesia,Pasture,Pasture_SepikR,Pasture_SepikR,1975,0.0801317,1975,1,1
+Indonesia,Pasture,Pasture_Sulawesi,Pasture_Sulawesi,1975,1.6615028,1975,1,1
+Indonesia,Pasture,Pasture_Sumatra,Pasture_Sumatra,1975,5.7950688,1975,1,1
+Japan,Pasture,Pasture_Japan,Pasture_Japan,1975,0,1975,0,0
+Japan,Pasture,Pasture_Taiwan,Pasture_Taiwan,1975,0,1975,0,0
+Mexico,Pasture,Pasture_California,Pasture_California,1975,0.0438848,1975,1,1
+Mexico,Pasture,Pasture_CntAmer,Pasture_CntAmer,1975,0.0154384,1975,1,1
+Mexico,Pasture,Pasture_GrijUsuR,Pasture_GrijUsuR,1975,1.3208298,1975,1,1
+Mexico,Pasture,Pasture_MexBaja,Pasture_MexBaja,1975,1.0202092,1975,1,1
+Mexico,Pasture,Pasture_MexCstNW,Pasture_MexCstNW,1975,10.1895199,1975,1,1
+Mexico,Pasture,Pasture_MexCstW,Pasture_MexCstW,1975,2.1052006,1975,1,1
+Mexico,Pasture,Pasture_MexGulf,Pasture_MexGulf,1975,2.2479007,1975,1,1
+Mexico,Pasture,Pasture_MexInt,Pasture_MexInt,1975,9.9240811,1975,1,1
+Mexico,Pasture,Pasture_Papaloapan,Pasture_Papaloapan,1975,0.690107,1975,1,1
+Mexico,Pasture,Pasture_RioBalsas,Pasture_RioBalsas,1975,3.3569596,1975,1,1
+Mexico,Pasture,Pasture_RioGrande,Pasture_RioGrande,1975,13.9870493,1975,1,1
+Mexico,Pasture,Pasture_RioLerma,Pasture_RioLerma,1975,4.0805945,1975,1,1
+Mexico,Pasture,Pasture_RioVerde,Pasture_RioVerde,1975,2.2712979,1975,1,1
+Mexico,Pasture,Pasture_Tehuantpc,Pasture_Tehuantpc,1975,1.6557989,1975,1,1
+Mexico,Pasture,Pasture_UsaColoRS,Pasture_UsaColoRS,1975,1.7266259,1975,1,1
+Mexico,Pasture,Pasture_YucatanP,Pasture_YucatanP,1975,0.8025302,1975,1,1
+Middle East,Pasture,Pasture_AfrCstNE,Pasture_AfrCstNE,1975,4.38e-05,1975,1,1
+Middle East,Pasture,Pasture_ArabianP,Pasture_ArabianP,1975,2.6070355,1975,1,1
+Middle East,Pasture,Pasture_ArabianSea,Pasture_ArabianSea,1975,0.0091593,1975,1,1
+Middle East,Pasture,Pasture_CaspianE,Pasture_CaspianE,1975,0.7550633,1975,1,1
+Middle East,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,1975,1.8440557,1975,1,1
+Middle East,Pasture,Pasture_DeadSea,Pasture_DeadSea,1975,0.0563595,1975,1,1
+Middle East,Pasture,Pasture_EJrdnSyr,Pasture_EJrdnSyr,1975,0.3528995,1975,1,1
+Middle East,Pasture,Pasture_FarahrudR,Pasture_FarahrudR,1975,0.0123638,1975,1,1
+Middle East,Pasture,Pasture_HamuMashR,Pasture_HamuMashR,1975,0.0067633,1975,1,1
+Middle East,Pasture,Pasture_Helmand,Pasture_Helmand,1975,0.0013819,1975,1,1
+Middle East,Pasture,Pasture_Iran,Pasture_Iran,1975,1.6235648,1975,1,1
+Middle East,Pasture,Pasture_MeditE,Pasture_MeditE,1975,0.0551235,1975,1,1
+Middle East,Pasture,Pasture_PersianGulf,Pasture_PersianGulf,1975,0.4527671,1975,1,1
+Middle East,Pasture,Pasture_RedSeaE,Pasture_RedSeaE,1975,1.3611481,1975,1,1
+Middle East,Pasture,Pasture_SinaiP,Pasture_SinaiP,1975,0.0042366,1975,1,1
+Middle East,Pasture,Pasture_TigrEuphR,Pasture_TigrEuphR,1975,2.1237919,1975,1,1
+Pakistan,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,1975,0.0042708,1975,1,1
+Pakistan,Pasture,Pasture_ArabianSea,Pasture_ArabianSea,1975,1.7047809,1975,1,1
+Pakistan,Pasture,Pasture_HamuMashR,Pasture_HamuMashR,1975,0.5744461,1975,1,1
+Pakistan,Pasture,Pasture_Helmand,Pasture_Helmand,1975,0.2304284,1975,1,1
+Pakistan,Pasture,Pasture_IndusR,Pasture_IndusR,1975,22.6713675,1975,1,1
+Pakistan,Pasture,Pasture_SabarmatiR,Pasture_SabarmatiR,1975,1.9513776,1975,1,1
+Pakistan,Pasture,Pasture_Tarim,Pasture_Tarim,1975,0,1975,0,0
+Russia,Pasture,Pasture_AmurR,Pasture_AmurR,1975,9.2956577,1975,1,1
+Russia,Pasture,Pasture_BalticSea,Pasture_BalticSea,1975,0.2772273,1975,1,1
+Russia,Pasture,Pasture_BarentsSea,Pasture_BarentsSea,1975,0.1749353,1975,1,1
+Russia,Pasture,Pasture_BlackSeaN,Pasture_BlackSeaN,1975,1.7603335,1975,1,1
+Russia,Pasture,Pasture_BlackSeaS,Pasture_BlackSeaS,1975,0.0027137,1975,1,1
+Russia,Pasture,Pasture_CaspianNE,Pasture_CaspianNE,1975,6.2827594,1975,1,1
+Russia,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,1975,0.0073527,1975,1,1
+Russia,Pasture,Pasture_DaugavaR,Pasture_DaugavaR,1975,1.2207107,1975,1,1
+Russia,Pasture,Pasture_DnieperR,Pasture_DnieperR,1975,3.0288733,1975,1,1
+Russia,Pasture,Pasture_DonR,Pasture_DonR,1975,10.2419826,1975,1,1
+Russia,Pasture,Pasture_DvinaRN,Pasture_DvinaRN,1975,0.4979092,1975,1,1
+Russia,Pasture,Pasture_Finland,Pasture_Finland,1975,0.0235897,1975,1,1
+Russia,Pasture,Pasture_Gobi,Pasture_Gobi,1975,0.5712587,1975,1,1
+Russia,Pasture,Pasture_KaraSea,Pasture_KaraSea,1975,0.1282107,1975,1,1
+Russia,Pasture,Pasture_LenaR,Pasture_LenaR,1975,1.0856226,1975,1,1
+Russia,Pasture,Pasture_NarvaR,Pasture_NarvaR,1975,0.971509,1975,1,1
+Russia,Pasture,Pasture_NemanR,Pasture_NemanR,1975,0.0743985,1975,1,1
+Russia,Pasture,Pasture_NevaR,Pasture_NevaR,1975,3.1350362,1975,1,1
+Russia,Pasture,Pasture_ObR,Pasture_ObR,1975,17.5428205,1975,1,1
+Russia,Pasture,Pasture_PolandCst,Pasture_PolandCst,1975,0.2198517,1975,1,1
+Russia,Pasture,Pasture_RusCstSE,Pasture_RusCstSE,1975,0.253078,1975,1,1
+Russia,Pasture,Pasture_ScndnvN,Pasture_ScndnvN,1975,0.1165309,1975,1,1
+Russia,Pasture,Pasture_SiberiaN,Pasture_SiberiaN,1975,3.1e-05,1975,1,1
+Russia,Pasture,Pasture_SiberiaW,Pasture_SiberiaW,1975,0.2685461,1975,1,1
+Russia,Pasture,Pasture_SyrDaryaR,Pasture_SyrDaryaR,1975,0.2541274,1975,1,1
+Russia,Pasture,Pasture_UralR,Pasture_UralR,1975,4.6280262,1975,1,1
+Russia,Pasture,Pasture_VolgaR,Pasture_VolgaR,1975,31.6819792,1975,1,1
+Russia,Pasture,Pasture_YeniseiR,Pasture_YeniseiR,1975,5.1749836,1975,1,1
+South Africa,Pasture,Pasture_AfrCstS,Pasture_AfrCstS,1975,13.0634727,1975,1,1
+South Africa,Pasture,Pasture_AfrCstSSW,Pasture_AfrCstSSW,1975,4.3249762,1975,1,1
+South Africa,Pasture,Pasture_AfrCstSW,Pasture_AfrCstSW,1975,1.23e-05,1975,1,1
+South Africa,Pasture,Pasture_LimpopoR,Pasture_LimpopoR,1975,6.6698258,1975,1,1
+South Africa,Pasture,Pasture_OrangeR,Pasture_OrangeR,1975,28.2216977,1975,1,1
+South America_Northern,Pasture,Pasture_MagdalenaR,Pasture_MagdalenaR,1975,0.0220809,1975,1,1
+South America_Northern,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,1975,11.0997782,1975,1,1
+South America_Northern,Pasture,Pasture_SAmerCstN,Pasture_SAmerCstN,1975,3.9608636,1975,1,1
+South America_Northern,Pasture,Pasture_SAmerCstNE,Pasture_SAmerCstNE,1975,1.2372857,1975,1,1
+South America_Southern,Pasture,Pasture_ArgColoR,Pasture_ArgColoR,1975,0.0002865,1975,1,1
+South America_Southern,Pasture,Pasture_ArgCstS,Pasture_ArgCstS,1975,0.6338058,1975,1,1
+South America_Southern,Pasture,Pasture_BrzCstS,Pasture_BrzCstS,1975,2.4188354,1975,1,1
+South America_Southern,Pasture,Pasture_ChileCstN,Pasture_ChileCstN,1975,2.0593321,1975,1,1
+South America_Southern,Pasture,Pasture_ChileCstS,Pasture_ChileCstS,1975,3.2081473,1975,1,1
+South America_Southern,Pasture,Pasture_ColEcuaCst,Pasture_ColEcuaCst,1975,1.2255129,1975,1,1
+South America_Southern,Pasture,Pasture_LaPuna,Pasture_LaPuna,1975,2.3373809,1975,1,1
+South America_Southern,Pasture,Pasture_NegroR,Pasture_NegroR,1975,0.0144767,1975,1,1
+South America_Southern,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,1975,20.1447853,1975,1,1
+South America_Southern,Pasture,Pasture_PeruCst,Pasture_PeruCst,1975,2.2578596,1975,1,1
+South America_Southern,Pasture,Pasture_RioLaPlata,Pasture_RioLaPlata,1975,22.7668363,1975,1,1
+South Asia,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,1975,4.9920709,1975,1,1
+South Asia,Pasture,Pasture_BengalBay,Pasture_BengalBay,1975,0.0860764,1975,1,1
+South Asia,Pasture,Pasture_CaspianE,Pasture_CaspianE,1975,3.8176811,1975,1,1
+South Asia,Pasture,Pasture_FarahrudR,Pasture_FarahrudR,1975,1.4299971,1975,1,1
+South Asia,Pasture,Pasture_GangesR,Pasture_GangesR,1975,1.5836825,1975,1,1
+South Asia,Pasture,Pasture_HamuMashR,Pasture_HamuMashR,1975,0.2240988,1975,1,1
+South Asia,Pasture,Pasture_Helmand,Pasture_Helmand,1975,4.0891603,1975,1,1
+South Asia,Pasture,Pasture_IndusR,Pasture_IndusR,1975,1.6047355,1975,1,1
+South Asia,Pasture,Pasture_SriLanka,Pasture_SriLanka,1975,0.4045671,1975,1,1
+South Korea,Pasture,Pasture_Korea,Pasture_Korea,1975,2.4081214,1975,1,1
+Southeast Asia,Pasture,Pasture_BengalBay,Pasture_BengalBay,1975,0.2578493,1975,1,1
+Southeast Asia,Pasture,Pasture_BoHai,Pasture_BoHai,1975,0.1645816,1975,1,1
+Southeast Asia,Pasture,Pasture_BorneoCstN,Pasture_BorneoCstN,1975,1.3499519,1975,1,1
+Southeast Asia,Pasture,Pasture_ChaoPhrR,Pasture_ChaoPhrR,1975,1.7947988,1975,1,1
+Southeast Asia,Pasture,Pasture_FlyR,Pasture_FlyR,1975,0.1726564,1975,1,1
+Southeast Asia,Pasture,Pasture_GangesR,Pasture_GangesR,1975,0.02369,1975,1,1
+Southeast Asia,Pasture,Pasture_Hong,Pasture_Hong,1975,0.9198545,1975,1,1
+Southeast Asia,Pasture,Pasture_IdnE,Pasture_IdnE,1975,0.0071243,1975,1,1
+Southeast Asia,Pasture,Pasture_IrianJaya,Pasture_IrianJaya,1975,0.1254196,1975,1,1
+Southeast Asia,Pasture,Pasture_IrrawaddyR,Pasture_IrrawaddyR,1975,2.4757928,1975,1,1
+Southeast Asia,Pasture,Pasture_JavaTimor,Pasture_JavaTimor,1975,1.8024775,1975,1,1
+Southeast Asia,Pasture,Pasture_Kalimantan,Pasture_Kalimantan,1975,0.0612348,1975,1,1
+Southeast Asia,Pasture,Pasture_Korea,Pasture_Korea,1975,0.2218862,1975,1,1
+Southeast Asia,Pasture,Pasture_MalaysiaP,Pasture_MalaysiaP,1975,3.0597549,1975,1,1
+Southeast Asia,Pasture,Pasture_Mekong,Pasture_Mekong,1975,17.8581436,1975,1,1
+Southeast Asia,Pasture,Pasture_NewCaledn,Pasture_NewCaledn,1975,0.0017011,1975,1,1
+Southeast Asia,Pasture,Pasture_PapuaCst,Pasture_PapuaCst,1975,0.6040528,1975,1,1
+Southeast Asia,Pasture,Pasture_Phlppns,Pasture_Phlppns,1975,10.4419789,1975,1,1
+Southeast Asia,Pasture,Pasture_RusCstSE,Pasture_RusCstSE,1975,0.0860214,1975,1,1
+Southeast Asia,Pasture,Pasture_Salween,Pasture_Salween,1975,0.9849101,1975,1,1
+Southeast Asia,Pasture,Pasture_SChinaSea,Pasture_SChinaSea,1975,0.0461923,1975,1,1
+Southeast Asia,Pasture,Pasture_SepikR,Pasture_SepikR,1975,0.2621834,1975,1,1
+Southeast Asia,Pasture,Pasture_SittaungR,Pasture_SittaungR,1975,0.3235693,1975,1,1
+Southeast Asia,Pasture,Pasture_ThaiGulf,Pasture_ThaiGulf,1975,0.8920469,1975,1,1
+Southeast Asia,Pasture,Pasture_VietnamCst,Pasture_VietnamCst,1975,2.6592127,1975,1,1
+Southeast Asia,Pasture,Pasture_XunJiang,Pasture_XunJiang,1975,0.1987756,1975,1,1
+Argentina,Pasture,Pasture_ArgColoR,Pasture_ArgColoR,1975,4.8883641,1975,1,1
+Argentina,Pasture,Pasture_ArgCstN,Pasture_ArgCstN,1975,14.130544,1975,1,1
+Argentina,Pasture,Pasture_ArgCstS,Pasture_ArgCstS,1975,48.7272714,1975,1,1
+Argentina,Pasture,Pasture_ChileCstN,Pasture_ChileCstN,1975,1.3e-06,1975,1,1
+Argentina,Pasture,Pasture_ChileCstS,Pasture_ChileCstS,1975,2.6502968,1975,1,1
+Argentina,Pasture,Pasture_LaPuna,Pasture_LaPuna,1975,0.512406,1975,1,1
+Argentina,Pasture,Pasture_MarChiq,Pasture_MarChiq,1975,2.1055602,1975,1,1
+Argentina,Pasture,Pasture_NegroR,Pasture_NegroR,1975,8.7006411,1975,1,1
+Argentina,Pasture,Pasture_Pampas,Pasture_Pampas,1975,5.5731673,1975,1,1
+Argentina,Pasture,Pasture_Patagonia,Pasture_Patagonia,1975,13.8050979,1975,1,1
+Argentina,Pasture,Pasture_RioLaPlata,Pasture_RioLaPlata,1975,29.3444068,1975,1,1
+Argentina,Pasture,Pasture_Salinas,Pasture_Salinas,1975,2.1887574,1975,1,1
+Colombia,Pasture,Pasture_ColEcuaCst,Pasture_ColEcuaCst,1975,2.5804948,1975,1,1
+Colombia,Pasture,Pasture_MagdalenaR,Pasture_MagdalenaR,1975,9.377408,1975,1,1
+Colombia,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,1975,13.3405118,1975,1,1
+Colombia,Pasture,Pasture_SAmerCstN,Pasture_SAmerCstN,1975,3.3324394,1975,1,1
+USA,Pasture,Pasture_ArkWhtRedR,Pasture_ArkWhtRedR,1990,11.1037416,1990,1,1
+USA,Pasture,Pasture_California,Pasture_California,1990,1.644312,1990,1,1
+USA,Pasture,Pasture_Caribbean,Pasture_Caribbean,1990,0.1107675,1990,1,1
+USA,Pasture,Pasture_FraserR,Pasture_FraserR,1990,0.0011445,1990,1,1
+USA,Pasture,Pasture_GreatBasin,Pasture_GreatBasin,1990,0.9391263,1990,1,1
+USA,Pasture,Pasture_GreatLakes,Pasture_GreatLakes,1990,0.3968858,1990,1,1
+USA,Pasture,Pasture_MexCstNW,Pasture_MexCstNW,1990,0.0582389,1990,1,1
+USA,Pasture,Pasture_MissouriR,Pasture_MissouriR,1990,21.5180533,1990,1,1
+USA,Pasture,Pasture_MissppRN,Pasture_MissppRN,1990,1.4943542,1990,1,1
+USA,Pasture,Pasture_MissppRS,Pasture_MissppRS,1990,1.3771097,1990,1,1
+USA,Pasture,Pasture_NelsonR,Pasture_NelsonR,1990,0.7956328,1990,1,1
+USA,Pasture,Pasture_OhioR,Pasture_OhioR,1990,1.5438977,1990,1,1
+USA,Pasture,Pasture_PacArctic,Pasture_PacArctic,1990,0.1039536,1990,1,1
+USA,Pasture,Pasture_RioGrande,Pasture_RioGrande,1990,5.4000409,1990,1,1
+USA,Pasture,Pasture_TennR,Pasture_TennR,1990,0.4434381,1990,1,1
+USA,Pasture,Pasture_TexasCst,Pasture_TexasCst,1990,9.2889142,1990,1,1
+USA,Pasture,Pasture_UsaColoRN,Pasture_UsaColoRN,1990,1.890915,1990,1,1
+USA,Pasture,Pasture_UsaColoRS,Pasture_UsaColoRS,1990,2.5338207,1990,1,1
+USA,Pasture,Pasture_UsaCstE,Pasture_UsaCstE,1990,0.5032979,1990,1,1
+USA,Pasture,Pasture_UsaCstNE,Pasture_UsaCstNE,1990,0.048851,1990,1,1
+USA,Pasture,Pasture_UsaCstSE,Pasture_UsaCstSE,1990,2.3074659,1990,1,1
+USA,Pasture,Pasture_UsaPacNW,Pasture_UsaPacNW,1990,3.0760806,1990,1,1
+Africa_Eastern,Pasture,Pasture_AfrCstE,Pasture_AfrCstE,1990,4.0340315,1990,1,1
+Africa_Eastern,Pasture,Pasture_AfrCstNE,Pasture_AfrCstNE,1990,10.3996077,1990,1,1
+Africa_Eastern,Pasture,Pasture_AfrIntN,Pasture_AfrIntN,1990,0.4740681,1990,1,1
+Africa_Eastern,Pasture,Pasture_CongoR,Pasture_CongoR,1990,0.5082804,1990,1,1
+Africa_Eastern,Pasture,Pasture_LChad,Pasture_LChad,1990,4.3309387,1990,1,1
+Africa_Eastern,Pasture,Pasture_Madasgacar,Pasture_Madasgacar,1990,20.5073804,1990,1,1
+Africa_Eastern,Pasture,Pasture_NileR,Pasture_NileR,1990,70.7042901,1990,1,1
+Africa_Eastern,Pasture,Pasture_RiftValley,Pasture_RiftValley,1990,5.995136,1990,1,1
+Africa_Eastern,Pasture,Pasture_ShebJubR,Pasture_ShebJubR,1990,16.5659595,1990,1,1
+Africa_Northern,Pasture,Pasture_AfrCstNE,Pasture_AfrCstNE,1990,7.48e-05,1990,1,1
+Africa_Northern,Pasture,Pasture_AfrCstNW,Pasture_AfrCstNW,1990,1.2308212,1990,1,1
+Africa_Northern,Pasture,Pasture_AfrIntN,Pasture_AfrIntN,1990,1.7141925,1990,1,1
+Africa_Northern,Pasture,Pasture_DeadSea,Pasture_DeadSea,1990,2e-07,1990,1,1
+Africa_Northern,Pasture,Pasture_LChad,Pasture_LChad,1990,0.0007967,1990,1,1
+Africa_Northern,Pasture,Pasture_MeditS,Pasture_MeditS,1990,2.1038366,1990,1,1
+Africa_Northern,Pasture,Pasture_NigerR,Pasture_NigerR,1990,0.0019546,1990,1,1
+Africa_Southern,Pasture,Pasture_AfrCstE,Pasture_AfrCstE,1990,6.7729578,1990,1,1
+Africa_Southern,Pasture,Pasture_AfrCstS,Pasture_AfrCstS,1990,0.5746627,1990,1,1
+Africa_Southern,Pasture,Pasture_AfrCstSE,Pasture_AfrCstSE,1990,2.046539,1990,1,1
+Africa_Southern,Pasture,Pasture_AfrCstSW,Pasture_AfrCstSW,1990,0.7637756,1990,1,1
+Africa_Southern,Pasture,Pasture_AfrIntS,Pasture_AfrIntS,1990,8.2241833,1990,1,1
+Africa_Southern,Pasture,Pasture_AngolaCst,Pasture_AngolaCst,1990,4.4591792,1990,1,1
+Africa_Southern,Pasture,Pasture_CongoR,Pasture_CongoR,1990,3.5026371,1990,1,1
+Africa_Southern,Pasture,Pasture_GuineaGulf,Pasture_GuineaGulf,1990,0.040128,1990,1,1
+Africa_Southern,Pasture,Pasture_LimpopoR,Pasture_LimpopoR,1990,2.4222012,1990,1,1
+Africa_Southern,Pasture,Pasture_NileR,Pasture_NileR,1990,0.4766318,1990,1,1
+Africa_Southern,Pasture,Pasture_OrangeR,Pasture_OrangeR,1990,2.5920344,1990,1,1
+Africa_Southern,Pasture,Pasture_RiftValley,Pasture_RiftValley,1990,1.297471,1990,1,1
+Africa_Southern,Pasture,Pasture_ZambeziR,Pasture_ZambeziR,1990,9.7829102,1990,1,1
+Africa_Western,Pasture,Pasture_AfrCstNW,Pasture_AfrCstNW,1990,0.0812038,1990,1,1
+Africa_Western,Pasture,Pasture_AfrCstW,Pasture_AfrCstW,1990,10.431991,1990,1,1
+Africa_Western,Pasture,Pasture_AfrIntN,Pasture_AfrIntN,1990,2.8334632,1990,1,1
+Africa_Western,Pasture,Pasture_CongoR,Pasture_CongoR,1990,8.1436138,1990,1,1
+Africa_Western,Pasture,Pasture_GuineaGulf,Pasture_GuineaGulf,1990,3.5449446,1990,1,1
+Africa_Western,Pasture,Pasture_LChad,Pasture_LChad,1990,17.6140138,1990,1,1
+Africa_Western,Pasture,Pasture_NigerR,Pasture_NigerR,1990,22.5694831,1990,1,1
+Africa_Western,Pasture,Pasture_NileR,Pasture_NileR,1990,0.1046924,1990,1,1
+Africa_Western,Pasture,Pasture_SenegalR,Pasture_SenegalR,1990,7.0084749,1990,1,1
+Africa_Western,Pasture,Pasture_VoltaR,Pasture_VoltaR,1990,3.9062082,1990,1,1
+Africa_Western,Pasture,Pasture_ZambeziR,Pasture_ZambeziR,1990,0.009786,1990,1,1
+Australia_NZ,Pasture,Pasture_AusCstE,Pasture_AusCstE,1990,8.7697617,1990,1,1
+Australia_NZ,Pasture,Pasture_AusCstN,Pasture_AusCstN,1990,27.6612045,1990,1,1
+Australia_NZ,Pasture,Pasture_AusCstS,Pasture_AusCstS,1990,6.6096334,1990,1,1
+Australia_NZ,Pasture,Pasture_AusCstW,Pasture_AusCstW,1990,7.9752883,1990,1,1
+Australia_NZ,Pasture,Pasture_AusInt,Pasture_AusInt,1990,45.2749285,1990,1,1
+Australia_NZ,Pasture,Pasture_MurrayDrlg,Pasture_MurrayDrlg,1990,12.6503709,1990,1,1
+Australia_NZ,Pasture,Pasture_NewZealand,Pasture_NewZealand,1990,6.0900984,1990,1,1
+Australia_NZ,Pasture,Pasture_Tasmania,Pasture_Tasmania,1990,1.0804355,1990,1,1
+Brazil,Pasture,Pasture_AmazonR,Pasture_AmazonR,1990,1.0285292,1990,1,1
+Brazil,Pasture,Pasture_BrzCstE,Pasture_BrzCstE,1990,5.1184382,1990,1,1
+Brazil,Pasture,Pasture_BrzCstN,Pasture_BrzCstN,1990,6.6196613,1990,1,1
+Brazil,Pasture,Pasture_BrzCstS,Pasture_BrzCstS,1990,44.9183492,1990,1,1
+Brazil,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,1990,30.5835517,1990,1,1
+Brazil,Pasture,Pasture_ParnaibaR,Pasture_ParnaibaR,1990,5.3456517,1990,1,1
+Brazil,Pasture,Pasture_RioLaPlata,Pasture_RioLaPlata,1990,108.8958206,1990,1,1
+Brazil,Pasture,Pasture_SAmerCstNE,Pasture_SAmerCstNE,1990,0.2653228,1990,1,1
+Brazil,Pasture,Pasture_SaoFrancR,Pasture_SaoFrancR,1990,27.9401007,1990,1,1
+Brazil,Pasture,Pasture_TocantinsR,Pasture_TocantinsR,1990,52.6791813,1990,1,1
+Canada,Pasture,Pasture_CanAtl,Pasture_CanAtl,1990,0.5242458,1990,1,1
+Canada,Pasture,Pasture_ChurchillR,Pasture_ChurchillR,1990,0.0003126,1990,1,1
+Canada,Pasture,Pasture_FraserR,Pasture_FraserR,1990,0.3572872,1990,1,1
+Canada,Pasture,Pasture_GreatLakes,Pasture_GreatLakes,1990,1.7147473,1990,1,1
+Canada,Pasture,Pasture_HudsonBay,Pasture_HudsonBay,1990,0.5151312,1990,1,1
+Canada,Pasture,Pasture_Mackenzie,Pasture_Mackenzie,1990,2.8529701,1990,1,1
+Canada,Pasture,Pasture_MissouriR,Pasture_MissouriR,1990,1.3702939,1990,1,1
+Canada,Pasture,Pasture_NelsonR,Pasture_NelsonR,1990,16.1314668,1990,1,1
+Canada,Pasture,Pasture_NWTerr,Pasture_NWTerr,1990,0.7448767,1990,1,1
+Canada,Pasture,Pasture_PacArctic,Pasture_PacArctic,1990,0.4970472,1990,1,1
+Canada,Pasture,Pasture_StLwrncR,Pasture_StLwrncR,1990,0.4126105,1990,1,1
+Canada,Pasture,Pasture_UsaCstNE,Pasture_UsaCstNE,1990,0.0951903,1990,1,1
+Canada,Pasture,Pasture_UsaPacNW,Pasture_UsaPacNW,1990,0.1538969,1990,1,1
+Central America and Caribbean,Pasture,Pasture_Caribbean,Pasture_Caribbean,1990,12.6693105,1990,1,1
+Central America and Caribbean,Pasture,Pasture_CntAmer,Pasture_CntAmer,1990,20.5991535,1990,1,1
+Central America and Caribbean,Pasture,Pasture_ColEcuaCst,Pasture_ColEcuaCst,1990,1.2715244,1990,1,1
+Central America and Caribbean,Pasture,Pasture_GrijUsuR,Pasture_GrijUsuR,1990,2.7653793,1990,1,1
+Central America and Caribbean,Pasture,Pasture_SAmerCstN,Pasture_SAmerCstN,1990,0.1136245,1990,1,1
+Central America and Caribbean,Pasture,Pasture_YucatanP,Pasture_YucatanP,1990,2.3138721,1990,1,1
+Central Asia,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,1990,1.9531918,1990,1,1
+Central Asia,Pasture,Pasture_AmurR,Pasture_AmurR,1990,3.1735516,1990,1,1
+Central Asia,Pasture,Pasture_BlackSeaN,Pasture_BlackSeaN,1990,0.0041811,1990,1,1
+Central Asia,Pasture,Pasture_BlackSeaS,Pasture_BlackSeaS,1990,0.0792501,1990,1,1
+Central Asia,Pasture,Pasture_CaspianE,Pasture_CaspianE,1990,2.059898,1990,1,1
+Central Asia,Pasture,Pasture_CaspianNE,Pasture_CaspianNE,1990,3.8989931,1990,1,1
+Central Asia,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,1990,0.5972004,1990,1,1
+Central Asia,Pasture,Pasture_Gobi,Pasture_Gobi,1990,9.1420558,1990,1,1
+Central Asia,Pasture,Pasture_LBalkash,Pasture_LBalkash,1990,3.2643109,1990,1,1
+Central Asia,Pasture,Pasture_ObR,Pasture_ObR,1990,7.1907057,1990,1,1
+Central Asia,Pasture,Pasture_SyrDaryaR,Pasture_SyrDaryaR,1990,10.816524,1990,1,1
+Central Asia,Pasture,Pasture_Tarim,Pasture_Tarim,1990,0.0271093,1990,1,1
+Central Asia,Pasture,Pasture_UralR,Pasture_UralR,1990,1.1698411,1990,1,1
+Central Asia,Pasture,Pasture_VolgaR,Pasture_VolgaR,1990,0.1074596,1990,1,1
+Central Asia,Pasture,Pasture_YeniseiR,Pasture_YeniseiR,1990,4.9108499,1990,1,1
+China,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,1990,8.44e-05,1990,1,1
+China,Pasture,Pasture_AmurR,Pasture_AmurR,1990,16.4570888,1990,1,1
+China,Pasture,Pasture_BoHai,Pasture_BoHai,1990,6.6129604,1990,1,1
+China,Pasture,Pasture_ChinaCst,Pasture_ChinaCst,1990,3.2892104,1990,1,1
+China,Pasture,Pasture_GangesR,Pasture_GangesR,1990,3.6128433,1990,1,1
+China,Pasture,Pasture_Gobi,Pasture_Gobi,1990,21.5141731,1990,1,1
+China,Pasture,Pasture_Hainan,Pasture_Hainan,1990,0.4535845,1990,1,1
+China,Pasture,Pasture_Hong,Pasture_Hong,1990,1.2055913,1990,1,1
+China,Pasture,Pasture_HuangHeR,Pasture_HuangHeR,1990,17.4909308,1990,1,1
+China,Pasture,Pasture_IndusR,Pasture_IndusR,1990,0.6595857,1990,1,1
+China,Pasture,Pasture_IrrawaddyR,Pasture_IrrawaddyR,1990,0.3233547,1990,1,1
+China,Pasture,Pasture_LBalkash,Pasture_LBalkash,1990,1.4886647,1990,1,1
+China,Pasture,Pasture_Mekong,Pasture_Mekong,1990,2.1735846,1990,1,1
+China,Pasture,Pasture_ObR,Pasture_ObR,1990,1.8434415,1990,1,1
+China,Pasture,Pasture_RusCstSE,Pasture_RusCstSE,1990,0.3314842,1990,1,1
+China,Pasture,Pasture_Salween,Pasture_Salween,1990,1.5633786,1990,1,1
+China,Pasture,Pasture_SChinaSea,Pasture_SChinaSea,1990,0.6587115,1990,1,1
+China,Pasture,Pasture_SyrDaryaR,Pasture_SyrDaryaR,1990,0.0006755,1990,1,1
+China,Pasture,Pasture_Taiwan,Pasture_Taiwan,1990,0.3874656,1990,1,1
+China,Pasture,Pasture_Tarim,Pasture_Tarim,1990,6.6580546,1990,1,1
+China,Pasture,Pasture_Tibet,Pasture_Tibet,1990,2.9759913,1990,1,1
+China,Pasture,Pasture_XunJiang,Pasture_XunJiang,1990,6.230019,1990,1,1
+China,Pasture,Pasture_Yangtze,Pasture_Yangtze,1990,24.3255569,1990,1,1
+China,Pasture,Pasture_ZiyaHe,Pasture_ZiyaHe,1990,4.6585839,1990,1,1
+EU-12,Pasture,Pasture_AdrBlkSea,Pasture_AdrBlkSea,1990,3.8385682,1990,1,1
+EU-12,Pasture,Pasture_BalticSea,Pasture_BalticSea,1990,1.2464584,1990,1,1
+EU-12,Pasture,Pasture_DanubeR,Pasture_DanubeR,1990,21.1997591,1990,1,1
+EU-12,Pasture,Pasture_DaugavaR,Pasture_DaugavaR,1990,0.6764539,1990,1,1
+EU-12,Pasture,Pasture_DniesterR,Pasture_DniesterR,1990,0.0117815,1990,1,1
+EU-12,Pasture,Pasture_DnkGrmCst,Pasture_DnkGrmCst,1990,0,1990,0,0
+EU-12,Pasture,Pasture_ElbeR,Pasture_ElbeR,1990,1.6293693,1990,1,1
+EU-12,Pasture,Pasture_MeditE,Pasture_MeditE,1990,0.0120496,1990,1,1
+EU-12,Pasture,Pasture_NarvaR,Pasture_NarvaR,1990,0.2211128,1990,1,1
+EU-12,Pasture,Pasture_NemanR,Pasture_NemanR,1990,1.0580134,1990,1,1
+EU-12,Pasture,Pasture_OderR,Pasture_OderR,1990,3.8849433,1990,1,1
+EU-12,Pasture,Pasture_PolandCst,Pasture_PolandCst,1990,1.0807895,1990,1,1
+EU-12,Pasture,Pasture_WislaR,Pasture_WislaR,1990,6.3646594,1990,1,1
+EU-15,Pasture,Pasture_AdrBlkSea,Pasture_AdrBlkSea,1990,9.2517807,1990,1,1
+EU-15,Pasture,Pasture_DanubeR,Pasture_DanubeR,1990,6.3850689,1990,1,1
+EU-15,Pasture,Pasture_DnkGrmCst,Pasture_DnkGrmCst,1990,2.4544736,1990,1,1
+EU-15,Pasture,Pasture_DouroR,Pasture_DouroR,1990,3.7809073,1990,1,1
+EU-15,Pasture,Pasture_EbroR,Pasture_EbroR,1990,3.0637837,1990,1,1
+EU-15,Pasture,Pasture_ElbeR,Pasture_ElbeR,1990,3.6257393,1990,1,1
+EU-15,Pasture,Pasture_EmsWeserR,Pasture_EmsWeserR,1990,3.2607432,1990,1,1
+EU-15,Pasture,Pasture_EngWales,Pasture_EngWales,1990,16.3422079,1990,1,1
+EU-15,Pasture,Pasture_Finland,Pasture_Finland,1990,0.2445063,1990,1,1
+EU-15,Pasture,Pasture_FranceCstS,Pasture_FranceCstS,1990,0.665351,1990,1,1
+EU-15,Pasture,Pasture_FranceCstW,Pasture_FranceCstW,1990,6.1577048,1990,1,1
+EU-15,Pasture,Pasture_Gironde,Pasture_Gironde,1990,4.5386576,1990,1,1
+EU-15,Pasture,Pasture_GuadalqR,Pasture_GuadalqR,1990,1.8665794,1990,1,1
+EU-15,Pasture,Pasture_GuadianaR,Pasture_GuadianaR,1990,2.5665805,1990,1,1
+EU-15,Pasture,Pasture_IberiaCst,Pasture_IberiaCst,1990,0.775558,1990,1,1
+EU-15,Pasture,Pasture_Ireland,Pasture_Ireland,1990,13.7819672,1990,1,1
+EU-15,Pasture,Pasture_ItalyCstE,Pasture_ItalyCstE,1990,2.9981544,1990,1,1
+EU-15,Pasture,Pasture_ItalyCstW,Pasture_ItalyCstW,1990,2.3996862,1990,1,1
+EU-15,Pasture,Pasture_LoireR,Pasture_LoireR,1990,8.5915326,1990,1,1
+EU-15,Pasture,Pasture_MeditE,Pasture_MeditE,1990,0.0088362,1990,1,1
+EU-15,Pasture,Pasture_MeditIsl,Pasture_MeditIsl,1990,1.7107927,1990,1,1
+EU-15,Pasture,Pasture_NevaR,Pasture_NevaR,1990,0.0050459,1990,1,1
+EU-15,Pasture,Pasture_OderR,Pasture_OderR,1990,0.2219795,1990,1,1
+EU-15,Pasture,Pasture_PoR,Pasture_PoR,1990,2.7417555,1990,1,1
+EU-15,Pasture,Pasture_RhineR,Pasture_RhineR,1990,8.1135275,1990,1,1
+EU-15,Pasture,Pasture_RhoneR,Pasture_RhoneR,1990,3.9809532,1990,1,1
+EU-15,Pasture,Pasture_ScheldtR,Pasture_ScheldtR,1990,0.8534145,1990,1,1
+EU-15,Pasture,Pasture_ScndnvN,Pasture_ScndnvN,1990,0.0105018,1990,1,1
+EU-15,Pasture,Pasture_Scotland,Pasture_Scotland,1990,8.7297066,1990,1,1
+EU-15,Pasture,Pasture_SeineR,Pasture_SeineR,1990,3.8250554,1990,1,1
+EU-15,Pasture,Pasture_SpainCstSE,Pasture_SpainCstSE,1990,3.5341604,1990,1,1
+EU-15,Pasture,Pasture_Sweden,Pasture_Sweden,1990,1.3198417,1990,1,1
+EU-15,Pasture,Pasture_TagusR,Pasture_TagusR,1990,2.5110098,1990,1,1
+EU-15,Pasture,Pasture_TiberR,Pasture_TiberR,1990,0.7206433,1990,1,1
+Europe_Eastern,Pasture,Pasture_BlackSeaN,Pasture_BlackSeaN,1990,10.2890066,1990,1,1
+Europe_Eastern,Pasture,Pasture_DanubeR,Pasture_DanubeR,1990,1.7750445,1990,1,1
+Europe_Eastern,Pasture,Pasture_DaugavaR,Pasture_DaugavaR,1990,2.826553,1990,1,1
+Europe_Eastern,Pasture,Pasture_DnieperR,Pasture_DnieperR,1990,32.884638,1990,1,1
+Europe_Eastern,Pasture,Pasture_DniesterR,Pasture_DniesterR,1990,3.047647,1990,1,1
+Europe_Eastern,Pasture,Pasture_DonR,Pasture_DonR,1990,3.6789389,1990,1,1
+Europe_Eastern,Pasture,Pasture_NemanR,Pasture_NemanR,1990,3.3213799,1990,1,1
+Europe_Eastern,Pasture,Pasture_NevaR,Pasture_NevaR,1990,0.0583638,1990,1,1
+Europe_Eastern,Pasture,Pasture_WislaR,Pasture_WislaR,1990,1.0286506,1990,1,1
+Europe_Non_EU,Pasture,Pasture_AdrBlkSea,Pasture_AdrBlkSea,1990,3.2975455,1990,1,1
+Europe_Non_EU,Pasture,Pasture_BlackSeaS,Pasture_BlackSeaS,1990,3.8083044,1990,1,1
+Europe_Non_EU,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,1990,0.8068319,1990,1,1
+Europe_Non_EU,Pasture,Pasture_DanubeR,Pasture_DanubeR,1990,3.7490771,1990,1,1
+Europe_Non_EU,Pasture,Pasture_EJrdnSyr,Pasture_EJrdnSyr,1990,0.0010788,1990,1,1
+Europe_Non_EU,Pasture,Pasture_MeditE,Pasture_MeditE,1990,3.7859276,1990,1,1
+Europe_Non_EU,Pasture,Pasture_TigrEuphR,Pasture_TigrEuphR,1990,3.610286,1990,1,1
+European Free Trade Association,Pasture,Pasture_DanubeR,Pasture_DanubeR,1990,0.1334928,1990,1,1
+European Free Trade Association,Pasture,Pasture_Iceland,Pasture_Iceland,1990,3.0510872,1990,1,1
+European Free Trade Association,Pasture,Pasture_PoR,Pasture_PoR,1990,0.2303036,1990,1,1
+European Free Trade Association,Pasture,Pasture_RhineR,Pasture_RhineR,1990,1.9185917,1990,1,1
+European Free Trade Association,Pasture,Pasture_RhoneR,Pasture_RhoneR,1990,0.4265446,1990,1,1
+European Free Trade Association,Pasture,Pasture_ScndnvN,Pasture_ScndnvN,1990,0.1537855,1990,1,1
+European Free Trade Association,Pasture,Pasture_Sweden,Pasture_Sweden,1990,0.0031734,1990,1,1
+India,Pasture,Pasture_BengalBay,Pasture_BengalBay,1990,0.1602405,1990,1,1
+India,Pasture,Pasture_BengalW,Pasture_BengalW,1990,0.8909583,1990,1,1
+India,Pasture,Pasture_BrahmaniR,Pasture_BrahmaniR,1990,0.8148027,1990,1,1
+India,Pasture,Pasture_CauveryR,Pasture_CauveryR,1990,1.2361421,1990,1,1
+India,Pasture,Pasture_GangesR,Pasture_GangesR,1990,17.0384049,1990,1,1
+India,Pasture,Pasture_GodavariR,Pasture_GodavariR,1990,4.5514197,1990,1,1
+India,Pasture,Pasture_IndCstE,Pasture_IndCstE,1990,0.6409366,1990,1,1
+India,Pasture,Pasture_IndCstNE,Pasture_IndCstNE,1990,0.5436865,1990,1,1
+India,Pasture,Pasture_IndCstS,Pasture_IndCstS,1990,0.4323504,1990,1,1
+India,Pasture,Pasture_IndCstW,Pasture_IndCstW,1990,0.6313509,1990,1,1
+India,Pasture,Pasture_IndusR,Pasture_IndusR,1990,9.1571031,1990,1,1
+India,Pasture,Pasture_IrrawaddyR,Pasture_IrrawaddyR,1990,0.3931579,1990,1,1
+India,Pasture,Pasture_KrishnaR,Pasture_KrishnaR,1990,3.537201,1990,1,1
+India,Pasture,Pasture_MahanadiR,Pasture_MahanadiR,1990,2.094744,1990,1,1
+India,Pasture,Pasture_MahiR,Pasture_MahiR,1990,0.5742926,1990,1,1
+India,Pasture,Pasture_NarmadaR,Pasture_NarmadaR,1990,0.9225848,1990,1,1
+India,Pasture,Pasture_PennarR,Pasture_PennarR,1990,1.5609805,1990,1,1
+India,Pasture,Pasture_SabarmatiR,Pasture_SabarmatiR,1990,5.1293921,1990,1,1
+India,Pasture,Pasture_TaptiR,Pasture_TaptiR,1990,1.0438251,1990,1,1
+Indonesia,Pasture,Pasture_BorneoCstN,Pasture_BorneoCstN,1990,0.0417087,1990,1,1
+Indonesia,Pasture,Pasture_FlyR,Pasture_FlyR,1990,0.0072509,1990,1,1
+Indonesia,Pasture,Pasture_IdnE,Pasture_IdnE,1990,0.4354895,1990,1,1
+Indonesia,Pasture,Pasture_IrianJaya,Pasture_IrianJaya,1990,6.7666786,1990,1,1
+Indonesia,Pasture,Pasture_JavaTimor,Pasture_JavaTimor,1990,2.9662826,1990,1,1
+Indonesia,Pasture,Pasture_Kalimantan,Pasture_Kalimantan,1990,4.7122687,1990,1,1
+Indonesia,Pasture,Pasture_MalaysiaP,Pasture_MalaysiaP,1990,0.0012292,1990,1,1
+Indonesia,Pasture,Pasture_SepikR,Pasture_SepikR,1990,0.0762062,1990,1,1
+Indonesia,Pasture,Pasture_Sulawesi,Pasture_Sulawesi,1990,1.5420108,1990,1,1
+Indonesia,Pasture,Pasture_Sumatra,Pasture_Sumatra,1990,5.3637313,1990,1,1
+Japan,Pasture,Pasture_Japan,Pasture_Japan,1990,0,1990,0,0
+Japan,Pasture,Pasture_Taiwan,Pasture_Taiwan,1990,0,1990,0,0
+Mexico,Pasture,Pasture_California,Pasture_California,1990,0.0535383,1990,1,1
+Mexico,Pasture,Pasture_CntAmer,Pasture_CntAmer,1990,0.019048,1990,1,1
+Mexico,Pasture,Pasture_GrijUsuR,Pasture_GrijUsuR,1990,1.614989,1990,1,1
+Mexico,Pasture,Pasture_MexBaja,Pasture_MexBaja,1990,1.242501,1990,1,1
+Mexico,Pasture,Pasture_MexCstNW,Pasture_MexCstNW,1990,12.4218416,1990,1,1
+Mexico,Pasture,Pasture_MexCstW,Pasture_MexCstW,1990,2.5749117,1990,1,1
+Mexico,Pasture,Pasture_MexGulf,Pasture_MexGulf,1990,2.767828,1990,1,1
+Mexico,Pasture,Pasture_MexInt,Pasture_MexInt,1990,12.1387212,1990,1,1
+Mexico,Pasture,Pasture_Papaloapan,Pasture_Papaloapan,1990,0.8606065,1990,1,1
+Mexico,Pasture,Pasture_RioBalsas,Pasture_RioBalsas,1990,4.1170409,1990,1,1
+Mexico,Pasture,Pasture_RioGrande,Pasture_RioGrande,1990,16.9658696,1990,1,1
+Mexico,Pasture,Pasture_RioLerma,Pasture_RioLerma,1990,5.0095831,1990,1,1
+Mexico,Pasture,Pasture_RioVerde,Pasture_RioVerde,1990,2.8068328,1990,1,1
+Mexico,Pasture,Pasture_Tehuantpc,Pasture_Tehuantpc,1990,2.0305555,1990,1,1
+Mexico,Pasture,Pasture_UsaColoRS,Pasture_UsaColoRS,1990,2.1073787,1990,1,1
+Mexico,Pasture,Pasture_YucatanP,Pasture_YucatanP,1990,0.9764797,1990,1,1
+Middle East,Pasture,Pasture_AfrCstNE,Pasture_AfrCstNE,1990,0,1990,0,0
+Middle East,Pasture,Pasture_ArabianP,Pasture_ArabianP,1990,4.9408694,1990,1,1
+Middle East,Pasture,Pasture_ArabianSea,Pasture_ArabianSea,1990,0.0129572,1990,1,1
+Middle East,Pasture,Pasture_CaspianE,Pasture_CaspianE,1990,1.0662464,1990,1,1
+Middle East,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,1990,2.6163875,1990,1,1
+Middle East,Pasture,Pasture_DeadSea,Pasture_DeadSea,1990,0.0808153,1990,1,1
+Middle East,Pasture,Pasture_EJrdnSyr,Pasture_EJrdnSyr,1990,0.59252,1990,1,1
+Middle East,Pasture,Pasture_FarahrudR,Pasture_FarahrudR,1990,0.0173439,1990,1,1
+Middle East,Pasture,Pasture_HamuMashR,Pasture_HamuMashR,1990,0.0095183,1990,1,1
+Middle East,Pasture,Pasture_Helmand,Pasture_Helmand,1990,0.0019765,1990,1,1
+Middle East,Pasture,Pasture_Iran,Pasture_Iran,1990,2.2991798,1990,1,1
+Middle East,Pasture,Pasture_MeditE,Pasture_MeditE,1990,0.0827941,1990,1,1
+Middle East,Pasture,Pasture_PersianGulf,Pasture_PersianGulf,1990,0.6405681,1990,1,1
+Middle East,Pasture,Pasture_RedSeaE,Pasture_RedSeaE,1990,2.2835298,1990,1,1
+Middle East,Pasture,Pasture_SinaiP,Pasture_SinaiP,1990,0.008,1990,1,1
+Middle East,Pasture,Pasture_TigrEuphR,Pasture_TigrEuphR,1990,3.1634687,1990,1,1
+Pakistan,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,1990,0.0066689,1990,1,1
+Pakistan,Pasture,Pasture_ArabianSea,Pasture_ArabianSea,1990,2.6747133,1990,1,1
+Pakistan,Pasture,Pasture_HamuMashR,Pasture_HamuMashR,1990,0.9001493,1990,1,1
+Pakistan,Pasture,Pasture_Helmand,Pasture_Helmand,1990,0.3595297,1990,1,1
+Pakistan,Pasture,Pasture_IndusR,Pasture_IndusR,1990,35.3163568,1990,1,1
+Pakistan,Pasture,Pasture_SabarmatiR,Pasture_SabarmatiR,1990,2.9806606,1990,1,1
+Pakistan,Pasture,Pasture_Tarim,Pasture_Tarim,1990,0,1990,0,0
+Russia,Pasture,Pasture_AmurR,Pasture_AmurR,1990,7.5201542,1990,1,1
+Russia,Pasture,Pasture_BalticSea,Pasture_BalticSea,1990,0.2339211,1990,1,1
+Russia,Pasture,Pasture_BarentsSea,Pasture_BarentsSea,1990,0.1393433,1990,1,1
+Russia,Pasture,Pasture_BlackSeaN,Pasture_BlackSeaN,1990,1.4961811,1990,1,1
+Russia,Pasture,Pasture_BlackSeaS,Pasture_BlackSeaS,1990,0.0022065,1990,1,1
+Russia,Pasture,Pasture_CaspianNE,Pasture_CaspianNE,1990,5.1779317,1990,1,1
+Russia,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,1990,0.0059034,1990,1,1
+Russia,Pasture,Pasture_DaugavaR,Pasture_DaugavaR,1990,1.0418759,1990,1,1
+Russia,Pasture,Pasture_DnieperR,Pasture_DnieperR,1990,2.9061909,1990,1,1
+Russia,Pasture,Pasture_DonR,Pasture_DonR,1990,9.2519409,1990,1,1
+Russia,Pasture,Pasture_DvinaRN,Pasture_DvinaRN,1990,0.4045042,1990,1,1
+Russia,Pasture,Pasture_Finland,Pasture_Finland,1990,0.0189059,1990,1,1
+Russia,Pasture,Pasture_Gobi,Pasture_Gobi,1990,0.4530747,1990,1,1
+Russia,Pasture,Pasture_KaraSea,Pasture_KaraSea,1990,0.0975819,1990,1,1
+Russia,Pasture,Pasture_LenaR,Pasture_LenaR,1990,0.8611556,1990,1,1
+Russia,Pasture,Pasture_NarvaR,Pasture_NarvaR,1990,0.8097229,1990,1,1
+Russia,Pasture,Pasture_NemanR,Pasture_NemanR,1990,0.0640703,1990,1,1
+Russia,Pasture,Pasture_NevaR,Pasture_NevaR,1990,2.545546,1990,1,1
+Russia,Pasture,Pasture_ObR,Pasture_ObR,1990,14.6161985,1990,1,1
+Russia,Pasture,Pasture_PolandCst,Pasture_PolandCst,1990,0.1893247,1990,1,1
+Russia,Pasture,Pasture_RusCstSE,Pasture_RusCstSE,1990,0.2065088,1990,1,1
+Russia,Pasture,Pasture_ScndnvN,Pasture_ScndnvN,1990,0.0909019,1990,1,1
+Russia,Pasture,Pasture_SiberiaN,Pasture_SiberiaN,1990,2.48e-05,1990,1,1
+Russia,Pasture,Pasture_SiberiaW,Pasture_SiberiaW,1990,0.2105451,1990,1,1
+Russia,Pasture,Pasture_SyrDaryaR,Pasture_SyrDaryaR,1990,0.2047247,1990,1,1
+Russia,Pasture,Pasture_UralR,Pasture_UralR,1990,3.8458972,1990,1,1
+Russia,Pasture,Pasture_VolgaR,Pasture_VolgaR,1990,27.3474796,1990,1,1
+Russia,Pasture,Pasture_YeniseiR,Pasture_YeniseiR,1990,4.1426397,1990,1,1
+South Africa,Pasture,Pasture_AfrCstS,Pasture_AfrCstS,1990,13.2765059,1990,1,1
+South Africa,Pasture,Pasture_AfrCstSSW,Pasture_AfrCstSSW,1990,4.3932013,1990,1,1
+South Africa,Pasture,Pasture_AfrCstSW,Pasture_AfrCstSW,1990,1.59e-05,1990,1,1
+South Africa,Pasture,Pasture_LimpopoR,Pasture_LimpopoR,1990,6.8124263,1990,1,1
+South Africa,Pasture,Pasture_OrangeR,Pasture_OrangeR,1990,28.6718611,1990,1,1
+South America_Northern,Pasture,Pasture_MagdalenaR,Pasture_MagdalenaR,1990,0.0262029,1990,1,1
+South America_Northern,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,1990,13.5082363,1990,1,1
+South America_Northern,Pasture,Pasture_SAmerCstN,Pasture_SAmerCstN,1990,4.8421912,1990,1,1
+South America_Northern,Pasture,Pasture_SAmerCstNE,Pasture_SAmerCstNE,1990,1.5377747,1990,1,1
+South America_Southern,Pasture,Pasture_ArgColoR,Pasture_ArgColoR,1990,0.0001661,1990,1,1
+South America_Southern,Pasture,Pasture_ArgCstS,Pasture_ArgCstS,1990,0.3704189,1990,1,1
+South America_Southern,Pasture,Pasture_BrzCstS,Pasture_BrzCstS,1990,1.3209034,1990,1,1
+South America_Southern,Pasture,Pasture_ChileCstN,Pasture_ChileCstN,1990,1.2177572,1990,1,1
+South America_Southern,Pasture,Pasture_ChileCstS,Pasture_ChileCstS,1990,1.9391324,1990,1,1
+South America_Southern,Pasture,Pasture_ColEcuaCst,Pasture_ColEcuaCst,1990,1.0445139,1990,1,1
+South America_Southern,Pasture,Pasture_LaPuna,Pasture_LaPuna,1990,1.44478,1990,1,1
+South America_Southern,Pasture,Pasture_NegroR,Pasture_NegroR,1990,0.0084044,1990,1,1
+South America_Southern,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,1990,12.7981382,1990,1,1
+South America_Southern,Pasture,Pasture_PeruCst,Pasture_PeruCst,1990,1.4971298,1990,1,1
+South America_Southern,Pasture,Pasture_RioLaPlata,Pasture_RioLaPlata,1990,14.5870643,1990,1,1
+South Asia,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,1990,4.7516777,1990,1,1
+South Asia,Pasture,Pasture_BengalBay,Pasture_BengalBay,1990,0.0943706,1990,1,1
+South Asia,Pasture,Pasture_CaspianE,Pasture_CaspianE,1990,3.586968,1990,1,1
+South Asia,Pasture,Pasture_FarahrudR,Pasture_FarahrudR,1990,1.3481038,1990,1,1
+South Asia,Pasture,Pasture_GangesR,Pasture_GangesR,1990,1.5214176,1990,1,1
+South Asia,Pasture,Pasture_HamuMashR,Pasture_HamuMashR,1990,0.2093643,1990,1,1
+South Asia,Pasture,Pasture_Helmand,Pasture_Helmand,1990,3.8771926,1990,1,1
+South Asia,Pasture,Pasture_IndusR,Pasture_IndusR,1990,1.5311634,1990,1,1
+South Asia,Pasture,Pasture_SriLanka,Pasture_SriLanka,1990,0.3832308,1990,1,1
+South Korea,Pasture,Pasture_Korea,Pasture_Korea,1990,3.5063458,1990,1,1
+Southeast Asia,Pasture,Pasture_BengalBay,Pasture_BengalBay,1990,0.1899488,1990,1,1
+Southeast Asia,Pasture,Pasture_BoHai,Pasture_BoHai,1990,0.1271123,1990,1,1
+Southeast Asia,Pasture,Pasture_BorneoCstN,Pasture_BorneoCstN,1990,1.1466918,1990,1,1
+Southeast Asia,Pasture,Pasture_ChaoPhrR,Pasture_ChaoPhrR,1990,2.0113031,1990,1,1
+Southeast Asia,Pasture,Pasture_FlyR,Pasture_FlyR,1990,0.1764408,1990,1,1
+Southeast Asia,Pasture,Pasture_GangesR,Pasture_GangesR,1990,0.0178142,1990,1,1
+Southeast Asia,Pasture,Pasture_Hong,Pasture_Hong,1990,0.8558364,1990,1,1
+Southeast Asia,Pasture,Pasture_IdnE,Pasture_IdnE,1990,0.0059054,1990,1,1
+Southeast Asia,Pasture,Pasture_IrianJaya,Pasture_IrianJaya,1990,0.1213492,1990,1,1
+Southeast Asia,Pasture,Pasture_IrrawaddyR,Pasture_IrrawaddyR,1990,1.8898218,1990,1,1
+Southeast Asia,Pasture,Pasture_JavaTimor,Pasture_JavaTimor,1990,1.3557572,1990,1,1
+Southeast Asia,Pasture,Pasture_Kalimantan,Pasture_Kalimantan,1990,0.0513608,1990,1,1
+Southeast Asia,Pasture,Pasture_Korea,Pasture_Korea,1990,0.1647861,1990,1,1
+Southeast Asia,Pasture,Pasture_MalaysiaP,Pasture_MalaysiaP,1990,2.9609153,1990,1,1
+Southeast Asia,Pasture,Pasture_Mekong,Pasture_Mekong,1990,14.9593337,1990,1,1
+Southeast Asia,Pasture,Pasture_NewCaledn,Pasture_NewCaledn,1990,0.0017606,1990,1,1
+Southeast Asia,Pasture,Pasture_PapuaCst,Pasture_PapuaCst,1990,0.625411,1990,1,1
+Southeast Asia,Pasture,Pasture_Phlppns,Pasture_Phlppns,1990,10.8931822,1990,1,1
+Southeast Asia,Pasture,Pasture_RusCstSE,Pasture_RusCstSE,1990,0.068927,1990,1,1
+Southeast Asia,Pasture,Pasture_Salween,Pasture_Salween,1990,0.8167606,1990,1,1
+Southeast Asia,Pasture,Pasture_SChinaSea,Pasture_SChinaSea,1990,0.0444994,1990,1,1
+Southeast Asia,Pasture,Pasture_SepikR,Pasture_SepikR,1990,0.2723742,1990,1,1
+Southeast Asia,Pasture,Pasture_SittaungR,Pasture_SittaungR,1990,0.2395779,1990,1,1
+Southeast Asia,Pasture,Pasture_ThaiGulf,Pasture_ThaiGulf,1990,0.9034862,1990,1,1
+Southeast Asia,Pasture,Pasture_VietnamCst,Pasture_VietnamCst,1990,2.2454958,1990,1,1
+Southeast Asia,Pasture,Pasture_XunJiang,Pasture_XunJiang,1990,0.1841734,1990,1,1
+Argentina,Pasture,Pasture_ArgColoR,Pasture_ArgColoR,1990,2.1719023,1990,1,1
+Argentina,Pasture,Pasture_ArgCstN,Pasture_ArgCstN,1990,6.3357276,1990,1,1
+Argentina,Pasture,Pasture_ArgCstS,Pasture_ArgCstS,1990,21.6936624,1990,1,1
+Argentina,Pasture,Pasture_ChileCstN,Pasture_ChileCstN,1990,6e-07,1990,1,1
+Argentina,Pasture,Pasture_ChileCstS,Pasture_ChileCstS,1990,1.180593,1990,1,1
+Argentina,Pasture,Pasture_LaPuna,Pasture_LaPuna,1990,0.2266513,1990,1,1
+Argentina,Pasture,Pasture_MarChiq,Pasture_MarChiq,1990,0.9479194,1990,1,1
+Argentina,Pasture,Pasture_NegroR,Pasture_NegroR,1990,3.8744765,1990,1,1
+Argentina,Pasture,Pasture_Pampas,Pasture_Pampas,1990,2.4901753,1990,1,1
+Argentina,Pasture,Pasture_Patagonia,Pasture_Patagonia,1990,6.141188,1990,1,1
+Argentina,Pasture,Pasture_RioLaPlata,Pasture_RioLaPlata,1990,13.3450461,1990,1,1
+Argentina,Pasture,Pasture_Salinas,Pasture_Salinas,1990,0.9729015,1990,1,1
+Colombia,Pasture,Pasture_ColEcuaCst,Pasture_ColEcuaCst,1990,3.5008937,1990,1,1
+Colombia,Pasture,Pasture_MagdalenaR,Pasture_MagdalenaR,1990,12.81115,1990,1,1
+Colombia,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,1990,18.0770248,1990,1,1
+Colombia,Pasture,Pasture_SAmerCstN,Pasture_SAmerCstN,1990,4.5412033,1990,1,1
+USA,Pasture,Pasture_ArkWhtRedR,Pasture_ArkWhtRedR,2005,1.9454275,2005,1,1
+USA,Pasture,Pasture_California,Pasture_California,2005,0.2972411,2005,1,1
+USA,Pasture,Pasture_Caribbean,Pasture_Caribbean,2005,0.0058894,2005,1,1
+USA,Pasture,Pasture_FraserR,Pasture_FraserR,2005,0.0002292,2005,1,1
+USA,Pasture,Pasture_GreatBasin,Pasture_GreatBasin,2005,0.1564713,2005,1,1
+USA,Pasture,Pasture_GreatLakes,Pasture_GreatLakes,2005,0.0911527,2005,1,1
+USA,Pasture,Pasture_MexCstNW,Pasture_MexCstNW,2005,0.0098087,2005,1,1
+USA,Pasture,Pasture_MissouriR,Pasture_MissouriR,2005,3.603852,2005,1,1
+USA,Pasture,Pasture_MissppRN,Pasture_MissppRN,2005,0.2851092,2005,1,1
+USA,Pasture,Pasture_MissppRS,Pasture_MissppRS,2005,0.2696023,2005,1,1
+USA,Pasture,Pasture_NelsonR,Pasture_NelsonR,2005,0.1347801,2005,1,1
+USA,Pasture,Pasture_OhioR,Pasture_OhioR,2005,0.3369106,2005,1,1
+USA,Pasture,Pasture_PacArctic,Pasture_PacArctic,2005,0.0170046,2005,1,1
+USA,Pasture,Pasture_RioGrande,Pasture_RioGrande,2005,0.9289292,2005,1,1
+USA,Pasture,Pasture_TennR,Pasture_TennR,2005,0.1066999,2005,1,1
+USA,Pasture,Pasture_TexasCst,Pasture_TexasCst,2005,1.6429481,2005,1,1
+USA,Pasture,Pasture_UsaColoRN,Pasture_UsaColoRN,2005,0.3166925,2005,1,1
+USA,Pasture,Pasture_UsaColoRS,Pasture_UsaColoRS,2005,0.426725,2005,1,1
+USA,Pasture,Pasture_UsaCstE,Pasture_UsaCstE,2005,0.1163183,2005,1,1
+USA,Pasture,Pasture_UsaCstNE,Pasture_UsaCstNE,2005,0.01281,2005,1,1
+USA,Pasture,Pasture_UsaCstSE,Pasture_UsaCstSE,2005,0.49778,2005,1,1
+USA,Pasture,Pasture_UsaPacNW,Pasture_UsaPacNW,2005,0.5269354,2005,1,1
+Africa_Eastern,Pasture,Pasture_AfrCstE,Pasture_AfrCstE,2005,5.7028834,2005,1,1
+Africa_Eastern,Pasture,Pasture_AfrCstNE,Pasture_AfrCstNE,2005,12.9819419,2005,1,1
+Africa_Eastern,Pasture,Pasture_AfrIntN,Pasture_AfrIntN,2005,0.7004996,2005,1,1
+Africa_Eastern,Pasture,Pasture_CongoR,Pasture_CongoR,2005,0.6643728,2005,1,1
+Africa_Eastern,Pasture,Pasture_LChad,Pasture_LChad,2005,6.2710485,2005,1,1
+Africa_Eastern,Pasture,Pasture_Madasgacar,Pasture_Madasgacar,2005,32.6941595,2005,1,1
+Africa_Eastern,Pasture,Pasture_NileR,Pasture_NileR,2005,101.0343536,2005,1,1
+Africa_Eastern,Pasture,Pasture_RiftValley,Pasture_RiftValley,2005,6.2760229,2005,1,1
+Africa_Eastern,Pasture,Pasture_ShebJubR,Pasture_ShebJubR,2005,20.192845,2005,1,1
+Africa_Northern,Pasture,Pasture_AfrCstNE,Pasture_AfrCstNE,2005,0.0001272,2005,1,1
+Africa_Northern,Pasture,Pasture_AfrCstNW,Pasture_AfrCstNW,2005,1.713618,2005,1,1
+Africa_Northern,Pasture,Pasture_AfrIntN,Pasture_AfrIntN,2005,2.7939394,2005,1,1
+Africa_Northern,Pasture,Pasture_DeadSea,Pasture_DeadSea,2005,3e-07,2005,1,1
+Africa_Northern,Pasture,Pasture_LChad,Pasture_LChad,2005,0.0012859,2005,1,1
+Africa_Northern,Pasture,Pasture_MeditS,Pasture_MeditS,2005,3.8593988,2005,1,1
+Africa_Northern,Pasture,Pasture_NigerR,Pasture_NigerR,2005,0.0032042,2005,1,1
+Africa_Southern,Pasture,Pasture_AfrCstE,Pasture_AfrCstE,2005,8.8669222,2005,1,1
+Africa_Southern,Pasture,Pasture_AfrCstS,Pasture_AfrCstS,2005,0.7453656,2005,1,1
+Africa_Southern,Pasture,Pasture_AfrCstSE,Pasture_AfrCstSE,2005,2.8233828,2005,1,1
+Africa_Southern,Pasture,Pasture_AfrCstSW,Pasture_AfrCstSW,2005,1.0040018,2005,1,1
+Africa_Southern,Pasture,Pasture_AfrIntS,Pasture_AfrIntS,2005,10.8275493,2005,1,1
+Africa_Southern,Pasture,Pasture_AngolaCst,Pasture_AngolaCst,2005,5.8691102,2005,1,1
+Africa_Southern,Pasture,Pasture_CongoR,Pasture_CongoR,2005,4.7147538,2005,1,1
+Africa_Southern,Pasture,Pasture_GuineaGulf,Pasture_GuineaGulf,2005,0.0535746,2005,1,1
+Africa_Southern,Pasture,Pasture_LimpopoR,Pasture_LimpopoR,2005,3.3240672,2005,1,1
+Africa_Southern,Pasture,Pasture_NileR,Pasture_NileR,2005,0.6676704,2005,1,1
+Africa_Southern,Pasture,Pasture_OrangeR,Pasture_OrangeR,2005,3.408262,2005,1,1
+Africa_Southern,Pasture,Pasture_RiftValley,Pasture_RiftValley,2005,1.6863848,2005,1,1
+Africa_Southern,Pasture,Pasture_ZambeziR,Pasture_ZambeziR,2005,13.641564,2005,1,1
+Africa_Western,Pasture,Pasture_AfrCstNW,Pasture_AfrCstNW,2005,0.0467655,2005,1,1
+Africa_Western,Pasture,Pasture_AfrCstW,Pasture_AfrCstW,2005,14.673381,2005,1,1
+Africa_Western,Pasture,Pasture_AfrIntN,Pasture_AfrIntN,2005,1.8579726,2005,1,1
+Africa_Western,Pasture,Pasture_CongoR,Pasture_CongoR,2005,13.1427463,2005,1,1
+Africa_Western,Pasture,Pasture_GuineaGulf,Pasture_GuineaGulf,2005,5.419405,2005,1,1
+Africa_Western,Pasture,Pasture_LChad,Pasture_LChad,2005,25.6499905,2005,1,1
+Africa_Western,Pasture,Pasture_NigerR,Pasture_NigerR,2005,34.8304077,2005,1,1
+Africa_Western,Pasture,Pasture_NileR,Pasture_NileR,2005,0.1902864,2005,1,1
+Africa_Western,Pasture,Pasture_SenegalR,Pasture_SenegalR,2005,10.1138769,2005,1,1
+Africa_Western,Pasture,Pasture_VoltaR,Pasture_VoltaR,2005,5.7157953,2005,1,1
+Africa_Western,Pasture,Pasture_ZambeziR,Pasture_ZambeziR,2005,0.0164016,2005,1,1
+Australia_NZ,Pasture,Pasture_AusCstE,Pasture_AusCstE,2005,12.3059278,2005,1,1
+Australia_NZ,Pasture,Pasture_AusCstN,Pasture_AusCstN,2005,38.0718768,2005,1,1
+Australia_NZ,Pasture,Pasture_AusCstS,Pasture_AusCstS,2005,9.1104327,2005,1,1
+Australia_NZ,Pasture,Pasture_AusCstW,Pasture_AusCstW,2005,10.9922439,2005,1,1
+Australia_NZ,Pasture,Pasture_AusInt,Pasture_AusInt,2005,62.3035881,2005,1,1
+Australia_NZ,Pasture,Pasture_MurrayDrlg,Pasture_MurrayDrlg,2005,17.5884372,2005,1,1
+Australia_NZ,Pasture,Pasture_NewZealand,Pasture_NewZealand,2005,7.3376489,2005,1,1
+Australia_NZ,Pasture,Pasture_Tasmania,Pasture_Tasmania,2005,1.5002067,2005,1,1
+Brazil,Pasture,Pasture_AmazonR,Pasture_AmazonR,2005,1.5718999,2005,1,1
+Brazil,Pasture,Pasture_BrzCstE,Pasture_BrzCstE,2005,8.1680189,2005,1,1
+Brazil,Pasture,Pasture_BrzCstN,Pasture_BrzCstN,2005,10.1647198,2005,1,1
+Brazil,Pasture,Pasture_BrzCstS,Pasture_BrzCstS,2005,70.202106,2005,1,1
+Brazil,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,2005,46.9509109,2005,1,1
+Brazil,Pasture,Pasture_ParnaibaR,Pasture_ParnaibaR,2005,8.1652989,2005,1,1
+Brazil,Pasture,Pasture_RioLaPlata,Pasture_RioLaPlata,2005,168.2678514,2005,1,1
+Brazil,Pasture,Pasture_SAmerCstNE,Pasture_SAmerCstNE,2005,0.403666,2005,1,1
+Brazil,Pasture,Pasture_SaoFrancR,Pasture_SaoFrancR,2005,43.4900714,2005,1,1
+Brazil,Pasture,Pasture_TocantinsR,Pasture_TocantinsR,2005,80.5227959,2005,1,1
+Canada,Pasture,Pasture_CanAtl,Pasture_CanAtl,2005,0.7012209,2005,1,1
+Canada,Pasture,Pasture_ChurchillR,Pasture_ChurchillR,2005,0.0003541,2005,1,1
+Canada,Pasture,Pasture_FraserR,Pasture_FraserR,2005,0.4158086,2005,1,1
+Canada,Pasture,Pasture_GreatLakes,Pasture_GreatLakes,2005,3.6799849,2005,1,1
+Canada,Pasture,Pasture_HudsonBay,Pasture_HudsonBay,2005,0.5895084,2005,1,1
+Canada,Pasture,Pasture_Mackenzie,Pasture_Mackenzie,2005,3.2985114,2005,1,1
+Canada,Pasture,Pasture_MissouriR,Pasture_MissouriR,2005,1.5634524,2005,1,1
+Canada,Pasture,Pasture_NelsonR,Pasture_NelsonR,2005,18.7929321,2005,1,1
+Canada,Pasture,Pasture_NWTerr,Pasture_NWTerr,2005,0.8749989,2005,1,1
+Canada,Pasture,Pasture_PacArctic,Pasture_PacArctic,2005,0.5750484,2005,1,1
+Canada,Pasture,Pasture_StLwrncR,Pasture_StLwrncR,2005,0.5573155,2005,1,1
+Canada,Pasture,Pasture_UsaCstNE,Pasture_UsaCstNE,2005,0.1208371,2005,1,1
+Canada,Pasture,Pasture_UsaPacNW,Pasture_UsaPacNW,2005,0.1854805,2005,1,1
+Central America and Caribbean,Pasture,Pasture_Caribbean,Pasture_Caribbean,2005,10.2028299,2005,1,1
+Central America and Caribbean,Pasture,Pasture_CntAmer,Pasture_CntAmer,2005,18.7518807,2005,1,1
+Central America and Caribbean,Pasture,Pasture_ColEcuaCst,Pasture_ColEcuaCst,2005,1.1194023,2005,1,1
+Central America and Caribbean,Pasture,Pasture_GrijUsuR,Pasture_GrijUsuR,2005,2.140423,2005,1,1
+Central America and Caribbean,Pasture,Pasture_SAmerCstN,Pasture_SAmerCstN,2005,0.104618,2005,1,1
+Central America and Caribbean,Pasture,Pasture_YucatanP,Pasture_YucatanP,2005,1.8645383,2005,1,1
+Central Asia,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,2005,1.3955321,2005,1,1
+Central Asia,Pasture,Pasture_AmurR,Pasture_AmurR,2005,1.911301,2005,1,1
+Central Asia,Pasture,Pasture_BlackSeaN,Pasture_BlackSeaN,2005,0.0028274,2005,1,1
+Central Asia,Pasture,Pasture_BlackSeaS,Pasture_BlackSeaS,2005,0.060646,2005,1,1
+Central Asia,Pasture,Pasture_CaspianE,Pasture_CaspianE,2005,1.4882693,2005,1,1
+Central Asia,Pasture,Pasture_CaspianNE,Pasture_CaspianNE,2005,2.8148525,2005,1,1
+Central Asia,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,2005,0.4600837,2005,1,1
+Central Asia,Pasture,Pasture_Gobi,Pasture_Gobi,2005,5.5422202,2005,1,1
+Central Asia,Pasture,Pasture_LBalkash,Pasture_LBalkash,2005,2.3853686,2005,1,1
+Central Asia,Pasture,Pasture_ObR,Pasture_ObR,2005,5.2104891,2005,1,1
+Central Asia,Pasture,Pasture_SyrDaryaR,Pasture_SyrDaryaR,2005,7.9627094,2005,1,1
+Central Asia,Pasture,Pasture_Tarim,Pasture_Tarim,2005,0.0193801,2005,1,1
+Central Asia,Pasture,Pasture_UralR,Pasture_UralR,2005,0.8744008,2005,1,1
+Central Asia,Pasture,Pasture_VolgaR,Pasture_VolgaR,2005,0.0776654,2005,1,1
+Central Asia,Pasture,Pasture_YeniseiR,Pasture_YeniseiR,2005,2.9574407,2005,1,1
+China,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,2005,0.0001641,2005,1,1
+China,Pasture,Pasture_AmurR,Pasture_AmurR,2005,31.8019443,2005,1,1
+China,Pasture,Pasture_BoHai,Pasture_BoHai,2005,13.1797407,2005,1,1
+China,Pasture,Pasture_ChinaCst,Pasture_ChinaCst,2005,7.8854782,2005,1,1
+China,Pasture,Pasture_GangesR,Pasture_GangesR,2005,6.7949501,2005,1,1
+China,Pasture,Pasture_Gobi,Pasture_Gobi,2005,40.662285,2005,1,1
+China,Pasture,Pasture_Hainan,Pasture_Hainan,2005,0.9901993,2005,1,1
+China,Pasture,Pasture_Hong,Pasture_Hong,2005,2.2830577,2005,1,1
+China,Pasture,Pasture_HuangHeR,Pasture_HuangHeR,2005,35.2329709,2005,1,1
+China,Pasture,Pasture_IndusR,Pasture_IndusR,2005,1.2407438,2005,1,1
+China,Pasture,Pasture_IrrawaddyR,Pasture_IrrawaddyR,2005,0.6164434,2005,1,1
+China,Pasture,Pasture_LBalkash,Pasture_LBalkash,2005,2.9739425,2005,1,1
+China,Pasture,Pasture_Mekong,Pasture_Mekong,2005,4.0973785,2005,1,1
+China,Pasture,Pasture_ObR,Pasture_ObR,2005,3.4811195,2005,1,1
+China,Pasture,Pasture_RusCstSE,Pasture_RusCstSE,2005,0.6265242,2005,1,1
+China,Pasture,Pasture_Salween,Pasture_Salween,2005,2.9440397,2005,1,1
+China,Pasture,Pasture_SChinaSea,Pasture_SChinaSea,2005,1.7503211,2005,1,1
+China,Pasture,Pasture_SyrDaryaR,Pasture_SyrDaryaR,2005,0.0013406,2005,1,1
+China,Pasture,Pasture_Taiwan,Pasture_Taiwan,2005,0.8788268,2005,1,1
+China,Pasture,Pasture_Tarim,Pasture_Tarim,2005,12.6365156,2005,1,1
+China,Pasture,Pasture_Tibet,Pasture_Tibet,2005,5.6000927,2005,1,1
+China,Pasture,Pasture_XunJiang,Pasture_XunJiang,2005,13.1773855,2005,1,1
+China,Pasture,Pasture_Yangtze,Pasture_Yangtze,2005,52.7512399,2005,1,1
+China,Pasture,Pasture_ZiyaHe,Pasture_ZiyaHe,2005,11.1085212,2005,1,1
+EU-12,Pasture,Pasture_AdrBlkSea,Pasture_AdrBlkSea,2005,1.6055957,2005,1,1
+EU-12,Pasture,Pasture_BalticSea,Pasture_BalticSea,2005,0.8763299,2005,1,1
+EU-12,Pasture,Pasture_DanubeR,Pasture_DanubeR,2005,9.3046581,2005,1,1
+EU-12,Pasture,Pasture_DaugavaR,Pasture_DaugavaR,2005,0.3841286,2005,1,1
+EU-12,Pasture,Pasture_DniesterR,Pasture_DniesterR,2005,0.0036315,2005,1,1
+EU-12,Pasture,Pasture_DnkGrmCst,Pasture_DnkGrmCst,2005,0.0007155,2005,1,1
+EU-12,Pasture,Pasture_ElbeR,Pasture_ElbeR,2005,0.8095257,2005,1,1
+EU-12,Pasture,Pasture_MeditE,Pasture_MeditE,2005,0.0012663,2005,1,1
+EU-12,Pasture,Pasture_NarvaR,Pasture_NarvaR,2005,0.1876407,2005,1,1
+EU-12,Pasture,Pasture_NemanR,Pasture_NemanR,2005,0.9092131,2005,1,1
+EU-12,Pasture,Pasture_OderR,Pasture_OderR,2005,1.6475486,2005,1,1
+EU-12,Pasture,Pasture_PolandCst,Pasture_PolandCst,2005,0.375318,2005,1,1
+EU-12,Pasture,Pasture_WislaR,Pasture_WislaR,2005,2.4511115,2005,1,1
+EU-15,Pasture,Pasture_AdrBlkSea,Pasture_AdrBlkSea,2005,0,2005,0,0
+EU-15,Pasture,Pasture_DanubeR,Pasture_DanubeR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_DnkGrmCst,Pasture_DnkGrmCst,2005,0,2005,0,0
+EU-15,Pasture,Pasture_DouroR,Pasture_DouroR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_EbroR,Pasture_EbroR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_ElbeR,Pasture_ElbeR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_EmsWeserR,Pasture_EmsWeserR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_EngWales,Pasture_EngWales,2005,0,2005,0,0
+EU-15,Pasture,Pasture_Finland,Pasture_Finland,2005,0,2005,0,0
+EU-15,Pasture,Pasture_FranceCstS,Pasture_FranceCstS,2005,0,2005,0,0
+EU-15,Pasture,Pasture_FranceCstW,Pasture_FranceCstW,2005,0,2005,0,0
+EU-15,Pasture,Pasture_Gironde,Pasture_Gironde,2005,0,2005,0,0
+EU-15,Pasture,Pasture_GuadalqR,Pasture_GuadalqR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_GuadianaR,Pasture_GuadianaR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_IberiaCst,Pasture_IberiaCst,2005,0,2005,0,0
+EU-15,Pasture,Pasture_Ireland,Pasture_Ireland,2005,0,2005,0,0
+EU-15,Pasture,Pasture_ItalyCstE,Pasture_ItalyCstE,2005,0,2005,0,0
+EU-15,Pasture,Pasture_ItalyCstW,Pasture_ItalyCstW,2005,0,2005,0,0
+EU-15,Pasture,Pasture_LoireR,Pasture_LoireR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_MeditE,Pasture_MeditE,2005,0,2005,0,0
+EU-15,Pasture,Pasture_MeditIsl,Pasture_MeditIsl,2005,0,2005,0,0
+EU-15,Pasture,Pasture_NevaR,Pasture_NevaR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_OderR,Pasture_OderR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_PoR,Pasture_PoR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_RhineR,Pasture_RhineR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_RhoneR,Pasture_RhoneR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_ScheldtR,Pasture_ScheldtR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_ScndnvN,Pasture_ScndnvN,2005,0,2005,0,0
+EU-15,Pasture,Pasture_Scotland,Pasture_Scotland,2005,0,2005,0,0
+EU-15,Pasture,Pasture_SeineR,Pasture_SeineR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_SpainCstSE,Pasture_SpainCstSE,2005,0,2005,0,0
+EU-15,Pasture,Pasture_Sweden,Pasture_Sweden,2005,0,2005,0,0
+EU-15,Pasture,Pasture_TagusR,Pasture_TagusR,2005,0,2005,0,0
+EU-15,Pasture,Pasture_TiberR,Pasture_TiberR,2005,0,2005,0,0
+Europe_Eastern,Pasture,Pasture_BlackSeaN,Pasture_BlackSeaN,2005,4.0524744,2005,1,1
+Europe_Eastern,Pasture,Pasture_DanubeR,Pasture_DanubeR,2005,0.7493651,2005,1,1
+Europe_Eastern,Pasture,Pasture_DaugavaR,Pasture_DaugavaR,2005,1.1194932,2005,1,1
+Europe_Eastern,Pasture,Pasture_DnieperR,Pasture_DnieperR,2005,11.3791589,2005,1,1
+Europe_Eastern,Pasture,Pasture_DniesterR,Pasture_DniesterR,2005,1.4559877,2005,1,1
+Europe_Eastern,Pasture,Pasture_DonR,Pasture_DonR,2005,1.5468517,2005,1,1
+Europe_Eastern,Pasture,Pasture_NemanR,Pasture_NemanR,2005,1.3035511,2005,1,1
+Europe_Eastern,Pasture,Pasture_NevaR,Pasture_NevaR,2005,0.0210901,2005,1,1
+Europe_Eastern,Pasture,Pasture_WislaR,Pasture_WislaR,2005,0.4573579,2005,1,1
+Europe_Non_EU,Pasture,Pasture_AdrBlkSea,Pasture_AdrBlkSea,2005,2.1068256,2005,1,1
+Europe_Non_EU,Pasture,Pasture_BlackSeaS,Pasture_BlackSeaS,2005,4.3062602,2005,1,1
+Europe_Non_EU,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,2005,0.9269338,2005,1,1
+Europe_Non_EU,Pasture,Pasture_DanubeR,Pasture_DanubeR,2005,2.4779533,2005,1,1
+Europe_Non_EU,Pasture,Pasture_EJrdnSyr,Pasture_EJrdnSyr,2005,0.0028864,2005,1,1
+Europe_Non_EU,Pasture,Pasture_MeditE,Pasture_MeditE,2005,4.3026872,2005,1,1
+Europe_Non_EU,Pasture,Pasture_TigrEuphR,Pasture_TigrEuphR,2005,4.277804,2005,1,1
+European Free Trade Association,Pasture,Pasture_DanubeR,Pasture_DanubeR,2005,0.1197955,2005,1,1
+European Free Trade Association,Pasture,Pasture_Iceland,Pasture_Iceland,2005,3.3546033,2005,1,1
+European Free Trade Association,Pasture,Pasture_PoR,Pasture_PoR,2005,0.2029863,2005,1,1
+European Free Trade Association,Pasture,Pasture_RhineR,Pasture_RhineR,2005,1.9325664,2005,1,1
+European Free Trade Association,Pasture,Pasture_RhoneR,Pasture_RhoneR,2005,0.3940485,2005,1,1
+European Free Trade Association,Pasture,Pasture_ScndnvN,Pasture_ScndnvN,2005,0.3285184,2005,1,1
+European Free Trade Association,Pasture,Pasture_Sweden,Pasture_Sweden,2005,0.0078993,2005,1,1
+India,Pasture,Pasture_BengalBay,Pasture_BengalBay,2005,0.0470544,2005,1,1
+India,Pasture,Pasture_BengalW,Pasture_BengalW,2005,0.5143706,2005,1,1
+India,Pasture,Pasture_BrahmaniR,Pasture_BrahmaniR,2005,0.3007184,2005,1,1
+India,Pasture,Pasture_CauveryR,Pasture_CauveryR,2005,0.5456056,2005,1,1
+India,Pasture,Pasture_GangesR,Pasture_GangesR,2005,9.1576736,2005,1,1
+India,Pasture,Pasture_GodavariR,Pasture_GodavariR,2005,2.151351,2005,1,1
+India,Pasture,Pasture_IndCstE,Pasture_IndCstE,2005,0.3559706,2005,1,1
+India,Pasture,Pasture_IndCstNE,Pasture_IndCstNE,2005,0.2090367,2005,1,1
+India,Pasture,Pasture_IndCstS,Pasture_IndCstS,2005,0.293826,2005,1,1
+India,Pasture,Pasture_IndCstW,Pasture_IndCstW,2005,0.2689287,2005,1,1
+India,Pasture,Pasture_IndusR,Pasture_IndusR,2005,3.0712403,2005,1,1
+India,Pasture,Pasture_IrrawaddyR,Pasture_IrrawaddyR,2005,0.1242402,2005,1,1
+India,Pasture,Pasture_KrishnaR,Pasture_KrishnaR,2005,1.8942225,2005,1,1
+India,Pasture,Pasture_MahanadiR,Pasture_MahanadiR,2005,0.7371212,2005,1,1
+India,Pasture,Pasture_MahiR,Pasture_MahiR,2005,0.2847989,2005,1,1
+India,Pasture,Pasture_NarmadaR,Pasture_NarmadaR,2005,0.6703045,2005,1,1
+India,Pasture,Pasture_PennarR,Pasture_PennarR,2005,0.5443875,2005,1,1
+India,Pasture,Pasture_SabarmatiR,Pasture_SabarmatiR,2005,1.7629209,2005,1,1
+India,Pasture,Pasture_TaptiR,Pasture_TaptiR,2005,0.4382394,2005,1,1
+Indonesia,Pasture,Pasture_BorneoCstN,Pasture_BorneoCstN,2005,0.0396007,2005,1,1
+Indonesia,Pasture,Pasture_FlyR,Pasture_FlyR,2005,0.0066498,2005,1,1
+Indonesia,Pasture,Pasture_IdnE,Pasture_IdnE,2005,0.4117245,2005,1,1
+Indonesia,Pasture,Pasture_IrianJaya,Pasture_IrianJaya,2005,6.2858564,2005,1,1
+Indonesia,Pasture,Pasture_JavaTimor,Pasture_JavaTimor,2005,4.4136872,2005,1,1
+Indonesia,Pasture,Pasture_Kalimantan,Pasture_Kalimantan,2005,4.4714054,2005,1,1
+Indonesia,Pasture,Pasture_MalaysiaP,Pasture_MalaysiaP,2005,0.0011415,2005,1,1
+Indonesia,Pasture,Pasture_SepikR,Pasture_SepikR,2005,0.070616,2005,1,1
+Indonesia,Pasture,Pasture_Sulawesi,Pasture_Sulawesi,2005,1.6550532,2005,1,1
+Indonesia,Pasture,Pasture_Sumatra,Pasture_Sumatra,2005,5.5628164,2005,1,1
+Japan,Pasture,Pasture_Japan,Pasture_Japan,2005,0,2005,0,0
+Japan,Pasture,Pasture_Taiwan,Pasture_Taiwan,2005,0,2005,0,0
+Mexico,Pasture,Pasture_California,Pasture_California,2005,0.0558206,2005,1,1
+Mexico,Pasture,Pasture_CntAmer,Pasture_CntAmer,2005,0.0467591,2005,1,1
+Mexico,Pasture,Pasture_GrijUsuR,Pasture_GrijUsuR,2005,1.7936729,2005,1,1
+Mexico,Pasture,Pasture_MexBaja,Pasture_MexBaja,2005,1.2720647,2005,1,1
+Mexico,Pasture,Pasture_MexCstNW,Pasture_MexCstNW,2005,13.1335409,2005,1,1
+Mexico,Pasture,Pasture_MexCstW,Pasture_MexCstW,2005,2.7563274,2005,1,1
+Mexico,Pasture,Pasture_MexGulf,Pasture_MexGulf,2005,2.9613418,2005,1,1
+Mexico,Pasture,Pasture_MexInt,Pasture_MexInt,2005,12.5262909,2005,1,1
+Mexico,Pasture,Pasture_Papaloapan,Pasture_Papaloapan,2005,0.9790646,2005,1,1
+Mexico,Pasture,Pasture_RioBalsas,Pasture_RioBalsas,2005,4.6369759,2005,1,1
+Mexico,Pasture,Pasture_RioGrande,Pasture_RioGrande,2005,17.8727386,2005,1,1
+Mexico,Pasture,Pasture_RioLerma,Pasture_RioLerma,2005,5.9195883,2005,1,1
+Mexico,Pasture,Pasture_RioVerde,Pasture_RioVerde,2005,3.1216607,2005,1,1
+Mexico,Pasture,Pasture_Tehuantpc,Pasture_Tehuantpc,2005,2.2113981,2005,1,1
+Mexico,Pasture,Pasture_UsaColoRS,Pasture_UsaColoRS,2005,2.1680427,2005,1,1
+Mexico,Pasture,Pasture_YucatanP,Pasture_YucatanP,2005,1.0160616,2005,1,1
+Middle East,Pasture,Pasture_AfrCstNE,Pasture_AfrCstNE,2005,0,2005,0,0
+Middle East,Pasture,Pasture_ArabianP,Pasture_ArabianP,2005,6.5623576,2005,1,1
+Middle East,Pasture,Pasture_ArabianSea,Pasture_ArabianSea,2005,0.0108471,2005,1,1
+Middle East,Pasture,Pasture_CaspianE,Pasture_CaspianE,2005,0.9255996,2005,1,1
+Middle East,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,2005,2.2835575,2005,1,1
+Middle East,Pasture,Pasture_DeadSea,Pasture_DeadSea,2005,0.1047817,2005,1,1
+Middle East,Pasture,Pasture_EJrdnSyr,Pasture_EJrdnSyr,2005,0.7850978,2005,1,1
+Middle East,Pasture,Pasture_FarahrudR,Pasture_FarahrudR,2005,0.0150886,2005,1,1
+Middle East,Pasture,Pasture_HamuMashR,Pasture_HamuMashR,2005,0.008002,2005,1,1
+Middle East,Pasture,Pasture_Helmand,Pasture_Helmand,2005,0.0017058,2005,1,1
+Middle East,Pasture,Pasture_Iran,Pasture_Iran,2005,1.978265,2005,1,1
+Middle East,Pasture,Pasture_MeditE,Pasture_MeditE,2005,0.1491395,2005,1,1
+Middle East,Pasture,Pasture_PersianGulf,Pasture_PersianGulf,2005,0.5434101,2005,1,1
+Middle East,Pasture,Pasture_RedSeaE,Pasture_RedSeaE,2005,3.0171227,2005,1,1
+Middle East,Pasture,Pasture_SinaiP,Pasture_SinaiP,2005,0.0097569,2005,1,1
+Middle East,Pasture,Pasture_TigrEuphR,Pasture_TigrEuphR,2005,3.6363223,2005,1,1
+Pakistan,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,2005,0.0075895,2005,1,1
+Pakistan,Pasture,Pasture_ArabianSea,Pasture_ArabianSea,2005,3.0799667,2005,1,1
+Pakistan,Pasture,Pasture_HamuMashR,Pasture_HamuMashR,2005,1.0315445,2005,1,1
+Pakistan,Pasture,Pasture_Helmand,Pasture_Helmand,2005,0.4357024,2005,1,1
+Pakistan,Pasture,Pasture_IndusR,Pasture_IndusR,2005,50.5069167,2005,1,1
+Pakistan,Pasture,Pasture_SabarmatiR,Pasture_SabarmatiR,2005,4.0825861,2005,1,1
+Pakistan,Pasture,Pasture_Tarim,Pasture_Tarim,2005,0,2005,0,0
+Russia,Pasture,Pasture_AmurR,Pasture_AmurR,2005,3.39371,2005,1,1
+Russia,Pasture,Pasture_BalticSea,Pasture_BalticSea,2005,0.1169114,2005,1,1
+Russia,Pasture,Pasture_BarentsSea,Pasture_BarentsSea,2005,0.0619508,2005,1,1
+Russia,Pasture,Pasture_BlackSeaN,Pasture_BlackSeaN,2005,0.8319518,2005,1,1
+Russia,Pasture,Pasture_BlackSeaS,Pasture_BlackSeaS,2005,0.0009792,2005,1,1
+Russia,Pasture,Pasture_CaspianNE,Pasture_CaspianNE,2005,2.5114662,2005,1,1
+Russia,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,2005,0.003125,2005,1,1
+Russia,Pasture,Pasture_DaugavaR,Pasture_DaugavaR,2005,0.4702347,2005,1,1
+Russia,Pasture,Pasture_DnieperR,Pasture_DnieperR,2005,1.5025307,2005,1,1
+Russia,Pasture,Pasture_DonR,Pasture_DonR,2005,4.8621267,2005,1,1
+Russia,Pasture,Pasture_DvinaRN,Pasture_DvinaRN,2005,0.1820055,2005,1,1
+Russia,Pasture,Pasture_Finland,Pasture_Finland,2005,0.0083502,2005,1,1
+Russia,Pasture,Pasture_Gobi,Pasture_Gobi,2005,0.1950919,2005,1,1
+Russia,Pasture,Pasture_KaraSea,Pasture_KaraSea,2005,0.0417461,2005,1,1
+Russia,Pasture,Pasture_LenaR,Pasture_LenaR,2005,0.3790156,2005,1,1
+Russia,Pasture,Pasture_NarvaR,Pasture_NarvaR,2005,0.3740694,2005,1,1
+Russia,Pasture,Pasture_NemanR,Pasture_NemanR,2005,0.0309331,2005,1,1
+Russia,Pasture,Pasture_NevaR,Pasture_NevaR,2005,1.1596089,2005,1,1
+Russia,Pasture,Pasture_ObR,Pasture_ObR,2005,6.8249791,2005,1,1
+Russia,Pasture,Pasture_PolandCst,Pasture_PolandCst,2005,0.1074455,2005,1,1
+Russia,Pasture,Pasture_RusCstSE,Pasture_RusCstSE,2005,0.0988764,2005,1,1
+Russia,Pasture,Pasture_ScndnvN,Pasture_ScndnvN,2005,0.0396502,2005,1,1
+Russia,Pasture,Pasture_SiberiaN,Pasture_SiberiaN,2005,1.11e-05,2005,1,1
+Russia,Pasture,Pasture_SiberiaW,Pasture_SiberiaW,2005,0.0926323,2005,1,1
+Russia,Pasture,Pasture_SyrDaryaR,Pasture_SyrDaryaR,2005,0.0911626,2005,1,1
+Russia,Pasture,Pasture_UralR,Pasture_UralR,2005,1.7543104,2005,1,1
+Russia,Pasture,Pasture_VolgaR,Pasture_VolgaR,2005,13.9196245,2005,1,1
+Russia,Pasture,Pasture_YeniseiR,Pasture_YeniseiR,2005,1.8484896,2005,1,1
+South Africa,Pasture,Pasture_AfrCstS,Pasture_AfrCstS,2005,15.8250673,2005,1,1
+South Africa,Pasture,Pasture_AfrCstSSW,Pasture_AfrCstSSW,2005,5.098451,2005,1,1
+South Africa,Pasture,Pasture_AfrCstSW,Pasture_AfrCstSW,2005,1.84e-05,2005,1,1
+South Africa,Pasture,Pasture_LimpopoR,Pasture_LimpopoR,2005,8.5756333,2005,1,1
+South Africa,Pasture,Pasture_OrangeR,Pasture_OrangeR,2005,33.4949359,2005,1,1
+South America_Northern,Pasture,Pasture_MagdalenaR,Pasture_MagdalenaR,2005,0.0308541,2005,1,1
+South America_Northern,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,2005,16.2337034,2005,1,1
+South America_Northern,Pasture,Pasture_SAmerCstN,Pasture_SAmerCstN,2005,5.9614982,2005,1,1
+South America_Northern,Pasture,Pasture_SAmerCstNE,Pasture_SAmerCstNE,2005,1.8745501,2005,1,1
+South America_Southern,Pasture,Pasture_ArgColoR,Pasture_ArgColoR,2005,0.0002757,2005,1,1
+South America_Southern,Pasture,Pasture_ArgCstS,Pasture_ArgCstS,2005,0.6177342,2005,1,1
+South America_Southern,Pasture,Pasture_BrzCstS,Pasture_BrzCstS,2005,2.0417358,2005,1,1
+South America_Southern,Pasture,Pasture_ChileCstN,Pasture_ChileCstN,2005,2.0591132,2005,1,1
+South America_Southern,Pasture,Pasture_ChileCstS,Pasture_ChileCstS,2005,3.3335124,2005,1,1
+South America_Southern,Pasture,Pasture_ColEcuaCst,Pasture_ColEcuaCst,2005,1.6944465,2005,1,1
+South America_Southern,Pasture,Pasture_LaPuna,Pasture_LaPuna,2005,2.2351588,2005,1,1
+South America_Southern,Pasture,Pasture_NegroR,Pasture_NegroR,2005,0.0139626,2005,1,1
+South America_Southern,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,2005,19.5168521,2005,1,1
+South America_Southern,Pasture,Pasture_PeruCst,Pasture_PeruCst,2005,2.2403746,2005,1,1
+South America_Southern,Pasture,Pasture_RioLaPlata,Pasture_RioLaPlata,2005,23.5513474,2005,1,1
+South Asia,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,2005,5.5840056,2005,1,1
+South Asia,Pasture,Pasture_BengalBay,Pasture_BengalBay,2005,0.0683532,2005,1,1
+South Asia,Pasture,Pasture_CaspianE,Pasture_CaspianE,2005,4.0984791,2005,1,1
+South Asia,Pasture,Pasture_FarahrudR,Pasture_FarahrudR,2005,1.5423852,2005,1,1
+South Asia,Pasture,Pasture_GangesR,Pasture_GangesR,2005,1.8552827,2005,1,1
+South Asia,Pasture,Pasture_HamuMashR,Pasture_HamuMashR,2005,0.2367502,2005,1,1
+South Asia,Pasture,Pasture_Helmand,Pasture_Helmand,2005,4.4675553,2005,1,1
+South Asia,Pasture,Pasture_IndusR,Pasture_IndusR,2005,1.7709046,2005,1,1
+South Asia,Pasture,Pasture_SriLanka,Pasture_SriLanka,2005,0.4398062,2005,1,1
+South Korea,Pasture,Pasture_Korea,Pasture_Korea,2005,4.7089212,2005,1,1
+Southeast Asia,Pasture,Pasture_BengalBay,Pasture_BengalBay,2005,0.11286,2005,1,1
+Southeast Asia,Pasture,Pasture_BoHai,Pasture_BoHai,2005,0.0829706,2005,1,1
+Southeast Asia,Pasture,Pasture_BorneoCstN,Pasture_BorneoCstN,2005,0.8000173,2005,1,1
+Southeast Asia,Pasture,Pasture_ChaoPhrR,Pasture_ChaoPhrR,2005,1.593235,2005,1,1
+Southeast Asia,Pasture,Pasture_FlyR,Pasture_FlyR,2005,0.1838211,2005,1,1
+Southeast Asia,Pasture,Pasture_GangesR,Pasture_GangesR,2005,0.0109073,2005,1,1
+Southeast Asia,Pasture,Pasture_Hong,Pasture_Hong,2005,1.3872913,2005,1,1
+Southeast Asia,Pasture,Pasture_IdnE,Pasture_IdnE,2005,0.0032994,2005,1,1
+Southeast Asia,Pasture,Pasture_IrianJaya,Pasture_IrianJaya,2005,0.1236947,2005,1,1
+Southeast Asia,Pasture,Pasture_IrrawaddyR,Pasture_IrrawaddyR,2005,1.2629548,2005,1,1
+Southeast Asia,Pasture,Pasture_JavaTimor,Pasture_JavaTimor,2005,1.0004945,2005,1,1
+Southeast Asia,Pasture,Pasture_Kalimantan,Pasture_Kalimantan,2005,0.0317033,2005,1,1
+Southeast Asia,Pasture,Pasture_Korea,Pasture_Korea,2005,0.140402,2005,1,1
+Southeast Asia,Pasture,Pasture_MalaysiaP,Pasture_MalaysiaP,2005,2.2001062,2005,1,1
+Southeast Asia,Pasture,Pasture_Mekong,Pasture_Mekong,2005,17.3102303,2005,1,1
+Southeast Asia,Pasture,Pasture_NewCaledn,Pasture_NewCaledn,2005,0.0018775,2005,1,1
+Southeast Asia,Pasture,Pasture_PapuaCst,Pasture_PapuaCst,2005,0.6648823,2005,1,1
+Southeast Asia,Pasture,Pasture_Phlppns,Pasture_Phlppns,2005,9.6051775,2005,1,1
+Southeast Asia,Pasture,Pasture_RusCstSE,Pasture_RusCstSE,2005,0.0434972,2005,1,1
+Southeast Asia,Pasture,Pasture_Salween,Pasture_Salween,2005,0.4936817,2005,1,1
+Southeast Asia,Pasture,Pasture_SChinaSea,Pasture_SChinaSea,2005,0.0481674,2005,1,1
+Southeast Asia,Pasture,Pasture_SepikR,Pasture_SepikR,2005,0.2886875,2005,1,1
+Southeast Asia,Pasture,Pasture_SittaungR,Pasture_SittaungR,2005,0.1581966,2005,1,1
+Southeast Asia,Pasture,Pasture_ThaiGulf,Pasture_ThaiGulf,2005,0.967672,2005,1,1
+Southeast Asia,Pasture,Pasture_VietnamCst,Pasture_VietnamCst,2005,2.811624,2005,1,1
+Southeast Asia,Pasture,Pasture_XunJiang,Pasture_XunJiang,2005,0.2199663,2005,1,1
+Argentina,Pasture,Pasture_ArgColoR,Pasture_ArgColoR,2005,4.0664501,2005,1,1
+Argentina,Pasture,Pasture_ArgCstN,Pasture_ArgCstN,2005,12.1463746,2005,1,1
+Argentina,Pasture,Pasture_ArgCstS,Pasture_ArgCstS,2005,40.5527157,2005,1,1
+Argentina,Pasture,Pasture_ChileCstN,Pasture_ChileCstN,2005,1.1e-06,2005,1,1
+Argentina,Pasture,Pasture_ChileCstS,Pasture_ChileCstS,2005,2.2109038,2005,1,1
+Argentina,Pasture,Pasture_LaPuna,Pasture_LaPuna,2005,0.4204416,2005,1,1
+Argentina,Pasture,Pasture_MarChiq,Pasture_MarChiq,2005,1.8328101,2005,1,1
+Argentina,Pasture,Pasture_NegroR,Pasture_NegroR,2005,7.3172404,2005,1,1
+Argentina,Pasture,Pasture_Pampas,Pasture_Pampas,2005,4.6794567,2005,1,1
+Argentina,Pasture,Pasture_Patagonia,Pasture_Patagonia,2005,11.4418204,2005,1,1
+Argentina,Pasture,Pasture_RioLaPlata,Pasture_RioLaPlata,2005,26.5810961,2005,1,1
+Argentina,Pasture,Pasture_Salinas,Pasture_Salinas,2005,1.8142404,2005,1,1
+Colombia,Pasture,Pasture_ColEcuaCst,Pasture_ColEcuaCst,2005,4.0593554,2005,1,1
+Colombia,Pasture,Pasture_MagdalenaR,Pasture_MagdalenaR,2005,15.7741345,2005,1,1
+Colombia,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,2005,20.9808953,2005,1,1
+Colombia,Pasture,Pasture_SAmerCstN,Pasture_SAmerCstN,2005,5.5287128,2005,1,1
+USA,Pasture,Pasture_ArkWhtRedR,Pasture_ArkWhtRedR,2010,4.1899542,2010,1,1
+USA,Pasture,Pasture_California,Pasture_California,2010,0.641579,2010,1,1
+USA,Pasture,Pasture_Caribbean,Pasture_Caribbean,2010,0.0112081,2010,1,1
+USA,Pasture,Pasture_FraserR,Pasture_FraserR,2010,0.0004984,2010,1,1
+USA,Pasture,Pasture_GreatBasin,Pasture_GreatBasin,2010,0.3395899,2010,1,1
+USA,Pasture,Pasture_GreatLakes,Pasture_GreatLakes,2010,0.1977829,2010,1,1
+USA,Pasture,Pasture_MexCstNW,Pasture_MexCstNW,2010,0.0213268,2010,1,1
+USA,Pasture,Pasture_MissouriR,Pasture_MissouriR,2010,7.7429346,2010,1,1
+USA,Pasture,Pasture_MissppRN,Pasture_MissppRN,2010,0.6193546,2010,1,1
+USA,Pasture,Pasture_MissppRS,Pasture_MissppRS,2010,0.5861272,2010,1,1
+USA,Pasture,Pasture_NelsonR,Pasture_NelsonR,2010,0.2928534,2010,1,1
+USA,Pasture,Pasture_OhioR,Pasture_OhioR,2010,0.7319358,2010,1,1
+USA,Pasture,Pasture_PacArctic,Pasture_PacArctic,2010,0.0369892,2010,1,1
+USA,Pasture,Pasture_RioGrande,Pasture_RioGrande,2010,1.9931295,2010,1,1
+USA,Pasture,Pasture_TennR,Pasture_TennR,2010,0.2317653,2010,1,1
+USA,Pasture,Pasture_TexasCst,Pasture_TexasCst,2010,3.5017218,2010,1,1
+USA,Pasture,Pasture_UsaColoRN,Pasture_UsaColoRN,2010,0.6884862,2010,1,1
+USA,Pasture,Pasture_UsaColoRS,Pasture_UsaColoRS,2010,0.9267826,2010,1,1
+USA,Pasture,Pasture_UsaCstE,Pasture_UsaCstE,2010,0.2501023,2010,1,1
+USA,Pasture,Pasture_UsaCstNE,Pasture_UsaCstNE,2010,0.0278138,2010,1,1
+USA,Pasture,Pasture_UsaCstSE,Pasture_UsaCstSE,2010,1.0719812,2010,1,1
+USA,Pasture,Pasture_UsaPacNW,Pasture_UsaPacNW,2010,1.1438766,2010,1,1
+Africa_Eastern,Pasture,Pasture_AfrCstE,Pasture_AfrCstE,2010,5.929227,2010,1,1
+Africa_Eastern,Pasture,Pasture_AfrCstNE,Pasture_AfrCstNE,2010,13.4882945,2010,1,1
+Africa_Eastern,Pasture,Pasture_AfrIntN,Pasture_AfrIntN,2010,0.7327838,2010,1,1
+Africa_Eastern,Pasture,Pasture_CongoR,Pasture_CongoR,2010,0.6736463,2010,1,1
+Africa_Eastern,Pasture,Pasture_LChad,Pasture_LChad,2010,6.5778112,2010,1,1
+Africa_Eastern,Pasture,Pasture_Madasgacar,Pasture_Madasgacar,2010,33.985804,2010,1,1
+Africa_Eastern,Pasture,Pasture_NileR,Pasture_NileR,2010,105.6739706,2010,1,1
+Africa_Eastern,Pasture,Pasture_RiftValley,Pasture_RiftValley,2010,6.5278248,2010,1,1
+Africa_Eastern,Pasture,Pasture_ShebJubR,Pasture_ShebJubR,2010,21.0098711,2010,1,1
+Africa_Northern,Pasture,Pasture_AfrCstNE,Pasture_AfrCstNE,2010,0.0001606,2010,1,1
+Africa_Northern,Pasture,Pasture_AfrCstNW,Pasture_AfrCstNW,2010,2.1433169,2010,1,1
+Africa_Northern,Pasture,Pasture_AfrIntN,Pasture_AfrIntN,2010,3.5164175,2010,1,1
+Africa_Northern,Pasture,Pasture_DeadSea,Pasture_DeadSea,2010,4e-07,2010,1,1
+Africa_Northern,Pasture,Pasture_LChad,Pasture_LChad,2010,0.0016705,2010,1,1
+Africa_Northern,Pasture,Pasture_MeditS,Pasture_MeditS,2010,4.8237103,2010,1,1
+Africa_Northern,Pasture,Pasture_NigerR,Pasture_NigerR,2010,0.0041641,2010,1,1
+Africa_Southern,Pasture,Pasture_AfrCstE,Pasture_AfrCstE,2010,9.2786256,2010,1,1
+Africa_Southern,Pasture,Pasture_AfrCstS,Pasture_AfrCstS,2010,0.7793766,2010,1,1
+Africa_Southern,Pasture,Pasture_AfrCstSE,Pasture_AfrCstSE,2010,2.9583837,2010,1,1
+Africa_Southern,Pasture,Pasture_AfrCstSW,Pasture_AfrCstSW,2010,1.0502851,2010,1,1
+Africa_Southern,Pasture,Pasture_AfrIntS,Pasture_AfrIntS,2010,11.3268027,2010,1,1
+Africa_Southern,Pasture,Pasture_AngolaCst,Pasture_AngolaCst,2010,6.1394971,2010,1,1
+Africa_Southern,Pasture,Pasture_CongoR,Pasture_CongoR,2010,4.9324811,2010,1,1
+Africa_Southern,Pasture,Pasture_GuineaGulf,Pasture_GuineaGulf,2010,0.0560458,2010,1,1
+Africa_Southern,Pasture,Pasture_LimpopoR,Pasture_LimpopoR,2010,3.4683126,2010,1,1
+Africa_Southern,Pasture,Pasture_NileR,Pasture_NileR,2010,0.6985521,2010,1,1
+Africa_Southern,Pasture,Pasture_OrangeR,Pasture_OrangeR,2010,3.5654046,2010,1,1
+Africa_Southern,Pasture,Pasture_RiftValley,Pasture_RiftValley,2010,1.7645374,2010,1,1
+Africa_Southern,Pasture,Pasture_ZambeziR,Pasture_ZambeziR,2010,14.271177,2010,1,1
+Africa_Western,Pasture,Pasture_AfrCstNW,Pasture_AfrCstNW,2010,0.0504277,2010,1,1
+Africa_Western,Pasture,Pasture_AfrCstW,Pasture_AfrCstW,2010,15.5900107,2010,1,1
+Africa_Western,Pasture,Pasture_AfrIntN,Pasture_AfrIntN,2010,2.0031553,2010,1,1
+Africa_Western,Pasture,Pasture_CongoR,Pasture_CongoR,2010,14.2316838,2010,1,1
+Africa_Western,Pasture,Pasture_GuineaGulf,Pasture_GuineaGulf,2010,5.8041696,2010,1,1
+Africa_Western,Pasture,Pasture_LChad,Pasture_LChad,2010,27.5080692,2010,1,1
+Africa_Western,Pasture,Pasture_NigerR,Pasture_NigerR,2010,37.1312623,2010,1,1
+Africa_Western,Pasture,Pasture_NileR,Pasture_NileR,2010,0.206463,2010,1,1
+Africa_Western,Pasture,Pasture_SenegalR,Pasture_SenegalR,2010,10.8933509,2010,1,1
+Africa_Western,Pasture,Pasture_VoltaR,Pasture_VoltaR,2010,6.308188,2010,1,1
+Africa_Western,Pasture,Pasture_ZambeziR,Pasture_ZambeziR,2010,0.0177714,2010,1,1
+Australia_NZ,Pasture,Pasture_AusCstE,Pasture_AusCstE,2010,12.0311043,2010,1,1
+Australia_NZ,Pasture,Pasture_AusCstN,Pasture_AusCstN,2010,37.2330309,2010,1,1
+Australia_NZ,Pasture,Pasture_AusCstS,Pasture_AusCstS,2010,8.909597,2010,1,1
+Australia_NZ,Pasture,Pasture_AusCstW,Pasture_AusCstW,2010,10.7499804,2010,1,1
+Australia_NZ,Pasture,Pasture_AusInt,Pasture_AusInt,2010,60.9300965,2010,1,1
+Australia_NZ,Pasture,Pasture_MurrayDrlg,Pasture_MurrayDrlg,2010,17.200452,2010,1,1
+Australia_NZ,Pasture,Pasture_NewZealand,Pasture_NewZealand,2010,7.7047727,2010,1,1
+Australia_NZ,Pasture,Pasture_Tasmania,Pasture_Tasmania,2010,1.467074,2010,1,1
+Brazil,Pasture,Pasture_AmazonR,Pasture_AmazonR,2010,1.6858688,2010,1,1
+Brazil,Pasture,Pasture_BrzCstE,Pasture_BrzCstE,2010,8.4878603,2010,1,1
+Brazil,Pasture,Pasture_BrzCstN,Pasture_BrzCstN,2010,10.9015251,2010,1,1
+Brazil,Pasture,Pasture_BrzCstS,Pasture_BrzCstS,2010,74.581635,2010,1,1
+Brazil,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,2010,50.350504,2010,1,1
+Brazil,Pasture,Pasture_ParnaibaR,Pasture_ParnaibaR,2010,8.75717,2010,1,1
+Brazil,Pasture,Pasture_RioLaPlata,Pasture_RioLaPlata,2010,176.7441953,2010,1,1
+Brazil,Pasture,Pasture_SAmerCstNE,Pasture_SAmerCstNE,2010,0.4330011,2010,1,1
+Brazil,Pasture,Pasture_SaoFrancR,Pasture_SaoFrancR,2010,46.542096,2010,1,1
+Brazil,Pasture,Pasture_TocantinsR,Pasture_TocantinsR,2010,86.2640847,2010,1,1
+Canada,Pasture,Pasture_CanAtl,Pasture_CanAtl,2010,0.6387328,2010,1,1
+Canada,Pasture,Pasture_ChurchillR,Pasture_ChurchillR,2010,0.0003229,2010,1,1
+Canada,Pasture,Pasture_FraserR,Pasture_FraserR,2010,0.3816392,2010,1,1
+Canada,Pasture,Pasture_GreatLakes,Pasture_GreatLakes,2010,3.3597346,2010,1,1
+Canada,Pasture,Pasture_HudsonBay,Pasture_HudsonBay,2010,0.5371402,2010,1,1
+Canada,Pasture,Pasture_Mackenzie,Pasture_Mackenzie,2010,3.0091749,2010,1,1
+Canada,Pasture,Pasture_MissouriR,Pasture_MissouriR,2010,1.4300846,2010,1,1
+Canada,Pasture,Pasture_NelsonR,Pasture_NelsonR,2010,17.5065316,2010,1,1
+Canada,Pasture,Pasture_NWTerr,Pasture_NWTerr,2010,0.7975773,2010,1,1
+Canada,Pasture,Pasture_PacArctic,Pasture_PacArctic,2010,0.5244332,2010,1,1
+Canada,Pasture,Pasture_StLwrncR,Pasture_StLwrncR,2010,0.5080874,2010,1,1
+Canada,Pasture,Pasture_UsaCstNE,Pasture_UsaCstNE,2010,0.1102918,2010,1,1
+Canada,Pasture,Pasture_UsaPacNW,Pasture_UsaPacNW,2010,0.1701118,2010,1,1
+Central America and Caribbean,Pasture,Pasture_Caribbean,Pasture_Caribbean,2010,11.7520926,2010,1,1
+Central America and Caribbean,Pasture,Pasture_CntAmer,Pasture_CntAmer,2010,20.9985959,2010,1,1
+Central America and Caribbean,Pasture,Pasture_ColEcuaCst,Pasture_ColEcuaCst,2010,1.2648049,2010,1,1
+Central America and Caribbean,Pasture,Pasture_GrijUsuR,Pasture_GrijUsuR,2010,2.0327198,2010,1,1
+Central America and Caribbean,Pasture,Pasture_SAmerCstN,Pasture_SAmerCstN,2010,0.1182375,2010,1,1
+Central America and Caribbean,Pasture,Pasture_YucatanP,Pasture_YucatanP,2010,1.8055788,2010,1,1
+Central Asia,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,2010,1.7745758,2010,1,1
+Central Asia,Pasture,Pasture_AmurR,Pasture_AmurR,2010,2.4302417,2010,1,1
+Central Asia,Pasture,Pasture_BlackSeaN,Pasture_BlackSeaN,2010,0.0035879,2010,1,1
+Central Asia,Pasture,Pasture_BlackSeaS,Pasture_BlackSeaS,2010,0.0769573,2010,1,1
+Central Asia,Pasture,Pasture_CaspianE,Pasture_CaspianE,2010,1.8888243,2010,1,1
+Central Asia,Pasture,Pasture_CaspianNE,Pasture_CaspianNE,2010,3.5722251,2010,1,1
+Central Asia,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,2010,0.5949162,2010,1,1
+Central Asia,Pasture,Pasture_Gobi,Pasture_Gobi,2010,7.0464792,2010,1,1
+Central Asia,Pasture,Pasture_LBalkash,Pasture_LBalkash,2010,3.0259741,2010,1,1
+Central Asia,Pasture,Pasture_ObR,Pasture_ObR,2010,6.6132353,2010,1,1
+Central Asia,Pasture,Pasture_SyrDaryaR,Pasture_SyrDaryaR,2010,10.0930195,2010,1,1
+Central Asia,Pasture,Pasture_Tarim,Pasture_Tarim,2010,0.0242849,2010,1,1
+Central Asia,Pasture,Pasture_UralR,Pasture_UralR,2010,1.1096542,2010,1,1
+Central Asia,Pasture,Pasture_VolgaR,Pasture_VolgaR,2010,0.0985603,2010,1,1
+Central Asia,Pasture,Pasture_YeniseiR,Pasture_YeniseiR,2010,3.7604127,2010,1,1
+China,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,2010,0.0001785,2010,1,1
+China,Pasture,Pasture_AmurR,Pasture_AmurR,2010,34.5901736,2010,1,1
+China,Pasture,Pasture_BoHai,Pasture_BoHai,2010,14.3343324,2010,1,1
+China,Pasture,Pasture_ChinaCst,Pasture_ChinaCst,2010,8.5766877,2010,1,1
+China,Pasture,Pasture_GangesR,Pasture_GangesR,2010,7.3902294,2010,1,1
+China,Pasture,Pasture_Gobi,Pasture_Gobi,2010,44.2264861,2010,1,1
+China,Pasture,Pasture_Hainan,Pasture_Hainan,2010,1.0769008,2010,1,1
+China,Pasture,Pasture_Hong,Pasture_Hong,2010,2.4831281,2010,1,1
+China,Pasture,Pasture_HuangHeR,Pasture_HuangHeR,2010,38.3353618,2010,1,1
+China,Pasture,Pasture_IndusR,Pasture_IndusR,2010,1.3494362,2010,1,1
+China,Pasture,Pasture_IrrawaddyR,Pasture_IrrawaddyR,2010,0.6704676,2010,1,1
+China,Pasture,Pasture_LBalkash,Pasture_LBalkash,2010,3.2345597,2010,1,1
+China,Pasture,Pasture_Mekong,Pasture_Mekong,2010,4.4564459,2010,1,1
+China,Pasture,Pasture_ObR,Pasture_ObR,2010,3.7862598,2010,1,1
+China,Pasture,Pasture_RusCstSE,Pasture_RusCstSE,2010,0.681412,2010,1,1
+China,Pasture,Pasture_Salween,Pasture_Salween,2010,3.2020411,2010,1,1
+China,Pasture,Pasture_SChinaSea,Pasture_SChinaSea,2010,1.9036474,2010,1,1
+China,Pasture,Pasture_SyrDaryaR,Pasture_SyrDaryaR,2010,0.0014508,2010,1,1
+China,Pasture,Pasture_Taiwan,Pasture_Taiwan,2010,0.9559906,2010,1,1
+China,Pasture,Pasture_Tarim,Pasture_Tarim,2010,13.7439323,2010,1,1
+China,Pasture,Pasture_Tibet,Pasture_Tibet,2010,6.0907878,2010,1,1
+China,Pasture,Pasture_XunJiang,Pasture_XunJiang,2010,14.3320129,2010,1,1
+China,Pasture,Pasture_Yangtze,Pasture_Yangtze,2010,57.3820154,2010,1,1
+China,Pasture,Pasture_ZiyaHe,Pasture_ZiyaHe,2010,12.0768838,2010,1,1
+EU-12,Pasture,Pasture_AdrBlkSea,Pasture_AdrBlkSea,2010,1.0512196,2010,1,1
+EU-12,Pasture,Pasture_BalticSea,Pasture_BalticSea,2010,0.5839755,2010,1,1
+EU-12,Pasture,Pasture_DanubeR,Pasture_DanubeR,2010,6.2299277,2010,1,1
+EU-12,Pasture,Pasture_DaugavaR,Pasture_DaugavaR,2010,0.2664063,2010,1,1
+EU-12,Pasture,Pasture_DniesterR,Pasture_DniesterR,2010,0.0025316,2010,1,1
+EU-12,Pasture,Pasture_DnkGrmCst,Pasture_DnkGrmCst,2010,0.0004995,2010,1,1
+EU-12,Pasture,Pasture_ElbeR,Pasture_ElbeR,2010,0.5887263,2010,1,1
+EU-12,Pasture,Pasture_MeditE,Pasture_MeditE,2010,0.0017859,2010,1,1
+EU-12,Pasture,Pasture_NarvaR,Pasture_NarvaR,2010,0.1410158,2010,1,1
+EU-12,Pasture,Pasture_NemanR,Pasture_NemanR,2010,0.4589604,2010,1,1
+EU-12,Pasture,Pasture_OderR,Pasture_OderR,2010,1.1516244,2010,1,1
+EU-12,Pasture,Pasture_PolandCst,Pasture_PolandCst,2010,0.2615164,2010,1,1
+EU-12,Pasture,Pasture_WislaR,Pasture_WislaR,2010,1.7101572,2010,1,1
+EU-15,Pasture,Pasture_AdrBlkSea,Pasture_AdrBlkSea,2010,0,2010,0,0
+EU-15,Pasture,Pasture_DanubeR,Pasture_DanubeR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_DnkGrmCst,Pasture_DnkGrmCst,2010,0,2010,0,0
+EU-15,Pasture,Pasture_DouroR,Pasture_DouroR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_EbroR,Pasture_EbroR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_ElbeR,Pasture_ElbeR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_EmsWeserR,Pasture_EmsWeserR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_EngWales,Pasture_EngWales,2010,0,2010,0,0
+EU-15,Pasture,Pasture_Finland,Pasture_Finland,2010,0,2010,0,0
+EU-15,Pasture,Pasture_FranceCstS,Pasture_FranceCstS,2010,0,2010,0,0
+EU-15,Pasture,Pasture_FranceCstW,Pasture_FranceCstW,2010,0,2010,0,0
+EU-15,Pasture,Pasture_Gironde,Pasture_Gironde,2010,0,2010,0,0
+EU-15,Pasture,Pasture_GuadalqR,Pasture_GuadalqR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_GuadianaR,Pasture_GuadianaR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_IberiaCst,Pasture_IberiaCst,2010,0,2010,0,0
+EU-15,Pasture,Pasture_Ireland,Pasture_Ireland,2010,0,2010,0,0
+EU-15,Pasture,Pasture_ItalyCstE,Pasture_ItalyCstE,2010,0,2010,0,0
+EU-15,Pasture,Pasture_ItalyCstW,Pasture_ItalyCstW,2010,0,2010,0,0
+EU-15,Pasture,Pasture_LoireR,Pasture_LoireR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_MeditE,Pasture_MeditE,2010,0,2010,0,0
+EU-15,Pasture,Pasture_MeditIsl,Pasture_MeditIsl,2010,0,2010,0,0
+EU-15,Pasture,Pasture_NevaR,Pasture_NevaR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_OderR,Pasture_OderR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_PoR,Pasture_PoR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_RhineR,Pasture_RhineR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_RhoneR,Pasture_RhoneR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_ScheldtR,Pasture_ScheldtR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_ScndnvN,Pasture_ScndnvN,2010,0,2010,0,0
+EU-15,Pasture,Pasture_Scotland,Pasture_Scotland,2010,0,2010,0,0
+EU-15,Pasture,Pasture_SeineR,Pasture_SeineR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_SpainCstSE,Pasture_SpainCstSE,2010,0,2010,0,0
+EU-15,Pasture,Pasture_Sweden,Pasture_Sweden,2010,0,2010,0,0
+EU-15,Pasture,Pasture_TagusR,Pasture_TagusR,2010,0,2010,0,0
+EU-15,Pasture,Pasture_TiberR,Pasture_TiberR,2010,0,2010,0,0
+Europe_Eastern,Pasture,Pasture_BlackSeaN,Pasture_BlackSeaN,2010,3.7742196,2010,1,1
+Europe_Eastern,Pasture,Pasture_DanubeR,Pasture_DanubeR,2010,0.6913595,2010,1,1
+Europe_Eastern,Pasture,Pasture_DaugavaR,Pasture_DaugavaR,2010,1.0349084,2010,1,1
+Europe_Eastern,Pasture,Pasture_DnieperR,Pasture_DnieperR,2010,10.5741891,2010,1,1
+Europe_Eastern,Pasture,Pasture_DniesterR,Pasture_DniesterR,2010,1.3481152,2010,1,1
+Europe_Eastern,Pasture,Pasture_DonR,Pasture_DonR,2010,1.4409581,2010,1,1
+Europe_Eastern,Pasture,Pasture_NemanR,Pasture_NemanR,2010,1.2040683,2010,1,1
+Europe_Eastern,Pasture,Pasture_NevaR,Pasture_NevaR,2010,0.0195894,2010,1,1
+Europe_Eastern,Pasture,Pasture_WislaR,Pasture_WislaR,2010,0.4244353,2010,1,1
+Europe_Non_EU,Pasture,Pasture_AdrBlkSea,Pasture_AdrBlkSea,2010,2.1165254,2010,1,1
+Europe_Non_EU,Pasture,Pasture_BlackSeaS,Pasture_BlackSeaS,2010,4.2077055,2010,1,1
+Europe_Non_EU,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,2010,0.9066155,2010,1,1
+Europe_Non_EU,Pasture,Pasture_DanubeR,Pasture_DanubeR,2010,2.4791709,2010,1,1
+Europe_Non_EU,Pasture,Pasture_EJrdnSyr,Pasture_EJrdnSyr,2010,0.002821,2010,1,1
+Europe_Non_EU,Pasture,Pasture_MeditE,Pasture_MeditE,2010,4.2052163,2010,1,1
+Europe_Non_EU,Pasture,Pasture_TigrEuphR,Pasture_TigrEuphR,2010,4.1810834,2010,1,1
+European Free Trade Association,Pasture,Pasture_DanubeR,Pasture_DanubeR,2010,0.1303843,2010,1,1
+European Free Trade Association,Pasture,Pasture_Iceland,Pasture_Iceland,2010,3.0548794,2010,1,1
+European Free Trade Association,Pasture,Pasture_PoR,Pasture_PoR,2010,0.2214263,2010,1,1
+European Free Trade Association,Pasture,Pasture_RhineR,Pasture_RhineR,2010,2.1045054,2010,1,1
+European Free Trade Association,Pasture,Pasture_RhoneR,Pasture_RhoneR,2010,0.4282631,2010,1,1
+European Free Trade Association,Pasture,Pasture_ScndnvN,Pasture_ScndnvN,2010,0.3717472,2010,1,1
+European Free Trade Association,Pasture,Pasture_Sweden,Pasture_Sweden,2010,0.0089643,2010,1,1
+India,Pasture,Pasture_BengalBay,Pasture_BengalBay,2010,0.0311333,2010,1,1
+India,Pasture,Pasture_BengalW,Pasture_BengalW,2010,0.3394213,2010,1,1
+India,Pasture,Pasture_BrahmaniR,Pasture_BrahmaniR,2010,0.1984376,2010,1,1
+India,Pasture,Pasture_CauveryR,Pasture_CauveryR,2010,0.3597684,2010,1,1
+India,Pasture,Pasture_GangesR,Pasture_GangesR,2010,6.025086,2010,1,1
+India,Pasture,Pasture_GodavariR,Pasture_GodavariR,2010,1.4193695,2010,1,1
+India,Pasture,Pasture_IndCstE,Pasture_IndCstE,2010,0.2348976,2010,1,1
+India,Pasture,Pasture_IndCstNE,Pasture_IndCstNE,2010,0.1379121,2010,1,1
+India,Pasture,Pasture_IndCstS,Pasture_IndCstS,2010,0.1937243,2010,1,1
+India,Pasture,Pasture_IndCstW,Pasture_IndCstW,2010,0.1773171,2010,1,1
+India,Pasture,Pasture_IndusR,Pasture_IndusR,2010,2.0313321,2010,1,1
+India,Pasture,Pasture_IrrawaddyR,Pasture_IrrawaddyR,2010,0.0820001,2010,1,1
+India,Pasture,Pasture_KrishnaR,Pasture_KrishnaR,2010,1.249447,2010,1,1
+India,Pasture,Pasture_MahanadiR,Pasture_MahanadiR,2010,0.4864045,2010,1,1
+India,Pasture,Pasture_MahiR,Pasture_MahiR,2010,0.1875923,2010,1,1
+India,Pasture,Pasture_NarmadaR,Pasture_NarmadaR,2010,0.4423132,2010,1,1
+India,Pasture,Pasture_PennarR,Pasture_PennarR,2010,0.3592235,2010,1,1
+India,Pasture,Pasture_SabarmatiR,Pasture_SabarmatiR,2010,1.1631044,2010,1,1
+India,Pasture,Pasture_TaptiR,Pasture_TaptiR,2010,0.2888766,2010,1,1
+Indonesia,Pasture,Pasture_BorneoCstN,Pasture_BorneoCstN,2010,0.0394371,2010,1,1
+Indonesia,Pasture,Pasture_FlyR,Pasture_FlyR,2010,0.0066217,2010,1,1
+Indonesia,Pasture,Pasture_IdnE,Pasture_IdnE,2010,0.4100368,2010,1,1
+Indonesia,Pasture,Pasture_IrianJaya,Pasture_IrianJaya,2010,6.2600772,2010,1,1
+Indonesia,Pasture,Pasture_JavaTimor,Pasture_JavaTimor,2010,4.2173411,2010,1,1
+Indonesia,Pasture,Pasture_Kalimantan,Pasture_Kalimantan,2010,4.4530632,2010,1,1
+Indonesia,Pasture,Pasture_MalaysiaP,Pasture_MalaysiaP,2010,0.0011367,2010,1,1
+Indonesia,Pasture,Pasture_SepikR,Pasture_SepikR,2010,0.0703265,2010,1,1
+Indonesia,Pasture,Pasture_Sulawesi,Pasture_Sulawesi,2010,1.6476418,2010,1,1
+Indonesia,Pasture,Pasture_Sumatra,Pasture_Sumatra,2010,5.4479605,2010,1,1
+Japan,Pasture,Pasture_Japan,Pasture_Japan,2010,0,2010,0,0
+Japan,Pasture,Pasture_Taiwan,Pasture_Taiwan,2010,0,2010,0,0
+Mexico,Pasture,Pasture_California,Pasture_California,2010,0.0571897,2010,1,1
+Mexico,Pasture,Pasture_CntAmer,Pasture_CntAmer,2010,0.0482801,2010,1,1
+Mexico,Pasture,Pasture_GrijUsuR,Pasture_GrijUsuR,2010,1.8515881,2010,1,1
+Mexico,Pasture,Pasture_MexBaja,Pasture_MexBaja,2010,1.313132,2010,1,1
+Mexico,Pasture,Pasture_MexCstNW,Pasture_MexCstNW,2010,13.5477581,2010,1,1
+Mexico,Pasture,Pasture_MexCstW,Pasture_MexCstW,2010,2.8459513,2010,1,1
+Mexico,Pasture,Pasture_MexGulf,Pasture_MexGulf,2010,3.0526968,2010,1,1
+Mexico,Pasture,Pasture_MexInt,Pasture_MexInt,2010,12.9300953,2010,1,1
+Mexico,Pasture,Pasture_Papaloapan,Pasture_Papaloapan,2010,1.0107908,2010,1,1
+Mexico,Pasture,Pasture_RioBalsas,Pasture_RioBalsas,2010,4.7807378,2010,1,1
+Mexico,Pasture,Pasture_RioGrande,Pasture_RioGrande,2010,18.4527788,2010,1,1
+Mexico,Pasture,Pasture_RioLerma,Pasture_RioLerma,2010,6.0965749,2010,1,1
+Mexico,Pasture,Pasture_RioVerde,Pasture_RioVerde,2010,3.2153183,2010,1,1
+Mexico,Pasture,Pasture_Tehuantpc,Pasture_Tehuantpc,2010,2.2827007,2010,1,1
+Mexico,Pasture,Pasture_UsaColoRS,Pasture_UsaColoRS,2010,2.23699,2010,1,1
+Mexico,Pasture,Pasture_YucatanP,Pasture_YucatanP,2010,1.0391451,2010,1,1
+Middle East,Pasture,Pasture_AfrCstNE,Pasture_AfrCstNE,2010,0,2010,0,0
+Middle East,Pasture,Pasture_ArabianP,Pasture_ArabianP,2010,6.7552904,2010,1,1
+Middle East,Pasture,Pasture_ArabianSea,Pasture_ArabianSea,2010,0.0111491,2010,1,1
+Middle East,Pasture,Pasture_CaspianE,Pasture_CaspianE,2010,0.9502711,2010,1,1
+Middle East,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,2010,2.3419519,2010,1,1
+Middle East,Pasture,Pasture_DeadSea,Pasture_DeadSea,2010,0.1071014,2010,1,1
+Middle East,Pasture,Pasture_EJrdnSyr,Pasture_EJrdnSyr,2010,0.8089392,2010,1,1
+Middle East,Pasture,Pasture_FarahrudR,Pasture_FarahrudR,2010,0.0155088,2010,1,1
+Middle East,Pasture,Pasture_HamuMashR,Pasture_HamuMashR,2010,0.0082247,2010,1,1
+Middle East,Pasture,Pasture_Helmand,Pasture_Helmand,2010,0.0017532,2010,1,1
+Middle East,Pasture,Pasture_Iran,Pasture_Iran,2010,2.0319129,2010,1,1
+Middle East,Pasture,Pasture_MeditE,Pasture_MeditE,2010,0.1545696,2010,1,1
+Middle East,Pasture,Pasture_PersianGulf,Pasture_PersianGulf,2010,0.5584564,2010,1,1
+Middle East,Pasture,Pasture_RedSeaE,Pasture_RedSeaE,2010,3.1016641,2010,1,1
+Middle East,Pasture,Pasture_SinaiP,Pasture_SinaiP,2010,0.0102811,2010,1,1
+Middle East,Pasture,Pasture_TigrEuphR,Pasture_TigrEuphR,2010,3.7279706,2010,1,1
+Pakistan,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,2010,0.0088164,2010,1,1
+Pakistan,Pasture,Pasture_ArabianSea,Pasture_ArabianSea,2010,3.5784284,2010,1,1
+Pakistan,Pasture,Pasture_HamuMashR,Pasture_HamuMashR,2010,1.1984893,2010,1,1
+Pakistan,Pasture,Pasture_Helmand,Pasture_Helmand,2010,0.5062057,2010,1,1
+Pakistan,Pasture,Pasture_IndusR,Pasture_IndusR,2010,58.6620284,2010,1,1
+Pakistan,Pasture,Pasture_SabarmatiR,Pasture_SabarmatiR,2010,4.7431766,2010,1,1
+Pakistan,Pasture,Pasture_Tarim,Pasture_Tarim,2010,0,2010,0,0
+Russia,Pasture,Pasture_AmurR,Pasture_AmurR,2010,3.8427813,2010,1,1
+Russia,Pasture,Pasture_BalticSea,Pasture_BalticSea,2010,0.132382,2010,1,1
+Russia,Pasture,Pasture_BarentsSea,Pasture_BarentsSea,2010,0.0701443,2010,1,1
+Russia,Pasture,Pasture_BlackSeaN,Pasture_BlackSeaN,2010,0.9420358,2010,1,1
+Russia,Pasture,Pasture_BlackSeaS,Pasture_BlackSeaS,2010,0.0011094,2010,1,1
+Russia,Pasture,Pasture_CaspianNE,Pasture_CaspianNE,2010,2.8438227,2010,1,1
+Russia,Pasture,Pasture_CaspianSW,Pasture_CaspianSW,2010,0.0035309,2010,1,1
+Russia,Pasture,Pasture_DaugavaR,Pasture_DaugavaR,2010,0.5324271,2010,1,1
+Russia,Pasture,Pasture_DnieperR,Pasture_DnieperR,2010,1.7012107,2010,1,1
+Russia,Pasture,Pasture_DonR,Pasture_DonR,2010,5.5054474,2010,1,1
+Russia,Pasture,Pasture_DvinaRN,Pasture_DvinaRN,2010,0.2060883,2010,1,1
+Russia,Pasture,Pasture_Finland,Pasture_Finland,2010,0.0094551,2010,1,1
+Russia,Pasture,Pasture_Gobi,Pasture_Gobi,2010,0.2210734,2010,1,1
+Russia,Pasture,Pasture_KaraSea,Pasture_KaraSea,2010,0.0472658,2010,1,1
+Russia,Pasture,Pasture_LenaR,Pasture_LenaR,2010,0.4291491,2010,1,1
+Russia,Pasture,Pasture_NarvaR,Pasture_NarvaR,2010,0.4235755,2010,1,1
+Russia,Pasture,Pasture_NemanR,Pasture_NemanR,2010,0.0350263,2010,1,1
+Russia,Pasture,Pasture_NevaR,Pasture_NevaR,2010,1.3130457,2010,1,1
+Russia,Pasture,Pasture_ObR,Pasture_ObR,2010,7.7281121,2010,1,1
+Russia,Pasture,Pasture_PolandCst,Pasture_PolandCst,2010,0.1216582,2010,1,1
+Russia,Pasture,Pasture_RusCstSE,Pasture_RusCstSE,2010,0.1119605,2010,1,1
+Russia,Pasture,Pasture_ScndnvN,Pasture_ScndnvN,2010,0.0448975,2010,1,1
+Russia,Pasture,Pasture_SiberiaN,Pasture_SiberiaN,2010,1.26e-05,2010,1,1
+Russia,Pasture,Pasture_SiberiaW,Pasture_SiberiaW,2010,0.1048857,2010,1,1
+Russia,Pasture,Pasture_SyrDaryaR,Pasture_SyrDaryaR,2010,0.1032277,2010,1,1
+Russia,Pasture,Pasture_UralR,Pasture_UralR,2010,1.9864758,2010,1,1
+Russia,Pasture,Pasture_VolgaR,Pasture_VolgaR,2010,15.7621287,2010,1,1
+Russia,Pasture,Pasture_YeniseiR,Pasture_YeniseiR,2010,2.0931743,2010,1,1
+South Africa,Pasture,Pasture_AfrCstS,Pasture_AfrCstS,2010,16.7339783,2010,1,1
+South Africa,Pasture,Pasture_AfrCstSSW,Pasture_AfrCstSSW,2010,5.3909242,2010,1,1
+South Africa,Pasture,Pasture_AfrCstSW,Pasture_AfrCstSW,2010,1.94e-05,2010,1,1
+South Africa,Pasture,Pasture_LimpopoR,Pasture_LimpopoR,2010,9.0690473,2010,1,1
+South Africa,Pasture,Pasture_OrangeR,Pasture_OrangeR,2010,35.4181035,2010,1,1
+South America_Northern,Pasture,Pasture_MagdalenaR,Pasture_MagdalenaR,2010,0.032831,2010,1,1
+South America_Northern,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,2010,17.2333841,2010,1,1
+South America_Northern,Pasture,Pasture_SAmerCstN,Pasture_SAmerCstN,2010,6.3278073,2010,1,1
+South America_Northern,Pasture,Pasture_SAmerCstNE,Pasture_SAmerCstNE,2010,1.9896098,2010,1,1
+South America_Southern,Pasture,Pasture_ArgColoR,Pasture_ArgColoR,2010,0.0002937,2010,1,1
+South America_Southern,Pasture,Pasture_ArgCstS,Pasture_ArgCstS,2010,0.6530744,2010,1,1
+South America_Southern,Pasture,Pasture_BrzCstS,Pasture_BrzCstS,2010,2.0253661,2010,1,1
+South America_Southern,Pasture,Pasture_ChileCstN,Pasture_ChileCstN,2010,2.169016,2010,1,1
+South America_Southern,Pasture,Pasture_ChileCstS,Pasture_ChileCstS,2010,3.5143569,2010,1,1
+South America_Southern,Pasture,Pasture_ColEcuaCst,Pasture_ColEcuaCst,2010,1.7586618,2010,1,1
+South America_Southern,Pasture,Pasture_LaPuna,Pasture_LaPuna,2010,2.3550523,2010,1,1
+South America_Southern,Pasture,Pasture_NegroR,Pasture_NegroR,2010,0.0148467,2010,1,1
+South America_Southern,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,2010,20.5409955,2010,1,1
+South America_Southern,Pasture,Pasture_PeruCst,Pasture_PeruCst,2010,2.3563274,2010,1,1
+South America_Southern,Pasture,Pasture_RioLaPlata,Pasture_RioLaPlata,2010,24.8083728,2010,1,1
+South Asia,Pasture,Pasture_AmuDaryaR,Pasture_AmuDaryaR,2010,5.534319,2010,1,1
+South Asia,Pasture,Pasture_BengalBay,Pasture_BengalBay,2010,0.0677316,2010,1,1
+South Asia,Pasture,Pasture_CaspianE,Pasture_CaspianE,2010,4.0615323,2010,1,1
+South Asia,Pasture,Pasture_FarahrudR,Pasture_FarahrudR,2010,1.5285922,2010,1,1
+South Asia,Pasture,Pasture_GangesR,Pasture_GangesR,2010,1.838437,2010,1,1
+South Asia,Pasture,Pasture_HamuMashR,Pasture_HamuMashR,2010,0.2346326,2010,1,1
+South Asia,Pasture,Pasture_Helmand,Pasture_Helmand,2010,4.4274374,2010,1,1
+South Asia,Pasture,Pasture_IndusR,Pasture_IndusR,2010,1.7544388,2010,1,1
+South Asia,Pasture,Pasture_SriLanka,Pasture_SriLanka,2010,0.4359861,2010,1,1
+South Korea,Pasture,Pasture_Korea,Pasture_Korea,2010,5.8525891,2010,1,1
+Southeast Asia,Pasture,Pasture_BengalBay,Pasture_BengalBay,2010,0.1365379,2010,1,1
+Southeast Asia,Pasture,Pasture_BoHai,Pasture_BoHai,2010,0.1000686,2010,1,1
+Southeast Asia,Pasture,Pasture_BorneoCstN,Pasture_BorneoCstN,2010,0.9619899,2010,1,1
+Southeast Asia,Pasture,Pasture_ChaoPhrR,Pasture_ChaoPhrR,2010,1.922571,2010,1,1
+Southeast Asia,Pasture,Pasture_FlyR,Pasture_FlyR,2010,0.2217424,2010,1,1
+Southeast Asia,Pasture,Pasture_GangesR,Pasture_GangesR,2010,0.0131873,2010,1,1
+Southeast Asia,Pasture,Pasture_Hong,Pasture_Hong,2010,1.6720677,2010,1,1
+Southeast Asia,Pasture,Pasture_IdnE,Pasture_IdnE,2010,0.004021,2010,1,1
+Southeast Asia,Pasture,Pasture_IrianJaya,Pasture_IrianJaya,2010,0.1491848,2010,1,1
+Southeast Asia,Pasture,Pasture_IrrawaddyR,Pasture_IrrawaddyR,2010,1.5278727,2010,1,1
+Southeast Asia,Pasture,Pasture_JavaTimor,Pasture_JavaTimor,2010,1.2076926,2010,1,1
+Southeast Asia,Pasture,Pasture_Kalimantan,Pasture_Kalimantan,2010,0.0384696,2010,1,1
+Southeast Asia,Pasture,Pasture_Korea,Pasture_Korea,2010,0.169335,2010,1,1
+Southeast Asia,Pasture,Pasture_MalaysiaP,Pasture_MalaysiaP,2010,2.6532734,2010,1,1
+Southeast Asia,Pasture,Pasture_Mekong,Pasture_Mekong,2010,20.8735175,2010,1,1
+Southeast Asia,Pasture,Pasture_NewCaledn,Pasture_NewCaledn,2010,0.0022644,2010,1,1
+Southeast Asia,Pasture,Pasture_PapuaCst,Pasture_PapuaCst,2010,0.801896,2010,1,1
+Southeast Asia,Pasture,Pasture_Phlppns,Pasture_Phlppns,2010,11.5883342,2010,1,1
+Southeast Asia,Pasture,Pasture_RusCstSE,Pasture_RusCstSE,2010,0.0524608,2010,1,1
+Southeast Asia,Pasture,Pasture_Salween,Pasture_Salween,2010,0.596858,2010,1,1
+Southeast Asia,Pasture,Pasture_SChinaSea,Pasture_SChinaSea,2010,0.0581378,2010,1,1
+Southeast Asia,Pasture,Pasture_SepikR,Pasture_SepikR,2010,0.348178,2010,1,1
+Southeast Asia,Pasture,Pasture_SittaungR,Pasture_SittaungR,2010,0.191232,2010,1,1
+Southeast Asia,Pasture,Pasture_ThaiGulf,Pasture_ThaiGulf,2010,1.1675944,2010,1,1
+Southeast Asia,Pasture,Pasture_VietnamCst,Pasture_VietnamCst,2010,3.3935947,2010,1,1
+Southeast Asia,Pasture,Pasture_XunJiang,Pasture_XunJiang,2010,0.2655709,2010,1,1
+Argentina,Pasture,Pasture_ArgColoR,Pasture_ArgColoR,2010,4.4385166,2010,1,1
+Argentina,Pasture,Pasture_ArgCstN,Pasture_ArgCstN,2010,11.4106181,2010,1,1
+Argentina,Pasture,Pasture_ArgCstS,Pasture_ArgCstS,2010,44.0535555,2010,1,1
+Argentina,Pasture,Pasture_ChileCstN,Pasture_ChileCstN,2010,1.2e-06,2010,1,1
+Argentina,Pasture,Pasture_ChileCstS,Pasture_ChileCstS,2010,2.4132422,2010,1,1
+Argentina,Pasture,Pasture_LaPuna,Pasture_LaPuna,2010,0.459456,2010,1,1
+Argentina,Pasture,Pasture_MarChiq,Pasture_MarChiq,2010,1.8437394,2010,1,1
+Argentina,Pasture,Pasture_NegroR,Pasture_NegroR,2010,7.9783714,2010,1,1
+Argentina,Pasture,Pasture_Pampas,Pasture_Pampas,2010,4.6360159,2010,1,1
+Argentina,Pasture,Pasture_Patagonia,Pasture_Patagonia,2010,12.4252315,2010,1,1
+Argentina,Pasture,Pasture_RioLaPlata,Pasture_RioLaPlata,2010,27.96647,2010,1,1
+Argentina,Pasture,Pasture_Salinas,Pasture_Salinas,2010,1.9840322,2010,1,1
+Colombia,Pasture,Pasture_ColEcuaCst,Pasture_ColEcuaCst,2010,4.6296053,2010,1,1
+Colombia,Pasture,Pasture_MagdalenaR,Pasture_MagdalenaR,2010,17.9867082,2010,1,1
+Colombia,Pasture,Pasture_OrinocoR,Pasture_OrinocoR,2010,23.928354,2010,1,1
+Colombia,Pasture,Pasture_SAmerCstN,Pasture_SAmerCstN,2010,6.3052806,2010,1,1

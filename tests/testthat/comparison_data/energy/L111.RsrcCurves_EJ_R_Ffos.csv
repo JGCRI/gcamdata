@@ -1,0 +1,838 @@
+# ../energy-data/level1//L111.RsrcCurves_EJ_R_Ffos.csv
+# Written by LA111.rsrc_fos_Prod.R
+# Thu Aug  3 16:20:17 2017
+# " Fossil energy resource curves by GCAM region / resource "
+# " Unit = EJ "
+"GCAM_region_ID","resource","subresource","grade","available","extractioncost"
+1,"coal","coal","grade 1",284,0.34
+2,"coal","coal","grade 1",0.0624070328887529,0.34
+3,"coal","coal","grade 1",0.159599679605159,0.34
+4,"coal","coal","grade 1",1.68521426231225,0.34
+5,"coal","coal","grade 1",0.136438520713273,0.34
+6,"coal","coal","grade 1",57,0.34
+7,"coal","coal","grade 1",0.949946864724359,0.34
+8,"coal","coal","grade 1",20,0.34
+9,"coal","coal","grade 1",0,0.34
+10,"coal","coal","grade 1",27.2468906592387,0.34
+11,"coal","coal","grade 1",281.411523266651,0.34
+12,"coal","coal","grade 1",84.1476893439796,0.34
+13,"coal","coal","grade 1",109.979306534933,0.34
+14,"coal","coal","grade 1",30.4213281475926,0.34
+15,"coal","coal","grade 1",11.5051482351654,0.34
+16,"coal","coal","grade 1",0.399951945744638,0.34
+17,"coal","coal","grade 1",55,0.34
+18,"coal","coal","grade 1",5.04465525756066,0.34
+19,"coal","coal","grade 1",2,0.34
+20,"coal","coal","grade 1",1.51095823066892,0.34
+21,"coal","coal","grade 1",0,0.34
+22,"coal","coal","grade 1",0.150451865494021,0.34
+23,"coal","coal","grade 1",98.2367699029822,0.34
+24,"coal","coal","grade 1",53.9562583524407,0.34
+25,"coal","coal","grade 1",0.905238657360389,0.34
+26,"coal","coal","grade 1",0.336261415743546,0.34
+27,"coal","coal","grade 1",0.0613698317841935,0.34
+28,"coal","coal","grade 1",4,0.34
+29,"coal","coal","grade 1",13.2822991076178,0.34
+30,"coal","coal","grade 1",0.112698053296773,0.34
+31,"coal","coal","grade 1",0.0872360530940627,0.34
+32,"coal","coal","grade 1",7.21035877840873,0.34
+1,"crude oil","crude oil","grade 1",297,0.5
+2,"crude oil","crude oil","grade 1",3.98824731156834,0.5
+3,"crude oil","crude oil","grade 1",97.1081511833003,0.5
+4,"crude oil","crude oil","grade 1",16.7744034528095,0.5
+5,"crude oil","crude oil","grade 1",69.9741625600954,0.5
+6,"crude oil","crude oil","grade 1",18,0.5
+7,"crude oil","crude oil","grade 1",22.0809772664198,0.5
+8,"crude oil","crude oil","grade 1",55,0.5
+9,"crude oil","crude oil","grade 1",5.6124889198515,0.5
+10,"crude oil","crude oil","grade 1",40.6174269002883,0.5
+11,"crude oil","crude oil","grade 1",78.9351130364331,0.5
+12,"crude oil","crude oil","grade 1",9.30295659233829,0.5
+13,"crude oil","crude oil","grade 1",45.819182843912,0.5
+14,"crude oil","crude oil","grade 1",33.3499797984192,0.5
+15,"crude oil","crude oil","grade 1",2.95419961870129,0.5
+16,"crude oil","crude oil","grade 1",33.0440179881721,0.5
+17,"crude oil","crude oil","grade 1",21,0.5
+18,"crude oil","crude oil","grade 1",43.8384163655745,0.5
+19,"crude oil","crude oil","grade 1",0.2,0.5
+20,"crude oil","crude oil","grade 1",72.9565035075569,0.5
+21,"crude oil","crude oil","grade 1",601,0.5
+22,"crude oil","crude oil","grade 1",1.3466992212011,0.5
+23,"crude oil","crude oil","grade 1",225.927002112756,0.5
+24,"crude oil","crude oil","grade 1",0.153510964971582,0.5
+25,"crude oil","crude oil","grade 1",79.8631068784744,0.5
+26,"crude oil","crude oil","grade 1",13.7558197383831,0.5
+27,"crude oil","crude oil","grade 1",0.983930333450647,0.5
+28,"crude oil","crude oil","grade 1",0.1,0.5
+29,"crude oil","crude oil","grade 1",30.8170364116861,0.5
+30,"crude oil","crude oil","grade 1",0.0653596231348326,0.5
+31,"crude oil","crude oil","grade 1",16.5456872036686,0.5
+32,"crude oil","crude oil","grade 1",11.1856201668331,0.5
+1,"natural gas","natural gas","grade 1",207,0.62
+2,"natural gas","natural gas","grade 1",0.102264952851075,0.62
+3,"natural gas","natural gas","grade 1",25.807732133011,0.62
+4,"natural gas","natural gas","grade 1",0.348019005890044,0.62
+5,"natural gas","natural gas","grade 1",3.4201441137463,0.62
+6,"natural gas","natural gas","grade 1",10,0.62
+7,"natural gas","natural gas","grade 1",1.74558296317581,0.62
+8,"natural gas","natural gas","grade 1",44,0.62
+9,"natural gas","natural gas","grade 1",4.3673272027451,0.62
+10,"natural gas","natural gas","grade 1",51.4798584578252,0.62
+11,"natural gas","natural gas","grade 1",5.64027541591816,0.62
+12,"natural gas","natural gas","grade 1",16.8445309685782,0.62
+13,"natural gas","natural gas","grade 1",63.1325245977383,0.62
+14,"natural gas","natural gas","grade 1",27.7804521511555,0.62
+15,"natural gas","natural gas","grade 1",0.96092667156173,0.62
+16,"natural gas","natural gas","grade 1",14.7635826888867,0.62
+17,"natural gas","natural gas","grade 1",5,0.62
+18,"natural gas","natural gas","grade 1",17.692017095234,0.62
+19,"natural gas","natural gas","grade 1",1,0.62
+20,"natural gas","natural gas","grade 1",9.88880749686294,0.62
+21,"natural gas","natural gas","grade 1",41,0.62
+22,"natural gas","natural gas","grade 1",5.57214147431466,0.62
+23,"natural gas","natural gas","grade 1",244.038072067315,0.62
+24,"natural gas","natural gas","grade 1",0.321732484554725,0.62
+25,"natural gas","natural gas","grade 1",8.18586415841771,0.62
+26,"natural gas","natural gas","grade 1",2.63300069770492,0.62
+27,"natural gas","natural gas","grade 1",2.79864814838656,0.62
+28,"natural gas","natural gas","grade 1",5,0.62
+29,"natural gas","natural gas","grade 1",18.8791978140736,0.62
+30,"natural gas","natural gas","grade 1",0.417827362019828,0.62
+31,"natural gas","natural gas","grade 1",8.53855669892982,0.62
+32,"natural gas","natural gas","grade 1",1.64091317910315,0.62
+1,"unconventional oil","unconventional oil","grade 1",4397,1.8
+2,"unconventional oil","unconventional oil","grade 1",10.6706829665898,1.8
+3,"unconventional oil","unconventional oil","grade 1",259.815957687234,1.8
+4,"unconventional oil","unconventional oil","grade 1",44.8804517912935,1.8
+5,"unconventional oil","unconventional oil","grade 1",187.218105147489,1.8
+6,"unconventional oil","unconventional oil","grade 1",1320,1.8
+7,"unconventional oil","unconventional oil","grade 1",298.78944012759,1.8
+8,"unconventional oil","unconventional oil","grade 1",803,1.8
+9,"unconventional oil","unconventional oil","grade 1",75.9495529738246,1.8
+10,"unconventional oil","unconventional oil","grade 1",519.484723599824,1.8
+11,"unconventional oil","unconventional oil","grade 1",1913.3988267954,1.8
+12,"unconventional oil","unconventional oil","grade 1",156.590584206971,1.8
+13,"unconventional oil","unconventional oil","grade 1",689.575028899854,1.8
+14,"unconventional oil","unconventional oil","grade 1",426.395451284079,1.8
+15,"unconventional oil","unconventional oil","grade 1",51.4130400662504,1.8
+16,"unconventional oil","unconventional oil","grade 1",497.312470721991,1.8
+17,"unconventional oil","unconventional oil","grade 1",1509,1.8
+18,"unconventional oil","unconventional oil","grade 1",906.194113639066,1.8
+19,"unconventional oil","unconventional oil","grade 1",146,1.8
+20,"unconventional oil","unconventional oil","grade 1",987.213227642797,1.8
+21,"unconventional oil","unconventional oil","grade 1",6009,1.8
+22,"unconventional oil","unconventional oil","grade 1",27.837933216335,1.8
+23,"unconventional oil","unconventional oil","grade 1",2888.58483889379,1.8
+24,"unconventional oil","unconventional oil","grade 1",0.410723486067583,1.8
+25,"unconventional oil","unconventional oil","grade 1",1080.67014893215,1.8
+26,"unconventional oil","unconventional oil","grade 1",186.137308531995,1.8
+27,"unconventional oil","unconventional oil","grade 1",20.3390530572195,1.8
+28,"unconventional oil","unconventional oil","grade 1",0,1.8
+29,"unconventional oil","unconventional oil","grade 1",651.520212247102,1.8
+30,"unconventional oil","unconventional oil","grade 1",1.35106399055428,1.8
+31,"unconventional oil","unconventional oil","grade 1",223.888488107299,1.8
+32,"unconventional oil","unconventional oil","grade 1",151.358571987237,1.8
+1,"coal","coal","grade 2",6851,0.37
+2,"coal","coal","grade 2",1.18016156837838,0.37
+3,"coal","coal","grade 2",3.01814394110471,0.37
+4,"coal","coal","grade 2",31.8686054247976,0.37
+5,"coal","coal","grade 2",2.58014988277421,0.37
+6,"coal","coal","grade 2",1186,0.37
+7,"coal","coal","grade 2",10.0176214825478,0.37
+8,"coal","coal","grade 2",293,0.37
+9,"coal","coal","grade 2",0,0.37
+10,"coal","coal","grade 2",1475.70455842365,0.37
+11,"coal","coal","grade 2",6708.23243589016,0.37
+12,"coal","coal","grade 2",535.344305081022,0.37
+13,"coal","coal","grade 2",2475.00439407246,0.37
+14,"coal","coal","grade 2",1680.48957007714,0.37
+15,"coal","coal","grade 2",171.145194454012,0.37
+16,"coal","coal","grade 2",9.00062797560368,0.37
+17,"coal","coal","grade 2",1018,0.37
+18,"coal","coal","grade 2",855.909842032792,0.37
+19,"coal","coal","grade 2",336,0.37
+20,"coal","coal","grade 2",15.9337413415995,0.37
+21,"coal","coal","grade 2",2,0.37
+22,"coal","coal","grade 2",25.5266665121523,0.37
+23,"coal","coal","grade 2",5426.64890957739,0.37
+24,"coal","coal","grade 2",1020.35138562919,0.37
+25,"coal","coal","grade 2",9.54615311398228,0.37
+26,"coal","coal","grade 2",3.54602947511375,0.37
+27,"coal","coal","grade 2",10.4124147927182,0.37
+28,"coal","coal","grade 2",17,0.37
+29,"coal","coal","grade 2",408.46153162196,0.37
+30,"coal","coal","grade 2",19.1211030426858,0.37
+31,"coal","coal","grade 2",0.919943832628297,0.37
+32,"coal","coal","grade 2",76.0365107541284,0.37
+1,"crude oil","crude oil","grade 2",262,0.55
+2,"crude oil","crude oil","grade 2",4.24281628890249,0.55
+3,"crude oil","crude oil","grade 2",103.306543812022,0.55
+4,"crude oil","crude oil","grade 2",17.8451100561803,0.55
+5,"crude oil","crude oil","grade 2",74.4405984681866,0.55
+6,"crude oil","crude oil","grade 2",5,0.55
+7,"crude oil","crude oil","grade 2",27.9493450984863,0.55
+8,"crude oil","crude oil","grade 2",115,0.55
+9,"crude oil","crude oil","grade 2",7.10372717718133,0.55
+10,"crude oil","crude oil","grade 2",47.5889321530894,0.55
+11,"crude oil","crude oil","grade 2",96.9942894553856,0.55
+12,"crude oil","crude oil","grade 2",9.06569888330412,0.55
+13,"crude oil","crude oil","grade 2",51.5469211863691,0.55
+14,"crude oil","crude oil","grade 2",39.0734086747156,0.55
+15,"crude oil","crude oil","grade 2",2.86907353804575,0.55
+16,"crude oil","crude oil","grade 2",37.1745202366937,0.55
+17,"crude oil","crude oil","grade 2",48,0.55
+18,"crude oil","crude oil","grade 2",28.8252600759942,0.55
+19,"crude oil","crude oil","grade 2",0.2,0.55
+20,"crude oil","crude oil","grade 2",92.3458445298355,0.55
+21,"crude oil","crude oil","grade 2",557,0.55
+22,"crude oil","crude oil","grade 2",0.885500857776064,0.55
+23,"crude oil","crude oil","grade 2",264.699952970391,0.55
+24,"crude oil","crude oil","grade 2",0.163309537203811,0.55
+25,"crude oil","crude oil","grade 2",101.087986634465,0.55
+26,"crude oil","crude oil","grade 2",17.4116457048904,0.55
+27,"crude oil","crude oil","grade 2",0.646967890488096,0.55
+28,"crude oil","crude oil","grade 2",0.1,0.55
+29,"crude oil","crude oil","grade 2",22.5882310703308,0.55
+30,"crude oil","crude oil","grade 2",0.0429761905544105,0.55
+31,"crude oil","crude oil","grade 2",20.9429644334724,0.55
+32,"crude oil","crude oil","grade 2",14.1583750760365,0.55
+1,"natural gas","natural gas","grade 2",778,0.68
+2,"natural gas","natural gas","grade 2",0.661313361770288,0.68
+3,"natural gas","natural gas","grade 2",166.890001126804,0.68
+4,"natural gas","natural gas","grade 2",2.25052290475562,0.68
+5,"natural gas","natural gas","grade 2",22.1169319355594,0.68
+6,"natural gas","natural gas","grade 2",67,0.68
+7,"natural gas","natural gas","grade 2",11.1339886299863,0.68
+8,"natural gas","natural gas","grade 2",279,0.68
+9,"natural gas","natural gas","grade 2",27.8564627923135,0.68
+10,"natural gas","natural gas","grade 2",328.520696743168,0.68
+11,"natural gas","natural gas","grade 2",37.599417368498,0.68
+12,"natural gas","natural gas","grade 2",106.448578781306,0.68
+13,"natural gas","natural gas","grade 2",401.458106726604,0.68
+14,"natural gas","natural gas","grade 2",177.282023881528,0.68
+15,"natural gas","natural gas","grade 2",6.07067552637546,0.68
+16,"natural gas","natural gas","grade 2",93.8812437652281,0.68
+17,"natural gas","natural gas","grade 2",32,0.68
+18,"natural gas","natural gas","grade 2",112.835753474048,0.68
+19,"natural gas","natural gas","grade 2",6,0.68
+20,"natural gas","natural gas","grade 2",63.0745559259366,0.68
+21,"natural gas","natural gas","grade 2",810,0.68
+22,"natural gas","natural gas","grade 2",35.537880069518,0.68
+23,"natural gas","natural gas","grade 2",1557.33834297726,0.68
+24,"natural gas","natural gas","grade 2",2.08053673345389,0.68
+25,"natural gas","natural gas","grade 2",52.2125389563941,0.68
+26,"natural gas","natural gas","grade 2",16.7942747204962,0.68
+27,"natural gas","natural gas","grade 2",17.8491559685988,0.68
+28,"natural gas","natural gas","grade 2",0,0.68
+29,"natural gas","natural gas","grade 2",120.513676992556,0.68
+30,"natural gas","natural gas","grade 2",2.66481006443757,0.68
+31,"natural gas","natural gas","grade 2",54.4621454310118,0.68
+32,"natural gas","natural gas","grade 2",10.4663651423877,0.68
+1,"unconventional oil","unconventional oil","grade 2",8594,2.1
+2,"unconventional oil","unconventional oil","grade 2",20.8534420599557,2.1
+3,"unconventional oil","unconventional oil","grade 2",507.751662836086,2.1
+4,"unconventional oil","unconventional oil","grade 2",87.7087159261262,2.1
+5,"unconventional oil","unconventional oil","grade 2",365.875541471137,2.1
+6,"unconventional oil","unconventional oil","grade 2",2578,2.1
+7,"unconventional oil","unconventional oil","grade 2",584.15125894452,2.1
+8,"unconventional oil","unconventional oil","grade 2",1570,2.1
+9,"unconventional oil","unconventional oil","grade 2",148.485963286051,2.1
+10,"unconventional oil","unconventional oil","grade 2",1015.77077368154,2.1
+11,"unconventional oil","unconventional oil","grade 2",3740.25731117501,2.1
+12,"unconventional oil","unconventional oil","grade 2",305.98986574128,2.1
+13,"unconventional oil","unconventional oil","grade 2",1348.79498072978,2.1
+14,"unconventional oil","unconventional oil","grade 2",833.74949496048,2.1
+15,"unconventional oil","unconventional oil","grade 2",100.482682007067,2.1
+16,"unconventional oil","unconventional oil","grade 2",972.733279526818,2.1
+17,"unconventional oil","unconventional oil","grade 2",2950,2.1
+18,"unconventional oil","unconventional oil","grade 2",1771.55244217047,2.1
+19,"unconventional oil","unconventional oil","grade 2",287,2.1
+20,"unconventional oil","unconventional oil","grade 2",1930.06101396343,2.1
+21,"unconventional oil","unconventional oil","grade 2",11745,2.1
+22,"unconventional oil","unconventional oil","grade 2",54.4214068841539,2.1
+23,"unconventional oil","unconventional oil","grade 2",5648.1750528189,2.1
+24,"unconventional oil","unconventional oil","grade 2",0.802666375356729,2.1
+25,"unconventional oil","unconventional oil","grade 2",2112.77489503279,2.1
+26,"unconventional oil","unconventional oil","grade 2",363.909591547406,2.1
+27,"unconventional oil","unconventional oil","grade 2",39.7615682695809,2.1
+28,"unconventional oil","unconventional oil","grade 2",0,2.1
+29,"unconventional oil","unconventional oil","grade 2",1273.66465821894,2.1
+30,"unconventional oil","unconventional oil","grade 2",2.64124504448981,2.1
+31,"unconventional oil","unconventional oil","grade 2",437.715409671827,2.1
+32,"unconventional oil","unconventional oil","grade 2",295.915077656806,2.1
+1,"coal","coal","grade 3",9469,1.2
+2,"coal","coal","grade 3",0.805719371045863,1.2
+3,"coal","coal","grade 3",2.06054586347375,1.2
+4,"coal","coal","grade 3",21.7573198509242,1.2
+5,"coal","coal","grade 3",1.76151875849458,1.2
+6,"coal","coal","grade 3",1753,1.2
+7,"coal","coal","grade 3",12.4356680473007,1.2
+8,"coal","coal","grade 3",293,1.2
+9,"coal","coal","grade 3",0,1.2
+10,"coal","coal","grade 3",2580.35056864577,1.2
+11,"coal","coal","grade 3",4598.03373536806,1.2
+12,"coal","coal","grade 3",945.478126197621,1.2
+13,"coal","coal","grade 3",2474.06439999951,1.2
+14,"coal","coal","grade 3",2965.88695433871,1.2
+15,"coal","coal","grade 3",188.070439571252,1.2
+16,"coal","coal","grade 3",8.99720958290501,1.2
+17,"coal","coal","grade 3",434,1.2
+18,"coal","coal","grade 3",364.896730296888,1.2
+19,"coal","coal","grade 3",496,1.2
+20,"coal","coal","grade 3",19.7798168378476,1.2
+21,"coal","coal","grade 3",2,1.2
+22,"coal","coal","grade 3",10.8826849374009,1.2
+23,"coal","coal","grade 3",9577.46331383251,1.2
+24,"coal","coal","grade 3",696.613835514547,1.2
+25,"coal","coal","grade 3",11.8503969690815,1.2
+26,"coal","coal","grade 3",4.40196762427914,1.2
+27,"coal","coal","grade 3",4.43908449905667,1.2
+28,"coal","coal","grade 3",0,1.2
+29,"coal","coal","grade 3",252.28598751669,1.2
+30,"coal","coal","grade 3",8.15182585513324,1.2
+31,"coal","coal","grade 3",1.14199924050409,1.2
+32,"coal","coal","grade 3",94.390151280987,1.2
+1,"crude oil","crude oil","grade 3",504.5,0.92
+2,"crude oil","crude oil","grade 3",7.27642993546777,0.92
+3,"crude oil","crude oil","grade 3",177.170722637617,0.92
+4,"crude oil","crude oil","grade 3",30.6043637463492,0.92
+5,"crude oil","crude oil","grade 3",127.66562637294,0.92
+6,"crude oil","crude oil","grade 3",15,0.92
+7,"crude oil","crude oil","grade 3",22.8766881589034,0.92
+8,"crude oil","crude oil","grade 3",226.5,0.92
+9,"crude oil","crude oil","grade 3",5.816121424885,0.92
+10,"crude oil","crude oil","grade 3",96.5732472029446,0.92
+11,"crude oil","crude oil","grade 3",132.67393450249,0.92
+12,"crude oil","crude oil","grade 3",20.5579344600401,0.92
+13,"crude oil","crude oil","grade 3",71.5911997723519,0.92
+14,"crude oil","crude oil","grade 3",79.3025097186833,0.92
+15,"crude oil","crude oil","grade 3",5.63833922845547,0.92
+16,"crude oil","crude oil","grade 3",51.631278106519,0.92
+17,"crude oil","crude oil","grade 3",120.5,0.92
+18,"crude oil","crude oil","grade 3",87.9770958569405,0.92
+19,"crude oil","crude oil","grade 3",0.2,0.92
+20,"crude oil","crude oil","grade 3",75.5855666970184,0.92
+21,"crude oil","crude oil","grade 3",785.5,0.92
+22,"crude oil","crude oil","grade 3",2.70262240967069,0.92
+23,"crude oil","crude oil","grade 3",537.229059479342,0.92
+24,"crude oil","crude oil","grade 3",0.280075856304535,0.92
+25,"crude oil","crude oil","grade 3",82.7410566758969,0.92
+26,"crude oil","crude oil","grade 3",14.2515249541807,0.92
+27,"crude oil","crude oil","grade 3",1.97459991576054,0.92
+28,"crude oil","crude oil","grade 3",0.1,0.92
+29,"crude oil","crude oil","grade 3",60.5182022100854,0.92
+30,"crude oil","crude oil","grade 3",0.131166914921274,0.92
+31,"crude oil","crude oil","grade 3",17.141928183981,0.92
+32,"crude oil","crude oil","grade 3",11.5887055782505,0.92
+1,"natural gas","natural gas","grade 3",575,1.1
+2,"natural gas","natural gas","grade 3",1.14195864017034,1.1
+3,"natural gas","natural gas","grade 3",288.186342151956,1.1
+4,"natural gas","natural gas","grade 3",3.88621223243883,1.1
+5,"natural gas","natural gas","grade 3",38.1916092701671,1.1
+6,"natural gas","natural gas","grade 3",46,1.1
+7,"natural gas","natural gas","grade 3",17.5501854676055,1.1
+8,"natural gas","natural gas","grade 3",119,1.1
+9,"natural gas","natural gas","grade 3",43.9084711576584,1.1
+10,"natural gas","natural gas","grade 3",223.184986360233,1.1
+11,"natural gas","natural gas","grade 3",160.565234663125,1.1
+12,"natural gas","natural gas","grade 3",31.0379681365753,1.1
+13,"natural gas","natural gas","grade 3",225.011325353954,1.1
+14,"natural gas","natural gas","grade 3",120.438944864548,1.1
+15,"natural gas","natural gas","grade 3",1.70929496794976,1.1
+16,"natural gas","natural gas","grade 3",52.6189229168012,1.1
+17,"natural gas","natural gas","grade 3",301,1.1
+18,"natural gas","natural gas","grade 3",118.339936570343,1.1
+19,"natural gas","natural gas","grade 3",23,1.1
+20,"natural gas","natural gas","grade 3",99.422605103595,1.1
+21,"natural gas","natural gas","grade 3",735,1.1
+22,"natural gas","natural gas","grade 3",37.2714351948603,1.1
+23,"natural gas","natural gas","grade 3",1057.99890320876,1.1
+24,"natural gas","natural gas","grade 3",3.5926794108611,1.1
+25,"natural gas","natural gas","grade 3",82.3011207278754,1.1
+26,"natural gas","natural gas","grade 3",26.4723313390873,1.1
+27,"natural gas","natural gas","grade 3",18.7198465036524,1.1
+28,"natural gas","natural gas","grade 3",0,1.1
+29,"natural gas","natural gas","grade 3",134.309944563137,1.1
+30,"natural gas","natural gas","grade 3",2.79480079928818,1.1
+31,"natural gas","natural gas","grade 3",85.8471105946458,1.1
+32,"natural gas","natural gas","grade 3",16.4978298007128,1.1
+1,"unconventional oil","unconventional oil","grade 3",2338.38,3.6
+2,"unconventional oil","unconventional oil","grade 3",5.67434250477819,3.6
+3,"unconventional oil","unconventional oil","grade 3",138.162171694198,3.6
+4,"unconventional oil","unconventional oil","grade 3",23.8660501891355,3.6
+5,"unconventional oil","unconventional oil","grade 3",99.5568563913528,3.6
+6,"unconventional oil","unconventional oil","grade 3",701.64,3.6
+7,"unconventional oil","unconventional oil","grade 3",158.92932583298,3.6
+8,"unconventional oil","unconventional oil","grade 3",427.14,3.6
+9,"unconventional oil","unconventional oil","grade 3",40.3983929267776,3.6
+10,"unconventional oil","unconventional oil","grade 3",276.345989510645,3.6
+11,"unconventional oil","unconventional oil","grade 3",1017.65810483467,3.6
+12,"unconventional oil","unconventional oil","grade 3",83.2644809906852,3.6
+13,"unconventional oil","unconventional oil","grade 3",366.906601733334,3.6
+14,"unconventional oil","unconventional oil","grade 3",226.826090324021,3.6
+15,"unconventional oil","unconventional oil","grade 3",27.3412299731971,3.6
+16,"unconventional oil","unconventional oil","grade 3",264.608235044785,3.6
+17,"unconventional oil","unconventional oil","grade 3",802.62,3.6
+18,"unconventional oil","unconventional oil","grade 3",481.994380045717,3.6
+19,"unconventional oil","unconventional oil","grade 3",77.94,3.6
+20,"unconventional oil","unconventional oil","grade 3",525.109363489121,3.6
+21,"unconventional oil","unconventional oil","grade 3",3195.72,3.6
+22,"unconventional oil","unconventional oil","grade 3",14.806681218088,3.6
+23,"unconventional oil","unconventional oil","grade 3",1536.61678050828,3.6
+24,"unconventional oil","unconventional oil","grade 3",0.218410175056376,3.6
+25,"unconventional oil","unconventional oil","grade 3",574.820107913689,3.6
+26,"unconventional oil","unconventional oil","grade 3",99.0084420142922,3.6
+27,"unconventional oil","unconventional oil","grade 3",10.8181118388241,3.6
+28,"unconventional oil","unconventional oil","grade 3",0,3.6
+29,"unconventional oil","unconventional oil","grade 3",346.533276683887,3.6
+30,"unconventional oil","unconventional oil","grade 3",0.718615626307936,3.6
+31,"unconventional oil","unconventional oil","grade 3",119.088701600243,3.6
+32,"unconventional oil","unconventional oil","grade 3",80.5092569359279,3.6
+1,"coal","coal","grade 4",13456,1.7
+2,"coal","coal","grade 4",1.14338599542608,1.7
+3,"coal","coal","grade 4",2.92409412990881,1.7
+4,"coal","coal","grade 4",30.8755327345065,1.7
+5,"coal","coal","grade 4",2.49974861163961,1.7
+6,"coal","coal","grade 4",2491,1.7
+7,"coal","coal","grade 4",17.7035552062267,1.7
+8,"coal","coal","grade 4",415,1.7
+9,"coal","coal","grade 4",0,1.7
+10,"coal","coal","grade 4",3666.82998946981,1.7
+11,"coal","coal","grade 4",6533.5959542601,1.7
+12,"coal","coal","grade 4",1343.47691469223,1.7
+13,"coal","coal","grade 4",3515.57783282606,1.7
+14,"coal","coal","grade 4",4214.70172880255,1.7
+15,"coal","coal","grade 4",267.240101443818,1.7
+16,"coal","coal","grade 4",12.7847886930337,1.7
+17,"coal","coal","grade 4",616,1.7
+18,"coal","coal","grade 4",517.917939776228,1.7
+19,"coal","coal","grade 4",704,1.7
+20,"coal","coal","grade 4",28.1587670261025,1.7
+21,"coal","coal","grade 4",3,1.7
+22,"coal","coal","grade 4",15.4463915240528,1.7
+23,"coal","coal","grade 4",13610.1448935208,1.7
+24,"coal","coal","grade 4",988.555733385789,1.7
+25,"coal","coal","grade 4",16.8703567962618,1.7
+26,"coal","coal","grade 4",6.26669002067517,1.7
+27,"coal","coal","grade 4",6.3006360631772,1.7
+28,"coal","coal","grade 4",0,1.7
+29,"coal","coal","grade 4",358.41400059911,1.7
+30,"coal","coal","grade 4",11.570333471802,1.7
+31,"coal","coal","grade 4",1.62576280766208,1.7
+32,"coal","coal","grade 4",134.374868143072,1.7
+1,"crude oil","crude oil","grade 4",374.5,1.3
+2,"crude oil","crude oil","grade 4",8.3583480891379,1.3
+3,"crude oil","crude oil","grade 4",203.513891309682,1.3
+4,"crude oil","crude oil","grade 4",35.1548668106752,1.3
+5,"crude oil","crude oil","grade 4",146.647978982328,1.3
+6,"crude oil","crude oil","grade 4",16,1.3
+7,"crude oil","crude oil","grade 4",45.6539124562463,1.3
+8,"crude oil","crude oil","grade 4",235.5,1.3
+9,"crude oil","crude oil","grade 4",11.6030066490444,1.3
+10,"crude oil","crude oil","grade 4",94.1682539110311,1.3
+11,"crude oil","crude oil","grade 4",169.743836797141,1.3
+12,"crude oil","crude oil","grade 4",19.5997551315281,1.3
+13,"crude oil","crude oil","grade 4",73.8845330620785,1.3
+14,"crude oil","crude oil","grade 4",77.3213227999653,1.3
+15,"crude oil","crude oil","grade 4",5.46796848629529,1.3
+16,"crude oil","crude oil","grade 4",53.2834790059276,1.3
+17,"crude oil","crude oil","grade 4",73.5,1.3
+18,"crude oil","crude oil","grade 4",59.7523620325296,1.3
+19,"crude oil","crude oil","grade 4",0.2,1.3
+20,"crude oil","crude oil","grade 4",150.842500495354,1.3
+21,"crude oil","crude oil","grade 4",752.5,1.3
+22,"crude oil","crude oil","grade 4",1.83556948643163,1.3
+23,"crude oil","crude oil","grade 4",523.807653413238,1.3
+24,"crude oil","crude oil","grade 4",0.321719788291507,1.3
+25,"crude oil","crude oil","grade 4",165.122369627116,1.3
+26,"crude oil","crude oil","grade 4",28.4410867563867,1.3
+27,"crude oil","crude oil","grade 4",1.34111052299095,1.3
+28,"crude oil","crude oil","grade 4",0.1,1.3
+29,"crude oil","crude oil","grade 4",45.2090365994142,1.3
+30,"crude oil","crude oil","grade 4",0.08908606167008,1.3
+31,"crude oil","crude oil","grade 4",34.2093262454229,1.3
+32,"crude oil","crude oil","grade 4",23.1270254800739,1.3
+1,"natural gas","natural gas","grade 4",1431,1.7
+2,"natural gas","natural gas","grade 4",2.51912667189816,1.7
+3,"natural gas","natural gas","grade 4",635.730468209838,1.7
+4,"natural gas","natural gas","grade 4",8.57286817842476,1.7
+5,"natural gas","natural gas","grade 4",84.2495500019506,1.7
+6,"natural gas","natural gas","grade 4",99,1.7
+7,"natural gas","natural gas","grade 4",36.9403097342341,1.7
+8,"natural gas","natural gas","grade 4",279,1.7
+9,"natural gas","natural gas","grade 4",92.42035640015,1.7
+10,"natural gas","natural gas","grade 4",220.016995070521,1.7
+11,"natural gas","natural gas","grade 4",355.811604056314,1.7
+12,"natural gas","natural gas","grade 4",29.9868211215428,1.7
+13,"natural gas","natural gas","grade 4",523.677253497759,1.7
+14,"natural gas","natural gas","grade 4",118.729378578323,1.7
+15,"natural gas","natural gas","grade 4",2.14697164466088,1.7
+16,"natural gas","natural gas","grade 4",122.462025637304,1.7
+17,"natural gas","natural gas","grade 4",339,1.7
+18,"natural gas","natural gas","grade 4",133.27986211743,1.7
+19,"natural gas","natural gas","grade 4",51,1.7
+20,"natural gas","natural gas","grade 4",209.268547839018,1.7
+21,"natural gas","natural gas","grade 4",2252,1.7
+22,"natural gas","natural gas","grade 4",41.9767991065038,1.7
+23,"natural gas","natural gas","grade 4",1042.98117569692,1.7
+24,"natural gas","natural gas","grade 4",7.92534353619806,1.7
+25,"natural gas","natural gas","grade 4",173.230584757867,1.7
+26,"natural gas","natural gas","grade 4",55.7199877379176,1.7
+27,"natural gas","natural gas","grade 4",21.0831493845121,1.7
+28,"natural gas","natural gas","grade 4",0,1.7
+29,"natural gas","natural gas","grade 4",162.703595943048,1.7
+30,"natural gas","natural gas","grade 4",3.1476327938827,1.7
+31,"natural gas","natural gas","grade 4",180.694321493569,1.7
+32,"natural gas","natural gas","grade 4",34.7252707902099,1.7
+1,"unconventional oil","unconventional oil","grade 4",0,4.7
+2,"unconventional oil","unconventional oil","grade 4",0,4.7
+3,"unconventional oil","unconventional oil","grade 4",0,4.7
+4,"unconventional oil","unconventional oil","grade 4",0,4.7
+5,"unconventional oil","unconventional oil","grade 4",0,4.7
+6,"unconventional oil","unconventional oil","grade 4",0,4.7
+7,"unconventional oil","unconventional oil","grade 4",0,4.7
+8,"unconventional oil","unconventional oil","grade 4",0,4.7
+9,"unconventional oil","unconventional oil","grade 4",0,4.7
+10,"unconventional oil","unconventional oil","grade 4",0,4.7
+11,"unconventional oil","unconventional oil","grade 4",0,4.7
+12,"unconventional oil","unconventional oil","grade 4",0,4.7
+13,"unconventional oil","unconventional oil","grade 4",0,4.7
+14,"unconventional oil","unconventional oil","grade 4",0,4.7
+15,"unconventional oil","unconventional oil","grade 4",0,4.7
+16,"unconventional oil","unconventional oil","grade 4",0,4.7
+17,"unconventional oil","unconventional oil","grade 4",0,4.7
+18,"unconventional oil","unconventional oil","grade 4",0,4.7
+19,"unconventional oil","unconventional oil","grade 4",0,4.7
+20,"unconventional oil","unconventional oil","grade 4",0,4.7
+21,"unconventional oil","unconventional oil","grade 4",0,4.7
+22,"unconventional oil","unconventional oil","grade 4",0,4.7
+23,"unconventional oil","unconventional oil","grade 4",0,4.7
+24,"unconventional oil","unconventional oil","grade 4",0,4.7
+25,"unconventional oil","unconventional oil","grade 4",0,4.7
+26,"unconventional oil","unconventional oil","grade 4",0,4.7
+27,"unconventional oil","unconventional oil","grade 4",0,4.7
+28,"unconventional oil","unconventional oil","grade 4",0,4.7
+29,"unconventional oil","unconventional oil","grade 4",0,4.7
+30,"unconventional oil","unconventional oil","grade 4",0,4.7
+31,"unconventional oil","unconventional oil","grade 4",0,4.7
+32,"unconventional oil","unconventional oil","grade 4",0,4.7
+1,"coal","coal","grade 5",18440,2
+2,"coal","coal","grade 5",1.56686229002833,2
+3,"coal","coal","grade 5",4.00709195580096,2
+4,"coal","coal","grade 5",42.3109152287682,2
+5,"coal","coal","grade 5",3.42558143076539,2
+6,"coal","coal","grade 5",3414,2
+7,"coal","coal","grade 5",24.1804656475291,2
+8,"coal","coal","grade 5",569,2
+9,"coal","coal","grade 5",0,2
+10,"coal","coal","grade 5",5024.85156559792,2
+11,"coal","coal","grade 5",8954.7183607314,2
+12,"coal","coal","grade 5",1840.49420278326,2
+13,"coal","coal","grade 5",4817.46962385924,2
+14,"coal","coal","grade 5",5775.62392685656,2
+15,"coal","coal","grade 5",366.173781071061,2
+16,"coal","coal","grade 5",17.5192625806946,2
+17,"coal","coal","grade 5",845,2
+18,"coal","coal","grade 5",710.455615439792,2
+19,"coal","coal","grade 5",965,2
+20,"coal","coal","grade 5",38.4607549624815,2
+21,"coal","coal","grade 5",4,2
+22,"coal","coal","grade 5",21.1886377237413,2
+23,"coal","coal","grade 5",18650.6859922769,2
+24,"coal","coal","grade 5",1354.68748649164,2
+25,"coal","coal","grade 5",23.0424385509917,2
+26,"coal","coal","grade 5",8.55938149165389,2
+27,"coal","coal","grade 5",8.64291797627392,2
+28,"coal","coal","grade 5",0,2
+29,"coal","coal","grade 5",491.306533200163,2
+30,"coal","coal","grade 5",15.8716425059622,2
+31,"coal","coal","grade 5",2.22055407875796,2
+32,"coal","coal","grade 5",183.536405268586,2
+1,"crude oil","crude oil","grade 5",236,2.1
+2,"crude oil","crude oil","grade 5",8.33713400769339,2.1
+3,"crude oil","crude oil","grade 5",202.997358590622,2.1
+4,"crude oil","crude oil","grade 5",35.0656412603943,2.1
+5,"crude oil","crude oil","grade 5",146.275775989987,2.1
+6,"crude oil","crude oil","grade 5",9,2.1
+7,"crude oil","crude oil","grade 5",34.4144960999155,2.1
+8,"crude oil","crude oil","grade 5",216,2.1
+9,"crude oil","crude oil","grade 5",8.74632119578119,2.1
+10,"crude oil","crude oil","grade 5",76.6733918035649,2.1
+11,"crude oil","crude oil","grade 5",129.32547216093,2.1
+12,"crude oil","crude oil","grade 5",15.9373528047057,2.1
+13,"crude oil","crude oil","grade 5",52.693048499875,2.1
+14,"crude oil","crude oil","grade 5",62.95771763926,2.1
+15,"crude oil","crude oil","grade 5",4.26069152419357,2.1
+16,"crude oil","crude oil","grade 5",38.000620686398,2.1
+17,"crude oil","crude oil","grade 5",63,2.1
+18,"crude oil","crude oil","grade 5",37.8331538497423,2.1
+19,"crude oil","crude oil","grade 5",0.2,2.1
+20,"crude oil","crude oil","grade 5",113.70698294421,2.1
+21,"crude oil","crude oil","grade 5",1380,2.1
+22,"crude oil","crude oil","grade 5",1.16221987583108,2.1
+23,"crude oil","crude oil","grade 5",426.502459433982,2.1
+24,"crude oil","crude oil","grade 5",0.320903240605488,2.1
+25,"crude oil","crude oil","grade 5",124.471328738523,2.1
+26,"crude oil","crude oil","grade 5",21.4392505832458,2.1
+27,"crude oil","crude oil","grade 5",0.849145356265626,2.1
+28,"crude oil","crude oil","grade 5",0.1,2.1
+29,"crude oil","crude oil","grade 5",29.7522610218576,2.1
+30,"crude oil","crude oil","grade 5",0.0564062501026637,2.1
+31,"crude oil","crude oil","grade 5",25.7874223985105,2.1
+32,"crude oil","crude oil","grade 5",17.433444043803,2.1
+1,"natural gas","natural gas","grade 5",716,3.1
+2,"natural gas","natural gas","grade 5",2.440723541379,3.1
+3,"natural gas","natural gas","grade 5",615.944540241196,3.1
+4,"natural gas","natural gas","grade 5",8.30605360724239,3.1
+5,"natural gas","natural gas","grade 5",81.6274395147451,3.1
+6,"natural gas","natural gas","grade 5",478,3.1
+7,"natural gas","natural gas","grade 5",33.7793892333482,3.1
+8,"natural gas","natural gas","grade 5",478,3.1
+9,"natural gas","natural gas","grade 5",84.5117397564039,3.1
+10,"natural gas","natural gas","grade 5",75.7149918241244,3.1
+11,"natural gas","natural gas","grade 5",224.426399149032,3.1
+12,"natural gas","natural gas","grade 5",47.9314273368697,3.1
+13,"natural gas","natural gas","grade 5",309.188678330017,3.1
+14,"natural gas","natural gas","grade 5",40.8586342407765,3.1
+15,"natural gas","natural gas","grade 5",3.07981035869105,3.1
+16,"natural gas","natural gas","grade 5",72.3036998353168,3.1
+17,"natural gas","natural gas","grade 5",382,3.1
+18,"natural gas","natural gas","grade 5",187.928537144931,3.1
+19,"natural gas","natural gas","grade 5",239,3.1
+20,"natural gas","natural gas","grade 5",191.361788317672,3.1
+21,"natural gas","natural gas","grade 5",239,3.1
+22,"natural gas","natural gas","grade 5",59.1885249938313,3.1
+23,"natural gas","natural gas","grade 5",358.923687532851,3.1
+24,"natural gas","natural gas","grade 5",7.67868196470611,3.1
+25,"natural gas","natural gas","grade 5",158.407533443975,3.1
+26,"natural gas","natural gas","grade 5",50.9521216096411,3.1
+27,"natural gas","natural gas","grade 5",29.7278625539728,3.1
+28,"natural gas","natural gas","grade 5",0,3.1
+29,"natural gas","natural gas","grade 5",211.292982199065,3.1
+30,"natural gas","natural gas","grade 5",4.43825508989951,3.1
+31,"natural gas","natural gas","grade 5",165.232610714426,3.1
+32,"natural gas","natural gas","grade 5",31.753887465888,3.1
+1,"coal","coal","grade 6",18440,2.3
+2,"coal","coal","grade 6",1.56686229002833,2.3
+3,"coal","coal","grade 6",4.00709195580096,2.3
+4,"coal","coal","grade 6",42.3109152287682,2.3
+5,"coal","coal","grade 6",3.42558143076539,2.3
+6,"coal","coal","grade 6",3414,2.3
+7,"coal","coal","grade 6",24.1804656475291,2.3
+8,"coal","coal","grade 6",569,2.3
+9,"coal","coal","grade 6",0,2.3
+10,"coal","coal","grade 6",5024.85156559792,2.3
+11,"coal","coal","grade 6",8954.7183607314,2.3
+12,"coal","coal","grade 6",1840.49420278326,2.3
+13,"coal","coal","grade 6",4817.46962385924,2.3
+14,"coal","coal","grade 6",5775.62392685656,2.3
+15,"coal","coal","grade 6",366.173781071061,2.3
+16,"coal","coal","grade 6",17.5192625806946,2.3
+17,"coal","coal","grade 6",845,2.3
+18,"coal","coal","grade 6",710.455615439792,2.3
+19,"coal","coal","grade 6",965,2.3
+20,"coal","coal","grade 6",38.4607549624815,2.3
+21,"coal","coal","grade 6",4,2.3
+22,"coal","coal","grade 6",21.1886377237413,2.3
+23,"coal","coal","grade 6",18650.6859922769,2.3
+24,"coal","coal","grade 6",1354.68748649164,2.3
+25,"coal","coal","grade 6",23.0424385509917,2.3
+26,"coal","coal","grade 6",8.55938149165389,2.3
+27,"coal","coal","grade 6",8.64291797627392,2.3
+28,"coal","coal","grade 6",0,2.3
+29,"coal","coal","grade 6",491.306533200163,2.3
+30,"coal","coal","grade 6",15.8716425059622,2.3
+31,"coal","coal","grade 6",2.22055407875796,2.3
+32,"coal","coal","grade 6",183.536405268586,2.3
+1,"crude oil","crude oil","grade 6",343,2.7
+2,"crude oil","crude oil","grade 6",27.5358777149771,2.7
+3,"crude oil","crude oil","grade 6",670.45946934002,2.7
+4,"crude oil","crude oil","grade 6",115.81476426461,2.7
+5,"crude oil","crude oil","grade 6",483.119484058531,2.7
+6,"crude oil","crude oil","grade 6",12,2.7
+7,"crude oil","crude oil","grade 6",47.2453342412135,2.7
+8,"crude oil","crude oil","grade 6",314,2.7
+9,"crude oil","crude oil","grade 6",12.0074852522148,2.7
+10,"crude oil","crude oil","grade 6",74.5385658007914,2.7
+11,"crude oil","crude oil","grade 6",177.878711520816,2.7
+12,"crude oil","crude oil","grade 6",14.9997712367503,2.7
+13,"crude oil","crude oil","grade 6",76.7482551429369,2.7
+14,"crude oil","crude oil","grade 6",61.1966626003996,2.7
+15,"crude oil","crude oil","grade 6",4.63020363822942,2.7
+16,"crude oil","crude oil","grade 6",55.3487301301883,2.7
+17,"crude oil","crude oil","grade 6",314,2.7
+18,"crude oil","crude oil","grade 6",188.565242997128,2.7
+19,"crude oil","crude oil","grade 6",0.2,2.7
+20,"crude oil","crude oil","grade 6",156.100626874277,2.7
+21,"crude oil","crude oil","grade 6",1820,2.7
+22,"crude oil","crude oil","grade 6",5.79265144461842,2.7
+23,"crude oil","crude oil","grade 6",414.572320708556,2.7
+24,"crude oil","crude oil","grade 6",1.05987889645273,2.7
+25,"crude oil","crude oil","grade 6",170.878269221961,2.7
+26,"crude oil","crude oil","grade 6",29.4324971879819,2.7
+27,"crude oil","crude oil","grade 6",4.23224828360963,2.7
+28,"crude oil","crude oil","grade 6",0.1,2.7
+29,"crude oil","crude oil","grade 6",124.22680902157,2.7
+30,"crude oil","crude oil","grade 6",0.281135913210102,2.7
+31,"crude oil","crude oil","grade 6",35.4018082060476,2.7
+32,"crude oil","crude oil","grade 6",23.9331963029087,2.7
+1,"natural gas","natural gas","grade 6",1339,3.7
+2,"natural gas","natural gas","grade 6",4.56442572891967,3.7
+3,"natural gas","natural gas","grade 6",1151.88511087006,3.7
+4,"natural gas","natural gas","grade 6",15.5332482962256,3.7
+5,"natural gas","natural gas","grade 6",152.652432276877,3.7
+6,"natural gas","natural gas","grade 6",893,3.7
+7,"natural gas","natural gas","grade 6",63.171232099795,3.7
+8,"natural gas","natural gas","grade 6",893,3.7
+9,"natural gas","natural gas","grade 6",158.046395337299,3.7
+10,"natural gas","natural gas","grade 6",141.450811085655,3.7
+11,"natural gas","natural gas","grade 6",418.804261456189,3.7
+12,"natural gas","natural gas","grade 6",88.907977980589,3.7
+13,"natural gas","natural gas","grade 6",577.907635956308,3.7
+14,"natural gas","natural gas","grade 6",76.3321346799443,3.7
+15,"natural gas","natural gas","grade 6",5.718081131607,3.7
+16,"natural gas","natural gas","grade 6",135.143564613655,3.7
+17,"natural gas","natural gas","grade 6",714,3.7
+18,"natural gas","natural gas","grade 6",351.088250356533,3.7
+19,"natural gas","natural gas","grade 6",446,3.7
+20,"natural gas","natural gas","grade 6",357.867925359445,3.7
+21,"natural gas","natural gas","grade 6",446,3.7
+22,"natural gas","natural gas","grade 6",110.576051923622,3.7
+23,"natural gas","natural gas","grade 6",670.541533403422,3.7
+24,"natural gas","natural gas","grade 6",14.3599932272926,3.7
+25,"natural gas","natural gas","grade 6",296.239786705982,3.7
+26,"natural gas","natural gas","grade 6",95.2861603845104,3.7
+27,"natural gas","natural gas","grade 6",55.5376177002045,3.7
+28,"natural gas","natural gas","grade 6",0,3.7
+29,"natural gas","natural gas","grade 6",394.707056291108,3.7
+30,"natural gas","natural gas","grade 6",8.29155187297125,3.7
+31,"natural gas","natural gas","grade 6",309.00344378019,3.7
+32,"natural gas","natural gas","grade 6",59.3833174815978,3.7
+1,"coal","coal","grade 7",0,2.6
+2,"coal","coal","grade 7",0,2.6
+3,"coal","coal","grade 7",0,2.6
+4,"coal","coal","grade 7",0,2.6
+5,"coal","coal","grade 7",0,2.6
+6,"coal","coal","grade 7",0,2.6
+7,"coal","coal","grade 7",0,2.6
+8,"coal","coal","grade 7",0,2.6
+9,"coal","coal","grade 7",0,2.6
+10,"coal","coal","grade 7",0,2.6
+11,"coal","coal","grade 7",0,2.6
+12,"coal","coal","grade 7",0,2.6
+13,"coal","coal","grade 7",0,2.6
+14,"coal","coal","grade 7",0,2.6
+15,"coal","coal","grade 7",0,2.6
+16,"coal","coal","grade 7",0,2.6
+17,"coal","coal","grade 7",0,2.6
+18,"coal","coal","grade 7",0,2.6
+19,"coal","coal","grade 7",0,2.6
+20,"coal","coal","grade 7",0,2.6
+21,"coal","coal","grade 7",0,2.6
+22,"coal","coal","grade 7",0,2.6
+23,"coal","coal","grade 7",0,2.6
+24,"coal","coal","grade 7",0,2.6
+25,"coal","coal","grade 7",0,2.6
+26,"coal","coal","grade 7",0,2.6
+27,"coal","coal","grade 7",0,2.6
+28,"coal","coal","grade 7",0,2.6
+29,"coal","coal","grade 7",0,2.6
+30,"coal","coal","grade 7",0,2.6
+31,"coal","coal","grade 7",0,2.6
+32,"coal","coal","grade 7",0,2.6
+1,"crude oil","crude oil","grade 7",0,3.5
+2,"crude oil","crude oil","grade 7",0,3.5
+3,"crude oil","crude oil","grade 7",0,3.5
+4,"crude oil","crude oil","grade 7",0,3.5
+5,"crude oil","crude oil","grade 7",0,3.5
+6,"crude oil","crude oil","grade 7",0,3.5
+7,"crude oil","crude oil","grade 7",0,3.5
+8,"crude oil","crude oil","grade 7",0,3.5
+9,"crude oil","crude oil","grade 7",0,3.5
+10,"crude oil","crude oil","grade 7",0,3.5
+11,"crude oil","crude oil","grade 7",0,3.5
+12,"crude oil","crude oil","grade 7",0,3.5
+13,"crude oil","crude oil","grade 7",0,3.5
+14,"crude oil","crude oil","grade 7",0,3.5
+15,"crude oil","crude oil","grade 7",0,3.5
+16,"crude oil","crude oil","grade 7",0,3.5
+17,"crude oil","crude oil","grade 7",0,3.5
+18,"crude oil","crude oil","grade 7",0,3.5
+19,"crude oil","crude oil","grade 7",0.2,3.5
+20,"crude oil","crude oil","grade 7",0,3.5
+21,"crude oil","crude oil","grade 7",0,3.5
+22,"crude oil","crude oil","grade 7",0,3.5
+23,"crude oil","crude oil","grade 7",0,3.5
+24,"crude oil","crude oil","grade 7",0,3.5
+25,"crude oil","crude oil","grade 7",0,3.5
+26,"crude oil","crude oil","grade 7",0,3.5
+27,"crude oil","crude oil","grade 7",0,3.5
+28,"crude oil","crude oil","grade 7",0.1,3.5
+29,"crude oil","crude oil","grade 7",0,3.5
+30,"crude oil","crude oil","grade 7",0,3.5
+31,"crude oil","crude oil","grade 7",0,3.5
+32,"crude oil","crude oil","grade 7",0,3.5
+1,"natural gas","natural gas","grade 7",48254,6.5
+2,"natural gas","natural gas","grade 7",14.610252930657,6.5
+3,"natural gas","natural gas","grade 7",3687.0646640695,6.5
+4,"natural gas","natural gas","grade 7",49.7203153081576,6.5
+5,"natural gas","natural gas","grade 7",488.624589050555,6.5
+6,"natural gas","natural gas","grade 7",11508,6.5
+7,"natural gas","natural gas","grade 7",2413.10332387783,6.5
+8,"natural gas","natural gas","grade 7",20005,6.5
+9,"natural gas","natural gas","grade 7",6037.2456157095,6.5
+10,"natural gas","natural gas","grade 7",7458.71869249869,6.5
+11,"natural gas","natural gas","grade 7",3178.67016534286,6.5
+12,"natural gas","natural gas","grade 7",256.951542480368,6.5
+13,"natural gas","natural gas","grade 7",6928.49431188657,6.5
+14,"natural gas","natural gas","grade 7",4025.00286428804,6.5
+15,"natural gas","natural gas","grade 7",11.9850559548936,6.5
+16,"natural gas","natural gas","grade 7",1620.20856175474,6.5
+17,"natural gas","natural gas","grade 7",4263,6.5
+18,"natural gas","natural gas","grade 7",844.498949345839,6.5
+19,"natural gas","natural gas","grade 7",5534,6.5
+20,"natural gas","natural gas","grade 7",13670.3409366768,6.5
+21,"natural gas","natural gas","grade 7",2272,6.5
+22,"natural gas","natural gas","grade 7",265.976886373953,6.5
+23,"natural gas","natural gas","grade 7",35357.7376538638,6.5
+24,"natural gas","natural gas","grade 7",45.9648476267184,6.5
+25,"natural gas","natural gas","grade 7",11316.182860511,6.5
+26,"natural gas","natural gas","grade 7",3639.87439694348,6.5
+27,"natural gas","natural gas","grade 7",133.588804949652,6.5
+28,"natural gas","natural gas","grade 7",1448,6.5
+29,"natural gas","natural gas","grade 7",1091.33623225502,6.5
+30,"natural gas","natural gas","grade 7",19.9442927470798,6.5
+31,"natural gas","natural gas","grade 7",11803.7469349611,6.5
+32,"natural gas","natural gas","grade 7",2268.40724859316,6.5
+1,"natural gas","natural gas","grade 8",0,6.6
+2,"natural gas","natural gas","grade 8",0,6.6
+3,"natural gas","natural gas","grade 8",0,6.6
+4,"natural gas","natural gas","grade 8",0,6.6
+5,"natural gas","natural gas","grade 8",0,6.6
+6,"natural gas","natural gas","grade 8",0,6.6
+7,"natural gas","natural gas","grade 8",0,6.6
+8,"natural gas","natural gas","grade 8",0,6.6
+9,"natural gas","natural gas","grade 8",0,6.6
+10,"natural gas","natural gas","grade 8",0,6.6
+11,"natural gas","natural gas","grade 8",0,6.6
+12,"natural gas","natural gas","grade 8",0,6.6
+13,"natural gas","natural gas","grade 8",0,6.6
+14,"natural gas","natural gas","grade 8",0,6.6
+15,"natural gas","natural gas","grade 8",0,6.6
+16,"natural gas","natural gas","grade 8",0,6.6
+17,"natural gas","natural gas","grade 8",0,6.6
+18,"natural gas","natural gas","grade 8",0,6.6
+19,"natural gas","natural gas","grade 8",0,6.6
+20,"natural gas","natural gas","grade 8",0,6.6
+21,"natural gas","natural gas","grade 8",0,6.6
+22,"natural gas","natural gas","grade 8",0,6.6
+23,"natural gas","natural gas","grade 8",0,6.6
+24,"natural gas","natural gas","grade 8",0,6.6
+25,"natural gas","natural gas","grade 8",0,6.6
+26,"natural gas","natural gas","grade 8",0,6.6
+27,"natural gas","natural gas","grade 8",0,6.6
+28,"natural gas","natural gas","grade 8",0,6.6
+29,"natural gas","natural gas","grade 8",0,6.6
+30,"natural gas","natural gas","grade 8",0,6.6
+31,"natural gas","natural gas","grade 8",0,6.6
+32,"natural gas","natural gas","grade 8",0,6.6
