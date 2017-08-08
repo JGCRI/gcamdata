@@ -2,5 +2,5 @@ INPUT_TABLE
 Variable ID
 MAGICC
 
-last.historical.year,bc.unit.forcing,carbon.model.start.year
-2005.0,0.0,1705.0
+last.historical.year,bc.unit.forcing,default.emiss.file,carbon.model.start.year
+2005,0,../input/magicc/Historical Emissions/Default Emissions Module/Hist_to_2008_Annual.csv,1705
