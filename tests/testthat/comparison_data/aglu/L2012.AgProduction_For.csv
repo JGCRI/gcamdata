@@ -1,0 +1,1345 @@
+INPUT_TABLE
+Variable ID
+AgProduction
+
+region,AgSupplySector,AgSupplySubsector,AgProductionTechnology,year,calOutputValue,share.weight.year,subs.share.weight,tech.share.weight
+USA,Forest,Forest_ArkWhtRedR,Forest_ArkWhtRedR,1975,0.0123916,1975,1,1
+USA,Forest,Forest_California,Forest_California,1975,0.0177364,1975,1,1
+USA,Forest,Forest_Caribbean,Forest_Caribbean,1975,0.0004484,1975,1,1
+USA,Forest,Forest_FraserR,Forest_FraserR,1975,5.23e-05,1975,1,1
+USA,Forest,Forest_GreatBasin,Forest_GreatBasin,1975,0.0033548,1975,1,1
+USA,Forest,Forest_GreatLakes,Forest_GreatLakes,1975,0.0166455,1975,1,1
+USA,Forest,Forest_MissouriR,Forest_MissouriR,1975,0.0112842,1975,1,1
+USA,Forest,Forest_MissppRN,Forest_MissppRN,1975,0.0096364,1975,1,1
+USA,Forest,Forest_MissppRS,Forest_MissppRS,1975,0.0150335,1975,1,1
+USA,Forest,Forest_NelsonR,Forest_NelsonR,1975,0.003932,1975,1,1
+USA,Forest,Forest_OhioR,Forest_OhioR,1975,0.0155419,1975,1,1
+USA,Forest,Forest_PacArctic,Forest_PacArctic,1975,0.0986083,1975,1,1
+USA,Forest,Forest_RioGrande,Forest_RioGrande,1975,0.0035704,1975,1,1
+USA,Forest,Forest_TennR,Forest_TennR,1975,0.0061496,1975,1,1
+USA,Forest,Forest_TexasCst,Forest_TexasCst,1975,0.0071309,1975,1,1
+USA,Forest,Forest_UsaColoRN,Forest_UsaColoRN,1975,0.0082914,1975,1,1
+USA,Forest,Forest_UsaColoRS,Forest_UsaColoRS,1975,0.0047609,1975,1,1
+USA,Forest,Forest_UsaCstE,Forest_UsaCstE,1975,0.0124639,1975,1,1
+USA,Forest,Forest_UsaCstNE,Forest_UsaCstNE,1975,0.0112253,1975,1,1
+USA,Forest,Forest_UsaCstSE,Forest_UsaCstSE,1975,0.0484145,1975,1,1
+USA,Forest,Forest_UsaPacNW,Forest_UsaPacNW,1975,0.0444205,1975,1,1
+Africa_Eastern,Forest,Forest_AfrCstE,Forest_AfrCstE,1975,0.0039162,1975,1,1
+Africa_Eastern,Forest,Forest_AfrCstNE,Forest_AfrCstNE,1975,0.0001873,1975,1,1
+Africa_Eastern,Forest,Forest_CongoR,Forest_CongoR,1975,0.0004996,1975,1,1
+Africa_Eastern,Forest,Forest_Madasgacar,Forest_Madasgacar,1975,0.0599331,1975,1,1
+Africa_Eastern,Forest,Forest_NileR,Forest_NileR,1975,0.0261686,1975,1,1
+Africa_Eastern,Forest,Forest_RiftValley,Forest_RiftValley,1975,0.0152856,1975,1,1
+Africa_Eastern,Forest,Forest_ShebJubR,Forest_ShebJubR,1975,0.0094035,1975,1,1
+Africa_Northern,Forest,Forest_AfrCstNW,Forest_AfrCstNW,1975,0.0208112,1975,1,1
+Africa_Northern,Forest,Forest_AfrIntN,Forest_AfrIntN,1975,0,1975,0,0
+Africa_Northern,Forest,Forest_MeditS,Forest_MeditS,1975,0.0022007,1975,1,1
+Africa_Northern,Forest,Forest_NileR,Forest_NileR,1975,0.0009108,1975,1,1
+Africa_Southern,Forest,Forest_AfrCstE,Forest_AfrCstE,1975,0.0073316,1975,1,1
+Africa_Southern,Forest,Forest_AfrCstS,Forest_AfrCstS,1975,0.0001908,1975,1,1
+Africa_Southern,Forest,Forest_AfrCstSE,Forest_AfrCstSE,1975,0.0012546,1975,1,1
+Africa_Southern,Forest,Forest_AfrIntS,Forest_AfrIntS,1975,0.0027576,1975,1,1
+Africa_Southern,Forest,Forest_AngolaCst,Forest_AngolaCst,1975,0.0058911,1975,1,1
+Africa_Southern,Forest,Forest_CongoR,Forest_CongoR,1975,0.0142233,1975,1,1
+Africa_Southern,Forest,Forest_GuineaGulf,Forest_GuineaGulf,1975,0.000159,1975,1,1
+Africa_Southern,Forest,Forest_LimpopoR,Forest_LimpopoR,1975,5.09e-05,1975,1,1
+Africa_Southern,Forest,Forest_NileR,Forest_NileR,1975,0.0005062,1975,1,1
+Africa_Southern,Forest,Forest_RiftValley,Forest_RiftValley,1975,0.0010305,1975,1,1
+Africa_Southern,Forest,Forest_ZambeziR,Forest_ZambeziR,1975,0.0144736,1975,1,1
+Africa_Western,Forest,Forest_AfrCstW,Forest_AfrCstW,1975,0.0177172,1975,1,1
+Africa_Western,Forest,Forest_CongoR,Forest_CongoR,1975,0.1128225,1975,1,1
+Africa_Western,Forest,Forest_GuineaGulf,Forest_GuineaGulf,1975,0.0212609,1975,1,1
+Africa_Western,Forest,Forest_LChad,Forest_LChad,1975,0.0003679,1975,1,1
+Africa_Western,Forest,Forest_NigerR,Forest_NigerR,1975,0.0053527,1975,1,1
+Africa_Western,Forest,Forest_NileR,Forest_NileR,1975,0.0004215,1975,1,1
+Africa_Western,Forest,Forest_SenegalR,Forest_SenegalR,1975,9.66e-05,1975,1,1
+Africa_Western,Forest,Forest_VoltaR,Forest_VoltaR,1975,0.0028194,1975,1,1
+Africa_Western,Forest,Forest_ZambeziR,Forest_ZambeziR,1975,5.39e-05,1975,1,1
+Australia_NZ,Forest,Forest_AusCstE,Forest_AusCstE,1975,0.0140811,1975,1,1
+Australia_NZ,Forest,Forest_AusCstN,Forest_AusCstN,1975,0.0006895,1975,1,1
+Australia_NZ,Forest,Forest_AusCstS,Forest_AusCstS,1975,0.0002189,1975,1,1
+Australia_NZ,Forest,Forest_AusCstW,Forest_AusCstW,1975,0.0003844,1975,1,1
+Australia_NZ,Forest,Forest_AusInt,Forest_AusInt,1975,5.7e-06,1975,1,1
+Australia_NZ,Forest,Forest_MurrayDrlg,Forest_MurrayDrlg,1975,0.0040268,1975,1,1
+Australia_NZ,Forest,Forest_NewZealand,Forest_NewZealand,1975,0.003895,1975,1,1
+Australia_NZ,Forest,Forest_Tasmania,Forest_Tasmania,1975,0.0015776,1975,1,1
+Brazil,Forest,Forest_AmazonR,Forest_AmazonR,1975,0.0016265,1975,1,1
+Brazil,Forest,Forest_BrzCstE,Forest_BrzCstE,1975,0.0001055,1975,1,1
+Brazil,Forest,Forest_BrzCstN,Forest_BrzCstN,1975,0.004162,1975,1,1
+Brazil,Forest,Forest_BrzCstS,Forest_BrzCstS,1975,0.0075156,1975,1,1
+Brazil,Forest,Forest_OrinocoR,Forest_OrinocoR,1975,0.0967301,1975,1,1
+Brazil,Forest,Forest_ParnaibaR,Forest_ParnaibaR,1975,0.0011221,1975,1,1
+Brazil,Forest,Forest_RioLaPlata,Forest_RioLaPlata,1975,0.0080906,1975,1,1
+Brazil,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,1975,0.0022945,1975,1,1
+Brazil,Forest,Forest_SaoFrancR,Forest_SaoFrancR,1975,0.0012273,1975,1,1
+Brazil,Forest,Forest_TocantinsR,Forest_TocantinsR,1975,0.0069421,1975,1,1
+Canada,Forest,Forest_CanAtl,Forest_CanAtl,1975,0.0105423,1975,1,1
+Canada,Forest,Forest_ChurchillR,Forest_ChurchillR,1975,0.0020207,1975,1,1
+Canada,Forest,Forest_FraserR,Forest_FraserR,1975,0.0047905,1975,1,1
+Canada,Forest,Forest_GreatLakes,Forest_GreatLakes,1975,0.0087214,1975,1,1
+Canada,Forest,Forest_HudsonBay,Forest_HudsonBay,1975,0.0319009,1975,1,1
+Canada,Forest,Forest_Mackenzie,Forest_Mackenzie,1975,0.0332426,1975,1,1
+Canada,Forest,Forest_MissouriR,Forest_MissouriR,1975,5.2e-06,1975,1,1
+Canada,Forest,Forest_NelsonR,Forest_NelsonR,1975,0.0102143,1975,1,1
+Canada,Forest,Forest_NWTerr,Forest_NWTerr,1975,0.0149866,1975,1,1
+Canada,Forest,Forest_PacArctic,Forest_PacArctic,1975,0.0117697,1975,1,1
+Canada,Forest,Forest_StLwrncR,Forest_StLwrncR,1975,0.0053348,1975,1,1
+Canada,Forest,Forest_UsaCstNE,Forest_UsaCstNE,1975,0.0009453,1975,1,1
+Canada,Forest,Forest_UsaPacNW,Forest_UsaPacNW,1975,0.0021748,1975,1,1
+Central America and Caribbean,Forest,Forest_Caribbean,Forest_Caribbean,1975,0.0067001,1975,1,1
+Central America and Caribbean,Forest,Forest_CntAmer,Forest_CntAmer,1975,0.020584,1975,1,1
+Central America and Caribbean,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,1975,0.0013143,1975,1,1
+Central America and Caribbean,Forest,Forest_GrijUsuR,Forest_GrijUsuR,1975,0.0034656,1975,1,1
+Central America and Caribbean,Forest,Forest_SAmerCstN,Forest_SAmerCstN,1975,0.0004706,1975,1,1
+Central America and Caribbean,Forest,Forest_YucatanP,Forest_YucatanP,1975,0.0047098,1975,1,1
+Central Asia,Forest,Forest_AmuDaryaR,Forest_AmuDaryaR,1975,2.28e-05,1975,1,1
+Central Asia,Forest,Forest_AmurR,Forest_AmurR,1975,3.19e-05,1975,1,1
+Central Asia,Forest,Forest_BlackSeaN,Forest_BlackSeaN,1975,2.29e-05,1975,1,1
+Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,1975,0.0004974,1975,1,1
+Central Asia,Forest,Forest_CaspianNE,Forest_CaspianNE,1975,3.68e-05,1975,1,1
+Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,1975,0.0013088,1975,1,1
+Central Asia,Forest,Forest_Gobi,Forest_Gobi,1975,4.45e-05,1975,1,1
+Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,1975,4.58e-05,1975,1,1
+Central Asia,Forest,Forest_ObR,Forest_ObR,1975,0.0005464,1975,1,1
+Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,1975,0.0001835,1975,1,1
+Central Asia,Forest,Forest_Tarim,Forest_Tarim,1975,7e-07,1975,1,1
+Central Asia,Forest,Forest_UralR,Forest_UralR,1975,1.8e-06,1975,1,1
+Central Asia,Forest,Forest_VolgaR,Forest_VolgaR,1975,8e-07,1975,1,1
+Central Asia,Forest,Forest_YeniseiR,Forest_YeniseiR,1975,0.0002989,1975,1,1
+China,Forest,Forest_AmurR,Forest_AmurR,1975,0.0595107,1975,1,1
+China,Forest,Forest_BoHai,Forest_BoHai,1975,0.0185179,1975,1,1
+China,Forest,Forest_ChinaCst,Forest_ChinaCst,1975,0.0490017,1975,1,1
+China,Forest,Forest_GangesR,Forest_GangesR,1975,0.0003977,1975,1,1
+China,Forest,Forest_Gobi,Forest_Gobi,1975,0.0002205,1975,1,1
+China,Forest,Forest_Hainan,Forest_Hainan,1975,0.0036349,1975,1,1
+China,Forest,Forest_Hong,Forest_Hong,1975,0.0081929,1975,1,1
+China,Forest,Forest_HuangHeR,Forest_HuangHeR,1975,0.0174889,1975,1,1
+China,Forest,Forest_IrrawaddyR,Forest_IrrawaddyR,1975,0.0038133,1975,1,1
+China,Forest,Forest_LBalkash,Forest_LBalkash,1975,0.000688,1975,1,1
+China,Forest,Forest_Mekong,Forest_Mekong,1975,0.0112828,1975,1,1
+China,Forest,Forest_ObR,Forest_ObR,1975,0.0004881,1975,1,1
+China,Forest,Forest_RusCstSE,Forest_RusCstSE,1975,0.0038293,1975,1,1
+China,Forest,Forest_Salween,Forest_Salween,1975,0.0040482,1975,1,1
+China,Forest,Forest_SChinaSea,Forest_SChinaSea,1975,0.00603,1975,1,1
+China,Forest,Forest_Taiwan,Forest_Taiwan,1975,0.0052092,1975,1,1
+China,Forest,Forest_Tarim,Forest_Tarim,1975,1.38e-05,1975,1,1
+China,Forest,Forest_XunJiang,Forest_XunJiang,1975,0.046104,1975,1,1
+China,Forest,Forest_Yangtze,Forest_Yangtze,1975,0.1239759,1975,1,1
+China,Forest,Forest_ZiyaHe,Forest_ZiyaHe,1975,0.0202454,1975,1,1
+EU-12,Forest,Forest_AdrBlkSea,Forest_AdrBlkSea,1975,0.0044662,1975,1,1
+EU-12,Forest,Forest_BalticSea,Forest_BalticSea,1975,0.0110663,1975,1,1
+EU-12,Forest,Forest_DanubeR,Forest_DanubeR,1975,0.030436,1975,1,1
+EU-12,Forest,Forest_DaugavaR,Forest_DaugavaR,1975,0.003303,1975,1,1
+EU-12,Forest,Forest_DniesterR,Forest_DniesterR,1975,8.02e-05,1975,1,1
+EU-12,Forest,Forest_DnkGrmCst,Forest_DnkGrmCst,1975,0,1975,0,0
+EU-12,Forest,Forest_ElbeR,Forest_ElbeR,1975,0.0048236,1975,1,1
+EU-12,Forest,Forest_MeditE,Forest_MeditE,1975,0.0015469,1975,1,1
+EU-12,Forest,Forest_NarvaR,Forest_NarvaR,1975,0.0029573,1975,1,1
+EU-12,Forest,Forest_NemanR,Forest_NemanR,1975,0.005166,1975,1,1
+EU-12,Forest,Forest_OderR,Forest_OderR,1975,0.0071263,1975,1,1
+EU-12,Forest,Forest_PolandCst,Forest_PolandCst,1975,0.0030268,1975,1,1
+EU-12,Forest,Forest_WislaR,Forest_WislaR,1975,0.0134691,1975,1,1
+EU-15,Forest,Forest_AdrBlkSea,Forest_AdrBlkSea,1975,0.0031996,1975,1,1
+EU-15,Forest,Forest_DanubeR,Forest_DanubeR,1975,0.0126488,1975,1,1
+EU-15,Forest,Forest_DnkGrmCst,Forest_DnkGrmCst,1975,0.0047351,1975,1,1
+EU-15,Forest,Forest_DouroR,Forest_DouroR,1975,0.002636,1975,1,1
+EU-15,Forest,Forest_EbroR,Forest_EbroR,1975,0.0026594,1975,1,1
+EU-15,Forest,Forest_ElbeR,Forest_ElbeR,1975,0.0077084,1975,1,1
+EU-15,Forest,Forest_EmsWeserR,Forest_EmsWeserR,1975,0.0057555,1975,1,1
+EU-15,Forest,Forest_EngWales,Forest_EngWales,1975,0.0039767,1975,1,1
+EU-15,Forest,Forest_Finland,Forest_Finland,1975,0.0325525,1975,1,1
+EU-15,Forest,Forest_FranceCstS,Forest_FranceCstS,1975,0.002352,1975,1,1
+EU-15,Forest,Forest_FranceCstW,Forest_FranceCstW,1975,0.006078,1975,1,1
+EU-15,Forest,Forest_Gironde,Forest_Gironde,1975,0.0075681,1975,1,1
+EU-15,Forest,Forest_GuadalqR,Forest_GuadalqR,1975,0.0001875,1975,1,1
+EU-15,Forest,Forest_GuadianaR,Forest_GuadianaR,1975,0.0007702,1975,1,1
+EU-15,Forest,Forest_IberiaCst,Forest_IberiaCst,1975,0.0018625,1975,1,1
+EU-15,Forest,Forest_Ireland,Forest_Ireland,1975,0.0023511,1975,1,1
+EU-15,Forest,Forest_ItalyCstE,Forest_ItalyCstE,1975,0.0029917,1975,1,1
+EU-15,Forest,Forest_ItalyCstW,Forest_ItalyCstW,1975,0.0040435,1975,1,1
+EU-15,Forest,Forest_LoireR,Forest_LoireR,1975,0.0076176,1975,1,1
+EU-15,Forest,Forest_MeditIsl,Forest_MeditIsl,1975,0.0016828,1975,1,1
+EU-15,Forest,Forest_NevaR,Forest_NevaR,1975,0.0005972,1975,1,1
+EU-15,Forest,Forest_OderR,Forest_OderR,1975,0.0004925,1975,1,1
+EU-15,Forest,Forest_PoR,Forest_PoR,1975,0.0044315,1975,1,1
+EU-15,Forest,Forest_RhineR,Forest_RhineR,1975,0.0146355,1975,1,1
+EU-15,Forest,Forest_RhoneR,Forest_RhoneR,1975,0.0083485,1975,1,1
+EU-15,Forest,Forest_ScheldtR,Forest_ScheldtR,1975,0.001606,1975,1,1
+EU-15,Forest,Forest_ScndnvN,Forest_ScndnvN,1975,0.0039544,1975,1,1
+EU-15,Forest,Forest_Scotland,Forest_Scotland,1975,0.0037518,1975,1,1
+EU-15,Forest,Forest_SeineR,Forest_SeineR,1975,0.004647,1975,1,1
+EU-15,Forest,Forest_SpainCstSE,Forest_SpainCstSE,1975,0.001805,1975,1,1
+EU-15,Forest,Forest_Sweden,Forest_Sweden,1975,0.0617705,1975,1,1
+EU-15,Forest,Forest_TagusR,Forest_TagusR,1975,0.0009989,1975,1,1
+EU-15,Forest,Forest_TiberR,Forest_TiberR,1975,0.0010986,1975,1,1
+Europe_Eastern,Forest,Forest_BlackSeaN,Forest_BlackSeaN,1975,0.0008853,1975,1,1
+Europe_Eastern,Forest,Forest_DanubeR,Forest_DanubeR,1975,0.0011721,1975,1,1
+Europe_Eastern,Forest,Forest_DaugavaR,Forest_DaugavaR,1975,0.0014815,1975,1,1
+Europe_Eastern,Forest,Forest_DnieperR,Forest_DnieperR,1975,0.0101027,1975,1,1
+Europe_Eastern,Forest,Forest_DniesterR,Forest_DniesterR,1975,0.0008116,1975,1,1
+Europe_Eastern,Forest,Forest_DonR,Forest_DonR,1975,6.26e-05,1975,1,1
+Europe_Eastern,Forest,Forest_NemanR,Forest_NemanR,1975,0.0027421,1975,1,1
+Europe_Eastern,Forest,Forest_NevaR,Forest_NevaR,1975,4.32e-05,1975,1,1
+Europe_Eastern,Forest,Forest_WislaR,Forest_WislaR,1975,0.0004919,1975,1,1
+Europe_Non_EU,Forest,Forest_AdrBlkSea,Forest_AdrBlkSea,1975,0.0047558,1975,1,1
+Europe_Non_EU,Forest,Forest_BlackSeaS,Forest_BlackSeaS,1975,0.0116884,1975,1,1
+Europe_Non_EU,Forest,Forest_CaspianSW,Forest_CaspianSW,1975,0.000421,1975,1,1
+Europe_Non_EU,Forest,Forest_DanubeR,Forest_DanubeR,1975,0.0071613,1975,1,1
+Europe_Non_EU,Forest,Forest_MeditE,Forest_MeditE,1975,0.0050089,1975,1,1
+Europe_Non_EU,Forest,Forest_TigrEuphR,Forest_TigrEuphR,1975,0.0004775,1975,1,1
+European Free Trade Association,Forest,Forest_DanubeR,Forest_DanubeR,1975,2.98e-05,1975,1,1
+European Free Trade Association,Forest,Forest_Iceland,Forest_Iceland,1975,0.0011454,1975,1,1
+European Free Trade Association,Forest,Forest_PoR,Forest_PoR,1975,7.92e-05,1975,1,1
+European Free Trade Association,Forest,Forest_RhineR,Forest_RhineR,1975,0.0006365,1975,1,1
+European Free Trade Association,Forest,Forest_RhoneR,Forest_RhoneR,1975,0.000128,1975,1,1
+European Free Trade Association,Forest,Forest_ScndnvN,Forest_ScndnvN,1975,0.0101037,1975,1,1
+European Free Trade Association,Forest,Forest_Sweden,Forest_Sweden,1975,0.0007056,1975,1,1
+India,Forest,Forest_BengalBay,Forest_BengalBay,1975,0.0031876,1975,1,1
+India,Forest,Forest_BengalW,Forest_BengalW,1975,0.0055997,1975,1,1
+India,Forest,Forest_BrahmaniR,Forest_BrahmaniR,1975,0.0073964,1975,1,1
+India,Forest,Forest_CauveryR,Forest_CauveryR,1975,0.0111894,1975,1,1
+India,Forest,Forest_GangesR,Forest_GangesR,1975,0.0786436,1975,1,1
+India,Forest,Forest_GodavariR,Forest_GodavariR,1975,0.0250531,1975,1,1
+India,Forest,Forest_IndCstE,Forest_IndCstE,1975,0.0038083,1975,1,1
+India,Forest,Forest_IndCstNE,Forest_IndCstNE,1975,0.0064548,1975,1,1
+India,Forest,Forest_IndCstS,Forest_IndCstS,1975,0.0062256,1975,1,1
+India,Forest,Forest_IndCstW,Forest_IndCstW,1975,0.0117852,1975,1,1
+India,Forest,Forest_IndusR,Forest_IndusR,1975,0.0036465,1975,1,1
+India,Forest,Forest_IrrawaddyR,Forest_IrrawaddyR,1975,0.0044987,1975,1,1
+India,Forest,Forest_KrishnaR,Forest_KrishnaR,1975,0.0151901,1975,1,1
+India,Forest,Forest_MahanadiR,Forest_MahanadiR,1975,0.0160252,1975,1,1
+India,Forest,Forest_MahiR,Forest_MahiR,1975,0.0026367,1975,1,1
+India,Forest,Forest_NarmadaR,Forest_NarmadaR,1975,0.0053373,1975,1,1
+India,Forest,Forest_PennarR,Forest_PennarR,1975,0.0075295,1975,1,1
+India,Forest,Forest_SabarmatiR,Forest_SabarmatiR,1975,0.0062825,1975,1,1
+India,Forest,Forest_TaptiR,Forest_TaptiR,1975,0.0066303,1975,1,1
+Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,1975,0.0005602,1975,1,1
+Indonesia,Forest,Forest_FlyR,Forest_FlyR,1975,0.0004528,1975,1,1
+Indonesia,Forest,Forest_IdnE,Forest_IdnE,1975,0.0088593,1975,1,1
+Indonesia,Forest,Forest_IrianJaya,Forest_IrianJaya,1975,0.0457152,1975,1,1
+Indonesia,Forest,Forest_JavaTimor,Forest_JavaTimor,1975,0.0125348,1975,1,1
+Indonesia,Forest,Forest_Kalimantan,Forest_Kalimantan,1975,0.0738818,1975,1,1
+Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,1975,9.8e-06,1975,1,1
+Indonesia,Forest,Forest_SepikR,Forest_SepikR,1975,0.0004861,1975,1,1
+Indonesia,Forest,Forest_Sulawesi,Forest_Sulawesi,1975,0.0203597,1975,1,1
+Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,1975,0.047339,1975,1,1
+Japan,Forest,Forest_Japan,Forest_Japan,1975,0.0374236,1975,1,1
+Japan,Forest,Forest_Taiwan,Forest_Taiwan,1975,3.24e-05,1975,1,1
+Mexico,Forest,Forest_California,Forest_California,1975,4.99e-05,1975,1,1
+Mexico,Forest,Forest_CntAmer,Forest_CntAmer,1975,5.26e-05,1975,1,1
+Mexico,Forest,Forest_GrijUsuR,Forest_GrijUsuR,1975,0.0038579,1975,1,1
+Mexico,Forest,Forest_MexBaja,Forest_MexBaja,1975,0.0004399,1975,1,1
+Mexico,Forest,Forest_MexCstNW,Forest_MexCstNW,1975,0.0090182,1975,1,1
+Mexico,Forest,Forest_MexCstW,Forest_MexCstW,1975,0.0014306,1975,1,1
+Mexico,Forest,Forest_MexGulf,Forest_MexGulf,1975,0.0009645,1975,1,1
+Mexico,Forest,Forest_MexInt,Forest_MexInt,1975,0.0004396,1975,1,1
+Mexico,Forest,Forest_Papaloapan,Forest_Papaloapan,1975,0.0008642,1975,1,1
+Mexico,Forest,Forest_RioBalsas,Forest_RioBalsas,1975,0.0022585,1975,1,1
+Mexico,Forest,Forest_RioGrande,Forest_RioGrande,1975,0.0007077,1975,1,1
+Mexico,Forest,Forest_RioLerma,Forest_RioLerma,1975,0.0016118,1975,1,1
+Mexico,Forest,Forest_RioVerde,Forest_RioVerde,1975,0.0011794,1975,1,1
+Mexico,Forest,Forest_Tehuantpc,Forest_Tehuantpc,1975,0.0024725,1975,1,1
+Mexico,Forest,Forest_UsaColoRS,Forest_UsaColoRS,1975,5.2e-05,1975,1,1
+Mexico,Forest,Forest_YucatanP,Forest_YucatanP,1975,0.0093018,1975,1,1
+Middle East,Forest,Forest_CaspianE,Forest_CaspianE,1975,0.0011662,1975,1,1
+Middle East,Forest,Forest_CaspianSW,Forest_CaspianSW,1975,0.0021271,1975,1,1
+Middle East,Forest,Forest_Iran,Forest_Iran,1975,1.43e-05,1975,1,1
+Middle East,Forest,Forest_MeditE,Forest_MeditE,1975,2.56e-05,1975,1,1
+Middle East,Forest,Forest_TigrEuphR,Forest_TigrEuphR,1975,0.0019052,1975,1,1
+Pakistan,Forest,Forest_IndusR,Forest_IndusR,1975,0.0164347,1975,1,1
+Russia,Forest,Forest_AmurR,Forest_AmurR,1975,0.0240371,1975,1,1
+Russia,Forest,Forest_ArcticIsl,Forest_ArcticIsl,1975,9e-07,1975,1,1
+Russia,Forest,Forest_BalticSea,Forest_BalticSea,1975,0.0005782,1975,1,1
+Russia,Forest,Forest_BarentsSea,Forest_BarentsSea,1975,0.0195648,1975,1,1
+Russia,Forest,Forest_BlackSeaN,Forest_BlackSeaN,1975,0.0009958,1975,1,1
+Russia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,1975,1.5e-06,1975,1,1
+Russia,Forest,Forest_CaspianNE,Forest_CaspianNE,1975,0.0007509,1975,1,1
+Russia,Forest,Forest_CaspianSW,Forest_CaspianSW,1975,1.7e-06,1975,1,1
+Russia,Forest,Forest_DaugavaR,Forest_DaugavaR,1975,0.0005026,1975,1,1
+Russia,Forest,Forest_DnieperR,Forest_DnieperR,1975,0.000637,1975,1,1
+Russia,Forest,Forest_DonR,Forest_DonR,1975,0.0001047,1975,1,1
+Russia,Forest,Forest_DvinaRN,Forest_DvinaRN,1975,0.0078494,1975,1,1
+Russia,Forest,Forest_Finland,Forest_Finland,1975,0.0004101,1975,1,1
+Russia,Forest,Forest_Gobi,Forest_Gobi,1975,0.0001454,1975,1,1
+Russia,Forest,Forest_KaraSea,Forest_KaraSea,1975,0.0090205,1975,1,1
+Russia,Forest,Forest_LenaR,Forest_LenaR,1975,0.0633905,1975,1,1
+Russia,Forest,Forest_NarvaR,Forest_NarvaR,1975,0.0008856,1975,1,1
+Russia,Forest,Forest_NemanR,Forest_NemanR,1975,3.35e-05,1975,1,1
+Russia,Forest,Forest_NevaR,Forest_NevaR,1975,0.0050682,1975,1,1
+Russia,Forest,Forest_ObR,Forest_ObR,1975,0.047533,1975,1,1
+Russia,Forest,Forest_PolandCst,Forest_PolandCst,1975,6.99e-05,1975,1,1
+Russia,Forest,Forest_RusCstSE,Forest_RusCstSE,1975,0.0027333,1975,1,1
+Russia,Forest,Forest_ScndnvN,Forest_ScndnvN,1975,0.0056025,1975,1,1
+Russia,Forest,Forest_SiberiaN,Forest_SiberiaN,1975,0.0162693,1975,1,1
+Russia,Forest,Forest_SiberiaW,Forest_SiberiaW,1975,0.0690319,1975,1,1
+Russia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,1975,4.3e-06,1975,1,1
+Russia,Forest,Forest_UralR,Forest_UralR,1975,0.0004523,1975,1,1
+Russia,Forest,Forest_VolgaR,Forest_VolgaR,1975,0.0240173,1975,1,1
+Russia,Forest,Forest_YeniseiR,Forest_YeniseiR,1975,0.0561337,1975,1,1
+South Africa,Forest,Forest_AfrCstS,Forest_AfrCstS,1975,0.0151392,1975,1,1
+South Africa,Forest,Forest_AfrCstSSW,Forest_AfrCstSSW,1975,0.0001064,1975,1,1
+South Africa,Forest,Forest_LimpopoR,Forest_LimpopoR,1975,0.001353,1975,1,1
+South Africa,Forest,Forest_OrangeR,Forest_OrangeR,1975,0.0001978,1975,1,1
+South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,1975,2.3e-06,1975,1,1
+South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,1975,0.0018001,1975,1,1
+South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,1975,0.0003377,1975,1,1
+South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,1975,0.0019867,1975,1,1
+South America_Southern,Forest,Forest_ArgCstS,Forest_ArgCstS,1975,5.7e-06,1975,1,1
+South America_Southern,Forest,Forest_ChileCstN,Forest_ChileCstN,1975,0.0001074,1975,1,1
+South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,1975,0.0014211,1975,1,1
+South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,1975,0.0006861,1975,1,1
+South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,1975,1.39e-05,1975,1,1
+South America_Southern,Forest,Forest_NegroR,Forest_NegroR,1975,1.02e-05,1975,1,1
+South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,1975,0.0242131,1975,1,1
+South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,1975,0.0003563,1975,1,1
+South America_Southern,Forest,Forest_RioLaPlata,Forest_RioLaPlata,1975,0.0025007,1975,1,1
+South Asia,Forest,Forest_AmuDaryaR,Forest_AmuDaryaR,1975,9.89e-05,1975,1,1
+South Asia,Forest,Forest_BengalBay,Forest_BengalBay,1975,0.002911,1975,1,1
+South Asia,Forest,Forest_GangesR,Forest_GangesR,1975,0.0316713,1975,1,1
+South Asia,Forest,Forest_SriLanka,Forest_SriLanka,1975,0.0139446,1975,1,1
+South Korea,Forest,Forest_Korea,Forest_Korea,1975,0.0037305,1975,1,1
+Southeast Asia,Forest,Forest_BengalBay,Forest_BengalBay,1975,0.003264,1975,1,1
+Southeast Asia,Forest,Forest_BoHai,Forest_BoHai,1975,0.0010811,1975,1,1
+Southeast Asia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,1975,0.014023,1975,1,1
+Southeast Asia,Forest,Forest_ChaoPhrR,Forest_ChaoPhrR,1975,0.0064481,1975,1,1
+Southeast Asia,Forest,Forest_FlyR,Forest_FlyR,1975,0.0038648,1975,1,1
+Southeast Asia,Forest,Forest_GangesR,Forest_GangesR,1975,8.74e-05,1975,1,1
+Southeast Asia,Forest,Forest_Hong,Forest_Hong,1975,0.0025694,1975,1,1
+Southeast Asia,Forest,Forest_IdnE,Forest_IdnE,1975,3.2e-06,1975,1,1
+Southeast Asia,Forest,Forest_IrianJaya,Forest_IrianJaya,1975,0.0010284,1975,1,1
+Southeast Asia,Forest,Forest_IrrawaddyR,Forest_IrrawaddyR,1975,0.0167352,1975,1,1
+Southeast Asia,Forest,Forest_JavaTimor,Forest_JavaTimor,1975,0.0009018,1975,1,1
+Southeast Asia,Forest,Forest_Kalimantan,Forest_Kalimantan,1975,0.0006949,1975,1,1
+Southeast Asia,Forest,Forest_Korea,Forest_Korea,1975,0.002013,1975,1,1
+Southeast Asia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,1975,0.0165437,1975,1,1
+Southeast Asia,Forest,Forest_Mekong,Forest_Mekong,1975,0.0282458,1975,1,1
+Southeast Asia,Forest,Forest_NewCaledn,Forest_NewCaledn,1975,5.69e-05,1975,1,1
+Southeast Asia,Forest,Forest_PapuaCst,Forest_PapuaCst,1975,0.0177028,1975,1,1
+Southeast Asia,Forest,Forest_Phlppns,Forest_Phlppns,1975,0.0148749,1975,1,1
+Southeast Asia,Forest,Forest_RusCstSE,Forest_RusCstSE,1975,0.0002922,1975,1,1
+Southeast Asia,Forest,Forest_Salween,Forest_Salween,1975,0.0073827,1975,1,1
+Southeast Asia,Forest,Forest_SChinaSea,Forest_SChinaSea,1975,0.0001945,1975,1,1
+Southeast Asia,Forest,Forest_SepikR,Forest_SepikR,1975,0.0053656,1975,1,1
+Southeast Asia,Forest,Forest_SittaungR,Forest_SittaungR,1975,0.0028528,1975,1,1
+Southeast Asia,Forest,Forest_ThaiGulf,Forest_ThaiGulf,1975,0.0029614,1975,1,1
+Southeast Asia,Forest,Forest_VietnamCst,Forest_VietnamCst,1975,0.0083934,1975,1,1
+Southeast Asia,Forest,Forest_XunJiang,Forest_XunJiang,1975,0.0003344,1975,1,1
+Argentina,Forest,Forest_ArgColoR,Forest_ArgColoR,1975,0.0001481,1975,1,1
+Argentina,Forest,Forest_ArgCstN,Forest_ArgCstN,1975,1.5e-06,1975,1,1
+Argentina,Forest,Forest_ArgCstS,Forest_ArgCstS,1975,0.0002464,1975,1,1
+Argentina,Forest,Forest_ChileCstS,Forest_ChileCstS,1975,0.0003694,1975,1,1
+Argentina,Forest,Forest_MarChiq,Forest_MarChiq,1975,0.0002991,1975,1,1
+Argentina,Forest,Forest_NegroR,Forest_NegroR,1975,0.0006211,1975,1,1
+Argentina,Forest,Forest_Pampas,Forest_Pampas,1975,3.7e-06,1975,1,1
+Argentina,Forest,Forest_Patagonia,Forest_Patagonia,1975,3.67e-05,1975,1,1
+Argentina,Forest,Forest_RioLaPlata,Forest_RioLaPlata,1975,0.0053568,1975,1,1
+Argentina,Forest,Forest_Salinas,Forest_Salinas,1975,5.23e-05,1975,1,1
+Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,1975,0.0003585,1975,1,1
+Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,1975,0.0014513,1975,1,1
+Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,1975,0.0065998,1975,1,1
+Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,1975,0.0005324,1975,1,1
+USA,Forest,Forest_ArkWhtRedR,Forest_ArkWhtRedR,1990,0.0173994,1990,1,1
+USA,Forest,Forest_California,Forest_California,1990,0.0240634,1990,1,1
+USA,Forest,Forest_Caribbean,Forest_Caribbean,1990,0.0006916,1990,1,1
+USA,Forest,Forest_FraserR,Forest_FraserR,1990,7.03e-05,1990,1,1
+USA,Forest,Forest_GreatBasin,Forest_GreatBasin,1990,0.0045322,1990,1,1
+USA,Forest,Forest_GreatLakes,Forest_GreatLakes,1990,0.0250098,1990,1,1
+USA,Forest,Forest_MissouriR,Forest_MissouriR,1990,0.0153,1990,1,1
+USA,Forest,Forest_MissppRN,Forest_MissppRN,1990,0.0134947,1990,1,1
+USA,Forest,Forest_MissppRS,Forest_MissppRS,1990,0.0208703,1990,1,1
+USA,Forest,Forest_NelsonR,Forest_NelsonR,1990,0.0052942,1990,1,1
+USA,Forest,Forest_OhioR,Forest_OhioR,1990,0.0258267,1990,1,1
+USA,Forest,Forest_PacArctic,Forest_PacArctic,1990,0.1346892,1990,1,1
+USA,Forest,Forest_RioGrande,Forest_RioGrande,1990,0.0048216,1990,1,1
+USA,Forest,Forest_TennR,Forest_TennR,1990,0.0091712,1990,1,1
+USA,Forest,Forest_TexasCst,Forest_TexasCst,1990,0.009303,1990,1,1
+USA,Forest,Forest_UsaColoRN,Forest_UsaColoRN,1990,0.0111024,1990,1,1
+USA,Forest,Forest_UsaColoRS,Forest_UsaColoRS,1990,0.0065036,1990,1,1
+USA,Forest,Forest_UsaCstE,Forest_UsaCstE,1990,0.0191963,1990,1,1
+USA,Forest,Forest_UsaCstNE,Forest_UsaCstNE,1990,0.016322,1990,1,1
+USA,Forest,Forest_UsaCstSE,Forest_UsaCstSE,1990,0.0713529,1990,1,1
+USA,Forest,Forest_UsaPacNW,Forest_UsaPacNW,1990,0.060517,1990,1,1
+Africa_Eastern,Forest,Forest_AfrCstE,Forest_AfrCstE,1990,0.0055474,1990,1,1
+Africa_Eastern,Forest,Forest_AfrCstNE,Forest_AfrCstNE,1990,0.0002868,1990,1,1
+Africa_Eastern,Forest,Forest_CongoR,Forest_CongoR,1990,0.0005393,1990,1,1
+Africa_Eastern,Forest,Forest_Madasgacar,Forest_Madasgacar,1990,0.0881921,1990,1,1
+Africa_Eastern,Forest,Forest_NileR,Forest_NileR,1990,0.0372475,1990,1,1
+Africa_Eastern,Forest,Forest_RiftValley,Forest_RiftValley,1990,0.0227673,1990,1,1
+Africa_Eastern,Forest,Forest_ShebJubR,Forest_ShebJubR,1990,0.0141672,1990,1,1
+Africa_Northern,Forest,Forest_AfrCstNW,Forest_AfrCstNW,1990,0.0247219,1990,1,1
+Africa_Northern,Forest,Forest_AfrIntN,Forest_AfrIntN,1990,0,1990,0,0
+Africa_Northern,Forest,Forest_MeditS,Forest_MeditS,1990,0.0039122,1990,1,1
+Africa_Northern,Forest,Forest_NileR,Forest_NileR,1990,0.0014814,1990,1,1
+Africa_Southern,Forest,Forest_AfrCstE,Forest_AfrCstE,1990,0.0097743,1990,1,1
+Africa_Southern,Forest,Forest_AfrCstS,Forest_AfrCstS,1990,0.0002769,1990,1,1
+Africa_Southern,Forest,Forest_AfrCstSE,Forest_AfrCstSE,1990,0.001681,1990,1,1
+Africa_Southern,Forest,Forest_AfrIntS,Forest_AfrIntS,1990,0.0037369,1990,1,1
+Africa_Southern,Forest,Forest_AngolaCst,Forest_AngolaCst,1990,0.0080221,1990,1,1
+Africa_Southern,Forest,Forest_CongoR,Forest_CongoR,1990,0.019192,1990,1,1
+Africa_Southern,Forest,Forest_GuineaGulf,Forest_GuineaGulf,1990,0.0002145,1990,1,1
+Africa_Southern,Forest,Forest_LimpopoR,Forest_LimpopoR,1990,6.49e-05,1990,1,1
+Africa_Southern,Forest,Forest_NileR,Forest_NileR,1990,0.0006475,1990,1,1
+Africa_Southern,Forest,Forest_RiftValley,Forest_RiftValley,1990,0.001346,1990,1,1
+Africa_Southern,Forest,Forest_ZambeziR,Forest_ZambeziR,1990,0.0193394,1990,1,1
+Africa_Western,Forest,Forest_AfrCstW,Forest_AfrCstW,1990,0.0222861,1990,1,1
+Africa_Western,Forest,Forest_CongoR,Forest_CongoR,1990,0.152345,1990,1,1
+Africa_Western,Forest,Forest_GuineaGulf,Forest_GuineaGulf,1990,0.0285894,1990,1,1
+Africa_Western,Forest,Forest_LChad,Forest_LChad,1990,0.0004954,1990,1,1
+Africa_Western,Forest,Forest_NigerR,Forest_NigerR,1990,0.0070614,1990,1,1
+Africa_Western,Forest,Forest_NileR,Forest_NileR,1990,0.0005498,1990,1,1
+Africa_Western,Forest,Forest_SenegalR,Forest_SenegalR,1990,0.0001291,1990,1,1
+Africa_Western,Forest,Forest_VoltaR,Forest_VoltaR,1990,0.0036057,1990,1,1
+Africa_Western,Forest,Forest_ZambeziR,Forest_ZambeziR,1990,7.26e-05,1990,1,1
+Australia_NZ,Forest,Forest_AusCstE,Forest_AusCstE,1990,0.0186613,1990,1,1
+Australia_NZ,Forest,Forest_AusCstN,Forest_AusCstN,1990,0.0009083,1990,1,1
+Australia_NZ,Forest,Forest_AusCstS,Forest_AusCstS,1990,0.0002534,1990,1,1
+Australia_NZ,Forest,Forest_AusCstW,Forest_AusCstW,1990,0.0004842,1990,1,1
+Australia_NZ,Forest,Forest_AusInt,Forest_AusInt,1990,7.4e-06,1990,1,1
+Australia_NZ,Forest,Forest_MurrayDrlg,Forest_MurrayDrlg,1990,0.0051508,1990,1,1
+Australia_NZ,Forest,Forest_NewZealand,Forest_NewZealand,1990,0.0051213,1990,1,1
+Australia_NZ,Forest,Forest_Tasmania,Forest_Tasmania,1990,0.0021329,1990,1,1
+Brazil,Forest,Forest_AmazonR,Forest_AmazonR,1990,0.0024977,1990,1,1
+Brazil,Forest,Forest_BrzCstE,Forest_BrzCstE,1990,0.0001539,1990,1,1
+Brazil,Forest,Forest_BrzCstN,Forest_BrzCstN,1990,0.0062583,1990,1,1
+Brazil,Forest,Forest_BrzCstS,Forest_BrzCstS,1990,0.0104482,1990,1,1
+Brazil,Forest,Forest_OrinocoR,Forest_OrinocoR,1990,0.1496905,1990,1,1
+Brazil,Forest,Forest_ParnaibaR,Forest_ParnaibaR,1990,0.0017095,1990,1,1
+Brazil,Forest,Forest_RioLaPlata,Forest_RioLaPlata,1990,0.0102829,1990,1,1
+Brazil,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,1990,0.0035668,1990,1,1
+Brazil,Forest,Forest_SaoFrancR,Forest_SaoFrancR,1990,0.0016958,1990,1,1
+Brazil,Forest,Forest_TocantinsR,Forest_TocantinsR,1990,0.0102515,1990,1,1
+Canada,Forest,Forest_CanAtl,Forest_CanAtl,1990,0.0137384,1990,1,1
+Canada,Forest,Forest_ChurchillR,Forest_ChurchillR,1990,0.0025644,1990,1,1
+Canada,Forest,Forest_FraserR,Forest_FraserR,1990,0.0060926,1990,1,1
+Canada,Forest,Forest_GreatLakes,Forest_GreatLakes,1990,0.0114994,1990,1,1
+Canada,Forest,Forest_HudsonBay,Forest_HudsonBay,1990,0.0404973,1990,1,1
+Canada,Forest,Forest_Mackenzie,Forest_Mackenzie,1990,0.0421189,1990,1,1
+Canada,Forest,Forest_MissouriR,Forest_MissouriR,1990,6.1e-06,1990,1,1
+Canada,Forest,Forest_NelsonR,Forest_NelsonR,1990,0.0128332,1990,1,1
+Canada,Forest,Forest_NWTerr,Forest_NWTerr,1990,0.0189969,1990,1,1
+Canada,Forest,Forest_PacArctic,Forest_PacArctic,1990,0.0149478,1990,1,1
+Canada,Forest,Forest_StLwrncR,Forest_StLwrncR,1990,0.0068166,1990,1,1
+Canada,Forest,Forest_UsaCstNE,Forest_UsaCstNE,1990,0.0013389,1990,1,1
+Canada,Forest,Forest_UsaPacNW,Forest_UsaPacNW,1990,0.0027613,1990,1,1
+Central America and Caribbean,Forest,Forest_Caribbean,Forest_Caribbean,1990,0.0072979,1990,1,1
+Central America and Caribbean,Forest,Forest_CntAmer,Forest_CntAmer,1990,0.024824,1990,1,1
+Central America and Caribbean,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,1990,0.0015715,1990,1,1
+Central America and Caribbean,Forest,Forest_GrijUsuR,Forest_GrijUsuR,1990,0.0037662,1990,1,1
+Central America and Caribbean,Forest,Forest_SAmerCstN,Forest_SAmerCstN,1990,0.000604,1990,1,1
+Central America and Caribbean,Forest,Forest_YucatanP,Forest_YucatanP,1990,0.0055087,1990,1,1
+Central Asia,Forest,Forest_AmuDaryaR,Forest_AmuDaryaR,1990,1.55e-05,1990,1,1
+Central Asia,Forest,Forest_AmurR,Forest_AmurR,1990,2.83e-05,1990,1,1
+Central Asia,Forest,Forest_BlackSeaN,Forest_BlackSeaN,1990,1.62e-05,1990,1,1
+Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,1990,0.0003535,1990,1,1
+Central Asia,Forest,Forest_CaspianNE,Forest_CaspianNE,1990,2.56e-05,1990,1,1
+Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,1990,0.0009012,1990,1,1
+Central Asia,Forest,Forest_Gobi,Forest_Gobi,1990,3.1e-05,1990,1,1
+Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,1990,2.95e-05,1990,1,1
+Central Asia,Forest,Forest_ObR,Forest_ObR,1990,0.0003602,1990,1,1
+Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,1990,0.000124,1990,1,1
+Central Asia,Forest,Forest_Tarim,Forest_Tarim,1990,5e-07,1990,1,1
+Central Asia,Forest,Forest_UralR,Forest_UralR,1990,1.1e-06,1990,1,1
+Central Asia,Forest,Forest_VolgaR,Forest_VolgaR,1990,6e-07,1990,1,1
+Central Asia,Forest,Forest_YeniseiR,Forest_YeniseiR,1990,0.0002451,1990,1,1
+China,Forest,Forest_AmurR,Forest_AmurR,1990,0.0638046,1990,1,1
+China,Forest,Forest_BoHai,Forest_BoHai,1990,0.0179907,1990,1,1
+China,Forest,Forest_ChinaCst,Forest_ChinaCst,1990,0.0498713,1990,1,1
+China,Forest,Forest_GangesR,Forest_GangesR,1990,0.0004008,1990,1,1
+China,Forest,Forest_Gobi,Forest_Gobi,1990,0.0001668,1990,1,1
+China,Forest,Forest_Hainan,Forest_Hainan,1990,0.0030363,1990,1,1
+China,Forest,Forest_Hong,Forest_Hong,1990,0.0083378,1990,1,1
+China,Forest,Forest_HuangHeR,Forest_HuangHeR,1990,0.0166653,1990,1,1
+China,Forest,Forest_IrrawaddyR,Forest_IrrawaddyR,1990,0.0041231,1990,1,1
+China,Forest,Forest_LBalkash,Forest_LBalkash,1990,0.0004368,1990,1,1
+China,Forest,Forest_Mekong,Forest_Mekong,1990,0.011984,1990,1,1
+China,Forest,Forest_ObR,Forest_ObR,1990,0.0004178,1990,1,1
+China,Forest,Forest_RusCstSE,Forest_RusCstSE,1990,0.0042648,1990,1,1
+China,Forest,Forest_Salween,Forest_Salween,1990,0.0040706,1990,1,1
+China,Forest,Forest_SChinaSea,Forest_SChinaSea,1990,0.0049588,1990,1,1
+China,Forest,Forest_Taiwan,Forest_Taiwan,1990,0.0057403,1990,1,1
+China,Forest,Forest_Tarim,Forest_Tarim,1990,1.06e-05,1990,1,1
+China,Forest,Forest_XunJiang,Forest_XunJiang,1990,0.044318,1990,1,1
+China,Forest,Forest_Yangtze,Forest_Yangtze,1990,0.1172189,1990,1,1
+China,Forest,Forest_ZiyaHe,Forest_ZiyaHe,1990,0.0192508,1990,1,1
+EU-12,Forest,Forest_AdrBlkSea,Forest_AdrBlkSea,1990,0.0037202,1990,1,1
+EU-12,Forest,Forest_BalticSea,Forest_BalticSea,1990,0.0094857,1990,1,1
+EU-12,Forest,Forest_DanubeR,Forest_DanubeR,1990,0.0267627,1990,1,1
+EU-12,Forest,Forest_DaugavaR,Forest_DaugavaR,1990,0.0028811,1990,1,1
+EU-12,Forest,Forest_DniesterR,Forest_DniesterR,1990,6.95e-05,1990,1,1
+EU-12,Forest,Forest_DnkGrmCst,Forest_DnkGrmCst,1990,0,1990,0,0
+EU-12,Forest,Forest_ElbeR,Forest_ElbeR,1990,0.004318,1990,1,1
+EU-12,Forest,Forest_MeditE,Forest_MeditE,1990,0.0013911,1990,1,1
+EU-12,Forest,Forest_NarvaR,Forest_NarvaR,1990,0.0025666,1990,1,1
+EU-12,Forest,Forest_NemanR,Forest_NemanR,1990,0.0044225,1990,1,1
+EU-12,Forest,Forest_OderR,Forest_OderR,1990,0.0063852,1990,1,1
+EU-12,Forest,Forest_PolandCst,Forest_PolandCst,1990,0.0026316,1990,1,1
+EU-12,Forest,Forest_WislaR,Forest_WislaR,1990,0.0120319,1990,1,1
+EU-15,Forest,Forest_AdrBlkSea,Forest_AdrBlkSea,1990,0.0037852,1990,1,1
+EU-15,Forest,Forest_DanubeR,Forest_DanubeR,1990,0.0157165,1990,1,1
+EU-15,Forest,Forest_DnkGrmCst,Forest_DnkGrmCst,1990,0.0060501,1990,1,1
+EU-15,Forest,Forest_DouroR,Forest_DouroR,1990,0.0032338,1990,1,1
+EU-15,Forest,Forest_EbroR,Forest_EbroR,1990,0.0031134,1990,1,1
+EU-15,Forest,Forest_ElbeR,Forest_ElbeR,1990,0.0096947,1990,1,1
+EU-15,Forest,Forest_EmsWeserR,Forest_EmsWeserR,1990,0.0069701,1990,1,1
+EU-15,Forest,Forest_EngWales,Forest_EngWales,1990,0.0050066,1990,1,1
+EU-15,Forest,Forest_Finland,Forest_Finland,1990,0.0394787,1990,1,1
+EU-15,Forest,Forest_FranceCstS,Forest_FranceCstS,1990,0.0028135,1990,1,1
+EU-15,Forest,Forest_FranceCstW,Forest_FranceCstW,1990,0.0081307,1990,1,1
+EU-15,Forest,Forest_Gironde,Forest_Gironde,1990,0.0094736,1990,1,1
+EU-15,Forest,Forest_GuadalqR,Forest_GuadalqR,1990,0.0002432,1990,1,1
+EU-15,Forest,Forest_GuadianaR,Forest_GuadianaR,1990,0.0011047,1990,1,1
+EU-15,Forest,Forest_IberiaCst,Forest_IberiaCst,1990,0.0022041,1990,1,1
+EU-15,Forest,Forest_Ireland,Forest_Ireland,1990,0.002955,1990,1,1
+EU-15,Forest,Forest_ItalyCstE,Forest_ItalyCstE,1990,0.0043242,1990,1,1
+EU-15,Forest,Forest_ItalyCstW,Forest_ItalyCstW,1990,0.0056162,1990,1,1
+EU-15,Forest,Forest_LoireR,Forest_LoireR,1990,0.0101557,1990,1,1
+EU-15,Forest,Forest_MeditIsl,Forest_MeditIsl,1990,0.0023458,1990,1,1
+EU-15,Forest,Forest_NevaR,Forest_NevaR,1990,0.0007314,1990,1,1
+EU-15,Forest,Forest_OderR,Forest_OderR,1990,0.0006114,1990,1,1
+EU-15,Forest,Forest_PoR,Forest_PoR,1990,0.0059768,1990,1,1
+EU-15,Forest,Forest_RhineR,Forest_RhineR,1990,0.0178128,1990,1,1
+EU-15,Forest,Forest_RhoneR,Forest_RhoneR,1990,0.0102745,1990,1,1
+EU-15,Forest,Forest_ScheldtR,Forest_ScheldtR,1990,0.001991,1990,1,1
+EU-15,Forest,Forest_ScndnvN,Forest_ScndnvN,1990,0.004757,1990,1,1
+EU-15,Forest,Forest_Scotland,Forest_Scotland,1990,0.004711,1990,1,1
+EU-15,Forest,Forest_SeineR,Forest_SeineR,1990,0.0058812,1990,1,1
+EU-15,Forest,Forest_SpainCstSE,Forest_SpainCstSE,1990,0.002158,1990,1,1
+EU-15,Forest,Forest_Sweden,Forest_Sweden,1990,0.074787,1990,1,1
+EU-15,Forest,Forest_TagusR,Forest_TagusR,1990,0.001226,1990,1,1
+EU-15,Forest,Forest_TiberR,Forest_TiberR,1990,0.0015411,1990,1,1
+Europe_Eastern,Forest,Forest_BlackSeaN,Forest_BlackSeaN,1990,0.0008221,1990,1,1
+Europe_Eastern,Forest,Forest_DanubeR,Forest_DanubeR,1990,0.0010418,1990,1,1
+Europe_Eastern,Forest,Forest_DaugavaR,Forest_DaugavaR,1990,0.001412,1990,1,1
+Europe_Eastern,Forest,Forest_DnieperR,Forest_DnieperR,1990,0.009225,1990,1,1
+Europe_Eastern,Forest,Forest_DniesterR,Forest_DniesterR,1990,0.0007708,1990,1,1
+Europe_Eastern,Forest,Forest_DonR,Forest_DonR,1990,6.18e-05,1990,1,1
+Europe_Eastern,Forest,Forest_NemanR,Forest_NemanR,1990,0.0024033,1990,1,1
+Europe_Eastern,Forest,Forest_NevaR,Forest_NevaR,1990,4.03e-05,1990,1,1
+Europe_Eastern,Forest,Forest_WislaR,Forest_WislaR,1990,0.0004568,1990,1,1
+Europe_Non_EU,Forest,Forest_AdrBlkSea,Forest_AdrBlkSea,1990,0.0041859,1990,1,1
+Europe_Non_EU,Forest,Forest_BlackSeaS,Forest_BlackSeaS,1990,0.0098612,1990,1,1
+Europe_Non_EU,Forest,Forest_CaspianSW,Forest_CaspianSW,1990,0.0003536,1990,1,1
+Europe_Non_EU,Forest,Forest_DanubeR,Forest_DanubeR,1990,0.0064941,1990,1,1
+Europe_Non_EU,Forest,Forest_MeditE,Forest_MeditE,1990,0.0040544,1990,1,1
+Europe_Non_EU,Forest,Forest_TigrEuphR,Forest_TigrEuphR,1990,0.0004236,1990,1,1
+European Free Trade Association,Forest,Forest_DanubeR,Forest_DanubeR,1990,3.89e-05,1990,1,1
+European Free Trade Association,Forest,Forest_Iceland,Forest_Iceland,1990,0.0014376,1990,1,1
+European Free Trade Association,Forest,Forest_PoR,Forest_PoR,1990,0.0001004,1990,1,1
+European Free Trade Association,Forest,Forest_RhineR,Forest_RhineR,1990,0.0008109,1990,1,1
+European Free Trade Association,Forest,Forest_RhoneR,Forest_RhoneR,1990,0.0001618,1990,1,1
+European Free Trade Association,Forest,Forest_ScndnvN,Forest_ScndnvN,1990,0.0126517,1990,1,1
+European Free Trade Association,Forest,Forest_Sweden,Forest_Sweden,1990,0.0008899,1990,1,1
+India,Forest,Forest_BengalBay,Forest_BengalBay,1990,0.0042865,1990,1,1
+India,Forest,Forest_BengalW,Forest_BengalW,1990,0.0074158,1990,1,1
+India,Forest,Forest_BrahmaniR,Forest_BrahmaniR,1990,0.0097291,1990,1,1
+India,Forest,Forest_CauveryR,Forest_CauveryR,1990,0.0151057,1990,1,1
+India,Forest,Forest_GangesR,Forest_GangesR,1990,0.1043077,1990,1,1
+India,Forest,Forest_GodavariR,Forest_GodavariR,1990,0.0328014,1990,1,1
+India,Forest,Forest_IndCstE,Forest_IndCstE,1990,0.0050281,1990,1,1
+India,Forest,Forest_IndCstNE,Forest_IndCstNE,1990,0.0084151,1990,1,1
+India,Forest,Forest_IndCstS,Forest_IndCstS,1990,0.0085512,1990,1,1
+India,Forest,Forest_IndCstW,Forest_IndCstW,1990,0.0158683,1990,1,1
+India,Forest,Forest_IndusR,Forest_IndusR,1990,0.0047786,1990,1,1
+India,Forest,Forest_IrrawaddyR,Forest_IrrawaddyR,1990,0.0060595,1990,1,1
+India,Forest,Forest_KrishnaR,Forest_KrishnaR,1990,0.0201281,1990,1,1
+India,Forest,Forest_MahanadiR,Forest_MahanadiR,1990,0.0214481,1990,1,1
+India,Forest,Forest_MahiR,Forest_MahiR,1990,0.003388,1990,1,1
+India,Forest,Forest_NarmadaR,Forest_NarmadaR,1990,0.0070894,1990,1,1
+India,Forest,Forest_PennarR,Forest_PennarR,1990,0.0097099,1990,1,1
+India,Forest,Forest_SabarmatiR,Forest_SabarmatiR,1990,0.0081919,1990,1,1
+India,Forest,Forest_TaptiR,Forest_TaptiR,1990,0.0084906,1990,1,1
+Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,1990,0.0004395,1990,1,1
+Indonesia,Forest,Forest_FlyR,Forest_FlyR,1990,0.0003731,1990,1,1
+Indonesia,Forest,Forest_IdnE,Forest_IdnE,1990,0.00729,1990,1,1
+Indonesia,Forest,Forest_IrianJaya,Forest_IrianJaya,1990,0.0375102,1990,1,1
+Indonesia,Forest,Forest_JavaTimor,Forest_JavaTimor,1990,0.0093784,1990,1,1
+Indonesia,Forest,Forest_Kalimantan,Forest_Kalimantan,1990,0.0592115,1990,1,1
+Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,1990,7.5e-06,1990,1,1
+Indonesia,Forest,Forest_SepikR,Forest_SepikR,1990,0.0004001,1990,1,1
+Indonesia,Forest,Forest_Sulawesi,Forest_Sulawesi,1990,0.0162786,1990,1,1
+Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,1990,0.0356779,1990,1,1
+Japan,Forest,Forest_Japan,Forest_Japan,1990,0.0292287,1990,1,1
+Japan,Forest,Forest_Taiwan,Forest_Taiwan,1990,2.53e-05,1990,1,1
+Mexico,Forest,Forest_California,Forest_California,1990,6.23e-05,1990,1,1
+Mexico,Forest,Forest_CntAmer,Forest_CntAmer,1990,6.54e-05,1990,1,1
+Mexico,Forest,Forest_GrijUsuR,Forest_GrijUsuR,1990,0.0046448,1990,1,1
+Mexico,Forest,Forest_MexBaja,Forest_MexBaja,1990,0.0005413,1990,1,1
+Mexico,Forest,Forest_MexCstNW,Forest_MexCstNW,1990,0.0110022,1990,1,1
+Mexico,Forest,Forest_MexCstW,Forest_MexCstW,1990,0.0016192,1990,1,1
+Mexico,Forest,Forest_MexGulf,Forest_MexGulf,1990,0.001134,1990,1,1
+Mexico,Forest,Forest_MexInt,Forest_MexInt,1990,0.0005376,1990,1,1
+Mexico,Forest,Forest_Papaloapan,Forest_Papaloapan,1990,0.0010437,1990,1,1
+Mexico,Forest,Forest_RioBalsas,Forest_RioBalsas,1990,0.0026807,1990,1,1
+Mexico,Forest,Forest_RioGrande,Forest_RioGrande,1990,0.0008489,1990,1,1
+Mexico,Forest,Forest_RioLerma,Forest_RioLerma,1990,0.0019047,1990,1,1
+Mexico,Forest,Forest_RioVerde,Forest_RioVerde,1990,0.0013787,1990,1,1
+Mexico,Forest,Forest_Tehuantpc,Forest_Tehuantpc,1990,0.0029223,1990,1,1
+Mexico,Forest,Forest_UsaColoRS,Forest_UsaColoRS,1990,6.4e-05,1990,1,1
+Mexico,Forest,Forest_YucatanP,Forest_YucatanP,1990,0.0113699,1990,1,1
+Middle East,Forest,Forest_CaspianE,Forest_CaspianE,1990,0.0004598,1990,1,1
+Middle East,Forest,Forest_CaspianSW,Forest_CaspianSW,1990,0.0008402,1990,1,1
+Middle East,Forest,Forest_Iran,Forest_Iran,1990,5.5e-06,1990,1,1
+Middle East,Forest,Forest_MeditE,Forest_MeditE,1990,1.09e-05,1990,1,1
+Middle East,Forest,Forest_TigrEuphR,Forest_TigrEuphR,1990,0.0008097,1990,1,1
+Pakistan,Forest,Forest_IndusR,Forest_IndusR,1990,0.0230475,1990,1,1
+Russia,Forest,Forest_AmurR,Forest_AmurR,1990,0.0217158,1990,1,1
+Russia,Forest,Forest_ArcticIsl,Forest_ArcticIsl,1990,8e-07,1990,1,1
+Russia,Forest,Forest_BalticSea,Forest_BalticSea,1990,0.0005549,1990,1,1
+Russia,Forest,Forest_BarentsSea,Forest_BarentsSea,1990,0.0177797,1990,1,1
+Russia,Forest,Forest_BlackSeaN,Forest_BlackSeaN,1990,0.0008854,1990,1,1
+Russia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,1990,1.4e-06,1990,1,1
+Russia,Forest,Forest_CaspianNE,Forest_CaspianNE,1990,0.0006558,1990,1,1
+Russia,Forest,Forest_CaspianSW,Forest_CaspianSW,1990,1.5e-06,1990,1,1
+Russia,Forest,Forest_DaugavaR,Forest_DaugavaR,1990,0.0005735,1990,1,1
+Russia,Forest,Forest_DnieperR,Forest_DnieperR,1990,0.0008132,1990,1,1
+Russia,Forest,Forest_DonR,Forest_DonR,1990,9.46e-05,1990,1,1
+Russia,Forest,Forest_DvinaRN,Forest_DvinaRN,1990,0.0072839,1990,1,1
+Russia,Forest,Forest_Finland,Forest_Finland,1990,0.0003755,1990,1,1
+Russia,Forest,Forest_Gobi,Forest_Gobi,1990,0.0001303,1990,1,1
+Russia,Forest,Forest_KaraSea,Forest_KaraSea,1990,0.0081927,1990,1,1
+Russia,Forest,Forest_LenaR,Forest_LenaR,1990,0.057521,1990,1,1
+Russia,Forest,Forest_NarvaR,Forest_NarvaR,1990,0.0008792,1990,1,1
+Russia,Forest,Forest_NemanR,Forest_NemanR,1990,2.62e-05,1990,1,1
+Russia,Forest,Forest_NevaR,Forest_NevaR,1990,0.004864,1990,1,1
+Russia,Forest,Forest_ObR,Forest_ObR,1990,0.0428495,1990,1,1
+Russia,Forest,Forest_PolandCst,Forest_PolandCst,1990,5.56e-05,1990,1,1
+Russia,Forest,Forest_RusCstSE,Forest_RusCstSE,1990,0.0024849,1990,1,1
+Russia,Forest,Forest_ScndnvN,Forest_ScndnvN,1990,0.0051015,1990,1,1
+Russia,Forest,Forest_SiberiaN,Forest_SiberiaN,1990,0.0147753,1990,1,1
+Russia,Forest,Forest_SiberiaW,Forest_SiberiaW,1990,0.0626812,1990,1,1
+Russia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,1990,3.1e-06,1990,1,1
+Russia,Forest,Forest_UralR,Forest_UralR,1990,0.0003827,1990,1,1
+Russia,Forest,Forest_VolgaR,Forest_VolgaR,1990,0.0232117,1990,1,1
+Russia,Forest,Forest_YeniseiR,Forest_YeniseiR,1990,0.0507521,1990,1,1
+South Africa,Forest,Forest_AfrCstS,Forest_AfrCstS,1990,0.0253564,1990,1,1
+South Africa,Forest,Forest_AfrCstSSW,Forest_AfrCstSSW,1990,0.0001867,1990,1,1
+South Africa,Forest,Forest_LimpopoR,Forest_LimpopoR,1990,0.0023412,1990,1,1
+South Africa,Forest,Forest_OrangeR,Forest_OrangeR,1990,0.0003203,1990,1,1
+South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,1990,3e-06,1990,1,1
+South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,1990,0.0023675,1990,1,1
+South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,1990,0.0004356,1990,1,1
+South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,1990,0.0026242,1990,1,1
+South America_Southern,Forest,Forest_ArgCstS,Forest_ArgCstS,1990,1.02e-05,1990,1,1
+South America_Southern,Forest,Forest_ChileCstN,Forest_ChileCstN,1990,0.0001927,1990,1,1
+South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,1990,0.0026585,1990,1,1
+South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,1990,0.0009899,1990,1,1
+South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,1990,2.51e-05,1990,1,1
+South America_Southern,Forest,Forest_NegroR,Forest_NegroR,1990,1.85e-05,1990,1,1
+South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,1990,0.0434626,1990,1,1
+South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,1990,0.0005882,1990,1,1
+South America_Southern,Forest,Forest_RioLaPlata,Forest_RioLaPlata,1990,0.0040126,1990,1,1
+South Asia,Forest,Forest_AmuDaryaR,Forest_AmuDaryaR,1990,8.67e-05,1990,1,1
+South Asia,Forest,Forest_BengalBay,Forest_BengalBay,1990,0.0034547,1990,1,1
+South Asia,Forest,Forest_GangesR,Forest_GangesR,1990,0.0357137,1990,1,1
+South Asia,Forest,Forest_SriLanka,Forest_SriLanka,1990,0.0164292,1990,1,1
+South Korea,Forest,Forest_Korea,Forest_Korea,1990,0.003911,1990,1,1
+Southeast Asia,Forest,Forest_BengalBay,Forest_BengalBay,1990,0.0040058,1990,1,1
+Southeast Asia,Forest,Forest_BoHai,Forest_BoHai,1990,0.0013143,1990,1,1
+Southeast Asia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,1990,0.0161541,1990,1,1
+Southeast Asia,Forest,Forest_ChaoPhrR,Forest_ChaoPhrR,1990,0.0070551,1990,1,1
+Southeast Asia,Forest,Forest_FlyR,Forest_FlyR,1990,0.0047306,1990,1,1
+Southeast Asia,Forest,Forest_GangesR,Forest_GangesR,1990,0.0001069,1990,1,1
+Southeast Asia,Forest,Forest_Hong,Forest_Hong,1990,0.0031256,1990,1,1
+Southeast Asia,Forest,Forest_IdnE,Forest_IdnE,1990,3.7e-06,1990,1,1
+Southeast Asia,Forest,Forest_IrianJaya,Forest_IrianJaya,1990,0.0012565,1990,1,1
+Southeast Asia,Forest,Forest_IrrawaddyR,Forest_IrrawaddyR,1990,0.0205877,1990,1,1
+Southeast Asia,Forest,Forest_JavaTimor,Forest_JavaTimor,1990,0.0010306,1990,1,1
+Southeast Asia,Forest,Forest_Kalimantan,Forest_Kalimantan,1990,0.0008297,1990,1,1
+Southeast Asia,Forest,Forest_Korea,Forest_Korea,1990,0.002445,1990,1,1
+Southeast Asia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,1990,0.0184292,1990,1,1
+Southeast Asia,Forest,Forest_Mekong,Forest_Mekong,1990,0.0319604,1990,1,1
+Southeast Asia,Forest,Forest_NewCaledn,Forest_NewCaledn,1990,7.03e-05,1990,1,1
+Southeast Asia,Forest,Forest_PapuaCst,Forest_PapuaCst,1990,0.0216275,1990,1,1
+Southeast Asia,Forest,Forest_Phlppns,Forest_Phlppns,1990,0.0166237,1990,1,1
+Southeast Asia,Forest,Forest_RusCstSE,Forest_RusCstSE,1990,0.0003519,1990,1,1
+Southeast Asia,Forest,Forest_Salween,Forest_Salween,1990,0.0090033,1990,1,1
+Southeast Asia,Forest,Forest_SChinaSea,Forest_SChinaSea,1990,0.000237,1990,1,1
+Southeast Asia,Forest,Forest_SepikR,Forest_SepikR,1990,0.0065491,1990,1,1
+Southeast Asia,Forest,Forest_SittaungR,Forest_SittaungR,1990,0.0035031,1990,1,1
+Southeast Asia,Forest,Forest_ThaiGulf,Forest_ThaiGulf,1990,0.0031728,1990,1,1
+Southeast Asia,Forest,Forest_VietnamCst,Forest_VietnamCst,1990,0.0101092,1990,1,1
+Southeast Asia,Forest,Forest_XunJiang,Forest_XunJiang,1990,0.0004053,1990,1,1
+Argentina,Forest,Forest_ArgColoR,Forest_ArgColoR,1990,0.0002011,1990,1,1
+Argentina,Forest,Forest_ArgCstN,Forest_ArgCstN,1990,2e-06,1990,1,1
+Argentina,Forest,Forest_ArgCstS,Forest_ArgCstS,1990,0.0003577,1990,1,1
+Argentina,Forest,Forest_ChileCstS,Forest_ChileCstS,1990,0.0005117,1990,1,1
+Argentina,Forest,Forest_MarChiq,Forest_MarChiq,1990,0.0004139,1990,1,1
+Argentina,Forest,Forest_NegroR,Forest_NegroR,1990,0.0008596,1990,1,1
+Argentina,Forest,Forest_Pampas,Forest_Pampas,1990,4.8e-06,1990,1,1
+Argentina,Forest,Forest_Patagonia,Forest_Patagonia,1990,5.42e-05,1990,1,1
+Argentina,Forest,Forest_RioLaPlata,Forest_RioLaPlata,1990,0.0074342,1990,1,1
+Argentina,Forest,Forest_Salinas,Forest_Salinas,1990,7.19e-05,1990,1,1
+Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,1990,0.0004037,1990,1,1
+Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,1990,0.0016407,1990,1,1
+Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,1990,0.007628,1990,1,1
+Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,1990,0.0006053,1990,1,1
+USA,Forest,Forest_ArkWhtRedR,Forest_ArkWhtRedR,2005,0.0148738,2005,1,1
+USA,Forest,Forest_California,Forest_California,2005,0.0200055,2005,1,1
+USA,Forest,Forest_Caribbean,Forest_Caribbean,2005,0.0008114,2005,1,1
+USA,Forest,Forest_FraserR,Forest_FraserR,2005,6.07e-05,2005,1,1
+USA,Forest,Forest_GreatBasin,Forest_GreatBasin,2005,0.0036488,2005,1,1
+USA,Forest,Forest_GreatLakes,Forest_GreatLakes,2005,0.0259734,2005,1,1
+USA,Forest,Forest_MissouriR,Forest_MissouriR,2005,0.012221,2005,1,1
+USA,Forest,Forest_MissppRN,Forest_MissppRN,2005,0.0114061,2005,1,1
+USA,Forest,Forest_MissppRS,Forest_MissppRS,2005,0.0176008,2005,1,1
+USA,Forest,Forest_NelsonR,Forest_NelsonR,2005,0.0042047,2005,1,1
+USA,Forest,Forest_OhioR,Forest_OhioR,2005,0.0295938,2005,1,1
+USA,Forest,Forest_PacArctic,Forest_PacArctic,2005,0.1113187,2005,1,1
+USA,Forest,Forest_RioGrande,Forest_RioGrande,2005,0.0038837,2005,1,1
+USA,Forest,Forest_TennR,Forest_TennR,2005,0.0094419,2005,1,1
+USA,Forest,Forest_TexasCst,Forest_TexasCst,2005,0.0072053,2005,1,1
+USA,Forest,Forest_UsaColoRN,Forest_UsaColoRN,2005,0.0087333,2005,1,1
+USA,Forest,Forest_UsaColoRS,Forest_UsaColoRS,2005,0.0054084,2005,1,1
+USA,Forest,Forest_UsaCstE,Forest_UsaCstE,2005,0.0227407,2005,1,1
+USA,Forest,Forest_UsaCstNE,Forest_UsaCstNE,2005,0.0174832,2005,1,1
+USA,Forest,Forest_UsaCstSE,Forest_UsaCstSE,2005,0.0752852,2005,1,1
+USA,Forest,Forest_UsaPacNW,Forest_UsaPacNW,2005,0.0500547,2005,1,1
+Africa_Eastern,Forest,Forest_AfrCstE,Forest_AfrCstE,2005,0.0118946,2005,1,1
+Africa_Eastern,Forest,Forest_AfrCstNE,Forest_AfrCstNE,2005,0.0006508,2005,1,1
+Africa_Eastern,Forest,Forest_CongoR,Forest_CongoR,2005,0.0006136,2005,1,1
+Africa_Eastern,Forest,Forest_Madasgacar,Forest_Madasgacar,2005,0.1093281,2005,1,1
+Africa_Eastern,Forest,Forest_NileR,Forest_NileR,2005,0.0545666,2005,1,1
+Africa_Eastern,Forest,Forest_RiftValley,Forest_RiftValley,2005,0.0284724,2005,1,1
+Africa_Eastern,Forest,Forest_ShebJubR,Forest_ShebJubR,2005,0.0171007,2005,1,1
+Africa_Northern,Forest,Forest_AfrCstNW,Forest_AfrCstNW,2005,0.0315733,2005,1,1
+Africa_Northern,Forest,Forest_AfrIntN,Forest_AfrIntN,2005,0,2005,0,0
+Africa_Northern,Forest,Forest_MeditS,Forest_MeditS,2005,9.58e-05,2005,1,1
+Africa_Northern,Forest,Forest_NileR,Forest_NileR,2005,0.0040829,2005,1,1
+Africa_Southern,Forest,Forest_AfrCstE,Forest_AfrCstE,2005,0.0117903,2005,1,1
+Africa_Southern,Forest,Forest_AfrCstS,Forest_AfrCstS,2005,0.000339,2005,1,1
+Africa_Southern,Forest,Forest_AfrCstSE,Forest_AfrCstSE,2005,0.0019999,2005,1,1
+Africa_Southern,Forest,Forest_AfrIntS,Forest_AfrIntS,2005,0.0044082,2005,1,1
+Africa_Southern,Forest,Forest_AngolaCst,Forest_AngolaCst,2005,0.009797,2005,1,1
+Africa_Southern,Forest,Forest_CongoR,Forest_CongoR,2005,0.023218,2005,1,1
+Africa_Southern,Forest,Forest_GuineaGulf,Forest_GuineaGulf,2005,0.0002424,2005,1,1
+Africa_Southern,Forest,Forest_LimpopoR,Forest_LimpopoR,2005,7.53e-05,2005,1,1
+Africa_Southern,Forest,Forest_NileR,Forest_NileR,2005,0.0009287,2005,1,1
+Africa_Southern,Forest,Forest_RiftValley,Forest_RiftValley,2005,0.0015814,2005,1,1
+Africa_Southern,Forest,Forest_ZambeziR,Forest_ZambeziR,2005,0.022387,2005,1,1
+Africa_Western,Forest,Forest_AfrCstW,Forest_AfrCstW,2005,0.0249871,2005,1,1
+Africa_Western,Forest,Forest_CongoR,Forest_CongoR,2005,0.2065098,2005,1,1
+Africa_Western,Forest,Forest_GuineaGulf,Forest_GuineaGulf,2005,0.039295,2005,1,1
+Africa_Western,Forest,Forest_LChad,Forest_LChad,2005,0.0007144,2005,1,1
+Africa_Western,Forest,Forest_NigerR,Forest_NigerR,2005,0.0096968,2005,1,1
+Africa_Western,Forest,Forest_NileR,Forest_NileR,2005,0.0005697,2005,1,1
+Africa_Western,Forest,Forest_SenegalR,Forest_SenegalR,2005,0.0001583,2005,1,1
+Africa_Western,Forest,Forest_VoltaR,Forest_VoltaR,2005,0.0043252,2005,1,1
+Africa_Western,Forest,Forest_ZambeziR,Forest_ZambeziR,2005,9.85e-05,2005,1,1
+Australia_NZ,Forest,Forest_AusCstE,Forest_AusCstE,2005,0.029589,2005,1,1
+Australia_NZ,Forest,Forest_AusCstN,Forest_AusCstN,2005,0.0013803,2005,1,1
+Australia_NZ,Forest,Forest_AusCstS,Forest_AusCstS,2005,0.0003702,2005,1,1
+Australia_NZ,Forest,Forest_AusCstW,Forest_AusCstW,2005,0.0007298,2005,1,1
+Australia_NZ,Forest,Forest_AusInt,Forest_AusInt,2005,1.09e-05,2005,1,1
+Australia_NZ,Forest,Forest_MurrayDrlg,Forest_MurrayDrlg,2005,0.0077074,2005,1,1
+Australia_NZ,Forest,Forest_NewZealand,Forest_NewZealand,2005,0.0086289,2005,1,1
+Australia_NZ,Forest,Forest_Tasmania,Forest_Tasmania,2005,0.0033277,2005,1,1
+Brazil,Forest,Forest_AmazonR,Forest_AmazonR,2005,0.0033155,2005,1,1
+Brazil,Forest,Forest_BrzCstE,Forest_BrzCstE,2005,0.0002407,2005,1,1
+Brazil,Forest,Forest_BrzCstN,Forest_BrzCstN,2005,0.0084505,2005,1,1
+Brazil,Forest,Forest_BrzCstS,Forest_BrzCstS,2005,0.0125927,2005,1,1
+Brazil,Forest,Forest_OrinocoR,Forest_OrinocoR,2005,0.1978393,2005,1,1
+Brazil,Forest,Forest_ParnaibaR,Forest_ParnaibaR,2005,0.0022046,2005,1,1
+Brazil,Forest,Forest_RioLaPlata,Forest_RioLaPlata,2005,0.0100076,2005,1,1
+Brazil,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2005,0.0047129,2005,1,1
+Brazil,Forest,Forest_SaoFrancR,Forest_SaoFrancR,2005,0.0020578,2005,1,1
+Brazil,Forest,Forest_TocantinsR,Forest_TocantinsR,2005,0.0133363,2005,1,1
+Canada,Forest,Forest_CanAtl,Forest_CanAtl,2005,0.0151953,2005,1,1
+Canada,Forest,Forest_ChurchillR,Forest_ChurchillR,2005,0.0027406,2005,1,1
+Canada,Forest,Forest_FraserR,Forest_FraserR,2005,0.0065371,2005,1,1
+Canada,Forest,Forest_GreatLakes,Forest_GreatLakes,2005,0.0135413,2005,1,1
+Canada,Forest,Forest_HudsonBay,Forest_HudsonBay,2005,0.0432976,2005,1,1
+Canada,Forest,Forest_Mackenzie,Forest_Mackenzie,2005,0.0449002,2005,1,1
+Canada,Forest,Forest_MissouriR,Forest_MissouriR,2005,5.5e-06,2005,1,1
+Canada,Forest,Forest_NelsonR,Forest_NelsonR,2005,0.0134417,2005,1,1
+Canada,Forest,Forest_NWTerr,Forest_NWTerr,2005,0.0202581,2005,1,1
+Canada,Forest,Forest_PacArctic,Forest_PacArctic,2005,0.0160079,2005,1,1
+Canada,Forest,Forest_StLwrncR,Forest_StLwrncR,2005,0.0073801,2005,1,1
+Canada,Forest,Forest_UsaCstNE,Forest_UsaCstNE,2005,0.0016103,2005,1,1
+Canada,Forest,Forest_UsaPacNW,Forest_UsaPacNW,2005,0.0029575,2005,1,1
+Central America and Caribbean,Forest,Forest_Caribbean,Forest_Caribbean,2005,0.0082601,2005,1,1
+Central America and Caribbean,Forest,Forest_CntAmer,Forest_CntAmer,2005,0.0286019,2005,1,1
+Central America and Caribbean,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2005,0.0017636,2005,1,1
+Central America and Caribbean,Forest,Forest_GrijUsuR,Forest_GrijUsuR,2005,0.0042246,2005,1,1
+Central America and Caribbean,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2005,0.0007289,2005,1,1
+Central America and Caribbean,Forest,Forest_YucatanP,Forest_YucatanP,2005,0.0062488,2005,1,1
+Central Asia,Forest,Forest_AmuDaryaR,Forest_AmuDaryaR,2005,1.23e-05,2005,1,1
+Central Asia,Forest,Forest_AmurR,Forest_AmurR,2005,3.19e-05,2005,1,1
+Central Asia,Forest,Forest_BlackSeaN,Forest_BlackSeaN,2005,1.56e-05,2005,1,1
+Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2005,0.0003978,2005,1,1
+Central Asia,Forest,Forest_CaspianNE,Forest_CaspianNE,2005,2.35e-05,2005,1,1
+Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2005,0.0008134,2005,1,1
+Central Asia,Forest,Forest_Gobi,Forest_Gobi,2005,3.03e-05,2005,1,1
+Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2005,2.36e-05,2005,1,1
+Central Asia,Forest,Forest_ObR,Forest_ObR,2005,0.0002828,2005,1,1
+Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2005,9.87e-05,2005,1,1
+Central Asia,Forest,Forest_Tarim,Forest_Tarim,2005,4e-07,2005,1,1
+Central Asia,Forest,Forest_UralR,Forest_UralR,2005,8e-07,2005,1,1
+Central Asia,Forest,Forest_VolgaR,Forest_VolgaR,2005,6e-07,2005,1,1
+Central Asia,Forest,Forest_YeniseiR,Forest_YeniseiR,2005,0.0002617,2005,1,1
+China,Forest,Forest_AmurR,Forest_AmurR,2005,0.0469679,2005,1,1
+China,Forest,Forest_BoHai,Forest_BoHai,2005,0.0132313,2005,1,1
+China,Forest,Forest_ChinaCst,Forest_ChinaCst,2005,0.0437256,2005,1,1
+China,Forest,Forest_GangesR,Forest_GangesR,2005,0.0002739,2005,1,1
+China,Forest,Forest_Gobi,Forest_Gobi,2005,0.000107,2005,1,1
+China,Forest,Forest_Hainan,Forest_Hainan,2005,0.0032434,2005,1,1
+China,Forest,Forest_Hong,Forest_Hong,2005,0.0051212,2005,1,1
+China,Forest,Forest_HuangHeR,Forest_HuangHeR,2005,0.0120625,2005,1,1
+China,Forest,Forest_IrrawaddyR,Forest_IrrawaddyR,2005,0.0031309,2005,1,1
+China,Forest,Forest_LBalkash,Forest_LBalkash,2005,0.0003752,2005,1,1
+China,Forest,Forest_Mekong,Forest_Mekong,2005,0.0090554,2005,1,1
+China,Forest,Forest_ObR,Forest_ObR,2005,0.0002605,2005,1,1
+China,Forest,Forest_RusCstSE,Forest_RusCstSE,2005,0.003273,2005,1,1
+China,Forest,Forest_Salween,Forest_Salween,2005,0.0029036,2005,1,1
+China,Forest,Forest_SChinaSea,Forest_SChinaSea,2005,0.0057594,2005,1,1
+China,Forest,Forest_Taiwan,Forest_Taiwan,2005,0.0042933,2005,1,1
+China,Forest,Forest_Tarim,Forest_Tarim,2005,9.1e-06,2005,1,1
+China,Forest,Forest_XunJiang,Forest_XunJiang,2005,0.0333021,2005,1,1
+China,Forest,Forest_Yangtze,Forest_Yangtze,2005,0.0983911,2005,1,1
+China,Forest,Forest_ZiyaHe,Forest_ZiyaHe,2005,0.0158576,2005,1,1
+EU-12,Forest,Forest_AdrBlkSea,Forest_AdrBlkSea,2005,0.0054027,2005,1,1
+EU-12,Forest,Forest_BalticSea,Forest_BalticSea,2005,0.0126139,2005,1,1
+EU-12,Forest,Forest_DanubeR,Forest_DanubeR,2005,0.0379033,2005,1,1
+EU-12,Forest,Forest_DaugavaR,Forest_DaugavaR,2005,0.0038909,2005,1,1
+EU-12,Forest,Forest_DniesterR,Forest_DniesterR,2005,8.63e-05,2005,1,1
+EU-12,Forest,Forest_DnkGrmCst,Forest_DnkGrmCst,2005,4.5e-06,2005,1,1
+EU-12,Forest,Forest_ElbeR,Forest_ElbeR,2005,0.0055419,2005,1,1
+EU-12,Forest,Forest_MeditE,Forest_MeditE,2005,0.0016975,2005,1,1
+EU-12,Forest,Forest_NarvaR,Forest_NarvaR,2005,0.0034441,2005,1,1
+EU-12,Forest,Forest_NemanR,Forest_NemanR,2005,0.0070938,2005,1,1
+EU-12,Forest,Forest_OderR,Forest_OderR,2005,0.0111186,2005,1,1
+EU-12,Forest,Forest_PolandCst,Forest_PolandCst,2005,0.0034404,2005,1,1
+EU-12,Forest,Forest_WislaR,Forest_WislaR,2005,0.0194147,2005,1,1
+EU-15,Forest,Forest_AdrBlkSea,Forest_AdrBlkSea,2005,0.0090506,2005,1,1
+EU-15,Forest,Forest_DanubeR,Forest_DanubeR,2005,0.0184813,2005,1,1
+EU-15,Forest,Forest_DnkGrmCst,Forest_DnkGrmCst,2005,0.0058579,2005,1,1
+EU-15,Forest,Forest_DouroR,Forest_DouroR,2005,0.0028496,2005,1,1
+EU-15,Forest,Forest_EbroR,Forest_EbroR,2005,0.0030258,2005,1,1
+EU-15,Forest,Forest_ElbeR,Forest_ElbeR,2005,0.0106658,2005,1,1
+EU-15,Forest,Forest_EmsWeserR,Forest_EmsWeserR,2005,0.006473,2005,1,1
+EU-15,Forest,Forest_EngWales,Forest_EngWales,2005,0.0067482,2005,1,1
+EU-15,Forest,Forest_Finland,Forest_Finland,2005,0.0437215,2005,1,1
+EU-15,Forest,Forest_FranceCstS,Forest_FranceCstS,2005,0.0028361,2005,1,1
+EU-15,Forest,Forest_FranceCstW,Forest_FranceCstW,2005,0.0104024,2005,1,1
+EU-15,Forest,Forest_Gironde,Forest_Gironde,2005,0.0092849,2005,1,1
+EU-15,Forest,Forest_GuadalqR,Forest_GuadalqR,2005,0.0004349,2005,1,1
+EU-15,Forest,Forest_GuadianaR,Forest_GuadianaR,2005,0.0011258,2005,1,1
+EU-15,Forest,Forest_IberiaCst,Forest_IberiaCst,2005,0.0023402,2005,1,1
+EU-15,Forest,Forest_Ireland,Forest_Ireland,2005,0.0070346,2005,1,1
+EU-15,Forest,Forest_ItalyCstE,Forest_ItalyCstE,2005,0.0053168,2005,1,1
+EU-15,Forest,Forest_ItalyCstW,Forest_ItalyCstW,2005,0.0063621,2005,1,1
+EU-15,Forest,Forest_LoireR,Forest_LoireR,2005,0.0113019,2005,1,1
+EU-15,Forest,Forest_MeditIsl,Forest_MeditIsl,2005,0.0026477,2005,1,1
+EU-15,Forest,Forest_NevaR,Forest_NevaR,2005,0.0008256,2005,1,1
+EU-15,Forest,Forest_OderR,Forest_OderR,2005,0.0005711,2005,1,1
+EU-15,Forest,Forest_PoR,Forest_PoR,2005,0.0080446,2005,1,1
+EU-15,Forest,Forest_RhineR,Forest_RhineR,2005,0.0223048,2005,1,1
+EU-15,Forest,Forest_RhoneR,Forest_RhoneR,2005,0.0108528,2005,1,1
+EU-15,Forest,Forest_ScheldtR,Forest_ScheldtR,2005,0.002041,2005,1,1
+EU-15,Forest,Forest_ScndnvN,Forest_ScndnvN,2005,0.00524,2005,1,1
+EU-15,Forest,Forest_Scotland,Forest_Scotland,2005,0.0056757,2005,1,1
+EU-15,Forest,Forest_SeineR,Forest_SeineR,2005,0.0067846,2005,1,1
+EU-15,Forest,Forest_SpainCstSE,Forest_SpainCstSE,2005,0.002243,2005,1,1
+EU-15,Forest,Forest_Sweden,Forest_Sweden,2005,0.0827323,2005,1,1
+EU-15,Forest,Forest_TagusR,Forest_TagusR,2005,0.001177,2005,1,1
+EU-15,Forest,Forest_TiberR,Forest_TiberR,2005,0.0017839,2005,1,1
+Europe_Eastern,Forest,Forest_BlackSeaN,Forest_BlackSeaN,2005,0.0014102,2005,1,1
+Europe_Eastern,Forest,Forest_DanubeR,Forest_DanubeR,2005,0.0016529,2005,1,1
+Europe_Eastern,Forest,Forest_DaugavaR,Forest_DaugavaR,2005,0.0022047,2005,1,1
+Europe_Eastern,Forest,Forest_DnieperR,Forest_DnieperR,2005,0.0127593,2005,1,1
+Europe_Eastern,Forest,Forest_DniesterR,Forest_DniesterR,2005,0.0017283,2005,1,1
+Europe_Eastern,Forest,Forest_DonR,Forest_DonR,2005,0.0001566,2005,1,1
+Europe_Eastern,Forest,Forest_NemanR,Forest_NemanR,2005,0.0031276,2005,1,1
+Europe_Eastern,Forest,Forest_NevaR,Forest_NevaR,2005,5.48e-05,2005,1,1
+Europe_Eastern,Forest,Forest_WislaR,Forest_WislaR,2005,0.0009315,2005,1,1
+Europe_Non_EU,Forest,Forest_AdrBlkSea,Forest_AdrBlkSea,2005,0.0052032,2005,1,1
+Europe_Non_EU,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2005,0.009932,2005,1,1
+Europe_Non_EU,Forest,Forest_CaspianSW,Forest_CaspianSW,2005,0.0003656,2005,1,1
+Europe_Non_EU,Forest,Forest_DanubeR,Forest_DanubeR,2005,0.009561,2005,1,1
+Europe_Non_EU,Forest,Forest_MeditE,Forest_MeditE,2005,0.0037967,2005,1,1
+Europe_Non_EU,Forest,Forest_TigrEuphR,Forest_TigrEuphR,2005,0.000579,2005,1,1
+European Free Trade Association,Forest,Forest_DanubeR,Forest_DanubeR,2005,4.25e-05,2005,1,1
+European Free Trade Association,Forest,Forest_Iceland,Forest_Iceland,2005,0.0014328,2005,1,1
+European Free Trade Association,Forest,Forest_PoR,Forest_PoR,2005,9.8e-05,2005,1,1
+European Free Trade Association,Forest,Forest_RhineR,Forest_RhineR,2005,0.0009047,2005,1,1
+European Free Trade Association,Forest,Forest_RhoneR,Forest_RhoneR,2005,0.0001662,2005,1,1
+European Free Trade Association,Forest,Forest_ScndnvN,Forest_ScndnvN,2005,0.0113219,2005,1,1
+European Free Trade Association,Forest,Forest_Sweden,Forest_Sweden,2005,0.0008099,2005,1,1
+India,Forest,Forest_BengalBay,Forest_BengalBay,2005,0.0041683,2005,1,1
+India,Forest,Forest_BengalW,Forest_BengalW,2005,0.0077817,2005,1,1
+India,Forest,Forest_BrahmaniR,Forest_BrahmaniR,2005,0.0070996,2005,1,1
+India,Forest,Forest_CauveryR,Forest_CauveryR,2005,0.0151834,2005,1,1
+India,Forest,Forest_GangesR,Forest_GangesR,2005,0.1219467,2005,1,1
+India,Forest,Forest_GodavariR,Forest_GodavariR,2005,0.04093,2005,1,1
+India,Forest,Forest_IndCstE,Forest_IndCstE,2005,0.0035773,2005,1,1
+India,Forest,Forest_IndCstNE,Forest_IndCstNE,2005,0.0060356,2005,1,1
+India,Forest,Forest_IndCstS,Forest_IndCstS,2005,0.0100328,2005,1,1
+India,Forest,Forest_IndCstW,Forest_IndCstW,2005,0.018081,2005,1,1
+India,Forest,Forest_IndusR,Forest_IndusR,2005,0.0030781,2005,1,1
+India,Forest,Forest_IrrawaddyR,Forest_IrrawaddyR,2005,0.0060626,2005,1,1
+India,Forest,Forest_KrishnaR,Forest_KrishnaR,2005,0.0259377,2005,1,1
+India,Forest,Forest_MahanadiR,Forest_MahanadiR,2005,0.0159868,2005,1,1
+India,Forest,Forest_MahiR,Forest_MahiR,2005,0.0051803,2005,1,1
+India,Forest,Forest_NarmadaR,Forest_NarmadaR,2005,0.01352,2005,1,1
+India,Forest,Forest_PennarR,Forest_PennarR,2005,0.0060545,2005,1,1
+India,Forest,Forest_SabarmatiR,Forest_SabarmatiR,2005,0.0076597,2005,1,1
+India,Forest,Forest_TaptiR,Forest_TaptiR,2005,0.0088855,2005,1,1
+Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2005,0.0003038,2005,1,1
+Indonesia,Forest,Forest_FlyR,Forest_FlyR,2005,0.000283,2005,1,1
+Indonesia,Forest,Forest_IdnE,Forest_IdnE,2005,0.0056438,2005,1,1
+Indonesia,Forest,Forest_IrianJaya,Forest_IrianJaya,2005,0.0287067,2005,1,1
+Indonesia,Forest,Forest_JavaTimor,Forest_JavaTimor,2005,0.0073395,2005,1,1
+Indonesia,Forest,Forest_Kalimantan,Forest_Kalimantan,2005,0.0437256,2005,1,1
+Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2005,3.7e-06,2005,1,1
+Indonesia,Forest,Forest_SepikR,Forest_SepikR,2005,0.0003095,2005,1,1
+Indonesia,Forest,Forest_Sulawesi,Forest_Sulawesi,2005,0.0130072,2005,1,1
+Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2005,0.0240781,2005,1,1
+Japan,Forest,Forest_Japan,Forest_Japan,2005,0.0163376,2005,1,1
+Japan,Forest,Forest_Taiwan,Forest_Taiwan,2005,1.44e-05,2005,1,1
+Mexico,Forest,Forest_California,Forest_California,2005,7.29e-05,2005,1,1
+Mexico,Forest,Forest_CntAmer,Forest_CntAmer,2005,0.0001332,2005,1,1
+Mexico,Forest,Forest_GrijUsuR,Forest_GrijUsuR,2005,0.0051851,2005,1,1
+Mexico,Forest,Forest_MexBaja,Forest_MexBaja,2005,0.0005868,2005,1,1
+Mexico,Forest,Forest_MexCstNW,Forest_MexCstNW,2005,0.0119101,2005,1,1
+Mexico,Forest,Forest_MexCstW,Forest_MexCstW,2005,0.0013906,2005,1,1
+Mexico,Forest,Forest_MexGulf,Forest_MexGulf,2005,0.00114,2005,1,1
+Mexico,Forest,Forest_MexInt,Forest_MexInt,2005,0.0005699,2005,1,1
+Mexico,Forest,Forest_Papaloapan,Forest_Papaloapan,2005,0.0011315,2005,1,1
+Mexico,Forest,Forest_RioBalsas,Forest_RioBalsas,2005,0.0027294,2005,1,1
+Mexico,Forest,Forest_RioGrande,Forest_RioGrande,2005,0.0009087,2005,1,1
+Mexico,Forest,Forest_RioLerma,Forest_RioLerma,2005,0.0021332,2005,1,1
+Mexico,Forest,Forest_RioVerde,Forest_RioVerde,2005,0.0012843,2005,1,1
+Mexico,Forest,Forest_Tehuantpc,Forest_Tehuantpc,2005,0.0030919,2005,1,1
+Mexico,Forest,Forest_UsaColoRS,Forest_UsaColoRS,2005,7.28e-05,2005,1,1
+Mexico,Forest,Forest_YucatanP,Forest_YucatanP,2005,0.0124072,2005,1,1
+Middle East,Forest,Forest_CaspianE,Forest_CaspianE,2005,0.0005178,2005,1,1
+Middle East,Forest,Forest_CaspianSW,Forest_CaspianSW,2005,0.0008101,2005,1,1
+Middle East,Forest,Forest_Iran,Forest_Iran,2005,1.32e-05,2005,1,1
+Middle East,Forest,Forest_MeditE,Forest_MeditE,2005,1e-07,2005,1,1
+Middle East,Forest,Forest_TigrEuphR,Forest_TigrEuphR,2005,0.0007035,2005,1,1
+Pakistan,Forest,Forest_IndusR,Forest_IndusR,2005,0.030809,2005,1,1
+Russia,Forest,Forest_AmurR,Forest_AmurR,2005,0.0122398,2005,1,1
+Russia,Forest,Forest_ArcticIsl,Forest_ArcticIsl,2005,5e-07,2005,1,1
+Russia,Forest,Forest_BalticSea,Forest_BalticSea,2005,0.0003825,2005,1,1
+Russia,Forest,Forest_BarentsSea,Forest_BarentsSea,2005,0.0101237,2005,1,1
+Russia,Forest,Forest_BlackSeaN,Forest_BlackSeaN,2005,0.0004994,2005,1,1
+Russia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2005,8e-07,2005,1,1
+Russia,Forest,Forest_CaspianNE,Forest_CaspianNE,2005,0.0003831,2005,1,1
+Russia,Forest,Forest_CaspianSW,Forest_CaspianSW,2005,1.6e-06,2005,1,1
+Russia,Forest,Forest_DaugavaR,Forest_DaugavaR,2005,0.0004171,2005,1,1
+Russia,Forest,Forest_DnieperR,Forest_DnieperR,2005,0.0007528,2005,1,1
+Russia,Forest,Forest_DonR,Forest_DonR,2005,6.94e-05,2005,1,1
+Russia,Forest,Forest_DvinaRN,Forest_DvinaRN,2005,0.0043048,2005,1,1
+Russia,Forest,Forest_Finland,Forest_Finland,2005,0.0002163,2005,1,1
+Russia,Forest,Forest_Gobi,Forest_Gobi,2005,7.22e-05,2005,1,1
+Russia,Forest,Forest_KaraSea,Forest_KaraSea,2005,0.0046581,2005,1,1
+Russia,Forest,Forest_LenaR,Forest_LenaR,2005,0.0326548,2005,1,1
+Russia,Forest,Forest_NarvaR,Forest_NarvaR,2005,0.0005577,2005,1,1
+Russia,Forest,Forest_NemanR,Forest_NemanR,2005,1.22e-05,2005,1,1
+Russia,Forest,Forest_NevaR,Forest_NevaR,2005,0.0030493,2005,1,1
+Russia,Forest,Forest_ObR,Forest_ObR,2005,0.0240932,2005,1,1
+Russia,Forest,Forest_PolandCst,Forest_PolandCst,2005,3.22e-05,2005,1,1
+Russia,Forest,Forest_RusCstSE,Forest_RusCstSE,2005,0.0014264,2005,1,1
+Russia,Forest,Forest_ScndnvN,Forest_ScndnvN,2005,0.0029161,2005,1,1
+Russia,Forest,Forest_SiberiaN,Forest_SiberiaN,2005,0.0084006,2005,1,1
+Russia,Forest,Forest_SiberiaW,Forest_SiberiaW,2005,0.0356296,2005,1,1
+Russia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2005,9e-07,2005,1,1
+Russia,Forest,Forest_UralR,Forest_UralR,2005,0.0001886,2005,1,1
+Russia,Forest,Forest_VolgaR,Forest_VolgaR,2005,0.0152741,2005,1,1
+Russia,Forest,Forest_YeniseiR,Forest_YeniseiR,2005,0.0286423,2005,1,1
+South Africa,Forest,Forest_AfrCstS,Forest_AfrCstS,2005,0.0299703,2005,1,1
+South Africa,Forest,Forest_AfrCstSSW,Forest_AfrCstSSW,2005,0.0002403,2005,1,1
+South Africa,Forest,Forest_LimpopoR,Forest_LimpopoR,2005,0.0030012,2005,1,1
+South Africa,Forest,Forest_OrangeR,Forest_OrangeR,2005,0.0003435,2005,1,1
+South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2005,3.9e-06,2005,1,1
+South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2005,0.0031129,2005,1,1
+South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2005,0.0005603,2005,1,1
+South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2005,0.0034595,2005,1,1
+South America_Southern,Forest,Forest_ArgCstS,Forest_ArgCstS,2005,1.52e-05,2005,1,1
+South America_Southern,Forest,Forest_ChileCstN,Forest_ChileCstN,2005,0.0002892,2005,1,1
+South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2005,0.0041572,2005,1,1
+South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2005,0.0016705,2005,1,1
+South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2005,3.81e-05,2005,1,1
+South America_Southern,Forest,Forest_NegroR,Forest_NegroR,2005,2.81e-05,2005,1,1
+South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2005,0.0662337,2005,1,1
+South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2005,0.0008666,2005,1,1
+South America_Southern,Forest,Forest_RioLaPlata,Forest_RioLaPlata,2005,0.0057031,2005,1,1
+South Asia,Forest,Forest_AmuDaryaR,Forest_AmuDaryaR,2005,4.71e-05,2005,1,1
+South Asia,Forest,Forest_BengalBay,Forest_BengalBay,2005,0.0040164,2005,1,1
+South Asia,Forest,Forest_GangesR,Forest_GangesR,2005,0.0365001,2005,1,1
+South Asia,Forest,Forest_SriLanka,Forest_SriLanka,2005,0.0155188,2005,1,1
+South Korea,Forest,Forest_Korea,Forest_Korea,2005,0.0047436,2005,1,1
+Southeast Asia,Forest,Forest_BengalBay,Forest_BengalBay,2005,0.0037116,2005,1,1
+Southeast Asia,Forest,Forest_BoHai,Forest_BoHai,2005,0.0012095,2005,1,1
+Southeast Asia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2005,0.0149961,2005,1,1
+Southeast Asia,Forest,Forest_ChaoPhrR,Forest_ChaoPhrR,2005,0.0071156,2005,1,1
+Southeast Asia,Forest,Forest_FlyR,Forest_FlyR,2005,0.004543,2005,1,1
+Southeast Asia,Forest,Forest_GangesR,Forest_GangesR,2005,0.0001007,2005,1,1
+Southeast Asia,Forest,Forest_Hong,Forest_Hong,2005,0.002533,2005,1,1
+Southeast Asia,Forest,Forest_IdnE,Forest_IdnE,2005,2.4e-06,2005,1,1
+Southeast Asia,Forest,Forest_IrianJaya,Forest_IrianJaya,2005,0.0012006,2005,1,1
+Southeast Asia,Forest,Forest_IrrawaddyR,Forest_IrrawaddyR,2005,0.0201452,2005,1,1
+Southeast Asia,Forest,Forest_JavaTimor,Forest_JavaTimor,2005,0.0008944,2005,1,1
+Southeast Asia,Forest,Forest_Kalimantan,Forest_Kalimantan,2005,0.0007653,2005,1,1
+Southeast Asia,Forest,Forest_Korea,Forest_Korea,2005,0.002234,2005,1,1
+Southeast Asia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2005,0.0169665,2005,1,1
+Southeast Asia,Forest,Forest_Mekong,Forest_Mekong,2005,0.0310447,2005,1,1
+Southeast Asia,Forest,Forest_NewCaledn,Forest_NewCaledn,2005,6.81e-05,2005,1,1
+Southeast Asia,Forest,Forest_PapuaCst,Forest_PapuaCst,2005,0.0209525,2005,1,1
+Southeast Asia,Forest,Forest_Phlppns,Forest_Phlppns,2005,0.0151146,2005,1,1
+Southeast Asia,Forest,Forest_RusCstSE,Forest_RusCstSE,2005,0.0003079,2005,1,1
+Southeast Asia,Forest,Forest_Salween,Forest_Salween,2005,0.008483,2005,1,1
+Southeast Asia,Forest,Forest_SChinaSea,Forest_SChinaSea,2005,0.0002005,2005,1,1
+Southeast Asia,Forest,Forest_SepikR,Forest_SepikR,2005,0.0063072,2005,1,1
+Southeast Asia,Forest,Forest_SittaungR,Forest_SittaungR,2005,0.0032471,2005,1,1
+Southeast Asia,Forest,Forest_ThaiGulf,Forest_ThaiGulf,2005,0.0030222,2005,1,1
+Southeast Asia,Forest,Forest_VietnamCst,Forest_VietnamCst,2005,0.0087358,2005,1,1
+Southeast Asia,Forest,Forest_XunJiang,Forest_XunJiang,2005,0.0003304,2005,1,1
+Argentina,Forest,Forest_ArgColoR,Forest_ArgColoR,2005,0.000268,2005,1,1
+Argentina,Forest,Forest_ArgCstN,Forest_ArgCstN,2005,2.6e-06,2005,1,1
+Argentina,Forest,Forest_ArgCstS,Forest_ArgCstS,2005,0.0004767,2005,1,1
+Argentina,Forest,Forest_ChileCstS,Forest_ChileCstS,2005,0.0007015,2005,1,1
+Argentina,Forest,Forest_MarChiq,Forest_MarChiq,2005,0.0005971,2005,1,1
+Argentina,Forest,Forest_NegroR,Forest_NegroR,2005,0.0011753,2005,1,1
+Argentina,Forest,Forest_Pampas,Forest_Pampas,2005,4.3e-06,2005,1,1
+Argentina,Forest,Forest_Patagonia,Forest_Patagonia,2005,7.06e-05,2005,1,1
+Argentina,Forest,Forest_RioLaPlata,Forest_RioLaPlata,2005,0.0106519,2005,1,1
+Argentina,Forest,Forest_Salinas,Forest_Salinas,2005,9.89e-05,2005,1,1
+Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2005,0.0004098,2005,1,1
+Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2005,0.0018727,2005,1,1
+Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2005,0.0080942,2005,1,1
+Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2005,0.0006815,2005,1,1
+USA,Forest,Forest_ArkWhtRedR,Forest_ArkWhtRedR,2010,0.0111759,2010,1,1
+USA,Forest,Forest_California,Forest_California,2010,0.0150396,2010,1,1
+USA,Forest,Forest_Caribbean,Forest_Caribbean,2010,0.0006144,2010,1,1
+USA,Forest,Forest_FraserR,Forest_FraserR,2010,4.6e-05,2010,1,1
+USA,Forest,Forest_GreatBasin,Forest_GreatBasin,2010,0.0027395,2010,1,1
+USA,Forest,Forest_GreatLakes,Forest_GreatLakes,2010,0.0196603,2010,1,1
+USA,Forest,Forest_MissouriR,Forest_MissouriR,2010,0.0091716,2010,1,1
+USA,Forest,Forest_MissppRN,Forest_MissppRN,2010,0.0086862,2010,1,1
+USA,Forest,Forest_MissppRS,Forest_MissppRS,2010,0.013365,2010,1,1
+USA,Forest,Forest_NelsonR,Forest_NelsonR,2010,0.0031823,2010,1,1
+USA,Forest,Forest_OhioR,Forest_OhioR,2010,0.0223817,2010,1,1
+USA,Forest,Forest_PacArctic,Forest_PacArctic,2010,0.083895,2010,1,1
+USA,Forest,Forest_RioGrande,Forest_RioGrande,2010,0.0029131,2010,1,1
+USA,Forest,Forest_TennR,Forest_TennR,2010,0.0070825,2010,1,1
+USA,Forest,Forest_TexasCst,Forest_TexasCst,2010,0.0054301,2010,1,1
+USA,Forest,Forest_UsaColoRN,Forest_UsaColoRN,2010,0.0065644,2010,1,1
+USA,Forest,Forest_UsaColoRS,Forest_UsaColoRS,2010,0.0040519,2010,1,1
+USA,Forest,Forest_UsaCstE,Forest_UsaCstE,2010,0.0170336,2010,1,1
+USA,Forest,Forest_UsaCstNE,Forest_UsaCstNE,2010,0.0131256,2010,1,1
+USA,Forest,Forest_UsaCstSE,Forest_UsaCstSE,2010,0.0565189,2010,1,1
+USA,Forest,Forest_UsaPacNW,Forest_UsaPacNW,2010,0.0376863,2010,1,1
+Africa_Eastern,Forest,Forest_AfrCstE,Forest_AfrCstE,2010,0.0130874,2010,1,1
+Africa_Eastern,Forest,Forest_AfrCstNE,Forest_AfrCstNE,2010,0.0007601,2010,1,1
+Africa_Eastern,Forest,Forest_CongoR,Forest_CongoR,2010,0.0007563,2010,1,1
+Africa_Eastern,Forest,Forest_Madasgacar,Forest_Madasgacar,2010,0.1178742,2010,1,1
+Africa_Eastern,Forest,Forest_NileR,Forest_NileR,2010,0.0583524,2010,1,1
+Africa_Eastern,Forest,Forest_RiftValley,Forest_RiftValley,2010,0.030592,2010,1,1
+Africa_Eastern,Forest,Forest_ShebJubR,Forest_ShebJubR,2010,0.0191803,2010,1,1
+Africa_Northern,Forest,Forest_AfrCstNW,Forest_AfrCstNW,2010,0.0329255,2010,1,1
+Africa_Northern,Forest,Forest_AfrIntN,Forest_AfrIntN,2010,0,2010,0,0
+Africa_Northern,Forest,Forest_MeditS,Forest_MeditS,2010,0.0001008,2010,1,1
+Africa_Northern,Forest,Forest_NileR,Forest_NileR,2010,0.0036217,2010,1,1
+Africa_Southern,Forest,Forest_AfrCstE,Forest_AfrCstE,2010,0.0121612,2010,1,1
+Africa_Southern,Forest,Forest_AfrCstS,Forest_AfrCstS,2010,0.000354,2010,1,1
+Africa_Southern,Forest,Forest_AfrCstSE,Forest_AfrCstSE,2010,0.0020841,2010,1,1
+Africa_Southern,Forest,Forest_AfrIntS,Forest_AfrIntS,2010,0.0045979,2010,1,1
+Africa_Southern,Forest,Forest_AngolaCst,Forest_AngolaCst,2010,0.0101853,2010,1,1
+Africa_Southern,Forest,Forest_CongoR,Forest_CongoR,2010,0.0241627,2010,1,1
+Africa_Southern,Forest,Forest_GuineaGulf,Forest_GuineaGulf,2010,0.0002506,2010,1,1
+Africa_Southern,Forest,Forest_LimpopoR,Forest_LimpopoR,2010,7.84e-05,2010,1,1
+Africa_Southern,Forest,Forest_NileR,Forest_NileR,2010,0.0009505,2010,1,1
+Africa_Southern,Forest,Forest_RiftValley,Forest_RiftValley,2010,0.001618,2010,1,1
+Africa_Southern,Forest,Forest_ZambeziR,Forest_ZambeziR,2010,0.0232075,2010,1,1
+Africa_Western,Forest,Forest_AfrCstW,Forest_AfrCstW,2010,0.0261822,2010,1,1
+Africa_Western,Forest,Forest_CongoR,Forest_CongoR,2010,0.2208724,2010,1,1
+Africa_Western,Forest,Forest_GuineaGulf,Forest_GuineaGulf,2010,0.0419207,2010,1,1
+Africa_Western,Forest,Forest_LChad,Forest_LChad,2010,0.0007625,2010,1,1
+Africa_Western,Forest,Forest_NigerR,Forest_NigerR,2010,0.0103779,2010,1,1
+Africa_Western,Forest,Forest_NileR,Forest_NileR,2010,0.0006017,2010,1,1
+Africa_Western,Forest,Forest_SenegalR,Forest_SenegalR,2010,0.0001682,2010,1,1
+Africa_Western,Forest,Forest_VoltaR,Forest_VoltaR,2010,0.0043296,2010,1,1
+Africa_Western,Forest,Forest_ZambeziR,Forest_ZambeziR,2010,0.000105,2010,1,1
+Australia_NZ,Forest,Forest_AusCstE,Forest_AusCstE,2010,0.0300722,2010,1,1
+Australia_NZ,Forest,Forest_AusCstN,Forest_AusCstN,2010,0.0013877,2010,1,1
+Australia_NZ,Forest,Forest_AusCstS,Forest_AusCstS,2010,0.0004556,2010,1,1
+Australia_NZ,Forest,Forest_AusCstW,Forest_AusCstW,2010,0.0008964,2010,1,1
+Australia_NZ,Forest,Forest_AusInt,Forest_AusInt,2010,1.23e-05,2010,1,1
+Australia_NZ,Forest,Forest_MurrayDrlg,Forest_MurrayDrlg,2010,0.0082861,2010,1,1
+Australia_NZ,Forest,Forest_NewZealand,Forest_NewZealand,2010,0.0086586,2010,1,1
+Australia_NZ,Forest,Forest_Tasmania,Forest_Tasmania,2010,0.0035401,2010,1,1
+Brazil,Forest,Forest_AmazonR,Forest_AmazonR,2010,0.0035217,2010,1,1
+Brazil,Forest,Forest_BrzCstE,Forest_BrzCstE,2010,0.0002457,2010,1,1
+Brazil,Forest,Forest_BrzCstN,Forest_BrzCstN,2010,0.0089266,2010,1,1
+Brazil,Forest,Forest_BrzCstS,Forest_BrzCstS,2010,0.0128207,2010,1,1
+Brazil,Forest,Forest_OrinocoR,Forest_OrinocoR,2010,0.2103621,2010,1,1
+Brazil,Forest,Forest_ParnaibaR,Forest_ParnaibaR,2010,0.0023237,2010,1,1
+Brazil,Forest,Forest_RioLaPlata,Forest_RioLaPlata,2010,0.0096684,2010,1,1
+Brazil,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2010,0.0050157,2010,1,1
+Brazil,Forest,Forest_SaoFrancR,Forest_SaoFrancR,2010,0.0020712,2010,1,1
+Brazil,Forest,Forest_TocantinsR,Forest_TocantinsR,2010,0.0140378,2010,1,1
+Canada,Forest,Forest_CanAtl,Forest_CanAtl,2010,0.0109517,2010,1,1
+Canada,Forest,Forest_ChurchillR,Forest_ChurchillR,2010,0.0019727,2010,1,1
+Canada,Forest,Forest_FraserR,Forest_FraserR,2010,0.0047105,2010,1,1
+Canada,Forest,Forest_GreatLakes,Forest_GreatLakes,2010,0.0098796,2010,1,1
+Canada,Forest,Forest_HudsonBay,Forest_HudsonBay,2010,0.0311746,2010,1,1
+Canada,Forest,Forest_Mackenzie,Forest_Mackenzie,2010,0.0323846,2010,1,1
+Canada,Forest,Forest_MissouriR,Forest_MissouriR,2010,4.4e-06,2010,1,1
+Canada,Forest,Forest_NelsonR,Forest_NelsonR,2010,0.009827,2010,1,1
+Canada,Forest,Forest_NWTerr,Forest_NWTerr,2010,0.014604,2010,1,1
+Canada,Forest,Forest_PacArctic,Forest_PacArctic,2010,0.0115284,2010,1,1
+Canada,Forest,Forest_StLwrncR,Forest_StLwrncR,2010,0.0053246,2010,1,1
+Canada,Forest,Forest_UsaCstNE,Forest_UsaCstNE,2010,0.0011621,2010,1,1
+Canada,Forest,Forest_UsaPacNW,Forest_UsaPacNW,2010,0.002131,2010,1,1
+Central America and Caribbean,Forest,Forest_Caribbean,Forest_Caribbean,2010,0.0084375,2010,1,1
+Central America and Caribbean,Forest,Forest_CntAmer,Forest_CntAmer,2010,0.0291391,2010,1,1
+Central America and Caribbean,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2010,0.0017919,2010,1,1
+Central America and Caribbean,Forest,Forest_GrijUsuR,Forest_GrijUsuR,2010,0.0043777,2010,1,1
+Central America and Caribbean,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2010,0.0007432,2010,1,1
+Central America and Caribbean,Forest,Forest_YucatanP,Forest_YucatanP,2010,0.0063956,2010,1,1
+Central Asia,Forest,Forest_AmuDaryaR,Forest_AmuDaryaR,2010,1.29e-05,2010,1,1
+Central Asia,Forest,Forest_AmurR,Forest_AmurR,2010,3.58e-05,2010,1,1
+Central Asia,Forest,Forest_BlackSeaN,Forest_BlackSeaN,2010,1.72e-05,2010,1,1
+Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2010,0.0004397,2010,1,1
+Central Asia,Forest,Forest_CaspianNE,Forest_CaspianNE,2010,2.58e-05,2010,1,1
+Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2010,0.0008844,2010,1,1
+Central Asia,Forest,Forest_Gobi,Forest_Gobi,2010,3.27e-05,2010,1,1
+Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2010,2.58e-05,2010,1,1
+Central Asia,Forest,Forest_ObR,Forest_ObR,2010,0.0003047,2010,1,1
+Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2010,0.0001092,2010,1,1
+Central Asia,Forest,Forest_Tarim,Forest_Tarim,2010,4e-07,2010,1,1
+Central Asia,Forest,Forest_UralR,Forest_UralR,2010,8e-07,2010,1,1
+Central Asia,Forest,Forest_VolgaR,Forest_VolgaR,2010,7e-07,2010,1,1
+Central Asia,Forest,Forest_YeniseiR,Forest_YeniseiR,2010,0.0002888,2010,1,1
+China,Forest,Forest_AmurR,Forest_AmurR,2010,0.0451149,2010,1,1
+China,Forest,Forest_BoHai,Forest_BoHai,2010,0.0128037,2010,1,1
+China,Forest,Forest_ChinaCst,Forest_ChinaCst,2010,0.0423695,2010,1,1
+China,Forest,Forest_GangesR,Forest_GangesR,2010,0.0002638,2010,1,1
+China,Forest,Forest_Gobi,Forest_Gobi,2010,0.0001043,2010,1,1
+China,Forest,Forest_Hainan,Forest_Hainan,2010,0.0031481,2010,1,1
+China,Forest,Forest_Hong,Forest_Hong,2010,0.0049631,2010,1,1
+China,Forest,Forest_HuangHeR,Forest_HuangHeR,2010,0.0119042,2010,1,1
+China,Forest,Forest_IrrawaddyR,Forest_IrrawaddyR,2010,0.0029985,2010,1,1
+China,Forest,Forest_LBalkash,Forest_LBalkash,2010,0.000361,2010,1,1
+China,Forest,Forest_Mekong,Forest_Mekong,2010,0.008678,2010,1,1
+China,Forest,Forest_ObR,Forest_ObR,2010,0.0002529,2010,1,1
+China,Forest,Forest_RusCstSE,Forest_RusCstSE,2010,0.0031335,2010,1,1
+China,Forest,Forest_Salween,Forest_Salween,2010,0.0027911,2010,1,1
+China,Forest,Forest_SChinaSea,Forest_SChinaSea,2010,0.0055697,2010,1,1
+China,Forest,Forest_Taiwan,Forest_Taiwan,2010,0.0040858,2010,1,1
+China,Forest,Forest_Tarim,Forest_Tarim,2010,8.7e-06,2010,1,1
+China,Forest,Forest_XunJiang,Forest_XunJiang,2010,0.0321933,2010,1,1
+China,Forest,Forest_Yangtze,Forest_Yangtze,2010,0.0959855,2010,1,1
+China,Forest,Forest_ZiyaHe,Forest_ZiyaHe,2010,0.0156518,2010,1,1
+EU-12,Forest,Forest_AdrBlkSea,Forest_AdrBlkSea,2010,0.0054201,2010,1,1
+EU-12,Forest,Forest_BalticSea,Forest_BalticSea,2010,0.0120486,2010,1,1
+EU-12,Forest,Forest_DanubeR,Forest_DanubeR,2010,0.0375007,2010,1,1
+EU-12,Forest,Forest_DaugavaR,Forest_DaugavaR,2010,0.0037219,2010,1,1
+EU-12,Forest,Forest_DniesterR,Forest_DniesterR,2010,8.6e-05,2010,1,1
+EU-12,Forest,Forest_DnkGrmCst,Forest_DnkGrmCst,2010,5.2e-06,2010,1,1
+EU-12,Forest,Forest_ElbeR,Forest_ElbeR,2010,0.0053926,2010,1,1
+EU-12,Forest,Forest_MeditE,Forest_MeditE,2010,0.0017631,2010,1,1
+EU-12,Forest,Forest_NarvaR,Forest_NarvaR,2010,0.0032668,2010,1,1
+EU-12,Forest,Forest_NemanR,Forest_NemanR,2010,0.0070049,2010,1,1
+EU-12,Forest,Forest_OderR,Forest_OderR,2010,0.0118526,2010,1,1
+EU-12,Forest,Forest_PolandCst,Forest_PolandCst,2010,0.0035972,2010,1,1
+EU-12,Forest,Forest_WislaR,Forest_WislaR,2010,0.0203641,2010,1,1
+EU-15,Forest,Forest_AdrBlkSea,Forest_AdrBlkSea,2010,0.004943,2010,1,1
+EU-15,Forest,Forest_DanubeR,Forest_DanubeR,2010,0.0179184,2010,1,1
+EU-15,Forest,Forest_DnkGrmCst,Forest_DnkGrmCst,2010,0.0058062,2010,1,1
+EU-15,Forest,Forest_DouroR,Forest_DouroR,2010,0.0029868,2010,1,1
+EU-15,Forest,Forest_EbroR,Forest_EbroR,2010,0.0030601,2010,1,1
+EU-15,Forest,Forest_ElbeR,Forest_ElbeR,2010,0.0102602,2010,1,1
+EU-15,Forest,Forest_EmsWeserR,Forest_EmsWeserR,2010,0.0062178,2010,1,1
+EU-15,Forest,Forest_EngWales,Forest_EngWales,2010,0.0057616,2010,1,1
+EU-15,Forest,Forest_Finland,Forest_Finland,2010,0.0419135,2010,1,1
+EU-15,Forest,Forest_FranceCstS,Forest_FranceCstS,2010,0.0027249,2010,1,1
+EU-15,Forest,Forest_FranceCstW,Forest_FranceCstW,2010,0.0101285,2010,1,1
+EU-15,Forest,Forest_Gironde,Forest_Gironde,2010,0.0090197,2010,1,1
+EU-15,Forest,Forest_GuadalqR,Forest_GuadalqR,2010,0.0004782,2010,1,1
+EU-15,Forest,Forest_GuadianaR,Forest_GuadianaR,2010,0.0012234,2010,1,1
+EU-15,Forest,Forest_IberiaCst,Forest_IberiaCst,2010,0.002279,2010,1,1
+EU-15,Forest,Forest_Ireland,Forest_Ireland,2010,0.0060707,2010,1,1
+EU-15,Forest,Forest_ItalyCstE,Forest_ItalyCstE,2010,0.0053835,2010,1,1
+EU-15,Forest,Forest_ItalyCstW,Forest_ItalyCstW,2010,0.006228,2010,1,1
+EU-15,Forest,Forest_LoireR,Forest_LoireR,2010,0.0110374,2010,1,1
+EU-15,Forest,Forest_MeditIsl,Forest_MeditIsl,2010,0.0025994,2010,1,1
+EU-15,Forest,Forest_NevaR,Forest_NevaR,2010,0.0007921,2010,1,1
+EU-15,Forest,Forest_OderR,Forest_OderR,2010,0.0005546,2010,1,1
+EU-15,Forest,Forest_PoR,Forest_PoR,2010,0.0079472,2010,1,1
+EU-15,Forest,Forest_RhineR,Forest_RhineR,2010,0.0211939,2010,1,1
+EU-15,Forest,Forest_RhoneR,Forest_RhoneR,2010,0.0104718,2010,1,1
+EU-15,Forest,Forest_ScheldtR,Forest_ScheldtR,2010,0.0018872,2010,1,1
+EU-15,Forest,Forest_ScndnvN,Forest_ScndnvN,2010,0.0050302,2010,1,1
+EU-15,Forest,Forest_Scotland,Forest_Scotland,2010,0.005317,2010,1,1
+EU-15,Forest,Forest_SeineR,Forest_SeineR,2010,0.006613,2010,1,1
+EU-15,Forest,Forest_SpainCstSE,Forest_SpainCstSE,2010,0.0023289,2010,1,1
+EU-15,Forest,Forest_Sweden,Forest_Sweden,2010,0.0796549,2010,1,1
+EU-15,Forest,Forest_TagusR,Forest_TagusR,2010,0.0012639,2010,1,1
+EU-15,Forest,Forest_TiberR,Forest_TiberR,2010,0.0017653,2010,1,1
+Europe_Eastern,Forest,Forest_BlackSeaN,Forest_BlackSeaN,2010,0.001532,2010,1,1
+Europe_Eastern,Forest,Forest_DanubeR,Forest_DanubeR,2010,0.0017994,2010,1,1
+Europe_Eastern,Forest,Forest_DaugavaR,Forest_DaugavaR,2010,0.0023961,2010,1,1
+Europe_Eastern,Forest,Forest_DnieperR,Forest_DnieperR,2010,0.0138599,2010,1,1
+Europe_Eastern,Forest,Forest_DniesterR,Forest_DniesterR,2010,0.0018879,2010,1,1
+Europe_Eastern,Forest,Forest_DonR,Forest_DonR,2010,0.0001708,2010,1,1
+Europe_Eastern,Forest,Forest_NemanR,Forest_NemanR,2010,0.0033976,2010,1,1
+Europe_Eastern,Forest,Forest_NevaR,Forest_NevaR,2010,5.95e-05,2010,1,1
+Europe_Eastern,Forest,Forest_WislaR,Forest_WislaR,2010,0.001013,2010,1,1
+Europe_Non_EU,Forest,Forest_AdrBlkSea,Forest_AdrBlkSea,2010,0.0061026,2010,1,1
+Europe_Non_EU,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2010,0.0121214,2010,1,1
+Europe_Non_EU,Forest,Forest_CaspianSW,Forest_CaspianSW,2010,0.0004454,2010,1,1
+Europe_Non_EU,Forest,Forest_DanubeR,Forest_DanubeR,2010,0.0112283,2010,1,1
+Europe_Non_EU,Forest,Forest_MeditE,Forest_MeditE,2010,0.0047059,2010,1,1
+Europe_Non_EU,Forest,Forest_TigrEuphR,Forest_TigrEuphR,2010,0.0007076,2010,1,1
+European Free Trade Association,Forest,Forest_DanubeR,Forest_DanubeR,2010,4.27e-05,2010,1,1
+European Free Trade Association,Forest,Forest_Iceland,Forest_Iceland,2010,0.0014661,2010,1,1
+European Free Trade Association,Forest,Forest_PoR,Forest_PoR,2010,9.82e-05,2010,1,1
+European Free Trade Association,Forest,Forest_RhineR,Forest_RhineR,2010,0.0009044,2010,1,1
+European Free Trade Association,Forest,Forest_RhoneR,Forest_RhoneR,2010,0.0001664,2010,1,1
+European Free Trade Association,Forest,Forest_ScndnvN,Forest_ScndnvN,2010,0.0113823,2010,1,1
+European Free Trade Association,Forest,Forest_Sweden,Forest_Sweden,2010,0.000814,2010,1,1
+India,Forest,Forest_BengalBay,Forest_BengalBay,2010,0.0042373,2010,1,1
+India,Forest,Forest_BengalW,Forest_BengalW,2010,0.0078748,2010,1,1
+India,Forest,Forest_BrahmaniR,Forest_BrahmaniR,2010,0.0072002,2010,1,1
+India,Forest,Forest_CauveryR,Forest_CauveryR,2010,0.0153932,2010,1,1
+India,Forest,Forest_GangesR,Forest_GangesR,2010,0.1235851,2010,1,1
+India,Forest,Forest_GodavariR,Forest_GodavariR,2010,0.0415486,2010,1,1
+India,Forest,Forest_IndCstE,Forest_IndCstE,2010,0.0036155,2010,1,1
+India,Forest,Forest_IndCstNE,Forest_IndCstNE,2010,0.0061177,2010,1,1
+India,Forest,Forest_IndCstS,Forest_IndCstS,2010,0.0101673,2010,1,1
+India,Forest,Forest_IndCstW,Forest_IndCstW,2010,0.0183384,2010,1,1
+India,Forest,Forest_IndusR,Forest_IndusR,2010,0.0031311,2010,1,1
+India,Forest,Forest_IrrawaddyR,Forest_IrrawaddyR,2010,0.0061625,2010,1,1
+India,Forest,Forest_KrishnaR,Forest_KrishnaR,2010,0.0262985,2010,1,1
+India,Forest,Forest_MahanadiR,Forest_MahanadiR,2010,0.0162055,2010,1,1
+India,Forest,Forest_MahiR,Forest_MahiR,2010,0.0052582,2010,1,1
+India,Forest,Forest_NarmadaR,Forest_NarmadaR,2010,0.0137237,2010,1,1
+India,Forest,Forest_PennarR,Forest_PennarR,2010,0.0061482,2010,1,1
+India,Forest,Forest_SabarmatiR,Forest_SabarmatiR,2010,0.0077712,2010,1,1
+India,Forest,Forest_TaptiR,Forest_TaptiR,2010,0.0090178,2010,1,1
+Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2010,0.0002831,2010,1,1
+Indonesia,Forest,Forest_FlyR,Forest_FlyR,2010,0.0002739,2010,1,1
+Indonesia,Forest,Forest_IdnE,Forest_IdnE,2010,0.0054305,2010,1,1
+Indonesia,Forest,Forest_IrianJaya,Forest_IrianJaya,2010,0.0277331,2010,1,1
+Indonesia,Forest,Forest_JavaTimor,Forest_JavaTimor,2010,0.0058997,2010,1,1
+Indonesia,Forest,Forest_Kalimantan,Forest_Kalimantan,2010,0.0416191,2010,1,1
+Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2010,3.2e-06,2010,1,1
+Indonesia,Forest,Forest_SepikR,Forest_SepikR,2010,0.0002997,2010,1,1
+Indonesia,Forest,Forest_Sulawesi,Forest_Sulawesi,2010,0.0123147,2010,1,1
+Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2010,0.0214745,2010,1,1
+Japan,Forest,Forest_Japan,Forest_Japan,2010,0.0175272,2010,1,1
+Japan,Forest,Forest_Taiwan,Forest_Taiwan,2010,1.54e-05,2010,1,1
+Mexico,Forest,Forest_California,Forest_California,2010,7.22e-05,2010,1,1
+Mexico,Forest,Forest_CntAmer,Forest_CntAmer,2010,0.0001311,2010,1,1
+Mexico,Forest,Forest_GrijUsuR,Forest_GrijUsuR,2010,0.0051077,2010,1,1
+Mexico,Forest,Forest_MexBaja,Forest_MexBaja,2010,0.0005806,2010,1,1
+Mexico,Forest,Forest_MexCstNW,Forest_MexCstNW,2010,0.0117836,2010,1,1
+Mexico,Forest,Forest_MexCstW,Forest_MexCstW,2010,0.0013709,2010,1,1
+Mexico,Forest,Forest_MexGulf,Forest_MexGulf,2010,0.0011206,2010,1,1
+Mexico,Forest,Forest_MexInt,Forest_MexInt,2010,0.0005638,2010,1,1
+Mexico,Forest,Forest_Papaloapan,Forest_Papaloapan,2010,0.0011112,2010,1,1
+Mexico,Forest,Forest_RioBalsas,Forest_RioBalsas,2010,0.0026905,2010,1,1
+Mexico,Forest,Forest_RioGrande,Forest_RioGrande,2010,9e-04,2010,1,1
+Mexico,Forest,Forest_RioLerma,Forest_RioLerma,2010,0.0021067,2010,1,1
+Mexico,Forest,Forest_RioVerde,Forest_RioVerde,2010,0.0012559,2010,1,1
+Mexico,Forest,Forest_Tehuantpc,Forest_Tehuantpc,2010,0.0030406,2010,1,1
+Mexico,Forest,Forest_UsaColoRS,Forest_UsaColoRS,2010,7.22e-05,2010,1,1
+Mexico,Forest,Forest_YucatanP,Forest_YucatanP,2010,0.0122354,2010,1,1
+Middle East,Forest,Forest_CaspianE,Forest_CaspianE,2010,0.000453,2010,1,1
+Middle East,Forest,Forest_CaspianSW,Forest_CaspianSW,2010,0.0007148,2010,1,1
+Middle East,Forest,Forest_Iran,Forest_Iran,2010,7.9e-06,2010,1,1
+Middle East,Forest,Forest_MeditE,Forest_MeditE,2010,0,2010,0,0
+Middle East,Forest,Forest_TigrEuphR,Forest_TigrEuphR,2010,0.0009843,2010,1,1
+Pakistan,Forest,Forest_IndusR,Forest_IndusR,2010,0.03265,2010,1,1
+Russia,Forest,Forest_AmurR,Forest_AmurR,2010,0.0115305,2010,1,1
+Russia,Forest,Forest_ArcticIsl,Forest_ArcticIsl,2010,5e-07,2010,1,1
+Russia,Forest,Forest_BalticSea,Forest_BalticSea,2010,0.0003611,2010,1,1
+Russia,Forest,Forest_BarentsSea,Forest_BarentsSea,2010,0.0095315,2010,1,1
+Russia,Forest,Forest_BlackSeaN,Forest_BlackSeaN,2010,0.0004724,2010,1,1
+Russia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2010,7e-07,2010,1,1
+Russia,Forest,Forest_CaspianNE,Forest_CaspianNE,2010,0.0003637,2010,1,1
+Russia,Forest,Forest_CaspianSW,Forest_CaspianSW,2010,1.5e-06,2010,1,1
+Russia,Forest,Forest_DaugavaR,Forest_DaugavaR,2010,0.0003936,2010,1,1
+Russia,Forest,Forest_DnieperR,Forest_DnieperR,2010,0.0007178,2010,1,1
+Russia,Forest,Forest_DonR,Forest_DonR,2010,6.89e-05,2010,1,1
+Russia,Forest,Forest_DvinaRN,Forest_DvinaRN,2010,0.0040536,2010,1,1
+Russia,Forest,Forest_Finland,Forest_Finland,2010,0.0002037,2010,1,1
+Russia,Forest,Forest_Gobi,Forest_Gobi,2010,6.8e-05,2010,1,1
+Russia,Forest,Forest_KaraSea,Forest_KaraSea,2010,0.0043854,2010,1,1
+Russia,Forest,Forest_LenaR,Forest_LenaR,2010,0.0307451,2010,1,1
+Russia,Forest,Forest_NarvaR,Forest_NarvaR,2010,0.0005268,2010,1,1
+Russia,Forest,Forest_NemanR,Forest_NemanR,2010,1.19e-05,2010,1,1
+Russia,Forest,Forest_NevaR,Forest_NevaR,2010,0.0028742,2010,1,1
+Russia,Forest,Forest_ObR,Forest_ObR,2010,0.0227137,2010,1,1
+Russia,Forest,Forest_PolandCst,Forest_PolandCst,2010,3.19e-05,2010,1,1
+Russia,Forest,Forest_RusCstSE,Forest_RusCstSE,2010,0.0013435,2010,1,1
+Russia,Forest,Forest_ScndnvN,Forest_ScndnvN,2010,0.0027455,2010,1,1
+Russia,Forest,Forest_SiberiaN,Forest_SiberiaN,2010,0.0079088,2010,1,1
+Russia,Forest,Forest_SiberiaW,Forest_SiberiaW,2010,0.0335446,2010,1,1
+Russia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2010,8e-07,2010,1,1
+Russia,Forest,Forest_UralR,Forest_UralR,2010,0.0001788,2010,1,1
+Russia,Forest,Forest_VolgaR,Forest_VolgaR,2010,0.0144472,2010,1,1
+Russia,Forest,Forest_YeniseiR,Forest_YeniseiR,2010,0.0269741,2010,1,1
+South Africa,Forest,Forest_AfrCstS,Forest_AfrCstS,2010,0.0273053,2010,1,1
+South Africa,Forest,Forest_AfrCstSSW,Forest_AfrCstSSW,2010,0.0002064,2010,1,1
+South Africa,Forest,Forest_LimpopoR,Forest_LimpopoR,2010,0.0025848,2010,1,1
+South Africa,Forest,Forest_OrangeR,Forest_OrangeR,2010,0.0003275,2010,1,1
+South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2010,4.2e-06,2010,1,1
+South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2010,0.0033537,2010,1,1
+South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2010,0.0006053,2010,1,1
+South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2010,0.0037245,2010,1,1
+South America_Southern,Forest,Forest_ArgCstS,Forest_ArgCstS,2010,1.73e-05,2010,1,1
+South America_Southern,Forest,Forest_ChileCstN,Forest_ChileCstN,2010,0.0003356,2010,1,1
+South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2010,0.0048447,2010,1,1
+South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2010,0.0019286,2010,1,1
+South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2010,4.41e-05,2010,1,1
+South America_Southern,Forest,Forest_NegroR,Forest_NegroR,2010,3.26e-05,2010,1,1
+South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2010,0.0768418,2010,1,1
+South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2010,0.0010034,2010,1,1
+South America_Southern,Forest,Forest_RioLaPlata,Forest_RioLaPlata,2010,0.0064407,2010,1,1
+South Asia,Forest,Forest_AmuDaryaR,Forest_AmuDaryaR,2010,4.68e-05,2010,1,1
+South Asia,Forest,Forest_BengalBay,Forest_BengalBay,2010,0.0040031,2010,1,1
+South Asia,Forest,Forest_GangesR,Forest_GangesR,2010,0.0365538,2010,1,1
+South Asia,Forest,Forest_SriLanka,Forest_SriLanka,2010,0.015022,2010,1,1
+South Korea,Forest,Forest_Korea,Forest_Korea,2010,0.0055343,2010,1,1
+Southeast Asia,Forest,Forest_BengalBay,Forest_BengalBay,2010,0.0036742,2010,1,1
+Southeast Asia,Forest,Forest_BoHai,Forest_BoHai,2010,0.0012368,2010,1,1
+Southeast Asia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2010,0.0150446,2010,1,1
+Southeast Asia,Forest,Forest_ChaoPhrR,Forest_ChaoPhrR,2010,0.0068288,2010,1,1
+Southeast Asia,Forest,Forest_FlyR,Forest_FlyR,2010,0.0045516,2010,1,1
+Southeast Asia,Forest,Forest_GangesR,Forest_GangesR,2010,0.0001007,2010,1,1
+Southeast Asia,Forest,Forest_Hong,Forest_Hong,2010,0.0024993,2010,1,1
+Southeast Asia,Forest,Forest_IdnE,Forest_IdnE,2010,2.1e-06,2010,1,1
+Southeast Asia,Forest,Forest_IrianJaya,Forest_IrianJaya,2010,0.0012006,2010,1,1
+Southeast Asia,Forest,Forest_IrrawaddyR,Forest_IrrawaddyR,2010,0.0197346,2010,1,1
+Southeast Asia,Forest,Forest_JavaTimor,Forest_JavaTimor,2010,0.0008891,2010,1,1
+Southeast Asia,Forest,Forest_Kalimantan,Forest_Kalimantan,2010,0.000767,2010,1,1
+Southeast Asia,Forest,Forest_Korea,Forest_Korea,2010,0.0023872,2010,1,1
+Southeast Asia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2010,0.016729,2010,1,1
+Southeast Asia,Forest,Forest_Mekong,Forest_Mekong,2010,0.030149,2010,1,1
+Southeast Asia,Forest,Forest_NewCaledn,Forest_NewCaledn,2010,6.82e-05,2010,1,1
+Southeast Asia,Forest,Forest_PapuaCst,Forest_PapuaCst,2010,0.0209784,2010,1,1
+Southeast Asia,Forest,Forest_Phlppns,Forest_Phlppns,2010,0.014549,2010,1,1
+Southeast Asia,Forest,Forest_RusCstSE,Forest_RusCstSE,2010,0.0003177,2010,1,1
+Southeast Asia,Forest,Forest_Salween,Forest_Salween,2010,0.0084362,2010,1,1
+Southeast Asia,Forest,Forest_SChinaSea,Forest_SChinaSea,2010,0.0001983,2010,1,1
+Southeast Asia,Forest,Forest_SepikR,Forest_SepikR,2010,0.0063085,2010,1,1
+Southeast Asia,Forest,Forest_SittaungR,Forest_SittaungR,2010,0.0031144,2010,1,1
+Southeast Asia,Forest,Forest_ThaiGulf,Forest_ThaiGulf,2010,0.0029211,2010,1,1
+Southeast Asia,Forest,Forest_VietnamCst,Forest_VietnamCst,2010,0.0085752,2010,1,1
+Southeast Asia,Forest,Forest_XunJiang,Forest_XunJiang,2010,0.0003263,2010,1,1
+Argentina,Forest,Forest_ArgColoR,Forest_ArgColoR,2010,0.0002885,2010,1,1
+Argentina,Forest,Forest_ArgCstN,Forest_ArgCstN,2010,2.7e-06,2010,1,1
+Argentina,Forest,Forest_ArgCstS,Forest_ArgCstS,2010,0.0004174,2010,1,1
+Argentina,Forest,Forest_ChileCstS,Forest_ChileCstS,2010,0.000733,2010,1,1
+Argentina,Forest,Forest_MarChiq,Forest_MarChiq,2010,0.000629,2010,1,1
+Argentina,Forest,Forest_NegroR,Forest_NegroR,2010,0.0012291,2010,1,1
+Argentina,Forest,Forest_Pampas,Forest_Pampas,2010,3.3e-06,2010,1,1
+Argentina,Forest,Forest_Patagonia,Forest_Patagonia,2010,5.89e-05,2010,1,1
+Argentina,Forest,Forest_RioLaPlata,Forest_RioLaPlata,2010,0.0111812,2010,1,1
+Argentina,Forest,Forest_Salinas,Forest_Salinas,2010,0.0001063,2010,1,1
+Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2010,0.0004177,2010,1,1
+Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2010,0.001905,2010,1,1
+Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2010,0.0081813,2010,1,1
+Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2010,0.0006922,2010,1,1
