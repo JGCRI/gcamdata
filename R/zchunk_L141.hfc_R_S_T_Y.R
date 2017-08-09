@@ -1,6 +1,7 @@
 #' module_emissions_L141.hfc_R_S_T_Y
 #'
-#' Briefly describe what this chunk does.
+#' Calculated HFC emissions from EDGAR, by residential and commercial cooling shares,
+#' adjusted to match Guus Velders HFC inventory
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
