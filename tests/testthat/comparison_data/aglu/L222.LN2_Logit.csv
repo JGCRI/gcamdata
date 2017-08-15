@@ -1,0 +1,760 @@
+region,LandAllocatorRoot,LandNode1,LandNode2,logit.year.fillout,logit.exponent
+Canada,root,AgroForestLand_NWTerr,AgroForest_NonPasture_NWTerr,1975,2.5
+Russia,root,AgroForestLand_SiberiaW,AgroForest_NonPasture_SiberiaW,1975,2.5
+Russia,root,AgroForestLand_LenaR,AgroForest_NonPasture_LenaR,1975,2.5
+Canada,root,AgroForestLand_PacArctic,AgroForest_NonPasture_PacArctic,1975,2.5
+European Free Trade Association,root,AgroForestLand_ScndnvN,AgroForest_NonPasture_ScndnvN,1975,2.5
+Russia,root,AgroForestLand_ScndnvN,AgroForest_NonPasture_ScndnvN,1975,2.5
+Russia,root,AgroForestLand_BarentsSea,AgroForest_NonPasture_BarentsSea,1975,2.5
+Canada,root,AgroForestLand_Mackenzie,AgroForest_NonPasture_Mackenzie,1975,2.5
+EU-15,root,AgroForestLand_Sweden,AgroForest_NonPasture_Sweden,1975,2.5
+European Free Trade Association,root,AgroForestLand_Sweden,AgroForest_NonPasture_Sweden,1975,2.5
+EU-15,root,AgroForestLand_Finland,AgroForest_NonPasture_Finland,1975,2.5
+Russia,root,AgroForestLand_Finland,AgroForest_NonPasture_Finland,1975,2.5
+Russia,root,AgroForestLand_DvinaRN,AgroForest_NonPasture_DvinaRN,1975,2.5
+Canada,root,AgroForestLand_HudsonBay,AgroForest_NonPasture_HudsonBay,1975,2.5
+EU-15,root,AgroForestLand_Scotland,AgroForest_NonPasture_Scotland,1975,2.5
+EU-15,root,AgroForestLand_NevaR,AgroForest_NonPasture_NevaR,1975,2.5
+Europe_Eastern,root,AgroForestLand_NevaR,AgroForest_NonPasture_NevaR,1975,2.5
+Russia,root,AgroForestLand_NevaR,AgroForest_NonPasture_NevaR,1975,2.5
+Central Asia,root,AgroForestLand_VolgaR,AgroForest_NonPasture_VolgaR,1975,2.5
+Russia,root,AgroForestLand_VolgaR,AgroForest_NonPasture_VolgaR,1975,2.5
+Canada,root,AgroForestLand_CanAtl,AgroForest_NonPasture_CanAtl,1975,2.5
+EU-12,root,AgroForestLand_BalticSea,AgroForest_NonPasture_BalticSea,1975,2.5
+Russia,root,AgroForestLand_BalticSea,AgroForest_NonPasture_BalticSea,1975,2.5
+EU-12,root,AgroForestLand_DnkGrmCst,AgroForest_NonPasture_DnkGrmCst,1975,2.5
+EU-15,root,AgroForestLand_DnkGrmCst,AgroForest_NonPasture_DnkGrmCst,1975,2.5
+EU-12,root,AgroForestLand_NarvaR,AgroForest_NonPasture_NarvaR,1975,2.5
+Russia,root,AgroForestLand_NarvaR,AgroForest_NonPasture_NarvaR,1975,2.5
+USA,root,AgroForestLand_NelsonR,AgroForest_NonPasture_NelsonR,1975,2.5
+Canada,root,AgroForestLand_NelsonR,AgroForest_NonPasture_NelsonR,1975,2.5
+EU-15,root,AgroForestLand_Ireland,AgroForest_NonPasture_Ireland,1975,2.5
+EU-12,root,AgroForestLand_DaugavaR,AgroForest_NonPasture_DaugavaR,1975,2.5
+Europe_Eastern,root,AgroForestLand_DaugavaR,AgroForest_NonPasture_DaugavaR,1975,2.5
+Russia,root,AgroForestLand_DaugavaR,AgroForest_NonPasture_DaugavaR,1975,2.5
+EU-15,root,AgroForestLand_EngWales,AgroForest_NonPasture_EngWales,1975,2.5
+USA,root,AgroForestLand_FraserR,AgroForest_NonPasture_FraserR,1975,2.5
+Canada,root,AgroForestLand_FraserR,AgroForest_NonPasture_FraserR,1975,2.5
+EU-15,root,AgroForestLand_EmsWeserR,AgroForest_NonPasture_EmsWeserR,1975,2.5
+EU-12,root,AgroForestLand_OderR,AgroForest_NonPasture_OderR,1975,2.5
+EU-15,root,AgroForestLand_OderR,AgroForest_NonPasture_OderR,1975,2.5
+EU-12,root,AgroForestLand_WislaR,AgroForest_NonPasture_WislaR,1975,2.5
+Europe_Eastern,root,AgroForestLand_WislaR,AgroForest_NonPasture_WislaR,1975,2.5
+EU-12,root,AgroForestLand_ElbeR,AgroForest_NonPasture_ElbeR,1975,2.5
+EU-15,root,AgroForestLand_ElbeR,AgroForest_NonPasture_ElbeR,1975,2.5
+EU-15,root,AgroForestLand_RhineR,AgroForest_NonPasture_RhineR,1975,2.5
+European Free Trade Association,root,AgroForestLand_RhineR,AgroForest_NonPasture_RhineR,1975,2.5
+EU-12,root,AgroForestLand_PolandCst,AgroForest_NonPasture_PolandCst,1975,2.5
+Russia,root,AgroForestLand_PolandCst,AgroForest_NonPasture_PolandCst,1975,2.5
+EU-12,root,AgroForestLand_NemanR,AgroForest_NonPasture_NemanR,1975,2.5
+Europe_Eastern,root,AgroForestLand_NemanR,AgroForest_NonPasture_NemanR,1975,2.5
+Russia,root,AgroForestLand_NemanR,AgroForest_NonPasture_NemanR,1975,2.5
+EU-15,root,AgroForestLand_ScheldtR,AgroForest_NonPasture_ScheldtR,1975,2.5
+China,root,AgroForestLand_RusCstSE,AgroForest_NonPasture_RusCstSE,1975,2.5
+Russia,root,AgroForestLand_RusCstSE,AgroForest_NonPasture_RusCstSE,1975,2.5
+Southeast Asia,root,AgroForestLand_RusCstSE,AgroForest_NonPasture_RusCstSE,1975,2.5
+Central Asia,root,AgroForestLand_UralR,AgroForest_NonPasture_UralR,1975,2.5
+Russia,root,AgroForestLand_UralR,AgroForest_NonPasture_UralR,1975,2.5
+Europe_Eastern,root,AgroForestLand_DnieperR,AgroForest_NonPasture_DnieperR,1975,2.5
+Russia,root,AgroForestLand_DnieperR,AgroForest_NonPasture_DnieperR,1975,2.5
+Canada,root,AgroForestLand_StLwrncR,AgroForest_NonPasture_StLwrncR,1975,2.5
+EU-15,root,AgroForestLand_FranceCstW,AgroForest_NonPasture_FranceCstW,1975,2.5
+Central Asia,root,AgroForestLand_Gobi,AgroForest_NonPasture_Gobi,1975,2.5
+China,root,AgroForestLand_Gobi,AgroForest_NonPasture_Gobi,1975,2.5
+Russia,root,AgroForestLand_Gobi,AgroForest_NonPasture_Gobi,1975,2.5
+Central Asia,root,AgroForestLand_AmurR,AgroForest_NonPasture_AmurR,1975,2.5
+China,root,AgroForestLand_AmurR,AgroForest_NonPasture_AmurR,1975,2.5
+Russia,root,AgroForestLand_AmurR,AgroForest_NonPasture_AmurR,1975,2.5
+EU-15,root,AgroForestLand_LoireR,AgroForest_NonPasture_LoireR,1975,2.5
+Central Asia,root,AgroForestLand_CaspianNE,AgroForest_NonPasture_CaspianNE,1975,2.5
+Russia,root,AgroForestLand_CaspianNE,AgroForest_NonPasture_CaspianNE,1975,2.5
+EU-15,root,AgroForestLand_SeineR,AgroForest_NonPasture_SeineR,1975,2.5
+Central Asia,root,AgroForestLand_BlackSeaN,AgroForest_NonPasture_BlackSeaN,1975,2.5
+Europe_Eastern,root,AgroForestLand_BlackSeaN,AgroForest_NonPasture_BlackSeaN,1975,2.5
+Russia,root,AgroForestLand_BlackSeaN,AgroForest_NonPasture_BlackSeaN,1975,2.5
+Central Asia,root,AgroForestLand_YeniseiR,AgroForest_NonPasture_YeniseiR,1975,2.5
+Russia,root,AgroForestLand_YeniseiR,AgroForest_NonPasture_YeniseiR,1975,2.5
+EU-12,root,AgroForestLand_DniesterR,AgroForest_NonPasture_DniesterR,1975,2.5
+Europe_Eastern,root,AgroForestLand_DniesterR,AgroForest_NonPasture_DniesterR,1975,2.5
+EU-15,root,AgroForestLand_ItalyCstE,AgroForest_NonPasture_ItalyCstE,1975,2.5
+Japan,root,AgroForestLand_Japan,AgroForest_NonPasture_Japan,1975,2.5
+Central Asia,root,AgroForestLand_CaspianE,AgroForest_NonPasture_CaspianE,1975,2.5
+Middle East,root,AgroForestLand_CaspianE,AgroForest_NonPasture_CaspianE,1975,2.5
+South Asia,root,AgroForestLand_CaspianE,AgroForest_NonPasture_CaspianE,1975,2.5
+Europe_Eastern,root,AgroForestLand_DonR,AgroForest_NonPasture_DonR,1975,2.5
+Russia,root,AgroForestLand_DonR,AgroForest_NonPasture_DonR,1975,2.5
+EU-12,root,AgroForestLand_DanubeR,AgroForest_NonPasture_DanubeR,1975,2.5
+EU-15,root,AgroForestLand_DanubeR,AgroForest_NonPasture_DanubeR,1975,2.5
+Europe_Eastern,root,AgroForestLand_DanubeR,AgroForest_NonPasture_DanubeR,1975,2.5
+Europe_Non_EU,root,AgroForestLand_DanubeR,AgroForest_NonPasture_DanubeR,1975,2.5
+European Free Trade Association,root,AgroForestLand_DanubeR,AgroForest_NonPasture_DanubeR,1975,2.5
+EU-12,root,AgroForestLand_AdrBlkSea,AgroForest_NonPasture_AdrBlkSea,1975,2.5
+EU-15,root,AgroForestLand_AdrBlkSea,AgroForest_NonPasture_AdrBlkSea,1975,2.5
+Europe_Non_EU,root,AgroForestLand_AdrBlkSea,AgroForest_NonPasture_AdrBlkSea,1975,2.5
+Central Asia,root,AgroForestLand_ObR,AgroForest_NonPasture_ObR,1975,2.5
+China,root,AgroForestLand_ObR,AgroForest_NonPasture_ObR,1975,2.5
+Russia,root,AgroForestLand_ObR,AgroForest_NonPasture_ObR,1975,2.5
+EU-15,root,AgroForestLand_PoR,AgroForest_NonPasture_PoR,1975,2.5
+European Free Trade Association,root,AgroForestLand_PoR,AgroForest_NonPasture_PoR,1975,2.5
+Central Asia,root,AgroForestLand_AmuDaryaR,AgroForest_NonPasture_AmuDaryaR,1975,2.5
+Pakistan,root,AgroForestLand_AmuDaryaR,AgroForest_NonPasture_AmuDaryaR,1975,2.5
+South Asia,root,AgroForestLand_AmuDaryaR,AgroForest_NonPasture_AmuDaryaR,1975,2.5
+EU-15,root,AgroForestLand_ItalyCstW,AgroForest_NonPasture_ItalyCstW,1975,2.5
+EU-15,root,AgroForestLand_IberiaCst,AgroForest_NonPasture_IberiaCst,1975,2.5
+EU-15,root,AgroForestLand_FranceCstS,AgroForest_NonPasture_FranceCstS,1975,2.5
+EU-15,root,AgroForestLand_RhoneR,AgroForest_NonPasture_RhoneR,1975,2.5
+European Free Trade Association,root,AgroForestLand_RhoneR,AgroForest_NonPasture_RhoneR,1975,2.5
+EU-15,root,AgroForestLand_MeditIsl,AgroForest_NonPasture_MeditIsl,1975,2.5
+EU-15,root,AgroForestLand_Gironde,AgroForest_NonPasture_Gironde,1975,2.5
+South Korea,root,AgroForestLand_Korea,AgroForest_NonPasture_Korea,1975,2.5
+Southeast Asia,root,AgroForestLand_Korea,AgroForest_NonPasture_Korea,1975,2.5
+China,root,AgroForestLand_BoHai,AgroForest_NonPasture_BoHai,1975,2.5
+Southeast Asia,root,AgroForestLand_BoHai,AgroForest_NonPasture_BoHai,1975,2.5
+EU-15,root,AgroForestLand_SpainCstSE,AgroForest_NonPasture_SpainCstSE,1975,2.5
+Central Asia,root,AgroForestLand_LBalkash,AgroForest_NonPasture_LBalkash,1975,2.5
+China,root,AgroForestLand_LBalkash,AgroForest_NonPasture_LBalkash,1975,2.5
+EU-15,root,AgroForestLand_TiberR,AgroForest_NonPasture_TiberR,1975,2.5
+Central Asia,root,AgroForestLand_BlackSeaS,AgroForest_NonPasture_BlackSeaS,1975,2.5
+Europe_Non_EU,root,AgroForestLand_BlackSeaS,AgroForest_NonPasture_BlackSeaS,1975,2.5
+Russia,root,AgroForestLand_BlackSeaS,AgroForest_NonPasture_BlackSeaS,1975,2.5
+EU-15,root,AgroForestLand_TagusR,AgroForest_NonPasture_TagusR,1975,2.5
+Central Asia,root,AgroForestLand_CaspianSW,AgroForest_NonPasture_CaspianSW,1975,2.5
+Europe_Non_EU,root,AgroForestLand_CaspianSW,AgroForest_NonPasture_CaspianSW,1975,2.5
+Middle East,root,AgroForestLand_CaspianSW,AgroForest_NonPasture_CaspianSW,1975,2.5
+Russia,root,AgroForestLand_CaspianSW,AgroForest_NonPasture_CaspianSW,1975,2.5
+EU-15,root,AgroForestLand_EbroR,AgroForest_NonPasture_EbroR,1975,2.5
+EU-15,root,AgroForestLand_DouroR,AgroForest_NonPasture_DouroR,1975,2.5
+Africa_Northern,root,AgroForestLand_MeditE,AgroForest_NonPasture_MeditE,1975,2.5
+EU-12,root,AgroForestLand_MeditE,AgroForest_NonPasture_MeditE,1975,2.5
+EU-15,root,AgroForestLand_MeditE,AgroForest_NonPasture_MeditE,1975,2.5
+Europe_Non_EU,root,AgroForestLand_MeditE,AgroForest_NonPasture_MeditE,1975,2.5
+Middle East,root,AgroForestLand_MeditE,AgroForest_NonPasture_MeditE,1975,2.5
+Central Asia,root,AgroForestLand_SyrDaryaR,AgroForest_NonPasture_SyrDaryaR,1975,2.5
+China,root,AgroForestLand_SyrDaryaR,AgroForest_NonPasture_SyrDaryaR,1975,2.5
+Russia,root,AgroForestLand_SyrDaryaR,AgroForest_NonPasture_SyrDaryaR,1975,2.5
+China,root,AgroForestLand_ZiyaHe,AgroForest_NonPasture_ZiyaHe,1975,2.5
+China,root,AgroForestLand_ChinaCst,AgroForest_NonPasture_ChinaCst,1975,2.5
+China,root,AgroForestLand_HuangHeR,AgroForest_NonPasture_HuangHeR,1975,2.5
+Africa_Northern,root,AgroForestLand_MeditS,AgroForest_NonPasture_MeditS,1975,2.5
+EU-15,root,AgroForestLand_GuadianaR,AgroForest_NonPasture_GuadianaR,1975,2.5
+Middle East,root,AgroForestLand_Iran,AgroForest_NonPasture_Iran,1975,2.5
+EU-15,root,AgroForestLand_GuadalqR,AgroForest_NonPasture_GuadalqR,1975,2.5
+Europe_Non_EU,root,AgroForestLand_TigrEuphR,AgroForest_NonPasture_TigrEuphR,1975,2.5
+Middle East,root,AgroForestLand_TigrEuphR,AgroForest_NonPasture_TigrEuphR,1975,2.5
+Central Asia,root,AgroForestLand_Tarim,AgroForest_NonPasture_Tarim,1975,2.5
+China,root,AgroForestLand_Tarim,AgroForest_NonPasture_Tarim,1975,2.5
+Pakistan,root,AgroForestLand_Tarim,AgroForest_NonPasture_Tarim,1975,2.5
+Africa_Northern,root,AgroForestLand_AfrCstNW,AgroForest_NonPasture_AfrCstNW,1975,2.5
+Africa_Western,root,AgroForestLand_AfrCstNW,AgroForest_NonPasture_AfrCstNW,1975,2.5
+Africa_Eastern,root,AgroForestLand_NileR,AgroForest_NonPasture_NileR,1975,2.5
+Africa_Northern,root,AgroForestLand_NileR,AgroForest_NonPasture_NileR,1975,2.5
+Africa_Southern,root,AgroForestLand_NileR,AgroForest_NonPasture_NileR,1975,2.5
+Africa_Western,root,AgroForestLand_NileR,AgroForest_NonPasture_NileR,1975,2.5
+Middle East,root,AgroForestLand_PersianGulf,AgroForest_NonPasture_PersianGulf,1975,2.5
+China,root,AgroForestLand_IndusR,AgroForest_NonPasture_IndusR,1975,2.5
+India,root,AgroForestLand_IndusR,AgroForest_NonPasture_IndusR,1975,2.5
+Pakistan,root,AgroForestLand_IndusR,AgroForest_NonPasture_IndusR,1975,2.5
+South Asia,root,AgroForestLand_IndusR,AgroForest_NonPasture_IndusR,1975,2.5
+Middle East,root,AgroForestLand_FarahrudR,AgroForest_NonPasture_FarahrudR,1975,2.5
+South Asia,root,AgroForestLand_FarahrudR,AgroForest_NonPasture_FarahrudR,1975,2.5
+Mexico,root,AgroForestLand_MexBaja,AgroForest_NonPasture_MexBaja,1975,2.5
+China,root,AgroForestLand_Tibet,AgroForest_NonPasture_Tibet,1975,2.5
+Middle East,root,AgroForestLand_RedSeaE,AgroForest_NonPasture_RedSeaE,1975,2.5
+Middle East,root,AgroForestLand_ArabianP,AgroForest_NonPasture_ArabianP,1975,2.5
+Middle East,root,AgroForestLand_DeadSea,AgroForest_NonPasture_DeadSea,1975,2.5
+USA,root,AgroForestLand_MexCstNW,AgroForest_NonPasture_MexCstNW,1975,2.5
+Mexico,root,AgroForestLand_MexCstNW,AgroForest_NonPasture_MexCstNW,1975,2.5
+Middle East,root,AgroForestLand_Helmand,AgroForest_NonPasture_Helmand,1975,2.5
+Pakistan,root,AgroForestLand_Helmand,AgroForest_NonPasture_Helmand,1975,2.5
+South Asia,root,AgroForestLand_Helmand,AgroForest_NonPasture_Helmand,1975,2.5
+Middle East,root,AgroForestLand_SinaiP,AgroForest_NonPasture_SinaiP,1975,2.5
+Europe_Non_EU,root,AgroForestLand_EJrdnSyr,AgroForest_NonPasture_EJrdnSyr,1975,2.5
+Middle East,root,AgroForestLand_EJrdnSyr,AgroForest_NonPasture_EJrdnSyr,1975,2.5
+Africa_Eastern,root,AgroForestLand_AfrCstNE,AgroForest_NonPasture_AfrCstNE,1975,2.5
+Africa_Northern,root,AgroForestLand_AfrCstNE,AgroForest_NonPasture_AfrCstNE,1975,2.5
+Middle East,root,AgroForestLand_AfrCstNE,AgroForest_NonPasture_AfrCstNE,1975,2.5
+USA,root,AgroForestLand_Caribbean,AgroForest_NonPasture_Caribbean,1975,2.5
+Central America and Caribbean,root,AgroForestLand_Caribbean,AgroForest_NonPasture_Caribbean,1975,2.5
+Middle East,root,AgroForestLand_HamuMashR,AgroForest_NonPasture_HamuMashR,1975,2.5
+Pakistan,root,AgroForestLand_HamuMashR,AgroForest_NonPasture_HamuMashR,1975,2.5
+South Asia,root,AgroForestLand_HamuMashR,AgroForest_NonPasture_HamuMashR,1975,2.5
+China,root,AgroForestLand_Taiwan,AgroForest_NonPasture_Taiwan,1975,2.5
+Japan,root,AgroForestLand_Taiwan,AgroForest_NonPasture_Taiwan,1975,2.5
+Middle East,root,AgroForestLand_ArabianSea,AgroForest_NonPasture_ArabianSea,1975,2.5
+Pakistan,root,AgroForestLand_ArabianSea,AgroForest_NonPasture_ArabianSea,1975,2.5
+Mexico,root,AgroForestLand_MexGulf,AgroForest_NonPasture_MexGulf,1975,2.5
+China,root,AgroForestLand_Yangtze,AgroForest_NonPasture_Yangtze,1975,2.5
+India,root,AgroForestLand_SabarmatiR,AgroForest_NonPasture_SabarmatiR,1975,2.5
+Pakistan,root,AgroForestLand_SabarmatiR,AgroForest_NonPasture_SabarmatiR,1975,2.5
+China,root,AgroForestLand_XunJiang,AgroForest_NonPasture_XunJiang,1975,2.5
+Southeast Asia,root,AgroForestLand_XunJiang,AgroForest_NonPasture_XunJiang,1975,2.5
+China,root,AgroForestLand_Hong,AgroForest_NonPasture_Hong,1975,2.5
+Southeast Asia,root,AgroForestLand_Hong,AgroForest_NonPasture_Hong,1975,2.5
+China,root,AgroForestLand_GangesR,AgroForest_NonPasture_GangesR,1975,2.5
+India,root,AgroForestLand_GangesR,AgroForest_NonPasture_GangesR,1975,2.5
+South Asia,root,AgroForestLand_GangesR,AgroForest_NonPasture_GangesR,1975,2.5
+Southeast Asia,root,AgroForestLand_GangesR,AgroForest_NonPasture_GangesR,1975,2.5
+Central America and Caribbean,root,AgroForestLand_YucatanP,AgroForest_NonPasture_YucatanP,1975,2.5
+Mexico,root,AgroForestLand_YucatanP,AgroForest_NonPasture_YucatanP,1975,2.5
+China,root,AgroForestLand_SChinaSea,AgroForest_NonPasture_SChinaSea,1975,2.5
+Southeast Asia,root,AgroForestLand_SChinaSea,AgroForest_NonPasture_SChinaSea,1975,2.5
+India,root,AgroForestLand_MahiR,AgroForest_NonPasture_MahiR,1975,2.5
+Mexico,root,AgroForestLand_MexInt,AgroForest_NonPasture_MexInt,1975,2.5
+Mexico,root,AgroForestLand_MexCstW,AgroForest_NonPasture_MexCstW,1975,2.5
+India,root,AgroForestLand_BengalBay,AgroForest_NonPasture_BengalBay,1975,2.5
+South Asia,root,AgroForestLand_BengalBay,AgroForest_NonPasture_BengalBay,1975,2.5
+Southeast Asia,root,AgroForestLand_BengalBay,AgroForest_NonPasture_BengalBay,1975,2.5
+India,root,AgroForestLand_TaptiR,AgroForest_NonPasture_TaptiR,1975,2.5
+India,root,AgroForestLand_BengalW,AgroForest_NonPasture_BengalW,1975,2.5
+Southeast Asia,root,AgroForestLand_Phlppns,AgroForest_NonPasture_Phlppns,1975,2.5
+India,root,AgroForestLand_BrahmaniR,AgroForest_NonPasture_BrahmaniR,1975,2.5
+India,root,AgroForestLand_MahanadiR,AgroForest_NonPasture_MahanadiR,1975,2.5
+India,root,AgroForestLand_GodavariR,AgroForest_NonPasture_GodavariR,1975,2.5
+China,root,AgroForestLand_Hainan,AgroForest_NonPasture_Hainan,1975,2.5
+China,root,AgroForestLand_Mekong,AgroForest_NonPasture_Mekong,1975,2.5
+Southeast Asia,root,AgroForestLand_Mekong,AgroForest_NonPasture_Mekong,1975,2.5
+Southeast Asia,root,AgroForestLand_VietnamCst,AgroForest_NonPasture_VietnamCst,1975,2.5
+China,root,AgroForestLand_Salween,AgroForest_NonPasture_Salween,1975,2.5
+Southeast Asia,root,AgroForestLand_Salween,AgroForest_NonPasture_Salween,1975,2.5
+India,root,AgroForestLand_IndCstNE,AgroForest_NonPasture_IndCstNE,1975,2.5
+India,root,AgroForestLand_IndCstW,AgroForest_NonPasture_IndCstW,1975,2.5
+Mexico,root,AgroForestLand_Papaloapan,AgroForest_NonPasture_Papaloapan,1975,2.5
+Mexico,root,AgroForestLand_RioLerma,AgroForest_NonPasture_RioLerma,1975,2.5
+Mexico,root,AgroForestLand_RioVerde,AgroForest_NonPasture_RioVerde,1975,2.5
+Central America and Caribbean,root,AgroForestLand_GrijUsuR,AgroForest_NonPasture_GrijUsuR,1975,2.5
+Mexico,root,AgroForestLand_GrijUsuR,AgroForest_NonPasture_GrijUsuR,1975,2.5
+Mexico,root,AgroForestLand_RioBalsas,AgroForest_NonPasture_RioBalsas,1975,2.5
+Central America and Caribbean,root,AgroForestLand_CntAmer,AgroForest_NonPasture_CntAmer,1975,2.5
+Mexico,root,AgroForestLand_CntAmer,AgroForest_NonPasture_CntAmer,1975,2.5
+Mexico,root,AgroForestLand_Tehuantpc,AgroForest_NonPasture_Tehuantpc,1975,2.5
+China,root,AgroForestLand_IrrawaddyR,AgroForest_NonPasture_IrrawaddyR,1975,2.5
+India,root,AgroForestLand_IrrawaddyR,AgroForest_NonPasture_IrrawaddyR,1975,2.5
+Southeast Asia,root,AgroForestLand_IrrawaddyR,AgroForest_NonPasture_IrrawaddyR,1975,2.5
+Southeast Asia,root,AgroForestLand_SittaungR,AgroForest_NonPasture_SittaungR,1975,2.5
+Indonesia,root,AgroForestLand_MalaysiaP,AgroForest_NonPasture_MalaysiaP,1975,2.5
+Southeast Asia,root,AgroForestLand_MalaysiaP,AgroForest_NonPasture_MalaysiaP,1975,2.5
+India,root,AgroForestLand_KrishnaR,AgroForest_NonPasture_KrishnaR,1975,2.5
+Africa_Western,root,AgroForestLand_AfrCstW,AgroForest_NonPasture_AfrCstW,1975,2.5
+Central America and Caribbean,root,AgroForestLand_SAmerCstN,AgroForest_NonPasture_SAmerCstN,1975,2.5
+South America_Northern,root,AgroForestLand_SAmerCstN,AgroForest_NonPasture_SAmerCstN,1975,2.5
+Colombia,root,AgroForestLand_SAmerCstN,AgroForest_NonPasture_SAmerCstN,1975,2.5
+Africa_Eastern,root,AgroForestLand_AfrIntN,AgroForest_NonPasture_AfrIntN,1975,2.5
+Africa_Northern,root,AgroForestLand_AfrIntN,AgroForest_NonPasture_AfrIntN,1975,2.5
+Africa_Western,root,AgroForestLand_AfrIntN,AgroForest_NonPasture_AfrIntN,1975,2.5
+India,root,AgroForestLand_IndCstE,AgroForest_NonPasture_IndCstE,1975,2.5
+Southeast Asia,root,AgroForestLand_ChaoPhrR,AgroForest_NonPasture_ChaoPhrR,1975,2.5
+India,root,AgroForestLand_PennarR,AgroForest_NonPasture_PennarR,1975,2.5
+Southeast Asia,root,AgroForestLand_ThaiGulf,AgroForest_NonPasture_ThaiGulf,1975,2.5
+Africa_Western,root,AgroForestLand_NigerR,AgroForest_NonPasture_NigerR,1975,2.5
+Africa_Eastern,root,AgroForestLand_LChad,AgroForest_NonPasture_LChad,1975,2.5
+Africa_Western,root,AgroForestLand_LChad,AgroForest_NonPasture_LChad,1975,2.5
+Africa_Western,root,AgroForestLand_SenegalR,AgroForest_NonPasture_SenegalR,1975,2.5
+India,root,AgroForestLand_CauveryR,AgroForest_NonPasture_CauveryR,1975,2.5
+South Asia,root,AgroForestLand_SriLanka,AgroForest_NonPasture_SriLanka,1975,2.5
+India,root,AgroForestLand_IndCstS,AgroForest_NonPasture_IndCstS,1975,2.5
+Brazil,root,AgroForestLand_OrinocoR,AgroForest_NonPasture_OrinocoR,1975,2.5
+South America_Northern,root,AgroForestLand_OrinocoR,AgroForest_NonPasture_OrinocoR,1975,2.5
+South America_Southern,root,AgroForestLand_OrinocoR,AgroForest_NonPasture_OrinocoR,1975,2.5
+Colombia,root,AgroForestLand_OrinocoR,AgroForest_NonPasture_OrinocoR,1975,2.5
+Central America and Caribbean,root,AgroForestLand_ColEcuaCst,AgroForest_NonPasture_ColEcuaCst,1975,2.5
+South America_Southern,root,AgroForestLand_ColEcuaCst,AgroForest_NonPasture_ColEcuaCst,1975,2.5
+Colombia,root,AgroForestLand_ColEcuaCst,AgroForest_NonPasture_ColEcuaCst,1975,2.5
+Indonesia,root,AgroForestLand_IdnE,AgroForest_NonPasture_IdnE,1975,2.5
+Southeast Asia,root,AgroForestLand_IdnE,AgroForest_NonPasture_IdnE,1975,2.5
+Indonesia,root,AgroForestLand_BorneoCstN,AgroForest_NonPasture_BorneoCstN,1975,2.5
+Southeast Asia,root,AgroForestLand_BorneoCstN,AgroForest_NonPasture_BorneoCstN,1975,2.5
+Africa_Western,root,AgroForestLand_VoltaR,AgroForest_NonPasture_VoltaR,1975,2.5
+Brazil,root,AgroForestLand_SAmerCstNE,AgroForest_NonPasture_SAmerCstNE,1975,2.5
+South America_Northern,root,AgroForestLand_SAmerCstNE,AgroForest_NonPasture_SAmerCstNE,1975,2.5
+Africa_Southern,root,AgroForestLand_GuineaGulf,AgroForest_NonPasture_GuineaGulf,1975,2.5
+Africa_Western,root,AgroForestLand_GuineaGulf,AgroForest_NonPasture_GuineaGulf,1975,2.5
+Indonesia,root,AgroForestLand_Sumatra,AgroForest_NonPasture_Sumatra,1975,2.5
+Indonesia,root,AgroForestLand_Sulawesi,AgroForest_NonPasture_Sulawesi,1975,2.5
+Indonesia,root,AgroForestLand_Kalimantan,AgroForest_NonPasture_Kalimantan,1975,2.5
+Southeast Asia,root,AgroForestLand_Kalimantan,AgroForest_NonPasture_Kalimantan,1975,2.5
+South America_Northern,root,AgroForestLand_MagdalenaR,AgroForest_NonPasture_MagdalenaR,1975,2.5
+Colombia,root,AgroForestLand_MagdalenaR,AgroForest_NonPasture_MagdalenaR,1975,2.5
+Indonesia,root,AgroForestLand_IrianJaya,AgroForest_NonPasture_IrianJaya,1975,2.5
+Southeast Asia,root,AgroForestLand_IrianJaya,AgroForest_NonPasture_IrianJaya,1975,2.5
+Brazil,root,AgroForestLand_AmazonR,AgroForest_NonPasture_AmazonR,1975,2.5
+South America_Southern,root,AgroForestLand_ChileCstS,AgroForest_NonPasture_ChileCstS,1975,2.5
+Argentina,root,AgroForestLand_ChileCstS,AgroForest_NonPasture_ChileCstS,1975,2.5
+Africa_Eastern,root,AgroForestLand_ShebJubR,AgroForest_NonPasture_ShebJubR,1975,2.5
+Africa_Eastern,root,AgroForestLand_AfrCstE,AgroForest_NonPasture_AfrCstE,1975,2.5
+Africa_Southern,root,AgroForestLand_AfrCstE,AgroForest_NonPasture_AfrCstE,1975,2.5
+Brazil,root,AgroForestLand_BrzCstN,AgroForest_NonPasture_BrzCstN,1975,2.5
+Southeast Asia,root,AgroForestLand_PapuaCst,AgroForest_NonPasture_PapuaCst,1975,2.5
+Brazil,root,AgroForestLand_TocantinsR,AgroForest_NonPasture_TocantinsR,1975,2.5
+Indonesia,root,AgroForestLand_JavaTimor,AgroForest_NonPasture_JavaTimor,1975,2.5
+Southeast Asia,root,AgroForestLand_JavaTimor,AgroForest_NonPasture_JavaTimor,1975,2.5
+Africa_Eastern,root,AgroForestLand_Madasgacar,AgroForest_NonPasture_Madasgacar,1975,2.5
+Indonesia,root,AgroForestLand_SepikR,AgroForest_NonPasture_SepikR,1975,2.5
+Southeast Asia,root,AgroForestLand_SepikR,AgroForest_NonPasture_SepikR,1975,2.5
+Africa_Eastern,root,AgroForestLand_RiftValley,AgroForest_NonPasture_RiftValley,1975,2.5
+Africa_Southern,root,AgroForestLand_RiftValley,AgroForest_NonPasture_RiftValley,1975,2.5
+South America_Southern,root,AgroForestLand_PeruCst,AgroForest_NonPasture_PeruCst,1975,2.5
+Indonesia,root,AgroForestLand_FlyR,AgroForest_NonPasture_FlyR,1975,2.5
+Southeast Asia,root,AgroForestLand_FlyR,AgroForest_NonPasture_FlyR,1975,2.5
+Africa_Southern,root,AgroForestLand_AngolaCst,AgroForest_NonPasture_AngolaCst,1975,2.5
+Africa_Eastern,root,AgroForestLand_CongoR,AgroForest_NonPasture_CongoR,1975,2.5
+Africa_Southern,root,AgroForestLand_CongoR,AgroForest_NonPasture_CongoR,1975,2.5
+Africa_Western,root,AgroForestLand_CongoR,AgroForest_NonPasture_CongoR,1975,2.5
+Australia_NZ,root,AgroForestLand_AusCstN,AgroForest_NonPasture_AusCstN,1975,2.5
+Brazil,root,AgroForestLand_BrzCstE,AgroForest_NonPasture_BrzCstE,1975,2.5
+Brazil,root,AgroForestLand_ParnaibaR,AgroForest_NonPasture_ParnaibaR,1975,2.5
+Africa_Southern,root,AgroForestLand_ZambeziR,AgroForest_NonPasture_ZambeziR,1975,2.5
+Africa_Western,root,AgroForestLand_ZambeziR,AgroForest_NonPasture_ZambeziR,1975,2.5
+Australia_NZ,root,AgroForestLand_AusCstE,AgroForest_NonPasture_AusCstE,1975,2.5
+Africa_Southern,root,AgroForestLand_AfrCstSE,AgroForest_NonPasture_AfrCstSE,1975,2.5
+Australia_NZ,root,AgroForestLand_AusCstW,AgroForest_NonPasture_AusCstW,1975,2.5
+Brazil,root,AgroForestLand_SaoFrancR,AgroForest_NonPasture_SaoFrancR,1975,2.5
+Australia_NZ,root,AgroForestLand_AusInt,AgroForest_NonPasture_AusInt,1975,2.5
+Africa_Southern,root,AgroForestLand_OrangeR,AgroForest_NonPasture_OrangeR,1975,2.5
+South Africa,root,AgroForestLand_OrangeR,AgroForest_NonPasture_OrangeR,1975,2.5
+Brazil,root,AgroForestLand_BrzCstS,AgroForest_NonPasture_BrzCstS,1975,2.5
+South America_Southern,root,AgroForestLand_BrzCstS,AgroForest_NonPasture_BrzCstS,1975,2.5
+Africa_Southern,root,AgroForestLand_AfrCstSW,AgroForest_NonPasture_AfrCstSW,1975,2.5
+Africa_Southern,root,AgroForestLand_AfrIntS,AgroForest_NonPasture_AfrIntS,1975,2.5
+Africa_Southern,root,AgroForestLand_AfrCstS,AgroForest_NonPasture_AfrCstS,1975,2.5
+South Africa,root,AgroForestLand_AfrCstS,AgroForest_NonPasture_AfrCstS,1975,2.5
+Africa_Southern,root,AgroForestLand_LimpopoR,AgroForest_NonPasture_LimpopoR,1975,2.5
+South Africa,root,AgroForestLand_LimpopoR,AgroForest_NonPasture_LimpopoR,1975,2.5
+South America_Southern,root,AgroForestLand_LaPuna,AgroForest_NonPasture_LaPuna,1975,2.5
+Argentina,root,AgroForestLand_LaPuna,AgroForest_NonPasture_LaPuna,1975,2.5
+Australia_NZ,root,AgroForestLand_NewZealand,AgroForest_NonPasture_NewZealand,1975,2.5
+Australia_NZ,root,AgroForestLand_AusCstS,AgroForest_NonPasture_AusCstS,1975,2.5
+Argentina,root,AgroForestLand_MarChiq,AgroForest_NonPasture_MarChiq,1975,2.5
+South Africa,root,AgroForestLand_AfrCstSSW,AgroForest_NonPasture_AfrCstSSW,1975,2.5
+Argentina,root,AgroForestLand_Salinas,AgroForest_NonPasture_Salinas,1975,2.5
+Brazil,root,AgroForestLand_RioLaPlata,AgroForest_NonPasture_RioLaPlata,1975,2.5
+South America_Southern,root,AgroForestLand_RioLaPlata,AgroForest_NonPasture_RioLaPlata,1975,2.5
+Argentina,root,AgroForestLand_RioLaPlata,AgroForest_NonPasture_RioLaPlata,1975,2.5
+South America_Southern,root,AgroForestLand_ChileCstN,AgroForest_NonPasture_ChileCstN,1975,2.5
+Argentina,root,AgroForestLand_ChileCstN,AgroForest_NonPasture_ChileCstN,1975,2.5
+Australia_NZ,root,AgroForestLand_MurrayDrlg,AgroForest_NonPasture_MurrayDrlg,1975,2.5
+Argentina,root,AgroForestLand_Pampas,AgroForest_NonPasture_Pampas,1975,2.5
+Argentina,root,AgroForestLand_ArgCstN,AgroForest_NonPasture_ArgCstN,1975,2.5
+Australia_NZ,root,AgroForestLand_Tasmania,AgroForest_NonPasture_Tasmania,1975,2.5
+South America_Southern,root,AgroForestLand_ArgColoR,AgroForest_NonPasture_ArgColoR,1975,2.5
+Argentina,root,AgroForestLand_ArgColoR,AgroForest_NonPasture_ArgColoR,1975,2.5
+South America_Southern,root,AgroForestLand_NegroR,AgroForest_NonPasture_NegroR,1975,2.5
+Argentina,root,AgroForestLand_NegroR,AgroForest_NonPasture_NegroR,1975,2.5
+Argentina,root,AgroForestLand_Patagonia,AgroForest_NonPasture_Patagonia,1975,2.5
+South America_Southern,root,AgroForestLand_ArgCstS,AgroForest_NonPasture_ArgCstS,1975,2.5
+Argentina,root,AgroForestLand_ArgCstS,AgroForest_NonPasture_ArgCstS,1975,2.5
+USA,root,AgroForestLand_California,AgroForest_NonPasture_California,1975,2.5
+Mexico,root,AgroForestLand_California,AgroForest_NonPasture_California,1975,2.5
+USA,root,AgroForestLand_MissppRN,AgroForest_NonPasture_MissppRN,1975,2.5
+USA,root,AgroForestLand_MissppRS,AgroForest_NonPasture_MissppRS,1975,2.5
+USA,root,AgroForestLand_UsaColoRN,AgroForest_NonPasture_UsaColoRN,1975,2.5
+USA,root,AgroForestLand_UsaColoRS,AgroForest_NonPasture_UsaColoRS,1975,2.5
+Mexico,root,AgroForestLand_UsaColoRS,AgroForest_NonPasture_UsaColoRS,1975,2.5
+USA,root,AgroForestLand_GreatBasin,AgroForest_NonPasture_GreatBasin,1975,2.5
+USA,root,AgroForestLand_MissouriR,AgroForest_NonPasture_MissouriR,1975,2.5
+Canada,root,AgroForestLand_MissouriR,AgroForest_NonPasture_MissouriR,1975,2.5
+USA,root,AgroForestLand_ArkWhtRedR,AgroForest_NonPasture_ArkWhtRedR,1975,2.5
+USA,root,AgroForestLand_TexasCst,AgroForest_NonPasture_TexasCst,1975,2.5
+USA,root,AgroForestLand_UsaCstSE,AgroForest_NonPasture_UsaCstSE,1975,2.5
+USA,root,AgroForestLand_GreatLakes,AgroForest_NonPasture_GreatLakes,1975,2.5
+Canada,root,AgroForestLand_GreatLakes,AgroForest_NonPasture_GreatLakes,1975,2.5
+USA,root,AgroForestLand_OhioR,AgroForest_NonPasture_OhioR,1975,2.5
+USA,root,AgroForestLand_UsaPacNW,AgroForest_NonPasture_UsaPacNW,1975,2.5
+Canada,root,AgroForestLand_UsaPacNW,AgroForest_NonPasture_UsaPacNW,1975,2.5
+USA,root,AgroForestLand_TennR,AgroForest_NonPasture_TennR,1975,2.5
+USA,root,AgroForestLand_RioGrande,AgroForest_NonPasture_RioGrande,1975,2.5
+Mexico,root,AgroForestLand_RioGrande,AgroForest_NonPasture_RioGrande,1975,2.5
+USA,root,AgroForestLand_UsaCstNE,AgroForest_NonPasture_UsaCstNE,1975,2.5
+Canada,root,AgroForestLand_UsaCstNE,AgroForest_NonPasture_UsaCstNE,1975,2.5
+USA,root,AgroForestLand_UsaCstE,AgroForest_NonPasture_UsaCstE,1975,2.5
+India,root,AgroForestLand_NarmadaR,AgroForest_NonPasture_NarmadaR,1975,2.5
+USA,root,AgroForestLand_PacArctic,AgroForest_NonPasture_PacArctic,1975,2.5
+Africa_Northern,root,AgroForestLand_DeadSea,AgroForest_NonPasture_DeadSea,1975,2.5
+Africa_Northern,root,AgroForestLand_SinaiP,AgroForest_NonPasture_SinaiP,1975,2.5
+Africa_Northern,root,AgroForestLand_NigerR,AgroForest_NonPasture_NigerR,1975,2.5
+Africa_Northern,root,AgroForestLand_LChad,AgroForest_NonPasture_LChad,1975,2.5
+Canada,root,AgroForestLand_ChurchillR,AgroForest_NonPasture_ChurchillR,1975,2.5
+EU-15,root,AgroForestLand_ScndnvN,AgroForest_NonPasture_ScndnvN,1975,2.5
+European Free Trade Association,root,AgroForestLand_Iceland,AgroForest_NonPasture_Iceland,1975,2.5
+Russia,root,AgroForestLand_SiberiaN,AgroForest_NonPasture_SiberiaN,1975,2.5
+Russia,root,AgroForestLand_KaraSea,AgroForest_NonPasture_KaraSea,1975,2.5
+South Africa,root,AgroForestLand_AfrCstSW,AgroForest_NonPasture_AfrCstSW,1975,2.5
+Southeast Asia,root,AgroForestLand_NewCaledn,AgroForest_NonPasture_NewCaledn,1975,2.5
+USA,root,AgroForestLand_PacArctic,AllPastureLand_PacArctic,1975,3
+USA,root,AgroForestLand_NelsonR,AllPastureLand_NelsonR,1975,3
+USA,root,AgroForestLand_FraserR,AllPastureLand_FraserR,1975,3
+USA,root,AgroForestLand_MexCstNW,AllPastureLand_MexCstNW,1975,3
+USA,root,AgroForestLand_Caribbean,AllPastureLand_Caribbean,1975,3
+USA,root,AgroForestLand_California,AllPastureLand_California,1975,3
+USA,root,AgroForestLand_MissppRN,AllPastureLand_MissppRN,1975,3
+USA,root,AgroForestLand_MissppRS,AllPastureLand_MissppRS,1975,3
+USA,root,AgroForestLand_UsaColoRN,AllPastureLand_UsaColoRN,1975,3
+USA,root,AgroForestLand_UsaColoRS,AllPastureLand_UsaColoRS,1975,3
+USA,root,AgroForestLand_GreatBasin,AllPastureLand_GreatBasin,1975,3
+USA,root,AgroForestLand_MissouriR,AllPastureLand_MissouriR,1975,3
+USA,root,AgroForestLand_ArkWhtRedR,AllPastureLand_ArkWhtRedR,1975,3
+USA,root,AgroForestLand_TexasCst,AllPastureLand_TexasCst,1975,3
+USA,root,AgroForestLand_UsaCstSE,AllPastureLand_UsaCstSE,1975,3
+USA,root,AgroForestLand_GreatLakes,AllPastureLand_GreatLakes,1975,3
+USA,root,AgroForestLand_OhioR,AllPastureLand_OhioR,1975,3
+USA,root,AgroForestLand_UsaPacNW,AllPastureLand_UsaPacNW,1975,3
+USA,root,AgroForestLand_TennR,AllPastureLand_TennR,1975,3
+USA,root,AgroForestLand_RioGrande,AllPastureLand_RioGrande,1975,3
+USA,root,AgroForestLand_UsaCstNE,AllPastureLand_UsaCstNE,1975,3
+USA,root,AgroForestLand_UsaCstE,AllPastureLand_UsaCstE,1975,3
+Africa_Eastern,root,AgroForestLand_NileR,AllPastureLand_NileR,1975,3
+Africa_Eastern,root,AgroForestLand_AfrCstNE,AllPastureLand_AfrCstNE,1975,3
+Africa_Eastern,root,AgroForestLand_AfrIntN,AllPastureLand_AfrIntN,1975,3
+Africa_Eastern,root,AgroForestLand_LChad,AllPastureLand_LChad,1975,3
+Africa_Eastern,root,AgroForestLand_ShebJubR,AllPastureLand_ShebJubR,1975,3
+Africa_Eastern,root,AgroForestLand_AfrCstE,AllPastureLand_AfrCstE,1975,3
+Africa_Eastern,root,AgroForestLand_Madasgacar,AllPastureLand_Madasgacar,1975,3
+Africa_Eastern,root,AgroForestLand_RiftValley,AllPastureLand_RiftValley,1975,3
+Africa_Eastern,root,AgroForestLand_CongoR,AllPastureLand_CongoR,1975,3
+Africa_Northern,root,AgroForestLand_MeditS,AllPastureLand_MeditS,1975,3
+Africa_Northern,root,AgroForestLand_AfrCstNW,AllPastureLand_AfrCstNW,1975,3
+Africa_Northern,root,AgroForestLand_DeadSea,AllPastureLand_DeadSea,1975,3
+Africa_Northern,root,AgroForestLand_AfrCstNE,AllPastureLand_AfrCstNE,1975,3
+Africa_Northern,root,AgroForestLand_AfrIntN,AllPastureLand_AfrIntN,1975,3
+Africa_Northern,root,AgroForestLand_NigerR,AllPastureLand_NigerR,1975,3
+Africa_Northern,root,AgroForestLand_LChad,AllPastureLand_LChad,1975,3
+Africa_Southern,root,AgroForestLand_NileR,AllPastureLand_NileR,1975,3
+Africa_Southern,root,AgroForestLand_GuineaGulf,AllPastureLand_GuineaGulf,1975,3
+Africa_Southern,root,AgroForestLand_AfrCstE,AllPastureLand_AfrCstE,1975,3
+Africa_Southern,root,AgroForestLand_RiftValley,AllPastureLand_RiftValley,1975,3
+Africa_Southern,root,AgroForestLand_AngolaCst,AllPastureLand_AngolaCst,1975,3
+Africa_Southern,root,AgroForestLand_CongoR,AllPastureLand_CongoR,1975,3
+Africa_Southern,root,AgroForestLand_ZambeziR,AllPastureLand_ZambeziR,1975,3
+Africa_Southern,root,AgroForestLand_AfrCstSE,AllPastureLand_AfrCstSE,1975,3
+Africa_Southern,root,AgroForestLand_OrangeR,AllPastureLand_OrangeR,1975,3
+Africa_Southern,root,AgroForestLand_AfrCstSW,AllPastureLand_AfrCstSW,1975,3
+Africa_Southern,root,AgroForestLand_AfrIntS,AllPastureLand_AfrIntS,1975,3
+Africa_Southern,root,AgroForestLand_AfrCstS,AllPastureLand_AfrCstS,1975,3
+Africa_Southern,root,AgroForestLand_LimpopoR,AllPastureLand_LimpopoR,1975,3
+Africa_Western,root,AgroForestLand_AfrCstNW,AllPastureLand_AfrCstNW,1975,3
+Africa_Western,root,AgroForestLand_NileR,AllPastureLand_NileR,1975,3
+Africa_Western,root,AgroForestLand_AfrCstW,AllPastureLand_AfrCstW,1975,3
+Africa_Western,root,AgroForestLand_AfrIntN,AllPastureLand_AfrIntN,1975,3
+Africa_Western,root,AgroForestLand_NigerR,AllPastureLand_NigerR,1975,3
+Africa_Western,root,AgroForestLand_LChad,AllPastureLand_LChad,1975,3
+Africa_Western,root,AgroForestLand_SenegalR,AllPastureLand_SenegalR,1975,3
+Africa_Western,root,AgroForestLand_VoltaR,AllPastureLand_VoltaR,1975,3
+Africa_Western,root,AgroForestLand_GuineaGulf,AllPastureLand_GuineaGulf,1975,3
+Africa_Western,root,AgroForestLand_CongoR,AllPastureLand_CongoR,1975,3
+Africa_Western,root,AgroForestLand_ZambeziR,AllPastureLand_ZambeziR,1975,3
+Australia_NZ,root,AgroForestLand_AusCstN,AllPastureLand_AusCstN,1975,3
+Australia_NZ,root,AgroForestLand_AusCstE,AllPastureLand_AusCstE,1975,3
+Australia_NZ,root,AgroForestLand_AusCstW,AllPastureLand_AusCstW,1975,3
+Australia_NZ,root,AgroForestLand_AusInt,AllPastureLand_AusInt,1975,3
+Australia_NZ,root,AgroForestLand_NewZealand,AllPastureLand_NewZealand,1975,3
+Australia_NZ,root,AgroForestLand_AusCstS,AllPastureLand_AusCstS,1975,3
+Australia_NZ,root,AgroForestLand_MurrayDrlg,AllPastureLand_MurrayDrlg,1975,3
+Australia_NZ,root,AgroForestLand_Tasmania,AllPastureLand_Tasmania,1975,3
+Brazil,root,AgroForestLand_OrinocoR,AllPastureLand_OrinocoR,1975,3
+Brazil,root,AgroForestLand_SAmerCstNE,AllPastureLand_SAmerCstNE,1975,3
+Brazil,root,AgroForestLand_AmazonR,AllPastureLand_AmazonR,1975,3
+Brazil,root,AgroForestLand_BrzCstN,AllPastureLand_BrzCstN,1975,3
+Brazil,root,AgroForestLand_TocantinsR,AllPastureLand_TocantinsR,1975,3
+Brazil,root,AgroForestLand_BrzCstE,AllPastureLand_BrzCstE,1975,3
+Brazil,root,AgroForestLand_ParnaibaR,AllPastureLand_ParnaibaR,1975,3
+Brazil,root,AgroForestLand_SaoFrancR,AllPastureLand_SaoFrancR,1975,3
+Brazil,root,AgroForestLand_BrzCstS,AllPastureLand_BrzCstS,1975,3
+Brazil,root,AgroForestLand_RioLaPlata,AllPastureLand_RioLaPlata,1975,3
+Canada,root,AgroForestLand_NWTerr,AllPastureLand_NWTerr,1975,3
+Canada,root,AgroForestLand_PacArctic,AllPastureLand_PacArctic,1975,3
+Canada,root,AgroForestLand_Mackenzie,AllPastureLand_Mackenzie,1975,3
+Canada,root,AgroForestLand_HudsonBay,AllPastureLand_HudsonBay,1975,3
+Canada,root,AgroForestLand_CanAtl,AllPastureLand_CanAtl,1975,3
+Canada,root,AgroForestLand_NelsonR,AllPastureLand_NelsonR,1975,3
+Canada,root,AgroForestLand_FraserR,AllPastureLand_FraserR,1975,3
+Canada,root,AgroForestLand_ChurchillR,AllPastureLand_ChurchillR,1975,3
+Canada,root,AgroForestLand_StLwrncR,AllPastureLand_StLwrncR,1975,3
+Canada,root,AgroForestLand_MissouriR,AllPastureLand_MissouriR,1975,3
+Canada,root,AgroForestLand_GreatLakes,AllPastureLand_GreatLakes,1975,3
+Canada,root,AgroForestLand_UsaPacNW,AllPastureLand_UsaPacNW,1975,3
+Canada,root,AgroForestLand_UsaCstNE,AllPastureLand_UsaCstNE,1975,3
+Central America and Caribbean,root,AgroForestLand_Caribbean,AllPastureLand_Caribbean,1975,3
+Central America and Caribbean,root,AgroForestLand_YucatanP,AllPastureLand_YucatanP,1975,3
+Central America and Caribbean,root,AgroForestLand_GrijUsuR,AllPastureLand_GrijUsuR,1975,3
+Central America and Caribbean,root,AgroForestLand_CntAmer,AllPastureLand_CntAmer,1975,3
+Central America and Caribbean,root,AgroForestLand_SAmerCstN,AllPastureLand_SAmerCstN,1975,3
+Central America and Caribbean,root,AgroForestLand_ColEcuaCst,AllPastureLand_ColEcuaCst,1975,3
+Central Asia,root,AgroForestLand_VolgaR,AllPastureLand_VolgaR,1975,3
+Central Asia,root,AgroForestLand_UralR,AllPastureLand_UralR,1975,3
+Central Asia,root,AgroForestLand_Gobi,AllPastureLand_Gobi,1975,3
+Central Asia,root,AgroForestLand_AmurR,AllPastureLand_AmurR,1975,3
+Central Asia,root,AgroForestLand_CaspianNE,AllPastureLand_CaspianNE,1975,3
+Central Asia,root,AgroForestLand_BlackSeaN,AllPastureLand_BlackSeaN,1975,3
+Central Asia,root,AgroForestLand_YeniseiR,AllPastureLand_YeniseiR,1975,3
+Central Asia,root,AgroForestLand_CaspianE,AllPastureLand_CaspianE,1975,3
+Central Asia,root,AgroForestLand_ObR,AllPastureLand_ObR,1975,3
+Central Asia,root,AgroForestLand_AmuDaryaR,AllPastureLand_AmuDaryaR,1975,3
+Central Asia,root,AgroForestLand_LBalkash,AllPastureLand_LBalkash,1975,3
+Central Asia,root,AgroForestLand_BlackSeaS,AllPastureLand_BlackSeaS,1975,3
+Central Asia,root,AgroForestLand_CaspianSW,AllPastureLand_CaspianSW,1975,3
+Central Asia,root,AgroForestLand_SyrDaryaR,AllPastureLand_SyrDaryaR,1975,3
+Central Asia,root,AgroForestLand_Tarim,AllPastureLand_Tarim,1975,3
+China,root,AgroForestLand_RusCstSE,AllPastureLand_RusCstSE,1975,3
+China,root,AgroForestLand_Gobi,AllPastureLand_Gobi,1975,3
+China,root,AgroForestLand_AmurR,AllPastureLand_AmurR,1975,3
+China,root,AgroForestLand_ObR,AllPastureLand_ObR,1975,3
+China,root,AgroForestLand_AmuDaryaR,AllPastureLand_AmuDaryaR,1975,3
+China,root,AgroForestLand_BoHai,AllPastureLand_BoHai,1975,3
+China,root,AgroForestLand_LBalkash,AllPastureLand_LBalkash,1975,3
+China,root,AgroForestLand_SyrDaryaR,AllPastureLand_SyrDaryaR,1975,3
+China,root,AgroForestLand_ZiyaHe,AllPastureLand_ZiyaHe,1975,3
+China,root,AgroForestLand_ChinaCst,AllPastureLand_ChinaCst,1975,3
+China,root,AgroForestLand_HuangHeR,AllPastureLand_HuangHeR,1975,3
+China,root,AgroForestLand_Tarim,AllPastureLand_Tarim,1975,3
+China,root,AgroForestLand_IndusR,AllPastureLand_IndusR,1975,3
+China,root,AgroForestLand_Tibet,AllPastureLand_Tibet,1975,3
+China,root,AgroForestLand_Taiwan,AllPastureLand_Taiwan,1975,3
+China,root,AgroForestLand_Yangtze,AllPastureLand_Yangtze,1975,3
+China,root,AgroForestLand_XunJiang,AllPastureLand_XunJiang,1975,3
+China,root,AgroForestLand_Hong,AllPastureLand_Hong,1975,3
+China,root,AgroForestLand_GangesR,AllPastureLand_GangesR,1975,3
+China,root,AgroForestLand_SChinaSea,AllPastureLand_SChinaSea,1975,3
+China,root,AgroForestLand_Hainan,AllPastureLand_Hainan,1975,3
+China,root,AgroForestLand_Mekong,AllPastureLand_Mekong,1975,3
+China,root,AgroForestLand_Salween,AllPastureLand_Salween,1975,3
+China,root,AgroForestLand_IrrawaddyR,AllPastureLand_IrrawaddyR,1975,3
+EU-12,root,AgroForestLand_BalticSea,AllPastureLand_BalticSea,1975,3
+EU-12,root,AgroForestLand_DnkGrmCst,AllPastureLand_DnkGrmCst,1975,3
+EU-12,root,AgroForestLand_NarvaR,AllPastureLand_NarvaR,1975,3
+EU-12,root,AgroForestLand_DaugavaR,AllPastureLand_DaugavaR,1975,3
+EU-12,root,AgroForestLand_OderR,AllPastureLand_OderR,1975,3
+EU-12,root,AgroForestLand_WislaR,AllPastureLand_WislaR,1975,3
+EU-12,root,AgroForestLand_ElbeR,AllPastureLand_ElbeR,1975,3
+EU-12,root,AgroForestLand_PolandCst,AllPastureLand_PolandCst,1975,3
+EU-12,root,AgroForestLand_NemanR,AllPastureLand_NemanR,1975,3
+EU-12,root,AgroForestLand_DniesterR,AllPastureLand_DniesterR,1975,3
+EU-12,root,AgroForestLand_DanubeR,AllPastureLand_DanubeR,1975,3
+EU-12,root,AgroForestLand_AdrBlkSea,AllPastureLand_AdrBlkSea,1975,3
+EU-12,root,AgroForestLand_MeditE,AllPastureLand_MeditE,1975,3
+EU-15,root,AgroForestLand_ScndnvN,AllPastureLand_ScndnvN,1975,3
+EU-15,root,AgroForestLand_Sweden,AllPastureLand_Sweden,1975,3
+EU-15,root,AgroForestLand_Finland,AllPastureLand_Finland,1975,3
+EU-15,root,AgroForestLand_Scotland,AllPastureLand_Scotland,1975,3
+EU-15,root,AgroForestLand_NevaR,AllPastureLand_NevaR,1975,3
+EU-15,root,AgroForestLand_DnkGrmCst,AllPastureLand_DnkGrmCst,1975,3
+EU-15,root,AgroForestLand_Ireland,AllPastureLand_Ireland,1975,3
+EU-15,root,AgroForestLand_EngWales,AllPastureLand_EngWales,1975,3
+EU-15,root,AgroForestLand_EmsWeserR,AllPastureLand_EmsWeserR,1975,3
+EU-15,root,AgroForestLand_OderR,AllPastureLand_OderR,1975,3
+EU-15,root,AgroForestLand_ElbeR,AllPastureLand_ElbeR,1975,3
+EU-15,root,AgroForestLand_RhineR,AllPastureLand_RhineR,1975,3
+EU-15,root,AgroForestLand_ScheldtR,AllPastureLand_ScheldtR,1975,3
+EU-15,root,AgroForestLand_FranceCstW,AllPastureLand_FranceCstW,1975,3
+EU-15,root,AgroForestLand_LoireR,AllPastureLand_LoireR,1975,3
+EU-15,root,AgroForestLand_SeineR,AllPastureLand_SeineR,1975,3
+EU-15,root,AgroForestLand_ItalyCstE,AllPastureLand_ItalyCstE,1975,3
+EU-15,root,AgroForestLand_DanubeR,AllPastureLand_DanubeR,1975,3
+EU-15,root,AgroForestLand_AdrBlkSea,AllPastureLand_AdrBlkSea,1975,3
+EU-15,root,AgroForestLand_PoR,AllPastureLand_PoR,1975,3
+EU-15,root,AgroForestLand_ItalyCstW,AllPastureLand_ItalyCstW,1975,3
+EU-15,root,AgroForestLand_IberiaCst,AllPastureLand_IberiaCst,1975,3
+EU-15,root,AgroForestLand_FranceCstS,AllPastureLand_FranceCstS,1975,3
+EU-15,root,AgroForestLand_RhoneR,AllPastureLand_RhoneR,1975,3
+EU-15,root,AgroForestLand_MeditIsl,AllPastureLand_MeditIsl,1975,3
+EU-15,root,AgroForestLand_Gironde,AllPastureLand_Gironde,1975,3
+EU-15,root,AgroForestLand_SpainCstSE,AllPastureLand_SpainCstSE,1975,3
+EU-15,root,AgroForestLand_TiberR,AllPastureLand_TiberR,1975,3
+EU-15,root,AgroForestLand_TagusR,AllPastureLand_TagusR,1975,3
+EU-15,root,AgroForestLand_EbroR,AllPastureLand_EbroR,1975,3
+EU-15,root,AgroForestLand_DouroR,AllPastureLand_DouroR,1975,3
+EU-15,root,AgroForestLand_MeditE,AllPastureLand_MeditE,1975,3
+EU-15,root,AgroForestLand_GuadianaR,AllPastureLand_GuadianaR,1975,3
+EU-15,root,AgroForestLand_GuadalqR,AllPastureLand_GuadalqR,1975,3
+Europe_Eastern,root,AgroForestLand_NevaR,AllPastureLand_NevaR,1975,3
+Europe_Eastern,root,AgroForestLand_DaugavaR,AllPastureLand_DaugavaR,1975,3
+Europe_Eastern,root,AgroForestLand_WislaR,AllPastureLand_WislaR,1975,3
+Europe_Eastern,root,AgroForestLand_NemanR,AllPastureLand_NemanR,1975,3
+Europe_Eastern,root,AgroForestLand_DnieperR,AllPastureLand_DnieperR,1975,3
+Europe_Eastern,root,AgroForestLand_BlackSeaN,AllPastureLand_BlackSeaN,1975,3
+Europe_Eastern,root,AgroForestLand_DniesterR,AllPastureLand_DniesterR,1975,3
+Europe_Eastern,root,AgroForestLand_DonR,AllPastureLand_DonR,1975,3
+Europe_Eastern,root,AgroForestLand_DanubeR,AllPastureLand_DanubeR,1975,3
+Europe_Non_EU,root,AgroForestLand_DanubeR,AllPastureLand_DanubeR,1975,3
+Europe_Non_EU,root,AgroForestLand_AdrBlkSea,AllPastureLand_AdrBlkSea,1975,3
+Europe_Non_EU,root,AgroForestLand_BlackSeaS,AllPastureLand_BlackSeaS,1975,3
+Europe_Non_EU,root,AgroForestLand_CaspianSW,AllPastureLand_CaspianSW,1975,3
+Europe_Non_EU,root,AgroForestLand_MeditE,AllPastureLand_MeditE,1975,3
+Europe_Non_EU,root,AgroForestLand_TigrEuphR,AllPastureLand_TigrEuphR,1975,3
+Europe_Non_EU,root,AgroForestLand_EJrdnSyr,AllPastureLand_EJrdnSyr,1975,3
+European Free Trade Association,root,AgroForestLand_ScndnvN,AllPastureLand_ScndnvN,1975,3
+European Free Trade Association,root,AgroForestLand_Iceland,AllPastureLand_Iceland,1975,3
+European Free Trade Association,root,AgroForestLand_Sweden,AllPastureLand_Sweden,1975,3
+European Free Trade Association,root,AgroForestLand_RhineR,AllPastureLand_RhineR,1975,3
+European Free Trade Association,root,AgroForestLand_DanubeR,AllPastureLand_DanubeR,1975,3
+European Free Trade Association,root,AgroForestLand_PoR,AllPastureLand_PoR,1975,3
+European Free Trade Association,root,AgroForestLand_RhoneR,AllPastureLand_RhoneR,1975,3
+India,root,AgroForestLand_IndusR,AllPastureLand_IndusR,1975,3
+India,root,AgroForestLand_SabarmatiR,AllPastureLand_SabarmatiR,1975,3
+India,root,AgroForestLand_GangesR,AllPastureLand_GangesR,1975,3
+India,root,AgroForestLand_MahiR,AllPastureLand_MahiR,1975,3
+India,root,AgroForestLand_BengalBay,AllPastureLand_BengalBay,1975,3
+India,root,AgroForestLand_TaptiR,AllPastureLand_TaptiR,1975,3
+India,root,AgroForestLand_BengalW,AllPastureLand_BengalW,1975,3
+India,root,AgroForestLand_BrahmaniR,AllPastureLand_BrahmaniR,1975,3
+India,root,AgroForestLand_MahanadiR,AllPastureLand_MahanadiR,1975,3
+India,root,AgroForestLand_GodavariR,AllPastureLand_GodavariR,1975,3
+India,root,AgroForestLand_IndCstNE,AllPastureLand_IndCstNE,1975,3
+India,root,AgroForestLand_IndCstW,AllPastureLand_IndCstW,1975,3
+India,root,AgroForestLand_IrrawaddyR,AllPastureLand_IrrawaddyR,1975,3
+India,root,AgroForestLand_KrishnaR,AllPastureLand_KrishnaR,1975,3
+India,root,AgroForestLand_IndCstE,AllPastureLand_IndCstE,1975,3
+India,root,AgroForestLand_PennarR,AllPastureLand_PennarR,1975,3
+India,root,AgroForestLand_CauveryR,AllPastureLand_CauveryR,1975,3
+India,root,AgroForestLand_IndCstS,AllPastureLand_IndCstS,1975,3
+India,root,AgroForestLand_NarmadaR,AllPastureLand_NarmadaR,1975,3
+Indonesia,root,AgroForestLand_MalaysiaP,AllPastureLand_MalaysiaP,1975,3
+Indonesia,root,AgroForestLand_IdnE,AllPastureLand_IdnE,1975,3
+Indonesia,root,AgroForestLand_BorneoCstN,AllPastureLand_BorneoCstN,1975,3
+Indonesia,root,AgroForestLand_Sumatra,AllPastureLand_Sumatra,1975,3
+Indonesia,root,AgroForestLand_Sulawesi,AllPastureLand_Sulawesi,1975,3
+Indonesia,root,AgroForestLand_Kalimantan,AllPastureLand_Kalimantan,1975,3
+Indonesia,root,AgroForestLand_IrianJaya,AllPastureLand_IrianJaya,1975,3
+Indonesia,root,AgroForestLand_JavaTimor,AllPastureLand_JavaTimor,1975,3
+Indonesia,root,AgroForestLand_SepikR,AllPastureLand_SepikR,1975,3
+Indonesia,root,AgroForestLand_FlyR,AllPastureLand_FlyR,1975,3
+Japan,root,AgroForestLand_Japan,AllPastureLand_Japan,1975,3
+Japan,root,AgroForestLand_Taiwan,AllPastureLand_Taiwan,1975,3
+Mexico,root,AgroForestLand_MexBaja,AllPastureLand_MexBaja,1975,3
+Mexico,root,AgroForestLand_MexCstNW,AllPastureLand_MexCstNW,1975,3
+Mexico,root,AgroForestLand_MexGulf,AllPastureLand_MexGulf,1975,3
+Mexico,root,AgroForestLand_YucatanP,AllPastureLand_YucatanP,1975,3
+Mexico,root,AgroForestLand_MexInt,AllPastureLand_MexInt,1975,3
+Mexico,root,AgroForestLand_MexCstW,AllPastureLand_MexCstW,1975,3
+Mexico,root,AgroForestLand_Papaloapan,AllPastureLand_Papaloapan,1975,3
+Mexico,root,AgroForestLand_RioLerma,AllPastureLand_RioLerma,1975,3
+Mexico,root,AgroForestLand_RioVerde,AllPastureLand_RioVerde,1975,3
+Mexico,root,AgroForestLand_GrijUsuR,AllPastureLand_GrijUsuR,1975,3
+Mexico,root,AgroForestLand_RioBalsas,AllPastureLand_RioBalsas,1975,3
+Mexico,root,AgroForestLand_CntAmer,AllPastureLand_CntAmer,1975,3
+Mexico,root,AgroForestLand_Tehuantpc,AllPastureLand_Tehuantpc,1975,3
+Mexico,root,AgroForestLand_California,AllPastureLand_California,1975,3
+Mexico,root,AgroForestLand_UsaColoRS,AllPastureLand_UsaColoRS,1975,3
+Mexico,root,AgroForestLand_RioGrande,AllPastureLand_RioGrande,1975,3
+Middle East,root,AgroForestLand_CaspianE,AllPastureLand_CaspianE,1975,3
+Middle East,root,AgroForestLand_CaspianSW,AllPastureLand_CaspianSW,1975,3
+Middle East,root,AgroForestLand_MeditE,AllPastureLand_MeditE,1975,3
+Middle East,root,AgroForestLand_Iran,AllPastureLand_Iran,1975,3
+Middle East,root,AgroForestLand_TigrEuphR,AllPastureLand_TigrEuphR,1975,3
+Middle East,root,AgroForestLand_PersianGulf,AllPastureLand_PersianGulf,1975,3
+Middle East,root,AgroForestLand_FarahrudR,AllPastureLand_FarahrudR,1975,3
+Middle East,root,AgroForestLand_RedSeaE,AllPastureLand_RedSeaE,1975,3
+Middle East,root,AgroForestLand_ArabianP,AllPastureLand_ArabianP,1975,3
+Middle East,root,AgroForestLand_DeadSea,AllPastureLand_DeadSea,1975,3
+Middle East,root,AgroForestLand_Helmand,AllPastureLand_Helmand,1975,3
+Middle East,root,AgroForestLand_SinaiP,AllPastureLand_SinaiP,1975,3
+Middle East,root,AgroForestLand_EJrdnSyr,AllPastureLand_EJrdnSyr,1975,3
+Middle East,root,AgroForestLand_AfrCstNE,AllPastureLand_AfrCstNE,1975,3
+Middle East,root,AgroForestLand_HamuMashR,AllPastureLand_HamuMashR,1975,3
+Middle East,root,AgroForestLand_ArabianSea,AllPastureLand_ArabianSea,1975,3
+Pakistan,root,AgroForestLand_AmuDaryaR,AllPastureLand_AmuDaryaR,1975,3
+Pakistan,root,AgroForestLand_Tarim,AllPastureLand_Tarim,1975,3
+Pakistan,root,AgroForestLand_IndusR,AllPastureLand_IndusR,1975,3
+Pakistan,root,AgroForestLand_Helmand,AllPastureLand_Helmand,1975,3
+Pakistan,root,AgroForestLand_HamuMashR,AllPastureLand_HamuMashR,1975,3
+Pakistan,root,AgroForestLand_ArabianSea,AllPastureLand_ArabianSea,1975,3
+Pakistan,root,AgroForestLand_SabarmatiR,AllPastureLand_SabarmatiR,1975,3
+Russia,root,AgroForestLand_SiberiaN,AllPastureLand_SiberiaN,1975,3
+Russia,root,AgroForestLand_SiberiaW,AllPastureLand_SiberiaW,1975,3
+Russia,root,AgroForestLand_KaraSea,AllPastureLand_KaraSea,1975,3
+Russia,root,AgroForestLand_LenaR,AllPastureLand_LenaR,1975,3
+Russia,root,AgroForestLand_ScndnvN,AllPastureLand_ScndnvN,1975,3
+Russia,root,AgroForestLand_BarentsSea,AllPastureLand_BarentsSea,1975,3
+Russia,root,AgroForestLand_Finland,AllPastureLand_Finland,1975,3
+Russia,root,AgroForestLand_DvinaRN,AllPastureLand_DvinaRN,1975,3
+Russia,root,AgroForestLand_NevaR,AllPastureLand_NevaR,1975,3
+Russia,root,AgroForestLand_VolgaR,AllPastureLand_VolgaR,1975,3
+Russia,root,AgroForestLand_BalticSea,AllPastureLand_BalticSea,1975,3
+Russia,root,AgroForestLand_NarvaR,AllPastureLand_NarvaR,1975,3
+Russia,root,AgroForestLand_DaugavaR,AllPastureLand_DaugavaR,1975,3
+Russia,root,AgroForestLand_PolandCst,AllPastureLand_PolandCst,1975,3
+Russia,root,AgroForestLand_NemanR,AllPastureLand_NemanR,1975,3
+Russia,root,AgroForestLand_RusCstSE,AllPastureLand_RusCstSE,1975,3
+Russia,root,AgroForestLand_UralR,AllPastureLand_UralR,1975,3
+Russia,root,AgroForestLand_DnieperR,AllPastureLand_DnieperR,1975,3
+Russia,root,AgroForestLand_Gobi,AllPastureLand_Gobi,1975,3
+Russia,root,AgroForestLand_AmurR,AllPastureLand_AmurR,1975,3
+Russia,root,AgroForestLand_CaspianNE,AllPastureLand_CaspianNE,1975,3
+Russia,root,AgroForestLand_BlackSeaN,AllPastureLand_BlackSeaN,1975,3
+Russia,root,AgroForestLand_YeniseiR,AllPastureLand_YeniseiR,1975,3
+Russia,root,AgroForestLand_DonR,AllPastureLand_DonR,1975,3
+Russia,root,AgroForestLand_ObR,AllPastureLand_ObR,1975,3
+Russia,root,AgroForestLand_BlackSeaS,AllPastureLand_BlackSeaS,1975,3
+Russia,root,AgroForestLand_CaspianSW,AllPastureLand_CaspianSW,1975,3
+Russia,root,AgroForestLand_SyrDaryaR,AllPastureLand_SyrDaryaR,1975,3
+South Africa,root,AgroForestLand_OrangeR,AllPastureLand_OrangeR,1975,3
+South Africa,root,AgroForestLand_AfrCstSW,AllPastureLand_AfrCstSW,1975,3
+South Africa,root,AgroForestLand_AfrCstS,AllPastureLand_AfrCstS,1975,3
+South Africa,root,AgroForestLand_LimpopoR,AllPastureLand_LimpopoR,1975,3
+South Africa,root,AgroForestLand_AfrCstSSW,AllPastureLand_AfrCstSSW,1975,3
+South America_Northern,root,AgroForestLand_SAmerCstN,AllPastureLand_SAmerCstN,1975,3
+South America_Northern,root,AgroForestLand_OrinocoR,AllPastureLand_OrinocoR,1975,3
+South America_Northern,root,AgroForestLand_SAmerCstNE,AllPastureLand_SAmerCstNE,1975,3
+South America_Northern,root,AgroForestLand_MagdalenaR,AllPastureLand_MagdalenaR,1975,3
+South America_Southern,root,AgroForestLand_OrinocoR,AllPastureLand_OrinocoR,1975,3
+South America_Southern,root,AgroForestLand_ColEcuaCst,AllPastureLand_ColEcuaCst,1975,3
+South America_Southern,root,AgroForestLand_ChileCstS,AllPastureLand_ChileCstS,1975,3
+South America_Southern,root,AgroForestLand_PeruCst,AllPastureLand_PeruCst,1975,3
+South America_Southern,root,AgroForestLand_BrzCstS,AllPastureLand_BrzCstS,1975,3
+South America_Southern,root,AgroForestLand_LaPuna,AllPastureLand_LaPuna,1975,3
+South America_Southern,root,AgroForestLand_RioLaPlata,AllPastureLand_RioLaPlata,1975,3
+South America_Southern,root,AgroForestLand_ChileCstN,AllPastureLand_ChileCstN,1975,3
+South America_Southern,root,AgroForestLand_ArgColoR,AllPastureLand_ArgColoR,1975,3
+South America_Southern,root,AgroForestLand_NegroR,AllPastureLand_NegroR,1975,3
+South America_Southern,root,AgroForestLand_ArgCstS,AllPastureLand_ArgCstS,1975,3
+South Asia,root,AgroForestLand_CaspianE,AllPastureLand_CaspianE,1975,3
+South Asia,root,AgroForestLand_AmuDaryaR,AllPastureLand_AmuDaryaR,1975,3
+South Asia,root,AgroForestLand_IndusR,AllPastureLand_IndusR,1975,3
+South Asia,root,AgroForestLand_FarahrudR,AllPastureLand_FarahrudR,1975,3
+South Asia,root,AgroForestLand_Helmand,AllPastureLand_Helmand,1975,3
+South Asia,root,AgroForestLand_HamuMashR,AllPastureLand_HamuMashR,1975,3
+South Asia,root,AgroForestLand_GangesR,AllPastureLand_GangesR,1975,3
+South Asia,root,AgroForestLand_BengalBay,AllPastureLand_BengalBay,1975,3
+South Asia,root,AgroForestLand_SriLanka,AllPastureLand_SriLanka,1975,3
+South Korea,root,AgroForestLand_Korea,AllPastureLand_Korea,1975,3
+Southeast Asia,root,AgroForestLand_RusCstSE,AllPastureLand_RusCstSE,1975,3
+Southeast Asia,root,AgroForestLand_Korea,AllPastureLand_Korea,1975,3
+Southeast Asia,root,AgroForestLand_BoHai,AllPastureLand_BoHai,1975,3
+Southeast Asia,root,AgroForestLand_XunJiang,AllPastureLand_XunJiang,1975,3
+Southeast Asia,root,AgroForestLand_Hong,AllPastureLand_Hong,1975,3
+Southeast Asia,root,AgroForestLand_GangesR,AllPastureLand_GangesR,1975,3
+Southeast Asia,root,AgroForestLand_SChinaSea,AllPastureLand_SChinaSea,1975,3
+Southeast Asia,root,AgroForestLand_BengalBay,AllPastureLand_BengalBay,1975,3
+Southeast Asia,root,AgroForestLand_Phlppns,AllPastureLand_Phlppns,1975,3
+Southeast Asia,root,AgroForestLand_Mekong,AllPastureLand_Mekong,1975,3
+Southeast Asia,root,AgroForestLand_VietnamCst,AllPastureLand_VietnamCst,1975,3
+Southeast Asia,root,AgroForestLand_Salween,AllPastureLand_Salween,1975,3
+Southeast Asia,root,AgroForestLand_IrrawaddyR,AllPastureLand_IrrawaddyR,1975,3
+Southeast Asia,root,AgroForestLand_SittaungR,AllPastureLand_SittaungR,1975,3
+Southeast Asia,root,AgroForestLand_MalaysiaP,AllPastureLand_MalaysiaP,1975,3
+Southeast Asia,root,AgroForestLand_ChaoPhrR,AllPastureLand_ChaoPhrR,1975,3
+Southeast Asia,root,AgroForestLand_ThaiGulf,AllPastureLand_ThaiGulf,1975,3
+Southeast Asia,root,AgroForestLand_IdnE,AllPastureLand_IdnE,1975,3
+Southeast Asia,root,AgroForestLand_BorneoCstN,AllPastureLand_BorneoCstN,1975,3
+Southeast Asia,root,AgroForestLand_Kalimantan,AllPastureLand_Kalimantan,1975,3
+Southeast Asia,root,AgroForestLand_IrianJaya,AllPastureLand_IrianJaya,1975,3
+Southeast Asia,root,AgroForestLand_PapuaCst,AllPastureLand_PapuaCst,1975,3
+Southeast Asia,root,AgroForestLand_JavaTimor,AllPastureLand_JavaTimor,1975,3
+Southeast Asia,root,AgroForestLand_SepikR,AllPastureLand_SepikR,1975,3
+Southeast Asia,root,AgroForestLand_FlyR,AllPastureLand_FlyR,1975,3
+Southeast Asia,root,AgroForestLand_NewCaledn,AllPastureLand_NewCaledn,1975,3
+Argentina,root,AgroForestLand_ChileCstS,AllPastureLand_ChileCstS,1975,3
+Argentina,root,AgroForestLand_LaPuna,AllPastureLand_LaPuna,1975,3
+Argentina,root,AgroForestLand_MarChiq,AllPastureLand_MarChiq,1975,3
+Argentina,root,AgroForestLand_Salinas,AllPastureLand_Salinas,1975,3
+Argentina,root,AgroForestLand_RioLaPlata,AllPastureLand_RioLaPlata,1975,3
+Argentina,root,AgroForestLand_ChileCstN,AllPastureLand_ChileCstN,1975,3
+Argentina,root,AgroForestLand_Pampas,AllPastureLand_Pampas,1975,3
+Argentina,root,AgroForestLand_ArgCstN,AllPastureLand_ArgCstN,1975,3
+Argentina,root,AgroForestLand_ArgColoR,AllPastureLand_ArgColoR,1975,3
+Argentina,root,AgroForestLand_NegroR,AllPastureLand_NegroR,1975,3
+Argentina,root,AgroForestLand_Patagonia,AllPastureLand_Patagonia,1975,3
+Argentina,root,AgroForestLand_ArgCstS,AllPastureLand_ArgCstS,1975,3
+Colombia,root,AgroForestLand_SAmerCstN,AllPastureLand_SAmerCstN,1975,3
+Colombia,root,AgroForestLand_OrinocoR,AllPastureLand_OrinocoR,1975,3
+Colombia,root,AgroForestLand_ColEcuaCst,AllPastureLand_ColEcuaCst,1975,3
+Colombia,root,AgroForestLand_MagdalenaR,AllPastureLand_MagdalenaR,1975,3
+Russia,root,AgroForestLand_ArcticIsl,AgroForest_NonPasture_ArcticIsl,1975,2.5
