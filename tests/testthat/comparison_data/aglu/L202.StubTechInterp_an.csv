@@ -1,0 +1,997 @@
+INPUT_TABLE
+Variable ID
+StubTechInterp
+
+region,supplysector,subsector,stub.technology,apply.to,from.year,to.year,interpolation.function
+USA,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+USA,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+USA,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+USA,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+USA,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+USA,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+USA,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+USA,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+USA,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+USA,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+USA,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+USA,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+USA,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+USA,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+USA,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+USA,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+USA,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+USA,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+USA,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+USA,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+USA,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+USA,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+USA,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+USA,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+USA,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+USA,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+USA,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+USA,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+USA,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+USA,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+USA,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+USA,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Eastern,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Eastern,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Eastern,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Eastern,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Eastern,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Eastern,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Eastern,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Africa_Eastern,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Eastern,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Eastern,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Eastern,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Eastern,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Eastern,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Eastern,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Eastern,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Africa_Eastern,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Eastern,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Eastern,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Eastern,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Eastern,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Eastern,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Eastern,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Eastern,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Eastern,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Eastern,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Eastern,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Eastern,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Eastern,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Eastern,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Eastern,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Eastern,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Africa_Eastern,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Northern,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Northern,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Northern,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Northern,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Northern,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Northern,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Northern,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Africa_Northern,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Northern,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Northern,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Northern,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Northern,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Northern,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Northern,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Northern,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Africa_Northern,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Northern,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Northern,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Northern,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Northern,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Northern,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Northern,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Northern,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Northern,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Northern,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Northern,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Northern,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Northern,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Northern,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Northern,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Northern,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Africa_Northern,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Southern,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Southern,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Southern,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Southern,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Southern,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Southern,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Southern,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Africa_Southern,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Southern,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Southern,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Southern,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Southern,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Southern,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Southern,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Southern,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Africa_Southern,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Southern,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Southern,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Southern,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Southern,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Southern,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Southern,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Southern,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Southern,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Southern,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Southern,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Southern,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Southern,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Southern,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Southern,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Southern,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Africa_Southern,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Western,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Western,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Western,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Western,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Western,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Western,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Western,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Africa_Western,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Western,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Western,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Western,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Western,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Western,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Western,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Western,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Africa_Western,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Western,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Western,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Western,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Western,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Western,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Western,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Western,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Western,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Western,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Western,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Western,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Africa_Western,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Africa_Western,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Africa_Western,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Africa_Western,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Africa_Western,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Australia_NZ,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Australia_NZ,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Australia_NZ,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Australia_NZ,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Australia_NZ,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Australia_NZ,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Australia_NZ,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Australia_NZ,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Australia_NZ,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Australia_NZ,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Australia_NZ,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Australia_NZ,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Australia_NZ,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Australia_NZ,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Australia_NZ,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Australia_NZ,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Australia_NZ,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Australia_NZ,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Australia_NZ,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Australia_NZ,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Australia_NZ,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Australia_NZ,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Australia_NZ,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Australia_NZ,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Australia_NZ,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Australia_NZ,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Australia_NZ,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Australia_NZ,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Australia_NZ,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Australia_NZ,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Australia_NZ,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Australia_NZ,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Brazil,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Brazil,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Brazil,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Brazil,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Brazil,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Brazil,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Brazil,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Brazil,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Brazil,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Brazil,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Brazil,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Brazil,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Brazil,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Brazil,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Brazil,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Brazil,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Brazil,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Brazil,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Brazil,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Brazil,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Brazil,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Brazil,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Brazil,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Brazil,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Brazil,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Brazil,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Brazil,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Brazil,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Brazil,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Brazil,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Brazil,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Brazil,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Canada,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Canada,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Canada,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Canada,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Canada,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Canada,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Canada,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Canada,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Canada,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Canada,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Canada,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Canada,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Canada,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Canada,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Canada,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Canada,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Canada,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Canada,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Canada,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Canada,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Canada,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Canada,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Canada,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Canada,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Canada,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Canada,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Canada,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Canada,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Canada,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Canada,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Canada,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Canada,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Central America and Caribbean,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central America and Caribbean,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central America and Caribbean,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Central America and Caribbean,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Central America and Caribbean,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central America and Caribbean,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central America and Caribbean,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Central America and Caribbean,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Central America and Caribbean,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central America and Caribbean,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central America and Caribbean,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Central America and Caribbean,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Central America and Caribbean,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central America and Caribbean,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central America and Caribbean,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Central America and Caribbean,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Central America and Caribbean,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central America and Caribbean,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central America and Caribbean,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Central America and Caribbean,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Central America and Caribbean,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central America and Caribbean,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central America and Caribbean,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Central America and Caribbean,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Central America and Caribbean,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central America and Caribbean,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central America and Caribbean,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Central America and Caribbean,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Central America and Caribbean,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central America and Caribbean,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central America and Caribbean,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Central America and Caribbean,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Central Asia,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central Asia,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central Asia,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Central Asia,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Central Asia,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central Asia,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central Asia,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Central Asia,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Central Asia,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central Asia,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central Asia,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Central Asia,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Central Asia,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central Asia,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central Asia,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Central Asia,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Central Asia,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central Asia,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central Asia,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Central Asia,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Central Asia,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central Asia,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central Asia,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Central Asia,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Central Asia,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central Asia,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central Asia,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Central Asia,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Central Asia,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Central Asia,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Central Asia,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Central Asia,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+China,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+China,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+China,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+China,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+China,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+China,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+China,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+China,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+China,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+China,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+China,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+China,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+China,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+China,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+China,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+China,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+China,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+China,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+China,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+China,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+China,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+China,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+China,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+China,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+China,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+China,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+China,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+China,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+China,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+China,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+China,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+China,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+EU-12,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-12,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-12,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+EU-12,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+EU-12,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-12,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-12,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+EU-12,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+EU-12,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-12,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-12,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+EU-12,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+EU-12,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-12,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-12,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+EU-12,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+EU-12,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-12,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-12,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+EU-12,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+EU-12,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-12,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-12,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+EU-12,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+EU-12,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-12,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-12,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+EU-12,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+EU-12,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-12,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-12,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+EU-12,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+EU-15,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-15,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-15,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+EU-15,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+EU-15,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-15,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-15,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+EU-15,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+EU-15,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-15,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-15,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+EU-15,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+EU-15,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-15,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-15,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+EU-15,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+EU-15,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-15,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-15,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+EU-15,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+EU-15,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-15,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-15,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+EU-15,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+EU-15,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-15,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-15,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+EU-15,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+EU-15,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+EU-15,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+EU-15,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+EU-15,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Eastern,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Eastern,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Eastern,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Europe_Eastern,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Eastern,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Eastern,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Eastern,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Europe_Eastern,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Eastern,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Eastern,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Eastern,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Europe_Eastern,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Eastern,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Eastern,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Eastern,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Europe_Eastern,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Eastern,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Eastern,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Eastern,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Europe_Eastern,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Eastern,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Eastern,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Eastern,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Europe_Eastern,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Eastern,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Eastern,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Eastern,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Europe_Eastern,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Eastern,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Eastern,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Eastern,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Europe_Eastern,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Non_EU,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Non_EU,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Non_EU,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Europe_Non_EU,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Non_EU,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Non_EU,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Non_EU,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Europe_Non_EU,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Non_EU,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Non_EU,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Non_EU,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Europe_Non_EU,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Non_EU,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Non_EU,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Non_EU,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Europe_Non_EU,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Non_EU,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Non_EU,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Non_EU,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Europe_Non_EU,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Non_EU,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Non_EU,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Non_EU,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Europe_Non_EU,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Non_EU,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Non_EU,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Non_EU,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Europe_Non_EU,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Europe_Non_EU,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Europe_Non_EU,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Europe_Non_EU,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Europe_Non_EU,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+European Free Trade Association,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+European Free Trade Association,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+European Free Trade Association,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+European Free Trade Association,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+European Free Trade Association,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+European Free Trade Association,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+European Free Trade Association,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+European Free Trade Association,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+European Free Trade Association,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+European Free Trade Association,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+European Free Trade Association,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+European Free Trade Association,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+European Free Trade Association,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+European Free Trade Association,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+European Free Trade Association,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+European Free Trade Association,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+European Free Trade Association,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+European Free Trade Association,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+European Free Trade Association,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+European Free Trade Association,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+European Free Trade Association,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+European Free Trade Association,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+European Free Trade Association,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+European Free Trade Association,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+European Free Trade Association,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+European Free Trade Association,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+European Free Trade Association,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+European Free Trade Association,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+European Free Trade Association,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+European Free Trade Association,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+European Free Trade Association,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+European Free Trade Association,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+India,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+India,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+India,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+India,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+India,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+India,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+India,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+India,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+India,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+India,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+India,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+India,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+India,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+India,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+India,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+India,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+India,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+India,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+India,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+India,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+India,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+India,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+India,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+India,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+India,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+India,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+India,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+India,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+India,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+India,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+India,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+India,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Indonesia,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Indonesia,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Indonesia,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Indonesia,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Indonesia,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Indonesia,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Indonesia,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Indonesia,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Indonesia,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Indonesia,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Indonesia,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Indonesia,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Indonesia,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Indonesia,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Indonesia,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Indonesia,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Indonesia,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Indonesia,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Indonesia,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Indonesia,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Indonesia,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Indonesia,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Indonesia,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Indonesia,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Indonesia,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Indonesia,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Indonesia,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Indonesia,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Indonesia,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Indonesia,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Indonesia,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Indonesia,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Japan,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Japan,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Japan,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Japan,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Japan,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Japan,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Japan,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Japan,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Japan,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Japan,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Japan,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Japan,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Japan,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Japan,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Japan,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Japan,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Japan,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Japan,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Japan,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Japan,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Japan,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Japan,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Japan,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Japan,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Japan,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Japan,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Japan,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Japan,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Japan,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Japan,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Japan,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Japan,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Mexico,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Mexico,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Mexico,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Mexico,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Mexico,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Mexico,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Mexico,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Mexico,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Mexico,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Mexico,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Mexico,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Mexico,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Mexico,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Mexico,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Mexico,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Mexico,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Mexico,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Mexico,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Mexico,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Mexico,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Mexico,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Mexico,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Mexico,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Mexico,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Mexico,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Mexico,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Mexico,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Mexico,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Mexico,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Mexico,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Mexico,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Mexico,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Middle East,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Middle East,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Middle East,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Middle East,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Middle East,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Middle East,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Middle East,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Middle East,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Middle East,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Middle East,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Middle East,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Middle East,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Middle East,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Middle East,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Middle East,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Middle East,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Middle East,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Middle East,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Middle East,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Middle East,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Middle East,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Middle East,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Middle East,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Middle East,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Middle East,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Middle East,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Middle East,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Middle East,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Middle East,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Middle East,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Middle East,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Middle East,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Pakistan,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Pakistan,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Pakistan,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Pakistan,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Pakistan,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Pakistan,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Pakistan,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Pakistan,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Pakistan,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Pakistan,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Pakistan,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Pakistan,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Pakistan,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Pakistan,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Pakistan,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Pakistan,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Pakistan,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Pakistan,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Pakistan,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Pakistan,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Pakistan,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Pakistan,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Pakistan,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Pakistan,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Pakistan,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Pakistan,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Pakistan,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Pakistan,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Pakistan,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Pakistan,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Pakistan,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Pakistan,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Russia,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Russia,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Russia,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Russia,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Russia,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Russia,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Russia,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Russia,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Russia,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Russia,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Russia,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Russia,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Russia,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Russia,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Russia,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Russia,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Russia,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Russia,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Russia,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Russia,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Russia,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Russia,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Russia,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Russia,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Russia,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Russia,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Russia,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Russia,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Russia,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Russia,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Russia,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Russia,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+South Africa,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Africa,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Africa,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South Africa,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South Africa,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Africa,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Africa,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+South Africa,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+South Africa,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Africa,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Africa,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South Africa,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South Africa,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Africa,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Africa,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+South Africa,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+South Africa,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Africa,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Africa,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South Africa,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South Africa,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Africa,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Africa,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South Africa,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South Africa,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Africa,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Africa,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South Africa,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South Africa,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Africa,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Africa,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+South Africa,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Northern,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Northern,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Northern,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South America_Northern,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Northern,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Northern,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Northern,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+South America_Northern,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Northern,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Northern,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Northern,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South America_Northern,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Northern,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Northern,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Northern,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+South America_Northern,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Northern,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Northern,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Northern,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South America_Northern,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Northern,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Northern,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Northern,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South America_Northern,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Northern,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Northern,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Northern,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South America_Northern,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Northern,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Northern,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Northern,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+South America_Northern,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Southern,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Southern,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Southern,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South America_Southern,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Southern,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Southern,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Southern,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+South America_Southern,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Southern,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Southern,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Southern,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South America_Southern,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Southern,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Southern,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Southern,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+South America_Southern,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Southern,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Southern,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Southern,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South America_Southern,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Southern,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Southern,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Southern,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South America_Southern,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Southern,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Southern,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Southern,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South America_Southern,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South America_Southern,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+South America_Southern,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South America_Southern,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+South America_Southern,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+South Asia,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Asia,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Asia,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South Asia,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South Asia,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Asia,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Asia,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+South Asia,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+South Asia,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Asia,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Asia,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South Asia,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South Asia,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Asia,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Asia,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+South Asia,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+South Asia,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Asia,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Asia,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South Asia,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South Asia,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Asia,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Asia,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South Asia,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South Asia,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Asia,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Asia,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South Asia,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South Asia,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Asia,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Asia,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+South Asia,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+South Korea,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Korea,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Korea,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South Korea,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South Korea,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Korea,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Korea,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+South Korea,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+South Korea,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Korea,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Korea,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South Korea,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South Korea,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Korea,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Korea,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+South Korea,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+South Korea,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Korea,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Korea,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South Korea,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South Korea,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Korea,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Korea,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South Korea,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South Korea,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Korea,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Korea,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+South Korea,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+South Korea,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+South Korea,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+South Korea,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+South Korea,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Southeast Asia,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Southeast Asia,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Southeast Asia,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Southeast Asia,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Southeast Asia,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Southeast Asia,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Southeast Asia,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Southeast Asia,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Southeast Asia,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Southeast Asia,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Southeast Asia,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Southeast Asia,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Southeast Asia,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Southeast Asia,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Southeast Asia,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Southeast Asia,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Southeast Asia,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Southeast Asia,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Southeast Asia,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Southeast Asia,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Southeast Asia,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Southeast Asia,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Southeast Asia,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Southeast Asia,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Southeast Asia,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Southeast Asia,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Southeast Asia,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Southeast Asia,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Southeast Asia,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Southeast Asia,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Southeast Asia,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Southeast Asia,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Argentina,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Argentina,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Argentina,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Argentina,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Argentina,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Argentina,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Argentina,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Argentina,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Argentina,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Argentina,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Argentina,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Argentina,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Argentina,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Argentina,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Argentina,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Argentina,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Argentina,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Argentina,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Argentina,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Argentina,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Argentina,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Argentina,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Argentina,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Argentina,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Argentina,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Argentina,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Argentina,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Argentina,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Argentina,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Argentina,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Argentina,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Argentina,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Colombia,Beef,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Colombia,Beef,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Colombia,Beef,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Colombia,Beef,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Colombia,Beef,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Colombia,Beef,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Colombia,Beef,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Colombia,Beef,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Colombia,Dairy,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Colombia,Dairy,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Colombia,Dairy,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Colombia,Dairy,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Colombia,Dairy,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Colombia,Dairy,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Colombia,Dairy,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Colombia,Dairy,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
+Colombia,Pork,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Colombia,Pork,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Colombia,Pork,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Colombia,Pork,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Colombia,Poultry,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Colombia,Poultry,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Colombia,Poultry,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Colombia,Poultry,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Colombia,SheepGoat,Mixed,FodderHerb_Residue,share-weight,2010,2100,fixed
+Colombia,SheepGoat,Mixed,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Colombia,SheepGoat,Mixed,FeedCrops,share-weight,2010,2100,fixed
+Colombia,SheepGoat,Mixed,Scavenging_Other,share-weight,2010,2100,fixed
+Colombia,SheepGoat,Pastoral,FodderHerb_Residue,share-weight,2010,2100,fixed
+Colombia,SheepGoat,Pastoral,Pasture_FodderGrass,share-weight,2010,2100,fixed
+Colombia,SheepGoat,Pastoral,FeedCrops,share-weight,2010,2100,fixed
+Colombia,SheepGoat,Pastoral,Scavenging_Other,share-weight,2010,2100,fixed
