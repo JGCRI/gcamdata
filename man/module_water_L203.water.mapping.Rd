@@ -14,14 +14,14 @@ module_water_L203.water.mapping(command, ...)
 \value{
 Depends on \code{command}: either a vector of required inputs,
 a vector of output names, or (if \code{command} is "MAKE") all
-the generated outputs: \code{L203.SectorLogitTables[[ curr_table ]]$data}, \code{L203.Supplysector}, \code{L203.SubsectorLogitTables[[ curr_table ]]$data}, \code{L203.SubsectorLogit}, \code{L203.SubsectorShrwtFllt}, \code{L203.TechShrwt}, \code{L203.TechCoef}. The corresponding file in the
+the generated outputs: \code{L203.Supplysector}, \code{L203.SubsectorLogit}, \code{L203.SubsectorShrwtFllt}, \code{L203.TechShrwt}, \code{L203.TechCoef}. The corresponding file in the
 original data system was \code{L203.water.mapping.R} (water level2).
 }
 \description{
-Generates water mapping sector input files to group demands by sectors.
+Mapping of water consumption/withdrawal to sectoral demands.
 }
 \details{
-Describe in detail what this chunk does.
+Generates water mapping sector input files to group demands by sectors.
 }
 \author{
 ST August 2017
