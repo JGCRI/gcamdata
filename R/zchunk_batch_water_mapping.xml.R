@@ -32,8 +32,8 @@ module_water_batch_water_mapping.xml <- function(command, ...) {
 
     # Produce outputs
     create_xml("water_mapping.xml") %>%
-      add_xml_data(L203.Supplysector,"Supplysector") %>%
-      add_logit_tables_xml("SubsectorLogit") %>%
+      add_logit_tables_xml(L203.Supplysector,"Supplysector") %>%
+      add_logit_tables_xml(L203.SubsectorLogit, "SubsectorLogit") %>%
       add_xml_data(L203.SubsectorShrwtFllt,"SubsectorShrwtFllt") %>%
       add_xml_data(L203.TechShrwt,"TechShrwt") %>%
       add_xml_data(L203.TechCoef,"TechCoef") %>%
