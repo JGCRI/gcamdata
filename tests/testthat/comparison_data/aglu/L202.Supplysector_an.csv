@@ -1,0 +1,160 @@
+INPUT_TABLE
+Variable ID
+Supplysector
+
+region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent
+USA,Beef,Mt,Mt,1975$/kg,1975,-3
+USA,Dairy,Mt,Mt,1975$/kg,1975,-3
+USA,Pork,Mt,Mt,1975$/kg,1975,-3
+USA,Poultry,Mt,Mt,1975$/kg,1975,-3
+USA,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Africa_Eastern,Beef,Mt,Mt,1975$/kg,1975,-3
+Africa_Eastern,Dairy,Mt,Mt,1975$/kg,1975,-3
+Africa_Eastern,Pork,Mt,Mt,1975$/kg,1975,-3
+Africa_Eastern,Poultry,Mt,Mt,1975$/kg,1975,-3
+Africa_Eastern,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Africa_Northern,Beef,Mt,Mt,1975$/kg,1975,-3
+Africa_Northern,Dairy,Mt,Mt,1975$/kg,1975,-3
+Africa_Northern,Pork,Mt,Mt,1975$/kg,1975,-3
+Africa_Northern,Poultry,Mt,Mt,1975$/kg,1975,-3
+Africa_Northern,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Africa_Southern,Beef,Mt,Mt,1975$/kg,1975,-3
+Africa_Southern,Dairy,Mt,Mt,1975$/kg,1975,-3
+Africa_Southern,Pork,Mt,Mt,1975$/kg,1975,-3
+Africa_Southern,Poultry,Mt,Mt,1975$/kg,1975,-3
+Africa_Southern,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Africa_Western,Beef,Mt,Mt,1975$/kg,1975,-3
+Africa_Western,Dairy,Mt,Mt,1975$/kg,1975,-3
+Africa_Western,Pork,Mt,Mt,1975$/kg,1975,-3
+Africa_Western,Poultry,Mt,Mt,1975$/kg,1975,-3
+Africa_Western,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Australia_NZ,Beef,Mt,Mt,1975$/kg,1975,-3
+Australia_NZ,Dairy,Mt,Mt,1975$/kg,1975,-3
+Australia_NZ,Pork,Mt,Mt,1975$/kg,1975,-3
+Australia_NZ,Poultry,Mt,Mt,1975$/kg,1975,-3
+Australia_NZ,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Brazil,Beef,Mt,Mt,1975$/kg,1975,-3
+Brazil,Dairy,Mt,Mt,1975$/kg,1975,-3
+Brazil,Pork,Mt,Mt,1975$/kg,1975,-3
+Brazil,Poultry,Mt,Mt,1975$/kg,1975,-3
+Brazil,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Canada,Beef,Mt,Mt,1975$/kg,1975,-3
+Canada,Dairy,Mt,Mt,1975$/kg,1975,-3
+Canada,Pork,Mt,Mt,1975$/kg,1975,-3
+Canada,Poultry,Mt,Mt,1975$/kg,1975,-3
+Canada,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Central America and Caribbean,Beef,Mt,Mt,1975$/kg,1975,-3
+Central America and Caribbean,Dairy,Mt,Mt,1975$/kg,1975,-3
+Central America and Caribbean,Pork,Mt,Mt,1975$/kg,1975,-3
+Central America and Caribbean,Poultry,Mt,Mt,1975$/kg,1975,-3
+Central America and Caribbean,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Central Asia,Beef,Mt,Mt,1975$/kg,1975,-3
+Central Asia,Dairy,Mt,Mt,1975$/kg,1975,-3
+Central Asia,Pork,Mt,Mt,1975$/kg,1975,-3
+Central Asia,Poultry,Mt,Mt,1975$/kg,1975,-3
+Central Asia,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+China,Beef,Mt,Mt,1975$/kg,1975,-3
+China,Dairy,Mt,Mt,1975$/kg,1975,-3
+China,Pork,Mt,Mt,1975$/kg,1975,-3
+China,Poultry,Mt,Mt,1975$/kg,1975,-3
+China,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+EU-12,Beef,Mt,Mt,1975$/kg,1975,-3
+EU-12,Dairy,Mt,Mt,1975$/kg,1975,-3
+EU-12,Pork,Mt,Mt,1975$/kg,1975,-3
+EU-12,Poultry,Mt,Mt,1975$/kg,1975,-3
+EU-12,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+EU-15,Beef,Mt,Mt,1975$/kg,1975,-3
+EU-15,Dairy,Mt,Mt,1975$/kg,1975,-3
+EU-15,Pork,Mt,Mt,1975$/kg,1975,-3
+EU-15,Poultry,Mt,Mt,1975$/kg,1975,-3
+EU-15,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Europe_Eastern,Beef,Mt,Mt,1975$/kg,1975,-3
+Europe_Eastern,Dairy,Mt,Mt,1975$/kg,1975,-3
+Europe_Eastern,Pork,Mt,Mt,1975$/kg,1975,-3
+Europe_Eastern,Poultry,Mt,Mt,1975$/kg,1975,-3
+Europe_Eastern,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Europe_Non_EU,Beef,Mt,Mt,1975$/kg,1975,-3
+Europe_Non_EU,Dairy,Mt,Mt,1975$/kg,1975,-3
+Europe_Non_EU,Pork,Mt,Mt,1975$/kg,1975,-3
+Europe_Non_EU,Poultry,Mt,Mt,1975$/kg,1975,-3
+Europe_Non_EU,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+European Free Trade Association,Beef,Mt,Mt,1975$/kg,1975,-3
+European Free Trade Association,Dairy,Mt,Mt,1975$/kg,1975,-3
+European Free Trade Association,Pork,Mt,Mt,1975$/kg,1975,-3
+European Free Trade Association,Poultry,Mt,Mt,1975$/kg,1975,-3
+European Free Trade Association,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+India,Beef,Mt,Mt,1975$/kg,1975,-3
+India,Dairy,Mt,Mt,1975$/kg,1975,-3
+India,Pork,Mt,Mt,1975$/kg,1975,-3
+India,Poultry,Mt,Mt,1975$/kg,1975,-3
+India,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Indonesia,Beef,Mt,Mt,1975$/kg,1975,-3
+Indonesia,Dairy,Mt,Mt,1975$/kg,1975,-3
+Indonesia,Pork,Mt,Mt,1975$/kg,1975,-3
+Indonesia,Poultry,Mt,Mt,1975$/kg,1975,-3
+Indonesia,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Japan,Beef,Mt,Mt,1975$/kg,1975,-3
+Japan,Dairy,Mt,Mt,1975$/kg,1975,-3
+Japan,Pork,Mt,Mt,1975$/kg,1975,-3
+Japan,Poultry,Mt,Mt,1975$/kg,1975,-3
+Japan,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Mexico,Beef,Mt,Mt,1975$/kg,1975,-3
+Mexico,Dairy,Mt,Mt,1975$/kg,1975,-3
+Mexico,Pork,Mt,Mt,1975$/kg,1975,-3
+Mexico,Poultry,Mt,Mt,1975$/kg,1975,-3
+Mexico,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Middle East,Beef,Mt,Mt,1975$/kg,1975,-3
+Middle East,Dairy,Mt,Mt,1975$/kg,1975,-3
+Middle East,Pork,Mt,Mt,1975$/kg,1975,-3
+Middle East,Poultry,Mt,Mt,1975$/kg,1975,-3
+Middle East,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Pakistan,Beef,Mt,Mt,1975$/kg,1975,-3
+Pakistan,Dairy,Mt,Mt,1975$/kg,1975,-3
+Pakistan,Pork,Mt,Mt,1975$/kg,1975,-3
+Pakistan,Poultry,Mt,Mt,1975$/kg,1975,-3
+Pakistan,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Russia,Beef,Mt,Mt,1975$/kg,1975,-3
+Russia,Dairy,Mt,Mt,1975$/kg,1975,-3
+Russia,Pork,Mt,Mt,1975$/kg,1975,-3
+Russia,Poultry,Mt,Mt,1975$/kg,1975,-3
+Russia,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+South Africa,Beef,Mt,Mt,1975$/kg,1975,-3
+South Africa,Dairy,Mt,Mt,1975$/kg,1975,-3
+South Africa,Pork,Mt,Mt,1975$/kg,1975,-3
+South Africa,Poultry,Mt,Mt,1975$/kg,1975,-3
+South Africa,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+South America_Northern,Beef,Mt,Mt,1975$/kg,1975,-3
+South America_Northern,Dairy,Mt,Mt,1975$/kg,1975,-3
+South America_Northern,Pork,Mt,Mt,1975$/kg,1975,-3
+South America_Northern,Poultry,Mt,Mt,1975$/kg,1975,-3
+South America_Northern,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+South America_Southern,Beef,Mt,Mt,1975$/kg,1975,-3
+South America_Southern,Dairy,Mt,Mt,1975$/kg,1975,-3
+South America_Southern,Pork,Mt,Mt,1975$/kg,1975,-3
+South America_Southern,Poultry,Mt,Mt,1975$/kg,1975,-3
+South America_Southern,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+South Asia,Beef,Mt,Mt,1975$/kg,1975,-3
+South Asia,Dairy,Mt,Mt,1975$/kg,1975,-3
+South Asia,Pork,Mt,Mt,1975$/kg,1975,-3
+South Asia,Poultry,Mt,Mt,1975$/kg,1975,-3
+South Asia,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+South Korea,Beef,Mt,Mt,1975$/kg,1975,-3
+South Korea,Dairy,Mt,Mt,1975$/kg,1975,-3
+South Korea,Pork,Mt,Mt,1975$/kg,1975,-3
+South Korea,Poultry,Mt,Mt,1975$/kg,1975,-3
+South Korea,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Southeast Asia,Beef,Mt,Mt,1975$/kg,1975,-3
+Southeast Asia,Dairy,Mt,Mt,1975$/kg,1975,-3
+Southeast Asia,Pork,Mt,Mt,1975$/kg,1975,-3
+Southeast Asia,Poultry,Mt,Mt,1975$/kg,1975,-3
+Southeast Asia,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Argentina,Beef,Mt,Mt,1975$/kg,1975,-3
+Argentina,Dairy,Mt,Mt,1975$/kg,1975,-3
+Argentina,Pork,Mt,Mt,1975$/kg,1975,-3
+Argentina,Poultry,Mt,Mt,1975$/kg,1975,-3
+Argentina,SheepGoat,Mt,Mt,1975$/kg,1975,-3
+Colombia,Beef,Mt,Mt,1975$/kg,1975,-3
+Colombia,Dairy,Mt,Mt,1975$/kg,1975,-3
+Colombia,Pork,Mt,Mt,1975$/kg,1975,-3
+Colombia,Poultry,Mt,Mt,1975$/kg,1975,-3
+Colombia,SheepGoat,Mt,Mt,1975$/kg,1975,-3
