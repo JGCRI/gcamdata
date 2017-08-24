@@ -1,0 +1,11 @@
+#INPUT_TABLE
+#Variable ID
+#GlobalTechSCurve
+#
+sector.name,subsector.name,technology,year,lifetime,steepness,half.life
+electricity,coal,coal (conv pul),2010,60,0.1,30
+electricity,gas,gas (steam/CT),2010,60,0.1,30
+electricity,gas,gas (CC),2010,60,0.1,30
+electricity,refined liquids,refined liquids (steam/CT),2010,60,0.1,30
+electricity,biomass,biomass (conv),2010,60,0.1,30
+electricity,nuclear,Gen_II_LWR,2010,60,0.1,30
