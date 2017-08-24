@@ -73,6 +73,10 @@ module_water_L203.water.mapping <- function(command, ...) {
       mutate(coefficient = if_else(water.sector == IRRIGATION & water_type == "water withdrawals",
                                    1 / conveyance.eff, coefficient)) %>%
       # ^^ conveyance losses for irrigation--applied to withdrawals only
+      # Note: Conveyance losses are taken out of agriculture withdrawals and...
+      +      # ... instead applied to water distribution sectors (water_td_irr). This means that to get total...
+      +      # ... ag withdrawals for reporting (i.e., when querying GCAM results)...
+      +      # ... it is necessary to include the conveyance loss.
       select(-conveyance.eff) ->
       L203.mapping_all
 
@@ -110,6 +114,9 @@ module_water_L203.water.mapping <- function(command, ...) {
 
 
     # OUTPUTS
+    # Possible future amendment: consider creating water mapping files by demand type ...
+    # ...(irr, dom, ind, ...) rather than by variable (see issue #663 on dsr gcamdata repo)
+
     L203.Supplysector %>%
       add_title("Water sector information") %>%
       add_units("Unitless") %>%
