@@ -62,8 +62,7 @@ module_energy_LA102.en_emiss_CDIAC <- function(command, ...) {
 
     # Aggregate CO2 emissions by GCAM region and fuel
       group_by(GCAM_region_ID, fuel, year) %>%
-      summarise(value = sum(value) * CONV_KT_MT) %>%
-      ungroup() ->
+      summarise(value = sum(value) * CONV_KT_MT) ->
       L102.CO2_Mt_R_F_Yh
 
     # Calculate regional and global CO2 emissions coefficients by fuel
@@ -108,15 +107,13 @@ module_energy_LA102.en_emiss_CDIAC <- function(command, ...) {
     # aggregate regional values to global and calculate global coefficients
     L102.en_emitted_EJ_R_Fi_Yh %>%
       group_by(fuel, year) %>%
-      summarise(value = sum(val_energy)) %>%
-      ungroup() ->
+      summarise(value = sum(val_energy)) ->
       L102.en_emitted_EJ_Fi_Yh
 
     # global coefficient (value) calculated by emissions / energy (value.x / value.y)
     L102.CO2_Mt_R_F_Yh %>%
       group_by(fuel, year) %>%
       summarise(value = sum(value)) %>%
-      ungroup() %>%
       filter(fuel %in% L102.en_emitted_EJ_Fi_Yh$fuel) %>%
       left_join_error_no_match(L102.en_emitted_EJ_Fi_Yh, by = c("fuel", "year")) %>%
       mutate(value = value.x / value.y) %>%

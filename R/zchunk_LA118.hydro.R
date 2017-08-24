@@ -213,7 +213,6 @@ module_energy_LA118.hydro <- function(command, ...) {
           by = "iso") %>%
         group_by(GCAM_region_ID, year) %>%
         summarise(value = sum(value)) %>%
-        ungroup %>%
         mutate(sector = "electricity generation", fuel = "hydro") %>%
         select(GCAM_region_ID, sector, fuel, year, value) %>%
 
