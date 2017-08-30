@@ -1,0 +1,335 @@
+INPUT_TABLE
+Variable ID
+GlobalTechCost
+
+sector.name,subsector.name,technology,year,minicam.non.energy.input,input.cost
+H2 central production,coal,coal chemical,1975,non-energy,2.999
+H2 central production,coal,coal chemical CCS,1975,non-energy,3.878
+H2 central production,gas,natural gas steam reforming,1975,non-energy,1.029
+H2 central production,gas,natural gas steam reforming CCS,1975,non-energy,1.579
+H2 central production,biomass,biomass to H2,1975,non-energy,2.979
+H2 central production,biomass,biomass to H2 CCS,1975,non-energy,3.878
+H2 central production,nuclear,thermal splitting,1975,non-energy,7
+H2 central production,electricity,electrolysis,1975,non-energy,7.397
+H2 central production,wind,electrolysis,1975,non-energy,7.397
+H2 central production,solar,electrolysis,1975,non-energy,7.397
+H2 forecourt production,gas,natural gas steam reforming,1975,non-energy,6.464
+H2 forecourt production,electricity,electrolysis,1975,non-energy,7.397
+H2 distribution,H2 distribution,H2 distribution,1975,non-energy,6.071
+H2 enduse,H2 distribution,H2 distribution,1975,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,1975,non-energy,0
+H2 central production,coal,coal chemical,1990,non-energy,2.999
+H2 central production,coal,coal chemical CCS,1990,non-energy,3.878
+H2 central production,gas,natural gas steam reforming,1990,non-energy,1.029
+H2 central production,gas,natural gas steam reforming CCS,1990,non-energy,1.579
+H2 central production,biomass,biomass to H2,1990,non-energy,2.979
+H2 central production,biomass,biomass to H2 CCS,1990,non-energy,3.878
+H2 central production,nuclear,thermal splitting,1990,non-energy,7
+H2 central production,electricity,electrolysis,1990,non-energy,7.397
+H2 central production,wind,electrolysis,1990,non-energy,7.397
+H2 central production,solar,electrolysis,1990,non-energy,7.397
+H2 forecourt production,gas,natural gas steam reforming,1990,non-energy,6.464
+H2 forecourt production,electricity,electrolysis,1990,non-energy,7.397
+H2 distribution,H2 distribution,H2 distribution,1990,non-energy,6.071
+H2 enduse,H2 distribution,H2 distribution,1990,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,1990,non-energy,0
+H2 central production,coal,coal chemical,2005,non-energy,2.999
+H2 central production,coal,coal chemical CCS,2005,non-energy,3.878
+H2 central production,gas,natural gas steam reforming,2005,non-energy,1.029
+H2 central production,gas,natural gas steam reforming CCS,2005,non-energy,1.579
+H2 central production,biomass,biomass to H2,2005,non-energy,2.979
+H2 central production,biomass,biomass to H2 CCS,2005,non-energy,3.878
+H2 central production,nuclear,thermal splitting,2005,non-energy,7
+H2 central production,electricity,electrolysis,2005,non-energy,7.397
+H2 central production,wind,electrolysis,2005,non-energy,7.397
+H2 central production,solar,electrolysis,2005,non-energy,7.397
+H2 forecourt production,gas,natural gas steam reforming,2005,non-energy,6.464
+H2 forecourt production,electricity,electrolysis,2005,non-energy,7.397
+H2 distribution,H2 distribution,H2 distribution,2005,non-energy,6.071
+H2 enduse,H2 distribution,H2 distribution,2005,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2005,non-energy,0
+H2 central production,coal,coal chemical,2010,non-energy,2.999
+H2 central production,coal,coal chemical CCS,2010,non-energy,3.878
+H2 central production,gas,natural gas steam reforming,2010,non-energy,1.029
+H2 central production,gas,natural gas steam reforming CCS,2010,non-energy,1.579
+H2 central production,biomass,biomass to H2,2010,non-energy,2.979
+H2 central production,biomass,biomass to H2 CCS,2010,non-energy,3.878
+H2 central production,nuclear,thermal splitting,2010,non-energy,7
+H2 central production,electricity,electrolysis,2010,non-energy,7.397
+H2 central production,wind,electrolysis,2010,non-energy,7.397
+H2 central production,solar,electrolysis,2010,non-energy,7.397
+H2 forecourt production,gas,natural gas steam reforming,2010,non-energy,6.464
+H2 forecourt production,electricity,electrolysis,2010,non-energy,7.397
+H2 distribution,H2 distribution,H2 distribution,2010,non-energy,6.071
+H2 enduse,H2 distribution,H2 distribution,2010,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2010,non-energy,0
+H2 central production,coal,coal chemical,2015,non-energy,2.999
+H2 central production,coal,coal chemical CCS,2015,non-energy,3.878
+H2 central production,gas,natural gas steam reforming,2015,non-energy,1.029
+H2 central production,gas,natural gas steam reforming CCS,2015,non-energy,1.579
+H2 central production,biomass,biomass to H2,2015,non-energy,2.979
+H2 central production,biomass,biomass to H2 CCS,2015,non-energy,3.878
+H2 central production,nuclear,thermal splitting,2015,non-energy,7
+H2 central production,electricity,electrolysis,2015,non-energy,7.397
+H2 central production,wind,electrolysis,2015,non-energy,7.397
+H2 central production,solar,electrolysis,2015,non-energy,7.397
+H2 forecourt production,gas,natural gas steam reforming,2015,non-energy,6.464
+H2 forecourt production,electricity,electrolysis,2015,non-energy,7.397
+H2 distribution,H2 distribution,H2 distribution,2015,non-energy,6.071
+H2 enduse,H2 distribution,H2 distribution,2015,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2015,non-energy,0
+H2 central production,coal,coal chemical,2020,non-energy,2.999
+H2 central production,coal,coal chemical CCS,2020,non-energy,3.878
+H2 central production,gas,natural gas steam reforming,2020,non-energy,1.029
+H2 central production,gas,natural gas steam reforming CCS,2020,non-energy,1.579
+H2 central production,biomass,biomass to H2,2020,non-energy,2.979
+H2 central production,biomass,biomass to H2 CCS,2020,non-energy,3.878
+H2 central production,nuclear,thermal splitting,2020,non-energy,7
+H2 central production,electricity,electrolysis,2020,non-energy,7.397
+H2 central production,wind,electrolysis,2020,non-energy,7.397
+H2 central production,solar,electrolysis,2020,non-energy,7.397
+H2 forecourt production,gas,natural gas steam reforming,2020,non-energy,6.464
+H2 forecourt production,electricity,electrolysis,2020,non-energy,7.397
+H2 distribution,H2 distribution,H2 distribution,2020,non-energy,6.071
+H2 enduse,H2 distribution,H2 distribution,2020,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2020,non-energy,0
+H2 central production,coal,coal chemical,2025,non-energy,2.9137
+H2 central production,coal,coal chemical CCS,2025,non-energy,3.772
+H2 central production,gas,natural gas steam reforming,2025,non-energy,1.0043
+H2 central production,gas,natural gas steam reforming CCS,2025,non-energy,1.532
+H2 central production,biomass,biomass to H2,2025,non-energy,2.8943
+H2 central production,biomass,biomass to H2 CCS,2025,non-energy,3.772
+H2 central production,nuclear,thermal splitting,2025,non-energy,7
+H2 central production,electricity,electrolysis,2025,non-energy,6.9683
+H2 central production,wind,electrolysis,2025,non-energy,7.397
+H2 central production,solar,electrolysis,2025,non-energy,7.397
+H2 forecourt production,gas,natural gas steam reforming,2025,non-energy,6.2097
+H2 forecourt production,electricity,electrolysis,2025,non-energy,7.397
+H2 distribution,H2 distribution,H2 distribution,2025,non-energy,5.9517
+H2 enduse,H2 distribution,H2 distribution,2025,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2025,non-energy,0
+H2 central production,coal,coal chemical,2030,non-energy,2.8283
+H2 central production,coal,coal chemical CCS,2030,non-energy,3.666
+H2 central production,gas,natural gas steam reforming,2030,non-energy,0.9797
+H2 central production,gas,natural gas steam reforming CCS,2030,non-energy,1.485
+H2 central production,biomass,biomass to H2,2030,non-energy,2.8097
+H2 central production,biomass,biomass to H2 CCS,2030,non-energy,3.666
+H2 central production,nuclear,thermal splitting,2030,non-energy,7
+H2 central production,electricity,electrolysis,2030,non-energy,6.5397
+H2 central production,wind,electrolysis,2030,non-energy,7.397
+H2 central production,solar,electrolysis,2030,non-energy,7.397
+H2 forecourt production,gas,natural gas steam reforming,2030,non-energy,5.9553
+H2 forecourt production,electricity,electrolysis,2030,non-energy,7.397
+H2 distribution,H2 distribution,H2 distribution,2030,non-energy,5.8323
+H2 enduse,H2 distribution,H2 distribution,2030,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2030,non-energy,0
+H2 central production,coal,coal chemical,2035,non-energy,2.743
+H2 central production,coal,coal chemical CCS,2035,non-energy,3.56
+H2 central production,gas,natural gas steam reforming,2035,non-energy,0.955
+H2 central production,gas,natural gas steam reforming CCS,2035,non-energy,1.438
+H2 central production,biomass,biomass to H2,2035,non-energy,2.725
+H2 central production,biomass,biomass to H2 CCS,2035,non-energy,3.56
+H2 central production,nuclear,thermal splitting,2035,non-energy,7
+H2 central production,electricity,electrolysis,2035,non-energy,6.111
+H2 central production,wind,electrolysis,2035,non-energy,7.397
+H2 central production,solar,electrolysis,2035,non-energy,7.397
+H2 forecourt production,gas,natural gas steam reforming,2035,non-energy,5.701
+H2 forecourt production,electricity,electrolysis,2035,non-energy,7.397
+H2 distribution,H2 distribution,H2 distribution,2035,non-energy,5.713
+H2 enduse,H2 distribution,H2 distribution,2035,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2035,non-energy,0
+H2 central production,coal,coal chemical,2040,non-energy,2.665
+H2 central production,coal,coal chemical CCS,2040,non-energy,3.4627
+H2 central production,gas,natural gas steam reforming,2040,non-energy,0.932
+H2 central production,gas,natural gas steam reforming CCS,2040,non-energy,1.395
+H2 central production,biomass,biomass to H2,2040,non-energy,2.6477
+H2 central production,biomass,biomass to H2 CCS,2040,non-energy,3.4627
+H2 central production,nuclear,thermal splitting,2040,non-energy,7
+H2 central production,electricity,electrolysis,2040,non-energy,5.7567
+H2 central production,wind,electrolysis,2040,non-energy,7.397
+H2 central production,solar,electrolysis,2040,non-energy,7.397
+H2 forecourt production,gas,natural gas steam reforming,2040,non-energy,5.4763
+H2 forecourt production,electricity,electrolysis,2040,non-energy,7.397
+H2 distribution,H2 distribution,H2 distribution,2040,non-energy,5.6007
+H2 enduse,H2 distribution,H2 distribution,2040,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2040,non-energy,0
+H2 central production,coal,coal chemical,2045,non-energy,2.587
+H2 central production,coal,coal chemical CCS,2045,non-energy,3.3653
+H2 central production,gas,natural gas steam reforming,2045,non-energy,0.909
+H2 central production,gas,natural gas steam reforming CCS,2045,non-energy,1.352
+H2 central production,biomass,biomass to H2,2045,non-energy,2.5703
+H2 central production,biomass,biomass to H2 CCS,2045,non-energy,3.3653
+H2 central production,nuclear,thermal splitting,2045,non-energy,7
+H2 central production,electricity,electrolysis,2045,non-energy,5.4023
+H2 central production,wind,electrolysis,2045,non-energy,7.397
+H2 central production,solar,electrolysis,2045,non-energy,7.397
+H2 forecourt production,gas,natural gas steam reforming,2045,non-energy,5.2517
+H2 forecourt production,electricity,electrolysis,2045,non-energy,7.397
+H2 distribution,H2 distribution,H2 distribution,2045,non-energy,5.4883
+H2 enduse,H2 distribution,H2 distribution,2045,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2045,non-energy,0
+H2 central production,coal,coal chemical,2050,non-energy,2.509
+H2 central production,coal,coal chemical CCS,2050,non-energy,3.268
+H2 central production,gas,natural gas steam reforming,2050,non-energy,0.886
+H2 central production,gas,natural gas steam reforming CCS,2050,non-energy,1.309
+H2 central production,biomass,biomass to H2,2050,non-energy,2.493
+H2 central production,biomass,biomass to H2 CCS,2050,non-energy,3.268
+H2 central production,nuclear,thermal splitting,2050,non-energy,7
+H2 central production,electricity,electrolysis,2050,non-energy,5.048
+H2 central production,wind,electrolysis,2050,non-energy,7.397
+H2 central production,solar,electrolysis,2050,non-energy,7.397
+H2 forecourt production,gas,natural gas steam reforming,2050,non-energy,5.027
+H2 forecourt production,electricity,electrolysis,2050,non-energy,7.397
+H2 distribution,H2 distribution,H2 distribution,2050,non-energy,5.376
+H2 enduse,H2 distribution,H2 distribution,2050,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2050,non-energy,0
+H2 central production,coal,coal chemical,2055,non-energy,2.4377
+H2 central production,coal,coal chemical CCS,2055,non-energy,3.1787
+H2 central production,gas,natural gas steam reforming,2055,non-energy,0.865
+H2 central production,gas,natural gas steam reforming CCS,2055,non-energy,1.27
+H2 central production,biomass,biomass to H2,2055,non-energy,2.422
+H2 central production,biomass,biomass to H2 CCS,2055,non-energy,3.1787
+H2 central production,nuclear,thermal splitting,2055,non-energy,6.1473
+H2 central production,electricity,electrolysis,2055,non-energy,4.7553
+H2 central production,wind,electrolysis,2055,non-energy,7.397
+H2 central production,solar,electrolysis,2055,non-energy,7.397
+H2 forecourt production,gas,natural gas steam reforming,2055,non-energy,4.8293
+H2 forecourt production,electricity,electrolysis,2055,non-energy,7.397
+H2 distribution,H2 distribution,H2 distribution,2055,non-energy,5.2703
+H2 enduse,H2 distribution,H2 distribution,2055,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2055,non-energy,0
+H2 central production,coal,coal chemical,2060,non-energy,2.3663
+H2 central production,coal,coal chemical CCS,2060,non-energy,3.0893
+H2 central production,gas,natural gas steam reforming,2060,non-energy,0.844
+H2 central production,gas,natural gas steam reforming CCS,2060,non-energy,1.231
+H2 central production,biomass,biomass to H2,2060,non-energy,2.351
+H2 central production,biomass,biomass to H2 CCS,2060,non-energy,3.0893
+H2 central production,nuclear,thermal splitting,2060,non-energy,5.2947
+H2 central production,electricity,electrolysis,2060,non-energy,4.4627
+H2 central production,wind,electrolysis,2060,non-energy,7.397
+H2 central production,solar,electrolysis,2060,non-energy,7.397
+H2 forecourt production,gas,natural gas steam reforming,2060,non-energy,4.6317
+H2 forecourt production,electricity,electrolysis,2060,non-energy,7.397
+H2 distribution,H2 distribution,H2 distribution,2060,non-energy,5.1647
+H2 enduse,H2 distribution,H2 distribution,2060,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2060,non-energy,0
+H2 central production,coal,coal chemical,2065,non-energy,2.295
+H2 central production,coal,coal chemical CCS,2065,non-energy,3
+H2 central production,gas,natural gas steam reforming,2065,non-energy,0.823
+H2 central production,gas,natural gas steam reforming CCS,2065,non-energy,1.192
+H2 central production,biomass,biomass to H2,2065,non-energy,2.28
+H2 central production,biomass,biomass to H2 CCS,2065,non-energy,3
+H2 central production,nuclear,thermal splitting,2065,non-energy,4.442
+H2 central production,electricity,electrolysis,2065,non-energy,4.17
+H2 central production,wind,electrolysis,2065,non-energy,7.397
+H2 central production,solar,electrolysis,2065,non-energy,7.397
+H2 forecourt production,gas,natural gas steam reforming,2065,non-energy,4.434
+H2 forecourt production,electricity,electrolysis,2065,non-energy,7.397
+H2 distribution,H2 distribution,H2 distribution,2065,non-energy,5.059
+H2 enduse,H2 distribution,H2 distribution,2065,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2065,non-energy,0
+H2 central production,coal,coal chemical,2070,non-energy,2.24
+H2 central production,coal,coal chemical CCS,2070,non-energy,2.928
+H2 central production,gas,natural gas steam reforming,2070,non-energy,0.8033
+H2 central production,gas,natural gas steam reforming CCS,2070,non-energy,1.1633
+H2 central production,biomass,biomass to H2,2070,non-energy,2.2253
+H2 central production,biomass,biomass to H2 CCS,2070,non-energy,2.928
+H2 central production,nuclear,thermal splitting,2070,non-energy,4.3353
+H2 central production,electricity,electrolysis,2070,non-energy,4.07
+H2 central production,wind,electrolysis,2070,non-energy,7.2193
+H2 central production,solar,electrolysis,2070,non-energy,7.2193
+H2 forecourt production,gas,natural gas steam reforming,2070,non-energy,4.3273
+H2 forecourt production,electricity,electrolysis,2070,non-energy,7.2193
+H2 distribution,H2 distribution,H2 distribution,2070,non-energy,4.9373
+H2 enduse,H2 distribution,H2 distribution,2070,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2070,non-energy,0
+H2 central production,coal,coal chemical,2075,non-energy,2.185
+H2 central production,coal,coal chemical CCS,2075,non-energy,2.856
+H2 central production,gas,natural gas steam reforming,2075,non-energy,0.7837
+H2 central production,gas,natural gas steam reforming CCS,2075,non-energy,1.1347
+H2 central production,biomass,biomass to H2,2075,non-energy,2.1707
+H2 central production,biomass,biomass to H2 CCS,2075,non-energy,2.856
+H2 central production,nuclear,thermal splitting,2075,non-energy,4.2287
+H2 central production,electricity,electrolysis,2075,non-energy,3.97
+H2 central production,wind,electrolysis,2075,non-energy,7.0417
+H2 central production,solar,electrolysis,2075,non-energy,7.0417
+H2 forecourt production,gas,natural gas steam reforming,2075,non-energy,4.2207
+H2 forecourt production,electricity,electrolysis,2075,non-energy,7.0417
+H2 distribution,H2 distribution,H2 distribution,2075,non-energy,4.8157
+H2 enduse,H2 distribution,H2 distribution,2075,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2075,non-energy,0
+H2 central production,coal,coal chemical,2080,non-energy,2.13
+H2 central production,coal,coal chemical CCS,2080,non-energy,2.784
+H2 central production,gas,natural gas steam reforming,2080,non-energy,0.764
+H2 central production,gas,natural gas steam reforming CCS,2080,non-energy,1.106
+H2 central production,biomass,biomass to H2,2080,non-energy,2.116
+H2 central production,biomass,biomass to H2 CCS,2080,non-energy,2.784
+H2 central production,nuclear,thermal splitting,2080,non-energy,4.122
+H2 central production,electricity,electrolysis,2080,non-energy,3.87
+H2 central production,wind,electrolysis,2080,non-energy,6.864
+H2 central production,solar,electrolysis,2080,non-energy,6.864
+H2 forecourt production,gas,natural gas steam reforming,2080,non-energy,4.114
+H2 forecourt production,electricity,electrolysis,2080,non-energy,6.864
+H2 distribution,H2 distribution,H2 distribution,2080,non-energy,4.694
+H2 enduse,H2 distribution,H2 distribution,2080,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2080,non-energy,0
+H2 central production,coal,coal chemical,2085,non-energy,2.0787
+H2 central production,coal,coal chemical CCS,2085,non-energy,2.717
+H2 central production,gas,natural gas steam reforming,2085,non-energy,0.7457
+H2 central production,gas,natural gas steam reforming CCS,2085,non-energy,1.0793
+H2 central production,biomass,biomass to H2,2085,non-energy,2.065
+H2 central production,biomass,biomass to H2 CCS,2085,non-energy,2.717
+H2 central production,nuclear,thermal splitting,2085,non-energy,4.023
+H2 central production,electricity,electrolysis,2085,non-energy,3.777
+H2 central production,wind,electrolysis,2085,non-energy,6.699
+H2 central production,solar,electrolysis,2085,non-energy,6.699
+H2 forecourt production,gas,natural gas steam reforming,2085,non-energy,4.0153
+H2 forecourt production,electricity,electrolysis,2085,non-energy,6.699
+H2 distribution,H2 distribution,H2 distribution,2085,non-energy,4.5813
+H2 enduse,H2 distribution,H2 distribution,2085,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2085,non-energy,0
+H2 central production,coal,coal chemical,2090,non-energy,2.0273
+H2 central production,coal,coal chemical CCS,2090,non-energy,2.65
+H2 central production,gas,natural gas steam reforming,2090,non-energy,0.7273
+H2 central production,gas,natural gas steam reforming CCS,2090,non-energy,1.0527
+H2 central production,biomass,biomass to H2,2090,non-energy,2.014
+H2 central production,biomass,biomass to H2 CCS,2090,non-energy,2.65
+H2 central production,nuclear,thermal splitting,2090,non-energy,3.924
+H2 central production,electricity,electrolysis,2090,non-energy,3.684
+H2 central production,wind,electrolysis,2090,non-energy,6.534
+H2 central production,solar,electrolysis,2090,non-energy,6.534
+H2 forecourt production,gas,natural gas steam reforming,2090,non-energy,3.9167
+H2 forecourt production,electricity,electrolysis,2090,non-energy,6.534
+H2 distribution,H2 distribution,H2 distribution,2090,non-energy,4.4687
+H2 enduse,H2 distribution,H2 distribution,2090,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2090,non-energy,0
+H2 central production,coal,coal chemical,2095,non-energy,1.976
+H2 central production,coal,coal chemical CCS,2095,non-energy,2.583
+H2 central production,gas,natural gas steam reforming,2095,non-energy,0.709
+H2 central production,gas,natural gas steam reforming CCS,2095,non-energy,1.026
+H2 central production,biomass,biomass to H2,2095,non-energy,1.963
+H2 central production,biomass,biomass to H2 CCS,2095,non-energy,2.583
+H2 central production,nuclear,thermal splitting,2095,non-energy,3.825
+H2 central production,electricity,electrolysis,2095,non-energy,3.591
+H2 central production,wind,electrolysis,2095,non-energy,6.369
+H2 central production,solar,electrolysis,2095,non-energy,6.369
+H2 forecourt production,gas,natural gas steam reforming,2095,non-energy,3.818
+H2 forecourt production,electricity,electrolysis,2095,non-energy,6.369
+H2 distribution,H2 distribution,H2 distribution,2095,non-energy,4.356
+H2 enduse,H2 distribution,H2 distribution,2095,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2095,non-energy,0
+H2 central production,coal,coal chemical,2100,non-energy,1.976
+H2 central production,coal,coal chemical CCS,2100,non-energy,2.583
+H2 central production,gas,natural gas steam reforming,2100,non-energy,0.709
+H2 central production,gas,natural gas steam reforming CCS,2100,non-energy,1.026
+H2 central production,biomass,biomass to H2,2100,non-energy,1.963
+H2 central production,biomass,biomass to H2 CCS,2100,non-energy,2.583
+H2 central production,nuclear,thermal splitting,2100,non-energy,3.825
+H2 central production,electricity,electrolysis,2100,non-energy,3.591
+H2 central production,wind,electrolysis,2100,non-energy,6.369
+H2 central production,solar,electrolysis,2100,non-energy,6.369
+H2 forecourt production,gas,natural gas steam reforming,2100,non-energy,3.818
+H2 forecourt production,electricity,electrolysis,2100,non-energy,6.369
+H2 distribution,H2 distribution,H2 distribution,2100,non-energy,4.356
+H2 enduse,H2 distribution,H2 distribution,2100,non-energy,0
+H2 enduse,H2 forecourt production,H2 forecourt production,2100,non-energy,0
