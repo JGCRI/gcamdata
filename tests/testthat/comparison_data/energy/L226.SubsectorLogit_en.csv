@@ -1,0 +1,421 @@
+INPUT_TABLE
+Variable ID
+SubsectorLogit
+
+region,supplysector,subsector,logit.year.fillout,logit.exponent
+USA,backup_electricity,gas,1975,-6
+USA,csp_backup,gas,1975,-6
+USA,delivered biomass,delivered biomass,1975,-6
+USA,delivered coal,delivered coal,1975,-6
+USA,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+USA,elect_td_bld,elect_td_bld,1975,-6
+USA,elect_td_ind,elect_td_ind,1975,-6
+USA,elect_td_trn,elect_td_trn,1975,-6
+USA,gas pipeline,gas pipeline,1975,-6
+USA,wholesale gas,wholesale gas,1975,-6
+USA,delivered gas,delivered gas,1975,-6
+USA,refined liquids enduse,refined liquids enduse,1975,-6
+USA,refined liquids industrial,refined liquids industrial,1975,-6
+Africa_Eastern,backup_electricity,gas,1975,-6
+Africa_Eastern,csp_backup,gas,1975,-6
+Africa_Eastern,delivered biomass,delivered biomass,1975,-6
+Africa_Eastern,delivered coal,delivered coal,1975,-6
+Africa_Eastern,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Africa_Eastern,elect_td_bld,elect_td_bld,1975,-6
+Africa_Eastern,elect_td_ind,elect_td_ind,1975,-6
+Africa_Eastern,elect_td_trn,elect_td_trn,1975,-6
+Africa_Eastern,gas pipeline,gas pipeline,1975,-6
+Africa_Eastern,wholesale gas,wholesale gas,1975,-6
+Africa_Eastern,delivered gas,delivered gas,1975,-6
+Africa_Eastern,refined liquids enduse,refined liquids enduse,1975,-6
+Africa_Eastern,refined liquids industrial,refined liquids industrial,1975,-6
+Africa_Northern,backup_electricity,gas,1975,-6
+Africa_Northern,csp_backup,gas,1975,-6
+Africa_Northern,delivered biomass,delivered biomass,1975,-6
+Africa_Northern,delivered coal,delivered coal,1975,-6
+Africa_Northern,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Africa_Northern,elect_td_bld,elect_td_bld,1975,-6
+Africa_Northern,elect_td_ind,elect_td_ind,1975,-6
+Africa_Northern,elect_td_trn,elect_td_trn,1975,-6
+Africa_Northern,gas pipeline,gas pipeline,1975,-6
+Africa_Northern,wholesale gas,wholesale gas,1975,-6
+Africa_Northern,delivered gas,delivered gas,1975,-6
+Africa_Northern,refined liquids enduse,refined liquids enduse,1975,-6
+Africa_Northern,refined liquids industrial,refined liquids industrial,1975,-6
+Africa_Southern,backup_electricity,gas,1975,-6
+Africa_Southern,csp_backup,gas,1975,-6
+Africa_Southern,delivered biomass,delivered biomass,1975,-6
+Africa_Southern,delivered coal,delivered coal,1975,-6
+Africa_Southern,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Africa_Southern,elect_td_bld,elect_td_bld,1975,-6
+Africa_Southern,elect_td_ind,elect_td_ind,1975,-6
+Africa_Southern,elect_td_trn,elect_td_trn,1975,-6
+Africa_Southern,gas pipeline,gas pipeline,1975,-6
+Africa_Southern,wholesale gas,wholesale gas,1975,-6
+Africa_Southern,delivered gas,delivered gas,1975,-6
+Africa_Southern,refined liquids enduse,refined liquids enduse,1975,-6
+Africa_Southern,refined liquids industrial,refined liquids industrial,1975,-6
+Africa_Western,backup_electricity,gas,1975,-6
+Africa_Western,csp_backup,gas,1975,-6
+Africa_Western,delivered biomass,delivered biomass,1975,-6
+Africa_Western,delivered coal,delivered coal,1975,-6
+Africa_Western,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Africa_Western,elect_td_bld,elect_td_bld,1975,-6
+Africa_Western,elect_td_ind,elect_td_ind,1975,-6
+Africa_Western,elect_td_trn,elect_td_trn,1975,-6
+Africa_Western,gas pipeline,gas pipeline,1975,-6
+Africa_Western,wholesale gas,wholesale gas,1975,-6
+Africa_Western,delivered gas,delivered gas,1975,-6
+Africa_Western,refined liquids enduse,refined liquids enduse,1975,-6
+Africa_Western,refined liquids industrial,refined liquids industrial,1975,-6
+Australia_NZ,backup_electricity,gas,1975,-6
+Australia_NZ,csp_backup,gas,1975,-6
+Australia_NZ,delivered biomass,delivered biomass,1975,-6
+Australia_NZ,delivered coal,delivered coal,1975,-6
+Australia_NZ,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Australia_NZ,elect_td_bld,elect_td_bld,1975,-6
+Australia_NZ,elect_td_ind,elect_td_ind,1975,-6
+Australia_NZ,elect_td_trn,elect_td_trn,1975,-6
+Australia_NZ,gas pipeline,gas pipeline,1975,-6
+Australia_NZ,wholesale gas,wholesale gas,1975,-6
+Australia_NZ,delivered gas,delivered gas,1975,-6
+Australia_NZ,refined liquids enduse,refined liquids enduse,1975,-6
+Australia_NZ,refined liquids industrial,refined liquids industrial,1975,-6
+Brazil,backup_electricity,gas,1975,-6
+Brazil,csp_backup,gas,1975,-6
+Brazil,delivered biomass,delivered biomass,1975,-6
+Brazil,delivered coal,delivered coal,1975,-6
+Brazil,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Brazil,elect_td_bld,elect_td_bld,1975,-6
+Brazil,elect_td_ind,elect_td_ind,1975,-6
+Brazil,elect_td_trn,elect_td_trn,1975,-6
+Brazil,gas pipeline,gas pipeline,1975,-6
+Brazil,wholesale gas,wholesale gas,1975,-6
+Brazil,delivered gas,delivered gas,1975,-6
+Brazil,refined liquids enduse,refined liquids enduse,1975,-6
+Brazil,refined liquids industrial,refined liquids industrial,1975,-6
+Canada,backup_electricity,gas,1975,-6
+Canada,csp_backup,gas,1975,-6
+Canada,delivered biomass,delivered biomass,1975,-6
+Canada,delivered coal,delivered coal,1975,-6
+Canada,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Canada,elect_td_bld,elect_td_bld,1975,-6
+Canada,elect_td_ind,elect_td_ind,1975,-6
+Canada,elect_td_trn,elect_td_trn,1975,-6
+Canada,gas pipeline,gas pipeline,1975,-6
+Canada,wholesale gas,wholesale gas,1975,-6
+Canada,delivered gas,delivered gas,1975,-6
+Canada,refined liquids enduse,refined liquids enduse,1975,-6
+Canada,refined liquids industrial,refined liquids industrial,1975,-6
+Central America and Caribbean,backup_electricity,gas,1975,-6
+Central America and Caribbean,csp_backup,gas,1975,-6
+Central America and Caribbean,delivered biomass,delivered biomass,1975,-6
+Central America and Caribbean,delivered coal,delivered coal,1975,-6
+Central America and Caribbean,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Central America and Caribbean,elect_td_bld,elect_td_bld,1975,-6
+Central America and Caribbean,elect_td_ind,elect_td_ind,1975,-6
+Central America and Caribbean,elect_td_trn,elect_td_trn,1975,-6
+Central America and Caribbean,gas pipeline,gas pipeline,1975,-6
+Central America and Caribbean,wholesale gas,wholesale gas,1975,-6
+Central America and Caribbean,delivered gas,delivered gas,1975,-6
+Central America and Caribbean,refined liquids enduse,refined liquids enduse,1975,-6
+Central America and Caribbean,refined liquids industrial,refined liquids industrial,1975,-6
+Central Asia,backup_electricity,gas,1975,-6
+Central Asia,csp_backup,gas,1975,-6
+Central Asia,delivered biomass,delivered biomass,1975,-6
+Central Asia,delivered coal,delivered coal,1975,-6
+Central Asia,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Central Asia,elect_td_bld,elect_td_bld,1975,-6
+Central Asia,elect_td_ind,elect_td_ind,1975,-6
+Central Asia,elect_td_trn,elect_td_trn,1975,-6
+Central Asia,gas pipeline,gas pipeline,1975,-6
+Central Asia,wholesale gas,wholesale gas,1975,-6
+Central Asia,delivered gas,delivered gas,1975,-6
+Central Asia,refined liquids enduse,refined liquids enduse,1975,-6
+Central Asia,refined liquids industrial,refined liquids industrial,1975,-6
+China,backup_electricity,gas,1975,-6
+China,csp_backup,gas,1975,-6
+China,delivered biomass,delivered biomass,1975,-6
+China,delivered coal,delivered coal,1975,-6
+China,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+China,elect_td_bld,elect_td_bld,1975,-6
+China,elect_td_ind,elect_td_ind,1975,-6
+China,elect_td_trn,elect_td_trn,1975,-6
+China,gas pipeline,gas pipeline,1975,-6
+China,wholesale gas,wholesale gas,1975,-6
+China,delivered gas,delivered gas,1975,-6
+China,refined liquids enduse,refined liquids enduse,1975,-6
+China,refined liquids industrial,refined liquids industrial,1975,-6
+EU-12,backup_electricity,gas,1975,-6
+EU-12,csp_backup,gas,1975,-6
+EU-12,delivered biomass,delivered biomass,1975,-6
+EU-12,delivered coal,delivered coal,1975,-6
+EU-12,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+EU-12,elect_td_bld,elect_td_bld,1975,-6
+EU-12,elect_td_ind,elect_td_ind,1975,-6
+EU-12,elect_td_trn,elect_td_trn,1975,-6
+EU-12,gas pipeline,gas pipeline,1975,-6
+EU-12,wholesale gas,wholesale gas,1975,-6
+EU-12,delivered gas,delivered gas,1975,-6
+EU-12,refined liquids enduse,refined liquids enduse,1975,-6
+EU-12,refined liquids industrial,refined liquids industrial,1975,-6
+EU-15,backup_electricity,gas,1975,-6
+EU-15,csp_backup,gas,1975,-6
+EU-15,delivered biomass,delivered biomass,1975,-6
+EU-15,delivered coal,delivered coal,1975,-6
+EU-15,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+EU-15,elect_td_bld,elect_td_bld,1975,-6
+EU-15,elect_td_ind,elect_td_ind,1975,-6
+EU-15,elect_td_trn,elect_td_trn,1975,-6
+EU-15,gas pipeline,gas pipeline,1975,-6
+EU-15,wholesale gas,wholesale gas,1975,-6
+EU-15,delivered gas,delivered gas,1975,-6
+EU-15,refined liquids enduse,refined liquids enduse,1975,-6
+EU-15,refined liquids industrial,refined liquids industrial,1975,-6
+Europe_Eastern,backup_electricity,gas,1975,-6
+Europe_Eastern,csp_backup,gas,1975,-6
+Europe_Eastern,delivered biomass,delivered biomass,1975,-6
+Europe_Eastern,delivered coal,delivered coal,1975,-6
+Europe_Eastern,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Europe_Eastern,elect_td_bld,elect_td_bld,1975,-6
+Europe_Eastern,elect_td_ind,elect_td_ind,1975,-6
+Europe_Eastern,elect_td_trn,elect_td_trn,1975,-6
+Europe_Eastern,gas pipeline,gas pipeline,1975,-6
+Europe_Eastern,wholesale gas,wholesale gas,1975,-6
+Europe_Eastern,delivered gas,delivered gas,1975,-6
+Europe_Eastern,refined liquids enduse,refined liquids enduse,1975,-6
+Europe_Eastern,refined liquids industrial,refined liquids industrial,1975,-6
+Europe_Non_EU,backup_electricity,gas,1975,-6
+Europe_Non_EU,csp_backup,gas,1975,-6
+Europe_Non_EU,delivered biomass,delivered biomass,1975,-6
+Europe_Non_EU,delivered coal,delivered coal,1975,-6
+Europe_Non_EU,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Europe_Non_EU,elect_td_bld,elect_td_bld,1975,-6
+Europe_Non_EU,elect_td_ind,elect_td_ind,1975,-6
+Europe_Non_EU,elect_td_trn,elect_td_trn,1975,-6
+Europe_Non_EU,gas pipeline,gas pipeline,1975,-6
+Europe_Non_EU,wholesale gas,wholesale gas,1975,-6
+Europe_Non_EU,delivered gas,delivered gas,1975,-6
+Europe_Non_EU,refined liquids enduse,refined liquids enduse,1975,-6
+Europe_Non_EU,refined liquids industrial,refined liquids industrial,1975,-6
+European Free Trade Association,backup_electricity,gas,1975,-6
+European Free Trade Association,csp_backup,gas,1975,-6
+European Free Trade Association,delivered biomass,delivered biomass,1975,-6
+European Free Trade Association,delivered coal,delivered coal,1975,-6
+European Free Trade Association,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+European Free Trade Association,elect_td_bld,elect_td_bld,1975,-6
+European Free Trade Association,elect_td_ind,elect_td_ind,1975,-6
+European Free Trade Association,elect_td_trn,elect_td_trn,1975,-6
+European Free Trade Association,gas pipeline,gas pipeline,1975,-6
+European Free Trade Association,wholesale gas,wholesale gas,1975,-6
+European Free Trade Association,delivered gas,delivered gas,1975,-6
+European Free Trade Association,refined liquids enduse,refined liquids enduse,1975,-6
+European Free Trade Association,refined liquids industrial,refined liquids industrial,1975,-6
+India,backup_electricity,gas,1975,-6
+India,csp_backup,gas,1975,-6
+India,delivered biomass,delivered biomass,1975,-6
+India,delivered coal,delivered coal,1975,-6
+India,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+India,elect_td_bld,elect_td_bld,1975,-6
+India,elect_td_ind,elect_td_ind,1975,-6
+India,elect_td_trn,elect_td_trn,1975,-6
+India,gas pipeline,gas pipeline,1975,-6
+India,wholesale gas,wholesale gas,1975,-6
+India,delivered gas,delivered gas,1975,-6
+India,refined liquids enduse,refined liquids enduse,1975,-6
+India,refined liquids industrial,refined liquids industrial,1975,-6
+Indonesia,backup_electricity,gas,1975,-6
+Indonesia,csp_backup,gas,1975,-6
+Indonesia,delivered biomass,delivered biomass,1975,-6
+Indonesia,delivered coal,delivered coal,1975,-6
+Indonesia,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Indonesia,elect_td_bld,elect_td_bld,1975,-6
+Indonesia,elect_td_ind,elect_td_ind,1975,-6
+Indonesia,elect_td_trn,elect_td_trn,1975,-6
+Indonesia,gas pipeline,gas pipeline,1975,-6
+Indonesia,wholesale gas,wholesale gas,1975,-6
+Indonesia,delivered gas,delivered gas,1975,-6
+Indonesia,refined liquids enduse,refined liquids enduse,1975,-6
+Indonesia,refined liquids industrial,refined liquids industrial,1975,-6
+Japan,backup_electricity,gas,1975,-6
+Japan,csp_backup,gas,1975,-6
+Japan,delivered biomass,delivered biomass,1975,-6
+Japan,delivered coal,delivered coal,1975,-6
+Japan,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Japan,elect_td_bld,elect_td_bld,1975,-6
+Japan,elect_td_ind,elect_td_ind,1975,-6
+Japan,elect_td_trn,elect_td_trn,1975,-6
+Japan,gas pipeline,gas pipeline,1975,-6
+Japan,wholesale gas,wholesale gas,1975,-6
+Japan,delivered gas,delivered gas,1975,-6
+Japan,refined liquids enduse,refined liquids enduse,1975,-6
+Japan,refined liquids industrial,refined liquids industrial,1975,-6
+Mexico,backup_electricity,gas,1975,-6
+Mexico,csp_backup,gas,1975,-6
+Mexico,delivered biomass,delivered biomass,1975,-6
+Mexico,delivered coal,delivered coal,1975,-6
+Mexico,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Mexico,elect_td_bld,elect_td_bld,1975,-6
+Mexico,elect_td_ind,elect_td_ind,1975,-6
+Mexico,elect_td_trn,elect_td_trn,1975,-6
+Mexico,gas pipeline,gas pipeline,1975,-6
+Mexico,wholesale gas,wholesale gas,1975,-6
+Mexico,delivered gas,delivered gas,1975,-6
+Mexico,refined liquids enduse,refined liquids enduse,1975,-6
+Mexico,refined liquids industrial,refined liquids industrial,1975,-6
+Middle East,backup_electricity,gas,1975,-6
+Middle East,csp_backup,gas,1975,-6
+Middle East,delivered biomass,delivered biomass,1975,-6
+Middle East,delivered coal,delivered coal,1975,-6
+Middle East,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Middle East,elect_td_bld,elect_td_bld,1975,-6
+Middle East,elect_td_ind,elect_td_ind,1975,-6
+Middle East,elect_td_trn,elect_td_trn,1975,-6
+Middle East,gas pipeline,gas pipeline,1975,-6
+Middle East,wholesale gas,wholesale gas,1975,-6
+Middle East,delivered gas,delivered gas,1975,-6
+Middle East,refined liquids enduse,refined liquids enduse,1975,-6
+Middle East,refined liquids industrial,refined liquids industrial,1975,-6
+Pakistan,backup_electricity,gas,1975,-6
+Pakistan,csp_backup,gas,1975,-6
+Pakistan,delivered biomass,delivered biomass,1975,-6
+Pakistan,delivered coal,delivered coal,1975,-6
+Pakistan,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Pakistan,elect_td_bld,elect_td_bld,1975,-6
+Pakistan,elect_td_ind,elect_td_ind,1975,-6
+Pakistan,elect_td_trn,elect_td_trn,1975,-6
+Pakistan,gas pipeline,gas pipeline,1975,-6
+Pakistan,wholesale gas,wholesale gas,1975,-6
+Pakistan,delivered gas,delivered gas,1975,-6
+Pakistan,refined liquids enduse,refined liquids enduse,1975,-6
+Pakistan,refined liquids industrial,refined liquids industrial,1975,-6
+Russia,backup_electricity,gas,1975,-6
+Russia,csp_backup,gas,1975,-6
+Russia,delivered biomass,delivered biomass,1975,-6
+Russia,delivered coal,delivered coal,1975,-6
+Russia,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Russia,elect_td_bld,elect_td_bld,1975,-6
+Russia,elect_td_ind,elect_td_ind,1975,-6
+Russia,elect_td_trn,elect_td_trn,1975,-6
+Russia,gas pipeline,gas pipeline,1975,-6
+Russia,wholesale gas,wholesale gas,1975,-6
+Russia,delivered gas,delivered gas,1975,-6
+Russia,refined liquids enduse,refined liquids enduse,1975,-6
+Russia,refined liquids industrial,refined liquids industrial,1975,-6
+South Africa,backup_electricity,gas,1975,-6
+South Africa,csp_backup,gas,1975,-6
+South Africa,delivered biomass,delivered biomass,1975,-6
+South Africa,delivered coal,delivered coal,1975,-6
+South Africa,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+South Africa,elect_td_bld,elect_td_bld,1975,-6
+South Africa,elect_td_ind,elect_td_ind,1975,-6
+South Africa,elect_td_trn,elect_td_trn,1975,-6
+South Africa,gas pipeline,gas pipeline,1975,-6
+South Africa,wholesale gas,wholesale gas,1975,-6
+South Africa,delivered gas,delivered gas,1975,-6
+South Africa,refined liquids enduse,refined liquids enduse,1975,-6
+South Africa,refined liquids industrial,refined liquids industrial,1975,-6
+South America_Northern,backup_electricity,gas,1975,-6
+South America_Northern,csp_backup,gas,1975,-6
+South America_Northern,delivered biomass,delivered biomass,1975,-6
+South America_Northern,delivered coal,delivered coal,1975,-6
+South America_Northern,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+South America_Northern,elect_td_bld,elect_td_bld,1975,-6
+South America_Northern,elect_td_ind,elect_td_ind,1975,-6
+South America_Northern,elect_td_trn,elect_td_trn,1975,-6
+South America_Northern,gas pipeline,gas pipeline,1975,-6
+South America_Northern,wholesale gas,wholesale gas,1975,-6
+South America_Northern,delivered gas,delivered gas,1975,-6
+South America_Northern,refined liquids enduse,refined liquids enduse,1975,-6
+South America_Northern,refined liquids industrial,refined liquids industrial,1975,-6
+South America_Southern,backup_electricity,gas,1975,-6
+South America_Southern,csp_backup,gas,1975,-6
+South America_Southern,delivered biomass,delivered biomass,1975,-6
+South America_Southern,delivered coal,delivered coal,1975,-6
+South America_Southern,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+South America_Southern,elect_td_bld,elect_td_bld,1975,-6
+South America_Southern,elect_td_ind,elect_td_ind,1975,-6
+South America_Southern,elect_td_trn,elect_td_trn,1975,-6
+South America_Southern,gas pipeline,gas pipeline,1975,-6
+South America_Southern,wholesale gas,wholesale gas,1975,-6
+South America_Southern,delivered gas,delivered gas,1975,-6
+South America_Southern,refined liquids enduse,refined liquids enduse,1975,-6
+South America_Southern,refined liquids industrial,refined liquids industrial,1975,-6
+South Asia,backup_electricity,gas,1975,-6
+South Asia,csp_backup,gas,1975,-6
+South Asia,delivered biomass,delivered biomass,1975,-6
+South Asia,delivered coal,delivered coal,1975,-6
+South Asia,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+South Asia,elect_td_bld,elect_td_bld,1975,-6
+South Asia,elect_td_ind,elect_td_ind,1975,-6
+South Asia,elect_td_trn,elect_td_trn,1975,-6
+South Asia,gas pipeline,gas pipeline,1975,-6
+South Asia,wholesale gas,wholesale gas,1975,-6
+South Asia,delivered gas,delivered gas,1975,-6
+South Asia,refined liquids enduse,refined liquids enduse,1975,-6
+South Asia,refined liquids industrial,refined liquids industrial,1975,-6
+South Korea,backup_electricity,gas,1975,-6
+South Korea,csp_backup,gas,1975,-6
+South Korea,delivered biomass,delivered biomass,1975,-6
+South Korea,delivered coal,delivered coal,1975,-6
+South Korea,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+South Korea,elect_td_bld,elect_td_bld,1975,-6
+South Korea,elect_td_ind,elect_td_ind,1975,-6
+South Korea,elect_td_trn,elect_td_trn,1975,-6
+South Korea,gas pipeline,gas pipeline,1975,-6
+South Korea,wholesale gas,wholesale gas,1975,-6
+South Korea,delivered gas,delivered gas,1975,-6
+South Korea,refined liquids enduse,refined liquids enduse,1975,-6
+South Korea,refined liquids industrial,refined liquids industrial,1975,-6
+Southeast Asia,backup_electricity,gas,1975,-6
+Southeast Asia,csp_backup,gas,1975,-6
+Southeast Asia,delivered biomass,delivered biomass,1975,-6
+Southeast Asia,delivered coal,delivered coal,1975,-6
+Southeast Asia,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Southeast Asia,elect_td_bld,elect_td_bld,1975,-6
+Southeast Asia,elect_td_ind,elect_td_ind,1975,-6
+Southeast Asia,elect_td_trn,elect_td_trn,1975,-6
+Southeast Asia,gas pipeline,gas pipeline,1975,-6
+Southeast Asia,wholesale gas,wholesale gas,1975,-6
+Southeast Asia,delivered gas,delivered gas,1975,-6
+Southeast Asia,refined liquids enduse,refined liquids enduse,1975,-6
+Southeast Asia,refined liquids industrial,refined liquids industrial,1975,-6
+Taiwan,backup_electricity,gas,1975,-6
+Taiwan,csp_backup,gas,1975,-6
+Taiwan,delivered biomass,delivered biomass,1975,-6
+Taiwan,delivered coal,delivered coal,1975,-6
+Taiwan,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Taiwan,elect_td_bld,elect_td_bld,1975,-6
+Taiwan,elect_td_ind,elect_td_ind,1975,-6
+Taiwan,elect_td_trn,elect_td_trn,1975,-6
+Taiwan,gas pipeline,gas pipeline,1975,-6
+Taiwan,wholesale gas,wholesale gas,1975,-6
+Taiwan,delivered gas,delivered gas,1975,-6
+Taiwan,refined liquids enduse,refined liquids enduse,1975,-6
+Taiwan,refined liquids industrial,refined liquids industrial,1975,-6
+Argentina,backup_electricity,gas,1975,-6
+Argentina,csp_backup,gas,1975,-6
+Argentina,delivered biomass,delivered biomass,1975,-6
+Argentina,delivered coal,delivered coal,1975,-6
+Argentina,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Argentina,elect_td_bld,elect_td_bld,1975,-6
+Argentina,elect_td_ind,elect_td_ind,1975,-6
+Argentina,elect_td_trn,elect_td_trn,1975,-6
+Argentina,gas pipeline,gas pipeline,1975,-6
+Argentina,wholesale gas,wholesale gas,1975,-6
+Argentina,delivered gas,delivered gas,1975,-6
+Argentina,refined liquids enduse,refined liquids enduse,1975,-6
+Argentina,refined liquids industrial,refined liquids industrial,1975,-6
+Colombia,backup_electricity,gas,1975,-6
+Colombia,csp_backup,gas,1975,-6
+Colombia,delivered biomass,delivered biomass,1975,-6
+Colombia,delivered coal,delivered coal,1975,-6
+Colombia,electricity_net_ownuse,electricity_net_ownuse,1975,-6
+Colombia,elect_td_bld,elect_td_bld,1975,-6
+Colombia,elect_td_ind,elect_td_ind,1975,-6
+Colombia,elect_td_trn,elect_td_trn,1975,-6
+Colombia,gas pipeline,gas pipeline,1975,-6
+Colombia,wholesale gas,wholesale gas,1975,-6
+Colombia,delivered gas,delivered gas,1975,-6
+Colombia,refined liquids enduse,refined liquids enduse,1975,-6
+Colombia,refined liquids industrial,refined liquids industrial,1975,-6

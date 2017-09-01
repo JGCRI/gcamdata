@@ -1,0 +1,291 @@
+INPUT_TABLE
+Variable ID
+GlobalTechEff
+
+sector.name,subsector.name,technology,year,minicam.energy.input,efficiency
+backup_electricity,gas,gas (steam/CT),1975,wholesale gas,0.377
+csp_backup,gas,CSP gas hybrid mode,1975,wholesale gas,0.307
+delivered biomass,delivered biomass,delivered biomass,1975,regional biomass,1
+delivered coal,delivered coal,delivered coal,1975,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,1975,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,1975,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,1975,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,1975,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,1975,gas pipeline,1
+delivered gas,delivered gas,delivered gas,1975,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,1975,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,1975,refining,1
+backup_electricity,gas,gas (steam/CT),1990,wholesale gas,0.377
+csp_backup,gas,CSP gas hybrid mode,1990,wholesale gas,0.307
+delivered biomass,delivered biomass,delivered biomass,1990,regional biomass,1
+delivered coal,delivered coal,delivered coal,1990,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,1990,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,1990,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,1990,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,1990,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,1990,gas pipeline,1
+delivered gas,delivered gas,delivered gas,1990,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,1990,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,1990,refining,1
+backup_electricity,gas,gas (steam/CT),2005,wholesale gas,0.377
+csp_backup,gas,CSP gas hybrid mode,2005,wholesale gas,0.307
+delivered biomass,delivered biomass,delivered biomass,2005,regional biomass,1
+delivered coal,delivered coal,delivered coal,2005,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2005,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2005,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2005,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2005,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2005,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2005,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2005,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2005,refining,1
+backup_electricity,gas,gas (steam/CT),2010,wholesale gas,0.38
+csp_backup,gas,CSP gas hybrid mode,2010,wholesale gas,0.31
+delivered biomass,delivered biomass,delivered biomass,2010,regional biomass,1
+delivered coal,delivered coal,delivered coal,2010,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2010,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2010,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2010,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2010,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2010,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2010,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2010,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2010,refining,1
+backup_electricity,gas,gas (steam/CT),2015,wholesale gas,0.382
+csp_backup,gas,CSP gas hybrid mode,2015,wholesale gas,0.312
+delivered biomass,delivered biomass,delivered biomass,2015,regional biomass,1
+delivered coal,delivered coal,delivered coal,2015,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2015,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2015,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2015,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2015,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2015,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2015,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2015,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2015,refining,1
+backup_electricity,gas,gas (steam/CT),2020,wholesale gas,0.385
+csp_backup,gas,CSP gas hybrid mode,2020,wholesale gas,0.315
+delivered biomass,delivered biomass,delivered biomass,2020,regional biomass,1
+delivered coal,delivered coal,delivered coal,2020,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2020,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2020,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2020,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2020,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2020,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2020,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2020,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2020,refining,1
+backup_electricity,gas,gas (steam/CT),2025,wholesale gas,0.388
+csp_backup,gas,CSP gas hybrid mode,2025,wholesale gas,0.318
+delivered biomass,delivered biomass,delivered biomass,2025,regional biomass,1
+delivered coal,delivered coal,delivered coal,2025,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2025,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2025,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2025,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2025,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2025,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2025,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2025,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2025,refining,1
+backup_electricity,gas,gas (steam/CT),2030,wholesale gas,0.39
+csp_backup,gas,CSP gas hybrid mode,2030,wholesale gas,0.32
+delivered biomass,delivered biomass,delivered biomass,2030,regional biomass,1
+delivered coal,delivered coal,delivered coal,2030,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2030,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2030,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2030,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2030,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2030,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2030,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2030,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2030,refining,1
+backup_electricity,gas,gas (steam/CT),2035,wholesale gas,0.393
+csp_backup,gas,CSP gas hybrid mode,2035,wholesale gas,0.323
+delivered biomass,delivered biomass,delivered biomass,2035,regional biomass,1
+delivered coal,delivered coal,delivered coal,2035,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2035,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2035,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2035,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2035,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2035,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2035,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2035,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2035,refining,1
+backup_electricity,gas,gas (steam/CT),2040,wholesale gas,0.396
+csp_backup,gas,CSP gas hybrid mode,2040,wholesale gas,0.326
+delivered biomass,delivered biomass,delivered biomass,2040,regional biomass,1
+delivered coal,delivered coal,delivered coal,2040,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2040,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2040,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2040,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2040,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2040,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2040,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2040,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2040,refining,1
+backup_electricity,gas,gas (steam/CT),2045,wholesale gas,0.398
+csp_backup,gas,CSP gas hybrid mode,2045,wholesale gas,0.328
+delivered biomass,delivered biomass,delivered biomass,2045,regional biomass,1
+delivered coal,delivered coal,delivered coal,2045,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2045,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2045,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2045,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2045,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2045,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2045,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2045,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2045,refining,1
+backup_electricity,gas,gas (steam/CT),2050,wholesale gas,0.401
+csp_backup,gas,CSP gas hybrid mode,2050,wholesale gas,0.331
+delivered biomass,delivered biomass,delivered biomass,2050,regional biomass,1
+delivered coal,delivered coal,delivered coal,2050,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2050,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2050,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2050,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2050,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2050,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2050,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2050,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2050,refining,1
+backup_electricity,gas,gas (steam/CT),2055,wholesale gas,0.404
+csp_backup,gas,CSP gas hybrid mode,2055,wholesale gas,0.334
+delivered biomass,delivered biomass,delivered biomass,2055,regional biomass,1
+delivered coal,delivered coal,delivered coal,2055,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2055,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2055,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2055,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2055,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2055,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2055,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2055,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2055,refining,1
+backup_electricity,gas,gas (steam/CT),2060,wholesale gas,0.407
+csp_backup,gas,CSP gas hybrid mode,2060,wholesale gas,0.337
+delivered biomass,delivered biomass,delivered biomass,2060,regional biomass,1
+delivered coal,delivered coal,delivered coal,2060,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2060,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2060,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2060,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2060,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2060,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2060,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2060,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2060,refining,1
+backup_electricity,gas,gas (steam/CT),2065,wholesale gas,0.409
+csp_backup,gas,CSP gas hybrid mode,2065,wholesale gas,0.339
+delivered biomass,delivered biomass,delivered biomass,2065,regional biomass,1
+delivered coal,delivered coal,delivered coal,2065,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2065,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2065,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2065,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2065,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2065,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2065,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2065,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2065,refining,1
+backup_electricity,gas,gas (steam/CT),2070,wholesale gas,0.412
+csp_backup,gas,CSP gas hybrid mode,2070,wholesale gas,0.342
+delivered biomass,delivered biomass,delivered biomass,2070,regional biomass,1
+delivered coal,delivered coal,delivered coal,2070,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2070,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2070,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2070,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2070,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2070,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2070,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2070,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2070,refining,1
+backup_electricity,gas,gas (steam/CT),2075,wholesale gas,0.415
+csp_backup,gas,CSP gas hybrid mode,2075,wholesale gas,0.345
+delivered biomass,delivered biomass,delivered biomass,2075,regional biomass,1
+delivered coal,delivered coal,delivered coal,2075,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2075,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2075,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2075,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2075,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2075,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2075,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2075,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2075,refining,1
+backup_electricity,gas,gas (steam/CT),2080,wholesale gas,0.417
+csp_backup,gas,CSP gas hybrid mode,2080,wholesale gas,0.347
+delivered biomass,delivered biomass,delivered biomass,2080,regional biomass,1
+delivered coal,delivered coal,delivered coal,2080,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2080,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2080,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2080,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2080,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2080,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2080,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2080,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2080,refining,1
+backup_electricity,gas,gas (steam/CT),2085,wholesale gas,0.42
+csp_backup,gas,CSP gas hybrid mode,2085,wholesale gas,0.35
+delivered biomass,delivered biomass,delivered biomass,2085,regional biomass,1
+delivered coal,delivered coal,delivered coal,2085,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2085,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2085,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2085,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2085,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2085,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2085,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2085,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2085,refining,1
+backup_electricity,gas,gas (steam/CT),2090,wholesale gas,0.423
+csp_backup,gas,CSP gas hybrid mode,2090,wholesale gas,0.353
+delivered biomass,delivered biomass,delivered biomass,2090,regional biomass,1
+delivered coal,delivered coal,delivered coal,2090,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2090,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2090,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2090,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2090,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2090,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2090,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2090,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2090,refining,1
+backup_electricity,gas,gas (steam/CT),2095,wholesale gas,0.425
+csp_backup,gas,CSP gas hybrid mode,2095,wholesale gas,0.355
+delivered biomass,delivered biomass,delivered biomass,2095,regional biomass,1
+delivered coal,delivered coal,delivered coal,2095,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2095,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2095,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2095,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2095,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2095,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2095,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2095,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2095,refining,1
+backup_electricity,gas,gas (steam/CT),2100,wholesale gas,0.428
+csp_backup,gas,CSP gas hybrid mode,2100,wholesale gas,0.358
+delivered biomass,delivered biomass,delivered biomass,2100,regional biomass,1
+delivered coal,delivered coal,delivered coal,2100,regional coal,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,2100,electricity,1
+elect_td_bld,elect_td_bld,elect_td_bld,2100,electricity_net_ownuse,1
+elect_td_ind,elect_td_ind,elect_td_ind,2100,electricity_net_ownuse,1
+elect_td_trn,elect_td_trn,elect_td_trn,2100,electricity_net_ownuse,1
+gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1
+wholesale gas,wholesale gas,wholesale gas,2100,gas pipeline,1
+delivered gas,delivered gas,delivered gas,2100,gas pipeline,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,2100,refining,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,2100,refining,1
