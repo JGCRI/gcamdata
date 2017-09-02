@@ -1,0 +1,709 @@
+INPUT_TABLE
+Variable ID
+StubTechCoef
+
+region,supplysector,subsector,stub.technology,year,minicam.energy.input,coefficient,market.name
+USA,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.0307573,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.0173341,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.0053513,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.060166,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.016754,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.0118659,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.018576,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.016754,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.0091574,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.1497504,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.0094162,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.0103253,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.0430202,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.016754,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.1152416,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.4789343,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.0007855,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1.066567,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,1975,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0365575,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0190308,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.1059559,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0001703,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0060858,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0584583,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0004919,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0456499,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0240356,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0089344,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0121495,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0237867,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0041448,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0049655,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0220389,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.017683,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0053125,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.1238404,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0000827,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.001226,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0528963,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.3462407,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1.0123656,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,1990,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0271153,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0211771,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.1002745,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0145551,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0138788,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0671634,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0000349,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0717989,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.019754,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0406743,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.006925,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0669562,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0065173,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0023275,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0383836,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0062085,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0185537,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.1257205,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0000169,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.001519,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0587478,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0177679,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1.0168556,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2005,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2010,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2015,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2020,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2025,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2030,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2035,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2040,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2045,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2050,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2055,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2060,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2065,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2070,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2075,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2080,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2085,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2090,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2095,gas processing,1,Colombia
+USA,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.0287305,USA
+Africa_Eastern,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1,Africa_Eastern
+Africa_Northern,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.016163,Africa_Northern
+Africa_Southern,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1,Africa_Southern
+Africa_Western,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.0466972,Africa_Western
+Australia_NZ,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.0115435,Australia_NZ
+Brazil,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.038675,Brazil
+Canada,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.0360096,Canada
+Central America and Caribbean,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1,Central America and Caribbean
+Central Asia,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.0610285,Central Asia
+China,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.0177178,China
+EU-12,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.0317288,EU-12
+EU-15,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.0088454,EU-15
+Europe_Eastern,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.071861,Europe_Eastern
+Europe_Non_EU,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.0064695,Europe_Non_EU
+European Free Trade Association,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.002176,European Free Trade Association
+India,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1,India
+Indonesia,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.1087611,Indonesia
+Japan,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1,Japan
+Mexico,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1,Mexico
+Middle East,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.0054164,Middle East
+Pakistan,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.0582612,Pakistan
+Russia,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.1104611,Russia
+South Africa,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1,South Africa
+South America_Northern,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1,South America_Northern
+South America_Southern,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.0008408,South America_Southern
+South Asia,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.0611891,South Asia
+South Korea,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1,South Korea
+Southeast Asia,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.0088801,Southeast Asia
+Taiwan,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1,Taiwan
+Argentina,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1.0156654,Argentina
+Colombia,gas pipeline,gas pipeline,gas pipeline,2100,gas processing,1,Colombia
