@@ -1,0 +1,335 @@
+INPUT_TABLE
+Variable ID
+GlobalTechEff
+
+sector.name,subsector.name,technology,year,minicam.energy.input,efficiency
+H2 central production,coal,coal chemical,1975,regional coal,0.64
+H2 central production,coal,coal chemical CCS,1975,regional coal,0.586
+H2 central production,gas,natural gas steam reforming,1975,regional natural gas,0.703
+H2 central production,gas,natural gas steam reforming CCS,1975,regional natural gas,0.656
+H2 central production,biomass,biomass to H2,1975,regional biomass,0.451
+H2 central production,biomass,biomass to H2 CCS,1975,regional biomass,0.451
+H2 central production,nuclear,thermal splitting,1975,nuclearFuelGenIII,0.85
+H2 central production,electricity,electrolysis,1975,elect_td_ind,0.626
+H2 central production,wind,electrolysis,1975,onshore wind resource,0.626
+H2 central production,solar,electrolysis,1975,global solar resource,0.626
+H2 forecourt production,gas,natural gas steam reforming,1975,delivered gas,0.561
+H2 forecourt production,electricity,electrolysis,1975,elect_td_trn,0.601
+H2 distribution,H2 distribution,H2 distribution,1975,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,1975,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,1975,H2 forecourt production,1
+H2 central production,coal,coal chemical,1990,regional coal,0.64
+H2 central production,coal,coal chemical CCS,1990,regional coal,0.586
+H2 central production,gas,natural gas steam reforming,1990,regional natural gas,0.703
+H2 central production,gas,natural gas steam reforming CCS,1990,regional natural gas,0.656
+H2 central production,biomass,biomass to H2,1990,regional biomass,0.451
+H2 central production,biomass,biomass to H2 CCS,1990,regional biomass,0.451
+H2 central production,nuclear,thermal splitting,1990,nuclearFuelGenIII,0.85
+H2 central production,electricity,electrolysis,1990,elect_td_ind,0.626
+H2 central production,wind,electrolysis,1990,onshore wind resource,0.626
+H2 central production,solar,electrolysis,1990,global solar resource,0.626
+H2 forecourt production,gas,natural gas steam reforming,1990,delivered gas,0.561
+H2 forecourt production,electricity,electrolysis,1990,elect_td_trn,0.601
+H2 distribution,H2 distribution,H2 distribution,1990,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,1990,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,1990,H2 forecourt production,1
+H2 central production,coal,coal chemical,2005,regional coal,0.64
+H2 central production,coal,coal chemical CCS,2005,regional coal,0.586
+H2 central production,gas,natural gas steam reforming,2005,regional natural gas,0.703
+H2 central production,gas,natural gas steam reforming CCS,2005,regional natural gas,0.656
+H2 central production,biomass,biomass to H2,2005,regional biomass,0.451
+H2 central production,biomass,biomass to H2 CCS,2005,regional biomass,0.451
+H2 central production,nuclear,thermal splitting,2005,nuclearFuelGenIII,0.85
+H2 central production,electricity,electrolysis,2005,elect_td_ind,0.626
+H2 central production,wind,electrolysis,2005,onshore wind resource,0.626
+H2 central production,solar,electrolysis,2005,global solar resource,0.626
+H2 forecourt production,gas,natural gas steam reforming,2005,delivered gas,0.561
+H2 forecourt production,electricity,electrolysis,2005,elect_td_trn,0.601
+H2 distribution,H2 distribution,H2 distribution,2005,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2005,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2005,H2 forecourt production,1
+H2 central production,coal,coal chemical,2010,regional coal,0.64
+H2 central production,coal,coal chemical CCS,2010,regional coal,0.586
+H2 central production,gas,natural gas steam reforming,2010,regional natural gas,0.703
+H2 central production,gas,natural gas steam reforming CCS,2010,regional natural gas,0.656
+H2 central production,biomass,biomass to H2,2010,regional biomass,0.451
+H2 central production,biomass,biomass to H2 CCS,2010,regional biomass,0.451
+H2 central production,nuclear,thermal splitting,2010,nuclearFuelGenIII,0.85
+H2 central production,electricity,electrolysis,2010,elect_td_ind,0.626
+H2 central production,wind,electrolysis,2010,onshore wind resource,0.626
+H2 central production,solar,electrolysis,2010,global solar resource,0.626
+H2 forecourt production,gas,natural gas steam reforming,2010,delivered gas,0.561
+H2 forecourt production,electricity,electrolysis,2010,elect_td_trn,0.601
+H2 distribution,H2 distribution,H2 distribution,2010,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2010,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2010,H2 forecourt production,1
+H2 central production,coal,coal chemical,2015,regional coal,0.64
+H2 central production,coal,coal chemical CCS,2015,regional coal,0.586
+H2 central production,gas,natural gas steam reforming,2015,regional natural gas,0.703
+H2 central production,gas,natural gas steam reforming CCS,2015,regional natural gas,0.656
+H2 central production,biomass,biomass to H2,2015,regional biomass,0.451
+H2 central production,biomass,biomass to H2 CCS,2015,regional biomass,0.451
+H2 central production,nuclear,thermal splitting,2015,nuclearFuelGenIII,0.85
+H2 central production,electricity,electrolysis,2015,elect_td_ind,0.626
+H2 central production,wind,electrolysis,2015,onshore wind resource,0.626
+H2 central production,solar,electrolysis,2015,global solar resource,0.626
+H2 forecourt production,gas,natural gas steam reforming,2015,delivered gas,0.561
+H2 forecourt production,electricity,electrolysis,2015,elect_td_trn,0.601
+H2 distribution,H2 distribution,H2 distribution,2015,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2015,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2015,H2 forecourt production,1
+H2 central production,coal,coal chemical,2020,regional coal,0.64
+H2 central production,coal,coal chemical CCS,2020,regional coal,0.586
+H2 central production,gas,natural gas steam reforming,2020,regional natural gas,0.703
+H2 central production,gas,natural gas steam reforming CCS,2020,regional natural gas,0.656
+H2 central production,biomass,biomass to H2,2020,regional biomass,0.451
+H2 central production,biomass,biomass to H2 CCS,2020,regional biomass,0.451
+H2 central production,nuclear,thermal splitting,2020,nuclearFuelGenIII,0.85
+H2 central production,electricity,electrolysis,2020,elect_td_ind,0.626
+H2 central production,wind,electrolysis,2020,onshore wind resource,0.626
+H2 central production,solar,electrolysis,2020,global solar resource,0.626
+H2 forecourt production,gas,natural gas steam reforming,2020,delivered gas,0.561
+H2 forecourt production,electricity,electrolysis,2020,elect_td_trn,0.601
+H2 distribution,H2 distribution,H2 distribution,2020,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2020,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2020,H2 forecourt production,1
+H2 central production,coal,coal chemical,2025,regional coal,0.647
+H2 central production,coal,coal chemical CCS,2025,regional coal,0.592
+H2 central production,gas,natural gas steam reforming,2025,regional natural gas,0.707
+H2 central production,gas,natural gas steam reforming CCS,2025,regional natural gas,0.662
+H2 central production,biomass,biomass to H2,2025,regional biomass,0.456
+H2 central production,biomass,biomass to H2 CCS,2025,regional biomass,0.456
+H2 central production,nuclear,thermal splitting,2025,nuclearFuelGenIII,0.85
+H2 central production,electricity,electrolysis,2025,elect_td_ind,0.635
+H2 central production,wind,electrolysis,2025,onshore wind resource,0.635
+H2 central production,solar,electrolysis,2025,global solar resource,0.635
+H2 forecourt production,gas,natural gas steam reforming,2025,delivered gas,0.57
+H2 forecourt production,electricity,electrolysis,2025,elect_td_trn,0.61
+H2 distribution,H2 distribution,H2 distribution,2025,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2025,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2025,H2 forecourt production,1
+H2 central production,coal,coal chemical,2030,regional coal,0.653
+H2 central production,coal,coal chemical CCS,2030,regional coal,0.598
+H2 central production,gas,natural gas steam reforming,2030,regional natural gas,0.711
+H2 central production,gas,natural gas steam reforming CCS,2030,regional natural gas,0.667
+H2 central production,biomass,biomass to H2,2030,regional biomass,0.46
+H2 central production,biomass,biomass to H2 CCS,2030,regional biomass,0.46
+H2 central production,nuclear,thermal splitting,2030,nuclearFuelGenIII,0.85
+H2 central production,electricity,electrolysis,2030,elect_td_ind,0.645
+H2 central production,wind,electrolysis,2030,onshore wind resource,0.645
+H2 central production,solar,electrolysis,2030,global solar resource,0.645
+H2 forecourt production,gas,natural gas steam reforming,2030,delivered gas,0.578
+H2 forecourt production,electricity,electrolysis,2030,elect_td_trn,0.618
+H2 distribution,H2 distribution,H2 distribution,2030,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2030,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2030,H2 forecourt production,1
+H2 central production,coal,coal chemical,2035,regional coal,0.66
+H2 central production,coal,coal chemical CCS,2035,regional coal,0.604
+H2 central production,gas,natural gas steam reforming,2035,regional natural gas,0.715
+H2 central production,gas,natural gas steam reforming CCS,2035,regional natural gas,0.673
+H2 central production,biomass,biomass to H2,2035,regional biomass,0.465
+H2 central production,biomass,biomass to H2 CCS,2035,regional biomass,0.465
+H2 central production,nuclear,thermal splitting,2035,nuclearFuelGenIII,0.85
+H2 central production,electricity,electrolysis,2035,elect_td_ind,0.654
+H2 central production,wind,electrolysis,2035,onshore wind resource,0.654
+H2 central production,solar,electrolysis,2035,global solar resource,0.654
+H2 forecourt production,gas,natural gas steam reforming,2035,delivered gas,0.587
+H2 forecourt production,electricity,electrolysis,2035,elect_td_trn,0.627
+H2 distribution,H2 distribution,H2 distribution,2035,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2035,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2035,H2 forecourt production,1
+H2 central production,coal,coal chemical,2040,regional coal,0.667
+H2 central production,coal,coal chemical CCS,2040,regional coal,0.61
+H2 central production,gas,natural gas steam reforming,2040,regional natural gas,0.719
+H2 central production,gas,natural gas steam reforming CCS,2040,regional natural gas,0.678
+H2 central production,biomass,biomass to H2,2040,regional biomass,0.47
+H2 central production,biomass,biomass to H2 CCS,2040,regional biomass,0.47
+H2 central production,nuclear,thermal splitting,2040,nuclearFuelGenIII,0.85
+H2 central production,electricity,electrolysis,2040,elect_td_ind,0.663
+H2 central production,wind,electrolysis,2040,onshore wind resource,0.663
+H2 central production,solar,electrolysis,2040,global solar resource,0.663
+H2 forecourt production,gas,natural gas steam reforming,2040,delivered gas,0.596
+H2 forecourt production,electricity,electrolysis,2040,elect_td_trn,0.636
+H2 distribution,H2 distribution,H2 distribution,2040,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2040,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2040,H2 forecourt production,1
+H2 central production,coal,coal chemical,2045,regional coal,0.673
+H2 central production,coal,coal chemical CCS,2045,regional coal,0.617
+H2 central production,gas,natural gas steam reforming,2045,regional natural gas,0.724
+H2 central production,gas,natural gas steam reforming CCS,2045,regional natural gas,0.684
+H2 central production,biomass,biomass to H2,2045,regional biomass,0.475
+H2 central production,biomass,biomass to H2 CCS,2045,regional biomass,0.475
+H2 central production,nuclear,thermal splitting,2045,nuclearFuelGenIII,0.85
+H2 central production,electricity,electrolysis,2045,elect_td_ind,0.673
+H2 central production,wind,electrolysis,2045,onshore wind resource,0.673
+H2 central production,solar,electrolysis,2045,global solar resource,0.673
+H2 forecourt production,gas,natural gas steam reforming,2045,delivered gas,0.606
+H2 forecourt production,electricity,electrolysis,2045,elect_td_trn,0.646
+H2 distribution,H2 distribution,H2 distribution,2045,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2045,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2045,H2 forecourt production,1
+H2 central production,coal,coal chemical,2050,regional coal,0.68
+H2 central production,coal,coal chemical CCS,2050,regional coal,0.623
+H2 central production,gas,natural gas steam reforming,2050,regional natural gas,0.728
+H2 central production,gas,natural gas steam reforming CCS,2050,regional natural gas,0.689
+H2 central production,biomass,biomass to H2,2050,regional biomass,0.48
+H2 central production,biomass,biomass to H2 CCS,2050,regional biomass,0.48
+H2 central production,nuclear,thermal splitting,2050,nuclearFuelGenIII,0.85
+H2 central production,electricity,electrolysis,2050,elect_td_ind,0.682
+H2 central production,wind,electrolysis,2050,onshore wind resource,0.682
+H2 central production,solar,electrolysis,2050,global solar resource,0.682
+H2 forecourt production,gas,natural gas steam reforming,2050,delivered gas,0.615
+H2 forecourt production,electricity,electrolysis,2050,elect_td_trn,0.655
+H2 distribution,H2 distribution,H2 distribution,2050,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2050,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2050,H2 forecourt production,1
+H2 central production,coal,coal chemical,2055,regional coal,0.687
+H2 central production,coal,coal chemical CCS,2055,regional coal,0.629
+H2 central production,gas,natural gas steam reforming,2055,regional natural gas,0.732
+H2 central production,gas,natural gas steam reforming CCS,2055,regional natural gas,0.695
+H2 central production,biomass,biomass to H2,2055,regional biomass,0.485
+H2 central production,biomass,biomass to H2 CCS,2055,regional biomass,0.485
+H2 central production,nuclear,thermal splitting,2055,nuclearFuelGenIII,0.85
+H2 central production,electricity,electrolysis,2055,elect_td_ind,0.692
+H2 central production,wind,electrolysis,2055,onshore wind resource,0.692
+H2 central production,solar,electrolysis,2055,global solar resource,0.692
+H2 forecourt production,gas,natural gas steam reforming,2055,delivered gas,0.624
+H2 forecourt production,electricity,electrolysis,2055,elect_td_trn,0.665
+H2 distribution,H2 distribution,H2 distribution,2055,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2055,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2055,H2 forecourt production,1
+H2 central production,coal,coal chemical,2060,regional coal,0.694
+H2 central production,coal,coal chemical CCS,2060,regional coal,0.636
+H2 central production,gas,natural gas steam reforming,2060,regional natural gas,0.737
+H2 central production,gas,natural gas steam reforming CCS,2060,regional natural gas,0.7
+H2 central production,biomass,biomass to H2,2060,regional biomass,0.489
+H2 central production,biomass,biomass to H2 CCS,2060,regional biomass,0.489
+H2 central production,nuclear,thermal splitting,2060,nuclearFuelGenIII,0.85
+H2 central production,electricity,electrolysis,2060,elect_td_ind,0.702
+H2 central production,wind,electrolysis,2060,onshore wind resource,0.702
+H2 central production,solar,electrolysis,2060,global solar resource,0.702
+H2 forecourt production,gas,natural gas steam reforming,2060,delivered gas,0.634
+H2 forecourt production,electricity,electrolysis,2060,elect_td_trn,0.674
+H2 distribution,H2 distribution,H2 distribution,2060,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2060,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2060,H2 forecourt production,1
+H2 central production,coal,coal chemical,2065,regional coal,0.701
+H2 central production,coal,coal chemical CCS,2065,regional coal,0.642
+H2 central production,gas,natural gas steam reforming,2065,regional natural gas,0.741
+H2 central production,gas,natural gas steam reforming CCS,2065,regional natural gas,0.706
+H2 central production,biomass,biomass to H2,2065,regional biomass,0.494
+H2 central production,biomass,biomass to H2 CCS,2065,regional biomass,0.494
+H2 central production,nuclear,thermal splitting,2065,nuclearFuelGenIII,0.85
+H2 central production,electricity,electrolysis,2065,elect_td_ind,0.712
+H2 central production,wind,electrolysis,2065,onshore wind resource,0.712
+H2 central production,solar,electrolysis,2065,global solar resource,0.712
+H2 forecourt production,gas,natural gas steam reforming,2065,delivered gas,0.643
+H2 forecourt production,electricity,electrolysis,2065,elect_td_trn,0.684
+H2 distribution,H2 distribution,H2 distribution,2065,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2065,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2065,H2 forecourt production,1
+H2 central production,coal,coal chemical,2070,regional coal,0.705
+H2 central production,coal,coal chemical CCS,2070,regional coal,0.645
+H2 central production,gas,natural gas steam reforming,2070,regional natural gas,0.745
+H2 central production,gas,natural gas steam reforming CCS,2070,regional natural gas,0.71
+H2 central production,biomass,biomass to H2,2070,regional biomass,0.497
+H2 central production,biomass,biomass to H2 CCS,2070,regional biomass,0.497
+H2 central production,nuclear,thermal splitting,2070,nuclearFuelGenIII,0.854
+H2 central production,electricity,electrolysis,2070,elect_td_ind,0.716
+H2 central production,wind,electrolysis,2070,onshore wind resource,0.716
+H2 central production,solar,electrolysis,2070,global solar resource,0.716
+H2 forecourt production,gas,natural gas steam reforming,2070,delivered gas,0.646
+H2 forecourt production,electricity,electrolysis,2070,elect_td_trn,0.687
+H2 distribution,H2 distribution,H2 distribution,2070,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2070,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2070,H2 forecourt production,1
+H2 central production,coal,coal chemical,2075,regional coal,0.708
+H2 central production,coal,coal chemical CCS,2075,regional coal,0.649
+H2 central production,gas,natural gas steam reforming,2075,regional natural gas,0.748
+H2 central production,gas,natural gas steam reforming CCS,2075,regional natural gas,0.713
+H2 central production,biomass,biomass to H2,2075,regional biomass,0.499
+H2 central production,biomass,biomass to H2 CCS,2075,regional biomass,0.499
+H2 central production,nuclear,thermal splitting,2075,nuclearFuelGenIII,0.859
+H2 central production,electricity,electrolysis,2075,elect_td_ind,0.719
+H2 central production,wind,electrolysis,2075,onshore wind resource,0.719
+H2 central production,solar,electrolysis,2075,global solar resource,0.719
+H2 forecourt production,gas,natural gas steam reforming,2075,delivered gas,0.65
+H2 forecourt production,electricity,electrolysis,2075,elect_td_trn,0.691
+H2 distribution,H2 distribution,H2 distribution,2075,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2075,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2075,H2 forecourt production,1
+H2 central production,coal,coal chemical,2080,regional coal,0.712
+H2 central production,coal,coal chemical CCS,2080,regional coal,0.652
+H2 central production,gas,natural gas steam reforming,2080,regional natural gas,0.752
+H2 central production,gas,natural gas steam reforming CCS,2080,regional natural gas,0.717
+H2 central production,biomass,biomass to H2,2080,regional biomass,0.502
+H2 central production,biomass,biomass to H2 CCS,2080,regional biomass,0.502
+H2 central production,nuclear,thermal splitting,2080,nuclearFuelGenIII,0.863
+H2 central production,electricity,electrolysis,2080,elect_td_ind,0.723
+H2 central production,wind,electrolysis,2080,onshore wind resource,0.723
+H2 central production,solar,electrolysis,2080,global solar resource,0.723
+H2 forecourt production,gas,natural gas steam reforming,2080,delivered gas,0.653
+H2 forecourt production,electricity,electrolysis,2080,elect_td_trn,0.694
+H2 distribution,H2 distribution,H2 distribution,2080,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2080,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2080,H2 forecourt production,1
+H2 central production,coal,coal chemical,2085,regional coal,0.715
+H2 central production,coal,coal chemical CCS,2085,regional coal,0.655
+H2 central production,gas,natural gas steam reforming,2085,regional natural gas,0.756
+H2 central production,gas,natural gas steam reforming CCS,2085,regional natural gas,0.721
+H2 central production,biomass,biomass to H2,2085,regional biomass,0.504
+H2 central production,biomass,biomass to H2 CCS,2085,regional biomass,0.504
+H2 central production,nuclear,thermal splitting,2085,nuclearFuelGenIII,0.867
+H2 central production,electricity,electrolysis,2085,elect_td_ind,0.727
+H2 central production,wind,electrolysis,2085,onshore wind resource,0.727
+H2 central production,solar,electrolysis,2085,global solar resource,0.727
+H2 forecourt production,gas,natural gas steam reforming,2085,delivered gas,0.656
+H2 forecourt production,electricity,electrolysis,2085,elect_td_trn,0.697
+H2 distribution,H2 distribution,H2 distribution,2085,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2085,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2085,H2 forecourt production,1
+H2 central production,coal,coal chemical,2090,regional coal,0.719
+H2 central production,coal,coal chemical CCS,2090,regional coal,0.659
+H2 central production,gas,natural gas steam reforming,2090,regional natural gas,0.759
+H2 central production,gas,natural gas steam reforming CCS,2090,regional natural gas,0.724
+H2 central production,biomass,biomass to H2,2090,regional biomass,0.507
+H2 central production,biomass,biomass to H2 CCS,2090,regional biomass,0.507
+H2 central production,nuclear,thermal splitting,2090,nuclearFuelGenIII,0.872
+H2 central production,electricity,electrolysis,2090,elect_td_ind,0.73
+H2 central production,wind,electrolysis,2090,onshore wind resource,0.73
+H2 central production,solar,electrolysis,2090,global solar resource,0.73
+H2 forecourt production,gas,natural gas steam reforming,2090,delivered gas,0.66
+H2 forecourt production,electricity,electrolysis,2090,elect_td_trn,0.701
+H2 distribution,H2 distribution,H2 distribution,2090,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2090,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2090,H2 forecourt production,1
+H2 central production,coal,coal chemical,2095,regional coal,0.722
+H2 central production,coal,coal chemical CCS,2095,regional coal,0.662
+H2 central production,gas,natural gas steam reforming,2095,regional natural gas,0.763
+H2 central production,gas,natural gas steam reforming CCS,2095,regional natural gas,0.728
+H2 central production,biomass,biomass to H2,2095,regional biomass,0.509
+H2 central production,biomass,biomass to H2 CCS,2095,regional biomass,0.509
+H2 central production,nuclear,thermal splitting,2095,nuclearFuelGenIII,0.876
+H2 central production,electricity,electrolysis,2095,elect_td_ind,0.734
+H2 central production,wind,electrolysis,2095,onshore wind resource,0.734
+H2 central production,solar,electrolysis,2095,global solar resource,0.734
+H2 forecourt production,gas,natural gas steam reforming,2095,delivered gas,0.663
+H2 forecourt production,electricity,electrolysis,2095,elect_td_trn,0.704
+H2 distribution,H2 distribution,H2 distribution,2095,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2095,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2095,H2 forecourt production,1
+H2 central production,coal,coal chemical,2100,regional coal,0.722
+H2 central production,coal,coal chemical CCS,2100,regional coal,0.662
+H2 central production,gas,natural gas steam reforming,2100,regional natural gas,0.763
+H2 central production,gas,natural gas steam reforming CCS,2100,regional natural gas,0.728
+H2 central production,biomass,biomass to H2,2100,regional biomass,0.509
+H2 central production,biomass,biomass to H2 CCS,2100,regional biomass,0.509
+H2 central production,nuclear,thermal splitting,2100,nuclearFuelGenIII,0.876
+H2 central production,electricity,electrolysis,2100,elect_td_ind,0.734
+H2 central production,wind,electrolysis,2100,onshore wind resource,0.734
+H2 central production,solar,electrolysis,2100,global solar resource,0.734
+H2 forecourt production,gas,natural gas steam reforming,2100,delivered gas,0.663
+H2 forecourt production,electricity,electrolysis,2100,elect_td_trn,0.704
+H2 distribution,H2 distribution,H2 distribution,2100,H2 central production,1
+H2 enduse,H2 distribution,H2 distribution,2100,H2 distribution,1
+H2 enduse,H2 forecourt production,H2 forecourt production,2100,H2 forecourt production,1
