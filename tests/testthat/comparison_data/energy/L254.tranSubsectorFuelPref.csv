@@ -1,0 +1,94 @@
+INPUT_TABLE
+Variable ID
+tranSubsectorFuelPref
+
+region,supplysector,tranSubsector,year.fillout,fuelprefElasticity
+USA,trn_pass_road_LDV_4W,Large Car,1975,0.1
+USA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,0.2
+Africa_Eastern,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Africa_Eastern,trn_pass_road_LDV_4W,Multipurpose Vehicle,1975,0.2
+Africa_Eastern,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Africa_Northern,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Africa_Northern,trn_pass_road_LDV_4W,Multipurpose Vehicle,1975,0.2
+Africa_Northern,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Africa_Southern,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Africa_Southern,trn_pass_road_LDV_4W,Multipurpose Vehicle,1975,0.2
+Africa_Southern,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Africa_Western,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Africa_Western,trn_pass_road_LDV_4W,Multipurpose Vehicle,1975,0.2
+Africa_Western,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Australia_NZ,trn_pass_road_LDV_4W,Large Car,1975,0.1
+Australia_NZ,trn_pass_road_LDV_4W,Light Truck and SUV,1975,0.2
+Brazil,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+Brazil,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Brazil,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Canada,trn_pass_road_LDV_4W,Light Truck and SUV,1975,0.2
+Central America and Caribbean,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+Central America and Caribbean,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Central America and Caribbean,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Central Asia,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+Central Asia,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Central Asia,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+China,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+China,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+China,trn_pass_road_LDV_4W,Multipurpose Vehicle,1975,0.2
+China,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+EU-12,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+EU-12,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+EU-15,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+EU-15,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+EU-15,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Europe_Eastern,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+Europe_Eastern,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Europe_Non_EU,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+Europe_Non_EU,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+European Free Trade Association,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+European Free Trade Association,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+India,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+India,trn_pass_road_LDV_4W,Multipurpose Vehicle,1975,0.2
+India,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Indonesia,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Indonesia,trn_pass_road_LDV_4W,Multipurpose Vehicle,1975,0.2
+Indonesia,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Japan,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+Japan,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Japan,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Mexico,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+Mexico,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Mexico,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Middle East,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+Middle East,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Middle East,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Pakistan,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Pakistan,trn_pass_road_LDV_4W,Multipurpose Vehicle,1975,0.2
+Pakistan,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Russia,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+Russia,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+South Africa,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+South Africa,trn_pass_road_LDV_4W,Multipurpose Vehicle,1975,0.2
+South Africa,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+South America_Northern,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+South America_Northern,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+South America_Northern,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+South America_Southern,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+South America_Southern,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+South America_Southern,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+South Asia,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+South Asia,trn_pass_road_LDV_4W,Multipurpose Vehicle,1975,0.2
+South Asia,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+South Korea,trn_pass_road_LDV_4W,Large Car,1975,0.1
+South Korea,trn_pass_road_LDV_4W,Light Truck and SUV,1975,0.2
+South Korea,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Southeast Asia,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+Southeast Asia,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Southeast Asia,trn_pass_road_LDV_4W,Multipurpose Vehicle,1975,0.2
+Southeast Asia,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Taiwan,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Taiwan,trn_pass_road_LDV_4W,Multipurpose Vehicle,1975,0.2
+Taiwan,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Argentina,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+Argentina,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Argentina,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
+Colombia,trn_pass_road_LDV_4W,Large Car and SUV,1975,0.2
+Colombia,trn_pass_road_LDV_4W,Mini Car,1975,-0.2
+Colombia,trn_pass_road_LDV_4W,Subcompact Car,1975,-0.1
