@@ -111,7 +111,7 @@ driver <- function(all_data = empty_data(),
                    return_data_names = union(inputs_of(return_inputs_of),
                                              outputs_of(return_outputs_of)),
                    write_outputs = TRUE, outdir = OUTPUTS_DIR, xmldir = XML_DIR,
-                   quiet = FALSE) {
+                   quiet = FALSE, min_calc=FALSE) {
 
   # If users ask to stop after a chunk, but also specify they want particular inputs,
   # or if they ask to stop before a chunk, while asking for outputs, that's confusing.
@@ -180,7 +180,23 @@ driver <- function(all_data = empty_data(),
   }
 
   # Initialize some stuff before we start to run the chunks
-  chunks_to_run <- chunklist$name
+  if((!missing(stop_before) || !missing(stop_after)) && min_calc) {
+    run_chunks <- ifelse(missing(stop_before), stop_after, stop_before)
+    # calc min list
+    verts <- inner_join(chunkoutputs %>% filter(to_xml == F),
+                        chunkinputs %>% filter(from_file == F), by=c("output" = "input")) %>%
+      select(name.x, name.y) %>%
+      unique()
+    g <- igraph::make_directed_graph(rbind(verts$name.x, verts$name.y))
+    v <- igraph::V(g)
+    dist <- igraph::dfs(g, v[run_chunks], unreachable=F, neimode="in", dist=T)$dist
+    dist <- dist[!is.na(dist)]
+    chunks_to_run <- names(dist)
+  }
+  else {
+    chunks_to_run <- chunklist$name
+  }
+
   removed_count <- 0
   if(write_outputs) {
     save_chunkdata(empty_data(), create_dirs = TRUE, outputs_dir = outdir, xml_dir = xmldir) # clear directories
