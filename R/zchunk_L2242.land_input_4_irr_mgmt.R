@@ -27,7 +27,7 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L2242.LN4_Logit",
              "L2242.LN4_NodeGhostShare",
-             "L2242.LN4_NodeIsGhostShareRel"))
+             "L2242.LN4_GhostShareRelativeToDominantCrop"))
   } else if(command == driver.MAKE) {
 
     # silence package check notes
@@ -97,7 +97,7 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
       select(-year, -ghost.unnormalized.share) %>%
       distinct() %>%
       mutate(is.ghost.share.relative = 1) ->
-      L2242.LN4_NodeIsGhostShareRel
+      L2242.LN4_GhostShareRelativeToDominantCrop
 
     # Produce outputs
     L2242.LN4_Logit %>%
@@ -121,14 +121,14 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
                      "aglu/A_LT_Mapping") ->
       L2242.LN4_NodeGhostShare
 
-    L2242.LN4_NodeIsGhostShareRel %>%
+    L2242.LN4_GhostShareRelativeToDominantCrop %>%
       add_title("Whether bioenergy ghost share is relative to the dominant crop, the forth land nest") %>%
       add_units("NA") %>%
       add_comments("Copy the nesting structure from L2242.LN4_NodeGhostShare") %>%
       add_comments("Set is.ghost.share.relative to 1") %>%
       add_legacy_name("L2242.LN4_NodeIsGhostShareRel") %>%
       same_precursors_as("L2242.LN4_NodeGhostShare") ->
-      L2242.LN4_NodeIsGhostShareRel
+      L2242.LN4_GhostShareRelativeToDominantCrop
 
     return_data(L2242.LN4_Logit, L2242.LN4_NodeGhostShare, L2242.LN4_NodeIsGhostShareRel)
   } else {
