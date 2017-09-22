@@ -1,162 +1,166 @@
+INPUT_TABLE
+Variable ID
+GDPCtrlMaxRes
+
 region,depresource,Non.CO2,ctrl.name,max.reduction
-China,crude oil,SO2_2,GDP_control,95.2571324731246
-China,natural gas,SO2_2,GDP_control,95.2571324731246
-India,crude oil,SO2_2,GDP_control,97.3196271116773
-India,natural gas,SO2_2,GDP_control,97.3196271116773
-USA,crude oil,SO2_1,GDP_control,5.3493326262985
-USA,natural gas,SO2_1,GDP_control,5.3493326262985
-Africa_Eastern,coal,CO,GDP_control,99.9971790725205
-Africa_Eastern,coal,NMVOC,GDP_control,99.9655615304475
-Africa_Eastern,coal,NOx,GDP_control,99.996404465198
-Africa_Northern,coal,CO,GDP_control,99.9987530409924
-Africa_Northern,coal,NMVOC,GDP_control,99.9847820639832
-Africa_Northern,coal,NOx,GDP_control,99.9984129133583
-Africa_Northern,crude oil,NOx,GDP_control,79.3878394019067
-Africa_Northern,natural gas,NOx,GDP_control,79.3878394019067
-Africa_Southern,coal,CO,GDP_control,99.9109843657674
-Africa_Southern,coal,NMVOC,GDP_control,98.9238483538466
-Africa_Southern,coal,NOx,GDP_control,99.8867361132837
-Africa_Southern,crude oil,CO,GDP_control,21.6871811452085
-Africa_Southern,crude oil,NMVOC,GDP_control,1.39433658392872
-Africa_Southern,crude oil,NOx,GDP_control,88.9257165911672
-Africa_Southern,natural gas,CO,GDP_control,21.6871811452085
-Africa_Southern,natural gas,NMVOC,GDP_control,1.39433658392872
-Africa_Southern,natural gas,NOx,GDP_control,88.9257165911672
-Africa_Western,coal,CO,GDP_control,99.9953317617144
-Africa_Western,coal,NMVOC,GDP_control,99.9430539198937
-Africa_Western,coal,NOx,GDP_control,99.9940502726254
-Africa_Western,crude oil,CO,GDP_control,58.2973737583197
-Africa_Western,crude oil,NMVOC,GDP_control,8.81317219523731
-Africa_Western,crude oil,NOx,GDP_control,94.1111157577146
-Africa_Western,natural gas,CO,GDP_control,58.2973737583197
-Africa_Western,natural gas,NMVOC,GDP_control,8.81317219523731
-Africa_Western,natural gas,NOx,GDP_control,94.1111157577146
-Argentina,coal,CO,GDP_control,99.9954478044978
-Argentina,coal,NMVOC,GDP_control,99.9455216755071
-Argentina,coal,NOx,GDP_control,99.9954328915521
-Brazil,coal,CO,GDP_control,99.959858144447
-Brazil,coal,NMVOC,GDP_control,99.5400830889659
-Brazil,coal,NOx,GDP_control,99.9598694019908
-Brazil,crude oil,NMVOC,GDP_control,17.9678808495345
-Brazil,crude oil,NOx,GDP_control,54.4018537126989
-Brazil,natural gas,NMVOC,GDP_control,17.9678808495345
-Brazil,natural gas,NOx,GDP_control,54.4018537126989
-Central Asia,coal,NMVOC,GDP_control,15.0399662725946
-Central Asia,crude oil,NOx,GDP_control,83.6961621907645
-Central Asia,natural gas,NOx,GDP_control,83.6961621907645
-China,coal,CO,GDP_control,15.5741892722788
-China,coal,NMVOC,GDP_control,35.9059946165931
-China,crude oil,CO,GDP_control,95.0560030843726
-China,crude oil,NMVOC,GDP_control,27.4601795232463
-China,crude oil,NOx,GDP_control,93.3178204519419
-China,natural gas,CO,GDP_control,95.0560030843726
-China,natural gas,NMVOC,GDP_control,27.4601795232463
-China,natural gas,NOx,GDP_control,93.3178204519419
-Colombia,coal,CO,GDP_control,89.8867916355405
-Colombia,coal,NMVOC,GDP_control,7.10064952526625
-Colombia,coal,NOx,GDP_control,87.1503270138708
-Colombia,crude oil,NMVOC,GDP_control,2.17598859673495
-Colombia,crude oil,NOx,GDP_control,37.2019287126369
-Colombia,natural gas,NMVOC,GDP_control,2.17598859673495
-Colombia,natural gas,NOx,GDP_control,37.2019287126369
-EU-12,coal,CO,GDP_control,36.733790766187
-EU-12,coal,NMVOC,GDP_control,73.440670112278
-EU-12,coal,NOx,GDP_control,19.5954647649692
-EU-12,crude oil,NMVOC,GDP_control,38.486018529477
-EU-12,natural gas,NMVOC,GDP_control,38.486018529477
-EU-15,coal,CO,GDP_control,56.0566960588609
-EU-15,coal,NMVOC,GDP_control,67.4010697906589
-EU-15,coal,NOx,GDP_control,56.0262569494212
-EU-15,crude oil,NMVOC,GDP_control,39.9286247323054
-EU-15,natural gas,NMVOC,GDP_control,39.9286247323054
-Europe_Eastern,coal,CO,GDP_control,61.090594781376
-Europe_Eastern,coal,NMVOC,GDP_control,15.8530033908572
-Europe_Eastern,coal,NOx,GDP_control,50.5860074648296
-Europe_Eastern,crude oil,NMVOC,GDP_control,0.460275677047482
-Europe_Eastern,natural gas,NMVOC,GDP_control,0.460275677047482
-Europe_Non_EU,coal,CO,GDP_control,69.3138551531187
-Europe_Non_EU,coal,NMVOC,GDP_control,90.3730028343207
-Europe_Non_EU,coal,NOx,GDP_control,60.9766741892888
-Europe_Non_EU,crude oil,NMVOC,GDP_control,65.7797904802012
-Europe_Non_EU,natural gas,NMVOC,GDP_control,65.7797904802012
-European Free Trade Association,coal,CO,GDP_control,87.8624660303286
-European Free Trade Association,coal,NMVOC,GDP_control,57.4030507378374
-European Free Trade Association,coal,NOx,GDP_control,87.8698075364028
-India,coal,CO,GDP_control,86.3528430411303
-India,coal,NMVOC,GDP_control,26.0020918412687
-India,coal,NOx,GDP_control,82.6249433664285
-India,crude oil,CO,GDP_control,97.1924244150543
-India,crude oil,NMVOC,GDP_control,40.6809881657212
-India,crude oil,NOx,GDP_control,96.0546093066705
-India,natural gas,CO,GDP_control,97.1924244150543
-India,natural gas,NMVOC,GDP_control,40.6809881657212
-India,natural gas,NOx,GDP_control,96.0546093066705
-Indonesia,coal,CO,GDP_control,81.8587168443805
-Indonesia,coal,NOx,GDP_control,76.9360190243121
-Indonesia,crude oil,NOx,GDP_control,71.3702152295427
-Indonesia,natural gas,NOx,GDP_control,71.3702152295427
-Japan,crude oil,NMVOC,GDP_control,96.2292075655606
-Japan,natural gas,NMVOC,GDP_control,96.2292075655606
-Mexico,coal,CO,GDP_control,98.1383066424533
-Mexico,coal,NMVOC,GDP_control,78.8693833222826
-Mexico,coal,NOx,GDP_control,97.6177746778971
-Mexico,crude oil,NMVOC,GDP_control,1.75188309220204
-Mexico,crude oil,NOx,GDP_control,6.34407098298937
-Mexico,natural gas,NMVOC,GDP_control,1.75188309220204
-Mexico,natural gas,NOx,GDP_control,6.34407098298937
-Middle East,coal,CO,GDP_control,99.5159158503924
-Middle East,coal,NMVOC,GDP_control,94.543248177971
-Middle East,coal,NOx,GDP_control,99.3834015143241
-Middle East,crude oil,NOx,GDP_control,63.547294560817
-Middle East,natural gas,NOx,GDP_control,63.547294560817
-Pakistan,coal,CO,GDP_control,99.0463646206493
-Pakistan,coal,NMVOC,GDP_control,90.5223553692199
-Pakistan,coal,NOx,GDP_control,98.7834576312091
-Russia,coal,NMVOC,GDP_control,80.5602525027875
-Russia,crude oil,CO,GDP_control,6.5669781896564
-Russia,crude oil,NOx,GDP_control,86.7905848613693
-Russia,natural gas,CO,GDP_control,6.5669781896564
-Russia,natural gas,NOx,GDP_control,86.7905848613693
-South Africa,coal,CO,GDP_control,88.9019232618299
-South Africa,coal,NMVOC,GDP_control,42.3482184088948
-South Africa,coal,NOx,GDP_control,85.8659691397992
-South Africa,crude oil,NMVOC,GDP_control,81.5820287407709
-South Africa,natural gas,NMVOC,GDP_control,81.5820287407709
-South America_Northern,coal,CO,GDP_control,64.7089614313051
-South America_Northern,coal,NMVOC,GDP_control,47.1586884951032
-South America_Northern,coal,NOx,GDP_control,55.0652610212238
-South America_Northern,crude oil,NMVOC,GDP_control,5.17793228620642
-South America_Northern,crude oil,NOx,GDP_control,42.3985625275499
-South America_Northern,natural gas,NMVOC,GDP_control,5.17793228620642
-South America_Northern,natural gas,NOx,GDP_control,42.3985625275499
-South America_Southern,coal,CO,GDP_control,99.9514346992522
-South America_Southern,coal,NMVOC,GDP_control,99.412866893336
-South America_Southern,coal,NOx,GDP_control,99.9381076243057
-South America_Southern,crude oil,NMVOC,GDP_control,5.72535208921413
-South America_Southern,crude oil,NOx,GDP_control,79.4851715772398
-South America_Southern,natural gas,NMVOC,GDP_control,5.72535208921413
-South America_Southern,natural gas,NOx,GDP_control,79.4851715772398
-South Asia,coal,CO,GDP_control,99.9316825630414
-South Asia,coal,NMVOC,GDP_control,99.172727404406
-South Asia,coal,NOx,GDP_control,99.9131275683692
-South Korea,coal,CO,GDP_control,84.1550529726914
-South Korea,coal,NMVOC,GDP_control,57.5326602852837
-South Korea,coal,NOx,GDP_control,79.8267981539922
-South Korea,crude oil,NMVOC,GDP_control,98.2037019053173
-South Korea,natural gas,NMVOC,GDP_control,98.2037019053173
-Southeast Asia,coal,CO,GDP_control,99.1035533266381
-Southeast Asia,coal,NMVOC,GDP_control,91.4458587655139
-Southeast Asia,coal,NOx,GDP_control,98.8597876198172
-Southeast Asia,crude oil,NOx,GDP_control,45.3705416630181
-Southeast Asia,natural gas,NOx,GDP_control,45.3705416630181
-Taiwan,crude oil,NMVOC,GDP_control,98.196735619233
-Taiwan,natural gas,NMVOC,GDP_control,98.196735619233
-USA,coal,CO,GDP_control,3.81877464607373
-USA,coal,NMVOC,GDP_control,1.55948637920605
-USA,coal,NOx,GDP_control,3.69110884861973
-USA,crude oil,CO,GDP_control,5.20745306278554
-USA,crude oil,NMVOC,GDP_control,5.70689836706008
-USA,crude oil,NOx,GDP_control,4.50726470293568
-USA,natural gas,CO,GDP_control,5.20745306278554
-USA,natural gas,NMVOC,GDP_control,5.70689836706008
-USA,natural gas,NOx,GDP_control,4.50726470293568
+China,crude oil,SO2_2,GDP_control,95.2571324827218
+China,natural gas,SO2_2,GDP_control,95.2571324268344
+India,crude oil,SO2_2,GDP_control,97.31962714501
+India,natural gas,SO2_2,GDP_control,97.3196270632347
+USA,crude oil,SO2_1,GDP_control,5.34934945748424
+USA,natural gas,SO2_1,GDP_control,5.34931964146213
+Africa_Eastern,coal,CO,GDP_control,99.9971790722015
+Africa_Eastern,coal,NMVOC,GDP_control,99.9655615265526
+Africa_Eastern,coal,NOx,GDP_control,99.9964044655353
+Africa_Northern,coal,CO,GDP_control,99.9987530413123
+Africa_Northern,coal,NMVOC,GDP_control,99.9847820678874
+Africa_Northern,coal,NOx,GDP_control,99.9984129137655
+Africa_Northern,crude oil,NOx,GDP_control,79.387840905231
+Africa_Northern,natural gas,NOx,GDP_control,79.3878368724324
+Africa_Southern,coal,CO,GDP_control,99.9109843637373
+Africa_Southern,coal,NMVOC,GDP_control,98.9238483293045
+Africa_Southern,coal,NOx,GDP_control,99.8867361107006
+Africa_Southern,crude oil,CO,GDP_control,21.6871710621025
+Africa_Southern,crude oil,NMVOC,GDP_control,1.39433854003958
+Africa_Southern,crude oil,NOx,GDP_control,88.9257246975132
+Africa_Southern,natural gas,CO,GDP_control,21.6874221984656
+Africa_Southern,natural gas,NMVOC,GDP_control,1.39429263508995
+Africa_Southern,natural gas,NOx,GDP_control,88.9255246231372
+Africa_Western,coal,CO,GDP_control,99.9953317633756
+Africa_Western,coal,NMVOC,GDP_control,99.9430539401587
+Africa_Western,coal,NOx,GDP_control,99.9940502747426
+Africa_Western,crude oil,CO,GDP_control,58.2973730978962
+Africa_Western,crude oil,NMVOC,GDP_control,8.81317277075469
+Africa_Western,crude oil,NOx,GDP_control,94.1111148316313
+Africa_Western,natural gas,CO,GDP_control,58.2973796157744
+Africa_Western,natural gas,NMVOC,GDP_control,8.8131670122856
+Africa_Western,natural gas,NOx,GDP_control,94.1111240037509
+Argentina,coal,CO,GDP_control,99.9954478174195
+Argentina,coal,NMVOC,GDP_control,99.9455218301474
+Argentina,coal,NOx,GDP_control,99.9954329045161
+Brazil,coal,CO,GDP_control,99.959858143038
+Brazil,coal,NMVOC,GDP_control,99.5400830728228
+Brazil,coal,NOx,GDP_control,99.9598694005822
+Brazil,crude oil,NMVOC,GDP_control,17.9678810465532
+Brazil,crude oil,NOx,GDP_control,54.4017743410805
+Brazil,natural gas,NMVOC,GDP_control,17.9678790749314
+Brazil,natural gas,NOx,GDP_control,54.4026087832606
+Central Asia,coal,NMVOC,GDP_control,15.0399662096422
+Central Asia,crude oil,NOx,GDP_control,83.6961647043403
+Central Asia,natural gas,NOx,GDP_control,83.6961600680046
+China,coal,CO,GDP_control,15.5741892732683
+China,coal,NMVOC,GDP_control,35.9059946173443
+China,crude oil,CO,GDP_control,95.0560030932702
+China,crude oil,NMVOC,GDP_control,27.4601791204117
+China,crude oil,NOx,GDP_control,93.3178206467724
+China,natural gas,CO,GDP_control,95.0560030410333
+China,natural gas,NMVOC,GDP_control,27.4601785969542
+China,natural gas,NOx,GDP_control,93.3178195816828
+Colombia,coal,CO,GDP_control,89.8867916056454
+Colombia,coal,NMVOC,GDP_control,7.10064925065116
+Colombia,coal,NOx,GDP_control,87.1503269758865
+Colombia,crude oil,NMVOC,GDP_control,2.17598602337673
+Colombia,crude oil,NOx,GDP_control,37.2024035477926
+Colombia,natural gas,NMVOC,GDP_control,2.1760016926112
+Colombia,natural gas,NOx,GDP_control,37.1997816153781
+EU-12,coal,CO,GDP_control,36.7337907058254
+EU-12,coal,NMVOC,GDP_control,73.4406700869381
+EU-12,coal,NOx,GDP_control,19.6017384503747
+EU-12,crude oil,NMVOC,GDP_control,38.4860164498112
+EU-12,natural gas,NMVOC,GDP_control,38.4860194940652
+EU-15,coal,CO,GDP_control,56.0566960352544
+EU-15,coal,NMVOC,GDP_control,67.4010697731466
+EU-15,coal,NOx,GDP_control,56.024327427226
+EU-15,crude oil,NMVOC,GDP_control,39.9286244235517
+EU-15,natural gas,NMVOC,GDP_control,39.9286249443377
+Europe_Eastern,coal,CO,GDP_control,61.090594907599
+Europe_Eastern,coal,NMVOC,GDP_control,15.8530036638323
+Europe_Eastern,coal,NOx,GDP_control,50.578667459893
+Europe_Eastern,crude oil,NMVOC,GDP_control,0.460289193932967
+Europe_Eastern,natural gas,NMVOC,GDP_control,0.460270576773338
+Europe_Non_EU,coal,CO,GDP_control,69.3138550971013
+Europe_Non_EU,coal,NMVOC,GDP_control,90.3730028167466
+Europe_Non_EU,coal,NOx,GDP_control,60.9699575387263
+Europe_Non_EU,crude oil,NMVOC,GDP_control,65.7797893398247
+Europe_Non_EU,natural gas,NMVOC,GDP_control,65.7797905145262
+European Free Trade Association,coal,CO,GDP_control,87.8624645607452
+European Free Trade Association,coal,NMVOC,GDP_control,57.4030455803013
+European Free Trade Association,coal,NOx,GDP_control,87.8698060677083
+India,coal,CO,GDP_control,86.3528430403934
+India,coal,NMVOC,GDP_control,26.0020918372727
+India,coal,NOx,GDP_control,82.6249433654902
+India,crude oil,CO,GDP_control,97.1924244037332
+India,crude oil,NMVOC,GDP_control,40.6809890977315
+India,crude oil,NOx,GDP_control,96.0546109906755
+India,natural gas,CO,GDP_control,97.1924244311717
+India,natural gas,NMVOC,GDP_control,40.680986812637
+India,natural gas,NOx,GDP_control,96.0546068711635
+Indonesia,coal,CO,GDP_control,81.8587168413018
+Indonesia,coal,NOx,GDP_control,76.936019020398
+Indonesia,crude oil,NOx,GDP_control,71.3702337557777
+Indonesia,natural gas,NOx,GDP_control,71.3701999832673
+Japan,crude oil,NMVOC,GDP_control,96.2292067891099
+Japan,natural gas,NMVOC,GDP_control,96.2292077866861
+Mexico,coal,CO,GDP_control,98.1383066597265
+Mexico,coal,NMVOC,GDP_control,78.8693835183377
+Mexico,coal,NOx,GDP_control,97.6177747
+Mexico,crude oil,NMVOC,GDP_control,1.75188368897033
+Mexico,crude oil,NOx,GDP_control,6.34428010315436
+Mexico,natural gas,NMVOC,GDP_control,1.75187967103017
+Mexico,natural gas,NOx,GDP_control,6.34271039429576
+Middle East,coal,CO,GDP_control,99.5159158674039
+Middle East,coal,NMVOC,GDP_control,94.5432483697299
+Middle East,coal,NOx,GDP_control,99.3833783410658
+Middle East,crude oil,NOx,GDP_control,63.5472982224377
+Middle East,natural gas,NOx,GDP_control,63.5472766492331
+Pakistan,coal,CO,GDP_control,99.0463646702188
+Pakistan,coal,NMVOC,GDP_control,90.5223558618637
+Pakistan,coal,NOx,GDP_control,98.7834576944445
+Russia,coal,NMVOC,GDP_control,80.5602525057467
+Russia,crude oil,CO,GDP_control,6.56697901321393
+Russia,crude oil,NOx,GDP_control,86.7905837620546
+Russia,natural gas,CO,GDP_control,6.5669774216404
+Russia,natural gas,NOx,GDP_control,86.7905858683058
+South Africa,coal,CO,GDP_control,88.90192326797
+South Africa,coal,NMVOC,GDP_control,42.3482184407912
+South Africa,coal,NOx,GDP_control,85.865969147619
+South Africa,crude oil,NMVOC,GDP_control,81.582027621345
+South Africa,natural gas,NMVOC,GDP_control,81.5820286751085
+South America_Northern,coal,CO,GDP_control,64.7089615319597
+South America_Northern,coal,NMVOC,GDP_control,47.1586886458135
+South America_Northern,coal,NOx,GDP_control,55.0978225543479
+South America_Northern,crude oil,NMVOC,GDP_control,5.17793302114432
+South America_Northern,crude oil,NOx,GDP_control,42.398499311971
+South America_Northern,natural gas,NMVOC,GDP_control,5.17792803431219
+South America_Northern,natural gas,NOx,GDP_control,42.3989198045588
+South America_Southern,coal,CO,GDP_control,99.9514347048779
+South America_Southern,coal,NMVOC,GDP_control,99.4128669613476
+South America_Southern,coal,NOx,GDP_control,99.9381076314751
+South America_Southern,crude oil,NMVOC,GDP_control,5.72535110354638
+South America_Southern,crude oil,NOx,GDP_control,79.4852173849752
+South America_Southern,natural gas,NMVOC,GDP_control,5.72535531712787
+South America_Southern,natural gas,NOx,GDP_control,79.485049410798
+South Asia,coal,CO,GDP_control,99.9316825607629
+South Asia,coal,NMVOC,GDP_control,99.1727273768144
+South Asia,coal,NOx,GDP_control,99.9131253162017
+South Korea,coal,CO,GDP_control,84.1550540232506
+South Korea,coal,NMVOC,GDP_control,57.5326631009735
+South Korea,coal,NOx,GDP_control,79.8267994915254
+South Korea,crude oil,NMVOC,GDP_control,98.2037019033486
+South Korea,natural gas,NMVOC,GDP_control,98.2037017617463
+Southeast Asia,coal,CO,GDP_control,99.1035533251832
+Southeast Asia,coal,NMVOC,GDP_control,91.4458587895136
+Southeast Asia,coal,NOx,GDP_control,98.8597877923217
+Southeast Asia,crude oil,NOx,GDP_control,45.3707356607089
+Southeast Asia,natural gas,NOx,GDP_control,45.3703710446645
+Taiwan,crude oil,NMVOC,GDP_control,98.1967386053892
+Taiwan,natural gas,NMVOC,GDP_control,98.1967361052024
+USA,coal,CO,GDP_control,3.81877463861917
+USA,coal,NMVOC,GDP_control,1.55948637157668
+USA,coal,NOx,GDP_control,3.69110884115509
+USA,crude oil,CO,GDP_control,5.20745325617144
+USA,crude oil,NMVOC,GDP_control,5.70689879020572
+USA,crude oil,NOx,GDP_control,4.50731942095661
+USA,natural gas,CO,GDP_control,5.2074529331332
+USA,natural gas,NMVOC,GDP_control,5.70689805978047
+USA,natural gas,NOx,GDP_control,4.50722244507869
