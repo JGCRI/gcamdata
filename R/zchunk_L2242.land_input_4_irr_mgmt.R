@@ -23,7 +23,6 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
              FILE = "aglu/A_LT_Mapping",
              FILE = "temp-data-inject/L223.LN3_MgdAllocation_bio",
              FILE = "temp-data-inject/L223.LN3_MgdAllocation_crop",
-             FILE = "temp-data-inject/L223.LN3_LeafIsGhostShareRel",
              "L2012.AgYield_bio_ref"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L2242.LN4_Logit",
@@ -42,7 +41,6 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
     A_LT_Mapping <- get_data(all_data, "aglu/A_LT_Mapping")
     L223.LN3_MgdAllocation_bio <- get_data(all_data, "temp-data-inject/L223.LN3_MgdAllocation_bio")
     L223.LN3_MgdAllocation_crop <- get_data(all_data, "temp-data-inject/L223.LN3_MgdAllocation_crop")
-    L223.LN3_LeafIsGhostShareRel <- get_data(all_data, "temp-data-inject/L223.LN3_LeafIsGhostShareRel")
     L2012.AgYield_bio_ref <- get_data(all_data, "L2012.AgYield_bio_ref")
 
     # L2242.LN4_Logit: Logit exponent of the fourth land nest by region
@@ -93,12 +91,12 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
       L2242.LN4_NodeGhostShare
 
     # L2242.LN4_NodeIsGhostShareRel:
-    # Specify whether bioenergy ghost node share is relative.
-    # These are the same values that would have been set in the leaves in land input 3.
-    # We can just copy that data frame and just rename the LandLeaf column to LandNode.
-    L223.LN3_LeafIsGhostShareRel %>%
-      rename(LandNode4 = LandLeaf) %>%
-      na.omit ->
+    # Specify whether bioenergy ghost share is relative to the dominant crop
+    # Note: this was just set to 1 in the old data system
+    L2242.LN4_NodeGhostShare %>%
+      select(-year, -ghost.unnormalized.share) %>%
+      distinct() %>%
+      mutate(is.ghost.share.relative = 1) ->
       L2242.LN4_NodeIsGhostShareRel
 
     # Produce outputs
@@ -124,12 +122,12 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
       L2242.LN4_NodeGhostShare
 
     L2242.LN4_NodeIsGhostShareRel %>%
-      add_title("Whether bioenergy ghost node share is relative, the forth land nest") %>%
+      add_title("Whether bioenergy ghost share is relative to the dominant crop, the forth land nest") %>%
       add_units("NA") %>%
-      add_comments("These are the same values set in the the third land nest leaves") %>%
-      add_comments("Copy values from the third land nest and rename LandLeafe to LandNode4") %>%
+      add_comments("Copy the nesting structure from L2242.LN4_NodeGhostShare") %>%
+      add_comments("Set is.ghost.share.relative to 1") %>%
       add_legacy_name("L2242.LN4_NodeIsGhostShareRel") %>%
-      add_precursors("temp-data-inject/L223.LN3_LeafIsGhostShareRel") ->
+      same_precursors_as("L2242.LN4_NodeGhostShare") ->
       L2242.LN4_NodeIsGhostShareRel
 
     return_data(L2242.LN4_Logit, L2242.LN4_NodeGhostShare, L2242.LN4_NodeIsGhostShareRel)
