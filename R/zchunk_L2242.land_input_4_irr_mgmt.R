@@ -130,7 +130,7 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
       same_precursors_as("L2242.LN4_NodeGhostShare") ->
       L2242.LN4_GhostShareRelativeToDominantCrop
 
-    return_data(L2242.LN4_Logit, L2242.LN4_NodeGhostShare, L2242.LN4_NodeIsGhostShareRel)
+    return_data(L2242.LN4_Logit, L2242.LN4_NodeGhostShare, L2242.LN4_GhostShareRelativeToDominantCrop)
   } else {
     stop("Unknown command")
   }
