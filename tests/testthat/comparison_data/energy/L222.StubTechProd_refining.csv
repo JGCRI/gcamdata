@@ -1,0 +1,645 @@
+INPUT_TABLE
+Variable ID
+StubTechProd
+
+region,supplysector,subsector,stub.technology,year,calOutputValue,year.share.weight,subs.share.weight,share.weight
+USA,refining,oil refining,oil refining,1975,31.2039091,1975,1,1
+Africa_Eastern,refining,oil refining,oil refining,1975,0.199126,1975,1,1
+Africa_Northern,refining,oil refining,oil refining,1975,0.7583155,1975,1,1
+Africa_Southern,refining,oil refining,oil refining,1975,0.1612701,1975,1,1
+Africa_Western,refining,oil refining,oil refining,1975,0.4296597,1975,1,1
+Australia_NZ,refining,oil refining,oil refining,1975,1.3621244,1975,1,1
+Brazil,refining,oil refining,oil refining,1975,1.7287343,1975,1,1
+Canada,refining,oil refining,oil refining,1975,3.2936285,1975,1,1
+Central America and Caribbean,refining,oil refining,oil refining,1975,1.092183,1975,1,1
+Central Asia,refining,oil refining,oil refining,1975,2.6201826,1975,1,1
+China,refining,oil refining,oil refining,1975,2.9576562,1975,1,1
+EU-12,refining,oil refining,oil refining,1975,3.2430466,1975,1,1
+EU-15,refining,oil refining,oil refining,1975,24.8497517,1975,1,1
+Europe_Eastern,refining,oil refining,oil refining,1975,3.2364415,1975,1,1
+Europe_Non_EU,refining,oil refining,oil refining,1975,0.7823161,1975,1,1
+European Free Trade Association,refining,oil refining,oil refining,1975,0.8655811,1975,1,1
+India,refining,oil refining,oil refining,1975,0.9638265,1975,1,1
+Indonesia,refining,oil refining,oil refining,1975,0.5158826,1975,1,1
+Japan,refining,oil refining,oil refining,1975,10.1961751,1975,1,1
+Mexico,refining,oil refining,oil refining,1975,1.4285981,1975,1,1
+Middle East,refining,oil refining,oil refining,1975,2.5333253,1975,1,1
+Pakistan,refining,oil refining,oil refining,1975,0.1640493,1975,1,1
+Russia,refining,oil refining,oil refining,1975,8.470774,1975,1,1
+South Africa,refining,oil refining,oil refining,1975,0.550166,1975,1,1
+South America_Northern,refining,oil refining,oil refining,1975,0.6103656,1975,1,1
+South America_Southern,refining,oil refining,oil refining,1975,0.6167234,1975,1,1
+South Asia,refining,oil refining,oil refining,1975,0.1571331,1975,1,1
+South Korea,refining,oil refining,oil refining,1975,0.634765,1975,1,1
+Southeast Asia,refining,oil refining,oil refining,1975,1.4804641,1975,1,1
+Taiwan,refining,oil refining,oil refining,1975,0.4289813,1975,1,1
+Argentina,refining,oil refining,oil refining,1975,0.9273664,1975,1,1
+Colombia,refining,oil refining,oil refining,1975,0.2664808,1975,1,1
+USA,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+USA,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Africa_Eastern,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Africa_Eastern,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Africa_Northern,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Africa_Northern,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Africa_Southern,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Africa_Southern,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Africa_Western,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Africa_Western,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Australia_NZ,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Australia_NZ,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Brazil,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Brazil,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Canada,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Canada,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Central America and Caribbean,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Central America and Caribbean,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Central Asia,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Central Asia,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+China,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+China,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+EU-12,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+EU-12,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+EU-15,refining,coal to liquids,coal to liquids,1975,0.0006279,1975,1,1
+EU-15,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Europe_Eastern,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Europe_Eastern,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Europe_Non_EU,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Europe_Non_EU,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+European Free Trade Association,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+European Free Trade Association,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+India,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+India,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Indonesia,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Indonesia,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Japan,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Japan,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Mexico,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Mexico,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Middle East,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Middle East,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Pakistan,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Pakistan,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Russia,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Russia,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+South Africa,refining,coal to liquids,coal to liquids,1975,0.0051488,1975,1,1
+South Africa,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+South America_Northern,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+South America_Northern,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+South America_Southern,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+South America_Southern,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+South Asia,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+South Asia,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+South Korea,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+South Korea,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Southeast Asia,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Southeast Asia,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Taiwan,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Taiwan,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Argentina,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Argentina,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+Colombia,refining,coal to liquids,coal to liquids,1975,0,1975,0,0
+Colombia,refining,gas to liquids,gas to liquids,1975,0,1975,0,0
+USA,refining,biomass liquids,corn ethanol,1975,0,1975,0,0
+Africa_Eastern,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+Africa_Northern,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+Africa_Southern,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+Africa_Western,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+Australia_NZ,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+Brazil,refining,biomass liquids,sugar cane ethanol,1975,0.0036,1975,1,1
+Canada,refining,biomass liquids,corn ethanol,1975,0,1975,0,0
+Central America and Caribbean,refining,biomass liquids,sugar cane ethanol,1975,0.03826,1975,1,1
+Central Asia,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+China,refining,biomass liquids,corn ethanol,1975,0,1975,0,0
+EU-12,refining,biomass liquids,corn ethanol,1975,0,1975,0,0
+EU-15,refining,biomass liquids,corn ethanol,1975,0,1975,0,0
+Europe_Eastern,refining,biomass liquids,corn ethanol,1975,0,1975,0,0
+Europe_Non_EU,refining,biomass liquids,corn ethanol,1975,0,1975,0,0
+European Free Trade Association,refining,biomass liquids,corn ethanol,1975,0,1975,0,0
+India,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+Indonesia,refining,biomass liquids,sugar cane ethanol,1975,0,1975,0,0
+Japan,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+Mexico,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+Middle East,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+Pakistan,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+Russia,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+South Africa,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+South America_Northern,refining,biomass liquids,sugar cane ethanol,1975,0,1975,0,0
+South America_Southern,refining,biomass liquids,corn ethanol,1975,0,1975,0,0
+South Asia,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+South Korea,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+Southeast Asia,refining,biomass liquids,sugar cane ethanol,1975,0,1975,0,0
+Taiwan,refining,biomass liquids,cellulosic ethanol,1975,0,1975,0,0
+Argentina,refining,biomass liquids,corn ethanol,1975,0,1975,0,0
+Colombia,refining,biomass liquids,sugar cane ethanol,1975,0,1975,0,0
+USA,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+Africa_Eastern,refining,biomass liquids,FT biofuels,1975,0,1975,0,0
+Africa_Northern,refining,biomass liquids,FT biofuels,1975,0,1975,0,0
+Africa_Southern,refining,biomass liquids,FT biofuels,1975,0,1975,0,0
+Africa_Western,refining,biomass liquids,FT biofuels,1975,0,1975,0,0
+Australia_NZ,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+Brazil,refining,biomass liquids,biodiesel,1975,0,1975,1,0
+Canada,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+Central America and Caribbean,refining,biomass liquids,biodiesel,1975,0,1975,1,0
+Central Asia,refining,biomass liquids,FT biofuels,1975,0,1975,0,0
+China,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+EU-12,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+EU-15,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+Europe_Eastern,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+Europe_Non_EU,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+European Free Trade Association,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+India,refining,biomass liquids,FT biofuels,1975,0,1975,0,0
+Indonesia,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+Japan,refining,biomass liquids,FT biofuels,1975,0,1975,0,0
+Mexico,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+Middle East,refining,biomass liquids,FT biofuels,1975,0,1975,0,0
+Pakistan,refining,biomass liquids,FT biofuels,1975,0,1975,0,0
+Russia,refining,biomass liquids,FT biofuels,1975,0,1975,0,0
+South Africa,refining,biomass liquids,FT biofuels,1975,0,1975,0,0
+South America_Northern,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+South America_Southern,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+South Asia,refining,biomass liquids,FT biofuels,1975,0,1975,0,0
+South Korea,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+Southeast Asia,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+Taiwan,refining,biomass liquids,FT biofuels,1975,0,1975,0,0
+Argentina,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+Colombia,refining,biomass liquids,biodiesel,1975,0,1975,0,0
+USA,refining,oil refining,oil refining,1990,31.6902792,1990,1,1
+Africa_Eastern,refining,oil refining,oil refining,1990,0.3278438,1990,1,1
+Africa_Northern,refining,oil refining,oil refining,1990,2.0105717,1990,1,1
+Africa_Southern,refining,oil refining,oil refining,1990,0.2395147,1990,1,1
+Africa_Western,refining,oil refining,oil refining,1990,0.6856012,1990,1,1
+Australia_NZ,refining,oil refining,oil refining,1990,1.5260996,1990,1,1
+Brazil,refining,oil refining,oil refining,1990,2.3780307,1990,1,1
+Canada,refining,oil refining,oil refining,1990,3.1222491,1990,1,1
+Central America and Caribbean,refining,oil refining,oil refining,1990,1.1785783,1990,1,1
+Central Asia,refining,oil refining,oil refining,1990,2.5502368,1990,1,1
+China,refining,oil refining,oil refining,1990,4.9217696,1990,1,1
+EU-12,refining,oil refining,oil refining,1990,3.2248204,1990,1,1
+EU-15,refining,oil refining,oil refining,1990,22.9132006,1990,1,1
+Europe_Eastern,refining,oil refining,oil refining,1990,3.4820822,1990,1,1
+Europe_Non_EU,refining,oil refining,oil refining,1990,1.4534539,1990,1,1
+European Free Trade Association,refining,oil refining,oil refining,1990,0.9120216,1990,1,1
+India,refining,oil refining,oil refining,1990,2.4403492,1990,1,1
+Indonesia,refining,oil refining,oil refining,1990,1.3555799,1990,1,1
+Japan,refining,oil refining,oil refining,1990,10.4293652,1990,1,1
+Mexico,refining,oil refining,oil refining,1990,2.8769899,1990,1,1
+Middle East,refining,oil refining,oil refining,1990,6.8109935,1990,1,1
+Pakistan,refining,oil refining,oil refining,1990,0.4406253,1990,1,1
+Russia,refining,oil refining,oil refining,1990,9.6371417,1990,1,1
+South Africa,refining,oil refining,oil refining,1990,0.5813654,1990,1,1
+South America_Northern,refining,oil refining,oil refining,1990,0.820503,1990,1,1
+South America_Southern,refining,oil refining,oil refining,1990,0.8364776,1990,1,1
+South Asia,refining,oil refining,oil refining,1990,0.2222239,1990,1,1
+South Korea,refining,oil refining,oil refining,1990,2.0949128,1990,1,1
+Southeast Asia,refining,oil refining,oil refining,1990,3.1394635,1990,1,1
+Taiwan,refining,oil refining,oil refining,1990,1.0708252,1990,1,1
+Argentina,refining,oil refining,oil refining,1990,0.7668059,1990,1,1
+Colombia,refining,oil refining,oil refining,1990,0.3978631,1990,1,1
+USA,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+USA,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Africa_Eastern,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Africa_Eastern,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Africa_Northern,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Africa_Northern,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Africa_Southern,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Africa_Southern,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Africa_Western,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Africa_Western,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Australia_NZ,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Australia_NZ,refining,gas to liquids,gas to liquids,1990,0.0268741,1990,1,1
+Brazil,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Brazil,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Canada,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Canada,refining,gas to liquids,gas to liquids,1990,0.0142743,1990,1,1
+Central America and Caribbean,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Central America and Caribbean,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Central Asia,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Central Asia,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+China,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+China,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+EU-12,refining,coal to liquids,coal to liquids,1990,0.0042279,1990,1,1
+EU-12,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+EU-15,refining,coal to liquids,coal to liquids,1990,0.0001674,1990,1,1
+EU-15,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Europe_Eastern,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Europe_Eastern,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Europe_Non_EU,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Europe_Non_EU,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+European Free Trade Association,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+European Free Trade Association,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+India,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+India,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Indonesia,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Indonesia,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Japan,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Japan,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Mexico,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Mexico,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Middle East,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Middle East,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Pakistan,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Pakistan,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Russia,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Russia,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+South Africa,refining,coal to liquids,coal to liquids,1990,0.160575,1990,1,1
+South Africa,refining,gas to liquids,gas to liquids,1990,0.0365856,1990,1,1
+South America_Northern,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+South America_Northern,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+South America_Southern,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+South America_Southern,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+South Asia,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+South Asia,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+South Korea,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+South Korea,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Southeast Asia,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Southeast Asia,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Taiwan,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Taiwan,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Argentina,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Argentina,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+Colombia,refining,coal to liquids,coal to liquids,1990,0,1990,0,0
+Colombia,refining,gas to liquids,gas to liquids,1990,0,1990,0,0
+USA,refining,biomass liquids,corn ethanol,1990,0,1990,0,0
+Africa_Eastern,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+Africa_Northern,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+Africa_Southern,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+Africa_Western,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+Australia_NZ,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+Brazil,refining,biomass liquids,sugar cane ethanol,1990,0.2450903,1990,1,1
+Canada,refining,biomass liquids,corn ethanol,1990,0,1990,0,0
+Central America and Caribbean,refining,biomass liquids,sugar cane ethanol,1990,0.0580598,1990,1,1
+Central Asia,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+China,refining,biomass liquids,corn ethanol,1990,0,1990,0,0
+EU-12,refining,biomass liquids,corn ethanol,1990,0,1990,0,0
+EU-15,refining,biomass liquids,corn ethanol,1990,0.0002512,1990,1,1
+Europe_Eastern,refining,biomass liquids,corn ethanol,1990,0,1990,0,0
+Europe_Non_EU,refining,biomass liquids,corn ethanol,1990,0,1990,0,0
+European Free Trade Association,refining,biomass liquids,corn ethanol,1990,0,1990,0,0
+India,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+Indonesia,refining,biomass liquids,sugar cane ethanol,1990,0,1990,0,0
+Japan,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+Mexico,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+Middle East,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+Pakistan,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+Russia,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+South Africa,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+South America_Northern,refining,biomass liquids,sugar cane ethanol,1990,0,1990,0,0
+South America_Southern,refining,biomass liquids,corn ethanol,1990,0.0006279,1990,1,1
+South Asia,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+South Korea,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+Southeast Asia,refining,biomass liquids,sugar cane ethanol,1990,0,1990,0,0
+Taiwan,refining,biomass liquids,cellulosic ethanol,1990,0,1990,0,0
+Argentina,refining,biomass liquids,corn ethanol,1990,0,1990,0,0
+Colombia,refining,biomass liquids,sugar cane ethanol,1990,0,1990,0,0
+USA,refining,biomass liquids,biodiesel,1990,0,1990,0,0
+Africa_Eastern,refining,biomass liquids,FT biofuels,1990,0,1990,0,0
+Africa_Northern,refining,biomass liquids,FT biofuels,1990,0,1990,0,0
+Africa_Southern,refining,biomass liquids,FT biofuels,1990,0,1990,0,0
+Africa_Western,refining,biomass liquids,FT biofuels,1990,0,1990,0,0
+Australia_NZ,refining,biomass liquids,biodiesel,1990,0,1990,0,0
+Brazil,refining,biomass liquids,biodiesel,1990,0,1990,1,0
+Canada,refining,biomass liquids,biodiesel,1990,0,1990,0,0
+Central America and Caribbean,refining,biomass liquids,biodiesel,1990,0,1990,1,0
+Central Asia,refining,biomass liquids,FT biofuels,1990,0,1990,0,0
+China,refining,biomass liquids,biodiesel,1990,0,1990,0,0
+EU-12,refining,biomass liquids,biodiesel,1990,0,1990,0,0
+EU-15,refining,biomass liquids,biodiesel,1990,0,1990,1,0
+Europe_Eastern,refining,biomass liquids,biodiesel,1990,0,1990,0,0
+Europe_Non_EU,refining,biomass liquids,biodiesel,1990,0,1990,0,0
+European Free Trade Association,refining,biomass liquids,biodiesel,1990,0,1990,0,0
+India,refining,biomass liquids,FT biofuels,1990,0,1990,0,0
+Indonesia,refining,biomass liquids,biodiesel,1990,0,1990,0,0
+Japan,refining,biomass liquids,FT biofuels,1990,0,1990,0,0
+Mexico,refining,biomass liquids,biodiesel,1990,0,1990,0,0
+Middle East,refining,biomass liquids,FT biofuels,1990,0,1990,0,0
+Pakistan,refining,biomass liquids,FT biofuels,1990,0,1990,0,0
+Russia,refining,biomass liquids,FT biofuels,1990,0,1990,0,0
+South Africa,refining,biomass liquids,FT biofuels,1990,0,1990,0,0
+South America_Northern,refining,biomass liquids,biodiesel,1990,0,1990,0,0
+South America_Southern,refining,biomass liquids,biodiesel,1990,0,1990,1,0
+South Asia,refining,biomass liquids,FT biofuels,1990,0,1990,0,0
+South Korea,refining,biomass liquids,biodiesel,1990,0,1990,0,0
+Southeast Asia,refining,biomass liquids,biodiesel,1990,0,1990,0,0
+Taiwan,refining,biomass liquids,FT biofuels,1990,0,1990,0,0
+Argentina,refining,biomass liquids,biodiesel,1990,0,1990,0,0
+Colombia,refining,biomass liquids,biodiesel,1990,0,1990,0,0
+USA,refining,oil refining,oil refining,2005,38.9681757,2005,1,1
+Africa_Eastern,refining,oil refining,oil refining,2005,0.5120437,2005,1,1
+Africa_Northern,refining,oil refining,oil refining,2005,2.8338021,2005,1,1
+Africa_Southern,refining,oil refining,oil refining,2005,0.3408706,2005,1,1
+Africa_Western,refining,oil refining,oil refining,2005,1.1521983,2005,1,1
+Australia_NZ,refining,oil refining,oil refining,2005,2.0727096,2005,1,1
+Brazil,refining,oil refining,oil refining,2005,3.6746038,2005,1,1
+Canada,refining,oil refining,oil refining,2005,4.128889,2005,1,1
+Central America and Caribbean,refining,oil refining,oil refining,2005,1.7500809,2005,1,1
+Central Asia,refining,oil refining,oil refining,2005,1.0981017,2005,1,1
+China,refining,oil refining,oil refining,2005,13.6330386,2005,1,1
+EU-12,refining,oil refining,oil refining,2005,2.7847614,2005,1,1
+EU-15,refining,oil refining,oil refining,2005,25.9186482,2005,1,1
+Europe_Eastern,refining,oil refining,oil refining,2005,0.6692561,2005,1,1
+Europe_Non_EU,refining,oil refining,oil refining,2005,1.7356476,2005,1,1
+European Free Trade Association,refining,oil refining,oil refining,2005,0.9578171,2005,1,1
+India,refining,oil refining,oil refining,2005,4.7827827,2005,1,1
+Indonesia,refining,oil refining,oil refining,2005,2.6881559,2005,1,1
+Japan,refining,oil refining,oil refining,2005,10.2015184,2005,1,1
+Mexico,refining,oil refining,oil refining,2005,3.7568438,2005,1,1
+Middle East,refining,oil refining,oil refining,2005,11.6334023,2005,1,1
+Pakistan,refining,oil refining,oil refining,2005,0.6966779,2005,1,1
+Russia,refining,oil refining,oil refining,2005,6.1059937,2005,1,1
+South Africa,refining,oil refining,oil refining,2005,0.8356448,2005,1,1
+South America_Northern,refining,oil refining,oil refining,2005,1.2537357,2005,1,1
+South America_Southern,refining,oil refining,oil refining,2005,1.3959158,2005,1,1
+South Asia,refining,oil refining,oil refining,2005,0.5511764,2005,1,1
+South Korea,refining,oil refining,oil refining,2005,4.1661361,2005,1,1
+Southeast Asia,refining,oil refining,oil refining,2005,6.2656431,2005,1,1
+Taiwan,refining,oil refining,oil refining,2005,1.8346537,2005,1,1
+Argentina,refining,oil refining,oil refining,2005,1.0842542,2005,1,1
+Colombia,refining,oil refining,oil refining,2005,0.5052335,2005,1,1
+USA,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+USA,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+Africa_Eastern,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Africa_Eastern,refining,gas to liquids,gas to liquids,2005,0.0096013,2005,1,1
+Africa_Northern,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Africa_Northern,refining,gas to liquids,gas to liquids,2005,5.67e-05,2005,1,1
+Africa_Southern,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Africa_Southern,refining,gas to liquids,gas to liquids,2005,0.0020575,2005,1,1
+Africa_Western,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Africa_Western,refining,gas to liquids,gas to liquids,2005,0.0101247,2005,1,1
+Australia_NZ,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Australia_NZ,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+Brazil,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Brazil,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+Canada,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Canada,refining,gas to liquids,gas to liquids,2005,0.0237346,2005,1,1
+Central America and Caribbean,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Central America and Caribbean,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+Central Asia,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Central Asia,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+China,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+China,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+EU-12,refining,coal to liquids,coal to liquids,2005,0.0144836,2005,1,1
+EU-12,refining,gas to liquids,gas to liquids,2005,0.0013814,2005,1,1
+EU-15,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+EU-15,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+Europe_Eastern,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Europe_Eastern,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+Europe_Non_EU,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Europe_Non_EU,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+European Free Trade Association,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+European Free Trade Association,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+India,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+India,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+Indonesia,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Indonesia,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+Japan,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Japan,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+Mexico,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Mexico,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+Middle East,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Middle East,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+Pakistan,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Pakistan,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+Russia,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Russia,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+South Africa,refining,coal to liquids,coal to liquids,2005,0.0857293,2005,1,1
+South Africa,refining,gas to liquids,gas to liquids,2005,0.0615761,2005,1,1
+South America_Northern,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+South America_Northern,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+South America_Southern,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+South America_Southern,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+South Asia,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+South Asia,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+South Korea,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+South Korea,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+Southeast Asia,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Southeast Asia,refining,gas to liquids,gas to liquids,2005,0.0402801,2005,1,1
+Taiwan,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Taiwan,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+Argentina,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Argentina,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+Colombia,refining,coal to liquids,coal to liquids,2005,0,2005,0,0
+Colombia,refining,gas to liquids,gas to liquids,2005,0,2005,0,0
+USA,refining,biomass liquids,corn ethanol,2005,0.3254615,2005,1,1
+Africa_Eastern,refining,biomass liquids,cellulosic ethanol,2005,0,2005,0,0
+Africa_Northern,refining,biomass liquids,cellulosic ethanol,2005,0,2005,0,0
+Africa_Southern,refining,biomass liquids,cellulosic ethanol,2005,0,2005,0,0
+Africa_Western,refining,biomass liquids,cellulosic ethanol,2005,0,2005,0,0
+Australia_NZ,refining,biomass liquids,cellulosic ethanol,2005,0.0004605,2005,1,1
+Brazil,refining,biomass liquids,sugar cane ethanol,2005,0.2914712,2005,1,1
+Canada,refining,biomass liquids,corn ethanol,2005,0.0071162,2005,1,1
+Central America and Caribbean,refining,biomass liquids,sugar cane ethanol,2005,0.0297625,2005,1,1
+Central Asia,refining,biomass liquids,cellulosic ethanol,2005,0,2005,0,0
+China,refining,biomass liquids,corn ethanol,2005,0,2005,0,0
+EU-12,refining,biomass liquids,corn ethanol,2005,0.0018418,2005,1,1
+EU-15,refining,biomass liquids,corn ethanol,2005,0.0704504,2005,1,1
+Europe_Eastern,refining,biomass liquids,corn ethanol,2005,0,2005,0,0
+Europe_Non_EU,refining,biomass liquids,corn ethanol,2005,0,2005,0,0
+European Free Trade Association,refining,biomass liquids,corn ethanol,2005,4.19e-05,2005,1,1
+India,refining,biomass liquids,cellulosic ethanol,2005,0.0045627,2005,1,1
+Indonesia,refining,biomass liquids,sugar cane ethanol,2005,0,2005,0,0
+Japan,refining,biomass liquids,cellulosic ethanol,2005,0,2005,0,0
+Mexico,refining,biomass liquids,cellulosic ethanol,2005,0,2005,0,0
+Middle East,refining,biomass liquids,cellulosic ethanol,2005,0,2005,0,0
+Pakistan,refining,biomass liquids,cellulosic ethanol,2005,0,2005,0,0
+Russia,refining,biomass liquids,cellulosic ethanol,2005,0,2005,0,0
+South Africa,refining,biomass liquids,cellulosic ethanol,2005,0,2005,0,0
+South America_Northern,refining,biomass liquids,sugar cane ethanol,2005,0,2005,0,0
+South America_Southern,refining,biomass liquids,corn ethanol,2005,0.000586,2005,1,1
+South Asia,refining,biomass liquids,cellulosic ethanol,2005,0,2005,0,0
+South Korea,refining,biomass liquids,cellulosic ethanol,2005,0,2005,1,0
+Southeast Asia,refining,biomass liquids,sugar cane ethanol,2005,0.0014651,2005,1,1
+Taiwan,refining,biomass liquids,cellulosic ethanol,2005,0,2005,0,0
+Argentina,refining,biomass liquids,corn ethanol,2005,0,2005,1,0
+Colombia,refining,biomass liquids,sugar cane ethanol,2005,4.19e-05,2005,1,1
+USA,refining,biomass liquids,biodiesel,2005,0.0123906,2005,1,1
+Africa_Eastern,refining,biomass liquids,FT biofuels,2005,0,2005,0,0
+Africa_Northern,refining,biomass liquids,FT biofuels,2005,0,2005,0,0
+Africa_Southern,refining,biomass liquids,FT biofuels,2005,0,2005,0,0
+Africa_Western,refining,biomass liquids,FT biofuels,2005,0,2005,0,0
+Australia_NZ,refining,biomass liquids,biodiesel,2005,0,2005,1,0
+Brazil,refining,biomass liquids,biodiesel,2005,0,2005,1,0
+Canada,refining,biomass liquids,biodiesel,2005,0,2005,1,0
+Central America and Caribbean,refining,biomass liquids,biodiesel,2005,0,2005,1,0
+Central Asia,refining,biomass liquids,FT biofuels,2005,0,2005,0,0
+China,refining,biomass liquids,biodiesel,2005,0,2005,0,0
+EU-12,refining,biomass liquids,biodiesel,2005,0.0013814,2005,1,1
+EU-15,refining,biomass liquids,biodiesel,2005,0.0563436,2005,1,1
+Europe_Eastern,refining,biomass liquids,biodiesel,2005,0,2005,0,0
+Europe_Non_EU,refining,biomass liquids,biodiesel,2005,0,2005,0,0
+European Free Trade Association,refining,biomass liquids,biodiesel,2005,0.0002093,2005,1,1
+India,refining,biomass liquids,FT biofuels,2005,0,2005,1,0
+Indonesia,refining,biomass liquids,biodiesel,2005,0,2005,0,0
+Japan,refining,biomass liquids,FT biofuels,2005,0,2005,0,0
+Mexico,refining,biomass liquids,biodiesel,2005,0,2005,0,0
+Middle East,refining,biomass liquids,FT biofuels,2005,0,2005,0,0
+Pakistan,refining,biomass liquids,FT biofuels,2005,0,2005,0,0
+Russia,refining,biomass liquids,FT biofuels,2005,0,2005,0,0
+South Africa,refining,biomass liquids,FT biofuels,2005,0,2005,0,0
+South America_Northern,refining,biomass liquids,biodiesel,2005,0,2005,0,0
+South America_Southern,refining,biomass liquids,biodiesel,2005,0,2005,1,0
+South Asia,refining,biomass liquids,FT biofuels,2005,0,2005,0,0
+South Korea,refining,biomass liquids,biodiesel,2005,0.0004605,2005,1,1
+Southeast Asia,refining,biomass liquids,biodiesel,2005,0,2005,1,0
+Taiwan,refining,biomass liquids,FT biofuels,2005,0,2005,0,0
+Argentina,refining,biomass liquids,biodiesel,2005,0.0006698,2005,1,1
+Colombia,refining,biomass liquids,biodiesel,2005,0,2005,1,0
+USA,refining,oil refining,oil refining,2010,34.1032164,2010,1,1
+Africa_Eastern,refining,oil refining,oil refining,2010,0.6989755,2010,1,1
+Africa_Northern,refining,oil refining,oil refining,2010,3.3355357,2010,1,1
+Africa_Southern,refining,oil refining,oil refining,2010,0.5140241,2010,1,1
+Africa_Western,refining,oil refining,oil refining,2010,1.201483,2010,1,1
+Australia_NZ,refining,oil refining,oil refining,2010,2.1624915,2010,1,1
+Brazil,refining,oil refining,oil refining,2010,4.4887842,2010,1,1
+Canada,refining,oil refining,oil refining,2010,3.9568499,2010,1,1
+Central America and Caribbean,refining,oil refining,oil refining,2010,1.8968556,2010,1,1
+Central Asia,refining,oil refining,oil refining,2010,1.3888454,2010,1,1
+China,refining,oil refining,oil refining,2010,18.1096021,2010,1,1
+EU-12,refining,oil refining,oil refining,2010,2.8153366,2010,1,1
+EU-15,refining,oil refining,oil refining,2010,23.1101663,2010,1,1
+Europe_Eastern,refining,oil refining,oil refining,2010,0.8656009,2010,1,1
+Europe_Non_EU,refining,oil refining,oil refining,2010,1.7572615,2010,1,1
+European Free Trade Association,refining,oil refining,oil refining,2010,0.9639284,2010,1,1
+India,refining,oil refining,oil refining,2010,6.1633928,2010,1,1
+Indonesia,refining,oil refining,oil refining,2010,3.0087361,2010,1,1
+Japan,refining,oil refining,oil refining,2010,8.4402764,2010,1,1
+Mexico,refining,oil refining,oil refining,2010,3.6942571,2010,1,1
+Middle East,refining,oil refining,oil refining,2010,14.6395961,2010,1,1
+Pakistan,refining,oil refining,oil refining,2010,0.9153558,2010,1,1
+Russia,refining,oil refining,oil refining,2010,6.4629757,2010,1,1
+South Africa,refining,oil refining,oil refining,2010,0.7997014,2010,1,1
+South America_Northern,refining,oil refining,oil refining,2010,1.6567744,2010,1,1
+South America_Southern,refining,oil refining,oil refining,2010,1.8300072,2010,1,1
+South Asia,refining,oil refining,oil refining,2010,0.6318142,2010,1,1
+South Korea,refining,oil refining,oil refining,2010,4.1806768,2010,1,1
+Southeast Asia,refining,oil refining,oil refining,2010,8.2399401,2010,1,1
+Taiwan,refining,oil refining,oil refining,2010,1.9855465,2010,1,1
+Argentina,refining,oil refining,oil refining,2010,1.299966,2010,1,1
+Colombia,refining,oil refining,oil refining,2010,0.5341686,2010,1,1
+USA,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+USA,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+Africa_Eastern,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Africa_Eastern,refining,gas to liquids,gas to liquids,2010,0.0111249,2010,1,1
+Africa_Northern,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Africa_Northern,refining,gas to liquids,gas to liquids,2010,6.84e-05,2010,1,1
+Africa_Southern,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Africa_Southern,refining,gas to liquids,gas to liquids,2010,0.0023552,2010,1,1
+Africa_Western,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Africa_Western,refining,gas to liquids,gas to liquids,2010,0.0117237,2010,1,1
+Australia_NZ,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Australia_NZ,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+Brazil,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Brazil,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+Canada,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Canada,refining,gas to liquids,gas to liquids,2010,0.0334461,2010,1,1
+Central America and Caribbean,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Central America and Caribbean,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+Central Asia,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Central Asia,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+China,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+China,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+EU-12,refining,coal to liquids,coal to liquids,2010,0.0207626,2010,1,1
+EU-12,refining,gas to liquids,gas to liquids,2010,0.0033907,2010,1,1
+EU-15,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+EU-15,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+Europe_Eastern,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Europe_Eastern,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+Europe_Non_EU,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Europe_Non_EU,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+European Free Trade Association,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+European Free Trade Association,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+India,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+India,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+Indonesia,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Indonesia,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+Japan,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Japan,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+Mexico,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Mexico,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+Middle East,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Middle East,refining,gas to liquids,gas to liquids,2010,0.047553,2010,1,1
+Pakistan,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Pakistan,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+Russia,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Russia,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+South Africa,refining,coal to liquids,coal to liquids,2010,0.0960687,2010,1,1
+South Africa,refining,gas to liquids,gas to liquids,2010,0.0658458,2010,1,1
+South America_Northern,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+South America_Northern,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+South America_Southern,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+South America_Southern,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+South Asia,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+South Asia,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+South Korea,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+South Korea,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+Southeast Asia,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Southeast Asia,refining,gas to liquids,gas to liquids,2010,0.0363038,2010,1,1
+Taiwan,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Taiwan,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+Argentina,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Argentina,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+Colombia,refining,coal to liquids,coal to liquids,2010,0,2010,0,0
+Colombia,refining,gas to liquids,gas to liquids,2010,0,2010,0,0
+USA,refining,biomass liquids,corn ethanol,2010,1.0311374,2010,1,1
+Africa_Eastern,refining,biomass liquids,cellulosic ethanol,2010,0,2010,0,0
+Africa_Northern,refining,biomass liquids,cellulosic ethanol,2010,0,2010,0,0
+Africa_Southern,refining,biomass liquids,cellulosic ethanol,2010,0,2010,0,0
+Africa_Western,refining,biomass liquids,cellulosic ethanol,2010,0,2010,0,0
+Australia_NZ,refining,biomass liquids,cellulosic ethanol,2010,0.0094604,2010,1,1
+Brazil,refining,biomass liquids,sugar cane ethanol,2010,0.5036595,2010,1,1
+Canada,refining,biomass liquids,corn ethanol,2010,0.0378414,2010,1,1
+Central America and Caribbean,refining,biomass liquids,sugar cane ethanol,2010,0.0097534,2010,1,1
+Central Asia,refining,biomass liquids,cellulosic ethanol,2010,0,2010,0,0
+China,refining,biomass liquids,corn ethanol,2010,0.0433251,2010,1,1
+EU-12,refining,biomass liquids,corn ethanol,2010,0.0259951,2010,1,1
+EU-15,refining,biomass liquids,corn ethanol,2010,0.1145708,2010,1,1
+Europe_Eastern,refining,biomass liquids,corn ethanol,2010,0,2010,1,0
+Europe_Non_EU,refining,biomass liquids,corn ethanol,2010,0.0001256,2010,1,1
+European Free Trade Association,refining,biomass liquids,corn ethanol,2010,0.000293,2010,1,1
+India,refining,biomass liquids,cellulosic ethanol,2010,0.0076185,2010,1,1
+Indonesia,refining,biomass liquids,sugar cane ethanol,2010,0,2010,1,0
+Japan,refining,biomass liquids,cellulosic ethanol,2010,0,2010,0,0
+Mexico,refining,biomass liquids,cellulosic ethanol,2010,0,2010,0,0
+Middle East,refining,biomass liquids,cellulosic ethanol,2010,0,2010,0,0
+Pakistan,refining,biomass liquids,cellulosic ethanol,2010,0,2010,0,0
+Russia,refining,biomass liquids,cellulosic ethanol,2010,0,2010,0,0
+South Africa,refining,biomass liquids,cellulosic ethanol,2010,0,2010,0,0
+South America_Northern,refining,biomass liquids,sugar cane ethanol,2010,0,2010,0,0
+South America_Southern,refining,biomass liquids,corn ethanol,2010,0.0028046,2010,1,1
+South Asia,refining,biomass liquids,cellulosic ethanol,2010,0,2010,0,0
+South Korea,refining,biomass liquids,cellulosic ethanol,2010,0,2010,1,0
+Southeast Asia,refining,biomass liquids,sugar cane ethanol,2010,0.0136045,2010,1,1
+Taiwan,refining,biomass liquids,cellulosic ethanol,2010,0,2010,0,0
+Argentina,refining,biomass liquids,corn ethanol,2010,0.0026372,2010,1,1
+Colombia,refining,biomass liquids,sugar cane ethanol,2010,0.0003349,2010,1,1
+USA,refining,biomass liquids,biodiesel,2010,0.0312276,2010,1,1
+Africa_Eastern,refining,biomass liquids,FT biofuels,2010,0,2010,0,0
+Africa_Northern,refining,biomass liquids,FT biofuels,2010,0,2010,0,0
+Africa_Southern,refining,biomass liquids,FT biofuels,2010,0,2010,0,0
+Africa_Western,refining,biomass liquids,FT biofuels,2010,0,2010,0,0
+Australia_NZ,refining,biomass liquids,biodiesel,2010,0.0023442,2010,1,1
+Brazil,refining,biomass liquids,biodiesel,2010,0.0851014,2010,1,1
+Canada,refining,biomass liquids,biodiesel,2010,0.0072836,2010,1,1
+Central America and Caribbean,refining,biomass liquids,biodiesel,2010,0,2010,1,0
+Central Asia,refining,biomass liquids,FT biofuels,2010,0,2010,0,0
+China,refining,biomass liquids,biodiesel,2010,0.0073674,2010,1,1
+EU-12,refining,biomass liquids,biodiesel,2010,0.0461716,2010,1,1
+EU-15,refining,biomass liquids,biodiesel,2010,0.3720517,2010,1,1
+Europe_Eastern,refining,biomass liquids,biodiesel,2010,0.0014232,2010,1,1
+Europe_Non_EU,refining,biomass liquids,biodiesel,2010,0.0005023,2010,1,1
+European Free Trade Association,refining,biomass liquids,biodiesel,2010,0.0049813,2010,1,1
+India,refining,biomass liquids,FT biofuels,2010,0,2010,1,0
+Indonesia,refining,biomass liquids,biodiesel,2010,0.0014232,2010,1,1
+Japan,refining,biomass liquids,FT biofuels,2010,0,2010,0,0
+Mexico,refining,biomass liquids,biodiesel,2010,0,2010,0,0
+Middle East,refining,biomass liquids,FT biofuels,2010,0,2010,0,0
+Pakistan,refining,biomass liquids,FT biofuels,2010,0,2010,0,0
+Russia,refining,biomass liquids,FT biofuels,2010,0,2010,0,0
+South Africa,refining,biomass liquids,FT biofuels,2010,0,2010,0,0
+South America_Northern,refining,biomass liquids,biodiesel,2010,0,2010,0,0
+South America_Southern,refining,biomass liquids,biodiesel,2010,0.0032232,2010,1,1
+South Asia,refining,biomass liquids,FT biofuels,2010,0,2010,0,0
+South Korea,refining,biomass liquids,biodiesel,2010,0.012558,2010,1,1
+Southeast Asia,refining,biomass liquids,biodiesel,2010,0.02273,2010,1,1
+Taiwan,refining,biomass liquids,FT biofuels,2010,0,2010,0,0
+Argentina,refining,biomass liquids,biodiesel,2010,0.0195068,2010,1,1
+Colombia,refining,biomass liquids,biodiesel,2010,0.000586,2010,1,1
