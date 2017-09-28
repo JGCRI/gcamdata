@@ -1,0 +1,487 @@
+INPUT_TABLE
+Variable ID
+StubTech
+
+region,supplysector,subsector,stub.technology
+USA,FodderHerb_Residue,FodderHerb,FodderHerb
+USA,FodderHerb_Residue,Residue,Residue
+USA,Pasture_FodderGrass,Pasture,Pasture
+USA,Pasture_FodderGrass,FodderGrass,FodderGrass
+USA,FeedCrops,Corn,Corn
+USA,FeedCrops,FiberCrop,FiberCrop
+USA,FeedCrops,MiscCrop,MiscCrop
+USA,FeedCrops,OilCrop,OilCrop
+USA,FeedCrops,OtherGrain,OtherGrain
+USA,FeedCrops,PalmFruit,PalmFruit
+USA,FeedCrops,Rice,Rice
+USA,FeedCrops,Root_Tuber,Root_Tuber
+USA,FeedCrops,SugarCrop,SugarCrop
+USA,FeedCrops,Wheat,Wheat
+USA,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+USA,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Africa_Eastern,FodderHerb_Residue,FodderHerb,FodderHerb
+Africa_Eastern,FodderHerb_Residue,Residue,Residue
+Africa_Eastern,Pasture_FodderGrass,Pasture,Pasture
+Africa_Eastern,Pasture_FodderGrass,FodderGrass,FodderGrass
+Africa_Eastern,FeedCrops,Corn,Corn
+Africa_Eastern,FeedCrops,FiberCrop,FiberCrop
+Africa_Eastern,FeedCrops,MiscCrop,MiscCrop
+Africa_Eastern,FeedCrops,OilCrop,OilCrop
+Africa_Eastern,FeedCrops,OtherGrain,OtherGrain
+Africa_Eastern,FeedCrops,PalmFruit,PalmFruit
+Africa_Eastern,FeedCrops,Rice,Rice
+Africa_Eastern,FeedCrops,Root_Tuber,Root_Tuber
+Africa_Eastern,FeedCrops,SugarCrop,SugarCrop
+Africa_Eastern,FeedCrops,Wheat,Wheat
+Africa_Eastern,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Africa_Northern,FodderHerb_Residue,FodderHerb,FodderHerb
+Africa_Northern,FodderHerb_Residue,Residue,Residue
+Africa_Northern,Pasture_FodderGrass,Pasture,Pasture
+Africa_Northern,Pasture_FodderGrass,FodderGrass,FodderGrass
+Africa_Northern,FeedCrops,Corn,Corn
+Africa_Northern,FeedCrops,FiberCrop,FiberCrop
+Africa_Northern,FeedCrops,MiscCrop,MiscCrop
+Africa_Northern,FeedCrops,OilCrop,OilCrop
+Africa_Northern,FeedCrops,OtherGrain,OtherGrain
+Africa_Northern,FeedCrops,PalmFruit,PalmFruit
+Africa_Northern,FeedCrops,Rice,Rice
+Africa_Northern,FeedCrops,Root_Tuber,Root_Tuber
+Africa_Northern,FeedCrops,SugarCrop,SugarCrop
+Africa_Northern,FeedCrops,Wheat,Wheat
+Africa_Northern,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Africa_Southern,FodderHerb_Residue,FodderHerb,FodderHerb
+Africa_Southern,FodderHerb_Residue,Residue,Residue
+Africa_Southern,Pasture_FodderGrass,Pasture,Pasture
+Africa_Southern,Pasture_FodderGrass,FodderGrass,FodderGrass
+Africa_Southern,FeedCrops,Corn,Corn
+Africa_Southern,FeedCrops,FiberCrop,FiberCrop
+Africa_Southern,FeedCrops,MiscCrop,MiscCrop
+Africa_Southern,FeedCrops,OilCrop,OilCrop
+Africa_Southern,FeedCrops,OtherGrain,OtherGrain
+Africa_Southern,FeedCrops,PalmFruit,PalmFruit
+Africa_Southern,FeedCrops,Rice,Rice
+Africa_Southern,FeedCrops,Root_Tuber,Root_Tuber
+Africa_Southern,FeedCrops,SugarCrop,SugarCrop
+Africa_Southern,FeedCrops,Wheat,Wheat
+Africa_Southern,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Africa_Western,FodderHerb_Residue,FodderHerb,FodderHerb
+Africa_Western,FodderHerb_Residue,Residue,Residue
+Africa_Western,Pasture_FodderGrass,Pasture,Pasture
+Africa_Western,Pasture_FodderGrass,FodderGrass,FodderGrass
+Africa_Western,FeedCrops,Corn,Corn
+Africa_Western,FeedCrops,FiberCrop,FiberCrop
+Africa_Western,FeedCrops,MiscCrop,MiscCrop
+Africa_Western,FeedCrops,OilCrop,OilCrop
+Africa_Western,FeedCrops,OtherGrain,OtherGrain
+Africa_Western,FeedCrops,PalmFruit,PalmFruit
+Africa_Western,FeedCrops,Rice,Rice
+Africa_Western,FeedCrops,Root_Tuber,Root_Tuber
+Africa_Western,FeedCrops,SugarCrop,SugarCrop
+Africa_Western,FeedCrops,Wheat,Wheat
+Africa_Western,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Australia_NZ,FodderHerb_Residue,FodderHerb,FodderHerb
+Australia_NZ,FodderHerb_Residue,Residue,Residue
+Australia_NZ,Pasture_FodderGrass,Pasture,Pasture
+Australia_NZ,Pasture_FodderGrass,FodderGrass,FodderGrass
+Australia_NZ,FeedCrops,Corn,Corn
+Australia_NZ,FeedCrops,FiberCrop,FiberCrop
+Australia_NZ,FeedCrops,MiscCrop,MiscCrop
+Australia_NZ,FeedCrops,OilCrop,OilCrop
+Australia_NZ,FeedCrops,OtherGrain,OtherGrain
+Australia_NZ,FeedCrops,PalmFruit,PalmFruit
+Australia_NZ,FeedCrops,Rice,Rice
+Australia_NZ,FeedCrops,Root_Tuber,Root_Tuber
+Australia_NZ,FeedCrops,SugarCrop,SugarCrop
+Australia_NZ,FeedCrops,Wheat,Wheat
+Australia_NZ,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+Australia_NZ,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Brazil,FodderHerb_Residue,FodderHerb,FodderHerb
+Brazil,FodderHerb_Residue,Residue,Residue
+Brazil,Pasture_FodderGrass,Pasture,Pasture
+Brazil,Pasture_FodderGrass,FodderGrass,FodderGrass
+Brazil,FeedCrops,Corn,Corn
+Brazil,FeedCrops,FiberCrop,FiberCrop
+Brazil,FeedCrops,MiscCrop,MiscCrop
+Brazil,FeedCrops,OilCrop,OilCrop
+Brazil,FeedCrops,OtherGrain,OtherGrain
+Brazil,FeedCrops,PalmFruit,PalmFruit
+Brazil,FeedCrops,Rice,Rice
+Brazil,FeedCrops,Root_Tuber,Root_Tuber
+Brazil,FeedCrops,SugarCrop,SugarCrop
+Brazil,FeedCrops,Wheat,Wheat
+Brazil,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+Brazil,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Canada,FodderHerb_Residue,FodderHerb,FodderHerb
+Canada,FodderHerb_Residue,Residue,Residue
+Canada,Pasture_FodderGrass,Pasture,Pasture
+Canada,Pasture_FodderGrass,FodderGrass,FodderGrass
+Canada,FeedCrops,Corn,Corn
+Canada,FeedCrops,FiberCrop,FiberCrop
+Canada,FeedCrops,MiscCrop,MiscCrop
+Canada,FeedCrops,OilCrop,OilCrop
+Canada,FeedCrops,OtherGrain,OtherGrain
+Canada,FeedCrops,PalmFruit,PalmFruit
+Canada,FeedCrops,Rice,Rice
+Canada,FeedCrops,Root_Tuber,Root_Tuber
+Canada,FeedCrops,SugarCrop,SugarCrop
+Canada,FeedCrops,Wheat,Wheat
+Canada,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+Canada,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Central America and Caribbean,FodderHerb_Residue,FodderHerb,FodderHerb
+Central America and Caribbean,FodderHerb_Residue,Residue,Residue
+Central America and Caribbean,Pasture_FodderGrass,Pasture,Pasture
+Central America and Caribbean,Pasture_FodderGrass,FodderGrass,FodderGrass
+Central America and Caribbean,FeedCrops,Corn,Corn
+Central America and Caribbean,FeedCrops,FiberCrop,FiberCrop
+Central America and Caribbean,FeedCrops,MiscCrop,MiscCrop
+Central America and Caribbean,FeedCrops,OilCrop,OilCrop
+Central America and Caribbean,FeedCrops,OtherGrain,OtherGrain
+Central America and Caribbean,FeedCrops,PalmFruit,PalmFruit
+Central America and Caribbean,FeedCrops,Rice,Rice
+Central America and Caribbean,FeedCrops,Root_Tuber,Root_Tuber
+Central America and Caribbean,FeedCrops,SugarCrop,SugarCrop
+Central America and Caribbean,FeedCrops,Wheat,Wheat
+Central America and Caribbean,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+Central America and Caribbean,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Central Asia,FodderHerb_Residue,FodderHerb,FodderHerb
+Central Asia,FodderHerb_Residue,Residue,Residue
+Central Asia,Pasture_FodderGrass,Pasture,Pasture
+Central Asia,Pasture_FodderGrass,FodderGrass,FodderGrass
+Central Asia,FeedCrops,Corn,Corn
+Central Asia,FeedCrops,FiberCrop,FiberCrop
+Central Asia,FeedCrops,MiscCrop,MiscCrop
+Central Asia,FeedCrops,OilCrop,OilCrop
+Central Asia,FeedCrops,OtherGrain,OtherGrain
+Central Asia,FeedCrops,PalmFruit,PalmFruit
+Central Asia,FeedCrops,Rice,Rice
+Central Asia,FeedCrops,Root_Tuber,Root_Tuber
+Central Asia,FeedCrops,SugarCrop,SugarCrop
+Central Asia,FeedCrops,Wheat,Wheat
+Central Asia,Scavenging_Other,Scavenging_Other,Scavenging_Other
+China,FodderHerb_Residue,FodderHerb,FodderHerb
+China,FodderHerb_Residue,Residue,Residue
+China,Pasture_FodderGrass,Pasture,Pasture
+China,Pasture_FodderGrass,FodderGrass,FodderGrass
+China,FeedCrops,Corn,Corn
+China,FeedCrops,FiberCrop,FiberCrop
+China,FeedCrops,MiscCrop,MiscCrop
+China,FeedCrops,OilCrop,OilCrop
+China,FeedCrops,OtherGrain,OtherGrain
+China,FeedCrops,PalmFruit,PalmFruit
+China,FeedCrops,Rice,Rice
+China,FeedCrops,Root_Tuber,Root_Tuber
+China,FeedCrops,SugarCrop,SugarCrop
+China,FeedCrops,Wheat,Wheat
+China,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+China,Scavenging_Other,Scavenging_Other,Scavenging_Other
+EU-12,FodderHerb_Residue,FodderHerb,FodderHerb
+EU-12,FodderHerb_Residue,Residue,Residue
+EU-12,Pasture_FodderGrass,Pasture,Pasture
+EU-12,Pasture_FodderGrass,FodderGrass,FodderGrass
+EU-12,FeedCrops,Corn,Corn
+EU-12,FeedCrops,FiberCrop,FiberCrop
+EU-12,FeedCrops,MiscCrop,MiscCrop
+EU-12,FeedCrops,OilCrop,OilCrop
+EU-12,FeedCrops,OtherGrain,OtherGrain
+EU-12,FeedCrops,PalmFruit,PalmFruit
+EU-12,FeedCrops,Rice,Rice
+EU-12,FeedCrops,Root_Tuber,Root_Tuber
+EU-12,FeedCrops,SugarCrop,SugarCrop
+EU-12,FeedCrops,Wheat,Wheat
+EU-12,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+EU-12,Scavenging_Other,Scavenging_Other,Scavenging_Other
+EU-15,FodderHerb_Residue,FodderHerb,FodderHerb
+EU-15,FodderHerb_Residue,Residue,Residue
+EU-15,Pasture_FodderGrass,Pasture,Pasture
+EU-15,Pasture_FodderGrass,FodderGrass,FodderGrass
+EU-15,FeedCrops,Corn,Corn
+EU-15,FeedCrops,FiberCrop,FiberCrop
+EU-15,FeedCrops,MiscCrop,MiscCrop
+EU-15,FeedCrops,OilCrop,OilCrop
+EU-15,FeedCrops,OtherGrain,OtherGrain
+EU-15,FeedCrops,PalmFruit,PalmFruit
+EU-15,FeedCrops,Rice,Rice
+EU-15,FeedCrops,Root_Tuber,Root_Tuber
+EU-15,FeedCrops,SugarCrop,SugarCrop
+EU-15,FeedCrops,Wheat,Wheat
+EU-15,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+EU-15,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Europe_Eastern,FodderHerb_Residue,FodderHerb,FodderHerb
+Europe_Eastern,FodderHerb_Residue,Residue,Residue
+Europe_Eastern,Pasture_FodderGrass,Pasture,Pasture
+Europe_Eastern,Pasture_FodderGrass,FodderGrass,FodderGrass
+Europe_Eastern,FeedCrops,Corn,Corn
+Europe_Eastern,FeedCrops,FiberCrop,FiberCrop
+Europe_Eastern,FeedCrops,MiscCrop,MiscCrop
+Europe_Eastern,FeedCrops,OilCrop,OilCrop
+Europe_Eastern,FeedCrops,OtherGrain,OtherGrain
+Europe_Eastern,FeedCrops,PalmFruit,PalmFruit
+Europe_Eastern,FeedCrops,Rice,Rice
+Europe_Eastern,FeedCrops,Root_Tuber,Root_Tuber
+Europe_Eastern,FeedCrops,SugarCrop,SugarCrop
+Europe_Eastern,FeedCrops,Wheat,Wheat
+Europe_Eastern,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+Europe_Eastern,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Europe_Non_EU,FodderHerb_Residue,FodderHerb,FodderHerb
+Europe_Non_EU,FodderHerb_Residue,Residue,Residue
+Europe_Non_EU,Pasture_FodderGrass,Pasture,Pasture
+Europe_Non_EU,Pasture_FodderGrass,FodderGrass,FodderGrass
+Europe_Non_EU,FeedCrops,Corn,Corn
+Europe_Non_EU,FeedCrops,FiberCrop,FiberCrop
+Europe_Non_EU,FeedCrops,MiscCrop,MiscCrop
+Europe_Non_EU,FeedCrops,OilCrop,OilCrop
+Europe_Non_EU,FeedCrops,OtherGrain,OtherGrain
+Europe_Non_EU,FeedCrops,PalmFruit,PalmFruit
+Europe_Non_EU,FeedCrops,Rice,Rice
+Europe_Non_EU,FeedCrops,Root_Tuber,Root_Tuber
+Europe_Non_EU,FeedCrops,SugarCrop,SugarCrop
+Europe_Non_EU,FeedCrops,Wheat,Wheat
+Europe_Non_EU,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+Europe_Non_EU,Scavenging_Other,Scavenging_Other,Scavenging_Other
+European Free Trade Association,FodderHerb_Residue,FodderHerb,FodderHerb
+European Free Trade Association,FodderHerb_Residue,Residue,Residue
+European Free Trade Association,Pasture_FodderGrass,Pasture,Pasture
+European Free Trade Association,Pasture_FodderGrass,FodderGrass,FodderGrass
+European Free Trade Association,FeedCrops,Corn,Corn
+European Free Trade Association,FeedCrops,FiberCrop,FiberCrop
+European Free Trade Association,FeedCrops,MiscCrop,MiscCrop
+European Free Trade Association,FeedCrops,OilCrop,OilCrop
+European Free Trade Association,FeedCrops,OtherGrain,OtherGrain
+European Free Trade Association,FeedCrops,PalmFruit,PalmFruit
+European Free Trade Association,FeedCrops,Rice,Rice
+European Free Trade Association,FeedCrops,Root_Tuber,Root_Tuber
+European Free Trade Association,FeedCrops,SugarCrop,SugarCrop
+European Free Trade Association,FeedCrops,Wheat,Wheat
+European Free Trade Association,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+European Free Trade Association,Scavenging_Other,Scavenging_Other,Scavenging_Other
+India,FodderHerb_Residue,FodderHerb,FodderHerb
+India,FodderHerb_Residue,Residue,Residue
+India,Pasture_FodderGrass,Pasture,Pasture
+India,Pasture_FodderGrass,FodderGrass,FodderGrass
+India,FeedCrops,Corn,Corn
+India,FeedCrops,FiberCrop,FiberCrop
+India,FeedCrops,MiscCrop,MiscCrop
+India,FeedCrops,OilCrop,OilCrop
+India,FeedCrops,OtherGrain,OtherGrain
+India,FeedCrops,PalmFruit,PalmFruit
+India,FeedCrops,Rice,Rice
+India,FeedCrops,Root_Tuber,Root_Tuber
+India,FeedCrops,SugarCrop,SugarCrop
+India,FeedCrops,Wheat,Wheat
+India,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Indonesia,FodderHerb_Residue,FodderHerb,FodderHerb
+Indonesia,FodderHerb_Residue,Residue,Residue
+Indonesia,Pasture_FodderGrass,Pasture,Pasture
+Indonesia,Pasture_FodderGrass,FodderGrass,FodderGrass
+Indonesia,FeedCrops,Corn,Corn
+Indonesia,FeedCrops,FiberCrop,FiberCrop
+Indonesia,FeedCrops,MiscCrop,MiscCrop
+Indonesia,FeedCrops,OilCrop,OilCrop
+Indonesia,FeedCrops,OtherGrain,OtherGrain
+Indonesia,FeedCrops,PalmFruit,PalmFruit
+Indonesia,FeedCrops,Rice,Rice
+Indonesia,FeedCrops,Root_Tuber,Root_Tuber
+Indonesia,FeedCrops,SugarCrop,SugarCrop
+Indonesia,FeedCrops,Wheat,Wheat
+Indonesia,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Japan,FodderHerb_Residue,FodderHerb,FodderHerb
+Japan,FodderHerb_Residue,Residue,Residue
+Japan,Pasture_FodderGrass,Pasture,Pasture
+Japan,Pasture_FodderGrass,FodderGrass,FodderGrass
+Japan,FeedCrops,Corn,Corn
+Japan,FeedCrops,FiberCrop,FiberCrop
+Japan,FeedCrops,MiscCrop,MiscCrop
+Japan,FeedCrops,OilCrop,OilCrop
+Japan,FeedCrops,OtherGrain,OtherGrain
+Japan,FeedCrops,PalmFruit,PalmFruit
+Japan,FeedCrops,Rice,Rice
+Japan,FeedCrops,Root_Tuber,Root_Tuber
+Japan,FeedCrops,SugarCrop,SugarCrop
+Japan,FeedCrops,Wheat,Wheat
+Japan,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Mexico,FodderHerb_Residue,FodderHerb,FodderHerb
+Mexico,FodderHerb_Residue,Residue,Residue
+Mexico,Pasture_FodderGrass,Pasture,Pasture
+Mexico,Pasture_FodderGrass,FodderGrass,FodderGrass
+Mexico,FeedCrops,Corn,Corn
+Mexico,FeedCrops,FiberCrop,FiberCrop
+Mexico,FeedCrops,MiscCrop,MiscCrop
+Mexico,FeedCrops,OilCrop,OilCrop
+Mexico,FeedCrops,OtherGrain,OtherGrain
+Mexico,FeedCrops,PalmFruit,PalmFruit
+Mexico,FeedCrops,Rice,Rice
+Mexico,FeedCrops,Root_Tuber,Root_Tuber
+Mexico,FeedCrops,SugarCrop,SugarCrop
+Mexico,FeedCrops,Wheat,Wheat
+Mexico,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+Mexico,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Middle East,FodderHerb_Residue,FodderHerb,FodderHerb
+Middle East,FodderHerb_Residue,Residue,Residue
+Middle East,Pasture_FodderGrass,Pasture,Pasture
+Middle East,Pasture_FodderGrass,FodderGrass,FodderGrass
+Middle East,FeedCrops,Corn,Corn
+Middle East,FeedCrops,FiberCrop,FiberCrop
+Middle East,FeedCrops,MiscCrop,MiscCrop
+Middle East,FeedCrops,OilCrop,OilCrop
+Middle East,FeedCrops,OtherGrain,OtherGrain
+Middle East,FeedCrops,PalmFruit,PalmFruit
+Middle East,FeedCrops,Rice,Rice
+Middle East,FeedCrops,Root_Tuber,Root_Tuber
+Middle East,FeedCrops,SugarCrop,SugarCrop
+Middle East,FeedCrops,Wheat,Wheat
+Middle East,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Pakistan,FodderHerb_Residue,FodderHerb,FodderHerb
+Pakistan,FodderHerb_Residue,Residue,Residue
+Pakistan,Pasture_FodderGrass,Pasture,Pasture
+Pakistan,Pasture_FodderGrass,FodderGrass,FodderGrass
+Pakistan,FeedCrops,Corn,Corn
+Pakistan,FeedCrops,FiberCrop,FiberCrop
+Pakistan,FeedCrops,MiscCrop,MiscCrop
+Pakistan,FeedCrops,OilCrop,OilCrop
+Pakistan,FeedCrops,OtherGrain,OtherGrain
+Pakistan,FeedCrops,PalmFruit,PalmFruit
+Pakistan,FeedCrops,Rice,Rice
+Pakistan,FeedCrops,Root_Tuber,Root_Tuber
+Pakistan,FeedCrops,SugarCrop,SugarCrop
+Pakistan,FeedCrops,Wheat,Wheat
+Pakistan,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Russia,FodderHerb_Residue,FodderHerb,FodderHerb
+Russia,FodderHerb_Residue,Residue,Residue
+Russia,Pasture_FodderGrass,Pasture,Pasture
+Russia,Pasture_FodderGrass,FodderGrass,FodderGrass
+Russia,FeedCrops,Corn,Corn
+Russia,FeedCrops,FiberCrop,FiberCrop
+Russia,FeedCrops,MiscCrop,MiscCrop
+Russia,FeedCrops,OilCrop,OilCrop
+Russia,FeedCrops,OtherGrain,OtherGrain
+Russia,FeedCrops,PalmFruit,PalmFruit
+Russia,FeedCrops,Rice,Rice
+Russia,FeedCrops,Root_Tuber,Root_Tuber
+Russia,FeedCrops,SugarCrop,SugarCrop
+Russia,FeedCrops,Wheat,Wheat
+Russia,Scavenging_Other,Scavenging_Other,Scavenging_Other
+South Africa,FodderHerb_Residue,FodderHerb,FodderHerb
+South Africa,FodderHerb_Residue,Residue,Residue
+South Africa,Pasture_FodderGrass,Pasture,Pasture
+South Africa,Pasture_FodderGrass,FodderGrass,FodderGrass
+South Africa,FeedCrops,Corn,Corn
+South Africa,FeedCrops,FiberCrop,FiberCrop
+South Africa,FeedCrops,MiscCrop,MiscCrop
+South Africa,FeedCrops,OilCrop,OilCrop
+South Africa,FeedCrops,OtherGrain,OtherGrain
+South Africa,FeedCrops,PalmFruit,PalmFruit
+South Africa,FeedCrops,Rice,Rice
+South Africa,FeedCrops,Root_Tuber,Root_Tuber
+South Africa,FeedCrops,SugarCrop,SugarCrop
+South Africa,FeedCrops,Wheat,Wheat
+South Africa,Scavenging_Other,Scavenging_Other,Scavenging_Other
+South America_Northern,FodderHerb_Residue,FodderHerb,FodderHerb
+South America_Northern,FodderHerb_Residue,Residue,Residue
+South America_Northern,Pasture_FodderGrass,Pasture,Pasture
+South America_Northern,Pasture_FodderGrass,FodderGrass,FodderGrass
+South America_Northern,FeedCrops,Corn,Corn
+South America_Northern,FeedCrops,FiberCrop,FiberCrop
+South America_Northern,FeedCrops,MiscCrop,MiscCrop
+South America_Northern,FeedCrops,OilCrop,OilCrop
+South America_Northern,FeedCrops,OtherGrain,OtherGrain
+South America_Northern,FeedCrops,PalmFruit,PalmFruit
+South America_Northern,FeedCrops,Rice,Rice
+South America_Northern,FeedCrops,Root_Tuber,Root_Tuber
+South America_Northern,FeedCrops,SugarCrop,SugarCrop
+South America_Northern,FeedCrops,Wheat,Wheat
+South America_Northern,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+South America_Northern,Scavenging_Other,Scavenging_Other,Scavenging_Other
+South America_Southern,FodderHerb_Residue,FodderHerb,FodderHerb
+South America_Southern,FodderHerb_Residue,Residue,Residue
+South America_Southern,Pasture_FodderGrass,Pasture,Pasture
+South America_Southern,Pasture_FodderGrass,FodderGrass,FodderGrass
+South America_Southern,FeedCrops,Corn,Corn
+South America_Southern,FeedCrops,FiberCrop,FiberCrop
+South America_Southern,FeedCrops,MiscCrop,MiscCrop
+South America_Southern,FeedCrops,OilCrop,OilCrop
+South America_Southern,FeedCrops,OtherGrain,OtherGrain
+South America_Southern,FeedCrops,PalmFruit,PalmFruit
+South America_Southern,FeedCrops,Rice,Rice
+South America_Southern,FeedCrops,Root_Tuber,Root_Tuber
+South America_Southern,FeedCrops,SugarCrop,SugarCrop
+South America_Southern,FeedCrops,Wheat,Wheat
+South America_Southern,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+South America_Southern,Scavenging_Other,Scavenging_Other,Scavenging_Other
+South Asia,FodderHerb_Residue,FodderHerb,FodderHerb
+South Asia,FodderHerb_Residue,Residue,Residue
+South Asia,Pasture_FodderGrass,Pasture,Pasture
+South Asia,Pasture_FodderGrass,FodderGrass,FodderGrass
+South Asia,FeedCrops,Corn,Corn
+South Asia,FeedCrops,FiberCrop,FiberCrop
+South Asia,FeedCrops,MiscCrop,MiscCrop
+South Asia,FeedCrops,OilCrop,OilCrop
+South Asia,FeedCrops,OtherGrain,OtherGrain
+South Asia,FeedCrops,PalmFruit,PalmFruit
+South Asia,FeedCrops,Rice,Rice
+South Asia,FeedCrops,Root_Tuber,Root_Tuber
+South Asia,FeedCrops,SugarCrop,SugarCrop
+South Asia,FeedCrops,Wheat,Wheat
+South Asia,Scavenging_Other,Scavenging_Other,Scavenging_Other
+South Korea,FodderHerb_Residue,FodderHerb,FodderHerb
+South Korea,FodderHerb_Residue,Residue,Residue
+South Korea,Pasture_FodderGrass,Pasture,Pasture
+South Korea,Pasture_FodderGrass,FodderGrass,FodderGrass
+South Korea,FeedCrops,Corn,Corn
+South Korea,FeedCrops,FiberCrop,FiberCrop
+South Korea,FeedCrops,MiscCrop,MiscCrop
+South Korea,FeedCrops,OilCrop,OilCrop
+South Korea,FeedCrops,OtherGrain,OtherGrain
+South Korea,FeedCrops,PalmFruit,PalmFruit
+South Korea,FeedCrops,Rice,Rice
+South Korea,FeedCrops,Root_Tuber,Root_Tuber
+South Korea,FeedCrops,SugarCrop,SugarCrop
+South Korea,FeedCrops,Wheat,Wheat
+South Korea,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+South Korea,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Southeast Asia,FodderHerb_Residue,FodderHerb,FodderHerb
+Southeast Asia,FodderHerb_Residue,Residue,Residue
+Southeast Asia,Pasture_FodderGrass,Pasture,Pasture
+Southeast Asia,Pasture_FodderGrass,FodderGrass,FodderGrass
+Southeast Asia,FeedCrops,Corn,Corn
+Southeast Asia,FeedCrops,FiberCrop,FiberCrop
+Southeast Asia,FeedCrops,MiscCrop,MiscCrop
+Southeast Asia,FeedCrops,OilCrop,OilCrop
+Southeast Asia,FeedCrops,OtherGrain,OtherGrain
+Southeast Asia,FeedCrops,PalmFruit,PalmFruit
+Southeast Asia,FeedCrops,Rice,Rice
+Southeast Asia,FeedCrops,Root_Tuber,Root_Tuber
+Southeast Asia,FeedCrops,SugarCrop,SugarCrop
+Southeast Asia,FeedCrops,Wheat,Wheat
+Southeast Asia,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Argentina,FodderHerb_Residue,FodderHerb,FodderHerb
+Argentina,FodderHerb_Residue,Residue,Residue
+Argentina,Pasture_FodderGrass,Pasture,Pasture
+Argentina,Pasture_FodderGrass,FodderGrass,FodderGrass
+Argentina,FeedCrops,Corn,Corn
+Argentina,FeedCrops,FiberCrop,FiberCrop
+Argentina,FeedCrops,MiscCrop,MiscCrop
+Argentina,FeedCrops,OilCrop,OilCrop
+Argentina,FeedCrops,OtherGrain,OtherGrain
+Argentina,FeedCrops,PalmFruit,PalmFruit
+Argentina,FeedCrops,Rice,Rice
+Argentina,FeedCrops,Root_Tuber,Root_Tuber
+Argentina,FeedCrops,SugarCrop,SugarCrop
+Argentina,FeedCrops,Wheat,Wheat
+Argentina,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+Argentina,Scavenging_Other,Scavenging_Other,Scavenging_Other
+Colombia,FodderHerb_Residue,FodderHerb,FodderHerb
+Colombia,FodderHerb_Residue,Residue,Residue
+Colombia,Pasture_FodderGrass,Pasture,Pasture
+Colombia,Pasture_FodderGrass,FodderGrass,FodderGrass
+Colombia,FeedCrops,Corn,Corn
+Colombia,FeedCrops,FiberCrop,FiberCrop
+Colombia,FeedCrops,MiscCrop,MiscCrop
+Colombia,FeedCrops,OilCrop,OilCrop
+Colombia,FeedCrops,OtherGrain,OtherGrain
+Colombia,FeedCrops,PalmFruit,PalmFruit
+Colombia,FeedCrops,Rice,Rice
+Colombia,FeedCrops,Root_Tuber,Root_Tuber
+Colombia,FeedCrops,SugarCrop,SugarCrop
+Colombia,FeedCrops,Wheat,Wheat
+Colombia,FeedCrops,DDGS and feedcakes,DDGS and feedcakes
+Colombia,Scavenging_Other,Scavenging_Other,Scavenging_Other

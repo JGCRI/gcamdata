@@ -1,0 +1,421 @@
+INPUT_TABLE
+Variable ID
+Supplysector
+
+region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent
+USA,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+USA,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+USA,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+USA,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+USA,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+USA,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+USA,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+USA,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+USA,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+USA,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+USA,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+USA,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+USA,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Africa_Eastern,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Africa_Northern,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Africa_Southern,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Africa_Western,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Australia_NZ,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Brazil,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Brazil,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Brazil,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Brazil,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Brazil,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Brazil,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Brazil,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Brazil,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Brazil,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Brazil,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Brazil,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Brazil,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Brazil,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Canada,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Canada,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Canada,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Canada,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Canada,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Canada,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Canada,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Canada,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Canada,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Canada,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Canada,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Canada,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Canada,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Central America and Caribbean,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Central Asia,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+China,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+China,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+China,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+China,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+China,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+China,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+China,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+China,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+China,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+China,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+China,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+China,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+China,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+EU-12,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+EU-12,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+EU-12,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+EU-12,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+EU-12,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+EU-12,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+EU-12,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+EU-12,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+EU-12,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+EU-12,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+EU-12,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+EU-12,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+EU-12,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+EU-15,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+EU-15,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+EU-15,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+EU-15,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+EU-15,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+EU-15,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+EU-15,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+EU-15,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+EU-15,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+EU-15,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+EU-15,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+EU-15,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+EU-15,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Europe_Eastern,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Europe_Non_EU,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+European Free Trade Association,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+India,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+India,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+India,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+India,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+India,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+India,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+India,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+India,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+India,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+India,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+India,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+India,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+India,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Indonesia,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Japan,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Japan,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Japan,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Japan,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Japan,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Japan,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Japan,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Japan,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Japan,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Japan,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Japan,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Japan,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Japan,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Mexico,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Mexico,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Mexico,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Mexico,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Mexico,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Mexico,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Mexico,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Mexico,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Mexico,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Mexico,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Mexico,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Mexico,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Mexico,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Middle East,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Middle East,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Middle East,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Middle East,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Middle East,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Middle East,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Middle East,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Middle East,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Middle East,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Middle East,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Middle East,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Middle East,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Middle East,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Pakistan,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Russia,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Russia,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Russia,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Russia,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Russia,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Russia,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Russia,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Russia,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Russia,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Russia,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Russia,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Russia,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Russia,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+South Africa,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+South Africa,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+South Africa,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+South Africa,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+South Africa,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+South Africa,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+South Africa,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+South Africa,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+South Africa,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+South Africa,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+South Africa,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+South Africa,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+South Africa,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+South America_Northern,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+South America_Southern,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+South Asia,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+South Asia,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+South Asia,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+South Asia,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+South Asia,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+South Asia,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+South Asia,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+South Asia,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+South Asia,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+South Asia,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+South Asia,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+South Asia,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+South Asia,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+South Korea,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+South Korea,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+South Korea,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+South Korea,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+South Korea,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+South Korea,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+South Korea,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+South Korea,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+South Korea,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+South Korea,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+South Korea,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+South Korea,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+South Korea,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Southeast Asia,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Taiwan,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Argentina,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Argentina,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Argentina,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Argentina,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Argentina,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Argentina,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Argentina,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Argentina,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Argentina,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Argentina,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Argentina,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Argentina,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Argentina,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3
+Colombia,backup_electricity,EJ,EJ,1975$/GJ,1975,-3
+Colombia,csp_backup,EJ,EJ,1975$/GJ,1975,-3
+Colombia,delivered biomass,EJ,EJ,1975$/GJ,1975,-3
+Colombia,delivered coal,EJ,EJ,1975$/GJ,1975,-3
+Colombia,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
+Colombia,elect_td_bld,EJ,EJ,1975$/GJ,1975,-8
+Colombia,elect_td_ind,EJ,EJ,1975$/GJ,1975,-3
+Colombia,elect_td_trn,EJ,EJ,1975$/GJ,1975,-3
+Colombia,gas pipeline,EJ,EJ,1975$/GJ,1975,-3
+Colombia,wholesale gas,EJ,EJ,1975$/GJ,1975,-3
+Colombia,delivered gas,EJ,EJ,1975$/GJ,1975,-3
+Colombia,refined liquids enduse,EJ,EJ,1975$/GJ,1975,-3
+Colombia,refined liquids industrial,EJ,EJ,1975$/GJ,1975,-3

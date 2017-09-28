@@ -1,0 +1,85 @@
+INPUT_TABLE
+Variable ID
+StubTechCalInput
+
+region,supplysector,subsector,stub.technology,year,minicam.energy.input,calibrated.value,year.share.weight,subs.share.weight,share.weight
+China,district heat,biomass,biomass,1975,delivered biomass,0,1975,0,0
+EU-12,district heat,biomass,biomass,1975,delivered biomass,0.0024279,1975,1,1
+Europe_Eastern,district heat,biomass,biomass,1975,delivered biomass,2.36e-05,1975,1,1
+Europe_Non_EU,district heat,biomass,biomass,1975,delivered biomass,0,1975,0,0
+Russia,district heat,biomass,biomass,1975,delivered biomass,0.000106,1975,1,1
+China,district heat,coal,coal,1975,delivered coal,0,1975,0,0
+EU-12,district heat,coal,coal,1975,delivered coal,0.3446334,1975,1,1
+Europe_Eastern,district heat,coal,coal,1975,delivered coal,4.61e-05,1975,1,1
+Europe_Non_EU,district heat,coal,coal,1975,delivered coal,0,1975,0,0
+Russia,district heat,coal,coal,1975,delivered coal,0.0005644,1975,1,1
+China,district heat,gas,gas,1975,wholesale gas,0,1975,0,0
+EU-12,district heat,gas,gas,1975,wholesale gas,0.0377996,1975,1,1
+Europe_Eastern,district heat,gas,gas,1975,wholesale gas,0.000514,1975,1,1
+Europe_Non_EU,district heat,gas,gas,1975,wholesale gas,0,1975,0,0
+Russia,district heat,gas,gas,1975,wholesale gas,0.0026581,1975,1,1
+China,district heat,refined liquids,refined liquids,1975,refined liquids industrial,0,1975,0,0
+EU-12,district heat,refined liquids,refined liquids,1975,refined liquids industrial,0.0240695,1975,1,1
+Europe_Eastern,district heat,refined liquids,refined liquids,1975,refined liquids industrial,1.51e-05,1975,1,1
+Europe_Non_EU,district heat,refined liquids,refined liquids,1975,refined liquids industrial,0,1975,0,0
+Russia,district heat,refined liquids,refined liquids,1975,refined liquids industrial,0.0003103,1975,1,1
+China,district heat,biomass,biomass,1990,delivered biomass,0,1990,0,0
+EU-12,district heat,biomass,biomass,1990,delivered biomass,0.0069488,1990,1,1
+Europe_Eastern,district heat,biomass,biomass,1990,delivered biomass,0,1990,0,0
+Europe_Non_EU,district heat,biomass,biomass,1990,delivered biomass,0,1990,0,0
+Russia,district heat,biomass,biomass,1990,delivered biomass,0.1616633,1990,1,1
+China,district heat,coal,coal,1990,delivered coal,0.6222908,1990,1,1
+EU-12,district heat,coal,coal,1990,delivered coal,0.4684134,1990,1,1
+Europe_Eastern,district heat,coal,coal,1990,delivered coal,0.0656365,1990,1,1
+Europe_Non_EU,district heat,coal,coal,1990,delivered coal,0.0318555,1990,1,1
+Russia,district heat,coal,coal,1990,delivered coal,1.7154228,1990,1,1
+China,district heat,gas,gas,1990,wholesale gas,0.0091255,1990,1,1
+EU-12,district heat,gas,gas,1990,wholesale gas,0.1953188,1990,1,1
+Europe_Eastern,district heat,gas,gas,1990,wholesale gas,1.749162,1990,1,1
+Europe_Non_EU,district heat,gas,gas,1990,wholesale gas,0.0035162,1990,1,1
+Russia,district heat,gas,gas,1990,wholesale gas,2.4088337,1990,1,1
+China,district heat,refined liquids,refined liquids,1990,refined liquids industrial,0.139645,1990,1,1
+EU-12,district heat,refined liquids,refined liquids,1990,refined liquids industrial,0.2500298,1990,1,1
+Europe_Eastern,district heat,refined liquids,refined liquids,1990,refined liquids industrial,0.5864167,1990,1,1
+Europe_Non_EU,district heat,refined liquids,refined liquids,1990,refined liquids industrial,0.0039767,1990,1,1
+Russia,district heat,refined liquids,refined liquids,1990,refined liquids industrial,0.6851226,1990,1,1
+China,district heat,biomass,biomass,2005,delivered biomass,0.0202184,2005,1,1
+EU-12,district heat,biomass,biomass,2005,delivered biomass,0.0258695,2005,1,1
+Europe_Eastern,district heat,biomass,biomass,2005,delivered biomass,0.0165766,2005,1,1
+Europe_Non_EU,district heat,biomass,biomass,2005,delivered biomass,0.0001256,2005,1,1
+Russia,district heat,biomass,biomass,2005,delivered biomass,0.0973664,2005,1,1
+China,district heat,coal,coal,2005,delivered coal,2.9312465,2005,1,1
+EU-12,district heat,coal,coal,2005,delivered coal,0.1514913,2005,1,1
+Europe_Eastern,district heat,coal,coal,2005,delivered coal,0.0187533,2005,1,1
+Europe_Non_EU,district heat,coal,coal,2005,delivered coal,0.0084557,2005,1,1
+Russia,district heat,coal,coal,2005,delivered coal,0.6693833,2005,1,1
+China,district heat,gas,gas,2005,wholesale gas,0.0811247,2005,1,1
+EU-12,district heat,gas,gas,2005,wholesale gas,0.167733,2005,1,1
+Europe_Eastern,district heat,gas,gas,2005,wholesale gas,0.8726554,2005,1,1
+Europe_Non_EU,district heat,gas,gas,2005,wholesale gas,0.0305159,2005,1,1
+Russia,district heat,gas,gas,2005,wholesale gas,2.5298091,2005,1,1
+China,district heat,refined liquids,refined liquids,2005,refined liquids industrial,0.1119336,2005,1,1
+EU-12,district heat,refined liquids,refined liquids,2005,refined liquids industrial,0.0177068,2005,1,1
+Europe_Eastern,district heat,refined liquids,refined liquids,2005,refined liquids industrial,0.0193393,2005,1,1
+Europe_Non_EU,district heat,refined liquids,refined liquids,2005,refined liquids industrial,0.0192975,2005,1,1
+Russia,district heat,refined liquids,refined liquids,2005,refined liquids industrial,0.3768237,2005,1,1
+China,district heat,biomass,biomass,2010,delivered biomass,0.0473018,2010,1,1
+EU-12,district heat,biomass,biomass,2010,delivered biomass,0.0282555,2010,1,1
+Europe_Eastern,district heat,biomass,biomass,2010,delivered biomass,0.0235672,2010,1,1
+Europe_Non_EU,district heat,biomass,biomass,2010,delivered biomass,0.0006698,2010,1,1
+Russia,district heat,biomass,biomass,2010,delivered biomass,0.1059895,2010,1,1
+China,district heat,coal,coal,2010,delivered coal,3.4985332,2010,1,1
+EU-12,district heat,coal,coal,2010,delivered coal,0.159068,2010,1,1
+Europe_Eastern,district heat,coal,coal,2010,delivered coal,0.0461297,2010,1,1
+Europe_Non_EU,district heat,coal,coal,2010,delivered coal,0.0090418,2010,1,1
+Russia,district heat,coal,coal,2010,delivered coal,0.5643565,2010,1,1
+China,district heat,gas,gas,2010,wholesale gas,0.1016779,2010,1,1
+EU-12,district heat,gas,gas,2010,wholesale gas,0.1370915,2010,1,1
+Europe_Eastern,district heat,gas,gas,2010,wholesale gas,0.5139571,2010,1,1
+Europe_Non_EU,district heat,gas,gas,2010,wholesale gas,0.025702,2010,1,1
+Russia,district heat,gas,gas,2010,wholesale gas,2.65811,2010,1,1
+China,district heat,refined liquids,refined liquids,2010,refined liquids industrial,0.1686958,2010,1,1
+EU-12,district heat,refined liquids,refined liquids,2010,refined liquids industrial,0.0109673,2010,1,1
+Europe_Eastern,district heat,refined liquids,refined liquids,2010,refined liquids industrial,0.0151115,2010,1,1
+Europe_Non_EU,district heat,refined liquids,refined liquids,2010,refined liquids industrial,0.0128092,2010,1,1
+Russia,district heat,refined liquids,refined liquids,2010,refined liquids industrial,0.3102663,2010,1,1

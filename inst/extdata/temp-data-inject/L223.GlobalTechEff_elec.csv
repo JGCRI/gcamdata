@@ -1,0 +1,445 @@
+#INPUT_TABLE
+#Variable ID
+#GlobalTechEff
+#
+sector.name,subsector.name,technology,year,minicam.energy.input,efficiency
+electricity,coal,coal (conv pul),1975,regional coal,0.311
+electricity,coal,coal (conv pul CCS),1975,regional coal,0.292
+electricity,coal,coal (IGCC),1975,regional coal,0.426
+electricity,coal,coal (IGCC CCS),1975,regional coal,0.356
+electricity,gas,gas (steam/CT),1975,wholesale gas,0.261
+electricity,gas,gas (CC),1975,wholesale gas,0.45
+electricity,gas,gas (CC CCS),1975,wholesale gas,0.487
+electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.311
+electricity,refined liquids,refined liquids (CC),1975,refined liquids industrial,0.426
+electricity,refined liquids,refined liquids (CC CCS),1975,refined liquids industrial,0.36
+electricity,biomass,biomass (conv),1975,regional biomass,0.311
+electricity,biomass,biomass (conv CCS),1975,regional biomass,0.196
+electricity,biomass,biomass (IGCC),1975,regional biomass,0.416
+electricity,biomass,biomass (IGCC CCS),1975,regional biomass,0.357
+electricity,nuclear,Gen_II_LWR,1975,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,1975,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,1975,onshore wind resource,0.96
+electricity,solar,PV_storage,1975,global solar resource,0.96
+electricity,solar,CSP_storage,1975,global solar resource,1
+electricity,geothermal,geothermal,1975,geothermal,0.1
+electricity,coal,coal (conv pul),1990,regional coal,0.35
+electricity,coal,coal (conv pul CCS),1990,regional coal,0.292
+electricity,coal,coal (IGCC),1990,regional coal,0.426
+electricity,coal,coal (IGCC CCS),1990,regional coal,0.356
+electricity,gas,gas (steam/CT),1990,wholesale gas,0.3
+electricity,gas,gas (CC),1990,wholesale gas,0.45
+electricity,gas,gas (CC CCS),1990,wholesale gas,0.487
+electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.35
+electricity,refined liquids,refined liquids (CC),1990,refined liquids industrial,0.426
+electricity,refined liquids,refined liquids (CC CCS),1990,refined liquids industrial,0.36
+electricity,biomass,biomass (conv),1990,regional biomass,0.35
+electricity,biomass,biomass (conv CCS),1990,regional biomass,0.196
+electricity,biomass,biomass (IGCC),1990,regional biomass,0.416
+electricity,biomass,biomass (IGCC CCS),1990,regional biomass,0.357
+electricity,nuclear,Gen_II_LWR,1990,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,1990,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,1990,onshore wind resource,0.96
+electricity,solar,PV_storage,1990,global solar resource,0.96
+electricity,solar,CSP_storage,1990,global solar resource,1
+electricity,geothermal,geothermal,1990,geothermal,0.1
+electricity,coal,coal (conv pul),2005,regional coal,0.391
+electricity,coal,coal (conv pul CCS),2005,regional coal,0.292
+electricity,coal,coal (IGCC),2005,regional coal,0.426
+electricity,coal,coal (IGCC CCS),2005,regional coal,0.356
+electricity,gas,gas (steam/CT),2005,wholesale gas,0.33
+electricity,gas,gas (CC),2005,wholesale gas,0.5
+electricity,gas,gas (CC CCS),2005,wholesale gas,0.487
+electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.384
+electricity,refined liquids,refined liquids (CC),2005,refined liquids industrial,0.426
+electricity,refined liquids,refined liquids (CC CCS),2005,refined liquids industrial,0.36
+electricity,biomass,biomass (conv),2005,regional biomass,0.382
+electricity,biomass,biomass (conv CCS),2005,regional biomass,0.196
+electricity,biomass,biomass (IGCC),2005,regional biomass,0.416
+electricity,biomass,biomass (IGCC CCS),2005,regional biomass,0.357
+electricity,nuclear,Gen_II_LWR,2005,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2005,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2005,onshore wind resource,0.96
+electricity,solar,PV_storage,2005,global solar resource,0.96
+electricity,solar,CSP_storage,2005,global solar resource,1
+electricity,geothermal,geothermal,2005,geothermal,0.1
+electricity,coal,coal (conv pul),2010,regional coal,0.397
+electricity,coal,coal (conv pul CCS),2010,regional coal,0.292
+electricity,coal,coal (IGCC),2010,regional coal,0.407
+electricity,coal,coal (IGCC CCS),2010,regional coal,0.334
+electricity,gas,gas (steam/CT),2010,wholesale gas,0.377
+electricity,gas,gas (CC),2010,wholesale gas,0.576
+electricity,gas,gas (CC CCS),2010,wholesale gas,0.465
+electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.363
+electricity,refined liquids,refined liquids (CC),2010,refined liquids industrial,0.555
+electricity,refined liquids,refined liquids (CC CCS),2010,refined liquids industrial,0.418
+electricity,biomass,biomass (conv),2010,regional biomass,0.266
+electricity,biomass,biomass (conv CCS),2010,regional biomass,0.196
+electricity,biomass,biomass (IGCC),2010,regional biomass,0.32
+electricity,biomass,biomass (IGCC CCS),2010,regional biomass,0.262
+electricity,nuclear,Gen_II_LWR,2010,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2010,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2010,onshore wind resource,0.96
+electricity,solar,PV_storage,2010,global solar resource,0.96
+electricity,solar,CSP_storage,2010,global solar resource,1
+electricity,geothermal,geothermal,2010,geothermal,0.1
+electricity,coal,coal (conv pul),2015,regional coal,0.397
+electricity,coal,coal (conv pul CCS),2015,regional coal,0.292
+electricity,coal,coal (IGCC),2015,regional coal,0.407
+electricity,coal,coal (IGCC CCS),2015,regional coal,0.334
+electricity,gas,gas (steam/CT),2015,wholesale gas,0.377
+electricity,gas,gas (CC),2015,wholesale gas,0.565
+electricity,gas,gas (CC CCS),2015,wholesale gas,0.465
+electricity,refined liquids,refined liquids (steam/CT),2015,refined liquids industrial,0.363
+electricity,refined liquids,refined liquids (CC),2015,refined liquids industrial,0.555
+electricity,refined liquids,refined liquids (CC CCS),2015,refined liquids industrial,0.42
+electricity,biomass,biomass (conv),2015,regional biomass,0.266
+electricity,biomass,biomass (conv CCS),2015,regional biomass,0.196
+electricity,biomass,biomass (IGCC),2015,regional biomass,0.32
+electricity,biomass,biomass (IGCC CCS),2015,regional biomass,0.262
+electricity,nuclear,Gen_II_LWR,2015,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2015,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2015,onshore wind resource,0.96
+electricity,solar,PV_storage,2015,global solar resource,0.96
+electricity,solar,CSP_storage,2015,global solar resource,1
+electricity,geothermal,geothermal,2015,geothermal,0.1
+electricity,coal,coal (conv pul),2020,regional coal,0.41
+electricity,coal,coal (conv pul CCS),2020,regional coal,0.335
+electricity,coal,coal (IGCC),2020,regional coal,0.426
+electricity,coal,coal (IGCC CCS),2020,regional coal,0.372
+electricity,gas,gas (steam/CT),2020,wholesale gas,0.385
+electricity,gas,gas (CC),2020,wholesale gas,0.577
+electricity,gas,gas (CC CCS),2020,wholesale gas,0.502
+electricity,refined liquids,refined liquids (steam/CT),2020,refined liquids industrial,0.371
+electricity,refined liquids,refined liquids (CC),2020,refined liquids industrial,0.568
+electricity,refined liquids,refined liquids (CC CCS),2020,refined liquids industrial,0.467
+electricity,biomass,biomass (conv),2020,regional biomass,0.278
+electricity,biomass,biomass (conv CCS),2020,regional biomass,0.23
+electricity,biomass,biomass (IGCC),2020,regional biomass,0.337
+electricity,biomass,biomass (IGCC CCS),2020,regional biomass,0.295
+electricity,nuclear,Gen_II_LWR,2020,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2020,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2020,onshore wind resource,0.96
+electricity,solar,PV_storage,2020,global solar resource,0.96
+electricity,solar,CSP_storage,2020,global solar resource,1
+electricity,geothermal,geothermal,2020,geothermal,0.1
+electricity,coal,coal (conv pul),2025,regional coal,0.422
+electricity,coal,coal (conv pul CCS),2025,regional coal,0.371
+electricity,coal,coal (IGCC),2025,regional coal,0.442
+electricity,coal,coal (IGCC CCS),2025,regional coal,0.403
+electricity,gas,gas (steam/CT),2025,wholesale gas,0.392
+electricity,gas,gas (CC),2025,wholesale gas,0.588
+electricity,gas,gas (CC CCS),2025,wholesale gas,0.533
+electricity,refined liquids,refined liquids (steam/CT),2025,refined liquids industrial,0.38
+electricity,refined liquids,refined liquids (CC),2025,refined liquids industrial,0.579
+electricity,refined liquids,refined liquids (CC CCS),2025,refined liquids industrial,0.505
+electricity,biomass,biomass (conv),2025,regional biomass,0.289
+electricity,biomass,biomass (conv CCS),2025,regional biomass,0.257
+electricity,biomass,biomass (IGCC),2025,regional biomass,0.353
+electricity,biomass,biomass (IGCC CCS),2025,regional biomass,0.323
+electricity,nuclear,Gen_II_LWR,2025,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2025,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2025,onshore wind resource,0.96
+electricity,solar,PV_storage,2025,global solar resource,0.96
+electricity,solar,CSP_storage,2025,global solar resource,1
+electricity,geothermal,geothermal,2025,geothermal,0.1
+electricity,coal,coal (conv pul),2030,regional coal,0.434
+electricity,coal,coal (conv pul CCS),2030,regional coal,0.4
+electricity,coal,coal (IGCC),2030,regional coal,0.458
+electricity,coal,coal (IGCC CCS),2030,regional coal,0.43
+electricity,gas,gas (steam/CT),2030,wholesale gas,0.4
+electricity,gas,gas (CC),2030,wholesale gas,0.598
+electricity,gas,gas (CC CCS),2030,wholesale gas,0.558
+electricity,refined liquids,refined liquids (steam/CT),2030,refined liquids industrial,0.388
+electricity,refined liquids,refined liquids (CC),2030,refined liquids industrial,0.59
+electricity,refined liquids,refined liquids (CC CCS),2030,refined liquids industrial,0.536
+electricity,biomass,biomass (conv),2030,regional biomass,0.298
+electricity,biomass,biomass (conv CCS),2030,regional biomass,0.28
+electricity,biomass,biomass (IGCC),2030,regional biomass,0.367
+electricity,biomass,biomass (IGCC CCS),2030,regional biomass,0.346
+electricity,nuclear,Gen_II_LWR,2030,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2030,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2030,onshore wind resource,0.96
+electricity,solar,PV_storage,2030,global solar resource,0.96
+electricity,solar,CSP_storage,2030,global solar resource,1
+electricity,geothermal,geothermal,2030,geothermal,0.1
+electricity,coal,coal (conv pul),2035,regional coal,0.444
+electricity,coal,coal (conv pul CCS),2035,regional coal,0.424
+electricity,coal,coal (IGCC),2035,regional coal,0.471
+electricity,coal,coal (IGCC CCS),2035,regional coal,0.452
+electricity,gas,gas (steam/CT),2035,wholesale gas,0.406
+electricity,gas,gas (CC),2035,wholesale gas,0.608
+electricity,gas,gas (CC CCS),2035,wholesale gas,0.579
+electricity,refined liquids,refined liquids (steam/CT),2035,refined liquids industrial,0.395
+electricity,refined liquids,refined liquids (CC),2035,refined liquids industrial,0.601
+electricity,refined liquids,refined liquids (CC CCS),2035,refined liquids industrial,0.562
+electricity,biomass,biomass (conv),2035,regional biomass,0.308
+electricity,biomass,biomass (conv CCS),2035,regional biomass,0.3
+electricity,biomass,biomass (IGCC),2035,regional biomass,0.379
+electricity,biomass,biomass (IGCC CCS),2035,regional biomass,0.366
+electricity,nuclear,Gen_II_LWR,2035,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2035,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2035,onshore wind resource,0.96
+electricity,solar,PV_storage,2035,global solar resource,0.96
+electricity,solar,CSP_storage,2035,global solar resource,1
+electricity,geothermal,geothermal,2035,geothermal,0.1
+electricity,coal,coal (conv pul),2040,regional coal,0.454
+electricity,coal,coal (conv pul CCS),2040,regional coal,0.445
+electricity,coal,coal (IGCC),2040,regional coal,0.484
+electricity,coal,coal (IGCC CCS),2040,regional coal,0.471
+electricity,gas,gas (steam/CT),2040,wholesale gas,0.413
+electricity,gas,gas (CC),2040,wholesale gas,0.617
+electricity,gas,gas (CC CCS),2040,wholesale gas,0.597
+electricity,refined liquids,refined liquids (steam/CT),2040,refined liquids industrial,0.402
+electricity,refined liquids,refined liquids (CC),2040,refined liquids industrial,0.61
+electricity,refined liquids,refined liquids (CC CCS),2040,refined liquids industrial,0.584
+electricity,biomass,biomass (conv),2040,regional biomass,0.316
+electricity,biomass,biomass (conv CCS),2040,regional biomass,0.316
+electricity,biomass,biomass (IGCC),2040,regional biomass,0.391
+electricity,biomass,biomass (IGCC CCS),2040,regional biomass,0.383
+electricity,nuclear,Gen_II_LWR,2040,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2040,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2040,onshore wind resource,0.96
+electricity,solar,PV_storage,2040,global solar resource,0.96
+electricity,solar,CSP_storage,2040,global solar resource,1
+electricity,geothermal,geothermal,2040,geothermal,0.1
+electricity,coal,coal (conv pul),2045,regional coal,0.463
+electricity,coal,coal (conv pul CCS),2045,regional coal,0.462
+electricity,coal,coal (IGCC),2045,regional coal,0.495
+electricity,coal,coal (IGCC CCS),2045,regional coal,0.488
+electricity,gas,gas (steam/CT),2045,wholesale gas,0.419
+electricity,gas,gas (CC),2045,wholesale gas,0.625
+electricity,gas,gas (CC CCS),2045,wholesale gas,0.612
+electricity,refined liquids,refined liquids (steam/CT),2045,refined liquids industrial,0.409
+electricity,refined liquids,refined liquids (CC),2045,refined liquids industrial,0.619
+electricity,refined liquids,refined liquids (CC CCS),2045,refined liquids industrial,0.602
+electricity,biomass,biomass (conv),2045,regional biomass,0.324
+electricity,biomass,biomass (conv CCS),2045,regional biomass,0.33
+electricity,biomass,biomass (IGCC),2045,regional biomass,0.402
+electricity,biomass,biomass (IGCC CCS),2045,regional biomass,0.398
+electricity,nuclear,Gen_II_LWR,2045,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2045,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2045,onshore wind resource,0.96
+electricity,solar,PV_storage,2045,global solar resource,0.96
+electricity,solar,CSP_storage,2045,global solar resource,1
+electricity,geothermal,geothermal,2045,geothermal,0.1
+electricity,coal,coal (conv pul),2050,regional coal,0.472
+electricity,coal,coal (conv pul CCS),2050,regional coal,0.477
+electricity,coal,coal (IGCC),2050,regional coal,0.505
+electricity,coal,coal (IGCC CCS),2050,regional coal,0.502
+electricity,gas,gas (steam/CT),2050,wholesale gas,0.425
+electricity,gas,gas (CC),2050,wholesale gas,0.633
+electricity,gas,gas (CC CCS),2050,wholesale gas,0.625
+electricity,refined liquids,refined liquids (steam/CT),2050,refined liquids industrial,0.415
+electricity,refined liquids,refined liquids (CC),2050,refined liquids industrial,0.627
+electricity,refined liquids,refined liquids (CC CCS),2050,refined liquids industrial,0.618
+electricity,biomass,biomass (conv),2050,regional biomass,0.331
+electricity,biomass,biomass (conv CCS),2050,regional biomass,0.342
+electricity,biomass,biomass (IGCC),2050,regional biomass,0.411
+electricity,biomass,biomass (IGCC CCS),2050,regional biomass,0.411
+electricity,nuclear,Gen_II_LWR,2050,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2050,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2050,onshore wind resource,0.96
+electricity,solar,PV_storage,2050,global solar resource,0.96
+electricity,solar,CSP_storage,2050,global solar resource,1
+electricity,geothermal,geothermal,2050,geothermal,0.1
+electricity,coal,coal (conv pul),2055,regional coal,0.48
+electricity,coal,coal (conv pul CCS),2055,regional coal,0.49
+electricity,coal,coal (IGCC),2055,regional coal,0.514
+electricity,coal,coal (IGCC CCS),2055,regional coal,0.514
+electricity,gas,gas (steam/CT),2055,wholesale gas,0.431
+electricity,gas,gas (CC),2055,wholesale gas,0.64
+electricity,gas,gas (CC CCS),2055,wholesale gas,0.636
+electricity,refined liquids,refined liquids (steam/CT),2055,refined liquids industrial,0.421
+electricity,refined liquids,refined liquids (CC),2055,refined liquids industrial,0.634
+electricity,refined liquids,refined liquids (CC CCS),2055,refined liquids industrial,0.631
+electricity,biomass,biomass (conv),2055,regional biomass,0.338
+electricity,biomass,biomass (conv CCS),2055,regional biomass,0.353
+electricity,biomass,biomass (IGCC),2055,regional biomass,0.42
+electricity,biomass,biomass (IGCC CCS),2055,regional biomass,0.422
+electricity,nuclear,Gen_II_LWR,2055,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2055,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2055,onshore wind resource,0.96
+electricity,solar,PV_storage,2055,global solar resource,0.96
+electricity,solar,CSP_storage,2055,global solar resource,1
+electricity,geothermal,geothermal,2055,geothermal,0.1
+electricity,coal,coal (conv pul),2060,regional coal,0.487
+electricity,coal,coal (conv pul CCS),2060,regional coal,0.501
+electricity,coal,coal (IGCC),2060,regional coal,0.522
+electricity,coal,coal (IGCC CCS),2060,regional coal,0.525
+electricity,gas,gas (steam/CT),2060,wholesale gas,0.436
+electricity,gas,gas (CC),2060,wholesale gas,0.646
+electricity,gas,gas (CC CCS),2060,wholesale gas,0.646
+electricity,refined liquids,refined liquids (steam/CT),2060,refined liquids industrial,0.427
+electricity,refined liquids,refined liquids (CC),2060,refined liquids industrial,0.641
+electricity,refined liquids,refined liquids (CC CCS),2060,refined liquids industrial,0.642
+electricity,biomass,biomass (conv),2060,regional biomass,0.345
+electricity,biomass,biomass (conv CCS),2060,regional biomass,0.362
+electricity,biomass,biomass (IGCC),2060,regional biomass,0.427
+electricity,biomass,biomass (IGCC CCS),2060,regional biomass,0.431
+electricity,nuclear,Gen_II_LWR,2060,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2060,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2060,onshore wind resource,0.96
+electricity,solar,PV_storage,2060,global solar resource,0.96
+electricity,solar,CSP_storage,2060,global solar resource,1
+electricity,geothermal,geothermal,2060,geothermal,0.1
+electricity,coal,coal (conv pul),2065,regional coal,0.494
+electricity,coal,coal (conv pul CCS),2065,regional coal,0.511
+electricity,coal,coal (IGCC),2065,regional coal,0.53
+electricity,coal,coal (IGCC CCS),2065,regional coal,0.534
+electricity,gas,gas (steam/CT),2065,wholesale gas,0.441
+electricity,gas,gas (CC),2065,wholesale gas,0.653
+electricity,gas,gas (CC CCS),2065,wholesale gas,0.655
+electricity,refined liquids,refined liquids (steam/CT),2065,refined liquids industrial,0.433
+electricity,refined liquids,refined liquids (CC),2065,refined liquids industrial,0.648
+electricity,refined liquids,refined liquids (CC CCS),2065,refined liquids industrial,0.652
+electricity,biomass,biomass (conv),2065,regional biomass,0.35
+electricity,biomass,biomass (conv CCS),2065,regional biomass,0.37
+electricity,biomass,biomass (IGCC),2065,regional biomass,0.434
+electricity,biomass,biomass (IGCC CCS),2065,regional biomass,0.44
+electricity,nuclear,Gen_II_LWR,2065,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2065,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2065,onshore wind resource,0.96
+electricity,solar,PV_storage,2065,global solar resource,0.96
+electricity,solar,CSP_storage,2065,global solar resource,1
+electricity,geothermal,geothermal,2065,geothermal,0.1
+electricity,coal,coal (conv pul),2070,regional coal,0.5
+electricity,coal,coal (conv pul CCS),2070,regional coal,0.519
+electricity,coal,coal (IGCC),2070,regional coal,0.536
+electricity,coal,coal (IGCC CCS),2070,regional coal,0.542
+electricity,gas,gas (steam/CT),2070,wholesale gas,0.446
+electricity,gas,gas (CC),2070,wholesale gas,0.658
+electricity,gas,gas (CC CCS),2070,wholesale gas,0.662
+electricity,refined liquids,refined liquids (steam/CT),2070,refined liquids industrial,0.438
+electricity,refined liquids,refined liquids (CC),2070,refined liquids industrial,0.654
+electricity,refined liquids,refined liquids (CC CCS),2070,refined liquids industrial,0.661
+electricity,biomass,biomass (conv),2070,regional biomass,0.356
+electricity,biomass,biomass (conv CCS),2070,regional biomass,0.377
+electricity,biomass,biomass (IGCC),2070,regional biomass,0.441
+electricity,biomass,biomass (IGCC CCS),2070,regional biomass,0.447
+electricity,nuclear,Gen_II_LWR,2070,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2070,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2070,onshore wind resource,0.96
+electricity,solar,PV_storage,2070,global solar resource,0.96
+electricity,solar,CSP_storage,2070,global solar resource,1
+electricity,geothermal,geothermal,2070,geothermal,0.1
+electricity,coal,coal (conv pul),2075,regional coal,0.506
+electricity,coal,coal (conv pul CCS),2075,regional coal,0.527
+electricity,coal,coal (IGCC),2075,regional coal,0.543
+electricity,coal,coal (IGCC CCS),2075,regional coal,0.55
+electricity,gas,gas (steam/CT),2075,wholesale gas,0.451
+electricity,gas,gas (CC),2075,wholesale gas,0.663
+electricity,gas,gas (CC CCS),2075,wholesale gas,0.669
+electricity,refined liquids,refined liquids (steam/CT),2075,refined liquids industrial,0.443
+electricity,refined liquids,refined liquids (CC),2075,refined liquids industrial,0.659
+electricity,refined liquids,refined liquids (CC CCS),2075,refined liquids industrial,0.668
+electricity,biomass,biomass (conv),2075,regional biomass,0.361
+electricity,biomass,biomass (conv CCS),2075,regional biomass,0.383
+electricity,biomass,biomass (IGCC),2075,regional biomass,0.446
+electricity,biomass,biomass (IGCC CCS),2075,regional biomass,0.454
+electricity,nuclear,Gen_II_LWR,2075,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2075,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2075,onshore wind resource,0.96
+electricity,solar,PV_storage,2075,global solar resource,0.96
+electricity,solar,CSP_storage,2075,global solar resource,1
+electricity,geothermal,geothermal,2075,geothermal,0.1
+electricity,coal,coal (conv pul),2080,regional coal,0.511
+electricity,coal,coal (conv pul CCS),2080,regional coal,0.533
+electricity,coal,coal (IGCC),2080,regional coal,0.548
+electricity,coal,coal (IGCC CCS),2080,regional coal,0.556
+electricity,gas,gas (steam/CT),2080,wholesale gas,0.455
+electricity,gas,gas (CC),2080,wholesale gas,0.668
+electricity,gas,gas (CC CCS),2080,wholesale gas,0.675
+electricity,refined liquids,refined liquids (steam/CT),2080,refined liquids industrial,0.448
+electricity,refined liquids,refined liquids (CC),2080,refined liquids industrial,0.664
+electricity,refined liquids,refined liquids (CC CCS),2080,refined liquids industrial,0.675
+electricity,biomass,biomass (conv),2080,regional biomass,0.366
+electricity,biomass,biomass (conv CCS),2080,regional biomass,0.389
+electricity,biomass,biomass (IGCC),2080,regional biomass,0.451
+electricity,biomass,biomass (IGCC CCS),2080,regional biomass,0.46
+electricity,nuclear,Gen_II_LWR,2080,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2080,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2080,onshore wind resource,0.96
+electricity,solar,PV_storage,2080,global solar resource,0.96
+electricity,solar,CSP_storage,2080,global solar resource,1
+electricity,geothermal,geothermal,2080,geothermal,0.1
+electricity,coal,coal (conv pul),2085,regional coal,0.516
+electricity,coal,coal (conv pul CCS),2085,regional coal,0.54
+electricity,coal,coal (IGCC),2085,regional coal,0.553
+electricity,coal,coal (IGCC CCS),2085,regional coal,0.562
+electricity,gas,gas (steam/CT),2085,wholesale gas,0.459
+electricity,gas,gas (CC),2085,wholesale gas,0.673
+electricity,gas,gas (CC CCS),2085,wholesale gas,0.68
+electricity,refined liquids,refined liquids (steam/CT),2085,refined liquids industrial,0.452
+electricity,refined liquids,refined liquids (CC),2085,refined liquids industrial,0.669
+electricity,refined liquids,refined liquids (CC CCS),2085,refined liquids industrial,0.681
+electricity,biomass,biomass (conv),2085,regional biomass,0.37
+electricity,biomass,biomass (conv CCS),2085,regional biomass,0.394
+electricity,biomass,biomass (IGCC),2085,regional biomass,0.456
+electricity,biomass,biomass (IGCC CCS),2085,regional biomass,0.465
+electricity,nuclear,Gen_II_LWR,2085,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2085,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2085,onshore wind resource,0.96
+electricity,solar,PV_storage,2085,global solar resource,0.96
+electricity,solar,CSP_storage,2085,global solar resource,1
+electricity,geothermal,geothermal,2085,geothermal,0.1
+electricity,coal,coal (conv pul),2090,regional coal,0.521
+electricity,coal,coal (conv pul CCS),2090,regional coal,0.545
+electricity,coal,coal (IGCC),2090,regional coal,0.558
+electricity,coal,coal (IGCC CCS),2090,regional coal,0.567
+electricity,gas,gas (steam/CT),2090,wholesale gas,0.463
+electricity,gas,gas (CC),2090,wholesale gas,0.677
+electricity,gas,gas (CC CCS),2090,wholesale gas,0.685
+electricity,refined liquids,refined liquids (steam/CT),2090,refined liquids industrial,0.457
+electricity,refined liquids,refined liquids (CC),2090,refined liquids industrial,0.674
+electricity,refined liquids,refined liquids (CC CCS),2090,refined liquids industrial,0.686
+electricity,biomass,biomass (conv),2090,regional biomass,0.374
+electricity,biomass,biomass (conv CCS),2090,regional biomass,0.399
+electricity,biomass,biomass (IGCC),2090,regional biomass,0.46
+electricity,biomass,biomass (IGCC CCS),2090,regional biomass,0.47
+electricity,nuclear,Gen_II_LWR,2090,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2090,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2090,onshore wind resource,0.96
+electricity,solar,PV_storage,2090,global solar resource,0.96
+electricity,solar,CSP_storage,2090,global solar resource,1
+electricity,geothermal,geothermal,2090,geothermal,0.1
+electricity,coal,coal (conv pul),2095,regional coal,0.525
+electricity,coal,coal (conv pul CCS),2095,regional coal,0.55
+electricity,coal,coal (IGCC),2095,regional coal,0.562
+electricity,coal,coal (IGCC CCS),2095,regional coal,0.571
+electricity,gas,gas (steam/CT),2095,wholesale gas,0.467
+electricity,gas,gas (CC),2095,wholesale gas,0.681
+electricity,gas,gas (CC CCS),2095,wholesale gas,0.69
+electricity,refined liquids,refined liquids (steam/CT),2095,refined liquids industrial,0.461
+electricity,refined liquids,refined liquids (CC),2095,refined liquids industrial,0.678
+electricity,refined liquids,refined liquids (CC CCS),2095,refined liquids industrial,0.691
+electricity,biomass,biomass (conv),2095,regional biomass,0.378
+electricity,biomass,biomass (conv CCS),2095,regional biomass,0.403
+electricity,biomass,biomass (IGCC),2095,regional biomass,0.464
+electricity,biomass,biomass (IGCC CCS),2095,regional biomass,0.474
+electricity,nuclear,Gen_II_LWR,2095,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2095,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2095,onshore wind resource,0.96
+electricity,solar,PV_storage,2095,global solar resource,0.96
+electricity,solar,CSP_storage,2095,global solar resource,1
+electricity,geothermal,geothermal,2095,geothermal,0.1
+electricity,coal,coal (conv pul),2100,regional coal,0.529
+electricity,coal,coal (conv pul CCS),2100,regional coal,0.554
+electricity,coal,coal (IGCC),2100,regional coal,0.565
+electricity,coal,coal (IGCC CCS),2100,regional coal,0.575
+electricity,gas,gas (steam/CT),2100,wholesale gas,0.47
+electricity,gas,gas (CC),2100,wholesale gas,0.684
+electricity,gas,gas (CC CCS),2100,wholesale gas,0.694
+electricity,refined liquids,refined liquids (steam/CT),2100,refined liquids industrial,0.465
+electricity,refined liquids,refined liquids (CC),2100,refined liquids industrial,0.682
+electricity,refined liquids,refined liquids (CC CCS),2100,refined liquids industrial,0.696
+electricity,biomass,biomass (conv),2100,regional biomass,0.381
+electricity,biomass,biomass (conv CCS),2100,regional biomass,0.407
+electricity,biomass,biomass (IGCC),2100,regional biomass,0.468
+electricity,biomass,biomass (IGCC CCS),2100,regional biomass,0.478
+electricity,nuclear,Gen_II_LWR,2100,nuclearFuelGenII,0.333
+electricity,nuclear,Gen_III,2100,nuclearFuelGenIII,0.333
+electricity,wind,wind_storage,2100,onshore wind resource,0.96
+electricity,solar,PV_storage,2100,global solar resource,0.96
+electricity,solar,CSP_storage,2100,global solar resource,1
+electricity,geothermal,geothermal,2100,geothermal,0.1
