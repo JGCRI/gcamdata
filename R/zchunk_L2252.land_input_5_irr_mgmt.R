@@ -32,6 +32,7 @@
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
 #' @author ACS September 2017
+#' @export
 module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "common/GCAM_region_names",
@@ -39,11 +40,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
              "L181.LandShare_R_bio_GLU_irr",
              "L181.LC_bm2_R_C_Yh_GLU_irr_level",
              "L181.YieldMult_R_bio_GLU_irr",
-             FILE = "temp-data-inject/L2241.LN4_Logit",
-             FILE = "temp-data-inject/L2241.LN4_HistMgdAllocation_crop",
-             FILE = "temp-data-inject/L2241.LN4_MgdAllocation_crop",
-             FILE = "temp-data-inject/L2241.LN4_HistMgdAllocation_bio",
-             FILE = "temp-data-inject/L2241.LN4_MgdAllocation_bio",
+             "L2242.LN4_Logit",
              FILE = "temp-data-inject/L2241.LN4_MgdCarbon_crop",
              FILE = "temp-data-inject/L2241.LN4_MgdCarbon_bio",
              FILE = "temp-data-inject/L2241.LN4_LeafGhostShare",
@@ -65,19 +62,14 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
     # Load required inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
     basin_to_country_mapping <- get_data(all_data, "water/basin_to_country_mapping")
+    L2242.LN4_Logit <- get_data(all_data, "L2242.LN4_Logit")
     L181.LandShare_R_bio_GLU_irr <- get_data(all_data, "L181.LandShare_R_bio_GLU_irr")
     L181.LC_bm2_R_C_Yh_GLU_irr_level <- get_data(all_data, "L181.LC_bm2_R_C_Yh_GLU_irr_level")
     L181.YieldMult_R_bio_GLU_irr <- get_data(all_data, "L181.YieldMult_R_bio_GLU_irr")
-    L2241.LN4_Logit <- get_data(all_data, "temp-data-inject/L2241.LN4_Logit")
-    L2241.LN4_HistMgdAllocation_crop <- get_data(all_data, "temp-data-inject/L2241.LN4_HistMgdAllocation_crop")
-    L2241.LN4_MgdAllocation_crop <- get_data(all_data, "temp-data-inject/L2241.LN4_MgdAllocation_crop")
-    L2241.LN4_HistMgdAllocation_bio <- get_data(all_data, "temp-data-inject/L2241.LN4_HistMgdAllocation_bio")
-    L2241.LN4_MgdAllocation_bio <- get_data(all_data, "temp-data-inject/L2241.LN4_MgdAllocation_bio")
     L2241.LN4_MgdCarbon_crop <- get_data(all_data, "temp-data-inject/L2241.LN4_MgdCarbon_crop")
     L2241.LN4_MgdCarbon_bio <- get_data(all_data, "temp-data-inject/L2241.LN4_MgdCarbon_bio")
     L2241.LN4_LeafGhostShare <- get_data(all_data, "temp-data-inject/L2241.LN4_LeafGhostShare")
     L2012.AgProduction_ag_irr_mgmt <- get_data(all_data, "L2012.AgProduction_ag_irr_mgmt")
-
 
     # silence package check notes
     GCAM_commodity <- GCAM_region_ID <- region <- value <- year <- GLU <- GLU_name <- GLU_code <-
@@ -166,7 +158,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
 
     # L2252.LN5_Logit: Logit exponent between lo and hi managed techs for each crop-irrigationtype combo
     # ie competition between Corn_IRR_hi and Corn_Irr_lo.
-    L2241.LN4_Logit %>%
+    L2242.LN4_Logit %>%
       repeat_add_columns(tibble::tibble(Irr_Rfd = c( "IRR", "RFD" ))) %>%
       mutate(LandNode5 = paste(LandNode4, Irr_Rfd, sep = aglu.IRR_DELIMITER),
              logit.exponent = aglu.MGMT_LOGIT_EXP,
@@ -187,37 +179,48 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       select(region, year, LandLeaf, allocation) ->
       L2252.LC_bm2_R_C_Yh_GLU_irr_mgmt
 
+    # Use L2252.LN5_Logit to get names of LandNodes, copy to all years
+    # Add land leafs using `convert_LN4_to_LN5`, then join land allocation information
+    L2252.LN5_Logit %>%
+      rename(LandLeaf = LandNode5) %>%
+      select(-logit.year.fillout, -logit.exponent, -logit.type) %>%
+      repeat_add_columns(tibble::tibble(year = aglu.LAND_COVER_YEARS)) %>%
+      mutate(allocation = -1) %>%
+      convert_LN4_to_LN5(names = LEVEL2_DATA_NAMES[["LN5_HistMgdAllocation"]]) %>%
+      select(-allocation) %>%
+      # Biomass leafs don't have historical land area, but we want to keep them, so using full_join
+      full_join(L2252.LC_bm2_R_C_Yh_GLU_irr_mgmt, by = c("region", "year", "LandLeaf")) %>%
+      replace_na(list(allocation = 0)) ->
+      ALL_LAND_ALLOCATION
 
     # L2252.LN5_HistMgdAllocation_crop: historical cropland allocation
     # in the fifth land nest ie for each crop-irr-mgmt combo in each region-glu-year.
-    L2241.LN4_HistMgdAllocation_crop %>%
-      convert_LN4_to_LN5(names = LEVEL2_DATA_NAMES[["LN5_HistMgdAllocation"]]) %>%
-      select(-allocation) %>%
-      left_join_error_no_match(L2252.LC_bm2_R_C_Yh_GLU_irr_mgmt, by = c("region", "year", "LandLeaf")) ->
+    ALL_LAND_ALLOCATION %>%
+      filter(!grepl("biomass_grass", LandLeaf) & !grepl("biomass_tree", LandLeaf)) %>%
+      filter(year %in% LAND_HISTORY_YEARS) ->
       L2252.LN5_HistMgdAllocation_crop
-
 
     # L2252.LN5_MgdAllocation_crop: cropland allocation
     # in the fifth land nest ie for each crop-irr-mgmt combo in each region-glu-year.
-    L2241.LN4_MgdAllocation_crop %>%
-      convert_LN4_to_LN5(names = LEVEL2_DATA_NAMES[["LN5_MgdAllocation"]]) %>%
-      select(-allocation) %>%
-      left_join_error_no_match(L2252.LC_bm2_R_C_Yh_GLU_irr_mgmt, by = c("region", "year", "LandLeaf")) %>%
+    ALL_LAND_ALLOCATION %>%
+      filter(!grepl("biomass_grass", LandLeaf) & !grepl("biomass_tree", LandLeaf)) %>%
+      filter(year %in% BASE_YEARS)  %>%
       remove_zero_production_land_leafs(prod = L2012.AgProduction_ag_irr_mgmt) ->
       L2252.LN5_MgdAllocation_crop
-
 
     # Several outputs are unchanged from their L2241 form. They just undergo relabeling and the addition of
     # hi/lo management information:
     #
     # L2252.LN5_HistMgdAllocation_bio
-    L2241.LN4_HistMgdAllocation_bio %>%
-      convert_LN4_to_LN5(names = LEVEL2_DATA_NAMES[["LN5_HistMgdAllocation"]]) ->
+    ALL_LAND_ALLOCATION %>%
+      filter(grepl("biomass_grass", LandLeaf) | grepl("biomass_tree", LandLeaf)) %>%
+      filter(year %in% LAND_HISTORY_YEARS) ->
       L2252.LN5_HistMgdAllocation_bio
 
     # L2252.LN5_MgdAllocation_bio
-    L2241.LN4_MgdAllocation_bio %>%
-      convert_LN4_to_LN5(names = LEVEL2_DATA_NAMES[["LN5_MgdAllocation"]]) ->
+    ALL_LAND_ALLOCATION %>%
+      filter(grepl("biomass_grass", LandLeaf) | grepl("biomass_tree", LandLeaf)) %>%
+      filter(year %in% BASE_YEARS) ->
       L2252.LN5_MgdAllocation_bio
 
     # L2252.LN5_MgdCarbon_crop
@@ -297,7 +300,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       add_comments("Logit exponent of the fifth land nest by region. AgLU regions") %>%
       add_comments("are given externally defined constant logit information.") %>%
       add_legacy_name("L2252.LN5_Logit") %>%
-      add_precursors("temp-data-inject/L2241.LN4_Logit") ->
+      add_precursors("L2242.LN4_Logit") ->
       L2252.LN5_Logit
 
     L2252.LN5_HistMgdAllocation_crop %>%
@@ -308,7 +311,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       add_precursors("common/GCAM_region_names",
                      "water/basin_to_country_mapping",
                      "L181.LC_bm2_R_C_Yh_GLU_irr_level",
-                     "temp-data-inject/L2241.LN4_HistMgdAllocation_crop") %>%
+                     "L2242.LN4_Logit") %>%
       add_flags(FLAG_PROTECT_FLOAT) ->
       L2252.LN5_HistMgdAllocation_crop
 
@@ -317,11 +320,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       add_units("billion square meters (bm2)") %>%
       add_comments("Land cover in the model base periods for managed crop land (LT_GLU) in the fifth nest, from L181 land cover data.") %>%
       add_legacy_name("L2252.LN5_MgdAllocation_crop") %>%
-      add_precursors("common/GCAM_region_names",
-                     "water/basin_to_country_mapping",
-                     "L181.LC_bm2_R_C_Yh_GLU_irr_level",
-                     "temp-data-inject/L2241.LN4_MgdAllocation_crop",
-                     "L2012.AgProduction_ag_irr_mgmt") ->
+      same_precursors_as("L2252.LN5_HistMgdAllocation_crop") ->
       L2252.LN5_MgdAllocation_crop
 
     L2252.LN5_HistMgdAllocation_bio %>%
@@ -330,7 +329,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       add_comments("Historical land cover for managed bio land (LT_GLU) in the fifth nest by region,") %>%
       add_comments("generated directly from nest 4 files.") %>%
       add_legacy_name("L2252.LN5_HistMgdAllocation_bio") %>%
-      add_precursors("temp-data-inject/L2241.LN4_HistMgdAllocation_bio") ->
+      same_precursors_as("L2252.LN5_HistMgdAllocation_crop") ->
       L2252.LN5_HistMgdAllocation_bio
 
     L2252.LN5_MgdAllocation_bio %>%
@@ -339,7 +338,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       add_comments("Land cover in the model base periods for managed bio land (LT_GLU) in the fifth nest by region,") %>%
       add_comments("generated directly from nest 4 files.") %>%
       add_legacy_name("L2252.LN5_MgdAllocation_bio") %>%
-      add_precursors("temp-data-inject/L2241.LN4_MgdAllocation_bio") ->
+      same_precursors_as("L2252.LN5_HistMgdAllocation_crop") ->
       L2252.LN5_MgdAllocation_bio
 
     L2252.LN5_MgdCarbon_crop %>%
