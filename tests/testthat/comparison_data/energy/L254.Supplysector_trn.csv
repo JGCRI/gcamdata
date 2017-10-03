@@ -1,0 +1,296 @@
+INPUT_TABLE
+Variable ID
+Supplysector
+
+region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent
+USA,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+USA,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+USA,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+USA,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+USA,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+USA,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+USA,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+USA,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+USA,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Africa_Eastern,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Africa_Eastern,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Africa_Eastern,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Africa_Eastern,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Africa_Eastern,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Africa_Eastern,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Africa_Eastern,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Africa_Eastern,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Africa_Eastern,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Africa_Northern,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Africa_Northern,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Africa_Northern,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Africa_Northern,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Africa_Northern,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Africa_Northern,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Africa_Northern,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Africa_Northern,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Africa_Northern,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Africa_Southern,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Africa_Southern,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Africa_Southern,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Africa_Southern,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Africa_Southern,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Africa_Southern,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Africa_Southern,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Africa_Southern,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Africa_Southern,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Africa_Western,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Africa_Western,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Africa_Western,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Africa_Western,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Africa_Western,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Africa_Western,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Africa_Western,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Africa_Western,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Africa_Western,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Australia_NZ,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Australia_NZ,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Australia_NZ,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Australia_NZ,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Australia_NZ,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Australia_NZ,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Australia_NZ,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Australia_NZ,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Australia_NZ,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Brazil,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Brazil,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Brazil,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Brazil,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Brazil,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Brazil,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Brazil,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Brazil,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Brazil,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Canada,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Canada,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Canada,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Canada,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Canada,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Canada,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Canada,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Canada,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Canada,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Central America and Caribbean,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Central America and Caribbean,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Central America and Caribbean,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Central America and Caribbean,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Central America and Caribbean,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Central America and Caribbean,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Central America and Caribbean,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Central America and Caribbean,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Central America and Caribbean,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Central Asia,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Central Asia,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Central Asia,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Central Asia,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Central Asia,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Central Asia,trn_pass_road_bus,million pass-km,EJ,1990$/pass-km,1975,-4
+Central Asia,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Central Asia,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Central Asia,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Central Asia,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+China,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+China,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+China,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+China,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+China,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+China,trn_pass_road_bus,million pass-km,EJ,1990$/pass-km,1975,-4
+China,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+China,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+China,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+China,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+EU-12,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+EU-12,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+EU-12,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+EU-12,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+EU-12,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+EU-12,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+EU-12,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+EU-12,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+EU-12,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+EU-15,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+EU-15,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+EU-15,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+EU-15,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+EU-15,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+EU-15,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+EU-15,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+EU-15,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+EU-15,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Europe_Eastern,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Europe_Eastern,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Europe_Eastern,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Europe_Eastern,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Europe_Eastern,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Europe_Eastern,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Europe_Eastern,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Europe_Eastern,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Europe_Eastern,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Europe_Non_EU,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Europe_Non_EU,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Europe_Non_EU,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Europe_Non_EU,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Europe_Non_EU,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Europe_Non_EU,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Europe_Non_EU,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Europe_Non_EU,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Europe_Non_EU,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+European Free Trade Association,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+European Free Trade Association,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+European Free Trade Association,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+European Free Trade Association,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+European Free Trade Association,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+European Free Trade Association,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+European Free Trade Association,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+European Free Trade Association,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+European Free Trade Association,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+India,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+India,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+India,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+India,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+India,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+India,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+India,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+India,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+India,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Indonesia,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Indonesia,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Indonesia,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Indonesia,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Indonesia,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Indonesia,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Indonesia,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Indonesia,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Indonesia,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Japan,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Japan,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Japan,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Japan,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Japan,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Japan,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Japan,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Japan,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Japan,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Mexico,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Mexico,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Mexico,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Mexico,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Mexico,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Mexico,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Mexico,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Mexico,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Mexico,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Middle East,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Middle East,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Middle East,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Middle East,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Middle East,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Middle East,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Middle East,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Middle East,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Middle East,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Pakistan,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Pakistan,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Pakistan,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Pakistan,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Pakistan,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Pakistan,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Pakistan,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Pakistan,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Pakistan,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Russia,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Russia,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Russia,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Russia,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Russia,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Russia,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Russia,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Russia,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Russia,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+South Africa,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+South Africa,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+South Africa,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+South Africa,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+South Africa,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+South Africa,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+South Africa,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+South Africa,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+South Africa,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+South America_Northern,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+South America_Northern,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+South America_Northern,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+South America_Northern,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+South America_Northern,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+South America_Northern,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+South America_Northern,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+South America_Northern,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+South America_Northern,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+South America_Southern,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+South America_Southern,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+South America_Southern,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+South America_Southern,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+South America_Southern,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+South America_Southern,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+South America_Southern,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+South America_Southern,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+South America_Southern,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+South Asia,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+South Asia,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+South Asia,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+South Asia,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+South Asia,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+South Asia,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+South Asia,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+South Asia,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+South Asia,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+South Korea,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+South Korea,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+South Korea,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+South Korea,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+South Korea,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+South Korea,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+South Korea,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+South Korea,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+South Korea,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Southeast Asia,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Southeast Asia,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Southeast Asia,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Southeast Asia,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Southeast Asia,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Southeast Asia,trn_pass_road_bus,million pass-km,EJ,1990$/pass-km,1975,-4
+Southeast Asia,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Southeast Asia,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Southeast Asia,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Southeast Asia,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Taiwan,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Taiwan,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Taiwan,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Taiwan,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Taiwan,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Taiwan,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Taiwan,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Taiwan,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Taiwan,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Argentina,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Argentina,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Argentina,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Argentina,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Argentina,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Argentina,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Argentina,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Argentina,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Argentina,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
+Colombia,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
+Colombia,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2
+Colombia,trn_freight_road,million ton-km,EJ,1990$/ton-km,1975,-1
+Colombia,trn_pass,million pass-km,EJ,1990$/pass-km,1975,-2
+Colombia,trn_pass_road,million pass-km,EJ,1990$/pass-km,1975,-4
+Colombia,trn_pass_road_LDV,million pass-km,EJ,1990$/pass-km,1975,-4
+Colombia,trn_pass_road_LDV_2W,million pass-km,EJ,1990$/pass-km,1975,-6
+Colombia,trn_pass_road_LDV_4W,million pass-km,EJ,1990$/pass-km,1975,-6
+Colombia,trn_shipping_intl,million ton-km,EJ,1990$/ton-km,1975,-3
