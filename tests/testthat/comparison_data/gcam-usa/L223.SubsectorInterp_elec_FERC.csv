@@ -1,0 +1,56 @@
+#INPUT_TABLE
+#Variable ID
+#SubsectorInterp
+#
+region,supplysector,subsector,apply.to,from.year,to.year,interpolation.function
+Alaska grid,electricity,AK electricity,share-weight,2010,2100,fixed
+California grid,electricity,CA electricity,share-weight,2010,2100,fixed
+Central East grid,electricity,IN electricity,share-weight,2010,2100,fixed
+Central East grid,electricity,KY electricity,share-weight,2010,2100,fixed
+Central East grid,electricity,MI electricity,share-weight,2010,2100,fixed
+Central East grid,electricity,OH electricity,share-weight,2010,2100,fixed
+Central East grid,electricity,WV electricity,share-weight,2010,2100,fixed
+Central Northeast grid,electricity,IL electricity,share-weight,2010,2100,fixed
+Central Northeast grid,electricity,MO electricity,share-weight,2010,2100,fixed
+Central Northeast grid,electricity,WI electricity,share-weight,2010,2100,fixed
+Central Northwest grid,electricity,IA electricity,share-weight,2010,2100,fixed
+Central Northwest grid,electricity,MN electricity,share-weight,2010,2100,fixed
+Central Northwest grid,electricity,ND electricity,share-weight,2010,2100,fixed
+Central Northwest grid,electricity,NE electricity,share-weight,2010,2100,fixed
+Central Northwest grid,electricity,SD electricity,share-weight,2010,2100,fixed
+Central Southwest grid,electricity,KS electricity,share-weight,2010,2100,fixed
+Central Southwest grid,electricity,OK electricity,share-weight,2010,2100,fixed
+Florida grid,electricity,FL electricity,share-weight,2010,2100,fixed
+Hawaii grid,electricity,HI electricity,share-weight,2010,2100,fixed
+Mid-Atlantic grid,electricity,DC electricity,share-weight,2010,2100,fixed
+Mid-Atlantic grid,electricity,DE electricity,share-weight,2010,2100,fixed
+Mid-Atlantic grid,electricity,MD electricity,share-weight,2010,2100,fixed
+Mid-Atlantic grid,electricity,NJ electricity,share-weight,2010,2100,fixed
+Mid-Atlantic grid,electricity,PA electricity,share-weight,2010,2100,fixed
+New England grid,electricity,CT electricity,share-weight,2010,2100,fixed
+New England grid,electricity,MA electricity,share-weight,2010,2100,fixed
+New England grid,electricity,ME electricity,share-weight,2010,2100,fixed
+New England grid,electricity,NH electricity,share-weight,2010,2100,fixed
+New England grid,electricity,RI electricity,share-weight,2010,2100,fixed
+New England grid,electricity,VT electricity,share-weight,2010,2100,fixed
+New York grid,electricity,NY electricity,share-weight,2010,2100,fixed
+Northwest grid,electricity,ID electricity,share-weight,2010,2100,fixed
+Northwest grid,electricity,MT electricity,share-weight,2010,2100,fixed
+Northwest grid,electricity,NV electricity,share-weight,2010,2100,fixed
+Northwest grid,electricity,OR electricity,share-weight,2010,2100,fixed
+Northwest grid,electricity,UT electricity,share-weight,2010,2100,fixed
+Northwest grid,electricity,WA electricity,share-weight,2010,2100,fixed
+Southeast grid,electricity,AL electricity,share-weight,2010,2100,fixed
+Southeast grid,electricity,AR electricity,share-weight,2010,2100,fixed
+Southeast grid,electricity,GA electricity,share-weight,2010,2100,fixed
+Southeast grid,electricity,LA electricity,share-weight,2010,2100,fixed
+Southeast grid,electricity,MS electricity,share-weight,2010,2100,fixed
+Southeast grid,electricity,NC electricity,share-weight,2010,2100,fixed
+Southeast grid,electricity,SC electricity,share-weight,2010,2100,fixed
+Southeast grid,electricity,TN electricity,share-weight,2010,2100,fixed
+Southeast grid,electricity,VA electricity,share-weight,2010,2100,fixed
+Southwest grid,electricity,AZ electricity,share-weight,2010,2100,fixed
+Southwest grid,electricity,CO electricity,share-weight,2010,2100,fixed
+Southwest grid,electricity,NM electricity,share-weight,2010,2100,fixed
+Southwest grid,electricity,WY electricity,share-weight,2010,2100,fixed
+Texas grid,electricity,TX electricity,share-weight,2010,2100,fixed

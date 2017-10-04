@@ -1,0 +1,477 @@
+#INPUT_TABLE
+#Variable ID
+#SubsectorLogit
+#
+region,supplysector,subsector,logit.year.fillout,logit.exponent
+AK,electricity,coal,1975,-10
+AK,electricity,gas,1975,-10
+AK,electricity,refined liquids,1975,-10
+AK,electricity,biomass,1975,-10
+AK,electricity,nuclear,1975,-6
+AK,electricity,hydro,1975,-6
+AK,electricity,wind,1975,-6
+AK,electricity,solar,1975,-6
+AK,electricity,geothermal,1975,-6
+AK,elect_td_bld,rooftop_pv,1975,-6
+AL,electricity,coal,1975,-10
+AL,electricity,gas,1975,-10
+AL,electricity,refined liquids,1975,-10
+AL,electricity,biomass,1975,-10
+AL,electricity,nuclear,1975,-6
+AL,electricity,hydro,1975,-6
+AL,electricity,wind,1975,-6
+AL,electricity,solar,1975,-6
+AL,elect_td_bld,rooftop_pv,1975,-6
+AR,electricity,coal,1975,-10
+AR,electricity,gas,1975,-10
+AR,electricity,refined liquids,1975,-10
+AR,electricity,biomass,1975,-10
+AR,electricity,nuclear,1975,-6
+AR,electricity,hydro,1975,-6
+AR,electricity,wind,1975,-6
+AR,electricity,solar,1975,-6
+AR,elect_td_bld,rooftop_pv,1975,-6
+AZ,electricity,coal,1975,-10
+AZ,electricity,gas,1975,-10
+AZ,electricity,refined liquids,1975,-10
+AZ,electricity,biomass,1975,-10
+AZ,electricity,nuclear,1975,-6
+AZ,electricity,hydro,1975,-6
+AZ,electricity,wind,1975,-6
+AZ,electricity,solar,1975,-6
+AZ,electricity,geothermal,1975,-6
+AZ,elect_td_bld,rooftop_pv,1975,-6
+CA,electricity,coal,1975,-10
+CA,electricity,gas,1975,-10
+CA,electricity,refined liquids,1975,-10
+CA,electricity,biomass,1975,-10
+CA,electricity,nuclear,1975,-6
+CA,electricity,hydro,1975,-6
+CA,electricity,wind,1975,-6
+CA,electricity,solar,1975,-6
+CA,electricity,geothermal,1975,-6
+CA,elect_td_bld,rooftop_pv,1975,-6
+CO,electricity,coal,1975,-10
+CO,electricity,gas,1975,-10
+CO,electricity,refined liquids,1975,-10
+CO,electricity,biomass,1975,-10
+CO,electricity,nuclear,1975,-6
+CO,electricity,hydro,1975,-6
+CO,electricity,wind,1975,-6
+CO,electricity,solar,1975,-6
+CO,electricity,geothermal,1975,-6
+CO,elect_td_bld,rooftop_pv,1975,-6
+CT,electricity,coal,1975,-10
+CT,electricity,gas,1975,-10
+CT,electricity,refined liquids,1975,-10
+CT,electricity,biomass,1975,-10
+CT,electricity,nuclear,1975,-6
+CT,electricity,hydro,1975,-6
+CT,electricity,wind,1975,-6
+CT,electricity,solar,1975,-6
+CT,elect_td_bld,rooftop_pv,1975,-6
+DC,electricity,coal,1975,-10
+DC,electricity,gas,1975,-10
+DC,electricity,refined liquids,1975,-10
+DC,electricity,biomass,1975,-10
+DC,electricity,nuclear,1975,-6
+DC,electricity,hydro,1975,-6
+DC,electricity,wind,1975,-6
+DC,electricity,solar,1975,-6
+DC,elect_td_bld,rooftop_pv,1975,-6
+DE,electricity,coal,1975,-10
+DE,electricity,gas,1975,-10
+DE,electricity,refined liquids,1975,-10
+DE,electricity,biomass,1975,-10
+DE,electricity,nuclear,1975,-6
+DE,electricity,hydro,1975,-6
+DE,electricity,wind,1975,-6
+DE,electricity,solar,1975,-6
+DE,elect_td_bld,rooftop_pv,1975,-6
+FL,electricity,coal,1975,-10
+FL,electricity,gas,1975,-10
+FL,electricity,refined liquids,1975,-10
+FL,electricity,biomass,1975,-10
+FL,electricity,nuclear,1975,-6
+FL,electricity,hydro,1975,-6
+FL,electricity,wind,1975,-6
+FL,electricity,solar,1975,-6
+FL,elect_td_bld,rooftop_pv,1975,-6
+GA,electricity,coal,1975,-10
+GA,electricity,gas,1975,-10
+GA,electricity,refined liquids,1975,-10
+GA,electricity,biomass,1975,-10
+GA,electricity,nuclear,1975,-6
+GA,electricity,hydro,1975,-6
+GA,electricity,wind,1975,-6
+GA,electricity,solar,1975,-6
+GA,elect_td_bld,rooftop_pv,1975,-6
+HI,electricity,coal,1975,-10
+HI,electricity,gas,1975,-10
+HI,electricity,refined liquids,1975,-10
+HI,electricity,biomass,1975,-10
+HI,electricity,nuclear,1975,-6
+HI,electricity,hydro,1975,-6
+HI,electricity,wind,1975,-6
+HI,electricity,solar,1975,-6
+HI,electricity,geothermal,1975,-6
+HI,elect_td_bld,rooftop_pv,1975,-6
+IA,electricity,coal,1975,-10
+IA,electricity,gas,1975,-10
+IA,electricity,refined liquids,1975,-10
+IA,electricity,biomass,1975,-10
+IA,electricity,nuclear,1975,-6
+IA,electricity,hydro,1975,-6
+IA,electricity,wind,1975,-6
+IA,electricity,solar,1975,-6
+IA,elect_td_bld,rooftop_pv,1975,-6
+ID,electricity,coal,1975,-10
+ID,electricity,gas,1975,-10
+ID,electricity,refined liquids,1975,-10
+ID,electricity,biomass,1975,-10
+ID,electricity,nuclear,1975,-6
+ID,electricity,hydro,1975,-6
+ID,electricity,wind,1975,-6
+ID,electricity,solar,1975,-6
+ID,electricity,geothermal,1975,-6
+ID,elect_td_bld,rooftop_pv,1975,-6
+IL,electricity,coal,1975,-10
+IL,electricity,gas,1975,-10
+IL,electricity,refined liquids,1975,-10
+IL,electricity,biomass,1975,-10
+IL,electricity,nuclear,1975,-6
+IL,electricity,hydro,1975,-6
+IL,electricity,wind,1975,-6
+IL,electricity,solar,1975,-6
+IL,elect_td_bld,rooftop_pv,1975,-6
+IN,electricity,coal,1975,-10
+IN,electricity,gas,1975,-10
+IN,electricity,refined liquids,1975,-10
+IN,electricity,biomass,1975,-10
+IN,electricity,nuclear,1975,-6
+IN,electricity,hydro,1975,-6
+IN,electricity,wind,1975,-6
+IN,electricity,solar,1975,-6
+IN,elect_td_bld,rooftop_pv,1975,-6
+KS,electricity,coal,1975,-10
+KS,electricity,gas,1975,-10
+KS,electricity,refined liquids,1975,-10
+KS,electricity,biomass,1975,-10
+KS,electricity,nuclear,1975,-6
+KS,electricity,hydro,1975,-6
+KS,electricity,wind,1975,-6
+KS,electricity,solar,1975,-6
+KS,elect_td_bld,rooftop_pv,1975,-6
+KY,electricity,coal,1975,-10
+KY,electricity,gas,1975,-10
+KY,electricity,refined liquids,1975,-10
+KY,electricity,biomass,1975,-10
+KY,electricity,nuclear,1975,-6
+KY,electricity,hydro,1975,-6
+KY,electricity,wind,1975,-6
+KY,electricity,solar,1975,-6
+KY,elect_td_bld,rooftop_pv,1975,-6
+LA,electricity,coal,1975,-10
+LA,electricity,gas,1975,-10
+LA,electricity,refined liquids,1975,-10
+LA,electricity,biomass,1975,-10
+LA,electricity,nuclear,1975,-6
+LA,electricity,hydro,1975,-6
+LA,electricity,wind,1975,-6
+LA,electricity,solar,1975,-6
+LA,elect_td_bld,rooftop_pv,1975,-6
+MA,electricity,coal,1975,-10
+MA,electricity,gas,1975,-10
+MA,electricity,refined liquids,1975,-10
+MA,electricity,biomass,1975,-10
+MA,electricity,nuclear,1975,-6
+MA,electricity,hydro,1975,-6
+MA,electricity,wind,1975,-6
+MA,electricity,solar,1975,-6
+MA,elect_td_bld,rooftop_pv,1975,-6
+MD,electricity,coal,1975,-10
+MD,electricity,gas,1975,-10
+MD,electricity,refined liquids,1975,-10
+MD,electricity,biomass,1975,-10
+MD,electricity,nuclear,1975,-6
+MD,electricity,hydro,1975,-6
+MD,electricity,wind,1975,-6
+MD,electricity,solar,1975,-6
+MD,elect_td_bld,rooftop_pv,1975,-6
+ME,electricity,coal,1975,-10
+ME,electricity,gas,1975,-10
+ME,electricity,refined liquids,1975,-10
+ME,electricity,biomass,1975,-10
+ME,electricity,nuclear,1975,-6
+ME,electricity,hydro,1975,-6
+ME,electricity,wind,1975,-6
+ME,electricity,solar,1975,-6
+ME,elect_td_bld,rooftop_pv,1975,-6
+MI,electricity,coal,1975,-10
+MI,electricity,gas,1975,-10
+MI,electricity,refined liquids,1975,-10
+MI,electricity,biomass,1975,-10
+MI,electricity,nuclear,1975,-6
+MI,electricity,hydro,1975,-6
+MI,electricity,wind,1975,-6
+MI,electricity,solar,1975,-6
+MI,elect_td_bld,rooftop_pv,1975,-6
+MN,electricity,coal,1975,-10
+MN,electricity,gas,1975,-10
+MN,electricity,refined liquids,1975,-10
+MN,electricity,biomass,1975,-10
+MN,electricity,nuclear,1975,-6
+MN,electricity,hydro,1975,-6
+MN,electricity,wind,1975,-6
+MN,electricity,solar,1975,-6
+MN,elect_td_bld,rooftop_pv,1975,-6
+MO,electricity,coal,1975,-10
+MO,electricity,gas,1975,-10
+MO,electricity,refined liquids,1975,-10
+MO,electricity,biomass,1975,-10
+MO,electricity,nuclear,1975,-6
+MO,electricity,hydro,1975,-6
+MO,electricity,wind,1975,-6
+MO,electricity,solar,1975,-6
+MO,elect_td_bld,rooftop_pv,1975,-6
+MS,electricity,coal,1975,-10
+MS,electricity,gas,1975,-10
+MS,electricity,refined liquids,1975,-10
+MS,electricity,biomass,1975,-10
+MS,electricity,nuclear,1975,-6
+MS,electricity,hydro,1975,-6
+MS,electricity,wind,1975,-6
+MS,electricity,solar,1975,-6
+MS,elect_td_bld,rooftop_pv,1975,-6
+MT,electricity,coal,1975,-10
+MT,electricity,gas,1975,-10
+MT,electricity,refined liquids,1975,-10
+MT,electricity,biomass,1975,-10
+MT,electricity,nuclear,1975,-6
+MT,electricity,hydro,1975,-6
+MT,electricity,wind,1975,-6
+MT,electricity,solar,1975,-6
+MT,electricity,geothermal,1975,-6
+MT,elect_td_bld,rooftop_pv,1975,-6
+NC,electricity,coal,1975,-10
+NC,electricity,gas,1975,-10
+NC,electricity,refined liquids,1975,-10
+NC,electricity,biomass,1975,-10
+NC,electricity,nuclear,1975,-6
+NC,electricity,hydro,1975,-6
+NC,electricity,wind,1975,-6
+NC,electricity,solar,1975,-6
+NC,elect_td_bld,rooftop_pv,1975,-6
+ND,electricity,coal,1975,-10
+ND,electricity,gas,1975,-10
+ND,electricity,refined liquids,1975,-10
+ND,electricity,biomass,1975,-10
+ND,electricity,nuclear,1975,-6
+ND,electricity,hydro,1975,-6
+ND,electricity,wind,1975,-6
+ND,electricity,solar,1975,-6
+ND,elect_td_bld,rooftop_pv,1975,-6
+NE,electricity,coal,1975,-10
+NE,electricity,gas,1975,-10
+NE,electricity,refined liquids,1975,-10
+NE,electricity,biomass,1975,-10
+NE,electricity,nuclear,1975,-6
+NE,electricity,hydro,1975,-6
+NE,electricity,wind,1975,-6
+NE,electricity,solar,1975,-6
+NE,elect_td_bld,rooftop_pv,1975,-6
+NH,electricity,coal,1975,-10
+NH,electricity,gas,1975,-10
+NH,electricity,refined liquids,1975,-10
+NH,electricity,biomass,1975,-10
+NH,electricity,nuclear,1975,-6
+NH,electricity,hydro,1975,-6
+NH,electricity,wind,1975,-6
+NH,electricity,solar,1975,-6
+NH,elect_td_bld,rooftop_pv,1975,-6
+NJ,electricity,coal,1975,-10
+NJ,electricity,gas,1975,-10
+NJ,electricity,refined liquids,1975,-10
+NJ,electricity,biomass,1975,-10
+NJ,electricity,nuclear,1975,-6
+NJ,electricity,hydro,1975,-6
+NJ,electricity,wind,1975,-6
+NJ,electricity,solar,1975,-6
+NJ,elect_td_bld,rooftop_pv,1975,-6
+NM,electricity,coal,1975,-10
+NM,electricity,gas,1975,-10
+NM,electricity,refined liquids,1975,-10
+NM,electricity,biomass,1975,-10
+NM,electricity,nuclear,1975,-6
+NM,electricity,hydro,1975,-6
+NM,electricity,wind,1975,-6
+NM,electricity,solar,1975,-6
+NM,electricity,geothermal,1975,-6
+NM,elect_td_bld,rooftop_pv,1975,-6
+NV,electricity,coal,1975,-10
+NV,electricity,gas,1975,-10
+NV,electricity,refined liquids,1975,-10
+NV,electricity,biomass,1975,-10
+NV,electricity,nuclear,1975,-6
+NV,electricity,hydro,1975,-6
+NV,electricity,wind,1975,-6
+NV,electricity,solar,1975,-6
+NV,electricity,geothermal,1975,-6
+NV,elect_td_bld,rooftop_pv,1975,-6
+NY,electricity,coal,1975,-10
+NY,electricity,gas,1975,-10
+NY,electricity,refined liquids,1975,-10
+NY,electricity,biomass,1975,-10
+NY,electricity,nuclear,1975,-6
+NY,electricity,hydro,1975,-6
+NY,electricity,wind,1975,-6
+NY,electricity,solar,1975,-6
+NY,elect_td_bld,rooftop_pv,1975,-6
+OH,electricity,coal,1975,-10
+OH,electricity,gas,1975,-10
+OH,electricity,refined liquids,1975,-10
+OH,electricity,biomass,1975,-10
+OH,electricity,nuclear,1975,-6
+OH,electricity,hydro,1975,-6
+OH,electricity,wind,1975,-6
+OH,electricity,solar,1975,-6
+OH,elect_td_bld,rooftop_pv,1975,-6
+OK,electricity,coal,1975,-10
+OK,electricity,gas,1975,-10
+OK,electricity,refined liquids,1975,-10
+OK,electricity,biomass,1975,-10
+OK,electricity,nuclear,1975,-6
+OK,electricity,hydro,1975,-6
+OK,electricity,wind,1975,-6
+OK,electricity,solar,1975,-6
+OK,elect_td_bld,rooftop_pv,1975,-6
+OR,electricity,coal,1975,-10
+OR,electricity,gas,1975,-10
+OR,electricity,refined liquids,1975,-10
+OR,electricity,biomass,1975,-10
+OR,electricity,nuclear,1975,-6
+OR,electricity,hydro,1975,-6
+OR,electricity,wind,1975,-6
+OR,electricity,solar,1975,-6
+OR,electricity,geothermal,1975,-6
+OR,elect_td_bld,rooftop_pv,1975,-6
+PA,electricity,coal,1975,-10
+PA,electricity,gas,1975,-10
+PA,electricity,refined liquids,1975,-10
+PA,electricity,biomass,1975,-10
+PA,electricity,nuclear,1975,-6
+PA,electricity,hydro,1975,-6
+PA,electricity,wind,1975,-6
+PA,electricity,solar,1975,-6
+PA,elect_td_bld,rooftop_pv,1975,-6
+RI,electricity,coal,1975,-10
+RI,electricity,gas,1975,-10
+RI,electricity,refined liquids,1975,-10
+RI,electricity,biomass,1975,-10
+RI,electricity,nuclear,1975,-6
+RI,electricity,hydro,1975,-6
+RI,electricity,wind,1975,-6
+RI,electricity,solar,1975,-6
+RI,elect_td_bld,rooftop_pv,1975,-6
+SC,electricity,coal,1975,-10
+SC,electricity,gas,1975,-10
+SC,electricity,refined liquids,1975,-10
+SC,electricity,biomass,1975,-10
+SC,electricity,nuclear,1975,-6
+SC,electricity,hydro,1975,-6
+SC,electricity,wind,1975,-6
+SC,electricity,solar,1975,-6
+SC,elect_td_bld,rooftop_pv,1975,-6
+SD,electricity,coal,1975,-10
+SD,electricity,gas,1975,-10
+SD,electricity,refined liquids,1975,-10
+SD,electricity,biomass,1975,-10
+SD,electricity,nuclear,1975,-6
+SD,electricity,hydro,1975,-6
+SD,electricity,wind,1975,-6
+SD,electricity,solar,1975,-6
+SD,elect_td_bld,rooftop_pv,1975,-6
+TN,electricity,coal,1975,-10
+TN,electricity,gas,1975,-10
+TN,electricity,refined liquids,1975,-10
+TN,electricity,biomass,1975,-10
+TN,electricity,nuclear,1975,-6
+TN,electricity,hydro,1975,-6
+TN,electricity,wind,1975,-6
+TN,electricity,solar,1975,-6
+TN,elect_td_bld,rooftop_pv,1975,-6
+TX,electricity,coal,1975,-10
+TX,electricity,gas,1975,-10
+TX,electricity,refined liquids,1975,-10
+TX,electricity,biomass,1975,-10
+TX,electricity,nuclear,1975,-6
+TX,electricity,hydro,1975,-6
+TX,electricity,wind,1975,-6
+TX,electricity,solar,1975,-6
+TX,elect_td_bld,rooftop_pv,1975,-6
+UT,electricity,coal,1975,-10
+UT,electricity,gas,1975,-10
+UT,electricity,refined liquids,1975,-10
+UT,electricity,biomass,1975,-10
+UT,electricity,nuclear,1975,-6
+UT,electricity,hydro,1975,-6
+UT,electricity,wind,1975,-6
+UT,electricity,solar,1975,-6
+UT,electricity,geothermal,1975,-6
+UT,elect_td_bld,rooftop_pv,1975,-6
+VA,electricity,coal,1975,-10
+VA,electricity,gas,1975,-10
+VA,electricity,refined liquids,1975,-10
+VA,electricity,biomass,1975,-10
+VA,electricity,nuclear,1975,-6
+VA,electricity,hydro,1975,-6
+VA,electricity,wind,1975,-6
+VA,electricity,solar,1975,-6
+VA,elect_td_bld,rooftop_pv,1975,-6
+VT,electricity,coal,1975,-10
+VT,electricity,gas,1975,-10
+VT,electricity,refined liquids,1975,-10
+VT,electricity,biomass,1975,-10
+VT,electricity,nuclear,1975,-6
+VT,electricity,hydro,1975,-6
+VT,electricity,wind,1975,-6
+VT,electricity,solar,1975,-6
+VT,elect_td_bld,rooftop_pv,1975,-6
+WA,electricity,coal,1975,-10
+WA,electricity,gas,1975,-10
+WA,electricity,refined liquids,1975,-10
+WA,electricity,biomass,1975,-10
+WA,electricity,nuclear,1975,-6
+WA,electricity,hydro,1975,-6
+WA,electricity,wind,1975,-6
+WA,electricity,solar,1975,-6
+WA,electricity,geothermal,1975,-6
+WA,elect_td_bld,rooftop_pv,1975,-6
+WI,electricity,coal,1975,-10
+WI,electricity,gas,1975,-10
+WI,electricity,refined liquids,1975,-10
+WI,electricity,biomass,1975,-10
+WI,electricity,nuclear,1975,-6
+WI,electricity,hydro,1975,-6
+WI,electricity,wind,1975,-6
+WI,electricity,solar,1975,-6
+WI,elect_td_bld,rooftop_pv,1975,-6
+WV,electricity,coal,1975,-10
+WV,electricity,gas,1975,-10
+WV,electricity,refined liquids,1975,-10
+WV,electricity,biomass,1975,-10
+WV,electricity,nuclear,1975,-6
+WV,electricity,hydro,1975,-6
+WV,electricity,wind,1975,-6
+WV,electricity,solar,1975,-6
+WV,elect_td_bld,rooftop_pv,1975,-6
+WY,electricity,coal,1975,-10
+WY,electricity,gas,1975,-10
+WY,electricity,refined liquids,1975,-10
+WY,electricity,biomass,1975,-10
+WY,electricity,nuclear,1975,-6
+WY,electricity,hydro,1975,-6
+WY,electricity,wind,1975,-6
+WY,electricity,solar,1975,-6
+WY,electricity,geothermal,1975,-6
+WY,elect_td_bld,rooftop_pv,1975,-6
