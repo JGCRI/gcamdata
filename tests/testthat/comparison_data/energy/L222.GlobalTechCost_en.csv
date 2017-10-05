@@ -1,0 +1,423 @@
+INPUT_TABLE
+Variable ID
+GlobalTechCost
+
+sector.name,subsector.name,technology,year,minicam.non.energy.input,input.cost
+gas processing,natural gas,natural gas,1975,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,1975,non-energy,7.0301
+gas processing,coal gasification,coal gasification,1975,non-energy,5.2858
+nuclearFuelGenII,enrichedUranium,enrichedUranium,1975,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,1975,non-energy,0.1245
+refining,oil refining,oil refining,1975,non-energy,0.84
+refining,coal to liquids,coal to liquids,1975,non-energy,5.2941
+refining,coal to liquids,coal to liquids CCS level 1,1975,non-energy,5.9806
+refining,coal to liquids,coal to liquids CCS level 2,1975,non-energy,6.4677
+refining,gas to liquids,gas to liquids,1975,non-energy,3.9706
+refining,biomass liquids,cellulosic ethanol,1975,non-energy,4.74
+refining,biomass liquids,cellulosic ethanol CCS level 1,1975,non-energy,4.9918
+refining,biomass liquids,cellulosic ethanol CCS level 2,1975,non-energy,6.8506
+refining,biomass liquids,FT biofuels,1975,non-energy,7.8023
+refining,biomass liquids,FT biofuels CCS level 1,1975,non-energy,8.5169
+refining,biomass liquids,FT biofuels CCS level 2,1975,non-energy,8.9753
+refining,biomass liquids,corn ethanol,1975,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,1975,non-energy,0
+refining,biomass liquids,biodiesel,1975,non-energy,1.88
+gas processing,natural gas,natural gas,1990,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,1990,non-energy,7.0301
+gas processing,coal gasification,coal gasification,1990,non-energy,5.2858
+nuclearFuelGenII,enrichedUranium,enrichedUranium,1990,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,1990,non-energy,0.1245
+refining,oil refining,oil refining,1990,non-energy,0.84
+refining,coal to liquids,coal to liquids,1990,non-energy,5.2941
+refining,coal to liquids,coal to liquids CCS level 1,1990,non-energy,5.9806
+refining,coal to liquids,coal to liquids CCS level 2,1990,non-energy,6.4677
+refining,gas to liquids,gas to liquids,1990,non-energy,3.9706
+refining,biomass liquids,cellulosic ethanol,1990,non-energy,4.74
+refining,biomass liquids,cellulosic ethanol CCS level 1,1990,non-energy,4.9918
+refining,biomass liquids,cellulosic ethanol CCS level 2,1990,non-energy,6.8506
+refining,biomass liquids,FT biofuels,1990,non-energy,7.8023
+refining,biomass liquids,FT biofuels CCS level 1,1990,non-energy,8.5169
+refining,biomass liquids,FT biofuels CCS level 2,1990,non-energy,8.9753
+refining,biomass liquids,corn ethanol,1990,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,1990,non-energy,0
+refining,biomass liquids,biodiesel,1990,non-energy,1.88
+gas processing,natural gas,natural gas,2005,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2005,non-energy,7.0301
+gas processing,coal gasification,coal gasification,2005,non-energy,5.2858
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2005,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2005,non-energy,0.1245
+refining,oil refining,oil refining,2005,non-energy,0.84
+refining,coal to liquids,coal to liquids,2005,non-energy,5.2941
+refining,coal to liquids,coal to liquids CCS level 1,2005,non-energy,5.9806
+refining,coal to liquids,coal to liquids CCS level 2,2005,non-energy,6.4677
+refining,gas to liquids,gas to liquids,2005,non-energy,3.9706
+refining,biomass liquids,cellulosic ethanol,2005,non-energy,4.74
+refining,biomass liquids,cellulosic ethanol CCS level 1,2005,non-energy,4.9918
+refining,biomass liquids,cellulosic ethanol CCS level 2,2005,non-energy,6.8506
+refining,biomass liquids,FT biofuels,2005,non-energy,7.8023
+refining,biomass liquids,FT biofuels CCS level 1,2005,non-energy,8.5169
+refining,biomass liquids,FT biofuels CCS level 2,2005,non-energy,8.9753
+refining,biomass liquids,corn ethanol,2005,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2005,non-energy,0
+refining,biomass liquids,biodiesel,2005,non-energy,1.88
+gas processing,natural gas,natural gas,2010,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2010,non-energy,7.0301
+gas processing,coal gasification,coal gasification,2010,non-energy,5.2858
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2010,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2010,non-energy,0.1245
+refining,oil refining,oil refining,2010,non-energy,0.84
+refining,coal to liquids,coal to liquids,2010,non-energy,5.2941
+refining,coal to liquids,coal to liquids CCS level 1,2010,non-energy,5.9806
+refining,coal to liquids,coal to liquids CCS level 2,2010,non-energy,6.4677
+refining,gas to liquids,gas to liquids,2010,non-energy,3.9706
+refining,biomass liquids,cellulosic ethanol,2010,non-energy,4.74
+refining,biomass liquids,cellulosic ethanol CCS level 1,2010,non-energy,4.9918
+refining,biomass liquids,cellulosic ethanol CCS level 2,2010,non-energy,6.8506
+refining,biomass liquids,FT biofuels,2010,non-energy,7.8023
+refining,biomass liquids,FT biofuels CCS level 1,2010,non-energy,8.5169
+refining,biomass liquids,FT biofuels CCS level 2,2010,non-energy,8.9753
+refining,biomass liquids,corn ethanol,2010,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2010,non-energy,0
+refining,biomass liquids,biodiesel,2010,non-energy,1.88
+gas processing,natural gas,natural gas,2015,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2015,non-energy,6.7322
+gas processing,coal gasification,coal gasification,2015,non-energy,5.0618
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2015,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2015,non-energy,0.1245
+refining,oil refining,oil refining,2015,non-energy,0.84
+refining,coal to liquids,coal to liquids,2015,non-energy,5.0698
+refining,coal to liquids,coal to liquids CCS level 1,2015,non-energy,5.6941
+refining,coal to liquids,coal to liquids CCS level 2,2015,non-energy,6.1371
+refining,gas to liquids,gas to liquids,2015,non-energy,3.8023
+refining,biomass liquids,cellulosic ethanol,2015,non-energy,4.5391
+refining,biomass liquids,cellulosic ethanol CCS level 1,2015,non-energy,4.7682
+refining,biomass liquids,cellulosic ethanol CCS level 2,2015,non-energy,6.4587
+refining,biomass liquids,FT biofuels,2015,non-energy,7.4716
+refining,biomass liquids,FT biofuels CCS level 1,2015,non-energy,8.1216
+refining,biomass liquids,FT biofuels CCS level 2,2015,non-energy,8.5385
+refining,biomass liquids,corn ethanol,2015,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2015,non-energy,0
+refining,biomass liquids,biodiesel,2015,non-energy,1.88
+gas processing,natural gas,natural gas,2020,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2020,non-energy,6.4763
+gas processing,coal gasification,coal gasification,2020,non-energy,4.8694
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2020,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2020,non-energy,0.1245
+refining,oil refining,oil refining,2020,non-energy,0.84
+refining,coal to liquids,coal to liquids,2020,non-energy,4.8771
+refining,coal to liquids,coal to liquids CCS level 1,2020,non-energy,5.4534
+refining,coal to liquids,coal to liquids CCS level 2,2020,non-energy,5.8623
+refining,gas to liquids,gas to liquids,2020,non-energy,3.6578
+refining,biomass liquids,cellulosic ethanol,2020,non-energy,4.3666
+refining,biomass liquids,cellulosic ethanol CCS level 1,2020,non-energy,4.578
+refining,biomass liquids,cellulosic ethanol CCS level 2,2020,non-energy,6.1384
+refining,biomass liquids,FT biofuels,2020,non-energy,7.1877
+refining,biomass liquids,FT biofuels CCS level 1,2020,non-energy,7.7876
+refining,biomass liquids,FT biofuels CCS level 2,2020,non-energy,8.1724
+refining,biomass liquids,corn ethanol,2020,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2020,non-energy,0
+refining,biomass liquids,biodiesel,2020,non-energy,1.88
+gas processing,natural gas,natural gas,2025,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2025,non-energy,6.2566
+gas processing,coal gasification,coal gasification,2025,non-energy,4.7042
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2025,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2025,non-energy,0.1245
+refining,oil refining,oil refining,2025,non-energy,0.84
+refining,coal to liquids,coal to liquids,2025,non-energy,4.7116
+refining,coal to liquids,coal to liquids CCS level 1,2025,non-energy,5.2508
+refining,coal to liquids,coal to liquids CCS level 2,2025,non-energy,5.6332
+refining,gas to liquids,gas to liquids,2025,non-energy,3.5337
+refining,biomass liquids,cellulosic ethanol,2025,non-energy,4.2185
+refining,biomass liquids,cellulosic ethanol CCS level 1,2025,non-energy,4.4162
+refining,biomass liquids,cellulosic ethanol CCS level 2,2025,non-energy,5.8759
+refining,biomass liquids,FT biofuels,2025,non-energy,6.9439
+refining,biomass liquids,FT biofuels CCS level 1,2025,non-energy,7.5051
+refining,biomass liquids,FT biofuels CCS level 2,2025,non-energy,7.865
+refining,biomass liquids,corn ethanol,2025,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2025,non-energy,0
+refining,biomass liquids,biodiesel,2025,non-energy,1.88
+gas processing,natural gas,natural gas,2030,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2030,non-energy,6.0679
+gas processing,coal gasification,coal gasification,2030,non-energy,4.5624
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2030,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2030,non-energy,0.1245
+refining,oil refining,oil refining,2030,non-energy,0.84
+refining,coal to liquids,coal to liquids,2030,non-energy,4.5696
+refining,coal to liquids,coal to liquids CCS level 1,2030,non-energy,5.0799
+refining,coal to liquids,coal to liquids CCS level 2,2030,non-energy,5.442
+refining,gas to liquids,gas to liquids,2030,non-energy,3.4272
+refining,biomass liquids,cellulosic ethanol,2030,non-energy,4.0913
+refining,biomass liquids,cellulosic ethanol CCS level 1,2030,non-energy,4.2785
+refining,biomass liquids,cellulosic ethanol CCS level 2,2030,non-energy,5.6603
+refining,biomass liquids,FT biofuels,2030,non-energy,6.7345
+refining,biomass liquids,FT biofuels CCS level 1,2030,non-energy,7.2657
+refining,biomass liquids,FT biofuels CCS level 2,2030,non-energy,7.6064
+refining,biomass liquids,corn ethanol,2030,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2030,non-energy,0
+refining,biomass liquids,biodiesel,2030,non-energy,1.88
+gas processing,natural gas,natural gas,2035,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2035,non-energy,5.9059
+gas processing,coal gasification,coal gasification,2035,non-energy,4.4405
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2035,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2035,non-energy,0.1245
+refining,oil refining,oil refining,2035,non-energy,0.84
+refining,coal to liquids,coal to liquids,2035,non-energy,4.4475
+refining,coal to liquids,coal to liquids CCS level 1,2035,non-energy,4.9356
+refining,coal to liquids,coal to liquids CCS level 2,2035,non-energy,5.2819
+refining,gas to liquids,gas to liquids,2035,non-energy,3.3357
+refining,biomass liquids,cellulosic ethanol,2035,non-energy,3.982
+refining,biomass liquids,cellulosic ethanol CCS level 1,2035,non-energy,4.1611
+refining,biomass liquids,cellulosic ethanol CCS level 2,2035,non-energy,5.4826
+refining,biomass liquids,FT biofuels,2035,non-energy,6.5547
+refining,biomass liquids,FT biofuels CCS level 1,2035,non-energy,7.0627
+refining,biomass liquids,FT biofuels CCS level 2,2035,non-energy,7.3886
+refining,biomass liquids,corn ethanol,2035,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2035,non-energy,0
+refining,biomass liquids,biodiesel,2035,non-energy,1.88
+gas processing,natural gas,natural gas,2040,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2040,non-energy,5.7668
+gas processing,coal gasification,coal gasification,2040,non-energy,4.3359
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2040,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2040,non-energy,0.1245
+refining,oil refining,oil refining,2040,non-energy,0.84
+refining,coal to liquids,coal to liquids,2040,non-energy,4.3428
+refining,coal to liquids,coal to liquids CCS level 1,2040,non-energy,4.8136
+refining,coal to liquids,coal to liquids CCS level 2,2040,non-energy,5.1477
+refining,gas to liquids,gas to liquids,2040,non-energy,3.2571
+refining,biomass liquids,cellulosic ethanol,2040,non-energy,3.8882
+refining,biomass liquids,cellulosic ethanol CCS level 1,2040,non-energy,4.0609
+refining,biomass liquids,cellulosic ethanol CCS level 2,2040,non-energy,5.3358
+refining,biomass liquids,FT biofuels,2040,non-energy,6.4002
+refining,biomass liquids,FT biofuels CCS level 1,2040,non-energy,6.8904
+refining,biomass liquids,FT biofuels CCS level 2,2040,non-energy,7.2047
+refining,biomass liquids,corn ethanol,2040,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2040,non-energy,0
+refining,biomass liquids,biodiesel,2040,non-energy,1.88
+gas processing,natural gas,natural gas,2045,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2045,non-energy,5.6473
+gas processing,coal gasification,coal gasification,2045,non-energy,4.2461
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2045,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2045,non-energy,0.1245
+refining,oil refining,oil refining,2045,non-energy,0.84
+refining,coal to liquids,coal to liquids,2045,non-energy,4.2528
+refining,coal to liquids,coal to liquids CCS level 1,2045,non-energy,4.7103
+refining,coal to liquids,coal to liquids CCS level 2,2045,non-energy,5.0349
+refining,gas to liquids,gas to liquids,2045,non-energy,3.1896
+refining,biomass liquids,cellulosic ethanol,2045,non-energy,3.8077
+refining,biomass liquids,cellulosic ethanol CCS level 1,2045,non-energy,3.9755
+refining,biomass liquids,cellulosic ethanol CCS level 2,2045,non-energy,5.2142
+refining,biomass liquids,FT biofuels,2045,non-energy,6.2677
+refining,biomass liquids,FT biofuels CCS level 1,2045,non-energy,6.7439
+refining,biomass liquids,FT biofuels CCS level 2,2045,non-energy,7.0494
+refining,biomass liquids,corn ethanol,2045,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2045,non-energy,0
+refining,biomass liquids,biodiesel,2045,non-energy,1.88
+gas processing,natural gas,natural gas,2050,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2050,non-energy,5.5447
+gas processing,coal gasification,coal gasification,2050,non-energy,4.169
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2050,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2050,non-energy,0.1245
+refining,oil refining,oil refining,2050,non-energy,0.84
+refining,coal to liquids,coal to liquids,2050,non-energy,4.1755
+refining,coal to liquids,coal to liquids CCS level 1,2050,non-energy,4.6227
+refining,coal to liquids,coal to liquids CCS level 2,2050,non-energy,4.94
+refining,gas to liquids,gas to liquids,2050,non-energy,3.1317
+refining,biomass liquids,cellulosic ethanol,2050,non-energy,3.7385
+refining,biomass liquids,cellulosic ethanol CCS level 1,2050,non-energy,3.9025
+refining,biomass liquids,cellulosic ethanol CCS level 2,2050,non-energy,5.1133
+refining,biomass liquids,FT biofuels,2050,non-energy,6.1538
+refining,biomass liquids,FT biofuels CCS level 1,2050,non-energy,6.6193
+refining,biomass liquids,FT biofuels CCS level 2,2050,non-energy,6.9179
+refining,biomass liquids,corn ethanol,2050,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2050,non-energy,0
+refining,biomass liquids,biodiesel,2050,non-energy,1.88
+gas processing,natural gas,natural gas,2055,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2055,non-energy,5.4566
+gas processing,coal gasification,coal gasification,2055,non-energy,4.1027
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2055,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2055,non-energy,0.1245
+refining,oil refining,oil refining,2055,non-energy,0.84
+refining,coal to liquids,coal to liquids,2055,non-energy,4.1092
+refining,coal to liquids,coal to liquids CCS level 1,2055,non-energy,4.5484
+refining,coal to liquids,coal to liquids CCS level 2,2055,non-energy,4.86
+refining,gas to liquids,gas to liquids,2055,non-energy,3.0819
+refining,biomass liquids,cellulosic ethanol,2055,non-energy,3.6791
+refining,biomass liquids,cellulosic ethanol CCS level 1,2055,non-energy,3.8402
+refining,biomass liquids,cellulosic ethanol CCS level 2,2055,non-energy,5.0294
+refining,biomass liquids,FT biofuels,2055,non-energy,6.056
+refining,biomass liquids,FT biofuels CCS level 1,2055,non-energy,6.5132
+refining,biomass liquids,FT biofuels CCS level 2,2055,non-energy,6.8064
+refining,biomass liquids,corn ethanol,2055,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2055,non-energy,0
+refining,biomass liquids,biodiesel,2055,non-energy,1.88
+gas processing,natural gas,natural gas,2060,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2060,non-energy,5.381
+gas processing,coal gasification,coal gasification,2060,non-energy,4.0458
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2060,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2060,non-energy,0.1245
+refining,oil refining,oil refining,2060,non-energy,0.84
+refining,coal to liquids,coal to liquids,2060,non-energy,4.0522
+refining,coal to liquids,coal to liquids CCS level 1,2060,non-energy,4.4852
+refining,coal to liquids,coal to liquids CCS level 2,2060,non-energy,4.7925
+refining,gas to liquids,gas to liquids,2060,non-energy,3.0392
+refining,biomass liquids,cellulosic ethanol,2060,non-energy,3.6281
+refining,biomass liquids,cellulosic ethanol CCS level 1,2060,non-energy,3.7869
+refining,biomass liquids,cellulosic ethanol CCS level 2,2060,non-energy,4.9594
+refining,biomass liquids,FT biofuels,2060,non-energy,5.972
+refining,biomass liquids,FT biofuels CCS level 1,2060,non-energy,6.4228
+refining,biomass liquids,FT biofuels CCS level 2,2060,non-energy,6.7119
+refining,biomass liquids,corn ethanol,2060,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2060,non-energy,0
+refining,biomass liquids,biodiesel,2060,non-energy,1.88
+gas processing,natural gas,natural gas,2065,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2065,non-energy,5.316
+gas processing,coal gasification,coal gasification,2065,non-energy,3.997
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2065,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2065,non-energy,0.1245
+refining,oil refining,oil refining,2065,non-energy,0.84
+refining,coal to liquids,coal to liquids,2065,non-energy,4.0033
+refining,coal to liquids,coal to liquids CCS level 1,2065,non-energy,4.4315
+refining,coal to liquids,coal to liquids CCS level 2,2065,non-energy,4.7354
+refining,gas to liquids,gas to liquids,2065,non-energy,3.0025
+refining,biomass liquids,cellulosic ethanol,2065,non-energy,3.5843
+refining,biomass liquids,cellulosic ethanol CCS level 1,2065,non-energy,3.7414
+refining,biomass liquids,cellulosic ethanol CCS level 2,2065,non-energy,4.9009
+refining,biomass liquids,FT biofuels,2065,non-energy,5.8999
+refining,biomass liquids,FT biofuels CCS level 1,2065,non-energy,6.3457
+refining,biomass liquids,FT biofuels CCS level 2,2065,non-energy,6.6316
+refining,biomass liquids,corn ethanol,2065,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2065,non-energy,0
+refining,biomass liquids,biodiesel,2065,non-energy,1.88
+gas processing,natural gas,natural gas,2070,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2070,non-energy,5.2602
+gas processing,coal gasification,coal gasification,2070,non-energy,3.955
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2070,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2070,non-energy,0.1245
+refining,oil refining,oil refining,2070,non-energy,0.84
+refining,coal to liquids,coal to liquids,2070,non-energy,3.9613
+refining,coal to liquids,coal to liquids CCS level 1,2070,non-energy,4.3858
+refining,coal to liquids,coal to liquids CCS level 2,2070,non-energy,4.687
+refining,gas to liquids,gas to liquids,2070,non-energy,2.971
+refining,biomass liquids,cellulosic ethanol,2070,non-energy,3.5467
+refining,biomass liquids,cellulosic ethanol CCS level 1,2070,non-energy,3.7024
+refining,biomass liquids,cellulosic ethanol CCS level 2,2070,non-energy,4.8519
+refining,biomass liquids,FT biofuels,2070,non-energy,5.838
+refining,biomass liquids,FT biofuels CCS level 1,2070,non-energy,6.28
+refining,biomass liquids,FT biofuels CCS level 2,2070,non-energy,6.5634
+refining,biomass liquids,corn ethanol,2070,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2070,non-energy,0
+refining,biomass liquids,biodiesel,2070,non-energy,1.88
+gas processing,natural gas,natural gas,2075,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2075,non-energy,5.2123
+gas processing,coal gasification,coal gasification,2075,non-energy,3.919
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2075,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2075,non-energy,0.1245
+refining,oil refining,oil refining,2075,non-energy,0.84
+refining,coal to liquids,coal to liquids,2075,non-energy,3.9252
+refining,coal to liquids,coal to liquids CCS level 1,2075,non-energy,4.3469
+refining,coal to liquids,coal to liquids CCS level 2,2075,non-energy,4.6461
+refining,gas to liquids,gas to liquids,2075,non-energy,2.9439
+refining,biomass liquids,cellulosic ethanol,2075,non-energy,3.5144
+refining,biomass liquids,cellulosic ethanol CCS level 1,2075,non-energy,3.669
+refining,biomass liquids,cellulosic ethanol CCS level 2,2075,non-energy,4.8108
+refining,biomass liquids,FT biofuels,2075,non-energy,5.7848
+refining,biomass liquids,FT biofuels CCS level 1,2075,non-energy,6.2238
+refining,biomass liquids,FT biofuels CCS level 2,2075,non-energy,6.5053
+refining,biomass liquids,corn ethanol,2075,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2075,non-energy,0
+refining,biomass liquids,biodiesel,2075,non-energy,1.88
+gas processing,natural gas,natural gas,2080,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2080,non-energy,5.1712
+gas processing,coal gasification,coal gasification,2080,non-energy,3.8881
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2080,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2080,non-energy,0.1245
+refining,oil refining,oil refining,2080,non-energy,0.84
+refining,coal to liquids,coal to liquids,2080,non-energy,3.8942
+refining,coal to liquids,coal to liquids CCS level 1,2080,non-energy,4.3137
+refining,coal to liquids,coal to liquids CCS level 2,2080,non-energy,4.6113
+refining,gas to liquids,gas to liquids,2080,non-energy,2.9207
+refining,biomass liquids,cellulosic ethanol,2080,non-energy,3.4866
+refining,biomass liquids,cellulosic ethanol CCS level 1,2080,non-energy,3.6405
+refining,biomass liquids,cellulosic ethanol CCS level 2,2080,non-energy,4.7762
+refining,biomass liquids,FT biofuels,2080,non-energy,5.7392
+refining,biomass liquids,FT biofuels CCS level 1,2080,non-energy,6.1758
+refining,biomass liquids,FT biofuels CCS level 2,2080,non-energy,6.4559
+refining,biomass liquids,corn ethanol,2080,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2080,non-energy,0
+refining,biomass liquids,biodiesel,2080,non-energy,1.88
+gas processing,natural gas,natural gas,2085,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2085,non-energy,5.1358
+gas processing,coal gasification,coal gasification,2085,non-energy,3.8615
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2085,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2085,non-energy,0.1245
+refining,oil refining,oil refining,2085,non-energy,0.84
+refining,coal to liquids,coal to liquids,2085,non-energy,3.8676
+refining,coal to liquids,coal to liquids CCS level 1,2085,non-energy,4.2854
+refining,coal to liquids,coal to liquids CCS level 2,2085,non-energy,4.5818
+refining,gas to liquids,gas to liquids,2085,non-energy,2.9007
+refining,biomass liquids,cellulosic ethanol,2085,non-energy,3.4628
+refining,biomass liquids,cellulosic ethanol CCS level 1,2085,non-energy,3.616
+refining,biomass liquids,cellulosic ethanol CCS level 2,2085,non-energy,4.7472
+refining,biomass liquids,FT biofuels,2085,non-energy,5.7
+refining,biomass liquids,FT biofuels CCS level 1,2085,non-energy,6.1348
+refining,biomass liquids,FT biofuels CCS level 2,2085,non-energy,6.4138
+refining,biomass liquids,corn ethanol,2085,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2085,non-energy,0
+refining,biomass liquids,biodiesel,2085,non-energy,1.88
+gas processing,natural gas,natural gas,2090,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2090,non-energy,5.1055
+gas processing,coal gasification,coal gasification,2090,non-energy,3.8387
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2090,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2090,non-energy,0.1245
+refining,oil refining,oil refining,2090,non-energy,0.84
+refining,coal to liquids,coal to liquids,2090,non-energy,3.8448
+refining,coal to liquids,coal to liquids CCS level 1,2090,non-energy,4.2612
+refining,coal to liquids,coal to liquids CCS level 2,2090,non-energy,4.5567
+refining,gas to liquids,gas to liquids,2090,non-energy,2.8836
+refining,biomass liquids,cellulosic ethanol,2090,non-energy,3.4423
+refining,biomass liquids,cellulosic ethanol CCS level 1,2090,non-energy,3.5951
+refining,biomass liquids,cellulosic ethanol CCS level 2,2090,non-energy,4.7226
+refining,biomass liquids,FT biofuels,2090,non-energy,5.6663
+refining,biomass liquids,FT biofuels CCS level 1,2090,non-energy,6.0998
+refining,biomass liquids,FT biofuels CCS level 2,2090,non-energy,6.3778
+refining,biomass liquids,corn ethanol,2090,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2090,non-energy,0
+refining,biomass liquids,biodiesel,2090,non-energy,1.88
+gas processing,natural gas,natural gas,2095,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2095,non-energy,5.0794
+gas processing,coal gasification,coal gasification,2095,non-energy,3.8191
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2095,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2095,non-energy,0.1245
+refining,oil refining,oil refining,2095,non-energy,0.84
+refining,coal to liquids,coal to liquids,2095,non-energy,3.8251
+refining,coal to liquids,coal to liquids CCS level 1,2095,non-energy,4.2406
+refining,coal to liquids,coal to liquids CCS level 2,2095,non-energy,4.5353
+refining,gas to liquids,gas to liquids,2095,non-energy,2.8689
+refining,biomass liquids,cellulosic ethanol,2095,non-energy,3.4248
+refining,biomass liquids,cellulosic ethanol CCS level 1,2095,non-energy,3.5772
+refining,biomass liquids,cellulosic ethanol CCS level 2,2095,non-energy,4.7019
+refining,biomass liquids,FT biofuels,2095,non-energy,5.6374
+refining,biomass liquids,FT biofuels CCS level 1,2095,non-energy,6.0698
+refining,biomass liquids,FT biofuels CCS level 2,2095,non-energy,6.3472
+refining,biomass liquids,corn ethanol,2095,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2095,non-energy,0
+refining,biomass liquids,biodiesel,2095,non-energy,1.88
+gas processing,natural gas,natural gas,2100,non-energy,0.2
+gas processing,biomass gasification,biomass gasification,2100,non-energy,5.0571
+gas processing,coal gasification,coal gasification,2100,non-energy,3.8023
+nuclearFuelGenII,enrichedUranium,enrichedUranium,2100,non-energy,0.1245
+nuclearFuelGenIII,enrichedUranium,enrichedUranium,2100,non-energy,0.1245
+refining,oil refining,oil refining,2100,non-energy,0.84
+refining,coal to liquids,coal to liquids,2100,non-energy,3.8083
+refining,coal to liquids,coal to liquids CCS level 1,2100,non-energy,4.2229
+refining,coal to liquids,coal to liquids CCS level 2,2100,non-energy,4.5171
+refining,gas to liquids,gas to liquids,2100,non-energy,2.8562
+refining,biomass liquids,cellulosic ethanol,2100,non-energy,3.4097
+refining,biomass liquids,cellulosic ethanol CCS level 1,2100,non-energy,3.5618
+refining,biomass liquids,cellulosic ethanol CCS level 2,2100,non-energy,4.6844
+refining,biomass liquids,FT biofuels,2100,non-energy,5.6126
+refining,biomass liquids,FT biofuels CCS level 1,2100,non-energy,6.0441
+refining,biomass liquids,FT biofuels CCS level 2,2100,non-energy,6.321
+refining,biomass liquids,corn ethanol,2100,non-energy,2.38
+refining,biomass liquids,sugar cane ethanol,2100,non-energy,0
+refining,biomass liquids,biodiesel,2100,non-energy,1.88
