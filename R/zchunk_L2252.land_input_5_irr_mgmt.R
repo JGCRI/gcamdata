@@ -208,9 +208,6 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       remove_zero_production_land_leafs(prod = L2012.AgProduction_ag_irr_mgmt) ->
       L2252.LN5_MgdAllocation_crop
 
-    # Several outputs are unchanged from their L2241 form. They just undergo relabeling and the addition of
-    # hi/lo management information:
-    #
     # L2252.LN5_HistMgdAllocation_bio
     ALL_LAND_ALLOCATION %>%
       filter(grepl("biomass_grass", LandLeaf) | grepl("biomass_tree", LandLeaf)) %>%
