@@ -49,6 +49,7 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
     L2012.AgProduction_ag_irr_mgmt %>%
       distinct(region, AgSupplySubsector, AgSupplySector) %>%
       bind_rows(distinct(L2012.AgYield_bio_ref, region, AgSupplySubsector, AgSupplySector)) %>%
+      mutate(AgSupplySector = if_else(grepl("biomass_tree", AgSupplySubsector), "biomass_tree", "biomass_grass")) %>%
       left_join(A_LandLeaf3, by=c("AgSupplySector" = "LandLeaf")) %>%
       # Modify land node variable, prepare to separate the GLU name
       mutate(AgSupplySubsector = sub("Root_Tuber", "RootTuber", AgSupplySubsector),
