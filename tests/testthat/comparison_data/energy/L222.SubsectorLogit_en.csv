@@ -1,0 +1,293 @@
+INPUT_TABLE
+Variable ID
+SubsectorLogit
+
+region,supplysector,subsector,logit.year.fillout,logit.exponent
+USA,gas processing,natural gas,1975,-6
+USA,gas processing,biomass gasification,1975,-6
+USA,gas processing,coal gasification,1975,-6
+USA,nuclearFuelGenII,enrichedUranium,1975,-6
+USA,nuclearFuelGenIII,enrichedUranium,1975,-6
+USA,refining,oil refining,1975,-6
+USA,refining,biomass liquids,1975,-6
+USA,refining,coal to liquids,1975,-6
+USA,refining,gas to liquids,1975,-6
+Africa_Eastern,gas processing,natural gas,1975,-6
+Africa_Eastern,gas processing,biomass gasification,1975,-6
+Africa_Eastern,gas processing,coal gasification,1975,-6
+Africa_Eastern,nuclearFuelGenII,enrichedUranium,1975,-6
+Africa_Eastern,nuclearFuelGenIII,enrichedUranium,1975,-6
+Africa_Eastern,refining,oil refining,1975,-6
+Africa_Eastern,refining,biomass liquids,1975,-6
+Africa_Eastern,refining,coal to liquids,1975,-6
+Africa_Eastern,refining,gas to liquids,1975,-6
+Africa_Northern,gas processing,natural gas,1975,-6
+Africa_Northern,gas processing,biomass gasification,1975,-6
+Africa_Northern,gas processing,coal gasification,1975,-6
+Africa_Northern,nuclearFuelGenII,enrichedUranium,1975,-6
+Africa_Northern,nuclearFuelGenIII,enrichedUranium,1975,-6
+Africa_Northern,refining,oil refining,1975,-6
+Africa_Northern,refining,biomass liquids,1975,-6
+Africa_Northern,refining,coal to liquids,1975,-6
+Africa_Northern,refining,gas to liquids,1975,-6
+Africa_Southern,gas processing,natural gas,1975,-6
+Africa_Southern,gas processing,biomass gasification,1975,-6
+Africa_Southern,gas processing,coal gasification,1975,-6
+Africa_Southern,nuclearFuelGenII,enrichedUranium,1975,-6
+Africa_Southern,nuclearFuelGenIII,enrichedUranium,1975,-6
+Africa_Southern,refining,oil refining,1975,-6
+Africa_Southern,refining,biomass liquids,1975,-6
+Africa_Southern,refining,coal to liquids,1975,-6
+Africa_Southern,refining,gas to liquids,1975,-6
+Africa_Western,gas processing,natural gas,1975,-6
+Africa_Western,gas processing,biomass gasification,1975,-6
+Africa_Western,gas processing,coal gasification,1975,-6
+Africa_Western,nuclearFuelGenII,enrichedUranium,1975,-6
+Africa_Western,nuclearFuelGenIII,enrichedUranium,1975,-6
+Africa_Western,refining,oil refining,1975,-6
+Africa_Western,refining,biomass liquids,1975,-6
+Africa_Western,refining,coal to liquids,1975,-6
+Africa_Western,refining,gas to liquids,1975,-6
+Australia_NZ,gas processing,natural gas,1975,-6
+Australia_NZ,gas processing,biomass gasification,1975,-6
+Australia_NZ,gas processing,coal gasification,1975,-6
+Australia_NZ,nuclearFuelGenII,enrichedUranium,1975,-6
+Australia_NZ,nuclearFuelGenIII,enrichedUranium,1975,-6
+Australia_NZ,refining,oil refining,1975,-6
+Australia_NZ,refining,biomass liquids,1975,-6
+Australia_NZ,refining,coal to liquids,1975,-6
+Australia_NZ,refining,gas to liquids,1975,-6
+Brazil,gas processing,natural gas,1975,-6
+Brazil,gas processing,biomass gasification,1975,-6
+Brazil,gas processing,coal gasification,1975,-6
+Brazil,nuclearFuelGenII,enrichedUranium,1975,-6
+Brazil,nuclearFuelGenIII,enrichedUranium,1975,-6
+Brazil,refining,oil refining,1975,-6
+Brazil,refining,biomass liquids,1975,-6
+Brazil,refining,coal to liquids,1975,-6
+Brazil,refining,gas to liquids,1975,-6
+Canada,gas processing,natural gas,1975,-6
+Canada,gas processing,biomass gasification,1975,-6
+Canada,gas processing,coal gasification,1975,-6
+Canada,nuclearFuelGenII,enrichedUranium,1975,-6
+Canada,nuclearFuelGenIII,enrichedUranium,1975,-6
+Canada,refining,oil refining,1975,-6
+Canada,refining,biomass liquids,1975,-6
+Canada,refining,coal to liquids,1975,-6
+Canada,refining,gas to liquids,1975,-6
+Central America and Caribbean,gas processing,natural gas,1975,-6
+Central America and Caribbean,gas processing,biomass gasification,1975,-6
+Central America and Caribbean,gas processing,coal gasification,1975,-6
+Central America and Caribbean,nuclearFuelGenII,enrichedUranium,1975,-6
+Central America and Caribbean,nuclearFuelGenIII,enrichedUranium,1975,-6
+Central America and Caribbean,refining,oil refining,1975,-6
+Central America and Caribbean,refining,biomass liquids,1975,-6
+Central America and Caribbean,refining,coal to liquids,1975,-6
+Central America and Caribbean,refining,gas to liquids,1975,-6
+Central Asia,gas processing,natural gas,1975,-6
+Central Asia,gas processing,biomass gasification,1975,-6
+Central Asia,gas processing,coal gasification,1975,-6
+Central Asia,nuclearFuelGenII,enrichedUranium,1975,-6
+Central Asia,nuclearFuelGenIII,enrichedUranium,1975,-6
+Central Asia,refining,oil refining,1975,-6
+Central Asia,refining,biomass liquids,1975,-6
+Central Asia,refining,coal to liquids,1975,-6
+Central Asia,refining,gas to liquids,1975,-6
+China,gas processing,natural gas,1975,-6
+China,gas processing,biomass gasification,1975,-6
+China,gas processing,coal gasification,1975,-6
+China,nuclearFuelGenII,enrichedUranium,1975,-6
+China,nuclearFuelGenIII,enrichedUranium,1975,-6
+China,refining,oil refining,1975,-6
+China,refining,biomass liquids,1975,-6
+China,refining,coal to liquids,1975,-6
+China,refining,gas to liquids,1975,-6
+EU-12,gas processing,natural gas,1975,-6
+EU-12,gas processing,biomass gasification,1975,-6
+EU-12,gas processing,coal gasification,1975,-6
+EU-12,nuclearFuelGenII,enrichedUranium,1975,-6
+EU-12,nuclearFuelGenIII,enrichedUranium,1975,-6
+EU-12,refining,oil refining,1975,-6
+EU-12,refining,biomass liquids,1975,-6
+EU-12,refining,coal to liquids,1975,-6
+EU-12,refining,gas to liquids,1975,-6
+EU-15,gas processing,natural gas,1975,-6
+EU-15,gas processing,biomass gasification,1975,-6
+EU-15,gas processing,coal gasification,1975,-6
+EU-15,nuclearFuelGenII,enrichedUranium,1975,-6
+EU-15,nuclearFuelGenIII,enrichedUranium,1975,-6
+EU-15,refining,oil refining,1975,-6
+EU-15,refining,biomass liquids,1975,-6
+EU-15,refining,coal to liquids,1975,-6
+EU-15,refining,gas to liquids,1975,-6
+Europe_Eastern,gas processing,natural gas,1975,-6
+Europe_Eastern,gas processing,biomass gasification,1975,-6
+Europe_Eastern,gas processing,coal gasification,1975,-6
+Europe_Eastern,nuclearFuelGenII,enrichedUranium,1975,-6
+Europe_Eastern,nuclearFuelGenIII,enrichedUranium,1975,-6
+Europe_Eastern,refining,oil refining,1975,-6
+Europe_Eastern,refining,biomass liquids,1975,-6
+Europe_Eastern,refining,coal to liquids,1975,-6
+Europe_Eastern,refining,gas to liquids,1975,-6
+Europe_Non_EU,gas processing,natural gas,1975,-6
+Europe_Non_EU,gas processing,biomass gasification,1975,-6
+Europe_Non_EU,gas processing,coal gasification,1975,-6
+Europe_Non_EU,nuclearFuelGenII,enrichedUranium,1975,-6
+Europe_Non_EU,nuclearFuelGenIII,enrichedUranium,1975,-6
+Europe_Non_EU,refining,oil refining,1975,-6
+Europe_Non_EU,refining,biomass liquids,1975,-6
+Europe_Non_EU,refining,coal to liquids,1975,-6
+Europe_Non_EU,refining,gas to liquids,1975,-6
+European Free Trade Association,gas processing,natural gas,1975,-6
+European Free Trade Association,gas processing,biomass gasification,1975,-6
+European Free Trade Association,gas processing,coal gasification,1975,-6
+European Free Trade Association,nuclearFuelGenII,enrichedUranium,1975,-6
+European Free Trade Association,nuclearFuelGenIII,enrichedUranium,1975,-6
+European Free Trade Association,refining,oil refining,1975,-6
+European Free Trade Association,refining,biomass liquids,1975,-6
+European Free Trade Association,refining,coal to liquids,1975,-6
+European Free Trade Association,refining,gas to liquids,1975,-6
+India,gas processing,natural gas,1975,-6
+India,gas processing,biomass gasification,1975,-6
+India,gas processing,coal gasification,1975,-6
+India,nuclearFuelGenII,enrichedUranium,1975,-6
+India,nuclearFuelGenIII,enrichedUranium,1975,-6
+India,refining,oil refining,1975,-6
+India,refining,biomass liquids,1975,-6
+India,refining,coal to liquids,1975,-6
+India,refining,gas to liquids,1975,-6
+Indonesia,gas processing,natural gas,1975,-6
+Indonesia,gas processing,biomass gasification,1975,-6
+Indonesia,gas processing,coal gasification,1975,-6
+Indonesia,nuclearFuelGenII,enrichedUranium,1975,-6
+Indonesia,nuclearFuelGenIII,enrichedUranium,1975,-6
+Indonesia,refining,oil refining,1975,-6
+Indonesia,refining,biomass liquids,1975,-6
+Indonesia,refining,coal to liquids,1975,-6
+Indonesia,refining,gas to liquids,1975,-6
+Japan,gas processing,natural gas,1975,-6
+Japan,gas processing,biomass gasification,1975,-6
+Japan,gas processing,coal gasification,1975,-6
+Japan,nuclearFuelGenII,enrichedUranium,1975,-6
+Japan,nuclearFuelGenIII,enrichedUranium,1975,-6
+Japan,refining,oil refining,1975,-6
+Japan,refining,biomass liquids,1975,-6
+Japan,refining,coal to liquids,1975,-6
+Japan,refining,gas to liquids,1975,-6
+Mexico,gas processing,natural gas,1975,-6
+Mexico,gas processing,biomass gasification,1975,-6
+Mexico,gas processing,coal gasification,1975,-6
+Mexico,nuclearFuelGenII,enrichedUranium,1975,-6
+Mexico,nuclearFuelGenIII,enrichedUranium,1975,-6
+Mexico,refining,oil refining,1975,-6
+Mexico,refining,biomass liquids,1975,-6
+Mexico,refining,coal to liquids,1975,-6
+Mexico,refining,gas to liquids,1975,-6
+Middle East,gas processing,natural gas,1975,-6
+Middle East,gas processing,biomass gasification,1975,-6
+Middle East,gas processing,coal gasification,1975,-6
+Middle East,nuclearFuelGenII,enrichedUranium,1975,-6
+Middle East,nuclearFuelGenIII,enrichedUranium,1975,-6
+Middle East,refining,oil refining,1975,-6
+Middle East,refining,biomass liquids,1975,-6
+Middle East,refining,coal to liquids,1975,-6
+Middle East,refining,gas to liquids,1975,-6
+Pakistan,gas processing,natural gas,1975,-6
+Pakistan,gas processing,biomass gasification,1975,-6
+Pakistan,gas processing,coal gasification,1975,-6
+Pakistan,nuclearFuelGenII,enrichedUranium,1975,-6
+Pakistan,nuclearFuelGenIII,enrichedUranium,1975,-6
+Pakistan,refining,oil refining,1975,-6
+Pakistan,refining,biomass liquids,1975,-6
+Pakistan,refining,coal to liquids,1975,-6
+Pakistan,refining,gas to liquids,1975,-6
+Russia,gas processing,natural gas,1975,-6
+Russia,gas processing,biomass gasification,1975,-6
+Russia,gas processing,coal gasification,1975,-6
+Russia,nuclearFuelGenII,enrichedUranium,1975,-6
+Russia,nuclearFuelGenIII,enrichedUranium,1975,-6
+Russia,refining,oil refining,1975,-6
+Russia,refining,biomass liquids,1975,-6
+Russia,refining,coal to liquids,1975,-6
+Russia,refining,gas to liquids,1975,-6
+South Africa,gas processing,natural gas,1975,-6
+South Africa,gas processing,biomass gasification,1975,-6
+South Africa,gas processing,coal gasification,1975,-6
+South Africa,nuclearFuelGenII,enrichedUranium,1975,-6
+South Africa,nuclearFuelGenIII,enrichedUranium,1975,-6
+South Africa,refining,oil refining,1975,-6
+South Africa,refining,biomass liquids,1975,-6
+South Africa,refining,coal to liquids,1975,-6
+South Africa,refining,gas to liquids,1975,-6
+South America_Northern,gas processing,natural gas,1975,-6
+South America_Northern,gas processing,biomass gasification,1975,-6
+South America_Northern,gas processing,coal gasification,1975,-6
+South America_Northern,nuclearFuelGenII,enrichedUranium,1975,-6
+South America_Northern,nuclearFuelGenIII,enrichedUranium,1975,-6
+South America_Northern,refining,oil refining,1975,-6
+South America_Northern,refining,biomass liquids,1975,-6
+South America_Northern,refining,coal to liquids,1975,-6
+South America_Northern,refining,gas to liquids,1975,-6
+South America_Southern,gas processing,natural gas,1975,-6
+South America_Southern,gas processing,biomass gasification,1975,-6
+South America_Southern,gas processing,coal gasification,1975,-6
+South America_Southern,nuclearFuelGenII,enrichedUranium,1975,-6
+South America_Southern,nuclearFuelGenIII,enrichedUranium,1975,-6
+South America_Southern,refining,oil refining,1975,-6
+South America_Southern,refining,biomass liquids,1975,-6
+South America_Southern,refining,coal to liquids,1975,-6
+South America_Southern,refining,gas to liquids,1975,-6
+South Asia,gas processing,natural gas,1975,-6
+South Asia,gas processing,biomass gasification,1975,-6
+South Asia,gas processing,coal gasification,1975,-6
+South Asia,nuclearFuelGenII,enrichedUranium,1975,-6
+South Asia,nuclearFuelGenIII,enrichedUranium,1975,-6
+South Asia,refining,oil refining,1975,-6
+South Asia,refining,biomass liquids,1975,-6
+South Asia,refining,coal to liquids,1975,-6
+South Asia,refining,gas to liquids,1975,-6
+South Korea,gas processing,natural gas,1975,-6
+South Korea,gas processing,biomass gasification,1975,-6
+South Korea,gas processing,coal gasification,1975,-6
+South Korea,nuclearFuelGenII,enrichedUranium,1975,-6
+South Korea,nuclearFuelGenIII,enrichedUranium,1975,-6
+South Korea,refining,oil refining,1975,-6
+South Korea,refining,biomass liquids,1975,-6
+South Korea,refining,coal to liquids,1975,-6
+South Korea,refining,gas to liquids,1975,-6
+Southeast Asia,gas processing,natural gas,1975,-6
+Southeast Asia,gas processing,biomass gasification,1975,-6
+Southeast Asia,gas processing,coal gasification,1975,-6
+Southeast Asia,nuclearFuelGenII,enrichedUranium,1975,-6
+Southeast Asia,nuclearFuelGenIII,enrichedUranium,1975,-6
+Southeast Asia,refining,oil refining,1975,-6
+Southeast Asia,refining,biomass liquids,1975,-6
+Southeast Asia,refining,coal to liquids,1975,-6
+Southeast Asia,refining,gas to liquids,1975,-6
+Taiwan,gas processing,natural gas,1975,-6
+Taiwan,gas processing,biomass gasification,1975,-6
+Taiwan,gas processing,coal gasification,1975,-6
+Taiwan,nuclearFuelGenII,enrichedUranium,1975,-6
+Taiwan,nuclearFuelGenIII,enrichedUranium,1975,-6
+Taiwan,refining,oil refining,1975,-6
+Taiwan,refining,biomass liquids,1975,-6
+Taiwan,refining,coal to liquids,1975,-6
+Taiwan,refining,gas to liquids,1975,-6
+Argentina,gas processing,natural gas,1975,-6
+Argentina,gas processing,biomass gasification,1975,-6
+Argentina,gas processing,coal gasification,1975,-6
+Argentina,nuclearFuelGenII,enrichedUranium,1975,-6
+Argentina,nuclearFuelGenIII,enrichedUranium,1975,-6
+Argentina,refining,oil refining,1975,-6
+Argentina,refining,biomass liquids,1975,-6
+Argentina,refining,coal to liquids,1975,-6
+Argentina,refining,gas to liquids,1975,-6
+Colombia,gas processing,natural gas,1975,-6
+Colombia,gas processing,biomass gasification,1975,-6
+Colombia,gas processing,coal gasification,1975,-6
+Colombia,nuclearFuelGenII,enrichedUranium,1975,-6
+Colombia,nuclearFuelGenIII,enrichedUranium,1975,-6
+Colombia,refining,oil refining,1975,-6
+Colombia,refining,biomass liquids,1975,-6
+Colombia,refining,coal to liquids,1975,-6
+Colombia,refining,gas to liquids,1975,-6
