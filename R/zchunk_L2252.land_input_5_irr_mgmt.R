@@ -270,25 +270,25 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       L2252.LandShare_R_bio_GLU_irr
 
     # Second, relabel L2241 data and join the land share information
-    L2241.LN4_LeafGhostShare %>%
-      convert_LN4_to_LN5(names = c(LEVEL2_DATA_NAMES[["LN5_LeafGhostShare"]], "level")) %>%
+    L2252.LN5_MgdAllocation_bio %>%
+      distinct(region, LandAllocatorRoot, LandNode1, LandNode2, LandNode3, LandNode4, LandNode5, LandLeaf) %>%
       mutate(tmp = LandLeaf) %>%
-      separate(tmp, c("crop1", "crop2", "GLU", "Irr_Rfd", "lev")) %>%
-      select(-lev, -crop1, -crop2)  %>%
+      separate(tmp, c("crop1", "crop2", "GLU", "Irr_Rfd", "level")) %>%
+      select(-crop1, -crop2)  %>%
       # use left_join to keep NA's for further manipulation
       left_join(L2252.LandShare_R_bio_GLU_irr, by = c("region", "GLU", "Irr_Rfd", "level")) %>%
-      mutate(ghost.unnormalized.share = round(landshare, aglu.DIGITS_LAND_USE)) %>%
+      mutate(ghost.unnormalized.share = round(landshare, aglu.DIGITS_LAND_USE),
+             year = aglu.BIO_START_YEAR) %>%
       select(-landshare) %>%
       # For bio techs with no ghost share info, set lo- and hi-input techs to 0.5
-      replace_na(replace = list(ghost.unnormalized.share = 0.5)) ->
+      replace_na(replace = list(ghost.unnormalized.share = 0.5)) %>%
+      select(one_of(c(LEVEL2_DATA_NAMES[["LN5_LeafGhostShare"]], "GLU", "Irr_Rfd", "level"))) ->
       L2252.LN5_LeafGhostShare
-
 
     # L2252.LN5_NodeGhostShare: Ghost share of the new nodes (irrigated versus rainfed)
     L2241.LN4_LeafGhostShare %>%
       rename(LandNode5 = LandLeaf) ->
       L2252.LN5_NodeGhostShare
-
 
     # Produce outputs
     L2252.LN5_Logit %>%
