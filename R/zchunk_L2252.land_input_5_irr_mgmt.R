@@ -37,13 +37,13 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "common/GCAM_region_names",
              FILE = "water/basin_to_country_mapping",
+             FILE = "aglu/GCAMLandLeaf_CdensityLT",
              "L181.LandShare_R_bio_GLU_irr",
              "L181.LC_bm2_R_C_Yh_GLU_irr_level",
              "L181.YieldMult_R_bio_GLU_irr",
              "L2242.LN4_Logit",
              FILE = "temp-data-inject/L2241.LN4_MgdCarbon_crop",
              FILE = "temp-data-inject/L2241.LN4_MgdCarbon_bio",
-             FILE = "temp-data-inject/L2241.LN4_LeafGhostShare",
              "L2012.AgProduction_ag_irr_mgmt"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L2252.LN5_Logit",
@@ -62,13 +62,13 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
     # Load required inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
     basin_to_country_mapping <- get_data(all_data, "water/basin_to_country_mapping")
+    GCAMLandLeaf_CdensityLT <- get_data(all_data, "aglu/GCAMLandLeaf_CdensityLT")
     L2242.LN4_Logit <- get_data(all_data, "L2242.LN4_Logit")
     L181.LandShare_R_bio_GLU_irr <- get_data(all_data, "L181.LandShare_R_bio_GLU_irr")
     L181.LC_bm2_R_C_Yh_GLU_irr_level <- get_data(all_data, "L181.LC_bm2_R_C_Yh_GLU_irr_level")
     L181.YieldMult_R_bio_GLU_irr <- get_data(all_data, "L181.YieldMult_R_bio_GLU_irr")
     L2241.LN4_MgdCarbon_crop <- get_data(all_data, "temp-data-inject/L2241.LN4_MgdCarbon_crop")
     L2241.LN4_MgdCarbon_bio <- get_data(all_data, "temp-data-inject/L2241.LN4_MgdCarbon_bio")
-    L2241.LN4_LeafGhostShare <- get_data(all_data, "temp-data-inject/L2241.LN4_LeafGhostShare")
     L2012.AgProduction_ag_irr_mgmt <- get_data(all_data, "L2012.AgProduction_ag_irr_mgmt")
 
     # silence package check notes
@@ -285,9 +285,42 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       select(one_of(c(LEVEL2_DATA_NAMES[["LN5_LeafGhostShare"]], "GLU", "Irr_Rfd", "level"))) ->
       L2252.LN5_LeafGhostShare
 
+    # Calculate share of irrigated vs rainfed land
+    # First, multiply irrigated land by aglu.IRR_GHOST_SHARE_MULT
+    L181.LC_bm2_R_C_Yh_GLU_irr_level %>%
+      mutate(value = if_else(Irr_Rfd == "irr", value * aglu.IRR_GHOST_SHARE_MULT, value)) ->
+      ADJ_LAND_COVER
+
+    # Next, compute total land by GLU, using adjust levels
+    ADJ_LAND_COVER %>%
+      filter(year == max(BASE_YEARS)) %>%
+      group_by(region, GLU) %>%
+      summarize(total_land = sum(value)) %>%
+      ungroup() ->
+      TOTAL_GLU_LAND
+
+    # Finally, compute share of adjusted land cover that is irrigated or rainfed
+    ADJ_LAND_COVER %>%
+      mutate(Irr_Rfd = toupper(Irr_Rfd)) %>%
+      filter(year == max(BASE_YEARS)) %>%
+      group_by(region, GLU, Irr_Rfd) %>%
+      summarize(value = sum(value)) %>%
+      ungroup() %>%
+      left_join(TOTAL_GLU_LAND, by=c("region", "GLU")) %>%
+      mutate(landshare = value / total_land) %>%
+      select(-value, -total_land) ->
+      LANDSHARE_IRR_RFD
+
     # L2252.LN5_NodeGhostShare: Ghost share of the new nodes (irrigated versus rainfed)
-    L2241.LN4_LeafGhostShare %>%
-      rename(LandNode5 = LandLeaf) ->
+    L2252.LN5_LeafGhostShare %>%
+      distinct(region, LandAllocatorRoot, LandNode1, LandNode2, LandNode3, LandNode4, LandNode5, year, GLU, Irr_Rfd) %>%
+      left_join(LANDSHARE_IRR_RFD, by=c("region", "GLU", "Irr_Rfd")) %>%
+      mutate(ghost.unnormalized.share = round(landshare, aglu.DIGITS_LAND_USE)) %>%
+      select(-landshare) %>%
+      # For bio techs with no ghost share info, set irr to 0 and rfd to 1
+      mutate(ghost.unnormalized.share = if_else(is.na(ghost.unnormalized.share) & Irr_Rfd == "RFD", 1, ghost.unnormalized.share)) %>%
+      mutate(ghost.unnormalized.share = if_else(is.na(ghost.unnormalized.share) & Irr_Rfd == "IRR", 0, ghost.unnormalized.share)) %>%
+      select(one_of(c(LEVEL2_DATA_NAMES[["LN5_NodeGhostShare"]]))) ->
       L2252.LN5_NodeGhostShare
 
     # Produce outputs
@@ -367,18 +400,19 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       add_comments("Ghost share of the landleaf in the fifth nest by region. Ghost shares are inferred") %>%
       add_comments(" from average land shares allocated to hi-input versus lo-input in L181.LandShare, across all crops") %>%
       add_legacy_name("L2252.LN5_LeafGhostShare") %>%
+      same_precursors_as("L2252.LN5_MgdAllocation_bio") %>%
       add_precursors("common/GCAM_region_names",
                      "water/basin_to_country_mapping",
-                     "L181.LandShare_R_bio_GLU_irr",
-                     "temp-data-inject/L2241.LN4_LeafGhostShare") ->
+                     "L181.LandShare_R_bio_GLU_irr") ->
       L2252.LN5_LeafGhostShare
 
     L2252.LN5_NodeGhostShare %>%
-      #add_title("Ghost share of the nest 4 nodes (irrigated versus rainfed)") %>%
+      add_title("Ghost share of the nest 4 nodes (irrigated versus rainfed)") %>%
       add_units("NA") %>%
       add_comments("Ghost share of the nest 4 nodes (irrigated versus rainfed).") %>%
       add_legacy_name("L2252.LN5_NodeGhostShare") %>%
-      add_precursors("temp-data-inject/L2241.LN4_LeafGhostShare") ->
+      same_precursors_as("L2252.LN5_LeafGhostShare") %>%
+      add_precursors("L181.LC_bm2_R_C_Yh_GLU_irr_level") ->
       L2252.LN5_NodeGhostShare
 
     return_data(L2252.LN5_Logit, L2252.LN5_HistMgdAllocation_crop, L2252.LN5_MgdAllocation_crop, L2252.LN5_HistMgdAllocation_bio, L2252.LN5_MgdAllocation_bio, L2252.LN5_MgdCarbon_crop, L2252.LN5_MgdCarbon_bio, L2252.LN5_LeafGhostShare, L2252.LN5_NodeGhostShare)

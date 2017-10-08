@@ -200,6 +200,9 @@ aglu.N0_LOGIT_TYPE <- NA
 # fraction of land that is protected
 aglu.PROTECT_LAND_FRACT <- 0.9
 
+# Multiplier on the ghost share for irrigated land
+aglu.IRR_GHOST_SHARE_MULT <- 0.25
+
 # unManaged Land Value
 # 1975$/thou km2 ??
 aglu.UNMANAGED_LAND_VALUE <- 1
