@@ -42,6 +42,8 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
              "L181.LC_bm2_R_C_Yh_GLU_irr_level",
              "L181.YieldMult_R_bio_GLU_irr",
              "L2242.LN4_Logit",
+             "L111.ag_resbio_R_C",
+             "L121.CarbonContent_kgm2_R_LT_GLU",
              FILE = "temp-data-inject/L2241.LN4_MgdCarbon_crop",
              FILE = "temp-data-inject/L2241.LN4_MgdCarbon_bio",
              "L2012.AgProduction_ag_irr_mgmt"))
@@ -64,6 +66,8 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
     basin_to_country_mapping <- get_data(all_data, "water/basin_to_country_mapping")
     GCAMLandLeaf_CdensityLT <- get_data(all_data, "aglu/GCAMLandLeaf_CdensityLT")
     L2242.LN4_Logit <- get_data(all_data, "L2242.LN4_Logit")
+    L111.ag_resbio_R_C <- get_data(all_data, "L111.ag_resbio_R_C")
+    L121.CarbonContent_kgm2_R_LT_GLU <- get_data(all_data, "L121.CarbonContent_kgm2_R_LT_GLU")
     L181.LandShare_R_bio_GLU_irr <- get_data(all_data, "L181.LandShare_R_bio_GLU_irr")
     L181.LC_bm2_R_C_Yh_GLU_irr_level <- get_data(all_data, "L181.LC_bm2_R_C_Yh_GLU_irr_level")
     L181.YieldMult_R_bio_GLU_irr <- get_data(all_data, "L181.YieldMult_R_bio_GLU_irr")
@@ -349,8 +353,10 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       add_title("Land cover in the model base periods for managed crop land (LT_GLU) in the fifth nest by region.") %>%
       add_units("billion square meters (bm2)") %>%
       add_comments("Land cover in the model base periods for managed crop land (LT_GLU) in the fifth nest, from L181 land cover data.") %>%
+      add_comments("Filter to remove zero production leafs, using L2012.AgProduction_ag_irr_mgmt") %>%
       add_legacy_name("L2252.LN5_MgdAllocation_crop") %>%
-      same_precursors_as("L2252.LN5_HistMgdAllocation_crop") ->
+      same_precursors_as("L2252.LN5_HistMgdAllocation_crop") %>%
+      add_precursors("L2012.AgProduction_ag_irr_mgmt") ->
       L2252.LN5_MgdAllocation_crop
 
     L2252.LN5_HistMgdAllocation_bio %>%
