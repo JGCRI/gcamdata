@@ -86,9 +86,13 @@ aglu.DIGITS_CALPRICE <- 4 # prices and costs
 aglu.DIGITS_CALOUTPUT <- 7 # production
 aglu.DIGITS_INCELAS <- 4 # food demand income elasticity
 aglu.DIGITS_AGPRODCHANGE <- 4 # rate of change in yield
+aglu.DIGITS_C_DENSITY_CROP <- 3 # cropland vegetative soil carbon content
 
 # Carbon content of all cellulose
 aglu.CCONTENT_CELLULOSE <- 0.45
+
+# Conversion from peak biomass to average biomass integrated over the course of the year
+aglu.CCONV_PEAK_AVG <- 0.5
 
 # Minimum and maximum harvested:cropped ratios
 MIN_HA_TO_CROPLAND <- 1
