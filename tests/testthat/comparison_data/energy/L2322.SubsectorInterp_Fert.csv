@@ -1,0 +1,165 @@
+INPUT_TABLE
+Variable ID
+SubsectorInterp
+
+region,supplysector,subsector,apply.to,from.year,to.year,interpolation.function
+USA,N fertilizer,coal,share-weight,2010,2100,fixed
+USA,N fertilizer,gas,share-weight,2010,2100,linear
+USA,N fertilizer,refined liquids,share-weight,2010,2035,linear
+USA,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+USA,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Africa_Eastern,N fertilizer,coal,share-weight,2010,2100,fixed
+Africa_Eastern,N fertilizer,gas,share-weight,2010,2100,linear
+Africa_Eastern,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Africa_Eastern,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Africa_Eastern,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Africa_Northern,N fertilizer,coal,share-weight,2010,2100,fixed
+Africa_Northern,N fertilizer,gas,share-weight,2010,2100,linear
+Africa_Northern,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Africa_Northern,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Africa_Northern,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Africa_Southern,N fertilizer,coal,share-weight,2010,2100,fixed
+Africa_Southern,N fertilizer,gas,share-weight,2010,2100,linear
+Africa_Southern,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Africa_Southern,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Africa_Southern,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Africa_Western,N fertilizer,coal,share-weight,2010,2100,fixed
+Africa_Western,N fertilizer,gas,share-weight,2010,2100,linear
+Africa_Western,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Africa_Western,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Africa_Western,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Australia_NZ,N fertilizer,coal,share-weight,2010,2100,fixed
+Australia_NZ,N fertilizer,gas,share-weight,2010,2100,linear
+Australia_NZ,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Australia_NZ,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Australia_NZ,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Brazil,N fertilizer,coal,share-weight,2010,2100,fixed
+Brazil,N fertilizer,gas,share-weight,2010,2100,linear
+Brazil,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Brazil,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Brazil,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Canada,N fertilizer,coal,share-weight,2010,2100,fixed
+Canada,N fertilizer,gas,share-weight,2010,2100,linear
+Canada,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Canada,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Canada,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Central America and Caribbean,N fertilizer,coal,share-weight,2010,2100,fixed
+Central America and Caribbean,N fertilizer,gas,share-weight,2010,2100,linear
+Central America and Caribbean,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Central America and Caribbean,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Central America and Caribbean,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Central Asia,N fertilizer,coal,share-weight,2010,2100,fixed
+Central Asia,N fertilizer,gas,share-weight,2010,2100,linear
+Central Asia,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Central Asia,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Central Asia,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+China,N fertilizer,coal,share-weight,2010,2100,fixed
+China,N fertilizer,gas,share-weight,2010,2100,linear
+China,N fertilizer,refined liquids,share-weight,2010,2035,linear
+China,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+China,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+EU-12,N fertilizer,coal,share-weight,2010,2100,fixed
+EU-12,N fertilizer,gas,share-weight,2010,2100,linear
+EU-12,N fertilizer,refined liquids,share-weight,2010,2035,linear
+EU-12,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+EU-12,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+EU-15,N fertilizer,coal,share-weight,2010,2100,fixed
+EU-15,N fertilizer,gas,share-weight,2010,2100,linear
+EU-15,N fertilizer,refined liquids,share-weight,2010,2035,linear
+EU-15,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+EU-15,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Europe_Eastern,N fertilizer,coal,share-weight,2010,2100,fixed
+Europe_Eastern,N fertilizer,gas,share-weight,2010,2100,linear
+Europe_Eastern,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Europe_Eastern,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Europe_Eastern,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Europe_Non_EU,N fertilizer,coal,share-weight,2010,2100,fixed
+Europe_Non_EU,N fertilizer,gas,share-weight,2010,2100,linear
+Europe_Non_EU,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Europe_Non_EU,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Europe_Non_EU,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+European Free Trade Association,N fertilizer,coal,share-weight,2010,2100,fixed
+European Free Trade Association,N fertilizer,gas,share-weight,2010,2100,linear
+European Free Trade Association,N fertilizer,refined liquids,share-weight,2010,2035,linear
+European Free Trade Association,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+European Free Trade Association,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+India,N fertilizer,coal,share-weight,2010,2100,fixed
+India,N fertilizer,gas,share-weight,2010,2100,linear
+India,N fertilizer,refined liquids,share-weight,2010,2035,linear
+India,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+India,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Indonesia,N fertilizer,coal,share-weight,2010,2100,fixed
+Indonesia,N fertilizer,gas,share-weight,2010,2100,linear
+Indonesia,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Indonesia,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Indonesia,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Japan,N fertilizer,coal,share-weight,2010,2100,fixed
+Japan,N fertilizer,gas,share-weight,2010,2100,linear
+Japan,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Japan,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Japan,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Mexico,N fertilizer,coal,share-weight,2010,2100,fixed
+Mexico,N fertilizer,gas,share-weight,2010,2100,linear
+Mexico,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Mexico,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Mexico,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Middle East,N fertilizer,coal,share-weight,2010,2100,fixed
+Middle East,N fertilizer,gas,share-weight,2010,2100,linear
+Middle East,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Middle East,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Middle East,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Pakistan,N fertilizer,coal,share-weight,2010,2100,fixed
+Pakistan,N fertilizer,gas,share-weight,2010,2100,linear
+Pakistan,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Pakistan,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Pakistan,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Russia,N fertilizer,coal,share-weight,2010,2100,fixed
+Russia,N fertilizer,gas,share-weight,2010,2100,linear
+Russia,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Russia,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Russia,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+South Africa,N fertilizer,coal,share-weight,2010,2100,fixed
+South Africa,N fertilizer,gas,share-weight,2010,2100,linear
+South Africa,N fertilizer,refined liquids,share-weight,2010,2035,linear
+South Africa,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+South Africa,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+South America_Northern,N fertilizer,coal,share-weight,2010,2100,fixed
+South America_Northern,N fertilizer,gas,share-weight,2010,2100,linear
+South America_Northern,N fertilizer,refined liquids,share-weight,2010,2035,linear
+South America_Northern,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+South America_Northern,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+South America_Southern,N fertilizer,coal,share-weight,2010,2100,fixed
+South America_Southern,N fertilizer,gas,share-weight,2010,2100,linear
+South America_Southern,N fertilizer,refined liquids,share-weight,2010,2035,linear
+South America_Southern,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+South America_Southern,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+South Asia,N fertilizer,coal,share-weight,2010,2100,fixed
+South Asia,N fertilizer,gas,share-weight,2010,2100,linear
+South Asia,N fertilizer,refined liquids,share-weight,2010,2035,linear
+South Asia,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+South Asia,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+South Korea,N fertilizer,coal,share-weight,2010,2100,fixed
+South Korea,N fertilizer,gas,share-weight,2010,2100,linear
+South Korea,N fertilizer,refined liquids,share-weight,2010,2035,linear
+South Korea,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+South Korea,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Southeast Asia,N fertilizer,coal,share-weight,2010,2100,fixed
+Southeast Asia,N fertilizer,gas,share-weight,2010,2100,linear
+Southeast Asia,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Southeast Asia,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Southeast Asia,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Taiwan,N fertilizer,coal,share-weight,2010,2100,fixed
+Taiwan,N fertilizer,gas,share-weight,2010,2100,linear
+Taiwan,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Taiwan,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Taiwan,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Argentina,N fertilizer,coal,share-weight,2010,2100,fixed
+Argentina,N fertilizer,gas,share-weight,2010,2100,linear
+Argentina,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Argentina,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Argentina,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed
+Colombia,N fertilizer,coal,share-weight,2010,2100,fixed
+Colombia,N fertilizer,gas,share-weight,2010,2100,linear
+Colombia,N fertilizer,refined liquids,share-weight,2010,2035,linear
+Colombia,N fertilizer,refined liquids,share-weight,2035,2100,fixed
+Colombia,Exports_fertilizer,N fertilizer,share-weight,2010,2100,fixed

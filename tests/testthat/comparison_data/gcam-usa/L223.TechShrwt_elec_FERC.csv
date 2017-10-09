@@ -1,0 +1,1127 @@
+#INPUT_TABLE
+#Variable ID
+#TechShrwt
+#
+region,supplysector,subsector,technology,year,share.weight
+Alaska grid,electricity,AK electricity,AK electricity,1975,1
+California grid,electricity,CA electricity,CA electricity,1975,1
+Central East grid,electricity,IN electricity,IN electricity,1975,1
+Central East grid,electricity,KY electricity,KY electricity,1975,1
+Central East grid,electricity,MI electricity,MI electricity,1975,1
+Central East grid,electricity,OH electricity,OH electricity,1975,1
+Central East grid,electricity,WV electricity,WV electricity,1975,1
+Central Northeast grid,electricity,IL electricity,IL electricity,1975,1
+Central Northeast grid,electricity,MO electricity,MO electricity,1975,1
+Central Northeast grid,electricity,WI electricity,WI electricity,1975,1
+Central Northwest grid,electricity,IA electricity,IA electricity,1975,1
+Central Northwest grid,electricity,MN electricity,MN electricity,1975,1
+Central Northwest grid,electricity,ND electricity,ND electricity,1975,1
+Central Northwest grid,electricity,NE electricity,NE electricity,1975,1
+Central Northwest grid,electricity,SD electricity,SD electricity,1975,1
+Central Southwest grid,electricity,KS electricity,KS electricity,1975,1
+Central Southwest grid,electricity,OK electricity,OK electricity,1975,1
+Florida grid,electricity,FL electricity,FL electricity,1975,1
+Hawaii grid,electricity,HI electricity,HI electricity,1975,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,1975,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,1975,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,1975,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,1975,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,1975,1
+New England grid,electricity,CT electricity,CT electricity,1975,1
+New England grid,electricity,MA electricity,MA electricity,1975,1
+New England grid,electricity,ME electricity,ME electricity,1975,1
+New England grid,electricity,NH electricity,NH electricity,1975,1
+New England grid,electricity,RI electricity,RI electricity,1975,1
+New England grid,electricity,VT electricity,VT electricity,1975,1
+New York grid,electricity,NY electricity,NY electricity,1975,1
+Northwest grid,electricity,ID electricity,ID electricity,1975,1
+Northwest grid,electricity,MT electricity,MT electricity,1975,1
+Northwest grid,electricity,NV electricity,NV electricity,1975,1
+Northwest grid,electricity,OR electricity,OR electricity,1975,1
+Northwest grid,electricity,UT electricity,UT electricity,1975,1
+Northwest grid,electricity,WA electricity,WA electricity,1975,1
+Southeast grid,electricity,AL electricity,AL electricity,1975,1
+Southeast grid,electricity,AR electricity,AR electricity,1975,1
+Southeast grid,electricity,GA electricity,GA electricity,1975,1
+Southeast grid,electricity,LA electricity,LA electricity,1975,1
+Southeast grid,electricity,MS electricity,MS electricity,1975,1
+Southeast grid,electricity,NC electricity,NC electricity,1975,1
+Southeast grid,electricity,SC electricity,SC electricity,1975,1
+Southeast grid,electricity,TN electricity,TN electricity,1975,1
+Southeast grid,electricity,VA electricity,VA electricity,1975,1
+Southwest grid,electricity,AZ electricity,AZ electricity,1975,1
+Southwest grid,electricity,CO electricity,CO electricity,1975,1
+Southwest grid,electricity,NM electricity,NM electricity,1975,1
+Southwest grid,electricity,WY electricity,WY electricity,1975,1
+Texas grid,electricity,TX electricity,TX electricity,1975,1
+Alaska grid,electricity,AK electricity,AK electricity,1990,1
+California grid,electricity,CA electricity,CA electricity,1990,1
+Central East grid,electricity,IN electricity,IN electricity,1990,1
+Central East grid,electricity,KY electricity,KY electricity,1990,1
+Central East grid,electricity,MI electricity,MI electricity,1990,1
+Central East grid,electricity,OH electricity,OH electricity,1990,1
+Central East grid,electricity,WV electricity,WV electricity,1990,1
+Central Northeast grid,electricity,IL electricity,IL electricity,1990,1
+Central Northeast grid,electricity,MO electricity,MO electricity,1990,1
+Central Northeast grid,electricity,WI electricity,WI electricity,1990,1
+Central Northwest grid,electricity,IA electricity,IA electricity,1990,1
+Central Northwest grid,electricity,MN electricity,MN electricity,1990,1
+Central Northwest grid,electricity,ND electricity,ND electricity,1990,1
+Central Northwest grid,electricity,NE electricity,NE electricity,1990,1
+Central Northwest grid,electricity,SD electricity,SD electricity,1990,1
+Central Southwest grid,electricity,KS electricity,KS electricity,1990,1
+Central Southwest grid,electricity,OK electricity,OK electricity,1990,1
+Florida grid,electricity,FL electricity,FL electricity,1990,1
+Hawaii grid,electricity,HI electricity,HI electricity,1990,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,1990,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,1990,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,1990,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,1990,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,1990,1
+New England grid,electricity,CT electricity,CT electricity,1990,1
+New England grid,electricity,MA electricity,MA electricity,1990,1
+New England grid,electricity,ME electricity,ME electricity,1990,1
+New England grid,electricity,NH electricity,NH electricity,1990,1
+New England grid,electricity,RI electricity,RI electricity,1990,1
+New England grid,electricity,VT electricity,VT electricity,1990,1
+New York grid,electricity,NY electricity,NY electricity,1990,1
+Northwest grid,electricity,ID electricity,ID electricity,1990,1
+Northwest grid,electricity,MT electricity,MT electricity,1990,1
+Northwest grid,electricity,NV electricity,NV electricity,1990,1
+Northwest grid,electricity,OR electricity,OR electricity,1990,1
+Northwest grid,electricity,UT electricity,UT electricity,1990,1
+Northwest grid,electricity,WA electricity,WA electricity,1990,1
+Southeast grid,electricity,AL electricity,AL electricity,1990,1
+Southeast grid,electricity,AR electricity,AR electricity,1990,1
+Southeast grid,electricity,GA electricity,GA electricity,1990,1
+Southeast grid,electricity,LA electricity,LA electricity,1990,1
+Southeast grid,electricity,MS electricity,MS electricity,1990,1
+Southeast grid,electricity,NC electricity,NC electricity,1990,1
+Southeast grid,electricity,SC electricity,SC electricity,1990,1
+Southeast grid,electricity,TN electricity,TN electricity,1990,1
+Southeast grid,electricity,VA electricity,VA electricity,1990,1
+Southwest grid,electricity,AZ electricity,AZ electricity,1990,1
+Southwest grid,electricity,CO electricity,CO electricity,1990,1
+Southwest grid,electricity,NM electricity,NM electricity,1990,1
+Southwest grid,electricity,WY electricity,WY electricity,1990,1
+Texas grid,electricity,TX electricity,TX electricity,1990,1
+Alaska grid,electricity,AK electricity,AK electricity,2005,1
+California grid,electricity,CA electricity,CA electricity,2005,1
+Central East grid,electricity,IN electricity,IN electricity,2005,1
+Central East grid,electricity,KY electricity,KY electricity,2005,1
+Central East grid,electricity,MI electricity,MI electricity,2005,1
+Central East grid,electricity,OH electricity,OH electricity,2005,1
+Central East grid,electricity,WV electricity,WV electricity,2005,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2005,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2005,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2005,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2005,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2005,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2005,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2005,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2005,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2005,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2005,1
+Florida grid,electricity,FL electricity,FL electricity,2005,1
+Hawaii grid,electricity,HI electricity,HI electricity,2005,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2005,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2005,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2005,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2005,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2005,1
+New England grid,electricity,CT electricity,CT electricity,2005,1
+New England grid,electricity,MA electricity,MA electricity,2005,1
+New England grid,electricity,ME electricity,ME electricity,2005,1
+New England grid,electricity,NH electricity,NH electricity,2005,1
+New England grid,electricity,RI electricity,RI electricity,2005,1
+New England grid,electricity,VT electricity,VT electricity,2005,1
+New York grid,electricity,NY electricity,NY electricity,2005,1
+Northwest grid,electricity,ID electricity,ID electricity,2005,1
+Northwest grid,electricity,MT electricity,MT electricity,2005,1
+Northwest grid,electricity,NV electricity,NV electricity,2005,1
+Northwest grid,electricity,OR electricity,OR electricity,2005,1
+Northwest grid,electricity,UT electricity,UT electricity,2005,1
+Northwest grid,electricity,WA electricity,WA electricity,2005,1
+Southeast grid,electricity,AL electricity,AL electricity,2005,1
+Southeast grid,electricity,AR electricity,AR electricity,2005,1
+Southeast grid,electricity,GA electricity,GA electricity,2005,1
+Southeast grid,electricity,LA electricity,LA electricity,2005,1
+Southeast grid,electricity,MS electricity,MS electricity,2005,1
+Southeast grid,electricity,NC electricity,NC electricity,2005,1
+Southeast grid,electricity,SC electricity,SC electricity,2005,1
+Southeast grid,electricity,TN electricity,TN electricity,2005,1
+Southeast grid,electricity,VA electricity,VA electricity,2005,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2005,1
+Southwest grid,electricity,CO electricity,CO electricity,2005,1
+Southwest grid,electricity,NM electricity,NM electricity,2005,1
+Southwest grid,electricity,WY electricity,WY electricity,2005,1
+Texas grid,electricity,TX electricity,TX electricity,2005,1
+Alaska grid,electricity,AK electricity,AK electricity,2010,1
+California grid,electricity,CA electricity,CA electricity,2010,1
+Central East grid,electricity,IN electricity,IN electricity,2010,1
+Central East grid,electricity,KY electricity,KY electricity,2010,1
+Central East grid,electricity,MI electricity,MI electricity,2010,1
+Central East grid,electricity,OH electricity,OH electricity,2010,1
+Central East grid,electricity,WV electricity,WV electricity,2010,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2010,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2010,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2010,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2010,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2010,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2010,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2010,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2010,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2010,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2010,1
+Florida grid,electricity,FL electricity,FL electricity,2010,1
+Hawaii grid,electricity,HI electricity,HI electricity,2010,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2010,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2010,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2010,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2010,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2010,1
+New England grid,electricity,CT electricity,CT electricity,2010,1
+New England grid,electricity,MA electricity,MA electricity,2010,1
+New England grid,electricity,ME electricity,ME electricity,2010,1
+New England grid,electricity,NH electricity,NH electricity,2010,1
+New England grid,electricity,RI electricity,RI electricity,2010,1
+New England grid,electricity,VT electricity,VT electricity,2010,1
+New York grid,electricity,NY electricity,NY electricity,2010,1
+Northwest grid,electricity,ID electricity,ID electricity,2010,1
+Northwest grid,electricity,MT electricity,MT electricity,2010,1
+Northwest grid,electricity,NV electricity,NV electricity,2010,1
+Northwest grid,electricity,OR electricity,OR electricity,2010,1
+Northwest grid,electricity,UT electricity,UT electricity,2010,1
+Northwest grid,electricity,WA electricity,WA electricity,2010,1
+Southeast grid,electricity,AL electricity,AL electricity,2010,1
+Southeast grid,electricity,AR electricity,AR electricity,2010,1
+Southeast grid,electricity,GA electricity,GA electricity,2010,1
+Southeast grid,electricity,LA electricity,LA electricity,2010,1
+Southeast grid,electricity,MS electricity,MS electricity,2010,1
+Southeast grid,electricity,NC electricity,NC electricity,2010,1
+Southeast grid,electricity,SC electricity,SC electricity,2010,1
+Southeast grid,electricity,TN electricity,TN electricity,2010,1
+Southeast grid,electricity,VA electricity,VA electricity,2010,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2010,1
+Southwest grid,electricity,CO electricity,CO electricity,2010,1
+Southwest grid,electricity,NM electricity,NM electricity,2010,1
+Southwest grid,electricity,WY electricity,WY electricity,2010,1
+Texas grid,electricity,TX electricity,TX electricity,2010,1
+Alaska grid,electricity,AK electricity,AK electricity,2015,1
+California grid,electricity,CA electricity,CA electricity,2015,1
+Central East grid,electricity,IN electricity,IN electricity,2015,1
+Central East grid,electricity,KY electricity,KY electricity,2015,1
+Central East grid,electricity,MI electricity,MI electricity,2015,1
+Central East grid,electricity,OH electricity,OH electricity,2015,1
+Central East grid,electricity,WV electricity,WV electricity,2015,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2015,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2015,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2015,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2015,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2015,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2015,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2015,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2015,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2015,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2015,1
+Florida grid,electricity,FL electricity,FL electricity,2015,1
+Hawaii grid,electricity,HI electricity,HI electricity,2015,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2015,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2015,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2015,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2015,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2015,1
+New England grid,electricity,CT electricity,CT electricity,2015,1
+New England grid,electricity,MA electricity,MA electricity,2015,1
+New England grid,electricity,ME electricity,ME electricity,2015,1
+New England grid,electricity,NH electricity,NH electricity,2015,1
+New England grid,electricity,RI electricity,RI electricity,2015,1
+New England grid,electricity,VT electricity,VT electricity,2015,1
+New York grid,electricity,NY electricity,NY electricity,2015,1
+Northwest grid,electricity,ID electricity,ID electricity,2015,1
+Northwest grid,electricity,MT electricity,MT electricity,2015,1
+Northwest grid,electricity,NV electricity,NV electricity,2015,1
+Northwest grid,electricity,OR electricity,OR electricity,2015,1
+Northwest grid,electricity,UT electricity,UT electricity,2015,1
+Northwest grid,electricity,WA electricity,WA electricity,2015,1
+Southeast grid,electricity,AL electricity,AL electricity,2015,1
+Southeast grid,electricity,AR electricity,AR electricity,2015,1
+Southeast grid,electricity,GA electricity,GA electricity,2015,1
+Southeast grid,electricity,LA electricity,LA electricity,2015,1
+Southeast grid,electricity,MS electricity,MS electricity,2015,1
+Southeast grid,electricity,NC electricity,NC electricity,2015,1
+Southeast grid,electricity,SC electricity,SC electricity,2015,1
+Southeast grid,electricity,TN electricity,TN electricity,2015,1
+Southeast grid,electricity,VA electricity,VA electricity,2015,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2015,1
+Southwest grid,electricity,CO electricity,CO electricity,2015,1
+Southwest grid,electricity,NM electricity,NM electricity,2015,1
+Southwest grid,electricity,WY electricity,WY electricity,2015,1
+Texas grid,electricity,TX electricity,TX electricity,2015,1
+Alaska grid,electricity,AK electricity,AK electricity,2020,1
+California grid,electricity,CA electricity,CA electricity,2020,1
+Central East grid,electricity,IN electricity,IN electricity,2020,1
+Central East grid,electricity,KY electricity,KY electricity,2020,1
+Central East grid,electricity,MI electricity,MI electricity,2020,1
+Central East grid,electricity,OH electricity,OH electricity,2020,1
+Central East grid,electricity,WV electricity,WV electricity,2020,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2020,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2020,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2020,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2020,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2020,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2020,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2020,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2020,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2020,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2020,1
+Florida grid,electricity,FL electricity,FL electricity,2020,1
+Hawaii grid,electricity,HI electricity,HI electricity,2020,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2020,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2020,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2020,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2020,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2020,1
+New England grid,electricity,CT electricity,CT electricity,2020,1
+New England grid,electricity,MA electricity,MA electricity,2020,1
+New England grid,electricity,ME electricity,ME electricity,2020,1
+New England grid,electricity,NH electricity,NH electricity,2020,1
+New England grid,electricity,RI electricity,RI electricity,2020,1
+New England grid,electricity,VT electricity,VT electricity,2020,1
+New York grid,electricity,NY electricity,NY electricity,2020,1
+Northwest grid,electricity,ID electricity,ID electricity,2020,1
+Northwest grid,electricity,MT electricity,MT electricity,2020,1
+Northwest grid,electricity,NV electricity,NV electricity,2020,1
+Northwest grid,electricity,OR electricity,OR electricity,2020,1
+Northwest grid,electricity,UT electricity,UT electricity,2020,1
+Northwest grid,electricity,WA electricity,WA electricity,2020,1
+Southeast grid,electricity,AL electricity,AL electricity,2020,1
+Southeast grid,electricity,AR electricity,AR electricity,2020,1
+Southeast grid,electricity,GA electricity,GA electricity,2020,1
+Southeast grid,electricity,LA electricity,LA electricity,2020,1
+Southeast grid,electricity,MS electricity,MS electricity,2020,1
+Southeast grid,electricity,NC electricity,NC electricity,2020,1
+Southeast grid,electricity,SC electricity,SC electricity,2020,1
+Southeast grid,electricity,TN electricity,TN electricity,2020,1
+Southeast grid,electricity,VA electricity,VA electricity,2020,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2020,1
+Southwest grid,electricity,CO electricity,CO electricity,2020,1
+Southwest grid,electricity,NM electricity,NM electricity,2020,1
+Southwest grid,electricity,WY electricity,WY electricity,2020,1
+Texas grid,electricity,TX electricity,TX electricity,2020,1
+Alaska grid,electricity,AK electricity,AK electricity,2025,1
+California grid,electricity,CA electricity,CA electricity,2025,1
+Central East grid,electricity,IN electricity,IN electricity,2025,1
+Central East grid,electricity,KY electricity,KY electricity,2025,1
+Central East grid,electricity,MI electricity,MI electricity,2025,1
+Central East grid,electricity,OH electricity,OH electricity,2025,1
+Central East grid,electricity,WV electricity,WV electricity,2025,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2025,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2025,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2025,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2025,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2025,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2025,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2025,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2025,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2025,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2025,1
+Florida grid,electricity,FL electricity,FL electricity,2025,1
+Hawaii grid,electricity,HI electricity,HI electricity,2025,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2025,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2025,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2025,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2025,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2025,1
+New England grid,electricity,CT electricity,CT electricity,2025,1
+New England grid,electricity,MA electricity,MA electricity,2025,1
+New England grid,electricity,ME electricity,ME electricity,2025,1
+New England grid,electricity,NH electricity,NH electricity,2025,1
+New England grid,electricity,RI electricity,RI electricity,2025,1
+New England grid,electricity,VT electricity,VT electricity,2025,1
+New York grid,electricity,NY electricity,NY electricity,2025,1
+Northwest grid,electricity,ID electricity,ID electricity,2025,1
+Northwest grid,electricity,MT electricity,MT electricity,2025,1
+Northwest grid,electricity,NV electricity,NV electricity,2025,1
+Northwest grid,electricity,OR electricity,OR electricity,2025,1
+Northwest grid,electricity,UT electricity,UT electricity,2025,1
+Northwest grid,electricity,WA electricity,WA electricity,2025,1
+Southeast grid,electricity,AL electricity,AL electricity,2025,1
+Southeast grid,electricity,AR electricity,AR electricity,2025,1
+Southeast grid,electricity,GA electricity,GA electricity,2025,1
+Southeast grid,electricity,LA electricity,LA electricity,2025,1
+Southeast grid,electricity,MS electricity,MS electricity,2025,1
+Southeast grid,electricity,NC electricity,NC electricity,2025,1
+Southeast grid,electricity,SC electricity,SC electricity,2025,1
+Southeast grid,electricity,TN electricity,TN electricity,2025,1
+Southeast grid,electricity,VA electricity,VA electricity,2025,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2025,1
+Southwest grid,electricity,CO electricity,CO electricity,2025,1
+Southwest grid,electricity,NM electricity,NM electricity,2025,1
+Southwest grid,electricity,WY electricity,WY electricity,2025,1
+Texas grid,electricity,TX electricity,TX electricity,2025,1
+Alaska grid,electricity,AK electricity,AK electricity,2030,1
+California grid,electricity,CA electricity,CA electricity,2030,1
+Central East grid,electricity,IN electricity,IN electricity,2030,1
+Central East grid,electricity,KY electricity,KY electricity,2030,1
+Central East grid,electricity,MI electricity,MI electricity,2030,1
+Central East grid,electricity,OH electricity,OH electricity,2030,1
+Central East grid,electricity,WV electricity,WV electricity,2030,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2030,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2030,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2030,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2030,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2030,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2030,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2030,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2030,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2030,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2030,1
+Florida grid,electricity,FL electricity,FL electricity,2030,1
+Hawaii grid,electricity,HI electricity,HI electricity,2030,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2030,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2030,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2030,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2030,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2030,1
+New England grid,electricity,CT electricity,CT electricity,2030,1
+New England grid,electricity,MA electricity,MA electricity,2030,1
+New England grid,electricity,ME electricity,ME electricity,2030,1
+New England grid,electricity,NH electricity,NH electricity,2030,1
+New England grid,electricity,RI electricity,RI electricity,2030,1
+New England grid,electricity,VT electricity,VT electricity,2030,1
+New York grid,electricity,NY electricity,NY electricity,2030,1
+Northwest grid,electricity,ID electricity,ID electricity,2030,1
+Northwest grid,electricity,MT electricity,MT electricity,2030,1
+Northwest grid,electricity,NV electricity,NV electricity,2030,1
+Northwest grid,electricity,OR electricity,OR electricity,2030,1
+Northwest grid,electricity,UT electricity,UT electricity,2030,1
+Northwest grid,electricity,WA electricity,WA electricity,2030,1
+Southeast grid,electricity,AL electricity,AL electricity,2030,1
+Southeast grid,electricity,AR electricity,AR electricity,2030,1
+Southeast grid,electricity,GA electricity,GA electricity,2030,1
+Southeast grid,electricity,LA electricity,LA electricity,2030,1
+Southeast grid,electricity,MS electricity,MS electricity,2030,1
+Southeast grid,electricity,NC electricity,NC electricity,2030,1
+Southeast grid,electricity,SC electricity,SC electricity,2030,1
+Southeast grid,electricity,TN electricity,TN electricity,2030,1
+Southeast grid,electricity,VA electricity,VA electricity,2030,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2030,1
+Southwest grid,electricity,CO electricity,CO electricity,2030,1
+Southwest grid,electricity,NM electricity,NM electricity,2030,1
+Southwest grid,electricity,WY electricity,WY electricity,2030,1
+Texas grid,electricity,TX electricity,TX electricity,2030,1
+Alaska grid,electricity,AK electricity,AK electricity,2035,1
+California grid,electricity,CA electricity,CA electricity,2035,1
+Central East grid,electricity,IN electricity,IN electricity,2035,1
+Central East grid,electricity,KY electricity,KY electricity,2035,1
+Central East grid,electricity,MI electricity,MI electricity,2035,1
+Central East grid,electricity,OH electricity,OH electricity,2035,1
+Central East grid,electricity,WV electricity,WV electricity,2035,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2035,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2035,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2035,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2035,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2035,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2035,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2035,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2035,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2035,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2035,1
+Florida grid,electricity,FL electricity,FL electricity,2035,1
+Hawaii grid,electricity,HI electricity,HI electricity,2035,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2035,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2035,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2035,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2035,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2035,1
+New England grid,electricity,CT electricity,CT electricity,2035,1
+New England grid,electricity,MA electricity,MA electricity,2035,1
+New England grid,electricity,ME electricity,ME electricity,2035,1
+New England grid,electricity,NH electricity,NH electricity,2035,1
+New England grid,electricity,RI electricity,RI electricity,2035,1
+New England grid,electricity,VT electricity,VT electricity,2035,1
+New York grid,electricity,NY electricity,NY electricity,2035,1
+Northwest grid,electricity,ID electricity,ID electricity,2035,1
+Northwest grid,electricity,MT electricity,MT electricity,2035,1
+Northwest grid,electricity,NV electricity,NV electricity,2035,1
+Northwest grid,electricity,OR electricity,OR electricity,2035,1
+Northwest grid,electricity,UT electricity,UT electricity,2035,1
+Northwest grid,electricity,WA electricity,WA electricity,2035,1
+Southeast grid,electricity,AL electricity,AL electricity,2035,1
+Southeast grid,electricity,AR electricity,AR electricity,2035,1
+Southeast grid,electricity,GA electricity,GA electricity,2035,1
+Southeast grid,electricity,LA electricity,LA electricity,2035,1
+Southeast grid,electricity,MS electricity,MS electricity,2035,1
+Southeast grid,electricity,NC electricity,NC electricity,2035,1
+Southeast grid,electricity,SC electricity,SC electricity,2035,1
+Southeast grid,electricity,TN electricity,TN electricity,2035,1
+Southeast grid,electricity,VA electricity,VA electricity,2035,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2035,1
+Southwest grid,electricity,CO electricity,CO electricity,2035,1
+Southwest grid,electricity,NM electricity,NM electricity,2035,1
+Southwest grid,electricity,WY electricity,WY electricity,2035,1
+Texas grid,electricity,TX electricity,TX electricity,2035,1
+Alaska grid,electricity,AK electricity,AK electricity,2040,1
+California grid,electricity,CA electricity,CA electricity,2040,1
+Central East grid,electricity,IN electricity,IN electricity,2040,1
+Central East grid,electricity,KY electricity,KY electricity,2040,1
+Central East grid,electricity,MI electricity,MI electricity,2040,1
+Central East grid,electricity,OH electricity,OH electricity,2040,1
+Central East grid,electricity,WV electricity,WV electricity,2040,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2040,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2040,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2040,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2040,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2040,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2040,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2040,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2040,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2040,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2040,1
+Florida grid,electricity,FL electricity,FL electricity,2040,1
+Hawaii grid,electricity,HI electricity,HI electricity,2040,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2040,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2040,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2040,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2040,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2040,1
+New England grid,electricity,CT electricity,CT electricity,2040,1
+New England grid,electricity,MA electricity,MA electricity,2040,1
+New England grid,electricity,ME electricity,ME electricity,2040,1
+New England grid,electricity,NH electricity,NH electricity,2040,1
+New England grid,electricity,RI electricity,RI electricity,2040,1
+New England grid,electricity,VT electricity,VT electricity,2040,1
+New York grid,electricity,NY electricity,NY electricity,2040,1
+Northwest grid,electricity,ID electricity,ID electricity,2040,1
+Northwest grid,electricity,MT electricity,MT electricity,2040,1
+Northwest grid,electricity,NV electricity,NV electricity,2040,1
+Northwest grid,electricity,OR electricity,OR electricity,2040,1
+Northwest grid,electricity,UT electricity,UT electricity,2040,1
+Northwest grid,electricity,WA electricity,WA electricity,2040,1
+Southeast grid,electricity,AL electricity,AL electricity,2040,1
+Southeast grid,electricity,AR electricity,AR electricity,2040,1
+Southeast grid,electricity,GA electricity,GA electricity,2040,1
+Southeast grid,electricity,LA electricity,LA electricity,2040,1
+Southeast grid,electricity,MS electricity,MS electricity,2040,1
+Southeast grid,electricity,NC electricity,NC electricity,2040,1
+Southeast grid,electricity,SC electricity,SC electricity,2040,1
+Southeast grid,electricity,TN electricity,TN electricity,2040,1
+Southeast grid,electricity,VA electricity,VA electricity,2040,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2040,1
+Southwest grid,electricity,CO electricity,CO electricity,2040,1
+Southwest grid,electricity,NM electricity,NM electricity,2040,1
+Southwest grid,electricity,WY electricity,WY electricity,2040,1
+Texas grid,electricity,TX electricity,TX electricity,2040,1
+Alaska grid,electricity,AK electricity,AK electricity,2045,1
+California grid,electricity,CA electricity,CA electricity,2045,1
+Central East grid,electricity,IN electricity,IN electricity,2045,1
+Central East grid,electricity,KY electricity,KY electricity,2045,1
+Central East grid,electricity,MI electricity,MI electricity,2045,1
+Central East grid,electricity,OH electricity,OH electricity,2045,1
+Central East grid,electricity,WV electricity,WV electricity,2045,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2045,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2045,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2045,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2045,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2045,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2045,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2045,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2045,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2045,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2045,1
+Florida grid,electricity,FL electricity,FL electricity,2045,1
+Hawaii grid,electricity,HI electricity,HI electricity,2045,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2045,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2045,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2045,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2045,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2045,1
+New England grid,electricity,CT electricity,CT electricity,2045,1
+New England grid,electricity,MA electricity,MA electricity,2045,1
+New England grid,electricity,ME electricity,ME electricity,2045,1
+New England grid,electricity,NH electricity,NH electricity,2045,1
+New England grid,electricity,RI electricity,RI electricity,2045,1
+New England grid,electricity,VT electricity,VT electricity,2045,1
+New York grid,electricity,NY electricity,NY electricity,2045,1
+Northwest grid,electricity,ID electricity,ID electricity,2045,1
+Northwest grid,electricity,MT electricity,MT electricity,2045,1
+Northwest grid,electricity,NV electricity,NV electricity,2045,1
+Northwest grid,electricity,OR electricity,OR electricity,2045,1
+Northwest grid,electricity,UT electricity,UT electricity,2045,1
+Northwest grid,electricity,WA electricity,WA electricity,2045,1
+Southeast grid,electricity,AL electricity,AL electricity,2045,1
+Southeast grid,electricity,AR electricity,AR electricity,2045,1
+Southeast grid,electricity,GA electricity,GA electricity,2045,1
+Southeast grid,electricity,LA electricity,LA electricity,2045,1
+Southeast grid,electricity,MS electricity,MS electricity,2045,1
+Southeast grid,electricity,NC electricity,NC electricity,2045,1
+Southeast grid,electricity,SC electricity,SC electricity,2045,1
+Southeast grid,electricity,TN electricity,TN electricity,2045,1
+Southeast grid,electricity,VA electricity,VA electricity,2045,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2045,1
+Southwest grid,electricity,CO electricity,CO electricity,2045,1
+Southwest grid,electricity,NM electricity,NM electricity,2045,1
+Southwest grid,electricity,WY electricity,WY electricity,2045,1
+Texas grid,electricity,TX electricity,TX electricity,2045,1
+Alaska grid,electricity,AK electricity,AK electricity,2050,1
+California grid,electricity,CA electricity,CA electricity,2050,1
+Central East grid,electricity,IN electricity,IN electricity,2050,1
+Central East grid,electricity,KY electricity,KY electricity,2050,1
+Central East grid,electricity,MI electricity,MI electricity,2050,1
+Central East grid,electricity,OH electricity,OH electricity,2050,1
+Central East grid,electricity,WV electricity,WV electricity,2050,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2050,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2050,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2050,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2050,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2050,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2050,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2050,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2050,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2050,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2050,1
+Florida grid,electricity,FL electricity,FL electricity,2050,1
+Hawaii grid,electricity,HI electricity,HI electricity,2050,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2050,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2050,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2050,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2050,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2050,1
+New England grid,electricity,CT electricity,CT electricity,2050,1
+New England grid,electricity,MA electricity,MA electricity,2050,1
+New England grid,electricity,ME electricity,ME electricity,2050,1
+New England grid,electricity,NH electricity,NH electricity,2050,1
+New England grid,electricity,RI electricity,RI electricity,2050,1
+New England grid,electricity,VT electricity,VT electricity,2050,1
+New York grid,electricity,NY electricity,NY electricity,2050,1
+Northwest grid,electricity,ID electricity,ID electricity,2050,1
+Northwest grid,electricity,MT electricity,MT electricity,2050,1
+Northwest grid,electricity,NV electricity,NV electricity,2050,1
+Northwest grid,electricity,OR electricity,OR electricity,2050,1
+Northwest grid,electricity,UT electricity,UT electricity,2050,1
+Northwest grid,electricity,WA electricity,WA electricity,2050,1
+Southeast grid,electricity,AL electricity,AL electricity,2050,1
+Southeast grid,electricity,AR electricity,AR electricity,2050,1
+Southeast grid,electricity,GA electricity,GA electricity,2050,1
+Southeast grid,electricity,LA electricity,LA electricity,2050,1
+Southeast grid,electricity,MS electricity,MS electricity,2050,1
+Southeast grid,electricity,NC electricity,NC electricity,2050,1
+Southeast grid,electricity,SC electricity,SC electricity,2050,1
+Southeast grid,electricity,TN electricity,TN electricity,2050,1
+Southeast grid,electricity,VA electricity,VA electricity,2050,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2050,1
+Southwest grid,electricity,CO electricity,CO electricity,2050,1
+Southwest grid,electricity,NM electricity,NM electricity,2050,1
+Southwest grid,electricity,WY electricity,WY electricity,2050,1
+Texas grid,electricity,TX electricity,TX electricity,2050,1
+Alaska grid,electricity,AK electricity,AK electricity,2055,1
+California grid,electricity,CA electricity,CA electricity,2055,1
+Central East grid,electricity,IN electricity,IN electricity,2055,1
+Central East grid,electricity,KY electricity,KY electricity,2055,1
+Central East grid,electricity,MI electricity,MI electricity,2055,1
+Central East grid,electricity,OH electricity,OH electricity,2055,1
+Central East grid,electricity,WV electricity,WV electricity,2055,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2055,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2055,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2055,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2055,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2055,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2055,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2055,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2055,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2055,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2055,1
+Florida grid,electricity,FL electricity,FL electricity,2055,1
+Hawaii grid,electricity,HI electricity,HI electricity,2055,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2055,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2055,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2055,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2055,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2055,1
+New England grid,electricity,CT electricity,CT electricity,2055,1
+New England grid,electricity,MA electricity,MA electricity,2055,1
+New England grid,electricity,ME electricity,ME electricity,2055,1
+New England grid,electricity,NH electricity,NH electricity,2055,1
+New England grid,electricity,RI electricity,RI electricity,2055,1
+New England grid,electricity,VT electricity,VT electricity,2055,1
+New York grid,electricity,NY electricity,NY electricity,2055,1
+Northwest grid,electricity,ID electricity,ID electricity,2055,1
+Northwest grid,electricity,MT electricity,MT electricity,2055,1
+Northwest grid,electricity,NV electricity,NV electricity,2055,1
+Northwest grid,electricity,OR electricity,OR electricity,2055,1
+Northwest grid,electricity,UT electricity,UT electricity,2055,1
+Northwest grid,electricity,WA electricity,WA electricity,2055,1
+Southeast grid,electricity,AL electricity,AL electricity,2055,1
+Southeast grid,electricity,AR electricity,AR electricity,2055,1
+Southeast grid,electricity,GA electricity,GA electricity,2055,1
+Southeast grid,electricity,LA electricity,LA electricity,2055,1
+Southeast grid,electricity,MS electricity,MS electricity,2055,1
+Southeast grid,electricity,NC electricity,NC electricity,2055,1
+Southeast grid,electricity,SC electricity,SC electricity,2055,1
+Southeast grid,electricity,TN electricity,TN electricity,2055,1
+Southeast grid,electricity,VA electricity,VA electricity,2055,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2055,1
+Southwest grid,electricity,CO electricity,CO electricity,2055,1
+Southwest grid,electricity,NM electricity,NM electricity,2055,1
+Southwest grid,electricity,WY electricity,WY electricity,2055,1
+Texas grid,electricity,TX electricity,TX electricity,2055,1
+Alaska grid,electricity,AK electricity,AK electricity,2060,1
+California grid,electricity,CA electricity,CA electricity,2060,1
+Central East grid,electricity,IN electricity,IN electricity,2060,1
+Central East grid,electricity,KY electricity,KY electricity,2060,1
+Central East grid,electricity,MI electricity,MI electricity,2060,1
+Central East grid,electricity,OH electricity,OH electricity,2060,1
+Central East grid,electricity,WV electricity,WV electricity,2060,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2060,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2060,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2060,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2060,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2060,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2060,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2060,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2060,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2060,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2060,1
+Florida grid,electricity,FL electricity,FL electricity,2060,1
+Hawaii grid,electricity,HI electricity,HI electricity,2060,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2060,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2060,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2060,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2060,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2060,1
+New England grid,electricity,CT electricity,CT electricity,2060,1
+New England grid,electricity,MA electricity,MA electricity,2060,1
+New England grid,electricity,ME electricity,ME electricity,2060,1
+New England grid,electricity,NH electricity,NH electricity,2060,1
+New England grid,electricity,RI electricity,RI electricity,2060,1
+New England grid,electricity,VT electricity,VT electricity,2060,1
+New York grid,electricity,NY electricity,NY electricity,2060,1
+Northwest grid,electricity,ID electricity,ID electricity,2060,1
+Northwest grid,electricity,MT electricity,MT electricity,2060,1
+Northwest grid,electricity,NV electricity,NV electricity,2060,1
+Northwest grid,electricity,OR electricity,OR electricity,2060,1
+Northwest grid,electricity,UT electricity,UT electricity,2060,1
+Northwest grid,electricity,WA electricity,WA electricity,2060,1
+Southeast grid,electricity,AL electricity,AL electricity,2060,1
+Southeast grid,electricity,AR electricity,AR electricity,2060,1
+Southeast grid,electricity,GA electricity,GA electricity,2060,1
+Southeast grid,electricity,LA electricity,LA electricity,2060,1
+Southeast grid,electricity,MS electricity,MS electricity,2060,1
+Southeast grid,electricity,NC electricity,NC electricity,2060,1
+Southeast grid,electricity,SC electricity,SC electricity,2060,1
+Southeast grid,electricity,TN electricity,TN electricity,2060,1
+Southeast grid,electricity,VA electricity,VA electricity,2060,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2060,1
+Southwest grid,electricity,CO electricity,CO electricity,2060,1
+Southwest grid,electricity,NM electricity,NM electricity,2060,1
+Southwest grid,electricity,WY electricity,WY electricity,2060,1
+Texas grid,electricity,TX electricity,TX electricity,2060,1
+Alaska grid,electricity,AK electricity,AK electricity,2065,1
+California grid,electricity,CA electricity,CA electricity,2065,1
+Central East grid,electricity,IN electricity,IN electricity,2065,1
+Central East grid,electricity,KY electricity,KY electricity,2065,1
+Central East grid,electricity,MI electricity,MI electricity,2065,1
+Central East grid,electricity,OH electricity,OH electricity,2065,1
+Central East grid,electricity,WV electricity,WV electricity,2065,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2065,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2065,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2065,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2065,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2065,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2065,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2065,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2065,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2065,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2065,1
+Florida grid,electricity,FL electricity,FL electricity,2065,1
+Hawaii grid,electricity,HI electricity,HI electricity,2065,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2065,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2065,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2065,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2065,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2065,1
+New England grid,electricity,CT electricity,CT electricity,2065,1
+New England grid,electricity,MA electricity,MA electricity,2065,1
+New England grid,electricity,ME electricity,ME electricity,2065,1
+New England grid,electricity,NH electricity,NH electricity,2065,1
+New England grid,electricity,RI electricity,RI electricity,2065,1
+New England grid,electricity,VT electricity,VT electricity,2065,1
+New York grid,electricity,NY electricity,NY electricity,2065,1
+Northwest grid,electricity,ID electricity,ID electricity,2065,1
+Northwest grid,electricity,MT electricity,MT electricity,2065,1
+Northwest grid,electricity,NV electricity,NV electricity,2065,1
+Northwest grid,electricity,OR electricity,OR electricity,2065,1
+Northwest grid,electricity,UT electricity,UT electricity,2065,1
+Northwest grid,electricity,WA electricity,WA electricity,2065,1
+Southeast grid,electricity,AL electricity,AL electricity,2065,1
+Southeast grid,electricity,AR electricity,AR electricity,2065,1
+Southeast grid,electricity,GA electricity,GA electricity,2065,1
+Southeast grid,electricity,LA electricity,LA electricity,2065,1
+Southeast grid,electricity,MS electricity,MS electricity,2065,1
+Southeast grid,electricity,NC electricity,NC electricity,2065,1
+Southeast grid,electricity,SC electricity,SC electricity,2065,1
+Southeast grid,electricity,TN electricity,TN electricity,2065,1
+Southeast grid,electricity,VA electricity,VA electricity,2065,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2065,1
+Southwest grid,electricity,CO electricity,CO electricity,2065,1
+Southwest grid,electricity,NM electricity,NM electricity,2065,1
+Southwest grid,electricity,WY electricity,WY electricity,2065,1
+Texas grid,electricity,TX electricity,TX electricity,2065,1
+Alaska grid,electricity,AK electricity,AK electricity,2070,1
+California grid,electricity,CA electricity,CA electricity,2070,1
+Central East grid,electricity,IN electricity,IN electricity,2070,1
+Central East grid,electricity,KY electricity,KY electricity,2070,1
+Central East grid,electricity,MI electricity,MI electricity,2070,1
+Central East grid,electricity,OH electricity,OH electricity,2070,1
+Central East grid,electricity,WV electricity,WV electricity,2070,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2070,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2070,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2070,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2070,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2070,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2070,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2070,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2070,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2070,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2070,1
+Florida grid,electricity,FL electricity,FL electricity,2070,1
+Hawaii grid,electricity,HI electricity,HI electricity,2070,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2070,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2070,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2070,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2070,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2070,1
+New England grid,electricity,CT electricity,CT electricity,2070,1
+New England grid,electricity,MA electricity,MA electricity,2070,1
+New England grid,electricity,ME electricity,ME electricity,2070,1
+New England grid,electricity,NH electricity,NH electricity,2070,1
+New England grid,electricity,RI electricity,RI electricity,2070,1
+New England grid,electricity,VT electricity,VT electricity,2070,1
+New York grid,electricity,NY electricity,NY electricity,2070,1
+Northwest grid,electricity,ID electricity,ID electricity,2070,1
+Northwest grid,electricity,MT electricity,MT electricity,2070,1
+Northwest grid,electricity,NV electricity,NV electricity,2070,1
+Northwest grid,electricity,OR electricity,OR electricity,2070,1
+Northwest grid,electricity,UT electricity,UT electricity,2070,1
+Northwest grid,electricity,WA electricity,WA electricity,2070,1
+Southeast grid,electricity,AL electricity,AL electricity,2070,1
+Southeast grid,electricity,AR electricity,AR electricity,2070,1
+Southeast grid,electricity,GA electricity,GA electricity,2070,1
+Southeast grid,electricity,LA electricity,LA electricity,2070,1
+Southeast grid,electricity,MS electricity,MS electricity,2070,1
+Southeast grid,electricity,NC electricity,NC electricity,2070,1
+Southeast grid,electricity,SC electricity,SC electricity,2070,1
+Southeast grid,electricity,TN electricity,TN electricity,2070,1
+Southeast grid,electricity,VA electricity,VA electricity,2070,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2070,1
+Southwest grid,electricity,CO electricity,CO electricity,2070,1
+Southwest grid,electricity,NM electricity,NM electricity,2070,1
+Southwest grid,electricity,WY electricity,WY electricity,2070,1
+Texas grid,electricity,TX electricity,TX electricity,2070,1
+Alaska grid,electricity,AK electricity,AK electricity,2075,1
+California grid,electricity,CA electricity,CA electricity,2075,1
+Central East grid,electricity,IN electricity,IN electricity,2075,1
+Central East grid,electricity,KY electricity,KY electricity,2075,1
+Central East grid,electricity,MI electricity,MI electricity,2075,1
+Central East grid,electricity,OH electricity,OH electricity,2075,1
+Central East grid,electricity,WV electricity,WV electricity,2075,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2075,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2075,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2075,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2075,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2075,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2075,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2075,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2075,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2075,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2075,1
+Florida grid,electricity,FL electricity,FL electricity,2075,1
+Hawaii grid,electricity,HI electricity,HI electricity,2075,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2075,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2075,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2075,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2075,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2075,1
+New England grid,electricity,CT electricity,CT electricity,2075,1
+New England grid,electricity,MA electricity,MA electricity,2075,1
+New England grid,electricity,ME electricity,ME electricity,2075,1
+New England grid,electricity,NH electricity,NH electricity,2075,1
+New England grid,electricity,RI electricity,RI electricity,2075,1
+New England grid,electricity,VT electricity,VT electricity,2075,1
+New York grid,electricity,NY electricity,NY electricity,2075,1
+Northwest grid,electricity,ID electricity,ID electricity,2075,1
+Northwest grid,electricity,MT electricity,MT electricity,2075,1
+Northwest grid,electricity,NV electricity,NV electricity,2075,1
+Northwest grid,electricity,OR electricity,OR electricity,2075,1
+Northwest grid,electricity,UT electricity,UT electricity,2075,1
+Northwest grid,electricity,WA electricity,WA electricity,2075,1
+Southeast grid,electricity,AL electricity,AL electricity,2075,1
+Southeast grid,electricity,AR electricity,AR electricity,2075,1
+Southeast grid,electricity,GA electricity,GA electricity,2075,1
+Southeast grid,electricity,LA electricity,LA electricity,2075,1
+Southeast grid,electricity,MS electricity,MS electricity,2075,1
+Southeast grid,electricity,NC electricity,NC electricity,2075,1
+Southeast grid,electricity,SC electricity,SC electricity,2075,1
+Southeast grid,electricity,TN electricity,TN electricity,2075,1
+Southeast grid,electricity,VA electricity,VA electricity,2075,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2075,1
+Southwest grid,electricity,CO electricity,CO electricity,2075,1
+Southwest grid,electricity,NM electricity,NM electricity,2075,1
+Southwest grid,electricity,WY electricity,WY electricity,2075,1
+Texas grid,electricity,TX electricity,TX electricity,2075,1
+Alaska grid,electricity,AK electricity,AK electricity,2080,1
+California grid,electricity,CA electricity,CA electricity,2080,1
+Central East grid,electricity,IN electricity,IN electricity,2080,1
+Central East grid,electricity,KY electricity,KY electricity,2080,1
+Central East grid,electricity,MI electricity,MI electricity,2080,1
+Central East grid,electricity,OH electricity,OH electricity,2080,1
+Central East grid,electricity,WV electricity,WV electricity,2080,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2080,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2080,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2080,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2080,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2080,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2080,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2080,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2080,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2080,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2080,1
+Florida grid,electricity,FL electricity,FL electricity,2080,1
+Hawaii grid,electricity,HI electricity,HI electricity,2080,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2080,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2080,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2080,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2080,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2080,1
+New England grid,electricity,CT electricity,CT electricity,2080,1
+New England grid,electricity,MA electricity,MA electricity,2080,1
+New England grid,electricity,ME electricity,ME electricity,2080,1
+New England grid,electricity,NH electricity,NH electricity,2080,1
+New England grid,electricity,RI electricity,RI electricity,2080,1
+New England grid,electricity,VT electricity,VT electricity,2080,1
+New York grid,electricity,NY electricity,NY electricity,2080,1
+Northwest grid,electricity,ID electricity,ID electricity,2080,1
+Northwest grid,electricity,MT electricity,MT electricity,2080,1
+Northwest grid,electricity,NV electricity,NV electricity,2080,1
+Northwest grid,electricity,OR electricity,OR electricity,2080,1
+Northwest grid,electricity,UT electricity,UT electricity,2080,1
+Northwest grid,electricity,WA electricity,WA electricity,2080,1
+Southeast grid,electricity,AL electricity,AL electricity,2080,1
+Southeast grid,electricity,AR electricity,AR electricity,2080,1
+Southeast grid,electricity,GA electricity,GA electricity,2080,1
+Southeast grid,electricity,LA electricity,LA electricity,2080,1
+Southeast grid,electricity,MS electricity,MS electricity,2080,1
+Southeast grid,electricity,NC electricity,NC electricity,2080,1
+Southeast grid,electricity,SC electricity,SC electricity,2080,1
+Southeast grid,electricity,TN electricity,TN electricity,2080,1
+Southeast grid,electricity,VA electricity,VA electricity,2080,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2080,1
+Southwest grid,electricity,CO electricity,CO electricity,2080,1
+Southwest grid,electricity,NM electricity,NM electricity,2080,1
+Southwest grid,electricity,WY electricity,WY electricity,2080,1
+Texas grid,electricity,TX electricity,TX electricity,2080,1
+Alaska grid,electricity,AK electricity,AK electricity,2085,1
+California grid,electricity,CA electricity,CA electricity,2085,1
+Central East grid,electricity,IN electricity,IN electricity,2085,1
+Central East grid,electricity,KY electricity,KY electricity,2085,1
+Central East grid,electricity,MI electricity,MI electricity,2085,1
+Central East grid,electricity,OH electricity,OH electricity,2085,1
+Central East grid,electricity,WV electricity,WV electricity,2085,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2085,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2085,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2085,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2085,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2085,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2085,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2085,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2085,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2085,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2085,1
+Florida grid,electricity,FL electricity,FL electricity,2085,1
+Hawaii grid,electricity,HI electricity,HI electricity,2085,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2085,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2085,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2085,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2085,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2085,1
+New England grid,electricity,CT electricity,CT electricity,2085,1
+New England grid,electricity,MA electricity,MA electricity,2085,1
+New England grid,electricity,ME electricity,ME electricity,2085,1
+New England grid,electricity,NH electricity,NH electricity,2085,1
+New England grid,electricity,RI electricity,RI electricity,2085,1
+New England grid,electricity,VT electricity,VT electricity,2085,1
+New York grid,electricity,NY electricity,NY electricity,2085,1
+Northwest grid,electricity,ID electricity,ID electricity,2085,1
+Northwest grid,electricity,MT electricity,MT electricity,2085,1
+Northwest grid,electricity,NV electricity,NV electricity,2085,1
+Northwest grid,electricity,OR electricity,OR electricity,2085,1
+Northwest grid,electricity,UT electricity,UT electricity,2085,1
+Northwest grid,electricity,WA electricity,WA electricity,2085,1
+Southeast grid,electricity,AL electricity,AL electricity,2085,1
+Southeast grid,electricity,AR electricity,AR electricity,2085,1
+Southeast grid,electricity,GA electricity,GA electricity,2085,1
+Southeast grid,electricity,LA electricity,LA electricity,2085,1
+Southeast grid,electricity,MS electricity,MS electricity,2085,1
+Southeast grid,electricity,NC electricity,NC electricity,2085,1
+Southeast grid,electricity,SC electricity,SC electricity,2085,1
+Southeast grid,electricity,TN electricity,TN electricity,2085,1
+Southeast grid,electricity,VA electricity,VA electricity,2085,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2085,1
+Southwest grid,electricity,CO electricity,CO electricity,2085,1
+Southwest grid,electricity,NM electricity,NM electricity,2085,1
+Southwest grid,electricity,WY electricity,WY electricity,2085,1
+Texas grid,electricity,TX electricity,TX electricity,2085,1
+Alaska grid,electricity,AK electricity,AK electricity,2090,1
+California grid,electricity,CA electricity,CA electricity,2090,1
+Central East grid,electricity,IN electricity,IN electricity,2090,1
+Central East grid,electricity,KY electricity,KY electricity,2090,1
+Central East grid,electricity,MI electricity,MI electricity,2090,1
+Central East grid,electricity,OH electricity,OH electricity,2090,1
+Central East grid,electricity,WV electricity,WV electricity,2090,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2090,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2090,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2090,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2090,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2090,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2090,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2090,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2090,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2090,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2090,1
+Florida grid,electricity,FL electricity,FL electricity,2090,1
+Hawaii grid,electricity,HI electricity,HI electricity,2090,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2090,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2090,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2090,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2090,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2090,1
+New England grid,electricity,CT electricity,CT electricity,2090,1
+New England grid,electricity,MA electricity,MA electricity,2090,1
+New England grid,electricity,ME electricity,ME electricity,2090,1
+New England grid,electricity,NH electricity,NH electricity,2090,1
+New England grid,electricity,RI electricity,RI electricity,2090,1
+New England grid,electricity,VT electricity,VT electricity,2090,1
+New York grid,electricity,NY electricity,NY electricity,2090,1
+Northwest grid,electricity,ID electricity,ID electricity,2090,1
+Northwest grid,electricity,MT electricity,MT electricity,2090,1
+Northwest grid,electricity,NV electricity,NV electricity,2090,1
+Northwest grid,electricity,OR electricity,OR electricity,2090,1
+Northwest grid,electricity,UT electricity,UT electricity,2090,1
+Northwest grid,electricity,WA electricity,WA electricity,2090,1
+Southeast grid,electricity,AL electricity,AL electricity,2090,1
+Southeast grid,electricity,AR electricity,AR electricity,2090,1
+Southeast grid,electricity,GA electricity,GA electricity,2090,1
+Southeast grid,electricity,LA electricity,LA electricity,2090,1
+Southeast grid,electricity,MS electricity,MS electricity,2090,1
+Southeast grid,electricity,NC electricity,NC electricity,2090,1
+Southeast grid,electricity,SC electricity,SC electricity,2090,1
+Southeast grid,electricity,TN electricity,TN electricity,2090,1
+Southeast grid,electricity,VA electricity,VA electricity,2090,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2090,1
+Southwest grid,electricity,CO electricity,CO electricity,2090,1
+Southwest grid,electricity,NM electricity,NM electricity,2090,1
+Southwest grid,electricity,WY electricity,WY electricity,2090,1
+Texas grid,electricity,TX electricity,TX electricity,2090,1
+Alaska grid,electricity,AK electricity,AK electricity,2095,1
+California grid,electricity,CA electricity,CA electricity,2095,1
+Central East grid,electricity,IN electricity,IN electricity,2095,1
+Central East grid,electricity,KY electricity,KY electricity,2095,1
+Central East grid,electricity,MI electricity,MI electricity,2095,1
+Central East grid,electricity,OH electricity,OH electricity,2095,1
+Central East grid,electricity,WV electricity,WV electricity,2095,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2095,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2095,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2095,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2095,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2095,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2095,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2095,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2095,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2095,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2095,1
+Florida grid,electricity,FL electricity,FL electricity,2095,1
+Hawaii grid,electricity,HI electricity,HI electricity,2095,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2095,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2095,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2095,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2095,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2095,1
+New England grid,electricity,CT electricity,CT electricity,2095,1
+New England grid,electricity,MA electricity,MA electricity,2095,1
+New England grid,electricity,ME electricity,ME electricity,2095,1
+New England grid,electricity,NH electricity,NH electricity,2095,1
+New England grid,electricity,RI electricity,RI electricity,2095,1
+New England grid,electricity,VT electricity,VT electricity,2095,1
+New York grid,electricity,NY electricity,NY electricity,2095,1
+Northwest grid,electricity,ID electricity,ID electricity,2095,1
+Northwest grid,electricity,MT electricity,MT electricity,2095,1
+Northwest grid,electricity,NV electricity,NV electricity,2095,1
+Northwest grid,electricity,OR electricity,OR electricity,2095,1
+Northwest grid,electricity,UT electricity,UT electricity,2095,1
+Northwest grid,electricity,WA electricity,WA electricity,2095,1
+Southeast grid,electricity,AL electricity,AL electricity,2095,1
+Southeast grid,electricity,AR electricity,AR electricity,2095,1
+Southeast grid,electricity,GA electricity,GA electricity,2095,1
+Southeast grid,electricity,LA electricity,LA electricity,2095,1
+Southeast grid,electricity,MS electricity,MS electricity,2095,1
+Southeast grid,electricity,NC electricity,NC electricity,2095,1
+Southeast grid,electricity,SC electricity,SC electricity,2095,1
+Southeast grid,electricity,TN electricity,TN electricity,2095,1
+Southeast grid,electricity,VA electricity,VA electricity,2095,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2095,1
+Southwest grid,electricity,CO electricity,CO electricity,2095,1
+Southwest grid,electricity,NM electricity,NM electricity,2095,1
+Southwest grid,electricity,WY electricity,WY electricity,2095,1
+Texas grid,electricity,TX electricity,TX electricity,2095,1
+Alaska grid,electricity,AK electricity,AK electricity,2100,1
+California grid,electricity,CA electricity,CA electricity,2100,1
+Central East grid,electricity,IN electricity,IN electricity,2100,1
+Central East grid,electricity,KY electricity,KY electricity,2100,1
+Central East grid,electricity,MI electricity,MI electricity,2100,1
+Central East grid,electricity,OH electricity,OH electricity,2100,1
+Central East grid,electricity,WV electricity,WV electricity,2100,1
+Central Northeast grid,electricity,IL electricity,IL electricity,2100,1
+Central Northeast grid,electricity,MO electricity,MO electricity,2100,1
+Central Northeast grid,electricity,WI electricity,WI electricity,2100,1
+Central Northwest grid,electricity,IA electricity,IA electricity,2100,1
+Central Northwest grid,electricity,MN electricity,MN electricity,2100,1
+Central Northwest grid,electricity,ND electricity,ND electricity,2100,1
+Central Northwest grid,electricity,NE electricity,NE electricity,2100,1
+Central Northwest grid,electricity,SD electricity,SD electricity,2100,1
+Central Southwest grid,electricity,KS electricity,KS electricity,2100,1
+Central Southwest grid,electricity,OK electricity,OK electricity,2100,1
+Florida grid,electricity,FL electricity,FL electricity,2100,1
+Hawaii grid,electricity,HI electricity,HI electricity,2100,1
+Mid-Atlantic grid,electricity,DC electricity,DC electricity,2100,1
+Mid-Atlantic grid,electricity,DE electricity,DE electricity,2100,1
+Mid-Atlantic grid,electricity,MD electricity,MD electricity,2100,1
+Mid-Atlantic grid,electricity,NJ electricity,NJ electricity,2100,1
+Mid-Atlantic grid,electricity,PA electricity,PA electricity,2100,1
+New England grid,electricity,CT electricity,CT electricity,2100,1
+New England grid,electricity,MA electricity,MA electricity,2100,1
+New England grid,electricity,ME electricity,ME electricity,2100,1
+New England grid,electricity,NH electricity,NH electricity,2100,1
+New England grid,electricity,RI electricity,RI electricity,2100,1
+New England grid,electricity,VT electricity,VT electricity,2100,1
+New York grid,electricity,NY electricity,NY electricity,2100,1
+Northwest grid,electricity,ID electricity,ID electricity,2100,1
+Northwest grid,electricity,MT electricity,MT electricity,2100,1
+Northwest grid,electricity,NV electricity,NV electricity,2100,1
+Northwest grid,electricity,OR electricity,OR electricity,2100,1
+Northwest grid,electricity,UT electricity,UT electricity,2100,1
+Northwest grid,electricity,WA electricity,WA electricity,2100,1
+Southeast grid,electricity,AL electricity,AL electricity,2100,1
+Southeast grid,electricity,AR electricity,AR electricity,2100,1
+Southeast grid,electricity,GA electricity,GA electricity,2100,1
+Southeast grid,electricity,LA electricity,LA electricity,2100,1
+Southeast grid,electricity,MS electricity,MS electricity,2100,1
+Southeast grid,electricity,NC electricity,NC electricity,2100,1
+Southeast grid,electricity,SC electricity,SC electricity,2100,1
+Southeast grid,electricity,TN electricity,TN electricity,2100,1
+Southeast grid,electricity,VA electricity,VA electricity,2100,1
+Southwest grid,electricity,AZ electricity,AZ electricity,2100,1
+Southwest grid,electricity,CO electricity,CO electricity,2100,1
+Southwest grid,electricity,NM electricity,NM electricity,2100,1
+Southwest grid,electricity,WY electricity,WY electricity,2100,1
+Texas grid,electricity,TX electricity,TX electricity,2100,1
