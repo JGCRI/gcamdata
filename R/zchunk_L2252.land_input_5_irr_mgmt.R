@@ -39,6 +39,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
              FILE = "water/basin_to_country_mapping",
              FILE = "aglu/GCAMLandLeaf_CdensityLT",
              FILE = "aglu/A_Fodderbio_chars",
+             FILE = "aglu/A_LandLeaf3",
              "L171.ag_irrEcYield_kgm2_R_C_Y_GLU",
              "L171.ag_rfdEcYield_kgm2_R_C_Y_GLU",
              "L181.LandShare_R_bio_GLU_irr",
@@ -68,6 +69,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
     basin_to_country_mapping <- get_data(all_data, "water/basin_to_country_mapping")
     GCAMLandLeaf_CdensityLT <- get_data(all_data, "aglu/GCAMLandLeaf_CdensityLT")
     A_Fodderbio_chars <- get_data(all_data, "aglu/A_Fodderbio_chars")
+    A_LandLeaf3 <- get_data(all_data, "aglu/A_LandLeaf3")
     L2242.LN4_Logit <- get_data(all_data, "L2242.LN4_Logit")
     L111.ag_resbio_R_C <- get_data(all_data, "L111.ag_resbio_R_C")
     L121.CarbonContent_kgm2_R_LT_GLU <- get_data(all_data, "L121.CarbonContent_kgm2_R_LT_GLU")
@@ -254,18 +256,8 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
 
     # L2252.LN5_MgdCarbon_crop: Carbon content info, managed land in the fifth nest, cropland (no bio)
     # Soil will use default values, but vegetation will be replaced by bottom-up estimates
-    L2252.LN5_MgdAllocation_crop %>%
-      distinct(region, LandAllocatorRoot, LandNode1, LandNode2, LandNode3, LandNode4, LandNode5, LandLeaf) %>%
-      mutate(tmp = LandNode5,
-             # Modify land node variable so we can separate GCAM_commodity
-             tmp = sub("Root_Tuber", "RootTuber", tmp),
-             tmp = sub("biomass_tree", "biomasstree", tmp),
-             tmp = sub("biomass_grass", "biomassgrass", tmp)) %>%
-      separate(tmp, c("GCAM_commodity", "GLU", "Irr_Rfd")) %>%
-      mutate(# Switch commodity name back before joining with LT
-            GCAM_commodity = sub("RootTuber", "Root_Tuber", GCAM_commodity),
-            GCAM_commodity = sub("biomasstree", "biomass_tree", GCAM_commodity),
-            GCAM_commodity = sub("biomassgrass", "biomass_grass", GCAM_commodity)) %>%
+    L171.ag_EcYield_kgm2_R_C_Y_GLU %>%
+      rename(yield = value) %>%
       left_join_error_no_match(GCAMLandLeaf_CdensityLT, by=c("GCAM_commodity" = "LandLeaf")) %>%
       rename(Cdensity_LT = Land_Type) %>%
       add_carbon_info(carbon_info_table = L121.CarbonContent_kgm2_R_LT_GLU) %>%
@@ -279,10 +271,8 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
                                                 mean(hist.soil.carbon.density, na.rm = T), hist.soil.carbon.density)) %>%
       mutate(mature.age = if_else(is.na(mature.age), mean(mature.age, na.rm = T), mature.age)) %>%
       # Map in yield -- this will be used to compute vegetation carbon
-      left_join(L171.ag_EcYield_kgm2_R_C_Y_GLU, by=c("GCAM_region_ID", "region", "GCAM_commodity", "GLU", "Irr_Rfd")) %>%
-      rename(yield = value) %>%
       # Map in information for calculation of cropland vegetation carbon; note there will be NAs since Fodder crops are missing
-      left_join(L111.ag_resbio_R_C, by=c("GCAM_region_ID", "region", "GCAM_commodity")) %>%
+      left_join(L111.ag_resbio_R_C, by=c("region", "GCAM_commodity")) %>%
       left_join(A_Fodderbio_chars, by=c("GCAM_commodity")) %>%
       mutate(HarvestIndex.x = if_else(is.na(HarvestIndex.x), HarvestIndex.y, HarvestIndex.x),
              Root_Shoot.x = if_else(is.na(Root_Shoot.x), Root_Shoot.y, Root_Shoot.x),
@@ -295,8 +285,14 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       mutate(hist.veg.carbon.density = if_else(is.na(hist.veg.carbon.density), veg.carbon.density,
                                                hist.veg.carbon.density)) %>%
       mutate(veg.carbon.density = hist.veg.carbon.density) %>%
-      select(one_of(LEVEL2_DATA_NAMES[["LN5_MgdCarbon"]])) %>%
-      na.omit() ->
+      left_join(A_LandLeaf3, by=c("GCAM_commodity" = "LandLeaf")) %>%
+      mutate(LandAllocatorRoot = "root",
+             LandNode1 = paste(LandNode1, GLU, sep = "_"),
+             LandNode2 = paste(LandNode2, GLU, sep = "_"),
+             LandNode3 = paste(LandNode3, GLU, sep = "_"),
+             LandNode4 = paste(GCAM_commodity, GLU, sep = "_"),
+             LandLeaf = paste(LandNode4, Irr_Rfd, sep = "_")) %>%
+      convert_LN4_to_LN5(names = LEVEL2_DATA_NAMES[["LN5_MgdCarbon"]]) ->
       L2252.LN5_MgdCarbon_crop
 
     # L2252.LN5_MgdCarbon_bio
