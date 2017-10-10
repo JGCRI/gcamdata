@@ -49,6 +49,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
              "L111.ag_resbio_R_C",
              "L121.CarbonContent_kgm2_R_LT_GLU",
              FILE = "temp-data-inject/L2241.LN4_MgdCarbon_bio",
+             "L2012.AgYield_bio_ref",
              "L2012.AgProduction_ag_irr_mgmt"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L2252.LN5_Logit",
@@ -80,6 +81,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
     L181.YieldMult_R_bio_GLU_irr <- get_data(all_data, "L181.YieldMult_R_bio_GLU_irr")
     L2241.LN4_MgdCarbon_bio <- get_data(all_data, "temp-data-inject/L2241.LN4_MgdCarbon_bio")
     L2012.AgProduction_ag_irr_mgmt <- get_data(all_data, "L2012.AgProduction_ag_irr_mgmt")
+    L2012.AgYield_bio_ref <- get_data(all_data, "L2012.AgYield_bio_ref")
 
     # silence package check notes
     GCAM_commodity <- GCAM_region_ID <- region <- value <- year <- GLU <- GLU_name <- GLU_code <-
@@ -129,24 +131,6 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       bind_rows(L171.ag_irrEcYield_kgm2_R_C_Y_GLU) %>%
       filter(year == max(BASE_YEARS)) ->
       L171.ag_EcYield_kgm2_R_C_Y_GLU
-
-    # The old data system does not correct the GLU names for this input.
-    # Consequently, in the original L2252, the match on line 119 introduces
-    # hist.veg.carbon.density = NA for all region-glu-irr-mgmt because it
-    # is being told to match GLU008 style names with ArkWhtRedR style names
-    # so there are no matches.
-    # As a result, there is no difference in hist.veg.carbon.density for
-    # hi vs lo nests.
-    if(OLD_DATA_SYSTEM_BEHAVIOR){
-      L181.YieldMult_R_bio_GLU_irr %>%
-        left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID") ->
-        L181.YieldMult_R_bio_GLU_irr
-    } else{
-      L181.YieldMult_R_bio_GLU_irr %>%
-        left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID") %>%
-        replace_GLU(map = basin_to_country_mapping) ->
-        L181.YieldMult_R_bio_GLU_irr
-    }
 
     # convert_LN4_to_LN5
     # A function to carry LN4 information down to LN5
@@ -295,36 +279,57 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       convert_LN4_to_LN5(names = LEVEL2_DATA_NAMES[["LN5_MgdCarbon"]]) ->
       L2252.LN5_MgdCarbon_crop
 
-    # L2252.LN5_MgdCarbon_bio
-    # Undergoes relabelling and the addition of hi/lo mgmt information;
-    # vegetative carbon content is multiplied for the hi/lo yield
-    # multipliers as well.
-    #
-    # First, prep multipliers for easier joining to relabeled L2241 data.
-    L181.YieldMult_R_bio_GLU_irr %>%
-      gather(variable, yieldmult, -GCAM_region_ID, -region, -GLU, -Irr_Rfd) %>%
-      separate(variable, c("variable", "level")) %>%
-      select(-GCAM_region_ID, -variable) %>%
-      mutate(Irr_Rfd = toupper(Irr_Rfd)) ->
-      L2252.YieldMult_R_bio_GLU_irr
 
-    # Second, relabel L2241 data and join the multiplier information
-    L2241.LN4_MgdCarbon_bio %>%
-      convert_LN4_to_LN5(names = LEVEL2_DATA_NAMES[["LN5_MgdCarbon"]]) %>%
-      mutate(tmp = LandLeaf) %>%
-      separate(tmp, c("crop1", "crop2", "GLU", "Irr_Rfd", "level")) %>%
-      select(-crop1, -crop2) %>%
-      # some region-glu-irr-mgmt have no info, so less restrictive join and overwrite NAs
-      left_join(L2252.YieldMult_R_bio_GLU_irr, by = c("region", "GLU", "Irr_Rfd", "level")) %>%
-      # For places with no yieldmult, set hist.veg.carbon.density equal to veg.carbon.density;
-      # otherwise, hist.veg.carbon.density = veg.carbon.density * yieldmult.
-      mutate(hist.veg.carbon.density = if_else(is.na(yieldmult),
-                                             veg.carbon.density,
-                                             round(veg.carbon.density * yieldmult, aglu.DIGITS_C_DENSITY)),
-             veg.carbon.density = hist.veg.carbon.density) %>%
-      select(-yieldmult) ->
+    L2012.AgYield_bio_ref %>%
+      filter(year == max(BASE_YEARS)) %>%
+      select(region, AgProductionTechnology, yield) %>%
+      mutate(AgProductionTechnology = sub("biomass_tree", "biomasstree", AgProductionTechnology),
+             AgProductionTechnology = sub("biomass_grass", "biomassgrass", AgProductionTechnology)) %>%
+      separate(AgProductionTechnology, c("GCAM_commodity", "GLU", "Irr_Rfd", "level")) %>%
+      mutate(GCAM_commodity = sub("biomasstree", "biomass_tree", GCAM_commodity),
+             GCAM_commodity = sub("biomassgrass", "biomass_grass", GCAM_commodity)) %>%
+      left_join_error_no_match(GCAMLandLeaf_CdensityLT, by=c("GCAM_commodity" = "LandLeaf")) %>%
+      rename(Cdensity_LT = Land_Type) %>%
+      add_carbon_info(carbon_info_table = L121.CarbonContent_kgm2_R_LT_GLU) %>%
+      # There may missing values, where the assigned land type (LT) from which to get the carbon content didn't actually exist. Re-set to defaults.
+      mutate(soil.carbon.density = if_else(is.na(soil.carbon.density), mean(soil.carbon.density, na.rm = T), soil.carbon.density)) %>%
+      mutate(hist.soil.carbon.density = if_else(is.na(hist.soil.carbon.density),
+                                                mean(hist.soil.carbon.density, na.rm = T), hist.soil.carbon.density)) %>%
+      mutate(mature.age = if_else(is.na(mature.age), mean(mature.age, na.rm = T), mature.age)) %>%
+      # Convert biomass yield from GJ/m2 to kg/m2
+      mutate(yield = yield / (aglu.BIO_ENERGY_CONTENT_GJT * CONV_KG_T)) %>%
+      # Map in the harvest index, water content, and root-shoot ratio
+      left_join(A_Fodderbio_chars, by=c("GCAM_commodity")) %>%
+      # Calculate the veg carbon content. Assume that the crop is perennial so the root portion doesn't get multiplied by the peak->avg conversion
+      mutate(hist.veg.carbon.density = yield / (HarvestIndex) * (1 - WaterContent) * aglu.CCONTENT_CELLULOSE * aglu.CCONV_PEAK_AVG +
+                                              yield / (HarvestIndex) * (1 - WaterContent) * Root_Shoot * aglu.CCONTENT_CELLULOSE) %>%
+      mutate(veg.carbon.density = hist.veg.carbon.density) %>%
+      left_join(A_LandLeaf3, by=c("GCAM_commodity" = "LandLeaf")) %>%
+      mutate(LandAllocatorRoot = "root",
+             LandNode1 = paste(LandNode1, GLU, sep = "_"),
+             LandNode2 = paste(LandNode2, GLU, sep = "_"),
+             LandNode3 = paste(LandNode3, GLU, sep = "_"),
+             LandNode4 = paste(GCAM_commodity, GLU, sep = "_"),
+             LandNode5 = paste(LandNode4, Irr_Rfd, sep = "_"),
+             LandLeaf = paste(LandNode5, level, sep = "_")) %>%
+      select(one_of(c(LEVEL2_DATA_NAMES[["LN5_MgdCarbon"]], "GLU", "Irr_Rfd", "level"))) ->
       L2252.LN5_MgdCarbon_bio
 
+    # The old data system starts from average bioenergy yields (not separated by hi/lo).
+    # It is supposed to multiply these yields by the ratio of hi/lo to average.
+    # However, due to an error in mapping, this doesn't happen. As a result, there is
+    # no difference in hist.veg.carbon.density for hi vs lo nests.
+    # Since we start from hi/lo yields here, we get the correct results. Here, we will
+    # reset them to the average in order to match the old data system.
+    if(OLD_DATA_SYSTEM_BEHAVIOR){
+      L2252.LN5_MgdCarbon_bio %>%
+        mutate(hist.veg.carbon.density = if_else(level == "hi", hist.veg.carbon.density / (1 + MGMT_YIELD_ADJ),
+                                                 hist.veg.carbon.density / (1 - MGMT_YIELD_ADJ))) %>%
+        # Round now so that the numbers will match better
+        mutate(hist.veg.carbon.density = round(hist.veg.carbon.density, aglu.DIGITS_C_DENSITY_CROP)) %>%
+        mutate(veg.carbon.density = hist.veg.carbon.density) ->
+        L2252.LN5_MgdCarbon_bio
+    }
 
     # L2252.LN5_LeafGhostShare: Ghost share of the new landleaf (lo-input versus hi-input)
     # NOTE: The ghost shares are inferred from average land shares allocated to hi-input

@@ -75,7 +75,6 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
     # L2242.LN4_NodeGhostShare:
     # Specify ghost node share for bioenergy node in future years (starting with first bio year).
     L2012.AgYield_bio_ref %>%
-      select(region, AgSupplySubsector) %>%
       distinct(region, AgSupplySubsector) %>%
       mutate(GCAM_commodity = if_else(grepl("^biomass_grass", AgSupplySubsector), "biomass_grass", "biomass_tree")) %>%
       mutate(GLU_name = if_else(grepl("^biomass_grass", AgSupplySubsector), gsub("biomass_grass_", "", AgSupplySubsector),
