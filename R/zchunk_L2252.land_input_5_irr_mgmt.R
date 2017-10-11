@@ -48,7 +48,6 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
              "L2242.LN4_Logit",
              "L111.ag_resbio_R_C",
              "L121.CarbonContent_kgm2_R_LT_GLU",
-             FILE = "temp-data-inject/L2241.LN4_MgdCarbon_bio",
              "L2012.AgYield_bio_ref",
              "L2012.AgProduction_ag_irr_mgmt"))
   } else if(command == driver.DECLARE_OUTPUTS) {
@@ -79,7 +78,6 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
     L181.LandShare_R_bio_GLU_irr <- get_data(all_data, "L181.LandShare_R_bio_GLU_irr")
     L181.LC_bm2_R_C_Yh_GLU_irr_level <- get_data(all_data, "L181.LC_bm2_R_C_Yh_GLU_irr_level")
     L181.YieldMult_R_bio_GLU_irr <- get_data(all_data, "L181.YieldMult_R_bio_GLU_irr")
-    L2241.LN4_MgdCarbon_bio <- get_data(all_data, "temp-data-inject/L2241.LN4_MgdCarbon_bio")
     L2012.AgProduction_ag_irr_mgmt <- get_data(all_data, "L2012.AgProduction_ag_irr_mgmt")
     L2012.AgYield_bio_ref <- get_data(all_data, "L2012.AgYield_bio_ref")
 
