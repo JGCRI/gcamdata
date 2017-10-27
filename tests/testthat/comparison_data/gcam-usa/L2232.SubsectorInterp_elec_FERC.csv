@@ -1,0 +1,50 @@
+#INPUT_TABLE
+#Variable ID
+#SubsectorInterp
+#
+region,supplysector,subsector,apply.to,from.year,to.year,interpolation.function
+Alaska grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
+Alaska grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed
+Alaska grid,electricity domestic supply,electricity trade,share-weight,2010,2100,fixed
+California grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
+California grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed
+California grid,electricity domestic supply,electricity trade,share-weight,2010,2100,fixed
+Central East grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
+Central East grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed
+Central East grid,electricity domestic supply,electricity trade,share-weight,2010,2100,fixed
+Central Northeast grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
+Central Northeast grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed
+Central Northeast grid,electricity domestic supply,electricity trade,share-weight,2010,2100,fixed
+Central Northwest grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
+Central Northwest grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed
+Central Northwest grid,electricity domestic supply,electricity trade,share-weight,2010,2100,fixed
+Central Southwest grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
+Central Southwest grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed
+Central Southwest grid,electricity domestic supply,electricity trade,share-weight,2010,2100,fixed
+Florida grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
+Florida grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed
+Florida grid,electricity domestic supply,electricity trade,share-weight,2010,2100,fixed
+Hawaii grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
+Hawaii grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed
+Hawaii grid,electricity domestic supply,electricity trade,share-weight,2010,2100,fixed
+Mid-Atlantic grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
+Mid-Atlantic grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed
+Mid-Atlantic grid,electricity domestic supply,electricity trade,share-weight,2010,2100,fixed
+New England grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
+New England grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed
+New England grid,electricity domestic supply,electricity trade,share-weight,2010,2100,fixed
+New York grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
+New York grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed
+New York grid,electricity domestic supply,electricity trade,share-weight,2010,2100,fixed
+Northwest grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
+Northwest grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed
+Northwest grid,electricity domestic supply,electricity trade,share-weight,2010,2100,fixed
+Southeast grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
+Southeast grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed
+Southeast grid,electricity domestic supply,electricity trade,share-weight,2010,2100,fixed
+Southwest grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
+Southwest grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed
+Southwest grid,electricity domestic supply,electricity trade,share-weight,2010,2100,fixed
+Texas grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
+Texas grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed
+Texas grid,electricity domestic supply,electricity trade,share-weight,2010,2100,fixed
