@@ -1,0 +1,1229 @@
+#INPUT_TABLE
+#Variable ID
+#tranSubsectorShrwtFllt
+#
+region,supplysector,tranSubsector,year.fillout,share.weight
+AK,trn_aviation_intl,International Aviation,1975,1
+AK,trn_freight,Domestic Ship,1975,1
+AK,trn_freight,Freight Rail,1975,1
+AK,trn_freight_road,Truck (>12t),1975,1
+AK,trn_freight_road,Truck (0-2.7t),1975,1
+AK,trn_freight_road,Truck (2.7-4.5t),1975,1
+AK,trn_freight_road,Truck (4.5-12t),1975,1
+AK,trn_pass,Cycle,1975,1
+AK,trn_pass,Domestic Aviation,1975,1
+AK,trn_pass,HSR,2015,0.001
+AK,trn_pass,Passenger Rail,1975,1
+AK,trn_pass,Walk,1975,1
+AK,trn_pass_road,Bus,1975,1
+AK,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+AK,trn_pass_road_LDV_4W,Compact Car,1975,1
+AK,trn_pass_road_LDV_4W,Large Car,1975,1
+AK,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+AK,trn_pass_road_LDV_4W,Midsize Car,1975,1
+AK,trn_shipping_intl,International Ship,1975,1
+AK,trn_pass,road,1975,1
+AK,trn_pass_road,LDV,1975,1
+AK,trn_pass_road_LDV,4W,1975,1
+AK,trn_pass_road_LDV,2W,1975,1
+AK,trn_freight,road,1975,1
+AL,trn_aviation_intl,International Aviation,1975,1
+AL,trn_freight,Domestic Ship,1975,1
+AL,trn_freight,Freight Rail,1975,1
+AL,trn_freight_road,Truck (>12t),1975,1
+AL,trn_freight_road,Truck (0-2.7t),1975,1
+AL,trn_freight_road,Truck (2.7-4.5t),1975,1
+AL,trn_freight_road,Truck (4.5-12t),1975,1
+AL,trn_pass,Cycle,1975,1
+AL,trn_pass,Domestic Aviation,1975,1
+AL,trn_pass,HSR,2015,0.001
+AL,trn_pass,Passenger Rail,1975,1
+AL,trn_pass,Walk,1975,1
+AL,trn_pass_road,Bus,1975,1
+AL,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+AL,trn_pass_road_LDV_4W,Compact Car,1975,1
+AL,trn_pass_road_LDV_4W,Large Car,1975,1
+AL,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+AL,trn_pass_road_LDV_4W,Midsize Car,1975,1
+AL,trn_shipping_intl,International Ship,1975,1
+AL,trn_pass,road,1975,1
+AL,trn_pass_road,LDV,1975,1
+AL,trn_pass_road_LDV,4W,1975,1
+AL,trn_pass_road_LDV,2W,1975,1
+AL,trn_freight,road,1975,1
+AR,trn_aviation_intl,International Aviation,1975,1
+AR,trn_freight,Domestic Ship,1975,1
+AR,trn_freight,Freight Rail,1975,1
+AR,trn_freight_road,Truck (>12t),1975,1
+AR,trn_freight_road,Truck (0-2.7t),1975,1
+AR,trn_freight_road,Truck (2.7-4.5t),1975,1
+AR,trn_freight_road,Truck (4.5-12t),1975,1
+AR,trn_pass,Cycle,1975,1
+AR,trn_pass,Domestic Aviation,1975,1
+AR,trn_pass,HSR,2015,0.001
+AR,trn_pass,Passenger Rail,1975,1
+AR,trn_pass,Walk,1975,1
+AR,trn_pass_road,Bus,1975,1
+AR,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+AR,trn_pass_road_LDV_4W,Compact Car,1975,1
+AR,trn_pass_road_LDV_4W,Large Car,1975,1
+AR,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+AR,trn_pass_road_LDV_4W,Midsize Car,1975,1
+AR,trn_shipping_intl,International Ship,1975,1
+AR,trn_pass,road,1975,1
+AR,trn_pass_road,LDV,1975,1
+AR,trn_pass_road_LDV,4W,1975,1
+AR,trn_pass_road_LDV,2W,1975,1
+AR,trn_freight,road,1975,1
+AZ,trn_aviation_intl,International Aviation,1975,1
+AZ,trn_freight,Domestic Ship,1975,1
+AZ,trn_freight,Freight Rail,1975,1
+AZ,trn_freight_road,Truck (>12t),1975,1
+AZ,trn_freight_road,Truck (0-2.7t),1975,1
+AZ,trn_freight_road,Truck (2.7-4.5t),1975,1
+AZ,trn_freight_road,Truck (4.5-12t),1975,1
+AZ,trn_pass,Cycle,1975,1
+AZ,trn_pass,Domestic Aviation,1975,1
+AZ,trn_pass,HSR,2015,0.001
+AZ,trn_pass,Passenger Rail,1975,1
+AZ,trn_pass,Walk,1975,1
+AZ,trn_pass_road,Bus,1975,1
+AZ,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+AZ,trn_pass_road_LDV_4W,Compact Car,1975,1
+AZ,trn_pass_road_LDV_4W,Large Car,1975,1
+AZ,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+AZ,trn_pass_road_LDV_4W,Midsize Car,1975,1
+AZ,trn_shipping_intl,International Ship,1975,1
+AZ,trn_pass,road,1975,1
+AZ,trn_pass_road,LDV,1975,1
+AZ,trn_pass_road_LDV,4W,1975,1
+AZ,trn_pass_road_LDV,2W,1975,1
+AZ,trn_freight,road,1975,1
+CA,trn_aviation_intl,International Aviation,1975,1
+CA,trn_freight,Domestic Ship,1975,1
+CA,trn_freight,Freight Rail,1975,1
+CA,trn_freight_road,Truck (>12t),1975,1
+CA,trn_freight_road,Truck (0-2.7t),1975,1
+CA,trn_freight_road,Truck (2.7-4.5t),1975,1
+CA,trn_freight_road,Truck (4.5-12t),1975,1
+CA,trn_pass,Cycle,1975,1
+CA,trn_pass,Domestic Aviation,1975,1
+CA,trn_pass,HSR,2015,0.001
+CA,trn_pass,Passenger Rail,1975,1
+CA,trn_pass,Walk,1975,1
+CA,trn_pass_road,Bus,1975,1
+CA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+CA,trn_pass_road_LDV_4W,Compact Car,1975,1
+CA,trn_pass_road_LDV_4W,Large Car,1975,1
+CA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+CA,trn_pass_road_LDV_4W,Midsize Car,1975,1
+CA,trn_shipping_intl,International Ship,1975,1
+CA,trn_pass,road,1975,1
+CA,trn_pass_road,LDV,1975,1
+CA,trn_pass_road_LDV,4W,1975,1
+CA,trn_pass_road_LDV,2W,1975,1
+CA,trn_freight,road,1975,1
+CO,trn_aviation_intl,International Aviation,1975,1
+CO,trn_freight,Domestic Ship,1975,1
+CO,trn_freight,Freight Rail,1975,1
+CO,trn_freight_road,Truck (>12t),1975,1
+CO,trn_freight_road,Truck (0-2.7t),1975,1
+CO,trn_freight_road,Truck (2.7-4.5t),1975,1
+CO,trn_freight_road,Truck (4.5-12t),1975,1
+CO,trn_pass,Cycle,1975,1
+CO,trn_pass,Domestic Aviation,1975,1
+CO,trn_pass,HSR,2015,0.001
+CO,trn_pass,Passenger Rail,1975,1
+CO,trn_pass,Walk,1975,1
+CO,trn_pass_road,Bus,1975,1
+CO,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+CO,trn_pass_road_LDV_4W,Compact Car,1975,1
+CO,trn_pass_road_LDV_4W,Large Car,1975,1
+CO,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+CO,trn_pass_road_LDV_4W,Midsize Car,1975,1
+CO,trn_shipping_intl,International Ship,1975,1
+CO,trn_pass,road,1975,1
+CO,trn_pass_road,LDV,1975,1
+CO,trn_pass_road_LDV,4W,1975,1
+CO,trn_pass_road_LDV,2W,1975,1
+CO,trn_freight,road,1975,1
+CT,trn_aviation_intl,International Aviation,1975,1
+CT,trn_freight,Domestic Ship,1975,1
+CT,trn_freight,Freight Rail,1975,1
+CT,trn_freight_road,Truck (>12t),1975,1
+CT,trn_freight_road,Truck (0-2.7t),1975,1
+CT,trn_freight_road,Truck (2.7-4.5t),1975,1
+CT,trn_freight_road,Truck (4.5-12t),1975,1
+CT,trn_pass,Cycle,1975,1
+CT,trn_pass,Domestic Aviation,1975,1
+CT,trn_pass,HSR,2015,0.001
+CT,trn_pass,Passenger Rail,1975,1
+CT,trn_pass,Walk,1975,1
+CT,trn_pass_road,Bus,1975,1
+CT,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+CT,trn_pass_road_LDV_4W,Compact Car,1975,1
+CT,trn_pass_road_LDV_4W,Large Car,1975,1
+CT,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+CT,trn_pass_road_LDV_4W,Midsize Car,1975,1
+CT,trn_shipping_intl,International Ship,1975,1
+CT,trn_pass,road,1975,1
+CT,trn_pass_road,LDV,1975,1
+CT,trn_pass_road_LDV,4W,1975,1
+CT,trn_pass_road_LDV,2W,1975,1
+CT,trn_freight,road,1975,1
+DC,trn_aviation_intl,International Aviation,1975,1
+DC,trn_freight,Domestic Ship,1975,1
+DC,trn_freight,Freight Rail,1975,1
+DC,trn_freight_road,Truck (>12t),1975,1
+DC,trn_freight_road,Truck (0-2.7t),1975,1
+DC,trn_freight_road,Truck (2.7-4.5t),1975,1
+DC,trn_freight_road,Truck (4.5-12t),1975,1
+DC,trn_pass,Cycle,1975,1
+DC,trn_pass,Domestic Aviation,1975,1
+DC,trn_pass,HSR,2015,0.001
+DC,trn_pass,Passenger Rail,1975,1
+DC,trn_pass,Walk,1975,1
+DC,trn_pass_road,Bus,1975,1
+DC,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+DC,trn_pass_road_LDV_4W,Compact Car,1975,1
+DC,trn_pass_road_LDV_4W,Large Car,1975,1
+DC,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+DC,trn_pass_road_LDV_4W,Midsize Car,1975,1
+DC,trn_shipping_intl,International Ship,1975,1
+DC,trn_pass,road,1975,1
+DC,trn_pass_road,LDV,1975,1
+DC,trn_pass_road_LDV,4W,1975,1
+DC,trn_pass_road_LDV,2W,1975,1
+DC,trn_freight,road,1975,1
+DE,trn_aviation_intl,International Aviation,1975,1
+DE,trn_freight,Domestic Ship,1975,1
+DE,trn_freight,Freight Rail,1975,1
+DE,trn_freight_road,Truck (>12t),1975,1
+DE,trn_freight_road,Truck (0-2.7t),1975,1
+DE,trn_freight_road,Truck (2.7-4.5t),1975,1
+DE,trn_freight_road,Truck (4.5-12t),1975,1
+DE,trn_pass,Cycle,1975,1
+DE,trn_pass,Domestic Aviation,1975,1
+DE,trn_pass,HSR,2015,0.001
+DE,trn_pass,Passenger Rail,1975,1
+DE,trn_pass,Walk,1975,1
+DE,trn_pass_road,Bus,1975,1
+DE,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+DE,trn_pass_road_LDV_4W,Compact Car,1975,1
+DE,trn_pass_road_LDV_4W,Large Car,1975,1
+DE,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+DE,trn_pass_road_LDV_4W,Midsize Car,1975,1
+DE,trn_shipping_intl,International Ship,1975,1
+DE,trn_pass,road,1975,1
+DE,trn_pass_road,LDV,1975,1
+DE,trn_pass_road_LDV,4W,1975,1
+DE,trn_pass_road_LDV,2W,1975,1
+DE,trn_freight,road,1975,1
+FL,trn_aviation_intl,International Aviation,1975,1
+FL,trn_freight,Domestic Ship,1975,1
+FL,trn_freight,Freight Rail,1975,1
+FL,trn_freight_road,Truck (>12t),1975,1
+FL,trn_freight_road,Truck (0-2.7t),1975,1
+FL,trn_freight_road,Truck (2.7-4.5t),1975,1
+FL,trn_freight_road,Truck (4.5-12t),1975,1
+FL,trn_pass,Cycle,1975,1
+FL,trn_pass,Domestic Aviation,1975,1
+FL,trn_pass,HSR,2015,0.001
+FL,trn_pass,Passenger Rail,1975,1
+FL,trn_pass,Walk,1975,1
+FL,trn_pass_road,Bus,1975,1
+FL,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+FL,trn_pass_road_LDV_4W,Compact Car,1975,1
+FL,trn_pass_road_LDV_4W,Large Car,1975,1
+FL,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+FL,trn_pass_road_LDV_4W,Midsize Car,1975,1
+FL,trn_shipping_intl,International Ship,1975,1
+FL,trn_pass,road,1975,1
+FL,trn_pass_road,LDV,1975,1
+FL,trn_pass_road_LDV,4W,1975,1
+FL,trn_pass_road_LDV,2W,1975,1
+FL,trn_freight,road,1975,1
+GA,trn_aviation_intl,International Aviation,1975,1
+GA,trn_freight,Domestic Ship,1975,1
+GA,trn_freight,Freight Rail,1975,1
+GA,trn_freight_road,Truck (>12t),1975,1
+GA,trn_freight_road,Truck (0-2.7t),1975,1
+GA,trn_freight_road,Truck (2.7-4.5t),1975,1
+GA,trn_freight_road,Truck (4.5-12t),1975,1
+GA,trn_pass,Cycle,1975,1
+GA,trn_pass,Domestic Aviation,1975,1
+GA,trn_pass,HSR,2015,0.001
+GA,trn_pass,Passenger Rail,1975,1
+GA,trn_pass,Walk,1975,1
+GA,trn_pass_road,Bus,1975,1
+GA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+GA,trn_pass_road_LDV_4W,Compact Car,1975,1
+GA,trn_pass_road_LDV_4W,Large Car,1975,1
+GA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+GA,trn_pass_road_LDV_4W,Midsize Car,1975,1
+GA,trn_shipping_intl,International Ship,1975,1
+GA,trn_pass,road,1975,1
+GA,trn_pass_road,LDV,1975,1
+GA,trn_pass_road_LDV,4W,1975,1
+GA,trn_pass_road_LDV,2W,1975,1
+GA,trn_freight,road,1975,1
+HI,trn_aviation_intl,International Aviation,1975,1
+HI,trn_freight,Domestic Ship,1975,1
+HI,trn_freight,Freight Rail,1975,1
+HI,trn_freight_road,Truck (>12t),1975,1
+HI,trn_freight_road,Truck (0-2.7t),1975,1
+HI,trn_freight_road,Truck (2.7-4.5t),1975,1
+HI,trn_freight_road,Truck (4.5-12t),1975,1
+HI,trn_pass,Cycle,1975,1
+HI,trn_pass,Domestic Aviation,1975,1
+HI,trn_pass,HSR,2015,0.001
+HI,trn_pass,Passenger Rail,1975,1
+HI,trn_pass,Walk,1975,1
+HI,trn_pass_road,Bus,1975,1
+HI,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+HI,trn_pass_road_LDV_4W,Compact Car,1975,1
+HI,trn_pass_road_LDV_4W,Large Car,1975,1
+HI,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+HI,trn_pass_road_LDV_4W,Midsize Car,1975,1
+HI,trn_shipping_intl,International Ship,1975,1
+HI,trn_pass,road,1975,1
+HI,trn_pass_road,LDV,1975,1
+HI,trn_pass_road_LDV,4W,1975,1
+HI,trn_pass_road_LDV,2W,1975,1
+HI,trn_freight,road,1975,1
+IA,trn_aviation_intl,International Aviation,1975,1
+IA,trn_freight,Domestic Ship,1975,1
+IA,trn_freight,Freight Rail,1975,1
+IA,trn_freight_road,Truck (>12t),1975,1
+IA,trn_freight_road,Truck (0-2.7t),1975,1
+IA,trn_freight_road,Truck (2.7-4.5t),1975,1
+IA,trn_freight_road,Truck (4.5-12t),1975,1
+IA,trn_pass,Cycle,1975,1
+IA,trn_pass,Domestic Aviation,1975,1
+IA,trn_pass,HSR,2015,0.001
+IA,trn_pass,Passenger Rail,1975,1
+IA,trn_pass,Walk,1975,1
+IA,trn_pass_road,Bus,1975,1
+IA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+IA,trn_pass_road_LDV_4W,Compact Car,1975,1
+IA,trn_pass_road_LDV_4W,Large Car,1975,1
+IA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+IA,trn_pass_road_LDV_4W,Midsize Car,1975,1
+IA,trn_shipping_intl,International Ship,1975,1
+IA,trn_pass,road,1975,1
+IA,trn_pass_road,LDV,1975,1
+IA,trn_pass_road_LDV,4W,1975,1
+IA,trn_pass_road_LDV,2W,1975,1
+IA,trn_freight,road,1975,1
+ID,trn_aviation_intl,International Aviation,1975,1
+ID,trn_freight,Domestic Ship,1975,1
+ID,trn_freight,Freight Rail,1975,1
+ID,trn_freight_road,Truck (>12t),1975,1
+ID,trn_freight_road,Truck (0-2.7t),1975,1
+ID,trn_freight_road,Truck (2.7-4.5t),1975,1
+ID,trn_freight_road,Truck (4.5-12t),1975,1
+ID,trn_pass,Cycle,1975,1
+ID,trn_pass,Domestic Aviation,1975,1
+ID,trn_pass,HSR,2015,0.001
+ID,trn_pass,Passenger Rail,1975,1
+ID,trn_pass,Walk,1975,1
+ID,trn_pass_road,Bus,1975,1
+ID,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+ID,trn_pass_road_LDV_4W,Compact Car,1975,1
+ID,trn_pass_road_LDV_4W,Large Car,1975,1
+ID,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+ID,trn_pass_road_LDV_4W,Midsize Car,1975,1
+ID,trn_shipping_intl,International Ship,1975,1
+ID,trn_pass,road,1975,1
+ID,trn_pass_road,LDV,1975,1
+ID,trn_pass_road_LDV,4W,1975,1
+ID,trn_pass_road_LDV,2W,1975,1
+ID,trn_freight,road,1975,1
+IL,trn_aviation_intl,International Aviation,1975,1
+IL,trn_freight,Domestic Ship,1975,1
+IL,trn_freight,Freight Rail,1975,1
+IL,trn_freight_road,Truck (>12t),1975,1
+IL,trn_freight_road,Truck (0-2.7t),1975,1
+IL,trn_freight_road,Truck (2.7-4.5t),1975,1
+IL,trn_freight_road,Truck (4.5-12t),1975,1
+IL,trn_pass,Cycle,1975,1
+IL,trn_pass,Domestic Aviation,1975,1
+IL,trn_pass,HSR,2015,0.001
+IL,trn_pass,Passenger Rail,1975,1
+IL,trn_pass,Walk,1975,1
+IL,trn_pass_road,Bus,1975,1
+IL,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+IL,trn_pass_road_LDV_4W,Compact Car,1975,1
+IL,trn_pass_road_LDV_4W,Large Car,1975,1
+IL,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+IL,trn_pass_road_LDV_4W,Midsize Car,1975,1
+IL,trn_shipping_intl,International Ship,1975,1
+IL,trn_pass,road,1975,1
+IL,trn_pass_road,LDV,1975,1
+IL,trn_pass_road_LDV,4W,1975,1
+IL,trn_pass_road_LDV,2W,1975,1
+IL,trn_freight,road,1975,1
+IN,trn_aviation_intl,International Aviation,1975,1
+IN,trn_freight,Domestic Ship,1975,1
+IN,trn_freight,Freight Rail,1975,1
+IN,trn_freight_road,Truck (>12t),1975,1
+IN,trn_freight_road,Truck (0-2.7t),1975,1
+IN,trn_freight_road,Truck (2.7-4.5t),1975,1
+IN,trn_freight_road,Truck (4.5-12t),1975,1
+IN,trn_pass,Cycle,1975,1
+IN,trn_pass,Domestic Aviation,1975,1
+IN,trn_pass,HSR,2015,0.001
+IN,trn_pass,Passenger Rail,1975,1
+IN,trn_pass,Walk,1975,1
+IN,trn_pass_road,Bus,1975,1
+IN,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+IN,trn_pass_road_LDV_4W,Compact Car,1975,1
+IN,trn_pass_road_LDV_4W,Large Car,1975,1
+IN,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+IN,trn_pass_road_LDV_4W,Midsize Car,1975,1
+IN,trn_shipping_intl,International Ship,1975,1
+IN,trn_pass,road,1975,1
+IN,trn_pass_road,LDV,1975,1
+IN,trn_pass_road_LDV,4W,1975,1
+IN,trn_pass_road_LDV,2W,1975,1
+IN,trn_freight,road,1975,1
+KS,trn_aviation_intl,International Aviation,1975,1
+KS,trn_freight,Domestic Ship,1975,1
+KS,trn_freight,Freight Rail,1975,1
+KS,trn_freight_road,Truck (>12t),1975,1
+KS,trn_freight_road,Truck (0-2.7t),1975,1
+KS,trn_freight_road,Truck (2.7-4.5t),1975,1
+KS,trn_freight_road,Truck (4.5-12t),1975,1
+KS,trn_pass,Cycle,1975,1
+KS,trn_pass,Domestic Aviation,1975,1
+KS,trn_pass,HSR,2015,0.001
+KS,trn_pass,Passenger Rail,1975,1
+KS,trn_pass,Walk,1975,1
+KS,trn_pass_road,Bus,1975,1
+KS,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+KS,trn_pass_road_LDV_4W,Compact Car,1975,1
+KS,trn_pass_road_LDV_4W,Large Car,1975,1
+KS,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+KS,trn_pass_road_LDV_4W,Midsize Car,1975,1
+KS,trn_shipping_intl,International Ship,1975,1
+KS,trn_pass,road,1975,1
+KS,trn_pass_road,LDV,1975,1
+KS,trn_pass_road_LDV,4W,1975,1
+KS,trn_pass_road_LDV,2W,1975,1
+KS,trn_freight,road,1975,1
+KY,trn_aviation_intl,International Aviation,1975,1
+KY,trn_freight,Domestic Ship,1975,1
+KY,trn_freight,Freight Rail,1975,1
+KY,trn_freight_road,Truck (>12t),1975,1
+KY,trn_freight_road,Truck (0-2.7t),1975,1
+KY,trn_freight_road,Truck (2.7-4.5t),1975,1
+KY,trn_freight_road,Truck (4.5-12t),1975,1
+KY,trn_pass,Cycle,1975,1
+KY,trn_pass,Domestic Aviation,1975,1
+KY,trn_pass,HSR,2015,0.001
+KY,trn_pass,Passenger Rail,1975,1
+KY,trn_pass,Walk,1975,1
+KY,trn_pass_road,Bus,1975,1
+KY,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+KY,trn_pass_road_LDV_4W,Compact Car,1975,1
+KY,trn_pass_road_LDV_4W,Large Car,1975,1
+KY,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+KY,trn_pass_road_LDV_4W,Midsize Car,1975,1
+KY,trn_shipping_intl,International Ship,1975,1
+KY,trn_pass,road,1975,1
+KY,trn_pass_road,LDV,1975,1
+KY,trn_pass_road_LDV,4W,1975,1
+KY,trn_pass_road_LDV,2W,1975,1
+KY,trn_freight,road,1975,1
+LA,trn_aviation_intl,International Aviation,1975,1
+LA,trn_freight,Domestic Ship,1975,1
+LA,trn_freight,Freight Rail,1975,1
+LA,trn_freight_road,Truck (>12t),1975,1
+LA,trn_freight_road,Truck (0-2.7t),1975,1
+LA,trn_freight_road,Truck (2.7-4.5t),1975,1
+LA,trn_freight_road,Truck (4.5-12t),1975,1
+LA,trn_pass,Cycle,1975,1
+LA,trn_pass,Domestic Aviation,1975,1
+LA,trn_pass,HSR,2015,0.001
+LA,trn_pass,Passenger Rail,1975,1
+LA,trn_pass,Walk,1975,1
+LA,trn_pass_road,Bus,1975,1
+LA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+LA,trn_pass_road_LDV_4W,Compact Car,1975,1
+LA,trn_pass_road_LDV_4W,Large Car,1975,1
+LA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+LA,trn_pass_road_LDV_4W,Midsize Car,1975,1
+LA,trn_shipping_intl,International Ship,1975,1
+LA,trn_pass,road,1975,1
+LA,trn_pass_road,LDV,1975,1
+LA,trn_pass_road_LDV,4W,1975,1
+LA,trn_pass_road_LDV,2W,1975,1
+LA,trn_freight,road,1975,1
+MA,trn_aviation_intl,International Aviation,1975,1
+MA,trn_freight,Domestic Ship,1975,1
+MA,trn_freight,Freight Rail,1975,1
+MA,trn_freight_road,Truck (>12t),1975,1
+MA,trn_freight_road,Truck (0-2.7t),1975,1
+MA,trn_freight_road,Truck (2.7-4.5t),1975,1
+MA,trn_freight_road,Truck (4.5-12t),1975,1
+MA,trn_pass,Cycle,1975,1
+MA,trn_pass,Domestic Aviation,1975,1
+MA,trn_pass,HSR,2015,0.001
+MA,trn_pass,Passenger Rail,1975,1
+MA,trn_pass,Walk,1975,1
+MA,trn_pass_road,Bus,1975,1
+MA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+MA,trn_pass_road_LDV_4W,Compact Car,1975,1
+MA,trn_pass_road_LDV_4W,Large Car,1975,1
+MA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+MA,trn_pass_road_LDV_4W,Midsize Car,1975,1
+MA,trn_shipping_intl,International Ship,1975,1
+MA,trn_pass,road,1975,1
+MA,trn_pass_road,LDV,1975,1
+MA,trn_pass_road_LDV,4W,1975,1
+MA,trn_pass_road_LDV,2W,1975,1
+MA,trn_freight,road,1975,1
+MD,trn_aviation_intl,International Aviation,1975,1
+MD,trn_freight,Domestic Ship,1975,1
+MD,trn_freight,Freight Rail,1975,1
+MD,trn_freight_road,Truck (>12t),1975,1
+MD,trn_freight_road,Truck (0-2.7t),1975,1
+MD,trn_freight_road,Truck (2.7-4.5t),1975,1
+MD,trn_freight_road,Truck (4.5-12t),1975,1
+MD,trn_pass,Cycle,1975,1
+MD,trn_pass,Domestic Aviation,1975,1
+MD,trn_pass,HSR,2015,0.001
+MD,trn_pass,Passenger Rail,1975,1
+MD,trn_pass,Walk,1975,1
+MD,trn_pass_road,Bus,1975,1
+MD,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+MD,trn_pass_road_LDV_4W,Compact Car,1975,1
+MD,trn_pass_road_LDV_4W,Large Car,1975,1
+MD,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+MD,trn_pass_road_LDV_4W,Midsize Car,1975,1
+MD,trn_shipping_intl,International Ship,1975,1
+MD,trn_pass,road,1975,1
+MD,trn_pass_road,LDV,1975,1
+MD,trn_pass_road_LDV,4W,1975,1
+MD,trn_pass_road_LDV,2W,1975,1
+MD,trn_freight,road,1975,1
+ME,trn_aviation_intl,International Aviation,1975,1
+ME,trn_freight,Domestic Ship,1975,1
+ME,trn_freight,Freight Rail,1975,1
+ME,trn_freight_road,Truck (>12t),1975,1
+ME,trn_freight_road,Truck (0-2.7t),1975,1
+ME,trn_freight_road,Truck (2.7-4.5t),1975,1
+ME,trn_freight_road,Truck (4.5-12t),1975,1
+ME,trn_pass,Cycle,1975,1
+ME,trn_pass,Domestic Aviation,1975,1
+ME,trn_pass,HSR,2015,0.001
+ME,trn_pass,Passenger Rail,1975,1
+ME,trn_pass,Walk,1975,1
+ME,trn_pass_road,Bus,1975,1
+ME,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+ME,trn_pass_road_LDV_4W,Compact Car,1975,1
+ME,trn_pass_road_LDV_4W,Large Car,1975,1
+ME,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+ME,trn_pass_road_LDV_4W,Midsize Car,1975,1
+ME,trn_shipping_intl,International Ship,1975,1
+ME,trn_pass,road,1975,1
+ME,trn_pass_road,LDV,1975,1
+ME,trn_pass_road_LDV,4W,1975,1
+ME,trn_pass_road_LDV,2W,1975,1
+ME,trn_freight,road,1975,1
+MI,trn_aviation_intl,International Aviation,1975,1
+MI,trn_freight,Domestic Ship,1975,1
+MI,trn_freight,Freight Rail,1975,1
+MI,trn_freight_road,Truck (>12t),1975,1
+MI,trn_freight_road,Truck (0-2.7t),1975,1
+MI,trn_freight_road,Truck (2.7-4.5t),1975,1
+MI,trn_freight_road,Truck (4.5-12t),1975,1
+MI,trn_pass,Cycle,1975,1
+MI,trn_pass,Domestic Aviation,1975,1
+MI,trn_pass,HSR,2015,0.001
+MI,trn_pass,Passenger Rail,1975,1
+MI,trn_pass,Walk,1975,1
+MI,trn_pass_road,Bus,1975,1
+MI,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+MI,trn_pass_road_LDV_4W,Compact Car,1975,1
+MI,trn_pass_road_LDV_4W,Large Car,1975,1
+MI,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+MI,trn_pass_road_LDV_4W,Midsize Car,1975,1
+MI,trn_shipping_intl,International Ship,1975,1
+MI,trn_pass,road,1975,1
+MI,trn_pass_road,LDV,1975,1
+MI,trn_pass_road_LDV,4W,1975,1
+MI,trn_pass_road_LDV,2W,1975,1
+MI,trn_freight,road,1975,1
+MN,trn_aviation_intl,International Aviation,1975,1
+MN,trn_freight,Domestic Ship,1975,1
+MN,trn_freight,Freight Rail,1975,1
+MN,trn_freight_road,Truck (>12t),1975,1
+MN,trn_freight_road,Truck (0-2.7t),1975,1
+MN,trn_freight_road,Truck (2.7-4.5t),1975,1
+MN,trn_freight_road,Truck (4.5-12t),1975,1
+MN,trn_pass,Cycle,1975,1
+MN,trn_pass,Domestic Aviation,1975,1
+MN,trn_pass,HSR,2015,0.001
+MN,trn_pass,Passenger Rail,1975,1
+MN,trn_pass,Walk,1975,1
+MN,trn_pass_road,Bus,1975,1
+MN,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+MN,trn_pass_road_LDV_4W,Compact Car,1975,1
+MN,trn_pass_road_LDV_4W,Large Car,1975,1
+MN,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+MN,trn_pass_road_LDV_4W,Midsize Car,1975,1
+MN,trn_shipping_intl,International Ship,1975,1
+MN,trn_pass,road,1975,1
+MN,trn_pass_road,LDV,1975,1
+MN,trn_pass_road_LDV,4W,1975,1
+MN,trn_pass_road_LDV,2W,1975,1
+MN,trn_freight,road,1975,1
+MO,trn_aviation_intl,International Aviation,1975,1
+MO,trn_freight,Domestic Ship,1975,1
+MO,trn_freight,Freight Rail,1975,1
+MO,trn_freight_road,Truck (>12t),1975,1
+MO,trn_freight_road,Truck (0-2.7t),1975,1
+MO,trn_freight_road,Truck (2.7-4.5t),1975,1
+MO,trn_freight_road,Truck (4.5-12t),1975,1
+MO,trn_pass,Cycle,1975,1
+MO,trn_pass,Domestic Aviation,1975,1
+MO,trn_pass,HSR,2015,0.001
+MO,trn_pass,Passenger Rail,1975,1
+MO,trn_pass,Walk,1975,1
+MO,trn_pass_road,Bus,1975,1
+MO,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+MO,trn_pass_road_LDV_4W,Compact Car,1975,1
+MO,trn_pass_road_LDV_4W,Large Car,1975,1
+MO,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+MO,trn_pass_road_LDV_4W,Midsize Car,1975,1
+MO,trn_shipping_intl,International Ship,1975,1
+MO,trn_pass,road,1975,1
+MO,trn_pass_road,LDV,1975,1
+MO,trn_pass_road_LDV,4W,1975,1
+MO,trn_pass_road_LDV,2W,1975,1
+MO,trn_freight,road,1975,1
+MS,trn_aviation_intl,International Aviation,1975,1
+MS,trn_freight,Domestic Ship,1975,1
+MS,trn_freight,Freight Rail,1975,1
+MS,trn_freight_road,Truck (>12t),1975,1
+MS,trn_freight_road,Truck (0-2.7t),1975,1
+MS,trn_freight_road,Truck (2.7-4.5t),1975,1
+MS,trn_freight_road,Truck (4.5-12t),1975,1
+MS,trn_pass,Cycle,1975,1
+MS,trn_pass,Domestic Aviation,1975,1
+MS,trn_pass,HSR,2015,0.001
+MS,trn_pass,Passenger Rail,1975,1
+MS,trn_pass,Walk,1975,1
+MS,trn_pass_road,Bus,1975,1
+MS,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+MS,trn_pass_road_LDV_4W,Compact Car,1975,1
+MS,trn_pass_road_LDV_4W,Large Car,1975,1
+MS,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+MS,trn_pass_road_LDV_4W,Midsize Car,1975,1
+MS,trn_shipping_intl,International Ship,1975,1
+MS,trn_pass,road,1975,1
+MS,trn_pass_road,LDV,1975,1
+MS,trn_pass_road_LDV,4W,1975,1
+MS,trn_pass_road_LDV,2W,1975,1
+MS,trn_freight,road,1975,1
+MT,trn_aviation_intl,International Aviation,1975,1
+MT,trn_freight,Domestic Ship,1975,1
+MT,trn_freight,Freight Rail,1975,1
+MT,trn_freight_road,Truck (>12t),1975,1
+MT,trn_freight_road,Truck (0-2.7t),1975,1
+MT,trn_freight_road,Truck (2.7-4.5t),1975,1
+MT,trn_freight_road,Truck (4.5-12t),1975,1
+MT,trn_pass,Cycle,1975,1
+MT,trn_pass,Domestic Aviation,1975,1
+MT,trn_pass,HSR,2015,0.001
+MT,trn_pass,Passenger Rail,1975,1
+MT,trn_pass,Walk,1975,1
+MT,trn_pass_road,Bus,1975,1
+MT,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+MT,trn_pass_road_LDV_4W,Compact Car,1975,1
+MT,trn_pass_road_LDV_4W,Large Car,1975,1
+MT,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+MT,trn_pass_road_LDV_4W,Midsize Car,1975,1
+MT,trn_shipping_intl,International Ship,1975,1
+MT,trn_pass,road,1975,1
+MT,trn_pass_road,LDV,1975,1
+MT,trn_pass_road_LDV,4W,1975,1
+MT,trn_pass_road_LDV,2W,1975,1
+MT,trn_freight,road,1975,1
+NC,trn_aviation_intl,International Aviation,1975,1
+NC,trn_freight,Domestic Ship,1975,1
+NC,trn_freight,Freight Rail,1975,1
+NC,trn_freight_road,Truck (>12t),1975,1
+NC,trn_freight_road,Truck (0-2.7t),1975,1
+NC,trn_freight_road,Truck (2.7-4.5t),1975,1
+NC,trn_freight_road,Truck (4.5-12t),1975,1
+NC,trn_pass,Cycle,1975,1
+NC,trn_pass,Domestic Aviation,1975,1
+NC,trn_pass,HSR,2015,0.001
+NC,trn_pass,Passenger Rail,1975,1
+NC,trn_pass,Walk,1975,1
+NC,trn_pass_road,Bus,1975,1
+NC,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+NC,trn_pass_road_LDV_4W,Compact Car,1975,1
+NC,trn_pass_road_LDV_4W,Large Car,1975,1
+NC,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+NC,trn_pass_road_LDV_4W,Midsize Car,1975,1
+NC,trn_shipping_intl,International Ship,1975,1
+NC,trn_pass,road,1975,1
+NC,trn_pass_road,LDV,1975,1
+NC,trn_pass_road_LDV,4W,1975,1
+NC,trn_pass_road_LDV,2W,1975,1
+NC,trn_freight,road,1975,1
+ND,trn_aviation_intl,International Aviation,1975,1
+ND,trn_freight,Domestic Ship,1975,1
+ND,trn_freight,Freight Rail,1975,1
+ND,trn_freight_road,Truck (>12t),1975,1
+ND,trn_freight_road,Truck (0-2.7t),1975,1
+ND,trn_freight_road,Truck (2.7-4.5t),1975,1
+ND,trn_freight_road,Truck (4.5-12t),1975,1
+ND,trn_pass,Cycle,1975,1
+ND,trn_pass,Domestic Aviation,1975,1
+ND,trn_pass,HSR,2015,0.001
+ND,trn_pass,Passenger Rail,1975,1
+ND,trn_pass,Walk,1975,1
+ND,trn_pass_road,Bus,1975,1
+ND,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+ND,trn_pass_road_LDV_4W,Compact Car,1975,1
+ND,trn_pass_road_LDV_4W,Large Car,1975,1
+ND,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+ND,trn_pass_road_LDV_4W,Midsize Car,1975,1
+ND,trn_shipping_intl,International Ship,1975,1
+ND,trn_pass,road,1975,1
+ND,trn_pass_road,LDV,1975,1
+ND,trn_pass_road_LDV,4W,1975,1
+ND,trn_pass_road_LDV,2W,1975,1
+ND,trn_freight,road,1975,1
+NE,trn_aviation_intl,International Aviation,1975,1
+NE,trn_freight,Domestic Ship,1975,1
+NE,trn_freight,Freight Rail,1975,1
+NE,trn_freight_road,Truck (>12t),1975,1
+NE,trn_freight_road,Truck (0-2.7t),1975,1
+NE,trn_freight_road,Truck (2.7-4.5t),1975,1
+NE,trn_freight_road,Truck (4.5-12t),1975,1
+NE,trn_pass,Cycle,1975,1
+NE,trn_pass,Domestic Aviation,1975,1
+NE,trn_pass,HSR,2015,0.001
+NE,trn_pass,Passenger Rail,1975,1
+NE,trn_pass,Walk,1975,1
+NE,trn_pass_road,Bus,1975,1
+NE,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+NE,trn_pass_road_LDV_4W,Compact Car,1975,1
+NE,trn_pass_road_LDV_4W,Large Car,1975,1
+NE,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+NE,trn_pass_road_LDV_4W,Midsize Car,1975,1
+NE,trn_shipping_intl,International Ship,1975,1
+NE,trn_pass,road,1975,1
+NE,trn_pass_road,LDV,1975,1
+NE,trn_pass_road_LDV,4W,1975,1
+NE,trn_pass_road_LDV,2W,1975,1
+NE,trn_freight,road,1975,1
+NH,trn_aviation_intl,International Aviation,1975,1
+NH,trn_freight,Domestic Ship,1975,1
+NH,trn_freight,Freight Rail,1975,1
+NH,trn_freight_road,Truck (>12t),1975,1
+NH,trn_freight_road,Truck (0-2.7t),1975,1
+NH,trn_freight_road,Truck (2.7-4.5t),1975,1
+NH,trn_freight_road,Truck (4.5-12t),1975,1
+NH,trn_pass,Cycle,1975,1
+NH,trn_pass,Domestic Aviation,1975,1
+NH,trn_pass,HSR,2015,0.001
+NH,trn_pass,Passenger Rail,1975,1
+NH,trn_pass,Walk,1975,1
+NH,trn_pass_road,Bus,1975,1
+NH,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+NH,trn_pass_road_LDV_4W,Compact Car,1975,1
+NH,trn_pass_road_LDV_4W,Large Car,1975,1
+NH,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+NH,trn_pass_road_LDV_4W,Midsize Car,1975,1
+NH,trn_shipping_intl,International Ship,1975,1
+NH,trn_pass,road,1975,1
+NH,trn_pass_road,LDV,1975,1
+NH,trn_pass_road_LDV,4W,1975,1
+NH,trn_pass_road_LDV,2W,1975,1
+NH,trn_freight,road,1975,1
+NJ,trn_aviation_intl,International Aviation,1975,1
+NJ,trn_freight,Domestic Ship,1975,1
+NJ,trn_freight,Freight Rail,1975,1
+NJ,trn_freight_road,Truck (>12t),1975,1
+NJ,trn_freight_road,Truck (0-2.7t),1975,1
+NJ,trn_freight_road,Truck (2.7-4.5t),1975,1
+NJ,trn_freight_road,Truck (4.5-12t),1975,1
+NJ,trn_pass,Cycle,1975,1
+NJ,trn_pass,Domestic Aviation,1975,1
+NJ,trn_pass,HSR,2015,0.001
+NJ,trn_pass,Passenger Rail,1975,1
+NJ,trn_pass,Walk,1975,1
+NJ,trn_pass_road,Bus,1975,1
+NJ,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+NJ,trn_pass_road_LDV_4W,Compact Car,1975,1
+NJ,trn_pass_road_LDV_4W,Large Car,1975,1
+NJ,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+NJ,trn_pass_road_LDV_4W,Midsize Car,1975,1
+NJ,trn_shipping_intl,International Ship,1975,1
+NJ,trn_pass,road,1975,1
+NJ,trn_pass_road,LDV,1975,1
+NJ,trn_pass_road_LDV,4W,1975,1
+NJ,trn_pass_road_LDV,2W,1975,1
+NJ,trn_freight,road,1975,1
+NM,trn_aviation_intl,International Aviation,1975,1
+NM,trn_freight,Domestic Ship,1975,1
+NM,trn_freight,Freight Rail,1975,1
+NM,trn_freight_road,Truck (>12t),1975,1
+NM,trn_freight_road,Truck (0-2.7t),1975,1
+NM,trn_freight_road,Truck (2.7-4.5t),1975,1
+NM,trn_freight_road,Truck (4.5-12t),1975,1
+NM,trn_pass,Cycle,1975,1
+NM,trn_pass,Domestic Aviation,1975,1
+NM,trn_pass,HSR,2015,0.001
+NM,trn_pass,Passenger Rail,1975,1
+NM,trn_pass,Walk,1975,1
+NM,trn_pass_road,Bus,1975,1
+NM,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+NM,trn_pass_road_LDV_4W,Compact Car,1975,1
+NM,trn_pass_road_LDV_4W,Large Car,1975,1
+NM,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+NM,trn_pass_road_LDV_4W,Midsize Car,1975,1
+NM,trn_shipping_intl,International Ship,1975,1
+NM,trn_pass,road,1975,1
+NM,trn_pass_road,LDV,1975,1
+NM,trn_pass_road_LDV,4W,1975,1
+NM,trn_pass_road_LDV,2W,1975,1
+NM,trn_freight,road,1975,1
+NV,trn_aviation_intl,International Aviation,1975,1
+NV,trn_freight,Domestic Ship,1975,1
+NV,trn_freight,Freight Rail,1975,1
+NV,trn_freight_road,Truck (>12t),1975,1
+NV,trn_freight_road,Truck (0-2.7t),1975,1
+NV,trn_freight_road,Truck (2.7-4.5t),1975,1
+NV,trn_freight_road,Truck (4.5-12t),1975,1
+NV,trn_pass,Cycle,1975,1
+NV,trn_pass,Domestic Aviation,1975,1
+NV,trn_pass,HSR,2015,0.001
+NV,trn_pass,Passenger Rail,1975,1
+NV,trn_pass,Walk,1975,1
+NV,trn_pass_road,Bus,1975,1
+NV,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+NV,trn_pass_road_LDV_4W,Compact Car,1975,1
+NV,trn_pass_road_LDV_4W,Large Car,1975,1
+NV,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+NV,trn_pass_road_LDV_4W,Midsize Car,1975,1
+NV,trn_shipping_intl,International Ship,1975,1
+NV,trn_pass,road,1975,1
+NV,trn_pass_road,LDV,1975,1
+NV,trn_pass_road_LDV,4W,1975,1
+NV,trn_pass_road_LDV,2W,1975,1
+NV,trn_freight,road,1975,1
+NY,trn_aviation_intl,International Aviation,1975,1
+NY,trn_freight,Domestic Ship,1975,1
+NY,trn_freight,Freight Rail,1975,1
+NY,trn_freight_road,Truck (>12t),1975,1
+NY,trn_freight_road,Truck (0-2.7t),1975,1
+NY,trn_freight_road,Truck (2.7-4.5t),1975,1
+NY,trn_freight_road,Truck (4.5-12t),1975,1
+NY,trn_pass,Cycle,1975,1
+NY,trn_pass,Domestic Aviation,1975,1
+NY,trn_pass,HSR,2015,0.001
+NY,trn_pass,Passenger Rail,1975,1
+NY,trn_pass,Walk,1975,1
+NY,trn_pass_road,Bus,1975,1
+NY,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+NY,trn_pass_road_LDV_4W,Compact Car,1975,1
+NY,trn_pass_road_LDV_4W,Large Car,1975,1
+NY,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+NY,trn_pass_road_LDV_4W,Midsize Car,1975,1
+NY,trn_shipping_intl,International Ship,1975,1
+NY,trn_pass,road,1975,1
+NY,trn_pass_road,LDV,1975,1
+NY,trn_pass_road_LDV,4W,1975,1
+NY,trn_pass_road_LDV,2W,1975,1
+NY,trn_freight,road,1975,1
+OH,trn_aviation_intl,International Aviation,1975,1
+OH,trn_freight,Domestic Ship,1975,1
+OH,trn_freight,Freight Rail,1975,1
+OH,trn_freight_road,Truck (>12t),1975,1
+OH,trn_freight_road,Truck (0-2.7t),1975,1
+OH,trn_freight_road,Truck (2.7-4.5t),1975,1
+OH,trn_freight_road,Truck (4.5-12t),1975,1
+OH,trn_pass,Cycle,1975,1
+OH,trn_pass,Domestic Aviation,1975,1
+OH,trn_pass,HSR,2015,0.001
+OH,trn_pass,Passenger Rail,1975,1
+OH,trn_pass,Walk,1975,1
+OH,trn_pass_road,Bus,1975,1
+OH,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+OH,trn_pass_road_LDV_4W,Compact Car,1975,1
+OH,trn_pass_road_LDV_4W,Large Car,1975,1
+OH,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+OH,trn_pass_road_LDV_4W,Midsize Car,1975,1
+OH,trn_shipping_intl,International Ship,1975,1
+OH,trn_pass,road,1975,1
+OH,trn_pass_road,LDV,1975,1
+OH,trn_pass_road_LDV,4W,1975,1
+OH,trn_pass_road_LDV,2W,1975,1
+OH,trn_freight,road,1975,1
+OK,trn_aviation_intl,International Aviation,1975,1
+OK,trn_freight,Domestic Ship,1975,1
+OK,trn_freight,Freight Rail,1975,1
+OK,trn_freight_road,Truck (>12t),1975,1
+OK,trn_freight_road,Truck (0-2.7t),1975,1
+OK,trn_freight_road,Truck (2.7-4.5t),1975,1
+OK,trn_freight_road,Truck (4.5-12t),1975,1
+OK,trn_pass,Cycle,1975,1
+OK,trn_pass,Domestic Aviation,1975,1
+OK,trn_pass,HSR,2015,0.001
+OK,trn_pass,Passenger Rail,1975,1
+OK,trn_pass,Walk,1975,1
+OK,trn_pass_road,Bus,1975,1
+OK,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+OK,trn_pass_road_LDV_4W,Compact Car,1975,1
+OK,trn_pass_road_LDV_4W,Large Car,1975,1
+OK,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+OK,trn_pass_road_LDV_4W,Midsize Car,1975,1
+OK,trn_shipping_intl,International Ship,1975,1
+OK,trn_pass,road,1975,1
+OK,trn_pass_road,LDV,1975,1
+OK,trn_pass_road_LDV,4W,1975,1
+OK,trn_pass_road_LDV,2W,1975,1
+OK,trn_freight,road,1975,1
+OR,trn_aviation_intl,International Aviation,1975,1
+OR,trn_freight,Domestic Ship,1975,1
+OR,trn_freight,Freight Rail,1975,1
+OR,trn_freight_road,Truck (>12t),1975,1
+OR,trn_freight_road,Truck (0-2.7t),1975,1
+OR,trn_freight_road,Truck (2.7-4.5t),1975,1
+OR,trn_freight_road,Truck (4.5-12t),1975,1
+OR,trn_pass,Cycle,1975,1
+OR,trn_pass,Domestic Aviation,1975,1
+OR,trn_pass,HSR,2015,0.001
+OR,trn_pass,Passenger Rail,1975,1
+OR,trn_pass,Walk,1975,1
+OR,trn_pass_road,Bus,1975,1
+OR,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+OR,trn_pass_road_LDV_4W,Compact Car,1975,1
+OR,trn_pass_road_LDV_4W,Large Car,1975,1
+OR,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+OR,trn_pass_road_LDV_4W,Midsize Car,1975,1
+OR,trn_shipping_intl,International Ship,1975,1
+OR,trn_pass,road,1975,1
+OR,trn_pass_road,LDV,1975,1
+OR,trn_pass_road_LDV,4W,1975,1
+OR,trn_pass_road_LDV,2W,1975,1
+OR,trn_freight,road,1975,1
+PA,trn_aviation_intl,International Aviation,1975,1
+PA,trn_freight,Domestic Ship,1975,1
+PA,trn_freight,Freight Rail,1975,1
+PA,trn_freight_road,Truck (>12t),1975,1
+PA,trn_freight_road,Truck (0-2.7t),1975,1
+PA,trn_freight_road,Truck (2.7-4.5t),1975,1
+PA,trn_freight_road,Truck (4.5-12t),1975,1
+PA,trn_pass,Cycle,1975,1
+PA,trn_pass,Domestic Aviation,1975,1
+PA,trn_pass,HSR,2015,0.001
+PA,trn_pass,Passenger Rail,1975,1
+PA,trn_pass,Walk,1975,1
+PA,trn_pass_road,Bus,1975,1
+PA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+PA,trn_pass_road_LDV_4W,Compact Car,1975,1
+PA,trn_pass_road_LDV_4W,Large Car,1975,1
+PA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+PA,trn_pass_road_LDV_4W,Midsize Car,1975,1
+PA,trn_shipping_intl,International Ship,1975,1
+PA,trn_pass,road,1975,1
+PA,trn_pass_road,LDV,1975,1
+PA,trn_pass_road_LDV,4W,1975,1
+PA,trn_pass_road_LDV,2W,1975,1
+PA,trn_freight,road,1975,1
+RI,trn_aviation_intl,International Aviation,1975,1
+RI,trn_freight,Domestic Ship,1975,1
+RI,trn_freight,Freight Rail,1975,1
+RI,trn_freight_road,Truck (>12t),1975,1
+RI,trn_freight_road,Truck (0-2.7t),1975,1
+RI,trn_freight_road,Truck (2.7-4.5t),1975,1
+RI,trn_freight_road,Truck (4.5-12t),1975,1
+RI,trn_pass,Cycle,1975,1
+RI,trn_pass,Domestic Aviation,1975,1
+RI,trn_pass,HSR,2015,0.001
+RI,trn_pass,Passenger Rail,1975,1
+RI,trn_pass,Walk,1975,1
+RI,trn_pass_road,Bus,1975,1
+RI,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+RI,trn_pass_road_LDV_4W,Compact Car,1975,1
+RI,trn_pass_road_LDV_4W,Large Car,1975,1
+RI,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+RI,trn_pass_road_LDV_4W,Midsize Car,1975,1
+RI,trn_shipping_intl,International Ship,1975,1
+RI,trn_pass,road,1975,1
+RI,trn_pass_road,LDV,1975,1
+RI,trn_pass_road_LDV,4W,1975,1
+RI,trn_pass_road_LDV,2W,1975,1
+RI,trn_freight,road,1975,1
+SC,trn_aviation_intl,International Aviation,1975,1
+SC,trn_freight,Domestic Ship,1975,1
+SC,trn_freight,Freight Rail,1975,1
+SC,trn_freight_road,Truck (>12t),1975,1
+SC,trn_freight_road,Truck (0-2.7t),1975,1
+SC,trn_freight_road,Truck (2.7-4.5t),1975,1
+SC,trn_freight_road,Truck (4.5-12t),1975,1
+SC,trn_pass,Cycle,1975,1
+SC,trn_pass,Domestic Aviation,1975,1
+SC,trn_pass,HSR,2015,0.001
+SC,trn_pass,Passenger Rail,1975,1
+SC,trn_pass,Walk,1975,1
+SC,trn_pass_road,Bus,1975,1
+SC,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+SC,trn_pass_road_LDV_4W,Compact Car,1975,1
+SC,trn_pass_road_LDV_4W,Large Car,1975,1
+SC,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+SC,trn_pass_road_LDV_4W,Midsize Car,1975,1
+SC,trn_shipping_intl,International Ship,1975,1
+SC,trn_pass,road,1975,1
+SC,trn_pass_road,LDV,1975,1
+SC,trn_pass_road_LDV,4W,1975,1
+SC,trn_pass_road_LDV,2W,1975,1
+SC,trn_freight,road,1975,1
+SD,trn_aviation_intl,International Aviation,1975,1
+SD,trn_freight,Domestic Ship,1975,1
+SD,trn_freight,Freight Rail,1975,1
+SD,trn_freight_road,Truck (>12t),1975,1
+SD,trn_freight_road,Truck (0-2.7t),1975,1
+SD,trn_freight_road,Truck (2.7-4.5t),1975,1
+SD,trn_freight_road,Truck (4.5-12t),1975,1
+SD,trn_pass,Cycle,1975,1
+SD,trn_pass,Domestic Aviation,1975,1
+SD,trn_pass,HSR,2015,0.001
+SD,trn_pass,Passenger Rail,1975,1
+SD,trn_pass,Walk,1975,1
+SD,trn_pass_road,Bus,1975,1
+SD,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+SD,trn_pass_road_LDV_4W,Compact Car,1975,1
+SD,trn_pass_road_LDV_4W,Large Car,1975,1
+SD,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+SD,trn_pass_road_LDV_4W,Midsize Car,1975,1
+SD,trn_shipping_intl,International Ship,1975,1
+SD,trn_pass,road,1975,1
+SD,trn_pass_road,LDV,1975,1
+SD,trn_pass_road_LDV,4W,1975,1
+SD,trn_pass_road_LDV,2W,1975,1
+SD,trn_freight,road,1975,1
+TN,trn_aviation_intl,International Aviation,1975,1
+TN,trn_freight,Domestic Ship,1975,1
+TN,trn_freight,Freight Rail,1975,1
+TN,trn_freight_road,Truck (>12t),1975,1
+TN,trn_freight_road,Truck (0-2.7t),1975,1
+TN,trn_freight_road,Truck (2.7-4.5t),1975,1
+TN,trn_freight_road,Truck (4.5-12t),1975,1
+TN,trn_pass,Cycle,1975,1
+TN,trn_pass,Domestic Aviation,1975,1
+TN,trn_pass,HSR,2015,0.001
+TN,trn_pass,Passenger Rail,1975,1
+TN,trn_pass,Walk,1975,1
+TN,trn_pass_road,Bus,1975,1
+TN,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+TN,trn_pass_road_LDV_4W,Compact Car,1975,1
+TN,trn_pass_road_LDV_4W,Large Car,1975,1
+TN,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+TN,trn_pass_road_LDV_4W,Midsize Car,1975,1
+TN,trn_shipping_intl,International Ship,1975,1
+TN,trn_pass,road,1975,1
+TN,trn_pass_road,LDV,1975,1
+TN,trn_pass_road_LDV,4W,1975,1
+TN,trn_pass_road_LDV,2W,1975,1
+TN,trn_freight,road,1975,1
+TX,trn_aviation_intl,International Aviation,1975,1
+TX,trn_freight,Domestic Ship,1975,1
+TX,trn_freight,Freight Rail,1975,1
+TX,trn_freight_road,Truck (>12t),1975,1
+TX,trn_freight_road,Truck (0-2.7t),1975,1
+TX,trn_freight_road,Truck (2.7-4.5t),1975,1
+TX,trn_freight_road,Truck (4.5-12t),1975,1
+TX,trn_pass,Cycle,1975,1
+TX,trn_pass,Domestic Aviation,1975,1
+TX,trn_pass,HSR,2015,0.001
+TX,trn_pass,Passenger Rail,1975,1
+TX,trn_pass,Walk,1975,1
+TX,trn_pass_road,Bus,1975,1
+TX,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+TX,trn_pass_road_LDV_4W,Compact Car,1975,1
+TX,trn_pass_road_LDV_4W,Large Car,1975,1
+TX,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+TX,trn_pass_road_LDV_4W,Midsize Car,1975,1
+TX,trn_shipping_intl,International Ship,1975,1
+TX,trn_pass,road,1975,1
+TX,trn_pass_road,LDV,1975,1
+TX,trn_pass_road_LDV,4W,1975,1
+TX,trn_pass_road_LDV,2W,1975,1
+TX,trn_freight,road,1975,1
+UT,trn_aviation_intl,International Aviation,1975,1
+UT,trn_freight,Domestic Ship,1975,1
+UT,trn_freight,Freight Rail,1975,1
+UT,trn_freight_road,Truck (>12t),1975,1
+UT,trn_freight_road,Truck (0-2.7t),1975,1
+UT,trn_freight_road,Truck (2.7-4.5t),1975,1
+UT,trn_freight_road,Truck (4.5-12t),1975,1
+UT,trn_pass,Cycle,1975,1
+UT,trn_pass,Domestic Aviation,1975,1
+UT,trn_pass,HSR,2015,0.001
+UT,trn_pass,Passenger Rail,1975,1
+UT,trn_pass,Walk,1975,1
+UT,trn_pass_road,Bus,1975,1
+UT,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+UT,trn_pass_road_LDV_4W,Compact Car,1975,1
+UT,trn_pass_road_LDV_4W,Large Car,1975,1
+UT,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+UT,trn_pass_road_LDV_4W,Midsize Car,1975,1
+UT,trn_shipping_intl,International Ship,1975,1
+UT,trn_pass,road,1975,1
+UT,trn_pass_road,LDV,1975,1
+UT,trn_pass_road_LDV,4W,1975,1
+UT,trn_pass_road_LDV,2W,1975,1
+UT,trn_freight,road,1975,1
+VA,trn_aviation_intl,International Aviation,1975,1
+VA,trn_freight,Domestic Ship,1975,1
+VA,trn_freight,Freight Rail,1975,1
+VA,trn_freight_road,Truck (>12t),1975,1
+VA,trn_freight_road,Truck (0-2.7t),1975,1
+VA,trn_freight_road,Truck (2.7-4.5t),1975,1
+VA,trn_freight_road,Truck (4.5-12t),1975,1
+VA,trn_pass,Cycle,1975,1
+VA,trn_pass,Domestic Aviation,1975,1
+VA,trn_pass,HSR,2015,0.001
+VA,trn_pass,Passenger Rail,1975,1
+VA,trn_pass,Walk,1975,1
+VA,trn_pass_road,Bus,1975,1
+VA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+VA,trn_pass_road_LDV_4W,Compact Car,1975,1
+VA,trn_pass_road_LDV_4W,Large Car,1975,1
+VA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+VA,trn_pass_road_LDV_4W,Midsize Car,1975,1
+VA,trn_shipping_intl,International Ship,1975,1
+VA,trn_pass,road,1975,1
+VA,trn_pass_road,LDV,1975,1
+VA,trn_pass_road_LDV,4W,1975,1
+VA,trn_pass_road_LDV,2W,1975,1
+VA,trn_freight,road,1975,1
+VT,trn_aviation_intl,International Aviation,1975,1
+VT,trn_freight,Domestic Ship,1975,1
+VT,trn_freight,Freight Rail,1975,1
+VT,trn_freight_road,Truck (>12t),1975,1
+VT,trn_freight_road,Truck (0-2.7t),1975,1
+VT,trn_freight_road,Truck (2.7-4.5t),1975,1
+VT,trn_freight_road,Truck (4.5-12t),1975,1
+VT,trn_pass,Cycle,1975,1
+VT,trn_pass,Domestic Aviation,1975,1
+VT,trn_pass,HSR,2015,0.001
+VT,trn_pass,Passenger Rail,1975,1
+VT,trn_pass,Walk,1975,1
+VT,trn_pass_road,Bus,1975,1
+VT,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+VT,trn_pass_road_LDV_4W,Compact Car,1975,1
+VT,trn_pass_road_LDV_4W,Large Car,1975,1
+VT,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+VT,trn_pass_road_LDV_4W,Midsize Car,1975,1
+VT,trn_shipping_intl,International Ship,1975,1
+VT,trn_pass,road,1975,1
+VT,trn_pass_road,LDV,1975,1
+VT,trn_pass_road_LDV,4W,1975,1
+VT,trn_pass_road_LDV,2W,1975,1
+VT,trn_freight,road,1975,1
+WA,trn_aviation_intl,International Aviation,1975,1
+WA,trn_freight,Domestic Ship,1975,1
+WA,trn_freight,Freight Rail,1975,1
+WA,trn_freight_road,Truck (>12t),1975,1
+WA,trn_freight_road,Truck (0-2.7t),1975,1
+WA,trn_freight_road,Truck (2.7-4.5t),1975,1
+WA,trn_freight_road,Truck (4.5-12t),1975,1
+WA,trn_pass,Cycle,1975,1
+WA,trn_pass,Domestic Aviation,1975,1
+WA,trn_pass,HSR,2015,0.001
+WA,trn_pass,Passenger Rail,1975,1
+WA,trn_pass,Walk,1975,1
+WA,trn_pass_road,Bus,1975,1
+WA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+WA,trn_pass_road_LDV_4W,Compact Car,1975,1
+WA,trn_pass_road_LDV_4W,Large Car,1975,1
+WA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+WA,trn_pass_road_LDV_4W,Midsize Car,1975,1
+WA,trn_shipping_intl,International Ship,1975,1
+WA,trn_pass,road,1975,1
+WA,trn_pass_road,LDV,1975,1
+WA,trn_pass_road_LDV,4W,1975,1
+WA,trn_pass_road_LDV,2W,1975,1
+WA,trn_freight,road,1975,1
+WI,trn_aviation_intl,International Aviation,1975,1
+WI,trn_freight,Domestic Ship,1975,1
+WI,trn_freight,Freight Rail,1975,1
+WI,trn_freight_road,Truck (>12t),1975,1
+WI,trn_freight_road,Truck (0-2.7t),1975,1
+WI,trn_freight_road,Truck (2.7-4.5t),1975,1
+WI,trn_freight_road,Truck (4.5-12t),1975,1
+WI,trn_pass,Cycle,1975,1
+WI,trn_pass,Domestic Aviation,1975,1
+WI,trn_pass,HSR,2015,0.001
+WI,trn_pass,Passenger Rail,1975,1
+WI,trn_pass,Walk,1975,1
+WI,trn_pass_road,Bus,1975,1
+WI,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+WI,trn_pass_road_LDV_4W,Compact Car,1975,1
+WI,trn_pass_road_LDV_4W,Large Car,1975,1
+WI,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+WI,trn_pass_road_LDV_4W,Midsize Car,1975,1
+WI,trn_shipping_intl,International Ship,1975,1
+WI,trn_pass,road,1975,1
+WI,trn_pass_road,LDV,1975,1
+WI,trn_pass_road_LDV,4W,1975,1
+WI,trn_pass_road_LDV,2W,1975,1
+WI,trn_freight,road,1975,1
+WV,trn_aviation_intl,International Aviation,1975,1
+WV,trn_freight,Domestic Ship,1975,1
+WV,trn_freight,Freight Rail,1975,1
+WV,trn_freight_road,Truck (>12t),1975,1
+WV,trn_freight_road,Truck (0-2.7t),1975,1
+WV,trn_freight_road,Truck (2.7-4.5t),1975,1
+WV,trn_freight_road,Truck (4.5-12t),1975,1
+WV,trn_pass,Cycle,1975,1
+WV,trn_pass,Domestic Aviation,1975,1
+WV,trn_pass,HSR,2015,0.001
+WV,trn_pass,Passenger Rail,1975,1
+WV,trn_pass,Walk,1975,1
+WV,trn_pass_road,Bus,1975,1
+WV,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+WV,trn_pass_road_LDV_4W,Compact Car,1975,1
+WV,trn_pass_road_LDV_4W,Large Car,1975,1
+WV,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+WV,trn_pass_road_LDV_4W,Midsize Car,1975,1
+WV,trn_shipping_intl,International Ship,1975,1
+WV,trn_pass,road,1975,1
+WV,trn_pass_road,LDV,1975,1
+WV,trn_pass_road_LDV,4W,1975,1
+WV,trn_pass_road_LDV,2W,1975,1
+WV,trn_freight,road,1975,1
+WY,trn_aviation_intl,International Aviation,1975,1
+WY,trn_freight,Domestic Ship,1975,1
+WY,trn_freight,Freight Rail,1975,1
+WY,trn_freight_road,Truck (>12t),1975,1
+WY,trn_freight_road,Truck (0-2.7t),1975,1
+WY,trn_freight_road,Truck (2.7-4.5t),1975,1
+WY,trn_freight_road,Truck (4.5-12t),1975,1
+WY,trn_pass,Cycle,1975,1
+WY,trn_pass,Domestic Aviation,1975,1
+WY,trn_pass,HSR,2015,0.001
+WY,trn_pass,Passenger Rail,1975,1
+WY,trn_pass,Walk,1975,1
+WY,trn_pass_road,Bus,1975,1
+WY,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,1
+WY,trn_pass_road_LDV_4W,Compact Car,1975,1
+WY,trn_pass_road_LDV_4W,Large Car,1975,1
+WY,trn_pass_road_LDV_4W,Light Truck and SUV,1975,1
+WY,trn_pass_road_LDV_4W,Midsize Car,1975,1
+WY,trn_shipping_intl,International Ship,1975,1
+WY,trn_pass,road,1975,1
+WY,trn_pass_road,LDV,1975,1
+WY,trn_pass_road_LDV,4W,1975,1
+WY,trn_pass_road_LDV,2W,1975,1
+WY,trn_freight,road,1975,1
