@@ -1,0 +1,651 @@
+# ../gcam-usa-data/level1//L1233.share_sR_elec_F_tech_cool.csv
+# Written by LB1233.Elec_water.R
+# Wed Sep 20 02:01:18 2017
+# " Electricity generation shares by state / fuel / technology / cooling system / water type "
+# " Unit = EJ "
+"grid_region","sector","fuel","technology","cooling_system","water_type","share"
+"Alaska grid","electricity generation","biomass","biomass (conv)","dry cooling","fresh",0.0944678802254596
+"Alaska grid","electricity generation","biomass","biomass (conv)","once through","fresh",0.224826870265009
+"Alaska grid","electricity generation","biomass","biomass (conv)","recirculating","fresh",0.6693534025087
+"Alaska grid","electricity generation","biomass","biomass (conv)","once through","seawater",0.0113518470008312
+"Alaska grid","electricity generation","coal","coal (conv pul)","cooling pond","fresh",0.135145956738715
+"Alaska grid","electricity generation","coal","coal (conv pul)","dry cooling","fresh",0.00284878798526412
+"Alaska grid","electricity generation","coal","coal (conv pul)","once through","fresh",0.357833849615489
+"Alaska grid","electricity generation","coal","coal (conv pul)","recirculating","fresh",0.484206278340819
+"Alaska grid","electricity generation","coal","coal (conv pul)","once through","seawater",0.0142945548782919
+"Alaska grid","electricity generation","coal","coal (conv pul)","recirculating","seawater",0.00567057244142121
+"Alaska grid","electricity generation","gas","gas (CC)","cooling pond","fresh",0.0572059586791393
+"Alaska grid","electricity generation","gas","gas (CC)","dry cooling","fresh",0.113403065675593
+"Alaska grid","electricity generation","gas","gas (CC)","once through","fresh",0.0287002784553171
+"Alaska grid","electricity generation","gas","gas (CC)","recirculating","fresh",0.735719278244347
+"Alaska grid","electricity generation","gas","gas (CC)","dry cooling","seawater",0.00495057205385793
+"Alaska grid","electricity generation","gas","gas (CC)","once through","seawater",0.0339086820652582
+"Alaska grid","electricity generation","gas","gas (CC)","recirculating","seawater",0.0261121648264875
+"Alaska grid","electricity generation","gas","gas (steam/CT)","cooling pond","fresh",0
+"Alaska grid","electricity generation","gas","gas (steam/CT)","dry cooling","fresh",0
+"Alaska grid","electricity generation","gas","gas (steam/CT)","once through","fresh",0
+"Alaska grid","electricity generation","gas","gas (steam/CT)","recirculating","fresh",0
+"Alaska grid","electricity generation","gas","gas (steam/CT)","none","none",1
+"Alaska grid","electricity generation","gas","gas (steam/CT)","once through","seawater",0
+"Alaska grid","electricity generation","gas","gas (steam/CT)","recirculating","seawater",0
+"Alaska grid","electricity generation","geothermal","geothermal","recirculating","fresh",0.886194214721698
+"Alaska grid","electricity generation","geothermal","geothermal","recirculating (binary)","fresh",0.113805785278302
+"Alaska grid","electricity generation","hydro","hydro","none","fresh",1
+"Alaska grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","fresh",0.153449085576205
+"Alaska grid","electricity generation","nuclear","Gen_II_LWR","once through","fresh",0.295461274886395
+"Alaska grid","electricity generation","nuclear","Gen_II_LWR","recirculating","fresh",0.410532967492572
+"Alaska grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","seawater",0.0120621890063707
+"Alaska grid","electricity generation","nuclear","Gen_II_LWR","once through","seawater",0.128494483038458
+"Alaska grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","fresh",0
+"Alaska grid","electricity generation","refined liquids","refined liquids (steam/CT)","dry cooling","fresh",0
+"Alaska grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","fresh",0
+"Alaska grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","fresh",0
+"Alaska grid","electricity generation","refined liquids","refined liquids (steam/CT)","none","none",1
+"Alaska grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","seawater",0
+"Alaska grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","seawater",0
+"Alaska grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","seawater",0
+"Alaska grid","electricity generation","solar CSP","CSP","recirculating","fresh",1
+"Alaska grid","electricity generation","solar PV","PV","none","fresh",1
+"Alaska grid","electricity generation","wind","wind","none","none",1
+"California grid","electricity generation","biomass","biomass (conv)","dry cooling","fresh",0
+"California grid","electricity generation","biomass","biomass (conv)","once through","fresh",0
+"California grid","electricity generation","biomass","biomass (conv)","recirculating","fresh",1
+"California grid","electricity generation","biomass","biomass (conv)","once through","seawater",0
+"California grid","electricity generation","coal","coal (conv pul)","cooling pond","fresh",0.135145956738715
+"California grid","electricity generation","coal","coal (conv pul)","dry cooling","fresh",0.00284878798526412
+"California grid","electricity generation","coal","coal (conv pul)","once through","fresh",0.357833849615489
+"California grid","electricity generation","coal","coal (conv pul)","recirculating","fresh",0.484206278340819
+"California grid","electricity generation","coal","coal (conv pul)","once through","seawater",0.0142945548782919
+"California grid","electricity generation","coal","coal (conv pul)","recirculating","seawater",0.00567057244142121
+"California grid","electricity generation","gas","gas (CC)","cooling pond","fresh",0
+"California grid","electricity generation","gas","gas (CC)","dry cooling","fresh",0.044164524255541
+"California grid","electricity generation","gas","gas (CC)","once through","fresh",0.000901489998098422
+"California grid","electricity generation","gas","gas (CC)","recirculating","fresh",0.816095354832612
+"California grid","electricity generation","gas","gas (CC)","dry cooling","seawater",0
+"California grid","electricity generation","gas","gas (CC)","once through","seawater",0.138838630913749
+"California grid","electricity generation","gas","gas (CC)","recirculating","seawater",0
+"California grid","electricity generation","gas","gas (steam/CT)","cooling pond","fresh",0
+"California grid","electricity generation","gas","gas (steam/CT)","dry cooling","fresh",0
+"California grid","electricity generation","gas","gas (steam/CT)","once through","fresh",0
+"California grid","electricity generation","gas","gas (steam/CT)","recirculating","fresh",0
+"California grid","electricity generation","gas","gas (steam/CT)","none","none",1
+"California grid","electricity generation","gas","gas (steam/CT)","once through","seawater",0
+"California grid","electricity generation","gas","gas (steam/CT)","recirculating","seawater",0
+"California grid","electricity generation","geothermal","geothermal","recirculating","fresh",0.966224594539109
+"California grid","electricity generation","geothermal","geothermal","recirculating (binary)","fresh",0.033775405460891
+"California grid","electricity generation","hydro","hydro","none","fresh",1
+"California grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","fresh",0.153449085576205
+"California grid","electricity generation","nuclear","Gen_II_LWR","once through","fresh",0.295461274886395
+"California grid","electricity generation","nuclear","Gen_II_LWR","recirculating","fresh",0.410532967492572
+"California grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","seawater",0.0120621890063707
+"California grid","electricity generation","nuclear","Gen_II_LWR","once through","seawater",0.128494483038458
+"California grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","fresh",0
+"California grid","electricity generation","refined liquids","refined liquids (steam/CT)","dry cooling","fresh",0
+"California grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","fresh",0
+"California grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","fresh",0
+"California grid","electricity generation","refined liquids","refined liquids (steam/CT)","none","none",1
+"California grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","seawater",0
+"California grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","seawater",0
+"California grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","seawater",0
+"California grid","electricity generation","solar CSP","CSP","recirculating","fresh",1
+"California grid","electricity generation","solar PV","PV","none","fresh",1
+"California grid","electricity generation","wind","wind","none","none",1
+"Central East grid","electricity generation","biomass","biomass (conv)","dry cooling","fresh",0
+"Central East grid","electricity generation","biomass","biomass (conv)","once through","fresh",0
+"Central East grid","electricity generation","biomass","biomass (conv)","recirculating","fresh",1
+"Central East grid","electricity generation","biomass","biomass (conv)","once through","seawater",0
+"Central East grid","electricity generation","coal","coal (conv pul)","cooling pond","fresh",0
+"Central East grid","electricity generation","coal","coal (conv pul)","dry cooling","fresh",0
+"Central East grid","electricity generation","coal","coal (conv pul)","once through","fresh",0
+"Central East grid","electricity generation","coal","coal (conv pul)","recirculating","fresh",1
+"Central East grid","electricity generation","coal","coal (conv pul)","once through","seawater",0
+"Central East grid","electricity generation","coal","coal (conv pul)","recirculating","seawater",0
+"Central East grid","electricity generation","gas","gas (CC)","cooling pond","fresh",0
+"Central East grid","electricity generation","gas","gas (CC)","dry cooling","fresh",0
+"Central East grid","electricity generation","gas","gas (CC)","once through","fresh",0
+"Central East grid","electricity generation","gas","gas (CC)","recirculating","fresh",1
+"Central East grid","electricity generation","gas","gas (CC)","dry cooling","seawater",0
+"Central East grid","electricity generation","gas","gas (CC)","once through","seawater",0
+"Central East grid","electricity generation","gas","gas (CC)","recirculating","seawater",0
+"Central East grid","electricity generation","gas","gas (steam/CT)","cooling pond","fresh",0
+"Central East grid","electricity generation","gas","gas (steam/CT)","dry cooling","fresh",0
+"Central East grid","electricity generation","gas","gas (steam/CT)","once through","fresh",0
+"Central East grid","electricity generation","gas","gas (steam/CT)","recirculating","fresh",0.0473475294634148
+"Central East grid","electricity generation","gas","gas (steam/CT)","none","none",0.952652470536585
+"Central East grid","electricity generation","gas","gas (steam/CT)","once through","seawater",0
+"Central East grid","electricity generation","gas","gas (steam/CT)","recirculating","seawater",0
+"Central East grid","electricity generation","geothermal","geothermal","recirculating","fresh",0.886194214721698
+"Central East grid","electricity generation","geothermal","geothermal","recirculating (binary)","fresh",0.113805785278302
+"Central East grid","electricity generation","hydro","hydro","none","fresh",1
+"Central East grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","fresh",0.153449085576205
+"Central East grid","electricity generation","nuclear","Gen_II_LWR","once through","fresh",0.295461274886395
+"Central East grid","electricity generation","nuclear","Gen_II_LWR","recirculating","fresh",0.410532967492572
+"Central East grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","seawater",0.0120621890063707
+"Central East grid","electricity generation","nuclear","Gen_II_LWR","once through","seawater",0.128494483038458
+"Central East grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","fresh",0
+"Central East grid","electricity generation","refined liquids","refined liquids (steam/CT)","dry cooling","fresh",0
+"Central East grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","fresh",0
+"Central East grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","fresh",0
+"Central East grid","electricity generation","refined liquids","refined liquids (steam/CT)","none","none",1
+"Central East grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","seawater",0
+"Central East grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","seawater",0
+"Central East grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","seawater",0
+"Central East grid","electricity generation","solar CSP","CSP","recirculating","fresh",1
+"Central East grid","electricity generation","solar PV","PV","none","fresh",1
+"Central East grid","electricity generation","wind","wind","none","none",1
+"Central Northeast grid","electricity generation","biomass","biomass (conv)","dry cooling","fresh",0.0944678802254596
+"Central Northeast grid","electricity generation","biomass","biomass (conv)","once through","fresh",0.224826870265009
+"Central Northeast grid","electricity generation","biomass","biomass (conv)","recirculating","fresh",0.6693534025087
+"Central Northeast grid","electricity generation","biomass","biomass (conv)","once through","seawater",0.0113518470008312
+"Central Northeast grid","electricity generation","coal","coal (conv pul)","cooling pond","fresh",0
+"Central Northeast grid","electricity generation","coal","coal (conv pul)","dry cooling","fresh",0
+"Central Northeast grid","electricity generation","coal","coal (conv pul)","once through","fresh",0.0823064384719499
+"Central Northeast grid","electricity generation","coal","coal (conv pul)","recirculating","fresh",0.91769356152805
+"Central Northeast grid","electricity generation","coal","coal (conv pul)","once through","seawater",0
+"Central Northeast grid","electricity generation","coal","coal (conv pul)","recirculating","seawater",0
+"Central Northeast grid","electricity generation","gas","gas (CC)","cooling pond","fresh",0
+"Central Northeast grid","electricity generation","gas","gas (CC)","dry cooling","fresh",0
+"Central Northeast grid","electricity generation","gas","gas (CC)","once through","fresh",0.231361192712517
+"Central Northeast grid","electricity generation","gas","gas (CC)","recirculating","fresh",0.768638807287483
+"Central Northeast grid","electricity generation","gas","gas (CC)","dry cooling","seawater",0
+"Central Northeast grid","electricity generation","gas","gas (CC)","once through","seawater",0
+"Central Northeast grid","electricity generation","gas","gas (CC)","recirculating","seawater",0
+"Central Northeast grid","electricity generation","gas","gas (steam/CT)","cooling pond","fresh",0
+"Central Northeast grid","electricity generation","gas","gas (steam/CT)","dry cooling","fresh",0
+"Central Northeast grid","electricity generation","gas","gas (steam/CT)","once through","fresh",0
+"Central Northeast grid","electricity generation","gas","gas (steam/CT)","recirculating","fresh",0
+"Central Northeast grid","electricity generation","gas","gas (steam/CT)","none","none",1
+"Central Northeast grid","electricity generation","gas","gas (steam/CT)","once through","seawater",0
+"Central Northeast grid","electricity generation","gas","gas (steam/CT)","recirculating","seawater",0
+"Central Northeast grid","electricity generation","geothermal","geothermal","recirculating","fresh",0.886194214721698
+"Central Northeast grid","electricity generation","geothermal","geothermal","recirculating (binary)","fresh",0.113805785278302
+"Central Northeast grid","electricity generation","hydro","hydro","none","fresh",1
+"Central Northeast grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","fresh",0.153449085576205
+"Central Northeast grid","electricity generation","nuclear","Gen_II_LWR","once through","fresh",0.295461274886395
+"Central Northeast grid","electricity generation","nuclear","Gen_II_LWR","recirculating","fresh",0.410532967492572
+"Central Northeast grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","seawater",0.0120621890063707
+"Central Northeast grid","electricity generation","nuclear","Gen_II_LWR","once through","seawater",0.128494483038458
+"Central Northeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","fresh",0
+"Central Northeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","dry cooling","fresh",0
+"Central Northeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","fresh",0.937344112703114
+"Central Northeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","fresh",0
+"Central Northeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","none","none",0.0626558872968863
+"Central Northeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","seawater",0
+"Central Northeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","seawater",0
+"Central Northeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","seawater",0
+"Central Northeast grid","electricity generation","solar CSP","CSP","recirculating","fresh",1
+"Central Northeast grid","electricity generation","solar PV","PV","none","fresh",1
+"Central Northeast grid","electricity generation","wind","wind","none","none",1
+"Central Northwest grid","electricity generation","biomass","biomass (conv)","dry cooling","fresh",0
+"Central Northwest grid","electricity generation","biomass","biomass (conv)","once through","fresh",0
+"Central Northwest grid","electricity generation","biomass","biomass (conv)","recirculating","fresh",1
+"Central Northwest grid","electricity generation","biomass","biomass (conv)","once through","seawater",0
+"Central Northwest grid","electricity generation","coal","coal (conv pul)","cooling pond","fresh",0
+"Central Northwest grid","electricity generation","coal","coal (conv pul)","dry cooling","fresh",0
+"Central Northwest grid","electricity generation","coal","coal (conv pul)","once through","fresh",0.0212565325933229
+"Central Northwest grid","electricity generation","coal","coal (conv pul)","recirculating","fresh",0.978743467406677
+"Central Northwest grid","electricity generation","coal","coal (conv pul)","once through","seawater",0
+"Central Northwest grid","electricity generation","coal","coal (conv pul)","recirculating","seawater",0
+"Central Northwest grid","electricity generation","gas","gas (CC)","cooling pond","fresh",0
+"Central Northwest grid","electricity generation","gas","gas (CC)","dry cooling","fresh",0
+"Central Northwest grid","electricity generation","gas","gas (CC)","once through","fresh",0.192803829705829
+"Central Northwest grid","electricity generation","gas","gas (CC)","recirculating","fresh",0.807196170294171
+"Central Northwest grid","electricity generation","gas","gas (CC)","dry cooling","seawater",0
+"Central Northwest grid","electricity generation","gas","gas (CC)","once through","seawater",0
+"Central Northwest grid","electricity generation","gas","gas (CC)","recirculating","seawater",0
+"Central Northwest grid","electricity generation","gas","gas (steam/CT)","cooling pond","fresh",0
+"Central Northwest grid","electricity generation","gas","gas (steam/CT)","dry cooling","fresh",0
+"Central Northwest grid","electricity generation","gas","gas (steam/CT)","once through","fresh",0
+"Central Northwest grid","electricity generation","gas","gas (steam/CT)","recirculating","fresh",0
+"Central Northwest grid","electricity generation","gas","gas (steam/CT)","none","none",1
+"Central Northwest grid","electricity generation","gas","gas (steam/CT)","once through","seawater",0
+"Central Northwest grid","electricity generation","gas","gas (steam/CT)","recirculating","seawater",0
+"Central Northwest grid","electricity generation","geothermal","geothermal","recirculating","fresh",0.886194214721698
+"Central Northwest grid","electricity generation","geothermal","geothermal","recirculating (binary)","fresh",0.113805785278302
+"Central Northwest grid","electricity generation","hydro","hydro","none","fresh",1
+"Central Northwest grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","fresh",0.153449085576205
+"Central Northwest grid","electricity generation","nuclear","Gen_II_LWR","once through","fresh",0.295461274886395
+"Central Northwest grid","electricity generation","nuclear","Gen_II_LWR","recirculating","fresh",0.410532967492572
+"Central Northwest grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","seawater",0.0120621890063707
+"Central Northwest grid","electricity generation","nuclear","Gen_II_LWR","once through","seawater",0.128494483038458
+"Central Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","fresh",0
+"Central Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","dry cooling","fresh",0
+"Central Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","fresh",0
+"Central Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","fresh",0
+"Central Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","none","none",1
+"Central Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","seawater",0
+"Central Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","seawater",0
+"Central Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","seawater",0
+"Central Northwest grid","electricity generation","solar CSP","CSP","recirculating","fresh",1
+"Central Northwest grid","electricity generation","solar PV","PV","none","fresh",1
+"Central Northwest grid","electricity generation","wind","wind","none","none",1
+"Central Southwest grid","electricity generation","biomass","biomass (conv)","dry cooling","fresh",0.0944678802254596
+"Central Southwest grid","electricity generation","biomass","biomass (conv)","once through","fresh",0.224826870265009
+"Central Southwest grid","electricity generation","biomass","biomass (conv)","recirculating","fresh",0.6693534025087
+"Central Southwest grid","electricity generation","biomass","biomass (conv)","once through","seawater",0.0113518470008312
+"Central Southwest grid","electricity generation","coal","coal (conv pul)","cooling pond","fresh",0.135145956738715
+"Central Southwest grid","electricity generation","coal","coal (conv pul)","dry cooling","fresh",0.00284878798526412
+"Central Southwest grid","electricity generation","coal","coal (conv pul)","once through","fresh",0.357833849615489
+"Central Southwest grid","electricity generation","coal","coal (conv pul)","recirculating","fresh",0.484206278340819
+"Central Southwest grid","electricity generation","coal","coal (conv pul)","once through","seawater",0.0142945548782919
+"Central Southwest grid","electricity generation","coal","coal (conv pul)","recirculating","seawater",0.00567057244142121
+"Central Southwest grid","electricity generation","gas","gas (CC)","cooling pond","fresh",0
+"Central Southwest grid","electricity generation","gas","gas (CC)","dry cooling","fresh",0
+"Central Southwest grid","electricity generation","gas","gas (CC)","once through","fresh",0
+"Central Southwest grid","electricity generation","gas","gas (CC)","recirculating","fresh",1
+"Central Southwest grid","electricity generation","gas","gas (CC)","dry cooling","seawater",0
+"Central Southwest grid","electricity generation","gas","gas (CC)","once through","seawater",0
+"Central Southwest grid","electricity generation","gas","gas (CC)","recirculating","seawater",0
+"Central Southwest grid","electricity generation","gas","gas (steam/CT)","cooling pond","fresh",0
+"Central Southwest grid","electricity generation","gas","gas (steam/CT)","dry cooling","fresh",0
+"Central Southwest grid","electricity generation","gas","gas (steam/CT)","once through","fresh",0
+"Central Southwest grid","electricity generation","gas","gas (steam/CT)","recirculating","fresh",0
+"Central Southwest grid","electricity generation","gas","gas (steam/CT)","none","none",1
+"Central Southwest grid","electricity generation","gas","gas (steam/CT)","once through","seawater",0
+"Central Southwest grid","electricity generation","gas","gas (steam/CT)","recirculating","seawater",0
+"Central Southwest grid","electricity generation","geothermal","geothermal","recirculating","fresh",0.886194214721698
+"Central Southwest grid","electricity generation","geothermal","geothermal","recirculating (binary)","fresh",0.113805785278302
+"Central Southwest grid","electricity generation","hydro","hydro","none","fresh",1
+"Central Southwest grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","fresh",0.153449085576205
+"Central Southwest grid","electricity generation","nuclear","Gen_II_LWR","once through","fresh",0.295461274886395
+"Central Southwest grid","electricity generation","nuclear","Gen_II_LWR","recirculating","fresh",0.410532967492572
+"Central Southwest grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","seawater",0.0120621890063707
+"Central Southwest grid","electricity generation","nuclear","Gen_II_LWR","once through","seawater",0.128494483038458
+"Central Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","fresh",0
+"Central Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","dry cooling","fresh",0
+"Central Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","fresh",0
+"Central Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","fresh",0
+"Central Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","none","none",1
+"Central Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","seawater",0
+"Central Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","seawater",0
+"Central Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","seawater",0
+"Central Southwest grid","electricity generation","solar CSP","CSP","recirculating","fresh",1
+"Central Southwest grid","electricity generation","solar PV","PV","none","fresh",1
+"Central Southwest grid","electricity generation","wind","wind","none","none",1
+"Florida grid","electricity generation","biomass","biomass (conv)","dry cooling","fresh",0
+"Florida grid","electricity generation","biomass","biomass (conv)","once through","fresh",0
+"Florida grid","electricity generation","biomass","biomass (conv)","recirculating","fresh",1
+"Florida grid","electricity generation","biomass","biomass (conv)","once through","seawater",0
+"Florida grid","electricity generation","coal","coal (conv pul)","cooling pond","fresh",0.135145956738715
+"Florida grid","electricity generation","coal","coal (conv pul)","dry cooling","fresh",0.00284878798526412
+"Florida grid","electricity generation","coal","coal (conv pul)","once through","fresh",0.357833849615489
+"Florida grid","electricity generation","coal","coal (conv pul)","recirculating","fresh",0.484206278340819
+"Florida grid","electricity generation","coal","coal (conv pul)","once through","seawater",0.0142945548782919
+"Florida grid","electricity generation","coal","coal (conv pul)","recirculating","seawater",0.00567057244142121
+"Florida grid","electricity generation","gas","gas (CC)","cooling pond","fresh",0.353962885926978
+"Florida grid","electricity generation","gas","gas (CC)","dry cooling","fresh",0
+"Florida grid","electricity generation","gas","gas (CC)","once through","fresh",0.114653879654614
+"Florida grid","electricity generation","gas","gas (CC)","recirculating","fresh",0.186012990667246
+"Florida grid","electricity generation","gas","gas (CC)","dry cooling","seawater",0
+"Florida grid","electricity generation","gas","gas (CC)","once through","seawater",0.112658205550516
+"Florida grid","electricity generation","gas","gas (CC)","recirculating","seawater",0.232712038200646
+"Florida grid","electricity generation","gas","gas (steam/CT)","cooling pond","fresh",0
+"Florida grid","electricity generation","gas","gas (steam/CT)","dry cooling","fresh",0
+"Florida grid","electricity generation","gas","gas (steam/CT)","once through","fresh",0
+"Florida grid","electricity generation","gas","gas (steam/CT)","recirculating","fresh",0
+"Florida grid","electricity generation","gas","gas (steam/CT)","none","none",1
+"Florida grid","electricity generation","gas","gas (steam/CT)","once through","seawater",0
+"Florida grid","electricity generation","gas","gas (steam/CT)","recirculating","seawater",0
+"Florida grid","electricity generation","geothermal","geothermal","recirculating","fresh",0.886194214721698
+"Florida grid","electricity generation","geothermal","geothermal","recirculating (binary)","fresh",0.113805785278302
+"Florida grid","electricity generation","hydro","hydro","none","fresh",1
+"Florida grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","fresh",0.153449085576205
+"Florida grid","electricity generation","nuclear","Gen_II_LWR","once through","fresh",0.295461274886395
+"Florida grid","electricity generation","nuclear","Gen_II_LWR","recirculating","fresh",0.410532967492572
+"Florida grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","seawater",0.0120621890063707
+"Florida grid","electricity generation","nuclear","Gen_II_LWR","once through","seawater",0.128494483038458
+"Florida grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","fresh",0
+"Florida grid","electricity generation","refined liquids","refined liquids (steam/CT)","dry cooling","fresh",0
+"Florida grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","fresh",0
+"Florida grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","fresh",0
+"Florida grid","electricity generation","refined liquids","refined liquids (steam/CT)","none","none",1
+"Florida grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","seawater",0
+"Florida grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","seawater",0
+"Florida grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","seawater",0
+"Florida grid","electricity generation","solar CSP","CSP","recirculating","fresh",1
+"Florida grid","electricity generation","solar PV","PV","none","fresh",1
+"Florida grid","electricity generation","wind","wind","none","none",1
+"Hawaii grid","electricity generation","biomass","biomass (conv)","dry cooling","fresh",0.0944678802254596
+"Hawaii grid","electricity generation","biomass","biomass (conv)","once through","fresh",0.224826870265009
+"Hawaii grid","electricity generation","biomass","biomass (conv)","recirculating","fresh",0.6693534025087
+"Hawaii grid","electricity generation","biomass","biomass (conv)","once through","seawater",0.0113518470008312
+"Hawaii grid","electricity generation","coal","coal (conv pul)","cooling pond","fresh",0.135145956738715
+"Hawaii grid","electricity generation","coal","coal (conv pul)","dry cooling","fresh",0.00284878798526412
+"Hawaii grid","electricity generation","coal","coal (conv pul)","once through","fresh",0.357833849615489
+"Hawaii grid","electricity generation","coal","coal (conv pul)","recirculating","fresh",0.484206278340819
+"Hawaii grid","electricity generation","coal","coal (conv pul)","once through","seawater",0.0142945548782919
+"Hawaii grid","electricity generation","coal","coal (conv pul)","recirculating","seawater",0.00567057244142121
+"Hawaii grid","electricity generation","gas","gas (CC)","cooling pond","fresh",0.0572059586791393
+"Hawaii grid","electricity generation","gas","gas (CC)","dry cooling","fresh",0.113403065675593
+"Hawaii grid","electricity generation","gas","gas (CC)","once through","fresh",0.0287002784553171
+"Hawaii grid","electricity generation","gas","gas (CC)","recirculating","fresh",0.735719278244347
+"Hawaii grid","electricity generation","gas","gas (CC)","dry cooling","seawater",0.00495057205385793
+"Hawaii grid","electricity generation","gas","gas (CC)","once through","seawater",0.0339086820652582
+"Hawaii grid","electricity generation","gas","gas (CC)","recirculating","seawater",0.0261121648264875
+"Hawaii grid","electricity generation","gas","gas (steam/CT)","cooling pond","fresh",0.0824156097435413
+"Hawaii grid","electricity generation","gas","gas (steam/CT)","dry cooling","fresh",0.00156689757780578
+"Hawaii grid","electricity generation","gas","gas (steam/CT)","once through","fresh",0.137819019471858
+"Hawaii grid","electricity generation","gas","gas (steam/CT)","recirculating","fresh",0.125482444883637
+"Hawaii grid","electricity generation","gas","gas (steam/CT)","none","none",0.526063798201992
+"Hawaii grid","electricity generation","gas","gas (steam/CT)","once through","seawater",0.126582283929187
+"Hawaii grid","electricity generation","gas","gas (steam/CT)","recirculating","seawater",6.99461919786142e-05
+"Hawaii grid","electricity generation","geothermal","geothermal","recirculating","fresh",0.886194214721698
+"Hawaii grid","electricity generation","geothermal","geothermal","recirculating (binary)","fresh",0.113805785278302
+"Hawaii grid","electricity generation","hydro","hydro","none","fresh",1
+"Hawaii grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","fresh",0.153449085576205
+"Hawaii grid","electricity generation","nuclear","Gen_II_LWR","once through","fresh",0.295461274886395
+"Hawaii grid","electricity generation","nuclear","Gen_II_LWR","recirculating","fresh",0.410532967492572
+"Hawaii grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","seawater",0.0120621890063707
+"Hawaii grid","electricity generation","nuclear","Gen_II_LWR","once through","seawater",0.128494483038458
+"Hawaii grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","fresh",0
+"Hawaii grid","electricity generation","refined liquids","refined liquids (steam/CT)","dry cooling","fresh",0.411845151254955
+"Hawaii grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","fresh",0
+"Hawaii grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","fresh",0
+"Hawaii grid","electricity generation","refined liquids","refined liquids (steam/CT)","none","none",0.588154848745045
+"Hawaii grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","seawater",0
+"Hawaii grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","seawater",0
+"Hawaii grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","seawater",0
+"Hawaii grid","electricity generation","solar CSP","CSP","recirculating","fresh",1
+"Hawaii grid","electricity generation","solar PV","PV","none","fresh",1
+"Hawaii grid","electricity generation","wind","wind","none","none",1
+"Mid-Atlantic grid","electricity generation","biomass","biomass (conv)","dry cooling","fresh",0.0944678802254596
+"Mid-Atlantic grid","electricity generation","biomass","biomass (conv)","once through","fresh",0.224826870265009
+"Mid-Atlantic grid","electricity generation","biomass","biomass (conv)","recirculating","fresh",0.6693534025087
+"Mid-Atlantic grid","electricity generation","biomass","biomass (conv)","once through","seawater",0.0113518470008312
+"Mid-Atlantic grid","electricity generation","coal","coal (conv pul)","cooling pond","fresh",0
+"Mid-Atlantic grid","electricity generation","coal","coal (conv pul)","dry cooling","fresh",0
+"Mid-Atlantic grid","electricity generation","coal","coal (conv pul)","once through","fresh",0
+"Mid-Atlantic grid","electricity generation","coal","coal (conv pul)","recirculating","fresh",1
+"Mid-Atlantic grid","electricity generation","coal","coal (conv pul)","once through","seawater",0
+"Mid-Atlantic grid","electricity generation","coal","coal (conv pul)","recirculating","seawater",0
+"Mid-Atlantic grid","electricity generation","gas","gas (CC)","cooling pond","fresh",0
+"Mid-Atlantic grid","electricity generation","gas","gas (CC)","dry cooling","fresh",0.0839118410734805
+"Mid-Atlantic grid","electricity generation","gas","gas (CC)","once through","fresh",0
+"Mid-Atlantic grid","electricity generation","gas","gas (CC)","recirculating","fresh",0.91608815892652
+"Mid-Atlantic grid","electricity generation","gas","gas (CC)","dry cooling","seawater",0
+"Mid-Atlantic grid","electricity generation","gas","gas (CC)","once through","seawater",0
+"Mid-Atlantic grid","electricity generation","gas","gas (CC)","recirculating","seawater",0
+"Mid-Atlantic grid","electricity generation","gas","gas (steam/CT)","cooling pond","fresh",0
+"Mid-Atlantic grid","electricity generation","gas","gas (steam/CT)","dry cooling","fresh",0
+"Mid-Atlantic grid","electricity generation","gas","gas (steam/CT)","once through","fresh",0
+"Mid-Atlantic grid","electricity generation","gas","gas (steam/CT)","recirculating","fresh",0
+"Mid-Atlantic grid","electricity generation","gas","gas (steam/CT)","none","none",1
+"Mid-Atlantic grid","electricity generation","gas","gas (steam/CT)","once through","seawater",0
+"Mid-Atlantic grid","electricity generation","gas","gas (steam/CT)","recirculating","seawater",0
+"Mid-Atlantic grid","electricity generation","geothermal","geothermal","recirculating","fresh",0.886194214721698
+"Mid-Atlantic grid","electricity generation","geothermal","geothermal","recirculating (binary)","fresh",0.113805785278302
+"Mid-Atlantic grid","electricity generation","hydro","hydro","none","fresh",1
+"Mid-Atlantic grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","fresh",0.153449085576205
+"Mid-Atlantic grid","electricity generation","nuclear","Gen_II_LWR","once through","fresh",0.295461274886395
+"Mid-Atlantic grid","electricity generation","nuclear","Gen_II_LWR","recirculating","fresh",0.410532967492572
+"Mid-Atlantic grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","seawater",0.0120621890063707
+"Mid-Atlantic grid","electricity generation","nuclear","Gen_II_LWR","once through","seawater",0.128494483038458
+"Mid-Atlantic grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","fresh",0
+"Mid-Atlantic grid","electricity generation","refined liquids","refined liquids (steam/CT)","dry cooling","fresh",0
+"Mid-Atlantic grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","fresh",0
+"Mid-Atlantic grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","fresh",0
+"Mid-Atlantic grid","electricity generation","refined liquids","refined liquids (steam/CT)","none","none",1
+"Mid-Atlantic grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","seawater",0
+"Mid-Atlantic grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","seawater",0
+"Mid-Atlantic grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","seawater",0
+"Mid-Atlantic grid","electricity generation","solar CSP","CSP","recirculating","fresh",1
+"Mid-Atlantic grid","electricity generation","solar PV","PV","none","fresh",1
+"Mid-Atlantic grid","electricity generation","wind","wind","none","none",1
+"New England grid","electricity generation","biomass","biomass (conv)","dry cooling","fresh",0.0944678802254596
+"New England grid","electricity generation","biomass","biomass (conv)","once through","fresh",0.224826870265009
+"New England grid","electricity generation","biomass","biomass (conv)","recirculating","fresh",0.6693534025087
+"New England grid","electricity generation","biomass","biomass (conv)","once through","seawater",0.0113518470008312
+"New England grid","electricity generation","coal","coal (conv pul)","cooling pond","fresh",0.135145956738715
+"New England grid","electricity generation","coal","coal (conv pul)","dry cooling","fresh",0.00284878798526412
+"New England grid","electricity generation","coal","coal (conv pul)","once through","fresh",0.357833849615489
+"New England grid","electricity generation","coal","coal (conv pul)","recirculating","fresh",0.484206278340819
+"New England grid","electricity generation","coal","coal (conv pul)","once through","seawater",0.0142945548782919
+"New England grid","electricity generation","coal","coal (conv pul)","recirculating","seawater",0.00567057244142121
+"New England grid","electricity generation","gas","gas (CC)","cooling pond","fresh",0
+"New England grid","electricity generation","gas","gas (CC)","dry cooling","fresh",0.415875772898766
+"New England grid","electricity generation","gas","gas (CC)","once through","fresh",0.0333210404163471
+"New England grid","electricity generation","gas","gas (CC)","recirculating","fresh",0.550803186684887
+"New England grid","electricity generation","gas","gas (CC)","dry cooling","seawater",0
+"New England grid","electricity generation","gas","gas (CC)","once through","seawater",0
+"New England grid","electricity generation","gas","gas (CC)","recirculating","seawater",0
+"New England grid","electricity generation","gas","gas (steam/CT)","cooling pond","fresh",0
+"New England grid","electricity generation","gas","gas (steam/CT)","dry cooling","fresh",0
+"New England grid","electricity generation","gas","gas (steam/CT)","once through","fresh",0
+"New England grid","electricity generation","gas","gas (steam/CT)","recirculating","fresh",0.0136897957790934
+"New England grid","electricity generation","gas","gas (steam/CT)","none","none",0.986310204220907
+"New England grid","electricity generation","gas","gas (steam/CT)","once through","seawater",0
+"New England grid","electricity generation","gas","gas (steam/CT)","recirculating","seawater",0
+"New England grid","electricity generation","geothermal","geothermal","recirculating","fresh",0.886194214721698
+"New England grid","electricity generation","geothermal","geothermal","recirculating (binary)","fresh",0.113805785278302
+"New England grid","electricity generation","hydro","hydro","none","fresh",1
+"New England grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","fresh",0.153449085576205
+"New England grid","electricity generation","nuclear","Gen_II_LWR","once through","fresh",0.295461274886395
+"New England grid","electricity generation","nuclear","Gen_II_LWR","recirculating","fresh",0.410532967492572
+"New England grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","seawater",0.0120621890063707
+"New England grid","electricity generation","nuclear","Gen_II_LWR","once through","seawater",0.128494483038458
+"New England grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","fresh",0
+"New England grid","electricity generation","refined liquids","refined liquids (steam/CT)","dry cooling","fresh",0
+"New England grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","fresh",0
+"New England grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","fresh",0
+"New England grid","electricity generation","refined liquids","refined liquids (steam/CT)","none","none",1
+"New England grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","seawater",0
+"New England grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","seawater",0
+"New England grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","seawater",0
+"New England grid","electricity generation","solar CSP","CSP","recirculating","fresh",1
+"New England grid","electricity generation","solar PV","PV","none","fresh",1
+"New England grid","electricity generation","wind","wind","none","none",1
+"New York grid","electricity generation","biomass","biomass (conv)","dry cooling","fresh",0.0944678802254596
+"New York grid","electricity generation","biomass","biomass (conv)","once through","fresh",0.224826870265009
+"New York grid","electricity generation","biomass","biomass (conv)","recirculating","fresh",0.6693534025087
+"New York grid","electricity generation","biomass","biomass (conv)","once through","seawater",0.0113518470008312
+"New York grid","electricity generation","coal","coal (conv pul)","cooling pond","fresh",0
+"New York grid","electricity generation","coal","coal (conv pul)","dry cooling","fresh",0
+"New York grid","electricity generation","coal","coal (conv pul)","once through","fresh",0
+"New York grid","electricity generation","coal","coal (conv pul)","recirculating","fresh",1
+"New York grid","electricity generation","coal","coal (conv pul)","once through","seawater",0
+"New York grid","electricity generation","coal","coal (conv pul)","recirculating","seawater",0
+"New York grid","electricity generation","gas","gas (CC)","cooling pond","fresh",0
+"New York grid","electricity generation","gas","gas (CC)","dry cooling","fresh",0.422669289000288
+"New York grid","electricity generation","gas","gas (CC)","once through","fresh",0
+"New York grid","electricity generation","gas","gas (CC)","recirculating","fresh",0.219809697769306
+"New York grid","electricity generation","gas","gas (CC)","dry cooling","seawater",0.165845164301677
+"New York grid","electricity generation","gas","gas (CC)","once through","seawater",0.191675848928728
+"New York grid","electricity generation","gas","gas (CC)","recirculating","seawater",0
+"New York grid","electricity generation","gas","gas (steam/CT)","cooling pond","fresh",0
+"New York grid","electricity generation","gas","gas (steam/CT)","dry cooling","fresh",0
+"New York grid","electricity generation","gas","gas (steam/CT)","once through","fresh",0
+"New York grid","electricity generation","gas","gas (steam/CT)","recirculating","fresh",0
+"New York grid","electricity generation","gas","gas (steam/CT)","none","none",1
+"New York grid","electricity generation","gas","gas (steam/CT)","once through","seawater",0
+"New York grid","electricity generation","gas","gas (steam/CT)","recirculating","seawater",0
+"New York grid","electricity generation","geothermal","geothermal","recirculating","fresh",0.886194214721698
+"New York grid","electricity generation","geothermal","geothermal","recirculating (binary)","fresh",0.113805785278302
+"New York grid","electricity generation","hydro","hydro","none","fresh",1
+"New York grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","fresh",0.153449085576205
+"New York grid","electricity generation","nuclear","Gen_II_LWR","once through","fresh",0.295461274886395
+"New York grid","electricity generation","nuclear","Gen_II_LWR","recirculating","fresh",0.410532967492572
+"New York grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","seawater",0.0120621890063707
+"New York grid","electricity generation","nuclear","Gen_II_LWR","once through","seawater",0.128494483038458
+"New York grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","fresh",0
+"New York grid","electricity generation","refined liquids","refined liquids (steam/CT)","dry cooling","fresh",0
+"New York grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","fresh",0
+"New York grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","fresh",0
+"New York grid","electricity generation","refined liquids","refined liquids (steam/CT)","none","none",1
+"New York grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","seawater",0
+"New York grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","seawater",0
+"New York grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","seawater",0
+"New York grid","electricity generation","solar CSP","CSP","recirculating","fresh",1
+"New York grid","electricity generation","solar PV","PV","none","fresh",1
+"New York grid","electricity generation","wind","wind","none","none",1
+"Northwest grid","electricity generation","biomass","biomass (conv)","dry cooling","fresh",0
+"Northwest grid","electricity generation","biomass","biomass (conv)","once through","fresh",0
+"Northwest grid","electricity generation","biomass","biomass (conv)","recirculating","fresh",1
+"Northwest grid","electricity generation","biomass","biomass (conv)","once through","seawater",0
+"Northwest grid","electricity generation","coal","coal (conv pul)","cooling pond","fresh",0
+"Northwest grid","electricity generation","coal","coal (conv pul)","dry cooling","fresh",0
+"Northwest grid","electricity generation","coal","coal (conv pul)","once through","fresh",0
+"Northwest grid","electricity generation","coal","coal (conv pul)","recirculating","fresh",1
+"Northwest grid","electricity generation","coal","coal (conv pul)","once through","seawater",0
+"Northwest grid","electricity generation","coal","coal (conv pul)","recirculating","seawater",0
+"Northwest grid","electricity generation","gas","gas (CC)","cooling pond","fresh",0.0209255447519849
+"Northwest grid","electricity generation","gas","gas (CC)","dry cooling","fresh",0.538379824384834
+"Northwest grid","electricity generation","gas","gas (CC)","once through","fresh",0
+"Northwest grid","electricity generation","gas","gas (CC)","recirculating","fresh",0.440694630863181
+"Northwest grid","electricity generation","gas","gas (CC)","dry cooling","seawater",0
+"Northwest grid","electricity generation","gas","gas (CC)","once through","seawater",0
+"Northwest grid","electricity generation","gas","gas (CC)","recirculating","seawater",0
+"Northwest grid","electricity generation","gas","gas (steam/CT)","cooling pond","fresh",0
+"Northwest grid","electricity generation","gas","gas (steam/CT)","dry cooling","fresh",0
+"Northwest grid","electricity generation","gas","gas (steam/CT)","once through","fresh",0
+"Northwest grid","electricity generation","gas","gas (steam/CT)","recirculating","fresh",0
+"Northwest grid","electricity generation","gas","gas (steam/CT)","none","none",1
+"Northwest grid","electricity generation","gas","gas (steam/CT)","once through","seawater",0
+"Northwest grid","electricity generation","gas","gas (steam/CT)","recirculating","seawater",0
+"Northwest grid","electricity generation","geothermal","geothermal","recirculating","fresh",0.0239255733652008
+"Northwest grid","electricity generation","geothermal","geothermal","recirculating (binary)","fresh",0.976074426634799
+"Northwest grid","electricity generation","hydro","hydro","none","fresh",1
+"Northwest grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","fresh",0.153449085576205
+"Northwest grid","electricity generation","nuclear","Gen_II_LWR","once through","fresh",0.295461274886395
+"Northwest grid","electricity generation","nuclear","Gen_II_LWR","recirculating","fresh",0.410532967492572
+"Northwest grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","seawater",0.0120621890063707
+"Northwest grid","electricity generation","nuclear","Gen_II_LWR","once through","seawater",0.128494483038458
+"Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","fresh",0
+"Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","dry cooling","fresh",0
+"Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","fresh",0
+"Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","fresh",0
+"Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","none","none",1
+"Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","seawater",0
+"Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","seawater",0
+"Northwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","seawater",0
+"Northwest grid","electricity generation","solar CSP","CSP","recirculating","fresh",1
+"Northwest grid","electricity generation","solar PV","PV","none","fresh",1
+"Northwest grid","electricity generation","wind","wind","none","none",1
+"Southeast grid","electricity generation","biomass","biomass (conv)","dry cooling","fresh",0
+"Southeast grid","electricity generation","biomass","biomass (conv)","once through","fresh",1
+"Southeast grid","electricity generation","biomass","biomass (conv)","recirculating","fresh",0
+"Southeast grid","electricity generation","biomass","biomass (conv)","once through","seawater",0
+"Southeast grid","electricity generation","coal","coal (conv pul)","cooling pond","fresh",0
+"Southeast grid","electricity generation","coal","coal (conv pul)","dry cooling","fresh",0
+"Southeast grid","electricity generation","coal","coal (conv pul)","once through","fresh",0
+"Southeast grid","electricity generation","coal","coal (conv pul)","recirculating","fresh",1
+"Southeast grid","electricity generation","coal","coal (conv pul)","once through","seawater",0
+"Southeast grid","electricity generation","coal","coal (conv pul)","recirculating","seawater",0
+"Southeast grid","electricity generation","gas","gas (CC)","cooling pond","fresh",0
+"Southeast grid","electricity generation","gas","gas (CC)","dry cooling","fresh",0.000510959108495876
+"Southeast grid","electricity generation","gas","gas (CC)","once through","fresh",0.00655794974113826
+"Southeast grid","electricity generation","gas","gas (CC)","recirculating","fresh",0.946440724003014
+"Southeast grid","electricity generation","gas","gas (CC)","dry cooling","seawater",0
+"Southeast grid","electricity generation","gas","gas (CC)","once through","seawater",0.0176586638489082
+"Southeast grid","electricity generation","gas","gas (CC)","recirculating","seawater",0.0288317032984438
+"Southeast grid","electricity generation","gas","gas (steam/CT)","cooling pond","fresh",0
+"Southeast grid","electricity generation","gas","gas (steam/CT)","dry cooling","fresh",0.0300348932451422
+"Southeast grid","electricity generation","gas","gas (steam/CT)","once through","fresh",0
+"Southeast grid","electricity generation","gas","gas (steam/CT)","recirculating","fresh",0
+"Southeast grid","electricity generation","gas","gas (steam/CT)","none","none",0.969965106754858
+"Southeast grid","electricity generation","gas","gas (steam/CT)","once through","seawater",0
+"Southeast grid","electricity generation","gas","gas (steam/CT)","recirculating","seawater",0
+"Southeast grid","electricity generation","geothermal","geothermal","recirculating","fresh",0.886194214721698
+"Southeast grid","electricity generation","geothermal","geothermal","recirculating (binary)","fresh",0.113805785278302
+"Southeast grid","electricity generation","hydro","hydro","none","fresh",1
+"Southeast grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","fresh",0.153449085576205
+"Southeast grid","electricity generation","nuclear","Gen_II_LWR","once through","fresh",0.295461274886395
+"Southeast grid","electricity generation","nuclear","Gen_II_LWR","recirculating","fresh",0.410532967492572
+"Southeast grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","seawater",0.0120621890063707
+"Southeast grid","electricity generation","nuclear","Gen_II_LWR","once through","seawater",0.128494483038458
+"Southeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","fresh",0
+"Southeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","dry cooling","fresh",0
+"Southeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","fresh",0.922936566727748
+"Southeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","fresh",0
+"Southeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","none","none",0.0770634332722523
+"Southeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","seawater",0
+"Southeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","seawater",0
+"Southeast grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","seawater",0
+"Southeast grid","electricity generation","solar CSP","CSP","recirculating","fresh",1
+"Southeast grid","electricity generation","solar PV","PV","none","fresh",1
+"Southeast grid","electricity generation","wind","wind","none","none",1
+"Southwest grid","electricity generation","biomass","biomass (conv)","dry cooling","fresh",0
+"Southwest grid","electricity generation","biomass","biomass (conv)","once through","fresh",0
+"Southwest grid","electricity generation","biomass","biomass (conv)","recirculating","fresh",1
+"Southwest grid","electricity generation","biomass","biomass (conv)","once through","seawater",0
+"Southwest grid","electricity generation","coal","coal (conv pul)","cooling pond","fresh",0
+"Southwest grid","electricity generation","coal","coal (conv pul)","dry cooling","fresh",0.314739746804733
+"Southwest grid","electricity generation","coal","coal (conv pul)","once through","fresh",0
+"Southwest grid","electricity generation","coal","coal (conv pul)","recirculating","fresh",0.685260253195267
+"Southwest grid","electricity generation","coal","coal (conv pul)","once through","seawater",0
+"Southwest grid","electricity generation","coal","coal (conv pul)","recirculating","seawater",0
+"Southwest grid","electricity generation","gas","gas (CC)","cooling pond","fresh",0
+"Southwest grid","electricity generation","gas","gas (CC)","dry cooling","fresh",0.0635821937282545
+"Southwest grid","electricity generation","gas","gas (CC)","once through","fresh",0
+"Southwest grid","electricity generation","gas","gas (CC)","recirculating","fresh",0.936417806271746
+"Southwest grid","electricity generation","gas","gas (CC)","dry cooling","seawater",0
+"Southwest grid","electricity generation","gas","gas (CC)","once through","seawater",0
+"Southwest grid","electricity generation","gas","gas (CC)","recirculating","seawater",0
+"Southwest grid","electricity generation","gas","gas (steam/CT)","cooling pond","fresh",0
+"Southwest grid","electricity generation","gas","gas (steam/CT)","dry cooling","fresh",0
+"Southwest grid","electricity generation","gas","gas (steam/CT)","once through","fresh",0
+"Southwest grid","electricity generation","gas","gas (steam/CT)","recirculating","fresh",0
+"Southwest grid","electricity generation","gas","gas (steam/CT)","none","none",1
+"Southwest grid","electricity generation","gas","gas (steam/CT)","once through","seawater",0
+"Southwest grid","electricity generation","gas","gas (steam/CT)","recirculating","seawater",0
+"Southwest grid","electricity generation","geothermal","geothermal","recirculating","fresh",0.886194214721698
+"Southwest grid","electricity generation","geothermal","geothermal","recirculating (binary)","fresh",0.113805785278302
+"Southwest grid","electricity generation","hydro","hydro","none","fresh",1
+"Southwest grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","fresh",0.153449085576205
+"Southwest grid","electricity generation","nuclear","Gen_II_LWR","once through","fresh",0.295461274886395
+"Southwest grid","electricity generation","nuclear","Gen_II_LWR","recirculating","fresh",0.410532967492572
+"Southwest grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","seawater",0.0120621890063707
+"Southwest grid","electricity generation","nuclear","Gen_II_LWR","once through","seawater",0.128494483038458
+"Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","fresh",0
+"Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","dry cooling","fresh",0
+"Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","fresh",0
+"Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","fresh",0
+"Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","none","none",1
+"Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","seawater",0
+"Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","seawater",0
+"Southwest grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","seawater",0
+"Southwest grid","electricity generation","solar CSP","CSP","recirculating","fresh",1
+"Southwest grid","electricity generation","solar PV","PV","none","fresh",1
+"Southwest grid","electricity generation","wind","wind","none","none",1
+"Texas grid","electricity generation","biomass","biomass (conv)","dry cooling","fresh",0.0944678802254596
+"Texas grid","electricity generation","biomass","biomass (conv)","once through","fresh",0.224826870265009
+"Texas grid","electricity generation","biomass","biomass (conv)","recirculating","fresh",0.6693534025087
+"Texas grid","electricity generation","biomass","biomass (conv)","once through","seawater",0.0113518470008312
+"Texas grid","electricity generation","coal","coal (conv pul)","cooling pond","fresh",0.135145956738715
+"Texas grid","electricity generation","coal","coal (conv pul)","dry cooling","fresh",0.00284878798526412
+"Texas grid","electricity generation","coal","coal (conv pul)","once through","fresh",0.357833849615489
+"Texas grid","electricity generation","coal","coal (conv pul)","recirculating","fresh",0.484206278340819
+"Texas grid","electricity generation","coal","coal (conv pul)","once through","seawater",0.0142945548782919
+"Texas grid","electricity generation","coal","coal (conv pul)","recirculating","seawater",0.00567057244142121
+"Texas grid","electricity generation","gas","gas (CC)","cooling pond","fresh",0.0285027109669674
+"Texas grid","electricity generation","gas","gas (CC)","dry cooling","fresh",0.091081811205811
+"Texas grid","electricity generation","gas","gas (CC)","once through","fresh",0
+"Texas grid","electricity generation","gas","gas (CC)","recirculating","fresh",0.859137889112386
+"Texas grid","electricity generation","gas","gas (CC)","dry cooling","seawater",0
+"Texas grid","electricity generation","gas","gas (CC)","once through","seawater",0
+"Texas grid","electricity generation","gas","gas (CC)","recirculating","seawater",0.0212775887148357
+"Texas grid","electricity generation","gas","gas (steam/CT)","cooling pond","fresh",0
+"Texas grid","electricity generation","gas","gas (steam/CT)","dry cooling","fresh",0
+"Texas grid","electricity generation","gas","gas (steam/CT)","once through","fresh",0
+"Texas grid","electricity generation","gas","gas (steam/CT)","recirculating","fresh",0
+"Texas grid","electricity generation","gas","gas (steam/CT)","none","none",1
+"Texas grid","electricity generation","gas","gas (steam/CT)","once through","seawater",0
+"Texas grid","electricity generation","gas","gas (steam/CT)","recirculating","seawater",0
+"Texas grid","electricity generation","geothermal","geothermal","recirculating","fresh",0.886194214721698
+"Texas grid","electricity generation","geothermal","geothermal","recirculating (binary)","fresh",0.113805785278302
+"Texas grid","electricity generation","hydro","hydro","none","fresh",1
+"Texas grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","fresh",0.153449085576205
+"Texas grid","electricity generation","nuclear","Gen_II_LWR","once through","fresh",0.295461274886395
+"Texas grid","electricity generation","nuclear","Gen_II_LWR","recirculating","fresh",0.410532967492572
+"Texas grid","electricity generation","nuclear","Gen_II_LWR","cooling pond","seawater",0.0120621890063707
+"Texas grid","electricity generation","nuclear","Gen_II_LWR","once through","seawater",0.128494483038458
+"Texas grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","fresh",0
+"Texas grid","electricity generation","refined liquids","refined liquids (steam/CT)","dry cooling","fresh",0
+"Texas grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","fresh",0
+"Texas grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","fresh",0
+"Texas grid","electricity generation","refined liquids","refined liquids (steam/CT)","none","none",1
+"Texas grid","electricity generation","refined liquids","refined liquids (steam/CT)","cooling pond","seawater",0
+"Texas grid","electricity generation","refined liquids","refined liquids (steam/CT)","once through","seawater",0
+"Texas grid","electricity generation","refined liquids","refined liquids (steam/CT)","recirculating","seawater",0
+"Texas grid","electricity generation","solar CSP","CSP","recirculating","fresh",1
+"Texas grid","electricity generation","solar PV","PV","none","fresh",1
+"Texas grid","electricity generation","wind","wind","none","none",1

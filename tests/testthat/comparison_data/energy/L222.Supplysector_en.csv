@@ -1,0 +1,133 @@
+INPUT_TABLE
+Variable ID
+Supplysector
+
+region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent
+USA,gas processing,EJ,EJ,1975$/GJ,1975,-6
+USA,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+USA,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+USA,refining,EJ,EJ,1975$/GJ,1975,-6
+Africa_Eastern,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Africa_Eastern,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,refining,EJ,EJ,1975$/GJ,1975,-6
+Africa_Northern,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Africa_Northern,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,refining,EJ,EJ,1975$/GJ,1975,-6
+Africa_Southern,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Africa_Southern,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,refining,EJ,EJ,1975$/GJ,1975,-6
+Africa_Western,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Africa_Western,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,refining,EJ,EJ,1975$/GJ,1975,-6
+Australia_NZ,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Australia_NZ,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,refining,EJ,EJ,1975$/GJ,1975,-6
+Brazil,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Brazil,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Brazil,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Brazil,refining,EJ,EJ,1975$/GJ,1975,-6
+Canada,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Canada,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Canada,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Canada,refining,EJ,EJ,1975$/GJ,1975,-6
+Central America and Caribbean,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Central America and Caribbean,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,refining,EJ,EJ,1975$/GJ,1975,-6
+Central Asia,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Central Asia,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,refining,EJ,EJ,1975$/GJ,1975,-6
+China,gas processing,EJ,EJ,1975$/GJ,1975,-6
+China,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+China,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+China,refining,EJ,EJ,1975$/GJ,1975,-6
+EU-12,gas processing,EJ,EJ,1975$/GJ,1975,-6
+EU-12,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+EU-12,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+EU-12,refining,EJ,EJ,1975$/GJ,1975,-6
+EU-15,gas processing,EJ,EJ,1975$/GJ,1975,-6
+EU-15,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+EU-15,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+EU-15,refining,EJ,EJ,1975$/GJ,1975,-6
+Europe_Eastern,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Europe_Eastern,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,refining,EJ,EJ,1975$/GJ,1975,-6
+Europe_Non_EU,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Europe_Non_EU,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,refining,EJ,EJ,1975$/GJ,1975,-6
+European Free Trade Association,gas processing,EJ,EJ,1975$/GJ,1975,-6
+European Free Trade Association,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,refining,EJ,EJ,1975$/GJ,1975,-6
+India,gas processing,EJ,EJ,1975$/GJ,1975,-6
+India,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+India,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+India,refining,EJ,EJ,1975$/GJ,1975,-6
+Indonesia,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Indonesia,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,refining,EJ,EJ,1975$/GJ,1975,-6
+Japan,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Japan,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Japan,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Japan,refining,EJ,EJ,1975$/GJ,1975,-6
+Mexico,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Mexico,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Mexico,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Mexico,refining,EJ,EJ,1975$/GJ,1975,-6
+Middle East,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Middle East,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Middle East,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Middle East,refining,EJ,EJ,1975$/GJ,1975,-6
+Pakistan,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Pakistan,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,refining,EJ,EJ,1975$/GJ,1975,-6
+Russia,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Russia,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Russia,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Russia,refining,EJ,EJ,1975$/GJ,1975,-6
+South Africa,gas processing,EJ,EJ,1975$/GJ,1975,-6
+South Africa,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+South Africa,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+South Africa,refining,EJ,EJ,1975$/GJ,1975,-6
+South America_Northern,gas processing,EJ,EJ,1975$/GJ,1975,-6
+South America_Northern,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,refining,EJ,EJ,1975$/GJ,1975,-6
+South America_Southern,gas processing,EJ,EJ,1975$/GJ,1975,-6
+South America_Southern,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,refining,EJ,EJ,1975$/GJ,1975,-6
+South Asia,gas processing,EJ,EJ,1975$/GJ,1975,-6
+South Asia,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+South Asia,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+South Asia,refining,EJ,EJ,1975$/GJ,1975,-6
+South Korea,gas processing,EJ,EJ,1975$/GJ,1975,-6
+South Korea,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+South Korea,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+South Korea,refining,EJ,EJ,1975$/GJ,1975,-6
+Southeast Asia,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Southeast Asia,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,refining,EJ,EJ,1975$/GJ,1975,-6
+Taiwan,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Taiwan,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,refining,EJ,EJ,1975$/GJ,1975,-6
+Argentina,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Argentina,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Argentina,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Argentina,refining,EJ,EJ,1975$/GJ,1975,-6
+Colombia,gas processing,EJ,EJ,1975$/GJ,1975,-6
+Colombia,nuclearFuelGenII,EJ,EJ,1975$/GJ,1975,-3
+Colombia,nuclearFuelGenIII,EJ,EJ,1975$/GJ,1975,-3
+Colombia,refining,EJ,EJ,1975$/GJ,1975,-6
