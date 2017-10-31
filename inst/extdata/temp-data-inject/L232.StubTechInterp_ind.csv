@@ -1,0 +1,261 @@
+#INPUT_TABLE
+#Variable ID
+#Supplysector
+#
+region,supplysector,subsector,stub.technology,apply.to,from.year,to.year,interpolation.function
+USA,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+USA,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+USA,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+USA,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+USA,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+USA,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+USA,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+USA,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Africa_Eastern,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Africa_Eastern,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Africa_Eastern,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Africa_Eastern,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Africa_Eastern,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Africa_Eastern,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Africa_Eastern,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Africa_Eastern,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Africa_Northern,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Africa_Northern,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Africa_Northern,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Africa_Northern,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Africa_Northern,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Africa_Northern,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Africa_Northern,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Africa_Northern,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Africa_Southern,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Africa_Southern,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Africa_Southern,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Africa_Southern,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Africa_Southern,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Africa_Southern,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Africa_Southern,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Africa_Southern,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Africa_Western,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Africa_Western,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Africa_Western,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Africa_Western,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Africa_Western,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Africa_Western,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Africa_Western,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Africa_Western,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Australia_NZ,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Australia_NZ,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Australia_NZ,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Australia_NZ,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Australia_NZ,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Australia_NZ,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Australia_NZ,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Australia_NZ,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Brazil,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Brazil,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Brazil,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Brazil,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Brazil,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Brazil,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Brazil,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Brazil,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Canada,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Canada,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Canada,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Canada,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Canada,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Canada,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Canada,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Canada,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Central America and Caribbean,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Central America and Caribbean,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Central America and Caribbean,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Central America and Caribbean,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Central America and Caribbean,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Central America and Caribbean,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Central America and Caribbean,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Central America and Caribbean,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Central Asia,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Central Asia,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Central Asia,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Central Asia,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Central Asia,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Central Asia,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Central Asia,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Central Asia,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+China,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+China,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+China,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+China,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+China,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+China,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+China,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+China,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+EU-12,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+EU-12,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+EU-12,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+EU-12,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+EU-12,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+EU-12,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+EU-12,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+EU-12,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+EU-15,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+EU-15,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+EU-15,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+EU-15,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+EU-15,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+EU-15,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+EU-15,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+EU-15,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Europe_Eastern,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Europe_Eastern,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Europe_Eastern,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Europe_Eastern,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Europe_Eastern,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Europe_Eastern,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Europe_Eastern,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Europe_Eastern,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Europe_Non_EU,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Europe_Non_EU,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Europe_Non_EU,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Europe_Non_EU,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Europe_Non_EU,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Europe_Non_EU,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Europe_Non_EU,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Europe_Non_EU,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+European Free Trade Association,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+European Free Trade Association,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+European Free Trade Association,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+European Free Trade Association,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+European Free Trade Association,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+European Free Trade Association,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+European Free Trade Association,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+European Free Trade Association,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+India,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+India,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+India,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+India,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+India,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+India,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+India,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+India,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Indonesia,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Indonesia,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Indonesia,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Indonesia,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Indonesia,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Indonesia,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Indonesia,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Indonesia,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Japan,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Japan,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Japan,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Japan,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Japan,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Japan,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Japan,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Japan,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Mexico,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Mexico,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Mexico,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Mexico,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Mexico,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Mexico,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Mexico,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Mexico,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Middle East,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Middle East,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Middle East,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Middle East,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Middle East,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Middle East,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Middle East,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Middle East,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Pakistan,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Pakistan,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Pakistan,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Pakistan,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Pakistan,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Pakistan,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Pakistan,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Pakistan,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Russia,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Russia,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Russia,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Russia,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Russia,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Russia,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Russia,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Russia,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+South Africa,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+South Africa,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+South Africa,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+South Africa,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+South Africa,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+South Africa,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+South Africa,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+South Africa,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+South America_Northern,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+South America_Northern,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+South America_Northern,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+South America_Northern,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+South America_Northern,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+South America_Northern,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+South America_Northern,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+South America_Northern,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+South America_Southern,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+South America_Southern,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+South America_Southern,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+South America_Southern,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+South America_Southern,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+South America_Southern,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+South America_Southern,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+South America_Southern,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+South Asia,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+South Asia,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+South Asia,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+South Asia,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+South Asia,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+South Asia,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+South Asia,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+South Asia,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+South Korea,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+South Korea,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+South Korea,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+South Korea,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+South Korea,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+South Korea,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+South Korea,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+South Korea,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Southeast Asia,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Southeast Asia,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Southeast Asia,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Southeast Asia,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Southeast Asia,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Southeast Asia,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Southeast Asia,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Southeast Asia,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Taiwan,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Taiwan,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Taiwan,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Taiwan,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Taiwan,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Taiwan,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Taiwan,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Taiwan,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Argentina,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Argentina,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Argentina,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Argentina,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Argentina,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Argentina,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Argentina,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Argentina,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
+Colombia,industrial energy use,biomass,biomass,share-weight,2010,2100,fixed
+Colombia,industrial energy use,biomass,biomass cogen,share-weight,2010,2100,fixed
+Colombia,industrial energy use,coal,coal,share-weight,2010,2100,fixed
+Colombia,industrial energy use,coal,coal cogen,share-weight,2010,2100,fixed
+Colombia,industrial energy use,gas,gas,share-weight,2010,2100,fixed
+Colombia,industrial energy use,gas,gas cogen,share-weight,2010,2100,fixed
+Colombia,industrial energy use,refined liquids,refined liquids,share-weight,2010,2100,fixed
+Colombia,industrial energy use,refined liquids,refined liquids cogen,share-weight,2010,2100,fixed
