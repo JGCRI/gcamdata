@@ -1,0 +1,829 @@
+INPUT_TABLE
+Variable ID
+StubTech
+
+region,supplysector,subsector,stub.technology
+USA,resid heating,biomass,biomass
+USA,resid heating,coal,coal
+USA,resid heating,electricity,electricity
+USA,resid heating,gas,gas
+USA,resid heating,refined liquids,refined liquids
+USA,resid cooling,electricity,electricity
+USA,resid cooling,gas,gas
+USA,resid others,biomass,biomass
+USA,resid others,coal,coal
+USA,resid others,electricity,electricity
+USA,resid others,gas,gas
+USA,resid others,refined liquids,refined liquids
+USA,comm heating,biomass,biomass
+USA,comm heating,coal,coal
+USA,comm heating,electricity,electricity
+USA,comm heating,gas,gas
+USA,comm heating,refined liquids,refined liquids
+USA,comm cooling,electricity,electricity
+USA,comm cooling,gas,gas
+USA,comm others,biomass,biomass
+USA,comm others,coal,coal
+USA,comm others,electricity,electricity
+USA,comm others,gas,gas
+USA,comm others,refined liquids,refined liquids
+Africa_Eastern,resid heating,biomass,biomass
+Africa_Eastern,resid heating,coal,coal
+Africa_Eastern,resid heating,electricity,electricity
+Africa_Eastern,resid heating,gas,gas
+Africa_Eastern,resid heating,refined liquids,refined liquids
+Africa_Eastern,resid heating,traditional biomass,traditional biomass
+Africa_Eastern,resid cooling,electricity,electricity
+Africa_Eastern,resid cooling,gas,gas
+Africa_Eastern,resid others,biomass,biomass
+Africa_Eastern,resid others,coal,coal
+Africa_Eastern,resid others,electricity,electricity
+Africa_Eastern,resid others,gas,gas
+Africa_Eastern,resid others,refined liquids,refined liquids
+Africa_Eastern,resid others,traditional biomass,traditional biomass
+Africa_Eastern,comm heating,biomass,biomass
+Africa_Eastern,comm heating,coal,coal
+Africa_Eastern,comm heating,electricity,electricity
+Africa_Eastern,comm heating,gas,gas
+Africa_Eastern,comm heating,refined liquids,refined liquids
+Africa_Eastern,comm cooling,electricity,electricity
+Africa_Eastern,comm cooling,gas,gas
+Africa_Eastern,comm others,biomass,biomass
+Africa_Eastern,comm others,coal,coal
+Africa_Eastern,comm others,electricity,electricity
+Africa_Eastern,comm others,gas,gas
+Africa_Eastern,comm others,refined liquids,refined liquids
+Africa_Northern,resid heating,biomass,biomass
+Africa_Northern,resid heating,coal,coal
+Africa_Northern,resid heating,electricity,electricity
+Africa_Northern,resid heating,gas,gas
+Africa_Northern,resid heating,refined liquids,refined liquids
+Africa_Northern,resid heating,traditional biomass,traditional biomass
+Africa_Northern,resid cooling,electricity,electricity
+Africa_Northern,resid cooling,gas,gas
+Africa_Northern,resid others,biomass,biomass
+Africa_Northern,resid others,coal,coal
+Africa_Northern,resid others,electricity,electricity
+Africa_Northern,resid others,gas,gas
+Africa_Northern,resid others,refined liquids,refined liquids
+Africa_Northern,resid others,traditional biomass,traditional biomass
+Africa_Northern,comm heating,biomass,biomass
+Africa_Northern,comm heating,coal,coal
+Africa_Northern,comm heating,electricity,electricity
+Africa_Northern,comm heating,gas,gas
+Africa_Northern,comm heating,refined liquids,refined liquids
+Africa_Northern,comm cooling,electricity,electricity
+Africa_Northern,comm cooling,gas,gas
+Africa_Northern,comm others,biomass,biomass
+Africa_Northern,comm others,coal,coal
+Africa_Northern,comm others,electricity,electricity
+Africa_Northern,comm others,gas,gas
+Africa_Northern,comm others,refined liquids,refined liquids
+Africa_Southern,resid heating,biomass,biomass
+Africa_Southern,resid heating,coal,coal
+Africa_Southern,resid heating,electricity,electricity
+Africa_Southern,resid heating,gas,gas
+Africa_Southern,resid heating,refined liquids,refined liquids
+Africa_Southern,resid heating,traditional biomass,traditional biomass
+Africa_Southern,resid cooling,electricity,electricity
+Africa_Southern,resid cooling,gas,gas
+Africa_Southern,resid others,biomass,biomass
+Africa_Southern,resid others,coal,coal
+Africa_Southern,resid others,electricity,electricity
+Africa_Southern,resid others,gas,gas
+Africa_Southern,resid others,refined liquids,refined liquids
+Africa_Southern,resid others,traditional biomass,traditional biomass
+Africa_Southern,comm heating,biomass,biomass
+Africa_Southern,comm heating,coal,coal
+Africa_Southern,comm heating,electricity,electricity
+Africa_Southern,comm heating,gas,gas
+Africa_Southern,comm heating,refined liquids,refined liquids
+Africa_Southern,comm cooling,electricity,electricity
+Africa_Southern,comm cooling,gas,gas
+Africa_Southern,comm others,biomass,biomass
+Africa_Southern,comm others,coal,coal
+Africa_Southern,comm others,electricity,electricity
+Africa_Southern,comm others,gas,gas
+Africa_Southern,comm others,refined liquids,refined liquids
+Africa_Western,resid heating,biomass,biomass
+Africa_Western,resid heating,coal,coal
+Africa_Western,resid heating,electricity,electricity
+Africa_Western,resid heating,gas,gas
+Africa_Western,resid heating,refined liquids,refined liquids
+Africa_Western,resid heating,traditional biomass,traditional biomass
+Africa_Western,resid cooling,electricity,electricity
+Africa_Western,resid cooling,gas,gas
+Africa_Western,resid others,biomass,biomass
+Africa_Western,resid others,coal,coal
+Africa_Western,resid others,electricity,electricity
+Africa_Western,resid others,gas,gas
+Africa_Western,resid others,refined liquids,refined liquids
+Africa_Western,resid others,traditional biomass,traditional biomass
+Africa_Western,comm heating,biomass,biomass
+Africa_Western,comm heating,coal,coal
+Africa_Western,comm heating,electricity,electricity
+Africa_Western,comm heating,gas,gas
+Africa_Western,comm heating,refined liquids,refined liquids
+Africa_Western,comm cooling,electricity,electricity
+Africa_Western,comm cooling,gas,gas
+Africa_Western,comm others,biomass,biomass
+Africa_Western,comm others,coal,coal
+Africa_Western,comm others,electricity,electricity
+Africa_Western,comm others,gas,gas
+Africa_Western,comm others,refined liquids,refined liquids
+Australia_NZ,resid heating,biomass,biomass
+Australia_NZ,resid heating,coal,coal
+Australia_NZ,resid heating,electricity,electricity
+Australia_NZ,resid heating,gas,gas
+Australia_NZ,resid heating,refined liquids,refined liquids
+Australia_NZ,resid cooling,electricity,electricity
+Australia_NZ,resid cooling,gas,gas
+Australia_NZ,resid others,biomass,biomass
+Australia_NZ,resid others,coal,coal
+Australia_NZ,resid others,electricity,electricity
+Australia_NZ,resid others,gas,gas
+Australia_NZ,resid others,refined liquids,refined liquids
+Australia_NZ,comm heating,biomass,biomass
+Australia_NZ,comm heating,coal,coal
+Australia_NZ,comm heating,electricity,electricity
+Australia_NZ,comm heating,gas,gas
+Australia_NZ,comm heating,refined liquids,refined liquids
+Australia_NZ,comm cooling,electricity,electricity
+Australia_NZ,comm cooling,gas,gas
+Australia_NZ,comm others,biomass,biomass
+Australia_NZ,comm others,coal,coal
+Australia_NZ,comm others,electricity,electricity
+Australia_NZ,comm others,gas,gas
+Australia_NZ,comm others,refined liquids,refined liquids
+Brazil,resid heating,biomass,biomass
+Brazil,resid heating,coal,coal
+Brazil,resid heating,electricity,electricity
+Brazil,resid heating,gas,gas
+Brazil,resid heating,refined liquids,refined liquids
+Brazil,resid heating,traditional biomass,traditional biomass
+Brazil,resid cooling,electricity,electricity
+Brazil,resid cooling,gas,gas
+Brazil,resid others,biomass,biomass
+Brazil,resid others,coal,coal
+Brazil,resid others,electricity,electricity
+Brazil,resid others,gas,gas
+Brazil,resid others,refined liquids,refined liquids
+Brazil,resid others,traditional biomass,traditional biomass
+Brazil,comm heating,biomass,biomass
+Brazil,comm heating,coal,coal
+Brazil,comm heating,electricity,electricity
+Brazil,comm heating,gas,gas
+Brazil,comm heating,refined liquids,refined liquids
+Brazil,comm cooling,electricity,electricity
+Brazil,comm cooling,gas,gas
+Brazil,comm others,biomass,biomass
+Brazil,comm others,coal,coal
+Brazil,comm others,electricity,electricity
+Brazil,comm others,gas,gas
+Brazil,comm others,refined liquids,refined liquids
+Canada,resid heating,biomass,biomass
+Canada,resid heating,coal,coal
+Canada,resid heating,electricity,electricity
+Canada,resid heating,gas,gas
+Canada,resid heating,refined liquids,refined liquids
+Canada,resid cooling,electricity,electricity
+Canada,resid cooling,gas,gas
+Canada,resid others,biomass,biomass
+Canada,resid others,coal,coal
+Canada,resid others,electricity,electricity
+Canada,resid others,gas,gas
+Canada,resid others,refined liquids,refined liquids
+Canada,comm heating,biomass,biomass
+Canada,comm heating,coal,coal
+Canada,comm heating,electricity,electricity
+Canada,comm heating,gas,gas
+Canada,comm heating,refined liquids,refined liquids
+Canada,comm cooling,electricity,electricity
+Canada,comm cooling,gas,gas
+Canada,comm others,biomass,biomass
+Canada,comm others,coal,coal
+Canada,comm others,electricity,electricity
+Canada,comm others,gas,gas
+Canada,comm others,refined liquids,refined liquids
+Central America and Caribbean,resid heating,biomass,biomass
+Central America and Caribbean,resid heating,coal,coal
+Central America and Caribbean,resid heating,electricity,electricity
+Central America and Caribbean,resid heating,gas,gas
+Central America and Caribbean,resid heating,refined liquids,refined liquids
+Central America and Caribbean,resid heating,traditional biomass,traditional biomass
+Central America and Caribbean,resid cooling,electricity,electricity
+Central America and Caribbean,resid cooling,gas,gas
+Central America and Caribbean,resid others,biomass,biomass
+Central America and Caribbean,resid others,coal,coal
+Central America and Caribbean,resid others,electricity,electricity
+Central America and Caribbean,resid others,gas,gas
+Central America and Caribbean,resid others,refined liquids,refined liquids
+Central America and Caribbean,resid others,traditional biomass,traditional biomass
+Central America and Caribbean,comm heating,biomass,biomass
+Central America and Caribbean,comm heating,coal,coal
+Central America and Caribbean,comm heating,electricity,electricity
+Central America and Caribbean,comm heating,gas,gas
+Central America and Caribbean,comm heating,refined liquids,refined liquids
+Central America and Caribbean,comm cooling,electricity,electricity
+Central America and Caribbean,comm cooling,gas,gas
+Central America and Caribbean,comm others,biomass,biomass
+Central America and Caribbean,comm others,coal,coal
+Central America and Caribbean,comm others,electricity,electricity
+Central America and Caribbean,comm others,gas,gas
+Central America and Caribbean,comm others,refined liquids,refined liquids
+Central Asia,resid heating,biomass,biomass
+Central Asia,resid heating,coal,coal
+Central Asia,resid heating,electricity,electricity
+Central Asia,resid heating,gas,gas
+Central Asia,resid heating,refined liquids,refined liquids
+Central Asia,resid cooling,electricity,electricity
+Central Asia,resid cooling,gas,gas
+Central Asia,resid others,biomass,biomass
+Central Asia,resid others,coal,coal
+Central Asia,resid others,electricity,electricity
+Central Asia,resid others,gas,gas
+Central Asia,resid others,refined liquids,refined liquids
+Central Asia,comm heating,biomass,biomass
+Central Asia,comm heating,coal,coal
+Central Asia,comm heating,electricity,electricity
+Central Asia,comm heating,gas,gas
+Central Asia,comm heating,refined liquids,refined liquids
+Central Asia,comm cooling,electricity,electricity
+Central Asia,comm cooling,gas,gas
+Central Asia,comm others,biomass,biomass
+Central Asia,comm others,coal,coal
+Central Asia,comm others,electricity,electricity
+Central Asia,comm others,gas,gas
+Central Asia,comm others,refined liquids,refined liquids
+China,resid heating,biomass,biomass
+China,resid heating,coal,coal
+China,resid heating,electricity,electricity
+China,resid heating,gas,gas
+China,resid heating,refined liquids,refined liquids
+China,resid heating,traditional biomass,traditional biomass
+China,resid heating,district heat,district heat
+China,resid cooling,electricity,electricity
+China,resid cooling,gas,gas
+China,resid others,biomass,biomass
+China,resid others,coal,coal
+China,resid others,electricity,electricity
+China,resid others,gas,gas
+China,resid others,refined liquids,refined liquids
+China,resid others,traditional biomass,traditional biomass
+China,resid others,district heat,district heat
+China,comm heating,biomass,biomass
+China,comm heating,coal,coal
+China,comm heating,electricity,electricity
+China,comm heating,gas,gas
+China,comm heating,refined liquids,refined liquids
+China,comm heating,district heat,district heat
+China,comm cooling,electricity,electricity
+China,comm cooling,gas,gas
+China,comm others,biomass,biomass
+China,comm others,coal,coal
+China,comm others,electricity,electricity
+China,comm others,gas,gas
+China,comm others,refined liquids,refined liquids
+China,comm others,district heat,district heat
+EU-12,resid heating,biomass,biomass
+EU-12,resid heating,coal,coal
+EU-12,resid heating,electricity,electricity
+EU-12,resid heating,gas,gas
+EU-12,resid heating,refined liquids,refined liquids
+EU-12,resid heating,district heat,district heat
+EU-12,resid cooling,electricity,electricity
+EU-12,resid cooling,gas,gas
+EU-12,resid others,biomass,biomass
+EU-12,resid others,coal,coal
+EU-12,resid others,electricity,electricity
+EU-12,resid others,gas,gas
+EU-12,resid others,refined liquids,refined liquids
+EU-12,resid others,district heat,district heat
+EU-12,comm heating,biomass,biomass
+EU-12,comm heating,coal,coal
+EU-12,comm heating,electricity,electricity
+EU-12,comm heating,gas,gas
+EU-12,comm heating,refined liquids,refined liquids
+EU-12,comm heating,district heat,district heat
+EU-12,comm cooling,electricity,electricity
+EU-12,comm cooling,gas,gas
+EU-12,comm others,biomass,biomass
+EU-12,comm others,coal,coal
+EU-12,comm others,electricity,electricity
+EU-12,comm others,gas,gas
+EU-12,comm others,refined liquids,refined liquids
+EU-12,comm others,district heat,district heat
+EU-15,resid heating,biomass,biomass
+EU-15,resid heating,coal,coal
+EU-15,resid heating,electricity,electricity
+EU-15,resid heating,gas,gas
+EU-15,resid heating,refined liquids,refined liquids
+EU-15,resid cooling,electricity,electricity
+EU-15,resid cooling,gas,gas
+EU-15,resid others,biomass,biomass
+EU-15,resid others,coal,coal
+EU-15,resid others,electricity,electricity
+EU-15,resid others,gas,gas
+EU-15,resid others,refined liquids,refined liquids
+EU-15,comm heating,biomass,biomass
+EU-15,comm heating,coal,coal
+EU-15,comm heating,electricity,electricity
+EU-15,comm heating,gas,gas
+EU-15,comm heating,refined liquids,refined liquids
+EU-15,comm cooling,electricity,electricity
+EU-15,comm cooling,gas,gas
+EU-15,comm others,biomass,biomass
+EU-15,comm others,coal,coal
+EU-15,comm others,electricity,electricity
+EU-15,comm others,gas,gas
+EU-15,comm others,refined liquids,refined liquids
+Europe_Eastern,resid heating,biomass,biomass
+Europe_Eastern,resid heating,coal,coal
+Europe_Eastern,resid heating,electricity,electricity
+Europe_Eastern,resid heating,gas,gas
+Europe_Eastern,resid heating,refined liquids,refined liquids
+Europe_Eastern,resid heating,district heat,district heat
+Europe_Eastern,resid cooling,electricity,electricity
+Europe_Eastern,resid cooling,gas,gas
+Europe_Eastern,resid others,biomass,biomass
+Europe_Eastern,resid others,coal,coal
+Europe_Eastern,resid others,electricity,electricity
+Europe_Eastern,resid others,gas,gas
+Europe_Eastern,resid others,refined liquids,refined liquids
+Europe_Eastern,resid others,district heat,district heat
+Europe_Eastern,comm heating,biomass,biomass
+Europe_Eastern,comm heating,coal,coal
+Europe_Eastern,comm heating,electricity,electricity
+Europe_Eastern,comm heating,gas,gas
+Europe_Eastern,comm heating,refined liquids,refined liquids
+Europe_Eastern,comm heating,district heat,district heat
+Europe_Eastern,comm cooling,electricity,electricity
+Europe_Eastern,comm cooling,gas,gas
+Europe_Eastern,comm others,biomass,biomass
+Europe_Eastern,comm others,coal,coal
+Europe_Eastern,comm others,electricity,electricity
+Europe_Eastern,comm others,gas,gas
+Europe_Eastern,comm others,refined liquids,refined liquids
+Europe_Eastern,comm others,district heat,district heat
+Europe_Non_EU,resid heating,biomass,biomass
+Europe_Non_EU,resid heating,coal,coal
+Europe_Non_EU,resid heating,electricity,electricity
+Europe_Non_EU,resid heating,gas,gas
+Europe_Non_EU,resid heating,refined liquids,refined liquids
+Europe_Non_EU,resid heating,district heat,district heat
+Europe_Non_EU,resid cooling,electricity,electricity
+Europe_Non_EU,resid cooling,gas,gas
+Europe_Non_EU,resid others,biomass,biomass
+Europe_Non_EU,resid others,coal,coal
+Europe_Non_EU,resid others,electricity,electricity
+Europe_Non_EU,resid others,gas,gas
+Europe_Non_EU,resid others,refined liquids,refined liquids
+Europe_Non_EU,resid others,district heat,district heat
+Europe_Non_EU,comm heating,biomass,biomass
+Europe_Non_EU,comm heating,coal,coal
+Europe_Non_EU,comm heating,electricity,electricity
+Europe_Non_EU,comm heating,gas,gas
+Europe_Non_EU,comm heating,refined liquids,refined liquids
+Europe_Non_EU,comm heating,district heat,district heat
+Europe_Non_EU,comm cooling,electricity,electricity
+Europe_Non_EU,comm cooling,gas,gas
+Europe_Non_EU,comm others,biomass,biomass
+Europe_Non_EU,comm others,coal,coal
+Europe_Non_EU,comm others,electricity,electricity
+Europe_Non_EU,comm others,gas,gas
+Europe_Non_EU,comm others,refined liquids,refined liquids
+Europe_Non_EU,comm others,district heat,district heat
+European Free Trade Association,resid heating,biomass,biomass
+European Free Trade Association,resid heating,coal,coal
+European Free Trade Association,resid heating,electricity,electricity
+European Free Trade Association,resid heating,gas,gas
+European Free Trade Association,resid heating,refined liquids,refined liquids
+European Free Trade Association,resid cooling,electricity,electricity
+European Free Trade Association,resid cooling,gas,gas
+European Free Trade Association,resid others,biomass,biomass
+European Free Trade Association,resid others,coal,coal
+European Free Trade Association,resid others,electricity,electricity
+European Free Trade Association,resid others,gas,gas
+European Free Trade Association,resid others,refined liquids,refined liquids
+European Free Trade Association,comm heating,biomass,biomass
+European Free Trade Association,comm heating,coal,coal
+European Free Trade Association,comm heating,electricity,electricity
+European Free Trade Association,comm heating,gas,gas
+European Free Trade Association,comm heating,refined liquids,refined liquids
+European Free Trade Association,comm cooling,electricity,electricity
+European Free Trade Association,comm cooling,gas,gas
+European Free Trade Association,comm others,biomass,biomass
+European Free Trade Association,comm others,coal,coal
+European Free Trade Association,comm others,electricity,electricity
+European Free Trade Association,comm others,gas,gas
+European Free Trade Association,comm others,refined liquids,refined liquids
+India,resid heating,biomass,biomass
+India,resid heating,coal,coal
+India,resid heating,electricity,electricity
+India,resid heating,gas,gas
+India,resid heating,refined liquids,refined liquids
+India,resid heating,traditional biomass,traditional biomass
+India,resid cooling,electricity,electricity
+India,resid cooling,gas,gas
+India,resid others,biomass,biomass
+India,resid others,coal,coal
+India,resid others,electricity,electricity
+India,resid others,gas,gas
+India,resid others,refined liquids,refined liquids
+India,resid others,traditional biomass,traditional biomass
+India,comm heating,biomass,biomass
+India,comm heating,coal,coal
+India,comm heating,electricity,electricity
+India,comm heating,gas,gas
+India,comm heating,refined liquids,refined liquids
+India,comm cooling,electricity,electricity
+India,comm cooling,gas,gas
+India,comm others,biomass,biomass
+India,comm others,coal,coal
+India,comm others,electricity,electricity
+India,comm others,gas,gas
+India,comm others,refined liquids,refined liquids
+Indonesia,resid heating,biomass,biomass
+Indonesia,resid heating,coal,coal
+Indonesia,resid heating,electricity,electricity
+Indonesia,resid heating,gas,gas
+Indonesia,resid heating,refined liquids,refined liquids
+Indonesia,resid heating,traditional biomass,traditional biomass
+Indonesia,resid cooling,electricity,electricity
+Indonesia,resid cooling,gas,gas
+Indonesia,resid others,biomass,biomass
+Indonesia,resid others,coal,coal
+Indonesia,resid others,electricity,electricity
+Indonesia,resid others,gas,gas
+Indonesia,resid others,refined liquids,refined liquids
+Indonesia,resid others,traditional biomass,traditional biomass
+Indonesia,comm heating,biomass,biomass
+Indonesia,comm heating,coal,coal
+Indonesia,comm heating,electricity,electricity
+Indonesia,comm heating,gas,gas
+Indonesia,comm heating,refined liquids,refined liquids
+Indonesia,comm cooling,electricity,electricity
+Indonesia,comm cooling,gas,gas
+Indonesia,comm others,biomass,biomass
+Indonesia,comm others,coal,coal
+Indonesia,comm others,electricity,electricity
+Indonesia,comm others,gas,gas
+Indonesia,comm others,refined liquids,refined liquids
+Japan,resid heating,biomass,biomass
+Japan,resid heating,coal,coal
+Japan,resid heating,electricity,electricity
+Japan,resid heating,gas,gas
+Japan,resid heating,refined liquids,refined liquids
+Japan,resid cooling,electricity,electricity
+Japan,resid cooling,gas,gas
+Japan,resid others,biomass,biomass
+Japan,resid others,coal,coal
+Japan,resid others,electricity,electricity
+Japan,resid others,gas,gas
+Japan,resid others,refined liquids,refined liquids
+Japan,comm heating,biomass,biomass
+Japan,comm heating,coal,coal
+Japan,comm heating,electricity,electricity
+Japan,comm heating,gas,gas
+Japan,comm heating,refined liquids,refined liquids
+Japan,comm cooling,electricity,electricity
+Japan,comm cooling,gas,gas
+Japan,comm others,biomass,biomass
+Japan,comm others,coal,coal
+Japan,comm others,electricity,electricity
+Japan,comm others,gas,gas
+Japan,comm others,refined liquids,refined liquids
+Mexico,resid heating,biomass,biomass
+Mexico,resid heating,coal,coal
+Mexico,resid heating,electricity,electricity
+Mexico,resid heating,gas,gas
+Mexico,resid heating,refined liquids,refined liquids
+Mexico,resid heating,traditional biomass,traditional biomass
+Mexico,resid cooling,electricity,electricity
+Mexico,resid cooling,gas,gas
+Mexico,resid others,biomass,biomass
+Mexico,resid others,coal,coal
+Mexico,resid others,electricity,electricity
+Mexico,resid others,gas,gas
+Mexico,resid others,refined liquids,refined liquids
+Mexico,resid others,traditional biomass,traditional biomass
+Mexico,comm heating,biomass,biomass
+Mexico,comm heating,coal,coal
+Mexico,comm heating,electricity,electricity
+Mexico,comm heating,gas,gas
+Mexico,comm heating,refined liquids,refined liquids
+Mexico,comm cooling,electricity,electricity
+Mexico,comm cooling,gas,gas
+Mexico,comm others,biomass,biomass
+Mexico,comm others,coal,coal
+Mexico,comm others,electricity,electricity
+Mexico,comm others,gas,gas
+Mexico,comm others,refined liquids,refined liquids
+Middle East,resid heating,biomass,biomass
+Middle East,resid heating,coal,coal
+Middle East,resid heating,electricity,electricity
+Middle East,resid heating,gas,gas
+Middle East,resid heating,refined liquids,refined liquids
+Middle East,resid cooling,electricity,electricity
+Middle East,resid cooling,gas,gas
+Middle East,resid others,biomass,biomass
+Middle East,resid others,coal,coal
+Middle East,resid others,electricity,electricity
+Middle East,resid others,gas,gas
+Middle East,resid others,refined liquids,refined liquids
+Middle East,comm heating,biomass,biomass
+Middle East,comm heating,coal,coal
+Middle East,comm heating,electricity,electricity
+Middle East,comm heating,gas,gas
+Middle East,comm heating,refined liquids,refined liquids
+Middle East,comm cooling,electricity,electricity
+Middle East,comm cooling,gas,gas
+Middle East,comm others,biomass,biomass
+Middle East,comm others,coal,coal
+Middle East,comm others,electricity,electricity
+Middle East,comm others,gas,gas
+Middle East,comm others,refined liquids,refined liquids
+Pakistan,resid heating,biomass,biomass
+Pakistan,resid heating,coal,coal
+Pakistan,resid heating,electricity,electricity
+Pakistan,resid heating,gas,gas
+Pakistan,resid heating,refined liquids,refined liquids
+Pakistan,resid heating,traditional biomass,traditional biomass
+Pakistan,resid cooling,electricity,electricity
+Pakistan,resid cooling,gas,gas
+Pakistan,resid others,biomass,biomass
+Pakistan,resid others,coal,coal
+Pakistan,resid others,electricity,electricity
+Pakistan,resid others,gas,gas
+Pakistan,resid others,refined liquids,refined liquids
+Pakistan,resid others,traditional biomass,traditional biomass
+Pakistan,comm heating,biomass,biomass
+Pakistan,comm heating,coal,coal
+Pakistan,comm heating,electricity,electricity
+Pakistan,comm heating,gas,gas
+Pakistan,comm heating,refined liquids,refined liquids
+Pakistan,comm cooling,electricity,electricity
+Pakistan,comm cooling,gas,gas
+Pakistan,comm others,biomass,biomass
+Pakistan,comm others,coal,coal
+Pakistan,comm others,electricity,electricity
+Pakistan,comm others,gas,gas
+Pakistan,comm others,refined liquids,refined liquids
+Russia,resid heating,biomass,biomass
+Russia,resid heating,coal,coal
+Russia,resid heating,electricity,electricity
+Russia,resid heating,gas,gas
+Russia,resid heating,refined liquids,refined liquids
+Russia,resid heating,district heat,district heat
+Russia,resid cooling,electricity,electricity
+Russia,resid cooling,gas,gas
+Russia,resid others,biomass,biomass
+Russia,resid others,coal,coal
+Russia,resid others,electricity,electricity
+Russia,resid others,gas,gas
+Russia,resid others,refined liquids,refined liquids
+Russia,resid others,district heat,district heat
+Russia,comm heating,biomass,biomass
+Russia,comm heating,coal,coal
+Russia,comm heating,electricity,electricity
+Russia,comm heating,gas,gas
+Russia,comm heating,refined liquids,refined liquids
+Russia,comm heating,district heat,district heat
+Russia,comm cooling,electricity,electricity
+Russia,comm cooling,gas,gas
+Russia,comm others,biomass,biomass
+Russia,comm others,coal,coal
+Russia,comm others,electricity,electricity
+Russia,comm others,gas,gas
+Russia,comm others,refined liquids,refined liquids
+Russia,comm others,district heat,district heat
+South Africa,resid heating,biomass,biomass
+South Africa,resid heating,coal,coal
+South Africa,resid heating,electricity,electricity
+South Africa,resid heating,gas,gas
+South Africa,resid heating,refined liquids,refined liquids
+South Africa,resid heating,traditional biomass,traditional biomass
+South Africa,resid cooling,electricity,electricity
+South Africa,resid cooling,gas,gas
+South Africa,resid others,biomass,biomass
+South Africa,resid others,coal,coal
+South Africa,resid others,electricity,electricity
+South Africa,resid others,gas,gas
+South Africa,resid others,refined liquids,refined liquids
+South Africa,resid others,traditional biomass,traditional biomass
+South Africa,comm heating,biomass,biomass
+South Africa,comm heating,coal,coal
+South Africa,comm heating,electricity,electricity
+South Africa,comm heating,gas,gas
+South Africa,comm heating,refined liquids,refined liquids
+South Africa,comm cooling,electricity,electricity
+South Africa,comm cooling,gas,gas
+South Africa,comm others,biomass,biomass
+South Africa,comm others,coal,coal
+South Africa,comm others,electricity,electricity
+South Africa,comm others,gas,gas
+South Africa,comm others,refined liquids,refined liquids
+South America_Northern,resid heating,biomass,biomass
+South America_Northern,resid heating,coal,coal
+South America_Northern,resid heating,electricity,electricity
+South America_Northern,resid heating,gas,gas
+South America_Northern,resid heating,refined liquids,refined liquids
+South America_Northern,resid heating,traditional biomass,traditional biomass
+South America_Northern,resid cooling,electricity,electricity
+South America_Northern,resid cooling,gas,gas
+South America_Northern,resid others,biomass,biomass
+South America_Northern,resid others,coal,coal
+South America_Northern,resid others,electricity,electricity
+South America_Northern,resid others,gas,gas
+South America_Northern,resid others,refined liquids,refined liquids
+South America_Northern,resid others,traditional biomass,traditional biomass
+South America_Northern,comm heating,biomass,biomass
+South America_Northern,comm heating,coal,coal
+South America_Northern,comm heating,electricity,electricity
+South America_Northern,comm heating,gas,gas
+South America_Northern,comm heating,refined liquids,refined liquids
+South America_Northern,comm cooling,electricity,electricity
+South America_Northern,comm cooling,gas,gas
+South America_Northern,comm others,biomass,biomass
+South America_Northern,comm others,coal,coal
+South America_Northern,comm others,electricity,electricity
+South America_Northern,comm others,gas,gas
+South America_Northern,comm others,refined liquids,refined liquids
+South America_Southern,resid heating,biomass,biomass
+South America_Southern,resid heating,coal,coal
+South America_Southern,resid heating,electricity,electricity
+South America_Southern,resid heating,gas,gas
+South America_Southern,resid heating,refined liquids,refined liquids
+South America_Southern,resid heating,traditional biomass,traditional biomass
+South America_Southern,resid cooling,electricity,electricity
+South America_Southern,resid cooling,gas,gas
+South America_Southern,resid others,biomass,biomass
+South America_Southern,resid others,coal,coal
+South America_Southern,resid others,electricity,electricity
+South America_Southern,resid others,gas,gas
+South America_Southern,resid others,refined liquids,refined liquids
+South America_Southern,resid others,traditional biomass,traditional biomass
+South America_Southern,comm heating,biomass,biomass
+South America_Southern,comm heating,coal,coal
+South America_Southern,comm heating,electricity,electricity
+South America_Southern,comm heating,gas,gas
+South America_Southern,comm heating,refined liquids,refined liquids
+South America_Southern,comm cooling,electricity,electricity
+South America_Southern,comm cooling,gas,gas
+South America_Southern,comm others,biomass,biomass
+South America_Southern,comm others,coal,coal
+South America_Southern,comm others,electricity,electricity
+South America_Southern,comm others,gas,gas
+South America_Southern,comm others,refined liquids,refined liquids
+South Asia,resid heating,biomass,biomass
+South Asia,resid heating,coal,coal
+South Asia,resid heating,electricity,electricity
+South Asia,resid heating,gas,gas
+South Asia,resid heating,refined liquids,refined liquids
+South Asia,resid heating,traditional biomass,traditional biomass
+South Asia,resid cooling,electricity,electricity
+South Asia,resid cooling,gas,gas
+South Asia,resid others,biomass,biomass
+South Asia,resid others,coal,coal
+South Asia,resid others,electricity,electricity
+South Asia,resid others,gas,gas
+South Asia,resid others,refined liquids,refined liquids
+South Asia,resid others,traditional biomass,traditional biomass
+South Asia,comm heating,biomass,biomass
+South Asia,comm heating,coal,coal
+South Asia,comm heating,electricity,electricity
+South Asia,comm heating,gas,gas
+South Asia,comm heating,refined liquids,refined liquids
+South Asia,comm cooling,electricity,electricity
+South Asia,comm cooling,gas,gas
+South Asia,comm others,biomass,biomass
+South Asia,comm others,coal,coal
+South Asia,comm others,electricity,electricity
+South Asia,comm others,gas,gas
+South Asia,comm others,refined liquids,refined liquids
+South Korea,resid heating,biomass,biomass
+South Korea,resid heating,coal,coal
+South Korea,resid heating,electricity,electricity
+South Korea,resid heating,gas,gas
+South Korea,resid heating,refined liquids,refined liquids
+South Korea,resid cooling,electricity,electricity
+South Korea,resid cooling,gas,gas
+South Korea,resid others,biomass,biomass
+South Korea,resid others,coal,coal
+South Korea,resid others,electricity,electricity
+South Korea,resid others,gas,gas
+South Korea,resid others,refined liquids,refined liquids
+South Korea,comm heating,biomass,biomass
+South Korea,comm heating,coal,coal
+South Korea,comm heating,electricity,electricity
+South Korea,comm heating,gas,gas
+South Korea,comm heating,refined liquids,refined liquids
+South Korea,comm cooling,electricity,electricity
+South Korea,comm cooling,gas,gas
+South Korea,comm others,biomass,biomass
+South Korea,comm others,coal,coal
+South Korea,comm others,electricity,electricity
+South Korea,comm others,gas,gas
+South Korea,comm others,refined liquids,refined liquids
+Southeast Asia,resid heating,biomass,biomass
+Southeast Asia,resid heating,coal,coal
+Southeast Asia,resid heating,electricity,electricity
+Southeast Asia,resid heating,gas,gas
+Southeast Asia,resid heating,refined liquids,refined liquids
+Southeast Asia,resid heating,traditional biomass,traditional biomass
+Southeast Asia,resid cooling,electricity,electricity
+Southeast Asia,resid cooling,gas,gas
+Southeast Asia,resid others,biomass,biomass
+Southeast Asia,resid others,coal,coal
+Southeast Asia,resid others,electricity,electricity
+Southeast Asia,resid others,gas,gas
+Southeast Asia,resid others,refined liquids,refined liquids
+Southeast Asia,resid others,traditional biomass,traditional biomass
+Southeast Asia,comm heating,biomass,biomass
+Southeast Asia,comm heating,coal,coal
+Southeast Asia,comm heating,electricity,electricity
+Southeast Asia,comm heating,gas,gas
+Southeast Asia,comm heating,refined liquids,refined liquids
+Southeast Asia,comm cooling,electricity,electricity
+Southeast Asia,comm cooling,gas,gas
+Southeast Asia,comm others,biomass,biomass
+Southeast Asia,comm others,coal,coal
+Southeast Asia,comm others,electricity,electricity
+Southeast Asia,comm others,gas,gas
+Southeast Asia,comm others,refined liquids,refined liquids
+Taiwan,resid heating,biomass,biomass
+Taiwan,resid heating,coal,coal
+Taiwan,resid heating,electricity,electricity
+Taiwan,resid heating,gas,gas
+Taiwan,resid heating,refined liquids,refined liquids
+Taiwan,resid cooling,electricity,electricity
+Taiwan,resid cooling,gas,gas
+Taiwan,resid others,biomass,biomass
+Taiwan,resid others,coal,coal
+Taiwan,resid others,electricity,electricity
+Taiwan,resid others,gas,gas
+Taiwan,resid others,refined liquids,refined liquids
+Taiwan,comm heating,biomass,biomass
+Taiwan,comm heating,coal,coal
+Taiwan,comm heating,electricity,electricity
+Taiwan,comm heating,gas,gas
+Taiwan,comm heating,refined liquids,refined liquids
+Taiwan,comm cooling,electricity,electricity
+Taiwan,comm cooling,gas,gas
+Taiwan,comm others,biomass,biomass
+Taiwan,comm others,coal,coal
+Taiwan,comm others,electricity,electricity
+Taiwan,comm others,gas,gas
+Taiwan,comm others,refined liquids,refined liquids
+Argentina,resid heating,biomass,biomass
+Argentina,resid heating,coal,coal
+Argentina,resid heating,electricity,electricity
+Argentina,resid heating,gas,gas
+Argentina,resid heating,refined liquids,refined liquids
+Argentina,resid heating,traditional biomass,traditional biomass
+Argentina,resid cooling,electricity,electricity
+Argentina,resid cooling,gas,gas
+Argentina,resid others,biomass,biomass
+Argentina,resid others,coal,coal
+Argentina,resid others,electricity,electricity
+Argentina,resid others,gas,gas
+Argentina,resid others,refined liquids,refined liquids
+Argentina,resid others,traditional biomass,traditional biomass
+Argentina,comm heating,biomass,biomass
+Argentina,comm heating,coal,coal
+Argentina,comm heating,electricity,electricity
+Argentina,comm heating,gas,gas
+Argentina,comm heating,refined liquids,refined liquids
+Argentina,comm cooling,electricity,electricity
+Argentina,comm cooling,gas,gas
+Argentina,comm others,biomass,biomass
+Argentina,comm others,coal,coal
+Argentina,comm others,electricity,electricity
+Argentina,comm others,gas,gas
+Argentina,comm others,refined liquids,refined liquids
+Colombia,resid heating,biomass,biomass
+Colombia,resid heating,coal,coal
+Colombia,resid heating,electricity,electricity
+Colombia,resid heating,gas,gas
+Colombia,resid heating,refined liquids,refined liquids
+Colombia,resid heating,traditional biomass,traditional biomass
+Colombia,resid cooling,electricity,electricity
+Colombia,resid cooling,gas,gas
+Colombia,resid others,biomass,biomass
+Colombia,resid others,coal,coal
+Colombia,resid others,electricity,electricity
+Colombia,resid others,gas,gas
+Colombia,resid others,refined liquids,refined liquids
+Colombia,resid others,traditional biomass,traditional biomass
+Colombia,comm heating,biomass,biomass
+Colombia,comm heating,coal,coal
+Colombia,comm heating,electricity,electricity
+Colombia,comm heating,gas,gas
+Colombia,comm heating,refined liquids,refined liquids
+Colombia,comm cooling,electricity,electricity
+Colombia,comm cooling,gas,gas
+Colombia,comm others,biomass,biomass
+Colombia,comm others,coal,coal
+Colombia,comm others,electricity,electricity
+Colombia,comm others,gas,gas
+Colombia,comm others,refined liquids,refined liquids
