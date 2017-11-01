@@ -1,0 +1,69 @@
+INPUT_TABLE
+Variable ID
+PriceExp_IntGains
+
+region,gcam.consumer,nodeInput,building.node.input,price.exp.year.fillout,price.exponent,internal.gains.market.name,internal.gains.unit
+USA,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+USA,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Africa_Eastern,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Africa_Eastern,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Africa_Northern,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Africa_Northern,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Africa_Southern,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Africa_Southern,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Africa_Western,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Africa_Western,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Australia_NZ,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Australia_NZ,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Brazil,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Brazil,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Canada,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Canada,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Central America and Caribbean,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Central America and Caribbean,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Central Asia,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Central Asia,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+China,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+China,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+EU-12,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+EU-12,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+EU-15,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+EU-15,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Europe_Eastern,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Europe_Eastern,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Europe_Non_EU,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Europe_Non_EU,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+European Free Trade Association,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+European Free Trade Association,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+India,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+India,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Indonesia,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Indonesia,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Japan,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Japan,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Mexico,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Mexico,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Middle East,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Middle East,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Pakistan,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Pakistan,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Russia,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Russia,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+South Africa,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+South Africa,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+South America_Northern,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+South America_Northern,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+South America_Southern,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+South America_Southern,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+South Asia,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+South Asia,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+South Korea,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+South Korea,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Southeast Asia,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Southeast Asia,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Taiwan,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Taiwan,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Argentina,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Argentina,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
+Colombia,resid,resid,resid_building,1975,-0.1,resid-internal-gains-trial-market,EJ
+Colombia,comm,comm,comm_building,1975,-0.1,comm-internal-gains-trial-market,EJ
