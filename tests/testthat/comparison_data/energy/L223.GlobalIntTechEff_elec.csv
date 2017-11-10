@@ -1,0 +1,115 @@
+INPUT_TABLE
+Variable ID
+GlobalIntTechEff
+
+sector.name,subsector.name,intermittent.technology,year,minicam.energy.input,efficiency,type
+electricity,wind,wind,1975,onshore wind resource,1,Resource
+electricity,solar,PV,1975,global solar resource,1,Resource
+electricity,solar,CSP,1975,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,1975,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,1975,backup_electricity,1,Resource
+electricity,wind,wind,1990,onshore wind resource,1,Resource
+electricity,solar,PV,1990,global solar resource,1,Resource
+electricity,solar,CSP,1990,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,1990,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,1990,backup_electricity,1,Resource
+electricity,wind,wind,2005,onshore wind resource,1,Resource
+electricity,solar,PV,2005,global solar resource,1,Resource
+electricity,solar,CSP,2005,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2005,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2005,backup_electricity,1,Resource
+electricity,wind,wind,2010,onshore wind resource,1,Resource
+electricity,solar,PV,2010,global solar resource,1,Resource
+electricity,solar,CSP,2010,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2010,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2010,backup_electricity,1,Resource
+electricity,wind,wind,2015,onshore wind resource,1,Resource
+electricity,solar,PV,2015,global solar resource,1,Resource
+electricity,solar,CSP,2015,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2015,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2015,backup_electricity,1,Resource
+electricity,wind,wind,2020,onshore wind resource,1,Resource
+electricity,solar,PV,2020,global solar resource,1,Resource
+electricity,solar,CSP,2020,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2020,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2020,backup_electricity,1,Resource
+electricity,wind,wind,2025,onshore wind resource,1,Resource
+electricity,solar,PV,2025,global solar resource,1,Resource
+electricity,solar,CSP,2025,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2025,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2025,backup_electricity,1,Resource
+electricity,wind,wind,2030,onshore wind resource,1,Resource
+electricity,solar,PV,2030,global solar resource,1,Resource
+electricity,solar,CSP,2030,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2030,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2030,backup_electricity,1,Resource
+electricity,wind,wind,2035,onshore wind resource,1,Resource
+electricity,solar,PV,2035,global solar resource,1,Resource
+electricity,solar,CSP,2035,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2035,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2035,backup_electricity,1,Resource
+electricity,wind,wind,2040,onshore wind resource,1,Resource
+electricity,solar,PV,2040,global solar resource,1,Resource
+electricity,solar,CSP,2040,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2040,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2040,backup_electricity,1,Resource
+electricity,wind,wind,2045,onshore wind resource,1,Resource
+electricity,solar,PV,2045,global solar resource,1,Resource
+electricity,solar,CSP,2045,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2045,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2045,backup_electricity,1,Resource
+electricity,wind,wind,2050,onshore wind resource,1,Resource
+electricity,solar,PV,2050,global solar resource,1,Resource
+electricity,solar,CSP,2050,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2050,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2050,backup_electricity,1,Resource
+electricity,wind,wind,2055,onshore wind resource,1,Resource
+electricity,solar,PV,2055,global solar resource,1,Resource
+electricity,solar,CSP,2055,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2055,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2055,backup_electricity,1,Resource
+electricity,wind,wind,2060,onshore wind resource,1,Resource
+electricity,solar,PV,2060,global solar resource,1,Resource
+electricity,solar,CSP,2060,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2060,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2060,backup_electricity,1,Resource
+electricity,wind,wind,2065,onshore wind resource,1,Resource
+electricity,solar,PV,2065,global solar resource,1,Resource
+electricity,solar,CSP,2065,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2065,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2065,backup_electricity,1,Resource
+electricity,wind,wind,2070,onshore wind resource,1,Resource
+electricity,solar,PV,2070,global solar resource,1,Resource
+electricity,solar,CSP,2070,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2070,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2070,backup_electricity,1,Resource
+electricity,wind,wind,2075,onshore wind resource,1,Resource
+electricity,solar,PV,2075,global solar resource,1,Resource
+electricity,solar,CSP,2075,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2075,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2075,backup_electricity,1,Resource
+electricity,wind,wind,2080,onshore wind resource,1,Resource
+electricity,solar,PV,2080,global solar resource,1,Resource
+electricity,solar,CSP,2080,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2080,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2080,backup_electricity,1,Resource
+electricity,wind,wind,2085,onshore wind resource,1,Resource
+electricity,solar,PV,2085,global solar resource,1,Resource
+electricity,solar,CSP,2085,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2085,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2085,backup_electricity,1,Resource
+electricity,wind,wind,2090,onshore wind resource,1,Resource
+electricity,solar,PV,2090,global solar resource,1,Resource
+electricity,solar,CSP,2090,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2090,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2090,backup_electricity,1,Resource
+electricity,wind,wind,2095,onshore wind resource,1,Resource
+electricity,solar,PV,2095,global solar resource,1,Resource
+electricity,solar,CSP,2095,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2095,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2095,backup_electricity,1,Resource
+electricity,wind,wind,2100,onshore wind resource,1,Resource
+electricity,solar,PV,2100,global solar resource,1,Resource
+electricity,solar,CSP,2100,global solar resource,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2100,distributed_solar,1,Resource
+elect_td_bld,rooftop_pv,rooftop_pv,2100,backup_electricity,1,Resource

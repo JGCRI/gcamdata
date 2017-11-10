@@ -1,0 +1,261 @@
+INPUT_TABLE
+Variable ID
+SubsectorInterp
+
+region,supplysector,subsector,apply.to,from.year,to.year,interpolation.function
+USA,electricity,biomass,share-weight,2010,2100,linear
+USA,electricity,nuclear,share-weight,2010,2015,linear
+USA,electricity,nuclear,share-weight,2020,2035,linear
+USA,electricity,nuclear,share-weight,2035,2050,linear
+USA,electricity,wind,share-weight,2010,2100,linear
+USA,electricity,solar,share-weight,2010,2100,linear
+USA,electricity,geothermal,share-weight,2010,2100,linear
+Africa_Eastern,electricity,biomass,share-weight,2010,2100,linear
+Africa_Eastern,electricity,nuclear,share-weight,2010,2015,linear
+Africa_Eastern,electricity,nuclear,share-weight,2020,2035,linear
+Africa_Eastern,electricity,nuclear,share-weight,2035,2050,linear
+Africa_Eastern,electricity,wind,share-weight,2010,2100,linear
+Africa_Eastern,electricity,solar,share-weight,2010,2100,linear
+Africa_Eastern,electricity,geothermal,share-weight,2010,2100,linear
+Africa_Northern,electricity,biomass,share-weight,2010,2100,linear
+Africa_Northern,electricity,nuclear,share-weight,2010,2015,linear
+Africa_Northern,electricity,nuclear,share-weight,2020,2035,linear
+Africa_Northern,electricity,nuclear,share-weight,2035,2050,linear
+Africa_Northern,electricity,wind,share-weight,2010,2100,linear
+Africa_Northern,electricity,solar,share-weight,2010,2100,linear
+Africa_Northern,electricity,geothermal,share-weight,2010,2100,linear
+Africa_Southern,electricity,biomass,share-weight,2010,2100,linear
+Africa_Southern,electricity,nuclear,share-weight,2010,2015,linear
+Africa_Southern,electricity,nuclear,share-weight,2020,2035,linear
+Africa_Southern,electricity,nuclear,share-weight,2035,2050,linear
+Africa_Southern,electricity,wind,share-weight,2010,2100,linear
+Africa_Southern,electricity,solar,share-weight,2010,2100,linear
+Africa_Southern,electricity,geothermal,share-weight,2010,2100,linear
+Africa_Western,electricity,biomass,share-weight,2010,2100,linear
+Africa_Western,electricity,nuclear,share-weight,2010,2015,linear
+Africa_Western,electricity,nuclear,share-weight,2020,2035,linear
+Africa_Western,electricity,nuclear,share-weight,2035,2050,linear
+Africa_Western,electricity,wind,share-weight,2010,2100,linear
+Africa_Western,electricity,solar,share-weight,2010,2100,linear
+Africa_Western,electricity,geothermal,share-weight,2010,2100,linear
+Australia_NZ,electricity,biomass,share-weight,2010,2100,linear
+Australia_NZ,electricity,nuclear,share-weight,2010,2015,linear
+Australia_NZ,electricity,nuclear,share-weight,2020,2035,linear
+Australia_NZ,electricity,nuclear,share-weight,2035,2050,linear
+Australia_NZ,electricity,wind,share-weight,2010,2100,linear
+Australia_NZ,electricity,solar,share-weight,2010,2100,linear
+Australia_NZ,electricity,geothermal,share-weight,2010,2100,linear
+Brazil,electricity,biomass,share-weight,2010,2100,linear
+Brazil,electricity,nuclear,share-weight,2010,2015,linear
+Brazil,electricity,nuclear,share-weight,2020,2035,linear
+Brazil,electricity,nuclear,share-weight,2035,2050,linear
+Brazil,electricity,wind,share-weight,2010,2100,linear
+Brazil,electricity,solar,share-weight,2010,2100,linear
+Brazil,electricity,geothermal,share-weight,2010,2100,linear
+Canada,electricity,biomass,share-weight,2010,2100,linear
+Canada,electricity,nuclear,share-weight,2010,2015,linear
+Canada,electricity,nuclear,share-weight,2020,2035,linear
+Canada,electricity,nuclear,share-weight,2035,2050,linear
+Canada,electricity,wind,share-weight,2010,2100,linear
+Canada,electricity,solar,share-weight,2010,2100,linear
+Canada,electricity,geothermal,share-weight,2010,2100,linear
+Central America and Caribbean,electricity,biomass,share-weight,2010,2100,linear
+Central America and Caribbean,electricity,nuclear,share-weight,2010,2015,linear
+Central America and Caribbean,electricity,nuclear,share-weight,2020,2035,linear
+Central America and Caribbean,electricity,nuclear,share-weight,2035,2050,linear
+Central America and Caribbean,electricity,wind,share-weight,2010,2100,linear
+Central America and Caribbean,electricity,solar,share-weight,2010,2100,linear
+Central America and Caribbean,electricity,geothermal,share-weight,2010,2100,linear
+Central Asia,electricity,biomass,share-weight,2010,2100,linear
+Central Asia,electricity,nuclear,share-weight,2010,2015,linear
+Central Asia,electricity,nuclear,share-weight,2020,2035,linear
+Central Asia,electricity,nuclear,share-weight,2035,2050,linear
+Central Asia,electricity,wind,share-weight,2010,2100,linear
+Central Asia,electricity,solar,share-weight,2010,2100,linear
+Central Asia,electricity,geothermal,share-weight,2010,2100,linear
+China,electricity,biomass,share-weight,2010,2100,linear
+China,electricity,nuclear,share-weight,2010,2015,linear
+China,electricity,nuclear,share-weight,2020,2035,linear
+China,electricity,nuclear,share-weight,2035,2050,linear
+China,electricity,wind,share-weight,2010,2100,linear
+China,electricity,solar,share-weight,2010,2100,linear
+China,electricity,geothermal,share-weight,2010,2100,linear
+EU-12,electricity,biomass,share-weight,2010,2100,linear
+EU-12,electricity,nuclear,share-weight,2010,2015,linear
+EU-12,electricity,nuclear,share-weight,2020,2035,linear
+EU-12,electricity,nuclear,share-weight,2035,2050,linear
+EU-12,electricity,wind,share-weight,2010,2100,linear
+EU-12,electricity,solar,share-weight,2010,2100,linear
+EU-12,electricity,geothermal,share-weight,2010,2100,linear
+EU-15,electricity,biomass,share-weight,2010,2100,linear
+EU-15,electricity,nuclear,share-weight,2010,2015,linear
+EU-15,electricity,nuclear,share-weight,2020,2035,linear
+EU-15,electricity,nuclear,share-weight,2035,2050,linear
+EU-15,electricity,wind,share-weight,2010,2100,linear
+EU-15,electricity,solar,share-weight,2010,2100,linear
+EU-15,electricity,geothermal,share-weight,2010,2100,linear
+Europe_Eastern,electricity,biomass,share-weight,2010,2100,linear
+Europe_Eastern,electricity,nuclear,share-weight,2010,2015,linear
+Europe_Eastern,electricity,nuclear,share-weight,2020,2035,linear
+Europe_Eastern,electricity,nuclear,share-weight,2035,2050,linear
+Europe_Eastern,electricity,wind,share-weight,2010,2100,linear
+Europe_Eastern,electricity,solar,share-weight,2010,2100,linear
+Europe_Eastern,electricity,geothermal,share-weight,2010,2100,linear
+Europe_Non_EU,electricity,biomass,share-weight,2010,2100,linear
+Europe_Non_EU,electricity,nuclear,share-weight,2010,2015,linear
+Europe_Non_EU,electricity,nuclear,share-weight,2020,2035,linear
+Europe_Non_EU,electricity,nuclear,share-weight,2035,2050,linear
+Europe_Non_EU,electricity,wind,share-weight,2010,2100,linear
+Europe_Non_EU,electricity,solar,share-weight,2010,2100,linear
+Europe_Non_EU,electricity,geothermal,share-weight,2010,2100,linear
+European Free Trade Association,electricity,biomass,share-weight,2010,2100,linear
+European Free Trade Association,electricity,nuclear,share-weight,2010,2015,linear
+European Free Trade Association,electricity,nuclear,share-weight,2020,2035,linear
+European Free Trade Association,electricity,nuclear,share-weight,2035,2050,linear
+European Free Trade Association,electricity,wind,share-weight,2010,2100,linear
+European Free Trade Association,electricity,solar,share-weight,2010,2100,linear
+European Free Trade Association,electricity,geothermal,share-weight,2010,2100,linear
+India,electricity,biomass,share-weight,2010,2100,linear
+India,electricity,nuclear,share-weight,2010,2015,linear
+India,electricity,nuclear,share-weight,2020,2035,linear
+India,electricity,nuclear,share-weight,2035,2050,linear
+India,electricity,wind,share-weight,2010,2100,linear
+India,electricity,solar,share-weight,2010,2100,linear
+India,electricity,geothermal,share-weight,2010,2100,linear
+Indonesia,electricity,biomass,share-weight,2010,2100,linear
+Indonesia,electricity,nuclear,share-weight,2010,2015,linear
+Indonesia,electricity,nuclear,share-weight,2020,2035,linear
+Indonesia,electricity,nuclear,share-weight,2035,2050,linear
+Indonesia,electricity,wind,share-weight,2010,2100,linear
+Indonesia,electricity,solar,share-weight,2010,2100,linear
+Indonesia,electricity,geothermal,share-weight,2010,2100,linear
+Japan,electricity,biomass,share-weight,2010,2100,linear
+Japan,electricity,nuclear,share-weight,2010,2015,linear
+Japan,electricity,nuclear,share-weight,2020,2035,linear
+Japan,electricity,nuclear,share-weight,2035,2050,linear
+Japan,electricity,wind,share-weight,2010,2100,linear
+Japan,electricity,solar,share-weight,2010,2100,linear
+Japan,electricity,geothermal,share-weight,2010,2100,linear
+Mexico,electricity,biomass,share-weight,2010,2100,linear
+Mexico,electricity,nuclear,share-weight,2010,2015,linear
+Mexico,electricity,nuclear,share-weight,2020,2035,linear
+Mexico,electricity,nuclear,share-weight,2035,2050,linear
+Mexico,electricity,wind,share-weight,2010,2100,linear
+Mexico,electricity,solar,share-weight,2010,2100,linear
+Mexico,electricity,geothermal,share-weight,2010,2100,linear
+Middle East,electricity,biomass,share-weight,2010,2100,linear
+Middle East,electricity,nuclear,share-weight,2010,2015,linear
+Middle East,electricity,nuclear,share-weight,2020,2035,linear
+Middle East,electricity,nuclear,share-weight,2035,2050,linear
+Middle East,electricity,wind,share-weight,2010,2100,linear
+Middle East,electricity,solar,share-weight,2010,2100,linear
+Middle East,electricity,geothermal,share-weight,2010,2100,linear
+Pakistan,electricity,biomass,share-weight,2010,2100,linear
+Pakistan,electricity,nuclear,share-weight,2010,2015,linear
+Pakistan,electricity,nuclear,share-weight,2020,2035,linear
+Pakistan,electricity,nuclear,share-weight,2035,2050,linear
+Pakistan,electricity,wind,share-weight,2010,2100,linear
+Pakistan,electricity,solar,share-weight,2010,2100,linear
+Pakistan,electricity,geothermal,share-weight,2010,2100,linear
+Russia,electricity,biomass,share-weight,2010,2100,linear
+Russia,electricity,nuclear,share-weight,2010,2015,linear
+Russia,electricity,nuclear,share-weight,2020,2035,linear
+Russia,electricity,nuclear,share-weight,2035,2050,linear
+Russia,electricity,wind,share-weight,2010,2100,linear
+Russia,electricity,solar,share-weight,2010,2100,linear
+Russia,electricity,geothermal,share-weight,2010,2100,linear
+South Africa,electricity,biomass,share-weight,2010,2100,linear
+South Africa,electricity,nuclear,share-weight,2010,2015,linear
+South Africa,electricity,nuclear,share-weight,2020,2035,linear
+South Africa,electricity,nuclear,share-weight,2035,2050,linear
+South Africa,electricity,wind,share-weight,2010,2100,linear
+South Africa,electricity,solar,share-weight,2010,2100,linear
+South Africa,electricity,geothermal,share-weight,2010,2100,linear
+South America_Northern,electricity,biomass,share-weight,2010,2100,linear
+South America_Northern,electricity,nuclear,share-weight,2010,2015,linear
+South America_Northern,electricity,nuclear,share-weight,2020,2035,linear
+South America_Northern,electricity,nuclear,share-weight,2035,2050,linear
+South America_Northern,electricity,wind,share-weight,2010,2100,linear
+South America_Northern,electricity,solar,share-weight,2010,2100,linear
+South America_Northern,electricity,geothermal,share-weight,2010,2100,linear
+South America_Southern,electricity,biomass,share-weight,2010,2100,linear
+South America_Southern,electricity,nuclear,share-weight,2010,2015,linear
+South America_Southern,electricity,nuclear,share-weight,2020,2035,linear
+South America_Southern,electricity,nuclear,share-weight,2035,2050,linear
+South America_Southern,electricity,wind,share-weight,2010,2100,linear
+South America_Southern,electricity,solar,share-weight,2010,2100,linear
+South America_Southern,electricity,geothermal,share-weight,2010,2100,linear
+South Asia,electricity,biomass,share-weight,2010,2100,linear
+South Asia,electricity,nuclear,share-weight,2010,2015,linear
+South Asia,electricity,nuclear,share-weight,2020,2035,linear
+South Asia,electricity,nuclear,share-weight,2035,2050,linear
+South Asia,electricity,wind,share-weight,2010,2100,linear
+South Asia,electricity,solar,share-weight,2010,2100,linear
+South Asia,electricity,geothermal,share-weight,2010,2100,linear
+South Korea,electricity,biomass,share-weight,2010,2100,linear
+South Korea,electricity,nuclear,share-weight,2010,2015,linear
+South Korea,electricity,nuclear,share-weight,2020,2035,linear
+South Korea,electricity,nuclear,share-weight,2035,2050,linear
+South Korea,electricity,wind,share-weight,2010,2100,linear
+South Korea,electricity,solar,share-weight,2010,2100,linear
+South Korea,electricity,geothermal,share-weight,2010,2100,linear
+Southeast Asia,electricity,biomass,share-weight,2010,2100,linear
+Southeast Asia,electricity,nuclear,share-weight,2010,2015,linear
+Southeast Asia,electricity,nuclear,share-weight,2020,2035,linear
+Southeast Asia,electricity,nuclear,share-weight,2035,2050,linear
+Southeast Asia,electricity,wind,share-weight,2010,2100,linear
+Southeast Asia,electricity,solar,share-weight,2010,2100,linear
+Southeast Asia,electricity,geothermal,share-weight,2010,2100,linear
+Taiwan,electricity,biomass,share-weight,2010,2100,linear
+Taiwan,electricity,nuclear,share-weight,2010,2015,linear
+Taiwan,electricity,nuclear,share-weight,2020,2035,linear
+Taiwan,electricity,nuclear,share-weight,2035,2050,linear
+Taiwan,electricity,wind,share-weight,2010,2100,linear
+Taiwan,electricity,solar,share-weight,2010,2100,linear
+Taiwan,electricity,geothermal,share-weight,2010,2100,linear
+Argentina,electricity,biomass,share-weight,2010,2100,linear
+Argentina,electricity,nuclear,share-weight,2010,2015,linear
+Argentina,electricity,nuclear,share-weight,2020,2035,linear
+Argentina,electricity,nuclear,share-weight,2035,2050,linear
+Argentina,electricity,wind,share-weight,2010,2100,linear
+Argentina,electricity,solar,share-weight,2010,2100,linear
+Argentina,electricity,geothermal,share-weight,2010,2100,linear
+Colombia,electricity,biomass,share-weight,2010,2100,linear
+Colombia,electricity,nuclear,share-weight,2010,2015,linear
+Colombia,electricity,nuclear,share-weight,2020,2035,linear
+Colombia,electricity,nuclear,share-weight,2035,2050,linear
+Colombia,electricity,wind,share-weight,2010,2100,linear
+Colombia,electricity,solar,share-weight,2010,2100,linear
+Colombia,electricity,geothermal,share-weight,2010,2100,linear
+USA,electricity,refined liquids,share-weight,2010,2100,fixed
+Africa_Eastern,electricity,refined liquids,share-weight,2010,2100,fixed
+Africa_Northern,electricity,refined liquids,share-weight,2010,2100,linear
+Africa_Southern,electricity,refined liquids,share-weight,2010,2100,linear
+Africa_Western,electricity,refined liquids,share-weight,2010,2100,linear
+Australia_NZ,electricity,refined liquids,share-weight,2010,2100,fixed
+Brazil,electricity,refined liquids,share-weight,2010,2100,linear
+Canada,electricity,refined liquids,share-weight,2010,2100,fixed
+Central America and Caribbean,electricity,refined liquids,share-weight,2010,2100,fixed
+Central Asia,electricity,refined liquids,share-weight,2010,2100,fixed
+China,electricity,refined liquids,share-weight,2010,2100,fixed
+EU-12,electricity,refined liquids,share-weight,2010,2100,linear
+EU-15,electricity,refined liquids,share-weight,2010,2100,fixed
+Europe_Eastern,electricity,refined liquids,share-weight,2010,2100,fixed
+Europe_Non_EU,electricity,refined liquids,share-weight,2010,2100,fixed
+European Free Trade Association,electricity,refined liquids,share-weight,2010,2100,fixed
+India,electricity,refined liquids,share-weight,2010,2100,linear
+Indonesia,electricity,refined liquids,share-weight,2010,2100,linear
+Japan,electricity,refined liquids,share-weight,2010,2100,linear
+Mexico,electricity,refined liquids,share-weight,2010,2100,linear
+Middle East,electricity,refined liquids,share-weight,2010,2100,linear
+Pakistan,electricity,refined liquids,share-weight,2010,2100,linear
+Russia,electricity,refined liquids,share-weight,2010,2100,fixed
+South Africa,electricity,refined liquids,share-weight,2010,2100,fixed
+South America_Northern,electricity,refined liquids,share-weight,2010,2100,linear
+South America_Southern,electricity,refined liquids,share-weight,2010,2100,linear
+South Asia,electricity,refined liquids,share-weight,2010,2100,linear
+South Korea,electricity,refined liquids,share-weight,2010,2100,fixed
+Southeast Asia,electricity,refined liquids,share-weight,2010,2100,linear
+Taiwan,electricity,refined liquids,share-weight,2010,2100,linear
+Argentina,electricity,refined liquids,share-weight,2010,2100,linear
+Colombia,electricity,refined liquids,share-weight,2010,2100,linear
