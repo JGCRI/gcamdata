@@ -1,0 +1,165 @@
+INPUT_TABLE
+Variable ID
+SubsectorLogit
+
+region,supplysector,subsector,logit.year.fillout,logit.exponent
+USA,cement,cement,1975,-12
+USA,process heat cement,biomass,1975,-6
+USA,process heat cement,coal,1975,-6
+USA,process heat cement,gas,1975,-6
+USA,process heat cement,refined liquids,1975,-6
+Africa_Eastern,cement,cement,1975,-12
+Africa_Eastern,process heat cement,biomass,1975,-6
+Africa_Eastern,process heat cement,coal,1975,-6
+Africa_Eastern,process heat cement,gas,1975,-6
+Africa_Eastern,process heat cement,refined liquids,1975,-6
+Africa_Northern,cement,cement,1975,-12
+Africa_Northern,process heat cement,biomass,1975,-6
+Africa_Northern,process heat cement,coal,1975,-6
+Africa_Northern,process heat cement,gas,1975,-6
+Africa_Northern,process heat cement,refined liquids,1975,-6
+Africa_Southern,cement,cement,1975,-12
+Africa_Southern,process heat cement,biomass,1975,-6
+Africa_Southern,process heat cement,coal,1975,-6
+Africa_Southern,process heat cement,gas,1975,-6
+Africa_Southern,process heat cement,refined liquids,1975,-6
+Africa_Western,cement,cement,1975,-12
+Africa_Western,process heat cement,biomass,1975,-6
+Africa_Western,process heat cement,coal,1975,-6
+Africa_Western,process heat cement,gas,1975,-6
+Africa_Western,process heat cement,refined liquids,1975,-6
+Australia_NZ,cement,cement,1975,-12
+Australia_NZ,process heat cement,biomass,1975,-6
+Australia_NZ,process heat cement,coal,1975,-6
+Australia_NZ,process heat cement,gas,1975,-6
+Australia_NZ,process heat cement,refined liquids,1975,-6
+Brazil,cement,cement,1975,-12
+Brazil,process heat cement,biomass,1975,-6
+Brazil,process heat cement,coal,1975,-6
+Brazil,process heat cement,gas,1975,-6
+Brazil,process heat cement,refined liquids,1975,-6
+Canada,cement,cement,1975,-12
+Canada,process heat cement,biomass,1975,-6
+Canada,process heat cement,coal,1975,-6
+Canada,process heat cement,gas,1975,-6
+Canada,process heat cement,refined liquids,1975,-6
+Central America and Caribbean,cement,cement,1975,-12
+Central America and Caribbean,process heat cement,biomass,1975,-6
+Central America and Caribbean,process heat cement,coal,1975,-6
+Central America and Caribbean,process heat cement,gas,1975,-6
+Central America and Caribbean,process heat cement,refined liquids,1975,-6
+Central Asia,cement,cement,1975,-12
+Central Asia,process heat cement,biomass,1975,-6
+Central Asia,process heat cement,coal,1975,-6
+Central Asia,process heat cement,gas,1975,-6
+Central Asia,process heat cement,refined liquids,1975,-6
+China,cement,cement,1975,-12
+China,process heat cement,biomass,1975,-6
+China,process heat cement,coal,1975,-6
+China,process heat cement,gas,1975,-6
+China,process heat cement,refined liquids,1975,-6
+EU-12,cement,cement,1975,-12
+EU-12,process heat cement,biomass,1975,-6
+EU-12,process heat cement,coal,1975,-6
+EU-12,process heat cement,gas,1975,-6
+EU-12,process heat cement,refined liquids,1975,-6
+EU-15,cement,cement,1975,-12
+EU-15,process heat cement,biomass,1975,-6
+EU-15,process heat cement,coal,1975,-6
+EU-15,process heat cement,gas,1975,-6
+EU-15,process heat cement,refined liquids,1975,-6
+Europe_Eastern,cement,cement,1975,-12
+Europe_Eastern,process heat cement,biomass,1975,-6
+Europe_Eastern,process heat cement,coal,1975,-6
+Europe_Eastern,process heat cement,gas,1975,-6
+Europe_Eastern,process heat cement,refined liquids,1975,-6
+Europe_Non_EU,cement,cement,1975,-12
+Europe_Non_EU,process heat cement,biomass,1975,-6
+Europe_Non_EU,process heat cement,coal,1975,-6
+Europe_Non_EU,process heat cement,gas,1975,-6
+Europe_Non_EU,process heat cement,refined liquids,1975,-6
+European Free Trade Association,cement,cement,1975,-12
+European Free Trade Association,process heat cement,biomass,1975,-6
+European Free Trade Association,process heat cement,coal,1975,-6
+European Free Trade Association,process heat cement,gas,1975,-6
+European Free Trade Association,process heat cement,refined liquids,1975,-6
+India,cement,cement,1975,-12
+India,process heat cement,biomass,1975,-6
+India,process heat cement,coal,1975,-6
+India,process heat cement,gas,1975,-6
+India,process heat cement,refined liquids,1975,-6
+Indonesia,cement,cement,1975,-12
+Indonesia,process heat cement,biomass,1975,-6
+Indonesia,process heat cement,coal,1975,-6
+Indonesia,process heat cement,gas,1975,-6
+Indonesia,process heat cement,refined liquids,1975,-6
+Japan,cement,cement,1975,-12
+Japan,process heat cement,biomass,1975,-6
+Japan,process heat cement,coal,1975,-6
+Japan,process heat cement,gas,1975,-6
+Japan,process heat cement,refined liquids,1975,-6
+Mexico,cement,cement,1975,-12
+Mexico,process heat cement,biomass,1975,-6
+Mexico,process heat cement,coal,1975,-6
+Mexico,process heat cement,gas,1975,-6
+Mexico,process heat cement,refined liquids,1975,-6
+Middle East,cement,cement,1975,-12
+Middle East,process heat cement,biomass,1975,-6
+Middle East,process heat cement,coal,1975,-6
+Middle East,process heat cement,gas,1975,-6
+Middle East,process heat cement,refined liquids,1975,-6
+Pakistan,cement,cement,1975,-12
+Pakistan,process heat cement,biomass,1975,-6
+Pakistan,process heat cement,coal,1975,-6
+Pakistan,process heat cement,gas,1975,-6
+Pakistan,process heat cement,refined liquids,1975,-6
+Russia,cement,cement,1975,-12
+Russia,process heat cement,biomass,1975,-6
+Russia,process heat cement,coal,1975,-6
+Russia,process heat cement,gas,1975,-6
+Russia,process heat cement,refined liquids,1975,-6
+South Africa,cement,cement,1975,-12
+South Africa,process heat cement,biomass,1975,-6
+South Africa,process heat cement,coal,1975,-6
+South Africa,process heat cement,gas,1975,-6
+South Africa,process heat cement,refined liquids,1975,-6
+South America_Northern,cement,cement,1975,-12
+South America_Northern,process heat cement,biomass,1975,-6
+South America_Northern,process heat cement,coal,1975,-6
+South America_Northern,process heat cement,gas,1975,-6
+South America_Northern,process heat cement,refined liquids,1975,-6
+South America_Southern,cement,cement,1975,-12
+South America_Southern,process heat cement,biomass,1975,-6
+South America_Southern,process heat cement,coal,1975,-6
+South America_Southern,process heat cement,gas,1975,-6
+South America_Southern,process heat cement,refined liquids,1975,-6
+South Asia,cement,cement,1975,-12
+South Asia,process heat cement,biomass,1975,-6
+South Asia,process heat cement,coal,1975,-6
+South Asia,process heat cement,gas,1975,-6
+South Asia,process heat cement,refined liquids,1975,-6
+South Korea,cement,cement,1975,-12
+South Korea,process heat cement,biomass,1975,-6
+South Korea,process heat cement,coal,1975,-6
+South Korea,process heat cement,gas,1975,-6
+South Korea,process heat cement,refined liquids,1975,-6
+Southeast Asia,cement,cement,1975,-12
+Southeast Asia,process heat cement,biomass,1975,-6
+Southeast Asia,process heat cement,coal,1975,-6
+Southeast Asia,process heat cement,gas,1975,-6
+Southeast Asia,process heat cement,refined liquids,1975,-6
+Taiwan,cement,cement,1975,-12
+Taiwan,process heat cement,biomass,1975,-6
+Taiwan,process heat cement,coal,1975,-6
+Taiwan,process heat cement,gas,1975,-6
+Taiwan,process heat cement,refined liquids,1975,-6
+Argentina,cement,cement,1975,-12
+Argentina,process heat cement,biomass,1975,-6
+Argentina,process heat cement,coal,1975,-6
+Argentina,process heat cement,gas,1975,-6
+Argentina,process heat cement,refined liquids,1975,-6
+Colombia,cement,cement,1975,-12
+Colombia,process heat cement,biomass,1975,-6
+Colombia,process heat cement,coal,1975,-6
+Colombia,process heat cement,gas,1975,-6
+Colombia,process heat cement,refined liquids,1975,-6
