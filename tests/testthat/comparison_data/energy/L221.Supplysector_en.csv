@@ -1,0 +1,290 @@
+INPUT_TABLE
+Variable ID
+Supplysector
+
+region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent
+USA,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+USA,regional coal,EJ,EJ,1975$/GJ,1975,-3
+USA,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+USA,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+USA,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+USA,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+USA,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+USA,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Brazil,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Brazil,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Brazil,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Brazil,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Brazil,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Brazil,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Brazil,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Brazil,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Canada,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Canada,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Canada,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Canada,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Canada,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Canada,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Canada,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Canada,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+China,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+China,regional coal,EJ,EJ,1975$/GJ,1975,-3
+China,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+China,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+China,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+China,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+China,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+China,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+EU-12,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+EU-12,regional coal,EJ,EJ,1975$/GJ,1975,-3
+EU-12,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+EU-12,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+EU-12,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+EU-12,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+EU-12,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+EU-12,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+EU-15,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+EU-15,regional coal,EJ,EJ,1975$/GJ,1975,-3
+EU-15,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+EU-15,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+EU-15,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+EU-15,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+EU-15,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+EU-15,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,regional coal,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+India,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+India,regional coal,EJ,EJ,1975$/GJ,1975,-3
+India,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+India,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+India,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+India,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+India,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+India,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Japan,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Japan,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Japan,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Japan,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Japan,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Japan,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Japan,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Japan,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Mexico,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Mexico,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Mexico,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Mexico,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Mexico,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Mexico,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Mexico,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Mexico,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Middle East,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Middle East,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Middle East,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Middle East,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Middle East,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Middle East,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Middle East,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Middle East,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Russia,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Russia,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Russia,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Russia,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Russia,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Russia,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Russia,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Russia,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+South Africa,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+South Africa,regional coal,EJ,EJ,1975$/GJ,1975,-3
+South Africa,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+South Africa,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+South Africa,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+South Africa,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+South Africa,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+South Africa,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,regional coal,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,regional coal,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+South Asia,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+South Asia,regional coal,EJ,EJ,1975$/GJ,1975,-3
+South Asia,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+South Asia,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+South Asia,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+South Asia,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+South Asia,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+South Asia,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+South Korea,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+South Korea,regional coal,EJ,EJ,1975$/GJ,1975,-3
+South Korea,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+South Korea,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+South Korea,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+South Korea,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+South Korea,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+South Korea,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Argentina,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Argentina,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Argentina,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Argentina,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Argentina,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Argentina,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Argentina,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Argentina,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
+Colombia,regional biomass,EJ,EJ,1975$/GJ,1975,-3
+Colombia,regional coal,EJ,EJ,1975$/GJ,1975,-3
+Colombia,regional natural gas,EJ,EJ,1975$/GJ,1975,-3
+Colombia,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3
+Colombia,regional oil,EJ,EJ,1975$/GJ,1975,-6
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3
+Colombia,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Colombia,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3
+Colombia,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3
