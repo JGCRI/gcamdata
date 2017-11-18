@@ -1,6 +1,6 @@
 #' module_aglu_L2252.land_input_5_irr_mgmt
 #'
-#' This chunk producesthe inputs for the lowest level of the land nest, including disaggregated crop technologies:
+#' Produce the inputs for the lowest level of the land nest, including disaggregated crop technologies:
 #' L2252.LN5_Logit, L2252.LN5_HistMgdAllocation_crop, L2252.LN5_MgdAllocation_crop,
 #' L2252.LN5_HistMgdAllocation_bio, L2252.LN5_MgdAllocation_bio, L2252.LN5_MgdCarbon_crop,
 #' L2252.LN5_MgdCarbon_bio, L2252.LN5_LeafGhostShare, L2252.LN5_NodeGhostShare
@@ -132,9 +132,9 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
 
     # convert_LN4_to_LN5
     # A function to carry LN4 information down to LN5
-    convert_LN4_to_LN5 <- function(data, names){
+    convert_LN4_to_LN5 <- function(data, names) {
       data %>%
-        repeat_add_columns(tibble(level = c( "lo", "hi" ))) %>%
+        repeat_add_columns(tibble(level = c("lo", "hi"))) %>%
         mutate(LandNode5 = LandLeaf,
                LandLeaf = paste(LandNode5, level, sep = aglu.MGMT_DELIMITER)) ->
         data_new
@@ -179,11 +179,11 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       mutate(LandNode5 = paste(LandNode4, Irr_Rfd, sep = aglu.IRR_DELIMITER),
              logit.exponent = aglu.MGMT_LOGIT_EXP,
              logit.type = aglu.MGMT_LOGIT_TYPE) %>%
-      select(one_of(c(LEVEL2_DATA_NAMES[["LN5_Logit"]], "logit.type"))) ->
+      select(LEVEL2_DATA_NAMES[["LN5_Logit"]], "logit.type") ->
       L2252.LN5_Logit
 
 
-    # create an intermediary table of land allocation for each landleaf (= crop-glu-irr-mgmt)
+    # Create an intermediary table of land allocation for each landleaf (= crop-glu-irr-mgmt)
     # in each region-year. This is used for both HistMgdAllocation and MgdAllocation for crops.
     L181.LC_bm2_R_C_Yh_GLU_irr_level %>%
       mutate(Irr_Rfd = toupper(Irr_Rfd),
@@ -310,7 +310,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
              LandNode4 = paste(GCAM_commodity, GLU, sep = "_"),
              LandNode5 = paste(LandNode4, Irr_Rfd, sep = "_"),
              LandLeaf = paste(LandNode5, level, sep = "_")) %>%
-      select(one_of(c(LEVEL2_DATA_NAMES[["LN5_MgdCarbon"]], "GLU", "Irr_Rfd", "level"))) ->
+      select(c(LEVEL2_DATA_NAMES[["LN5_MgdCarbon"]], "GLU", "Irr_Rfd", "level")) ->
       L2252.LN5_MgdCarbon_bio
 
     # The old data system starts from average bioenergy yields (not separated by hi/lo).
@@ -360,7 +360,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       select(-landshare) %>%
       # For bio techs with no ghost share info, set lo- and hi-input techs to 0.5
       replace_na(replace = list(ghost.unnormalized.share = 0.5)) %>%
-      select(one_of(c(LEVEL2_DATA_NAMES[["LN5_LeafGhostShare"]], "GLU", "Irr_Rfd", "level"))) ->
+      select(c(LEVEL2_DATA_NAMES[["LN5_LeafGhostShare"]], "GLU", "Irr_Rfd", "level")) ->
       L2252.LN5_LeafGhostShare
 
     # Calculate share of irrigated vs rainfed land
@@ -398,7 +398,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       # For bio techs with no ghost share info, set irr to 0 and rfd to 1
       mutate(ghost.unnormalized.share = if_else(is.na(ghost.unnormalized.share) & Irr_Rfd == "RFD", 1, ghost.unnormalized.share)) %>%
       mutate(ghost.unnormalized.share = if_else(is.na(ghost.unnormalized.share) & Irr_Rfd == "IRR", 0, ghost.unnormalized.share)) %>%
-      select(one_of(c(LEVEL2_DATA_NAMES[["LN5_NodeGhostShare"]]))) ->
+      select(c(LEVEL2_DATA_NAMES[["LN5_NodeGhostShare"]])) ->
       L2252.LN5_NodeGhostShare
 
     # Produce outputs

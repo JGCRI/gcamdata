@@ -73,8 +73,7 @@ module_water_L1233.Elec_water <- function(command, ...) {
 
     # INTERPOLATE A23.CoolingSystemShares_RG3 FOR HISTORICAL YEARS AND HISTORICAL + FUTURE YEARS
     A23.CoolingSystemShares_RG3 %>%
-      gather(year, value, -region_GCAM3, -plant_type, -cooling_system, -water_type) %>%
-      mutate(year = as.integer(year)) %>%
+      gather_years %>%
       complete(nesting(region_GCAM3, plant_type, cooling_system, water_type),
                year = c(HISTORICAL_YEARS, FUTURE_YEARS)) %>%
       group_by(region_GCAM3, plant_type, cooling_system, water_type) %>%
@@ -209,7 +208,7 @@ module_water_L1233.Elec_water <- function(command, ...) {
       repeat_add_columns(select(iso_GCAM_regID, GCAM_region_ID) %>% unique()) %>%
       arrange(GCAM_region_ID) %>%
       left_join(select(L1233.R_iso_RG3, -value, -iso), by = "GCAM_region_ID") %>%
-      mutate(plant_type = sub( "\\ \\(CCS\\)", "", plant_type)) %>%
+      mutate(plant_type = sub("\\ \\(CCS\\)", "", plant_type)) %>%
       # ^^ sub out CCS parentheses to allow clean join with A.23, which doesn't classify tech. at this detail
       right_join(A23.CoolingSystemShares_RG3_LF,
                  by = c("cooling_system", "water_type", "plant_type", "region_GCAM3")) %>%

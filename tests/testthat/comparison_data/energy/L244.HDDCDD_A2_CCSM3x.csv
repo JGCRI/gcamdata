@@ -1,0 +1,2821 @@
+INPUT_TABLE
+Variable ID
+HDDCDD
+
+region,gcam.consumer,nodeInput,building.node.input,thermal.building.service.input,year,degree.days
+USA,comm,comm,comm_building,comm cooling,1975,1331
+Africa_Eastern,comm,comm,comm_building,comm cooling,1975,2678
+Africa_Northern,comm,comm,comm_building,comm cooling,1975,2215
+Africa_Southern,comm,comm,comm_building,comm cooling,1975,2676
+Africa_Western,comm,comm,comm_building,comm cooling,1975,5079
+Australia_NZ,comm,comm,comm_building,comm cooling,1975,834
+Brazil,comm,comm,comm_building,comm cooling,1975,2612
+Canada,comm,comm,comm_building,comm cooling,1975,278
+Central America and Caribbean,comm,comm,comm_building,comm cooling,1975,3645
+Central Asia,comm,comm,comm_building,comm cooling,1975,1038
+China,comm,comm,comm_building,comm cooling,1975,1564
+EU-12,comm,comm,comm_building,comm cooling,1975,327
+EU-15,comm,comm,comm_building,comm cooling,1975,344
+Europe_Eastern,comm,comm,comm_building,comm cooling,1975,433
+Europe_Non_EU,comm,comm,comm_building,comm cooling,1975,618
+European Free Trade Association,comm,comm,comm_building,comm cooling,1975,78
+India,comm,comm,comm_building,comm cooling,1975,5034
+Indonesia,comm,comm,comm_building,comm cooling,1975,5080
+Japan,comm,comm,comm_building,comm cooling,1975,929
+Mexico,comm,comm,comm_building,comm cooling,1975,1485
+Middle East,comm,comm,comm_building,comm cooling,1975,2659
+Pakistan,comm,comm,comm_building,comm cooling,1975,4499
+Russia,comm,comm,comm_building,comm cooling,1975,313
+South Africa,comm,comm,comm_building,comm cooling,1975,1217
+South America_Northern,comm,comm,comm_building,comm cooling,1975,4115
+South America_Southern,comm,comm,comm_building,comm cooling,1975,964
+South Asia,comm,comm,comm_building,comm cooling,1975,4031
+South Korea,comm,comm,comm_building,comm cooling,1975,816
+Southeast Asia,comm,comm,comm_building,comm cooling,1975,4564
+Taiwan,comm,comm,comm_building,comm cooling,1975,2087
+Argentina,comm,comm,comm_building,comm cooling,1975,1236
+Colombia,comm,comm,comm_building,comm cooling,1975,2022
+USA,comm,comm,comm_building,comm heating,1975,4463
+Africa_Eastern,comm,comm,comm_building,comm heating,1975,342
+Africa_Northern,comm,comm,comm_building,comm heating,1975,1527
+Africa_Southern,comm,comm,comm_building,comm heating,1975,275
+Africa_Western,comm,comm,comm_building,comm heating,1975,14
+Australia_NZ,comm,comm,comm_building,comm heating,1975,2303
+Brazil,comm,comm,comm_building,comm heating,1975,313
+Canada,comm,comm,comm_building,comm heating,1975,8397
+Central America and Caribbean,comm,comm,comm_building,comm heating,1975,59
+Central Asia,comm,comm,comm_building,comm heating,1975,6657
+China,comm,comm,comm_building,comm heating,1975,4383
+EU-12,comm,comm,comm_building,comm heating,1975,6421
+EU-15,comm,comm,comm_building,comm heating,1975,5092
+Europe_Eastern,comm,comm,comm_building,comm heating,1975,6917
+Europe_Non_EU,comm,comm,comm_building,comm heating,1975,4271
+European Free Trade Association,comm,comm,comm_building,comm heating,1975,7718
+India,comm,comm,comm_building,comm heating,1975,344
+Indonesia,comm,comm,comm_building,comm heating,1975,0
+Japan,comm,comm,comm_building,comm heating,1975,4418
+Mexico,comm,comm,comm_building,comm heating,1975,1426
+Middle East,comm,comm,comm_building,comm heating,1975,2567
+Pakistan,comm,comm,comm_building,comm heating,1975,1160
+Russia,comm,comm,comm_building,comm heating,1975,9548
+South Africa,comm,comm,comm_building,comm heating,1975,1516
+South America_Northern,comm,comm,comm_building,comm heating,1975,10
+South America_Southern,comm,comm,comm_building,comm heating,1975,2976
+South Asia,comm,comm,comm_building,comm heating,1975,973
+South Korea,comm,comm,comm_building,comm heating,1975,5261
+Southeast Asia,comm,comm,comm_building,comm heating,1975,629
+Taiwan,comm,comm,comm_building,comm heating,1975,1323
+Argentina,comm,comm,comm_building,comm heating,1975,2118
+Colombia,comm,comm,comm_building,comm heating,1975,1008
+USA,resid,resid,resid_building,resid cooling,1975,1331
+Africa_Eastern,resid,resid,resid_building,resid cooling,1975,2678
+Africa_Northern,resid,resid,resid_building,resid cooling,1975,2215
+Africa_Southern,resid,resid,resid_building,resid cooling,1975,2676
+Africa_Western,resid,resid,resid_building,resid cooling,1975,5079
+Australia_NZ,resid,resid,resid_building,resid cooling,1975,834
+Brazil,resid,resid,resid_building,resid cooling,1975,2612
+Canada,resid,resid,resid_building,resid cooling,1975,278
+Central America and Caribbean,resid,resid,resid_building,resid cooling,1975,3645
+Central Asia,resid,resid,resid_building,resid cooling,1975,1038
+China,resid,resid,resid_building,resid cooling,1975,1564
+EU-12,resid,resid,resid_building,resid cooling,1975,327
+EU-15,resid,resid,resid_building,resid cooling,1975,344
+Europe_Eastern,resid,resid,resid_building,resid cooling,1975,433
+Europe_Non_EU,resid,resid,resid_building,resid cooling,1975,618
+European Free Trade Association,resid,resid,resid_building,resid cooling,1975,78
+India,resid,resid,resid_building,resid cooling,1975,5034
+Indonesia,resid,resid,resid_building,resid cooling,1975,5080
+Japan,resid,resid,resid_building,resid cooling,1975,929
+Mexico,resid,resid,resid_building,resid cooling,1975,1485
+Middle East,resid,resid,resid_building,resid cooling,1975,2659
+Pakistan,resid,resid,resid_building,resid cooling,1975,4499
+Russia,resid,resid,resid_building,resid cooling,1975,313
+South Africa,resid,resid,resid_building,resid cooling,1975,1217
+South America_Northern,resid,resid,resid_building,resid cooling,1975,4115
+South America_Southern,resid,resid,resid_building,resid cooling,1975,964
+South Asia,resid,resid,resid_building,resid cooling,1975,4031
+South Korea,resid,resid,resid_building,resid cooling,1975,816
+Southeast Asia,resid,resid,resid_building,resid cooling,1975,4564
+Taiwan,resid,resid,resid_building,resid cooling,1975,2087
+Argentina,resid,resid,resid_building,resid cooling,1975,1236
+Colombia,resid,resid,resid_building,resid cooling,1975,2022
+USA,resid,resid,resid_building,resid heating,1975,4463
+Africa_Eastern,resid,resid,resid_building,resid heating,1975,342
+Africa_Northern,resid,resid,resid_building,resid heating,1975,1527
+Africa_Southern,resid,resid,resid_building,resid heating,1975,275
+Africa_Western,resid,resid,resid_building,resid heating,1975,14
+Australia_NZ,resid,resid,resid_building,resid heating,1975,2303
+Brazil,resid,resid,resid_building,resid heating,1975,313
+Canada,resid,resid,resid_building,resid heating,1975,8397
+Central America and Caribbean,resid,resid,resid_building,resid heating,1975,59
+Central Asia,resid,resid,resid_building,resid heating,1975,6657
+China,resid,resid,resid_building,resid heating,1975,4383
+EU-12,resid,resid,resid_building,resid heating,1975,6421
+EU-15,resid,resid,resid_building,resid heating,1975,5092
+Europe_Eastern,resid,resid,resid_building,resid heating,1975,6917
+Europe_Non_EU,resid,resid,resid_building,resid heating,1975,4271
+European Free Trade Association,resid,resid,resid_building,resid heating,1975,7718
+India,resid,resid,resid_building,resid heating,1975,344
+Indonesia,resid,resid,resid_building,resid heating,1975,0
+Japan,resid,resid,resid_building,resid heating,1975,4418
+Mexico,resid,resid,resid_building,resid heating,1975,1426
+Middle East,resid,resid,resid_building,resid heating,1975,2567
+Pakistan,resid,resid,resid_building,resid heating,1975,1160
+Russia,resid,resid,resid_building,resid heating,1975,9548
+South Africa,resid,resid,resid_building,resid heating,1975,1516
+South America_Northern,resid,resid,resid_building,resid heating,1975,10
+South America_Southern,resid,resid,resid_building,resid heating,1975,2976
+South Asia,resid,resid,resid_building,resid heating,1975,973
+South Korea,resid,resid,resid_building,resid heating,1975,5261
+Southeast Asia,resid,resid,resid_building,resid heating,1975,629
+Taiwan,resid,resid,resid_building,resid heating,1975,1323
+Argentina,resid,resid,resid_building,resid heating,1975,2118
+Colombia,resid,resid,resid_building,resid heating,1975,1008
+USA,comm,comm,comm_building,comm cooling,1990,1418
+Africa_Eastern,comm,comm,comm_building,comm cooling,1990,2836
+Africa_Northern,comm,comm,comm_building,comm cooling,1990,2341
+Africa_Southern,comm,comm,comm_building,comm cooling,1990,2766
+Africa_Western,comm,comm,comm_building,comm cooling,1990,5149
+Australia_NZ,comm,comm,comm_building,comm cooling,1990,901
+Brazil,comm,comm,comm_building,comm cooling,1990,2778
+Canada,comm,comm,comm_building,comm cooling,1990,313
+Central America and Caribbean,comm,comm,comm_building,comm cooling,1990,3733
+Central Asia,comm,comm,comm_building,comm cooling,1990,1175
+China,comm,comm,comm_building,comm cooling,1990,1629
+EU-12,comm,comm,comm_building,comm cooling,1990,357
+EU-15,comm,comm,comm_building,comm cooling,1990,392
+Europe_Eastern,comm,comm,comm_building,comm cooling,1990,477
+Europe_Non_EU,comm,comm,comm_building,comm cooling,1990,690
+European Free Trade Association,comm,comm,comm_building,comm cooling,1990,109
+India,comm,comm,comm_building,comm cooling,1990,5126
+Indonesia,comm,comm,comm_building,comm cooling,1990,5219
+Japan,comm,comm,comm_building,comm cooling,1990,983
+Mexico,comm,comm,comm_building,comm cooling,1990,1543
+Middle East,comm,comm,comm_building,comm cooling,1990,2874
+Pakistan,comm,comm,comm_building,comm cooling,1990,4561
+Russia,comm,comm,comm_building,comm cooling,1990,373
+South Africa,comm,comm,comm_building,comm cooling,1990,1286
+South America_Northern,comm,comm,comm_building,comm cooling,1990,4212
+South America_Southern,comm,comm,comm_building,comm cooling,1990,1057
+South Asia,comm,comm,comm_building,comm cooling,1990,4245
+South Korea,comm,comm,comm_building,comm cooling,1990,876
+Southeast Asia,comm,comm,comm_building,comm cooling,1990,4688
+Taiwan,comm,comm,comm_building,comm cooling,1990,2157
+Argentina,comm,comm,comm_building,comm cooling,1990,1317
+Colombia,comm,comm,comm_building,comm cooling,1990,2101
+USA,comm,comm,comm_building,comm heating,1990,4319
+Africa_Eastern,comm,comm,comm_building,comm heating,1990,302
+Africa_Northern,comm,comm,comm_building,comm heating,1990,1467
+Africa_Southern,comm,comm,comm_building,comm heating,1990,259
+Africa_Western,comm,comm,comm_building,comm heating,1990,13
+Australia_NZ,comm,comm,comm_building,comm heating,1990,2182
+Brazil,comm,comm,comm_building,comm heating,1990,285
+Canada,comm,comm,comm_building,comm heating,1990,8146
+Central America and Caribbean,comm,comm,comm_building,comm heating,1990,57
+Central Asia,comm,comm,comm_building,comm heating,1990,6342
+China,comm,comm,comm_building,comm heating,1990,4250
+EU-12,comm,comm,comm_building,comm heating,1990,6265
+EU-15,comm,comm,comm_building,comm heating,1990,4903
+Europe_Eastern,comm,comm,comm_building,comm heating,1990,6755
+Europe_Non_EU,comm,comm,comm_building,comm heating,1990,4096
+European Free Trade Association,comm,comm,comm_building,comm heating,1990,7474
+India,comm,comm,comm_building,comm heating,1990,324
+Indonesia,comm,comm,comm_building,comm heating,1990,0
+Japan,comm,comm,comm_building,comm heating,1990,4281
+Mexico,comm,comm,comm_building,comm heating,1990,1344
+Middle East,comm,comm,comm_building,comm heating,1990,2410
+Pakistan,comm,comm,comm_building,comm heating,1990,1090
+Russia,comm,comm,comm_building,comm heating,1990,9280
+South Africa,comm,comm,comm_building,comm heating,1990,1438
+South America_Northern,comm,comm,comm_building,comm heating,1990,9
+South America_Southern,comm,comm,comm_building,comm heating,1990,2794
+South Asia,comm,comm,comm_building,comm heating,1990,742
+South Korea,comm,comm,comm_building,comm heating,1990,5099
+Southeast Asia,comm,comm,comm_building,comm heating,1990,559
+Taiwan,comm,comm,comm_building,comm heating,1990,1278
+Argentina,comm,comm,comm_building,comm heating,1990,2025
+Colombia,comm,comm,comm_building,comm heating,1990,943
+USA,resid,resid,resid_building,resid cooling,1990,1418
+Africa_Eastern,resid,resid,resid_building,resid cooling,1990,2836
+Africa_Northern,resid,resid,resid_building,resid cooling,1990,2341
+Africa_Southern,resid,resid,resid_building,resid cooling,1990,2766
+Africa_Western,resid,resid,resid_building,resid cooling,1990,5149
+Australia_NZ,resid,resid,resid_building,resid cooling,1990,901
+Brazil,resid,resid,resid_building,resid cooling,1990,2778
+Canada,resid,resid,resid_building,resid cooling,1990,313
+Central America and Caribbean,resid,resid,resid_building,resid cooling,1990,3733
+Central Asia,resid,resid,resid_building,resid cooling,1990,1175
+China,resid,resid,resid_building,resid cooling,1990,1629
+EU-12,resid,resid,resid_building,resid cooling,1990,357
+EU-15,resid,resid,resid_building,resid cooling,1990,392
+Europe_Eastern,resid,resid,resid_building,resid cooling,1990,477
+Europe_Non_EU,resid,resid,resid_building,resid cooling,1990,690
+European Free Trade Association,resid,resid,resid_building,resid cooling,1990,109
+India,resid,resid,resid_building,resid cooling,1990,5126
+Indonesia,resid,resid,resid_building,resid cooling,1990,5219
+Japan,resid,resid,resid_building,resid cooling,1990,983
+Mexico,resid,resid,resid_building,resid cooling,1990,1543
+Middle East,resid,resid,resid_building,resid cooling,1990,2874
+Pakistan,resid,resid,resid_building,resid cooling,1990,4561
+Russia,resid,resid,resid_building,resid cooling,1990,373
+South Africa,resid,resid,resid_building,resid cooling,1990,1286
+South America_Northern,resid,resid,resid_building,resid cooling,1990,4212
+South America_Southern,resid,resid,resid_building,resid cooling,1990,1057
+South Asia,resid,resid,resid_building,resid cooling,1990,4245
+South Korea,resid,resid,resid_building,resid cooling,1990,876
+Southeast Asia,resid,resid,resid_building,resid cooling,1990,4688
+Taiwan,resid,resid,resid_building,resid cooling,1990,2157
+Argentina,resid,resid,resid_building,resid cooling,1990,1317
+Colombia,resid,resid,resid_building,resid cooling,1990,2101
+USA,resid,resid,resid_building,resid heating,1990,4319
+Africa_Eastern,resid,resid,resid_building,resid heating,1990,302
+Africa_Northern,resid,resid,resid_building,resid heating,1990,1467
+Africa_Southern,resid,resid,resid_building,resid heating,1990,259
+Africa_Western,resid,resid,resid_building,resid heating,1990,13
+Australia_NZ,resid,resid,resid_building,resid heating,1990,2182
+Brazil,resid,resid,resid_building,resid heating,1990,285
+Canada,resid,resid,resid_building,resid heating,1990,8146
+Central America and Caribbean,resid,resid,resid_building,resid heating,1990,57
+Central Asia,resid,resid,resid_building,resid heating,1990,6342
+China,resid,resid,resid_building,resid heating,1990,4250
+EU-12,resid,resid,resid_building,resid heating,1990,6265
+EU-15,resid,resid,resid_building,resid heating,1990,4903
+Europe_Eastern,resid,resid,resid_building,resid heating,1990,6755
+Europe_Non_EU,resid,resid,resid_building,resid heating,1990,4096
+European Free Trade Association,resid,resid,resid_building,resid heating,1990,7474
+India,resid,resid,resid_building,resid heating,1990,324
+Indonesia,resid,resid,resid_building,resid heating,1990,0
+Japan,resid,resid,resid_building,resid heating,1990,4281
+Mexico,resid,resid,resid_building,resid heating,1990,1344
+Middle East,resid,resid,resid_building,resid heating,1990,2410
+Pakistan,resid,resid,resid_building,resid heating,1990,1090
+Russia,resid,resid,resid_building,resid heating,1990,9280
+South Africa,resid,resid,resid_building,resid heating,1990,1438
+South America_Northern,resid,resid,resid_building,resid heating,1990,9
+South America_Southern,resid,resid,resid_building,resid heating,1990,2794
+South Asia,resid,resid,resid_building,resid heating,1990,742
+South Korea,resid,resid,resid_building,resid heating,1990,5099
+Southeast Asia,resid,resid,resid_building,resid heating,1990,559
+Taiwan,resid,resid,resid_building,resid heating,1990,1278
+Argentina,resid,resid,resid_building,resid heating,1990,2025
+Colombia,resid,resid,resid_building,resid heating,1990,943
+USA,comm,comm,comm_building,comm cooling,2005,1549
+Africa_Eastern,comm,comm,comm_building,comm cooling,2005,2972
+Africa_Northern,comm,comm,comm_building,comm cooling,2005,2578
+Africa_Southern,comm,comm,comm_building,comm cooling,2005,3007
+Africa_Western,comm,comm,comm_building,comm cooling,2005,5344
+Australia_NZ,comm,comm,comm_building,comm cooling,2005,963
+Brazil,comm,comm,comm_building,comm cooling,2005,2944
+Canada,comm,comm,comm_building,comm cooling,2005,368
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2005,3828
+Central Asia,comm,comm,comm_building,comm cooling,2005,1378
+China,comm,comm,comm_building,comm cooling,2005,1744
+EU-12,comm,comm,comm_building,comm cooling,2005,428
+EU-15,comm,comm,comm_building,comm cooling,2005,459
+Europe_Eastern,comm,comm,comm_building,comm cooling,2005,561
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2005,811
+European Free Trade Association,comm,comm,comm_building,comm cooling,2005,155
+India,comm,comm,comm_building,comm cooling,2005,5267
+Indonesia,comm,comm,comm_building,comm cooling,2005,5409
+Japan,comm,comm,comm_building,comm cooling,2005,1056
+Mexico,comm,comm,comm_building,comm cooling,2005,1663
+Middle East,comm,comm,comm_building,comm cooling,2005,3136
+Pakistan,comm,comm,comm_building,comm cooling,2005,4689
+Russia,comm,comm,comm_building,comm cooling,2005,463
+South Africa,comm,comm,comm_building,comm cooling,2005,1383
+South America_Northern,comm,comm,comm_building,comm cooling,2005,4397
+South America_Southern,comm,comm,comm_building,comm cooling,2005,1161
+South Asia,comm,comm,comm_building,comm cooling,2005,4220
+South Korea,comm,comm,comm_building,comm cooling,2005,966
+Southeast Asia,comm,comm,comm_building,comm cooling,2005,4837
+Taiwan,comm,comm,comm_building,comm cooling,2005,2262
+Argentina,comm,comm,comm_building,comm cooling,2005,1416
+Colombia,comm,comm,comm_building,comm cooling,2005,2236
+USA,comm,comm,comm_building,comm heating,2005,4110
+Africa_Eastern,comm,comm,comm_building,comm heating,2005,259
+Africa_Northern,comm,comm,comm_building,comm heating,2005,1342
+Africa_Southern,comm,comm,comm_building,comm heating,2005,208
+Africa_Western,comm,comm,comm_building,comm heating,2005,11
+Australia_NZ,comm,comm,comm_building,comm heating,2005,2055
+Brazil,comm,comm,comm_building,comm heating,2005,259
+Canada,comm,comm,comm_building,comm heating,2005,7804
+Central America and Caribbean,comm,comm,comm_building,comm heating,2005,54
+Central Asia,comm,comm,comm_building,comm heating,2005,5940
+China,comm,comm,comm_building,comm heating,2005,4080
+EU-12,comm,comm,comm_building,comm heating,2005,6029
+EU-15,comm,comm,comm_building,comm heating,2005,4672
+Europe_Eastern,comm,comm,comm_building,comm heating,2005,6576
+Europe_Non_EU,comm,comm,comm_building,comm heating,2005,3857
+European Free Trade Association,comm,comm,comm_building,comm heating,2005,7149
+India,comm,comm,comm_building,comm heating,2005,293
+Indonesia,comm,comm,comm_building,comm heating,2005,0
+Japan,comm,comm,comm_building,comm heating,2005,4091
+Mexico,comm,comm,comm_building,comm heating,2005,1219
+Middle East,comm,comm,comm_building,comm heating,2005,2156
+Pakistan,comm,comm,comm_building,comm heating,2005,994
+Russia,comm,comm,comm_building,comm heating,2005,8983
+South Africa,comm,comm,comm_building,comm heating,2005,1335
+South America_Northern,comm,comm,comm_building,comm heating,2005,7
+South America_Southern,comm,comm,comm_building,comm heating,2005,2617
+South Asia,comm,comm,comm_building,comm heating,2005,923
+South Korea,comm,comm,comm_building,comm heating,2005,4888
+Southeast Asia,comm,comm,comm_building,comm heating,2005,503
+Taiwan,comm,comm,comm_building,comm heating,2005,1210
+Argentina,comm,comm,comm_building,comm heating,2005,1927
+Colombia,comm,comm,comm_building,comm heating,2005,848
+USA,resid,resid,resid_building,resid cooling,2005,1549
+Africa_Eastern,resid,resid,resid_building,resid cooling,2005,2972
+Africa_Northern,resid,resid,resid_building,resid cooling,2005,2578
+Africa_Southern,resid,resid,resid_building,resid cooling,2005,3007
+Africa_Western,resid,resid,resid_building,resid cooling,2005,5344
+Australia_NZ,resid,resid,resid_building,resid cooling,2005,963
+Brazil,resid,resid,resid_building,resid cooling,2005,2944
+Canada,resid,resid,resid_building,resid cooling,2005,368
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2005,3828
+Central Asia,resid,resid,resid_building,resid cooling,2005,1378
+China,resid,resid,resid_building,resid cooling,2005,1744
+EU-12,resid,resid,resid_building,resid cooling,2005,428
+EU-15,resid,resid,resid_building,resid cooling,2005,459
+Europe_Eastern,resid,resid,resid_building,resid cooling,2005,561
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2005,811
+European Free Trade Association,resid,resid,resid_building,resid cooling,2005,155
+India,resid,resid,resid_building,resid cooling,2005,5267
+Indonesia,resid,resid,resid_building,resid cooling,2005,5409
+Japan,resid,resid,resid_building,resid cooling,2005,1056
+Mexico,resid,resid,resid_building,resid cooling,2005,1663
+Middle East,resid,resid,resid_building,resid cooling,2005,3136
+Pakistan,resid,resid,resid_building,resid cooling,2005,4689
+Russia,resid,resid,resid_building,resid cooling,2005,463
+South Africa,resid,resid,resid_building,resid cooling,2005,1383
+South America_Northern,resid,resid,resid_building,resid cooling,2005,4397
+South America_Southern,resid,resid,resid_building,resid cooling,2005,1161
+South Asia,resid,resid,resid_building,resid cooling,2005,4220
+South Korea,resid,resid,resid_building,resid cooling,2005,966
+Southeast Asia,resid,resid,resid_building,resid cooling,2005,4837
+Taiwan,resid,resid,resid_building,resid cooling,2005,2262
+Argentina,resid,resid,resid_building,resid cooling,2005,1416
+Colombia,resid,resid,resid_building,resid cooling,2005,2236
+USA,resid,resid,resid_building,resid heating,2005,4110
+Africa_Eastern,resid,resid,resid_building,resid heating,2005,259
+Africa_Northern,resid,resid,resid_building,resid heating,2005,1342
+Africa_Southern,resid,resid,resid_building,resid heating,2005,208
+Africa_Western,resid,resid,resid_building,resid heating,2005,11
+Australia_NZ,resid,resid,resid_building,resid heating,2005,2055
+Brazil,resid,resid,resid_building,resid heating,2005,259
+Canada,resid,resid,resid_building,resid heating,2005,7804
+Central America and Caribbean,resid,resid,resid_building,resid heating,2005,54
+Central Asia,resid,resid,resid_building,resid heating,2005,5940
+China,resid,resid,resid_building,resid heating,2005,4080
+EU-12,resid,resid,resid_building,resid heating,2005,6029
+EU-15,resid,resid,resid_building,resid heating,2005,4672
+Europe_Eastern,resid,resid,resid_building,resid heating,2005,6576
+Europe_Non_EU,resid,resid,resid_building,resid heating,2005,3857
+European Free Trade Association,resid,resid,resid_building,resid heating,2005,7149
+India,resid,resid,resid_building,resid heating,2005,293
+Indonesia,resid,resid,resid_building,resid heating,2005,0
+Japan,resid,resid,resid_building,resid heating,2005,4091
+Mexico,resid,resid,resid_building,resid heating,2005,1219
+Middle East,resid,resid,resid_building,resid heating,2005,2156
+Pakistan,resid,resid,resid_building,resid heating,2005,994
+Russia,resid,resid,resid_building,resid heating,2005,8983
+South Africa,resid,resid,resid_building,resid heating,2005,1335
+South America_Northern,resid,resid,resid_building,resid heating,2005,7
+South America_Southern,resid,resid,resid_building,resid heating,2005,2617
+South Asia,resid,resid,resid_building,resid heating,2005,923
+South Korea,resid,resid,resid_building,resid heating,2005,4888
+Southeast Asia,resid,resid,resid_building,resid heating,2005,503
+Taiwan,resid,resid,resid_building,resid heating,2005,1210
+Argentina,resid,resid,resid_building,resid heating,2005,1927
+Colombia,resid,resid,resid_building,resid heating,2005,848
+USA,comm,comm,comm_building,comm cooling,2010,1599
+Africa_Eastern,comm,comm,comm_building,comm cooling,2010,3041
+Africa_Northern,comm,comm,comm_building,comm cooling,2010,2672
+Africa_Southern,comm,comm,comm_building,comm cooling,2010,3100
+Africa_Western,comm,comm,comm_building,comm cooling,2010,5433
+Australia_NZ,comm,comm,comm_building,comm cooling,2010,991
+Brazil,comm,comm,comm_building,comm cooling,2010,3002
+Canada,comm,comm,comm_building,comm cooling,2010,391
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2010,3856
+Central Asia,comm,comm,comm_building,comm cooling,2010,1431
+China,comm,comm,comm_building,comm cooling,2010,1790
+EU-12,comm,comm,comm_building,comm cooling,2010,459
+EU-15,comm,comm,comm_building,comm cooling,2010,490
+Europe_Eastern,comm,comm,comm_building,comm cooling,2010,596
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2010,857
+European Free Trade Association,comm,comm,comm_building,comm cooling,2010,173
+India,comm,comm,comm_building,comm cooling,2010,5325
+Indonesia,comm,comm,comm_building,comm cooling,2010,5480
+Japan,comm,comm,comm_building,comm cooling,2010,1084
+Mexico,comm,comm,comm_building,comm cooling,2010,1716
+Middle East,comm,comm,comm_building,comm cooling,2010,3288
+Pakistan,comm,comm,comm_building,comm cooling,2010,4746
+Russia,comm,comm,comm_building,comm cooling,2010,495
+South Africa,comm,comm,comm_building,comm cooling,2010,1425
+South America_Northern,comm,comm,comm_building,comm cooling,2010,4469
+South America_Southern,comm,comm,comm_building,comm cooling,2010,1202
+South Asia,comm,comm,comm_building,comm cooling,2010,4242
+South Korea,comm,comm,comm_building,comm cooling,2010,1000
+Southeast Asia,comm,comm,comm_building,comm cooling,2010,4898
+Taiwan,comm,comm,comm_building,comm cooling,2010,2305
+Argentina,comm,comm,comm_building,comm cooling,2010,1452
+Colombia,comm,comm,comm_building,comm cooling,2010,2289
+USA,comm,comm,comm_building,comm heating,2010,4034
+Africa_Eastern,comm,comm,comm_building,comm heating,2010,240
+Africa_Northern,comm,comm,comm_building,comm heating,2010,1293
+Africa_Southern,comm,comm,comm_building,comm heating,2010,188
+Africa_Western,comm,comm,comm_building,comm heating,2010,10
+Australia_NZ,comm,comm,comm_building,comm heating,2010,2003
+Brazil,comm,comm,comm_building,comm heating,2010,249
+Canada,comm,comm,comm_building,comm heating,2010,7684
+Central America and Caribbean,comm,comm,comm_building,comm heating,2010,54
+Central Asia,comm,comm,comm_building,comm heating,2010,5866
+China,comm,comm,comm_building,comm heating,2010,4018
+EU-12,comm,comm,comm_building,comm heating,2010,5946
+EU-15,comm,comm,comm_building,comm heating,2010,4584
+Europe_Eastern,comm,comm,comm_building,comm heating,2010,6510
+Europe_Non_EU,comm,comm,comm_building,comm heating,2010,3780
+European Free Trade Association,comm,comm,comm_building,comm heating,2010,7045
+India,comm,comm,comm_building,comm heating,2010,282
+Indonesia,comm,comm,comm_building,comm heating,2010,0
+Japan,comm,comm,comm_building,comm heating,2010,4022
+Mexico,comm,comm,comm_building,comm heating,2010,1170
+Middle East,comm,comm,comm_building,comm heating,2010,2024
+Pakistan,comm,comm,comm_building,comm heating,2010,959
+Russia,comm,comm,comm_building,comm heating,2010,8882
+South Africa,comm,comm,comm_building,comm heating,2010,1295
+South America_Northern,comm,comm,comm_building,comm heating,2010,6
+South America_Southern,comm,comm,comm_building,comm heating,2010,2551
+South Asia,comm,comm,comm_building,comm heating,2010,946
+South Korea,comm,comm,comm_building,comm heating,2010,4814
+Southeast Asia,comm,comm,comm_building,comm heating,2010,474
+Taiwan,comm,comm,comm_building,comm heating,2010,1184
+Argentina,comm,comm,comm_building,comm heating,2010,1894
+Colombia,comm,comm,comm_building,comm heating,2010,813
+USA,resid,resid,resid_building,resid cooling,2010,1599
+Africa_Eastern,resid,resid,resid_building,resid cooling,2010,3041
+Africa_Northern,resid,resid,resid_building,resid cooling,2010,2672
+Africa_Southern,resid,resid,resid_building,resid cooling,2010,3100
+Africa_Western,resid,resid,resid_building,resid cooling,2010,5433
+Australia_NZ,resid,resid,resid_building,resid cooling,2010,991
+Brazil,resid,resid,resid_building,resid cooling,2010,3002
+Canada,resid,resid,resid_building,resid cooling,2010,391
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2010,3856
+Central Asia,resid,resid,resid_building,resid cooling,2010,1431
+China,resid,resid,resid_building,resid cooling,2010,1790
+EU-12,resid,resid,resid_building,resid cooling,2010,459
+EU-15,resid,resid,resid_building,resid cooling,2010,490
+Europe_Eastern,resid,resid,resid_building,resid cooling,2010,596
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2010,857
+European Free Trade Association,resid,resid,resid_building,resid cooling,2010,173
+India,resid,resid,resid_building,resid cooling,2010,5325
+Indonesia,resid,resid,resid_building,resid cooling,2010,5480
+Japan,resid,resid,resid_building,resid cooling,2010,1084
+Mexico,resid,resid,resid_building,resid cooling,2010,1716
+Middle East,resid,resid,resid_building,resid cooling,2010,3288
+Pakistan,resid,resid,resid_building,resid cooling,2010,4746
+Russia,resid,resid,resid_building,resid cooling,2010,495
+South Africa,resid,resid,resid_building,resid cooling,2010,1425
+South America_Northern,resid,resid,resid_building,resid cooling,2010,4469
+South America_Southern,resid,resid,resid_building,resid cooling,2010,1202
+South Asia,resid,resid,resid_building,resid cooling,2010,4242
+South Korea,resid,resid,resid_building,resid cooling,2010,1000
+Southeast Asia,resid,resid,resid_building,resid cooling,2010,4898
+Taiwan,resid,resid,resid_building,resid cooling,2010,2305
+Argentina,resid,resid,resid_building,resid cooling,2010,1452
+Colombia,resid,resid,resid_building,resid cooling,2010,2289
+USA,resid,resid,resid_building,resid heating,2010,4034
+Africa_Eastern,resid,resid,resid_building,resid heating,2010,240
+Africa_Northern,resid,resid,resid_building,resid heating,2010,1293
+Africa_Southern,resid,resid,resid_building,resid heating,2010,188
+Africa_Western,resid,resid,resid_building,resid heating,2010,10
+Australia_NZ,resid,resid,resid_building,resid heating,2010,2003
+Brazil,resid,resid,resid_building,resid heating,2010,249
+Canada,resid,resid,resid_building,resid heating,2010,7684
+Central America and Caribbean,resid,resid,resid_building,resid heating,2010,54
+Central Asia,resid,resid,resid_building,resid heating,2010,5866
+China,resid,resid,resid_building,resid heating,2010,4018
+EU-12,resid,resid,resid_building,resid heating,2010,5946
+EU-15,resid,resid,resid_building,resid heating,2010,4584
+Europe_Eastern,resid,resid,resid_building,resid heating,2010,6510
+Europe_Non_EU,resid,resid,resid_building,resid heating,2010,3780
+European Free Trade Association,resid,resid,resid_building,resid heating,2010,7045
+India,resid,resid,resid_building,resid heating,2010,282
+Indonesia,resid,resid,resid_building,resid heating,2010,0
+Japan,resid,resid,resid_building,resid heating,2010,4022
+Mexico,resid,resid,resid_building,resid heating,2010,1170
+Middle East,resid,resid,resid_building,resid heating,2010,2024
+Pakistan,resid,resid,resid_building,resid heating,2010,959
+Russia,resid,resid,resid_building,resid heating,2010,8882
+South Africa,resid,resid,resid_building,resid heating,2010,1295
+South America_Northern,resid,resid,resid_building,resid heating,2010,6
+South America_Southern,resid,resid,resid_building,resid heating,2010,2551
+South Asia,resid,resid,resid_building,resid heating,2010,946
+South Korea,resid,resid,resid_building,resid heating,2010,4814
+Southeast Asia,resid,resid,resid_building,resid heating,2010,474
+Taiwan,resid,resid,resid_building,resid heating,2010,1184
+Argentina,resid,resid,resid_building,resid heating,2010,1894
+Colombia,resid,resid,resid_building,resid heating,2010,813
+USA,comm,comm,comm_building,comm cooling,2015,1652
+Africa_Eastern,comm,comm,comm_building,comm cooling,2015,3108
+Africa_Northern,comm,comm,comm_building,comm cooling,2015,2769
+Africa_Southern,comm,comm,comm_building,comm cooling,2015,3193
+Africa_Western,comm,comm,comm_building,comm cooling,2015,5526
+Australia_NZ,comm,comm,comm_building,comm cooling,2015,1020
+Brazil,comm,comm,comm_building,comm cooling,2015,3063
+Canada,comm,comm,comm_building,comm cooling,2015,417
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2015,3892
+Central Asia,comm,comm,comm_building,comm cooling,2015,1485
+China,comm,comm,comm_building,comm cooling,2015,1840
+EU-12,comm,comm,comm_building,comm cooling,2015,493
+EU-15,comm,comm,comm_building,comm cooling,2015,520
+Europe_Eastern,comm,comm,comm_building,comm cooling,2015,634
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2015,905
+European Free Trade Association,comm,comm,comm_building,comm cooling,2015,192
+India,comm,comm,comm_building,comm cooling,2015,5388
+Indonesia,comm,comm,comm_building,comm cooling,2015,5555
+Japan,comm,comm,comm_building,comm cooling,2015,1113
+Mexico,comm,comm,comm_building,comm cooling,2015,1775
+Middle East,comm,comm,comm_building,comm cooling,2015,3412
+Pakistan,comm,comm,comm_building,comm cooling,2015,4809
+Russia,comm,comm,comm_building,comm cooling,2015,528
+South Africa,comm,comm,comm_building,comm cooling,2015,1470
+South America_Northern,comm,comm,comm_building,comm cooling,2015,4546
+South America_Southern,comm,comm,comm_building,comm cooling,2015,1244
+South Asia,comm,comm,comm_building,comm cooling,2015,4264
+South Korea,comm,comm,comm_building,comm cooling,2015,1036
+Southeast Asia,comm,comm,comm_building,comm cooling,2015,4966
+Taiwan,comm,comm,comm_building,comm cooling,2015,2353
+Argentina,comm,comm,comm_building,comm cooling,2015,1488
+Colombia,comm,comm,comm_building,comm cooling,2015,2345
+USA,comm,comm,comm_building,comm heating,2015,3956
+Africa_Eastern,comm,comm,comm_building,comm heating,2015,221
+Africa_Northern,comm,comm,comm_building,comm heating,2015,1244
+Africa_Southern,comm,comm,comm_building,comm heating,2015,169
+Africa_Western,comm,comm,comm_building,comm heating,2015,10
+Australia_NZ,comm,comm,comm_building,comm heating,2015,1951
+Brazil,comm,comm,comm_building,comm heating,2015,240
+Canada,comm,comm,comm_building,comm heating,2015,7565
+Central America and Caribbean,comm,comm,comm_building,comm heating,2015,53
+Central Asia,comm,comm,comm_building,comm heating,2015,5794
+China,comm,comm,comm_building,comm heating,2015,3955
+EU-12,comm,comm,comm_building,comm heating,2015,5861
+EU-15,comm,comm,comm_building,comm heating,2015,4502
+Europe_Eastern,comm,comm,comm_building,comm heating,2015,6441
+Europe_Non_EU,comm,comm,comm_building,comm heating,2015,3705
+European Free Trade Association,comm,comm,comm_building,comm heating,2015,6944
+India,comm,comm,comm_building,comm heating,2015,270
+Indonesia,comm,comm,comm_building,comm heating,2015,0
+Japan,comm,comm,comm_building,comm heating,2015,3952
+Mexico,comm,comm,comm_building,comm heating,2015,1117
+Middle East,comm,comm,comm_building,comm heating,2015,1922
+Pakistan,comm,comm,comm_building,comm heating,2015,923
+Russia,comm,comm,comm_building,comm heating,2015,8779
+South Africa,comm,comm,comm_building,comm heating,2015,1252
+South America_Northern,comm,comm,comm_building,comm heating,2015,6
+South America_Southern,comm,comm,comm_building,comm heating,2015,2486
+South Asia,comm,comm,comm_building,comm heating,2015,969
+South Korea,comm,comm,comm_building,comm heating,2015,4739
+Southeast Asia,comm,comm,comm_building,comm heating,2015,452
+Taiwan,comm,comm,comm_building,comm heating,2015,1156
+Argentina,comm,comm,comm_building,comm heating,2015,1861
+Colombia,comm,comm,comm_building,comm heating,2015,777
+USA,resid,resid,resid_building,resid cooling,2015,1652
+Africa_Eastern,resid,resid,resid_building,resid cooling,2015,3108
+Africa_Northern,resid,resid,resid_building,resid cooling,2015,2769
+Africa_Southern,resid,resid,resid_building,resid cooling,2015,3193
+Africa_Western,resid,resid,resid_building,resid cooling,2015,5526
+Australia_NZ,resid,resid,resid_building,resid cooling,2015,1020
+Brazil,resid,resid,resid_building,resid cooling,2015,3063
+Canada,resid,resid,resid_building,resid cooling,2015,417
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2015,3892
+Central Asia,resid,resid,resid_building,resid cooling,2015,1485
+China,resid,resid,resid_building,resid cooling,2015,1840
+EU-12,resid,resid,resid_building,resid cooling,2015,493
+EU-15,resid,resid,resid_building,resid cooling,2015,520
+Europe_Eastern,resid,resid,resid_building,resid cooling,2015,634
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2015,905
+European Free Trade Association,resid,resid,resid_building,resid cooling,2015,192
+India,resid,resid,resid_building,resid cooling,2015,5388
+Indonesia,resid,resid,resid_building,resid cooling,2015,5555
+Japan,resid,resid,resid_building,resid cooling,2015,1113
+Mexico,resid,resid,resid_building,resid cooling,2015,1775
+Middle East,resid,resid,resid_building,resid cooling,2015,3412
+Pakistan,resid,resid,resid_building,resid cooling,2015,4809
+Russia,resid,resid,resid_building,resid cooling,2015,528
+South Africa,resid,resid,resid_building,resid cooling,2015,1470
+South America_Northern,resid,resid,resid_building,resid cooling,2015,4546
+South America_Southern,resid,resid,resid_building,resid cooling,2015,1244
+South Asia,resid,resid,resid_building,resid cooling,2015,4264
+South Korea,resid,resid,resid_building,resid cooling,2015,1036
+Southeast Asia,resid,resid,resid_building,resid cooling,2015,4966
+Taiwan,resid,resid,resid_building,resid cooling,2015,2353
+Argentina,resid,resid,resid_building,resid cooling,2015,1488
+Colombia,resid,resid,resid_building,resid cooling,2015,2345
+USA,resid,resid,resid_building,resid heating,2015,3956
+Africa_Eastern,resid,resid,resid_building,resid heating,2015,221
+Africa_Northern,resid,resid,resid_building,resid heating,2015,1244
+Africa_Southern,resid,resid,resid_building,resid heating,2015,169
+Africa_Western,resid,resid,resid_building,resid heating,2015,10
+Australia_NZ,resid,resid,resid_building,resid heating,2015,1951
+Brazil,resid,resid,resid_building,resid heating,2015,240
+Canada,resid,resid,resid_building,resid heating,2015,7565
+Central America and Caribbean,resid,resid,resid_building,resid heating,2015,53
+Central Asia,resid,resid,resid_building,resid heating,2015,5794
+China,resid,resid,resid_building,resid heating,2015,3955
+EU-12,resid,resid,resid_building,resid heating,2015,5861
+EU-15,resid,resid,resid_building,resid heating,2015,4502
+Europe_Eastern,resid,resid,resid_building,resid heating,2015,6441
+Europe_Non_EU,resid,resid,resid_building,resid heating,2015,3705
+European Free Trade Association,resid,resid,resid_building,resid heating,2015,6944
+India,resid,resid,resid_building,resid heating,2015,270
+Indonesia,resid,resid,resid_building,resid heating,2015,0
+Japan,resid,resid,resid_building,resid heating,2015,3952
+Mexico,resid,resid,resid_building,resid heating,2015,1117
+Middle East,resid,resid,resid_building,resid heating,2015,1922
+Pakistan,resid,resid,resid_building,resid heating,2015,923
+Russia,resid,resid,resid_building,resid heating,2015,8779
+South Africa,resid,resid,resid_building,resid heating,2015,1252
+South America_Northern,resid,resid,resid_building,resid heating,2015,6
+South America_Southern,resid,resid,resid_building,resid heating,2015,2486
+South Asia,resid,resid,resid_building,resid heating,2015,969
+South Korea,resid,resid,resid_building,resid heating,2015,4739
+Southeast Asia,resid,resid,resid_building,resid heating,2015,452
+Taiwan,resid,resid,resid_building,resid heating,2015,1156
+Argentina,resid,resid,resid_building,resid heating,2015,1861
+Colombia,resid,resid,resid_building,resid heating,2015,777
+USA,comm,comm,comm_building,comm cooling,2020,1706
+Africa_Eastern,comm,comm,comm_building,comm cooling,2020,3175
+Africa_Northern,comm,comm,comm_building,comm cooling,2020,2868
+Africa_Southern,comm,comm,comm_building,comm cooling,2020,3287
+Africa_Western,comm,comm,comm_building,comm cooling,2020,5625
+Australia_NZ,comm,comm,comm_building,comm cooling,2020,1051
+Brazil,comm,comm,comm_building,comm cooling,2020,3127
+Canada,comm,comm,comm_building,comm cooling,2020,445
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2020,3935
+Central Asia,comm,comm,comm_building,comm cooling,2020,1541
+China,comm,comm,comm_building,comm cooling,2020,1893
+EU-12,comm,comm,comm_building,comm cooling,2020,531
+EU-15,comm,comm,comm_building,comm cooling,2020,552
+Europe_Eastern,comm,comm,comm_building,comm cooling,2020,676
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2020,956
+European Free Trade Association,comm,comm,comm_building,comm cooling,2020,212
+India,comm,comm,comm_building,comm cooling,2020,5457
+Indonesia,comm,comm,comm_building,comm cooling,2020,5633
+Japan,comm,comm,comm_building,comm cooling,2020,1145
+Mexico,comm,comm,comm_building,comm cooling,2020,1840
+Middle East,comm,comm,comm_building,comm cooling,2020,3520
+Pakistan,comm,comm,comm_building,comm cooling,2020,4878
+Russia,comm,comm,comm_building,comm cooling,2020,561
+South Africa,comm,comm,comm_building,comm cooling,2020,1521
+South America_Northern,comm,comm,comm_building,comm cooling,2020,4627
+South America_Southern,comm,comm,comm_building,comm cooling,2020,1288
+South Asia,comm,comm,comm_building,comm cooling,2020,4289
+South Korea,comm,comm,comm_building,comm cooling,2020,1074
+Southeast Asia,comm,comm,comm_building,comm cooling,2020,5041
+Taiwan,comm,comm,comm_building,comm cooling,2020,2404
+Argentina,comm,comm,comm_building,comm cooling,2020,1526
+Colombia,comm,comm,comm_building,comm cooling,2020,2404
+USA,comm,comm,comm_building,comm heating,2020,3878
+Africa_Eastern,comm,comm,comm_building,comm heating,2020,203
+Africa_Northern,comm,comm,comm_building,comm heating,2020,1196
+Africa_Southern,comm,comm,comm_building,comm heating,2020,152
+Africa_Western,comm,comm,comm_building,comm heating,2020,9
+Australia_NZ,comm,comm,comm_building,comm heating,2020,1897
+Brazil,comm,comm,comm_building,comm heating,2020,229
+Canada,comm,comm,comm_building,comm heating,2020,7447
+Central America and Caribbean,comm,comm,comm_building,comm heating,2020,51
+Central Asia,comm,comm,comm_building,comm heating,2020,5718
+China,comm,comm,comm_building,comm heating,2020,3891
+EU-12,comm,comm,comm_building,comm heating,2020,5775
+EU-15,comm,comm,comm_building,comm heating,2020,4425
+Europe_Eastern,comm,comm,comm_building,comm heating,2020,6369
+Europe_Non_EU,comm,comm,comm_building,comm heating,2020,3632
+European Free Trade Association,comm,comm,comm_building,comm heating,2020,6845
+India,comm,comm,comm_building,comm heating,2020,259
+Indonesia,comm,comm,comm_building,comm heating,2020,0
+Japan,comm,comm,comm_building,comm heating,2020,3882
+Mexico,comm,comm,comm_building,comm heating,2020,1062
+Middle East,comm,comm,comm_building,comm heating,2020,1837
+Pakistan,comm,comm,comm_building,comm heating,2020,888
+Russia,comm,comm,comm_building,comm heating,2020,8676
+South Africa,comm,comm,comm_building,comm heating,2020,1206
+South America_Northern,comm,comm,comm_building,comm heating,2020,5
+South America_Southern,comm,comm,comm_building,comm heating,2020,2420
+South Asia,comm,comm,comm_building,comm heating,2020,992
+South Korea,comm,comm,comm_building,comm heating,2020,4665
+Southeast Asia,comm,comm,comm_building,comm heating,2020,431
+Taiwan,comm,comm,comm_building,comm heating,2020,1126
+Argentina,comm,comm,comm_building,comm heating,2020,1828
+Colombia,comm,comm,comm_building,comm heating,2020,741
+USA,resid,resid,resid_building,resid cooling,2020,1706
+Africa_Eastern,resid,resid,resid_building,resid cooling,2020,3175
+Africa_Northern,resid,resid,resid_building,resid cooling,2020,2868
+Africa_Southern,resid,resid,resid_building,resid cooling,2020,3287
+Africa_Western,resid,resid,resid_building,resid cooling,2020,5625
+Australia_NZ,resid,resid,resid_building,resid cooling,2020,1051
+Brazil,resid,resid,resid_building,resid cooling,2020,3127
+Canada,resid,resid,resid_building,resid cooling,2020,445
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2020,3935
+Central Asia,resid,resid,resid_building,resid cooling,2020,1541
+China,resid,resid,resid_building,resid cooling,2020,1893
+EU-12,resid,resid,resid_building,resid cooling,2020,531
+EU-15,resid,resid,resid_building,resid cooling,2020,552
+Europe_Eastern,resid,resid,resid_building,resid cooling,2020,676
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2020,956
+European Free Trade Association,resid,resid,resid_building,resid cooling,2020,212
+India,resid,resid,resid_building,resid cooling,2020,5457
+Indonesia,resid,resid,resid_building,resid cooling,2020,5633
+Japan,resid,resid,resid_building,resid cooling,2020,1145
+Mexico,resid,resid,resid_building,resid cooling,2020,1840
+Middle East,resid,resid,resid_building,resid cooling,2020,3520
+Pakistan,resid,resid,resid_building,resid cooling,2020,4878
+Russia,resid,resid,resid_building,resid cooling,2020,561
+South Africa,resid,resid,resid_building,resid cooling,2020,1521
+South America_Northern,resid,resid,resid_building,resid cooling,2020,4627
+South America_Southern,resid,resid,resid_building,resid cooling,2020,1288
+South Asia,resid,resid,resid_building,resid cooling,2020,4289
+South Korea,resid,resid,resid_building,resid cooling,2020,1074
+Southeast Asia,resid,resid,resid_building,resid cooling,2020,5041
+Taiwan,resid,resid,resid_building,resid cooling,2020,2404
+Argentina,resid,resid,resid_building,resid cooling,2020,1526
+Colombia,resid,resid,resid_building,resid cooling,2020,2404
+USA,resid,resid,resid_building,resid heating,2020,3878
+Africa_Eastern,resid,resid,resid_building,resid heating,2020,203
+Africa_Northern,resid,resid,resid_building,resid heating,2020,1196
+Africa_Southern,resid,resid,resid_building,resid heating,2020,152
+Africa_Western,resid,resid,resid_building,resid heating,2020,9
+Australia_NZ,resid,resid,resid_building,resid heating,2020,1897
+Brazil,resid,resid,resid_building,resid heating,2020,229
+Canada,resid,resid,resid_building,resid heating,2020,7447
+Central America and Caribbean,resid,resid,resid_building,resid heating,2020,51
+Central Asia,resid,resid,resid_building,resid heating,2020,5718
+China,resid,resid,resid_building,resid heating,2020,3891
+EU-12,resid,resid,resid_building,resid heating,2020,5775
+EU-15,resid,resid,resid_building,resid heating,2020,4425
+Europe_Eastern,resid,resid,resid_building,resid heating,2020,6369
+Europe_Non_EU,resid,resid,resid_building,resid heating,2020,3632
+European Free Trade Association,resid,resid,resid_building,resid heating,2020,6845
+India,resid,resid,resid_building,resid heating,2020,259
+Indonesia,resid,resid,resid_building,resid heating,2020,0
+Japan,resid,resid,resid_building,resid heating,2020,3882
+Mexico,resid,resid,resid_building,resid heating,2020,1062
+Middle East,resid,resid,resid_building,resid heating,2020,1837
+Pakistan,resid,resid,resid_building,resid heating,2020,888
+Russia,resid,resid,resid_building,resid heating,2020,8676
+South Africa,resid,resid,resid_building,resid heating,2020,1206
+South America_Northern,resid,resid,resid_building,resid heating,2020,5
+South America_Southern,resid,resid,resid_building,resid heating,2020,2420
+South Asia,resid,resid,resid_building,resid heating,2020,992
+South Korea,resid,resid,resid_building,resid heating,2020,4665
+Southeast Asia,resid,resid,resid_building,resid heating,2020,431
+Taiwan,resid,resid,resid_building,resid heating,2020,1126
+Argentina,resid,resid,resid_building,resid heating,2020,1828
+Colombia,resid,resid,resid_building,resid heating,2020,741
+USA,comm,comm,comm_building,comm cooling,2025,1763
+Africa_Eastern,comm,comm,comm_building,comm cooling,2025,3246
+Africa_Northern,comm,comm,comm_building,comm cooling,2025,2967
+Africa_Southern,comm,comm,comm_building,comm cooling,2025,3384
+Africa_Western,comm,comm,comm_building,comm cooling,2025,5729
+Australia_NZ,comm,comm,comm_building,comm cooling,2025,1084
+Brazil,comm,comm,comm_building,comm cooling,2025,3194
+Canada,comm,comm,comm_building,comm cooling,2025,476
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2025,3982
+Central Asia,comm,comm,comm_building,comm cooling,2025,1599
+China,comm,comm,comm_building,comm cooling,2025,1948
+EU-12,comm,comm,comm_building,comm cooling,2025,573
+EU-15,comm,comm,comm_building,comm cooling,2025,587
+Europe_Eastern,comm,comm,comm_building,comm cooling,2025,720
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2025,1008
+European Free Trade Association,comm,comm,comm_building,comm cooling,2025,234
+India,comm,comm,comm_building,comm cooling,2025,5530
+Indonesia,comm,comm,comm_building,comm cooling,2025,5713
+Japan,comm,comm,comm_building,comm cooling,2025,1178
+Mexico,comm,comm,comm_building,comm cooling,2025,1912
+Middle East,comm,comm,comm_building,comm cooling,2025,3630
+Pakistan,comm,comm,comm_building,comm cooling,2025,4954
+Russia,comm,comm,comm_building,comm cooling,2025,593
+South Africa,comm,comm,comm_building,comm cooling,2025,1578
+South America_Northern,comm,comm,comm_building,comm cooling,2025,4712
+South America_Southern,comm,comm,comm_building,comm cooling,2025,1332
+South Asia,comm,comm,comm_building,comm cooling,2025,4313
+South Korea,comm,comm,comm_building,comm cooling,2025,1113
+Southeast Asia,comm,comm,comm_building,comm cooling,2025,5121
+Taiwan,comm,comm,comm_building,comm cooling,2025,2458
+Argentina,comm,comm,comm_building,comm cooling,2025,1565
+Colombia,comm,comm,comm_building,comm cooling,2025,2465
+USA,comm,comm,comm_building,comm heating,2025,3801
+Africa_Eastern,comm,comm,comm_building,comm heating,2025,186
+Africa_Northern,comm,comm,comm_building,comm heating,2025,1148
+Africa_Southern,comm,comm,comm_building,comm heating,2025,136
+Africa_Western,comm,comm,comm_building,comm heating,2025,8
+Australia_NZ,comm,comm,comm_building,comm heating,2025,1843
+Brazil,comm,comm,comm_building,comm heating,2025,219
+Canada,comm,comm,comm_building,comm heating,2025,7333
+Central America and Caribbean,comm,comm,comm_building,comm heating,2025,49
+Central Asia,comm,comm,comm_building,comm heating,2025,5641
+China,comm,comm,comm_building,comm heating,2025,3826
+EU-12,comm,comm,comm_building,comm heating,2025,5688
+EU-15,comm,comm,comm_building,comm heating,2025,4350
+Europe_Eastern,comm,comm,comm_building,comm heating,2025,6293
+Europe_Non_EU,comm,comm,comm_building,comm heating,2025,3559
+European Free Trade Association,comm,comm,comm_building,comm heating,2025,6749
+India,comm,comm,comm_building,comm heating,2025,248
+Indonesia,comm,comm,comm_building,comm heating,2025,0
+Japan,comm,comm,comm_building,comm heating,2025,3812
+Mexico,comm,comm,comm_building,comm heating,2025,1004
+Middle East,comm,comm,comm_building,comm heating,2025,1753
+Pakistan,comm,comm,comm_building,comm heating,2025,852
+Russia,comm,comm,comm_building,comm heating,2025,8573
+South Africa,comm,comm,comm_building,comm heating,2025,1158
+South America_Northern,comm,comm,comm_building,comm heating,2025,5
+South America_Southern,comm,comm,comm_building,comm heating,2025,2355
+South Asia,comm,comm,comm_building,comm heating,2025,1017
+South Korea,comm,comm,comm_building,comm heating,2025,4591
+Southeast Asia,comm,comm,comm_building,comm heating,2025,412
+Taiwan,comm,comm,comm_building,comm heating,2025,1096
+Argentina,comm,comm,comm_building,comm heating,2025,1795
+Colombia,comm,comm,comm_building,comm heating,2025,704
+USA,resid,resid,resid_building,resid cooling,2025,1763
+Africa_Eastern,resid,resid,resid_building,resid cooling,2025,3246
+Africa_Northern,resid,resid,resid_building,resid cooling,2025,2967
+Africa_Southern,resid,resid,resid_building,resid cooling,2025,3384
+Africa_Western,resid,resid,resid_building,resid cooling,2025,5729
+Australia_NZ,resid,resid,resid_building,resid cooling,2025,1084
+Brazil,resid,resid,resid_building,resid cooling,2025,3194
+Canada,resid,resid,resid_building,resid cooling,2025,476
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2025,3982
+Central Asia,resid,resid,resid_building,resid cooling,2025,1599
+China,resid,resid,resid_building,resid cooling,2025,1948
+EU-12,resid,resid,resid_building,resid cooling,2025,573
+EU-15,resid,resid,resid_building,resid cooling,2025,587
+Europe_Eastern,resid,resid,resid_building,resid cooling,2025,720
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2025,1008
+European Free Trade Association,resid,resid,resid_building,resid cooling,2025,234
+India,resid,resid,resid_building,resid cooling,2025,5530
+Indonesia,resid,resid,resid_building,resid cooling,2025,5713
+Japan,resid,resid,resid_building,resid cooling,2025,1178
+Mexico,resid,resid,resid_building,resid cooling,2025,1912
+Middle East,resid,resid,resid_building,resid cooling,2025,3630
+Pakistan,resid,resid,resid_building,resid cooling,2025,4954
+Russia,resid,resid,resid_building,resid cooling,2025,593
+South Africa,resid,resid,resid_building,resid cooling,2025,1578
+South America_Northern,resid,resid,resid_building,resid cooling,2025,4712
+South America_Southern,resid,resid,resid_building,resid cooling,2025,1332
+South Asia,resid,resid,resid_building,resid cooling,2025,4313
+South Korea,resid,resid,resid_building,resid cooling,2025,1113
+Southeast Asia,resid,resid,resid_building,resid cooling,2025,5121
+Taiwan,resid,resid,resid_building,resid cooling,2025,2458
+Argentina,resid,resid,resid_building,resid cooling,2025,1565
+Colombia,resid,resid,resid_building,resid cooling,2025,2465
+USA,resid,resid,resid_building,resid heating,2025,3801
+Africa_Eastern,resid,resid,resid_building,resid heating,2025,186
+Africa_Northern,resid,resid,resid_building,resid heating,2025,1148
+Africa_Southern,resid,resid,resid_building,resid heating,2025,136
+Africa_Western,resid,resid,resid_building,resid heating,2025,8
+Australia_NZ,resid,resid,resid_building,resid heating,2025,1843
+Brazil,resid,resid,resid_building,resid heating,2025,219
+Canada,resid,resid,resid_building,resid heating,2025,7333
+Central America and Caribbean,resid,resid,resid_building,resid heating,2025,49
+Central Asia,resid,resid,resid_building,resid heating,2025,5641
+China,resid,resid,resid_building,resid heating,2025,3826
+EU-12,resid,resid,resid_building,resid heating,2025,5688
+EU-15,resid,resid,resid_building,resid heating,2025,4350
+Europe_Eastern,resid,resid,resid_building,resid heating,2025,6293
+Europe_Non_EU,resid,resid,resid_building,resid heating,2025,3559
+European Free Trade Association,resid,resid,resid_building,resid heating,2025,6749
+India,resid,resid,resid_building,resid heating,2025,248
+Indonesia,resid,resid,resid_building,resid heating,2025,0
+Japan,resid,resid,resid_building,resid heating,2025,3812
+Mexico,resid,resid,resid_building,resid heating,2025,1004
+Middle East,resid,resid,resid_building,resid heating,2025,1753
+Pakistan,resid,resid,resid_building,resid heating,2025,852
+Russia,resid,resid,resid_building,resid heating,2025,8573
+South Africa,resid,resid,resid_building,resid heating,2025,1158
+South America_Northern,resid,resid,resid_building,resid heating,2025,5
+South America_Southern,resid,resid,resid_building,resid heating,2025,2355
+South Asia,resid,resid,resid_building,resid heating,2025,1017
+South Korea,resid,resid,resid_building,resid heating,2025,4591
+Southeast Asia,resid,resid,resid_building,resid heating,2025,412
+Taiwan,resid,resid,resid_building,resid heating,2025,1096
+Argentina,resid,resid,resid_building,resid heating,2025,1795
+Colombia,resid,resid,resid_building,resid heating,2025,704
+USA,comm,comm,comm_building,comm cooling,2030,1822
+Africa_Eastern,comm,comm,comm_building,comm cooling,2030,3322
+Africa_Northern,comm,comm,comm_building,comm cooling,2030,3069
+Africa_Southern,comm,comm,comm_building,comm cooling,2030,3483
+Africa_Western,comm,comm,comm_building,comm cooling,2030,5840
+Australia_NZ,comm,comm,comm_building,comm cooling,2030,1120
+Brazil,comm,comm,comm_building,comm cooling,2030,3265
+Canada,comm,comm,comm_building,comm cooling,2030,508
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2030,4034
+Central Asia,comm,comm,comm_building,comm cooling,2030,1657
+China,comm,comm,comm_building,comm cooling,2030,2005
+EU-12,comm,comm,comm_building,comm cooling,2030,619
+EU-15,comm,comm,comm_building,comm cooling,2030,625
+Europe_Eastern,comm,comm,comm_building,comm cooling,2030,767
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2030,1062
+European Free Trade Association,comm,comm,comm_building,comm cooling,2030,257
+India,comm,comm,comm_building,comm cooling,2030,5610
+Indonesia,comm,comm,comm_building,comm cooling,2030,5797
+Japan,comm,comm,comm_building,comm cooling,2030,1213
+Mexico,comm,comm,comm_building,comm cooling,2030,1988
+Middle East,comm,comm,comm_building,comm cooling,2030,3742
+Pakistan,comm,comm,comm_building,comm cooling,2030,5035
+Russia,comm,comm,comm_building,comm cooling,2030,625
+South Africa,comm,comm,comm_building,comm cooling,2030,1639
+South America_Northern,comm,comm,comm_building,comm cooling,2030,4800
+South America_Southern,comm,comm,comm_building,comm cooling,2030,1378
+South Asia,comm,comm,comm_building,comm cooling,2030,4339
+South Korea,comm,comm,comm_building,comm cooling,2030,1153
+Southeast Asia,comm,comm,comm_building,comm cooling,2030,5205
+Taiwan,comm,comm,comm_building,comm cooling,2030,2517
+Argentina,comm,comm,comm_building,comm cooling,2030,1605
+Colombia,comm,comm,comm_building,comm cooling,2030,2528
+USA,comm,comm,comm_building,comm heating,2030,3725
+Africa_Eastern,comm,comm,comm_building,comm heating,2030,169
+Africa_Northern,comm,comm,comm_building,comm heating,2030,1100
+Africa_Southern,comm,comm,comm_building,comm heating,2030,121
+Africa_Western,comm,comm,comm_building,comm heating,2030,8
+Australia_NZ,comm,comm,comm_building,comm heating,2030,1788
+Brazil,comm,comm,comm_building,comm heating,2030,207
+Canada,comm,comm,comm_building,comm heating,2030,7222
+Central America and Caribbean,comm,comm,comm_building,comm heating,2030,47
+Central Asia,comm,comm,comm_building,comm heating,2030,5563
+China,comm,comm,comm_building,comm heating,2030,3761
+EU-12,comm,comm,comm_building,comm heating,2030,5601
+EU-15,comm,comm,comm_building,comm heating,2030,4276
+Europe_Eastern,comm,comm,comm_building,comm heating,2030,6213
+Europe_Non_EU,comm,comm,comm_building,comm heating,2030,3490
+European Free Trade Association,comm,comm,comm_building,comm heating,2030,6657
+India,comm,comm,comm_building,comm heating,2030,237
+Indonesia,comm,comm,comm_building,comm heating,2030,0
+Japan,comm,comm,comm_building,comm heating,2030,3743
+Mexico,comm,comm,comm_building,comm heating,2030,945
+Middle East,comm,comm,comm_building,comm heating,2030,1672
+Pakistan,comm,comm,comm_building,comm heating,2030,817
+Russia,comm,comm,comm_building,comm heating,2030,8468
+South Africa,comm,comm,comm_building,comm heating,2030,1108
+South America_Northern,comm,comm,comm_building,comm heating,2030,4
+South America_Southern,comm,comm,comm_building,comm heating,2030,2290
+South Asia,comm,comm,comm_building,comm heating,2030,1043
+South Korea,comm,comm,comm_building,comm heating,2030,4519
+Southeast Asia,comm,comm,comm_building,comm heating,2030,393
+Taiwan,comm,comm,comm_building,comm heating,2030,1065
+Argentina,comm,comm,comm_building,comm heating,2030,1761
+Colombia,comm,comm,comm_building,comm heating,2030,668
+USA,resid,resid,resid_building,resid cooling,2030,1822
+Africa_Eastern,resid,resid,resid_building,resid cooling,2030,3322
+Africa_Northern,resid,resid,resid_building,resid cooling,2030,3069
+Africa_Southern,resid,resid,resid_building,resid cooling,2030,3483
+Africa_Western,resid,resid,resid_building,resid cooling,2030,5840
+Australia_NZ,resid,resid,resid_building,resid cooling,2030,1120
+Brazil,resid,resid,resid_building,resid cooling,2030,3265
+Canada,resid,resid,resid_building,resid cooling,2030,508
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2030,4034
+Central Asia,resid,resid,resid_building,resid cooling,2030,1657
+China,resid,resid,resid_building,resid cooling,2030,2005
+EU-12,resid,resid,resid_building,resid cooling,2030,619
+EU-15,resid,resid,resid_building,resid cooling,2030,625
+Europe_Eastern,resid,resid,resid_building,resid cooling,2030,767
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2030,1062
+European Free Trade Association,resid,resid,resid_building,resid cooling,2030,257
+India,resid,resid,resid_building,resid cooling,2030,5610
+Indonesia,resid,resid,resid_building,resid cooling,2030,5797
+Japan,resid,resid,resid_building,resid cooling,2030,1213
+Mexico,resid,resid,resid_building,resid cooling,2030,1988
+Middle East,resid,resid,resid_building,resid cooling,2030,3742
+Pakistan,resid,resid,resid_building,resid cooling,2030,5035
+Russia,resid,resid,resid_building,resid cooling,2030,625
+South Africa,resid,resid,resid_building,resid cooling,2030,1639
+South America_Northern,resid,resid,resid_building,resid cooling,2030,4800
+South America_Southern,resid,resid,resid_building,resid cooling,2030,1378
+South Asia,resid,resid,resid_building,resid cooling,2030,4339
+South Korea,resid,resid,resid_building,resid cooling,2030,1153
+Southeast Asia,resid,resid,resid_building,resid cooling,2030,5205
+Taiwan,resid,resid,resid_building,resid cooling,2030,2517
+Argentina,resid,resid,resid_building,resid cooling,2030,1605
+Colombia,resid,resid,resid_building,resid cooling,2030,2528
+USA,resid,resid,resid_building,resid heating,2030,3725
+Africa_Eastern,resid,resid,resid_building,resid heating,2030,169
+Africa_Northern,resid,resid,resid_building,resid heating,2030,1100
+Africa_Southern,resid,resid,resid_building,resid heating,2030,121
+Africa_Western,resid,resid,resid_building,resid heating,2030,8
+Australia_NZ,resid,resid,resid_building,resid heating,2030,1788
+Brazil,resid,resid,resid_building,resid heating,2030,207
+Canada,resid,resid,resid_building,resid heating,2030,7222
+Central America and Caribbean,resid,resid,resid_building,resid heating,2030,47
+Central Asia,resid,resid,resid_building,resid heating,2030,5563
+China,resid,resid,resid_building,resid heating,2030,3761
+EU-12,resid,resid,resid_building,resid heating,2030,5601
+EU-15,resid,resid,resid_building,resid heating,2030,4276
+Europe_Eastern,resid,resid,resid_building,resid heating,2030,6213
+Europe_Non_EU,resid,resid,resid_building,resid heating,2030,3490
+European Free Trade Association,resid,resid,resid_building,resid heating,2030,6657
+India,resid,resid,resid_building,resid heating,2030,237
+Indonesia,resid,resid,resid_building,resid heating,2030,0
+Japan,resid,resid,resid_building,resid heating,2030,3743
+Mexico,resid,resid,resid_building,resid heating,2030,945
+Middle East,resid,resid,resid_building,resid heating,2030,1672
+Pakistan,resid,resid,resid_building,resid heating,2030,817
+Russia,resid,resid,resid_building,resid heating,2030,8468
+South Africa,resid,resid,resid_building,resid heating,2030,1108
+South America_Northern,resid,resid,resid_building,resid heating,2030,4
+South America_Southern,resid,resid,resid_building,resid heating,2030,2290
+South Asia,resid,resid,resid_building,resid heating,2030,1043
+South Korea,resid,resid,resid_building,resid heating,2030,4519
+Southeast Asia,resid,resid,resid_building,resid heating,2030,393
+Taiwan,resid,resid,resid_building,resid heating,2030,1065
+Argentina,resid,resid,resid_building,resid heating,2030,1761
+Colombia,resid,resid,resid_building,resid heating,2030,668
+USA,comm,comm,comm_building,comm cooling,2035,1882
+Africa_Eastern,comm,comm,comm_building,comm cooling,2035,3404
+Africa_Northern,comm,comm,comm_building,comm cooling,2035,3172
+Africa_Southern,comm,comm,comm_building,comm cooling,2035,3585
+Africa_Western,comm,comm,comm_building,comm cooling,2035,5956
+Australia_NZ,comm,comm,comm_building,comm cooling,2035,1158
+Brazil,comm,comm,comm_building,comm cooling,2035,3341
+Canada,comm,comm,comm_building,comm cooling,2035,544
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2035,4092
+Central Asia,comm,comm,comm_building,comm cooling,2035,1715
+China,comm,comm,comm_building,comm cooling,2035,2064
+EU-12,comm,comm,comm_building,comm cooling,2035,669
+EU-15,comm,comm,comm_building,comm cooling,2035,667
+Europe_Eastern,comm,comm,comm_building,comm cooling,2035,816
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2035,1118
+European Free Trade Association,comm,comm,comm_building,comm cooling,2035,282
+India,comm,comm,comm_building,comm cooling,2035,5695
+Indonesia,comm,comm,comm_building,comm cooling,2035,5883
+Japan,comm,comm,comm_building,comm cooling,2035,1249
+Mexico,comm,comm,comm_building,comm cooling,2035,2070
+Middle East,comm,comm,comm_building,comm cooling,2035,3856
+Pakistan,comm,comm,comm_building,comm cooling,2035,5123
+Russia,comm,comm,comm_building,comm cooling,2035,658
+South Africa,comm,comm,comm_building,comm cooling,2035,1706
+South America_Northern,comm,comm,comm_building,comm cooling,2035,4891
+South America_Southern,comm,comm,comm_building,comm cooling,2035,1426
+South Asia,comm,comm,comm_building,comm cooling,2035,4366
+South Korea,comm,comm,comm_building,comm cooling,2035,1195
+Southeast Asia,comm,comm,comm_building,comm cooling,2035,5293
+Taiwan,comm,comm,comm_building,comm cooling,2035,2578
+Argentina,comm,comm,comm_building,comm cooling,2035,1646
+Colombia,comm,comm,comm_building,comm cooling,2035,2593
+USA,comm,comm,comm_building,comm heating,2035,3650
+Africa_Eastern,comm,comm,comm_building,comm heating,2035,153
+Africa_Northern,comm,comm,comm_building,comm heating,2035,1053
+Africa_Southern,comm,comm,comm_building,comm heating,2035,107
+Africa_Western,comm,comm,comm_building,comm heating,2035,7
+Australia_NZ,comm,comm,comm_building,comm heating,2035,1731
+Brazil,comm,comm,comm_building,comm heating,2035,195
+Canada,comm,comm,comm_building,comm heating,2035,7115
+Central America and Caribbean,comm,comm,comm_building,comm heating,2035,44
+Central Asia,comm,comm,comm_building,comm heating,2035,5488
+China,comm,comm,comm_building,comm heating,2035,3694
+EU-12,comm,comm,comm_building,comm heating,2035,5512
+EU-15,comm,comm,comm_building,comm heating,2035,4203
+Europe_Eastern,comm,comm,comm_building,comm heating,2035,6130
+Europe_Non_EU,comm,comm,comm_building,comm heating,2035,3420
+European Free Trade Association,comm,comm,comm_building,comm heating,2035,6568
+India,comm,comm,comm_building,comm heating,2035,227
+Indonesia,comm,comm,comm_building,comm heating,2035,0
+Japan,comm,comm,comm_building,comm heating,2035,3676
+Mexico,comm,comm,comm_building,comm heating,2035,885
+Middle East,comm,comm,comm_building,comm heating,2035,1594
+Pakistan,comm,comm,comm_building,comm heating,2035,782
+Russia,comm,comm,comm_building,comm heating,2035,8363
+South Africa,comm,comm,comm_building,comm heating,2035,1056
+South America_Northern,comm,comm,comm_building,comm heating,2035,4
+South America_Southern,comm,comm,comm_building,comm heating,2035,2225
+South Asia,comm,comm,comm_building,comm heating,2035,1070
+South Korea,comm,comm,comm_building,comm heating,2035,4448
+Southeast Asia,comm,comm,comm_building,comm heating,2035,375
+Taiwan,comm,comm,comm_building,comm heating,2035,1033
+Argentina,comm,comm,comm_building,comm heating,2035,1727
+Colombia,comm,comm,comm_building,comm heating,2035,633
+USA,resid,resid,resid_building,resid cooling,2035,1882
+Africa_Eastern,resid,resid,resid_building,resid cooling,2035,3404
+Africa_Northern,resid,resid,resid_building,resid cooling,2035,3172
+Africa_Southern,resid,resid,resid_building,resid cooling,2035,3585
+Africa_Western,resid,resid,resid_building,resid cooling,2035,5956
+Australia_NZ,resid,resid,resid_building,resid cooling,2035,1158
+Brazil,resid,resid,resid_building,resid cooling,2035,3341
+Canada,resid,resid,resid_building,resid cooling,2035,544
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2035,4092
+Central Asia,resid,resid,resid_building,resid cooling,2035,1715
+China,resid,resid,resid_building,resid cooling,2035,2064
+EU-12,resid,resid,resid_building,resid cooling,2035,669
+EU-15,resid,resid,resid_building,resid cooling,2035,667
+Europe_Eastern,resid,resid,resid_building,resid cooling,2035,816
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2035,1118
+European Free Trade Association,resid,resid,resid_building,resid cooling,2035,282
+India,resid,resid,resid_building,resid cooling,2035,5695
+Indonesia,resid,resid,resid_building,resid cooling,2035,5883
+Japan,resid,resid,resid_building,resid cooling,2035,1249
+Mexico,resid,resid,resid_building,resid cooling,2035,2070
+Middle East,resid,resid,resid_building,resid cooling,2035,3856
+Pakistan,resid,resid,resid_building,resid cooling,2035,5123
+Russia,resid,resid,resid_building,resid cooling,2035,658
+South Africa,resid,resid,resid_building,resid cooling,2035,1706
+South America_Northern,resid,resid,resid_building,resid cooling,2035,4891
+South America_Southern,resid,resid,resid_building,resid cooling,2035,1426
+South Asia,resid,resid,resid_building,resid cooling,2035,4366
+South Korea,resid,resid,resid_building,resid cooling,2035,1195
+Southeast Asia,resid,resid,resid_building,resid cooling,2035,5293
+Taiwan,resid,resid,resid_building,resid cooling,2035,2578
+Argentina,resid,resid,resid_building,resid cooling,2035,1646
+Colombia,resid,resid,resid_building,resid cooling,2035,2593
+USA,resid,resid,resid_building,resid heating,2035,3650
+Africa_Eastern,resid,resid,resid_building,resid heating,2035,153
+Africa_Northern,resid,resid,resid_building,resid heating,2035,1053
+Africa_Southern,resid,resid,resid_building,resid heating,2035,107
+Africa_Western,resid,resid,resid_building,resid heating,2035,7
+Australia_NZ,resid,resid,resid_building,resid heating,2035,1731
+Brazil,resid,resid,resid_building,resid heating,2035,195
+Canada,resid,resid,resid_building,resid heating,2035,7115
+Central America and Caribbean,resid,resid,resid_building,resid heating,2035,44
+Central Asia,resid,resid,resid_building,resid heating,2035,5488
+China,resid,resid,resid_building,resid heating,2035,3694
+EU-12,resid,resid,resid_building,resid heating,2035,5512
+EU-15,resid,resid,resid_building,resid heating,2035,4203
+Europe_Eastern,resid,resid,resid_building,resid heating,2035,6130
+Europe_Non_EU,resid,resid,resid_building,resid heating,2035,3420
+European Free Trade Association,resid,resid,resid_building,resid heating,2035,6568
+India,resid,resid,resid_building,resid heating,2035,227
+Indonesia,resid,resid,resid_building,resid heating,2035,0
+Japan,resid,resid,resid_building,resid heating,2035,3676
+Mexico,resid,resid,resid_building,resid heating,2035,885
+Middle East,resid,resid,resid_building,resid heating,2035,1594
+Pakistan,resid,resid,resid_building,resid heating,2035,782
+Russia,resid,resid,resid_building,resid heating,2035,8363
+South Africa,resid,resid,resid_building,resid heating,2035,1056
+South America_Northern,resid,resid,resid_building,resid heating,2035,4
+South America_Southern,resid,resid,resid_building,resid heating,2035,2225
+South Asia,resid,resid,resid_building,resid heating,2035,1070
+South Korea,resid,resid,resid_building,resid heating,2035,4448
+Southeast Asia,resid,resid,resid_building,resid heating,2035,375
+Taiwan,resid,resid,resid_building,resid heating,2035,1033
+Argentina,resid,resid,resid_building,resid heating,2035,1727
+Colombia,resid,resid,resid_building,resid heating,2035,633
+USA,comm,comm,comm_building,comm cooling,2040,1944
+Africa_Eastern,comm,comm,comm_building,comm cooling,2040,3488
+Africa_Northern,comm,comm,comm_building,comm cooling,2040,3276
+Africa_Southern,comm,comm,comm_building,comm cooling,2040,3689
+Africa_Western,comm,comm,comm_building,comm cooling,2040,6078
+Australia_NZ,comm,comm,comm_building,comm cooling,2040,1200
+Brazil,comm,comm,comm_building,comm cooling,2040,3423
+Canada,comm,comm,comm_building,comm cooling,2040,582
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2040,4156
+Central Asia,comm,comm,comm_building,comm cooling,2040,1774
+China,comm,comm,comm_building,comm cooling,2040,2125
+EU-12,comm,comm,comm_building,comm cooling,2040,722
+EU-15,comm,comm,comm_building,comm cooling,2040,712
+Europe_Eastern,comm,comm,comm_building,comm cooling,2040,868
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2040,1176
+European Free Trade Association,comm,comm,comm_building,comm cooling,2040,308
+India,comm,comm,comm_building,comm cooling,2040,5787
+Indonesia,comm,comm,comm_building,comm cooling,2040,5972
+Japan,comm,comm,comm_building,comm cooling,2040,1287
+Mexico,comm,comm,comm_building,comm cooling,2040,2157
+Middle East,comm,comm,comm_building,comm cooling,2040,3969
+Pakistan,comm,comm,comm_building,comm cooling,2040,5216
+Russia,comm,comm,comm_building,comm cooling,2040,690
+South Africa,comm,comm,comm_building,comm cooling,2040,1777
+South America_Northern,comm,comm,comm_building,comm cooling,2040,4986
+South America_Southern,comm,comm,comm_building,comm cooling,2040,1475
+South Asia,comm,comm,comm_building,comm cooling,2040,4398
+South Korea,comm,comm,comm_building,comm cooling,2040,1238
+Southeast Asia,comm,comm,comm_building,comm cooling,2040,5386
+Taiwan,comm,comm,comm_building,comm cooling,2040,2643
+Argentina,comm,comm,comm_building,comm cooling,2040,1689
+Colombia,comm,comm,comm_building,comm cooling,2040,2660
+USA,comm,comm,comm_building,comm heating,2040,3578
+Africa_Eastern,comm,comm,comm_building,comm heating,2040,139
+Africa_Northern,comm,comm,comm_building,comm heating,2040,1007
+Africa_Southern,comm,comm,comm_building,comm heating,2040,95
+Africa_Western,comm,comm,comm_building,comm heating,2040,6
+Australia_NZ,comm,comm,comm_building,comm heating,2040,1673
+Brazil,comm,comm,comm_building,comm heating,2040,183
+Canada,comm,comm,comm_building,comm heating,2040,7012
+Central America and Caribbean,comm,comm,comm_building,comm heating,2040,41
+Central Asia,comm,comm,comm_building,comm heating,2040,5413
+China,comm,comm,comm_building,comm heating,2040,3627
+EU-12,comm,comm,comm_building,comm heating,2040,5424
+EU-15,comm,comm,comm_building,comm heating,2040,4131
+Europe_Eastern,comm,comm,comm_building,comm heating,2040,6043
+Europe_Non_EU,comm,comm,comm_building,comm heating,2040,3353
+European Free Trade Association,comm,comm,comm_building,comm heating,2040,6484
+India,comm,comm,comm_building,comm heating,2040,216
+Indonesia,comm,comm,comm_building,comm heating,2040,0
+Japan,comm,comm,comm_building,comm heating,2040,3610
+Mexico,comm,comm,comm_building,comm heating,2040,824
+Middle East,comm,comm,comm_building,comm heating,2040,1519
+Pakistan,comm,comm,comm_building,comm heating,2040,748
+Russia,comm,comm,comm_building,comm heating,2040,8256
+South Africa,comm,comm,comm_building,comm heating,2040,1002
+South America_Northern,comm,comm,comm_building,comm heating,2040,3
+South America_Southern,comm,comm,comm_building,comm heating,2040,2159
+South Asia,comm,comm,comm_building,comm heating,2040,1094
+South Korea,comm,comm,comm_building,comm heating,2040,4379
+Southeast Asia,comm,comm,comm_building,comm heating,2040,358
+Taiwan,comm,comm,comm_building,comm heating,2040,1000
+Argentina,comm,comm,comm_building,comm heating,2040,1693
+Colombia,comm,comm,comm_building,comm heating,2040,598
+USA,resid,resid,resid_building,resid cooling,2040,1944
+Africa_Eastern,resid,resid,resid_building,resid cooling,2040,3488
+Africa_Northern,resid,resid,resid_building,resid cooling,2040,3276
+Africa_Southern,resid,resid,resid_building,resid cooling,2040,3689
+Africa_Western,resid,resid,resid_building,resid cooling,2040,6078
+Australia_NZ,resid,resid,resid_building,resid cooling,2040,1200
+Brazil,resid,resid,resid_building,resid cooling,2040,3423
+Canada,resid,resid,resid_building,resid cooling,2040,582
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2040,4156
+Central Asia,resid,resid,resid_building,resid cooling,2040,1774
+China,resid,resid,resid_building,resid cooling,2040,2125
+EU-12,resid,resid,resid_building,resid cooling,2040,722
+EU-15,resid,resid,resid_building,resid cooling,2040,712
+Europe_Eastern,resid,resid,resid_building,resid cooling,2040,868
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2040,1176
+European Free Trade Association,resid,resid,resid_building,resid cooling,2040,308
+India,resid,resid,resid_building,resid cooling,2040,5787
+Indonesia,resid,resid,resid_building,resid cooling,2040,5972
+Japan,resid,resid,resid_building,resid cooling,2040,1287
+Mexico,resid,resid,resid_building,resid cooling,2040,2157
+Middle East,resid,resid,resid_building,resid cooling,2040,3969
+Pakistan,resid,resid,resid_building,resid cooling,2040,5216
+Russia,resid,resid,resid_building,resid cooling,2040,690
+South Africa,resid,resid,resid_building,resid cooling,2040,1777
+South America_Northern,resid,resid,resid_building,resid cooling,2040,4986
+South America_Southern,resid,resid,resid_building,resid cooling,2040,1475
+South Asia,resid,resid,resid_building,resid cooling,2040,4398
+South Korea,resid,resid,resid_building,resid cooling,2040,1238
+Southeast Asia,resid,resid,resid_building,resid cooling,2040,5386
+Taiwan,resid,resid,resid_building,resid cooling,2040,2643
+Argentina,resid,resid,resid_building,resid cooling,2040,1689
+Colombia,resid,resid,resid_building,resid cooling,2040,2660
+USA,resid,resid,resid_building,resid heating,2040,3578
+Africa_Eastern,resid,resid,resid_building,resid heating,2040,139
+Africa_Northern,resid,resid,resid_building,resid heating,2040,1007
+Africa_Southern,resid,resid,resid_building,resid heating,2040,95
+Africa_Western,resid,resid,resid_building,resid heating,2040,6
+Australia_NZ,resid,resid,resid_building,resid heating,2040,1673
+Brazil,resid,resid,resid_building,resid heating,2040,183
+Canada,resid,resid,resid_building,resid heating,2040,7012
+Central America and Caribbean,resid,resid,resid_building,resid heating,2040,41
+Central Asia,resid,resid,resid_building,resid heating,2040,5413
+China,resid,resid,resid_building,resid heating,2040,3627
+EU-12,resid,resid,resid_building,resid heating,2040,5424
+EU-15,resid,resid,resid_building,resid heating,2040,4131
+Europe_Eastern,resid,resid,resid_building,resid heating,2040,6043
+Europe_Non_EU,resid,resid,resid_building,resid heating,2040,3353
+European Free Trade Association,resid,resid,resid_building,resid heating,2040,6484
+India,resid,resid,resid_building,resid heating,2040,216
+Indonesia,resid,resid,resid_building,resid heating,2040,0
+Japan,resid,resid,resid_building,resid heating,2040,3610
+Mexico,resid,resid,resid_building,resid heating,2040,824
+Middle East,resid,resid,resid_building,resid heating,2040,1519
+Pakistan,resid,resid,resid_building,resid heating,2040,748
+Russia,resid,resid,resid_building,resid heating,2040,8256
+South Africa,resid,resid,resid_building,resid heating,2040,1002
+South America_Northern,resid,resid,resid_building,resid heating,2040,3
+South America_Southern,resid,resid,resid_building,resid heating,2040,2159
+South Asia,resid,resid,resid_building,resid heating,2040,1094
+South Korea,resid,resid,resid_building,resid heating,2040,4379
+Southeast Asia,resid,resid,resid_building,resid heating,2040,358
+Taiwan,resid,resid,resid_building,resid heating,2040,1000
+Argentina,resid,resid,resid_building,resid heating,2040,1693
+Colombia,resid,resid,resid_building,resid heating,2040,598
+USA,comm,comm,comm_building,comm cooling,2045,2007
+Africa_Eastern,comm,comm,comm_building,comm cooling,2045,3575
+Africa_Northern,comm,comm,comm_building,comm cooling,2045,3381
+Africa_Southern,comm,comm,comm_building,comm cooling,2045,3796
+Africa_Western,comm,comm,comm_building,comm cooling,2045,6205
+Australia_NZ,comm,comm,comm_building,comm cooling,2045,1245
+Brazil,comm,comm,comm_building,comm cooling,2045,3511
+Canada,comm,comm,comm_building,comm cooling,2045,623
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2045,4225
+Central Asia,comm,comm,comm_building,comm cooling,2045,1834
+China,comm,comm,comm_building,comm cooling,2045,2189
+EU-12,comm,comm,comm_building,comm cooling,2045,778
+EU-15,comm,comm,comm_building,comm cooling,2045,759
+Europe_Eastern,comm,comm,comm_building,comm cooling,2045,922
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2045,1235
+European Free Trade Association,comm,comm,comm_building,comm cooling,2045,335
+India,comm,comm,comm_building,comm cooling,2045,5886
+Indonesia,comm,comm,comm_building,comm cooling,2045,6063
+Japan,comm,comm,comm_building,comm cooling,2045,1326
+Mexico,comm,comm,comm_building,comm cooling,2045,2249
+Middle East,comm,comm,comm_building,comm cooling,2045,4083
+Pakistan,comm,comm,comm_building,comm cooling,2045,5315
+Russia,comm,comm,comm_building,comm cooling,2045,723
+South Africa,comm,comm,comm_building,comm cooling,2045,1854
+South America_Northern,comm,comm,comm_building,comm cooling,2045,5085
+South America_Southern,comm,comm,comm_building,comm cooling,2045,1527
+South Asia,comm,comm,comm_building,comm cooling,2045,4432
+South Korea,comm,comm,comm_building,comm cooling,2045,1282
+Southeast Asia,comm,comm,comm_building,comm cooling,2045,5481
+Taiwan,comm,comm,comm_building,comm cooling,2045,2711
+Argentina,comm,comm,comm_building,comm cooling,2045,1735
+Colombia,comm,comm,comm_building,comm cooling,2045,2730
+USA,comm,comm,comm_building,comm heating,2045,3507
+Africa_Eastern,comm,comm,comm_building,comm heating,2045,125
+Africa_Northern,comm,comm,comm_building,comm heating,2045,962
+Africa_Southern,comm,comm,comm_building,comm heating,2045,84
+Africa_Western,comm,comm,comm_building,comm heating,2045,5
+Australia_NZ,comm,comm,comm_building,comm heating,2045,1614
+Brazil,comm,comm,comm_building,comm heating,2045,170
+Canada,comm,comm,comm_building,comm heating,2045,6911
+Central America and Caribbean,comm,comm,comm_building,comm heating,2045,37
+Central Asia,comm,comm,comm_building,comm heating,2045,5339
+China,comm,comm,comm_building,comm heating,2045,3559
+EU-12,comm,comm,comm_building,comm heating,2045,5335
+EU-15,comm,comm,comm_building,comm heating,2045,4061
+Europe_Eastern,comm,comm,comm_building,comm heating,2045,5952
+Europe_Non_EU,comm,comm,comm_building,comm heating,2045,3285
+European Free Trade Association,comm,comm,comm_building,comm heating,2045,6403
+India,comm,comm,comm_building,comm heating,2045,207
+Indonesia,comm,comm,comm_building,comm heating,2045,0
+Japan,comm,comm,comm_building,comm heating,2045,3545
+Mexico,comm,comm,comm_building,comm heating,2045,763
+Middle East,comm,comm,comm_building,comm heating,2045,1448
+Pakistan,comm,comm,comm_building,comm heating,2045,715
+Russia,comm,comm,comm_building,comm heating,2045,8146
+South Africa,comm,comm,comm_building,comm heating,2045,947
+South America_Northern,comm,comm,comm_building,comm heating,2045,3
+South America_Southern,comm,comm,comm_building,comm heating,2045,2094
+South Asia,comm,comm,comm_building,comm heating,2045,1116
+South Korea,comm,comm,comm_building,comm heating,2045,4310
+Southeast Asia,comm,comm,comm_building,comm heating,2045,344
+Taiwan,comm,comm,comm_building,comm heating,2045,968
+Argentina,comm,comm,comm_building,comm heating,2045,1658
+Colombia,comm,comm,comm_building,comm heating,2045,564
+USA,resid,resid,resid_building,resid cooling,2045,2007
+Africa_Eastern,resid,resid,resid_building,resid cooling,2045,3575
+Africa_Northern,resid,resid,resid_building,resid cooling,2045,3381
+Africa_Southern,resid,resid,resid_building,resid cooling,2045,3796
+Africa_Western,resid,resid,resid_building,resid cooling,2045,6205
+Australia_NZ,resid,resid,resid_building,resid cooling,2045,1245
+Brazil,resid,resid,resid_building,resid cooling,2045,3511
+Canada,resid,resid,resid_building,resid cooling,2045,623
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2045,4225
+Central Asia,resid,resid,resid_building,resid cooling,2045,1834
+China,resid,resid,resid_building,resid cooling,2045,2189
+EU-12,resid,resid,resid_building,resid cooling,2045,778
+EU-15,resid,resid,resid_building,resid cooling,2045,759
+Europe_Eastern,resid,resid,resid_building,resid cooling,2045,922
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2045,1235
+European Free Trade Association,resid,resid,resid_building,resid cooling,2045,335
+India,resid,resid,resid_building,resid cooling,2045,5886
+Indonesia,resid,resid,resid_building,resid cooling,2045,6063
+Japan,resid,resid,resid_building,resid cooling,2045,1326
+Mexico,resid,resid,resid_building,resid cooling,2045,2249
+Middle East,resid,resid,resid_building,resid cooling,2045,4083
+Pakistan,resid,resid,resid_building,resid cooling,2045,5315
+Russia,resid,resid,resid_building,resid cooling,2045,723
+South Africa,resid,resid,resid_building,resid cooling,2045,1854
+South America_Northern,resid,resid,resid_building,resid cooling,2045,5085
+South America_Southern,resid,resid,resid_building,resid cooling,2045,1527
+South Asia,resid,resid,resid_building,resid cooling,2045,4432
+South Korea,resid,resid,resid_building,resid cooling,2045,1282
+Southeast Asia,resid,resid,resid_building,resid cooling,2045,5481
+Taiwan,resid,resid,resid_building,resid cooling,2045,2711
+Argentina,resid,resid,resid_building,resid cooling,2045,1735
+Colombia,resid,resid,resid_building,resid cooling,2045,2730
+USA,resid,resid,resid_building,resid heating,2045,3507
+Africa_Eastern,resid,resid,resid_building,resid heating,2045,125
+Africa_Northern,resid,resid,resid_building,resid heating,2045,962
+Africa_Southern,resid,resid,resid_building,resid heating,2045,84
+Africa_Western,resid,resid,resid_building,resid heating,2045,5
+Australia_NZ,resid,resid,resid_building,resid heating,2045,1614
+Brazil,resid,resid,resid_building,resid heating,2045,170
+Canada,resid,resid,resid_building,resid heating,2045,6911
+Central America and Caribbean,resid,resid,resid_building,resid heating,2045,37
+Central Asia,resid,resid,resid_building,resid heating,2045,5339
+China,resid,resid,resid_building,resid heating,2045,3559
+EU-12,resid,resid,resid_building,resid heating,2045,5335
+EU-15,resid,resid,resid_building,resid heating,2045,4061
+Europe_Eastern,resid,resid,resid_building,resid heating,2045,5952
+Europe_Non_EU,resid,resid,resid_building,resid heating,2045,3285
+European Free Trade Association,resid,resid,resid_building,resid heating,2045,6403
+India,resid,resid,resid_building,resid heating,2045,207
+Indonesia,resid,resid,resid_building,resid heating,2045,0
+Japan,resid,resid,resid_building,resid heating,2045,3545
+Mexico,resid,resid,resid_building,resid heating,2045,763
+Middle East,resid,resid,resid_building,resid heating,2045,1448
+Pakistan,resid,resid,resid_building,resid heating,2045,715
+Russia,resid,resid,resid_building,resid heating,2045,8146
+South Africa,resid,resid,resid_building,resid heating,2045,947
+South America_Northern,resid,resid,resid_building,resid heating,2045,3
+South America_Southern,resid,resid,resid_building,resid heating,2045,2094
+South Asia,resid,resid,resid_building,resid heating,2045,1116
+South Korea,resid,resid,resid_building,resid heating,2045,4310
+Southeast Asia,resid,resid,resid_building,resid heating,2045,344
+Taiwan,resid,resid,resid_building,resid heating,2045,968
+Argentina,resid,resid,resid_building,resid heating,2045,1658
+Colombia,resid,resid,resid_building,resid heating,2045,564
+USA,comm,comm,comm_building,comm cooling,2050,2073
+Africa_Eastern,comm,comm,comm_building,comm cooling,2050,3666
+Africa_Northern,comm,comm,comm_building,comm cooling,2050,3489
+Africa_Southern,comm,comm,comm_building,comm cooling,2050,3906
+Africa_Western,comm,comm,comm_building,comm cooling,2050,6336
+Australia_NZ,comm,comm,comm_building,comm cooling,2050,1294
+Brazil,comm,comm,comm_building,comm cooling,2050,3606
+Canada,comm,comm,comm_building,comm cooling,2050,666
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2050,4300
+Central Asia,comm,comm,comm_building,comm cooling,2050,1898
+China,comm,comm,comm_building,comm cooling,2050,2254
+EU-12,comm,comm,comm_building,comm cooling,2050,837
+EU-15,comm,comm,comm_building,comm cooling,2050,809
+Europe_Eastern,comm,comm,comm_building,comm cooling,2050,979
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2050,1297
+European Free Trade Association,comm,comm,comm_building,comm cooling,2050,364
+India,comm,comm,comm_building,comm cooling,2050,5992
+Indonesia,comm,comm,comm_building,comm cooling,2050,6157
+Japan,comm,comm,comm_building,comm cooling,2050,1367
+Mexico,comm,comm,comm_building,comm cooling,2050,2345
+Middle East,comm,comm,comm_building,comm cooling,2050,4199
+Pakistan,comm,comm,comm_building,comm cooling,2050,5420
+Russia,comm,comm,comm_building,comm cooling,2050,757
+South Africa,comm,comm,comm_building,comm cooling,2050,1936
+South America_Northern,comm,comm,comm_building,comm cooling,2050,5190
+South America_Southern,comm,comm,comm_building,comm cooling,2050,1581
+South Asia,comm,comm,comm_building,comm cooling,2050,4471
+South Korea,comm,comm,comm_building,comm cooling,2050,1327
+Southeast Asia,comm,comm,comm_building,comm cooling,2050,5580
+Taiwan,comm,comm,comm_building,comm cooling,2050,2781
+Argentina,comm,comm,comm_building,comm cooling,2050,1783
+Colombia,comm,comm,comm_building,comm cooling,2050,2801
+USA,comm,comm,comm_building,comm heating,2050,3438
+Africa_Eastern,comm,comm,comm_building,comm heating,2050,113
+Africa_Northern,comm,comm,comm_building,comm heating,2050,918
+Africa_Southern,comm,comm,comm_building,comm heating,2050,74
+Africa_Western,comm,comm,comm_building,comm heating,2050,5
+Australia_NZ,comm,comm,comm_building,comm heating,2050,1554
+Brazil,comm,comm,comm_building,comm heating,2050,157
+Canada,comm,comm,comm_building,comm heating,2050,6812
+Central America and Caribbean,comm,comm,comm_building,comm heating,2050,34
+Central Asia,comm,comm,comm_building,comm heating,2050,5263
+China,comm,comm,comm_building,comm heating,2050,3490
+EU-12,comm,comm,comm_building,comm heating,2050,5247
+EU-15,comm,comm,comm_building,comm heating,2050,3993
+Europe_Eastern,comm,comm,comm_building,comm heating,2050,5857
+Europe_Non_EU,comm,comm,comm_building,comm heating,2050,3218
+European Free Trade Association,comm,comm,comm_building,comm heating,2050,6326
+India,comm,comm,comm_building,comm heating,2050,197
+Indonesia,comm,comm,comm_building,comm heating,2050,0
+Japan,comm,comm,comm_building,comm heating,2050,3482
+Mexico,comm,comm,comm_building,comm heating,2050,703
+Middle East,comm,comm,comm_building,comm heating,2050,1379
+Pakistan,comm,comm,comm_building,comm heating,2050,683
+Russia,comm,comm,comm_building,comm heating,2050,8033
+South Africa,comm,comm,comm_building,comm heating,2050,892
+South America_Northern,comm,comm,comm_building,comm heating,2050,3
+South America_Southern,comm,comm,comm_building,comm heating,2050,2029
+South Asia,comm,comm,comm_building,comm heating,2050,1137
+South Korea,comm,comm,comm_building,comm heating,2050,4242
+Southeast Asia,comm,comm,comm_building,comm heating,2050,330
+Taiwan,comm,comm,comm_building,comm heating,2050,936
+Argentina,comm,comm,comm_building,comm heating,2050,1623
+Colombia,comm,comm,comm_building,comm heating,2050,531
+USA,resid,resid,resid_building,resid cooling,2050,2073
+Africa_Eastern,resid,resid,resid_building,resid cooling,2050,3666
+Africa_Northern,resid,resid,resid_building,resid cooling,2050,3489
+Africa_Southern,resid,resid,resid_building,resid cooling,2050,3906
+Africa_Western,resid,resid,resid_building,resid cooling,2050,6336
+Australia_NZ,resid,resid,resid_building,resid cooling,2050,1294
+Brazil,resid,resid,resid_building,resid cooling,2050,3606
+Canada,resid,resid,resid_building,resid cooling,2050,666
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2050,4300
+Central Asia,resid,resid,resid_building,resid cooling,2050,1898
+China,resid,resid,resid_building,resid cooling,2050,2254
+EU-12,resid,resid,resid_building,resid cooling,2050,837
+EU-15,resid,resid,resid_building,resid cooling,2050,809
+Europe_Eastern,resid,resid,resid_building,resid cooling,2050,979
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2050,1297
+European Free Trade Association,resid,resid,resid_building,resid cooling,2050,364
+India,resid,resid,resid_building,resid cooling,2050,5992
+Indonesia,resid,resid,resid_building,resid cooling,2050,6157
+Japan,resid,resid,resid_building,resid cooling,2050,1367
+Mexico,resid,resid,resid_building,resid cooling,2050,2345
+Middle East,resid,resid,resid_building,resid cooling,2050,4199
+Pakistan,resid,resid,resid_building,resid cooling,2050,5420
+Russia,resid,resid,resid_building,resid cooling,2050,757
+South Africa,resid,resid,resid_building,resid cooling,2050,1936
+South America_Northern,resid,resid,resid_building,resid cooling,2050,5190
+South America_Southern,resid,resid,resid_building,resid cooling,2050,1581
+South Asia,resid,resid,resid_building,resid cooling,2050,4471
+South Korea,resid,resid,resid_building,resid cooling,2050,1327
+Southeast Asia,resid,resid,resid_building,resid cooling,2050,5580
+Taiwan,resid,resid,resid_building,resid cooling,2050,2781
+Argentina,resid,resid,resid_building,resid cooling,2050,1783
+Colombia,resid,resid,resid_building,resid cooling,2050,2801
+USA,resid,resid,resid_building,resid heating,2050,3438
+Africa_Eastern,resid,resid,resid_building,resid heating,2050,113
+Africa_Northern,resid,resid,resid_building,resid heating,2050,918
+Africa_Southern,resid,resid,resid_building,resid heating,2050,74
+Africa_Western,resid,resid,resid_building,resid heating,2050,5
+Australia_NZ,resid,resid,resid_building,resid heating,2050,1554
+Brazil,resid,resid,resid_building,resid heating,2050,157
+Canada,resid,resid,resid_building,resid heating,2050,6812
+Central America and Caribbean,resid,resid,resid_building,resid heating,2050,34
+Central Asia,resid,resid,resid_building,resid heating,2050,5263
+China,resid,resid,resid_building,resid heating,2050,3490
+EU-12,resid,resid,resid_building,resid heating,2050,5247
+EU-15,resid,resid,resid_building,resid heating,2050,3993
+Europe_Eastern,resid,resid,resid_building,resid heating,2050,5857
+Europe_Non_EU,resid,resid,resid_building,resid heating,2050,3218
+European Free Trade Association,resid,resid,resid_building,resid heating,2050,6326
+India,resid,resid,resid_building,resid heating,2050,197
+Indonesia,resid,resid,resid_building,resid heating,2050,0
+Japan,resid,resid,resid_building,resid heating,2050,3482
+Mexico,resid,resid,resid_building,resid heating,2050,703
+Middle East,resid,resid,resid_building,resid heating,2050,1379
+Pakistan,resid,resid,resid_building,resid heating,2050,683
+Russia,resid,resid,resid_building,resid heating,2050,8033
+South Africa,resid,resid,resid_building,resid heating,2050,892
+South America_Northern,resid,resid,resid_building,resid heating,2050,3
+South America_Southern,resid,resid,resid_building,resid heating,2050,2029
+South Asia,resid,resid,resid_building,resid heating,2050,1137
+South Korea,resid,resid,resid_building,resid heating,2050,4242
+Southeast Asia,resid,resid,resid_building,resid heating,2050,330
+Taiwan,resid,resid,resid_building,resid heating,2050,936
+Argentina,resid,resid,resid_building,resid heating,2050,1623
+Colombia,resid,resid,resid_building,resid heating,2050,531
+USA,comm,comm,comm_building,comm cooling,2055,2141
+Africa_Eastern,comm,comm,comm_building,comm cooling,2055,3762
+Africa_Northern,comm,comm,comm_building,comm cooling,2055,3601
+Africa_Southern,comm,comm,comm_building,comm cooling,2055,4021
+Africa_Western,comm,comm,comm_building,comm cooling,2055,6471
+Australia_NZ,comm,comm,comm_building,comm cooling,2055,1346
+Brazil,comm,comm,comm_building,comm cooling,2055,3708
+Canada,comm,comm,comm_building,comm cooling,2055,712
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2055,4380
+Central Asia,comm,comm,comm_building,comm cooling,2055,1963
+China,comm,comm,comm_building,comm cooling,2055,2321
+EU-12,comm,comm,comm_building,comm cooling,2055,898
+EU-15,comm,comm,comm_building,comm cooling,2055,860
+Europe_Eastern,comm,comm,comm_building,comm cooling,2055,1038
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2055,1362
+European Free Trade Association,comm,comm,comm_building,comm cooling,2055,394
+India,comm,comm,comm_building,comm cooling,2055,6105
+Indonesia,comm,comm,comm_building,comm cooling,2055,6255
+Japan,comm,comm,comm_building,comm cooling,2055,1410
+Mexico,comm,comm,comm_building,comm cooling,2055,2445
+Middle East,comm,comm,comm_building,comm cooling,2055,4317
+Pakistan,comm,comm,comm_building,comm cooling,2055,5529
+Russia,comm,comm,comm_building,comm cooling,2055,792
+South Africa,comm,comm,comm_building,comm cooling,2055,2022
+South America_Northern,comm,comm,comm_building,comm cooling,2055,5300
+South America_Southern,comm,comm,comm_building,comm cooling,2055,1639
+South Asia,comm,comm,comm_building,comm cooling,2055,4515
+South Korea,comm,comm,comm_building,comm cooling,2055,1374
+Southeast Asia,comm,comm,comm_building,comm cooling,2055,5682
+Taiwan,comm,comm,comm_building,comm cooling,2055,2854
+Argentina,comm,comm,comm_building,comm cooling,2055,1835
+Colombia,comm,comm,comm_building,comm cooling,2055,2876
+USA,comm,comm,comm_building,comm heating,2055,3371
+Africa_Eastern,comm,comm,comm_building,comm heating,2055,102
+Africa_Northern,comm,comm,comm_building,comm heating,2055,874
+Africa_Southern,comm,comm,comm_building,comm heating,2055,65
+Africa_Western,comm,comm,comm_building,comm heating,2055,4
+Australia_NZ,comm,comm,comm_building,comm heating,2055,1492
+Brazil,comm,comm,comm_building,comm heating,2055,144
+Canada,comm,comm,comm_building,comm heating,2055,6712
+Central America and Caribbean,comm,comm,comm_building,comm heating,2055,30
+Central Asia,comm,comm,comm_building,comm heating,2055,5188
+China,comm,comm,comm_building,comm heating,2055,3420
+EU-12,comm,comm,comm_building,comm heating,2055,5157
+EU-15,comm,comm,comm_building,comm heating,2055,3925
+Europe_Eastern,comm,comm,comm_building,comm heating,2055,5757
+Europe_Non_EU,comm,comm,comm_building,comm heating,2055,3148
+European Free Trade Association,comm,comm,comm_building,comm heating,2055,6250
+India,comm,comm,comm_building,comm heating,2055,188
+Indonesia,comm,comm,comm_building,comm heating,2055,0
+Japan,comm,comm,comm_building,comm heating,2055,3420
+Mexico,comm,comm,comm_building,comm heating,2055,645
+Middle East,comm,comm,comm_building,comm heating,2055,1313
+Pakistan,comm,comm,comm_building,comm heating,2055,651
+Russia,comm,comm,comm_building,comm heating,2055,7916
+South Africa,comm,comm,comm_building,comm heating,2055,837
+South America_Northern,comm,comm,comm_building,comm heating,2055,2
+South America_Southern,comm,comm,comm_building,comm heating,2055,1963
+South Asia,comm,comm,comm_building,comm heating,2055,1155
+South Korea,comm,comm,comm_building,comm heating,2055,4174
+Southeast Asia,comm,comm,comm_building,comm heating,2055,319
+Taiwan,comm,comm,comm_building,comm heating,2055,903
+Argentina,comm,comm,comm_building,comm heating,2055,1586
+Colombia,comm,comm,comm_building,comm heating,2055,498
+USA,resid,resid,resid_building,resid cooling,2055,2141
+Africa_Eastern,resid,resid,resid_building,resid cooling,2055,3762
+Africa_Northern,resid,resid,resid_building,resid cooling,2055,3601
+Africa_Southern,resid,resid,resid_building,resid cooling,2055,4021
+Africa_Western,resid,resid,resid_building,resid cooling,2055,6471
+Australia_NZ,resid,resid,resid_building,resid cooling,2055,1346
+Brazil,resid,resid,resid_building,resid cooling,2055,3708
+Canada,resid,resid,resid_building,resid cooling,2055,712
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2055,4380
+Central Asia,resid,resid,resid_building,resid cooling,2055,1963
+China,resid,resid,resid_building,resid cooling,2055,2321
+EU-12,resid,resid,resid_building,resid cooling,2055,898
+EU-15,resid,resid,resid_building,resid cooling,2055,860
+Europe_Eastern,resid,resid,resid_building,resid cooling,2055,1038
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2055,1362
+European Free Trade Association,resid,resid,resid_building,resid cooling,2055,394
+India,resid,resid,resid_building,resid cooling,2055,6105
+Indonesia,resid,resid,resid_building,resid cooling,2055,6255
+Japan,resid,resid,resid_building,resid cooling,2055,1410
+Mexico,resid,resid,resid_building,resid cooling,2055,2445
+Middle East,resid,resid,resid_building,resid cooling,2055,4317
+Pakistan,resid,resid,resid_building,resid cooling,2055,5529
+Russia,resid,resid,resid_building,resid cooling,2055,792
+South Africa,resid,resid,resid_building,resid cooling,2055,2022
+South America_Northern,resid,resid,resid_building,resid cooling,2055,5300
+South America_Southern,resid,resid,resid_building,resid cooling,2055,1639
+South Asia,resid,resid,resid_building,resid cooling,2055,4515
+South Korea,resid,resid,resid_building,resid cooling,2055,1374
+Southeast Asia,resid,resid,resid_building,resid cooling,2055,5682
+Taiwan,resid,resid,resid_building,resid cooling,2055,2854
+Argentina,resid,resid,resid_building,resid cooling,2055,1835
+Colombia,resid,resid,resid_building,resid cooling,2055,2876
+USA,resid,resid,resid_building,resid heating,2055,3371
+Africa_Eastern,resid,resid,resid_building,resid heating,2055,102
+Africa_Northern,resid,resid,resid_building,resid heating,2055,874
+Africa_Southern,resid,resid,resid_building,resid heating,2055,65
+Africa_Western,resid,resid,resid_building,resid heating,2055,4
+Australia_NZ,resid,resid,resid_building,resid heating,2055,1492
+Brazil,resid,resid,resid_building,resid heating,2055,144
+Canada,resid,resid,resid_building,resid heating,2055,6712
+Central America and Caribbean,resid,resid,resid_building,resid heating,2055,30
+Central Asia,resid,resid,resid_building,resid heating,2055,5188
+China,resid,resid,resid_building,resid heating,2055,3420
+EU-12,resid,resid,resid_building,resid heating,2055,5157
+EU-15,resid,resid,resid_building,resid heating,2055,3925
+Europe_Eastern,resid,resid,resid_building,resid heating,2055,5757
+Europe_Non_EU,resid,resid,resid_building,resid heating,2055,3148
+European Free Trade Association,resid,resid,resid_building,resid heating,2055,6250
+India,resid,resid,resid_building,resid heating,2055,188
+Indonesia,resid,resid,resid_building,resid heating,2055,0
+Japan,resid,resid,resid_building,resid heating,2055,3420
+Mexico,resid,resid,resid_building,resid heating,2055,645
+Middle East,resid,resid,resid_building,resid heating,2055,1313
+Pakistan,resid,resid,resid_building,resid heating,2055,651
+Russia,resid,resid,resid_building,resid heating,2055,7916
+South Africa,resid,resid,resid_building,resid heating,2055,837
+South America_Northern,resid,resid,resid_building,resid heating,2055,2
+South America_Southern,resid,resid,resid_building,resid heating,2055,1963
+South Asia,resid,resid,resid_building,resid heating,2055,1155
+South Korea,resid,resid,resid_building,resid heating,2055,4174
+Southeast Asia,resid,resid,resid_building,resid heating,2055,319
+Taiwan,resid,resid,resid_building,resid heating,2055,903
+Argentina,resid,resid,resid_building,resid heating,2055,1586
+Colombia,resid,resid,resid_building,resid heating,2055,498
+USA,comm,comm,comm_building,comm cooling,2060,2212
+Africa_Eastern,comm,comm,comm_building,comm cooling,2060,3864
+Africa_Northern,comm,comm,comm_building,comm cooling,2060,3718
+Africa_Southern,comm,comm,comm_building,comm cooling,2060,4141
+Africa_Western,comm,comm,comm_building,comm cooling,2060,6611
+Australia_NZ,comm,comm,comm_building,comm cooling,2060,1403
+Brazil,comm,comm,comm_building,comm cooling,2060,3819
+Canada,comm,comm,comm_building,comm cooling,2060,761
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2060,4467
+Central Asia,comm,comm,comm_building,comm cooling,2060,2031
+China,comm,comm,comm_building,comm cooling,2060,2390
+EU-12,comm,comm,comm_building,comm cooling,2060,961
+EU-15,comm,comm,comm_building,comm cooling,2060,913
+Europe_Eastern,comm,comm,comm_building,comm cooling,2060,1100
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2060,1429
+European Free Trade Association,comm,comm,comm_building,comm cooling,2060,424
+India,comm,comm,comm_building,comm cooling,2060,6228
+Indonesia,comm,comm,comm_building,comm cooling,2060,6356
+Japan,comm,comm,comm_building,comm cooling,2060,1454
+Mexico,comm,comm,comm_building,comm cooling,2060,2548
+Middle East,comm,comm,comm_building,comm cooling,2060,4440
+Pakistan,comm,comm,comm_building,comm cooling,2060,5644
+Russia,comm,comm,comm_building,comm cooling,2060,831
+South Africa,comm,comm,comm_building,comm cooling,2060,2112
+South America_Northern,comm,comm,comm_building,comm cooling,2060,5416
+South America_Southern,comm,comm,comm_building,comm cooling,2060,1700
+South Asia,comm,comm,comm_building,comm cooling,2060,4563
+South Korea,comm,comm,comm_building,comm cooling,2060,1423
+Southeast Asia,comm,comm,comm_building,comm cooling,2060,5788
+Taiwan,comm,comm,comm_building,comm cooling,2060,2928
+Argentina,comm,comm,comm_building,comm cooling,2060,1892
+Colombia,comm,comm,comm_building,comm cooling,2060,2955
+USA,comm,comm,comm_building,comm heating,2060,3303
+Africa_Eastern,comm,comm,comm_building,comm heating,2060,92
+Africa_Northern,comm,comm,comm_building,comm heating,2060,830
+Africa_Southern,comm,comm,comm_building,comm heating,2060,57
+Africa_Western,comm,comm,comm_building,comm heating,2060,3
+Australia_NZ,comm,comm,comm_building,comm heating,2060,1429
+Brazil,comm,comm,comm_building,comm heating,2060,131
+Canada,comm,comm,comm_building,comm heating,2060,6610
+Central America and Caribbean,comm,comm,comm_building,comm heating,2060,27
+Central Asia,comm,comm,comm_building,comm heating,2060,5113
+China,comm,comm,comm_building,comm heating,2060,3348
+EU-12,comm,comm,comm_building,comm heating,2060,5066
+EU-15,comm,comm,comm_building,comm heating,2060,3858
+Europe_Eastern,comm,comm,comm_building,comm heating,2060,5654
+Europe_Non_EU,comm,comm,comm_building,comm heating,2060,3079
+European Free Trade Association,comm,comm,comm_building,comm heating,2060,6174
+India,comm,comm,comm_building,comm heating,2060,180
+Indonesia,comm,comm,comm_building,comm heating,2060,0
+Japan,comm,comm,comm_building,comm heating,2060,3358
+Mexico,comm,comm,comm_building,comm heating,2060,589
+Middle East,comm,comm,comm_building,comm heating,2060,1248
+Pakistan,comm,comm,comm_building,comm heating,2060,620
+Russia,comm,comm,comm_building,comm heating,2060,7793
+South Africa,comm,comm,comm_building,comm heating,2060,782
+South America_Northern,comm,comm,comm_building,comm heating,2060,2
+South America_Southern,comm,comm,comm_building,comm heating,2060,1897
+South Asia,comm,comm,comm_building,comm heating,2060,1172
+South Korea,comm,comm,comm_building,comm heating,2060,4104
+Southeast Asia,comm,comm,comm_building,comm heating,2060,308
+Taiwan,comm,comm,comm_building,comm heating,2060,871
+Argentina,comm,comm,comm_building,comm heating,2060,1549
+Colombia,comm,comm,comm_building,comm heating,2060,466
+USA,resid,resid,resid_building,resid cooling,2060,2212
+Africa_Eastern,resid,resid,resid_building,resid cooling,2060,3864
+Africa_Northern,resid,resid,resid_building,resid cooling,2060,3718
+Africa_Southern,resid,resid,resid_building,resid cooling,2060,4141
+Africa_Western,resid,resid,resid_building,resid cooling,2060,6611
+Australia_NZ,resid,resid,resid_building,resid cooling,2060,1403
+Brazil,resid,resid,resid_building,resid cooling,2060,3819
+Canada,resid,resid,resid_building,resid cooling,2060,761
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2060,4467
+Central Asia,resid,resid,resid_building,resid cooling,2060,2031
+China,resid,resid,resid_building,resid cooling,2060,2390
+EU-12,resid,resid,resid_building,resid cooling,2060,961
+EU-15,resid,resid,resid_building,resid cooling,2060,913
+Europe_Eastern,resid,resid,resid_building,resid cooling,2060,1100
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2060,1429
+European Free Trade Association,resid,resid,resid_building,resid cooling,2060,424
+India,resid,resid,resid_building,resid cooling,2060,6228
+Indonesia,resid,resid,resid_building,resid cooling,2060,6356
+Japan,resid,resid,resid_building,resid cooling,2060,1454
+Mexico,resid,resid,resid_building,resid cooling,2060,2548
+Middle East,resid,resid,resid_building,resid cooling,2060,4440
+Pakistan,resid,resid,resid_building,resid cooling,2060,5644
+Russia,resid,resid,resid_building,resid cooling,2060,831
+South Africa,resid,resid,resid_building,resid cooling,2060,2112
+South America_Northern,resid,resid,resid_building,resid cooling,2060,5416
+South America_Southern,resid,resid,resid_building,resid cooling,2060,1700
+South Asia,resid,resid,resid_building,resid cooling,2060,4563
+South Korea,resid,resid,resid_building,resid cooling,2060,1423
+Southeast Asia,resid,resid,resid_building,resid cooling,2060,5788
+Taiwan,resid,resid,resid_building,resid cooling,2060,2928
+Argentina,resid,resid,resid_building,resid cooling,2060,1892
+Colombia,resid,resid,resid_building,resid cooling,2060,2955
+USA,resid,resid,resid_building,resid heating,2060,3303
+Africa_Eastern,resid,resid,resid_building,resid heating,2060,92
+Africa_Northern,resid,resid,resid_building,resid heating,2060,830
+Africa_Southern,resid,resid,resid_building,resid heating,2060,57
+Africa_Western,resid,resid,resid_building,resid heating,2060,3
+Australia_NZ,resid,resid,resid_building,resid heating,2060,1429
+Brazil,resid,resid,resid_building,resid heating,2060,131
+Canada,resid,resid,resid_building,resid heating,2060,6610
+Central America and Caribbean,resid,resid,resid_building,resid heating,2060,27
+Central Asia,resid,resid,resid_building,resid heating,2060,5113
+China,resid,resid,resid_building,resid heating,2060,3348
+EU-12,resid,resid,resid_building,resid heating,2060,5066
+EU-15,resid,resid,resid_building,resid heating,2060,3858
+Europe_Eastern,resid,resid,resid_building,resid heating,2060,5654
+Europe_Non_EU,resid,resid,resid_building,resid heating,2060,3079
+European Free Trade Association,resid,resid,resid_building,resid heating,2060,6174
+India,resid,resid,resid_building,resid heating,2060,180
+Indonesia,resid,resid,resid_building,resid heating,2060,0
+Japan,resid,resid,resid_building,resid heating,2060,3358
+Mexico,resid,resid,resid_building,resid heating,2060,589
+Middle East,resid,resid,resid_building,resid heating,2060,1248
+Pakistan,resid,resid,resid_building,resid heating,2060,620
+Russia,resid,resid,resid_building,resid heating,2060,7793
+South Africa,resid,resid,resid_building,resid heating,2060,782
+South America_Northern,resid,resid,resid_building,resid heating,2060,2
+South America_Southern,resid,resid,resid_building,resid heating,2060,1897
+South Asia,resid,resid,resid_building,resid heating,2060,1172
+South Korea,resid,resid,resid_building,resid heating,2060,4104
+Southeast Asia,resid,resid,resid_building,resid heating,2060,308
+Taiwan,resid,resid,resid_building,resid heating,2060,871
+Argentina,resid,resid,resid_building,resid heating,2060,1549
+Colombia,resid,resid,resid_building,resid heating,2060,466
+USA,comm,comm,comm_building,comm cooling,2065,2287
+Africa_Eastern,comm,comm,comm_building,comm cooling,2065,3971
+Africa_Northern,comm,comm,comm_building,comm cooling,2065,3842
+Africa_Southern,comm,comm,comm_building,comm cooling,2065,4267
+Africa_Western,comm,comm,comm_building,comm cooling,2065,6757
+Australia_NZ,comm,comm,comm_building,comm cooling,2065,1465
+Brazil,comm,comm,comm_building,comm cooling,2065,3938
+Canada,comm,comm,comm_building,comm cooling,2065,813
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2065,4561
+Central Asia,comm,comm,comm_building,comm cooling,2065,2103
+China,comm,comm,comm_building,comm cooling,2065,2463
+EU-12,comm,comm,comm_building,comm cooling,2065,1026
+EU-15,comm,comm,comm_building,comm cooling,2065,967
+Europe_Eastern,comm,comm,comm_building,comm cooling,2065,1164
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2065,1501
+European Free Trade Association,comm,comm,comm_building,comm cooling,2065,457
+India,comm,comm,comm_building,comm cooling,2065,6359
+Indonesia,comm,comm,comm_building,comm cooling,2065,6462
+Japan,comm,comm,comm_building,comm cooling,2065,1500
+Mexico,comm,comm,comm_building,comm cooling,2065,2654
+Middle East,comm,comm,comm_building,comm cooling,2065,4566
+Pakistan,comm,comm,comm_building,comm cooling,2065,5765
+Russia,comm,comm,comm_building,comm cooling,2065,873
+South Africa,comm,comm,comm_building,comm cooling,2065,2206
+South America_Northern,comm,comm,comm_building,comm cooling,2065,5541
+South America_Southern,comm,comm,comm_building,comm cooling,2065,1765
+South Asia,comm,comm,comm_building,comm cooling,2065,4619
+South Korea,comm,comm,comm_building,comm cooling,2065,1474
+Southeast Asia,comm,comm,comm_building,comm cooling,2065,5897
+Taiwan,comm,comm,comm_building,comm cooling,2065,3004
+Argentina,comm,comm,comm_building,comm cooling,2065,1953
+Colombia,comm,comm,comm_building,comm cooling,2065,3038
+USA,comm,comm,comm_building,comm heating,2065,3235
+Africa_Eastern,comm,comm,comm_building,comm heating,2065,82
+Africa_Northern,comm,comm,comm_building,comm heating,2065,787
+Africa_Southern,comm,comm,comm_building,comm heating,2065,50
+Africa_Western,comm,comm,comm_building,comm heating,2065,3
+Australia_NZ,comm,comm,comm_building,comm heating,2065,1364
+Brazil,comm,comm,comm_building,comm heating,2065,118
+Canada,comm,comm,comm_building,comm heating,2065,6503
+Central America and Caribbean,comm,comm,comm_building,comm heating,2065,23
+Central Asia,comm,comm,comm_building,comm heating,2065,5037
+China,comm,comm,comm_building,comm heating,2065,3274
+EU-12,comm,comm,comm_building,comm heating,2065,4973
+EU-15,comm,comm,comm_building,comm heating,2065,3789
+Europe_Eastern,comm,comm,comm_building,comm heating,2065,5546
+Europe_Non_EU,comm,comm,comm_building,comm heating,2065,3006
+European Free Trade Association,comm,comm,comm_building,comm heating,2065,6096
+India,comm,comm,comm_building,comm heating,2065,171
+Indonesia,comm,comm,comm_building,comm heating,2065,0
+Japan,comm,comm,comm_building,comm heating,2065,3295
+Mexico,comm,comm,comm_building,comm heating,2065,536
+Middle East,comm,comm,comm_building,comm heating,2065,1185
+Pakistan,comm,comm,comm_building,comm heating,2065,589
+Russia,comm,comm,comm_building,comm heating,2065,7663
+South Africa,comm,comm,comm_building,comm heating,2065,729
+South America_Northern,comm,comm,comm_building,comm heating,2065,2
+South America_Southern,comm,comm,comm_building,comm heating,2065,1829
+South Asia,comm,comm,comm_building,comm heating,2065,1187
+South Korea,comm,comm,comm_building,comm heating,2065,4033
+Southeast Asia,comm,comm,comm_building,comm heating,2065,299
+Taiwan,comm,comm,comm_building,comm heating,2065,840
+Argentina,comm,comm,comm_building,comm heating,2065,1510
+Colombia,comm,comm,comm_building,comm heating,2065,435
+USA,resid,resid,resid_building,resid cooling,2065,2287
+Africa_Eastern,resid,resid,resid_building,resid cooling,2065,3971
+Africa_Northern,resid,resid,resid_building,resid cooling,2065,3842
+Africa_Southern,resid,resid,resid_building,resid cooling,2065,4267
+Africa_Western,resid,resid,resid_building,resid cooling,2065,6757
+Australia_NZ,resid,resid,resid_building,resid cooling,2065,1465
+Brazil,resid,resid,resid_building,resid cooling,2065,3938
+Canada,resid,resid,resid_building,resid cooling,2065,813
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2065,4561
+Central Asia,resid,resid,resid_building,resid cooling,2065,2103
+China,resid,resid,resid_building,resid cooling,2065,2463
+EU-12,resid,resid,resid_building,resid cooling,2065,1026
+EU-15,resid,resid,resid_building,resid cooling,2065,967
+Europe_Eastern,resid,resid,resid_building,resid cooling,2065,1164
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2065,1501
+European Free Trade Association,resid,resid,resid_building,resid cooling,2065,457
+India,resid,resid,resid_building,resid cooling,2065,6359
+Indonesia,resid,resid,resid_building,resid cooling,2065,6462
+Japan,resid,resid,resid_building,resid cooling,2065,1500
+Mexico,resid,resid,resid_building,resid cooling,2065,2654
+Middle East,resid,resid,resid_building,resid cooling,2065,4566
+Pakistan,resid,resid,resid_building,resid cooling,2065,5765
+Russia,resid,resid,resid_building,resid cooling,2065,873
+South Africa,resid,resid,resid_building,resid cooling,2065,2206
+South America_Northern,resid,resid,resid_building,resid cooling,2065,5541
+South America_Southern,resid,resid,resid_building,resid cooling,2065,1765
+South Asia,resid,resid,resid_building,resid cooling,2065,4619
+South Korea,resid,resid,resid_building,resid cooling,2065,1474
+Southeast Asia,resid,resid,resid_building,resid cooling,2065,5897
+Taiwan,resid,resid,resid_building,resid cooling,2065,3004
+Argentina,resid,resid,resid_building,resid cooling,2065,1953
+Colombia,resid,resid,resid_building,resid cooling,2065,3038
+USA,resid,resid,resid_building,resid heating,2065,3235
+Africa_Eastern,resid,resid,resid_building,resid heating,2065,82
+Africa_Northern,resid,resid,resid_building,resid heating,2065,787
+Africa_Southern,resid,resid,resid_building,resid heating,2065,50
+Africa_Western,resid,resid,resid_building,resid heating,2065,3
+Australia_NZ,resid,resid,resid_building,resid heating,2065,1364
+Brazil,resid,resid,resid_building,resid heating,2065,118
+Canada,resid,resid,resid_building,resid heating,2065,6503
+Central America and Caribbean,resid,resid,resid_building,resid heating,2065,23
+Central Asia,resid,resid,resid_building,resid heating,2065,5037
+China,resid,resid,resid_building,resid heating,2065,3274
+EU-12,resid,resid,resid_building,resid heating,2065,4973
+EU-15,resid,resid,resid_building,resid heating,2065,3789
+Europe_Eastern,resid,resid,resid_building,resid heating,2065,5546
+Europe_Non_EU,resid,resid,resid_building,resid heating,2065,3006
+European Free Trade Association,resid,resid,resid_building,resid heating,2065,6096
+India,resid,resid,resid_building,resid heating,2065,171
+Indonesia,resid,resid,resid_building,resid heating,2065,0
+Japan,resid,resid,resid_building,resid heating,2065,3295
+Mexico,resid,resid,resid_building,resid heating,2065,536
+Middle East,resid,resid,resid_building,resid heating,2065,1185
+Pakistan,resid,resid,resid_building,resid heating,2065,589
+Russia,resid,resid,resid_building,resid heating,2065,7663
+South Africa,resid,resid,resid_building,resid heating,2065,729
+South America_Northern,resid,resid,resid_building,resid heating,2065,2
+South America_Southern,resid,resid,resid_building,resid heating,2065,1829
+South Asia,resid,resid,resid_building,resid heating,2065,1187
+South Korea,resid,resid,resid_building,resid heating,2065,4033
+Southeast Asia,resid,resid,resid_building,resid heating,2065,299
+Taiwan,resid,resid,resid_building,resid heating,2065,840
+Argentina,resid,resid,resid_building,resid heating,2065,1510
+Colombia,resid,resid,resid_building,resid heating,2065,435
+USA,comm,comm,comm_building,comm cooling,2070,2366
+Africa_Eastern,comm,comm,comm_building,comm cooling,2070,4084
+Africa_Northern,comm,comm,comm_building,comm cooling,2070,3973
+Africa_Southern,comm,comm,comm_building,comm cooling,2070,4401
+Africa_Western,comm,comm,comm_building,comm cooling,2070,6909
+Australia_NZ,comm,comm,comm_building,comm cooling,2070,1530
+Brazil,comm,comm,comm_building,comm cooling,2070,4066
+Canada,comm,comm,comm_building,comm cooling,2070,868
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2070,4663
+Central Asia,comm,comm,comm_building,comm cooling,2070,2181
+China,comm,comm,comm_building,comm cooling,2070,2538
+EU-12,comm,comm,comm_building,comm cooling,2070,1093
+EU-15,comm,comm,comm_building,comm cooling,2070,1023
+Europe_Eastern,comm,comm,comm_building,comm cooling,2070,1231
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2070,1576
+European Free Trade Association,comm,comm,comm_building,comm cooling,2070,490
+India,comm,comm,comm_building,comm cooling,2070,6500
+Indonesia,comm,comm,comm_building,comm cooling,2070,6572
+Japan,comm,comm,comm_building,comm cooling,2070,1548
+Mexico,comm,comm,comm_building,comm cooling,2070,2763
+Middle East,comm,comm,comm_building,comm cooling,2070,4696
+Pakistan,comm,comm,comm_building,comm cooling,2070,5890
+Russia,comm,comm,comm_building,comm cooling,2070,919
+South Africa,comm,comm,comm_building,comm cooling,2070,2303
+South America_Northern,comm,comm,comm_building,comm cooling,2070,5674
+South America_Southern,comm,comm,comm_building,comm cooling,2070,1835
+South Asia,comm,comm,comm_building,comm cooling,2070,4683
+South Korea,comm,comm,comm_building,comm cooling,2070,1527
+Southeast Asia,comm,comm,comm_building,comm cooling,2070,6009
+Taiwan,comm,comm,comm_building,comm cooling,2070,3081
+Argentina,comm,comm,comm_building,comm cooling,2070,2021
+Colombia,comm,comm,comm_building,comm cooling,2070,3126
+USA,comm,comm,comm_building,comm heating,2070,3166
+Africa_Eastern,comm,comm,comm_building,comm heating,2070,73
+Africa_Northern,comm,comm,comm_building,comm heating,2070,743
+Africa_Southern,comm,comm,comm_building,comm heating,2070,44
+Africa_Western,comm,comm,comm_building,comm heating,2070,2
+Australia_NZ,comm,comm,comm_building,comm heating,2070,1297
+Brazil,comm,comm,comm_building,comm heating,2070,105
+Canada,comm,comm,comm_building,comm heating,2070,6388
+Central America and Caribbean,comm,comm,comm_building,comm heating,2070,20
+Central Asia,comm,comm,comm_building,comm heating,2070,4957
+China,comm,comm,comm_building,comm heating,2070,3197
+EU-12,comm,comm,comm_building,comm heating,2070,4877
+EU-15,comm,comm,comm_building,comm heating,2070,3717
+Europe_Eastern,comm,comm,comm_building,comm heating,2070,5434
+Europe_Non_EU,comm,comm,comm_building,comm heating,2070,2934
+European Free Trade Association,comm,comm,comm_building,comm heating,2070,6011
+India,comm,comm,comm_building,comm heating,2070,162
+Indonesia,comm,comm,comm_building,comm heating,2070,0
+Japan,comm,comm,comm_building,comm heating,2070,3232
+Mexico,comm,comm,comm_building,comm heating,2070,487
+Middle East,comm,comm,comm_building,comm heating,2070,1125
+Pakistan,comm,comm,comm_building,comm heating,2070,557
+Russia,comm,comm,comm_building,comm heating,2070,7524
+South Africa,comm,comm,comm_building,comm heating,2070,678
+South America_Northern,comm,comm,comm_building,comm heating,2070,1
+South America_Southern,comm,comm,comm_building,comm heating,2070,1758
+South Asia,comm,comm,comm_building,comm heating,2070,1197
+South Korea,comm,comm,comm_building,comm heating,2070,3957
+Southeast Asia,comm,comm,comm_building,comm heating,2070,290
+Taiwan,comm,comm,comm_building,comm heating,2070,809
+Argentina,comm,comm,comm_building,comm heating,2070,1469
+Colombia,comm,comm,comm_building,comm heating,2070,403
+USA,resid,resid,resid_building,resid cooling,2070,2366
+Africa_Eastern,resid,resid,resid_building,resid cooling,2070,4084
+Africa_Northern,resid,resid,resid_building,resid cooling,2070,3973
+Africa_Southern,resid,resid,resid_building,resid cooling,2070,4401
+Africa_Western,resid,resid,resid_building,resid cooling,2070,6909
+Australia_NZ,resid,resid,resid_building,resid cooling,2070,1530
+Brazil,resid,resid,resid_building,resid cooling,2070,4066
+Canada,resid,resid,resid_building,resid cooling,2070,868
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2070,4663
+Central Asia,resid,resid,resid_building,resid cooling,2070,2181
+China,resid,resid,resid_building,resid cooling,2070,2538
+EU-12,resid,resid,resid_building,resid cooling,2070,1093
+EU-15,resid,resid,resid_building,resid cooling,2070,1023
+Europe_Eastern,resid,resid,resid_building,resid cooling,2070,1231
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2070,1576
+European Free Trade Association,resid,resid,resid_building,resid cooling,2070,490
+India,resid,resid,resid_building,resid cooling,2070,6500
+Indonesia,resid,resid,resid_building,resid cooling,2070,6572
+Japan,resid,resid,resid_building,resid cooling,2070,1548
+Mexico,resid,resid,resid_building,resid cooling,2070,2763
+Middle East,resid,resid,resid_building,resid cooling,2070,4696
+Pakistan,resid,resid,resid_building,resid cooling,2070,5890
+Russia,resid,resid,resid_building,resid cooling,2070,919
+South Africa,resid,resid,resid_building,resid cooling,2070,2303
+South America_Northern,resid,resid,resid_building,resid cooling,2070,5674
+South America_Southern,resid,resid,resid_building,resid cooling,2070,1835
+South Asia,resid,resid,resid_building,resid cooling,2070,4683
+South Korea,resid,resid,resid_building,resid cooling,2070,1527
+Southeast Asia,resid,resid,resid_building,resid cooling,2070,6009
+Taiwan,resid,resid,resid_building,resid cooling,2070,3081
+Argentina,resid,resid,resid_building,resid cooling,2070,2021
+Colombia,resid,resid,resid_building,resid cooling,2070,3126
+USA,resid,resid,resid_building,resid heating,2070,3166
+Africa_Eastern,resid,resid,resid_building,resid heating,2070,73
+Africa_Northern,resid,resid,resid_building,resid heating,2070,743
+Africa_Southern,resid,resid,resid_building,resid heating,2070,44
+Africa_Western,resid,resid,resid_building,resid heating,2070,2
+Australia_NZ,resid,resid,resid_building,resid heating,2070,1297
+Brazil,resid,resid,resid_building,resid heating,2070,105
+Canada,resid,resid,resid_building,resid heating,2070,6388
+Central America and Caribbean,resid,resid,resid_building,resid heating,2070,20
+Central Asia,resid,resid,resid_building,resid heating,2070,4957
+China,resid,resid,resid_building,resid heating,2070,3197
+EU-12,resid,resid,resid_building,resid heating,2070,4877
+EU-15,resid,resid,resid_building,resid heating,2070,3717
+Europe_Eastern,resid,resid,resid_building,resid heating,2070,5434
+Europe_Non_EU,resid,resid,resid_building,resid heating,2070,2934
+European Free Trade Association,resid,resid,resid_building,resid heating,2070,6011
+India,resid,resid,resid_building,resid heating,2070,162
+Indonesia,resid,resid,resid_building,resid heating,2070,0
+Japan,resid,resid,resid_building,resid heating,2070,3232
+Mexico,resid,resid,resid_building,resid heating,2070,487
+Middle East,resid,resid,resid_building,resid heating,2070,1125
+Pakistan,resid,resid,resid_building,resid heating,2070,557
+Russia,resid,resid,resid_building,resid heating,2070,7524
+South Africa,resid,resid,resid_building,resid heating,2070,678
+South America_Northern,resid,resid,resid_building,resid heating,2070,1
+South America_Southern,resid,resid,resid_building,resid heating,2070,1758
+South Asia,resid,resid,resid_building,resid heating,2070,1197
+South Korea,resid,resid,resid_building,resid heating,2070,3957
+Southeast Asia,resid,resid,resid_building,resid heating,2070,290
+Taiwan,resid,resid,resid_building,resid heating,2070,809
+Argentina,resid,resid,resid_building,resid heating,2070,1469
+Colombia,resid,resid,resid_building,resid heating,2070,403
+USA,comm,comm,comm_building,comm cooling,2075,2451
+Africa_Eastern,comm,comm,comm_building,comm cooling,2075,4204
+Africa_Northern,comm,comm,comm_building,comm cooling,2075,4114
+Africa_Southern,comm,comm,comm_building,comm cooling,2075,4544
+Africa_Western,comm,comm,comm_building,comm cooling,2075,7068
+Australia_NZ,comm,comm,comm_building,comm cooling,2075,1601
+Brazil,comm,comm,comm_building,comm cooling,2075,4205
+Canada,comm,comm,comm_building,comm cooling,2075,925
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2075,4773
+Central Asia,comm,comm,comm_building,comm cooling,2075,2265
+China,comm,comm,comm_building,comm cooling,2075,2616
+EU-12,comm,comm,comm_building,comm cooling,2075,1160
+EU-15,comm,comm,comm_building,comm cooling,2075,1079
+Europe_Eastern,comm,comm,comm_building,comm cooling,2075,1301
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2075,1656
+European Free Trade Association,comm,comm,comm_building,comm cooling,2075,526
+India,comm,comm,comm_building,comm cooling,2075,6653
+Indonesia,comm,comm,comm_building,comm cooling,2075,6687
+Japan,comm,comm,comm_building,comm cooling,2075,1598
+Mexico,comm,comm,comm_building,comm cooling,2075,2874
+Middle East,comm,comm,comm_building,comm cooling,2075,4831
+Pakistan,comm,comm,comm_building,comm cooling,2075,6020
+Russia,comm,comm,comm_building,comm cooling,2075,972
+South Africa,comm,comm,comm_building,comm cooling,2075,2403
+South America_Northern,comm,comm,comm_building,comm cooling,2075,5818
+South America_Southern,comm,comm,comm_building,comm cooling,2075,1911
+South Asia,comm,comm,comm_building,comm cooling,2075,4755
+South Korea,comm,comm,comm_building,comm cooling,2075,1582
+Southeast Asia,comm,comm,comm_building,comm cooling,2075,6125
+Taiwan,comm,comm,comm_building,comm cooling,2075,3159
+Argentina,comm,comm,comm_building,comm cooling,2075,2095
+Colombia,comm,comm,comm_building,comm cooling,2075,3221
+USA,comm,comm,comm_building,comm heating,2075,3093
+Africa_Eastern,comm,comm,comm_building,comm heating,2075,64
+Africa_Northern,comm,comm,comm_building,comm heating,2075,698
+Africa_Southern,comm,comm,comm_building,comm heating,2075,38
+Africa_Western,comm,comm,comm_building,comm heating,2075,2
+Australia_NZ,comm,comm,comm_building,comm heating,2075,1227
+Brazil,comm,comm,comm_building,comm heating,2075,93
+Canada,comm,comm,comm_building,comm heating,2075,6262
+Central America and Caribbean,comm,comm,comm_building,comm heating,2075,17
+Central Asia,comm,comm,comm_building,comm heating,2075,4875
+China,comm,comm,comm_building,comm heating,2075,3117
+EU-12,comm,comm,comm_building,comm heating,2075,4778
+EU-15,comm,comm,comm_building,comm heating,2075,3641
+Europe_Eastern,comm,comm,comm_building,comm heating,2075,5317
+Europe_Non_EU,comm,comm,comm_building,comm heating,2075,2858
+European Free Trade Association,comm,comm,comm_building,comm heating,2075,5918
+India,comm,comm,comm_building,comm heating,2075,153
+Indonesia,comm,comm,comm_building,comm heating,2075,0
+Japan,comm,comm,comm_building,comm heating,2075,3167
+Mexico,comm,comm,comm_building,comm heating,2075,443
+Middle East,comm,comm,comm_building,comm heating,2075,1066
+Pakistan,comm,comm,comm_building,comm heating,2075,526
+Russia,comm,comm,comm_building,comm heating,2075,7375
+South Africa,comm,comm,comm_building,comm heating,2075,630
+South America_Northern,comm,comm,comm_building,comm heating,2075,1
+South America_Southern,comm,comm,comm_building,comm heating,2075,1685
+South Asia,comm,comm,comm_building,comm heating,2075,1204
+South Korea,comm,comm,comm_building,comm heating,2075,3877
+Southeast Asia,comm,comm,comm_building,comm heating,2075,284
+Taiwan,comm,comm,comm_building,comm heating,2075,779
+Argentina,comm,comm,comm_building,comm heating,2075,1426
+Colombia,comm,comm,comm_building,comm heating,2075,371
+USA,resid,resid,resid_building,resid cooling,2075,2451
+Africa_Eastern,resid,resid,resid_building,resid cooling,2075,4204
+Africa_Northern,resid,resid,resid_building,resid cooling,2075,4114
+Africa_Southern,resid,resid,resid_building,resid cooling,2075,4544
+Africa_Western,resid,resid,resid_building,resid cooling,2075,7068
+Australia_NZ,resid,resid,resid_building,resid cooling,2075,1601
+Brazil,resid,resid,resid_building,resid cooling,2075,4205
+Canada,resid,resid,resid_building,resid cooling,2075,925
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2075,4773
+Central Asia,resid,resid,resid_building,resid cooling,2075,2265
+China,resid,resid,resid_building,resid cooling,2075,2616
+EU-12,resid,resid,resid_building,resid cooling,2075,1160
+EU-15,resid,resid,resid_building,resid cooling,2075,1079
+Europe_Eastern,resid,resid,resid_building,resid cooling,2075,1301
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2075,1656
+European Free Trade Association,resid,resid,resid_building,resid cooling,2075,526
+India,resid,resid,resid_building,resid cooling,2075,6653
+Indonesia,resid,resid,resid_building,resid cooling,2075,6687
+Japan,resid,resid,resid_building,resid cooling,2075,1598
+Mexico,resid,resid,resid_building,resid cooling,2075,2874
+Middle East,resid,resid,resid_building,resid cooling,2075,4831
+Pakistan,resid,resid,resid_building,resid cooling,2075,6020
+Russia,resid,resid,resid_building,resid cooling,2075,972
+South Africa,resid,resid,resid_building,resid cooling,2075,2403
+South America_Northern,resid,resid,resid_building,resid cooling,2075,5818
+South America_Southern,resid,resid,resid_building,resid cooling,2075,1911
+South Asia,resid,resid,resid_building,resid cooling,2075,4755
+South Korea,resid,resid,resid_building,resid cooling,2075,1582
+Southeast Asia,resid,resid,resid_building,resid cooling,2075,6125
+Taiwan,resid,resid,resid_building,resid cooling,2075,3159
+Argentina,resid,resid,resid_building,resid cooling,2075,2095
+Colombia,resid,resid,resid_building,resid cooling,2075,3221
+USA,resid,resid,resid_building,resid heating,2075,3093
+Africa_Eastern,resid,resid,resid_building,resid heating,2075,64
+Africa_Northern,resid,resid,resid_building,resid heating,2075,698
+Africa_Southern,resid,resid,resid_building,resid heating,2075,38
+Africa_Western,resid,resid,resid_building,resid heating,2075,2
+Australia_NZ,resid,resid,resid_building,resid heating,2075,1227
+Brazil,resid,resid,resid_building,resid heating,2075,93
+Canada,resid,resid,resid_building,resid heating,2075,6262
+Central America and Caribbean,resid,resid,resid_building,resid heating,2075,17
+Central Asia,resid,resid,resid_building,resid heating,2075,4875
+China,resid,resid,resid_building,resid heating,2075,3117
+EU-12,resid,resid,resid_building,resid heating,2075,4778
+EU-15,resid,resid,resid_building,resid heating,2075,3641
+Europe_Eastern,resid,resid,resid_building,resid heating,2075,5317
+Europe_Non_EU,resid,resid,resid_building,resid heating,2075,2858
+European Free Trade Association,resid,resid,resid_building,resid heating,2075,5918
+India,resid,resid,resid_building,resid heating,2075,153
+Indonesia,resid,resid,resid_building,resid heating,2075,0
+Japan,resid,resid,resid_building,resid heating,2075,3167
+Mexico,resid,resid,resid_building,resid heating,2075,443
+Middle East,resid,resid,resid_building,resid heating,2075,1066
+Pakistan,resid,resid,resid_building,resid heating,2075,526
+Russia,resid,resid,resid_building,resid heating,2075,7375
+South Africa,resid,resid,resid_building,resid heating,2075,630
+South America_Northern,resid,resid,resid_building,resid heating,2075,1
+South America_Southern,resid,resid,resid_building,resid heating,2075,1685
+South Asia,resid,resid,resid_building,resid heating,2075,1204
+South Korea,resid,resid,resid_building,resid heating,2075,3877
+Southeast Asia,resid,resid,resid_building,resid heating,2075,284
+Taiwan,resid,resid,resid_building,resid heating,2075,779
+Argentina,resid,resid,resid_building,resid heating,2075,1426
+Colombia,resid,resid,resid_building,resid heating,2075,371
+USA,comm,comm,comm_building,comm cooling,2080,2541
+Africa_Eastern,comm,comm,comm_building,comm cooling,2080,4332
+Africa_Northern,comm,comm,comm_building,comm cooling,2080,4267
+Africa_Southern,comm,comm,comm_building,comm cooling,2080,4698
+Africa_Western,comm,comm,comm_building,comm cooling,2080,7235
+Australia_NZ,comm,comm,comm_building,comm cooling,2080,1676
+Brazil,comm,comm,comm_building,comm cooling,2080,4355
+Canada,comm,comm,comm_building,comm cooling,2080,986
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2080,4891
+Central Asia,comm,comm,comm_building,comm cooling,2080,2357
+China,comm,comm,comm_building,comm cooling,2080,2698
+EU-12,comm,comm,comm_building,comm cooling,2080,1228
+EU-15,comm,comm,comm_building,comm cooling,2080,1136
+Europe_Eastern,comm,comm,comm_building,comm cooling,2080,1373
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2080,1741
+European Free Trade Association,comm,comm,comm_building,comm cooling,2080,563
+India,comm,comm,comm_building,comm cooling,2080,6816
+Indonesia,comm,comm,comm_building,comm cooling,2080,6808
+Japan,comm,comm,comm_building,comm cooling,2080,1650
+Mexico,comm,comm,comm_building,comm cooling,2080,2987
+Middle East,comm,comm,comm_building,comm cooling,2080,4972
+Pakistan,comm,comm,comm_building,comm cooling,2080,6156
+Russia,comm,comm,comm_building,comm cooling,2080,1033
+South Africa,comm,comm,comm_building,comm cooling,2080,2505
+South America_Northern,comm,comm,comm_building,comm cooling,2080,5973
+South America_Southern,comm,comm,comm_building,comm cooling,2080,1994
+South Asia,comm,comm,comm_building,comm cooling,2080,4837
+South Korea,comm,comm,comm_building,comm cooling,2080,1641
+Southeast Asia,comm,comm,comm_building,comm cooling,2080,6244
+Taiwan,comm,comm,comm_building,comm cooling,2080,3237
+Argentina,comm,comm,comm_building,comm cooling,2080,2178
+Colombia,comm,comm,comm_building,comm cooling,2080,3323
+USA,comm,comm,comm_building,comm heating,2080,3015
+Africa_Eastern,comm,comm,comm_building,comm heating,2080,56
+Africa_Northern,comm,comm,comm_building,comm heating,2080,652
+Africa_Southern,comm,comm,comm_building,comm heating,2080,33
+Africa_Western,comm,comm,comm_building,comm heating,2080,1
+Australia_NZ,comm,comm,comm_building,comm heating,2080,1155
+Brazil,comm,comm,comm_building,comm heating,2080,81
+Canada,comm,comm,comm_building,comm heating,2080,6121
+Central America and Caribbean,comm,comm,comm_building,comm heating,2080,15
+Central Asia,comm,comm,comm_building,comm heating,2080,4789
+China,comm,comm,comm_building,comm heating,2080,3031
+EU-12,comm,comm,comm_building,comm heating,2080,4673
+EU-15,comm,comm,comm_building,comm heating,2080,3557
+Europe_Eastern,comm,comm,comm_building,comm heating,2080,5196
+Europe_Non_EU,comm,comm,comm_building,comm heating,2080,2779
+European Free Trade Association,comm,comm,comm_building,comm heating,2080,5811
+India,comm,comm,comm_building,comm heating,2080,144
+Indonesia,comm,comm,comm_building,comm heating,2080,0
+Japan,comm,comm,comm_building,comm heating,2080,3098
+Mexico,comm,comm,comm_building,comm heating,2080,404
+Middle East,comm,comm,comm_building,comm heating,2080,1009
+Pakistan,comm,comm,comm_building,comm heating,2080,494
+Russia,comm,comm,comm_building,comm heating,2080,7214
+South Africa,comm,comm,comm_building,comm heating,2080,585
+South America_Northern,comm,comm,comm_building,comm heating,2080,1
+South America_Southern,comm,comm,comm_building,comm heating,2080,1607
+South Asia,comm,comm,comm_building,comm heating,2080,1207
+South Korea,comm,comm,comm_building,comm heating,2080,3790
+Southeast Asia,comm,comm,comm_building,comm heating,2080,277
+Taiwan,comm,comm,comm_building,comm heating,2080,750
+Argentina,comm,comm,comm_building,comm heating,2080,1381
+Colombia,comm,comm,comm_building,comm heating,2080,339
+USA,resid,resid,resid_building,resid cooling,2080,2541
+Africa_Eastern,resid,resid,resid_building,resid cooling,2080,4332
+Africa_Northern,resid,resid,resid_building,resid cooling,2080,4267
+Africa_Southern,resid,resid,resid_building,resid cooling,2080,4698
+Africa_Western,resid,resid,resid_building,resid cooling,2080,7235
+Australia_NZ,resid,resid,resid_building,resid cooling,2080,1676
+Brazil,resid,resid,resid_building,resid cooling,2080,4355
+Canada,resid,resid,resid_building,resid cooling,2080,986
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2080,4891
+Central Asia,resid,resid,resid_building,resid cooling,2080,2357
+China,resid,resid,resid_building,resid cooling,2080,2698
+EU-12,resid,resid,resid_building,resid cooling,2080,1228
+EU-15,resid,resid,resid_building,resid cooling,2080,1136
+Europe_Eastern,resid,resid,resid_building,resid cooling,2080,1373
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2080,1741
+European Free Trade Association,resid,resid,resid_building,resid cooling,2080,563
+India,resid,resid,resid_building,resid cooling,2080,6816
+Indonesia,resid,resid,resid_building,resid cooling,2080,6808
+Japan,resid,resid,resid_building,resid cooling,2080,1650
+Mexico,resid,resid,resid_building,resid cooling,2080,2987
+Middle East,resid,resid,resid_building,resid cooling,2080,4972
+Pakistan,resid,resid,resid_building,resid cooling,2080,6156
+Russia,resid,resid,resid_building,resid cooling,2080,1033
+South Africa,resid,resid,resid_building,resid cooling,2080,2505
+South America_Northern,resid,resid,resid_building,resid cooling,2080,5973
+South America_Southern,resid,resid,resid_building,resid cooling,2080,1994
+South Asia,resid,resid,resid_building,resid cooling,2080,4837
+South Korea,resid,resid,resid_building,resid cooling,2080,1641
+Southeast Asia,resid,resid,resid_building,resid cooling,2080,6244
+Taiwan,resid,resid,resid_building,resid cooling,2080,3237
+Argentina,resid,resid,resid_building,resid cooling,2080,2178
+Colombia,resid,resid,resid_building,resid cooling,2080,3323
+USA,resid,resid,resid_building,resid heating,2080,3015
+Africa_Eastern,resid,resid,resid_building,resid heating,2080,56
+Africa_Northern,resid,resid,resid_building,resid heating,2080,652
+Africa_Southern,resid,resid,resid_building,resid heating,2080,33
+Africa_Western,resid,resid,resid_building,resid heating,2080,1
+Australia_NZ,resid,resid,resid_building,resid heating,2080,1155
+Brazil,resid,resid,resid_building,resid heating,2080,81
+Canada,resid,resid,resid_building,resid heating,2080,6121
+Central America and Caribbean,resid,resid,resid_building,resid heating,2080,15
+Central Asia,resid,resid,resid_building,resid heating,2080,4789
+China,resid,resid,resid_building,resid heating,2080,3031
+EU-12,resid,resid,resid_building,resid heating,2080,4673
+EU-15,resid,resid,resid_building,resid heating,2080,3557
+Europe_Eastern,resid,resid,resid_building,resid heating,2080,5196
+Europe_Non_EU,resid,resid,resid_building,resid heating,2080,2779
+European Free Trade Association,resid,resid,resid_building,resid heating,2080,5811
+India,resid,resid,resid_building,resid heating,2080,144
+Indonesia,resid,resid,resid_building,resid heating,2080,0
+Japan,resid,resid,resid_building,resid heating,2080,3098
+Mexico,resid,resid,resid_building,resid heating,2080,404
+Middle East,resid,resid,resid_building,resid heating,2080,1009
+Pakistan,resid,resid,resid_building,resid heating,2080,494
+Russia,resid,resid,resid_building,resid heating,2080,7214
+South Africa,resid,resid,resid_building,resid heating,2080,585
+South America_Northern,resid,resid,resid_building,resid heating,2080,1
+South America_Southern,resid,resid,resid_building,resid heating,2080,1607
+South Asia,resid,resid,resid_building,resid heating,2080,1207
+South Korea,resid,resid,resid_building,resid heating,2080,3790
+Southeast Asia,resid,resid,resid_building,resid heating,2080,277
+Taiwan,resid,resid,resid_building,resid heating,2080,750
+Argentina,resid,resid,resid_building,resid heating,2080,1381
+Colombia,resid,resid,resid_building,resid heating,2080,339
+USA,comm,comm,comm_building,comm cooling,2085,2639
+Africa_Eastern,comm,comm,comm_building,comm cooling,2085,4467
+Africa_Northern,comm,comm,comm_building,comm cooling,2085,4434
+Africa_Southern,comm,comm,comm_building,comm cooling,2085,4863
+Africa_Western,comm,comm,comm_building,comm cooling,2085,7409
+Australia_NZ,comm,comm,comm_building,comm cooling,2085,1757
+Brazil,comm,comm,comm_building,comm cooling,2085,4516
+Canada,comm,comm,comm_building,comm cooling,2085,1049
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2085,5017
+Central Asia,comm,comm,comm_building,comm cooling,2085,2458
+China,comm,comm,comm_building,comm cooling,2085,2785
+EU-12,comm,comm,comm_building,comm cooling,2085,1296
+EU-15,comm,comm,comm_building,comm cooling,2085,1194
+Europe_Eastern,comm,comm,comm_building,comm cooling,2085,1450
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2085,1833
+European Free Trade Association,comm,comm,comm_building,comm cooling,2085,603
+India,comm,comm,comm_building,comm cooling,2085,6993
+Indonesia,comm,comm,comm_building,comm cooling,2085,6935
+Japan,comm,comm,comm_building,comm cooling,2085,1704
+Mexico,comm,comm,comm_building,comm cooling,2085,3101
+Middle East,comm,comm,comm_building,comm cooling,2085,5119
+Pakistan,comm,comm,comm_building,comm cooling,2085,6296
+Russia,comm,comm,comm_building,comm cooling,2085,1102
+South Africa,comm,comm,comm_building,comm cooling,2085,2608
+South America_Northern,comm,comm,comm_building,comm cooling,2085,6142
+South America_Southern,comm,comm,comm_building,comm cooling,2085,2085
+South Asia,comm,comm,comm_building,comm cooling,2085,4930
+South Korea,comm,comm,comm_building,comm cooling,2085,1703
+Southeast Asia,comm,comm,comm_building,comm cooling,2085,6367
+Taiwan,comm,comm,comm_building,comm cooling,2085,3314
+Argentina,comm,comm,comm_building,comm cooling,2085,2271
+Colombia,comm,comm,comm_building,comm cooling,2085,3434
+USA,comm,comm,comm_building,comm heating,2085,2931
+Africa_Eastern,comm,comm,comm_building,comm heating,2085,47
+Africa_Northern,comm,comm,comm_building,comm heating,2085,605
+Africa_Southern,comm,comm,comm_building,comm heating,2085,29
+Africa_Western,comm,comm,comm_building,comm heating,2085,1
+Australia_NZ,comm,comm,comm_building,comm heating,2085,1080
+Brazil,comm,comm,comm_building,comm heating,2085,71
+Canada,comm,comm,comm_building,comm heating,2085,5960
+Central America and Caribbean,comm,comm,comm_building,comm heating,2085,14
+Central Asia,comm,comm,comm_building,comm heating,2085,4698
+China,comm,comm,comm_building,comm heating,2085,2941
+EU-12,comm,comm,comm_building,comm heating,2085,4562
+EU-15,comm,comm,comm_building,comm heating,2085,3463
+Europe_Eastern,comm,comm,comm_building,comm heating,2085,5070
+Europe_Non_EU,comm,comm,comm_building,comm heating,2085,2695
+European Free Trade Association,comm,comm,comm_building,comm heating,2085,5687
+India,comm,comm,comm_building,comm heating,2085,133
+Indonesia,comm,comm,comm_building,comm heating,2085,0
+Japan,comm,comm,comm_building,comm heating,2085,3025
+Mexico,comm,comm,comm_building,comm heating,2085,372
+Middle East,comm,comm,comm_building,comm heating,2085,955
+Pakistan,comm,comm,comm_building,comm heating,2085,460
+Russia,comm,comm,comm_building,comm heating,2085,7037
+South Africa,comm,comm,comm_building,comm heating,2085,545
+South America_Northern,comm,comm,comm_building,comm heating,2085,1
+South America_Southern,comm,comm,comm_building,comm heating,2085,1525
+South Asia,comm,comm,comm_building,comm heating,2085,1205
+South Korea,comm,comm,comm_building,comm heating,2085,3693
+Southeast Asia,comm,comm,comm_building,comm heating,2085,272
+Taiwan,comm,comm,comm_building,comm heating,2085,723
+Argentina,comm,comm,comm_building,comm heating,2085,1333
+Colombia,comm,comm,comm_building,comm heating,2085,305
+USA,resid,resid,resid_building,resid cooling,2085,2639
+Africa_Eastern,resid,resid,resid_building,resid cooling,2085,4467
+Africa_Northern,resid,resid,resid_building,resid cooling,2085,4434
+Africa_Southern,resid,resid,resid_building,resid cooling,2085,4863
+Africa_Western,resid,resid,resid_building,resid cooling,2085,7409
+Australia_NZ,resid,resid,resid_building,resid cooling,2085,1757
+Brazil,resid,resid,resid_building,resid cooling,2085,4516
+Canada,resid,resid,resid_building,resid cooling,2085,1049
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2085,5017
+Central Asia,resid,resid,resid_building,resid cooling,2085,2458
+China,resid,resid,resid_building,resid cooling,2085,2785
+EU-12,resid,resid,resid_building,resid cooling,2085,1296
+EU-15,resid,resid,resid_building,resid cooling,2085,1194
+Europe_Eastern,resid,resid,resid_building,resid cooling,2085,1450
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2085,1833
+European Free Trade Association,resid,resid,resid_building,resid cooling,2085,603
+India,resid,resid,resid_building,resid cooling,2085,6993
+Indonesia,resid,resid,resid_building,resid cooling,2085,6935
+Japan,resid,resid,resid_building,resid cooling,2085,1704
+Mexico,resid,resid,resid_building,resid cooling,2085,3101
+Middle East,resid,resid,resid_building,resid cooling,2085,5119
+Pakistan,resid,resid,resid_building,resid cooling,2085,6296
+Russia,resid,resid,resid_building,resid cooling,2085,1102
+South Africa,resid,resid,resid_building,resid cooling,2085,2608
+South America_Northern,resid,resid,resid_building,resid cooling,2085,6142
+South America_Southern,resid,resid,resid_building,resid cooling,2085,2085
+South Asia,resid,resid,resid_building,resid cooling,2085,4930
+South Korea,resid,resid,resid_building,resid cooling,2085,1703
+Southeast Asia,resid,resid,resid_building,resid cooling,2085,6367
+Taiwan,resid,resid,resid_building,resid cooling,2085,3314
+Argentina,resid,resid,resid_building,resid cooling,2085,2271
+Colombia,resid,resid,resid_building,resid cooling,2085,3434
+USA,resid,resid,resid_building,resid heating,2085,2931
+Africa_Eastern,resid,resid,resid_building,resid heating,2085,47
+Africa_Northern,resid,resid,resid_building,resid heating,2085,605
+Africa_Southern,resid,resid,resid_building,resid heating,2085,29
+Africa_Western,resid,resid,resid_building,resid heating,2085,1
+Australia_NZ,resid,resid,resid_building,resid heating,2085,1080
+Brazil,resid,resid,resid_building,resid heating,2085,71
+Canada,resid,resid,resid_building,resid heating,2085,5960
+Central America and Caribbean,resid,resid,resid_building,resid heating,2085,14
+Central Asia,resid,resid,resid_building,resid heating,2085,4698
+China,resid,resid,resid_building,resid heating,2085,2941
+EU-12,resid,resid,resid_building,resid heating,2085,4562
+EU-15,resid,resid,resid_building,resid heating,2085,3463
+Europe_Eastern,resid,resid,resid_building,resid heating,2085,5070
+Europe_Non_EU,resid,resid,resid_building,resid heating,2085,2695
+European Free Trade Association,resid,resid,resid_building,resid heating,2085,5687
+India,resid,resid,resid_building,resid heating,2085,133
+Indonesia,resid,resid,resid_building,resid heating,2085,0
+Japan,resid,resid,resid_building,resid heating,2085,3025
+Mexico,resid,resid,resid_building,resid heating,2085,372
+Middle East,resid,resid,resid_building,resid heating,2085,955
+Pakistan,resid,resid,resid_building,resid heating,2085,460
+Russia,resid,resid,resid_building,resid heating,2085,7037
+South Africa,resid,resid,resid_building,resid heating,2085,545
+South America_Northern,resid,resid,resid_building,resid heating,2085,1
+South America_Southern,resid,resid,resid_building,resid heating,2085,1525
+South Asia,resid,resid,resid_building,resid heating,2085,1205
+South Korea,resid,resid,resid_building,resid heating,2085,3693
+Southeast Asia,resid,resid,resid_building,resid heating,2085,272
+Taiwan,resid,resid,resid_building,resid heating,2085,723
+Argentina,resid,resid,resid_building,resid heating,2085,1333
+Colombia,resid,resid,resid_building,resid heating,2085,305
+USA,comm,comm,comm_building,comm cooling,2090,2745
+Africa_Eastern,comm,comm,comm_building,comm cooling,2090,4611
+Africa_Northern,comm,comm,comm_building,comm cooling,2090,4619
+Africa_Southern,comm,comm,comm_building,comm cooling,2090,5043
+Africa_Western,comm,comm,comm_building,comm cooling,2090,7592
+Australia_NZ,comm,comm,comm_building,comm cooling,2090,1844
+Brazil,comm,comm,comm_building,comm cooling,2090,4689
+Canada,comm,comm,comm_building,comm cooling,2090,1116
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2090,5153
+Central Asia,comm,comm,comm_building,comm cooling,2090,2572
+China,comm,comm,comm_building,comm cooling,2090,2876
+EU-12,comm,comm,comm_building,comm cooling,2090,1363
+EU-15,comm,comm,comm_building,comm cooling,2090,1251
+Europe_Eastern,comm,comm,comm_building,comm cooling,2090,1530
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2090,1932
+European Free Trade Association,comm,comm,comm_building,comm cooling,2090,645
+India,comm,comm,comm_building,comm cooling,2090,7183
+Indonesia,comm,comm,comm_building,comm cooling,2090,7071
+Japan,comm,comm,comm_building,comm cooling,2090,1760
+Mexico,comm,comm,comm_building,comm cooling,2090,3216
+Middle East,comm,comm,comm_building,comm cooling,2090,5273
+Pakistan,comm,comm,comm_building,comm cooling,2090,6441
+Russia,comm,comm,comm_building,comm cooling,2090,1183
+South Africa,comm,comm,comm_building,comm cooling,2090,2711
+South America_Northern,comm,comm,comm_building,comm cooling,2090,6327
+South America_Southern,comm,comm,comm_building,comm cooling,2090,2185
+South Asia,comm,comm,comm_building,comm cooling,2090,5035
+South Korea,comm,comm,comm_building,comm cooling,2090,1769
+Southeast Asia,comm,comm,comm_building,comm cooling,2090,6494
+Taiwan,comm,comm,comm_building,comm cooling,2090,3390
+Argentina,comm,comm,comm_building,comm cooling,2090,2375
+Colombia,comm,comm,comm_building,comm cooling,2090,3555
+USA,comm,comm,comm_building,comm heating,2090,2838
+Africa_Eastern,comm,comm,comm_building,comm heating,2090,37
+Africa_Northern,comm,comm,comm_building,comm heating,2090,554
+Africa_Southern,comm,comm,comm_building,comm heating,2090,25
+Africa_Western,comm,comm,comm_building,comm heating,2090,1
+Australia_NZ,comm,comm,comm_building,comm heating,2090,1001
+Brazil,comm,comm,comm_building,comm heating,2090,62
+Canada,comm,comm,comm_building,comm heating,2090,5774
+Central America and Caribbean,comm,comm,comm_building,comm heating,2090,14
+Central Asia,comm,comm,comm_building,comm heating,2090,4596
+China,comm,comm,comm_building,comm heating,2090,2843
+EU-12,comm,comm,comm_building,comm heating,2090,4444
+EU-15,comm,comm,comm_building,comm heating,2090,3358
+Europe_Eastern,comm,comm,comm_building,comm heating,2090,4939
+Europe_Non_EU,comm,comm,comm_building,comm heating,2090,2607
+European Free Trade Association,comm,comm,comm_building,comm heating,2090,5541
+India,comm,comm,comm_building,comm heating,2090,122
+Indonesia,comm,comm,comm_building,comm heating,2090,0
+Japan,comm,comm,comm_building,comm heating,2090,2946
+Mexico,comm,comm,comm_building,comm heating,2090,348
+Middle East,comm,comm,comm_building,comm heating,2090,904
+Pakistan,comm,comm,comm_building,comm heating,2090,425
+Russia,comm,comm,comm_building,comm heating,2090,6844
+South Africa,comm,comm,comm_building,comm heating,2090,511
+South America_Northern,comm,comm,comm_building,comm heating,2090,0
+South America_Southern,comm,comm,comm_building,comm heating,2090,1437
+South Asia,comm,comm,comm_building,comm heating,2090,1198
+South Korea,comm,comm,comm_building,comm heating,2090,3586
+Southeast Asia,comm,comm,comm_building,comm heating,2090,265
+Taiwan,comm,comm,comm_building,comm heating,2090,696
+Argentina,comm,comm,comm_building,comm heating,2090,1282
+Colombia,comm,comm,comm_building,comm heating,2090,269
+USA,resid,resid,resid_building,resid cooling,2090,2745
+Africa_Eastern,resid,resid,resid_building,resid cooling,2090,4611
+Africa_Northern,resid,resid,resid_building,resid cooling,2090,4619
+Africa_Southern,resid,resid,resid_building,resid cooling,2090,5043
+Africa_Western,resid,resid,resid_building,resid cooling,2090,7592
+Australia_NZ,resid,resid,resid_building,resid cooling,2090,1844
+Brazil,resid,resid,resid_building,resid cooling,2090,4689
+Canada,resid,resid,resid_building,resid cooling,2090,1116
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2090,5153
+Central Asia,resid,resid,resid_building,resid cooling,2090,2572
+China,resid,resid,resid_building,resid cooling,2090,2876
+EU-12,resid,resid,resid_building,resid cooling,2090,1363
+EU-15,resid,resid,resid_building,resid cooling,2090,1251
+Europe_Eastern,resid,resid,resid_building,resid cooling,2090,1530
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2090,1932
+European Free Trade Association,resid,resid,resid_building,resid cooling,2090,645
+India,resid,resid,resid_building,resid cooling,2090,7183
+Indonesia,resid,resid,resid_building,resid cooling,2090,7071
+Japan,resid,resid,resid_building,resid cooling,2090,1760
+Mexico,resid,resid,resid_building,resid cooling,2090,3216
+Middle East,resid,resid,resid_building,resid cooling,2090,5273
+Pakistan,resid,resid,resid_building,resid cooling,2090,6441
+Russia,resid,resid,resid_building,resid cooling,2090,1183
+South Africa,resid,resid,resid_building,resid cooling,2090,2711
+South America_Northern,resid,resid,resid_building,resid cooling,2090,6327
+South America_Southern,resid,resid,resid_building,resid cooling,2090,2185
+South Asia,resid,resid,resid_building,resid cooling,2090,5035
+South Korea,resid,resid,resid_building,resid cooling,2090,1769
+Southeast Asia,resid,resid,resid_building,resid cooling,2090,6494
+Taiwan,resid,resid,resid_building,resid cooling,2090,3390
+Argentina,resid,resid,resid_building,resid cooling,2090,2375
+Colombia,resid,resid,resid_building,resid cooling,2090,3555
+USA,resid,resid,resid_building,resid heating,2090,2838
+Africa_Eastern,resid,resid,resid_building,resid heating,2090,37
+Africa_Northern,resid,resid,resid_building,resid heating,2090,554
+Africa_Southern,resid,resid,resid_building,resid heating,2090,25
+Africa_Western,resid,resid,resid_building,resid heating,2090,1
+Australia_NZ,resid,resid,resid_building,resid heating,2090,1001
+Brazil,resid,resid,resid_building,resid heating,2090,62
+Canada,resid,resid,resid_building,resid heating,2090,5774
+Central America and Caribbean,resid,resid,resid_building,resid heating,2090,14
+Central Asia,resid,resid,resid_building,resid heating,2090,4596
+China,resid,resid,resid_building,resid heating,2090,2843
+EU-12,resid,resid,resid_building,resid heating,2090,4444
+EU-15,resid,resid,resid_building,resid heating,2090,3358
+Europe_Eastern,resid,resid,resid_building,resid heating,2090,4939
+Europe_Non_EU,resid,resid,resid_building,resid heating,2090,2607
+European Free Trade Association,resid,resid,resid_building,resid heating,2090,5541
+India,resid,resid,resid_building,resid heating,2090,122
+Indonesia,resid,resid,resid_building,resid heating,2090,0
+Japan,resid,resid,resid_building,resid heating,2090,2946
+Mexico,resid,resid,resid_building,resid heating,2090,348
+Middle East,resid,resid,resid_building,resid heating,2090,904
+Pakistan,resid,resid,resid_building,resid heating,2090,425
+Russia,resid,resid,resid_building,resid heating,2090,6844
+South Africa,resid,resid,resid_building,resid heating,2090,511
+South America_Northern,resid,resid,resid_building,resid heating,2090,0
+South America_Southern,resid,resid,resid_building,resid heating,2090,1437
+South Asia,resid,resid,resid_building,resid heating,2090,1198
+South Korea,resid,resid,resid_building,resid heating,2090,3586
+Southeast Asia,resid,resid,resid_building,resid heating,2090,265
+Taiwan,resid,resid,resid_building,resid heating,2090,696
+Argentina,resid,resid,resid_building,resid heating,2090,1282
+Colombia,resid,resid,resid_building,resid heating,2090,269
+USA,comm,comm,comm_building,comm cooling,2095,2861
+Africa_Eastern,comm,comm,comm_building,comm cooling,2095,4765
+Africa_Northern,comm,comm,comm_building,comm cooling,2095,4824
+Africa_Southern,comm,comm,comm_building,comm cooling,2095,5240
+Africa_Western,comm,comm,comm_building,comm cooling,2095,7785
+Australia_NZ,comm,comm,comm_building,comm cooling,2095,1937
+Brazil,comm,comm,comm_building,comm cooling,2095,4876
+Canada,comm,comm,comm_building,comm cooling,2095,1186
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2095,5297
+Central Asia,comm,comm,comm_building,comm cooling,2095,2700
+China,comm,comm,comm_building,comm cooling,2095,2972
+EU-12,comm,comm,comm_building,comm cooling,2095,1428
+EU-15,comm,comm,comm_building,comm cooling,2095,1306
+Europe_Eastern,comm,comm,comm_building,comm cooling,2095,1614
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2095,2040
+European Free Trade Association,comm,comm,comm_building,comm cooling,2095,689
+India,comm,comm,comm_building,comm cooling,2095,7388
+Indonesia,comm,comm,comm_building,comm cooling,2095,7214
+Japan,comm,comm,comm_building,comm cooling,2095,1819
+Mexico,comm,comm,comm_building,comm cooling,2095,3330
+Middle East,comm,comm,comm_building,comm cooling,2095,5436
+Pakistan,comm,comm,comm_building,comm cooling,2095,6590
+Russia,comm,comm,comm_building,comm cooling,2095,1277
+South Africa,comm,comm,comm_building,comm cooling,2095,2814
+South America_Northern,comm,comm,comm_building,comm cooling,2095,6529
+South America_Southern,comm,comm,comm_building,comm cooling,2095,2295
+South Asia,comm,comm,comm_building,comm cooling,2095,5154
+South Korea,comm,comm,comm_building,comm cooling,2095,1840
+Southeast Asia,comm,comm,comm_building,comm cooling,2095,6627
+Taiwan,comm,comm,comm_building,comm cooling,2095,3465
+Argentina,comm,comm,comm_building,comm cooling,2095,2490
+Colombia,comm,comm,comm_building,comm cooling,2095,3687
+USA,comm,comm,comm_building,comm heating,2095,2735
+Africa_Eastern,comm,comm,comm_building,comm heating,2095,26
+Africa_Northern,comm,comm,comm_building,comm heating,2095,500
+Africa_Southern,comm,comm,comm_building,comm heating,2095,21
+Africa_Western,comm,comm,comm_building,comm heating,2095,1
+Australia_NZ,comm,comm,comm_building,comm heating,2095,918
+Brazil,comm,comm,comm_building,comm heating,2095,54
+Canada,comm,comm,comm_building,comm heating,2095,5559
+Central America and Caribbean,comm,comm,comm_building,comm heating,2095,15
+Central Asia,comm,comm,comm_building,comm heating,2095,4483
+China,comm,comm,comm_building,comm heating,2095,2738
+EU-12,comm,comm,comm_building,comm heating,2095,4315
+EU-15,comm,comm,comm_building,comm heating,2095,3238
+Europe_Eastern,comm,comm,comm_building,comm heating,2095,4804
+Europe_Non_EU,comm,comm,comm_building,comm heating,2095,2514
+European Free Trade Association,comm,comm,comm_building,comm heating,2095,5367
+India,comm,comm,comm_building,comm heating,2095,109
+Indonesia,comm,comm,comm_building,comm heating,2095,0
+Japan,comm,comm,comm_building,comm heating,2095,2859
+Mexico,comm,comm,comm_building,comm heating,2095,333
+Middle East,comm,comm,comm_building,comm heating,2095,856
+Pakistan,comm,comm,comm_building,comm heating,2095,386
+Russia,comm,comm,comm_building,comm heating,2095,6631
+South Africa,comm,comm,comm_building,comm heating,2095,484
+South America_Northern,comm,comm,comm_building,comm heating,2095,0
+South America_Southern,comm,comm,comm_building,comm heating,2095,1342
+South Asia,comm,comm,comm_building,comm heating,2095,1184
+South Korea,comm,comm,comm_building,comm heating,2095,3466
+Southeast Asia,comm,comm,comm_building,comm heating,2095,256
+Taiwan,comm,comm,comm_building,comm heating,2095,671
+Argentina,comm,comm,comm_building,comm heating,2095,1227
+Colombia,comm,comm,comm_building,comm heating,2095,231
+USA,resid,resid,resid_building,resid cooling,2095,2861
+Africa_Eastern,resid,resid,resid_building,resid cooling,2095,4765
+Africa_Northern,resid,resid,resid_building,resid cooling,2095,4824
+Africa_Southern,resid,resid,resid_building,resid cooling,2095,5240
+Africa_Western,resid,resid,resid_building,resid cooling,2095,7785
+Australia_NZ,resid,resid,resid_building,resid cooling,2095,1937
+Brazil,resid,resid,resid_building,resid cooling,2095,4876
+Canada,resid,resid,resid_building,resid cooling,2095,1186
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2095,5297
+Central Asia,resid,resid,resid_building,resid cooling,2095,2700
+China,resid,resid,resid_building,resid cooling,2095,2972
+EU-12,resid,resid,resid_building,resid cooling,2095,1428
+EU-15,resid,resid,resid_building,resid cooling,2095,1306
+Europe_Eastern,resid,resid,resid_building,resid cooling,2095,1614
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2095,2040
+European Free Trade Association,resid,resid,resid_building,resid cooling,2095,689
+India,resid,resid,resid_building,resid cooling,2095,7388
+Indonesia,resid,resid,resid_building,resid cooling,2095,7214
+Japan,resid,resid,resid_building,resid cooling,2095,1819
+Mexico,resid,resid,resid_building,resid cooling,2095,3330
+Middle East,resid,resid,resid_building,resid cooling,2095,5436
+Pakistan,resid,resid,resid_building,resid cooling,2095,6590
+Russia,resid,resid,resid_building,resid cooling,2095,1277
+South Africa,resid,resid,resid_building,resid cooling,2095,2814
+South America_Northern,resid,resid,resid_building,resid cooling,2095,6529
+South America_Southern,resid,resid,resid_building,resid cooling,2095,2295
+South Asia,resid,resid,resid_building,resid cooling,2095,5154
+South Korea,resid,resid,resid_building,resid cooling,2095,1840
+Southeast Asia,resid,resid,resid_building,resid cooling,2095,6627
+Taiwan,resid,resid,resid_building,resid cooling,2095,3465
+Argentina,resid,resid,resid_building,resid cooling,2095,2490
+Colombia,resid,resid,resid_building,resid cooling,2095,3687
+USA,resid,resid,resid_building,resid heating,2095,2735
+Africa_Eastern,resid,resid,resid_building,resid heating,2095,26
+Africa_Northern,resid,resid,resid_building,resid heating,2095,500
+Africa_Southern,resid,resid,resid_building,resid heating,2095,21
+Africa_Western,resid,resid,resid_building,resid heating,2095,1
+Australia_NZ,resid,resid,resid_building,resid heating,2095,918
+Brazil,resid,resid,resid_building,resid heating,2095,54
+Canada,resid,resid,resid_building,resid heating,2095,5559
+Central America and Caribbean,resid,resid,resid_building,resid heating,2095,15
+Central Asia,resid,resid,resid_building,resid heating,2095,4483
+China,resid,resid,resid_building,resid heating,2095,2738
+EU-12,resid,resid,resid_building,resid heating,2095,4315
+EU-15,resid,resid,resid_building,resid heating,2095,3238
+Europe_Eastern,resid,resid,resid_building,resid heating,2095,4804
+Europe_Non_EU,resid,resid,resid_building,resid heating,2095,2514
+European Free Trade Association,resid,resid,resid_building,resid heating,2095,5367
+India,resid,resid,resid_building,resid heating,2095,109
+Indonesia,resid,resid,resid_building,resid heating,2095,0
+Japan,resid,resid,resid_building,resid heating,2095,2859
+Mexico,resid,resid,resid_building,resid heating,2095,333
+Middle East,resid,resid,resid_building,resid heating,2095,856
+Pakistan,resid,resid,resid_building,resid heating,2095,386
+Russia,resid,resid,resid_building,resid heating,2095,6631
+South Africa,resid,resid,resid_building,resid heating,2095,484
+South America_Northern,resid,resid,resid_building,resid heating,2095,0
+South America_Southern,resid,resid,resid_building,resid heating,2095,1342
+South Asia,resid,resid,resid_building,resid heating,2095,1184
+South Korea,resid,resid,resid_building,resid heating,2095,3466
+Southeast Asia,resid,resid,resid_building,resid heating,2095,256
+Taiwan,resid,resid,resid_building,resid heating,2095,671
+Argentina,resid,resid,resid_building,resid heating,2095,1227
+Colombia,resid,resid,resid_building,resid heating,2095,231
+USA,comm,comm,comm_building,comm cooling,2100,2961
+Africa_Eastern,comm,comm,comm_building,comm cooling,2100,4896
+Africa_Northern,comm,comm,comm_building,comm cooling,2100,5006
+Africa_Southern,comm,comm,comm_building,comm cooling,2100,5411
+Africa_Western,comm,comm,comm_building,comm cooling,2100,7949
+Australia_NZ,comm,comm,comm_building,comm cooling,2100,2015
+Brazil,comm,comm,comm_building,comm cooling,2100,5035
+Canada,comm,comm,comm_building,comm cooling,2100,1244
+Central America and Caribbean,comm,comm,comm_building,comm cooling,2100,5417
+Central Asia,comm,comm,comm_building,comm cooling,2100,2813
+China,comm,comm,comm_building,comm cooling,2100,3054
+EU-12,comm,comm,comm_building,comm cooling,2100,1479
+EU-15,comm,comm,comm_building,comm cooling,2100,1348
+Europe_Eastern,comm,comm,comm_building,comm cooling,2100,1684
+Europe_Non_EU,comm,comm,comm_building,comm cooling,2100,2133
+European Free Trade Association,comm,comm,comm_building,comm cooling,2100,726
+India,comm,comm,comm_building,comm cooling,2100,7563
+Indonesia,comm,comm,comm_building,comm cooling,2100,7336
+Japan,comm,comm,comm_building,comm cooling,2100,1868
+Mexico,comm,comm,comm_building,comm cooling,2100,3422
+Middle East,comm,comm,comm_building,comm cooling,2100,5573
+Pakistan,comm,comm,comm_building,comm cooling,2100,6714
+Russia,comm,comm,comm_building,comm cooling,2100,1362
+South Africa,comm,comm,comm_building,comm cooling,2100,2895
+South America_Northern,comm,comm,comm_building,comm cooling,2100,6704
+South America_Southern,comm,comm,comm_building,comm cooling,2100,2392
+South Asia,comm,comm,comm_building,comm cooling,2100,5254
+South Korea,comm,comm,comm_building,comm cooling,2100,1900
+Southeast Asia,comm,comm,comm_building,comm cooling,2100,6736
+Taiwan,comm,comm,comm_building,comm cooling,2100,3523
+Argentina,comm,comm,comm_building,comm cooling,2100,2593
+Colombia,comm,comm,comm_building,comm cooling,2100,3803
+USA,comm,comm,comm_building,comm heating,2100,2642
+Africa_Eastern,comm,comm,comm_building,comm heating,2100,17
+Africa_Northern,comm,comm,comm_building,comm heating,2100,453
+Africa_Southern,comm,comm,comm_building,comm heating,2100,19
+Africa_Western,comm,comm,comm_building,comm heating,2100,1
+Australia_NZ,comm,comm,comm_building,comm heating,2100,849
+Brazil,comm,comm,comm_building,comm heating,2100,50
+Canada,comm,comm,comm_building,comm heating,2100,5362
+Central America and Caribbean,comm,comm,comm_building,comm heating,2100,17
+Central Asia,comm,comm,comm_building,comm heating,2100,4390
+China,comm,comm,comm_building,comm heating,2100,2647
+EU-12,comm,comm,comm_building,comm heating,2100,4204
+EU-15,comm,comm,comm_building,comm heating,2100,3130
+Europe_Eastern,comm,comm,comm_building,comm heating,2100,4692
+Europe_Non_EU,comm,comm,comm_building,comm heating,2100,2432
+European Free Trade Association,comm,comm,comm_building,comm heating,2100,5204
+India,comm,comm,comm_building,comm heating,2100,98
+Indonesia,comm,comm,comm_building,comm heating,2100,0
+Japan,comm,comm,comm_building,comm heating,2100,2783
+Mexico,comm,comm,comm_building,comm heating,2100,327
+Middle East,comm,comm,comm_building,comm heating,2100,817
+Pakistan,comm,comm,comm_building,comm heating,2100,354
+Russia,comm,comm,comm_building,comm heating,2100,6445
+South Africa,comm,comm,comm_building,comm heating,2100,467
+South America_Northern,comm,comm,comm_building,comm heating,2100,0
+South America_Southern,comm,comm,comm_building,comm heating,2100,1258
+South Asia,comm,comm,comm_building,comm heating,2100,1173
+South Korea,comm,comm,comm_building,comm heating,2100,3358
+Southeast Asia,comm,comm,comm_building,comm heating,2100,248
+Taiwan,comm,comm,comm_building,comm heating,2100,653
+Argentina,comm,comm,comm_building,comm heating,2100,1180
+Colombia,comm,comm,comm_building,comm heating,2100,198
+USA,resid,resid,resid_building,resid cooling,2100,2961
+Africa_Eastern,resid,resid,resid_building,resid cooling,2100,4896
+Africa_Northern,resid,resid,resid_building,resid cooling,2100,5006
+Africa_Southern,resid,resid,resid_building,resid cooling,2100,5411
+Africa_Western,resid,resid,resid_building,resid cooling,2100,7949
+Australia_NZ,resid,resid,resid_building,resid cooling,2100,2015
+Brazil,resid,resid,resid_building,resid cooling,2100,5035
+Canada,resid,resid,resid_building,resid cooling,2100,1244
+Central America and Caribbean,resid,resid,resid_building,resid cooling,2100,5417
+Central Asia,resid,resid,resid_building,resid cooling,2100,2813
+China,resid,resid,resid_building,resid cooling,2100,3054
+EU-12,resid,resid,resid_building,resid cooling,2100,1479
+EU-15,resid,resid,resid_building,resid cooling,2100,1348
+Europe_Eastern,resid,resid,resid_building,resid cooling,2100,1684
+Europe_Non_EU,resid,resid,resid_building,resid cooling,2100,2133
+European Free Trade Association,resid,resid,resid_building,resid cooling,2100,726
+India,resid,resid,resid_building,resid cooling,2100,7563
+Indonesia,resid,resid,resid_building,resid cooling,2100,7336
+Japan,resid,resid,resid_building,resid cooling,2100,1868
+Mexico,resid,resid,resid_building,resid cooling,2100,3422
+Middle East,resid,resid,resid_building,resid cooling,2100,5573
+Pakistan,resid,resid,resid_building,resid cooling,2100,6714
+Russia,resid,resid,resid_building,resid cooling,2100,1362
+South Africa,resid,resid,resid_building,resid cooling,2100,2895
+South America_Northern,resid,resid,resid_building,resid cooling,2100,6704
+South America_Southern,resid,resid,resid_building,resid cooling,2100,2392
+South Asia,resid,resid,resid_building,resid cooling,2100,5254
+South Korea,resid,resid,resid_building,resid cooling,2100,1900
+Southeast Asia,resid,resid,resid_building,resid cooling,2100,6736
+Taiwan,resid,resid,resid_building,resid cooling,2100,3523
+Argentina,resid,resid,resid_building,resid cooling,2100,2593
+Colombia,resid,resid,resid_building,resid cooling,2100,3803
+USA,resid,resid,resid_building,resid heating,2100,2642
+Africa_Eastern,resid,resid,resid_building,resid heating,2100,17
+Africa_Northern,resid,resid,resid_building,resid heating,2100,453
+Africa_Southern,resid,resid,resid_building,resid heating,2100,19
+Africa_Western,resid,resid,resid_building,resid heating,2100,1
+Australia_NZ,resid,resid,resid_building,resid heating,2100,849
+Brazil,resid,resid,resid_building,resid heating,2100,50
+Canada,resid,resid,resid_building,resid heating,2100,5362
+Central America and Caribbean,resid,resid,resid_building,resid heating,2100,17
+Central Asia,resid,resid,resid_building,resid heating,2100,4390
+China,resid,resid,resid_building,resid heating,2100,2647
+EU-12,resid,resid,resid_building,resid heating,2100,4204
+EU-15,resid,resid,resid_building,resid heating,2100,3130
+Europe_Eastern,resid,resid,resid_building,resid heating,2100,4692
+Europe_Non_EU,resid,resid,resid_building,resid heating,2100,2432
+European Free Trade Association,resid,resid,resid_building,resid heating,2100,5204
+India,resid,resid,resid_building,resid heating,2100,98
+Indonesia,resid,resid,resid_building,resid heating,2100,0
+Japan,resid,resid,resid_building,resid heating,2100,2783
+Mexico,resid,resid,resid_building,resid heating,2100,327
+Middle East,resid,resid,resid_building,resid heating,2100,817
+Pakistan,resid,resid,resid_building,resid heating,2100,354
+Russia,resid,resid,resid_building,resid heating,2100,6445
+South Africa,resid,resid,resid_building,resid heating,2100,467
+South America_Northern,resid,resid,resid_building,resid heating,2100,0
+South America_Southern,resid,resid,resid_building,resid heating,2100,1258
+South Asia,resid,resid,resid_building,resid heating,2100,1173
+South Korea,resid,resid,resid_building,resid heating,2100,3358
+Southeast Asia,resid,resid,resid_building,resid heating,2100,248
+Taiwan,resid,resid,resid_building,resid heating,2100,653
+Argentina,resid,resid,resid_building,resid heating,2100,1180
+Colombia,resid,resid,resid_building,resid heating,2100,198

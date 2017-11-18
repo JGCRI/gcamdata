@@ -1,0 +1,829 @@
+INPUT_TABLE
+Variable ID
+SubsectorLogit_relative-cost-logit
+
+region,supplysector,subsector,logit.type
+USA,resid heating,biomass,relative-cost-logit
+USA,resid heating,coal,relative-cost-logit
+USA,resid heating,electricity,relative-cost-logit
+USA,resid heating,gas,relative-cost-logit
+USA,resid heating,refined liquids,relative-cost-logit
+USA,resid cooling,electricity,relative-cost-logit
+USA,resid cooling,gas,relative-cost-logit
+USA,resid others,biomass,relative-cost-logit
+USA,resid others,coal,relative-cost-logit
+USA,resid others,electricity,relative-cost-logit
+USA,resid others,gas,relative-cost-logit
+USA,resid others,refined liquids,relative-cost-logit
+USA,comm heating,biomass,relative-cost-logit
+USA,comm heating,coal,relative-cost-logit
+USA,comm heating,electricity,relative-cost-logit
+USA,comm heating,gas,relative-cost-logit
+USA,comm heating,refined liquids,relative-cost-logit
+USA,comm cooling,electricity,relative-cost-logit
+USA,comm cooling,gas,relative-cost-logit
+USA,comm others,biomass,relative-cost-logit
+USA,comm others,coal,relative-cost-logit
+USA,comm others,electricity,relative-cost-logit
+USA,comm others,gas,relative-cost-logit
+USA,comm others,refined liquids,relative-cost-logit
+Africa_Eastern,resid heating,biomass,relative-cost-logit
+Africa_Eastern,resid heating,coal,relative-cost-logit
+Africa_Eastern,resid heating,electricity,relative-cost-logit
+Africa_Eastern,resid heating,gas,relative-cost-logit
+Africa_Eastern,resid heating,refined liquids,relative-cost-logit
+Africa_Eastern,resid heating,traditional biomass,relative-cost-logit
+Africa_Eastern,resid cooling,electricity,relative-cost-logit
+Africa_Eastern,resid cooling,gas,relative-cost-logit
+Africa_Eastern,resid others,biomass,relative-cost-logit
+Africa_Eastern,resid others,coal,relative-cost-logit
+Africa_Eastern,resid others,electricity,relative-cost-logit
+Africa_Eastern,resid others,gas,relative-cost-logit
+Africa_Eastern,resid others,refined liquids,relative-cost-logit
+Africa_Eastern,resid others,traditional biomass,relative-cost-logit
+Africa_Eastern,comm heating,biomass,relative-cost-logit
+Africa_Eastern,comm heating,coal,relative-cost-logit
+Africa_Eastern,comm heating,electricity,relative-cost-logit
+Africa_Eastern,comm heating,gas,relative-cost-logit
+Africa_Eastern,comm heating,refined liquids,relative-cost-logit
+Africa_Eastern,comm cooling,electricity,relative-cost-logit
+Africa_Eastern,comm cooling,gas,relative-cost-logit
+Africa_Eastern,comm others,biomass,relative-cost-logit
+Africa_Eastern,comm others,coal,relative-cost-logit
+Africa_Eastern,comm others,electricity,relative-cost-logit
+Africa_Eastern,comm others,gas,relative-cost-logit
+Africa_Eastern,comm others,refined liquids,relative-cost-logit
+Africa_Northern,resid heating,biomass,relative-cost-logit
+Africa_Northern,resid heating,coal,relative-cost-logit
+Africa_Northern,resid heating,electricity,relative-cost-logit
+Africa_Northern,resid heating,gas,relative-cost-logit
+Africa_Northern,resid heating,refined liquids,relative-cost-logit
+Africa_Northern,resid heating,traditional biomass,relative-cost-logit
+Africa_Northern,resid cooling,electricity,relative-cost-logit
+Africa_Northern,resid cooling,gas,relative-cost-logit
+Africa_Northern,resid others,biomass,relative-cost-logit
+Africa_Northern,resid others,coal,relative-cost-logit
+Africa_Northern,resid others,electricity,relative-cost-logit
+Africa_Northern,resid others,gas,relative-cost-logit
+Africa_Northern,resid others,refined liquids,relative-cost-logit
+Africa_Northern,resid others,traditional biomass,relative-cost-logit
+Africa_Northern,comm heating,biomass,relative-cost-logit
+Africa_Northern,comm heating,coal,relative-cost-logit
+Africa_Northern,comm heating,electricity,relative-cost-logit
+Africa_Northern,comm heating,gas,relative-cost-logit
+Africa_Northern,comm heating,refined liquids,relative-cost-logit
+Africa_Northern,comm cooling,electricity,relative-cost-logit
+Africa_Northern,comm cooling,gas,relative-cost-logit
+Africa_Northern,comm others,biomass,relative-cost-logit
+Africa_Northern,comm others,coal,relative-cost-logit
+Africa_Northern,comm others,electricity,relative-cost-logit
+Africa_Northern,comm others,gas,relative-cost-logit
+Africa_Northern,comm others,refined liquids,relative-cost-logit
+Africa_Southern,resid heating,biomass,relative-cost-logit
+Africa_Southern,resid heating,coal,relative-cost-logit
+Africa_Southern,resid heating,electricity,relative-cost-logit
+Africa_Southern,resid heating,gas,relative-cost-logit
+Africa_Southern,resid heating,refined liquids,relative-cost-logit
+Africa_Southern,resid heating,traditional biomass,relative-cost-logit
+Africa_Southern,resid cooling,electricity,relative-cost-logit
+Africa_Southern,resid cooling,gas,relative-cost-logit
+Africa_Southern,resid others,biomass,relative-cost-logit
+Africa_Southern,resid others,coal,relative-cost-logit
+Africa_Southern,resid others,electricity,relative-cost-logit
+Africa_Southern,resid others,gas,relative-cost-logit
+Africa_Southern,resid others,refined liquids,relative-cost-logit
+Africa_Southern,resid others,traditional biomass,relative-cost-logit
+Africa_Southern,comm heating,biomass,relative-cost-logit
+Africa_Southern,comm heating,coal,relative-cost-logit
+Africa_Southern,comm heating,electricity,relative-cost-logit
+Africa_Southern,comm heating,gas,relative-cost-logit
+Africa_Southern,comm heating,refined liquids,relative-cost-logit
+Africa_Southern,comm cooling,electricity,relative-cost-logit
+Africa_Southern,comm cooling,gas,relative-cost-logit
+Africa_Southern,comm others,biomass,relative-cost-logit
+Africa_Southern,comm others,coal,relative-cost-logit
+Africa_Southern,comm others,electricity,relative-cost-logit
+Africa_Southern,comm others,gas,relative-cost-logit
+Africa_Southern,comm others,refined liquids,relative-cost-logit
+Africa_Western,resid heating,biomass,relative-cost-logit
+Africa_Western,resid heating,coal,relative-cost-logit
+Africa_Western,resid heating,electricity,relative-cost-logit
+Africa_Western,resid heating,gas,relative-cost-logit
+Africa_Western,resid heating,refined liquids,relative-cost-logit
+Africa_Western,resid heating,traditional biomass,relative-cost-logit
+Africa_Western,resid cooling,electricity,relative-cost-logit
+Africa_Western,resid cooling,gas,relative-cost-logit
+Africa_Western,resid others,biomass,relative-cost-logit
+Africa_Western,resid others,coal,relative-cost-logit
+Africa_Western,resid others,electricity,relative-cost-logit
+Africa_Western,resid others,gas,relative-cost-logit
+Africa_Western,resid others,refined liquids,relative-cost-logit
+Africa_Western,resid others,traditional biomass,relative-cost-logit
+Africa_Western,comm heating,biomass,relative-cost-logit
+Africa_Western,comm heating,coal,relative-cost-logit
+Africa_Western,comm heating,electricity,relative-cost-logit
+Africa_Western,comm heating,gas,relative-cost-logit
+Africa_Western,comm heating,refined liquids,relative-cost-logit
+Africa_Western,comm cooling,electricity,relative-cost-logit
+Africa_Western,comm cooling,gas,relative-cost-logit
+Africa_Western,comm others,biomass,relative-cost-logit
+Africa_Western,comm others,coal,relative-cost-logit
+Africa_Western,comm others,electricity,relative-cost-logit
+Africa_Western,comm others,gas,relative-cost-logit
+Africa_Western,comm others,refined liquids,relative-cost-logit
+Australia_NZ,resid heating,biomass,relative-cost-logit
+Australia_NZ,resid heating,coal,relative-cost-logit
+Australia_NZ,resid heating,electricity,relative-cost-logit
+Australia_NZ,resid heating,gas,relative-cost-logit
+Australia_NZ,resid heating,refined liquids,relative-cost-logit
+Australia_NZ,resid cooling,electricity,relative-cost-logit
+Australia_NZ,resid cooling,gas,relative-cost-logit
+Australia_NZ,resid others,biomass,relative-cost-logit
+Australia_NZ,resid others,coal,relative-cost-logit
+Australia_NZ,resid others,electricity,relative-cost-logit
+Australia_NZ,resid others,gas,relative-cost-logit
+Australia_NZ,resid others,refined liquids,relative-cost-logit
+Australia_NZ,comm heating,biomass,relative-cost-logit
+Australia_NZ,comm heating,coal,relative-cost-logit
+Australia_NZ,comm heating,electricity,relative-cost-logit
+Australia_NZ,comm heating,gas,relative-cost-logit
+Australia_NZ,comm heating,refined liquids,relative-cost-logit
+Australia_NZ,comm cooling,electricity,relative-cost-logit
+Australia_NZ,comm cooling,gas,relative-cost-logit
+Australia_NZ,comm others,biomass,relative-cost-logit
+Australia_NZ,comm others,coal,relative-cost-logit
+Australia_NZ,comm others,electricity,relative-cost-logit
+Australia_NZ,comm others,gas,relative-cost-logit
+Australia_NZ,comm others,refined liquids,relative-cost-logit
+Brazil,resid heating,biomass,relative-cost-logit
+Brazil,resid heating,coal,relative-cost-logit
+Brazil,resid heating,electricity,relative-cost-logit
+Brazil,resid heating,gas,relative-cost-logit
+Brazil,resid heating,refined liquids,relative-cost-logit
+Brazil,resid heating,traditional biomass,relative-cost-logit
+Brazil,resid cooling,electricity,relative-cost-logit
+Brazil,resid cooling,gas,relative-cost-logit
+Brazil,resid others,biomass,relative-cost-logit
+Brazil,resid others,coal,relative-cost-logit
+Brazil,resid others,electricity,relative-cost-logit
+Brazil,resid others,gas,relative-cost-logit
+Brazil,resid others,refined liquids,relative-cost-logit
+Brazil,resid others,traditional biomass,relative-cost-logit
+Brazil,comm heating,biomass,relative-cost-logit
+Brazil,comm heating,coal,relative-cost-logit
+Brazil,comm heating,electricity,relative-cost-logit
+Brazil,comm heating,gas,relative-cost-logit
+Brazil,comm heating,refined liquids,relative-cost-logit
+Brazil,comm cooling,electricity,relative-cost-logit
+Brazil,comm cooling,gas,relative-cost-logit
+Brazil,comm others,biomass,relative-cost-logit
+Brazil,comm others,coal,relative-cost-logit
+Brazil,comm others,electricity,relative-cost-logit
+Brazil,comm others,gas,relative-cost-logit
+Brazil,comm others,refined liquids,relative-cost-logit
+Canada,resid heating,biomass,relative-cost-logit
+Canada,resid heating,coal,relative-cost-logit
+Canada,resid heating,electricity,relative-cost-logit
+Canada,resid heating,gas,relative-cost-logit
+Canada,resid heating,refined liquids,relative-cost-logit
+Canada,resid cooling,electricity,relative-cost-logit
+Canada,resid cooling,gas,relative-cost-logit
+Canada,resid others,biomass,relative-cost-logit
+Canada,resid others,coal,relative-cost-logit
+Canada,resid others,electricity,relative-cost-logit
+Canada,resid others,gas,relative-cost-logit
+Canada,resid others,refined liquids,relative-cost-logit
+Canada,comm heating,biomass,relative-cost-logit
+Canada,comm heating,coal,relative-cost-logit
+Canada,comm heating,electricity,relative-cost-logit
+Canada,comm heating,gas,relative-cost-logit
+Canada,comm heating,refined liquids,relative-cost-logit
+Canada,comm cooling,electricity,relative-cost-logit
+Canada,comm cooling,gas,relative-cost-logit
+Canada,comm others,biomass,relative-cost-logit
+Canada,comm others,coal,relative-cost-logit
+Canada,comm others,electricity,relative-cost-logit
+Canada,comm others,gas,relative-cost-logit
+Canada,comm others,refined liquids,relative-cost-logit
+Central America and Caribbean,resid heating,biomass,relative-cost-logit
+Central America and Caribbean,resid heating,coal,relative-cost-logit
+Central America and Caribbean,resid heating,electricity,relative-cost-logit
+Central America and Caribbean,resid heating,gas,relative-cost-logit
+Central America and Caribbean,resid heating,refined liquids,relative-cost-logit
+Central America and Caribbean,resid heating,traditional biomass,relative-cost-logit
+Central America and Caribbean,resid cooling,electricity,relative-cost-logit
+Central America and Caribbean,resid cooling,gas,relative-cost-logit
+Central America and Caribbean,resid others,biomass,relative-cost-logit
+Central America and Caribbean,resid others,coal,relative-cost-logit
+Central America and Caribbean,resid others,electricity,relative-cost-logit
+Central America and Caribbean,resid others,gas,relative-cost-logit
+Central America and Caribbean,resid others,refined liquids,relative-cost-logit
+Central America and Caribbean,resid others,traditional biomass,relative-cost-logit
+Central America and Caribbean,comm heating,biomass,relative-cost-logit
+Central America and Caribbean,comm heating,coal,relative-cost-logit
+Central America and Caribbean,comm heating,electricity,relative-cost-logit
+Central America and Caribbean,comm heating,gas,relative-cost-logit
+Central America and Caribbean,comm heating,refined liquids,relative-cost-logit
+Central America and Caribbean,comm cooling,electricity,relative-cost-logit
+Central America and Caribbean,comm cooling,gas,relative-cost-logit
+Central America and Caribbean,comm others,biomass,relative-cost-logit
+Central America and Caribbean,comm others,coal,relative-cost-logit
+Central America and Caribbean,comm others,electricity,relative-cost-logit
+Central America and Caribbean,comm others,gas,relative-cost-logit
+Central America and Caribbean,comm others,refined liquids,relative-cost-logit
+Central Asia,resid heating,biomass,relative-cost-logit
+Central Asia,resid heating,coal,relative-cost-logit
+Central Asia,resid heating,electricity,relative-cost-logit
+Central Asia,resid heating,gas,relative-cost-logit
+Central Asia,resid heating,refined liquids,relative-cost-logit
+Central Asia,resid cooling,electricity,relative-cost-logit
+Central Asia,resid cooling,gas,relative-cost-logit
+Central Asia,resid others,biomass,relative-cost-logit
+Central Asia,resid others,coal,relative-cost-logit
+Central Asia,resid others,electricity,relative-cost-logit
+Central Asia,resid others,gas,relative-cost-logit
+Central Asia,resid others,refined liquids,relative-cost-logit
+Central Asia,comm heating,biomass,relative-cost-logit
+Central Asia,comm heating,coal,relative-cost-logit
+Central Asia,comm heating,electricity,relative-cost-logit
+Central Asia,comm heating,gas,relative-cost-logit
+Central Asia,comm heating,refined liquids,relative-cost-logit
+Central Asia,comm cooling,electricity,relative-cost-logit
+Central Asia,comm cooling,gas,relative-cost-logit
+Central Asia,comm others,biomass,relative-cost-logit
+Central Asia,comm others,coal,relative-cost-logit
+Central Asia,comm others,electricity,relative-cost-logit
+Central Asia,comm others,gas,relative-cost-logit
+Central Asia,comm others,refined liquids,relative-cost-logit
+China,resid heating,biomass,relative-cost-logit
+China,resid heating,coal,relative-cost-logit
+China,resid heating,electricity,relative-cost-logit
+China,resid heating,gas,relative-cost-logit
+China,resid heating,refined liquids,relative-cost-logit
+China,resid heating,traditional biomass,relative-cost-logit
+China,resid heating,district heat,relative-cost-logit
+China,resid cooling,electricity,relative-cost-logit
+China,resid cooling,gas,relative-cost-logit
+China,resid others,biomass,relative-cost-logit
+China,resid others,coal,relative-cost-logit
+China,resid others,electricity,relative-cost-logit
+China,resid others,gas,relative-cost-logit
+China,resid others,refined liquids,relative-cost-logit
+China,resid others,traditional biomass,relative-cost-logit
+China,resid others,district heat,relative-cost-logit
+China,comm heating,biomass,relative-cost-logit
+China,comm heating,coal,relative-cost-logit
+China,comm heating,electricity,relative-cost-logit
+China,comm heating,gas,relative-cost-logit
+China,comm heating,refined liquids,relative-cost-logit
+China,comm heating,district heat,relative-cost-logit
+China,comm cooling,electricity,relative-cost-logit
+China,comm cooling,gas,relative-cost-logit
+China,comm others,biomass,relative-cost-logit
+China,comm others,coal,relative-cost-logit
+China,comm others,electricity,relative-cost-logit
+China,comm others,gas,relative-cost-logit
+China,comm others,refined liquids,relative-cost-logit
+China,comm others,district heat,relative-cost-logit
+EU-12,resid heating,biomass,relative-cost-logit
+EU-12,resid heating,coal,relative-cost-logit
+EU-12,resid heating,electricity,relative-cost-logit
+EU-12,resid heating,gas,relative-cost-logit
+EU-12,resid heating,refined liquids,relative-cost-logit
+EU-12,resid heating,district heat,relative-cost-logit
+EU-12,resid cooling,electricity,relative-cost-logit
+EU-12,resid cooling,gas,relative-cost-logit
+EU-12,resid others,biomass,relative-cost-logit
+EU-12,resid others,coal,relative-cost-logit
+EU-12,resid others,electricity,relative-cost-logit
+EU-12,resid others,gas,relative-cost-logit
+EU-12,resid others,refined liquids,relative-cost-logit
+EU-12,resid others,district heat,relative-cost-logit
+EU-12,comm heating,biomass,relative-cost-logit
+EU-12,comm heating,coal,relative-cost-logit
+EU-12,comm heating,electricity,relative-cost-logit
+EU-12,comm heating,gas,relative-cost-logit
+EU-12,comm heating,refined liquids,relative-cost-logit
+EU-12,comm heating,district heat,relative-cost-logit
+EU-12,comm cooling,electricity,relative-cost-logit
+EU-12,comm cooling,gas,relative-cost-logit
+EU-12,comm others,biomass,relative-cost-logit
+EU-12,comm others,coal,relative-cost-logit
+EU-12,comm others,electricity,relative-cost-logit
+EU-12,comm others,gas,relative-cost-logit
+EU-12,comm others,refined liquids,relative-cost-logit
+EU-12,comm others,district heat,relative-cost-logit
+EU-15,resid heating,biomass,relative-cost-logit
+EU-15,resid heating,coal,relative-cost-logit
+EU-15,resid heating,electricity,relative-cost-logit
+EU-15,resid heating,gas,relative-cost-logit
+EU-15,resid heating,refined liquids,relative-cost-logit
+EU-15,resid cooling,electricity,relative-cost-logit
+EU-15,resid cooling,gas,relative-cost-logit
+EU-15,resid others,biomass,relative-cost-logit
+EU-15,resid others,coal,relative-cost-logit
+EU-15,resid others,electricity,relative-cost-logit
+EU-15,resid others,gas,relative-cost-logit
+EU-15,resid others,refined liquids,relative-cost-logit
+EU-15,comm heating,biomass,relative-cost-logit
+EU-15,comm heating,coal,relative-cost-logit
+EU-15,comm heating,electricity,relative-cost-logit
+EU-15,comm heating,gas,relative-cost-logit
+EU-15,comm heating,refined liquids,relative-cost-logit
+EU-15,comm cooling,electricity,relative-cost-logit
+EU-15,comm cooling,gas,relative-cost-logit
+EU-15,comm others,biomass,relative-cost-logit
+EU-15,comm others,coal,relative-cost-logit
+EU-15,comm others,electricity,relative-cost-logit
+EU-15,comm others,gas,relative-cost-logit
+EU-15,comm others,refined liquids,relative-cost-logit
+Europe_Eastern,resid heating,biomass,relative-cost-logit
+Europe_Eastern,resid heating,coal,relative-cost-logit
+Europe_Eastern,resid heating,electricity,relative-cost-logit
+Europe_Eastern,resid heating,gas,relative-cost-logit
+Europe_Eastern,resid heating,refined liquids,relative-cost-logit
+Europe_Eastern,resid heating,district heat,relative-cost-logit
+Europe_Eastern,resid cooling,electricity,relative-cost-logit
+Europe_Eastern,resid cooling,gas,relative-cost-logit
+Europe_Eastern,resid others,biomass,relative-cost-logit
+Europe_Eastern,resid others,coal,relative-cost-logit
+Europe_Eastern,resid others,electricity,relative-cost-logit
+Europe_Eastern,resid others,gas,relative-cost-logit
+Europe_Eastern,resid others,refined liquids,relative-cost-logit
+Europe_Eastern,resid others,district heat,relative-cost-logit
+Europe_Eastern,comm heating,biomass,relative-cost-logit
+Europe_Eastern,comm heating,coal,relative-cost-logit
+Europe_Eastern,comm heating,electricity,relative-cost-logit
+Europe_Eastern,comm heating,gas,relative-cost-logit
+Europe_Eastern,comm heating,refined liquids,relative-cost-logit
+Europe_Eastern,comm heating,district heat,relative-cost-logit
+Europe_Eastern,comm cooling,electricity,relative-cost-logit
+Europe_Eastern,comm cooling,gas,relative-cost-logit
+Europe_Eastern,comm others,biomass,relative-cost-logit
+Europe_Eastern,comm others,coal,relative-cost-logit
+Europe_Eastern,comm others,electricity,relative-cost-logit
+Europe_Eastern,comm others,gas,relative-cost-logit
+Europe_Eastern,comm others,refined liquids,relative-cost-logit
+Europe_Eastern,comm others,district heat,relative-cost-logit
+Europe_Non_EU,resid heating,biomass,relative-cost-logit
+Europe_Non_EU,resid heating,coal,relative-cost-logit
+Europe_Non_EU,resid heating,electricity,relative-cost-logit
+Europe_Non_EU,resid heating,gas,relative-cost-logit
+Europe_Non_EU,resid heating,refined liquids,relative-cost-logit
+Europe_Non_EU,resid heating,district heat,relative-cost-logit
+Europe_Non_EU,resid cooling,electricity,relative-cost-logit
+Europe_Non_EU,resid cooling,gas,relative-cost-logit
+Europe_Non_EU,resid others,biomass,relative-cost-logit
+Europe_Non_EU,resid others,coal,relative-cost-logit
+Europe_Non_EU,resid others,electricity,relative-cost-logit
+Europe_Non_EU,resid others,gas,relative-cost-logit
+Europe_Non_EU,resid others,refined liquids,relative-cost-logit
+Europe_Non_EU,resid others,district heat,relative-cost-logit
+Europe_Non_EU,comm heating,biomass,relative-cost-logit
+Europe_Non_EU,comm heating,coal,relative-cost-logit
+Europe_Non_EU,comm heating,electricity,relative-cost-logit
+Europe_Non_EU,comm heating,gas,relative-cost-logit
+Europe_Non_EU,comm heating,refined liquids,relative-cost-logit
+Europe_Non_EU,comm heating,district heat,relative-cost-logit
+Europe_Non_EU,comm cooling,electricity,relative-cost-logit
+Europe_Non_EU,comm cooling,gas,relative-cost-logit
+Europe_Non_EU,comm others,biomass,relative-cost-logit
+Europe_Non_EU,comm others,coal,relative-cost-logit
+Europe_Non_EU,comm others,electricity,relative-cost-logit
+Europe_Non_EU,comm others,gas,relative-cost-logit
+Europe_Non_EU,comm others,refined liquids,relative-cost-logit
+Europe_Non_EU,comm others,district heat,relative-cost-logit
+European Free Trade Association,resid heating,biomass,relative-cost-logit
+European Free Trade Association,resid heating,coal,relative-cost-logit
+European Free Trade Association,resid heating,electricity,relative-cost-logit
+European Free Trade Association,resid heating,gas,relative-cost-logit
+European Free Trade Association,resid heating,refined liquids,relative-cost-logit
+European Free Trade Association,resid cooling,electricity,relative-cost-logit
+European Free Trade Association,resid cooling,gas,relative-cost-logit
+European Free Trade Association,resid others,biomass,relative-cost-logit
+European Free Trade Association,resid others,coal,relative-cost-logit
+European Free Trade Association,resid others,electricity,relative-cost-logit
+European Free Trade Association,resid others,gas,relative-cost-logit
+European Free Trade Association,resid others,refined liquids,relative-cost-logit
+European Free Trade Association,comm heating,biomass,relative-cost-logit
+European Free Trade Association,comm heating,coal,relative-cost-logit
+European Free Trade Association,comm heating,electricity,relative-cost-logit
+European Free Trade Association,comm heating,gas,relative-cost-logit
+European Free Trade Association,comm heating,refined liquids,relative-cost-logit
+European Free Trade Association,comm cooling,electricity,relative-cost-logit
+European Free Trade Association,comm cooling,gas,relative-cost-logit
+European Free Trade Association,comm others,biomass,relative-cost-logit
+European Free Trade Association,comm others,coal,relative-cost-logit
+European Free Trade Association,comm others,electricity,relative-cost-logit
+European Free Trade Association,comm others,gas,relative-cost-logit
+European Free Trade Association,comm others,refined liquids,relative-cost-logit
+India,resid heating,biomass,relative-cost-logit
+India,resid heating,coal,relative-cost-logit
+India,resid heating,electricity,relative-cost-logit
+India,resid heating,gas,relative-cost-logit
+India,resid heating,refined liquids,relative-cost-logit
+India,resid heating,traditional biomass,relative-cost-logit
+India,resid cooling,electricity,relative-cost-logit
+India,resid cooling,gas,relative-cost-logit
+India,resid others,biomass,relative-cost-logit
+India,resid others,coal,relative-cost-logit
+India,resid others,electricity,relative-cost-logit
+India,resid others,gas,relative-cost-logit
+India,resid others,refined liquids,relative-cost-logit
+India,resid others,traditional biomass,relative-cost-logit
+India,comm heating,biomass,relative-cost-logit
+India,comm heating,coal,relative-cost-logit
+India,comm heating,electricity,relative-cost-logit
+India,comm heating,gas,relative-cost-logit
+India,comm heating,refined liquids,relative-cost-logit
+India,comm cooling,electricity,relative-cost-logit
+India,comm cooling,gas,relative-cost-logit
+India,comm others,biomass,relative-cost-logit
+India,comm others,coal,relative-cost-logit
+India,comm others,electricity,relative-cost-logit
+India,comm others,gas,relative-cost-logit
+India,comm others,refined liquids,relative-cost-logit
+Indonesia,resid heating,biomass,relative-cost-logit
+Indonesia,resid heating,coal,relative-cost-logit
+Indonesia,resid heating,electricity,relative-cost-logit
+Indonesia,resid heating,gas,relative-cost-logit
+Indonesia,resid heating,refined liquids,relative-cost-logit
+Indonesia,resid heating,traditional biomass,relative-cost-logit
+Indonesia,resid cooling,electricity,relative-cost-logit
+Indonesia,resid cooling,gas,relative-cost-logit
+Indonesia,resid others,biomass,relative-cost-logit
+Indonesia,resid others,coal,relative-cost-logit
+Indonesia,resid others,electricity,relative-cost-logit
+Indonesia,resid others,gas,relative-cost-logit
+Indonesia,resid others,refined liquids,relative-cost-logit
+Indonesia,resid others,traditional biomass,relative-cost-logit
+Indonesia,comm heating,biomass,relative-cost-logit
+Indonesia,comm heating,coal,relative-cost-logit
+Indonesia,comm heating,electricity,relative-cost-logit
+Indonesia,comm heating,gas,relative-cost-logit
+Indonesia,comm heating,refined liquids,relative-cost-logit
+Indonesia,comm cooling,electricity,relative-cost-logit
+Indonesia,comm cooling,gas,relative-cost-logit
+Indonesia,comm others,biomass,relative-cost-logit
+Indonesia,comm others,coal,relative-cost-logit
+Indonesia,comm others,electricity,relative-cost-logit
+Indonesia,comm others,gas,relative-cost-logit
+Indonesia,comm others,refined liquids,relative-cost-logit
+Japan,resid heating,biomass,relative-cost-logit
+Japan,resid heating,coal,relative-cost-logit
+Japan,resid heating,electricity,relative-cost-logit
+Japan,resid heating,gas,relative-cost-logit
+Japan,resid heating,refined liquids,relative-cost-logit
+Japan,resid cooling,electricity,relative-cost-logit
+Japan,resid cooling,gas,relative-cost-logit
+Japan,resid others,biomass,relative-cost-logit
+Japan,resid others,coal,relative-cost-logit
+Japan,resid others,electricity,relative-cost-logit
+Japan,resid others,gas,relative-cost-logit
+Japan,resid others,refined liquids,relative-cost-logit
+Japan,comm heating,biomass,relative-cost-logit
+Japan,comm heating,coal,relative-cost-logit
+Japan,comm heating,electricity,relative-cost-logit
+Japan,comm heating,gas,relative-cost-logit
+Japan,comm heating,refined liquids,relative-cost-logit
+Japan,comm cooling,electricity,relative-cost-logit
+Japan,comm cooling,gas,relative-cost-logit
+Japan,comm others,biomass,relative-cost-logit
+Japan,comm others,coal,relative-cost-logit
+Japan,comm others,electricity,relative-cost-logit
+Japan,comm others,gas,relative-cost-logit
+Japan,comm others,refined liquids,relative-cost-logit
+Mexico,resid heating,biomass,relative-cost-logit
+Mexico,resid heating,coal,relative-cost-logit
+Mexico,resid heating,electricity,relative-cost-logit
+Mexico,resid heating,gas,relative-cost-logit
+Mexico,resid heating,refined liquids,relative-cost-logit
+Mexico,resid heating,traditional biomass,relative-cost-logit
+Mexico,resid cooling,electricity,relative-cost-logit
+Mexico,resid cooling,gas,relative-cost-logit
+Mexico,resid others,biomass,relative-cost-logit
+Mexico,resid others,coal,relative-cost-logit
+Mexico,resid others,electricity,relative-cost-logit
+Mexico,resid others,gas,relative-cost-logit
+Mexico,resid others,refined liquids,relative-cost-logit
+Mexico,resid others,traditional biomass,relative-cost-logit
+Mexico,comm heating,biomass,relative-cost-logit
+Mexico,comm heating,coal,relative-cost-logit
+Mexico,comm heating,electricity,relative-cost-logit
+Mexico,comm heating,gas,relative-cost-logit
+Mexico,comm heating,refined liquids,relative-cost-logit
+Mexico,comm cooling,electricity,relative-cost-logit
+Mexico,comm cooling,gas,relative-cost-logit
+Mexico,comm others,biomass,relative-cost-logit
+Mexico,comm others,coal,relative-cost-logit
+Mexico,comm others,electricity,relative-cost-logit
+Mexico,comm others,gas,relative-cost-logit
+Mexico,comm others,refined liquids,relative-cost-logit
+Middle East,resid heating,biomass,relative-cost-logit
+Middle East,resid heating,coal,relative-cost-logit
+Middle East,resid heating,electricity,relative-cost-logit
+Middle East,resid heating,gas,relative-cost-logit
+Middle East,resid heating,refined liquids,relative-cost-logit
+Middle East,resid cooling,electricity,relative-cost-logit
+Middle East,resid cooling,gas,relative-cost-logit
+Middle East,resid others,biomass,relative-cost-logit
+Middle East,resid others,coal,relative-cost-logit
+Middle East,resid others,electricity,relative-cost-logit
+Middle East,resid others,gas,relative-cost-logit
+Middle East,resid others,refined liquids,relative-cost-logit
+Middle East,comm heating,biomass,relative-cost-logit
+Middle East,comm heating,coal,relative-cost-logit
+Middle East,comm heating,electricity,relative-cost-logit
+Middle East,comm heating,gas,relative-cost-logit
+Middle East,comm heating,refined liquids,relative-cost-logit
+Middle East,comm cooling,electricity,relative-cost-logit
+Middle East,comm cooling,gas,relative-cost-logit
+Middle East,comm others,biomass,relative-cost-logit
+Middle East,comm others,coal,relative-cost-logit
+Middle East,comm others,electricity,relative-cost-logit
+Middle East,comm others,gas,relative-cost-logit
+Middle East,comm others,refined liquids,relative-cost-logit
+Pakistan,resid heating,biomass,relative-cost-logit
+Pakistan,resid heating,coal,relative-cost-logit
+Pakistan,resid heating,electricity,relative-cost-logit
+Pakistan,resid heating,gas,relative-cost-logit
+Pakistan,resid heating,refined liquids,relative-cost-logit
+Pakistan,resid heating,traditional biomass,relative-cost-logit
+Pakistan,resid cooling,electricity,relative-cost-logit
+Pakistan,resid cooling,gas,relative-cost-logit
+Pakistan,resid others,biomass,relative-cost-logit
+Pakistan,resid others,coal,relative-cost-logit
+Pakistan,resid others,electricity,relative-cost-logit
+Pakistan,resid others,gas,relative-cost-logit
+Pakistan,resid others,refined liquids,relative-cost-logit
+Pakistan,resid others,traditional biomass,relative-cost-logit
+Pakistan,comm heating,biomass,relative-cost-logit
+Pakistan,comm heating,coal,relative-cost-logit
+Pakistan,comm heating,electricity,relative-cost-logit
+Pakistan,comm heating,gas,relative-cost-logit
+Pakistan,comm heating,refined liquids,relative-cost-logit
+Pakistan,comm cooling,electricity,relative-cost-logit
+Pakistan,comm cooling,gas,relative-cost-logit
+Pakistan,comm others,biomass,relative-cost-logit
+Pakistan,comm others,coal,relative-cost-logit
+Pakistan,comm others,electricity,relative-cost-logit
+Pakistan,comm others,gas,relative-cost-logit
+Pakistan,comm others,refined liquids,relative-cost-logit
+Russia,resid heating,biomass,relative-cost-logit
+Russia,resid heating,coal,relative-cost-logit
+Russia,resid heating,electricity,relative-cost-logit
+Russia,resid heating,gas,relative-cost-logit
+Russia,resid heating,refined liquids,relative-cost-logit
+Russia,resid heating,district heat,relative-cost-logit
+Russia,resid cooling,electricity,relative-cost-logit
+Russia,resid cooling,gas,relative-cost-logit
+Russia,resid others,biomass,relative-cost-logit
+Russia,resid others,coal,relative-cost-logit
+Russia,resid others,electricity,relative-cost-logit
+Russia,resid others,gas,relative-cost-logit
+Russia,resid others,refined liquids,relative-cost-logit
+Russia,resid others,district heat,relative-cost-logit
+Russia,comm heating,biomass,relative-cost-logit
+Russia,comm heating,coal,relative-cost-logit
+Russia,comm heating,electricity,relative-cost-logit
+Russia,comm heating,gas,relative-cost-logit
+Russia,comm heating,refined liquids,relative-cost-logit
+Russia,comm heating,district heat,relative-cost-logit
+Russia,comm cooling,electricity,relative-cost-logit
+Russia,comm cooling,gas,relative-cost-logit
+Russia,comm others,biomass,relative-cost-logit
+Russia,comm others,coal,relative-cost-logit
+Russia,comm others,electricity,relative-cost-logit
+Russia,comm others,gas,relative-cost-logit
+Russia,comm others,refined liquids,relative-cost-logit
+Russia,comm others,district heat,relative-cost-logit
+South Africa,resid heating,biomass,relative-cost-logit
+South Africa,resid heating,coal,relative-cost-logit
+South Africa,resid heating,electricity,relative-cost-logit
+South Africa,resid heating,gas,relative-cost-logit
+South Africa,resid heating,refined liquids,relative-cost-logit
+South Africa,resid heating,traditional biomass,relative-cost-logit
+South Africa,resid cooling,electricity,relative-cost-logit
+South Africa,resid cooling,gas,relative-cost-logit
+South Africa,resid others,biomass,relative-cost-logit
+South Africa,resid others,coal,relative-cost-logit
+South Africa,resid others,electricity,relative-cost-logit
+South Africa,resid others,gas,relative-cost-logit
+South Africa,resid others,refined liquids,relative-cost-logit
+South Africa,resid others,traditional biomass,relative-cost-logit
+South Africa,comm heating,biomass,relative-cost-logit
+South Africa,comm heating,coal,relative-cost-logit
+South Africa,comm heating,electricity,relative-cost-logit
+South Africa,comm heating,gas,relative-cost-logit
+South Africa,comm heating,refined liquids,relative-cost-logit
+South Africa,comm cooling,electricity,relative-cost-logit
+South Africa,comm cooling,gas,relative-cost-logit
+South Africa,comm others,biomass,relative-cost-logit
+South Africa,comm others,coal,relative-cost-logit
+South Africa,comm others,electricity,relative-cost-logit
+South Africa,comm others,gas,relative-cost-logit
+South Africa,comm others,refined liquids,relative-cost-logit
+South America_Northern,resid heating,biomass,relative-cost-logit
+South America_Northern,resid heating,coal,relative-cost-logit
+South America_Northern,resid heating,electricity,relative-cost-logit
+South America_Northern,resid heating,gas,relative-cost-logit
+South America_Northern,resid heating,refined liquids,relative-cost-logit
+South America_Northern,resid heating,traditional biomass,relative-cost-logit
+South America_Northern,resid cooling,electricity,relative-cost-logit
+South America_Northern,resid cooling,gas,relative-cost-logit
+South America_Northern,resid others,biomass,relative-cost-logit
+South America_Northern,resid others,coal,relative-cost-logit
+South America_Northern,resid others,electricity,relative-cost-logit
+South America_Northern,resid others,gas,relative-cost-logit
+South America_Northern,resid others,refined liquids,relative-cost-logit
+South America_Northern,resid others,traditional biomass,relative-cost-logit
+South America_Northern,comm heating,biomass,relative-cost-logit
+South America_Northern,comm heating,coal,relative-cost-logit
+South America_Northern,comm heating,electricity,relative-cost-logit
+South America_Northern,comm heating,gas,relative-cost-logit
+South America_Northern,comm heating,refined liquids,relative-cost-logit
+South America_Northern,comm cooling,electricity,relative-cost-logit
+South America_Northern,comm cooling,gas,relative-cost-logit
+South America_Northern,comm others,biomass,relative-cost-logit
+South America_Northern,comm others,coal,relative-cost-logit
+South America_Northern,comm others,electricity,relative-cost-logit
+South America_Northern,comm others,gas,relative-cost-logit
+South America_Northern,comm others,refined liquids,relative-cost-logit
+South America_Southern,resid heating,biomass,relative-cost-logit
+South America_Southern,resid heating,coal,relative-cost-logit
+South America_Southern,resid heating,electricity,relative-cost-logit
+South America_Southern,resid heating,gas,relative-cost-logit
+South America_Southern,resid heating,refined liquids,relative-cost-logit
+South America_Southern,resid heating,traditional biomass,relative-cost-logit
+South America_Southern,resid cooling,electricity,relative-cost-logit
+South America_Southern,resid cooling,gas,relative-cost-logit
+South America_Southern,resid others,biomass,relative-cost-logit
+South America_Southern,resid others,coal,relative-cost-logit
+South America_Southern,resid others,electricity,relative-cost-logit
+South America_Southern,resid others,gas,relative-cost-logit
+South America_Southern,resid others,refined liquids,relative-cost-logit
+South America_Southern,resid others,traditional biomass,relative-cost-logit
+South America_Southern,comm heating,biomass,relative-cost-logit
+South America_Southern,comm heating,coal,relative-cost-logit
+South America_Southern,comm heating,electricity,relative-cost-logit
+South America_Southern,comm heating,gas,relative-cost-logit
+South America_Southern,comm heating,refined liquids,relative-cost-logit
+South America_Southern,comm cooling,electricity,relative-cost-logit
+South America_Southern,comm cooling,gas,relative-cost-logit
+South America_Southern,comm others,biomass,relative-cost-logit
+South America_Southern,comm others,coal,relative-cost-logit
+South America_Southern,comm others,electricity,relative-cost-logit
+South America_Southern,comm others,gas,relative-cost-logit
+South America_Southern,comm others,refined liquids,relative-cost-logit
+South Asia,resid heating,biomass,relative-cost-logit
+South Asia,resid heating,coal,relative-cost-logit
+South Asia,resid heating,electricity,relative-cost-logit
+South Asia,resid heating,gas,relative-cost-logit
+South Asia,resid heating,refined liquids,relative-cost-logit
+South Asia,resid heating,traditional biomass,relative-cost-logit
+South Asia,resid cooling,electricity,relative-cost-logit
+South Asia,resid cooling,gas,relative-cost-logit
+South Asia,resid others,biomass,relative-cost-logit
+South Asia,resid others,coal,relative-cost-logit
+South Asia,resid others,electricity,relative-cost-logit
+South Asia,resid others,gas,relative-cost-logit
+South Asia,resid others,refined liquids,relative-cost-logit
+South Asia,resid others,traditional biomass,relative-cost-logit
+South Asia,comm heating,biomass,relative-cost-logit
+South Asia,comm heating,coal,relative-cost-logit
+South Asia,comm heating,electricity,relative-cost-logit
+South Asia,comm heating,gas,relative-cost-logit
+South Asia,comm heating,refined liquids,relative-cost-logit
+South Asia,comm cooling,electricity,relative-cost-logit
+South Asia,comm cooling,gas,relative-cost-logit
+South Asia,comm others,biomass,relative-cost-logit
+South Asia,comm others,coal,relative-cost-logit
+South Asia,comm others,electricity,relative-cost-logit
+South Asia,comm others,gas,relative-cost-logit
+South Asia,comm others,refined liquids,relative-cost-logit
+South Korea,resid heating,biomass,relative-cost-logit
+South Korea,resid heating,coal,relative-cost-logit
+South Korea,resid heating,electricity,relative-cost-logit
+South Korea,resid heating,gas,relative-cost-logit
+South Korea,resid heating,refined liquids,relative-cost-logit
+South Korea,resid cooling,electricity,relative-cost-logit
+South Korea,resid cooling,gas,relative-cost-logit
+South Korea,resid others,biomass,relative-cost-logit
+South Korea,resid others,coal,relative-cost-logit
+South Korea,resid others,electricity,relative-cost-logit
+South Korea,resid others,gas,relative-cost-logit
+South Korea,resid others,refined liquids,relative-cost-logit
+South Korea,comm heating,biomass,relative-cost-logit
+South Korea,comm heating,coal,relative-cost-logit
+South Korea,comm heating,electricity,relative-cost-logit
+South Korea,comm heating,gas,relative-cost-logit
+South Korea,comm heating,refined liquids,relative-cost-logit
+South Korea,comm cooling,electricity,relative-cost-logit
+South Korea,comm cooling,gas,relative-cost-logit
+South Korea,comm others,biomass,relative-cost-logit
+South Korea,comm others,coal,relative-cost-logit
+South Korea,comm others,electricity,relative-cost-logit
+South Korea,comm others,gas,relative-cost-logit
+South Korea,comm others,refined liquids,relative-cost-logit
+Southeast Asia,resid heating,biomass,relative-cost-logit
+Southeast Asia,resid heating,coal,relative-cost-logit
+Southeast Asia,resid heating,electricity,relative-cost-logit
+Southeast Asia,resid heating,gas,relative-cost-logit
+Southeast Asia,resid heating,refined liquids,relative-cost-logit
+Southeast Asia,resid heating,traditional biomass,relative-cost-logit
+Southeast Asia,resid cooling,electricity,relative-cost-logit
+Southeast Asia,resid cooling,gas,relative-cost-logit
+Southeast Asia,resid others,biomass,relative-cost-logit
+Southeast Asia,resid others,coal,relative-cost-logit
+Southeast Asia,resid others,electricity,relative-cost-logit
+Southeast Asia,resid others,gas,relative-cost-logit
+Southeast Asia,resid others,refined liquids,relative-cost-logit
+Southeast Asia,resid others,traditional biomass,relative-cost-logit
+Southeast Asia,comm heating,biomass,relative-cost-logit
+Southeast Asia,comm heating,coal,relative-cost-logit
+Southeast Asia,comm heating,electricity,relative-cost-logit
+Southeast Asia,comm heating,gas,relative-cost-logit
+Southeast Asia,comm heating,refined liquids,relative-cost-logit
+Southeast Asia,comm cooling,electricity,relative-cost-logit
+Southeast Asia,comm cooling,gas,relative-cost-logit
+Southeast Asia,comm others,biomass,relative-cost-logit
+Southeast Asia,comm others,coal,relative-cost-logit
+Southeast Asia,comm others,electricity,relative-cost-logit
+Southeast Asia,comm others,gas,relative-cost-logit
+Southeast Asia,comm others,refined liquids,relative-cost-logit
+Taiwan,resid heating,biomass,relative-cost-logit
+Taiwan,resid heating,coal,relative-cost-logit
+Taiwan,resid heating,electricity,relative-cost-logit
+Taiwan,resid heating,gas,relative-cost-logit
+Taiwan,resid heating,refined liquids,relative-cost-logit
+Taiwan,resid cooling,electricity,relative-cost-logit
+Taiwan,resid cooling,gas,relative-cost-logit
+Taiwan,resid others,biomass,relative-cost-logit
+Taiwan,resid others,coal,relative-cost-logit
+Taiwan,resid others,electricity,relative-cost-logit
+Taiwan,resid others,gas,relative-cost-logit
+Taiwan,resid others,refined liquids,relative-cost-logit
+Taiwan,comm heating,biomass,relative-cost-logit
+Taiwan,comm heating,coal,relative-cost-logit
+Taiwan,comm heating,electricity,relative-cost-logit
+Taiwan,comm heating,gas,relative-cost-logit
+Taiwan,comm heating,refined liquids,relative-cost-logit
+Taiwan,comm cooling,electricity,relative-cost-logit
+Taiwan,comm cooling,gas,relative-cost-logit
+Taiwan,comm others,biomass,relative-cost-logit
+Taiwan,comm others,coal,relative-cost-logit
+Taiwan,comm others,electricity,relative-cost-logit
+Taiwan,comm others,gas,relative-cost-logit
+Taiwan,comm others,refined liquids,relative-cost-logit
+Argentina,resid heating,biomass,relative-cost-logit
+Argentina,resid heating,coal,relative-cost-logit
+Argentina,resid heating,electricity,relative-cost-logit
+Argentina,resid heating,gas,relative-cost-logit
+Argentina,resid heating,refined liquids,relative-cost-logit
+Argentina,resid heating,traditional biomass,relative-cost-logit
+Argentina,resid cooling,electricity,relative-cost-logit
+Argentina,resid cooling,gas,relative-cost-logit
+Argentina,resid others,biomass,relative-cost-logit
+Argentina,resid others,coal,relative-cost-logit
+Argentina,resid others,electricity,relative-cost-logit
+Argentina,resid others,gas,relative-cost-logit
+Argentina,resid others,refined liquids,relative-cost-logit
+Argentina,resid others,traditional biomass,relative-cost-logit
+Argentina,comm heating,biomass,relative-cost-logit
+Argentina,comm heating,coal,relative-cost-logit
+Argentina,comm heating,electricity,relative-cost-logit
+Argentina,comm heating,gas,relative-cost-logit
+Argentina,comm heating,refined liquids,relative-cost-logit
+Argentina,comm cooling,electricity,relative-cost-logit
+Argentina,comm cooling,gas,relative-cost-logit
+Argentina,comm others,biomass,relative-cost-logit
+Argentina,comm others,coal,relative-cost-logit
+Argentina,comm others,electricity,relative-cost-logit
+Argentina,comm others,gas,relative-cost-logit
+Argentina,comm others,refined liquids,relative-cost-logit
+Colombia,resid heating,biomass,relative-cost-logit
+Colombia,resid heating,coal,relative-cost-logit
+Colombia,resid heating,electricity,relative-cost-logit
+Colombia,resid heating,gas,relative-cost-logit
+Colombia,resid heating,refined liquids,relative-cost-logit
+Colombia,resid heating,traditional biomass,relative-cost-logit
+Colombia,resid cooling,electricity,relative-cost-logit
+Colombia,resid cooling,gas,relative-cost-logit
+Colombia,resid others,biomass,relative-cost-logit
+Colombia,resid others,coal,relative-cost-logit
+Colombia,resid others,electricity,relative-cost-logit
+Colombia,resid others,gas,relative-cost-logit
+Colombia,resid others,refined liquids,relative-cost-logit
+Colombia,resid others,traditional biomass,relative-cost-logit
+Colombia,comm heating,biomass,relative-cost-logit
+Colombia,comm heating,coal,relative-cost-logit
+Colombia,comm heating,electricity,relative-cost-logit
+Colombia,comm heating,gas,relative-cost-logit
+Colombia,comm heating,refined liquids,relative-cost-logit
+Colombia,comm cooling,electricity,relative-cost-logit
+Colombia,comm cooling,gas,relative-cost-logit
+Colombia,comm others,biomass,relative-cost-logit
+Colombia,comm others,coal,relative-cost-logit
+Colombia,comm others,electricity,relative-cost-logit
+Colombia,comm others,gas,relative-cost-logit
+Colombia,comm others,refined liquids,relative-cost-logit

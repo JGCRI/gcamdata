@@ -72,9 +72,8 @@ module_energy_LA143.HDDCDD <- function(command, ...) {
 
     # Convert data to long format and add in id variables
     HDDCDD_data <- HDDCDD_data %>%
-      gather(year, value, -file, -country) %>%
-      mutate(year = as.integer(year),
-             # Assuming that the variable is the first three letters
+      gather_years %>%
+      mutate(# Assuming that the variable is the first three letters
              variable = substr(file, 1, 3),
              # Assuming that the GCM comes after "DD_" and is 6 letters
              GCM = substr(file, 5, 10),
@@ -195,7 +194,7 @@ module_energy_LA143.HDDCDD <- function(command, ...) {
     # ===================================================
 
     # Produce outputs
-    L143.HDDCDD_scen_R_Y  %>%
+    L143.HDDCDD_scen_R_Y %>%
       add_title("HDDCDD by GCAM region") %>%
       add_units("Fahrenheit Degree Days") %>%
       add_comments("Population weighted country HDDCDD data from multiple ESMs and scenarios to GCAM region") %>%

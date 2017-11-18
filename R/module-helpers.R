@@ -196,6 +196,62 @@ set_years <- function(data) {
 }
 
 
+#' write_to_all_states
+#'
+#' write out data to all states
+#'
+#' @param data Base tibble to start from
+#' @param names Character vector indicating the column names of the returned tibble
+#' @note Used for USA national data by GCAM region, which is repeated for each US state
+#' @return Tibble with data written out to all USA states
+write_to_all_states <- function(data, names) {
+
+  assert_that(is_tibble(data))
+  assert_that(is.character(names))
+
+  region <- NULL  # silence package check notes
+
+  if("logit.year.fillout" %in% names) {
+    data$logit.year.fillout <- "start-year"
+  }
+
+  if("price.exp.year.fillout" %in% names) {
+    data$price.exp.year.fillout <- "start-year"
+  }
+
+  data %>%
+    set_years %>%
+    mutate(region = NULL) %>% # remove region column if it exists
+    repeat_add_columns(tibble(region = gcamusa.STATES)) %>%
+    select(names)
+}
+
+
+#' set_subsector_shrwt
+#'
+#' Calculate subsector shareweights in calibration periods, where subsectors may have multiple technologies
+#'
+#' @param data Tibble to operate on
+#' @return Tibble returned with a new column of calculated subsector shareweights.
+set_subsector_shrwt <- function(data) {
+
+  assert_that(is_tibble(data))
+
+  region <- supplysector <- subsector <- year <- calOutputValue_agg <- calOutputValue <-
+    subs.share.weight <- NULL  # silence package check notes
+
+  data_aggregated <- data %>%
+    group_by(region, supplysector, subsector, year) %>%
+    summarise(calOutputValue_agg = sum(calOutputValue)) %>%
+    ungroup
+
+  data %>%
+    left_join_error_no_match(data_aggregated, by = c("region", "supplysector", "subsector", "year")) %>%
+    mutate(subs.share.weight = if_else(calOutputValue_agg > 0, 1, 0)) %>%
+    select(-calOutputValue_agg)
+}
+
+
 #' add_node_leaf_names
 #'
 #' Match in the node and leaf names from a land nesting table
@@ -294,7 +350,7 @@ add_carbon_info <- function( data, carbon_info_table, matchvars = c("region", "G
   GCAM_region_names <- veg_c <- soil_c <- hist.veg.carbon.density <- hist.soil.carbon.density <-
     mature.age <- GCAM_region_ID <- NULL  # silence package check notes
 
-  if (!("region" %in% names(carbon_info_table))) {
+  if(!("region" %in% names(carbon_info_table))) {
     carbon_info_table %>%
       left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID") ->
       carbon_info_table
@@ -349,7 +405,7 @@ get_ssp_regions <- function(pcGDP, reg_names, income_group,
     regions <- filter(pcGDP_yf, value > aglu.HIGH_GROWTH_PCGDP)
   } else if(income_group == "medium") {
     regions <- filter(pcGDP_yf, value < aglu.HIGH_GROWTH_PCGDP, value > aglu.LOW_GROWTH_PCGDP)
-  } else{
+  } else {
     stop("Unknown income_group!")
   }
 
@@ -407,10 +463,8 @@ fill_exp_decay_extrapolate <- function(d, out_years) {
 
   # The first step is to linearly interpolate missing values that are in between
   # values which are specified (approx_fun rule=1)
-  d %>%
-    gather(year, value, matches(YEAR_PATTERN)) %>%
-    mutate(year = as.integer(year)) ->
-    d
+  d <- gather_years(d)
+
   # We would like to replicate values for all years including those found in the
   # data as well as requested in out_years with the exception of the year (which
   # which is the column we are replicating on) and value which we would like to
@@ -528,7 +582,7 @@ downscale_FAO_country <- function(data, country_name, dissolution_year, years = 
   ctry_years <- years[years < dissolution_year]
   yrs <- as.character(c(ctry_years, dissolution_year))
   data %>%
-    select(one_of(c("item", "element", yrs))) %>%
+    select("item", "element", yrs) %>%
     group_by(item, element) %>%
     summarise_all(sum) %>%
     ungroup ->

@@ -51,6 +51,15 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
       bind_rows(distinct(L2012.AgYield_bio_ref, region, AgSupplySubsector, AgSupplySector)) %>%
       mutate(AgSupplySector = if_else(grepl("biomass_tree", AgSupplySubsector), "biomass_tree", "biomass_grass")) %>%
       left_join(A_LandLeaf3, by=c("AgSupplySector" = "LandLeaf")) %>%
+# =======
+#     # Use the cropland and bioenergy allocation tables to establish which region/GLU/node combinations are available
+#     L223.LN3_MgdAllocation_crop %>%
+#       select(LEVEL2_DATA_NAMES[["LN3_Leaf"]]) %>%
+#       unique %>%
+#       bind_rows(unique(select(L223.LN3_MgdAllocation_bio, one_of(LEVEL2_DATA_NAMES[["LN3_Leaf"]])))) %>%
+#       # What was a leaf for level3 is now a node, as it will have the 4th level nested under it
+#       rename(LandNode4 = LandLeaf) %>%
+# >>>>>>> master
       # Modify land node variable, prepare to separate the GLU name
       mutate(AgSupplySubsector = sub("Root_Tuber", "RootTuber", AgSupplySubsector),
              AgSupplySubsector = sub("biomass_tree", "biomasstree", AgSupplySubsector),
@@ -68,7 +77,7 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
              LandNode2 = paste(LandNode2, GLU_name, sep = "_"),
              LandNode3 = paste(LandNode3, GLU_name, sep = "_"),
              LandNode4 = paste(LandNode4, GLU_name, sep = "_")) %>%
-      select(one_of(LEVEL2_DATA_NAMES[["LN4_Logit"]],"logit.type")) ->
+      select(LEVEL2_DATA_NAMES[["LN4_Logit"]],"logit.type") ->
       L2242.LN4_Logit
 
 

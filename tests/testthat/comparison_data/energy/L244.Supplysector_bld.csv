@@ -1,0 +1,197 @@
+INPUT_TABLE
+Variable ID
+Supplysector
+
+region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent
+USA,resid heating,EJ,EJ,1975$/GJ,1975,-3
+USA,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+USA,resid others,EJ,EJ,1975$/GJ,1975,-3
+USA,comm heating,EJ,EJ,1975$/GJ,1975,-3
+USA,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+USA,comm others,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,resid others,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Africa_Eastern,comm others,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,resid others,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Africa_Northern,comm others,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,resid others,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Africa_Southern,comm others,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,resid others,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Africa_Western,comm others,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,resid others,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Australia_NZ,comm others,EJ,EJ,1975$/GJ,1975,-3
+Brazil,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Brazil,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Brazil,resid others,EJ,EJ,1975$/GJ,1975,-3
+Brazil,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Brazil,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Brazil,comm others,EJ,EJ,1975$/GJ,1975,-3
+Canada,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Canada,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Canada,resid others,EJ,EJ,1975$/GJ,1975,-3
+Canada,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Canada,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Canada,comm others,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,resid others,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Central America and Caribbean,comm others,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,resid others,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Central Asia,comm others,EJ,EJ,1975$/GJ,1975,-3
+China,resid heating,EJ,EJ,1975$/GJ,1975,-3
+China,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+China,resid others,EJ,EJ,1975$/GJ,1975,-3
+China,comm heating,EJ,EJ,1975$/GJ,1975,-3
+China,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+China,comm others,EJ,EJ,1975$/GJ,1975,-3
+EU-12,resid heating,EJ,EJ,1975$/GJ,1975,-3
+EU-12,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+EU-12,resid others,EJ,EJ,1975$/GJ,1975,-3
+EU-12,comm heating,EJ,EJ,1975$/GJ,1975,-3
+EU-12,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+EU-12,comm others,EJ,EJ,1975$/GJ,1975,-3
+EU-15,resid heating,EJ,EJ,1975$/GJ,1975,-3
+EU-15,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+EU-15,resid others,EJ,EJ,1975$/GJ,1975,-3
+EU-15,comm heating,EJ,EJ,1975$/GJ,1975,-3
+EU-15,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+EU-15,comm others,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,resid others,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Europe_Eastern,comm others,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,resid others,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Europe_Non_EU,comm others,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,resid heating,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,resid others,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,comm heating,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+European Free Trade Association,comm others,EJ,EJ,1975$/GJ,1975,-3
+India,resid heating,EJ,EJ,1975$/GJ,1975,-3
+India,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+India,resid others,EJ,EJ,1975$/GJ,1975,-3
+India,comm heating,EJ,EJ,1975$/GJ,1975,-3
+India,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+India,comm others,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,resid others,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Indonesia,comm others,EJ,EJ,1975$/GJ,1975,-3
+Japan,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Japan,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Japan,resid others,EJ,EJ,1975$/GJ,1975,-3
+Japan,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Japan,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Japan,comm others,EJ,EJ,1975$/GJ,1975,-3
+Mexico,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Mexico,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Mexico,resid others,EJ,EJ,1975$/GJ,1975,-3
+Mexico,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Mexico,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Mexico,comm others,EJ,EJ,1975$/GJ,1975,-3
+Middle East,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Middle East,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Middle East,resid others,EJ,EJ,1975$/GJ,1975,-3
+Middle East,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Middle East,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Middle East,comm others,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,resid others,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Pakistan,comm others,EJ,EJ,1975$/GJ,1975,-3
+Russia,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Russia,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Russia,resid others,EJ,EJ,1975$/GJ,1975,-3
+Russia,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Russia,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Russia,comm others,EJ,EJ,1975$/GJ,1975,-3
+South Africa,resid heating,EJ,EJ,1975$/GJ,1975,-3
+South Africa,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+South Africa,resid others,EJ,EJ,1975$/GJ,1975,-3
+South Africa,comm heating,EJ,EJ,1975$/GJ,1975,-3
+South Africa,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+South Africa,comm others,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,resid heating,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,resid others,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,comm heating,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+South America_Northern,comm others,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,resid heating,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,resid others,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,comm heating,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+South America_Southern,comm others,EJ,EJ,1975$/GJ,1975,-3
+South Asia,resid heating,EJ,EJ,1975$/GJ,1975,-3
+South Asia,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+South Asia,resid others,EJ,EJ,1975$/GJ,1975,-3
+South Asia,comm heating,EJ,EJ,1975$/GJ,1975,-3
+South Asia,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+South Asia,comm others,EJ,EJ,1975$/GJ,1975,-3
+South Korea,resid heating,EJ,EJ,1975$/GJ,1975,-3
+South Korea,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+South Korea,resid others,EJ,EJ,1975$/GJ,1975,-3
+South Korea,comm heating,EJ,EJ,1975$/GJ,1975,-3
+South Korea,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+South Korea,comm others,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,resid others,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Southeast Asia,comm others,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,resid others,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Taiwan,comm others,EJ,EJ,1975$/GJ,1975,-3
+Argentina,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Argentina,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Argentina,resid others,EJ,EJ,1975$/GJ,1975,-3
+Argentina,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Argentina,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Argentina,comm others,EJ,EJ,1975$/GJ,1975,-3
+Colombia,resid heating,EJ,EJ,1975$/GJ,1975,-3
+Colombia,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+Colombia,resid others,EJ,EJ,1975$/GJ,1975,-3
+Colombia,comm heating,EJ,EJ,1975$/GJ,1975,-3
+Colombia,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+Colombia,comm others,EJ,EJ,1975$/GJ,1975,-3

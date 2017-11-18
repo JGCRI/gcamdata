@@ -1,6 +1,6 @@
 #' module_emissions_L251.en_ssp_nonco2
 #'
-#' This chunk produces regional non-CO2 emissions coefficient data for SSPs 1/5, 2, and 3/4 as well as a GDP control.
+#' Produce regional non-CO2 emissions coefficient data for SSPs 1/5, 2, and 3/4 as well as a GDP control.
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
@@ -85,11 +85,11 @@ module_emissions_L251.en_ssp_nonco2 <- function(command, ...) {
       tidyr::complete(year = SSP_FUTURE_YEARS,
                       tidyr::nesting(GCAM_region_ID, Non.CO2, supplysector, subsector, stub.technology, agg_sector),
                       fill = list(value = NA)) %>%
-      mutate(year = as.integer(year))  %>%
+      mutate(year = as.integer(year)) %>%
       group_by(GCAM_region_ID, Non.CO2, supplysector, subsector, stub.technology, agg_sector) %>%
-      mutate(value = approx_fun(year, value))  %>%
+      mutate(value = approx_fun(year, value)) %>%
       # Now add regional information.
-      left_join_error_no_match(A_regions, by = "GCAM_region_ID")  %>%
+      left_join_error_no_match(A_regions, by = "GCAM_region_ID") %>%
       # Emission coefficients values are too long, so we round to the 10th decimal point.
       mutate(emiss.coeff = round(value, 10)) %>%
       ungroup() %>%
@@ -103,7 +103,7 @@ module_emissions_L251.en_ssp_nonco2 <- function(command, ...) {
       tidyr::complete(year = SSP_FUTURE_YEARS,
                       tidyr::nesting(GCAM_region_ID, Non.CO2, supplysector, subsector, stub.technology, agg_sector),
                       fill = list(value = NA)) %>%
-      mutate(year = as.integer(year))  %>%
+      mutate(year = as.integer(year)) %>%
       group_by(GCAM_region_ID, Non.CO2, supplysector, subsector, stub.technology, agg_sector) %>%
       mutate(value = approx_fun(year, value)) %>%
       # Now add regional information.

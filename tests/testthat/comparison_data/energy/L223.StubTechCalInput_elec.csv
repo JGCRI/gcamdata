@@ -1,0 +1,645 @@
+INPUT_TABLE
+Variable ID
+StubTechCalInput
+
+region,supplysector,subsector,stub.technology,year,minicam.energy.input,calibrated.value,share.weight.year,subs.share.weight,tech.share.weight
+USA,electricity,biomass,biomass (conv),1975,regional biomass,0.0020093,1975,1,1
+Africa_Eastern,electricity,biomass,biomass (conv),1975,regional biomass,0.0011302,1975,1,1
+Africa_Northern,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+Africa_Southern,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+Africa_Western,electricity,biomass,biomass (conv),1975,regional biomass,0.0021349,1975,1,1
+Australia_NZ,electricity,biomass,biomass (conv),1975,regional biomass,0.0061953,1975,1,1
+Brazil,electricity,biomass,biomass (conv),1975,regional biomass,0.0076185,1975,1,1
+Canada,electricity,biomass,biomass (conv),1975,regional biomass,0.0060278,1975,1,1
+Central America and Caribbean,electricity,biomass,biomass (conv),1975,regional biomass,0.0327638,1975,1,1
+Central Asia,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+China,electricity,biomass,biomass (conv),1975,regional biomass,9e-07,1975,1,1
+EU-12,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+EU-15,electricity,biomass,biomass (conv),1975,regional biomass,0.0865448,1975,1,1
+Europe_Eastern,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+Europe_Non_EU,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+European Free Trade Association,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+India,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+Indonesia,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+Japan,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+Mexico,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+Middle East,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+Pakistan,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+Russia,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+South Africa,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+South America_Northern,electricity,biomass,biomass (conv),1975,regional biomass,0.0012481,1975,1,1
+South America_Southern,electricity,biomass,biomass (conv),1975,regional biomass,0.005986,1975,1,1
+South Asia,electricity,biomass,biomass (conv),1975,regional biomass,5.31e-05,1975,1,1
+South Korea,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+Southeast Asia,electricity,biomass,biomass (conv),1975,regional biomass,2.96e-05,1975,1,1
+Taiwan,electricity,biomass,biomass (conv),1975,regional biomass,0,1975,0,0
+Argentina,electricity,biomass,biomass (conv),1975,regional biomass,0.0022186,1975,1,1
+Colombia,electricity,biomass,biomass (conv),1975,regional biomass,0.0021767,1975,1,1
+USA,electricity,coal,coal (conv pul),1975,regional coal,9.4293417,1975,1,1
+Africa_Eastern,electricity,coal,coal (conv pul),1975,regional coal,1.79e-05,1975,1,1
+Africa_Northern,electricity,coal,coal (conv pul),1975,regional coal,0.0169533,1975,1,1
+Africa_Southern,electricity,coal,coal (conv pul),1975,regional coal,0.012227,1975,1,1
+Africa_Western,electricity,coal,coal (conv pul),1975,regional coal,0.0014851,1975,1,1
+Australia_NZ,electricity,coal,coal (conv pul),1975,regional coal,0.6800994,1975,1,1
+Brazil,electricity,coal,coal (conv pul),1975,regional coal,0.0184603,1975,1,1
+Canada,electricity,coal,coal (conv pul),1975,regional coal,0.3724284,1975,1,1
+Central America and Caribbean,electricity,coal,coal (conv pul),1975,regional coal,0,1975,0,0
+Central Asia,electricity,coal,coal (conv pul),1975,regional coal,0.6678949,1975,1,1
+China,electricity,coal,coal (conv pul),1975,regional coal,1.6285633,1975,1,1
+EU-12,electricity,coal,coal (conv pul),1975,regional coal,2.3682519,1975,1,1
+EU-15,electricity,coal,coal (conv pul),1975,regional coal,5.71029,1975,1,1
+Europe_Eastern,electricity,coal,coal (conv pul),1975,regional coal,0.9418251,1975,1,1
+Europe_Non_EU,electricity,coal,coal (conv pul),1975,regional coal,0.1377377,1975,1,1
+European Free Trade Association,electricity,coal,coal (conv pul),1975,regional coal,0.0005442,1975,1,1
+India,electricity,coal,coal (conv pul),1975,regional coal,0.5521753,1975,1,1
+Indonesia,electricity,coal,coal (conv pul),1975,regional coal,0,1975,0,0
+Japan,electricity,coal,coal (conv pul),1975,regional coal,0.4720971,1975,1,1
+Mexico,electricity,coal,coal (conv pul),1975,regional coal,0.0019674,1975,1,1
+Middle East,electricity,coal,coal (conv pul),1975,regional coal,0.0015488,1975,1,1
+Pakistan,electricity,coal,coal (conv pul),1975,regional coal,0.0008791,1975,1,1
+Russia,electricity,coal,coal (conv pul),1975,regional coal,3.8133144,1975,1,1
+South Africa,electricity,coal,coal (conv pul),1975,regional coal,1.0164445,1975,1,1
+South America_Northern,electricity,coal,coal (conv pul),1975,regional coal,0,1975,0,0
+South America_Southern,electricity,coal,coal (conv pul),1975,regional coal,0.0084139,1975,1,1
+South Asia,electricity,coal,coal (conv pul),1975,regional coal,0,1975,0,0
+South Korea,electricity,coal,coal (conv pul),1975,regional coal,0.0214742,1975,1,1
+Southeast Asia,electricity,coal,coal (conv pul),1975,regional coal,0.142324,1975,1,1
+Taiwan,electricity,coal,coal (conv pul),1975,regional coal,0.0180417,1975,1,1
+Argentina,electricity,coal,coal (conv pul),1975,regional coal,0.0117208,1975,1,1
+Colombia,electricity,coal,coal (conv pul),1975,regional coal,0.0149859,1975,1,1
+USA,electricity,gas,gas (CC),1975,wholesale gas,1.9052129,1975,1,1
+Africa_Eastern,electricity,gas,gas (CC),1975,wholesale gas,0,1975,0,0
+Africa_Northern,electricity,gas,gas (CC),1975,wholesale gas,0.0177268,1975,1,1
+Africa_Southern,electricity,gas,gas (CC),1975,wholesale gas,0,1975,0,0
+Africa_Western,electricity,gas,gas (CC),1975,wholesale gas,0,1975,1,0
+Australia_NZ,electricity,gas,gas (CC),1975,wholesale gas,0.017111,1975,1,1
+Brazil,electricity,gas,gas (CC),1975,wholesale gas,0,1975,0,0
+Canada,electricity,gas,gas (CC),1975,wholesale gas,0.0748785,1975,1,1
+Central America and Caribbean,electricity,gas,gas (CC),1975,wholesale gas,0.0002308,1975,1,1
+Central Asia,electricity,gas,gas (CC),1975,wholesale gas,0,1975,1,0
+China,electricity,gas,gas (CC),1975,wholesale gas,0,1975,0,0
+EU-12,electricity,gas,gas (CC),1975,wholesale gas,0,1975,1,0
+EU-15,electricity,gas,gas (CC),1975,wholesale gas,0.9409738,1975,1,1
+Europe_Eastern,electricity,gas,gas (CC),1975,wholesale gas,0,1975,1,0
+Europe_Non_EU,electricity,gas,gas (CC),1975,wholesale gas,0.0014453,1975,1,1
+European Free Trade Association,electricity,gas,gas (CC),1975,wholesale gas,0,1975,0,0
+India,electricity,gas,gas (CC),1975,wholesale gas,0,1975,1,0
+Indonesia,electricity,gas,gas (CC),1975,wholesale gas,0,1975,0,0
+Japan,electricity,gas,gas (CC),1975,wholesale gas,0.1302252,1975,1,1
+Mexico,electricity,gas,gas (CC),1975,wholesale gas,0,1975,1,0
+Middle East,electricity,gas,gas (CC),1975,wholesale gas,0,1975,1,0
+Pakistan,electricity,gas,gas (CC),1975,wholesale gas,0.0068633,1975,1,1
+Russia,electricity,gas,gas (CC),1975,wholesale gas,0,1975,1,0
+South Africa,electricity,gas,gas (CC),1975,wholesale gas,0,1975,0,0
+South America_Northern,electricity,gas,gas (CC),1975,wholesale gas,0,1975,1,0
+South America_Southern,electricity,gas,gas (CC),1975,wholesale gas,0.0008964,1975,1,1
+South Asia,electricity,gas,gas (CC),1975,wholesale gas,0.0021796,1975,1,1
+South Korea,electricity,gas,gas (CC),1975,wholesale gas,0,1975,0,0
+Southeast Asia,electricity,gas,gas (CC),1975,wholesale gas,0,1975,1,0
+Taiwan,electricity,gas,gas (CC),1975,wholesale gas,0.0025018,1975,1,1
+Argentina,electricity,gas,gas (CC),1975,wholesale gas,0.0249278,1975,1,1
+Colombia,electricity,gas,gas (CC),1975,wholesale gas,0.0069867,1975,1,1
+USA,electricity,gas,gas (steam/CT),1975,wholesale gas,1.1415253,1975,1,1
+Africa_Eastern,electricity,gas,gas (steam/CT),1975,wholesale gas,0,1975,0,0
+Africa_Northern,electricity,gas,gas (steam/CT),1975,wholesale gas,0.0122449,1975,1,1
+Africa_Southern,electricity,gas,gas (steam/CT),1975,wholesale gas,0,1975,0,0
+Africa_Western,electricity,gas,gas (steam/CT),1975,wholesale gas,0.0113859,1975,1,1
+Australia_NZ,electricity,gas,gas (steam/CT),1975,wholesale gas,0.0134468,1975,1,1
+Brazil,electricity,gas,gas (steam/CT),1975,wholesale gas,0,1975,0,0
+Canada,electricity,gas,gas (steam/CT),1975,wholesale gas,0.084943,1975,1,1
+Central America and Caribbean,electricity,gas,gas (steam/CT),1975,wholesale gas,0.0181039,1975,1,1
+Central Asia,electricity,gas,gas (steam/CT),1975,wholesale gas,0.4354405,1975,1,1
+China,electricity,gas,gas (steam/CT),1975,wholesale gas,0,1975,0,0
+EU-12,electricity,gas,gas (steam/CT),1975,wholesale gas,0.5802752,1975,1,1
+EU-15,electricity,gas,gas (steam/CT),1975,wholesale gas,0.4343784,1975,1,1
+Europe_Eastern,electricity,gas,gas (steam/CT),1975,wholesale gas,0.5807329,1975,1,1
+Europe_Non_EU,electricity,gas,gas (steam/CT),1975,wholesale gas,0.0020233,1975,1,1
+European Free Trade Association,electricity,gas,gas (steam/CT),1975,wholesale gas,0,1975,0,0
+India,electricity,gas,gas (steam/CT),1975,wholesale gas,0.0130603,1975,1,1
+Indonesia,electricity,gas,gas (steam/CT),1975,wholesale gas,0,1975,0,0
+Japan,electricity,gas,gas (steam/CT),1975,wholesale gas,0.0552984,1975,1,1
+Mexico,electricity,gas,gas (steam/CT),1975,wholesale gas,0.0882827,1975,1,1
+Middle East,electricity,gas,gas (steam/CT),1975,wholesale gas,0.1753515,1975,1,1
+Pakistan,electricity,gas,gas (steam/CT),1975,wholesale gas,0.0413175,1975,1,1
+Russia,electricity,gas,gas (steam/CT),1975,wholesale gas,1.9815098,1975,1,1
+South Africa,electricity,gas,gas (steam/CT),1975,wholesale gas,0,1975,0,0
+South America_Northern,electricity,gas,gas (steam/CT),1975,wholesale gas,0.1129383,1975,1,1
+South America_Southern,electricity,gas,gas (steam/CT),1975,wholesale gas,0.0016989,1975,1,1
+South Asia,electricity,gas,gas (steam/CT),1975,wholesale gas,0.0053552,1975,1,1
+South Korea,electricity,gas,gas (steam/CT),1975,wholesale gas,0,1975,0,0
+Southeast Asia,electricity,gas,gas (steam/CT),1975,wholesale gas,0.0077441,1975,1,1
+Taiwan,electricity,gas,gas (steam/CT),1975,wholesale gas,0.0043213,1975,1,1
+Argentina,electricity,gas,gas (steam/CT),1975,wholesale gas,0.0578294,1975,1,1
+Colombia,electricity,gas,gas (steam/CT),1975,wholesale gas,0.0190921,1975,1,1
+USA,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,3.061766,1975,1,1
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.0101178,1975,1,1
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.1089216,1975,1,1
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.0135304,1975,1,1
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.028171,1975,1,1
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.0558412,1975,1,1
+Brazil,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.0473437,1975,1,1
+Canada,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.1142359,1975,1,1
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.2070366,1975,1,1
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.6389272,1975,1,1
+China,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.509878,1975,1,1
+EU-12,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.4770856,1975,1,1
+EU-15,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,2.8463002,1975,1,1
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.8039239,1975,1,1
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.0674616,1975,1,1
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.0177486,1975,1,1
+India,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.0867758,1975,1,1
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.0547947,1975,1,1
+Japan,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,2.7410765,1975,1,1
+Mexico,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.2416996,1975,1,1
+Middle East,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.3486938,1975,1,1
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.012851,1975,1,1
+Russia,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,1.8590968,1975,1,1
+South Africa,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0,1975,0,0
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.0718471,1975,1,1
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.0752224,1975,1,1
+South Asia,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.015554,1975,1,1
+South Korea,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.1890398,1975,1,1
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.2492306,1975,1,1
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.1520774,1975,1,1
+Argentina,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.2209789,1975,1,1
+Colombia,electricity,refined liquids,refined liquids (steam/CT),1975,refined liquids industrial,0.0029302,1975,1,1
+USA,electricity,biomass,biomass (conv),1990,regional biomass,0.3931491,1990,1,1
+Africa_Eastern,electricity,biomass,biomass (conv),1990,regional biomass,0.0019674,1990,1,1
+Africa_Northern,electricity,biomass,biomass (conv),1990,regional biomass,0,1990,0,0
+Africa_Southern,electricity,biomass,biomass (conv),1990,regional biomass,0,1990,0,0
+Africa_Western,electricity,biomass,biomass (conv),1990,regional biomass,0.0025116,1990,1,1
+Australia_NZ,electricity,biomass,biomass (conv),1990,regional biomass,0,1990,0,0
+Brazil,electricity,biomass,biomass (conv),1990,regional biomass,0.0310601,1990,1,1
+Canada,electricity,biomass,biomass (conv),1990,regional biomass,0.0367531,1990,1,1
+Central America and Caribbean,electricity,biomass,biomass (conv),1990,regional biomass,0.0579034,1990,1,1
+Central Asia,electricity,biomass,biomass (conv),1990,regional biomass,0,1990,0,0
+China,electricity,biomass,biomass (conv),1990,regional biomass,4.8e-06,1990,1,1
+EU-12,electricity,biomass,biomass (conv),1990,regional biomass,0.0011721,1990,1,1
+EU-15,electricity,biomass,biomass (conv),1990,regional biomass,0.1209529,1990,1,1
+Europe_Eastern,electricity,biomass,biomass (conv),1990,regional biomass,0,1990,0,0
+Europe_Non_EU,electricity,biomass,biomass (conv),1990,regional biomass,0,1990,0,0
+European Free Trade Association,electricity,biomass,biomass (conv),1990,regional biomass,0.0084976,1990,1,1
+India,electricity,biomass,biomass (conv),1990,regional biomass,0,1990,0,0
+Indonesia,electricity,biomass,biomass (conv),1990,regional biomass,0,1990,0,0
+Japan,electricity,biomass,biomass (conv),1990,regional biomass,0.0950641,1990,1,1
+Mexico,electricity,biomass,biomass (conv),1990,regional biomass,0,1990,0,0
+Middle East,electricity,biomass,biomass (conv),1990,regional biomass,0,1990,0,0
+Pakistan,electricity,biomass,biomass (conv),1990,regional biomass,0,1990,0,0
+Russia,electricity,biomass,biomass (conv),1990,regional biomass,0,1990,0,0
+South Africa,electricity,biomass,biomass (conv),1990,regional biomass,0,1990,0,0
+South America_Northern,electricity,biomass,biomass (conv),1990,regional biomass,0.0008068,1990,1,1
+South America_Southern,electricity,biomass,biomass (conv),1990,regional biomass,0.0046883,1990,1,1
+South Asia,electricity,biomass,biomass (conv),1990,regional biomass,0.0001853,1990,1,1
+South Korea,electricity,biomass,biomass (conv),1990,regional biomass,0,1990,0,0
+Southeast Asia,electricity,biomass,biomass (conv),1990,regional biomass,0.0106935,1990,1,1
+Taiwan,electricity,biomass,biomass (conv),1990,regional biomass,0,1990,0,0
+Argentina,electricity,biomass,biomass (conv),1990,regional biomass,0.0045209,1990,1,1
+Colombia,electricity,biomass,biomass (conv),1990,regional biomass,0.0030558,1990,1,1
+USA,electricity,coal,coal (conv pul),1990,regional coal,16.395976,1990,1,1
+Africa_Eastern,electricity,coal,coal (conv pul),1990,regional coal,0.0035756,1990,1,1
+Africa_Northern,electricity,coal,coal (conv pul),1990,regional coal,0.0296942,1990,1,1
+Africa_Southern,electricity,coal,coal (conv pul),1990,regional coal,0.0904141,1990,1,1
+Africa_Western,electricity,coal,coal (conv pul),1990,regional coal,0.0038585,1990,1,1
+Australia_NZ,electricity,coal,coal (conv pul),1990,regional coal,1.2141074,1990,1,1
+Brazil,electricity,coal,coal (conv pul),1990,regional coal,0.0628737,1990,1,1
+Canada,electricity,coal,coal (conv pul),1990,regional coal,0.8800646,1990,1,1
+Central America and Caribbean,electricity,coal,coal (conv pul),1990,regional coal,0.0004186,1990,1,1
+Central Asia,electricity,coal,coal (conv pul),1990,regional coal,1.1784009,1990,1,1
+China,electricity,coal,coal (conv pul),1990,regional coal,5.7696475,1990,1,1
+EU-12,electricity,coal,coal (conv pul),1990,regional coal,2.9449766,1990,1,1
+EU-15,electricity,coal,coal (conv pul),1990,regional coal,7.9654557,1990,1,1
+Europe_Eastern,electricity,coal,coal (conv pul),1990,regional coal,1.494109,1990,1,1
+Europe_Non_EU,electricity,coal,coal (conv pul),1990,regional coal,0.7198664,1990,1,1
+European Free Trade Association,electricity,coal,coal (conv pul),1990,regional coal,0.0012558,1990,1,1
+India,electricity,coal,coal (conv pul),1990,regional coal,2.3264114,1990,1,1
+Indonesia,electricity,coal,coal (conv pul),1990,regional coal,0.0972826,1990,1,1
+Japan,electricity,coal,coal (conv pul),1990,regional coal,1.062658,1990,1,1
+Mexico,electricity,coal,coal (conv pul),1990,regional coal,0.0760178,1990,1,1
+Middle East,electricity,coal,coal (conv pul),1990,regional coal,0.1002547,1990,1,1
+Pakistan,electricity,coal,coal (conv pul),1990,regional coal,0.0007535,1990,1,1
+Russia,electricity,coal,coal (conv pul),1990,regional coal,2.6300219,1990,1,1
+South Africa,electricity,coal,coal (conv pul),1990,regional coal,1.5135739,1990,1,1
+South America_Northern,electricity,coal,coal (conv pul),1990,regional coal,0,1990,0,0
+South America_Southern,electricity,coal,coal (conv pul),1990,regional coal,0.0727527,1990,1,1
+South Asia,electricity,coal,coal (conv pul),1990,regional coal,0,1990,0,0
+South Korea,electricity,coal,coal (conv pul),1990,regional coal,0.1642586,1990,1,1
+Southeast Asia,electricity,coal,coal (conv pul),1990,regional coal,0.354308,1990,1,1
+Taiwan,electricity,coal,coal (conv pul),1990,regional coal,0.2133604,1990,1,1
+Argentina,electricity,coal,coal (conv pul),1990,regional coal,0.0147766,1990,1,1
+Colombia,electricity,coal,coal (conv pul),1990,regional coal,0.0431577,1990,1,1
+USA,electricity,gas,gas (CC),1990,wholesale gas,1.3117228,1990,1,1
+Africa_Eastern,electricity,gas,gas (CC),1990,wholesale gas,0,1990,0,0
+Africa_Northern,electricity,gas,gas (CC),1990,wholesale gas,0.1675159,1990,1,1
+Africa_Southern,electricity,gas,gas (CC),1990,wholesale gas,0,1990,0,0
+Africa_Western,electricity,gas,gas (CC),1990,wholesale gas,0.020159,1990,1,1
+Australia_NZ,electricity,gas,gas (CC),1990,wholesale gas,0.0872126,1990,1,1
+Brazil,electricity,gas,gas (CC),1990,wholesale gas,0.0017962,1990,1,1
+Canada,electricity,gas,gas (CC),1990,wholesale gas,0.0751893,1990,1,1
+Central America and Caribbean,electricity,gas,gas (CC),1990,wholesale gas,0,1990,1,0
+Central Asia,electricity,gas,gas (CC),1990,wholesale gas,0,1990,1,0
+China,electricity,gas,gas (CC),1990,wholesale gas,0.0151591,1990,1,1
+EU-12,electricity,gas,gas (CC),1990,wholesale gas,0,1990,1,0
+EU-15,electricity,gas,gas (CC),1990,wholesale gas,0.6242079,1990,1,1
+Europe_Eastern,electricity,gas,gas (CC),1990,wholesale gas,0.1675835,1990,1,1
+Europe_Non_EU,electricity,gas,gas (CC),1990,wholesale gas,0.0822612,1990,1,1
+European Free Trade Association,electricity,gas,gas (CC),1990,wholesale gas,0,1990,1,0
+India,electricity,gas,gas (CC),1990,wholesale gas,0,1990,1,0
+Indonesia,electricity,gas,gas (CC),1990,wholesale gas,3.48e-05,1990,1,1
+Japan,electricity,gas,gas (CC),1990,wholesale gas,1.2231446,1990,1,1
+Mexico,electricity,gas,gas (CC),1990,wholesale gas,0.0597967,1990,1,1
+Middle East,electricity,gas,gas (CC),1990,wholesale gas,0,1990,1,0
+Pakistan,electricity,gas,gas (CC),1990,wholesale gas,0.0034175,1990,1,1
+Russia,electricity,gas,gas (CC),1990,wholesale gas,0,1990,1,0
+South Africa,electricity,gas,gas (CC),1990,wholesale gas,0,1990,0,0
+South America_Northern,electricity,gas,gas (CC),1990,wholesale gas,0,1990,1,0
+South America_Southern,electricity,gas,gas (CC),1990,wholesale gas,0.0021988,1990,1,1
+South Asia,electricity,gas,gas (CC),1990,wholesale gas,0.0159616,1990,1,1
+South Korea,electricity,gas,gas (CC),1990,wholesale gas,0.0599584,1990,1,1
+Southeast Asia,electricity,gas,gas (CC),1990,wholesale gas,0.0998483,1990,1,1
+Taiwan,electricity,gas,gas (CC),1990,wholesale gas,0.0046635,1990,1,1
+Argentina,electricity,gas,gas (CC),1990,wholesale gas,0.039515,1990,1,1
+Colombia,electricity,gas,gas (CC),1990,wholesale gas,0.003912,1990,1,1
+USA,electricity,gas,gas (steam/CT),1990,wholesale gas,1.4532557,1990,1,1
+Africa_Eastern,electricity,gas,gas (steam/CT),1990,wholesale gas,0,1990,0,0
+Africa_Northern,electricity,gas,gas (steam/CT),1990,wholesale gas,0.2014381,1990,1,1
+Africa_Southern,electricity,gas,gas (steam/CT),1990,wholesale gas,0,1990,0,0
+Africa_Western,electricity,gas,gas (steam/CT),1990,wholesale gas,0.0586216,1990,1,1
+Australia_NZ,electricity,gas,gas (steam/CT),1990,wholesale gas,0.1096132,1990,1,1
+Brazil,electricity,gas,gas (steam/CT),1990,wholesale gas,0.0012178,1990,1,1
+Canada,electricity,gas,gas (steam/CT),1990,wholesale gas,0.0033401,1990,1,1
+Central America and Caribbean,electricity,gas,gas (steam/CT),1990,wholesale gas,0.0457137,1990,1,1
+Central Asia,electricity,gas,gas (steam/CT),1990,wholesale gas,1.0365792,1990,1,1
+China,electricity,gas,gas (steam/CT),1990,wholesale gas,0.0104174,1990,1,1
+EU-12,electricity,gas,gas (steam/CT),1990,wholesale gas,0.6695507,1990,1,1
+EU-15,electricity,gas,gas (steam/CT),1990,wholesale gas,0.6084882,1990,1,1
+Europe_Eastern,electricity,gas,gas (steam/CT),1990,wholesale gas,0.5792408,1990,1,1
+Europe_Non_EU,electricity,gas,gas (steam/CT),1990,wholesale gas,0.0345282,1990,1,1
+European Free Trade Association,electricity,gas,gas (steam/CT),1990,wholesale gas,0.0020511,1990,1,1
+India,electricity,gas,gas (steam/CT),1990,wholesale gas,0.1448775,1990,1,1
+Indonesia,electricity,gas,gas (steam/CT),1990,wholesale gas,0.0087558,1990,1,1
+Japan,electricity,gas,gas (steam/CT),1990,wholesale gas,0.170291,1990,1,1
+Mexico,electricity,gas,gas (steam/CT),1990,wholesale gas,0.083825,1990,1,1
+Middle East,electricity,gas,gas (steam/CT),1990,wholesale gas,1.360157,1990,1,1
+Pakistan,electricity,gas,gas (steam/CT),1990,wholesale gas,0.1469018,1990,1,1
+Russia,electricity,gas,gas (steam/CT),1990,wholesale gas,6.2288099,1990,1,1
+South Africa,electricity,gas,gas (steam/CT),1990,wholesale gas,0,1990,0,0
+South America_Northern,electricity,gas,gas (steam/CT),1990,wholesale gas,0.2337827,1990,1,1
+South America_Southern,electricity,gas,gas (steam/CT),1990,wholesale gas,0.0125777,1990,1,1
+South Asia,electricity,gas,gas (steam/CT),1990,wholesale gas,0.0542377,1990,1,1
+South Korea,electricity,gas,gas (steam/CT),1990,wholesale gas,0.0253105,1990,1,1
+Southeast Asia,electricity,gas,gas (steam/CT),1990,wholesale gas,0.1489675,1990,1,1
+Taiwan,electricity,gas,gas (steam/CT),1990,wholesale gas,0.0054248,1990,1,1
+Argentina,electricity,gas,gas (steam/CT),1990,wholesale gas,0.1792035,1990,1,1
+Colombia,electricity,gas,gas (steam/CT),1990,wholesale gas,0.0481199,1990,1,1
+USA,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,1.1404757,1990,1,1
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.0228302,1990,1,1
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.3688806,1990,1,1
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.0126422,1990,1,1
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.050774,1990,1,1
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.0398507,1990,1,1
+Brazil,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.0542924,1990,1,1
+Canada,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.1588587,1990,1,1
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.2817491,1990,1,1
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.6052956,1990,1,1
+China,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.5196448,1990,1,1
+EU-12,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.4291487,1990,1,1
+EU-15,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,1.617988,1990,1,1
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.8166886,1990,1,1
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.087613,1990,1,1
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.0043534,1990,1,1
+India,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.1503611,1990,1,1
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.1661005,1990,1,1
+Japan,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,2.1171532,1990,1,1
+Mexico,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.6328395,1990,1,1
+Middle East,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,1.2509442,1990,1,1
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.0908362,1990,1,1
+Russia,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,1.9141322,1990,1,1
+South Africa,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0,1990,0,0
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.1070313,1990,1,1
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.0740922,1990,1,1
+South Asia,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.0240653,1990,1,1
+South Korea,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.1888305,1990,1,1
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.5598619,1990,1,1
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.2021838,1990,1,1
+Argentina,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.0714969,1990,1,1
+Colombia,electricity,refined liquids,refined liquids (steam/CT),1990,refined liquids industrial,0.0045627,1990,1,1
+USA,electricity,biomass,biomass (conv),2005,regional biomass,0.4965433,2005,1,1
+Africa_Eastern,electricity,biomass,biomass (conv),2005,regional biomass,0.0038093,2005,1,1
+Africa_Northern,electricity,biomass,biomass (conv),2005,regional biomass,0,2005,0,0
+Africa_Southern,electricity,biomass,biomass (conv),2005,regional biomass,0,2005,0,0
+Africa_Western,electricity,biomass,biomass (conv),2005,regional biomass,0.0046883,2005,1,1
+Australia_NZ,electricity,biomass,biomass (conv),2005,regional biomass,0.0098371,2005,1,1
+Brazil,electricity,biomass,biomass (conv),2005,regional biomass,0.114822,2005,1,1
+Canada,electricity,biomass,biomass (conv),2005,regional biomass,0.0807061,2005,1,1
+Central America and Caribbean,electricity,biomass,biomass (conv),2005,regional biomass,0.0666484,2005,1,1
+Central Asia,electricity,biomass,biomass (conv),2005,regional biomass,0,2005,0,0
+China,electricity,biomass,biomass (conv),2005,regional biomass,0.0346182,2005,1,1
+EU-12,electricity,biomass,biomass (conv),2005,regional biomass,0.0364601,2005,1,1
+EU-15,electricity,biomass,biomass (conv),2005,regional biomass,0.6425444,2005,1,1
+Europe_Eastern,electricity,biomass,biomass (conv),2005,regional biomass,0,2005,0,0
+Europe_Non_EU,electricity,biomass,biomass (conv),2005,regional biomass,0.0010465,2005,1,1
+European Free Trade Association,electricity,biomass,biomass (conv),2005,regional biomass,0.0089162,2005,1,1
+India,electricity,biomass,biomass (conv),2005,regional biomass,0.0461297,2005,1,1
+Indonesia,electricity,biomass,biomass (conv),2005,regional biomass,0.0003767,2005,1,1
+Japan,electricity,biomass,biomass (conv),2005,regional biomass,0.1795375,2005,1,1
+Mexico,electricity,biomass,biomass (conv),2005,regional biomass,0.0467995,2005,1,1
+Middle East,electricity,biomass,biomass (conv),2005,regional biomass,0,2005,0,0
+Pakistan,electricity,biomass,biomass (conv),2005,regional biomass,0,2005,0,0
+Russia,electricity,biomass,biomass (conv),2005,regional biomass,0,2005,0,0
+South Africa,electricity,biomass,biomass (conv),2005,regional biomass,0.0038093,2005,1,1
+South America_Northern,electricity,biomass,biomass (conv),2005,regional biomass,0.0009203,2005,1,1
+South America_Southern,electricity,biomass,biomass (conv),2005,regional biomass,0.0078697,2005,1,1
+South Asia,electricity,biomass,biomass (conv),2005,regional biomass,8.37e-05,2005,1,1
+South Korea,electricity,biomass,biomass (conv),2005,regional biomass,0.0004186,2005,1,1
+Southeast Asia,electricity,biomass,biomass (conv),2005,regional biomass,0.0647156,2005,1,1
+Taiwan,electricity,biomass,biomass (conv),2005,regional biomass,0.0473437,2005,1,1
+Argentina,electricity,biomass,biomass (conv),2005,regional biomass,0.0243625,2005,1,1
+Colombia,electricity,biomass,biomass (conv),2005,regional biomass,0.005693,2005,1,1
+USA,electricity,coal,coal (conv pul),2005,regional coal,20.8799773,2005,1,1
+Africa_Eastern,electricity,coal,coal (conv pul),2005,regional coal,0.0067871,2005,1,1
+Africa_Northern,electricity,coal,coal (conv pul),2005,regional coal,0.1306014,2005,1,1
+Africa_Southern,electricity,coal,coal (conv pul),2005,regional coal,0.0855093,2005,1,1
+Africa_Western,electricity,coal,coal (conv pul),2005,regional coal,0.0071571,2005,1,1
+Australia_NZ,electricity,coal,coal (conv pul),2005,regional coal,1.9382017,2005,1,1
+Brazil,electricity,coal,coal (conv pul),2005,regional coal,0.1203894,2005,1,1
+Canada,electricity,coal,coal (conv pul),2005,regional coal,1.0434861,2005,1,1
+Central America and Caribbean,electricity,coal,coal (conv pul),2005,regional coal,0.0228137,2005,1,1
+Central Asia,electricity,coal,coal (conv pul),2005,regional coal,0.8643671,2005,1,1
+China,electricity,coal,coal (conv pul),2005,regional coal,22.2715723,2005,1,1
+EU-12,electricity,coal,coal (conv pul),2005,regional coal,2.7792528,2005,1,1
+EU-15,electricity,coal,coal (conv pul),2005,regional coal,6.9611506,2005,1,1
+Europe_Eastern,electricity,coal,coal (conv pul),2005,regional coal,0.5821052,2005,1,1
+Europe_Non_EU,electricity,coal,coal (conv pul),2005,regional coal,0.9089062,2005,1,1
+European Free Trade Association,electricity,coal,coal (conv pul),2005,regional coal,0.0011721,2005,1,1
+India,electricity,coal,coal (conv pul),2005,regional coal,6.3670734,2005,1,1
+Indonesia,electricity,coal,coal (conv pul),2005,regional coal,0.562431,2005,1,1
+Japan,electricity,coal,coal (conv pul),2005,regional coal,2.6285568,2005,1,1
+Mexico,electricity,coal,coal (conv pul),2005,regional coal,0.3337916,2005,1,1
+Middle East,electricity,coal,coal (conv pul),2005,regional coal,0.3198941,2005,1,1
+Pakistan,electricity,coal,coal (conv pul),2005,regional coal,0.0032232,2005,1,1
+Russia,electricity,coal,coal (conv pul),2005,regional coal,2.1867245,2005,1,1
+South Africa,electricity,coal,coal (conv pul),2005,regional coal,2.2225567,2005,1,1
+South America_Northern,electricity,coal,coal (conv pul),2005,regional coal,0,2005,0,0
+South America_Southern,electricity,coal,coal (conv pul),2005,regional coal,0.0814177,2005,1,1
+South Asia,electricity,coal,coal (conv pul),2005,regional coal,0.0033899,2005,1,1
+South Korea,electricity,coal,coal (conv pul),2005,regional coal,1.3576872,2005,1,1
+Southeast Asia,electricity,coal,coal (conv pul),2005,regional coal,0.8709045,2005,1,1
+Taiwan,electricity,coal,coal (conv pul),2005,regional coal,0.9228037,2005,1,1
+Argentina,electricity,coal,coal (conv pul),2005,regional coal,0.0261625,2005,1,1
+Colombia,electricity,coal,coal (conv pul),2005,regional coal,0.0280043,2005,1,1
+USA,electricity,gas,gas (CC),2005,wholesale gas,3.805009,2005,1,1
+Africa_Eastern,electricity,gas,gas (CC),2005,wholesale gas,0.0002675,2005,1,1
+Africa_Northern,electricity,gas,gas (CC),2005,wholesale gas,0.3963754,2005,1,1
+Africa_Southern,electricity,gas,gas (CC),2005,wholesale gas,0.0016227,2005,1,1
+Africa_Western,electricity,gas,gas (CC),2005,wholesale gas,0.0439384,2005,1,1
+Australia_NZ,electricity,gas,gas (CC),2005,wholesale gas,0.1247904,2005,1,1
+Brazil,electricity,gas,gas (CC),2005,wholesale gas,0.0890239,2005,1,1
+Canada,electricity,gas,gas (CC),2005,wholesale gas,0.1170665,2005,1,1
+Central America and Caribbean,electricity,gas,gas (CC),2005,wholesale gas,0,2005,1,0
+Central Asia,electricity,gas,gas (CC),2005,wholesale gas,0,2005,1,0
+China,electricity,gas,gas (CC),2005,wholesale gas,0.099268,2005,1,1
+EU-12,electricity,gas,gas (CC),2005,wholesale gas,0,2005,1,0
+EU-15,electricity,gas,gas (CC),2005,wholesale gas,3.2924264,2005,1,1
+Europe_Eastern,electricity,gas,gas (CC),2005,wholesale gas,0,2005,1,0
+Europe_Non_EU,electricity,gas,gas (CC),2005,wholesale gas,0.4370775,2005,1,1
+European Free Trade Association,electricity,gas,gas (CC),2005,wholesale gas,0.0034903,2005,1,1
+India,electricity,gas,gas (CC),2005,wholesale gas,0.4546638,2005,1,1
+Indonesia,electricity,gas,gas (CC),2005,wholesale gas,0.0703677,2005,1,1
+Japan,electricity,gas,gas (CC),2005,wholesale gas,1.4697643,2005,1,1
+Mexico,electricity,gas,gas (CC),2005,wholesale gas,0.6251882,2005,1,1
+Middle East,electricity,gas,gas (CC),2005,wholesale gas,0,2005,1,0
+Pakistan,electricity,gas,gas (CC),2005,wholesale gas,0.1040505,2005,1,1
+Russia,electricity,gas,gas (CC),2005,wholesale gas,0,2005,1,0
+South Africa,electricity,gas,gas (CC),2005,wholesale gas,0,2005,0,0
+South America_Northern,electricity,gas,gas (CC),2005,wholesale gas,0,2005,1,0
+South America_Southern,electricity,gas,gas (CC),2005,wholesale gas,0.0910995,2005,1,1
+South Asia,electricity,gas,gas (CC),2005,wholesale gas,0.0529138,2005,1,1
+South Korea,electricity,gas,gas (CC),2005,wholesale gas,0.4056885,2005,1,1
+Southeast Asia,electricity,gas,gas (CC),2005,wholesale gas,1.1129497,2005,1,1
+Taiwan,electricity,gas,gas (CC),2005,wholesale gas,0.2292496,2005,1,1
+Argentina,electricity,gas,gas (CC),2005,wholesale gas,0.2871657,2005,1,1
+Colombia,electricity,gas,gas (CC),2005,wholesale gas,0.0289477,2005,1,1
+USA,electricity,gas,gas (steam/CT),2005,wholesale gas,2.0210239,2005,1,1
+Africa_Eastern,electricity,gas,gas (steam/CT),2005,wholesale gas,0.0001556,2005,1,1
+Africa_Northern,electricity,gas,gas (steam/CT),2005,wholesale gas,0.8613945,2005,1,1
+Africa_Southern,electricity,gas,gas (steam/CT),2005,wholesale gas,0.0102725,2005,1,1
+Africa_Western,electricity,gas,gas (steam/CT),2005,wholesale gas,0.1288872,2005,1,1
+Australia_NZ,electricity,gas,gas (steam/CT),2005,wholesale gas,0.1695272,2005,1,1
+Brazil,electricity,gas,gas (steam/CT),2005,wholesale gas,0.0703371,2005,1,1
+Canada,electricity,gas,gas (steam/CT),2005,wholesale gas,0.2053392,2005,1,1
+Central America and Caribbean,electricity,gas,gas (steam/CT),2005,wholesale gas,0.1293552,2005,1,1
+Central Asia,electricity,gas,gas (steam/CT),2005,wholesale gas,0.9635753,2005,1,1
+China,electricity,gas,gas (steam/CT),2005,wholesale gas,0.1027577,2005,1,1
+EU-12,electricity,gas,gas (steam/CT),2005,wholesale gas,0.4396137,2005,1,1
+EU-15,electricity,gas,gas (steam/CT),2005,wholesale gas,0.8463044,2005,1,1
+Europe_Eastern,electricity,gas,gas (steam/CT),2005,wholesale gas,0.782196,2005,1,1
+Europe_Non_EU,electricity,gas,gas (steam/CT),2005,wholesale gas,0.0748284,2005,1,1
+European Free Trade Association,electricity,gas,gas (steam/CT),2005,wholesale gas,0.000319,2005,1,1
+India,electricity,gas,gas (steam/CT),2005,wholesale gas,0.0742792,2005,1,1
+Indonesia,electricity,gas,gas (steam/CT),2005,wholesale gas,0.1015932,2005,1,1
+Japan,electricity,gas,gas (steam/CT),2005,wholesale gas,0.3807826,2005,1,1
+Mexico,electricity,gas,gas (steam/CT),2005,wholesale gas,0.0907015,2005,1,1
+Middle East,electricity,gas,gas (steam/CT),2005,wholesale gas,4.1462749,2005,1,1
+Pakistan,electricity,gas,gas (steam/CT),2005,wholesale gas,0.2927404,2005,1,1
+Russia,electricity,gas,gas (steam/CT),2005,wholesale gas,5.3764147,2005,1,1
+South Africa,electricity,gas,gas (steam/CT),2005,wholesale gas,0,2005,0,0
+South America_Northern,electricity,gas,gas (steam/CT),2005,wholesale gas,0.1815902,2005,1,1
+South America_Southern,electricity,gas,gas (steam/CT),2005,wholesale gas,0.1063122,2005,1,1
+South Asia,electricity,gas,gas (steam/CT),2005,wholesale gas,0.1812787,2005,1,1
+South Korea,electricity,gas,gas (steam/CT),2005,wholesale gas,0.0309531,2005,1,1
+Southeast Asia,electricity,gas,gas (steam/CT),2005,wholesale gas,0.7625092,2005,1,1
+Taiwan,electricity,gas,gas (steam/CT),2005,wholesale gas,0.0472775,2005,1,1
+Argentina,electricity,gas,gas (steam/CT),2005,wholesale gas,0.1685222,2005,1,1
+Colombia,electricity,gas,gas (steam/CT),2005,wholesale gas,0.0368562,2005,1,1
+USA,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,1.214233,2005,1,1
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.0794456,2005,1,1
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.4206977,2005,1,1
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.0245441,2005,1,1
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.1013381,2005,1,1
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.0321903,2005,1,1
+Brazil,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.1205987,2005,1,1
+Canada,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.1365055,2005,1,1
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.488388,2005,1,1
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.1588587,2005,1,1
+China,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.6477539,2005,1,1
+EU-12,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.133659,2005,1,1
+EU-15,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,1.0274236,2005,1,1
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.0195486,2005,1,1
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.0713713,2005,1,1
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.0006279,2005,1,1
+India,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.3358846,2005,1,1
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.391098,2005,1,1
+Japan,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,1.1399315,2005,1,1
+Mexico,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.6723553,2005,1,1
+Middle East,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,2.3007512,2005,1,1
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.1724632,2005,1,1
+Russia,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.2334114,2005,1,1
+South Africa,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0,2005,0,0
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.2037134,2005,1,1
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.1335753,2005,1,1
+South Asia,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.1291399,2005,1,1
+South Korea,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.2106814,2005,1,1
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.339545,2005,1,1
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.1018872,2005,1,1
+Argentina,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.0612412,2005,1,1
+Colombia,electricity,refined liquids,refined liquids (steam/CT),2005,refined liquids industrial,0.0013395,2005,1,1
+USA,electricity,biomass,biomass (conv),2010,regional biomass,0.5138315,2010,1,1
+Africa_Eastern,electricity,biomass,biomass (conv),2010,regional biomass,0.0038093,2010,1,1
+Africa_Northern,electricity,biomass,biomass (conv),2010,regional biomass,0,2010,0,0
+Africa_Southern,electricity,biomass,biomass (conv),2010,regional biomass,0,2010,0,0
+Africa_Western,electricity,biomass,biomass (conv),2010,regional biomass,0.0051488,2010,1,1
+Australia_NZ,electricity,biomass,biomass (conv),2010,regional biomass,0.0094185,2010,1,1
+Brazil,electricity,biomass,biomass (conv),2010,regional biomass,0.2427461,2010,1,1
+Canada,electricity,biomass,biomass (conv),2010,regional biomass,0.0752643,2010,1,1
+Central America and Caribbean,electricity,biomass,biomass (conv),2010,regional biomass,0.0968785,2010,1,1
+Central Asia,electricity,biomass,biomass (conv),2010,regional biomass,0,2010,0,0
+China,electricity,biomass,biomass (conv),2010,regional biomass,0.1641749,2010,1,1
+EU-12,electricity,biomass,biomass (conv),2010,regional biomass,0.1181708,2010,1,1
+EU-15,electricity,biomass,biomass (conv),2010,regional biomass,1.0683915,2010,1,1
+Europe_Eastern,electricity,biomass,biomass (conv),2010,regional biomass,0.0026372,2010,1,1
+Europe_Non_EU,electricity,biomass,biomass (conv),2010,regional biomass,0.0017581,2010,1,1
+European Free Trade Association,electricity,biomass,biomass (conv),2010,regional biomass,0.0119301,2010,1,1
+India,electricity,biomass,biomass (conv),2010,regional biomass,0.0493948,2010,1,1
+Indonesia,electricity,biomass,biomass (conv),2010,regional biomass,0.0017163,2010,1,1
+Japan,electricity,biomass,biomass (conv),2010,regional biomass,0.1784073,2010,1,1
+Mexico,electricity,biomass,biomass (conv),2010,regional biomass,0.0455437,2010,1,1
+Middle East,electricity,biomass,biomass (conv),2010,regional biomass,0.0002512,2010,1,1
+Pakistan,electricity,biomass,biomass (conv),2010,regional biomass,0,2010,0,0
+Russia,electricity,biomass,biomass (conv),2010,regional biomass,0,2010,0,0
+South Africa,electricity,biomass,biomass (conv),2010,regional biomass,0.0040604,2010,1,1
+South America_Northern,electricity,biomass,biomass (conv),2010,regional biomass,0.0009496,2010,1,1
+South America_Southern,electricity,biomass,biomass (conv),2010,regional biomass,0.0234416,2010,1,1
+South Asia,electricity,biomass,biomass (conv),2010,regional biomass,0,2010,0,0
+South Korea,electricity,biomass,biomass (conv),2010,regional biomass,0.0036837,2010,1,1
+Southeast Asia,electricity,biomass,biomass (conv),2010,regional biomass,0.1302265,2010,1,1
+Taiwan,electricity,biomass,biomass (conv),2010,regional biomass,0.0525762,2010,1,1
+Argentina,electricity,biomass,biomass (conv),2010,regional biomass,0.0305578,2010,1,1
+Colombia,electricity,biomass,biomass (conv),2010,regional biomass,0.0056092,2010,1,1
+USA,electricity,coal,coal (conv pul),2010,regional coal,19.2354235,2010,1,1
+Africa_Eastern,electricity,coal,coal (conv pul),2010,regional coal,0.0097804,2010,1,1
+Africa_Northern,electricity,coal,coal (conv pul),2010,regional coal,0.1158449,2010,1,1
+Africa_Southern,electricity,coal,coal (conv pul),2010,regional coal,0.0763302,2010,1,1
+Africa_Western,electricity,coal,coal (conv pul),2010,regional coal,0.0103068,2010,1,1
+Australia_NZ,electricity,coal,coal (conv pul),2010,regional coal,1.8979743,2010,1,1
+Brazil,electricity,coal,coal (conv pul),2010,regional coal,0.1337846,2010,1,1
+Canada,electricity,coal,coal (conv pul),2010,regional coal,0.85633,2010,1,1
+Central America and Caribbean,electricity,coal,coal (conv pul),2010,regional coal,0.0319392,2010,1,1
+Central Asia,electricity,coal,coal (conv pul),2010,regional coal,0.8786833,2010,1,1
+China,electricity,coal,coal (conv pul),2010,regional coal,33.4918893,2010,1,1
+EU-12,electricity,coal,coal (conv pul),2010,regional coal,2.7581973,2010,1,1
+EU-15,electricity,coal,coal (conv pul),2010,regional coal,5.7056854,2010,1,1
+Europe_Eastern,electricity,coal,coal (conv pul),2010,regional coal,0.7252664,2010,1,1
+Europe_Non_EU,electricity,coal,coal (conv pul),2010,regional coal,1.1206341,2010,1,1
+European Free Trade Association,electricity,coal,coal (conv pul),2010,regional coal,0.0015488,2010,1,1
+India,electricity,coal,coal (conv pul),2010,regional coal,8.4333668,2010,1,1
+Indonesia,electricity,coal,coal (conv pul),2010,regional coal,0.7841215,2010,1,1
+Japan,electricity,coal,coal (conv pul),2010,regional coal,2.580083,2010,1,1
+Mexico,electricity,coal,coal (conv pul),2010,regional coal,0.3220708,2010,1,1
+Middle East,electricity,coal,coal (conv pul),2010,regional coal,0.3154988,2010,1,1
+Pakistan,electricity,coal,coal (conv pul),2010,regional coal,0.0022604,2010,1,1
+Russia,electricity,coal,coal (conv pul),2010,regional coal,1.7169716,2010,1,1
+South Africa,electricity,coal,coal (conv pul),2010,regional coal,2.5628785,2010,1,1
+South America_Northern,electricity,coal,coal (conv pul),2010,regional coal,0,2010,0,0
+South America_Southern,electricity,coal,coal (conv pul),2010,regional coal,0.1730074,2010,1,1
+South Asia,electricity,coal,coal (conv pul),2010,regional coal,0.0114463,2010,1,1
+South Korea,electricity,coal,coal (conv pul),2010,regional coal,1.9724432,2010,1,1
+Southeast Asia,electricity,coal,coal (conv pul),2010,regional coal,1.376896,2010,1,1
+Taiwan,electricity,coal,coal (conv pul),2010,regional coal,0.9415151,2010,1,1
+Argentina,electricity,coal,coal (conv pul),2010,regional coal,0.0335717,2010,1,1
+Colombia,electricity,coal,coal (conv pul),2010,regional coal,0.0437018,2010,1,1
+USA,electricity,gas,gas (CC),2010,wholesale gas,3.1977568,2010,1,1
+Africa_Eastern,electricity,gas,gas (CC),2010,wholesale gas,0.0001568,2010,1,1
+Africa_Northern,electricity,gas,gas (CC),2010,wholesale gas,0.1445713,2010,1,1
+Africa_Southern,electricity,gas,gas (CC),2010,wholesale gas,0,2010,1,0
+Africa_Western,electricity,gas,gas (CC),2010,wholesale gas,0.0014159,2010,1,1
+Australia_NZ,electricity,gas,gas (CC),2010,wholesale gas,0.0314682,2010,1,1
+Brazil,electricity,gas,gas (CC),2010,wholesale gas,0.1348904,2010,1,1
+Canada,electricity,gas,gas (CC),2010,wholesale gas,0.0289787,2010,1,1
+Central America and Caribbean,electricity,gas,gas (CC),2010,wholesale gas,0,2010,1,0
+Central Asia,electricity,gas,gas (CC),2010,wholesale gas,0,2010,1,0
+China,electricity,gas,gas (CC),2010,wholesale gas,0.0787951,2010,1,1
+EU-12,electricity,gas,gas (CC),2010,wholesale gas,0,2010,1,0
+EU-15,electricity,gas,gas (CC),2010,wholesale gas,1.9503201,2010,1,1
+Europe_Eastern,electricity,gas,gas (CC),2010,wholesale gas,0,2010,1,0
+Europe_Non_EU,electricity,gas,gas (CC),2010,wholesale gas,0.4298148,2010,1,1
+European Free Trade Association,electricity,gas,gas (CC),2010,wholesale gas,0.031408,2010,1,1
+India,electricity,gas,gas (CC),2010,wholesale gas,0.0671003,2010,1,1
+Indonesia,electricity,gas,gas (CC),2010,wholesale gas,0.0394943,2010,1,1
+Japan,electricity,gas,gas (CC),2010,wholesale gas,1.2309432,2010,1,1
+Mexico,electricity,gas,gas (CC),2010,wholesale gas,0.5427208,2010,1,1
+Middle East,electricity,gas,gas (CC),2010,wholesale gas,0,2010,1,0
+Pakistan,electricity,gas,gas (CC),2010,wholesale gas,0,2010,1,0
+Russia,electricity,gas,gas (CC),2010,wholesale gas,0,2010,1,0
+South Africa,electricity,gas,gas (CC),2010,wholesale gas,0,2010,0,0
+South America_Northern,electricity,gas,gas (CC),2010,wholesale gas,0,2010,1,0
+South America_Southern,electricity,gas,gas (CC),2010,wholesale gas,0.0200182,2010,1,1
+South Asia,electricity,gas,gas (CC),2010,wholesale gas,0,2010,1,0
+South Korea,electricity,gas,gas (CC),2010,wholesale gas,0.4433641,2010,1,1
+Southeast Asia,electricity,gas,gas (CC),2010,wholesale gas,0.7931107,2010,1,1
+Taiwan,electricity,gas,gas (CC),2010,wholesale gas,0.2153014,2010,1,1
+Argentina,electricity,gas,gas (CC),2010,wholesale gas,0.1065845,2010,1,1
+Colombia,electricity,gas,gas (CC),2010,wholesale gas,0.0271864,2010,1,1
+USA,electricity,gas,gas (steam/CT),2010,wholesale gas,4.0950086,2010,1,1
+Africa_Eastern,electricity,gas,gas (steam/CT),2010,wholesale gas,0.0003405,2010,1,1
+Africa_Northern,electricity,gas,gas (steam/CT),2010,wholesale gas,1.4678371,2010,1,1
+Africa_Southern,electricity,gas,gas (steam/CT),2010,wholesale gas,0.0229608,2010,1,1
+Africa_Western,electricity,gas,gas (steam/CT),2010,wholesale gas,0.2099151,2010,1,1
+Australia_NZ,electricity,gas,gas (steam/CT),2010,wholesale gas,0.3821505,2010,1,1
+Brazil,electricity,gas,gas (steam/CT),2010,wholesale gas,0.1423065,2010,1,1
+Canada,electricity,gas,gas (steam/CT),2010,wholesale gas,0.4599043,2010,1,1
+Central America and Caribbean,electricity,gas,gas (steam/CT),2010,wholesale gas,0.1695261,2010,1,1
+Central Asia,electricity,gas,gas (steam/CT),2010,wholesale gas,1.0410163,2010,1,1
+China,electricity,gas,gas (steam/CT),2010,wholesale gas,0.6769076,2010,1,1
+EU-12,electricity,gas,gas (steam/CT),2010,wholesale gas,0.3912654,2010,1,1
+EU-15,electricity,gas,gas (steam/CT),2010,wholesale gas,3.0725486,2010,1,1
+Europe_Eastern,electricity,gas,gas (steam/CT),2010,wholesale gas,0.6369836,2010,1,1
+Europe_Non_EU,electricity,gas,gas (steam/CT),2010,wholesale gas,0.2777029,2010,1,1
+European Free Trade Association,electricity,gas,gas (steam/CT),2010,wholesale gas,2.89e-05,2010,1,1
+India,electricity,gas,gas (steam/CT),2010,wholesale gas,1.0231434,2010,1,1
+Indonesia,electricity,gas,gas (steam/CT),2010,wholesale gas,0.3222599,2010,1,1
+Japan,electricity,gas,gas (steam/CT),2010,wholesale gas,1.0277805,2010,1,1
+Mexico,electricity,gas,gas (steam/CT),2010,wholesale gas,0.5183465,2010,1,1
+Middle East,electricity,gas,gas (steam/CT),2010,wholesale gas,5.3368151,2010,1,1
+Pakistan,electricity,gas,gas (steam/CT),2010,wholesale gas,0.2582343,2010,1,1
+Russia,electricity,gas,gas (steam/CT),2010,wholesale gas,5.9495618,2010,1,1
+South Africa,electricity,gas,gas (steam/CT),2010,wholesale gas,0,2010,0,0
+South America_Northern,electricity,gas,gas (steam/CT),2010,wholesale gas,0.2667771,2010,1,1
+South America_Southern,electricity,gas,gas (steam/CT),2010,wholesale gas,0.2521137,2010,1,1
+South Asia,electricity,gas,gas (steam/CT),2010,wholesale gas,0.3995655,2010,1,1
+South Korea,electricity,gas,gas (steam/CT),2010,wholesale gas,0.2921998,2010,1,1
+Southeast Asia,electricity,gas,gas (steam/CT),2010,wholesale gas,1.6028146,2010,1,1
+Taiwan,electricity,gas,gas (steam/CT),2010,wholesale gas,0.2139729,2010,1,1
+Argentina,electricity,gas,gas (steam/CT),2010,wholesale gas,0.433242,2010,1,1
+Colombia,electricity,gas,gas (steam/CT),2010,wholesale gas,0.0692591,2010,1,1
+USA,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.3834376,2010,1,1
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.1014961,2010,1,1
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.551847,2010,1,1
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.0397898,2010,1,1
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.1406412,2010,1,1
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.0357484,2010,1,1
+Brazil,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.1568076,2010,1,1
+Canada,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.0765201,2010,1,1
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.5424692,2010,1,1
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.0216416,2010,1,1
+China,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.1385266,2010,1,1
+EU-12,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.1236544,2010,1,1
+EU-15,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.5850769,2010,1,1
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.0153208,2010,1,1
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.0272927,2010,1,1
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.0003767,2010,1,1
+India,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.4710506,2010,1,1
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.3553077,2010,1,1
+Japan,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.7546939,2010,1,1
+Mexico,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.4216139,2010,1,1
+Middle East,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,3.6049413,2010,1,1
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.3328289,2010,1,1
+Russia,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.094185,2010,1,1
+South Africa,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.0020093,2010,1,1
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.2705779,2010,1,1
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.1875328,2010,1,1
+South Asia,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.1339874,2010,1,1
+South Korea,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.1364636,2010,1,1
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.2922963,2010,1,1
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.0787805,2010,1,1
+Argentina,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.1618308,2010,1,1
+Colombia,electricity,refined liquids,refined liquids (steam/CT),2010,refined liquids industrial,0.0060278,2010,1,1

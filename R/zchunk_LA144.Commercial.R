@@ -50,7 +50,7 @@ module_gcam.usa_LA144.Commercial <- function(command, ...) {
       distinct()
     # Because there was a mistake in previous states_subregions file, there are some values that will require
     # a data frame identical to the mistaken one
-    if (OLD_DATA_SYSTEM_BEHAVIOR){
+    if(OLD_DATA_SYSTEM_BEHAVIOR) {
       states_subregions_region4calc <- states_subregions %>%
         mutate(subregion4 = if_else(state == "WV", "Midwest", subregion4))
     } else {
@@ -58,12 +58,10 @@ module_gcam.usa_LA144.Commercial <- function(command, ...) {
     }
 
     Census_pop_hist <- get_data(all_data, "gcam-usa/Census_pop_hist") %>%
-      gather(year, value, matches(YEAR_PATTERN)) %>%
-      mutate(year = as.integer(year))
+      gather_years
     CBECS_variables <- get_data(all_data, "gcam-usa/CBECS_variables")
     EIA_AEO_Tab5 <- get_data(all_data, "gcam-usa/EIA_AEO_Tab5") %>%
-      gather(year, value, matches(YEAR_PATTERN)) %>%
-      mutate(year = as.integer(year))
+      gather_years
     EIA_distheat <- get_data(all_data, "gcam-usa/EIA_distheat")
     PNNL_Commext_elec <- get_data(all_data, "gcam-usa/PNNL_Commext_elec")
     CBECS_1979_1983 <- get_data(all_data, "gcam-usa/CBECS_1979_1983")
@@ -106,7 +104,7 @@ module_gcam.usa_LA144.Commercial <- function(command, ...) {
       select(subregion4, REGION) %>%
       distinct()
 
-    L144.CBECS_all <- lapply(L144.CBECS_all, function(df){
+    L144.CBECS_all <- lapply(L144.CBECS_all, function(df) {
         left_join_error_no_match(df, states_subregions_sub9,
                                  by = c("REGION", "CENDIV" = "DIVISION"))
     })
@@ -145,7 +143,7 @@ module_gcam.usa_LA144.Commercial <- function(command, ...) {
       mutate(pcflsp_m2 = if_else(year == 1979, SQFT1 / value * CONV_MILFT2_M2, SQFT2 / value * CONV_MILFT2_M2))
 
     # Add in a year column to CBECS data so that we can bind rows later
-    for (i in seq_along(L144.CBECS_all)){
+    for (i in seq_along(L144.CBECS_all)) {
       df <- L144.CBECS_all[[i]]
       data_year <- substr(names(L144.CBECS_all[i]), 6, 9)
       df$year <- as.integer(data_year)
@@ -155,7 +153,7 @@ module_gcam.usa_LA144.Commercial <- function(command, ...) {
     # Aggregate CBECS floorspace data by year and subregion
     L144.flsp_bm2_sR4 <- L144.CBECS_all %>%
       # For each tibble, select sqft, weights for summing, year, and subregions
-      lapply(function(df){
+      lapply(function(df) {
         df %>%
           select(SQFT, ADJWT, subregion4, subregion9, year)
       }) %>%
@@ -258,10 +256,10 @@ module_gcam.usa_LA144.Commercial <- function(command, ...) {
     # 2c: ENERGY CONSUMPTION BY STATE, SERVICE, AND YEAR
     # Aggregating energy consumption by sampling weights
     L144.in_EJ_sR9_comm <- L144.CBECS_all %>%
-      lapply(function(df){
+      lapply(function(df) {
         # We are only keeping certain energy-related columns
         cols_to_keep <- which(names(df) %in% CBECS_variables$variable)
-        if (length(cols_to_keep) > 0) {
+        if(length(cols_to_keep) > 0) {
           df %>%
             select(cols_to_keep, ADJWT, subregion9, year) %>%
             # All cols_to_keep have BTU in name

@@ -1,0 +1,2249 @@
+INPUT_TABLE
+Variable ID
+StubTechCoef
+
+region,supplysector,subsector,stub.technology,year,minicam.energy.input,coefficient,market.name
+AK,industry,industry,industry,1975,industrial energy use,0.895583,AK
+AL,industry,industry,industry,1975,industrial energy use,0.9147,AL
+AR,industry,industry,industry,1975,industrial energy use,0.8376704,AR
+AZ,industry,industry,industry,1975,industrial energy use,0.7045994,AZ
+CA,industry,industry,industry,1975,industrial energy use,0.7988245,CA
+CO,industry,industry,industry,1975,industrial energy use,0.7859179,CO
+CT,industry,industry,industry,1975,industrial energy use,0.8133912,CT
+DC,industry,industry,industry,1975,industrial energy use,0.9834656,DC
+DE,industry,industry,industry,1975,industrial energy use,0.741259,DE
+FL,industry,industry,industry,1975,industrial energy use,0.7869122,FL
+GA,industry,industry,industry,1975,industrial energy use,0.8116492,GA
+HI,industry,industry,industry,1975,industrial energy use,0.740035,HI
+IA,industry,industry,industry,1975,industrial energy use,0.8440921,IA
+ID,industry,industry,industry,1975,industrial energy use,0.8500375,ID
+IL,industry,industry,industry,1975,industrial energy use,0.7957755,IL
+IN,industry,industry,industry,1975,industrial energy use,0.8720864,IN
+KS,industry,industry,industry,1975,industrial energy use,0.8048296,KS
+KY,industry,industry,industry,1975,industrial energy use,0.8649934,KY
+LA,industry,industry,industry,1975,industrial energy use,0.7022188,LA
+MA,industry,industry,industry,1975,industrial energy use,0.8452838,MA
+MD,industry,industry,industry,1975,industrial energy use,0.797261,MD
+ME,industry,industry,industry,1975,industrial energy use,0.8429913,ME
+MI,industry,industry,industry,1975,industrial energy use,0.906406,MI
+MN,industry,industry,industry,1975,industrial energy use,0.7440064,MN
+MO,industry,industry,industry,1975,industrial energy use,0.7016957,MO
+MS,industry,industry,industry,1975,industrial energy use,0.7635391,MS
+MT,industry,industry,industry,1975,industrial energy use,0.8019585,MT
+NC,industry,industry,industry,1975,industrial energy use,0.8411492,NC
+ND,industry,industry,industry,1975,industrial energy use,0.6580178,ND
+NE,industry,industry,industry,1975,industrial energy use,0.8934333,NE
+NH,industry,industry,industry,1975,industrial energy use,0.7989156,NH
+NJ,industry,industry,industry,1975,industrial energy use,0.7120796,NJ
+NM,industry,industry,industry,1975,industrial energy use,0.8001266,NM
+NV,industry,industry,industry,1975,industrial energy use,0.6131184,NV
+NY,industry,industry,industry,1975,industrial energy use,0.8439248,NY
+OH,industry,industry,industry,1975,industrial energy use,0.8733925,OH
+OK,industry,industry,industry,1975,industrial energy use,0.6896062,OK
+OR,industry,industry,industry,1975,industrial energy use,0.7659783,OR
+PA,industry,industry,industry,1975,industrial energy use,0.9134742,PA
+RI,industry,industry,industry,1975,industrial energy use,0.5073838,RI
+SC,industry,industry,industry,1975,industrial energy use,0.8226268,SC
+SD,industry,industry,industry,1975,industrial energy use,0.6192504,SD
+TN,industry,industry,industry,1975,industrial energy use,0.849024,TN
+TX,industry,industry,industry,1975,industrial energy use,0.7006084,TX
+UT,industry,industry,industry,1975,industrial energy use,0.850224,UT
+VA,industry,industry,industry,1975,industrial energy use,0.8348213,VA
+VT,industry,industry,industry,1975,industrial energy use,0.9649487,VT
+WA,industry,industry,industry,1975,industrial energy use,0.845321,WA
+WI,industry,industry,industry,1975,industrial energy use,0.8533006,WI
+WV,industry,industry,industry,1975,industrial energy use,0.9490433,WV
+WY,industry,industry,industry,1975,industrial energy use,0.8671102,WY
+AK,industry,industry,industry,1975,industrial feedstocks,0.104417,AK
+AL,industry,industry,industry,1975,industrial feedstocks,0.0853,AL
+AR,industry,industry,industry,1975,industrial feedstocks,0.1623296,AR
+AZ,industry,industry,industry,1975,industrial feedstocks,0.2954006,AZ
+CA,industry,industry,industry,1975,industrial feedstocks,0.2011755,CA
+CO,industry,industry,industry,1975,industrial feedstocks,0.2140821,CO
+CT,industry,industry,industry,1975,industrial feedstocks,0.1866088,CT
+DC,industry,industry,industry,1975,industrial feedstocks,0.0165344,DC
+DE,industry,industry,industry,1975,industrial feedstocks,0.258741,DE
+FL,industry,industry,industry,1975,industrial feedstocks,0.2130878,FL
+GA,industry,industry,industry,1975,industrial feedstocks,0.1883508,GA
+HI,industry,industry,industry,1975,industrial feedstocks,0.259965,HI
+IA,industry,industry,industry,1975,industrial feedstocks,0.1559079,IA
+ID,industry,industry,industry,1975,industrial feedstocks,0.1499625,ID
+IL,industry,industry,industry,1975,industrial feedstocks,0.2042245,IL
+IN,industry,industry,industry,1975,industrial feedstocks,0.1279136,IN
+KS,industry,industry,industry,1975,industrial feedstocks,0.1951704,KS
+KY,industry,industry,industry,1975,industrial feedstocks,0.1350066,KY
+LA,industry,industry,industry,1975,industrial feedstocks,0.2977812,LA
+MA,industry,industry,industry,1975,industrial feedstocks,0.1547162,MA
+MD,industry,industry,industry,1975,industrial feedstocks,0.202739,MD
+ME,industry,industry,industry,1975,industrial feedstocks,0.1570087,ME
+MI,industry,industry,industry,1975,industrial feedstocks,0.093594,MI
+MN,industry,industry,industry,1975,industrial feedstocks,0.2559936,MN
+MO,industry,industry,industry,1975,industrial feedstocks,0.2983043,MO
+MS,industry,industry,industry,1975,industrial feedstocks,0.2364609,MS
+MT,industry,industry,industry,1975,industrial feedstocks,0.1980415,MT
+NC,industry,industry,industry,1975,industrial feedstocks,0.1588508,NC
+ND,industry,industry,industry,1975,industrial feedstocks,0.3419822,ND
+NE,industry,industry,industry,1975,industrial feedstocks,0.1065667,NE
+NH,industry,industry,industry,1975,industrial feedstocks,0.2010844,NH
+NJ,industry,industry,industry,1975,industrial feedstocks,0.2879204,NJ
+NM,industry,industry,industry,1975,industrial feedstocks,0.1998734,NM
+NV,industry,industry,industry,1975,industrial feedstocks,0.3868816,NV
+NY,industry,industry,industry,1975,industrial feedstocks,0.1560752,NY
+OH,industry,industry,industry,1975,industrial feedstocks,0.1266075,OH
+OK,industry,industry,industry,1975,industrial feedstocks,0.3103938,OK
+OR,industry,industry,industry,1975,industrial feedstocks,0.2340217,OR
+PA,industry,industry,industry,1975,industrial feedstocks,0.0865258,PA
+RI,industry,industry,industry,1975,industrial feedstocks,0.4926162,RI
+SC,industry,industry,industry,1975,industrial feedstocks,0.1773732,SC
+SD,industry,industry,industry,1975,industrial feedstocks,0.3807496,SD
+TN,industry,industry,industry,1975,industrial feedstocks,0.150976,TN
+TX,industry,industry,industry,1975,industrial feedstocks,0.2993916,TX
+UT,industry,industry,industry,1975,industrial feedstocks,0.149776,UT
+VA,industry,industry,industry,1975,industrial feedstocks,0.1651787,VA
+VT,industry,industry,industry,1975,industrial feedstocks,0.0350513,VT
+WA,industry,industry,industry,1975,industrial feedstocks,0.154679,WA
+WI,industry,industry,industry,1975,industrial feedstocks,0.1466994,WI
+WV,industry,industry,industry,1975,industrial feedstocks,0.0509567,WV
+WY,industry,industry,industry,1975,industrial feedstocks,0.1328898,WY
+AK,industry,industry,industry,1990,industrial energy use,0.9796649,AK
+AL,industry,industry,industry,1990,industrial energy use,0.8723703,AL
+AR,industry,industry,industry,1990,industrial energy use,0.9650826,AR
+AZ,industry,industry,industry,1990,industrial energy use,0.6979492,AZ
+CA,industry,industry,industry,1990,industrial energy use,0.7867544,CA
+CO,industry,industry,industry,1990,industrial energy use,0.6784762,CO
+CT,industry,industry,industry,1990,industrial energy use,0.7155599,CT
+DC,industry,industry,industry,1990,industrial energy use,0.964324,DC
+DE,industry,industry,industry,1990,industrial energy use,0.8307969,DE
+FL,industry,industry,industry,1990,industrial energy use,0.733465,FL
+GA,industry,industry,industry,1990,industrial energy use,0.8229747,GA
+HI,industry,industry,industry,1990,industrial energy use,0.8634301,HI
+IA,industry,industry,industry,1990,industrial energy use,0.9044733,IA
+ID,industry,industry,industry,1990,industrial energy use,0.8074026,ID
+IL,industry,industry,industry,1990,industrial energy use,0.8187101,IL
+IN,industry,industry,industry,1990,industrial energy use,0.8383691,IN
+KS,industry,industry,industry,1990,industrial energy use,0.7763559,KS
+KY,industry,industry,industry,1990,industrial energy use,0.8702792,KY
+LA,industry,industry,industry,1990,industrial energy use,0.574938,LA
+MA,industry,industry,industry,1990,industrial energy use,0.844849,MA
+MD,industry,industry,industry,1990,industrial energy use,0.7329921,MD
+ME,industry,industry,industry,1990,industrial energy use,0.9155038,ME
+MI,industry,industry,industry,1990,industrial energy use,0.9016743,MI
+MN,industry,industry,industry,1990,industrial energy use,0.7122373,MN
+MO,industry,industry,industry,1990,industrial energy use,0.6991113,MO
+MS,industry,industry,industry,1990,industrial energy use,0.8464412,MS
+MT,industry,industry,industry,1990,industrial energy use,0.7249445,MT
+NC,industry,industry,industry,1990,industrial energy use,0.8526873,NC
+ND,industry,industry,industry,1990,industrial energy use,0.8936664,ND
+NE,industry,industry,industry,1990,industrial energy use,0.7655245,NE
+NH,industry,industry,industry,1990,industrial energy use,0.6071777,NH
+NJ,industry,industry,industry,1990,industrial energy use,0.7764194,NJ
+NM,industry,industry,industry,1990,industrial energy use,0.8299667,NM
+NV,industry,industry,industry,1990,industrial energy use,0.7421381,NV
+NY,industry,industry,industry,1990,industrial energy use,0.8076927,NY
+OH,industry,industry,industry,1990,industrial energy use,0.840748,OH
+OK,industry,industry,industry,1990,industrial energy use,0.8583261,OK
+OR,industry,industry,industry,1990,industrial energy use,0.7692856,OR
+PA,industry,industry,industry,1990,industrial energy use,0.8714195,PA
+RI,industry,industry,industry,1990,industrial energy use,0.3372462,RI
+SC,industry,industry,industry,1990,industrial energy use,0.9065771,SC
+SD,industry,industry,industry,1990,industrial energy use,0.7094821,SD
+TN,industry,industry,industry,1990,industrial energy use,0.804368,TN
+TX,industry,industry,industry,1990,industrial energy use,0.5784937,TX
+UT,industry,industry,industry,1990,industrial energy use,0.844695,UT
+VA,industry,industry,industry,1990,industrial energy use,0.8113402,VA
+VT,industry,industry,industry,1990,industrial energy use,0.9671995,VT
+WA,industry,industry,industry,1990,industrial energy use,0.8970131,WA
+WI,industry,industry,industry,1990,industrial energy use,0.8364743,WI
+WV,industry,industry,industry,1990,industrial energy use,0.9534419,WV
+WY,industry,industry,industry,1990,industrial energy use,0.8992636,WY
+AK,industry,industry,industry,1990,industrial feedstocks,0.0203351,AK
+AL,industry,industry,industry,1990,industrial feedstocks,0.1276297,AL
+AR,industry,industry,industry,1990,industrial feedstocks,0.0349174,AR
+AZ,industry,industry,industry,1990,industrial feedstocks,0.3020508,AZ
+CA,industry,industry,industry,1990,industrial feedstocks,0.2132456,CA
+CO,industry,industry,industry,1990,industrial feedstocks,0.3215238,CO
+CT,industry,industry,industry,1990,industrial feedstocks,0.2844401,CT
+DC,industry,industry,industry,1990,industrial feedstocks,0.035676,DC
+DE,industry,industry,industry,1990,industrial feedstocks,0.1692031,DE
+FL,industry,industry,industry,1990,industrial feedstocks,0.266535,FL
+GA,industry,industry,industry,1990,industrial feedstocks,0.1770253,GA
+HI,industry,industry,industry,1990,industrial feedstocks,0.1365699,HI
+IA,industry,industry,industry,1990,industrial feedstocks,0.0955267,IA
+ID,industry,industry,industry,1990,industrial feedstocks,0.1925974,ID
+IL,industry,industry,industry,1990,industrial feedstocks,0.1812899,IL
+IN,industry,industry,industry,1990,industrial feedstocks,0.1616309,IN
+KS,industry,industry,industry,1990,industrial feedstocks,0.2236441,KS
+KY,industry,industry,industry,1990,industrial feedstocks,0.1297208,KY
+LA,industry,industry,industry,1990,industrial feedstocks,0.425062,LA
+MA,industry,industry,industry,1990,industrial feedstocks,0.155151,MA
+MD,industry,industry,industry,1990,industrial feedstocks,0.2670079,MD
+ME,industry,industry,industry,1990,industrial feedstocks,0.0844962,ME
+MI,industry,industry,industry,1990,industrial feedstocks,0.0983257,MI
+MN,industry,industry,industry,1990,industrial feedstocks,0.2877627,MN
+MO,industry,industry,industry,1990,industrial feedstocks,0.3008887,MO
+MS,industry,industry,industry,1990,industrial feedstocks,0.1535588,MS
+MT,industry,industry,industry,1990,industrial feedstocks,0.2750555,MT
+NC,industry,industry,industry,1990,industrial feedstocks,0.1473127,NC
+ND,industry,industry,industry,1990,industrial feedstocks,0.1063336,ND
+NE,industry,industry,industry,1990,industrial feedstocks,0.2344755,NE
+NH,industry,industry,industry,1990,industrial feedstocks,0.3928223,NH
+NJ,industry,industry,industry,1990,industrial feedstocks,0.2235806,NJ
+NM,industry,industry,industry,1990,industrial feedstocks,0.1700333,NM
+NV,industry,industry,industry,1990,industrial feedstocks,0.2578619,NV
+NY,industry,industry,industry,1990,industrial feedstocks,0.1923073,NY
+OH,industry,industry,industry,1990,industrial feedstocks,0.159252,OH
+OK,industry,industry,industry,1990,industrial feedstocks,0.1416739,OK
+OR,industry,industry,industry,1990,industrial feedstocks,0.2307144,OR
+PA,industry,industry,industry,1990,industrial feedstocks,0.1285805,PA
+RI,industry,industry,industry,1990,industrial feedstocks,0.6627538,RI
+SC,industry,industry,industry,1990,industrial feedstocks,0.0934229,SC
+SD,industry,industry,industry,1990,industrial feedstocks,0.2905179,SD
+TN,industry,industry,industry,1990,industrial feedstocks,0.195632,TN
+TX,industry,industry,industry,1990,industrial feedstocks,0.4215063,TX
+UT,industry,industry,industry,1990,industrial feedstocks,0.155305,UT
+VA,industry,industry,industry,1990,industrial feedstocks,0.1886598,VA
+VT,industry,industry,industry,1990,industrial feedstocks,0.0328005,VT
+WA,industry,industry,industry,1990,industrial feedstocks,0.1029869,WA
+WI,industry,industry,industry,1990,industrial feedstocks,0.1635257,WI
+WV,industry,industry,industry,1990,industrial feedstocks,0.0465581,WV
+WY,industry,industry,industry,1990,industrial feedstocks,0.1007364,WY
+AK,industry,industry,industry,2005,industrial energy use,0.9889584,AK
+AL,industry,industry,industry,2005,industrial energy use,0.8075076,AL
+AR,industry,industry,industry,2005,industrial energy use,0.9661727,AR
+AZ,industry,industry,industry,2005,industrial energy use,0.5251315,AZ
+CA,industry,industry,industry,2005,industrial energy use,0.8090767,CA
+CO,industry,industry,industry,2005,industrial energy use,0.8263388,CO
+CT,industry,industry,industry,2005,industrial energy use,0.5960928,CT
+DC,industry,industry,industry,2005,industrial energy use,0.8218599,DC
+DE,industry,industry,industry,2005,industrial energy use,0.7249159,DE
+FL,industry,industry,industry,2005,industrial energy use,0.7320004,FL
+GA,industry,industry,industry,2005,industrial energy use,0.8141884,GA
+HI,industry,industry,industry,2005,industrial energy use,0.8632689,HI
+IA,industry,industry,industry,2005,industrial energy use,0.8041823,IA
+ID,industry,industry,industry,2005,industrial energy use,0.756297,ID
+IL,industry,industry,industry,2005,industrial energy use,0.7457866,IL
+IN,industry,industry,industry,2005,industrial energy use,0.8575944,IN
+KS,industry,industry,industry,2005,industrial energy use,0.7952396,KS
+KY,industry,industry,industry,2005,industrial energy use,0.8504321,KY
+LA,industry,industry,industry,2005,industrial energy use,0.3740567,LA
+MA,industry,industry,industry,2005,industrial energy use,0.8082795,MA
+MD,industry,industry,industry,2005,industrial energy use,0.7605259,MD
+ME,industry,industry,industry,2005,industrial energy use,0.9346987,ME
+MI,industry,industry,industry,2005,industrial energy use,0.8060336,MI
+MN,industry,industry,industry,2005,industrial energy use,0.6351037,MN
+MO,industry,industry,industry,2005,industrial energy use,0.6535542,MO
+MS,industry,industry,industry,2005,industrial energy use,0.7725489,MS
+MT,industry,industry,industry,2005,industrial energy use,0.8270498,MT
+NC,industry,industry,industry,2005,industrial energy use,0.7621785,NC
+ND,industry,industry,industry,2005,industrial energy use,0.8136926,ND
+NE,industry,industry,industry,2005,industrial energy use,0.8037885,NE
+NH,industry,industry,industry,2005,industrial energy use,0.57571,NH
+NJ,industry,industry,industry,2005,industrial energy use,0.5699118,NJ
+NM,industry,industry,industry,2005,industrial energy use,0.7909635,NM
+NV,industry,industry,industry,2005,industrial energy use,0.6767907,NV
+NY,industry,industry,industry,2005,industrial energy use,0.6608636,NY
+OH,industry,industry,industry,2005,industrial energy use,0.7791392,OH
+OK,industry,industry,industry,2005,industrial energy use,0.8109471,OK
+OR,industry,industry,industry,2005,industrial energy use,0.6925646,OR
+PA,industry,industry,industry,2005,industrial energy use,0.7821818,PA
+RI,industry,industry,industry,2005,industrial energy use,0.6765916,RI
+SC,industry,industry,industry,2005,industrial energy use,0.8434446,SC
+SD,industry,industry,industry,2005,industrial energy use,0.3644481,SD
+TN,industry,industry,industry,2005,industrial energy use,0.745529,TN
+TX,industry,industry,industry,2005,industrial energy use,0.4941453,TX
+UT,industry,industry,industry,2005,industrial energy use,0.7977605,UT
+VA,industry,industry,industry,2005,industrial energy use,0.7814533,VA
+VT,industry,industry,industry,2005,industrial energy use,0.8467609,VT
+WA,industry,industry,industry,2005,industrial energy use,0.7686839,WA
+WI,industry,industry,industry,2005,industrial energy use,0.7464837,WI
+WV,industry,industry,industry,2005,industrial energy use,0.9342739,WV
+WY,industry,industry,industry,2005,industrial energy use,0.9301406,WY
+AK,industry,industry,industry,2005,industrial feedstocks,0.0110416,AK
+AL,industry,industry,industry,2005,industrial feedstocks,0.1924924,AL
+AR,industry,industry,industry,2005,industrial feedstocks,0.0338273,AR
+AZ,industry,industry,industry,2005,industrial feedstocks,0.4748685,AZ
+CA,industry,industry,industry,2005,industrial feedstocks,0.1909233,CA
+CO,industry,industry,industry,2005,industrial feedstocks,0.1736612,CO
+CT,industry,industry,industry,2005,industrial feedstocks,0.4039072,CT
+DC,industry,industry,industry,2005,industrial feedstocks,0.1781401,DC
+DE,industry,industry,industry,2005,industrial feedstocks,0.2750841,DE
+FL,industry,industry,industry,2005,industrial feedstocks,0.2679996,FL
+GA,industry,industry,industry,2005,industrial feedstocks,0.1858116,GA
+HI,industry,industry,industry,2005,industrial feedstocks,0.1367311,HI
+IA,industry,industry,industry,2005,industrial feedstocks,0.1958177,IA
+ID,industry,industry,industry,2005,industrial feedstocks,0.243703,ID
+IL,industry,industry,industry,2005,industrial feedstocks,0.2542134,IL
+IN,industry,industry,industry,2005,industrial feedstocks,0.1424056,IN
+KS,industry,industry,industry,2005,industrial feedstocks,0.2047604,KS
+KY,industry,industry,industry,2005,industrial feedstocks,0.1495679,KY
+LA,industry,industry,industry,2005,industrial feedstocks,0.6259433,LA
+MA,industry,industry,industry,2005,industrial feedstocks,0.1917205,MA
+MD,industry,industry,industry,2005,industrial feedstocks,0.2394741,MD
+ME,industry,industry,industry,2005,industrial feedstocks,0.0653013,ME
+MI,industry,industry,industry,2005,industrial feedstocks,0.1939664,MI
+MN,industry,industry,industry,2005,industrial feedstocks,0.3648963,MN
+MO,industry,industry,industry,2005,industrial feedstocks,0.3464458,MO
+MS,industry,industry,industry,2005,industrial feedstocks,0.2274511,MS
+MT,industry,industry,industry,2005,industrial feedstocks,0.1729502,MT
+NC,industry,industry,industry,2005,industrial feedstocks,0.2378215,NC
+ND,industry,industry,industry,2005,industrial feedstocks,0.1863074,ND
+NE,industry,industry,industry,2005,industrial feedstocks,0.1962115,NE
+NH,industry,industry,industry,2005,industrial feedstocks,0.42429,NH
+NJ,industry,industry,industry,2005,industrial feedstocks,0.4300882,NJ
+NM,industry,industry,industry,2005,industrial feedstocks,0.2090365,NM
+NV,industry,industry,industry,2005,industrial feedstocks,0.3232093,NV
+NY,industry,industry,industry,2005,industrial feedstocks,0.3391364,NY
+OH,industry,industry,industry,2005,industrial feedstocks,0.2208608,OH
+OK,industry,industry,industry,2005,industrial feedstocks,0.1890529,OK
+OR,industry,industry,industry,2005,industrial feedstocks,0.3074354,OR
+PA,industry,industry,industry,2005,industrial feedstocks,0.2178182,PA
+RI,industry,industry,industry,2005,industrial feedstocks,0.3234084,RI
+SC,industry,industry,industry,2005,industrial feedstocks,0.1565554,SC
+SD,industry,industry,industry,2005,industrial feedstocks,0.6355519,SD
+TN,industry,industry,industry,2005,industrial feedstocks,0.254471,TN
+TX,industry,industry,industry,2005,industrial feedstocks,0.5058547,TX
+UT,industry,industry,industry,2005,industrial feedstocks,0.2022395,UT
+VA,industry,industry,industry,2005,industrial feedstocks,0.2185467,VA
+VT,industry,industry,industry,2005,industrial feedstocks,0.1532391,VT
+WA,industry,industry,industry,2005,industrial feedstocks,0.2313161,WA
+WI,industry,industry,industry,2005,industrial feedstocks,0.2535163,WI
+WV,industry,industry,industry,2005,industrial feedstocks,0.0657261,WV
+WY,industry,industry,industry,2005,industrial feedstocks,0.0698594,WY
+AK,industry,industry,industry,2010,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2010,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2010,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2010,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2010,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2010,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2010,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2010,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2010,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2010,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2010,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2010,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2010,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2010,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2010,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2010,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2010,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2010,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2010,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2010,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2010,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2010,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2010,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2010,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2010,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2010,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2010,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2010,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2010,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2010,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2010,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2010,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2010,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2010,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2010,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2010,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2010,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2010,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2010,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2010,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2010,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2010,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2010,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2010,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2010,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2010,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2010,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2010,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2010,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2010,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2010,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2010,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2010,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2010,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2010,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2010,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2010,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2010,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2010,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2010,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2010,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2010,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2010,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2010,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2010,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2010,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2010,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2010,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2010,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2010,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2010,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2010,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2010,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2010,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2010,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2010,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2010,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2010,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2010,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2010,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2010,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2010,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2010,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2010,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2010,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2010,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2010,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2010,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2010,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2010,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2010,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2010,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2010,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2010,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2010,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2010,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2010,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2010,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2010,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2010,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2010,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2010,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2015,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2015,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2015,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2015,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2015,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2015,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2015,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2015,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2015,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2015,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2015,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2015,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2015,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2015,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2015,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2015,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2015,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2015,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2015,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2015,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2015,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2015,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2015,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2015,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2015,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2015,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2015,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2015,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2015,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2015,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2015,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2015,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2015,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2015,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2015,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2015,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2015,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2015,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2015,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2015,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2015,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2015,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2015,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2015,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2015,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2015,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2015,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2015,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2015,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2015,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2015,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2015,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2015,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2015,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2015,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2015,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2015,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2015,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2015,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2015,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2015,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2015,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2015,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2015,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2015,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2015,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2015,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2015,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2015,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2015,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2015,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2015,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2015,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2015,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2015,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2015,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2015,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2015,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2015,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2015,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2015,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2015,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2015,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2015,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2015,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2015,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2015,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2015,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2015,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2015,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2015,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2015,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2015,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2015,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2015,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2015,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2015,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2015,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2015,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2015,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2015,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2015,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2020,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2020,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2020,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2020,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2020,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2020,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2020,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2020,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2020,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2020,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2020,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2020,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2020,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2020,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2020,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2020,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2020,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2020,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2020,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2020,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2020,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2020,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2020,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2020,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2020,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2020,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2020,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2020,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2020,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2020,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2020,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2020,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2020,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2020,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2020,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2020,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2020,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2020,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2020,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2020,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2020,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2020,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2020,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2020,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2020,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2020,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2020,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2020,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2020,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2020,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2020,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2020,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2020,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2020,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2020,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2020,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2020,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2020,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2020,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2020,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2020,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2020,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2020,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2020,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2020,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2020,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2020,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2020,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2020,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2020,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2020,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2020,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2020,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2020,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2020,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2020,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2020,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2020,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2020,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2020,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2020,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2020,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2020,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2020,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2020,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2020,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2020,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2020,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2020,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2020,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2020,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2020,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2020,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2020,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2020,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2020,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2020,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2020,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2020,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2020,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2020,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2020,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2025,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2025,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2025,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2025,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2025,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2025,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2025,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2025,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2025,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2025,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2025,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2025,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2025,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2025,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2025,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2025,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2025,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2025,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2025,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2025,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2025,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2025,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2025,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2025,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2025,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2025,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2025,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2025,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2025,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2025,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2025,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2025,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2025,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2025,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2025,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2025,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2025,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2025,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2025,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2025,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2025,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2025,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2025,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2025,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2025,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2025,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2025,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2025,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2025,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2025,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2025,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2025,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2025,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2025,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2025,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2025,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2025,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2025,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2025,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2025,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2025,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2025,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2025,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2025,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2025,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2025,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2025,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2025,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2025,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2025,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2025,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2025,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2025,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2025,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2025,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2025,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2025,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2025,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2025,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2025,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2025,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2025,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2025,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2025,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2025,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2025,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2025,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2025,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2025,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2025,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2025,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2025,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2025,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2025,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2025,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2025,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2025,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2025,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2025,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2025,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2025,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2025,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2030,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2030,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2030,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2030,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2030,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2030,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2030,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2030,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2030,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2030,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2030,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2030,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2030,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2030,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2030,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2030,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2030,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2030,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2030,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2030,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2030,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2030,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2030,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2030,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2030,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2030,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2030,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2030,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2030,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2030,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2030,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2030,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2030,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2030,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2030,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2030,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2030,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2030,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2030,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2030,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2030,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2030,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2030,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2030,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2030,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2030,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2030,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2030,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2030,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2030,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2030,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2030,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2030,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2030,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2030,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2030,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2030,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2030,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2030,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2030,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2030,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2030,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2030,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2030,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2030,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2030,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2030,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2030,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2030,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2030,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2030,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2030,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2030,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2030,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2030,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2030,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2030,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2030,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2030,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2030,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2030,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2030,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2030,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2030,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2030,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2030,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2030,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2030,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2030,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2030,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2030,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2030,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2030,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2030,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2030,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2030,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2030,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2030,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2030,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2030,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2030,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2030,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2035,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2035,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2035,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2035,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2035,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2035,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2035,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2035,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2035,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2035,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2035,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2035,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2035,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2035,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2035,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2035,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2035,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2035,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2035,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2035,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2035,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2035,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2035,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2035,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2035,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2035,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2035,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2035,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2035,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2035,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2035,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2035,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2035,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2035,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2035,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2035,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2035,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2035,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2035,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2035,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2035,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2035,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2035,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2035,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2035,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2035,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2035,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2035,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2035,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2035,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2035,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2035,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2035,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2035,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2035,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2035,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2035,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2035,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2035,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2035,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2035,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2035,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2035,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2035,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2035,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2035,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2035,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2035,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2035,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2035,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2035,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2035,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2035,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2035,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2035,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2035,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2035,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2035,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2035,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2035,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2035,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2035,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2035,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2035,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2035,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2035,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2035,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2035,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2035,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2035,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2035,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2035,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2035,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2035,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2035,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2035,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2035,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2035,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2035,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2035,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2035,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2035,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2040,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2040,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2040,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2040,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2040,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2040,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2040,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2040,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2040,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2040,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2040,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2040,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2040,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2040,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2040,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2040,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2040,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2040,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2040,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2040,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2040,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2040,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2040,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2040,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2040,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2040,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2040,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2040,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2040,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2040,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2040,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2040,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2040,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2040,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2040,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2040,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2040,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2040,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2040,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2040,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2040,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2040,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2040,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2040,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2040,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2040,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2040,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2040,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2040,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2040,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2040,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2040,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2040,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2040,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2040,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2040,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2040,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2040,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2040,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2040,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2040,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2040,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2040,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2040,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2040,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2040,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2040,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2040,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2040,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2040,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2040,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2040,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2040,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2040,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2040,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2040,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2040,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2040,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2040,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2040,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2040,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2040,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2040,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2040,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2040,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2040,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2040,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2040,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2040,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2040,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2040,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2040,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2040,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2040,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2040,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2040,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2040,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2040,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2040,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2040,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2040,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2040,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2045,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2045,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2045,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2045,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2045,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2045,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2045,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2045,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2045,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2045,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2045,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2045,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2045,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2045,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2045,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2045,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2045,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2045,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2045,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2045,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2045,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2045,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2045,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2045,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2045,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2045,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2045,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2045,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2045,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2045,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2045,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2045,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2045,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2045,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2045,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2045,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2045,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2045,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2045,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2045,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2045,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2045,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2045,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2045,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2045,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2045,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2045,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2045,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2045,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2045,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2045,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2045,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2045,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2045,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2045,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2045,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2045,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2045,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2045,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2045,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2045,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2045,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2045,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2045,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2045,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2045,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2045,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2045,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2045,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2045,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2045,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2045,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2045,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2045,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2045,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2045,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2045,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2045,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2045,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2045,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2045,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2045,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2045,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2045,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2045,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2045,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2045,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2045,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2045,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2045,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2045,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2045,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2045,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2045,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2045,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2045,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2045,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2045,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2045,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2045,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2045,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2045,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2050,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2050,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2050,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2050,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2050,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2050,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2050,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2050,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2050,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2050,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2050,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2050,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2050,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2050,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2050,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2050,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2050,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2050,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2050,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2050,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2050,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2050,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2050,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2050,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2050,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2050,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2050,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2050,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2050,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2050,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2050,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2050,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2050,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2050,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2050,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2050,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2050,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2050,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2050,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2050,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2050,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2050,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2050,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2050,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2050,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2050,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2050,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2050,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2050,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2050,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2050,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2050,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2050,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2050,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2050,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2050,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2050,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2050,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2050,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2050,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2050,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2050,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2050,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2050,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2050,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2050,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2050,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2050,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2050,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2050,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2050,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2050,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2050,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2050,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2050,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2050,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2050,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2050,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2050,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2050,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2050,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2050,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2050,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2050,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2050,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2050,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2050,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2050,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2050,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2050,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2050,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2050,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2050,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2050,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2050,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2050,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2050,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2050,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2050,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2050,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2050,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2050,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2055,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2055,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2055,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2055,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2055,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2055,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2055,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2055,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2055,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2055,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2055,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2055,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2055,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2055,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2055,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2055,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2055,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2055,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2055,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2055,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2055,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2055,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2055,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2055,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2055,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2055,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2055,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2055,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2055,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2055,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2055,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2055,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2055,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2055,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2055,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2055,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2055,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2055,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2055,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2055,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2055,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2055,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2055,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2055,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2055,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2055,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2055,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2055,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2055,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2055,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2055,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2055,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2055,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2055,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2055,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2055,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2055,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2055,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2055,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2055,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2055,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2055,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2055,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2055,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2055,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2055,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2055,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2055,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2055,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2055,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2055,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2055,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2055,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2055,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2055,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2055,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2055,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2055,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2055,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2055,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2055,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2055,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2055,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2055,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2055,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2055,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2055,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2055,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2055,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2055,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2055,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2055,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2055,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2055,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2055,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2055,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2055,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2055,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2055,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2055,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2055,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2055,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2060,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2060,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2060,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2060,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2060,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2060,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2060,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2060,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2060,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2060,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2060,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2060,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2060,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2060,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2060,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2060,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2060,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2060,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2060,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2060,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2060,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2060,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2060,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2060,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2060,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2060,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2060,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2060,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2060,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2060,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2060,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2060,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2060,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2060,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2060,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2060,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2060,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2060,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2060,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2060,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2060,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2060,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2060,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2060,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2060,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2060,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2060,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2060,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2060,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2060,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2060,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2060,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2060,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2060,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2060,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2060,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2060,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2060,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2060,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2060,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2060,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2060,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2060,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2060,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2060,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2060,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2060,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2060,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2060,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2060,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2060,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2060,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2060,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2060,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2060,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2060,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2060,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2060,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2060,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2060,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2060,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2060,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2060,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2060,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2060,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2060,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2060,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2060,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2060,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2060,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2060,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2060,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2060,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2060,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2060,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2060,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2060,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2060,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2060,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2060,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2060,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2060,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2065,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2065,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2065,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2065,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2065,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2065,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2065,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2065,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2065,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2065,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2065,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2065,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2065,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2065,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2065,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2065,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2065,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2065,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2065,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2065,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2065,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2065,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2065,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2065,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2065,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2065,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2065,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2065,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2065,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2065,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2065,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2065,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2065,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2065,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2065,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2065,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2065,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2065,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2065,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2065,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2065,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2065,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2065,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2065,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2065,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2065,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2065,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2065,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2065,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2065,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2065,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2065,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2065,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2065,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2065,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2065,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2065,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2065,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2065,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2065,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2065,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2065,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2065,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2065,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2065,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2065,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2065,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2065,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2065,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2065,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2065,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2065,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2065,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2065,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2065,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2065,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2065,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2065,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2065,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2065,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2065,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2065,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2065,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2065,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2065,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2065,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2065,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2065,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2065,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2065,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2065,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2065,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2065,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2065,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2065,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2065,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2065,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2065,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2065,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2065,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2065,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2065,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2070,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2070,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2070,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2070,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2070,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2070,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2070,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2070,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2070,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2070,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2070,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2070,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2070,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2070,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2070,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2070,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2070,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2070,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2070,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2070,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2070,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2070,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2070,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2070,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2070,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2070,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2070,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2070,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2070,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2070,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2070,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2070,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2070,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2070,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2070,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2070,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2070,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2070,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2070,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2070,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2070,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2070,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2070,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2070,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2070,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2070,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2070,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2070,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2070,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2070,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2070,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2070,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2070,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2070,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2070,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2070,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2070,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2070,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2070,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2070,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2070,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2070,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2070,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2070,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2070,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2070,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2070,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2070,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2070,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2070,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2070,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2070,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2070,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2070,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2070,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2070,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2070,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2070,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2070,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2070,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2070,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2070,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2070,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2070,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2070,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2070,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2070,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2070,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2070,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2070,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2070,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2070,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2070,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2070,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2070,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2070,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2070,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2070,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2070,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2070,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2070,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2070,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2075,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2075,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2075,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2075,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2075,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2075,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2075,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2075,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2075,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2075,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2075,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2075,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2075,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2075,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2075,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2075,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2075,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2075,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2075,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2075,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2075,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2075,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2075,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2075,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2075,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2075,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2075,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2075,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2075,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2075,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2075,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2075,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2075,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2075,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2075,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2075,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2075,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2075,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2075,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2075,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2075,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2075,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2075,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2075,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2075,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2075,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2075,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2075,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2075,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2075,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2075,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2075,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2075,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2075,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2075,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2075,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2075,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2075,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2075,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2075,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2075,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2075,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2075,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2075,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2075,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2075,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2075,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2075,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2075,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2075,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2075,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2075,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2075,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2075,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2075,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2075,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2075,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2075,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2075,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2075,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2075,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2075,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2075,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2075,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2075,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2075,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2075,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2075,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2075,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2075,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2075,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2075,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2075,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2075,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2075,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2075,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2075,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2075,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2075,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2075,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2075,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2075,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2080,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2080,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2080,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2080,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2080,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2080,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2080,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2080,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2080,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2080,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2080,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2080,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2080,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2080,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2080,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2080,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2080,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2080,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2080,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2080,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2080,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2080,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2080,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2080,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2080,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2080,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2080,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2080,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2080,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2080,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2080,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2080,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2080,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2080,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2080,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2080,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2080,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2080,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2080,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2080,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2080,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2080,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2080,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2080,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2080,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2080,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2080,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2080,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2080,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2080,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2080,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2080,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2080,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2080,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2080,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2080,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2080,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2080,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2080,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2080,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2080,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2080,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2080,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2080,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2080,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2080,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2080,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2080,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2080,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2080,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2080,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2080,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2080,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2080,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2080,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2080,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2080,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2080,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2080,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2080,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2080,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2080,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2080,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2080,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2080,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2080,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2080,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2080,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2080,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2080,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2080,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2080,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2080,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2080,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2080,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2080,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2080,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2080,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2080,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2080,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2080,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2080,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2085,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2085,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2085,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2085,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2085,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2085,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2085,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2085,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2085,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2085,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2085,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2085,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2085,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2085,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2085,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2085,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2085,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2085,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2085,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2085,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2085,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2085,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2085,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2085,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2085,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2085,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2085,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2085,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2085,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2085,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2085,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2085,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2085,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2085,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2085,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2085,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2085,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2085,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2085,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2085,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2085,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2085,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2085,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2085,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2085,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2085,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2085,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2085,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2085,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2085,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2085,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2085,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2085,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2085,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2085,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2085,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2085,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2085,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2085,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2085,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2085,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2085,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2085,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2085,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2085,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2085,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2085,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2085,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2085,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2085,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2085,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2085,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2085,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2085,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2085,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2085,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2085,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2085,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2085,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2085,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2085,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2085,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2085,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2085,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2085,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2085,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2085,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2085,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2085,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2085,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2085,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2085,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2085,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2085,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2085,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2085,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2085,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2085,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2085,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2085,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2085,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2085,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2090,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2090,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2090,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2090,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2090,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2090,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2090,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2090,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2090,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2090,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2090,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2090,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2090,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2090,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2090,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2090,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2090,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2090,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2090,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2090,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2090,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2090,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2090,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2090,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2090,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2090,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2090,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2090,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2090,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2090,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2090,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2090,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2090,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2090,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2090,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2090,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2090,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2090,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2090,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2090,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2090,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2090,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2090,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2090,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2090,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2090,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2090,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2090,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2090,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2090,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2090,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2090,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2090,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2090,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2090,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2090,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2090,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2090,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2090,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2090,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2090,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2090,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2090,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2090,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2090,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2090,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2090,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2090,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2090,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2090,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2090,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2090,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2090,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2090,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2090,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2090,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2090,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2090,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2090,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2090,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2090,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2090,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2090,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2090,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2090,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2090,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2090,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2090,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2090,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2090,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2090,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2090,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2090,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2090,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2090,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2090,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2090,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2090,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2090,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2090,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2090,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2090,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2095,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2095,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2095,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2095,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2095,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2095,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2095,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2095,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2095,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2095,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2095,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2095,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2095,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2095,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2095,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2095,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2095,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2095,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2095,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2095,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2095,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2095,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2095,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2095,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2095,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2095,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2095,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2095,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2095,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2095,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2095,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2095,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2095,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2095,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2095,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2095,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2095,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2095,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2095,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2095,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2095,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2095,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2095,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2095,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2095,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2095,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2095,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2095,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2095,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2095,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2095,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2095,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2095,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2095,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2095,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2095,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2095,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2095,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2095,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2095,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2095,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2095,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2095,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2095,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2095,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2095,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2095,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2095,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2095,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2095,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2095,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2095,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2095,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2095,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2095,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2095,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2095,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2095,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2095,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2095,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2095,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2095,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2095,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2095,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2095,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2095,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2095,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2095,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2095,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2095,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2095,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2095,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2095,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2095,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2095,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2095,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2095,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2095,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2095,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2095,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2095,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2095,industrial feedstocks,0.0772506,WY
+AK,industry,industry,industry,2100,industrial energy use,0.9906314,AK
+AL,industry,industry,industry,2100,industrial energy use,0.8377219,AL
+AR,industry,industry,industry,2100,industrial energy use,0.9338916,AR
+AZ,industry,industry,industry,2100,industrial energy use,0.6061453,AZ
+CA,industry,industry,industry,2100,industrial energy use,0.7829902,CA
+CO,industry,industry,industry,2100,industrial energy use,0.8559087,CO
+CT,industry,industry,industry,2100,industrial energy use,0.7266312,CT
+DC,industry,industry,industry,2100,industrial energy use,0.7207952,DC
+DE,industry,industry,industry,2100,industrial energy use,0.6969926,DE
+FL,industry,industry,industry,2100,industrial energy use,0.7649817,FL
+GA,industry,industry,industry,2100,industrial energy use,0.8179556,GA
+HI,industry,industry,industry,2100,industrial energy use,0.8795449,HI
+IA,industry,industry,industry,2100,industrial energy use,0.8589121,IA
+ID,industry,industry,industry,2100,industrial energy use,0.7235458,ID
+IL,industry,industry,industry,2100,industrial energy use,0.7697392,IL
+IN,industry,industry,industry,2100,industrial energy use,0.8692781,IN
+KS,industry,industry,industry,2100,industrial energy use,0.8117804,KS
+KY,industry,industry,industry,2100,industrial energy use,0.8692243,KY
+LA,industry,industry,industry,2100,industrial energy use,0.3685126,LA
+MA,industry,industry,industry,2100,industrial energy use,0.8487048,MA
+MD,industry,industry,industry,2100,industrial energy use,0.5154066,MD
+ME,industry,industry,industry,2100,industrial energy use,0.943217,ME
+MI,industry,industry,industry,2100,industrial energy use,0.7944902,MI
+MN,industry,industry,industry,2100,industrial energy use,0.7053352,MN
+MO,industry,industry,industry,2100,industrial energy use,0.6851599,MO
+MS,industry,industry,industry,2100,industrial energy use,0.8074666,MS
+MT,industry,industry,industry,2100,industrial energy use,0.7235235,MT
+NC,industry,industry,industry,2100,industrial energy use,0.7761547,NC
+ND,industry,industry,industry,2100,industrial energy use,0.8784101,ND
+NE,industry,industry,industry,2100,industrial energy use,0.843936,NE
+NH,industry,industry,industry,2100,industrial energy use,0.6246891,NH
+NJ,industry,industry,industry,2100,industrial energy use,0.4204806,NJ
+NM,industry,industry,industry,2100,industrial energy use,0.7992758,NM
+NV,industry,industry,industry,2100,industrial energy use,0.7820924,NV
+NY,industry,industry,industry,2100,industrial energy use,0.6270368,NY
+OH,industry,industry,industry,2100,industrial energy use,0.7688672,OH
+OK,industry,industry,industry,2100,industrial energy use,0.8530454,OK
+OR,industry,industry,industry,2100,industrial energy use,0.7064841,OR
+PA,industry,industry,industry,2100,industrial energy use,0.814064,PA
+RI,industry,industry,industry,2100,industrial energy use,0.7261884,RI
+SC,industry,industry,industry,2100,industrial energy use,0.8674232,SC
+SD,industry,industry,industry,2100,industrial energy use,0.5550655,SD
+TN,industry,industry,industry,2100,industrial energy use,0.7755852,TN
+TX,industry,industry,industry,2100,industrial energy use,0.6106753,TX
+UT,industry,industry,industry,2100,industrial energy use,0.7931702,UT
+VA,industry,industry,industry,2100,industrial energy use,0.7968256,VA
+VT,industry,industry,industry,2100,industrial energy use,0.8204463,VT
+WA,industry,industry,industry,2100,industrial energy use,0.7989152,WA
+WI,industry,industry,industry,2100,industrial energy use,0.7482666,WI
+WV,industry,industry,industry,2100,industrial energy use,0.9141712,WV
+WY,industry,industry,industry,2100,industrial energy use,0.9227494,WY
+AK,industry,industry,industry,2100,industrial feedstocks,0.0093686,AK
+AL,industry,industry,industry,2100,industrial feedstocks,0.1622781,AL
+AR,industry,industry,industry,2100,industrial feedstocks,0.0661084,AR
+AZ,industry,industry,industry,2100,industrial feedstocks,0.3938547,AZ
+CA,industry,industry,industry,2100,industrial feedstocks,0.2170098,CA
+CO,industry,industry,industry,2100,industrial feedstocks,0.1440913,CO
+CT,industry,industry,industry,2100,industrial feedstocks,0.2733688,CT
+DC,industry,industry,industry,2100,industrial feedstocks,0.2792048,DC
+DE,industry,industry,industry,2100,industrial feedstocks,0.3030074,DE
+FL,industry,industry,industry,2100,industrial feedstocks,0.2350183,FL
+GA,industry,industry,industry,2100,industrial feedstocks,0.1820444,GA
+HI,industry,industry,industry,2100,industrial feedstocks,0.1204551,HI
+IA,industry,industry,industry,2100,industrial feedstocks,0.1410879,IA
+ID,industry,industry,industry,2100,industrial feedstocks,0.2764542,ID
+IL,industry,industry,industry,2100,industrial feedstocks,0.2302608,IL
+IN,industry,industry,industry,2100,industrial feedstocks,0.1307219,IN
+KS,industry,industry,industry,2100,industrial feedstocks,0.1882196,KS
+KY,industry,industry,industry,2100,industrial feedstocks,0.1307757,KY
+LA,industry,industry,industry,2100,industrial feedstocks,0.6314874,LA
+MA,industry,industry,industry,2100,industrial feedstocks,0.1512952,MA
+MD,industry,industry,industry,2100,industrial feedstocks,0.4845934,MD
+ME,industry,industry,industry,2100,industrial feedstocks,0.056783,ME
+MI,industry,industry,industry,2100,industrial feedstocks,0.2055098,MI
+MN,industry,industry,industry,2100,industrial feedstocks,0.2946648,MN
+MO,industry,industry,industry,2100,industrial feedstocks,0.3148401,MO
+MS,industry,industry,industry,2100,industrial feedstocks,0.1925334,MS
+MT,industry,industry,industry,2100,industrial feedstocks,0.2764765,MT
+NC,industry,industry,industry,2100,industrial feedstocks,0.2238453,NC
+ND,industry,industry,industry,2100,industrial feedstocks,0.1215899,ND
+NE,industry,industry,industry,2100,industrial feedstocks,0.156064,NE
+NH,industry,industry,industry,2100,industrial feedstocks,0.3753109,NH
+NJ,industry,industry,industry,2100,industrial feedstocks,0.5795194,NJ
+NM,industry,industry,industry,2100,industrial feedstocks,0.2007242,NM
+NV,industry,industry,industry,2100,industrial feedstocks,0.2179076,NV
+NY,industry,industry,industry,2100,industrial feedstocks,0.3729632,NY
+OH,industry,industry,industry,2100,industrial feedstocks,0.2311328,OH
+OK,industry,industry,industry,2100,industrial feedstocks,0.1469546,OK
+OR,industry,industry,industry,2100,industrial feedstocks,0.2935159,OR
+PA,industry,industry,industry,2100,industrial feedstocks,0.185936,PA
+RI,industry,industry,industry,2100,industrial feedstocks,0.2738116,RI
+SC,industry,industry,industry,2100,industrial feedstocks,0.1325768,SC
+SD,industry,industry,industry,2100,industrial feedstocks,0.4449345,SD
+TN,industry,industry,industry,2100,industrial feedstocks,0.2244148,TN
+TX,industry,industry,industry,2100,industrial feedstocks,0.3893247,TX
+UT,industry,industry,industry,2100,industrial feedstocks,0.2068298,UT
+VA,industry,industry,industry,2100,industrial feedstocks,0.2031744,VA
+VT,industry,industry,industry,2100,industrial feedstocks,0.1795537,VT
+WA,industry,industry,industry,2100,industrial feedstocks,0.2010848,WA
+WI,industry,industry,industry,2100,industrial feedstocks,0.2517334,WI
+WV,industry,industry,industry,2100,industrial feedstocks,0.0858288,WV
+WY,industry,industry,industry,2100,industrial feedstocks,0.0772506,WY

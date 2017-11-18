@@ -10,7 +10,7 @@ LOGIT_COLUMN_NAME <- "logit.type"   # will be removed by test code before old-ne
 
 
 # Flags ======================================================================
-# Flags used by chunks
+
 FLAG_INPUT_DATA      <- "FLAG_INPUT_DATA"       # input data, don't output
 FLAG_LONG_YEAR_FORM  <- "FLAG_LONG_YEAR_FORM"   # 'year' column but original data are wide
 FLAG_NO_OUTPUT       <- "FLAG_NO_OUTPUT"        # don't output
@@ -40,6 +40,7 @@ gcam.USA_CODE <- 1
 gcam.WESTERN_EUROPE_CODE <- 13
 gcam.LOGIT_TYPES <- c("relative-cost-logit", "absolute-cost-logit")
 gcam.EQUIV_TABLE <- "EQUIV_TABLE"
+gcam.IND_ENERGY_USE <- c("biomass", "coal", "gas", "refined liquids")  # GCAM industrial energy use fuels
 
 GCAM_REGION_ID <- "GCAM_region_ID"
 
@@ -265,18 +266,55 @@ energy.RSRC_FUELS <- c("coal", "gas", "refined liquids")
 energy.HEAT_PRICE <- 3.2
 energy.GAS_PRICE <- 2
 
-# below come from ENERGY_ASSUMPTIONS/A_ccs_data.R
-energy.DIGITS_EFFICIENCY <- 3
-energy.DIGITS_COST <- 4
-energy.DIGITS_REMOVE.FRACTION <- 2
+# used in level 2 energy sector files (e.g. 222, 223, 226) to round interpolated values, some below come from ENERGY_ASSUMPTIONS/A_ccs_data.R
+
 energy.CO2.STORAGE.MARKET <- "carbon-storage"
+
+energy.DIGITS_REMOVE.FRACTION <- 2
+
+energy.DIGITS_MPKM <- 0
+energy.DIGITS_SPEED <- 1
+energy.DIGITS_LOADFACTOR <- 2
+
+energy.CEMENT_CCS_COST_2000USDTCO2 <- 50 # Starting point of supply curve in Mahasenan et al 2003; come from ENERGY_ASSUMPTIONS/A_ccs_data.R
+energy.CO2_STORAGE_COST_1990_USDTC <- 42 # From GCAM 1.0 inputs; come from ENERGY_ASSUMPTIONS/A_ccs_data.R
+energy.DIGITS_INCELAS_IND <- 3
 
 # Digits for rounding into XMLs
 energy.DIGITS_CALOUTPUT <- 7
+energy.DIGITS_CALPRODUCTION <- 7
 energy.DIGITS_COEFFICIENT <- 7
 energy.DIGITS_COST <- 4
 energy.DIGITS_EFFICIENCY <- 3
 energy.DIGITS_SHRWT <- 4
+energy.DIGITS_FLOORSPACE <- 3
+energy.DIGITS_SATIATION_ADDER <- 9
+energy.DIGITS_HDDCDD <- 0
+energy.DIGITS_CAPACITY_FACTOR <- 2
+energy.DIGITS_INCELAS_IND <- 3
+energy.DIGITS_DEPRESOURCE <- 1
+energy.DIGITS_MAX_SUB_RESOURCE <- 5
+energy.DIGITS_MID_PRICE <- 3
+energy.DIGITS_CURVE_EXPONENT <- 3
+energy.DIGITS_GDP_SUPPLY_ELAST <- 3
+energy.DIGITS_OM <- 2
+energy.DIGITS_CAPITAL <- 0
+
+# Base cost year for wind, used in capacity factor calculations
+energy.WIND.BASE.COST.YEAR <- 2005
+energy.DIGITS_INCELAS_IND <- 3
+
+energy.SATIATION_YEAR <- 2010
+energy.GDP_MID_SATIATION <- 10.5
+energy.FLOOR_TO_SURFACE_RATIO <- 5.5
+
+energy.INTERNAL_GAINS_SCALAR_USA_H <- -930
+energy.INTERNAL_GAINS_SCALAR_USA_C <- 350
+
+# used to avoid negative/zero energy when disaggregating detailed industries (cement, fertilizer)
+energy.MIN_IN_EJ_IND <- 1e-3
+# Sets maximum for electricity IO coefficient used in cement sector
+energy.MAX_IOELEC <- 4
 
 # Conversion constants ======================================================================
 # The naming convention is CONV_(FROM-UNIT)_(TO-UNIT).
@@ -320,8 +358,12 @@ CONV_GWH_EJ <- 3.6e-6
 CONV_TWH_EJ <- 3.6e-3
 CONV_KWH_GJ <- 3.6e-3
 CONV_GJ_EJ <- 1e-9
+CONV_EJ_GJ <- 1 / CONV_GJ_EJ
 CONV_BBLD_EJYR <- 6.119 * 365.25 * 1e-3 # billion barrels a day to EJ per year
-CONV_KBTU_EJ <- 1.0551e-12
+CONV_KBTU_EJ <- 1.0551e-12 # KiloBTU to EJ
+CONV_TBTU_EJ <- 0.0010551 # TeraBTU to EJ
+CONV_MJ_BTU <- 947.777
+CONV_BTU_KJ <- 1.0551
 
 # Other
 CONV_MCAL_PCAL <- 1e-9
@@ -330,15 +372,22 @@ CONV_MILLION_M3_KM3 <- 1e-03
 CONV_M2_ACR <- 0.0002471058
 CONV_HA_M2 <- 1e4 # ha to m2
 CONV_BM2_M2 <- 1e9
-CONV_MILFT2_M2 <- 92900
-CONV_FT2_M2 <- 0.0929
+CONV_MILFT2_M2 <- 92900 # Million square feet to square meters
+CONV_FT2_M2 <- 0.0929 # Square feet to square meters
 
 # Driver constants ======================================================================
 
 driver.MAKE <- "MAKE"
 driver.DECLARE_OUTPUTS <- "DECLARE_OUTPUTS"
-driver.DECLARE_INPUTS <- "DECLARE_INPUTS"
-driver.SEPARATOR <- "; "
+driver.DECLARE_INPUTS  <- "DECLARE_INPUTS"
+
+
+# Data and utility constants ======================================================================
+
+data.SEPARATOR <- "; "
+data.PRECURSOR <- "Precursor"
+data.DEPENDENT <- "Dependent"
+
 
 # Modeltime constants ======================================================================
 
@@ -421,23 +470,93 @@ emissions.COAL_SO2_THRESHOLD <- 0.1 # Tg/EJ (here referring to Tg SO2 per EJ of 
 
 emissions.EPA_MACC_YEAR        <- 2030  # Must be either 2020 or 2030
 emissions.MAC_TAXES            <- c(0, 5, 10, 15, 32, 66, 129, 243, 486, 1093) # Range of costs in 1990 USD
-emissions.CONV_C_CO2           <- 44 / 12 # Convert Carbon to CO2
 emissions.DEFOREST_COEF_YEARS  <- c(2000, 2005)
 emissions.AGR_SECTORS          <- c("rice", "fertilizer", "soil")
 emissions.AGR_GASES            <- c("CH4_AGR", "N2O_AGR", "NH3_AGR", "NOx_AGR")
 emissions.AG_MACC_GHG_NAMES    <- c("CH4_AGR", "N2O_AGR")
 emissions.GHG_NAMES            <- c("CH4", "N2O")
 emissions.USE_GV_MAC           <- 1
+emissions.USE_GCAM3_CCOEFS     <- 1 # Select whether to use GCAM3 fuel carbon coefficients
+emissions.USE_GLOBAL_CCOEFS    <- 1 # Select whether to use global average carbon coefficients on fuels, or region-specific carbon coefficients
+emissions.INVENTORY_MATCH_YEAR <- 2009 # Select year from which to calculate fuel emissions coefficients (2009 is currently the most recent)
+emissions.DIGITS_CO2COEF <- 1
+
 emissions.NONGHG_GASES         <- c("SO2", "NOx", "CO", "NMVOC", "NH3")
 emissions.EDGAR_YEARS_PLUS     <- 1970:2008
 
 # GCAM-USA constants ======================================================================
+
 gcamusa.STATES <- c("AK", "AL", "AR", "AZ", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "IA", "ID", "IL", "IN", "KS", "KY", "LA",
-                      "MA", "MD", "ME", "MI", "MN", "MO", "MS", "MT", "NC", "ND", "NE", "NH", "NJ", "NM", "NV", "NY", "OH", "OK", "OR",
-                      "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VA", "VT", "WA", "WI", "WV", "WY")
+                    "MA", "MD", "ME", "MI", "MN", "MO", "MS", "MT", "NC", "ND", "NE", "NH", "NJ", "NM", "NV", "NY", "OH", "OK", "OR",
+                    "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VA", "VT", "WA", "WI", "WV", "WY")
+
+# logit exponent regulating competition between different grid regions in USA electricity market (single market approach only)
+gcamusa.GRID_REGION_LOGIT <- -6
+gcamusa.GRID_REGION_LOGIT_TYPE <- "relative-cost-logit"
+
+# indicate whether to resolve electricity demands at the level of the nation or the grid regions
+gcamusa.ELECT_TD_SECTORS <- c("elect_td_bld", "elect_td_ind", "elect_td_trn")
+gcamusa.USE_REGIONAL_ELEC_MARKETS <- TRUE
+
+gcamusa.FERT_LOGIT_EXP  <- -3 # define default logit expoent used in the fertlizer subsector
+gcamusa.FERT_LOGIT_TYPE <- NA
+
+# Define GCAM-USA category name of fertilizer
+gcamusa.FERT_NAME <- "N fertilizer"
+
+# fuels whose markets will be modeled at the level of the FERC regions, with prices calibrated
+gcamusa.REGIONAL_FUEL_MARKETS <- c("regional coal", "delivered coal", "wholesale gas", "delivered gas",
+                                   "refined liquids industrial", "refined liquids enduse")
+# indicate whether to use regional as opposed to national fuel markets (FALSE = national markets)
+gcamusa.USE_REGIONAL_FUEL_MARKETS  <- TRUE
+
+# Resources that will be modeled at the state level
+gcamusa.STATE_RENEWABLE_RESOURCES <- c("distributed_solar", "geothermal", "onshore wind resource")
+gcamusa.STATE_UNLIMITED_RESOURCES <- c("global solar resource", "limestone")
+
+# define sector(s) used in L222.en_transformation_USA
+# The supplysector and subsector structure in these sectors are retained
+gcamusa.SECTOR_EN_NAMES <- "refining"
+
+gcamusa.WIND_BASE_COST_YEAR <- 2005
+
+# Reduce rounding in detailed USA transport for compatability with model
+gcamusa.DIGITS_TRNUSA_DEFAULT <- 1
+
+# NUMBERS OF DIGITS FOR MODEL INPUT DATA
+gcamusa.DIGITS_CALOUTPUT <- 7 # production
+gcamusa.DEFAULT_SHAREWEIGHT <- 1
+gcamusa.DEFAULT_LOGITEXP <- -3
+gcamusa.DEFAULT_COEFFICIENT <- 1
+gcamusa.DEFAULT_MARKET <- "USA"
+gcamusa.GAS_ADJ_THRESH <- 5
+gcamusa.DIGITS_COST <- 4
+gcamusa.EFFICIENCY_PARTITION_YEAR <- 2005
+
+# Degree day norms
+gcamusa.BASE_HDD_USA <- 4524 # https://www.eia.gov/totalenergy/data/annual/showtext.php?t=ptb0107
+gcamusa.BASE_CDD_USA <- 1215 # https://www.eia.gov/totalenergy/data/annual/showtext.php?t=ptb0108
+
+# default logit type
+gcamusa.DEFAULT_LOGIT_TYPE <- NA
+
+
+# some delimiters
+gcamusa.STATE_SUBSECTOR_DELIMITER <- " "
 
 # Uncomment these lines to run under 'timeshift' conditions
 # HISTORICAL_YEARS <- 1971:2005       # normally 1971:2010
 # FUTURE_YEARS <- seq(2010, 2100, 5)  # normally seq(2015, 2100, 5)
 # BASE_YEARS <- c(1975, 1990, 2005)   # normally (1975, 1990, 2005, 2010)
 # MODEL_YEARS <- c(BASE_YEARS, FUTURE_YEARS)
+
+# PV constants ======================================================================
+
+PV_DERATING_FACTOR <- 0.77  # incorporates various factors: inverters, transformers, mismatch, soiling, and others
+PV_RESID_INSTALLED_COST <- 9500  # 2005USD per kw
+PV_COMM_INSTALLED_COST <- 7290  # 2005USD per kw
+PV_RESID_OM <- 100  # 2005USD per kw per year
+PV_COMM_OM <- 40  # 2005USD per kw per year
+PV_LIFETIME <- 30  # years
+PV_DISCOUNT_RATE <- 0.1  # year^-1
+HOURS_PER_YEAR <- 24 * 365
