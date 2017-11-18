@@ -29,7 +29,6 @@
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
 #' @author ACS September 2017
-#' @export
 module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "common/GCAM_region_names",
