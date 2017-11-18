@@ -1,9 +1,6 @@
 #' module_aglu_L2252.land_input_5_irr_mgmt
 #'
-#' Produce the inputs for the lowest level of the land nest, including disaggregated crop technologies:
-#' L2252.LN5_Logit, L2252.LN5_HistMgdAllocation_crop, L2252.LN5_MgdAllocation_crop,
-#' L2252.LN5_HistMgdAllocation_bio, L2252.LN5_MgdAllocation_bio, L2252.LN5_MgdCarbon_crop,
-#' L2252.LN5_MgdCarbon_bio, L2252.LN5_LeafGhostShare, L2252.LN5_NodeGhostShare
+#' Produce the inputs for the lowest level of the land nest, including disaggregated crop technologies.
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
