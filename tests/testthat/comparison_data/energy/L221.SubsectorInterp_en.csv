@@ -1,0 +1,290 @@
+INPUT_TABLE
+Variable ID
+SubsectorInterp
+
+region,supplysector,subsector,apply.to,from.year,to.year,interpolation.function
+USA,regional biomass,regional biomass,share-weight,2010,2100,linear
+USA,regional coal,regional coal,share-weight,2010,2100,linear
+USA,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+USA,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+USA,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,USA unconventional oil,share-weight,2010,2050,linear
+USA,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+USA,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+USA,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Africa_Eastern,regional biomass,regional biomass,share-weight,2010,2100,linear
+Africa_Eastern,regional coal,regional coal,share-weight,2010,2100,linear
+Africa_Eastern,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Africa_Eastern,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Africa_Eastern,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Africa_Eastern unconventional oil,share-weight,2010,2050,linear
+Africa_Eastern,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Africa_Eastern,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Africa_Eastern,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Africa_Northern,regional biomass,regional biomass,share-weight,2010,2100,linear
+Africa_Northern,regional coal,regional coal,share-weight,2010,2100,linear
+Africa_Northern,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Africa_Northern,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Africa_Northern,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Africa_Northern unconventional oil,share-weight,2010,2050,linear
+Africa_Northern,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Africa_Northern,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Africa_Northern,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Africa_Southern,regional biomass,regional biomass,share-weight,2010,2100,linear
+Africa_Southern,regional coal,regional coal,share-weight,2010,2100,linear
+Africa_Southern,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Africa_Southern,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Africa_Southern,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Africa_Southern unconventional oil,share-weight,2010,2050,linear
+Africa_Southern,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Africa_Southern,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Africa_Southern,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Africa_Western,regional biomass,regional biomass,share-weight,2010,2100,linear
+Africa_Western,regional coal,regional coal,share-weight,2010,2100,linear
+Africa_Western,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Africa_Western,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Africa_Western,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Africa_Western unconventional oil,share-weight,2010,2050,linear
+Africa_Western,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Africa_Western,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Africa_Western,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Australia_NZ,regional biomass,regional biomass,share-weight,2010,2100,linear
+Australia_NZ,regional coal,regional coal,share-weight,2010,2100,linear
+Australia_NZ,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Australia_NZ,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Australia_NZ,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Australia_NZ unconventional oil,share-weight,2010,2050,linear
+Australia_NZ,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Australia_NZ,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Australia_NZ,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Brazil,regional biomass,regional biomass,share-weight,2010,2100,linear
+Brazil,regional coal,regional coal,share-weight,2010,2100,linear
+Brazil,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Brazil,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Brazil,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Brazil unconventional oil,share-weight,2010,2050,linear
+Brazil,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Brazil,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Brazil,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Canada,regional biomass,regional biomass,share-weight,2010,2100,linear
+Canada,regional coal,regional coal,share-weight,2010,2100,linear
+Canada,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Canada,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Canada,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Canada unconventional oil,share-weight,2010,2050,linear
+Canada,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Canada,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Canada,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Central America and Caribbean,regional biomass,regional biomass,share-weight,2010,2100,linear
+Central America and Caribbean,regional coal,regional coal,share-weight,2010,2100,linear
+Central America and Caribbean,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Central America and Caribbean,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Central America and Caribbean,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Central America and Caribbean unconventional oil,share-weight,2010,2050,linear
+Central America and Caribbean,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Central America and Caribbean,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Central America and Caribbean,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Central Asia,regional biomass,regional biomass,share-weight,2010,2100,linear
+Central Asia,regional coal,regional coal,share-weight,2010,2100,linear
+Central Asia,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Central Asia,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Central Asia,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Central Asia unconventional oil,share-weight,2010,2050,linear
+Central Asia,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Central Asia,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Central Asia,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+China,regional biomass,regional biomass,share-weight,2010,2100,linear
+China,regional coal,regional coal,share-weight,2010,2100,linear
+China,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+China,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+China,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,China unconventional oil,share-weight,2010,2050,linear
+China,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+China,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+China,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+EU-12,regional biomass,regional biomass,share-weight,2010,2100,linear
+EU-12,regional coal,regional coal,share-weight,2010,2100,linear
+EU-12,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+EU-12,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+EU-12,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,EU-12 unconventional oil,share-weight,2010,2050,linear
+EU-12,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+EU-12,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+EU-12,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+EU-15,regional biomass,regional biomass,share-weight,2010,2100,linear
+EU-15,regional coal,regional coal,share-weight,2010,2100,linear
+EU-15,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+EU-15,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+EU-15,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,EU-15 unconventional oil,share-weight,2010,2050,linear
+EU-15,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+EU-15,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+EU-15,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Europe_Eastern,regional biomass,regional biomass,share-weight,2010,2100,linear
+Europe_Eastern,regional coal,regional coal,share-weight,2010,2100,linear
+Europe_Eastern,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Europe_Eastern,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Europe_Eastern,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Europe_Eastern unconventional oil,share-weight,2010,2050,linear
+Europe_Eastern,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Europe_Eastern,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Europe_Eastern,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Europe_Non_EU,regional biomass,regional biomass,share-weight,2010,2100,linear
+Europe_Non_EU,regional coal,regional coal,share-weight,2010,2100,linear
+Europe_Non_EU,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Europe_Non_EU,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Europe_Non_EU,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Europe_Non_EU unconventional oil,share-weight,2010,2050,linear
+Europe_Non_EU,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Europe_Non_EU,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Europe_Non_EU,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+European Free Trade Association,regional biomass,regional biomass,share-weight,2010,2100,linear
+European Free Trade Association,regional coal,regional coal,share-weight,2010,2100,linear
+European Free Trade Association,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+European Free Trade Association,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+European Free Trade Association,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,European Free Trade Association unconventional oil,share-weight,2010,2050,linear
+European Free Trade Association,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+European Free Trade Association,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+European Free Trade Association,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+India,regional biomass,regional biomass,share-weight,2010,2100,linear
+India,regional coal,regional coal,share-weight,2010,2100,linear
+India,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+India,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+India,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,India unconventional oil,share-weight,2010,2050,linear
+India,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+India,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+India,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Indonesia,regional biomass,regional biomass,share-weight,2010,2100,linear
+Indonesia,regional coal,regional coal,share-weight,2010,2100,linear
+Indonesia,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Indonesia,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Indonesia,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Indonesia unconventional oil,share-weight,2010,2050,linear
+Indonesia,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Indonesia,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Indonesia,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Japan,regional biomass,regional biomass,share-weight,2010,2100,linear
+Japan,regional coal,regional coal,share-weight,2010,2100,linear
+Japan,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Japan,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Japan,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Japan unconventional oil,share-weight,2010,2050,linear
+Japan,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Japan,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Japan,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Mexico,regional biomass,regional biomass,share-weight,2010,2100,linear
+Mexico,regional coal,regional coal,share-weight,2010,2100,linear
+Mexico,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Mexico,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Mexico,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Mexico unconventional oil,share-weight,2010,2050,linear
+Mexico,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Mexico,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Mexico,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Middle East,regional biomass,regional biomass,share-weight,2010,2100,linear
+Middle East,regional coal,regional coal,share-weight,2010,2100,linear
+Middle East,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Middle East,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Middle East,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Middle East unconventional oil,share-weight,2010,2050,linear
+Middle East,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Middle East,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Middle East,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Pakistan,regional biomass,regional biomass,share-weight,2010,2100,linear
+Pakistan,regional coal,regional coal,share-weight,2010,2100,linear
+Pakistan,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Pakistan,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Pakistan,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Pakistan unconventional oil,share-weight,2010,2050,linear
+Pakistan,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Pakistan,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Pakistan,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Russia,regional biomass,regional biomass,share-weight,2010,2100,linear
+Russia,regional coal,regional coal,share-weight,2010,2100,linear
+Russia,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Russia,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Russia,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Russia unconventional oil,share-weight,2010,2050,linear
+Russia,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Russia,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Russia,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+South Africa,regional biomass,regional biomass,share-weight,2010,2100,linear
+South Africa,regional coal,regional coal,share-weight,2010,2100,linear
+South Africa,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+South Africa,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+South Africa,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,South Africa unconventional oil,share-weight,2010,2050,linear
+South Africa,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+South Africa,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+South Africa,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+South America_Northern,regional biomass,regional biomass,share-weight,2010,2100,linear
+South America_Northern,regional coal,regional coal,share-weight,2010,2100,linear
+South America_Northern,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+South America_Northern,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+South America_Northern,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,South America_Northern unconventional oil,share-weight,2010,2050,linear
+South America_Northern,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+South America_Northern,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+South America_Northern,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+South America_Southern,regional biomass,regional biomass,share-weight,2010,2100,linear
+South America_Southern,regional coal,regional coal,share-weight,2010,2100,linear
+South America_Southern,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+South America_Southern,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+South America_Southern,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,South America_Southern unconventional oil,share-weight,2010,2050,linear
+South America_Southern,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+South America_Southern,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+South America_Southern,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+South Asia,regional biomass,regional biomass,share-weight,2010,2100,linear
+South Asia,regional coal,regional coal,share-weight,2010,2100,linear
+South Asia,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+South Asia,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+South Asia,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,South Asia unconventional oil,share-weight,2010,2050,linear
+South Asia,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+South Asia,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+South Asia,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+South Korea,regional biomass,regional biomass,share-weight,2010,2100,linear
+South Korea,regional coal,regional coal,share-weight,2010,2100,linear
+South Korea,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+South Korea,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+South Korea,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,South Korea unconventional oil,share-weight,2010,2050,linear
+South Korea,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+South Korea,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+South Korea,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Southeast Asia,regional biomass,regional biomass,share-weight,2010,2100,linear
+Southeast Asia,regional coal,regional coal,share-weight,2010,2100,linear
+Southeast Asia,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Southeast Asia,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Southeast Asia,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Southeast Asia unconventional oil,share-weight,2010,2050,linear
+Southeast Asia,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Southeast Asia,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Southeast Asia,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Taiwan,regional biomass,regional biomass,share-weight,2010,2100,linear
+Taiwan,regional coal,regional coal,share-weight,2010,2100,linear
+Taiwan,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Taiwan,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Taiwan,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Taiwan unconventional oil,share-weight,2010,2050,linear
+Argentina,regional biomass,regional biomass,share-weight,2010,2100,linear
+Argentina,regional coal,regional coal,share-weight,2010,2100,linear
+Argentina,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Argentina,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Argentina,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Argentina unconventional oil,share-weight,2010,2050,linear
+Argentina,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Argentina,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Argentina,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
+Colombia,regional biomass,regional biomass,share-weight,2010,2100,linear
+Colombia,regional coal,regional coal,share-weight,2010,2100,linear
+Colombia,regional natural gas,regional natural gas,share-weight,2010,2100,linear
+Colombia,unconventional oil production,unconventional oil production,share-weight,2010,2100,fixed
+Colombia,regional oil,crude oil,share-weight,2010,2050,linear
+USA,traded unconventional oil,Colombia unconventional oil,share-weight,2010,2050,linear
+Colombia,regional corn for ethanol,regional corn for ethanol,share-weight,2010,2100,fixed
+Colombia,regional sugar for ethanol,regional sugar for ethanol,share-weight,2010,2100,fixed
+Colombia,regional biomassOil,regional biomassOil,share-weight,2010,2100,fixed
