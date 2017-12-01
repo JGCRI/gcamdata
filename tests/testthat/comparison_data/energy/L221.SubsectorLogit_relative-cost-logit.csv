@@ -1,0 +1,322 @@
+INPUT_TABLE
+Variable ID
+SubsectorLogit_relative-cost-logit
+
+region,supplysector,subsector,logit.type
+USA,regional biomass,regional biomass,relative-cost-logit
+USA,regional coal,regional coal,relative-cost-logit
+USA,regional natural gas,regional natural gas,relative-cost-logit
+USA,unconventional oil production,unconventional oil production,relative-cost-logit
+USA,regional oil,crude oil,relative-cost-logit
+USA,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,USA unconventional oil,relative-cost-logit
+USA,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+USA,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+USA,regional biomassOil,regional biomassOil,relative-cost-logit
+Africa_Eastern,regional biomass,regional biomass,relative-cost-logit
+Africa_Eastern,regional coal,regional coal,relative-cost-logit
+Africa_Eastern,regional natural gas,regional natural gas,relative-cost-logit
+Africa_Eastern,unconventional oil production,unconventional oil production,relative-cost-logit
+Africa_Eastern,regional oil,crude oil,relative-cost-logit
+Africa_Eastern,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Africa_Eastern unconventional oil,relative-cost-logit
+Africa_Eastern,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Africa_Eastern,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Africa_Eastern,regional biomassOil,regional biomassOil,relative-cost-logit
+Africa_Northern,regional biomass,regional biomass,relative-cost-logit
+Africa_Northern,regional coal,regional coal,relative-cost-logit
+Africa_Northern,regional natural gas,regional natural gas,relative-cost-logit
+Africa_Northern,unconventional oil production,unconventional oil production,relative-cost-logit
+Africa_Northern,regional oil,crude oil,relative-cost-logit
+Africa_Northern,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Africa_Northern unconventional oil,relative-cost-logit
+Africa_Northern,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Africa_Northern,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Africa_Northern,regional biomassOil,regional biomassOil,relative-cost-logit
+Africa_Southern,regional biomass,regional biomass,relative-cost-logit
+Africa_Southern,regional coal,regional coal,relative-cost-logit
+Africa_Southern,regional natural gas,regional natural gas,relative-cost-logit
+Africa_Southern,unconventional oil production,unconventional oil production,relative-cost-logit
+Africa_Southern,regional oil,crude oil,relative-cost-logit
+Africa_Southern,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Africa_Southern unconventional oil,relative-cost-logit
+Africa_Southern,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Africa_Southern,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Africa_Southern,regional biomassOil,regional biomassOil,relative-cost-logit
+Africa_Western,regional biomass,regional biomass,relative-cost-logit
+Africa_Western,regional coal,regional coal,relative-cost-logit
+Africa_Western,regional natural gas,regional natural gas,relative-cost-logit
+Africa_Western,unconventional oil production,unconventional oil production,relative-cost-logit
+Africa_Western,regional oil,crude oil,relative-cost-logit
+Africa_Western,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Africa_Western unconventional oil,relative-cost-logit
+Africa_Western,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Africa_Western,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Africa_Western,regional biomassOil,regional biomassOil,relative-cost-logit
+Australia_NZ,regional biomass,regional biomass,relative-cost-logit
+Australia_NZ,regional coal,regional coal,relative-cost-logit
+Australia_NZ,regional natural gas,regional natural gas,relative-cost-logit
+Australia_NZ,unconventional oil production,unconventional oil production,relative-cost-logit
+Australia_NZ,regional oil,crude oil,relative-cost-logit
+Australia_NZ,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Australia_NZ unconventional oil,relative-cost-logit
+Australia_NZ,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Australia_NZ,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Australia_NZ,regional biomassOil,regional biomassOil,relative-cost-logit
+Brazil,regional biomass,regional biomass,relative-cost-logit
+Brazil,regional coal,regional coal,relative-cost-logit
+Brazil,regional natural gas,regional natural gas,relative-cost-logit
+Brazil,unconventional oil production,unconventional oil production,relative-cost-logit
+Brazil,regional oil,crude oil,relative-cost-logit
+Brazil,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Brazil unconventional oil,relative-cost-logit
+Brazil,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Brazil,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Brazil,regional biomassOil,regional biomassOil,relative-cost-logit
+Canada,regional biomass,regional biomass,relative-cost-logit
+Canada,regional coal,regional coal,relative-cost-logit
+Canada,regional natural gas,regional natural gas,relative-cost-logit
+Canada,unconventional oil production,unconventional oil production,relative-cost-logit
+Canada,regional oil,crude oil,relative-cost-logit
+Canada,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Canada unconventional oil,relative-cost-logit
+Canada,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Canada,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Canada,regional biomassOil,regional biomassOil,relative-cost-logit
+Central America and Caribbean,regional biomass,regional biomass,relative-cost-logit
+Central America and Caribbean,regional coal,regional coal,relative-cost-logit
+Central America and Caribbean,regional natural gas,regional natural gas,relative-cost-logit
+Central America and Caribbean,unconventional oil production,unconventional oil production,relative-cost-logit
+Central America and Caribbean,regional oil,crude oil,relative-cost-logit
+Central America and Caribbean,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Central America and Caribbean unconventional oil,relative-cost-logit
+Central America and Caribbean,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Central America and Caribbean,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Central America and Caribbean,regional biomassOil,regional biomassOil,relative-cost-logit
+Central Asia,regional biomass,regional biomass,relative-cost-logit
+Central Asia,regional coal,regional coal,relative-cost-logit
+Central Asia,regional natural gas,regional natural gas,relative-cost-logit
+Central Asia,unconventional oil production,unconventional oil production,relative-cost-logit
+Central Asia,regional oil,crude oil,relative-cost-logit
+Central Asia,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Central Asia unconventional oil,relative-cost-logit
+Central Asia,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Central Asia,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Central Asia,regional biomassOil,regional biomassOil,relative-cost-logit
+China,regional biomass,regional biomass,relative-cost-logit
+China,regional coal,regional coal,relative-cost-logit
+China,regional natural gas,regional natural gas,relative-cost-logit
+China,unconventional oil production,unconventional oil production,relative-cost-logit
+China,regional oil,crude oil,relative-cost-logit
+China,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,China unconventional oil,relative-cost-logit
+China,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+China,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+China,regional biomassOil,regional biomassOil,relative-cost-logit
+EU-12,regional biomass,regional biomass,relative-cost-logit
+EU-12,regional coal,regional coal,relative-cost-logit
+EU-12,regional natural gas,regional natural gas,relative-cost-logit
+EU-12,unconventional oil production,unconventional oil production,relative-cost-logit
+EU-12,regional oil,crude oil,relative-cost-logit
+EU-12,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,EU-12 unconventional oil,relative-cost-logit
+EU-12,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+EU-12,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+EU-12,regional biomassOil,regional biomassOil,relative-cost-logit
+EU-15,regional biomass,regional biomass,relative-cost-logit
+EU-15,regional coal,regional coal,relative-cost-logit
+EU-15,regional natural gas,regional natural gas,relative-cost-logit
+EU-15,unconventional oil production,unconventional oil production,relative-cost-logit
+EU-15,regional oil,crude oil,relative-cost-logit
+EU-15,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,EU-15 unconventional oil,relative-cost-logit
+EU-15,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+EU-15,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+EU-15,regional biomassOil,regional biomassOil,relative-cost-logit
+Europe_Eastern,regional biomass,regional biomass,relative-cost-logit
+Europe_Eastern,regional coal,regional coal,relative-cost-logit
+Europe_Eastern,regional natural gas,regional natural gas,relative-cost-logit
+Europe_Eastern,unconventional oil production,unconventional oil production,relative-cost-logit
+Europe_Eastern,regional oil,crude oil,relative-cost-logit
+Europe_Eastern,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Europe_Eastern unconventional oil,relative-cost-logit
+Europe_Eastern,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Europe_Eastern,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Europe_Eastern,regional biomassOil,regional biomassOil,relative-cost-logit
+Europe_Non_EU,regional biomass,regional biomass,relative-cost-logit
+Europe_Non_EU,regional coal,regional coal,relative-cost-logit
+Europe_Non_EU,regional natural gas,regional natural gas,relative-cost-logit
+Europe_Non_EU,unconventional oil production,unconventional oil production,relative-cost-logit
+Europe_Non_EU,regional oil,crude oil,relative-cost-logit
+Europe_Non_EU,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Europe_Non_EU unconventional oil,relative-cost-logit
+Europe_Non_EU,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Europe_Non_EU,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Europe_Non_EU,regional biomassOil,regional biomassOil,relative-cost-logit
+European Free Trade Association,regional biomass,regional biomass,relative-cost-logit
+European Free Trade Association,regional coal,regional coal,relative-cost-logit
+European Free Trade Association,regional natural gas,regional natural gas,relative-cost-logit
+European Free Trade Association,unconventional oil production,unconventional oil production,relative-cost-logit
+European Free Trade Association,regional oil,crude oil,relative-cost-logit
+European Free Trade Association,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,European Free Trade Association unconventional oil,relative-cost-logit
+European Free Trade Association,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+European Free Trade Association,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+European Free Trade Association,regional biomassOil,regional biomassOil,relative-cost-logit
+India,regional biomass,regional biomass,relative-cost-logit
+India,regional coal,regional coal,relative-cost-logit
+India,regional natural gas,regional natural gas,relative-cost-logit
+India,unconventional oil production,unconventional oil production,relative-cost-logit
+India,regional oil,crude oil,relative-cost-logit
+India,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,India unconventional oil,relative-cost-logit
+India,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+India,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+India,regional biomassOil,regional biomassOil,relative-cost-logit
+Indonesia,regional biomass,regional biomass,relative-cost-logit
+Indonesia,regional coal,regional coal,relative-cost-logit
+Indonesia,regional natural gas,regional natural gas,relative-cost-logit
+Indonesia,unconventional oil production,unconventional oil production,relative-cost-logit
+Indonesia,regional oil,crude oil,relative-cost-logit
+Indonesia,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Indonesia unconventional oil,relative-cost-logit
+Indonesia,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Indonesia,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Indonesia,regional biomassOil,regional biomassOil,relative-cost-logit
+Japan,regional biomass,regional biomass,relative-cost-logit
+Japan,regional coal,regional coal,relative-cost-logit
+Japan,regional natural gas,regional natural gas,relative-cost-logit
+Japan,unconventional oil production,unconventional oil production,relative-cost-logit
+Japan,regional oil,crude oil,relative-cost-logit
+Japan,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Japan unconventional oil,relative-cost-logit
+Japan,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Japan,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Japan,regional biomassOil,regional biomassOil,relative-cost-logit
+Mexico,regional biomass,regional biomass,relative-cost-logit
+Mexico,regional coal,regional coal,relative-cost-logit
+Mexico,regional natural gas,regional natural gas,relative-cost-logit
+Mexico,unconventional oil production,unconventional oil production,relative-cost-logit
+Mexico,regional oil,crude oil,relative-cost-logit
+Mexico,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Mexico unconventional oil,relative-cost-logit
+Mexico,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Mexico,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Mexico,regional biomassOil,regional biomassOil,relative-cost-logit
+Middle East,regional biomass,regional biomass,relative-cost-logit
+Middle East,regional coal,regional coal,relative-cost-logit
+Middle East,regional natural gas,regional natural gas,relative-cost-logit
+Middle East,unconventional oil production,unconventional oil production,relative-cost-logit
+Middle East,regional oil,crude oil,relative-cost-logit
+Middle East,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Middle East unconventional oil,relative-cost-logit
+Middle East,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Middle East,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Middle East,regional biomassOil,regional biomassOil,relative-cost-logit
+Pakistan,regional biomass,regional biomass,relative-cost-logit
+Pakistan,regional coal,regional coal,relative-cost-logit
+Pakistan,regional natural gas,regional natural gas,relative-cost-logit
+Pakistan,unconventional oil production,unconventional oil production,relative-cost-logit
+Pakistan,regional oil,crude oil,relative-cost-logit
+Pakistan,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Pakistan unconventional oil,relative-cost-logit
+Pakistan,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Pakistan,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Pakistan,regional biomassOil,regional biomassOil,relative-cost-logit
+Russia,regional biomass,regional biomass,relative-cost-logit
+Russia,regional coal,regional coal,relative-cost-logit
+Russia,regional natural gas,regional natural gas,relative-cost-logit
+Russia,unconventional oil production,unconventional oil production,relative-cost-logit
+Russia,regional oil,crude oil,relative-cost-logit
+Russia,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Russia unconventional oil,relative-cost-logit
+Russia,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Russia,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Russia,regional biomassOil,regional biomassOil,relative-cost-logit
+South Africa,regional biomass,regional biomass,relative-cost-logit
+South Africa,regional coal,regional coal,relative-cost-logit
+South Africa,regional natural gas,regional natural gas,relative-cost-logit
+South Africa,unconventional oil production,unconventional oil production,relative-cost-logit
+South Africa,regional oil,crude oil,relative-cost-logit
+South Africa,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,South Africa unconventional oil,relative-cost-logit
+South Africa,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+South Africa,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+South Africa,regional biomassOil,regional biomassOil,relative-cost-logit
+South America_Northern,regional biomass,regional biomass,relative-cost-logit
+South America_Northern,regional coal,regional coal,relative-cost-logit
+South America_Northern,regional natural gas,regional natural gas,relative-cost-logit
+South America_Northern,unconventional oil production,unconventional oil production,relative-cost-logit
+South America_Northern,regional oil,crude oil,relative-cost-logit
+South America_Northern,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,South America_Northern unconventional oil,relative-cost-logit
+South America_Northern,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+South America_Northern,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+South America_Northern,regional biomassOil,regional biomassOil,relative-cost-logit
+South America_Southern,regional biomass,regional biomass,relative-cost-logit
+South America_Southern,regional coal,regional coal,relative-cost-logit
+South America_Southern,regional natural gas,regional natural gas,relative-cost-logit
+South America_Southern,unconventional oil production,unconventional oil production,relative-cost-logit
+South America_Southern,regional oil,crude oil,relative-cost-logit
+South America_Southern,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,South America_Southern unconventional oil,relative-cost-logit
+South America_Southern,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+South America_Southern,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+South America_Southern,regional biomassOil,regional biomassOil,relative-cost-logit
+South Asia,regional biomass,regional biomass,relative-cost-logit
+South Asia,regional coal,regional coal,relative-cost-logit
+South Asia,regional natural gas,regional natural gas,relative-cost-logit
+South Asia,unconventional oil production,unconventional oil production,relative-cost-logit
+South Asia,regional oil,crude oil,relative-cost-logit
+South Asia,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,South Asia unconventional oil,relative-cost-logit
+South Asia,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+South Asia,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+South Asia,regional biomassOil,regional biomassOil,relative-cost-logit
+South Korea,regional biomass,regional biomass,relative-cost-logit
+South Korea,regional coal,regional coal,relative-cost-logit
+South Korea,regional natural gas,regional natural gas,relative-cost-logit
+South Korea,unconventional oil production,unconventional oil production,relative-cost-logit
+South Korea,regional oil,crude oil,relative-cost-logit
+South Korea,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,South Korea unconventional oil,relative-cost-logit
+South Korea,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+South Korea,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+South Korea,regional biomassOil,regional biomassOil,relative-cost-logit
+Southeast Asia,regional biomass,regional biomass,relative-cost-logit
+Southeast Asia,regional coal,regional coal,relative-cost-logit
+Southeast Asia,regional natural gas,regional natural gas,relative-cost-logit
+Southeast Asia,unconventional oil production,unconventional oil production,relative-cost-logit
+Southeast Asia,regional oil,crude oil,relative-cost-logit
+Southeast Asia,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Southeast Asia unconventional oil,relative-cost-logit
+Southeast Asia,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Southeast Asia,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Southeast Asia,regional biomassOil,regional biomassOil,relative-cost-logit
+Taiwan,regional biomass,regional biomass,relative-cost-logit
+Taiwan,regional coal,regional coal,relative-cost-logit
+Taiwan,regional natural gas,regional natural gas,relative-cost-logit
+Taiwan,unconventional oil production,unconventional oil production,relative-cost-logit
+Taiwan,regional oil,crude oil,relative-cost-logit
+Taiwan,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Taiwan unconventional oil,relative-cost-logit
+Argentina,regional biomass,regional biomass,relative-cost-logit
+Argentina,regional coal,regional coal,relative-cost-logit
+Argentina,regional natural gas,regional natural gas,relative-cost-logit
+Argentina,unconventional oil production,unconventional oil production,relative-cost-logit
+Argentina,regional oil,crude oil,relative-cost-logit
+Argentina,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Argentina unconventional oil,relative-cost-logit
+Argentina,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Argentina,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Argentina,regional biomassOil,regional biomassOil,relative-cost-logit
+Colombia,regional biomass,regional biomass,relative-cost-logit
+Colombia,regional coal,regional coal,relative-cost-logit
+Colombia,regional natural gas,regional natural gas,relative-cost-logit
+Colombia,unconventional oil production,unconventional oil production,relative-cost-logit
+Colombia,regional oil,crude oil,relative-cost-logit
+Colombia,regional oil,unconventional oil,relative-cost-logit
+USA,traded unconventional oil,Colombia unconventional oil,relative-cost-logit
+Colombia,regional corn for ethanol,regional corn for ethanol,relative-cost-logit
+Colombia,regional sugar for ethanol,regional sugar for ethanol,relative-cost-logit
+Colombia,regional biomassOil,regional biomassOil,relative-cost-logit
