@@ -266,7 +266,7 @@ module_energy_LA144.building_det_flsp <- function(command, ...) {
       left_join_error_no_match(iso_GCAM_regID, by = "iso") %>% # Need GCAM region ID
       mutate(value_flsp = value_pcflsp * value * CONV_THOUS_BIL) %>% # Convert from per capita to billions m2
       group_by(GCAM_region_ID, year) %>%
-      summarise(value = sum(value_flsp, na.rm = T)) %>% # Ignore NAs that were introduced via left_join step
+      summarise(value = sum(value_flsp, na.rm = TRUE)) %>% # Ignore NAs that were introduced via left_join step
       ungroup() ->
       L144.flsp_bm2_R_res_Yh # This is a final output table.
 

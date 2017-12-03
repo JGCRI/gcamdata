@@ -84,7 +84,7 @@ make_run_xml_conversion <- function() {
         dot$mi_header,
         dot$xml_file
       )
-      conv_pipe <- pipe(paste(cmd, collapse=" "), open = "w")
+      conv_pipe <- pipe(paste(cmd, collapse = " "), open = "w")
       on.exit(close(conv_pipe))
 
       for(i in seq_along(dot$data_tables)) {
@@ -93,7 +93,7 @@ make_run_xml_conversion <- function() {
         cat("Variable ID", file = conv_pipe, sep = "\n")
         cat(table$header, file = conv_pipe, sep = "\n")
         cat("", file = conv_pipe, sep = "\n")
-        utils::write.table(table$data, file = conv_pipe, sep=",", row.names = FALSE, col.names = TRUE, quote = FALSE)
+        utils::write.table(table$data, file = conv_pipe, sep = ",", row.names = FALSE, col.names = TRUE, quote = FALSE)
         cat("", file = conv_pipe, sep = "\n")
       }
     }
@@ -132,7 +132,7 @@ run_xml_conversion <- make_run_xml_conversion()
 #' @param header The header tag to can be looked up in the header file to
 #' convert \code{data}
 #' @param base_logit_header The base header tag to use for the generated logit type
-#' tables such that \code{paste(base_logit_header, logit.type, sep="_")} corresponds
+#' tables such that \code{paste(base_logit_header, logit.type, sep = "_")} corresponds
 #' to the appropriate model interface header.  Note by default this value is the
 #' same as \code{header} as often this is the case but certainly not always.
 #' @return A "data structure" to hold the various parts needed to run the model
@@ -166,7 +166,7 @@ add_logit_tables_xml <- function(dot, data, header, base_logit_header=header) {
   # Loop through each of the logit types and create a table for it
   # using the appropriate header name.
   for(curr_logit_type in gcam.LOGIT_TYPES) {
-    curr_header <- paste(base_logit_header, curr_logit_type, sep="_")
+    curr_header <- paste(base_logit_header, curr_logit_type, sep = "_")
     data %>%
       filter(logit.type == curr_logit_type) %>%
       # Note we rely on add_xml_data to select the appropriate columns for us
@@ -193,7 +193,7 @@ add_logit_tables_xml <- function(dot, data, header, base_logit_header=header) {
 #' @author Pralit Patel
 #' @export
 add_rename_landnode_xml <- function(dot) {
-  land_name_table <- tibble(from=paste0("LandNode", seq(1,5)),to="LandNode")
+  land_name_table <- tibble(from = paste0("LandNode", seq(1,5)),to="LandNode")
 
   add_xml_data(dot, land_name_table, "NodeRename", NULL)
 }

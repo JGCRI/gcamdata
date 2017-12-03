@@ -264,7 +264,7 @@ test_that("fill_exp_decay_extrapolate", {
   expect_equal(calc_data %>% filter(year == 2000) %>% select(value), tibble(value = as.numeric(NA)))
 
   # test shadowing
-  tibble(technology="riding mower", `1984` = 1400, `1986` = 1500, improvement.rate = 0.5,
+  tibble(technology = "riding mower", `1984` = 1400, `1986` = 1500, improvement.rate = 0.5,
          improvement.max = 0.9, improvement.shadow.technology = "lawnmower") %>%
     bind_rows(test_data) ->
     test_data
@@ -282,7 +282,7 @@ test_that("fill_exp_decay_extrapolate", {
 
   # test all three cases (no extrap, extrap no shadow, extrap shadow) together
   test_data %>%
-    bind_rows(tibble(technology="goats", `1984` = 200, `1986` = 100)) ->
+    bind_rows(tibble(technology = "goats", `1984` = 200, `1986` = 100)) ->
     test_data
   test_data %>% fill_exp_decay_extrapolate(test_years) ->
     calc_data

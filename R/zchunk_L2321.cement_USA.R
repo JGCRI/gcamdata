@@ -291,7 +291,7 @@ module_gcam.usa_L2321.cement_USA <- function(command, ...) {
     L2321.StubTechCoef_cement_USA %>%
       left_join(L2321.IO_GJkg_state_cement_F_Yh_complete %>%
                   select(coefficient, region = state, supplysector, minicam.energy.input, year),
-                by =c("region", "supplysector", "minicam.energy.input", "year")) ->
+                by = c("region", "supplysector", "minicam.energy.input", "year")) ->
       L2321.StubTechCoef_cement_USA
 
     # Add market information, limestone and process heat are state level markets where as electricity

@@ -49,7 +49,7 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
       distinct(region, AgSupplySubsector, AgSupplySector) %>%
       bind_rows(distinct(L2012.AgYield_bio_ref, region, AgSupplySubsector, AgSupplySector)) %>%
       mutate(AgSupplySector = if_else(grepl("biomass_tree", AgSupplySubsector), "biomass_tree", "biomass_grass")) %>%
-      left_join(A_LandLeaf3, by=c("AgSupplySector" = "LandLeaf")) %>%
+      left_join(A_LandLeaf3, by = c("AgSupplySector" = "LandLeaf")) %>%
 # =======
 #     # Use the cropland and bioenergy allocation tables to establish which region/GLU/node combinations are available
 #     L223.LN3_MgdAllocation_crop %>%
@@ -87,15 +87,15 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
       mutate(GCAM_commodity = if_else(grepl("^biomass_grass", AgSupplySubsector), "biomass_grass", "biomass_tree")) %>%
       mutate(GLU_name = if_else(grepl("^biomass_grass", AgSupplySubsector), gsub("biomass_grass_", "", AgSupplySubsector),
                                                                        gsub("biomass_tree_", "", AgSupplySubsector))) %>%
-      left_join_error_no_match(A_LT_Mapping, by="GCAM_commodity") %>%
+      left_join_error_no_match(A_LT_Mapping, by = "GCAM_commodity") %>%
       mutate(LandAllocatorRoot = "root") %>%
-      mutate(LandNode1 = paste(LandNode1, GLU_name, sep="_")) %>%
-      mutate(LandNode2 = paste(LandNode2, GLU_name, sep="_")) %>%
-      mutate(LandNode3 = paste(LandNode3, GLU_name, sep="_")) %>%
-      mutate(LandNode4 = paste(LandLeaf, GLU_name, sep="_")) %>%
+      mutate(LandNode1 = paste(LandNode1, GLU_name, sep = "_")) %>%
+      mutate(LandNode2 = paste(LandNode2, GLU_name, sep = "_")) %>%
+      mutate(LandNode3 = paste(LandNode3, GLU_name, sep = "_")) %>%
+      mutate(LandNode4 = paste(LandLeaf, GLU_name, sep = "_")) %>%
       repeat_add_columns(tibble::tibble(year = FUTURE_YEARS)) %>%
       filter(year >= aglu.BIO_START_YEAR) %>%
-      left_join(A_bio_ghost_share, by="year") %>%
+      left_join(A_bio_ghost_share, by = "year") %>%
       mutate(ghost.unnormalized.share = approx_fun(year, ghost.share)) %>%
       select(-GLU_name, -GCAM_commodity, -AgSupplySubsector, -LandLeaf, -Land_Type, -ghost.share) ->
       L2242.LN4_NodeGhostShare

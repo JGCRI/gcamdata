@@ -66,9 +66,9 @@ module_aglu_LB120.LC_GIS_R_LTgis_Yh_GLU <- function(command, ...) {
 
     land.type$Land_Type <-
         ltype %>%
-          replace(hyde=='Cropland', 'Cropland') %>%
-          replace(hyde=='Pasture', 'Pasture') %>%
-          replace(hyde=='UrbanLand', 'UrbanLand')
+          replace(hyde == "Cropland", "Cropland") %>%
+          replace(hyde == "Pasture", "Pasture") %>%
+          replace(hyde == "UrbanLand", "UrbanLand")
 
     land.type$Area_bm2 <- land.type$value * CONV_HA_BM2
     L100.Land_type_area_ha <- land.type # Rename to the convention used in the

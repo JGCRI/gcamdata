@@ -3,13 +3,13 @@
 context('gdp-join')
 
 ## set up test data
-past <- tibble(year=c(2000, 2005, 2010)) %>%
-  tidyr::crossing(iso=c('xxl', 'xxp')) %>%
+past <- tibble(year = c(2000, 2005, 2010)) %>%
+  tidyr::crossing(iso = c('xxl', 'xxp')) %>%
   mutate(gdp=if_else(iso == 'xxl', 10 * year, 5 * year))
 
 future <- tibble(year = rep(c(2005, 2010, 2015), 2), iso = c(rep('xxl', 3), rep('xxp', 3)),
                  gdp = c(cumprod(rep(1.05, 3)), cumprod(rep(1.02, 3)) ) ) %>%
-  tidyr::crossing(scenario=c('gud', 'bad')) %>%
+  tidyr::crossing(scenario = c('gud', 'bad')) %>%
   mutate(gdp=if_else(scenario == 'gud', gdp, gdp * 0.9^((year - 2005) / 5)))
 
 test_that('Joining time series with future scenarios works', {
