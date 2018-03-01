@@ -1,4 +1,4 @@
-# Test the dstrace utility
+# Test that files are encoded correctly (line endings, blank final line)
 
 context("file_encoding")
 
