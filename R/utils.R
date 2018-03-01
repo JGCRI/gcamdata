@@ -141,14 +141,7 @@ parse_csv_header <- function(obj, filename, n = 20, enforce_requirements = TRUE)
   }
 
   # File may be compressed; handle this via a connection
-  if(grepl("\\.gz$", filename)) {
-    con <- gzfile(filename)
-  } else if(grepl("\\.zip$", filename)) {
-    con <- unz(filename, filename = basename(gsub("\\.zip$", "", filename)))
-  } else {
-    con <- file(filename)
-  }
-
+  con <- get_file_connection(filename)
   x <- readLines(con, n = n)
   close(con)
 
@@ -485,7 +478,7 @@ screen_forbidden <- function(fn) {
 #' @author BBL
 normalize_files <- function(root = system.file("extdata", package = "gcamdata"), min_compress_size = 1) {
   if(.Platform$OS.type == "windows") {
-   stop("This should not be run on Windows")
+    stop("This should not be run on Windows")
   }
   assert_that(is.character(root))
   assert_that(is.numeric(min_compress_size))
@@ -499,24 +492,14 @@ normalize_files <- function(root = system.file("extdata", package = "gcamdata"),
     size <- round(file.size(files[f]) / 1024 / 1024, 3)  # MB
     message(f, "/", length(files), ": ", shortfn, ", ", size, " Mb ", appendLF = FALSE)
 
-    # Open the appropriate-type connection, depending on compression
-    if(grepl("\\.gz$", files[f])) {
-      con <- gzfile(files[f])
-      message("(gz)")
-    } else if(grepl("\\.zip$", files[f])) {
-      con <- unz(files[f], filename = basename(gsub("\\.zip$", "", files[f])))
-      message("(zip)")
-    } else {
-      con <- file(files[f])
-      message()
-    }
+    con <- get_file_connection(files[f])
 
     # Read file and then write it back out
     message("\tReading...", appendLF = FALSE)
     open(con)
     txt <- readLines(con, warn = FALSE)
     close(con)
-    uc_size <- format(object.size(txt), units = "Mb")
+    uc_size <- format(utils::object.size(txt), units = "Mb")
     message("OK. ", uc_size, " uncompressed")
 
     message("\tWriting...", appendLF = FALSE)
@@ -538,4 +521,17 @@ normalize_files <- function(root = system.file("extdata", package = "gcamdata"),
       message("OK")
     }
   }
+}
+
+
+get_file_connection <- function(f) {
+  # Set up the appropriate-type connection, depending on compression
+  if(grepl("\\.gz$", f)) {
+    con <- gzfile(f)
+  } else if(grepl("\\.zip$", f)) {
+    con <- unz(f, filename = basename(gsub("\\.zip$", "", f)))
+  } else {
+    con <- file(f)
+  }
+  con
 }
