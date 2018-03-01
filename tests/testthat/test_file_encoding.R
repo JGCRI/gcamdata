@@ -9,14 +9,13 @@ test_that("inputs are encoded correctly", {
   # Get a list of all input files: CSV files that may or may not be already compressed
   files <- list.files(root, pattern = "\\.csv(\\.gz|\\.zip)?$", full.names = TRUE, recursive = TRUE)
   tf <- tempfile()
-  td <- tempdir()
 
   for(f in files) {
     # Decompress the file if necessary
     if(grepl("\\.gz$", f)) {
       R.utils::gunzip(f, remove = FALSE, destname = tf, overwrite = TRUE)
     } else if(grepl("\\.zip$", f)) {
-      zipfiles <- unzip(f, exdir = tempdir())
+      zipfiles <- unzip(f, exdir = tempdir(), overwrite = TRUE)
       file.copy(zipfiles[1], tf, overwrite = TRUE)
     } else {
       file.copy(f, tf, overwrite = TRUE)
