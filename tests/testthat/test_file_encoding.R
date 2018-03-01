@@ -4,7 +4,7 @@ context("file_encoding")
 
 test_that("inputs are encoded correctly", {
 
-  root <- system.file("extdata", package = "gcamdata")
+  root <- "../../inst/extdata"
 
   # Get a list of all input files: CSV files that may or may not be already compressed
   files <- list.files(root, pattern = "\\.csv(\\.gz|\\.zip)?$", full.names = TRUE, recursive = TRUE)
