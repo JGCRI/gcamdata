@@ -19,8 +19,8 @@ Nothing - run for side effects only.
 Normalize line endings for all package input data and compress files.
 }
 \details{
-Some GCAM input datafiles have bad line endings (like you would find in Mac OS 9 and previous), and/or
-don't have a final newline. This utility script converts all files to have Unix line endings (\code{\\n}) and a final newline.
+Some GCAM input datafiles have bad (Windows-style) line endings, and/or
+don't have a final newline. This utility script converts all files to have Unix line endings (\code{\\0a}) and a final newline.
 It also automatically compresses files above a certain size.
 }
 \note{

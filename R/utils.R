@@ -472,8 +472,8 @@ screen_forbidden <- function(fn) {
 #' @return Nothing - run for side effects only.
 #' @note Set \code{root} to "./extdata" in the git directory, not the package root, to make changes that 'stick'.
 #' @export
-#' @details Some GCAM input datafiles have bad line endings (like you would find in Mac OS 9 and previous), and/or
-#' don't have a final newline. This utility script converts all files to have Unix line endings (\code{\\n}) and a final newline.
+#' @details Some GCAM input datafiles have bad (Windows-style) line endings, and/or
+#' don't have a final newline. This utility script converts all files to have Unix line endings (\code{\\0a}) and a final newline.
 #' It also automatically compresses files above a certain size.
 #' @author BBL
 normalize_files <- function(root = system.file("extdata", package = "gcamdata"), min_compress_size = 1) {
@@ -515,7 +515,7 @@ normalize_files <- function(root = system.file("extdata", package = "gcamdata"),
 
     # Compress if necessary
     # Note that Rutils::gzip will automatically remove the uncompressed file
-    if(uc_size > min_compress_size) {
+    if(uc_size >= min_compress_size) {
       message("\tCompressing...", appendLF = FALSE)
       R.utils::gzip(ofile)
       message("OK")
