@@ -81,10 +81,12 @@ USA,Root_Tuber,Root_Tuber_GreatLakes,1975,-3
 USA,SugarCrop,SugarCrop_GreatLakes,1975,-3
 USA,Wheat,Wheat_GreatLakes,1975,-3
 USA,biomass,biomass_grass_MexCstNW,1975,-3
+USA,biomass,biomass_tree_MexCstNW,1975,-3
 USA,Corn,Corn_MexCstNW,1975,-3
 USA,FiberCrop,FiberCrop_MexCstNW,1975,-3
 USA,FodderGrass,FodderGrass_MexCstNW,1975,-3
 USA,FodderHerb,FodderHerb_MexCstNW,1975,-3
+USA,Forest,Forest_MexCstNW,1975,-3
 USA,MiscCrop,MiscCrop_MexCstNW,1975,-3
 USA,OtherGrain,OtherGrain_MexCstNW,1975,-3
 USA,Pasture,Pasture_MexCstNW,1975,-3
@@ -494,6 +496,17 @@ Africa_Northern,Rice,Rice_NileR,1975,-3
 Africa_Northern,Root_Tuber,Root_Tuber_NileR,1975,-3
 Africa_Northern,SugarCrop,SugarCrop_NileR,1975,-3
 Africa_Northern,Wheat,Wheat_NileR,1975,-3
+Africa_Northern,biomass,biomass_grass_SinaiP,1975,-3
+Africa_Northern,Corn,Corn_SinaiP,1975,-3
+Africa_Northern,FiberCrop,FiberCrop_SinaiP,1975,-3
+Africa_Northern,FodderHerb,FodderHerb_SinaiP,1975,-3
+Africa_Northern,MiscCrop,MiscCrop_SinaiP,1975,-3
+Africa_Northern,OilCrop,OilCrop_SinaiP,1975,-3
+Africa_Northern,OtherGrain,OtherGrain_SinaiP,1975,-3
+Africa_Northern,Rice,Rice_SinaiP,1975,-3
+Africa_Northern,Root_Tuber,Root_Tuber_SinaiP,1975,-3
+Africa_Northern,SugarCrop,SugarCrop_SinaiP,1975,-3
+Africa_Northern,Wheat,Wheat_SinaiP,1975,-3
 Africa_Southern,biomass,biomass_grass_AfrCstE,1975,-3
 Africa_Southern,biomass,biomass_tree_AfrCstE,1975,-3
 Africa_Southern,Corn,Corn_AfrCstE,1975,-3
@@ -921,6 +934,7 @@ Australia_NZ,Wheat,Wheat_Tasmania,1975,-3
 Brazil,biomass,biomass_grass_AmazonR,1975,-3
 Brazil,biomass,biomass_tree_AmazonR,1975,-3
 Brazil,Corn,Corn_AmazonR,1975,-3
+Brazil,FiberCrop,FiberCrop_AmazonR,1975,-3
 Brazil,Forest,Forest_AmazonR,1975,-3
 Brazil,MiscCrop,MiscCrop_AmazonR,1975,-3
 Brazil,OilCrop,OilCrop_AmazonR,1975,-3
@@ -930,6 +944,7 @@ Brazil,Pasture,Pasture_AmazonR,1975,-3
 Brazil,Rice,Rice_AmazonR,1975,-3
 Brazil,Root_Tuber,Root_Tuber_AmazonR,1975,-3
 Brazil,SugarCrop,SugarCrop_AmazonR,1975,-3
+Brazil,Wheat,Wheat_AmazonR,1975,-3
 Brazil,biomass,biomass_grass_BrzCstE,1975,-3
 Brazil,biomass,biomass_tree_BrzCstE,1975,-3
 Brazil,Corn,Corn_BrzCstE,1975,-3
@@ -970,20 +985,9 @@ Brazil,Rice,Rice_BrzCstS,1975,-3
 Brazil,Root_Tuber,Root_Tuber_BrzCstS,1975,-3
 Brazil,SugarCrop,SugarCrop_BrzCstS,1975,-3
 Brazil,Wheat,Wheat_BrzCstS,1975,-3
-Brazil,biomass,biomass_grass_OrinocoR,1975,-3
 Brazil,biomass,biomass_tree_OrinocoR,1975,-3
-Brazil,Corn,Corn_OrinocoR,1975,-3
-Brazil,FiberCrop,FiberCrop_OrinocoR,1975,-3
 Brazil,Forest,Forest_OrinocoR,1975,-3
-Brazil,MiscCrop,MiscCrop_OrinocoR,1975,-3
-Brazil,OilCrop,OilCrop_OrinocoR,1975,-3
-Brazil,OtherGrain,OtherGrain_OrinocoR,1975,-3
-Brazil,PalmFruit,PalmFruit_OrinocoR,1975,-3
 Brazil,Pasture,Pasture_OrinocoR,1975,-3
-Brazil,Rice,Rice_OrinocoR,1975,-3
-Brazil,Root_Tuber,Root_Tuber_OrinocoR,1975,-3
-Brazil,SugarCrop,SugarCrop_OrinocoR,1975,-3
-Brazil,Wheat,Wheat_OrinocoR,1975,-3
 Brazil,biomass,biomass_grass_ParnaibaR,1975,-3
 Brazil,biomass,biomass_tree_ParnaibaR,1975,-3
 Brazil,Corn,Corn_ParnaibaR,1975,-3
@@ -1450,12 +1454,10 @@ Central Asia,Root_Tuber,Root_Tuber_SyrDaryaR,1975,-3
 Central Asia,SugarCrop,SugarCrop_SyrDaryaR,1975,-3
 Central Asia,Wheat,Wheat_SyrDaryaR,1975,-3
 Central Asia,biomass,biomass_grass_Tarim,1975,-3
-Central Asia,biomass,biomass_tree_Tarim,1975,-3
 Central Asia,Corn,Corn_Tarim,1975,-3
 Central Asia,FiberCrop,FiberCrop_Tarim,1975,-3
 Central Asia,FodderGrass,FodderGrass_Tarim,1975,-3
 Central Asia,FodderHerb,FodderHerb_Tarim,1975,-3
-Central Asia,Forest,Forest_Tarim,1975,-3
 Central Asia,MiscCrop,MiscCrop_Tarim,1975,-3
 Central Asia,OilCrop,OilCrop_Tarim,1975,-3
 Central Asia,OtherGrain,OtherGrain_Tarim,1975,-3
@@ -2021,7 +2023,6 @@ EU-15,Wheat,Wheat_AdrBlkSea,1975,-3
 EU-15,biomass,biomass_grass_DanubeR,1975,-3
 EU-15,biomass,biomass_tree_DanubeR,1975,-3
 EU-15,Corn,Corn_DanubeR,1975,-3
-EU-15,FiberCrop,FiberCrop_DanubeR,1975,-3
 EU-15,FodderGrass,FodderGrass_DanubeR,1975,-3
 EU-15,FodderHerb,FodderHerb_DanubeR,1975,-3
 EU-15,Forest,Forest_DanubeR,1975,-3
@@ -2029,7 +2030,6 @@ EU-15,MiscCrop,MiscCrop_DanubeR,1975,-3
 EU-15,OilCrop,OilCrop_DanubeR,1975,-3
 EU-15,OtherGrain,OtherGrain_DanubeR,1975,-3
 EU-15,Pasture,Pasture_DanubeR,1975,-3
-EU-15,Rice,Rice_DanubeR,1975,-3
 EU-15,Root_Tuber,Root_Tuber_DanubeR,1975,-3
 EU-15,SugarCrop,SugarCrop_DanubeR,1975,-3
 EU-15,Wheat,Wheat_DanubeR,1975,-3
@@ -2276,16 +2276,6 @@ EU-15,Rice,Rice_LoireR,1975,-3
 EU-15,Root_Tuber,Root_Tuber_LoireR,1975,-3
 EU-15,SugarCrop,SugarCrop_LoireR,1975,-3
 EU-15,Wheat,Wheat_LoireR,1975,-3
-EU-15,biomass,biomass_grass_MeditE,1975,-3
-EU-15,Corn,Corn_MeditE,1975,-3
-EU-15,FodderGrass,FodderGrass_MeditE,1975,-3
-EU-15,FodderHerb,FodderHerb_MeditE,1975,-3
-EU-15,MiscCrop,MiscCrop_MeditE,1975,-3
-EU-15,OilCrop,OilCrop_MeditE,1975,-3
-EU-15,OtherGrain,OtherGrain_MeditE,1975,-3
-EU-15,Pasture,Pasture_MeditE,1975,-3
-EU-15,Root_Tuber,Root_Tuber_MeditE,1975,-3
-EU-15,Wheat,Wheat_MeditE,1975,-3
 EU-15,biomass,biomass_grass_MeditIsl,1975,-3
 EU-15,biomass,biomass_tree_MeditIsl,1975,-3
 EU-15,Corn,Corn_MeditIsl,1975,-3
@@ -3130,18 +3120,6 @@ Indonesia,Pasture,Pasture_Kalimantan,1975,-3
 Indonesia,Rice,Rice_Kalimantan,1975,-3
 Indonesia,Root_Tuber,Root_Tuber_Kalimantan,1975,-3
 Indonesia,SugarCrop,SugarCrop_Kalimantan,1975,-3
-Indonesia,biomass,biomass_grass_MalaysiaP,1975,-3
-Indonesia,biomass,biomass_tree_MalaysiaP,1975,-3
-Indonesia,Corn,Corn_MalaysiaP,1975,-3
-Indonesia,FiberCrop,FiberCrop_MalaysiaP,1975,-3
-Indonesia,Forest,Forest_MalaysiaP,1975,-3
-Indonesia,MiscCrop,MiscCrop_MalaysiaP,1975,-3
-Indonesia,OilCrop,OilCrop_MalaysiaP,1975,-3
-Indonesia,PalmFruit,PalmFruit_MalaysiaP,1975,-3
-Indonesia,Pasture,Pasture_MalaysiaP,1975,-3
-Indonesia,Rice,Rice_MalaysiaP,1975,-3
-Indonesia,Root_Tuber,Root_Tuber_MalaysiaP,1975,-3
-Indonesia,SugarCrop,SugarCrop_MalaysiaP,1975,-3
 Indonesia,biomass,biomass_grass_SepikR,1975,-3
 Indonesia,biomass,biomass_tree_SepikR,1975,-3
 Indonesia,Corn,Corn_SepikR,1975,-3
@@ -3645,7 +3623,6 @@ Middle East,Wheat,Wheat_TigrEuphR,1975,-3
 Pakistan,biomass,biomass_grass_AmuDaryaR,1975,-3
 Pakistan,Corn,Corn_AmuDaryaR,1975,-3
 Pakistan,MiscCrop,MiscCrop_AmuDaryaR,1975,-3
-Pakistan,OilCrop,OilCrop_AmuDaryaR,1975,-3
 Pakistan,Pasture,Pasture_AmuDaryaR,1975,-3
 Pakistan,Wheat,Wheat_AmuDaryaR,1975,-3
 Pakistan,biomass,biomass_grass_ArabianSea,1975,-3
@@ -3818,6 +3795,7 @@ Russia,OtherGrain,OtherGrain_CaspianSW,1975,-3
 Russia,Pasture,Pasture_CaspianSW,1975,-3
 Russia,Rice,Rice_CaspianSW,1975,-3
 Russia,Root_Tuber,Root_Tuber_CaspianSW,1975,-3
+Russia,SugarCrop,SugarCrop_CaspianSW,1975,-3
 Russia,Wheat,Wheat_CaspianSW,1975,-3
 Russia,biomass,biomass_grass_DaugavaR,1975,-3
 Russia,biomass,biomass_tree_DaugavaR,1975,-3
@@ -4145,6 +4123,18 @@ South Africa,Rice,Rice_OrangeR,1975,-3
 South Africa,Root_Tuber,Root_Tuber_OrangeR,1975,-3
 South Africa,SugarCrop,SugarCrop_OrangeR,1975,-3
 South Africa,Wheat,Wheat_OrangeR,1975,-3
+South America_Northern,biomass,biomass_grass_AmazonR,1975,-3
+South America_Northern,biomass,biomass_tree_AmazonR,1975,-3
+South America_Northern,Corn,Corn_AmazonR,1975,-3
+South America_Northern,FiberCrop,FiberCrop_AmazonR,1975,-3
+South America_Northern,Forest,Forest_AmazonR,1975,-3
+South America_Northern,MiscCrop,MiscCrop_AmazonR,1975,-3
+South America_Northern,OilCrop,OilCrop_AmazonR,1975,-3
+South America_Northern,PalmFruit,PalmFruit_AmazonR,1975,-3
+South America_Northern,Pasture,Pasture_AmazonR,1975,-3
+South America_Northern,Rice,Rice_AmazonR,1975,-3
+South America_Northern,Root_Tuber,Root_Tuber_AmazonR,1975,-3
+South America_Northern,SugarCrop,SugarCrop_AmazonR,1975,-3
 South America_Northern,biomass,biomass_grass_MagdalenaR,1975,-3
 South America_Northern,biomass,biomass_tree_MagdalenaR,1975,-3
 South America_Northern,Corn,Corn_MagdalenaR,1975,-3
@@ -4200,6 +4190,22 @@ South America_Northern,Rice,Rice_SAmerCstNE,1975,-3
 South America_Northern,Root_Tuber,Root_Tuber_SAmerCstNE,1975,-3
 South America_Northern,SugarCrop,SugarCrop_SAmerCstNE,1975,-3
 South America_Northern,Wheat,Wheat_SAmerCstNE,1975,-3
+South America_Southern,biomass,biomass_grass_AmazonR,1975,-3
+South America_Southern,biomass,biomass_tree_AmazonR,1975,-3
+South America_Southern,Corn,Corn_AmazonR,1975,-3
+South America_Southern,FiberCrop,FiberCrop_AmazonR,1975,-3
+South America_Southern,FodderGrass,FodderGrass_AmazonR,1975,-3
+South America_Southern,FodderHerb,FodderHerb_AmazonR,1975,-3
+South America_Southern,Forest,Forest_AmazonR,1975,-3
+South America_Southern,MiscCrop,MiscCrop_AmazonR,1975,-3
+South America_Southern,OilCrop,OilCrop_AmazonR,1975,-3
+South America_Southern,OtherGrain,OtherGrain_AmazonR,1975,-3
+South America_Southern,PalmFruit,PalmFruit_AmazonR,1975,-3
+South America_Southern,Pasture,Pasture_AmazonR,1975,-3
+South America_Southern,Rice,Rice_AmazonR,1975,-3
+South America_Southern,Root_Tuber,Root_Tuber_AmazonR,1975,-3
+South America_Southern,SugarCrop,SugarCrop_AmazonR,1975,-3
+South America_Southern,Wheat,Wheat_AmazonR,1975,-3
 South America_Southern,biomass,biomass_grass_ArgColoR,1975,-3
 South America_Southern,Corn,Corn_ArgColoR,1975,-3
 South America_Southern,FiberCrop,FiberCrop_ArgColoR,1975,-3
@@ -4312,22 +4318,6 @@ South America_Southern,Rice,Rice_NegroR,1975,-3
 South America_Southern,Root_Tuber,Root_Tuber_NegroR,1975,-3
 South America_Southern,SugarCrop,SugarCrop_NegroR,1975,-3
 South America_Southern,Wheat,Wheat_NegroR,1975,-3
-South America_Southern,biomass,biomass_grass_OrinocoR,1975,-3
-South America_Southern,biomass,biomass_tree_OrinocoR,1975,-3
-South America_Southern,Corn,Corn_OrinocoR,1975,-3
-South America_Southern,FiberCrop,FiberCrop_OrinocoR,1975,-3
-South America_Southern,FodderGrass,FodderGrass_OrinocoR,1975,-3
-South America_Southern,FodderHerb,FodderHerb_OrinocoR,1975,-3
-South America_Southern,Forest,Forest_OrinocoR,1975,-3
-South America_Southern,MiscCrop,MiscCrop_OrinocoR,1975,-3
-South America_Southern,OilCrop,OilCrop_OrinocoR,1975,-3
-South America_Southern,OtherGrain,OtherGrain_OrinocoR,1975,-3
-South America_Southern,PalmFruit,PalmFruit_OrinocoR,1975,-3
-South America_Southern,Pasture,Pasture_OrinocoR,1975,-3
-South America_Southern,Rice,Rice_OrinocoR,1975,-3
-South America_Southern,Root_Tuber,Root_Tuber_OrinocoR,1975,-3
-South America_Southern,SugarCrop,SugarCrop_OrinocoR,1975,-3
-South America_Southern,Wheat,Wheat_OrinocoR,1975,-3
 South America_Southern,biomass,biomass_grass_PeruCst,1975,-3
 South America_Southern,biomass,biomass_tree_PeruCst,1975,-3
 South America_Southern,Corn,Corn_PeruCst,1975,-3
@@ -4959,6 +4949,20 @@ Argentina,Rice,Rice_Salinas,1975,-3
 Argentina,Root_Tuber,Root_Tuber_Salinas,1975,-3
 Argentina,SugarCrop,SugarCrop_Salinas,1975,-3
 Argentina,Wheat,Wheat_Salinas,1975,-3
+Colombia,biomass,biomass_grass_AmazonR,1975,-3
+Colombia,biomass,biomass_tree_AmazonR,1975,-3
+Colombia,Corn,Corn_AmazonR,1975,-3
+Colombia,FiberCrop,FiberCrop_AmazonR,1975,-3
+Colombia,Forest,Forest_AmazonR,1975,-3
+Colombia,MiscCrop,MiscCrop_AmazonR,1975,-3
+Colombia,OilCrop,OilCrop_AmazonR,1975,-3
+Colombia,OtherGrain,OtherGrain_AmazonR,1975,-3
+Colombia,PalmFruit,PalmFruit_AmazonR,1975,-3
+Colombia,Pasture,Pasture_AmazonR,1975,-3
+Colombia,Rice,Rice_AmazonR,1975,-3
+Colombia,Root_Tuber,Root_Tuber_AmazonR,1975,-3
+Colombia,SugarCrop,SugarCrop_AmazonR,1975,-3
+Colombia,Wheat,Wheat_AmazonR,1975,-3
 Colombia,biomass,biomass_grass_ColEcuaCst,1975,-3
 Colombia,biomass,biomass_tree_ColEcuaCst,1975,-3
 Colombia,Corn,Corn_ColEcuaCst,1975,-3

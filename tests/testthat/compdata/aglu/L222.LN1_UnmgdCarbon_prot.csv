@@ -1,8 +1,12 @@
+INPUT_TABLE
+Variable ID
+LN1_UnmgdCarbon
+
 region,LandAllocatorRoot,LandNode1,UnmanagedLandLeaf,hist.veg.carbon.density,hist.soil.carbon.density,veg.carbon.density,soil.carbon.density,mature.age.year.fillout,mature.age,min.veg.carbon.density,min.soil.carbon.density
 USA,root,ProtectedUnmanagedPasture_PacArctic,ProtectedUnmanagedPasture_PacArctic,1.7,15.6,1.7,15.6,1975,36,0,0
 USA,root,ProtectedUnmanagedPasture_NelsonR,ProtectedUnmanagedPasture_NelsonR,1,12.8,1,12.8,1975,16,0,0
-USA,root,ProtectedUnmanagedPasture_FraserR,ProtectedUnmanagedPasture_FraserR,2.5,17.4,2.5,17.4,1975,50,0,0
-USA,root,ProtectedUnmanagedPasture_MexCstNW,ProtectedUnmanagedPasture_MexCstNW,0.8,11.3,0.8,11.3,1975,18,0,0
+USA,root,ProtectedUnmanagedPasture_FraserR,ProtectedUnmanagedPasture_FraserR,2.5,18.1,2.5,18.1,1975,50,0,0
+USA,root,ProtectedUnmanagedPasture_MexCstNW,ProtectedUnmanagedPasture_MexCstNW,0.9,11.4,0.9,11.4,1975,18,0,0
 USA,root,ProtectedUnmanagedPasture_Caribbean,ProtectedUnmanagedPasture_Caribbean,2.1,10.5,2.1,10.5,1975,32,0,0
 USA,root,ProtectedUnmanagedPasture_California,ProtectedUnmanagedPasture_California,1.6,9.2,1.6,9.2,1975,38,0,0
 USA,root,ProtectedUnmanagedPasture_MissppRN,ProtectedUnmanagedPasture_MissppRN,2.2,11,2.2,11,1975,33,0,0
@@ -23,7 +27,7 @@ USA,root,ProtectedUnmanagedPasture_UsaCstNE,ProtectedUnmanagedPasture_UsaCstNE,2
 USA,root,ProtectedUnmanagedPasture_UsaCstE,ProtectedUnmanagedPasture_UsaCstE,2.5,12.9,2.5,12.9,1975,50,0,0
 Africa_Eastern,root,ProtectedUnmanagedPasture_NileR,ProtectedUnmanagedPasture_NileR,2.2,9.7,2.2,9.7,1975,28,0,0
 Africa_Eastern,root,ProtectedUnmanagedPasture_AfrCstNE,ProtectedUnmanagedPasture_AfrCstNE,1.2,7.1,1.2,7.1,1975,36,0,0
-Africa_Eastern,root,ProtectedUnmanagedPasture_AfrIntN,ProtectedUnmanagedPasture_AfrIntN,0.6,7.2,0.6,7.2,1975,41,0,0
+Africa_Eastern,root,ProtectedUnmanagedPasture_AfrIntN,ProtectedUnmanagedPasture_AfrIntN,0.6,7.2,0.6,7.2,1975,40,0,0
 Africa_Eastern,root,ProtectedUnmanagedPasture_LChad,ProtectedUnmanagedPasture_LChad,2,10.3,2,10.3,1975,25,0,0
 Africa_Eastern,root,ProtectedUnmanagedPasture_ShebJubR,ProtectedUnmanagedPasture_ShebJubR,1.6,8.8,1.6,8.8,1975,23,0,0
 Africa_Eastern,root,ProtectedUnmanagedPasture_AfrCstE,ProtectedUnmanagedPasture_AfrCstE,1.8,9.2,1.8,9.2,1975,32,0,0
@@ -60,7 +64,7 @@ Africa_Western,root,ProtectedUnmanagedPasture_SenegalR,ProtectedUnmanagedPasture
 Africa_Western,root,ProtectedUnmanagedPasture_VoltaR,ProtectedUnmanagedPasture_VoltaR,2.4,9.7,2.4,9.7,1975,31,0,0
 Africa_Western,root,ProtectedUnmanagedPasture_GuineaGulf,ProtectedUnmanagedPasture_GuineaGulf,2.5,9.7,2.5,9.7,1975,36,0,0
 Africa_Western,root,ProtectedUnmanagedPasture_CongoR,ProtectedUnmanagedPasture_CongoR,2.5,9.7,2.5,9.7,1975,36,0,0
-Africa_Western,root,ProtectedUnmanagedPasture_ZambeziR,ProtectedUnmanagedPasture_ZambeziR,2.5,9.8,2.5,9.8,1975,35,0,0
+Africa_Western,root,ProtectedUnmanagedPasture_ZambeziR,ProtectedUnmanagedPasture_ZambeziR,2.5,9.8,2.5,9.8,1975,36,0,0
 Australia_NZ,root,ProtectedUnmanagedPasture_AusCstN,ProtectedUnmanagedPasture_AusCstN,1.7,8.6,1.7,8.6,1975,32,0,0
 Australia_NZ,root,ProtectedUnmanagedPasture_AusCstE,ProtectedUnmanagedPasture_AusCstE,2.3,9,2.3,9,1975,28,0,0
 Australia_NZ,root,ProtectedUnmanagedPasture_AusCstW,ProtectedUnmanagedPasture_AusCstW,1.4,7.5,1.4,7.5,1975,39,0,0
@@ -69,9 +73,9 @@ Australia_NZ,root,ProtectedUnmanagedPasture_NewZealand,ProtectedUnmanagedPasture
 Australia_NZ,root,ProtectedUnmanagedPasture_AusCstS,ProtectedUnmanagedPasture_AusCstS,1.6,7.9,1.6,7.9,1975,38,0,0
 Australia_NZ,root,ProtectedUnmanagedPasture_MurrayDrlg,ProtectedUnmanagedPasture_MurrayDrlg,2.1,8.6,2.1,8.6,1975,30,0,0
 Australia_NZ,root,ProtectedUnmanagedPasture_Tasmania,ProtectedUnmanagedPasture_Tasmania,2.5,9.7,2.5,9.7,1975,38,0,0
-Brazil,root,ProtectedUnmanagedPasture_OrinocoR,ProtectedUnmanagedPasture_OrinocoR,2.5,9.8,2.5,9.8,1975,36,0,0
+Brazil,root,ProtectedUnmanagedPasture_OrinocoR,ProtectedUnmanagedPasture_OrinocoR,1.7,15.8,1.7,15.8,1975,40,0,0
 Brazil,root,ProtectedUnmanagedPasture_SAmerCstNE,ProtectedUnmanagedPasture_SAmerCstNE,2.4,9.7,2.4,9.7,1975,37,0,0
-Brazil,root,ProtectedUnmanagedPasture_AmazonR,ProtectedUnmanagedPasture_AmazonR,2.2,10.3,2.2,10.3,1975,34,0,0
+Brazil,root,ProtectedUnmanagedPasture_AmazonR,ProtectedUnmanagedPasture_AmazonR,2.4,9.8,2.4,9.8,1975,36,0,0
 Brazil,root,ProtectedUnmanagedPasture_BrzCstN,ProtectedUnmanagedPasture_BrzCstN,2.3,9.3,2.3,9.3,1975,33,0,0
 Brazil,root,ProtectedUnmanagedPasture_TocantinsR,ProtectedUnmanagedPasture_TocantinsR,2.5,9.6,2.5,9.6,1975,31,0,0
 Brazil,root,ProtectedUnmanagedPasture_BrzCstE,ProtectedUnmanagedPasture_BrzCstE,1.9,7.5,1.9,7.5,1975,18,0,0
@@ -79,32 +83,32 @@ Brazil,root,ProtectedUnmanagedPasture_ParnaibaR,ProtectedUnmanagedPasture_Parnai
 Brazil,root,ProtectedUnmanagedPasture_SaoFrancR,ProtectedUnmanagedPasture_SaoFrancR,2.2,8.7,2.2,8.7,1975,25,0,0
 Brazil,root,ProtectedUnmanagedPasture_BrzCstS,ProtectedUnmanagedPasture_BrzCstS,2.2,9.9,2.2,9.9,1975,31,0,0
 Brazil,root,ProtectedUnmanagedPasture_RioLaPlata,ProtectedUnmanagedPasture_RioLaPlata,2.2,10.2,2.2,10.2,1975,30,0,0
-Canada,root,ProtectedUnmanagedPasture_NWTerr,ProtectedUnmanagedPasture_NWTerr,2.5,15,2.5,15,1975,50,0,0
+Canada,root,ProtectedUnmanagedPasture_NWTerr,ProtectedUnmanagedPasture_NWTerr,2.5,15.1,2.5,15.1,1975,50,0,0
 Canada,root,ProtectedUnmanagedPasture_PacArctic,ProtectedUnmanagedPasture_PacArctic,2.4,19.8,2.4,19.8,1975,50,0,0
 Canada,root,ProtectedUnmanagedPasture_Mackenzie,ProtectedUnmanagedPasture_Mackenzie,2.5,13.5,2.5,13.5,1975,48,0,0
-Canada,root,ProtectedUnmanagedPasture_HudsonBay,ProtectedUnmanagedPasture_HudsonBay,2.5,16.2,2.5,16.2,1975,50,0,0
+Canada,root,ProtectedUnmanagedPasture_HudsonBay,ProtectedUnmanagedPasture_HudsonBay,2.5,16.1,2.5,16.1,1975,50,0,0
 Canada,root,ProtectedUnmanagedPasture_CanAtl,ProtectedUnmanagedPasture_CanAtl,2.5,13.2,2.5,13.2,1975,50,0,0
 Canada,root,ProtectedUnmanagedPasture_NelsonR,ProtectedUnmanagedPasture_NelsonR,1.6,12.3,1.6,12.3,1975,24,0,0
 Canada,root,ProtectedUnmanagedPasture_FraserR,ProtectedUnmanagedPasture_FraserR,2.1,17.8,2.1,17.8,1975,41,0,0
-Canada,root,ProtectedUnmanagedPasture_ChurchillR,ProtectedUnmanagedPasture_ChurchillR,1.7,20.8,1.7,20.8,1975,50,0,0
+Canada,root,ProtectedUnmanagedPasture_ChurchillR,ProtectedUnmanagedPasture_ChurchillR,1.5,20.9,1.5,20.9,1975,50,0,0
 Canada,root,ProtectedUnmanagedPasture_StLwrncR,ProtectedUnmanagedPasture_StLwrncR,2.5,15.3,2.5,15.3,1975,50,0,0
-Canada,root,ProtectedUnmanagedPasture_MissouriR,ProtectedUnmanagedPasture_MissouriR,0.7,12.8,0.7,12.8,1975,13,0,0
+Canada,root,ProtectedUnmanagedPasture_MissouriR,ProtectedUnmanagedPasture_MissouriR,0.7,12.8,0.7,12.8,1975,12,0,0
 Canada,root,ProtectedUnmanagedPasture_GreatLakes,ProtectedUnmanagedPasture_GreatLakes,2.5,12.3,2.5,12.3,1975,50,0,0
-Canada,root,ProtectedUnmanagedPasture_UsaPacNW,ProtectedUnmanagedPasture_UsaPacNW,2.1,18.1,2.1,18.1,1975,42,0,0
+Canada,root,ProtectedUnmanagedPasture_UsaPacNW,ProtectedUnmanagedPasture_UsaPacNW,2.1,18.2,2.1,18.2,1975,42,0,0
 Canada,root,ProtectedUnmanagedPasture_UsaCstNE,ProtectedUnmanagedPasture_UsaCstNE,2.5,11.9,2.5,11.9,1975,50,0,0
 Central America and Caribbean,root,ProtectedUnmanagedPasture_Caribbean,ProtectedUnmanagedPasture_Caribbean,2.2,10.3,2.2,10.3,1975,32,0,0
 Central America and Caribbean,root,ProtectedUnmanagedPasture_YucatanP,ProtectedUnmanagedPasture_YucatanP,2.3,10.1,2.3,10.1,1975,36,0,0
 Central America and Caribbean,root,ProtectedUnmanagedPasture_GrijUsuR,ProtectedUnmanagedPasture_GrijUsuR,2.2,10.5,2.2,10.5,1975,37,0,0
 Central America and Caribbean,root,ProtectedUnmanagedPasture_CntAmer,ProtectedUnmanagedPasture_CntAmer,2.5,9.9,2.5,9.9,1975,38,0,0
-Central America and Caribbean,root,ProtectedUnmanagedPasture_SAmerCstN,ProtectedUnmanagedPasture_SAmerCstN,2.3,9.4,2.3,9.4,1975,36,0,0
+Central America and Caribbean,root,ProtectedUnmanagedPasture_SAmerCstN,ProtectedUnmanagedPasture_SAmerCstN,2.2,9.2,2.2,9.2,1975,33,0,0
 Central America and Caribbean,root,ProtectedUnmanagedPasture_ColEcuaCst,ProtectedUnmanagedPasture_ColEcuaCst,2.5,10.4,2.5,10.4,1975,44,0,0
 Central Asia,root,ProtectedUnmanagedPasture_VolgaR,ProtectedUnmanagedPasture_VolgaR,0.7,11.9,0.7,11.9,1975,17,0,0
-Central Asia,root,ProtectedUnmanagedPasture_UralR,ProtectedUnmanagedPasture_UralR,0.8,12.8,0.8,12.8,1975,12,0,0
-Central Asia,root,ProtectedUnmanagedPasture_Gobi,ProtectedUnmanagedPasture_Gobi,0.8,10.1,0.8,10.1,1975,30,0,0
+Central Asia,root,ProtectedUnmanagedPasture_UralR,ProtectedUnmanagedPasture_UralR,0.8,12.7,0.8,12.7,1975,12,0,0
+Central Asia,root,ProtectedUnmanagedPasture_Gobi,ProtectedUnmanagedPasture_Gobi,0.8,10.2,0.8,10.2,1975,30,0,0
 Central Asia,root,ProtectedUnmanagedPasture_AmurR,ProtectedUnmanagedPasture_AmurR,0.9,12.7,0.9,12.7,1975,12,0,0
 Central Asia,root,ProtectedUnmanagedPasture_CaspianNE,ProtectedUnmanagedPasture_CaspianNE,0.8,12,0.8,12,1975,17,0,0
-Central Asia,root,ProtectedUnmanagedPasture_BlackSeaN,ProtectedUnmanagedPasture_BlackSeaN,2.3,13.4,2.3,13.4,1975,50,0,0
-Central Asia,root,ProtectedUnmanagedPasture_YeniseiR,ProtectedUnmanagedPasture_YeniseiR,1,12.9,1,12.9,1975,17,0,0
+Central Asia,root,ProtectedUnmanagedPasture_BlackSeaN,ProtectedUnmanagedPasture_BlackSeaN,2.5,11.9,2.5,11.9,1975,50,0,0
+Central Asia,root,ProtectedUnmanagedPasture_YeniseiR,ProtectedUnmanagedPasture_YeniseiR,1,12.9,1,12.9,1975,16,0,0
 Central Asia,root,ProtectedUnmanagedPasture_CaspianE,ProtectedUnmanagedPasture_CaspianE,0.8,7.3,0.8,7.3,1975,46,0,0
 Central Asia,root,ProtectedUnmanagedPasture_ObR,ProtectedUnmanagedPasture_ObR,1,12.3,1,12.3,1975,17,0,0
 Central Asia,root,ProtectedUnmanagedPasture_AmuDaryaR,ProtectedUnmanagedPasture_AmuDaryaR,1,8.1,1,8.1,1975,42,0,0
@@ -112,12 +116,12 @@ Central Asia,root,ProtectedUnmanagedPasture_LBalkash,ProtectedUnmanagedPasture_L
 Central Asia,root,ProtectedUnmanagedPasture_BlackSeaS,ProtectedUnmanagedPasture_BlackSeaS,2,15.2,2,15.2,1975,50,0,0
 Central Asia,root,ProtectedUnmanagedPasture_CaspianSW,ProtectedUnmanagedPasture_CaspianSW,1.5,11.8,1.5,11.8,1975,38,0,0
 Central Asia,root,ProtectedUnmanagedPasture_SyrDaryaR,ProtectedUnmanagedPasture_SyrDaryaR,0.9,11.8,0.9,11.8,1975,20,0,0
-Central Asia,root,ProtectedUnmanagedPasture_Tarim,ProtectedUnmanagedPasture_Tarim,0.9,20.7,0.9,20.7,1975,49,0,0
+Central Asia,root,ProtectedUnmanagedPasture_Tarim,ProtectedUnmanagedPasture_Tarim,0.8,20.9,0.8,20.9,1975,49,0,0
 China,root,ProtectedUnmanagedPasture_RusCstSE,ProtectedUnmanagedPasture_RusCstSE,2.5,11.4,2.5,11.4,1975,48,0,0
-China,root,ProtectedUnmanagedPasture_Gobi,ProtectedUnmanagedPasture_Gobi,0.7,10,0.7,10,1975,30,0,0
+China,root,ProtectedUnmanagedPasture_Gobi,ProtectedUnmanagedPasture_Gobi,0.7,9.9,0.7,9.9,1975,30,0,0
 China,root,ProtectedUnmanagedPasture_AmurR,ProtectedUnmanagedPasture_AmurR,2,11.3,2,11.3,1975,31,0,0
 China,root,ProtectedUnmanagedPasture_ObR,ProtectedUnmanagedPasture_ObR,1,10.5,1,10.5,1975,36,0,0
-China,root,ProtectedUnmanagedPasture_AmuDaryaR,ProtectedUnmanagedPasture_AmuDaryaR,0.6,17.9,0.6,17.9,1975,50,0,0
+China,root,ProtectedUnmanagedPasture_AmuDaryaR,ProtectedUnmanagedPasture_AmuDaryaR,0.8,20.3,0.8,20.3,1975,50,0,0
 China,root,ProtectedUnmanagedPasture_BoHai,ProtectedUnmanagedPasture_BoHai,1.7,11.2,1.7,11.2,1975,28,0,0
 China,root,ProtectedUnmanagedPasture_LBalkash,ProtectedUnmanagedPasture_LBalkash,1.3,14.6,1.3,14.6,1975,33,0,0
 China,root,ProtectedUnmanagedPasture_SyrDaryaR,ProtectedUnmanagedPasture_SyrDaryaR,0.9,22,0.9,22,1975,50,0,0
@@ -130,13 +134,13 @@ China,root,ProtectedUnmanagedPasture_Tibet,ProtectedUnmanagedPasture_Tibet,0.9,2
 China,root,ProtectedUnmanagedPasture_Taiwan,ProtectedUnmanagedPasture_Taiwan,2.5,10.6,2.5,10.6,1975,44,0,0
 China,root,ProtectedUnmanagedPasture_Yangtze,ProtectedUnmanagedPasture_Yangtze,1.6,14.8,1.6,14.8,1975,41,0,0
 China,root,ProtectedUnmanagedPasture_XunJiang,ProtectedUnmanagedPasture_XunJiang,2.4,9.4,2.4,9.4,1975,44,0,0
-China,root,ProtectedUnmanagedPasture_Hong,ProtectedUnmanagedPasture_Hong,2.2,9.3,2.2,9.3,1975,33,0,0
+China,root,ProtectedUnmanagedPasture_Hong,ProtectedUnmanagedPasture_Hong,2.2,9.3,2.2,9.3,1975,34,0,0
 China,root,ProtectedUnmanagedPasture_GangesR,ProtectedUnmanagedPasture_GangesR,0.9,20.3,0.9,20.3,1975,45,0,0
 China,root,ProtectedUnmanagedPasture_SChinaSea,ProtectedUnmanagedPasture_SChinaSea,2.5,10.2,2.5,10.2,1975,43,0,0
 China,root,ProtectedUnmanagedPasture_Hainan,ProtectedUnmanagedPasture_Hainan,2.5,9.7,2.5,9.7,1975,35,0,0
 China,root,ProtectedUnmanagedPasture_Mekong,ProtectedUnmanagedPasture_Mekong,1.3,17.3,1.3,17.3,1975,42,0,0
-China,root,ProtectedUnmanagedPasture_Salween,ProtectedUnmanagedPasture_Salween,1.1,20,1.1,20,1975,47,0,0
-China,root,ProtectedUnmanagedPasture_IrrawaddyR,ProtectedUnmanagedPasture_IrrawaddyR,1.7,13.6,1.7,13.6,1975,36,0,0
+China,root,ProtectedUnmanagedPasture_Salween,ProtectedUnmanagedPasture_Salween,1.1,20.1,1.1,20.1,1975,47,0,0
+China,root,ProtectedUnmanagedPasture_IrrawaddyR,ProtectedUnmanagedPasture_IrrawaddyR,1.7,13.5,1.7,13.5,1975,36,0,0
 EU-12,root,ProtectedUnmanagedPasture_BalticSea,ProtectedUnmanagedPasture_BalticSea,2.5,12.5,2.5,12.5,1975,50,0,0
 EU-12,root,ProtectedUnmanagedPasture_DnkGrmCst,ProtectedUnmanagedPasture_DnkGrmCst,2.5,13.4,2.5,13.4,1975,50,0,0
 EU-12,root,ProtectedUnmanagedPasture_NarvaR,ProtectedUnmanagedPasture_NarvaR,2.5,12.5,2.5,12.5,1975,50,0,0
@@ -150,7 +154,7 @@ EU-12,root,ProtectedUnmanagedPasture_DniesterR,ProtectedUnmanagedPasture_Dnieste
 EU-12,root,ProtectedUnmanagedPasture_DanubeR,ProtectedUnmanagedPasture_DanubeR,2.4,12.3,2.4,12.3,1975,44,0,0
 EU-12,root,ProtectedUnmanagedPasture_AdrBlkSea,ProtectedUnmanagedPasture_AdrBlkSea,2.3,11.8,2.3,11.8,1975,41,0,0
 EU-12,root,ProtectedUnmanagedPasture_MeditE,ProtectedUnmanagedPasture_MeditE,2.4,7.3,2.4,7.3,1975,49,0,0
-EU-15,root,ProtectedUnmanagedPasture_ScndnvN,ProtectedUnmanagedPasture_ScndnvN,1.1,14.8,1.1,14.8,1975,24,0,0
+EU-15,root,ProtectedUnmanagedPasture_ScndnvN,ProtectedUnmanagedPasture_ScndnvN,1.1,15,1.1,15,1975,25,0,0
 EU-15,root,ProtectedUnmanagedPasture_Sweden,ProtectedUnmanagedPasture_Sweden,2.5,14.3,2.5,14.3,1975,50,0,0
 EU-15,root,ProtectedUnmanagedPasture_Finland,ProtectedUnmanagedPasture_Finland,2.5,15.8,2.5,15.8,1975,50,0,0
 EU-15,root,ProtectedUnmanagedPasture_Scotland,ProtectedUnmanagedPasture_Scotland,2.5,15.3,2.5,15.3,1975,50,0,0
@@ -166,22 +170,21 @@ EU-15,root,ProtectedUnmanagedPasture_ScheldtR,ProtectedUnmanagedPasture_ScheldtR
 EU-15,root,ProtectedUnmanagedPasture_FranceCstW,ProtectedUnmanagedPasture_FranceCstW,2.5,12.9,2.5,12.9,1975,49,0,0
 EU-15,root,ProtectedUnmanagedPasture_LoireR,ProtectedUnmanagedPasture_LoireR,2.5,12.8,2.5,12.8,1975,50,0,0
 EU-15,root,ProtectedUnmanagedPasture_SeineR,ProtectedUnmanagedPasture_SeineR,2.5,13.4,2.5,13.4,1975,50,0,0
-EU-15,root,ProtectedUnmanagedPasture_ItalyCstE,ProtectedUnmanagedPasture_ItalyCstE,2.5,12.4,2.5,12.4,1975,49,0,0
+EU-15,root,ProtectedUnmanagedPasture_ItalyCstE,ProtectedUnmanagedPasture_ItalyCstE,2.4,12.6,2.4,12.6,1975,48,0,0
 EU-15,root,ProtectedUnmanagedPasture_DanubeR,ProtectedUnmanagedPasture_DanubeR,2.4,15.2,2.4,15.2,1975,50,0,0
 EU-15,root,ProtectedUnmanagedPasture_AdrBlkSea,ProtectedUnmanagedPasture_AdrBlkSea,2.2,9.1,2.2,9.1,1975,34,0,0
-EU-15,root,ProtectedUnmanagedPasture_PoR,ProtectedUnmanagedPasture_PoR,1.9,16.1,1.9,16.1,1975,47,0,0
+EU-15,root,ProtectedUnmanagedPasture_PoR,ProtectedUnmanagedPasture_PoR,1.9,16,1.9,16,1975,47,0,0
 EU-15,root,ProtectedUnmanagedPasture_ItalyCstW,ProtectedUnmanagedPasture_ItalyCstW,2.4,10.5,2.4,10.5,1975,44,0,0
 EU-15,root,ProtectedUnmanagedPasture_IberiaCst,ProtectedUnmanagedPasture_IberiaCst,2.4,9.7,2.4,9.7,1975,32,0,0
-EU-15,root,ProtectedUnmanagedPasture_FranceCstS,ProtectedUnmanagedPasture_FranceCstS,2.3,10.9,2.3,10.9,1975,40,0,0
+EU-15,root,ProtectedUnmanagedPasture_FranceCstS,ProtectedUnmanagedPasture_FranceCstS,2.3,10.8,2.3,10.8,1975,40,0,0
 EU-15,root,ProtectedUnmanagedPasture_RhoneR,ProtectedUnmanagedPasture_RhoneR,2.3,13.4,2.3,13.4,1975,48,0,0
 EU-15,root,ProtectedUnmanagedPasture_MeditIsl,ProtectedUnmanagedPasture_MeditIsl,2.2,9.1,2.2,9.1,1975,34,0,0
-EU-15,root,ProtectedUnmanagedPasture_Gironde,ProtectedUnmanagedPasture_Gironde,2.5,12.8,2.5,12.8,1975,49,0,0
+EU-15,root,ProtectedUnmanagedPasture_Gironde,ProtectedUnmanagedPasture_Gironde,2.5,12.7,2.5,12.7,1975,50,0,0
 EU-15,root,ProtectedUnmanagedPasture_SpainCstSE,ProtectedUnmanagedPasture_SpainCstSE,2,8.4,2,8.4,1975,26,0,0
-EU-15,root,ProtectedUnmanagedPasture_TiberR,ProtectedUnmanagedPasture_TiberR,2.5,11.8,2.5,11.8,1975,49,0,0
+EU-15,root,ProtectedUnmanagedPasture_TiberR,ProtectedUnmanagedPasture_TiberR,2.5,11.9,2.5,11.9,1975,49,0,0
 EU-15,root,ProtectedUnmanagedPasture_TagusR,ProtectedUnmanagedPasture_TagusR,2.2,9,2.2,9,1975,27,0,0
-EU-15,root,ProtectedUnmanagedPasture_EbroR,ProtectedUnmanagedPasture_EbroR,2.1,9.3,2.1,9.3,1975,32,0,0
-EU-15,root,ProtectedUnmanagedPasture_DouroR,ProtectedUnmanagedPasture_DouroR,2.1,9,2.1,9,1975,31,0,0
-EU-15,root,ProtectedUnmanagedPasture_MeditE,ProtectedUnmanagedPasture_MeditE,1.9,7.5,1.9,7.5,1975,18,0,0
+EU-15,root,ProtectedUnmanagedPasture_EbroR,ProtectedUnmanagedPasture_EbroR,2.1,9.3,2.1,9.3,1975,31,0,0
+EU-15,root,ProtectedUnmanagedPasture_DouroR,ProtectedUnmanagedPasture_DouroR,2.1,8.9,2.1,8.9,1975,31,0,0
 EU-15,root,ProtectedUnmanagedPasture_GuadianaR,ProtectedUnmanagedPasture_GuadianaR,2,7.7,2,7.7,1975,24,0,0
 EU-15,root,ProtectedUnmanagedPasture_GuadalqR,ProtectedUnmanagedPasture_GuadalqR,2,7.8,2,7.8,1975,22,0,0
 Europe_Eastern,root,ProtectedUnmanagedPasture_NevaR,ProtectedUnmanagedPasture_NevaR,2.5,13.4,2.5,13.4,1975,50,0,0
@@ -191,7 +194,7 @@ Europe_Eastern,root,ProtectedUnmanagedPasture_NemanR,ProtectedUnmanagedPasture_N
 Europe_Eastern,root,ProtectedUnmanagedPasture_DnieperR,ProtectedUnmanagedPasture_DnieperR,2.2,12.3,2.2,12.3,1975,41,0,0
 Europe_Eastern,root,ProtectedUnmanagedPasture_BlackSeaN,ProtectedUnmanagedPasture_BlackSeaN,1.3,12.1,1.3,12.1,1975,25,0,0
 Europe_Eastern,root,ProtectedUnmanagedPasture_DniesterR,ProtectedUnmanagedPasture_DniesterR,2.3,12.2,2.3,12.2,1975,42,0,0
-Europe_Eastern,root,ProtectedUnmanagedPasture_DonR,ProtectedUnmanagedPasture_DonR,1,12.8,1,12.8,1975,15,0,0
+Europe_Eastern,root,ProtectedUnmanagedPasture_DonR,ProtectedUnmanagedPasture_DonR,1,12.7,1,12.7,1975,15,0,0
 Europe_Eastern,root,ProtectedUnmanagedPasture_DanubeR,ProtectedUnmanagedPasture_DanubeR,2,12.6,2,12.6,1975,36,0,0
 Europe_Non_EU,root,ProtectedUnmanagedPasture_DanubeR,ProtectedUnmanagedPasture_DanubeR,2.5,13,2.5,13,1975,49,0,0
 Europe_Non_EU,root,ProtectedUnmanagedPasture_AdrBlkSea,ProtectedUnmanagedPasture_AdrBlkSea,2.5,12.1,2.5,12.1,1975,47,0,0
@@ -202,31 +205,30 @@ Europe_Non_EU,root,ProtectedUnmanagedPasture_TigrEuphR,ProtectedUnmanagedPasture
 Europe_Non_EU,root,ProtectedUnmanagedPasture_EJrdnSyr,ProtectedUnmanagedPasture_EJrdnSyr,0.9,6.9,0.9,6.9,1975,50,0,0
 European Free Trade Association,root,ProtectedUnmanagedPasture_ScndnvN,ProtectedUnmanagedPasture_ScndnvN,2.1,18.1,2.1,18.1,1975,47,0,0
 European Free Trade Association,root,ProtectedUnmanagedPasture_Iceland,ProtectedUnmanagedPasture_Iceland,1.6,15.3,1.6,15.3,1975,49,0,0
-European Free Trade Association,root,ProtectedUnmanagedPasture_Sweden,ProtectedUnmanagedPasture_Sweden,1.8,17.3,1.8,17.3,1975,46,0,0
-European Free Trade Association,root,ProtectedUnmanagedPasture_RhineR,ProtectedUnmanagedPasture_RhineR,2.2,16.5,2.2,16.5,1975,49,0,0
-European Free Trade Association,root,ProtectedUnmanagedPasture_DanubeR,ProtectedUnmanagedPasture_DanubeR,1.7,19.7,1.7,19.7,1975,47,0,0
-European Free Trade Association,root,ProtectedUnmanagedPasture_PoR,ProtectedUnmanagedPasture_PoR,1.6,17,1.6,17,1975,43,0,0
+European Free Trade Association,root,ProtectedUnmanagedPasture_Sweden,ProtectedUnmanagedPasture_Sweden,1.7,17.5,1.7,17.5,1975,46,0,0
+European Free Trade Association,root,ProtectedUnmanagedPasture_RhineR,ProtectedUnmanagedPasture_RhineR,2.2,16.3,2.2,16.3,1975,49,0,0
+European Free Trade Association,root,ProtectedUnmanagedPasture_DanubeR,ProtectedUnmanagedPasture_DanubeR,1.6,20.1,1.6,20.1,1975,47,0,0
+European Free Trade Association,root,ProtectedUnmanagedPasture_PoR,ProtectedUnmanagedPasture_PoR,1.6,17.4,1.6,17.4,1975,44,0,0
 European Free Trade Association,root,ProtectedUnmanagedPasture_RhoneR,ProtectedUnmanagedPasture_RhoneR,1.6,14.4,1.6,14.4,1975,46,0,0
 India,root,ProtectedUnmanagedPasture_IndusR,ProtectedUnmanagedPasture_IndusR,0.9,12.8,0.9,12.8,1975,34,0,0
 India,root,ProtectedUnmanagedPasture_SabarmatiR,ProtectedUnmanagedPasture_SabarmatiR,1,6.6,1,6.6,1975,46,0,0
 India,root,ProtectedUnmanagedPasture_GangesR,ProtectedUnmanagedPasture_GangesR,1.9,10.6,1.9,10.6,1975,33,0,0
 India,root,ProtectedUnmanagedPasture_MahiR,ProtectedUnmanagedPasture_MahiR,2.5,9.7,2.5,9.7,1975,35,0,0
-India,root,ProtectedUnmanagedPasture_BengalBay,ProtectedUnmanagedPasture_BengalBay,2.5,10.2,2.5,10.2,1975,41,0,0
+India,root,ProtectedUnmanagedPasture_BengalBay,ProtectedUnmanagedPasture_BengalBay,2.5,10.1,2.5,10.1,1975,41,0,0
 India,root,ProtectedUnmanagedPasture_TaptiR,ProtectedUnmanagedPasture_TaptiR,2.4,9.7,2.4,9.7,1975,35,0,0
 India,root,ProtectedUnmanagedPasture_BengalW,ProtectedUnmanagedPasture_BengalW,2.5,9.8,2.5,9.8,1975,36,0,0
 India,root,ProtectedUnmanagedPasture_BrahmaniR,ProtectedUnmanagedPasture_BrahmaniR,2.5,9.7,2.5,9.7,1975,35,0,0
 India,root,ProtectedUnmanagedPasture_MahanadiR,ProtectedUnmanagedPasture_MahanadiR,2.5,9.7,2.5,9.7,1975,34,0,0
 India,root,ProtectedUnmanagedPasture_GodavariR,ProtectedUnmanagedPasture_GodavariR,2.4,9.6,2.4,9.6,1975,34,0,0
-India,root,ProtectedUnmanagedPasture_IndCstNE,ProtectedUnmanagedPasture_IndCstNE,2.5,9.8,2.5,9.8,1975,34,0,0
+India,root,ProtectedUnmanagedPasture_IndCstNE,ProtectedUnmanagedPasture_IndCstNE,2.5,9.7,2.5,9.7,1975,34,0,0
 India,root,ProtectedUnmanagedPasture_IndCstW,ProtectedUnmanagedPasture_IndCstW,2.5,9.7,2.5,9.7,1975,34,0,0
-India,root,ProtectedUnmanagedPasture_IrrawaddyR,ProtectedUnmanagedPasture_IrrawaddyR,2.4,10.4,2.4,10.4,1975,40,0,0
+India,root,ProtectedUnmanagedPasture_IrrawaddyR,ProtectedUnmanagedPasture_IrrawaddyR,2.5,10.3,2.5,10.3,1975,41,0,0
 India,root,ProtectedUnmanagedPasture_KrishnaR,ProtectedUnmanagedPasture_KrishnaR,2.2,9.1,2.2,9.1,1975,35,0,0
 India,root,ProtectedUnmanagedPasture_IndCstE,ProtectedUnmanagedPasture_IndCstE,2,8.4,2,8.4,1975,30,0,0
 India,root,ProtectedUnmanagedPasture_PennarR,ProtectedUnmanagedPasture_PennarR,2.3,9.1,2.3,9.1,1975,32,0,0
 India,root,ProtectedUnmanagedPasture_CauveryR,ProtectedUnmanagedPasture_CauveryR,2.5,9.7,2.5,9.7,1975,35,0,0
 India,root,ProtectedUnmanagedPasture_IndCstS,ProtectedUnmanagedPasture_IndCstS,2.3,8.9,2.3,8.9,1975,31,0,0
 India,root,ProtectedUnmanagedPasture_NarmadaR,ProtectedUnmanagedPasture_NarmadaR,2.5,9.7,2.5,9.7,1975,34,0,0
-Indonesia,root,ProtectedUnmanagedPasture_MalaysiaP,ProtectedUnmanagedPasture_MalaysiaP,2.5,9.8,2.5,9.8,1975,40,0,0
 Indonesia,root,ProtectedUnmanagedPasture_IdnE,ProtectedUnmanagedPasture_IdnE,2.3,10.1,2.3,10.1,1975,37,0,0
 Indonesia,root,ProtectedUnmanagedPasture_BorneoCstN,ProtectedUnmanagedPasture_BorneoCstN,2.5,9.8,2.5,9.8,1975,40,0,0
 Indonesia,root,ProtectedUnmanagedPasture_Sumatra,ProtectedUnmanagedPasture_Sumatra,2.5,9.8,2.5,9.8,1975,39,0,0
@@ -248,29 +250,29 @@ Mexico,root,ProtectedUnmanagedPasture_Papaloapan,ProtectedUnmanagedPasture_Papal
 Mexico,root,ProtectedUnmanagedPasture_RioLerma,ProtectedUnmanagedPasture_RioLerma,1.9,9.7,1.9,9.7,1975,25,0,0
 Mexico,root,ProtectedUnmanagedPasture_RioVerde,ProtectedUnmanagedPasture_RioVerde,1.5,11,1.5,11,1975,24,0,0
 Mexico,root,ProtectedUnmanagedPasture_GrijUsuR,ProtectedUnmanagedPasture_GrijUsuR,2.4,10,2.4,10,1975,37,0,0
-Mexico,root,ProtectedUnmanagedPasture_RioBalsas,ProtectedUnmanagedPasture_RioBalsas,2.2,10,2.2,10,1975,33,0,0
+Mexico,root,ProtectedUnmanagedPasture_RioBalsas,ProtectedUnmanagedPasture_RioBalsas,2.2,10,2.2,10,1975,32,0,0
 Mexico,root,ProtectedUnmanagedPasture_CntAmer,ProtectedUnmanagedPasture_CntAmer,2.5,10,2.5,10,1975,41,0,0
 Mexico,root,ProtectedUnmanagedPasture_Tehuantpc,ProtectedUnmanagedPasture_Tehuantpc,2.1,10.5,2.1,10.5,1975,33,0,0
-Mexico,root,ProtectedUnmanagedPasture_California,ProtectedUnmanagedPasture_California,1.6,8.5,1.6,8.5,1975,38,0,0
+Mexico,root,ProtectedUnmanagedPasture_California,ProtectedUnmanagedPasture_California,1.7,8.7,1.7,8.7,1975,37,0,0
 Mexico,root,ProtectedUnmanagedPasture_UsaColoRS,ProtectedUnmanagedPasture_UsaColoRS,1,7.7,1,7.7,1975,41,0,0
 Mexico,root,ProtectedUnmanagedPasture_RioGrande,ProtectedUnmanagedPasture_RioGrande,1,9.8,1,9.8,1975,29,0,0
 Middle East,root,ProtectedUnmanagedPasture_CaspianE,ProtectedUnmanagedPasture_CaspianE,1,9.3,1,9.3,1975,34,0,0
 Middle East,root,ProtectedUnmanagedPasture_CaspianSW,ProtectedUnmanagedPasture_CaspianSW,0.9,12.2,0.9,12.2,1975,16,0,0
 Middle East,root,ProtectedUnmanagedPasture_MeditE,ProtectedUnmanagedPasture_MeditE,1,7.6,1,7.6,1975,44,0,0
-Middle East,root,ProtectedUnmanagedPasture_Iran,ProtectedUnmanagedPasture_Iran,0.7,7.5,0.7,7.5,1975,42,0,0
+Middle East,root,ProtectedUnmanagedPasture_Iran,ProtectedUnmanagedPasture_Iran,0.7,7.4,0.7,7.4,1975,42,0,0
 Middle East,root,ProtectedUnmanagedPasture_TigrEuphR,ProtectedUnmanagedPasture_TigrEuphR,0.9,7.6,0.9,7.6,1975,41,0,0
 Middle East,root,ProtectedUnmanagedPasture_PersianGulf,ProtectedUnmanagedPasture_PersianGulf,0.9,6.9,0.9,6.9,1975,48,0,0
 Middle East,root,ProtectedUnmanagedPasture_FarahrudR,ProtectedUnmanagedPasture_FarahrudR,0.5,5.2,0.5,5.2,1975,50,0,0
 Middle East,root,ProtectedUnmanagedPasture_RedSeaE,ProtectedUnmanagedPasture_RedSeaE,0.5,5.5,0.5,5.5,1975,50,0,0
 Middle East,root,ProtectedUnmanagedPasture_ArabianP,ProtectedUnmanagedPasture_ArabianP,0.5,5.4,0.5,5.4,1975,50,0,0
-Middle East,root,ProtectedUnmanagedPasture_DeadSea,ProtectedUnmanagedPasture_DeadSea,1,8.2,1,8.2,1975,38,0,0
-Middle East,root,ProtectedUnmanagedPasture_Helmand,ProtectedUnmanagedPasture_Helmand,0.2,4.4,0.2,4.4,1975,50,0,0
+Middle East,root,ProtectedUnmanagedPasture_DeadSea,ProtectedUnmanagedPasture_DeadSea,1,8.1,1,8.1,1975,39,0,0
+Middle East,root,ProtectedUnmanagedPasture_Helmand,ProtectedUnmanagedPasture_Helmand,0.2,4.3,0.2,4.3,1975,50,0,0
 Middle East,root,ProtectedUnmanagedPasture_SinaiP,ProtectedUnmanagedPasture_SinaiP,0.3,4.4,0.3,4.4,1975,50,0,0
 Middle East,root,ProtectedUnmanagedPasture_EJrdnSyr,ProtectedUnmanagedPasture_EJrdnSyr,0.6,5.7,0.6,5.7,1975,50,0,0
 Middle East,root,ProtectedUnmanagedPasture_AfrCstNE,ProtectedUnmanagedPasture_AfrCstNE,0.9,6.9,0.9,6.9,1975,50,0,0
 Middle East,root,ProtectedUnmanagedPasture_HamuMashR,ProtectedUnmanagedPasture_HamuMashR,0.3,4.6,0.3,4.6,1975,50,0,0
 Middle East,root,ProtectedUnmanagedPasture_ArabianSea,ProtectedUnmanagedPasture_ArabianSea,0.2,4.1,0.2,4.1,1975,50,0,0
-Pakistan,root,ProtectedUnmanagedPasture_AmuDaryaR,ProtectedUnmanagedPasture_AmuDaryaR,0.7,18.2,0.7,18.2,1975,50,0,0
+Pakistan,root,ProtectedUnmanagedPasture_AmuDaryaR,ProtectedUnmanagedPasture_AmuDaryaR,0,8.5,0,8.5,1975,50,0,0
 Pakistan,root,ProtectedUnmanagedPasture_Tarim,ProtectedUnmanagedPasture_Tarim,0,8.5,0,8.5,1975,50,0,0
 Pakistan,root,ProtectedUnmanagedPasture_IndusR,ProtectedUnmanagedPasture_IndusR,1,8.6,1,8.6,1975,39,0,0
 Pakistan,root,ProtectedUnmanagedPasture_Helmand,ProtectedUnmanagedPasture_Helmand,0.6,6.3,0.6,6.3,1975,47,0,0
@@ -279,22 +281,22 @@ Pakistan,root,ProtectedUnmanagedPasture_ArabianSea,ProtectedUnmanagedPasture_Ara
 Pakistan,root,ProtectedUnmanagedPasture_SabarmatiR,ProtectedUnmanagedPasture_SabarmatiR,0.7,5.5,0.7,5.5,1975,45,0,0
 Russia,root,ProtectedUnmanagedPasture_SiberiaN,ProtectedUnmanagedPasture_SiberiaN,1.7,16.3,1.7,16.3,1975,50,0,0
 Russia,root,ProtectedUnmanagedPasture_SiberiaW,ProtectedUnmanagedPasture_SiberiaW,1.9,15,1.9,15,1975,38,0,0
-Russia,root,ProtectedUnmanagedPasture_KaraSea,ProtectedUnmanagedPasture_KaraSea,1.1,13.9,1.1,13.9,1975,22,0,0
-Russia,root,ProtectedUnmanagedPasture_LenaR,ProtectedUnmanagedPasture_LenaR,2.1,14.3,2.1,14.3,1975,37,0,0
+Russia,root,ProtectedUnmanagedPasture_KaraSea,ProtectedUnmanagedPasture_KaraSea,1.1,14,1.1,14,1975,23,0,0
+Russia,root,ProtectedUnmanagedPasture_LenaR,ProtectedUnmanagedPasture_LenaR,2.1,14.4,2.1,14.4,1975,37,0,0
 Russia,root,ProtectedUnmanagedPasture_ScndnvN,ProtectedUnmanagedPasture_ScndnvN,1.3,15.1,1.3,15.1,1975,25,0,0
 Russia,root,ProtectedUnmanagedPasture_BarentsSea,ProtectedUnmanagedPasture_BarentsSea,2.5,19.9,2.5,19.9,1975,49,0,0
 Russia,root,ProtectedUnmanagedPasture_Finland,ProtectedUnmanagedPasture_Finland,2.5,13.8,2.5,13.8,1975,50,0,0
 Russia,root,ProtectedUnmanagedPasture_DvinaRN,ProtectedUnmanagedPasture_DvinaRN,2.5,18.5,2.5,18.5,1975,50,0,0
 Russia,root,ProtectedUnmanagedPasture_NevaR,ProtectedUnmanagedPasture_NevaR,2.5,14.9,2.5,14.9,1975,50,0,0
-Russia,root,ProtectedUnmanagedPasture_VolgaR,ProtectedUnmanagedPasture_VolgaR,1.9,13,1.9,13,1975,36,0,0
-Russia,root,ProtectedUnmanagedPasture_BalticSea,ProtectedUnmanagedPasture_BalticSea,2.5,13.4,2.5,13.4,1975,50,0,0
+Russia,root,ProtectedUnmanagedPasture_VolgaR,ProtectedUnmanagedPasture_VolgaR,1.9,13,1.9,13,1975,35,0,0
+Russia,root,ProtectedUnmanagedPasture_BalticSea,ProtectedUnmanagedPasture_BalticSea,2.5,13.5,2.5,13.5,1975,50,0,0
 Russia,root,ProtectedUnmanagedPasture_NarvaR,ProtectedUnmanagedPasture_NarvaR,2.5,13.2,2.5,13.2,1975,50,0,0
 Russia,root,ProtectedUnmanagedPasture_DaugavaR,ProtectedUnmanagedPasture_DaugavaR,2.5,13.3,2.5,13.3,1975,50,0,0
 Russia,root,ProtectedUnmanagedPasture_PolandCst,ProtectedUnmanagedPasture_PolandCst,2.5,13.1,2.5,13.1,1975,50,0,0
-Russia,root,ProtectedUnmanagedPasture_NemanR,ProtectedUnmanagedPasture_NemanR,2.5,13.4,2.5,13.4,1975,50,0,0
+Russia,root,ProtectedUnmanagedPasture_NemanR,ProtectedUnmanagedPasture_NemanR,2.5,13.2,2.5,13.2,1975,50,0,0
 Russia,root,ProtectedUnmanagedPasture_RusCstSE,ProtectedUnmanagedPasture_RusCstSE,2.5,12.3,2.5,12.3,1975,46,0,0
 Russia,root,ProtectedUnmanagedPasture_UralR,ProtectedUnmanagedPasture_UralR,1,12.7,1,12.7,1975,14,0,0
-Russia,root,ProtectedUnmanagedPasture_DnieperR,ProtectedUnmanagedPasture_DnieperR,2.5,12.7,2.5,12.7,1975,48,0,0
+Russia,root,ProtectedUnmanagedPasture_DnieperR,ProtectedUnmanagedPasture_DnieperR,2.5,12.6,2.5,12.6,1975,48,0,0
 Russia,root,ProtectedUnmanagedPasture_Gobi,ProtectedUnmanagedPasture_Gobi,0.9,13.2,0.9,13.2,1975,18,0,0
 Russia,root,ProtectedUnmanagedPasture_AmurR,ProtectedUnmanagedPasture_AmurR,2.1,12.5,2.1,12.5,1975,36,0,0
 Russia,root,ProtectedUnmanagedPasture_CaspianNE,ProtectedUnmanagedPasture_CaspianNE,1.4,12.4,1.4,12.4,1975,24,0,0
@@ -302,8 +304,8 @@ Russia,root,ProtectedUnmanagedPasture_BlackSeaN,ProtectedUnmanagedPasture_BlackS
 Russia,root,ProtectedUnmanagedPasture_YeniseiR,ProtectedUnmanagedPasture_YeniseiR,1.6,13.2,1.6,13.2,1975,27,0,0
 Russia,root,ProtectedUnmanagedPasture_DonR,ProtectedUnmanagedPasture_DonR,1.2,12.2,1.2,12.2,1975,16,0,0
 Russia,root,ProtectedUnmanagedPasture_ObR,ProtectedUnmanagedPasture_ObR,2,12.6,2,12.6,1975,33,0,0
-Russia,root,ProtectedUnmanagedPasture_BlackSeaS,ProtectedUnmanagedPasture_BlackSeaS,1.1,20.6,1.1,20.6,1975,50,0,0
-Russia,root,ProtectedUnmanagedPasture_CaspianSW,ProtectedUnmanagedPasture_CaspianSW,0.9,17.2,0.9,17.2,1975,32,0,0
+Russia,root,ProtectedUnmanagedPasture_BlackSeaS,ProtectedUnmanagedPasture_BlackSeaS,1,19.8,1,19.8,1975,50,0,0
+Russia,root,ProtectedUnmanagedPasture_CaspianSW,ProtectedUnmanagedPasture_CaspianSW,1.2,17.8,1.2,17.8,1975,40,0,0
 Russia,root,ProtectedUnmanagedPasture_SyrDaryaR,ProtectedUnmanagedPasture_SyrDaryaR,0.8,12.9,0.8,12.9,1975,11,0,0
 South Africa,root,ProtectedUnmanagedPasture_OrangeR,ProtectedUnmanagedPasture_OrangeR,1,10,1,10,1975,28,0,0
 South Africa,root,ProtectedUnmanagedPasture_AfrCstSW,ProtectedUnmanagedPasture_AfrCstSW,0.1,3.8,0.1,3.8,1975,50,0,0
@@ -314,21 +316,22 @@ South America_Northern,root,ProtectedUnmanagedPasture_SAmerCstN,ProtectedUnmanag
 South America_Northern,root,ProtectedUnmanagedPasture_OrinocoR,ProtectedUnmanagedPasture_OrinocoR,2.5,9.7,2.5,9.7,1975,31,0,0
 South America_Northern,root,ProtectedUnmanagedPasture_SAmerCstNE,ProtectedUnmanagedPasture_SAmerCstNE,2.5,9.8,2.5,9.8,1975,37,0,0
 South America_Northern,root,ProtectedUnmanagedPasture_MagdalenaR,ProtectedUnmanagedPasture_MagdalenaR,2.5,9.7,2.5,9.7,1975,36,0,0
-South America_Southern,root,ProtectedUnmanagedPasture_OrinocoR,ProtectedUnmanagedPasture_OrinocoR,1.7,11.4,1.7,11.4,1975,29,0,0
+South America_Northern,root,ProtectedUnmanagedPasture_AmazonR,ProtectedUnmanagedPasture_AmazonR,2.4,9.7,2.4,9.7,1975,32,0,0
 South America_Southern,root,ProtectedUnmanagedPasture_ColEcuaCst,ProtectedUnmanagedPasture_ColEcuaCst,2,10.4,2,10.4,1975,34,0,0
+South America_Southern,root,ProtectedUnmanagedPasture_AmazonR,ProtectedUnmanagedPasture_AmazonR,1.7,11.4,1.7,11.4,1975,29,0,0
 South America_Southern,root,ProtectedUnmanagedPasture_ChileCstS,ProtectedUnmanagedPasture_ChileCstS,1.9,10.5,1.9,10.5,1975,33,0,0
 South America_Southern,root,ProtectedUnmanagedPasture_PeruCst,ProtectedUnmanagedPasture_PeruCst,0.9,12.3,0.9,12.3,1975,35,0,0
 South America_Southern,root,ProtectedUnmanagedPasture_BrzCstS,ProtectedUnmanagedPasture_BrzCstS,0.8,12.8,0.8,12.8,1975,11,0,0
 South America_Southern,root,ProtectedUnmanagedPasture_LaPuna,ProtectedUnmanagedPasture_LaPuna,0.8,14.7,0.8,14.7,1975,36,0,0
 South America_Southern,root,ProtectedUnmanagedPasture_RioLaPlata,ProtectedUnmanagedPasture_RioLaPlata,1.6,11.4,1.6,11.4,1975,23,0,0
 South America_Southern,root,ProtectedUnmanagedPasture_ChileCstN,ProtectedUnmanagedPasture_ChileCstN,0.8,8.4,0.8,8.4,1975,37,0,0
-South America_Southern,root,ProtectedUnmanagedPasture_ArgColoR,ProtectedUnmanagedPasture_ArgColoR,0.3,8.6,0.3,8.6,1975,50,0,0
-South America_Southern,root,ProtectedUnmanagedPasture_NegroR,ProtectedUnmanagedPasture_NegroR,2.3,11.7,2.3,11.7,1975,43,0,0
+South America_Southern,root,ProtectedUnmanagedPasture_ArgColoR,ProtectedUnmanagedPasture_ArgColoR,0.1,5.1,0.1,5.1,1975,50,0,0
+South America_Southern,root,ProtectedUnmanagedPasture_NegroR,ProtectedUnmanagedPasture_NegroR,2,14.2,2,14.2,1975,46,0,0
 South America_Southern,root,ProtectedUnmanagedPasture_ArgCstS,ProtectedUnmanagedPasture_ArgCstS,0.8,12.9,0.8,12.9,1975,11,0,0
-South Asia,root,ProtectedUnmanagedPasture_CaspianE,ProtectedUnmanagedPasture_CaspianE,0.9,10.5,0.9,10.5,1975,26,0,0
+South Asia,root,ProtectedUnmanagedPasture_CaspianE,ProtectedUnmanagedPasture_CaspianE,0.9,10.4,0.9,10.4,1975,26,0,0
 South Asia,root,ProtectedUnmanagedPasture_AmuDaryaR,ProtectedUnmanagedPasture_AmuDaryaR,0.9,10.9,0.9,10.9,1975,28,0,0
 South Asia,root,ProtectedUnmanagedPasture_IndusR,ProtectedUnmanagedPasture_IndusR,0.9,9.2,0.9,9.2,1975,37,0,0
-South Asia,root,ProtectedUnmanagedPasture_FarahrudR,ProtectedUnmanagedPasture_FarahrudR,0.8,9.3,0.8,9.3,1975,34,0,0
+South Asia,root,ProtectedUnmanagedPasture_FarahrudR,ProtectedUnmanagedPasture_FarahrudR,0.8,9.4,0.8,9.4,1975,33,0,0
 South Asia,root,ProtectedUnmanagedPasture_Helmand,ProtectedUnmanagedPasture_Helmand,0.8,8.4,0.8,8.4,1975,39,0,0
 South Asia,root,ProtectedUnmanagedPasture_HamuMashR,ProtectedUnmanagedPasture_HamuMashR,0.8,6.6,0.8,6.6,1975,50,0,0
 South Asia,root,ProtectedUnmanagedPasture_GangesR,ProtectedUnmanagedPasture_GangesR,1.6,13.1,1.6,13.1,1975,41,0,0
@@ -336,13 +339,13 @@ South Asia,root,ProtectedUnmanagedPasture_BengalBay,ProtectedUnmanagedPasture_Be
 South Asia,root,ProtectedUnmanagedPasture_SriLanka,ProtectedUnmanagedPasture_SriLanka,2.5,9.9,2.5,9.9,1975,41,0,0
 South Korea,root,ProtectedUnmanagedPasture_Korea,ProtectedUnmanagedPasture_Korea,2.5,11.8,2.5,11.8,1975,49,0,0
 Southeast Asia,root,ProtectedUnmanagedPasture_RusCstSE,ProtectedUnmanagedPasture_RusCstSE,2.3,15.2,2.3,15.2,1975,45,0,0
-Southeast Asia,root,ProtectedUnmanagedPasture_Korea,ProtectedUnmanagedPasture_Korea,2.4,14,2.4,14,1975,48,0,0
-Southeast Asia,root,ProtectedUnmanagedPasture_BoHai,ProtectedUnmanagedPasture_BoHai,2.4,17.5,2.4,17.5,1975,48,0,0
+Southeast Asia,root,ProtectedUnmanagedPasture_Korea,ProtectedUnmanagedPasture_Korea,2.4,13.9,2.4,13.9,1975,48,0,0
+Southeast Asia,root,ProtectedUnmanagedPasture_BoHai,ProtectedUnmanagedPasture_BoHai,2.4,17.6,2.4,17.6,1975,48,0,0
 Southeast Asia,root,ProtectedUnmanagedPasture_XunJiang,ProtectedUnmanagedPasture_XunJiang,2.5,10.6,2.5,10.6,1975,43,0,0
 Southeast Asia,root,ProtectedUnmanagedPasture_Hong,ProtectedUnmanagedPasture_Hong,2.5,10,2.5,10,1975,37,0,0
-Southeast Asia,root,ProtectedUnmanagedPasture_GangesR,ProtectedUnmanagedPasture_GangesR,2.4,9.7,2.4,9.7,1975,37,0,0
-Southeast Asia,root,ProtectedUnmanagedPasture_SChinaSea,ProtectedUnmanagedPasture_SChinaSea,2.4,9.5,2.4,9.5,1975,33,0,0
-Southeast Asia,root,ProtectedUnmanagedPasture_BengalBay,ProtectedUnmanagedPasture_BengalBay,2.5,9.9,2.5,9.9,1975,38,0,0
+Southeast Asia,root,ProtectedUnmanagedPasture_GangesR,ProtectedUnmanagedPasture_GangesR,2.1,12.6,2.1,12.6,1975,40,0,0
+Southeast Asia,root,ProtectedUnmanagedPasture_SChinaSea,ProtectedUnmanagedPasture_SChinaSea,2.5,9.5,2.5,9.5,1975,34,0,0
+Southeast Asia,root,ProtectedUnmanagedPasture_BengalBay,ProtectedUnmanagedPasture_BengalBay,2.5,9.9,2.5,9.9,1975,39,0,0
 Southeast Asia,root,ProtectedUnmanagedPasture_Phlppns,ProtectedUnmanagedPasture_Phlppns,2.5,9.8,2.5,9.8,1975,40,0,0
 Southeast Asia,root,ProtectedUnmanagedPasture_Mekong,ProtectedUnmanagedPasture_Mekong,2.5,10,2.5,10,1975,38,0,0
 Southeast Asia,root,ProtectedUnmanagedPasture_VietnamCst,ProtectedUnmanagedPasture_VietnamCst,2.5,9.9,2.5,9.9,1975,37,0,0
@@ -361,19 +364,20 @@ Southeast Asia,root,ProtectedUnmanagedPasture_JavaTimor,ProtectedUnmanagedPastur
 Southeast Asia,root,ProtectedUnmanagedPasture_SepikR,ProtectedUnmanagedPasture_SepikR,1.6,11.4,1.6,11.4,1975,25,0,0
 Southeast Asia,root,ProtectedUnmanagedPasture_FlyR,ProtectedUnmanagedPasture_FlyR,1.4,11.8,1.4,11.8,1975,20,0,0
 Southeast Asia,root,ProtectedUnmanagedPasture_NewCaledn,ProtectedUnmanagedPasture_NewCaledn,2.5,9.8,2.5,9.8,1975,40,0,0
-Argentina,root,ProtectedUnmanagedPasture_ChileCstS,ProtectedUnmanagedPasture_ChileCstS,1.5,12.2,1.5,12.2,1975,33,0,0
-Argentina,root,ProtectedUnmanagedPasture_LaPuna,ProtectedUnmanagedPasture_LaPuna,0.5,10,0.5,10,1975,30,0,0
+Argentina,root,ProtectedUnmanagedPasture_ChileCstS,ProtectedUnmanagedPasture_ChileCstS,1.4,12.2,1.4,12.2,1975,32,0,0
+Argentina,root,ProtectedUnmanagedPasture_LaPuna,ProtectedUnmanagedPasture_LaPuna,0.5,10.1,0.5,10.1,1975,30,0,0
 Argentina,root,ProtectedUnmanagedPasture_MarChiq,ProtectedUnmanagedPasture_MarChiq,1.5,9.4,1.5,9.4,1975,17,0,0
 Argentina,root,ProtectedUnmanagedPasture_Salinas,ProtectedUnmanagedPasture_Salinas,1.4,8.6,1.4,8.6,1975,22,0,0
 Argentina,root,ProtectedUnmanagedPasture_RioLaPlata,ProtectedUnmanagedPasture_RioLaPlata,1.6,10.8,1.6,10.8,1975,20,0,0
-Argentina,root,ProtectedUnmanagedPasture_ChileCstN,ProtectedUnmanagedPasture_ChileCstN,0,8.5,0,8.5,1975,50,0,0
+Argentina,root,ProtectedUnmanagedPasture_ChileCstN,ProtectedUnmanagedPasture_ChileCstN,0,8.2,0,8.2,1975,50,0,0
 Argentina,root,ProtectedUnmanagedPasture_Pampas,ProtectedUnmanagedPasture_Pampas,1.4,9.6,1.4,9.6,1975,16,0,0
 Argentina,root,ProtectedUnmanagedPasture_ArgCstN,ProtectedUnmanagedPasture_ArgCstN,0.9,12.2,0.9,12.2,1975,11,0,0
 Argentina,root,ProtectedUnmanagedPasture_ArgColoR,ProtectedUnmanagedPasture_ArgColoR,1,10.3,1,10.3,1975,25,0,0
 Argentina,root,ProtectedUnmanagedPasture_NegroR,ProtectedUnmanagedPasture_NegroR,1.3,11.1,1.3,11.1,1975,20,0,0
 Argentina,root,ProtectedUnmanagedPasture_Patagonia,ProtectedUnmanagedPasture_Patagonia,0.8,12.9,0.8,12.9,1975,11,0,0
 Argentina,root,ProtectedUnmanagedPasture_ArgCstS,ProtectedUnmanagedPasture_ArgCstS,0.8,12.5,0.8,12.5,1975,14,0,0
-Colombia,root,ProtectedUnmanagedPasture_SAmerCstN,ProtectedUnmanagedPasture_SAmerCstN,2.1,9.8,2.1,9.8,1975,36,0,0
-Colombia,root,ProtectedUnmanagedPasture_OrinocoR,ProtectedUnmanagedPasture_OrinocoR,2.4,9.8,2.4,9.8,1975,33,0,0
+Colombia,root,ProtectedUnmanagedPasture_SAmerCstN,ProtectedUnmanagedPasture_SAmerCstN,2,9.8,2,9.8,1975,36,0,0
+Colombia,root,ProtectedUnmanagedPasture_OrinocoR,ProtectedUnmanagedPasture_OrinocoR,2.4,9.7,2.4,9.7,1975,32,0,0
 Colombia,root,ProtectedUnmanagedPasture_ColEcuaCst,ProtectedUnmanagedPasture_ColEcuaCst,1.8,11,1.8,11,1975,31,0,0
 Colombia,root,ProtectedUnmanagedPasture_MagdalenaR,ProtectedUnmanagedPasture_MagdalenaR,2.3,10.1,2.3,10.1,1975,37,0,0
+Colombia,root,ProtectedUnmanagedPasture_AmazonR,ProtectedUnmanagedPasture_AmazonR,2.3,10.3,2.3,10.3,1975,38,0,0

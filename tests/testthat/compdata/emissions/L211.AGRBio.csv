@@ -39,6 +39,7 @@ Africa_Northern,biomass,biomass_grass_AfrIntN,biomass_grass_AfrIntN,1975,N2O_AGR
 Africa_Northern,biomass,biomass_grass_MeditE,biomass_grass_MeditE,1975,N2O_AGR,0.009445905
 Africa_Northern,biomass,biomass_grass_MeditS,biomass_grass_MeditS,1975,N2O_AGR,0.009445905
 Africa_Northern,biomass,biomass_grass_NileR,biomass_grass_NileR,1975,N2O_AGR,0.009445905
+Africa_Northern,biomass,biomass_grass_SinaiP,biomass_grass_SinaiP,1975,N2O_AGR,0.009445905
 Africa_Southern,biomass,biomass_grass_AfrCstE,biomass_grass_AfrCstE,1975,N2O_AGR,0.009445905
 Africa_Southern,biomass,biomass_grass_AfrCstS,biomass_grass_AfrCstS,1975,N2O_AGR,0.009445905
 Africa_Southern,biomass,biomass_grass_AfrCstSE,biomass_grass_AfrCstSE,1975,N2O_AGR,0.009445905
@@ -75,7 +76,6 @@ Brazil,biomass,biomass_grass_AmazonR,biomass_grass_AmazonR,1975,N2O_AGR,0.008163
 Brazil,biomass,biomass_grass_BrzCstE,biomass_grass_BrzCstE,1975,N2O_AGR,0.008163204
 Brazil,biomass,biomass_grass_BrzCstN,biomass_grass_BrzCstN,1975,N2O_AGR,0.008163204
 Brazil,biomass,biomass_grass_BrzCstS,biomass_grass_BrzCstS,1975,N2O_AGR,0.008163204
-Brazil,biomass,biomass_grass_OrinocoR,biomass_grass_OrinocoR,1975,N2O_AGR,0.008163204
 Brazil,biomass,biomass_grass_ParnaibaR,biomass_grass_ParnaibaR,1975,N2O_AGR,0.008163204
 Brazil,biomass,biomass_grass_RioLaPlata,biomass_grass_RioLaPlata,1975,N2O_AGR,0.008163204
 Brazil,biomass,biomass_grass_SAmerCstNE,biomass_grass_SAmerCstNE,1975,N2O_AGR,0.008163204
@@ -169,7 +169,6 @@ EU-15,biomass,biomass_grass_Ireland,biomass_grass_Ireland,1975,N2O_AGR,0.0102126
 EU-15,biomass,biomass_grass_ItalyCstE,biomass_grass_ItalyCstE,1975,N2O_AGR,0.010212662
 EU-15,biomass,biomass_grass_ItalyCstW,biomass_grass_ItalyCstW,1975,N2O_AGR,0.010212662
 EU-15,biomass,biomass_grass_LoireR,biomass_grass_LoireR,1975,N2O_AGR,0.010212662
-EU-15,biomass,biomass_grass_MeditE,biomass_grass_MeditE,1975,N2O_AGR,0.010212662
 EU-15,biomass,biomass_grass_MeditIsl,biomass_grass_MeditIsl,1975,N2O_AGR,0.010212662
 EU-15,biomass,biomass_grass_NevaR,biomass_grass_NevaR,1975,N2O_AGR,0.010212662
 EU-15,biomass,biomass_grass_OderR,biomass_grass_OderR,1975,N2O_AGR,0.010212662
@@ -230,7 +229,6 @@ Indonesia,biomass,biomass_grass_IdnE,biomass_grass_IdnE,1975,N2O_AGR,0.0095297
 Indonesia,biomass,biomass_grass_IrianJaya,biomass_grass_IrianJaya,1975,N2O_AGR,0.0095297
 Indonesia,biomass,biomass_grass_JavaTimor,biomass_grass_JavaTimor,1975,N2O_AGR,0.0095297
 Indonesia,biomass,biomass_grass_Kalimantan,biomass_grass_Kalimantan,1975,N2O_AGR,0.0095297
-Indonesia,biomass,biomass_grass_MalaysiaP,biomass_grass_MalaysiaP,1975,N2O_AGR,0.0095297
 Indonesia,biomass,biomass_grass_SepikR,biomass_grass_SepikR,1975,N2O_AGR,0.0095297
 Indonesia,biomass,biomass_grass_Sulawesi,biomass_grass_Sulawesi,1975,N2O_AGR,0.0095297
 Indonesia,biomass,biomass_grass_Sumatra,biomass_grass_Sumatra,1975,N2O_AGR,0.0095297
@@ -305,10 +303,12 @@ South Africa,biomass,biomass_grass_AfrCstS,biomass_grass_AfrCstS,1975,N2O_AGR,0.
 South Africa,biomass,biomass_grass_AfrCstSSW,biomass_grass_AfrCstSSW,1975,N2O_AGR,0.009445905
 South Africa,biomass,biomass_grass_LimpopoR,biomass_grass_LimpopoR,1975,N2O_AGR,0.009445905
 South Africa,biomass,biomass_grass_OrangeR,biomass_grass_OrangeR,1975,N2O_AGR,0.009445905
+South America_Northern,biomass,biomass_grass_AmazonR,biomass_grass_AmazonR,1975,N2O_AGR,0.008163204
 South America_Northern,biomass,biomass_grass_MagdalenaR,biomass_grass_MagdalenaR,1975,N2O_AGR,0.008163204
 South America_Northern,biomass,biomass_grass_OrinocoR,biomass_grass_OrinocoR,1975,N2O_AGR,0.008163204
 South America_Northern,biomass,biomass_grass_SAmerCstN,biomass_grass_SAmerCstN,1975,N2O_AGR,0.008163204
 South America_Northern,biomass,biomass_grass_SAmerCstNE,biomass_grass_SAmerCstNE,1975,N2O_AGR,0.008163204
+South America_Southern,biomass,biomass_grass_AmazonR,biomass_grass_AmazonR,1975,N2O_AGR,0.008163204
 South America_Southern,biomass,biomass_grass_ArgColoR,biomass_grass_ArgColoR,1975,N2O_AGR,0.008163204
 South America_Southern,biomass,biomass_grass_ArgCstS,biomass_grass_ArgCstS,1975,N2O_AGR,0.008163204
 South America_Southern,biomass,biomass_grass_BrzCstS,biomass_grass_BrzCstS,1975,N2O_AGR,0.008163204
@@ -317,7 +317,6 @@ South America_Southern,biomass,biomass_grass_ChileCstS,biomass_grass_ChileCstS,1
 South America_Southern,biomass,biomass_grass_ColEcuaCst,biomass_grass_ColEcuaCst,1975,N2O_AGR,0.008163204
 South America_Southern,biomass,biomass_grass_LaPuna,biomass_grass_LaPuna,1975,N2O_AGR,0.008163204
 South America_Southern,biomass,biomass_grass_NegroR,biomass_grass_NegroR,1975,N2O_AGR,0.008163204
-South America_Southern,biomass,biomass_grass_OrinocoR,biomass_grass_OrinocoR,1975,N2O_AGR,0.008163204
 South America_Southern,biomass,biomass_grass_PeruCst,biomass_grass_PeruCst,1975,N2O_AGR,0.008163204
 South America_Southern,biomass,biomass_grass_RioLaPlata,biomass_grass_RioLaPlata,1975,N2O_AGR,0.008163204
 South Asia,biomass,biomass_grass_AmuDaryaR,biomass_grass_AmuDaryaR,1975,N2O_AGR,0.0095297
@@ -367,6 +366,7 @@ Argentina,biomass,biomass_grass_Pampas,biomass_grass_Pampas,1975,N2O_AGR,0.00816
 Argentina,biomass,biomass_grass_Patagonia,biomass_grass_Patagonia,1975,N2O_AGR,0.008163204
 Argentina,biomass,biomass_grass_RioLaPlata,biomass_grass_RioLaPlata,1975,N2O_AGR,0.008163204
 Argentina,biomass,biomass_grass_Salinas,biomass_grass_Salinas,1975,N2O_AGR,0.008163204
+Colombia,biomass,biomass_grass_AmazonR,biomass_grass_AmazonR,1975,N2O_AGR,0.008163204
 Colombia,biomass,biomass_grass_ColEcuaCst,biomass_grass_ColEcuaCst,1975,N2O_AGR,0.008163204
 Colombia,biomass,biomass_grass_MagdalenaR,biomass_grass_MagdalenaR,1975,N2O_AGR,0.008163204
 Colombia,biomass,biomass_grass_OrinocoR,biomass_grass_OrinocoR,1975,N2O_AGR,0.008163204
@@ -377,6 +377,7 @@ USA,biomass,biomass_tree_Caribbean,biomass_tree_Caribbean,1975,N2O_AGR,0.0113142
 USA,biomass,biomass_tree_FraserR,biomass_tree_FraserR,1975,N2O_AGR,0.011314286
 USA,biomass,biomass_tree_GreatBasin,biomass_tree_GreatBasin,1975,N2O_AGR,0.011314286
 USA,biomass,biomass_tree_GreatLakes,biomass_tree_GreatLakes,1975,N2O_AGR,0.011314286
+USA,biomass,biomass_tree_MexCstNW,biomass_tree_MexCstNW,1975,N2O_AGR,0.011314286
 USA,biomass,biomass_tree_MissouriR,biomass_tree_MissouriR,1975,N2O_AGR,0.011314286
 USA,biomass,biomass_tree_MissppRN,biomass_tree_MissppRN,1975,N2O_AGR,0.011314286
 USA,biomass,biomass_tree_MissppRS,biomass_tree_MissppRS,1975,N2O_AGR,0.011314286
@@ -470,7 +471,6 @@ Central Asia,biomass,biomass_tree_Gobi,biomass_tree_Gobi,1975,N2O_AGR,0.0095297
 Central Asia,biomass,biomass_tree_LBalkash,biomass_tree_LBalkash,1975,N2O_AGR,0.0095297
 Central Asia,biomass,biomass_tree_ObR,biomass_tree_ObR,1975,N2O_AGR,0.0095297
 Central Asia,biomass,biomass_tree_SyrDaryaR,biomass_tree_SyrDaryaR,1975,N2O_AGR,0.0095297
-Central Asia,biomass,biomass_tree_Tarim,biomass_tree_Tarim,1975,N2O_AGR,0.0095297
 Central Asia,biomass,biomass_tree_UralR,biomass_tree_UralR,1975,N2O_AGR,0.0095297
 Central Asia,biomass,biomass_tree_VolgaR,biomass_tree_VolgaR,1975,N2O_AGR,0.0095297
 Central Asia,biomass,biomass_tree_YeniseiR,biomass_tree_YeniseiR,1975,N2O_AGR,0.0095297
@@ -587,7 +587,6 @@ Indonesia,biomass,biomass_tree_IdnE,biomass_tree_IdnE,1975,N2O_AGR,0.0095297
 Indonesia,biomass,biomass_tree_IrianJaya,biomass_tree_IrianJaya,1975,N2O_AGR,0.0095297
 Indonesia,biomass,biomass_tree_JavaTimor,biomass_tree_JavaTimor,1975,N2O_AGR,0.0095297
 Indonesia,biomass,biomass_tree_Kalimantan,biomass_tree_Kalimantan,1975,N2O_AGR,0.0095297
-Indonesia,biomass,biomass_tree_MalaysiaP,biomass_tree_MalaysiaP,1975,N2O_AGR,0.0095297
 Indonesia,biomass,biomass_tree_SepikR,biomass_tree_SepikR,1975,N2O_AGR,0.0095297
 Indonesia,biomass,biomass_tree_Sulawesi,biomass_tree_Sulawesi,1975,N2O_AGR,0.0095297
 Indonesia,biomass,biomass_tree_Sumatra,biomass_tree_Sumatra,1975,N2O_AGR,0.0095297
@@ -648,17 +647,18 @@ South Africa,biomass,biomass_tree_AfrCstS,biomass_tree_AfrCstS,1975,N2O_AGR,0.00
 South Africa,biomass,biomass_tree_AfrCstSSW,biomass_tree_AfrCstSSW,1975,N2O_AGR,0.009445905
 South Africa,biomass,biomass_tree_LimpopoR,biomass_tree_LimpopoR,1975,N2O_AGR,0.009445905
 South Africa,biomass,biomass_tree_OrangeR,biomass_tree_OrangeR,1975,N2O_AGR,0.009445905
+South America_Northern,biomass,biomass_tree_AmazonR,biomass_tree_AmazonR,1975,N2O_AGR,0.008163204
 South America_Northern,biomass,biomass_tree_MagdalenaR,biomass_tree_MagdalenaR,1975,N2O_AGR,0.008163204
 South America_Northern,biomass,biomass_tree_OrinocoR,biomass_tree_OrinocoR,1975,N2O_AGR,0.008163204
 South America_Northern,biomass,biomass_tree_SAmerCstN,biomass_tree_SAmerCstN,1975,N2O_AGR,0.008163204
 South America_Northern,biomass,biomass_tree_SAmerCstNE,biomass_tree_SAmerCstNE,1975,N2O_AGR,0.008163204
+South America_Southern,biomass,biomass_tree_AmazonR,biomass_tree_AmazonR,1975,N2O_AGR,0.008163204
 South America_Southern,biomass,biomass_tree_ArgCstS,biomass_tree_ArgCstS,1975,N2O_AGR,0.008163204
 South America_Southern,biomass,biomass_tree_ChileCstN,biomass_tree_ChileCstN,1975,N2O_AGR,0.008163204
 South America_Southern,biomass,biomass_tree_ChileCstS,biomass_tree_ChileCstS,1975,N2O_AGR,0.008163204
 South America_Southern,biomass,biomass_tree_ColEcuaCst,biomass_tree_ColEcuaCst,1975,N2O_AGR,0.008163204
 South America_Southern,biomass,biomass_tree_LaPuna,biomass_tree_LaPuna,1975,N2O_AGR,0.008163204
 South America_Southern,biomass,biomass_tree_NegroR,biomass_tree_NegroR,1975,N2O_AGR,0.008163204
-South America_Southern,biomass,biomass_tree_OrinocoR,biomass_tree_OrinocoR,1975,N2O_AGR,0.008163204
 South America_Southern,biomass,biomass_tree_PeruCst,biomass_tree_PeruCst,1975,N2O_AGR,0.008163204
 South America_Southern,biomass,biomass_tree_RioLaPlata,biomass_tree_RioLaPlata,1975,N2O_AGR,0.008163204
 South Asia,biomass,biomass_tree_AmuDaryaR,biomass_tree_AmuDaryaR,1975,N2O_AGR,0.0095297
@@ -702,6 +702,7 @@ Argentina,biomass,biomass_tree_Pampas,biomass_tree_Pampas,1975,N2O_AGR,0.0081632
 Argentina,biomass,biomass_tree_Patagonia,biomass_tree_Patagonia,1975,N2O_AGR,0.008163204
 Argentina,biomass,biomass_tree_RioLaPlata,biomass_tree_RioLaPlata,1975,N2O_AGR,0.008163204
 Argentina,biomass,biomass_tree_Salinas,biomass_tree_Salinas,1975,N2O_AGR,0.008163204
+Colombia,biomass,biomass_tree_AmazonR,biomass_tree_AmazonR,1975,N2O_AGR,0.008163204
 Colombia,biomass,biomass_tree_ColEcuaCst,biomass_tree_ColEcuaCst,1975,N2O_AGR,0.008163204
 Colombia,biomass,biomass_tree_MagdalenaR,biomass_tree_MagdalenaR,1975,N2O_AGR,0.008163204
 Colombia,biomass,biomass_tree_OrinocoR,biomass_tree_OrinocoR,1975,N2O_AGR,0.008163204

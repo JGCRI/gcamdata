@@ -1,3 +1,7 @@
+INPUT_TABLE
+Variable ID
+LN2_Logit
+
 region,LandAllocatorRoot,LandNode1,LandNode2,logit.year.fillout,logit.exponent
 Canada,root,AgroForestLand_NWTerr,AgroForest_NonPasture_NWTerr,1975,2.5
 Russia,root,AgroForestLand_SiberiaW,AgroForest_NonPasture_SiberiaW,1975,2.5
@@ -126,7 +130,6 @@ EU-15,root,AgroForestLand_EbroR,AgroForest_NonPasture_EbroR,1975,2.5
 EU-15,root,AgroForestLand_DouroR,AgroForest_NonPasture_DouroR,1975,2.5
 Africa_Northern,root,AgroForestLand_MeditE,AgroForest_NonPasture_MeditE,1975,2.5
 EU-12,root,AgroForestLand_MeditE,AgroForest_NonPasture_MeditE,1975,2.5
-EU-15,root,AgroForestLand_MeditE,AgroForest_NonPasture_MeditE,1975,2.5
 Europe_Non_EU,root,AgroForestLand_MeditE,AgroForest_NonPasture_MeditE,1975,2.5
 Middle East,root,AgroForestLand_MeditE,AgroForest_NonPasture_MeditE,1975,2.5
 Central Asia,root,AgroForestLand_SyrDaryaR,AgroForest_NonPasture_SyrDaryaR,1975,2.5
@@ -167,6 +170,7 @@ Mexico,root,AgroForestLand_MexCstNW,AgroForest_NonPasture_MexCstNW,1975,2.5
 Middle East,root,AgroForestLand_Helmand,AgroForest_NonPasture_Helmand,1975,2.5
 Pakistan,root,AgroForestLand_Helmand,AgroForest_NonPasture_Helmand,1975,2.5
 South Asia,root,AgroForestLand_Helmand,AgroForest_NonPasture_Helmand,1975,2.5
+Africa_Northern,root,AgroForestLand_SinaiP,AgroForest_NonPasture_SinaiP,1975,2.5
 Middle East,root,AgroForestLand_SinaiP,AgroForest_NonPasture_SinaiP,1975,2.5
 Europe_Non_EU,root,AgroForestLand_EJrdnSyr,AgroForest_NonPasture_EJrdnSyr,1975,2.5
 Middle East,root,AgroForestLand_EJrdnSyr,AgroForest_NonPasture_EJrdnSyr,1975,2.5
@@ -231,7 +235,6 @@ China,root,AgroForestLand_IrrawaddyR,AgroForest_NonPasture_IrrawaddyR,1975,2.5
 India,root,AgroForestLand_IrrawaddyR,AgroForest_NonPasture_IrrawaddyR,1975,2.5
 Southeast Asia,root,AgroForestLand_IrrawaddyR,AgroForest_NonPasture_IrrawaddyR,1975,2.5
 Southeast Asia,root,AgroForestLand_SittaungR,AgroForest_NonPasture_SittaungR,1975,2.5
-Indonesia,root,AgroForestLand_MalaysiaP,AgroForest_NonPasture_MalaysiaP,1975,2.5
 Southeast Asia,root,AgroForestLand_MalaysiaP,AgroForest_NonPasture_MalaysiaP,1975,2.5
 India,root,AgroForestLand_KrishnaR,AgroForest_NonPasture_KrishnaR,1975,2.5
 Africa_Western,root,AgroForestLand_AfrCstW,AgroForest_NonPasture_AfrCstW,1975,2.5
@@ -252,9 +255,7 @@ Africa_Western,root,AgroForestLand_SenegalR,AgroForest_NonPasture_SenegalR,1975,
 India,root,AgroForestLand_CauveryR,AgroForest_NonPasture_CauveryR,1975,2.5
 South Asia,root,AgroForestLand_SriLanka,AgroForest_NonPasture_SriLanka,1975,2.5
 India,root,AgroForestLand_IndCstS,AgroForest_NonPasture_IndCstS,1975,2.5
-Brazil,root,AgroForestLand_OrinocoR,AgroForest_NonPasture_OrinocoR,1975,2.5
 South America_Northern,root,AgroForestLand_OrinocoR,AgroForest_NonPasture_OrinocoR,1975,2.5
-South America_Southern,root,AgroForestLand_OrinocoR,AgroForest_NonPasture_OrinocoR,1975,2.5
 Colombia,root,AgroForestLand_OrinocoR,AgroForest_NonPasture_OrinocoR,1975,2.5
 Central America and Caribbean,root,AgroForestLand_ColEcuaCst,AgroForest_NonPasture_ColEcuaCst,1975,2.5
 South America_Southern,root,AgroForestLand_ColEcuaCst,AgroForest_NonPasture_ColEcuaCst,1975,2.5
@@ -277,6 +278,9 @@ Colombia,root,AgroForestLand_MagdalenaR,AgroForest_NonPasture_MagdalenaR,1975,2.
 Indonesia,root,AgroForestLand_IrianJaya,AgroForest_NonPasture_IrianJaya,1975,2.5
 Southeast Asia,root,AgroForestLand_IrianJaya,AgroForest_NonPasture_IrianJaya,1975,2.5
 Brazil,root,AgroForestLand_AmazonR,AgroForest_NonPasture_AmazonR,1975,2.5
+South America_Northern,root,AgroForestLand_AmazonR,AgroForest_NonPasture_AmazonR,1975,2.5
+South America_Southern,root,AgroForestLand_AmazonR,AgroForest_NonPasture_AmazonR,1975,2.5
+Colombia,root,AgroForestLand_AmazonR,AgroForest_NonPasture_AmazonR,1975,2.5
 South America_Southern,root,AgroForestLand_ChileCstS,AgroForest_NonPasture_ChileCstS,1975,2.5
 Argentina,root,AgroForestLand_ChileCstS,AgroForest_NonPasture_ChileCstS,1975,2.5
 Africa_Eastern,root,AgroForestLand_ShebJubR,AgroForest_NonPasture_ShebJubR,1975,2.5
@@ -369,9 +373,9 @@ USA,root,AgroForestLand_UsaCstE,AgroForest_NonPasture_UsaCstE,1975,2.5
 India,root,AgroForestLand_NarmadaR,AgroForest_NonPasture_NarmadaR,1975,2.5
 USA,root,AgroForestLand_PacArctic,AgroForest_NonPasture_PacArctic,1975,2.5
 Africa_Northern,root,AgroForestLand_DeadSea,AgroForest_NonPasture_DeadSea,1975,2.5
-Africa_Northern,root,AgroForestLand_SinaiP,AgroForest_NonPasture_SinaiP,1975,2.5
 Africa_Northern,root,AgroForestLand_NigerR,AgroForest_NonPasture_NigerR,1975,2.5
 Africa_Northern,root,AgroForestLand_LChad,AgroForest_NonPasture_LChad,1975,2.5
+Brazil,root,AgroForestLand_OrinocoR,AgroForest_NonPasture_OrinocoR,1975,2.5
 Canada,root,AgroForestLand_ChurchillR,AgroForest_NonPasture_ChurchillR,1975,2.5
 EU-15,root,AgroForestLand_ScndnvN,AgroForest_NonPasture_ScndnvN,1975,2.5
 European Free Trade Association,root,AgroForestLand_Iceland,AgroForest_NonPasture_Iceland,1975,2.5
@@ -561,7 +565,6 @@ EU-15,root,AgroForestLand_TiberR,AllPastureLand_TiberR,1975,3
 EU-15,root,AgroForestLand_TagusR,AllPastureLand_TagusR,1975,3
 EU-15,root,AgroForestLand_EbroR,AllPastureLand_EbroR,1975,3
 EU-15,root,AgroForestLand_DouroR,AllPastureLand_DouroR,1975,3
-EU-15,root,AgroForestLand_MeditE,AllPastureLand_MeditE,1975,3
 EU-15,root,AgroForestLand_GuadianaR,AllPastureLand_GuadianaR,1975,3
 EU-15,root,AgroForestLand_GuadalqR,AllPastureLand_GuadalqR,1975,3
 Europe_Eastern,root,AgroForestLand_NevaR,AllPastureLand_NevaR,1975,3
@@ -606,7 +609,6 @@ India,root,AgroForestLand_PennarR,AllPastureLand_PennarR,1975,3
 India,root,AgroForestLand_CauveryR,AllPastureLand_CauveryR,1975,3
 India,root,AgroForestLand_IndCstS,AllPastureLand_IndCstS,1975,3
 India,root,AgroForestLand_NarmadaR,AllPastureLand_NarmadaR,1975,3
-Indonesia,root,AgroForestLand_MalaysiaP,AllPastureLand_MalaysiaP,1975,3
 Indonesia,root,AgroForestLand_IdnE,AllPastureLand_IdnE,1975,3
 Indonesia,root,AgroForestLand_BorneoCstN,AllPastureLand_BorneoCstN,1975,3
 Indonesia,root,AgroForestLand_Sumatra,AllPastureLand_Sumatra,1975,3
@@ -694,8 +696,9 @@ South America_Northern,root,AgroForestLand_SAmerCstN,AllPastureLand_SAmerCstN,19
 South America_Northern,root,AgroForestLand_OrinocoR,AllPastureLand_OrinocoR,1975,3
 South America_Northern,root,AgroForestLand_SAmerCstNE,AllPastureLand_SAmerCstNE,1975,3
 South America_Northern,root,AgroForestLand_MagdalenaR,AllPastureLand_MagdalenaR,1975,3
-South America_Southern,root,AgroForestLand_OrinocoR,AllPastureLand_OrinocoR,1975,3
+South America_Northern,root,AgroForestLand_AmazonR,AllPastureLand_AmazonR,1975,3
 South America_Southern,root,AgroForestLand_ColEcuaCst,AllPastureLand_ColEcuaCst,1975,3
+South America_Southern,root,AgroForestLand_AmazonR,AllPastureLand_AmazonR,1975,3
 South America_Southern,root,AgroForestLand_ChileCstS,AllPastureLand_ChileCstS,1975,3
 South America_Southern,root,AgroForestLand_PeruCst,AllPastureLand_PeruCst,1975,3
 South America_Southern,root,AgroForestLand_BrzCstS,AllPastureLand_BrzCstS,1975,3
@@ -757,4 +760,5 @@ Colombia,root,AgroForestLand_SAmerCstN,AllPastureLand_SAmerCstN,1975,3
 Colombia,root,AgroForestLand_OrinocoR,AllPastureLand_OrinocoR,1975,3
 Colombia,root,AgroForestLand_ColEcuaCst,AllPastureLand_ColEcuaCst,1975,3
 Colombia,root,AgroForestLand_MagdalenaR,AllPastureLand_MagdalenaR,1975,3
+Colombia,root,AgroForestLand_AmazonR,AllPastureLand_AmazonR,1975,3
 Russia,root,AgroForestLand_ArcticIsl,AgroForest_NonPasture_ArcticIsl,1975,2.5
