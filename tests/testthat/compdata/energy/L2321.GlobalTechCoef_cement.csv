@@ -1,0 +1,225 @@
+INPUT_TABLE
+Variable ID
+GlobalTechCoef
+
+sector.name,subsector.name,technology,year,minicam.energy.input,coefficient
+cement,cement,cement,1975,process heat cement,0.004
+cement,cement,cement,1975,elect_td_ind,5e-04
+cement,cement,cement,1975,limestone,1.5
+cement,cement,cement CCS,1975,process heat cement,0.004
+cement,cement,cement CCS,1975,elect_td_ind,5e-04
+cement,cement,cement CCS,1975,limestone,1.5
+process heat cement,biomass,biomass,1975,delivered biomass,1
+process heat cement,coal,coal,1975,delivered coal,1
+process heat cement,gas,gas,1975,wholesale gas,1
+process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,1
+cement,cement,cement,1990,process heat cement,0.004
+cement,cement,cement,1990,elect_td_ind,5e-04
+cement,cement,cement,1990,limestone,1.5
+cement,cement,cement CCS,1990,process heat cement,0.004
+cement,cement,cement CCS,1990,elect_td_ind,5e-04
+cement,cement,cement CCS,1990,limestone,1.5
+process heat cement,biomass,biomass,1990,delivered biomass,1
+process heat cement,coal,coal,1990,delivered coal,1
+process heat cement,gas,gas,1990,wholesale gas,1
+process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,1
+cement,cement,cement,2005,process heat cement,0.004
+cement,cement,cement,2005,elect_td_ind,5e-04
+cement,cement,cement,2005,limestone,1.5
+cement,cement,cement CCS,2005,process heat cement,0.004
+cement,cement,cement CCS,2005,elect_td_ind,5e-04
+cement,cement,cement CCS,2005,limestone,1.5
+process heat cement,biomass,biomass,2005,delivered biomass,1
+process heat cement,coal,coal,2005,delivered coal,1
+process heat cement,gas,gas,2005,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,1
+cement,cement,cement,2010,process heat cement,0.004
+cement,cement,cement,2010,elect_td_ind,5e-04
+cement,cement,cement,2010,limestone,1.5
+cement,cement,cement CCS,2010,process heat cement,0.004
+cement,cement,cement CCS,2010,elect_td_ind,5e-04
+cement,cement,cement CCS,2010,limestone,1.5
+process heat cement,biomass,biomass,2010,delivered biomass,1
+process heat cement,coal,coal,2010,delivered coal,1
+process heat cement,gas,gas,2010,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,1
+cement,cement,cement,2015,process heat cement,0.0039444
+cement,cement,cement,2015,elect_td_ind,5e-04
+cement,cement,cement,2015,limestone,1.5
+cement,cement,cement CCS,2015,process heat cement,0.0039444
+cement,cement,cement CCS,2015,elect_td_ind,5e-04
+cement,cement,cement CCS,2015,limestone,1.5
+process heat cement,biomass,biomass,2015,delivered biomass,1
+process heat cement,coal,coal,2015,delivered coal,1
+process heat cement,gas,gas,2015,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2015,refined liquids industrial,1
+cement,cement,cement,2020,process heat cement,0.0038889
+cement,cement,cement,2020,elect_td_ind,5e-04
+cement,cement,cement,2020,limestone,1.5
+cement,cement,cement CCS,2020,process heat cement,0.0038889
+cement,cement,cement CCS,2020,elect_td_ind,5e-04
+cement,cement,cement CCS,2020,limestone,1.5
+process heat cement,biomass,biomass,2020,delivered biomass,1
+process heat cement,coal,coal,2020,delivered coal,1
+process heat cement,gas,gas,2020,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2020,refined liquids industrial,1
+cement,cement,cement,2025,process heat cement,0.0038333
+cement,cement,cement,2025,elect_td_ind,5e-04
+cement,cement,cement,2025,limestone,1.5
+cement,cement,cement CCS,2025,process heat cement,0.0038333
+cement,cement,cement CCS,2025,elect_td_ind,5e-04
+cement,cement,cement CCS,2025,limestone,1.5
+process heat cement,biomass,biomass,2025,delivered biomass,1
+process heat cement,coal,coal,2025,delivered coal,1
+process heat cement,gas,gas,2025,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2025,refined liquids industrial,1
+cement,cement,cement,2030,process heat cement,0.0037778
+cement,cement,cement,2030,elect_td_ind,5e-04
+cement,cement,cement,2030,limestone,1.5
+cement,cement,cement CCS,2030,process heat cement,0.0037778
+cement,cement,cement CCS,2030,elect_td_ind,5e-04
+cement,cement,cement CCS,2030,limestone,1.5
+process heat cement,biomass,biomass,2030,delivered biomass,1
+process heat cement,coal,coal,2030,delivered coal,1
+process heat cement,gas,gas,2030,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2030,refined liquids industrial,1
+cement,cement,cement,2035,process heat cement,0.0037222
+cement,cement,cement,2035,elect_td_ind,5e-04
+cement,cement,cement,2035,limestone,1.5
+cement,cement,cement CCS,2035,process heat cement,0.0037222
+cement,cement,cement CCS,2035,elect_td_ind,5e-04
+cement,cement,cement CCS,2035,limestone,1.5
+process heat cement,biomass,biomass,2035,delivered biomass,1
+process heat cement,coal,coal,2035,delivered coal,1
+process heat cement,gas,gas,2035,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2035,refined liquids industrial,1
+cement,cement,cement,2040,process heat cement,0.0036667
+cement,cement,cement,2040,elect_td_ind,5e-04
+cement,cement,cement,2040,limestone,1.5
+cement,cement,cement CCS,2040,process heat cement,0.0036667
+cement,cement,cement CCS,2040,elect_td_ind,5e-04
+cement,cement,cement CCS,2040,limestone,1.5
+process heat cement,biomass,biomass,2040,delivered biomass,1
+process heat cement,coal,coal,2040,delivered coal,1
+process heat cement,gas,gas,2040,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2040,refined liquids industrial,1
+cement,cement,cement,2045,process heat cement,0.0036111
+cement,cement,cement,2045,elect_td_ind,5e-04
+cement,cement,cement,2045,limestone,1.5
+cement,cement,cement CCS,2045,process heat cement,0.0036111
+cement,cement,cement CCS,2045,elect_td_ind,5e-04
+cement,cement,cement CCS,2045,limestone,1.5
+process heat cement,biomass,biomass,2045,delivered biomass,1
+process heat cement,coal,coal,2045,delivered coal,1
+process heat cement,gas,gas,2045,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2045,refined liquids industrial,1
+cement,cement,cement,2050,process heat cement,0.0035556
+cement,cement,cement,2050,elect_td_ind,5e-04
+cement,cement,cement,2050,limestone,1.5
+cement,cement,cement CCS,2050,process heat cement,0.0035556
+cement,cement,cement CCS,2050,elect_td_ind,5e-04
+cement,cement,cement CCS,2050,limestone,1.5
+process heat cement,biomass,biomass,2050,delivered biomass,1
+process heat cement,coal,coal,2050,delivered coal,1
+process heat cement,gas,gas,2050,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2050,refined liquids industrial,1
+cement,cement,cement,2055,process heat cement,0.0035
+cement,cement,cement,2055,elect_td_ind,5e-04
+cement,cement,cement,2055,limestone,1.5
+cement,cement,cement CCS,2055,process heat cement,0.0035
+cement,cement,cement CCS,2055,elect_td_ind,5e-04
+cement,cement,cement CCS,2055,limestone,1.5
+process heat cement,biomass,biomass,2055,delivered biomass,1
+process heat cement,coal,coal,2055,delivered coal,1
+process heat cement,gas,gas,2055,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2055,refined liquids industrial,1
+cement,cement,cement,2060,process heat cement,0.0034444
+cement,cement,cement,2060,elect_td_ind,5e-04
+cement,cement,cement,2060,limestone,1.5
+cement,cement,cement CCS,2060,process heat cement,0.0034444
+cement,cement,cement CCS,2060,elect_td_ind,5e-04
+cement,cement,cement CCS,2060,limestone,1.5
+process heat cement,biomass,biomass,2060,delivered biomass,1
+process heat cement,coal,coal,2060,delivered coal,1
+process heat cement,gas,gas,2060,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2060,refined liquids industrial,1
+cement,cement,cement,2065,process heat cement,0.0033889
+cement,cement,cement,2065,elect_td_ind,5e-04
+cement,cement,cement,2065,limestone,1.5
+cement,cement,cement CCS,2065,process heat cement,0.0033889
+cement,cement,cement CCS,2065,elect_td_ind,5e-04
+cement,cement,cement CCS,2065,limestone,1.5
+process heat cement,biomass,biomass,2065,delivered biomass,1
+process heat cement,coal,coal,2065,delivered coal,1
+process heat cement,gas,gas,2065,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2065,refined liquids industrial,1
+cement,cement,cement,2070,process heat cement,0.0033333
+cement,cement,cement,2070,elect_td_ind,5e-04
+cement,cement,cement,2070,limestone,1.5
+cement,cement,cement CCS,2070,process heat cement,0.0033333
+cement,cement,cement CCS,2070,elect_td_ind,5e-04
+cement,cement,cement CCS,2070,limestone,1.5
+process heat cement,biomass,biomass,2070,delivered biomass,1
+process heat cement,coal,coal,2070,delivered coal,1
+process heat cement,gas,gas,2070,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2070,refined liquids industrial,1
+cement,cement,cement,2075,process heat cement,0.0032778
+cement,cement,cement,2075,elect_td_ind,5e-04
+cement,cement,cement,2075,limestone,1.5
+cement,cement,cement CCS,2075,process heat cement,0.0032778
+cement,cement,cement CCS,2075,elect_td_ind,5e-04
+cement,cement,cement CCS,2075,limestone,1.5
+process heat cement,biomass,biomass,2075,delivered biomass,1
+process heat cement,coal,coal,2075,delivered coal,1
+process heat cement,gas,gas,2075,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2075,refined liquids industrial,1
+cement,cement,cement,2080,process heat cement,0.0032222
+cement,cement,cement,2080,elect_td_ind,5e-04
+cement,cement,cement,2080,limestone,1.5
+cement,cement,cement CCS,2080,process heat cement,0.0032222
+cement,cement,cement CCS,2080,elect_td_ind,5e-04
+cement,cement,cement CCS,2080,limestone,1.5
+process heat cement,biomass,biomass,2080,delivered biomass,1
+process heat cement,coal,coal,2080,delivered coal,1
+process heat cement,gas,gas,2080,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2080,refined liquids industrial,1
+cement,cement,cement,2085,process heat cement,0.0031667
+cement,cement,cement,2085,elect_td_ind,5e-04
+cement,cement,cement,2085,limestone,1.5
+cement,cement,cement CCS,2085,process heat cement,0.0031667
+cement,cement,cement CCS,2085,elect_td_ind,5e-04
+cement,cement,cement CCS,2085,limestone,1.5
+process heat cement,biomass,biomass,2085,delivered biomass,1
+process heat cement,coal,coal,2085,delivered coal,1
+process heat cement,gas,gas,2085,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2085,refined liquids industrial,1
+cement,cement,cement,2090,process heat cement,0.0031111
+cement,cement,cement,2090,elect_td_ind,5e-04
+cement,cement,cement,2090,limestone,1.5
+cement,cement,cement CCS,2090,process heat cement,0.0031111
+cement,cement,cement CCS,2090,elect_td_ind,5e-04
+cement,cement,cement CCS,2090,limestone,1.5
+process heat cement,biomass,biomass,2090,delivered biomass,1
+process heat cement,coal,coal,2090,delivered coal,1
+process heat cement,gas,gas,2090,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2090,refined liquids industrial,1
+cement,cement,cement,2095,process heat cement,0.0030556
+cement,cement,cement,2095,elect_td_ind,5e-04
+cement,cement,cement,2095,limestone,1.5
+cement,cement,cement CCS,2095,process heat cement,0.0030556
+cement,cement,cement CCS,2095,elect_td_ind,5e-04
+cement,cement,cement CCS,2095,limestone,1.5
+process heat cement,biomass,biomass,2095,delivered biomass,1
+process heat cement,coal,coal,2095,delivered coal,1
+process heat cement,gas,gas,2095,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2095,refined liquids industrial,1
+cement,cement,cement,2100,process heat cement,0.003
+cement,cement,cement,2100,elect_td_ind,5e-04
+cement,cement,cement,2100,limestone,1.5
+cement,cement,cement CCS,2100,process heat cement,0.003
+cement,cement,cement CCS,2100,elect_td_ind,5e-04
+cement,cement,cement CCS,2100,limestone,1.5
+process heat cement,biomass,biomass,2100,delivered biomass,1
+process heat cement,coal,coal,2100,delivered coal,1
+process heat cement,gas,gas,2100,wholesale gas,1
+process heat cement,refined liquids,refined liquids,2100,refined liquids industrial,1

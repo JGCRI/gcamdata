@@ -1,0 +1,657 @@
+INPUT_TABLE
+Variable ID
+StubTranTechCalInput
+
+region,supplysector,tranSubsector,stub.technology,year,minicam.energy.input,calibrated.value,share.weight.year,subs.share.weight,tech.share.weight
+USA,trn_pass,road,road,1975,trn_pass_road,4573598.07588911,1975,1,1
+USA,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,4245644.74242475,1975,1,1
+USA,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,4222027.58031091,1975,1,1
+USA,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,23617.1621138419,1975,1,1
+USA,trn_freight,road,road,1975,trn_freight_road,1318069.90179324,1975,1,1
+USA,trn_pass,road,road,1990,trn_pass_road,5336428.35233063,1990,1,1
+USA,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,4953775.65089391,1990,1,1
+USA,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,4926219.39697365,1990,1,1
+USA,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,27556.2539202586,1990,1,1
+USA,trn_freight,road,road,1990,trn_freight_road,1537910.71145216,1990,1,1
+USA,trn_pass,road,road,2005,trn_pass_road,7199245.63334297,2005,1,1
+USA,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,6649130.85816732,2005,1,1
+USA,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,6612143.87672006,2005,1,1
+USA,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,36986.9814472629,2005,1,1
+USA,trn_freight,road,road,2005,trn_freight_road,2064237.53556591,2005,1,1
+USA,trn_pass,road,road,2010,trn_pass_road,7066180.35912577,2010,1,1
+USA,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,6531467.30692754,2010,1,1
+USA,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,6495134.27184488,2010,1,1
+USA,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,36333.0350826551,2010,1,1
+USA,trn_freight,road,road,2010,trn_freight_road,1965778.42347122,2010,1,1
+Africa_Eastern,trn_pass,road,road,1975,trn_pass_road,78935.9557035972,1975,1,1
+Africa_Eastern,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,20516.8221513166,1975,1,1
+Africa_Eastern,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,19057.928755507,1975,1,1
+Africa_Eastern,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,1246.58294752312,1975,1,1
+Africa_Eastern,trn_freight,road,road,1975,trn_freight_road,12889.3211174752,1975,1,1
+Africa_Eastern,trn_pass,road,road,1990,trn_pass_road,159651.793913481,1990,1,1
+Africa_Eastern,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,41496.6285511714,1990,1,1
+Africa_Eastern,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,38545.904715107,1990,1,1
+Africa_Eastern,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,2521.43153762086,1990,1,1
+Africa_Eastern,trn_freight,road,road,1990,trn_freight_road,26069.3331041817,1990,1,1
+Africa_Eastern,trn_pass,road,road,2005,trn_pass_road,225307.011850512,2005,1,1
+Africa_Eastern,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,58561.7361640446,2005,1,1
+Africa_Eastern,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,54397.4779266271,2005,1,1
+Africa_Eastern,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,3558.40601520804,2005,1,1
+Africa_Eastern,trn_freight,road,road,2005,trn_freight_road,36790.010053832,2005,1,1
+Africa_Eastern,trn_pass,road,road,2010,trn_pass_road,318337.485285901,2010,1,1
+Africa_Eastern,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,83953.2624111796,2010,1,1
+Africa_Eastern,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,77877.8491845696,2010,1,1
+Africa_Eastern,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,5191.43098115793,2010,1,1
+Africa_Eastern,trn_freight,road,road,2010,trn_freight_road,52022.1007443468,2010,1,1
+Africa_Northern,trn_pass,road,road,1975,trn_pass_road,223532.895663172,1975,1,1
+Africa_Northern,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,58100.7011380531,1975,1,1
+Africa_Northern,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,53969.3050048577,1975,1,1
+Africa_Northern,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,3530.31064758868,1975,1,1
+Africa_Northern,trn_freight,road,road,1975,trn_freight_road,36500.3504515809,1975,1,1
+Africa_Northern,trn_pass,road,road,1990,trn_pass_road,642603.499221893,1990,1,1
+Africa_Northern,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,167025.3514825,1990,1,1
+Africa_Northern,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,155148.415970383,1990,1,1
+Africa_Northern,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,10148.8981588882,1990,1,1
+Africa_Northern,trn_freight,road,road,1990,trn_freight_road,104929.701799639,1990,1,1
+Africa_Northern,trn_pass,road,road,2005,trn_pass_road,1088543.59368233,2005,1,1
+Africa_Northern,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,282632.140821485,2005,1,1
+Africa_Northern,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,262887.008223156,2005,1,1
+Africa_Northern,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,16809.2030342285,2005,1,1
+Africa_Northern,trn_freight,road,road,2005,trn_freight_road,173801.60387452,2005,1,1
+Africa_Northern,trn_pass,road,road,2010,trn_pass_road,1589717.53392776,2010,1,1
+Africa_Northern,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,418761.690777725,2010,1,1
+Africa_Northern,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,389010.879490084,2010,1,1
+Africa_Northern,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,25326.6152982008,2010,1,1
+Africa_Northern,trn_freight,road,road,2010,trn_freight_road,253807.33576486,2010,1,1
+Africa_Southern,trn_pass,road,road,1975,trn_pass_road,70581.8001914865,1975,1,1
+Africa_Southern,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,18345.5993867449,1975,1,1
+Africa_Southern,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,17040.9978030784,1975,1,1
+Africa_Southern,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,1114.79013214504,1975,1,1
+Africa_Southern,trn_freight,road,road,1975,trn_freight_road,11525.1728540382,1975,1,1
+Africa_Southern,trn_pass,road,road,1990,trn_pass_road,97717.1499539043,1990,1,1
+Africa_Southern,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,25398.4415733189,1990,1,1
+Africa_Southern,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,23592.4971321739,1990,1,1
+Africa_Southern,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,1543.20191960142,1990,1,1
+Africa_Southern,trn_freight,road,road,1990,trn_freight_road,15956.037851777,1990,1,1
+Africa_Southern,trn_pass,road,road,2005,trn_pass_road,188697.689362446,2005,1,1
+Africa_Southern,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,49046.1639180029,2005,1,1
+Africa_Southern,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,45558.5448721591,2005,1,1
+Africa_Southern,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,2980.15226711509,2005,1,1
+Africa_Southern,trn_freight,road,road,2005,trn_freight_road,30812.0611616074,2005,1,1
+Africa_Southern,trn_pass,road,road,2010,trn_pass_road,303229.009566408,2010,1,1
+Africa_Southern,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,79968.7685663403,2010,1,1
+Africa_Southern,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,74181.6419335636,2010,1,1
+Africa_Southern,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,4945.12092132302,2010,1,1
+Africa_Southern,trn_freight,road,road,2010,trn_freight_road,49553.0342597724,2010,1,1
+Africa_Western,trn_pass,road,road,1975,trn_pass_road,181653.391836711,1975,1,1
+Africa_Western,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,47215.2566543914,1975,1,1
+Africa_Western,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,43857.7987660171,1975,1,1
+Africa_Western,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,2868.96272132454,1975,1,1
+Africa_Western,trn_freight,road,road,1975,trn_freight_road,29661.8860803896,1975,1,1
+Africa_Western,trn_pass,road,road,1990,trn_pass_road,349205.919346959,1990,1,1
+Africa_Western,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,90765.5905379271,1990,1,1
+Africa_Western,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,84311.337626028,1990,1,1
+Africa_Western,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,5515.20580115745,1990,1,1
+Africa_Western,trn_freight,road,road,1990,trn_freight_road,57021.2907051193,1990,1,1
+Africa_Western,trn_pass,road,road,2005,trn_pass_road,733361.110439997,2005,1,1
+Africa_Western,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,190615.044201195,2005,1,1
+Africa_Western,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,177060.677201564,2005,1,1
+Africa_Western,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,11582.2727323412,2005,1,1
+Africa_Western,trn_freight,road,road,2005,trn_freight_road,119749.39333975,2005,1,1
+Africa_Western,trn_pass,road,road,2010,trn_pass_road,707195.70028289,2010,1,1
+Africa_Western,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,186504.136719732,2010,1,1
+Africa_Western,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,173007.548431201,2010,1,1
+Africa_Western,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,11532.8983077331,2010,1,1
+Africa_Western,trn_freight,road,road,2010,trn_freight_road,115568.400928172,2010,1,1
+Australia_NZ,trn_pass,road,road,1975,trn_pass_road,164665.975475956,1975,1,1
+Australia_NZ,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,155326.672801217,1975,1,1
+Australia_NZ,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,154295.663169766,1975,1,1
+Australia_NZ,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,1031.00963145121,1975,1,1
+Australia_NZ,trn_freight,road,road,1975,trn_freight_road,93142.7871976442,1975,1,1
+Australia_NZ,trn_pass,road,road,1990,trn_pass_road,259625.591401457,1990,1,1
+Australia_NZ,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,242644.264615741,1990,1,1
+Australia_NZ,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,241033.698817342,1990,1,1
+Australia_NZ,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,1610.56579839891,1990,1,1
+Australia_NZ,trn_freight,road,road,1990,trn_freight_road,145503.448824574,1990,1,1
+Australia_NZ,trn_pass,road,road,2005,trn_pass_road,341132.532159388,2005,1,1
+Australia_NZ,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,320201.856137545,2005,1,1
+Australia_NZ,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,318076.4911739,2005,1,1
+Australia_NZ,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,2125.36496364495,2005,1,1
+Australia_NZ,trn_freight,road,road,2005,trn_freight_road,192011.398503627,2005,1,1
+Australia_NZ,trn_pass,road,road,2010,trn_pass_road,357497.348028181,2010,1,1
+Australia_NZ,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,335558.43095558,2010,1,1
+Australia_NZ,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,333331.072201506,2010,1,1
+Australia_NZ,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,2227.35875407391,2010,1,1
+Australia_NZ,trn_freight,road,road,2010,trn_freight_road,195250.659941679,2010,1,1
+Brazil,trn_pass,road,road,1975,trn_pass_road,401834.675534342,1975,1,1
+Brazil,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,263206.197281828,1975,1,1
+Brazil,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,231676.140831212,1975,1,1
+Brazil,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,31530.0564506156,1975,1,1
+Brazil,trn_freight,road,road,1975,trn_freight_road,221248.181361831,1975,1,1
+Brazil,trn_pass,road,road,1990,trn_pass_road,628418.21556479,1990,1,1
+Brazil,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,411639.781259005,1990,1,1
+Brazil,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,362334.935140741,1990,1,1
+Brazil,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,49304.8461182641,1990,1,1
+Brazil,trn_freight,road,road,1990,trn_freight_road,345973.962441052,1990,1,1
+Brazil,trn_pass,road,road,2005,trn_pass_road,1037290.95455052,2005,1,1
+Brazil,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,694666.486617712,2005,1,1
+Brazil,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,616738.897606782,2005,1,1
+Brazil,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,77927.5890109309,2005,1,1
+Brazil,trn_freight,road,road,2005,trn_freight_road,546821.544339355,2005,1,1
+Brazil,trn_pass,road,road,2010,trn_pass_road,1411641.76310318,2010,1,1
+Brazil,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,952450.574648546,2010,1,1
+Brazil,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,844011.763487029,2010,1,1
+Brazil,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,108438.811161517,2010,1,1
+Brazil,trn_freight,road,road,2010,trn_freight_road,732805.334793432,2010,1,1
+Canada,trn_pass,road,road,1975,trn_pass_road,553850.295251777,1975,1,1
+Canada,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,503568.219973223,1975,1,1
+Canada,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,501618.407221906,1975,1,1
+Canada,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,1949.81275131723,1975,1,1
+Canada,trn_freight,road,road,1975,trn_freight_road,252512.780986076,1975,1,1
+Canada,trn_pass,road,road,1990,trn_pass_road,618296.19402024,1990,1,1
+Canada,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,561230.538674862,1990,1,1
+Canada,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,559058.911357357,1990,1,1
+Canada,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,2171.62731750555,1990,1,1
+Canada,trn_freight,road,road,1990,trn_freight_road,281241.437794889,1990,1,1
+Canada,trn_pass,road,road,2005,trn_pass_road,777960.051001716,2005,1,1
+Canada,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,706295.590340404,2005,1,1
+Canada,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,703562.394056674,2005,1,1
+Canada,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,2733.19628372979,2005,1,1
+Canada,trn_freight,road,road,2005,trn_freight_road,353963.227559486,2005,1,1
+Canada,trn_pass,road,road,2010,trn_pass_road,924509.222056053,2010,1,1
+Canada,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,842333.358562074,2010,1,1
+Canada,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,839073.507574227,2010,1,1
+Canada,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,3259.85098784711,2010,1,1
+Canada,trn_freight,road,road,2010,trn_freight_road,409606.03667057,2010,1,1
+Central America and Caribbean,trn_pass,road,road,1975,trn_pass_road,93935.8981863675,1975,1,1
+Central America and Caribbean,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,58247.823080761,1975,1,1
+Central America and Caribbean,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,53659.6150398141,1975,1,1
+Central America and Caribbean,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,4588.20804094693,1975,1,1
+Central America and Caribbean,trn_freight,road,road,1975,trn_freight_road,45603.225476833,1975,1,1
+Central America and Caribbean,trn_pass,road,road,1990,trn_pass_road,125934.523633201,1990,1,1
+Central America and Caribbean,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,78125.6911564807,1990,1,1
+Central America and Caribbean,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,71979.1009975099,1990,1,1
+Central America and Caribbean,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,6146.59015897077,1990,1,1
+Central America and Caribbean,trn_freight,road,road,1990,trn_freight_road,61098.7449348823,1990,1,1
+Central America and Caribbean,trn_pass,road,road,2005,trn_pass_road,231212.819123869,2005,1,1
+Central America and Caribbean,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,143479.735424641,2005,1,1
+Central America and Caribbean,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,132200.100016059,2005,1,1
+Central America and Caribbean,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,11279.6354085819,2005,1,1
+Central America and Caribbean,trn_freight,road,road,2005,trn_freight_road,112129.620309644,2005,1,1
+Central America and Caribbean,trn_pass,road,road,2010,trn_pass_road,260082.623729784,2010,1,1
+Central America and Caribbean,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,163667.550734362,2010,1,1
+Central America and Caribbean,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,150801.296484001,2010,1,1
+Central America and Caribbean,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,12866.2542503606,2010,1,1
+Central America and Caribbean,trn_freight,road,road,2010,trn_freight_road,124065.78104614,2010,1,1
+Central Asia,trn_pass,road,road,1975,trn_pass_road,254823.072254376,1975,1,1
+Central Asia,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,187987.941760497,1975,1,1
+Central Asia,trn_pass_road,bus,bus,1975,trn_pass_road_bus,0,1975,0,0
+Central Asia,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,171002.667810044,1975,1,1
+Central Asia,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,16985.2739504524,1975,1,1
+Central Asia,trn_freight,road,road,1975,trn_freight_road,76898.480171093,1975,1,1
+Central Asia,trn_pass,road,road,1990,trn_pass_road,286421.56716537,1990,1,1
+Central Asia,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,200299.06297159,1990,1,1
+Central Asia,trn_pass_road,bus,bus,1990,trn_pass_road_bus,16461.2003325207,1990,1,1
+Central Asia,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,179472.295349711,1990,1,1
+Central Asia,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,20791.0607799663,1990,1,1
+Central Asia,trn_freight,road,road,1990,trn_freight_road,84710.8295010341,1990,1,1
+Central Asia,trn_pass,road,road,2005,trn_pass_road,197196.155473403,2005,1,1
+Central Asia,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,136741.3203199,2005,1,1
+Central Asia,trn_pass_road,bus,bus,2005,trn_pass_road_bus,12900.2089842814,2005,1,1
+Central Asia,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,122377.585417567,2005,1,1
+Central Asia,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,14335.8275071178,2005,1,1
+Central Asia,trn_freight,road,road,2005,trn_freight_road,58288.8630879052,2005,1,1
+Central Asia,trn_pass,road,road,2010,trn_pass_road,246036.721661792,2010,1,1
+Central Asia,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,170242.539248521,2010,1,1
+Central Asia,trn_pass_road,bus,bus,2010,trn_pass_road_bus,16192.3704667594,2010,1,1
+Central Asia,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,152248.290102704,2010,1,1
+Central Asia,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,17957.8013409574,2010,1,1
+Central Asia,trn_freight,road,road,2010,trn_freight_road,73541.904588285,2010,1,1
+China,trn_pass,road,road,1975,trn_pass_road,589791.354075705,1975,1,1
+China,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,155960.497838358,1975,1,1
+China,trn_pass_road,bus,bus,1975,trn_pass_road_bus,420315.309211152,1975,1,1
+China,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,73134.5573339129,1975,1,1
+China,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,81577.1273776192,1975,1,1
+China,trn_freight,road,road,1975,trn_freight_road,117169.696742821,1975,1,1
+China,trn_pass,road,road,1990,trn_pass_road,1108488.99309875,1990,1,1
+China,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,316924.181936838,1990,1,1
+China,trn_pass_road,bus,bus,1990,trn_pass_road_bus,718629.716643445,1990,1,1
+China,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,135209.424651937,1990,1,1
+China,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,178268.652547036,1990,1,1
+China,trn_freight,road,road,1990,trn_freight_road,208884.084140958,1990,1,1
+China,trn_pass,road,road,2005,trn_pass_road,5016463.03130257,2005,1,1
+China,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,1318862.73992677,2005,1,1
+China,trn_pass_road,bus,bus,2005,trn_pass_road_bus,3612783.38678721,2005,1,1
+China,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,612021.624985314,2005,1,1
+China,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,697139.280599194,2005,1,1
+China,trn_freight,road,road,2005,trn_freight_road,970799.496463791,2005,1,1
+China,trn_pass,road,road,2010,trn_pass_road,7928434.55834418,2010,1,1
+China,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,2028054.42974199,2010,1,1
+China,trn_pass_road,bus,bus,2010,trn_pass_road_bus,5808596.29667504,2010,1,1
+China,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,938077.530292864,2010,1,1
+China,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,1076359.52851806,2010,1,1
+China,trn_freight,road,road,2010,trn_freight_road,1405927.6939819,2010,1,1
+EU-12,trn_pass,road,road,1975,trn_pass_road,458384.267456015,1975,1,1
+EU-12,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,358515.751673792,1975,1,1
+EU-12,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,340835.025812861,1975,1,1
+EU-12,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,17680.7258609306,1975,1,1
+EU-12,trn_freight,road,road,1975,trn_freight_road,201431.472474983,1975,1,1
+EU-12,trn_pass,road,road,1990,trn_pass_road,572817.890984637,1990,1,1
+EU-12,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,448387.208663709,1990,1,1
+EU-12,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,426178.879906888,1990,1,1
+EU-12,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,22208.3287568213,1990,1,1
+EU-12,trn_freight,road,road,1990,trn_freight_road,248741.040170242,1990,1,1
+EU-12,trn_pass,road,road,2005,trn_pass_road,846807.656988647,2005,1,1
+EU-12,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,662593.567087041,2005,1,1
+EU-12,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,631299.023976348,2005,1,1
+EU-12,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,31294.5431106929,2005,1,1
+EU-12,trn_freight,road,road,2005,trn_freight_road,375055.15629729,2005,1,1
+EU-12,trn_pass,road,road,2010,trn_pass_road,1053810.5648042,2010,1,1
+EU-12,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,829905.903258376,2010,1,1
+EU-12,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,791097.45883533,2010,1,1
+EU-12,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,38808.4444230465,2010,1,1
+EU-12,trn_freight,road,road,2010,trn_freight_road,455550.259761061,2010,1,1
+EU-15,trn_pass,road,road,1975,trn_pass_road,3072530.90708349,1975,1,1
+EU-15,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,2642538.32042914,1975,1,1
+EU-15,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,2589018.30635969,1975,1,1
+EU-15,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,53520.014069448,1975,1,1
+EU-15,trn_freight,road,road,1975,trn_freight_road,816508.283430715,1975,1,1
+EU-15,trn_pass,road,road,1990,trn_pass_road,5048978.08700372,1990,1,1
+EU-15,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,4354287.97514583,1990,1,1
+EU-15,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,4266095.86725827,1990,1,1
+EU-15,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,88192.1078875608,1990,1,1
+EU-15,trn_freight,road,road,1990,trn_freight_road,1345470.28915847,1990,1,1
+EU-15,trn_pass,road,road,2005,trn_pass_road,6195880.3370935,2005,1,1
+EU-15,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,5327990.76399757,2005,1,1
+EU-15,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,5220073.23415902,2005,1,1
+EU-15,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,107917.529838547,2005,1,1
+EU-15,trn_freight,road,road,2005,trn_freight_road,1646400.03430741,2005,1,1
+EU-15,trn_pass,road,road,2010,trn_pass_road,6212876.01306868,2010,1,1
+EU-15,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,5319833.66819951,2010,1,1
+EU-15,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,5211963.74000227,2010,1,1
+EU-15,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,107869.928197234,2010,1,1
+EU-15,trn_freight,road,road,2010,trn_freight_road,1594881.88931503,2010,1,1
+Europe_Eastern,trn_pass,road,road,1975,trn_pass_road,264335.522964609,1975,1,1
+Europe_Eastern,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,194695.024140342,1975,1,1
+Europe_Eastern,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,177107.388670556,1975,1,1
+Europe_Eastern,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,17587.6354697862,1975,1,1
+Europe_Eastern,trn_freight,road,road,1975,trn_freight_road,80126.7422721733,1975,1,1
+Europe_Eastern,trn_pass,road,road,1990,trn_pass_road,277672.901172893,1990,1,1
+Europe_Eastern,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,205308.982044314,1990,1,1
+Europe_Eastern,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,186753.282427997,1990,1,1
+Europe_Eastern,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,18555.6996163173,1990,1,1
+Europe_Eastern,trn_freight,road,road,1990,trn_freight_road,83258.2082645051,1990,1,1
+Europe_Eastern,trn_pass,road,road,2005,trn_pass_road,140633.409776835,2005,1,1
+Europe_Eastern,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,103145.989455041,2005,1,1
+Europe_Eastern,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,93833.3847593441,2005,1,1
+Europe_Eastern,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,9312.60469569732,2005,1,1
+Europe_Eastern,trn_freight,road,road,2005,trn_freight_road,43133.3484378029,2005,1,1
+Europe_Eastern,trn_pass,road,road,2010,trn_pass_road,209951.386086262,2010,1,1
+Europe_Eastern,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,156622.197191723,2010,1,1
+Europe_Eastern,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,142467.941937965,2010,1,1
+Europe_Eastern,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,14154.2552537575,2010,1,1
+Europe_Eastern,trn_freight,road,road,2010,trn_freight_road,61751.847595286,2010,1,1
+Europe_Non_EU,trn_pass,road,road,1975,trn_pass_road,153253.565189806,1975,1,1
+Europe_Non_EU,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,127962.821914887,1975,1,1
+Europe_Non_EU,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,124267.889245644,1975,1,1
+Europe_Non_EU,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,3694.93266924278,1975,1,1
+Europe_Non_EU,trn_freight,road,road,1975,trn_freight_road,52380.2288089948,1975,1,1
+Europe_Non_EU,trn_pass,road,road,1990,trn_pass_road,297420.44553581,1990,1,1
+Europe_Non_EU,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,249797.180803586,1990,1,1
+Europe_Non_EU,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,242941.286944215,1990,1,1
+Europe_Non_EU,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,6855.89385937105,1990,1,1
+Europe_Non_EU,trn_freight,road,road,1990,trn_freight_road,98100.8072497994,1990,1,1
+Europe_Non_EU,trn_pass,road,road,2005,trn_pass_road,409447.954773303,2005,1,1
+Europe_Non_EU,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,341938.937210046,2005,1,1
+Europe_Non_EU,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,332115.709001204,2005,1,1
+Europe_Non_EU,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,9823.22820884228,2005,1,1
+Europe_Non_EU,trn_freight,road,road,2005,trn_freight_road,139357.005194088,2005,1,1
+Europe_Non_EU,trn_pass,road,road,2010,trn_pass_road,496760.372478232,2010,1,1
+Europe_Non_EU,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,414696.200300593,2010,1,1
+Europe_Non_EU,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,403026.059225053,2010,1,1
+Europe_Non_EU,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,11670.1410755396,2010,1,1
+Europe_Non_EU,trn_freight,road,road,2010,trn_freight_road,161149.935462722,2010,1,1
+European Free Trade Association,trn_pass,road,road,1975,trn_pass_road,112934.4517524,1975,1,1
+European Free Trade Association,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,97664.8220963264,1975,1,1
+European Free Trade Association,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,95686.6935449921,1975,1,1
+European Free Trade Association,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,1978.12855133432,1975,1,1
+European Free Trade Association,trn_freight,road,road,1975,trn_freight_road,30178.4045745599,1975,1,1
+European Free Trade Association,trn_pass,road,road,1990,trn_pass_road,175029.87895733,1990,1,1
+European Free Trade Association,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,151364.510863059,1990,1,1
+European Free Trade Association,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,148298.72312185,1990,1,1
+European Free Trade Association,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,3065.7877412087,1990,1,1
+European Free Trade Association,trn_freight,road,road,1990,trn_freight_road,46771.4364624344,1990,1,1
+European Free Trade Association,trn_pass,road,road,2005,trn_pass_road,207853.281263894,2005,1,1
+European Free Trade Association,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,179078.099869579,2005,1,1
+European Free Trade Association,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,175451.102857952,2005,1,1
+European Free Trade Association,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,3626.99701162703,2005,1,1
+European Free Trade Association,trn_freight,road,road,2005,trn_freight_road,55333.053369322,2005,1,1
+European Free Trade Association,trn_pass,road,road,2010,trn_pass_road,231297.406764177,2010,1,1
+European Free Trade Association,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,196934.03322539,2010,1,1
+European Free Trade Association,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,192941.485326613,2010,1,1
+European Free Trade Association,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,3992.54789877701,2010,1,1
+European Free Trade Association,trn_freight,road,road,2010,trn_freight_road,59031.0092915409,2010,1,1
+India,trn_pass,road,road,1975,trn_pass_road,380290.261256036,1975,1,1
+India,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,121078.616606021,1975,1,1
+India,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,27373.1495325735,1975,1,1
+India,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,83222.8174419261,1975,1,1
+India,trn_freight,road,road,1975,trn_freight_road,78582.9280551117,1975,1,1
+India,trn_pass,road,road,1990,trn_pass_road,1154393.61921153,1990,1,1
+India,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,367541.240601037,1990,1,1
+India,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,83092.8010491147,1990,1,1
+India,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,252627.731855022,1990,1,1
+India,trn_freight,road,road,1990,trn_freight_road,238542.927159106,1990,1,1
+India,trn_pass,road,road,2005,trn_pass_road,1700284.99919521,2005,1,1
+India,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,513525.217917523,2005,1,1
+India,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,117037.760647757,2005,1,1
+India,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,343226.580503896,2005,1,1
+India,trn_freight,road,road,2005,trn_freight_road,324381.262157446,2005,1,1
+India,trn_pass,road,road,2010,trn_pass_road,2929701.50924436,2010,1,1
+India,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,853703.298060858,2010,1,1
+India,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,193742.282904088,2010,1,1
+India,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,554971.915386049,2010,1,1
+India,trn_freight,road,road,2010,trn_freight_road,508952.422150284,2010,1,1
+Indonesia,trn_pass,road,road,1975,trn_pass_road,278532.320602146,1975,1,1
+Indonesia,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,101958.946504088,1975,1,1
+Indonesia,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,35895.9248538461,1975,1,1
+Indonesia,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,61496.0113111477,1975,1,1
+Indonesia,trn_freight,road,road,1975,trn_freight_road,23811.5333330745,1975,1,1
+Indonesia,trn_pass,road,road,1990,trn_pass_road,744451.881672383,1990,1,1
+Indonesia,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,272512.79848638,1990,1,1
+Indonesia,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,95941.5634535611,1990,1,1
+Indonesia,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,164364.695108913,1990,1,1
+Indonesia,trn_freight,road,road,1990,trn_freight_road,63642.6665918859,1990,1,1
+Indonesia,trn_pass,road,road,2005,trn_pass_road,1721334.0324812,2005,1,1
+Indonesia,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,629844.200884371,2005,1,1
+Indonesia,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,221800.723339752,2005,1,1
+Indonesia,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,379822.573045399,2005,1,1
+Indonesia,trn_freight,road,road,2005,trn_freight_road,147068.864684445,2005,1,1
+Indonesia,trn_pass,road,road,2010,trn_pass_road,2468751.57654461,2010,1,1
+Indonesia,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,920491.991641124,2010,1,1
+Indonesia,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,319927.864615336,2010,1,1
+Indonesia,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,559020.897789844,2010,1,1
+Indonesia,trn_freight,road,road,2010,trn_freight_road,209787.800932994,2010,1,1
+Japan,trn_pass,road,road,1975,trn_pass_road,444775.542610582,1975,1,1
+Japan,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,403128.705711734,1975,1,1
+Japan,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,377941.307748753,1975,1,1
+Japan,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,25187.3979629813,1975,1,1
+Japan,trn_freight,road,road,1975,trn_freight_road,158160.826734774,1975,1,1
+Japan,trn_pass,road,road,1990,trn_pass_road,819012.276638798,1990,1,1
+Japan,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,742323.547243858,1990,1,1
+Japan,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,695943.191092516,1990,1,1
+Japan,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,46380.3561513419,1990,1,1
+Japan,trn_freight,road,road,1990,trn_freight_road,291238.205618703,1990,1,1
+Japan,trn_pass,road,road,2005,trn_pass_road,966108.98305637,2005,1,1
+Japan,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,875646.743691743,2005,1,1
+Japan,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,820936.427887091,2005,1,1
+Japan,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,54710.3158046519,2005,1,1
+Japan,trn_freight,road,road,2005,trn_freight_road,343545.34353512,2005,1,1
+Japan,trn_pass,road,road,2010,trn_pass_road,916036.491529307,2010,1,1
+Japan,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,833112.041493039,2010,1,1
+Japan,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,781056.267460615,2010,1,1
+Japan,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,52055.7740324248,2010,1,1
+Japan,trn_freight,road,road,2010,trn_freight_road,316975.660171716,2010,1,1
+Mexico,trn_pass,road,road,1975,trn_pass_road,275835.178785451,1975,1,1
+Mexico,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,170982.926266274,1975,1,1
+Mexico,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,157502.86468464,1975,1,1
+Mexico,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,13480.0615816345,1975,1,1
+Mexico,trn_freight,road,road,1975,trn_freight_road,133971.995054215,1975,1,1
+Mexico,trn_pass,road,road,1990,trn_pass_road,537725.121664486,1990,1,1
+Mexico,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,333321.721816211,1990,1,1
+Mexico,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,307042.969548552,1990,1,1
+Mexico,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,26278.7522676591,1990,1,1
+Mexico,trn_freight,road,road,1990,trn_freight_road,261170.84469022,1990,1,1
+Mexico,trn_pass,road,road,2005,trn_pass_road,835013.25587321,2005,1,1
+Mexico,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,517630.202459864,2005,1,1
+Mexico,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,476849.554746915,2005,1,1
+Mexico,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,40780.6477129489,2005,1,1
+Mexico,trn_freight,road,road,2005,trn_freight_road,405297.869129556,2005,1,1
+Mexico,trn_pass,road,road,2010,trn_pass_road,1002241.50566517,2010,1,1
+Mexico,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,630038.811988062,2010,1,1
+Mexico,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,580389.544614858,2010,1,1
+Mexico,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,49649.2673732048,2010,1,1
+Mexico,trn_freight,road,road,2010,trn_freight_road,478638.297812709,2010,1,1
+Middle East,trn_pass,road,road,1975,trn_pass_road,356640.527028983,1975,1,1
+Middle East,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,232720.327753781,1975,1,1
+Middle East,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,216539.20222166,1975,1,1
+Middle East,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,16181.1255321213,1975,1,1
+Middle East,trn_freight,road,road,1975,trn_freight_road,79686.1293501541,1975,1,1
+Middle East,trn_pass,road,road,1990,trn_pass_road,1354758.40350578,1990,1,1
+Middle East,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,884026.79785564,1990,1,1
+Middle East,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,822559.94437343,1990,1,1
+Middle East,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,61466.8534822095,1990,1,1
+Middle East,trn_freight,road,road,1990,trn_freight_road,302701.034065829,1990,1,1
+Middle East,trn_pass,road,road,2005,trn_pass_road,2623594.61762808,2005,1,1
+Middle East,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,1714666.46006093,2005,1,1
+Middle East,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,1595980.93163723,2005,1,1
+Middle East,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,118685.528423693,2005,1,1
+Middle East,trn_freight,road,road,2005,trn_freight_road,584480.541024684,2005,1,1
+Middle East,trn_pass,road,road,2010,trn_pass_road,3282041.20376461,2010,1,1
+Middle East,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,2201322.64074497,2010,1,1
+Middle East,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,2054853.58012783,2010,1,1
+Middle East,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,146469.060617143,2010,1,1
+Middle East,trn_freight,road,road,2010,trn_freight_road,699092.904385917,2010,1,1
+Pakistan,trn_pass,road,road,1975,trn_pass_road,97787.0800401165,1975,1,1
+Pakistan,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,35795.7328418807,1975,1,1
+Pakistan,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,12602.2682607998,1975,1,1
+Pakistan,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,21590.053556331,1975,1,1
+Pakistan,trn_freight,road,road,1975,trn_freight_road,8359.78822708693,1975,1,1
+Pakistan,trn_pass,road,road,1990,trn_pass_road,347199.346072102,1990,1,1
+Pakistan,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,127095.279808056,1990,1,1
+Pakistan,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,44745.5489528688,1990,1,1
+Pakistan,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,76656.8173305235,1990,1,1
+Pakistan,trn_freight,road,road,1990,trn_freight_road,29681.8994378633,1990,1,1
+Pakistan,trn_pass,road,road,2005,trn_pass_road,797949.434237813,2005,1,1
+Pakistan,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,246449.696430186,2005,1,1
+Pakistan,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,96486.6833500928,2005,1,1
+Pakistan,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,137436.581151723,2005,1,1
+Pakistan,trn_freight,road,road,2005,trn_freight_road,53216.0312592644,2005,1,1
+Pakistan,trn_pass,road,road,2010,trn_pass_road,1205340.46228175,2010,1,1
+Pakistan,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,313732.39233187,2010,1,1
+Pakistan,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,138002.73391524,2010,1,1
+Pakistan,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,157278.820925788,2010,1,1
+Pakistan,trn_freight,road,road,2010,trn_freight_road,59023.1955430608,2010,1,1
+Russia,trn_pass,road,road,1975,trn_pass_road,808843.677231287,1975,1,1
+Russia,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,595257.858491693,1975,1,1
+Russia,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,541491.235347962,1975,1,1
+Russia,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,53766.6231437314,1975,1,1
+Russia,trn_freight,road,road,1975,trn_freight_road,245748.402365445,1975,1,1
+Russia,trn_pass,road,road,1990,trn_pass_road,1212763.46517441,1990,1,1
+Russia,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,889400.155456036,1990,1,1
+Russia,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,809101.477343312,1990,1,1
+Russia,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,80298.678112724,1990,1,1
+Russia,trn_freight,road,road,1990,trn_freight_road,372064.266586189,1990,1,1
+Russia,trn_pass,road,road,2005,trn_pass_road,833987.41770222,2005,1,1
+Russia,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,618237.585849308,2005,1,1
+Russia,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,562343.218670423,2005,1,1
+Russia,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,55894.3671788857,2005,1,1
+Russia,trn_freight,road,road,2005,trn_freight_road,248227.110730882,2005,1,1
+Russia,trn_pass,road,road,2010,trn_pass_road,1047188.01177702,2010,1,1
+Russia,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,783192.213370342,2010,1,1
+Russia,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,712389.660438802,2010,1,1
+Russia,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,70802.5529315397,2010,1,1
+Russia,trn_freight,road,road,2010,trn_freight_road,305684.93379116,2010,1,1
+South Africa,trn_pass,road,road,1975,trn_pass_road,345753.065523629,1975,1,1
+South Africa,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,89867.9010442694,1975,1,1
+South Africa,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,83477.5538620209,1975,1,1
+South Africa,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,5460.54754051616,1975,1,1
+South Africa,trn_freight,road,road,1975,trn_freight_road,56457.4394325022,1975,1,1
+South Africa,trn_pass,road,road,1990,trn_pass_road,474072.998147612,1990,1,1
+South Africa,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,123220.765512233,1990,1,1
+South Africa,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,114458.789417068,1990,1,1
+South Africa,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,7487.16005812579,1990,1,1
+South Africa,trn_freight,road,road,1990,trn_freight_road,77410.5841187601,1990,1,1
+South Africa,trn_pass,road,road,2005,trn_pass_road,674240.506765384,2005,1,1
+South Africa,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,175248.289712863,2005,1,1
+South Africa,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,162786.728900994,2005,1,1
+South Africa,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,10648.4848776469,2005,1,1
+South Africa,trn_freight,road,road,2005,trn_freight_road,110095.570694446,2005,1,1
+South Africa,trn_pass,road,road,2010,trn_pass_road,605406.720200931,2010,1,1
+South Africa,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,159659.96750861,2010,1,1
+South Africa,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,148106.012626758,2010,1,1
+South Africa,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,9872.91349672801,2010,1,1
+South Africa,trn_freight,road,road,2010,trn_freight_road,98934.2617316621,2010,1,1
+South America_Northern,trn_pass,road,road,1975,trn_pass_road,126770.488130873,1975,1,1
+South America_Northern,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,78581.6915354082,1975,1,1
+South America_Northern,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,72386.4179697745,1975,1,1
+South America_Northern,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,6195.27356563363,1975,1,1
+South America_Northern,trn_freight,road,road,1975,trn_freight_road,61571.8362513606,1975,1,1
+South America_Northern,trn_pass,road,road,1990,trn_pass_road,190471.145905459,1990,1,1
+South America_Northern,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,118068.014988373,1990,1,1
+South America_Northern,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,108759.666976317,1990,1,1
+South America_Northern,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,9308.34801205534,1990,1,1
+South America_Northern,trn_freight,road,road,1990,trn_freight_road,92511.0396451212,1990,1,1
+South America_Northern,trn_pass,road,road,2005,trn_pass_road,291679.3730034,2005,1,1
+South America_Northern,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,181031.960886378,2005,1,1
+South America_Northern,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,166998.814056528,2005,1,1
+South America_Northern,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,14033.1468298507,2005,1,1
+South America_Northern,trn_freight,road,road,2005,trn_freight_road,139468.490163967,2005,1,1
+South America_Northern,trn_pass,road,road,2010,trn_pass_road,338801.629443657,2010,1,1
+South America_Northern,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,212991.070847607,2010,1,1
+South America_Northern,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,196217.688632635,2010,1,1
+South America_Northern,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,16773.3822149725,2010,1,1
+South America_Northern,trn_freight,road,road,2010,trn_freight_road,161701.654907595,2010,1,1
+South America_Southern,trn_pass,road,road,1975,trn_pass_road,103064.08222697,1975,1,1
+South America_Southern,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,63886.6949939685,1975,1,1
+South America_Southern,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,58849.9610179371,1975,1,1
+South America_Southern,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,5036.73397603141,1975,1,1
+South America_Southern,trn_freight,road,road,1975,trn_freight_road,50057.8517914611,1975,1,1
+South America_Southern,trn_pass,road,road,1990,trn_pass_road,165608.875751207,1990,1,1
+South America_Southern,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,102666.96242082,1990,1,1
+South America_Southern,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,94583.582116193,1990,1,1
+South America_Southern,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,8083.38030462698,1990,1,1
+South America_Southern,trn_freight,road,road,1990,trn_freight_road,80336.4410119913,1990,1,1
+South America_Southern,trn_pass,road,road,2005,trn_pass_road,286018.093731207,2005,1,1
+South America_Southern,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,177551.966230518,2005,1,1
+South America_Southern,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,163823.66707748,2005,1,1
+South America_Southern,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,13728.2991530379,2005,1,1
+South America_Southern,trn_freight,road,road,2005,trn_freight_road,136437.818506407,2005,1,1
+South America_Southern,trn_pass,road,road,2010,trn_pass_road,421155.72013496,2010,1,1
+South America_Southern,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,266058.381333297,2010,1,1
+South America_Southern,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,246508.883888148,2010,1,1
+South America_Southern,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,19549.4974451497,2010,1,1
+South America_Southern,trn_freight,road,road,2010,trn_freight_road,188465.827228726,2010,1,1
+South Asia,trn_pass,road,road,1975,trn_pass_road,63422.0635971665,1975,1,1
+South Asia,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,23216.1024796334,1975,1,1
+South Asia,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,8173.50199012031,1975,1,1
+South Asia,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,14002.7368996232,1975,1,1
+South Asia,trn_freight,road,road,1975,trn_freight_road,5421.84183450676,1975,1,1
+South Asia,trn_pass,road,road,1990,trn_pass_road,129657.715862439,1990,1,1
+South Asia,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,47462.2338312869,1990,1,1
+South Asia,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,16709.7258097832,1990,1,1
+South Asia,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,28626.5434966774,1990,1,1
+South Asia,trn_freight,road,road,1990,trn_freight_road,11084.3741174154,1990,1,1
+South Asia,trn_pass,road,road,2005,trn_pass_road,340069.760457608,2005,1,1
+South Asia,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,120258.9660574,2005,1,1
+South Asia,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,43238.7700835322,2005,1,1
+South Asia,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,71495.7351847633,2005,1,1
+South Asia,trn_freight,road,road,2005,trn_freight_road,27683.4121249877,2005,1,1
+South Asia,trn_pass,road,road,2010,trn_pass_road,668545.88085107,2010,1,1
+South Asia,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,199538.876477529,2010,1,1
+South Asia,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,79967.1534822121,2010,1,1
+South Asia,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,108993.231422971,2010,1,1
+South Asia,trn_freight,road,road,2010,trn_freight_road,40902.6232296045,2010,1,1
+South Korea,trn_pass,road,road,1975,trn_pass_road,42592.6213755465,1975,1,1
+South Korea,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,17929.0782536267,1975,1,1
+South Korea,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,17021.6688055477,1975,1,1
+South Korea,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,907.409448079056,1975,1,1
+South Korea,trn_freight,road,road,1975,trn_freight_road,10035.0187094908,1975,1,1
+South Korea,trn_pass,road,road,1990,trn_pass_road,252525.046910615,1990,1,1
+South Korea,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,106298.770114971,1990,1,1
+South Korea,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,100918.958832765,1990,1,1
+South Korea,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,5379.81128220641,1990,1,1
+South Korea,trn_freight,road,road,1990,trn_freight_road,59495.9555520001,1990,1,1
+South Korea,trn_pass,road,road,2005,trn_pass_road,634372.3304834,2005,1,1
+South Korea,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,258282.903228088,2005,1,1
+South Korea,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,245215.036120655,2005,1,1
+South Korea,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,13067.8671074336,2005,1,1
+South Korea,trn_freight,road,road,2005,trn_freight_road,144518.200194711,2005,1,1
+South Korea,trn_pass,road,road,2010,trn_pass_road,717389.177584184,2010,1,1
+South Korea,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,280265.094558221,2010,1,1
+South Korea,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,266093.600388688,2010,1,1
+South Korea,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,14171.4941695325,2010,1,1
+South Korea,trn_freight,road,road,2010,trn_freight_road,152794.374444235,2010,1,1
+Southeast Asia,trn_pass,road,road,1975,trn_pass_road,726034.081977528,1975,1,1
+Southeast Asia,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,257897.717513906,1975,1,1
+Southeast Asia,trn_pass_road,bus,bus,1975,trn_pass_road_bus,60674.0895369689,1975,1,1
+Southeast Asia,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,92476.0629431253,1975,1,1
+Southeast Asia,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,154741.866629304,1975,1,1
+Southeast Asia,trn_freight,road,road,1975,trn_freight_road,71755.0095146108,1975,1,1
+Southeast Asia,trn_pass,road,road,1990,trn_pass_road,1648088.62776834,1990,1,1
+Southeast Asia,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,590096.517048828,1990,1,1
+Southeast Asia,trn_pass_road,bus,bus,1990,trn_pass_road_bus,99894.0102913887,1990,1,1
+Southeast Asia,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,210597.733829427,1990,1,1
+Southeast Asia,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,354488.177518916,1990,1,1
+Southeast Asia,trn_freight,road,road,1990,trn_freight_road,156850.695737179,1990,1,1
+Southeast Asia,trn_pass,road,road,2005,trn_pass_road,3685674.23663674,2005,1,1
+Southeast Asia,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,1306105.95001351,2005,1,1
+Southeast Asia,trn_pass_road,bus,bus,2005,trn_pass_road_bus,251394.974376933,2005,1,1
+Southeast Asia,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,469042.280388983,2005,1,1
+Southeast Asia,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,781823.705517152,2005,1,1
+Southeast Asia,trn_freight,road,road,2005,trn_freight_road,351902.895471466,2005,1,1
+Southeast Asia,trn_pass,road,road,2010,trn_pass_road,4320044.07727656,2010,1,1
+Southeast Asia,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,1460610.64220067,2010,1,1
+Southeast Asia,trn_pass_road,bus,bus,2010,trn_pass_road_bus,380184.597391283,2010,1,1
+Southeast Asia,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,539714.67942334,2010,1,1
+Southeast Asia,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,857497.039870028,2010,1,1
+Southeast Asia,trn_freight,road,road,2010,trn_freight_road,396501.230767364,2010,1,1
+Taiwan,trn_pass,road,road,1975,trn_pass_road,110377.618557409,1975,1,1
+Taiwan,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,40404.6265574299,1975,1,1
+Taiwan,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,14224.8562078267,1975,1,1
+Taiwan,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,24369.9596299542,1975,1,1
+Taiwan,trn_freight,road,road,1975,trn_freight_road,9436.1368251892,1975,1,1
+Taiwan,trn_pass,road,road,1990,trn_pass_road,490559.678051956,1990,1,1
+Taiwan,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,179573.267892786,1990,1,1
+Taiwan,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,63220.9429212865,1990,1,1
+Taiwan,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,108308.814459604,1990,1,1
+Taiwan,trn_freight,road,road,1990,trn_freight_road,41937.585502766,1990,1,1
+Taiwan,trn_pass,road,road,2005,trn_pass_road,940412.919718135,2005,1,1
+Taiwan,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,344245.890735129,2005,1,1
+Taiwan,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,121195.988509234,2005,1,1
+Taiwan,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,207630.22432649,2005,1,1
+Taiwan,trn_freight,road,road,2005,trn_freight_road,80395.215611243,2005,1,1
+Taiwan,trn_pass,road,road,2010,trn_pass_road,914997.062851609,2010,1,1
+Taiwan,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,341363.62813816,2010,1,1
+Taiwan,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,118602.202759521,2010,1,1
+Taiwan,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,207361.58814273,2010,1,1
+Taiwan,trn_freight,road,road,2010,trn_freight_road,77818.0837806373,2010,1,1
+Argentina,trn_pass,road,road,1975,trn_pass_road,140085.221687493,1975,1,1
+Argentina,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,86835.1919497261,1975,1,1
+Argentina,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,79989.1318857368,1975,1,1
+Argentina,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,6846.06006398934,1975,1,1
+Argentina,trn_freight,road,road,1975,trn_freight_road,68038.7487912838,1975,1,1
+Argentina,trn_pass,road,road,1990,trn_pass_road,172065.271998389,1990,1,1
+Argentina,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,106968.530318789,1990,1,1
+Argentina,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,98860.7774161137,1990,1,1
+Argentina,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,8107.7529026756,1990,1,1
+Argentina,trn_freight,road,road,1990,trn_freight_road,80578.8232197038,1990,1,1
+Argentina,trn_pass,road,road,2005,trn_pass_road,275135.153455204,2005,1,1
+Argentina,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,175085.89244229,2005,1,1
+Argentina,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,166050.089262953,2005,1,1
+Argentina,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,9035.80317933696,2005,1,1
+Argentina,trn_freight,road,road,2005,trn_freight_road,89802.2261829221,2005,1,1
+Argentina,trn_pass,road,road,2010,trn_pass_road,304191.575874862,2010,1,1
+Argentina,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,195052.506522903,2010,1,1
+Argentina,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,183830.260679191,2010,1,1
+Argentina,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,11222.2458437126,2010,1,1
+Argentina,trn_freight,road,road,2010,trn_freight_road,108186.782949787,2010,1,1
+Colombia,trn_pass,road,road,1975,trn_pass_road,59540.5165227641,1975,1,1
+Colombia,trn_pass_road,LDV,LDV,1975,trn_pass_road_LDV,36907.5940054112,1975,1,1
+Colombia,trn_pass_road_LDV,4W,4W,1975,trn_pass_road_LDV_4W,33997.8523053143,1975,1,1
+Colombia,trn_pass_road_LDV,2W,2W,1975,trn_pass_road_LDV_2W,2909.7417000969,1975,1,1
+Colombia,trn_freight,road,road,1975,trn_freight_road,28918.5548878961,1975,1,1
+Colombia,trn_pass,road,road,1990,trn_pass_road,104388.956628885,1990,1,1
+Colombia,trn_pass_road,LDV,LDV,1990,trn_pass_road_LDV,64730.3211131248,1990,1,1
+Colombia,trn_pass_road_LDV,4W,4W,1990,trn_pass_road_LDV_4W,59650.4394049185,1990,1,1
+Colombia,trn_pass_road_LDV,2W,2W,1990,trn_pass_road_LDV_2W,5079.8817082063,1990,1,1
+Colombia,trn_freight,road,road,1990,trn_freight_road,50486.4084777854,1990,1,1
+Colombia,trn_pass,road,road,2005,trn_pass_road,131440.91818272,2005,1,1
+Colombia,trn_pass_road,LDV,LDV,2005,trn_pass_road_LDV,81884.055091377,2005,1,1
+Colombia,trn_pass_road_LDV,4W,4W,2005,trn_pass_road_LDV_4W,75856.416016474,2005,1,1
+Colombia,trn_pass_road_LDV,2W,2W,2005,trn_pass_road_LDV_2W,6027.63907490298,2005,1,1
+Colombia,trn_freight,road,road,2005,trn_freight_road,59905.4352427528,2005,1,1
+Colombia,trn_pass,road,road,2010,trn_pass_road,147772.605651791,2010,1,1
+Colombia,trn_pass_road,LDV,LDV,2010,trn_pass_road_LDV,93842.6041491822,2010,1,1
+Colombia,trn_pass_road_LDV,4W,4W,2010,trn_pass_road_LDV_4W,87475.0711251468,2010,1,1
+Colombia,trn_pass_road_LDV,2W,2W,2010,trn_pass_road_LDV_2W,6367.53302403534,2010,1,1
+Colombia,trn_freight,road,road,2010,trn_freight_road,61385.3141163826,2010,1,1

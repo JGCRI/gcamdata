@@ -1,6 +1,6 @@
 #' module_emissions_L251.en_ssp_nonco2
 #'
-#' This chunk produces regional non-CO2 emissions coefficient data for SSPs 1/5, 2, and 3/4 as well as a GDP control.
+#' Produce regional non-CO2 emissions coefficient data for SSPs 1/5, 2, and 3/4 as well as a GDP control.
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
@@ -62,7 +62,7 @@ module_emissions_L251.en_ssp_nonco2 <- function(command, ...) {
     L161.SSP15_EF %>%
       # Input data only contains 3 future years.  Need to include years between 2010-2100 in 5 year segments,
       # and interpolate between each time segment.
-      tidyr::complete(year = SSP_FUTURE_YEARS,
+      tidyr::complete(year = emissions.SSP_FUTURE_YEARS,
                       tidyr::nesting(GCAM_region_ID, Non.CO2, supplysector, subsector, stub.technology, agg_sector),
                       fill = list(value = NA)) %>%
       mutate(year = as.integer(year)) %>%
@@ -82,14 +82,14 @@ module_emissions_L251.en_ssp_nonco2 <- function(command, ...) {
     L161.SSP2_EF %>%
       # Input data only contains 3 future years.  Need to include years between 2010-2100 in 5 year segments,
       # and interpolate between each time segment.
-      tidyr::complete(year = SSP_FUTURE_YEARS,
+      tidyr::complete(year = emissions.SSP_FUTURE_YEARS,
                       tidyr::nesting(GCAM_region_ID, Non.CO2, supplysector, subsector, stub.technology, agg_sector),
                       fill = list(value = NA)) %>%
-      mutate(year = as.integer(year))  %>%
+      mutate(year = as.integer(year)) %>%
       group_by(GCAM_region_ID, Non.CO2, supplysector, subsector, stub.technology, agg_sector) %>%
-      mutate(value = approx_fun(year, value))  %>%
+      mutate(value = approx_fun(year, value)) %>%
       # Now add regional information.
-      left_join_error_no_match(A_regions, by = "GCAM_region_ID")  %>%
+      left_join_error_no_match(A_regions, by = "GCAM_region_ID") %>%
       # Emission coefficients values are too long, so we round to the 10th decimal point.
       mutate(emiss.coeff = round(value, 10)) %>%
       ungroup() %>%
@@ -100,10 +100,10 @@ module_emissions_L251.en_ssp_nonco2 <- function(command, ...) {
     L161.SSP34_EF %>%
       # Input data only contains 3 future years.  Need to include years between 2010-2100 in 5 year segments,
       # and interpolate between each time segment.
-      tidyr::complete(year = SSP_FUTURE_YEARS,
+      tidyr::complete(year = emissions.SSP_FUTURE_YEARS,
                       tidyr::nesting(GCAM_region_ID, Non.CO2, supplysector, subsector, stub.technology, agg_sector),
                       fill = list(value = NA)) %>%
-      mutate(year = as.integer(year))  %>%
+      mutate(year = as.integer(year)) %>%
       group_by(GCAM_region_ID, Non.CO2, supplysector, subsector, stub.technology, agg_sector) %>%
       mutate(value = approx_fun(year, value)) %>%
       # Now add regional information.
@@ -122,7 +122,7 @@ module_emissions_L251.en_ssp_nonco2 <- function(command, ...) {
     L251.ssp2_ef %>%
       select(-emiss.coeff) %>%
       filter(year == min(year)) %>%
-      mutate(year = GHG_CONTROL_READIN_YEAR,
+      mutate(year = emissions.GHG_CONTROL_READIN_YEAR,
              ctrl.name ="GDP_control") ->
       L251.ctrl.delete
 
@@ -137,7 +137,7 @@ module_emissions_L251.en_ssp_nonco2 <- function(command, ...) {
       mutate(future.emiss.coeff.year = year,
              future.emiss.coeff.name = "SSP_GAINS",
              # Previous year column that only includes the electricity supply sector is now a constant.
-             year = GHG_CONTROL_READIN_YEAR)->
+             year = emissions.GHG_CONTROL_READIN_YEAR)->
       L251.ssp15_ef_vin
 
     L251.ssp2_ef %>%
@@ -149,7 +149,7 @@ module_emissions_L251.en_ssp_nonco2 <- function(command, ...) {
       mutate(future.emiss.coeff.year = year,
              future.emiss.coeff.name = "SSP_GAINS",
              # Previous year column that only includes the electricity supply sector is now a constant.
-             year = GHG_CONTROL_READIN_YEAR)->
+             year = emissions.GHG_CONTROL_READIN_YEAR)->
       L251.ssp2_ef_vin
 
     L251.ssp34_ef %>%
@@ -161,7 +161,7 @@ module_emissions_L251.en_ssp_nonco2 <- function(command, ...) {
       mutate(future.emiss.coeff.year = year,
              future.emiss.coeff.name = "SSP_GAINS",
              # Previous year column that only includes the electricity supply sector is now a constant.
-             year = GHG_CONTROL_READIN_YEAR)->
+             year = emissions.GHG_CONTROL_READIN_YEAR)->
       L251.ssp34_ef_vin
 
     # This section renames SO2 variables so that it has regional SO2 emission species.

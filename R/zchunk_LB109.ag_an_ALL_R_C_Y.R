@@ -16,7 +16,7 @@
 #' @author RC April 2017
 module_aglu_LB109.ag_an_ALL_R_C_Y <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
-    return(c( "L101.ag_Food_Mt_R_C_Y",
+    return(c("L101.ag_Food_Mt_R_C_Y",
               "L103.ag_Prod_Mt_R_C_Y",
               "L105.an_Food_Mt_R_C_Y",
               "L105.an_Prod_Mt_R_C_Y",
@@ -54,15 +54,13 @@ module_aglu_LB109.ag_an_ALL_R_C_Y <- function(command, ...) {
     ag_Flow_cols <- c("Prod_Mt", "NetExp_Mt", "Supply_Mt", "Food_Mt", "Feed_Mt", "Biofuels_Mt", "OtherUses_Mt")
     # List of commodities in production table
     L103.ag_Prod_Mt_R_C_Y %>%
-      select(GCAM_commodity) %>%
-      unique() %>%
-      .[["GCAM_commodity"]] -> Primary_commodities
+      pull(GCAM_commodity) %>%
+      unique() -> Primary_commodities
     # List of any commodities (e.g. pasture, residue, scavenging) in feed but not in production table
     L108.ag_Feed_Mt_R_C_Y %>%
       filter(!(GCAM_commodity %in% Primary_commodities)) %>%
-      select(GCAM_commodity) %>%
-      unique() %>%
-      .[["GCAM_commodity"]] -> Feed_commodities
+      pull(GCAM_commodity) %>%
+      unique() -> Feed_commodities
 
     # Combine all flow tables
     L106.ag_NetExp_Mt_R_C_Y %>%

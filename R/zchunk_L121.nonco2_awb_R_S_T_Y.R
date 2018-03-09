@@ -124,9 +124,8 @@ module_emissions_L121.nonco2_awb_R_S_T_Y <- function(command, ...) {
       # Aggregate EDGAR emissions by GCAM region and sector, converting to Tg
       select(-c(`IPCC-Annex`, `World Region`, iso, Name, IPCC, IPCC_description, region_GCAM3, country_name)) %>%
       na.omit %>%
-      gather(year, value, -c(GCAM_region_ID, `Non.CO2`, sector)) %>%
-      mutate(year = as.integer(year)) %>%
-      group_by(GCAM_region_ID, `Non.CO2`, sector, year) %>%
+      gather_years %>%
+      group_by(GCAM_region_ID, Non.CO2, sector, year) %>%
       summarise(value = sum(as.numeric(value) * CONV_GG_TG)) ->
       L121.EDGAR_TG_R_G_s_y_v
 
@@ -168,7 +167,8 @@ module_emissions_L121.nonco2_awb_R_S_T_Y <- function(command, ...) {
                      "emissions/EDGAR/EDGAR_sector", "emissions/EDGAR/EDGAR_SO2", "emissions/EDGAR/EDGAR_CO",
                      "emissions/EDGAR/EDGAR_NOx", "emissions/EDGAR/EDGAR_NMVOC", "emissions/EDGAR/EDGAR_CH4",
                      "emissions/EDGAR/EDGAR_N2O", "emissions/EDGAR/EDGAR_NH3",
-                     "L103.ag_Prod_Mt_R_C_Y_GLU", "L111.ag_resbio_R_C") ->
+                     "L103.ag_Prod_Mt_R_C_Y_GLU", "L111.ag_resbio_R_C") %>%
+      add_flags(FLAG_YEAR_COL_XYEARS) ->
       L121.AWBshare_R_C_Y_GLU
 
     L121.nonco2_tg_R_awb_C_Y_GLU %>%

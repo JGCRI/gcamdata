@@ -119,9 +119,9 @@ module_energy_LA101.en_bal_IEA <- function(command, ...) {
       # Electricity-generation-only fuels (e.g., wind, solar, hydro, geothermal) consumed by sectors other than electricity generation
       # Primary biomass and district heat consumed by the transportation sector
       L101.IEA_en_bal_ctry_hist %>%
-        mutate(sector = if_else(grepl( "elec_", fuel) & !grepl( "electricity generation",sector), NA_character_, sector)) %>%
-        mutate(sector = if_else(fuel == "biomass" & grepl( "trn_", sector), NA_character_, sector)) %>%
-        mutate(sector = if_else(fuel == "heat" & grepl( "trn_", sector), NA_character_, sector)) %>%
+        mutate(sector = if_else(grepl("elec_", fuel) & !grepl("electricity generation",sector), NA_character_, sector)) %>%
+        mutate(sector = if_else(fuel == "biomass" & grepl("trn_", sector), NA_character_, sector)) %>%
+        mutate(sector = if_else(fuel == "heat" & grepl("trn_", sector), NA_character_, sector)) %>%
         na.omit() ->
         L101.IEA_en_bal_ctry_hist_clean
 
@@ -133,8 +133,7 @@ module_energy_LA101.en_bal_IEA <- function(command, ...) {
         summarise_all(funs(sum(. * conversion))) %>%
         select(-conversion) %>%
         # at this point dataset is much smaller; go to long form
-        gather(year, value, matches(YEAR_PATTERN)) %>%
-        mutate(year = as.integer(year)) ->
+        gather_years ->
         L101.en_bal_EJ_R_Si_Fi_Yh
 
       # Setting to zero net fuel production from energy transformation sectors modeled under the industrial sector
@@ -187,8 +186,7 @@ module_energy_LA101.en_bal_IEA <- function(command, ...) {
         ungroup %>%
         select(-conversion) %>%
         # at this point dataset is much smaller; go to long form
-        gather(year, value, matches(YEAR_PATTERN)) %>%
-        mutate(year = as.integer(year)) %>%
+        gather_years %>%
         add_title("Transportation sector energy consumption by country / IEA mode / fuel / historical year") ->
         L101.in_EJ_ctry_trn_Fi_Yh
 
@@ -207,8 +205,7 @@ module_energy_LA101.en_bal_IEA <- function(command, ...) {
         ungroup %>%
         select(-conversion) %>%
         # at this point dataset is much smaller; go to long form
-        gather(year, value, matches(YEAR_PATTERN)) %>%
-        mutate(year = as.integer(year)) %>%
+        gather_years %>%
         add_title("Building energy consumption by country / IEA sector / fuel / historical year") ->
         L101.in_EJ_ctry_bld_Fi_Yh
 
@@ -222,12 +219,11 @@ module_energy_LA101.en_bal_IEA <- function(command, ...) {
         ungroup %>%
         select(-conversion) %>%
         # at this point dataset is much smaller; go to long form
-        gather(year, value, matches(YEAR_PATTERN)) %>%
-        mutate(year = as.integer(year)) ->
+        gather_years ->
         L101.en_bal_EJ_ctry_Si_Fi_Yh
 
       L101.en_bal_EJ_ctry_Si_Fi_Yh %>%
-        filter(grepl("in_", sector) | grepl( "net_", sector)) %>%
+        filter(grepl("in_", sector) | grepl("net_", sector)) %>%
         mutate(sector = "TPES")%>%
         group_by(iso, GCAM_region_ID, sector, fuel, year) %>%
         summarise(value = sum(value)) %>%

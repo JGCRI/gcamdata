@@ -1,0 +1,2709 @@
+INPUT_TABLE
+Variable ID
+LN1_UnmgdAllocation
+
+region,LandAllocatorRoot,LandNode1,UnmanagedLandLeaf,year,allocation
+USA,root,UrbanLand_PacArctic,UrbanLand_PacArctic,1975,0.127725
+USA,root,UrbanLand_NelsonR,UrbanLand_NelsonR,1975,0.2121
+USA,root,UrbanLand_MexCstNW,UrbanLand_MexCstNW,1975,0.0013
+USA,root,UrbanLand_Caribbean,UrbanLand_Caribbean,1975,1.19293
+USA,root,UrbanLand_California,UrbanLand_California,1975,8.639985
+USA,root,UrbanLand_MissppRN,UrbanLand_MissppRN,1975,8.26323
+USA,root,UrbanLand_MissppRS,UrbanLand_MissppRS,1975,2.559955
+USA,root,UrbanLand_UsaColoRN,UrbanLand_UsaColoRN,1975,0.085225
+USA,root,UrbanLand_UsaColoRS,UrbanLand_UsaColoRS,1975,1.204775
+USA,root,UrbanLand_GreatBasin,UrbanLand_GreatBasin,1975,0.556185
+USA,root,UrbanLand_MissouriR,UrbanLand_MissouriR,1975,3.9598
+USA,root,UrbanLand_ArkWhtRedR,UrbanLand_ArkWhtRedR,1975,2.82306
+USA,root,UrbanLand_TexasCst,UrbanLand_TexasCst,1975,4.52299
+USA,root,UrbanLand_UsaCstSE,UrbanLand_UsaCstSE,1975,10.277955
+USA,root,UrbanLand_GreatLakes,UrbanLand_GreatLakes,1975,9.57326
+USA,root,UrbanLand_OhioR,UrbanLand_OhioR,1975,8.92767
+USA,root,UrbanLand_UsaPacNW,UrbanLand_UsaPacNW,1975,2.9674
+USA,root,UrbanLand_TennR,UrbanLand_TennR,1975,1.35259
+USA,root,UrbanLand_RioGrande,UrbanLand_RioGrande,1975,0.980805
+USA,root,UrbanLand_UsaCstNE,UrbanLand_UsaCstNE,1975,4.41901
+USA,root,UrbanLand_UsaCstE,UrbanLand_UsaCstE,1975,15.099785
+Africa_Eastern,root,UrbanLand_NileR,UrbanLand_NileR,1975,0.802145
+Africa_Eastern,root,UrbanLand_AfrCstNE,UrbanLand_AfrCstNE,1975,0.10366
+Africa_Eastern,root,UrbanLand_AfrIntN,UrbanLand_AfrIntN,1975,0
+Africa_Eastern,root,UrbanLand_LChad,UrbanLand_LChad,1975,0.024545
+Africa_Eastern,root,UrbanLand_ShebJubR,UrbanLand_ShebJubR,1975,0.07249
+Africa_Eastern,root,UrbanLand_AfrCstE,UrbanLand_AfrCstE,1975,0.087585
+Africa_Eastern,root,UrbanLand_Madasgacar,UrbanLand_Madasgacar,1975,0.038325
+Africa_Eastern,root,UrbanLand_RiftValley,UrbanLand_RiftValley,1975,0.14714
+Africa_Eastern,root,UrbanLand_CongoR,UrbanLand_CongoR,1975,0.015545
+Africa_Northern,root,UrbanLand_MeditE,UrbanLand_MeditE,1975,0.015545
+Africa_Northern,root,UrbanLand_MeditS,UrbanLand_MeditS,1975,1.00778
+Africa_Northern,root,UrbanLand_AfrCstNW,UrbanLand_AfrCstNW,1975,1.48797
+Africa_Northern,root,UrbanLand_NileR,UrbanLand_NileR,1975,1.33206
+Africa_Northern,root,UrbanLand_SinaiP,UrbanLand_SinaiP,1975,9.5e-05
+Africa_Northern,root,UrbanLand_AfrIntN,UrbanLand_AfrIntN,1975,0.523115
+Africa_Northern,root,UrbanLand_NigerR,UrbanLand_NigerR,1975,0
+Africa_Northern,root,UrbanLand_LChad,UrbanLand_LChad,1975,0
+Africa_Southern,root,UrbanLand_NileR,UrbanLand_NileR,1975,0.032895
+Africa_Southern,root,UrbanLand_GuineaGulf,UrbanLand_GuineaGulf,1975,0
+Africa_Southern,root,UrbanLand_AfrCstE,UrbanLand_AfrCstE,1975,0.15373
+Africa_Southern,root,UrbanLand_RiftValley,UrbanLand_RiftValley,1975,0.02195
+Africa_Southern,root,UrbanLand_AngolaCst,UrbanLand_AngolaCst,1975,0.07351
+Africa_Southern,root,UrbanLand_CongoR,UrbanLand_CongoR,1975,0.074045
+Africa_Southern,root,UrbanLand_ZambeziR,UrbanLand_ZambeziR,1975,0.598395
+Africa_Southern,root,UrbanLand_AfrCstSE,UrbanLand_AfrCstSE,1975,0.153935
+Africa_Southern,root,UrbanLand_OrangeR,UrbanLand_OrangeR,1975,0.06821
+Africa_Southern,root,UrbanLand_AfrCstSW,UrbanLand_AfrCstSW,1975,0.01762
+Africa_Southern,root,UrbanLand_AfrIntS,UrbanLand_AfrIntS,1975,0.07366
+Africa_Southern,root,UrbanLand_AfrCstS,UrbanLand_AfrCstS,1975,0.030035
+Africa_Southern,root,UrbanLand_LimpopoR,UrbanLand_LimpopoR,1975,0.08723
+Africa_Western,root,UrbanLand_AfrCstNW,UrbanLand_AfrCstNW,1975,0.01057
+Africa_Western,root,UrbanLand_NileR,UrbanLand_NileR,1975,0.039595
+Africa_Western,root,UrbanLand_AfrCstW,UrbanLand_AfrCstW,1975,1.65008
+Africa_Western,root,UrbanLand_AfrIntN,UrbanLand_AfrIntN,1975,0.00402
+Africa_Western,root,UrbanLand_NigerR,UrbanLand_NigerR,1975,0.82503
+Africa_Western,root,UrbanLand_LChad,UrbanLand_LChad,1975,0.384135
+Africa_Western,root,UrbanLand_SenegalR,UrbanLand_SenegalR,1975,0.06111
+Africa_Western,root,UrbanLand_VoltaR,UrbanLand_VoltaR,1975,0.326445
+Africa_Western,root,UrbanLand_GuineaGulf,UrbanLand_GuineaGulf,1975,0.40799
+Africa_Western,root,UrbanLand_CongoR,UrbanLand_CongoR,1975,0.93467
+Africa_Western,root,UrbanLand_ZambeziR,UrbanLand_ZambeziR,1975,0
+Australia_NZ,root,UrbanLand_AusCstN,UrbanLand_AusCstN,1975,0.06413
+Australia_NZ,root,UrbanLand_AusCstE,UrbanLand_AusCstE,1975,4.45109
+Australia_NZ,root,UrbanLand_AusCstW,UrbanLand_AusCstW,1975,0.516065
+Australia_NZ,root,UrbanLand_AusInt,UrbanLand_AusInt,1975,0.031825
+Australia_NZ,root,UrbanLand_NewZealand,UrbanLand_NewZealand,1975,1.31318
+Australia_NZ,root,UrbanLand_AusCstS,UrbanLand_AusCstS,1975,0.536745
+Australia_NZ,root,UrbanLand_MurrayDrlg,UrbanLand_MurrayDrlg,1975,0.469545
+Australia_NZ,root,UrbanLand_Tasmania,UrbanLand_Tasmania,1975,0.165735
+Brazil,root,UrbanLand_OrinocoR,UrbanLand_OrinocoR,1975,0
+Brazil,root,UrbanLand_SAmerCstNE,UrbanLand_SAmerCstNE,1975,0.00017
+Brazil,root,UrbanLand_AmazonR,UrbanLand_AmazonR,1975,0.23657
+Brazil,root,UrbanLand_BrzCstN,UrbanLand_BrzCstN,1975,0.29116
+Brazil,root,UrbanLand_TocantinsR,UrbanLand_TocantinsR,1975,0.323915
+Brazil,root,UrbanLand_BrzCstE,UrbanLand_BrzCstE,1975,1.45479
+Brazil,root,UrbanLand_ParnaibaR,UrbanLand_ParnaibaR,1975,0.221905
+Brazil,root,UrbanLand_SaoFrancR,UrbanLand_SaoFrancR,1975,0.754785
+Brazil,root,UrbanLand_BrzCstS,UrbanLand_BrzCstS,1975,3.076355
+Brazil,root,UrbanLand_RioLaPlata,UrbanLand_RioLaPlata,1975,3.66353
+Canada,root,UrbanLand_NWTerr,UrbanLand_NWTerr,1975,0.00936
+Canada,root,UrbanLand_PacArctic,UrbanLand_PacArctic,1975,0.07081
+Canada,root,UrbanLand_Mackenzie,UrbanLand_Mackenzie,1975,0.01662
+Canada,root,UrbanLand_HudsonBay,UrbanLand_HudsonBay,1975,0.01077
+Canada,root,UrbanLand_CanAtl,UrbanLand_CanAtl,1975,0.208655
+Canada,root,UrbanLand_NelsonR,UrbanLand_NelsonR,1975,0.50774
+Canada,root,UrbanLand_FraserR,UrbanLand_FraserR,1975,0.09617
+Canada,root,UrbanLand_ChurchillR,UrbanLand_ChurchillR,1975,0.003355
+Canada,root,UrbanLand_StLwrncR,UrbanLand_StLwrncR,1975,0.07122
+Canada,root,UrbanLand_MissouriR,UrbanLand_MissouriR,1975,0.000395
+Canada,root,UrbanLand_GreatLakes,UrbanLand_GreatLakes,1975,1.841945
+Canada,root,UrbanLand_UsaPacNW,UrbanLand_UsaPacNW,1975,0.127305
+Canada,root,UrbanLand_UsaCstNE,UrbanLand_UsaCstNE,1975,0.040745
+Central America and Caribbean,root,UrbanLand_Caribbean,UrbanLand_Caribbean,1975,1.00778
+Central America and Caribbean,root,UrbanLand_YucatanP,UrbanLand_YucatanP,1975,0.078115
+Central America and Caribbean,root,UrbanLand_GrijUsuR,UrbanLand_GrijUsuR,1975,0.07099
+Central America and Caribbean,root,UrbanLand_CntAmer,UrbanLand_CntAmer,1975,1.084055
+Central America and Caribbean,root,UrbanLand_SAmerCstN,UrbanLand_SAmerCstN,1975,0.0027
+Central America and Caribbean,root,UrbanLand_ColEcuaCst,UrbanLand_ColEcuaCst,1975,0.0031
+Central Asia,root,UrbanLand_VolgaR,UrbanLand_VolgaR,1975,0
+Central Asia,root,UrbanLand_UralR,UrbanLand_UralR,1975,0.168905
+Central Asia,root,UrbanLand_Gobi,UrbanLand_Gobi,1975,0.05451
+Central Asia,root,UrbanLand_AmurR,UrbanLand_AmurR,1975,0.006195
+Central Asia,root,UrbanLand_CaspianNE,UrbanLand_CaspianNE,1975,0.01133
+Central Asia,root,UrbanLand_YeniseiR,UrbanLand_YeniseiR,1975,0.048925
+Central Asia,root,UrbanLand_CaspianE,UrbanLand_CaspianE,1975,0.262525
+Central Asia,root,UrbanLand_ObR,UrbanLand_ObR,1975,0.63459
+Central Asia,root,UrbanLand_AmuDaryaR,UrbanLand_AmuDaryaR,1975,0.80543
+Central Asia,root,UrbanLand_LBalkash,UrbanLand_LBalkash,1975,0.372795
+Central Asia,root,UrbanLand_BlackSeaS,UrbanLand_BlackSeaS,1975,0.14422
+Central Asia,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,1975,1.049185
+Central Asia,root,UrbanLand_SyrDaryaR,UrbanLand_SyrDaryaR,1975,1.8433
+China,root,UrbanLand_RusCstSE,UrbanLand_RusCstSE,1975,0.018765
+China,root,UrbanLand_Gobi,UrbanLand_Gobi,1975,0.154575
+China,root,UrbanLand_AmurR,UrbanLand_AmurR,1975,0.744645
+China,root,UrbanLand_ObR,UrbanLand_ObR,1975,0
+China,root,UrbanLand_BoHai,UrbanLand_BoHai,1975,0.59989
+China,root,UrbanLand_LBalkash,UrbanLand_LBalkash,1975,0.01913
+China,root,UrbanLand_ZiyaHe,UrbanLand_ZiyaHe,1975,1.391585
+China,root,UrbanLand_ChinaCst,UrbanLand_ChinaCst,1975,2.159875
+China,root,UrbanLand_HuangHeR,UrbanLand_HuangHeR,1975,1.85681
+China,root,UrbanLand_Tarim,UrbanLand_Tarim,1975,0.042145
+China,root,UrbanLand_IndusR,UrbanLand_IndusR,1975,0
+China,root,UrbanLand_Tibet,UrbanLand_Tibet,1975,0
+China,root,UrbanLand_Taiwan,UrbanLand_Taiwan,1975,0.857935
+China,root,UrbanLand_Yangtze,UrbanLand_Yangtze,1975,5.84696
+China,root,UrbanLand_XunJiang,UrbanLand_XunJiang,1975,1.10562
+China,root,UrbanLand_Hong,UrbanLand_Hong,1975,0.030115
+China,root,UrbanLand_GangesR,UrbanLand_GangesR,1975,0.025525
+China,root,UrbanLand_SChinaSea,UrbanLand_SChinaSea,1975,0.166015
+China,root,UrbanLand_Hainan,UrbanLand_Hainan,1975,0.055515
+China,root,UrbanLand_Mekong,UrbanLand_Mekong,1975,0.05201
+China,root,UrbanLand_Salween,UrbanLand_Salween,1975,0.02506
+China,root,UrbanLand_IrrawaddyR,UrbanLand_IrrawaddyR,1975,0.020825
+EU-12,root,UrbanLand_BalticSea,UrbanLand_BalticSea,1975,0.38772
+EU-12,root,UrbanLand_DnkGrmCst,UrbanLand_DnkGrmCst,1975,0
+EU-12,root,UrbanLand_NarvaR,UrbanLand_NarvaR,1975,0.09462
+EU-12,root,UrbanLand_DaugavaR,UrbanLand_DaugavaR,1975,0.18744
+EU-12,root,UrbanLand_OderR,UrbanLand_OderR,1975,1.7745
+EU-12,root,UrbanLand_WislaR,UrbanLand_WislaR,1975,2.537525
+EU-12,root,UrbanLand_ElbeR,UrbanLand_ElbeR,1975,0.70492
+EU-12,root,UrbanLand_PolandCst,UrbanLand_PolandCst,1975,0.35334
+EU-12,root,UrbanLand_NemanR,UrbanLand_NemanR,1975,0.353015
+EU-12,root,UrbanLand_DanubeR,UrbanLand_DanubeR,1975,4.13808
+EU-12,root,UrbanLand_AdrBlkSea,UrbanLand_AdrBlkSea,1975,0.41623
+EU-12,root,UrbanLand_MeditE,UrbanLand_MeditE,1975,0.066535
+EU-15,root,UrbanLand_ArcticIsl,UrbanLand_ArcticIsl,1975,0
+EU-15,root,UrbanLand_ScndnvN,UrbanLand_ScndnvN,1975,0.00226
+EU-15,root,UrbanLand_Sweden,UrbanLand_Sweden,1975,1.714195
+EU-15,root,UrbanLand_Finland,UrbanLand_Finland,1975,0.701445
+EU-15,root,UrbanLand_Scotland,UrbanLand_Scotland,1975,0.669695
+EU-15,root,UrbanLand_NevaR,UrbanLand_NevaR,1975,0.000135
+EU-15,root,UrbanLand_DnkGrmCst,UrbanLand_DnkGrmCst,1975,1.801315
+EU-15,root,UrbanLand_Ireland,UrbanLand_Ireland,1975,0.68109
+EU-15,root,UrbanLand_EngWales,UrbanLand_EngWales,1975,6.763345
+EU-15,root,UrbanLand_EmsWeserR,UrbanLand_EmsWeserR,1975,1.49951
+EU-15,root,UrbanLand_OderR,UrbanLand_OderR,1975,0.068425
+EU-15,root,UrbanLand_ElbeR,UrbanLand_ElbeR,1975,2.96704
+EU-15,root,UrbanLand_RhineR,UrbanLand_RhineR,1975,9.09134
+EU-15,root,UrbanLand_ScheldtR,UrbanLand_ScheldtR,1975,2.81508
+EU-15,root,UrbanLand_FranceCstW,UrbanLand_FranceCstW,1975,0.88061
+EU-15,root,UrbanLand_LoireR,UrbanLand_LoireR,1975,0.915205
+EU-15,root,UrbanLand_SeineR,UrbanLand_SeineR,1975,1.417375
+EU-15,root,UrbanLand_ItalyCstE,UrbanLand_ItalyCstE,1975,1.778765
+EU-15,root,UrbanLand_DanubeR,UrbanLand_DanubeR,1975,2.265445
+EU-15,root,UrbanLand_AdrBlkSea,UrbanLand_AdrBlkSea,1975,0.44295
+EU-15,root,UrbanLand_PoR,UrbanLand_PoR,1975,2.775915
+EU-15,root,UrbanLand_ItalyCstW,UrbanLand_ItalyCstW,1975,1.865965
+EU-15,root,UrbanLand_IberiaCst,UrbanLand_IberiaCst,1975,1.062545
+EU-15,root,UrbanLand_FranceCstS,UrbanLand_FranceCstS,1975,0.45964
+EU-15,root,UrbanLand_RhoneR,UrbanLand_RhoneR,1975,0.84893
+EU-15,root,UrbanLand_MeditIsl,UrbanLand_MeditIsl,1975,0.82908
+EU-15,root,UrbanLand_Gironde,UrbanLand_Gironde,1975,0.50755
+EU-15,root,UrbanLand_SpainCstSE,UrbanLand_SpainCstSE,1975,1.21501
+EU-15,root,UrbanLand_TiberR,UrbanLand_TiberR,1975,0.72223
+EU-15,root,UrbanLand_TagusR,UrbanLand_TagusR,1975,0.831985
+EU-15,root,UrbanLand_EbroR,UrbanLand_EbroR,1975,0.3522
+EU-15,root,UrbanLand_DouroR,UrbanLand_DouroR,1975,0.51277
+EU-15,root,UrbanLand_GuadianaR,UrbanLand_GuadianaR,1975,0.23849
+EU-15,root,UrbanLand_GuadalqR,UrbanLand_GuadalqR,1975,0.447045
+Europe_Eastern,root,UrbanLand_NevaR,UrbanLand_NevaR,1975,0.00019
+Europe_Eastern,root,UrbanLand_DaugavaR,UrbanLand_DaugavaR,1975,0.087045
+Europe_Eastern,root,UrbanLand_WislaR,UrbanLand_WislaR,1975,0.234295
+Europe_Eastern,root,UrbanLand_NemanR,UrbanLand_NemanR,1975,0.15249
+Europe_Eastern,root,UrbanLand_DnieperR,UrbanLand_DnieperR,1975,2.835455
+Europe_Eastern,root,UrbanLand_BlackSeaN,UrbanLand_BlackSeaN,1975,1.443925
+Europe_Eastern,root,UrbanLand_DniesterR,UrbanLand_DniesterR,1975,0.723615
+Europe_Eastern,root,UrbanLand_DonR,UrbanLand_DonR,1975,0.735535
+Europe_Eastern,root,UrbanLand_DanubeR,UrbanLand_DanubeR,1975,0.31407
+Europe_Non_EU,root,UrbanLand_DanubeR,UrbanLand_DanubeR,1975,1.318545
+Europe_Non_EU,root,UrbanLand_AdrBlkSea,UrbanLand_AdrBlkSea,1975,0.628195
+Europe_Non_EU,root,UrbanLand_BlackSeaS,UrbanLand_BlackSeaS,1975,0.742965
+Europe_Non_EU,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,1975,0.06888
+Europe_Non_EU,root,UrbanLand_MeditE,UrbanLand_MeditE,1975,0.546215
+Europe_Non_EU,root,UrbanLand_TigrEuphR,UrbanLand_TigrEuphR,1975,0.309705
+European Free Trade Association,root,UrbanLand_ScndnvN,UrbanLand_ScndnvN,1975,0.91523
+European Free Trade Association,root,UrbanLand_Iceland,UrbanLand_Iceland,1975,0.031085
+European Free Trade Association,root,UrbanLand_Sweden,UrbanLand_Sweden,1975,0.00526
+European Free Trade Association,root,UrbanLand_RhineR,UrbanLand_RhineR,1975,0.66315
+European Free Trade Association,root,UrbanLand_DanubeR,UrbanLand_DanubeR,1975,0.00286
+European Free Trade Association,root,UrbanLand_PoR,UrbanLand_PoR,1975,0.033875
+European Free Trade Association,root,UrbanLand_RhoneR,UrbanLand_RhoneR,1975,0.151015
+India,root,UrbanLand_IndusR,UrbanLand_IndusR,1975,0.26835
+India,root,UrbanLand_SabarmatiR,UrbanLand_SabarmatiR,1975,0.463515
+India,root,UrbanLand_GangesR,UrbanLand_GangesR,1975,4.07016
+India,root,UrbanLand_MahiR,UrbanLand_MahiR,1975,0.076885
+India,root,UrbanLand_BengalBay,UrbanLand_BengalBay,1975,0
+India,root,UrbanLand_TaptiR,UrbanLand_TaptiR,1975,0.089015
+India,root,UrbanLand_BengalW,UrbanLand_BengalW,1975,0.234465
+India,root,UrbanLand_BrahmaniR,UrbanLand_BrahmaniR,1975,0.080835
+India,root,UrbanLand_MahanadiR,UrbanLand_MahanadiR,1975,0.328385
+India,root,UrbanLand_GodavariR,UrbanLand_GodavariR,1975,0.274605
+India,root,UrbanLand_IndCstNE,UrbanLand_IndCstNE,1975,0.096385
+India,root,UrbanLand_IndCstW,UrbanLand_IndCstW,1975,0.56572
+India,root,UrbanLand_IrrawaddyR,UrbanLand_IrrawaddyR,1975,0.017985
+India,root,UrbanLand_KrishnaR,UrbanLand_KrishnaR,1975,0.61996
+India,root,UrbanLand_IndCstE,UrbanLand_IndCstE,1975,0.37129
+India,root,UrbanLand_PennarR,UrbanLand_PennarR,1975,0.046475
+India,root,UrbanLand_CauveryR,UrbanLand_CauveryR,1975,0.340535
+India,root,UrbanLand_IndCstS,UrbanLand_IndCstS,1975,0.22144
+India,root,UrbanLand_NarmadaR,UrbanLand_NarmadaR,1975,0.141575
+Indonesia,root,UrbanLand_IdnE,UrbanLand_IdnE,1975,0.01396
+Indonesia,root,UrbanLand_BorneoCstN,UrbanLand_BorneoCstN,1975,0
+Indonesia,root,UrbanLand_Sumatra,UrbanLand_Sumatra,1975,0.4034
+Indonesia,root,UrbanLand_Sulawesi,UrbanLand_Sulawesi,1975,0.14021
+Indonesia,root,UrbanLand_Kalimantan,UrbanLand_Kalimantan,1975,0.08993
+Indonesia,root,UrbanLand_IrianJaya,UrbanLand_IrianJaya,1975,0.03383
+Indonesia,root,UrbanLand_JavaTimor,UrbanLand_JavaTimor,1975,1.44787
+Indonesia,root,UrbanLand_SepikR,UrbanLand_SepikR,1975,0
+Indonesia,root,UrbanLand_FlyR,UrbanLand_FlyR,1975,0
+Japan,root,UrbanLand_Japan,UrbanLand_Japan,1975,9.61983
+Mexico,root,UrbanLand_MexBaja,UrbanLand_MexBaja,1975,0.030375
+Mexico,root,UrbanLand_MexCstNW,UrbanLand_MexCstNW,1975,0.31968
+Mexico,root,UrbanLand_MexGulf,UrbanLand_MexGulf,1975,0.160685
+Mexico,root,UrbanLand_YucatanP,UrbanLand_YucatanP,1975,0.111105
+Mexico,root,UrbanLand_MexInt,UrbanLand_MexInt,1975,0.25402
+Mexico,root,UrbanLand_MexCstW,UrbanLand_MexCstW,1975,0.06378
+Mexico,root,UrbanLand_Papaloapan,UrbanLand_Papaloapan,1975,0.307025
+Mexico,root,UrbanLand_RioLerma,UrbanLand_RioLerma,1975,0.891845
+Mexico,root,UrbanLand_RioVerde,UrbanLand_RioVerde,1975,1.51312
+Mexico,root,UrbanLand_GrijUsuR,UrbanLand_GrijUsuR,1975,0.146375
+Mexico,root,UrbanLand_RioBalsas,UrbanLand_RioBalsas,1975,0.72017
+Mexico,root,UrbanLand_CntAmer,UrbanLand_CntAmer,1975,0.0178
+Mexico,root,UrbanLand_Tehuantpc,UrbanLand_Tehuantpc,1975,0.26677
+Mexico,root,UrbanLand_California,UrbanLand_California,1975,0.17931
+Mexico,root,UrbanLand_UsaColoRS,UrbanLand_UsaColoRS,1975,0.027025
+Mexico,root,UrbanLand_RioGrande,UrbanLand_RioGrande,1975,0.609835
+Middle East,root,UrbanLand_CaspianE,UrbanLand_CaspianE,1975,0.21363
+Middle East,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,1975,0.36409
+Middle East,root,UrbanLand_MeditE,UrbanLand_MeditE,1975,0.809105
+Middle East,root,UrbanLand_Iran,UrbanLand_Iran,1975,0.763535
+Middle East,root,UrbanLand_TigrEuphR,UrbanLand_TigrEuphR,1975,1.16258
+Middle East,root,UrbanLand_PersianGulf,UrbanLand_PersianGulf,1975,0.07571
+Middle East,root,UrbanLand_FarahrudR,UrbanLand_FarahrudR,1975,0.00719
+Middle East,root,UrbanLand_RedSeaE,UrbanLand_RedSeaE,1975,0.484945
+Middle East,root,UrbanLand_ArabianP,UrbanLand_ArabianP,1975,0.88908
+Middle East,root,UrbanLand_DeadSea,UrbanLand_DeadSea,1975,0.24798
+Middle East,root,UrbanLand_Helmand,UrbanLand_Helmand,1975,0.016945
+Middle East,root,UrbanLand_SinaiP,UrbanLand_SinaiP,1975,0.003595
+Middle East,root,UrbanLand_EJrdnSyr,UrbanLand_EJrdnSyr,1975,0.1832
+Middle East,root,UrbanLand_AfrCstNE,UrbanLand_AfrCstNE,1975,0
+Middle East,root,UrbanLand_HamuMashR,UrbanLand_HamuMashR,1975,0.00162
+Middle East,root,UrbanLand_ArabianSea,UrbanLand_ArabianSea,1975,0.00025
+Pakistan,root,UrbanLand_Tarim,UrbanLand_Tarim,1975,0
+Pakistan,root,UrbanLand_IndusR,UrbanLand_IndusR,1975,1.13632
+Pakistan,root,UrbanLand_Helmand,UrbanLand_Helmand,1975,0
+Pakistan,root,UrbanLand_HamuMashR,UrbanLand_HamuMashR,1975,0.032995
+Pakistan,root,UrbanLand_ArabianSea,UrbanLand_ArabianSea,1975,0.241885
+Pakistan,root,UrbanLand_SabarmatiR,UrbanLand_SabarmatiR,1975,0.02433
+Russia,root,UrbanLand_ArcticIsl,UrbanLand_ArcticIsl,1975,5.5e-05
+Russia,root,UrbanLand_SiberiaN,UrbanLand_SiberiaN,1975,0.005125
+Russia,root,UrbanLand_SiberiaW,UrbanLand_SiberiaW,1975,0.143325
+Russia,root,UrbanLand_KaraSea,UrbanLand_KaraSea,1975,0.04557
+Russia,root,UrbanLand_LenaR,UrbanLand_LenaR,1975,0.100025
+Russia,root,UrbanLand_ScndnvN,UrbanLand_ScndnvN,1975,0.09984
+Russia,root,UrbanLand_BarentsSea,UrbanLand_BarentsSea,1975,0.13659
+Russia,root,UrbanLand_Finland,UrbanLand_Finland,1975,0.00011
+Russia,root,UrbanLand_DvinaRN,UrbanLand_DvinaRN,1975,0.16744
+Russia,root,UrbanLand_NevaR,UrbanLand_NevaR,1975,0.60735
+Russia,root,UrbanLand_VolgaR,UrbanLand_VolgaR,1975,6.89612
+Russia,root,UrbanLand_BalticSea,UrbanLand_BalticSea,1975,0.21128
+Russia,root,UrbanLand_NarvaR,UrbanLand_NarvaR,1975,0.07753
+Russia,root,UrbanLand_DaugavaR,UrbanLand_DaugavaR,1975,0.01423
+Russia,root,UrbanLand_PolandCst,UrbanLand_PolandCst,1975,0.08069
+Russia,root,UrbanLand_NemanR,UrbanLand_NemanR,1975,0.006695
+Russia,root,UrbanLand_RusCstSE,UrbanLand_RusCstSE,1975,0.159595
+Russia,root,UrbanLand_UralR,UrbanLand_UralR,1975,0.194705
+Russia,root,UrbanLand_DnieperR,UrbanLand_DnieperR,1975,0.495745
+Russia,root,UrbanLand_Gobi,UrbanLand_Gobi,1975,0.001355
+Russia,root,UrbanLand_AmurR,UrbanLand_AmurR,1975,0.41714
+Russia,root,UrbanLand_CaspianNE,UrbanLand_CaspianNE,1975,0.6688
+Russia,root,UrbanLand_BlackSeaN,UrbanLand_BlackSeaN,1975,0.58709
+Russia,root,UrbanLand_YeniseiR,UrbanLand_YeniseiR,1975,0.74518
+Russia,root,UrbanLand_DonR,UrbanLand_DonR,1975,1.310815
+Russia,root,UrbanLand_ObR,UrbanLand_ObR,1975,2.554055
+Russia,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,1975,0
+Russia,root,UrbanLand_SyrDaryaR,UrbanLand_SyrDaryaR,1975,0.00014
+South Africa,root,UrbanLand_OrangeR,UrbanLand_OrangeR,1975,0.568695
+South Africa,root,UrbanLand_AfrCstSW,UrbanLand_AfrCstSW,1975,0
+South Africa,root,UrbanLand_AfrCstS,UrbanLand_AfrCstS,1975,0.631215
+South Africa,root,UrbanLand_LimpopoR,UrbanLand_LimpopoR,1975,0.379765
+South Africa,root,UrbanLand_AfrCstSSW,UrbanLand_AfrCstSSW,1975,0.18966
+South America_Northern,root,UrbanLand_SAmerCstN,UrbanLand_SAmerCstN,1975,0.821865
+South America_Northern,root,UrbanLand_OrinocoR,UrbanLand_OrinocoR,1975,0.336455
+South America_Northern,root,UrbanLand_SAmerCstNE,UrbanLand_SAmerCstNE,1975,0.358805
+South America_Northern,root,UrbanLand_AmazonR,UrbanLand_AmazonR,1975,0.008155
+South America_Southern,root,UrbanLand_ColEcuaCst,UrbanLand_ColEcuaCst,1975,0.27436
+South America_Southern,root,UrbanLand_AmazonR,UrbanLand_AmazonR,1975,0.609945
+South America_Southern,root,UrbanLand_ChileCstS,UrbanLand_ChileCstS,1975,0.35866
+South America_Southern,root,UrbanLand_PeruCst,UrbanLand_PeruCst,1975,0.42527
+South America_Southern,root,UrbanLand_BrzCstS,UrbanLand_BrzCstS,1975,0.03892
+South America_Southern,root,UrbanLand_LaPuna,UrbanLand_LaPuna,1975,0.063455
+South America_Southern,root,UrbanLand_RioLaPlata,UrbanLand_RioLaPlata,1975,0.58833
+South America_Southern,root,UrbanLand_ChileCstN,UrbanLand_ChileCstN,1975,0.49678
+South America_Southern,root,UrbanLand_ArgCstS,UrbanLand_ArgCstS,1975,0
+South Asia,root,UrbanLand_CaspianE,UrbanLand_CaspianE,1975,0.010365
+South Asia,root,UrbanLand_AmuDaryaR,UrbanLand_AmuDaryaR,1975,0.038955
+South Asia,root,UrbanLand_IndusR,UrbanLand_IndusR,1975,0.04455
+South Asia,root,UrbanLand_FarahrudR,UrbanLand_FarahrudR,1975,0.00286
+South Asia,root,UrbanLand_Helmand,UrbanLand_Helmand,1975,0.031895
+South Asia,root,UrbanLand_GangesR,UrbanLand_GangesR,1975,0.33461
+South Asia,root,UrbanLand_BengalBay,UrbanLand_BengalBay,1975,0.022425
+South Asia,root,UrbanLand_SriLanka,UrbanLand_SriLanka,1975,0.265595
+South Korea,root,UrbanLand_Korea,UrbanLand_Korea,1975,1.01977
+Southeast Asia,root,UrbanLand_RusCstSE,UrbanLand_RusCstSE,1975,0.007635
+Southeast Asia,root,UrbanLand_Korea,UrbanLand_Korea,1975,0.34715
+Southeast Asia,root,UrbanLand_BoHai,UrbanLand_BoHai,1975,0.04932
+Southeast Asia,root,UrbanLand_XunJiang,UrbanLand_XunJiang,1975,0.01115
+Southeast Asia,root,UrbanLand_Hong,UrbanLand_Hong,1975,0.249325
+Southeast Asia,root,UrbanLand_SChinaSea,UrbanLand_SChinaSea,1975,0.00231
+Southeast Asia,root,UrbanLand_BengalBay,UrbanLand_BengalBay,1975,0.02153
+Southeast Asia,root,UrbanLand_Phlppns,UrbanLand_Phlppns,1975,1.061685
+Southeast Asia,root,UrbanLand_Mekong,UrbanLand_Mekong,1975,1.01102
+Southeast Asia,root,UrbanLand_VietnamCst,UrbanLand_VietnamCst,1975,0.29979
+Southeast Asia,root,UrbanLand_Salween,UrbanLand_Salween,1975,0.05507
+Southeast Asia,root,UrbanLand_IrrawaddyR,UrbanLand_IrrawaddyR,1975,0.358265
+Southeast Asia,root,UrbanLand_SittaungR,UrbanLand_SittaungR,1975,0.11994
+Southeast Asia,root,UrbanLand_MalaysiaP,UrbanLand_MalaysiaP,1975,1.362025
+Southeast Asia,root,UrbanLand_ChaoPhrR,UrbanLand_ChaoPhrR,1975,0.632315
+Southeast Asia,root,UrbanLand_ThaiGulf,UrbanLand_ThaiGulf,1975,0.085365
+Southeast Asia,root,UrbanLand_BorneoCstN,UrbanLand_BorneoCstN,1975,0.153065
+Southeast Asia,root,UrbanLand_Kalimantan,UrbanLand_Kalimantan,1975,0
+Southeast Asia,root,UrbanLand_IrianJaya,UrbanLand_IrianJaya,1975,0.00044
+Southeast Asia,root,UrbanLand_PapuaCst,UrbanLand_PapuaCst,1975,0.023615
+Southeast Asia,root,UrbanLand_JavaTimor,UrbanLand_JavaTimor,1975,0.397465
+Southeast Asia,root,UrbanLand_SepikR,UrbanLand_SepikR,1975,0.002465
+Southeast Asia,root,UrbanLand_FlyR,UrbanLand_FlyR,1975,0.000205
+Argentina,root,UrbanLand_ChileCstS,UrbanLand_ChileCstS,1975,0.005245
+Argentina,root,UrbanLand_LaPuna,UrbanLand_LaPuna,1975,6e-04
+Argentina,root,UrbanLand_MarChiq,UrbanLand_MarChiq,1975,0.36132
+Argentina,root,UrbanLand_Salinas,UrbanLand_Salinas,1975,0.058195
+Argentina,root,UrbanLand_RioLaPlata,UrbanLand_RioLaPlata,1975,2.102705
+Argentina,root,UrbanLand_Pampas,UrbanLand_Pampas,1975,0.0397
+Argentina,root,UrbanLand_ArgCstN,UrbanLand_ArgCstN,1975,0.13146
+Argentina,root,UrbanLand_ArgColoR,UrbanLand_ArgColoR,1975,0.21344
+Argentina,root,UrbanLand_NegroR,UrbanLand_NegroR,1975,0.05529
+Argentina,root,UrbanLand_Patagonia,UrbanLand_Patagonia,1975,0.00078
+Argentina,root,UrbanLand_ArgCstS,UrbanLand_ArgCstS,1975,0.04005
+Colombia,root,UrbanLand_SAmerCstN,UrbanLand_SAmerCstN,1975,0.102665
+Colombia,root,UrbanLand_OrinocoR,UrbanLand_OrinocoR,1975,0.03042
+Colombia,root,UrbanLand_ColEcuaCst,UrbanLand_ColEcuaCst,1975,0.041335
+Colombia,root,UrbanLand_MagdalenaR,UrbanLand_MagdalenaR,1975,0.65873
+Colombia,root,UrbanLand_AmazonR,UrbanLand_AmazonR,1975,0.015475
+USA,root,Tundra_PacArctic,Tundra_PacArctic,1975,254.940925
+USA,root,Tundra_California,Tundra_California,1975,2.370745
+USA,root,Tundra_UsaColoRN,Tundra_UsaColoRN,1975,0.151905
+USA,root,Tundra_GreatBasin,Tundra_GreatBasin,1975,0.092775
+USA,root,Tundra_MissouriR,Tundra_MissouriR,1975,0.85371
+USA,root,Tundra_UsaPacNW,Tundra_UsaPacNW,1975,0.38217
+USA,root,Tundra_RioGrande,Tundra_RioGrande,1975,0.058335
+Australia_NZ,root,Tundra_NewZealand,Tundra_NewZealand,1975,0.208695
+Brazil,root,Tundra_OrinocoR,Tundra_OrinocoR,1975,0.123405
+Brazil,root,Tundra_AmazonR,Tundra_AmazonR,1975,2.50298
+Canada,root,Tundra_NWTerr,Tundra_NWTerr,1975,1562.3366
+Canada,root,Tundra_PacArctic,Tundra_PacArctic,1975,108.873545
+Canada,root,Tundra_Mackenzie,Tundra_Mackenzie,1975,179.74604
+Canada,root,Tundra_HudsonBay,Tundra_HudsonBay,1975,172.94625
+Canada,root,Tundra_CanAtl,Tundra_CanAtl,1975,14.90604
+Canada,root,Tundra_NelsonR,Tundra_NelsonR,1975,5.30734
+Canada,root,Tundra_FraserR,Tundra_FraserR,1975,6.394225
+Canada,root,Tundra_ChurchillR,Tundra_ChurchillR,1975,4.076835
+Canada,root,Tundra_StLwrncR,Tundra_StLwrncR,1975,0.631705
+Canada,root,Tundra_UsaPacNW,Tundra_UsaPacNW,1975,7.521585
+Central Asia,root,Tundra_Gobi,Tundra_Gobi,1975,1.28558
+Central Asia,root,Tundra_CaspianNE,Tundra_CaspianNE,1975,1.194075
+Central Asia,root,Tundra_YeniseiR,Tundra_YeniseiR,1975,0.813055
+Central Asia,root,Tundra_CaspianE,Tundra_CaspianE,1975,0.23637
+Central Asia,root,Tundra_ObR,Tundra_ObR,1975,1.869275
+Central Asia,root,Tundra_AmuDaryaR,Tundra_AmuDaryaR,1975,36.0777
+Central Asia,root,Tundra_LBalkash,Tundra_LBalkash,1975,4.42731
+Central Asia,root,Tundra_BlackSeaS,Tundra_BlackSeaS,1975,3.92182
+Central Asia,root,Tundra_CaspianSW,Tundra_CaspianSW,1975,4.28588
+Central Asia,root,Tundra_SyrDaryaR,Tundra_SyrDaryaR,1975,20.972955
+Central Asia,root,Tundra_Tarim,Tundra_Tarim,1975,12.269265
+China,root,Tundra_Gobi,Tundra_Gobi,1975,8.997895
+China,root,Tundra_AmurR,Tundra_AmurR,1975,0.837795
+China,root,Tundra_ObR,Tundra_ObR,1975,4.471365
+China,root,Tundra_AmuDaryaR,Tundra_AmuDaryaR,1975,0.13753
+China,root,Tundra_BoHai,Tundra_BoHai,1975,0.001965
+China,root,Tundra_LBalkash,Tundra_LBalkash,1975,7.23802
+China,root,Tundra_SyrDaryaR,Tundra_SyrDaryaR,1975,0.101055
+China,root,Tundra_ZiyaHe,Tundra_ZiyaHe,1975,0.074205
+China,root,Tundra_HuangHeR,Tundra_HuangHeR,1975,46.766655
+China,root,Tundra_Tarim,Tundra_Tarim,1975,147.86735
+China,root,Tundra_IndusR,Tundra_IndusR,1975,31.16439
+China,root,Tundra_Tibet,Tundra_Tibet,1975,146.190885
+China,root,Tundra_Yangtze,Tundra_Yangtze,1975,152.43342
+China,root,Tundra_GangesR,Tundra_GangesR,1975,103.74484
+China,root,Tundra_Mekong,Tundra_Mekong,1975,31.46638
+China,root,Tundra_Salween,Tundra_Salween,1975,38.37139
+China,root,Tundra_IrrawaddyR,Tundra_IrrawaddyR,1975,1.03752
+EU-12,root,Tundra_NemanR,Tundra_NemanR,1975,0.01116
+EU-15,root,Tundra_ArcticIsl,Tundra_ArcticIsl,1975,289.22173
+EU-15,root,Tundra_ScndnvN,Tundra_ScndnvN,1975,1.468075
+EU-15,root,Tundra_Sweden,Tundra_Sweden,1975,14.552255
+EU-15,root,Tundra_FranceCstW,Tundra_FranceCstW,1975,0.09053
+EU-15,root,Tundra_ItalyCstE,Tundra_ItalyCstE,1975,0.0026
+EU-15,root,Tundra_DanubeR,Tundra_DanubeR,1975,0.181675
+EU-15,root,Tundra_PoR,Tundra_PoR,1975,0.557415
+EU-15,root,Tundra_FranceCstS,Tundra_FranceCstS,1975,0.13607
+EU-15,root,Tundra_RhoneR,Tundra_RhoneR,1975,0.845455
+EU-15,root,Tundra_Gironde,Tundra_Gironde,1975,0.025145
+EU-15,root,Tundra_EbroR,Tundra_EbroR,1975,0.06115
+Europe_Eastern,root,Tundra_WislaR,Tundra_WislaR,1975,0.95263
+Europe_Eastern,root,Tundra_DnieperR,Tundra_DnieperR,1975,2.54212
+Europe_Non_EU,root,Tundra_BlackSeaS,Tundra_BlackSeaS,1975,1.270675
+Europe_Non_EU,root,Tundra_CaspianSW,Tundra_CaspianSW,1975,0.159805
+Europe_Non_EU,root,Tundra_TigrEuphR,Tundra_TigrEuphR,1975,0.323875
+European Free Trade Association,root,Tundra_ScndnvN,Tundra_ScndnvN,1975,46.252455
+European Free Trade Association,root,Tundra_Iceland,Tundra_Iceland,1975,26.21395
+European Free Trade Association,root,Tundra_Sweden,Tundra_Sweden,1975,2.81609
+European Free Trade Association,root,Tundra_RhineR,Tundra_RhineR,1975,0.26881
+European Free Trade Association,root,Tundra_DanubeR,Tundra_DanubeR,1975,0.06706
+European Free Trade Association,root,Tundra_PoR,Tundra_PoR,1975,0.2517
+European Free Trade Association,root,Tundra_RhoneR,Tundra_RhoneR,1975,0.09443
+India,root,Tundra_IndusR,Tundra_IndusR,1975,19.304075
+India,root,Tundra_GangesR,Tundra_GangesR,1975,4.985685
+Japan,root,Tundra_Japan,Tundra_Japan,1975,0.127235
+Mexico,root,Tundra_YucatanP,Tundra_YucatanP,1975,0.041395
+Mexico,root,Tundra_RioBalsas,Tundra_RioBalsas,1975,0.040405
+Middle East,root,Tundra_CaspianSW,Tundra_CaspianSW,1975,0.059615
+Pakistan,root,Tundra_IndusR,Tundra_IndusR,1975,27.30645
+Russia,root,Tundra_ArcticIsl,Tundra_ArcticIsl,1975,19.901955
+Russia,root,Tundra_SiberiaN,Tundra_SiberiaN,1975,579.77446
+Russia,root,Tundra_SiberiaW,Tundra_SiberiaW,1975,676.422945
+Russia,root,Tundra_KaraSea,Tundra_KaraSea,1975,292.54363
+Russia,root,Tundra_LenaR,Tundra_LenaR,1975,67.07404
+Russia,root,Tundra_ScndnvN,Tundra_ScndnvN,1975,1.75735
+Russia,root,Tundra_BarentsSea,Tundra_BarentsSea,1975,14.767385
+Russia,root,Tundra_NevaR,Tundra_NevaR,1975,1.71699
+Russia,root,Tundra_VolgaR,Tundra_VolgaR,1975,2.794935
+Russia,root,Tundra_BalticSea,Tundra_BalticSea,1975,0.02155
+Russia,root,Tundra_NemanR,Tundra_NemanR,1975,0
+Russia,root,Tundra_Gobi,Tundra_Gobi,1975,0.19095
+Russia,root,Tundra_AmurR,Tundra_AmurR,1975,6.590015
+Russia,root,Tundra_CaspianNE,Tundra_CaspianNE,1975,10.8437
+Russia,root,Tundra_BlackSeaN,Tundra_BlackSeaN,1975,1.7617
+Russia,root,Tundra_YeniseiR,Tundra_YeniseiR,1975,279.727225
+Russia,root,Tundra_ObR,Tundra_ObR,1975,56.709355
+Russia,root,Tundra_BlackSeaS,Tundra_BlackSeaS,1975,0.36671
+Russia,root,Tundra_CaspianSW,Tundra_CaspianSW,1975,0.189675
+South America_Northern,root,Tundra_SAmerCstN,Tundra_SAmerCstN,1975,2.320315
+South America_Northern,root,Tundra_OrinocoR,Tundra_OrinocoR,1975,1.859585
+South America_Southern,root,Tundra_ColEcuaCst,Tundra_ColEcuaCst,1975,4.2906
+South America_Southern,root,Tundra_AmazonR,Tundra_AmazonR,1975,29.734085
+South America_Southern,root,Tundra_ChileCstS,Tundra_ChileCstS,1975,17.383985
+South America_Southern,root,Tundra_PeruCst,Tundra_PeruCst,1975,41.84627
+South America_Southern,root,Tundra_LaPuna,Tundra_LaPuna,1975,75.202315
+South America_Southern,root,Tundra_RioLaPlata,Tundra_RioLaPlata,1975,12.73327
+South America_Southern,root,Tundra_ChileCstN,Tundra_ChileCstN,1975,7.324685
+South America_Southern,root,Tundra_NegroR,Tundra_NegroR,1975,0.08991
+South Asia,root,Tundra_AmuDaryaR,Tundra_AmuDaryaR,1975,6.426165
+South Asia,root,Tundra_IndusR,Tundra_IndusR,1975,1.420565
+South Asia,root,Tundra_GangesR,Tundra_GangesR,1975,12.1568
+Southeast Asia,root,Tundra_GangesR,Tundra_GangesR,1975,0.293095
+Southeast Asia,root,Tundra_IrrawaddyR,Tundra_IrrawaddyR,1975,0.829715
+Argentina,root,Tundra_ChileCstS,Tundra_ChileCstS,1975,5.21705
+Argentina,root,Tundra_LaPuna,Tundra_LaPuna,1975,3.55477
+Argentina,root,Tundra_MarChiq,Tundra_MarChiq,1975,1.41645
+Argentina,root,Tundra_RioLaPlata,Tundra_RioLaPlata,1975,5.485525
+Argentina,root,Tundra_ArgCstN,Tundra_ArgCstN,1975,0.065355
+Argentina,root,Tundra_ArgColoR,Tundra_ArgColoR,1975,11.906685
+Argentina,root,Tundra_NegroR,Tundra_NegroR,1975,1.790535
+Argentina,root,Tundra_ArgCstS,Tundra_ArgCstS,1975,2.148195
+Colombia,root,Tundra_SAmerCstN,Tundra_SAmerCstN,1975,0.504945
+Colombia,root,Tundra_OrinocoR,Tundra_OrinocoR,1975,0.184955
+Colombia,root,Tundra_ColEcuaCst,Tundra_ColEcuaCst,1975,0.38857
+Colombia,root,Tundra_MagdalenaR,Tundra_MagdalenaR,1975,0.816085
+Colombia,root,Tundra_AmazonR,Tundra_AmazonR,1975,0.29229
+USA,root,RockIceDesert_PacArctic,RockIceDesert_PacArctic,1975,71.66383
+USA,root,RockIceDesert_California,RockIceDesert_California,1975,1.031365
+USA,root,RockIceDesert_GreatBasin,RockIceDesert_GreatBasin,1975,10.1155
+USA,root,RockIceDesert_RioGrande,RockIceDesert_RioGrande,1975,0.003385
+Africa_Eastern,root,RockIceDesert_NileR,RockIceDesert_NileR,1975,634.189485
+Africa_Eastern,root,RockIceDesert_AfrCstNE,RockIceDesert_AfrCstNE,1975,133.072785
+Africa_Eastern,root,RockIceDesert_AfrIntN,RockIceDesert_AfrIntN,1975,290.8895
+Africa_Eastern,root,RockIceDesert_LChad,RockIceDesert_LChad,1975,2.112525
+Africa_Eastern,root,RockIceDesert_ShebJubR,RockIceDesert_ShebJubR,1975,12.5313
+Africa_Eastern,root,RockIceDesert_Madasgacar,RockIceDesert_Madasgacar,1975,0.57816
+Africa_Eastern,root,RockIceDesert_RiftValley,RockIceDesert_RiftValley,1975,67.22574
+Africa_Northern,root,RockIceDesert_MeditE,RockIceDesert_MeditE,1975,35.64872
+Africa_Northern,root,RockIceDesert_MeditS,RockIceDesert_MeditS,1975,196.59544
+Africa_Northern,root,RockIceDesert_AfrCstNW,RockIceDesert_AfrCstNW,1975,244.88128
+Africa_Northern,root,RockIceDesert_NileR,RockIceDesert_NileR,1975,217.68672
+Africa_Northern,root,RockIceDesert_DeadSea,RockIceDesert_DeadSea,1975,2.154755
+Africa_Northern,root,RockIceDesert_SinaiP,RockIceDesert_SinaiP,1975,22.569155
+Africa_Northern,root,RockIceDesert_AfrCstNE,RockIceDesert_AfrCstNE,1975,66.76368
+Africa_Northern,root,RockIceDesert_AfrIntN,RockIceDesert_AfrIntN,1975,3584.689695
+Africa_Northern,root,RockIceDesert_NigerR,RockIceDesert_NigerR,1975,158.215265
+Africa_Northern,root,RockIceDesert_LChad,RockIceDesert_LChad,1975,114.63991
+Africa_Southern,root,RockIceDesert_NileR,RockIceDesert_NileR,1975,0.46927
+Africa_Southern,root,RockIceDesert_AfrCstE,RockIceDesert_AfrCstE,1975,0.41816
+Africa_Southern,root,RockIceDesert_RiftValley,RockIceDesert_RiftValley,1975,0.40395
+Africa_Southern,root,RockIceDesert_AngolaCst,RockIceDesert_AngolaCst,1975,11.48836
+Africa_Southern,root,RockIceDesert_CongoR,RockIceDesert_CongoR,1975,0.340285
+Africa_Southern,root,RockIceDesert_ZambeziR,RockIceDesert_ZambeziR,1975,3.312085
+Africa_Southern,root,RockIceDesert_AfrCstSE,RockIceDesert_AfrCstSE,1975,0.287995
+Africa_Southern,root,RockIceDesert_OrangeR,RockIceDesert_OrangeR,1975,14.49999
+Africa_Southern,root,RockIceDesert_AfrCstSW,RockIceDesert_AfrCstSW,1975,91.37629
+Africa_Southern,root,RockIceDesert_AfrIntS,RockIceDesert_AfrIntS,1975,13.240105
+Africa_Southern,root,RockIceDesert_AfrCstS,RockIceDesert_AfrCstS,1975,0.07773
+Africa_Western,root,RockIceDesert_AfrCstNW,RockIceDesert_AfrCstNW,1975,195.026525
+Africa_Western,root,RockIceDesert_NileR,RockIceDesert_NileR,1975,0.518155
+Africa_Western,root,RockIceDesert_AfrCstW,RockIceDesert_AfrCstW,1975,1.024165
+Africa_Western,root,RockIceDesert_AfrIntN,RockIceDesert_AfrIntN,1975,989.3049
+Africa_Western,root,RockIceDesert_NigerR,RockIceDesert_NigerR,1975,301.65024
+Africa_Western,root,RockIceDesert_LChad,RockIceDesert_LChad,1975,1060.494685
+Africa_Western,root,RockIceDesert_SenegalR,RockIceDesert_SenegalR,1975,40.515335
+Africa_Western,root,RockIceDesert_VoltaR,RockIceDesert_VoltaR,1975,1.52349
+Africa_Western,root,RockIceDesert_GuineaGulf,RockIceDesert_GuineaGulf,1975,1.853655
+Africa_Western,root,RockIceDesert_CongoR,RockIceDesert_CongoR,1975,5.49645
+Australia_NZ,root,RockIceDesert_AusCstN,RockIceDesert_AusCstN,1975,0.440275
+Australia_NZ,root,RockIceDesert_AusCstW,RockIceDesert_AusCstW,1975,0.36258
+Australia_NZ,root,RockIceDesert_AusInt,RockIceDesert_AusInt,1975,14.039085
+Australia_NZ,root,RockIceDesert_NewZealand,RockIceDesert_NewZealand,1975,0.392615
+Australia_NZ,root,RockIceDesert_AusCstS,RockIceDesert_AusCstS,1975,1.94936
+Brazil,root,RockIceDesert_SAmerCstNE,RockIceDesert_SAmerCstNE,1975,0.05365
+Brazil,root,RockIceDesert_AmazonR,RockIceDesert_AmazonR,1975,2.74602
+Brazil,root,RockIceDesert_BrzCstN,RockIceDesert_BrzCstN,1975,0.846225
+Brazil,root,RockIceDesert_TocantinsR,RockIceDesert_TocantinsR,1975,0.04406
+Brazil,root,RockIceDesert_BrzCstE,RockIceDesert_BrzCstE,1975,1.350805
+Brazil,root,RockIceDesert_SaoFrancR,RockIceDesert_SaoFrancR,1975,0.195785
+Brazil,root,RockIceDesert_BrzCstS,RockIceDesert_BrzCstS,1975,0.285205
+Brazil,root,RockIceDesert_RioLaPlata,RockIceDesert_RioLaPlata,1975,0.142475
+Canada,root,RockIceDesert_NWTerr,RockIceDesert_NWTerr,1975,436.898785
+Canada,root,RockIceDesert_PacArctic,RockIceDesert_PacArctic,1975,26.485525
+Canada,root,RockIceDesert_Mackenzie,RockIceDesert_Mackenzie,1975,1.23259
+Canada,root,RockIceDesert_HudsonBay,RockIceDesert_HudsonBay,1975,1.23522
+Canada,root,RockIceDesert_CanAtl,RockIceDesert_CanAtl,1975,1.54808
+Canada,root,RockIceDesert_NelsonR,RockIceDesert_NelsonR,1975,0.13251
+Canada,root,RockIceDesert_FraserR,RockIceDesert_FraserR,1975,0.28947
+Canada,root,RockIceDesert_UsaPacNW,RockIceDesert_UsaPacNW,1975,0.55562
+Central Asia,root,RockIceDesert_Gobi,RockIceDesert_Gobi,1975,114.98392
+Central Asia,root,RockIceDesert_CaspianNE,RockIceDesert_CaspianNE,1975,15.893135
+Central Asia,root,RockIceDesert_CaspianE,RockIceDesert_CaspianE,1975,176.51039
+Central Asia,root,RockIceDesert_ObR,RockIceDesert_ObR,1975,15.133835
+Central Asia,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,1975,87.902595
+Central Asia,root,RockIceDesert_LBalkash,RockIceDesert_LBalkash,1975,18.21299
+Central Asia,root,RockIceDesert_BlackSeaS,RockIceDesert_BlackSeaS,1975,0.320895
+Central Asia,root,RockIceDesert_CaspianSW,RockIceDesert_CaspianSW,1975,0.64684
+Central Asia,root,RockIceDesert_SyrDaryaR,RockIceDesert_SyrDaryaR,1975,19.69969
+Central Asia,root,RockIceDesert_Tarim,RockIceDesert_Tarim,1975,8.024175
+China,root,RockIceDesert_Gobi,RockIceDesert_Gobi,1975,343.825135
+China,root,RockIceDesert_ObR,RockIceDesert_ObR,1975,2.454325
+China,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,1975,0.183955
+China,root,RockIceDesert_BoHai,RockIceDesert_BoHai,1975,0.09692
+China,root,RockIceDesert_LBalkash,RockIceDesert_LBalkash,1975,0.956595
+China,root,RockIceDesert_ZiyaHe,RockIceDesert_ZiyaHe,1975,2.215735
+China,root,RockIceDesert_ChinaCst,RockIceDesert_ChinaCst,1975,0.876295
+China,root,RockIceDesert_HuangHeR,RockIceDesert_HuangHeR,1975,3.652385
+China,root,RockIceDesert_Tarim,RockIceDesert_Tarim,1975,834.051695
+China,root,RockIceDesert_IndusR,RockIceDesert_IndusR,1975,6.185605
+China,root,RockIceDesert_Tibet,RockIceDesert_Tibet,1975,3.325045
+China,root,RockIceDesert_Yangtze,RockIceDesert_Yangtze,1975,5.216355
+China,root,RockIceDesert_GangesR,RockIceDesert_GangesR,1975,11.14577
+China,root,RockIceDesert_SChinaSea,RockIceDesert_SChinaSea,1975,0.024865
+China,root,RockIceDesert_Mekong,RockIceDesert_Mekong,1975,0.057605
+China,root,RockIceDesert_Salween,RockIceDesert_Salween,1975,0.88553
+EU-15,root,RockIceDesert_ArcticIsl,RockIceDesert_ArcticIsl,1975,1673.74936
+EU-15,root,RockIceDesert_Sweden,RockIceDesert_Sweden,1975,0.20037
+EU-15,root,RockIceDesert_DanubeR,RockIceDesert_DanubeR,1975,0.298635
+EU-15,root,RockIceDesert_PoR,RockIceDesert_PoR,1975,0.27839
+EU-15,root,RockIceDesert_FranceCstS,RockIceDesert_FranceCstS,1975,0.02731
+EU-15,root,RockIceDesert_RhoneR,RockIceDesert_RhoneR,1975,0.1125
+Europe_Eastern,root,RockIceDesert_DnieperR,RockIceDesert_DnieperR,1975,0.02128
+Europe_Non_EU,root,RockIceDesert_MeditE,RockIceDesert_MeditE,1975,0.40707
+European Free Trade Association,root,RockIceDesert_ScndnvN,RockIceDesert_ScndnvN,1975,4.19572
+European Free Trade Association,root,RockIceDesert_Iceland,RockIceDesert_Iceland,1975,21.675435
+European Free Trade Association,root,RockIceDesert_Sweden,RockIceDesert_Sweden,1975,0.14801
+European Free Trade Association,root,RockIceDesert_RhineR,RockIceDesert_RhineR,1975,0.30917
+European Free Trade Association,root,RockIceDesert_PoR,RockIceDesert_PoR,1975,0.0614
+European Free Trade Association,root,RockIceDesert_RhoneR,RockIceDesert_RhoneR,1975,0.47652
+India,root,RockIceDesert_IndusR,RockIceDesert_IndusR,1975,39.710245
+India,root,RockIceDesert_SabarmatiR,RockIceDesert_SabarmatiR,1975,70.714065
+India,root,RockIceDesert_GangesR,RockIceDesert_GangesR,1975,6.638365
+India,root,RockIceDesert_IndCstE,RockIceDesert_IndCstE,1975,0.05547
+India,root,RockIceDesert_IndCstS,RockIceDesert_IndCstS,1975,0.015325
+Mexico,root,RockIceDesert_MexBaja,RockIceDesert_MexBaja,1975,1.052985
+Mexico,root,RockIceDesert_UsaColoRS,RockIceDesert_UsaColoRS,1975,0.032155
+Middle East,root,RockIceDesert_CaspianE,RockIceDesert_CaspianE,1975,5.465095
+Middle East,root,RockIceDesert_CaspianSW,RockIceDesert_CaspianSW,1975,0.584785
+Middle East,root,RockIceDesert_MeditE,RockIceDesert_MeditE,1975,0.203045
+Middle East,root,RockIceDesert_Iran,RockIceDesert_Iran,1975,425.124965
+Middle East,root,RockIceDesert_TigrEuphR,RockIceDesert_TigrEuphR,1975,204.90236
+Middle East,root,RockIceDesert_PersianGulf,RockIceDesert_PersianGulf,1975,29.59255
+Middle East,root,RockIceDesert_FarahrudR,RockIceDesert_FarahrudR,1975,19.82689
+Middle East,root,RockIceDesert_RedSeaE,RockIceDesert_RedSeaE,1975,159.00552
+Middle East,root,RockIceDesert_ArabianP,RockIceDesert_ArabianP,1975,1242.321865
+Middle East,root,RockIceDesert_DeadSea,RockIceDesert_DeadSea,1975,7.83438
+Middle East,root,RockIceDesert_Helmand,RockIceDesert_Helmand,1975,9.497295
+Middle East,root,RockIceDesert_SinaiP,RockIceDesert_SinaiP,1975,4.865615
+Middle East,root,RockIceDesert_EJrdnSyr,RockIceDesert_EJrdnSyr,1975,57.110605
+Middle East,root,RockIceDesert_HamuMashR,RockIceDesert_HamuMashR,1975,31.21405
+Middle East,root,RockIceDesert_ArabianSea,RockIceDesert_ArabianSea,1975,62.74566
+Pakistan,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,1975,0.06881
+Pakistan,root,RockIceDesert_Tarim,RockIceDesert_Tarim,1975,1.777055
+Pakistan,root,RockIceDesert_IndusR,RockIceDesert_IndusR,1975,67.46609
+Pakistan,root,RockIceDesert_Helmand,RockIceDesert_Helmand,1975,8.310745
+Pakistan,root,RockIceDesert_HamuMashR,RockIceDesert_HamuMashR,1975,95.869505
+Pakistan,root,RockIceDesert_ArabianSea,RockIceDesert_ArabianSea,1975,73.766675
+Pakistan,root,RockIceDesert_SabarmatiR,RockIceDesert_SabarmatiR,1975,39.542375
+Russia,root,RockIceDesert_ArcticIsl,RockIceDesert_ArcticIsl,1975,31.52368
+Russia,root,RockIceDesert_SiberiaN,RockIceDesert_SiberiaN,1975,32.55645
+Russia,root,RockIceDesert_SiberiaW,RockIceDesert_SiberiaW,1975,30.991515
+Russia,root,RockIceDesert_KaraSea,RockIceDesert_KaraSea,1975,0.06829
+Russia,root,RockIceDesert_LenaR,RockIceDesert_LenaR,1975,3.34632
+Russia,root,RockIceDesert_BarentsSea,RockIceDesert_BarentsSea,1975,0.06836
+Russia,root,RockIceDesert_Gobi,RockIceDesert_Gobi,1975,0.05486
+Russia,root,RockIceDesert_CaspianNE,RockIceDesert_CaspianNE,1975,0.801195
+Russia,root,RockIceDesert_BlackSeaN,RockIceDesert_BlackSeaN,1975,0.061705
+Russia,root,RockIceDesert_YeniseiR,RockIceDesert_YeniseiR,1975,0.76233
+Russia,root,RockIceDesert_ObR,RockIceDesert_ObR,1975,1.43
+Russia,root,RockIceDesert_BlackSeaS,RockIceDesert_BlackSeaS,1975,0.06267
+South Africa,root,RockIceDesert_OrangeR,RockIceDesert_OrangeR,1975,1.928305
+South Africa,root,RockIceDesert_AfrCstSW,RockIceDesert_AfrCstSW,1975,0.63333
+South Africa,root,RockIceDesert_AfrCstS,RockIceDesert_AfrCstS,1975,0.459265
+South Africa,root,RockIceDesert_AfrCstSSW,RockIceDesert_AfrCstSSW,1975,0.473365
+South America_Northern,root,RockIceDesert_SAmerCstN,RockIceDesert_SAmerCstN,1975,1.614
+South America_Northern,root,RockIceDesert_OrinocoR,RockIceDesert_OrinocoR,1975,0.917775
+South America_Northern,root,RockIceDesert_SAmerCstNE,RockIceDesert_SAmerCstNE,1975,0.14922
+South America_Southern,root,RockIceDesert_ColEcuaCst,RockIceDesert_ColEcuaCst,1975,1.23351
+South America_Southern,root,RockIceDesert_AmazonR,RockIceDesert_AmazonR,1975,0.594195
+South America_Southern,root,RockIceDesert_ChileCstS,RockIceDesert_ChileCstS,1975,28.72123
+South America_Southern,root,RockIceDesert_PeruCst,RockIceDesert_PeruCst,1975,95.72755
+South America_Southern,root,RockIceDesert_LaPuna,RockIceDesert_LaPuna,1975,42.56977
+South America_Southern,root,RockIceDesert_Salinas,RockIceDesert_Salinas,1975,0.22937
+South America_Southern,root,RockIceDesert_RioLaPlata,RockIceDesert_RioLaPlata,1975,0.3613
+South America_Southern,root,RockIceDesert_ChileCstN,RockIceDesert_ChileCstN,1975,149.781095
+South America_Southern,root,RockIceDesert_ArgColoR,RockIceDesert_ArgColoR,1975,1.407995
+South America_Southern,root,RockIceDesert_ArgCstS,RockIceDesert_ArgCstS,1975,1.1968
+South Asia,root,RockIceDesert_CaspianE,RockIceDesert_CaspianE,1975,1.072855
+South Asia,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,1975,14.64199
+South Asia,root,RockIceDesert_IndusR,RockIceDesert_IndusR,1975,1.93636
+South Asia,root,RockIceDesert_FarahrudR,RockIceDesert_FarahrudR,1975,5.777175
+South Asia,root,RockIceDesert_Helmand,RockIceDesert_Helmand,1975,54.6111
+South Asia,root,RockIceDesert_HamuMashR,RockIceDesert_HamuMashR,1975,5.557425
+South Asia,root,RockIceDesert_GangesR,RockIceDesert_GangesR,1975,6.3987
+Southeast Asia,root,RockIceDesert_GangesR,RockIceDesert_GangesR,1975,0.05454
+Southeast Asia,root,RockIceDesert_Mekong,RockIceDesert_Mekong,1975,0.20446
+Southeast Asia,root,RockIceDesert_VietnamCst,RockIceDesert_VietnamCst,1975,0.13034
+Southeast Asia,root,RockIceDesert_SittaungR,RockIceDesert_SittaungR,1975,0.09369
+Southeast Asia,root,RockIceDesert_MalaysiaP,RockIceDesert_MalaysiaP,1975,0.00963
+Southeast Asia,root,RockIceDesert_ChaoPhrR,RockIceDesert_ChaoPhrR,1975,0.141555
+Argentina,root,RockIceDesert_ChileCstS,RockIceDesert_ChileCstS,1975,2.201065
+Argentina,root,RockIceDesert_LaPuna,RockIceDesert_LaPuna,1975,41.63928
+Argentina,root,RockIceDesert_MarChiq,RockIceDesert_MarChiq,1975,3.909355
+Argentina,root,RockIceDesert_Salinas,RockIceDesert_Salinas,1975,18.649425
+Argentina,root,RockIceDesert_RioLaPlata,RockIceDesert_RioLaPlata,1975,2.61515
+Argentina,root,RockIceDesert_ChileCstN,RockIceDesert_ChileCstN,1975,1.88435
+Argentina,root,RockIceDesert_Pampas,RockIceDesert_Pampas,1975,0.047075
+Argentina,root,RockIceDesert_ArgColoR,RockIceDesert_ArgColoR,1975,58.20194
+Argentina,root,RockIceDesert_NegroR,RockIceDesert_NegroR,1975,0.354085
+Argentina,root,RockIceDesert_Patagonia,RockIceDesert_Patagonia,1975,0.197165
+Argentina,root,RockIceDesert_ArgCstS,RockIceDesert_ArgCstS,1975,7.051275
+Colombia,root,RockIceDesert_SAmerCstN,RockIceDesert_SAmerCstN,1975,1.0194
+Colombia,root,RockIceDesert_MagdalenaR,RockIceDesert_MagdalenaR,1975,0.06671
+USA,root,UrbanLand_PacArctic,UrbanLand_PacArctic,1990,0.23189
+USA,root,UrbanLand_NelsonR,UrbanLand_NelsonR,1990,0.25865
+USA,root,UrbanLand_MexCstNW,UrbanLand_MexCstNW,1990,0.00844
+USA,root,UrbanLand_Caribbean,UrbanLand_Caribbean,1990,1.65337
+USA,root,UrbanLand_California,UrbanLand_California,1990,13.84743
+USA,root,UrbanLand_MissppRN,UrbanLand_MissppRN,1990,10.1077
+USA,root,UrbanLand_MissppRS,UrbanLand_MissppRS,1990,3.27735
+USA,root,UrbanLand_UsaColoRN,UrbanLand_UsaColoRN,1990,0.13324
+USA,root,UrbanLand_UsaColoRS,UrbanLand_UsaColoRS,1990,2.33119
+USA,root,UrbanLand_GreatBasin,UrbanLand_GreatBasin,1990,0.91417
+USA,root,UrbanLand_MissouriR,UrbanLand_MissouriR,1990,5.07901
+USA,root,UrbanLand_ArkWhtRedR,UrbanLand_ArkWhtRedR,1990,3.73706
+USA,root,UrbanLand_TexasCst,UrbanLand_TexasCst,1990,7.11567
+USA,root,UrbanLand_UsaCstSE,UrbanLand_UsaCstSE,1990,15.77571
+USA,root,UrbanLand_GreatLakes,UrbanLand_GreatLakes,1990,11.38349
+USA,root,UrbanLand_OhioR,UrbanLand_OhioR,1990,10.79839
+USA,root,UrbanLand_UsaPacNW,UrbanLand_UsaPacNW,1990,4.31549
+USA,root,UrbanLand_TennR,UrbanLand_TennR,1990,1.79519
+USA,root,UrbanLand_RioGrande,UrbanLand_RioGrande,1990,1.4462
+USA,root,UrbanLand_UsaCstNE,UrbanLand_UsaCstNE,1990,5.62504
+USA,root,UrbanLand_UsaCstE,UrbanLand_UsaCstE,1990,18.70118
+Africa_Eastern,root,UrbanLand_NileR,UrbanLand_NileR,1990,1.7633
+Africa_Eastern,root,UrbanLand_AfrCstNE,UrbanLand_AfrCstNE,1990,0.18653
+Africa_Eastern,root,UrbanLand_AfrIntN,UrbanLand_AfrIntN,1990,0
+Africa_Eastern,root,UrbanLand_LChad,UrbanLand_LChad,1990,0.05456
+Africa_Eastern,root,UrbanLand_ShebJubR,UrbanLand_ShebJubR,1990,0.12542
+Africa_Eastern,root,UrbanLand_AfrCstE,UrbanLand_AfrCstE,1990,0.19566
+Africa_Eastern,root,UrbanLand_Madasgacar,UrbanLand_Madasgacar,1990,0.08093
+Africa_Eastern,root,UrbanLand_RiftValley,UrbanLand_RiftValley,1990,0.30828
+Africa_Eastern,root,UrbanLand_CongoR,UrbanLand_CongoR,1990,0.03645
+Africa_Northern,root,UrbanLand_MeditE,UrbanLand_MeditE,1990,0.02457
+Africa_Northern,root,UrbanLand_MeditS,UrbanLand_MeditS,1990,1.87415
+Africa_Northern,root,UrbanLand_AfrCstNW,UrbanLand_AfrCstNW,1990,4.51317
+Africa_Northern,root,UrbanLand_NileR,UrbanLand_NileR,1990,1.92169
+Africa_Northern,root,UrbanLand_SinaiP,UrbanLand_SinaiP,1990,0.00078
+Africa_Northern,root,UrbanLand_AfrIntN,UrbanLand_AfrIntN,1990,1.43269
+Africa_Northern,root,UrbanLand_NigerR,UrbanLand_NigerR,1990,0
+Africa_Northern,root,UrbanLand_LChad,UrbanLand_LChad,1990,0
+Africa_Southern,root,UrbanLand_NileR,UrbanLand_NileR,1990,0.08318
+Africa_Southern,root,UrbanLand_GuineaGulf,UrbanLand_GuineaGulf,1990,0
+Africa_Southern,root,UrbanLand_AfrCstE,UrbanLand_AfrCstE,1990,0.38353
+Africa_Southern,root,UrbanLand_RiftValley,UrbanLand_RiftValley,1990,0.05547
+Africa_Southern,root,UrbanLand_AngolaCst,UrbanLand_AngolaCst,1990,0.19656
+Africa_Southern,root,UrbanLand_CongoR,UrbanLand_CongoR,1990,0.14826
+Africa_Southern,root,UrbanLand_ZambeziR,UrbanLand_ZambeziR,1990,1.2942
+Africa_Southern,root,UrbanLand_AfrCstSE,UrbanLand_AfrCstSE,1990,0.35439
+Africa_Southern,root,UrbanLand_OrangeR,UrbanLand_OrangeR,1990,0.15562
+Africa_Southern,root,UrbanLand_AfrCstSW,UrbanLand_AfrCstSW,1990,0.03154
+Africa_Southern,root,UrbanLand_AfrIntS,UrbanLand_AfrIntS,1990,0.199
+Africa_Southern,root,UrbanLand_AfrCstS,UrbanLand_AfrCstS,1990,0.0671
+Africa_Southern,root,UrbanLand_LimpopoR,UrbanLand_LimpopoR,1990,0.39152
+Africa_Western,root,UrbanLand_AfrCstNW,UrbanLand_AfrCstNW,1990,0.02561
+Africa_Western,root,UrbanLand_NileR,UrbanLand_NileR,1990,0.05587
+Africa_Western,root,UrbanLand_AfrCstW,UrbanLand_AfrCstW,1990,3.1893
+Africa_Western,root,UrbanLand_AfrIntN,UrbanLand_AfrIntN,1990,0.01024
+Africa_Western,root,UrbanLand_NigerR,UrbanLand_NigerR,1990,1.67287
+Africa_Western,root,UrbanLand_LChad,UrbanLand_LChad,1990,0.76184
+Africa_Western,root,UrbanLand_SenegalR,UrbanLand_SenegalR,1990,0.13451
+Africa_Western,root,UrbanLand_VoltaR,UrbanLand_VoltaR,1990,0.66736
+Africa_Western,root,UrbanLand_GuineaGulf,UrbanLand_GuineaGulf,1990,0.82803
+Africa_Western,root,UrbanLand_CongoR,UrbanLand_CongoR,1990,1.42521
+Africa_Western,root,UrbanLand_ZambeziR,UrbanLand_ZambeziR,1990,0
+Australia_NZ,root,UrbanLand_AusCstN,UrbanLand_AusCstN,1990,0.09743
+Australia_NZ,root,UrbanLand_AusCstE,UrbanLand_AusCstE,1990,6.08844
+Australia_NZ,root,UrbanLand_AusCstW,UrbanLand_AusCstW,1990,0.80202
+Australia_NZ,root,UrbanLand_AusInt,UrbanLand_AusInt,1990,0.05198
+Australia_NZ,root,UrbanLand_NewZealand,UrbanLand_NewZealand,1990,1.36274
+Australia_NZ,root,UrbanLand_AusCstS,UrbanLand_AusCstS,1990,0.69978
+Australia_NZ,root,UrbanLand_MurrayDrlg,UrbanLand_MurrayDrlg,1990,0.74114
+Australia_NZ,root,UrbanLand_Tasmania,UrbanLand_Tasmania,1990,0.21129
+Brazil,root,UrbanLand_OrinocoR,UrbanLand_OrinocoR,1990,0
+Brazil,root,UrbanLand_SAmerCstNE,UrbanLand_SAmerCstNE,1990,0.00092
+Brazil,root,UrbanLand_AmazonR,UrbanLand_AmazonR,1990,0.59104
+Brazil,root,UrbanLand_BrzCstN,UrbanLand_BrzCstN,1990,0.53252
+Brazil,root,UrbanLand_TocantinsR,UrbanLand_TocantinsR,1990,0.61204
+Brazil,root,UrbanLand_BrzCstE,UrbanLand_BrzCstE,1990,2.2666
+Brazil,root,UrbanLand_ParnaibaR,UrbanLand_ParnaibaR,1990,0.37708
+Brazil,root,UrbanLand_SaoFrancR,UrbanLand_SaoFrancR,1990,1.12467
+Brazil,root,UrbanLand_BrzCstS,UrbanLand_BrzCstS,1990,5.06552
+Brazil,root,UrbanLand_RioLaPlata,UrbanLand_RioLaPlata,1990,6.07133
+Canada,root,UrbanLand_NWTerr,UrbanLand_NWTerr,1990,0.01355
+Canada,root,UrbanLand_PacArctic,UrbanLand_PacArctic,1990,0.11673
+Canada,root,UrbanLand_Mackenzie,UrbanLand_Mackenzie,1990,0.03019
+Canada,root,UrbanLand_HudsonBay,UrbanLand_HudsonBay,1990,0.01765
+Canada,root,UrbanLand_CanAtl,UrbanLand_CanAtl,1990,0.28013
+Canada,root,UrbanLand_NelsonR,UrbanLand_NelsonR,1990,0.74022
+Canada,root,UrbanLand_FraserR,UrbanLand_FraserR,1990,0.15757
+Canada,root,UrbanLand_ChurchillR,UrbanLand_ChurchillR,1990,0.00457
+Canada,root,UrbanLand_StLwrncR,UrbanLand_StLwrncR,1990,0.1034
+Canada,root,UrbanLand_MissouriR,UrbanLand_MissouriR,1990,0.00053
+Canada,root,UrbanLand_GreatLakes,UrbanLand_GreatLakes,1990,2.66523
+Canada,root,UrbanLand_UsaPacNW,UrbanLand_UsaPacNW,1990,0.20888
+Canada,root,UrbanLand_UsaCstNE,UrbanLand_UsaCstNE,1990,0.05371
+Central America and Caribbean,root,UrbanLand_Caribbean,UrbanLand_Caribbean,1990,1.50876
+Central America and Caribbean,root,UrbanLand_YucatanP,UrbanLand_YucatanP,1990,0.1232
+Central America and Caribbean,root,UrbanLand_GrijUsuR,UrbanLand_GrijUsuR,1990,0.12293
+Central America and Caribbean,root,UrbanLand_CntAmer,UrbanLand_CntAmer,1990,1.73048
+Central America and Caribbean,root,UrbanLand_SAmerCstN,UrbanLand_SAmerCstN,1990,0.00338
+Central America and Caribbean,root,UrbanLand_ColEcuaCst,UrbanLand_ColEcuaCst,1990,0.00556
+Central Asia,root,UrbanLand_VolgaR,UrbanLand_VolgaR,1990,0
+Central Asia,root,UrbanLand_UralR,UrbanLand_UralR,1990,0.21106
+Central Asia,root,UrbanLand_Gobi,UrbanLand_Gobi,1990,0.0818
+Central Asia,root,UrbanLand_AmurR,UrbanLand_AmurR,1990,0.01146
+Central Asia,root,UrbanLand_CaspianNE,UrbanLand_CaspianNE,1990,0.01926
+Central Asia,root,UrbanLand_YeniseiR,UrbanLand_YeniseiR,1990,0.08895
+Central Asia,root,UrbanLand_CaspianE,UrbanLand_CaspianE,1990,0.36393
+Central Asia,root,UrbanLand_ObR,UrbanLand_ObR,1990,0.76038
+Central Asia,root,UrbanLand_AmuDaryaR,UrbanLand_AmuDaryaR,1990,1.27727
+Central Asia,root,UrbanLand_LBalkash,UrbanLand_LBalkash,1990,0.48664
+Central Asia,root,UrbanLand_BlackSeaS,UrbanLand_BlackSeaS,1990,0.19133
+Central Asia,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,1990,1.36562
+Central Asia,root,UrbanLand_SyrDaryaR,UrbanLand_SyrDaryaR,1990,2.48634
+China,root,UrbanLand_RusCstSE,UrbanLand_RusCstSE,1990,0.03942
+China,root,UrbanLand_Gobi,UrbanLand_Gobi,1990,0.28778
+China,root,UrbanLand_AmurR,UrbanLand_AmurR,1990,1.39692
+China,root,UrbanLand_ObR,UrbanLand_ObR,1990,0
+China,root,UrbanLand_BoHai,UrbanLand_BoHai,1990,1.14789
+China,root,UrbanLand_LBalkash,UrbanLand_LBalkash,1990,0.03191
+China,root,UrbanLand_ZiyaHe,UrbanLand_ZiyaHe,1990,2.64337
+China,root,UrbanLand_ChinaCst,UrbanLand_ChinaCst,1990,4.3323
+China,root,UrbanLand_HuangHeR,UrbanLand_HuangHeR,1990,3.3152
+China,root,UrbanLand_Tarim,UrbanLand_Tarim,1990,0.12414
+China,root,UrbanLand_IndusR,UrbanLand_IndusR,1990,0.00028
+China,root,UrbanLand_Tibet,UrbanLand_Tibet,1990,0.00022
+China,root,UrbanLand_Taiwan,UrbanLand_Taiwan,1990,1.53958
+China,root,UrbanLand_Yangtze,UrbanLand_Yangtze,1990,10.69929
+China,root,UrbanLand_XunJiang,UrbanLand_XunJiang,1990,2.07008
+China,root,UrbanLand_Hong,UrbanLand_Hong,1990,0.0657
+China,root,UrbanLand_GangesR,UrbanLand_GangesR,1990,0.04696
+China,root,UrbanLand_SChinaSea,UrbanLand_SChinaSea,1990,0.31713
+China,root,UrbanLand_Hainan,UrbanLand_Hainan,1990,0.10522
+China,root,UrbanLand_Mekong,UrbanLand_Mekong,1990,0.10919
+China,root,UrbanLand_Salween,UrbanLand_Salween,1990,0.05588
+China,root,UrbanLand_IrrawaddyR,UrbanLand_IrrawaddyR,1990,0.0409
+EU-12,root,UrbanLand_BalticSea,UrbanLand_BalticSea,1990,0.516
+EU-12,root,UrbanLand_DnkGrmCst,UrbanLand_DnkGrmCst,1990,0.00074
+EU-12,root,UrbanLand_NarvaR,UrbanLand_NarvaR,1990,0.11729
+EU-12,root,UrbanLand_DaugavaR,UrbanLand_DaugavaR,1990,0.22706
+EU-12,root,UrbanLand_OderR,UrbanLand_OderR,1990,2.15291
+EU-12,root,UrbanLand_WislaR,UrbanLand_WislaR,1990,2.98841
+EU-12,root,UrbanLand_ElbeR,UrbanLand_ElbeR,1990,0.9803
+EU-12,root,UrbanLand_PolandCst,UrbanLand_PolandCst,1990,0.41676
+EU-12,root,UrbanLand_NemanR,UrbanLand_NemanR,1990,0.48734
+EU-12,root,UrbanLand_DanubeR,UrbanLand_DanubeR,1990,5.36263
+EU-12,root,UrbanLand_AdrBlkSea,UrbanLand_AdrBlkSea,1990,0.51013
+EU-12,root,UrbanLand_MeditE,UrbanLand_MeditE,1990,0.10825
+EU-15,root,UrbanLand_ArcticIsl,UrbanLand_ArcticIsl,1990,0
+EU-15,root,UrbanLand_ScndnvN,UrbanLand_ScndnvN,1990,0.00334
+EU-15,root,UrbanLand_Sweden,UrbanLand_Sweden,1990,1.9562
+EU-15,root,UrbanLand_Finland,UrbanLand_Finland,1990,0.9903
+EU-15,root,UrbanLand_Scotland,UrbanLand_Scotland,1990,0.79682
+EU-15,root,UrbanLand_NevaR,UrbanLand_NevaR,1990,0.00031
+EU-15,root,UrbanLand_DnkGrmCst,UrbanLand_DnkGrmCst,1990,2.30345
+EU-15,root,UrbanLand_Ireland,UrbanLand_Ireland,1990,0.81988
+EU-15,root,UrbanLand_EngWales,UrbanLand_EngWales,1990,8.71573
+EU-15,root,UrbanLand_EmsWeserR,UrbanLand_EmsWeserR,1990,2.28052
+EU-15,root,UrbanLand_OderR,UrbanLand_OderR,1990,0.09073
+EU-15,root,UrbanLand_ElbeR,UrbanLand_ElbeR,1990,4.05314
+EU-15,root,UrbanLand_RhineR,UrbanLand_RhineR,1990,12.91587
+EU-15,root,UrbanLand_ScheldtR,UrbanLand_ScheldtR,1990,3.51769
+EU-15,root,UrbanLand_FranceCstW,UrbanLand_FranceCstW,1990,1.23065
+EU-15,root,UrbanLand_LoireR,UrbanLand_LoireR,1990,1.25751
+EU-15,root,UrbanLand_SeineR,UrbanLand_SeineR,1990,1.98812
+EU-15,root,UrbanLand_ItalyCstE,UrbanLand_ItalyCstE,1990,2.06245
+EU-15,root,UrbanLand_DanubeR,UrbanLand_DanubeR,1990,3.07203
+EU-15,root,UrbanLand_AdrBlkSea,UrbanLand_AdrBlkSea,1990,0.5579
+EU-15,root,UrbanLand_PoR,UrbanLand_PoR,1990,3.20829
+EU-15,root,UrbanLand_ItalyCstW,UrbanLand_ItalyCstW,1990,2.19572
+EU-15,root,UrbanLand_IberiaCst,UrbanLand_IberiaCst,1990,1.28118
+EU-15,root,UrbanLand_FranceCstS,UrbanLand_FranceCstS,1990,0.70175
+EU-15,root,UrbanLand_RhoneR,UrbanLand_RhoneR,1990,1.23896
+EU-15,root,UrbanLand_MeditIsl,UrbanLand_MeditIsl,1990,0.98511
+EU-15,root,UrbanLand_Gironde,UrbanLand_Gironde,1990,0.71062
+EU-15,root,UrbanLand_SpainCstSE,UrbanLand_SpainCstSE,1990,1.47523
+EU-15,root,UrbanLand_TiberR,UrbanLand_TiberR,1990,0.80775
+EU-15,root,UrbanLand_TagusR,UrbanLand_TagusR,1990,0.99194
+EU-15,root,UrbanLand_EbroR,UrbanLand_EbroR,1990,0.41686
+EU-15,root,UrbanLand_DouroR,UrbanLand_DouroR,1990,0.58997
+EU-15,root,UrbanLand_GuadianaR,UrbanLand_GuadianaR,1990,0.26071
+EU-15,root,UrbanLand_GuadalqR,UrbanLand_GuadalqR,1990,0.51606
+Europe_Eastern,root,UrbanLand_NevaR,UrbanLand_NevaR,1990,0.00023
+Europe_Eastern,root,UrbanLand_DaugavaR,UrbanLand_DaugavaR,1990,0.13426
+Europe_Eastern,root,UrbanLand_WislaR,UrbanLand_WislaR,1990,0.29134
+Europe_Eastern,root,UrbanLand_NemanR,UrbanLand_NemanR,1990,0.25109
+Europe_Eastern,root,UrbanLand_DnieperR,UrbanLand_DnieperR,1990,3.56858
+Europe_Eastern,root,UrbanLand_BlackSeaN,UrbanLand_BlackSeaN,1990,1.75456
+Europe_Eastern,root,UrbanLand_DniesterR,UrbanLand_DniesterR,1990,0.92931
+Europe_Eastern,root,UrbanLand_DonR,UrbanLand_DonR,1990,0.87509
+Europe_Eastern,root,UrbanLand_DanubeR,UrbanLand_DanubeR,1990,0.4054
+Europe_Non_EU,root,UrbanLand_DanubeR,UrbanLand_DanubeR,1990,1.76402
+Europe_Non_EU,root,UrbanLand_AdrBlkSea,UrbanLand_AdrBlkSea,1990,0.95399
+Europe_Non_EU,root,UrbanLand_BlackSeaS,UrbanLand_BlackSeaS,1990,1.38684
+Europe_Non_EU,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,1990,0.14089
+Europe_Non_EU,root,UrbanLand_MeditE,UrbanLand_MeditE,1990,1.12688
+Europe_Non_EU,root,UrbanLand_TigrEuphR,UrbanLand_TigrEuphR,1990,0.55847
+European Free Trade Association,root,UrbanLand_ScndnvN,UrbanLand_ScndnvN,1990,1.02661
+European Free Trade Association,root,UrbanLand_Iceland,UrbanLand_Iceland,1990,0.03799
+European Free Trade Association,root,UrbanLand_Sweden,UrbanLand_Sweden,1990,0.00624
+European Free Trade Association,root,UrbanLand_RhineR,UrbanLand_RhineR,1990,0.97724
+European Free Trade Association,root,UrbanLand_DanubeR,UrbanLand_DanubeR,1990,0.00443
+European Free Trade Association,root,UrbanLand_PoR,UrbanLand_PoR,1990,0.05074
+European Free Trade Association,root,UrbanLand_RhoneR,UrbanLand_RhoneR,1990,0.22979
+India,root,UrbanLand_IndusR,UrbanLand_IndusR,1990,0.42251
+India,root,UrbanLand_SabarmatiR,UrbanLand_SabarmatiR,1990,0.78414
+India,root,UrbanLand_GangesR,UrbanLand_GangesR,1990,6.65109
+India,root,UrbanLand_MahiR,UrbanLand_MahiR,1990,0.12117
+India,root,UrbanLand_BengalBay,UrbanLand_BengalBay,1990,0
+India,root,UrbanLand_TaptiR,UrbanLand_TaptiR,1990,0.16507
+India,root,UrbanLand_BengalW,UrbanLand_BengalW,1990,0.41694
+India,root,UrbanLand_BrahmaniR,UrbanLand_BrahmaniR,1990,0.14046
+India,root,UrbanLand_MahanadiR,UrbanLand_MahanadiR,1990,0.49884
+India,root,UrbanLand_GodavariR,UrbanLand_GodavariR,1990,0.56482
+India,root,UrbanLand_IndCstNE,UrbanLand_IndCstNE,1990,0.16775
+India,root,UrbanLand_IndCstW,UrbanLand_IndCstW,1990,0.82852
+India,root,UrbanLand_IrrawaddyR,UrbanLand_IrrawaddyR,1990,0.03236
+India,root,UrbanLand_KrishnaR,UrbanLand_KrishnaR,1990,0.9901
+India,root,UrbanLand_IndCstE,UrbanLand_IndCstE,1990,0.56399
+India,root,UrbanLand_PennarR,UrbanLand_PennarR,1990,0.07799
+India,root,UrbanLand_CauveryR,UrbanLand_CauveryR,1990,0.51407
+India,root,UrbanLand_IndCstS,UrbanLand_IndCstS,1990,0.3449
+India,root,UrbanLand_NarmadaR,UrbanLand_NarmadaR,1990,0.24381
+Indonesia,root,UrbanLand_IdnE,UrbanLand_IdnE,1990,0.02069
+Indonesia,root,UrbanLand_BorneoCstN,UrbanLand_BorneoCstN,1990,0
+Indonesia,root,UrbanLand_Sumatra,UrbanLand_Sumatra,1990,0.89508
+Indonesia,root,UrbanLand_Sulawesi,UrbanLand_Sulawesi,1990,0.28712
+Indonesia,root,UrbanLand_Kalimantan,UrbanLand_Kalimantan,1990,0.22583
+Indonesia,root,UrbanLand_IrianJaya,UrbanLand_IrianJaya,1990,0.07568
+Indonesia,root,UrbanLand_JavaTimor,UrbanLand_JavaTimor,1990,2.86911
+Indonesia,root,UrbanLand_SepikR,UrbanLand_SepikR,1990,0
+Indonesia,root,UrbanLand_FlyR,UrbanLand_FlyR,1990,0
+Japan,root,UrbanLand_Japan,UrbanLand_Japan,1990,11.71706
+Mexico,root,UrbanLand_MexBaja,UrbanLand_MexBaja,1990,0.05299
+Mexico,root,UrbanLand_MexCstNW,UrbanLand_MexCstNW,1990,0.49447
+Mexico,root,UrbanLand_MexGulf,UrbanLand_MexGulf,1990,0.26999
+Mexico,root,UrbanLand_YucatanP,UrbanLand_YucatanP,1990,0.19868
+Mexico,root,UrbanLand_MexInt,UrbanLand_MexInt,1990,0.35224
+Mexico,root,UrbanLand_MexCstW,UrbanLand_MexCstW,1990,0.13785
+Mexico,root,UrbanLand_Papaloapan,UrbanLand_Papaloapan,1990,0.47412
+Mexico,root,UrbanLand_RioLerma,UrbanLand_RioLerma,1990,1.37888
+Mexico,root,UrbanLand_RioVerde,UrbanLand_RioVerde,1990,2.15156
+Mexico,root,UrbanLand_GrijUsuR,UrbanLand_GrijUsuR,1990,0.24321
+Mexico,root,UrbanLand_RioBalsas,UrbanLand_RioBalsas,1990,1.07832
+Mexico,root,UrbanLand_CntAmer,UrbanLand_CntAmer,1990,0.02656
+Mexico,root,UrbanLand_Tehuantpc,UrbanLand_Tehuantpc,1990,0.39192
+Mexico,root,UrbanLand_California,UrbanLand_California,1990,0.2682
+Mexico,root,UrbanLand_UsaColoRS,UrbanLand_UsaColoRS,1990,0.04153
+Mexico,root,UrbanLand_RioGrande,UrbanLand_RioGrande,1990,0.96725
+Middle East,root,UrbanLand_CaspianE,UrbanLand_CaspianE,1990,0.43627
+Middle East,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,1990,0.67574
+Middle East,root,UrbanLand_MeditE,UrbanLand_MeditE,1990,1.09618
+Middle East,root,UrbanLand_Iran,UrbanLand_Iran,1990,1.5339
+Middle East,root,UrbanLand_TigrEuphR,UrbanLand_TigrEuphR,1990,2.00887
+Middle East,root,UrbanLand_PersianGulf,UrbanLand_PersianGulf,1990,0.16289
+Middle East,root,UrbanLand_FarahrudR,UrbanLand_FarahrudR,1990,0.0175
+Middle East,root,UrbanLand_RedSeaE,UrbanLand_RedSeaE,1990,1.18735
+Middle East,root,UrbanLand_ArabianP,UrbanLand_ArabianP,1990,2.42897
+Middle East,root,UrbanLand_DeadSea,UrbanLand_DeadSea,1990,0.45839
+Middle East,root,UrbanLand_Helmand,UrbanLand_Helmand,1990,0.04055
+Middle East,root,UrbanLand_SinaiP,UrbanLand_SinaiP,1990,0.00654
+Middle East,root,UrbanLand_EJrdnSyr,UrbanLand_EJrdnSyr,1990,0.36181
+Middle East,root,UrbanLand_AfrCstNE,UrbanLand_AfrCstNE,1990,0
+Middle East,root,UrbanLand_HamuMashR,UrbanLand_HamuMashR,1990,0.00878
+Middle East,root,UrbanLand_ArabianSea,UrbanLand_ArabianSea,1990,0.00427
+Pakistan,root,UrbanLand_Tarim,UrbanLand_Tarim,1990,0
+Pakistan,root,UrbanLand_IndusR,UrbanLand_IndusR,1990,2.072
+Pakistan,root,UrbanLand_Helmand,UrbanLand_Helmand,1990,0
+Pakistan,root,UrbanLand_HamuMashR,UrbanLand_HamuMashR,1990,0.06534
+Pakistan,root,UrbanLand_ArabianSea,UrbanLand_ArabianSea,1990,0.38107
+Pakistan,root,UrbanLand_SabarmatiR,UrbanLand_SabarmatiR,1990,0.06491
+Russia,root,UrbanLand_ArcticIsl,UrbanLand_ArcticIsl,1990,0.00011
+Russia,root,UrbanLand_SiberiaN,UrbanLand_SiberiaN,1990,0.0063
+Russia,root,UrbanLand_SiberiaW,UrbanLand_SiberiaW,1990,0.19837
+Russia,root,UrbanLand_KaraSea,UrbanLand_KaraSea,1990,0.05392
+Russia,root,UrbanLand_LenaR,UrbanLand_LenaR,1990,0.15386
+Russia,root,UrbanLand_ScndnvN,UrbanLand_ScndnvN,1990,0.14051
+Russia,root,UrbanLand_BarentsSea,UrbanLand_BarentsSea,1990,0.17762
+Russia,root,UrbanLand_Finland,UrbanLand_Finland,1990,0.00032
+Russia,root,UrbanLand_DvinaRN,UrbanLand_DvinaRN,1990,0.20864
+Russia,root,UrbanLand_NevaR,UrbanLand_NevaR,1990,0.74752
+Russia,root,UrbanLand_VolgaR,UrbanLand_VolgaR,1990,8.11917
+Russia,root,UrbanLand_BalticSea,UrbanLand_BalticSea,1990,0.28483
+Russia,root,UrbanLand_NarvaR,UrbanLand_NarvaR,1990,0.0836
+Russia,root,UrbanLand_DaugavaR,UrbanLand_DaugavaR,1990,0.01789
+Russia,root,UrbanLand_PolandCst,UrbanLand_PolandCst,1990,0.10046
+Russia,root,UrbanLand_NemanR,UrbanLand_NemanR,1990,0.0078
+Russia,root,UrbanLand_RusCstSE,UrbanLand_RusCstSE,1990,0.21591
+Russia,root,UrbanLand_UralR,UrbanLand_UralR,1990,0.20571
+Russia,root,UrbanLand_DnieperR,UrbanLand_DnieperR,1990,0.53285
+Russia,root,UrbanLand_Gobi,UrbanLand_Gobi,1990,0.00212
+Russia,root,UrbanLand_AmurR,UrbanLand_AmurR,1990,0.55953
+Russia,root,UrbanLand_CaspianNE,UrbanLand_CaspianNE,1990,0.86947
+Russia,root,UrbanLand_BlackSeaN,UrbanLand_BlackSeaN,1990,0.74765
+Russia,root,UrbanLand_YeniseiR,UrbanLand_YeniseiR,1990,0.97459
+Russia,root,UrbanLand_DonR,UrbanLand_DonR,1990,1.54644
+Russia,root,UrbanLand_ObR,UrbanLand_ObR,1990,3.02896
+Russia,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,1990,0
+Russia,root,UrbanLand_SyrDaryaR,UrbanLand_SyrDaryaR,1990,0.00027
+South Africa,root,UrbanLand_OrangeR,UrbanLand_OrangeR,1990,0.86813
+South Africa,root,UrbanLand_AfrCstSW,UrbanLand_AfrCstSW,1990,0
+South Africa,root,UrbanLand_AfrCstS,UrbanLand_AfrCstS,1990,1.02344
+South Africa,root,UrbanLand_LimpopoR,UrbanLand_LimpopoR,1990,0.63428
+South Africa,root,UrbanLand_AfrCstSSW,UrbanLand_AfrCstSSW,1990,0.30549
+South America_Northern,root,UrbanLand_SAmerCstN,UrbanLand_SAmerCstN,1990,1.35206
+South America_Northern,root,UrbanLand_OrinocoR,UrbanLand_OrinocoR,1990,0.6094
+South America_Northern,root,UrbanLand_SAmerCstNE,UrbanLand_SAmerCstNE,1990,0.40412
+South America_Northern,root,UrbanLand_AmazonR,UrbanLand_AmazonR,1990,0.00787
+South America_Southern,root,UrbanLand_ColEcuaCst,UrbanLand_ColEcuaCst,1990,0.57789
+South America_Southern,root,UrbanLand_AmazonR,UrbanLand_AmazonR,1990,1.03953
+South America_Southern,root,UrbanLand_ChileCstS,UrbanLand_ChileCstS,1990,0.48796
+South America_Southern,root,UrbanLand_PeruCst,UrbanLand_PeruCst,1990,0.66316
+South America_Southern,root,UrbanLand_BrzCstS,UrbanLand_BrzCstS,1990,0.0449
+South America_Southern,root,UrbanLand_LaPuna,UrbanLand_LaPuna,1990,0.09334
+South America_Southern,root,UrbanLand_RioLaPlata,UrbanLand_RioLaPlata,1990,0.77128
+South America_Southern,root,UrbanLand_ChileCstN,UrbanLand_ChileCstN,1990,0.75454
+South America_Southern,root,UrbanLand_ArgCstS,UrbanLand_ArgCstS,1990,0.00023
+South Asia,root,UrbanLand_CaspianE,UrbanLand_CaspianE,1990,0.01376
+South Asia,root,UrbanLand_AmuDaryaR,UrbanLand_AmuDaryaR,1990,0.05976
+South Asia,root,UrbanLand_IndusR,UrbanLand_IndusR,1990,0.05572
+South Asia,root,UrbanLand_FarahrudR,UrbanLand_FarahrudR,1990,0.00414
+South Asia,root,UrbanLand_Helmand,UrbanLand_Helmand,1990,0.03427
+South Asia,root,UrbanLand_GangesR,UrbanLand_GangesR,1990,0.80707
+South Asia,root,UrbanLand_BengalBay,UrbanLand_BengalBay,1990,0.05504
+South Asia,root,UrbanLand_SriLanka,UrbanLand_SriLanka,1990,0.28655
+South Korea,root,UrbanLand_Korea,UrbanLand_Korea,1990,1.81006
+Southeast Asia,root,UrbanLand_RusCstSE,UrbanLand_RusCstSE,1990,0.01662
+Southeast Asia,root,UrbanLand_Korea,UrbanLand_Korea,1990,0.46068
+Southeast Asia,root,UrbanLand_BoHai,UrbanLand_BoHai,1990,0.06401
+Southeast Asia,root,UrbanLand_XunJiang,UrbanLand_XunJiang,1990,0.01741
+Southeast Asia,root,UrbanLand_Hong,UrbanLand_Hong,1990,0.363
+Southeast Asia,root,UrbanLand_SChinaSea,UrbanLand_SChinaSea,1990,0.00392
+Southeast Asia,root,UrbanLand_BengalBay,UrbanLand_BengalBay,1990,0.029
+Southeast Asia,root,UrbanLand_Phlppns,UrbanLand_Phlppns,1990,2.03607
+Southeast Asia,root,UrbanLand_Mekong,UrbanLand_Mekong,1990,1.56542
+Southeast Asia,root,UrbanLand_VietnamCst,UrbanLand_VietnamCst,1990,0.43464
+Southeast Asia,root,UrbanLand_Salween,UrbanLand_Salween,1990,0.08229
+Southeast Asia,root,UrbanLand_IrrawaddyR,UrbanLand_IrrawaddyR,1990,0.51503
+Southeast Asia,root,UrbanLand_SittaungR,UrbanLand_SittaungR,1990,0.18494
+Southeast Asia,root,UrbanLand_MalaysiaP,UrbanLand_MalaysiaP,1990,2.30658
+Southeast Asia,root,UrbanLand_ChaoPhrR,UrbanLand_ChaoPhrR,1990,1.00299
+Southeast Asia,root,UrbanLand_ThaiGulf,UrbanLand_ThaiGulf,1990,0.15001
+Southeast Asia,root,UrbanLand_BorneoCstN,UrbanLand_BorneoCstN,1990,0.35063
+Southeast Asia,root,UrbanLand_Kalimantan,UrbanLand_Kalimantan,1990,0
+Southeast Asia,root,UrbanLand_IrianJaya,UrbanLand_IrianJaya,1990,0.00155
+Southeast Asia,root,UrbanLand_PapuaCst,UrbanLand_PapuaCst,1990,0.04303
+Southeast Asia,root,UrbanLand_JavaTimor,UrbanLand_JavaTimor,1990,0.69188
+Southeast Asia,root,UrbanLand_SepikR,UrbanLand_SepikR,1990,0.00306
+Southeast Asia,root,UrbanLand_FlyR,UrbanLand_FlyR,1990,0.00046
+Argentina,root,UrbanLand_ChileCstS,UrbanLand_ChileCstS,1990,0.01213
+Argentina,root,UrbanLand_LaPuna,UrbanLand_LaPuna,1990,9e-04
+Argentina,root,UrbanLand_MarChiq,UrbanLand_MarChiq,1990,0.49324
+Argentina,root,UrbanLand_Salinas,UrbanLand_Salinas,1990,0.09183
+Argentina,root,UrbanLand_RioLaPlata,UrbanLand_RioLaPlata,1990,2.84843
+Argentina,root,UrbanLand_Pampas,UrbanLand_Pampas,1990,0.07289
+Argentina,root,UrbanLand_ArgCstN,UrbanLand_ArgCstN,1990,0.2544
+Argentina,root,UrbanLand_ArgColoR,UrbanLand_ArgColoR,1990,0.30658
+Argentina,root,UrbanLand_NegroR,UrbanLand_NegroR,1990,0.10074
+Argentina,root,UrbanLand_Patagonia,UrbanLand_Patagonia,1990,0.00207
+Argentina,root,UrbanLand_ArgCstS,UrbanLand_ArgCstS,1990,0.07147
+Colombia,root,UrbanLand_SAmerCstN,UrbanLand_SAmerCstN,1990,0.1629
+Colombia,root,UrbanLand_OrinocoR,UrbanLand_OrinocoR,1990,0.05085
+Colombia,root,UrbanLand_ColEcuaCst,UrbanLand_ColEcuaCst,1990,0.07345
+Colombia,root,UrbanLand_MagdalenaR,UrbanLand_MagdalenaR,1990,1.04572
+Colombia,root,UrbanLand_AmazonR,UrbanLand_AmazonR,1990,0.02533
+USA,root,Tundra_PacArctic,Tundra_PacArctic,1990,254.99228
+USA,root,Tundra_California,Tundra_California,1990,2.35973
+USA,root,Tundra_UsaColoRN,Tundra_UsaColoRN,1990,0.1524
+USA,root,Tundra_GreatBasin,Tundra_GreatBasin,1990,0.09235
+USA,root,Tundra_MissouriR,Tundra_MissouriR,1990,0.85823
+USA,root,Tundra_UsaPacNW,Tundra_UsaPacNW,1990,0.38272
+USA,root,Tundra_RioGrande,Tundra_RioGrande,1990,0.05822
+Australia_NZ,root,Tundra_NewZealand,Tundra_NewZealand,1990,0.2139
+Brazil,root,Tundra_OrinocoR,Tundra_OrinocoR,1990,0.11679
+Brazil,root,Tundra_AmazonR,Tundra_AmazonR,1990,2.32872
+Canada,root,Tundra_NWTerr,Tundra_NWTerr,1990,1562.33556
+Canada,root,Tundra_PacArctic,Tundra_PacArctic,1990,108.88541
+Canada,root,Tundra_Mackenzie,Tundra_Mackenzie,1990,179.74437
+Canada,root,Tundra_HudsonBay,Tundra_HudsonBay,1990,172.9462
+Canada,root,Tundra_CanAtl,Tundra_CanAtl,1990,14.90604
+Canada,root,Tundra_NelsonR,Tundra_NelsonR,1990,5.29307
+Canada,root,Tundra_FraserR,Tundra_FraserR,1990,6.39195
+Canada,root,Tundra_ChurchillR,Tundra_ChurchillR,1990,4.07677
+Canada,root,Tundra_StLwrncR,Tundra_StLwrncR,1990,0.63153
+Canada,root,Tundra_UsaPacNW,Tundra_UsaPacNW,1990,7.52179
+Central Asia,root,Tundra_Gobi,Tundra_Gobi,1990,1.7466
+Central Asia,root,Tundra_CaspianNE,Tundra_CaspianNE,1990,1.18622
+Central Asia,root,Tundra_YeniseiR,Tundra_YeniseiR,1990,1.47372
+Central Asia,root,Tundra_CaspianE,Tundra_CaspianE,1990,0.23646
+Central Asia,root,Tundra_ObR,Tundra_ObR,1990,1.71121
+Central Asia,root,Tundra_AmuDaryaR,Tundra_AmuDaryaR,1990,35.83354
+Central Asia,root,Tundra_LBalkash,Tundra_LBalkash,1990,4.0658
+Central Asia,root,Tundra_BlackSeaS,Tundra_BlackSeaS,1990,3.8773
+Central Asia,root,Tundra_CaspianSW,Tundra_CaspianSW,1990,4.13038
+Central Asia,root,Tundra_SyrDaryaR,Tundra_SyrDaryaR,1990,20.40163
+Central Asia,root,Tundra_Tarim,Tundra_Tarim,1990,12.07107
+China,root,Tundra_Gobi,Tundra_Gobi,1990,5.58432
+China,root,Tundra_AmurR,Tundra_AmurR,1990,0.56445
+China,root,Tundra_ObR,Tundra_ObR,1990,3.35893
+China,root,Tundra_AmuDaryaR,Tundra_AmuDaryaR,1990,0.10133
+China,root,Tundra_BoHai,Tundra_BoHai,1990,0
+China,root,Tundra_LBalkash,Tundra_LBalkash,1990,4.44421
+China,root,Tundra_SyrDaryaR,Tundra_SyrDaryaR,1990,0.07594
+China,root,Tundra_ZiyaHe,Tundra_ZiyaHe,1990,0.04737
+China,root,Tundra_HuangHeR,Tundra_HuangHeR,1990,27.42314
+China,root,Tundra_Tarim,Tundra_Tarim,1990,89.3581
+China,root,Tundra_IndusR,Tundra_IndusR,1990,14.60796
+China,root,Tundra_Tibet,Tundra_Tibet,1990,64.11997
+China,root,Tundra_Yangtze,Tundra_Yangtze,1990,88.89636
+China,root,Tundra_GangesR,Tundra_GangesR,1990,50.50076
+China,root,Tundra_Mekong,Tundra_Mekong,1990,17.09383
+China,root,Tundra_Salween,Tundra_Salween,1990,17.57632
+China,root,Tundra_IrrawaddyR,Tundra_IrrawaddyR,1990,0.55181
+EU-12,root,Tundra_NemanR,Tundra_NemanR,1990,0.037
+EU-15,root,Tundra_ArcticIsl,Tundra_ArcticIsl,1990,289.22173
+EU-15,root,Tundra_ScndnvN,Tundra_ScndnvN,1990,1.47486
+EU-15,root,Tundra_Sweden,Tundra_Sweden,1990,14.57489
+EU-15,root,Tundra_FranceCstW,Tundra_FranceCstW,1990,0.11267
+EU-15,root,Tundra_ItalyCstE,Tundra_ItalyCstE,1990,0.01677
+EU-15,root,Tundra_DanubeR,Tundra_DanubeR,1990,0.32216
+EU-15,root,Tundra_PoR,Tundra_PoR,1990,1.10432
+EU-15,root,Tundra_FranceCstS,Tundra_FranceCstS,1990,0.16201
+EU-15,root,Tundra_RhoneR,Tundra_RhoneR,1990,1.03912
+EU-15,root,Tundra_Gironde,Tundra_Gironde,1990,0.03106
+EU-15,root,Tundra_EbroR,Tundra_EbroR,1990,0.07818
+Europe_Eastern,root,Tundra_WislaR,Tundra_WislaR,1990,0.95024
+Europe_Eastern,root,Tundra_DnieperR,Tundra_DnieperR,1990,2.5504
+Europe_Non_EU,root,Tundra_BlackSeaS,Tundra_BlackSeaS,1990,1.21423
+Europe_Non_EU,root,Tundra_CaspianSW,Tundra_CaspianSW,1990,0.15493
+Europe_Non_EU,root,Tundra_TigrEuphR,Tundra_TigrEuphR,1990,0.31228
+European Free Trade Association,root,Tundra_ScndnvN,Tundra_ScndnvN,1990,46.26508
+European Free Trade Association,root,Tundra_Iceland,Tundra_Iceland,1990,26.23777
+European Free Trade Association,root,Tundra_Sweden,Tundra_Sweden,1990,2.81621
+European Free Trade Association,root,Tundra_RhineR,Tundra_RhineR,1990,0.30252
+European Free Trade Association,root,Tundra_DanubeR,Tundra_DanubeR,1990,0.08364
+European Free Trade Association,root,Tundra_PoR,Tundra_PoR,1990,0.27783
+European Free Trade Association,root,Tundra_RhoneR,Tundra_RhoneR,1990,0.114
+India,root,Tundra_IndusR,Tundra_IndusR,1990,19.23659
+India,root,Tundra_GangesR,Tundra_GangesR,1990,5.03543
+Japan,root,Tundra_Japan,Tundra_Japan,1990,0.12729
+Mexico,root,Tundra_YucatanP,Tundra_YucatanP,1990,0.03628
+Mexico,root,Tundra_RioBalsas,Tundra_RioBalsas,1990,0.03837
+Middle East,root,Tundra_CaspianSW,Tundra_CaspianSW,1990,0.05173
+Pakistan,root,Tundra_IndusR,Tundra_IndusR,1990,27.28433
+Russia,root,Tundra_ArcticIsl,Tundra_ArcticIsl,1990,19.90189
+Russia,root,Tundra_SiberiaN,Tundra_SiberiaN,1990,579.77308
+Russia,root,Tundra_SiberiaW,Tundra_SiberiaW,1990,676.4139
+Russia,root,Tundra_KaraSea,Tundra_KaraSea,1990,292.54756
+Russia,root,Tundra_LenaR,Tundra_LenaR,1990,67.07863
+Russia,root,Tundra_ScndnvN,Tundra_ScndnvN,1990,1.75682
+Russia,root,Tundra_BarentsSea,Tundra_BarentsSea,1990,14.76814
+Russia,root,Tundra_NevaR,Tundra_NevaR,1990,1.68243
+Russia,root,Tundra_VolgaR,Tundra_VolgaR,1990,2.84997
+Russia,root,Tundra_BalticSea,Tundra_BalticSea,1990,0.0301
+Russia,root,Tundra_NemanR,Tundra_NemanR,1990,0
+Russia,root,Tundra_Gobi,Tundra_Gobi,1990,0.21518
+Russia,root,Tundra_AmurR,Tundra_AmurR,1990,5.86493
+Russia,root,Tundra_CaspianNE,Tundra_CaspianNE,1990,10.47997
+Russia,root,Tundra_BlackSeaN,Tundra_BlackSeaN,1990,1.72879
+Russia,root,Tundra_YeniseiR,Tundra_YeniseiR,1990,279.65978
+Russia,root,Tundra_ObR,Tundra_ObR,1990,54.85534
+Russia,root,Tundra_BlackSeaS,Tundra_BlackSeaS,1990,0.36621
+Russia,root,Tundra_CaspianSW,Tundra_CaspianSW,1990,0.18602
+South America_Northern,root,Tundra_SAmerCstN,Tundra_SAmerCstN,1990,2.2546
+South America_Northern,root,Tundra_OrinocoR,Tundra_OrinocoR,1990,1.80093
+South America_Southern,root,Tundra_ColEcuaCst,Tundra_ColEcuaCst,1990,3.61422
+South America_Southern,root,Tundra_AmazonR,Tundra_AmazonR,1990,26.54589
+South America_Southern,root,Tundra_ChileCstS,Tundra_ChileCstS,1990,17.28338
+South America_Southern,root,Tundra_PeruCst,Tundra_PeruCst,1990,39.03433
+South America_Southern,root,Tundra_LaPuna,Tundra_LaPuna,1990,72.89469
+South America_Southern,root,Tundra_RioLaPlata,Tundra_RioLaPlata,1990,11.23634
+South America_Southern,root,Tundra_ChileCstN,Tundra_ChileCstN,1990,7.17914
+South America_Southern,root,Tundra_NegroR,Tundra_NegroR,1990,0.08687
+South Asia,root,Tundra_AmuDaryaR,Tundra_AmuDaryaR,1990,6.44246
+South Asia,root,Tundra_IndusR,Tundra_IndusR,1990,1.42619
+South Asia,root,Tundra_GangesR,Tundra_GangesR,1990,11.84721
+Southeast Asia,root,Tundra_GangesR,Tundra_GangesR,1990,0.29272
+Southeast Asia,root,Tundra_IrrawaddyR,Tundra_IrrawaddyR,1990,0.8094
+Argentina,root,Tundra_ChileCstS,Tundra_ChileCstS,1990,5.27412
+Argentina,root,Tundra_LaPuna,Tundra_LaPuna,1990,3.58455
+Argentina,root,Tundra_MarChiq,Tundra_MarChiq,1990,1.40034
+Argentina,root,Tundra_RioLaPlata,Tundra_RioLaPlata,1990,5.51824
+Argentina,root,Tundra_ArgCstN,Tundra_ArgCstN,1990,0.06662
+Argentina,root,Tundra_ArgColoR,Tundra_ArgColoR,1990,11.84359
+Argentina,root,Tundra_NegroR,Tundra_NegroR,1990,1.8052
+Argentina,root,Tundra_ArgCstS,Tundra_ArgCstS,1990,2.18262
+Colombia,root,Tundra_SAmerCstN,Tundra_SAmerCstN,1990,0.46873
+Colombia,root,Tundra_OrinocoR,Tundra_OrinocoR,1990,0.17137
+Colombia,root,Tundra_ColEcuaCst,Tundra_ColEcuaCst,1990,0.36195
+Colombia,root,Tundra_MagdalenaR,Tundra_MagdalenaR,1990,0.75552
+Colombia,root,Tundra_AmazonR,Tundra_AmazonR,1990,0.27014
+USA,root,RockIceDesert_PacArctic,RockIceDesert_PacArctic,1990,71.66331
+USA,root,RockIceDesert_California,RockIceDesert_California,1990,1.02961
+USA,root,RockIceDesert_GreatBasin,RockIceDesert_GreatBasin,1990,10.15629
+USA,root,RockIceDesert_RioGrande,RockIceDesert_RioGrande,1990,0.00789
+Africa_Eastern,root,RockIceDesert_NileR,RockIceDesert_NileR,1990,631.83107
+Africa_Eastern,root,RockIceDesert_AfrCstNE,RockIceDesert_AfrCstNE,1990,133.17605
+Africa_Eastern,root,RockIceDesert_AfrIntN,RockIceDesert_AfrIntN,1990,290.14756
+Africa_Eastern,root,RockIceDesert_LChad,RockIceDesert_LChad,1990,2.11221
+Africa_Eastern,root,RockIceDesert_ShebJubR,RockIceDesert_ShebJubR,1990,12.9442
+Africa_Eastern,root,RockIceDesert_Madasgacar,RockIceDesert_Madasgacar,1990,0.57
+Africa_Eastern,root,RockIceDesert_RiftValley,RockIceDesert_RiftValley,1990,67.45816
+Africa_Northern,root,RockIceDesert_MeditE,RockIceDesert_MeditE,1990,35.57707
+Africa_Northern,root,RockIceDesert_MeditS,RockIceDesert_MeditS,1990,193.0411
+Africa_Northern,root,RockIceDesert_AfrCstNW,RockIceDesert_AfrCstNW,1990,238.70873
+Africa_Northern,root,RockIceDesert_NileR,RockIceDesert_NileR,1990,218.23723
+Africa_Northern,root,RockIceDesert_DeadSea,RockIceDesert_DeadSea,1990,2.15316
+Africa_Northern,root,RockIceDesert_SinaiP,RockIceDesert_SinaiP,1990,22.54136
+Africa_Northern,root,RockIceDesert_AfrCstNE,RockIceDesert_AfrCstNE,1990,66.74165
+Africa_Northern,root,RockIceDesert_AfrIntN,RockIceDesert_AfrIntN,1990,3628.19654
+Africa_Northern,root,RockIceDesert_NigerR,RockIceDesert_NigerR,1990,159.77375
+Africa_Northern,root,RockIceDesert_LChad,RockIceDesert_LChad,1990,117.72715
+Africa_Southern,root,RockIceDesert_NileR,RockIceDesert_NileR,1990,0.46853
+Africa_Southern,root,RockIceDesert_AfrCstE,RockIceDesert_AfrCstE,1990,0.40421
+Africa_Southern,root,RockIceDesert_RiftValley,RockIceDesert_RiftValley,1990,0.39517
+Africa_Southern,root,RockIceDesert_AngolaCst,RockIceDesert_AngolaCst,1990,11.48638
+Africa_Southern,root,RockIceDesert_CongoR,RockIceDesert_CongoR,1990,0.33616
+Africa_Southern,root,RockIceDesert_ZambeziR,RockIceDesert_ZambeziR,1990,3.26321
+Africa_Southern,root,RockIceDesert_AfrCstSE,RockIceDesert_AfrCstSE,1990,0.28166
+Africa_Southern,root,RockIceDesert_OrangeR,RockIceDesert_OrangeR,1990,14.5037
+Africa_Southern,root,RockIceDesert_AfrCstSW,RockIceDesert_AfrCstSW,1990,91.37337
+Africa_Southern,root,RockIceDesert_AfrIntS,RockIceDesert_AfrIntS,1990,13.2269
+Africa_Southern,root,RockIceDesert_AfrCstS,RockIceDesert_AfrCstS,1990,0.07921
+Africa_Western,root,RockIceDesert_AfrCstNW,RockIceDesert_AfrCstNW,1990,194.46259
+Africa_Western,root,RockIceDesert_NileR,RockIceDesert_NileR,1990,0.50675
+Africa_Western,root,RockIceDesert_AfrCstW,RockIceDesert_AfrCstW,1990,0.95046
+Africa_Western,root,RockIceDesert_AfrIntN,RockIceDesert_AfrIntN,1990,988.20385
+Africa_Western,root,RockIceDesert_NigerR,RockIceDesert_NigerR,1990,300.97049
+Africa_Western,root,RockIceDesert_LChad,RockIceDesert_LChad,1990,1059.55389
+Africa_Western,root,RockIceDesert_SenegalR,RockIceDesert_SenegalR,1990,40.49715
+Africa_Western,root,RockIceDesert_VoltaR,RockIceDesert_VoltaR,1990,1.50098
+Africa_Western,root,RockIceDesert_GuineaGulf,RockIceDesert_GuineaGulf,1990,1.85301
+Africa_Western,root,RockIceDesert_CongoR,RockIceDesert_CongoR,1990,5.47164
+Australia_NZ,root,RockIceDesert_AusCstN,RockIceDesert_AusCstN,1990,0.44615
+Australia_NZ,root,RockIceDesert_AusCstW,RockIceDesert_AusCstW,1990,0.36785
+Australia_NZ,root,RockIceDesert_AusInt,RockIceDesert_AusInt,1990,14.15499
+Australia_NZ,root,RockIceDesert_NewZealand,RockIceDesert_NewZealand,1990,0.39314
+Australia_NZ,root,RockIceDesert_AusCstS,RockIceDesert_AusCstS,1990,1.97777
+Brazil,root,RockIceDesert_SAmerCstNE,RockIceDesert_SAmerCstNE,1990,0.05358
+Brazil,root,RockIceDesert_AmazonR,RockIceDesert_AmazonR,1990,2.57641
+Brazil,root,RockIceDesert_BrzCstN,RockIceDesert_BrzCstN,1990,0.84297
+Brazil,root,RockIceDesert_TocantinsR,RockIceDesert_TocantinsR,1990,0.04343
+Brazil,root,RockIceDesert_BrzCstE,RockIceDesert_BrzCstE,1990,1.3074
+Brazil,root,RockIceDesert_SaoFrancR,RockIceDesert_SaoFrancR,1990,0.18147
+Brazil,root,RockIceDesert_BrzCstS,RockIceDesert_BrzCstS,1990,0.26178
+Brazil,root,RockIceDesert_RioLaPlata,RockIceDesert_RioLaPlata,1990,0.14152
+Canada,root,RockIceDesert_NWTerr,RockIceDesert_NWTerr,1990,436.89851
+Canada,root,RockIceDesert_PacArctic,RockIceDesert_PacArctic,1990,26.48563
+Canada,root,RockIceDesert_Mackenzie,RockIceDesert_Mackenzie,1990,1.23259
+Canada,root,RockIceDesert_HudsonBay,RockIceDesert_HudsonBay,1990,1.23522
+Canada,root,RockIceDesert_CanAtl,RockIceDesert_CanAtl,1990,1.54808
+Canada,root,RockIceDesert_NelsonR,RockIceDesert_NelsonR,1990,0.13251
+Canada,root,RockIceDesert_FraserR,RockIceDesert_FraserR,1990,0.28947
+Canada,root,RockIceDesert_UsaPacNW,RockIceDesert_UsaPacNW,1990,0.55562
+Central Asia,root,RockIceDesert_Gobi,RockIceDesert_Gobi,1990,121.9942
+Central Asia,root,RockIceDesert_CaspianNE,RockIceDesert_CaspianNE,1990,15.87971
+Central Asia,root,RockIceDesert_CaspianE,RockIceDesert_CaspianE,1990,176.03706
+Central Asia,root,RockIceDesert_ObR,RockIceDesert_ObR,1990,16.11548
+Central Asia,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,1990,87.67986
+Central Asia,root,RockIceDesert_LBalkash,RockIceDesert_LBalkash,1990,18.21855
+Central Asia,root,RockIceDesert_BlackSeaS,RockIceDesert_BlackSeaS,1990,0.32034
+Central Asia,root,RockIceDesert_CaspianSW,RockIceDesert_CaspianSW,1990,0.67007
+Central Asia,root,RockIceDesert_SyrDaryaR,RockIceDesert_SyrDaryaR,1990,19.65628
+Central Asia,root,RockIceDesert_Tarim,RockIceDesert_Tarim,1990,8.00893
+China,root,RockIceDesert_Gobi,RockIceDesert_Gobi,1990,329.37641
+China,root,RockIceDesert_ObR,RockIceDesert_ObR,1990,2.25849
+China,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,1990,0.17823
+China,root,RockIceDesert_BoHai,RockIceDesert_BoHai,1990,0.08753
+China,root,RockIceDesert_LBalkash,RockIceDesert_LBalkash,1990,0.87302
+China,root,RockIceDesert_ZiyaHe,RockIceDesert_ZiyaHe,1990,2.07811
+China,root,RockIceDesert_ChinaCst,RockIceDesert_ChinaCst,1990,0.78148
+China,root,RockIceDesert_HuangHeR,RockIceDesert_HuangHeR,1990,2.98402
+China,root,RockIceDesert_Tarim,RockIceDesert_Tarim,1990,787.42684
+China,root,RockIceDesert_IndusR,RockIceDesert_IndusR,1990,4.64486
+China,root,RockIceDesert_Tibet,RockIceDesert_Tibet,1990,2.48884
+China,root,RockIceDesert_Yangtze,RockIceDesert_Yangtze,1990,4.3365
+China,root,RockIceDesert_GangesR,RockIceDesert_GangesR,1990,9.75362
+China,root,RockIceDesert_SChinaSea,RockIceDesert_SChinaSea,1990,0.01223
+China,root,RockIceDesert_Mekong,RockIceDesert_Mekong,1990,0.0527
+China,root,RockIceDesert_Salween,RockIceDesert_Salween,1990,0.75306
+EU-15,root,RockIceDesert_ArcticIsl,RockIceDesert_ArcticIsl,1990,1673.74936
+EU-15,root,RockIceDesert_Sweden,RockIceDesert_Sweden,1990,0.20037
+EU-15,root,RockIceDesert_DanubeR,RockIceDesert_DanubeR,1990,0.33448
+EU-15,root,RockIceDesert_PoR,RockIceDesert_PoR,1990,0.31307
+EU-15,root,RockIceDesert_FranceCstS,RockIceDesert_FranceCstS,1990,0.02765
+EU-15,root,RockIceDesert_RhoneR,RockIceDesert_RhoneR,1990,0.12944
+Europe_Eastern,root,RockIceDesert_DnieperR,RockIceDesert_DnieperR,1990,0.02164
+Europe_Non_EU,root,RockIceDesert_MeditE,RockIceDesert_MeditE,1990,0.4065
+European Free Trade Association,root,RockIceDesert_ScndnvN,RockIceDesert_ScndnvN,1990,4.19567
+European Free Trade Association,root,RockIceDesert_Iceland,RockIceDesert_Iceland,1990,21.67335
+European Free Trade Association,root,RockIceDesert_Sweden,RockIceDesert_Sweden,1990,0.14801
+European Free Trade Association,root,RockIceDesert_RhineR,RockIceDesert_RhineR,1990,0.31654
+European Free Trade Association,root,RockIceDesert_PoR,RockIceDesert_PoR,1990,0.06261
+European Free Trade Association,root,RockIceDesert_RhoneR,RockIceDesert_RhoneR,1990,0.48945
+India,root,RockIceDesert_IndusR,RockIceDesert_IndusR,1990,39.82721
+India,root,RockIceDesert_SabarmatiR,RockIceDesert_SabarmatiR,1990,69.54503
+India,root,RockIceDesert_GangesR,RockIceDesert_GangesR,1990,6.58504
+India,root,RockIceDesert_IndCstE,RockIceDesert_IndCstE,1990,0.05411
+India,root,RockIceDesert_IndCstS,RockIceDesert_IndCstS,1990,0.02606
+Mexico,root,RockIceDesert_MexBaja,RockIceDesert_MexBaja,1990,1.04003
+Mexico,root,RockIceDesert_UsaColoRS,RockIceDesert_UsaColoRS,1990,0.03001
+Middle East,root,RockIceDesert_CaspianE,RockIceDesert_CaspianE,1990,5.35652
+Middle East,root,RockIceDesert_CaspianSW,RockIceDesert_CaspianSW,1990,0.57612
+Middle East,root,RockIceDesert_MeditE,RockIceDesert_MeditE,1990,0.23378
+Middle East,root,RockIceDesert_Iran,RockIceDesert_Iran,1990,424.19072
+Middle East,root,RockIceDesert_TigrEuphR,RockIceDesert_TigrEuphR,1990,197.40905
+Middle East,root,RockIceDesert_PersianGulf,RockIceDesert_PersianGulf,1990,29.62768
+Middle East,root,RockIceDesert_FarahrudR,RockIceDesert_FarahrudR,1990,19.42968
+Middle East,root,RockIceDesert_RedSeaE,RockIceDesert_RedSeaE,1990,100.86681
+Middle East,root,RockIceDesert_ArabianP,RockIceDesert_ArabianP,1990,1106.25906
+Middle East,root,RockIceDesert_DeadSea,RockIceDesert_DeadSea,1990,7.83619
+Middle East,root,RockIceDesert_Helmand,RockIceDesert_Helmand,1990,9.54042
+Middle East,root,RockIceDesert_SinaiP,RockIceDesert_SinaiP,1990,3.97236
+Middle East,root,RockIceDesert_EJrdnSyr,RockIceDesert_EJrdnSyr,1990,47.07346
+Middle East,root,RockIceDesert_HamuMashR,RockIceDesert_HamuMashR,1990,30.98049
+Middle East,root,RockIceDesert_ArabianSea,RockIceDesert_ArabianSea,1990,62.56221
+Pakistan,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,1990,0.06882
+Pakistan,root,RockIceDesert_Tarim,RockIceDesert_Tarim,1990,1.77596
+Pakistan,root,RockIceDesert_IndusR,RockIceDesert_IndusR,1990,65.76855
+Pakistan,root,RockIceDesert_Helmand,RockIceDesert_Helmand,1990,8.30766
+Pakistan,root,RockIceDesert_HamuMashR,RockIceDesert_HamuMashR,1990,95.7058
+Pakistan,root,RockIceDesert_ArabianSea,RockIceDesert_ArabianSea,1990,73.57481
+Pakistan,root,RockIceDesert_SabarmatiR,RockIceDesert_SabarmatiR,1990,38.96958
+Russia,root,RockIceDesert_ArcticIsl,RockIceDesert_ArcticIsl,1990,31.52368
+Russia,root,RockIceDesert_SiberiaN,RockIceDesert_SiberiaN,1990,32.55645
+Russia,root,RockIceDesert_SiberiaW,RockIceDesert_SiberiaW,1990,30.99151
+Russia,root,RockIceDesert_KaraSea,RockIceDesert_KaraSea,1990,0.06829
+Russia,root,RockIceDesert_LenaR,RockIceDesert_LenaR,1990,3.34632
+Russia,root,RockIceDesert_BarentsSea,RockIceDesert_BarentsSea,1990,0.06836
+Russia,root,RockIceDesert_Gobi,RockIceDesert_Gobi,1990,0.05486
+Russia,root,RockIceDesert_CaspianNE,RockIceDesert_CaspianNE,1990,0.80151
+Russia,root,RockIceDesert_BlackSeaN,RockIceDesert_BlackSeaN,1990,0.06173
+Russia,root,RockIceDesert_YeniseiR,RockIceDesert_YeniseiR,1990,0.76233
+Russia,root,RockIceDesert_ObR,RockIceDesert_ObR,1990,1.43
+Russia,root,RockIceDesert_BlackSeaS,RockIceDesert_BlackSeaS,1990,0.06267
+South Africa,root,RockIceDesert_OrangeR,RockIceDesert_OrangeR,1990,1.87055
+South Africa,root,RockIceDesert_AfrCstSW,RockIceDesert_AfrCstSW,1990,0.62799
+South Africa,root,RockIceDesert_AfrCstS,RockIceDesert_AfrCstS,1990,0.45376
+South Africa,root,RockIceDesert_AfrCstSSW,RockIceDesert_AfrCstSSW,1990,0.45623
+South America_Northern,root,RockIceDesert_SAmerCstN,RockIceDesert_SAmerCstN,1990,1.56905
+South America_Northern,root,RockIceDesert_OrinocoR,RockIceDesert_OrinocoR,1990,0.91218
+South America_Northern,root,RockIceDesert_SAmerCstNE,RockIceDesert_SAmerCstNE,1990,0.14753
+South America_Southern,root,RockIceDesert_ColEcuaCst,RockIceDesert_ColEcuaCst,1990,1.1956
+South America_Southern,root,RockIceDesert_AmazonR,RockIceDesert_AmazonR,1990,0.57387
+South America_Southern,root,RockIceDesert_ChileCstS,RockIceDesert_ChileCstS,1990,28.60378
+South America_Southern,root,RockIceDesert_PeruCst,RockIceDesert_PeruCst,1990,93.53501
+South America_Southern,root,RockIceDesert_LaPuna,RockIceDesert_LaPuna,1990,42.40265
+South America_Southern,root,RockIceDesert_Salinas,RockIceDesert_Salinas,1990,0.22937
+South America_Southern,root,RockIceDesert_RioLaPlata,RockIceDesert_RioLaPlata,1990,0.34865
+South America_Southern,root,RockIceDesert_ChileCstN,RockIceDesert_ChileCstN,1990,148.56123
+South America_Southern,root,RockIceDesert_ArgColoR,RockIceDesert_ArgColoR,1990,1.40618
+South America_Southern,root,RockIceDesert_ArgCstS,RockIceDesert_ArgCstS,1990,1.19667
+South Asia,root,RockIceDesert_CaspianE,RockIceDesert_CaspianE,1990,1.07542
+South Asia,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,1990,14.74241
+South Asia,root,RockIceDesert_IndusR,RockIceDesert_IndusR,1990,1.94203
+South Asia,root,RockIceDesert_FarahrudR,RockIceDesert_FarahrudR,1990,5.88806
+South Asia,root,RockIceDesert_Helmand,RockIceDesert_Helmand,1990,55.32552
+South Asia,root,RockIceDesert_HamuMashR,RockIceDesert_HamuMashR,1990,5.58082
+South Asia,root,RockIceDesert_GangesR,RockIceDesert_GangesR,1990,6.28146
+Southeast Asia,root,RockIceDesert_GangesR,RockIceDesert_GangesR,1990,0.05455
+Southeast Asia,root,RockIceDesert_Mekong,RockIceDesert_Mekong,1990,0.2171
+Southeast Asia,root,RockIceDesert_VietnamCst,RockIceDesert_VietnamCst,1990,0.12882
+Southeast Asia,root,RockIceDesert_SittaungR,RockIceDesert_SittaungR,1990,0.09477
+Southeast Asia,root,RockIceDesert_MalaysiaP,RockIceDesert_MalaysiaP,1990,0
+Southeast Asia,root,RockIceDesert_ChaoPhrR,RockIceDesert_ChaoPhrR,1990,0.11602
+Argentina,root,RockIceDesert_ChileCstS,RockIceDesert_ChileCstS,1990,2.23802
+Argentina,root,RockIceDesert_LaPuna,RockIceDesert_LaPuna,1990,41.7114
+Argentina,root,RockIceDesert_MarChiq,RockIceDesert_MarChiq,1990,3.91112
+Argentina,root,RockIceDesert_Salinas,RockIceDesert_Salinas,1990,18.71428
+Argentina,root,RockIceDesert_RioLaPlata,RockIceDesert_RioLaPlata,1990,2.62729
+Argentina,root,RockIceDesert_ChileCstN,RockIceDesert_ChileCstN,1990,1.88623
+Argentina,root,RockIceDesert_Pampas,RockIceDesert_Pampas,1990,0.04728
+Argentina,root,RockIceDesert_ArgColoR,RockIceDesert_ArgColoR,1990,58.31811
+Argentina,root,RockIceDesert_NegroR,RockIceDesert_NegroR,1990,0.3564
+Argentina,root,RockIceDesert_Patagonia,RockIceDesert_Patagonia,1990,0.19818
+Argentina,root,RockIceDesert_ArgCstS,RockIceDesert_ArgCstS,1990,7.32974
+Colombia,root,RockIceDesert_SAmerCstN,RockIceDesert_SAmerCstN,1990,0.95449
+Colombia,root,RockIceDesert_MagdalenaR,RockIceDesert_MagdalenaR,1990,0.06644
+USA,root,UrbanLand_PacArctic,UrbanLand_PacArctic,2005,0.34817
+USA,root,UrbanLand_NelsonR,UrbanLand_NelsonR,2005,0.3514
+USA,root,UrbanLand_MexCstNW,UrbanLand_MexCstNW,2005,0.01785
+USA,root,UrbanLand_Caribbean,UrbanLand_Caribbean,2005,2.52674
+USA,root,UrbanLand_California,UrbanLand_California,2005,20.16092
+USA,root,UrbanLand_MissppRN,UrbanLand_MissppRN,2005,13.64824
+USA,root,UrbanLand_MissppRS,UrbanLand_MissppRS,2005,4.5454
+USA,root,UrbanLand_UsaColoRN,UrbanLand_UsaColoRN,2005,0.32491
+USA,root,UrbanLand_UsaColoRS,UrbanLand_UsaColoRS,2005,4.43915
+USA,root,UrbanLand_GreatBasin,UrbanLand_GreatBasin,2005,1.90435
+USA,root,UrbanLand_MissouriR,UrbanLand_MissouriR,2005,7.35621
+USA,root,UrbanLand_ArkWhtRedR,UrbanLand_ArkWhtRedR,2005,5.56679
+USA,root,UrbanLand_TexasCst,UrbanLand_TexasCst,2005,11.78566
+USA,root,UrbanLand_UsaCstSE,UrbanLand_UsaCstSE,2005,25.31965
+USA,root,UrbanLand_GreatLakes,UrbanLand_GreatLakes,2005,15.3524
+USA,root,UrbanLand_OhioR,UrbanLand_OhioR,2005,14.68884
+USA,root,UrbanLand_UsaPacNW,UrbanLand_UsaPacNW,2005,6.75328
+USA,root,UrbanLand_TennR,UrbanLand_TennR,2005,2.80626
+USA,root,UrbanLand_RioGrande,UrbanLand_RioGrande,2005,2.25059
+USA,root,UrbanLand_UsaCstNE,UrbanLand_UsaCstNE,2005,7.4954
+USA,root,UrbanLand_UsaCstE,UrbanLand_UsaCstE,2005,24.87526
+Africa_Eastern,root,UrbanLand_NileR,UrbanLand_NileR,2005,3.67727
+Africa_Eastern,root,UrbanLand_AfrCstNE,UrbanLand_AfrCstNE,2005,0.31311
+Africa_Eastern,root,UrbanLand_AfrIntN,UrbanLand_AfrIntN,2005,0.00083
+Africa_Eastern,root,UrbanLand_LChad,UrbanLand_LChad,2005,0.12373
+Africa_Eastern,root,UrbanLand_ShebJubR,UrbanLand_ShebJubR,2005,0.22027
+Africa_Eastern,root,UrbanLand_AfrCstE,UrbanLand_AfrCstE,2005,0.33484
+Africa_Eastern,root,UrbanLand_Madasgacar,UrbanLand_Madasgacar,2005,0.15294
+Africa_Eastern,root,UrbanLand_RiftValley,UrbanLand_RiftValley,2005,0.59319
+Africa_Eastern,root,UrbanLand_CongoR,UrbanLand_CongoR,2005,0.07713
+Africa_Northern,root,UrbanLand_MeditE,UrbanLand_MeditE,2005,0.03332
+Africa_Northern,root,UrbanLand_MeditS,UrbanLand_MeditS,2005,2.7879
+Africa_Northern,root,UrbanLand_AfrCstNW,UrbanLand_AfrCstNW,2005,6.751
+Africa_Northern,root,UrbanLand_NileR,UrbanLand_NileR,2005,2.55125
+Africa_Northern,root,UrbanLand_SinaiP,UrbanLand_SinaiP,2005,0.00143
+Africa_Northern,root,UrbanLand_AfrIntN,UrbanLand_AfrIntN,2005,1.75366
+Africa_Northern,root,UrbanLand_NigerR,UrbanLand_NigerR,2005,0.04656
+Africa_Northern,root,UrbanLand_LChad,UrbanLand_LChad,2005,0.00267
+Africa_Southern,root,UrbanLand_NileR,UrbanLand_NileR,2005,0.16788
+Africa_Southern,root,UrbanLand_GuineaGulf,UrbanLand_GuineaGulf,2005,0.00237
+Africa_Southern,root,UrbanLand_AfrCstE,UrbanLand_AfrCstE,2005,0.91174
+Africa_Southern,root,UrbanLand_RiftValley,UrbanLand_RiftValley,2005,0.11336
+Africa_Southern,root,UrbanLand_AngolaCst,UrbanLand_AngolaCst,2005,0.43108
+Africa_Southern,root,UrbanLand_CongoR,UrbanLand_CongoR,2005,0.27676
+Africa_Southern,root,UrbanLand_ZambeziR,UrbanLand_ZambeziR,2005,1.96674
+Africa_Southern,root,UrbanLand_AfrCstSE,UrbanLand_AfrCstSE,2005,0.57749
+Africa_Southern,root,UrbanLand_OrangeR,UrbanLand_OrangeR,2005,0.31308
+Africa_Southern,root,UrbanLand_AfrCstSW,UrbanLand_AfrCstSW,2005,0.05393
+Africa_Southern,root,UrbanLand_AfrIntS,UrbanLand_AfrIntS,2005,0.38591
+Africa_Southern,root,UrbanLand_AfrCstS,UrbanLand_AfrCstS,2005,0.10949
+Africa_Southern,root,UrbanLand_LimpopoR,UrbanLand_LimpopoR,2005,0.66654
+Africa_Western,root,UrbanLand_AfrCstNW,UrbanLand_AfrCstNW,2005,0.04186
+Africa_Western,root,UrbanLand_NileR,UrbanLand_NileR,2005,0.11103
+Africa_Western,root,UrbanLand_AfrCstW,UrbanLand_AfrCstW,2005,5.89171
+Africa_Western,root,UrbanLand_AfrIntN,UrbanLand_AfrIntN,2005,0.01003
+Africa_Western,root,UrbanLand_NigerR,UrbanLand_NigerR,2005,3.12425
+Africa_Western,root,UrbanLand_LChad,UrbanLand_LChad,2005,1.38987
+Africa_Western,root,UrbanLand_SenegalR,UrbanLand_SenegalR,2005,0.23072
+Africa_Western,root,UrbanLand_VoltaR,UrbanLand_VoltaR,2005,1.30832
+Africa_Western,root,UrbanLand_GuineaGulf,UrbanLand_GuineaGulf,2005,1.61973
+Africa_Western,root,UrbanLand_CongoR,UrbanLand_CongoR,2005,2.49908
+Africa_Western,root,UrbanLand_ZambeziR,UrbanLand_ZambeziR,2005,0
+Australia_NZ,root,UrbanLand_AusCstN,UrbanLand_AusCstN,2005,0.14212
+Australia_NZ,root,UrbanLand_AusCstE,UrbanLand_AusCstE,2005,8.32655
+Australia_NZ,root,UrbanLand_AusCstW,UrbanLand_AusCstW,2005,1.11524
+Australia_NZ,root,UrbanLand_AusInt,UrbanLand_AusInt,2005,0.08131
+Australia_NZ,root,UrbanLand_NewZealand,UrbanLand_NewZealand,2005,1.63749
+Australia_NZ,root,UrbanLand_AusCstS,UrbanLand_AusCstS,2005,0.88357
+Australia_NZ,root,UrbanLand_MurrayDrlg,UrbanLand_MurrayDrlg,2005,1.30478
+Australia_NZ,root,UrbanLand_Tasmania,UrbanLand_Tasmania,2005,0.26648
+Brazil,root,UrbanLand_OrinocoR,UrbanLand_OrinocoR,2005,6e-05
+Brazil,root,UrbanLand_SAmerCstNE,UrbanLand_SAmerCstNE,2005,0.00233
+Brazil,root,UrbanLand_AmazonR,UrbanLand_AmazonR,2005,1.02076
+Brazil,root,UrbanLand_BrzCstN,UrbanLand_BrzCstN,2005,0.75807
+Brazil,root,UrbanLand_TocantinsR,UrbanLand_TocantinsR,2005,0.98541
+Brazil,root,UrbanLand_BrzCstE,UrbanLand_BrzCstE,2005,3.10123
+Brazil,root,UrbanLand_ParnaibaR,UrbanLand_ParnaibaR,2005,0.52745
+Brazil,root,UrbanLand_SaoFrancR,UrbanLand_SaoFrancR,2005,1.59782
+Brazil,root,UrbanLand_BrzCstS,UrbanLand_BrzCstS,2005,7.02752
+Brazil,root,UrbanLand_RioLaPlata,UrbanLand_RioLaPlata,2005,8.66265
+Canada,root,UrbanLand_NWTerr,UrbanLand_NWTerr,2005,0.01973
+Canada,root,UrbanLand_PacArctic,UrbanLand_PacArctic,2005,0.18564
+Canada,root,UrbanLand_Mackenzie,UrbanLand_Mackenzie,2005,0.05212
+Canada,root,UrbanLand_HudsonBay,UrbanLand_HudsonBay,2005,0.02762
+Canada,root,UrbanLand_CanAtl,UrbanLand_CanAtl,2005,0.39154
+Canada,root,UrbanLand_NelsonR,UrbanLand_NelsonR,2005,1.09805
+Canada,root,UrbanLand_FraserR,UrbanLand_FraserR,2005,0.26433
+Canada,root,UrbanLand_ChurchillR,UrbanLand_ChurchillR,2005,0.00582
+Canada,root,UrbanLand_StLwrncR,UrbanLand_StLwrncR,2005,0.15295
+Canada,root,UrbanLand_MissouriR,UrbanLand_MissouriR,2005,0.00079
+Canada,root,UrbanLand_GreatLakes,UrbanLand_GreatLakes,2005,3.90991
+Canada,root,UrbanLand_UsaPacNW,UrbanLand_UsaPacNW,2005,0.3412
+Canada,root,UrbanLand_UsaCstNE,UrbanLand_UsaCstNE,2005,0.07631
+Central America and Caribbean,root,UrbanLand_Caribbean,UrbanLand_Caribbean,2005,2.14363
+Central America and Caribbean,root,UrbanLand_YucatanP,UrbanLand_YucatanP,2005,0.21209
+Central America and Caribbean,root,UrbanLand_GrijUsuR,UrbanLand_GrijUsuR,2005,0.21315
+Central America and Caribbean,root,UrbanLand_CntAmer,UrbanLand_CntAmer,2005,2.91958
+Central America and Caribbean,root,UrbanLand_SAmerCstN,UrbanLand_SAmerCstN,2005,0.00499
+Central America and Caribbean,root,UrbanLand_ColEcuaCst,UrbanLand_ColEcuaCst,2005,0.00947
+Central Asia,root,UrbanLand_VolgaR,UrbanLand_VolgaR,2005,0.00068
+Central Asia,root,UrbanLand_UralR,UrbanLand_UralR,2005,0.19822
+Central Asia,root,UrbanLand_Gobi,UrbanLand_Gobi,2005,0.0821
+Central Asia,root,UrbanLand_AmurR,UrbanLand_AmurR,2005,0.01096
+Central Asia,root,UrbanLand_CaspianNE,UrbanLand_CaspianNE,2005,0.02333
+Central Asia,root,UrbanLand_YeniseiR,UrbanLand_YeniseiR,2005,0.10831
+Central Asia,root,UrbanLand_CaspianE,UrbanLand_CaspianE,2005,0.555
+Central Asia,root,UrbanLand_ObR,UrbanLand_ObR,2005,0.69052
+Central Asia,root,UrbanLand_AmuDaryaR,UrbanLand_AmuDaryaR,2005,1.45578
+Central Asia,root,UrbanLand_LBalkash,UrbanLand_LBalkash,2005,0.48691
+Central Asia,root,UrbanLand_BlackSeaS,UrbanLand_BlackSeaS,2005,0.13712
+Central Asia,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,2005,1.39937
+Central Asia,root,UrbanLand_SyrDaryaR,UrbanLand_SyrDaryaR,2005,2.65296
+China,root,UrbanLand_RusCstSE,UrbanLand_RusCstSE,2005,0.09952
+China,root,UrbanLand_Gobi,UrbanLand_Gobi,2005,0.4969
+China,root,UrbanLand_AmurR,UrbanLand_AmurR,2005,2.31575
+China,root,UrbanLand_ObR,UrbanLand_ObR,2005,0.00542
+China,root,UrbanLand_BoHai,UrbanLand_BoHai,2005,1.98498
+China,root,UrbanLand_LBalkash,UrbanLand_LBalkash,2005,0.08062
+China,root,UrbanLand_ZiyaHe,UrbanLand_ZiyaHe,2005,4.49229
+China,root,UrbanLand_ChinaCst,UrbanLand_ChinaCst,2005,8.17825
+China,root,UrbanLand_HuangHeR,UrbanLand_HuangHeR,2005,5.53032
+China,root,UrbanLand_Tarim,UrbanLand_Tarim,2005,0.2744
+China,root,UrbanLand_IndusR,UrbanLand_IndusR,2005,0.00032
+China,root,UrbanLand_Tibet,UrbanLand_Tibet,2005,0.00027
+China,root,UrbanLand_Taiwan,UrbanLand_Taiwan,2005,1.94504
+China,root,UrbanLand_Yangtze,UrbanLand_Yangtze,2005,18.02668
+China,root,UrbanLand_XunJiang,UrbanLand_XunJiang,2005,3.55435
+China,root,UrbanLand_Hong,UrbanLand_Hong,2005,0.1333
+China,root,UrbanLand_GangesR,UrbanLand_GangesR,2005,0.0784
+China,root,UrbanLand_SChinaSea,UrbanLand_SChinaSea,2005,0.62267
+China,root,UrbanLand_Hainan,UrbanLand_Hainan,2005,0.21651
+China,root,UrbanLand_Mekong,UrbanLand_Mekong,2005,0.19057
+China,root,UrbanLand_Salween,UrbanLand_Salween,2005,0.10263
+China,root,UrbanLand_IrrawaddyR,UrbanLand_IrrawaddyR,2005,0.07746
+EU-12,root,UrbanLand_BalticSea,UrbanLand_BalticSea,2005,0.49399
+EU-12,root,UrbanLand_DnkGrmCst,UrbanLand_DnkGrmCst,2005,0.00148
+EU-12,root,UrbanLand_NarvaR,UrbanLand_NarvaR,2005,0.11845
+EU-12,root,UrbanLand_DaugavaR,UrbanLand_DaugavaR,2005,0.19529
+EU-12,root,UrbanLand_OderR,UrbanLand_OderR,2005,2.20816
+EU-12,root,UrbanLand_WislaR,UrbanLand_WislaR,2005,2.97844
+EU-12,root,UrbanLand_ElbeR,UrbanLand_ElbeR,2005,1.09587
+EU-12,root,UrbanLand_PolandCst,UrbanLand_PolandCst,2005,0.41896
+EU-12,root,UrbanLand_NemanR,UrbanLand_NemanR,2005,0.44447
+EU-12,root,UrbanLand_DanubeR,UrbanLand_DanubeR,2005,5.86542
+EU-12,root,UrbanLand_AdrBlkSea,UrbanLand_AdrBlkSea,2005,0.49332
+EU-12,root,UrbanLand_MeditE,UrbanLand_MeditE,2005,0.1621
+EU-15,root,UrbanLand_ArcticIsl,UrbanLand_ArcticIsl,2005,0.02304
+EU-15,root,UrbanLand_ScndnvN,UrbanLand_ScndnvN,2005,0.00451
+EU-15,root,UrbanLand_Sweden,UrbanLand_Sweden,2005,2.25804
+EU-15,root,UrbanLand_Finland,UrbanLand_Finland,2005,1.25673
+EU-15,root,UrbanLand_Scotland,UrbanLand_Scotland,2005,0.98099
+EU-15,root,UrbanLand_NevaR,UrbanLand_NevaR,2005,0
+EU-15,root,UrbanLand_DnkGrmCst,UrbanLand_DnkGrmCst,2005,2.95351
+EU-15,root,UrbanLand_Ireland,UrbanLand_Ireland,2005,1.07924
+EU-15,root,UrbanLand_EngWales,UrbanLand_EngWales,2005,10.79118
+EU-15,root,UrbanLand_EmsWeserR,UrbanLand_EmsWeserR,2005,3.71709
+EU-15,root,UrbanLand_OderR,UrbanLand_OderR,2005,0.12699
+EU-15,root,UrbanLand_ElbeR,UrbanLand_ElbeR,2005,5.55104
+EU-15,root,UrbanLand_RhineR,UrbanLand_RhineR,2005,19.22385
+EU-15,root,UrbanLand_ScheldtR,UrbanLand_ScheldtR,2005,4.5378
+EU-15,root,UrbanLand_FranceCstW,UrbanLand_FranceCstW,2005,1.79307
+EU-15,root,UrbanLand_LoireR,UrbanLand_LoireR,2005,1.77935
+EU-15,root,UrbanLand_SeineR,UrbanLand_SeineR,2005,2.67235
+EU-15,root,UrbanLand_ItalyCstE,UrbanLand_ItalyCstE,2005,2.25025
+EU-15,root,UrbanLand_DanubeR,UrbanLand_DanubeR,2005,4.42392
+EU-15,root,UrbanLand_AdrBlkSea,UrbanLand_AdrBlkSea,2005,0.63513
+EU-15,root,UrbanLand_PoR,UrbanLand_PoR,2005,3.49332
+EU-15,root,UrbanLand_ItalyCstW,UrbanLand_ItalyCstW,2005,2.43214
+EU-15,root,UrbanLand_IberiaCst,UrbanLand_IberiaCst,2005,1.48187
+EU-15,root,UrbanLand_FranceCstS,UrbanLand_FranceCstS,2005,1.0556
+EU-15,root,UrbanLand_RhoneR,UrbanLand_RhoneR,2005,1.81625
+EU-15,root,UrbanLand_MeditIsl,UrbanLand_MeditIsl,2005,1.1024
+EU-15,root,UrbanLand_Gironde,UrbanLand_Gironde,2005,1.02936
+EU-15,root,UrbanLand_SpainCstSE,UrbanLand_SpainCstSE,2005,1.68829
+EU-15,root,UrbanLand_TiberR,UrbanLand_TiberR,2005,0.8543
+EU-15,root,UrbanLand_TagusR,UrbanLand_TagusR,2005,1.1959
+EU-15,root,UrbanLand_EbroR,UrbanLand_EbroR,2005,0.47376
+EU-15,root,UrbanLand_DouroR,UrbanLand_DouroR,2005,0.65239
+EU-15,root,UrbanLand_GuadianaR,UrbanLand_GuadianaR,2005,0.29451
+EU-15,root,UrbanLand_GuadalqR,UrbanLand_GuadalqR,2005,0.57382
+Europe_Eastern,root,UrbanLand_NevaR,UrbanLand_NevaR,2005,0.00022
+Europe_Eastern,root,UrbanLand_DaugavaR,UrbanLand_DaugavaR,2005,0.15069
+Europe_Eastern,root,UrbanLand_WislaR,UrbanLand_WislaR,2005,0.28766
+Europe_Eastern,root,UrbanLand_NemanR,UrbanLand_NemanR,2005,0.27816
+Europe_Eastern,root,UrbanLand_DnieperR,UrbanLand_DnieperR,2005,3.48098
+Europe_Eastern,root,UrbanLand_BlackSeaN,UrbanLand_BlackSeaN,2005,1.58346
+Europe_Eastern,root,UrbanLand_DniesterR,UrbanLand_DniesterR,2005,0.84489
+Europe_Eastern,root,UrbanLand_DonR,UrbanLand_DonR,2005,0.78409
+Europe_Eastern,root,UrbanLand_DanubeR,UrbanLand_DanubeR,2005,0.38227
+Europe_Non_EU,root,UrbanLand_DanubeR,UrbanLand_DanubeR,2005,1.92646
+Europe_Non_EU,root,UrbanLand_AdrBlkSea,UrbanLand_AdrBlkSea,2005,1.22629
+Europe_Non_EU,root,UrbanLand_BlackSeaS,UrbanLand_BlackSeaS,2005,2.05991
+Europe_Non_EU,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,2005,0.20298
+Europe_Non_EU,root,UrbanLand_MeditE,UrbanLand_MeditE,2005,1.6226
+Europe_Non_EU,root,UrbanLand_TigrEuphR,UrbanLand_TigrEuphR,2005,0.8097
+European Free Trade Association,root,UrbanLand_ScndnvN,UrbanLand_ScndnvN,2005,1.20302
+European Free Trade Association,root,UrbanLand_Iceland,UrbanLand_Iceland,2005,0.04479
+European Free Trade Association,root,UrbanLand_Sweden,UrbanLand_Sweden,2005,0.00745
+European Free Trade Association,root,UrbanLand_RhineR,UrbanLand_RhineR,2005,1.18967
+European Free Trade Association,root,UrbanLand_DanubeR,UrbanLand_DanubeR,2005,0.00564
+European Free Trade Association,root,UrbanLand_PoR,UrbanLand_PoR,2005,0.06375
+European Free Trade Association,root,UrbanLand_RhoneR,UrbanLand_RhoneR,2005,0.27997
+India,root,UrbanLand_IndusR,UrbanLand_IndusR,2005,0.63968
+India,root,UrbanLand_SabarmatiR,UrbanLand_SabarmatiR,2005,1.25662
+India,root,UrbanLand_GangesR,UrbanLand_GangesR,2005,9.59554
+India,root,UrbanLand_MahiR,UrbanLand_MahiR,2005,0.18584
+India,root,UrbanLand_BengalBay,UrbanLand_BengalBay,2005,0.00119
+India,root,UrbanLand_TaptiR,UrbanLand_TaptiR,2005,0.32452
+India,root,UrbanLand_BengalW,UrbanLand_BengalW,2005,0.64085
+India,root,UrbanLand_BrahmaniR,UrbanLand_BrahmaniR,2005,0.21629
+India,root,UrbanLand_MahanadiR,UrbanLand_MahanadiR,2005,0.71474
+India,root,UrbanLand_GodavariR,UrbanLand_GodavariR,2005,0.95748
+India,root,UrbanLand_IndCstNE,UrbanLand_IndCstNE,2005,0.2417
+India,root,UrbanLand_IndCstW,UrbanLand_IndCstW,2005,1.16104
+India,root,UrbanLand_IrrawaddyR,UrbanLand_IrrawaddyR,2005,0.05414
+India,root,UrbanLand_KrishnaR,UrbanLand_KrishnaR,2005,1.45077
+India,root,UrbanLand_IndCstE,UrbanLand_IndCstE,2005,0.82808
+India,root,UrbanLand_PennarR,UrbanLand_PennarR,2005,0.13033
+India,root,UrbanLand_CauveryR,UrbanLand_CauveryR,2005,0.72361
+India,root,UrbanLand_IndCstS,UrbanLand_IndCstS,2005,0.49405
+India,root,UrbanLand_NarmadaR,UrbanLand_NarmadaR,2005,0.30121
+Indonesia,root,UrbanLand_IdnE,UrbanLand_IdnE,2005,0.05749
+Indonesia,root,UrbanLand_BorneoCstN,UrbanLand_BorneoCstN,2005,0.00253
+Indonesia,root,UrbanLand_Sumatra,UrbanLand_Sumatra,2005,1.77183
+Indonesia,root,UrbanLand_Sulawesi,UrbanLand_Sulawesi,2005,0.56968
+Indonesia,root,UrbanLand_Kalimantan,UrbanLand_Kalimantan,2005,0.46676
+Indonesia,root,UrbanLand_IrianJaya,UrbanLand_IrianJaya,2005,0.17953
+Indonesia,root,UrbanLand_JavaTimor,UrbanLand_JavaTimor,2005,5.47308
+Indonesia,root,UrbanLand_SepikR,UrbanLand_SepikR,2005,0
+Indonesia,root,UrbanLand_FlyR,UrbanLand_FlyR,2005,0
+Japan,root,UrbanLand_Japan,UrbanLand_Japan,2005,12.41267
+Mexico,root,UrbanLand_MexBaja,UrbanLand_MexBaja,2005,0.0933
+Mexico,root,UrbanLand_MexCstNW,UrbanLand_MexCstNW,2005,0.64657
+Mexico,root,UrbanLand_MexGulf,UrbanLand_MexGulf,2005,0.37076
+Mexico,root,UrbanLand_YucatanP,UrbanLand_YucatanP,2005,0.29775
+Mexico,root,UrbanLand_MexInt,UrbanLand_MexInt,2005,0.40933
+Mexico,root,UrbanLand_MexCstW,UrbanLand_MexCstW,2005,0.21362
+Mexico,root,UrbanLand_Papaloapan,UrbanLand_Papaloapan,2005,0.60268
+Mexico,root,UrbanLand_RioLerma,UrbanLand_RioLerma,2005,1.91778
+Mexico,root,UrbanLand_RioVerde,UrbanLand_RioVerde,2005,2.74583
+Mexico,root,UrbanLand_GrijUsuR,UrbanLand_GrijUsuR,2005,0.47186
+Mexico,root,UrbanLand_RioBalsas,UrbanLand_RioBalsas,2005,1.4524
+Mexico,root,UrbanLand_CntAmer,UrbanLand_CntAmer,2005,0.05636
+Mexico,root,UrbanLand_Tehuantpc,UrbanLand_Tehuantpc,2005,0.51962
+Mexico,root,UrbanLand_California,UrbanLand_California,2005,0.38035
+Mexico,root,UrbanLand_UsaColoRS,UrbanLand_UsaColoRS,2005,0.07042
+Mexico,root,UrbanLand_RioGrande,UrbanLand_RioGrande,2005,1.15975
+Middle East,root,UrbanLand_CaspianE,UrbanLand_CaspianE,2005,0.58711
+Middle East,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,2005,0.91048
+Middle East,root,UrbanLand_MeditE,UrbanLand_MeditE,2005,1.62072
+Middle East,root,UrbanLand_Iran,UrbanLand_Iran,2005,2.2739
+Middle East,root,UrbanLand_TigrEuphR,UrbanLand_TigrEuphR,2005,3.06833
+Middle East,root,UrbanLand_PersianGulf,UrbanLand_PersianGulf,2005,0.30227
+Middle East,root,UrbanLand_FarahrudR,UrbanLand_FarahrudR,2005,0.0358
+Middle East,root,UrbanLand_RedSeaE,UrbanLand_RedSeaE,2005,2.19166
+Middle East,root,UrbanLand_ArabianP,UrbanLand_ArabianP,2005,3.97185
+Middle East,root,UrbanLand_DeadSea,UrbanLand_DeadSea,2005,0.80997
+Middle East,root,UrbanLand_Helmand,UrbanLand_Helmand,2005,0.06453
+Middle East,root,UrbanLand_SinaiP,UrbanLand_SinaiP,2005,0.01416
+Middle East,root,UrbanLand_EJrdnSyr,UrbanLand_EJrdnSyr,2005,0.55552
+Middle East,root,UrbanLand_AfrCstNE,UrbanLand_AfrCstNE,2005,0
+Middle East,root,UrbanLand_HamuMashR,UrbanLand_HamuMashR,2005,0.02036
+Middle East,root,UrbanLand_ArabianSea,UrbanLand_ArabianSea,2005,0.0129
+Pakistan,root,UrbanLand_Tarim,UrbanLand_Tarim,2005,7e-05
+Pakistan,root,UrbanLand_IndusR,UrbanLand_IndusR,2005,3.34966
+Pakistan,root,UrbanLand_Helmand,UrbanLand_Helmand,2005,0
+Pakistan,root,UrbanLand_HamuMashR,UrbanLand_HamuMashR,2005,0.10112
+Pakistan,root,UrbanLand_ArabianSea,UrbanLand_ArabianSea,2005,0.4996
+Pakistan,root,UrbanLand_SabarmatiR,UrbanLand_SabarmatiR,2005,0.20268
+Russia,root,UrbanLand_ArcticIsl,UrbanLand_ArcticIsl,2005,1e-04
+Russia,root,UrbanLand_SiberiaN,UrbanLand_SiberiaN,2005,0.00642
+Russia,root,UrbanLand_SiberiaW,UrbanLand_SiberiaW,2005,0.15303
+Russia,root,UrbanLand_KaraSea,UrbanLand_KaraSea,2005,0.05277
+Russia,root,UrbanLand_LenaR,UrbanLand_LenaR,2005,0.13039
+Russia,root,UrbanLand_ScndnvN,UrbanLand_ScndnvN,2005,0.1192
+Russia,root,UrbanLand_BarentsSea,UrbanLand_BarentsSea,2005,0.15732
+Russia,root,UrbanLand_Finland,UrbanLand_Finland,2005,0.00024
+Russia,root,UrbanLand_DvinaRN,UrbanLand_DvinaRN,2005,0.1862
+Russia,root,UrbanLand_NevaR,UrbanLand_NevaR,2005,0.66273
+Russia,root,UrbanLand_VolgaR,UrbanLand_VolgaR,2005,7.78609
+Russia,root,UrbanLand_BalticSea,UrbanLand_BalticSea,2005,0.26066
+Russia,root,UrbanLand_NarvaR,UrbanLand_NarvaR,2005,0.07535
+Russia,root,UrbanLand_DaugavaR,UrbanLand_DaugavaR,2005,0.01601
+Russia,root,UrbanLand_PolandCst,UrbanLand_PolandCst,2005,0.10451
+Russia,root,UrbanLand_NemanR,UrbanLand_NemanR,2005,0.00814
+Russia,root,UrbanLand_RusCstSE,UrbanLand_RusCstSE,2005,0.20319
+Russia,root,UrbanLand_UralR,UrbanLand_UralR,2005,0.33463
+Russia,root,UrbanLand_DnieperR,UrbanLand_DnieperR,2005,0.51421
+Russia,root,UrbanLand_Gobi,UrbanLand_Gobi,2005,0.00202
+Russia,root,UrbanLand_AmurR,UrbanLand_AmurR,2005,0.50605
+Russia,root,UrbanLand_CaspianNE,UrbanLand_CaspianNE,2005,0.79286
+Russia,root,UrbanLand_BlackSeaN,UrbanLand_BlackSeaN,2005,0.75794
+Russia,root,UrbanLand_YeniseiR,UrbanLand_YeniseiR,2005,0.91661
+Russia,root,UrbanLand_DonR,UrbanLand_DonR,2005,1.51083
+Russia,root,UrbanLand_ObR,UrbanLand_ObR,2005,2.92017
+Russia,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,2005,0
+Russia,root,UrbanLand_SyrDaryaR,UrbanLand_SyrDaryaR,2005,0.00055
+South Africa,root,UrbanLand_OrangeR,UrbanLand_OrangeR,2005,1.33993
+South Africa,root,UrbanLand_AfrCstSW,UrbanLand_AfrCstSW,2005,0.00016
+South Africa,root,UrbanLand_AfrCstS,UrbanLand_AfrCstS,2005,2.05372
+South Africa,root,UrbanLand_LimpopoR,UrbanLand_LimpopoR,2005,1.21583
+South Africa,root,UrbanLand_AfrCstSSW,UrbanLand_AfrCstSSW,2005,0.43297
+South America_Northern,root,UrbanLand_SAmerCstN,UrbanLand_SAmerCstN,2005,1.92526
+South America_Northern,root,UrbanLand_OrinocoR,UrbanLand_OrinocoR,2005,0.93797
+South America_Northern,root,UrbanLand_SAmerCstNE,UrbanLand_SAmerCstNE,2005,0.44771
+South America_Northern,root,UrbanLand_AmazonR,UrbanLand_AmazonR,2005,0.00793
+South America_Southern,root,UrbanLand_ColEcuaCst,UrbanLand_ColEcuaCst,2005,0.92584
+South America_Southern,root,UrbanLand_AmazonR,UrbanLand_AmazonR,2005,1.54022
+South America_Southern,root,UrbanLand_ChileCstS,UrbanLand_ChileCstS,2005,0.68817
+South America_Southern,root,UrbanLand_PeruCst,UrbanLand_PeruCst,2005,0.86595
+South America_Southern,root,UrbanLand_BrzCstS,UrbanLand_BrzCstS,2005,0.05112
+South America_Southern,root,UrbanLand_LaPuna,UrbanLand_LaPuna,2005,0.12804
+South America_Southern,root,UrbanLand_RioLaPlata,UrbanLand_RioLaPlata,2005,1.00503
+South America_Southern,root,UrbanLand_ChileCstN,UrbanLand_ChileCstN,2005,1.09197
+South America_Southern,root,UrbanLand_ArgCstS,UrbanLand_ArgCstS,2005,0.00082
+South Asia,root,UrbanLand_CaspianE,UrbanLand_CaspianE,2005,0.0375
+South Asia,root,UrbanLand_AmuDaryaR,UrbanLand_AmuDaryaR,2005,0.13742
+South Asia,root,UrbanLand_IndusR,UrbanLand_IndusR,2005,0.13086
+South Asia,root,UrbanLand_FarahrudR,UrbanLand_FarahrudR,2005,0.00904
+South Asia,root,UrbanLand_Helmand,UrbanLand_Helmand,2005,0.08091
+South Asia,root,UrbanLand_GangesR,UrbanLand_GangesR,2005,1.4721
+South Asia,root,UrbanLand_BengalBay,UrbanLand_BengalBay,2005,0.08307
+South Asia,root,UrbanLand_SriLanka,UrbanLand_SriLanka,2005,0.2458
+South Korea,root,UrbanLand_Korea,UrbanLand_Korea,2005,2.0964
+Southeast Asia,root,UrbanLand_RusCstSE,UrbanLand_RusCstSE,2005,0.02021
+Southeast Asia,root,UrbanLand_Korea,UrbanLand_Korea,2005,0.56291
+Southeast Asia,root,UrbanLand_BoHai,UrbanLand_BoHai,2005,0.08031
+Southeast Asia,root,UrbanLand_XunJiang,UrbanLand_XunJiang,2005,0.02818
+Southeast Asia,root,UrbanLand_Hong,UrbanLand_Hong,2005,0.59617
+Southeast Asia,root,UrbanLand_SChinaSea,UrbanLand_SChinaSea,2005,0.0087
+Southeast Asia,root,UrbanLand_BengalBay,UrbanLand_BengalBay,2005,0.04891
+Southeast Asia,root,UrbanLand_Phlppns,UrbanLand_Phlppns,2005,3.54767
+Southeast Asia,root,UrbanLand_Mekong,UrbanLand_Mekong,2005,2.39193
+Southeast Asia,root,UrbanLand_VietnamCst,UrbanLand_VietnamCst,2005,0.78138
+Southeast Asia,root,UrbanLand_Salween,UrbanLand_Salween,2005,0.12046
+Southeast Asia,root,UrbanLand_IrrawaddyR,UrbanLand_IrrawaddyR,2005,0.73836
+Southeast Asia,root,UrbanLand_SittaungR,UrbanLand_SittaungR,2005,0.29621
+Southeast Asia,root,UrbanLand_MalaysiaP,UrbanLand_MalaysiaP,2005,3.96363
+Southeast Asia,root,UrbanLand_ChaoPhrR,UrbanLand_ChaoPhrR,2005,1.27029
+Southeast Asia,root,UrbanLand_ThaiGulf,UrbanLand_ThaiGulf,2005,0.22276
+Southeast Asia,root,UrbanLand_BorneoCstN,UrbanLand_BorneoCstN,2005,0.76448
+Southeast Asia,root,UrbanLand_Kalimantan,UrbanLand_Kalimantan,2005,0.00108
+Southeast Asia,root,UrbanLand_IrianJaya,UrbanLand_IrianJaya,2005,0.00269
+Southeast Asia,root,UrbanLand_PapuaCst,UrbanLand_PapuaCst,2005,0.05395
+Southeast Asia,root,UrbanLand_JavaTimor,UrbanLand_JavaTimor,2005,1.0458
+Southeast Asia,root,UrbanLand_SepikR,UrbanLand_SepikR,2005,0.00034
+Southeast Asia,root,UrbanLand_FlyR,UrbanLand_FlyR,2005,0
+Argentina,root,UrbanLand_ChileCstS,UrbanLand_ChileCstS,2005,0.02187
+Argentina,root,UrbanLand_LaPuna,UrbanLand_LaPuna,2005,0.00158
+Argentina,root,UrbanLand_MarChiq,UrbanLand_MarChiq,2005,0.62929
+Argentina,root,UrbanLand_Salinas,UrbanLand_Salinas,2005,0.13455
+Argentina,root,UrbanLand_RioLaPlata,UrbanLand_RioLaPlata,2005,3.6346
+Argentina,root,UrbanLand_Pampas,UrbanLand_Pampas,2005,0.11793
+Argentina,root,UrbanLand_ArgCstN,UrbanLand_ArgCstN,2005,0.41366
+Argentina,root,UrbanLand_ArgColoR,UrbanLand_ArgColoR,2005,0.41021
+Argentina,root,UrbanLand_NegroR,UrbanLand_NegroR,2005,0.15659
+Argentina,root,UrbanLand_Patagonia,UrbanLand_Patagonia,2005,0.00341
+Argentina,root,UrbanLand_ArgCstS,UrbanLand_ArgCstS,2005,0.10866
+Colombia,root,UrbanLand_SAmerCstN,UrbanLand_SAmerCstN,2005,0.23472
+Colombia,root,UrbanLand_OrinocoR,UrbanLand_OrinocoR,2005,0.07919
+Colombia,root,UrbanLand_ColEcuaCst,UrbanLand_ColEcuaCst,2005,0.11058
+Colombia,root,UrbanLand_MagdalenaR,UrbanLand_MagdalenaR,2005,1.43423
+Colombia,root,UrbanLand_AmazonR,UrbanLand_AmazonR,2005,0.03953
+USA,root,Tundra_PacArctic,Tundra_PacArctic,2005,254.9988
+USA,root,Tundra_California,Tundra_California,2005,2.32485
+USA,root,Tundra_UsaColoRN,Tundra_UsaColoRN,2005,0.15255
+USA,root,Tundra_GreatBasin,Tundra_GreatBasin,2005,0.09087
+USA,root,Tundra_MissouriR,Tundra_MissouriR,2005,0.85829
+USA,root,Tundra_UsaPacNW,Tundra_UsaPacNW,2005,0.38169
+USA,root,Tundra_RioGrande,Tundra_RioGrande,2005,0.05769
+Australia_NZ,root,Tundra_NewZealand,Tundra_NewZealand,2005,0.36697
+Brazil,root,Tundra_OrinocoR,Tundra_OrinocoR,2005,0.11414
+Brazil,root,Tundra_AmazonR,Tundra_AmazonR,2005,2.32576
+Canada,root,Tundra_NWTerr,Tundra_NWTerr,2005,1562.33488
+Canada,root,Tundra_PacArctic,Tundra_PacArctic,2005,108.91074
+Canada,root,Tundra_Mackenzie,Tundra_Mackenzie,2005,179.74127
+Canada,root,Tundra_HudsonBay,Tundra_HudsonBay,2005,172.94611
+Canada,root,Tundra_CanAtl,Tundra_CanAtl,2005,14.90604
+Canada,root,Tundra_NelsonR,Tundra_NelsonR,2005,5.25759
+Canada,root,Tundra_FraserR,Tundra_FraserR,2005,6.38835
+Canada,root,Tundra_ChurchillR,Tundra_ChurchillR,2005,4.07673
+Canada,root,Tundra_StLwrncR,Tundra_StLwrncR,2005,0.63125
+Canada,root,Tundra_UsaPacNW,Tundra_UsaPacNW,2005,7.52187
+Central Asia,root,Tundra_Gobi,Tundra_Gobi,2005,3.07334
+Central Asia,root,Tundra_CaspianNE,Tundra_CaspianNE,2005,1.15667
+Central Asia,root,Tundra_YeniseiR,Tundra_YeniseiR,2005,2.72681
+Central Asia,root,Tundra_CaspianE,Tundra_CaspianE,2005,0.23611
+Central Asia,root,Tundra_ObR,Tundra_ObR,2005,1.24123
+Central Asia,root,Tundra_AmuDaryaR,Tundra_AmuDaryaR,2005,34.7694
+Central Asia,root,Tundra_LBalkash,Tundra_LBalkash,2005,3.1377
+Central Asia,root,Tundra_BlackSeaS,Tundra_BlackSeaS,2005,4.04107
+Central Asia,root,Tundra_CaspianSW,Tundra_CaspianSW,2005,3.06483
+Central Asia,root,Tundra_SyrDaryaR,Tundra_SyrDaryaR,2005,18.4818
+Central Asia,root,Tundra_Tarim,Tundra_Tarim,2005,11.45119
+China,root,Tundra_Gobi,Tundra_Gobi,2005,5.86466
+China,root,Tundra_AmurR,Tundra_AmurR,2005,0.35887
+China,root,Tundra_ObR,Tundra_ObR,2005,2.75798
+China,root,Tundra_AmuDaryaR,Tundra_AmuDaryaR,2005,0.1113
+China,root,Tundra_BoHai,Tundra_BoHai,2005,0.02438
+China,root,Tundra_LBalkash,Tundra_LBalkash,2005,4.02516
+China,root,Tundra_SyrDaryaR,Tundra_SyrDaryaR,2005,0.07948
+China,root,Tundra_ZiyaHe,Tundra_ZiyaHe,2005,0.07802
+China,root,Tundra_HuangHeR,Tundra_HuangHeR,2005,31.62082
+China,root,Tundra_Tarim,Tundra_Tarim,2005,104.5181
+China,root,Tundra_IndusR,Tundra_IndusR,2005,19.07296
+China,root,Tundra_Tibet,Tundra_Tibet,2005,86.11461
+China,root,Tundra_Yangtze,Tundra_Yangtze,2005,104.62874
+China,root,Tundra_GangesR,Tundra_GangesR,2005,64.02264
+China,root,Tundra_Mekong,Tundra_Mekong,2005,20.0754
+China,root,Tundra_Salween,Tundra_Salween,2005,22.77146
+China,root,Tundra_IrrawaddyR,Tundra_IrrawaddyR,2005,0.61988
+EU-12,root,Tundra_NemanR,Tundra_NemanR,2005,0.18745
+EU-15,root,Tundra_ArcticIsl,Tundra_ArcticIsl,2005,289.19868
+EU-15,root,Tundra_ScndnvN,Tundra_ScndnvN,2005,1.47653
+EU-15,root,Tundra_Sweden,Tundra_Sweden,2005,14.57607
+EU-15,root,Tundra_FranceCstW,Tundra_FranceCstW,2005,0.12889
+EU-15,root,Tundra_ItalyCstE,Tundra_ItalyCstE,2005,0.05566
+EU-15,root,Tundra_DanubeR,Tundra_DanubeR,2005,0.59605
+EU-15,root,Tundra_PoR,Tundra_PoR,2005,2.40278
+EU-15,root,Tundra_FranceCstS,Tundra_FranceCstS,2005,0.21358
+EU-15,root,Tundra_RhoneR,Tundra_RhoneR,2005,1.35006
+EU-15,root,Tundra_Gironde,Tundra_Gironde,2005,0.03857
+EU-15,root,Tundra_EbroR,Tundra_EbroR,2005,0.09203
+Europe_Eastern,root,Tundra_WislaR,Tundra_WislaR,2005,1.23344
+Europe_Eastern,root,Tundra_DnieperR,Tundra_DnieperR,2005,3.05364
+Europe_Non_EU,root,Tundra_BlackSeaS,Tundra_BlackSeaS,2005,1.09952
+Europe_Non_EU,root,Tundra_CaspianSW,Tundra_CaspianSW,2005,0.14668
+Europe_Non_EU,root,Tundra_TigrEuphR,Tundra_TigrEuphR,2005,0.28982
+European Free Trade Association,root,Tundra_ScndnvN,Tundra_ScndnvN,2005,46.22791
+European Free Trade Association,root,Tundra_Iceland,Tundra_Iceland,2005,28.15384
+European Free Trade Association,root,Tundra_Sweden,Tundra_Sweden,2005,2.81617
+European Free Trade Association,root,Tundra_RhineR,Tundra_RhineR,2005,0.60741
+European Free Trade Association,root,Tundra_DanubeR,Tundra_DanubeR,2005,0.27026
+European Free Trade Association,root,Tundra_PoR,Tundra_PoR,2005,0.44968
+European Free Trade Association,root,Tundra_RhoneR,Tundra_RhoneR,2005,0.25488
+India,root,Tundra_IndusR,Tundra_IndusR,2005,20.43928
+India,root,Tundra_GangesR,Tundra_GangesR,2005,5.29451
+Japan,root,Tundra_Japan,Tundra_Japan,2005,0.09005
+Mexico,root,Tundra_YucatanP,Tundra_YucatanP,2005,0.02233
+Mexico,root,Tundra_RioBalsas,Tundra_RioBalsas,2005,0.03639
+Middle East,root,Tundra_CaspianSW,Tundra_CaspianSW,2005,0.05622
+Pakistan,root,Tundra_IndusR,Tundra_IndusR,2005,27.36078
+Russia,root,Tundra_ArcticIsl,Tundra_ArcticIsl,2005,19.90191
+Russia,root,Tundra_SiberiaN,Tundra_SiberiaN,2005,579.77232
+Russia,root,Tundra_SiberiaW,Tundra_SiberiaW,2005,676.40336
+Russia,root,Tundra_KaraSea,Tundra_KaraSea,2005,292.54792
+Russia,root,Tundra_LenaR,Tundra_LenaR,2005,67.07648
+Russia,root,Tundra_ScndnvN,Tundra_ScndnvN,2005,1.75942
+Russia,root,Tundra_BarentsSea,Tundra_BarentsSea,2005,14.76839
+Russia,root,Tundra_NevaR,Tundra_NevaR,2005,1.59205
+Russia,root,Tundra_VolgaR,Tundra_VolgaR,2005,2.86184
+Russia,root,Tundra_BalticSea,Tundra_BalticSea,2005,0.07946
+Russia,root,Tundra_NemanR,Tundra_NemanR,2005,0.01306
+Russia,root,Tundra_Gobi,Tundra_Gobi,2005,0.24153
+Russia,root,Tundra_AmurR,Tundra_AmurR,2005,4.85477
+Russia,root,Tundra_CaspianNE,Tundra_CaspianNE,2005,9.81397
+Russia,root,Tundra_BlackSeaN,Tundra_BlackSeaN,2005,1.65052
+Russia,root,Tundra_YeniseiR,Tundra_YeniseiR,2005,279.50563
+Russia,root,Tundra_ObR,Tundra_ObR,2005,51.88824
+Russia,root,Tundra_BlackSeaS,Tundra_BlackSeaS,2005,0.36379
+Russia,root,Tundra_CaspianSW,Tundra_CaspianSW,2005,0.17689
+South America_Northern,root,Tundra_SAmerCstN,Tundra_SAmerCstN,2005,2.60355
+South America_Northern,root,Tundra_OrinocoR,Tundra_OrinocoR,2005,1.79542
+South America_Southern,root,Tundra_ColEcuaCst,Tundra_ColEcuaCst,2005,3.53417
+South America_Southern,root,Tundra_AmazonR,Tundra_AmazonR,2005,26.73953
+South America_Southern,root,Tundra_ChileCstS,Tundra_ChileCstS,2005,17.15426
+South America_Southern,root,Tundra_PeruCst,Tundra_PeruCst,2005,40.16684
+South America_Southern,root,Tundra_LaPuna,Tundra_LaPuna,2005,75.13797
+South America_Southern,root,Tundra_RioLaPlata,Tundra_RioLaPlata,2005,11.44302
+South America_Southern,root,Tundra_ChileCstN,Tundra_ChileCstN,2005,7.01252
+South America_Southern,root,Tundra_NegroR,Tundra_NegroR,2005,0.08324
+South Asia,root,Tundra_AmuDaryaR,Tundra_AmuDaryaR,2005,6.46993
+South Asia,root,Tundra_IndusR,Tundra_IndusR,2005,1.43555
+South Asia,root,Tundra_GangesR,Tundra_GangesR,2005,12.11453
+Southeast Asia,root,Tundra_GangesR,Tundra_GangesR,2005,0.28792
+Southeast Asia,root,Tundra_IrrawaddyR,Tundra_IrrawaddyR,2005,0.78791
+Argentina,root,Tundra_ChileCstS,Tundra_ChileCstS,2005,5.22806
+Argentina,root,Tundra_LaPuna,Tundra_LaPuna,2005,3.63134
+Argentina,root,Tundra_MarChiq,Tundra_MarChiq,2005,1.33202
+Argentina,root,Tundra_RioLaPlata,Tundra_RioLaPlata,2005,5.55381
+Argentina,root,Tundra_ArgCstN,Tundra_ArgCstN,2005,0.07304
+Argentina,root,Tundra_ArgColoR,Tundra_ArgColoR,2005,11.55021
+Argentina,root,Tundra_NegroR,Tundra_NegroR,2005,1.79435
+Argentina,root,Tundra_ArgCstS,Tundra_ArgCstS,2005,2.16107
+Colombia,root,Tundra_SAmerCstN,Tundra_SAmerCstN,2005,0.60601
+Colombia,root,Tundra_OrinocoR,Tundra_OrinocoR,2005,0.19987
+Colombia,root,Tundra_ColEcuaCst,Tundra_ColEcuaCst,2005,0.41804
+Colombia,root,Tundra_MagdalenaR,Tundra_MagdalenaR,2005,0.85314
+Colombia,root,Tundra_AmazonR,Tundra_AmazonR,2005,0.29018
+USA,root,RockIceDesert_PacArctic,RockIceDesert_PacArctic,2005,71.66212
+USA,root,RockIceDesert_California,RockIceDesert_California,2005,1.01921
+USA,root,RockIceDesert_GreatBasin,RockIceDesert_GreatBasin,2005,10.19037
+USA,root,RockIceDesert_RioGrande,RockIceDesert_RioGrande,2005,0.02134
+Africa_Eastern,root,RockIceDesert_NileR,RockIceDesert_NileR,2005,635.68058
+Africa_Eastern,root,RockIceDesert_AfrCstNE,RockIceDesert_AfrCstNE,2005,162.09062
+Africa_Eastern,root,RockIceDesert_AfrIntN,RockIceDesert_AfrIntN,2005,289.87216
+Africa_Eastern,root,RockIceDesert_LChad,RockIceDesert_LChad,2005,2.1121
+Africa_Eastern,root,RockIceDesert_ShebJubR,RockIceDesert_ShebJubR,2005,15.14207
+Africa_Eastern,root,RockIceDesert_Madasgacar,RockIceDesert_Madasgacar,2005,0.57405
+Africa_Eastern,root,RockIceDesert_RiftValley,RockIceDesert_RiftValley,2005,75.4557
+Africa_Northern,root,RockIceDesert_MeditE,RockIceDesert_MeditE,2005,35.68096
+Africa_Northern,root,RockIceDesert_MeditS,RockIceDesert_MeditS,2005,198.40985
+Africa_Northern,root,RockIceDesert_AfrCstNW,RockIceDesert_AfrCstNW,2005,269.2591
+Africa_Northern,root,RockIceDesert_NileR,RockIceDesert_NileR,2005,214.37484
+Africa_Northern,root,RockIceDesert_DeadSea,RockIceDesert_DeadSea,2005,2.16021
+Africa_Northern,root,RockIceDesert_SinaiP,RockIceDesert_SinaiP,2005,22.61304
+Africa_Northern,root,RockIceDesert_AfrCstNE,RockIceDesert_AfrCstNE,2005,66.81981
+Africa_Northern,root,RockIceDesert_AfrIntN,RockIceDesert_AfrIntN,2005,3634.42304
+Africa_Northern,root,RockIceDesert_NigerR,RockIceDesert_NigerR,2005,159.26072
+Africa_Northern,root,RockIceDesert_LChad,RockIceDesert_LChad,2005,117.64615
+Africa_Southern,root,RockIceDesert_NileR,RockIceDesert_NileR,2005,0.46797
+Africa_Southern,root,RockIceDesert_AfrCstE,RockIceDesert_AfrCstE,2005,0.44686
+Africa_Southern,root,RockIceDesert_RiftValley,RockIceDesert_RiftValley,2005,0.39119
+Africa_Southern,root,RockIceDesert_AngolaCst,RockIceDesert_AngolaCst,2005,11.58364
+Africa_Southern,root,RockIceDesert_CongoR,RockIceDesert_CongoR,2005,0.33321
+Africa_Southern,root,RockIceDesert_ZambeziR,RockIceDesert_ZambeziR,2005,2.60793
+Africa_Southern,root,RockIceDesert_AfrCstSE,RockIceDesert_AfrCstSE,2005,0.24935
+Africa_Southern,root,RockIceDesert_OrangeR,RockIceDesert_OrangeR,2005,14.56364
+Africa_Southern,root,RockIceDesert_AfrCstSW,RockIceDesert_AfrCstSW,2005,91.40602
+Africa_Southern,root,RockIceDesert_AfrIntS,RockIceDesert_AfrIntS,2005,13.00303
+Africa_Southern,root,RockIceDesert_AfrCstS,RockIceDesert_AfrCstS,2005,0.07676
+Africa_Western,root,RockIceDesert_AfrCstNW,RockIceDesert_AfrCstNW,2005,238.01949
+Africa_Western,root,RockIceDesert_NileR,RockIceDesert_NileR,2005,0.53135
+Africa_Western,root,RockIceDesert_AfrCstW,RockIceDesert_AfrCstW,2005,0.88603
+Africa_Western,root,RockIceDesert_AfrIntN,RockIceDesert_AfrIntN,2005,1079.94063
+Africa_Western,root,RockIceDesert_NigerR,RockIceDesert_NigerR,2005,296.52984
+Africa_Western,root,RockIceDesert_LChad,RockIceDesert_LChad,2005,1047.76388
+Africa_Western,root,RockIceDesert_SenegalR,RockIceDesert_SenegalR,2005,49.66975
+Africa_Western,root,RockIceDesert_VoltaR,RockIceDesert_VoltaR,2005,1.40463
+Africa_Western,root,RockIceDesert_GuineaGulf,RockIceDesert_GuineaGulf,2005,1.8415
+Africa_Western,root,RockIceDesert_CongoR,RockIceDesert_CongoR,2005,5.39103
+Australia_NZ,root,RockIceDesert_AusCstN,RockIceDesert_AusCstN,2005,0.45171
+Australia_NZ,root,RockIceDesert_AusCstW,RockIceDesert_AusCstW,2005,0.37283
+Australia_NZ,root,RockIceDesert_AusInt,RockIceDesert_AusInt,2005,14.26429
+Australia_NZ,root,RockIceDesert_NewZealand,RockIceDesert_NewZealand,2005,0.41243
+Australia_NZ,root,RockIceDesert_AusCstS,RockIceDesert_AusCstS,2005,2.00465
+Brazil,root,RockIceDesert_SAmerCstNE,RockIceDesert_SAmerCstNE,2005,0.05355
+Brazil,root,RockIceDesert_AmazonR,RockIceDesert_AmazonR,2005,2.52572
+Brazil,root,RockIceDesert_BrzCstN,RockIceDesert_BrzCstN,2005,0.86093
+Brazil,root,RockIceDesert_TocantinsR,RockIceDesert_TocantinsR,2005,0.04334
+Brazil,root,RockIceDesert_BrzCstE,RockIceDesert_BrzCstE,2005,1.52322
+Brazil,root,RockIceDesert_SaoFrancR,RockIceDesert_SaoFrancR,2005,0.2389
+Brazil,root,RockIceDesert_BrzCstS,RockIceDesert_BrzCstS,2005,0.25075
+Brazil,root,RockIceDesert_RioLaPlata,RockIceDesert_RioLaPlata,2005,0.14111
+Canada,root,RockIceDesert_NWTerr,RockIceDesert_NWTerr,2005,436.89842
+Canada,root,RockIceDesert_PacArctic,RockIceDesert_PacArctic,2005,26.48591
+Canada,root,RockIceDesert_Mackenzie,RockIceDesert_Mackenzie,2005,1.23259
+Canada,root,RockIceDesert_HudsonBay,RockIceDesert_HudsonBay,2005,1.23522
+Canada,root,RockIceDesert_CanAtl,RockIceDesert_CanAtl,2005,1.54808
+Canada,root,RockIceDesert_NelsonR,RockIceDesert_NelsonR,2005,0.13251
+Canada,root,RockIceDesert_FraserR,RockIceDesert_FraserR,2005,0.28947
+Canada,root,RockIceDesert_UsaPacNW,RockIceDesert_UsaPacNW,2005,0.55562
+Central Asia,root,RockIceDesert_Gobi,RockIceDesert_Gobi,2005,124.52056
+Central Asia,root,RockIceDesert_CaspianNE,RockIceDesert_CaspianNE,2005,15.79892
+Central Asia,root,RockIceDesert_CaspianE,RockIceDesert_CaspianE,2005,174.20251
+Central Asia,root,RockIceDesert_ObR,RockIceDesert_ObR,2005,16.45402
+Central Asia,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,2005,87.43077
+Central Asia,root,RockIceDesert_LBalkash,RockIceDesert_LBalkash,2005,18.04228
+Central Asia,root,RockIceDesert_BlackSeaS,RockIceDesert_BlackSeaS,2005,0.31916
+Central Asia,root,RockIceDesert_CaspianSW,RockIceDesert_CaspianSW,2005,0.74314
+Central Asia,root,RockIceDesert_SyrDaryaR,RockIceDesert_SyrDaryaR,2005,19.41891
+Central Asia,root,RockIceDesert_Tarim,RockIceDesert_Tarim,2005,7.97978
+China,root,RockIceDesert_Gobi,RockIceDesert_Gobi,2005,333.82291
+China,root,RockIceDesert_ObR,RockIceDesert_ObR,2005,2.32429
+China,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,2005,0.17974
+China,root,RockIceDesert_BoHai,RockIceDesert_BoHai,2005,0.11912
+China,root,RockIceDesert_LBalkash,RockIceDesert_LBalkash,2005,0.89409
+China,root,RockIceDesert_ZiyaHe,RockIceDesert_ZiyaHe,2005,2.00202
+China,root,RockIceDesert_ChinaCst,RockIceDesert_ChinaCst,2005,0.78646
+China,root,RockIceDesert_HuangHeR,RockIceDesert_HuangHeR,2005,3.12713
+China,root,RockIceDesert_Tarim,RockIceDesert_Tarim,2005,801.66299
+China,root,RockIceDesert_IndusR,RockIceDesert_IndusR,2005,5.05675
+China,root,RockIceDesert_Tibet,RockIceDesert_Tibet,2005,2.70862
+China,root,RockIceDesert_Yangtze,RockIceDesert_Yangtze,2005,4.5568
+China,root,RockIceDesert_GangesR,RockIceDesert_GangesR,2005,10.12496
+China,root,RockIceDesert_SChinaSea,RockIceDesert_SChinaSea,2005,0.01076
+China,root,RockIceDesert_Mekong,RockIceDesert_Mekong,2005,0.05399
+China,root,RockIceDesert_Salween,RockIceDesert_Salween,2005,0.7881
+EU-15,root,RockIceDesert_ArcticIsl,RockIceDesert_ArcticIsl,2005,1673.74936
+EU-15,root,RockIceDesert_Sweden,RockIceDesert_Sweden,2005,0.20037
+EU-15,root,RockIceDesert_DanubeR,RockIceDesert_DanubeR,2005,0.39728
+EU-15,root,RockIceDesert_PoR,RockIceDesert_PoR,2005,0.4674
+EU-15,root,RockIceDesert_FranceCstS,RockIceDesert_FranceCstS,2005,0.03004
+EU-15,root,RockIceDesert_RhoneR,RockIceDesert_RhoneR,2005,0.15409
+Europe_Eastern,root,RockIceDesert_DnieperR,RockIceDesert_DnieperR,2005,0.02268
+Europe_Non_EU,root,RockIceDesert_MeditE,RockIceDesert_MeditE,2005,0.40548
+European Free Trade Association,root,RockIceDesert_ScndnvN,RockIceDesert_ScndnvN,2005,4.1943
+European Free Trade Association,root,RockIceDesert_Iceland,RockIceDesert_Iceland,2005,22.17194
+European Free Trade Association,root,RockIceDesert_Sweden,RockIceDesert_Sweden,2005,0.14801
+European Free Trade Association,root,RockIceDesert_RhineR,RockIceDesert_RhineR,2005,0.38422
+European Free Trade Association,root,RockIceDesert_PoR,RockIceDesert_PoR,2005,0.07846
+European Free Trade Association,root,RockIceDesert_RhoneR,RockIceDesert_RhoneR,2005,0.63826
+India,root,RockIceDesert_IndusR,RockIceDesert_IndusR,2005,40.70149
+India,root,RockIceDesert_SabarmatiR,RockIceDesert_SabarmatiR,2005,60.29101
+India,root,RockIceDesert_GangesR,RockIceDesert_GangesR,2005,6.36893
+India,root,RockIceDesert_IndCstE,RockIceDesert_IndCstE,2005,0.03935
+India,root,RockIceDesert_IndCstS,RockIceDesert_IndCstS,2005,0.0854
+Mexico,root,RockIceDesert_MexBaja,RockIceDesert_MexBaja,2005,1.06575
+Mexico,root,RockIceDesert_UsaColoRS,RockIceDesert_UsaColoRS,2005,0.03429
+Middle East,root,RockIceDesert_CaspianE,RockIceDesert_CaspianE,2005,5.4972
+Middle East,root,RockIceDesert_CaspianSW,RockIceDesert_CaspianSW,2005,0.64688
+Middle East,root,RockIceDesert_MeditE,RockIceDesert_MeditE,2005,0.43525
+Middle East,root,RockIceDesert_Iran,RockIceDesert_Iran,2005,438.97296
+Middle East,root,RockIceDesert_TigrEuphR,RockIceDesert_TigrEuphR,2005,200.30624
+Middle East,root,RockIceDesert_PersianGulf,RockIceDesert_PersianGulf,2005,32.41639
+Middle East,root,RockIceDesert_FarahrudR,RockIceDesert_FarahrudR,2005,19.4839
+Middle East,root,RockIceDesert_RedSeaE,RockIceDesert_RedSeaE,2005,103.88629
+Middle East,root,RockIceDesert_ArabianP,RockIceDesert_ArabianP,2005,1098.52508
+Middle East,root,RockIceDesert_DeadSea,RockIceDesert_DeadSea,2005,7.87152
+Middle East,root,RockIceDesert_Helmand,RockIceDesert_Helmand,2005,9.80139
+Middle East,root,RockIceDesert_SinaiP,RockIceDesert_SinaiP,2005,3.89884
+Middle East,root,RockIceDesert_EJrdnSyr,RockIceDesert_EJrdnSyr,2005,47.4493
+Middle East,root,RockIceDesert_HamuMashR,RockIceDesert_HamuMashR,2005,31.67898
+Middle East,root,RockIceDesert_ArabianSea,RockIceDesert_ArabianSea,2005,66.14186
+Pakistan,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,2005,0.06883
+Pakistan,root,RockIceDesert_Tarim,RockIceDesert_Tarim,2005,1.78369
+Pakistan,root,RockIceDesert_IndusR,RockIceDesert_IndusR,2005,66.28213
+Pakistan,root,RockIceDesert_Helmand,RockIceDesert_Helmand,2005,8.27405
+Pakistan,root,RockIceDesert_HamuMashR,RockIceDesert_HamuMashR,2005,96.45148
+Pakistan,root,RockIceDesert_ArabianSea,RockIceDesert_ArabianSea,2005,74.60091
+Pakistan,root,RockIceDesert_SabarmatiR,RockIceDesert_SabarmatiR,2005,39.37017
+Russia,root,RockIceDesert_ArcticIsl,RockIceDesert_ArcticIsl,2005,31.52368
+Russia,root,RockIceDesert_SiberiaN,RockIceDesert_SiberiaN,2005,32.55645
+Russia,root,RockIceDesert_SiberiaW,RockIceDesert_SiberiaW,2005,30.99152
+Russia,root,RockIceDesert_KaraSea,RockIceDesert_KaraSea,2005,0.06829
+Russia,root,RockIceDesert_LenaR,RockIceDesert_LenaR,2005,3.34632
+Russia,root,RockIceDesert_BarentsSea,RockIceDesert_BarentsSea,2005,0.06836
+Russia,root,RockIceDesert_Gobi,RockIceDesert_Gobi,2005,0.05486
+Russia,root,RockIceDesert_CaspianNE,RockIceDesert_CaspianNE,2005,0.80131
+Russia,root,RockIceDesert_BlackSeaN,RockIceDesert_BlackSeaN,2005,0.06173
+Russia,root,RockIceDesert_YeniseiR,RockIceDesert_YeniseiR,2005,0.76233
+Russia,root,RockIceDesert_ObR,RockIceDesert_ObR,2005,1.43
+Russia,root,RockIceDesert_BlackSeaS,RockIceDesert_BlackSeaS,2005,0.06267
+South Africa,root,RockIceDesert_OrangeR,RockIceDesert_OrangeR,2005,2.05029
+South Africa,root,RockIceDesert_AfrCstSW,RockIceDesert_AfrCstSW,2005,0.69607
+South Africa,root,RockIceDesert_AfrCstS,RockIceDesert_AfrCstS,2005,0.47767
+South Africa,root,RockIceDesert_AfrCstSSW,RockIceDesert_AfrCstSSW,2005,0.51231
+South America_Northern,root,RockIceDesert_SAmerCstN,RockIceDesert_SAmerCstN,2005,1.88606
+South America_Northern,root,RockIceDesert_OrinocoR,RockIceDesert_OrinocoR,2005,0.92459
+South America_Northern,root,RockIceDesert_SAmerCstNE,RockIceDesert_SAmerCstNE,2005,0.14563
+South America_Southern,root,RockIceDesert_ColEcuaCst,RockIceDesert_ColEcuaCst,2005,1.14544
+South America_Southern,root,RockIceDesert_AmazonR,RockIceDesert_AmazonR,2005,0.57809
+South America_Southern,root,RockIceDesert_ChileCstS,RockIceDesert_ChileCstS,2005,28.4622
+South America_Southern,root,RockIceDesert_PeruCst,RockIceDesert_PeruCst,2005,96.66194
+South America_Southern,root,RockIceDesert_LaPuna,RockIceDesert_LaPuna,2005,42.26451
+South America_Southern,root,RockIceDesert_Salinas,RockIceDesert_Salinas,2005,0.22937
+South America_Southern,root,RockIceDesert_RioLaPlata,RockIceDesert_RioLaPlata,2005,0.35095
+South America_Southern,root,RockIceDesert_ChileCstN,RockIceDesert_ChileCstN,2005,147.09049
+South America_Southern,root,RockIceDesert_ArgColoR,RockIceDesert_ArgColoR,2005,1.40357
+South America_Southern,root,RockIceDesert_ArgCstS,RockIceDesert_ArgCstS,2005,1.19615
+South Asia,root,RockIceDesert_CaspianE,RockIceDesert_CaspianE,2005,1.0783
+South Asia,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,2005,15.02195
+South Asia,root,RockIceDesert_IndusR,RockIceDesert_IndusR,2005,1.94922
+South Asia,root,RockIceDesert_FarahrudR,RockIceDesert_FarahrudR,2005,5.96674
+South Asia,root,RockIceDesert_Helmand,RockIceDesert_Helmand,2005,56.16422
+South Asia,root,RockIceDesert_HamuMashR,RockIceDesert_HamuMashR,2005,5.60993
+South Asia,root,RockIceDesert_GangesR,RockIceDesert_GangesR,2005,6.3923
+Southeast Asia,root,RockIceDesert_GangesR,RockIceDesert_GangesR,2005,0.05461
+Southeast Asia,root,RockIceDesert_Mekong,RockIceDesert_Mekong,2005,0.18867
+Southeast Asia,root,RockIceDesert_VietnamCst,RockIceDesert_VietnamCst,2005,0.09973
+Southeast Asia,root,RockIceDesert_SittaungR,RockIceDesert_SittaungR,2005,0.07167
+Southeast Asia,root,RockIceDesert_MalaysiaP,RockIceDesert_MalaysiaP,2005,0.03972
+Southeast Asia,root,RockIceDesert_ChaoPhrR,RockIceDesert_ChaoPhrR,2005,0.10751
+Argentina,root,RockIceDesert_ChileCstS,RockIceDesert_ChileCstS,2005,2.2024
+Argentina,root,RockIceDesert_LaPuna,RockIceDesert_LaPuna,2005,41.67178
+Argentina,root,RockIceDesert_MarChiq,RockIceDesert_MarChiq,2005,3.90122
+Argentina,root,RockIceDesert_Salinas,RockIceDesert_Salinas,2005,18.77461
+Argentina,root,RockIceDesert_RioLaPlata,RockIceDesert_RioLaPlata,2005,2.63732
+Argentina,root,RockIceDesert_ChileCstN,RockIceDesert_ChileCstN,2005,1.88479
+Argentina,root,RockIceDesert_Pampas,RockIceDesert_Pampas,2005,0.04596
+Argentina,root,RockIceDesert_ArgColoR,RockIceDesert_ArgColoR,2005,58.27659
+Argentina,root,RockIceDesert_NegroR,RockIceDesert_NegroR,2005,0.35672
+Argentina,root,RockIceDesert_Patagonia,RockIceDesert_Patagonia,2005,0.19575
+Argentina,root,RockIceDesert_ArgCstS,RockIceDesert_ArgCstS,2005,7.1566
+Colombia,root,RockIceDesert_SAmerCstN,RockIceDesert_SAmerCstN,2005,1.18416
+Colombia,root,RockIceDesert_MagdalenaR,RockIceDesert_MagdalenaR,2005,0.06792
+USA,root,UrbanLand_PacArctic,UrbanLand_PacArctic,2010,0.392
+USA,root,UrbanLand_NelsonR,UrbanLand_NelsonR,2010,0.38939
+USA,root,UrbanLand_MexCstNW,UrbanLand_MexCstNW,2010,0.02267
+USA,root,UrbanLand_Caribbean,UrbanLand_Caribbean,2010,2.62328
+USA,root,UrbanLand_California,UrbanLand_California,2010,22.46082
+USA,root,UrbanLand_MissppRN,UrbanLand_MissppRN,2010,14.89122
+USA,root,UrbanLand_MissppRS,UrbanLand_MissppRS,2010,4.92178
+USA,root,UrbanLand_UsaColoRN,UrbanLand_UsaColoRN,2010,0.40217
+USA,root,UrbanLand_UsaColoRS,UrbanLand_UsaColoRS,2010,5.17941
+USA,root,UrbanLand_GreatBasin,UrbanLand_GreatBasin,2010,2.36625
+USA,root,UrbanLand_MissouriR,UrbanLand_MissouriR,2010,8.12224
+USA,root,UrbanLand_ArkWhtRedR,UrbanLand_ArkWhtRedR,2010,6.31106
+USA,root,UrbanLand_TexasCst,UrbanLand_TexasCst,2010,13.65456
+USA,root,UrbanLand_UsaCstSE,UrbanLand_UsaCstSE,2010,28.95497
+USA,root,UrbanLand_GreatLakes,UrbanLand_GreatLakes,2010,16.4648
+USA,root,UrbanLand_OhioR,UrbanLand_OhioR,2010,16.00635
+USA,root,UrbanLand_UsaPacNW,UrbanLand_UsaPacNW,2010,7.63515
+USA,root,UrbanLand_TennR,UrbanLand_TennR,2010,3.1963
+USA,root,UrbanLand_RioGrande,UrbanLand_RioGrande,2010,2.56373
+USA,root,UrbanLand_UsaCstNE,UrbanLand_UsaCstNE,2010,8.10419
+USA,root,UrbanLand_UsaCstE,UrbanLand_UsaCstE,2010,26.97649
+Africa_Eastern,root,UrbanLand_NileR,UrbanLand_NileR,2010,4.52914
+Africa_Eastern,root,UrbanLand_AfrCstNE,UrbanLand_AfrCstNE,2010,0.36618
+Africa_Eastern,root,UrbanLand_AfrIntN,UrbanLand_AfrIntN,2010,0.00092
+Africa_Eastern,root,UrbanLand_LChad,UrbanLand_LChad,2010,0.15399
+Africa_Eastern,root,UrbanLand_ShebJubR,UrbanLand_ShebJubR,2010,0.26211
+Africa_Eastern,root,UrbanLand_AfrCstE,UrbanLand_AfrCstE,2010,0.40221
+Africa_Eastern,root,UrbanLand_Madasgacar,UrbanLand_Madasgacar,2010,0.18441
+Africa_Eastern,root,UrbanLand_RiftValley,UrbanLand_RiftValley,2010,0.7412
+Africa_Eastern,root,UrbanLand_CongoR,UrbanLand_CongoR,2010,0.10252
+Africa_Northern,root,UrbanLand_MeditE,UrbanLand_MeditE,2010,0.03659
+Africa_Northern,root,UrbanLand_MeditS,UrbanLand_MeditS,2010,3.11972
+Africa_Northern,root,UrbanLand_AfrCstNW,UrbanLand_AfrCstNW,2010,8.52732
+Africa_Northern,root,UrbanLand_NileR,UrbanLand_NileR,2010,2.72065
+Africa_Northern,root,UrbanLand_SinaiP,UrbanLand_SinaiP,2010,0.00157
+Africa_Northern,root,UrbanLand_AfrIntN,UrbanLand_AfrIntN,2010,2.07789
+Africa_Northern,root,UrbanLand_NigerR,UrbanLand_NigerR,2010,0.05002
+Africa_Northern,root,UrbanLand_LChad,UrbanLand_LChad,2010,0.00286
+Africa_Southern,root,UrbanLand_NileR,UrbanLand_NileR,2010,0.20935
+Africa_Southern,root,UrbanLand_GuineaGulf,UrbanLand_GuineaGulf,2010,0.0037
+Africa_Southern,root,UrbanLand_AfrCstE,UrbanLand_AfrCstE,2010,1.11101
+Africa_Southern,root,UrbanLand_RiftValley,UrbanLand_RiftValley,2010,0.14017
+Africa_Southern,root,UrbanLand_AngolaCst,UrbanLand_AngolaCst,2010,0.56152
+Africa_Southern,root,UrbanLand_CongoR,UrbanLand_CongoR,2010,0.33459
+Africa_Southern,root,UrbanLand_ZambeziR,UrbanLand_ZambeziR,2010,2.22564
+Africa_Southern,root,UrbanLand_AfrCstSE,UrbanLand_AfrCstSE,2010,0.64924
+Africa_Southern,root,UrbanLand_OrangeR,UrbanLand_OrangeR,2010,0.3722
+Africa_Southern,root,UrbanLand_AfrCstSW,UrbanLand_AfrCstSW,2010,0.06406
+Africa_Southern,root,UrbanLand_AfrIntS,UrbanLand_AfrIntS,2010,0.46292
+Africa_Southern,root,UrbanLand_AfrCstS,UrbanLand_AfrCstS,2010,0.12928
+Africa_Southern,root,UrbanLand_LimpopoR,UrbanLand_LimpopoR,2010,0.74438
+Africa_Western,root,UrbanLand_AfrCstNW,UrbanLand_AfrCstNW,2010,0.0485
+Africa_Western,root,UrbanLand_NileR,UrbanLand_NileR,2010,0.13733
+Africa_Western,root,UrbanLand_AfrCstW,UrbanLand_AfrCstW,2010,7.11253
+Africa_Western,root,UrbanLand_AfrIntN,UrbanLand_AfrIntN,2010,0.01188
+Africa_Western,root,UrbanLand_NigerR,UrbanLand_NigerR,2010,3.8128
+Africa_Western,root,UrbanLand_LChad,UrbanLand_LChad,2010,1.67234
+Africa_Western,root,UrbanLand_SenegalR,UrbanLand_SenegalR,2010,0.27395
+Africa_Western,root,UrbanLand_VoltaR,UrbanLand_VoltaR,2010,1.64395
+Africa_Western,root,UrbanLand_GuineaGulf,UrbanLand_GuineaGulf,2010,1.93789
+Africa_Western,root,UrbanLand_CongoR,UrbanLand_CongoR,2010,3.09295
+Africa_Western,root,UrbanLand_ZambeziR,UrbanLand_ZambeziR,2010,0
+Australia_NZ,root,UrbanLand_AusCstN,UrbanLand_AusCstN,2010,0.14655
+Australia_NZ,root,UrbanLand_AusCstE,UrbanLand_AusCstE,2010,9.17761
+Australia_NZ,root,UrbanLand_AusCstW,UrbanLand_AusCstW,2010,1.21514
+Australia_NZ,root,UrbanLand_AusInt,UrbanLand_AusInt,2010,0.09217
+Australia_NZ,root,UrbanLand_NewZealand,UrbanLand_NewZealand,2010,1.75399
+Australia_NZ,root,UrbanLand_AusCstS,UrbanLand_AusCstS,2010,0.9698
+Australia_NZ,root,UrbanLand_MurrayDrlg,UrbanLand_MurrayDrlg,2010,1.60061
+Australia_NZ,root,UrbanLand_Tasmania,UrbanLand_Tasmania,2010,0.29591
+Brazil,root,UrbanLand_OrinocoR,UrbanLand_OrinocoR,2010,7e-05
+Brazil,root,UrbanLand_SAmerCstNE,UrbanLand_SAmerCstNE,2010,0.00326
+Brazil,root,UrbanLand_AmazonR,UrbanLand_AmazonR,2010,1.13301
+Brazil,root,UrbanLand_BrzCstN,UrbanLand_BrzCstN,2010,0.83296
+Brazil,root,UrbanLand_TocantinsR,UrbanLand_TocantinsR,2010,1.08594
+Brazil,root,UrbanLand_BrzCstE,UrbanLand_BrzCstE,2010,3.39222
+Brazil,root,UrbanLand_ParnaibaR,UrbanLand_ParnaibaR,2010,0.58472
+Brazil,root,UrbanLand_SaoFrancR,UrbanLand_SaoFrancR,2010,1.77944
+Brazil,root,UrbanLand_BrzCstS,UrbanLand_BrzCstS,2010,7.71612
+Brazil,root,UrbanLand_RioLaPlata,UrbanLand_RioLaPlata,2010,9.54537
+Canada,root,UrbanLand_NWTerr,UrbanLand_NWTerr,2010,0.02254
+Canada,root,UrbanLand_PacArctic,UrbanLand_PacArctic,2010,0.20272
+Canada,root,UrbanLand_Mackenzie,UrbanLand_Mackenzie,2010,0.06264
+Canada,root,UrbanLand_HudsonBay,UrbanLand_HudsonBay,2010,0.03409
+Canada,root,UrbanLand_CanAtl,UrbanLand_CanAtl,2010,0.44596
+Canada,root,UrbanLand_NelsonR,UrbanLand_NelsonR,2010,1.24795
+Canada,root,UrbanLand_FraserR,UrbanLand_FraserR,2010,0.30539
+Canada,root,UrbanLand_ChurchillR,UrbanLand_ChurchillR,2010,0.00659
+Canada,root,UrbanLand_StLwrncR,UrbanLand_StLwrncR,2010,0.1797
+Canada,root,UrbanLand_MissouriR,UrbanLand_MissouriR,2010,0.00096
+Canada,root,UrbanLand_GreatLakes,UrbanLand_GreatLakes,2010,4.44748
+Canada,root,UrbanLand_UsaPacNW,UrbanLand_UsaPacNW,2010,0.38854
+Canada,root,UrbanLand_UsaCstNE,UrbanLand_UsaCstNE,2010,0.08691
+Central America and Caribbean,root,UrbanLand_Caribbean,UrbanLand_Caribbean,2010,2.37448
+Central America and Caribbean,root,UrbanLand_YucatanP,UrbanLand_YucatanP,2010,0.25233
+Central America and Caribbean,root,UrbanLand_GrijUsuR,UrbanLand_GrijUsuR,2010,0.25054
+Central America and Caribbean,root,UrbanLand_CntAmer,UrbanLand_CntAmer,2010,3.31653
+Central America and Caribbean,root,UrbanLand_SAmerCstN,UrbanLand_SAmerCstN,2010,0.00691
+Central America and Caribbean,root,UrbanLand_ColEcuaCst,UrbanLand_ColEcuaCst,2010,0.0112
+Central Asia,root,UrbanLand_VolgaR,UrbanLand_VolgaR,2010,0.00097
+Central Asia,root,UrbanLand_UralR,UrbanLand_UralR,2010,0.20717
+Central Asia,root,UrbanLand_Gobi,UrbanLand_Gobi,2010,0.08721
+Central Asia,root,UrbanLand_AmurR,UrbanLand_AmurR,2010,0.01175
+Central Asia,root,UrbanLand_CaspianNE,UrbanLand_CaspianNE,2010,0.02567
+Central Asia,root,UrbanLand_YeniseiR,UrbanLand_YeniseiR,2010,0.11661
+Central Asia,root,UrbanLand_CaspianE,UrbanLand_CaspianE,2010,0.61052
+Central Asia,root,UrbanLand_ObR,UrbanLand_ObR,2010,0.72481
+Central Asia,root,UrbanLand_AmuDaryaR,UrbanLand_AmuDaryaR,2010,1.55952
+Central Asia,root,UrbanLand_LBalkash,UrbanLand_LBalkash,2010,0.50976
+Central Asia,root,UrbanLand_BlackSeaS,UrbanLand_BlackSeaS,2010,0.12907
+Central Asia,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,2010,1.45443
+Central Asia,root,UrbanLand_SyrDaryaR,UrbanLand_SyrDaryaR,2010,2.82869
+China,root,UrbanLand_RusCstSE,UrbanLand_RusCstSE,2010,0.10729
+China,root,UrbanLand_Gobi,UrbanLand_Gobi,2010,0.55089
+China,root,UrbanLand_AmurR,UrbanLand_AmurR,2010,2.71605
+China,root,UrbanLand_ObR,UrbanLand_ObR,2010,0.0068
+China,root,UrbanLand_BoHai,UrbanLand_BoHai,2010,2.3578
+China,root,UrbanLand_LBalkash,UrbanLand_LBalkash,2010,0.11312
+China,root,UrbanLand_ZiyaHe,UrbanLand_ZiyaHe,2010,5.29102
+China,root,UrbanLand_ChinaCst,UrbanLand_ChinaCst,2010,9.61722
+China,root,UrbanLand_HuangHeR,UrbanLand_HuangHeR,2010,6.46904
+China,root,UrbanLand_Tarim,UrbanLand_Tarim,2010,0.32682
+China,root,UrbanLand_IndusR,UrbanLand_IndusR,2010,0.00034
+China,root,UrbanLand_Tibet,UrbanLand_Tibet,2010,0.00037
+China,root,UrbanLand_Taiwan,UrbanLand_Taiwan,2010,2.04062
+China,root,UrbanLand_Yangtze,UrbanLand_Yangtze,2010,21.11882
+China,root,UrbanLand_XunJiang,UrbanLand_XunJiang,2010,4.06957
+China,root,UrbanLand_Hong,UrbanLand_Hong,2010,0.17451
+China,root,UrbanLand_GangesR,UrbanLand_GangesR,2010,0.08837
+China,root,UrbanLand_SChinaSea,UrbanLand_SChinaSea,2010,0.72979
+China,root,UrbanLand_Hainan,UrbanLand_Hainan,2010,0.25462
+China,root,UrbanLand_Mekong,UrbanLand_Mekong,2010,0.22316
+China,root,UrbanLand_Salween,UrbanLand_Salween,2010,0.12207
+China,root,UrbanLand_IrrawaddyR,UrbanLand_IrrawaddyR,2010,0.09301
+EU-12,root,UrbanLand_BalticSea,UrbanLand_BalticSea,2010,0.47165
+EU-12,root,UrbanLand_DnkGrmCst,UrbanLand_DnkGrmCst,2010,0.00015
+EU-12,root,UrbanLand_NarvaR,UrbanLand_NarvaR,2010,0.11096
+EU-12,root,UrbanLand_DaugavaR,UrbanLand_DaugavaR,2010,0.1923
+EU-12,root,UrbanLand_OderR,UrbanLand_OderR,2010,2.21359
+EU-12,root,UrbanLand_WislaR,UrbanLand_WislaR,2010,2.96711
+EU-12,root,UrbanLand_ElbeR,UrbanLand_ElbeR,2010,1.18754
+EU-12,root,UrbanLand_PolandCst,UrbanLand_PolandCst,2010,0.41682
+EU-12,root,UrbanLand_NemanR,UrbanLand_NemanR,2010,0.43418
+EU-12,root,UrbanLand_DanubeR,UrbanLand_DanubeR,2010,6.15543
+EU-12,root,UrbanLand_AdrBlkSea,UrbanLand_AdrBlkSea,2010,0.49483
+EU-12,root,UrbanLand_MeditE,UrbanLand_MeditE,2010,0.18924
+EU-15,root,UrbanLand_ArcticIsl,UrbanLand_ArcticIsl,2010,0.02377
+EU-15,root,UrbanLand_ScndnvN,UrbanLand_ScndnvN,2010,0.00587
+EU-15,root,UrbanLand_Sweden,UrbanLand_Sweden,2010,2.39098
+EU-15,root,UrbanLand_Finland,UrbanLand_Finland,2010,1.39965
+EU-15,root,UrbanLand_Scotland,UrbanLand_Scotland,2010,1.05946
+EU-15,root,UrbanLand_NevaR,UrbanLand_NevaR,2010,0.00037
+EU-15,root,UrbanLand_DnkGrmCst,UrbanLand_DnkGrmCst,2010,3.24593
+EU-15,root,UrbanLand_Ireland,UrbanLand_Ireland,2010,1.18568
+EU-15,root,UrbanLand_EngWales,UrbanLand_EngWales,2010,11.65606
+EU-15,root,UrbanLand_EmsWeserR,UrbanLand_EmsWeserR,2010,4.33728
+EU-15,root,UrbanLand_OderR,UrbanLand_OderR,2010,0.14396
+EU-15,root,UrbanLand_ElbeR,UrbanLand_ElbeR,2010,6.16645
+EU-15,root,UrbanLand_RhineR,UrbanLand_RhineR,2010,21.72167
+EU-15,root,UrbanLand_ScheldtR,UrbanLand_ScheldtR,2010,4.97627
+EU-15,root,UrbanLand_FranceCstW,UrbanLand_FranceCstW,2010,2.04673
+EU-15,root,UrbanLand_LoireR,UrbanLand_LoireR,2010,2.0248
+EU-15,root,UrbanLand_SeineR,UrbanLand_SeineR,2010,2.97748
+EU-15,root,UrbanLand_ItalyCstE,UrbanLand_ItalyCstE,2010,2.32185
+EU-15,root,UrbanLand_DanubeR,UrbanLand_DanubeR,2010,4.96576
+EU-15,root,UrbanLand_AdrBlkSea,UrbanLand_AdrBlkSea,2010,0.67299
+EU-15,root,UrbanLand_PoR,UrbanLand_PoR,2010,3.60389
+EU-15,root,UrbanLand_ItalyCstW,UrbanLand_ItalyCstW,2010,2.51995
+EU-15,root,UrbanLand_IberiaCst,UrbanLand_IberiaCst,2010,1.604
+EU-15,root,UrbanLand_FranceCstS,UrbanLand_FranceCstS,2010,1.20376
+EU-15,root,UrbanLand_RhoneR,UrbanLand_RhoneR,2010,2.07543
+EU-15,root,UrbanLand_MeditIsl,UrbanLand_MeditIsl,2010,1.15061
+EU-15,root,UrbanLand_Gironde,UrbanLand_Gironde,2010,1.16952
+EU-15,root,UrbanLand_SpainCstSE,UrbanLand_SpainCstSE,2010,1.81141
+EU-15,root,UrbanLand_TiberR,UrbanLand_TiberR,2010,0.87541
+EU-15,root,UrbanLand_TagusR,UrbanLand_TagusR,2010,1.28678
+EU-15,root,UrbanLand_EbroR,UrbanLand_EbroR,2010,0.50653
+EU-15,root,UrbanLand_DouroR,UrbanLand_DouroR,2010,0.68817
+EU-15,root,UrbanLand_GuadianaR,UrbanLand_GuadianaR,2010,0.3162
+EU-15,root,UrbanLand_GuadalqR,UrbanLand_GuadalqR,2010,0.61341
+Europe_Eastern,root,UrbanLand_NevaR,UrbanLand_NevaR,2010,0.00021
+Europe_Eastern,root,UrbanLand_DaugavaR,UrbanLand_DaugavaR,2010,0.1543
+Europe_Eastern,root,UrbanLand_WislaR,UrbanLand_WislaR,2010,0.28402
+Europe_Eastern,root,UrbanLand_NemanR,UrbanLand_NemanR,2010,0.28847
+Europe_Eastern,root,UrbanLand_DnieperR,UrbanLand_DnieperR,2010,3.42119
+Europe_Eastern,root,UrbanLand_BlackSeaN,UrbanLand_BlackSeaN,2010,1.53514
+Europe_Eastern,root,UrbanLand_DniesterR,UrbanLand_DniesterR,2010,0.80127
+Europe_Eastern,root,UrbanLand_DonR,UrbanLand_DonR,2010,0.75931
+Europe_Eastern,root,UrbanLand_DanubeR,UrbanLand_DanubeR,2010,0.36918
+Europe_Non_EU,root,UrbanLand_DanubeR,UrbanLand_DanubeR,2010,1.99435
+Europe_Non_EU,root,UrbanLand_AdrBlkSea,UrbanLand_AdrBlkSea,2010,1.36002
+Europe_Non_EU,root,UrbanLand_BlackSeaS,UrbanLand_BlackSeaS,2010,2.25501
+Europe_Non_EU,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,2010,0.22407
+Europe_Non_EU,root,UrbanLand_MeditE,UrbanLand_MeditE,2010,1.7912
+Europe_Non_EU,root,UrbanLand_TigrEuphR,UrbanLand_TigrEuphR,2010,0.89415
+European Free Trade Association,root,UrbanLand_ScndnvN,UrbanLand_ScndnvN,2010,1.25812
+European Free Trade Association,root,UrbanLand_Iceland,UrbanLand_Iceland,2010,0.04855
+European Free Trade Association,root,UrbanLand_Sweden,UrbanLand_Sweden,2010,0.00817
+European Free Trade Association,root,UrbanLand_RhineR,UrbanLand_RhineR,2010,1.27287
+European Free Trade Association,root,UrbanLand_DanubeR,UrbanLand_DanubeR,2010,0.00614
+European Free Trade Association,root,UrbanLand_PoR,UrbanLand_PoR,2010,0.06755
+European Free Trade Association,root,UrbanLand_RhoneR,UrbanLand_RhoneR,2010,0.29796
+India,root,UrbanLand_IndusR,UrbanLand_IndusR,2010,0.72657
+India,root,UrbanLand_SabarmatiR,UrbanLand_SabarmatiR,2010,1.40899
+India,root,UrbanLand_GangesR,UrbanLand_GangesR,2010,10.85467
+India,root,UrbanLand_MahiR,UrbanLand_MahiR,2010,0.20207
+India,root,UrbanLand_BengalBay,UrbanLand_BengalBay,2010,0.00218
+India,root,UrbanLand_TaptiR,UrbanLand_TaptiR,2010,0.3606
+India,root,UrbanLand_BengalW,UrbanLand_BengalW,2010,0.71016
+India,root,UrbanLand_BrahmaniR,UrbanLand_BrahmaniR,2010,0.24846
+India,root,UrbanLand_MahanadiR,UrbanLand_MahanadiR,2010,0.80134
+India,root,UrbanLand_GodavariR,UrbanLand_GodavariR,2010,1.12154
+India,root,UrbanLand_IndCstNE,UrbanLand_IndCstNE,2010,0.27619
+India,root,UrbanLand_IndCstW,UrbanLand_IndCstW,2010,1.26979
+India,root,UrbanLand_IrrawaddyR,UrbanLand_IrrawaddyR,2010,0.06075
+India,root,UrbanLand_KrishnaR,UrbanLand_KrishnaR,2010,1.69063
+India,root,UrbanLand_IndCstE,UrbanLand_IndCstE,2010,0.90403
+India,root,UrbanLand_PennarR,UrbanLand_PennarR,2010,0.15074
+India,root,UrbanLand_CauveryR,UrbanLand_CauveryR,2010,0.81567
+India,root,UrbanLand_IndCstS,UrbanLand_IndCstS,2010,0.56176
+India,root,UrbanLand_NarmadaR,UrbanLand_NarmadaR,2010,0.34147
+Indonesia,root,UrbanLand_IdnE,UrbanLand_IdnE,2010,0.07132
+Indonesia,root,UrbanLand_BorneoCstN,UrbanLand_BorneoCstN,2010,0.00353
+Indonesia,root,UrbanLand_Sumatra,UrbanLand_Sumatra,2010,2.10686
+Indonesia,root,UrbanLand_Sulawesi,UrbanLand_Sulawesi,2010,0.67068
+Indonesia,root,UrbanLand_Kalimantan,UrbanLand_Kalimantan,2010,0.5613
+Indonesia,root,UrbanLand_IrianJaya,UrbanLand_IrianJaya,2010,0.21476
+Indonesia,root,UrbanLand_JavaTimor,UrbanLand_JavaTimor,2010,6.46511
+Indonesia,root,UrbanLand_SepikR,UrbanLand_SepikR,2010,0.00046
+Indonesia,root,UrbanLand_FlyR,UrbanLand_FlyR,2010,0
+Japan,root,UrbanLand_Japan,UrbanLand_Japan,2010,12.65119
+Mexico,root,UrbanLand_MexBaja,UrbanLand_MexBaja,2010,0.10218
+Mexico,root,UrbanLand_MexCstNW,UrbanLand_MexCstNW,2010,0.70044
+Mexico,root,UrbanLand_MexGulf,UrbanLand_MexGulf,2010,0.41026
+Mexico,root,UrbanLand_YucatanP,UrbanLand_YucatanP,2010,0.32357
+Mexico,root,UrbanLand_MexInt,UrbanLand_MexInt,2010,0.43963
+Mexico,root,UrbanLand_MexCstW,UrbanLand_MexCstW,2010,0.23786
+Mexico,root,UrbanLand_Papaloapan,UrbanLand_Papaloapan,2010,0.64575
+Mexico,root,UrbanLand_RioLerma,UrbanLand_RioLerma,2010,2.07805
+Mexico,root,UrbanLand_RioVerde,UrbanLand_RioVerde,2010,2.93804
+Mexico,root,UrbanLand_GrijUsuR,UrbanLand_GrijUsuR,2010,0.51055
+Mexico,root,UrbanLand_RioBalsas,UrbanLand_RioBalsas,2010,1.56211
+Mexico,root,UrbanLand_CntAmer,UrbanLand_CntAmer,2010,0.05959
+Mexico,root,UrbanLand_Tehuantpc,UrbanLand_Tehuantpc,2010,0.55809
+Mexico,root,UrbanLand_California,UrbanLand_California,2010,0.39189
+Mexico,root,UrbanLand_UsaColoRS,UrbanLand_UsaColoRS,2010,0.08276
+Mexico,root,UrbanLand_RioGrande,UrbanLand_RioGrande,2010,1.24243
+Middle East,root,UrbanLand_CaspianE,UrbanLand_CaspianE,2010,0.64526
+Middle East,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,2010,1.0001
+Middle East,root,UrbanLand_MeditE,UrbanLand_MeditE,2010,1.79155
+Middle East,root,UrbanLand_Iran,UrbanLand_Iran,2010,2.50113
+Middle East,root,UrbanLand_TigrEuphR,UrbanLand_TigrEuphR,2010,3.42328
+Middle East,root,UrbanLand_PersianGulf,UrbanLand_PersianGulf,2010,0.34168
+Middle East,root,UrbanLand_FarahrudR,UrbanLand_FarahrudR,2010,0.0413
+Middle East,root,UrbanLand_RedSeaE,UrbanLand_RedSeaE,2010,2.62702
+Middle East,root,UrbanLand_ArabianP,UrbanLand_ArabianP,2010,4.60136
+Middle East,root,UrbanLand_DeadSea,UrbanLand_DeadSea,2010,0.92026
+Middle East,root,UrbanLand_Helmand,UrbanLand_Helmand,2010,0.06864
+Middle East,root,UrbanLand_SinaiP,UrbanLand_SinaiP,2010,0.01623
+Middle East,root,UrbanLand_EJrdnSyr,UrbanLand_EJrdnSyr,2010,0.64395
+Middle East,root,UrbanLand_AfrCstNE,UrbanLand_AfrCstNE,2010,0
+Middle East,root,UrbanLand_HamuMashR,UrbanLand_HamuMashR,2010,0.0232
+Middle East,root,UrbanLand_ArabianSea,UrbanLand_ArabianSea,2010,0.01516
+Pakistan,root,UrbanLand_Tarim,UrbanLand_Tarim,2010,8e-05
+Pakistan,root,UrbanLand_IndusR,UrbanLand_IndusR,2010,3.9018
+Pakistan,root,UrbanLand_Helmand,UrbanLand_Helmand,2010,0.00172
+Pakistan,root,UrbanLand_HamuMashR,UrbanLand_HamuMashR,2010,0.11729
+Pakistan,root,UrbanLand_ArabianSea,UrbanLand_ArabianSea,2010,0.537
+Pakistan,root,UrbanLand_SabarmatiR,UrbanLand_SabarmatiR,2010,0.26285
+Russia,root,UrbanLand_ArcticIsl,UrbanLand_ArcticIsl,2010,1e-04
+Russia,root,UrbanLand_SiberiaN,UrbanLand_SiberiaN,2010,0.00628
+Russia,root,UrbanLand_SiberiaW,UrbanLand_SiberiaW,2010,0.14943
+Russia,root,UrbanLand_KaraSea,UrbanLand_KaraSea,2010,0.05181
+Russia,root,UrbanLand_LenaR,UrbanLand_LenaR,2010,0.12757
+Russia,root,UrbanLand_ScndnvN,UrbanLand_ScndnvN,2010,0.11635
+Russia,root,UrbanLand_BarentsSea,UrbanLand_BarentsSea,2010,0.15404
+Russia,root,UrbanLand_Finland,UrbanLand_Finland,2010,0.00023
+Russia,root,UrbanLand_DvinaRN,UrbanLand_DvinaRN,2010,0.1817
+Russia,root,UrbanLand_NevaR,UrbanLand_NevaR,2010,0.64595
+Russia,root,UrbanLand_VolgaR,UrbanLand_VolgaR,2010,7.61193
+Russia,root,UrbanLand_BalticSea,UrbanLand_BalticSea,2010,0.25656
+Russia,root,UrbanLand_NarvaR,UrbanLand_NarvaR,2010,0.07371
+Russia,root,UrbanLand_DaugavaR,UrbanLand_DaugavaR,2010,0.01557
+Russia,root,UrbanLand_PolandCst,UrbanLand_PolandCst,2010,0.10221
+Russia,root,UrbanLand_NemanR,UrbanLand_NemanR,2010,0.00798
+Russia,root,UrbanLand_RusCstSE,UrbanLand_RusCstSE,2010,0.19796
+Russia,root,UrbanLand_UralR,UrbanLand_UralR,2010,0.32823
+Russia,root,UrbanLand_DnieperR,UrbanLand_DnieperR,2010,0.50281
+Russia,root,UrbanLand_Gobi,UrbanLand_Gobi,2010,0.00197
+Russia,root,UrbanLand_AmurR,UrbanLand_AmurR,2010,0.49504
+Russia,root,UrbanLand_CaspianNE,UrbanLand_CaspianNE,2010,0.77529
+Russia,root,UrbanLand_BlackSeaN,UrbanLand_BlackSeaN,2010,0.741
+Russia,root,UrbanLand_YeniseiR,UrbanLand_YeniseiR,2010,0.89644
+Russia,root,UrbanLand_DonR,UrbanLand_DonR,2010,1.47326
+Russia,root,UrbanLand_ObR,UrbanLand_ObR,2010,2.85384
+Russia,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,2010,0
+Russia,root,UrbanLand_SyrDaryaR,UrbanLand_SyrDaryaR,2010,0.00054
+South Africa,root,UrbanLand_OrangeR,UrbanLand_OrangeR,2010,1.48326
+South Africa,root,UrbanLand_AfrCstSW,UrbanLand_AfrCstSW,2010,0.00052
+South Africa,root,UrbanLand_AfrCstS,UrbanLand_AfrCstS,2010,2.30383
+South Africa,root,UrbanLand_LimpopoR,UrbanLand_LimpopoR,2010,1.39423
+South Africa,root,UrbanLand_AfrCstSSW,UrbanLand_AfrCstSSW,2010,0.48589
+South America_Northern,root,UrbanLand_SAmerCstN,UrbanLand_SAmerCstN,2010,2.11914
+South America_Northern,root,UrbanLand_OrinocoR,UrbanLand_OrinocoR,2010,1.04403
+South America_Northern,root,UrbanLand_SAmerCstNE,UrbanLand_SAmerCstNE,2010,0.46964
+South America_Northern,root,UrbanLand_AmazonR,UrbanLand_AmazonR,2010,0.00814
+South America_Southern,root,UrbanLand_ColEcuaCst,UrbanLand_ColEcuaCst,2010,1.05288
+South America_Southern,root,UrbanLand_AmazonR,UrbanLand_AmazonR,2010,1.71561
+South America_Southern,root,UrbanLand_ChileCstS,UrbanLand_ChileCstS,2010,0.764
+South America_Southern,root,UrbanLand_PeruCst,UrbanLand_PeruCst,2010,0.9359
+South America_Southern,root,UrbanLand_BrzCstS,UrbanLand_BrzCstS,2010,0.05193
+South America_Southern,root,UrbanLand_LaPuna,UrbanLand_LaPuna,2010,0.14968
+South America_Southern,root,UrbanLand_RioLaPlata,UrbanLand_RioLaPlata,2010,1.09153
+South America_Southern,root,UrbanLand_ChileCstN,UrbanLand_ChileCstN,2010,1.21164
+South America_Southern,root,UrbanLand_ArgCstS,UrbanLand_ArgCstS,2010,0.00089
+South Asia,root,UrbanLand_CaspianE,UrbanLand_CaspianE,2010,0.04786
+South Asia,root,UrbanLand_AmuDaryaR,UrbanLand_AmuDaryaR,2010,0.17292
+South Asia,root,UrbanLand_IndusR,UrbanLand_IndusR,2010,0.16587
+South Asia,root,UrbanLand_FarahrudR,UrbanLand_FarahrudR,2010,0.01128
+South Asia,root,UrbanLand_Helmand,UrbanLand_Helmand,2010,0.10178
+South Asia,root,UrbanLand_GangesR,UrbanLand_GangesR,2010,1.76823
+South Asia,root,UrbanLand_BengalBay,UrbanLand_BengalBay,2010,0.09231
+South Asia,root,UrbanLand_SriLanka,UrbanLand_SriLanka,2010,0.25831
+South Korea,root,UrbanLand_Korea,UrbanLand_Korea,2010,2.16626
+Southeast Asia,root,UrbanLand_RusCstSE,UrbanLand_RusCstSE,2010,0.02096
+Southeast Asia,root,UrbanLand_Korea,UrbanLand_Korea,2010,0.59257
+Southeast Asia,root,UrbanLand_BoHai,UrbanLand_BoHai,2010,0.08416
+Southeast Asia,root,UrbanLand_XunJiang,UrbanLand_XunJiang,2010,0.03373
+Southeast Asia,root,UrbanLand_Hong,UrbanLand_Hong,2010,0.69766
+Southeast Asia,root,UrbanLand_SChinaSea,UrbanLand_SChinaSea,2010,0.00927
+Southeast Asia,root,UrbanLand_BengalBay,UrbanLand_BengalBay,2010,0.05998
+Southeast Asia,root,UrbanLand_Phlppns,UrbanLand_Phlppns,2010,4.1596
+Southeast Asia,root,UrbanLand_Mekong,UrbanLand_Mekong,2010,2.80597
+Southeast Asia,root,UrbanLand_VietnamCst,UrbanLand_VietnamCst,2010,0.90772
+Southeast Asia,root,UrbanLand_Salween,UrbanLand_Salween,2010,0.13861
+Southeast Asia,root,UrbanLand_IrrawaddyR,UrbanLand_IrrawaddyR,2010,0.85258
+Southeast Asia,root,UrbanLand_SittaungR,UrbanLand_SittaungR,2010,0.34532
+Southeast Asia,root,UrbanLand_MalaysiaP,UrbanLand_MalaysiaP,2010,4.4992
+Southeast Asia,root,UrbanLand_ChaoPhrR,UrbanLand_ChaoPhrR,2010,1.37698
+Southeast Asia,root,UrbanLand_ThaiGulf,UrbanLand_ThaiGulf,2010,0.2773
+Southeast Asia,root,UrbanLand_BorneoCstN,UrbanLand_BorneoCstN,2010,0.90381
+Southeast Asia,root,UrbanLand_Kalimantan,UrbanLand_Kalimantan,2010,0.00377
+Southeast Asia,root,UrbanLand_IrianJaya,UrbanLand_IrianJaya,2010,0.00296
+Southeast Asia,root,UrbanLand_PapuaCst,UrbanLand_PapuaCst,2010,0.06032
+Southeast Asia,root,UrbanLand_JavaTimor,UrbanLand_JavaTimor,2010,1.32505
+Southeast Asia,root,UrbanLand_SepikR,UrbanLand_SepikR,2010,0.00025
+Southeast Asia,root,UrbanLand_FlyR,UrbanLand_FlyR,2010,0
+Argentina,root,UrbanLand_ChileCstS,UrbanLand_ChileCstS,2010,0.02368
+Argentina,root,UrbanLand_LaPuna,UrbanLand_LaPuna,2010,0.00198
+Argentina,root,UrbanLand_MarChiq,UrbanLand_MarChiq,2010,0.67473
+Argentina,root,UrbanLand_Salinas,UrbanLand_Salinas,2010,0.14643
+Argentina,root,UrbanLand_RioLaPlata,UrbanLand_RioLaPlata,2010,3.89068
+Argentina,root,UrbanLand_Pampas,UrbanLand_Pampas,2010,0.13264
+Argentina,root,UrbanLand_ArgCstN,UrbanLand_ArgCstN,2010,0.46553
+Argentina,root,UrbanLand_ArgColoR,UrbanLand_ArgColoR,2010,0.44307
+Argentina,root,UrbanLand_NegroR,UrbanLand_NegroR,2010,0.16926
+Argentina,root,UrbanLand_Patagonia,UrbanLand_Patagonia,2010,0.00387
+Argentina,root,UrbanLand_ArgCstS,UrbanLand_ArgCstS,2010,0.11718
+Colombia,root,UrbanLand_SAmerCstN,UrbanLand_SAmerCstN,2010,0.25825
+Colombia,root,UrbanLand_OrinocoR,UrbanLand_OrinocoR,2010,0.08728
+Colombia,root,UrbanLand_ColEcuaCst,UrbanLand_ColEcuaCst,2010,0.12156
+Colombia,root,UrbanLand_MagdalenaR,UrbanLand_MagdalenaR,2010,1.57381
+Colombia,root,UrbanLand_AmazonR,UrbanLand_AmazonR,2010,0.04341
+USA,root,Tundra_PacArctic,Tundra_PacArctic,2010,254.99421
+USA,root,Tundra_California,Tundra_California,2010,2.31956
+USA,root,Tundra_UsaColoRN,Tundra_UsaColoRN,2010,0.15169
+USA,root,Tundra_GreatBasin,Tundra_GreatBasin,2010,0.09052
+USA,root,Tundra_MissouriR,Tundra_MissouriR,2010,0.84807
+USA,root,Tundra_UsaPacNW,Tundra_UsaPacNW,2010,0.37989
+USA,root,Tundra_RioGrande,Tundra_RioGrande,2010,0.05752
+Australia_NZ,root,Tundra_NewZealand,Tundra_NewZealand,2010,0.39022
+Brazil,root,Tundra_OrinocoR,Tundra_OrinocoR,2010,0.11355
+Brazil,root,Tundra_AmazonR,Tundra_AmazonR,2010,2.30856
+Canada,root,Tundra_NWTerr,Tundra_NWTerr,2010,1562.33424
+Canada,root,Tundra_PacArctic,Tundra_PacArctic,2010,108.92261
+Canada,root,Tundra_Mackenzie,Tundra_Mackenzie,2010,179.74272
+Canada,root,Tundra_HudsonBay,Tundra_HudsonBay,2010,172.94617
+Canada,root,Tundra_CanAtl,Tundra_CanAtl,2010,14.90604
+Canada,root,Tundra_NelsonR,Tundra_NelsonR,2010,5.28291
+Canada,root,Tundra_FraserR,Tundra_FraserR,2010,6.39098
+Canada,root,Tundra_ChurchillR,Tundra_ChurchillR,2010,4.07674
+Canada,root,Tundra_StLwrncR,Tundra_StLwrncR,2010,0.63204
+Canada,root,Tundra_UsaPacNW,Tundra_UsaPacNW,2010,7.52199
+Central Asia,root,Tundra_Gobi,Tundra_Gobi,2010,3.04877
+Central Asia,root,Tundra_CaspianNE,Tundra_CaspianNE,2010,1.15706
+Central Asia,root,Tundra_YeniseiR,Tundra_YeniseiR,2010,2.72065
+Central Asia,root,Tundra_CaspianE,Tundra_CaspianE,2010,0.23611
+Central Asia,root,Tundra_ObR,Tundra_ObR,2010,1.21165
+Central Asia,root,Tundra_AmuDaryaR,Tundra_AmuDaryaR,2010,34.61565
+Central Asia,root,Tundra_LBalkash,Tundra_LBalkash,2010,3.14083
+Central Asia,root,Tundra_BlackSeaS,Tundra_BlackSeaS,2010,4.0552
+Central Asia,root,Tundra_CaspianSW,Tundra_CaspianSW,2010,2.88294
+Central Asia,root,Tundra_SyrDaryaR,Tundra_SyrDaryaR,2010,18.72164
+Central Asia,root,Tundra_Tarim,Tundra_Tarim,2010,11.54078
+China,root,Tundra_Gobi,Tundra_Gobi,2010,5.89144
+China,root,Tundra_AmurR,Tundra_AmurR,2010,0.38474
+China,root,Tundra_ObR,Tundra_ObR,2010,2.79589
+China,root,Tundra_AmuDaryaR,Tundra_AmuDaryaR,2010,0.11131
+China,root,Tundra_BoHai,Tundra_BoHai,2010,0.0251
+China,root,Tundra_LBalkash,Tundra_LBalkash,2010,4.08963
+China,root,Tundra_SyrDaryaR,Tundra_SyrDaryaR,2010,0.07988
+China,root,Tundra_ZiyaHe,Tundra_ZiyaHe,2010,0.07938
+China,root,Tundra_HuangHeR,Tundra_HuangHeR,2010,31.66651
+China,root,Tundra_Tarim,Tundra_Tarim,2010,104.55415
+China,root,Tundra_IndusR,Tundra_IndusR,2010,19.07844
+China,root,Tundra_Tibet,Tundra_Tibet,2010,86.13299
+China,root,Tundra_Yangtze,Tundra_Yangtze,2010,104.69666
+China,root,Tundra_GangesR,Tundra_GangesR,2010,64.06102
+China,root,Tundra_Mekong,Tundra_Mekong,2010,20.11257
+China,root,Tundra_Salween,Tundra_Salween,2010,22.78824
+China,root,Tundra_IrrawaddyR,Tundra_IrrawaddyR,2010,0.62254
+EU-12,root,Tundra_NemanR,Tundra_NemanR,2010,0.20875
+EU-15,root,Tundra_ArcticIsl,Tundra_ArcticIsl,2010,289.19795
+EU-15,root,Tundra_ScndnvN,Tundra_ScndnvN,2010,1.47653
+EU-15,root,Tundra_Sweden,Tundra_Sweden,2010,14.57727
+EU-15,root,Tundra_FranceCstW,Tundra_FranceCstW,2010,0.13444
+EU-15,root,Tundra_ItalyCstE,Tundra_ItalyCstE,2010,0.05173
+EU-15,root,Tundra_DanubeR,Tundra_DanubeR,2010,0.63124
+EU-15,root,Tundra_PoR,Tundra_PoR,2010,2.27628
+EU-15,root,Tundra_FranceCstS,Tundra_FranceCstS,2010,0.21293
+EU-15,root,Tundra_RhoneR,Tundra_RhoneR,2010,1.34753
+EU-15,root,Tundra_Gironde,Tundra_Gironde,2010,0.03896
+EU-15,root,Tundra_EbroR,Tundra_EbroR,2010,0.09724
+Europe_Eastern,root,Tundra_WislaR,Tundra_WislaR,2010,1.23729
+Europe_Eastern,root,Tundra_DnieperR,Tundra_DnieperR,2010,3.06296
+Europe_Non_EU,root,Tundra_BlackSeaS,Tundra_BlackSeaS,2010,1.12207
+Europe_Non_EU,root,Tundra_CaspianSW,Tundra_CaspianSW,2010,0.14769
+Europe_Non_EU,root,Tundra_TigrEuphR,Tundra_TigrEuphR,2010,0.29385
+European Free Trade Association,root,Tundra_ScndnvN,Tundra_ScndnvN,2010,46.22484
+European Free Trade Association,root,Tundra_Iceland,Tundra_Iceland,2010,29.02743
+European Free Trade Association,root,Tundra_Sweden,Tundra_Sweden,2010,2.81617
+European Free Trade Association,root,Tundra_RhineR,Tundra_RhineR,2010,0.60585
+European Free Trade Association,root,Tundra_DanubeR,Tundra_DanubeR,2010,0.26921
+European Free Trade Association,root,Tundra_PoR,Tundra_PoR,2010,0.44883
+European Free Trade Association,root,Tundra_RhoneR,Tundra_RhoneR,2010,0.25416
+India,root,Tundra_IndusR,Tundra_IndusR,2010,20.4914
+India,root,Tundra_GangesR,Tundra_GangesR,2010,5.31618
+Japan,root,Tundra_Japan,Tundra_Japan,2010,0.09106
+Mexico,root,Tundra_YucatanP,Tundra_YucatanP,2010,0.02221
+Mexico,root,Tundra_RioBalsas,Tundra_RioBalsas,2010,0.0366
+Middle East,root,Tundra_CaspianSW,Tundra_CaspianSW,2010,0.05375
+Pakistan,root,Tundra_IndusR,Tundra_IndusR,2010,27.36898
+Russia,root,Tundra_ArcticIsl,Tundra_ArcticIsl,2010,19.90191
+Russia,root,Tundra_SiberiaN,Tundra_SiberiaN,2010,579.77244
+Russia,root,Tundra_SiberiaW,Tundra_SiberiaW,2010,676.40436
+Russia,root,Tundra_KaraSea,Tundra_KaraSea,2010,292.54824
+Russia,root,Tundra_LenaR,Tundra_LenaR,2010,67.07669
+Russia,root,Tundra_ScndnvN,Tundra_ScndnvN,2010,1.76002
+Russia,root,Tundra_BarentsSea,Tundra_BarentsSea,2010,14.76841
+Russia,root,Tundra_NevaR,Tundra_NevaR,2010,1.59852
+Russia,root,Tundra_VolgaR,Tundra_VolgaR,2010,2.87272
+Russia,root,Tundra_BalticSea,Tundra_BalticSea,2010,0.08128
+Russia,root,Tundra_NemanR,Tundra_NemanR,2010,0.01341
+Russia,root,Tundra_Gobi,Tundra_Gobi,2010,0.24103
+Russia,root,Tundra_AmurR,Tundra_AmurR,2010,4.91746
+Russia,root,Tundra_CaspianNE,Tundra_CaspianNE,2010,9.84583
+Russia,root,Tundra_BlackSeaN,Tundra_BlackSeaN,2010,1.65374
+Russia,root,Tundra_YeniseiR,Tundra_YeniseiR,2010,279.51227
+Russia,root,Tundra_ObR,Tundra_ObR,2010,52.12265
+Russia,root,Tundra_BlackSeaS,Tundra_BlackSeaS,2010,0.364
+Russia,root,Tundra_CaspianSW,Tundra_CaspianSW,2010,0.17726
+South America_Northern,root,Tundra_SAmerCstN,Tundra_SAmerCstN,2010,2.60152
+South America_Northern,root,Tundra_OrinocoR,Tundra_OrinocoR,2010,1.79576
+South America_Southern,root,Tundra_ColEcuaCst,Tundra_ColEcuaCst,2010,3.51341
+South America_Southern,root,Tundra_AmazonR,Tundra_AmazonR,2010,26.70425
+South America_Southern,root,Tundra_ChileCstS,Tundra_ChileCstS,2010,17.1532
+South America_Southern,root,Tundra_PeruCst,Tundra_PeruCst,2010,40.14845
+South America_Southern,root,Tundra_LaPuna,Tundra_LaPuna,2010,75.09646
+South America_Southern,root,Tundra_RioLaPlata,Tundra_RioLaPlata,2010,11.42042
+South America_Southern,root,Tundra_ChileCstN,Tundra_ChileCstN,2010,7.00853
+South America_Southern,root,Tundra_NegroR,Tundra_NegroR,2010,0.08316
+South Asia,root,Tundra_AmuDaryaR,Tundra_AmuDaryaR,2010,6.46938
+South Asia,root,Tundra_IndusR,Tundra_IndusR,2010,1.43548
+South Asia,root,Tundra_GangesR,Tundra_GangesR,2010,12.11693
+Southeast Asia,root,Tundra_GangesR,Tundra_GangesR,2010,0.28712
+Southeast Asia,root,Tundra_IrrawaddyR,Tundra_IrrawaddyR,2010,0.7821
+Argentina,root,Tundra_ChileCstS,Tundra_ChileCstS,2010,5.02288
+Argentina,root,Tundra_LaPuna,Tundra_LaPuna,2010,3.58929
+Argentina,root,Tundra_MarChiq,Tundra_MarChiq,2010,1.28972
+Argentina,root,Tundra_RioLaPlata,Tundra_RioLaPlata,2010,5.47424
+Argentina,root,Tundra_ArgCstN,Tundra_ArgCstN,2010,0.06578
+Argentina,root,Tundra_ArgColoR,Tundra_ArgColoR,2010,11.43932
+Argentina,root,Tundra_NegroR,Tundra_NegroR,2010,1.74199
+Argentina,root,Tundra_ArgCstS,Tundra_ArgCstS,2010,2.04866
+Colombia,root,Tundra_SAmerCstN,Tundra_SAmerCstN,2010,0.59703
+Colombia,root,Tundra_OrinocoR,Tundra_OrinocoR,2010,0.19718
+Colombia,root,Tundra_ColEcuaCst,Tundra_ColEcuaCst,2010,0.41303
+Colombia,root,Tundra_MagdalenaR,Tundra_MagdalenaR,2010,0.84531
+Colombia,root,Tundra_AmazonR,Tundra_AmazonR,2010,0.28821
+USA,root,RockIceDesert_PacArctic,RockIceDesert_PacArctic,2010,71.66212
+USA,root,RockIceDesert_California,RockIceDesert_California,2010,1.00879
+USA,root,RockIceDesert_GreatBasin,RockIceDesert_GreatBasin,2010,10.1132
+USA,root,RockIceDesert_RioGrande,RockIceDesert_RioGrande,2010,0.00972
+Africa_Eastern,root,RockIceDesert_NileR,RockIceDesert_NileR,2010,635.43753
+Africa_Eastern,root,RockIceDesert_AfrCstNE,RockIceDesert_AfrCstNE,2010,162.07183
+Africa_Eastern,root,RockIceDesert_AfrIntN,RockIceDesert_AfrIntN,2010,289.82806
+Africa_Eastern,root,RockIceDesert_LChad,RockIceDesert_LChad,2010,2.11208
+Africa_Eastern,root,RockIceDesert_ShebJubR,RockIceDesert_ShebJubR,2010,15.1393
+Africa_Eastern,root,RockIceDesert_Madasgacar,RockIceDesert_Madasgacar,2010,0.56887
+Africa_Eastern,root,RockIceDesert_RiftValley,RockIceDesert_RiftValley,2010,75.42961
+Africa_Northern,root,RockIceDesert_MeditE,RockIceDesert_MeditE,2010,35.65585
+Africa_Northern,root,RockIceDesert_MeditS,RockIceDesert_MeditS,2010,198.66178
+Africa_Northern,root,RockIceDesert_AfrCstNW,RockIceDesert_AfrCstNW,2010,268.10602
+Africa_Northern,root,RockIceDesert_NileR,RockIceDesert_NileR,2010,213.47035
+Africa_Northern,root,RockIceDesert_DeadSea,RockIceDesert_DeadSea,2010,2.16021
+Africa_Northern,root,RockIceDesert_SinaiP,RockIceDesert_SinaiP,2010,22.61127
+Africa_Northern,root,RockIceDesert_AfrCstNE,RockIceDesert_AfrCstNE,2010,66.81745
+Africa_Northern,root,RockIceDesert_AfrIntN,RockIceDesert_AfrIntN,2010,3632.75496
+Africa_Northern,root,RockIceDesert_NigerR,RockIceDesert_NigerR,2010,159.12172
+Africa_Northern,root,RockIceDesert_LChad,RockIceDesert_LChad,2010,117.5998
+Africa_Southern,root,RockIceDesert_NileR,RockIceDesert_NileR,2010,0.46666
+Africa_Southern,root,RockIceDesert_AfrCstE,RockIceDesert_AfrCstE,2010,0.43893
+Africa_Southern,root,RockIceDesert_RiftValley,RockIceDesert_RiftValley,2010,0.38653
+Africa_Southern,root,RockIceDesert_AngolaCst,RockIceDesert_AngolaCst,2010,11.58295
+Africa_Southern,root,RockIceDesert_CongoR,RockIceDesert_CongoR,2010,0.32778
+Africa_Southern,root,RockIceDesert_ZambeziR,RockIceDesert_ZambeziR,2010,2.49549
+Africa_Southern,root,RockIceDesert_AfrCstSE,RockIceDesert_AfrCstSE,2010,0.24234
+Africa_Southern,root,RockIceDesert_OrangeR,RockIceDesert_OrangeR,2010,14.56332
+Africa_Southern,root,RockIceDesert_AfrCstSW,RockIceDesert_AfrCstSW,2010,91.40554
+Africa_Southern,root,RockIceDesert_AfrIntS,RockIceDesert_AfrIntS,2010,13.00752
+Africa_Southern,root,RockIceDesert_AfrCstS,RockIceDesert_AfrCstS,2010,0.07611
+Africa_Western,root,RockIceDesert_AfrCstNW,RockIceDesert_AfrCstNW,2010,238.01351
+Africa_Western,root,RockIceDesert_NileR,RockIceDesert_NileR,2010,0.52682
+Africa_Western,root,RockIceDesert_AfrCstW,RockIceDesert_AfrCstW,2010,0.86688
+Africa_Western,root,RockIceDesert_AfrIntN,RockIceDesert_AfrIntN,2010,1079.93653
+Africa_Western,root,RockIceDesert_NigerR,RockIceDesert_NigerR,2010,295.2932
+Africa_Western,root,RockIceDesert_LChad,RockIceDesert_LChad,2010,1046.26703
+Africa_Western,root,RockIceDesert_SenegalR,RockIceDesert_SenegalR,2010,49.53596
+Africa_Western,root,RockIceDesert_VoltaR,RockIceDesert_VoltaR,2010,1.35523
+Africa_Western,root,RockIceDesert_GuineaGulf,RockIceDesert_GuineaGulf,2010,1.84031
+Africa_Western,root,RockIceDesert_CongoR,RockIceDesert_CongoR,2010,5.33877
+Australia_NZ,root,RockIceDesert_AusCstN,RockIceDesert_AusCstN,2010,0.46175
+Australia_NZ,root,RockIceDesert_AusCstW,RockIceDesert_AusCstW,2010,0.38266
+Australia_NZ,root,RockIceDesert_AusInt,RockIceDesert_AusInt,2010,14.46058
+Australia_NZ,root,RockIceDesert_NewZealand,RockIceDesert_NewZealand,2010,0.41538
+Australia_NZ,root,RockIceDesert_AusCstS,RockIceDesert_AusCstS,2010,2.05324
+Brazil,root,RockIceDesert_SAmerCstNE,RockIceDesert_SAmerCstNE,2010,0.05355
+Brazil,root,RockIceDesert_AmazonR,RockIceDesert_AmazonR,2010,2.51133
+Brazil,root,RockIceDesert_BrzCstN,RockIceDesert_BrzCstN,2010,0.86048
+Brazil,root,RockIceDesert_TocantinsR,RockIceDesert_TocantinsR,2010,0.04323
+Brazil,root,RockIceDesert_BrzCstE,RockIceDesert_BrzCstE,2010,1.51839
+Brazil,root,RockIceDesert_SaoFrancR,RockIceDesert_SaoFrancR,2010,0.23801
+Brazil,root,RockIceDesert_BrzCstS,RockIceDesert_BrzCstS,2010,0.24308
+Brazil,root,RockIceDesert_RioLaPlata,RockIceDesert_RioLaPlata,2010,0.14102
+Canada,root,RockIceDesert_NWTerr,RockIceDesert_NWTerr,2010,436.89834
+Canada,root,RockIceDesert_PacArctic,RockIceDesert_PacArctic,2010,26.48604
+Canada,root,RockIceDesert_Mackenzie,RockIceDesert_Mackenzie,2010,1.23259
+Canada,root,RockIceDesert_HudsonBay,RockIceDesert_HudsonBay,2010,1.23522
+Canada,root,RockIceDesert_CanAtl,RockIceDesert_CanAtl,2010,1.54808
+Canada,root,RockIceDesert_NelsonR,RockIceDesert_NelsonR,2010,0.13251
+Canada,root,RockIceDesert_FraserR,RockIceDesert_FraserR,2010,0.28947
+Canada,root,RockIceDesert_UsaPacNW,RockIceDesert_UsaPacNW,2010,0.55562
+Central Asia,root,RockIceDesert_Gobi,RockIceDesert_Gobi,2010,124.47545
+Central Asia,root,RockIceDesert_CaspianNE,RockIceDesert_CaspianNE,2010,15.79786
+Central Asia,root,RockIceDesert_CaspianE,RockIceDesert_CaspianE,2010,174.17251
+Central Asia,root,RockIceDesert_ObR,RockIceDesert_ObR,2010,16.447
+Central Asia,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,2010,87.4193
+Central Asia,root,RockIceDesert_LBalkash,RockIceDesert_LBalkash,2010,18.04086
+Central Asia,root,RockIceDesert_BlackSeaS,RockIceDesert_BlackSeaS,2010,0.31926
+Central Asia,root,RockIceDesert_CaspianSW,RockIceDesert_CaspianSW,2010,0.75142
+Central Asia,root,RockIceDesert_SyrDaryaR,RockIceDesert_SyrDaryaR,2010,19.40139
+Central Asia,root,RockIceDesert_Tarim,RockIceDesert_Tarim,2010,7.98479
+China,root,RockIceDesert_Gobi,RockIceDesert_Gobi,2010,333.83459
+China,root,RockIceDesert_ObR,RockIceDesert_ObR,2010,2.32449
+China,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,2010,0.17975
+China,root,RockIceDesert_BoHai,RockIceDesert_BoHai,2010,0.11931
+China,root,RockIceDesert_LBalkash,RockIceDesert_LBalkash,2010,0.89415
+China,root,RockIceDesert_ZiyaHe,RockIceDesert_ZiyaHe,2010,2.01296
+China,root,RockIceDesert_ChinaCst,RockIceDesert_ChinaCst,2010,0.79611
+China,root,RockIceDesert_HuangHeR,RockIceDesert_HuangHeR,2010,3.1329
+China,root,RockIceDesert_Tarim,RockIceDesert_Tarim,2010,801.71195
+China,root,RockIceDesert_IndusR,RockIceDesert_IndusR,2010,5.05726
+China,root,RockIceDesert_Tibet,RockIceDesert_Tibet,2010,2.7088
+China,root,RockIceDesert_Yangtze,RockIceDesert_Yangtze,2010,4.55749
+China,root,RockIceDesert_GangesR,RockIceDesert_GangesR,2010,10.12551
+China,root,RockIceDesert_SChinaSea,RockIceDesert_SChinaSea,2010,0.01127
+China,root,RockIceDesert_Mekong,RockIceDesert_Mekong,2010,0.05399
+China,root,RockIceDesert_Salween,RockIceDesert_Salween,2010,0.78812
+EU-15,root,RockIceDesert_ArcticIsl,RockIceDesert_ArcticIsl,2010,1673.74936
+EU-15,root,RockIceDesert_Sweden,RockIceDesert_Sweden,2010,0.20037
+EU-15,root,RockIceDesert_DanubeR,RockIceDesert_DanubeR,2010,0.40865
+EU-15,root,RockIceDesert_PoR,RockIceDesert_PoR,2010,0.4538
+EU-15,root,RockIceDesert_FranceCstS,RockIceDesert_FranceCstS,2010,0.03018
+EU-15,root,RockIceDesert_RhoneR,RockIceDesert_RhoneR,2010,0.15517
+Europe_Eastern,root,RockIceDesert_DnieperR,RockIceDesert_DnieperR,2010,0.0227
+Europe_Non_EU,root,RockIceDesert_MeditE,RockIceDesert_MeditE,2010,0.40563
+European Free Trade Association,root,RockIceDesert_ScndnvN,RockIceDesert_ScndnvN,2010,4.19423
+European Free Trade Association,root,RockIceDesert_Iceland,RockIceDesert_Iceland,2010,22.42629
+European Free Trade Association,root,RockIceDesert_Sweden,RockIceDesert_Sweden,2010,0.14801
+European Free Trade Association,root,RockIceDesert_RhineR,RockIceDesert_RhineR,2010,0.38387
+European Free Trade Association,root,RockIceDesert_PoR,RockIceDesert_PoR,2010,0.07837
+European Free Trade Association,root,RockIceDesert_RhoneR,RockIceDesert_RhoneR,2010,0.63744
+India,root,RockIceDesert_IndusR,RockIceDesert_IndusR,2010,40.75006
+India,root,RockIceDesert_SabarmatiR,RockIceDesert_SabarmatiR,2010,60.34949
+India,root,RockIceDesert_GangesR,RockIceDesert_GangesR,2010,6.3766
+India,root,RockIceDesert_IndCstE,RockIceDesert_IndCstE,2010,0.03934
+India,root,RockIceDesert_IndCstS,RockIceDesert_IndCstS,2010,0.08538
+Mexico,root,RockIceDesert_MexBaja,RockIceDesert_MexBaja,2010,1.06897
+Mexico,root,RockIceDesert_UsaColoRS,RockIceDesert_UsaColoRS,2010,0.03488
+Middle East,root,RockIceDesert_CaspianE,RockIceDesert_CaspianE,2010,5.45931
+Middle East,root,RockIceDesert_CaspianSW,RockIceDesert_CaspianSW,2010,0.64562
+Middle East,root,RockIceDesert_MeditE,RockIceDesert_MeditE,2010,0.43319
+Middle East,root,RockIceDesert_Iran,RockIceDesert_Iran,2010,438.81547
+Middle East,root,RockIceDesert_TigrEuphR,RockIceDesert_TigrEuphR,2010,202.58057
+Middle East,root,RockIceDesert_PersianGulf,RockIceDesert_PersianGulf,2010,32.37609
+Middle East,root,RockIceDesert_FarahrudR,RockIceDesert_FarahrudR,2010,19.35614
+Middle East,root,RockIceDesert_RedSeaE,RockIceDesert_RedSeaE,2010,103.74619
+Middle East,root,RockIceDesert_ArabianP,RockIceDesert_ArabianP,2010,1099.11793
+Middle East,root,RockIceDesert_DeadSea,RockIceDesert_DeadSea,2010,7.87115
+Middle East,root,RockIceDesert_Helmand,RockIceDesert_Helmand,2010,9.78652
+Middle East,root,RockIceDesert_SinaiP,RockIceDesert_SinaiP,2010,3.89684
+Middle East,root,RockIceDesert_EJrdnSyr,RockIceDesert_EJrdnSyr,2010,47.38397
+Middle East,root,RockIceDesert_HamuMashR,RockIceDesert_HamuMashR,2010,31.61424
+Middle East,root,RockIceDesert_ArabianSea,RockIceDesert_ArabianSea,2010,66.11056
+Pakistan,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,2010,0.06883
+Pakistan,root,RockIceDesert_Tarim,RockIceDesert_Tarim,2010,1.7837
+Pakistan,root,RockIceDesert_IndusR,RockIceDesert_IndusR,2010,66.93716
+Pakistan,root,RockIceDesert_Helmand,RockIceDesert_Helmand,2010,8.2759
+Pakistan,root,RockIceDesert_HamuMashR,RockIceDesert_HamuMashR,2010,96.46161
+Pakistan,root,RockIceDesert_ArabianSea,RockIceDesert_ArabianSea,2010,74.60834
+Pakistan,root,RockIceDesert_SabarmatiR,RockIceDesert_SabarmatiR,2010,39.57913
+Russia,root,RockIceDesert_ArcticIsl,RockIceDesert_ArcticIsl,2010,31.52368
+Russia,root,RockIceDesert_SiberiaN,RockIceDesert_SiberiaN,2010,32.55645
+Russia,root,RockIceDesert_SiberiaW,RockIceDesert_SiberiaW,2010,30.99152
+Russia,root,RockIceDesert_KaraSea,RockIceDesert_KaraSea,2010,0.06829
+Russia,root,RockIceDesert_LenaR,RockIceDesert_LenaR,2010,3.34632
+Russia,root,RockIceDesert_BarentsSea,RockIceDesert_BarentsSea,2010,0.06836
+Russia,root,RockIceDesert_Gobi,RockIceDesert_Gobi,2010,0.05486
+Russia,root,RockIceDesert_CaspianNE,RockIceDesert_CaspianNE,2010,0.80132
+Russia,root,RockIceDesert_BlackSeaN,RockIceDesert_BlackSeaN,2010,0.06173
+Russia,root,RockIceDesert_YeniseiR,RockIceDesert_YeniseiR,2010,0.76233
+Russia,root,RockIceDesert_ObR,RockIceDesert_ObR,2010,1.43
+Russia,root,RockIceDesert_BlackSeaS,RockIceDesert_BlackSeaS,2010,0.06267
+South Africa,root,RockIceDesert_OrangeR,RockIceDesert_OrangeR,2010,2.06076
+South Africa,root,RockIceDesert_AfrCstSW,RockIceDesert_AfrCstSW,2010,0.69571
+South Africa,root,RockIceDesert_AfrCstS,RockIceDesert_AfrCstS,2010,0.48447
+South Africa,root,RockIceDesert_AfrCstSSW,RockIceDesert_AfrCstSSW,2010,0.51329
+South America_Northern,root,RockIceDesert_SAmerCstN,RockIceDesert_SAmerCstN,2010,1.88653
+South America_Northern,root,RockIceDesert_OrinocoR,RockIceDesert_OrinocoR,2010,0.92458
+South America_Northern,root,RockIceDesert_SAmerCstNE,RockIceDesert_SAmerCstNE,2010,0.14567
+South America_Southern,root,RockIceDesert_ColEcuaCst,RockIceDesert_ColEcuaCst,2010,1.14104
+South America_Southern,root,RockIceDesert_AmazonR,RockIceDesert_AmazonR,2010,0.57791
+South America_Southern,root,RockIceDesert_ChileCstS,RockIceDesert_ChileCstS,2010,28.45799
+South America_Southern,root,RockIceDesert_PeruCst,RockIceDesert_PeruCst,2010,96.62406
+South America_Southern,root,RockIceDesert_LaPuna,RockIceDesert_LaPuna,2010,42.25946
+South America_Southern,root,RockIceDesert_Salinas,RockIceDesert_Salinas,2010,0.22937
+South America_Southern,root,RockIceDesert_RioLaPlata,RockIceDesert_RioLaPlata,2010,0.35073
+South America_Southern,root,RockIceDesert_ChileCstN,RockIceDesert_ChileCstN,2010,147.03947
+South America_Southern,root,RockIceDesert_ArgColoR,RockIceDesert_ArgColoR,2010,1.40266
+South America_Southern,root,RockIceDesert_ArgCstS,RockIceDesert_ArgCstS,2010,1.19561
+South Asia,root,RockIceDesert_CaspianE,RockIceDesert_CaspianE,2010,1.07829
+South Asia,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,2010,15.02166
+South Asia,root,RockIceDesert_IndusR,RockIceDesert_IndusR,2010,1.94919
+South Asia,root,RockIceDesert_FarahrudR,RockIceDesert_FarahrudR,2010,5.9667
+South Asia,root,RockIceDesert_Helmand,RockIceDesert_Helmand,2010,56.15985
+South Asia,root,RockIceDesert_HamuMashR,RockIceDesert_HamuMashR,2010,5.60987
+South Asia,root,RockIceDesert_GangesR,RockIceDesert_GangesR,2010,6.39257
+Southeast Asia,root,RockIceDesert_GangesR,RockIceDesert_GangesR,2010,0.05461
+Southeast Asia,root,RockIceDesert_Mekong,RockIceDesert_Mekong,2010,0.17828
+Southeast Asia,root,RockIceDesert_VietnamCst,RockIceDesert_VietnamCst,2010,0.09664
+Southeast Asia,root,RockIceDesert_SittaungR,RockIceDesert_SittaungR,2010,0.06652
+Southeast Asia,root,RockIceDesert_MalaysiaP,RockIceDesert_MalaysiaP,2010,0.03793
+Southeast Asia,root,RockIceDesert_ChaoPhrR,RockIceDesert_ChaoPhrR,2010,0.09813
+Argentina,root,RockIceDesert_ChileCstS,RockIceDesert_ChileCstS,2010,2.05688
+Argentina,root,RockIceDesert_LaPuna,RockIceDesert_LaPuna,2010,41.44267
+Argentina,root,RockIceDesert_MarChiq,RockIceDesert_MarChiq,2010,3.88445
+Argentina,root,RockIceDesert_Salinas,RockIceDesert_Salinas,2010,18.66997
+Argentina,root,RockIceDesert_RioLaPlata,RockIceDesert_RioLaPlata,2010,2.61652
+Argentina,root,RockIceDesert_ChileCstN,RockIceDesert_ChileCstN,2010,1.87801
+Argentina,root,RockIceDesert_Pampas,RockIceDesert_Pampas,2010,0.04375
+Argentina,root,RockIceDesert_ArgColoR,RockIceDesert_ArgColoR,2010,58.067
+Argentina,root,RockIceDesert_NegroR,RockIceDesert_NegroR,2010,0.34642
+Argentina,root,RockIceDesert_Patagonia,RockIceDesert_Patagonia,2010,0.19007
+Argentina,root,RockIceDesert_ArgCstS,RockIceDesert_ArgCstS,2010,6.19444
+Colombia,root,RockIceDesert_SAmerCstN,RockIceDesert_SAmerCstN,2010,1.16788
+Colombia,root,RockIceDesert_MagdalenaR,RockIceDesert_MagdalenaR,2010,0.06784

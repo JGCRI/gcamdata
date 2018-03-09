@@ -64,8 +64,8 @@ module_aglu_LA100.FAO_downscale_ctry <- function(command, ...) {
   } else if(command == driver.MAKE) {
 
     iso <- FAO_country <- `country codes` <- `element codes` <- `item codes` <-
-        year <- value <- countries <- country.codes <- item <- item.codes <-
-            element <- element.codes <- NULL # silence package chck.
+      year <- value <- countries <- country.codes <- item <- item.codes <-
+      element <- element.codes <- NULL # silence package chck.
 
     all_data <- list(...)[[1]]
 
@@ -100,7 +100,7 @@ module_aglu_LA100.FAO_downscale_ctry <- function(command, ...) {
 
     itel_colnames <- c("item", "item codes", "element", "element codes")
     coitel_colnames <- c("countries", "country codes", itel_colnames)
-    FAO_histyear_cols <- as.character(FAO_HISTORICAL_YEARS)
+    FAO_histyear_cols <- as.character(aglu.FAO_HISTORICAL_YEARS)
 
     # Replace the item and element code names with what is used in the more recent datasets
     FAO_Fert_Cons_tN_RESOURCESTAT_archv[itel_colnames] <- FAO_Fert_Cons_tN_RESOURCESTAT[1, itel_colnames]
@@ -117,9 +117,9 @@ module_aglu_LA100.FAO_downscale_ctry <- function(command, ...) {
     # So most of this function, the slowest in the entire data system, retains the original
     # code (though cleaned up considerably) and logic
     cons <- full_join(FAO_Fert_Cons_tN_RESOURCESTAT_archv,
-                  FAO_Fert_Cons_tN_RESOURCESTAT, by = c("countries", "country codes", "item", "item codes", "element", "element codes"))
+                      FAO_Fert_Cons_tN_RESOURCESTAT, by = c("countries", "country codes", "item", "item codes", "element", "element codes"))
     prod <- full_join(FAO_Fert_Prod_tN_RESOURCESTAT_archv,
-                  FAO_Fert_Prod_tN_RESOURCESTAT, by = c("countries", "country codes", "item", "item codes", "element", "element codes"))
+                      FAO_Fert_Prod_tN_RESOURCESTAT, by = c("countries", "country codes", "item", "item codes", "element", "element codes"))
 
     # Aggregate to complete the merge of the two datasets
     FAO_Fert_Cons_tN_RESOURCESTAT <- aggregate(cons[names(cons) %in% FAO_histyear_cols],
@@ -131,7 +131,7 @@ module_aglu_LA100.FAO_downscale_ctry <- function(command, ...) {
 
     # Some data in an_Stocks are in 1000s of heads instead of just heads; convert them
     # Also remove the units column to be consistent with the other FAO tables.
-    fhyc <- names(FAO_an_Stocks) %in% FAO_HISTORICAL_YEARS
+    fhyc <- names(FAO_an_Stocks) %in% aglu.FAO_HISTORICAL_YEARS
     thr <- FAO_an_Stocks$units == "1000 Head"
     FAO_an_Stocks[thr, fhyc] <- FAO_an_Stocks[thr, fhyc] * 1000
     FAO_an_Stocks$units <- FAO_an_Dairy_Stocks$units <- NULL
@@ -186,19 +186,19 @@ module_aglu_LA100.FAO_downscale_ctry <- function(command, ...) {
     # Czechoslovakia
     FAO_data_ALL %>%
       filter(iso %in% AGLU_ctry$iso[AGLU_ctry$FAO_country == "Czechoslovakia"]) %>%
-      downscale_FAO_country("Czechoslovakia", 1993L, years = FAO_HISTORICAL_YEARS) ->
+      downscale_FAO_country("Czechoslovakia", 1993L, years = aglu.FAO_HISTORICAL_YEARS) ->
       FAO_data_ALL_cze
 
     # USSR
     FAO_data_ALL %>%
       filter(iso %in% AGLU_ctry$iso[AGLU_ctry$FAO_country == "USSR"]) %>%
-      downscale_FAO_country("USSR", 1992L, years = FAO_HISTORICAL_YEARS) ->
+      downscale_FAO_country("USSR", 1992L, years = aglu.FAO_HISTORICAL_YEARS) ->
       FAO_data_ALL_ussr
 
     # Yugoslavia
     FAO_data_ALL %>%
       filter(iso %in% AGLU_ctry$iso[AGLU_ctry$FAO_country == "Yugoslav SFR"]) %>%
-      downscale_FAO_country("Yugoslav SFR", 1992L, years = FAO_HISTORICAL_YEARS) ->
+      downscale_FAO_country("Yugoslav SFR", 1992L, years = aglu.FAO_HISTORICAL_YEARS) ->
       FAO_data_ALL_yug
 
     # Drop these countries from the full database and combine
@@ -235,7 +235,7 @@ module_aglu_LA100.FAO_downscale_ctry <- function(command, ...) {
       rowMeans(FAO_data_ALL[FAO_histyear_cols][(lenXFAO - 2):lenXFAO])
 
     # From here on, only use the specified AGLU historical years
-    FAO_data_ALL_5yr <- FAO_data_ALL_5yr[c(coitel_colnames, "iso", as.character(AGLU_HISTORICAL_YEARS))]
+    FAO_data_ALL_5yr <- FAO_data_ALL_5yr[c(coitel_colnames, "iso", as.character(aglu.AGLU_HISTORICAL_YEARS))]
 
     # Rename columns to old names
     FAO_data_ALL_5yr %>%
@@ -245,24 +245,21 @@ module_aglu_LA100.FAO_downscale_ctry <- function(command, ...) {
       FAO_data_ALL_5yr
 
     # Change `element` columns to match old data and reshape
-#    FAO_data_ALL_5yr <- FAO_data_ALL_5yr[c(1:6,8:47,7)]
+    #    FAO_data_ALL_5yr <- FAO_data_ALL_5yr[c(1:6,8:47,7)]
     FAO_data_ALL_5yr$element <- gsub(pattern = "_[A-Z]*$", "", FAO_data_ALL_5yr$element)
     FAO_data_ALL_5yr$element <- gsub(pattern = "^FAO_", "", FAO_data_ALL_5yr$element)
-    FAO_data_ALL_5yr %>%
-      gather(year, value, -countries, -country.codes, -item, -item.codes, -element, -element.codes, -iso) %>%
-      mutate(year = as.integer(year)) ->
-      FAO_data_ALL_5yr
+    FAO_data_ALL_5yr <- gather_years(FAO_data_ALL_5yr)
 
     # Re-split into separate tables for each element
     L100.FAOlist <- split(seq(1, nrow(FAO_data_ALL_5yr)), FAO_data_ALL_5yr$element)
     names(L100.FAOlist) <- lapply(names(L100.FAOlist), function(x) { paste0("L100.FAO_", x) })
-                                        # change list names to match the legacy
-                                        # names
+    # change list names to match the legacy
+    # names
     fixup <- function(irows, legacy.name) {
-        FAO_data_ALL_5yr[irows,] %>%
-          add_comments("Downscale countries; calculate 5-yr averages") %>%
-          add_legacy_name(legacy.name) %>%
-          add_flags(FLAG_NO_XYEAR, FLAG_LONG_YEAR_FORM)
+      FAO_data_ALL_5yr[irows,] %>%
+        add_comments("Downscale countries; calculate 5-yr averages") %>%
+        add_legacy_name(legacy.name) %>%
+        add_flags(FLAG_NO_XYEAR, FLAG_LONG_YEAR_FORM)
     }
     L100.FAOlist <- Map(fixup, L100.FAOlist, names(L100.FAOlist))
 

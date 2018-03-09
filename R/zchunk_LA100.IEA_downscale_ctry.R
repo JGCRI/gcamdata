@@ -206,7 +206,7 @@ module_energy_LA100.IEA_downscale_ctry <- function(command, ...) {
       # the total in the composite region times the country-wise shares in 1990 (121-131)
       POST_USSR_YUG_YEARS_IEA <- intersect(POST_USSR_YUG_YEARS_IEA, names(L100.USSR_Yug_ctry))
       L100.USSR_Yug_ctry %>%
-        select(one_of("iso", "FLOW", "PRODUCT", "IEAcomposite", POST_USSR_YUG_YEARS_IEA)) %>%
+        select("iso", "FLOW", "PRODUCT", "IEAcomposite", POST_USSR_YUG_YEARS_IEA) %>%
         left_join_keep_first_only(select(L100.USSR_Yug, one_of("COUNTRY", "FLOW", "PRODUCT", USSR_YUG_YEARS)),
                                   by = c("IEAcomposite" = "COUNTRY", "FLOW", "PRODUCT")) %>%
         left_join_keep_first_only(select(L100.USSR_Yug_ctry_FLOW_PRODUCT_1990, iso, PRODUCT, `1990_share`),
@@ -304,15 +304,14 @@ module_energy_LA100.IEA_downscale_ctry <- function(command, ...) {
       # raw IEA datasets not available, so return NA
       # Downstream chunks will be responsible for checking this
 
-      tibble(x = NA) %>%
-        add_comments("** RAW DATA NOT READ FROM IEA FILES **") %>%
-        add_flags(FLAG_NO_TEST) ->
+      missing_data() %>%
+        add_comments("** RAW DATA NOT READ FROM IEA FILES **") ->
         L100.IEA_en_bal_ctry_hist
     }
 
     # Produce final output
     L100.IEA_en_bal_ctry_hist %>%
-      add_title("IEA energy balances downscaled to 201 countries by iso code, FLOW, PRODUCT, and historical year") %>%
+      add_title("IEA energy balances downscaled to 201 countries by iso code, FLOW, PRODUCT, and historical year", overwrite = TRUE) %>%
       add_units("ktoe and GWh") %>%
       add_legacy_name("L100.IEA_en_bal_ctry_hist") %>%
       add_precursors("L100.Pop_thous_ctry_Yh", "energy/en_OECD", "energy/en_nonOECD",

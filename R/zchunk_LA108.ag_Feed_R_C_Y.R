@@ -48,10 +48,13 @@ module_aglu_LA108.ag_Feed_R_C_Y <- function(command, ...) {
     # Use crop-specific information from FAO, in combination with feed totals from IMAGE,
     # to calculate region/crop specific information. This ensures totals match IMAGE and shares match FAO.
     # First, calculate FAO totals by crop, region, and year. Then, use this compute % of feed from each crop in each region/year.
+
+
     L100.FAO_ag_Feed_t %>%
       select(iso, item, year, value) %>%
       left_join_error_no_match(iso_GCAM_regID, by = "iso") %>%                                     # Map in GCAM region ID
       left_join(select(FAO_ag_items_cal_SUA, item, GCAM_commodity), by = "item") %>%               # Map in GCAM commodity
+      filter(!is.na(GCAM_commodity)) %>%                                                           # Remove entries that are not GCAM comodities
       group_by(GCAM_region_ID, GCAM_commodity, year) %>%
       summarize(value = sum(value)) %>%                                                            # Aggregate by crop, region, year
       mutate(value = value * CONV_TON_MEGATON) %>%                                                 # Convert from tons to Mt
@@ -103,7 +106,7 @@ module_aglu_LA108.ag_Feed_R_C_Y <- function(command, ...) {
     ag_Residual_Mt_R_FodderHerbResidue_Y %>%
       mutate(residual = if_else(residual < 0, 0, residual)) %>%                                                 # Replace any negative residuals with 0
       group_by(year) %>%
-      mutate(share = residual / sum(residual))  %>%                                                             # Compute share of residual in each region
+      mutate(share = residual / sum(residual)) %>%                                                             # Compute share of residual in each region
       left_join(ag_Residual_Mt_glbl_FodderHerbResidue_Y, by = "year") %>%                                       # Map in global total residual
       mutate(total_residual = if_else(total_residual < 0, 0, total_residual)) %>%                               # Set all negative residuals to zero
       mutate(value = share * total_residual, GCAM_commodity = "FodderHerb") %>%                                 # Compute regional residual, set commodity name to FodderHerb
@@ -142,7 +145,7 @@ module_aglu_LA108.ag_Feed_R_C_Y <- function(command, ...) {
       filter(feed == "Pasture_FodderGrass") %>%                                                                 # Start with Pasture_FodderGrass demand
       rename(PastFodderGrass_Demand = value) %>%
       left_join(filter(L103.ag_Prod_Mt_R_C_Y, GCAM_commodity == "FodderGrass"),
-                by = c( "GCAM_region_ID", "year")) %>%                                                          # Map in FodderGrass production
+                by = c("GCAM_region_ID", "year")) %>%                                                          # Map in FodderGrass production
       mutate(value = PastFodderGrass_Demand - value, GCAM_commodity = "Pasture") %>%                            # Compute Pasture supply as difference
       select(-feed, -PastFodderGrass_Demand) ->
       ag_Feed_Mt_R_Past_Y
@@ -212,7 +215,7 @@ module_aglu_LA108.ag_Feed_R_C_Y <- function(command, ...) {
       add_legacy_name("L108.ag_Feed_Mt_R_C_Y") %>%
       add_precursors("common/iso_GCAM_regID", "aglu/FAO/FAO_ag_items_cal_SUA", "L100.FAO_ag_Feed_t",
                      "L103.ag_Prod_Mt_R_C_Y", "L107.an_Feed_Mt_R_C_Sys_Fd_Y") %>%
-      add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR) ->
+      add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR, FLAG_SUM_TEST) ->
       L108.ag_Feed_Mt_R_C_Y
 
     ag_NetExp_Mt_R_FodderHerb_Y %>%

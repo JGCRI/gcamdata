@@ -93,7 +93,7 @@ module_energy_L252.transportation <- function(command, ...) {
       L252.SubsectorLogit_trn # OUTPUT
 
     # Expand subsector shareweights of transportation sector across all regions
-    if(any(!is.na(A52.subsector_shrwt$year))){
+    if(any(!is.na(A52.subsector_shrwt$year))) {
       A52.subsector_shrwt %>%
         filter(!is.na(year)) %>%
         write_to_all_regions(LEVEL2_DATA_NAMES[["SubsectorShrwt"]],
@@ -101,7 +101,7 @@ module_energy_L252.transportation <- function(command, ...) {
         L252.SubsectorShrwt_trn # OUTPUT
     }
 
-    if(any(!is.na(A52.subsector_shrwt$year.fillout))){
+    if(any(!is.na(A52.subsector_shrwt$year.fillout))) {
       A52.subsector_shrwt %>%
         filter(!is.na(year.fillout)) %>%
         write_to_all_regions(LEVEL2_DATA_NAMES[["SubsectorShrwtFllt"]],
@@ -110,7 +110,7 @@ module_energy_L252.transportation <- function(command, ...) {
     }
 
     # Write subsector shareweight interpolation of transportation sector for all regions
-    if(any(is.na(A52.subsector_interp$to.value))){
+    if(any(is.na(A52.subsector_interp$to.value))) {
       A52.subsector_interp %>%
         filter(is.na(to.value)) %>%
         write_to_all_regions(LEVEL2_DATA_NAMES[["SubsectorInterp"]],
@@ -118,7 +118,7 @@ module_energy_L252.transportation <- function(command, ...) {
         L252.SubsectorInterp_trn # OUTPUT
     }
 
-    if(any(!is.na(A52.subsector_interp$to.value))){
+    if(any(!is.na(A52.subsector_interp$to.value))) {
       A52.subsector_interp %>%
         filter(is.na(!to.value)) %>%
         write_to_all_regions(LEVEL2_DATA_NAMES[["SubsectorInterpTo"]],
@@ -138,8 +138,7 @@ module_energy_L252.transportation <- function(command, ...) {
 
     # Interpolate shareweights of the global transportation sector technologies across model years
     A52.globaltech_shrwt %>%
-      gather(year, share.weight, matches(YEAR_PATTERN)) %>% # Convert to long form
-      mutate(year = as.integer(year)) %>% # Year needs to be integer or numeric to interpolate
+      gather_years(value_col = "share.weight") %>%
       # Expand table to include all model base and future years
       complete(year = c(year, MODEL_YEARS), nesting(supplysector, subsector, technology)) %>%
       # Extrapolate to fill out values for all years
@@ -157,8 +156,7 @@ module_energy_L252.transportation <- function(command, ...) {
     DIGITS_EFFICIENCY <- 3
 
     A52.globaltech_eff %>%
-      gather(year, efficiency, matches(YEAR_PATTERN)) %>% # Convert to long form
-      mutate(year = as.integer(year)) %>% # Year needs to be integer or numeric to interpolate
+      gather_years(value_col = "efficiency") %>%
       # Expand table to include all model years
       complete(year = c(year, MODEL_YEARS), nesting(supplysector, subsector, technology, minicam.energy.input)) %>%
       # Extrapolate to fill out values for all years
@@ -175,8 +173,7 @@ module_energy_L252.transportation <- function(command, ...) {
     # Costs of global technologies
     # Capital costs of global transportation technologies were interpolated across model years
     A52.globaltech_cost %>%
-      gather(year, input.cost, matches(YEAR_PATTERN)) %>% # Convert to long form
-      mutate(year = as.integer(year)) %>% # Year needs to be integer or numeric to interpolate
+      gather_years(value_col = "input.cost") %>%
       # Expand table to include all model base and future years
       complete(year = c(year, MODEL_YEARS), nesting(supplysector, subsector, technology, minicam.non.energy.input)) %>%
       # Extrapolate to fill out values for all years
@@ -206,14 +203,14 @@ module_energy_L252.transportation <- function(command, ...) {
     DIGITS_CALOUTPUT <- 7
 
     L252.in_EJ_R_trn_F_Yh %>%
-      select(one_of(c(LEVEL2_DATA_NAMES[["StubTechYr"]], "value"))) %>%
+      select(LEVEL2_DATA_NAMES[["StubTechYr"]], "value") %>%
       # Match in minicam.energy.input
       left_join_error_no_match(A52.globaltech_eff, by = c("supplysector", "subsector", "stub.technology" = "technology")) %>%
       mutate(calibrated.value = round(value, digits = DIGITS_CALOUTPUT),
              share.weight.year = year,
              subs.share.weight = if_else(calibrated.value > 0, 1, 0),
              tech.share.weight = if_else(calibrated.value > 0, 1, 0)) %>%
-      select(one_of(LEVEL2_DATA_NAMES[["StubTechCalInput"]])) ->
+      select(LEVEL2_DATA_NAMES[["StubTechCalInput"]]) ->
       L252.StubTechCalInput_trn # OUTPUT
 
     # Write per-capita based flag for transportation final demand for all regions
@@ -273,7 +270,7 @@ module_energy_L252.transportation <- function(command, ...) {
       add_precursors("common/GCAM_region_names", "energy/A52.subsector_logit") ->
       L252.SubsectorLogit_trn
 
-    if(exists("L252.SubsectorShrwt_trn")){
+    if(exists("L252.SubsectorShrwt_trn")) {
       L252.SubsectorShrwt_trn %>%
         add_title("Subsector shareweights of transportation sector") %>%
         add_units("Unitless") %>%
@@ -283,16 +280,12 @@ module_energy_L252.transportation <- function(command, ...) {
         add_precursors("common/GCAM_region_names", "energy/A52.subsector_shrwt") ->
         L252.SubsectorShrwt_trn
      } else {
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Data not created") %>%
-        add_comments("Data not created") %>%
-        add_legacy_name("L252.SubsectorShrwt_trn") %>%
-        add_flags(FLAG_NO_TEST) ->
+       missing_data() %>%
+        add_legacy_name("L252.SubsectorShrwt_trn") ->
         L252.SubsectorShrwt_trn
      }
 
-    if(exists("L252.SubsectorShrwtFllt_trn")){
+    if(exists("L252.SubsectorShrwtFllt_trn")) {
       L252.SubsectorShrwtFllt_trn %>%
         add_title("Subsector shareweights of transportation sector") %>%
         add_units("Unitless") %>%
@@ -302,16 +295,12 @@ module_energy_L252.transportation <- function(command, ...) {
         add_precursors("common/GCAM_region_names", "energy/A52.subsector_shrwt") ->
         L252.SubsectorShrwtFllt_trn
     } else {
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Data not created") %>%
-        add_comments("Data not created") %>%
-        add_legacy_name("L252.SubsectorShrwtFllt_trn") %>%
-        add_flags(FLAG_NO_TEST) ->
+      missing_data() %>%
+        add_legacy_name("L252.SubsectorShrwtFllt_trn") ->
         L252.SubsectorShrwtFllt_trn
     }
 
-    if(exists("L252.SubsectorInterp_trn")){
+    if(exists("L252.SubsectorInterp_trn")) {
       L252.SubsectorInterp_trn %>%
         add_title("Subsector shareweight interpolation data of transportation sector") %>%
         add_units("NA") %>%
@@ -321,16 +310,12 @@ module_energy_L252.transportation <- function(command, ...) {
         add_precursors("common/GCAM_region_names", "energy/A52.subsector_interp") ->
         L252.SubsectorInterp_trn
     } else {
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Data not created") %>%
-        add_comments("Data not created") %>%
-        add_legacy_name("L252.SubsectorInterp_trn") %>%
-        add_flags(FLAG_NO_TEST) ->
+      missing_data() %>%
+        add_legacy_name("L252.SubsectorInterp_trn") ->
         L252.SubsectorInterp_trn
     }
 
-    if(exists("L252.SubsectorInterpTo_trn")){
+    if(exists("L252.SubsectorInterpTo_trn")) {
       L252.SubsectorInterpTo_trn %>%
         add_title("Subsector shareweight interpolation data of transportation sector") %>%
         add_units("NA") %>%
@@ -340,12 +325,8 @@ module_energy_L252.transportation <- function(command, ...) {
         add_precursors("common/GCAM_region_names", "energy/A52.subsector_interp") ->
         L252.SubsectorInterpTo_trn
     } else {
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Data not created") %>%
-        add_comments("Data not created") %>%
-        add_legacy_name("L252.SubsectorInterpTo_trn") %>%
-        add_flags(FLAG_NO_TEST) ->
+      missing_data() %>%
+        add_legacy_name("L252.SubsectorInterpTo_trn") ->
         L252.SubsectorInterpTo_trn
     }
 

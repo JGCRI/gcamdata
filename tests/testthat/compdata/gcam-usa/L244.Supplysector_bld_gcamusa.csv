@@ -1,0 +1,872 @@
+INPUT_TABLE
+Variable ID
+Supplysector
+
+region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent
+AK,resid heating,EJ,EJ,1975$/GJ,1975,-3
+AK,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+AK,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+AK,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+AK,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+AK,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+AK,resid other,EJ,EJ,1975$/GJ,1975,-2
+AK,comm heating,EJ,EJ,1975$/GJ,1975,-3
+AK,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+AK,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+AK,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+AK,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+AK,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+AK,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+AK,comm office,EJ,EJ,1975$/GJ,1975,-3
+AK,comm other,EJ,EJ,1975$/GJ,1975,-2
+AK,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+AL,resid heating,EJ,EJ,1975$/GJ,1975,-3
+AL,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+AL,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+AL,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+AL,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+AL,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+AL,resid other,EJ,EJ,1975$/GJ,1975,-2
+AL,comm heating,EJ,EJ,1975$/GJ,1975,-3
+AL,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+AL,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+AL,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+AL,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+AL,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+AL,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+AL,comm office,EJ,EJ,1975$/GJ,1975,-3
+AL,comm other,EJ,EJ,1975$/GJ,1975,-2
+AL,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+AR,resid heating,EJ,EJ,1975$/GJ,1975,-3
+AR,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+AR,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+AR,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+AR,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+AR,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+AR,resid other,EJ,EJ,1975$/GJ,1975,-2
+AR,comm heating,EJ,EJ,1975$/GJ,1975,-3
+AR,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+AR,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+AR,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+AR,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+AR,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+AR,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+AR,comm office,EJ,EJ,1975$/GJ,1975,-3
+AR,comm other,EJ,EJ,1975$/GJ,1975,-2
+AR,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+AZ,resid heating,EJ,EJ,1975$/GJ,1975,-3
+AZ,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+AZ,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+AZ,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+AZ,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+AZ,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+AZ,resid other,EJ,EJ,1975$/GJ,1975,-2
+AZ,comm heating,EJ,EJ,1975$/GJ,1975,-3
+AZ,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+AZ,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+AZ,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+AZ,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+AZ,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+AZ,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+AZ,comm office,EJ,EJ,1975$/GJ,1975,-3
+AZ,comm other,EJ,EJ,1975$/GJ,1975,-2
+AZ,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+CA,resid heating,EJ,EJ,1975$/GJ,1975,-3
+CA,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+CA,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+CA,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+CA,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+CA,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+CA,resid other,EJ,EJ,1975$/GJ,1975,-2
+CA,comm heating,EJ,EJ,1975$/GJ,1975,-3
+CA,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+CA,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+CA,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+CA,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+CA,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+CA,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+CA,comm office,EJ,EJ,1975$/GJ,1975,-3
+CA,comm other,EJ,EJ,1975$/GJ,1975,-2
+CA,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+CO,resid heating,EJ,EJ,1975$/GJ,1975,-3
+CO,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+CO,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+CO,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+CO,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+CO,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+CO,resid other,EJ,EJ,1975$/GJ,1975,-2
+CO,comm heating,EJ,EJ,1975$/GJ,1975,-3
+CO,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+CO,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+CO,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+CO,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+CO,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+CO,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+CO,comm office,EJ,EJ,1975$/GJ,1975,-3
+CO,comm other,EJ,EJ,1975$/GJ,1975,-2
+CO,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+CT,resid heating,EJ,EJ,1975$/GJ,1975,-3
+CT,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+CT,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+CT,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+CT,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+CT,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+CT,resid other,EJ,EJ,1975$/GJ,1975,-2
+CT,comm heating,EJ,EJ,1975$/GJ,1975,-3
+CT,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+CT,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+CT,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+CT,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+CT,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+CT,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+CT,comm office,EJ,EJ,1975$/GJ,1975,-3
+CT,comm other,EJ,EJ,1975$/GJ,1975,-2
+CT,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+DC,resid heating,EJ,EJ,1975$/GJ,1975,-3
+DC,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+DC,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+DC,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+DC,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+DC,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+DC,resid other,EJ,EJ,1975$/GJ,1975,-2
+DC,comm heating,EJ,EJ,1975$/GJ,1975,-3
+DC,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+DC,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+DC,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+DC,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+DC,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+DC,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+DC,comm office,EJ,EJ,1975$/GJ,1975,-3
+DC,comm other,EJ,EJ,1975$/GJ,1975,-2
+DC,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+DE,resid heating,EJ,EJ,1975$/GJ,1975,-3
+DE,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+DE,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+DE,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+DE,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+DE,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+DE,resid other,EJ,EJ,1975$/GJ,1975,-2
+DE,comm heating,EJ,EJ,1975$/GJ,1975,-3
+DE,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+DE,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+DE,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+DE,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+DE,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+DE,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+DE,comm office,EJ,EJ,1975$/GJ,1975,-3
+DE,comm other,EJ,EJ,1975$/GJ,1975,-2
+DE,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+FL,resid heating,EJ,EJ,1975$/GJ,1975,-3
+FL,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+FL,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+FL,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+FL,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+FL,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+FL,resid other,EJ,EJ,1975$/GJ,1975,-2
+FL,comm heating,EJ,EJ,1975$/GJ,1975,-3
+FL,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+FL,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+FL,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+FL,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+FL,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+FL,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+FL,comm office,EJ,EJ,1975$/GJ,1975,-3
+FL,comm other,EJ,EJ,1975$/GJ,1975,-2
+FL,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+GA,resid heating,EJ,EJ,1975$/GJ,1975,-3
+GA,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+GA,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+GA,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+GA,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+GA,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+GA,resid other,EJ,EJ,1975$/GJ,1975,-2
+GA,comm heating,EJ,EJ,1975$/GJ,1975,-3
+GA,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+GA,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+GA,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+GA,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+GA,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+GA,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+GA,comm office,EJ,EJ,1975$/GJ,1975,-3
+GA,comm other,EJ,EJ,1975$/GJ,1975,-2
+GA,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+HI,resid heating,EJ,EJ,1975$/GJ,1975,-3
+HI,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+HI,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+HI,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+HI,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+HI,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+HI,resid other,EJ,EJ,1975$/GJ,1975,-2
+HI,comm heating,EJ,EJ,1975$/GJ,1975,-3
+HI,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+HI,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+HI,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+HI,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+HI,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+HI,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+HI,comm office,EJ,EJ,1975$/GJ,1975,-3
+HI,comm other,EJ,EJ,1975$/GJ,1975,-2
+HI,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+IA,resid heating,EJ,EJ,1975$/GJ,1975,-3
+IA,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+IA,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+IA,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+IA,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+IA,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+IA,resid other,EJ,EJ,1975$/GJ,1975,-2
+IA,comm heating,EJ,EJ,1975$/GJ,1975,-3
+IA,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+IA,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+IA,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+IA,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+IA,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+IA,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+IA,comm office,EJ,EJ,1975$/GJ,1975,-3
+IA,comm other,EJ,EJ,1975$/GJ,1975,-2
+IA,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+ID,resid heating,EJ,EJ,1975$/GJ,1975,-3
+ID,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+ID,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+ID,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+ID,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+ID,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+ID,resid other,EJ,EJ,1975$/GJ,1975,-2
+ID,comm heating,EJ,EJ,1975$/GJ,1975,-3
+ID,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+ID,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+ID,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+ID,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+ID,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+ID,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+ID,comm office,EJ,EJ,1975$/GJ,1975,-3
+ID,comm other,EJ,EJ,1975$/GJ,1975,-2
+ID,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+IL,resid heating,EJ,EJ,1975$/GJ,1975,-3
+IL,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+IL,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+IL,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+IL,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+IL,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+IL,resid other,EJ,EJ,1975$/GJ,1975,-2
+IL,comm heating,EJ,EJ,1975$/GJ,1975,-3
+IL,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+IL,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+IL,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+IL,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+IL,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+IL,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+IL,comm office,EJ,EJ,1975$/GJ,1975,-3
+IL,comm other,EJ,EJ,1975$/GJ,1975,-2
+IL,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+IN,resid heating,EJ,EJ,1975$/GJ,1975,-3
+IN,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+IN,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+IN,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+IN,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+IN,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+IN,resid other,EJ,EJ,1975$/GJ,1975,-2
+IN,comm heating,EJ,EJ,1975$/GJ,1975,-3
+IN,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+IN,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+IN,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+IN,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+IN,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+IN,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+IN,comm office,EJ,EJ,1975$/GJ,1975,-3
+IN,comm other,EJ,EJ,1975$/GJ,1975,-2
+IN,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+KS,resid heating,EJ,EJ,1975$/GJ,1975,-3
+KS,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+KS,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+KS,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+KS,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+KS,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+KS,resid other,EJ,EJ,1975$/GJ,1975,-2
+KS,comm heating,EJ,EJ,1975$/GJ,1975,-3
+KS,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+KS,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+KS,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+KS,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+KS,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+KS,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+KS,comm office,EJ,EJ,1975$/GJ,1975,-3
+KS,comm other,EJ,EJ,1975$/GJ,1975,-2
+KS,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+KY,resid heating,EJ,EJ,1975$/GJ,1975,-3
+KY,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+KY,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+KY,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+KY,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+KY,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+KY,resid other,EJ,EJ,1975$/GJ,1975,-2
+KY,comm heating,EJ,EJ,1975$/GJ,1975,-3
+KY,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+KY,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+KY,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+KY,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+KY,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+KY,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+KY,comm office,EJ,EJ,1975$/GJ,1975,-3
+KY,comm other,EJ,EJ,1975$/GJ,1975,-2
+KY,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+LA,resid heating,EJ,EJ,1975$/GJ,1975,-3
+LA,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+LA,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+LA,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+LA,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+LA,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+LA,resid other,EJ,EJ,1975$/GJ,1975,-2
+LA,comm heating,EJ,EJ,1975$/GJ,1975,-3
+LA,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+LA,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+LA,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+LA,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+LA,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+LA,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+LA,comm office,EJ,EJ,1975$/GJ,1975,-3
+LA,comm other,EJ,EJ,1975$/GJ,1975,-2
+LA,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+MA,resid heating,EJ,EJ,1975$/GJ,1975,-3
+MA,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+MA,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+MA,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+MA,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+MA,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+MA,resid other,EJ,EJ,1975$/GJ,1975,-2
+MA,comm heating,EJ,EJ,1975$/GJ,1975,-3
+MA,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+MA,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+MA,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+MA,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+MA,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+MA,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+MA,comm office,EJ,EJ,1975$/GJ,1975,-3
+MA,comm other,EJ,EJ,1975$/GJ,1975,-2
+MA,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+MD,resid heating,EJ,EJ,1975$/GJ,1975,-3
+MD,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+MD,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+MD,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+MD,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+MD,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+MD,resid other,EJ,EJ,1975$/GJ,1975,-2
+MD,comm heating,EJ,EJ,1975$/GJ,1975,-3
+MD,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+MD,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+MD,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+MD,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+MD,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+MD,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+MD,comm office,EJ,EJ,1975$/GJ,1975,-3
+MD,comm other,EJ,EJ,1975$/GJ,1975,-2
+MD,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+ME,resid heating,EJ,EJ,1975$/GJ,1975,-3
+ME,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+ME,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+ME,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+ME,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+ME,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+ME,resid other,EJ,EJ,1975$/GJ,1975,-2
+ME,comm heating,EJ,EJ,1975$/GJ,1975,-3
+ME,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+ME,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+ME,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+ME,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+ME,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+ME,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+ME,comm office,EJ,EJ,1975$/GJ,1975,-3
+ME,comm other,EJ,EJ,1975$/GJ,1975,-2
+ME,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+MI,resid heating,EJ,EJ,1975$/GJ,1975,-3
+MI,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+MI,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+MI,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+MI,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+MI,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+MI,resid other,EJ,EJ,1975$/GJ,1975,-2
+MI,comm heating,EJ,EJ,1975$/GJ,1975,-3
+MI,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+MI,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+MI,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+MI,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+MI,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+MI,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+MI,comm office,EJ,EJ,1975$/GJ,1975,-3
+MI,comm other,EJ,EJ,1975$/GJ,1975,-2
+MI,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+MN,resid heating,EJ,EJ,1975$/GJ,1975,-3
+MN,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+MN,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+MN,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+MN,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+MN,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+MN,resid other,EJ,EJ,1975$/GJ,1975,-2
+MN,comm heating,EJ,EJ,1975$/GJ,1975,-3
+MN,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+MN,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+MN,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+MN,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+MN,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+MN,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+MN,comm office,EJ,EJ,1975$/GJ,1975,-3
+MN,comm other,EJ,EJ,1975$/GJ,1975,-2
+MN,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+MO,resid heating,EJ,EJ,1975$/GJ,1975,-3
+MO,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+MO,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+MO,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+MO,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+MO,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+MO,resid other,EJ,EJ,1975$/GJ,1975,-2
+MO,comm heating,EJ,EJ,1975$/GJ,1975,-3
+MO,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+MO,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+MO,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+MO,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+MO,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+MO,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+MO,comm office,EJ,EJ,1975$/GJ,1975,-3
+MO,comm other,EJ,EJ,1975$/GJ,1975,-2
+MO,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+MS,resid heating,EJ,EJ,1975$/GJ,1975,-3
+MS,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+MS,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+MS,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+MS,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+MS,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+MS,resid other,EJ,EJ,1975$/GJ,1975,-2
+MS,comm heating,EJ,EJ,1975$/GJ,1975,-3
+MS,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+MS,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+MS,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+MS,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+MS,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+MS,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+MS,comm office,EJ,EJ,1975$/GJ,1975,-3
+MS,comm other,EJ,EJ,1975$/GJ,1975,-2
+MS,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+MT,resid heating,EJ,EJ,1975$/GJ,1975,-3
+MT,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+MT,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+MT,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+MT,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+MT,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+MT,resid other,EJ,EJ,1975$/GJ,1975,-2
+MT,comm heating,EJ,EJ,1975$/GJ,1975,-3
+MT,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+MT,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+MT,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+MT,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+MT,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+MT,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+MT,comm office,EJ,EJ,1975$/GJ,1975,-3
+MT,comm other,EJ,EJ,1975$/GJ,1975,-2
+MT,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+NC,resid heating,EJ,EJ,1975$/GJ,1975,-3
+NC,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+NC,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+NC,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+NC,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+NC,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+NC,resid other,EJ,EJ,1975$/GJ,1975,-2
+NC,comm heating,EJ,EJ,1975$/GJ,1975,-3
+NC,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+NC,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+NC,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+NC,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+NC,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+NC,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+NC,comm office,EJ,EJ,1975$/GJ,1975,-3
+NC,comm other,EJ,EJ,1975$/GJ,1975,-2
+NC,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+ND,resid heating,EJ,EJ,1975$/GJ,1975,-3
+ND,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+ND,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+ND,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+ND,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+ND,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+ND,resid other,EJ,EJ,1975$/GJ,1975,-2
+ND,comm heating,EJ,EJ,1975$/GJ,1975,-3
+ND,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+ND,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+ND,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+ND,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+ND,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+ND,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+ND,comm office,EJ,EJ,1975$/GJ,1975,-3
+ND,comm other,EJ,EJ,1975$/GJ,1975,-2
+ND,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+NE,resid heating,EJ,EJ,1975$/GJ,1975,-3
+NE,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+NE,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+NE,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+NE,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+NE,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+NE,resid other,EJ,EJ,1975$/GJ,1975,-2
+NE,comm heating,EJ,EJ,1975$/GJ,1975,-3
+NE,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+NE,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+NE,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+NE,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+NE,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+NE,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+NE,comm office,EJ,EJ,1975$/GJ,1975,-3
+NE,comm other,EJ,EJ,1975$/GJ,1975,-2
+NE,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+NH,resid heating,EJ,EJ,1975$/GJ,1975,-3
+NH,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+NH,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+NH,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+NH,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+NH,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+NH,resid other,EJ,EJ,1975$/GJ,1975,-2
+NH,comm heating,EJ,EJ,1975$/GJ,1975,-3
+NH,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+NH,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+NH,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+NH,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+NH,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+NH,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+NH,comm office,EJ,EJ,1975$/GJ,1975,-3
+NH,comm other,EJ,EJ,1975$/GJ,1975,-2
+NH,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+NJ,resid heating,EJ,EJ,1975$/GJ,1975,-3
+NJ,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+NJ,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+NJ,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+NJ,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+NJ,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+NJ,resid other,EJ,EJ,1975$/GJ,1975,-2
+NJ,comm heating,EJ,EJ,1975$/GJ,1975,-3
+NJ,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+NJ,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+NJ,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+NJ,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+NJ,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+NJ,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+NJ,comm office,EJ,EJ,1975$/GJ,1975,-3
+NJ,comm other,EJ,EJ,1975$/GJ,1975,-2
+NJ,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+NM,resid heating,EJ,EJ,1975$/GJ,1975,-3
+NM,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+NM,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+NM,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+NM,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+NM,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+NM,resid other,EJ,EJ,1975$/GJ,1975,-2
+NM,comm heating,EJ,EJ,1975$/GJ,1975,-3
+NM,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+NM,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+NM,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+NM,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+NM,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+NM,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+NM,comm office,EJ,EJ,1975$/GJ,1975,-3
+NM,comm other,EJ,EJ,1975$/GJ,1975,-2
+NM,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+NV,resid heating,EJ,EJ,1975$/GJ,1975,-3
+NV,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+NV,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+NV,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+NV,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+NV,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+NV,resid other,EJ,EJ,1975$/GJ,1975,-2
+NV,comm heating,EJ,EJ,1975$/GJ,1975,-3
+NV,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+NV,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+NV,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+NV,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+NV,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+NV,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+NV,comm office,EJ,EJ,1975$/GJ,1975,-3
+NV,comm other,EJ,EJ,1975$/GJ,1975,-2
+NV,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+NY,resid heating,EJ,EJ,1975$/GJ,1975,-3
+NY,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+NY,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+NY,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+NY,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+NY,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+NY,resid other,EJ,EJ,1975$/GJ,1975,-2
+NY,comm heating,EJ,EJ,1975$/GJ,1975,-3
+NY,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+NY,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+NY,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+NY,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+NY,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+NY,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+NY,comm office,EJ,EJ,1975$/GJ,1975,-3
+NY,comm other,EJ,EJ,1975$/GJ,1975,-2
+NY,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+OH,resid heating,EJ,EJ,1975$/GJ,1975,-3
+OH,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+OH,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+OH,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+OH,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+OH,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+OH,resid other,EJ,EJ,1975$/GJ,1975,-2
+OH,comm heating,EJ,EJ,1975$/GJ,1975,-3
+OH,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+OH,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+OH,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+OH,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+OH,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+OH,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+OH,comm office,EJ,EJ,1975$/GJ,1975,-3
+OH,comm other,EJ,EJ,1975$/GJ,1975,-2
+OH,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+OK,resid heating,EJ,EJ,1975$/GJ,1975,-3
+OK,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+OK,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+OK,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+OK,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+OK,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+OK,resid other,EJ,EJ,1975$/GJ,1975,-2
+OK,comm heating,EJ,EJ,1975$/GJ,1975,-3
+OK,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+OK,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+OK,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+OK,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+OK,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+OK,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+OK,comm office,EJ,EJ,1975$/GJ,1975,-3
+OK,comm other,EJ,EJ,1975$/GJ,1975,-2
+OK,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+OR,resid heating,EJ,EJ,1975$/GJ,1975,-3
+OR,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+OR,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+OR,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+OR,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+OR,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+OR,resid other,EJ,EJ,1975$/GJ,1975,-2
+OR,comm heating,EJ,EJ,1975$/GJ,1975,-3
+OR,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+OR,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+OR,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+OR,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+OR,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+OR,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+OR,comm office,EJ,EJ,1975$/GJ,1975,-3
+OR,comm other,EJ,EJ,1975$/GJ,1975,-2
+OR,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+PA,resid heating,EJ,EJ,1975$/GJ,1975,-3
+PA,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+PA,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+PA,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+PA,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+PA,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+PA,resid other,EJ,EJ,1975$/GJ,1975,-2
+PA,comm heating,EJ,EJ,1975$/GJ,1975,-3
+PA,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+PA,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+PA,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+PA,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+PA,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+PA,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+PA,comm office,EJ,EJ,1975$/GJ,1975,-3
+PA,comm other,EJ,EJ,1975$/GJ,1975,-2
+PA,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+RI,resid heating,EJ,EJ,1975$/GJ,1975,-3
+RI,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+RI,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+RI,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+RI,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+RI,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+RI,resid other,EJ,EJ,1975$/GJ,1975,-2
+RI,comm heating,EJ,EJ,1975$/GJ,1975,-3
+RI,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+RI,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+RI,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+RI,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+RI,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+RI,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+RI,comm office,EJ,EJ,1975$/GJ,1975,-3
+RI,comm other,EJ,EJ,1975$/GJ,1975,-2
+RI,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+SC,resid heating,EJ,EJ,1975$/GJ,1975,-3
+SC,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+SC,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+SC,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+SC,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+SC,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+SC,resid other,EJ,EJ,1975$/GJ,1975,-2
+SC,comm heating,EJ,EJ,1975$/GJ,1975,-3
+SC,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+SC,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+SC,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+SC,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+SC,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+SC,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+SC,comm office,EJ,EJ,1975$/GJ,1975,-3
+SC,comm other,EJ,EJ,1975$/GJ,1975,-2
+SC,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+SD,resid heating,EJ,EJ,1975$/GJ,1975,-3
+SD,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+SD,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+SD,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+SD,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+SD,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+SD,resid other,EJ,EJ,1975$/GJ,1975,-2
+SD,comm heating,EJ,EJ,1975$/GJ,1975,-3
+SD,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+SD,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+SD,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+SD,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+SD,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+SD,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+SD,comm office,EJ,EJ,1975$/GJ,1975,-3
+SD,comm other,EJ,EJ,1975$/GJ,1975,-2
+SD,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+TN,resid heating,EJ,EJ,1975$/GJ,1975,-3
+TN,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+TN,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+TN,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+TN,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+TN,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+TN,resid other,EJ,EJ,1975$/GJ,1975,-2
+TN,comm heating,EJ,EJ,1975$/GJ,1975,-3
+TN,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+TN,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+TN,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+TN,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+TN,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+TN,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+TN,comm office,EJ,EJ,1975$/GJ,1975,-3
+TN,comm other,EJ,EJ,1975$/GJ,1975,-2
+TN,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+TX,resid heating,EJ,EJ,1975$/GJ,1975,-3
+TX,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+TX,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+TX,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+TX,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+TX,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+TX,resid other,EJ,EJ,1975$/GJ,1975,-2
+TX,comm heating,EJ,EJ,1975$/GJ,1975,-3
+TX,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+TX,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+TX,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+TX,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+TX,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+TX,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+TX,comm office,EJ,EJ,1975$/GJ,1975,-3
+TX,comm other,EJ,EJ,1975$/GJ,1975,-2
+TX,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+UT,resid heating,EJ,EJ,1975$/GJ,1975,-3
+UT,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+UT,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+UT,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+UT,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+UT,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+UT,resid other,EJ,EJ,1975$/GJ,1975,-2
+UT,comm heating,EJ,EJ,1975$/GJ,1975,-3
+UT,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+UT,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+UT,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+UT,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+UT,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+UT,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+UT,comm office,EJ,EJ,1975$/GJ,1975,-3
+UT,comm other,EJ,EJ,1975$/GJ,1975,-2
+UT,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+VA,resid heating,EJ,EJ,1975$/GJ,1975,-3
+VA,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+VA,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+VA,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+VA,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+VA,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+VA,resid other,EJ,EJ,1975$/GJ,1975,-2
+VA,comm heating,EJ,EJ,1975$/GJ,1975,-3
+VA,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+VA,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+VA,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+VA,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+VA,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+VA,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+VA,comm office,EJ,EJ,1975$/GJ,1975,-3
+VA,comm other,EJ,EJ,1975$/GJ,1975,-2
+VA,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+VT,resid heating,EJ,EJ,1975$/GJ,1975,-3
+VT,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+VT,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+VT,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+VT,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+VT,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+VT,resid other,EJ,EJ,1975$/GJ,1975,-2
+VT,comm heating,EJ,EJ,1975$/GJ,1975,-3
+VT,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+VT,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+VT,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+VT,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+VT,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+VT,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+VT,comm office,EJ,EJ,1975$/GJ,1975,-3
+VT,comm other,EJ,EJ,1975$/GJ,1975,-2
+VT,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+WA,resid heating,EJ,EJ,1975$/GJ,1975,-3
+WA,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+WA,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+WA,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+WA,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+WA,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+WA,resid other,EJ,EJ,1975$/GJ,1975,-2
+WA,comm heating,EJ,EJ,1975$/GJ,1975,-3
+WA,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+WA,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+WA,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+WA,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+WA,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+WA,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+WA,comm office,EJ,EJ,1975$/GJ,1975,-3
+WA,comm other,EJ,EJ,1975$/GJ,1975,-2
+WA,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+WI,resid heating,EJ,EJ,1975$/GJ,1975,-3
+WI,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+WI,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+WI,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+WI,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+WI,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+WI,resid other,EJ,EJ,1975$/GJ,1975,-2
+WI,comm heating,EJ,EJ,1975$/GJ,1975,-3
+WI,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+WI,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+WI,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+WI,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+WI,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+WI,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+WI,comm office,EJ,EJ,1975$/GJ,1975,-3
+WI,comm other,EJ,EJ,1975$/GJ,1975,-2
+WI,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+WV,resid heating,EJ,EJ,1975$/GJ,1975,-3
+WV,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+WV,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+WV,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+WV,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+WV,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+WV,resid other,EJ,EJ,1975$/GJ,1975,-2
+WV,comm heating,EJ,EJ,1975$/GJ,1975,-3
+WV,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+WV,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+WV,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+WV,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+WV,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+WV,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+WV,comm office,EJ,EJ,1975$/GJ,1975,-3
+WV,comm other,EJ,EJ,1975$/GJ,1975,-2
+WV,comm non-building,EJ,EJ,1975$/GJ,1975,-3
+WY,resid heating,EJ,EJ,1975$/GJ,1975,-3
+WY,resid cooling,EJ,EJ,1975$/GJ,1975,-3
+WY,resid hot water,EJ,EJ,1975$/GJ,1975,-3
+WY,resid lighting,EJ,EJ,1975$/GJ,1975,-3
+WY,resid appliances,EJ,EJ,1975$/GJ,1975,-2
+WY,resid other appliances,EJ,EJ,1975$/GJ,1975,-3
+WY,resid other,EJ,EJ,1975$/GJ,1975,-2
+WY,comm heating,EJ,EJ,1975$/GJ,1975,-3
+WY,comm cooling,EJ,EJ,1975$/GJ,1975,-3
+WY,comm hot water,EJ,EJ,1975$/GJ,1975,-3
+WY,comm ventilation,EJ,EJ,1975$/GJ,1975,-3
+WY,comm cooking,EJ,EJ,1975$/GJ,1975,-3
+WY,comm lighting,EJ,EJ,1975$/GJ,1975,-3
+WY,comm refrigeration,EJ,EJ,1975$/GJ,1975,-3
+WY,comm office,EJ,EJ,1975$/GJ,1975,-3
+WY,comm other,EJ,EJ,1975$/GJ,1975,-2
+WY,comm non-building,EJ,EJ,1975$/GJ,1975,-3

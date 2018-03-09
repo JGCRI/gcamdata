@@ -36,14 +36,19 @@ check_chunk_outputs <- function(chunk, chunk_data, chunk_inputs, promised_output
     obj_flags <- get_flags(chunk_data[[obj]])
     # Chunks have to returns tibbles, unless they're tagged as being XML
     if(!outputs_xml[which(obj == promised_outputs)]) {
-      assert_that(tibble::is.tibble(chunk_data[[obj]]))
-      assert_that(! FLAG_XML %in% obj_flags)
+      assert_that(tibble::is.tibble(chunk_data[[obj]]), msg = paste(obj, "is", class(obj)))
+      assert_that(! FLAG_XML %in% obj_flags, msg = obj)
 
       # Make sure objects have required attributes
       for(at in c(ATTR_TITLE, ATTR_UNITS, ATTR_COMMENTS, ATTR_LEGACY_NAME)) {
         if(is.null(attr(chunk_data[[obj]], at))) {
           warning("No '", at, "' attached to ", obj, " - chunk ", chunk)
         }
+      }
+
+      # Any 'year' column should be numeric - this is a frequent source of join problems
+      if("year" %in% names(chunk_data[[obj]]) && !is.numeric(chunk_data[[obj]]$year)) {
+        warning("'year' column not numeric in ", obj)
       }
     } else {
       assert_that(FLAG_XML %in% obj_flags)
@@ -96,11 +101,11 @@ tibbelize_outputs <- function(chunk_data, chunk_name) {
       # Here we use paste both to collapse vectors into a single string, and deal with possible NULLs
       metadata[[cd]] <- tibble(name = chunk_name,
                                output = cd,
-                               precursors = paste(get_precursors(chunk_data[[cd]]), collapse = driver.SEPARATOR),
-                               title = paste(get_title(chunk_data[[cd]]), collapse = driver.SEPARATOR),
-                               units = paste(get_units(chunk_data[[cd]]), collapse = driver.SEPARATOR),
-                               comments = paste(get_comments(chunk_data[[cd]]), collapse = driver.SEPARATOR),
-                               flags = paste(get_flags(chunk_data[[cd]]), collapse = driver.SEPARATOR))
+                               precursors = paste(get_precursors(chunk_data[[cd]]), collapse = data.SEPARATOR),
+                               title = paste(get_title(chunk_data[[cd]]), collapse = data.SEPARATOR),
+                               units = paste(get_units(chunk_data[[cd]]), collapse = data.SEPARATOR),
+                               comments = paste(get_comments(chunk_data[[cd]]), collapse = data.SEPARATOR),
+                               flags = paste(get_flags(chunk_data[[cd]]), collapse = data.SEPARATOR))
     }
   }
   bind_rows(metadata)
@@ -116,12 +121,12 @@ tibbelize_outputs <- function(chunk_data, chunk_name) {
 #' @param stop_before Stop immediately before this chunk (character)
 #' @param stop_after Stop immediately after this chunk  (character)
 #' @param return_inputs_of Return the data objects that are inputs for these chunks (character).
-#' If \code{stop_before} is specified, by default that chunk's inputs are returned.
+#' If \code{stop_before} is specified, by default that chunk's inputs are returned
 #' @param return_outputs_of Return the data objects that are output from these chunks (character)
-#' If \code{stop_after} is specified, by default that chunk's outputs are returned.
-#' @param return_data_names Return these data objects (character). By default this is the union of \code{return_inputs_of} and \code{return_inputs_of}
+#' If \code{stop_after} is specified, by default that chunk's outputs are returned
+#' @param return_data_names Return these data objects (character). By default this is the union of \code{return_inputs_of} and \code{return_outputs_of}
 #' @param return_data_map_only Return only the precursor information? (logical) This overrides
-#' the other \code{return_*} parameters above.
+#' the other \code{return_*} parameters above
 #' @param write_outputs Write all chunk outputs to disk?
 #' @param outdir Location to write output data (ignored if \code{write_outputs} is \code{FALSE})
 #' @param xmldir Location to write output XML (ignored if \code{write_outputs} is \code{FALSE})

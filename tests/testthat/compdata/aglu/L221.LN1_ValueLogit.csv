@@ -1,0 +1,1063 @@
+INPUT_TABLE
+Variable ID
+LN1_ValueLogit
+
+region,LandAllocatorRoot,LandNode1,unManagedLandValue,logit.year.fillout,logit.exponent
+USA,root,UrbanLand_ArkWhtRedR,7162046,1975,0
+USA,root,AgroForestLand_ArkWhtRedR,7162046,1975,2
+USA,root,UrbanLand_California,36534149,1975,0
+USA,root,Tundra_California,36534149,1975,0
+USA,root,RockIceDesert_California,36534149,1975,0
+USA,root,AgroForestLand_California,36534149,1975,2
+USA,root,UrbanLand_Caribbean,23119908,1975,0
+USA,root,AgroForestLand_Caribbean,23119908,1975,2
+USA,root,AgroForestLand_FraserR,2929312,1975,2
+USA,root,UrbanLand_GreatBasin,4005684,1975,0
+USA,root,Tundra_GreatBasin,4005684,1975,0
+USA,root,RockIceDesert_GreatBasin,4005684,1975,0
+USA,root,AgroForestLand_GreatBasin,4005684,1975,2
+USA,root,UrbanLand_GreatLakes,8149010,1975,0
+USA,root,AgroForestLand_GreatLakes,8149010,1975,2
+USA,root,UrbanLand_MexCstNW,13907985,1975,0
+USA,root,AgroForestLand_MexCstNW,13907985,1975,2
+USA,root,UrbanLand_MissouriR,6363233,1975,0
+USA,root,Tundra_MissouriR,6363233,1975,0
+USA,root,AgroForestLand_MissouriR,6363233,1975,2
+USA,root,UrbanLand_MissppRN,8522174,1975,0
+USA,root,AgroForestLand_MissppRN,8522174,1975,2
+USA,root,UrbanLand_MissppRS,6904563,1975,0
+USA,root,AgroForestLand_MissppRS,6904563,1975,2
+USA,root,UrbanLand_NelsonR,6562129,1975,0
+USA,root,AgroForestLand_NelsonR,6562129,1975,2
+USA,root,UrbanLand_OhioR,17159118,1975,0
+USA,root,AgroForestLand_OhioR,17159118,1975,2
+USA,root,UrbanLand_PacArctic,39435,1975,0
+USA,root,Tundra_PacArctic,39435,1975,0
+USA,root,RockIceDesert_PacArctic,39435,1975,0
+USA,root,AgroForestLand_PacArctic,39435,1975,2
+USA,root,UrbanLand_RioGrande,8947194,1975,0
+USA,root,Tundra_RioGrande,8947194,1975,0
+USA,root,RockIceDesert_RioGrande,8947194,1975,0
+USA,root,AgroForestLand_RioGrande,8947194,1975,2
+USA,root,UrbanLand_TennR,28315863,1975,0
+USA,root,AgroForestLand_TennR,28315863,1975,2
+USA,root,UrbanLand_TexasCst,4173878,1975,0
+USA,root,AgroForestLand_TexasCst,4173878,1975,2
+USA,root,UrbanLand_UsaColoRN,2866798,1975,0
+USA,root,Tundra_UsaColoRN,2866798,1975,0
+USA,root,AgroForestLand_UsaColoRN,2866798,1975,2
+USA,root,UrbanLand_UsaColoRS,13588436,1975,0
+USA,root,AgroForestLand_UsaColoRS,13588436,1975,2
+USA,root,UrbanLand_UsaCstE,8518197,1975,0
+USA,root,AgroForestLand_UsaCstE,8518197,1975,2
+USA,root,UrbanLand_UsaCstNE,14979326,1975,0
+USA,root,AgroForestLand_UsaCstNE,14979326,1975,2
+USA,root,UrbanLand_UsaCstSE,46362175,1975,0
+USA,root,AgroForestLand_UsaCstSE,46362175,1975,2
+USA,root,UrbanLand_UsaPacNW,18921560,1975,0
+USA,root,Tundra_UsaPacNW,18921560,1975,0
+USA,root,AgroForestLand_UsaPacNW,18921560,1975,2
+Africa_Eastern,root,UrbanLand_AfrCstE,1106227,1975,0
+Africa_Eastern,root,AgroForestLand_AfrCstE,1106227,1975,2
+Africa_Eastern,root,UrbanLand_AfrCstNE,1027313,1975,0
+Africa_Eastern,root,RockIceDesert_AfrCstNE,1027313,1975,0
+Africa_Eastern,root,AgroForestLand_AfrCstNE,1027313,1975,2
+Africa_Eastern,root,UrbanLand_AfrIntN,994469,1975,0
+Africa_Eastern,root,RockIceDesert_AfrIntN,994469,1975,0
+Africa_Eastern,root,AgroForestLand_AfrIntN,994469,1975,2
+Africa_Eastern,root,UrbanLand_CongoR,757700,1975,0
+Africa_Eastern,root,AgroForestLand_CongoR,757700,1975,2
+Africa_Eastern,root,UrbanLand_LChad,510486,1975,0
+Africa_Eastern,root,RockIceDesert_LChad,510486,1975,0
+Africa_Eastern,root,AgroForestLand_LChad,510486,1975,2
+Africa_Eastern,root,UrbanLand_Madasgacar,1613020,1975,0
+Africa_Eastern,root,RockIceDesert_Madasgacar,1613020,1975,0
+Africa_Eastern,root,AgroForestLand_Madasgacar,1613020,1975,2
+Africa_Eastern,root,UrbanLand_NileR,554976,1975,0
+Africa_Eastern,root,RockIceDesert_NileR,554976,1975,0
+Africa_Eastern,root,AgroForestLand_NileR,554976,1975,2
+Africa_Eastern,root,UrbanLand_RiftValley,1729947,1975,0
+Africa_Eastern,root,RockIceDesert_RiftValley,1729947,1975,0
+Africa_Eastern,root,AgroForestLand_RiftValley,1729947,1975,2
+Africa_Eastern,root,UrbanLand_ShebJubR,2073705,1975,0
+Africa_Eastern,root,RockIceDesert_ShebJubR,2073705,1975,0
+Africa_Eastern,root,AgroForestLand_ShebJubR,2073705,1975,2
+Africa_Northern,root,RockIceDesert_AfrCstNE,4952774,1975,0
+Africa_Northern,root,AgroForestLand_AfrCstNE,4952774,1975,2
+Africa_Northern,root,UrbanLand_AfrCstNW,2404495,1975,0
+Africa_Northern,root,RockIceDesert_AfrCstNW,2404495,1975,0
+Africa_Northern,root,AgroForestLand_AfrCstNW,2404495,1975,2
+Africa_Northern,root,UrbanLand_AfrIntN,4774280,1975,0
+Africa_Northern,root,RockIceDesert_AfrIntN,4774280,1975,0
+Africa_Northern,root,AgroForestLand_AfrIntN,4774280,1975,2
+Africa_Northern,root,RockIceDesert_DeadSea,39435,1975,0
+Africa_Northern,root,AgroForestLand_DeadSea,39435,1975,2
+Africa_Northern,root,UrbanLand_LChad,39435,1975,0
+Africa_Northern,root,RockIceDesert_LChad,39435,1975,0
+Africa_Northern,root,AgroForestLand_LChad,39435,1975,2
+Africa_Northern,root,UrbanLand_MeditE,21139493,1975,0
+Africa_Northern,root,RockIceDesert_MeditE,21139493,1975,0
+Africa_Northern,root,AgroForestLand_MeditE,21139493,1975,2
+Africa_Northern,root,UrbanLand_MeditS,3267810,1975,0
+Africa_Northern,root,RockIceDesert_MeditS,3267810,1975,0
+Africa_Northern,root,AgroForestLand_MeditS,3267810,1975,2
+Africa_Northern,root,UrbanLand_NigerR,39435,1975,0
+Africa_Northern,root,RockIceDesert_NigerR,39435,1975,0
+Africa_Northern,root,AgroForestLand_NigerR,39435,1975,2
+Africa_Northern,root,UrbanLand_NileR,30241075,1975,0
+Africa_Northern,root,RockIceDesert_NileR,30241075,1975,0
+Africa_Northern,root,AgroForestLand_NileR,30241075,1975,2
+Africa_Northern,root,UrbanLand_SinaiP,14075323,1975,0
+Africa_Northern,root,RockIceDesert_SinaiP,14075323,1975,0
+Africa_Northern,root,AgroForestLand_SinaiP,14075323,1975,2
+Africa_Southern,root,UrbanLand_AfrCstE,361379,1975,0
+Africa_Southern,root,RockIceDesert_AfrCstE,361379,1975,0
+Africa_Southern,root,AgroForestLand_AfrCstE,361379,1975,2
+Africa_Southern,root,UrbanLand_AfrCstS,1093285,1975,0
+Africa_Southern,root,RockIceDesert_AfrCstS,1093285,1975,0
+Africa_Southern,root,AgroForestLand_AfrCstS,1093285,1975,2
+Africa_Southern,root,UrbanLand_AfrCstSE,373846,1975,0
+Africa_Southern,root,RockIceDesert_AfrCstSE,373846,1975,0
+Africa_Southern,root,AgroForestLand_AfrCstSE,373846,1975,2
+Africa_Southern,root,UrbanLand_AfrCstSW,10977606,1975,0
+Africa_Southern,root,RockIceDesert_AfrCstSW,10977606,1975,0
+Africa_Southern,root,AgroForestLand_AfrCstSW,10977606,1975,2
+Africa_Southern,root,UrbanLand_AfrIntS,624439,1975,0
+Africa_Southern,root,RockIceDesert_AfrIntS,624439,1975,0
+Africa_Southern,root,AgroForestLand_AfrIntS,624439,1975,2
+Africa_Southern,root,UrbanLand_AngolaCst,651445,1975,0
+Africa_Southern,root,RockIceDesert_AngolaCst,651445,1975,0
+Africa_Southern,root,AgroForestLand_AngolaCst,651445,1975,2
+Africa_Southern,root,UrbanLand_CongoR,150106,1975,0
+Africa_Southern,root,RockIceDesert_CongoR,150106,1975,0
+Africa_Southern,root,AgroForestLand_CongoR,150106,1975,2
+Africa_Southern,root,UrbanLand_GuineaGulf,509662,1975,0
+Africa_Southern,root,AgroForestLand_GuineaGulf,509662,1975,2
+Africa_Southern,root,UrbanLand_LimpopoR,283027,1975,0
+Africa_Southern,root,AgroForestLand_LimpopoR,283027,1975,2
+Africa_Southern,root,UrbanLand_NileR,39435,1975,0
+Africa_Southern,root,RockIceDesert_NileR,39435,1975,0
+Africa_Southern,root,AgroForestLand_NileR,39435,1975,2
+Africa_Southern,root,UrbanLand_OrangeR,883835,1975,0
+Africa_Southern,root,RockIceDesert_OrangeR,883835,1975,0
+Africa_Southern,root,AgroForestLand_OrangeR,883835,1975,2
+Africa_Southern,root,UrbanLand_RiftValley,39435,1975,0
+Africa_Southern,root,RockIceDesert_RiftValley,39435,1975,0
+Africa_Southern,root,AgroForestLand_RiftValley,39435,1975,2
+Africa_Southern,root,UrbanLand_ZambeziR,517649,1975,0
+Africa_Southern,root,RockIceDesert_ZambeziR,517649,1975,0
+Africa_Southern,root,AgroForestLand_ZambeziR,517649,1975,2
+Africa_Western,root,UrbanLand_AfrCstNW,2377391,1975,0
+Africa_Western,root,RockIceDesert_AfrCstNW,2377391,1975,0
+Africa_Western,root,AgroForestLand_AfrCstNW,2377391,1975,2
+Africa_Western,root,UrbanLand_AfrCstW,1244382,1975,0
+Africa_Western,root,RockIceDesert_AfrCstW,1244382,1975,0
+Africa_Western,root,AgroForestLand_AfrCstW,1244382,1975,2
+Africa_Western,root,UrbanLand_AfrIntN,174517,1975,0
+Africa_Western,root,RockIceDesert_AfrIntN,174517,1975,0
+Africa_Western,root,AgroForestLand_AfrIntN,174517,1975,2
+Africa_Western,root,UrbanLand_CongoR,668354,1975,0
+Africa_Western,root,RockIceDesert_CongoR,668354,1975,0
+Africa_Western,root,AgroForestLand_CongoR,668354,1975,2
+Africa_Western,root,UrbanLand_GuineaGulf,1150440,1975,0
+Africa_Western,root,RockIceDesert_GuineaGulf,1150440,1975,0
+Africa_Western,root,AgroForestLand_GuineaGulf,1150440,1975,2
+Africa_Western,root,UrbanLand_LChad,319859,1975,0
+Africa_Western,root,RockIceDesert_LChad,319859,1975,0
+Africa_Western,root,AgroForestLand_LChad,319859,1975,2
+Africa_Western,root,UrbanLand_NigerR,579779,1975,0
+Africa_Western,root,RockIceDesert_NigerR,579779,1975,0
+Africa_Western,root,AgroForestLand_NigerR,579779,1975,2
+Africa_Western,root,UrbanLand_NileR,360791,1975,0
+Africa_Western,root,RockIceDesert_NileR,360791,1975,0
+Africa_Western,root,AgroForestLand_NileR,360791,1975,2
+Africa_Western,root,UrbanLand_SenegalR,682574,1975,0
+Africa_Western,root,RockIceDesert_SenegalR,682574,1975,0
+Africa_Western,root,AgroForestLand_SenegalR,682574,1975,2
+Africa_Western,root,UrbanLand_VoltaR,956970,1975,0
+Africa_Western,root,RockIceDesert_VoltaR,956970,1975,0
+Africa_Western,root,AgroForestLand_VoltaR,956970,1975,2
+Africa_Western,root,UrbanLand_ZambeziR,3178218,1975,0
+Africa_Western,root,AgroForestLand_ZambeziR,3178218,1975,2
+Australia_NZ,root,UrbanLand_AusCstE,3998052,1975,0
+Australia_NZ,root,AgroForestLand_AusCstE,3998052,1975,2
+Australia_NZ,root,UrbanLand_AusCstN,17999931,1975,0
+Australia_NZ,root,RockIceDesert_AusCstN,17999931,1975,0
+Australia_NZ,root,AgroForestLand_AusCstN,17999931,1975,2
+Australia_NZ,root,UrbanLand_AusCstS,2008101,1975,0
+Australia_NZ,root,RockIceDesert_AusCstS,2008101,1975,0
+Australia_NZ,root,AgroForestLand_AusCstS,2008101,1975,2
+Australia_NZ,root,UrbanLand_AusCstW,2128912,1975,0
+Australia_NZ,root,RockIceDesert_AusCstW,2128912,1975,0
+Australia_NZ,root,AgroForestLand_AusCstW,2128912,1975,2
+Australia_NZ,root,UrbanLand_AusInt,1900607,1975,0
+Australia_NZ,root,RockIceDesert_AusInt,1900607,1975,0
+Australia_NZ,root,AgroForestLand_AusInt,1900607,1975,2
+Australia_NZ,root,UrbanLand_MurrayDrlg,3315541,1975,0
+Australia_NZ,root,AgroForestLand_MurrayDrlg,3315541,1975,2
+Australia_NZ,root,UrbanLand_NewZealand,9186489,1975,0
+Australia_NZ,root,Tundra_NewZealand,9186489,1975,0
+Australia_NZ,root,RockIceDesert_NewZealand,9186489,1975,0
+Australia_NZ,root,AgroForestLand_NewZealand,9186489,1975,2
+Australia_NZ,root,UrbanLand_Tasmania,12562485,1975,0
+Australia_NZ,root,AgroForestLand_Tasmania,12562485,1975,2
+Brazil,root,UrbanLand_AmazonR,1793481,1975,0
+Brazil,root,Tundra_AmazonR,1793481,1975,0
+Brazil,root,RockIceDesert_AmazonR,1793481,1975,0
+Brazil,root,AgroForestLand_AmazonR,1793481,1975,2
+Brazil,root,UrbanLand_BrzCstE,719286,1975,0
+Brazil,root,RockIceDesert_BrzCstE,719286,1975,0
+Brazil,root,AgroForestLand_BrzCstE,719286,1975,2
+Brazil,root,UrbanLand_BrzCstN,621018,1975,0
+Brazil,root,RockIceDesert_BrzCstN,621018,1975,0
+Brazil,root,AgroForestLand_BrzCstN,621018,1975,2
+Brazil,root,UrbanLand_BrzCstS,3070105,1975,0
+Brazil,root,RockIceDesert_BrzCstS,3070105,1975,0
+Brazil,root,AgroForestLand_BrzCstS,3070105,1975,2
+Brazil,root,UrbanLand_OrinocoR,39435,1975,0
+Brazil,root,Tundra_OrinocoR,39435,1975,0
+Brazil,root,AgroForestLand_OrinocoR,39435,1975,2
+Brazil,root,UrbanLand_ParnaibaR,556781,1975,0
+Brazil,root,AgroForestLand_ParnaibaR,556781,1975,2
+Brazil,root,UrbanLand_RioLaPlata,1769573,1975,0
+Brazil,root,RockIceDesert_RioLaPlata,1769573,1975,0
+Brazil,root,AgroForestLand_RioLaPlata,1769573,1975,2
+Brazil,root,UrbanLand_SAmerCstNE,372445,1975,0
+Brazil,root,RockIceDesert_SAmerCstNE,372445,1975,0
+Brazil,root,AgroForestLand_SAmerCstNE,372445,1975,2
+Brazil,root,UrbanLand_SaoFrancR,1184736,1975,0
+Brazil,root,RockIceDesert_SaoFrancR,1184736,1975,0
+Brazil,root,AgroForestLand_SaoFrancR,1184736,1975,2
+Brazil,root,UrbanLand_TocantinsR,1500424,1975,0
+Brazil,root,RockIceDesert_TocantinsR,1500424,1975,0
+Brazil,root,AgroForestLand_TocantinsR,1500424,1975,2
+Canada,root,UrbanLand_CanAtl,11952493,1975,0
+Canada,root,Tundra_CanAtl,11952493,1975,0
+Canada,root,RockIceDesert_CanAtl,11952493,1975,0
+Canada,root,AgroForestLand_CanAtl,11952493,1975,2
+Canada,root,UrbanLand_ChurchillR,39435,1975,0
+Canada,root,Tundra_ChurchillR,39435,1975,0
+Canada,root,AgroForestLand_ChurchillR,39435,1975,2
+Canada,root,UrbanLand_FraserR,14933326,1975,0
+Canada,root,Tundra_FraserR,14933326,1975,0
+Canada,root,RockIceDesert_FraserR,14933326,1975,0
+Canada,root,AgroForestLand_FraserR,14933326,1975,2
+Canada,root,UrbanLand_GreatLakes,14009472,1975,0
+Canada,root,AgroForestLand_GreatLakes,14009472,1975,2
+Canada,root,UrbanLand_HudsonBay,4113046,1975,0
+Canada,root,Tundra_HudsonBay,4113046,1975,0
+Canada,root,RockIceDesert_HudsonBay,4113046,1975,0
+Canada,root,AgroForestLand_HudsonBay,4113046,1975,2
+Canada,root,UrbanLand_Mackenzie,2702297,1975,0
+Canada,root,Tundra_Mackenzie,2702297,1975,0
+Canada,root,RockIceDesert_Mackenzie,2702297,1975,0
+Canada,root,AgroForestLand_Mackenzie,2702297,1975,2
+Canada,root,UrbanLand_MissouriR,2457377,1975,0
+Canada,root,AgroForestLand_MissouriR,2457377,1975,2
+Canada,root,UrbanLand_NelsonR,2593496,1975,0
+Canada,root,Tundra_NelsonR,2593496,1975,0
+Canada,root,RockIceDesert_NelsonR,2593496,1975,0
+Canada,root,AgroForestLand_NelsonR,2593496,1975,2
+Canada,root,UrbanLand_NWTerr,2385672,1975,0
+Canada,root,Tundra_NWTerr,2385672,1975,0
+Canada,root,RockIceDesert_NWTerr,2385672,1975,0
+Canada,root,AgroForestLand_NWTerr,2385672,1975,2
+Canada,root,UrbanLand_PacArctic,16079809,1975,0
+Canada,root,Tundra_PacArctic,16079809,1975,0
+Canada,root,RockIceDesert_PacArctic,16079809,1975,0
+Canada,root,AgroForestLand_PacArctic,16079809,1975,2
+Canada,root,UrbanLand_StLwrncR,6434623,1975,0
+Canada,root,Tundra_StLwrncR,6434623,1975,0
+Canada,root,AgroForestLand_StLwrncR,6434623,1975,2
+Canada,root,UrbanLand_UsaCstNE,15968998,1975,0
+Canada,root,AgroForestLand_UsaCstNE,15968998,1975,2
+Canada,root,UrbanLand_UsaPacNW,26089966,1975,0
+Canada,root,Tundra_UsaPacNW,26089966,1975,0
+Canada,root,RockIceDesert_UsaPacNW,26089966,1975,0
+Canada,root,AgroForestLand_UsaPacNW,26089966,1975,2
+Central America and Caribbean,root,UrbanLand_Caribbean,6862123,1975,0
+Central America and Caribbean,root,AgroForestLand_Caribbean,6862123,1975,2
+Central America and Caribbean,root,UrbanLand_CntAmer,12544544,1975,0
+Central America and Caribbean,root,AgroForestLand_CntAmer,12544544,1975,2
+Central America and Caribbean,root,UrbanLand_ColEcuaCst,14206176,1975,0
+Central America and Caribbean,root,AgroForestLand_ColEcuaCst,14206176,1975,2
+Central America and Caribbean,root,UrbanLand_GrijUsuR,13676480,1975,0
+Central America and Caribbean,root,AgroForestLand_GrijUsuR,13676480,1975,2
+Central America and Caribbean,root,UrbanLand_SAmerCstN,10994051,1975,0
+Central America and Caribbean,root,AgroForestLand_SAmerCstN,10994051,1975,2
+Central America and Caribbean,root,UrbanLand_YucatanP,11697655,1975,0
+Central America and Caribbean,root,AgroForestLand_YucatanP,11697655,1975,2
+Central Asia,root,UrbanLand_AmuDaryaR,6501431,1975,0
+Central Asia,root,Tundra_AmuDaryaR,6501431,1975,0
+Central Asia,root,RockIceDesert_AmuDaryaR,6501431,1975,0
+Central Asia,root,AgroForestLand_AmuDaryaR,6501431,1975,2
+Central Asia,root,UrbanLand_AmurR,12760392,1975,0
+Central Asia,root,AgroForestLand_AmurR,12760392,1975,2
+Central Asia,root,AgroForestLand_BlackSeaN,6053185,1975,2
+Central Asia,root,UrbanLand_BlackSeaS,8546545,1975,0
+Central Asia,root,Tundra_BlackSeaS,8546545,1975,0
+Central Asia,root,RockIceDesert_BlackSeaS,8546545,1975,0
+Central Asia,root,AgroForestLand_BlackSeaS,8546545,1975,2
+Central Asia,root,UrbanLand_CaspianE,4394785,1975,0
+Central Asia,root,Tundra_CaspianE,4394785,1975,0
+Central Asia,root,RockIceDesert_CaspianE,4394785,1975,0
+Central Asia,root,AgroForestLand_CaspianE,4394785,1975,2
+Central Asia,root,UrbanLand_CaspianNE,1769238,1975,0
+Central Asia,root,Tundra_CaspianNE,1769238,1975,0
+Central Asia,root,RockIceDesert_CaspianNE,1769238,1975,0
+Central Asia,root,AgroForestLand_CaspianNE,1769238,1975,2
+Central Asia,root,UrbanLand_CaspianSW,8044880,1975,0
+Central Asia,root,Tundra_CaspianSW,8044880,1975,0
+Central Asia,root,RockIceDesert_CaspianSW,8044880,1975,0
+Central Asia,root,AgroForestLand_CaspianSW,8044880,1975,2
+Central Asia,root,UrbanLand_Gobi,3085313,1975,0
+Central Asia,root,Tundra_Gobi,3085313,1975,0
+Central Asia,root,RockIceDesert_Gobi,3085313,1975,0
+Central Asia,root,AgroForestLand_Gobi,3085313,1975,2
+Central Asia,root,UrbanLand_LBalkash,6709263,1975,0
+Central Asia,root,Tundra_LBalkash,6709263,1975,0
+Central Asia,root,RockIceDesert_LBalkash,6709263,1975,0
+Central Asia,root,AgroForestLand_LBalkash,6709263,1975,2
+Central Asia,root,UrbanLand_ObR,1198028,1975,0
+Central Asia,root,Tundra_ObR,1198028,1975,0
+Central Asia,root,RockIceDesert_ObR,1198028,1975,0
+Central Asia,root,AgroForestLand_ObR,1198028,1975,2
+Central Asia,root,UrbanLand_SyrDaryaR,6864348,1975,0
+Central Asia,root,Tundra_SyrDaryaR,6864348,1975,0
+Central Asia,root,RockIceDesert_SyrDaryaR,6864348,1975,0
+Central Asia,root,AgroForestLand_SyrDaryaR,6864348,1975,2
+Central Asia,root,Tundra_Tarim,23609095,1975,0
+Central Asia,root,RockIceDesert_Tarim,23609095,1975,0
+Central Asia,root,AgroForestLand_Tarim,23609095,1975,2
+Central Asia,root,UrbanLand_UralR,1439748,1975,0
+Central Asia,root,AgroForestLand_UralR,1439748,1975,2
+Central Asia,root,UrbanLand_VolgaR,2063224,1975,0
+Central Asia,root,AgroForestLand_VolgaR,2063224,1975,2
+Central Asia,root,UrbanLand_YeniseiR,10993450,1975,0
+Central Asia,root,Tundra_YeniseiR,10993450,1975,0
+Central Asia,root,AgroForestLand_YeniseiR,10993450,1975,2
+China,root,Tundra_AmuDaryaR,39435,1975,0
+China,root,RockIceDesert_AmuDaryaR,39435,1975,0
+China,root,AgroForestLand_AmuDaryaR,39435,1975,2
+China,root,UrbanLand_AmurR,6642434,1975,0
+China,root,Tundra_AmurR,6642434,1975,0
+China,root,AgroForestLand_AmurR,6642434,1975,2
+China,root,UrbanLand_BoHai,9596358,1975,0
+China,root,Tundra_BoHai,9596358,1975,0
+China,root,RockIceDesert_BoHai,9596358,1975,0
+China,root,AgroForestLand_BoHai,9596358,1975,2
+China,root,UrbanLand_ChinaCst,22596669,1975,0
+China,root,RockIceDesert_ChinaCst,22596669,1975,0
+China,root,AgroForestLand_ChinaCst,22596669,1975,2
+China,root,UrbanLand_GangesR,4712209,1975,0
+China,root,Tundra_GangesR,4712209,1975,0
+China,root,RockIceDesert_GangesR,4712209,1975,0
+China,root,AgroForestLand_GangesR,4712209,1975,2
+China,root,UrbanLand_Gobi,8170574,1975,0
+China,root,Tundra_Gobi,8170574,1975,0
+China,root,RockIceDesert_Gobi,8170574,1975,0
+China,root,AgroForestLand_Gobi,8170574,1975,2
+China,root,UrbanLand_Hainan,27116086,1975,0
+China,root,AgroForestLand_Hainan,27116086,1975,2
+China,root,UrbanLand_Hong,6678780,1975,0
+China,root,AgroForestLand_Hong,6678780,1975,2
+China,root,UrbanLand_HuangHeR,8341030,1975,0
+China,root,Tundra_HuangHeR,8341030,1975,0
+China,root,RockIceDesert_HuangHeR,8341030,1975,0
+China,root,AgroForestLand_HuangHeR,8341030,1975,2
+China,root,UrbanLand_IndusR,9530125,1975,0
+China,root,Tundra_IndusR,9530125,1975,0
+China,root,RockIceDesert_IndusR,9530125,1975,0
+China,root,AgroForestLand_IndusR,9530125,1975,2
+China,root,UrbanLand_IrrawaddyR,10944250,1975,0
+China,root,Tundra_IrrawaddyR,10944250,1975,0
+China,root,AgroForestLand_IrrawaddyR,10944250,1975,2
+China,root,UrbanLand_LBalkash,9122701,1975,0
+China,root,Tundra_LBalkash,9122701,1975,0
+China,root,RockIceDesert_LBalkash,9122701,1975,0
+China,root,AgroForestLand_LBalkash,9122701,1975,2
+China,root,UrbanLand_Mekong,5925827,1975,0
+China,root,Tundra_Mekong,5925827,1975,0
+China,root,RockIceDesert_Mekong,5925827,1975,0
+China,root,AgroForestLand_Mekong,5925827,1975,2
+China,root,UrbanLand_ObR,10384286,1975,0
+China,root,Tundra_ObR,10384286,1975,0
+China,root,RockIceDesert_ObR,10384286,1975,0
+China,root,AgroForestLand_ObR,10384286,1975,2
+China,root,UrbanLand_RusCstSE,7412079,1975,0
+China,root,AgroForestLand_RusCstSE,7412079,1975,2
+China,root,UrbanLand_Salween,6757518,1975,0
+China,root,Tundra_Salween,6757518,1975,0
+China,root,RockIceDesert_Salween,6757518,1975,0
+China,root,AgroForestLand_Salween,6757518,1975,2
+China,root,UrbanLand_SChinaSea,29824253,1975,0
+China,root,RockIceDesert_SChinaSea,29824253,1975,0
+China,root,AgroForestLand_SChinaSea,29824253,1975,2
+China,root,Tundra_SyrDaryaR,9444238,1975,0
+China,root,AgroForestLand_SyrDaryaR,9444238,1975,2
+China,root,UrbanLand_Taiwan,39435,1975,0
+China,root,AgroForestLand_Taiwan,39435,1975,2
+China,root,UrbanLand_Tarim,10652585,1975,0
+China,root,Tundra_Tarim,10652585,1975,0
+China,root,RockIceDesert_Tarim,10652585,1975,0
+China,root,AgroForestLand_Tarim,10652585,1975,2
+China,root,UrbanLand_Tibet,6391582,1975,0
+China,root,Tundra_Tibet,6391582,1975,0
+China,root,RockIceDesert_Tibet,6391582,1975,0
+China,root,AgroForestLand_Tibet,6391582,1975,2
+China,root,UrbanLand_XunJiang,13125192,1975,0
+China,root,AgroForestLand_XunJiang,13125192,1975,2
+China,root,UrbanLand_Yangtze,14088126,1975,0
+China,root,Tundra_Yangtze,14088126,1975,0
+China,root,RockIceDesert_Yangtze,14088126,1975,0
+China,root,AgroForestLand_Yangtze,14088126,1975,2
+China,root,UrbanLand_ZiyaHe,14370831,1975,0
+China,root,Tundra_ZiyaHe,14370831,1975,0
+China,root,RockIceDesert_ZiyaHe,14370831,1975,0
+China,root,AgroForestLand_ZiyaHe,14370831,1975,2
+EU-12,root,UrbanLand_AdrBlkSea,12592400,1975,0
+EU-12,root,AgroForestLand_AdrBlkSea,12592400,1975,2
+EU-12,root,UrbanLand_BalticSea,1435103,1975,0
+EU-12,root,AgroForestLand_BalticSea,1435103,1975,2
+EU-12,root,UrbanLand_DanubeR,6294021,1975,0
+EU-12,root,AgroForestLand_DanubeR,6294021,1975,2
+EU-12,root,UrbanLand_DaugavaR,1071707,1975,0
+EU-12,root,AgroForestLand_DaugavaR,1071707,1975,2
+EU-12,root,AgroForestLand_DniesterR,9913286,1975,2
+EU-12,root,UrbanLand_DnkGrmCst,6471370,1975,0
+EU-12,root,AgroForestLand_DnkGrmCst,6471370,1975,2
+EU-12,root,UrbanLand_ElbeR,9796503,1975,0
+EU-12,root,AgroForestLand_ElbeR,9796503,1975,2
+EU-12,root,UrbanLand_MeditE,75006380,1975,0
+EU-12,root,AgroForestLand_MeditE,75006380,1975,2
+EU-12,root,UrbanLand_NarvaR,1270547,1975,0
+EU-12,root,AgroForestLand_NarvaR,1270547,1975,2
+EU-12,root,UrbanLand_NemanR,1893390,1975,0
+EU-12,root,Tundra_NemanR,1893390,1975,0
+EU-12,root,AgroForestLand_NemanR,1893390,1975,2
+EU-12,root,UrbanLand_OderR,6526935,1975,0
+EU-12,root,AgroForestLand_OderR,6526935,1975,2
+EU-12,root,UrbanLand_PolandCst,5540312,1975,0
+EU-12,root,AgroForestLand_PolandCst,5540312,1975,2
+EU-12,root,UrbanLand_WislaR,7788260,1975,0
+EU-12,root,AgroForestLand_WislaR,7788260,1975,2
+EU-15,root,UrbanLand_AdrBlkSea,11429732,1975,0
+EU-15,root,AgroForestLand_AdrBlkSea,11429732,1975,2
+EU-15,root,UrbanLand_ArcticIsl,39435,1975,0
+EU-15,root,Tundra_ArcticIsl,39435,1975,0
+EU-15,root,RockIceDesert_ArcticIsl,39435,1975,0
+EU-15,root,UrbanLand_DanubeR,23858597,1975,0
+EU-15,root,Tundra_DanubeR,23858597,1975,0
+EU-15,root,RockIceDesert_DanubeR,23858597,1975,0
+EU-15,root,AgroForestLand_DanubeR,23858597,1975,2
+EU-15,root,UrbanLand_DnkGrmCst,23751917,1975,0
+EU-15,root,AgroForestLand_DnkGrmCst,23751917,1975,2
+EU-15,root,UrbanLand_DouroR,8569470,1975,0
+EU-15,root,AgroForestLand_DouroR,8569470,1975,2
+EU-15,root,UrbanLand_EbroR,8789396,1975,0
+EU-15,root,Tundra_EbroR,8789396,1975,0
+EU-15,root,AgroForestLand_EbroR,8789396,1975,2
+EU-15,root,UrbanLand_ElbeR,23082549,1975,0
+EU-15,root,AgroForestLand_ElbeR,23082549,1975,2
+EU-15,root,UrbanLand_EmsWeserR,22782788,1975,0
+EU-15,root,AgroForestLand_EmsWeserR,22782788,1975,2
+EU-15,root,UrbanLand_EngWales,20399807,1975,0
+EU-15,root,AgroForestLand_EngWales,20399807,1975,2
+EU-15,root,UrbanLand_Finland,10194154,1975,0
+EU-15,root,AgroForestLand_Finland,10194154,1975,2
+EU-15,root,UrbanLand_FranceCstS,8562865,1975,0
+EU-15,root,Tundra_FranceCstS,8562865,1975,0
+EU-15,root,RockIceDesert_FranceCstS,8562865,1975,0
+EU-15,root,AgroForestLand_FranceCstS,8562865,1975,2
+EU-15,root,UrbanLand_FranceCstW,15365999,1975,0
+EU-15,root,Tundra_FranceCstW,15365999,1975,0
+EU-15,root,AgroForestLand_FranceCstW,15365999,1975,2
+EU-15,root,UrbanLand_Gironde,15869881,1975,0
+EU-15,root,Tundra_Gironde,15869881,1975,0
+EU-15,root,AgroForestLand_Gironde,15869881,1975,2
+EU-15,root,UrbanLand_GuadalqR,9261136,1975,0
+EU-15,root,AgroForestLand_GuadalqR,9261136,1975,2
+EU-15,root,UrbanLand_GuadianaR,8670117,1975,0
+EU-15,root,AgroForestLand_GuadianaR,8670117,1975,2
+EU-15,root,UrbanLand_IberiaCst,9792698,1975,0
+EU-15,root,AgroForestLand_IberiaCst,9792698,1975,2
+EU-15,root,UrbanLand_Ireland,26595590,1975,0
+EU-15,root,AgroForestLand_Ireland,26595590,1975,2
+EU-15,root,UrbanLand_ItalyCstE,20611187,1975,0
+EU-15,root,Tundra_ItalyCstE,20611187,1975,0
+EU-15,root,AgroForestLand_ItalyCstE,20611187,1975,2
+EU-15,root,UrbanLand_ItalyCstW,25979682,1975,0
+EU-15,root,AgroForestLand_ItalyCstW,25979682,1975,2
+EU-15,root,UrbanLand_LoireR,12713968,1975,0
+EU-15,root,AgroForestLand_LoireR,12713968,1975,2
+EU-15,root,UrbanLand_MeditIsl,8095123,1975,0
+EU-15,root,AgroForestLand_MeditIsl,8095123,1975,2
+EU-15,root,UrbanLand_NevaR,27607369,1975,0
+EU-15,root,AgroForestLand_NevaR,27607369,1975,2
+EU-15,root,UrbanLand_OderR,22074893,1975,0
+EU-15,root,AgroForestLand_OderR,22074893,1975,2
+EU-15,root,UrbanLand_PoR,20236191,1975,0
+EU-15,root,Tundra_PoR,20236191,1975,0
+EU-15,root,RockIceDesert_PoR,20236191,1975,0
+EU-15,root,AgroForestLand_PoR,20236191,1975,2
+EU-15,root,UrbanLand_RhineR,19234506,1975,0
+EU-15,root,AgroForestLand_RhineR,19234506,1975,2
+EU-15,root,UrbanLand_RhoneR,12551229,1975,0
+EU-15,root,Tundra_RhoneR,12551229,1975,0
+EU-15,root,RockIceDesert_RhoneR,12551229,1975,0
+EU-15,root,AgroForestLand_RhoneR,12551229,1975,2
+EU-15,root,UrbanLand_ScheldtR,18359670,1975,0
+EU-15,root,AgroForestLand_ScheldtR,18359670,1975,2
+EU-15,root,UrbanLand_ScndnvN,39435,1975,0
+EU-15,root,Tundra_ScndnvN,39435,1975,0
+EU-15,root,AgroForestLand_ScndnvN,39435,1975,2
+EU-15,root,UrbanLand_Scotland,17743352,1975,0
+EU-15,root,AgroForestLand_Scotland,17743352,1975,2
+EU-15,root,UrbanLand_SeineR,15240148,1975,0
+EU-15,root,AgroForestLand_SeineR,15240148,1975,2
+EU-15,root,UrbanLand_SpainCstSE,6525784,1975,0
+EU-15,root,AgroForestLand_SpainCstSE,6525784,1975,2
+EU-15,root,UrbanLand_Sweden,9227911,1975,0
+EU-15,root,Tundra_Sweden,9227911,1975,0
+EU-15,root,RockIceDesert_Sweden,9227911,1975,0
+EU-15,root,AgroForestLand_Sweden,9227911,1975,2
+EU-15,root,UrbanLand_TagusR,7809026,1975,0
+EU-15,root,AgroForestLand_TagusR,7809026,1975,2
+EU-15,root,UrbanLand_TiberR,28643777,1975,0
+EU-15,root,AgroForestLand_TiberR,28643777,1975,2
+Europe_Eastern,root,UrbanLand_BlackSeaN,2568560,1975,0
+Europe_Eastern,root,AgroForestLand_BlackSeaN,2568560,1975,2
+Europe_Eastern,root,UrbanLand_DanubeR,5095627,1975,0
+Europe_Eastern,root,AgroForestLand_DanubeR,5095627,1975,2
+Europe_Eastern,root,UrbanLand_DaugavaR,3294488,1975,0
+Europe_Eastern,root,AgroForestLand_DaugavaR,3294488,1975,2
+Europe_Eastern,root,UrbanLand_DnieperR,3738738,1975,0
+Europe_Eastern,root,Tundra_DnieperR,3738738,1975,0
+Europe_Eastern,root,RockIceDesert_DnieperR,3738738,1975,0
+Europe_Eastern,root,AgroForestLand_DnieperR,3738738,1975,2
+Europe_Eastern,root,UrbanLand_DniesterR,4859079,1975,0
+Europe_Eastern,root,AgroForestLand_DniesterR,4859079,1975,2
+Europe_Eastern,root,UrbanLand_DonR,2523385,1975,0
+Europe_Eastern,root,AgroForestLand_DonR,2523385,1975,2
+Europe_Eastern,root,UrbanLand_NemanR,5062221,1975,0
+Europe_Eastern,root,AgroForestLand_NemanR,5062221,1975,2
+Europe_Eastern,root,UrbanLand_NevaR,3262951,1975,0
+Europe_Eastern,root,AgroForestLand_NevaR,3262951,1975,2
+Europe_Eastern,root,UrbanLand_WislaR,5193122,1975,0
+Europe_Eastern,root,Tundra_WislaR,5193122,1975,0
+Europe_Eastern,root,AgroForestLand_WislaR,5193122,1975,2
+Europe_Non_EU,root,UrbanLand_AdrBlkSea,5895200,1975,0
+Europe_Non_EU,root,AgroForestLand_AdrBlkSea,5895200,1975,2
+Europe_Non_EU,root,UrbanLand_BlackSeaS,2593718,1975,0
+Europe_Non_EU,root,Tundra_BlackSeaS,2593718,1975,0
+Europe_Non_EU,root,AgroForestLand_BlackSeaS,2593718,1975,2
+Europe_Non_EU,root,UrbanLand_CaspianSW,2257865,1975,0
+Europe_Non_EU,root,Tundra_CaspianSW,2257865,1975,0
+Europe_Non_EU,root,AgroForestLand_CaspianSW,2257865,1975,2
+Europe_Non_EU,root,UrbanLand_DanubeR,5012826,1975,0
+Europe_Non_EU,root,AgroForestLand_DanubeR,5012826,1975,2
+Europe_Non_EU,root,AgroForestLand_EJrdnSyr,4574418,1975,2
+Europe_Non_EU,root,UrbanLand_MeditE,3282701,1975,0
+Europe_Non_EU,root,RockIceDesert_MeditE,3282701,1975,0
+Europe_Non_EU,root,AgroForestLand_MeditE,3282701,1975,2
+Europe_Non_EU,root,UrbanLand_TigrEuphR,2740135,1975,0
+Europe_Non_EU,root,Tundra_TigrEuphR,2740135,1975,0
+Europe_Non_EU,root,AgroForestLand_TigrEuphR,2740135,1975,2
+European Free Trade Association,root,UrbanLand_DanubeR,87154186,1975,0
+European Free Trade Association,root,Tundra_DanubeR,87154186,1975,0
+European Free Trade Association,root,AgroForestLand_DanubeR,87154186,1975,2
+European Free Trade Association,root,UrbanLand_Iceland,39435,1975,0
+European Free Trade Association,root,Tundra_Iceland,39435,1975,0
+European Free Trade Association,root,RockIceDesert_Iceland,39435,1975,0
+European Free Trade Association,root,AgroForestLand_Iceland,39435,1975,2
+European Free Trade Association,root,UrbanLand_PoR,52379232,1975,0
+European Free Trade Association,root,Tundra_PoR,52379232,1975,0
+European Free Trade Association,root,RockIceDesert_PoR,52379232,1975,0
+European Free Trade Association,root,AgroForestLand_PoR,52379232,1975,2
+European Free Trade Association,root,UrbanLand_RhineR,58373198,1975,0
+European Free Trade Association,root,Tundra_RhineR,58373198,1975,0
+European Free Trade Association,root,RockIceDesert_RhineR,58373198,1975,0
+European Free Trade Association,root,AgroForestLand_RhineR,58373198,1975,2
+European Free Trade Association,root,UrbanLand_RhoneR,59049986,1975,0
+European Free Trade Association,root,Tundra_RhoneR,59049986,1975,0
+European Free Trade Association,root,RockIceDesert_RhoneR,59049986,1975,0
+European Free Trade Association,root,AgroForestLand_RhoneR,59049986,1975,2
+European Free Trade Association,root,UrbanLand_ScndnvN,46092055,1975,0
+European Free Trade Association,root,Tundra_ScndnvN,46092055,1975,0
+European Free Trade Association,root,RockIceDesert_ScndnvN,46092055,1975,0
+European Free Trade Association,root,AgroForestLand_ScndnvN,46092055,1975,2
+European Free Trade Association,root,UrbanLand_Sweden,45712095,1975,0
+European Free Trade Association,root,Tundra_Sweden,45712095,1975,0
+European Free Trade Association,root,RockIceDesert_Sweden,45712095,1975,0
+European Free Trade Association,root,AgroForestLand_Sweden,45712095,1975,2
+India,root,UrbanLand_BengalBay,10763686,1975,0
+India,root,AgroForestLand_BengalBay,10763686,1975,2
+India,root,UrbanLand_BengalW,8708350,1975,0
+India,root,AgroForestLand_BengalW,8708350,1975,2
+India,root,UrbanLand_BrahmaniR,5331450,1975,0
+India,root,AgroForestLand_BrahmaniR,5331450,1975,2
+India,root,UrbanLand_CauveryR,15170993,1975,0
+India,root,AgroForestLand_CauveryR,15170993,1975,2
+India,root,UrbanLand_GangesR,8502338,1975,0
+India,root,Tundra_GangesR,8502338,1975,0
+India,root,RockIceDesert_GangesR,8502338,1975,0
+India,root,AgroForestLand_GangesR,8502338,1975,2
+India,root,UrbanLand_GodavariR,7080034,1975,0
+India,root,AgroForestLand_GodavariR,7080034,1975,2
+India,root,UrbanLand_IndCstE,9755003,1975,0
+India,root,RockIceDesert_IndCstE,9755003,1975,0
+India,root,AgroForestLand_IndCstE,9755003,1975,2
+India,root,UrbanLand_IndCstNE,6720175,1975,0
+India,root,AgroForestLand_IndCstNE,6720175,1975,2
+India,root,UrbanLand_IndCstS,14838907,1975,0
+India,root,RockIceDesert_IndCstS,14838907,1975,0
+India,root,AgroForestLand_IndCstS,14838907,1975,2
+India,root,UrbanLand_IndCstW,18852026,1975,0
+India,root,AgroForestLand_IndCstW,18852026,1975,2
+India,root,UrbanLand_IndusR,13950133,1975,0
+India,root,Tundra_IndusR,13950133,1975,0
+India,root,RockIceDesert_IndusR,13950133,1975,0
+India,root,AgroForestLand_IndusR,13950133,1975,2
+India,root,UrbanLand_IrrawaddyR,6041607,1975,0
+India,root,AgroForestLand_IrrawaddyR,6041607,1975,2
+India,root,UrbanLand_KrishnaR,9615043,1975,0
+India,root,AgroForestLand_KrishnaR,9615043,1975,2
+India,root,UrbanLand_MahanadiR,4873288,1975,0
+India,root,AgroForestLand_MahanadiR,4873288,1975,2
+India,root,UrbanLand_MahiR,5960015,1975,0
+India,root,AgroForestLand_MahiR,5960015,1975,2
+India,root,UrbanLand_NarmadaR,7347217,1975,0
+India,root,AgroForestLand_NarmadaR,7347217,1975,2
+India,root,UrbanLand_PennarR,8184569,1975,0
+India,root,AgroForestLand_PennarR,8184569,1975,2
+India,root,UrbanLand_SabarmatiR,10528580,1975,0
+India,root,RockIceDesert_SabarmatiR,10528580,1975,0
+India,root,AgroForestLand_SabarmatiR,10528580,1975,2
+India,root,UrbanLand_TaptiR,6761296,1975,0
+India,root,AgroForestLand_TaptiR,6761296,1975,2
+Indonesia,root,UrbanLand_BorneoCstN,9276994,1975,0
+Indonesia,root,AgroForestLand_BorneoCstN,9276994,1975,2
+Indonesia,root,UrbanLand_FlyR,14657005,1975,0
+Indonesia,root,AgroForestLand_FlyR,14657005,1975,2
+Indonesia,root,UrbanLand_IdnE,12886191,1975,0
+Indonesia,root,AgroForestLand_IdnE,12886191,1975,2
+Indonesia,root,UrbanLand_IrianJaya,14501173,1975,0
+Indonesia,root,AgroForestLand_IrianJaya,14501173,1975,2
+Indonesia,root,UrbanLand_JavaTimor,12715916,1975,0
+Indonesia,root,AgroForestLand_JavaTimor,12715916,1975,2
+Indonesia,root,UrbanLand_Kalimantan,9866488,1975,0
+Indonesia,root,AgroForestLand_Kalimantan,9866488,1975,2
+Indonesia,root,UrbanLand_SepikR,14481610,1975,0
+Indonesia,root,AgroForestLand_SepikR,14481610,1975,2
+Indonesia,root,UrbanLand_Sulawesi,12520264,1975,0
+Indonesia,root,AgroForestLand_Sulawesi,12520264,1975,2
+Indonesia,root,UrbanLand_Sumatra,9948337,1975,0
+Indonesia,root,AgroForestLand_Sumatra,9948337,1975,2
+Japan,root,UrbanLand_Japan,80006632,1975,0
+Japan,root,Tundra_Japan,80006632,1975,0
+Japan,root,AgroForestLand_Japan,80006632,1975,2
+Japan,root,AgroForestLand_Taiwan,104183751,1975,2
+Mexico,root,UrbanLand_California,18731802,1975,0
+Mexico,root,AgroForestLand_California,18731802,1975,2
+Mexico,root,UrbanLand_CntAmer,120185125,1975,0
+Mexico,root,AgroForestLand_CntAmer,120185125,1975,2
+Mexico,root,UrbanLand_GrijUsuR,15493951,1975,0
+Mexico,root,AgroForestLand_GrijUsuR,15493951,1975,2
+Mexico,root,UrbanLand_MexBaja,51878829,1975,0
+Mexico,root,RockIceDesert_MexBaja,51878829,1975,0
+Mexico,root,AgroForestLand_MexBaja,51878829,1975,2
+Mexico,root,UrbanLand_MexCstNW,20189757,1975,0
+Mexico,root,AgroForestLand_MexCstNW,20189757,1975,2
+Mexico,root,UrbanLand_MexCstW,23812533,1975,0
+Mexico,root,AgroForestLand_MexCstW,23812533,1975,2
+Mexico,root,UrbanLand_MexGulf,14115995,1975,0
+Mexico,root,AgroForestLand_MexGulf,14115995,1975,2
+Mexico,root,UrbanLand_MexInt,9520675,1975,0
+Mexico,root,AgroForestLand_MexInt,9520675,1975,2
+Mexico,root,UrbanLand_Papaloapan,22513730,1975,0
+Mexico,root,AgroForestLand_Papaloapan,22513730,1975,2
+Mexico,root,UrbanLand_RioBalsas,15063499,1975,0
+Mexico,root,Tundra_RioBalsas,15063499,1975,0
+Mexico,root,AgroForestLand_RioBalsas,15063499,1975,2
+Mexico,root,UrbanLand_RioGrande,19941977,1975,0
+Mexico,root,AgroForestLand_RioGrande,19941977,1975,2
+Mexico,root,UrbanLand_RioLerma,14444202,1975,0
+Mexico,root,AgroForestLand_RioLerma,14444202,1975,2
+Mexico,root,UrbanLand_RioVerde,12720720,1975,0
+Mexico,root,AgroForestLand_RioVerde,12720720,1975,2
+Mexico,root,UrbanLand_Tehuantpc,24793091,1975,0
+Mexico,root,AgroForestLand_Tehuantpc,24793091,1975,2
+Mexico,root,UrbanLand_UsaColoRS,41463977,1975,0
+Mexico,root,RockIceDesert_UsaColoRS,41463977,1975,0
+Mexico,root,AgroForestLand_UsaColoRS,41463977,1975,2
+Mexico,root,UrbanLand_YucatanP,17132196,1975,0
+Mexico,root,Tundra_YucatanP,17132196,1975,0
+Mexico,root,AgroForestLand_YucatanP,17132196,1975,2
+Middle East,root,UrbanLand_AfrCstNE,2480292,1975,0
+Middle East,root,AgroForestLand_AfrCstNE,2480292,1975,2
+Middle East,root,UrbanLand_ArabianP,7641761,1975,0
+Middle East,root,RockIceDesert_ArabianP,7641761,1975,0
+Middle East,root,AgroForestLand_ArabianP,7641761,1975,2
+Middle East,root,UrbanLand_ArabianSea,13240713,1975,0
+Middle East,root,RockIceDesert_ArabianSea,13240713,1975,0
+Middle East,root,AgroForestLand_ArabianSea,13240713,1975,2
+Middle East,root,UrbanLand_CaspianE,7186787,1975,0
+Middle East,root,RockIceDesert_CaspianE,7186787,1975,0
+Middle East,root,AgroForestLand_CaspianE,7186787,1975,2
+Middle East,root,UrbanLand_CaspianSW,6164770,1975,0
+Middle East,root,Tundra_CaspianSW,6164770,1975,0
+Middle East,root,RockIceDesert_CaspianSW,6164770,1975,0
+Middle East,root,AgroForestLand_CaspianSW,6164770,1975,2
+Middle East,root,UrbanLand_DeadSea,7478253,1975,0
+Middle East,root,RockIceDesert_DeadSea,7478253,1975,0
+Middle East,root,AgroForestLand_DeadSea,7478253,1975,2
+Middle East,root,UrbanLand_EJrdnSyr,3600893,1975,0
+Middle East,root,RockIceDesert_EJrdnSyr,3600893,1975,0
+Middle East,root,AgroForestLand_EJrdnSyr,3600893,1975,2
+Middle East,root,UrbanLand_FarahrudR,8179399,1975,0
+Middle East,root,RockIceDesert_FarahrudR,8179399,1975,0
+Middle East,root,AgroForestLand_FarahrudR,8179399,1975,2
+Middle East,root,UrbanLand_HamuMashR,13215654,1975,0
+Middle East,root,RockIceDesert_HamuMashR,13215654,1975,0
+Middle East,root,AgroForestLand_HamuMashR,13215654,1975,2
+Middle East,root,UrbanLand_Helmand,7860090,1975,0
+Middle East,root,RockIceDesert_Helmand,7860090,1975,0
+Middle East,root,AgroForestLand_Helmand,7860090,1975,2
+Middle East,root,UrbanLand_Iran,11897365,1975,0
+Middle East,root,RockIceDesert_Iran,11897365,1975,0
+Middle East,root,AgroForestLand_Iran,11897365,1975,2
+Middle East,root,UrbanLand_MeditE,7445557,1975,0
+Middle East,root,RockIceDesert_MeditE,7445557,1975,0
+Middle East,root,AgroForestLand_MeditE,7445557,1975,2
+Middle East,root,UrbanLand_PersianGulf,10768178,1975,0
+Middle East,root,RockIceDesert_PersianGulf,10768178,1975,0
+Middle East,root,AgroForestLand_PersianGulf,10768178,1975,2
+Middle East,root,UrbanLand_RedSeaE,3249681,1975,0
+Middle East,root,RockIceDesert_RedSeaE,3249681,1975,0
+Middle East,root,AgroForestLand_RedSeaE,3249681,1975,2
+Middle East,root,UrbanLand_SinaiP,5028615,1975,0
+Middle East,root,RockIceDesert_SinaiP,5028615,1975,0
+Middle East,root,AgroForestLand_SinaiP,5028615,1975,2
+Middle East,root,UrbanLand_TigrEuphR,3498752,1975,0
+Middle East,root,RockIceDesert_TigrEuphR,3498752,1975,0
+Middle East,root,AgroForestLand_TigrEuphR,3498752,1975,2
+Pakistan,root,RockIceDesert_AmuDaryaR,5596348,1975,0
+Pakistan,root,AgroForestLand_AmuDaryaR,5596348,1975,2
+Pakistan,root,UrbanLand_ArabianSea,16348001,1975,0
+Pakistan,root,RockIceDesert_ArabianSea,16348001,1975,0
+Pakistan,root,AgroForestLand_ArabianSea,16348001,1975,2
+Pakistan,root,UrbanLand_HamuMashR,17151629,1975,0
+Pakistan,root,RockIceDesert_HamuMashR,17151629,1975,0
+Pakistan,root,AgroForestLand_HamuMashR,17151629,1975,2
+Pakistan,root,UrbanLand_Helmand,439130951,1975,0
+Pakistan,root,RockIceDesert_Helmand,439130951,1975,0
+Pakistan,root,AgroForestLand_Helmand,439130951,1975,2
+Pakistan,root,UrbanLand_IndusR,10600947,1975,0
+Pakistan,root,Tundra_IndusR,10600947,1975,0
+Pakistan,root,RockIceDesert_IndusR,10600947,1975,0
+Pakistan,root,AgroForestLand_IndusR,10600947,1975,2
+Pakistan,root,UrbanLand_SabarmatiR,11636807,1975,0
+Pakistan,root,RockIceDesert_SabarmatiR,11636807,1975,0
+Pakistan,root,AgroForestLand_SabarmatiR,11636807,1975,2
+Pakistan,root,UrbanLand_Tarim,24139594,1975,0
+Pakistan,root,RockIceDesert_Tarim,24139594,1975,0
+Pakistan,root,AgroForestLand_Tarim,24139594,1975,2
+Russia,root,UrbanLand_AmurR,2177933,1975,0
+Russia,root,Tundra_AmurR,2177933,1975,0
+Russia,root,AgroForestLand_AmurR,2177933,1975,2
+Russia,root,UrbanLand_ArcticIsl,39435,1975,0
+Russia,root,Tundra_ArcticIsl,39435,1975,0
+Russia,root,RockIceDesert_ArcticIsl,39435,1975,0
+Russia,root,AgroForestLand_ArcticIsl,39435,1975,2
+Russia,root,UrbanLand_BalticSea,6604395,1975,0
+Russia,root,Tundra_BalticSea,6604395,1975,0
+Russia,root,AgroForestLand_BalticSea,6604395,1975,2
+Russia,root,UrbanLand_BarentsSea,6009648,1975,0
+Russia,root,Tundra_BarentsSea,6009648,1975,0
+Russia,root,RockIceDesert_BarentsSea,6009648,1975,0
+Russia,root,AgroForestLand_BarentsSea,6009648,1975,2
+Russia,root,UrbanLand_BlackSeaN,7335498,1975,0
+Russia,root,Tundra_BlackSeaN,7335498,1975,0
+Russia,root,RockIceDesert_BlackSeaN,7335498,1975,0
+Russia,root,AgroForestLand_BlackSeaN,7335498,1975,2
+Russia,root,Tundra_BlackSeaS,4140295,1975,0
+Russia,root,RockIceDesert_BlackSeaS,4140295,1975,0
+Russia,root,AgroForestLand_BlackSeaS,4140295,1975,2
+Russia,root,UrbanLand_CaspianNE,4373255,1975,0
+Russia,root,Tundra_CaspianNE,4373255,1975,0
+Russia,root,RockIceDesert_CaspianNE,4373255,1975,0
+Russia,root,AgroForestLand_CaspianNE,4373255,1975,2
+Russia,root,UrbanLand_CaspianSW,4081564,1975,0
+Russia,root,Tundra_CaspianSW,4081564,1975,0
+Russia,root,AgroForestLand_CaspianSW,4081564,1975,2
+Russia,root,UrbanLand_DaugavaR,6162720,1975,0
+Russia,root,AgroForestLand_DaugavaR,6162720,1975,2
+Russia,root,UrbanLand_DnieperR,6341600,1975,0
+Russia,root,AgroForestLand_DnieperR,6341600,1975,2
+Russia,root,UrbanLand_DonR,4457577,1975,0
+Russia,root,AgroForestLand_DonR,4457577,1975,2
+Russia,root,UrbanLand_DvinaRN,10097502,1975,0
+Russia,root,AgroForestLand_DvinaRN,10097502,1975,2
+Russia,root,UrbanLand_Finland,7626299,1975,0
+Russia,root,AgroForestLand_Finland,7626299,1975,2
+Russia,root,UrbanLand_Gobi,866607,1975,0
+Russia,root,Tundra_Gobi,866607,1975,0
+Russia,root,RockIceDesert_Gobi,866607,1975,0
+Russia,root,AgroForestLand_Gobi,866607,1975,2
+Russia,root,UrbanLand_KaraSea,39435,1975,0
+Russia,root,Tundra_KaraSea,39435,1975,0
+Russia,root,RockIceDesert_KaraSea,39435,1975,0
+Russia,root,AgroForestLand_KaraSea,39435,1975,2
+Russia,root,UrbanLand_LenaR,2640569,1975,0
+Russia,root,Tundra_LenaR,2640569,1975,0
+Russia,root,RockIceDesert_LenaR,2640569,1975,0
+Russia,root,AgroForestLand_LenaR,2640569,1975,2
+Russia,root,UrbanLand_NarvaR,2834251,1975,0
+Russia,root,AgroForestLand_NarvaR,2834251,1975,2
+Russia,root,UrbanLand_NemanR,5740789,1975,0
+Russia,root,Tundra_NemanR,5740789,1975,0
+Russia,root,AgroForestLand_NemanR,5740789,1975,2
+Russia,root,UrbanLand_NevaR,6049476,1975,0
+Russia,root,Tundra_NevaR,6049476,1975,0
+Russia,root,AgroForestLand_NevaR,6049476,1975,2
+Russia,root,UrbanLand_ObR,2345217,1975,0
+Russia,root,Tundra_ObR,2345217,1975,0
+Russia,root,RockIceDesert_ObR,2345217,1975,0
+Russia,root,AgroForestLand_ObR,2345217,1975,2
+Russia,root,UrbanLand_PolandCst,4668759,1975,0
+Russia,root,AgroForestLand_PolandCst,4668759,1975,2
+Russia,root,UrbanLand_RusCstSE,5045656,1975,0
+Russia,root,AgroForestLand_RusCstSE,5045656,1975,2
+Russia,root,UrbanLand_ScndnvN,6357796,1975,0
+Russia,root,Tundra_ScndnvN,6357796,1975,0
+Russia,root,AgroForestLand_ScndnvN,6357796,1975,2
+Russia,root,UrbanLand_SiberiaN,39435,1975,0
+Russia,root,Tundra_SiberiaN,39435,1975,0
+Russia,root,RockIceDesert_SiberiaN,39435,1975,0
+Russia,root,AgroForestLand_SiberiaN,39435,1975,2
+Russia,root,UrbanLand_SiberiaW,14851928,1975,0
+Russia,root,Tundra_SiberiaW,14851928,1975,0
+Russia,root,RockIceDesert_SiberiaW,14851928,1975,0
+Russia,root,AgroForestLand_SiberiaW,14851928,1975,2
+Russia,root,UrbanLand_SyrDaryaR,1373448,1975,0
+Russia,root,AgroForestLand_SyrDaryaR,1373448,1975,2
+Russia,root,UrbanLand_UralR,2434531,1975,0
+Russia,root,AgroForestLand_UralR,2434531,1975,2
+Russia,root,UrbanLand_VolgaR,4917327,1975,0
+Russia,root,Tundra_VolgaR,4917327,1975,0
+Russia,root,AgroForestLand_VolgaR,4917327,1975,2
+Russia,root,UrbanLand_YeniseiR,1746523,1975,0
+Russia,root,Tundra_YeniseiR,1746523,1975,0
+Russia,root,RockIceDesert_YeniseiR,1746523,1975,0
+Russia,root,AgroForestLand_YeniseiR,1746523,1975,2
+South Africa,root,UrbanLand_AfrCstS,2964501,1975,0
+South Africa,root,RockIceDesert_AfrCstS,2964501,1975,0
+South Africa,root,AgroForestLand_AfrCstS,2964501,1975,2
+South Africa,root,UrbanLand_AfrCstSSW,2643996,1975,0
+South Africa,root,RockIceDesert_AfrCstSSW,2643996,1975,0
+South Africa,root,AgroForestLand_AfrCstSSW,2643996,1975,2
+South Africa,root,UrbanLand_AfrCstSW,39435,1975,0
+South Africa,root,RockIceDesert_AfrCstSW,39435,1975,0
+South Africa,root,AgroForestLand_AfrCstSW,39435,1975,2
+South Africa,root,UrbanLand_LimpopoR,4235113,1975,0
+South Africa,root,AgroForestLand_LimpopoR,4235113,1975,2
+South Africa,root,UrbanLand_OrangeR,1534286,1975,0
+South Africa,root,RockIceDesert_OrangeR,1534286,1975,0
+South Africa,root,AgroForestLand_OrangeR,1534286,1975,2
+South America_Northern,root,UrbanLand_AmazonR,10144134,1975,0
+South America_Northern,root,AgroForestLand_AmazonR,10144134,1975,2
+South America_Northern,root,AgroForestLand_MagdalenaR,29153937,1975,2
+South America_Northern,root,UrbanLand_OrinocoR,25358087,1975,0
+South America_Northern,root,Tundra_OrinocoR,25358087,1975,0
+South America_Northern,root,RockIceDesert_OrinocoR,25358087,1975,0
+South America_Northern,root,AgroForestLand_OrinocoR,25358087,1975,2
+South America_Northern,root,UrbanLand_SAmerCstN,30067339,1975,0
+South America_Northern,root,Tundra_SAmerCstN,30067339,1975,0
+South America_Northern,root,RockIceDesert_SAmerCstN,30067339,1975,0
+South America_Northern,root,AgroForestLand_SAmerCstN,30067339,1975,2
+South America_Northern,root,UrbanLand_SAmerCstNE,6656377,1975,0
+South America_Northern,root,RockIceDesert_SAmerCstNE,6656377,1975,0
+South America_Northern,root,AgroForestLand_SAmerCstNE,6656377,1975,2
+South America_Southern,root,UrbanLand_AmazonR,10864331,1975,0
+South America_Southern,root,Tundra_AmazonR,10864331,1975,0
+South America_Southern,root,RockIceDesert_AmazonR,10864331,1975,0
+South America_Southern,root,AgroForestLand_AmazonR,10864331,1975,2
+South America_Southern,root,RockIceDesert_ArgColoR,121332216,1975,0
+South America_Southern,root,AgroForestLand_ArgColoR,121332216,1975,2
+South America_Southern,root,UrbanLand_ArgCstS,65507910,1975,0
+South America_Southern,root,RockIceDesert_ArgCstS,65507910,1975,0
+South America_Southern,root,AgroForestLand_ArgCstS,65507910,1975,2
+South America_Southern,root,UrbanLand_BrzCstS,7888884,1975,0
+South America_Southern,root,AgroForestLand_BrzCstS,7888884,1975,2
+South America_Southern,root,UrbanLand_ChileCstN,39440621,1975,0
+South America_Southern,root,Tundra_ChileCstN,39440621,1975,0
+South America_Southern,root,RockIceDesert_ChileCstN,39440621,1975,0
+South America_Southern,root,AgroForestLand_ChileCstN,39440621,1975,2
+South America_Southern,root,UrbanLand_ChileCstS,28866522,1975,0
+South America_Southern,root,Tundra_ChileCstS,28866522,1975,0
+South America_Southern,root,RockIceDesert_ChileCstS,28866522,1975,0
+South America_Southern,root,AgroForestLand_ChileCstS,28866522,1975,2
+South America_Southern,root,UrbanLand_ColEcuaCst,7829986,1975,0
+South America_Southern,root,Tundra_ColEcuaCst,7829986,1975,0
+South America_Southern,root,RockIceDesert_ColEcuaCst,7829986,1975,0
+South America_Southern,root,AgroForestLand_ColEcuaCst,7829986,1975,2
+South America_Southern,root,UrbanLand_LaPuna,9793745,1975,0
+South America_Southern,root,Tundra_LaPuna,9793745,1975,0
+South America_Southern,root,RockIceDesert_LaPuna,9793745,1975,0
+South America_Southern,root,AgroForestLand_LaPuna,9793745,1975,2
+South America_Southern,root,Tundra_NegroR,18908805,1975,0
+South America_Southern,root,AgroForestLand_NegroR,18908805,1975,2
+South America_Southern,root,UrbanLand_PeruCst,12640958,1975,0
+South America_Southern,root,Tundra_PeruCst,12640958,1975,0
+South America_Southern,root,RockIceDesert_PeruCst,12640958,1975,0
+South America_Southern,root,AgroForestLand_PeruCst,12640958,1975,2
+South America_Southern,root,UrbanLand_RioLaPlata,3650058,1975,0
+South America_Southern,root,Tundra_RioLaPlata,3650058,1975,0
+South America_Southern,root,RockIceDesert_RioLaPlata,3650058,1975,0
+South America_Southern,root,AgroForestLand_RioLaPlata,3650058,1975,2
+South America_Southern,root,RockIceDesert_Salinas,39435,1975,0
+South Asia,root,UrbanLand_AmuDaryaR,1024039,1975,0
+South Asia,root,Tundra_AmuDaryaR,1024039,1975,0
+South Asia,root,RockIceDesert_AmuDaryaR,1024039,1975,0
+South Asia,root,AgroForestLand_AmuDaryaR,1024039,1975,2
+South Asia,root,UrbanLand_BengalBay,16315172,1975,0
+South Asia,root,AgroForestLand_BengalBay,16315172,1975,2
+South Asia,root,UrbanLand_CaspianE,1427084,1975,0
+South Asia,root,RockIceDesert_CaspianE,1427084,1975,0
+South Asia,root,AgroForestLand_CaspianE,1427084,1975,2
+South Asia,root,UrbanLand_FarahrudR,1548682,1975,0
+South Asia,root,RockIceDesert_FarahrudR,1548682,1975,0
+South Asia,root,AgroForestLand_FarahrudR,1548682,1975,2
+South Asia,root,UrbanLand_GangesR,17855786,1975,0
+South Asia,root,Tundra_GangesR,17855786,1975,0
+South Asia,root,RockIceDesert_GangesR,17855786,1975,0
+South Asia,root,AgroForestLand_GangesR,17855786,1975,2
+South Asia,root,RockIceDesert_HamuMashR,986970,1975,0
+South Asia,root,AgroForestLand_HamuMashR,986970,1975,2
+South Asia,root,UrbanLand_Helmand,1720207,1975,0
+South Asia,root,RockIceDesert_Helmand,1720207,1975,0
+South Asia,root,AgroForestLand_Helmand,1720207,1975,2
+South Asia,root,UrbanLand_IndusR,1020866,1975,0
+South Asia,root,Tundra_IndusR,1020866,1975,0
+South Asia,root,RockIceDesert_IndusR,1020866,1975,0
+South Asia,root,AgroForestLand_IndusR,1020866,1975,2
+South Asia,root,UrbanLand_SriLanka,42557373,1975,0
+South Asia,root,AgroForestLand_SriLanka,42557373,1975,2
+South Korea,root,UrbanLand_Korea,172512929,1975,0
+South Korea,root,AgroForestLand_Korea,172512929,1975,2
+Southeast Asia,root,UrbanLand_BengalBay,6994068,1975,0
+Southeast Asia,root,AgroForestLand_BengalBay,6994068,1975,2
+Southeast Asia,root,UrbanLand_BoHai,21210806,1975,0
+Southeast Asia,root,AgroForestLand_BoHai,21210806,1975,2
+Southeast Asia,root,UrbanLand_BorneoCstN,9500236,1975,0
+Southeast Asia,root,AgroForestLand_BorneoCstN,9500236,1975,2
+Southeast Asia,root,UrbanLand_ChaoPhrR,10851315,1975,0
+Southeast Asia,root,RockIceDesert_ChaoPhrR,10851315,1975,0
+Southeast Asia,root,AgroForestLand_ChaoPhrR,10851315,1975,2
+Southeast Asia,root,UrbanLand_FlyR,7537726,1975,0
+Southeast Asia,root,AgroForestLand_FlyR,7537726,1975,2
+Southeast Asia,root,Tundra_GangesR,3863843,1975,0
+Southeast Asia,root,RockIceDesert_GangesR,3863843,1975,0
+Southeast Asia,root,AgroForestLand_GangesR,3863843,1975,2
+Southeast Asia,root,UrbanLand_Hong,39435,1975,0
+Southeast Asia,root,AgroForestLand_Hong,39435,1975,2
+Southeast Asia,root,AgroForestLand_IdnE,4645510,1975,2
+Southeast Asia,root,UrbanLand_IrianJaya,6251495,1975,0
+Southeast Asia,root,AgroForestLand_IrianJaya,6251495,1975,2
+Southeast Asia,root,UrbanLand_IrrawaddyR,5490595,1975,0
+Southeast Asia,root,Tundra_IrrawaddyR,5490595,1975,0
+Southeast Asia,root,AgroForestLand_IrrawaddyR,5490595,1975,2
+Southeast Asia,root,UrbanLand_JavaTimor,4973797,1975,0
+Southeast Asia,root,AgroForestLand_JavaTimor,4973797,1975,2
+Southeast Asia,root,UrbanLand_Kalimantan,9049823,1975,0
+Southeast Asia,root,AgroForestLand_Kalimantan,9049823,1975,2
+Southeast Asia,root,UrbanLand_Korea,20017215,1975,0
+Southeast Asia,root,AgroForestLand_Korea,20017215,1975,2
+Southeast Asia,root,UrbanLand_MalaysiaP,9817589,1975,0
+Southeast Asia,root,RockIceDesert_MalaysiaP,9817589,1975,0
+Southeast Asia,root,AgroForestLand_MalaysiaP,9817589,1975,2
+Southeast Asia,root,UrbanLand_Mekong,6594348,1975,0
+Southeast Asia,root,RockIceDesert_Mekong,6594348,1975,0
+Southeast Asia,root,AgroForestLand_Mekong,6594348,1975,2
+Southeast Asia,root,AgroForestLand_NewCaledn,39435,1975,2
+Southeast Asia,root,UrbanLand_PapuaCst,3720648,1975,0
+Southeast Asia,root,AgroForestLand_PapuaCst,3720648,1975,2
+Southeast Asia,root,UrbanLand_Phlppns,17774267,1975,0
+Southeast Asia,root,AgroForestLand_Phlppns,17774267,1975,2
+Southeast Asia,root,UrbanLand_RusCstSE,18066457,1975,0
+Southeast Asia,root,AgroForestLand_RusCstSE,18066457,1975,2
+Southeast Asia,root,UrbanLand_Salween,5817856,1975,0
+Southeast Asia,root,AgroForestLand_Salween,5817856,1975,2
+Southeast Asia,root,UrbanLand_SChinaSea,39435,1975,0
+Southeast Asia,root,AgroForestLand_SChinaSea,39435,1975,2
+Southeast Asia,root,UrbanLand_SepikR,4645649,1975,0
+Southeast Asia,root,AgroForestLand_SepikR,4645649,1975,2
+Southeast Asia,root,UrbanLand_SittaungR,8783687,1975,0
+Southeast Asia,root,RockIceDesert_SittaungR,8783687,1975,0
+Southeast Asia,root,AgroForestLand_SittaungR,8783687,1975,2
+Southeast Asia,root,UrbanLand_ThaiGulf,9662463,1975,0
+Southeast Asia,root,AgroForestLand_ThaiGulf,9662463,1975,2
+Southeast Asia,root,UrbanLand_VietnamCst,468345,1975,0
+Southeast Asia,root,RockIceDesert_VietnamCst,468345,1975,0
+Southeast Asia,root,AgroForestLand_VietnamCst,468345,1975,2
+Southeast Asia,root,UrbanLand_XunJiang,39435,1975,0
+Southeast Asia,root,AgroForestLand_XunJiang,39435,1975,2
+Argentina,root,UrbanLand_ArgColoR,18720488,1975,0
+Argentina,root,Tundra_ArgColoR,18720488,1975,0
+Argentina,root,RockIceDesert_ArgColoR,18720488,1975,0
+Argentina,root,AgroForestLand_ArgColoR,18720488,1975,2
+Argentina,root,UrbanLand_ArgCstN,2354914,1975,0
+Argentina,root,Tundra_ArgCstN,2354914,1975,0
+Argentina,root,AgroForestLand_ArgCstN,2354914,1975,2
+Argentina,root,UrbanLand_ArgCstS,3880943,1975,0
+Argentina,root,Tundra_ArgCstS,3880943,1975,0
+Argentina,root,RockIceDesert_ArgCstS,3880943,1975,0
+Argentina,root,AgroForestLand_ArgCstS,3880943,1975,2
+Argentina,root,RockIceDesert_ChileCstN,73612919,1975,0
+Argentina,root,AgroForestLand_ChileCstN,73612919,1975,2
+Argentina,root,UrbanLand_ChileCstS,6454669,1975,0
+Argentina,root,Tundra_ChileCstS,6454669,1975,0
+Argentina,root,RockIceDesert_ChileCstS,6454669,1975,0
+Argentina,root,AgroForestLand_ChileCstS,6454669,1975,2
+Argentina,root,UrbanLand_LaPuna,1569277,1975,0
+Argentina,root,Tundra_LaPuna,1569277,1975,0
+Argentina,root,RockIceDesert_LaPuna,1569277,1975,0
+Argentina,root,AgroForestLand_LaPuna,1569277,1975,2
+Argentina,root,UrbanLand_MarChiq,3620352,1975,0
+Argentina,root,Tundra_MarChiq,3620352,1975,0
+Argentina,root,RockIceDesert_MarChiq,3620352,1975,0
+Argentina,root,AgroForestLand_MarChiq,3620352,1975,2
+Argentina,root,UrbanLand_NegroR,19891732,1975,0
+Argentina,root,Tundra_NegroR,19891732,1975,0
+Argentina,root,RockIceDesert_NegroR,19891732,1975,0
+Argentina,root,AgroForestLand_NegroR,19891732,1975,2
+Argentina,root,UrbanLand_Pampas,2055867,1975,0
+Argentina,root,RockIceDesert_Pampas,2055867,1975,0
+Argentina,root,AgroForestLand_Pampas,2055867,1975,2
+Argentina,root,UrbanLand_Patagonia,27425985,1975,0
+Argentina,root,RockIceDesert_Patagonia,27425985,1975,0
+Argentina,root,AgroForestLand_Patagonia,27425985,1975,2
+Argentina,root,UrbanLand_RioLaPlata,4287124,1975,0
+Argentina,root,Tundra_RioLaPlata,4287124,1975,0
+Argentina,root,RockIceDesert_RioLaPlata,4287124,1975,0
+Argentina,root,AgroForestLand_RioLaPlata,4287124,1975,2
+Argentina,root,UrbanLand_Salinas,6231928,1975,0
+Argentina,root,RockIceDesert_Salinas,6231928,1975,0
+Argentina,root,AgroForestLand_Salinas,6231928,1975,2
+Colombia,root,UrbanLand_AmazonR,15507829,1975,0
+Colombia,root,Tundra_AmazonR,15507829,1975,0
+Colombia,root,AgroForestLand_AmazonR,15507829,1975,2
+Colombia,root,UrbanLand_ColEcuaCst,14135890,1975,0
+Colombia,root,Tundra_ColEcuaCst,14135890,1975,0
+Colombia,root,AgroForestLand_ColEcuaCst,14135890,1975,2
+Colombia,root,UrbanLand_MagdalenaR,15703681,1975,0
+Colombia,root,Tundra_MagdalenaR,15703681,1975,0
+Colombia,root,RockIceDesert_MagdalenaR,15703681,1975,0
+Colombia,root,AgroForestLand_MagdalenaR,15703681,1975,2
+Colombia,root,UrbanLand_OrinocoR,39313448,1975,0
+Colombia,root,Tundra_OrinocoR,39313448,1975,0
+Colombia,root,AgroForestLand_OrinocoR,39313448,1975,2
+Colombia,root,UrbanLand_SAmerCstN,16178728,1975,0
+Colombia,root,Tundra_SAmerCstN,16178728,1975,0
+Colombia,root,RockIceDesert_SAmerCstN,16178728,1975,0
+Colombia,root,AgroForestLand_SAmerCstN,16178728,1975,2

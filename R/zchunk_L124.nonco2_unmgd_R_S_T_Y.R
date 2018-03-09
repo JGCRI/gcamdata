@@ -79,8 +79,7 @@ module_emissions_L124.nonco2_unmgd_R_S_T_Y <- function(command, ...) {
         filter(year <= 2008) %>%                                                         # Old data didn't care if post-2008 data was missing so remove it here
         spread(year, value) %>%                                                          # Convert to wide format
         na.omit() %>%                                                                    # Remove any row with an NA (i.e., incomplete time series)
-        gather(year, value, -GCAM_region_ID, -iso, -sector, -Non.CO2, -IPCC) %>%         # Convert back to long format
-        mutate(year = as.integer(year)) ->                                             # Convert year back to integer form (not sure why this changes type)
+        gather_years ->                                             # Convert year back to integer form (not sure why this changes type)
         EDGAR_history
 
     } else {
@@ -132,8 +131,7 @@ module_emissions_L124.nonco2_unmgd_R_S_T_Y <- function(command, ...) {
                 mutate(GFED_Deforest_CO, Non.CO2 = "CH4", type = "Deforest"),
                 mutate(GFED_ForestFire_CO, Non.CO2 = "N2O", type = "ForestFire"),
                 mutate(GFED_Deforest_CO, Non.CO2 = "N2O", type = "Deforest")) %>%
-      gather(year, value, -Country, -Non.CO2, -type) %>%                                             # Convert from wide to long
-      mutate(year = as.integer(year)) %>%
+      gather_years %>%
       spread(type, value) %>%                                                                        # Spread data so deforestation and forest fires are in columns
       standardize_iso(col = "Country") %>%
       change_iso_code('rou', 'rom') %>%                                                              # Convert Romania iso code to pre-2002 value
@@ -186,7 +184,7 @@ module_emissions_L124.nonco2_unmgd_R_S_T_Y <- function(command, ...) {
       repeat_add_columns(gas_list) %>%                                                                # Add in rows for all required emissions
       left_join(filter(L124.nonco2_tg_R_forest_Y_GLU,                                                 # Map in EDGAR deforestation emissions for the final deforestation year (as of 5/14/17 this was 2005)
                        year == emissions.DEFOREST_COEF_YEARS[2],
-                       technology == "Deforest"), by = c( "GCAM_region_ID", "Land_Type", "GLU", "Non.CO2")) %>%
+                       technology == "Deforest"), by = c("GCAM_region_ID", "Land_Type", "GLU", "Non.CO2")) %>%
       mutate(technology = if_else(is.na(technology), "Deforest", technology)) %>%                     # Make sure the technology name is "Deforest" (not sure why I have to do this but it is required)
       replace_na(list(value = 0)) %>%                                                                 # Note: "value" are the emissions calculated above
       mutate(value = if_else(driver == 0, 0, value)) %>%                                              # Zero out emissions in places where there wasn't any deforestation

@@ -1,6 +1,6 @@
 #' module_energy_L226.en_distribution
 #'
-#' This chunk generates the level 2 data tables for the energy distribution sector,
+#' Generate the level 2 data tables for the energy distribution sector,
 #' including capital costs, shareweights, logits, and interpolations as well as energy use coefficients for electricity and gas pipeline
 #'
 #' @param command API command to execute
@@ -48,9 +48,9 @@ module_energy_L226.en_distribution <- function(command, ...) {
 
     # Silence global variable package check
     year <- year.fillout <- to.value <- technology <- efficiency <- supplysector <- subsector <-
-    minicam.energy.input <- input.cost <- share.weight <- calibration <-
-    secondary.output <- year.x <- year.y <- . <- value <- region <- coefficient <- GCAM_region_ID <-
-    sector <- fuel <- minicam.non.energy.input <- elect_td_techchange <- NULL
+      minicam.energy.input <- input.cost <- share.weight <- calibration <-
+      secondary.output <- year.x <- year.y <- . <- value <- region <- coefficient <- GCAM_region_ID <-
+      sector <- fuel <- minicam.non.energy.input <- elect_td_techchange <- NULL
 
     all_data <- list(...)[[1]]
 
@@ -93,14 +93,14 @@ module_energy_L226.en_distribution <- function(command, ...) {
 
     # Conditionally sorts subsector shareweights of energy distribution sectors
 
-    if (any(!is.na(A26.subsector_shrwt$year))) {
+    if(any(!is.na(A26.subsector_shrwt$year))) {
       A26.subsector_shrwt %>%
         filter(!is.na(year)) %>%
         write_to_all_regions(NAMES_SUBSECTORSHRWT, GCAM_region_names) ->
         L226.SubsectorShrwt_en
     }
 
-    if (any(!is.na(A26.subsector_shrwt$year.fillout))) {
+    if(any(!is.na(A26.subsector_shrwt$year.fillout))) {
       A26.subsector_shrwt %>%
         filter(!is.na(year.fillout)) %>%
         write_to_all_regions(NAMES_SUBSECTORSHRWTFLLT, GCAM_region_names) ->
@@ -109,14 +109,14 @@ module_energy_L226.en_distribution <- function(command, ...) {
 
     # Conditionally sorts interpolation of energy distribution sectors depending on whether they use a to.year or to.value to do the interpolation.
 
-    if (any(is.na(A26.subsector_interp$to.value))){
+    if(any(is.na(A26.subsector_interp$to.value))) {
       A26.subsector_interp %>%
         filter(is.na(to.value)) %>%
         write_to_all_regions(NAMES_SUBSECTORINTERP, GCAM_region_names) ->
         L226.SubsectorInterp_en
     }
 
-    if (any(!is.na(A26.subsector_interp$to.value))) {
+    if(any(!is.na(A26.subsector_interp$to.value))) {
       A26.subsector_interp %>%
         filter(!is.na(to.value)) %>%
         write_to_all_regions(NAMES_SUBSECTORINTERPTO, GCAM_region_names) ->
@@ -139,49 +139,49 @@ module_energy_L226.en_distribution <- function(command, ...) {
 
     # Generates L226.GlobalTechEff_en: Energy inputs and efficiencies of global technologies for energy distribution by interpolating values for all model years
     A26.globaltech_eff %>%
-      gather(year, efficiency, -supplysector, -subsector, -technology, -minicam.energy.input) %>%
+      gather_years(value_col = "efficiency") %>%
       complete(nesting(supplysector, subsector, technology, minicam.energy.input), year = c(year, BASE_YEARS, FUTURE_YEARS)) %>%
       arrange(supplysector, year) %>%
       group_by(supplysector) %>%
       mutate(efficiency = approx_fun(as.numeric(year), efficiency)) %>%
       ungroup() %>%
       filter(year %in% c(BASE_YEARS, FUTURE_YEARS)) %>%
-    # Assign the columns "sector.name" and "subsector.name", consistent with the location info of a global technology
+      # Assign the columns "sector.name" and "subsector.name", consistent with the location info of a global technology
       rename(sector.name = supplysector, subsector.name = subsector) %>%
       mutate(efficiency = round(efficiency, DIGITS_EFFICIENCY))->
       L226.GlobalTechEff_en
 
     # Generates L226.GlobalTechCost_en by interpolating values of cost adders for final energy delivery for all model years
     A26.globaltech_cost %>%
-      gather(year, input.cost, -supplysector, -subsector, -technology, -minicam.non.energy.input) %>%
+      gather_years(value_col = "input.cost") %>%
       complete(nesting(supplysector, subsector, technology, minicam.non.energy.input), year = c(year, BASE_YEARS, FUTURE_YEARS)) %>%
       arrange(supplysector, year) %>%
       group_by(supplysector) %>%
       mutate (input.cost = approx_fun(as.numeric(year), input.cost)) %>%
       ungroup() %>%
       filter(year %in% c(BASE_YEARS, FUTURE_YEARS)) %>%
-    # Assign the columns "sector.name" and "subsector.name", consistent with the location info of a global technology
+      # Assign the columns "sector.name" and "subsector.name", consistent with the location info of a global technology
       rename(sector.name = supplysector, subsector.name = subsector) %>%
       mutate(input.cost = round(input.cost, DIGITS_COST)) ->
       L226.GlobalTechCost_en
 
     # Generates L226.GlobalTechShrwt_en: Shareweights of global technologies for energy distribution by interpolating values for all model years
     A26.globaltech_shrwt %>%
-      gather(year, share.weight, -supplysector, -subsector, -technology) %>%
+      gather_years(value_col = "share.weight") %>%
       complete(nesting(supplysector, subsector, technology), year = c(year, BASE_YEARS, FUTURE_YEARS)) %>%
       arrange(supplysector, year) %>%
       group_by(supplysector) %>%
       mutate (share.weight = approx_fun(as.numeric(year), share.weight)) %>%
       ungroup() %>%
       filter(year %in% c(BASE_YEARS, FUTURE_YEARS)) %>%
-      #Assign the columns "sector.name" and "subsector.name", consistent with the location info of a global technology
+      # Assign the columns "sector.name" and "subsector.name", consistent with the location info of a global technology
       rename(sector.name = supplysector, subsector.name = subsector) ->
       L226.GlobalTechShrwt_en
 
     # 2d. Calibration and region-specific data
     # Electricity ownuse IO coefs - filter down to the base years and append region IDs
     L126.IO_R_elecownuse_F_Yh %>%
-      ungroup() %>% #this data apparently came into this chunk grouped, which was preventing deletion of grouped columns
+      ungroup() %>% # this data apparently came into this chunk grouped, which was preventing deletion of grouped columns
       filter(year %in% c(BASE_YEARS)) %>%
       left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID") %>%
       left_join(calibrated_techs, by = c("sector", "fuel")) %>%
@@ -204,7 +204,7 @@ module_energy_L226.en_distribution <- function(command, ...) {
       select(-GCAM_region_ID, -sector, -fuel) ->
       L226.StubTechCoef_elecownuse
 
-    # Filter electricity transmission and distribution input-output ratio historical data down to base years (#this works now but may need optional interpolation if the assumptions file changes not to include base model years)
+    # Filter electricity transmission and distribution input-output ratio historical data down to base years (this works now but may need optional interpolation if the assumptions file changes not to include base model years)
     L126.IO_R_electd_F_Yh %>%
       filter(year %in% BASE_YEARS) ->
       L226.IO_R_electd_F_Yh
@@ -294,72 +294,60 @@ module_energy_L226.en_distribution <- function(command, ...) {
       add_precursors("energy/A26.subsector_logit", "common/GCAM_region_names") ->
       L226.SubsectorLogit_en
 
-    if (exists("L226.SubsectorShrwt_en")) {
-    L226.SubsectorShrwt_en %>%
-      add_title("Regional energy distribution subsector shareweights") %>%
-      add_units("units") %>%
-      add_comments("generated if A26.subsector_shrwt uses 'year' values to generate subsector shareweights") %>%
-      add_comments("can be multiple lines") %>%
-      add_legacy_name("L226.SubsectorShrwt_en") %>%
-      add_precursors("energy/A26.subsector_shrwt", "common/GCAM_region_names") ->
-      L226.SubsectorShrwt_en
+    if(exists("L226.SubsectorShrwt_en")) {
+      L226.SubsectorShrwt_en %>%
+        add_title("Regional energy distribution subsector shareweights") %>%
+        add_units("units") %>%
+        add_comments("generated if A26.subsector_shrwt uses 'year' values to generate subsector shareweights") %>%
+        add_comments("can be multiple lines") %>%
+        add_legacy_name("L226.SubsectorShrwt_en") %>%
+        add_precursors("energy/A26.subsector_shrwt", "common/GCAM_region_names") ->
+        L226.SubsectorShrwt_en
     } else {
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("energy/L226.SubsectorShrwt_en") ->
         L226.SubsectorShrwt_en
-      }
+    }
 
-    if (exists("L226.SubsectorShrwtFllt_en")) {
-    L226.SubsectorShrwtFllt_en %>%
-      add_title("regional energy distribution subsector shareweights") %>%
-      add_units("unitless") %>%
-      add_comments("generated if A26.subsector_shrwt uses 'year.fillout' values to generate subsector shareweights") %>%
-      add_legacy_name("L226.SubsectorShrwtFllt_en") %>%
-      add_precursors("energy/A26.subsector_shrwt", "common/GCAM_region_names") ->
-      L226.SubsectorShrwtFllt_en
+    if(exists("L226.SubsectorShrwtFllt_en")) {
+      L226.SubsectorShrwtFllt_en %>%
+        add_title("regional energy distribution subsector shareweights") %>%
+        add_units("unitless") %>%
+        add_comments("generated if A26.subsector_shrwt uses 'year.fillout' values to generate subsector shareweights") %>%
+        add_legacy_name("L226.SubsectorShrwtFllt_en") %>%
+        add_precursors("energy/A26.subsector_shrwt", "common/GCAM_region_names") ->
+        L226.SubsectorShrwtFllt_en
     } else {
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L226.SubsectorShrwtFllt_en") ->
         L226.SubsectorShrwtFllt_en
-      }
+    }
 
-    if (exists("L226.SubsectorInterp_en")) {
-    L226.SubsectorInterp_en %>%
-      add_title("interpolation functions for subsector shareweights") %>%
-      add_units("unitless") %>%
-      add_comments("subsector shareweights interpolations generated when A26.subsector_interp uses to.year") %>%
-      add_legacy_name("L226.SubsectorInterp_en") %>%
-      add_precursors("energy/A26.subsector_interp", "common/GCAM_region_names") ->
-      L226.SubsectorInterp_en
+    if(exists("L226.SubsectorInterp_en")) {
+      L226.SubsectorInterp_en %>%
+        add_title("interpolation functions for subsector shareweights") %>%
+        add_units("unitless") %>%
+        add_comments("subsector shareweights interpolations generated when A26.subsector_interp uses to.year") %>%
+        add_legacy_name("L226.SubsectorInterp_en") %>%
+        add_precursors("energy/A26.subsector_interp", "common/GCAM_region_names") ->
+        L226.SubsectorInterp_en
     } else {
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L226.SubsectorInterp_en") ->
         L226.SubsectorInterp_en
-      }
+    }
 
-    if (exists("L226.SubsectorInterpTo_en")) {
-    L226.SubsectorInterpTo_en %>%
-      add_title("interpolation functions for subsector shareweights") %>%
-      add_units("unitless") %>%
-      add_comments("subsector shareweights interpolations generated when A26.subsector_interp uses to.value") %>%
-      add_comments("can be multiple lines") %>%
-      add_legacy_name("L226.SubsectorInterpTo_en") %>%
-      add_precursors("energy/A26.subsector_interp", "common/GCAM_region_names") ->
-      L226.SubsectorInterpTo_en
+    if(exists("L226.SubsectorInterpTo_en")) {
+      L226.SubsectorInterpTo_en %>%
+        add_title("interpolation functions for subsector shareweights") %>%
+        add_units("unitless") %>%
+        add_comments("subsector shareweights interpolations generated when A26.subsector_interp uses to.value") %>%
+        add_comments("can be multiple lines") %>%
+        add_legacy_name("L226.SubsectorInterpTo_en") %>%
+        add_precursors("energy/A26.subsector_interp", "common/GCAM_region_names") ->
+        L226.SubsectorInterpTo_en
     } else {
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L226.SubsectorInterpTo_en") ->
         L226.SubsectorInterpTo_en
     }

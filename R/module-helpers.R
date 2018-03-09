@@ -30,7 +30,7 @@ set_water_input_name <- function(water_sector, water_type, water_mapping, GLU = 
   assert_that(is.character(GLU))
 
   # If there's an irrigation sector w/ mapped water type, need a GLU
-  if(any(water_sector == IRRIGATION & water_type %in% MAPPED_WATER_TYPES)) {
+  if(any(water_sector == water.IRRIGATION & water_type %in% water.MAPPED_WATER_TYPES)) {
     assert_that(all(!is.na(GLU)))
     assert_that(length(GLU) == length(water_sector))
   }
@@ -38,14 +38,14 @@ set_water_input_name <- function(water_sector, water_type, water_mapping, GLU = 
   tibble(water_sector, water_type, GLU) %>%
     # Add in the base mapped sector name and short water names
     left_join_error_no_match(select(water_mapping, water.sector, supplysector), by = c("water_sector" = "water.sector")) %>%
-    mutate(wt_short = MAPPED_WATER_TYPES_SHORT[water_type],
+    mutate(wt_short = water.MAPPED_WATER_TYPES_SHORT[water_type],
            # non-mapped water_types keep their names unchanged
-           new_name = if_else(water_type %in% MAPPED_WATER_TYPES, NA_character_, water_type),
+           new_name = if_else(water_type %in% water.MAPPED_WATER_TYPES, NA_character_, water_type),
            # non-irrigation mapped types
-           new_name = if_else(water_sector != IRRIGATION & water_type %in% MAPPED_WATER_TYPES,
+           new_name = if_else(water_sector != water.IRRIGATION & water_type %in% water.MAPPED_WATER_TYPES,
                               paste(supplysector, wt_short, sep = "_"), new_name),
            # irrigation mapped types - needs the GLU column
-           new_name = if_else(water_sector == IRRIGATION & water_type %in% MAPPED_WATER_TYPES,
+           new_name = if_else(water_sector == water.IRRIGATION & water_type %in% water.MAPPED_WATER_TYPES,
                               paste(supplysector, GLU, wt_short, sep = "_"), new_name)) %>%
     .$new_name
 }
@@ -196,6 +196,62 @@ set_years <- function(data) {
 }
 
 
+#' write_to_all_states
+#'
+#' write out data to all states
+#'
+#' @param data Base tibble to start from
+#' @param names Character vector indicating the column names of the returned tibble
+#' @note Used for USA national data by GCAM region, which is repeated for each US state
+#' @return Tibble with data written out to all USA states
+write_to_all_states <- function(data, names) {
+
+  assert_that(is_tibble(data))
+  assert_that(is.character(names))
+
+  region <- NULL  # silence package check notes
+
+  if("logit.year.fillout" %in% names) {
+    data$logit.year.fillout <- "start-year"
+  }
+
+  if("price.exp.year.fillout" %in% names) {
+    data$price.exp.year.fillout <- "start-year"
+  }
+
+  data %>%
+    set_years %>%
+    mutate(region = NULL) %>% # remove region column if it exists
+    repeat_add_columns(tibble(region = gcamusa.STATES)) %>%
+    select(names)
+}
+
+
+#' set_subsector_shrwt
+#'
+#' Calculate subsector shareweights in calibration periods, where subsectors may have multiple technologies
+#'
+#' @param data Tibble to operate on
+#' @return Tibble returned with a new column of calculated subsector shareweights.
+set_subsector_shrwt <- function(data) {
+
+  assert_that(is_tibble(data))
+
+  region <- supplysector <- subsector <- year <- calOutputValue_agg <- calOutputValue <-
+    subs.share.weight <- NULL  # silence package check notes
+
+  data_aggregated <- data %>%
+    group_by(region, supplysector, subsector, year) %>%
+    summarise(calOutputValue_agg = sum(calOutputValue)) %>%
+    ungroup
+
+  data %>%
+    left_join_error_no_match(data_aggregated, by = c("region", "supplysector", "subsector", "year")) %>%
+    mutate(subs.share.weight = if_else(calOutputValue_agg > 0, 1, 0)) %>%
+    select(-calOutputValue_agg)
+}
+
+
 #' add_node_leaf_names
 #'
 #' Match in the node and leaf names from a land nesting table
@@ -294,7 +350,7 @@ add_carbon_info <- function( data, carbon_info_table, matchvars = c("region", "G
   GCAM_region_names <- veg_c <- soil_c <- hist.veg.carbon.density <- hist.soil.carbon.density <-
     mature.age <- GCAM_region_ID <- NULL  # silence package check notes
 
-  if (!("region" %in% names(carbon_info_table))) {
+  if(!("region" %in% names(carbon_info_table))) {
     carbon_info_table %>%
       left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID") ->
       carbon_info_table
@@ -312,6 +368,32 @@ add_carbon_info <- function( data, carbon_info_table, matchvars = c("region", "G
            soil.carbon.density = hist.soil.carbon.density,
            min.veg.carbon.density = aglu.MIN_VEG_CARBON_DENSITY,
            min.soil.carbon.density = aglu.MIN_SOIL_CARBON_DENSITY)
+}
+
+#' reduce_mgd_carbon
+#'
+#' Reduce the carbon density of a managed land type from its unmanaged land
+#' type's carbon density using constant multipliers
+#'
+#' @param data Unput data tibble to adjust carbon densities for
+#' @param LTfor Land_Type name to use for Forest land types
+#' @param LTpast Land_Type name to use for Pasture land types
+#' @return The original table with carbon density adjusted for the managed land types
+reduce_mgd_carbon <- function( data, LTfor = "Forest", LTpast = "Pasture") {
+
+  hist.veg.carbon.density <- Cveg_Mult_UnmgdPast_MgdPast <- veg.carbon.density <-
+    hist.soil.carbon.density <- Csoil_Mult_UnmgdPast_MgdPast <- soil.carbon.density <-
+    Cveg_Mult_UnmgdFor_MgdFor <- Csoil_Mult_UnmgdFor_MgdFor <- NULL # silence package check notes
+
+  data %>%
+    mutate(hist.veg.carbon.density = if_else("Land_Type" == LTpast, hist.veg.carbon.density * Cveg_Mult_UnmgdPast_MgdPast, hist.veg.carbon.density)) %>%
+    mutate(veg.carbon.density = if_else("Land_Type" == LTpast, veg.carbon.density * Cveg_Mult_UnmgdPast_MgdPast, veg.carbon.density)) %>%
+    mutate(hist.soil.carbon.density = if_else("Land_Type" == LTpast, hist.soil.carbon.density * Csoil_Mult_UnmgdPast_MgdPast, hist.soil.carbon.density)) %>%
+    mutate(soil.carbon.density = if_else("Land_Type" == LTpast, soil.carbon.density * Csoil_Mult_UnmgdPast_MgdPast, soil.carbon.density)) %>%
+    mutate(hist.veg.carbon.density = if_else("Land_Type" == LTfor, hist.veg.carbon.density * Cveg_Mult_UnmgdFor_MgdFor, hist.veg.carbon.density)) %>%
+    mutate(veg.carbon.density = if_else("Land_Type" == LTfor, veg.carbon.density * Cveg_Mult_UnmgdFor_MgdFor, veg.carbon.density)) %>%
+    mutate(hist.soil.carbon.density = if_else("Land_Type" == LTfor, hist.soil.carbon.density * Csoil_Mult_UnmgdFor_MgdFor, hist.soil.carbon.density)) %>%
+    mutate(soil.carbon.density = if_else("Land_Type" == LTfor, soil.carbon.density * Csoil_Mult_UnmgdFor_MgdFor, soil.carbon.density))
 }
 
 
@@ -349,7 +431,7 @@ get_ssp_regions <- function(pcGDP, reg_names, income_group,
     regions <- filter(pcGDP_yf, value > aglu.HIGH_GROWTH_PCGDP)
   } else if(income_group == "medium") {
     regions <- filter(pcGDP_yf, value < aglu.HIGH_GROWTH_PCGDP, value > aglu.LOW_GROWTH_PCGDP)
-  } else{
+  } else {
     stop("Unknown income_group!")
   }
 
@@ -407,10 +489,8 @@ fill_exp_decay_extrapolate <- function(d, out_years) {
 
   # The first step is to linearly interpolate missing values that are in between
   # values which are specified (approx_fun rule=1)
-  d %>%
-    gather(year, value, matches(YEAR_PATTERN)) %>%
-    mutate(year = as.integer(year)) ->
-    d
+  d <- gather_years(d)
+
   # We would like to replicate values for all years including those found in the
   # data as well as requested in out_years with the exception of the year (which
   # which is the column we are replicating on) and value which we would like to
@@ -513,7 +593,7 @@ fill_exp_decay_extrapolate <- function(d, out_years) {
 #' @param years Years to operate on, integer vector
 #' @importFrom stats aggregate
 #' @return Downscaled data.
-downscale_FAO_country <- function(data, country_name, dissolution_year, years = AGLU_HISTORICAL_YEARS) {
+downscale_FAO_country <- function(data, country_name, dissolution_year, years = aglu.AGLU_HISTORICAL_YEARS) {
 
   assert_that(is_tibble(data))
   assert_that(is.character(country_name))
@@ -528,7 +608,7 @@ downscale_FAO_country <- function(data, country_name, dissolution_year, years = 
   ctry_years <- years[years < dissolution_year]
   yrs <- as.character(c(ctry_years, dissolution_year))
   data %>%
-    select(one_of(c("item", "element", yrs))) %>%
+    select("item", "element", yrs) %>%
     group_by(item, element) %>%
     summarise_all(sum) %>%
     ungroup ->

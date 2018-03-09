@@ -40,7 +40,7 @@ create_xml <- function(xml_file, mi_header = NULL) {
 #' @param header The header tag to can be looked up in the header file to
 #' convert \code{data}
 #' @param column_order_lookup A tag that can be used to look up \code{LEVEL2_DATA_NAMES}
-#' to reorder the columns of data before XML conversion to ensure the correspond
+#' to reorder the columns of data before XML conversion to ensure they correspond
 #' with the ModelInterface header.  Note by default the \code{header} is used and if
 #' given \code{NULL} no column reordering will be done.
 #' @return A "data structure" to hold the various parts needed to run the model
@@ -75,26 +75,44 @@ make_run_xml_conversion <- function() {
     } else if(isTRUE(use_java)) {
       java_cp <- system.file("extdata/ModelInterface", "CSVToXML.jar",
                              package = "gcamdata")
-      cmd <- c(
-        "java",
+      # Note ideally we would use the `pipe` method to run the CSVToXML conversion
+      # as this would allow us to avoid writing large CSV files to disk only to
+      # convert to XML. However it appears on Windows there is no way to "close"
+      # the pipe for STDIN without terminating the entire process.
+      # Instead we will fall back to `system2` and since (from the documentation):
+      # input    if a character vector is supplied, this is copied one string per
+      #          line to a temporary file, and the standard input of command is
+      #          redirected to the file.
+      # We will just write to a temporary file ourselves and avoid incurring _that_
+      # performance penalty as well.
+      tmpfn <- tempfile()
+      tmp_conn <- file(tmpfn, open="w")
+      for(i in seq_along(dot$data_tables)) {
+        table <- dot$data_tables[[i]]
+        cat("INPUT_TABLE", file = tmp_conn, sep = "\n")
+        cat("Variable ID", file = tmp_conn, sep = "\n")
+        cat(table$header, file = tmp_conn, sep = "\n")
+        cat("", file = tmp_conn, sep = "\n")
+        utils::write.table(table$data, file = tmp_conn, sep=",", row.names = FALSE, col.names = TRUE, quote = FALSE)
+        cat("", file = tmp_conn, sep = "\n")
+      }
+      close(tmp_conn)
+      args <- c(
         "-cp", java_cp,
         "-Xmx1g", # TODO: memory limits?
         "ModelInterface.ModelGUI2.csvconv.CSVToXMLMain",
-        "-", # Read from STDIN
+        tmpfn, # Read from the temporary file
         dot$mi_header,
         dot$xml_file
       )
-      conv_pipe <- pipe(paste(cmd, collapse=" "), open = "w")
-      on.exit(close(conv_pipe))
+      warning_msgs <- system2("java", args, stdout = TRUE, stderr = TRUE)
+      unlink(tmpfn)
 
-      for(i in seq_along(dot$data_tables)) {
-        table <- dot$data_tables[[i]]
-        cat("INPUT_TABLE", file = conv_pipe, sep = "\n")
-        cat("Variable ID", file = conv_pipe, sep = "\n")
-        cat(table$header, file = conv_pipe, sep = "\n")
-        cat("", file = conv_pipe, sep = "\n")
-        utils::write.table(table$data, file = conv_pipe, sep=",", row.names = FALSE, col.names = TRUE, quote = FALSE)
-        cat("", file = conv_pipe, sep = "\n")
+      # Note warnings and errors will have been combined together which ideally
+      # would be separate so we can forward them to the appropriate message stream
+      # in R but for simplicity we will put them all on warning.
+      if(!is.null(warning_msgs) && length(warning_msgs) > 0) {
+        warning(warning_msgs)
       }
     }
 
@@ -252,7 +270,8 @@ cmp_xml_files <- function(fleft, fright, raw = FALSE)
   ## catch that as an error below.
   suppressWarnings({args <- normalizePath(c(py, fleft, fright))})
   if(raw) {
-    rslt <- system2(cmd, args, stdout = TRUE)
+    rslt <- system2(cmd, args, stdout = TRUE, stderr=FALSE) # stderr output is
+                                        # not needed.
     if(is.null(attr(rslt, 'status'))) {
       ## For some reason, system2 doesn't set the status attribute isn't set when the call
       ## is successful
@@ -264,7 +283,7 @@ cmp_xml_files <- function(fleft, fright, raw = FALSE)
     for(file in args)
       if(!file.exists(file))
         stop("Can't find file: ", file)
-    rslt <- system2(cmd, args, stdout = FALSE)
+    rslt <- system2(cmd, args, stdout = FALSE, stderr = FALSE)
     if(rslt == 0) {
       return(TRUE)
     }
@@ -278,6 +297,37 @@ cmp_xml_files <- function(fleft, fright, raw = FALSE)
   }
 }
 
+
+#' Compare all XML files in a directory to their counterparts in the output
+#'
+#' The 'old' directory should contain reference versions of the files.  The
+#' 'new' directory should be the directory where the output xml files are
+#' stored.  The old directory is searched recursively; the new directory is not
+#' (because the new system currently dumps all of its outputs into a single
+#' output directory).
+#'
+#' @param olddir Directory containing the old (reference) output xml files
+#' @param newdir Directory containing the new output xml files
+#' @return Number of discrepancies found.
+#' @export
+run_xml_tests <- function(olddir, newdir = XML_DIR)
+{
+    oldfiles <- list.files(olddir, '\\.xml$', recursive=TRUE, full.names=TRUE)
+    newfiles <- file.path(newdir, sapply(oldfiles, basename))
+
+    if (length(oldfiles) == 0) {
+        warning('No XML files found in ', olddir)
+        return(0)
+    }
+
+    isgood <- Map(cmp_xml_files, oldfiles, newfiles) %>% simplify2array
+    if (!all(isgood)) {
+        badfiles <- paste(sapply(newfiles[!isgood], basename), collapse = ' ')
+        warning('The following files had discrepancies: ', badfiles)
+    }
+
+    sum(!isgood)
+}
 
 #' A list of XML tag equivalence classes so that the ModelInterface when converting
 #' data to XML can treat tags in the same class as the same when enabled, thus not

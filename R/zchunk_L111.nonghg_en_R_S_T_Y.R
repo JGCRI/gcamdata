@@ -16,7 +16,6 @@
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
 #' @author CDL September 2017
-#' @export
 module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "common/iso_GCAM_regID",
@@ -94,8 +93,7 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
       #      rename(energy = value) %>%
       left_join_keep_first_only(select(GCAM_sector_tech, sector, fuel, technology, EPA_agg_sector, EPA_agg_fuel),
                                 by = c("sector", "fuel", "technology")) %>%
-      gather(year, energy, matches(YEAR_PATTERN)) %>%
-      mutate(year = as.integer(year)) %>%
+      gather_years(value_col = "energy") %>%
       repeat_add_columns(tibble(Non.CO2 = emissions.NONGHG_GASES)) %>%
       # Match in emissions factors and then compute unscaled emissions
       # Aggregate by EDGAR sector and region
@@ -144,8 +142,7 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
     # Save international shipping & aviation emissions in a separate dataframe (96-99)
     L111.EDGAR %>%
       filter(ISO_A3 %in% c("SEA", "AIR")) %>%
-      gather(year, value, matches(YEAR_PATTERN)) %>%
-      mutate(year = as.integer(year)) %>%
+      gather_years %>%
       select(year, value, Non.CO2, EDGAR_agg_sector) %>%
       na.omit() ->
       L111_EDGAR_intl
@@ -154,8 +151,7 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
     L111.EDGAR %>%
       select(-IPCC_Annex, -World_Region, -iso, -Name, -IPCC, -IPCC_description) %>%
       na.omit %>%
-      gather(year, value, matches(YEAR_PATTERN)) %>%
-      mutate(year = as.integer(year)) %>%
+      gather_years %>%
       filter(year %in% emissions.EDGAR_YEARS) %>%
       group_by(GCAM_region_ID, Non.CO2, EDGAR_agg_sector, year) %>%
       summarise(value = sum(value)) %>%
@@ -225,8 +221,7 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
     # Compute non-ghg emission factors for GCAM sector, fuel, technology, and driver type (148-156)
 
     L101.in_EJ_R_en_Si_F_Yh %>%
-      gather(year, value, matches(YEAR_PATTERN)) %>%
-      mutate(year = as.integer(year)) %>%
+      gather_years %>%
       left_join_keep_first_only(select(GCAM_sector_tech, sector, fuel, technology, supplysector, subsector, stub.technology),
                                 by = c("sector", "fuel", "technology")) %>%
       # need to filter here to replicate behavior of original aggregate()

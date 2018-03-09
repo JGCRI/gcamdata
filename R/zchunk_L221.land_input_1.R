@@ -1,6 +1,6 @@
 #' module_aglu_L221.land_input_1
 #'
-#' This chunk produces L221.LN0_Logit, L221.LN0_Land, L221.LN0_SoilTimeScale, L221.LN1_ValueLogit,
+#' Produce L221.LN0_Logit, L221.LN0_Land, L221.LN0_SoilTimeScale, L221.LN1_ValueLogit,
 #' L221.LN1_HistUnmgdAllocation, L221.LN1_UnmgdAllocation, and L221.LN1_UnmgdCarbon.
 #'
 #' @param command API command to execute
@@ -160,7 +160,7 @@ module_aglu_L221.land_input_1 <- function(command, ...) {
       na.omit %>%
       mutate(LandAllocatorRoot = "root",
              logit.year.fillout = min(BASE_YEARS),
-             logit.type = NA)  %>%
+             logit.type = NA) %>%
       # add logit exponents
       # This is where logit types would be added as well, but currently omitting to allow left_join_error_no_match_use
       left_join_error_no_match(select(A_LandNode_logit, LandNode, logit.exponent), by = c("LandNode1" = "LandNode")) %>%
@@ -181,7 +181,7 @@ module_aglu_L221.land_input_1 <- function(command, ...) {
     # output tables by years. It is also used for the Carbon Content output table
     L125.LC_bm2_R_LT_Yh_GLU %>%
       filter(Land_Type %in% unique(A_LandLeaf_Unmgd1$UnmanagedLandLeaf),
-             year %in% c(LAND_HISTORY_YEARS, BASE_YEARS)) %>%
+             year %in% c(aglu.LAND_HISTORY_YEARS, BASE_YEARS)) %>%
       mutate(allocation = round(value, aglu.DIGITS_LAND_USE)) %>%
       select(-value) %>%
       mutate(LandNode1 = paste(Land_Type, GLU, sep = aglu.CROP_GLU_DELIMITER),
@@ -192,7 +192,7 @@ module_aglu_L221.land_input_1 <- function(command, ...) {
 
     # Historical land cover, unmanaged land in the first nest
     L221.LC_bm2_R_Unmgd1_Yh_GLU %>%
-      filter(year %in% LAND_HISTORY_YEARS) %>%
+      filter(year %in% aglu.LAND_HISTORY_YEARS) %>%
       select(-Land_Type, -GLU) ->
       L221.LN1_HistUnmgdAllocation
 
@@ -211,7 +211,7 @@ module_aglu_L221.land_input_1 <- function(command, ...) {
       left_join_error_no_match(GCAMLandLeaf_CdensityLT, by = c("Land_Type" = "LandLeaf")) %>%
       rename(Cdensity_LT = Land_Type.y) %>%
       add_carbon_info(., carbon_info_table = L121.CarbonContent_kgm2_R_LT_GLU) %>%
-      select(one_of(LEVEL2_DATA_NAMES[["LN1_UnmgdCarbon"]])) ->
+      select(LEVEL2_DATA_NAMES[["LN1_UnmgdCarbon"]]) ->
       L221.LN1_UnmgdCarbon
 
     LEVEL2_DATA_NAMES$LN1_Delete

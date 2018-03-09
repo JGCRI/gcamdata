@@ -119,7 +119,7 @@ module_emissions_L241.fgas <- function(command, ...) {
     # the 2010 USA emission facor.
     L241.hfc_cool_ef_update %>%
       mutate(`2015` = NA, `2020` = NA, `2025` = NA) %>%
-      gather(year, value, matches(YEAR_PATTERN)) %>%
+      gather_years %>%
       group_by(GCAM_region_ID, supplysector, subsector, stub.technology, Non.CO2) %>%
       mutate(value = approx_fun(as.numeric(year), value)) %>%
       spread(year, value) ->
@@ -130,7 +130,7 @@ module_emissions_L241.fgas <- function(command, ...) {
     # These emission factors will be used in a ratio to compare
     # future emission factors.
     L241.hfc_cool_ef_update_all %>%
-      gather(year, value, matches(YEAR_PATTERN)) %>%
+      gather_years %>%
       filter(!year %in% emissions.HFC_MODEL_BASE_YEARS) ->
       L241.hfc_cool_ef_update_filtered
 
@@ -138,7 +138,7 @@ module_emissions_L241.fgas <- function(command, ...) {
     # Estimate future emission for non-cooling emissions.
     #
     # First, subset the hfc emissions for non-cooling emissions.
-    L141.hfc_R_S_T_Yh  %>%
+    L141.hfc_R_S_T_Yh %>%
       filter(!supplysector %in% c("resid cooling", "comm cooling")) %>%
       # EF is 1000 x emissions for non-cooling sectors
       mutate(value = value * 1000) %>%
@@ -179,7 +179,7 @@ module_emissions_L241.fgas <- function(command, ...) {
     # Format the updated non-cooling emission factors.
     L241.hfc_ef_2010_update %>%
       select(-year, -value, -`2010`) %>%
-      gather(year, value, matches(YEAR_PATTERN)) %>%
+      gather_years %>%
       filter(!year %in% emissions.HFC_MODEL_BASE_YEARS) ->
       L241.hfc_ef_2010_update_all
 

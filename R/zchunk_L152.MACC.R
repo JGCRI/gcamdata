@@ -39,7 +39,7 @@ module_emissions_L152.MACC <- function(command, ...) {
     if(emissions.EPA_MACC_YEAR %in% c(2020, 2030)) {
         if(emissions.EPA_MACC_YEAR == 2020) EPA_MACC_MtCO2e <- EPA_MACC_2020_MtCO2e
         if(emissions.EPA_MACC_YEAR == 2030) EPA_MACC_MtCO2e <- EPA_MACC_2030_MtCO2e
-    } else{
+    } else {
       stop("MAC curve year needs to be either 2020 or 2030")
       }
 
@@ -80,8 +80,7 @@ module_emissions_L152.MACC <- function(command, ...) {
     # Also filter for only EPA MACC year
     L152.EPA_MACC_baselines_MtCO2e <- EPA_MACC_baselines_MtCO2e %>%
       combine_Al_Mg %>%
-      gather(year, baseline_MtCO2e, -Sector, -Process, -EPA_region) %>%
-      mutate(year = as.integer(year)) %>%
+      gather_years(value_col = "baseline_MtCO2e") %>%
       filter(year == emissions.EPA_MACC_YEAR) %>%
       group_by(Sector, Process, EPA_region) %>%
       summarize_at(vars(baseline_MtCO2e), sum)

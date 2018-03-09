@@ -63,13 +63,13 @@ left_join_error_no_match <- function(d, ..., ignore_columns = NULL) {
 #' @return Joined table.  In case of multiple matches, only the first will be
 #' included.
 left_join_keep_first_only <- function(x, y, by) {
-    ## Our strategy is to use "distinct" to filter y to a single element for
-    ## each match category, then join that to x.
-    . <- NULL                           # silence notes on package check
-    ll <- as.list(by)
-    names(ll) <- NULL
-    do.call(distinct_, c(list(y), ll, list(.keep_all = TRUE))) %>%
-      left_join(x, ., by = by)
+  ## Our strategy is to use "distinct" to filter y to a single element for
+  ## each match category, then join that to x.
+  . <- NULL                           # silence notes on package check
+  ll <- as.list(by)
+  names(ll) <- NULL
+  do.call(distinct_, c(list(y), ll, list(.keep_all = TRUE))) %>%
+    left_join(x, ., by = by)
 }
 
 
@@ -121,20 +121,20 @@ left_join_keep_first_only <- function(x, y, by) {
 #' @importFrom assertthat assert_that
 #' @importFrom tibble as_tibble
 fast_left_join <- function(left, right, by) {
-    assert_that(is.data.frame(left))
-    assert_that(is.data.frame(right))
+  assert_that(is.data.frame(left))
+  assert_that(is.data.frame(right))
 
-    ## To key or not to key?  A key is required for the right table, but it is
-    ## optional for the left, *provided* that the join columns are in order and
-    ## come before the non-join columns.  Keying takes time, but it makes the
-    ## join eventually go a little faster.  In the one example we have, it
-    ## keying the left table doesn't seem to pay for itself in the join, but
-    ## it's possible that depends on the specifics of the input.  For now we
-    ## *won't* key, instead opting to reorder the columns of the left table.
-    dtl <- data.table(left[ , union(by, names(left))])
-    dtr <- data.table(right, key=by)
+  ## To key or not to key?  A key is required for the right table, but it is
+  ## optional for the left, *provided* that the join columns are in order and
+  ## come before the non-join columns.  Keying takes time, but it makes the
+  ## join eventually go a little faster.  In the one example we have, it
+  ## keying the left table doesn't seem to pay for itself in the join, but
+  ## it's possible that depends on the specifics of the input.  For now we
+  ## *won't* key, instead opting to reorder the columns of the left table.
+  dtl <- data.table(left[ , union(by, names(left))])
+  dtr <- data.table(right, key=by)
 
-    as_tibble(dtr[dtl, allow.cartesian=TRUE])
+  as_tibble(dtr[dtl, allow.cartesian=TRUE])
 }
 
 
@@ -256,7 +256,7 @@ standardize_iso <- function(d, col = "iso", delete_original = TRUE) {
 #' library(magrittr)
 #' df <- dplyr::tibble(iso=c('bad','dum'), `2005`=c(123.45, NA), `2050`=c(867, 5309))
 #' protect_integer_cols(df) %>%
-#'     dplyr::select_if(function(col){!any(is.na(col))}) %>%
+#'     dplyr::select_if(function(col) {!any(is.na(col))}) %>%
 #'     unprotect_integer_cols
 protect_integer_cols <- function(d) {
   assertthat::assert_that(tibble::is_tibble(d))
@@ -272,6 +272,17 @@ unprotect_integer_cols <- function(d) {
   d
 }
 
+
+#' missing_data
+#'
+#' @return A tibble used to signal missing (not created) data
+missing_data <- function() {
+  tibble(x = NA_real_) %>%
+    add_title("Data not created") %>%
+    add_units("Data not created") %>%
+    add_comments("Data not created") %>%
+    add_flags(FLAG_NO_TEST, FLAG_NO_OUTPUT)
+}
 
 #' Calculate a gross domestic product (GDP) implicit price deflator between two years.
 #'
@@ -316,9 +327,11 @@ gdp_deflator <- function(year, base_year) {
     if(year == 1975 && base_year == 2006) return(0.3257)  # conv_2006_1975_USD
     if(year == 1975 && base_year == 2007) return(0.317)   # conv_2007_1975_USD
     if(year == 1975 && base_year == 2008) return(0.3104)  # conv_2008_1975_USD
-    if(year == 1975 && base_year == 2009) return(0.3104)  # conv_2009_1975_USD
+    if(year == 1975 && base_year == 2009) return(0.3067)  # conv_2009_1975_USD
+    if(year == 1975 && base_year == 2010) return(0.3032)  # conv_2010_1975_USD
+    if(year == 1975 && base_year == 2011) return(0.2968)  # conv_2011_1975_USD
     if(year == 1990 && base_year == 2010) return(1.0/gdp_deflator(2010, 1990))
-                                        # conv_2010_1990_USD
+    # conv_2010_1990_USD
   }
 
   # This time series is the BEA "A191RD3A086NBEA" product
@@ -341,4 +354,25 @@ gdp_deflator <- function(year, base_year) {
   assert_that(base_year %in% gdp_years)
 
   gdp[as.character(year)] / gdp[as.character(base_year)]
+}
+
+
+#' Helper function: call \code{tidyr::gather} for year-like columns and convert them to integers
+#'
+#' @param d Data frame to operate on (a tibble)
+#' @param value_col Name of the resulting (gathered) value column, string or unquoted column name
+#' @param year_pattern Year pattern to match against
+#' @return The gathered (reshaped) data frame.
+#' @export
+gather_years <- function(d, value_col = "value", year_pattern = YEAR_PATTERN) {
+  assert_that(is_tibble(d))
+  assert_that(is.character(value_col))
+  assert_that(is.character(year_pattern))
+
+  . <- year <- value <- NULL  # silence package check notes
+
+  d %>%
+    gather(year, value, matches(year_pattern)) %>%
+    mutate(year = as.integer(year)) %>%
+    stats::setNames(sub("value", value_col, names(.)))
 }
