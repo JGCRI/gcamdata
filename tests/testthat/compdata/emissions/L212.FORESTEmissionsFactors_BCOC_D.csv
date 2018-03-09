@@ -3,72 +3,73 @@ Variable ID
 OutputEmFactUnmgd
 
 region,AgSupplySector,AgSupplySubsector,UnmanagedLandTechnology,year,Non.CO2,emiss.coef
-USA,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_NelsonR,Deforest_NelsonR,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_FraserR,Deforest_FraserR,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_California,Deforest_California,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_MissppRN,Deforest_MissppRN,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_MissppRS,Deforest_MissppRS,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaColoRN,Deforest_UsaColoRN,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaColoRS,Deforest_UsaColoRS,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_GreatBasin,Deforest_GreatBasin,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_ArkWhtRedR,Deforest_ArkWhtRedR,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_TexasCst,Deforest_TexasCst,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaCstSE,Deforest_UsaCstSE,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_OhioR,Deforest_OhioR,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_TennR,Deforest_TennR,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_RioGrande,Deforest_RioGrande,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,1975,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaCstE,Deforest_UsaCstE,1975,BC,1.2795e-06
-Africa_Eastern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1975,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_AfrCstNE,Deforest_AfrCstNE,1975,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_ShebJubR,Deforest_ShebJubR,1975,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1975,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_Madasgacar,Deforest_Madasgacar,1975,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1975,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1975,BC,0.0016225792
-Africa_Southern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1975,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1975,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1975,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1975,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_AngolaCst,Deforest_AngolaCst,1975,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1975,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1975,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_AfrCstSE,Deforest_AfrCstSE,1975,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_AfrIntS,Deforest_AfrIntS,1975,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,1975,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,1975,BC,0.0027387405
-Africa_Western,UnmanagedLand,Deforest_NileR,Deforest_NileR,1975,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_AfrCstW,Deforest_AfrCstW,1975,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_NigerR,Deforest_NigerR,1975,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_LChad,Deforest_LChad,1975,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_SenegalR,Deforest_SenegalR,1975,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_VoltaR,Deforest_VoltaR,1975,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1975,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1975,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1975,BC,0.012708443
-Australia_NZ,UnmanagedLand,Deforest_AusCstN,Deforest_AusCstN,1975,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_AusCstE,Deforest_AusCstE,1975,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_AusCstW,Deforest_AusCstW,1975,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_AusInt,Deforest_AusInt,1975,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_NewZealand,Deforest_NewZealand,1975,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_AusCstS,Deforest_AusCstS,1975,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_MurrayDrlg,Deforest_MurrayDrlg,1975,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_Tasmania,Deforest_Tasmania,1975,BC,0.0008532898
-Brazil,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1975,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1975,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1975,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_BrzCstN,Deforest_BrzCstN,1975,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_TocantinsR,Deforest_TocantinsR,1975,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_BrzCstE,Deforest_BrzCstE,1975,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_ParnaibaR,Deforest_ParnaibaR,1975,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_SaoFrancR,Deforest_SaoFrancR,1975,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_BrzCstS,Deforest_BrzCstS,1975,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1975,BC,0.0356734041
+USA,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_NelsonR,Deforest_NelsonR,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_FraserR,Deforest_FraserR,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_MexCstNW,Deforest_MexCstNW,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_California,Deforest_California,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_MissppRN,Deforest_MissppRN,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_MissppRS,Deforest_MissppRS,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaColoRN,Deforest_UsaColoRN,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaColoRS,Deforest_UsaColoRS,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_GreatBasin,Deforest_GreatBasin,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_ArkWhtRedR,Deforest_ArkWhtRedR,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_TexasCst,Deforest_TexasCst,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaCstSE,Deforest_UsaCstSE,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_OhioR,Deforest_OhioR,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_TennR,Deforest_TennR,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_RioGrande,Deforest_RioGrande,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,1975,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaCstE,Deforest_UsaCstE,1975,BC,1.2718e-06
+Africa_Eastern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1975,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_AfrCstNE,Deforest_AfrCstNE,1975,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_ShebJubR,Deforest_ShebJubR,1975,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1975,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_Madasgacar,Deforest_Madasgacar,1975,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1975,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1975,BC,0.0016223923
+Africa_Southern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1975,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1975,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1975,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1975,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_AngolaCst,Deforest_AngolaCst,1975,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1975,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1975,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_AfrCstSE,Deforest_AfrCstSE,1975,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_AfrIntS,Deforest_AfrIntS,1975,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,1975,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,1975,BC,0.0027387225
+Africa_Western,UnmanagedLand,Deforest_NileR,Deforest_NileR,1975,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_AfrCstW,Deforest_AfrCstW,1975,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_NigerR,Deforest_NigerR,1975,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_LChad,Deforest_LChad,1975,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_SenegalR,Deforest_SenegalR,1975,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_VoltaR,Deforest_VoltaR,1975,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1975,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1975,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1975,BC,0.012708455
+Australia_NZ,UnmanagedLand,Deforest_AusCstN,Deforest_AusCstN,1975,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_AusCstE,Deforest_AusCstE,1975,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_AusCstW,Deforest_AusCstW,1975,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_AusInt,Deforest_AusInt,1975,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_NewZealand,Deforest_NewZealand,1975,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_AusCstS,Deforest_AusCstS,1975,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_MurrayDrlg,Deforest_MurrayDrlg,1975,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_Tasmania,Deforest_Tasmania,1975,BC,0.0008532696
+Brazil,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1975,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1975,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1975,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_BrzCstN,Deforest_BrzCstN,1975,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_TocantinsR,Deforest_TocantinsR,1975,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_BrzCstE,Deforest_BrzCstE,1975,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_ParnaibaR,Deforest_ParnaibaR,1975,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_SaoFrancR,Deforest_SaoFrancR,1975,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_BrzCstS,Deforest_BrzCstS,1975,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1975,BC,0.0356753493
 Canada,UnmanagedLand,Deforest_NWTerr,Deforest_NWTerr,1975,BC,0
 Canada,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,1975,BC,0
 Canada,UnmanagedLand,Deforest_Mackenzie,Deforest_Mackenzie,1975,BC,0
@@ -82,12 +83,12 @@ Canada,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,1975,BC,0
 Canada,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,1975,BC,0
 Canada,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,1975,BC,0
 Canada,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,1975,BC,0
-Central America and Caribbean,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1975,BC,0.027001569
-Central America and Caribbean,UnmanagedLand,Deforest_YucatanP,Deforest_YucatanP,1975,BC,0.027001569
-Central America and Caribbean,UnmanagedLand,Deforest_GrijUsuR,Deforest_GrijUsuR,1975,BC,0.027001569
-Central America and Caribbean,UnmanagedLand,Deforest_CntAmer,Deforest_CntAmer,1975,BC,0.027001569
-Central America and Caribbean,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1975,BC,0.027001569
-Central America and Caribbean,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1975,BC,0.027001569
+Central America and Caribbean,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1975,BC,0.0269986141
+Central America and Caribbean,UnmanagedLand,Deforest_YucatanP,Deforest_YucatanP,1975,BC,0.0269986141
+Central America and Caribbean,UnmanagedLand,Deforest_GrijUsuR,Deforest_GrijUsuR,1975,BC,0.0269986141
+Central America and Caribbean,UnmanagedLand,Deforest_CntAmer,Deforest_CntAmer,1975,BC,0.0269986141
+Central America and Caribbean,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1975,BC,0.0269986141
+Central America and Caribbean,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1975,BC,0.0269986141
 Central Asia,UnmanagedLand,Deforest_VolgaR,Deforest_VolgaR,1975,BC,0
 Central Asia,UnmanagedLand,Deforest_UralR,Deforest_UralR,1975,BC,0
 Central Asia,UnmanagedLand,Deforest_Gobi,Deforest_Gobi,1975,BC,0
@@ -101,7 +102,6 @@ Central Asia,UnmanagedLand,Deforest_LBalkash,Deforest_LBalkash,1975,BC,0
 Central Asia,UnmanagedLand,Deforest_BlackSeaS,Deforest_BlackSeaS,1975,BC,0
 Central Asia,UnmanagedLand,Deforest_CaspianSW,Deforest_CaspianSW,1975,BC,0
 Central Asia,UnmanagedLand,Deforest_SyrDaryaR,Deforest_SyrDaryaR,1975,BC,0
-Central Asia,UnmanagedLand,Deforest_Tarim,Deforest_Tarim,1975,BC,0
 China,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,1975,BC,0
 China,UnmanagedLand,Deforest_Gobi,Deforest_Gobi,1975,BC,0
 China,UnmanagedLand,Deforest_AmurR,Deforest_AmurR,1975,BC,0
@@ -122,35 +122,34 @@ China,UnmanagedLand,Deforest_Hainan,Deforest_Hainan,1975,BC,0
 China,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,1975,BC,0
 China,UnmanagedLand,Deforest_Salween,Deforest_Salween,1975,BC,0
 China,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1975,BC,0
-India,UnmanagedLand,Deforest_IndusR,Deforest_IndusR,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_SabarmatiR,Deforest_SabarmatiR,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_MahiR,Deforest_MahiR,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_TaptiR,Deforest_TaptiR,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_BengalW,Deforest_BengalW,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_BrahmaniR,Deforest_BrahmaniR,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_MahanadiR,Deforest_MahanadiR,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_GodavariR,Deforest_GodavariR,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_IndCstNE,Deforest_IndCstNE,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_IndCstW,Deforest_IndCstW,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_KrishnaR,Deforest_KrishnaR,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_IndCstE,Deforest_IndCstE,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_PennarR,Deforest_PennarR,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_CauveryR,Deforest_CauveryR,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_IndCstS,Deforest_IndCstS,1975,BC,0.0205602717
-India,UnmanagedLand,Deforest_NarmadaR,Deforest_NarmadaR,1975,BC,0.0205602717
-Indonesia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,1975,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1975,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1975,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_Sumatra,Deforest_Sumatra,1975,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_Sulawesi,Deforest_Sulawesi,1975,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1975,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1975,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1975,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1975,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1975,BC,0.0455067637
+India,UnmanagedLand,Deforest_IndusR,Deforest_IndusR,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_SabarmatiR,Deforest_SabarmatiR,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_MahiR,Deforest_MahiR,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_TaptiR,Deforest_TaptiR,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_BengalW,Deforest_BengalW,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_BrahmaniR,Deforest_BrahmaniR,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_MahanadiR,Deforest_MahanadiR,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_GodavariR,Deforest_GodavariR,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_IndCstNE,Deforest_IndCstNE,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_IndCstW,Deforest_IndCstW,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_KrishnaR,Deforest_KrishnaR,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_IndCstE,Deforest_IndCstE,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_PennarR,Deforest_PennarR,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_CauveryR,Deforest_CauveryR,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_IndCstS,Deforest_IndCstS,1975,BC,0.0207240061
+India,UnmanagedLand,Deforest_NarmadaR,Deforest_NarmadaR,1975,BC,0.0207240061
+Indonesia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1975,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1975,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_Sumatra,Deforest_Sumatra,1975,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_Sulawesi,Deforest_Sulawesi,1975,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1975,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1975,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1975,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1975,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1975,BC,0.0455067459
 Mexico,UnmanagedLand,Deforest_MexBaja,Deforest_MexBaja,1975,BC,0
 Mexico,UnmanagedLand,Deforest_MexCstNW,Deforest_MexCstNW,1975,BC,0
 Mexico,UnmanagedLand,Deforest_MexGulf,Deforest_MexGulf,1975,BC,0
@@ -200,125 +199,128 @@ South Africa,UnmanagedLand,Deforest_OrangeR,Deforest_OrangeR,1975,BC,3.3124e-06
 South Africa,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,1975,BC,3.3124e-06
 South Africa,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,1975,BC,3.3124e-06
 South Africa,UnmanagedLand,Deforest_AfrCstSSW,Deforest_AfrCstSSW,1975,BC,3.3124e-06
-South America_Northern,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1975,BC,1.188658395
-South America_Northern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1975,BC,1.188658395
-South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1975,BC,1.188658395
-South America_Northern,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,1975,BC,1.188658395
-South America_Southern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1975,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1975,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1975,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_PeruCst,Deforest_PeruCst,1975,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_LaPuna,Deforest_LaPuna,1975,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1975,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_ChileCstN,Deforest_ChileCstN,1975,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1975,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1975,BC,0.0178937092
-Southeast Asia,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Korea,Deforest_Korea,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_BoHai,Deforest_BoHai,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_XunJiang,Deforest_XunJiang,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Hong,Deforest_Hong,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_SChinaSea,Deforest_SChinaSea,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Phlppns,Deforest_Phlppns,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_VietnamCst,Deforest_VietnamCst,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Salween,Deforest_Salween,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_SittaungR,Deforest_SittaungR,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_ChaoPhrR,Deforest_ChaoPhrR,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_ThaiGulf,Deforest_ThaiGulf,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_PapuaCst,Deforest_PapuaCst,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1975,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_NewCaledn,Deforest_NewCaledn,1975,BC,0.0281523739
-Argentina,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1975,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_MarChiq,Deforest_MarChiq,1975,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_Salinas,Deforest_Salinas,1975,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1975,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_Pampas,Deforest_Pampas,1975,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_ArgCstN,Deforest_ArgCstN,1975,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_ArgColoR,Deforest_ArgColoR,1975,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1975,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_Patagonia,Deforest_Patagonia,1975,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1975,BC,0.0005283856
+South America_Northern,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1975,BC,1.1517694398
+South America_Northern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1975,BC,1.1517694398
+South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1975,BC,1.1517694398
+South America_Northern,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,1975,BC,1.1517694398
+South America_Northern,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1975,BC,1.1517694398
+South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1975,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1975,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1975,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_PeruCst,Deforest_PeruCst,1975,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_LaPuna,Deforest_LaPuna,1975,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1975,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_ChileCstN,Deforest_ChileCstN,1975,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1975,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1975,BC,0.0179038309
+Southeast Asia,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Korea,Deforest_Korea,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_BoHai,Deforest_BoHai,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_XunJiang,Deforest_XunJiang,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Hong,Deforest_Hong,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_SChinaSea,Deforest_SChinaSea,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Phlppns,Deforest_Phlppns,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_VietnamCst,Deforest_VietnamCst,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Salween,Deforest_Salween,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_SittaungR,Deforest_SittaungR,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_ChaoPhrR,Deforest_ChaoPhrR,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_ThaiGulf,Deforest_ThaiGulf,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_PapuaCst,Deforest_PapuaCst,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1975,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_NewCaledn,Deforest_NewCaledn,1975,BC,0.0281514048
+Argentina,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1975,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_MarChiq,Deforest_MarChiq,1975,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_Salinas,Deforest_Salinas,1975,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1975,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_Pampas,Deforest_Pampas,1975,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_ArgCstN,Deforest_ArgCstN,1975,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_ArgColoR,Deforest_ArgColoR,1975,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1975,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_Patagonia,Deforest_Patagonia,1975,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1975,BC,0.0005283901
 Colombia,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1975,BC,0
 Colombia,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1975,BC,0
 Colombia,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1975,BC,0
 Colombia,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,1975,BC,0
-USA,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_NelsonR,Deforest_NelsonR,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_FraserR,Deforest_FraserR,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_California,Deforest_California,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_MissppRN,Deforest_MissppRN,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_MissppRS,Deforest_MissppRS,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaColoRN,Deforest_UsaColoRN,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaColoRS,Deforest_UsaColoRS,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_GreatBasin,Deforest_GreatBasin,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_ArkWhtRedR,Deforest_ArkWhtRedR,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_TexasCst,Deforest_TexasCst,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaCstSE,Deforest_UsaCstSE,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_OhioR,Deforest_OhioR,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_TennR,Deforest_TennR,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_RioGrande,Deforest_RioGrande,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,1990,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaCstE,Deforest_UsaCstE,1990,BC,1.2795e-06
-Africa_Eastern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1990,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_AfrCstNE,Deforest_AfrCstNE,1990,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_ShebJubR,Deforest_ShebJubR,1990,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1990,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_Madasgacar,Deforest_Madasgacar,1990,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1990,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1990,BC,0.0016225792
-Africa_Southern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1990,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1990,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1990,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1990,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_AngolaCst,Deforest_AngolaCst,1990,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1990,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1990,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_AfrCstSE,Deforest_AfrCstSE,1990,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_AfrIntS,Deforest_AfrIntS,1990,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,1990,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,1990,BC,0.0027387405
-Africa_Western,UnmanagedLand,Deforest_NileR,Deforest_NileR,1990,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_AfrCstW,Deforest_AfrCstW,1990,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_NigerR,Deforest_NigerR,1990,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_LChad,Deforest_LChad,1990,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_SenegalR,Deforest_SenegalR,1990,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_VoltaR,Deforest_VoltaR,1990,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1990,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1990,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1990,BC,0.012708443
-Australia_NZ,UnmanagedLand,Deforest_AusCstN,Deforest_AusCstN,1990,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_AusCstE,Deforest_AusCstE,1990,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_AusCstW,Deforest_AusCstW,1990,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_AusInt,Deforest_AusInt,1990,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_NewZealand,Deforest_NewZealand,1990,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_AusCstS,Deforest_AusCstS,1990,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_MurrayDrlg,Deforest_MurrayDrlg,1990,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_Tasmania,Deforest_Tasmania,1990,BC,0.0008532898
-Brazil,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1990,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1990,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1990,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_BrzCstN,Deforest_BrzCstN,1990,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_TocantinsR,Deforest_TocantinsR,1990,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_BrzCstE,Deforest_BrzCstE,1990,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_ParnaibaR,Deforest_ParnaibaR,1990,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_SaoFrancR,Deforest_SaoFrancR,1990,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_BrzCstS,Deforest_BrzCstS,1990,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1990,BC,0.0356734041
+Colombia,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1975,BC,0
+USA,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_NelsonR,Deforest_NelsonR,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_FraserR,Deforest_FraserR,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_MexCstNW,Deforest_MexCstNW,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_California,Deforest_California,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_MissppRN,Deforest_MissppRN,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_MissppRS,Deforest_MissppRS,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaColoRN,Deforest_UsaColoRN,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaColoRS,Deforest_UsaColoRS,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_GreatBasin,Deforest_GreatBasin,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_ArkWhtRedR,Deforest_ArkWhtRedR,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_TexasCst,Deforest_TexasCst,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaCstSE,Deforest_UsaCstSE,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_OhioR,Deforest_OhioR,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_TennR,Deforest_TennR,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_RioGrande,Deforest_RioGrande,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,1990,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaCstE,Deforest_UsaCstE,1990,BC,1.2718e-06
+Africa_Eastern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1990,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_AfrCstNE,Deforest_AfrCstNE,1990,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_ShebJubR,Deforest_ShebJubR,1990,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1990,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_Madasgacar,Deforest_Madasgacar,1990,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1990,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1990,BC,0.0016223923
+Africa_Southern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1990,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1990,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1990,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1990,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_AngolaCst,Deforest_AngolaCst,1990,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1990,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1990,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_AfrCstSE,Deforest_AfrCstSE,1990,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_AfrIntS,Deforest_AfrIntS,1990,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,1990,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,1990,BC,0.0027387225
+Africa_Western,UnmanagedLand,Deforest_NileR,Deforest_NileR,1990,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_AfrCstW,Deforest_AfrCstW,1990,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_NigerR,Deforest_NigerR,1990,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_LChad,Deforest_LChad,1990,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_SenegalR,Deforest_SenegalR,1990,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_VoltaR,Deforest_VoltaR,1990,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1990,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1990,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1990,BC,0.012708455
+Australia_NZ,UnmanagedLand,Deforest_AusCstN,Deforest_AusCstN,1990,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_AusCstE,Deforest_AusCstE,1990,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_AusCstW,Deforest_AusCstW,1990,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_AusInt,Deforest_AusInt,1990,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_NewZealand,Deforest_NewZealand,1990,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_AusCstS,Deforest_AusCstS,1990,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_MurrayDrlg,Deforest_MurrayDrlg,1990,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_Tasmania,Deforest_Tasmania,1990,BC,0.0008532696
+Brazil,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1990,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1990,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1990,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_BrzCstN,Deforest_BrzCstN,1990,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_TocantinsR,Deforest_TocantinsR,1990,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_BrzCstE,Deforest_BrzCstE,1990,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_ParnaibaR,Deforest_ParnaibaR,1990,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_SaoFrancR,Deforest_SaoFrancR,1990,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_BrzCstS,Deforest_BrzCstS,1990,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1990,BC,0.0356753493
 Canada,UnmanagedLand,Deforest_NWTerr,Deforest_NWTerr,1990,BC,0
 Canada,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,1990,BC,0
 Canada,UnmanagedLand,Deforest_Mackenzie,Deforest_Mackenzie,1990,BC,0
@@ -332,12 +334,12 @@ Canada,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,1990,BC,0
 Canada,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,1990,BC,0
 Canada,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,1990,BC,0
 Canada,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,1990,BC,0
-Central America and Caribbean,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1990,BC,0.027001569
-Central America and Caribbean,UnmanagedLand,Deforest_YucatanP,Deforest_YucatanP,1990,BC,0.027001569
-Central America and Caribbean,UnmanagedLand,Deforest_GrijUsuR,Deforest_GrijUsuR,1990,BC,0.027001569
-Central America and Caribbean,UnmanagedLand,Deforest_CntAmer,Deforest_CntAmer,1990,BC,0.027001569
-Central America and Caribbean,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1990,BC,0.027001569
-Central America and Caribbean,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1990,BC,0.027001569
+Central America and Caribbean,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1990,BC,0.0269986141
+Central America and Caribbean,UnmanagedLand,Deforest_YucatanP,Deforest_YucatanP,1990,BC,0.0269986141
+Central America and Caribbean,UnmanagedLand,Deforest_GrijUsuR,Deforest_GrijUsuR,1990,BC,0.0269986141
+Central America and Caribbean,UnmanagedLand,Deforest_CntAmer,Deforest_CntAmer,1990,BC,0.0269986141
+Central America and Caribbean,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1990,BC,0.0269986141
+Central America and Caribbean,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1990,BC,0.0269986141
 Central Asia,UnmanagedLand,Deforest_VolgaR,Deforest_VolgaR,1990,BC,0
 Central Asia,UnmanagedLand,Deforest_UralR,Deforest_UralR,1990,BC,0
 Central Asia,UnmanagedLand,Deforest_Gobi,Deforest_Gobi,1990,BC,0
@@ -351,7 +353,6 @@ Central Asia,UnmanagedLand,Deforest_LBalkash,Deforest_LBalkash,1990,BC,0
 Central Asia,UnmanagedLand,Deforest_BlackSeaS,Deforest_BlackSeaS,1990,BC,0
 Central Asia,UnmanagedLand,Deforest_CaspianSW,Deforest_CaspianSW,1990,BC,0
 Central Asia,UnmanagedLand,Deforest_SyrDaryaR,Deforest_SyrDaryaR,1990,BC,0
-Central Asia,UnmanagedLand,Deforest_Tarim,Deforest_Tarim,1990,BC,0
 China,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,1990,BC,0
 China,UnmanagedLand,Deforest_Gobi,Deforest_Gobi,1990,BC,0
 China,UnmanagedLand,Deforest_AmurR,Deforest_AmurR,1990,BC,0
@@ -372,35 +373,34 @@ China,UnmanagedLand,Deforest_Hainan,Deforest_Hainan,1990,BC,0
 China,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,1990,BC,0
 China,UnmanagedLand,Deforest_Salween,Deforest_Salween,1990,BC,0
 China,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1990,BC,0
-India,UnmanagedLand,Deforest_IndusR,Deforest_IndusR,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_SabarmatiR,Deforest_SabarmatiR,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_MahiR,Deforest_MahiR,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_TaptiR,Deforest_TaptiR,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_BengalW,Deforest_BengalW,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_BrahmaniR,Deforest_BrahmaniR,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_MahanadiR,Deforest_MahanadiR,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_GodavariR,Deforest_GodavariR,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_IndCstNE,Deforest_IndCstNE,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_IndCstW,Deforest_IndCstW,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_KrishnaR,Deforest_KrishnaR,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_IndCstE,Deforest_IndCstE,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_PennarR,Deforest_PennarR,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_CauveryR,Deforest_CauveryR,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_IndCstS,Deforest_IndCstS,1990,BC,0.0205602717
-India,UnmanagedLand,Deforest_NarmadaR,Deforest_NarmadaR,1990,BC,0.0205602717
-Indonesia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,1990,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1990,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1990,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_Sumatra,Deforest_Sumatra,1990,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_Sulawesi,Deforest_Sulawesi,1990,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1990,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1990,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1990,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1990,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1990,BC,0.0455067637
+India,UnmanagedLand,Deforest_IndusR,Deforest_IndusR,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_SabarmatiR,Deforest_SabarmatiR,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_MahiR,Deforest_MahiR,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_TaptiR,Deforest_TaptiR,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_BengalW,Deforest_BengalW,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_BrahmaniR,Deforest_BrahmaniR,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_MahanadiR,Deforest_MahanadiR,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_GodavariR,Deforest_GodavariR,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_IndCstNE,Deforest_IndCstNE,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_IndCstW,Deforest_IndCstW,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_KrishnaR,Deforest_KrishnaR,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_IndCstE,Deforest_IndCstE,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_PennarR,Deforest_PennarR,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_CauveryR,Deforest_CauveryR,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_IndCstS,Deforest_IndCstS,1990,BC,0.0207240061
+India,UnmanagedLand,Deforest_NarmadaR,Deforest_NarmadaR,1990,BC,0.0207240061
+Indonesia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1990,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1990,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_Sumatra,Deforest_Sumatra,1990,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_Sulawesi,Deforest_Sulawesi,1990,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1990,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1990,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1990,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1990,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1990,BC,0.0455067459
 Mexico,UnmanagedLand,Deforest_MexBaja,Deforest_MexBaja,1990,BC,0
 Mexico,UnmanagedLand,Deforest_MexCstNW,Deforest_MexCstNW,1990,BC,0
 Mexico,UnmanagedLand,Deforest_MexGulf,Deforest_MexGulf,1990,BC,0
@@ -450,125 +450,128 @@ South Africa,UnmanagedLand,Deforest_OrangeR,Deforest_OrangeR,1990,BC,3.3124e-06
 South Africa,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,1990,BC,3.3124e-06
 South Africa,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,1990,BC,3.3124e-06
 South Africa,UnmanagedLand,Deforest_AfrCstSSW,Deforest_AfrCstSSW,1990,BC,3.3124e-06
-South America_Northern,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1990,BC,1.188658395
-South America_Northern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1990,BC,1.188658395
-South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1990,BC,1.188658395
-South America_Northern,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,1990,BC,1.188658395
-South America_Southern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1990,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1990,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1990,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_PeruCst,Deforest_PeruCst,1990,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_LaPuna,Deforest_LaPuna,1990,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1990,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_ChileCstN,Deforest_ChileCstN,1990,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1990,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1990,BC,0.0178937092
-Southeast Asia,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Korea,Deforest_Korea,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_BoHai,Deforest_BoHai,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_XunJiang,Deforest_XunJiang,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Hong,Deforest_Hong,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_SChinaSea,Deforest_SChinaSea,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Phlppns,Deforest_Phlppns,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_VietnamCst,Deforest_VietnamCst,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Salween,Deforest_Salween,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_SittaungR,Deforest_SittaungR,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_ChaoPhrR,Deforest_ChaoPhrR,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_ThaiGulf,Deforest_ThaiGulf,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_PapuaCst,Deforest_PapuaCst,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1990,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_NewCaledn,Deforest_NewCaledn,1990,BC,0.0281523739
-Argentina,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1990,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_MarChiq,Deforest_MarChiq,1990,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_Salinas,Deforest_Salinas,1990,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1990,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_Pampas,Deforest_Pampas,1990,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_ArgCstN,Deforest_ArgCstN,1990,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_ArgColoR,Deforest_ArgColoR,1990,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1990,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_Patagonia,Deforest_Patagonia,1990,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1990,BC,0.0005283856
+South America_Northern,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1990,BC,1.1517694398
+South America_Northern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1990,BC,1.1517694398
+South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1990,BC,1.1517694398
+South America_Northern,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,1990,BC,1.1517694398
+South America_Northern,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1990,BC,1.1517694398
+South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1990,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1990,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1990,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_PeruCst,Deforest_PeruCst,1990,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_LaPuna,Deforest_LaPuna,1990,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1990,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_ChileCstN,Deforest_ChileCstN,1990,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1990,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1990,BC,0.0179038309
+Southeast Asia,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Korea,Deforest_Korea,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_BoHai,Deforest_BoHai,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_XunJiang,Deforest_XunJiang,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Hong,Deforest_Hong,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_SChinaSea,Deforest_SChinaSea,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Phlppns,Deforest_Phlppns,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_VietnamCst,Deforest_VietnamCst,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Salween,Deforest_Salween,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_SittaungR,Deforest_SittaungR,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_ChaoPhrR,Deforest_ChaoPhrR,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_ThaiGulf,Deforest_ThaiGulf,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_PapuaCst,Deforest_PapuaCst,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1990,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_NewCaledn,Deforest_NewCaledn,1990,BC,0.0281514048
+Argentina,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1990,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_MarChiq,Deforest_MarChiq,1990,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_Salinas,Deforest_Salinas,1990,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1990,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_Pampas,Deforest_Pampas,1990,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_ArgCstN,Deforest_ArgCstN,1990,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_ArgColoR,Deforest_ArgColoR,1990,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1990,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_Patagonia,Deforest_Patagonia,1990,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1990,BC,0.0005283901
 Colombia,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1990,BC,0
 Colombia,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1990,BC,0
 Colombia,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1990,BC,0
 Colombia,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,1990,BC,0
-USA,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_NelsonR,Deforest_NelsonR,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_FraserR,Deforest_FraserR,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_California,Deforest_California,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_MissppRN,Deforest_MissppRN,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_MissppRS,Deforest_MissppRS,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaColoRN,Deforest_UsaColoRN,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaColoRS,Deforest_UsaColoRS,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_GreatBasin,Deforest_GreatBasin,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_ArkWhtRedR,Deforest_ArkWhtRedR,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_TexasCst,Deforest_TexasCst,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaCstSE,Deforest_UsaCstSE,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_OhioR,Deforest_OhioR,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_TennR,Deforest_TennR,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_RioGrande,Deforest_RioGrande,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,2005,BC,1.2795e-06
-USA,UnmanagedLand,Deforest_UsaCstE,Deforest_UsaCstE,2005,BC,1.2795e-06
-Africa_Eastern,UnmanagedLand,Deforest_NileR,Deforest_NileR,2005,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_AfrCstNE,Deforest_AfrCstNE,2005,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_ShebJubR,Deforest_ShebJubR,2005,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,2005,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_Madasgacar,Deforest_Madasgacar,2005,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,2005,BC,0.0016225792
-Africa_Eastern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,2005,BC,0.0016225792
-Africa_Southern,UnmanagedLand,Deforest_NileR,Deforest_NileR,2005,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,2005,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,2005,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,2005,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_AngolaCst,Deforest_AngolaCst,2005,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,2005,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,2005,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_AfrCstSE,Deforest_AfrCstSE,2005,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_AfrIntS,Deforest_AfrIntS,2005,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,2005,BC,0.0027387405
-Africa_Southern,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,2005,BC,0.0027387405
-Africa_Western,UnmanagedLand,Deforest_NileR,Deforest_NileR,2005,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_AfrCstW,Deforest_AfrCstW,2005,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_NigerR,Deforest_NigerR,2005,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_LChad,Deforest_LChad,2005,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_SenegalR,Deforest_SenegalR,2005,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_VoltaR,Deforest_VoltaR,2005,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,2005,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,2005,BC,0.012708443
-Africa_Western,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,2005,BC,0.012708443
-Australia_NZ,UnmanagedLand,Deforest_AusCstN,Deforest_AusCstN,2005,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_AusCstE,Deforest_AusCstE,2005,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_AusCstW,Deforest_AusCstW,2005,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_AusInt,Deforest_AusInt,2005,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_NewZealand,Deforest_NewZealand,2005,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_AusCstS,Deforest_AusCstS,2005,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_MurrayDrlg,Deforest_MurrayDrlg,2005,BC,0.0008532898
-Australia_NZ,UnmanagedLand,Deforest_Tasmania,Deforest_Tasmania,2005,BC,0.0008532898
-Brazil,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,2005,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,2005,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,2005,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_BrzCstN,Deforest_BrzCstN,2005,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_TocantinsR,Deforest_TocantinsR,2005,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_BrzCstE,Deforest_BrzCstE,2005,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_ParnaibaR,Deforest_ParnaibaR,2005,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_SaoFrancR,Deforest_SaoFrancR,2005,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_BrzCstS,Deforest_BrzCstS,2005,BC,0.0356734041
-Brazil,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,2005,BC,0.0356734041
+Colombia,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1990,BC,0
+USA,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_NelsonR,Deforest_NelsonR,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_FraserR,Deforest_FraserR,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_MexCstNW,Deforest_MexCstNW,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_California,Deforest_California,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_MissppRN,Deforest_MissppRN,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_MissppRS,Deforest_MissppRS,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaColoRN,Deforest_UsaColoRN,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaColoRS,Deforest_UsaColoRS,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_GreatBasin,Deforest_GreatBasin,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_ArkWhtRedR,Deforest_ArkWhtRedR,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_TexasCst,Deforest_TexasCst,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaCstSE,Deforest_UsaCstSE,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_OhioR,Deforest_OhioR,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_TennR,Deforest_TennR,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_RioGrande,Deforest_RioGrande,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,2005,BC,1.2718e-06
+USA,UnmanagedLand,Deforest_UsaCstE,Deforest_UsaCstE,2005,BC,1.2718e-06
+Africa_Eastern,UnmanagedLand,Deforest_NileR,Deforest_NileR,2005,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_AfrCstNE,Deforest_AfrCstNE,2005,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_ShebJubR,Deforest_ShebJubR,2005,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,2005,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_Madasgacar,Deforest_Madasgacar,2005,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,2005,BC,0.0016223923
+Africa_Eastern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,2005,BC,0.0016223923
+Africa_Southern,UnmanagedLand,Deforest_NileR,Deforest_NileR,2005,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,2005,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,2005,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,2005,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_AngolaCst,Deforest_AngolaCst,2005,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,2005,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,2005,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_AfrCstSE,Deforest_AfrCstSE,2005,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_AfrIntS,Deforest_AfrIntS,2005,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,2005,BC,0.0027387225
+Africa_Southern,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,2005,BC,0.0027387225
+Africa_Western,UnmanagedLand,Deforest_NileR,Deforest_NileR,2005,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_AfrCstW,Deforest_AfrCstW,2005,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_NigerR,Deforest_NigerR,2005,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_LChad,Deforest_LChad,2005,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_SenegalR,Deforest_SenegalR,2005,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_VoltaR,Deforest_VoltaR,2005,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,2005,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,2005,BC,0.012708455
+Africa_Western,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,2005,BC,0.012708455
+Australia_NZ,UnmanagedLand,Deforest_AusCstN,Deforest_AusCstN,2005,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_AusCstE,Deforest_AusCstE,2005,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_AusCstW,Deforest_AusCstW,2005,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_AusInt,Deforest_AusInt,2005,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_NewZealand,Deforest_NewZealand,2005,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_AusCstS,Deforest_AusCstS,2005,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_MurrayDrlg,Deforest_MurrayDrlg,2005,BC,0.0008532696
+Australia_NZ,UnmanagedLand,Deforest_Tasmania,Deforest_Tasmania,2005,BC,0.0008532696
+Brazil,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,2005,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,2005,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,2005,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_BrzCstN,Deforest_BrzCstN,2005,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_TocantinsR,Deforest_TocantinsR,2005,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_BrzCstE,Deforest_BrzCstE,2005,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_ParnaibaR,Deforest_ParnaibaR,2005,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_SaoFrancR,Deforest_SaoFrancR,2005,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_BrzCstS,Deforest_BrzCstS,2005,BC,0.0356753493
+Brazil,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,2005,BC,0.0356753493
 Canada,UnmanagedLand,Deforest_NWTerr,Deforest_NWTerr,2005,BC,0
 Canada,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,2005,BC,0
 Canada,UnmanagedLand,Deforest_Mackenzie,Deforest_Mackenzie,2005,BC,0
@@ -582,12 +585,12 @@ Canada,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,2005,BC,0
 Canada,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,2005,BC,0
 Canada,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,2005,BC,0
 Canada,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,2005,BC,0
-Central America and Caribbean,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,2005,BC,0.027001569
-Central America and Caribbean,UnmanagedLand,Deforest_YucatanP,Deforest_YucatanP,2005,BC,0.027001569
-Central America and Caribbean,UnmanagedLand,Deforest_GrijUsuR,Deforest_GrijUsuR,2005,BC,0.027001569
-Central America and Caribbean,UnmanagedLand,Deforest_CntAmer,Deforest_CntAmer,2005,BC,0.027001569
-Central America and Caribbean,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,2005,BC,0.027001569
-Central America and Caribbean,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,2005,BC,0.027001569
+Central America and Caribbean,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,2005,BC,0.0269986141
+Central America and Caribbean,UnmanagedLand,Deforest_YucatanP,Deforest_YucatanP,2005,BC,0.0269986141
+Central America and Caribbean,UnmanagedLand,Deforest_GrijUsuR,Deforest_GrijUsuR,2005,BC,0.0269986141
+Central America and Caribbean,UnmanagedLand,Deforest_CntAmer,Deforest_CntAmer,2005,BC,0.0269986141
+Central America and Caribbean,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,2005,BC,0.0269986141
+Central America and Caribbean,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,2005,BC,0.0269986141
 Central Asia,UnmanagedLand,Deforest_VolgaR,Deforest_VolgaR,2005,BC,0
 Central Asia,UnmanagedLand,Deforest_UralR,Deforest_UralR,2005,BC,0
 Central Asia,UnmanagedLand,Deforest_Gobi,Deforest_Gobi,2005,BC,0
@@ -601,7 +604,6 @@ Central Asia,UnmanagedLand,Deforest_LBalkash,Deforest_LBalkash,2005,BC,0
 Central Asia,UnmanagedLand,Deforest_BlackSeaS,Deforest_BlackSeaS,2005,BC,0
 Central Asia,UnmanagedLand,Deforest_CaspianSW,Deforest_CaspianSW,2005,BC,0
 Central Asia,UnmanagedLand,Deforest_SyrDaryaR,Deforest_SyrDaryaR,2005,BC,0
-Central Asia,UnmanagedLand,Deforest_Tarim,Deforest_Tarim,2005,BC,0
 China,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,2005,BC,0
 China,UnmanagedLand,Deforest_Gobi,Deforest_Gobi,2005,BC,0
 China,UnmanagedLand,Deforest_AmurR,Deforest_AmurR,2005,BC,0
@@ -622,35 +624,34 @@ China,UnmanagedLand,Deforest_Hainan,Deforest_Hainan,2005,BC,0
 China,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,2005,BC,0
 China,UnmanagedLand,Deforest_Salween,Deforest_Salween,2005,BC,0
 China,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,2005,BC,0
-India,UnmanagedLand,Deforest_IndusR,Deforest_IndusR,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_SabarmatiR,Deforest_SabarmatiR,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_MahiR,Deforest_MahiR,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_TaptiR,Deforest_TaptiR,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_BengalW,Deforest_BengalW,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_BrahmaniR,Deforest_BrahmaniR,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_MahanadiR,Deforest_MahanadiR,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_GodavariR,Deforest_GodavariR,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_IndCstNE,Deforest_IndCstNE,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_IndCstW,Deforest_IndCstW,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_KrishnaR,Deforest_KrishnaR,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_IndCstE,Deforest_IndCstE,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_PennarR,Deforest_PennarR,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_CauveryR,Deforest_CauveryR,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_IndCstS,Deforest_IndCstS,2005,BC,0.0205602717
-India,UnmanagedLand,Deforest_NarmadaR,Deforest_NarmadaR,2005,BC,0.0205602717
-Indonesia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,2005,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,2005,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,2005,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_Sumatra,Deforest_Sumatra,2005,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_Sulawesi,Deforest_Sulawesi,2005,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,2005,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,2005,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,2005,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,2005,BC,0.0455067637
-Indonesia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,2005,BC,0.0455067637
+India,UnmanagedLand,Deforest_IndusR,Deforest_IndusR,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_SabarmatiR,Deforest_SabarmatiR,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_MahiR,Deforest_MahiR,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_TaptiR,Deforest_TaptiR,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_BengalW,Deforest_BengalW,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_BrahmaniR,Deforest_BrahmaniR,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_MahanadiR,Deforest_MahanadiR,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_GodavariR,Deforest_GodavariR,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_IndCstNE,Deforest_IndCstNE,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_IndCstW,Deforest_IndCstW,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_KrishnaR,Deforest_KrishnaR,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_IndCstE,Deforest_IndCstE,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_PennarR,Deforest_PennarR,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_CauveryR,Deforest_CauveryR,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_IndCstS,Deforest_IndCstS,2005,BC,0.0207240061
+India,UnmanagedLand,Deforest_NarmadaR,Deforest_NarmadaR,2005,BC,0.0207240061
+Indonesia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,2005,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,2005,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_Sumatra,Deforest_Sumatra,2005,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_Sulawesi,Deforest_Sulawesi,2005,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,2005,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,2005,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,2005,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,2005,BC,0.0455067459
+Indonesia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,2005,BC,0.0455067459
 Mexico,UnmanagedLand,Deforest_MexBaja,Deforest_MexBaja,2005,BC,0
 Mexico,UnmanagedLand,Deforest_MexCstNW,Deforest_MexCstNW,2005,BC,0
 Mexico,UnmanagedLand,Deforest_MexGulf,Deforest_MexGulf,2005,BC,0
@@ -700,125 +701,128 @@ South Africa,UnmanagedLand,Deforest_OrangeR,Deforest_OrangeR,2005,BC,3.3124e-06
 South Africa,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,2005,BC,3.3124e-06
 South Africa,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,2005,BC,3.3124e-06
 South Africa,UnmanagedLand,Deforest_AfrCstSSW,Deforest_AfrCstSSW,2005,BC,3.3124e-06
-South America_Northern,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,2005,BC,1.188658395
-South America_Northern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,2005,BC,1.188658395
-South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,2005,BC,1.188658395
-South America_Northern,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,2005,BC,1.188658395
-South America_Southern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,2005,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,2005,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,2005,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_PeruCst,Deforest_PeruCst,2005,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_LaPuna,Deforest_LaPuna,2005,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,2005,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_ChileCstN,Deforest_ChileCstN,2005,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,2005,BC,0.0178937092
-South America_Southern,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,2005,BC,0.0178937092
-Southeast Asia,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Korea,Deforest_Korea,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_BoHai,Deforest_BoHai,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_XunJiang,Deforest_XunJiang,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Hong,Deforest_Hong,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_SChinaSea,Deforest_SChinaSea,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Phlppns,Deforest_Phlppns,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_VietnamCst,Deforest_VietnamCst,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Salween,Deforest_Salween,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_SittaungR,Deforest_SittaungR,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_ChaoPhrR,Deforest_ChaoPhrR,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_ThaiGulf,Deforest_ThaiGulf,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_PapuaCst,Deforest_PapuaCst,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,2005,BC,0.0281523739
-Southeast Asia,UnmanagedLand,Deforest_NewCaledn,Deforest_NewCaledn,2005,BC,0.0281523739
-Argentina,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,2005,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_MarChiq,Deforest_MarChiq,2005,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_Salinas,Deforest_Salinas,2005,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,2005,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_Pampas,Deforest_Pampas,2005,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_ArgCstN,Deforest_ArgCstN,2005,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_ArgColoR,Deforest_ArgColoR,2005,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,2005,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_Patagonia,Deforest_Patagonia,2005,BC,0.0005283856
-Argentina,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,2005,BC,0.0005283856
+South America_Northern,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,2005,BC,1.1517694398
+South America_Northern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,2005,BC,1.1517694398
+South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,2005,BC,1.1517694398
+South America_Northern,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,2005,BC,1.1517694398
+South America_Northern,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,2005,BC,1.1517694398
+South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,2005,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,2005,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,2005,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_PeruCst,Deforest_PeruCst,2005,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_LaPuna,Deforest_LaPuna,2005,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,2005,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_ChileCstN,Deforest_ChileCstN,2005,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,2005,BC,0.0179038309
+South America_Southern,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,2005,BC,0.0179038309
+Southeast Asia,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Korea,Deforest_Korea,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_BoHai,Deforest_BoHai,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_XunJiang,Deforest_XunJiang,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Hong,Deforest_Hong,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_SChinaSea,Deforest_SChinaSea,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Phlppns,Deforest_Phlppns,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_VietnamCst,Deforest_VietnamCst,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Salween,Deforest_Salween,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_SittaungR,Deforest_SittaungR,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_ChaoPhrR,Deforest_ChaoPhrR,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_ThaiGulf,Deforest_ThaiGulf,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_PapuaCst,Deforest_PapuaCst,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,2005,BC,0.0281514048
+Southeast Asia,UnmanagedLand,Deforest_NewCaledn,Deforest_NewCaledn,2005,BC,0.0281514048
+Argentina,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,2005,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_MarChiq,Deforest_MarChiq,2005,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_Salinas,Deforest_Salinas,2005,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,2005,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_Pampas,Deforest_Pampas,2005,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_ArgCstN,Deforest_ArgCstN,2005,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_ArgColoR,Deforest_ArgColoR,2005,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,2005,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_Patagonia,Deforest_Patagonia,2005,BC,0.0005283901
+Argentina,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,2005,BC,0.0005283901
 Colombia,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,2005,BC,0
 Colombia,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,2005,BC,0
 Colombia,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,2005,BC,0
 Colombia,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,2005,BC,0
-USA,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_NelsonR,Deforest_NelsonR,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_FraserR,Deforest_FraserR,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_California,Deforest_California,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_MissppRN,Deforest_MissppRN,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_MissppRS,Deforest_MissppRS,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaColoRN,Deforest_UsaColoRN,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaColoRS,Deforest_UsaColoRS,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_GreatBasin,Deforest_GreatBasin,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_ArkWhtRedR,Deforest_ArkWhtRedR,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_TexasCst,Deforest_TexasCst,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaCstSE,Deforest_UsaCstSE,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_OhioR,Deforest_OhioR,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_TennR,Deforest_TennR,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_RioGrande,Deforest_RioGrande,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,1975,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaCstE,Deforest_UsaCstE,1975,OC,1.02679e-05
-Africa_Eastern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1975,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_AfrCstNE,Deforest_AfrCstNE,1975,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_ShebJubR,Deforest_ShebJubR,1975,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1975,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_Madasgacar,Deforest_Madasgacar,1975,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1975,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1975,OC,0.0128770395
-Africa_Southern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1975,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1975,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1975,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1975,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_AngolaCst,Deforest_AngolaCst,1975,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1975,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1975,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_AfrCstSE,Deforest_AfrCstSE,1975,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_AfrIntS,Deforest_AfrIntS,1975,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,1975,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,1975,OC,0.0226054772
-Africa_Western,UnmanagedLand,Deforest_NileR,Deforest_NileR,1975,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_AfrCstW,Deforest_AfrCstW,1975,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_NigerR,Deforest_NigerR,1975,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_LChad,Deforest_LChad,1975,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_SenegalR,Deforest_SenegalR,1975,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_VoltaR,Deforest_VoltaR,1975,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1975,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1975,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1975,OC,0.106953425
-Australia_NZ,UnmanagedLand,Deforest_AusCstN,Deforest_AusCstN,1975,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_AusCstE,Deforest_AusCstE,1975,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_AusCstW,Deforest_AusCstW,1975,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_AusInt,Deforest_AusInt,1975,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_NewZealand,Deforest_NewZealand,1975,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_AusCstS,Deforest_AusCstS,1975,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_MurrayDrlg,Deforest_MurrayDrlg,1975,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_Tasmania,Deforest_Tasmania,1975,OC,0.0033686325
-Brazil,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1975,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1975,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1975,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_BrzCstN,Deforest_BrzCstN,1975,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_TocantinsR,Deforest_TocantinsR,1975,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_BrzCstE,Deforest_BrzCstE,1975,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_ParnaibaR,Deforest_ParnaibaR,1975,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_SaoFrancR,Deforest_SaoFrancR,1975,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_BrzCstS,Deforest_BrzCstS,1975,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1975,OC,0.2918100422
+Colombia,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,2005,BC,0
+USA,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_NelsonR,Deforest_NelsonR,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_FraserR,Deforest_FraserR,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_MexCstNW,Deforest_MexCstNW,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_California,Deforest_California,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_MissppRN,Deforest_MissppRN,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_MissppRS,Deforest_MissppRS,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaColoRN,Deforest_UsaColoRN,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaColoRS,Deforest_UsaColoRS,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_GreatBasin,Deforest_GreatBasin,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_ArkWhtRedR,Deforest_ArkWhtRedR,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_TexasCst,Deforest_TexasCst,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaCstSE,Deforest_UsaCstSE,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_OhioR,Deforest_OhioR,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_TennR,Deforest_TennR,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_RioGrande,Deforest_RioGrande,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,1975,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaCstE,Deforest_UsaCstE,1975,OC,1.02062e-05
+Africa_Eastern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1975,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_AfrCstNE,Deforest_AfrCstNE,1975,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_ShebJubR,Deforest_ShebJubR,1975,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1975,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_Madasgacar,Deforest_Madasgacar,1975,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1975,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1975,OC,0.0128755565
+Africa_Southern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1975,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1975,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1975,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1975,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_AngolaCst,Deforest_AngolaCst,1975,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1975,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1975,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_AfrCstSE,Deforest_AfrCstSE,1975,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_AfrIntS,Deforest_AfrIntS,1975,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,1975,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,1975,OC,0.0226053285
+Africa_Western,UnmanagedLand,Deforest_NileR,Deforest_NileR,1975,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_AfrCstW,Deforest_AfrCstW,1975,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_NigerR,Deforest_NigerR,1975,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_LChad,Deforest_LChad,1975,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_SenegalR,Deforest_SenegalR,1975,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_VoltaR,Deforest_VoltaR,1975,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1975,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1975,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1975,OC,0.1069535254
+Australia_NZ,UnmanagedLand,Deforest_AusCstN,Deforest_AusCstN,1975,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_AusCstE,Deforest_AusCstE,1975,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_AusCstW,Deforest_AusCstW,1975,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_AusInt,Deforest_AusInt,1975,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_NewZealand,Deforest_NewZealand,1975,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_AusCstS,Deforest_AusCstS,1975,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_MurrayDrlg,Deforest_MurrayDrlg,1975,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_Tasmania,Deforest_Tasmania,1975,OC,0.0033685528
+Brazil,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1975,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1975,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1975,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_BrzCstN,Deforest_BrzCstN,1975,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_TocantinsR,Deforest_TocantinsR,1975,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_BrzCstE,Deforest_BrzCstE,1975,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_ParnaibaR,Deforest_ParnaibaR,1975,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_SaoFrancR,Deforest_SaoFrancR,1975,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_BrzCstS,Deforest_BrzCstS,1975,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1975,OC,0.2918259541
 Canada,UnmanagedLand,Deforest_NWTerr,Deforest_NWTerr,1975,OC,0
 Canada,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,1975,OC,0
 Canada,UnmanagedLand,Deforest_Mackenzie,Deforest_Mackenzie,1975,OC,0
@@ -832,12 +836,12 @@ Canada,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,1975,OC,0
 Canada,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,1975,OC,0
 Canada,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,1975,OC,0
 Canada,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,1975,OC,0
-Central America and Caribbean,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1975,OC,0.224403648
-Central America and Caribbean,UnmanagedLand,Deforest_YucatanP,Deforest_YucatanP,1975,OC,0.224403648
-Central America and Caribbean,UnmanagedLand,Deforest_GrijUsuR,Deforest_GrijUsuR,1975,OC,0.224403648
-Central America and Caribbean,UnmanagedLand,Deforest_CntAmer,Deforest_CntAmer,1975,OC,0.224403648
-Central America and Caribbean,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1975,OC,0.224403648
-Central America and Caribbean,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1975,OC,0.224403648
+Central America and Caribbean,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1975,OC,0.2243790898
+Central America and Caribbean,UnmanagedLand,Deforest_YucatanP,Deforest_YucatanP,1975,OC,0.2243790898
+Central America and Caribbean,UnmanagedLand,Deforest_GrijUsuR,Deforest_GrijUsuR,1975,OC,0.2243790898
+Central America and Caribbean,UnmanagedLand,Deforest_CntAmer,Deforest_CntAmer,1975,OC,0.2243790898
+Central America and Caribbean,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1975,OC,0.2243790898
+Central America and Caribbean,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1975,OC,0.2243790898
 Central Asia,UnmanagedLand,Deforest_VolgaR,Deforest_VolgaR,1975,OC,0
 Central Asia,UnmanagedLand,Deforest_UralR,Deforest_UralR,1975,OC,0
 Central Asia,UnmanagedLand,Deforest_Gobi,Deforest_Gobi,1975,OC,0
@@ -851,7 +855,6 @@ Central Asia,UnmanagedLand,Deforest_LBalkash,Deforest_LBalkash,1975,OC,0
 Central Asia,UnmanagedLand,Deforest_BlackSeaS,Deforest_BlackSeaS,1975,OC,0
 Central Asia,UnmanagedLand,Deforest_CaspianSW,Deforest_CaspianSW,1975,OC,0
 Central Asia,UnmanagedLand,Deforest_SyrDaryaR,Deforest_SyrDaryaR,1975,OC,0
-Central Asia,UnmanagedLand,Deforest_Tarim,Deforest_Tarim,1975,OC,0
 China,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,1975,OC,0
 China,UnmanagedLand,Deforest_Gobi,Deforest_Gobi,1975,OC,0
 China,UnmanagedLand,Deforest_AmurR,Deforest_AmurR,1975,OC,0
@@ -872,35 +875,34 @@ China,UnmanagedLand,Deforest_Hainan,Deforest_Hainan,1975,OC,0
 China,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,1975,OC,0
 China,UnmanagedLand,Deforest_Salween,Deforest_Salween,1975,OC,0
 China,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1975,OC,0
-India,UnmanagedLand,Deforest_IndusR,Deforest_IndusR,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_SabarmatiR,Deforest_SabarmatiR,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_MahiR,Deforest_MahiR,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_TaptiR,Deforest_TaptiR,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_BengalW,Deforest_BengalW,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_BrahmaniR,Deforest_BrahmaniR,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_MahanadiR,Deforest_MahanadiR,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_GodavariR,Deforest_GodavariR,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_IndCstNE,Deforest_IndCstNE,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_IndCstW,Deforest_IndCstW,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_KrishnaR,Deforest_KrishnaR,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_IndCstE,Deforest_IndCstE,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_PennarR,Deforest_PennarR,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_CauveryR,Deforest_CauveryR,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_IndCstS,Deforest_IndCstS,1975,OC,0.1151257592
-India,UnmanagedLand,Deforest_NarmadaR,Deforest_NarmadaR,1975,OC,0.1151257592
-Indonesia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,1975,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1975,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1975,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_Sumatra,Deforest_Sumatra,1975,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_Sulawesi,Deforest_Sulawesi,1975,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1975,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1975,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1975,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1975,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1975,OC,0.5601027836
+India,UnmanagedLand,Deforest_IndusR,Deforest_IndusR,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_SabarmatiR,Deforest_SabarmatiR,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_MahiR,Deforest_MahiR,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_TaptiR,Deforest_TaptiR,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_BengalW,Deforest_BengalW,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_BrahmaniR,Deforest_BrahmaniR,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_MahanadiR,Deforest_MahanadiR,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_GodavariR,Deforest_GodavariR,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_IndCstNE,Deforest_IndCstNE,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_IndCstW,Deforest_IndCstW,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_KrishnaR,Deforest_KrishnaR,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_IndCstE,Deforest_IndCstE,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_PennarR,Deforest_PennarR,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_CauveryR,Deforest_CauveryR,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_IndCstS,Deforest_IndCstS,1975,OC,0.116042578
+India,UnmanagedLand,Deforest_NarmadaR,Deforest_NarmadaR,1975,OC,0.116042578
+Indonesia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1975,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1975,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_Sumatra,Deforest_Sumatra,1975,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_Sulawesi,Deforest_Sulawesi,1975,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1975,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1975,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1975,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1975,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1975,OC,0.560102565
 Mexico,UnmanagedLand,Deforest_MexBaja,Deforest_MexBaja,1975,OC,0
 Mexico,UnmanagedLand,Deforest_MexCstNW,Deforest_MexCstNW,1975,OC,0
 Mexico,UnmanagedLand,Deforest_MexGulf,Deforest_MexGulf,1975,OC,0
@@ -950,125 +952,128 @@ South Africa,UnmanagedLand,Deforest_OrangeR,Deforest_OrangeR,1975,OC,1.33586e-05
 South Africa,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,1975,OC,1.33586e-05
 South Africa,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,1975,OC,1.33586e-05
 South Africa,UnmanagedLand,Deforest_AfrCstSSW,Deforest_AfrCstSSW,1975,OC,1.33586e-05
-South America_Northern,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1975,OC,10.3256684054
-South America_Northern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1975,OC,10.3256684054
-South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1975,OC,10.3256684054
-South America_Northern,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,1975,OC,10.3256684054
-South America_Southern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1975,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1975,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1975,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_PeruCst,Deforest_PeruCst,1975,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_LaPuna,Deforest_LaPuna,1975,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1975,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_ChileCstN,Deforest_ChileCstN,1975,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1975,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1975,OC,0.1190724658
-Southeast Asia,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Korea,Deforest_Korea,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_BoHai,Deforest_BoHai,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_XunJiang,Deforest_XunJiang,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Hong,Deforest_Hong,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_SChinaSea,Deforest_SChinaSea,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Phlppns,Deforest_Phlppns,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_VietnamCst,Deforest_VietnamCst,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Salween,Deforest_Salween,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_SittaungR,Deforest_SittaungR,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_ChaoPhrR,Deforest_ChaoPhrR,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_ThaiGulf,Deforest_ThaiGulf,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_PapuaCst,Deforest_PapuaCst,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1975,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_NewCaledn,Deforest_NewCaledn,1975,OC,0.2069523243
-Argentina,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1975,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_MarChiq,Deforest_MarChiq,1975,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_Salinas,Deforest_Salinas,1975,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1975,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_Pampas,Deforest_Pampas,1975,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_ArgCstN,Deforest_ArgCstN,1975,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_ArgColoR,Deforest_ArgColoR,1975,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1975,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_Patagonia,Deforest_Patagonia,1975,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1975,OC,0.0038471374
+South America_Northern,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1975,OC,10.0052204783
+South America_Northern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1975,OC,10.0052204783
+South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1975,OC,10.0052204783
+South America_Northern,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,1975,OC,10.0052204783
+South America_Northern,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1975,OC,10.0052204783
+South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1975,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1975,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1975,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_PeruCst,Deforest_PeruCst,1975,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_LaPuna,Deforest_LaPuna,1975,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1975,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_ChileCstN,Deforest_ChileCstN,1975,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1975,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1975,OC,0.1191398207
+Southeast Asia,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Korea,Deforest_Korea,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_BoHai,Deforest_BoHai,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_XunJiang,Deforest_XunJiang,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Hong,Deforest_Hong,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_SChinaSea,Deforest_SChinaSea,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Phlppns,Deforest_Phlppns,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_VietnamCst,Deforest_VietnamCst,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Salween,Deforest_Salween,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_SittaungR,Deforest_SittaungR,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_ChaoPhrR,Deforest_ChaoPhrR,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_ThaiGulf,Deforest_ThaiGulf,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_PapuaCst,Deforest_PapuaCst,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1975,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_NewCaledn,Deforest_NewCaledn,1975,OC,0.2069452003
+Argentina,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1975,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_MarChiq,Deforest_MarChiq,1975,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_Salinas,Deforest_Salinas,1975,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1975,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_Pampas,Deforest_Pampas,1975,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_ArgCstN,Deforest_ArgCstN,1975,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_ArgColoR,Deforest_ArgColoR,1975,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1975,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_Patagonia,Deforest_Patagonia,1975,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1975,OC,0.00384717
 Colombia,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1975,OC,0
 Colombia,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1975,OC,0
 Colombia,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1975,OC,0
 Colombia,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,1975,OC,0
-USA,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_NelsonR,Deforest_NelsonR,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_FraserR,Deforest_FraserR,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_California,Deforest_California,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_MissppRN,Deforest_MissppRN,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_MissppRS,Deforest_MissppRS,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaColoRN,Deforest_UsaColoRN,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaColoRS,Deforest_UsaColoRS,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_GreatBasin,Deforest_GreatBasin,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_ArkWhtRedR,Deforest_ArkWhtRedR,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_TexasCst,Deforest_TexasCst,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaCstSE,Deforest_UsaCstSE,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_OhioR,Deforest_OhioR,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_TennR,Deforest_TennR,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_RioGrande,Deforest_RioGrande,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,1990,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaCstE,Deforest_UsaCstE,1990,OC,1.02679e-05
-Africa_Eastern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1990,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_AfrCstNE,Deforest_AfrCstNE,1990,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_ShebJubR,Deforest_ShebJubR,1990,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1990,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_Madasgacar,Deforest_Madasgacar,1990,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1990,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1990,OC,0.0128770395
-Africa_Southern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1990,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1990,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1990,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1990,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_AngolaCst,Deforest_AngolaCst,1990,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1990,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1990,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_AfrCstSE,Deforest_AfrCstSE,1990,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_AfrIntS,Deforest_AfrIntS,1990,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,1990,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,1990,OC,0.0226054772
-Africa_Western,UnmanagedLand,Deforest_NileR,Deforest_NileR,1990,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_AfrCstW,Deforest_AfrCstW,1990,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_NigerR,Deforest_NigerR,1990,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_LChad,Deforest_LChad,1990,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_SenegalR,Deforest_SenegalR,1990,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_VoltaR,Deforest_VoltaR,1990,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1990,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1990,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1990,OC,0.106953425
-Australia_NZ,UnmanagedLand,Deforest_AusCstN,Deforest_AusCstN,1990,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_AusCstE,Deforest_AusCstE,1990,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_AusCstW,Deforest_AusCstW,1990,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_AusInt,Deforest_AusInt,1990,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_NewZealand,Deforest_NewZealand,1990,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_AusCstS,Deforest_AusCstS,1990,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_MurrayDrlg,Deforest_MurrayDrlg,1990,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_Tasmania,Deforest_Tasmania,1990,OC,0.0033686325
-Brazil,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1990,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1990,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1990,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_BrzCstN,Deforest_BrzCstN,1990,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_TocantinsR,Deforest_TocantinsR,1990,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_BrzCstE,Deforest_BrzCstE,1990,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_ParnaibaR,Deforest_ParnaibaR,1990,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_SaoFrancR,Deforest_SaoFrancR,1990,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_BrzCstS,Deforest_BrzCstS,1990,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1990,OC,0.2918100422
+Colombia,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1975,OC,0
+USA,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_NelsonR,Deforest_NelsonR,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_FraserR,Deforest_FraserR,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_MexCstNW,Deforest_MexCstNW,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_California,Deforest_California,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_MissppRN,Deforest_MissppRN,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_MissppRS,Deforest_MissppRS,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaColoRN,Deforest_UsaColoRN,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaColoRS,Deforest_UsaColoRS,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_GreatBasin,Deforest_GreatBasin,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_ArkWhtRedR,Deforest_ArkWhtRedR,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_TexasCst,Deforest_TexasCst,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaCstSE,Deforest_UsaCstSE,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_OhioR,Deforest_OhioR,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_TennR,Deforest_TennR,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_RioGrande,Deforest_RioGrande,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,1990,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaCstE,Deforest_UsaCstE,1990,OC,1.02062e-05
+Africa_Eastern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1990,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_AfrCstNE,Deforest_AfrCstNE,1990,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_ShebJubR,Deforest_ShebJubR,1990,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1990,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_Madasgacar,Deforest_Madasgacar,1990,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1990,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1990,OC,0.0128755565
+Africa_Southern,UnmanagedLand,Deforest_NileR,Deforest_NileR,1990,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1990,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,1990,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,1990,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_AngolaCst,Deforest_AngolaCst,1990,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1990,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1990,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_AfrCstSE,Deforest_AfrCstSE,1990,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_AfrIntS,Deforest_AfrIntS,1990,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,1990,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,1990,OC,0.0226053285
+Africa_Western,UnmanagedLand,Deforest_NileR,Deforest_NileR,1990,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_AfrCstW,Deforest_AfrCstW,1990,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_NigerR,Deforest_NigerR,1990,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_LChad,Deforest_LChad,1990,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_SenegalR,Deforest_SenegalR,1990,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_VoltaR,Deforest_VoltaR,1990,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,1990,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,1990,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,1990,OC,0.1069535254
+Australia_NZ,UnmanagedLand,Deforest_AusCstN,Deforest_AusCstN,1990,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_AusCstE,Deforest_AusCstE,1990,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_AusCstW,Deforest_AusCstW,1990,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_AusInt,Deforest_AusInt,1990,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_NewZealand,Deforest_NewZealand,1990,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_AusCstS,Deforest_AusCstS,1990,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_MurrayDrlg,Deforest_MurrayDrlg,1990,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_Tasmania,Deforest_Tasmania,1990,OC,0.0033685528
+Brazil,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1990,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1990,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1990,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_BrzCstN,Deforest_BrzCstN,1990,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_TocantinsR,Deforest_TocantinsR,1990,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_BrzCstE,Deforest_BrzCstE,1990,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_ParnaibaR,Deforest_ParnaibaR,1990,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_SaoFrancR,Deforest_SaoFrancR,1990,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_BrzCstS,Deforest_BrzCstS,1990,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1990,OC,0.2918259541
 Canada,UnmanagedLand,Deforest_NWTerr,Deforest_NWTerr,1990,OC,0
 Canada,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,1990,OC,0
 Canada,UnmanagedLand,Deforest_Mackenzie,Deforest_Mackenzie,1990,OC,0
@@ -1082,12 +1087,12 @@ Canada,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,1990,OC,0
 Canada,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,1990,OC,0
 Canada,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,1990,OC,0
 Canada,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,1990,OC,0
-Central America and Caribbean,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1990,OC,0.224403648
-Central America and Caribbean,UnmanagedLand,Deforest_YucatanP,Deforest_YucatanP,1990,OC,0.224403648
-Central America and Caribbean,UnmanagedLand,Deforest_GrijUsuR,Deforest_GrijUsuR,1990,OC,0.224403648
-Central America and Caribbean,UnmanagedLand,Deforest_CntAmer,Deforest_CntAmer,1990,OC,0.224403648
-Central America and Caribbean,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1990,OC,0.224403648
-Central America and Caribbean,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1990,OC,0.224403648
+Central America and Caribbean,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,1990,OC,0.2243790898
+Central America and Caribbean,UnmanagedLand,Deforest_YucatanP,Deforest_YucatanP,1990,OC,0.2243790898
+Central America and Caribbean,UnmanagedLand,Deforest_GrijUsuR,Deforest_GrijUsuR,1990,OC,0.2243790898
+Central America and Caribbean,UnmanagedLand,Deforest_CntAmer,Deforest_CntAmer,1990,OC,0.2243790898
+Central America and Caribbean,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1990,OC,0.2243790898
+Central America and Caribbean,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1990,OC,0.2243790898
 Central Asia,UnmanagedLand,Deforest_VolgaR,Deforest_VolgaR,1990,OC,0
 Central Asia,UnmanagedLand,Deforest_UralR,Deforest_UralR,1990,OC,0
 Central Asia,UnmanagedLand,Deforest_Gobi,Deforest_Gobi,1990,OC,0
@@ -1101,7 +1106,6 @@ Central Asia,UnmanagedLand,Deforest_LBalkash,Deforest_LBalkash,1990,OC,0
 Central Asia,UnmanagedLand,Deforest_BlackSeaS,Deforest_BlackSeaS,1990,OC,0
 Central Asia,UnmanagedLand,Deforest_CaspianSW,Deforest_CaspianSW,1990,OC,0
 Central Asia,UnmanagedLand,Deforest_SyrDaryaR,Deforest_SyrDaryaR,1990,OC,0
-Central Asia,UnmanagedLand,Deforest_Tarim,Deforest_Tarim,1990,OC,0
 China,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,1990,OC,0
 China,UnmanagedLand,Deforest_Gobi,Deforest_Gobi,1990,OC,0
 China,UnmanagedLand,Deforest_AmurR,Deforest_AmurR,1990,OC,0
@@ -1122,35 +1126,34 @@ China,UnmanagedLand,Deforest_Hainan,Deforest_Hainan,1990,OC,0
 China,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,1990,OC,0
 China,UnmanagedLand,Deforest_Salween,Deforest_Salween,1990,OC,0
 China,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1990,OC,0
-India,UnmanagedLand,Deforest_IndusR,Deforest_IndusR,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_SabarmatiR,Deforest_SabarmatiR,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_MahiR,Deforest_MahiR,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_TaptiR,Deforest_TaptiR,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_BengalW,Deforest_BengalW,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_BrahmaniR,Deforest_BrahmaniR,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_MahanadiR,Deforest_MahanadiR,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_GodavariR,Deforest_GodavariR,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_IndCstNE,Deforest_IndCstNE,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_IndCstW,Deforest_IndCstW,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_KrishnaR,Deforest_KrishnaR,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_IndCstE,Deforest_IndCstE,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_PennarR,Deforest_PennarR,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_CauveryR,Deforest_CauveryR,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_IndCstS,Deforest_IndCstS,1990,OC,0.1151257592
-India,UnmanagedLand,Deforest_NarmadaR,Deforest_NarmadaR,1990,OC,0.1151257592
-Indonesia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,1990,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1990,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1990,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_Sumatra,Deforest_Sumatra,1990,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_Sulawesi,Deforest_Sulawesi,1990,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1990,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1990,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1990,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1990,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1990,OC,0.5601027836
+India,UnmanagedLand,Deforest_IndusR,Deforest_IndusR,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_SabarmatiR,Deforest_SabarmatiR,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_MahiR,Deforest_MahiR,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_TaptiR,Deforest_TaptiR,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_BengalW,Deforest_BengalW,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_BrahmaniR,Deforest_BrahmaniR,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_MahanadiR,Deforest_MahanadiR,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_GodavariR,Deforest_GodavariR,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_IndCstNE,Deforest_IndCstNE,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_IndCstW,Deforest_IndCstW,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_KrishnaR,Deforest_KrishnaR,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_IndCstE,Deforest_IndCstE,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_PennarR,Deforest_PennarR,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_CauveryR,Deforest_CauveryR,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_IndCstS,Deforest_IndCstS,1990,OC,0.116042578
+India,UnmanagedLand,Deforest_NarmadaR,Deforest_NarmadaR,1990,OC,0.116042578
+Indonesia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1990,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1990,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_Sumatra,Deforest_Sumatra,1990,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_Sulawesi,Deforest_Sulawesi,1990,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1990,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1990,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1990,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1990,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1990,OC,0.560102565
 Mexico,UnmanagedLand,Deforest_MexBaja,Deforest_MexBaja,1990,OC,0
 Mexico,UnmanagedLand,Deforest_MexCstNW,Deforest_MexCstNW,1990,OC,0
 Mexico,UnmanagedLand,Deforest_MexGulf,Deforest_MexGulf,1990,OC,0
@@ -1200,125 +1203,128 @@ South Africa,UnmanagedLand,Deforest_OrangeR,Deforest_OrangeR,1990,OC,1.33586e-05
 South Africa,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,1990,OC,1.33586e-05
 South Africa,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,1990,OC,1.33586e-05
 South Africa,UnmanagedLand,Deforest_AfrCstSSW,Deforest_AfrCstSSW,1990,OC,1.33586e-05
-South America_Northern,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1990,OC,10.3256684054
-South America_Northern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1990,OC,10.3256684054
-South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1990,OC,10.3256684054
-South America_Northern,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,1990,OC,10.3256684054
-South America_Southern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1990,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1990,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1990,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_PeruCst,Deforest_PeruCst,1990,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_LaPuna,Deforest_LaPuna,1990,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1990,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_ChileCstN,Deforest_ChileCstN,1990,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1990,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1990,OC,0.1190724658
-Southeast Asia,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Korea,Deforest_Korea,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_BoHai,Deforest_BoHai,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_XunJiang,Deforest_XunJiang,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Hong,Deforest_Hong,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_SChinaSea,Deforest_SChinaSea,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Phlppns,Deforest_Phlppns,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_VietnamCst,Deforest_VietnamCst,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Salween,Deforest_Salween,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_SittaungR,Deforest_SittaungR,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_ChaoPhrR,Deforest_ChaoPhrR,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_ThaiGulf,Deforest_ThaiGulf,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_PapuaCst,Deforest_PapuaCst,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1990,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_NewCaledn,Deforest_NewCaledn,1990,OC,0.2069523243
-Argentina,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1990,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_MarChiq,Deforest_MarChiq,1990,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_Salinas,Deforest_Salinas,1990,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1990,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_Pampas,Deforest_Pampas,1990,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_ArgCstN,Deforest_ArgCstN,1990,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_ArgColoR,Deforest_ArgColoR,1990,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1990,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_Patagonia,Deforest_Patagonia,1990,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1990,OC,0.0038471374
+South America_Northern,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1990,OC,10.0052204783
+South America_Northern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1990,OC,10.0052204783
+South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,1990,OC,10.0052204783
+South America_Northern,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,1990,OC,10.0052204783
+South America_Northern,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1990,OC,10.0052204783
+South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1990,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1990,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1990,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_PeruCst,Deforest_PeruCst,1990,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_LaPuna,Deforest_LaPuna,1990,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1990,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_ChileCstN,Deforest_ChileCstN,1990,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1990,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1990,OC,0.1191398207
+Southeast Asia,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Korea,Deforest_Korea,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_BoHai,Deforest_BoHai,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_XunJiang,Deforest_XunJiang,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Hong,Deforest_Hong,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_SChinaSea,Deforest_SChinaSea,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Phlppns,Deforest_Phlppns,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_VietnamCst,Deforest_VietnamCst,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Salween,Deforest_Salween,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_SittaungR,Deforest_SittaungR,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_ChaoPhrR,Deforest_ChaoPhrR,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_ThaiGulf,Deforest_ThaiGulf,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_PapuaCst,Deforest_PapuaCst,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,1990,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_NewCaledn,Deforest_NewCaledn,1990,OC,0.2069452003
+Argentina,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,1990,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_MarChiq,Deforest_MarChiq,1990,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_Salinas,Deforest_Salinas,1990,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,1990,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_Pampas,Deforest_Pampas,1990,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_ArgCstN,Deforest_ArgCstN,1990,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_ArgColoR,Deforest_ArgColoR,1990,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,1990,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_Patagonia,Deforest_Patagonia,1990,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,1990,OC,0.00384717
 Colombia,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,1990,OC,0
 Colombia,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,1990,OC,0
 Colombia,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,1990,OC,0
 Colombia,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,1990,OC,0
-USA,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_NelsonR,Deforest_NelsonR,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_FraserR,Deforest_FraserR,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_California,Deforest_California,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_MissppRN,Deforest_MissppRN,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_MissppRS,Deforest_MissppRS,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaColoRN,Deforest_UsaColoRN,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaColoRS,Deforest_UsaColoRS,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_GreatBasin,Deforest_GreatBasin,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_ArkWhtRedR,Deforest_ArkWhtRedR,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_TexasCst,Deforest_TexasCst,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaCstSE,Deforest_UsaCstSE,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_OhioR,Deforest_OhioR,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_TennR,Deforest_TennR,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_RioGrande,Deforest_RioGrande,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,2005,OC,1.02679e-05
-USA,UnmanagedLand,Deforest_UsaCstE,Deforest_UsaCstE,2005,OC,1.02679e-05
-Africa_Eastern,UnmanagedLand,Deforest_NileR,Deforest_NileR,2005,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_AfrCstNE,Deforest_AfrCstNE,2005,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_ShebJubR,Deforest_ShebJubR,2005,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,2005,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_Madasgacar,Deforest_Madasgacar,2005,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,2005,OC,0.0128770395
-Africa_Eastern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,2005,OC,0.0128770395
-Africa_Southern,UnmanagedLand,Deforest_NileR,Deforest_NileR,2005,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,2005,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,2005,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,2005,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_AngolaCst,Deforest_AngolaCst,2005,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,2005,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,2005,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_AfrCstSE,Deforest_AfrCstSE,2005,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_AfrIntS,Deforest_AfrIntS,2005,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,2005,OC,0.0226054772
-Africa_Southern,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,2005,OC,0.0226054772
-Africa_Western,UnmanagedLand,Deforest_NileR,Deforest_NileR,2005,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_AfrCstW,Deforest_AfrCstW,2005,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_NigerR,Deforest_NigerR,2005,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_LChad,Deforest_LChad,2005,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_SenegalR,Deforest_SenegalR,2005,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_VoltaR,Deforest_VoltaR,2005,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,2005,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,2005,OC,0.106953425
-Africa_Western,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,2005,OC,0.106953425
-Australia_NZ,UnmanagedLand,Deforest_AusCstN,Deforest_AusCstN,2005,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_AusCstE,Deforest_AusCstE,2005,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_AusCstW,Deforest_AusCstW,2005,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_AusInt,Deforest_AusInt,2005,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_NewZealand,Deforest_NewZealand,2005,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_AusCstS,Deforest_AusCstS,2005,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_MurrayDrlg,Deforest_MurrayDrlg,2005,OC,0.0033686325
-Australia_NZ,UnmanagedLand,Deforest_Tasmania,Deforest_Tasmania,2005,OC,0.0033686325
-Brazil,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,2005,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,2005,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,2005,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_BrzCstN,Deforest_BrzCstN,2005,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_TocantinsR,Deforest_TocantinsR,2005,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_BrzCstE,Deforest_BrzCstE,2005,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_ParnaibaR,Deforest_ParnaibaR,2005,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_SaoFrancR,Deforest_SaoFrancR,2005,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_BrzCstS,Deforest_BrzCstS,2005,OC,0.2918100422
-Brazil,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,2005,OC,0.2918100422
+Colombia,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,1990,OC,0
+USA,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_NelsonR,Deforest_NelsonR,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_FraserR,Deforest_FraserR,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_MexCstNW,Deforest_MexCstNW,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_California,Deforest_California,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_MissppRN,Deforest_MissppRN,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_MissppRS,Deforest_MissppRS,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaColoRN,Deforest_UsaColoRN,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaColoRS,Deforest_UsaColoRS,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_GreatBasin,Deforest_GreatBasin,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_ArkWhtRedR,Deforest_ArkWhtRedR,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_TexasCst,Deforest_TexasCst,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaCstSE,Deforest_UsaCstSE,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_OhioR,Deforest_OhioR,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_TennR,Deforest_TennR,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_RioGrande,Deforest_RioGrande,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,2005,OC,1.02062e-05
+USA,UnmanagedLand,Deforest_UsaCstE,Deforest_UsaCstE,2005,OC,1.02062e-05
+Africa_Eastern,UnmanagedLand,Deforest_NileR,Deforest_NileR,2005,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_AfrCstNE,Deforest_AfrCstNE,2005,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_ShebJubR,Deforest_ShebJubR,2005,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,2005,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_Madasgacar,Deforest_Madasgacar,2005,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,2005,OC,0.0128755565
+Africa_Eastern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,2005,OC,0.0128755565
+Africa_Southern,UnmanagedLand,Deforest_NileR,Deforest_NileR,2005,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,2005,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_AfrCstE,Deforest_AfrCstE,2005,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_RiftValley,Deforest_RiftValley,2005,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_AngolaCst,Deforest_AngolaCst,2005,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,2005,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,2005,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_AfrCstSE,Deforest_AfrCstSE,2005,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_AfrIntS,Deforest_AfrIntS,2005,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,2005,OC,0.0226053285
+Africa_Southern,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,2005,OC,0.0226053285
+Africa_Western,UnmanagedLand,Deforest_NileR,Deforest_NileR,2005,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_AfrCstW,Deforest_AfrCstW,2005,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_NigerR,Deforest_NigerR,2005,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_LChad,Deforest_LChad,2005,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_SenegalR,Deforest_SenegalR,2005,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_VoltaR,Deforest_VoltaR,2005,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_GuineaGulf,Deforest_GuineaGulf,2005,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_CongoR,Deforest_CongoR,2005,OC,0.1069535254
+Africa_Western,UnmanagedLand,Deforest_ZambeziR,Deforest_ZambeziR,2005,OC,0.1069535254
+Australia_NZ,UnmanagedLand,Deforest_AusCstN,Deforest_AusCstN,2005,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_AusCstE,Deforest_AusCstE,2005,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_AusCstW,Deforest_AusCstW,2005,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_AusInt,Deforest_AusInt,2005,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_NewZealand,Deforest_NewZealand,2005,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_AusCstS,Deforest_AusCstS,2005,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_MurrayDrlg,Deforest_MurrayDrlg,2005,OC,0.0033685528
+Australia_NZ,UnmanagedLand,Deforest_Tasmania,Deforest_Tasmania,2005,OC,0.0033685528
+Brazil,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,2005,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,2005,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,2005,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_BrzCstN,Deforest_BrzCstN,2005,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_TocantinsR,Deforest_TocantinsR,2005,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_BrzCstE,Deforest_BrzCstE,2005,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_ParnaibaR,Deforest_ParnaibaR,2005,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_SaoFrancR,Deforest_SaoFrancR,2005,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_BrzCstS,Deforest_BrzCstS,2005,OC,0.2918259541
+Brazil,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,2005,OC,0.2918259541
 Canada,UnmanagedLand,Deforest_NWTerr,Deforest_NWTerr,2005,OC,0
 Canada,UnmanagedLand,Deforest_PacArctic,Deforest_PacArctic,2005,OC,0
 Canada,UnmanagedLand,Deforest_Mackenzie,Deforest_Mackenzie,2005,OC,0
@@ -1332,12 +1338,12 @@ Canada,UnmanagedLand,Deforest_MissouriR,Deforest_MissouriR,2005,OC,0
 Canada,UnmanagedLand,Deforest_GreatLakes,Deforest_GreatLakes,2005,OC,0
 Canada,UnmanagedLand,Deforest_UsaPacNW,Deforest_UsaPacNW,2005,OC,0
 Canada,UnmanagedLand,Deforest_UsaCstNE,Deforest_UsaCstNE,2005,OC,0
-Central America and Caribbean,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,2005,OC,0.224403648
-Central America and Caribbean,UnmanagedLand,Deforest_YucatanP,Deforest_YucatanP,2005,OC,0.224403648
-Central America and Caribbean,UnmanagedLand,Deforest_GrijUsuR,Deforest_GrijUsuR,2005,OC,0.224403648
-Central America and Caribbean,UnmanagedLand,Deforest_CntAmer,Deforest_CntAmer,2005,OC,0.224403648
-Central America and Caribbean,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,2005,OC,0.224403648
-Central America and Caribbean,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,2005,OC,0.224403648
+Central America and Caribbean,UnmanagedLand,Deforest_Caribbean,Deforest_Caribbean,2005,OC,0.2243790898
+Central America and Caribbean,UnmanagedLand,Deforest_YucatanP,Deforest_YucatanP,2005,OC,0.2243790898
+Central America and Caribbean,UnmanagedLand,Deforest_GrijUsuR,Deforest_GrijUsuR,2005,OC,0.2243790898
+Central America and Caribbean,UnmanagedLand,Deforest_CntAmer,Deforest_CntAmer,2005,OC,0.2243790898
+Central America and Caribbean,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,2005,OC,0.2243790898
+Central America and Caribbean,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,2005,OC,0.2243790898
 Central Asia,UnmanagedLand,Deforest_VolgaR,Deforest_VolgaR,2005,OC,0
 Central Asia,UnmanagedLand,Deforest_UralR,Deforest_UralR,2005,OC,0
 Central Asia,UnmanagedLand,Deforest_Gobi,Deforest_Gobi,2005,OC,0
@@ -1351,7 +1357,6 @@ Central Asia,UnmanagedLand,Deforest_LBalkash,Deforest_LBalkash,2005,OC,0
 Central Asia,UnmanagedLand,Deforest_BlackSeaS,Deforest_BlackSeaS,2005,OC,0
 Central Asia,UnmanagedLand,Deforest_CaspianSW,Deforest_CaspianSW,2005,OC,0
 Central Asia,UnmanagedLand,Deforest_SyrDaryaR,Deforest_SyrDaryaR,2005,OC,0
-Central Asia,UnmanagedLand,Deforest_Tarim,Deforest_Tarim,2005,OC,0
 China,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,2005,OC,0
 China,UnmanagedLand,Deforest_Gobi,Deforest_Gobi,2005,OC,0
 China,UnmanagedLand,Deforest_AmurR,Deforest_AmurR,2005,OC,0
@@ -1372,35 +1377,34 @@ China,UnmanagedLand,Deforest_Hainan,Deforest_Hainan,2005,OC,0
 China,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,2005,OC,0
 China,UnmanagedLand,Deforest_Salween,Deforest_Salween,2005,OC,0
 China,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,2005,OC,0
-India,UnmanagedLand,Deforest_IndusR,Deforest_IndusR,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_SabarmatiR,Deforest_SabarmatiR,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_MahiR,Deforest_MahiR,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_TaptiR,Deforest_TaptiR,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_BengalW,Deforest_BengalW,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_BrahmaniR,Deforest_BrahmaniR,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_MahanadiR,Deforest_MahanadiR,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_GodavariR,Deforest_GodavariR,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_IndCstNE,Deforest_IndCstNE,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_IndCstW,Deforest_IndCstW,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_KrishnaR,Deforest_KrishnaR,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_IndCstE,Deforest_IndCstE,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_PennarR,Deforest_PennarR,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_CauveryR,Deforest_CauveryR,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_IndCstS,Deforest_IndCstS,2005,OC,0.1151257592
-India,UnmanagedLand,Deforest_NarmadaR,Deforest_NarmadaR,2005,OC,0.1151257592
-Indonesia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,2005,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,2005,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,2005,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_Sumatra,Deforest_Sumatra,2005,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_Sulawesi,Deforest_Sulawesi,2005,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,2005,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,2005,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,2005,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,2005,OC,0.5601027836
-Indonesia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,2005,OC,0.5601027836
+India,UnmanagedLand,Deforest_IndusR,Deforest_IndusR,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_SabarmatiR,Deforest_SabarmatiR,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_MahiR,Deforest_MahiR,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_TaptiR,Deforest_TaptiR,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_BengalW,Deforest_BengalW,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_BrahmaniR,Deforest_BrahmaniR,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_MahanadiR,Deforest_MahanadiR,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_GodavariR,Deforest_GodavariR,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_IndCstNE,Deforest_IndCstNE,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_IndCstW,Deforest_IndCstW,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_KrishnaR,Deforest_KrishnaR,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_IndCstE,Deforest_IndCstE,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_PennarR,Deforest_PennarR,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_CauveryR,Deforest_CauveryR,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_IndCstS,Deforest_IndCstS,2005,OC,0.116042578
+India,UnmanagedLand,Deforest_NarmadaR,Deforest_NarmadaR,2005,OC,0.116042578
+Indonesia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,2005,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,2005,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_Sumatra,Deforest_Sumatra,2005,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_Sulawesi,Deforest_Sulawesi,2005,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,2005,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,2005,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,2005,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,2005,OC,0.560102565
+Indonesia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,2005,OC,0.560102565
 Mexico,UnmanagedLand,Deforest_MexBaja,Deforest_MexBaja,2005,OC,0
 Mexico,UnmanagedLand,Deforest_MexCstNW,Deforest_MexCstNW,2005,OC,0
 Mexico,UnmanagedLand,Deforest_MexGulf,Deforest_MexGulf,2005,OC,0
@@ -1450,56 +1454,58 @@ South Africa,UnmanagedLand,Deforest_OrangeR,Deforest_OrangeR,2005,OC,1.33586e-05
 South Africa,UnmanagedLand,Deforest_AfrCstS,Deforest_AfrCstS,2005,OC,1.33586e-05
 South Africa,UnmanagedLand,Deforest_LimpopoR,Deforest_LimpopoR,2005,OC,1.33586e-05
 South Africa,UnmanagedLand,Deforest_AfrCstSSW,Deforest_AfrCstSSW,2005,OC,1.33586e-05
-South America_Northern,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,2005,OC,10.3256684054
-South America_Northern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,2005,OC,10.3256684054
-South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,2005,OC,10.3256684054
-South America_Northern,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,2005,OC,10.3256684054
-South America_Southern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,2005,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,2005,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,2005,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_PeruCst,Deforest_PeruCst,2005,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_LaPuna,Deforest_LaPuna,2005,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,2005,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_ChileCstN,Deforest_ChileCstN,2005,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,2005,OC,0.1190724658
-South America_Southern,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,2005,OC,0.1190724658
-Southeast Asia,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Korea,Deforest_Korea,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_BoHai,Deforest_BoHai,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_XunJiang,Deforest_XunJiang,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Hong,Deforest_Hong,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_SChinaSea,Deforest_SChinaSea,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Phlppns,Deforest_Phlppns,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_VietnamCst,Deforest_VietnamCst,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Salween,Deforest_Salween,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_SittaungR,Deforest_SittaungR,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_ChaoPhrR,Deforest_ChaoPhrR,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_ThaiGulf,Deforest_ThaiGulf,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_PapuaCst,Deforest_PapuaCst,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,2005,OC,0.2069523243
-Southeast Asia,UnmanagedLand,Deforest_NewCaledn,Deforest_NewCaledn,2005,OC,0.2069523243
-Argentina,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,2005,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_MarChiq,Deforest_MarChiq,2005,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_Salinas,Deforest_Salinas,2005,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,2005,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_Pampas,Deforest_Pampas,2005,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_ArgCstN,Deforest_ArgCstN,2005,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_ArgColoR,Deforest_ArgColoR,2005,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,2005,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_Patagonia,Deforest_Patagonia,2005,OC,0.0038471374
-Argentina,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,2005,OC,0.0038471374
+South America_Northern,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,2005,OC,10.0052204783
+South America_Northern,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,2005,OC,10.0052204783
+South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,Deforest_SAmerCstNE,2005,OC,10.0052204783
+South America_Northern,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,2005,OC,10.0052204783
+South America_Northern,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,2005,OC,10.0052204783
+South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,2005,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,2005,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,2005,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_PeruCst,Deforest_PeruCst,2005,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_LaPuna,Deforest_LaPuna,2005,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,2005,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_ChileCstN,Deforest_ChileCstN,2005,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,2005,OC,0.1191398207
+South America_Southern,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,2005,OC,0.1191398207
+Southeast Asia,UnmanagedLand,Deforest_RusCstSE,Deforest_RusCstSE,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Korea,Deforest_Korea,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_BoHai,Deforest_BoHai,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_XunJiang,Deforest_XunJiang,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Hong,Deforest_Hong,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_GangesR,Deforest_GangesR,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_SChinaSea,Deforest_SChinaSea,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_BengalBay,Deforest_BengalBay,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Phlppns,Deforest_Phlppns,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Mekong,Deforest_Mekong,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_VietnamCst,Deforest_VietnamCst,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Salween,Deforest_Salween,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_IrrawaddyR,Deforest_IrrawaddyR,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_SittaungR,Deforest_SittaungR,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_MalaysiaP,Deforest_MalaysiaP,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_ChaoPhrR,Deforest_ChaoPhrR,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_ThaiGulf,Deforest_ThaiGulf,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_IdnE,Deforest_IdnE,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_BorneoCstN,Deforest_BorneoCstN,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_Kalimantan,Deforest_Kalimantan,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_IrianJaya,Deforest_IrianJaya,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_PapuaCst,Deforest_PapuaCst,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_JavaTimor,Deforest_JavaTimor,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_SepikR,Deforest_SepikR,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_FlyR,Deforest_FlyR,2005,OC,0.2069452003
+Southeast Asia,UnmanagedLand,Deforest_NewCaledn,Deforest_NewCaledn,2005,OC,0.2069452003
+Argentina,UnmanagedLand,Deforest_ChileCstS,Deforest_ChileCstS,2005,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_MarChiq,Deforest_MarChiq,2005,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_Salinas,Deforest_Salinas,2005,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_RioLaPlata,Deforest_RioLaPlata,2005,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_Pampas,Deforest_Pampas,2005,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_ArgCstN,Deforest_ArgCstN,2005,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_ArgColoR,Deforest_ArgColoR,2005,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_NegroR,Deforest_NegroR,2005,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_Patagonia,Deforest_Patagonia,2005,OC,0.00384717
+Argentina,UnmanagedLand,Deforest_ArgCstS,Deforest_ArgCstS,2005,OC,0.00384717
 Colombia,UnmanagedLand,Deforest_SAmerCstN,Deforest_SAmerCstN,2005,OC,0
 Colombia,UnmanagedLand,Deforest_OrinocoR,Deforest_OrinocoR,2005,OC,0
 Colombia,UnmanagedLand,Deforest_ColEcuaCst,Deforest_ColEcuaCst,2005,OC,0
 Colombia,UnmanagedLand,Deforest_MagdalenaR,Deforest_MagdalenaR,2005,OC,0
+Colombia,UnmanagedLand,Deforest_AmazonR,Deforest_AmazonR,2005,OC,0

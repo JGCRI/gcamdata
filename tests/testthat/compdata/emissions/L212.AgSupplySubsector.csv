@@ -4,12 +4,11 @@ AgSupplySubsector
 
 region,AgSupplySector,AgSupplySubsector,logit.year.fillout,logit.exponent
 USA,UnmanagedLand,GrasslandFires_PacArctic,1975,-3
-USA,UnmanagedLand,GrasslandFires_GreatBasin,1975,-3
-USA,UnmanagedLand,GrasslandFires_MissouriR,1975,-3
+USA,UnmanagedLand,GrasslandFires_NelsonR,1975,-3
 USA,UnmanagedLand,GrasslandFires_ArkWhtRedR,1975,-3
 USA,UnmanagedLand,GrasslandFires_TexasCst,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaCstSE,1975,-3
-USA,UnmanagedLand,GrasslandFires_NelsonR,1975,-3
+USA,UnmanagedLand,GrasslandFires_GreatLakes,1975,-3
 USA,UnmanagedLand,GrasslandFires_MexCstNW,1975,-3
 USA,UnmanagedLand,GrasslandFires_Caribbean,1975,-3
 USA,UnmanagedLand,GrasslandFires_California,1975,-3
@@ -17,12 +16,12 @@ USA,UnmanagedLand,GrasslandFires_MissppRN,1975,-3
 USA,UnmanagedLand,GrasslandFires_MissppRS,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaColoRN,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaColoRS,1975,-3
-Africa_Eastern,UnmanagedLand,GrasslandFires_AfrIntN,1975,-3
-Africa_Eastern,UnmanagedLand,GrasslandFires_LChad,1975,-3
+USA,UnmanagedLand,GrasslandFires_GreatBasin,1975,-3
+USA,UnmanagedLand,GrasslandFires_MissouriR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_ShebJubR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_AfrCstE,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_Madasgacar,1975,-3
-USA,UnmanagedLand,GrasslandFires_GreatLakes,1975,-3
+Africa_Eastern,UnmanagedLand,GrasslandFires_RiftValley,1975,-3
 USA,UnmanagedLand,GrasslandFires_OhioR,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaPacNW,1975,-3
 USA,UnmanagedLand,GrasslandFires_TennR,1975,-3
@@ -30,8 +29,8 @@ USA,UnmanagedLand,GrasslandFires_RioGrande,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaCstE,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_NileR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_AfrCstNE,1975,-3
-Africa_Southern,UnmanagedLand,GrasslandFires_ZambeziR,1975,-3
-Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstSE,1975,-3
+Africa_Eastern,UnmanagedLand,GrasslandFires_AfrIntN,1975,-3
+Africa_Eastern,UnmanagedLand,GrasslandFires_LChad,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_OrangeR,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstSW,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_AfrIntS,1975,-3
@@ -143,7 +142,7 @@ Europe_Eastern,UnmanagedLand,GrasslandFires_DnieperR,1975,-3
 Europe_Eastern,UnmanagedLand,GrasslandFires_BlackSeaN,1975,-3
 Europe_Eastern,UnmanagedLand,GrasslandFires_DniesterR,1975,-3
 Europe_Eastern,UnmanagedLand,GrasslandFires_DonR,1975,-3
-Africa_Eastern,UnmanagedLand,GrasslandFires_RiftValley,1975,-3
+Europe_Eastern,UnmanagedLand,GrasslandFires_DanubeR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_CongoR,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_NileR,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_GuineaGulf,1975,-3
@@ -151,11 +150,10 @@ Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstE,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_RiftValley,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_AngolaCst,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_CongoR,1975,-3
-India,UnmanagedLand,GrasslandFires_MahanadiR,1975,-3
-India,UnmanagedLand,GrasslandFires_GodavariR,1975,-3
+Africa_Southern,UnmanagedLand,GrasslandFires_ZambeziR,1975,-3
+Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstSE,1975,-3
 India,UnmanagedLand,GrasslandFires_IndCstNE,1975,-3
 India,UnmanagedLand,GrasslandFires_IndCstW,1975,-3
-India,UnmanagedLand,GrasslandFires_IrrawaddyR,1975,-3
 India,UnmanagedLand,GrasslandFires_KrishnaR,1975,-3
 India,UnmanagedLand,GrasslandFires_IndCstE,1975,-3
 India,UnmanagedLand,GrasslandFires_PennarR,1975,-3
@@ -214,8 +212,9 @@ South America_Northern,UnmanagedLand,GrasslandFires_SAmerCstN,1975,-3
 South America_Northern,UnmanagedLand,GrasslandFires_OrinocoR,1975,-3
 South America_Northern,UnmanagedLand,GrasslandFires_SAmerCstNE,1975,-3
 South America_Northern,UnmanagedLand,GrasslandFires_MagdalenaR,1975,-3
-South America_Southern,UnmanagedLand,GrasslandFires_OrinocoR,1975,-3
+South America_Northern,UnmanagedLand,GrasslandFires_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_ColEcuaCst,1975,-3
+South America_Southern,UnmanagedLand,GrasslandFires_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_ChileCstS,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_PeruCst,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_BrzCstS,1975,-3
@@ -264,7 +263,7 @@ Colombia,UnmanagedLand,GrasslandFires_SAmerCstN,1975,-3
 Colombia,UnmanagedLand,GrasslandFires_OrinocoR,1975,-3
 Colombia,UnmanagedLand,GrasslandFires_ColEcuaCst,1975,-3
 Colombia,UnmanagedLand,GrasslandFires_MagdalenaR,1975,-3
-Europe_Eastern,UnmanagedLand,GrasslandFires_DanubeR,1975,-3
+Colombia,UnmanagedLand,GrasslandFires_AmazonR,1975,-3
 India,UnmanagedLand,GrasslandFires_IndusR,1975,-3
 India,UnmanagedLand,GrasslandFires_SabarmatiR,1975,-3
 India,UnmanagedLand,GrasslandFires_GangesR,1975,-3
@@ -272,11 +271,14 @@ India,UnmanagedLand,GrasslandFires_MahiR,1975,-3
 India,UnmanagedLand,GrasslandFires_TaptiR,1975,-3
 India,UnmanagedLand,GrasslandFires_BengalW,1975,-3
 India,UnmanagedLand,GrasslandFires_BrahmaniR,1975,-3
+India,UnmanagedLand,GrasslandFires_MahanadiR,1975,-3
+India,UnmanagedLand,GrasslandFires_GodavariR,1975,-3
+Central Asia,UnmanagedLand,ForestFire_ObR,1975,-3
+Central Asia,UnmanagedLand,ForestFire_AmuDaryaR,1975,-3
 Central Asia,UnmanagedLand,ForestFire_LBalkash,1975,-3
 Central Asia,UnmanagedLand,ForestFire_BlackSeaS,1975,-3
 Central Asia,UnmanagedLand,ForestFire_CaspianSW,1975,-3
 Central Asia,UnmanagedLand,ForestFire_SyrDaryaR,1975,-3
-Central Asia,UnmanagedLand,ForestFire_Tarim,1975,-3
 China,UnmanagedLand,ForestFire_RusCstSE,1975,-3
 China,UnmanagedLand,ForestFire_Gobi,1975,-3
 China,UnmanagedLand,ForestFire_AmurR,1975,-3
@@ -302,6 +304,7 @@ India,UnmanagedLand,ForestFire_SabarmatiR,1975,-3
 USA,UnmanagedLand,ForestFire_PacArctic,1975,-3
 USA,UnmanagedLand,ForestFire_NelsonR,1975,-3
 USA,UnmanagedLand,ForestFire_FraserR,1975,-3
+USA,UnmanagedLand,ForestFire_MexCstNW,1975,-3
 USA,UnmanagedLand,ForestFire_Caribbean,1975,-3
 USA,UnmanagedLand,ForestFire_California,1975,-3
 USA,UnmanagedLand,ForestFire_MissppRN,1975,-3
@@ -391,8 +394,7 @@ Central Asia,UnmanagedLand,ForestFire_AmurR,1975,-3
 Central Asia,UnmanagedLand,ForestFire_CaspianNE,1975,-3
 Central Asia,UnmanagedLand,ForestFire_BlackSeaN,1975,-3
 Central Asia,UnmanagedLand,ForestFire_YeniseiR,1975,-3
-Central Asia,UnmanagedLand,ForestFire_ObR,1975,-3
-Central Asia,UnmanagedLand,ForestFire_AmuDaryaR,1975,-3
+Southeast Asia,UnmanagedLand,ForestFire_Hong,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_GangesR,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_SChinaSea,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_BengalBay,1975,-3
@@ -437,7 +439,6 @@ India,UnmanagedLand,ForestFire_PennarR,1975,-3
 India,UnmanagedLand,ForestFire_CauveryR,1975,-3
 India,UnmanagedLand,ForestFire_IndCstS,1975,-3
 India,UnmanagedLand,ForestFire_NarmadaR,1975,-3
-Indonesia,UnmanagedLand,ForestFire_MalaysiaP,1975,-3
 Indonesia,UnmanagedLand,ForestFire_IdnE,1975,-3
 Indonesia,UnmanagedLand,ForestFire_BorneoCstN,1975,-3
 Indonesia,UnmanagedLand,ForestFire_Sumatra,1975,-3
@@ -500,8 +501,9 @@ South America_Northern,UnmanagedLand,ForestFire_SAmerCstN,1975,-3
 South America_Northern,UnmanagedLand,ForestFire_OrinocoR,1975,-3
 South America_Northern,UnmanagedLand,ForestFire_SAmerCstNE,1975,-3
 South America_Northern,UnmanagedLand,ForestFire_MagdalenaR,1975,-3
-South America_Southern,UnmanagedLand,ForestFire_OrinocoR,1975,-3
+South America_Northern,UnmanagedLand,ForestFire_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_ColEcuaCst,1975,-3
+South America_Southern,UnmanagedLand,ForestFire_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_ChileCstS,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_PeruCst,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_LaPuna,1975,-3
@@ -513,20 +515,21 @@ Southeast Asia,UnmanagedLand,ForestFire_RusCstSE,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_Korea,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_BoHai,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_XunJiang,1975,-3
-Southeast Asia,UnmanagedLand,ForestFire_Hong,1975,-3
+Argentina,UnmanagedLand,ForestFire_Patagonia,1975,-3
 Argentina,UnmanagedLand,ForestFire_ArgCstS,1975,-3
 Argentina,UnmanagedLand,ForestFire_ArgColoR,1975,-3
 Argentina,UnmanagedLand,ForestFire_NegroR,1975,-3
-Argentina,UnmanagedLand,ForestFire_Patagonia,1975,-3
+Colombia,UnmanagedLand,ForestFire_ColEcuaCst,1975,-3
 Colombia,UnmanagedLand,ForestFire_MagdalenaR,1975,-3
 Colombia,UnmanagedLand,ForestFire_SAmerCstN,1975,-3
 Colombia,UnmanagedLand,ForestFire_OrinocoR,1975,-3
-Colombia,UnmanagedLand,ForestFire_ColEcuaCst,1975,-3
+Colombia,UnmanagedLand,ForestFire_AmazonR,1975,-3
+Central Asia,UnmanagedLand,Deforest_ObR,1975,-3
+Central Asia,UnmanagedLand,Deforest_AmuDaryaR,1975,-3
 Central Asia,UnmanagedLand,Deforest_LBalkash,1975,-3
 Central Asia,UnmanagedLand,Deforest_BlackSeaS,1975,-3
 Central Asia,UnmanagedLand,Deforest_CaspianSW,1975,-3
 Central Asia,UnmanagedLand,Deforest_SyrDaryaR,1975,-3
-Central Asia,UnmanagedLand,Deforest_Tarim,1975,-3
 China,UnmanagedLand,Deforest_RusCstSE,1975,-3
 China,UnmanagedLand,Deforest_Gobi,1975,-3
 China,UnmanagedLand,Deforest_AmurR,1975,-3
@@ -552,6 +555,7 @@ India,UnmanagedLand,Deforest_SabarmatiR,1975,-3
 USA,UnmanagedLand,Deforest_PacArctic,1975,-3
 USA,UnmanagedLand,Deforest_NelsonR,1975,-3
 USA,UnmanagedLand,Deforest_FraserR,1975,-3
+USA,UnmanagedLand,Deforest_MexCstNW,1975,-3
 USA,UnmanagedLand,Deforest_Caribbean,1975,-3
 USA,UnmanagedLand,Deforest_California,1975,-3
 USA,UnmanagedLand,Deforest_MissppRN,1975,-3
@@ -641,8 +645,7 @@ Central Asia,UnmanagedLand,Deforest_AmurR,1975,-3
 Central Asia,UnmanagedLand,Deforest_CaspianNE,1975,-3
 Central Asia,UnmanagedLand,Deforest_BlackSeaN,1975,-3
 Central Asia,UnmanagedLand,Deforest_YeniseiR,1975,-3
-Central Asia,UnmanagedLand,Deforest_ObR,1975,-3
-Central Asia,UnmanagedLand,Deforest_AmuDaryaR,1975,-3
+Southeast Asia,UnmanagedLand,Deforest_Hong,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_GangesR,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_SChinaSea,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_BengalBay,1975,-3
@@ -687,7 +690,6 @@ India,UnmanagedLand,Deforest_PennarR,1975,-3
 India,UnmanagedLand,Deforest_CauveryR,1975,-3
 India,UnmanagedLand,Deforest_IndCstS,1975,-3
 India,UnmanagedLand,Deforest_NarmadaR,1975,-3
-Indonesia,UnmanagedLand,Deforest_MalaysiaP,1975,-3
 Indonesia,UnmanagedLand,Deforest_IdnE,1975,-3
 Indonesia,UnmanagedLand,Deforest_BorneoCstN,1975,-3
 Indonesia,UnmanagedLand,Deforest_Sumatra,1975,-3
@@ -750,8 +752,9 @@ South America_Northern,UnmanagedLand,Deforest_SAmerCstN,1975,-3
 South America_Northern,UnmanagedLand,Deforest_OrinocoR,1975,-3
 South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,1975,-3
 South America_Northern,UnmanagedLand,Deforest_MagdalenaR,1975,-3
-South America_Southern,UnmanagedLand,Deforest_OrinocoR,1975,-3
+South America_Northern,UnmanagedLand,Deforest_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,1975,-3
+South America_Southern,UnmanagedLand,Deforest_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,Deforest_ChileCstS,1975,-3
 South America_Southern,UnmanagedLand,Deforest_PeruCst,1975,-3
 South America_Southern,UnmanagedLand,Deforest_LaPuna,1975,-3
@@ -763,22 +766,21 @@ Southeast Asia,UnmanagedLand,Deforest_RusCstSE,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_Korea,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_BoHai,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_XunJiang,1975,-3
-Southeast Asia,UnmanagedLand,Deforest_Hong,1975,-3
+Argentina,UnmanagedLand,Deforest_Patagonia,1975,-3
 Argentina,UnmanagedLand,Deforest_ArgCstS,1975,-3
 Argentina,UnmanagedLand,Deforest_ArgColoR,1975,-3
 Argentina,UnmanagedLand,Deforest_NegroR,1975,-3
-Argentina,UnmanagedLand,Deforest_Patagonia,1975,-3
+Colombia,UnmanagedLand,Deforest_ColEcuaCst,1975,-3
 Colombia,UnmanagedLand,Deforest_MagdalenaR,1975,-3
 Colombia,UnmanagedLand,Deforest_SAmerCstN,1975,-3
 Colombia,UnmanagedLand,Deforest_OrinocoR,1975,-3
-Colombia,UnmanagedLand,Deforest_ColEcuaCst,1975,-3
+Colombia,UnmanagedLand,Deforest_AmazonR,1975,-3
 USA,UnmanagedLand,GrasslandFires_PacArctic,1975,-3
-USA,UnmanagedLand,GrasslandFires_GreatBasin,1975,-3
-USA,UnmanagedLand,GrasslandFires_MissouriR,1975,-3
+USA,UnmanagedLand,GrasslandFires_NelsonR,1975,-3
 USA,UnmanagedLand,GrasslandFires_ArkWhtRedR,1975,-3
 USA,UnmanagedLand,GrasslandFires_TexasCst,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaCstSE,1975,-3
-USA,UnmanagedLand,GrasslandFires_NelsonR,1975,-3
+USA,UnmanagedLand,GrasslandFires_GreatLakes,1975,-3
 USA,UnmanagedLand,GrasslandFires_MexCstNW,1975,-3
 USA,UnmanagedLand,GrasslandFires_Caribbean,1975,-3
 USA,UnmanagedLand,GrasslandFires_California,1975,-3
@@ -786,12 +788,12 @@ USA,UnmanagedLand,GrasslandFires_MissppRN,1975,-3
 USA,UnmanagedLand,GrasslandFires_MissppRS,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaColoRN,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaColoRS,1975,-3
-Africa_Eastern,UnmanagedLand,GrasslandFires_AfrIntN,1975,-3
-Africa_Eastern,UnmanagedLand,GrasslandFires_LChad,1975,-3
+USA,UnmanagedLand,GrasslandFires_GreatBasin,1975,-3
+USA,UnmanagedLand,GrasslandFires_MissouriR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_ShebJubR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_AfrCstE,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_Madasgacar,1975,-3
-USA,UnmanagedLand,GrasslandFires_GreatLakes,1975,-3
+Africa_Eastern,UnmanagedLand,GrasslandFires_RiftValley,1975,-3
 USA,UnmanagedLand,GrasslandFires_OhioR,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaPacNW,1975,-3
 USA,UnmanagedLand,GrasslandFires_TennR,1975,-3
@@ -799,8 +801,8 @@ USA,UnmanagedLand,GrasslandFires_RioGrande,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaCstE,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_NileR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_AfrCstNE,1975,-3
-Africa_Southern,UnmanagedLand,GrasslandFires_ZambeziR,1975,-3
-Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstSE,1975,-3
+Africa_Eastern,UnmanagedLand,GrasslandFires_AfrIntN,1975,-3
+Africa_Eastern,UnmanagedLand,GrasslandFires_LChad,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_OrangeR,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstSW,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_AfrIntS,1975,-3
@@ -912,7 +914,7 @@ Europe_Eastern,UnmanagedLand,GrasslandFires_DnieperR,1975,-3
 Europe_Eastern,UnmanagedLand,GrasslandFires_BlackSeaN,1975,-3
 Europe_Eastern,UnmanagedLand,GrasslandFires_DniesterR,1975,-3
 Europe_Eastern,UnmanagedLand,GrasslandFires_DonR,1975,-3
-Africa_Eastern,UnmanagedLand,GrasslandFires_RiftValley,1975,-3
+Europe_Eastern,UnmanagedLand,GrasslandFires_DanubeR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_CongoR,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_NileR,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_GuineaGulf,1975,-3
@@ -920,11 +922,10 @@ Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstE,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_RiftValley,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_AngolaCst,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_CongoR,1975,-3
-India,UnmanagedLand,GrasslandFires_MahanadiR,1975,-3
-India,UnmanagedLand,GrasslandFires_GodavariR,1975,-3
+Africa_Southern,UnmanagedLand,GrasslandFires_ZambeziR,1975,-3
+Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstSE,1975,-3
 India,UnmanagedLand,GrasslandFires_IndCstNE,1975,-3
 India,UnmanagedLand,GrasslandFires_IndCstW,1975,-3
-India,UnmanagedLand,GrasslandFires_IrrawaddyR,1975,-3
 India,UnmanagedLand,GrasslandFires_KrishnaR,1975,-3
 India,UnmanagedLand,GrasslandFires_IndCstE,1975,-3
 India,UnmanagedLand,GrasslandFires_PennarR,1975,-3
@@ -983,8 +984,9 @@ South America_Northern,UnmanagedLand,GrasslandFires_SAmerCstN,1975,-3
 South America_Northern,UnmanagedLand,GrasslandFires_OrinocoR,1975,-3
 South America_Northern,UnmanagedLand,GrasslandFires_SAmerCstNE,1975,-3
 South America_Northern,UnmanagedLand,GrasslandFires_MagdalenaR,1975,-3
-South America_Southern,UnmanagedLand,GrasslandFires_OrinocoR,1975,-3
+South America_Northern,UnmanagedLand,GrasslandFires_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_ColEcuaCst,1975,-3
+South America_Southern,UnmanagedLand,GrasslandFires_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_ChileCstS,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_PeruCst,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_BrzCstS,1975,-3
@@ -1033,7 +1035,7 @@ Colombia,UnmanagedLand,GrasslandFires_SAmerCstN,1975,-3
 Colombia,UnmanagedLand,GrasslandFires_OrinocoR,1975,-3
 Colombia,UnmanagedLand,GrasslandFires_ColEcuaCst,1975,-3
 Colombia,UnmanagedLand,GrasslandFires_MagdalenaR,1975,-3
-Europe_Eastern,UnmanagedLand,GrasslandFires_DanubeR,1975,-3
+Colombia,UnmanagedLand,GrasslandFires_AmazonR,1975,-3
 India,UnmanagedLand,GrasslandFires_IndusR,1975,-3
 India,UnmanagedLand,GrasslandFires_SabarmatiR,1975,-3
 India,UnmanagedLand,GrasslandFires_GangesR,1975,-3
@@ -1041,11 +1043,14 @@ India,UnmanagedLand,GrasslandFires_MahiR,1975,-3
 India,UnmanagedLand,GrasslandFires_TaptiR,1975,-3
 India,UnmanagedLand,GrasslandFires_BengalW,1975,-3
 India,UnmanagedLand,GrasslandFires_BrahmaniR,1975,-3
+India,UnmanagedLand,GrasslandFires_MahanadiR,1975,-3
+India,UnmanagedLand,GrasslandFires_GodavariR,1975,-3
+Central Asia,UnmanagedLand,ForestFire_ObR,1975,-3
+Central Asia,UnmanagedLand,ForestFire_AmuDaryaR,1975,-3
 Central Asia,UnmanagedLand,ForestFire_LBalkash,1975,-3
 Central Asia,UnmanagedLand,ForestFire_BlackSeaS,1975,-3
 Central Asia,UnmanagedLand,ForestFire_CaspianSW,1975,-3
 Central Asia,UnmanagedLand,ForestFire_SyrDaryaR,1975,-3
-Central Asia,UnmanagedLand,ForestFire_Tarim,1975,-3
 China,UnmanagedLand,ForestFire_RusCstSE,1975,-3
 China,UnmanagedLand,ForestFire_Gobi,1975,-3
 China,UnmanagedLand,ForestFire_AmurR,1975,-3
@@ -1071,6 +1076,7 @@ India,UnmanagedLand,ForestFire_SabarmatiR,1975,-3
 USA,UnmanagedLand,ForestFire_PacArctic,1975,-3
 USA,UnmanagedLand,ForestFire_NelsonR,1975,-3
 USA,UnmanagedLand,ForestFire_FraserR,1975,-3
+USA,UnmanagedLand,ForestFire_MexCstNW,1975,-3
 USA,UnmanagedLand,ForestFire_Caribbean,1975,-3
 USA,UnmanagedLand,ForestFire_California,1975,-3
 USA,UnmanagedLand,ForestFire_MissppRN,1975,-3
@@ -1160,8 +1166,7 @@ Central Asia,UnmanagedLand,ForestFire_AmurR,1975,-3
 Central Asia,UnmanagedLand,ForestFire_CaspianNE,1975,-3
 Central Asia,UnmanagedLand,ForestFire_BlackSeaN,1975,-3
 Central Asia,UnmanagedLand,ForestFire_YeniseiR,1975,-3
-Central Asia,UnmanagedLand,ForestFire_ObR,1975,-3
-Central Asia,UnmanagedLand,ForestFire_AmuDaryaR,1975,-3
+Southeast Asia,UnmanagedLand,ForestFire_Hong,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_GangesR,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_SChinaSea,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_BengalBay,1975,-3
@@ -1206,7 +1211,6 @@ India,UnmanagedLand,ForestFire_PennarR,1975,-3
 India,UnmanagedLand,ForestFire_CauveryR,1975,-3
 India,UnmanagedLand,ForestFire_IndCstS,1975,-3
 India,UnmanagedLand,ForestFire_NarmadaR,1975,-3
-Indonesia,UnmanagedLand,ForestFire_MalaysiaP,1975,-3
 Indonesia,UnmanagedLand,ForestFire_IdnE,1975,-3
 Indonesia,UnmanagedLand,ForestFire_BorneoCstN,1975,-3
 Indonesia,UnmanagedLand,ForestFire_Sumatra,1975,-3
@@ -1269,8 +1273,9 @@ South America_Northern,UnmanagedLand,ForestFire_SAmerCstN,1975,-3
 South America_Northern,UnmanagedLand,ForestFire_OrinocoR,1975,-3
 South America_Northern,UnmanagedLand,ForestFire_SAmerCstNE,1975,-3
 South America_Northern,UnmanagedLand,ForestFire_MagdalenaR,1975,-3
-South America_Southern,UnmanagedLand,ForestFire_OrinocoR,1975,-3
+South America_Northern,UnmanagedLand,ForestFire_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_ColEcuaCst,1975,-3
+South America_Southern,UnmanagedLand,ForestFire_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_ChileCstS,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_PeruCst,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_LaPuna,1975,-3
@@ -1282,20 +1287,21 @@ Southeast Asia,UnmanagedLand,ForestFire_RusCstSE,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_Korea,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_BoHai,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_XunJiang,1975,-3
-Southeast Asia,UnmanagedLand,ForestFire_Hong,1975,-3
+Argentina,UnmanagedLand,ForestFire_Patagonia,1975,-3
 Argentina,UnmanagedLand,ForestFire_ArgCstS,1975,-3
 Argentina,UnmanagedLand,ForestFire_ArgColoR,1975,-3
 Argentina,UnmanagedLand,ForestFire_NegroR,1975,-3
-Argentina,UnmanagedLand,ForestFire_Patagonia,1975,-3
+Colombia,UnmanagedLand,ForestFire_ColEcuaCst,1975,-3
 Colombia,UnmanagedLand,ForestFire_MagdalenaR,1975,-3
 Colombia,UnmanagedLand,ForestFire_SAmerCstN,1975,-3
 Colombia,UnmanagedLand,ForestFire_OrinocoR,1975,-3
-Colombia,UnmanagedLand,ForestFire_ColEcuaCst,1975,-3
+Colombia,UnmanagedLand,ForestFire_AmazonR,1975,-3
+Central Asia,UnmanagedLand,Deforest_ObR,1975,-3
+Central Asia,UnmanagedLand,Deforest_AmuDaryaR,1975,-3
 Central Asia,UnmanagedLand,Deforest_LBalkash,1975,-3
 Central Asia,UnmanagedLand,Deforest_BlackSeaS,1975,-3
 Central Asia,UnmanagedLand,Deforest_CaspianSW,1975,-3
 Central Asia,UnmanagedLand,Deforest_SyrDaryaR,1975,-3
-Central Asia,UnmanagedLand,Deforest_Tarim,1975,-3
 China,UnmanagedLand,Deforest_RusCstSE,1975,-3
 China,UnmanagedLand,Deforest_Gobi,1975,-3
 China,UnmanagedLand,Deforest_AmurR,1975,-3
@@ -1321,6 +1327,7 @@ India,UnmanagedLand,Deforest_SabarmatiR,1975,-3
 USA,UnmanagedLand,Deforest_PacArctic,1975,-3
 USA,UnmanagedLand,Deforest_NelsonR,1975,-3
 USA,UnmanagedLand,Deforest_FraserR,1975,-3
+USA,UnmanagedLand,Deforest_MexCstNW,1975,-3
 USA,UnmanagedLand,Deforest_Caribbean,1975,-3
 USA,UnmanagedLand,Deforest_California,1975,-3
 USA,UnmanagedLand,Deforest_MissppRN,1975,-3
@@ -1410,8 +1417,7 @@ Central Asia,UnmanagedLand,Deforest_AmurR,1975,-3
 Central Asia,UnmanagedLand,Deforest_CaspianNE,1975,-3
 Central Asia,UnmanagedLand,Deforest_BlackSeaN,1975,-3
 Central Asia,UnmanagedLand,Deforest_YeniseiR,1975,-3
-Central Asia,UnmanagedLand,Deforest_ObR,1975,-3
-Central Asia,UnmanagedLand,Deforest_AmuDaryaR,1975,-3
+Southeast Asia,UnmanagedLand,Deforest_Hong,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_GangesR,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_SChinaSea,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_BengalBay,1975,-3
@@ -1456,7 +1462,6 @@ India,UnmanagedLand,Deforest_PennarR,1975,-3
 India,UnmanagedLand,Deforest_CauveryR,1975,-3
 India,UnmanagedLand,Deforest_IndCstS,1975,-3
 India,UnmanagedLand,Deforest_NarmadaR,1975,-3
-Indonesia,UnmanagedLand,Deforest_MalaysiaP,1975,-3
 Indonesia,UnmanagedLand,Deforest_IdnE,1975,-3
 Indonesia,UnmanagedLand,Deforest_BorneoCstN,1975,-3
 Indonesia,UnmanagedLand,Deforest_Sumatra,1975,-3
@@ -1519,8 +1524,9 @@ South America_Northern,UnmanagedLand,Deforest_SAmerCstN,1975,-3
 South America_Northern,UnmanagedLand,Deforest_OrinocoR,1975,-3
 South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,1975,-3
 South America_Northern,UnmanagedLand,Deforest_MagdalenaR,1975,-3
-South America_Southern,UnmanagedLand,Deforest_OrinocoR,1975,-3
+South America_Northern,UnmanagedLand,Deforest_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,1975,-3
+South America_Southern,UnmanagedLand,Deforest_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,Deforest_ChileCstS,1975,-3
 South America_Southern,UnmanagedLand,Deforest_PeruCst,1975,-3
 South America_Southern,UnmanagedLand,Deforest_LaPuna,1975,-3
@@ -1532,22 +1538,21 @@ Southeast Asia,UnmanagedLand,Deforest_RusCstSE,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_Korea,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_BoHai,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_XunJiang,1975,-3
-Southeast Asia,UnmanagedLand,Deforest_Hong,1975,-3
+Argentina,UnmanagedLand,Deforest_Patagonia,1975,-3
 Argentina,UnmanagedLand,Deforest_ArgCstS,1975,-3
 Argentina,UnmanagedLand,Deforest_ArgColoR,1975,-3
 Argentina,UnmanagedLand,Deforest_NegroR,1975,-3
-Argentina,UnmanagedLand,Deforest_Patagonia,1975,-3
+Colombia,UnmanagedLand,Deforest_ColEcuaCst,1975,-3
 Colombia,UnmanagedLand,Deforest_MagdalenaR,1975,-3
 Colombia,UnmanagedLand,Deforest_SAmerCstN,1975,-3
 Colombia,UnmanagedLand,Deforest_OrinocoR,1975,-3
-Colombia,UnmanagedLand,Deforest_ColEcuaCst,1975,-3
+Colombia,UnmanagedLand,Deforest_AmazonR,1975,-3
 USA,UnmanagedLand,GrasslandFires_PacArctic,1975,-3
-USA,UnmanagedLand,GrasslandFires_GreatBasin,1975,-3
-USA,UnmanagedLand,GrasslandFires_MissouriR,1975,-3
+USA,UnmanagedLand,GrasslandFires_NelsonR,1975,-3
 USA,UnmanagedLand,GrasslandFires_ArkWhtRedR,1975,-3
 USA,UnmanagedLand,GrasslandFires_TexasCst,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaCstSE,1975,-3
-USA,UnmanagedLand,GrasslandFires_NelsonR,1975,-3
+USA,UnmanagedLand,GrasslandFires_GreatLakes,1975,-3
 USA,UnmanagedLand,GrasslandFires_MexCstNW,1975,-3
 USA,UnmanagedLand,GrasslandFires_Caribbean,1975,-3
 USA,UnmanagedLand,GrasslandFires_California,1975,-3
@@ -1555,12 +1560,12 @@ USA,UnmanagedLand,GrasslandFires_MissppRN,1975,-3
 USA,UnmanagedLand,GrasslandFires_MissppRS,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaColoRN,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaColoRS,1975,-3
-Africa_Eastern,UnmanagedLand,GrasslandFires_AfrIntN,1975,-3
-Africa_Eastern,UnmanagedLand,GrasslandFires_LChad,1975,-3
+USA,UnmanagedLand,GrasslandFires_GreatBasin,1975,-3
+USA,UnmanagedLand,GrasslandFires_MissouriR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_ShebJubR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_AfrCstE,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_Madasgacar,1975,-3
-USA,UnmanagedLand,GrasslandFires_GreatLakes,1975,-3
+Africa_Eastern,UnmanagedLand,GrasslandFires_RiftValley,1975,-3
 USA,UnmanagedLand,GrasslandFires_OhioR,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaPacNW,1975,-3
 USA,UnmanagedLand,GrasslandFires_TennR,1975,-3
@@ -1568,8 +1573,8 @@ USA,UnmanagedLand,GrasslandFires_RioGrande,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaCstE,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_NileR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_AfrCstNE,1975,-3
-Africa_Southern,UnmanagedLand,GrasslandFires_ZambeziR,1975,-3
-Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstSE,1975,-3
+Africa_Eastern,UnmanagedLand,GrasslandFires_AfrIntN,1975,-3
+Africa_Eastern,UnmanagedLand,GrasslandFires_LChad,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_OrangeR,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstSW,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_AfrIntS,1975,-3
@@ -1681,7 +1686,7 @@ Europe_Eastern,UnmanagedLand,GrasslandFires_DnieperR,1975,-3
 Europe_Eastern,UnmanagedLand,GrasslandFires_BlackSeaN,1975,-3
 Europe_Eastern,UnmanagedLand,GrasslandFires_DniesterR,1975,-3
 Europe_Eastern,UnmanagedLand,GrasslandFires_DonR,1975,-3
-Africa_Eastern,UnmanagedLand,GrasslandFires_RiftValley,1975,-3
+Europe_Eastern,UnmanagedLand,GrasslandFires_DanubeR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_CongoR,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_NileR,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_GuineaGulf,1975,-3
@@ -1689,11 +1694,10 @@ Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstE,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_RiftValley,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_AngolaCst,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_CongoR,1975,-3
-India,UnmanagedLand,GrasslandFires_MahanadiR,1975,-3
-India,UnmanagedLand,GrasslandFires_GodavariR,1975,-3
+Africa_Southern,UnmanagedLand,GrasslandFires_ZambeziR,1975,-3
+Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstSE,1975,-3
 India,UnmanagedLand,GrasslandFires_IndCstNE,1975,-3
 India,UnmanagedLand,GrasslandFires_IndCstW,1975,-3
-India,UnmanagedLand,GrasslandFires_IrrawaddyR,1975,-3
 India,UnmanagedLand,GrasslandFires_KrishnaR,1975,-3
 India,UnmanagedLand,GrasslandFires_IndCstE,1975,-3
 India,UnmanagedLand,GrasslandFires_PennarR,1975,-3
@@ -1752,8 +1756,9 @@ South America_Northern,UnmanagedLand,GrasslandFires_SAmerCstN,1975,-3
 South America_Northern,UnmanagedLand,GrasslandFires_OrinocoR,1975,-3
 South America_Northern,UnmanagedLand,GrasslandFires_SAmerCstNE,1975,-3
 South America_Northern,UnmanagedLand,GrasslandFires_MagdalenaR,1975,-3
-South America_Southern,UnmanagedLand,GrasslandFires_OrinocoR,1975,-3
+South America_Northern,UnmanagedLand,GrasslandFires_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_ColEcuaCst,1975,-3
+South America_Southern,UnmanagedLand,GrasslandFires_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_ChileCstS,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_PeruCst,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_BrzCstS,1975,-3
@@ -1802,7 +1807,7 @@ Colombia,UnmanagedLand,GrasslandFires_SAmerCstN,1975,-3
 Colombia,UnmanagedLand,GrasslandFires_OrinocoR,1975,-3
 Colombia,UnmanagedLand,GrasslandFires_ColEcuaCst,1975,-3
 Colombia,UnmanagedLand,GrasslandFires_MagdalenaR,1975,-3
-Europe_Eastern,UnmanagedLand,GrasslandFires_DanubeR,1975,-3
+Colombia,UnmanagedLand,GrasslandFires_AmazonR,1975,-3
 India,UnmanagedLand,GrasslandFires_IndusR,1975,-3
 India,UnmanagedLand,GrasslandFires_SabarmatiR,1975,-3
 India,UnmanagedLand,GrasslandFires_GangesR,1975,-3
@@ -1810,11 +1815,14 @@ India,UnmanagedLand,GrasslandFires_MahiR,1975,-3
 India,UnmanagedLand,GrasslandFires_TaptiR,1975,-3
 India,UnmanagedLand,GrasslandFires_BengalW,1975,-3
 India,UnmanagedLand,GrasslandFires_BrahmaniR,1975,-3
+India,UnmanagedLand,GrasslandFires_MahanadiR,1975,-3
+India,UnmanagedLand,GrasslandFires_GodavariR,1975,-3
+Central Asia,UnmanagedLand,ForestFire_ObR,1975,-3
+Central Asia,UnmanagedLand,ForestFire_AmuDaryaR,1975,-3
 Central Asia,UnmanagedLand,ForestFire_LBalkash,1975,-3
 Central Asia,UnmanagedLand,ForestFire_BlackSeaS,1975,-3
 Central Asia,UnmanagedLand,ForestFire_CaspianSW,1975,-3
 Central Asia,UnmanagedLand,ForestFire_SyrDaryaR,1975,-3
-Central Asia,UnmanagedLand,ForestFire_Tarim,1975,-3
 China,UnmanagedLand,ForestFire_RusCstSE,1975,-3
 China,UnmanagedLand,ForestFire_Gobi,1975,-3
 China,UnmanagedLand,ForestFire_AmurR,1975,-3
@@ -1840,6 +1848,7 @@ India,UnmanagedLand,ForestFire_SabarmatiR,1975,-3
 USA,UnmanagedLand,ForestFire_PacArctic,1975,-3
 USA,UnmanagedLand,ForestFire_NelsonR,1975,-3
 USA,UnmanagedLand,ForestFire_FraserR,1975,-3
+USA,UnmanagedLand,ForestFire_MexCstNW,1975,-3
 USA,UnmanagedLand,ForestFire_Caribbean,1975,-3
 USA,UnmanagedLand,ForestFire_California,1975,-3
 USA,UnmanagedLand,ForestFire_MissppRN,1975,-3
@@ -1929,8 +1938,7 @@ Central Asia,UnmanagedLand,ForestFire_AmurR,1975,-3
 Central Asia,UnmanagedLand,ForestFire_CaspianNE,1975,-3
 Central Asia,UnmanagedLand,ForestFire_BlackSeaN,1975,-3
 Central Asia,UnmanagedLand,ForestFire_YeniseiR,1975,-3
-Central Asia,UnmanagedLand,ForestFire_ObR,1975,-3
-Central Asia,UnmanagedLand,ForestFire_AmuDaryaR,1975,-3
+Southeast Asia,UnmanagedLand,ForestFire_Hong,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_GangesR,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_SChinaSea,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_BengalBay,1975,-3
@@ -1975,7 +1983,6 @@ India,UnmanagedLand,ForestFire_PennarR,1975,-3
 India,UnmanagedLand,ForestFire_CauveryR,1975,-3
 India,UnmanagedLand,ForestFire_IndCstS,1975,-3
 India,UnmanagedLand,ForestFire_NarmadaR,1975,-3
-Indonesia,UnmanagedLand,ForestFire_MalaysiaP,1975,-3
 Indonesia,UnmanagedLand,ForestFire_IdnE,1975,-3
 Indonesia,UnmanagedLand,ForestFire_BorneoCstN,1975,-3
 Indonesia,UnmanagedLand,ForestFire_Sumatra,1975,-3
@@ -2038,8 +2045,9 @@ South America_Northern,UnmanagedLand,ForestFire_SAmerCstN,1975,-3
 South America_Northern,UnmanagedLand,ForestFire_OrinocoR,1975,-3
 South America_Northern,UnmanagedLand,ForestFire_SAmerCstNE,1975,-3
 South America_Northern,UnmanagedLand,ForestFire_MagdalenaR,1975,-3
-South America_Southern,UnmanagedLand,ForestFire_OrinocoR,1975,-3
+South America_Northern,UnmanagedLand,ForestFire_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_ColEcuaCst,1975,-3
+South America_Southern,UnmanagedLand,ForestFire_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_ChileCstS,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_PeruCst,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_LaPuna,1975,-3
@@ -2051,20 +2059,21 @@ Southeast Asia,UnmanagedLand,ForestFire_RusCstSE,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_Korea,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_BoHai,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_XunJiang,1975,-3
-Southeast Asia,UnmanagedLand,ForestFire_Hong,1975,-3
+Argentina,UnmanagedLand,ForestFire_Patagonia,1975,-3
 Argentina,UnmanagedLand,ForestFire_ArgCstS,1975,-3
 Argentina,UnmanagedLand,ForestFire_ArgColoR,1975,-3
 Argentina,UnmanagedLand,ForestFire_NegroR,1975,-3
-Argentina,UnmanagedLand,ForestFire_Patagonia,1975,-3
+Colombia,UnmanagedLand,ForestFire_ColEcuaCst,1975,-3
 Colombia,UnmanagedLand,ForestFire_MagdalenaR,1975,-3
 Colombia,UnmanagedLand,ForestFire_SAmerCstN,1975,-3
 Colombia,UnmanagedLand,ForestFire_OrinocoR,1975,-3
-Colombia,UnmanagedLand,ForestFire_ColEcuaCst,1975,-3
+Colombia,UnmanagedLand,ForestFire_AmazonR,1975,-3
+Central Asia,UnmanagedLand,Deforest_ObR,1975,-3
+Central Asia,UnmanagedLand,Deforest_AmuDaryaR,1975,-3
 Central Asia,UnmanagedLand,Deforest_LBalkash,1975,-3
 Central Asia,UnmanagedLand,Deforest_BlackSeaS,1975,-3
 Central Asia,UnmanagedLand,Deforest_CaspianSW,1975,-3
 Central Asia,UnmanagedLand,Deforest_SyrDaryaR,1975,-3
-Central Asia,UnmanagedLand,Deforest_Tarim,1975,-3
 China,UnmanagedLand,Deforest_RusCstSE,1975,-3
 China,UnmanagedLand,Deforest_Gobi,1975,-3
 China,UnmanagedLand,Deforest_AmurR,1975,-3
@@ -2090,6 +2099,7 @@ India,UnmanagedLand,Deforest_SabarmatiR,1975,-3
 USA,UnmanagedLand,Deforest_PacArctic,1975,-3
 USA,UnmanagedLand,Deforest_NelsonR,1975,-3
 USA,UnmanagedLand,Deforest_FraserR,1975,-3
+USA,UnmanagedLand,Deforest_MexCstNW,1975,-3
 USA,UnmanagedLand,Deforest_Caribbean,1975,-3
 USA,UnmanagedLand,Deforest_California,1975,-3
 USA,UnmanagedLand,Deforest_MissppRN,1975,-3
@@ -2179,8 +2189,7 @@ Central Asia,UnmanagedLand,Deforest_AmurR,1975,-3
 Central Asia,UnmanagedLand,Deforest_CaspianNE,1975,-3
 Central Asia,UnmanagedLand,Deforest_BlackSeaN,1975,-3
 Central Asia,UnmanagedLand,Deforest_YeniseiR,1975,-3
-Central Asia,UnmanagedLand,Deforest_ObR,1975,-3
-Central Asia,UnmanagedLand,Deforest_AmuDaryaR,1975,-3
+Southeast Asia,UnmanagedLand,Deforest_Hong,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_GangesR,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_SChinaSea,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_BengalBay,1975,-3
@@ -2225,7 +2234,6 @@ India,UnmanagedLand,Deforest_PennarR,1975,-3
 India,UnmanagedLand,Deforest_CauveryR,1975,-3
 India,UnmanagedLand,Deforest_IndCstS,1975,-3
 India,UnmanagedLand,Deforest_NarmadaR,1975,-3
-Indonesia,UnmanagedLand,Deforest_MalaysiaP,1975,-3
 Indonesia,UnmanagedLand,Deforest_IdnE,1975,-3
 Indonesia,UnmanagedLand,Deforest_BorneoCstN,1975,-3
 Indonesia,UnmanagedLand,Deforest_Sumatra,1975,-3
@@ -2288,8 +2296,9 @@ South America_Northern,UnmanagedLand,Deforest_SAmerCstN,1975,-3
 South America_Northern,UnmanagedLand,Deforest_OrinocoR,1975,-3
 South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,1975,-3
 South America_Northern,UnmanagedLand,Deforest_MagdalenaR,1975,-3
-South America_Southern,UnmanagedLand,Deforest_OrinocoR,1975,-3
+South America_Northern,UnmanagedLand,Deforest_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,1975,-3
+South America_Southern,UnmanagedLand,Deforest_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,Deforest_ChileCstS,1975,-3
 South America_Southern,UnmanagedLand,Deforest_PeruCst,1975,-3
 South America_Southern,UnmanagedLand,Deforest_LaPuna,1975,-3
@@ -2301,22 +2310,21 @@ Southeast Asia,UnmanagedLand,Deforest_RusCstSE,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_Korea,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_BoHai,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_XunJiang,1975,-3
-Southeast Asia,UnmanagedLand,Deforest_Hong,1975,-3
+Argentina,UnmanagedLand,Deforest_Patagonia,1975,-3
 Argentina,UnmanagedLand,Deforest_ArgCstS,1975,-3
 Argentina,UnmanagedLand,Deforest_ArgColoR,1975,-3
 Argentina,UnmanagedLand,Deforest_NegroR,1975,-3
-Argentina,UnmanagedLand,Deforest_Patagonia,1975,-3
+Colombia,UnmanagedLand,Deforest_ColEcuaCst,1975,-3
 Colombia,UnmanagedLand,Deforest_MagdalenaR,1975,-3
 Colombia,UnmanagedLand,Deforest_SAmerCstN,1975,-3
 Colombia,UnmanagedLand,Deforest_OrinocoR,1975,-3
-Colombia,UnmanagedLand,Deforest_ColEcuaCst,1975,-3
+Colombia,UnmanagedLand,Deforest_AmazonR,1975,-3
 USA,UnmanagedLand,GrasslandFires_PacArctic,1975,-3
-USA,UnmanagedLand,GrasslandFires_GreatBasin,1975,-3
-USA,UnmanagedLand,GrasslandFires_MissouriR,1975,-3
+USA,UnmanagedLand,GrasslandFires_NelsonR,1975,-3
 USA,UnmanagedLand,GrasslandFires_ArkWhtRedR,1975,-3
 USA,UnmanagedLand,GrasslandFires_TexasCst,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaCstSE,1975,-3
-USA,UnmanagedLand,GrasslandFires_NelsonR,1975,-3
+USA,UnmanagedLand,GrasslandFires_GreatLakes,1975,-3
 USA,UnmanagedLand,GrasslandFires_MexCstNW,1975,-3
 USA,UnmanagedLand,GrasslandFires_Caribbean,1975,-3
 USA,UnmanagedLand,GrasslandFires_California,1975,-3
@@ -2324,12 +2332,12 @@ USA,UnmanagedLand,GrasslandFires_MissppRN,1975,-3
 USA,UnmanagedLand,GrasslandFires_MissppRS,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaColoRN,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaColoRS,1975,-3
-Africa_Eastern,UnmanagedLand,GrasslandFires_AfrIntN,1975,-3
-Africa_Eastern,UnmanagedLand,GrasslandFires_LChad,1975,-3
+USA,UnmanagedLand,GrasslandFires_GreatBasin,1975,-3
+USA,UnmanagedLand,GrasslandFires_MissouriR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_ShebJubR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_AfrCstE,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_Madasgacar,1975,-3
-USA,UnmanagedLand,GrasslandFires_GreatLakes,1975,-3
+Africa_Eastern,UnmanagedLand,GrasslandFires_RiftValley,1975,-3
 USA,UnmanagedLand,GrasslandFires_OhioR,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaPacNW,1975,-3
 USA,UnmanagedLand,GrasslandFires_TennR,1975,-3
@@ -2337,8 +2345,8 @@ USA,UnmanagedLand,GrasslandFires_RioGrande,1975,-3
 USA,UnmanagedLand,GrasslandFires_UsaCstE,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_NileR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_AfrCstNE,1975,-3
-Africa_Southern,UnmanagedLand,GrasslandFires_ZambeziR,1975,-3
-Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstSE,1975,-3
+Africa_Eastern,UnmanagedLand,GrasslandFires_AfrIntN,1975,-3
+Africa_Eastern,UnmanagedLand,GrasslandFires_LChad,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_OrangeR,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstSW,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_AfrIntS,1975,-3
@@ -2450,7 +2458,7 @@ Europe_Eastern,UnmanagedLand,GrasslandFires_DnieperR,1975,-3
 Europe_Eastern,UnmanagedLand,GrasslandFires_BlackSeaN,1975,-3
 Europe_Eastern,UnmanagedLand,GrasslandFires_DniesterR,1975,-3
 Europe_Eastern,UnmanagedLand,GrasslandFires_DonR,1975,-3
-Africa_Eastern,UnmanagedLand,GrasslandFires_RiftValley,1975,-3
+Europe_Eastern,UnmanagedLand,GrasslandFires_DanubeR,1975,-3
 Africa_Eastern,UnmanagedLand,GrasslandFires_CongoR,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_NileR,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_GuineaGulf,1975,-3
@@ -2458,11 +2466,10 @@ Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstE,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_RiftValley,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_AngolaCst,1975,-3
 Africa_Southern,UnmanagedLand,GrasslandFires_CongoR,1975,-3
-India,UnmanagedLand,GrasslandFires_MahanadiR,1975,-3
-India,UnmanagedLand,GrasslandFires_GodavariR,1975,-3
+Africa_Southern,UnmanagedLand,GrasslandFires_ZambeziR,1975,-3
+Africa_Southern,UnmanagedLand,GrasslandFires_AfrCstSE,1975,-3
 India,UnmanagedLand,GrasslandFires_IndCstNE,1975,-3
 India,UnmanagedLand,GrasslandFires_IndCstW,1975,-3
-India,UnmanagedLand,GrasslandFires_IrrawaddyR,1975,-3
 India,UnmanagedLand,GrasslandFires_KrishnaR,1975,-3
 India,UnmanagedLand,GrasslandFires_IndCstE,1975,-3
 India,UnmanagedLand,GrasslandFires_PennarR,1975,-3
@@ -2521,8 +2528,9 @@ South America_Northern,UnmanagedLand,GrasslandFires_SAmerCstN,1975,-3
 South America_Northern,UnmanagedLand,GrasslandFires_OrinocoR,1975,-3
 South America_Northern,UnmanagedLand,GrasslandFires_SAmerCstNE,1975,-3
 South America_Northern,UnmanagedLand,GrasslandFires_MagdalenaR,1975,-3
-South America_Southern,UnmanagedLand,GrasslandFires_OrinocoR,1975,-3
+South America_Northern,UnmanagedLand,GrasslandFires_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_ColEcuaCst,1975,-3
+South America_Southern,UnmanagedLand,GrasslandFires_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_ChileCstS,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_PeruCst,1975,-3
 South America_Southern,UnmanagedLand,GrasslandFires_BrzCstS,1975,-3
@@ -2571,7 +2579,7 @@ Colombia,UnmanagedLand,GrasslandFires_SAmerCstN,1975,-3
 Colombia,UnmanagedLand,GrasslandFires_OrinocoR,1975,-3
 Colombia,UnmanagedLand,GrasslandFires_ColEcuaCst,1975,-3
 Colombia,UnmanagedLand,GrasslandFires_MagdalenaR,1975,-3
-Europe_Eastern,UnmanagedLand,GrasslandFires_DanubeR,1975,-3
+Colombia,UnmanagedLand,GrasslandFires_AmazonR,1975,-3
 India,UnmanagedLand,GrasslandFires_IndusR,1975,-3
 India,UnmanagedLand,GrasslandFires_SabarmatiR,1975,-3
 India,UnmanagedLand,GrasslandFires_GangesR,1975,-3
@@ -2579,11 +2587,14 @@ India,UnmanagedLand,GrasslandFires_MahiR,1975,-3
 India,UnmanagedLand,GrasslandFires_TaptiR,1975,-3
 India,UnmanagedLand,GrasslandFires_BengalW,1975,-3
 India,UnmanagedLand,GrasslandFires_BrahmaniR,1975,-3
+India,UnmanagedLand,GrasslandFires_MahanadiR,1975,-3
+India,UnmanagedLand,GrasslandFires_GodavariR,1975,-3
+Central Asia,UnmanagedLand,ForestFire_ObR,1975,-3
+Central Asia,UnmanagedLand,ForestFire_AmuDaryaR,1975,-3
 Central Asia,UnmanagedLand,ForestFire_LBalkash,1975,-3
 Central Asia,UnmanagedLand,ForestFire_BlackSeaS,1975,-3
 Central Asia,UnmanagedLand,ForestFire_CaspianSW,1975,-3
 Central Asia,UnmanagedLand,ForestFire_SyrDaryaR,1975,-3
-Central Asia,UnmanagedLand,ForestFire_Tarim,1975,-3
 China,UnmanagedLand,ForestFire_RusCstSE,1975,-3
 China,UnmanagedLand,ForestFire_Gobi,1975,-3
 China,UnmanagedLand,ForestFire_AmurR,1975,-3
@@ -2609,6 +2620,7 @@ India,UnmanagedLand,ForestFire_SabarmatiR,1975,-3
 USA,UnmanagedLand,ForestFire_PacArctic,1975,-3
 USA,UnmanagedLand,ForestFire_NelsonR,1975,-3
 USA,UnmanagedLand,ForestFire_FraserR,1975,-3
+USA,UnmanagedLand,ForestFire_MexCstNW,1975,-3
 USA,UnmanagedLand,ForestFire_Caribbean,1975,-3
 USA,UnmanagedLand,ForestFire_California,1975,-3
 USA,UnmanagedLand,ForestFire_MissppRN,1975,-3
@@ -2698,8 +2710,7 @@ Central Asia,UnmanagedLand,ForestFire_AmurR,1975,-3
 Central Asia,UnmanagedLand,ForestFire_CaspianNE,1975,-3
 Central Asia,UnmanagedLand,ForestFire_BlackSeaN,1975,-3
 Central Asia,UnmanagedLand,ForestFire_YeniseiR,1975,-3
-Central Asia,UnmanagedLand,ForestFire_ObR,1975,-3
-Central Asia,UnmanagedLand,ForestFire_AmuDaryaR,1975,-3
+Southeast Asia,UnmanagedLand,ForestFire_Hong,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_GangesR,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_SChinaSea,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_BengalBay,1975,-3
@@ -2744,7 +2755,6 @@ India,UnmanagedLand,ForestFire_PennarR,1975,-3
 India,UnmanagedLand,ForestFire_CauveryR,1975,-3
 India,UnmanagedLand,ForestFire_IndCstS,1975,-3
 India,UnmanagedLand,ForestFire_NarmadaR,1975,-3
-Indonesia,UnmanagedLand,ForestFire_MalaysiaP,1975,-3
 Indonesia,UnmanagedLand,ForestFire_IdnE,1975,-3
 Indonesia,UnmanagedLand,ForestFire_BorneoCstN,1975,-3
 Indonesia,UnmanagedLand,ForestFire_Sumatra,1975,-3
@@ -2807,8 +2817,9 @@ South America_Northern,UnmanagedLand,ForestFire_SAmerCstN,1975,-3
 South America_Northern,UnmanagedLand,ForestFire_OrinocoR,1975,-3
 South America_Northern,UnmanagedLand,ForestFire_SAmerCstNE,1975,-3
 South America_Northern,UnmanagedLand,ForestFire_MagdalenaR,1975,-3
-South America_Southern,UnmanagedLand,ForestFire_OrinocoR,1975,-3
+South America_Northern,UnmanagedLand,ForestFire_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_ColEcuaCst,1975,-3
+South America_Southern,UnmanagedLand,ForestFire_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_ChileCstS,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_PeruCst,1975,-3
 South America_Southern,UnmanagedLand,ForestFire_LaPuna,1975,-3
@@ -2820,20 +2831,21 @@ Southeast Asia,UnmanagedLand,ForestFire_RusCstSE,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_Korea,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_BoHai,1975,-3
 Southeast Asia,UnmanagedLand,ForestFire_XunJiang,1975,-3
-Southeast Asia,UnmanagedLand,ForestFire_Hong,1975,-3
+Argentina,UnmanagedLand,ForestFire_Patagonia,1975,-3
 Argentina,UnmanagedLand,ForestFire_ArgCstS,1975,-3
 Argentina,UnmanagedLand,ForestFire_ArgColoR,1975,-3
 Argentina,UnmanagedLand,ForestFire_NegroR,1975,-3
-Argentina,UnmanagedLand,ForestFire_Patagonia,1975,-3
+Colombia,UnmanagedLand,ForestFire_ColEcuaCst,1975,-3
 Colombia,UnmanagedLand,ForestFire_MagdalenaR,1975,-3
 Colombia,UnmanagedLand,ForestFire_SAmerCstN,1975,-3
 Colombia,UnmanagedLand,ForestFire_OrinocoR,1975,-3
-Colombia,UnmanagedLand,ForestFire_ColEcuaCst,1975,-3
+Colombia,UnmanagedLand,ForestFire_AmazonR,1975,-3
+Central Asia,UnmanagedLand,Deforest_ObR,1975,-3
+Central Asia,UnmanagedLand,Deforest_AmuDaryaR,1975,-3
 Central Asia,UnmanagedLand,Deforest_LBalkash,1975,-3
 Central Asia,UnmanagedLand,Deforest_BlackSeaS,1975,-3
 Central Asia,UnmanagedLand,Deforest_CaspianSW,1975,-3
 Central Asia,UnmanagedLand,Deforest_SyrDaryaR,1975,-3
-Central Asia,UnmanagedLand,Deforest_Tarim,1975,-3
 China,UnmanagedLand,Deforest_RusCstSE,1975,-3
 China,UnmanagedLand,Deforest_Gobi,1975,-3
 China,UnmanagedLand,Deforest_AmurR,1975,-3
@@ -2859,6 +2871,7 @@ India,UnmanagedLand,Deforest_SabarmatiR,1975,-3
 USA,UnmanagedLand,Deforest_PacArctic,1975,-3
 USA,UnmanagedLand,Deforest_NelsonR,1975,-3
 USA,UnmanagedLand,Deforest_FraserR,1975,-3
+USA,UnmanagedLand,Deforest_MexCstNW,1975,-3
 USA,UnmanagedLand,Deforest_Caribbean,1975,-3
 USA,UnmanagedLand,Deforest_California,1975,-3
 USA,UnmanagedLand,Deforest_MissppRN,1975,-3
@@ -2948,8 +2961,7 @@ Central Asia,UnmanagedLand,Deforest_AmurR,1975,-3
 Central Asia,UnmanagedLand,Deforest_CaspianNE,1975,-3
 Central Asia,UnmanagedLand,Deforest_BlackSeaN,1975,-3
 Central Asia,UnmanagedLand,Deforest_YeniseiR,1975,-3
-Central Asia,UnmanagedLand,Deforest_ObR,1975,-3
-Central Asia,UnmanagedLand,Deforest_AmuDaryaR,1975,-3
+Southeast Asia,UnmanagedLand,Deforest_Hong,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_GangesR,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_SChinaSea,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_BengalBay,1975,-3
@@ -2994,7 +3006,6 @@ India,UnmanagedLand,Deforest_PennarR,1975,-3
 India,UnmanagedLand,Deforest_CauveryR,1975,-3
 India,UnmanagedLand,Deforest_IndCstS,1975,-3
 India,UnmanagedLand,Deforest_NarmadaR,1975,-3
-Indonesia,UnmanagedLand,Deforest_MalaysiaP,1975,-3
 Indonesia,UnmanagedLand,Deforest_IdnE,1975,-3
 Indonesia,UnmanagedLand,Deforest_BorneoCstN,1975,-3
 Indonesia,UnmanagedLand,Deforest_Sumatra,1975,-3
@@ -3057,8 +3068,9 @@ South America_Northern,UnmanagedLand,Deforest_SAmerCstN,1975,-3
 South America_Northern,UnmanagedLand,Deforest_OrinocoR,1975,-3
 South America_Northern,UnmanagedLand,Deforest_SAmerCstNE,1975,-3
 South America_Northern,UnmanagedLand,Deforest_MagdalenaR,1975,-3
-South America_Southern,UnmanagedLand,Deforest_OrinocoR,1975,-3
+South America_Northern,UnmanagedLand,Deforest_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,Deforest_ColEcuaCst,1975,-3
+South America_Southern,UnmanagedLand,Deforest_AmazonR,1975,-3
 South America_Southern,UnmanagedLand,Deforest_ChileCstS,1975,-3
 South America_Southern,UnmanagedLand,Deforest_PeruCst,1975,-3
 South America_Southern,UnmanagedLand,Deforest_LaPuna,1975,-3
@@ -3070,12 +3082,12 @@ Southeast Asia,UnmanagedLand,Deforest_RusCstSE,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_Korea,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_BoHai,1975,-3
 Southeast Asia,UnmanagedLand,Deforest_XunJiang,1975,-3
-Southeast Asia,UnmanagedLand,Deforest_Hong,1975,-3
+Argentina,UnmanagedLand,Deforest_Patagonia,1975,-3
 Argentina,UnmanagedLand,Deforest_ArgCstS,1975,-3
 Argentina,UnmanagedLand,Deforest_ArgColoR,1975,-3
 Argentina,UnmanagedLand,Deforest_NegroR,1975,-3
-Argentina,UnmanagedLand,Deforest_Patagonia,1975,-3
+Colombia,UnmanagedLand,Deforest_ColEcuaCst,1975,-3
 Colombia,UnmanagedLand,Deforest_MagdalenaR,1975,-3
 Colombia,UnmanagedLand,Deforest_SAmerCstN,1975,-3
 Colombia,UnmanagedLand,Deforest_OrinocoR,1975,-3
-Colombia,UnmanagedLand,Deforest_ColEcuaCst,1975,-3
+Colombia,UnmanagedLand,Deforest_AmazonR,1975,-3
