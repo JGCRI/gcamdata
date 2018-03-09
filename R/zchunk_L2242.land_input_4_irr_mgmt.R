@@ -14,7 +14,6 @@
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
-#' @export
 #' @author RC August 2017
 module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {

@@ -213,7 +213,7 @@ module_gcam.usa_L222.en_transformation_USA <- function(command, ...) {
 
     # select only relevant columns for L222.Tech_USAen, particularly dropping state
     L222.Tech_USAen %>%
-      select(one_of(LEVEL2_DATA_NAMES[["Tech"]])) ->
+      select(LEVEL2_DATA_NAMES[["Tech"]]) ->
       L222.Tech_USAen
 
 
@@ -247,7 +247,7 @@ module_gcam.usa_L222.en_transformation_USA <- function(command, ...) {
 
     # L222.TechCoef_USAen: technology coefficients and market names, USA region
     L222.TechShrwt_USAen %>%
-      select(one_of(LEVEL2_DATA_NAMES[["TechYr"]])) %>%
+      select(LEVEL2_DATA_NAMES[["TechYr"]]) %>%
       mutate(minicam.energy.input = subsector,
              coefficient = 1,
              market.name = technology) %>%
@@ -276,7 +276,7 @@ module_gcam.usa_L222.en_transformation_USA <- function(command, ...) {
         set_subsector_shrwt %>%
         # The following line is equivalent to (but slightly faster than): mutate(tech.share.weight = if_else(calOutputValue == 0, 0, 1)) %>%
         mutate(tech.share.weight = abs(sign(calOutputValue))) %>%
-        select(one_of(LEVEL2_DATA_NAMES[["Production"]])) ->
+        select(LEVEL2_DATA_NAMES[["Production"]]) ->
         L222.Production_USArefining
 
 
@@ -302,14 +302,14 @@ module_gcam.usa_L222.en_transformation_USA <- function(command, ...) {
 
       # L222.Supplysector_en_USA: Supplysector information, replace name of supplysector with the subsector names
       L222.SubsectorLogit_en_USA %>%
-        select(one_of(LEVEL2_DATA_NAMES[["Subsector"]])) %>%
+        select(LEVEL2_DATA_NAMES[["Subsector"]]) %>%
         left_join_error_no_match(distinct(select(L222.SubsectorLogit_en, supplysector, subsector)),
                                  by = "subsector") %>%
         rename(supplysector = supplysector.x,
                old_supplysector = supplysector.y) %>%
         left_join_error_no_match(distinct(select(L222.Supplysector_en, -region)),
                                  by = c("old_supplysector" = "supplysector")) %>%
-        select(one_of(LEVEL2_DATA_NAMES[["Supplysector"]])) ->
+        select(LEVEL2_DATA_NAMES[["Supplysector"]]) ->
         L222.Supplysector_en_USA
 
 
@@ -322,7 +322,7 @@ module_gcam.usa_L222.en_transformation_USA <- function(command, ...) {
       # L222.SubsectorShrwtFllt_en_USA: Subsector shareweights, there is no competition here, so just fill out with 1s
       # (will be over-ridden by base year calibration where necessary)
       L222.SubsectorLogit_en_USA %>%
-        select(one_of(LEVEL2_DATA_NAMES[["Subsector"]])) %>%
+        select(LEVEL2_DATA_NAMES[["Subsector"]]) %>%
         mutate(year = min(MODEL_YEARS),
                share.weight = gcamusa.DEFAULT_SHAREWEIGHT) ->
         L222.SubsectorShrwtFllt_en_USA
@@ -351,7 +351,7 @@ module_gcam.usa_L222.en_transformation_USA <- function(command, ...) {
                share.weight.year = year) %>%
         set_subsector_shrwt() %>%
         mutate(tech.share.weight = if_else(calOutputValue > 0, 1, 0)) %>%
-        select(one_of(LEVEL2_DATA_NAMES[["StubTechProd"]])) %>%
+        select(LEVEL2_DATA_NAMES[["StubTechProd"]]) %>%
         filter((subsector == "oil refining" & region %in% oil_refining_states) |
                  subsector != "oil refining") ->
         L222.StubTechProd_refining_USA
@@ -359,7 +359,7 @@ module_gcam.usa_L222.en_transformation_USA <- function(command, ...) {
 
       # L222.StubTechMarket_en_USA: market names of inputs to state refining sectors
       L222.GlobalTechCoef_en_USA %>%
-        select(one_of(LEVEL2_DATA_NAMES[["GlobalTechInput"]])) %>%
+        select(LEVEL2_DATA_NAMES[["GlobalTechInput"]]) %>%
         repeat_add_columns(tibble(region = gcamusa.STATES)) %>%
         rename(supplysector = sector.name,
                subsector = subsector.name,
@@ -400,7 +400,7 @@ module_gcam.usa_L222.en_transformation_USA <- function(command, ...) {
       L222.StubTechMarket_en_USA %>%
         filter(!(minicam.energy.input %in% gcamusa.ELECT_TD_SECTORS)) %>%
         bind_rows(tmp) %>%
-        select(one_of(LEVEL2_DATA_NAMES[["StubTechMarket"]])) %>%
+        select(LEVEL2_DATA_NAMES[["StubTechMarket"]]) %>%
         unite(key, supplysector, subsector, stub.technology, sep = "~") %>%
         filter(key %in% L222.StubTech_en_USA_key$key) %>%
         separate(key, c("supplysector", "subsector", "stub.technology"), sep = "~") %>%

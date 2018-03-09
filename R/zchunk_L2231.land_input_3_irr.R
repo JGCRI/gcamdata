@@ -315,7 +315,7 @@ module_aglu_L2231.land_input_3_irr <- function(command, ...) {
              logit.year.fillout = min(BASE_YEARS),
              logit.exponent = aglu.LN1_PROTUNMGD_LOGIT_EXP,
              logit.type = aglu.LN1_PROTUNMGD_LOGIT_TYPE) %>%
-      select(one_of(c(LEVEL2_DATA_NAMES[["LN1_ValueLogit"]], "logit.type"))) ->
+      select(c(LEVEL2_DATA_NAMES[["LN1_ValueLogit"]], "logit.type")) ->
       L223.LN1_Logit_prot
 
 

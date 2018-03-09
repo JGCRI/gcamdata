@@ -32,7 +32,6 @@
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
 #' @author ACS September 2017
-#' @export
 module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "common/GCAM_region_names",
@@ -183,7 +182,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       L2252.LN5_Logit
 
 
-    # create an intermediary table of land allocation for each landleaf (= crop-glu-irr-mgmt)
+    # Create an intermediary table of land allocation for each landleaf (= crop-glu-irr-mgmt)
     # in each region-year. This is used for both HistMgdAllocation and MgdAllocation for crops.
     L181.LC_bm2_R_C_Yh_GLU_irr_level %>%
       mutate(Irr_Rfd = toupper(Irr_Rfd),
@@ -310,7 +309,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
              LandNode4 = paste(GCAM_commodity, GLU, sep = "_"),
              LandNode5 = paste(LandNode4, Irr_Rfd, sep = "_"),
              LandLeaf = paste(LandNode5, level, sep = "_")) %>%
-      select(one_of(c(LEVEL2_DATA_NAMES[["LN5_MgdCarbon"]], "GLU", "Irr_Rfd", "level"))) ->
+      select(c(LEVEL2_DATA_NAMES[["LN5_MgdCarbon"]], "GLU", "Irr_Rfd", "level")) ->
       L2252.LN5_MgdCarbon_bio
 
     # L2252.LN5_LeafGhostShare: Ghost share of the new landleaf (lo-input versus hi-input)
@@ -338,7 +337,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       select(-landshare) %>%
       # For bio techs with no ghost share info, set lo- and hi-input techs to 0.5
       replace_na(replace = list(ghost.unnormalized.share = 0.5)) %>%
-      select(one_of(c(LEVEL2_DATA_NAMES[["LN5_LeafGhostShare"]], "GLU", "Irr_Rfd", "level"))) ->
+      select(c(LEVEL2_DATA_NAMES[["LN5_LeafGhostShare"]], "GLU", "Irr_Rfd", "level")) ->
       L2252.LN5_LeafGhostShare
 
     # Calculate share of irrigated vs rainfed land
@@ -376,7 +375,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       # For bio techs with no ghost share info, set irr to 0 and rfd to 1
       mutate(ghost.unnormalized.share = if_else(is.na(ghost.unnormalized.share) & Irr_Rfd == "RFD", 1, ghost.unnormalized.share)) %>%
       mutate(ghost.unnormalized.share = if_else(is.na(ghost.unnormalized.share) & Irr_Rfd == "IRR", 0, ghost.unnormalized.share)) %>%
-      select(one_of(c(LEVEL2_DATA_NAMES[["LN5_NodeGhostShare"]]))) ->
+      select(c(LEVEL2_DATA_NAMES[["LN5_NodeGhostShare"]])) ->
       L2252.LN5_NodeGhostShare
 
     # Produce outputs
