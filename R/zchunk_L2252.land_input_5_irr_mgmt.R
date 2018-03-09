@@ -213,7 +213,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
     # in the fifth land nest ie for each crop-irr-mgmt combo in each region-glu-year.
     ALL_LAND_ALLOCATION %>%
       filter(!grepl("biomass_grass", LandLeaf) & !grepl("biomass_tree", LandLeaf)) %>%
-      filter(year %in% LAND_HISTORY_YEARS) ->
+      filter(year %in% aglu.LAND_HISTORY_YEARS) ->
       L2252.LN5_HistMgdAllocation_crop
 
     # L2252.LN5_MgdAllocation_crop: cropland allocation
@@ -227,7 +227,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
     # L2252.LN5_HistMgdAllocation_bio
     ALL_LAND_ALLOCATION %>%
       filter(grepl("biomass_grass", LandLeaf) | grepl("biomass_tree", LandLeaf)) %>%
-      filter(year %in% LAND_HISTORY_YEARS) ->
+      filter(year %in% aglu.LAND_HISTORY_YEARS) ->
       L2252.LN5_HistMgdAllocation_bio
 
     # L2252.LN5_MgdAllocation_bio
@@ -312,28 +312,6 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
              LandLeaf = paste(LandNode5, level, sep = "_")) %>%
       select(one_of(c(LEVEL2_DATA_NAMES[["LN5_MgdCarbon"]], "GLU", "Irr_Rfd", "level"))) ->
       L2252.LN5_MgdCarbon_bio
-
-    # The old data system starts from average bioenergy yields (not separated by hi/lo).
-    # It is supposed to multiply these yields by the ratio of hi/lo to average.
-    # However, due to an error in mapping, this doesn't happen. As a result, there is
-    # no difference in hist.veg.carbon.density for hi vs lo nests.
-    # Since we start from hi/lo yields here, we get the correct results. Here, we will
-    # reset them to the average in order to match the old data system.
-    if(OLD_DATA_SYSTEM_BEHAVIOR){
-      L2252.LN5_MgdCarbon_bio %>%
-        group_by(region, LandNode4) %>%
-        summarize(avg.veg.density = mean(hist.veg.carbon.density)) ->
-        AVERAGE_DENSITY
-
-      L2252.LN5_MgdCarbon_bio %>%
-        left_join(AVERAGE_DENSITY, by=c("region", "LandNode4")) %>%
-        mutate(hist.veg.carbon.density = avg.veg.density) %>%
-        # Round now so that the numbers will match better
-        mutate(hist.veg.carbon.density = round(hist.veg.carbon.density, aglu.DIGITS_C_DENSITY_CROP)) %>%
-        mutate(veg.carbon.density = hist.veg.carbon.density) %>%
-        select(-avg.veg.density) ->
-        L2252.LN5_MgdCarbon_bio
-    }
 
     # L2252.LN5_LeafGhostShare: Ghost share of the new landleaf (lo-input versus hi-input)
     # NOTE: The ghost shares are inferred from average land shares allocated to hi-input

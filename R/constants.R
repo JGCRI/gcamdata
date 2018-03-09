@@ -163,7 +163,7 @@ aglu.WEIGHT_COTTON_LINT <- 0.4
 # Alfalfa price source: USDA. 2011. Prices Received for Alfalfa Hay, Baled, Washington. National Agricultural Statistics Service, U.S. Department of Agriculture.
 # Grass price source: Baker, A., and H. Lutman. 2008. Feed Year in Review (Domestic): Record Demand Drives U.S. Feed Grain Prices Higher in 2007/2008.
 # FDS-2008-01, Economic Research Service, United States Department of Agriculture. Available at http://usda.mannlib.cornell.edu/usda/ers/FDS-yearbook/2000s/2008/FDS-yearbook-05-23-2008_Special_Report.pdf
-PRICERATIO_GRASS_ALFALFA <- 0.7
+aglu.PRICERATIO_GRASS_ALFALFA <- 0.7
 
 # NUMBERS OF DIGITS FOR MODEL INPUT DATA
 aglu.DIGITS_CALPRICE <- 4 # prices and costs
@@ -303,7 +303,7 @@ aglu.CROP_GLU_DELIMITER   <- "_"  # delimiter between the crop name and GLU name
 aglu.GLU_NDIGITS          <- 3    # number of digits in the geographic land unit identifier codes
 aglu.IRR_DELIMITER        <- "_"  # delimiter between the appended crop x GLU and irrigation level
 aglu.LT_GLU_DELIMITER     <-      # delimiter between the land use type name and GLU name. should be the same as the crop-glu delimiter
-  aglu.MGMT_DELIMITER       <- "_"  # delimiter between appended tech name and management level
+aglu.MGMT_DELIMITER       <- "_"  # delimiter between appended tech name and management level
 
 # AgLU digits constants to control the number of digits for rounding going into XMLs.
 aglu.DIGITS_AGPRODCHANGE  <- 4 # rate of change in yield values
