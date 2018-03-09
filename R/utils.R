@@ -504,7 +504,10 @@ normalize_files <- function(root = system.file("extdata", package = "gcamdata"),
 
     message("\tWriting...", appendLF = FALSE)
     ofile <- gsub("(\\.zip|\\.gz)$", "", files[f])
-    writeLines(txt, ofile)
+    # Open a binary connection because we want to ensure that \n is used as separator
+    con <- file(ofile, open = "wb")
+    writeLines(txt, ofile, sep = "\n")
+    close(con)
     message("OK")
 
     if(ofile != files[f]) {
