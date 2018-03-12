@@ -128,7 +128,7 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
       add_units("NA") %>%
       add_comments("Copy the nesting structure from L2242.LN4_NodeGhostShare") %>%
       add_comments("Set is.ghost.share.relative to 1") %>%
-      add_legacy_name("L2242.LN4_NodeIsGhostShareRel") %>%
+      add_legacy_name("L2242.LN4_GhostShareRelativeToDominantCrop") %>%
       same_precursors_as("L2242.LN4_NodeGhostShare") ->
       L2242.LN4_GhostShareRelativeToDominantCrop
 

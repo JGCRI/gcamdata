@@ -165,13 +165,6 @@ aglu.WEIGHT_COTTON_LINT <- 0.4
 # FDS-2008-01, Economic Research Service, United States Department of Agriculture. Available at http://usda.mannlib.cornell.edu/usda/ers/FDS-yearbook/2000s/2008/FDS-yearbook-05-23-2008_Special_Report.pdf
 aglu.PRICERATIO_GRASS_ALFALFA <- 0.7
 
-# NUMBERS OF DIGITS FOR MODEL INPUT DATA
-aglu.DIGITS_CALPRICE <- 4 # prices and costs
-aglu.DIGITS_CALOUTPUT <- 7 # production
-aglu.DIGITS_INCELAS <- 4 # food demand income elasticity
-aglu.DIGITS_AGPRODCHANGE <- 4 # rate of change in yield
-aglu.DIGITS_C_DENSITY_CROP <- 3 # cropland vegetative soil carbon content
-
 # Carbon content of all cellulose
 aglu.CCONTENT_CELLULOSE    <- 0.45
 
@@ -308,9 +301,11 @@ aglu.MGMT_DELIMITER       <- "_"  # delimiter between appended tech name and man
 # AgLU digits constants to control the number of digits for rounding going into XMLs.
 aglu.DIGITS_AGPRODCHANGE  <- 4 # rate of change in yield values
 aglu.DIGITS_C_DENSITY     <- 1
+aglu.DIGITS_C_DENSITY_CROP <- 3 # cropland vegetative soil carbon content
 aglu.DIGITS_CALOUTPUT     <- 7 # for production values
 aglu.DIGITS_CALPRICE      <- 4 # prices and costs values
 aglu.DIGITS_EROS_CTRL     <- 2
+aglu.DIGITS_GHOSTSHARE    <- 3
 aglu.DIGITS_HARVEST_INDEX <- 2
 aglu.DIGITS_INCELAS       <- 4 # food demand income elasticity values
 aglu.DIGITS_LAND_TOTAL    <- 2

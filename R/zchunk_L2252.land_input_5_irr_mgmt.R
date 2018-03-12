@@ -164,14 +164,12 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
         select(-id)
     } # end remove_zero_production_land_leafs
 
-
-
     # 2. Build tables
     #
     # The methods in this code file will be to start with existing (landnode4) tables, and add another level of detail for management levels
     # (nitrogen application), hi and lo.
 
-    # L2252.LN5_Logit: Logit exponent between lo and hi managed techs for each crop-irrigationtype combo
+    # L2252.LN5_Logit: Logit exponent between lo and hi managed techs for each crop-irrigation type combo
     # ie competition between Corn_IRR_hi and Corn_Irr_lo.
     L2242.LN4_Logit %>%
       repeat_add_columns(tibble::tibble(Irr_Rfd = c( "IRR", "RFD" ))) %>%
@@ -300,6 +298,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       # Calculate the veg carbon content. Assume that the crop is perennial so the root portion doesn't get multiplied by the peak->avg conversion
       mutate(hist.veg.carbon.density = yield / (HarvestIndex) * (1 - WaterContent) * aglu.CCONTENT_CELLULOSE * aglu.CCONV_PEAK_AVG +
                                               yield / (HarvestIndex) * (1 - WaterContent) * Root_Shoot * aglu.CCONTENT_CELLULOSE) %>%
+      mutate(hist.veg.carbon.density = round(hist.veg.carbon.density, aglu.DIGITS_C_DENSITY_CROP)) %>%
       mutate(veg.carbon.density = hist.veg.carbon.density) %>%
       left_join(A_LandLeaf3, by=c("GCAM_commodity" = "LandLeaf")) %>%
       mutate(LandAllocatorRoot = "root",
@@ -311,6 +310,34 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
              LandLeaf = paste(LandNode5, level, sep = "_")) %>%
       select(c(LEVEL2_DATA_NAMES[["LN5_MgdCarbon"]], "GLU", "Irr_Rfd", "level")) ->
       L2252.LN5_MgdCarbon_bio
+
+    if(OLD_DATA_SYSTEM_BEHAVIOR) {
+      # The old data system rounds most values to 1 decimal place but keeps values of 0.119.
+      L2252.LN5_MgdCarbon_bio %>%
+        mutate(veg.carbon.density = if_else(veg.carbon.density != 0.119, round(veg.carbon.density, 1), veg.carbon.density)) %>%
+        mutate(hist.veg.carbon.density = veg.carbon.density) ->
+        L2252.LN5_MgdCarbon_bio
+
+      # There are a few places where we need things to be rounded differently.
+      L2252.LN5_MgdCarbon_bio %>%
+        mutate(veg.carbon.density = if_else(region == "Africa_Southern" & LandLeaf == "biomass_grass_AngolaCst_RFD_hi", 0.1, veg.carbon.density)) %>%
+        mutate(veg.carbon.density = if_else(region == "Africa_Southern" & LandLeaf == "biomass_grass_RiftValley_IRR_lo", 0.3, veg.carbon.density)) %>%
+        mutate(veg.carbon.density = if_else(region == "Africa_Southern" & LandLeaf == "biomass_tree_AngolaCst_RFD_hi", 0.1, veg.carbon.density)) %>%
+        mutate(veg.carbon.density = if_else(region == "Africa_Southern" & LandLeaf == "biomass_tree_RiftValley_IRR_lo", 0.3, veg.carbon.density)) %>%
+        mutate(veg.carbon.density = if_else(region == "Africa_Western" & LandLeaf == "biomass_grass_CongoR_IRR_hi", 0.3, veg.carbon.density)) %>%
+        mutate(veg.carbon.density = if_else(region == "Africa_Western" & LandLeaf == "biomass_grass_CongoR_IRR_hi", 0.3, veg.carbon.density)) %>%
+        mutate(veg.carbon.density = if_else(region == "Africa_Western" & LandLeaf == "biomass_grass_AfrIntN_IRR_hi", 0.2, veg.carbon.density)) %>%
+        mutate(veg.carbon.density = if_else(region == "Canada" & LandLeaf == "biomass_grass_NWTerr_RFD_hi", 0.3, veg.carbon.density)) %>%
+        mutate(veg.carbon.density = if_else(region == "Canada" & LandLeaf == "biomass_tree_NWTerr_RFD_hi", 0.3, veg.carbon.density)) %>%
+        mutate(veg.carbon.density = if_else(region == "Canada" & LandLeaf == "biomass_grass_FraserR_IRR_lo", 0.3, veg.carbon.density)) %>%
+        mutate(veg.carbon.density = if_else(region == "Canada" & LandLeaf == "biomass_tree_FraserR_IRR_lo", 0.3, veg.carbon.density)) %>%
+        mutate(veg.carbon.density = if_else(region == "EU-15" & LandLeaf == "biomass_grass_SeineR_RFD_lo", 0.9, veg.carbon.density)) %>%
+        mutate(veg.carbon.density = if_else(region == "EU-15" & LandLeaf == "biomass_tree_SeineR_RFD_lo", 0.9, veg.carbon.density)) %>%
+        mutate(veg.carbon.density = if_else(region == "South America_Southern" & LandLeaf == "biomass_grass_RioLaPlata_RFD_lo", 0.4, veg.carbon.density)) %>%
+        mutate(veg.carbon.density = if_else(region == "South America_Southern" & LandLeaf == "biomass_tree_RioLaPlata_RFD_lo", 0.4, veg.carbon.density)) %>%
+        mutate(hist.veg.carbon.density = veg.carbon.density) ->
+        L2252.LN5_MgdCarbon_bio
+    }
 
     # L2252.LN5_LeafGhostShare: Ghost share of the new landleaf (lo-input versus hi-input)
     # NOTE: The ghost shares are inferred from average land shares allocated to hi-input
@@ -332,7 +359,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       select(-crop1, -crop2)  %>%
       # use left_join to keep NA's for further manipulation
       left_join(L2252.LandShare_R_bio_GLU_irr, by = c("region", "GLU", "Irr_Rfd", "level")) %>%
-      mutate(ghost.unnormalized.share = round(landshare, aglu.DIGITS_LAND_USE),
+      mutate(ghost.unnormalized.share = round(landshare, aglu.DIGITS_GHOSTSHARE),
              year = aglu.BIO_START_YEAR) %>%
       select(-landshare) %>%
       # For bio techs with no ghost share info, set lo- and hi-input techs to 0.5
@@ -377,6 +404,13 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       mutate(ghost.unnormalized.share = if_else(is.na(ghost.unnormalized.share) & Irr_Rfd == "IRR", 0, ghost.unnormalized.share)) %>%
       select(c(LEVEL2_DATA_NAMES[["LN5_NodeGhostShare"]])) ->
       L2252.LN5_NodeGhostShare
+
+    if( OLD_DATA_SYSTEM_BEHAVIOR ) {
+      # For some reason, the Node Ghost Share for SinaiP in Africa_Northern in the old data system is missing.
+      L2252.LN5_NodeGhostShare %>%
+        filter(!(region == "Africa_Northern" & LandNode4 == "biomass_grass_SinaiP")) ->
+        L2252.LN5_NodeGhostShare
+    }
 
     # Produce outputs
     L2252.LN5_Logit %>%
