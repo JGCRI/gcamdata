@@ -477,9 +477,6 @@ screen_forbidden <- function(fn) {
 #' It also automatically compresses files above a certain size.
 #' @author BBL
 normalize_files <- function(root = system.file("extdata", package = "gcamdata"), min_compress_size = 1) {
-  if(.Platform$OS.type == "windows") {
-    stop("This should not be run on Windows")
-  }
   assert_that(is.character(root))
   assert_that(is.numeric(min_compress_size))
   message("Root: ", root)
@@ -504,9 +501,18 @@ normalize_files <- function(root = system.file("extdata", package = "gcamdata"),
 
     message("\tWriting...", appendLF = FALSE)
     ofile <- gsub("(\\.zip|\\.gz)$", "", files[f])
-    # Open a binary connection because we want to ensure that \n is used as separator
-    con <- file(ofile, open = "wb")
-    writeLines(txt, ofile, sep = "\n")
+    # Compress if necessary
+    if(uc_size >= min_compress_size) {
+      message("\tCompressing...", appendLF = FALSE)
+      ofile <- paste0(ofile, ".gz")
+      # Open a binary connection because we want to ensure that \n is used as separator
+      con <- gzfile(ofile, open = "wb")
+    } else {
+      con <- file(ofile)
+    }
+    # note even though we specify the sep = "\n", if the connection is not binary it
+    # will get converted to the platform specific line ending
+    writeLines(txt, con, sep = "\n")
     close(con)
     message("OK")
 
@@ -516,12 +522,22 @@ normalize_files <- function(root = system.file("extdata", package = "gcamdata"),
       message("OK")
     }
 
-    # Compress if necessary
-    # Note that Rutils::gzip will automatically remove the uncompressed file
+    # Unfortunately the gzip format includes a header indicating which OS the archive
+    # was created in.  In order to avoid superfluous "modifications" we will always
+    # override it to be equal to UNIX:
+    # http://www.zlib.org/rfc-gzip.html#header-trailer
+    # http://www.onicos.com/staff/iz/formats/gzip.html
     if(uc_size >= min_compress_size) {
-      message("\tCompressing...", appendLF = FALSE)
-      R.utils::gzip(ofile)
-      message("OK")
+      # we need to open the connection for read and write in binary so that
+      # we can seek to the write location and overwrite the OS flag and not
+      # truncate the file
+      con <- file(ofile, "r+b")
+      # seek the write pointer to offset 9 which is where the OS bit is
+      # and write the value 3 (for Unix) in 1 byte and endian is always
+      # little according to the spec
+      seek(con, 9, rw = "write")
+      writeBin(3L, con, 1, endian = "little")
+      close(con)
     }
   }
 }
