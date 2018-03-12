@@ -8,24 +8,17 @@ test_that("inputs are encoded correctly", {
 
   # Get a list of all input files: CSV files that may or may not be already compressed
   files <- list.files(root, pattern = "\\.csv(\\.gz|\\.zip)?$", full.names = TRUE, recursive = TRUE)
-  tf <- tempfile()
+  td <- tempdir()
+  # Copy all data to temp and perform normalizations there
+  expect_true(file.copy(root, td, recursive = TRUE))
+  normalize_files(paste(td, "extdata", sep="/"))
 
   for(f in files) {
-    # Decompress the file if necessary
-    if(grepl("\\.gz$", f)) {
-      R.utils::gunzip(f, remove = FALSE, destname = tf, overwrite = TRUE)
-    } else if(grepl("\\.zip$", f)) {
-      zipfiles <- unzip(f, exdir = tempdir(), overwrite = TRUE)
-      file.copy(zipfiles[1], tf, overwrite = TRUE)
-    } else {
-      file.copy(f, tf, overwrite = TRUE)
-    }
-
-    # Read first few bytes of file to check line endings
-    bytes <- paste(readBin(tf, "raw", n = 1000), collapse = "")
-    expect_false(grepl("0d0a", bytes), info = paste("Windows line endings found in", f))
-
-    # Read file - shouldn't produce warning
-    expect_silent(readLines(tf)) #, info = paste("Embedded nuls or no final EOL in", f))
+    # we expect files to be the same and unmodified
+    new_f = paste(td, sub(root, 'extdata', f), sep = "/")
+    expect_true(file.exists(new_f),
+                info = paste("Normalized file not found for ", f, ", it could have gotten compressed"))
+    expect_equal(as.vector(tools::md5sum(f)), as.vector(tools::md5sum(new_f)),
+                 info = paste("Normalized file does not match for ", f))
   }
 })

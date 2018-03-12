@@ -472,8 +472,8 @@ screen_forbidden <- function(fn) {
 #' @return Nothing - run for side effects only.
 #' @note Set \code{root} to "./extdata" in the git directory, not the package root, to make changes that 'stick'.
 #' @export
-#' @details Some GCAM input datafiles have bad (Windows-style) line endings, and/or
-#' don't have a final newline. This utility script converts all files to have Unix line endings (\code{\\0a}) and a final newline.
+#' @details Some GCAM input datafiles have bad (Mac OS 9 CR) line endings, and/or
+#' don't have a final newline. This utility script converts all files to have consistent line endings for the platform it is run on and a final newline.
 #' It also automatically compresses files above a certain size.
 #' @author BBL
 normalize_files <- function(root = system.file("extdata", package = "gcamdata"), min_compress_size = 1) {
