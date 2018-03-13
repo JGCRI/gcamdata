@@ -1,3 +1,7 @@
+INPUT_TABLE
+Variable ID
+LN1_UnmgdCarbon
+
 region,LandAllocatorRoot,LandNode1,UnmanagedLandLeaf,hist.veg.carbon.density,hist.soil.carbon.density,veg.carbon.density,soil.carbon.density,mature.age.year.fillout,mature.age,min.veg.carbon.density,min.soil.carbon.density
 USA,root,UrbanLand_PacArctic,UrbanLand_PacArctic,0.3,5.8,0.3,5.8,1975,1,0,0
 USA,root,UrbanLand_NelsonR,UrbanLand_NelsonR,0.3,5.8,0.3,5.8,1975,1,0,0
@@ -177,7 +181,6 @@ EU-15,root,UrbanLand_TiberR,UrbanLand_TiberR,0.3,5.8,0.3,5.8,1975,1,0,0
 EU-15,root,UrbanLand_TagusR,UrbanLand_TagusR,0.3,5.8,0.3,5.8,1975,1,0,0
 EU-15,root,UrbanLand_EbroR,UrbanLand_EbroR,0.3,5.8,0.3,5.8,1975,1,0,0
 EU-15,root,UrbanLand_DouroR,UrbanLand_DouroR,0.3,5.8,0.3,5.8,1975,1,0,0
-EU-15,root,UrbanLand_MeditE,UrbanLand_MeditE,0.3,5.8,0.3,5.8,1975,1,0,0
 EU-15,root,UrbanLand_GuadianaR,UrbanLand_GuadianaR,0.3,5.8,0.3,5.8,1975,1,0,0
 EU-15,root,UrbanLand_GuadalqR,UrbanLand_GuadalqR,0.3,5.8,0.3,5.8,1975,1,0,0
 Europe_Eastern,root,UrbanLand_NevaR,UrbanLand_NevaR,0.3,5.8,0.3,5.8,1975,1,0,0
@@ -195,7 +198,6 @@ Europe_Non_EU,root,UrbanLand_BlackSeaS,UrbanLand_BlackSeaS,0.3,5.8,0.3,5.8,1975,
 Europe_Non_EU,root,UrbanLand_CaspianSW,UrbanLand_CaspianSW,0.3,5.8,0.3,5.8,1975,1,0,0
 Europe_Non_EU,root,UrbanLand_MeditE,UrbanLand_MeditE,0.3,5.8,0.3,5.8,1975,1,0,0
 Europe_Non_EU,root,UrbanLand_TigrEuphR,UrbanLand_TigrEuphR,0.3,5.8,0.3,5.8,1975,1,0,0
-Europe_Non_EU,root,UrbanLand_EJrdnSyr,UrbanLand_EJrdnSyr,0.3,5.8,0.3,5.8,1975,1,0,0
 European Free Trade Association,root,UrbanLand_ScndnvN,UrbanLand_ScndnvN,0.3,5.8,0.3,5.8,1975,1,0,0
 European Free Trade Association,root,UrbanLand_Iceland,UrbanLand_Iceland,0.3,5.8,0.3,5.8,1975,1,0,0
 European Free Trade Association,root,UrbanLand_Sweden,UrbanLand_Sweden,0.3,5.8,0.3,5.8,1975,1,0,0
@@ -222,7 +224,6 @@ India,root,UrbanLand_PennarR,UrbanLand_PennarR,0.3,5.8,0.3,5.8,1975,1,0,0
 India,root,UrbanLand_CauveryR,UrbanLand_CauveryR,0.3,5.8,0.3,5.8,1975,1,0,0
 India,root,UrbanLand_IndCstS,UrbanLand_IndCstS,0.3,5.8,0.3,5.8,1975,1,0,0
 India,root,UrbanLand_NarmadaR,UrbanLand_NarmadaR,0.3,5.8,0.3,5.8,1975,1,0,0
-Indonesia,root,UrbanLand_MalaysiaP,UrbanLand_MalaysiaP,0.3,5.8,0.3,5.8,1975,1,0,0
 Indonesia,root,UrbanLand_IdnE,UrbanLand_IdnE,0.3,5.8,0.3,5.8,1975,1,0,0
 Indonesia,root,UrbanLand_BorneoCstN,UrbanLand_BorneoCstN,0.3,5.8,0.3,5.8,1975,1,0,0
 Indonesia,root,UrbanLand_Sumatra,UrbanLand_Sumatra,0.3,5.8,0.3,5.8,1975,1,0,0
@@ -307,8 +308,9 @@ South Africa,root,UrbanLand_AfrCstSSW,UrbanLand_AfrCstSSW,0.3,5.8,0.3,5.8,1975,1
 South America_Northern,root,UrbanLand_SAmerCstN,UrbanLand_SAmerCstN,0.3,5.8,0.3,5.8,1975,1,0,0
 South America_Northern,root,UrbanLand_OrinocoR,UrbanLand_OrinocoR,0.3,5.8,0.3,5.8,1975,1,0,0
 South America_Northern,root,UrbanLand_SAmerCstNE,UrbanLand_SAmerCstNE,0.3,5.8,0.3,5.8,1975,1,0,0
-South America_Southern,root,UrbanLand_OrinocoR,UrbanLand_OrinocoR,0.3,5.8,0.3,5.8,1975,1,0,0
+South America_Northern,root,UrbanLand_AmazonR,UrbanLand_AmazonR,0.3,5.8,0.3,5.8,1975,1,0,0
 South America_Southern,root,UrbanLand_ColEcuaCst,UrbanLand_ColEcuaCst,0.3,5.8,0.3,5.8,1975,1,0,0
+South America_Southern,root,UrbanLand_AmazonR,UrbanLand_AmazonR,0.3,5.8,0.3,5.8,1975,1,0,0
 South America_Southern,root,UrbanLand_ChileCstS,UrbanLand_ChileCstS,0.3,5.8,0.3,5.8,1975,1,0,0
 South America_Southern,root,UrbanLand_PeruCst,UrbanLand_PeruCst,0.3,5.8,0.3,5.8,1975,1,0,0
 South America_Southern,root,UrbanLand_BrzCstS,UrbanLand_BrzCstS,0.3,5.8,0.3,5.8,1975,1,0,0
@@ -363,6 +365,7 @@ Colombia,root,UrbanLand_SAmerCstN,UrbanLand_SAmerCstN,0.3,5.8,0.3,5.8,1975,1,0,0
 Colombia,root,UrbanLand_OrinocoR,UrbanLand_OrinocoR,0.3,5.8,0.3,5.8,1975,1,0,0
 Colombia,root,UrbanLand_ColEcuaCst,UrbanLand_ColEcuaCst,0.3,5.8,0.3,5.8,1975,1,0,0
 Colombia,root,UrbanLand_MagdalenaR,UrbanLand_MagdalenaR,0.3,5.8,0.3,5.8,1975,1,0,0
+Colombia,root,UrbanLand_AmazonR,UrbanLand_AmazonR,0.3,5.8,0.3,5.8,1975,1,0,0
 USA,root,Tundra_PacArctic,Tundra_PacArctic,0.9,22,0.9,22,1975,50,0,0
 USA,root,Tundra_California,Tundra_California,0.9,22,0.9,22,1975,50,0,0
 USA,root,Tundra_UsaColoRN,Tundra_UsaColoRN,0.9,22,0.9,22,1975,50,0,0
@@ -372,6 +375,7 @@ USA,root,Tundra_UsaPacNW,Tundra_UsaPacNW,0.9,22,0.9,22,1975,50,0,0
 USA,root,Tundra_RioGrande,Tundra_RioGrande,0.9,22,0.9,22,1975,50,0,0
 Australia_NZ,root,Tundra_NewZealand,Tundra_NewZealand,0.9,22,0.9,22,1975,50,0,0
 Brazil,root,Tundra_OrinocoR,Tundra_OrinocoR,0.9,22,0.9,22,1975,50,0,0
+Brazil,root,Tundra_AmazonR,Tundra_AmazonR,0.9,22,0.9,22,1975,50,0,0
 Canada,root,Tundra_NWTerr,Tundra_NWTerr,0.9,22,0.9,22,1975,50,0,0
 Canada,root,Tundra_PacArctic,Tundra_PacArctic,0.9,22,0.9,22,1975,50,0,0
 Canada,root,Tundra_Mackenzie,Tundra_Mackenzie,0.9,22,0.9,22,1975,50,0,0
@@ -384,7 +388,6 @@ Canada,root,Tundra_StLwrncR,Tundra_StLwrncR,0.9,22,0.9,22,1975,50,0,0
 Canada,root,Tundra_UsaPacNW,Tundra_UsaPacNW,0.9,22,0.9,22,1975,50,0,0
 Central Asia,root,Tundra_Gobi,Tundra_Gobi,0.9,22,0.9,22,1975,50,0,0
 Central Asia,root,Tundra_CaspianNE,Tundra_CaspianNE,0.9,22,0.9,22,1975,50,0,0
-Central Asia,root,Tundra_BlackSeaN,Tundra_BlackSeaN,0.9,22,0.9,22,1975,50,0,0
 Central Asia,root,Tundra_YeniseiR,Tundra_YeniseiR,0.9,22,0.9,22,1975,50,0,0
 Central Asia,root,Tundra_CaspianE,Tundra_CaspianE,0.9,22,0.9,22,1975,50,0,0
 Central Asia,root,Tundra_ObR,Tundra_ObR,0.9,22,0.9,22,1975,50,0,0
@@ -441,7 +444,6 @@ Japan,root,Tundra_Japan,Tundra_Japan,0.9,22,0.9,22,1975,50,0,0
 Mexico,root,Tundra_YucatanP,Tundra_YucatanP,0.9,22,0.9,22,1975,50,0,0
 Mexico,root,Tundra_RioBalsas,Tundra_RioBalsas,0.9,22,0.9,22,1975,50,0,0
 Middle East,root,Tundra_CaspianSW,Tundra_CaspianSW,0.9,22,0.9,22,1975,50,0,0
-Pakistan,root,Tundra_AmuDaryaR,Tundra_AmuDaryaR,0.9,22,0.9,22,1975,50,0,0
 Pakistan,root,Tundra_IndusR,Tundra_IndusR,0.9,22,0.9,22,1975,50,0,0
 Russia,root,Tundra_ArcticIsl,Tundra_ArcticIsl,0.9,22,0.9,22,1975,50,0,0
 Russia,root,Tundra_SiberiaN,Tundra_SiberiaN,0.9,22,0.9,22,1975,50,0,0
@@ -464,18 +466,18 @@ Russia,root,Tundra_BlackSeaS,Tundra_BlackSeaS,0.9,22,0.9,22,1975,50,0,0
 Russia,root,Tundra_CaspianSW,Tundra_CaspianSW,0.9,22,0.9,22,1975,50,0,0
 South America_Northern,root,Tundra_SAmerCstN,Tundra_SAmerCstN,0.9,22,0.9,22,1975,50,0,0
 South America_Northern,root,Tundra_OrinocoR,Tundra_OrinocoR,0.9,22,0.9,22,1975,50,0,0
-South America_Southern,root,Tundra_OrinocoR,Tundra_OrinocoR,0.9,22,0.9,22,1975,50,0,0
 South America_Southern,root,Tundra_ColEcuaCst,Tundra_ColEcuaCst,0.9,22,0.9,22,1975,50,0,0
+South America_Southern,root,Tundra_AmazonR,Tundra_AmazonR,0.9,22,0.9,22,1975,50,0,0
 South America_Southern,root,Tundra_ChileCstS,Tundra_ChileCstS,0.9,22,0.9,22,1975,50,0,0
 South America_Southern,root,Tundra_PeruCst,Tundra_PeruCst,0.9,22,0.9,22,1975,50,0,0
 South America_Southern,root,Tundra_LaPuna,Tundra_LaPuna,0.9,22,0.9,22,1975,50,0,0
 South America_Southern,root,Tundra_RioLaPlata,Tundra_RioLaPlata,0.9,22,0.9,22,1975,50,0,0
 South America_Southern,root,Tundra_ChileCstN,Tundra_ChileCstN,0.9,22,0.9,22,1975,50,0,0
-South America_Southern,root,Tundra_ArgColoR,Tundra_ArgColoR,0.9,22,0.9,22,1975,50,0,0
 South America_Southern,root,Tundra_NegroR,Tundra_NegroR,0.9,22,0.9,22,1975,50,0,0
 South Asia,root,Tundra_AmuDaryaR,Tundra_AmuDaryaR,0.9,22,0.9,22,1975,50,0,0
 South Asia,root,Tundra_IndusR,Tundra_IndusR,0.9,22,0.9,22,1975,50,0,0
 South Asia,root,Tundra_GangesR,Tundra_GangesR,0.9,22,0.9,22,1975,50,0,0
+Southeast Asia,root,Tundra_GangesR,Tundra_GangesR,0.9,22,0.9,22,1975,50,0,0
 Southeast Asia,root,Tundra_IrrawaddyR,Tundra_IrrawaddyR,0.9,22,0.9,22,1975,50,0,0
 Argentina,root,Tundra_ChileCstS,Tundra_ChileCstS,0.9,22,0.9,22,1975,50,0,0
 Argentina,root,Tundra_LaPuna,Tundra_LaPuna,0.9,22,0.9,22,1975,50,0,0
@@ -489,6 +491,7 @@ Colombia,root,Tundra_SAmerCstN,Tundra_SAmerCstN,0.9,22,0.9,22,1975,50,0,0
 Colombia,root,Tundra_OrinocoR,Tundra_OrinocoR,0.9,22,0.9,22,1975,50,0,0
 Colombia,root,Tundra_ColEcuaCst,Tundra_ColEcuaCst,0.9,22,0.9,22,1975,50,0,0
 Colombia,root,Tundra_MagdalenaR,Tundra_MagdalenaR,0.9,22,0.9,22,1975,50,0,0
+Colombia,root,Tundra_AmazonR,Tundra_AmazonR,0.9,22,0.9,22,1975,50,0,0
 USA,root,RockIceDesert_PacArctic,RockIceDesert_PacArctic,0,8.3,0,8.3,1975,50,0,0
 USA,root,RockIceDesert_California,RockIceDesert_California,0.1,3.8,0.1,3.8,1975,50,0,0
 USA,root,RockIceDesert_GreatBasin,RockIceDesert_GreatBasin,0.1,3.8,0.1,3.8,1975,50,0,0
@@ -536,7 +539,6 @@ Australia_NZ,root,RockIceDesert_AusCstW,RockIceDesert_AusCstW,0.1,3.8,0.1,3.8,19
 Australia_NZ,root,RockIceDesert_AusInt,RockIceDesert_AusInt,0.1,3.8,0.1,3.8,1975,50,0,0
 Australia_NZ,root,RockIceDesert_NewZealand,RockIceDesert_NewZealand,0,8.5,0,8.5,1975,50,0,0
 Australia_NZ,root,RockIceDesert_AusCstS,RockIceDesert_AusCstS,0.1,3.8,0.1,3.8,1975,50,0,0
-Brazil,root,RockIceDesert_OrinocoR,RockIceDesert_OrinocoR,0.1,3.8,0.1,3.8,1975,50,0,0
 Brazil,root,RockIceDesert_SAmerCstNE,RockIceDesert_SAmerCstNE,0.1,3.8,0.1,3.8,1975,50,0,0
 Brazil,root,RockIceDesert_AmazonR,RockIceDesert_AmazonR,0.1,3.8,0.1,3.8,1975,50,0,0
 Brazil,root,RockIceDesert_BrzCstN,RockIceDesert_BrzCstN,0.1,3.8,0.1,3.8,1975,50,0,0
@@ -552,14 +554,14 @@ Canada,root,RockIceDesert_HudsonBay,RockIceDesert_HudsonBay,0,8.5,0,8.5,1975,50,
 Canada,root,RockIceDesert_CanAtl,RockIceDesert_CanAtl,0,8.5,0,8.5,1975,50,0,0
 Canada,root,RockIceDesert_NelsonR,RockIceDesert_NelsonR,0,8.5,0,8.5,1975,50,0,0
 Canada,root,RockIceDesert_FraserR,RockIceDesert_FraserR,0,8.5,0,8.5,1975,50,0,0
-Canada,root,RockIceDesert_UsaPacNW,RockIceDesert_UsaPacNW,0,8,0,8,1975,50,0,0
+Canada,root,RockIceDesert_UsaPacNW,RockIceDesert_UsaPacNW,0,8.1,0,8.1,1975,50,0,0
 Central Asia,root,RockIceDesert_Gobi,RockIceDesert_Gobi,0.1,3.8,0.1,3.8,1975,50,0,0
 Central Asia,root,RockIceDesert_CaspianNE,RockIceDesert_CaspianNE,0.1,3.8,0.1,3.8,1975,50,0,0
 Central Asia,root,RockIceDesert_CaspianE,RockIceDesert_CaspianE,0.1,3.8,0.1,3.8,1975,50,0,0
 Central Asia,root,RockIceDesert_ObR,RockIceDesert_ObR,0.1,3.9,0.1,3.9,1975,50,0,0
 Central Asia,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,0.1,5.4,0.1,5.4,1975,50,0,0
 Central Asia,root,RockIceDesert_LBalkash,RockIceDesert_LBalkash,0.1,3.9,0.1,3.9,1975,50,0,0
-Central Asia,root,RockIceDesert_BlackSeaS,RockIceDesert_BlackSeaS,0.1,3.8,0.1,3.8,1975,50,0,0
+Central Asia,root,RockIceDesert_BlackSeaS,RockIceDesert_BlackSeaS,0,6.2,0,6.2,1975,50,0,0
 Central Asia,root,RockIceDesert_CaspianSW,RockIceDesert_CaspianSW,0.1,3.8,0.1,3.8,1975,50,0,0
 Central Asia,root,RockIceDesert_SyrDaryaR,RockIceDesert_SyrDaryaR,0.1,4,0.1,4,1975,50,0,0
 Central Asia,root,RockIceDesert_Tarim,RockIceDesert_Tarim,0,8.5,0,8.5,1975,50,0,0
@@ -567,18 +569,18 @@ China,root,RockIceDesert_Gobi,RockIceDesert_Gobi,0.1,3.8,0.1,3.8,1975,50,0,0
 China,root,RockIceDesert_ObR,RockIceDesert_ObR,0.1,4.3,0.1,4.3,1975,50,0,0
 China,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,0,8.5,0,8.5,1975,50,0,0
 China,root,RockIceDesert_BoHai,RockIceDesert_BoHai,0.1,3.8,0.1,3.8,1975,50,0,0
-China,root,RockIceDesert_LBalkash,RockIceDesert_LBalkash,0.1,4.2,0.1,4.2,1975,50,0,0
+China,root,RockIceDesert_LBalkash,RockIceDesert_LBalkash,0.1,4.8,0.1,4.8,1975,50,0,0
 China,root,RockIceDesert_ZiyaHe,RockIceDesert_ZiyaHe,0.1,3.8,0.1,3.8,1975,50,0,0
 China,root,RockIceDesert_ChinaCst,RockIceDesert_ChinaCst,0.1,3.8,0.1,3.8,1975,50,0,0
 China,root,RockIceDesert_HuangHeR,RockIceDesert_HuangHeR,0.1,3.9,0.1,3.9,1975,50,0,0
 China,root,RockIceDesert_Tarim,RockIceDesert_Tarim,0.1,4.5,0.1,4.5,1975,50,0,0
 China,root,RockIceDesert_IndusR,RockIceDesert_IndusR,0,8,0,8,1975,50,0,0
 China,root,RockIceDesert_Tibet,RockIceDesert_Tibet,0,8.5,0,8.5,1975,50,0,0
-China,root,RockIceDesert_Yangtze,RockIceDesert_Yangtze,0,8.2,0,8.2,1975,50,0,0
-China,root,RockIceDesert_GangesR,RockIceDesert_GangesR,0,8.2,0,8.2,1975,50,0,0
+China,root,RockIceDesert_Yangtze,RockIceDesert_Yangtze,0,8.1,0,8.1,1975,50,0,0
+China,root,RockIceDesert_GangesR,RockIceDesert_GangesR,0,8.3,0,8.3,1975,50,0,0
 China,root,RockIceDesert_SChinaSea,RockIceDesert_SChinaSea,0.1,3.8,0.1,3.8,1975,50,0,0
 China,root,RockIceDesert_Mekong,RockIceDesert_Mekong,0,8.5,0,8.5,1975,50,0,0
-China,root,RockIceDesert_Salween,RockIceDesert_Salween,0,8.3,0,8.3,1975,50,0,0
+China,root,RockIceDesert_Salween,RockIceDesert_Salween,0,8.2,0,8.2,1975,50,0,0
 EU-15,root,RockIceDesert_ArcticIsl,RockIceDesert_ArcticIsl,0,8.5,0,8.5,1975,50,0,0
 EU-15,root,RockIceDesert_Sweden,RockIceDesert_Sweden,0,8.5,0,8.5,1975,50,0,0
 EU-15,root,RockIceDesert_DanubeR,RockIceDesert_DanubeR,0,8.5,0,8.5,1975,50,0,0
@@ -595,7 +597,7 @@ European Free Trade Association,root,RockIceDesert_PoR,RockIceDesert_PoR,0,8.5,0
 European Free Trade Association,root,RockIceDesert_RhoneR,RockIceDesert_RhoneR,0,8.5,0,8.5,1975,50,0,0
 India,root,RockIceDesert_IndusR,RockIceDesert_IndusR,0,6.8,0,6.8,1975,50,0,0
 India,root,RockIceDesert_SabarmatiR,RockIceDesert_SabarmatiR,0.1,3.8,0.1,3.8,1975,50,0,0
-India,root,RockIceDesert_GangesR,RockIceDesert_GangesR,0,7,0,7,1975,50,0,0
+India,root,RockIceDesert_GangesR,RockIceDesert_GangesR,0,7.1,0,7.1,1975,50,0,0
 India,root,RockIceDesert_IndCstE,RockIceDesert_IndCstE,0.1,3.8,0.1,3.8,1975,50,0,0
 India,root,RockIceDesert_IndCstS,RockIceDesert_IndCstS,0.1,3.8,0.1,3.8,1975,50,0,0
 Mexico,root,RockIceDesert_MexBaja,RockIceDesert_MexBaja,0.1,3.8,0.1,3.8,1975,50,0,0
@@ -615,9 +617,9 @@ Middle East,root,RockIceDesert_SinaiP,RockIceDesert_SinaiP,0.1,3.8,0.1,3.8,1975,
 Middle East,root,RockIceDesert_EJrdnSyr,RockIceDesert_EJrdnSyr,0.1,3.8,0.1,3.8,1975,50,0,0
 Middle East,root,RockIceDesert_HamuMashR,RockIceDesert_HamuMashR,0.1,3.8,0.1,3.8,1975,50,0,0
 Middle East,root,RockIceDesert_ArabianSea,RockIceDesert_ArabianSea,0.1,3.8,0.1,3.8,1975,50,0,0
-Pakistan,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,0,8,0,8,1975,50,0,0
+Pakistan,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,0,8.5,0,8.5,1975,50,0,0
 Pakistan,root,RockIceDesert_Tarim,RockIceDesert_Tarim,0,8.5,0,8.5,1975,50,0,0
-Pakistan,root,RockIceDesert_IndusR,RockIceDesert_IndusR,0.1,5.2,0.1,5.2,1975,50,0,0
+Pakistan,root,RockIceDesert_IndusR,RockIceDesert_IndusR,0.1,5.3,0.1,5.3,1975,50,0,0
 Pakistan,root,RockIceDesert_Helmand,RockIceDesert_Helmand,0.1,3.8,0.1,3.8,1975,50,0,0
 Pakistan,root,RockIceDesert_HamuMashR,RockIceDesert_HamuMashR,0.1,3.8,0.1,3.8,1975,50,0,0
 Pakistan,root,RockIceDesert_ArabianSea,RockIceDesert_ArabianSea,0.1,3.8,0.1,3.8,1975,50,0,0
@@ -629,10 +631,11 @@ Russia,root,RockIceDesert_KaraSea,RockIceDesert_KaraSea,0,8.5,0,8.5,1975,50,0,0
 Russia,root,RockIceDesert_LenaR,RockIceDesert_LenaR,0,8.4,0,8.4,1975,50,0,0
 Russia,root,RockIceDesert_BarentsSea,RockIceDesert_BarentsSea,0,8.5,0,8.5,1975,50,0,0
 Russia,root,RockIceDesert_Gobi,RockIceDesert_Gobi,0.1,3.8,0.1,3.8,1975,50,0,0
-Russia,root,RockIceDesert_CaspianNE,RockIceDesert_CaspianNE,0.1,5.8,0.1,5.8,1975,50,0,0
+Russia,root,RockIceDesert_CaspianNE,RockIceDesert_CaspianNE,0.1,5.6,0.1,5.6,1975,50,0,0
 Russia,root,RockIceDesert_BlackSeaN,RockIceDesert_BlackSeaN,0.1,3.8,0.1,3.8,1975,50,0,0
 Russia,root,RockIceDesert_YeniseiR,RockIceDesert_YeniseiR,0,8.5,0,8.5,1975,50,0,0
 Russia,root,RockIceDesert_ObR,RockIceDesert_ObR,0,8.4,0,8.4,1975,50,0,0
+Russia,root,RockIceDesert_BlackSeaS,RockIceDesert_BlackSeaS,0,8.5,0,8.5,1975,50,0,0
 South Africa,root,RockIceDesert_OrangeR,RockIceDesert_OrangeR,0.1,3.8,0.1,3.8,1975,50,0,0
 South Africa,root,RockIceDesert_AfrCstSW,RockIceDesert_AfrCstSW,0.1,3.8,0.1,3.8,1975,50,0,0
 South Africa,root,RockIceDesert_AfrCstS,RockIceDesert_AfrCstS,0.1,3.8,0.1,3.8,1975,50,0,0
@@ -640,19 +643,19 @@ South Africa,root,RockIceDesert_AfrCstSSW,RockIceDesert_AfrCstSSW,0.1,3.8,0.1,3.
 South America_Northern,root,RockIceDesert_SAmerCstN,RockIceDesert_SAmerCstN,0.1,3.8,0.1,3.8,1975,50,0,0
 South America_Northern,root,RockIceDesert_OrinocoR,RockIceDesert_OrinocoR,0.1,3.8,0.1,3.8,1975,50,0,0
 South America_Northern,root,RockIceDesert_SAmerCstNE,RockIceDesert_SAmerCstNE,0.1,3.8,0.1,3.8,1975,50,0,0
-South America_Southern,root,RockIceDesert_OrinocoR,RockIceDesert_OrinocoR,0.1,3.8,0.1,3.8,1975,50,0,0
 South America_Southern,root,RockIceDesert_ColEcuaCst,RockIceDesert_ColEcuaCst,0.1,3.8,0.1,3.8,1975,50,0,0
-South America_Southern,root,RockIceDesert_ChileCstS,RockIceDesert_ChileCstS,0,7.3,0,7.3,1975,50,0,0
+South America_Southern,root,RockIceDesert_AmazonR,RockIceDesert_AmazonR,0.1,3.8,0.1,3.8,1975,50,0,0
+South America_Southern,root,RockIceDesert_ChileCstS,RockIceDesert_ChileCstS,0,7.2,0,7.2,1975,50,0,0
 South America_Southern,root,RockIceDesert_PeruCst,RockIceDesert_PeruCst,0.1,3.8,0.1,3.8,1975,50,0,0
 South America_Southern,root,RockIceDesert_LaPuna,RockIceDesert_LaPuna,0.1,4.6,0.1,4.6,1975,50,0,0
 South America_Southern,root,RockIceDesert_Salinas,RockIceDesert_Salinas,0,8.5,0,8.5,1975,50,0,0
 South America_Southern,root,RockIceDesert_RioLaPlata,RockIceDesert_RioLaPlata,0.1,3.8,0.1,3.8,1975,50,0,0
 South America_Southern,root,RockIceDesert_ChileCstN,RockIceDesert_ChileCstN,0.1,4.1,0.1,4.1,1975,50,0,0
-South America_Southern,root,RockIceDesert_ArgColoR,RockIceDesert_ArgColoR,0,7.7,0,7.7,1975,50,0,0
+South America_Southern,root,RockIceDesert_ArgColoR,RockIceDesert_ArgColoR,0,7.9,0,7.9,1975,50,0,0
 South America_Southern,root,RockIceDesert_ArgCstS,RockIceDesert_ArgCstS,0,8.5,0,8.5,1975,50,0,0
 South Asia,root,RockIceDesert_CaspianE,RockIceDesert_CaspianE,0.1,3.8,0.1,3.8,1975,50,0,0
-South Asia,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,0,6.2,0,6.2,1975,50,0,0
-South Asia,root,RockIceDesert_IndusR,RockIceDesert_IndusR,0,6.2,0,6.2,1975,50,0,0
+South Asia,root,RockIceDesert_AmuDaryaR,RockIceDesert_AmuDaryaR,0.1,6.1,0.1,6.1,1975,50,0,0
+South Asia,root,RockIceDesert_IndusR,RockIceDesert_IndusR,0,6.7,0,6.7,1975,50,0,0
 South Asia,root,RockIceDesert_FarahrudR,RockIceDesert_FarahrudR,0.1,3.8,0.1,3.8,1975,50,0,0
 South Asia,root,RockIceDesert_Helmand,RockIceDesert_Helmand,0.1,3.8,0.1,3.8,1975,50,0,0
 South Asia,root,RockIceDesert_HamuMashR,RockIceDesert_HamuMashR,0.1,3.8,0.1,3.8,1975,50,0,0
@@ -663,16 +666,16 @@ Southeast Asia,root,RockIceDesert_VietnamCst,RockIceDesert_VietnamCst,0.1,3.8,0.
 Southeast Asia,root,RockIceDesert_SittaungR,RockIceDesert_SittaungR,0.1,3.8,0.1,3.8,1975,50,0,0
 Southeast Asia,root,RockIceDesert_MalaysiaP,RockIceDesert_MalaysiaP,0.1,3.8,0.1,3.8,1975,50,0,0
 Southeast Asia,root,RockIceDesert_ChaoPhrR,RockIceDesert_ChaoPhrR,0.1,3.8,0.1,3.8,1975,50,0,0
-Argentina,root,RockIceDesert_ChileCstS,RockIceDesert_ChileCstS,0.1,4.3,0.1,4.3,1975,50,0,0
+Argentina,root,RockIceDesert_ChileCstS,RockIceDesert_ChileCstS,0.1,4.4,0.1,4.4,1975,50,0,0
 Argentina,root,RockIceDesert_LaPuna,RockIceDesert_LaPuna,0.1,4.2,0.1,4.2,1975,50,0,0
 Argentina,root,RockIceDesert_MarChiq,RockIceDesert_MarChiq,0.1,3.8,0.1,3.8,1975,50,0,0
 Argentina,root,RockIceDesert_Salinas,RockIceDesert_Salinas,0.1,4.9,0.1,4.9,1975,50,0,0
 Argentina,root,RockIceDesert_RioLaPlata,RockIceDesert_RioLaPlata,0.1,3.8,0.1,3.8,1975,50,0,0
-Argentina,root,RockIceDesert_ChileCstN,RockIceDesert_ChileCstN,0,8.3,0,8.3,1975,50,0,0
+Argentina,root,RockIceDesert_ChileCstN,RockIceDesert_ChileCstN,0,8,0,8,1975,50,0,0
 Argentina,root,RockIceDesert_Pampas,RockIceDesert_Pampas,0.1,3.8,0.1,3.8,1975,50,0,0
 Argentina,root,RockIceDesert_ArgColoR,RockIceDesert_ArgColoR,0.1,5.7,0.1,5.7,1975,50,0,0
 Argentina,root,RockIceDesert_NegroR,RockIceDesert_NegroR,0.1,3.8,0.1,3.8,1975,50,0,0
 Argentina,root,RockIceDesert_Patagonia,RockIceDesert_Patagonia,0.1,3.8,0.1,3.8,1975,50,0,0
-Argentina,root,RockIceDesert_ArgCstS,RockIceDesert_ArgCstS,0.1,4.7,0.1,4.7,1975,50,0,0
+Argentina,root,RockIceDesert_ArgCstS,RockIceDesert_ArgCstS,0.1,4.6,0.1,4.6,1975,50,0,0
 Colombia,root,RockIceDesert_SAmerCstN,RockIceDesert_SAmerCstN,0.1,3.8,0.1,3.8,1975,50,0,0
 Colombia,root,RockIceDesert_MagdalenaR,RockIceDesert_MagdalenaR,0.1,3.8,0.1,3.8,1975,50,0,0

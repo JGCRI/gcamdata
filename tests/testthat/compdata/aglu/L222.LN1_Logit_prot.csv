@@ -1,3 +1,7 @@
+INPUT_TABLE
+Variable ID
+LN1_ValueLogit
+
 region,LandAllocatorRoot,LandNode1,unManagedLandValue,logit.year.fillout,logit.exponent
 USA,root,ProtectedUnmanagedPasture_PacArctic,1,1975,0
 USA,root,ProtectedUnmanagedPasture_NelsonR,1,1975,0
@@ -181,7 +185,6 @@ EU-15,root,ProtectedUnmanagedPasture_TiberR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_TagusR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_EbroR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_DouroR,1,1975,0
-EU-15,root,ProtectedUnmanagedPasture_MeditE,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_GuadianaR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_GuadalqR,1,1975,0
 Europe_Eastern,root,ProtectedUnmanagedPasture_NevaR,1,1975,0
@@ -226,7 +229,6 @@ India,root,ProtectedUnmanagedPasture_PennarR,1,1975,0
 India,root,ProtectedUnmanagedPasture_CauveryR,1,1975,0
 India,root,ProtectedUnmanagedPasture_IndCstS,1,1975,0
 India,root,ProtectedUnmanagedPasture_NarmadaR,1,1975,0
-Indonesia,root,ProtectedUnmanagedPasture_MalaysiaP,1,1975,0
 Indonesia,root,ProtectedUnmanagedPasture_IdnE,1,1975,0
 Indonesia,root,ProtectedUnmanagedPasture_BorneoCstN,1,1975,0
 Indonesia,root,ProtectedUnmanagedPasture_Sumatra,1,1975,0
@@ -314,8 +316,9 @@ South America_Northern,root,ProtectedUnmanagedPasture_SAmerCstN,1,1975,0
 South America_Northern,root,ProtectedUnmanagedPasture_OrinocoR,1,1975,0
 South America_Northern,root,ProtectedUnmanagedPasture_SAmerCstNE,1,1975,0
 South America_Northern,root,ProtectedUnmanagedPasture_MagdalenaR,1,1975,0
-South America_Southern,root,ProtectedUnmanagedPasture_OrinocoR,1,1975,0
+South America_Northern,root,ProtectedUnmanagedPasture_AmazonR,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_ColEcuaCst,1,1975,0
+South America_Southern,root,ProtectedUnmanagedPasture_AmazonR,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_ChileCstS,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_PeruCst,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_BrzCstS,1,1975,0
@@ -377,6 +380,7 @@ Colombia,root,ProtectedUnmanagedPasture_SAmerCstN,1,1975,0
 Colombia,root,ProtectedUnmanagedPasture_OrinocoR,1,1975,0
 Colombia,root,ProtectedUnmanagedPasture_ColEcuaCst,1,1975,0
 Colombia,root,ProtectedUnmanagedPasture_MagdalenaR,1,1975,0
+Colombia,root,ProtectedUnmanagedPasture_AmazonR,1,1975,0
 USA,root,ProtectedUnmanagedPasture_PacArctic,1,1975,0
 USA,root,ProtectedUnmanagedPasture_NelsonR,1,1975,0
 USA,root,ProtectedUnmanagedPasture_FraserR,1,1975,0
@@ -559,7 +563,6 @@ EU-15,root,ProtectedUnmanagedPasture_TiberR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_TagusR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_EbroR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_DouroR,1,1975,0
-EU-15,root,ProtectedUnmanagedPasture_MeditE,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_GuadianaR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_GuadalqR,1,1975,0
 Europe_Eastern,root,ProtectedUnmanagedPasture_NevaR,1,1975,0
@@ -604,7 +607,6 @@ India,root,ProtectedUnmanagedPasture_PennarR,1,1975,0
 India,root,ProtectedUnmanagedPasture_CauveryR,1,1975,0
 India,root,ProtectedUnmanagedPasture_IndCstS,1,1975,0
 India,root,ProtectedUnmanagedPasture_NarmadaR,1,1975,0
-Indonesia,root,ProtectedUnmanagedPasture_MalaysiaP,1,1975,0
 Indonesia,root,ProtectedUnmanagedPasture_IdnE,1,1975,0
 Indonesia,root,ProtectedUnmanagedPasture_BorneoCstN,1,1975,0
 Indonesia,root,ProtectedUnmanagedPasture_Sumatra,1,1975,0
@@ -692,8 +694,9 @@ South America_Northern,root,ProtectedUnmanagedPasture_SAmerCstN,1,1975,0
 South America_Northern,root,ProtectedUnmanagedPasture_OrinocoR,1,1975,0
 South America_Northern,root,ProtectedUnmanagedPasture_SAmerCstNE,1,1975,0
 South America_Northern,root,ProtectedUnmanagedPasture_MagdalenaR,1,1975,0
-South America_Southern,root,ProtectedUnmanagedPasture_OrinocoR,1,1975,0
+South America_Northern,root,ProtectedUnmanagedPasture_AmazonR,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_ColEcuaCst,1,1975,0
+South America_Southern,root,ProtectedUnmanagedPasture_AmazonR,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_ChileCstS,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_PeruCst,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_BrzCstS,1,1975,0
@@ -755,6 +758,7 @@ Colombia,root,ProtectedUnmanagedPasture_SAmerCstN,1,1975,0
 Colombia,root,ProtectedUnmanagedPasture_OrinocoR,1,1975,0
 Colombia,root,ProtectedUnmanagedPasture_ColEcuaCst,1,1975,0
 Colombia,root,ProtectedUnmanagedPasture_MagdalenaR,1,1975,0
+Colombia,root,ProtectedUnmanagedPasture_AmazonR,1,1975,0
 USA,root,ProtectedUnmanagedPasture_PacArctic,1,1975,0
 USA,root,ProtectedUnmanagedPasture_NelsonR,1,1975,0
 USA,root,ProtectedUnmanagedPasture_FraserR,1,1975,0
@@ -937,7 +941,6 @@ EU-15,root,ProtectedUnmanagedPasture_TiberR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_TagusR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_EbroR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_DouroR,1,1975,0
-EU-15,root,ProtectedUnmanagedPasture_MeditE,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_GuadianaR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_GuadalqR,1,1975,0
 Europe_Eastern,root,ProtectedUnmanagedPasture_NevaR,1,1975,0
@@ -982,7 +985,6 @@ India,root,ProtectedUnmanagedPasture_PennarR,1,1975,0
 India,root,ProtectedUnmanagedPasture_CauveryR,1,1975,0
 India,root,ProtectedUnmanagedPasture_IndCstS,1,1975,0
 India,root,ProtectedUnmanagedPasture_NarmadaR,1,1975,0
-Indonesia,root,ProtectedUnmanagedPasture_MalaysiaP,1,1975,0
 Indonesia,root,ProtectedUnmanagedPasture_IdnE,1,1975,0
 Indonesia,root,ProtectedUnmanagedPasture_BorneoCstN,1,1975,0
 Indonesia,root,ProtectedUnmanagedPasture_Sumatra,1,1975,0
@@ -1070,8 +1072,9 @@ South America_Northern,root,ProtectedUnmanagedPasture_SAmerCstN,1,1975,0
 South America_Northern,root,ProtectedUnmanagedPasture_OrinocoR,1,1975,0
 South America_Northern,root,ProtectedUnmanagedPasture_SAmerCstNE,1,1975,0
 South America_Northern,root,ProtectedUnmanagedPasture_MagdalenaR,1,1975,0
-South America_Southern,root,ProtectedUnmanagedPasture_OrinocoR,1,1975,0
+South America_Northern,root,ProtectedUnmanagedPasture_AmazonR,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_ColEcuaCst,1,1975,0
+South America_Southern,root,ProtectedUnmanagedPasture_AmazonR,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_ChileCstS,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_PeruCst,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_BrzCstS,1,1975,0
@@ -1133,6 +1136,7 @@ Colombia,root,ProtectedUnmanagedPasture_SAmerCstN,1,1975,0
 Colombia,root,ProtectedUnmanagedPasture_OrinocoR,1,1975,0
 Colombia,root,ProtectedUnmanagedPasture_ColEcuaCst,1,1975,0
 Colombia,root,ProtectedUnmanagedPasture_MagdalenaR,1,1975,0
+Colombia,root,ProtectedUnmanagedPasture_AmazonR,1,1975,0
 USA,root,ProtectedUnmanagedPasture_PacArctic,1,1975,0
 USA,root,ProtectedUnmanagedPasture_NelsonR,1,1975,0
 USA,root,ProtectedUnmanagedPasture_FraserR,1,1975,0
@@ -1315,7 +1319,6 @@ EU-15,root,ProtectedUnmanagedPasture_TiberR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_TagusR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_EbroR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_DouroR,1,1975,0
-EU-15,root,ProtectedUnmanagedPasture_MeditE,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_GuadianaR,1,1975,0
 EU-15,root,ProtectedUnmanagedPasture_GuadalqR,1,1975,0
 Europe_Eastern,root,ProtectedUnmanagedPasture_NevaR,1,1975,0
@@ -1360,7 +1363,6 @@ India,root,ProtectedUnmanagedPasture_PennarR,1,1975,0
 India,root,ProtectedUnmanagedPasture_CauveryR,1,1975,0
 India,root,ProtectedUnmanagedPasture_IndCstS,1,1975,0
 India,root,ProtectedUnmanagedPasture_NarmadaR,1,1975,0
-Indonesia,root,ProtectedUnmanagedPasture_MalaysiaP,1,1975,0
 Indonesia,root,ProtectedUnmanagedPasture_IdnE,1,1975,0
 Indonesia,root,ProtectedUnmanagedPasture_BorneoCstN,1,1975,0
 Indonesia,root,ProtectedUnmanagedPasture_Sumatra,1,1975,0
@@ -1448,8 +1450,9 @@ South America_Northern,root,ProtectedUnmanagedPasture_SAmerCstN,1,1975,0
 South America_Northern,root,ProtectedUnmanagedPasture_OrinocoR,1,1975,0
 South America_Northern,root,ProtectedUnmanagedPasture_SAmerCstNE,1,1975,0
 South America_Northern,root,ProtectedUnmanagedPasture_MagdalenaR,1,1975,0
-South America_Southern,root,ProtectedUnmanagedPasture_OrinocoR,1,1975,0
+South America_Northern,root,ProtectedUnmanagedPasture_AmazonR,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_ColEcuaCst,1,1975,0
+South America_Southern,root,ProtectedUnmanagedPasture_AmazonR,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_ChileCstS,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_PeruCst,1,1975,0
 South America_Southern,root,ProtectedUnmanagedPasture_BrzCstS,1,1975,0
@@ -1511,3 +1514,4 @@ Colombia,root,ProtectedUnmanagedPasture_SAmerCstN,1,1975,0
 Colombia,root,ProtectedUnmanagedPasture_OrinocoR,1,1975,0
 Colombia,root,ProtectedUnmanagedPasture_ColEcuaCst,1,1975,0
 Colombia,root,ProtectedUnmanagedPasture_MagdalenaR,1,1975,0
+Colombia,root,ProtectedUnmanagedPasture_AmazonR,1,1975,0

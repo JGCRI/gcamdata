@@ -2,964 +2,1348 @@ INPUT_TABLE
 Variable ID
 ResMAC
 
-region,depresource,Non.CO2,mac.control,tax,mac.reduction,tech.change
-Africa_Eastern,coal,CH4,Coal Mining Activities,0,0.09,0.003
-Africa_Eastern,coal,CH4,Coal Mining Activities,5,0.393,0.003
-Africa_Eastern,coal,CH4,Coal Mining Activities,10,0.463,0.003
-Africa_Eastern,coal,CH4,Coal Mining Activities,15,0.482,0.003
-Africa_Eastern,coal,CH4,Coal Mining Activities,32,0.597,0.003
-Africa_Eastern,coal,CH4,Coal Mining Activities,66,0.603,0.003
-Africa_Eastern,coal,CH4,Coal Mining Activities,129,0.609,0.003
-Africa_Eastern,coal,CH4,Coal Mining Activities,243,0.617,0.003
-Africa_Eastern,coal,CH4,Coal Mining Activities,486,0.617,0.003
-Africa_Eastern,coal,CH4,Coal Mining Activities,1093,0.617,0.003
-Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,0,0.394,0.004
-Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,5,0.406,0.004
-Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,10,0.409,0.004
-Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,15,0.411,0.004
-Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,66,0.451,0.004
-Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,129,0.463,0.004
-Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,243,0.474,0.004
-Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,486,0.492,0.004
-Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,1093,0.534,0.004
-Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,0,0.394,0.004
-Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,5,0.406,0.004
-Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,10,0.409,0.004
-Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,15,0.411,0.004
-Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,66,0.451,0.004
-Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,129,0.463,0.004
-Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,243,0.474,0.004
-Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,486,0.492,0.004
-Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,1093,0.534,0.004
-Africa_Northern,coal,CH4,Coal Mining Activities,0,0.09,0.003
-Africa_Northern,coal,CH4,Coal Mining Activities,5,0.393,0.003
-Africa_Northern,coal,CH4,Coal Mining Activities,10,0.463,0.003
-Africa_Northern,coal,CH4,Coal Mining Activities,15,0.482,0.003
-Africa_Northern,coal,CH4,Coal Mining Activities,32,0.597,0.003
-Africa_Northern,coal,CH4,Coal Mining Activities,66,0.603,0.003
-Africa_Northern,coal,CH4,Coal Mining Activities,129,0.609,0.003
-Africa_Northern,coal,CH4,Coal Mining Activities,243,0.617,0.003
-Africa_Northern,coal,CH4,Coal Mining Activities,486,0.617,0.003
-Africa_Northern,coal,CH4,Coal Mining Activities,1093,0.617,0.003
-Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,0,0.394,0.004
-Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,5,0.406,0.004
-Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,10,0.409,0.004
-Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,15,0.411,0.004
-Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,66,0.451,0.004
-Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,129,0.463,0.004
-Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,243,0.474,0.004
-Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,486,0.492,0.004
-Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,1093,0.534,0.004
-Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,0,0.394,0.004
-Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,5,0.406,0.004
-Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,10,0.409,0.004
-Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,15,0.411,0.004
-Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,66,0.451,0.004
-Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,129,0.463,0.004
-Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,243,0.474,0.004
-Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,486,0.492,0.004
-Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,1093,0.534,0.004
-Africa_Southern,coal,CH4,Coal Mining Activities,0,0.09,0.003
-Africa_Southern,coal,CH4,Coal Mining Activities,5,0.393,0.003
-Africa_Southern,coal,CH4,Coal Mining Activities,10,0.463,0.003
-Africa_Southern,coal,CH4,Coal Mining Activities,15,0.482,0.003
-Africa_Southern,coal,CH4,Coal Mining Activities,32,0.597,0.003
-Africa_Southern,coal,CH4,Coal Mining Activities,66,0.603,0.003
-Africa_Southern,coal,CH4,Coal Mining Activities,129,0.609,0.003
-Africa_Southern,coal,CH4,Coal Mining Activities,243,0.617,0.003
-Africa_Southern,coal,CH4,Coal Mining Activities,486,0.617,0.003
-Africa_Southern,coal,CH4,Coal Mining Activities,1093,0.617,0.003
-Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,0,0.394,0.004
-Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,5,0.406,0.004
-Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,10,0.409,0.004
-Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,15,0.411,0.004
-Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,66,0.451,0.004
-Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,129,0.463,0.004
-Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,243,0.474,0.004
-Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,486,0.492,0.004
-Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,1093,0.534,0.004
-Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,0,0.394,0.004
-Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,5,0.406,0.004
-Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,10,0.409,0.004
-Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,15,0.411,0.004
-Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,66,0.451,0.004
-Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,129,0.463,0.004
-Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,243,0.474,0.004
-Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,486,0.492,0.004
-Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,1093,0.534,0.004
-Africa_Western,coal,CH4,Coal Mining Activities,0,0.09,0.003
-Africa_Western,coal,CH4,Coal Mining Activities,5,0.393,0.003
-Africa_Western,coal,CH4,Coal Mining Activities,10,0.463,0.003
-Africa_Western,coal,CH4,Coal Mining Activities,15,0.482,0.003
-Africa_Western,coal,CH4,Coal Mining Activities,32,0.597,0.003
-Africa_Western,coal,CH4,Coal Mining Activities,66,0.603,0.003
-Africa_Western,coal,CH4,Coal Mining Activities,129,0.609,0.003
-Africa_Western,coal,CH4,Coal Mining Activities,243,0.617,0.003
-Africa_Western,coal,CH4,Coal Mining Activities,486,0.617,0.003
-Africa_Western,coal,CH4,Coal Mining Activities,1093,0.617,0.003
-Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,0,0.394,0.004
-Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,5,0.406,0.004
-Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,10,0.409,0.004
-Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,15,0.411,0.004
-Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,66,0.451,0.004
-Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,129,0.463,0.004
-Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,243,0.474,0.004
-Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,486,0.492,0.004
-Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,1093,0.534,0.004
-Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,0,0.394,0.004
-Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,5,0.406,0.004
-Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,10,0.409,0.004
-Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,15,0.411,0.004
-Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,66,0.451,0.004
-Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,129,0.463,0.004
-Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,243,0.474,0.004
-Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,486,0.492,0.004
-Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,1093,0.534,0.004
-Argentina,coal,CH4,Coal Mining Activities,0,0.117,0.003
-Argentina,coal,CH4,Coal Mining Activities,5,0.239,0.003
-Argentina,coal,CH4,Coal Mining Activities,10,0.359,0.003
-Argentina,coal,CH4,Coal Mining Activities,15,0.466,0.003
-Argentina,coal,CH4,Coal Mining Activities,32,0.499,0.003
-Argentina,coal,CH4,Coal Mining Activities,66,0.558,0.003
-Argentina,coal,CH4,Coal Mining Activities,129,0.618,0.003
-Argentina,coal,CH4,Coal Mining Activities,243,0.618,0.003
-Argentina,coal,CH4,Coal Mining Activities,486,0.624,0.003
-Argentina,coal,CH4,Coal Mining Activities,1093,0.624,0.003
-Argentina,crude oil,CH4,Natural Gas and Oil Systems,0,0.391,0.004
-Argentina,crude oil,CH4,Natural Gas and Oil Systems,5,0.401,0.004
-Argentina,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-Argentina,crude oil,CH4,Natural Gas and Oil Systems,15,0.407,0.004
-Argentina,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-Argentina,crude oil,CH4,Natural Gas and Oil Systems,66,0.458,0.004
-Argentina,crude oil,CH4,Natural Gas and Oil Systems,129,0.46,0.004
-Argentina,crude oil,CH4,Natural Gas and Oil Systems,243,0.487,0.004
-Argentina,crude oil,CH4,Natural Gas and Oil Systems,486,0.499,0.004
-Argentina,crude oil,CH4,Natural Gas and Oil Systems,1093,0.53,0.004
-Argentina,natural gas,CH4,Natural Gas and Oil Systems,0,0.391,0.004
-Argentina,natural gas,CH4,Natural Gas and Oil Systems,5,0.401,0.004
-Argentina,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-Argentina,natural gas,CH4,Natural Gas and Oil Systems,15,0.407,0.004
-Argentina,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-Argentina,natural gas,CH4,Natural Gas and Oil Systems,66,0.458,0.004
-Argentina,natural gas,CH4,Natural Gas and Oil Systems,129,0.46,0.004
-Argentina,natural gas,CH4,Natural Gas and Oil Systems,243,0.487,0.004
-Argentina,natural gas,CH4,Natural Gas and Oil Systems,486,0.499,0.004
-Argentina,natural gas,CH4,Natural Gas and Oil Systems,1093,0.53,0.004
-Australia_NZ,coal,CH4,Coal Mining Activities,0,0.09,0.003
-Australia_NZ,coal,CH4,Coal Mining Activities,5,0.212,0.003
-Australia_NZ,coal,CH4,Coal Mining Activities,10,0.382,0.003
-Australia_NZ,coal,CH4,Coal Mining Activities,15,0.452,0.003
-Australia_NZ,coal,CH4,Coal Mining Activities,32,0.49,0.003
-Australia_NZ,coal,CH4,Coal Mining Activities,66,0.608,0.003
-Australia_NZ,coal,CH4,Coal Mining Activities,129,0.617,0.003
-Australia_NZ,coal,CH4,Coal Mining Activities,243,0.62,0.003
-Australia_NZ,coal,CH4,Coal Mining Activities,486,0.626,0.003
-Australia_NZ,coal,CH4,Coal Mining Activities,1093,0.626,0.003
-Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,0,0.334,0.004
-Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,5,0.364,0.004
-Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,10,0.364,0.004
-Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,15,0.366,0.004
-Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,32,0.435,0.004
-Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,66,0.457,0.004
-Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,129,0.485,0.004
-Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,243,0.519,0.004
-Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,486,0.54,0.004
-Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,1093,0.553,0.004
-Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,0,0.334,0.004
-Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,5,0.364,0.004
-Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,10,0.364,0.004
-Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,15,0.366,0.004
-Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,32,0.435,0.004
-Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,66,0.457,0.004
-Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,129,0.485,0.004
-Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,243,0.519,0.004
-Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,486,0.54,0.004
-Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,1093,0.553,0.004
-Brazil,coal,CH4,Coal Mining Activities,0,0.115,0.003
-Brazil,coal,CH4,Coal Mining Activities,5,0.238,0.003
-Brazil,coal,CH4,Coal Mining Activities,10,0.366,0.003
-Brazil,coal,CH4,Coal Mining Activities,15,0.468,0.003
-Brazil,coal,CH4,Coal Mining Activities,32,0.498,0.003
-Brazil,coal,CH4,Coal Mining Activities,66,0.613,0.003
-Brazil,coal,CH4,Coal Mining Activities,129,0.617,0.003
-Brazil,coal,CH4,Coal Mining Activities,243,0.617,0.003
-Brazil,coal,CH4,Coal Mining Activities,486,0.623,0.003
-Brazil,coal,CH4,Coal Mining Activities,1093,0.623,0.003
-Brazil,crude oil,CH4,Natural Gas and Oil Systems,0,0.38,0.004
-Brazil,crude oil,CH4,Natural Gas and Oil Systems,5,0.396,0.004
-Brazil,crude oil,CH4,Natural Gas and Oil Systems,10,0.397,0.004
-Brazil,crude oil,CH4,Natural Gas and Oil Systems,15,0.397,0.004
-Brazil,crude oil,CH4,Natural Gas and Oil Systems,32,0.414,0.004
-Brazil,crude oil,CH4,Natural Gas and Oil Systems,66,0.429,0.004
-Brazil,crude oil,CH4,Natural Gas and Oil Systems,129,0.429,0.004
-Brazil,crude oil,CH4,Natural Gas and Oil Systems,243,0.443,0.004
-Brazil,crude oil,CH4,Natural Gas and Oil Systems,486,0.452,0.004
-Brazil,crude oil,CH4,Natural Gas and Oil Systems,1093,0.492,0.004
-Brazil,natural gas,CH4,Natural Gas and Oil Systems,0,0.38,0.004
-Brazil,natural gas,CH4,Natural Gas and Oil Systems,5,0.396,0.004
-Brazil,natural gas,CH4,Natural Gas and Oil Systems,10,0.397,0.004
-Brazil,natural gas,CH4,Natural Gas and Oil Systems,15,0.397,0.004
-Brazil,natural gas,CH4,Natural Gas and Oil Systems,32,0.414,0.004
-Brazil,natural gas,CH4,Natural Gas and Oil Systems,66,0.429,0.004
-Brazil,natural gas,CH4,Natural Gas and Oil Systems,129,0.429,0.004
-Brazil,natural gas,CH4,Natural Gas and Oil Systems,243,0.443,0.004
-Brazil,natural gas,CH4,Natural Gas and Oil Systems,486,0.452,0.004
-Brazil,natural gas,CH4,Natural Gas and Oil Systems,1093,0.492,0.004
-Canada,coal,CH4,Coal Mining Activities,0,0.078,0.003
-Canada,coal,CH4,Coal Mining Activities,5,0.195,0.003
-Canada,coal,CH4,Coal Mining Activities,10,0.372,0.003
-Canada,coal,CH4,Coal Mining Activities,15,0.436,0.003
-Canada,coal,CH4,Coal Mining Activities,32,0.471,0.003
-Canada,coal,CH4,Coal Mining Activities,66,0.597,0.003
-Canada,coal,CH4,Coal Mining Activities,129,0.609,0.003
-Canada,coal,CH4,Coal Mining Activities,243,0.612,0.003
-Canada,coal,CH4,Coal Mining Activities,486,0.618,0.003
-Canada,coal,CH4,Coal Mining Activities,1093,0.618,0.003
-Canada,crude oil,CH4,Natural Gas and Oil Systems,0,0.363,0.004
-Canada,crude oil,CH4,Natural Gas and Oil Systems,5,0.386,0.004
-Canada,crude oil,CH4,Natural Gas and Oil Systems,10,0.389,0.004
-Canada,crude oil,CH4,Natural Gas and Oil Systems,15,0.402,0.004
-Canada,crude oil,CH4,Natural Gas and Oil Systems,32,0.416,0.004
-Canada,crude oil,CH4,Natural Gas and Oil Systems,66,0.422,0.004
-Canada,crude oil,CH4,Natural Gas and Oil Systems,129,0.438,0.004
-Canada,crude oil,CH4,Natural Gas and Oil Systems,243,0.447,0.004
-Canada,crude oil,CH4,Natural Gas and Oil Systems,486,0.455,0.004
-Canada,crude oil,CH4,Natural Gas and Oil Systems,1093,0.5,0.004
-Canada,natural gas,CH4,Natural Gas and Oil Systems,0,0.363,0.004
-Canada,natural gas,CH4,Natural Gas and Oil Systems,5,0.386,0.004
-Canada,natural gas,CH4,Natural Gas and Oil Systems,10,0.389,0.004
-Canada,natural gas,CH4,Natural Gas and Oil Systems,15,0.402,0.004
-Canada,natural gas,CH4,Natural Gas and Oil Systems,32,0.416,0.004
-Canada,natural gas,CH4,Natural Gas and Oil Systems,66,0.422,0.004
-Canada,natural gas,CH4,Natural Gas and Oil Systems,129,0.438,0.004
-Canada,natural gas,CH4,Natural Gas and Oil Systems,243,0.447,0.004
-Canada,natural gas,CH4,Natural Gas and Oil Systems,486,0.455,0.004
-Canada,natural gas,CH4,Natural Gas and Oil Systems,1093,0.5,0.004
-Central America and Caribbean,coal,CH4,Coal Mining Activities,0,0.117,0.003
-Central America and Caribbean,coal,CH4,Coal Mining Activities,5,0.239,0.003
-Central America and Caribbean,coal,CH4,Coal Mining Activities,10,0.359,0.003
-Central America and Caribbean,coal,CH4,Coal Mining Activities,15,0.466,0.003
-Central America and Caribbean,coal,CH4,Coal Mining Activities,32,0.499,0.003
-Central America and Caribbean,coal,CH4,Coal Mining Activities,66,0.558,0.003
-Central America and Caribbean,coal,CH4,Coal Mining Activities,129,0.618,0.003
-Central America and Caribbean,coal,CH4,Coal Mining Activities,243,0.618,0.003
-Central America and Caribbean,coal,CH4,Coal Mining Activities,486,0.624,0.003
-Central America and Caribbean,coal,CH4,Coal Mining Activities,1093,0.624,0.003
-Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,0,0.391,0.004
-Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,5,0.401,0.004
-Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,15,0.407,0.004
-Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,66,0.458,0.004
-Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,129,0.46,0.004
-Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,243,0.487,0.004
-Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,486,0.499,0.004
-Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,1093,0.53,0.004
-Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,0,0.391,0.004
-Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,5,0.401,0.004
-Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,15,0.407,0.004
-Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,66,0.458,0.004
-Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,129,0.46,0.004
-Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,243,0.487,0.004
-Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,486,0.499,0.004
-Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,1093,0.53,0.004
-Central Asia,coal,CH4,Coal Mining Activities,0,0.103,0.003
-Central Asia,coal,CH4,Coal Mining Activities,5,0.275,0.003
-Central Asia,coal,CH4,Coal Mining Activities,10,0.399,0.003
-Central Asia,coal,CH4,Coal Mining Activities,15,0.439,0.003
-Central Asia,coal,CH4,Coal Mining Activities,32,0.492,0.003
-Central Asia,coal,CH4,Coal Mining Activities,66,0.557,0.003
-Central Asia,coal,CH4,Coal Mining Activities,129,0.559,0.003
-Central Asia,coal,CH4,Coal Mining Activities,243,0.561,0.003
-Central Asia,coal,CH4,Coal Mining Activities,486,0.564,0.003
-Central Asia,coal,CH4,Coal Mining Activities,1093,0.564,0.003
-Central Asia,crude oil,CH4,Natural Gas and Oil Systems,0,0.343,0.004
-Central Asia,crude oil,CH4,Natural Gas and Oil Systems,5,0.395,0.004
-Central Asia,crude oil,CH4,Natural Gas and Oil Systems,10,0.415,0.004
-Central Asia,crude oil,CH4,Natural Gas and Oil Systems,15,0.433,0.004
-Central Asia,crude oil,CH4,Natural Gas and Oil Systems,32,0.444,0.004
-Central Asia,crude oil,CH4,Natural Gas and Oil Systems,66,0.481,0.004
-Central Asia,crude oil,CH4,Natural Gas and Oil Systems,129,0.525,0.004
-Central Asia,crude oil,CH4,Natural Gas and Oil Systems,243,0.544,0.004
-Central Asia,crude oil,CH4,Natural Gas and Oil Systems,486,0.565,0.004
-Central Asia,crude oil,CH4,Natural Gas and Oil Systems,1093,0.603,0.004
-Central Asia,natural gas,CH4,Natural Gas and Oil Systems,0,0.343,0.004
-Central Asia,natural gas,CH4,Natural Gas and Oil Systems,5,0.395,0.004
-Central Asia,natural gas,CH4,Natural Gas and Oil Systems,10,0.415,0.004
-Central Asia,natural gas,CH4,Natural Gas and Oil Systems,15,0.433,0.004
-Central Asia,natural gas,CH4,Natural Gas and Oil Systems,32,0.444,0.004
-Central Asia,natural gas,CH4,Natural Gas and Oil Systems,66,0.481,0.004
-Central Asia,natural gas,CH4,Natural Gas and Oil Systems,129,0.525,0.004
-Central Asia,natural gas,CH4,Natural Gas and Oil Systems,243,0.544,0.004
-Central Asia,natural gas,CH4,Natural Gas and Oil Systems,486,0.565,0.004
-Central Asia,natural gas,CH4,Natural Gas and Oil Systems,1093,0.603,0.004
-China,coal,CH4,Coal Mining Activities,0,0.101,0.003
-China,coal,CH4,Coal Mining Activities,5,0.338,0.003
-China,coal,CH4,Coal Mining Activities,10,0.462,0.003
-China,coal,CH4,Coal Mining Activities,15,0.474,0.003
-China,coal,CH4,Coal Mining Activities,32,0.535,0.003
-China,coal,CH4,Coal Mining Activities,66,0.612,0.003
-China,coal,CH4,Coal Mining Activities,129,0.613,0.003
-China,coal,CH4,Coal Mining Activities,243,0.619,0.003
-China,coal,CH4,Coal Mining Activities,486,0.619,0.003
-China,coal,CH4,Coal Mining Activities,1093,0.619,0.003
-China,crude oil,CH4,Natural Gas and Oil Systems,0,0.399,0.004
-China,crude oil,CH4,Natural Gas and Oil Systems,5,0.406,0.004
-China,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-China,crude oil,CH4,Natural Gas and Oil Systems,15,0.428,0.004
-China,crude oil,CH4,Natural Gas and Oil Systems,32,0.437,0.004
-China,crude oil,CH4,Natural Gas and Oil Systems,66,0.473,0.004
-China,crude oil,CH4,Natural Gas and Oil Systems,129,0.503,0.004
-China,crude oil,CH4,Natural Gas and Oil Systems,243,0.532,0.004
-China,crude oil,CH4,Natural Gas and Oil Systems,486,0.559,0.004
-China,crude oil,CH4,Natural Gas and Oil Systems,1093,0.58,0.004
-China,natural gas,CH4,Natural Gas and Oil Systems,0,0.399,0.004
-China,natural gas,CH4,Natural Gas and Oil Systems,5,0.406,0.004
-China,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-China,natural gas,CH4,Natural Gas and Oil Systems,15,0.428,0.004
-China,natural gas,CH4,Natural Gas and Oil Systems,32,0.437,0.004
-China,natural gas,CH4,Natural Gas and Oil Systems,66,0.473,0.004
-China,natural gas,CH4,Natural Gas and Oil Systems,129,0.503,0.004
-China,natural gas,CH4,Natural Gas and Oil Systems,243,0.532,0.004
-China,natural gas,CH4,Natural Gas and Oil Systems,486,0.559,0.004
-China,natural gas,CH4,Natural Gas and Oil Systems,1093,0.58,0.004
-Colombia,coal,CH4,Coal Mining Activities,0,0.117,0.003
-Colombia,coal,CH4,Coal Mining Activities,5,0.239,0.003
-Colombia,coal,CH4,Coal Mining Activities,10,0.359,0.003
-Colombia,coal,CH4,Coal Mining Activities,15,0.466,0.003
-Colombia,coal,CH4,Coal Mining Activities,32,0.499,0.003
-Colombia,coal,CH4,Coal Mining Activities,66,0.558,0.003
-Colombia,coal,CH4,Coal Mining Activities,129,0.618,0.003
-Colombia,coal,CH4,Coal Mining Activities,243,0.618,0.003
-Colombia,coal,CH4,Coal Mining Activities,486,0.624,0.003
-Colombia,coal,CH4,Coal Mining Activities,1093,0.624,0.003
-Colombia,crude oil,CH4,Natural Gas and Oil Systems,0,0.391,0.004
-Colombia,crude oil,CH4,Natural Gas and Oil Systems,5,0.401,0.004
-Colombia,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-Colombia,crude oil,CH4,Natural Gas and Oil Systems,15,0.407,0.004
-Colombia,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-Colombia,crude oil,CH4,Natural Gas and Oil Systems,66,0.458,0.004
-Colombia,crude oil,CH4,Natural Gas and Oil Systems,129,0.46,0.004
-Colombia,crude oil,CH4,Natural Gas and Oil Systems,243,0.487,0.004
-Colombia,crude oil,CH4,Natural Gas and Oil Systems,486,0.499,0.004
-Colombia,crude oil,CH4,Natural Gas and Oil Systems,1093,0.53,0.004
-Colombia,natural gas,CH4,Natural Gas and Oil Systems,0,0.391,0.004
-Colombia,natural gas,CH4,Natural Gas and Oil Systems,5,0.401,0.004
-Colombia,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-Colombia,natural gas,CH4,Natural Gas and Oil Systems,15,0.407,0.004
-Colombia,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-Colombia,natural gas,CH4,Natural Gas and Oil Systems,66,0.458,0.004
-Colombia,natural gas,CH4,Natural Gas and Oil Systems,129,0.46,0.004
-Colombia,natural gas,CH4,Natural Gas and Oil Systems,243,0.487,0.004
-Colombia,natural gas,CH4,Natural Gas and Oil Systems,486,0.499,0.004
-Colombia,natural gas,CH4,Natural Gas and Oil Systems,1093,0.53,0.004
-EU-12,coal,CH4,Coal Mining Activities,0,0.095,0.003
-EU-12,coal,CH4,Coal Mining Activities,5,0.203,0.003
-EU-12,coal,CH4,Coal Mining Activities,10,0.349,0.003
-EU-12,coal,CH4,Coal Mining Activities,15,0.411,0.003
-EU-12,coal,CH4,Coal Mining Activities,32,0.441,0.003
-EU-12,coal,CH4,Coal Mining Activities,66,0.533,0.003
-EU-12,coal,CH4,Coal Mining Activities,129,0.55,0.003
-EU-12,coal,CH4,Coal Mining Activities,243,0.551,0.003
-EU-12,coal,CH4,Coal Mining Activities,486,0.556,0.003
-EU-12,coal,CH4,Coal Mining Activities,1093,0.556,0.003
-EU-12,crude oil,CH4,Natural Gas and Oil Systems,0,0.388,0.004
-EU-12,crude oil,CH4,Natural Gas and Oil Systems,5,0.398,0.004
-EU-12,crude oil,CH4,Natural Gas and Oil Systems,10,0.399,0.004
-EU-12,crude oil,CH4,Natural Gas and Oil Systems,15,0.399,0.004
-EU-12,crude oil,CH4,Natural Gas and Oil Systems,32,0.412,0.004
-EU-12,crude oil,CH4,Natural Gas and Oil Systems,66,0.434,0.004
-EU-12,crude oil,CH4,Natural Gas and Oil Systems,129,0.449,0.004
-EU-12,crude oil,CH4,Natural Gas and Oil Systems,243,0.472,0.004
-EU-12,crude oil,CH4,Natural Gas and Oil Systems,486,0.494,0.004
-EU-12,crude oil,CH4,Natural Gas and Oil Systems,1093,0.52,0.004
-EU-12,natural gas,CH4,Natural Gas and Oil Systems,0,0.388,0.004
-EU-12,natural gas,CH4,Natural Gas and Oil Systems,5,0.398,0.004
-EU-12,natural gas,CH4,Natural Gas and Oil Systems,10,0.399,0.004
-EU-12,natural gas,CH4,Natural Gas and Oil Systems,15,0.399,0.004
-EU-12,natural gas,CH4,Natural Gas and Oil Systems,32,0.412,0.004
-EU-12,natural gas,CH4,Natural Gas and Oil Systems,66,0.434,0.004
-EU-12,natural gas,CH4,Natural Gas and Oil Systems,129,0.449,0.004
-EU-12,natural gas,CH4,Natural Gas and Oil Systems,243,0.472,0.004
-EU-12,natural gas,CH4,Natural Gas and Oil Systems,486,0.494,0.004
-EU-12,natural gas,CH4,Natural Gas and Oil Systems,1093,0.52,0.004
-EU-15,coal,CH4,Coal Mining Activities,0,0.095,0.003
-EU-15,coal,CH4,Coal Mining Activities,5,0.203,0.003
-EU-15,coal,CH4,Coal Mining Activities,10,0.349,0.003
-EU-15,coal,CH4,Coal Mining Activities,15,0.411,0.003
-EU-15,coal,CH4,Coal Mining Activities,32,0.441,0.003
-EU-15,coal,CH4,Coal Mining Activities,66,0.533,0.003
-EU-15,coal,CH4,Coal Mining Activities,129,0.55,0.003
-EU-15,coal,CH4,Coal Mining Activities,243,0.551,0.003
-EU-15,coal,CH4,Coal Mining Activities,486,0.556,0.003
-EU-15,coal,CH4,Coal Mining Activities,1093,0.556,0.003
-EU-15,crude oil,CH4,Natural Gas and Oil Systems,0,0.388,0.004
-EU-15,crude oil,CH4,Natural Gas and Oil Systems,5,0.398,0.004
-EU-15,crude oil,CH4,Natural Gas and Oil Systems,10,0.399,0.004
-EU-15,crude oil,CH4,Natural Gas and Oil Systems,15,0.399,0.004
-EU-15,crude oil,CH4,Natural Gas and Oil Systems,32,0.412,0.004
-EU-15,crude oil,CH4,Natural Gas and Oil Systems,66,0.434,0.004
-EU-15,crude oil,CH4,Natural Gas and Oil Systems,129,0.449,0.004
-EU-15,crude oil,CH4,Natural Gas and Oil Systems,243,0.472,0.004
-EU-15,crude oil,CH4,Natural Gas and Oil Systems,486,0.494,0.004
-EU-15,crude oil,CH4,Natural Gas and Oil Systems,1093,0.52,0.004
-EU-15,natural gas,CH4,Natural Gas and Oil Systems,0,0.388,0.004
-EU-15,natural gas,CH4,Natural Gas and Oil Systems,5,0.398,0.004
-EU-15,natural gas,CH4,Natural Gas and Oil Systems,10,0.399,0.004
-EU-15,natural gas,CH4,Natural Gas and Oil Systems,15,0.399,0.004
-EU-15,natural gas,CH4,Natural Gas and Oil Systems,32,0.412,0.004
-EU-15,natural gas,CH4,Natural Gas and Oil Systems,66,0.434,0.004
-EU-15,natural gas,CH4,Natural Gas and Oil Systems,129,0.449,0.004
-EU-15,natural gas,CH4,Natural Gas and Oil Systems,243,0.472,0.004
-EU-15,natural gas,CH4,Natural Gas and Oil Systems,486,0.494,0.004
-EU-15,natural gas,CH4,Natural Gas and Oil Systems,1093,0.52,0.004
-Europe_Eastern,coal,CH4,Coal Mining Activities,0,0.103,0.003
-Europe_Eastern,coal,CH4,Coal Mining Activities,5,0.275,0.003
-Europe_Eastern,coal,CH4,Coal Mining Activities,10,0.399,0.003
-Europe_Eastern,coal,CH4,Coal Mining Activities,15,0.439,0.003
-Europe_Eastern,coal,CH4,Coal Mining Activities,32,0.492,0.003
-Europe_Eastern,coal,CH4,Coal Mining Activities,66,0.557,0.003
-Europe_Eastern,coal,CH4,Coal Mining Activities,129,0.559,0.003
-Europe_Eastern,coal,CH4,Coal Mining Activities,243,0.561,0.003
-Europe_Eastern,coal,CH4,Coal Mining Activities,486,0.564,0.003
-Europe_Eastern,coal,CH4,Coal Mining Activities,1093,0.564,0.003
-Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,0,0.343,0.004
-Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,5,0.395,0.004
-Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,10,0.415,0.004
-Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,15,0.433,0.004
-Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,32,0.444,0.004
-Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,66,0.481,0.004
-Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,129,0.525,0.004
-Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,243,0.544,0.004
-Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,486,0.565,0.004
-Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,1093,0.603,0.004
-Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,0,0.343,0.004
-Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,5,0.395,0.004
-Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,10,0.415,0.004
-Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,15,0.433,0.004
-Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,32,0.444,0.004
-Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,66,0.481,0.004
-Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,129,0.525,0.004
-Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,243,0.544,0.004
-Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,486,0.565,0.004
-Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,1093,0.603,0.004
-Europe_Non_EU,coal,CH4,Coal Mining Activities,0,0.047,0.003
-Europe_Non_EU,coal,CH4,Coal Mining Activities,5,0.093,0.003
-Europe_Non_EU,coal,CH4,Coal Mining Activities,10,0.137,0.003
-Europe_Non_EU,coal,CH4,Coal Mining Activities,15,0.175,0.003
-Europe_Non_EU,coal,CH4,Coal Mining Activities,32,0.184,0.003
-Europe_Non_EU,coal,CH4,Coal Mining Activities,66,0.21,0.003
-Europe_Non_EU,coal,CH4,Coal Mining Activities,129,0.233,0.003
-Europe_Non_EU,coal,CH4,Coal Mining Activities,243,0.233,0.003
-Europe_Non_EU,coal,CH4,Coal Mining Activities,486,0.235,0.003
-Europe_Non_EU,coal,CH4,Coal Mining Activities,1093,0.235,0.003
-Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,0,0.303,0.004
-Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,5,0.304,0.004
-Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,10,0.304,0.004
-Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,15,0.304,0.004
-Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,32,0.308,0.004
-Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,66,0.313,0.004
-Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,129,0.318,0.004
-Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,243,0.322,0.004
-Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,486,0.324,0.004
-Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,1093,0.326,0.004
-Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,0,0.303,0.004
-Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,5,0.304,0.004
-Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,10,0.304,0.004
-Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,15,0.304,0.004
-Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,32,0.308,0.004
-Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,66,0.313,0.004
-Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,129,0.318,0.004
-Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,243,0.322,0.004
-Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,486,0.324,0.004
-Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,1093,0.326,0.004
-European Free Trade Association,coal,CH4,Coal Mining Activities,0,0.095,0.003
-European Free Trade Association,coal,CH4,Coal Mining Activities,5,0.203,0.003
-European Free Trade Association,coal,CH4,Coal Mining Activities,10,0.349,0.003
-European Free Trade Association,coal,CH4,Coal Mining Activities,15,0.411,0.003
-European Free Trade Association,coal,CH4,Coal Mining Activities,32,0.441,0.003
-European Free Trade Association,coal,CH4,Coal Mining Activities,66,0.533,0.003
-European Free Trade Association,coal,CH4,Coal Mining Activities,129,0.55,0.003
-European Free Trade Association,coal,CH4,Coal Mining Activities,243,0.551,0.003
-European Free Trade Association,coal,CH4,Coal Mining Activities,486,0.556,0.003
-European Free Trade Association,coal,CH4,Coal Mining Activities,1093,0.556,0.003
-European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,0,0.388,0.004
-European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,5,0.398,0.004
-European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,10,0.399,0.004
-European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,15,0.399,0.004
-European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,32,0.412,0.004
-European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,66,0.434,0.004
-European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,129,0.449,0.004
-European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,243,0.472,0.004
-European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,486,0.494,0.004
-European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,1093,0.52,0.004
-European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,0,0.388,0.004
-European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,5,0.398,0.004
-European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,10,0.399,0.004
-European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,15,0.399,0.004
-European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,32,0.412,0.004
-European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,66,0.434,0.004
-European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,129,0.449,0.004
-European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,243,0.472,0.004
-European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,486,0.494,0.004
-European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,1093,0.52,0.004
-India,coal,CH4,Coal Mining Activities,0,0.14,0.003
-India,coal,CH4,Coal Mining Activities,5,0.265,0.003
-India,coal,CH4,Coal Mining Activities,10,0.39,0.003
-India,coal,CH4,Coal Mining Activities,15,0.491,0.003
-India,coal,CH4,Coal Mining Activities,32,0.519,0.003
-India,coal,CH4,Coal Mining Activities,66,0.632,0.003
-India,coal,CH4,Coal Mining Activities,129,0.636,0.003
-India,coal,CH4,Coal Mining Activities,243,0.636,0.003
-India,coal,CH4,Coal Mining Activities,486,0.641,0.003
-India,coal,CH4,Coal Mining Activities,1093,0.641,0.003
-India,crude oil,CH4,Natural Gas and Oil Systems,0,0.364,0.004
-India,crude oil,CH4,Natural Gas and Oil Systems,5,0.371,0.004
-India,crude oil,CH4,Natural Gas and Oil Systems,10,0.372,0.004
-India,crude oil,CH4,Natural Gas and Oil Systems,15,0.421,0.004
-India,crude oil,CH4,Natural Gas and Oil Systems,32,0.424,0.004
-India,crude oil,CH4,Natural Gas and Oil Systems,66,0.445,0.004
-India,crude oil,CH4,Natural Gas and Oil Systems,129,0.457,0.004
-India,crude oil,CH4,Natural Gas and Oil Systems,243,0.468,0.004
-India,crude oil,CH4,Natural Gas and Oil Systems,486,0.494,0.004
-India,crude oil,CH4,Natural Gas and Oil Systems,1093,0.515,0.004
-India,natural gas,CH4,Natural Gas and Oil Systems,0,0.364,0.004
-India,natural gas,CH4,Natural Gas and Oil Systems,5,0.371,0.004
-India,natural gas,CH4,Natural Gas and Oil Systems,10,0.372,0.004
-India,natural gas,CH4,Natural Gas and Oil Systems,15,0.421,0.004
-India,natural gas,CH4,Natural Gas and Oil Systems,32,0.424,0.004
-India,natural gas,CH4,Natural Gas and Oil Systems,66,0.445,0.004
-India,natural gas,CH4,Natural Gas and Oil Systems,129,0.457,0.004
-India,natural gas,CH4,Natural Gas and Oil Systems,243,0.468,0.004
-India,natural gas,CH4,Natural Gas and Oil Systems,486,0.494,0.004
-India,natural gas,CH4,Natural Gas and Oil Systems,1093,0.515,0.004
-Indonesia,coal,CH4,Coal Mining Activities,0,0.119,0.003
-Indonesia,coal,CH4,Coal Mining Activities,5,0.28,0.003
-Indonesia,coal,CH4,Coal Mining Activities,10,0.417,0.003
-Indonesia,coal,CH4,Coal Mining Activities,15,0.482,0.003
-Indonesia,coal,CH4,Coal Mining Activities,32,0.512,0.003
-Indonesia,coal,CH4,Coal Mining Activities,66,0.615,0.003
-Indonesia,coal,CH4,Coal Mining Activities,129,0.618,0.003
-Indonesia,coal,CH4,Coal Mining Activities,243,0.624,0.003
-Indonesia,coal,CH4,Coal Mining Activities,486,0.624,0.003
-Indonesia,coal,CH4,Coal Mining Activities,1093,0.624,0.003
-Indonesia,crude oil,CH4,Natural Gas and Oil Systems,0,0.359,0.004
-Indonesia,crude oil,CH4,Natural Gas and Oil Systems,5,0.367,0.004
-Indonesia,crude oil,CH4,Natural Gas and Oil Systems,10,0.367,0.004
-Indonesia,crude oil,CH4,Natural Gas and Oil Systems,15,0.405,0.004
-Indonesia,crude oil,CH4,Natural Gas and Oil Systems,32,0.429,0.004
-Indonesia,crude oil,CH4,Natural Gas and Oil Systems,66,0.448,0.004
-Indonesia,crude oil,CH4,Natural Gas and Oil Systems,129,0.455,0.004
-Indonesia,crude oil,CH4,Natural Gas and Oil Systems,243,0.461,0.004
-Indonesia,crude oil,CH4,Natural Gas and Oil Systems,486,0.478,0.004
-Indonesia,crude oil,CH4,Natural Gas and Oil Systems,1093,0.503,0.004
-Indonesia,natural gas,CH4,Natural Gas and Oil Systems,0,0.359,0.004
-Indonesia,natural gas,CH4,Natural Gas and Oil Systems,5,0.367,0.004
-Indonesia,natural gas,CH4,Natural Gas and Oil Systems,10,0.367,0.004
-Indonesia,natural gas,CH4,Natural Gas and Oil Systems,15,0.405,0.004
-Indonesia,natural gas,CH4,Natural Gas and Oil Systems,32,0.429,0.004
-Indonesia,natural gas,CH4,Natural Gas and Oil Systems,66,0.448,0.004
-Indonesia,natural gas,CH4,Natural Gas and Oil Systems,129,0.455,0.004
-Indonesia,natural gas,CH4,Natural Gas and Oil Systems,243,0.461,0.004
-Indonesia,natural gas,CH4,Natural Gas and Oil Systems,486,0.478,0.004
-Indonesia,natural gas,CH4,Natural Gas and Oil Systems,1093,0.503,0.004
-Japan,coal,CH4,Coal Mining Activities,0,0.105,0.003
-Japan,coal,CH4,Coal Mining Activities,5,0.326,0.003
-Japan,coal,CH4,Coal Mining Activities,10,0.457,0.003
-Japan,coal,CH4,Coal Mining Activities,15,0.476,0.003
-Japan,coal,CH4,Coal Mining Activities,32,0.542,0.003
-Japan,coal,CH4,Coal Mining Activities,66,0.613,0.003
-Japan,coal,CH4,Coal Mining Activities,129,0.615,0.003
-Japan,coal,CH4,Coal Mining Activities,243,0.62,0.003
-Japan,coal,CH4,Coal Mining Activities,486,0.621,0.003
-Japan,coal,CH4,Coal Mining Activities,1093,0.621,0.003
-Japan,crude oil,CH4,Natural Gas and Oil Systems,0,0.358,0.004
-Japan,crude oil,CH4,Natural Gas and Oil Systems,5,0.367,0.004
-Japan,crude oil,CH4,Natural Gas and Oil Systems,10,0.371,0.004
-Japan,crude oil,CH4,Natural Gas and Oil Systems,15,0.392,0.004
-Japan,crude oil,CH4,Natural Gas and Oil Systems,32,0.426,0.004
-Japan,crude oil,CH4,Natural Gas and Oil Systems,66,0.44,0.004
-Japan,crude oil,CH4,Natural Gas and Oil Systems,129,0.452,0.004
-Japan,crude oil,CH4,Natural Gas and Oil Systems,243,0.459,0.004
-Japan,crude oil,CH4,Natural Gas and Oil Systems,486,0.478,0.004
-Japan,crude oil,CH4,Natural Gas and Oil Systems,1093,0.502,0.004
-Japan,natural gas,CH4,Natural Gas and Oil Systems,0,0.358,0.004
-Japan,natural gas,CH4,Natural Gas and Oil Systems,5,0.367,0.004
-Japan,natural gas,CH4,Natural Gas and Oil Systems,10,0.371,0.004
-Japan,natural gas,CH4,Natural Gas and Oil Systems,15,0.392,0.004
-Japan,natural gas,CH4,Natural Gas and Oil Systems,32,0.426,0.004
-Japan,natural gas,CH4,Natural Gas and Oil Systems,66,0.44,0.004
-Japan,natural gas,CH4,Natural Gas and Oil Systems,129,0.452,0.004
-Japan,natural gas,CH4,Natural Gas and Oil Systems,243,0.459,0.004
-Japan,natural gas,CH4,Natural Gas and Oil Systems,486,0.478,0.004
-Japan,natural gas,CH4,Natural Gas and Oil Systems,1093,0.502,0.004
-Mexico,coal,CH4,Coal Mining Activities,0,0.119,0.003
-Mexico,coal,CH4,Coal Mining Activities,5,0.242,0.003
-Mexico,coal,CH4,Coal Mining Activities,10,0.419,0.003
-Mexico,coal,CH4,Coal Mining Activities,15,0.477,0.003
-Mexico,coal,CH4,Coal Mining Activities,32,0.503,0.003
-Mexico,coal,CH4,Coal Mining Activities,66,0.615,0.003
-Mexico,coal,CH4,Coal Mining Activities,129,0.62,0.003
-Mexico,coal,CH4,Coal Mining Activities,243,0.62,0.003
-Mexico,coal,CH4,Coal Mining Activities,486,0.625,0.003
-Mexico,coal,CH4,Coal Mining Activities,1093,0.625,0.003
-Mexico,crude oil,CH4,Natural Gas and Oil Systems,0,0.389,0.004
-Mexico,crude oil,CH4,Natural Gas and Oil Systems,5,0.402,0.004
-Mexico,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-Mexico,crude oil,CH4,Natural Gas and Oil Systems,15,0.406,0.004
-Mexico,crude oil,CH4,Natural Gas and Oil Systems,32,0.423,0.004
-Mexico,crude oil,CH4,Natural Gas and Oil Systems,66,0.438,0.004
-Mexico,crude oil,CH4,Natural Gas and Oil Systems,129,0.447,0.004
-Mexico,crude oil,CH4,Natural Gas and Oil Systems,243,0.455,0.004
-Mexico,crude oil,CH4,Natural Gas and Oil Systems,486,0.46,0.004
-Mexico,crude oil,CH4,Natural Gas and Oil Systems,1093,0.523,0.004
-Mexico,natural gas,CH4,Natural Gas and Oil Systems,0,0.389,0.004
-Mexico,natural gas,CH4,Natural Gas and Oil Systems,5,0.402,0.004
-Mexico,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-Mexico,natural gas,CH4,Natural Gas and Oil Systems,15,0.406,0.004
-Mexico,natural gas,CH4,Natural Gas and Oil Systems,32,0.423,0.004
-Mexico,natural gas,CH4,Natural Gas and Oil Systems,66,0.438,0.004
-Mexico,natural gas,CH4,Natural Gas and Oil Systems,129,0.447,0.004
-Mexico,natural gas,CH4,Natural Gas and Oil Systems,243,0.455,0.004
-Mexico,natural gas,CH4,Natural Gas and Oil Systems,486,0.46,0.004
-Mexico,natural gas,CH4,Natural Gas and Oil Systems,1093,0.523,0.004
-Middle East,coal,CH4,Coal Mining Activities,0,0.114,0.003
-Middle East,coal,CH4,Coal Mining Activities,5,0.234,0.003
-Middle East,coal,CH4,Coal Mining Activities,10,0.414,0.003
-Middle East,coal,CH4,Coal Mining Activities,15,0.473,0.003
-Middle East,coal,CH4,Coal Mining Activities,32,0.5,0.003
-Middle East,coal,CH4,Coal Mining Activities,66,0.614,0.003
-Middle East,coal,CH4,Coal Mining Activities,129,0.619,0.003
-Middle East,coal,CH4,Coal Mining Activities,243,0.619,0.003
-Middle East,coal,CH4,Coal Mining Activities,486,0.625,0.003
-Middle East,coal,CH4,Coal Mining Activities,1093,0.625,0.003
-Middle East,crude oil,CH4,Natural Gas and Oil Systems,0,0.394,0.004
-Middle East,crude oil,CH4,Natural Gas and Oil Systems,5,0.405,0.004
-Middle East,crude oil,CH4,Natural Gas and Oil Systems,10,0.405,0.004
-Middle East,crude oil,CH4,Natural Gas and Oil Systems,15,0.405,0.004
-Middle East,crude oil,CH4,Natural Gas and Oil Systems,32,0.428,0.004
-Middle East,crude oil,CH4,Natural Gas and Oil Systems,66,0.445,0.004
-Middle East,crude oil,CH4,Natural Gas and Oil Systems,129,0.457,0.004
-Middle East,crude oil,CH4,Natural Gas and Oil Systems,243,0.48,0.004
-Middle East,crude oil,CH4,Natural Gas and Oil Systems,486,0.496,0.004
-Middle East,crude oil,CH4,Natural Gas and Oil Systems,1093,0.53,0.004
-Middle East,natural gas,CH4,Natural Gas and Oil Systems,0,0.394,0.004
-Middle East,natural gas,CH4,Natural Gas and Oil Systems,5,0.405,0.004
-Middle East,natural gas,CH4,Natural Gas and Oil Systems,10,0.405,0.004
-Middle East,natural gas,CH4,Natural Gas and Oil Systems,15,0.405,0.004
-Middle East,natural gas,CH4,Natural Gas and Oil Systems,32,0.428,0.004
-Middle East,natural gas,CH4,Natural Gas and Oil Systems,66,0.445,0.004
-Middle East,natural gas,CH4,Natural Gas and Oil Systems,129,0.457,0.004
-Middle East,natural gas,CH4,Natural Gas and Oil Systems,243,0.48,0.004
-Middle East,natural gas,CH4,Natural Gas and Oil Systems,486,0.496,0.004
-Middle East,natural gas,CH4,Natural Gas and Oil Systems,1093,0.53,0.004
-Pakistan,coal,CH4,Coal Mining Activities,0,0.105,0.003
-Pakistan,coal,CH4,Coal Mining Activities,5,0.326,0.003
-Pakistan,coal,CH4,Coal Mining Activities,10,0.457,0.003
-Pakistan,coal,CH4,Coal Mining Activities,15,0.476,0.003
-Pakistan,coal,CH4,Coal Mining Activities,32,0.542,0.003
-Pakistan,coal,CH4,Coal Mining Activities,66,0.613,0.003
-Pakistan,coal,CH4,Coal Mining Activities,129,0.615,0.003
-Pakistan,coal,CH4,Coal Mining Activities,243,0.62,0.003
-Pakistan,coal,CH4,Coal Mining Activities,486,0.621,0.003
-Pakistan,coal,CH4,Coal Mining Activities,1093,0.621,0.003
-Pakistan,crude oil,CH4,Natural Gas and Oil Systems,0,0.358,0.004
-Pakistan,crude oil,CH4,Natural Gas and Oil Systems,5,0.367,0.004
-Pakistan,crude oil,CH4,Natural Gas and Oil Systems,10,0.371,0.004
-Pakistan,crude oil,CH4,Natural Gas and Oil Systems,15,0.392,0.004
-Pakistan,crude oil,CH4,Natural Gas and Oil Systems,32,0.426,0.004
-Pakistan,crude oil,CH4,Natural Gas and Oil Systems,66,0.44,0.004
-Pakistan,crude oil,CH4,Natural Gas and Oil Systems,129,0.452,0.004
-Pakistan,crude oil,CH4,Natural Gas and Oil Systems,243,0.459,0.004
-Pakistan,crude oil,CH4,Natural Gas and Oil Systems,486,0.478,0.004
-Pakistan,crude oil,CH4,Natural Gas and Oil Systems,1093,0.502,0.004
-Pakistan,natural gas,CH4,Natural Gas and Oil Systems,0,0.358,0.004
-Pakistan,natural gas,CH4,Natural Gas and Oil Systems,5,0.367,0.004
-Pakistan,natural gas,CH4,Natural Gas and Oil Systems,10,0.371,0.004
-Pakistan,natural gas,CH4,Natural Gas and Oil Systems,15,0.392,0.004
-Pakistan,natural gas,CH4,Natural Gas and Oil Systems,32,0.426,0.004
-Pakistan,natural gas,CH4,Natural Gas and Oil Systems,66,0.44,0.004
-Pakistan,natural gas,CH4,Natural Gas and Oil Systems,129,0.452,0.004
-Pakistan,natural gas,CH4,Natural Gas and Oil Systems,243,0.459,0.004
-Pakistan,natural gas,CH4,Natural Gas and Oil Systems,486,0.478,0.004
-Pakistan,natural gas,CH4,Natural Gas and Oil Systems,1093,0.502,0.004
-Russia,coal,CH4,Coal Mining Activities,0,0.123,0.003
-Russia,coal,CH4,Coal Mining Activities,5,0.362,0.003
-Russia,coal,CH4,Coal Mining Activities,10,0.48,0.003
-Russia,coal,CH4,Coal Mining Activities,15,0.486,0.003
-Russia,coal,CH4,Coal Mining Activities,32,0.558,0.003
-Russia,coal,CH4,Coal Mining Activities,66,0.619,0.003
-Russia,coal,CH4,Coal Mining Activities,129,0.62,0.003
-Russia,coal,CH4,Coal Mining Activities,243,0.625,0.003
-Russia,coal,CH4,Coal Mining Activities,486,0.625,0.003
-Russia,coal,CH4,Coal Mining Activities,1093,0.625,0.003
-Russia,crude oil,CH4,Natural Gas and Oil Systems,0,0.331,0.004
-Russia,crude oil,CH4,Natural Gas and Oil Systems,5,0.398,0.004
-Russia,crude oil,CH4,Natural Gas and Oil Systems,10,0.413,0.004
-Russia,crude oil,CH4,Natural Gas and Oil Systems,15,0.445,0.004
-Russia,crude oil,CH4,Natural Gas and Oil Systems,32,0.45,0.004
-Russia,crude oil,CH4,Natural Gas and Oil Systems,66,0.493,0.004
-Russia,crude oil,CH4,Natural Gas and Oil Systems,129,0.543,0.004
-Russia,crude oil,CH4,Natural Gas and Oil Systems,243,0.557,0.004
-Russia,crude oil,CH4,Natural Gas and Oil Systems,486,0.586,0.004
-Russia,crude oil,CH4,Natural Gas and Oil Systems,1093,0.609,0.004
-Russia,natural gas,CH4,Natural Gas and Oil Systems,0,0.331,0.004
-Russia,natural gas,CH4,Natural Gas and Oil Systems,5,0.398,0.004
-Russia,natural gas,CH4,Natural Gas and Oil Systems,10,0.413,0.004
-Russia,natural gas,CH4,Natural Gas and Oil Systems,15,0.445,0.004
-Russia,natural gas,CH4,Natural Gas and Oil Systems,32,0.45,0.004
-Russia,natural gas,CH4,Natural Gas and Oil Systems,66,0.493,0.004
-Russia,natural gas,CH4,Natural Gas and Oil Systems,129,0.543,0.004
-Russia,natural gas,CH4,Natural Gas and Oil Systems,243,0.557,0.004
-Russia,natural gas,CH4,Natural Gas and Oil Systems,486,0.586,0.004
-Russia,natural gas,CH4,Natural Gas and Oil Systems,1093,0.609,0.004
-South Africa,coal,CH4,Coal Mining Activities,0,0.09,0.003
-South Africa,coal,CH4,Coal Mining Activities,5,0.393,0.003
-South Africa,coal,CH4,Coal Mining Activities,10,0.463,0.003
-South Africa,coal,CH4,Coal Mining Activities,15,0.482,0.003
-South Africa,coal,CH4,Coal Mining Activities,32,0.597,0.003
-South Africa,coal,CH4,Coal Mining Activities,66,0.603,0.003
-South Africa,coal,CH4,Coal Mining Activities,129,0.609,0.003
-South Africa,coal,CH4,Coal Mining Activities,243,0.617,0.003
-South Africa,coal,CH4,Coal Mining Activities,486,0.617,0.003
-South Africa,coal,CH4,Coal Mining Activities,1093,0.617,0.003
-South Africa,crude oil,CH4,Natural Gas and Oil Systems,0,0.394,0.004
-South Africa,crude oil,CH4,Natural Gas and Oil Systems,5,0.406,0.004
-South Africa,crude oil,CH4,Natural Gas and Oil Systems,10,0.409,0.004
-South Africa,crude oil,CH4,Natural Gas and Oil Systems,15,0.411,0.004
-South Africa,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-South Africa,crude oil,CH4,Natural Gas and Oil Systems,66,0.451,0.004
-South Africa,crude oil,CH4,Natural Gas and Oil Systems,129,0.463,0.004
-South Africa,crude oil,CH4,Natural Gas and Oil Systems,243,0.474,0.004
-South Africa,crude oil,CH4,Natural Gas and Oil Systems,486,0.492,0.004
-South Africa,crude oil,CH4,Natural Gas and Oil Systems,1093,0.534,0.004
-South Africa,natural gas,CH4,Natural Gas and Oil Systems,0,0.394,0.004
-South Africa,natural gas,CH4,Natural Gas and Oil Systems,5,0.406,0.004
-South Africa,natural gas,CH4,Natural Gas and Oil Systems,10,0.409,0.004
-South Africa,natural gas,CH4,Natural Gas and Oil Systems,15,0.411,0.004
-South Africa,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-South Africa,natural gas,CH4,Natural Gas and Oil Systems,66,0.451,0.004
-South Africa,natural gas,CH4,Natural Gas and Oil Systems,129,0.463,0.004
-South Africa,natural gas,CH4,Natural Gas and Oil Systems,243,0.474,0.004
-South Africa,natural gas,CH4,Natural Gas and Oil Systems,486,0.492,0.004
-South Africa,natural gas,CH4,Natural Gas and Oil Systems,1093,0.534,0.004
-South America_Northern,coal,CH4,Coal Mining Activities,0,0.117,0.003
-South America_Northern,coal,CH4,Coal Mining Activities,5,0.239,0.003
-South America_Northern,coal,CH4,Coal Mining Activities,10,0.359,0.003
-South America_Northern,coal,CH4,Coal Mining Activities,15,0.466,0.003
-South America_Northern,coal,CH4,Coal Mining Activities,32,0.499,0.003
-South America_Northern,coal,CH4,Coal Mining Activities,66,0.558,0.003
-South America_Northern,coal,CH4,Coal Mining Activities,129,0.618,0.003
-South America_Northern,coal,CH4,Coal Mining Activities,243,0.618,0.003
-South America_Northern,coal,CH4,Coal Mining Activities,486,0.624,0.003
-South America_Northern,coal,CH4,Coal Mining Activities,1093,0.624,0.003
-South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,0,0.391,0.004
-South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,5,0.401,0.004
-South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,15,0.407,0.004
-South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,66,0.458,0.004
-South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,129,0.46,0.004
-South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,243,0.487,0.004
-South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,486,0.499,0.004
-South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,1093,0.53,0.004
-South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,0,0.391,0.004
-South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,5,0.401,0.004
-South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,15,0.407,0.004
-South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,66,0.458,0.004
-South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,129,0.46,0.004
-South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,243,0.487,0.004
-South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,486,0.499,0.004
-South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,1093,0.53,0.004
-South America_Southern,coal,CH4,Coal Mining Activities,0,0.117,0.003
-South America_Southern,coal,CH4,Coal Mining Activities,5,0.239,0.003
-South America_Southern,coal,CH4,Coal Mining Activities,10,0.359,0.003
-South America_Southern,coal,CH4,Coal Mining Activities,15,0.466,0.003
-South America_Southern,coal,CH4,Coal Mining Activities,32,0.499,0.003
-South America_Southern,coal,CH4,Coal Mining Activities,66,0.558,0.003
-South America_Southern,coal,CH4,Coal Mining Activities,129,0.618,0.003
-South America_Southern,coal,CH4,Coal Mining Activities,243,0.618,0.003
-South America_Southern,coal,CH4,Coal Mining Activities,486,0.624,0.003
-South America_Southern,coal,CH4,Coal Mining Activities,1093,0.624,0.003
-South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,0,0.391,0.004
-South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,5,0.401,0.004
-South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,15,0.407,0.004
-South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,66,0.458,0.004
-South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,129,0.46,0.004
-South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,243,0.487,0.004
-South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,486,0.499,0.004
-South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,1093,0.53,0.004
-South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,0,0.391,0.004
-South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,5,0.401,0.004
-South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,15,0.407,0.004
-South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,0.004
-South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,66,0.458,0.004
-South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,129,0.46,0.004
-South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,243,0.487,0.004
-South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,486,0.499,0.004
-South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,1093,0.53,0.004
-South Asia,coal,CH4,Coal Mining Activities,0,0.105,0.003
-South Asia,coal,CH4,Coal Mining Activities,5,0.326,0.003
-South Asia,coal,CH4,Coal Mining Activities,10,0.457,0.003
-South Asia,coal,CH4,Coal Mining Activities,15,0.476,0.003
-South Asia,coal,CH4,Coal Mining Activities,32,0.542,0.003
-South Asia,coal,CH4,Coal Mining Activities,66,0.613,0.003
-South Asia,coal,CH4,Coal Mining Activities,129,0.615,0.003
-South Asia,coal,CH4,Coal Mining Activities,243,0.62,0.003
-South Asia,coal,CH4,Coal Mining Activities,486,0.621,0.003
-South Asia,coal,CH4,Coal Mining Activities,1093,0.621,0.003
-South Asia,crude oil,CH4,Natural Gas and Oil Systems,0,0.358,0.004
-South Asia,crude oil,CH4,Natural Gas and Oil Systems,5,0.367,0.004
-South Asia,crude oil,CH4,Natural Gas and Oil Systems,10,0.371,0.004
-South Asia,crude oil,CH4,Natural Gas and Oil Systems,15,0.392,0.004
-South Asia,crude oil,CH4,Natural Gas and Oil Systems,32,0.426,0.004
-South Asia,crude oil,CH4,Natural Gas and Oil Systems,66,0.44,0.004
-South Asia,crude oil,CH4,Natural Gas and Oil Systems,129,0.452,0.004
-South Asia,crude oil,CH4,Natural Gas and Oil Systems,243,0.459,0.004
-South Asia,crude oil,CH4,Natural Gas and Oil Systems,486,0.478,0.004
-South Asia,crude oil,CH4,Natural Gas and Oil Systems,1093,0.502,0.004
-South Asia,natural gas,CH4,Natural Gas and Oil Systems,0,0.358,0.004
-South Asia,natural gas,CH4,Natural Gas and Oil Systems,5,0.367,0.004
-South Asia,natural gas,CH4,Natural Gas and Oil Systems,10,0.371,0.004
-South Asia,natural gas,CH4,Natural Gas and Oil Systems,15,0.392,0.004
-South Asia,natural gas,CH4,Natural Gas and Oil Systems,32,0.426,0.004
-South Asia,natural gas,CH4,Natural Gas and Oil Systems,66,0.44,0.004
-South Asia,natural gas,CH4,Natural Gas and Oil Systems,129,0.452,0.004
-South Asia,natural gas,CH4,Natural Gas and Oil Systems,243,0.459,0.004
-South Asia,natural gas,CH4,Natural Gas and Oil Systems,486,0.478,0.004
-South Asia,natural gas,CH4,Natural Gas and Oil Systems,1093,0.502,0.004
-South Korea,coal,CH4,Coal Mining Activities,0,0.105,0.003
-South Korea,coal,CH4,Coal Mining Activities,5,0.326,0.003
-South Korea,coal,CH4,Coal Mining Activities,10,0.457,0.003
-South Korea,coal,CH4,Coal Mining Activities,15,0.476,0.003
-South Korea,coal,CH4,Coal Mining Activities,32,0.542,0.003
-South Korea,coal,CH4,Coal Mining Activities,66,0.613,0.003
-South Korea,coal,CH4,Coal Mining Activities,129,0.615,0.003
-South Korea,coal,CH4,Coal Mining Activities,243,0.62,0.003
-South Korea,coal,CH4,Coal Mining Activities,486,0.621,0.003
-South Korea,coal,CH4,Coal Mining Activities,1093,0.621,0.003
-South Korea,crude oil,CH4,Natural Gas and Oil Systems,0,0.358,0.004
-South Korea,crude oil,CH4,Natural Gas and Oil Systems,5,0.367,0.004
-South Korea,crude oil,CH4,Natural Gas and Oil Systems,10,0.371,0.004
-South Korea,crude oil,CH4,Natural Gas and Oil Systems,15,0.392,0.004
-South Korea,crude oil,CH4,Natural Gas and Oil Systems,32,0.426,0.004
-South Korea,crude oil,CH4,Natural Gas and Oil Systems,66,0.44,0.004
-South Korea,crude oil,CH4,Natural Gas and Oil Systems,129,0.452,0.004
-South Korea,crude oil,CH4,Natural Gas and Oil Systems,243,0.459,0.004
-South Korea,crude oil,CH4,Natural Gas and Oil Systems,486,0.478,0.004
-South Korea,crude oil,CH4,Natural Gas and Oil Systems,1093,0.502,0.004
-South Korea,natural gas,CH4,Natural Gas and Oil Systems,0,0.358,0.004
-South Korea,natural gas,CH4,Natural Gas and Oil Systems,5,0.367,0.004
-South Korea,natural gas,CH4,Natural Gas and Oil Systems,10,0.371,0.004
-South Korea,natural gas,CH4,Natural Gas and Oil Systems,15,0.392,0.004
-South Korea,natural gas,CH4,Natural Gas and Oil Systems,32,0.426,0.004
-South Korea,natural gas,CH4,Natural Gas and Oil Systems,66,0.44,0.004
-South Korea,natural gas,CH4,Natural Gas and Oil Systems,129,0.452,0.004
-South Korea,natural gas,CH4,Natural Gas and Oil Systems,243,0.459,0.004
-South Korea,natural gas,CH4,Natural Gas and Oil Systems,486,0.478,0.004
-South Korea,natural gas,CH4,Natural Gas and Oil Systems,1093,0.502,0.004
-Southeast Asia,coal,CH4,Coal Mining Activities,0,0.105,0.003
-Southeast Asia,coal,CH4,Coal Mining Activities,5,0.326,0.003
-Southeast Asia,coal,CH4,Coal Mining Activities,10,0.457,0.003
-Southeast Asia,coal,CH4,Coal Mining Activities,15,0.476,0.003
-Southeast Asia,coal,CH4,Coal Mining Activities,32,0.542,0.003
-Southeast Asia,coal,CH4,Coal Mining Activities,66,0.613,0.003
-Southeast Asia,coal,CH4,Coal Mining Activities,129,0.615,0.003
-Southeast Asia,coal,CH4,Coal Mining Activities,243,0.62,0.003
-Southeast Asia,coal,CH4,Coal Mining Activities,486,0.621,0.003
-Southeast Asia,coal,CH4,Coal Mining Activities,1093,0.621,0.003
-Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,0,0.358,0.004
-Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,5,0.367,0.004
-Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,10,0.371,0.004
-Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,15,0.392,0.004
-Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,32,0.426,0.004
-Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,66,0.44,0.004
-Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,129,0.452,0.004
-Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,243,0.459,0.004
-Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,486,0.478,0.004
-Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,1093,0.502,0.004
-Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,0,0.358,0.004
-Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,5,0.367,0.004
-Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,10,0.371,0.004
-Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,15,0.392,0.004
-Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,32,0.426,0.004
-Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,66,0.44,0.004
-Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,129,0.452,0.004
-Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,243,0.459,0.004
-Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,486,0.478,0.004
-Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,1093,0.502,0.004
-Taiwan,coal,CH4,Coal Mining Activities,0,0.101,0.003
-Taiwan,coal,CH4,Coal Mining Activities,5,0.338,0.003
-Taiwan,coal,CH4,Coal Mining Activities,10,0.462,0.003
-Taiwan,coal,CH4,Coal Mining Activities,15,0.474,0.003
-Taiwan,coal,CH4,Coal Mining Activities,32,0.535,0.003
-Taiwan,coal,CH4,Coal Mining Activities,66,0.612,0.003
-Taiwan,coal,CH4,Coal Mining Activities,129,0.613,0.003
-Taiwan,coal,CH4,Coal Mining Activities,243,0.619,0.003
-Taiwan,coal,CH4,Coal Mining Activities,486,0.619,0.003
-Taiwan,coal,CH4,Coal Mining Activities,1093,0.619,0.003
-Taiwan,crude oil,CH4,Natural Gas and Oil Systems,0,0.399,0.004
-Taiwan,crude oil,CH4,Natural Gas and Oil Systems,5,0.406,0.004
-Taiwan,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-Taiwan,crude oil,CH4,Natural Gas and Oil Systems,15,0.428,0.004
-Taiwan,crude oil,CH4,Natural Gas and Oil Systems,32,0.437,0.004
-Taiwan,crude oil,CH4,Natural Gas and Oil Systems,66,0.473,0.004
-Taiwan,crude oil,CH4,Natural Gas and Oil Systems,129,0.503,0.004
-Taiwan,crude oil,CH4,Natural Gas and Oil Systems,243,0.532,0.004
-Taiwan,crude oil,CH4,Natural Gas and Oil Systems,486,0.559,0.004
-Taiwan,crude oil,CH4,Natural Gas and Oil Systems,1093,0.58,0.004
-Taiwan,natural gas,CH4,Natural Gas and Oil Systems,0,0.399,0.004
-Taiwan,natural gas,CH4,Natural Gas and Oil Systems,5,0.406,0.004
-Taiwan,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,0.004
-Taiwan,natural gas,CH4,Natural Gas and Oil Systems,15,0.428,0.004
-Taiwan,natural gas,CH4,Natural Gas and Oil Systems,32,0.437,0.004
-Taiwan,natural gas,CH4,Natural Gas and Oil Systems,66,0.473,0.004
-Taiwan,natural gas,CH4,Natural Gas and Oil Systems,129,0.503,0.004
-Taiwan,natural gas,CH4,Natural Gas and Oil Systems,243,0.532,0.004
-Taiwan,natural gas,CH4,Natural Gas and Oil Systems,486,0.559,0.004
-Taiwan,natural gas,CH4,Natural Gas and Oil Systems,1093,0.58,0.004
-USA,coal,CH4,Coal Mining Activities,0,0.057,0.003
-USA,coal,CH4,Coal Mining Activities,5,0.142,0.003
-USA,coal,CH4,Coal Mining Activities,10,0.268,0.003
-USA,coal,CH4,Coal Mining Activities,15,0.313,0.003
-USA,coal,CH4,Coal Mining Activities,32,0.339,0.003
-USA,coal,CH4,Coal Mining Activities,66,0.427,0.003
-USA,coal,CH4,Coal Mining Activities,129,0.435,0.003
-USA,coal,CH4,Coal Mining Activities,243,0.438,0.003
-USA,coal,CH4,Coal Mining Activities,486,0.442,0.003
-USA,coal,CH4,Coal Mining Activities,1093,0.442,0.003
-USA,crude oil,CH4,Natural Gas and Oil Systems,0,0.27,0.004
-USA,crude oil,CH4,Natural Gas and Oil Systems,5,0.286,0.004
-USA,crude oil,CH4,Natural Gas and Oil Systems,10,0.298,0.004
-USA,crude oil,CH4,Natural Gas and Oil Systems,15,0.298,0.004
-USA,crude oil,CH4,Natural Gas and Oil Systems,32,0.305,0.004
-USA,crude oil,CH4,Natural Gas and Oil Systems,66,0.317,0.004
-USA,crude oil,CH4,Natural Gas and Oil Systems,129,0.337,0.004
-USA,crude oil,CH4,Natural Gas and Oil Systems,243,0.35,0.004
-USA,crude oil,CH4,Natural Gas and Oil Systems,486,0.363,0.004
-USA,crude oil,CH4,Natural Gas and Oil Systems,1093,0.37,0.004
-USA,natural gas,CH4,Natural Gas and Oil Systems,0,0.27,0.004
-USA,natural gas,CH4,Natural Gas and Oil Systems,5,0.286,0.004
-USA,natural gas,CH4,Natural Gas and Oil Systems,10,0.298,0.004
-USA,natural gas,CH4,Natural Gas and Oil Systems,15,0.298,0.004
-USA,natural gas,CH4,Natural Gas and Oil Systems,32,0.305,0.004
-USA,natural gas,CH4,Natural Gas and Oil Systems,66,0.317,0.004
-USA,natural gas,CH4,Natural Gas and Oil Systems,129,0.337,0.004
-USA,natural gas,CH4,Natural Gas and Oil Systems,243,0.35,0.004
-USA,natural gas,CH4,Natural Gas and Oil Systems,486,0.363,0.004
-USA,natural gas,CH4,Natural Gas and Oil Systems,1093,0.37,0.004
+region,depresource,Non.CO2,mac.control,tax,mac.reduction,market.name,tech.change
+Africa_Eastern,coal,CH4,Coal Mining Activities,0,0.09,CO2,0.003
+Africa_Eastern,coal,CH4,Coal Mining Activities,5,0.393,CO2,0.003
+Africa_Eastern,coal,CH4,Coal Mining Activities,10,0.463,CO2,0.003
+Africa_Eastern,coal,CH4,Coal Mining Activities,15,0.482,CO2,0.003
+Africa_Eastern,coal,CH4,Coal Mining Activities,32,0.597,CO2,0.003
+Africa_Eastern,coal,CH4,Coal Mining Activities,66,0.603,CO2,0.003
+Africa_Eastern,coal,CH4,Coal Mining Activities,129,0.609,CO2,0.003
+Africa_Eastern,coal,CH4,Coal Mining Activities,243,0.617,CO2,0.003
+Africa_Eastern,coal,CH4,Coal Mining Activities,486,0.617,CO2,0.003
+Africa_Eastern,coal,CH4,Coal Mining Activities,1093,0.617,CO2,0.003
+Africa_Eastern,coal,CH4,Coal Mining Activities,2064,0.617,CO2,0.003
+Africa_Eastern,coal,CH4,Coal Mining Activities,4857,0.617,CO2,0.003
+Africa_Eastern,coal,CH4,Coal Mining Activities,7285,0.617,CO2,0.003
+Africa_Eastern,coal,CH4,Coal Mining Activities,12141,0.617,CO2,0.003
+Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,0,0.394,CO2,0.004
+Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,5,0.406,CO2,0.004
+Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,10,0.409,CO2,0.004
+Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,15,0.411,CO2,0.004
+Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,66,0.451,CO2,0.004
+Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,129,0.463,CO2,0.004
+Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,243,0.474,CO2,0.004
+Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,486,0.492,CO2,0.004
+Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,1093,0.534,CO2,0.004
+Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,2064,0.559,CO2,0.004
+Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,4857,0.562,CO2,0.004
+Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,7285,0.563,CO2,0.004
+Africa_Eastern,crude oil,CH4,Natural Gas and Oil Systems,12141,0.563,CO2,0.004
+Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,0,0.394,CO2,0.004
+Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,5,0.406,CO2,0.004
+Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,10,0.409,CO2,0.004
+Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,15,0.411,CO2,0.004
+Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,66,0.451,CO2,0.004
+Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,129,0.463,CO2,0.004
+Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,243,0.474,CO2,0.004
+Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,486,0.492,CO2,0.004
+Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,1093,0.534,CO2,0.004
+Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,2064,0.559,CO2,0.004
+Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,4857,0.562,CO2,0.004
+Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,7285,0.563,CO2,0.004
+Africa_Eastern,natural gas,CH4,Natural Gas and Oil Systems,12141,0.563,CO2,0.004
+Africa_Northern,coal,CH4,Coal Mining Activities,0,0.09,CO2,0.003
+Africa_Northern,coal,CH4,Coal Mining Activities,5,0.393,CO2,0.003
+Africa_Northern,coal,CH4,Coal Mining Activities,10,0.463,CO2,0.003
+Africa_Northern,coal,CH4,Coal Mining Activities,15,0.482,CO2,0.003
+Africa_Northern,coal,CH4,Coal Mining Activities,32,0.597,CO2,0.003
+Africa_Northern,coal,CH4,Coal Mining Activities,66,0.603,CO2,0.003
+Africa_Northern,coal,CH4,Coal Mining Activities,129,0.609,CO2,0.003
+Africa_Northern,coal,CH4,Coal Mining Activities,243,0.617,CO2,0.003
+Africa_Northern,coal,CH4,Coal Mining Activities,486,0.617,CO2,0.003
+Africa_Northern,coal,CH4,Coal Mining Activities,1093,0.617,CO2,0.003
+Africa_Northern,coal,CH4,Coal Mining Activities,2064,0.617,CO2,0.003
+Africa_Northern,coal,CH4,Coal Mining Activities,4857,0.617,CO2,0.003
+Africa_Northern,coal,CH4,Coal Mining Activities,7285,0.617,CO2,0.003
+Africa_Northern,coal,CH4,Coal Mining Activities,12141,0.617,CO2,0.003
+Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,0,0.394,CO2,0.004
+Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,5,0.406,CO2,0.004
+Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,10,0.409,CO2,0.004
+Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,15,0.411,CO2,0.004
+Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,66,0.451,CO2,0.004
+Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,129,0.463,CO2,0.004
+Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,243,0.474,CO2,0.004
+Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,486,0.492,CO2,0.004
+Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,1093,0.534,CO2,0.004
+Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,2064,0.559,CO2,0.004
+Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,4857,0.562,CO2,0.004
+Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,7285,0.563,CO2,0.004
+Africa_Northern,crude oil,CH4,Natural Gas and Oil Systems,12141,0.563,CO2,0.004
+Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,0,0.394,CO2,0.004
+Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,5,0.406,CO2,0.004
+Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,10,0.409,CO2,0.004
+Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,15,0.411,CO2,0.004
+Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,66,0.451,CO2,0.004
+Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,129,0.463,CO2,0.004
+Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,243,0.474,CO2,0.004
+Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,486,0.492,CO2,0.004
+Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,1093,0.534,CO2,0.004
+Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,2064,0.559,CO2,0.004
+Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,4857,0.562,CO2,0.004
+Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,7285,0.563,CO2,0.004
+Africa_Northern,natural gas,CH4,Natural Gas and Oil Systems,12141,0.563,CO2,0.004
+Africa_Southern,coal,CH4,Coal Mining Activities,0,0.09,CO2,0.003
+Africa_Southern,coal,CH4,Coal Mining Activities,5,0.393,CO2,0.003
+Africa_Southern,coal,CH4,Coal Mining Activities,10,0.463,CO2,0.003
+Africa_Southern,coal,CH4,Coal Mining Activities,15,0.482,CO2,0.003
+Africa_Southern,coal,CH4,Coal Mining Activities,32,0.597,CO2,0.003
+Africa_Southern,coal,CH4,Coal Mining Activities,66,0.603,CO2,0.003
+Africa_Southern,coal,CH4,Coal Mining Activities,129,0.609,CO2,0.003
+Africa_Southern,coal,CH4,Coal Mining Activities,243,0.617,CO2,0.003
+Africa_Southern,coal,CH4,Coal Mining Activities,486,0.617,CO2,0.003
+Africa_Southern,coal,CH4,Coal Mining Activities,1093,0.617,CO2,0.003
+Africa_Southern,coal,CH4,Coal Mining Activities,2064,0.617,CO2,0.003
+Africa_Southern,coal,CH4,Coal Mining Activities,4857,0.617,CO2,0.003
+Africa_Southern,coal,CH4,Coal Mining Activities,7285,0.617,CO2,0.003
+Africa_Southern,coal,CH4,Coal Mining Activities,12141,0.617,CO2,0.003
+Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,0,0.394,CO2,0.004
+Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,5,0.406,CO2,0.004
+Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,10,0.409,CO2,0.004
+Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,15,0.411,CO2,0.004
+Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,66,0.451,CO2,0.004
+Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,129,0.463,CO2,0.004
+Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,243,0.474,CO2,0.004
+Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,486,0.492,CO2,0.004
+Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,1093,0.534,CO2,0.004
+Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,2064,0.559,CO2,0.004
+Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,4857,0.562,CO2,0.004
+Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,7285,0.563,CO2,0.004
+Africa_Southern,crude oil,CH4,Natural Gas and Oil Systems,12141,0.563,CO2,0.004
+Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,0,0.394,CO2,0.004
+Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,5,0.406,CO2,0.004
+Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,10,0.409,CO2,0.004
+Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,15,0.411,CO2,0.004
+Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,66,0.451,CO2,0.004
+Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,129,0.463,CO2,0.004
+Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,243,0.474,CO2,0.004
+Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,486,0.492,CO2,0.004
+Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,1093,0.534,CO2,0.004
+Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,2064,0.559,CO2,0.004
+Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,4857,0.562,CO2,0.004
+Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,7285,0.563,CO2,0.004
+Africa_Southern,natural gas,CH4,Natural Gas and Oil Systems,12141,0.563,CO2,0.004
+Africa_Western,coal,CH4,Coal Mining Activities,0,0.09,CO2,0.003
+Africa_Western,coal,CH4,Coal Mining Activities,5,0.393,CO2,0.003
+Africa_Western,coal,CH4,Coal Mining Activities,10,0.463,CO2,0.003
+Africa_Western,coal,CH4,Coal Mining Activities,15,0.482,CO2,0.003
+Africa_Western,coal,CH4,Coal Mining Activities,32,0.597,CO2,0.003
+Africa_Western,coal,CH4,Coal Mining Activities,66,0.603,CO2,0.003
+Africa_Western,coal,CH4,Coal Mining Activities,129,0.609,CO2,0.003
+Africa_Western,coal,CH4,Coal Mining Activities,243,0.617,CO2,0.003
+Africa_Western,coal,CH4,Coal Mining Activities,486,0.617,CO2,0.003
+Africa_Western,coal,CH4,Coal Mining Activities,1093,0.617,CO2,0.003
+Africa_Western,coal,CH4,Coal Mining Activities,2064,0.617,CO2,0.003
+Africa_Western,coal,CH4,Coal Mining Activities,4857,0.617,CO2,0.003
+Africa_Western,coal,CH4,Coal Mining Activities,7285,0.617,CO2,0.003
+Africa_Western,coal,CH4,Coal Mining Activities,12141,0.617,CO2,0.003
+Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,0,0.394,CO2,0.004
+Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,5,0.406,CO2,0.004
+Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,10,0.409,CO2,0.004
+Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,15,0.411,CO2,0.004
+Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,66,0.451,CO2,0.004
+Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,129,0.463,CO2,0.004
+Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,243,0.474,CO2,0.004
+Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,486,0.492,CO2,0.004
+Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,1093,0.534,CO2,0.004
+Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,2064,0.559,CO2,0.004
+Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,4857,0.562,CO2,0.004
+Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,7285,0.563,CO2,0.004
+Africa_Western,crude oil,CH4,Natural Gas and Oil Systems,12141,0.563,CO2,0.004
+Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,0,0.394,CO2,0.004
+Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,5,0.406,CO2,0.004
+Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,10,0.409,CO2,0.004
+Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,15,0.411,CO2,0.004
+Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,66,0.451,CO2,0.004
+Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,129,0.463,CO2,0.004
+Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,243,0.474,CO2,0.004
+Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,486,0.492,CO2,0.004
+Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,1093,0.534,CO2,0.004
+Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,2064,0.559,CO2,0.004
+Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,4857,0.562,CO2,0.004
+Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,7285,0.563,CO2,0.004
+Africa_Western,natural gas,CH4,Natural Gas and Oil Systems,12141,0.563,CO2,0.004
+Argentina,coal,CH4,Coal Mining Activities,0,0.117,CO2,0.003
+Argentina,coal,CH4,Coal Mining Activities,5,0.239,CO2,0.003
+Argentina,coal,CH4,Coal Mining Activities,10,0.359,CO2,0.003
+Argentina,coal,CH4,Coal Mining Activities,15,0.466,CO2,0.003
+Argentina,coal,CH4,Coal Mining Activities,32,0.499,CO2,0.003
+Argentina,coal,CH4,Coal Mining Activities,66,0.558,CO2,0.003
+Argentina,coal,CH4,Coal Mining Activities,129,0.618,CO2,0.003
+Argentina,coal,CH4,Coal Mining Activities,243,0.618,CO2,0.003
+Argentina,coal,CH4,Coal Mining Activities,486,0.624,CO2,0.003
+Argentina,coal,CH4,Coal Mining Activities,1093,0.624,CO2,0.003
+Argentina,coal,CH4,Coal Mining Activities,2064,0.624,CO2,0.003
+Argentina,coal,CH4,Coal Mining Activities,4857,0.624,CO2,0.003
+Argentina,coal,CH4,Coal Mining Activities,7285,0.624,CO2,0.003
+Argentina,coal,CH4,Coal Mining Activities,12141,0.624,CO2,0.003
+Argentina,crude oil,CH4,Natural Gas and Oil Systems,0,0.391,CO2,0.004
+Argentina,crude oil,CH4,Natural Gas and Oil Systems,5,0.401,CO2,0.004
+Argentina,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+Argentina,crude oil,CH4,Natural Gas and Oil Systems,15,0.407,CO2,0.004
+Argentina,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+Argentina,crude oil,CH4,Natural Gas and Oil Systems,66,0.458,CO2,0.004
+Argentina,crude oil,CH4,Natural Gas and Oil Systems,129,0.46,CO2,0.004
+Argentina,crude oil,CH4,Natural Gas and Oil Systems,243,0.487,CO2,0.004
+Argentina,crude oil,CH4,Natural Gas and Oil Systems,486,0.499,CO2,0.004
+Argentina,crude oil,CH4,Natural Gas and Oil Systems,1093,0.53,CO2,0.004
+Argentina,crude oil,CH4,Natural Gas and Oil Systems,2064,0.567,CO2,0.004
+Argentina,crude oil,CH4,Natural Gas and Oil Systems,4857,0.576,CO2,0.004
+Argentina,crude oil,CH4,Natural Gas and Oil Systems,7285,0.579,CO2,0.004
+Argentina,crude oil,CH4,Natural Gas and Oil Systems,12141,0.579,CO2,0.004
+Argentina,natural gas,CH4,Natural Gas and Oil Systems,0,0.391,CO2,0.004
+Argentina,natural gas,CH4,Natural Gas and Oil Systems,5,0.401,CO2,0.004
+Argentina,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+Argentina,natural gas,CH4,Natural Gas and Oil Systems,15,0.407,CO2,0.004
+Argentina,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+Argentina,natural gas,CH4,Natural Gas and Oil Systems,66,0.458,CO2,0.004
+Argentina,natural gas,CH4,Natural Gas and Oil Systems,129,0.46,CO2,0.004
+Argentina,natural gas,CH4,Natural Gas and Oil Systems,243,0.487,CO2,0.004
+Argentina,natural gas,CH4,Natural Gas and Oil Systems,486,0.499,CO2,0.004
+Argentina,natural gas,CH4,Natural Gas and Oil Systems,1093,0.53,CO2,0.004
+Argentina,natural gas,CH4,Natural Gas and Oil Systems,2064,0.567,CO2,0.004
+Argentina,natural gas,CH4,Natural Gas and Oil Systems,4857,0.576,CO2,0.004
+Argentina,natural gas,CH4,Natural Gas and Oil Systems,7285,0.579,CO2,0.004
+Argentina,natural gas,CH4,Natural Gas and Oil Systems,12141,0.579,CO2,0.004
+Australia_NZ,coal,CH4,Coal Mining Activities,0,0.09,CO2,0.003
+Australia_NZ,coal,CH4,Coal Mining Activities,5,0.212,CO2,0.003
+Australia_NZ,coal,CH4,Coal Mining Activities,10,0.382,CO2,0.003
+Australia_NZ,coal,CH4,Coal Mining Activities,15,0.452,CO2,0.003
+Australia_NZ,coal,CH4,Coal Mining Activities,32,0.49,CO2,0.003
+Australia_NZ,coal,CH4,Coal Mining Activities,66,0.608,CO2,0.003
+Australia_NZ,coal,CH4,Coal Mining Activities,129,0.617,CO2,0.003
+Australia_NZ,coal,CH4,Coal Mining Activities,243,0.62,CO2,0.003
+Australia_NZ,coal,CH4,Coal Mining Activities,486,0.626,CO2,0.003
+Australia_NZ,coal,CH4,Coal Mining Activities,1093,0.626,CO2,0.003
+Australia_NZ,coal,CH4,Coal Mining Activities,2064,0.626,CO2,0.003
+Australia_NZ,coal,CH4,Coal Mining Activities,4857,0.626,CO2,0.003
+Australia_NZ,coal,CH4,Coal Mining Activities,7285,0.626,CO2,0.003
+Australia_NZ,coal,CH4,Coal Mining Activities,12141,0.626,CO2,0.003
+Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,0,0.334,CO2,0.004
+Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,5,0.364,CO2,0.004
+Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,10,0.364,CO2,0.004
+Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,15,0.366,CO2,0.004
+Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,32,0.435,CO2,0.004
+Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,66,0.457,CO2,0.004
+Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,129,0.485,CO2,0.004
+Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,243,0.519,CO2,0.004
+Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,486,0.54,CO2,0.004
+Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,1093,0.553,CO2,0.004
+Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,2064,0.563,CO2,0.004
+Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,4857,0.569,CO2,0.004
+Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,7285,0.572,CO2,0.004
+Australia_NZ,crude oil,CH4,Natural Gas and Oil Systems,12141,0.575,CO2,0.004
+Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,0,0.334,CO2,0.004
+Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,5,0.364,CO2,0.004
+Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,10,0.364,CO2,0.004
+Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,15,0.366,CO2,0.004
+Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,32,0.435,CO2,0.004
+Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,66,0.457,CO2,0.004
+Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,129,0.485,CO2,0.004
+Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,243,0.519,CO2,0.004
+Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,486,0.54,CO2,0.004
+Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,1093,0.553,CO2,0.004
+Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,2064,0.563,CO2,0.004
+Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,4857,0.569,CO2,0.004
+Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,7285,0.572,CO2,0.004
+Australia_NZ,natural gas,CH4,Natural Gas and Oil Systems,12141,0.575,CO2,0.004
+Brazil,coal,CH4,Coal Mining Activities,0,0.115,CO2,0.003
+Brazil,coal,CH4,Coal Mining Activities,5,0.238,CO2,0.003
+Brazil,coal,CH4,Coal Mining Activities,10,0.366,CO2,0.003
+Brazil,coal,CH4,Coal Mining Activities,15,0.468,CO2,0.003
+Brazil,coal,CH4,Coal Mining Activities,32,0.498,CO2,0.003
+Brazil,coal,CH4,Coal Mining Activities,66,0.613,CO2,0.003
+Brazil,coal,CH4,Coal Mining Activities,129,0.617,CO2,0.003
+Brazil,coal,CH4,Coal Mining Activities,243,0.617,CO2,0.003
+Brazil,coal,CH4,Coal Mining Activities,486,0.623,CO2,0.003
+Brazil,coal,CH4,Coal Mining Activities,1093,0.623,CO2,0.003
+Brazil,coal,CH4,Coal Mining Activities,2064,0.623,CO2,0.003
+Brazil,coal,CH4,Coal Mining Activities,4857,0.623,CO2,0.003
+Brazil,coal,CH4,Coal Mining Activities,7285,0.623,CO2,0.003
+Brazil,coal,CH4,Coal Mining Activities,12141,0.623,CO2,0.003
+Brazil,crude oil,CH4,Natural Gas and Oil Systems,0,0.38,CO2,0.004
+Brazil,crude oil,CH4,Natural Gas and Oil Systems,5,0.396,CO2,0.004
+Brazil,crude oil,CH4,Natural Gas and Oil Systems,10,0.397,CO2,0.004
+Brazil,crude oil,CH4,Natural Gas and Oil Systems,15,0.397,CO2,0.004
+Brazil,crude oil,CH4,Natural Gas and Oil Systems,32,0.414,CO2,0.004
+Brazil,crude oil,CH4,Natural Gas and Oil Systems,66,0.429,CO2,0.004
+Brazil,crude oil,CH4,Natural Gas and Oil Systems,129,0.429,CO2,0.004
+Brazil,crude oil,CH4,Natural Gas and Oil Systems,243,0.443,CO2,0.004
+Brazil,crude oil,CH4,Natural Gas and Oil Systems,486,0.452,CO2,0.004
+Brazil,crude oil,CH4,Natural Gas and Oil Systems,1093,0.492,CO2,0.004
+Brazil,crude oil,CH4,Natural Gas and Oil Systems,2064,0.533,CO2,0.004
+Brazil,crude oil,CH4,Natural Gas and Oil Systems,4857,0.54,CO2,0.004
+Brazil,crude oil,CH4,Natural Gas and Oil Systems,7285,0.553,CO2,0.004
+Brazil,crude oil,CH4,Natural Gas and Oil Systems,12141,0.553,CO2,0.004
+Brazil,natural gas,CH4,Natural Gas and Oil Systems,0,0.38,CO2,0.004
+Brazil,natural gas,CH4,Natural Gas and Oil Systems,5,0.396,CO2,0.004
+Brazil,natural gas,CH4,Natural Gas and Oil Systems,10,0.397,CO2,0.004
+Brazil,natural gas,CH4,Natural Gas and Oil Systems,15,0.397,CO2,0.004
+Brazil,natural gas,CH4,Natural Gas and Oil Systems,32,0.414,CO2,0.004
+Brazil,natural gas,CH4,Natural Gas and Oil Systems,66,0.429,CO2,0.004
+Brazil,natural gas,CH4,Natural Gas and Oil Systems,129,0.429,CO2,0.004
+Brazil,natural gas,CH4,Natural Gas and Oil Systems,243,0.443,CO2,0.004
+Brazil,natural gas,CH4,Natural Gas and Oil Systems,486,0.452,CO2,0.004
+Brazil,natural gas,CH4,Natural Gas and Oil Systems,1093,0.492,CO2,0.004
+Brazil,natural gas,CH4,Natural Gas and Oil Systems,2064,0.533,CO2,0.004
+Brazil,natural gas,CH4,Natural Gas and Oil Systems,4857,0.54,CO2,0.004
+Brazil,natural gas,CH4,Natural Gas and Oil Systems,7285,0.553,CO2,0.004
+Brazil,natural gas,CH4,Natural Gas and Oil Systems,12141,0.553,CO2,0.004
+Canada,coal,CH4,Coal Mining Activities,0,0.078,CO2,0.003
+Canada,coal,CH4,Coal Mining Activities,5,0.195,CO2,0.003
+Canada,coal,CH4,Coal Mining Activities,10,0.372,CO2,0.003
+Canada,coal,CH4,Coal Mining Activities,15,0.436,CO2,0.003
+Canada,coal,CH4,Coal Mining Activities,32,0.471,CO2,0.003
+Canada,coal,CH4,Coal Mining Activities,66,0.597,CO2,0.003
+Canada,coal,CH4,Coal Mining Activities,129,0.609,CO2,0.003
+Canada,coal,CH4,Coal Mining Activities,243,0.612,CO2,0.003
+Canada,coal,CH4,Coal Mining Activities,486,0.618,CO2,0.003
+Canada,coal,CH4,Coal Mining Activities,1093,0.618,CO2,0.003
+Canada,coal,CH4,Coal Mining Activities,2064,0.618,CO2,0.003
+Canada,coal,CH4,Coal Mining Activities,4857,0.618,CO2,0.003
+Canada,coal,CH4,Coal Mining Activities,7285,0.618,CO2,0.003
+Canada,coal,CH4,Coal Mining Activities,12141,0.618,CO2,0.003
+Canada,crude oil,CH4,Natural Gas and Oil Systems,0,0.363,CO2,0.004
+Canada,crude oil,CH4,Natural Gas and Oil Systems,5,0.386,CO2,0.004
+Canada,crude oil,CH4,Natural Gas and Oil Systems,10,0.389,CO2,0.004
+Canada,crude oil,CH4,Natural Gas and Oil Systems,15,0.402,CO2,0.004
+Canada,crude oil,CH4,Natural Gas and Oil Systems,32,0.416,CO2,0.004
+Canada,crude oil,CH4,Natural Gas and Oil Systems,66,0.422,CO2,0.004
+Canada,crude oil,CH4,Natural Gas and Oil Systems,129,0.438,CO2,0.004
+Canada,crude oil,CH4,Natural Gas and Oil Systems,243,0.447,CO2,0.004
+Canada,crude oil,CH4,Natural Gas and Oil Systems,486,0.455,CO2,0.004
+Canada,crude oil,CH4,Natural Gas and Oil Systems,1093,0.5,CO2,0.004
+Canada,crude oil,CH4,Natural Gas and Oil Systems,2064,0.523,CO2,0.004
+Canada,crude oil,CH4,Natural Gas and Oil Systems,4857,0.546,CO2,0.004
+Canada,crude oil,CH4,Natural Gas and Oil Systems,7285,0.552,CO2,0.004
+Canada,crude oil,CH4,Natural Gas and Oil Systems,12141,0.554,CO2,0.004
+Canada,natural gas,CH4,Natural Gas and Oil Systems,0,0.363,CO2,0.004
+Canada,natural gas,CH4,Natural Gas and Oil Systems,5,0.386,CO2,0.004
+Canada,natural gas,CH4,Natural Gas and Oil Systems,10,0.389,CO2,0.004
+Canada,natural gas,CH4,Natural Gas and Oil Systems,15,0.402,CO2,0.004
+Canada,natural gas,CH4,Natural Gas and Oil Systems,32,0.416,CO2,0.004
+Canada,natural gas,CH4,Natural Gas and Oil Systems,66,0.422,CO2,0.004
+Canada,natural gas,CH4,Natural Gas and Oil Systems,129,0.438,CO2,0.004
+Canada,natural gas,CH4,Natural Gas and Oil Systems,243,0.447,CO2,0.004
+Canada,natural gas,CH4,Natural Gas and Oil Systems,486,0.455,CO2,0.004
+Canada,natural gas,CH4,Natural Gas and Oil Systems,1093,0.5,CO2,0.004
+Canada,natural gas,CH4,Natural Gas and Oil Systems,2064,0.523,CO2,0.004
+Canada,natural gas,CH4,Natural Gas and Oil Systems,4857,0.546,CO2,0.004
+Canada,natural gas,CH4,Natural Gas and Oil Systems,7285,0.552,CO2,0.004
+Canada,natural gas,CH4,Natural Gas and Oil Systems,12141,0.554,CO2,0.004
+Central America and Caribbean,coal,CH4,Coal Mining Activities,0,0.117,CO2,0.003
+Central America and Caribbean,coal,CH4,Coal Mining Activities,5,0.239,CO2,0.003
+Central America and Caribbean,coal,CH4,Coal Mining Activities,10,0.359,CO2,0.003
+Central America and Caribbean,coal,CH4,Coal Mining Activities,15,0.466,CO2,0.003
+Central America and Caribbean,coal,CH4,Coal Mining Activities,32,0.499,CO2,0.003
+Central America and Caribbean,coal,CH4,Coal Mining Activities,66,0.558,CO2,0.003
+Central America and Caribbean,coal,CH4,Coal Mining Activities,129,0.618,CO2,0.003
+Central America and Caribbean,coal,CH4,Coal Mining Activities,243,0.618,CO2,0.003
+Central America and Caribbean,coal,CH4,Coal Mining Activities,486,0.624,CO2,0.003
+Central America and Caribbean,coal,CH4,Coal Mining Activities,1093,0.624,CO2,0.003
+Central America and Caribbean,coal,CH4,Coal Mining Activities,2064,0.624,CO2,0.003
+Central America and Caribbean,coal,CH4,Coal Mining Activities,4857,0.624,CO2,0.003
+Central America and Caribbean,coal,CH4,Coal Mining Activities,7285,0.624,CO2,0.003
+Central America and Caribbean,coal,CH4,Coal Mining Activities,12141,0.624,CO2,0.003
+Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,0,0.391,CO2,0.004
+Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,5,0.401,CO2,0.004
+Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,15,0.407,CO2,0.004
+Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,66,0.458,CO2,0.004
+Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,129,0.46,CO2,0.004
+Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,243,0.487,CO2,0.004
+Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,486,0.499,CO2,0.004
+Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,1093,0.53,CO2,0.004
+Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,2064,0.567,CO2,0.004
+Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,4857,0.576,CO2,0.004
+Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,7285,0.579,CO2,0.004
+Central America and Caribbean,crude oil,CH4,Natural Gas and Oil Systems,12141,0.579,CO2,0.004
+Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,0,0.391,CO2,0.004
+Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,5,0.401,CO2,0.004
+Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,15,0.407,CO2,0.004
+Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,66,0.458,CO2,0.004
+Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,129,0.46,CO2,0.004
+Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,243,0.487,CO2,0.004
+Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,486,0.499,CO2,0.004
+Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,1093,0.53,CO2,0.004
+Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,2064,0.567,CO2,0.004
+Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,4857,0.576,CO2,0.004
+Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,7285,0.579,CO2,0.004
+Central America and Caribbean,natural gas,CH4,Natural Gas and Oil Systems,12141,0.579,CO2,0.004
+Central Asia,coal,CH4,Coal Mining Activities,0,0.103,CO2,0.003
+Central Asia,coal,CH4,Coal Mining Activities,5,0.275,CO2,0.003
+Central Asia,coal,CH4,Coal Mining Activities,10,0.399,CO2,0.003
+Central Asia,coal,CH4,Coal Mining Activities,15,0.439,CO2,0.003
+Central Asia,coal,CH4,Coal Mining Activities,32,0.492,CO2,0.003
+Central Asia,coal,CH4,Coal Mining Activities,66,0.557,CO2,0.003
+Central Asia,coal,CH4,Coal Mining Activities,129,0.559,CO2,0.003
+Central Asia,coal,CH4,Coal Mining Activities,243,0.561,CO2,0.003
+Central Asia,coal,CH4,Coal Mining Activities,486,0.564,CO2,0.003
+Central Asia,coal,CH4,Coal Mining Activities,1093,0.564,CO2,0.003
+Central Asia,coal,CH4,Coal Mining Activities,2064,0.564,CO2,0.003
+Central Asia,coal,CH4,Coal Mining Activities,4857,0.564,CO2,0.003
+Central Asia,coal,CH4,Coal Mining Activities,7285,0.564,CO2,0.003
+Central Asia,coal,CH4,Coal Mining Activities,12141,0.564,CO2,0.003
+Central Asia,crude oil,CH4,Natural Gas and Oil Systems,0,0.343,CO2,0.004
+Central Asia,crude oil,CH4,Natural Gas and Oil Systems,5,0.395,CO2,0.004
+Central Asia,crude oil,CH4,Natural Gas and Oil Systems,10,0.415,CO2,0.004
+Central Asia,crude oil,CH4,Natural Gas and Oil Systems,15,0.433,CO2,0.004
+Central Asia,crude oil,CH4,Natural Gas and Oil Systems,32,0.444,CO2,0.004
+Central Asia,crude oil,CH4,Natural Gas and Oil Systems,66,0.481,CO2,0.004
+Central Asia,crude oil,CH4,Natural Gas and Oil Systems,129,0.525,CO2,0.004
+Central Asia,crude oil,CH4,Natural Gas and Oil Systems,243,0.544,CO2,0.004
+Central Asia,crude oil,CH4,Natural Gas and Oil Systems,486,0.565,CO2,0.004
+Central Asia,crude oil,CH4,Natural Gas and Oil Systems,1093,0.603,CO2,0.004
+Central Asia,crude oil,CH4,Natural Gas and Oil Systems,2064,0.607,CO2,0.004
+Central Asia,crude oil,CH4,Natural Gas and Oil Systems,4857,0.621,CO2,0.004
+Central Asia,crude oil,CH4,Natural Gas and Oil Systems,7285,0.621,CO2,0.004
+Central Asia,crude oil,CH4,Natural Gas and Oil Systems,12141,0.621,CO2,0.004
+Central Asia,natural gas,CH4,Natural Gas and Oil Systems,0,0.343,CO2,0.004
+Central Asia,natural gas,CH4,Natural Gas and Oil Systems,5,0.395,CO2,0.004
+Central Asia,natural gas,CH4,Natural Gas and Oil Systems,10,0.415,CO2,0.004
+Central Asia,natural gas,CH4,Natural Gas and Oil Systems,15,0.433,CO2,0.004
+Central Asia,natural gas,CH4,Natural Gas and Oil Systems,32,0.444,CO2,0.004
+Central Asia,natural gas,CH4,Natural Gas and Oil Systems,66,0.481,CO2,0.004
+Central Asia,natural gas,CH4,Natural Gas and Oil Systems,129,0.525,CO2,0.004
+Central Asia,natural gas,CH4,Natural Gas and Oil Systems,243,0.544,CO2,0.004
+Central Asia,natural gas,CH4,Natural Gas and Oil Systems,486,0.565,CO2,0.004
+Central Asia,natural gas,CH4,Natural Gas and Oil Systems,1093,0.603,CO2,0.004
+Central Asia,natural gas,CH4,Natural Gas and Oil Systems,2064,0.607,CO2,0.004
+Central Asia,natural gas,CH4,Natural Gas and Oil Systems,4857,0.621,CO2,0.004
+Central Asia,natural gas,CH4,Natural Gas and Oil Systems,7285,0.621,CO2,0.004
+Central Asia,natural gas,CH4,Natural Gas and Oil Systems,12141,0.621,CO2,0.004
+China,coal,CH4,Coal Mining Activities,0,0.101,CO2,0.003
+China,coal,CH4,Coal Mining Activities,5,0.338,CO2,0.003
+China,coal,CH4,Coal Mining Activities,10,0.462,CO2,0.003
+China,coal,CH4,Coal Mining Activities,15,0.474,CO2,0.003
+China,coal,CH4,Coal Mining Activities,32,0.535,CO2,0.003
+China,coal,CH4,Coal Mining Activities,66,0.612,CO2,0.003
+China,coal,CH4,Coal Mining Activities,129,0.613,CO2,0.003
+China,coal,CH4,Coal Mining Activities,243,0.619,CO2,0.003
+China,coal,CH4,Coal Mining Activities,486,0.619,CO2,0.003
+China,coal,CH4,Coal Mining Activities,1093,0.619,CO2,0.003
+China,coal,CH4,Coal Mining Activities,2064,0.619,CO2,0.003
+China,coal,CH4,Coal Mining Activities,4857,0.619,CO2,0.003
+China,coal,CH4,Coal Mining Activities,7285,0.619,CO2,0.003
+China,coal,CH4,Coal Mining Activities,12141,0.619,CO2,0.003
+China,crude oil,CH4,Natural Gas and Oil Systems,0,0.399,CO2,0.004
+China,crude oil,CH4,Natural Gas and Oil Systems,5,0.406,CO2,0.004
+China,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+China,crude oil,CH4,Natural Gas and Oil Systems,15,0.428,CO2,0.004
+China,crude oil,CH4,Natural Gas and Oil Systems,32,0.437,CO2,0.004
+China,crude oil,CH4,Natural Gas and Oil Systems,66,0.473,CO2,0.004
+China,crude oil,CH4,Natural Gas and Oil Systems,129,0.503,CO2,0.004
+China,crude oil,CH4,Natural Gas and Oil Systems,243,0.532,CO2,0.004
+China,crude oil,CH4,Natural Gas and Oil Systems,486,0.559,CO2,0.004
+China,crude oil,CH4,Natural Gas and Oil Systems,1093,0.58,CO2,0.004
+China,crude oil,CH4,Natural Gas and Oil Systems,2064,0.594,CO2,0.004
+China,crude oil,CH4,Natural Gas and Oil Systems,4857,0.618,CO2,0.004
+China,crude oil,CH4,Natural Gas and Oil Systems,7285,0.618,CO2,0.004
+China,crude oil,CH4,Natural Gas and Oil Systems,12141,0.618,CO2,0.004
+China,natural gas,CH4,Natural Gas and Oil Systems,0,0.399,CO2,0.004
+China,natural gas,CH4,Natural Gas and Oil Systems,5,0.406,CO2,0.004
+China,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+China,natural gas,CH4,Natural Gas and Oil Systems,15,0.428,CO2,0.004
+China,natural gas,CH4,Natural Gas and Oil Systems,32,0.437,CO2,0.004
+China,natural gas,CH4,Natural Gas and Oil Systems,66,0.473,CO2,0.004
+China,natural gas,CH4,Natural Gas and Oil Systems,129,0.503,CO2,0.004
+China,natural gas,CH4,Natural Gas and Oil Systems,243,0.532,CO2,0.004
+China,natural gas,CH4,Natural Gas and Oil Systems,486,0.559,CO2,0.004
+China,natural gas,CH4,Natural Gas and Oil Systems,1093,0.58,CO2,0.004
+China,natural gas,CH4,Natural Gas and Oil Systems,2064,0.594,CO2,0.004
+China,natural gas,CH4,Natural Gas and Oil Systems,4857,0.618,CO2,0.004
+China,natural gas,CH4,Natural Gas and Oil Systems,7285,0.618,CO2,0.004
+China,natural gas,CH4,Natural Gas and Oil Systems,12141,0.618,CO2,0.004
+Colombia,coal,CH4,Coal Mining Activities,0,0.117,CO2,0.003
+Colombia,coal,CH4,Coal Mining Activities,5,0.239,CO2,0.003
+Colombia,coal,CH4,Coal Mining Activities,10,0.359,CO2,0.003
+Colombia,coal,CH4,Coal Mining Activities,15,0.466,CO2,0.003
+Colombia,coal,CH4,Coal Mining Activities,32,0.499,CO2,0.003
+Colombia,coal,CH4,Coal Mining Activities,66,0.558,CO2,0.003
+Colombia,coal,CH4,Coal Mining Activities,129,0.618,CO2,0.003
+Colombia,coal,CH4,Coal Mining Activities,243,0.618,CO2,0.003
+Colombia,coal,CH4,Coal Mining Activities,486,0.624,CO2,0.003
+Colombia,coal,CH4,Coal Mining Activities,1093,0.624,CO2,0.003
+Colombia,coal,CH4,Coal Mining Activities,2064,0.624,CO2,0.003
+Colombia,coal,CH4,Coal Mining Activities,4857,0.624,CO2,0.003
+Colombia,coal,CH4,Coal Mining Activities,7285,0.624,CO2,0.003
+Colombia,coal,CH4,Coal Mining Activities,12141,0.624,CO2,0.003
+Colombia,crude oil,CH4,Natural Gas and Oil Systems,0,0.391,CO2,0.004
+Colombia,crude oil,CH4,Natural Gas and Oil Systems,5,0.401,CO2,0.004
+Colombia,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+Colombia,crude oil,CH4,Natural Gas and Oil Systems,15,0.407,CO2,0.004
+Colombia,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+Colombia,crude oil,CH4,Natural Gas and Oil Systems,66,0.458,CO2,0.004
+Colombia,crude oil,CH4,Natural Gas and Oil Systems,129,0.46,CO2,0.004
+Colombia,crude oil,CH4,Natural Gas and Oil Systems,243,0.487,CO2,0.004
+Colombia,crude oil,CH4,Natural Gas and Oil Systems,486,0.499,CO2,0.004
+Colombia,crude oil,CH4,Natural Gas and Oil Systems,1093,0.53,CO2,0.004
+Colombia,crude oil,CH4,Natural Gas and Oil Systems,2064,0.567,CO2,0.004
+Colombia,crude oil,CH4,Natural Gas and Oil Systems,4857,0.576,CO2,0.004
+Colombia,crude oil,CH4,Natural Gas and Oil Systems,7285,0.579,CO2,0.004
+Colombia,crude oil,CH4,Natural Gas and Oil Systems,12141,0.579,CO2,0.004
+Colombia,natural gas,CH4,Natural Gas and Oil Systems,0,0.391,CO2,0.004
+Colombia,natural gas,CH4,Natural Gas and Oil Systems,5,0.401,CO2,0.004
+Colombia,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+Colombia,natural gas,CH4,Natural Gas and Oil Systems,15,0.407,CO2,0.004
+Colombia,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+Colombia,natural gas,CH4,Natural Gas and Oil Systems,66,0.458,CO2,0.004
+Colombia,natural gas,CH4,Natural Gas and Oil Systems,129,0.46,CO2,0.004
+Colombia,natural gas,CH4,Natural Gas and Oil Systems,243,0.487,CO2,0.004
+Colombia,natural gas,CH4,Natural Gas and Oil Systems,486,0.499,CO2,0.004
+Colombia,natural gas,CH4,Natural Gas and Oil Systems,1093,0.53,CO2,0.004
+Colombia,natural gas,CH4,Natural Gas and Oil Systems,2064,0.567,CO2,0.004
+Colombia,natural gas,CH4,Natural Gas and Oil Systems,4857,0.576,CO2,0.004
+Colombia,natural gas,CH4,Natural Gas and Oil Systems,7285,0.579,CO2,0.004
+Colombia,natural gas,CH4,Natural Gas and Oil Systems,12141,0.579,CO2,0.004
+EU-12,coal,CH4,Coal Mining Activities,0,0.095,CO2,0.003
+EU-12,coal,CH4,Coal Mining Activities,5,0.203,CO2,0.003
+EU-12,coal,CH4,Coal Mining Activities,10,0.349,CO2,0.003
+EU-12,coal,CH4,Coal Mining Activities,15,0.411,CO2,0.003
+EU-12,coal,CH4,Coal Mining Activities,32,0.441,CO2,0.003
+EU-12,coal,CH4,Coal Mining Activities,66,0.533,CO2,0.003
+EU-12,coal,CH4,Coal Mining Activities,129,0.55,CO2,0.003
+EU-12,coal,CH4,Coal Mining Activities,243,0.551,CO2,0.003
+EU-12,coal,CH4,Coal Mining Activities,486,0.556,CO2,0.003
+EU-12,coal,CH4,Coal Mining Activities,1093,0.556,CO2,0.003
+EU-12,coal,CH4,Coal Mining Activities,2064,0.556,CO2,0.003
+EU-12,coal,CH4,Coal Mining Activities,4857,0.556,CO2,0.003
+EU-12,coal,CH4,Coal Mining Activities,7285,0.556,CO2,0.003
+EU-12,coal,CH4,Coal Mining Activities,12141,0.556,CO2,0.003
+EU-12,crude oil,CH4,Natural Gas and Oil Systems,0,0.388,CO2,0.004
+EU-12,crude oil,CH4,Natural Gas and Oil Systems,5,0.398,CO2,0.004
+EU-12,crude oil,CH4,Natural Gas and Oil Systems,10,0.399,CO2,0.004
+EU-12,crude oil,CH4,Natural Gas and Oil Systems,15,0.399,CO2,0.004
+EU-12,crude oil,CH4,Natural Gas and Oil Systems,32,0.412,CO2,0.004
+EU-12,crude oil,CH4,Natural Gas and Oil Systems,66,0.434,CO2,0.004
+EU-12,crude oil,CH4,Natural Gas and Oil Systems,129,0.449,CO2,0.004
+EU-12,crude oil,CH4,Natural Gas and Oil Systems,243,0.472,CO2,0.004
+EU-12,crude oil,CH4,Natural Gas and Oil Systems,486,0.494,CO2,0.004
+EU-12,crude oil,CH4,Natural Gas and Oil Systems,1093,0.52,CO2,0.004
+EU-12,crude oil,CH4,Natural Gas and Oil Systems,2064,0.549,CO2,0.004
+EU-12,crude oil,CH4,Natural Gas and Oil Systems,4857,0.577,CO2,0.004
+EU-12,crude oil,CH4,Natural Gas and Oil Systems,7285,0.587,CO2,0.004
+EU-12,crude oil,CH4,Natural Gas and Oil Systems,12141,0.593,CO2,0.004
+EU-12,natural gas,CH4,Natural Gas and Oil Systems,0,0.388,CO2,0.004
+EU-12,natural gas,CH4,Natural Gas and Oil Systems,5,0.398,CO2,0.004
+EU-12,natural gas,CH4,Natural Gas and Oil Systems,10,0.399,CO2,0.004
+EU-12,natural gas,CH4,Natural Gas and Oil Systems,15,0.399,CO2,0.004
+EU-12,natural gas,CH4,Natural Gas and Oil Systems,32,0.412,CO2,0.004
+EU-12,natural gas,CH4,Natural Gas and Oil Systems,66,0.434,CO2,0.004
+EU-12,natural gas,CH4,Natural Gas and Oil Systems,129,0.449,CO2,0.004
+EU-12,natural gas,CH4,Natural Gas and Oil Systems,243,0.472,CO2,0.004
+EU-12,natural gas,CH4,Natural Gas and Oil Systems,486,0.494,CO2,0.004
+EU-12,natural gas,CH4,Natural Gas and Oil Systems,1093,0.52,CO2,0.004
+EU-12,natural gas,CH4,Natural Gas and Oil Systems,2064,0.549,CO2,0.004
+EU-12,natural gas,CH4,Natural Gas and Oil Systems,4857,0.577,CO2,0.004
+EU-12,natural gas,CH4,Natural Gas and Oil Systems,7285,0.587,CO2,0.004
+EU-12,natural gas,CH4,Natural Gas and Oil Systems,12141,0.593,CO2,0.004
+EU-15,coal,CH4,Coal Mining Activities,0,0.095,CO2,0.003
+EU-15,coal,CH4,Coal Mining Activities,5,0.203,CO2,0.003
+EU-15,coal,CH4,Coal Mining Activities,10,0.349,CO2,0.003
+EU-15,coal,CH4,Coal Mining Activities,15,0.411,CO2,0.003
+EU-15,coal,CH4,Coal Mining Activities,32,0.441,CO2,0.003
+EU-15,coal,CH4,Coal Mining Activities,66,0.533,CO2,0.003
+EU-15,coal,CH4,Coal Mining Activities,129,0.55,CO2,0.003
+EU-15,coal,CH4,Coal Mining Activities,243,0.551,CO2,0.003
+EU-15,coal,CH4,Coal Mining Activities,486,0.556,CO2,0.003
+EU-15,coal,CH4,Coal Mining Activities,1093,0.556,CO2,0.003
+EU-15,coal,CH4,Coal Mining Activities,2064,0.556,CO2,0.003
+EU-15,coal,CH4,Coal Mining Activities,4857,0.556,CO2,0.003
+EU-15,coal,CH4,Coal Mining Activities,7285,0.556,CO2,0.003
+EU-15,coal,CH4,Coal Mining Activities,12141,0.556,CO2,0.003
+EU-15,crude oil,CH4,Natural Gas and Oil Systems,0,0.388,CO2,0.004
+EU-15,crude oil,CH4,Natural Gas and Oil Systems,5,0.398,CO2,0.004
+EU-15,crude oil,CH4,Natural Gas and Oil Systems,10,0.399,CO2,0.004
+EU-15,crude oil,CH4,Natural Gas and Oil Systems,15,0.399,CO2,0.004
+EU-15,crude oil,CH4,Natural Gas and Oil Systems,32,0.412,CO2,0.004
+EU-15,crude oil,CH4,Natural Gas and Oil Systems,66,0.434,CO2,0.004
+EU-15,crude oil,CH4,Natural Gas and Oil Systems,129,0.449,CO2,0.004
+EU-15,crude oil,CH4,Natural Gas and Oil Systems,243,0.472,CO2,0.004
+EU-15,crude oil,CH4,Natural Gas and Oil Systems,486,0.494,CO2,0.004
+EU-15,crude oil,CH4,Natural Gas and Oil Systems,1093,0.52,CO2,0.004
+EU-15,crude oil,CH4,Natural Gas and Oil Systems,2064,0.549,CO2,0.004
+EU-15,crude oil,CH4,Natural Gas and Oil Systems,4857,0.577,CO2,0.004
+EU-15,crude oil,CH4,Natural Gas and Oil Systems,7285,0.587,CO2,0.004
+EU-15,crude oil,CH4,Natural Gas and Oil Systems,12141,0.593,CO2,0.004
+EU-15,natural gas,CH4,Natural Gas and Oil Systems,0,0.388,CO2,0.004
+EU-15,natural gas,CH4,Natural Gas and Oil Systems,5,0.398,CO2,0.004
+EU-15,natural gas,CH4,Natural Gas and Oil Systems,10,0.399,CO2,0.004
+EU-15,natural gas,CH4,Natural Gas and Oil Systems,15,0.399,CO2,0.004
+EU-15,natural gas,CH4,Natural Gas and Oil Systems,32,0.412,CO2,0.004
+EU-15,natural gas,CH4,Natural Gas and Oil Systems,66,0.434,CO2,0.004
+EU-15,natural gas,CH4,Natural Gas and Oil Systems,129,0.449,CO2,0.004
+EU-15,natural gas,CH4,Natural Gas and Oil Systems,243,0.472,CO2,0.004
+EU-15,natural gas,CH4,Natural Gas and Oil Systems,486,0.494,CO2,0.004
+EU-15,natural gas,CH4,Natural Gas and Oil Systems,1093,0.52,CO2,0.004
+EU-15,natural gas,CH4,Natural Gas and Oil Systems,2064,0.549,CO2,0.004
+EU-15,natural gas,CH4,Natural Gas and Oil Systems,4857,0.577,CO2,0.004
+EU-15,natural gas,CH4,Natural Gas and Oil Systems,7285,0.587,CO2,0.004
+EU-15,natural gas,CH4,Natural Gas and Oil Systems,12141,0.593,CO2,0.004
+Europe_Eastern,coal,CH4,Coal Mining Activities,0,0.103,CO2,0.003
+Europe_Eastern,coal,CH4,Coal Mining Activities,5,0.275,CO2,0.003
+Europe_Eastern,coal,CH4,Coal Mining Activities,10,0.399,CO2,0.003
+Europe_Eastern,coal,CH4,Coal Mining Activities,15,0.439,CO2,0.003
+Europe_Eastern,coal,CH4,Coal Mining Activities,32,0.492,CO2,0.003
+Europe_Eastern,coal,CH4,Coal Mining Activities,66,0.557,CO2,0.003
+Europe_Eastern,coal,CH4,Coal Mining Activities,129,0.559,CO2,0.003
+Europe_Eastern,coal,CH4,Coal Mining Activities,243,0.561,CO2,0.003
+Europe_Eastern,coal,CH4,Coal Mining Activities,486,0.564,CO2,0.003
+Europe_Eastern,coal,CH4,Coal Mining Activities,1093,0.564,CO2,0.003
+Europe_Eastern,coal,CH4,Coal Mining Activities,2064,0.564,CO2,0.003
+Europe_Eastern,coal,CH4,Coal Mining Activities,4857,0.564,CO2,0.003
+Europe_Eastern,coal,CH4,Coal Mining Activities,7285,0.564,CO2,0.003
+Europe_Eastern,coal,CH4,Coal Mining Activities,12141,0.564,CO2,0.003
+Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,0,0.343,CO2,0.004
+Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,5,0.395,CO2,0.004
+Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,10,0.415,CO2,0.004
+Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,15,0.433,CO2,0.004
+Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,32,0.444,CO2,0.004
+Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,66,0.481,CO2,0.004
+Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,129,0.525,CO2,0.004
+Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,243,0.544,CO2,0.004
+Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,486,0.565,CO2,0.004
+Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,1093,0.603,CO2,0.004
+Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,2064,0.607,CO2,0.004
+Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,4857,0.621,CO2,0.004
+Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,7285,0.621,CO2,0.004
+Europe_Eastern,crude oil,CH4,Natural Gas and Oil Systems,12141,0.621,CO2,0.004
+Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,0,0.343,CO2,0.004
+Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,5,0.395,CO2,0.004
+Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,10,0.415,CO2,0.004
+Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,15,0.433,CO2,0.004
+Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,32,0.444,CO2,0.004
+Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,66,0.481,CO2,0.004
+Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,129,0.525,CO2,0.004
+Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,243,0.544,CO2,0.004
+Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,486,0.565,CO2,0.004
+Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,1093,0.603,CO2,0.004
+Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,2064,0.607,CO2,0.004
+Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,4857,0.621,CO2,0.004
+Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,7285,0.621,CO2,0.004
+Europe_Eastern,natural gas,CH4,Natural Gas and Oil Systems,12141,0.621,CO2,0.004
+Europe_Non_EU,coal,CH4,Coal Mining Activities,0,0.047,CO2,0.003
+Europe_Non_EU,coal,CH4,Coal Mining Activities,5,0.093,CO2,0.003
+Europe_Non_EU,coal,CH4,Coal Mining Activities,10,0.137,CO2,0.003
+Europe_Non_EU,coal,CH4,Coal Mining Activities,15,0.175,CO2,0.003
+Europe_Non_EU,coal,CH4,Coal Mining Activities,32,0.184,CO2,0.003
+Europe_Non_EU,coal,CH4,Coal Mining Activities,66,0.21,CO2,0.003
+Europe_Non_EU,coal,CH4,Coal Mining Activities,129,0.233,CO2,0.003
+Europe_Non_EU,coal,CH4,Coal Mining Activities,243,0.233,CO2,0.003
+Europe_Non_EU,coal,CH4,Coal Mining Activities,486,0.235,CO2,0.003
+Europe_Non_EU,coal,CH4,Coal Mining Activities,1093,0.235,CO2,0.003
+Europe_Non_EU,coal,CH4,Coal Mining Activities,2064,0.235,CO2,0.003
+Europe_Non_EU,coal,CH4,Coal Mining Activities,4857,0.235,CO2,0.003
+Europe_Non_EU,coal,CH4,Coal Mining Activities,7285,0.235,CO2,0.003
+Europe_Non_EU,coal,CH4,Coal Mining Activities,12141,0.235,CO2,0.003
+Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,0,0.303,CO2,0.004
+Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,5,0.304,CO2,0.004
+Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,10,0.304,CO2,0.004
+Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,15,0.304,CO2,0.004
+Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,32,0.308,CO2,0.004
+Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,66,0.313,CO2,0.004
+Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,129,0.318,CO2,0.004
+Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,243,0.322,CO2,0.004
+Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,486,0.324,CO2,0.004
+Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,1093,0.326,CO2,0.004
+Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,2064,0.429,CO2,0.004
+Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,4857,0.516,CO2,0.004
+Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,7285,0.52,CO2,0.004
+Europe_Non_EU,crude oil,CH4,Natural Gas and Oil Systems,12141,0.52,CO2,0.004
+Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,0,0.303,CO2,0.004
+Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,5,0.304,CO2,0.004
+Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,10,0.304,CO2,0.004
+Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,15,0.304,CO2,0.004
+Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,32,0.308,CO2,0.004
+Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,66,0.313,CO2,0.004
+Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,129,0.318,CO2,0.004
+Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,243,0.322,CO2,0.004
+Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,486,0.324,CO2,0.004
+Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,1093,0.326,CO2,0.004
+Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,2064,0.429,CO2,0.004
+Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,4857,0.516,CO2,0.004
+Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,7285,0.52,CO2,0.004
+Europe_Non_EU,natural gas,CH4,Natural Gas and Oil Systems,12141,0.52,CO2,0.004
+European Free Trade Association,coal,CH4,Coal Mining Activities,0,0.095,CO2,0.003
+European Free Trade Association,coal,CH4,Coal Mining Activities,5,0.203,CO2,0.003
+European Free Trade Association,coal,CH4,Coal Mining Activities,10,0.349,CO2,0.003
+European Free Trade Association,coal,CH4,Coal Mining Activities,15,0.411,CO2,0.003
+European Free Trade Association,coal,CH4,Coal Mining Activities,32,0.441,CO2,0.003
+European Free Trade Association,coal,CH4,Coal Mining Activities,66,0.533,CO2,0.003
+European Free Trade Association,coal,CH4,Coal Mining Activities,129,0.55,CO2,0.003
+European Free Trade Association,coal,CH4,Coal Mining Activities,243,0.551,CO2,0.003
+European Free Trade Association,coal,CH4,Coal Mining Activities,486,0.556,CO2,0.003
+European Free Trade Association,coal,CH4,Coal Mining Activities,1093,0.556,CO2,0.003
+European Free Trade Association,coal,CH4,Coal Mining Activities,2064,0.556,CO2,0.003
+European Free Trade Association,coal,CH4,Coal Mining Activities,4857,0.556,CO2,0.003
+European Free Trade Association,coal,CH4,Coal Mining Activities,7285,0.556,CO2,0.003
+European Free Trade Association,coal,CH4,Coal Mining Activities,12141,0.556,CO2,0.003
+European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,0,0.388,CO2,0.004
+European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,5,0.398,CO2,0.004
+European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,10,0.399,CO2,0.004
+European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,15,0.399,CO2,0.004
+European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,32,0.412,CO2,0.004
+European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,66,0.434,CO2,0.004
+European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,129,0.449,CO2,0.004
+European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,243,0.472,CO2,0.004
+European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,486,0.494,CO2,0.004
+European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,1093,0.52,CO2,0.004
+European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,2064,0.549,CO2,0.004
+European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,4857,0.577,CO2,0.004
+European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,7285,0.587,CO2,0.004
+European Free Trade Association,crude oil,CH4,Natural Gas and Oil Systems,12141,0.593,CO2,0.004
+European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,0,0.388,CO2,0.004
+European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,5,0.398,CO2,0.004
+European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,10,0.399,CO2,0.004
+European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,15,0.399,CO2,0.004
+European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,32,0.412,CO2,0.004
+European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,66,0.434,CO2,0.004
+European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,129,0.449,CO2,0.004
+European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,243,0.472,CO2,0.004
+European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,486,0.494,CO2,0.004
+European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,1093,0.52,CO2,0.004
+European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,2064,0.549,CO2,0.004
+European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,4857,0.577,CO2,0.004
+European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,7285,0.587,CO2,0.004
+European Free Trade Association,natural gas,CH4,Natural Gas and Oil Systems,12141,0.593,CO2,0.004
+India,coal,CH4,Coal Mining Activities,0,0.14,CO2,0.003
+India,coal,CH4,Coal Mining Activities,5,0.265,CO2,0.003
+India,coal,CH4,Coal Mining Activities,10,0.39,CO2,0.003
+India,coal,CH4,Coal Mining Activities,15,0.491,CO2,0.003
+India,coal,CH4,Coal Mining Activities,32,0.519,CO2,0.003
+India,coal,CH4,Coal Mining Activities,66,0.632,CO2,0.003
+India,coal,CH4,Coal Mining Activities,129,0.636,CO2,0.003
+India,coal,CH4,Coal Mining Activities,243,0.636,CO2,0.003
+India,coal,CH4,Coal Mining Activities,486,0.641,CO2,0.003
+India,coal,CH4,Coal Mining Activities,1093,0.641,CO2,0.003
+India,coal,CH4,Coal Mining Activities,2064,0.641,CO2,0.003
+India,coal,CH4,Coal Mining Activities,4857,0.641,CO2,0.003
+India,coal,CH4,Coal Mining Activities,7285,0.641,CO2,0.003
+India,coal,CH4,Coal Mining Activities,12141,0.641,CO2,0.003
+India,crude oil,CH4,Natural Gas and Oil Systems,0,0.364,CO2,0.004
+India,crude oil,CH4,Natural Gas and Oil Systems,5,0.371,CO2,0.004
+India,crude oil,CH4,Natural Gas and Oil Systems,10,0.372,CO2,0.004
+India,crude oil,CH4,Natural Gas and Oil Systems,15,0.421,CO2,0.004
+India,crude oil,CH4,Natural Gas and Oil Systems,32,0.424,CO2,0.004
+India,crude oil,CH4,Natural Gas and Oil Systems,66,0.445,CO2,0.004
+India,crude oil,CH4,Natural Gas and Oil Systems,129,0.457,CO2,0.004
+India,crude oil,CH4,Natural Gas and Oil Systems,243,0.468,CO2,0.004
+India,crude oil,CH4,Natural Gas and Oil Systems,486,0.494,CO2,0.004
+India,crude oil,CH4,Natural Gas and Oil Systems,1093,0.515,CO2,0.004
+India,crude oil,CH4,Natural Gas and Oil Systems,2064,0.53,CO2,0.004
+India,crude oil,CH4,Natural Gas and Oil Systems,4857,0.548,CO2,0.004
+India,crude oil,CH4,Natural Gas and Oil Systems,7285,0.548,CO2,0.004
+India,crude oil,CH4,Natural Gas and Oil Systems,12141,0.548,CO2,0.004
+India,natural gas,CH4,Natural Gas and Oil Systems,0,0.364,CO2,0.004
+India,natural gas,CH4,Natural Gas and Oil Systems,5,0.371,CO2,0.004
+India,natural gas,CH4,Natural Gas and Oil Systems,10,0.372,CO2,0.004
+India,natural gas,CH4,Natural Gas and Oil Systems,15,0.421,CO2,0.004
+India,natural gas,CH4,Natural Gas and Oil Systems,32,0.424,CO2,0.004
+India,natural gas,CH4,Natural Gas and Oil Systems,66,0.445,CO2,0.004
+India,natural gas,CH4,Natural Gas and Oil Systems,129,0.457,CO2,0.004
+India,natural gas,CH4,Natural Gas and Oil Systems,243,0.468,CO2,0.004
+India,natural gas,CH4,Natural Gas and Oil Systems,486,0.494,CO2,0.004
+India,natural gas,CH4,Natural Gas and Oil Systems,1093,0.515,CO2,0.004
+India,natural gas,CH4,Natural Gas and Oil Systems,2064,0.53,CO2,0.004
+India,natural gas,CH4,Natural Gas and Oil Systems,4857,0.548,CO2,0.004
+India,natural gas,CH4,Natural Gas and Oil Systems,7285,0.548,CO2,0.004
+India,natural gas,CH4,Natural Gas and Oil Systems,12141,0.548,CO2,0.004
+Indonesia,coal,CH4,Coal Mining Activities,0,0.119,CO2,0.003
+Indonesia,coal,CH4,Coal Mining Activities,5,0.28,CO2,0.003
+Indonesia,coal,CH4,Coal Mining Activities,10,0.417,CO2,0.003
+Indonesia,coal,CH4,Coal Mining Activities,15,0.482,CO2,0.003
+Indonesia,coal,CH4,Coal Mining Activities,32,0.512,CO2,0.003
+Indonesia,coal,CH4,Coal Mining Activities,66,0.615,CO2,0.003
+Indonesia,coal,CH4,Coal Mining Activities,129,0.618,CO2,0.003
+Indonesia,coal,CH4,Coal Mining Activities,243,0.624,CO2,0.003
+Indonesia,coal,CH4,Coal Mining Activities,486,0.624,CO2,0.003
+Indonesia,coal,CH4,Coal Mining Activities,1093,0.624,CO2,0.003
+Indonesia,coal,CH4,Coal Mining Activities,2064,0.624,CO2,0.003
+Indonesia,coal,CH4,Coal Mining Activities,4857,0.624,CO2,0.003
+Indonesia,coal,CH4,Coal Mining Activities,7285,0.624,CO2,0.003
+Indonesia,coal,CH4,Coal Mining Activities,12141,0.624,CO2,0.003
+Indonesia,crude oil,CH4,Natural Gas and Oil Systems,0,0.359,CO2,0.004
+Indonesia,crude oil,CH4,Natural Gas and Oil Systems,5,0.367,CO2,0.004
+Indonesia,crude oil,CH4,Natural Gas and Oil Systems,10,0.367,CO2,0.004
+Indonesia,crude oil,CH4,Natural Gas and Oil Systems,15,0.405,CO2,0.004
+Indonesia,crude oil,CH4,Natural Gas and Oil Systems,32,0.429,CO2,0.004
+Indonesia,crude oil,CH4,Natural Gas and Oil Systems,66,0.448,CO2,0.004
+Indonesia,crude oil,CH4,Natural Gas and Oil Systems,129,0.455,CO2,0.004
+Indonesia,crude oil,CH4,Natural Gas and Oil Systems,243,0.461,CO2,0.004
+Indonesia,crude oil,CH4,Natural Gas and Oil Systems,486,0.478,CO2,0.004
+Indonesia,crude oil,CH4,Natural Gas and Oil Systems,1093,0.503,CO2,0.004
+Indonesia,crude oil,CH4,Natural Gas and Oil Systems,2064,0.52,CO2,0.004
+Indonesia,crude oil,CH4,Natural Gas and Oil Systems,4857,0.527,CO2,0.004
+Indonesia,crude oil,CH4,Natural Gas and Oil Systems,7285,0.532,CO2,0.004
+Indonesia,crude oil,CH4,Natural Gas and Oil Systems,12141,0.532,CO2,0.004
+Indonesia,natural gas,CH4,Natural Gas and Oil Systems,0,0.359,CO2,0.004
+Indonesia,natural gas,CH4,Natural Gas and Oil Systems,5,0.367,CO2,0.004
+Indonesia,natural gas,CH4,Natural Gas and Oil Systems,10,0.367,CO2,0.004
+Indonesia,natural gas,CH4,Natural Gas and Oil Systems,15,0.405,CO2,0.004
+Indonesia,natural gas,CH4,Natural Gas and Oil Systems,32,0.429,CO2,0.004
+Indonesia,natural gas,CH4,Natural Gas and Oil Systems,66,0.448,CO2,0.004
+Indonesia,natural gas,CH4,Natural Gas and Oil Systems,129,0.455,CO2,0.004
+Indonesia,natural gas,CH4,Natural Gas and Oil Systems,243,0.461,CO2,0.004
+Indonesia,natural gas,CH4,Natural Gas and Oil Systems,486,0.478,CO2,0.004
+Indonesia,natural gas,CH4,Natural Gas and Oil Systems,1093,0.503,CO2,0.004
+Indonesia,natural gas,CH4,Natural Gas and Oil Systems,2064,0.52,CO2,0.004
+Indonesia,natural gas,CH4,Natural Gas and Oil Systems,4857,0.527,CO2,0.004
+Indonesia,natural gas,CH4,Natural Gas and Oil Systems,7285,0.532,CO2,0.004
+Indonesia,natural gas,CH4,Natural Gas and Oil Systems,12141,0.532,CO2,0.004
+Japan,coal,CH4,Coal Mining Activities,0,0.105,CO2,0.003
+Japan,coal,CH4,Coal Mining Activities,5,0.326,CO2,0.003
+Japan,coal,CH4,Coal Mining Activities,10,0.457,CO2,0.003
+Japan,coal,CH4,Coal Mining Activities,15,0.476,CO2,0.003
+Japan,coal,CH4,Coal Mining Activities,32,0.542,CO2,0.003
+Japan,coal,CH4,Coal Mining Activities,66,0.613,CO2,0.003
+Japan,coal,CH4,Coal Mining Activities,129,0.615,CO2,0.003
+Japan,coal,CH4,Coal Mining Activities,243,0.62,CO2,0.003
+Japan,coal,CH4,Coal Mining Activities,486,0.621,CO2,0.003
+Japan,coal,CH4,Coal Mining Activities,1093,0.621,CO2,0.003
+Japan,coal,CH4,Coal Mining Activities,2064,0.621,CO2,0.003
+Japan,coal,CH4,Coal Mining Activities,4857,0.621,CO2,0.003
+Japan,coal,CH4,Coal Mining Activities,7285,0.621,CO2,0.003
+Japan,coal,CH4,Coal Mining Activities,12141,0.621,CO2,0.003
+Japan,crude oil,CH4,Natural Gas and Oil Systems,0,0.358,CO2,0.004
+Japan,crude oil,CH4,Natural Gas and Oil Systems,5,0.367,CO2,0.004
+Japan,crude oil,CH4,Natural Gas and Oil Systems,10,0.371,CO2,0.004
+Japan,crude oil,CH4,Natural Gas and Oil Systems,15,0.392,CO2,0.004
+Japan,crude oil,CH4,Natural Gas and Oil Systems,32,0.426,CO2,0.004
+Japan,crude oil,CH4,Natural Gas and Oil Systems,66,0.44,CO2,0.004
+Japan,crude oil,CH4,Natural Gas and Oil Systems,129,0.452,CO2,0.004
+Japan,crude oil,CH4,Natural Gas and Oil Systems,243,0.459,CO2,0.004
+Japan,crude oil,CH4,Natural Gas and Oil Systems,486,0.478,CO2,0.004
+Japan,crude oil,CH4,Natural Gas and Oil Systems,1093,0.502,CO2,0.004
+Japan,crude oil,CH4,Natural Gas and Oil Systems,2064,0.52,CO2,0.004
+Japan,crude oil,CH4,Natural Gas and Oil Systems,4857,0.531,CO2,0.004
+Japan,crude oil,CH4,Natural Gas and Oil Systems,7285,0.534,CO2,0.004
+Japan,crude oil,CH4,Natural Gas and Oil Systems,12141,0.534,CO2,0.004
+Japan,natural gas,CH4,Natural Gas and Oil Systems,0,0.358,CO2,0.004
+Japan,natural gas,CH4,Natural Gas and Oil Systems,5,0.367,CO2,0.004
+Japan,natural gas,CH4,Natural Gas and Oil Systems,10,0.371,CO2,0.004
+Japan,natural gas,CH4,Natural Gas and Oil Systems,15,0.392,CO2,0.004
+Japan,natural gas,CH4,Natural Gas and Oil Systems,32,0.426,CO2,0.004
+Japan,natural gas,CH4,Natural Gas and Oil Systems,66,0.44,CO2,0.004
+Japan,natural gas,CH4,Natural Gas and Oil Systems,129,0.452,CO2,0.004
+Japan,natural gas,CH4,Natural Gas and Oil Systems,243,0.459,CO2,0.004
+Japan,natural gas,CH4,Natural Gas and Oil Systems,486,0.478,CO2,0.004
+Japan,natural gas,CH4,Natural Gas and Oil Systems,1093,0.502,CO2,0.004
+Japan,natural gas,CH4,Natural Gas and Oil Systems,2064,0.52,CO2,0.004
+Japan,natural gas,CH4,Natural Gas and Oil Systems,4857,0.531,CO2,0.004
+Japan,natural gas,CH4,Natural Gas and Oil Systems,7285,0.534,CO2,0.004
+Japan,natural gas,CH4,Natural Gas and Oil Systems,12141,0.534,CO2,0.004
+Mexico,coal,CH4,Coal Mining Activities,0,0.119,CO2,0.003
+Mexico,coal,CH4,Coal Mining Activities,5,0.242,CO2,0.003
+Mexico,coal,CH4,Coal Mining Activities,10,0.419,CO2,0.003
+Mexico,coal,CH4,Coal Mining Activities,15,0.477,CO2,0.003
+Mexico,coal,CH4,Coal Mining Activities,32,0.503,CO2,0.003
+Mexico,coal,CH4,Coal Mining Activities,66,0.615,CO2,0.003
+Mexico,coal,CH4,Coal Mining Activities,129,0.62,CO2,0.003
+Mexico,coal,CH4,Coal Mining Activities,243,0.62,CO2,0.003
+Mexico,coal,CH4,Coal Mining Activities,486,0.625,CO2,0.003
+Mexico,coal,CH4,Coal Mining Activities,1093,0.625,CO2,0.003
+Mexico,coal,CH4,Coal Mining Activities,2064,0.625,CO2,0.003
+Mexico,coal,CH4,Coal Mining Activities,4857,0.625,CO2,0.003
+Mexico,coal,CH4,Coal Mining Activities,7285,0.625,CO2,0.003
+Mexico,coal,CH4,Coal Mining Activities,12141,0.625,CO2,0.003
+Mexico,crude oil,CH4,Natural Gas and Oil Systems,0,0.389,CO2,0.004
+Mexico,crude oil,CH4,Natural Gas and Oil Systems,5,0.402,CO2,0.004
+Mexico,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+Mexico,crude oil,CH4,Natural Gas and Oil Systems,15,0.406,CO2,0.004
+Mexico,crude oil,CH4,Natural Gas and Oil Systems,32,0.423,CO2,0.004
+Mexico,crude oil,CH4,Natural Gas and Oil Systems,66,0.438,CO2,0.004
+Mexico,crude oil,CH4,Natural Gas and Oil Systems,129,0.447,CO2,0.004
+Mexico,crude oil,CH4,Natural Gas and Oil Systems,243,0.455,CO2,0.004
+Mexico,crude oil,CH4,Natural Gas and Oil Systems,486,0.46,CO2,0.004
+Mexico,crude oil,CH4,Natural Gas and Oil Systems,1093,0.523,CO2,0.004
+Mexico,crude oil,CH4,Natural Gas and Oil Systems,2064,0.546,CO2,0.004
+Mexico,crude oil,CH4,Natural Gas and Oil Systems,4857,0.552,CO2,0.004
+Mexico,crude oil,CH4,Natural Gas and Oil Systems,7285,0.554,CO2,0.004
+Mexico,crude oil,CH4,Natural Gas and Oil Systems,12141,0.554,CO2,0.004
+Mexico,natural gas,CH4,Natural Gas and Oil Systems,0,0.389,CO2,0.004
+Mexico,natural gas,CH4,Natural Gas and Oil Systems,5,0.402,CO2,0.004
+Mexico,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+Mexico,natural gas,CH4,Natural Gas and Oil Systems,15,0.406,CO2,0.004
+Mexico,natural gas,CH4,Natural Gas and Oil Systems,32,0.423,CO2,0.004
+Mexico,natural gas,CH4,Natural Gas and Oil Systems,66,0.438,CO2,0.004
+Mexico,natural gas,CH4,Natural Gas and Oil Systems,129,0.447,CO2,0.004
+Mexico,natural gas,CH4,Natural Gas and Oil Systems,243,0.455,CO2,0.004
+Mexico,natural gas,CH4,Natural Gas and Oil Systems,486,0.46,CO2,0.004
+Mexico,natural gas,CH4,Natural Gas and Oil Systems,1093,0.523,CO2,0.004
+Mexico,natural gas,CH4,Natural Gas and Oil Systems,2064,0.546,CO2,0.004
+Mexico,natural gas,CH4,Natural Gas and Oil Systems,4857,0.552,CO2,0.004
+Mexico,natural gas,CH4,Natural Gas and Oil Systems,7285,0.554,CO2,0.004
+Mexico,natural gas,CH4,Natural Gas and Oil Systems,12141,0.554,CO2,0.004
+Middle East,coal,CH4,Coal Mining Activities,0,0.114,CO2,0.003
+Middle East,coal,CH4,Coal Mining Activities,5,0.234,CO2,0.003
+Middle East,coal,CH4,Coal Mining Activities,10,0.414,CO2,0.003
+Middle East,coal,CH4,Coal Mining Activities,15,0.473,CO2,0.003
+Middle East,coal,CH4,Coal Mining Activities,32,0.5,CO2,0.003
+Middle East,coal,CH4,Coal Mining Activities,66,0.614,CO2,0.003
+Middle East,coal,CH4,Coal Mining Activities,129,0.619,CO2,0.003
+Middle East,coal,CH4,Coal Mining Activities,243,0.619,CO2,0.003
+Middle East,coal,CH4,Coal Mining Activities,486,0.625,CO2,0.003
+Middle East,coal,CH4,Coal Mining Activities,1093,0.625,CO2,0.003
+Middle East,coal,CH4,Coal Mining Activities,2064,0.625,CO2,0.003
+Middle East,coal,CH4,Coal Mining Activities,4857,0.625,CO2,0.003
+Middle East,coal,CH4,Coal Mining Activities,7285,0.625,CO2,0.003
+Middle East,coal,CH4,Coal Mining Activities,12141,0.625,CO2,0.003
+Middle East,crude oil,CH4,Natural Gas and Oil Systems,0,0.394,CO2,0.004
+Middle East,crude oil,CH4,Natural Gas and Oil Systems,5,0.405,CO2,0.004
+Middle East,crude oil,CH4,Natural Gas and Oil Systems,10,0.405,CO2,0.004
+Middle East,crude oil,CH4,Natural Gas and Oil Systems,15,0.405,CO2,0.004
+Middle East,crude oil,CH4,Natural Gas and Oil Systems,32,0.428,CO2,0.004
+Middle East,crude oil,CH4,Natural Gas and Oil Systems,66,0.445,CO2,0.004
+Middle East,crude oil,CH4,Natural Gas and Oil Systems,129,0.457,CO2,0.004
+Middle East,crude oil,CH4,Natural Gas and Oil Systems,243,0.48,CO2,0.004
+Middle East,crude oil,CH4,Natural Gas and Oil Systems,486,0.496,CO2,0.004
+Middle East,crude oil,CH4,Natural Gas and Oil Systems,1093,0.53,CO2,0.004
+Middle East,crude oil,CH4,Natural Gas and Oil Systems,2064,0.564,CO2,0.004
+Middle East,crude oil,CH4,Natural Gas and Oil Systems,4857,0.575,CO2,0.004
+Middle East,crude oil,CH4,Natural Gas and Oil Systems,7285,0.581,CO2,0.004
+Middle East,crude oil,CH4,Natural Gas and Oil Systems,12141,0.583,CO2,0.004
+Middle East,natural gas,CH4,Natural Gas and Oil Systems,0,0.394,CO2,0.004
+Middle East,natural gas,CH4,Natural Gas and Oil Systems,5,0.405,CO2,0.004
+Middle East,natural gas,CH4,Natural Gas and Oil Systems,10,0.405,CO2,0.004
+Middle East,natural gas,CH4,Natural Gas and Oil Systems,15,0.405,CO2,0.004
+Middle East,natural gas,CH4,Natural Gas and Oil Systems,32,0.428,CO2,0.004
+Middle East,natural gas,CH4,Natural Gas and Oil Systems,66,0.445,CO2,0.004
+Middle East,natural gas,CH4,Natural Gas and Oil Systems,129,0.457,CO2,0.004
+Middle East,natural gas,CH4,Natural Gas and Oil Systems,243,0.48,CO2,0.004
+Middle East,natural gas,CH4,Natural Gas and Oil Systems,486,0.496,CO2,0.004
+Middle East,natural gas,CH4,Natural Gas and Oil Systems,1093,0.53,CO2,0.004
+Middle East,natural gas,CH4,Natural Gas and Oil Systems,2064,0.564,CO2,0.004
+Middle East,natural gas,CH4,Natural Gas and Oil Systems,4857,0.575,CO2,0.004
+Middle East,natural gas,CH4,Natural Gas and Oil Systems,7285,0.581,CO2,0.004
+Middle East,natural gas,CH4,Natural Gas and Oil Systems,12141,0.583,CO2,0.004
+Pakistan,coal,CH4,Coal Mining Activities,0,0.105,CO2,0.003
+Pakistan,coal,CH4,Coal Mining Activities,5,0.326,CO2,0.003
+Pakistan,coal,CH4,Coal Mining Activities,10,0.457,CO2,0.003
+Pakistan,coal,CH4,Coal Mining Activities,15,0.476,CO2,0.003
+Pakistan,coal,CH4,Coal Mining Activities,32,0.542,CO2,0.003
+Pakistan,coal,CH4,Coal Mining Activities,66,0.613,CO2,0.003
+Pakistan,coal,CH4,Coal Mining Activities,129,0.615,CO2,0.003
+Pakistan,coal,CH4,Coal Mining Activities,243,0.62,CO2,0.003
+Pakistan,coal,CH4,Coal Mining Activities,486,0.621,CO2,0.003
+Pakistan,coal,CH4,Coal Mining Activities,1093,0.621,CO2,0.003
+Pakistan,coal,CH4,Coal Mining Activities,2064,0.621,CO2,0.003
+Pakistan,coal,CH4,Coal Mining Activities,4857,0.621,CO2,0.003
+Pakistan,coal,CH4,Coal Mining Activities,7285,0.621,CO2,0.003
+Pakistan,coal,CH4,Coal Mining Activities,12141,0.621,CO2,0.003
+Pakistan,crude oil,CH4,Natural Gas and Oil Systems,0,0.358,CO2,0.004
+Pakistan,crude oil,CH4,Natural Gas and Oil Systems,5,0.367,CO2,0.004
+Pakistan,crude oil,CH4,Natural Gas and Oil Systems,10,0.371,CO2,0.004
+Pakistan,crude oil,CH4,Natural Gas and Oil Systems,15,0.392,CO2,0.004
+Pakistan,crude oil,CH4,Natural Gas and Oil Systems,32,0.426,CO2,0.004
+Pakistan,crude oil,CH4,Natural Gas and Oil Systems,66,0.44,CO2,0.004
+Pakistan,crude oil,CH4,Natural Gas and Oil Systems,129,0.452,CO2,0.004
+Pakistan,crude oil,CH4,Natural Gas and Oil Systems,243,0.459,CO2,0.004
+Pakistan,crude oil,CH4,Natural Gas and Oil Systems,486,0.478,CO2,0.004
+Pakistan,crude oil,CH4,Natural Gas and Oil Systems,1093,0.502,CO2,0.004
+Pakistan,crude oil,CH4,Natural Gas and Oil Systems,2064,0.52,CO2,0.004
+Pakistan,crude oil,CH4,Natural Gas and Oil Systems,4857,0.531,CO2,0.004
+Pakistan,crude oil,CH4,Natural Gas and Oil Systems,7285,0.534,CO2,0.004
+Pakistan,crude oil,CH4,Natural Gas and Oil Systems,12141,0.534,CO2,0.004
+Pakistan,natural gas,CH4,Natural Gas and Oil Systems,0,0.358,CO2,0.004
+Pakistan,natural gas,CH4,Natural Gas and Oil Systems,5,0.367,CO2,0.004
+Pakistan,natural gas,CH4,Natural Gas and Oil Systems,10,0.371,CO2,0.004
+Pakistan,natural gas,CH4,Natural Gas and Oil Systems,15,0.392,CO2,0.004
+Pakistan,natural gas,CH4,Natural Gas and Oil Systems,32,0.426,CO2,0.004
+Pakistan,natural gas,CH4,Natural Gas and Oil Systems,66,0.44,CO2,0.004
+Pakistan,natural gas,CH4,Natural Gas and Oil Systems,129,0.452,CO2,0.004
+Pakistan,natural gas,CH4,Natural Gas and Oil Systems,243,0.459,CO2,0.004
+Pakistan,natural gas,CH4,Natural Gas and Oil Systems,486,0.478,CO2,0.004
+Pakistan,natural gas,CH4,Natural Gas and Oil Systems,1093,0.502,CO2,0.004
+Pakistan,natural gas,CH4,Natural Gas and Oil Systems,2064,0.52,CO2,0.004
+Pakistan,natural gas,CH4,Natural Gas and Oil Systems,4857,0.531,CO2,0.004
+Pakistan,natural gas,CH4,Natural Gas and Oil Systems,7285,0.534,CO2,0.004
+Pakistan,natural gas,CH4,Natural Gas and Oil Systems,12141,0.534,CO2,0.004
+Russia,coal,CH4,Coal Mining Activities,0,0.123,CO2,0.003
+Russia,coal,CH4,Coal Mining Activities,5,0.362,CO2,0.003
+Russia,coal,CH4,Coal Mining Activities,10,0.48,CO2,0.003
+Russia,coal,CH4,Coal Mining Activities,15,0.486,CO2,0.003
+Russia,coal,CH4,Coal Mining Activities,32,0.558,CO2,0.003
+Russia,coal,CH4,Coal Mining Activities,66,0.619,CO2,0.003
+Russia,coal,CH4,Coal Mining Activities,129,0.62,CO2,0.003
+Russia,coal,CH4,Coal Mining Activities,243,0.625,CO2,0.003
+Russia,coal,CH4,Coal Mining Activities,486,0.625,CO2,0.003
+Russia,coal,CH4,Coal Mining Activities,1093,0.625,CO2,0.003
+Russia,coal,CH4,Coal Mining Activities,2064,0.625,CO2,0.003
+Russia,coal,CH4,Coal Mining Activities,4857,0.625,CO2,0.003
+Russia,coal,CH4,Coal Mining Activities,7285,0.625,CO2,0.003
+Russia,coal,CH4,Coal Mining Activities,12141,0.625,CO2,0.003
+Russia,crude oil,CH4,Natural Gas and Oil Systems,0,0.331,CO2,0.004
+Russia,crude oil,CH4,Natural Gas and Oil Systems,5,0.398,CO2,0.004
+Russia,crude oil,CH4,Natural Gas and Oil Systems,10,0.413,CO2,0.004
+Russia,crude oil,CH4,Natural Gas and Oil Systems,15,0.445,CO2,0.004
+Russia,crude oil,CH4,Natural Gas and Oil Systems,32,0.45,CO2,0.004
+Russia,crude oil,CH4,Natural Gas and Oil Systems,66,0.493,CO2,0.004
+Russia,crude oil,CH4,Natural Gas and Oil Systems,129,0.543,CO2,0.004
+Russia,crude oil,CH4,Natural Gas and Oil Systems,243,0.557,CO2,0.004
+Russia,crude oil,CH4,Natural Gas and Oil Systems,486,0.586,CO2,0.004
+Russia,crude oil,CH4,Natural Gas and Oil Systems,1093,0.609,CO2,0.004
+Russia,crude oil,CH4,Natural Gas and Oil Systems,2064,0.619,CO2,0.004
+Russia,crude oil,CH4,Natural Gas and Oil Systems,4857,0.628,CO2,0.004
+Russia,crude oil,CH4,Natural Gas and Oil Systems,7285,0.628,CO2,0.004
+Russia,crude oil,CH4,Natural Gas and Oil Systems,12141,0.629,CO2,0.004
+Russia,natural gas,CH4,Natural Gas and Oil Systems,0,0.331,CO2,0.004
+Russia,natural gas,CH4,Natural Gas and Oil Systems,5,0.398,CO2,0.004
+Russia,natural gas,CH4,Natural Gas and Oil Systems,10,0.413,CO2,0.004
+Russia,natural gas,CH4,Natural Gas and Oil Systems,15,0.445,CO2,0.004
+Russia,natural gas,CH4,Natural Gas and Oil Systems,32,0.45,CO2,0.004
+Russia,natural gas,CH4,Natural Gas and Oil Systems,66,0.493,CO2,0.004
+Russia,natural gas,CH4,Natural Gas and Oil Systems,129,0.543,CO2,0.004
+Russia,natural gas,CH4,Natural Gas and Oil Systems,243,0.557,CO2,0.004
+Russia,natural gas,CH4,Natural Gas and Oil Systems,486,0.586,CO2,0.004
+Russia,natural gas,CH4,Natural Gas and Oil Systems,1093,0.609,CO2,0.004
+Russia,natural gas,CH4,Natural Gas and Oil Systems,2064,0.619,CO2,0.004
+Russia,natural gas,CH4,Natural Gas and Oil Systems,4857,0.628,CO2,0.004
+Russia,natural gas,CH4,Natural Gas and Oil Systems,7285,0.628,CO2,0.004
+Russia,natural gas,CH4,Natural Gas and Oil Systems,12141,0.629,CO2,0.004
+South Africa,coal,CH4,Coal Mining Activities,0,0.09,CO2,0.003
+South Africa,coal,CH4,Coal Mining Activities,5,0.393,CO2,0.003
+South Africa,coal,CH4,Coal Mining Activities,10,0.463,CO2,0.003
+South Africa,coal,CH4,Coal Mining Activities,15,0.482,CO2,0.003
+South Africa,coal,CH4,Coal Mining Activities,32,0.597,CO2,0.003
+South Africa,coal,CH4,Coal Mining Activities,66,0.603,CO2,0.003
+South Africa,coal,CH4,Coal Mining Activities,129,0.609,CO2,0.003
+South Africa,coal,CH4,Coal Mining Activities,243,0.617,CO2,0.003
+South Africa,coal,CH4,Coal Mining Activities,486,0.617,CO2,0.003
+South Africa,coal,CH4,Coal Mining Activities,1093,0.617,CO2,0.003
+South Africa,coal,CH4,Coal Mining Activities,2064,0.617,CO2,0.003
+South Africa,coal,CH4,Coal Mining Activities,4857,0.617,CO2,0.003
+South Africa,coal,CH4,Coal Mining Activities,7285,0.617,CO2,0.003
+South Africa,coal,CH4,Coal Mining Activities,12141,0.617,CO2,0.003
+South Africa,crude oil,CH4,Natural Gas and Oil Systems,0,0.394,CO2,0.004
+South Africa,crude oil,CH4,Natural Gas and Oil Systems,5,0.406,CO2,0.004
+South Africa,crude oil,CH4,Natural Gas and Oil Systems,10,0.409,CO2,0.004
+South Africa,crude oil,CH4,Natural Gas and Oil Systems,15,0.411,CO2,0.004
+South Africa,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+South Africa,crude oil,CH4,Natural Gas and Oil Systems,66,0.451,CO2,0.004
+South Africa,crude oil,CH4,Natural Gas and Oil Systems,129,0.463,CO2,0.004
+South Africa,crude oil,CH4,Natural Gas and Oil Systems,243,0.474,CO2,0.004
+South Africa,crude oil,CH4,Natural Gas and Oil Systems,486,0.492,CO2,0.004
+South Africa,crude oil,CH4,Natural Gas and Oil Systems,1093,0.534,CO2,0.004
+South Africa,crude oil,CH4,Natural Gas and Oil Systems,2064,0.559,CO2,0.004
+South Africa,crude oil,CH4,Natural Gas and Oil Systems,4857,0.562,CO2,0.004
+South Africa,crude oil,CH4,Natural Gas and Oil Systems,7285,0.563,CO2,0.004
+South Africa,crude oil,CH4,Natural Gas and Oil Systems,12141,0.563,CO2,0.004
+South Africa,natural gas,CH4,Natural Gas and Oil Systems,0,0.394,CO2,0.004
+South Africa,natural gas,CH4,Natural Gas and Oil Systems,5,0.406,CO2,0.004
+South Africa,natural gas,CH4,Natural Gas and Oil Systems,10,0.409,CO2,0.004
+South Africa,natural gas,CH4,Natural Gas and Oil Systems,15,0.411,CO2,0.004
+South Africa,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+South Africa,natural gas,CH4,Natural Gas and Oil Systems,66,0.451,CO2,0.004
+South Africa,natural gas,CH4,Natural Gas and Oil Systems,129,0.463,CO2,0.004
+South Africa,natural gas,CH4,Natural Gas and Oil Systems,243,0.474,CO2,0.004
+South Africa,natural gas,CH4,Natural Gas and Oil Systems,486,0.492,CO2,0.004
+South Africa,natural gas,CH4,Natural Gas and Oil Systems,1093,0.534,CO2,0.004
+South Africa,natural gas,CH4,Natural Gas and Oil Systems,2064,0.559,CO2,0.004
+South Africa,natural gas,CH4,Natural Gas and Oil Systems,4857,0.562,CO2,0.004
+South Africa,natural gas,CH4,Natural Gas and Oil Systems,7285,0.563,CO2,0.004
+South Africa,natural gas,CH4,Natural Gas and Oil Systems,12141,0.563,CO2,0.004
+South America_Northern,coal,CH4,Coal Mining Activities,0,0.117,CO2,0.003
+South America_Northern,coal,CH4,Coal Mining Activities,5,0.239,CO2,0.003
+South America_Northern,coal,CH4,Coal Mining Activities,10,0.359,CO2,0.003
+South America_Northern,coal,CH4,Coal Mining Activities,15,0.466,CO2,0.003
+South America_Northern,coal,CH4,Coal Mining Activities,32,0.499,CO2,0.003
+South America_Northern,coal,CH4,Coal Mining Activities,66,0.558,CO2,0.003
+South America_Northern,coal,CH4,Coal Mining Activities,129,0.618,CO2,0.003
+South America_Northern,coal,CH4,Coal Mining Activities,243,0.618,CO2,0.003
+South America_Northern,coal,CH4,Coal Mining Activities,486,0.624,CO2,0.003
+South America_Northern,coal,CH4,Coal Mining Activities,1093,0.624,CO2,0.003
+South America_Northern,coal,CH4,Coal Mining Activities,2064,0.624,CO2,0.003
+South America_Northern,coal,CH4,Coal Mining Activities,4857,0.624,CO2,0.003
+South America_Northern,coal,CH4,Coal Mining Activities,7285,0.624,CO2,0.003
+South America_Northern,coal,CH4,Coal Mining Activities,12141,0.624,CO2,0.003
+South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,0,0.391,CO2,0.004
+South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,5,0.401,CO2,0.004
+South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,15,0.407,CO2,0.004
+South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,66,0.458,CO2,0.004
+South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,129,0.46,CO2,0.004
+South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,243,0.487,CO2,0.004
+South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,486,0.499,CO2,0.004
+South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,1093,0.53,CO2,0.004
+South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,2064,0.567,CO2,0.004
+South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,4857,0.576,CO2,0.004
+South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,7285,0.579,CO2,0.004
+South America_Northern,crude oil,CH4,Natural Gas and Oil Systems,12141,0.579,CO2,0.004
+South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,0,0.391,CO2,0.004
+South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,5,0.401,CO2,0.004
+South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,15,0.407,CO2,0.004
+South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,66,0.458,CO2,0.004
+South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,129,0.46,CO2,0.004
+South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,243,0.487,CO2,0.004
+South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,486,0.499,CO2,0.004
+South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,1093,0.53,CO2,0.004
+South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,2064,0.567,CO2,0.004
+South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,4857,0.576,CO2,0.004
+South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,7285,0.579,CO2,0.004
+South America_Northern,natural gas,CH4,Natural Gas and Oil Systems,12141,0.579,CO2,0.004
+South America_Southern,coal,CH4,Coal Mining Activities,0,0.117,CO2,0.003
+South America_Southern,coal,CH4,Coal Mining Activities,5,0.239,CO2,0.003
+South America_Southern,coal,CH4,Coal Mining Activities,10,0.359,CO2,0.003
+South America_Southern,coal,CH4,Coal Mining Activities,15,0.466,CO2,0.003
+South America_Southern,coal,CH4,Coal Mining Activities,32,0.499,CO2,0.003
+South America_Southern,coal,CH4,Coal Mining Activities,66,0.558,CO2,0.003
+South America_Southern,coal,CH4,Coal Mining Activities,129,0.618,CO2,0.003
+South America_Southern,coal,CH4,Coal Mining Activities,243,0.618,CO2,0.003
+South America_Southern,coal,CH4,Coal Mining Activities,486,0.624,CO2,0.003
+South America_Southern,coal,CH4,Coal Mining Activities,1093,0.624,CO2,0.003
+South America_Southern,coal,CH4,Coal Mining Activities,2064,0.624,CO2,0.003
+South America_Southern,coal,CH4,Coal Mining Activities,4857,0.624,CO2,0.003
+South America_Southern,coal,CH4,Coal Mining Activities,7285,0.624,CO2,0.003
+South America_Southern,coal,CH4,Coal Mining Activities,12141,0.624,CO2,0.003
+South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,0,0.391,CO2,0.004
+South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,5,0.401,CO2,0.004
+South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,15,0.407,CO2,0.004
+South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,66,0.458,CO2,0.004
+South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,129,0.46,CO2,0.004
+South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,243,0.487,CO2,0.004
+South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,486,0.499,CO2,0.004
+South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,1093,0.53,CO2,0.004
+South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,2064,0.567,CO2,0.004
+South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,4857,0.576,CO2,0.004
+South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,7285,0.579,CO2,0.004
+South America_Southern,crude oil,CH4,Natural Gas and Oil Systems,12141,0.579,CO2,0.004
+South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,0,0.391,CO2,0.004
+South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,5,0.401,CO2,0.004
+South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,15,0.407,CO2,0.004
+South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,32,0.432,CO2,0.004
+South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,66,0.458,CO2,0.004
+South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,129,0.46,CO2,0.004
+South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,243,0.487,CO2,0.004
+South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,486,0.499,CO2,0.004
+South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,1093,0.53,CO2,0.004
+South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,2064,0.567,CO2,0.004
+South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,4857,0.576,CO2,0.004
+South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,7285,0.579,CO2,0.004
+South America_Southern,natural gas,CH4,Natural Gas and Oil Systems,12141,0.579,CO2,0.004
+South Asia,coal,CH4,Coal Mining Activities,0,0.105,CO2,0.003
+South Asia,coal,CH4,Coal Mining Activities,5,0.326,CO2,0.003
+South Asia,coal,CH4,Coal Mining Activities,10,0.457,CO2,0.003
+South Asia,coal,CH4,Coal Mining Activities,15,0.476,CO2,0.003
+South Asia,coal,CH4,Coal Mining Activities,32,0.542,CO2,0.003
+South Asia,coal,CH4,Coal Mining Activities,66,0.613,CO2,0.003
+South Asia,coal,CH4,Coal Mining Activities,129,0.615,CO2,0.003
+South Asia,coal,CH4,Coal Mining Activities,243,0.62,CO2,0.003
+South Asia,coal,CH4,Coal Mining Activities,486,0.621,CO2,0.003
+South Asia,coal,CH4,Coal Mining Activities,1093,0.621,CO2,0.003
+South Asia,coal,CH4,Coal Mining Activities,2064,0.621,CO2,0.003
+South Asia,coal,CH4,Coal Mining Activities,4857,0.621,CO2,0.003
+South Asia,coal,CH4,Coal Mining Activities,7285,0.621,CO2,0.003
+South Asia,coal,CH4,Coal Mining Activities,12141,0.621,CO2,0.003
+South Asia,crude oil,CH4,Natural Gas and Oil Systems,0,0.358,CO2,0.004
+South Asia,crude oil,CH4,Natural Gas and Oil Systems,5,0.367,CO2,0.004
+South Asia,crude oil,CH4,Natural Gas and Oil Systems,10,0.371,CO2,0.004
+South Asia,crude oil,CH4,Natural Gas and Oil Systems,15,0.392,CO2,0.004
+South Asia,crude oil,CH4,Natural Gas and Oil Systems,32,0.426,CO2,0.004
+South Asia,crude oil,CH4,Natural Gas and Oil Systems,66,0.44,CO2,0.004
+South Asia,crude oil,CH4,Natural Gas and Oil Systems,129,0.452,CO2,0.004
+South Asia,crude oil,CH4,Natural Gas and Oil Systems,243,0.459,CO2,0.004
+South Asia,crude oil,CH4,Natural Gas and Oil Systems,486,0.478,CO2,0.004
+South Asia,crude oil,CH4,Natural Gas and Oil Systems,1093,0.502,CO2,0.004
+South Asia,crude oil,CH4,Natural Gas and Oil Systems,2064,0.52,CO2,0.004
+South Asia,crude oil,CH4,Natural Gas and Oil Systems,4857,0.531,CO2,0.004
+South Asia,crude oil,CH4,Natural Gas and Oil Systems,7285,0.534,CO2,0.004
+South Asia,crude oil,CH4,Natural Gas and Oil Systems,12141,0.534,CO2,0.004
+South Asia,natural gas,CH4,Natural Gas and Oil Systems,0,0.358,CO2,0.004
+South Asia,natural gas,CH4,Natural Gas and Oil Systems,5,0.367,CO2,0.004
+South Asia,natural gas,CH4,Natural Gas and Oil Systems,10,0.371,CO2,0.004
+South Asia,natural gas,CH4,Natural Gas and Oil Systems,15,0.392,CO2,0.004
+South Asia,natural gas,CH4,Natural Gas and Oil Systems,32,0.426,CO2,0.004
+South Asia,natural gas,CH4,Natural Gas and Oil Systems,66,0.44,CO2,0.004
+South Asia,natural gas,CH4,Natural Gas and Oil Systems,129,0.452,CO2,0.004
+South Asia,natural gas,CH4,Natural Gas and Oil Systems,243,0.459,CO2,0.004
+South Asia,natural gas,CH4,Natural Gas and Oil Systems,486,0.478,CO2,0.004
+South Asia,natural gas,CH4,Natural Gas and Oil Systems,1093,0.502,CO2,0.004
+South Asia,natural gas,CH4,Natural Gas and Oil Systems,2064,0.52,CO2,0.004
+South Asia,natural gas,CH4,Natural Gas and Oil Systems,4857,0.531,CO2,0.004
+South Asia,natural gas,CH4,Natural Gas and Oil Systems,7285,0.534,CO2,0.004
+South Asia,natural gas,CH4,Natural Gas and Oil Systems,12141,0.534,CO2,0.004
+South Korea,coal,CH4,Coal Mining Activities,0,0.105,CO2,0.003
+South Korea,coal,CH4,Coal Mining Activities,5,0.326,CO2,0.003
+South Korea,coal,CH4,Coal Mining Activities,10,0.457,CO2,0.003
+South Korea,coal,CH4,Coal Mining Activities,15,0.476,CO2,0.003
+South Korea,coal,CH4,Coal Mining Activities,32,0.542,CO2,0.003
+South Korea,coal,CH4,Coal Mining Activities,66,0.613,CO2,0.003
+South Korea,coal,CH4,Coal Mining Activities,129,0.615,CO2,0.003
+South Korea,coal,CH4,Coal Mining Activities,243,0.62,CO2,0.003
+South Korea,coal,CH4,Coal Mining Activities,486,0.621,CO2,0.003
+South Korea,coal,CH4,Coal Mining Activities,1093,0.621,CO2,0.003
+South Korea,coal,CH4,Coal Mining Activities,2064,0.621,CO2,0.003
+South Korea,coal,CH4,Coal Mining Activities,4857,0.621,CO2,0.003
+South Korea,coal,CH4,Coal Mining Activities,7285,0.621,CO2,0.003
+South Korea,coal,CH4,Coal Mining Activities,12141,0.621,CO2,0.003
+South Korea,crude oil,CH4,Natural Gas and Oil Systems,0,0.358,CO2,0.004
+South Korea,crude oil,CH4,Natural Gas and Oil Systems,5,0.367,CO2,0.004
+South Korea,crude oil,CH4,Natural Gas and Oil Systems,10,0.371,CO2,0.004
+South Korea,crude oil,CH4,Natural Gas and Oil Systems,15,0.392,CO2,0.004
+South Korea,crude oil,CH4,Natural Gas and Oil Systems,32,0.426,CO2,0.004
+South Korea,crude oil,CH4,Natural Gas and Oil Systems,66,0.44,CO2,0.004
+South Korea,crude oil,CH4,Natural Gas and Oil Systems,129,0.452,CO2,0.004
+South Korea,crude oil,CH4,Natural Gas and Oil Systems,243,0.459,CO2,0.004
+South Korea,crude oil,CH4,Natural Gas and Oil Systems,486,0.478,CO2,0.004
+South Korea,crude oil,CH4,Natural Gas and Oil Systems,1093,0.502,CO2,0.004
+South Korea,crude oil,CH4,Natural Gas and Oil Systems,2064,0.52,CO2,0.004
+South Korea,crude oil,CH4,Natural Gas and Oil Systems,4857,0.531,CO2,0.004
+South Korea,crude oil,CH4,Natural Gas and Oil Systems,7285,0.534,CO2,0.004
+South Korea,crude oil,CH4,Natural Gas and Oil Systems,12141,0.534,CO2,0.004
+South Korea,natural gas,CH4,Natural Gas and Oil Systems,0,0.358,CO2,0.004
+South Korea,natural gas,CH4,Natural Gas and Oil Systems,5,0.367,CO2,0.004
+South Korea,natural gas,CH4,Natural Gas and Oil Systems,10,0.371,CO2,0.004
+South Korea,natural gas,CH4,Natural Gas and Oil Systems,15,0.392,CO2,0.004
+South Korea,natural gas,CH4,Natural Gas and Oil Systems,32,0.426,CO2,0.004
+South Korea,natural gas,CH4,Natural Gas and Oil Systems,66,0.44,CO2,0.004
+South Korea,natural gas,CH4,Natural Gas and Oil Systems,129,0.452,CO2,0.004
+South Korea,natural gas,CH4,Natural Gas and Oil Systems,243,0.459,CO2,0.004
+South Korea,natural gas,CH4,Natural Gas and Oil Systems,486,0.478,CO2,0.004
+South Korea,natural gas,CH4,Natural Gas and Oil Systems,1093,0.502,CO2,0.004
+South Korea,natural gas,CH4,Natural Gas and Oil Systems,2064,0.52,CO2,0.004
+South Korea,natural gas,CH4,Natural Gas and Oil Systems,4857,0.531,CO2,0.004
+South Korea,natural gas,CH4,Natural Gas and Oil Systems,7285,0.534,CO2,0.004
+South Korea,natural gas,CH4,Natural Gas and Oil Systems,12141,0.534,CO2,0.004
+Southeast Asia,coal,CH4,Coal Mining Activities,0,0.105,CO2,0.003
+Southeast Asia,coal,CH4,Coal Mining Activities,5,0.326,CO2,0.003
+Southeast Asia,coal,CH4,Coal Mining Activities,10,0.457,CO2,0.003
+Southeast Asia,coal,CH4,Coal Mining Activities,15,0.476,CO2,0.003
+Southeast Asia,coal,CH4,Coal Mining Activities,32,0.542,CO2,0.003
+Southeast Asia,coal,CH4,Coal Mining Activities,66,0.613,CO2,0.003
+Southeast Asia,coal,CH4,Coal Mining Activities,129,0.615,CO2,0.003
+Southeast Asia,coal,CH4,Coal Mining Activities,243,0.62,CO2,0.003
+Southeast Asia,coal,CH4,Coal Mining Activities,486,0.621,CO2,0.003
+Southeast Asia,coal,CH4,Coal Mining Activities,1093,0.621,CO2,0.003
+Southeast Asia,coal,CH4,Coal Mining Activities,2064,0.621,CO2,0.003
+Southeast Asia,coal,CH4,Coal Mining Activities,4857,0.621,CO2,0.003
+Southeast Asia,coal,CH4,Coal Mining Activities,7285,0.621,CO2,0.003
+Southeast Asia,coal,CH4,Coal Mining Activities,12141,0.621,CO2,0.003
+Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,0,0.358,CO2,0.004
+Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,5,0.367,CO2,0.004
+Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,10,0.371,CO2,0.004
+Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,15,0.392,CO2,0.004
+Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,32,0.426,CO2,0.004
+Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,66,0.44,CO2,0.004
+Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,129,0.452,CO2,0.004
+Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,243,0.459,CO2,0.004
+Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,486,0.478,CO2,0.004
+Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,1093,0.502,CO2,0.004
+Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,2064,0.52,CO2,0.004
+Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,4857,0.531,CO2,0.004
+Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,7285,0.534,CO2,0.004
+Southeast Asia,crude oil,CH4,Natural Gas and Oil Systems,12141,0.534,CO2,0.004
+Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,0,0.358,CO2,0.004
+Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,5,0.367,CO2,0.004
+Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,10,0.371,CO2,0.004
+Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,15,0.392,CO2,0.004
+Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,32,0.426,CO2,0.004
+Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,66,0.44,CO2,0.004
+Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,129,0.452,CO2,0.004
+Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,243,0.459,CO2,0.004
+Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,486,0.478,CO2,0.004
+Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,1093,0.502,CO2,0.004
+Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,2064,0.52,CO2,0.004
+Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,4857,0.531,CO2,0.004
+Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,7285,0.534,CO2,0.004
+Southeast Asia,natural gas,CH4,Natural Gas and Oil Systems,12141,0.534,CO2,0.004
+Taiwan,coal,CH4,Coal Mining Activities,0,0.101,CO2,0.003
+Taiwan,coal,CH4,Coal Mining Activities,5,0.338,CO2,0.003
+Taiwan,coal,CH4,Coal Mining Activities,10,0.462,CO2,0.003
+Taiwan,coal,CH4,Coal Mining Activities,15,0.474,CO2,0.003
+Taiwan,coal,CH4,Coal Mining Activities,32,0.535,CO2,0.003
+Taiwan,coal,CH4,Coal Mining Activities,66,0.612,CO2,0.003
+Taiwan,coal,CH4,Coal Mining Activities,129,0.613,CO2,0.003
+Taiwan,coal,CH4,Coal Mining Activities,243,0.619,CO2,0.003
+Taiwan,coal,CH4,Coal Mining Activities,486,0.619,CO2,0.003
+Taiwan,coal,CH4,Coal Mining Activities,1093,0.619,CO2,0.003
+Taiwan,coal,CH4,Coal Mining Activities,2064,0.619,CO2,0.003
+Taiwan,coal,CH4,Coal Mining Activities,4857,0.619,CO2,0.003
+Taiwan,coal,CH4,Coal Mining Activities,7285,0.619,CO2,0.003
+Taiwan,coal,CH4,Coal Mining Activities,12141,0.619,CO2,0.003
+Taiwan,crude oil,CH4,Natural Gas and Oil Systems,0,0.399,CO2,0.004
+Taiwan,crude oil,CH4,Natural Gas and Oil Systems,5,0.406,CO2,0.004
+Taiwan,crude oil,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+Taiwan,crude oil,CH4,Natural Gas and Oil Systems,15,0.428,CO2,0.004
+Taiwan,crude oil,CH4,Natural Gas and Oil Systems,32,0.437,CO2,0.004
+Taiwan,crude oil,CH4,Natural Gas and Oil Systems,66,0.473,CO2,0.004
+Taiwan,crude oil,CH4,Natural Gas and Oil Systems,129,0.503,CO2,0.004
+Taiwan,crude oil,CH4,Natural Gas and Oil Systems,243,0.532,CO2,0.004
+Taiwan,crude oil,CH4,Natural Gas and Oil Systems,486,0.559,CO2,0.004
+Taiwan,crude oil,CH4,Natural Gas and Oil Systems,1093,0.58,CO2,0.004
+Taiwan,crude oil,CH4,Natural Gas and Oil Systems,2064,0.594,CO2,0.004
+Taiwan,crude oil,CH4,Natural Gas and Oil Systems,4857,0.618,CO2,0.004
+Taiwan,crude oil,CH4,Natural Gas and Oil Systems,7285,0.618,CO2,0.004
+Taiwan,crude oil,CH4,Natural Gas and Oil Systems,12141,0.618,CO2,0.004
+Taiwan,natural gas,CH4,Natural Gas and Oil Systems,0,0.399,CO2,0.004
+Taiwan,natural gas,CH4,Natural Gas and Oil Systems,5,0.406,CO2,0.004
+Taiwan,natural gas,CH4,Natural Gas and Oil Systems,10,0.406,CO2,0.004
+Taiwan,natural gas,CH4,Natural Gas and Oil Systems,15,0.428,CO2,0.004
+Taiwan,natural gas,CH4,Natural Gas and Oil Systems,32,0.437,CO2,0.004
+Taiwan,natural gas,CH4,Natural Gas and Oil Systems,66,0.473,CO2,0.004
+Taiwan,natural gas,CH4,Natural Gas and Oil Systems,129,0.503,CO2,0.004
+Taiwan,natural gas,CH4,Natural Gas and Oil Systems,243,0.532,CO2,0.004
+Taiwan,natural gas,CH4,Natural Gas and Oil Systems,486,0.559,CO2,0.004
+Taiwan,natural gas,CH4,Natural Gas and Oil Systems,1093,0.58,CO2,0.004
+Taiwan,natural gas,CH4,Natural Gas and Oil Systems,2064,0.594,CO2,0.004
+Taiwan,natural gas,CH4,Natural Gas and Oil Systems,4857,0.618,CO2,0.004
+Taiwan,natural gas,CH4,Natural Gas and Oil Systems,7285,0.618,CO2,0.004
+Taiwan,natural gas,CH4,Natural Gas and Oil Systems,12141,0.618,CO2,0.004
+USA,coal,CH4,Coal Mining Activities,0,0.057,CO2,0.003
+USA,coal,CH4,Coal Mining Activities,5,0.142,CO2,0.003
+USA,coal,CH4,Coal Mining Activities,10,0.268,CO2,0.003
+USA,coal,CH4,Coal Mining Activities,15,0.313,CO2,0.003
+USA,coal,CH4,Coal Mining Activities,32,0.339,CO2,0.003
+USA,coal,CH4,Coal Mining Activities,66,0.427,CO2,0.003
+USA,coal,CH4,Coal Mining Activities,129,0.435,CO2,0.003
+USA,coal,CH4,Coal Mining Activities,243,0.438,CO2,0.003
+USA,coal,CH4,Coal Mining Activities,486,0.442,CO2,0.003
+USA,coal,CH4,Coal Mining Activities,1093,0.442,CO2,0.003
+USA,coal,CH4,Coal Mining Activities,2064,0.442,CO2,0.003
+USA,coal,CH4,Coal Mining Activities,4857,0.442,CO2,0.003
+USA,coal,CH4,Coal Mining Activities,7285,0.442,CO2,0.003
+USA,coal,CH4,Coal Mining Activities,12141,0.442,CO2,0.003
+USA,crude oil,CH4,Natural Gas and Oil Systems,0,0.27,CO2,0.004
+USA,crude oil,CH4,Natural Gas and Oil Systems,5,0.286,CO2,0.004
+USA,crude oil,CH4,Natural Gas and Oil Systems,10,0.298,CO2,0.004
+USA,crude oil,CH4,Natural Gas and Oil Systems,15,0.298,CO2,0.004
+USA,crude oil,CH4,Natural Gas and Oil Systems,32,0.305,CO2,0.004
+USA,crude oil,CH4,Natural Gas and Oil Systems,66,0.317,CO2,0.004
+USA,crude oil,CH4,Natural Gas and Oil Systems,129,0.337,CO2,0.004
+USA,crude oil,CH4,Natural Gas and Oil Systems,243,0.35,CO2,0.004
+USA,crude oil,CH4,Natural Gas and Oil Systems,486,0.363,CO2,0.004
+USA,crude oil,CH4,Natural Gas and Oil Systems,1093,0.37,CO2,0.004
+USA,crude oil,CH4,Natural Gas and Oil Systems,2064,0.37,CO2,0.004
+USA,crude oil,CH4,Natural Gas and Oil Systems,4857,0.383,CO2,0.004
+USA,crude oil,CH4,Natural Gas and Oil Systems,7285,0.394,CO2,0.004
+USA,crude oil,CH4,Natural Gas and Oil Systems,12141,0.436,CO2,0.004
+USA,natural gas,CH4,Natural Gas and Oil Systems,0,0.27,CO2,0.004
+USA,natural gas,CH4,Natural Gas and Oil Systems,5,0.286,CO2,0.004
+USA,natural gas,CH4,Natural Gas and Oil Systems,10,0.298,CO2,0.004
+USA,natural gas,CH4,Natural Gas and Oil Systems,15,0.298,CO2,0.004
+USA,natural gas,CH4,Natural Gas and Oil Systems,32,0.305,CO2,0.004
+USA,natural gas,CH4,Natural Gas and Oil Systems,66,0.317,CO2,0.004
+USA,natural gas,CH4,Natural Gas and Oil Systems,129,0.337,CO2,0.004
+USA,natural gas,CH4,Natural Gas and Oil Systems,243,0.35,CO2,0.004
+USA,natural gas,CH4,Natural Gas and Oil Systems,486,0.363,CO2,0.004
+USA,natural gas,CH4,Natural Gas and Oil Systems,1093,0.37,CO2,0.004
+USA,natural gas,CH4,Natural Gas and Oil Systems,2064,0.37,CO2,0.004
+USA,natural gas,CH4,Natural Gas and Oil Systems,4857,0.383,CO2,0.004
+USA,natural gas,CH4,Natural Gas and Oil Systems,7285,0.394,CO2,0.004
+USA,natural gas,CH4,Natural Gas and Oil Systems,12141,0.436,CO2,0.004

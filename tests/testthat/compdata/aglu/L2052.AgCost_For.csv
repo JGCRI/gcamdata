@@ -6,6 +6,7 @@ region,AgSupplySector,AgSupplySubsector,AgProductionTechnology,year,nonLandVaria
 USA,Forest,Forest_PacArctic,Forest_PacArctic,1975,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,1975,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,1975,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,1975,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,1975,29.59
 USA,Forest,Forest_California,Forest_California,1975,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,1975,29.59
@@ -105,7 +106,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,1975,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,1975,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,1975,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,1975,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,1975,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,1975,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,1975,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,1975,29.59
@@ -213,7 +213,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,1975,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,1975,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,1975,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,1975,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,1975,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,1975,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,1975,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,1975,29.59
@@ -284,8 +283,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,1975,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,1975,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,1975,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,1975,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,1975,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,1975,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,1975,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,1975,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,1975,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,1975,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,1975,29.59
@@ -338,9 +338,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,1975,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,1975,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,1975,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,1975,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,1975,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,1990,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,1990,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,1990,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,1990,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,1990,29.59
 USA,Forest,Forest_California,Forest_California,1990,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,1990,29.59
@@ -440,7 +442,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,1990,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,1990,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,1990,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,1990,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,1990,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,1990,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,1990,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,1990,29.59
@@ -548,7 +549,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,1990,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,1990,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,1990,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,1990,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,1990,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,1990,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,1990,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,1990,29.59
@@ -619,8 +619,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,1990,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,1990,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,1990,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,1990,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,1990,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,1990,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,1990,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,1990,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,1990,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,1990,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,1990,29.59
@@ -673,9 +674,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,1990,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,1990,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,1990,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,1990,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,1990,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2005,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2005,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2005,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2005,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2005,29.59
 USA,Forest,Forest_California,Forest_California,2005,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2005,29.59
@@ -775,7 +778,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2005,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2005,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2005,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2005,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2005,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2005,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2005,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2005,29.59
@@ -883,7 +885,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2005,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2005,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2005,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2005,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2005,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2005,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2005,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2005,29.59
@@ -954,8 +955,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2005,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2005,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2005,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2005,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2005,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2005,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2005,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2005,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2005,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2005,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2005,29.59
@@ -1008,9 +1010,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2005,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2005,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2005,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2005,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2005,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2010,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2010,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2010,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2010,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2010,29.59
 USA,Forest,Forest_California,Forest_California,2010,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2010,29.59
@@ -1110,7 +1114,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2010,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2010,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2010,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2010,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2010,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2010,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2010,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2010,29.59
@@ -1218,7 +1221,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2010,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2010,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2010,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2010,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2010,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2010,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2010,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2010,29.59
@@ -1289,8 +1291,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2010,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2010,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2010,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2010,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2010,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2010,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2010,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2010,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2010,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2010,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2010,29.59
@@ -1343,9 +1346,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2010,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2010,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2010,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2010,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2010,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2015,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2015,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2015,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2015,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2015,29.59
 USA,Forest,Forest_California,Forest_California,2015,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2015,29.59
@@ -1445,7 +1450,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2015,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2015,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2015,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2015,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2015,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2015,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2015,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2015,29.59
@@ -1553,7 +1557,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2015,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2015,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2015,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2015,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2015,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2015,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2015,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2015,29.59
@@ -1624,8 +1627,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2015,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2015,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2015,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2015,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2015,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2015,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2015,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2015,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2015,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2015,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2015,29.59
@@ -1678,9 +1682,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2015,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2015,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2015,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2015,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2015,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2020,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2020,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2020,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2020,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2020,29.59
 USA,Forest,Forest_California,Forest_California,2020,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2020,29.59
@@ -1780,7 +1786,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2020,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2020,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2020,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2020,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2020,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2020,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2020,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2020,29.59
@@ -1888,7 +1893,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2020,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2020,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2020,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2020,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2020,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2020,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2020,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2020,29.59
@@ -1959,8 +1963,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2020,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2020,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2020,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2020,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2020,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2020,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2020,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2020,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2020,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2020,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2020,29.59
@@ -2013,9 +2018,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2020,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2020,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2020,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2020,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2020,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2025,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2025,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2025,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2025,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2025,29.59
 USA,Forest,Forest_California,Forest_California,2025,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2025,29.59
@@ -2115,7 +2122,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2025,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2025,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2025,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2025,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2025,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2025,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2025,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2025,29.59
@@ -2223,7 +2229,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2025,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2025,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2025,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2025,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2025,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2025,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2025,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2025,29.59
@@ -2294,8 +2299,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2025,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2025,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2025,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2025,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2025,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2025,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2025,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2025,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2025,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2025,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2025,29.59
@@ -2348,9 +2354,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2025,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2025,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2025,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2025,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2025,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2030,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2030,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2030,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2030,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2030,29.59
 USA,Forest,Forest_California,Forest_California,2030,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2030,29.59
@@ -2450,7 +2458,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2030,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2030,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2030,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2030,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2030,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2030,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2030,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2030,29.59
@@ -2558,7 +2565,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2030,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2030,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2030,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2030,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2030,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2030,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2030,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2030,29.59
@@ -2629,8 +2635,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2030,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2030,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2030,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2030,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2030,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2030,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2030,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2030,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2030,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2030,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2030,29.59
@@ -2683,9 +2690,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2030,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2030,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2030,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2030,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2030,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2035,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2035,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2035,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2035,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2035,29.59
 USA,Forest,Forest_California,Forest_California,2035,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2035,29.59
@@ -2785,7 +2794,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2035,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2035,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2035,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2035,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2035,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2035,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2035,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2035,29.59
@@ -2893,7 +2901,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2035,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2035,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2035,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2035,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2035,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2035,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2035,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2035,29.59
@@ -2964,8 +2971,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2035,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2035,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2035,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2035,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2035,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2035,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2035,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2035,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2035,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2035,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2035,29.59
@@ -3018,9 +3026,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2035,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2035,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2035,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2035,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2035,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2040,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2040,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2040,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2040,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2040,29.59
 USA,Forest,Forest_California,Forest_California,2040,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2040,29.59
@@ -3120,7 +3130,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2040,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2040,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2040,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2040,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2040,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2040,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2040,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2040,29.59
@@ -3228,7 +3237,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2040,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2040,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2040,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2040,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2040,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2040,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2040,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2040,29.59
@@ -3299,8 +3307,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2040,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2040,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2040,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2040,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2040,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2040,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2040,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2040,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2040,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2040,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2040,29.59
@@ -3353,9 +3362,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2040,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2040,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2040,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2040,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2040,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2045,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2045,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2045,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2045,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2045,29.59
 USA,Forest,Forest_California,Forest_California,2045,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2045,29.59
@@ -3455,7 +3466,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2045,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2045,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2045,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2045,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2045,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2045,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2045,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2045,29.59
@@ -3563,7 +3573,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2045,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2045,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2045,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2045,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2045,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2045,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2045,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2045,29.59
@@ -3634,8 +3643,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2045,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2045,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2045,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2045,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2045,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2045,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2045,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2045,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2045,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2045,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2045,29.59
@@ -3688,9 +3698,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2045,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2045,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2045,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2045,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2045,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2050,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2050,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2050,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2050,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2050,29.59
 USA,Forest,Forest_California,Forest_California,2050,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2050,29.59
@@ -3790,7 +3802,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2050,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2050,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2050,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2050,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2050,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2050,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2050,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2050,29.59
@@ -3898,7 +3909,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2050,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2050,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2050,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2050,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2050,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2050,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2050,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2050,29.59
@@ -3969,8 +3979,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2050,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2050,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2050,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2050,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2050,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2050,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2050,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2050,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2050,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2050,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2050,29.59
@@ -4023,9 +4034,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2050,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2050,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2050,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2050,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2050,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2055,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2055,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2055,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2055,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2055,29.59
 USA,Forest,Forest_California,Forest_California,2055,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2055,29.59
@@ -4125,7 +4138,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2055,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2055,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2055,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2055,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2055,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2055,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2055,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2055,29.59
@@ -4233,7 +4245,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2055,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2055,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2055,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2055,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2055,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2055,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2055,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2055,29.59
@@ -4304,8 +4315,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2055,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2055,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2055,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2055,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2055,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2055,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2055,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2055,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2055,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2055,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2055,29.59
@@ -4358,9 +4370,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2055,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2055,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2055,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2055,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2055,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2060,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2060,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2060,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2060,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2060,29.59
 USA,Forest,Forest_California,Forest_California,2060,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2060,29.59
@@ -4460,7 +4474,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2060,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2060,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2060,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2060,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2060,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2060,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2060,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2060,29.59
@@ -4568,7 +4581,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2060,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2060,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2060,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2060,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2060,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2060,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2060,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2060,29.59
@@ -4639,8 +4651,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2060,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2060,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2060,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2060,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2060,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2060,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2060,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2060,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2060,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2060,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2060,29.59
@@ -4693,9 +4706,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2060,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2060,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2060,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2060,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2060,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2065,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2065,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2065,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2065,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2065,29.59
 USA,Forest,Forest_California,Forest_California,2065,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2065,29.59
@@ -4795,7 +4810,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2065,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2065,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2065,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2065,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2065,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2065,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2065,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2065,29.59
@@ -4903,7 +4917,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2065,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2065,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2065,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2065,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2065,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2065,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2065,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2065,29.59
@@ -4974,8 +4987,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2065,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2065,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2065,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2065,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2065,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2065,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2065,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2065,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2065,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2065,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2065,29.59
@@ -5028,9 +5042,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2065,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2065,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2065,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2065,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2065,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2070,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2070,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2070,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2070,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2070,29.59
 USA,Forest,Forest_California,Forest_California,2070,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2070,29.59
@@ -5130,7 +5146,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2070,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2070,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2070,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2070,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2070,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2070,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2070,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2070,29.59
@@ -5238,7 +5253,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2070,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2070,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2070,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2070,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2070,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2070,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2070,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2070,29.59
@@ -5309,8 +5323,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2070,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2070,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2070,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2070,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2070,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2070,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2070,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2070,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2070,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2070,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2070,29.59
@@ -5363,9 +5378,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2070,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2070,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2070,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2070,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2070,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2075,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2075,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2075,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2075,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2075,29.59
 USA,Forest,Forest_California,Forest_California,2075,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2075,29.59
@@ -5465,7 +5482,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2075,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2075,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2075,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2075,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2075,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2075,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2075,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2075,29.59
@@ -5573,7 +5589,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2075,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2075,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2075,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2075,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2075,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2075,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2075,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2075,29.59
@@ -5644,8 +5659,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2075,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2075,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2075,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2075,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2075,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2075,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2075,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2075,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2075,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2075,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2075,29.59
@@ -5698,9 +5714,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2075,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2075,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2075,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2075,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2075,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2080,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2080,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2080,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2080,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2080,29.59
 USA,Forest,Forest_California,Forest_California,2080,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2080,29.59
@@ -5800,7 +5818,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2080,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2080,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2080,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2080,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2080,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2080,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2080,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2080,29.59
@@ -5908,7 +5925,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2080,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2080,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2080,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2080,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2080,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2080,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2080,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2080,29.59
@@ -5979,8 +5995,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2080,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2080,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2080,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2080,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2080,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2080,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2080,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2080,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2080,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2080,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2080,29.59
@@ -6033,9 +6050,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2080,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2080,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2080,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2080,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2080,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2085,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2085,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2085,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2085,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2085,29.59
 USA,Forest,Forest_California,Forest_California,2085,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2085,29.59
@@ -6135,7 +6154,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2085,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2085,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2085,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2085,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2085,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2085,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2085,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2085,29.59
@@ -6243,7 +6261,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2085,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2085,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2085,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2085,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2085,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2085,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2085,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2085,29.59
@@ -6314,8 +6331,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2085,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2085,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2085,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2085,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2085,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2085,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2085,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2085,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2085,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2085,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2085,29.59
@@ -6368,9 +6386,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2085,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2085,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2085,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2085,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2085,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2090,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2090,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2090,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2090,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2090,29.59
 USA,Forest,Forest_California,Forest_California,2090,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2090,29.59
@@ -6470,7 +6490,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2090,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2090,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2090,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2090,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2090,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2090,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2090,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2090,29.59
@@ -6578,7 +6597,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2090,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2090,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2090,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2090,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2090,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2090,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2090,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2090,29.59
@@ -6649,8 +6667,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2090,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2090,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2090,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2090,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2090,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2090,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2090,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2090,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2090,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2090,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2090,29.59
@@ -6703,9 +6722,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2090,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2090,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2090,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2090,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2090,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2095,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2095,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2095,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2095,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2095,29.59
 USA,Forest,Forest_California,Forest_California,2095,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2095,29.59
@@ -6805,7 +6826,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2095,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2095,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2095,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2095,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2095,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2095,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2095,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2095,29.59
@@ -6913,7 +6933,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2095,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2095,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2095,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2095,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2095,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2095,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2095,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2095,29.59
@@ -6984,8 +7003,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2095,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2095,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2095,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2095,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2095,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2095,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2095,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2095,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2095,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2095,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2095,29.59
@@ -7038,9 +7058,11 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2095,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2095,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2095,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2095,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2095,29.59
 USA,Forest,Forest_PacArctic,Forest_PacArctic,2100,29.59
 USA,Forest,Forest_NelsonR,Forest_NelsonR,2100,29.59
 USA,Forest,Forest_FraserR,Forest_FraserR,2100,29.59
+USA,Forest,Forest_MexCstNW,Forest_MexCstNW,2100,29.59
 USA,Forest,Forest_Caribbean,Forest_Caribbean,2100,29.59
 USA,Forest,Forest_California,Forest_California,2100,29.59
 USA,Forest,Forest_MissppRN,Forest_MissppRN,2100,29.59
@@ -7140,7 +7162,6 @@ Central Asia,Forest,Forest_LBalkash,Forest_LBalkash,2100,29.59
 Central Asia,Forest,Forest_BlackSeaS,Forest_BlackSeaS,2100,29.59
 Central Asia,Forest,Forest_CaspianSW,Forest_CaspianSW,2100,29.59
 Central Asia,Forest,Forest_SyrDaryaR,Forest_SyrDaryaR,2100,29.59
-Central Asia,Forest,Forest_Tarim,Forest_Tarim,2100,29.59
 China,Forest,Forest_RusCstSE,Forest_RusCstSE,2100,29.59
 China,Forest,Forest_Gobi,Forest_Gobi,2100,29.59
 China,Forest,Forest_AmurR,Forest_AmurR,2100,29.59
@@ -7248,7 +7269,6 @@ India,Forest,Forest_PennarR,Forest_PennarR,2100,29.59
 India,Forest,Forest_CauveryR,Forest_CauveryR,2100,29.59
 India,Forest,Forest_IndCstS,Forest_IndCstS,2100,29.59
 India,Forest,Forest_NarmadaR,Forest_NarmadaR,2100,29.59
-Indonesia,Forest,Forest_MalaysiaP,Forest_MalaysiaP,2100,29.59
 Indonesia,Forest,Forest_IdnE,Forest_IdnE,2100,29.59
 Indonesia,Forest,Forest_BorneoCstN,Forest_BorneoCstN,2100,29.59
 Indonesia,Forest,Forest_Sumatra,Forest_Sumatra,2100,29.59
@@ -7319,8 +7339,9 @@ South America_Northern,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2100,29.59
 South America_Northern,Forest,Forest_OrinocoR,Forest_OrinocoR,2100,29.59
 South America_Northern,Forest,Forest_SAmerCstNE,Forest_SAmerCstNE,2100,29.59
 South America_Northern,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2100,29.59
-South America_Southern,Forest,Forest_OrinocoR,Forest_OrinocoR,2100,29.59
+South America_Northern,Forest,Forest_AmazonR,Forest_AmazonR,2100,29.59
 South America_Southern,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2100,29.59
+South America_Southern,Forest,Forest_AmazonR,Forest_AmazonR,2100,29.59
 South America_Southern,Forest,Forest_ChileCstS,Forest_ChileCstS,2100,29.59
 South America_Southern,Forest,Forest_PeruCst,Forest_PeruCst,2100,29.59
 South America_Southern,Forest,Forest_LaPuna,Forest_LaPuna,2100,29.59
@@ -7373,3 +7394,4 @@ Colombia,Forest,Forest_SAmerCstN,Forest_SAmerCstN,2100,29.59
 Colombia,Forest,Forest_OrinocoR,Forest_OrinocoR,2100,29.59
 Colombia,Forest,Forest_ColEcuaCst,Forest_ColEcuaCst,2100,29.59
 Colombia,Forest,Forest_MagdalenaR,Forest_MagdalenaR,2100,29.59
+Colombia,Forest,Forest_AmazonR,Forest_AmazonR,2100,29.59

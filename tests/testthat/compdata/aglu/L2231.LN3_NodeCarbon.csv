@@ -1,7 +1,12 @@
+INPUT_TABLE
+Variable ID
+LN3_NodeCarbon
+
 region,LandAllocatorRoot,LandNode1,LandNode2,LandNode3,node.carbon.calc,extra
 USA,root,AgroForestLand_PacArctic,AgroForest_NonPasture_PacArctic,AllForestLand_PacArctic, ,junk
 USA,root,AgroForestLand_NelsonR,AgroForest_NonPasture_NelsonR,AllForestLand_NelsonR, ,junk
 USA,root,AgroForestLand_FraserR,AgroForest_NonPasture_FraserR,AllForestLand_FraserR, ,junk
+USA,root,AgroForestLand_MexCstNW,AgroForest_NonPasture_MexCstNW,AllForestLand_MexCstNW, ,junk
 USA,root,AgroForestLand_Caribbean,AgroForest_NonPasture_Caribbean,AllForestLand_Caribbean, ,junk
 USA,root,AgroForestLand_California,AgroForest_NonPasture_California,AllForestLand_California, ,junk
 USA,root,AgroForestLand_MissppRN,AgroForest_NonPasture_MissppRN,AllForestLand_MissppRN, ,junk
@@ -101,7 +106,6 @@ Central Asia,root,AgroForestLand_LBalkash,AgroForest_NonPasture_LBalkash,AllFore
 Central Asia,root,AgroForestLand_BlackSeaS,AgroForest_NonPasture_BlackSeaS,AllForestLand_BlackSeaS, ,junk
 Central Asia,root,AgroForestLand_CaspianSW,AgroForest_NonPasture_CaspianSW,AllForestLand_CaspianSW, ,junk
 Central Asia,root,AgroForestLand_SyrDaryaR,AgroForest_NonPasture_SyrDaryaR,AllForestLand_SyrDaryaR, ,junk
-Central Asia,root,AgroForestLand_Tarim,AgroForest_NonPasture_Tarim,AllForestLand_Tarim, ,junk
 China,root,AgroForestLand_RusCstSE,AgroForest_NonPasture_RusCstSE,AllForestLand_RusCstSE, ,junk
 China,root,AgroForestLand_Gobi,AgroForest_NonPasture_Gobi,AllForestLand_Gobi, ,junk
 China,root,AgroForestLand_AmurR,AgroForest_NonPasture_AmurR,AllForestLand_AmurR, ,junk
@@ -209,7 +213,6 @@ India,root,AgroForestLand_PennarR,AgroForest_NonPasture_PennarR,AllForestLand_Pe
 India,root,AgroForestLand_CauveryR,AgroForest_NonPasture_CauveryR,AllForestLand_CauveryR, ,junk
 India,root,AgroForestLand_IndCstS,AgroForest_NonPasture_IndCstS,AllForestLand_IndCstS, ,junk
 India,root,AgroForestLand_NarmadaR,AgroForest_NonPasture_NarmadaR,AllForestLand_NarmadaR, ,junk
-Indonesia,root,AgroForestLand_MalaysiaP,AgroForest_NonPasture_MalaysiaP,AllForestLand_MalaysiaP, ,junk
 Indonesia,root,AgroForestLand_IdnE,AgroForest_NonPasture_IdnE,AllForestLand_IdnE, ,junk
 Indonesia,root,AgroForestLand_BorneoCstN,AgroForest_NonPasture_BorneoCstN,AllForestLand_BorneoCstN, ,junk
 Indonesia,root,AgroForestLand_Sumatra,AgroForest_NonPasture_Sumatra,AllForestLand_Sumatra, ,junk
@@ -280,8 +283,9 @@ South America_Northern,root,AgroForestLand_SAmerCstN,AgroForest_NonPasture_SAmer
 South America_Northern,root,AgroForestLand_OrinocoR,AgroForest_NonPasture_OrinocoR,AllForestLand_OrinocoR, ,junk
 South America_Northern,root,AgroForestLand_SAmerCstNE,AgroForest_NonPasture_SAmerCstNE,AllForestLand_SAmerCstNE, ,junk
 South America_Northern,root,AgroForestLand_MagdalenaR,AgroForest_NonPasture_MagdalenaR,AllForestLand_MagdalenaR, ,junk
-South America_Southern,root,AgroForestLand_OrinocoR,AgroForest_NonPasture_OrinocoR,AllForestLand_OrinocoR, ,junk
+South America_Northern,root,AgroForestLand_AmazonR,AgroForest_NonPasture_AmazonR,AllForestLand_AmazonR, ,junk
 South America_Southern,root,AgroForestLand_ColEcuaCst,AgroForest_NonPasture_ColEcuaCst,AllForestLand_ColEcuaCst, ,junk
+South America_Southern,root,AgroForestLand_AmazonR,AgroForest_NonPasture_AmazonR,AllForestLand_AmazonR, ,junk
 South America_Southern,root,AgroForestLand_ChileCstS,AgroForest_NonPasture_ChileCstS,AllForestLand_ChileCstS, ,junk
 South America_Southern,root,AgroForestLand_PeruCst,AgroForest_NonPasture_PeruCst,AllForestLand_PeruCst, ,junk
 South America_Southern,root,AgroForestLand_LaPuna,AgroForest_NonPasture_LaPuna,AllForestLand_LaPuna, ,junk
@@ -334,3 +338,4 @@ Colombia,root,AgroForestLand_SAmerCstN,AgroForest_NonPasture_SAmerCstN,AllForest
 Colombia,root,AgroForestLand_OrinocoR,AgroForest_NonPasture_OrinocoR,AllForestLand_OrinocoR, ,junk
 Colombia,root,AgroForestLand_ColEcuaCst,AgroForest_NonPasture_ColEcuaCst,AllForestLand_ColEcuaCst, ,junk
 Colombia,root,AgroForestLand_MagdalenaR,AgroForest_NonPasture_MagdalenaR,AllForestLand_MagdalenaR, ,junk
+Colombia,root,AgroForestLand_AmazonR,AgroForest_NonPasture_AmazonR,AllForestLand_AmazonR, ,junk
