@@ -30,7 +30,9 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
   } else if(command == driver.MAKE) {
 
     # silence package check notes
-   GLU_name <- LandLeaf <- LandNode4 <- NULL
+   GLU_name <- LandLeaf <- LandNode4 <- LandNode1 <- LandNode2 <- LandNode3 <- year <-
+     ghost.share <- GCAM_commodity <- Land_Type <- ghost.unnormalized.share <-
+     region <- AgSupplySector <- AgSuplySubsector <- NULL
 
     all_data <- list(...)[[1]]
 
