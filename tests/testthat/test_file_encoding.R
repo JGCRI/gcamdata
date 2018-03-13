@@ -11,7 +11,7 @@ test_that("inputs are encoded correctly", {
   td <- tempdir()
   # Copy all data to temp and perform normalizations there
   expect_true(file.copy(root, td, recursive = TRUE))
-  normalize_files(paste(td, "extdata", sep="/"))
+  normalize_files(paste(td, "extdata", sep = "/"))
 
   for(f in files) {
     # we expect files to be the same and unmodified
