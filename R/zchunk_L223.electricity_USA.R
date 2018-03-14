@@ -564,12 +564,11 @@ module_gcam.usa_L223.electricity_USA <- function(command, ...) {
     L223.StubTechCapFactor_elec %>%
       filter(region == "USA") %>%
       semi_join(L223.CapacityFactor_wind_state, by = c("supplysector", "subsector")) %>%
-      select(-region) %>%
+      select(-region, -capacity.factor) %>%
       repeat_add_columns(tibble(region = gcamusa.STATES)) %>%
       left_join_error_no_match(L223.CapacityFactor_wind_state,
                                by = c("region" = "state", "supplysector", "subsector")) %>%
-      mutate(capacity.factor.capital = round(capacity.factor, digits = energy.DIGITS_CAPACITY_FACTOR),
-             capacity.factor.OM = capacity.factor.capital) %>%
+      mutate(capacity.factor = round(capacity.factor, digits = energy.DIGITS_CAPACITY_FACTOR)) %>%
       select(LEVEL2_DATA_NAMES[["StubTechCapFactor"]]) ->
       L223.StubTechCapFactor_elec_wind_USA
 
@@ -590,8 +589,7 @@ module_gcam.usa_L223.electricity_USA <- function(command, ...) {
       mutate(tech = sub("_storage", "", stub.technology)) %>%
       left_join_error_no_match(L223.CapFacScaler_solar_state,
                                by = c("region" = "state", "supplysector", "subsector", "tech" = "technology")) %>%
-      mutate(capacity.factor.capital = round(capacity.factor.capital * scaler, digits = energy.DIGITS_COST),
-             capacity.factor.OM = capacity.factor.capital) %>%
+      mutate(capacity.factor = round(capacity.factor * scaler, digits = energy.DIGITS_COST)) %>%
       select(LEVEL2_DATA_NAMES[["StubTechCapFactor"]]) ->
       L223.StubTechCapFactor_elec_solar_USA
 
@@ -623,10 +621,7 @@ module_gcam.usa_L223.electricity_USA <- function(command, ...) {
       # If gcamusa.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L223.DeleteSubsector_USAelec") ->
         L223.DeleteSubsector_USAelec
     }
@@ -644,10 +639,7 @@ module_gcam.usa_L223.electricity_USA <- function(command, ...) {
       # If gcamusa.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L223.Supplysector_USAelec") ->
         L223.Supplysector_USAelec
     }
@@ -664,10 +656,7 @@ module_gcam.usa_L223.electricity_USA <- function(command, ...) {
       # If gcamusa.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L223.SubsectorShrwtFllt_USAelec") ->
         L223.SubsectorShrwtFllt_USAelec
     }
@@ -684,10 +673,7 @@ module_gcam.usa_L223.electricity_USA <- function(command, ...) {
       # If gcamusa.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L223.SubsectorInterp_USAelec") ->
         L223.SubsectorInterp_USAelec
     }
@@ -705,10 +691,7 @@ module_gcam.usa_L223.electricity_USA <- function(command, ...) {
       # If gcamusa.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L223.SubsectorLogit_USAelec") ->
         L223.SubsectorLogit_USAelec
     }
@@ -725,10 +708,7 @@ module_gcam.usa_L223.electricity_USA <- function(command, ...) {
       # If gcamusa.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L223.TechShrwt_USAelec") ->
         L223.TechShrwt_USAelec
     }
@@ -745,10 +725,7 @@ module_gcam.usa_L223.electricity_USA <- function(command, ...) {
       # If gcamusa.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L223.TechCoef_USAelec") ->
         L223.TechCoef_USAelec
     }
@@ -766,10 +743,7 @@ module_gcam.usa_L223.electricity_USA <- function(command, ...) {
       # If gcamusa.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L223.Production_USAelec") %>%
         add_precursors("L1232.out_EJ_sR_elec") ->
         L223.Production_USAelec
@@ -1050,10 +1024,7 @@ module_gcam.usa_L223.electricity_USA <- function(command, ...) {
     } else {
       # If regional electricity markets are not used,
       # then a blank tibble of the backup electric market is produced.
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L223.StubTechElecMarket_backup_USA") ->
         L223.StubTechElecMarket_backup_USA
     }

@@ -1,6 +1,9 @@
 #' module_aglu_L2252.land_input_5_irr_mgmt
 #'
-#' Produce the inputs for the lowest level of the land nest, including disaggregated crop technologies.
+#' This chunk producesthe inputs for the lowest level of the land nest, including disaggregated crop technologies:
+#' L2252.LN5_Logit, L2252.LN5_HistMgdAllocation_crop, L2252.LN5_MgdAllocation_crop,
+#' L2252.LN5_HistMgdAllocation_bio, L2252.LN5_MgdAllocation_bio, L2252.LN5_MgdCarbon_crop,
+#' L2252.LN5_MgdCarbon_bio, L2252.LN5_LeafGhostShare, L2252.LN5_NodeGhostShare
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
@@ -86,7 +89,9 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       veg.carbon.density <- soil.carbon.density <- allocation <- Land_Type.y <- mature.age.year.fillout <-
       min.veg.carbon.density <- min.soil.carbon.density <- LandNode4 <- LandNode5 <- level <-
       calOutputValue <- AgProductionTechnology <- Irr_Rfd <- variable <- yieldmult <- tmp <- crop1 <-
-      crop2 <- landshare <- lev <- . <- NULL
+      crop2 <- landshare <- lev <- . <- ghost.unnormalized.share <- HarvestIndex.x <- HarvestIndex.y <-
+      Root_Shoot.x <- Root_Shoot.y <- WaterContent.x <- WaterContent.y <- yield <- HarvestIndex <-
+      WaterContent <- Root_Shoot <- total_land <- NULL
 
 
     # 1. Process inputs
@@ -128,9 +133,9 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
 
     # convert_LN4_to_LN5
     # A function to carry LN4 information down to LN5
-    convert_LN4_to_LN5 <- function(data, names) {
+    convert_LN4_to_LN5 <- function(data, names){
       data %>%
-        repeat_add_columns(tibble(level = c("lo", "hi"))) %>%
+        repeat_add_columns(tibble(level = c( "lo", "hi" ))) %>%
         mutate(LandNode5 = LandLeaf,
                LandLeaf = paste(LandNode5, level, sep = aglu.MGMT_DELIMITER)) ->
         data_new
@@ -161,21 +166,19 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
         select(-id)
     } # end remove_zero_production_land_leafs
 
-
-
     # 2. Build tables
     #
     # The methods in this code file will be to start with existing (landnode4) tables, and add another level of detail for management levels
     # (nitrogen application), hi and lo.
 
-    # L2252.LN5_Logit: Logit exponent between lo and hi managed techs for each crop-irrigationtype combo
+    # L2252.LN5_Logit: Logit exponent between lo and hi managed techs for each crop-irrigation type combo
     # ie competition between Corn_IRR_hi and Corn_Irr_lo.
     L2242.LN4_Logit %>%
       repeat_add_columns(tibble::tibble(Irr_Rfd = c( "IRR", "RFD" ))) %>%
       mutate(LandNode5 = paste(LandNode4, Irr_Rfd, sep = aglu.IRR_DELIMITER),
              logit.exponent = aglu.MGMT_LOGIT_EXP,
              logit.type = aglu.MGMT_LOGIT_TYPE) %>%
-      select(LEVEL2_DATA_NAMES[["LN5_Logit"]], "logit.type") ->
+      select(one_of(c(LEVEL2_DATA_NAMES[["LN5_Logit"]], "logit.type"))) ->
       L2252.LN5_Logit
 
 
@@ -209,7 +212,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
     # in the fifth land nest ie for each crop-irr-mgmt combo in each region-glu-year.
     ALL_LAND_ALLOCATION %>%
       filter(!grepl("biomass_grass", LandLeaf) & !grepl("biomass_tree", LandLeaf)) %>%
-      filter(year %in% LAND_HISTORY_YEARS) ->
+      filter(year %in% aglu.LAND_HISTORY_YEARS) ->
       L2252.LN5_HistMgdAllocation_crop
 
     # L2252.LN5_MgdAllocation_crop: cropland allocation
@@ -223,7 +226,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
     # L2252.LN5_HistMgdAllocation_bio
     ALL_LAND_ALLOCATION %>%
       filter(grepl("biomass_grass", LandLeaf) | grepl("biomass_tree", LandLeaf)) %>%
-      filter(year %in% LAND_HISTORY_YEARS) ->
+      filter(year %in% aglu.LAND_HISTORY_YEARS) ->
       L2252.LN5_HistMgdAllocation_bio
 
     # L2252.LN5_MgdAllocation_bio
@@ -296,7 +299,8 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       left_join(A_Fodderbio_chars, by=c("GCAM_commodity")) %>%
       # Calculate the veg carbon content. Assume that the crop is perennial so the root portion doesn't get multiplied by the peak->avg conversion
       mutate(hist.veg.carbon.density = yield / (HarvestIndex) * (1 - WaterContent) * aglu.CCONTENT_CELLULOSE * aglu.CCONV_PEAK_AVG +
-                                              yield / (HarvestIndex) * (1 - WaterContent) * Root_Shoot * aglu.CCONTENT_CELLULOSE) %>%
+               yield / (HarvestIndex) * (1 - WaterContent) * Root_Shoot * aglu.CCONTENT_CELLULOSE) %>%
+      mutate(hist.veg.carbon.density = round(hist.veg.carbon.density, aglu.DIGITS_C_DENSITY)) %>%
       mutate(veg.carbon.density = hist.veg.carbon.density) %>%
       left_join(A_LandLeaf3, by = c("GCAM_commodity" = "LandLeaf")) %>%
       mutate(LandAllocatorRoot = "root",
@@ -308,28 +312,6 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
              LandLeaf = paste(LandNode5, level, sep = "_")) %>%
       select(c(LEVEL2_DATA_NAMES[["LN5_MgdCarbon"]], "GLU", "Irr_Rfd", "level")) ->
       L2252.LN5_MgdCarbon_bio
-
-    # The old data system starts from average bioenergy yields (not separated by hi/lo).
-    # It is supposed to multiply these yields by the ratio of hi/lo to average.
-    # However, due to an error in mapping, this doesn't happen. As a result, there is
-    # no difference in hist.veg.carbon.density for hi vs lo nests.
-    # Since we start from hi/lo yields here, we get the correct results. Here, we will
-    # reset them to the average in order to match the old data system.
-    if(OLD_DATA_SYSTEM_BEHAVIOR) {
-      L2252.LN5_MgdCarbon_bio %>%
-        group_by(region, LandNode4) %>%
-        summarize(avg.veg.density = mean(hist.veg.carbon.density)) ->
-        AVERAGE_DENSITY
-
-      L2252.LN5_MgdCarbon_bio %>%
-        left_join(AVERAGE_DENSITY, by = c("region", "LandNode4")) %>%
-        mutate(hist.veg.carbon.density = avg.veg.density) %>%
-        # Round now so that the numbers will match better
-        mutate(hist.veg.carbon.density = round(hist.veg.carbon.density, aglu.DIGITS_C_DENSITY_CROP)) %>%
-        mutate(veg.carbon.density = hist.veg.carbon.density) %>%
-        select(-avg.veg.density) ->
-        L2252.LN5_MgdCarbon_bio
-    }
 
     # L2252.LN5_LeafGhostShare: Ghost share of the new landleaf (lo-input versus hi-input)
     # NOTE: The ghost shares are inferred from average land shares allocated to hi-input
@@ -351,7 +333,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       select(-crop1, -crop2)  %>%
       # use left_join to keep NA's for further manipulation
       left_join(L2252.LandShare_R_bio_GLU_irr, by = c("region", "GLU", "Irr_Rfd", "level")) %>%
-      mutate(ghost.unnormalized.share = round(landshare, aglu.DIGITS_LAND_USE),
+      mutate(ghost.unnormalized.share = round(landshare, aglu.DIGITS_GHOSTSHARE),
              year = aglu.BIO_START_YEAR) %>%
       select(-landshare) %>%
       # For bio techs with no ghost share info, set lo- and hi-input techs to 0.5
@@ -396,6 +378,13 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       mutate(ghost.unnormalized.share = if_else(is.na(ghost.unnormalized.share) & Irr_Rfd == "IRR", 0, ghost.unnormalized.share)) %>%
       select(c(LEVEL2_DATA_NAMES[["LN5_NodeGhostShare"]])) ->
       L2252.LN5_NodeGhostShare
+
+    if( OLD_DATA_SYSTEM_BEHAVIOR ) {
+      # For some reason, the Node Ghost Share for SinaiP in Africa_Northern in the old data system is missing.
+      L2252.LN5_NodeGhostShare %>%
+        filter(!(region == "Africa_Northern" & LandNode4 == "biomass_grass_SinaiP")) ->
+        L2252.LN5_NodeGhostShare
+    }
 
     # Produce outputs
     L2252.LN5_Logit %>%
@@ -454,7 +443,7 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       add_comments("calculated from yield and other biomass characteristics (e.g., root-shoot, harvest index, water content).") %>%
       add_legacy_name("L2252.LN5_MgdCarbon_crop") %>%
       add_precursors("common/GCAM_region_names", "water/basin_to_country_mapping", "aglu/GCAMLandLeaf_CdensityLT",
-                      "aglu/A_Fodderbio_chars", "L171.ag_irrEcYield_kgm2_R_C_Y_GLU", "L171.ag_rfdEcYield_kgm2_R_C_Y_GLU",
+                     "aglu/A_Fodderbio_chars", "L171.ag_irrEcYield_kgm2_R_C_Y_GLU", "L171.ag_rfdEcYield_kgm2_R_C_Y_GLU",
                      "L111.ag_resbio_R_C", "L121.CarbonContent_kgm2_R_LT_GLU") ->
       L2252.LN5_MgdCarbon_crop
 
@@ -469,7 +458,8 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
                      "water/basin_to_country_mapping",
                      "aglu/GCAMLandLeaf_CdensityLT",
                      "aglu/A_Fodderbio_chars",
-                     "L2012.AgYield_bio_ref") ->
+                     "L2012.AgYield_bio_ref") %>%
+      add_flags(FLAG_NO_TEST) ->
       L2252.LN5_MgdCarbon_bio
 
     L2252.LN5_LeafGhostShare %>%
@@ -491,7 +481,8 @@ module_aglu_L2252.land_input_5_irr_mgmt <- function(command, ...) {
       add_comments("Ghost share of the nest 4 nodes (irrigated versus rainfed).") %>%
       add_legacy_name("L2252.LN5_NodeGhostShare") %>%
       same_precursors_as("L2252.LN5_LeafGhostShare") %>%
-      add_precursors("L181.LC_bm2_R_C_Yh_GLU_irr_level") ->
+      add_precursors("L181.LC_bm2_R_C_Yh_GLU_irr_level") %>%
+      add_flags(FLAG_SUM_TEST) ->
       L2252.LN5_NodeGhostShare
 
     return_data(L2252.LN5_Logit, L2252.LN5_HistMgdAllocation_crop, L2252.LN5_MgdAllocation_crop, L2252.LN5_HistMgdAllocation_bio, L2252.LN5_MgdAllocation_bio, L2252.LN5_MgdCarbon_crop, L2252.LN5_MgdCarbon_bio, L2252.LN5_LeafGhostShare, L2252.LN5_NodeGhostShare)

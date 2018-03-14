@@ -50,7 +50,7 @@ module_gcam.usa_L244.building_USA <- function(command, ...) {
              "L144.flsp_bm2_state_comm",
              "L144.in_EJ_state_comm_F_U_Y",
              "L144.in_EJ_state_res_F_U_Y",
-             FILE = "temp-data-inject/L143.HDDCDD_scen_state",
+             "L143.HDDCDD_scen_state",
              "L100.Pop_thous_state",
              "L100.pcGDP_thous90usd_state"))
   } else if(command == driver.DECLARE_OUTPUTS) {
@@ -90,16 +90,16 @@ module_gcam.usa_L244.building_USA <- function(command, ...) {
 
     # Silence package checks
     GCM <- Scen <- base.building.size <- base.service <- calibrated.value <- comm <-
-    degree.days <- efficiency <- efficiency_tech1 <- efficiency_tech2 <- fuel <-
-    gcam.consumer <- grid_region <- half_life_new <- half_life_stock <- input.cost <-
-    input.ratio <- internal.gains.market.name <- internal.gains.output.ratio <-
-    internal.gains.scalar <- market.name <- minicam.energy.input <- multiplier <-
-    object <- pcFlsp_mm2 <- pcGDP <- pcflsp_mm2cap <- pop <- region <- resid <-
-    satiation.adder <- satiation.level <- sector <- sector.name <- service <- share <-
-    share.weight <- share_tech1 <- share_tech2 <- share_type <- state <- steepness_new <-
-    steepness_stock <- stockavg <- subsector <- subsector.name <- supplysector <-
-    tech_type <- technology <- technology1 <- technology2 <-
-    thermal.building.service.input <- to.value <- value <- year <- year.fillout <- NULL
+      degree.days <- efficiency <- efficiency_tech1 <- efficiency_tech2 <- fuel <-
+      gcam.consumer <- grid_region <- half_life_new <- half_life_stock <- input.cost <-
+      input.ratio <- internal.gains.market.name <- internal.gains.output.ratio <-
+      internal.gains.scalar <- market.name <- minicam.energy.input <- multiplier <-
+      object <- pcFlsp_mm2 <- pcGDP <- pcflsp_mm2cap <- pop <- region <- resid <-
+      satiation.adder <- satiation.level <- sector <- sector.name <- service <- share <-
+      share.weight <- share_tech1 <- share_tech2 <- share_type <- state <- steepness_new <-
+      steepness_stock <- stockavg <- subsector <- subsector.name <- supplysector <-
+      tech_type <- technology <- technology1 <- technology2 <-
+      thermal.building.service.input <- to.value <- value <- year <- year.fillout <- NULL
 
     all_data <- list(...)[[1]]
 
@@ -131,9 +131,7 @@ module_gcam.usa_L244.building_USA <- function(command, ...) {
     L144.flsp_bm2_state_comm <- get_data(all_data, "L144.flsp_bm2_state_comm")
     L144.in_EJ_state_comm_F_U_Y <- get_data(all_data, "L144.in_EJ_state_comm_F_U_Y")
     L144.in_EJ_state_res_F_U_Y <- get_data(all_data, "L144.in_EJ_state_res_F_U_Y")
-    L143.HDDCDD_scen_state <- get_data(all_data, "temp-data-inject/L143.HDDCDD_scen_state") %>%
-      gather(year, value, starts_with("X")) %>%
-      mutate(year = as.integer(substr(year, 2, 5)))
+    L143.HDDCDD_scen_state <- get_data(all_data, "L143.HDDCDD_scen_state")
     L100.Pop_thous_state <- get_data(all_data, "L100.Pop_thous_state")
     L100.pcGDP_thous90usd_state <- get_data(all_data, "L100.pcGDP_thous90usd_state")
     # ===================================================
@@ -234,8 +232,8 @@ module_gcam.usa_L244.building_USA <- function(command, ...) {
                exp(log(2) * pcGDP / energy.GDP_MID_SATIATION) * (satiation.level - pcFlsp_mm2)),
                energy.DIGITS_SATIATION_ADDER),
              # The satiation adder (million square meters of floorspace per person) needs to be less than the per-capita demand in the final calibration year
-      satiation.adder = if_else(satiation.adder > pcFlsp_mm2, pcFlsp_mm2 * 0.999, satiation.adder)) %>%
-        select(LEVEL2_DATA_NAMES[["SatiationAdder"]])
+             satiation.adder = if_else(satiation.adder > pcFlsp_mm2, pcFlsp_mm2 * 0.999, satiation.adder)) %>%
+      select(LEVEL2_DATA_NAMES[["SatiationAdder"]])
 
     # Heating and cooling degree days (thermal services only)
     # First, separate the thermal from the generic services. Generic services will be assumed to produce
@@ -312,21 +310,21 @@ module_gcam.usa_L244.building_USA <- function(command, ...) {
     # L244.SubsectorShrwt_bld and L244.SubsectorShrwtFllt_bld: Subsector shareweights of building sector
     if(any(!is.na(A44.subsector_shrwt$year))){
       L244.SubsectorShrwt_bld_gcamusa <- write_to_all_states(A44.subsector_shrwt %>%
-                                                       filter(!is.na(year)), LEVEL2_DATA_NAMES[["SubsectorShrwt"]])
+                                                               filter(!is.na(year)), LEVEL2_DATA_NAMES[["SubsectorShrwt"]])
     }
     if(any(!is.na(A44.subsector_shrwt$year.fillout))){
       L244.SubsectorShrwtFllt_bld_gcamusa <- write_to_all_states(A44.subsector_shrwt %>%
-                                                           filter(!is.na(year.fillout)), LEVEL2_DATA_NAMES[["SubsectorShrwtFllt"]])
+                                                                   filter(!is.na(year.fillout)), LEVEL2_DATA_NAMES[["SubsectorShrwtFllt"]])
     }
 
     # L244.SubsectorInterp_bld and L244.SubsectorInterpTo_bld: Subsector shareweight interpolation of building sector
     if(any(is.na(A44.subsector_interp$to.value))){
       L244.SubsectorInterp_bld_gcamusa <- write_to_all_states(A44.subsector_interp %>%
-                                                        filter(is.na(to.value)), LEVEL2_DATA_NAMES[["SubsectorInterp"]])
+                                                                filter(is.na(to.value)), LEVEL2_DATA_NAMES[["SubsectorInterp"]])
     }
     if(any(!is.na(A44.subsector_interp$to.value))){
       L244.SubsectorInterpTo_bld_gcamusa <- write_to_all_states(A44.subsector_interp %>%
-                                                          filter(!is.na(to.value)), LEVEL2_DATA_NAMES[["SubsectorInterpTo"]])
+                                                                  filter(!is.na(to.value)), LEVEL2_DATA_NAMES[["SubsectorInterpTo"]])
     }
 
     # L244.StubTech_bld_gcamusa: Identification of stub technologies for buildings
@@ -346,7 +344,7 @@ module_gcam.usa_L244.building_USA <- function(command, ...) {
       mutate(value = round(value, energy.DIGITS_CALOUTPUT)) %>%
       rename(efficiency = value)
 
-     L244.GlobalTechEff_bld <- L244.end_use_eff %>%
+    L244.GlobalTechEff_bld <- L244.end_use_eff %>%
       rename(sector.name = supplysector,
              subsector.name = subsector) %>%
       select(LEVEL2_DATA_NAMES[["GlobalTechEff"]])
@@ -530,8 +528,8 @@ module_gcam.usa_L244.building_USA <- function(command, ...) {
         left_join_keep_first_only(L244.Floorspace_gcamusa, by = c(LEVEL2_DATA_NAMES[["BldNodes"]]))
     } else {
       L244.GenericServiceSatiation_gcamusa <- L244.GenericServiceSatiation_gcamusa %>%
-      # Add floorspace
-      left_join_error_no_match(L244.Floorspace_gcamusa, by = c(LEVEL2_DATA_NAMES[["BldNodes"]], "year"))
+        # Add floorspace
+        left_join_error_no_match(L244.Floorspace_gcamusa, by = c(LEVEL2_DATA_NAMES[["BldNodes"]], "year"))
     }
     L244.GenericServiceSatiation_gcamusa <- L244.GenericServiceSatiation_gcamusa %>%
       # Add multiplier
@@ -668,7 +666,7 @@ module_gcam.usa_L244.building_USA <- function(command, ...) {
       add_units("Fahrenheit Degree Days") %>%
       add_comments("L143.HDDCDD_scen_state assigned to GCAM subsectors") %>%
       add_legacy_name("L244.HDDCDD_A2_GFDL") %>%
-      add_precursors("temp-data-inject/L143.HDDCDD_scen_state", "gcam-usa/A44.sector",
+      add_precursors("L143.HDDCDD_scen_state", "gcam-usa/A44.sector",
                      "gcam-usa/calibrated_techs_bld_usa", "gcam-usa/A44.gcam_consumer") %>%
       add_flags(FLAG_PROTECT_FLOAT)->
       L244.HDDCDD_A2_GFDL
@@ -723,7 +721,7 @@ module_gcam.usa_L244.building_USA <- function(command, ...) {
       add_precursors("L144.in_EJ_state_res_F_U_Y", "L144.in_EJ_state_comm_F_U_Y", "gcam-usa/calibrated_techs_bld_usa",
                      "gcam-usa/A44.globaltech_eff", "gcam-usa/A44.globaltech_eff_avg", "gcam-usa/A44.globaltech_shares",
                      "gcam-usa/A44.gcam_consumer", "L144.flsp_bm2_state_res", "L144.flsp_bm2_state_comm",
-                     "gcam-usa/A44.demand_satiation_mult", "temp-data-inject/L143.HDDCDD_scen_state") ->
+                     "gcam-usa/A44.demand_satiation_mult", "L143.HDDCDD_scen_state") ->
       L244.Intgains_scalar_gcamusa
 
     L244.ShellConductance_bld_gcamusa %>%
@@ -759,10 +757,7 @@ module_gcam.usa_L244.building_USA <- function(command, ...) {
         add_precursors("gcam-usa/A44.subsector_shrwt") ->
         L244.SubsectorShrwt_bld_gcamusa
     } else {
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L244.SubsectorShrwt_bld") ->
         L244.SubsectorShrwt_bld_gcamusa
     }
@@ -776,10 +771,7 @@ module_gcam.usa_L244.building_USA <- function(command, ...) {
         add_precursors("gcam-usa/A44.subsector_shrwt") ->
         L244.SubsectorShrwtFllt_bld_gcamusa
     } else {
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L244.SubsectorShrwtFllt_bld") ->
         L244.SubsectorShrwtFllt_bld_gcamusa
     }
@@ -794,10 +786,7 @@ module_gcam.usa_L244.building_USA <- function(command, ...) {
         add_precursors("gcam-usa/A44.subsector_interp") ->
         L244.SubsectorInterp_bld_gcamusa
     } else {
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L244.SubsectorInterp_bld") ->
         L244.SubsectorInterp_bld_gcamusa
     }
@@ -811,10 +800,7 @@ module_gcam.usa_L244.building_USA <- function(command, ...) {
         add_precursors("gcam-usa/A44.subsector_interp") ->
         L244.SubsectorInterpTo_bld_gcamusa
     } else {
-      tibble(x = NA) %>%
-        add_title("Data not created") %>%
-        add_units("Unitless") %>%
-        add_comments("Data not created") %>%
+      missing_data() %>%
         add_legacy_name("L244.SubsectorInterpTo_bld") ->
         L244.SubsectorInterpTo_bld_gcamusa
     }

@@ -30,7 +30,7 @@ set_water_input_name <- function(water_sector, water_type, water_mapping, GLU = 
   assert_that(is.character(GLU))
 
   # If there's an irrigation sector w/ mapped water type, need a GLU
-  if(any(water_sector == IRRIGATION & water_type %in% MAPPED_WATER_TYPES)) {
+  if(any(water_sector == water.IRRIGATION & water_type %in% water.MAPPED_WATER_TYPES)) {
     assert_that(all(!is.na(GLU)))
     assert_that(length(GLU) == length(water_sector))
   }
@@ -38,14 +38,14 @@ set_water_input_name <- function(water_sector, water_type, water_mapping, GLU = 
   tibble(water_sector, water_type, GLU) %>%
     # Add in the base mapped sector name and short water names
     left_join_error_no_match(select(water_mapping, water.sector, supplysector), by = c("water_sector" = "water.sector")) %>%
-    mutate(wt_short = MAPPED_WATER_TYPES_SHORT[water_type],
+    mutate(wt_short = water.MAPPED_WATER_TYPES_SHORT[water_type],
            # non-mapped water_types keep their names unchanged
-           new_name = if_else(water_type %in% MAPPED_WATER_TYPES, NA_character_, water_type),
+           new_name = if_else(water_type %in% water.MAPPED_WATER_TYPES, NA_character_, water_type),
            # non-irrigation mapped types
-           new_name = if_else(water_sector != IRRIGATION & water_type %in% MAPPED_WATER_TYPES,
+           new_name = if_else(water_sector != water.IRRIGATION & water_type %in% water.MAPPED_WATER_TYPES,
                               paste(supplysector, wt_short, sep = "_"), new_name),
            # irrigation mapped types - needs the GLU column
-           new_name = if_else(water_sector == IRRIGATION & water_type %in% MAPPED_WATER_TYPES,
+           new_name = if_else(water_sector == water.IRRIGATION & water_type %in% water.MAPPED_WATER_TYPES,
                               paste(supplysector, GLU, wt_short, sep = "_"), new_name)) %>%
     .$new_name
 }
@@ -370,6 +370,32 @@ add_carbon_info <- function( data, carbon_info_table, matchvars = c("region", "G
            min.soil.carbon.density = aglu.MIN_SOIL_CARBON_DENSITY)
 }
 
+#' reduce_mgd_carbon
+#'
+#' Reduce the carbon density of a managed land type from its unmanaged land
+#' type's carbon density using constant multipliers
+#'
+#' @param data Unput data tibble to adjust carbon densities for
+#' @param LTfor Land_Type name to use for Forest land types
+#' @param LTpast Land_Type name to use for Pasture land types
+#' @return The original table with carbon density adjusted for the managed land types
+reduce_mgd_carbon <- function( data, LTfor = "Forest", LTpast = "Pasture") {
+
+  hist.veg.carbon.density <- Cveg_Mult_UnmgdPast_MgdPast <- veg.carbon.density <-
+    hist.soil.carbon.density <- Csoil_Mult_UnmgdPast_MgdPast <- soil.carbon.density <-
+    Cveg_Mult_UnmgdFor_MgdFor <- Csoil_Mult_UnmgdFor_MgdFor <- NULL # silence package check notes
+
+  data %>%
+    mutate(hist.veg.carbon.density = if_else("Land_Type" == LTpast, hist.veg.carbon.density * Cveg_Mult_UnmgdPast_MgdPast, hist.veg.carbon.density)) %>%
+    mutate(veg.carbon.density = if_else("Land_Type" == LTpast, veg.carbon.density * Cveg_Mult_UnmgdPast_MgdPast, veg.carbon.density)) %>%
+    mutate(hist.soil.carbon.density = if_else("Land_Type" == LTpast, hist.soil.carbon.density * Csoil_Mult_UnmgdPast_MgdPast, hist.soil.carbon.density)) %>%
+    mutate(soil.carbon.density = if_else("Land_Type" == LTpast, soil.carbon.density * Csoil_Mult_UnmgdPast_MgdPast, soil.carbon.density)) %>%
+    mutate(hist.veg.carbon.density = if_else("Land_Type" == LTfor, hist.veg.carbon.density * Cveg_Mult_UnmgdFor_MgdFor, hist.veg.carbon.density)) %>%
+    mutate(veg.carbon.density = if_else("Land_Type" == LTfor, veg.carbon.density * Cveg_Mult_UnmgdFor_MgdFor, veg.carbon.density)) %>%
+    mutate(hist.soil.carbon.density = if_else("Land_Type" == LTfor, hist.soil.carbon.density * Csoil_Mult_UnmgdFor_MgdFor, hist.soil.carbon.density)) %>%
+    mutate(soil.carbon.density = if_else("Land_Type" == LTfor, soil.carbon.density * Csoil_Mult_UnmgdFor_MgdFor, soil.carbon.density))
+}
+
 
 #' get_ssp_regions
 #'
@@ -567,7 +593,7 @@ fill_exp_decay_extrapolate <- function(d, out_years) {
 #' @param years Years to operate on, integer vector
 #' @importFrom stats aggregate
 #' @return Downscaled data.
-downscale_FAO_country <- function(data, country_name, dissolution_year, years = AGLU_HISTORICAL_YEARS) {
+downscale_FAO_country <- function(data, country_name, dissolution_year, years = aglu.AGLU_HISTORICAL_YEARS) {
 
   assert_that(is_tibble(data))
   assert_that(is.character(country_name))

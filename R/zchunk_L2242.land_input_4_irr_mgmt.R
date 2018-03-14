@@ -30,7 +30,9 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
   } else if(command == driver.MAKE) {
 
     # silence package check notes
-   GLU_name <- LandLeaf <- LandNode4 <- NULL
+   GLU_name <- LandLeaf <- LandNode4 <- LandNode1 <- LandNode2 <- LandNode3 <- year <-
+     ghost.share <- GCAM_commodity <- Land_Type <- ghost.unnormalized.share <-
+     region <- AgSupplySector <- AgSuplySubsector <- NULL
 
     all_data <- list(...)[[1]]
 
@@ -49,16 +51,7 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
       distinct(region, AgSupplySubsector, AgSupplySector) %>%
       bind_rows(distinct(L2012.AgYield_bio_ref, region, AgSupplySubsector, AgSupplySector)) %>%
       mutate(AgSupplySector = if_else(grepl("biomass_tree", AgSupplySubsector), "biomass_tree", "biomass_grass")) %>%
-      left_join(A_LandLeaf3, by = c("AgSupplySector" = "LandLeaf")) %>%
-# =======
-#     # Use the cropland and bioenergy allocation tables to establish which region/GLU/node combinations are available
-#     L223.LN3_MgdAllocation_crop %>%
-#       select(LEVEL2_DATA_NAMES[["LN3_Leaf"]]) %>%
-#       unique %>%
-#       bind_rows(unique(select(L223.LN3_MgdAllocation_bio, one_of(LEVEL2_DATA_NAMES[["LN3_Leaf"]])))) %>%
-#       # What was a leaf for level3 is now a node, as it will have the 4th level nested under it
-#       rename(LandNode4 = LandLeaf) %>%
-# >>>>>>> master
+      left_join(A_LandLeaf3, by=c("AgSupplySector" = "LandLeaf")) %>%
       # Modify land node variable, prepare to separate the GLU name
       mutate(AgSupplySubsector = sub("Root_Tuber", "RootTuber", AgSupplySubsector),
              AgSupplySubsector = sub("biomass_tree", "biomasstree", AgSupplySubsector),
@@ -76,7 +69,7 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
              LandNode2 = paste(LandNode2, GLU_name, sep = "_"),
              LandNode3 = paste(LandNode3, GLU_name, sep = "_"),
              LandNode4 = paste(LandNode4, GLU_name, sep = "_")) %>%
-      select(LEVEL2_DATA_NAMES[["LN4_Logit"]],"logit.type") ->
+      select(one_of(LEVEL2_DATA_NAMES[["LN4_Logit"]],"logit.type")) ->
       L2242.LN4_Logit
 
 
@@ -137,7 +130,7 @@ module_aglu_L2242.land_input_4_irr_mgmt <- function(command, ...) {
       add_units("NA") %>%
       add_comments("Copy the nesting structure from L2242.LN4_NodeGhostShare") %>%
       add_comments("Set is.ghost.share.relative to 1") %>%
-      add_legacy_name("L2242.LN4_NodeIsGhostShareRel") %>%
+      add_legacy_name("L2242.LN4_GhostShareRelativeToDominantCrop") %>%
       same_precursors_as("L2242.LN4_NodeGhostShare") ->
       L2242.LN4_GhostShareRelativeToDominantCrop
 
