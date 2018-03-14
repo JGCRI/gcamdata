@@ -105,14 +105,17 @@ make_run_xml_conversion <- function() {
         dot$mi_header,
         dot$xml_file
       )
-      warning_msgs <- system2("java", args, stdout = TRUE, stderr = TRUE)
-      unlink(tmpfn)
+      conv_pipe <- pipe(paste(cmd, collapse = " "), open = "w")
+      on.exit(close(conv_pipe))
 
-      # Note warnings and errors will have been combined together which ideally
-      # would be separate so we can forward them to the appropriate message stream
-      # in R but for simplicity we will put them all on warning.
-      if(!is.null(warning_msgs) && length(warning_msgs) > 0) {
-        warning(warning_msgs)
+      for(i in seq_along(dot$data_tables)) {
+        table <- dot$data_tables[[i]]
+        cat("INPUT_TABLE", file = conv_pipe, sep = "\n")
+        cat("Variable ID", file = conv_pipe, sep = "\n")
+        cat(table$header, file = conv_pipe, sep = "\n")
+        cat("", file = conv_pipe, sep = "\n")
+        utils::write.table(table$data, file = conv_pipe, sep = ",", row.names = FALSE, col.names = TRUE, quote = FALSE)
+        cat("", file = conv_pipe, sep = "\n")
       }
     }
 
@@ -150,7 +153,7 @@ run_xml_conversion <- make_run_xml_conversion()
 #' @param header The header tag to can be looked up in the header file to
 #' convert \code{data}
 #' @param base_logit_header The base header tag to use for the generated logit type
-#' tables such that \code{paste(base_logit_header, logit.type, sep="_")} corresponds
+#' tables such that \code{paste(base_logit_header, logit.type, sep = "_")} corresponds
 #' to the appropriate model interface header.  Note by default this value is the
 #' same as \code{header} as often this is the case but certainly not always.
 #' @return A "data structure" to hold the various parts needed to run the model
@@ -184,7 +187,7 @@ add_logit_tables_xml <- function(dot, data, header, base_logit_header=header) {
   # Loop through each of the logit types and create a table for it
   # using the appropriate header name.
   for(curr_logit_type in gcam.LOGIT_TYPES) {
-    curr_header <- paste(base_logit_header, curr_logit_type, sep="_")
+    curr_header <- paste(base_logit_header, curr_logit_type, sep = "_")
     data %>%
       filter(logit.type == curr_logit_type) %>%
       # Note we rely on add_xml_data to select the appropriate columns for us
@@ -211,7 +214,7 @@ add_logit_tables_xml <- function(dot, data, header, base_logit_header=header) {
 #' @author Pralit Patel
 #' @export
 add_rename_landnode_xml <- function(dot) {
-  land_name_table <- tibble(from=paste0("LandNode", seq(1,5)),to="LandNode")
+  land_name_table <- tibble(from = paste0("LandNode", seq(1,5)),to="LandNode")
 
   add_xml_data(dot, land_name_table, "NodeRename", NULL)
 }
@@ -271,7 +274,7 @@ cmp_xml_files <- function(fleft, fright, raw = FALSE)
   suppressWarnings({args <- normalizePath(c(py, fleft, fright))})
   if(raw) {
     rslt <- system2(cmd, args, stdout = TRUE, stderr=FALSE) # stderr output is
-                                        # not needed.
+    # not needed.
     if(is.null(attr(rslt, 'status'))) {
       ## For some reason, system2 doesn't set the status attribute isn't set when the call
       ## is successful
@@ -312,21 +315,21 @@ cmp_xml_files <- function(fleft, fright, raw = FALSE)
 #' @export
 run_xml_tests <- function(olddir, newdir = XML_DIR)
 {
-    oldfiles <- list.files(olddir, '\\.xml$', recursive=TRUE, full.names=TRUE)
-    newfiles <- file.path(newdir, sapply(oldfiles, basename))
+  oldfiles <- list.files(olddir, '\\.xml$', recursive=TRUE, full.names=TRUE)
+  newfiles <- file.path(newdir, sapply(oldfiles, basename))
 
-    if (length(oldfiles) == 0) {
-        warning('No XML files found in ', olddir)
-        return(0)
-    }
+  if (length(oldfiles) == 0) {
+    warning('No XML files found in ', olddir)
+    return(0)
+  }
 
-    isgood <- Map(cmp_xml_files, oldfiles, newfiles) %>% simplify2array
-    if (!all(isgood)) {
-        badfiles <- paste(sapply(newfiles[!isgood], basename), collapse = ' ')
-        warning('The following files had discrepancies: ', badfiles)
-    }
+  isgood <- Map(cmp_xml_files, oldfiles, newfiles) %>% simplify2array
+  if (!all(isgood)) {
+    badfiles <- paste(sapply(newfiles[!isgood], basename), collapse = ' ')
+    warning('The following files had discrepancies: ', badfiles)
+  }
 
-    sum(!isgood)
+  sum(!isgood)
 }
 
 #' A list of XML tag equivalence classes so that the ModelInterface when converting

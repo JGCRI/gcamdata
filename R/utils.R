@@ -265,8 +265,8 @@ save_chunkdata <- function(chunkdata, write_inputs = FALSE, create_dirs = FALSE,
         next
       }
 
-      # If data is in a different from for original data system, indicate
-      # that by writing to first line of file
+      # If data is in a different form from original data system, indicate
+      # that by writing to first line of file (along with any other flags)
       if(!is.null(flags)) {
         cat(paste(COMMENT_CHAR, paste(flags, collapse = " ")), file = fqfn, sep = "\n")
       }
