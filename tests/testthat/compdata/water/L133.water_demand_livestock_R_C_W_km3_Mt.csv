@@ -1,15 +1,9 @@
 # ../water-data/level1//L133.water_demand_livestock_R_C_W_km3_Mt.csv
 # Written by L133.water.demand.livestock.R
-# Tue Mar 28 06:38:57 2017
+# Mon Mar 12 09:48:50 2018
 # " Livestock water coefficients by region ID / GCAM_commodity/ water type "
 # " Unit = m^3 / Mt "
 "GCAM_region_ID","GCAM_commodity","water_type","coefficient"
-1,"Beef","water consumption",0.091778589370333
-1,"Dairy","water consumption",0.00297477219258922
-1,"OtherMeat_Fish","water consumption",0.00758444054566354
-1,"Pork","water consumption",0.113920428753699
-1,"Poultry","water consumption",0.00989549456917427
-1,"SheepGoat","water consumption",0.228718325623527
 10,"Beef","water consumption",0.126091932231184
 10,"Dairy","water consumption",0.0258474930828184
 10,"OtherMeat_Fish","water consumption",0.164263713885039
@@ -70,12 +64,12 @@
 19,"Pork","water consumption",0.127786611539203
 19,"Poultry","water consumption",0.00776836618760123
 19,"SheepGoat","water consumption",0.366531079501169
-2,"Beef","water consumption",1.30143304827743
-2,"Dairy","water consumption",0.194878794066319
-2,"OtherMeat_Fish","water consumption",0.216701728909287
-2,"Pork","water consumption",0.393185299929572
-2,"Poultry","water consumption",0.0438809140535357
-2,"SheepGoat","water consumption",0.668005418679053
+1,"Beef","water consumption",0.091778589370333
+1,"Dairy","water consumption",0.00297477219258922
+1,"OtherMeat_Fish","water consumption",0.00758444054566354
+1,"Pork","water consumption",0.113920428753699
+1,"Poultry","water consumption",0.00989549456917427
+1,"SheepGoat","water consumption",0.228718325623527
 20,"Beef","water consumption",0.252125626006597
 20,"Dairy","water consumption",0.00702465863319193
 20,"OtherMeat_Fish","water consumption",0.114432906012482
@@ -135,12 +129,12 @@
 29,"Pork","water consumption",0.225621638469037
 29,"Poultry","water consumption",0.0165797730353037
 29,"SheepGoat","water consumption",0.381595401872345
-3,"Beef","water consumption",0.0953020083211149
-3,"Dairy","water consumption",0.0642288752714606
-3,"OtherMeat_Fish","water consumption",0.0494084861288307
-3,"Pork","water consumption",0.207742532501032
-3,"Poultry","water consumption",0.0221264501432418
-3,"SheepGoat","water consumption",0.273023609633174
+2,"Beef","water consumption",1.30143304827743
+2,"Dairy","water consumption",0.194878794066319
+2,"OtherMeat_Fish","water consumption",0.216701728909287
+2,"Pork","water consumption",0.393185299929572
+2,"Poultry","water consumption",0.0438809140535357
+2,"SheepGoat","water consumption",0.668005418679053
 31,"Beef","water consumption",0.227177348485373
 31,"Dairy","water consumption",0.00572817895489542
 31,"OtherMeat_Fish","water consumption",0.0393980060700576
@@ -153,6 +147,12 @@
 32,"Pork","water consumption",0.371968730619822
 32,"Poultry","water consumption",0.0112837161411086
 32,"SheepGoat","water consumption",0.659775705478991
+3,"Beef","water consumption",0.0953020083211149
+3,"Dairy","water consumption",0.0642288752714606
+3,"OtherMeat_Fish","water consumption",0.0494084861288307
+3,"Pork","water consumption",0.207742532501032
+3,"Poultry","water consumption",0.0221264501432418
+3,"SheepGoat","water consumption",0.273023609633174
 4,"Beef","water consumption",0.602873523033765
 4,"Dairy","water consumption",0.110602371145331
 4,"OtherMeat_Fish","water consumption",0.0137871657804039
@@ -189,12 +189,6 @@
 9,"Pork","water consumption",0.368243090890226
 9,"Poultry","water consumption",0.0174375150952553
 9,"SheepGoat","water consumption",0.698155294926762
-1,"Beef","water withdrawals",0.091778589370333
-1,"Dairy","water withdrawals",0.00297477219258922
-1,"OtherMeat_Fish","water withdrawals",0.00758444054566354
-1,"Pork","water withdrawals",0.113920428753699
-1,"Poultry","water withdrawals",0.00989549456917427
-1,"SheepGoat","water withdrawals",0.228718325623527
 10,"Beef","water withdrawals",0.126091932231184
 10,"Dairy","water withdrawals",0.0258474930828184
 10,"OtherMeat_Fish","water withdrawals",0.164263713885039
@@ -255,12 +249,12 @@
 19,"Pork","water withdrawals",0.127786611539203
 19,"Poultry","water withdrawals",0.00776836618760123
 19,"SheepGoat","water withdrawals",0.366531079501169
-2,"Beef","water withdrawals",1.30143304827743
-2,"Dairy","water withdrawals",0.194878794066319
-2,"OtherMeat_Fish","water withdrawals",0.216701728909287
-2,"Pork","water withdrawals",0.393185299929572
-2,"Poultry","water withdrawals",0.0438809140535357
-2,"SheepGoat","water withdrawals",0.668005418679053
+1,"Beef","water withdrawals",0.091778589370333
+1,"Dairy","water withdrawals",0.00297477219258922
+1,"OtherMeat_Fish","water withdrawals",0.00758444054566354
+1,"Pork","water withdrawals",0.113920428753699
+1,"Poultry","water withdrawals",0.00989549456917427
+1,"SheepGoat","water withdrawals",0.228718325623527
 20,"Beef","water withdrawals",0.252125626006597
 20,"Dairy","water withdrawals",0.00702465863319193
 20,"OtherMeat_Fish","water withdrawals",0.114432906012482
@@ -320,12 +314,12 @@
 29,"Pork","water withdrawals",0.225621638469037
 29,"Poultry","water withdrawals",0.0165797730353037
 29,"SheepGoat","water withdrawals",0.381595401872345
-3,"Beef","water withdrawals",0.0953020083211149
-3,"Dairy","water withdrawals",0.0642288752714606
-3,"OtherMeat_Fish","water withdrawals",0.0494084861288307
-3,"Pork","water withdrawals",0.207742532501032
-3,"Poultry","water withdrawals",0.0221264501432418
-3,"SheepGoat","water withdrawals",0.273023609633174
+2,"Beef","water withdrawals",1.30143304827743
+2,"Dairy","water withdrawals",0.194878794066319
+2,"OtherMeat_Fish","water withdrawals",0.216701728909287
+2,"Pork","water withdrawals",0.393185299929572
+2,"Poultry","water withdrawals",0.0438809140535357
+2,"SheepGoat","water withdrawals",0.668005418679053
 31,"Beef","water withdrawals",0.227177348485373
 31,"Dairy","water withdrawals",0.00572817895489542
 31,"OtherMeat_Fish","water withdrawals",0.0393980060700576
@@ -338,6 +332,12 @@
 32,"Pork","water withdrawals",0.371968730619822
 32,"Poultry","water withdrawals",0.0112837161411086
 32,"SheepGoat","water withdrawals",0.659775705478991
+3,"Beef","water withdrawals",0.0953020083211149
+3,"Dairy","water withdrawals",0.0642288752714606
+3,"OtherMeat_Fish","water withdrawals",0.0494084861288307
+3,"Pork","water withdrawals",0.207742532501032
+3,"Poultry","water withdrawals",0.0221264501432418
+3,"SheepGoat","water withdrawals",0.273023609633174
 4,"Beef","water withdrawals",0.602873523033765
 4,"Dairy","water withdrawals",0.110602371145331
 4,"OtherMeat_Fish","water withdrawals",0.0137871657804039
