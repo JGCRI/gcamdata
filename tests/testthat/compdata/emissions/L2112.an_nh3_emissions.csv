@@ -1,0 +1,1989 @@
+INPUT_TABLE
+Variable ID
+OutputEmissions
+
+region,supplysector,subsector,stub.technology,year,Non.CO2,input.emissions
+USA,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0244678186
+USA,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0302877187
+USA,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0822156203
+USA,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,5.48762e-05
+USA,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+USA,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+USA,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0261001969
+USA,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+USA,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.1988018829
+USA,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.2460887746
+USA,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.2968910189
+USA,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0004458709
+USA,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+USA,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+USA,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0390646078
+USA,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+USA,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0738230781
+USA,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0105600003
+USA,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+USA,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,9.6924e-05
+USA,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.1132817818
+USA,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0162041473
+USA,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+USA,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,0.0001472495
+USA,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,4.99123e-05
+USA,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,6.17844e-05
+USA,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0010062773
+USA,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,1.119e-07
+USA,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+USA,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+USA,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0016806273
+USA,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+Africa_Eastern,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0002378672
+Africa_Eastern,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.002398915
+Africa_Eastern,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.009908142
+Africa_Eastern,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0006659317
+Africa_Eastern,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Africa_Eastern,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Africa_Eastern,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0432288568
+Africa_Eastern,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.002275203
+Africa_Eastern,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0041179109
+Africa_Eastern,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0415295433
+Africa_Eastern,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0991049494
+Africa_Eastern,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0077167493
+Africa_Eastern,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Africa_Eastern,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Africa_Eastern,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.1448456953
+Africa_Eastern,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0076234576
+Africa_Eastern,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0015424197
+Africa_Eastern,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0011425289
+Africa_Eastern,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Africa_Eastern,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,3.3547e-06
+Africa_Eastern,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0154437852
+Africa_Eastern,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0074546964
+Africa_Eastern,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Africa_Eastern,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,3.90457e-05
+Africa_Eastern,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,4.16084e-05
+Africa_Eastern,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0004196245
+Africa_Eastern,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.007856984
+Africa_Eastern,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,0.0009252937
+Africa_Eastern,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Africa_Eastern,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Africa_Eastern,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0119714735
+Africa_Eastern,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0013301637
+Africa_Northern,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0008602655
+Africa_Northern,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0035885687
+Africa_Northern,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0026036742
+Africa_Northern,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0003865606
+Africa_Northern,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Africa_Northern,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Africa_Northern,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0014990851
+Africa_Northern,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,7.88992e-05
+Africa_Northern,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.009550591
+Africa_Northern,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0393007391
+Africa_Northern,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0199677882
+Africa_Northern,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0037910205
+Africa_Northern,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Africa_Northern,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Africa_Northern,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0010860176
+Africa_Northern,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,5.71588e-05
+Africa_Northern,Pork,Mixed,FeedCrops,1975,NH3_AGR,4.17622e-05
+Africa_Northern,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,2.78414e-05
+Africa_Northern,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Africa_Northern,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,0
+Africa_Northern,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0061753114
+Africa_Northern,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0020713065
+Africa_Northern,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Africa_Northern,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,3.86081e-05
+Africa_Northern,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,0.0003724044
+Africa_Northern,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0015159529
+Africa_Northern,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0026523918
+Africa_Northern,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,0.0005114258
+Africa_Northern,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Africa_Northern,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Africa_Northern,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0002092742
+Africa_Northern,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,2.32527e-05
+Africa_Southern,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0006888594
+Africa_Southern,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0018696123
+Africa_Southern,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0044220729
+Africa_Southern,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.000389577
+Africa_Southern,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0.0001851017
+Africa_Southern,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0.0005023788
+Africa_Southern,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0256462681
+Africa_Southern,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0013919467
+Africa_Southern,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0022940883
+Africa_Southern,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0062263153
+Africa_Southern,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0077315178
+Africa_Southern,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0009292293
+Africa_Southern,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0.0005933475
+Africa_Southern,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0.0016103865
+Africa_Southern,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0822096847
+Africa_Southern,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0044619161
+Africa_Southern,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0027669096
+Africa_Southern,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0018562742
+Africa_Southern,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Africa_Southern,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,1.75018e-05
+Africa_Southern,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0096186327
+Africa_Southern,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0032229043
+Africa_Southern,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Africa_Southern,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,5.00802e-05
+Africa_Southern,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,2.5897e-06
+Africa_Southern,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,7.0286e-06
+Africa_Southern,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,7.75798e-05
+Africa_Southern,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,9.7767e-06
+Africa_Southern,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Africa_Southern,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Africa_Southern,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0050466783
+Africa_Southern,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0.000560742
+Africa_Western,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0004350286
+Africa_Western,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0053688304
+Africa_Western,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0099560789
+Africa_Western,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0008335269
+Africa_Western,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Africa_Western,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Africa_Western,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0292756129
+Africa_Western,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0015408217
+Africa_Western,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0022310593
+Africa_Western,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0275342351
+Africa_Western,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0268065524
+Africa_Western,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0029982695
+Africa_Western,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Africa_Western,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Africa_Western,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0735040459
+Africa_Western,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.003868634
+Africa_Western,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0047634068
+Africa_Western,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0031815209
+Africa_Western,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Africa_Western,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,8.8746e-06
+Africa_Western,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0261501986
+Africa_Western,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0087226287
+Africa_Western,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Africa_Western,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,1.76875e-05
+Africa_Western,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,2.91598e-05
+Africa_Western,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0003598705
+Africa_Western,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.006617906
+Africa_Western,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,0.0007788355
+Africa_Western,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Africa_Western,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Africa_Western,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0100835239
+Africa_Western,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0011203915
+Australia_NZ,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0001181195
+Australia_NZ,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0032289821
+Australia_NZ,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0101435418
+Australia_NZ,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,3.4079e-05
+Australia_NZ,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0.0001417434
+Australia_NZ,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0.0038747785
+Australia_NZ,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0365167506
+Australia_NZ,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,4.08948e-05
+Australia_NZ,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0004548459
+Australia_NZ,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0124339296
+Australia_NZ,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0195300068
+Australia_NZ,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.000131229
+Australia_NZ,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0.0010234035
+Australia_NZ,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0.0279763415
+Australia_NZ,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.2636550921
+Australia_NZ,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0002952653
+Australia_NZ,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0033426141
+Australia_NZ,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0023442688
+Australia_NZ,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Australia_NZ,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,0.0001737891
+Australia_NZ,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0086066945
+Australia_NZ,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.002987207
+Australia_NZ,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Australia_NZ,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,0.0003549264
+Australia_NZ,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,1.43536e-05
+Australia_NZ,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0003923777
+Australia_NZ,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0032869796
+Australia_NZ,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,0.0004150136
+Australia_NZ,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Australia_NZ,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Australia_NZ,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0209544949
+Australia_NZ,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0023282772
+Brazil,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0027530189
+Brazil,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0063618311
+Brazil,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0175597517
+Brazil,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.001421001
+Brazil,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Brazil,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Brazil,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0703667139
+Brazil,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0037035113
+Brazil,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0405259
+Brazil,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.1006237689
+Brazil,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.1272650736
+Brazil,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0143965321
+Brazil,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Brazil,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Brazil,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.1446688443
+Brazil,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0076141497
+Brazil,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0328843876
+Brazil,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0017334135
+Brazil,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Brazil,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,5.04698e-05
+Brazil,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0467673222
+Brazil,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0024649107
+Brazil,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Brazil,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,6.59817e-05
+Brazil,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,1.19226e-05
+Brazil,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,2.96033e-05
+Brazil,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0007488228
+Brazil,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,4.16766e-05
+Brazil,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Brazil,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Brazil,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0018443229
+Brazil,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,9.70696e-05
+Canada,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0030943479
+Canada,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0027858335
+Canada,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0088421392
+Canada,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,1.4578e-05
+Canada,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Canada,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Canada,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0028070283
+Canada,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+Canada,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0384538786
+Canada,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0346199294
+Canada,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0488366475
+Canada,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0001811633
+Canada,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Canada,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Canada,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0064258747
+Canada,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+Canada,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.010128345
+Canada,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0014507331
+Canada,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Canada,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,2.67867e-05
+Canada,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0110923463
+Canada,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.001588841
+Canada,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Canada,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,2.95405e-05
+Canada,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,2.5582e-06
+Canada,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,2.3031e-06
+Canada,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,4.38604e-05
+Canada,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,1.21e-08
+Canada,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Canada,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Canada,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,7.32531e-05
+Canada,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+Central America and Caribbean,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0005088692
+Central America and Caribbean,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0015788261
+Central America and Caribbean,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.005855861
+Central America and Caribbean,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0004219594
+Central America and Caribbean,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Central America and Caribbean,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Central America and Caribbean,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0087837916
+Central America and Caribbean,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0004623048
+Central America and Caribbean,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0088664699
+Central America and Caribbean,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0275092575
+Central America and Caribbean,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0327959194
+Central America and Caribbean,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.003708174
+Central America and Caribbean,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Central America and Caribbean,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Central America and Caribbean,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0173089574
+Central America and Caribbean,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0009109978
+Central America and Caribbean,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0017620199
+Central America and Caribbean,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0041313722
+Central America and Caribbean,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Central America and Caribbean,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,8.5682e-06
+Central America and Caribbean,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0044539573
+Central America and Caribbean,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0104491445
+Central America and Caribbean,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Central America and Caribbean,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,2.42475e-05
+Central America and Caribbean,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,1.5223e-06
+Central America and Caribbean,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,4.723e-06
+Central America and Caribbean,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0001126122
+Central America and Caribbean,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,6.2673e-06
+Central America and Caribbean,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Central America and Caribbean,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Central America and Caribbean,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0002773596
+Central America and Caribbean,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,1.45979e-05
+Central Asia,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.002748302
+Central Asia,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0029857753
+Central Asia,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0044676598
+Central Asia,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0004455443
+Central Asia,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Central Asia,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Central Asia,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0139596134
+Central Asia,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0007347165
+Central Asia,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0683952163
+Central Asia,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0693979656
+Central Asia,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0679846653
+Central Asia,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0097580884
+Central Asia,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Central Asia,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Central Asia,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0740475829
+Central Asia,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0038972412
+Central Asia,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0051446391
+Central Asia,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0034704184
+Central Asia,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Central Asia,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,5.45588e-05
+Central Asia,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0087966049
+Central Asia,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0029645316
+Central Asia,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Central Asia,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,7.4152e-05
+Central Asia,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,0.0019662194
+Central Asia,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0019797898
+Central Asia,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0067406585
+Central Asia,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,0.0010722535
+Central Asia,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Central Asia,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Central Asia,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0023772957
+Central Asia,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0001565075
+China,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0002195876
+China,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0033474364
+China,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0049067479
+China,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.000447588
+China,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+China,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+China,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0084752919
+China,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.000446068
+China,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0026796335
+China,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0408488635
+China,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0316705785
+China,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0039773708
+China,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+China,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+China,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0752176239
+China,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0039588223
+China,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.1993518315
+China,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.3325113904
+China,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+China,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,0.0001550027
+China,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0899421626
+China,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.1500205701
+China,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+China,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,7.01795e-05
+China,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,1.2155e-05
+China,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0001852934
+China,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0035555852
+China,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,0.0001976166
+China,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+China,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+China,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0150124708
+China,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0.00079013
+EU-12,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0058346459
+EU-12,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0099091418
+EU-12,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0237421619
+EU-12,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,8.72786e-05
+EU-12,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+EU-12,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+EU-12,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+EU-12,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+EU-12,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.1598440932
+EU-12,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.2714231462
+EU-12,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.2891054153
+EU-12,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0023908832
+EU-12,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+EU-12,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+EU-12,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+EU-12,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+EU-12,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0684487951
+EU-12,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0262139593
+EU-12,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+EU-12,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,0.000652779
+EU-12,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0392898472
+EU-12,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0132046932
+EU-12,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+EU-12,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,0.0003631544
+EU-12,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,0.0001410348
+EU-12,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0002394862
+EU-12,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0034436751
+EU-12,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,2.1096e-06
+EU-12,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+EU-12,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+EU-12,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+EU-12,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+EU-15,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0084557361
+EU-15,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0424109994
+EU-15,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0624591225
+EU-15,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0002361829
+EU-15,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+EU-15,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+EU-15,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+EU-15,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+EU-15,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.1756182526
+EU-15,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.8640211502
+EU-15,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.6963227709
+EU-15,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0048447536
+EU-15,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+EU-15,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+EU-15,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+EU-15,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+EU-15,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.1128757392
+EU-15,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0491743917
+EU-15,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+EU-15,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,0.0018645081
+EU-15,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.1086301231
+EU-15,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0275493465
+EU-15,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+EU-15,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,0.001567263
+EU-15,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,0.000203896
+EU-15,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0010031443
+EU-15,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0109139867
+EU-15,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,5.6249e-06
+EU-15,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+EU-15,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+EU-15,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+EU-15,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+Europe_Eastern,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0067126989
+Europe_Eastern,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.009024573
+Europe_Eastern,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0237737894
+Europe_Eastern,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.000111921
+Europe_Eastern,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Europe_Eastern,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Europe_Eastern,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+Europe_Eastern,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+Europe_Eastern,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.1146452032
+Europe_Eastern,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.1541293634
+Europe_Eastern,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.2706860481
+Europe_Eastern,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0019114815
+Europe_Eastern,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Europe_Eastern,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Europe_Eastern,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+Europe_Eastern,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+Europe_Eastern,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0231445087
+Europe_Eastern,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0100666494
+Europe_Eastern,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Europe_Eastern,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,0.0003443398
+Europe_Eastern,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.019542168
+Europe_Eastern,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0049490217
+Europe_Eastern,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Europe_Eastern,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,0.0002539187
+Europe_Eastern,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,4.25363e-05
+Europe_Eastern,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,5.7186e-05
+Europe_Eastern,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0009038838
+Europe_Eastern,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,7.092e-07
+Europe_Eastern,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Europe_Eastern,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Europe_Eastern,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+Europe_Eastern,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+Europe_Non_EU,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0014889376
+Europe_Non_EU,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0029680666
+Europe_Non_EU,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.005188043
+Europe_Non_EU,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0001594481
+Europe_Non_EU,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Europe_Non_EU,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Europe_Non_EU,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0015838115
+Europe_Non_EU,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,8.33585e-05
+Europe_Non_EU,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0708879752
+Europe_Non_EU,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.1692328814
+Europe_Non_EU,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.1132249288
+Europe_Non_EU,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0144198765
+Europe_Non_EU,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Europe_Non_EU,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Europe_Non_EU,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.000904409
+Europe_Non_EU,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,4.76005e-05
+Europe_Non_EU,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0104501287
+Europe_Non_EU,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0040043189
+Europe_Non_EU,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Europe_Non_EU,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,9.95053e-05
+Europe_Non_EU,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0140585127
+Europe_Non_EU,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0047302665
+Europe_Non_EU,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Europe_Non_EU,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,0.0001322867
+Europe_Non_EU,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,0.0012559822
+Europe_Non_EU,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0033086137
+Europe_Non_EU,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0080248696
+Europe_Non_EU,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,0.0011785149
+Europe_Non_EU,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Europe_Non_EU,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Europe_Non_EU,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0006098977
+Europe_Non_EU,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,6.77664e-05
+European Free Trade Association,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0001620888
+European Free Trade Association,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0008129807
+European Free Trade Association,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0011972851
+European Free Trade Association,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,4.5274e-06
+European Free Trade Association,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+European Free Trade Association,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+European Free Trade Association,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+European Free Trade Association,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+European Free Trade Association,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0056062352
+European Free Trade Association,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.027582018
+European Free Trade Association,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0222286077
+European Free Trade Association,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0001546583
+European Free Trade Association,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+European Free Trade Association,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+European Free Trade Association,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+European Free Trade Association,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+European Free Trade Association,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0022796199
+European Free Trade Association,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0009931179
+European Free Trade Association,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+European Free Trade Association,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,3.76553e-05
+European Free Trade Association,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0009180735
+European Free Trade Association,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0002328298
+European Free Trade Association,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+European Free Trade Association,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,1.32455e-05
+European Free Trade Association,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,6.0371e-06
+European Free Trade Association,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,2.9702e-05
+European Free Trade Association,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.000323151
+European Free Trade Association,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,1.665e-07
+European Free Trade Association,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+European Free Trade Association,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+European Free Trade Association,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+European Free Trade Association,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+India,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0002243025
+India,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0032337115
+India,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0023102541
+India,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0057830025
+India,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+India,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+India,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0081415582
+India,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0081415582
+India,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0122492401
+India,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.176594126
+India,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.047311423
+India,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.236959441
+India,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+India,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+India,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0098565465
+India,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0098565465
+India,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0024554999
+India,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.001638584
+India,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+India,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,2.3762e-06
+India,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0080089377
+India,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0026714133
+India,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+India,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,5.3021e-06
+India,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,2.20089e-05
+India,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0003172962
+India,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0030602515
+India,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,0.0034010024
+India,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+India,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+India,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0003778088
+India,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0003778088
+Indonesia,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0005812588
+Indonesia,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.002292608
+Indonesia,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0229909339
+Indonesia,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0028738667
+Indonesia,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Indonesia,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Indonesia,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0032844191
+Indonesia,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0021896128
+Indonesia,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0005257801
+Indonesia,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0020737881
+Indonesia,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0207965449
+Indonesia,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0025995681
+Indonesia,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Indonesia,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Indonesia,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.000649892
+Indonesia,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0004332614
+Indonesia,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0057973546
+Indonesia,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0135271607
+Indonesia,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Indonesia,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,0
+Indonesia,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0082761057
+Indonesia,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0193109132
+Indonesia,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Indonesia,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,0
+Indonesia,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,4.50371e-05
+Indonesia,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0001776359
+Indonesia,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0035627678
+Indonesia,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,0.000668019
+Indonesia,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Indonesia,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Indonesia,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0017947777
+Indonesia,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0004486944
+Japan,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.000720508
+Japan,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0008104024
+Japan,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0023091533
+Japan,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,8.525e-06
+Japan,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Japan,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Japan,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+Japan,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+Japan,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.020556041
+Japan,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0231207211
+Japan,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.018822849
+Japan,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0002432189
+Japan,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Japan,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Japan,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+Japan,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+Japan,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0077535758
+Japan,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.005201586
+Japan,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Japan,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,4.88031e-05
+Japan,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.023759235
+Japan,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0079595252
+Japan,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Japan,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,0.0001193406
+Japan,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,3.291e-07
+Japan,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,3.701e-07
+Japan,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,2.8125e-06
+Japan,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,3.9e-09
+Japan,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Japan,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Japan,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+Japan,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+Mexico,Beef,Mixed,FeedCrops,1975,NH3_AGR,7.68172e-05
+Mexico,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0010301205
+Mexico,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0031057993
+Mexico,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0002241191
+Mexico,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Mexico,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Mexico,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0111123079
+Mexico,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0005848583
+Mexico,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0046472039
+Mexico,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0623191021
+Mexico,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0603936132
+Mexico,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0068481102
+Mexico,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Mexico,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Mexico,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.031874407
+Mexico,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0016776004
+Mexico,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0133237962
+Mexico,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0089090281
+Mexico,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Mexico,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,3.9746e-05
+Mexico,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0132336573
+Mexico,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0071434137
+Mexico,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Mexico,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,3.26824e-05
+Mexico,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,1.375e-06
+Mexico,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,1.84385e-05
+Mexico,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0003573767
+Mexico,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,1.9895e-05
+Mexico,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Mexico,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Mexico,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0008802055
+Mexico,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,4.63266e-05
+Middle East,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.00027517
+Middle East,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0009180786
+Middle East,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0006999276
+Middle East,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0001066171
+Middle East,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Middle East,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Middle East,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0035282066
+Middle East,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0001856951
+Middle East,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0159300942
+Middle East,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0523516071
+Middle East,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0279726206
+Middle East,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0054642984
+Middle East,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Middle East,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Middle East,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.001272771
+Middle East,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,6.69879e-05
+Middle East,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0001591105
+Middle East,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0001072631
+Middle East,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Middle East,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,1.7842e-06
+Middle East,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0133255246
+Middle East,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0044834076
+Middle East,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Middle East,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,0.0001246983
+Middle East,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,0.0007179402
+Middle East,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0023312251
+Middle East,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0042924424
+Middle East,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,0.0008344731
+Middle East,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Middle East,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Middle East,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0004282709
+Middle East,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,4.75857e-05
+Pakistan,Beef,Mixed,FeedCrops,1975,NH3_AGR,2.75423e-05
+Pakistan,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0003970699
+Pakistan,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0002836779
+Pakistan,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0007100993
+Pakistan,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Pakistan,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Pakistan,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0009997082
+Pakistan,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0009997082
+Pakistan,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0021416619
+Pakistan,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0308757856
+Pakistan,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0082719476
+Pakistan,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0414300807
+Pakistan,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Pakistan,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Pakistan,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0017233224
+Pakistan,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0017233224
+Pakistan,Pork,Mixed,FeedCrops,1975,NH3_AGR,0
+Pakistan,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0
+Pakistan,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Pakistan,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,0
+Pakistan,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0005392779
+Pakistan,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0001798783
+Pakistan,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Pakistan,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,3.57e-07
+Pakistan,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,6.3979e-06
+Pakistan,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,9.22372e-05
+Pakistan,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0008896069
+Pakistan,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,0.0009886623
+Pakistan,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Pakistan,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Pakistan,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.000109828
+Pakistan,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0.000109828
+Russia,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.013517507
+Russia,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0127880908
+Russia,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0397711209
+Russia,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0002084829
+Russia,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Russia,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Russia,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+Russia,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+Russia,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.2554472959
+Russia,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.2416631411
+Russia,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.5010502451
+Russia,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0039398082
+Russia,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Russia,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Russia,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+Russia,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+Russia,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0348331918
+Russia,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0236728774
+Russia,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Russia,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,0.0006761243
+Russia,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0435976296
+Russia,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0147577244
+Russia,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Russia,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,0.0006755437
+Russia,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,0.0003875281
+Russia,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0003666167
+Russia,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0068410953
+Russia,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,5.9769e-06
+Russia,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Russia,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Russia,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0
+Russia,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0
+South Africa,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.000280498
+South Africa,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0007612911
+South Africa,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0018006326
+South Africa,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0001586326
+South Africa,Beef,Pastoral,FeedCrops,1975,NH3_AGR,7.53719e-05
+South Africa,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0.0002045646
+South Africa,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0104429547
+South Africa,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0005667895
+South Africa,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0015365624
+South Africa,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0041703373
+South Africa,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0051785102
+South Africa,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0006223905
+South Africa,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0.0003974195
+South Africa,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0.0010786243
+South Africa,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0550634041
+South Africa,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0029885565
+South Africa,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.001530113
+South Africa,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0010265277
+South Africa,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+South Africa,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,9.6786e-06
+South Africa,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0064673442
+South Africa,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0021670057
+South Africa,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+South Africa,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,3.36727e-05
+South Africa,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,1.8564e-06
+South Africa,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,5.0383e-06
+South Africa,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,5.5612e-05
+South Africa,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,7.0083e-06
+South Africa,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+South Africa,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+South Africa,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0036176428
+South Africa,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0004019603
+South America_Northern,Beef,Mixed,FeedCrops,1975,NH3_AGR,6.50222e-05
+South America_Northern,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0004667097
+South America_Northern,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0014971698
+South America_Northern,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0001099123
+South America_Northern,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+South America_Northern,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+South America_Northern,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.00609562
+South America_Northern,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0003208221
+South America_Northern,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0017713247
+South America_Northern,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0127140376
+South America_Northern,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0131096823
+South America_Northern,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0015375828
+South America_Northern,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+South America_Northern,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+South America_Northern,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0085017765
+South America_Northern,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0004474619
+South America_Northern,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0016431459
+South America_Northern,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0008895954
+South America_Northern,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+South America_Northern,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,8.9597e-06
+South America_Northern,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0071835342
+South America_Northern,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0018037868
+South America_Northern,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+South America_Northern,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,3.16132e-05
+South America_Northern,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,6.11e-07
+South America_Northern,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,4.3855e-06
+South America_Northern,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,9.044e-05
+South America_Northern,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,5.0524e-06
+South America_Northern,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+South America_Northern,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+South America_Northern,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0002227503
+South America_Northern,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,1.17237e-05
+South America_Southern,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0002589879
+South America_Southern,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0018589377
+South America_Southern,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0059633326
+South America_Southern,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0004377883
+South America_Southern,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+South America_Southern,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+South America_Southern,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0242792826
+South America_Southern,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.001277857
+South America_Southern,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0066913664
+South America_Southern,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0480286216
+South America_Southern,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0495232115
+South America_Southern,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0058083815
+South America_Southern,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+South America_Southern,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+South America_Southern,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0321163601
+South America_Southern,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0016903347
+South America_Southern,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0064513271
+South America_Southern,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0034927334
+South America_Southern,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+South America_Southern,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,3.51778e-05
+South America_Southern,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0134497106
+South America_Southern,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.003377225
+South America_Southern,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+South America_Southern,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,5.91893e-05
+South America_Southern,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,9.5402e-06
+South America_Southern,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,6.84765e-05
+South America_Southern,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0014121473
+South America_Southern,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,7.88886e-05
+South America_Southern,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+South America_Southern,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+South America_Southern,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0034780665
+South America_Southern,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0001830561
+South Asia,Beef,Mixed,FeedCrops,1975,NH3_AGR,7.70658e-05
+South Asia,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.001111038
+South Asia,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0007937567
+South Asia,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0019869229
+South Asia,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+South Asia,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+South Asia,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0027972751
+South Asia,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0027972751
+South Asia,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0020146547
+South Asia,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0290447549
+South Asia,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0077813952
+South Asia,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0389731472
+South Asia,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+South Asia,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+South Asia,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.001621124
+South Asia,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.001621124
+South Asia,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0001384063
+South Asia,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,9.23601e-05
+South Asia,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+South Asia,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,1.339e-07
+South Asia,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0045274747
+South Asia,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0015101573
+South Asia,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+South Asia,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,2.9973e-06
+South Asia,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,7.4971e-06
+South Asia,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0001080838
+South Asia,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0010424444
+South Asia,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,0.0011585178
+South Asia,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+South Asia,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+South Asia,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0001286968
+South Asia,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0001286968
+South Korea,Beef,Mixed,FeedCrops,1975,NH3_AGR,9.8185e-05
+South Korea,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0003098745
+South Korea,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0005615517
+South Korea,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,5.1392e-05
+South Korea,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+South Korea,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+South Korea,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0008775765
+South Korea,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,4.61882e-05
+South Korea,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0003418916
+South Korea,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0010790194
+South Korea,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0010342555
+South Korea,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0001304722
+South Korea,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+South Korea,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+South Korea,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0024563568
+South Korea,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0001292819
+South Korea,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0018696398
+South Korea,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0013830918
+South Korea,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+South Korea,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,1.602e-06
+South Korea,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0041316294
+South Korea,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0030567629
+South Korea,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+South Korea,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,3.991e-06
+South Korea,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,1.637e-07
+South Korea,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,5.167e-07
+South Korea,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,1.22571e-05
+South Korea,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,6.815e-07
+South Korea,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+South Korea,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+South Korea,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,1.2938e-05
+South Korea,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,6.809e-07
+Southeast Asia,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.001833041
+Southeast Asia,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0056960358
+Southeast Asia,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.035934141
+Southeast Asia,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0047543816
+Southeast Asia,Beef,Pastoral,FeedCrops,1975,NH3_AGR,2.6852e-06
+Southeast Asia,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,7.34049e-05
+Southeast Asia,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0070592808
+Southeast Asia,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0036186326
+Southeast Asia,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0033972357
+Southeast Asia,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0093042816
+Southeast Asia,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0194851298
+Southeast Asia,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0034828845
+Southeast Asia,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,1.61668e-05
+Southeast Asia,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0.0004419444
+Southeast Asia,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0059392399
+Southeast Asia,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0004650313
+Southeast Asia,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0284226347
+Southeast Asia,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0701260803
+Southeast Asia,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Southeast Asia,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,6.78439e-05
+Southeast Asia,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0376532462
+Southeast Asia,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.1006981836
+Southeast Asia,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Southeast Asia,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,8.31201e-05
+Southeast Asia,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,1.18155e-05
+Southeast Asia,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,4.17151e-05
+Southeast Asia,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0008658316
+Southeast Asia,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,0.0001465851
+Southeast Asia,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Southeast Asia,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Southeast Asia,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0005345179
+Southeast Asia,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0001040792
+Argentina,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0006406148
+Argentina,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0045981408
+Argentina,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0147504906
+Argentina,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0010828832
+Argentina,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Argentina,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Argentina,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.060055569
+Argentina,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0031608194
+Argentina,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0085703081
+Argentina,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0615151017
+Argentina,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0634293737
+Argentina,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.0074393802
+Argentina,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Argentina,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Argentina,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0411346628
+Argentina,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0021649823
+Argentina,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0054706144
+Argentina,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0029617778
+Argentina,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Argentina,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,2.98301e-05
+Argentina,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0121855434
+Argentina,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0030597923
+Argentina,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Argentina,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,5.36259e-05
+Argentina,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,8.2019e-06
+Argentina,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,5.88706e-05
+Argentina,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0012140521
+Argentina,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,6.78222e-05
+Argentina,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Argentina,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Argentina,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0029901654
+Argentina,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0001573771
+Colombia,Beef,Mixed,FeedCrops,1975,NH3_AGR,0.0001400638
+Colombia,Beef,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0010053363
+Colombia,Beef,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0032250433
+Colombia,Beef,Mixed,Scavenging_Other,1975,NH3_AGR,0.0002367613
+Colombia,Beef,Pastoral,FeedCrops,1975,NH3_AGR,0
+Colombia,Beef,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Colombia,Beef,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0131305334
+Colombia,Beef,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0006910807
+Colombia,Dairy,Mixed,FeedCrops,1975,NH3_AGR,0.0039527307
+Colombia,Dairy,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0283715158
+Colombia,Dairy,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0.0292544014
+Colombia,Dairy,Mixed,Scavenging_Other,1975,NH3_AGR,0.003431133
+Colombia,Dairy,Pastoral,FeedCrops,1975,NH3_AGR,0
+Colombia,Dairy,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Colombia,Dairy,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0189718086
+Colombia,Dairy,Pastoral,Scavenging_Other,1975,NH3_AGR,0.0009985162
+Colombia,Pork,Mixed,FeedCrops,1975,NH3_AGR,0.0023182459
+Colombia,Pork,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0012550929
+Colombia,Pork,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Colombia,Pork,Mixed,Scavenging_Other,1975,NH3_AGR,1.26409e-05
+Colombia,Poultry,Mixed,FeedCrops,1975,NH3_AGR,0.0057004073
+Colombia,Poultry,Mixed,FodderHerb_Residue,1975,NH3_AGR,0.0014313734
+Colombia,Poultry,Mixed,Pasture_FodderGrass,1975,NH3_AGR,0
+Colombia,Poultry,Mixed,Scavenging_Other,1975,NH3_AGR,2.50863e-05
+Colombia,SheepGoat,Mixed,FeedCrops,1975,NH3_AGR,6.352e-07
+Colombia,SheepGoat,Mixed,FodderHerb_Residue,1975,NH3_AGR,4.5592e-06
+Colombia,SheepGoat,Mixed,Pasture_FodderGrass,1975,NH3_AGR,9.40218e-05
+Colombia,SheepGoat,Mixed,Scavenging_Other,1975,NH3_AGR,5.2525e-06
+Colombia,SheepGoat,Pastoral,FeedCrops,1975,NH3_AGR,0
+Colombia,SheepGoat,Pastoral,FodderHerb_Residue,1975,NH3_AGR,0
+Colombia,SheepGoat,Pastoral,Pasture_FodderGrass,1975,NH3_AGR,0.0002315721
+Colombia,SheepGoat,Pastoral,Scavenging_Other,1975,NH3_AGR,1.2188e-05
+USA,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0235259385
+USA,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0201930444
+USA,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0656637862
+USA,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,5.68745e-05
+USA,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+USA,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+USA,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0163530502
+USA,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+USA,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.2393488875
+USA,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.2054405919
+USA,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.2969120737
+USA,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0005786312
+USA,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+USA,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+USA,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0473795862
+USA,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+USA,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0729994569
+USA,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0129021988
+USA,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+USA,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,0.000113003
+USA,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.1485480994
+USA,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0262547813
+USA,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+USA,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.0002289946
+USA,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,4.94673e-05
+USA,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,4.24593e-05
+USA,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0008284155
+USA,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,1.196e-07
+USA,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+USA,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+USA,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0009657302
+USA,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+Africa_Eastern,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0001176174
+Africa_Eastern,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.003542703
+Africa_Eastern,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0137451407
+Africa_Eastern,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0009213932
+Africa_Eastern,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Africa_Eastern,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Africa_Eastern,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0323338072
+Africa_Eastern,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0017017793
+Africa_Eastern,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0022636616
+Africa_Eastern,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0681828098
+Africa_Eastern,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.1528446249
+Africa_Eastern,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0118544803
+Africa_Eastern,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Africa_Eastern,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Africa_Eastern,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.1827722438
+Africa_Eastern,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0096195918
+Africa_Eastern,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0036025133
+Africa_Eastern,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0029595435
+Africa_Eastern,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Africa_Eastern,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,1.47065e-05
+Africa_Eastern,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0135857995
+Africa_Eastern,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0090892998
+Africa_Eastern,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Africa_Eastern,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,4.81501e-05
+Africa_Eastern,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,1.75067e-05
+Africa_Eastern,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0005273127
+Africa_Eastern,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0092747104
+Africa_Eastern,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,0.0010918941
+Africa_Eastern,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Africa_Eastern,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Africa_Eastern,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0085011393
+Africa_Eastern,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0.000944571
+Africa_Northern,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0019476291
+Africa_Northern,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0039559969
+Africa_Northern,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0034561149
+Africa_Northern,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0005148731
+Africa_Northern,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Africa_Northern,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Africa_Northern,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0017868349
+Africa_Northern,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,9.40439e-05
+Africa_Northern,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0221081231
+Africa_Northern,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0449057093
+Africa_Northern,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0179343537
+Africa_Northern,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0047235824
+Africa_Northern,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Africa_Northern,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Africa_Northern,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0025442402
+Africa_Northern,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0001339074
+Africa_Northern,Pork,Mixed,FeedCrops,1990,NH3_AGR,3.92478e-05
+Africa_Northern,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,2.61652e-05
+Africa_Northern,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Africa_Northern,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,0
+Africa_Northern,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0177114781
+Africa_Northern,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0059380613
+Africa_Northern,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Africa_Northern,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.0001027057
+Africa_Northern,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,0.0009573737
+Africa_Northern,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0019446041
+Africa_Northern,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0036404632
+Africa_Northern,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,0.0007384854
+Africa_Northern,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Africa_Northern,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Africa_Northern,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.000785166
+Africa_Northern,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,8.72407e-05
+Africa_Southern,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0005881315
+Africa_Southern,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0029027797
+Africa_Southern,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0060110281
+Africa_Southern,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0005164408
+Africa_Southern,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0.0001330297
+Africa_Southern,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0.0006565811
+Africa_Southern,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.029345505
+Africa_Southern,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0015897544
+Africa_Southern,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0027938873
+Africa_Southern,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0137895003
+Africa_Southern,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0149914109
+Africa_Southern,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0017394479
+Africa_Southern,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0.0003996661
+Africa_Southern,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0.0019725907
+Africa_Southern,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0881637734
+Africa_Southern,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0047761573
+Africa_Southern,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0038409895
+Africa_Southern,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0025728209
+Africa_Southern,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Africa_Southern,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,1.82418e-05
+Africa_Southern,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0131127784
+Africa_Southern,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0043861391
+Africa_Southern,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Africa_Southern,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,4.5639e-05
+Africa_Southern,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,3.5828e-06
+Africa_Southern,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,1.76832e-05
+Africa_Southern,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0001708844
+Africa_Southern,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,2.14551e-05
+Africa_Southern,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Africa_Southern,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Africa_Southern,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0064368914
+Africa_Southern,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0007152102
+Africa_Western,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0019203538
+Africa_Western,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0102133647
+Africa_Western,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0208057966
+Africa_Western,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0017368127
+Africa_Western,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Africa_Western,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Africa_Western,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0269529638
+Africa_Western,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.001418577
+Africa_Western,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.006357181
+Africa_Western,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0338105452
+Africa_Western,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0361598807
+Africa_Western,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0040276835
+Africa_Western,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Africa_Western,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Africa_Western,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0933014205
+Africa_Western,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0049106011
+Africa_Western,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0104687913
+Africa_Western,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.006986458
+Africa_Western,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Africa_Western,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,1.08956e-05
+Africa_Western,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0507923912
+Africa_Western,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0169432762
+Africa_Western,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Africa_Western,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,3.74375e-05
+Africa_Western,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,0.0001516352
+Africa_Western,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0008064686
+Africa_Western,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0162917865
+Africa_Western,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,0.0019169174
+Africa_Western,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Africa_Western,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Africa_Western,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0149329456
+Africa_Western,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0016592162
+Australia_NZ,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.000337406
+Australia_NZ,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0028416069
+Australia_NZ,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0096117252
+Australia_NZ,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,2.48956e-05
+Australia_NZ,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0.0003841237
+Australia_NZ,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0.0032350601
+Australia_NZ,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0328277384
+Australia_NZ,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,2.83427e-05
+Australia_NZ,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0020189901
+Australia_NZ,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0170037782
+Australia_NZ,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0287576099
+Australia_NZ,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0001489717
+Australia_NZ,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0.002860236
+Australia_NZ,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0.0240886857
+Australia_NZ,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.2444396845
+Australia_NZ,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0002110432
+Australia_NZ,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0046598862
+Australia_NZ,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0032203933
+Australia_NZ,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Australia_NZ,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,0.0001707038
+Australia_NZ,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0114870081
+Australia_NZ,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0039401942
+Australia_NZ,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Australia_NZ,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.0003335744
+Australia_NZ,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,6.25044e-05
+Australia_NZ,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0005264072
+Australia_NZ,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0047481882
+Australia_NZ,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,0.0005981354
+Australia_NZ,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Australia_NZ,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Australia_NZ,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0189387961
+Australia_NZ,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0021043107
+Brazil,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0013431351
+Brazil,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.014634601
+Brazil,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0447787871
+Brazil,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0032131728
+Brazil,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Brazil,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Brazil,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0911568167
+Brazil,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0047977272
+Brazil,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0179789873
+Brazil,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.1958963928
+Brazil,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.192664792
+Brazil,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0216038101
+Brazil,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Brazil,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Brazil,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.1270385228
+Brazil,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.006686238
+Brazil,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0366091333
+Brazil,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.004998303
+Brazil,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Brazil,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,4.50884e-05
+Brazil,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.1208208401
+Brazil,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0164955335
+Brazil,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Brazil,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.0001464056
+Brazil,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,7.0275e-06
+Brazil,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,7.65711e-05
+Brazil,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0015061596
+Brazil,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,8.37524e-05
+Brazil,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Brazil,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Brazil,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0022972924
+Brazil,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0001209101
+Canada,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0028163864
+Canada,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0019903079
+Canada,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0072212169
+Canada,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,7.4502e-06
+Canada,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Canada,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Canada,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0021238873
+Canada,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+Canada,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0401306904
+Canada,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0283598974
+Canada,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0457311643
+Canada,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0001061587
+Canada,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Canada,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Canada,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0072975262
+Canada,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+Canada,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0152372084
+Canada,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0026927067
+Canada,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Canada,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,2.14628e-05
+Canada,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0136778452
+Canada,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0024171015
+Canada,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Canada,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,1.90632e-05
+Canada,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,4.2803e-06
+Canada,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,3.0248e-06
+Canada,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,6.58477e-05
+Canada,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,1.13e-08
+Canada,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Canada,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Canada,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,7.67623e-05
+Canada,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+Central America and Caribbean,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0009875016
+Central America and Caribbean,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.001329289
+Central America and Caribbean,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0064935744
+Central America and Caribbean,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0004661698
+Central America and Caribbean,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Central America and Caribbean,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Central America and Caribbean,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0072103975
+Central America and Caribbean,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0003794946
+Central America and Caribbean,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0160890306
+Central America and Caribbean,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0216576568
+Central America and Caribbean,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0340063765
+Central America and Caribbean,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0038166616
+Central America and Caribbean,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Central America and Caribbean,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Central America and Caribbean,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0179478098
+Central America and Caribbean,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0009446216
+Central America and Caribbean,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0020455961
+Central America and Caribbean,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0047911929
+Central America and Caribbean,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Central America and Caribbean,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,7.7723e-06
+Central America and Caribbean,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0079660051
+Central America and Caribbean,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0186470153
+Central America and Caribbean,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Central America and Caribbean,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,2.55728e-05
+Central America and Caribbean,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,4.1406e-06
+Central America and Caribbean,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,5.5738e-06
+Central America and Caribbean,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0001750358
+Central America and Caribbean,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,9.734e-06
+Central America and Caribbean,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Central America and Caribbean,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Central America and Caribbean,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0002669759
+Central America and Caribbean,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,1.40514e-05
+Central Asia,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0032222853
+Central Asia,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0038868123
+Central Asia,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0055730061
+Central Asia,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0005596226
+Central Asia,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Central Asia,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Central Asia,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0170099106
+Central Asia,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0008952585
+Central Asia,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0750589455
+Central Asia,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0867309821
+Central Asia,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0588679283
+Central Asia,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0106473441
+Central Asia,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Central Asia,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Central Asia,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0796518585
+Central Asia,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0041922031
+Central Asia,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0059333189
+Central Asia,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.004040861
+Central Asia,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Central Asia,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,6.59991e-05
+Central Asia,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0136058116
+Central Asia,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.004595775
+Central Asia,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Central Asia,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.0001184988
+Central Asia,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,0.0016266451
+Central Asia,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0019429286
+Central Asia,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0069303769
+Central Asia,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,0.0010444392
+Central Asia,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Central Asia,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Central Asia,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0024214649
+Central Asia,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0001577238
+China,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0014770974
+China,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0111785846
+China,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0174109705
+China,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0015896575
+China,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+China,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+China,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0200489964
+China,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0010552103
+China,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0088214549
+China,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0667602412
+China,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0549982237
+China,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0069156394
+China,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+China,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+China,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.1306207813
+China,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.006874778
+China,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.3263069174
+China,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.6065551098
+China,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+China,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,0.0002996802
+China,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.1687305616
+China,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.3136402056
+China,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+China,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.000152626
+China,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,5.91469e-05
+China,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.00044762
+China,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0091267344
+China,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,0.0005073148
+China,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+China,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+China,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0289013256
+China,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0015211224
+EU-12,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0056244221
+EU-12,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0101037482
+EU-12,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0217492964
+EU-12,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.002063835
+EU-12,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+EU-12,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+EU-12,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+EU-12,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+EU-12,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.1525976871
+EU-12,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.2741105307
+EU-12,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.2503373555
+EU-12,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0381297712
+EU-12,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+EU-12,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+EU-12,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+EU-12,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+EU-12,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0789013038
+EU-12,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0265278396
+EU-12,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+EU-12,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,0.0006511856
+EU-12,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.047721733
+EU-12,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0160245057
+EU-12,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+EU-12,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.0003950202
+EU-12,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,0.0001518367
+EU-12,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0002726055
+EU-12,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0038414391
+EU-12,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,2.3845e-06
+EU-12,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+EU-12,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+EU-12,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+EU-12,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+EU-15,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0079745248
+EU-15,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0410253264
+EU-15,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0738529179
+EU-15,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0002354272
+EU-15,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+EU-15,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+EU-15,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+EU-15,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+EU-15,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.1751941176
+EU-15,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.9012945537
+EU-15,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.7211072158
+EU-15,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0051721541
+EU-15,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+EU-15,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+EU-15,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+EU-15,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+EU-15,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.148114783
+EU-15,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0643555212
+EU-15,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+EU-15,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,0.0020480999
+EU-15,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.1311961089
+EU-15,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0331947733
+EU-15,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+EU-15,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.0015829842
+EU-15,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,0.0002674867
+EU-15,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0013760984
+EU-15,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.014863338
+EU-15,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,7.8969e-06
+EU-15,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+EU-15,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+EU-15,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+EU-15,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+Europe_Eastern,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.008843874
+Europe_Eastern,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0116016299
+Europe_Eastern,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0309454097
+Europe_Eastern,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0001847692
+Europe_Eastern,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Europe_Eastern,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Europe_Eastern,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+Europe_Eastern,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+Europe_Eastern,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.1314329087
+Europe_Eastern,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.1724171978
+Europe_Eastern,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.3065960469
+Europe_Eastern,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0027459404
+Europe_Eastern,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Europe_Eastern,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Europe_Eastern,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+Europe_Eastern,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+Europe_Eastern,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.028063104
+Europe_Eastern,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0122152546
+Europe_Eastern,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Europe_Eastern,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,0.0004391568
+Europe_Eastern,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0322424665
+Europe_Eastern,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0081701556
+Europe_Eastern,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Europe_Eastern,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.000438156
+Europe_Eastern,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,4.38943e-05
+Europe_Eastern,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,5.75817e-05
+Europe_Eastern,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0009215368
+Europe_Eastern,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,9.171e-07
+Europe_Eastern,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Europe_Eastern,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Europe_Eastern,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+Europe_Eastern,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+Europe_Non_EU,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0024725307
+Europe_Non_EU,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0051028386
+Europe_Non_EU,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.006475446
+Europe_Non_EU,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0007727362
+Europe_Non_EU,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Europe_Non_EU,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Europe_Non_EU,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0008853511
+Europe_Non_EU,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,4.65974e-05
+Europe_Non_EU,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0826540118
+Europe_Non_EU,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.1744537535
+Europe_Non_EU,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0880078253
+Europe_Non_EU,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0192298763
+Europe_Non_EU,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Europe_Non_EU,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Europe_Non_EU,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0025277733
+Europe_Non_EU,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0001330407
+Europe_Non_EU,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0115550787
+Europe_Non_EU,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0038849116
+Europe_Non_EU,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Europe_Non_EU,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,9.5242e-05
+Europe_Non_EU,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0224967647
+Europe_Non_EU,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0075553204
+Europe_Non_EU,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Europe_Non_EU,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.0001691966
+Europe_Non_EU,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,0.0010866847
+Europe_Non_EU,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0023851381
+Europe_Non_EU,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0069100449
+Europe_Non_EU,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,0.000952587
+Europe_Non_EU,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Europe_Non_EU,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Europe_Non_EU,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0004925253
+Europe_Non_EU,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,5.4725e-05
+European Free Trade Association,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0001461644
+European Free Trade Association,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0007519497
+European Free Trade Association,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0013536438
+European Free Trade Association,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,4.3151e-06
+European Free Trade Association,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+European Free Trade Association,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+European Free Trade Association,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+European Free Trade Association,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+European Free Trade Association,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0053147651
+European Free Trade Association,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0273420642
+European Free Trade Association,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0218758226
+European Free Trade Association,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0001569047
+European Free Trade Association,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+European Free Trade Association,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+European Free Trade Association,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+European Free Trade Association,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+European Free Trade Association,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0022836427
+European Free Trade Association,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0009922373
+European Free Trade Association,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+European Free Trade Association,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,3.15777e-05
+European Free Trade Association,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0010714816
+European Free Trade Association,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0002711025
+European Free Trade Association,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+European Free Trade Association,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,1.29283e-05
+European Free Trade Association,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,5.8535e-06
+European Free Trade Association,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,3.01137e-05
+European Free Trade Association,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0003252603
+European Free Trade Association,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,1.728e-07
+European Free Trade Association,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+European Free Trade Association,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+European Free Trade Association,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+European Free Trade Association,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+India,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0002421399
+India,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0033916963
+India,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0024285776
+India,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.006080474
+India,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+India,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+India,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0074206536
+India,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0074206536
+India,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0171826432
+India,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.2406802892
+India,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0646259316
+India,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.3237704518
+India,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+India,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+India,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0134637357
+India,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0134637357
+India,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0031509118
+India,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0021030631
+India,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+India,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,3.6829e-06
+India,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0155677211
+India,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0051930561
+India,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+India,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,1.14473e-05
+India,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,2.33283e-05
+India,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0003267629
+India,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0031586499
+India,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,0.0035104809
+India,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+India,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+India,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0003899568
+India,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0003899568
+Indonesia,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0006747408
+Indonesia,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0050831447
+Indonesia,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.015034241
+Indonesia,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.002337475
+Indonesia,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Indonesia,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Indonesia,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0030463378
+Indonesia,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0020308918
+Indonesia,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0037576142
+Indonesia,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.028307903
+Indonesia,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0161010199
+Indonesia,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0055035293
+Indonesia,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Indonesia,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Indonesia,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0003252731
+Indonesia,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0002168488
+Indonesia,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0146205091
+Indonesia,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0342622072
+Indonesia,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Indonesia,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,6.3294e-05
+Indonesia,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0277922247
+Indonesia,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0651491388
+Indonesia,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Indonesia,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.0001288347
+Indonesia,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,3.83531e-05
+Indonesia,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0002889324
+Indonesia,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0055875422
+Indonesia,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,0.0006587514
+Indonesia,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Indonesia,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Indonesia,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0019720737
+Indonesia,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0002191193
+Japan,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0023461718
+Japan,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0027896192
+Japan,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0017219356
+Japan,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,3.00157e-05
+Japan,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Japan,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Japan,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+Japan,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+Japan,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0314399685
+Japan,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0373824038
+Japan,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0296676853
+Japan,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0004022267
+Japan,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Japan,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Japan,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+Japan,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+Japan,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0110624723
+Japan,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0074319994
+Japan,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Japan,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,8.55268e-05
+Japan,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0349478703
+Japan,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0117215547
+Japan,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Japan,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.0002167938
+Japan,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,4.32e-07
+Japan,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,5.137e-07
+Japan,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,3.8049e-06
+Japan,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,5.5e-09
+Japan,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Japan,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Japan,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+Japan,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+Mexico,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0012358023
+Mexico,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0017710782
+Mexico,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0084442855
+Mexico,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0006120991
+Mexico,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Mexico,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Mexico,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0212830462
+Mexico,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0011201603
+Mexico,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.030760549
+Mexico,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0440841856
+Mexico,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0675604424
+Mexico,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0077291395
+Mexico,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Mexico,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Mexico,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0356569002
+Mexico,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.001876679
+Mexico,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0136808046
+Mexico,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.00916306
+Mexico,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Mexico,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,6.37854e-05
+Mexico,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0350223495
+Mexico,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0189381162
+Mexico,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Mexico,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.0001484377
+Mexico,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,1.5495e-05
+Mexico,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,2.22066e-05
+Mexico,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0006806461
+Mexico,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,3.79257e-05
+Mexico,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Mexico,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Mexico,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0010381656
+Mexico,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,5.46403e-05
+Middle East,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0010465453
+Middle East,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0006929814
+Middle East,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0010218132
+Middle East,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0001581263
+Middle East,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Middle East,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Middle East,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0051507724
+Middle East,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0002710933
+Middle East,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0689065127
+Middle East,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0456272002
+Middle East,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0307557042
+Middle East,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0084891038
+Middle East,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Middle East,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Middle East,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.004363129
+Middle East,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0002296384
+Middle East,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0001714254
+Middle East,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0001162085
+Middle East,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Middle East,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,2.8873e-06
+Middle East,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0310979068
+Middle East,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0104510661
+Middle East,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Middle East,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.0002552916
+Middle East,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,0.0028756211
+Middle East,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0019041239
+Middle East,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0075635029
+Middle East,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,0.0014085755
+Middle East,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Middle East,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Middle East,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0007203336
+Middle East,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,8.00371e-05
+Pakistan,Beef,Mixed,FeedCrops,1990,NH3_AGR,5.52004e-05
+Pakistan,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0007732017
+Pakistan,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0005536405
+Pakistan,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0013861597
+Pakistan,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Pakistan,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Pakistan,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0016916792
+Pakistan,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0016916792
+Pakistan,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0034821546
+Pakistan,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0487751483
+Pakistan,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0130967908
+Pakistan,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0656138143
+Pakistan,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Pakistan,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Pakistan,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0027284981
+Pakistan,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0027284981
+Pakistan,Pork,Mixed,FeedCrops,1990,NH3_AGR,0
+Pakistan,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0
+Pakistan,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Pakistan,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,0
+Pakistan,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0026400228
+Pakistan,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0008806547
+Pakistan,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Pakistan,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,1.9413e-06
+Pakistan,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,1.34628e-05
+Pakistan,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0001885763
+Pakistan,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0018228712
+Pakistan,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,0.0020259145
+Pakistan,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Pakistan,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Pakistan,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0002250458
+Pakistan,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0002250458
+Russia,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.019224104
+Russia,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.015822883
+Russia,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0530888386
+Russia,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0003455722
+Russia,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Russia,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Russia,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+Russia,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+Russia,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.3161212327
+Russia,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.2601915433
+Russia,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.5819953648
+Russia,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0056825888
+Russia,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Russia,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Russia,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+Russia,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+Russia,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0433114415
+Russia,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0294581995
+Russia,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Russia,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,0.0008758577
+Russia,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0731006591
+Russia,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0247587631
+Russia,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Russia,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.0011756304
+Russia,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,0.000431673
+Russia,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0003552994
+Russia,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0071525892
+Russia,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,7.7597e-06
+Russia,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Russia,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Russia,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0
+Russia,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0
+South Africa,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0002544379
+South Africa,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0012558028
+South Africa,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0026004957
+South Africa,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.000223423
+South Africa,Beef,Pastoral,FeedCrops,1990,NH3_AGR,5.75514e-05
+South Africa,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0.0002840506
+South Africa,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0126954755
+South Africa,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0006877608
+South Africa,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0015266586
+South Africa,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0075349708
+South Africa,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0081917285
+South Africa,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0009504832
+South Africa,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0.0002183888
+South Africa,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0.001077879
+South Africa,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0481751652
+South Africa,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0026098267
+South Africa,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0021617639
+South Africa,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0014480204
+South Africa,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+South Africa,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,1.02667e-05
+South Africa,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0147479668
+South Africa,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.004933099
+South Africa,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+South Africa,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,5.13303e-05
+South Africa,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,2.3851e-06
+South Africa,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,1.1772e-05
+South Africa,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0001137601
+South Africa,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,1.4283e-05
+South Africa,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+South Africa,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+South Africa,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0042851285
+South Africa,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0004761254
+South America_Northern,Beef,Mixed,FeedCrops,1990,NH3_AGR,8.5525e-06
+South America_Northern,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0011459533
+South America_Northern,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0032441676
+South America_Northern,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0002358517
+South America_Northern,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+South America_Northern,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+South America_Northern,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0066041984
+South America_Northern,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0003475894
+South America_Northern,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0001606895
+South America_Northern,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.021530846
+South America_Northern,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0195921422
+South America_Northern,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0022544161
+South America_Northern,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+South America_Northern,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+South America_Northern,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0103402973
+South America_Northern,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0005442262
+South America_Northern,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0027843519
+South America_Northern,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0015092605
+South America_Northern,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+South America_Northern,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,1.85604e-05
+South America_Northern,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0123812626
+South America_Northern,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0031116231
+South America_Northern,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+South America_Northern,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,6.52297e-05
+South America_Northern,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,4.53e-08
+South America_Northern,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,6.0695e-06
+South America_Northern,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.00011046
+South America_Northern,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,6.1585e-06
+South America_Northern,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+South America_Northern,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+South America_Northern,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0001684808
+South America_Northern,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,8.8674e-06
+South America_Southern,Beef,Mixed,FeedCrops,1990,NH3_AGR,2.69902e-05
+South America_Southern,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0036164235
+South America_Southern,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0102380121
+South America_Southern,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0007443058
+South America_Southern,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+South America_Southern,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+South America_Southern,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0208416675
+South America_Southern,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0010969299
+South America_Southern,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0005032876
+South America_Southern,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0674356855
+South America_Southern,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0613635685
+South America_Southern,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.007060944
+South America_Southern,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+South America_Southern,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+South America_Southern,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0323863278
+South America_Southern,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0017045436
+South America_Southern,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0100491317
+South America_Southern,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0054471409
+South America_Southern,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+South America_Southern,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,6.69871e-05
+South America_Southern,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0248767488
+South America_Southern,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0062519525
+South America_Southern,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+South America_Southern,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.0001310612
+South America_Southern,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,6.775e-07
+South America_Southern,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,9.07812e-05
+South America_Southern,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0016521402
+South America_Southern,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,9.21124e-05
+South America_Southern,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+South America_Southern,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+South America_Southern,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0025199514
+South America_Southern,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0.000132629
+South Asia,Beef,Mixed,FeedCrops,1990,NH3_AGR,9.02225e-05
+South Asia,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0012637619
+South Asia,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0009048994
+South Asia,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0022656132
+South Asia,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+South Asia,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+South Asia,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0027649704
+South Asia,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0027649704
+South Asia,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0022809922
+South Asia,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0319502573
+South Asia,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0085790787
+South Asia,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0429804587
+South Asia,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+South Asia,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+South Asia,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0017873081
+South Asia,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0017873081
+South Asia,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0002244229
+South Asia,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0001497901
+South Asia,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+South Asia,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,2.623e-07
+South Asia,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.006500224
+South Asia,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0021683346
+South Asia,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+South Asia,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,4.7798e-06
+South Asia,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,1.06554e-05
+South Asia,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0001492527
+South Asia,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.00144275
+South Asia,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,0.0016034529
+South Asia,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+South Asia,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+South Asia,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0001781173
+South Asia,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0001781173
+South Korea,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0001662308
+South Korea,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.000143368
+South Korea,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0004276968
+South Korea,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,4.0335e-05
+South Korea,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+South Korea,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+South Korea,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0004924994
+South Korea,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,2.5921e-05
+South Korea,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0022561233
+South Korea,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0019458232
+South Korea,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0030703074
+South Korea,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0004035146
+South Korea,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+South Korea,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+South Korea,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0072919801
+South Korea,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0003837884
+South Korea,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0043237974
+South Korea,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.000481988
+South Korea,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+South Korea,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,1.40944e-05
+South Korea,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0054563295
+South Korea,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0006081632
+South Korea,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+South Korea,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,1.71389e-05
+South Korea,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,7.28e-08
+South Korea,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,6.28e-08
+South Korea,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,2.4526e-06
+South Korea,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,1.369e-07
+South Korea,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+South Korea,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+South Korea,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,7.7667e-06
+South Korea,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,4.088e-07
+Southeast Asia,Beef,Mixed,FeedCrops,1990,NH3_AGR,0.0044271549
+Southeast Asia,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0056873842
+Southeast Asia,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.025744515
+Southeast Asia,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0039023878
+Southeast Asia,Beef,Pastoral,FeedCrops,1990,NH3_AGR,8.4144e-06
+Southeast Asia,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,7.08656e-05
+Southeast Asia,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0072649318
+Southeast Asia,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0038622628
+Southeast Asia,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0138374548
+Southeast Asia,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0178082773
+Southeast Asia,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0164379585
+Southeast Asia,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0051894762
+Southeast Asia,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,3.56879e-05
+Southeast Asia,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0.0003005609
+Southeast Asia,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0059410631
+Southeast Asia,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0003406743
+Southeast Asia,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0459281455
+Southeast Asia,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.1026683357
+Southeast Asia,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Southeast Asia,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,0.0001279279
+Southeast Asia,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0585989565
+Southeast Asia,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.1443260858
+Southeast Asia,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Southeast Asia,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,0.0001459752
+Southeast Asia,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,3.97263e-05
+Southeast Asia,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,5.20267e-05
+Southeast Asia,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0015560823
+Southeast Asia,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,0.000178653
+Southeast Asia,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Southeast Asia,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Southeast Asia,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.000795663
+Southeast Asia,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,7.45094e-05
+Argentina,Beef,Mixed,FeedCrops,1990,NH3_AGR,5.79944e-05
+Argentina,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0077706943
+Argentina,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0219986574
+Argentina,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0015993073
+Argentina,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Argentina,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Argentina,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0447829811
+Argentina,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.002356999
+Argentina,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0005404112
+Argentina,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0724098843
+Argentina,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0658898751
+Argentina,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0075817741
+Argentina,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Argentina,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Argentina,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0347752119
+Argentina,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0018302743
+Argentina,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0029608708
+Argentina,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0016049427
+Argentina,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Argentina,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,1.9737e-05
+Argentina,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0154640121
+Argentina,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0038863708
+Argentina,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Argentina,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,8.14709e-05
+Argentina,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,3.757e-07
+Argentina,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,5.03336e-05
+Argentina,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0009160284
+Argentina,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,5.10717e-05
+Argentina,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Argentina,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Argentina,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0013971859
+Argentina,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,7.35361e-05
+Colombia,Beef,Mixed,FeedCrops,1990,NH3_AGR,1.31672e-05
+Colombia,Beef,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0017642733
+Colombia,Beef,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0049946173
+Colombia,Beef,Mixed,Scavenging_Other,1990,NH3_AGR,0.0003631098
+Colombia,Beef,Pastoral,FeedCrops,1990,NH3_AGR,0
+Colombia,Beef,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Colombia,Beef,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0101676138
+Colombia,Beef,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0005351376
+Colombia,Dairy,Mixed,FeedCrops,1990,NH3_AGR,0.0003116721
+Colombia,Dairy,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0417610603
+Colombia,Dairy,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0380007657
+Colombia,Dairy,Mixed,Scavenging_Other,1990,NH3_AGR,0.0043726479
+Colombia,Dairy,Pastoral,FeedCrops,1990,NH3_AGR,0
+Colombia,Dairy,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Colombia,Dairy,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0200559597
+Colombia,Dairy,Pastoral,Scavenging_Other,1990,NH3_AGR,0.0010555768
+Colombia,Pork,Mixed,FeedCrops,1990,NH3_AGR,0.0022602357
+Colombia,Pork,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0012251628
+Colombia,Pork,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Colombia,Pork,Mixed,Scavenging_Other,1990,NH3_AGR,1.50666e-05
+Colombia,Poultry,Mixed,FeedCrops,1990,NH3_AGR,0.0119934627
+Colombia,Poultry,Mixed,FodderHerb_Residue,1990,NH3_AGR,0.0030141623
+Colombia,Poultry,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0
+Colombia,Poultry,Mixed,Scavenging_Other,1990,NH3_AGR,6.31866e-05
+Colombia,SheepGoat,Mixed,FeedCrops,1990,NH3_AGR,5.03e-08
+Colombia,SheepGoat,Mixed,FodderHerb_Residue,1990,NH3_AGR,6.7378e-06
+Colombia,SheepGoat,Mixed,Pasture_FodderGrass,1990,NH3_AGR,0.0001226221
+Colombia,SheepGoat,Mixed,Scavenging_Other,1990,NH3_AGR,6.8366e-06
+Colombia,SheepGoat,Pastoral,FeedCrops,1990,NH3_AGR,0
+Colombia,SheepGoat,Pastoral,FodderHerb_Residue,1990,NH3_AGR,0
+Colombia,SheepGoat,Pastoral,Pasture_FodderGrass,1990,NH3_AGR,0.0001870312
+Colombia,SheepGoat,Pastoral,Scavenging_Other,1990,NH3_AGR,9.8437e-06
