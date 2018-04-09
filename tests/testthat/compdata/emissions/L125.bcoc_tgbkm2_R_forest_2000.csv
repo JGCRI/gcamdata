@@ -1,10 +1,9 @@
 # ../emissions-data/level1//L125.bcoc_tgbkm2_R_forest_2000.csv
 # Written by L125.bcoc_unmgd_R_S_T_Y.R
-# Thu Nov 16 13:19:18 2017
+# Mon Mar 12 09:54:07 2018
 # " BC/OC forest fires and deforestation emissions factors by GCAM region / 2000 "
 # " Unit = Tg / bm2 "
 "GCAM_region_ID","Land_Type","Non.CO2","technology","em_factor"
-1,"UnmanagedForest","BC","ForestFire",4.75002042281415e-06
 10,"UnmanagedForest","BC","ForestFire",6.27039245608134e-06
 11,"UnmanagedForest","BC","ForestFire",5.45190411373397e-06
 12,"UnmanagedForest","BC","ForestFire",7.60087114315905e-06
@@ -15,7 +14,7 @@
 17,"UnmanagedForest","BC","ForestFire",1.62716455256139e-05
 18,"UnmanagedForest","BC","ForestFire",4.01270825968413e-07
 19,"UnmanagedForest","BC","ForestFire",5.34116340454677e-06
-2,"UnmanagedForest","BC","ForestFire",8.76574705826263e-06
+1,"UnmanagedForest","BC","ForestFire",4.75002042281415e-06
 20,"UnmanagedForest","BC","ForestFire",1.26081472922676e-05
 21,"UnmanagedForest","BC","ForestFire",0
 22,"UnmanagedForest","BC","ForestFire",0
@@ -26,16 +25,16 @@
 27,"UnmanagedForest","BC","ForestFire",1.95885427955639e-05
 28,"UnmanagedForest","BC","ForestFire",2.68551865812635e-06
 29,"UnmanagedForest","BC","ForestFire",2.58964950263683e-05
-3,"UnmanagedForest","BC","ForestFire",0
+2,"UnmanagedForest","BC","ForestFire",8.76574705826263e-06
 31,"UnmanagedForest","BC","ForestFire",1.59251433377586e-05
 32,"UnmanagedForest","BC","ForestFire",1.50309882130694e-07
+3,"UnmanagedForest","BC","ForestFire",0
 4,"UnmanagedForest","BC","ForestFire",5.52413916667241e-07
 5,"UnmanagedForest","BC","ForestFire",4.72597964558459e-06
 6,"UnmanagedForest","BC","ForestFire",8.33313649906052e-05
 7,"UnmanagedForest","BC","ForestFire",1.64194365823489e-06
 8,"UnmanagedForest","BC","ForestFire",5.69982350403813e-06
 9,"UnmanagedForest","BC","ForestFire",6.94080849892172e-06
-1,"UnmanagedForest","OC","ForestFire",8.08032186714529e-05
 10,"UnmanagedForest","OC","ForestFire",0.000101893875761111
 11,"UnmanagedForest","OC","ForestFire",8.2284169237505e-05
 12,"UnmanagedForest","OC","ForestFire",0.000123629965880022
@@ -46,7 +45,7 @@
 17,"UnmanagedForest","OC","ForestFire",0.00018604606542677
 18,"UnmanagedForest","OC","ForestFire",4.93889014469864e-06
 19,"UnmanagedForest","OC","ForestFire",8.67939048568042e-05
-2,"UnmanagedForest","OC","ForestFire",9.19825935754839e-05
+1,"UnmanagedForest","OC","ForestFire",8.08032186714529e-05
 20,"UnmanagedForest","OC","ForestFire",0.000192358644650896
 21,"UnmanagedForest","OC","ForestFire",0
 22,"UnmanagedForest","OC","ForestFire",0
@@ -57,16 +56,16 @@
 27,"UnmanagedForest","OC","ForestFire",0.000233387884719871
 28,"UnmanagedForest","OC","ForestFire",4.36396853490538e-05
 29,"UnmanagedForest","OC","ForestFire",0.000299225580506932
-3,"UnmanagedForest","OC","ForestFire",0
+2,"UnmanagedForest","OC","ForestFire",9.19825935754839e-05
 31,"UnmanagedForest","OC","ForestFire",0.0002457840534167
 32,"UnmanagedForest","OC","ForestFire",1.28504131690183e-06
+3,"UnmanagedForest","OC","ForestFire",0
 4,"UnmanagedForest","OC","ForestFire",4.55960699029548e-06
 5,"UnmanagedForest","OC","ForestFire",3.97741143743493e-05
 6,"UnmanagedForest","OC","ForestFire",0.000695796904167865
 7,"UnmanagedForest","OC","ForestFire",1.96443234277701e-05
 8,"UnmanagedForest","OC","ForestFire",0.000101075406035887
 9,"UnmanagedForest","OC","ForestFire",5.76834162994513e-05
-1,"UnmanagedForest","BC","Deforest",1.27178543581385e-06
 10,"UnmanagedForest","BC","Deforest",0
 11,"UnmanagedForest","BC","Deforest",0
 12,"UnmanagedForest","BC","Deforest",0
@@ -77,7 +76,7 @@
 17,"UnmanagedForest","BC","Deforest",0.0207240060613861
 18,"UnmanagedForest","BC","Deforest",0.0455067459152058
 19,"UnmanagedForest","BC","Deforest",0
-2,"UnmanagedForest","BC","Deforest",0.00162239233520906
+1,"UnmanagedForest","BC","Deforest",1.27178543581385e-06
 20,"UnmanagedForest","BC","Deforest",0
 21,"UnmanagedForest","BC","Deforest",0
 22,"UnmanagedForest","BC","Deforest",0
@@ -88,16 +87,16 @@
 27,"UnmanagedForest","BC","Deforest",0.00179823586652736
 28,"UnmanagedForest","BC","Deforest",0
 29,"UnmanagedForest","BC","Deforest",0.028151404822656
-3,"UnmanagedForest","BC","Deforest",0
+2,"UnmanagedForest","BC","Deforest",0.00162239233520906
 31,"UnmanagedForest","BC","Deforest",0.00052839011617445
 32,"UnmanagedForest","BC","Deforest",0
+3,"UnmanagedForest","BC","Deforest",0
 4,"UnmanagedForest","BC","Deforest",0.00273872245781796
 5,"UnmanagedForest","BC","Deforest",0.0127084549566818
 6,"UnmanagedForest","BC","Deforest",0.000853269595936342
 7,"UnmanagedForest","BC","Deforest",0.035675349315727
 8,"UnmanagedForest","BC","Deforest",0
 9,"UnmanagedForest","BC","Deforest",0.0269986140503236
-1,"UnmanagedForest","OC","Deforest",1.02061834558864e-05
 10,"UnmanagedForest","OC","Deforest",0
 11,"UnmanagedForest","OC","Deforest",0
 12,"UnmanagedForest","OC","Deforest",0
@@ -108,7 +107,7 @@
 17,"UnmanagedForest","OC","Deforest",0.116042578018653
 18,"UnmanagedForest","OC","Deforest",0.560102565001417
 19,"UnmanagedForest","OC","Deforest",0
-2,"UnmanagedForest","OC","Deforest",0.0128755565196135
+1,"UnmanagedForest","OC","Deforest",1.02061834558864e-05
 20,"UnmanagedForest","OC","Deforest",0
 21,"UnmanagedForest","OC","Deforest",0
 22,"UnmanagedForest","OC","Deforest",0
@@ -119,9 +118,10 @@
 27,"UnmanagedForest","OC","Deforest",0.0106309255708818
 28,"UnmanagedForest","OC","Deforest",0
 29,"UnmanagedForest","OC","Deforest",0.206945200273365
-3,"UnmanagedForest","OC","Deforest",0
+2,"UnmanagedForest","OC","Deforest",0.0128755565196135
 31,"UnmanagedForest","OC","Deforest",0.00384716995492852
 32,"UnmanagedForest","OC","Deforest",0
+3,"UnmanagedForest","OC","Deforest",0
 4,"UnmanagedForest","OC","Deforest",0.0226053285063302
 5,"UnmanagedForest","OC","Deforest",0.106953525353115
 6,"UnmanagedForest","OC","Deforest",0.00336855280402406
