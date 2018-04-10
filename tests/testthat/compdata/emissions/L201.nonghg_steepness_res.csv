@@ -1,3 +1,7 @@
+INPUT_TABLE
+Variable ID
+GDPCtrlSteepRes
+
 region,depresource,Non.CO2,ctrl.name,steepness
 China,crude oil,SO2_2,GDP_control,3.5
 China,natural gas,SO2_2,GDP_control,3.5
@@ -69,6 +73,9 @@ EU-15,coal,NMVOC,GDP_control,3.5
 EU-15,coal,NOx,GDP_control,3.5
 EU-15,crude oil,NMVOC,GDP_control,3.5
 EU-15,natural gas,NMVOC,GDP_control,3.5
+European Free Trade Association,coal,CO,GDP_control,3.5
+European Free Trade Association,coal,NMVOC,GDP_control,3.5
+European Free Trade Association,coal,NOx,GDP_control,3.5
 Europe_Eastern,coal,CO,GDP_control,3.5
 Europe_Eastern,coal,NMVOC,GDP_control,3.5
 Europe_Eastern,coal,NOx,GDP_control,3.5
@@ -79,9 +86,6 @@ Europe_Non_EU,coal,NMVOC,GDP_control,3.5
 Europe_Non_EU,coal,NOx,GDP_control,3.5
 Europe_Non_EU,crude oil,NMVOC,GDP_control,3.5
 Europe_Non_EU,natural gas,NMVOC,GDP_control,3.5
-European Free Trade Association,coal,CO,GDP_control,3.5
-European Free Trade Association,coal,NMVOC,GDP_control,3.5
-European Free Trade Association,coal,NOx,GDP_control,3.5
 India,coal,CO,GDP_control,3.5
 India,coal,NMVOC,GDP_control,3.5
 India,coal,NOx,GDP_control,3.5
@@ -139,16 +143,16 @@ South America_Southern,natural gas,NOx,GDP_control,3.5
 South Asia,coal,CO,GDP_control,3.5
 South Asia,coal,NMVOC,GDP_control,3.5
 South Asia,coal,NOx,GDP_control,3.5
-South Korea,coal,CO,GDP_control,3.5
-South Korea,coal,NMVOC,GDP_control,3.5
-South Korea,coal,NOx,GDP_control,3.5
-South Korea,crude oil,NMVOC,GDP_control,3.5
-South Korea,natural gas,NMVOC,GDP_control,3.5
 Southeast Asia,coal,CO,GDP_control,3.5
 Southeast Asia,coal,NMVOC,GDP_control,3.5
 Southeast Asia,coal,NOx,GDP_control,3.5
 Southeast Asia,crude oil,NOx,GDP_control,3.5
 Southeast Asia,natural gas,NOx,GDP_control,3.5
+South Korea,coal,CO,GDP_control,3.5
+South Korea,coal,NMVOC,GDP_control,3.5
+South Korea,coal,NOx,GDP_control,3.5
+South Korea,crude oil,NMVOC,GDP_control,3.5
+South Korea,natural gas,NMVOC,GDP_control,3.5
 Taiwan,crude oil,NMVOC,GDP_control,3.5
 Taiwan,natural gas,NMVOC,GDP_control,3.5
 USA,coal,CO,GDP_control,3.5

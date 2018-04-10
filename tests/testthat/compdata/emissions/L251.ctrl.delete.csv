@@ -16,8 +16,8 @@ USA,resid heating,refined liquids,refined liquids,1975,SO2_1,GDP_control
 USA,resid others,refined liquids,refined liquids,1975,SO2_1,GDP_control
 USA,trn_freight,Domestic Ship,Liquids,1975,SO2_1,GDP_control
 USA,trn_freight,Freight Rail,Liquids,1975,SO2_1,GDP_control
-USA,trn_freight_road,Truck (>12t),Liquids,1975,SO2_1,GDP_control
 USA,trn_freight_road,Truck (0-2.7t),Liquids,1975,SO2_1,GDP_control
+USA,trn_freight_road,Truck (>12t),Liquids,1975,SO2_1,GDP_control
 USA,trn_freight_road,Truck (2.7-4.5t),Liquids,1975,SO2_1,GDP_control
 USA,trn_freight_road,Truck (4.5-12t),Liquids,1975,SO2_1,GDP_control
 USA,trn_pass,Domestic Aviation,Liquids,1975,SO2_1,GDP_control
@@ -43,9 +43,9 @@ China,resid others,biomass,biomass,1975,SO2_2,GDP_control
 China,resid others,refined liquids,refined liquids,1975,SO2_2,GDP_control
 China,trn_freight,Freight Rail,Liquids,1975,SO2_2,GDP_control
 China,trn_freight_road,3W Rural,Liquids,1975,SO2_2,GDP_control
-China,trn_freight_road,Truck (>14t),Liquids,1975,SO2_2,GDP_control
 China,trn_freight_road,Truck (0-2t),Liquids,1975,SO2_2,GDP_control
 China,trn_freight_road,Truck (0-6t),Liquids,1975,SO2_2,GDP_control
+China,trn_freight_road,Truck (>14t),Liquids,1975,SO2_2,GDP_control
 China,trn_freight_road,Truck (2-5t),Liquids,1975,SO2_2,GDP_control
 China,trn_freight_road,Truck (5-9t),Liquids,1975,SO2_2,GDP_control
 China,trn_freight_road,Truck (6-14t),Liquids,1975,SO2_2,GDP_control
@@ -82,9 +82,9 @@ EU-12,resid others,biomass,biomass,1975,SO2_1,GDP_control
 EU-12,resid others,refined liquids,refined liquids,1975,SO2_1,GDP_control
 EU-12,trn_freight,Domestic Ship,Liquids,1975,SO2_1,GDP_control
 EU-12,trn_freight,Freight Rail,Liquids,1975,SO2_1,GDP_control
-EU-12,trn_freight_road,Truck (>32t),Liquids,1975,SO2_1,GDP_control
 EU-12,trn_freight_road,Truck (0-3.5t),Liquids,1975,SO2_1,GDP_control
 EU-12,trn_freight_road,Truck (16-32t),Liquids,1975,SO2_1,GDP_control
+EU-12,trn_freight_road,Truck (>32t),Liquids,1975,SO2_1,GDP_control
 EU-12,trn_freight_road,Truck (3.5-16t),Liquids,1975,SO2_1,GDP_control
 EU-12,trn_pass,Domestic Aviation,Liquids,1975,SO2_1,GDP_control
 EU-12,trn_pass,Passenger Rail,Liquids,1975,SO2_1,GDP_control
@@ -114,11 +114,11 @@ EU-15,resid others,biomass,biomass,1975,SO2_1,GDP_control
 EU-15,resid others,refined liquids,refined liquids,1975,SO2_1,GDP_control
 EU-15,trn_freight,Domestic Ship,Liquids,1975,SO2_1,GDP_control
 EU-15,trn_freight,Freight Rail,Liquids,1975,SO2_1,GDP_control
-EU-15,trn_freight_road,Truck (>15t),Liquids,1975,SO2_1,GDP_control
-EU-15,trn_freight_road,Truck (>32t),Liquids,1975,SO2_1,GDP_control
 EU-15,trn_freight_road,Truck (0-1t),Liquids,1975,SO2_1,GDP_control
 EU-15,trn_freight_road,Truck (0-3.5t),Liquids,1975,SO2_1,GDP_control
+EU-15,trn_freight_road,Truck (>15t),Liquids,1975,SO2_1,GDP_control
 EU-15,trn_freight_road,Truck (16-32t),Liquids,1975,SO2_1,GDP_control
+EU-15,trn_freight_road,Truck (>32t),Liquids,1975,SO2_1,GDP_control
 EU-15,trn_freight_road,Truck (3.5-16t),Liquids,1975,SO2_1,GDP_control
 EU-15,trn_freight_road,Truck (6-15t),Liquids,1975,SO2_1,GDP_control
 EU-15,trn_pass,Domestic Aviation,Liquids,1975,SO2_1,GDP_control
@@ -146,9 +146,9 @@ Europe_Eastern,resid others,biomass,biomass,1975,SO2_1,GDP_control
 Europe_Eastern,resid others,refined liquids,refined liquids,1975,SO2_1,GDP_control
 Europe_Eastern,trn_freight,Freight Rail,Coal,1975,SO2_1,GDP_control
 Europe_Eastern,trn_freight,Freight Rail,Liquids,1975,SO2_1,GDP_control
-Europe_Eastern,trn_freight_road,Truck (>32t),Liquids,1975,SO2_1,GDP_control
 Europe_Eastern,trn_freight_road,Truck (0-3.5t),Liquids,1975,SO2_1,GDP_control
 Europe_Eastern,trn_freight_road,Truck (16-32t),Liquids,1975,SO2_1,GDP_control
+Europe_Eastern,trn_freight_road,Truck (>32t),Liquids,1975,SO2_1,GDP_control
 Europe_Eastern,trn_freight_road,Truck (3.5-16t),Liquids,1975,SO2_1,GDP_control
 Europe_Eastern,trn_pass,Domestic Aviation,Liquids,1975,SO2_1,GDP_control
 Europe_Eastern,trn_pass,Passenger Rail,Liquids,1975,SO2_1,GDP_control
@@ -177,9 +177,9 @@ Europe_Non_EU,resid others,biomass,biomass,1975,SO2_1,GDP_control
 Europe_Non_EU,resid others,refined liquids,refined liquids,1975,SO2_1,GDP_control
 Europe_Non_EU,trn_freight,Domestic Ship,Liquids,1975,SO2_1,GDP_control
 Europe_Non_EU,trn_freight,Freight Rail,Liquids,1975,SO2_1,GDP_control
-Europe_Non_EU,trn_freight_road,Truck (>32t),Liquids,1975,SO2_1,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (0-3.5t),Liquids,1975,SO2_1,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (16-32t),Liquids,1975,SO2_1,GDP_control
+Europe_Non_EU,trn_freight_road,Truck (>32t),Liquids,1975,SO2_1,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (3.5-16t),Liquids,1975,SO2_1,GDP_control
 Europe_Non_EU,trn_pass,Domestic Aviation,Liquids,1975,SO2_1,GDP_control
 Europe_Non_EU,trn_pass,Passenger Rail,Liquids,1975,SO2_1,GDP_control
@@ -278,8 +278,8 @@ Brazil,resid others,biomass,biomass,1975,SO2_3,GDP_control
 Brazil,resid others,refined liquids,refined liquids,1975,SO2_3,GDP_control
 Brazil,trn_freight,Domestic Ship,Liquids,1975,SO2_3,GDP_control
 Brazil,trn_freight,Freight Rail,Liquids,1975,SO2_3,GDP_control
-Brazil,trn_freight_road,Truck (>15t),Liquids,1975,SO2_3,GDP_control
 Brazil,trn_freight_road,Truck (0-1t),Liquids,1975,SO2_3,GDP_control
+Brazil,trn_freight_road,Truck (>15t),Liquids,1975,SO2_3,GDP_control
 Brazil,trn_freight_road,Truck (6-15t),Liquids,1975,SO2_3,GDP_control
 Brazil,trn_pass,Domestic Aviation,Liquids,1975,SO2_3,GDP_control
 Brazil,trn_pass,Passenger Rail,Liquids,1975,SO2_3,GDP_control
@@ -304,8 +304,8 @@ Canada,resid others,biomass,biomass,1975,SO2_1,GDP_control
 Canada,resid others,refined liquids,refined liquids,1975,SO2_1,GDP_control
 Canada,trn_freight,Domestic Ship,Liquids,1975,SO2_1,GDP_control
 Canada,trn_freight,Freight Rail,Liquids,1975,SO2_1,GDP_control
-Canada,trn_freight_road,Truck (>15t),Liquids,1975,SO2_1,GDP_control
 Canada,trn_freight_road,Truck (0-4.5t),Liquids,1975,SO2_1,GDP_control
+Canada,trn_freight_road,Truck (>15t),Liquids,1975,SO2_1,GDP_control
 Canada,trn_freight_road,Truck (4.5-15t),Liquids,1975,SO2_1,GDP_control
 Canada,trn_pass,Domestic Aviation,Liquids,1975,SO2_1,GDP_control
 Canada,trn_pass,Passenger Rail,Liquids,1975,SO2_1,GDP_control
@@ -330,11 +330,11 @@ Central America and Caribbean,resid heating,refined liquids,refined liquids,1975
 Central America and Caribbean,resid others,biomass,biomass,1975,SO2_3,GDP_control
 Central America and Caribbean,resid others,refined liquids,refined liquids,1975,SO2_3,GDP_control
 Central America and Caribbean,trn_freight,Domestic Ship,Liquids,1975,SO2_3,GDP_control
-Central America and Caribbean,trn_freight_road,Truck (>15t),Liquids,1975,SO2_3,GDP_control
-Central America and Caribbean,trn_freight_road,Truck (>32t),Liquids,1975,SO2_3,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (0-1t),Liquids,1975,SO2_3,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (0-3.5t),Liquids,1975,SO2_3,GDP_control
+Central America and Caribbean,trn_freight_road,Truck (>15t),Liquids,1975,SO2_3,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (16-32t),Liquids,1975,SO2_3,GDP_control
+Central America and Caribbean,trn_freight_road,Truck (>32t),Liquids,1975,SO2_3,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (3.5-16t),Liquids,1975,SO2_3,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (6-15t),Liquids,1975,SO2_3,GDP_control
 Central America and Caribbean,trn_pass,Domestic Aviation,Liquids,1975,SO2_3,GDP_control
@@ -359,11 +359,11 @@ Central Asia,resid others,refined liquids,refined liquids,1975,SO2_2,GDP_control
 Central Asia,trn_freight,Domestic Ship,Liquids,1975,SO2_2,GDP_control
 Central Asia,trn_freight,Freight Rail,Liquids,1975,SO2_2,GDP_control
 Central Asia,trn_freight_road,3W Rural,Liquids,1975,SO2_2,GDP_control
-Central Asia,trn_freight_road,Truck (>14t),Liquids,1975,SO2_2,GDP_control
-Central Asia,trn_freight_road,Truck (>32t),Liquids,1975,SO2_2,GDP_control
 Central Asia,trn_freight_road,Truck (0-3.5t),Liquids,1975,SO2_2,GDP_control
 Central Asia,trn_freight_road,Truck (0-6t),Liquids,1975,SO2_2,GDP_control
+Central Asia,trn_freight_road,Truck (>14t),Liquids,1975,SO2_2,GDP_control
 Central Asia,trn_freight_road,Truck (16-32t),Liquids,1975,SO2_2,GDP_control
+Central Asia,trn_freight_road,Truck (>32t),Liquids,1975,SO2_2,GDP_control
 Central Asia,trn_freight_road,Truck (3.5-16t),Liquids,1975,SO2_2,GDP_control
 Central Asia,trn_freight_road,Truck (6-14t),Liquids,1975,SO2_2,GDP_control
 Central Asia,trn_pass,Domestic Aviation,Liquids,1975,SO2_2,GDP_control
@@ -434,8 +434,8 @@ Mexico,industrial energy use,coal,coal,1975,SO2_3,GDP_control
 Mexico,industrial energy use,refined liquids,refined liquids,1975,SO2_3,GDP_control
 Mexico,resid heating,refined liquids,refined liquids,1975,SO2_3,GDP_control
 Mexico,resid others,refined liquids,refined liquids,1975,SO2_3,GDP_control
-Mexico,trn_freight_road,Truck (>15t),Liquids,1975,SO2_3,GDP_control
 Mexico,trn_freight_road,Truck (0-1t),Liquids,1975,SO2_3,GDP_control
+Mexico,trn_freight_road,Truck (>15t),Liquids,1975,SO2_3,GDP_control
 Mexico,trn_freight_road,Truck (6-15t),Liquids,1975,SO2_3,GDP_control
 Mexico,trn_pass_road,Bus,Liquids,1975,SO2_3,GDP_control
 Mexico,trn_pass_road_LDV_2W,Moped,Liquids,1975,SO2_3,GDP_control
@@ -480,9 +480,9 @@ Russia,resid others,biomass,biomass,1975,SO2_4,GDP_control
 Russia,resid others,refined liquids,refined liquids,1975,SO2_4,GDP_control
 Russia,trn_freight,Domestic Ship,Liquids,1975,SO2_4,GDP_control
 Russia,trn_freight,Freight Rail,Liquids,1975,SO2_4,GDP_control
-Russia,trn_freight_road,Truck (>32t),Liquids,1975,SO2_4,GDP_control
 Russia,trn_freight_road,Truck (0-3.5t),Liquids,1975,SO2_4,GDP_control
 Russia,trn_freight_road,Truck (16-32t),Liquids,1975,SO2_4,GDP_control
+Russia,trn_freight_road,Truck (>32t),Liquids,1975,SO2_4,GDP_control
 Russia,trn_freight_road,Truck (3.5-16t),Liquids,1975,SO2_4,GDP_control
 Russia,trn_pass,Domestic Aviation,Liquids,1975,SO2_4,GDP_control
 Russia,trn_pass,Passenger Rail,Liquids,1975,SO2_4,GDP_control
@@ -531,8 +531,8 @@ South America_Southern,resid others,biomass,biomass,1975,SO2_3,GDP_control
 South America_Southern,resid others,refined liquids,refined liquids,1975,SO2_3,GDP_control
 South America_Southern,trn_freight,Domestic Ship,Liquids,1975,SO2_3,GDP_control
 South America_Southern,trn_freight,Freight Rail,Liquids,1975,SO2_3,GDP_control
-South America_Southern,trn_freight_road,Truck (>15t),Liquids,1975,SO2_3,GDP_control
 South America_Southern,trn_freight_road,Truck (0-1t),Liquids,1975,SO2_3,GDP_control
+South America_Southern,trn_freight_road,Truck (>15t),Liquids,1975,SO2_3,GDP_control
 South America_Southern,trn_freight_road,Truck (6-15t),Liquids,1975,SO2_3,GDP_control
 South America_Southern,trn_pass,Domestic Aviation,Liquids,1975,SO2_3,GDP_control
 South America_Southern,trn_pass,Passenger Rail,Liquids,1975,SO2_3,GDP_control
@@ -582,9 +582,9 @@ Southeast Asia,resid heating,refined liquids,refined liquids,1975,SO2_2,GDP_cont
 Southeast Asia,resid others,refined liquids,refined liquids,1975,SO2_2,GDP_control
 Southeast Asia,trn_freight,Domestic Ship,Liquids,1975,SO2_2,GDP_control
 Southeast Asia,trn_freight_road,3W Rural,Liquids,1975,SO2_2,GDP_control
-Southeast Asia,trn_freight_road,Truck (>14t),Liquids,1975,SO2_2,GDP_control
 Southeast Asia,trn_freight_road,Truck (0-2t),Liquids,1975,SO2_2,GDP_control
 Southeast Asia,trn_freight_road,Truck (0-6t),Liquids,1975,SO2_2,GDP_control
+Southeast Asia,trn_freight_road,Truck (>14t),Liquids,1975,SO2_2,GDP_control
 Southeast Asia,trn_freight_road,Truck (2-5t),Liquids,1975,SO2_2,GDP_control
 Southeast Asia,trn_freight_road,Truck (5-9t),Liquids,1975,SO2_2,GDP_control
 Southeast Asia,trn_freight_road,Truck (6-14t),Liquids,1975,SO2_2,GDP_control
@@ -643,8 +643,8 @@ Argentina,resid heating,refined liquids,refined liquids,1975,SO2_3,GDP_control
 Argentina,resid others,biomass,biomass,1975,SO2_3,GDP_control
 Argentina,resid others,refined liquids,refined liquids,1975,SO2_3,GDP_control
 Argentina,trn_freight,Domestic Ship,Liquids,1975,SO2_3,GDP_control
-Argentina,trn_freight_road,Truck (>15t),Liquids,1975,SO2_3,GDP_control
 Argentina,trn_freight_road,Truck (0-1t),Liquids,1975,SO2_3,GDP_control
+Argentina,trn_freight_road,Truck (>15t),Liquids,1975,SO2_3,GDP_control
 Argentina,trn_freight_road,Truck (6-15t),Liquids,1975,SO2_3,GDP_control
 Argentina,trn_pass,Domestic Aviation,Liquids,1975,SO2_3,GDP_control
 Argentina,trn_pass_road,Bus,Liquids,1975,SO2_3,GDP_control
@@ -669,8 +669,8 @@ Colombia,resid heating,refined liquids,refined liquids,1975,SO2_3,GDP_control
 Colombia,resid others,biomass,biomass,1975,SO2_3,GDP_control
 Colombia,resid others,refined liquids,refined liquids,1975,SO2_3,GDP_control
 Colombia,trn_freight,Freight Rail,Liquids,1975,SO2_3,GDP_control
-Colombia,trn_freight_road,Truck (>15t),Liquids,1975,SO2_3,GDP_control
 Colombia,trn_freight_road,Truck (0-1t),Liquids,1975,SO2_3,GDP_control
+Colombia,trn_freight_road,Truck (>15t),Liquids,1975,SO2_3,GDP_control
 Colombia,trn_freight_road,Truck (6-15t),Liquids,1975,SO2_3,GDP_control
 Colombia,trn_pass,Passenger Rail,Liquids,1975,SO2_3,GDP_control
 Colombia,trn_pass_road,Bus,Liquids,1975,SO2_3,GDP_control
@@ -854,8 +854,8 @@ USA,resid heating,biomass,biomass,1975,CO,GDP_control
 USA,resid others,biomass,biomass,1975,CO,GDP_control
 USA,trn_freight,Domestic Ship,Liquids,1975,CO,GDP_control
 USA,trn_freight,Freight Rail,Liquids,1975,CO,GDP_control
-USA,trn_freight_road,Truck (>12t),Liquids,1975,CO,GDP_control
 USA,trn_freight_road,Truck (0-2.7t),Liquids,1975,CO,GDP_control
+USA,trn_freight_road,Truck (>12t),Liquids,1975,CO,GDP_control
 USA,trn_freight_road,Truck (2.7-4.5t),Liquids,1975,CO,GDP_control
 USA,trn_freight_road,Truck (4.5-12t),Liquids,1975,CO,GDP_control
 USA,trn_pass,Passenger Rail,Liquids,1975,CO,GDP_control
@@ -882,8 +882,8 @@ USA,resid heating,biomass,biomass,1975,NMVOC,GDP_control
 USA,resid others,biomass,biomass,1975,NMVOC,GDP_control
 USA,trn_freight,Domestic Ship,Liquids,1975,NMVOC,GDP_control
 USA,trn_freight,Freight Rail,Liquids,1975,NMVOC,GDP_control
-USA,trn_freight_road,Truck (>12t),Liquids,1975,NMVOC,GDP_control
 USA,trn_freight_road,Truck (0-2.7t),Liquids,1975,NMVOC,GDP_control
+USA,trn_freight_road,Truck (>12t),Liquids,1975,NMVOC,GDP_control
 USA,trn_freight_road,Truck (2.7-4.5t),Liquids,1975,NMVOC,GDP_control
 USA,trn_freight_road,Truck (4.5-12t),Liquids,1975,NMVOC,GDP_control
 USA,trn_pass,Domestic Aviation,Liquids,1975,NMVOC,GDP_control
@@ -917,8 +917,8 @@ USA,resid others,gas,gas,1975,NOx,GDP_control
 USA,resid others,refined liquids,refined liquids,1975,NOx,GDP_control
 USA,trn_freight,Domestic Ship,Liquids,1975,NOx,GDP_control
 USA,trn_freight,Freight Rail,Liquids,1975,NOx,GDP_control
-USA,trn_freight_road,Truck (>12t),Liquids,1975,NOx,GDP_control
 USA,trn_freight_road,Truck (0-2.7t),Liquids,1975,NOx,GDP_control
+USA,trn_freight_road,Truck (>12t),Liquids,1975,NOx,GDP_control
 USA,trn_freight_road,Truck (2.7-4.5t),Liquids,1975,NOx,GDP_control
 USA,trn_freight_road,Truck (4.5-12t),Liquids,1975,NOx,GDP_control
 USA,trn_pass,Domestic Aviation,Liquids,1975,NOx,GDP_control
@@ -950,9 +950,9 @@ China,resid others,traditional biomass,traditional biomass,1975,CO,GDP_control
 China,trn_freight,Freight Rail,Coal,1975,CO,GDP_control
 China,trn_freight,Freight Rail,Liquids,1975,CO,GDP_control
 China,trn_freight_road,3W Rural,Liquids,1975,CO,GDP_control
-China,trn_freight_road,Truck (>14t),Liquids,1975,CO,GDP_control
 China,trn_freight_road,Truck (0-2t),Liquids,1975,CO,GDP_control
 China,trn_freight_road,Truck (0-6t),Liquids,1975,CO,GDP_control
+China,trn_freight_road,Truck (>14t),Liquids,1975,CO,GDP_control
 China,trn_freight_road,Truck (2-5t),Liquids,1975,CO,GDP_control
 China,trn_freight_road,Truck (5-9t),Liquids,1975,CO,GDP_control
 China,trn_freight_road,Truck (6-14t),Liquids,1975,CO,GDP_control
@@ -986,9 +986,9 @@ China,resid others,biomass,biomass,1975,NMVOC,GDP_control
 China,trn_freight,Freight Rail,Coal,1975,NMVOC,GDP_control
 China,trn_freight,Freight Rail,Liquids,1975,NMVOC,GDP_control
 China,trn_freight_road,3W Rural,Liquids,1975,NMVOC,GDP_control
-China,trn_freight_road,Truck (>14t),Liquids,1975,NMVOC,GDP_control
 China,trn_freight_road,Truck (0-2t),Liquids,1975,NMVOC,GDP_control
 China,trn_freight_road,Truck (0-6t),Liquids,1975,NMVOC,GDP_control
+China,trn_freight_road,Truck (>14t),Liquids,1975,NMVOC,GDP_control
 China,trn_freight_road,Truck (2-5t),Liquids,1975,NMVOC,GDP_control
 China,trn_freight_road,Truck (5-9t),Liquids,1975,NMVOC,GDP_control
 China,trn_freight_road,Truck (6-14t),Liquids,1975,NMVOC,GDP_control
@@ -1027,9 +1027,9 @@ China,resid others,traditional biomass,traditional biomass,1975,NOx,GDP_control
 China,trn_freight,Freight Rail,Coal,1975,NOx,GDP_control
 China,trn_freight,Freight Rail,Liquids,1975,NOx,GDP_control
 China,trn_freight_road,3W Rural,Liquids,1975,NOx,GDP_control
-China,trn_freight_road,Truck (>14t),Liquids,1975,NOx,GDP_control
 China,trn_freight_road,Truck (0-2t),Liquids,1975,NOx,GDP_control
 China,trn_freight_road,Truck (0-6t),Liquids,1975,NOx,GDP_control
+China,trn_freight_road,Truck (>14t),Liquids,1975,NOx,GDP_control
 China,trn_freight_road,Truck (2-5t),Liquids,1975,NOx,GDP_control
 China,trn_freight_road,Truck (5-9t),Liquids,1975,NOx,GDP_control
 China,trn_freight_road,Truck (6-14t),Liquids,1975,NOx,GDP_control
@@ -1066,9 +1066,9 @@ EU-12,resid heating,biomass,biomass,1975,CO,GDP_control
 EU-12,resid others,biomass,biomass,1975,CO,GDP_control
 EU-12,trn_freight,Domestic Ship,Liquids,1975,CO,GDP_control
 EU-12,trn_freight,Freight Rail,Liquids,1975,CO,GDP_control
-EU-12,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 EU-12,trn_freight_road,Truck (0-3.5t),Liquids,1975,CO,GDP_control
 EU-12,trn_freight_road,Truck (16-32t),Liquids,1975,CO,GDP_control
+EU-12,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 EU-12,trn_freight_road,Truck (3.5-16t),Liquids,1975,CO,GDP_control
 EU-12,trn_pass,Passenger Rail,Liquids,1975,CO,GDP_control
 EU-12,trn_pass_road,Bus,Liquids,1975,CO,GDP_control
@@ -1096,9 +1096,9 @@ EU-12,resid heating,biomass,biomass,1975,NMVOC,GDP_control
 EU-12,resid others,biomass,biomass,1975,NMVOC,GDP_control
 EU-12,trn_freight,Domestic Ship,Liquids,1975,NMVOC,GDP_control
 EU-12,trn_freight,Freight Rail,Liquids,1975,NMVOC,GDP_control
-EU-12,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 EU-12,trn_freight_road,Truck (0-3.5t),Liquids,1975,NMVOC,GDP_control
 EU-12,trn_freight_road,Truck (16-32t),Liquids,1975,NMVOC,GDP_control
+EU-12,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 EU-12,trn_freight_road,Truck (3.5-16t),Liquids,1975,NMVOC,GDP_control
 EU-12,trn_pass,Passenger Rail,Liquids,1975,NMVOC,GDP_control
 EU-12,trn_pass_road,Bus,Liquids,1975,NMVOC,GDP_control
@@ -1132,9 +1132,9 @@ EU-12,resid others,gas,gas,1975,NOx,GDP_control
 EU-12,resid others,refined liquids,refined liquids,1975,NOx,GDP_control
 EU-12,trn_freight,Domestic Ship,Liquids,1975,NOx,GDP_control
 EU-12,trn_freight,Freight Rail,Liquids,1975,NOx,GDP_control
-EU-12,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 EU-12,trn_freight_road,Truck (0-3.5t),Liquids,1975,NOx,GDP_control
 EU-12,trn_freight_road,Truck (16-32t),Liquids,1975,NOx,GDP_control
+EU-12,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 EU-12,trn_freight_road,Truck (3.5-16t),Liquids,1975,NOx,GDP_control
 EU-12,trn_pass,Domestic Aviation,Liquids,1975,NOx,GDP_control
 EU-12,trn_pass,Passenger Rail,Liquids,1975,NOx,GDP_control
@@ -1168,11 +1168,11 @@ EU-15,resid heating,biomass,biomass,1975,CO,GDP_control
 EU-15,resid others,biomass,biomass,1975,CO,GDP_control
 EU-15,trn_freight,Domestic Ship,Liquids,1975,CO,GDP_control
 EU-15,trn_freight,Freight Rail,Liquids,1975,CO,GDP_control
-EU-15,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
-EU-15,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 EU-15,trn_freight_road,Truck (0-1t),Liquids,1975,CO,GDP_control
 EU-15,trn_freight_road,Truck (0-3.5t),Liquids,1975,CO,GDP_control
+EU-15,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
 EU-15,trn_freight_road,Truck (16-32t),Liquids,1975,CO,GDP_control
+EU-15,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 EU-15,trn_freight_road,Truck (3.5-16t),Liquids,1975,CO,GDP_control
 EU-15,trn_freight_road,Truck (6-15t),Liquids,1975,CO,GDP_control
 EU-15,trn_pass,Passenger Rail,Liquids,1975,CO,GDP_control
@@ -1186,6 +1186,7 @@ EU-15,trn_pass_road_LDV_4W,Mini Car,Liquids,1975,CO,GDP_control
 EU-15,trn_pass_road_LDV_4W,Subcompact Car,Liquids,1975,CO,GDP_control
 EU-15,trn_pass_road_LDV_4W,Van,Liquids,1975,CO,GDP_control
 EU-15,trn_shipping_intl,International Ship,Liquids,1975,CO,GDP_control
+EU-15,comm cooling,gas,gas,1975,NMVOC,GDP_control
 EU-15,comm heating,biomass,biomass,1975,NMVOC,GDP_control
 EU-15,comm heating,coal,coal,1975,NMVOC,GDP_control
 EU-15,comm heating,gas,gas,1975,NMVOC,GDP_control
@@ -1202,11 +1203,11 @@ EU-15,resid heating,biomass,biomass,1975,NMVOC,GDP_control
 EU-15,resid others,biomass,biomass,1975,NMVOC,GDP_control
 EU-15,trn_freight,Domestic Ship,Liquids,1975,NMVOC,GDP_control
 EU-15,trn_freight,Freight Rail,Liquids,1975,NMVOC,GDP_control
-EU-15,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
-EU-15,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 EU-15,trn_freight_road,Truck (0-1t),Liquids,1975,NMVOC,GDP_control
 EU-15,trn_freight_road,Truck (0-3.5t),Liquids,1975,NMVOC,GDP_control
+EU-15,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
 EU-15,trn_freight_road,Truck (16-32t),Liquids,1975,NMVOC,GDP_control
+EU-15,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 EU-15,trn_freight_road,Truck (3.5-16t),Liquids,1975,NMVOC,GDP_control
 EU-15,trn_freight_road,Truck (6-15t),Liquids,1975,NMVOC,GDP_control
 EU-15,trn_pass,Domestic Aviation,Liquids,1975,NMVOC,GDP_control
@@ -1245,11 +1246,11 @@ EU-15,resid others,gas,gas,1975,NOx,GDP_control
 EU-15,resid others,refined liquids,refined liquids,1975,NOx,GDP_control
 EU-15,trn_freight,Domestic Ship,Liquids,1975,NOx,GDP_control
 EU-15,trn_freight,Freight Rail,Liquids,1975,NOx,GDP_control
-EU-15,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
-EU-15,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 EU-15,trn_freight_road,Truck (0-1t),Liquids,1975,NOx,GDP_control
 EU-15,trn_freight_road,Truck (0-3.5t),Liquids,1975,NOx,GDP_control
+EU-15,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
 EU-15,trn_freight_road,Truck (16-32t),Liquids,1975,NOx,GDP_control
+EU-15,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 EU-15,trn_freight_road,Truck (3.5-16t),Liquids,1975,NOx,GDP_control
 EU-15,trn_freight_road,Truck (6-15t),Liquids,1975,NOx,GDP_control
 EU-15,trn_pass,Domestic Aviation,Liquids,1975,NOx,GDP_control
@@ -1280,9 +1281,9 @@ Europe_Eastern,resid heating,biomass,biomass,1975,CO,GDP_control
 Europe_Eastern,resid others,biomass,biomass,1975,CO,GDP_control
 Europe_Eastern,trn_freight,Freight Rail,Coal,1975,CO,GDP_control
 Europe_Eastern,trn_freight,Freight Rail,Liquids,1975,CO,GDP_control
-Europe_Eastern,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 Europe_Eastern,trn_freight_road,Truck (0-3.5t),Liquids,1975,CO,GDP_control
 Europe_Eastern,trn_freight_road,Truck (16-32t),Liquids,1975,CO,GDP_control
+Europe_Eastern,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 Europe_Eastern,trn_freight_road,Truck (3.5-16t),Liquids,1975,CO,GDP_control
 Europe_Eastern,trn_pass,Passenger Rail,Liquids,1975,CO,GDP_control
 Europe_Eastern,trn_pass_road,Bus,Liquids,1975,CO,GDP_control
@@ -1307,9 +1308,9 @@ Europe_Eastern,resid heating,biomass,biomass,1975,NMVOC,GDP_control
 Europe_Eastern,resid others,biomass,biomass,1975,NMVOC,GDP_control
 Europe_Eastern,trn_freight,Freight Rail,Coal,1975,NMVOC,GDP_control
 Europe_Eastern,trn_freight,Freight Rail,Liquids,1975,NMVOC,GDP_control
-Europe_Eastern,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 Europe_Eastern,trn_freight_road,Truck (0-3.5t),Liquids,1975,NMVOC,GDP_control
 Europe_Eastern,trn_freight_road,Truck (16-32t),Liquids,1975,NMVOC,GDP_control
+Europe_Eastern,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 Europe_Eastern,trn_freight_road,Truck (3.5-16t),Liquids,1975,NMVOC,GDP_control
 Europe_Eastern,trn_pass,Passenger Rail,Liquids,1975,NMVOC,GDP_control
 Europe_Eastern,trn_pass_road,Bus,Liquids,1975,NMVOC,GDP_control
@@ -1339,9 +1340,9 @@ Europe_Eastern,resid others,gas,gas,1975,NOx,GDP_control
 Europe_Eastern,resid others,refined liquids,refined liquids,1975,NOx,GDP_control
 Europe_Eastern,trn_freight,Freight Rail,Coal,1975,NOx,GDP_control
 Europe_Eastern,trn_freight,Freight Rail,Liquids,1975,NOx,GDP_control
-Europe_Eastern,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 Europe_Eastern,trn_freight_road,Truck (0-3.5t),Liquids,1975,NOx,GDP_control
 Europe_Eastern,trn_freight_road,Truck (16-32t),Liquids,1975,NOx,GDP_control
+Europe_Eastern,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 Europe_Eastern,trn_freight_road,Truck (3.5-16t),Liquids,1975,NOx,GDP_control
 Europe_Eastern,trn_pass,Domestic Aviation,Liquids,1975,NOx,GDP_control
 Europe_Eastern,trn_pass,Passenger Rail,Liquids,1975,NOx,GDP_control
@@ -1373,9 +1374,9 @@ Europe_Non_EU,resid heating,biomass,biomass,1975,CO,GDP_control
 Europe_Non_EU,resid others,biomass,biomass,1975,CO,GDP_control
 Europe_Non_EU,trn_freight,Domestic Ship,Liquids,1975,CO,GDP_control
 Europe_Non_EU,trn_freight,Freight Rail,Liquids,1975,CO,GDP_control
-Europe_Non_EU,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (0-3.5t),Liquids,1975,CO,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (16-32t),Liquids,1975,CO,GDP_control
+Europe_Non_EU,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (3.5-16t),Liquids,1975,CO,GDP_control
 Europe_Non_EU,trn_pass,Passenger Rail,Liquids,1975,CO,GDP_control
 Europe_Non_EU,trn_pass_road,Bus,Liquids,1975,CO,GDP_control
@@ -1403,9 +1404,9 @@ Europe_Non_EU,resid heating,biomass,biomass,1975,NMVOC,GDP_control
 Europe_Non_EU,resid others,biomass,biomass,1975,NMVOC,GDP_control
 Europe_Non_EU,trn_freight,Domestic Ship,Liquids,1975,NMVOC,GDP_control
 Europe_Non_EU,trn_freight,Freight Rail,Liquids,1975,NMVOC,GDP_control
-Europe_Non_EU,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (0-3.5t),Liquids,1975,NMVOC,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (16-32t),Liquids,1975,NMVOC,GDP_control
+Europe_Non_EU,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (3.5-16t),Liquids,1975,NMVOC,GDP_control
 Europe_Non_EU,trn_pass,Domestic Aviation,Liquids,1975,NMVOC,GDP_control
 Europe_Non_EU,trn_pass,Passenger Rail,Liquids,1975,NMVOC,GDP_control
@@ -1439,9 +1440,9 @@ Europe_Non_EU,resid others,gas,gas,1975,NOx,GDP_control
 Europe_Non_EU,resid others,refined liquids,refined liquids,1975,NOx,GDP_control
 Europe_Non_EU,trn_freight,Domestic Ship,Liquids,1975,NOx,GDP_control
 Europe_Non_EU,trn_freight,Freight Rail,Liquids,1975,NOx,GDP_control
-Europe_Non_EU,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (0-3.5t),Liquids,1975,NOx,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (16-32t),Liquids,1975,NOx,GDP_control
+Europe_Non_EU,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (3.5-16t),Liquids,1975,NOx,GDP_control
 Europe_Non_EU,trn_pass,Domestic Aviation,Liquids,1975,NOx,GDP_control
 Europe_Non_EU,trn_pass,Passenger Rail,Liquids,1975,NOx,GDP_control
@@ -1551,8 +1552,8 @@ USA,resid others,coal,coal,1975,BC,GDP_control
 USA,resid others,gas,gas,1975,BC,GDP_control
 USA,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 USA,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
-USA,trn_freight_road,Truck (>12t),Liquids,1975,BC,GDP_control
 USA,trn_freight_road,Truck (0-2.7t),Liquids,1975,BC,GDP_control
+USA,trn_freight_road,Truck (>12t),Liquids,1975,BC,GDP_control
 USA,trn_freight_road,Truck (2.7-4.5t),Liquids,1975,BC,GDP_control
 USA,trn_freight_road,Truck (4.5-12t),Liquids,1975,BC,GDP_control
 USA,trn_pass,Domestic Aviation,Liquids,1975,BC,GDP_control
@@ -1585,8 +1586,8 @@ USA,resid others,coal,coal,1975,OC,GDP_control
 USA,resid others,gas,gas,1975,OC,GDP_control
 USA,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 USA,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
-USA,trn_freight_road,Truck (>12t),Liquids,1975,OC,GDP_control
 USA,trn_freight_road,Truck (0-2.7t),Liquids,1975,OC,GDP_control
+USA,trn_freight_road,Truck (>12t),Liquids,1975,OC,GDP_control
 USA,trn_freight_road,Truck (2.7-4.5t),Liquids,1975,OC,GDP_control
 USA,trn_freight_road,Truck (4.5-12t),Liquids,1975,OC,GDP_control
 USA,trn_pass,Domestic Aviation,Liquids,1975,OC,GDP_control
@@ -1612,9 +1613,9 @@ China,resid others,traditional biomass,traditional biomass,1975,BC,GDP_control
 China,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 China,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
 China,trn_freight_road,3W Rural,Liquids,1975,BC,GDP_control
-China,trn_freight_road,Truck (>14t),Liquids,1975,BC,GDP_control
 China,trn_freight_road,Truck (0-2t),Liquids,1975,BC,GDP_control
 China,trn_freight_road,Truck (0-6t),Liquids,1975,BC,GDP_control
+China,trn_freight_road,Truck (>14t),Liquids,1975,BC,GDP_control
 China,trn_freight_road,Truck (2-5t),Liquids,1975,BC,GDP_control
 China,trn_freight_road,Truck (5-9t),Liquids,1975,BC,GDP_control
 China,trn_freight_road,Truck (6-14t),Liquids,1975,BC,GDP_control
@@ -1657,9 +1658,9 @@ China,resid others,traditional biomass,traditional biomass,1975,OC,GDP_control
 China,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 China,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
 China,trn_freight_road,3W Rural,Liquids,1975,OC,GDP_control
-China,trn_freight_road,Truck (>14t),Liquids,1975,OC,GDP_control
 China,trn_freight_road,Truck (0-2t),Liquids,1975,OC,GDP_control
 China,trn_freight_road,Truck (0-6t),Liquids,1975,OC,GDP_control
+China,trn_freight_road,Truck (>14t),Liquids,1975,OC,GDP_control
 China,trn_freight_road,Truck (2-5t),Liquids,1975,OC,GDP_control
 China,trn_freight_road,Truck (5-9t),Liquids,1975,OC,GDP_control
 China,trn_freight_road,Truck (6-14t),Liquids,1975,OC,GDP_control
@@ -1686,9 +1687,9 @@ EU-12,resid others,coal,coal,1975,BC,GDP_control
 EU-12,resid others,gas,gas,1975,BC,GDP_control
 EU-12,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 EU-12,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
-EU-12,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 EU-12,trn_freight_road,Truck (0-3.5t),Liquids,1975,BC,GDP_control
 EU-12,trn_freight_road,Truck (16-32t),Liquids,1975,BC,GDP_control
+EU-12,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 EU-12,trn_freight_road,Truck (3.5-16t),Liquids,1975,BC,GDP_control
 EU-12,trn_pass,Domestic Aviation,Liquids,1975,BC,GDP_control
 EU-12,trn_pass,Passenger Rail,Liquids,1975,BC,GDP_control
@@ -1724,9 +1725,9 @@ EU-12,resid others,coal,coal,1975,OC,GDP_control
 EU-12,resid others,gas,gas,1975,OC,GDP_control
 EU-12,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 EU-12,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
-EU-12,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 EU-12,trn_freight_road,Truck (0-3.5t),Liquids,1975,OC,GDP_control
 EU-12,trn_freight_road,Truck (16-32t),Liquids,1975,OC,GDP_control
+EU-12,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 EU-12,trn_freight_road,Truck (3.5-16t),Liquids,1975,OC,GDP_control
 EU-12,trn_pass,Domestic Aviation,Liquids,1975,OC,GDP_control
 EU-12,trn_shipping_intl,International Ship,Liquids,1975,OC,GDP_control
@@ -1748,11 +1749,11 @@ EU-15,resid others,biomass,biomass,1975,BC,GDP_control
 EU-15,resid others,gas,gas,1975,BC,GDP_control
 EU-15,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 EU-15,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
-EU-15,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
-EU-15,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 EU-15,trn_freight_road,Truck (0-1t),Liquids,1975,BC,GDP_control
 EU-15,trn_freight_road,Truck (0-3.5t),Liquids,1975,BC,GDP_control
+EU-15,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
 EU-15,trn_freight_road,Truck (16-32t),Liquids,1975,BC,GDP_control
+EU-15,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 EU-15,trn_freight_road,Truck (3.5-16t),Liquids,1975,BC,GDP_control
 EU-15,trn_freight_road,Truck (6-15t),Liquids,1975,BC,GDP_control
 EU-15,trn_pass,Domestic Aviation,Liquids,1975,BC,GDP_control
@@ -1788,11 +1789,11 @@ EU-15,resid others,biomass,biomass,1975,OC,GDP_control
 EU-15,resid others,gas,gas,1975,OC,GDP_control
 EU-15,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 EU-15,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
-EU-15,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
-EU-15,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 EU-15,trn_freight_road,Truck (0-1t),Liquids,1975,OC,GDP_control
 EU-15,trn_freight_road,Truck (0-3.5t),Liquids,1975,OC,GDP_control
+EU-15,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
 EU-15,trn_freight_road,Truck (16-32t),Liquids,1975,OC,GDP_control
+EU-15,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 EU-15,trn_freight_road,Truck (3.5-16t),Liquids,1975,OC,GDP_control
 EU-15,trn_freight_road,Truck (6-15t),Liquids,1975,OC,GDP_control
 EU-15,trn_pass,Domestic Aviation,Liquids,1975,OC,GDP_control
@@ -1814,9 +1815,9 @@ Europe_Eastern,resid others,coal,coal,1975,BC,GDP_control
 Europe_Eastern,resid others,gas,gas,1975,BC,GDP_control
 Europe_Eastern,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 Europe_Eastern,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
-Europe_Eastern,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 Europe_Eastern,trn_freight_road,Truck (0-3.5t),Liquids,1975,BC,GDP_control
 Europe_Eastern,trn_freight_road,Truck (16-32t),Liquids,1975,BC,GDP_control
+Europe_Eastern,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 Europe_Eastern,trn_freight_road,Truck (3.5-16t),Liquids,1975,BC,GDP_control
 Europe_Eastern,trn_pass,Domestic Aviation,Liquids,1975,BC,GDP_control
 Europe_Eastern,trn_pass,Passenger Rail,Liquids,1975,BC,GDP_control
@@ -1849,9 +1850,9 @@ Europe_Eastern,resid others,gas,gas,1975,OC,GDP_control
 Europe_Eastern,resid others,refined liquids,refined liquids,1975,OC,GDP_control
 Europe_Eastern,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 Europe_Eastern,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
-Europe_Eastern,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 Europe_Eastern,trn_freight_road,Truck (0-3.5t),Liquids,1975,OC,GDP_control
 Europe_Eastern,trn_freight_road,Truck (16-32t),Liquids,1975,OC,GDP_control
+Europe_Eastern,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 Europe_Eastern,trn_freight_road,Truck (3.5-16t),Liquids,1975,OC,GDP_control
 Europe_Eastern,trn_pass,Domestic Aviation,Liquids,1975,OC,GDP_control
 Europe_Eastern,trn_pass,Passenger Rail,Liquids,1975,OC,GDP_control
@@ -1882,9 +1883,9 @@ Europe_Non_EU,resid others,biomass,biomass,1975,BC,GDP_control
 Europe_Non_EU,resid others,gas,gas,1975,BC,GDP_control
 Europe_Non_EU,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 Europe_Non_EU,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
-Europe_Non_EU,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (0-3.5t),Liquids,1975,BC,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (16-32t),Liquids,1975,BC,GDP_control
+Europe_Non_EU,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (3.5-16t),Liquids,1975,BC,GDP_control
 Europe_Non_EU,trn_pass,Domestic Aviation,Liquids,1975,BC,GDP_control
 Europe_Non_EU,trn_pass,Passenger Rail,Liquids,1975,BC,GDP_control
@@ -1918,9 +1919,9 @@ Europe_Non_EU,resid others,biomass,biomass,1975,OC,GDP_control
 Europe_Non_EU,resid others,gas,gas,1975,OC,GDP_control
 Europe_Non_EU,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 Europe_Non_EU,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
-Europe_Non_EU,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (0-3.5t),Liquids,1975,OC,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (16-32t),Liquids,1975,OC,GDP_control
+Europe_Non_EU,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 Europe_Non_EU,trn_freight_road,Truck (3.5-16t),Liquids,1975,OC,GDP_control
 Europe_Non_EU,trn_pass,Domestic Aviation,Liquids,1975,OC,GDP_control
 Europe_Non_EU,trn_pass,Passenger Rail,Liquids,1975,OC,GDP_control
@@ -2159,8 +2160,8 @@ Brazil,resid others,biomass,biomass,1975,CO,GDP_control
 Brazil,resid others,traditional biomass,traditional biomass,1975,CO,GDP_control
 Brazil,trn_freight,Domestic Ship,Liquids,1975,CO,GDP_control
 Brazil,trn_freight,Freight Rail,Liquids,1975,CO,GDP_control
-Brazil,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
 Brazil,trn_freight_road,Truck (0-1t),Liquids,1975,CO,GDP_control
+Brazil,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
 Brazil,trn_freight_road,Truck (6-15t),Liquids,1975,CO,GDP_control
 Brazil,trn_pass,Passenger Rail,Liquids,1975,CO,GDP_control
 Brazil,trn_pass_road,Bus,Liquids,1975,CO,GDP_control
@@ -2190,8 +2191,8 @@ Brazil,resid heating,biomass,biomass,1975,NMVOC,GDP_control
 Brazil,resid others,biomass,biomass,1975,NMVOC,GDP_control
 Brazil,trn_freight,Domestic Ship,Liquids,1975,NMVOC,GDP_control
 Brazil,trn_freight,Freight Rail,Liquids,1975,NMVOC,GDP_control
-Brazil,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
 Brazil,trn_freight_road,Truck (0-1t),Liquids,1975,NMVOC,GDP_control
+Brazil,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
 Brazil,trn_freight_road,Truck (6-15t),Liquids,1975,NMVOC,GDP_control
 Brazil,trn_pass,Domestic Aviation,Liquids,1975,NMVOC,GDP_control
 Brazil,trn_pass,Passenger Rail,Liquids,1975,NMVOC,GDP_control
@@ -2228,8 +2229,8 @@ Brazil,resid others,refined liquids,refined liquids,1975,NOx,GDP_control
 Brazil,resid others,traditional biomass,traditional biomass,1975,NOx,GDP_control
 Brazil,trn_freight,Domestic Ship,Liquids,1975,NOx,GDP_control
 Brazil,trn_freight,Freight Rail,Liquids,1975,NOx,GDP_control
-Brazil,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
 Brazil,trn_freight_road,Truck (0-1t),Liquids,1975,NOx,GDP_control
+Brazil,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
 Brazil,trn_freight_road,Truck (6-15t),Liquids,1975,NOx,GDP_control
 Brazil,trn_pass,Domestic Aviation,Liquids,1975,NOx,GDP_control
 Brazil,trn_pass,Passenger Rail,Liquids,1975,NOx,GDP_control
@@ -2258,8 +2259,8 @@ Canada,resid heating,biomass,biomass,1975,CO,GDP_control
 Canada,resid others,biomass,biomass,1975,CO,GDP_control
 Canada,trn_freight,Domestic Ship,Liquids,1975,CO,GDP_control
 Canada,trn_freight,Freight Rail,Liquids,1975,CO,GDP_control
-Canada,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
 Canada,trn_freight_road,Truck (0-4.5t),Liquids,1975,CO,GDP_control
+Canada,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
 Canada,trn_freight_road,Truck (4.5-15t),Liquids,1975,CO,GDP_control
 Canada,trn_pass,Passenger Rail,Liquids,1975,CO,GDP_control
 Canada,trn_pass_road,Bus,Liquids,1975,CO,GDP_control
@@ -2281,8 +2282,8 @@ Canada,resid heating,biomass,biomass,1975,NMVOC,GDP_control
 Canada,resid others,biomass,biomass,1975,NMVOC,GDP_control
 Canada,trn_freight,Domestic Ship,Liquids,1975,NMVOC,GDP_control
 Canada,trn_freight,Freight Rail,Liquids,1975,NMVOC,GDP_control
-Canada,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
 Canada,trn_freight_road,Truck (0-4.5t),Liquids,1975,NMVOC,GDP_control
+Canada,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
 Canada,trn_freight_road,Truck (4.5-15t),Liquids,1975,NMVOC,GDP_control
 Canada,trn_pass,Domestic Aviation,Liquids,1975,NMVOC,GDP_control
 Canada,trn_pass,Passenger Rail,Liquids,1975,NMVOC,GDP_control
@@ -2311,8 +2312,8 @@ Canada,resid others,gas,gas,1975,NOx,GDP_control
 Canada,resid others,refined liquids,refined liquids,1975,NOx,GDP_control
 Canada,trn_freight,Domestic Ship,Liquids,1975,NOx,GDP_control
 Canada,trn_freight,Freight Rail,Liquids,1975,NOx,GDP_control
-Canada,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
 Canada,trn_freight_road,Truck (0-4.5t),Liquids,1975,NOx,GDP_control
+Canada,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
 Canada,trn_freight_road,Truck (4.5-15t),Liquids,1975,NOx,GDP_control
 Canada,trn_pass,Domestic Aviation,Liquids,1975,NOx,GDP_control
 Canada,trn_pass,Passenger Rail,Liquids,1975,NOx,GDP_control
@@ -2341,11 +2342,11 @@ Central America and Caribbean,resid heating,biomass,biomass,1975,CO,GDP_control
 Central America and Caribbean,resid heating,traditional biomass,traditional biomass,1975,CO,GDP_control
 Central America and Caribbean,resid others,biomass,biomass,1975,CO,GDP_control
 Central America and Caribbean,resid others,traditional biomass,traditional biomass,1975,CO,GDP_control
-Central America and Caribbean,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
-Central America and Caribbean,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (0-1t),Liquids,1975,CO,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (0-3.5t),Liquids,1975,CO,GDP_control
+Central America and Caribbean,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (16-32t),Liquids,1975,CO,GDP_control
+Central America and Caribbean,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (3.5-16t),Liquids,1975,CO,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (6-15t),Liquids,1975,CO,GDP_control
 Central America and Caribbean,trn_pass_road,Bus,Liquids,1975,CO,GDP_control
@@ -2372,11 +2373,11 @@ Central America and Caribbean,electricity,gas,gas (steam/CT),1975,NMVOC,GDP_cont
 Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),1975,NMVOC,GDP_control
 Central America and Caribbean,resid heating,biomass,biomass,1975,NMVOC,GDP_control
 Central America and Caribbean,resid others,biomass,biomass,1975,NMVOC,GDP_control
-Central America and Caribbean,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
-Central America and Caribbean,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (0-1t),Liquids,1975,NMVOC,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (0-3.5t),Liquids,1975,NMVOC,GDP_control
+Central America and Caribbean,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (16-32t),Liquids,1975,NMVOC,GDP_control
+Central America and Caribbean,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (3.5-16t),Liquids,1975,NMVOC,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (6-15t),Liquids,1975,NMVOC,GDP_control
 Central America and Caribbean,trn_pass_road,Bus,Liquids,1975,NMVOC,GDP_control
@@ -2409,11 +2410,11 @@ Central America and Caribbean,resid heating,traditional biomass,traditional biom
 Central America and Caribbean,resid others,biomass,biomass,1975,NOx,GDP_control
 Central America and Caribbean,resid others,traditional biomass,traditional biomass,1975,NOx,GDP_control
 Central America and Caribbean,trn_freight,Domestic Ship,Liquids,1975,NOx,GDP_control
-Central America and Caribbean,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
-Central America and Caribbean,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (0-1t),Liquids,1975,NOx,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (0-3.5t),Liquids,1975,NOx,GDP_control
+Central America and Caribbean,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (16-32t),Liquids,1975,NOx,GDP_control
+Central America and Caribbean,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (3.5-16t),Liquids,1975,NOx,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (6-15t),Liquids,1975,NOx,GDP_control
 Central America and Caribbean,trn_pass,Domestic Aviation,Liquids,1975,NOx,GDP_control
@@ -2441,11 +2442,11 @@ Central Asia,industrial energy use,refined liquids,refined liquids,1975,CO,GDP_c
 Central Asia,trn_freight,Domestic Ship,Liquids,1975,CO,GDP_control
 Central Asia,trn_freight,Freight Rail,Liquids,1975,CO,GDP_control
 Central Asia,trn_freight_road,3W Rural,Liquids,1975,CO,GDP_control
-Central Asia,trn_freight_road,Truck (>14t),Liquids,1975,CO,GDP_control
-Central Asia,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 Central Asia,trn_freight_road,Truck (0-3.5t),Liquids,1975,CO,GDP_control
 Central Asia,trn_freight_road,Truck (0-6t),Liquids,1975,CO,GDP_control
+Central Asia,trn_freight_road,Truck (>14t),Liquids,1975,CO,GDP_control
 Central Asia,trn_freight_road,Truck (16-32t),Liquids,1975,CO,GDP_control
+Central Asia,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 Central Asia,trn_freight_road,Truck (3.5-16t),Liquids,1975,CO,GDP_control
 Central Asia,trn_freight_road,Truck (6-14t),Liquids,1975,CO,GDP_control
 Central Asia,trn_pass,Passenger Rail,Liquids,1975,CO,GDP_control
@@ -2473,11 +2474,11 @@ Central Asia,electricity,refined liquids,refined liquids (steam/CT),1975,NMVOC,G
 Central Asia,trn_freight,Domestic Ship,Liquids,1975,NMVOC,GDP_control
 Central Asia,trn_freight,Freight Rail,Liquids,1975,NMVOC,GDP_control
 Central Asia,trn_freight_road,3W Rural,Liquids,1975,NMVOC,GDP_control
-Central Asia,trn_freight_road,Truck (>14t),Liquids,1975,NMVOC,GDP_control
-Central Asia,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 Central Asia,trn_freight_road,Truck (0-3.5t),Liquids,1975,NMVOC,GDP_control
 Central Asia,trn_freight_road,Truck (0-6t),Liquids,1975,NMVOC,GDP_control
+Central Asia,trn_freight_road,Truck (>14t),Liquids,1975,NMVOC,GDP_control
 Central Asia,trn_freight_road,Truck (16-32t),Liquids,1975,NMVOC,GDP_control
+Central Asia,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 Central Asia,trn_freight_road,Truck (3.5-16t),Liquids,1975,NMVOC,GDP_control
 Central Asia,trn_freight_road,Truck (6-14t),Liquids,1975,NMVOC,GDP_control
 Central Asia,trn_pass,Domestic Aviation,Liquids,1975,NMVOC,GDP_control
@@ -2506,11 +2507,11 @@ Central Asia,industrial energy use,refined liquids,refined liquids,1975,NOx,GDP_
 Central Asia,trn_freight,Domestic Ship,Liquids,1975,NOx,GDP_control
 Central Asia,trn_freight,Freight Rail,Liquids,1975,NOx,GDP_control
 Central Asia,trn_freight_road,3W Rural,Liquids,1975,NOx,GDP_control
-Central Asia,trn_freight_road,Truck (>14t),Liquids,1975,NOx,GDP_control
-Central Asia,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 Central Asia,trn_freight_road,Truck (0-3.5t),Liquids,1975,NOx,GDP_control
 Central Asia,trn_freight_road,Truck (0-6t),Liquids,1975,NOx,GDP_control
+Central Asia,trn_freight_road,Truck (>14t),Liquids,1975,NOx,GDP_control
 Central Asia,trn_freight_road,Truck (16-32t),Liquids,1975,NOx,GDP_control
+Central Asia,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 Central Asia,trn_freight_road,Truck (3.5-16t),Liquids,1975,NOx,GDP_control
 Central Asia,trn_freight_road,Truck (6-14t),Liquids,1975,NOx,GDP_control
 Central Asia,trn_pass,Passenger Rail,Liquids,1975,NOx,GDP_control
@@ -2546,9 +2547,9 @@ European Free Trade Association,resid heating,biomass,biomass,1975,CO,GDP_contro
 European Free Trade Association,resid others,biomass,biomass,1975,CO,GDP_control
 European Free Trade Association,trn_freight,Domestic Ship,Liquids,1975,CO,GDP_control
 European Free Trade Association,trn_freight,Freight Rail,Liquids,1975,CO,GDP_control
-European Free Trade Association,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 European Free Trade Association,trn_freight_road,Truck (0-3.5t),Liquids,1975,CO,GDP_control
 European Free Trade Association,trn_freight_road,Truck (16-32t),Liquids,1975,CO,GDP_control
+European Free Trade Association,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 European Free Trade Association,trn_freight_road,Truck (3.5-16t),Liquids,1975,CO,GDP_control
 European Free Trade Association,trn_pass,Passenger Rail,Liquids,1975,CO,GDP_control
 European Free Trade Association,trn_pass_road,Bus,Liquids,1975,CO,GDP_control
@@ -2576,9 +2577,9 @@ European Free Trade Association,resid heating,biomass,biomass,1975,NMVOC,GDP_con
 European Free Trade Association,resid others,biomass,biomass,1975,NMVOC,GDP_control
 European Free Trade Association,trn_freight,Domestic Ship,Liquids,1975,NMVOC,GDP_control
 European Free Trade Association,trn_freight,Freight Rail,Liquids,1975,NMVOC,GDP_control
-European Free Trade Association,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 European Free Trade Association,trn_freight_road,Truck (0-3.5t),Liquids,1975,NMVOC,GDP_control
 European Free Trade Association,trn_freight_road,Truck (16-32t),Liquids,1975,NMVOC,GDP_control
+European Free Trade Association,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 European Free Trade Association,trn_freight_road,Truck (3.5-16t),Liquids,1975,NMVOC,GDP_control
 European Free Trade Association,trn_pass,Domestic Aviation,Liquids,1975,NMVOC,GDP_control
 European Free Trade Association,trn_pass,Passenger Rail,Liquids,1975,NMVOC,GDP_control
@@ -2613,9 +2614,9 @@ European Free Trade Association,resid others,gas,gas,1975,NOx,GDP_control
 European Free Trade Association,resid others,refined liquids,refined liquids,1975,NOx,GDP_control
 European Free Trade Association,trn_freight,Domestic Ship,Liquids,1975,NOx,GDP_control
 European Free Trade Association,trn_freight,Freight Rail,Liquids,1975,NOx,GDP_control
-European Free Trade Association,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 European Free Trade Association,trn_freight_road,Truck (0-3.5t),Liquids,1975,NOx,GDP_control
 European Free Trade Association,trn_freight_road,Truck (16-32t),Liquids,1975,NOx,GDP_control
+European Free Trade Association,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 European Free Trade Association,trn_freight_road,Truck (3.5-16t),Liquids,1975,NOx,GDP_control
 European Free Trade Association,trn_pass,Domestic Aviation,Liquids,1975,NOx,GDP_control
 European Free Trade Association,trn_pass,Passenger Rail,Liquids,1975,NOx,GDP_control
@@ -2718,8 +2719,8 @@ Mexico,industrial energy use,coal,coal,1975,CO,GDP_control
 Mexico,industrial energy use,gas,gas,1975,CO,GDP_control
 Mexico,industrial energy use,refined liquids,refined liquids,1975,CO,GDP_control
 Mexico,resid heating,traditional biomass,traditional biomass,1975,CO,GDP_control
-Mexico,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
 Mexico,trn_freight_road,Truck (0-1t),Liquids,1975,CO,GDP_control
+Mexico,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
 Mexico,trn_freight_road,Truck (6-15t),Liquids,1975,CO,GDP_control
 Mexico,trn_pass_road,Bus,Liquids,1975,CO,GDP_control
 Mexico,trn_pass_road_LDV_2W,Moped,Liquids,1975,CO,GDP_control
@@ -2739,8 +2740,8 @@ Mexico,electricity,coal,coal (conv pul),1975,NMVOC,GDP_control
 Mexico,electricity,gas,gas (CC),1975,NMVOC,GDP_control
 Mexico,electricity,gas,gas (steam/CT),1975,NMVOC,GDP_control
 Mexico,electricity,refined liquids,refined liquids (steam/CT),1975,NMVOC,GDP_control
-Mexico,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
 Mexico,trn_freight_road,Truck (0-1t),Liquids,1975,NMVOC,GDP_control
+Mexico,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
 Mexico,trn_freight_road,Truck (6-15t),Liquids,1975,NMVOC,GDP_control
 Mexico,trn_pass_road,Bus,Liquids,1975,NMVOC,GDP_control
 Mexico,trn_pass_road_LDV_2W,Moped,Liquids,1975,NMVOC,GDP_control
@@ -2768,8 +2769,8 @@ Mexico,resid heating,refined liquids,refined liquids,1975,NOx,GDP_control
 Mexico,resid heating,traditional biomass,traditional biomass,1975,NOx,GDP_control
 Mexico,resid others,gas,gas,1975,NOx,GDP_control
 Mexico,resid others,refined liquids,refined liquids,1975,NOx,GDP_control
-Mexico,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
 Mexico,trn_freight_road,Truck (0-1t),Liquids,1975,NOx,GDP_control
+Mexico,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
 Mexico,trn_freight_road,Truck (6-15t),Liquids,1975,NOx,GDP_control
 Mexico,trn_pass_road,Bus,Liquids,1975,NOx,GDP_control
 Mexico,trn_pass_road_LDV_2W,Moped,Liquids,1975,NOx,GDP_control
@@ -2862,9 +2863,9 @@ Russia,resid heating,biomass,biomass,1975,CO,GDP_control
 Russia,resid others,biomass,biomass,1975,CO,GDP_control
 Russia,trn_freight,Domestic Ship,Liquids,1975,CO,GDP_control
 Russia,trn_freight,Freight Rail,Liquids,1975,CO,GDP_control
-Russia,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 Russia,trn_freight_road,Truck (0-3.5t),Liquids,1975,CO,GDP_control
 Russia,trn_freight_road,Truck (16-32t),Liquids,1975,CO,GDP_control
+Russia,trn_freight_road,Truck (>32t),Liquids,1975,CO,GDP_control
 Russia,trn_freight_road,Truck (3.5-16t),Liquids,1975,CO,GDP_control
 Russia,trn_pass,Passenger Rail,Liquids,1975,CO,GDP_control
 Russia,trn_pass_road,Bus,Liquids,1975,CO,GDP_control
@@ -2889,9 +2890,9 @@ Russia,resid heating,biomass,biomass,1975,NMVOC,GDP_control
 Russia,resid others,biomass,biomass,1975,NMVOC,GDP_control
 Russia,trn_freight,Domestic Ship,Liquids,1975,NMVOC,GDP_control
 Russia,trn_freight,Freight Rail,Liquids,1975,NMVOC,GDP_control
-Russia,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 Russia,trn_freight_road,Truck (0-3.5t),Liquids,1975,NMVOC,GDP_control
 Russia,trn_freight_road,Truck (16-32t),Liquids,1975,NMVOC,GDP_control
+Russia,trn_freight_road,Truck (>32t),Liquids,1975,NMVOC,GDP_control
 Russia,trn_freight_road,Truck (3.5-16t),Liquids,1975,NMVOC,GDP_control
 Russia,trn_pass,Passenger Rail,Liquids,1975,NMVOC,GDP_control
 Russia,trn_pass_road,Bus,Liquids,1975,NMVOC,GDP_control
@@ -2921,9 +2922,9 @@ Russia,resid others,gas,gas,1975,NOx,GDP_control
 Russia,resid others,refined liquids,refined liquids,1975,NOx,GDP_control
 Russia,trn_freight,Domestic Ship,Liquids,1975,NOx,GDP_control
 Russia,trn_freight,Freight Rail,Liquids,1975,NOx,GDP_control
-Russia,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 Russia,trn_freight_road,Truck (0-3.5t),Liquids,1975,NOx,GDP_control
 Russia,trn_freight_road,Truck (16-32t),Liquids,1975,NOx,GDP_control
+Russia,trn_freight_road,Truck (>32t),Liquids,1975,NOx,GDP_control
 Russia,trn_freight_road,Truck (3.5-16t),Liquids,1975,NOx,GDP_control
 Russia,trn_pass,Domestic Aviation,Liquids,1975,NOx,GDP_control
 Russia,trn_pass,Passenger Rail,Liquids,1975,NOx,GDP_control
@@ -3020,8 +3021,8 @@ South America_Southern,resid others,biomass,biomass,1975,CO,GDP_control
 South America_Southern,resid others,traditional biomass,traditional biomass,1975,CO,GDP_control
 South America_Southern,trn_freight,Domestic Ship,Liquids,1975,CO,GDP_control
 South America_Southern,trn_freight,Freight Rail,Liquids,1975,CO,GDP_control
-South America_Southern,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
 South America_Southern,trn_freight_road,Truck (0-1t),Liquids,1975,CO,GDP_control
+South America_Southern,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
 South America_Southern,trn_freight_road,Truck (6-15t),Liquids,1975,CO,GDP_control
 South America_Southern,trn_pass,Passenger Rail,Liquids,1975,CO,GDP_control
 South America_Southern,trn_pass_road,Bus,Liquids,1975,CO,GDP_control
@@ -3049,8 +3050,8 @@ South America_Southern,resid heating,biomass,biomass,1975,NMVOC,GDP_control
 South America_Southern,resid others,biomass,biomass,1975,NMVOC,GDP_control
 South America_Southern,trn_freight,Domestic Ship,Liquids,1975,NMVOC,GDP_control
 South America_Southern,trn_freight,Freight Rail,Liquids,1975,NMVOC,GDP_control
-South America_Southern,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
 South America_Southern,trn_freight_road,Truck (0-1t),Liquids,1975,NMVOC,GDP_control
+South America_Southern,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
 South America_Southern,trn_freight_road,Truck (6-15t),Liquids,1975,NMVOC,GDP_control
 South America_Southern,trn_pass,Domestic Aviation,Liquids,1975,NMVOC,GDP_control
 South America_Southern,trn_pass,Passenger Rail,Liquids,1975,NMVOC,GDP_control
@@ -3087,8 +3088,8 @@ South America_Southern,resid others,refined liquids,refined liquids,1975,NOx,GDP
 South America_Southern,resid others,traditional biomass,traditional biomass,1975,NOx,GDP_control
 South America_Southern,trn_freight,Domestic Ship,Liquids,1975,NOx,GDP_control
 South America_Southern,trn_freight,Freight Rail,Liquids,1975,NOx,GDP_control
-South America_Southern,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
 South America_Southern,trn_freight_road,Truck (0-1t),Liquids,1975,NOx,GDP_control
+South America_Southern,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
 South America_Southern,trn_freight_road,Truck (6-15t),Liquids,1975,NOx,GDP_control
 South America_Southern,trn_pass,Domestic Aviation,Liquids,1975,NOx,GDP_control
 South America_Southern,trn_pass,Passenger Rail,Liquids,1975,NOx,GDP_control
@@ -3197,9 +3198,9 @@ Southeast Asia,industrial energy use,refined liquids,refined liquids,1975,CO,GDP
 Southeast Asia,resid heating,traditional biomass,traditional biomass,1975,CO,GDP_control
 Southeast Asia,trn_freight,Domestic Ship,Liquids,1975,CO,GDP_control
 Southeast Asia,trn_freight_road,3W Rural,Liquids,1975,CO,GDP_control
-Southeast Asia,trn_freight_road,Truck (>14t),Liquids,1975,CO,GDP_control
 Southeast Asia,trn_freight_road,Truck (0-2t),Liquids,1975,CO,GDP_control
 Southeast Asia,trn_freight_road,Truck (0-6t),Liquids,1975,CO,GDP_control
+Southeast Asia,trn_freight_road,Truck (>14t),Liquids,1975,CO,GDP_control
 Southeast Asia,trn_freight_road,Truck (2-5t),Liquids,1975,CO,GDP_control
 Southeast Asia,trn_freight_road,Truck (5-9t),Liquids,1975,CO,GDP_control
 Southeast Asia,trn_freight_road,Truck (6-14t),Liquids,1975,CO,GDP_control
@@ -3229,9 +3230,9 @@ Southeast Asia,electricity,gas,gas (steam/CT),1975,NMVOC,GDP_control
 Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),1975,NMVOC,GDP_control
 Southeast Asia,trn_freight,Domestic Ship,Liquids,1975,NMVOC,GDP_control
 Southeast Asia,trn_freight_road,3W Rural,Liquids,1975,NMVOC,GDP_control
-Southeast Asia,trn_freight_road,Truck (>14t),Liquids,1975,NMVOC,GDP_control
 Southeast Asia,trn_freight_road,Truck (0-2t),Liquids,1975,NMVOC,GDP_control
 Southeast Asia,trn_freight_road,Truck (0-6t),Liquids,1975,NMVOC,GDP_control
+Southeast Asia,trn_freight_road,Truck (>14t),Liquids,1975,NMVOC,GDP_control
 Southeast Asia,trn_freight_road,Truck (2-5t),Liquids,1975,NMVOC,GDP_control
 Southeast Asia,trn_freight_road,Truck (5-9t),Liquids,1975,NMVOC,GDP_control
 Southeast Asia,trn_freight_road,Truck (6-14t),Liquids,1975,NMVOC,GDP_control
@@ -3268,9 +3269,9 @@ Southeast Asia,resid heating,traditional biomass,traditional biomass,1975,NOx,GD
 Southeast Asia,resid others,gas,gas,1975,NOx,GDP_control
 Southeast Asia,trn_freight,Domestic Ship,Liquids,1975,NOx,GDP_control
 Southeast Asia,trn_freight_road,3W Rural,Liquids,1975,NOx,GDP_control
-Southeast Asia,trn_freight_road,Truck (>14t),Liquids,1975,NOx,GDP_control
 Southeast Asia,trn_freight_road,Truck (0-2t),Liquids,1975,NOx,GDP_control
 Southeast Asia,trn_freight_road,Truck (0-6t),Liquids,1975,NOx,GDP_control
+Southeast Asia,trn_freight_road,Truck (>14t),Liquids,1975,NOx,GDP_control
 Southeast Asia,trn_freight_road,Truck (2-5t),Liquids,1975,NOx,GDP_control
 Southeast Asia,trn_freight_road,Truck (5-9t),Liquids,1975,NOx,GDP_control
 Southeast Asia,trn_freight_road,Truck (6-14t),Liquids,1975,NOx,GDP_control
@@ -3394,8 +3395,8 @@ Argentina,resid heating,traditional biomass,traditional biomass,1975,CO,GDP_cont
 Argentina,resid others,biomass,biomass,1975,CO,GDP_control
 Argentina,resid others,traditional biomass,traditional biomass,1975,CO,GDP_control
 Argentina,trn_freight,Domestic Ship,Liquids,1975,CO,GDP_control
-Argentina,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
 Argentina,trn_freight_road,Truck (0-1t),Liquids,1975,CO,GDP_control
+Argentina,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
 Argentina,trn_freight_road,Truck (6-15t),Liquids,1975,CO,GDP_control
 Argentina,trn_pass_road,Bus,Liquids,1975,CO,GDP_control
 Argentina,trn_pass_road_LDV_2W,Moped,Liquids,1975,CO,GDP_control
@@ -3419,8 +3420,8 @@ Argentina,electricity,gas,gas (steam/CT),1975,NMVOC,GDP_control
 Argentina,electricity,refined liquids,refined liquids (steam/CT),1975,NMVOC,GDP_control
 Argentina,resid heating,biomass,biomass,1975,NMVOC,GDP_control
 Argentina,resid others,biomass,biomass,1975,NMVOC,GDP_control
-Argentina,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
 Argentina,trn_freight_road,Truck (0-1t),Liquids,1975,NMVOC,GDP_control
+Argentina,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
 Argentina,trn_freight_road,Truck (6-15t),Liquids,1975,NMVOC,GDP_control
 Argentina,trn_pass_road,Bus,Liquids,1975,NMVOC,GDP_control
 Argentina,trn_pass_road_LDV_2W,Moped,Liquids,1975,NMVOC,GDP_control
@@ -3453,8 +3454,8 @@ Argentina,resid others,gas,gas,1975,NOx,GDP_control
 Argentina,resid others,refined liquids,refined liquids,1975,NOx,GDP_control
 Argentina,resid others,traditional biomass,traditional biomass,1975,NOx,GDP_control
 Argentina,trn_freight,Domestic Ship,Liquids,1975,NOx,GDP_control
-Argentina,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
 Argentina,trn_freight_road,Truck (0-1t),Liquids,1975,NOx,GDP_control
+Argentina,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
 Argentina,trn_freight_road,Truck (6-15t),Liquids,1975,NOx,GDP_control
 Argentina,trn_pass,Domestic Aviation,Liquids,1975,NOx,GDP_control
 Argentina,trn_pass_road,Bus,Liquids,1975,NOx,GDP_control
@@ -3485,8 +3486,8 @@ Colombia,resid heating,traditional biomass,traditional biomass,1975,CO,GDP_contr
 Colombia,resid others,biomass,biomass,1975,CO,GDP_control
 Colombia,resid others,traditional biomass,traditional biomass,1975,CO,GDP_control
 Colombia,trn_freight,Freight Rail,Liquids,1975,CO,GDP_control
-Colombia,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
 Colombia,trn_freight_road,Truck (0-1t),Liquids,1975,CO,GDP_control
+Colombia,trn_freight_road,Truck (>15t),Liquids,1975,CO,GDP_control
 Colombia,trn_freight_road,Truck (6-15t),Liquids,1975,CO,GDP_control
 Colombia,trn_pass,Passenger Rail,Liquids,1975,CO,GDP_control
 Colombia,trn_pass_road,Bus,Liquids,1975,CO,GDP_control
@@ -3512,8 +3513,8 @@ Colombia,electricity,refined liquids,refined liquids (steam/CT),1975,NMVOC,GDP_c
 Colombia,resid heating,biomass,biomass,1975,NMVOC,GDP_control
 Colombia,resid others,biomass,biomass,1975,NMVOC,GDP_control
 Colombia,trn_freight,Freight Rail,Liquids,1975,NMVOC,GDP_control
-Colombia,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
 Colombia,trn_freight_road,Truck (0-1t),Liquids,1975,NMVOC,GDP_control
+Colombia,trn_freight_road,Truck (>15t),Liquids,1975,NMVOC,GDP_control
 Colombia,trn_freight_road,Truck (6-15t),Liquids,1975,NMVOC,GDP_control
 Colombia,trn_pass,Passenger Rail,Liquids,1975,NMVOC,GDP_control
 Colombia,trn_pass_road,Bus,Liquids,1975,NMVOC,GDP_control
@@ -3548,8 +3549,8 @@ Colombia,resid others,gas,gas,1975,NOx,GDP_control
 Colombia,resid others,refined liquids,refined liquids,1975,NOx,GDP_control
 Colombia,resid others,traditional biomass,traditional biomass,1975,NOx,GDP_control
 Colombia,trn_freight,Freight Rail,Liquids,1975,NOx,GDP_control
-Colombia,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
 Colombia,trn_freight_road,Truck (0-1t),Liquids,1975,NOx,GDP_control
+Colombia,trn_freight_road,Truck (>15t),Liquids,1975,NOx,GDP_control
 Colombia,trn_freight_road,Truck (6-15t),Liquids,1975,NOx,GDP_control
 Colombia,trn_pass,Passenger Rail,Liquids,1975,NOx,GDP_control
 Colombia,trn_pass_road,Bus,Liquids,1975,NOx,GDP_control
@@ -3689,8 +3690,8 @@ Brazil,resid others,gas,gas,1975,BC,GDP_control
 Brazil,resid others,traditional biomass,traditional biomass,1975,BC,GDP_control
 Brazil,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 Brazil,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
-Brazil,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
 Brazil,trn_freight_road,Truck (0-1t),Liquids,1975,BC,GDP_control
+Brazil,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
 Brazil,trn_freight_road,Truck (6-15t),Liquids,1975,BC,GDP_control
 Brazil,trn_pass,Domestic Aviation,Liquids,1975,BC,GDP_control
 Brazil,trn_pass,Passenger Rail,Liquids,1975,BC,GDP_control
@@ -3724,8 +3725,8 @@ Brazil,resid others,gas,gas,1975,OC,GDP_control
 Brazil,resid others,traditional biomass,traditional biomass,1975,OC,GDP_control
 Brazil,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 Brazil,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
-Brazil,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
 Brazil,trn_freight_road,Truck (0-1t),Liquids,1975,OC,GDP_control
+Brazil,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
 Brazil,trn_freight_road,Truck (6-15t),Liquids,1975,OC,GDP_control
 Brazil,trn_pass,Domestic Aviation,Liquids,1975,OC,GDP_control
 Brazil,trn_pass,Passenger Rail,Liquids,1975,OC,GDP_control
@@ -3754,8 +3755,8 @@ Canada,resid others,coal,coal,1975,BC,GDP_control
 Canada,resid others,gas,gas,1975,BC,GDP_control
 Canada,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 Canada,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
-Canada,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
 Canada,trn_freight_road,Truck (0-4.5t),Liquids,1975,BC,GDP_control
+Canada,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
 Canada,trn_freight_road,Truck (4.5-15t),Liquids,1975,BC,GDP_control
 Canada,trn_pass,Domestic Aviation,Liquids,1975,BC,GDP_control
 Canada,trn_pass,Passenger Rail,Liquids,1975,BC,GDP_control
@@ -3784,8 +3785,8 @@ Canada,resid others,coal,coal,1975,OC,GDP_control
 Canada,resid others,gas,gas,1975,OC,GDP_control
 Canada,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 Canada,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
-Canada,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
 Canada,trn_freight_road,Truck (0-4.5t),Liquids,1975,OC,GDP_control
+Canada,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
 Canada,trn_freight_road,Truck (4.5-15t),Liquids,1975,OC,GDP_control
 Canada,trn_pass,Domestic Aviation,Liquids,1975,OC,GDP_control
 Canada,trn_shipping_intl,International Ship,Liquids,1975,OC,GDP_control
@@ -3808,11 +3809,11 @@ Central America and Caribbean,resid others,gas,gas,1975,BC,GDP_control
 Central America and Caribbean,resid others,traditional biomass,traditional biomass,1975,BC,GDP_control
 Central America and Caribbean,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 Central America and Caribbean,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
-Central America and Caribbean,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
-Central America and Caribbean,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (0-1t),Liquids,1975,BC,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (0-3.5t),Liquids,1975,BC,GDP_control
+Central America and Caribbean,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (16-32t),Liquids,1975,BC,GDP_control
+Central America and Caribbean,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (3.5-16t),Liquids,1975,BC,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (6-15t),Liquids,1975,BC,GDP_control
 Central America and Caribbean,trn_pass,Domestic Aviation,Liquids,1975,BC,GDP_control
@@ -3849,11 +3850,11 @@ Central America and Caribbean,resid others,gas,gas,1975,OC,GDP_control
 Central America and Caribbean,resid others,traditional biomass,traditional biomass,1975,OC,GDP_control
 Central America and Caribbean,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 Central America and Caribbean,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
-Central America and Caribbean,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
-Central America and Caribbean,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (0-1t),Liquids,1975,OC,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (0-3.5t),Liquids,1975,OC,GDP_control
+Central America and Caribbean,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (16-32t),Liquids,1975,OC,GDP_control
+Central America and Caribbean,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (3.5-16t),Liquids,1975,OC,GDP_control
 Central America and Caribbean,trn_freight_road,Truck (6-15t),Liquids,1975,OC,GDP_control
 Central America and Caribbean,trn_pass,Domestic Aviation,Liquids,1975,OC,GDP_control
@@ -3886,11 +3887,11 @@ Central Asia,resid others,refined liquids,refined liquids,1975,BC,GDP_control
 Central Asia,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 Central Asia,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
 Central Asia,trn_freight_road,3W Rural,Liquids,1975,BC,GDP_control
-Central Asia,trn_freight_road,Truck (>14t),Liquids,1975,BC,GDP_control
-Central Asia,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 Central Asia,trn_freight_road,Truck (0-3.5t),Liquids,1975,BC,GDP_control
 Central Asia,trn_freight_road,Truck (0-6t),Liquids,1975,BC,GDP_control
+Central Asia,trn_freight_road,Truck (>14t),Liquids,1975,BC,GDP_control
 Central Asia,trn_freight_road,Truck (16-32t),Liquids,1975,BC,GDP_control
+Central Asia,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 Central Asia,trn_freight_road,Truck (3.5-16t),Liquids,1975,BC,GDP_control
 Central Asia,trn_freight_road,Truck (6-14t),Liquids,1975,BC,GDP_control
 Central Asia,trn_pass,Domestic Aviation,Liquids,1975,BC,GDP_control
@@ -3927,11 +3928,11 @@ Central Asia,resid others,refined liquids,refined liquids,1975,OC,GDP_control
 Central Asia,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 Central Asia,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
 Central Asia,trn_freight_road,3W Rural,Liquids,1975,OC,GDP_control
-Central Asia,trn_freight_road,Truck (>14t),Liquids,1975,OC,GDP_control
-Central Asia,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 Central Asia,trn_freight_road,Truck (0-3.5t),Liquids,1975,OC,GDP_control
 Central Asia,trn_freight_road,Truck (0-6t),Liquids,1975,OC,GDP_control
+Central Asia,trn_freight_road,Truck (>14t),Liquids,1975,OC,GDP_control
 Central Asia,trn_freight_road,Truck (16-32t),Liquids,1975,OC,GDP_control
+Central Asia,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 Central Asia,trn_freight_road,Truck (3.5-16t),Liquids,1975,OC,GDP_control
 Central Asia,trn_freight_road,Truck (6-14t),Liquids,1975,OC,GDP_control
 Central Asia,trn_pass,Domestic Aviation,Liquids,1975,OC,GDP_control
@@ -3967,9 +3968,9 @@ European Free Trade Association,resid others,coal,coal,1975,BC,GDP_control
 European Free Trade Association,resid others,gas,gas,1975,BC,GDP_control
 European Free Trade Association,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 European Free Trade Association,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
-European Free Trade Association,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 European Free Trade Association,trn_freight_road,Truck (0-3.5t),Liquids,1975,BC,GDP_control
 European Free Trade Association,trn_freight_road,Truck (16-32t),Liquids,1975,BC,GDP_control
+European Free Trade Association,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 European Free Trade Association,trn_freight_road,Truck (3.5-16t),Liquids,1975,BC,GDP_control
 European Free Trade Association,trn_pass,Domestic Aviation,Liquids,1975,BC,GDP_control
 European Free Trade Association,trn_pass,Passenger Rail,Liquids,1975,BC,GDP_control
@@ -4003,9 +4004,9 @@ European Free Trade Association,resid others,coal,coal,1975,OC,GDP_control
 European Free Trade Association,resid others,gas,gas,1975,OC,GDP_control
 European Free Trade Association,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 European Free Trade Association,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
-European Free Trade Association,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 European Free Trade Association,trn_freight_road,Truck (0-3.5t),Liquids,1975,OC,GDP_control
 European Free Trade Association,trn_freight_road,Truck (16-32t),Liquids,1975,OC,GDP_control
+European Free Trade Association,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 European Free Trade Association,trn_freight_road,Truck (3.5-16t),Liquids,1975,OC,GDP_control
 European Free Trade Association,trn_pass,Domestic Aviation,Liquids,1975,OC,GDP_control
 European Free Trade Association,trn_shipping_intl,International Ship,Liquids,1975,OC,GDP_control
@@ -4081,8 +4082,8 @@ Mexico,resid heating,traditional biomass,traditional biomass,1975,BC,GDP_control
 Mexico,resid others,gas,gas,1975,BC,GDP_control
 Mexico,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 Mexico,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
-Mexico,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
 Mexico,trn_freight_road,Truck (0-1t),Liquids,1975,BC,GDP_control
+Mexico,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
 Mexico,trn_freight_road,Truck (6-15t),Liquids,1975,BC,GDP_control
 Mexico,trn_pass,Domestic Aviation,Liquids,1975,BC,GDP_control
 Mexico,trn_pass,Passenger Rail,Liquids,1975,BC,GDP_control
@@ -4111,8 +4112,8 @@ Mexico,resid heating,traditional biomass,traditional biomass,1975,OC,GDP_control
 Mexico,resid others,gas,gas,1975,OC,GDP_control
 Mexico,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 Mexico,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
-Mexico,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
 Mexico,trn_freight_road,Truck (0-1t),Liquids,1975,OC,GDP_control
+Mexico,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
 Mexico,trn_freight_road,Truck (6-15t),Liquids,1975,OC,GDP_control
 Mexico,trn_pass,Domestic Aviation,Liquids,1975,OC,GDP_control
 Mexico,trn_pass,Passenger Rail,Liquids,1975,OC,GDP_control
@@ -4191,9 +4192,9 @@ Russia,resid others,coal,coal,1975,BC,GDP_control
 Russia,resid others,gas,gas,1975,BC,GDP_control
 Russia,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 Russia,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
-Russia,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 Russia,trn_freight_road,Truck (0-3.5t),Liquids,1975,BC,GDP_control
 Russia,trn_freight_road,Truck (16-32t),Liquids,1975,BC,GDP_control
+Russia,trn_freight_road,Truck (>32t),Liquids,1975,BC,GDP_control
 Russia,trn_freight_road,Truck (3.5-16t),Liquids,1975,BC,GDP_control
 Russia,trn_pass,Domestic Aviation,Liquids,1975,BC,GDP_control
 Russia,trn_pass,Passenger Rail,Liquids,1975,BC,GDP_control
@@ -4227,9 +4228,9 @@ Russia,resid others,gas,gas,1975,OC,GDP_control
 Russia,resid others,refined liquids,refined liquids,1975,OC,GDP_control
 Russia,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 Russia,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
-Russia,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 Russia,trn_freight_road,Truck (0-3.5t),Liquids,1975,OC,GDP_control
 Russia,trn_freight_road,Truck (16-32t),Liquids,1975,OC,GDP_control
+Russia,trn_freight_road,Truck (>32t),Liquids,1975,OC,GDP_control
 Russia,trn_freight_road,Truck (3.5-16t),Liquids,1975,OC,GDP_control
 Russia,trn_pass,Domestic Aviation,Liquids,1975,OC,GDP_control
 Russia,trn_shipping_intl,International Ship,Liquids,1975,OC,GDP_control
@@ -4297,8 +4298,8 @@ South America_Southern,resid others,gas,gas,1975,BC,GDP_control
 South America_Southern,resid others,traditional biomass,traditional biomass,1975,BC,GDP_control
 South America_Southern,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 South America_Southern,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
-South America_Southern,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
 South America_Southern,trn_freight_road,Truck (0-1t),Liquids,1975,BC,GDP_control
+South America_Southern,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
 South America_Southern,trn_freight_road,Truck (6-15t),Liquids,1975,BC,GDP_control
 South America_Southern,trn_pass,Domestic Aviation,Liquids,1975,BC,GDP_control
 South America_Southern,trn_pass,Passenger Rail,Liquids,1975,BC,GDP_control
@@ -4332,8 +4333,8 @@ South America_Southern,resid others,gas,gas,1975,OC,GDP_control
 South America_Southern,resid others,traditional biomass,traditional biomass,1975,OC,GDP_control
 South America_Southern,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 South America_Southern,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
-South America_Southern,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
 South America_Southern,trn_freight_road,Truck (0-1t),Liquids,1975,OC,GDP_control
+South America_Southern,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
 South America_Southern,trn_freight_road,Truck (6-15t),Liquids,1975,OC,GDP_control
 South America_Southern,trn_pass,Domestic Aviation,Liquids,1975,OC,GDP_control
 South America_Southern,trn_pass,Passenger Rail,Liquids,1975,OC,GDP_control
@@ -4420,9 +4421,9 @@ Southeast Asia,resid others,gas,gas,1975,BC,GDP_control
 Southeast Asia,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 Southeast Asia,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
 Southeast Asia,trn_freight_road,3W Rural,Liquids,1975,BC,GDP_control
-Southeast Asia,trn_freight_road,Truck (>14t),Liquids,1975,BC,GDP_control
 Southeast Asia,trn_freight_road,Truck (0-2t),Liquids,1975,BC,GDP_control
 Southeast Asia,trn_freight_road,Truck (0-6t),Liquids,1975,BC,GDP_control
+Southeast Asia,trn_freight_road,Truck (>14t),Liquids,1975,BC,GDP_control
 Southeast Asia,trn_freight_road,Truck (2-5t),Liquids,1975,BC,GDP_control
 Southeast Asia,trn_freight_road,Truck (5-9t),Liquids,1975,BC,GDP_control
 Southeast Asia,trn_freight_road,Truck (6-14t),Liquids,1975,BC,GDP_control
@@ -4462,9 +4463,9 @@ Southeast Asia,resid others,gas,gas,1975,OC,GDP_control
 Southeast Asia,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 Southeast Asia,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
 Southeast Asia,trn_freight_road,3W Rural,Liquids,1975,OC,GDP_control
-Southeast Asia,trn_freight_road,Truck (>14t),Liquids,1975,OC,GDP_control
 Southeast Asia,trn_freight_road,Truck (0-2t),Liquids,1975,OC,GDP_control
 Southeast Asia,trn_freight_road,Truck (0-6t),Liquids,1975,OC,GDP_control
+Southeast Asia,trn_freight_road,Truck (>14t),Liquids,1975,OC,GDP_control
 Southeast Asia,trn_freight_road,Truck (2-5t),Liquids,1975,OC,GDP_control
 Southeast Asia,trn_freight_road,Truck (5-9t),Liquids,1975,OC,GDP_control
 Southeast Asia,trn_freight_road,Truck (6-14t),Liquids,1975,OC,GDP_control
@@ -4564,8 +4565,8 @@ Argentina,resid others,refined liquids,refined liquids,1975,BC,GDP_control
 Argentina,resid others,traditional biomass,traditional biomass,1975,BC,GDP_control
 Argentina,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 Argentina,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
-Argentina,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
 Argentina,trn_freight_road,Truck (0-1t),Liquids,1975,BC,GDP_control
+Argentina,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
 Argentina,trn_freight_road,Truck (6-15t),Liquids,1975,BC,GDP_control
 Argentina,trn_pass,Domestic Aviation,Liquids,1975,BC,GDP_control
 Argentina,trn_pass,Passenger Rail,Liquids,1975,BC,GDP_control
@@ -4597,8 +4598,8 @@ Argentina,resid others,gas,gas,1975,OC,GDP_control
 Argentina,resid others,traditional biomass,traditional biomass,1975,OC,GDP_control
 Argentina,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 Argentina,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
-Argentina,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
 Argentina,trn_freight_road,Truck (0-1t),Liquids,1975,OC,GDP_control
+Argentina,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
 Argentina,trn_freight_road,Truck (6-15t),Liquids,1975,OC,GDP_control
 Argentina,trn_pass,Domestic Aviation,Liquids,1975,OC,GDP_control
 Argentina,trn_pass,Passenger Rail,Liquids,1975,OC,GDP_control
@@ -4629,8 +4630,8 @@ Colombia,resid others,gas,gas,1975,BC,GDP_control
 Colombia,resid others,traditional biomass,traditional biomass,1975,BC,GDP_control
 Colombia,trn_freight,Domestic Ship,Liquids,1975,BC,GDP_control
 Colombia,trn_freight,Freight Rail,Liquids,1975,BC,GDP_control
-Colombia,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
 Colombia,trn_freight_road,Truck (0-1t),Liquids,1975,BC,GDP_control
+Colombia,trn_freight_road,Truck (>15t),Liquids,1975,BC,GDP_control
 Colombia,trn_freight_road,Truck (6-15t),Liquids,1975,BC,GDP_control
 Colombia,trn_pass,Domestic Aviation,Liquids,1975,BC,GDP_control
 Colombia,trn_pass,Passenger Rail,Liquids,1975,BC,GDP_control
@@ -4664,8 +4665,8 @@ Colombia,resid others,gas,gas,1975,OC,GDP_control
 Colombia,resid others,traditional biomass,traditional biomass,1975,OC,GDP_control
 Colombia,trn_freight,Domestic Ship,Liquids,1975,OC,GDP_control
 Colombia,trn_freight,Freight Rail,Liquids,1975,OC,GDP_control
-Colombia,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
 Colombia,trn_freight_road,Truck (0-1t),Liquids,1975,OC,GDP_control
+Colombia,trn_freight_road,Truck (>15t),Liquids,1975,OC,GDP_control
 Colombia,trn_freight_road,Truck (6-15t),Liquids,1975,OC,GDP_control
 Colombia,trn_pass,Domestic Aviation,Liquids,1975,OC,GDP_control
 Colombia,trn_pass,Passenger Rail,Liquids,1975,OC,GDP_control
@@ -4855,6 +4856,7 @@ Africa_Western,trn_pass_road_LDV_4W,Mini Car,Liquids,1975,CO,GDP_control
 Africa_Western,trn_pass_road_LDV_4W,Multipurpose Vehicle,Liquids,1975,CO,GDP_control
 Africa_Western,trn_pass_road_LDV_4W,Subcompact Car,Liquids,1975,CO,GDP_control
 Africa_Western,trn_shipping_intl,International Ship,Liquids,1975,CO,GDP_control
+Africa_Western,comm heating,coal,coal,1975,NMVOC,GDP_control
 Africa_Western,comm others,coal,coal,1975,NMVOC,GDP_control
 Africa_Western,comm others,gas,gas,1975,NMVOC,GDP_control
 Africa_Western,electricity,coal,coal (conv pul),1975,NMVOC,GDP_control
