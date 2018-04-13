@@ -1,7 +1,6 @@
-INPUT_TABLE
-Variable ID
-LN5_NodeGhostShare
-
+#INPUT_TABLE
+#Variable ID
+#LN5_NodeGhostShare
 region,LandAllocatorRoot,LandNode1,LandNode2,LandNode3,LandNode4,LandNode5,year,ghost.unnormalized.share
 USA,root,AgroForestLand_ArkWhtRedR,AgroForest_NonPasture_ArkWhtRedR,CropLand_ArkWhtRedR,biomass_grass_ArkWhtRedR,biomass_grass_ArkWhtRedR_IRR,2020,0.0527577
 USA,root,AgroForestLand_California,AgroForest_NonPasture_California,CropLand_California,biomass_grass_California,biomass_grass_California_IRR,2020,0.741534
@@ -1411,14 +1410,3 @@ Colombia,root,AgroForestLand_ColEcuaCst,AgroForest_NonPasture_ColEcuaCst,AllFore
 Colombia,root,AgroForestLand_MagdalenaR,AgroForest_NonPasture_MagdalenaR,AllForestLand_MagdalenaR,biomass_tree_MagdalenaR,biomass_tree_MagdalenaR_RFD,2020,0.9465039
 Colombia,root,AgroForestLand_OrinocoR,AgroForest_NonPasture_OrinocoR,AllForestLand_OrinocoR,biomass_tree_OrinocoR,biomass_tree_OrinocoR_RFD,2020,0.9783549
 Colombia,root,AgroForestLand_SAmerCstN,AgroForest_NonPasture_SAmerCstN,AllForestLand_SAmerCstN,biomass_tree_SAmerCstN,biomass_tree_SAmerCstN_RFD,2020,0.9531881
-
-INPUT_TABLE
-Variable ID
-11000
-
-from,to
-LandNode1,LandNode
-LandNode2,LandNode
-LandNode3,LandNode
-LandNode4,LandNode
-LandNode5,LandNode

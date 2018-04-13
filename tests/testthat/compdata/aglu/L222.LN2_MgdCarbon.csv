@@ -1,9 +1,8 @@
-INPUT_TABLE
-Variable ID
-LN2_MgdCarbon
-
+#INPUT_TABLE
+#Variable ID
+#LN2_MgdCarbon
 region,LandAllocatorRoot,LandNode1,LandNode2,LandLeaf,hist.veg.carbon.density,hist.soil.carbon.density,veg.carbon.density,soil.carbon.density,mature.age.year.fillout,mature.age,min.veg.carbon.density,min.soil.carbon.density
-USA,root,AgroForestLand_PacArctic,AllPastureLand_PacArctic,Pasture_PacArctic,1.7,15.6,1.7,15.6,1975,36,0,0
+USA,root,AgroForestLand_PacArctic,AllPastureLand_PacArctic,Pasture_PacArctic,1.7,15.6,1.7,15.6,1975,36,0.0,0.0
 USA,root,AgroForestLand_NelsonR,AllPastureLand_NelsonR,Pasture_NelsonR,1,12.8,1,12.8,1975,16,0,0
 USA,root,AgroForestLand_FraserR,AllPastureLand_FraserR,Pasture_FraserR,2.5,18.1,2.5,18.1,1975,50,0,0
 USA,root,AgroForestLand_MexCstNW,AllPastureLand_MexCstNW,Pasture_MexCstNW,0.9,11.4,0.9,11.4,1975,18,0,0
@@ -381,14 +380,3 @@ Colombia,root,AgroForestLand_OrinocoR,AllPastureLand_OrinocoR,Pasture_OrinocoR,2
 Colombia,root,AgroForestLand_ColEcuaCst,AllPastureLand_ColEcuaCst,Pasture_ColEcuaCst,1.8,11,1.8,11,1975,31,0,0
 Colombia,root,AgroForestLand_MagdalenaR,AllPastureLand_MagdalenaR,Pasture_MagdalenaR,2.3,10.1,2.3,10.1,1975,37,0,0
 Colombia,root,AgroForestLand_AmazonR,AllPastureLand_AmazonR,Pasture_AmazonR,2.3,10.3,2.3,10.3,1975,38,0,0
-
-INPUT_TABLE
-Variable ID
-11000
-
-from,to
-LandNode1,LandNode
-LandNode2,LandNode
-LandNode3,LandNode
-LandNode4,LandNode
-LandNode5,LandNode

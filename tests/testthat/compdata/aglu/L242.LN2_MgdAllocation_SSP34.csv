@@ -1,7 +1,6 @@
-INPUT_TABLE
-Variable ID
-LN2_MgdAllocation
-
+#INPUT_TABLE
+#Variable ID
+#LN2_MgdAllocation
 region,LandAllocatorRoot,LandNode1,LandNode2,LandLeaf,year,allocation
 Africa_Eastern,root,AgroForestLand_NileR,AllPastureLand_NileR,Pasture_NileR,1975,309.3028918
 Africa_Eastern,root,AgroForestLand_AfrCstNE,AllPastureLand_AfrCstNE,Pasture_AfrCstNE,1975,110.75244905
@@ -275,14 +274,3 @@ South Asia,root,AgroForestLand_HamuMashR,AllPastureLand_HamuMashR,Pasture_HamuMa
 South Asia,root,AgroForestLand_GangesR,AllPastureLand_GangesR,Pasture_GangesR,2010,8.32596555
 South Asia,root,AgroForestLand_BengalBay,AllPastureLand_BengalBay,Pasture_BengalBay,2010,0.198405925
 South Asia,root,AgroForestLand_SriLanka,AllPastureLand_SriLanka,Pasture_SriLanka,2010,1.3047636
-
-INPUT_TABLE
-Variable ID
-11000
-
-from,to
-LandNode1,LandNode
-LandNode2,LandNode
-LandNode3,LandNode
-LandNode4,LandNode
-LandNode5,LandNode
