@@ -1,7 +1,6 @@
-INPUT_TABLE
-Variable ID
-LN4_Logit
-
+#INPUT_TABLE
+#Variable ID
+#LN4_Logit
 region,LandAllocatorRoot,LandNode1,LandNode2,LandNode3,LandNode4,logit.year.fillout,logit.exponent
 Canada,root,AgroForestLand_NWTerr,AgroForest_NonPasture_NWTerr,CropLand_NWTerr,Corn_NWTerr,1975,0.875
 Canada,root,AgroForestLand_NWTerr,AgroForest_NonPasture_NWTerr,CropLand_NWTerr,FiberCrop_NWTerr,1975,0.875

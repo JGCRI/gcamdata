@@ -1,6 +1,9 @@
-# Carbon content info for protected unmanaged land (LT_GLU) in the first nest including soil and vegetative carbon.
+INPUT_TABLE
+Variable ID
+LN1_UnmgdCarbon
+
 region,LandAllocatorRoot,LandNode1,UnmanagedLandLeaf,hist.veg.carbon.density,hist.soil.carbon.density,veg.carbon.density,soil.carbon.density,mature.age.year.fillout,mature.age,min.veg.carbon.density,min.soil.carbon.density
-USA,root,ProtectedShrubland_PacArctic,ProtectedShrubland_PacArctic,0.9,6.9,0.9,6.9,1975,49,0,0
+USA,root,ProtectedShrubland_PacArctic,ProtectedShrubland_PacArctic,0.9,6.9,0.9,6.9,1975,49.0,0.0,0.0
 USA,root,ProtectedShrubland_MexCstNW,ProtectedShrubland_MexCstNW,1.2,7.1,1.2,7.1,1975,41,0,0
 USA,root,ProtectedShrubland_California,ProtectedShrubland_California,1.1,7,1.1,7,1975,45,0,0
 USA,root,ProtectedShrubland_UsaColoRN,ProtectedShrubland_UsaColoRN,1,6.9,1,6.9,1975,47,0,0
