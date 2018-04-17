@@ -1,9 +1,8 @@
-INPUT_TABLE
-Variable ID
-LN1_UnmgdCarbon
-
+#INPUT_TABLE
+#Variable ID
+#LN1_UnmgdCarbon
 region,LandAllocatorRoot,LandNode1,UnmanagedLandLeaf,hist.veg.carbon.density,hist.soil.carbon.density,veg.carbon.density,soil.carbon.density,mature.age.year.fillout,mature.age,min.veg.carbon.density,min.soil.carbon.density
-USA,root,ProtectedUnmanagedPasture_PacArctic,ProtectedUnmanagedPasture_PacArctic,1.7,15.6,1.7,15.6,1975,36,0,0
+USA,root,ProtectedUnmanagedPasture_PacArctic,ProtectedUnmanagedPasture_PacArctic,1.7,15.6,1.7,15.6,1975,36.0,0.0,0.0
 USA,root,ProtectedUnmanagedPasture_NelsonR,ProtectedUnmanagedPasture_NelsonR,1,12.8,1,12.8,1975,16,0,0
 USA,root,ProtectedUnmanagedPasture_FraserR,ProtectedUnmanagedPasture_FraserR,2.5,18.1,2.5,18.1,1975,50,0,0
 USA,root,ProtectedUnmanagedPasture_MexCstNW,ProtectedUnmanagedPasture_MexCstNW,0.9,11.4,0.9,11.4,1975,18,0,0
