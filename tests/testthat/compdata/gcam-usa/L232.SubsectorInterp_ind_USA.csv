@@ -1,0 +1,464 @@
+INPUT_TABLE
+Variable ID
+SubsectorInterp
+
+region,supplysector,subsector,apply.to,from.year,to.year,interpolation.function
+AK,industrial energy use,biomass,share-weight,2010,2100,fixed
+AK,industrial energy use,coal,share-weight,2010,2100,fixed
+AK,industrial energy use,electricity,share-weight,2010,2100,fixed
+AK,industrial energy use,gas,share-weight,2010,2100,fixed
+AK,industrial energy use,hydrogen,share-weight,2010,2050,linear
+AK,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+AK,industrial feedstocks,coal,share-weight,2010,2100,fixed
+AK,industrial feedstocks,gas,share-weight,2010,2100,fixed
+AK,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+AL,industrial energy use,biomass,share-weight,2010,2100,fixed
+AL,industrial energy use,coal,share-weight,2010,2100,fixed
+AL,industrial energy use,electricity,share-weight,2010,2100,fixed
+AL,industrial energy use,gas,share-weight,2010,2100,fixed
+AL,industrial energy use,hydrogen,share-weight,2010,2050,linear
+AL,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+AL,industrial feedstocks,coal,share-weight,2010,2100,fixed
+AL,industrial feedstocks,gas,share-weight,2010,2100,fixed
+AL,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+AR,industrial energy use,biomass,share-weight,2010,2100,fixed
+AR,industrial energy use,coal,share-weight,2010,2100,fixed
+AR,industrial energy use,electricity,share-weight,2010,2100,fixed
+AR,industrial energy use,gas,share-weight,2010,2100,fixed
+AR,industrial energy use,hydrogen,share-weight,2010,2050,linear
+AR,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+AR,industrial feedstocks,coal,share-weight,2010,2100,fixed
+AR,industrial feedstocks,gas,share-weight,2010,2100,fixed
+AR,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+AZ,industrial energy use,biomass,share-weight,2010,2100,fixed
+AZ,industrial energy use,coal,share-weight,2010,2100,fixed
+AZ,industrial energy use,electricity,share-weight,2010,2100,fixed
+AZ,industrial energy use,gas,share-weight,2010,2100,fixed
+AZ,industrial energy use,hydrogen,share-weight,2010,2050,linear
+AZ,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+AZ,industrial feedstocks,coal,share-weight,2010,2100,fixed
+AZ,industrial feedstocks,gas,share-weight,2010,2100,fixed
+AZ,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+CA,industrial energy use,biomass,share-weight,2010,2100,fixed
+CA,industrial energy use,coal,share-weight,2010,2100,fixed
+CA,industrial energy use,electricity,share-weight,2010,2100,fixed
+CA,industrial energy use,gas,share-weight,2010,2100,fixed
+CA,industrial energy use,hydrogen,share-weight,2010,2050,linear
+CA,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+CA,industrial feedstocks,coal,share-weight,2010,2100,fixed
+CA,industrial feedstocks,gas,share-weight,2010,2100,fixed
+CA,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+CO,industrial energy use,biomass,share-weight,2010,2100,fixed
+CO,industrial energy use,coal,share-weight,2010,2100,fixed
+CO,industrial energy use,electricity,share-weight,2010,2100,fixed
+CO,industrial energy use,gas,share-weight,2010,2100,fixed
+CO,industrial energy use,hydrogen,share-weight,2010,2050,linear
+CO,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+CO,industrial feedstocks,coal,share-weight,2010,2100,fixed
+CO,industrial feedstocks,gas,share-weight,2010,2100,fixed
+CO,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+CT,industrial energy use,biomass,share-weight,2010,2100,fixed
+CT,industrial energy use,coal,share-weight,2010,2100,fixed
+CT,industrial energy use,electricity,share-weight,2010,2100,fixed
+CT,industrial energy use,gas,share-weight,2010,2100,fixed
+CT,industrial energy use,hydrogen,share-weight,2010,2050,linear
+CT,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+CT,industrial feedstocks,coal,share-weight,2010,2100,fixed
+CT,industrial feedstocks,gas,share-weight,2010,2100,fixed
+CT,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+DC,industrial energy use,biomass,share-weight,2010,2100,fixed
+DC,industrial energy use,coal,share-weight,2010,2100,fixed
+DC,industrial energy use,electricity,share-weight,2010,2100,fixed
+DC,industrial energy use,gas,share-weight,2010,2100,fixed
+DC,industrial energy use,hydrogen,share-weight,2010,2050,linear
+DC,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+DC,industrial feedstocks,coal,share-weight,2010,2100,fixed
+DC,industrial feedstocks,gas,share-weight,2010,2100,fixed
+DC,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+DE,industrial energy use,biomass,share-weight,2010,2100,fixed
+DE,industrial energy use,coal,share-weight,2010,2100,fixed
+DE,industrial energy use,electricity,share-weight,2010,2100,fixed
+DE,industrial energy use,gas,share-weight,2010,2100,fixed
+DE,industrial energy use,hydrogen,share-weight,2010,2050,linear
+DE,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+DE,industrial feedstocks,coal,share-weight,2010,2100,fixed
+DE,industrial feedstocks,gas,share-weight,2010,2100,fixed
+DE,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+FL,industrial energy use,biomass,share-weight,2010,2100,fixed
+FL,industrial energy use,coal,share-weight,2010,2100,fixed
+FL,industrial energy use,electricity,share-weight,2010,2100,fixed
+FL,industrial energy use,gas,share-weight,2010,2100,fixed
+FL,industrial energy use,hydrogen,share-weight,2010,2050,linear
+FL,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+FL,industrial feedstocks,coal,share-weight,2010,2100,fixed
+FL,industrial feedstocks,gas,share-weight,2010,2100,fixed
+FL,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+GA,industrial energy use,biomass,share-weight,2010,2100,fixed
+GA,industrial energy use,coal,share-weight,2010,2100,fixed
+GA,industrial energy use,electricity,share-weight,2010,2100,fixed
+GA,industrial energy use,gas,share-weight,2010,2100,fixed
+GA,industrial energy use,hydrogen,share-weight,2010,2050,linear
+GA,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+GA,industrial feedstocks,coal,share-weight,2010,2100,fixed
+GA,industrial feedstocks,gas,share-weight,2010,2100,fixed
+GA,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+HI,industrial energy use,biomass,share-weight,2010,2100,fixed
+HI,industrial energy use,coal,share-weight,2010,2100,fixed
+HI,industrial energy use,electricity,share-weight,2010,2100,fixed
+HI,industrial energy use,gas,share-weight,2010,2100,fixed
+HI,industrial energy use,hydrogen,share-weight,2010,2050,linear
+HI,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+HI,industrial feedstocks,coal,share-weight,2010,2100,fixed
+HI,industrial feedstocks,gas,share-weight,2010,2100,fixed
+HI,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+IA,industrial energy use,biomass,share-weight,2010,2100,fixed
+IA,industrial energy use,coal,share-weight,2010,2100,fixed
+IA,industrial energy use,electricity,share-weight,2010,2100,fixed
+IA,industrial energy use,gas,share-weight,2010,2100,fixed
+IA,industrial energy use,hydrogen,share-weight,2010,2050,linear
+IA,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+IA,industrial feedstocks,coal,share-weight,2010,2100,fixed
+IA,industrial feedstocks,gas,share-weight,2010,2100,fixed
+IA,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+ID,industrial energy use,biomass,share-weight,2010,2100,fixed
+ID,industrial energy use,coal,share-weight,2010,2100,fixed
+ID,industrial energy use,electricity,share-weight,2010,2100,fixed
+ID,industrial energy use,gas,share-weight,2010,2100,fixed
+ID,industrial energy use,hydrogen,share-weight,2010,2050,linear
+ID,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+ID,industrial feedstocks,coal,share-weight,2010,2100,fixed
+ID,industrial feedstocks,gas,share-weight,2010,2100,fixed
+ID,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+IL,industrial energy use,biomass,share-weight,2010,2100,fixed
+IL,industrial energy use,coal,share-weight,2010,2100,fixed
+IL,industrial energy use,electricity,share-weight,2010,2100,fixed
+IL,industrial energy use,gas,share-weight,2010,2100,fixed
+IL,industrial energy use,hydrogen,share-weight,2010,2050,linear
+IL,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+IL,industrial feedstocks,coal,share-weight,2010,2100,fixed
+IL,industrial feedstocks,gas,share-weight,2010,2100,fixed
+IL,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+IN,industrial energy use,biomass,share-weight,2010,2100,fixed
+IN,industrial energy use,coal,share-weight,2010,2100,fixed
+IN,industrial energy use,electricity,share-weight,2010,2100,fixed
+IN,industrial energy use,gas,share-weight,2010,2100,fixed
+IN,industrial energy use,hydrogen,share-weight,2010,2050,linear
+IN,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+IN,industrial feedstocks,coal,share-weight,2010,2100,fixed
+IN,industrial feedstocks,gas,share-weight,2010,2100,fixed
+IN,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+KS,industrial energy use,biomass,share-weight,2010,2100,fixed
+KS,industrial energy use,coal,share-weight,2010,2100,fixed
+KS,industrial energy use,electricity,share-weight,2010,2100,fixed
+KS,industrial energy use,gas,share-weight,2010,2100,fixed
+KS,industrial energy use,hydrogen,share-weight,2010,2050,linear
+KS,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+KS,industrial feedstocks,coal,share-weight,2010,2100,fixed
+KS,industrial feedstocks,gas,share-weight,2010,2100,fixed
+KS,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+KY,industrial energy use,biomass,share-weight,2010,2100,fixed
+KY,industrial energy use,coal,share-weight,2010,2100,fixed
+KY,industrial energy use,electricity,share-weight,2010,2100,fixed
+KY,industrial energy use,gas,share-weight,2010,2100,fixed
+KY,industrial energy use,hydrogen,share-weight,2010,2050,linear
+KY,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+KY,industrial feedstocks,coal,share-weight,2010,2100,fixed
+KY,industrial feedstocks,gas,share-weight,2010,2100,fixed
+KY,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+LA,industrial energy use,biomass,share-weight,2010,2100,fixed
+LA,industrial energy use,coal,share-weight,2010,2100,fixed
+LA,industrial energy use,electricity,share-weight,2010,2100,fixed
+LA,industrial energy use,gas,share-weight,2010,2100,fixed
+LA,industrial energy use,hydrogen,share-weight,2010,2050,linear
+LA,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+LA,industrial feedstocks,coal,share-weight,2010,2100,fixed
+LA,industrial feedstocks,gas,share-weight,2010,2100,fixed
+LA,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+MA,industrial energy use,biomass,share-weight,2010,2100,fixed
+MA,industrial energy use,coal,share-weight,2010,2100,fixed
+MA,industrial energy use,electricity,share-weight,2010,2100,fixed
+MA,industrial energy use,gas,share-weight,2010,2100,fixed
+MA,industrial energy use,hydrogen,share-weight,2010,2050,linear
+MA,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+MA,industrial feedstocks,coal,share-weight,2010,2100,fixed
+MA,industrial feedstocks,gas,share-weight,2010,2100,fixed
+MA,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+MD,industrial energy use,biomass,share-weight,2010,2100,fixed
+MD,industrial energy use,coal,share-weight,2010,2100,fixed
+MD,industrial energy use,electricity,share-weight,2010,2100,fixed
+MD,industrial energy use,gas,share-weight,2010,2100,fixed
+MD,industrial energy use,hydrogen,share-weight,2010,2050,linear
+MD,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+MD,industrial feedstocks,coal,share-weight,2010,2100,fixed
+MD,industrial feedstocks,gas,share-weight,2010,2100,fixed
+MD,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+ME,industrial energy use,biomass,share-weight,2010,2100,fixed
+ME,industrial energy use,coal,share-weight,2010,2100,fixed
+ME,industrial energy use,electricity,share-weight,2010,2100,fixed
+ME,industrial energy use,gas,share-weight,2010,2100,fixed
+ME,industrial energy use,hydrogen,share-weight,2010,2050,linear
+ME,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+ME,industrial feedstocks,coal,share-weight,2010,2100,fixed
+ME,industrial feedstocks,gas,share-weight,2010,2100,fixed
+ME,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+MI,industrial energy use,biomass,share-weight,2010,2100,fixed
+MI,industrial energy use,coal,share-weight,2010,2100,fixed
+MI,industrial energy use,electricity,share-weight,2010,2100,fixed
+MI,industrial energy use,gas,share-weight,2010,2100,fixed
+MI,industrial energy use,hydrogen,share-weight,2010,2050,linear
+MI,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+MI,industrial feedstocks,coal,share-weight,2010,2100,fixed
+MI,industrial feedstocks,gas,share-weight,2010,2100,fixed
+MI,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+MN,industrial energy use,biomass,share-weight,2010,2100,fixed
+MN,industrial energy use,coal,share-weight,2010,2100,fixed
+MN,industrial energy use,electricity,share-weight,2010,2100,fixed
+MN,industrial energy use,gas,share-weight,2010,2100,fixed
+MN,industrial energy use,hydrogen,share-weight,2010,2050,linear
+MN,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+MN,industrial feedstocks,coal,share-weight,2010,2100,fixed
+MN,industrial feedstocks,gas,share-weight,2010,2100,fixed
+MN,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+MO,industrial energy use,biomass,share-weight,2010,2100,fixed
+MO,industrial energy use,coal,share-weight,2010,2100,fixed
+MO,industrial energy use,electricity,share-weight,2010,2100,fixed
+MO,industrial energy use,gas,share-weight,2010,2100,fixed
+MO,industrial energy use,hydrogen,share-weight,2010,2050,linear
+MO,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+MO,industrial feedstocks,coal,share-weight,2010,2100,fixed
+MO,industrial feedstocks,gas,share-weight,2010,2100,fixed
+MO,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+MS,industrial energy use,biomass,share-weight,2010,2100,fixed
+MS,industrial energy use,coal,share-weight,2010,2100,fixed
+MS,industrial energy use,electricity,share-weight,2010,2100,fixed
+MS,industrial energy use,gas,share-weight,2010,2100,fixed
+MS,industrial energy use,hydrogen,share-weight,2010,2050,linear
+MS,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+MS,industrial feedstocks,coal,share-weight,2010,2100,fixed
+MS,industrial feedstocks,gas,share-weight,2010,2100,fixed
+MS,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+MT,industrial energy use,biomass,share-weight,2010,2100,fixed
+MT,industrial energy use,coal,share-weight,2010,2100,fixed
+MT,industrial energy use,electricity,share-weight,2010,2100,fixed
+MT,industrial energy use,gas,share-weight,2010,2100,fixed
+MT,industrial energy use,hydrogen,share-weight,2010,2050,linear
+MT,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+MT,industrial feedstocks,coal,share-weight,2010,2100,fixed
+MT,industrial feedstocks,gas,share-weight,2010,2100,fixed
+MT,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+NC,industrial energy use,biomass,share-weight,2010,2100,fixed
+NC,industrial energy use,coal,share-weight,2010,2100,fixed
+NC,industrial energy use,electricity,share-weight,2010,2100,fixed
+NC,industrial energy use,gas,share-weight,2010,2100,fixed
+NC,industrial energy use,hydrogen,share-weight,2010,2050,linear
+NC,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+NC,industrial feedstocks,coal,share-weight,2010,2100,fixed
+NC,industrial feedstocks,gas,share-weight,2010,2100,fixed
+NC,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+ND,industrial energy use,biomass,share-weight,2010,2100,fixed
+ND,industrial energy use,coal,share-weight,2010,2100,fixed
+ND,industrial energy use,electricity,share-weight,2010,2100,fixed
+ND,industrial energy use,gas,share-weight,2010,2100,fixed
+ND,industrial energy use,hydrogen,share-weight,2010,2050,linear
+ND,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+ND,industrial feedstocks,coal,share-weight,2010,2100,fixed
+ND,industrial feedstocks,gas,share-weight,2010,2100,fixed
+ND,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+NE,industrial energy use,biomass,share-weight,2010,2100,fixed
+NE,industrial energy use,coal,share-weight,2010,2100,fixed
+NE,industrial energy use,electricity,share-weight,2010,2100,fixed
+NE,industrial energy use,gas,share-weight,2010,2100,fixed
+NE,industrial energy use,hydrogen,share-weight,2010,2050,linear
+NE,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+NE,industrial feedstocks,coal,share-weight,2010,2100,fixed
+NE,industrial feedstocks,gas,share-weight,2010,2100,fixed
+NE,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+NH,industrial energy use,biomass,share-weight,2010,2100,fixed
+NH,industrial energy use,coal,share-weight,2010,2100,fixed
+NH,industrial energy use,electricity,share-weight,2010,2100,fixed
+NH,industrial energy use,gas,share-weight,2010,2100,fixed
+NH,industrial energy use,hydrogen,share-weight,2010,2050,linear
+NH,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+NH,industrial feedstocks,coal,share-weight,2010,2100,fixed
+NH,industrial feedstocks,gas,share-weight,2010,2100,fixed
+NH,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+NJ,industrial energy use,biomass,share-weight,2010,2100,fixed
+NJ,industrial energy use,coal,share-weight,2010,2100,fixed
+NJ,industrial energy use,electricity,share-weight,2010,2100,fixed
+NJ,industrial energy use,gas,share-weight,2010,2100,fixed
+NJ,industrial energy use,hydrogen,share-weight,2010,2050,linear
+NJ,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+NJ,industrial feedstocks,coal,share-weight,2010,2100,fixed
+NJ,industrial feedstocks,gas,share-weight,2010,2100,fixed
+NJ,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+NM,industrial energy use,biomass,share-weight,2010,2100,fixed
+NM,industrial energy use,coal,share-weight,2010,2100,fixed
+NM,industrial energy use,electricity,share-weight,2010,2100,fixed
+NM,industrial energy use,gas,share-weight,2010,2100,fixed
+NM,industrial energy use,hydrogen,share-weight,2010,2050,linear
+NM,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+NM,industrial feedstocks,coal,share-weight,2010,2100,fixed
+NM,industrial feedstocks,gas,share-weight,2010,2100,fixed
+NM,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+NV,industrial energy use,biomass,share-weight,2010,2100,fixed
+NV,industrial energy use,coal,share-weight,2010,2100,fixed
+NV,industrial energy use,electricity,share-weight,2010,2100,fixed
+NV,industrial energy use,gas,share-weight,2010,2100,fixed
+NV,industrial energy use,hydrogen,share-weight,2010,2050,linear
+NV,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+NV,industrial feedstocks,coal,share-weight,2010,2100,fixed
+NV,industrial feedstocks,gas,share-weight,2010,2100,fixed
+NV,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+NY,industrial energy use,biomass,share-weight,2010,2100,fixed
+NY,industrial energy use,coal,share-weight,2010,2100,fixed
+NY,industrial energy use,electricity,share-weight,2010,2100,fixed
+NY,industrial energy use,gas,share-weight,2010,2100,fixed
+NY,industrial energy use,hydrogen,share-weight,2010,2050,linear
+NY,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+NY,industrial feedstocks,coal,share-weight,2010,2100,fixed
+NY,industrial feedstocks,gas,share-weight,2010,2100,fixed
+NY,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+OH,industrial energy use,biomass,share-weight,2010,2100,fixed
+OH,industrial energy use,coal,share-weight,2010,2100,fixed
+OH,industrial energy use,electricity,share-weight,2010,2100,fixed
+OH,industrial energy use,gas,share-weight,2010,2100,fixed
+OH,industrial energy use,hydrogen,share-weight,2010,2050,linear
+OH,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+OH,industrial feedstocks,coal,share-weight,2010,2100,fixed
+OH,industrial feedstocks,gas,share-weight,2010,2100,fixed
+OH,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+OK,industrial energy use,biomass,share-weight,2010,2100,fixed
+OK,industrial energy use,coal,share-weight,2010,2100,fixed
+OK,industrial energy use,electricity,share-weight,2010,2100,fixed
+OK,industrial energy use,gas,share-weight,2010,2100,fixed
+OK,industrial energy use,hydrogen,share-weight,2010,2050,linear
+OK,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+OK,industrial feedstocks,coal,share-weight,2010,2100,fixed
+OK,industrial feedstocks,gas,share-weight,2010,2100,fixed
+OK,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+OR,industrial energy use,biomass,share-weight,2010,2100,fixed
+OR,industrial energy use,coal,share-weight,2010,2100,fixed
+OR,industrial energy use,electricity,share-weight,2010,2100,fixed
+OR,industrial energy use,gas,share-weight,2010,2100,fixed
+OR,industrial energy use,hydrogen,share-weight,2010,2050,linear
+OR,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+OR,industrial feedstocks,coal,share-weight,2010,2100,fixed
+OR,industrial feedstocks,gas,share-weight,2010,2100,fixed
+OR,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+PA,industrial energy use,biomass,share-weight,2010,2100,fixed
+PA,industrial energy use,coal,share-weight,2010,2100,fixed
+PA,industrial energy use,electricity,share-weight,2010,2100,fixed
+PA,industrial energy use,gas,share-weight,2010,2100,fixed
+PA,industrial energy use,hydrogen,share-weight,2010,2050,linear
+PA,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+PA,industrial feedstocks,coal,share-weight,2010,2100,fixed
+PA,industrial feedstocks,gas,share-weight,2010,2100,fixed
+PA,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+RI,industrial energy use,biomass,share-weight,2010,2100,fixed
+RI,industrial energy use,coal,share-weight,2010,2100,fixed
+RI,industrial energy use,electricity,share-weight,2010,2100,fixed
+RI,industrial energy use,gas,share-weight,2010,2100,fixed
+RI,industrial energy use,hydrogen,share-weight,2010,2050,linear
+RI,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+RI,industrial feedstocks,coal,share-weight,2010,2100,fixed
+RI,industrial feedstocks,gas,share-weight,2010,2100,fixed
+RI,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+SC,industrial energy use,biomass,share-weight,2010,2100,fixed
+SC,industrial energy use,coal,share-weight,2010,2100,fixed
+SC,industrial energy use,electricity,share-weight,2010,2100,fixed
+SC,industrial energy use,gas,share-weight,2010,2100,fixed
+SC,industrial energy use,hydrogen,share-weight,2010,2050,linear
+SC,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+SC,industrial feedstocks,coal,share-weight,2010,2100,fixed
+SC,industrial feedstocks,gas,share-weight,2010,2100,fixed
+SC,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+SD,industrial energy use,biomass,share-weight,2010,2100,fixed
+SD,industrial energy use,coal,share-weight,2010,2100,fixed
+SD,industrial energy use,electricity,share-weight,2010,2100,fixed
+SD,industrial energy use,gas,share-weight,2010,2100,fixed
+SD,industrial energy use,hydrogen,share-weight,2010,2050,linear
+SD,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+SD,industrial feedstocks,coal,share-weight,2010,2100,fixed
+SD,industrial feedstocks,gas,share-weight,2010,2100,fixed
+SD,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+TN,industrial energy use,biomass,share-weight,2010,2100,fixed
+TN,industrial energy use,coal,share-weight,2010,2100,fixed
+TN,industrial energy use,electricity,share-weight,2010,2100,fixed
+TN,industrial energy use,gas,share-weight,2010,2100,fixed
+TN,industrial energy use,hydrogen,share-weight,2010,2050,linear
+TN,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+TN,industrial feedstocks,coal,share-weight,2010,2100,fixed
+TN,industrial feedstocks,gas,share-weight,2010,2100,fixed
+TN,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+TX,industrial energy use,biomass,share-weight,2010,2100,fixed
+TX,industrial energy use,coal,share-weight,2010,2100,fixed
+TX,industrial energy use,electricity,share-weight,2010,2100,fixed
+TX,industrial energy use,gas,share-weight,2010,2100,fixed
+TX,industrial energy use,hydrogen,share-weight,2010,2050,linear
+TX,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+TX,industrial feedstocks,coal,share-weight,2010,2100,fixed
+TX,industrial feedstocks,gas,share-weight,2010,2100,fixed
+TX,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+UT,industrial energy use,biomass,share-weight,2010,2100,fixed
+UT,industrial energy use,coal,share-weight,2010,2100,fixed
+UT,industrial energy use,electricity,share-weight,2010,2100,fixed
+UT,industrial energy use,gas,share-weight,2010,2100,fixed
+UT,industrial energy use,hydrogen,share-weight,2010,2050,linear
+UT,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+UT,industrial feedstocks,coal,share-weight,2010,2100,fixed
+UT,industrial feedstocks,gas,share-weight,2010,2100,fixed
+UT,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+VA,industrial energy use,biomass,share-weight,2010,2100,fixed
+VA,industrial energy use,coal,share-weight,2010,2100,fixed
+VA,industrial energy use,electricity,share-weight,2010,2100,fixed
+VA,industrial energy use,gas,share-weight,2010,2100,fixed
+VA,industrial energy use,hydrogen,share-weight,2010,2050,linear
+VA,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+VA,industrial feedstocks,coal,share-weight,2010,2100,fixed
+VA,industrial feedstocks,gas,share-weight,2010,2100,fixed
+VA,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+VT,industrial energy use,biomass,share-weight,2010,2100,fixed
+VT,industrial energy use,coal,share-weight,2010,2100,fixed
+VT,industrial energy use,electricity,share-weight,2010,2100,fixed
+VT,industrial energy use,gas,share-weight,2010,2100,fixed
+VT,industrial energy use,hydrogen,share-weight,2010,2050,linear
+VT,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+VT,industrial feedstocks,coal,share-weight,2010,2100,fixed
+VT,industrial feedstocks,gas,share-weight,2010,2100,fixed
+VT,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+WA,industrial energy use,biomass,share-weight,2010,2100,fixed
+WA,industrial energy use,coal,share-weight,2010,2100,fixed
+WA,industrial energy use,electricity,share-weight,2010,2100,fixed
+WA,industrial energy use,gas,share-weight,2010,2100,fixed
+WA,industrial energy use,hydrogen,share-weight,2010,2050,linear
+WA,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+WA,industrial feedstocks,coal,share-weight,2010,2100,fixed
+WA,industrial feedstocks,gas,share-weight,2010,2100,fixed
+WA,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+WI,industrial energy use,biomass,share-weight,2010,2100,fixed
+WI,industrial energy use,coal,share-weight,2010,2100,fixed
+WI,industrial energy use,electricity,share-weight,2010,2100,fixed
+WI,industrial energy use,gas,share-weight,2010,2100,fixed
+WI,industrial energy use,hydrogen,share-weight,2010,2050,linear
+WI,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+WI,industrial feedstocks,coal,share-weight,2010,2100,fixed
+WI,industrial feedstocks,gas,share-weight,2010,2100,fixed
+WI,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+WV,industrial energy use,biomass,share-weight,2010,2100,fixed
+WV,industrial energy use,coal,share-weight,2010,2100,fixed
+WV,industrial energy use,electricity,share-weight,2010,2100,fixed
+WV,industrial energy use,gas,share-weight,2010,2100,fixed
+WV,industrial energy use,hydrogen,share-weight,2010,2050,linear
+WV,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+WV,industrial feedstocks,coal,share-weight,2010,2100,fixed
+WV,industrial feedstocks,gas,share-weight,2010,2100,fixed
+WV,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed
+WY,industrial energy use,biomass,share-weight,2010,2100,fixed
+WY,industrial energy use,coal,share-weight,2010,2100,fixed
+WY,industrial energy use,electricity,share-weight,2010,2100,fixed
+WY,industrial energy use,gas,share-weight,2010,2100,fixed
+WY,industrial energy use,hydrogen,share-weight,2010,2050,linear
+WY,industrial energy use,refined liquids,share-weight,2010,2100,fixed
+WY,industrial feedstocks,coal,share-weight,2010,2100,fixed
+WY,industrial feedstocks,gas,share-weight,2010,2100,fixed
+WY,industrial feedstocks,refined liquids,share-weight,2010,2100,fixed

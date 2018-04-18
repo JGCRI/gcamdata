@@ -1,7 +1,7 @@
-#INPUT_TABLE
-#Variable ID
-#SubsectorInterp
-#
+INPUT_TABLE
+Variable ID
+SubsectorInterp
+
 region,supplysector,subsector,apply.to,from.year,to.year,interpolation.function
 USA,electricity trade,Alaska grid electricity trade,share-weight,2010,2100,fixed
 USA,electricity trade,California grid electricity trade,share-weight,2010,2100,fixed

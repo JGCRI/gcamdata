@@ -1,7 +1,7 @@
-#INPUT_TABLE
-#Variable ID
-#SubsectorLogit
-#
+INPUT_TABLE
+Variable ID
+SubsectorLogit
+
 region,supplysector,subsector,logit.year.fillout,logit.exponent
 AK,electricity,coal,1975,-10
 AK,electricity,gas,1975,-10

@@ -1,7 +1,7 @@
-#INPUT_TABLE
-#Variable ID
-#SubsectorLogit
-#
+INPUT_TABLE
+Variable ID
+SubsectorLogit
+
 region,supplysector,subsector,logit.year.fillout,logit.exponent,grid_region
 AK,carbon-storage,offshore carbon-storage,1975,-6,Alaska grid
 AL,carbon-storage,onshore carbon-storage,1975,-6,Southeast grid

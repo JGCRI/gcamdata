@@ -1,0 +1,515 @@
+INPUT_TABLE
+Variable ID
+SubsectorLogit
+
+region,supplysector,subsector,logit.year.fillout,logit.exponent
+AK,industrial energy use,biomass,1975,-6
+AK,industrial energy use,coal,1975,-6
+AK,industrial energy use,electricity,1975,-6
+AK,industrial energy use,gas,1975,-6
+AK,industrial energy use,hydrogen,1975,-6
+AK,industrial energy use,refined liquids,1975,-6
+AK,industrial feedstocks,coal,1975,-6
+AK,industrial feedstocks,gas,1975,-6
+AK,industrial feedstocks,refined liquids,1975,-6
+AK,industry,industry,1975,-6
+AL,industrial energy use,biomass,1975,-6
+AL,industrial energy use,coal,1975,-6
+AL,industrial energy use,electricity,1975,-6
+AL,industrial energy use,gas,1975,-6
+AL,industrial energy use,hydrogen,1975,-6
+AL,industrial energy use,refined liquids,1975,-6
+AL,industrial feedstocks,coal,1975,-6
+AL,industrial feedstocks,gas,1975,-6
+AL,industrial feedstocks,refined liquids,1975,-6
+AL,industry,industry,1975,-6
+AR,industrial energy use,biomass,1975,-6
+AR,industrial energy use,coal,1975,-6
+AR,industrial energy use,electricity,1975,-6
+AR,industrial energy use,gas,1975,-6
+AR,industrial energy use,hydrogen,1975,-6
+AR,industrial energy use,refined liquids,1975,-6
+AR,industrial feedstocks,coal,1975,-6
+AR,industrial feedstocks,gas,1975,-6
+AR,industrial feedstocks,refined liquids,1975,-6
+AR,industry,industry,1975,-6
+AZ,industrial energy use,biomass,1975,-6
+AZ,industrial energy use,coal,1975,-6
+AZ,industrial energy use,electricity,1975,-6
+AZ,industrial energy use,gas,1975,-6
+AZ,industrial energy use,hydrogen,1975,-6
+AZ,industrial energy use,refined liquids,1975,-6
+AZ,industrial feedstocks,coal,1975,-6
+AZ,industrial feedstocks,gas,1975,-6
+AZ,industrial feedstocks,refined liquids,1975,-6
+AZ,industry,industry,1975,-6
+CA,industrial energy use,biomass,1975,-6
+CA,industrial energy use,coal,1975,-6
+CA,industrial energy use,electricity,1975,-6
+CA,industrial energy use,gas,1975,-6
+CA,industrial energy use,hydrogen,1975,-6
+CA,industrial energy use,refined liquids,1975,-6
+CA,industrial feedstocks,coal,1975,-6
+CA,industrial feedstocks,gas,1975,-6
+CA,industrial feedstocks,refined liquids,1975,-6
+CA,industry,industry,1975,-6
+CO,industrial energy use,biomass,1975,-6
+CO,industrial energy use,coal,1975,-6
+CO,industrial energy use,electricity,1975,-6
+CO,industrial energy use,gas,1975,-6
+CO,industrial energy use,hydrogen,1975,-6
+CO,industrial energy use,refined liquids,1975,-6
+CO,industrial feedstocks,coal,1975,-6
+CO,industrial feedstocks,gas,1975,-6
+CO,industrial feedstocks,refined liquids,1975,-6
+CO,industry,industry,1975,-6
+CT,industrial energy use,biomass,1975,-6
+CT,industrial energy use,coal,1975,-6
+CT,industrial energy use,electricity,1975,-6
+CT,industrial energy use,gas,1975,-6
+CT,industrial energy use,hydrogen,1975,-6
+CT,industrial energy use,refined liquids,1975,-6
+CT,industrial feedstocks,coal,1975,-6
+CT,industrial feedstocks,gas,1975,-6
+CT,industrial feedstocks,refined liquids,1975,-6
+CT,industry,industry,1975,-6
+DC,industrial energy use,biomass,1975,-6
+DC,industrial energy use,coal,1975,-6
+DC,industrial energy use,electricity,1975,-6
+DC,industrial energy use,gas,1975,-6
+DC,industrial energy use,hydrogen,1975,-6
+DC,industrial energy use,refined liquids,1975,-6
+DC,industrial feedstocks,coal,1975,-6
+DC,industrial feedstocks,gas,1975,-6
+DC,industrial feedstocks,refined liquids,1975,-6
+DC,industry,industry,1975,-6
+DE,industrial energy use,biomass,1975,-6
+DE,industrial energy use,coal,1975,-6
+DE,industrial energy use,electricity,1975,-6
+DE,industrial energy use,gas,1975,-6
+DE,industrial energy use,hydrogen,1975,-6
+DE,industrial energy use,refined liquids,1975,-6
+DE,industrial feedstocks,coal,1975,-6
+DE,industrial feedstocks,gas,1975,-6
+DE,industrial feedstocks,refined liquids,1975,-6
+DE,industry,industry,1975,-6
+FL,industrial energy use,biomass,1975,-6
+FL,industrial energy use,coal,1975,-6
+FL,industrial energy use,electricity,1975,-6
+FL,industrial energy use,gas,1975,-6
+FL,industrial energy use,hydrogen,1975,-6
+FL,industrial energy use,refined liquids,1975,-6
+FL,industrial feedstocks,coal,1975,-6
+FL,industrial feedstocks,gas,1975,-6
+FL,industrial feedstocks,refined liquids,1975,-6
+FL,industry,industry,1975,-6
+GA,industrial energy use,biomass,1975,-6
+GA,industrial energy use,coal,1975,-6
+GA,industrial energy use,electricity,1975,-6
+GA,industrial energy use,gas,1975,-6
+GA,industrial energy use,hydrogen,1975,-6
+GA,industrial energy use,refined liquids,1975,-6
+GA,industrial feedstocks,coal,1975,-6
+GA,industrial feedstocks,gas,1975,-6
+GA,industrial feedstocks,refined liquids,1975,-6
+GA,industry,industry,1975,-6
+HI,industrial energy use,biomass,1975,-6
+HI,industrial energy use,coal,1975,-6
+HI,industrial energy use,electricity,1975,-6
+HI,industrial energy use,gas,1975,-6
+HI,industrial energy use,hydrogen,1975,-6
+HI,industrial energy use,refined liquids,1975,-6
+HI,industrial feedstocks,coal,1975,-6
+HI,industrial feedstocks,gas,1975,-6
+HI,industrial feedstocks,refined liquids,1975,-6
+HI,industry,industry,1975,-6
+IA,industrial energy use,biomass,1975,-6
+IA,industrial energy use,coal,1975,-6
+IA,industrial energy use,electricity,1975,-6
+IA,industrial energy use,gas,1975,-6
+IA,industrial energy use,hydrogen,1975,-6
+IA,industrial energy use,refined liquids,1975,-6
+IA,industrial feedstocks,coal,1975,-6
+IA,industrial feedstocks,gas,1975,-6
+IA,industrial feedstocks,refined liquids,1975,-6
+IA,industry,industry,1975,-6
+ID,industrial energy use,biomass,1975,-6
+ID,industrial energy use,coal,1975,-6
+ID,industrial energy use,electricity,1975,-6
+ID,industrial energy use,gas,1975,-6
+ID,industrial energy use,hydrogen,1975,-6
+ID,industrial energy use,refined liquids,1975,-6
+ID,industrial feedstocks,coal,1975,-6
+ID,industrial feedstocks,gas,1975,-6
+ID,industrial feedstocks,refined liquids,1975,-6
+ID,industry,industry,1975,-6
+IL,industrial energy use,biomass,1975,-6
+IL,industrial energy use,coal,1975,-6
+IL,industrial energy use,electricity,1975,-6
+IL,industrial energy use,gas,1975,-6
+IL,industrial energy use,hydrogen,1975,-6
+IL,industrial energy use,refined liquids,1975,-6
+IL,industrial feedstocks,coal,1975,-6
+IL,industrial feedstocks,gas,1975,-6
+IL,industrial feedstocks,refined liquids,1975,-6
+IL,industry,industry,1975,-6
+IN,industrial energy use,biomass,1975,-6
+IN,industrial energy use,coal,1975,-6
+IN,industrial energy use,electricity,1975,-6
+IN,industrial energy use,gas,1975,-6
+IN,industrial energy use,hydrogen,1975,-6
+IN,industrial energy use,refined liquids,1975,-6
+IN,industrial feedstocks,coal,1975,-6
+IN,industrial feedstocks,gas,1975,-6
+IN,industrial feedstocks,refined liquids,1975,-6
+IN,industry,industry,1975,-6
+KS,industrial energy use,biomass,1975,-6
+KS,industrial energy use,coal,1975,-6
+KS,industrial energy use,electricity,1975,-6
+KS,industrial energy use,gas,1975,-6
+KS,industrial energy use,hydrogen,1975,-6
+KS,industrial energy use,refined liquids,1975,-6
+KS,industrial feedstocks,coal,1975,-6
+KS,industrial feedstocks,gas,1975,-6
+KS,industrial feedstocks,refined liquids,1975,-6
+KS,industry,industry,1975,-6
+KY,industrial energy use,biomass,1975,-6
+KY,industrial energy use,coal,1975,-6
+KY,industrial energy use,electricity,1975,-6
+KY,industrial energy use,gas,1975,-6
+KY,industrial energy use,hydrogen,1975,-6
+KY,industrial energy use,refined liquids,1975,-6
+KY,industrial feedstocks,coal,1975,-6
+KY,industrial feedstocks,gas,1975,-6
+KY,industrial feedstocks,refined liquids,1975,-6
+KY,industry,industry,1975,-6
+LA,industrial energy use,biomass,1975,-6
+LA,industrial energy use,coal,1975,-6
+LA,industrial energy use,electricity,1975,-6
+LA,industrial energy use,gas,1975,-6
+LA,industrial energy use,hydrogen,1975,-6
+LA,industrial energy use,refined liquids,1975,-6
+LA,industrial feedstocks,coal,1975,-6
+LA,industrial feedstocks,gas,1975,-6
+LA,industrial feedstocks,refined liquids,1975,-6
+LA,industry,industry,1975,-6
+MA,industrial energy use,biomass,1975,-6
+MA,industrial energy use,coal,1975,-6
+MA,industrial energy use,electricity,1975,-6
+MA,industrial energy use,gas,1975,-6
+MA,industrial energy use,hydrogen,1975,-6
+MA,industrial energy use,refined liquids,1975,-6
+MA,industrial feedstocks,coal,1975,-6
+MA,industrial feedstocks,gas,1975,-6
+MA,industrial feedstocks,refined liquids,1975,-6
+MA,industry,industry,1975,-6
+MD,industrial energy use,biomass,1975,-6
+MD,industrial energy use,coal,1975,-6
+MD,industrial energy use,electricity,1975,-6
+MD,industrial energy use,gas,1975,-6
+MD,industrial energy use,hydrogen,1975,-6
+MD,industrial energy use,refined liquids,1975,-6
+MD,industrial feedstocks,coal,1975,-6
+MD,industrial feedstocks,gas,1975,-6
+MD,industrial feedstocks,refined liquids,1975,-6
+MD,industry,industry,1975,-6
+ME,industrial energy use,biomass,1975,-6
+ME,industrial energy use,coal,1975,-6
+ME,industrial energy use,electricity,1975,-6
+ME,industrial energy use,gas,1975,-6
+ME,industrial energy use,hydrogen,1975,-6
+ME,industrial energy use,refined liquids,1975,-6
+ME,industrial feedstocks,coal,1975,-6
+ME,industrial feedstocks,gas,1975,-6
+ME,industrial feedstocks,refined liquids,1975,-6
+ME,industry,industry,1975,-6
+MI,industrial energy use,biomass,1975,-6
+MI,industrial energy use,coal,1975,-6
+MI,industrial energy use,electricity,1975,-6
+MI,industrial energy use,gas,1975,-6
+MI,industrial energy use,hydrogen,1975,-6
+MI,industrial energy use,refined liquids,1975,-6
+MI,industrial feedstocks,coal,1975,-6
+MI,industrial feedstocks,gas,1975,-6
+MI,industrial feedstocks,refined liquids,1975,-6
+MI,industry,industry,1975,-6
+MN,industrial energy use,biomass,1975,-6
+MN,industrial energy use,coal,1975,-6
+MN,industrial energy use,electricity,1975,-6
+MN,industrial energy use,gas,1975,-6
+MN,industrial energy use,hydrogen,1975,-6
+MN,industrial energy use,refined liquids,1975,-6
+MN,industrial feedstocks,coal,1975,-6
+MN,industrial feedstocks,gas,1975,-6
+MN,industrial feedstocks,refined liquids,1975,-6
+MN,industry,industry,1975,-6
+MO,industrial energy use,biomass,1975,-6
+MO,industrial energy use,coal,1975,-6
+MO,industrial energy use,electricity,1975,-6
+MO,industrial energy use,gas,1975,-6
+MO,industrial energy use,hydrogen,1975,-6
+MO,industrial energy use,refined liquids,1975,-6
+MO,industrial feedstocks,coal,1975,-6
+MO,industrial feedstocks,gas,1975,-6
+MO,industrial feedstocks,refined liquids,1975,-6
+MO,industry,industry,1975,-6
+MS,industrial energy use,biomass,1975,-6
+MS,industrial energy use,coal,1975,-6
+MS,industrial energy use,electricity,1975,-6
+MS,industrial energy use,gas,1975,-6
+MS,industrial energy use,hydrogen,1975,-6
+MS,industrial energy use,refined liquids,1975,-6
+MS,industrial feedstocks,coal,1975,-6
+MS,industrial feedstocks,gas,1975,-6
+MS,industrial feedstocks,refined liquids,1975,-6
+MS,industry,industry,1975,-6
+MT,industrial energy use,biomass,1975,-6
+MT,industrial energy use,coal,1975,-6
+MT,industrial energy use,electricity,1975,-6
+MT,industrial energy use,gas,1975,-6
+MT,industrial energy use,hydrogen,1975,-6
+MT,industrial energy use,refined liquids,1975,-6
+MT,industrial feedstocks,coal,1975,-6
+MT,industrial feedstocks,gas,1975,-6
+MT,industrial feedstocks,refined liquids,1975,-6
+MT,industry,industry,1975,-6
+NC,industrial energy use,biomass,1975,-6
+NC,industrial energy use,coal,1975,-6
+NC,industrial energy use,electricity,1975,-6
+NC,industrial energy use,gas,1975,-6
+NC,industrial energy use,hydrogen,1975,-6
+NC,industrial energy use,refined liquids,1975,-6
+NC,industrial feedstocks,coal,1975,-6
+NC,industrial feedstocks,gas,1975,-6
+NC,industrial feedstocks,refined liquids,1975,-6
+NC,industry,industry,1975,-6
+ND,industrial energy use,biomass,1975,-6
+ND,industrial energy use,coal,1975,-6
+ND,industrial energy use,electricity,1975,-6
+ND,industrial energy use,gas,1975,-6
+ND,industrial energy use,hydrogen,1975,-6
+ND,industrial energy use,refined liquids,1975,-6
+ND,industrial feedstocks,coal,1975,-6
+ND,industrial feedstocks,gas,1975,-6
+ND,industrial feedstocks,refined liquids,1975,-6
+ND,industry,industry,1975,-6
+NE,industrial energy use,biomass,1975,-6
+NE,industrial energy use,coal,1975,-6
+NE,industrial energy use,electricity,1975,-6
+NE,industrial energy use,gas,1975,-6
+NE,industrial energy use,hydrogen,1975,-6
+NE,industrial energy use,refined liquids,1975,-6
+NE,industrial feedstocks,coal,1975,-6
+NE,industrial feedstocks,gas,1975,-6
+NE,industrial feedstocks,refined liquids,1975,-6
+NE,industry,industry,1975,-6
+NH,industrial energy use,biomass,1975,-6
+NH,industrial energy use,coal,1975,-6
+NH,industrial energy use,electricity,1975,-6
+NH,industrial energy use,gas,1975,-6
+NH,industrial energy use,hydrogen,1975,-6
+NH,industrial energy use,refined liquids,1975,-6
+NH,industrial feedstocks,coal,1975,-6
+NH,industrial feedstocks,gas,1975,-6
+NH,industrial feedstocks,refined liquids,1975,-6
+NH,industry,industry,1975,-6
+NJ,industrial energy use,biomass,1975,-6
+NJ,industrial energy use,coal,1975,-6
+NJ,industrial energy use,electricity,1975,-6
+NJ,industrial energy use,gas,1975,-6
+NJ,industrial energy use,hydrogen,1975,-6
+NJ,industrial energy use,refined liquids,1975,-6
+NJ,industrial feedstocks,coal,1975,-6
+NJ,industrial feedstocks,gas,1975,-6
+NJ,industrial feedstocks,refined liquids,1975,-6
+NJ,industry,industry,1975,-6
+NM,industrial energy use,biomass,1975,-6
+NM,industrial energy use,coal,1975,-6
+NM,industrial energy use,electricity,1975,-6
+NM,industrial energy use,gas,1975,-6
+NM,industrial energy use,hydrogen,1975,-6
+NM,industrial energy use,refined liquids,1975,-6
+NM,industrial feedstocks,coal,1975,-6
+NM,industrial feedstocks,gas,1975,-6
+NM,industrial feedstocks,refined liquids,1975,-6
+NM,industry,industry,1975,-6
+NV,industrial energy use,biomass,1975,-6
+NV,industrial energy use,coal,1975,-6
+NV,industrial energy use,electricity,1975,-6
+NV,industrial energy use,gas,1975,-6
+NV,industrial energy use,hydrogen,1975,-6
+NV,industrial energy use,refined liquids,1975,-6
+NV,industrial feedstocks,coal,1975,-6
+NV,industrial feedstocks,gas,1975,-6
+NV,industrial feedstocks,refined liquids,1975,-6
+NV,industry,industry,1975,-6
+NY,industrial energy use,biomass,1975,-6
+NY,industrial energy use,coal,1975,-6
+NY,industrial energy use,electricity,1975,-6
+NY,industrial energy use,gas,1975,-6
+NY,industrial energy use,hydrogen,1975,-6
+NY,industrial energy use,refined liquids,1975,-6
+NY,industrial feedstocks,coal,1975,-6
+NY,industrial feedstocks,gas,1975,-6
+NY,industrial feedstocks,refined liquids,1975,-6
+NY,industry,industry,1975,-6
+OH,industrial energy use,biomass,1975,-6
+OH,industrial energy use,coal,1975,-6
+OH,industrial energy use,electricity,1975,-6
+OH,industrial energy use,gas,1975,-6
+OH,industrial energy use,hydrogen,1975,-6
+OH,industrial energy use,refined liquids,1975,-6
+OH,industrial feedstocks,coal,1975,-6
+OH,industrial feedstocks,gas,1975,-6
+OH,industrial feedstocks,refined liquids,1975,-6
+OH,industry,industry,1975,-6
+OK,industrial energy use,biomass,1975,-6
+OK,industrial energy use,coal,1975,-6
+OK,industrial energy use,electricity,1975,-6
+OK,industrial energy use,gas,1975,-6
+OK,industrial energy use,hydrogen,1975,-6
+OK,industrial energy use,refined liquids,1975,-6
+OK,industrial feedstocks,coal,1975,-6
+OK,industrial feedstocks,gas,1975,-6
+OK,industrial feedstocks,refined liquids,1975,-6
+OK,industry,industry,1975,-6
+OR,industrial energy use,biomass,1975,-6
+OR,industrial energy use,coal,1975,-6
+OR,industrial energy use,electricity,1975,-6
+OR,industrial energy use,gas,1975,-6
+OR,industrial energy use,hydrogen,1975,-6
+OR,industrial energy use,refined liquids,1975,-6
+OR,industrial feedstocks,coal,1975,-6
+OR,industrial feedstocks,gas,1975,-6
+OR,industrial feedstocks,refined liquids,1975,-6
+OR,industry,industry,1975,-6
+PA,industrial energy use,biomass,1975,-6
+PA,industrial energy use,coal,1975,-6
+PA,industrial energy use,electricity,1975,-6
+PA,industrial energy use,gas,1975,-6
+PA,industrial energy use,hydrogen,1975,-6
+PA,industrial energy use,refined liquids,1975,-6
+PA,industrial feedstocks,coal,1975,-6
+PA,industrial feedstocks,gas,1975,-6
+PA,industrial feedstocks,refined liquids,1975,-6
+PA,industry,industry,1975,-6
+RI,industrial energy use,biomass,1975,-6
+RI,industrial energy use,coal,1975,-6
+RI,industrial energy use,electricity,1975,-6
+RI,industrial energy use,gas,1975,-6
+RI,industrial energy use,hydrogen,1975,-6
+RI,industrial energy use,refined liquids,1975,-6
+RI,industrial feedstocks,coal,1975,-6
+RI,industrial feedstocks,gas,1975,-6
+RI,industrial feedstocks,refined liquids,1975,-6
+RI,industry,industry,1975,-6
+SC,industrial energy use,biomass,1975,-6
+SC,industrial energy use,coal,1975,-6
+SC,industrial energy use,electricity,1975,-6
+SC,industrial energy use,gas,1975,-6
+SC,industrial energy use,hydrogen,1975,-6
+SC,industrial energy use,refined liquids,1975,-6
+SC,industrial feedstocks,coal,1975,-6
+SC,industrial feedstocks,gas,1975,-6
+SC,industrial feedstocks,refined liquids,1975,-6
+SC,industry,industry,1975,-6
+SD,industrial energy use,biomass,1975,-6
+SD,industrial energy use,coal,1975,-6
+SD,industrial energy use,electricity,1975,-6
+SD,industrial energy use,gas,1975,-6
+SD,industrial energy use,hydrogen,1975,-6
+SD,industrial energy use,refined liquids,1975,-6
+SD,industrial feedstocks,coal,1975,-6
+SD,industrial feedstocks,gas,1975,-6
+SD,industrial feedstocks,refined liquids,1975,-6
+SD,industry,industry,1975,-6
+TN,industrial energy use,biomass,1975,-6
+TN,industrial energy use,coal,1975,-6
+TN,industrial energy use,electricity,1975,-6
+TN,industrial energy use,gas,1975,-6
+TN,industrial energy use,hydrogen,1975,-6
+TN,industrial energy use,refined liquids,1975,-6
+TN,industrial feedstocks,coal,1975,-6
+TN,industrial feedstocks,gas,1975,-6
+TN,industrial feedstocks,refined liquids,1975,-6
+TN,industry,industry,1975,-6
+TX,industrial energy use,biomass,1975,-6
+TX,industrial energy use,coal,1975,-6
+TX,industrial energy use,electricity,1975,-6
+TX,industrial energy use,gas,1975,-6
+TX,industrial energy use,hydrogen,1975,-6
+TX,industrial energy use,refined liquids,1975,-6
+TX,industrial feedstocks,coal,1975,-6
+TX,industrial feedstocks,gas,1975,-6
+TX,industrial feedstocks,refined liquids,1975,-6
+TX,industry,industry,1975,-6
+UT,industrial energy use,biomass,1975,-6
+UT,industrial energy use,coal,1975,-6
+UT,industrial energy use,electricity,1975,-6
+UT,industrial energy use,gas,1975,-6
+UT,industrial energy use,hydrogen,1975,-6
+UT,industrial energy use,refined liquids,1975,-6
+UT,industrial feedstocks,coal,1975,-6
+UT,industrial feedstocks,gas,1975,-6
+UT,industrial feedstocks,refined liquids,1975,-6
+UT,industry,industry,1975,-6
+VA,industrial energy use,biomass,1975,-6
+VA,industrial energy use,coal,1975,-6
+VA,industrial energy use,electricity,1975,-6
+VA,industrial energy use,gas,1975,-6
+VA,industrial energy use,hydrogen,1975,-6
+VA,industrial energy use,refined liquids,1975,-6
+VA,industrial feedstocks,coal,1975,-6
+VA,industrial feedstocks,gas,1975,-6
+VA,industrial feedstocks,refined liquids,1975,-6
+VA,industry,industry,1975,-6
+VT,industrial energy use,biomass,1975,-6
+VT,industrial energy use,coal,1975,-6
+VT,industrial energy use,electricity,1975,-6
+VT,industrial energy use,gas,1975,-6
+VT,industrial energy use,hydrogen,1975,-6
+VT,industrial energy use,refined liquids,1975,-6
+VT,industrial feedstocks,coal,1975,-6
+VT,industrial feedstocks,gas,1975,-6
+VT,industrial feedstocks,refined liquids,1975,-6
+VT,industry,industry,1975,-6
+WA,industrial energy use,biomass,1975,-6
+WA,industrial energy use,coal,1975,-6
+WA,industrial energy use,electricity,1975,-6
+WA,industrial energy use,gas,1975,-6
+WA,industrial energy use,hydrogen,1975,-6
+WA,industrial energy use,refined liquids,1975,-6
+WA,industrial feedstocks,coal,1975,-6
+WA,industrial feedstocks,gas,1975,-6
+WA,industrial feedstocks,refined liquids,1975,-6
+WA,industry,industry,1975,-6
+WI,industrial energy use,biomass,1975,-6
+WI,industrial energy use,coal,1975,-6
+WI,industrial energy use,electricity,1975,-6
+WI,industrial energy use,gas,1975,-6
+WI,industrial energy use,hydrogen,1975,-6
+WI,industrial energy use,refined liquids,1975,-6
+WI,industrial feedstocks,coal,1975,-6
+WI,industrial feedstocks,gas,1975,-6
+WI,industrial feedstocks,refined liquids,1975,-6
+WI,industry,industry,1975,-6
+WV,industrial energy use,biomass,1975,-6
+WV,industrial energy use,coal,1975,-6
+WV,industrial energy use,electricity,1975,-6
+WV,industrial energy use,gas,1975,-6
+WV,industrial energy use,hydrogen,1975,-6
+WV,industrial energy use,refined liquids,1975,-6
+WV,industrial feedstocks,coal,1975,-6
+WV,industrial feedstocks,gas,1975,-6
+WV,industrial feedstocks,refined liquids,1975,-6
+WV,industry,industry,1975,-6
+WY,industrial energy use,biomass,1975,-6
+WY,industrial energy use,coal,1975,-6
+WY,industrial energy use,electricity,1975,-6
+WY,industrial energy use,gas,1975,-6
+WY,industrial energy use,hydrogen,1975,-6
+WY,industrial energy use,refined liquids,1975,-6
+WY,industrial feedstocks,coal,1975,-6
+WY,industrial feedstocks,gas,1975,-6
+WY,industrial feedstocks,refined liquids,1975,-6
+WY,industry,industry,1975,-6
