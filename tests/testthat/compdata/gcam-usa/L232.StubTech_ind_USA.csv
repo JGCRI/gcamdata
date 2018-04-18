@@ -1,0 +1,770 @@
+INPUT_TABLE
+Variable ID
+StubTech
+
+region,supplysector,subsector,stub.technology
+AK,industrial energy use,biomass,biomass
+AK,industrial energy use,biomass,biomass cogen
+AK,industrial energy use,coal,coal
+AK,industrial energy use,coal,coal cogen
+AK,industrial energy use,electricity,electricity
+AK,industrial energy use,gas,gas
+AK,industrial energy use,gas,gas cogen
+AK,industrial energy use,hydrogen,hydrogen
+AK,industrial energy use,hydrogen,hydrogen cogen
+AK,industrial energy use,refined liquids,refined liquids
+AK,industrial energy use,refined liquids,refined liquids cogen
+AK,industrial feedstocks,coal,coal
+AK,industrial feedstocks,gas,gas
+AK,industrial feedstocks,refined liquids,refined liquids
+AK,industry,industry,industry
+AL,industrial energy use,biomass,biomass
+AL,industrial energy use,biomass,biomass cogen
+AL,industrial energy use,coal,coal
+AL,industrial energy use,coal,coal cogen
+AL,industrial energy use,electricity,electricity
+AL,industrial energy use,gas,gas
+AL,industrial energy use,gas,gas cogen
+AL,industrial energy use,hydrogen,hydrogen
+AL,industrial energy use,hydrogen,hydrogen cogen
+AL,industrial energy use,refined liquids,refined liquids
+AL,industrial energy use,refined liquids,refined liquids cogen
+AL,industrial feedstocks,coal,coal
+AL,industrial feedstocks,gas,gas
+AL,industrial feedstocks,refined liquids,refined liquids
+AL,industry,industry,industry
+AR,industrial energy use,biomass,biomass
+AR,industrial energy use,biomass,biomass cogen
+AR,industrial energy use,coal,coal
+AR,industrial energy use,coal,coal cogen
+AR,industrial energy use,electricity,electricity
+AR,industrial energy use,gas,gas
+AR,industrial energy use,gas,gas cogen
+AR,industrial energy use,hydrogen,hydrogen
+AR,industrial energy use,hydrogen,hydrogen cogen
+AR,industrial energy use,refined liquids,refined liquids
+AR,industrial energy use,refined liquids,refined liquids cogen
+AR,industrial feedstocks,coal,coal
+AR,industrial feedstocks,gas,gas
+AR,industrial feedstocks,refined liquids,refined liquids
+AR,industry,industry,industry
+AZ,industrial energy use,biomass,biomass
+AZ,industrial energy use,biomass,biomass cogen
+AZ,industrial energy use,coal,coal
+AZ,industrial energy use,coal,coal cogen
+AZ,industrial energy use,electricity,electricity
+AZ,industrial energy use,gas,gas
+AZ,industrial energy use,gas,gas cogen
+AZ,industrial energy use,hydrogen,hydrogen
+AZ,industrial energy use,hydrogen,hydrogen cogen
+AZ,industrial energy use,refined liquids,refined liquids
+AZ,industrial energy use,refined liquids,refined liquids cogen
+AZ,industrial feedstocks,coal,coal
+AZ,industrial feedstocks,gas,gas
+AZ,industrial feedstocks,refined liquids,refined liquids
+AZ,industry,industry,industry
+CA,industrial energy use,biomass,biomass
+CA,industrial energy use,biomass,biomass cogen
+CA,industrial energy use,coal,coal
+CA,industrial energy use,coal,coal cogen
+CA,industrial energy use,electricity,electricity
+CA,industrial energy use,gas,gas
+CA,industrial energy use,gas,gas cogen
+CA,industrial energy use,hydrogen,hydrogen
+CA,industrial energy use,hydrogen,hydrogen cogen
+CA,industrial energy use,refined liquids,refined liquids
+CA,industrial energy use,refined liquids,refined liquids cogen
+CA,industrial feedstocks,coal,coal
+CA,industrial feedstocks,gas,gas
+CA,industrial feedstocks,refined liquids,refined liquids
+CA,industry,industry,industry
+CO,industrial energy use,biomass,biomass
+CO,industrial energy use,biomass,biomass cogen
+CO,industrial energy use,coal,coal
+CO,industrial energy use,coal,coal cogen
+CO,industrial energy use,electricity,electricity
+CO,industrial energy use,gas,gas
+CO,industrial energy use,gas,gas cogen
+CO,industrial energy use,hydrogen,hydrogen
+CO,industrial energy use,hydrogen,hydrogen cogen
+CO,industrial energy use,refined liquids,refined liquids
+CO,industrial energy use,refined liquids,refined liquids cogen
+CO,industrial feedstocks,coal,coal
+CO,industrial feedstocks,gas,gas
+CO,industrial feedstocks,refined liquids,refined liquids
+CO,industry,industry,industry
+CT,industrial energy use,biomass,biomass
+CT,industrial energy use,biomass,biomass cogen
+CT,industrial energy use,coal,coal
+CT,industrial energy use,coal,coal cogen
+CT,industrial energy use,electricity,electricity
+CT,industrial energy use,gas,gas
+CT,industrial energy use,gas,gas cogen
+CT,industrial energy use,hydrogen,hydrogen
+CT,industrial energy use,hydrogen,hydrogen cogen
+CT,industrial energy use,refined liquids,refined liquids
+CT,industrial energy use,refined liquids,refined liquids cogen
+CT,industrial feedstocks,coal,coal
+CT,industrial feedstocks,gas,gas
+CT,industrial feedstocks,refined liquids,refined liquids
+CT,industry,industry,industry
+DC,industrial energy use,biomass,biomass
+DC,industrial energy use,biomass,biomass cogen
+DC,industrial energy use,coal,coal
+DC,industrial energy use,coal,coal cogen
+DC,industrial energy use,electricity,electricity
+DC,industrial energy use,gas,gas
+DC,industrial energy use,gas,gas cogen
+DC,industrial energy use,hydrogen,hydrogen
+DC,industrial energy use,hydrogen,hydrogen cogen
+DC,industrial energy use,refined liquids,refined liquids
+DC,industrial energy use,refined liquids,refined liquids cogen
+DC,industrial feedstocks,coal,coal
+DC,industrial feedstocks,gas,gas
+DC,industrial feedstocks,refined liquids,refined liquids
+DC,industry,industry,industry
+DE,industrial energy use,biomass,biomass
+DE,industrial energy use,biomass,biomass cogen
+DE,industrial energy use,coal,coal
+DE,industrial energy use,coal,coal cogen
+DE,industrial energy use,electricity,electricity
+DE,industrial energy use,gas,gas
+DE,industrial energy use,gas,gas cogen
+DE,industrial energy use,hydrogen,hydrogen
+DE,industrial energy use,hydrogen,hydrogen cogen
+DE,industrial energy use,refined liquids,refined liquids
+DE,industrial energy use,refined liquids,refined liquids cogen
+DE,industrial feedstocks,coal,coal
+DE,industrial feedstocks,gas,gas
+DE,industrial feedstocks,refined liquids,refined liquids
+DE,industry,industry,industry
+FL,industrial energy use,biomass,biomass
+FL,industrial energy use,biomass,biomass cogen
+FL,industrial energy use,coal,coal
+FL,industrial energy use,coal,coal cogen
+FL,industrial energy use,electricity,electricity
+FL,industrial energy use,gas,gas
+FL,industrial energy use,gas,gas cogen
+FL,industrial energy use,hydrogen,hydrogen
+FL,industrial energy use,hydrogen,hydrogen cogen
+FL,industrial energy use,refined liquids,refined liquids
+FL,industrial energy use,refined liquids,refined liquids cogen
+FL,industrial feedstocks,coal,coal
+FL,industrial feedstocks,gas,gas
+FL,industrial feedstocks,refined liquids,refined liquids
+FL,industry,industry,industry
+GA,industrial energy use,biomass,biomass
+GA,industrial energy use,biomass,biomass cogen
+GA,industrial energy use,coal,coal
+GA,industrial energy use,coal,coal cogen
+GA,industrial energy use,electricity,electricity
+GA,industrial energy use,gas,gas
+GA,industrial energy use,gas,gas cogen
+GA,industrial energy use,hydrogen,hydrogen
+GA,industrial energy use,hydrogen,hydrogen cogen
+GA,industrial energy use,refined liquids,refined liquids
+GA,industrial energy use,refined liquids,refined liquids cogen
+GA,industrial feedstocks,coal,coal
+GA,industrial feedstocks,gas,gas
+GA,industrial feedstocks,refined liquids,refined liquids
+GA,industry,industry,industry
+HI,industrial energy use,biomass,biomass
+HI,industrial energy use,biomass,biomass cogen
+HI,industrial energy use,coal,coal
+HI,industrial energy use,coal,coal cogen
+HI,industrial energy use,electricity,electricity
+HI,industrial energy use,gas,gas
+HI,industrial energy use,gas,gas cogen
+HI,industrial energy use,hydrogen,hydrogen
+HI,industrial energy use,hydrogen,hydrogen cogen
+HI,industrial energy use,refined liquids,refined liquids
+HI,industrial energy use,refined liquids,refined liquids cogen
+HI,industrial feedstocks,coal,coal
+HI,industrial feedstocks,gas,gas
+HI,industrial feedstocks,refined liquids,refined liquids
+HI,industry,industry,industry
+IA,industrial energy use,biomass,biomass
+IA,industrial energy use,biomass,biomass cogen
+IA,industrial energy use,coal,coal
+IA,industrial energy use,coal,coal cogen
+IA,industrial energy use,electricity,electricity
+IA,industrial energy use,gas,gas
+IA,industrial energy use,gas,gas cogen
+IA,industrial energy use,hydrogen,hydrogen
+IA,industrial energy use,hydrogen,hydrogen cogen
+IA,industrial energy use,refined liquids,refined liquids
+IA,industrial energy use,refined liquids,refined liquids cogen
+IA,industrial feedstocks,coal,coal
+IA,industrial feedstocks,gas,gas
+IA,industrial feedstocks,refined liquids,refined liquids
+IA,industry,industry,industry
+ID,industrial energy use,biomass,biomass
+ID,industrial energy use,biomass,biomass cogen
+ID,industrial energy use,coal,coal
+ID,industrial energy use,coal,coal cogen
+ID,industrial energy use,electricity,electricity
+ID,industrial energy use,gas,gas
+ID,industrial energy use,gas,gas cogen
+ID,industrial energy use,hydrogen,hydrogen
+ID,industrial energy use,hydrogen,hydrogen cogen
+ID,industrial energy use,refined liquids,refined liquids
+ID,industrial energy use,refined liquids,refined liquids cogen
+ID,industrial feedstocks,coal,coal
+ID,industrial feedstocks,gas,gas
+ID,industrial feedstocks,refined liquids,refined liquids
+ID,industry,industry,industry
+IL,industrial energy use,biomass,biomass
+IL,industrial energy use,biomass,biomass cogen
+IL,industrial energy use,coal,coal
+IL,industrial energy use,coal,coal cogen
+IL,industrial energy use,electricity,electricity
+IL,industrial energy use,gas,gas
+IL,industrial energy use,gas,gas cogen
+IL,industrial energy use,hydrogen,hydrogen
+IL,industrial energy use,hydrogen,hydrogen cogen
+IL,industrial energy use,refined liquids,refined liquids
+IL,industrial energy use,refined liquids,refined liquids cogen
+IL,industrial feedstocks,coal,coal
+IL,industrial feedstocks,gas,gas
+IL,industrial feedstocks,refined liquids,refined liquids
+IL,industry,industry,industry
+IN,industrial energy use,biomass,biomass
+IN,industrial energy use,biomass,biomass cogen
+IN,industrial energy use,coal,coal
+IN,industrial energy use,coal,coal cogen
+IN,industrial energy use,electricity,electricity
+IN,industrial energy use,gas,gas
+IN,industrial energy use,gas,gas cogen
+IN,industrial energy use,hydrogen,hydrogen
+IN,industrial energy use,hydrogen,hydrogen cogen
+IN,industrial energy use,refined liquids,refined liquids
+IN,industrial energy use,refined liquids,refined liquids cogen
+IN,industrial feedstocks,coal,coal
+IN,industrial feedstocks,gas,gas
+IN,industrial feedstocks,refined liquids,refined liquids
+IN,industry,industry,industry
+KS,industrial energy use,biomass,biomass
+KS,industrial energy use,biomass,biomass cogen
+KS,industrial energy use,coal,coal
+KS,industrial energy use,coal,coal cogen
+KS,industrial energy use,electricity,electricity
+KS,industrial energy use,gas,gas
+KS,industrial energy use,gas,gas cogen
+KS,industrial energy use,hydrogen,hydrogen
+KS,industrial energy use,hydrogen,hydrogen cogen
+KS,industrial energy use,refined liquids,refined liquids
+KS,industrial energy use,refined liquids,refined liquids cogen
+KS,industrial feedstocks,coal,coal
+KS,industrial feedstocks,gas,gas
+KS,industrial feedstocks,refined liquids,refined liquids
+KS,industry,industry,industry
+KY,industrial energy use,biomass,biomass
+KY,industrial energy use,biomass,biomass cogen
+KY,industrial energy use,coal,coal
+KY,industrial energy use,coal,coal cogen
+KY,industrial energy use,electricity,electricity
+KY,industrial energy use,gas,gas
+KY,industrial energy use,gas,gas cogen
+KY,industrial energy use,hydrogen,hydrogen
+KY,industrial energy use,hydrogen,hydrogen cogen
+KY,industrial energy use,refined liquids,refined liquids
+KY,industrial energy use,refined liquids,refined liquids cogen
+KY,industrial feedstocks,coal,coal
+KY,industrial feedstocks,gas,gas
+KY,industrial feedstocks,refined liquids,refined liquids
+KY,industry,industry,industry
+LA,industrial energy use,biomass,biomass
+LA,industrial energy use,biomass,biomass cogen
+LA,industrial energy use,coal,coal
+LA,industrial energy use,coal,coal cogen
+LA,industrial energy use,electricity,electricity
+LA,industrial energy use,gas,gas
+LA,industrial energy use,gas,gas cogen
+LA,industrial energy use,hydrogen,hydrogen
+LA,industrial energy use,hydrogen,hydrogen cogen
+LA,industrial energy use,refined liquids,refined liquids
+LA,industrial energy use,refined liquids,refined liquids cogen
+LA,industrial feedstocks,coal,coal
+LA,industrial feedstocks,gas,gas
+LA,industrial feedstocks,refined liquids,refined liquids
+LA,industry,industry,industry
+MA,industrial energy use,biomass,biomass
+MA,industrial energy use,biomass,biomass cogen
+MA,industrial energy use,coal,coal
+MA,industrial energy use,coal,coal cogen
+MA,industrial energy use,electricity,electricity
+MA,industrial energy use,gas,gas
+MA,industrial energy use,gas,gas cogen
+MA,industrial energy use,hydrogen,hydrogen
+MA,industrial energy use,hydrogen,hydrogen cogen
+MA,industrial energy use,refined liquids,refined liquids
+MA,industrial energy use,refined liquids,refined liquids cogen
+MA,industrial feedstocks,coal,coal
+MA,industrial feedstocks,gas,gas
+MA,industrial feedstocks,refined liquids,refined liquids
+MA,industry,industry,industry
+MD,industrial energy use,biomass,biomass
+MD,industrial energy use,biomass,biomass cogen
+MD,industrial energy use,coal,coal
+MD,industrial energy use,coal,coal cogen
+MD,industrial energy use,electricity,electricity
+MD,industrial energy use,gas,gas
+MD,industrial energy use,gas,gas cogen
+MD,industrial energy use,hydrogen,hydrogen
+MD,industrial energy use,hydrogen,hydrogen cogen
+MD,industrial energy use,refined liquids,refined liquids
+MD,industrial energy use,refined liquids,refined liquids cogen
+MD,industrial feedstocks,coal,coal
+MD,industrial feedstocks,gas,gas
+MD,industrial feedstocks,refined liquids,refined liquids
+MD,industry,industry,industry
+ME,industrial energy use,biomass,biomass
+ME,industrial energy use,biomass,biomass cogen
+ME,industrial energy use,coal,coal
+ME,industrial energy use,coal,coal cogen
+ME,industrial energy use,electricity,electricity
+ME,industrial energy use,gas,gas
+ME,industrial energy use,gas,gas cogen
+ME,industrial energy use,hydrogen,hydrogen
+ME,industrial energy use,hydrogen,hydrogen cogen
+ME,industrial energy use,refined liquids,refined liquids
+ME,industrial energy use,refined liquids,refined liquids cogen
+ME,industrial feedstocks,coal,coal
+ME,industrial feedstocks,gas,gas
+ME,industrial feedstocks,refined liquids,refined liquids
+ME,industry,industry,industry
+MI,industrial energy use,biomass,biomass
+MI,industrial energy use,biomass,biomass cogen
+MI,industrial energy use,coal,coal
+MI,industrial energy use,coal,coal cogen
+MI,industrial energy use,electricity,electricity
+MI,industrial energy use,gas,gas
+MI,industrial energy use,gas,gas cogen
+MI,industrial energy use,hydrogen,hydrogen
+MI,industrial energy use,hydrogen,hydrogen cogen
+MI,industrial energy use,refined liquids,refined liquids
+MI,industrial energy use,refined liquids,refined liquids cogen
+MI,industrial feedstocks,coal,coal
+MI,industrial feedstocks,gas,gas
+MI,industrial feedstocks,refined liquids,refined liquids
+MI,industry,industry,industry
+MN,industrial energy use,biomass,biomass
+MN,industrial energy use,biomass,biomass cogen
+MN,industrial energy use,coal,coal
+MN,industrial energy use,coal,coal cogen
+MN,industrial energy use,electricity,electricity
+MN,industrial energy use,gas,gas
+MN,industrial energy use,gas,gas cogen
+MN,industrial energy use,hydrogen,hydrogen
+MN,industrial energy use,hydrogen,hydrogen cogen
+MN,industrial energy use,refined liquids,refined liquids
+MN,industrial energy use,refined liquids,refined liquids cogen
+MN,industrial feedstocks,coal,coal
+MN,industrial feedstocks,gas,gas
+MN,industrial feedstocks,refined liquids,refined liquids
+MN,industry,industry,industry
+MO,industrial energy use,biomass,biomass
+MO,industrial energy use,biomass,biomass cogen
+MO,industrial energy use,coal,coal
+MO,industrial energy use,coal,coal cogen
+MO,industrial energy use,electricity,electricity
+MO,industrial energy use,gas,gas
+MO,industrial energy use,gas,gas cogen
+MO,industrial energy use,hydrogen,hydrogen
+MO,industrial energy use,hydrogen,hydrogen cogen
+MO,industrial energy use,refined liquids,refined liquids
+MO,industrial energy use,refined liquids,refined liquids cogen
+MO,industrial feedstocks,coal,coal
+MO,industrial feedstocks,gas,gas
+MO,industrial feedstocks,refined liquids,refined liquids
+MO,industry,industry,industry
+MS,industrial energy use,biomass,biomass
+MS,industrial energy use,biomass,biomass cogen
+MS,industrial energy use,coal,coal
+MS,industrial energy use,coal,coal cogen
+MS,industrial energy use,electricity,electricity
+MS,industrial energy use,gas,gas
+MS,industrial energy use,gas,gas cogen
+MS,industrial energy use,hydrogen,hydrogen
+MS,industrial energy use,hydrogen,hydrogen cogen
+MS,industrial energy use,refined liquids,refined liquids
+MS,industrial energy use,refined liquids,refined liquids cogen
+MS,industrial feedstocks,coal,coal
+MS,industrial feedstocks,gas,gas
+MS,industrial feedstocks,refined liquids,refined liquids
+MS,industry,industry,industry
+MT,industrial energy use,biomass,biomass
+MT,industrial energy use,biomass,biomass cogen
+MT,industrial energy use,coal,coal
+MT,industrial energy use,coal,coal cogen
+MT,industrial energy use,electricity,electricity
+MT,industrial energy use,gas,gas
+MT,industrial energy use,gas,gas cogen
+MT,industrial energy use,hydrogen,hydrogen
+MT,industrial energy use,hydrogen,hydrogen cogen
+MT,industrial energy use,refined liquids,refined liquids
+MT,industrial energy use,refined liquids,refined liquids cogen
+MT,industrial feedstocks,coal,coal
+MT,industrial feedstocks,gas,gas
+MT,industrial feedstocks,refined liquids,refined liquids
+MT,industry,industry,industry
+NC,industrial energy use,biomass,biomass
+NC,industrial energy use,biomass,biomass cogen
+NC,industrial energy use,coal,coal
+NC,industrial energy use,coal,coal cogen
+NC,industrial energy use,electricity,electricity
+NC,industrial energy use,gas,gas
+NC,industrial energy use,gas,gas cogen
+NC,industrial energy use,hydrogen,hydrogen
+NC,industrial energy use,hydrogen,hydrogen cogen
+NC,industrial energy use,refined liquids,refined liquids
+NC,industrial energy use,refined liquids,refined liquids cogen
+NC,industrial feedstocks,coal,coal
+NC,industrial feedstocks,gas,gas
+NC,industrial feedstocks,refined liquids,refined liquids
+NC,industry,industry,industry
+ND,industrial energy use,biomass,biomass
+ND,industrial energy use,biomass,biomass cogen
+ND,industrial energy use,coal,coal
+ND,industrial energy use,coal,coal cogen
+ND,industrial energy use,electricity,electricity
+ND,industrial energy use,gas,gas
+ND,industrial energy use,gas,gas cogen
+ND,industrial energy use,hydrogen,hydrogen
+ND,industrial energy use,hydrogen,hydrogen cogen
+ND,industrial energy use,refined liquids,refined liquids
+ND,industrial energy use,refined liquids,refined liquids cogen
+ND,industrial feedstocks,coal,coal
+ND,industrial feedstocks,gas,gas
+ND,industrial feedstocks,refined liquids,refined liquids
+ND,industry,industry,industry
+NE,industrial energy use,biomass,biomass
+NE,industrial energy use,biomass,biomass cogen
+NE,industrial energy use,coal,coal
+NE,industrial energy use,coal,coal cogen
+NE,industrial energy use,electricity,electricity
+NE,industrial energy use,gas,gas
+NE,industrial energy use,gas,gas cogen
+NE,industrial energy use,hydrogen,hydrogen
+NE,industrial energy use,hydrogen,hydrogen cogen
+NE,industrial energy use,refined liquids,refined liquids
+NE,industrial energy use,refined liquids,refined liquids cogen
+NE,industrial feedstocks,coal,coal
+NE,industrial feedstocks,gas,gas
+NE,industrial feedstocks,refined liquids,refined liquids
+NE,industry,industry,industry
+NH,industrial energy use,biomass,biomass
+NH,industrial energy use,biomass,biomass cogen
+NH,industrial energy use,coal,coal
+NH,industrial energy use,coal,coal cogen
+NH,industrial energy use,electricity,electricity
+NH,industrial energy use,gas,gas
+NH,industrial energy use,gas,gas cogen
+NH,industrial energy use,hydrogen,hydrogen
+NH,industrial energy use,hydrogen,hydrogen cogen
+NH,industrial energy use,refined liquids,refined liquids
+NH,industrial energy use,refined liquids,refined liquids cogen
+NH,industrial feedstocks,coal,coal
+NH,industrial feedstocks,gas,gas
+NH,industrial feedstocks,refined liquids,refined liquids
+NH,industry,industry,industry
+NJ,industrial energy use,biomass,biomass
+NJ,industrial energy use,biomass,biomass cogen
+NJ,industrial energy use,coal,coal
+NJ,industrial energy use,coal,coal cogen
+NJ,industrial energy use,electricity,electricity
+NJ,industrial energy use,gas,gas
+NJ,industrial energy use,gas,gas cogen
+NJ,industrial energy use,hydrogen,hydrogen
+NJ,industrial energy use,hydrogen,hydrogen cogen
+NJ,industrial energy use,refined liquids,refined liquids
+NJ,industrial energy use,refined liquids,refined liquids cogen
+NJ,industrial feedstocks,coal,coal
+NJ,industrial feedstocks,gas,gas
+NJ,industrial feedstocks,refined liquids,refined liquids
+NJ,industry,industry,industry
+NM,industrial energy use,biomass,biomass
+NM,industrial energy use,biomass,biomass cogen
+NM,industrial energy use,coal,coal
+NM,industrial energy use,coal,coal cogen
+NM,industrial energy use,electricity,electricity
+NM,industrial energy use,gas,gas
+NM,industrial energy use,gas,gas cogen
+NM,industrial energy use,hydrogen,hydrogen
+NM,industrial energy use,hydrogen,hydrogen cogen
+NM,industrial energy use,refined liquids,refined liquids
+NM,industrial energy use,refined liquids,refined liquids cogen
+NM,industrial feedstocks,coal,coal
+NM,industrial feedstocks,gas,gas
+NM,industrial feedstocks,refined liquids,refined liquids
+NM,industry,industry,industry
+NV,industrial energy use,biomass,biomass
+NV,industrial energy use,biomass,biomass cogen
+NV,industrial energy use,coal,coal
+NV,industrial energy use,coal,coal cogen
+NV,industrial energy use,electricity,electricity
+NV,industrial energy use,gas,gas
+NV,industrial energy use,gas,gas cogen
+NV,industrial energy use,hydrogen,hydrogen
+NV,industrial energy use,hydrogen,hydrogen cogen
+NV,industrial energy use,refined liquids,refined liquids
+NV,industrial energy use,refined liquids,refined liquids cogen
+NV,industrial feedstocks,coal,coal
+NV,industrial feedstocks,gas,gas
+NV,industrial feedstocks,refined liquids,refined liquids
+NV,industry,industry,industry
+NY,industrial energy use,biomass,biomass
+NY,industrial energy use,biomass,biomass cogen
+NY,industrial energy use,coal,coal
+NY,industrial energy use,coal,coal cogen
+NY,industrial energy use,electricity,electricity
+NY,industrial energy use,gas,gas
+NY,industrial energy use,gas,gas cogen
+NY,industrial energy use,hydrogen,hydrogen
+NY,industrial energy use,hydrogen,hydrogen cogen
+NY,industrial energy use,refined liquids,refined liquids
+NY,industrial energy use,refined liquids,refined liquids cogen
+NY,industrial feedstocks,coal,coal
+NY,industrial feedstocks,gas,gas
+NY,industrial feedstocks,refined liquids,refined liquids
+NY,industry,industry,industry
+OH,industrial energy use,biomass,biomass
+OH,industrial energy use,biomass,biomass cogen
+OH,industrial energy use,coal,coal
+OH,industrial energy use,coal,coal cogen
+OH,industrial energy use,electricity,electricity
+OH,industrial energy use,gas,gas
+OH,industrial energy use,gas,gas cogen
+OH,industrial energy use,hydrogen,hydrogen
+OH,industrial energy use,hydrogen,hydrogen cogen
+OH,industrial energy use,refined liquids,refined liquids
+OH,industrial energy use,refined liquids,refined liquids cogen
+OH,industrial feedstocks,coal,coal
+OH,industrial feedstocks,gas,gas
+OH,industrial feedstocks,refined liquids,refined liquids
+OH,industry,industry,industry
+OK,industrial energy use,biomass,biomass
+OK,industrial energy use,biomass,biomass cogen
+OK,industrial energy use,coal,coal
+OK,industrial energy use,coal,coal cogen
+OK,industrial energy use,electricity,electricity
+OK,industrial energy use,gas,gas
+OK,industrial energy use,gas,gas cogen
+OK,industrial energy use,hydrogen,hydrogen
+OK,industrial energy use,hydrogen,hydrogen cogen
+OK,industrial energy use,refined liquids,refined liquids
+OK,industrial energy use,refined liquids,refined liquids cogen
+OK,industrial feedstocks,coal,coal
+OK,industrial feedstocks,gas,gas
+OK,industrial feedstocks,refined liquids,refined liquids
+OK,industry,industry,industry
+OR,industrial energy use,biomass,biomass
+OR,industrial energy use,biomass,biomass cogen
+OR,industrial energy use,coal,coal
+OR,industrial energy use,coal,coal cogen
+OR,industrial energy use,electricity,electricity
+OR,industrial energy use,gas,gas
+OR,industrial energy use,gas,gas cogen
+OR,industrial energy use,hydrogen,hydrogen
+OR,industrial energy use,hydrogen,hydrogen cogen
+OR,industrial energy use,refined liquids,refined liquids
+OR,industrial energy use,refined liquids,refined liquids cogen
+OR,industrial feedstocks,coal,coal
+OR,industrial feedstocks,gas,gas
+OR,industrial feedstocks,refined liquids,refined liquids
+OR,industry,industry,industry
+PA,industrial energy use,biomass,biomass
+PA,industrial energy use,biomass,biomass cogen
+PA,industrial energy use,coal,coal
+PA,industrial energy use,coal,coal cogen
+PA,industrial energy use,electricity,electricity
+PA,industrial energy use,gas,gas
+PA,industrial energy use,gas,gas cogen
+PA,industrial energy use,hydrogen,hydrogen
+PA,industrial energy use,hydrogen,hydrogen cogen
+PA,industrial energy use,refined liquids,refined liquids
+PA,industrial energy use,refined liquids,refined liquids cogen
+PA,industrial feedstocks,coal,coal
+PA,industrial feedstocks,gas,gas
+PA,industrial feedstocks,refined liquids,refined liquids
+PA,industry,industry,industry
+RI,industrial energy use,biomass,biomass
+RI,industrial energy use,biomass,biomass cogen
+RI,industrial energy use,coal,coal
+RI,industrial energy use,coal,coal cogen
+RI,industrial energy use,electricity,electricity
+RI,industrial energy use,gas,gas
+RI,industrial energy use,gas,gas cogen
+RI,industrial energy use,hydrogen,hydrogen
+RI,industrial energy use,hydrogen,hydrogen cogen
+RI,industrial energy use,refined liquids,refined liquids
+RI,industrial energy use,refined liquids,refined liquids cogen
+RI,industrial feedstocks,coal,coal
+RI,industrial feedstocks,gas,gas
+RI,industrial feedstocks,refined liquids,refined liquids
+RI,industry,industry,industry
+SC,industrial energy use,biomass,biomass
+SC,industrial energy use,biomass,biomass cogen
+SC,industrial energy use,coal,coal
+SC,industrial energy use,coal,coal cogen
+SC,industrial energy use,electricity,electricity
+SC,industrial energy use,gas,gas
+SC,industrial energy use,gas,gas cogen
+SC,industrial energy use,hydrogen,hydrogen
+SC,industrial energy use,hydrogen,hydrogen cogen
+SC,industrial energy use,refined liquids,refined liquids
+SC,industrial energy use,refined liquids,refined liquids cogen
+SC,industrial feedstocks,coal,coal
+SC,industrial feedstocks,gas,gas
+SC,industrial feedstocks,refined liquids,refined liquids
+SC,industry,industry,industry
+SD,industrial energy use,biomass,biomass
+SD,industrial energy use,biomass,biomass cogen
+SD,industrial energy use,coal,coal
+SD,industrial energy use,coal,coal cogen
+SD,industrial energy use,electricity,electricity
+SD,industrial energy use,gas,gas
+SD,industrial energy use,gas,gas cogen
+SD,industrial energy use,hydrogen,hydrogen
+SD,industrial energy use,hydrogen,hydrogen cogen
+SD,industrial energy use,refined liquids,refined liquids
+SD,industrial energy use,refined liquids,refined liquids cogen
+SD,industrial feedstocks,coal,coal
+SD,industrial feedstocks,gas,gas
+SD,industrial feedstocks,refined liquids,refined liquids
+SD,industry,industry,industry
+TN,industrial energy use,biomass,biomass
+TN,industrial energy use,biomass,biomass cogen
+TN,industrial energy use,coal,coal
+TN,industrial energy use,coal,coal cogen
+TN,industrial energy use,electricity,electricity
+TN,industrial energy use,gas,gas
+TN,industrial energy use,gas,gas cogen
+TN,industrial energy use,hydrogen,hydrogen
+TN,industrial energy use,hydrogen,hydrogen cogen
+TN,industrial energy use,refined liquids,refined liquids
+TN,industrial energy use,refined liquids,refined liquids cogen
+TN,industrial feedstocks,coal,coal
+TN,industrial feedstocks,gas,gas
+TN,industrial feedstocks,refined liquids,refined liquids
+TN,industry,industry,industry
+TX,industrial energy use,biomass,biomass
+TX,industrial energy use,biomass,biomass cogen
+TX,industrial energy use,coal,coal
+TX,industrial energy use,coal,coal cogen
+TX,industrial energy use,electricity,electricity
+TX,industrial energy use,gas,gas
+TX,industrial energy use,gas,gas cogen
+TX,industrial energy use,hydrogen,hydrogen
+TX,industrial energy use,hydrogen,hydrogen cogen
+TX,industrial energy use,refined liquids,refined liquids
+TX,industrial energy use,refined liquids,refined liquids cogen
+TX,industrial feedstocks,coal,coal
+TX,industrial feedstocks,gas,gas
+TX,industrial feedstocks,refined liquids,refined liquids
+TX,industry,industry,industry
+UT,industrial energy use,biomass,biomass
+UT,industrial energy use,biomass,biomass cogen
+UT,industrial energy use,coal,coal
+UT,industrial energy use,coal,coal cogen
+UT,industrial energy use,electricity,electricity
+UT,industrial energy use,gas,gas
+UT,industrial energy use,gas,gas cogen
+UT,industrial energy use,hydrogen,hydrogen
+UT,industrial energy use,hydrogen,hydrogen cogen
+UT,industrial energy use,refined liquids,refined liquids
+UT,industrial energy use,refined liquids,refined liquids cogen
+UT,industrial feedstocks,coal,coal
+UT,industrial feedstocks,gas,gas
+UT,industrial feedstocks,refined liquids,refined liquids
+UT,industry,industry,industry
+VA,industrial energy use,biomass,biomass
+VA,industrial energy use,biomass,biomass cogen
+VA,industrial energy use,coal,coal
+VA,industrial energy use,coal,coal cogen
+VA,industrial energy use,electricity,electricity
+VA,industrial energy use,gas,gas
+VA,industrial energy use,gas,gas cogen
+VA,industrial energy use,hydrogen,hydrogen
+VA,industrial energy use,hydrogen,hydrogen cogen
+VA,industrial energy use,refined liquids,refined liquids
+VA,industrial energy use,refined liquids,refined liquids cogen
+VA,industrial feedstocks,coal,coal
+VA,industrial feedstocks,gas,gas
+VA,industrial feedstocks,refined liquids,refined liquids
+VA,industry,industry,industry
+VT,industrial energy use,biomass,biomass
+VT,industrial energy use,biomass,biomass cogen
+VT,industrial energy use,coal,coal
+VT,industrial energy use,coal,coal cogen
+VT,industrial energy use,electricity,electricity
+VT,industrial energy use,gas,gas
+VT,industrial energy use,gas,gas cogen
+VT,industrial energy use,hydrogen,hydrogen
+VT,industrial energy use,hydrogen,hydrogen cogen
+VT,industrial energy use,refined liquids,refined liquids
+VT,industrial energy use,refined liquids,refined liquids cogen
+VT,industrial feedstocks,coal,coal
+VT,industrial feedstocks,gas,gas
+VT,industrial feedstocks,refined liquids,refined liquids
+VT,industry,industry,industry
+WA,industrial energy use,biomass,biomass
+WA,industrial energy use,biomass,biomass cogen
+WA,industrial energy use,coal,coal
+WA,industrial energy use,coal,coal cogen
+WA,industrial energy use,electricity,electricity
+WA,industrial energy use,gas,gas
+WA,industrial energy use,gas,gas cogen
+WA,industrial energy use,hydrogen,hydrogen
+WA,industrial energy use,hydrogen,hydrogen cogen
+WA,industrial energy use,refined liquids,refined liquids
+WA,industrial energy use,refined liquids,refined liquids cogen
+WA,industrial feedstocks,coal,coal
+WA,industrial feedstocks,gas,gas
+WA,industrial feedstocks,refined liquids,refined liquids
+WA,industry,industry,industry
+WI,industrial energy use,biomass,biomass
+WI,industrial energy use,biomass,biomass cogen
+WI,industrial energy use,coal,coal
+WI,industrial energy use,coal,coal cogen
+WI,industrial energy use,electricity,electricity
+WI,industrial energy use,gas,gas
+WI,industrial energy use,gas,gas cogen
+WI,industrial energy use,hydrogen,hydrogen
+WI,industrial energy use,hydrogen,hydrogen cogen
+WI,industrial energy use,refined liquids,refined liquids
+WI,industrial energy use,refined liquids,refined liquids cogen
+WI,industrial feedstocks,coal,coal
+WI,industrial feedstocks,gas,gas
+WI,industrial feedstocks,refined liquids,refined liquids
+WI,industry,industry,industry
+WV,industrial energy use,biomass,biomass
+WV,industrial energy use,biomass,biomass cogen
+WV,industrial energy use,coal,coal
+WV,industrial energy use,coal,coal cogen
+WV,industrial energy use,electricity,electricity
+WV,industrial energy use,gas,gas
+WV,industrial energy use,gas,gas cogen
+WV,industrial energy use,hydrogen,hydrogen
+WV,industrial energy use,hydrogen,hydrogen cogen
+WV,industrial energy use,refined liquids,refined liquids
+WV,industrial energy use,refined liquids,refined liquids cogen
+WV,industrial feedstocks,coal,coal
+WV,industrial feedstocks,gas,gas
+WV,industrial feedstocks,refined liquids,refined liquids
+WV,industry,industry,industry
+WY,industrial energy use,biomass,biomass
+WY,industrial energy use,biomass,biomass cogen
+WY,industrial energy use,coal,coal
+WY,industrial energy use,coal,coal cogen
+WY,industrial energy use,electricity,electricity
+WY,industrial energy use,gas,gas
+WY,industrial energy use,gas,gas cogen
+WY,industrial energy use,hydrogen,hydrogen
+WY,industrial energy use,hydrogen,hydrogen cogen
+WY,industrial energy use,refined liquids,refined liquids
+WY,industrial energy use,refined liquids,refined liquids cogen
+WY,industrial feedstocks,coal,coal
+WY,industrial feedstocks,gas,gas
+WY,industrial feedstocks,refined liquids,refined liquids
+WY,industry,industry,industry
