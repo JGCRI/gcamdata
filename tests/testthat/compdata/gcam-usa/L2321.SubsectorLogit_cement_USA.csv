@@ -1,6 +1,7 @@
-# INPUT_TABLE
-# Variable ID
-# SubsectorLogit
+INPUT_TABLE
+Variable ID
+SubsectorLogit
+
 region,supplysector,subsector,logit.year.fillout,logit.exponent
 AL,cement,cement,1975,-12
 AL,process heat cement,biomass,1975,-6

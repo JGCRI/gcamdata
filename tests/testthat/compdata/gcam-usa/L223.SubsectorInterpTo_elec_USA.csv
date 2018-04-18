@@ -1,7 +1,7 @@
-#INPUT_TABLE
-#Variable ID
-#SubsectorInterpTo
-#
+INPUT_TABLE
+Variable ID
+SubsectorInterpTo
+
 region,supplysector,subsector,apply.to,from.year,to.year,to.value,interpolation.function
 AK,electricity,coal,share-weight,2010,2300,1,s-curve
 AK,electricity,gas,share-weight,2010,2300,1,s-curve
