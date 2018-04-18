@@ -1,9 +1,8 @@
-INPUT_TABLE
-Variable ID
-LN3_MgdCarbon
-
+#INPUT_TABLE
+#Variable ID
+#LN3_MgdCarbon
 region,LandAllocatorRoot,LandNode1,LandNode2,LandNode3,LandLeaf,hist.veg.carbon.density,hist.soil.carbon.density,veg.carbon.density,soil.carbon.density,mature.age.year.fillout,mature.age,min.veg.carbon.density,min.soil.carbon.density
-USA,root,AgroForestLand_PacArctic,AgroForest_NonPasture_PacArctic,AllForestLand_PacArctic,Forest_PacArctic,9.8,14.6,9.8,14.6,1975,50,0,0
+USA,root,AgroForestLand_PacArctic,AgroForest_NonPasture_PacArctic,AllForestLand_PacArctic,Forest_PacArctic,9.8,14.6,9.8,14.6,1975,50.0,0.0,0.0
 USA,root,AgroForestLand_NelsonR,AgroForest_NonPasture_NelsonR,AllForestLand_NelsonR,Forest_NelsonR,11.3,11.9,11.3,11.9,1975,50,0,0
 USA,root,AgroForestLand_FraserR,AgroForest_NonPasture_FraserR,AllForestLand_FraserR,Forest_FraserR,10.2,19.3,10.2,19.3,1975,50,0,0
 USA,root,AgroForestLand_MexCstNW,AgroForest_NonPasture_MexCstNW,AllForestLand_MexCstNW,Forest_MexCstNW,16,13.4,16,13.4,1975,50,0,0
