@@ -1,7 +1,7 @@
-#INPUT_TABLE
-#Variable ID
-#Supplysector
-#
+INPUT_TABLE
+Variable ID
+Supplysector
+
 region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent
 AK,carbon-storage,MtC,MtC,1990$/tC,1975,-6
 AL,carbon-storage,MtC,MtC,1990$/tC,1975,-6
