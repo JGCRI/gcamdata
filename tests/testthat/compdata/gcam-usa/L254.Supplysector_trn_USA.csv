@@ -1,7 +1,7 @@
-#INPUT_TABLE
-#Variable ID
-#Supplysector
-#
+INPUT_TABLE
+Variable ID
+Supplysector
+
 region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent
 AK,trn_aviation_intl,million pass-km,EJ,1990$/pass-km,1975,-3
 AK,trn_freight,million ton-km,EJ,1990$/ton-km,1975,-2

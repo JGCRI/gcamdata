@@ -1,7 +1,7 @@
-#INPUT_TABLE
-#Variable ID
-#SubsectorInterp
-#
+INPUT_TABLE
+Variable ID
+SubsectorInterp
+
 region,supplysector,subsector,apply.to,from.year,to.year,interpolation.function
 AK,electricity,biomass,share-weight,2010,2100,linear
 AK,electricity,nuclear,share-weight,2010,2015,linear

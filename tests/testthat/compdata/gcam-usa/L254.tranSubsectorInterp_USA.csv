@@ -1,7 +1,7 @@
-#INPUT_TABLE
-#Variable ID
-#tranSubsectorInterp
-#
+INPUT_TABLE
+Variable ID
+tranSubsectorInterp
+
 region,supplysector,tranSubsector,apply.to,from.year,to.year,interpolation.function
 AK,trn_aviation_intl,International Aviation,share-weight,2010,2100,fixed
 AK,trn_freight,Domestic Ship,share-weight,2010,2100,fixed

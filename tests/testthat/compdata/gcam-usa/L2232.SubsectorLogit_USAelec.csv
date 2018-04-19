@@ -1,7 +1,7 @@
-#INPUT_TABLE
-#Variable ID
-#SubsectorLogit
-#
+INPUT_TABLE
+Variable ID
+SubsectorLogit
+
 region,supplysector,subsector,logit.year.fillout,logit.exponent
 USA,electricity trade,Alaska grid electricity trade,1975,-6
 USA,electricity trade,California grid electricity trade,1975,-6

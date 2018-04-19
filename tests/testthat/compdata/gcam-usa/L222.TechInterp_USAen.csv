@@ -1,3 +1,7 @@
+INPUT_TABLE
+Variable ID
+TechInterp
+
 region,supplysector,subsector,technology,apply.to,from.year,to.year,interpolation.function
 USA,refining,oil refining,AK oil refining,share-weight,2010,2100,fixed
 USA,refining,biomass liquids,AK biomass liquids,share-weight,2010,2100,s-curve

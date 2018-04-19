@@ -1,7 +1,7 @@
-#INPUT_TABLE
-#Variable ID
-#SubsectorInterp
-#
+INPUT_TABLE
+Variable ID
+SubsectorInterp
+
 region,supplysector,subsector,apply.to,from.year,to.year,interpolation.function
 Alaska grid,electricity_net_ownuse,electricity_net_ownuse,share-weight,2010,2100,fixed
 Alaska grid,electricity domestic supply,electricity_net_ownuse,share-weight,2010,2100,fixed

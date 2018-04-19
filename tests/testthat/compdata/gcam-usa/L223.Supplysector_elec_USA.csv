@@ -1,7 +1,7 @@
-#INPUT_TABLE
-#Variable ID
-#Supplysector
-#
+INPUT_TABLE
+Variable ID
+Supplysector
+
 region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent
 AK,electricity,EJ,EJ,1975$/GJ,1975,-3
 AK,elect_td_bld,EJ,EJ,1975$/GJ,1975,-6

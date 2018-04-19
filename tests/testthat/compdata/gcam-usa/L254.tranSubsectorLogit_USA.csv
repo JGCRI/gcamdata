@@ -1,7 +1,7 @@
-#INPUT_TABLE
-#Variable ID
-#tranSubsectorLogit
-#
+INPUT_TABLE
+Variable ID
+tranSubsectorLogit
+
 region,supplysector,tranSubsector,logit.year.fillout,logit.exponent
 AK,trn_aviation_intl,International Aviation,1975,-6
 AK,trn_freight,Domestic Ship,1975,-6

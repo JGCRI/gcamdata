@@ -1,7 +1,7 @@
-#INPUT_TABLE
-#Variable ID
-#Supplysector
-#
+INPUT_TABLE
+Variable ID
+Supplysector
+
 region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent
 Alaska grid,electricity_net_ownuse,EJ,EJ,1975$/GJ,1975,-3
 Alaska grid,electricity domestic supply,EJ,EJ,1975$/GJ,1975,-3
