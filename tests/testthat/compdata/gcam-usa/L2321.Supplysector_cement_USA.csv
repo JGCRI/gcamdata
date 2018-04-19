@@ -1,6 +1,7 @@
-# INPUT_TABLE
-# Variable ID
-# Supplysector
+INPUT_TABLE
+Variable ID
+Supplysector
+
 region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent
 AL,cement,Mt,EJ or Mt,1975$/kg,1975,-3
 AL,process heat cement,EJ,EJ,1975$/GJ,1975,-3
