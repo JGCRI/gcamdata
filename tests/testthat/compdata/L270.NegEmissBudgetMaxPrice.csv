@@ -1,0 +1,36 @@
+# This value is just used to give the solver a hint of the
+# range of prices which are valid.  For the negative emissions
+# budget constraint the price is a fraction from 0 to 1
+region,policy.portfolio.standard,max.price
+USA,negative_emiss_budget,1
+Africa_Eastern,negative_emiss_budget,1
+Africa_Northern,negative_emiss_budget,1
+Africa_Southern,negative_emiss_budget,1
+Africa_Western,negative_emiss_budget,1
+Australia_NZ,negative_emiss_budget,1
+Brazil,negative_emiss_budget,1
+Canada,negative_emiss_budget,1
+Central America and Caribbean,negative_emiss_budget,1
+Central Asia,negative_emiss_budget,1
+China,negative_emiss_budget,1
+EU-12,negative_emiss_budget,1
+EU-15,negative_emiss_budget,1
+Europe_Eastern,negative_emiss_budget,1
+Europe_Non_EU,negative_emiss_budget,1
+European Free Trade Association,negative_emiss_budget,1
+India,negative_emiss_budget,1
+Indonesia,negative_emiss_budget,1
+Japan,negative_emiss_budget,1
+Mexico,negative_emiss_budget,1
+Middle East,negative_emiss_budget,1
+Pakistan,negative_emiss_budget,1
+Russia,negative_emiss_budget,1
+South Africa,negative_emiss_budget,1
+South America_Northern,negative_emiss_budget,1
+South America_Southern,negative_emiss_budget,1
+South Asia,negative_emiss_budget,1
+South Korea,negative_emiss_budget,1
+Southeast Asia,negative_emiss_budget,1
+Taiwan,negative_emiss_budget,1
+Argentina,negative_emiss_budget,1
+Colombia,negative_emiss_budget,1

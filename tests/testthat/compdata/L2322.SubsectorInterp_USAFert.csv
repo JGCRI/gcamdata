@@ -1,0 +1,12 @@
+# Expanded USA region subsector to all fertilizer producing states in region USA
+# Added the apply.to, from.year, and interpolation.function columns
+region,supplysector,subsector,apply.to,from.year,to.year,interpolation.function
+USA,N fertilizer,CA N fertilizer,share-weight,2010,2100,fixed
+USA,N fertilizer,FL N fertilizer,share-weight,2010,2100,fixed
+USA,N fertilizer,GA N fertilizer,share-weight,2010,2100,fixed
+USA,N fertilizer,IA N fertilizer,share-weight,2010,2100,fixed
+USA,N fertilizer,LA N fertilizer,share-weight,2010,2100,fixed
+USA,N fertilizer,MO N fertilizer,share-weight,2010,2100,fixed
+USA,N fertilizer,NC N fertilizer,share-weight,2010,2100,fixed
+USA,N fertilizer,OH N fertilizer,share-weight,2010,2100,fixed
+USA,N fertilizer,TX N fertilizer,share-weight,2010,2100,fixed

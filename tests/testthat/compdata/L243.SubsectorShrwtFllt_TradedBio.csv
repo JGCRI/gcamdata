@@ -1,0 +1,36 @@
+# Use cropland area in the final historical year to calculate shareweights.
+# Share weights are proportional to cropland area, with the region with
+# the largest cropland area assigned a share weight of 1.
+share.weight,region,supplysector,subsector,year.fillout
+0.9612366875667178,USA,traded biomass,USA traded biomass,1975
+0.34156694996701753,USA,traded biomass,Africa_Eastern traded biomass,1975
+0.1538738196132878,USA,traded biomass,Africa_Northern traded biomass,1975
+0.21517697676697983,USA,traded biomass,Africa_Southern traded biomass,1975
+0.7126263438816274,USA,traded biomass,Africa_Western traded biomass,1975
+0.25726278895092475,USA,traded biomass,Australia_NZ traded biomass,1975
+0.45736270676502283,USA,traded biomass,Brazil traded biomass,1975
+0.28523790675664457,USA,traded biomass,Canada traded biomass,1975
+0.08751080103329902,USA,traded biomass,Central America and Caribbean traded biomass,1975
+0.2153969885529099,USA,traded biomass,Central Asia traded biomass,1975
+0.7454784885580958,USA,traded biomass,China traded biomass,1975
+0.22394167209586624,USA,traded biomass,EU-12 traded biomass,1975
+0.47491665268067806,USA,traded biomass,EU-15 traded biomass,1975
+0.24306934525346238,USA,traded biomass,Europe_Eastern traded biomass,1975
+0.18343946625181104,USA,traded biomass,Europe_Non_EU traded biomass,1975
+0.0075194540307019445,USA,traded biomass,European Free Trade Association traded biomass,1975
+1,USA,traded biomass,India traded biomass,1975
+0.2474293462083627,USA,traded biomass,Indonesia traded biomass,1975
+0.023530681435538135,USA,traded biomass,Japan traded biomass,1975
+0.16509827971835853,USA,traded biomass,Mexico traded biomass,1975
+0.2072340751508799,USA,traded biomass,Middle East traded biomass,1975
+0.12656239433142585,USA,traded biomass,Pakistan traded biomass,1975
+0.7199499020493969,USA,traded biomass,Russia traded biomass,1975
+0.07666993371523052,USA,traded biomass,South Africa traded biomass,1975
+0.022199858889197194,USA,traded biomass,South America_Northern traded biomass,1975
+0.1091327742511951,USA,traded biomass,South America_Southern traded biomass,1975
+0.12380689780823011,USA,traded biomass,South Asia traded biomass,1975
+0.009042509336949795,USA,traded biomass,South Korea traded biomass,1975
+0.40436534777918676,USA,traded biomass,Southeast Asia traded biomass,1975
+0.22666141032161863,USA,traded biomass,Argentina traded biomass,1975
+0.01981565971318877,USA,traded biomass,Colombia traded biomass,1975
+0,USA,traded biomass,Taiwan traded biomass,1975

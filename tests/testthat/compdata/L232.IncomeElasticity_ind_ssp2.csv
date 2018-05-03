@@ -1,0 +1,580 @@
+# First calculate industrial output as the base-year industrial output times the GDP ratio raised to the income elasticity
+# Then back out the appropriate income elasticities from industrial output
+# Note lower income elasticities for SSP1 are hard-coded.
+region,energy.final.demand,year,income.elasticity
+USA,industry,2100,0.218
+Africa_Eastern,industry,2100,0.275
+Africa_Northern,industry,2100,0.287
+Africa_Southern,industry,2100,0.277
+Africa_Western,industry,2100,0.276
+Australia_NZ,industry,2100,0.14
+Brazil,industry,2100,0.257
+Canada,industry,2100,0.02
+Central America and Caribbean,industry,2100,0.259
+Central Asia,industry,2100,0.232
+China,industry,2100,0.233
+EU-12,industry,2100,0.254
+EU-15,industry,2100,0.25
+Europe_Eastern,industry,2100,0.214
+Europe_Non_EU,industry,2100,0.288
+European Free Trade Association,industry,2100,0.179
+India,industry,2100,0.283
+Indonesia,industry,2100,0.255
+Japan,industry,2100,0.226
+Mexico,industry,2100,0.278
+Middle East,industry,2100,0.238
+Pakistan,industry,2100,0.327
+Russia,industry,2100,0.075
+South Africa,industry,2100,0.238
+South America_Northern,industry,2100,0.237
+South America_Southern,industry,2100,0.286
+South Asia,industry,2100,0.363
+South Korea,industry,2100,0.079
+Southeast Asia,industry,2100,0.257
+Taiwan,industry,2100,0.079
+Argentina,industry,2100,0.254
+Colombia,industry,2100,0.359
+USA,industry,2095,0.22
+Africa_Eastern,industry,2095,0.293
+Africa_Northern,industry,2095,0.296
+Africa_Southern,industry,2095,0.294
+Africa_Western,industry,2095,0.291
+Australia_NZ,industry,2095,0.143
+Brazil,industry,2095,0.259
+Canada,industry,2095,0.022
+Central America and Caribbean,industry,2095,0.265
+Central Asia,industry,2095,0.234
+China,industry,2095,0.234
+EU-12,industry,2095,0.256
+EU-15,industry,2095,0.251
+Europe_Eastern,industry,2095,0.218
+Europe_Non_EU,industry,2095,0.295
+European Free Trade Association,industry,2095,0.183
+India,industry,2095,0.293
+Indonesia,industry,2095,0.257
+Japan,industry,2095,0.228
+Mexico,industry,2095,0.288
+Middle East,industry,2095,0.24
+Pakistan,industry,2095,0.342
+Russia,industry,2095,0.079
+South Africa,industry,2095,0.239
+South America_Northern,industry,2095,0.239
+South America_Southern,industry,2095,0.296
+South Asia,industry,2095,0.409
+South Korea,industry,2095,0.083
+Southeast Asia,industry,2095,0.259
+Taiwan,industry,2095,0.079
+Argentina,industry,2095,0.255
+Colombia,industry,2095,0.388
+USA,industry,2090,0.221
+Africa_Eastern,industry,2090,0.311
+Africa_Northern,industry,2090,0.306
+Africa_Southern,industry,2090,0.312
+Africa_Western,industry,2090,0.308
+Australia_NZ,industry,2090,0.146
+Brazil,industry,2090,0.262
+Canada,industry,2090,0.023
+Central America and Caribbean,industry,2090,0.277
+Central Asia,industry,2090,0.236
+China,industry,2090,0.235
+EU-12,industry,2090,0.258
+EU-15,industry,2090,0.253
+Europe_Eastern,industry,2090,0.221
+Europe_Non_EU,industry,2090,0.303
+European Free Trade Association,industry,2090,0.186
+India,industry,2090,0.304
+Indonesia,industry,2090,0.259
+Japan,industry,2090,0.23
+Mexico,industry,2090,0.298
+Middle East,industry,2090,0.242
+Pakistan,industry,2090,0.369
+Russia,industry,2090,0.084
+South Africa,industry,2090,0.241
+South America_Northern,industry,2090,0.241
+South America_Southern,industry,2090,0.306
+South Asia,industry,2090,0.459
+South Korea,industry,2090,0.088
+Southeast Asia,industry,2090,0.268
+Taiwan,industry,2090,0.08
+Argentina,industry,2090,0.257
+Colombia,industry,2090,0.42
+USA,industry,2085,0.222
+Africa_Eastern,industry,2085,0.331
+Africa_Northern,industry,2085,0.317
+Africa_Southern,industry,2085,0.331
+Africa_Western,industry,2085,0.326
+Australia_NZ,industry,2085,0.149
+Brazil,industry,2085,0.27
+Canada,industry,2085,0.025
+Central America and Caribbean,industry,2085,0.29
+Central Asia,industry,2085,0.238
+China,industry,2085,0.237
+EU-12,industry,2085,0.259
+EU-15,industry,2085,0.255
+Europe_Eastern,industry,2085,0.224
+Europe_Non_EU,industry,2085,0.312
+European Free Trade Association,industry,2085,0.19
+India,industry,2085,0.315
+Indonesia,industry,2085,0.267
+Japan,industry,2085,0.232
+Mexico,industry,2085,0.308
+Middle East,industry,2085,0.244
+Pakistan,industry,2085,0.417
+Russia,industry,2085,0.088
+South Africa,industry,2085,0.243
+South America_Northern,industry,2085,0.243
+South America_Southern,industry,2085,0.316
+South Asia,industry,2085,0.513
+South Korea,industry,2085,0.093
+Southeast Asia,industry,2085,0.278
+Taiwan,industry,2085,0.081
+Argentina,industry,2085,0.258
+Colombia,industry,2085,0.454
+USA,industry,2080,0.222
+Africa_Eastern,industry,2080,0.357
+Africa_Northern,industry,2080,0.328
+Africa_Southern,industry,2080,0.352
+Africa_Western,industry,2080,0.345
+Australia_NZ,industry,2080,0.151
+Brazil,industry,2080,0.279
+Canada,industry,2080,0.026
+Central America and Caribbean,industry,2080,0.303
+Central Asia,industry,2080,0.24
+China,industry,2080,0.238
+EU-12,industry,2080,0.264
+EU-15,industry,2080,0.256
+Europe_Eastern,industry,2080,0.226
+Europe_Non_EU,industry,2080,0.32
+European Free Trade Association,industry,2080,0.193
+India,industry,2080,0.327
+Indonesia,industry,2080,0.277
+Japan,industry,2080,0.233
+Mexico,industry,2080,0.318
+Middle East,industry,2080,0.246
+Pakistan,industry,2080,0.471
+Russia,industry,2080,0.093
+South Africa,industry,2080,0.245
+South America_Northern,industry,2080,0.246
+South America_Southern,industry,2080,0.327
+South Asia,industry,2080,0.57
+South Korea,industry,2080,0.098
+Southeast Asia,industry,2080,0.29
+Taiwan,industry,2080,0.083
+Argentina,industry,2080,0.26
+Colombia,industry,2080,0.491
+USA,industry,2075,0.223
+Africa_Eastern,industry,2075,0.425
+Africa_Northern,industry,2075,0.339
+Africa_Southern,industry,2075,0.416
+Africa_Western,industry,2075,0.397
+Australia_NZ,industry,2075,0.154
+Brazil,industry,2075,0.288
+Canada,industry,2075,0.028
+Central America and Caribbean,industry,2075,0.317
+Central Asia,industry,2075,0.242
+China,industry,2075,0.24
+EU-12,industry,2075,0.272
+EU-15,industry,2075,0.258
+Europe_Eastern,industry,2075,0.228
+Europe_Non_EU,industry,2075,0.329
+European Free Trade Association,industry,2075,0.197
+India,industry,2075,0.34
+Indonesia,industry,2075,0.289
+Japan,industry,2075,0.235
+Mexico,industry,2075,0.329
+Middle East,industry,2075,0.248
+Pakistan,industry,2075,0.53
+Russia,industry,2075,0.099
+South Africa,industry,2075,0.248
+South America_Northern,industry,2075,0.248
+South America_Southern,industry,2075,0.338
+South Asia,industry,2075,0.628
+South Korea,industry,2075,0.102
+Southeast Asia,industry,2075,0.302
+Taiwan,industry,2075,0.085
+Argentina,industry,2075,0.268
+Colombia,industry,2075,0.53
+USA,industry,2070,0.224
+Africa_Eastern,industry,2070,0.501
+Africa_Northern,industry,2070,0.355
+Africa_Southern,industry,2070,0.486
+Africa_Western,industry,2070,0.465
+Australia_NZ,industry,2070,0.157
+Brazil,industry,2070,0.297
+Canada,industry,2070,0.03
+Central America and Caribbean,industry,2070,0.331
+Central Asia,industry,2070,0.244
+China,industry,2070,0.242
+EU-12,industry,2070,0.28
+EU-15,industry,2070,0.259
+Europe_Eastern,industry,2070,0.231
+Europe_Non_EU,industry,2070,0.339
+European Free Trade Association,industry,2070,0.2
+India,industry,2070,0.36
+Indonesia,industry,2070,0.301
+Japan,industry,2070,0.237
+Mexico,industry,2070,0.34
+Middle East,industry,2070,0.25
+Pakistan,industry,2070,0.595
+Russia,industry,2070,0.102
+South Africa,industry,2070,0.25
+South America_Northern,industry,2070,0.251
+South America_Southern,industry,2070,0.349
+South Asia,industry,2070,0.685
+South Korea,industry,2070,0.104
+Southeast Asia,industry,2070,0.314
+Taiwan,industry,2070,0.089
+Argentina,industry,2070,0.276
+Colombia,industry,2070,0.57
+USA,industry,2065,0.225
+Africa_Eastern,industry,2065,0.583
+Africa_Northern,industry,2065,0.395
+Africa_Southern,industry,2065,0.562
+Africa_Western,industry,2065,0.541
+Australia_NZ,industry,2065,0.16
+Brazil,industry,2065,0.306
+Canada,industry,2065,0.031
+Central America and Caribbean,industry,2065,0.345
+Central Asia,industry,2065,0.247
+China,industry,2065,0.244
+EU-12,industry,2065,0.29
+EU-15,industry,2065,0.263
+Europe_Eastern,industry,2065,0.234
+Europe_Non_EU,industry,2065,0.348
+European Free Trade Association,industry,2065,0.204
+India,industry,2065,0.402
+Indonesia,industry,2065,0.314
+Japan,industry,2065,0.238
+Mexico,industry,2065,0.354
+Middle East,industry,2065,0.252
+Pakistan,industry,2065,0.66
+Russia,industry,2065,0.104
+South Africa,industry,2065,0.252
+South America_Northern,industry,2065,0.253
+South America_Southern,industry,2065,0.382
+South Asia,industry,2065,0.743
+South Korea,industry,2065,0.107
+Southeast Asia,industry,2065,0.328
+Taiwan,industry,2065,0.092
+Argentina,industry,2065,0.284
+Colombia,industry,2065,0.612
+USA,industry,2060,0.226
+Africa_Eastern,industry,2060,0.666
+Africa_Northern,industry,2060,0.439
+Africa_Southern,industry,2060,0.639
+Africa_Western,industry,2060,0.619
+Australia_NZ,industry,2060,0.163
+Brazil,industry,2060,0.316
+Canada,industry,2060,0.033
+Central America and Caribbean,industry,2060,0.38
+Central Asia,industry,2060,0.249
+China,industry,2060,0.245
+EU-12,industry,2060,0.299
+EU-15,industry,2060,0.271
+Europe_Eastern,industry,2060,0.237
+Europe_Non_EU,industry,2060,0.373
+European Free Trade Association,industry,2060,0.208
+India,industry,2060,0.449
+Indonesia,industry,2060,0.328
+Japan,industry,2060,0.24
+Mexico,industry,2060,0.389
+Middle East,industry,2060,0.254
+Pakistan,industry,2060,0.725
+Russia,industry,2060,0.107
+South Africa,industry,2060,0.254
+South America_Northern,industry,2060,0.255
+South America_Southern,industry,2060,0.42
+South Asia,industry,2060,0.798
+South Korea,industry,2060,0.11
+Southeast Asia,industry,2060,0.341
+Taiwan,industry,2060,0.097
+Argentina,industry,2060,0.293
+Colombia,industry,2060,0.654
+USA,industry,2055,0.226
+Africa_Eastern,industry,2055,0.746
+Africa_Northern,industry,2055,0.486
+Africa_Southern,industry,2055,0.714
+Africa_Western,industry,2055,0.697
+Australia_NZ,industry,2055,0.166
+Brazil,industry,2055,0.325
+Canada,industry,2055,0.035
+Central America and Caribbean,industry,2055,0.426
+Central Asia,industry,2055,0.251
+China,industry,2055,0.247
+EU-12,industry,2055,0.308
+EU-15,industry,2055,0.278
+Europe_Eastern,industry,2055,0.24
+Europe_Non_EU,industry,2055,0.404
+European Free Trade Association,industry,2055,0.211
+India,industry,2055,0.501
+Indonesia,industry,2055,0.342
+Japan,industry,2055,0.241
+Mexico,industry,2055,0.425
+Middle East,industry,2055,0.256
+Pakistan,industry,2055,0.788
+Russia,industry,2055,0.11
+South Africa,industry,2055,0.256
+South America_Northern,industry,2055,0.258
+South America_Southern,industry,2055,0.461
+South Asia,industry,2055,0.851
+South Korea,industry,2055,0.112
+Southeast Asia,industry,2055,0.366
+Taiwan,industry,2055,0.098
+Argentina,industry,2055,0.302
+Colombia,industry,2055,0.695
+USA,industry,2050,0.227
+Africa_Eastern,industry,2050,0.821
+Africa_Northern,industry,2050,0.536
+Africa_Southern,industry,2050,0.783
+Africa_Western,industry,2050,0.771
+Australia_NZ,industry,2050,0.168
+Brazil,industry,2050,0.335
+Canada,industry,2050,0.036
+Central America and Caribbean,industry,2050,0.475
+Central Asia,industry,2050,0.253
+China,industry,2050,0.249
+EU-12,industry,2050,0.317
+EU-15,industry,2050,0.285
+Europe_Eastern,industry,2050,0.243
+Europe_Non_EU,industry,2050,0.437
+European Free Trade Association,industry,2050,0.215
+India,industry,2050,0.557
+Indonesia,industry,2050,0.375
+Japan,industry,2050,0.243
+Mexico,industry,2050,0.464
+Middle East,industry,2050,0.258
+Pakistan,industry,2050,0.847
+Russia,industry,2050,0.113
+South Africa,industry,2050,0.259
+South America_Northern,industry,2050,0.261
+South America_Southern,industry,2050,0.504
+South Asia,industry,2050,0.899
+South Korea,industry,2050,0.116
+Southeast Asia,industry,2050,0.41
+Taiwan,industry,2050,0.099
+Argentina,industry,2050,0.312
+Colombia,industry,2050,0.736
+USA,industry,2045,0.228
+Africa_Eastern,industry,2045,0.889
+Africa_Northern,industry,2045,0.588
+Africa_Southern,industry,2045,0.844
+Africa_Western,industry,2045,0.839
+Australia_NZ,industry,2045,0.171
+Brazil,industry,2045,0.344
+Canada,industry,2045,0.038
+Central America and Caribbean,industry,2045,0.526
+Central Asia,industry,2045,0.256
+China,industry,2045,0.252
+EU-12,industry,2045,0.326
+EU-15,industry,2045,0.293
+Europe_Eastern,industry,2045,0.246
+Europe_Non_EU,industry,2045,0.471
+European Free Trade Association,industry,2045,0.218
+India,industry,2045,0.616
+Indonesia,industry,2045,0.428
+Japan,industry,2045,0.244
+Mexico,industry,2045,0.504
+Middle East,industry,2045,0.26
+Pakistan,industry,2045,0.902
+Russia,industry,2045,0.115
+South Africa,industry,2045,0.265
+South America_Northern,industry,2045,0.273
+South America_Southern,industry,2045,0.55
+South Asia,industry,2045,0.982
+South Korea,industry,2045,0.119
+Southeast Asia,industry,2045,0.458
+Taiwan,industry,2045,0.101
+Argentina,industry,2045,0.322
+Colombia,industry,2045,0.776
+USA,industry,2040,0.229
+Africa_Eastern,industry,2040,0.99
+Africa_Northern,industry,2040,0.642
+Africa_Southern,industry,2040,0.895
+Africa_Western,industry,2040,0.899
+Australia_NZ,industry,2040,0.174
+Brazil,industry,2040,0.361
+Canada,industry,2040,0.04
+Central America and Caribbean,industry,2040,0.579
+Central Asia,industry,2040,0.258
+China,industry,2040,0.255
+EU-12,industry,2040,0.336
+EU-15,industry,2040,0.3
+Europe_Eastern,industry,2040,0.249
+Europe_Non_EU,industry,2040,0.509
+European Free Trade Association,industry,2040,0.221
+India,industry,2040,0.678
+Indonesia,industry,2040,0.49
+Japan,industry,2040,0.246
+Mexico,industry,2040,0.543
+Middle East,industry,2040,0.266
+Pakistan,industry,2040,0.996
+Russia,industry,2040,0.119
+South Africa,industry,2040,0.277
+South America_Northern,industry,2040,0.284
+South America_Southern,industry,2040,0.598
+South Asia,industry,2040,1.06
+South Korea,industry,2040,0.123
+Southeast Asia,industry,2040,0.511
+Taiwan,industry,2040,0.103
+Argentina,industry,2040,0.332
+Colombia,industry,2040,0.815
+USA,industry,2035,0.23
+Africa_Eastern,industry,2035,1.084
+Africa_Northern,industry,2035,0.698
+Africa_Southern,industry,2035,0.967
+Africa_Western,industry,2035,1
+Australia_NZ,industry,2035,0.177
+Brazil,industry,2035,0.391
+Canada,industry,2035,0.043
+Central America and Caribbean,industry,2035,0.631
+Central Asia,industry,2035,0.266
+China,industry,2035,0.258
+EU-12,industry,2035,0.348
+EU-15,industry,2035,0.307
+Europe_Eastern,industry,2035,0.253
+Europe_Non_EU,industry,2035,0.549
+European Free Trade Association,industry,2035,0.222
+India,industry,2035,0.743
+Indonesia,industry,2035,0.562
+Japan,industry,2035,0.247
+Mexico,industry,2035,0.583
+Middle East,industry,2035,0.276
+Pakistan,industry,2035,1.079
+Russia,industry,2035,0.123
+South Africa,industry,2035,0.29
+South America_Northern,industry,2035,0.296
+South America_Southern,industry,2035,0.645
+South Asia,industry,2035,1.133
+South Korea,industry,2035,0.127
+Southeast Asia,industry,2035,0.567
+Taiwan,industry,2035,0.105
+Argentina,industry,2035,0.344
+Colombia,industry,2035,0.852
+USA,industry,2030,0.232
+Africa_Eastern,industry,2030,1.167
+Africa_Northern,industry,2030,0.757
+Africa_Southern,industry,2030,1.028
+Africa_Western,industry,2030,1.088
+Australia_NZ,industry,2030,0.18
+Brazil,industry,2030,0.424
+Canada,industry,2030,0.045
+Central America and Caribbean,industry,2030,0.68
+Central Asia,industry,2030,0.284
+China,industry,2030,0.268
+EU-12,industry,2030,0.383
+EU-15,industry,2030,0.314
+Europe_Eastern,industry,2030,0.257
+Europe_Non_EU,industry,2030,0.592
+European Free Trade Association,industry,2030,0.223
+India,industry,2030,0.809
+Indonesia,industry,2030,0.639
+Japan,industry,2030,0.248
+Mexico,industry,2030,0.623
+Middle East,industry,2030,0.287
+Pakistan,industry,2030,1.153
+Russia,industry,2030,0.129
+South Africa,industry,2030,0.304
+South America_Northern,industry,2030,0.308
+South America_Southern,industry,2030,0.693
+South Asia,industry,2030,1.204
+South Korea,industry,2030,0.132
+Southeast Asia,industry,2030,0.625
+Taiwan,industry,2030,0.108
+Argentina,industry,2030,0.37
+Colombia,industry,2030,0.887
+USA,industry,2025,0.233
+Africa_Eastern,industry,2025,1.241
+Africa_Northern,industry,2025,0.818
+Africa_Southern,industry,2025,1.085
+Africa_Western,industry,2025,1.174
+Australia_NZ,industry,2025,0.183
+Brazil,industry,2025,0.463
+Canada,industry,2025,0.048
+Central America and Caribbean,industry,2025,0.729
+Central Asia,industry,2025,0.305
+China,industry,2025,0.292
+EU-12,industry,2025,0.428
+EU-15,industry,2025,0.321
+Europe_Eastern,industry,2025,0.266
+Europe_Non_EU,industry,2025,0.638
+European Free Trade Association,industry,2025,0.225
+India,industry,2025,0.876
+Indonesia,industry,2025,0.724
+Japan,industry,2025,0.25
+Mexico,industry,2025,0.664
+Middle East,industry,2025,0.299
+Pakistan,industry,2025,1.219
+Russia,industry,2025,0.137
+South Africa,industry,2025,0.32
+South America_Northern,industry,2025,0.32
+South America_Southern,industry,2025,0.745
+South Asia,industry,2025,1.271
+South Korea,industry,2025,0.138
+Southeast Asia,industry,2025,0.687
+Taiwan,industry,2025,0.112
+Argentina,industry,2025,0.414
+Colombia,industry,2025,0.935
+USA,industry,2020,0.235
+Africa_Eastern,industry,2020,1.299
+Africa_Northern,industry,2020,0.878
+Africa_Southern,industry,2020,1.144
+Africa_Western,industry,2020,1.249
+Australia_NZ,industry,2020,0.187
+Brazil,industry,2020,0.512
+Canada,industry,2020,0.051
+Central America and Caribbean,industry,2020,0.778
+Central Asia,industry,2020,0.332
+China,industry,2020,0.324
+EU-12,industry,2020,0.478
+EU-15,industry,2020,0.327
+Europe_Eastern,industry,2020,0.288
+Europe_Non_EU,industry,2020,0.689
+European Free Trade Association,industry,2020,0.226
+India,industry,2020,0.985
+Indonesia,industry,2020,0.817
+Japan,industry,2020,0.252
+Mexico,industry,2020,0.705
+Middle East,industry,2020,0.312
+Pakistan,industry,2020,1.269
+Russia,industry,2020,0.145
+South Africa,industry,2020,0.338
+South America_Northern,industry,2020,0.332
+South America_Southern,industry,2020,0.801
+South Asia,industry,2020,1.331
+South Korea,industry,2020,0.146
+Southeast Asia,industry,2020,0.753
+Taiwan,industry,2020,0.117
+Argentina,industry,2020,0.465
+Colombia,industry,2020,0.986
+USA,industry,2015,0.238
+Africa_Eastern,industry,2015,1.349
+Africa_Northern,industry,2015,0.961
+Africa_Southern,industry,2015,1.215
+Africa_Western,industry,2015,1.306
+Australia_NZ,industry,2015,0.192
+Brazil,industry,2015,0.574
+Canada,industry,2015,0.054
+Central America and Caribbean,industry,2015,0.823
+Central Asia,industry,2015,0.38
+China,industry,2015,0.411
+EU-12,industry,2015,0.539
+EU-15,industry,2015,0.335
+Europe_Eastern,industry,2015,0.311
+Europe_Non_EU,industry,2015,0.747
+European Free Trade Association,industry,2015,0.228
+India,industry,2015,1.105
+Indonesia,industry,2015,0.908
+Japan,industry,2015,0.253
+Mexico,industry,2015,0.745
+Middle East,industry,2015,0.325
+Pakistan,industry,2015,1.302
+Russia,industry,2015,0.154
+South Africa,industry,2015,0.375
+South America_Northern,industry,2015,0.342
+South America_Southern,industry,2015,0.86
+South Asia,industry,2015,1.38
+South Korea,industry,2015,0.155
+Southeast Asia,industry,2015,0.822
+Taiwan,industry,2015,0.125
+Argentina,industry,2015,0.523
+Colombia,industry,2015,1.053

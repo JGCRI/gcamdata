@@ -1,0 +1,16 @@
+# Onshore storage are modeled only in the FERC regions with non-zero storage curves
+# can be multiple lines
+depresource,output.unit,price.unit,market,region
+onshore carbon-storage,MtC,1990$/tC,California grid,California grid
+onshore carbon-storage,MtC,1990$/tC,Texas grid,Texas grid
+onshore carbon-storage,MtC,1990$/tC,Southwest grid,Southwest grid
+onshore carbon-storage,MtC,1990$/tC,Central East grid,Central East grid
+onshore carbon-storage,MtC,1990$/tC,Central Northeast grid,Central Northeast grid
+onshore carbon-storage,MtC,1990$/tC,Central Southwest grid,Central Southwest grid
+onshore carbon-storage,MtC,1990$/tC,Florida grid,Florida grid
+onshore carbon-storage,MtC,1990$/tC,Mid-Atlantic grid,Mid-Atlantic grid
+onshore carbon-storage,MtC,1990$/tC,Northwest grid,Northwest grid
+onshore carbon-storage,MtC,1990$/tC,Southeast grid,Southeast grid
+onshore carbon-storage,MtC,1990$/tC,Central Northwest grid,Central Northwest grid
+onshore carbon-storage,MtC,1990$/tC,New York grid,New York grid
+onshore carbon-storage,MtC,1990$/tC,New England grid,New England grid

@@ -1,0 +1,33 @@
+# 1990 BC and OC emissions divided by year 2000 energy consumption
+sector,technology,bc_em_factor,oc_em_factor
+bld_comm,biomass,0.03428120567897787,0.189713269123977
+bld_comm,coal,0.5346875889132852,0.4353731271171427
+bld_comm,gas,0,1.304509389574855e-5
+bld_comm,refined liquids,0.0018214099772708113,9.322177049023837e-4
+bld_resid,biomass,0.11045250567589078,0.6106899693510417
+bld_resid,coal,0.22412959407160118,0.179303675257281
+bld_resid,gas,2.0553523065617817e-6,1.233211383937069e-5
+bld_resid,refined liquids,0.0012578756116158102,6.813492896252305e-4
+electricity generation,biomass (conv),0.009441073502369234,0.020675701865346872
+electricity generation,coal (conv pul),6.358468464338373e-5,3.106427341356151e-5
+electricity generation,gas (steam/CT),3.310883328104028e-6,1.6554416640520137e-5
+electricity generation,refined liquids (steam/CT),9.88781553291342e-4,3.743930153239062e-4
+heat,biomass,0,0
+heat,coal,0,0
+heat,gas,0,0
+heat,refined liquids,0,0
+industry_energy,biomass,0.0012952166292856484,0.0037112938031454152
+industry_energy,coal,0.03986391690447341,0.03163580517472759
+industry_energy,gas,6.111745515248301e-7,4.2782218606738105e-6
+industry_energy,refined liquids,0.04462891245213851,0.014222134424215693
+trn_air,gas,0,0
+trn_air,refined liquids,4.3568410552689927e-4,1.1599007312702878e-4
+trn_rail,biomass,0,0
+trn_rail,coal,0,0
+trn_rail,gas,0,0
+trn_rail,refined liquids,5.989698223206852e-4,0.0018540630759621205
+trn_road,gas,0,0
+trn_road,refined liquids,0,0
+trn_ship,coal,0,0
+trn_ship,gas,0,0
+trn_ship,refined liquids,0,0

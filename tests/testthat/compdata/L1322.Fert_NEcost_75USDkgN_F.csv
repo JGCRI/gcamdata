@@ -1,0 +1,9 @@
+# Gas was calculated using USA market fertilizer price minus GCAM fuel costs.
+# Gas with CCS, coal, and coal with CCS were calculated using H2A characteristics of hydrogen production technologies
+# Oil was set to generally balance the total net costs with natural gas steam reforming.
+fuel,NEcost_75USDkgN
+gas,0.0739184285714286
+gas CCS,0.0880388285714286
+coal,0.12442047142857145
+coal CCS,0.14696988571428574
+refined liquids,-0.1

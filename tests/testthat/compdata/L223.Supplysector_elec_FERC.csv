@@ -1,0 +1,18 @@
+# Include logit exponent between states
+# Use the same logit exponent for states within FERC region as for FERC regions within the USA
+region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent,logit.type
+Alaska grid,electricity,EJ,EJ,1975$/GJ,1975,-6,relative-cost-logit
+California grid,electricity,EJ,EJ,1975$/GJ,1975,-6,relative-cost-logit
+Central East grid,electricity,EJ,EJ,1975$/GJ,1975,-6,relative-cost-logit
+Central Northeast grid,electricity,EJ,EJ,1975$/GJ,1975,-6,relative-cost-logit
+Central Northwest grid,electricity,EJ,EJ,1975$/GJ,1975,-6,relative-cost-logit
+Central Southwest grid,electricity,EJ,EJ,1975$/GJ,1975,-6,relative-cost-logit
+Florida grid,electricity,EJ,EJ,1975$/GJ,1975,-6,relative-cost-logit
+Hawaii grid,electricity,EJ,EJ,1975$/GJ,1975,-6,relative-cost-logit
+Mid-Atlantic grid,electricity,EJ,EJ,1975$/GJ,1975,-6,relative-cost-logit
+New England grid,electricity,EJ,EJ,1975$/GJ,1975,-6,relative-cost-logit
+New York grid,electricity,EJ,EJ,1975$/GJ,1975,-6,relative-cost-logit
+Northwest grid,electricity,EJ,EJ,1975$/GJ,1975,-6,relative-cost-logit
+Southeast grid,electricity,EJ,EJ,1975$/GJ,1975,-6,relative-cost-logit
+Southwest grid,electricity,EJ,EJ,1975$/GJ,1975,-6,relative-cost-logit
+Texas grid,electricity,EJ,EJ,1975$/GJ,1975,-6,relative-cost-logit

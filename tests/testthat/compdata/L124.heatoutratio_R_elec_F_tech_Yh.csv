@@ -1,0 +1,562 @@
+# Data on CHP electricity generation read in, heat from elec divided by electricity gives ratio
+GCAM_region_ID,sector,fuel,technology,year,value
+12,electricity generation,biomass,biomass (conv),1971,0
+12,electricity generation,biomass,biomass (conv),1972,0
+12,electricity generation,biomass,biomass (conv),1973,0
+12,electricity generation,biomass,biomass (conv),1974,0
+12,electricity generation,biomass,biomass (conv),1975,0
+12,electricity generation,biomass,biomass (conv),1976,0
+12,electricity generation,biomass,biomass (conv),1977,0
+12,electricity generation,biomass,biomass (conv),1978,0
+12,electricity generation,biomass,biomass (conv),1979,0
+12,electricity generation,biomass,biomass (conv),1980,0
+12,electricity generation,biomass,biomass (conv),1981,0
+12,electricity generation,biomass,biomass (conv),1982,0
+12,electricity generation,biomass,biomass (conv),1983,0
+12,electricity generation,biomass,biomass (conv),1984,1.7226337448559674
+12,electricity generation,biomass,biomass (conv),1985,1.9708097928436914
+12,electricity generation,biomass,biomass (conv),1986,2.4224537037037037
+12,electricity generation,biomass,biomass (conv),1987,3.2405282331511844
+12,electricity generation,biomass,biomass (conv),1988,1.8984126984126986
+12,electricity generation,biomass,biomass (conv),1989,4.228282828282828
+12,electricity generation,biomass,biomass (conv),1990,2.2750000000000004
+12,electricity generation,biomass,biomass (conv),1991,1.650857338820302
+12,electricity generation,biomass,biomass (conv),1992,1.4225472813238773
+12,electricity generation,biomass,biomass (conv),1993,1.8984126984126988
+12,electricity generation,biomass,biomass (conv),1994,2.8829201101928383
+12,electricity generation,biomass,biomass (conv),1995,2.491666666666667
+12,electricity generation,biomass,biomass (conv),1996,3.398888888888889
+12,electricity generation,biomass,biomass (conv),1997,4.295977011494253
+12,electricity generation,biomass,biomass (conv),1998,3.1866213151927436
+12,electricity generation,biomass,biomass (conv),1999,1.9484384384384388
+12,electricity generation,biomass,biomass (conv),2000,1.9896419753086423
+12,electricity generation,biomass,biomass (conv),2001,2.2084795321637434
+12,electricity generation,biomass,biomass (conv),2002,1.8641727900244938
+12,electricity generation,biomass,biomass (conv),2003,3.9455116696588877
+12,electricity generation,biomass,biomass (conv),2004,1.4205882352941177
+12,electricity generation,biomass,biomass (conv),2005,0.35313046306460144
+12,electricity generation,biomass,biomass (conv),2006,0.39928893513701
+12,electricity generation,biomass,biomass (conv),2007,0.43959044368600686
+12,electricity generation,biomass,biomass (conv),2008,0.4464417296878031
+12,electricity generation,biomass,biomass (conv),2009,0.6095440173073723
+12,electricity generation,biomass,biomass (conv),2010,0.6508221777168758
+12,electricity generation,coal,coal (conv pul),1971,0.3639173387714613
+12,electricity generation,coal,coal (conv pul),1972,0.3702270281283466
+12,electricity generation,coal,coal (conv pul),1973,0.3750113375889462
+12,electricity generation,coal,coal (conv pul),1974,0.36548740379108835
+12,electricity generation,coal,coal (conv pul),1975,0.3560377814960958
+12,electricity generation,coal,coal (conv pul),1976,0.41727116035705586
+12,electricity generation,coal,coal (conv pul),1977,0.41705738878049625
+12,electricity generation,coal,coal (conv pul),1978,0.4354012070251287
+12,electricity generation,coal,coal (conv pul),1979,0.46147016704892635
+12,electricity generation,coal,coal (conv pul),1980,0.5053748002421734
+12,electricity generation,coal,coal (conv pul),1981,0.4971936913346164
+12,electricity generation,coal,coal (conv pul),1982,0.47327919672982105
+12,electricity generation,coal,coal (conv pul),1983,0.47465250013283783
+12,electricity generation,coal,coal (conv pul),1984,0.488270722141348
+12,electricity generation,coal,coal (conv pul),1985,0.44372529987686593
+12,electricity generation,coal,coal (conv pul),1986,0.44412491857460124
+12,electricity generation,coal,coal (conv pul),1987,0.4731060447258194
+12,electricity generation,coal,coal (conv pul),1988,0.4275799567492339
+12,electricity generation,coal,coal (conv pul),1989,0.5095778508753891
+12,electricity generation,coal,coal (conv pul),1990,0.5057609867399488
+12,electricity generation,coal,coal (conv pul),1991,0.5114315569487983
+12,electricity generation,coal,coal (conv pul),1992,0.47524049025831355
+12,electricity generation,coal,coal (conv pul),1993,0.48928858606373854
+12,electricity generation,coal,coal (conv pul),1994,0.459671361783715
+12,electricity generation,coal,coal (conv pul),1995,0.4638009162900878
+12,electricity generation,coal,coal (conv pul),1996,0.4704219623768716
+12,electricity generation,coal,coal (conv pul),1997,0.4602280651873478
+12,electricity generation,coal,coal (conv pul),1998,0.43680585159444757
+12,electricity generation,coal,coal (conv pul),1999,0.40650947063568427
+12,electricity generation,coal,coal (conv pul),2000,0.3791278491181373
+12,electricity generation,coal,coal (conv pul),2001,0.40206627808425316
+12,electricity generation,coal,coal (conv pul),2002,0.37724249308138613
+12,electricity generation,coal,coal (conv pul),2003,0.36029889602986986
+12,electricity generation,coal,coal (conv pul),2004,0.362101387115695
+12,electricity generation,coal,coal (conv pul),2005,0.3618779114285036
+12,electricity generation,coal,coal (conv pul),2006,0.3439597399674527
+12,electricity generation,coal,coal (conv pul),2007,0.3348165057552665
+12,electricity generation,coal,coal (conv pul),2008,0.35897060865620983
+12,electricity generation,coal,coal (conv pul),2009,0.3586757561774498
+12,electricity generation,coal,coal (conv pul),2010,0.3599489306277587
+12,electricity generation,refined liquids,refined liquids (steam/CT),1971,0.4229630020374528
+12,electricity generation,refined liquids,refined liquids (steam/CT),1972,0.4734730088198278
+12,electricity generation,refined liquids,refined liquids (steam/CT),1973,0.4928429887848853
+12,electricity generation,refined liquids,refined liquids (steam/CT),1974,0.47147643327117983
+12,electricity generation,refined liquids,refined liquids (steam/CT),1975,0.3712827147771429
+12,electricity generation,refined liquids,refined liquids (steam/CT),1976,0.6486675361530458
+12,electricity generation,refined liquids,refined liquids (steam/CT),1977,0.6750392391990495
+12,electricity generation,refined liquids,refined liquids (steam/CT),1978,0.6667104864996536
+12,electricity generation,refined liquids,refined liquids (steam/CT),1979,0.6638893031696257
+12,electricity generation,refined liquids,refined liquids (steam/CT),1980,0.7069627470869877
+12,electricity generation,refined liquids,refined liquids (steam/CT),1981,0.6680104945424868
+12,electricity generation,refined liquids,refined liquids (steam/CT),1982,0.7379968159287317
+12,electricity generation,refined liquids,refined liquids (steam/CT),1983,0.7500424546508428
+12,electricity generation,refined liquids,refined liquids (steam/CT),1984,0.6885579002095941
+12,electricity generation,refined liquids,refined liquids (steam/CT),1985,0.6894600899893442
+12,electricity generation,refined liquids,refined liquids (steam/CT),1986,0.7081765596498053
+12,electricity generation,refined liquids,refined liquids (steam/CT),1987,0.849205006495018
+12,electricity generation,refined liquids,refined liquids (steam/CT),1988,0.8047867818942925
+12,electricity generation,refined liquids,refined liquids (steam/CT),1989,1.1709466257904477
+12,electricity generation,refined liquids,refined liquids (steam/CT),1990,1.1277228992944197
+12,electricity generation,refined liquids,refined liquids (steam/CT),1991,0.9972410533286825
+12,electricity generation,refined liquids,refined liquids (steam/CT),1992,1.639377326703079
+12,electricity generation,refined liquids,refined liquids (steam/CT),1993,1.4789129371484473
+12,electricity generation,refined liquids,refined liquids (steam/CT),1994,1.5079651488626584
+12,electricity generation,refined liquids,refined liquids (steam/CT),1995,1.4996229931799891
+12,electricity generation,refined liquids,refined liquids (steam/CT),1996,1.4166031519193365
+12,electricity generation,refined liquids,refined liquids (steam/CT),1997,1.31541866379732
+12,electricity generation,refined liquids,refined liquids (steam/CT),1998,1.072647594076877
+12,electricity generation,refined liquids,refined liquids (steam/CT),1999,1.0887037456862894
+12,electricity generation,refined liquids,refined liquids (steam/CT),2000,0.9789010117337165
+12,electricity generation,refined liquids,refined liquids (steam/CT),2001,1.0449608568620856
+12,electricity generation,refined liquids,refined liquids (steam/CT),2002,0.9863162017384274
+12,electricity generation,refined liquids,refined liquids (steam/CT),2003,0.8152716308201983
+12,electricity generation,refined liquids,refined liquids (steam/CT),2004,0.6384046584712081
+12,electricity generation,refined liquids,refined liquids (steam/CT),2005,0.624310216256525
+12,electricity generation,refined liquids,refined liquids (steam/CT),2006,0.4573623159831756
+12,electricity generation,refined liquids,refined liquids (steam/CT),2007,0.2699609565641777
+12,electricity generation,refined liquids,refined liquids (steam/CT),2008,0.24669446203645068
+12,electricity generation,refined liquids,refined liquids (steam/CT),2009,0.49164287305348003
+12,electricity generation,refined liquids,refined liquids (steam/CT),2010,0.5182417811069497
+14,electricity generation,biomass,biomass (conv),1971,0
+14,electricity generation,biomass,biomass (conv),1972,0
+14,electricity generation,biomass,biomass (conv),1973,0
+14,electricity generation,biomass,biomass (conv),1974,0
+14,electricity generation,biomass,biomass (conv),1975,0
+14,electricity generation,biomass,biomass (conv),1976,0
+14,electricity generation,biomass,biomass (conv),1977,0
+14,electricity generation,biomass,biomass (conv),1978,0
+14,electricity generation,biomass,biomass (conv),1979,0
+14,electricity generation,biomass,biomass (conv),1980,0
+14,electricity generation,biomass,biomass (conv),1981,0
+14,electricity generation,biomass,biomass (conv),1982,0
+14,electricity generation,biomass,biomass (conv),1983,0
+14,electricity generation,biomass,biomass (conv),1984,0
+14,electricity generation,biomass,biomass (conv),1985,0
+14,electricity generation,biomass,biomass (conv),1986,0
+14,electricity generation,biomass,biomass (conv),1987,0
+14,electricity generation,biomass,biomass (conv),1988,0
+14,electricity generation,biomass,biomass (conv),1989,0
+14,electricity generation,biomass,biomass (conv),1990,0
+14,electricity generation,biomass,biomass (conv),1991,0
+14,electricity generation,biomass,biomass (conv),1992,0
+14,electricity generation,biomass,biomass (conv),1993,0
+14,electricity generation,biomass,biomass (conv),1994,0
+14,electricity generation,biomass,biomass (conv),1995,0
+14,electricity generation,biomass,biomass (conv),1996,0
+14,electricity generation,biomass,biomass (conv),1997,0
+14,electricity generation,biomass,biomass (conv),1998,0
+14,electricity generation,biomass,biomass (conv),1999,0
+14,electricity generation,biomass,biomass (conv),2000,0
+14,electricity generation,biomass,biomass (conv),2001,0
+14,electricity generation,biomass,biomass (conv),2002,0
+14,electricity generation,biomass,biomass (conv),2003,0
+14,electricity generation,biomass,biomass (conv),2004,0
+14,electricity generation,biomass,biomass (conv),2005,0
+14,electricity generation,biomass,biomass (conv),2006,69.76666666666667
+14,electricity generation,biomass,biomass (conv),2007,17.44166666666667
+14,electricity generation,biomass,biomass (conv),2008,13.78106995884774
+14,electricity generation,biomass,biomass (conv),2009,7.356349206349207
+14,electricity generation,biomass,biomass (conv),2010,6.530669710806698
+14,electricity generation,coal,coal (conv pul),1971,0.53129086944054
+14,electricity generation,coal,coal (conv pul),1972,0.5998737758157001
+14,electricity generation,coal,coal (conv pul),1973,0.6621992371899654
+14,electricity generation,coal,coal (conv pul),1974,0.7491577150678268
+14,electricity generation,coal,coal (conv pul),1975,0.957479430647069
+14,electricity generation,coal,coal (conv pul),1976,0.7467209238716551
+14,electricity generation,coal,coal (conv pul),1977,0.7543168343647508
+14,electricity generation,coal,coal (conv pul),1978,0.7590647627076801
+14,electricity generation,coal,coal (conv pul),1979,0.7578755463836819
+14,electricity generation,coal,coal (conv pul),1980,0.9224123821651186
+14,electricity generation,coal,coal (conv pul),1981,0.9989019163773302
+14,electricity generation,coal,coal (conv pul),1982,0.9832995344925763
+14,electricity generation,coal,coal (conv pul),1983,0.9575761945321914
+14,electricity generation,coal,coal (conv pul),1984,0.9729364478891925
+14,electricity generation,coal,coal (conv pul),1985,0.9899347591629069
+14,electricity generation,coal,coal (conv pul),1986,0.9414930534922693
+14,electricity generation,coal,coal (conv pul),1987,0.9093429537113163
+14,electricity generation,coal,coal (conv pul),1988,0.9319109798084586
+14,electricity generation,coal,coal (conv pul),1989,0.9510466192324407
+14,electricity generation,coal,coal (conv pul),1990,0.014947362230194673
+14,electricity generation,coal,coal (conv pul),1991,0.012855417932538759
+14,electricity generation,coal,coal (conv pul),1992,0.014625335715240561
+14,electricity generation,coal,coal (conv pul),1993,0.01676332354022637
+14,electricity generation,coal,coal (conv pul),1994,0.015131328904752465
+14,electricity generation,coal,coal (conv pul),1995,0.01611812669325041
+14,electricity generation,coal,coal (conv pul),1996,0.015311901984113235
+14,electricity generation,coal,coal (conv pul),1997,0.016706277226023643
+14,electricity generation,coal,coal (conv pul),1998,0.018340343498072204
+14,electricity generation,coal,coal (conv pul),1999,0.015696070152513505
+14,electricity generation,coal,coal (conv pul),2000,0.015750003762542708
+14,electricity generation,coal,coal (conv pul),2001,0.013965465831774687
+14,electricity generation,coal,coal (conv pul),2002,0.014229166793503518
+14,electricity generation,coal,coal (conv pul),2003,0.016965879775706693
+14,electricity generation,coal,coal (conv pul),2004,0.015459729362406194
+14,electricity generation,coal,coal (conv pul),2005,0.0355717513446504
+14,electricity generation,coal,coal (conv pul),2006,0.03169112401131249
+14,electricity generation,coal,coal (conv pul),2007,0.036388247274172315
+14,electricity generation,coal,coal (conv pul),2008,0.05247452692867541
+14,electricity generation,coal,coal (conv pul),2009,0.06780573919310356
+14,electricity generation,coal,coal (conv pul),2010,0.07108402236165681
+14,electricity generation,refined liquids,refined liquids (steam/CT),1971,0.8639539804993035
+14,electricity generation,refined liquids,refined liquids (steam/CT),1972,0.8366485479493143
+14,electricity generation,refined liquids,refined liquids (steam/CT),1973,0.8576951320961976
+14,electricity generation,refined liquids,refined liquids (steam/CT),1974,0.9636904411225117
+14,electricity generation,refined liquids,refined liquids (steam/CT),1975,1.1925178060521842
+14,electricity generation,refined liquids,refined liquids (steam/CT),1976,1.0630362197504286
+14,electricity generation,refined liquids,refined liquids (steam/CT),1977,1.026857353319296
+14,electricity generation,refined liquids,refined liquids (steam/CT),1978,0.9979343755307073
+14,electricity generation,refined liquids,refined liquids (steam/CT),1979,0.970583970626067
+14,electricity generation,refined liquids,refined liquids (steam/CT),1980,0.8224654958430899
+14,electricity generation,refined liquids,refined liquids (steam/CT),1981,0.9195707517720776
+14,electricity generation,refined liquids,refined liquids (steam/CT),1982,1.0484420181547505
+14,electricity generation,refined liquids,refined liquids (steam/CT),1983,1.1585968690686568
+14,electricity generation,refined liquids,refined liquids (steam/CT),1984,1.2708242629825401
+14,electricity generation,refined liquids,refined liquids (steam/CT),1985,1.4436300447585677
+14,electricity generation,refined liquids,refined liquids (steam/CT),1986,1.4410315750824558
+14,electricity generation,refined liquids,refined liquids (steam/CT),1987,1.4547472081163806
+14,electricity generation,refined liquids,refined liquids (steam/CT),1988,1.5021817981489645
+14,electricity generation,refined liquids,refined liquids (steam/CT),1989,1.2774782328753094
+14,electricity generation,refined liquids,refined liquids (steam/CT),1990,0.2623533952792106
+14,electricity generation,refined liquids,refined liquids (steam/CT),1991,0.3699937800766034
+14,electricity generation,refined liquids,refined liquids (steam/CT),1992,0.3541582210742196
+14,electricity generation,refined liquids,refined liquids (steam/CT),1993,0.43982432164785107
+14,electricity generation,refined liquids,refined liquids (steam/CT),1994,0.48300548402479737
+14,electricity generation,refined liquids,refined liquids (steam/CT),1995,0.48796604851109227
+14,electricity generation,refined liquids,refined liquids (steam/CT),1996,0.9107644489247314
+14,electricity generation,refined liquids,refined liquids (steam/CT),1997,1.3540126038703921
+14,electricity generation,refined liquids,refined liquids (steam/CT),1998,1.528919233938225
+14,electricity generation,refined liquids,refined liquids (steam/CT),1999,1.2194202179205371
+14,electricity generation,refined liquids,refined liquids (steam/CT),2000,1.3087896197287687
+14,electricity generation,refined liquids,refined liquids (steam/CT),2001,1.7432243832162795
+14,electricity generation,refined liquids,refined liquids (steam/CT),2002,1.7712946020128089
+14,electricity generation,refined liquids,refined liquids (steam/CT),2003,1.6354678864112828
+14,electricity generation,refined liquids,refined liquids (steam/CT),2004,1.2088009325491442
+14,electricity generation,refined liquids,refined liquids (steam/CT),2005,1.5971798274717985
+14,electricity generation,refined liquids,refined liquids (steam/CT),2006,1.308125
+14,electricity generation,refined liquids,refined liquids (steam/CT),2007,0.44962406015037604
+14,electricity generation,refined liquids,refined liquids (steam/CT),2008,0.6145909275010126
+14,electricity generation,refined liquids,refined liquids (steam/CT),2009,2.0096323358849455
+14,electricity generation,refined liquids,refined liquids (steam/CT),2010,0.8740698557327259
+15,electricity generation,coal,coal (conv pul),1971,0
+15,electricity generation,coal,coal (conv pul),1972,0
+15,electricity generation,coal,coal (conv pul),1973,0
+15,electricity generation,coal,coal (conv pul),1974,0
+15,electricity generation,coal,coal (conv pul),1975,0
+15,electricity generation,coal,coal (conv pul),1976,0
+15,electricity generation,coal,coal (conv pul),1977,0
+15,electricity generation,coal,coal (conv pul),1978,0
+15,electricity generation,coal,coal (conv pul),1979,0
+15,electricity generation,coal,coal (conv pul),1980,0
+15,electricity generation,coal,coal (conv pul),1981,0
+15,electricity generation,coal,coal (conv pul),1982,0
+15,electricity generation,coal,coal (conv pul),1983,0
+15,electricity generation,coal,coal (conv pul),1984,0
+15,electricity generation,coal,coal (conv pul),1985,0
+15,electricity generation,coal,coal (conv pul),1986,0
+15,electricity generation,coal,coal (conv pul),1987,0
+15,electricity generation,coal,coal (conv pul),1988,0.0313059690259508
+15,electricity generation,coal,coal (conv pul),1989,0.02209647503242721
+15,electricity generation,coal,coal (conv pul),1990,0
+15,electricity generation,coal,coal (conv pul),1991,0
+15,electricity generation,coal,coal (conv pul),1992,0
+15,electricity generation,coal,coal (conv pul),1993,0
+15,electricity generation,coal,coal (conv pul),1994,0
+15,electricity generation,coal,coal (conv pul),1995,0
+15,electricity generation,coal,coal (conv pul),1996,0
+15,electricity generation,coal,coal (conv pul),1997,0
+15,electricity generation,coal,coal (conv pul),1998,0
+15,electricity generation,coal,coal (conv pul),1999,0
+15,electricity generation,coal,coal (conv pul),2000,0
+15,electricity generation,coal,coal (conv pul),2001,0
+15,electricity generation,coal,coal (conv pul),2002,0
+15,electricity generation,coal,coal (conv pul),2003,0
+15,electricity generation,coal,coal (conv pul),2004,0
+15,electricity generation,coal,coal (conv pul),2005,0.011558697561761606
+15,electricity generation,coal,coal (conv pul),2006,0.004597675900094458
+15,electricity generation,coal,coal (conv pul),2007,0
+15,electricity generation,coal,coal (conv pul),2008,0.0028020040059522893
+15,electricity generation,coal,coal (conv pul),2009,0.0034730853682167434
+15,electricity generation,coal,coal (conv pul),2010,0.003886862489990901
+15,electricity generation,refined liquids,refined liquids (steam/CT),1971,0
+15,electricity generation,refined liquids,refined liquids (steam/CT),1972,0
+15,electricity generation,refined liquids,refined liquids (steam/CT),1973,0
+15,electricity generation,refined liquids,refined liquids (steam/CT),1974,0
+15,electricity generation,refined liquids,refined liquids (steam/CT),1975,0
+15,electricity generation,refined liquids,refined liquids (steam/CT),1976,0
+15,electricity generation,refined liquids,refined liquids (steam/CT),1977,0
+15,electricity generation,refined liquids,refined liquids (steam/CT),1978,0
+15,electricity generation,refined liquids,refined liquids (steam/CT),1979,0
+15,electricity generation,refined liquids,refined liquids (steam/CT),1980,0
+15,electricity generation,refined liquids,refined liquids (steam/CT),1981,2.4352020907170733
+15,electricity generation,refined liquids,refined liquids (steam/CT),1982,3.0310170672239645
+15,electricity generation,refined liquids,refined liquids (steam/CT),1983,3.1139851881284284
+15,electricity generation,refined liquids,refined liquids (steam/CT),1984,3.27322417063446
+15,electricity generation,refined liquids,refined liquids (steam/CT),1985,2.964438280538136
+15,electricity generation,refined liquids,refined liquids (steam/CT),1986,3.3205280752450563
+15,electricity generation,refined liquids,refined liquids (steam/CT),1987,3.332360564823606
+15,electricity generation,refined liquids,refined liquids (steam/CT),1988,1.9404822518325935
+15,electricity generation,refined liquids,refined liquids (steam/CT),1989,1.8483148780571943
+15,electricity generation,refined liquids,refined liquids (steam/CT),1990,0.15493055555555557
+15,electricity generation,refined liquids,refined liquids (steam/CT),1991,0.263360787005262
+15,electricity generation,refined liquids,refined liquids (steam/CT),1992,0.155975425777487
+15,electricity generation,refined liquids,refined liquids (steam/CT),1993,0.2322822822822823
+15,electricity generation,refined liquids,refined liquids (steam/CT),1994,0.6752178649237474
+15,electricity generation,refined liquids,refined liquids (steam/CT),1995,0.4406753777199451
+15,electricity generation,refined liquids,refined liquids (steam/CT),1996,0.2877535667963684
+15,electricity generation,refined liquids,refined liquids (steam/CT),1997,0.15651683254473273
+15,electricity generation,refined liquids,refined liquids (steam/CT),1998,0.1485130700320574
+15,electricity generation,refined liquids,refined liquids (steam/CT),1999,0.146139349225769
+15,electricity generation,refined liquids,refined liquids (steam/CT),2000,0.06700601869637597
+15,electricity generation,refined liquids,refined liquids (steam/CT),2001,0.049857549857549865
+15,electricity generation,refined liquids,refined liquids (steam/CT),2002,0.036842787922584476
+15,electricity generation,refined liquids,refined liquids (steam/CT),2003,0.06160550367177523
+15,electricity generation,refined liquids,refined liquids (steam/CT),2004,0.06094778689354806
+15,electricity generation,refined liquids,refined liquids (steam/CT),2005,0.1417411603486464
+15,electricity generation,refined liquids,refined liquids (steam/CT),2006,0.16893585016418103
+15,electricity generation,refined liquids,refined liquids (steam/CT),2007,0.07259508277637705
+15,electricity generation,refined liquids,refined liquids (steam/CT),2008,0.0697641297892198
+15,electricity generation,refined liquids,refined liquids (steam/CT),2009,0.14302961275626425
+15,electricity generation,refined liquids,refined liquids (steam/CT),2010,0.22307487343458568
+23,electricity generation,coal,coal (conv pul),1971,0.5312908694405399
+23,electricity generation,coal,coal (conv pul),1972,0.5998737758157
+23,electricity generation,coal,coal (conv pul),1973,0.6621992371899655
+23,electricity generation,coal,coal (conv pul),1974,0.7491577150678269
+23,electricity generation,coal,coal (conv pul),1975,0.957479430647069
+23,electricity generation,coal,coal (conv pul),1976,0.7467209238716551
+23,electricity generation,coal,coal (conv pul),1977,0.7543168343647509
+23,electricity generation,coal,coal (conv pul),1978,0.75906476270768
+23,electricity generation,coal,coal (conv pul),1979,0.757875546383682
+23,electricity generation,coal,coal (conv pul),1980,0.9224123821651184
+23,electricity generation,coal,coal (conv pul),1981,0.9989019163773303
+23,electricity generation,coal,coal (conv pul),1982,0.9832995344925765
+23,electricity generation,coal,coal (conv pul),1983,0.9575761945321914
+23,electricity generation,coal,coal (conv pul),1984,0.9729364478891924
+23,electricity generation,coal,coal (conv pul),1985,0.9899347591629067
+23,electricity generation,coal,coal (conv pul),1986,0.9414930534922691
+23,electricity generation,coal,coal (conv pul),1987,0.9093429537113162
+23,electricity generation,coal,coal (conv pul),1988,0.9319109798084585
+23,electricity generation,coal,coal (conv pul),1989,0.9510466192324409
+23,electricity generation,coal,coal (conv pul),1990,1.408621609011531
+23,electricity generation,coal,coal (conv pul),1991,1.4538414740135581
+23,electricity generation,coal,coal (conv pul),1992,1.7236945167196684
+23,electricity generation,coal,coal (conv pul),1993,1.9617222373402468
+23,electricity generation,coal,coal (conv pul),1994,1.7568543063501514
+23,electricity generation,coal,coal (conv pul),1995,1.8419181215729807
+23,electricity generation,coal,coal (conv pul),1996,1.317808614821332
+23,electricity generation,coal,coal (conv pul),1997,1.326154689908692
+23,electricity generation,coal,coal (conv pul),1998,1.3019929051057901
+23,electricity generation,coal,coal (conv pul),1999,1.2552023731018849
+23,electricity generation,coal,coal (conv pul),2000,1.6865727659677676
+23,electricity generation,coal,coal (conv pul),2001,1.6646171660557028
+23,electricity generation,coal,coal (conv pul),2002,1.6080504961182118
+23,electricity generation,coal,coal (conv pul),2003,1.4111447891490685
+23,electricity generation,coal,coal (conv pul),2004,1.5174162615717235
+23,electricity generation,coal,coal (conv pul),2005,1.0469927828820733
+23,electricity generation,coal,coal (conv pul),2006,1.001257394392237
+23,electricity generation,coal,coal (conv pul),2007,0.9401878264577337
+23,electricity generation,coal,coal (conv pul),2008,0.8727621413646793
+23,electricity generation,coal,coal (conv pul),2009,0.9209003686671965
+23,electricity generation,coal,coal (conv pul),2010,1.0756597222222226
+23,electricity generation,refined liquids,refined liquids (steam/CT),1971,0.8639539804993036
+23,electricity generation,refined liquids,refined liquids (steam/CT),1972,0.8366485479493143
+23,electricity generation,refined liquids,refined liquids (steam/CT),1973,0.8576951320961975
+23,electricity generation,refined liquids,refined liquids (steam/CT),1974,0.9636904411225118
+23,electricity generation,refined liquids,refined liquids (steam/CT),1975,1.1925178060521837
+23,electricity generation,refined liquids,refined liquids (steam/CT),1976,1.0630362197504286
+23,electricity generation,refined liquids,refined liquids (steam/CT),1977,1.026857353319296
+23,electricity generation,refined liquids,refined liquids (steam/CT),1978,0.9979343755307072
+23,electricity generation,refined liquids,refined liquids (steam/CT),1979,0.9705839706260672
+23,electricity generation,refined liquids,refined liquids (steam/CT),1980,0.82246549584309
+23,electricity generation,refined liquids,refined liquids (steam/CT),1981,0.9195707517720778
+23,electricity generation,refined liquids,refined liquids (steam/CT),1982,1.0484420181547507
+23,electricity generation,refined liquids,refined liquids (steam/CT),1983,1.158596869068656
+23,electricity generation,refined liquids,refined liquids (steam/CT),1984,1.2708242629825401
+23,electricity generation,refined liquids,refined liquids (steam/CT),1985,1.4436300447585675
+23,electricity generation,refined liquids,refined liquids (steam/CT),1986,1.4410315750824554
+23,electricity generation,refined liquids,refined liquids (steam/CT),1987,1.4547472081163808
+23,electricity generation,refined liquids,refined liquids (steam/CT),1988,1.5021817981489645
+23,electricity generation,refined liquids,refined liquids (steam/CT),1989,1.2774782328753094
+23,electricity generation,refined liquids,refined liquids (steam/CT),1990,1.6298359059936032
+23,electricity generation,refined liquids,refined liquids (steam/CT),1991,1.7356934681828284
+23,electricity generation,refined liquids,refined liquids (steam/CT),1992,2.3121581339519177
+23,electricity generation,refined liquids,refined liquids (steam/CT),1993,1.0319675543828226
+23,electricity generation,refined liquids,refined liquids (steam/CT),1994,1.0126335783089115
+23,electricity generation,refined liquids,refined liquids (steam/CT),1995,1.0572731215528388
+23,electricity generation,refined liquids,refined liquids (steam/CT),1996,1.32246515727428
+23,electricity generation,refined liquids,refined liquids (steam/CT),1997,1.3067675102858052
+23,electricity generation,refined liquids,refined liquids (steam/CT),1998,1.2218804033228088
+23,electricity generation,refined liquids,refined liquids (steam/CT),1999,1.16698115172342
+23,electricity generation,refined liquids,refined liquids (steam/CT),2000,1.0979814100574843
+23,electricity generation,refined liquids,refined liquids (steam/CT),2001,1.1277979483633012
+23,electricity generation,refined liquids,refined liquids (steam/CT),2002,1.074600542316127
+23,electricity generation,refined liquids,refined liquids (steam/CT),2003,1.045150492495953
+23,electricity generation,refined liquids,refined liquids (steam/CT),2004,0.9966992678366017
+23,electricity generation,refined liquids,refined liquids (steam/CT),2005,0.9780798991479743
+23,electricity generation,refined liquids,refined liquids (steam/CT),2006,0.9425806261486448
+23,electricity generation,refined liquids,refined liquids (steam/CT),2007,0.8564080081835453
+23,electricity generation,refined liquids,refined liquids (steam/CT),2008,0.7588963963963966
+23,electricity generation,refined liquids,refined liquids (steam/CT),2009,0.7633976330034271
+23,electricity generation,refined liquids,refined liquids (steam/CT),2010,0.6673276720169219
+12,electricity generation,gas,gas (steam/CT),1971,1.1311548223089636
+12,electricity generation,gas,gas (steam/CT),1972,1.0359299510524296
+12,electricity generation,gas,gas (steam/CT),1973,0.9482935290064866
+12,electricity generation,gas,gas (steam/CT),1974,0.9289112709282544
+12,electricity generation,gas,gas (steam/CT),1975,0.9825619133322911
+12,electricity generation,gas,gas (steam/CT),1976,0.7769325128625739
+12,electricity generation,gas,gas (steam/CT),1977,0.7673337375336474
+12,electricity generation,gas,gas (steam/CT),1978,0.7180304735008542
+12,electricity generation,gas,gas (steam/CT),1979,0.8663616880860532
+12,electricity generation,gas,gas (steam/CT),1980,2.497328255770793
+12,electricity generation,gas,gas (steam/CT),1981,2.9814882297042247
+12,electricity generation,gas,gas (steam/CT),1982,2.3121542327504216
+12,electricity generation,gas,gas (steam/CT),1983,1.8879068915310102
+12,electricity generation,gas,gas (steam/CT),1984,2.3528771370884436
+12,electricity generation,gas,gas (steam/CT),1985,0.8421322335553495
+12,electricity generation,gas,gas (steam/CT),1986,0.8389268252952267
+12,electricity generation,gas,gas (steam/CT),1987,0.9052637243486408
+12,electricity generation,gas,gas (steam/CT),1988,0.931723328278899
+12,electricity generation,gas,gas (steam/CT),1989,1.1364044782179425
+12,electricity generation,gas,gas (steam/CT),1990,1.2856104083453788
+12,electricity generation,gas,gas (steam/CT),1991,1.3542659531648613
+12,electricity generation,gas,gas (steam/CT),1992,2.0715195299694886
+12,electricity generation,gas,gas (steam/CT),1993,1.6912188341938568
+12,electricity generation,gas,gas (steam/CT),1994,1.4646119515446592
+12,electricity generation,gas,gas (steam/CT),1995,1.5919332336821128
+12,electricity generation,gas,gas (steam/CT),1996,1.4736988527838086
+12,electricity generation,gas,gas (steam/CT),1997,2.11384177676992
+12,electricity generation,gas,gas (steam/CT),1998,1.9656384459630476
+12,electricity generation,gas,gas (steam/CT),1999,1.647614759987144
+12,electricity generation,gas,gas (steam/CT),2000,1.5463819715990947
+12,electricity generation,gas,gas (steam/CT),2001,1.56128304196473
+12,electricity generation,gas,gas (steam/CT),2002,1.307877075041529
+12,electricity generation,gas,gas (steam/CT),2003,1.3915524044305903
+12,electricity generation,gas,gas (steam/CT),2004,1.428478193084415
+12,electricity generation,gas,gas (steam/CT),2005,1.3501743657289809
+12,electricity generation,gas,gas (steam/CT),2006,1.262491448400742
+12,electricity generation,gas,gas (steam/CT),2007,1.1473945416430373
+12,electricity generation,gas,gas (steam/CT),2008,1.1411523512198594
+12,electricity generation,gas,gas (steam/CT),2009,1.3366724237190561
+12,electricity generation,gas,gas (steam/CT),2010,1.2954382421111241
+14,electricity generation,gas,gas (steam/CT),1971,2.164937978358406
+14,electricity generation,gas,gas (steam/CT),1972,1.9434933737014197
+14,electricity generation,gas,gas (steam/CT),1973,1.7282458025591239
+14,electricity generation,gas,gas (steam/CT),1974,1.3705378394811745
+14,electricity generation,gas,gas (steam/CT),1975,1.1122189663050914
+14,electricity generation,gas,gas (steam/CT),1976,1.0956264775413713
+14,electricity generation,gas,gas (steam/CT),1977,1.2003589267991084
+14,electricity generation,gas,gas (steam/CT),1978,1.2876049141117636
+14,electricity generation,gas,gas (steam/CT),1979,1.368813295896804
+14,electricity generation,gas,gas (steam/CT),1980,1.281233862616572
+14,electricity generation,gas,gas (steam/CT),1981,1.2223941916206988
+14,electricity generation,gas,gas (steam/CT),1982,1.147599425643485
+14,electricity generation,gas,gas (steam/CT),1983,1.1579779641607217
+14,electricity generation,gas,gas (steam/CT),1984,1.1611490377762685
+14,electricity generation,gas,gas (steam/CT),1985,1.1852845336644393
+14,electricity generation,gas,gas (steam/CT),1986,1.1744495222896247
+14,electricity generation,gas,gas (steam/CT),1987,1.2066998693851598
+14,electricity generation,gas,gas (steam/CT),1988,1.2439051531213197
+14,electricity generation,gas,gas (steam/CT),1989,1.2715321864255456
+14,electricity generation,gas,gas (steam/CT),1990,1.1622944319171264
+14,electricity generation,gas,gas (steam/CT),1991,1.1049385125863984
+14,electricity generation,gas,gas (steam/CT),1992,1.1422195576871836
+14,electricity generation,gas,gas (steam/CT),1993,1.16601244789752
+14,electricity generation,gas,gas (steam/CT),1994,1.061969602796736
+14,electricity generation,gas,gas (steam/CT),1995,1.1103763888320397
+14,electricity generation,gas,gas (steam/CT),1996,1.1095761288003778
+14,electricity generation,gas,gas (steam/CT),1997,0.9997250266765163
+14,electricity generation,gas,gas (steam/CT),1998,0.9840180905213922
+14,electricity generation,gas,gas (steam/CT),1999,0.9501400720734487
+14,electricity generation,gas,gas (steam/CT),2000,0.9194417949044049
+14,electricity generation,gas,gas (steam/CT),2001,0.9656579011801578
+14,electricity generation,gas,gas (steam/CT),2002,0.9167001338688087
+14,electricity generation,gas,gas (steam/CT),2003,0.7954653288558892
+14,electricity generation,gas,gas (steam/CT),2004,0.788290023017071
+14,electricity generation,gas,gas (steam/CT),2005,1.1781843732433952
+14,electricity generation,gas,gas (steam/CT),2006,1.2353963748002357
+14,electricity generation,gas,gas (steam/CT),2007,1.1049105022336865
+14,electricity generation,gas,gas (steam/CT),2008,1.0864197075656827
+14,electricity generation,gas,gas (steam/CT),2009,1.2207142684459917
+14,electricity generation,gas,gas (steam/CT),2010,1.2467622152633746
+15,electricity generation,gas,gas (steam/CT),1971,0
+15,electricity generation,gas,gas (steam/CT),1972,0
+15,electricity generation,gas,gas (steam/CT),1973,0
+15,electricity generation,gas,gas (steam/CT),1974,0
+15,electricity generation,gas,gas (steam/CT),1975,0
+15,electricity generation,gas,gas (steam/CT),1976,0
+15,electricity generation,gas,gas (steam/CT),1977,0
+15,electricity generation,gas,gas (steam/CT),1978,0
+15,electricity generation,gas,gas (steam/CT),1979,0
+15,electricity generation,gas,gas (steam/CT),1980,0
+15,electricity generation,gas,gas (steam/CT),1981,0
+15,electricity generation,gas,gas (steam/CT),1982,0
+15,electricity generation,gas,gas (steam/CT),1983,0
+15,electricity generation,gas,gas (steam/CT),1984,0
+15,electricity generation,gas,gas (steam/CT),1985,0
+15,electricity generation,gas,gas (steam/CT),1986,0
+15,electricity generation,gas,gas (steam/CT),1987,0
+15,electricity generation,gas,gas (steam/CT),1988,0.5823050547080305
+15,electricity generation,gas,gas (steam/CT),1989,0.29994587093799213
+15,electricity generation,gas,gas (steam/CT),1990,0.4243198313262782
+15,electricity generation,gas,gas (steam/CT),1991,2.501436698860967
+15,electricity generation,gas,gas (steam/CT),1992,0.5796417582071676
+15,electricity generation,gas,gas (steam/CT),1993,0.5719633868447255
+15,electricity generation,gas,gas (steam/CT),1994,4.502084812875013
+15,electricity generation,gas,gas (steam/CT),1995,0.2534309570611893
+15,electricity generation,gas,gas (steam/CT),1996,0.17190703624821937
+15,electricity generation,gas,gas (steam/CT),1997,0.3280446529652655
+15,electricity generation,gas,gas (steam/CT),1998,1.006913198642382
+15,electricity generation,gas,gas (steam/CT),1999,1.208774797417605
+15,electricity generation,gas,gas (steam/CT),2000,0.5280444561309235
+15,electricity generation,gas,gas (steam/CT),2001,0.5139435402443355
+15,electricity generation,gas,gas (steam/CT),2002,0.4764395634037865
+15,electricity generation,gas,gas (steam/CT),2003,0.4682125169184223
+15,electricity generation,gas,gas (steam/CT),2004,0.720957218057836
+15,electricity generation,gas,gas (steam/CT),2005,0.852681159443404
+15,electricity generation,gas,gas (steam/CT),2006,1.0140211249182784
+15,electricity generation,gas,gas (steam/CT),2007,1.7660700356525971
+15,electricity generation,gas,gas (steam/CT),2008,0.8610288843573939
+15,electricity generation,gas,gas (steam/CT),2009,0.46966875962635596
+15,electricity generation,gas,gas (steam/CT),2010,0.37137121009020435
+23,electricity generation,gas,gas (steam/CT),1971,2.1649379783584064
+23,electricity generation,gas,gas (steam/CT),1972,1.9434933737014195
+23,electricity generation,gas,gas (steam/CT),1973,1.7282458025591236
+23,electricity generation,gas,gas (steam/CT),1974,1.3705378394811747
+23,electricity generation,gas,gas (steam/CT),1975,1.1122189663050912
+23,electricity generation,gas,gas (steam/CT),1976,1.095626477541371
+23,electricity generation,gas,gas (steam/CT),1977,1.2003589267991086
+23,electricity generation,gas,gas (steam/CT),1978,1.2876049141117636
+23,electricity generation,gas,gas (steam/CT),1979,1.3688132958968038
+23,electricity generation,gas,gas (steam/CT),1980,1.2812338626165722
+23,electricity generation,gas,gas (steam/CT),1981,1.2223941916206988
+23,electricity generation,gas,gas (steam/CT),1982,1.1475994256434847
+23,electricity generation,gas,gas (steam/CT),1983,1.157977964160722
+23,electricity generation,gas,gas (steam/CT),1984,1.1611490377762685
+23,electricity generation,gas,gas (steam/CT),1985,1.1852845336644395
+23,electricity generation,gas,gas (steam/CT),1986,1.1744495222896245
+23,electricity generation,gas,gas (steam/CT),1987,1.2066998693851598
+23,electricity generation,gas,gas (steam/CT),1988,1.2439051531213194
+23,electricity generation,gas,gas (steam/CT),1989,1.2715321864255456
+23,electricity generation,gas,gas (steam/CT),1990,1.7749733190403847
+23,electricity generation,gas,gas (steam/CT),1991,1.6970864265748458
+23,electricity generation,gas,gas (steam/CT),1992,1.9723307197876268
+23,electricity generation,gas,gas (steam/CT),1993,1.9901586781913974
+23,electricity generation,gas,gas (steam/CT),1994,1.7723784265983586
+23,electricity generation,gas,gas (steam/CT),1995,1.7357111838894324
+23,electricity generation,gas,gas (steam/CT),1996,1.4588856417038476
+23,electricity generation,gas,gas (steam/CT),1997,1.4521850136927255
+23,electricity generation,gas,gas (steam/CT),1998,1.2975908086726877
+23,electricity generation,gas,gas (steam/CT),1999,1.2519872754665586
+23,electricity generation,gas,gas (steam/CT),2000,1.1958248074286648
+23,electricity generation,gas,gas (steam/CT),2001,1.2186630565996062
+23,electricity generation,gas,gas (steam/CT),2002,1.1809747973638554
+23,electricity generation,gas,gas (steam/CT),2003,1.1557529057446534
+23,electricity generation,gas,gas (steam/CT),2004,1.0935990444066417
+23,electricity generation,gas,gas (steam/CT),2005,1.0299705725824126
+23,electricity generation,gas,gas (steam/CT),2006,0.9907432164614499
+23,electricity generation,gas,gas (steam/CT),2007,0.9278532781168478
+23,electricity generation,gas,gas (steam/CT),2008,0.8740216473492877
+23,electricity generation,gas,gas (steam/CT),2009,0.9035062780523834
+23,electricity generation,gas,gas (steam/CT),2010,0.8936446249420135

@@ -1,0 +1,8 @@
+# Supply sector info for district heat is written to all regions,
+# filtered by which regions have district heat
+region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent,logit.type
+China,district heat,EJ,EJ,1975$/GJ,1975,-3,NA
+EU-12,district heat,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Eastern,district heat,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Non_EU,district heat,EJ,EJ,1975$/GJ,1975,-3,NA
+Russia,district heat,EJ,EJ,1975$/GJ,1975,-3,NA
