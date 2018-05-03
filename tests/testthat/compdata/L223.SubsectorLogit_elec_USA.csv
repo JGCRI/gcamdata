@@ -1,0 +1,475 @@
+# The same USA region values are repeated for each state
+# States with no geothermal resource are deleted for the subsector
+region,supplysector,subsector,logit.year.fillout,logit.exponent,logit.type
+AK,electricity,coal,1975,-10,NA
+AL,electricity,coal,1975,-10,NA
+AR,electricity,coal,1975,-10,NA
+AZ,electricity,coal,1975,-10,NA
+CA,electricity,coal,1975,-10,NA
+CO,electricity,coal,1975,-10,NA
+CT,electricity,coal,1975,-10,NA
+DC,electricity,coal,1975,-10,NA
+DE,electricity,coal,1975,-10,NA
+FL,electricity,coal,1975,-10,NA
+GA,electricity,coal,1975,-10,NA
+HI,electricity,coal,1975,-10,NA
+IA,electricity,coal,1975,-10,NA
+ID,electricity,coal,1975,-10,NA
+IL,electricity,coal,1975,-10,NA
+IN,electricity,coal,1975,-10,NA
+KS,electricity,coal,1975,-10,NA
+KY,electricity,coal,1975,-10,NA
+LA,electricity,coal,1975,-10,NA
+MA,electricity,coal,1975,-10,NA
+MD,electricity,coal,1975,-10,NA
+ME,electricity,coal,1975,-10,NA
+MI,electricity,coal,1975,-10,NA
+MN,electricity,coal,1975,-10,NA
+MO,electricity,coal,1975,-10,NA
+MS,electricity,coal,1975,-10,NA
+MT,electricity,coal,1975,-10,NA
+NC,electricity,coal,1975,-10,NA
+ND,electricity,coal,1975,-10,NA
+NE,electricity,coal,1975,-10,NA
+NH,electricity,coal,1975,-10,NA
+NJ,electricity,coal,1975,-10,NA
+NM,electricity,coal,1975,-10,NA
+NV,electricity,coal,1975,-10,NA
+NY,electricity,coal,1975,-10,NA
+OH,electricity,coal,1975,-10,NA
+OK,electricity,coal,1975,-10,NA
+OR,electricity,coal,1975,-10,NA
+PA,electricity,coal,1975,-10,NA
+RI,electricity,coal,1975,-10,NA
+SC,electricity,coal,1975,-10,NA
+SD,electricity,coal,1975,-10,NA
+TN,electricity,coal,1975,-10,NA
+TX,electricity,coal,1975,-10,NA
+UT,electricity,coal,1975,-10,NA
+VA,electricity,coal,1975,-10,NA
+VT,electricity,coal,1975,-10,NA
+WA,electricity,coal,1975,-10,NA
+WI,electricity,coal,1975,-10,NA
+WV,electricity,coal,1975,-10,NA
+WY,electricity,coal,1975,-10,NA
+AK,electricity,gas,1975,-10,NA
+AL,electricity,gas,1975,-10,NA
+AR,electricity,gas,1975,-10,NA
+AZ,electricity,gas,1975,-10,NA
+CA,electricity,gas,1975,-10,NA
+CO,electricity,gas,1975,-10,NA
+CT,electricity,gas,1975,-10,NA
+DC,electricity,gas,1975,-10,NA
+DE,electricity,gas,1975,-10,NA
+FL,electricity,gas,1975,-10,NA
+GA,electricity,gas,1975,-10,NA
+HI,electricity,gas,1975,-10,NA
+IA,electricity,gas,1975,-10,NA
+ID,electricity,gas,1975,-10,NA
+IL,electricity,gas,1975,-10,NA
+IN,electricity,gas,1975,-10,NA
+KS,electricity,gas,1975,-10,NA
+KY,electricity,gas,1975,-10,NA
+LA,electricity,gas,1975,-10,NA
+MA,electricity,gas,1975,-10,NA
+MD,electricity,gas,1975,-10,NA
+ME,electricity,gas,1975,-10,NA
+MI,electricity,gas,1975,-10,NA
+MN,electricity,gas,1975,-10,NA
+MO,electricity,gas,1975,-10,NA
+MS,electricity,gas,1975,-10,NA
+MT,electricity,gas,1975,-10,NA
+NC,electricity,gas,1975,-10,NA
+ND,electricity,gas,1975,-10,NA
+NE,electricity,gas,1975,-10,NA
+NH,electricity,gas,1975,-10,NA
+NJ,electricity,gas,1975,-10,NA
+NM,electricity,gas,1975,-10,NA
+NV,electricity,gas,1975,-10,NA
+NY,electricity,gas,1975,-10,NA
+OH,electricity,gas,1975,-10,NA
+OK,electricity,gas,1975,-10,NA
+OR,electricity,gas,1975,-10,NA
+PA,electricity,gas,1975,-10,NA
+RI,electricity,gas,1975,-10,NA
+SC,electricity,gas,1975,-10,NA
+SD,electricity,gas,1975,-10,NA
+TN,electricity,gas,1975,-10,NA
+TX,electricity,gas,1975,-10,NA
+UT,electricity,gas,1975,-10,NA
+VA,electricity,gas,1975,-10,NA
+VT,electricity,gas,1975,-10,NA
+WA,electricity,gas,1975,-10,NA
+WI,electricity,gas,1975,-10,NA
+WV,electricity,gas,1975,-10,NA
+WY,electricity,gas,1975,-10,NA
+AK,electricity,refined liquids,1975,-10,NA
+AL,electricity,refined liquids,1975,-10,NA
+AR,electricity,refined liquids,1975,-10,NA
+AZ,electricity,refined liquids,1975,-10,NA
+CA,electricity,refined liquids,1975,-10,NA
+CO,electricity,refined liquids,1975,-10,NA
+CT,electricity,refined liquids,1975,-10,NA
+DC,electricity,refined liquids,1975,-10,NA
+DE,electricity,refined liquids,1975,-10,NA
+FL,electricity,refined liquids,1975,-10,NA
+GA,electricity,refined liquids,1975,-10,NA
+HI,electricity,refined liquids,1975,-10,NA
+IA,electricity,refined liquids,1975,-10,NA
+ID,electricity,refined liquids,1975,-10,NA
+IL,electricity,refined liquids,1975,-10,NA
+IN,electricity,refined liquids,1975,-10,NA
+KS,electricity,refined liquids,1975,-10,NA
+KY,electricity,refined liquids,1975,-10,NA
+LA,electricity,refined liquids,1975,-10,NA
+MA,electricity,refined liquids,1975,-10,NA
+MD,electricity,refined liquids,1975,-10,NA
+ME,electricity,refined liquids,1975,-10,NA
+MI,electricity,refined liquids,1975,-10,NA
+MN,electricity,refined liquids,1975,-10,NA
+MO,electricity,refined liquids,1975,-10,NA
+MS,electricity,refined liquids,1975,-10,NA
+MT,electricity,refined liquids,1975,-10,NA
+NC,electricity,refined liquids,1975,-10,NA
+ND,electricity,refined liquids,1975,-10,NA
+NE,electricity,refined liquids,1975,-10,NA
+NH,electricity,refined liquids,1975,-10,NA
+NJ,electricity,refined liquids,1975,-10,NA
+NM,electricity,refined liquids,1975,-10,NA
+NV,electricity,refined liquids,1975,-10,NA
+NY,electricity,refined liquids,1975,-10,NA
+OH,electricity,refined liquids,1975,-10,NA
+OK,electricity,refined liquids,1975,-10,NA
+OR,electricity,refined liquids,1975,-10,NA
+PA,electricity,refined liquids,1975,-10,NA
+RI,electricity,refined liquids,1975,-10,NA
+SC,electricity,refined liquids,1975,-10,NA
+SD,electricity,refined liquids,1975,-10,NA
+TN,electricity,refined liquids,1975,-10,NA
+TX,electricity,refined liquids,1975,-10,NA
+UT,electricity,refined liquids,1975,-10,NA
+VA,electricity,refined liquids,1975,-10,NA
+VT,electricity,refined liquids,1975,-10,NA
+WA,electricity,refined liquids,1975,-10,NA
+WI,electricity,refined liquids,1975,-10,NA
+WV,electricity,refined liquids,1975,-10,NA
+WY,electricity,refined liquids,1975,-10,NA
+AK,electricity,biomass,1975,-10,NA
+AL,electricity,biomass,1975,-10,NA
+AR,electricity,biomass,1975,-10,NA
+AZ,electricity,biomass,1975,-10,NA
+CA,electricity,biomass,1975,-10,NA
+CO,electricity,biomass,1975,-10,NA
+CT,electricity,biomass,1975,-10,NA
+DC,electricity,biomass,1975,-10,NA
+DE,electricity,biomass,1975,-10,NA
+FL,electricity,biomass,1975,-10,NA
+GA,electricity,biomass,1975,-10,NA
+HI,electricity,biomass,1975,-10,NA
+IA,electricity,biomass,1975,-10,NA
+ID,electricity,biomass,1975,-10,NA
+IL,electricity,biomass,1975,-10,NA
+IN,electricity,biomass,1975,-10,NA
+KS,electricity,biomass,1975,-10,NA
+KY,electricity,biomass,1975,-10,NA
+LA,electricity,biomass,1975,-10,NA
+MA,electricity,biomass,1975,-10,NA
+MD,electricity,biomass,1975,-10,NA
+ME,electricity,biomass,1975,-10,NA
+MI,electricity,biomass,1975,-10,NA
+MN,electricity,biomass,1975,-10,NA
+MO,electricity,biomass,1975,-10,NA
+MS,electricity,biomass,1975,-10,NA
+MT,electricity,biomass,1975,-10,NA
+NC,electricity,biomass,1975,-10,NA
+ND,electricity,biomass,1975,-10,NA
+NE,electricity,biomass,1975,-10,NA
+NH,electricity,biomass,1975,-10,NA
+NJ,electricity,biomass,1975,-10,NA
+NM,electricity,biomass,1975,-10,NA
+NV,electricity,biomass,1975,-10,NA
+NY,electricity,biomass,1975,-10,NA
+OH,electricity,biomass,1975,-10,NA
+OK,electricity,biomass,1975,-10,NA
+OR,electricity,biomass,1975,-10,NA
+PA,electricity,biomass,1975,-10,NA
+RI,electricity,biomass,1975,-10,NA
+SC,electricity,biomass,1975,-10,NA
+SD,electricity,biomass,1975,-10,NA
+TN,electricity,biomass,1975,-10,NA
+TX,electricity,biomass,1975,-10,NA
+UT,electricity,biomass,1975,-10,NA
+VA,electricity,biomass,1975,-10,NA
+VT,electricity,biomass,1975,-10,NA
+WA,electricity,biomass,1975,-10,NA
+WI,electricity,biomass,1975,-10,NA
+WV,electricity,biomass,1975,-10,NA
+WY,electricity,biomass,1975,-10,NA
+AK,electricity,nuclear,1975,-6,NA
+AL,electricity,nuclear,1975,-6,NA
+AR,electricity,nuclear,1975,-6,NA
+AZ,electricity,nuclear,1975,-6,NA
+CA,electricity,nuclear,1975,-6,NA
+CO,electricity,nuclear,1975,-6,NA
+CT,electricity,nuclear,1975,-6,NA
+DC,electricity,nuclear,1975,-6,NA
+DE,electricity,nuclear,1975,-6,NA
+FL,electricity,nuclear,1975,-6,NA
+GA,electricity,nuclear,1975,-6,NA
+HI,electricity,nuclear,1975,-6,NA
+IA,electricity,nuclear,1975,-6,NA
+ID,electricity,nuclear,1975,-6,NA
+IL,electricity,nuclear,1975,-6,NA
+IN,electricity,nuclear,1975,-6,NA
+KS,electricity,nuclear,1975,-6,NA
+KY,electricity,nuclear,1975,-6,NA
+LA,electricity,nuclear,1975,-6,NA
+MA,electricity,nuclear,1975,-6,NA
+MD,electricity,nuclear,1975,-6,NA
+ME,electricity,nuclear,1975,-6,NA
+MI,electricity,nuclear,1975,-6,NA
+MN,electricity,nuclear,1975,-6,NA
+MO,electricity,nuclear,1975,-6,NA
+MS,electricity,nuclear,1975,-6,NA
+MT,electricity,nuclear,1975,-6,NA
+NC,electricity,nuclear,1975,-6,NA
+ND,electricity,nuclear,1975,-6,NA
+NE,electricity,nuclear,1975,-6,NA
+NH,electricity,nuclear,1975,-6,NA
+NJ,electricity,nuclear,1975,-6,NA
+NM,electricity,nuclear,1975,-6,NA
+NV,electricity,nuclear,1975,-6,NA
+NY,electricity,nuclear,1975,-6,NA
+OH,electricity,nuclear,1975,-6,NA
+OK,electricity,nuclear,1975,-6,NA
+OR,electricity,nuclear,1975,-6,NA
+PA,electricity,nuclear,1975,-6,NA
+RI,electricity,nuclear,1975,-6,NA
+SC,electricity,nuclear,1975,-6,NA
+SD,electricity,nuclear,1975,-6,NA
+TN,electricity,nuclear,1975,-6,NA
+TX,electricity,nuclear,1975,-6,NA
+UT,electricity,nuclear,1975,-6,NA
+VA,electricity,nuclear,1975,-6,NA
+VT,electricity,nuclear,1975,-6,NA
+WA,electricity,nuclear,1975,-6,NA
+WI,electricity,nuclear,1975,-6,NA
+WV,electricity,nuclear,1975,-6,NA
+WY,electricity,nuclear,1975,-6,NA
+AK,electricity,hydro,1975,-6,NA
+AL,electricity,hydro,1975,-6,NA
+AR,electricity,hydro,1975,-6,NA
+AZ,electricity,hydro,1975,-6,NA
+CA,electricity,hydro,1975,-6,NA
+CO,electricity,hydro,1975,-6,NA
+CT,electricity,hydro,1975,-6,NA
+DC,electricity,hydro,1975,-6,NA
+DE,electricity,hydro,1975,-6,NA
+FL,electricity,hydro,1975,-6,NA
+GA,electricity,hydro,1975,-6,NA
+HI,electricity,hydro,1975,-6,NA
+IA,electricity,hydro,1975,-6,NA
+ID,electricity,hydro,1975,-6,NA
+IL,electricity,hydro,1975,-6,NA
+IN,electricity,hydro,1975,-6,NA
+KS,electricity,hydro,1975,-6,NA
+KY,electricity,hydro,1975,-6,NA
+LA,electricity,hydro,1975,-6,NA
+MA,electricity,hydro,1975,-6,NA
+MD,electricity,hydro,1975,-6,NA
+ME,electricity,hydro,1975,-6,NA
+MI,electricity,hydro,1975,-6,NA
+MN,electricity,hydro,1975,-6,NA
+MO,electricity,hydro,1975,-6,NA
+MS,electricity,hydro,1975,-6,NA
+MT,electricity,hydro,1975,-6,NA
+NC,electricity,hydro,1975,-6,NA
+ND,electricity,hydro,1975,-6,NA
+NE,electricity,hydro,1975,-6,NA
+NH,electricity,hydro,1975,-6,NA
+NJ,electricity,hydro,1975,-6,NA
+NM,electricity,hydro,1975,-6,NA
+NV,electricity,hydro,1975,-6,NA
+NY,electricity,hydro,1975,-6,NA
+OH,electricity,hydro,1975,-6,NA
+OK,electricity,hydro,1975,-6,NA
+OR,electricity,hydro,1975,-6,NA
+PA,electricity,hydro,1975,-6,NA
+RI,electricity,hydro,1975,-6,NA
+SC,electricity,hydro,1975,-6,NA
+SD,electricity,hydro,1975,-6,NA
+TN,electricity,hydro,1975,-6,NA
+TX,electricity,hydro,1975,-6,NA
+UT,electricity,hydro,1975,-6,NA
+VA,electricity,hydro,1975,-6,NA
+VT,electricity,hydro,1975,-6,NA
+WA,electricity,hydro,1975,-6,NA
+WI,electricity,hydro,1975,-6,NA
+WV,electricity,hydro,1975,-6,NA
+WY,electricity,hydro,1975,-6,NA
+AK,electricity,wind,1975,-6,NA
+AL,electricity,wind,1975,-6,NA
+AR,electricity,wind,1975,-6,NA
+AZ,electricity,wind,1975,-6,NA
+CA,electricity,wind,1975,-6,NA
+CO,electricity,wind,1975,-6,NA
+CT,electricity,wind,1975,-6,NA
+DC,electricity,wind,1975,-6,NA
+DE,electricity,wind,1975,-6,NA
+FL,electricity,wind,1975,-6,NA
+GA,electricity,wind,1975,-6,NA
+HI,electricity,wind,1975,-6,NA
+IA,electricity,wind,1975,-6,NA
+ID,electricity,wind,1975,-6,NA
+IL,electricity,wind,1975,-6,NA
+IN,electricity,wind,1975,-6,NA
+KS,electricity,wind,1975,-6,NA
+KY,electricity,wind,1975,-6,NA
+LA,electricity,wind,1975,-6,NA
+MA,electricity,wind,1975,-6,NA
+MD,electricity,wind,1975,-6,NA
+ME,electricity,wind,1975,-6,NA
+MI,electricity,wind,1975,-6,NA
+MN,electricity,wind,1975,-6,NA
+MO,electricity,wind,1975,-6,NA
+MS,electricity,wind,1975,-6,NA
+MT,electricity,wind,1975,-6,NA
+NC,electricity,wind,1975,-6,NA
+ND,electricity,wind,1975,-6,NA
+NE,electricity,wind,1975,-6,NA
+NH,electricity,wind,1975,-6,NA
+NJ,electricity,wind,1975,-6,NA
+NM,electricity,wind,1975,-6,NA
+NV,electricity,wind,1975,-6,NA
+NY,electricity,wind,1975,-6,NA
+OH,electricity,wind,1975,-6,NA
+OK,electricity,wind,1975,-6,NA
+OR,electricity,wind,1975,-6,NA
+PA,electricity,wind,1975,-6,NA
+RI,electricity,wind,1975,-6,NA
+SC,electricity,wind,1975,-6,NA
+SD,electricity,wind,1975,-6,NA
+TN,electricity,wind,1975,-6,NA
+TX,electricity,wind,1975,-6,NA
+UT,electricity,wind,1975,-6,NA
+VA,electricity,wind,1975,-6,NA
+VT,electricity,wind,1975,-6,NA
+WA,electricity,wind,1975,-6,NA
+WI,electricity,wind,1975,-6,NA
+WV,electricity,wind,1975,-6,NA
+WY,electricity,wind,1975,-6,NA
+AK,electricity,solar,1975,-6,NA
+AL,electricity,solar,1975,-6,NA
+AR,electricity,solar,1975,-6,NA
+AZ,electricity,solar,1975,-6,NA
+CA,electricity,solar,1975,-6,NA
+CO,electricity,solar,1975,-6,NA
+CT,electricity,solar,1975,-6,NA
+DC,electricity,solar,1975,-6,NA
+DE,electricity,solar,1975,-6,NA
+FL,electricity,solar,1975,-6,NA
+GA,electricity,solar,1975,-6,NA
+HI,electricity,solar,1975,-6,NA
+IA,electricity,solar,1975,-6,NA
+ID,electricity,solar,1975,-6,NA
+IL,electricity,solar,1975,-6,NA
+IN,electricity,solar,1975,-6,NA
+KS,electricity,solar,1975,-6,NA
+KY,electricity,solar,1975,-6,NA
+LA,electricity,solar,1975,-6,NA
+MA,electricity,solar,1975,-6,NA
+MD,electricity,solar,1975,-6,NA
+ME,electricity,solar,1975,-6,NA
+MI,electricity,solar,1975,-6,NA
+MN,electricity,solar,1975,-6,NA
+MO,electricity,solar,1975,-6,NA
+MS,electricity,solar,1975,-6,NA
+MT,electricity,solar,1975,-6,NA
+NC,electricity,solar,1975,-6,NA
+ND,electricity,solar,1975,-6,NA
+NE,electricity,solar,1975,-6,NA
+NH,electricity,solar,1975,-6,NA
+NJ,electricity,solar,1975,-6,NA
+NM,electricity,solar,1975,-6,NA
+NV,electricity,solar,1975,-6,NA
+NY,electricity,solar,1975,-6,NA
+OH,electricity,solar,1975,-6,NA
+OK,electricity,solar,1975,-6,NA
+OR,electricity,solar,1975,-6,NA
+PA,electricity,solar,1975,-6,NA
+RI,electricity,solar,1975,-6,NA
+SC,electricity,solar,1975,-6,NA
+SD,electricity,solar,1975,-6,NA
+TN,electricity,solar,1975,-6,NA
+TX,electricity,solar,1975,-6,NA
+UT,electricity,solar,1975,-6,NA
+VA,electricity,solar,1975,-6,NA
+VT,electricity,solar,1975,-6,NA
+WA,electricity,solar,1975,-6,NA
+WI,electricity,solar,1975,-6,NA
+WV,electricity,solar,1975,-6,NA
+WY,electricity,solar,1975,-6,NA
+AK,electricity,geothermal,1975,-6,NA
+AZ,electricity,geothermal,1975,-6,NA
+CA,electricity,geothermal,1975,-6,NA
+CO,electricity,geothermal,1975,-6,NA
+HI,electricity,geothermal,1975,-6,NA
+ID,electricity,geothermal,1975,-6,NA
+MT,electricity,geothermal,1975,-6,NA
+NM,electricity,geothermal,1975,-6,NA
+NV,electricity,geothermal,1975,-6,NA
+OR,electricity,geothermal,1975,-6,NA
+UT,electricity,geothermal,1975,-6,NA
+WA,electricity,geothermal,1975,-6,NA
+WY,electricity,geothermal,1975,-6,NA
+AK,elect_td_bld,rooftop_pv,1975,-6,NA
+AL,elect_td_bld,rooftop_pv,1975,-6,NA
+AR,elect_td_bld,rooftop_pv,1975,-6,NA
+AZ,elect_td_bld,rooftop_pv,1975,-6,NA
+CA,elect_td_bld,rooftop_pv,1975,-6,NA
+CO,elect_td_bld,rooftop_pv,1975,-6,NA
+CT,elect_td_bld,rooftop_pv,1975,-6,NA
+DC,elect_td_bld,rooftop_pv,1975,-6,NA
+DE,elect_td_bld,rooftop_pv,1975,-6,NA
+FL,elect_td_bld,rooftop_pv,1975,-6,NA
+GA,elect_td_bld,rooftop_pv,1975,-6,NA
+HI,elect_td_bld,rooftop_pv,1975,-6,NA
+IA,elect_td_bld,rooftop_pv,1975,-6,NA
+ID,elect_td_bld,rooftop_pv,1975,-6,NA
+IL,elect_td_bld,rooftop_pv,1975,-6,NA
+IN,elect_td_bld,rooftop_pv,1975,-6,NA
+KS,elect_td_bld,rooftop_pv,1975,-6,NA
+KY,elect_td_bld,rooftop_pv,1975,-6,NA
+LA,elect_td_bld,rooftop_pv,1975,-6,NA
+MA,elect_td_bld,rooftop_pv,1975,-6,NA
+MD,elect_td_bld,rooftop_pv,1975,-6,NA
+ME,elect_td_bld,rooftop_pv,1975,-6,NA
+MI,elect_td_bld,rooftop_pv,1975,-6,NA
+MN,elect_td_bld,rooftop_pv,1975,-6,NA
+MO,elect_td_bld,rooftop_pv,1975,-6,NA
+MS,elect_td_bld,rooftop_pv,1975,-6,NA
+MT,elect_td_bld,rooftop_pv,1975,-6,NA
+NC,elect_td_bld,rooftop_pv,1975,-6,NA
+ND,elect_td_bld,rooftop_pv,1975,-6,NA
+NE,elect_td_bld,rooftop_pv,1975,-6,NA
+NH,elect_td_bld,rooftop_pv,1975,-6,NA
+NJ,elect_td_bld,rooftop_pv,1975,-6,NA
+NM,elect_td_bld,rooftop_pv,1975,-6,NA
+NV,elect_td_bld,rooftop_pv,1975,-6,NA
+NY,elect_td_bld,rooftop_pv,1975,-6,NA
+OH,elect_td_bld,rooftop_pv,1975,-6,NA
+OK,elect_td_bld,rooftop_pv,1975,-6,NA
+OR,elect_td_bld,rooftop_pv,1975,-6,NA
+PA,elect_td_bld,rooftop_pv,1975,-6,NA
+RI,elect_td_bld,rooftop_pv,1975,-6,NA
+SC,elect_td_bld,rooftop_pv,1975,-6,NA
+SD,elect_td_bld,rooftop_pv,1975,-6,NA
+TN,elect_td_bld,rooftop_pv,1975,-6,NA
+TX,elect_td_bld,rooftop_pv,1975,-6,NA
+UT,elect_td_bld,rooftop_pv,1975,-6,NA
+VA,elect_td_bld,rooftop_pv,1975,-6,NA
+VT,elect_td_bld,rooftop_pv,1975,-6,NA
+WA,elect_td_bld,rooftop_pv,1975,-6,NA
+WI,elect_td_bld,rooftop_pv,1975,-6,NA
+WV,elect_td_bld,rooftop_pv,1975,-6,NA
+WY,elect_td_bld,rooftop_pv,1975,-6,NA

@@ -1,0 +1,134 @@
+# For fertilizer sector, the energy use coefficients from A322.globaltech_coef are interpolated into all model years
+sector.name,subsector.name,technology,minicam.energy.input,year,coefficient
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,1975,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,1990,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2005,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2010,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2015,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2020,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2025,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2030,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2035,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2040,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2045,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2050,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2055,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2060,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2065,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2070,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2075,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2080,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2085,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2090,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2095,1
+Exports_fertilizer,N fertilizer,N fertilizer,N fertilizer,2100,1
+N fertilizer,coal,coal,delivered coal,1975,0.054
+N fertilizer,coal,coal,delivered coal,1990,0.054
+N fertilizer,coal,coal,delivered coal,2005,0.054
+N fertilizer,coal,coal,delivered coal,2010,0.054
+N fertilizer,coal,coal,delivered coal,2015,0.052775
+N fertilizer,coal,coal,delivered coal,2020,0.05155
+N fertilizer,coal,coal,delivered coal,2025,0.050325
+N fertilizer,coal,coal,delivered coal,2030,0.0491
+N fertilizer,coal,coal,delivered coal,2035,0.047875
+N fertilizer,coal,coal,delivered coal,2040,0.04665
+N fertilizer,coal,coal,delivered coal,2045,0.045425
+N fertilizer,coal,coal,delivered coal,2050,0.0442
+N fertilizer,coal,coal,delivered coal,2055,0.04368
+N fertilizer,coal,coal,delivered coal,2060,0.04316
+N fertilizer,coal,coal,delivered coal,2065,0.04264
+N fertilizer,coal,coal,delivered coal,2070,0.04212
+N fertilizer,coal,coal,delivered coal,2075,0.0416
+N fertilizer,coal,coal,delivered coal,2080,0.04108
+N fertilizer,coal,coal,delivered coal,2085,0.04056
+N fertilizer,coal,coal,delivered coal,2090,0.04004
+N fertilizer,coal,coal,delivered coal,2095,0.03952
+N fertilizer,coal,coal,delivered coal,2100,0.039
+N fertilizer,coal,coal CCS,delivered coal,1975,0.06
+N fertilizer,coal,coal CCS,delivered coal,1990,0.06
+N fertilizer,coal,coal CCS,delivered coal,2005,0.06
+N fertilizer,coal,coal CCS,delivered coal,2010,0.06
+N fertilizer,coal,coal CCS,delivered coal,2015,0.0586375
+N fertilizer,coal,coal CCS,delivered coal,2020,0.057275
+N fertilizer,coal,coal CCS,delivered coal,2025,0.0559125
+N fertilizer,coal,coal CCS,delivered coal,2030,0.05455
+N fertilizer,coal,coal CCS,delivered coal,2035,0.0531875
+N fertilizer,coal,coal CCS,delivered coal,2040,0.051825
+N fertilizer,coal,coal CCS,delivered coal,2045,0.0504625
+N fertilizer,coal,coal CCS,delivered coal,2050,0.0491
+N fertilizer,coal,coal CCS,delivered coal,2055,0.04852
+N fertilizer,coal,coal CCS,delivered coal,2060,0.04794
+N fertilizer,coal,coal CCS,delivered coal,2065,0.04736
+N fertilizer,coal,coal CCS,delivered coal,2070,0.04678
+N fertilizer,coal,coal CCS,delivered coal,2075,0.0462
+N fertilizer,coal,coal CCS,delivered coal,2080,0.04562
+N fertilizer,coal,coal CCS,delivered coal,2085,0.04504
+N fertilizer,coal,coal CCS,delivered coal,2090,0.04446
+N fertilizer,coal,coal CCS,delivered coal,2095,0.04388
+N fertilizer,coal,coal CCS,delivered coal,2100,0.0433
+N fertilizer,gas,gas,wholesale gas,1975,0.0394872
+N fertilizer,gas,gas,wholesale gas,1990,0.0375641
+N fertilizer,gas,gas,wholesale gas,2005,0.035641
+N fertilizer,gas,gas,wholesale gas,2010,0.035
+N fertilizer,gas,gas,wholesale gas,2015,0.0342
+N fertilizer,gas,gas,wholesale gas,2020,0.0334
+N fertilizer,gas,gas,wholesale gas,2025,0.0326
+N fertilizer,gas,gas,wholesale gas,2030,0.0318
+N fertilizer,gas,gas,wholesale gas,2035,0.031
+N fertilizer,gas,gas,wholesale gas,2040,0.0302
+N fertilizer,gas,gas,wholesale gas,2045,0.0294
+N fertilizer,gas,gas,wholesale gas,2050,0.0286
+N fertilizer,gas,gas,wholesale gas,2055,0.02827
+N fertilizer,gas,gas,wholesale gas,2060,0.02794
+N fertilizer,gas,gas,wholesale gas,2065,0.02761
+N fertilizer,gas,gas,wholesale gas,2070,0.02728
+N fertilizer,gas,gas,wholesale gas,2075,0.026950000000000002
+N fertilizer,gas,gas,wholesale gas,2080,0.02662
+N fertilizer,gas,gas,wholesale gas,2085,0.02629
+N fertilizer,gas,gas,wholesale gas,2090,0.02596
+N fertilizer,gas,gas,wholesale gas,2095,0.02563
+N fertilizer,gas,gas,wholesale gas,2100,0.0253
+N fertilizer,gas,gas CCS,wholesale gas,1975,0.0444872
+N fertilizer,gas,gas CCS,wholesale gas,1990,0.0425641
+N fertilizer,gas,gas CCS,wholesale gas,2005,0.040641
+N fertilizer,gas,gas CCS,wholesale gas,2010,0.04
+N fertilizer,gas,gas CCS,wholesale gas,2015,0.0390875
+N fertilizer,gas,gas CCS,wholesale gas,2020,0.038175
+N fertilizer,gas,gas CCS,wholesale gas,2025,0.0372625
+N fertilizer,gas,gas CCS,wholesale gas,2030,0.03635
+N fertilizer,gas,gas CCS,wholesale gas,2035,0.0354375
+N fertilizer,gas,gas CCS,wholesale gas,2040,0.034525
+N fertilizer,gas,gas CCS,wholesale gas,2045,0.0336125
+N fertilizer,gas,gas CCS,wholesale gas,2050,0.0327
+N fertilizer,gas,gas CCS,wholesale gas,2055,0.03232
+N fertilizer,gas,gas CCS,wholesale gas,2060,0.03194
+N fertilizer,gas,gas CCS,wholesale gas,2065,0.03156
+N fertilizer,gas,gas CCS,wholesale gas,2070,0.03118
+N fertilizer,gas,gas CCS,wholesale gas,2075,0.0308
+N fertilizer,gas,gas CCS,wholesale gas,2080,0.03042
+N fertilizer,gas,gas CCS,wholesale gas,2085,0.03004
+N fertilizer,gas,gas CCS,wholesale gas,2090,0.02966
+N fertilizer,gas,gas CCS,wholesale gas,2095,0.02928
+N fertilizer,gas,gas CCS,wholesale gas,2100,0.0289
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,1975,0.0494872
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,1990,0.0475641
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2005,0.045641
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2010,0.045
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2015,0.043975
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2020,0.04295
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2025,0.041925
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2030,0.0409
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2035,0.039875
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2040,0.03885
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2045,0.037825
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2050,0.0368
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2055,0.03637
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2060,0.03594
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2065,0.03551
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2070,0.03508
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2075,0.03465
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2080,0.03422
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2085,0.03379
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2090,0.03336
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2095,0.03293
+N fertilizer,refined liquids,refined liquids,refined liquids industrial,2100,0.0325

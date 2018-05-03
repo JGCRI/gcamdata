@@ -1,0 +1,189 @@
+# Specify generic info for demand sectors
+# Remove any regions for which agriculture and land use are not modeled
+region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent,logit.type
+USA,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Africa_Eastern,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Africa_Northern,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Africa_Southern,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Africa_Western,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Australia_NZ,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Brazil,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Canada,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Central America and Caribbean,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Central Asia,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+China,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+EU-12,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+EU-15,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Europe_Eastern,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Europe_Non_EU,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+European Free Trade Association,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+India,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Indonesia,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Japan,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Mexico,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Middle East,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Pakistan,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Russia,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+South Africa,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+South America_Northern,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+South America_Southern,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+South Asia,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+South Korea,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Southeast Asia,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Argentina,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+Colombia,FoodDemand_Crops,Pcal,Mt,1975$/Mcal,1975,0,NA
+USA,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Africa_Eastern,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Africa_Northern,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Africa_Southern,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Africa_Western,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Australia_NZ,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Brazil,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Canada,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Central America and Caribbean,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Central Asia,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+China,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+EU-12,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+EU-15,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Europe_Eastern,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Europe_Non_EU,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+European Free Trade Association,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+India,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Indonesia,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Japan,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Mexico,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Middle East,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Pakistan,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Russia,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+South Africa,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+South America_Northern,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+South America_Southern,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+South Asia,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+South Korea,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Southeast Asia,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Argentina,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+Colombia,FoodDemand_Meat,Pcal,Mt,1975$/Mcal,1975,0,NA
+USA,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Africa_Eastern,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Africa_Northern,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Africa_Southern,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Africa_Western,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Australia_NZ,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Brazil,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Canada,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Central America and Caribbean,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Central Asia,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+China,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+EU-12,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+EU-15,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Europe_Eastern,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Europe_Non_EU,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+European Free Trade Association,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+India,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Indonesia,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Japan,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Mexico,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Middle East,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Pakistan,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Russia,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+South Africa,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+South America_Northern,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+South America_Southern,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+South Asia,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+South Korea,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Southeast Asia,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Argentina,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+Colombia,NonFoodDemand_Crops,Mt,Mt,1975$/kg,1975,0,NA
+USA,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Africa_Eastern,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Africa_Northern,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Africa_Southern,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Africa_Western,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Australia_NZ,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Brazil,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Canada,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Central America and Caribbean,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Central Asia,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+China,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+EU-12,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+EU-15,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Europe_Eastern,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Europe_Non_EU,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+European Free Trade Association,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+India,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Indonesia,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Japan,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Mexico,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Middle East,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Pakistan,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Russia,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+South Africa,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+South America_Northern,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+South America_Southern,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+South Asia,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+South Korea,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Southeast Asia,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Argentina,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Colombia,NonFoodDemand_Meat,Mt,Mt,1975$/kg,1975,0,NA
+USA,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Africa_Eastern,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Africa_Northern,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Africa_Southern,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Africa_Western,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Australia_NZ,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Brazil,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Canada,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Central America and Caribbean,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Central Asia,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+China,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+EU-12,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+EU-15,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Europe_Eastern,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Europe_Non_EU,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+European Free Trade Association,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+India,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Indonesia,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Japan,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Mexico,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Middle East,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Pakistan,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Russia,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+South Africa,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+South America_Northern,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+South America_Southern,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+South Asia,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+South Korea,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Southeast Asia,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Argentina,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+Colombia,NonFoodDemand_Forest,billion m3,billion m3,1975$/m3,1975,0,NA
+USA,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Africa_Eastern,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Africa_Northern,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Africa_Southern,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Africa_Western,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Australia_NZ,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Brazil,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Canada,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Central America and Caribbean,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Central Asia,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+China,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+EU-12,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+EU-15,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Europe_Eastern,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Europe_Non_EU,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+European Free Trade Association,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+India,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Indonesia,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Japan,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Mexico,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Middle East,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Pakistan,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Russia,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+South Africa,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+South America_Northern,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+South America_Southern,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+South Asia,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+South Korea,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Southeast Asia,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Argentina,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA
+Colombia,Exports_Meat,Mt,Mt,1975$/kg,1975,0,NA

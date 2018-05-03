@@ -1,0 +1,149 @@
+# Data were written for all regions
+# Region/fuel combinations where heat and traditional biomass are not modeled as separate fuels were removed
+region,supplysector,subsector,year.fillout,fuelprefElasticity
+USA,building,biomass,2015,-1
+Africa_Eastern,building,biomass,2015,-1
+Africa_Northern,building,biomass,2015,-1
+Africa_Southern,building,biomass,2015,-1
+Africa_Western,building,biomass,2015,-1
+Australia_NZ,building,biomass,2015,-1
+Brazil,building,biomass,2015,-1
+Canada,building,biomass,2015,-1
+Central America and Caribbean,building,biomass,2015,-1
+Central Asia,building,biomass,2015,-1
+China,building,biomass,2015,-1
+EU-12,building,biomass,2015,-1
+EU-15,building,biomass,2015,-1
+Europe_Eastern,building,biomass,2015,-1
+Europe_Non_EU,building,biomass,2015,-1
+European Free Trade Association,building,biomass,2015,-1
+India,building,biomass,2015,-1
+Indonesia,building,biomass,2015,-1
+Japan,building,biomass,2015,-1
+Mexico,building,biomass,2015,-1
+Middle East,building,biomass,2015,-1
+Pakistan,building,biomass,2015,-1
+Russia,building,biomass,2015,-1
+South Africa,building,biomass,2015,-1
+South America_Northern,building,biomass,2015,-1
+South America_Southern,building,biomass,2015,-1
+South Asia,building,biomass,2015,-1
+South Korea,building,biomass,2015,-1
+Southeast Asia,building,biomass,2015,-1
+Taiwan,building,biomass,2015,-1
+Argentina,building,biomass,2015,-1
+Colombia,building,biomass,2015,-1
+USA,building,coal,2015,-0.7
+Africa_Eastern,building,coal,2015,-0.7
+Africa_Northern,building,coal,2015,-0.7
+Africa_Southern,building,coal,2015,-0.7
+Africa_Western,building,coal,2015,-0.7
+Australia_NZ,building,coal,2015,-0.7
+Brazil,building,coal,2015,-0.7
+Canada,building,coal,2015,-0.7
+Central America and Caribbean,building,coal,2015,-0.7
+Central Asia,building,coal,2015,-0.7
+China,building,coal,2015,-0.7
+EU-12,building,coal,2015,-0.7
+EU-15,building,coal,2015,-0.7
+Europe_Eastern,building,coal,2015,-0.7
+Europe_Non_EU,building,coal,2015,-0.7
+European Free Trade Association,building,coal,2015,-0.7
+India,building,coal,2015,-0.7
+Indonesia,building,coal,2015,-0.7
+Japan,building,coal,2015,-0.7
+Mexico,building,coal,2015,-0.7
+Middle East,building,coal,2015,-0.7
+Pakistan,building,coal,2015,-0.7
+Russia,building,coal,2015,-0.7
+South Africa,building,coal,2015,-0.7
+South America_Northern,building,coal,2015,-0.7
+South America_Southern,building,coal,2015,-0.7
+South Asia,building,coal,2015,-0.7
+South Korea,building,coal,2015,-0.7
+Southeast Asia,building,coal,2015,-0.7
+Taiwan,building,coal,2015,-0.7
+Argentina,building,coal,2015,-0.7
+Colombia,building,coal,2015,-0.7
+USA,building,electricity,2015,0.2
+Africa_Eastern,building,electricity,2015,0.2
+Africa_Northern,building,electricity,2015,0.2
+Africa_Southern,building,electricity,2015,0.2
+Africa_Western,building,electricity,2015,0.2
+Australia_NZ,building,electricity,2015,0.2
+Brazil,building,electricity,2015,0.2
+Canada,building,electricity,2015,0.2
+Central America and Caribbean,building,electricity,2015,0.2
+Central Asia,building,electricity,2015,0.2
+China,building,electricity,2015,0.2
+EU-12,building,electricity,2015,0.2
+EU-15,building,electricity,2015,0.2
+Europe_Eastern,building,electricity,2015,0.2
+Europe_Non_EU,building,electricity,2015,0.2
+European Free Trade Association,building,electricity,2015,0.2
+India,building,electricity,2015,0.2
+Indonesia,building,electricity,2015,0.2
+Japan,building,electricity,2015,0.2
+Mexico,building,electricity,2015,0.2
+Middle East,building,electricity,2015,0.2
+Pakistan,building,electricity,2015,0.2
+Russia,building,electricity,2015,0.2
+South Africa,building,electricity,2015,0.2
+South America_Northern,building,electricity,2015,0.2
+South America_Southern,building,electricity,2015,0.2
+South Asia,building,electricity,2015,0.2
+South Korea,building,electricity,2015,0.2
+Southeast Asia,building,electricity,2015,0.2
+Taiwan,building,electricity,2015,0.2
+Argentina,building,electricity,2015,0.2
+Colombia,building,electricity,2015,0.2
+USA,building,gas,2015,0.1
+Africa_Eastern,building,gas,2015,0.1
+Africa_Northern,building,gas,2015,0.1
+Africa_Southern,building,gas,2015,0.1
+Africa_Western,building,gas,2015,0.1
+Australia_NZ,building,gas,2015,0.1
+Brazil,building,gas,2015,0.1
+Canada,building,gas,2015,0.1
+Central America and Caribbean,building,gas,2015,0.1
+Central Asia,building,gas,2015,0.1
+China,building,gas,2015,0.1
+EU-12,building,gas,2015,0.1
+EU-15,building,gas,2015,0.1
+Europe_Eastern,building,gas,2015,0.1
+Europe_Non_EU,building,gas,2015,0.1
+European Free Trade Association,building,gas,2015,0.1
+India,building,gas,2015,0.1
+Indonesia,building,gas,2015,0.1
+Japan,building,gas,2015,0.1
+Mexico,building,gas,2015,0.1
+Middle East,building,gas,2015,0.1
+Pakistan,building,gas,2015,0.1
+Russia,building,gas,2015,0.1
+South Africa,building,gas,2015,0.1
+South America_Northern,building,gas,2015,0.1
+South America_Southern,building,gas,2015,0.1
+South Asia,building,gas,2015,0.1
+South Korea,building,gas,2015,0.1
+Southeast Asia,building,gas,2015,0.1
+Taiwan,building,gas,2015,0.1
+Argentina,building,gas,2015,0.1
+Colombia,building,gas,2015,0.1
+Africa_Eastern,building,traditional biomass,2015,-2
+Africa_Northern,building,traditional biomass,2015,-2
+Africa_Southern,building,traditional biomass,2015,-2
+Africa_Western,building,traditional biomass,2015,-2
+Brazil,building,traditional biomass,2015,-2
+Central America and Caribbean,building,traditional biomass,2015,-2
+China,building,traditional biomass,2015,-2
+India,building,traditional biomass,2015,-2
+Indonesia,building,traditional biomass,2015,-2
+Mexico,building,traditional biomass,2015,-2
+Pakistan,building,traditional biomass,2015,-2
+South Africa,building,traditional biomass,2015,-2
+South America_Northern,building,traditional biomass,2015,-2
+South America_Southern,building,traditional biomass,2015,-2
+South Asia,building,traditional biomass,2015,-2
+Southeast Asia,building,traditional biomass,2015,-2
+Argentina,building,traditional biomass,2015,-2
+Colombia,building,traditional biomass,2015,-2

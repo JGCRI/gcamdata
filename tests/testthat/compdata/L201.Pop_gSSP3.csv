@@ -1,0 +1,706 @@
+# Population by scenario and region
+region,year,totalPop
+USA,1975,222133
+USA,1990,256971
+USA,2005,300712
+USA,2010,314242
+Africa_Eastern,1975,98152
+Africa_Eastern,1990,152395
+Africa_Eastern,2005,227408
+Africa_Eastern,2010,258513
+Africa_Northern,1975,81664
+Africa_Northern,1990,119694
+Africa_Northern,2005,153606
+Africa_Northern,2010,165907
+Africa_Southern,1975,53002
+Africa_Southern,1990,82371
+Africa_Southern,2005,120072
+Africa_Southern,2010,135522
+Africa_Western,1975,161693
+Africa_Western,1990,243864
+Africa_Western,2005,361978
+Africa_Western,2010,411864
+Australia_NZ,1975,16973
+Australia_NZ,1990,20494
+Australia_NZ,2005,24538
+Australia_NZ,2010,26637
+Brazil,1975,108224
+Brazil,1990,149650
+Brazil,2005,185987
+Brazil,2010,194946
+Canada,1975,23142
+Canada,1990,27701
+Canada,2005,32283
+Canada,2010,34017
+Central America and Caribbean,1975,44882
+Central America and Caribbean,1990,59547
+Central America and Caribbean,2005,75197
+Central America and Caribbean,2010,80249
+Central Asia,1975,52283
+Central Asia,1990,68820
+Central Asia,2005,76041
+Central Asia,2010,80114
+China,1975,919644
+China,1990,1151349
+China,2005,1314885
+China,2010,1348932
+EU-12,1975,99055
+EU-12,1990,107019
+EU-12,2005,103910
+EU-12,2010,103663
+EU-15,1975,349576
+EU-15,1990,364443
+EU-15,2005,387381
+EU-15,2010,397391
+Europe_Eastern,1975,62222
+Europe_Eastern,1990,66269
+Europe_Eastern,2005,60516
+Europe_Eastern,2010,58617
+Europe_Non_EU,1975,60758
+Europe_Non_EU,1990,78332
+Europe_Non_EU,2005,92029
+Europe_Non_EU,2010,96668
+European Free Trade Association,1975,10605
+European Free Trade Association,1990,11199
+European Free Trade Association,2005,12370
+European Free Trade Association,2010,12904
+India,1975,622097
+India,1990,873785
+India,2005,1140043
+India,2010,1224614
+Indonesia,1975,134106
+Indonesia,1990,184346
+Indonesia,2005,227303
+Indonesia,2010,239871
+Japan,1975,110808
+Japan,1990,122251
+Japan,2005,126393
+Japan,2010,126536
+Mexico,1975,60225
+Mexico,1990,84307
+Mexico,2005,106484
+Mexico,2010,113423
+Middle East,1975,78497
+Middle East,1990,132332
+Middle East,2005,190129
+Middle East,2010,215480
+Pakistan,1975,68483
+Pakistan,1990,111845
+Pakistan,2005,158645
+Pakistan,2010,173593
+Russia,1975,134233
+Russia,1990,148244
+Russia,2005,143843
+Russia,2010,142958
+South Africa,1975,25699
+South Africa,1990,36794
+South Africa,2005,47793
+South Africa,2010,50133
+South America_Northern,1975,13851
+South America_Northern,1990,20934
+South America_Northern,2005,28112
+South America_Northern,2010,30490
+South America_Southern,1975,42863
+South America_Southern,1990,59145
+South America_Southern,2005,75654
+South America_Southern,2010,80408
+South Asia,1975,111771
+South Asia,1990,155484
+South Asia,2005,216282
+South Asia,2010,231965
+South Korea,1975,34722
+South Korea,1990,42980
+South Korea,2005,47044
+South Korea,2010,48184
+Southeast Asia,1975,208938
+Southeast Asia,1990,287781
+Southeast Asia,2005,365562
+Southeast Asia,2010,388124
+Taiwan,1975,16081
+Taiwan,1990,20233
+Taiwan,2005,22728
+Taiwan,2010,23216
+Argentina,1975,26079
+Argentina,1990,32642
+Argentina,2005,38681
+Argentina,2010,40412
+Colombia,1975,23961
+Colombia,1990,33203
+Colombia,2005,43041
+Colombia,2010,46295
+USA,2015,324442
+USA,2020,332643
+USA,2025,338144
+USA,2030,341256
+USA,2035,342799
+USA,2040,342798
+USA,2045,341128
+USA,2050,338049
+USA,2055,334199
+USA,2060,329845
+USA,2065,324835
+USA,2070,318983
+USA,2075,312141
+USA,2080,304208
+USA,2085,295359
+USA,2090,285864
+USA,2095,275863
+USA,2100,265441
+Africa_Eastern,2015,294380
+Africa_Eastern,2020,334652
+Africa_Eastern,2025,378306
+Africa_Eastern,2030,425047
+Africa_Eastern,2035,472647
+Africa_Eastern,2040,521493
+Africa_Eastern,2045,571639
+Africa_Eastern,2050,623004
+Africa_Eastern,2055,673429
+Africa_Eastern,2060,722591
+Africa_Eastern,2065,770051
+Africa_Eastern,2070,816235
+Africa_Eastern,2075,861266
+Africa_Eastern,2080,904911
+Africa_Eastern,2085,946441
+Africa_Eastern,2090,985733
+Africa_Eastern,2095,1023081
+Africa_Eastern,2100,1058346
+Africa_Northern,2015,179031
+Africa_Northern,2020,192795
+Africa_Northern,2025,206536
+Africa_Northern,2030,219735
+Africa_Northern,2035,232115
+Africa_Northern,2040,244066
+Africa_Northern,2045,255879
+Africa_Northern,2050,267449
+Africa_Northern,2055,278319
+Africa_Northern,2060,288232
+Africa_Northern,2065,297317
+Africa_Northern,2070,305884
+Africa_Northern,2075,314351
+Africa_Northern,2080,323002
+Africa_Northern,2085,331831
+Africa_Northern,2090,340680
+Africa_Northern,2095,349373
+Africa_Northern,2100,357846
+Africa_Southern,2015,153652
+Africa_Southern,2020,174567
+Africa_Southern,2025,197536
+Africa_Southern,2030,222448
+Africa_Southern,2035,248109
+Africa_Southern,2040,274716
+Africa_Southern,2045,302127
+Africa_Southern,2050,330139
+Africa_Southern,2055,357781
+Africa_Southern,2060,384834
+Africa_Southern,2065,411184
+Africa_Southern,2070,437199
+Africa_Southern,2075,462580
+Africa_Southern,2080,487509
+Africa_Southern,2085,511800
+Africa_Southern,2090,535101
+Africa_Southern,2095,557673
+Africa_Southern,2100,579218
+Africa_Western,2015,470364
+Africa_Western,2020,536272
+Africa_Western,2025,609043
+Africa_Western,2030,689568
+Africa_Western,2035,774327
+Africa_Western,2040,863275
+Africa_Western,2045,955874
+Africa_Western,2050,1051258
+Africa_Western,2055,1146024
+Africa_Western,2060,1238746
+Africa_Western,2065,1329612
+Africa_Western,2070,1417579
+Africa_Western,2075,1503604
+Africa_Western,2080,1586191
+Africa_Western,2085,1665998
+Africa_Western,2090,1741078
+Africa_Western,2095,1812829
+Africa_Western,2100,1880366
+Australia_NZ,2015,28433
+Australia_NZ,2020,29890
+Australia_NZ,2025,30977
+Australia_NZ,2030,31794
+Australia_NZ,2035,32434
+Australia_NZ,2040,32934
+Australia_NZ,2045,33291
+Australia_NZ,2050,33477
+Australia_NZ,2055,33489
+Australia_NZ,2060,33336
+Australia_NZ,2065,32996
+Australia_NZ,2070,32494
+Australia_NZ,2075,31846
+Australia_NZ,2080,31046
+Australia_NZ,2085,30115
+Australia_NZ,2090,29079
+Australia_NZ,2095,27965
+Australia_NZ,2100,26769
+Brazil,2015,203994
+Brazil,2020,213252
+Brazil,2025,222220
+Brazil,2030,230452
+Brazil,2035,237514
+Brazil,2040,243654
+Brazil,2045,249061
+Brazil,2050,253654
+Brazil,2055,257249
+Brazil,2060,259958
+Brazil,2065,262026
+Brazil,2070,263731
+Brazil,2075,265243
+Brazil,2080,266806
+Brazil,2085,268584
+Brazil,2090,270692
+Brazil,2095,273259
+Brazil,2100,276286
+Canada,2015,35502
+Canada,2020,36669
+Canada,2025,37402
+Canada,2030,37812
+Canada,2035,37980
+Canada,2040,37963
+Canada,2045,37787
+Canada,2050,37456
+Canada,2055,37001
+Canada,2060,36445
+Canada,2065,35757
+Canada,2070,34945
+Canada,2075,34005
+Canada,2080,32941
+Canada,2085,31767
+Canada,2090,30511
+Canada,2095,29203
+Canada,2100,27846
+Central America and Caribbean,2015,85611
+Central America and Caribbean,2020,91589
+Central America and Caribbean,2025,97924
+Central America and Caribbean,2030,104260
+Central America and Caribbean,2035,110312
+Central America and Caribbean,2040,116182
+Central America and Caribbean,2045,121955
+Central America and Caribbean,2050,127634
+Central America and Caribbean,2055,133059
+Central America and Caribbean,2060,138210
+Central America and Caribbean,2065,143222
+Central America and Caribbean,2070,148158
+Central America and Caribbean,2075,153009
+Central America and Caribbean,2080,157800
+Central America and Caribbean,2085,162549
+Central America and Caribbean,2090,167283
+Central America and Caribbean,2095,172020
+Central America and Caribbean,2100,176779
+Central Asia,2015,84399
+Central Asia,2020,88896
+Central Asia,2025,93207
+Central Asia,2030,97049
+Central Asia,2035,100413
+Central Asia,2040,103564
+Central Asia,2045,106561
+Central Asia,2050,109326
+Central Asia,2055,111693
+Central Asia,2060,113677
+Central Asia,2065,115426
+Central Asia,2070,117045
+Central Asia,2075,118618
+Central Asia,2080,120169
+Central Asia,2085,121706
+Central Asia,2090,123229
+Central Asia,2095,124729
+Central Asia,2100,126207
+China,2015,1373523
+China,2020,1393838
+China,2025,1405564
+China,2030,1407385
+China,2035,1397463
+China,2040,1377227
+China,2045,1349371
+China,2050,1316234
+China,2055,1279034
+China,2060,1240209
+China,2065,1202211
+China,2070,1166392
+China,2075,1132939
+China,2080,1103013
+China,2085,1078159
+China,2090,1059306
+China,2095,1045953
+China,2100,1037012
+EU-12,2015,103133
+EU-12,2020,102218
+EU-12,2025,100768
+EU-12,2030,98745
+EU-12,2035,96269
+EU-12,2040,93577
+EU-12,2045,90826
+EU-12,2050,88018
+EU-12,2055,85071
+EU-12,2060,81912
+EU-12,2065,78541
+EU-12,2070,75151
+EU-12,2075,71972
+EU-12,2080,69152
+EU-12,2085,66693
+EU-12,2090,64513
+EU-12,2095,62496
+EU-12,2100,60564
+EU-15,2015,403127
+EU-15,2020,404890
+EU-15,2025,403689
+EU-15,2030,400341
+EU-15,2035,395758
+EU-15,2040,389930
+EU-15,2045,382508
+EU-15,2050,373237
+EU-15,2055,362481
+EU-15,2060,350783
+EU-15,2065,338547
+EU-15,2070,326239
+EU-15,2075,313974
+EU-15,2080,301696
+EU-15,2085,289345
+EU-15,2090,276928
+EU-15,2095,264404
+EU-15,2100,251749
+Europe_Eastern,2015,57006
+Europe_Eastern,2020,55625
+Europe_Eastern,2025,54325
+Europe_Eastern,2030,53080
+Europe_Eastern,2035,51903
+Europe_Eastern,2040,50955
+Europe_Eastern,2045,50218
+Europe_Eastern,2050,49656
+Europe_Eastern,2055,49215
+Europe_Eastern,2060,48898
+Europe_Eastern,2065,48683
+Europe_Eastern,2070,48612
+Europe_Eastern,2075,48724
+Europe_Eastern,2080,48986
+Europe_Eastern,2085,49339
+Europe_Eastern,2090,49737
+Europe_Eastern,2095,50143
+Europe_Eastern,2100,50534
+Europe_Non_EU,2015,101482
+Europe_Non_EU,2020,106561
+Europe_Non_EU,2025,111591
+Europe_Non_EU,2030,116411
+Europe_Non_EU,2035,120768
+Europe_Non_EU,2040,124829
+Europe_Non_EU,2045,128839
+Europe_Non_EU,2050,132844
+Europe_Non_EU,2055,136695
+Europe_Non_EU,2060,140380
+Europe_Non_EU,2065,143882
+Europe_Non_EU,2070,147376
+Europe_Non_EU,2075,151040
+Europe_Non_EU,2080,154957
+Europe_Non_EU,2085,159074
+Europe_Non_EU,2090,163343
+Europe_Non_EU,2095,167720
+Europe_Non_EU,2100,172179
+European Free Trade Association,2015,13319
+European Free Trade Association,2020,13611
+European Free Trade Association,2025,13806
+European Free Trade Association,2030,13918
+European Free Trade Association,2035,13960
+European Free Trade Association,2040,13933
+European Free Trade Association,2045,13846
+European Free Trade Association,2050,13697
+European Free Trade Association,2055,13494
+European Free Trade Association,2060,13242
+European Free Trade Association,2065,12943
+European Free Trade Association,2070,12616
+European Free Trade Association,2075,12266
+European Free Trade Association,2080,11890
+European Free Trade Association,2085,11487
+European Free Trade Association,2090,11060
+European Free Trade Association,2095,10616
+European Free Trade Association,2100,10157
+India,2015,1315803
+India,2020,1412090
+India,2025,1508204
+India,2030,1603709
+India,2035,1696027
+India,2040,1787902
+India,2045,1880145
+India,2050,1970550
+India,2055,2054627
+India,2060,2131454
+India,2065,2202087
+India,2070,2268342
+India,2075,2331894
+India,2080,2392625
+India,2085,2450023
+India,2090,2504988
+India,2095,2557966
+India,2100,2608619
+Indonesia,2015,252270
+Indonesia,2020,264214
+Indonesia,2025,275223
+Indonesia,2030,285082
+Indonesia,2035,293068
+Indonesia,2040,299273
+Indonesia,2045,303860
+Indonesia,2050,306913
+Indonesia,2055,308368
+Indonesia,2060,308460
+Indonesia,2065,307473
+Indonesia,2070,305783
+Indonesia,2075,303636
+Indonesia,2080,301292
+Indonesia,2085,298842
+Indonesia,2090,296382
+Indonesia,2095,293966
+Indonesia,2100,291627
+Japan,2015,125556
+Japan,2020,123211
+Japan,2025,119740
+Japan,2030,115474
+Japan,2035,110794
+Japan,2040,105844
+Japan,2045,100732
+Japan,2050,95502
+Japan,2055,90231
+Japan,2060,84811
+Japan,2065,79273
+Japan,2070,73790
+Japan,2075,68509
+Japan,2080,63563
+Japan,2085,58910
+Japan,2090,54516
+Japan,2095,50329
+Japan,2100,46331
+Mexico,2015,120794
+Mexico,2020,128799
+Mexico,2025,137178
+Mexico,2030,145518
+Mexico,2035,153364
+Mexico,2040,160857
+Mexico,2045,168123
+Mexico,2050,175157
+Mexico,2055,181808
+Mexico,2060,188087
+Mexico,2065,194252
+Mexico,2070,200418
+Mexico,2075,206604
+Mexico,2080,212751
+Mexico,2085,218856
+Mexico,2090,224984
+Mexico,2095,231239
+Mexico,2100,237649
+Middle East,2015,240683
+Middle East,2020,266388
+Middle East,2025,292441
+Middle East,2030,318863
+Middle East,2035,345061
+Middle East,2040,371488
+Middle East,2045,398193
+Middle East,2050,424894
+Middle East,2055,450821
+Middle East,2060,475800
+Middle East,2065,499864
+Middle East,2070,523583
+Middle East,2075,547344
+Middle East,2080,571346
+Middle East,2085,595586
+Middle East,2090,619806
+Middle East,2095,643762
+Middle East,2100,667400
+Pakistan,2015,191535
+Pakistan,2020,212332
+Pakistan,2025,234369
+Pakistan,2030,256606
+Pakistan,2035,278293
+Pakistan,2040,300368
+Pakistan,2045,323436
+Pakistan,2050,347138
+Pakistan,2055,370239
+Pakistan,2060,391963
+Pakistan,2065,412638
+Pakistan,2070,432943
+Pakistan,2075,453274
+Pakistan,2080,473703
+Pakistan,2085,493954
+Pakistan,2090,513592
+Pakistan,2095,532592
+Pakistan,2100,551068
+Russia,2015,142623
+Russia,2020,141783
+Russia,2025,140160
+Russia,2030,138271
+Russia,2035,136476
+Russia,2040,135257
+Russia,2045,134598
+Russia,2050,134315
+Russia,2055,134319
+Russia,2060,134629
+Russia,2065,135239
+Russia,2070,136352
+Russia,2075,138003
+Russia,2080,140019
+Russia,2085,142230
+Russia,2090,144524
+Russia,2095,146816
+Russia,2100,149032
+South Africa,2015,52248
+South Africa,2020,54009
+South Africa,2025,55564
+South Africa,2030,57007
+South Africa,2035,58268
+South Africa,2040,59423
+South Africa,2045,60506
+South Africa,2050,61625
+South Africa,2055,62671
+South Africa,2060,63633
+South Africa,2065,64590
+South Africa,2070,65532
+South Africa,2075,66444
+South Africa,2080,67359
+South Africa,2085,68335
+South Africa,2090,69283
+South Africa,2095,70227
+South Africa,2100,71179
+South America_Northern,2015,32951
+South America_Northern,2020,35523
+South America_Northern,2025,38073
+South America_Northern,2030,40570
+South America_Northern,2035,42901
+South America_Northern,2040,45109
+South America_Northern,2045,47228
+South America_Northern,2050,49264
+South America_Northern,2055,51168
+South America_Northern,2060,52932
+South America_Northern,2065,54558
+South America_Northern,2070,56065
+South America_Northern,2075,57480
+South America_Northern,2080,58841
+South America_Northern,2085,60175
+South America_Northern,2090,61494
+South America_Northern,2095,62803
+South America_Northern,2100,64099
+South America_Southern,2015,85401
+South America_Southern,2020,90839
+South America_Southern,2025,96483
+South America_Southern,2030,102038
+South America_Southern,2035,107212
+South America_Southern,2040,112075
+South America_Southern,2045,116705
+South America_Southern,2050,121147
+South America_Southern,2055,125305
+South America_Southern,2060,129178
+South America_Southern,2065,132906
+South America_Southern,2070,136522
+South America_Southern,2075,140064
+South America_Southern,2080,143587
+South America_Southern,2085,147111
+South America_Southern,2090,150691
+South America_Southern,2095,154333
+South America_Southern,2100,158055
+South Asia,2015,250412
+South Asia,2020,271562
+South Asia,2025,294094
+South Asia,2030,316872
+South Asia,2035,338803
+South Asia,2040,360289
+South Asia,2045,381679
+South Asia,2050,402769
+South Asia,2055,422830
+South Asia,2060,441537
+South Asia,2065,459209
+South Asia,2070,476370
+South Asia,2075,493214
+South Asia,2080,509815
+South Asia,2085,526283
+South Asia,2090,542579
+South Asia,2095,558725
+South Asia,2100,574551
+South Korea,2015,48744
+South Korea,2020,48908
+South Korea,2025,48669
+South Korea,2030,48007
+South Korea,2035,46937
+South Korea,2040,45420
+South Korea,2045,43470
+South Korea,2050,41158
+South Korea,2055,38632
+South Korea,2060,36029
+South Korea,2065,33440
+South Korea,2070,30920
+South Korea,2075,28501
+South Korea,2080,26201
+South Korea,2085,24021
+South Korea,2090,21986
+South Korea,2095,20127
+South Korea,2100,18453
+Southeast Asia,2015,411182
+Southeast Asia,2020,435235
+Southeast Asia,2025,458938
+Southeast Asia,2030,481280
+Southeast Asia,2035,500775
+Southeast Asia,2040,518124
+Southeast Asia,2045,533960
+Southeast Asia,2050,548973
+Southeast Asia,2055,562812
+Southeast Asia,2060,575558
+Southeast Asia,2065,587122
+Southeast Asia,2070,598071
+Southeast Asia,2075,608764
+Southeast Asia,2080,619555
+Southeast Asia,2085,630680
+Southeast Asia,2090,642041
+Southeast Asia,2095,653570
+Southeast Asia,2100,665103
+Taiwan,2015,23216
+Taiwan,2020,23216
+Taiwan,2025,23216
+Taiwan,2030,23216
+Taiwan,2035,23216
+Taiwan,2040,23216
+Taiwan,2045,23216
+Taiwan,2050,23216
+Taiwan,2055,23216
+Taiwan,2060,23216
+Taiwan,2065,23216
+Taiwan,2070,23216
+Taiwan,2075,23216
+Taiwan,2080,23216
+Taiwan,2085,23216
+Taiwan,2090,23216
+Taiwan,2095,23216
+Taiwan,2100,23216
+Argentina,2015,42262
+Argentina,2020,44244
+Argentina,2025,46284
+Argentina,2030,48338
+Argentina,2035,50310
+Argentina,2040,52239
+Argentina,2045,54147
+Argentina,2050,56052
+Argentina,2055,57896
+Argentina,2060,59659
+Argentina,2065,61358
+Argentina,2070,63018
+Argentina,2075,64681
+Argentina,2080,66388
+Argentina,2085,68154
+Argentina,2090,69991
+Argentina,2095,71893
+Argentina,2100,73854
+Colombia,2015,49642
+Colombia,2020,53123
+Colombia,2025,56614
+Colombia,2030,60051
+Colombia,2035,63277
+Colombia,2040,66346
+Colombia,2045,69304
+Colombia,2050,72164
+Colombia,2055,74865
+Colombia,2060,77408
+Colombia,2065,79815
+Colombia,2070,82097
+Colombia,2075,84273
+Colombia,2080,86361
+Colombia,2085,88403
+Colombia,2090,90438
+Colombia,2095,92491
+Colombia,2100,94553

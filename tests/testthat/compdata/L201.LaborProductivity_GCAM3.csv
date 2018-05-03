@@ -1,0 +1,674 @@
+# Per capita GDP growth rate is used for labor productivity growth rate
+region,year,laborproductivity
+USA,1990,0.02415
+USA,2005,0.01904
+USA,2010,-0.00669
+USA,2015,0.01398
+USA,2020,0.01273
+USA,2025,0.01152
+USA,2030,0.01119
+USA,2035,0.01076
+USA,2040,0.01274
+USA,2045,0.01164
+USA,2050,0.01364
+USA,2055,0.01151
+USA,2060,0.01311
+USA,2065,0.01258
+USA,2070,0.01377
+USA,2075,0.01368
+USA,2080,0.01372
+USA,2085,0.01315
+USA,2090,0.01459
+USA,2095,0.01454
+USA,2100,0.01449
+Africa_Eastern,1990,-6e-5
+Africa_Eastern,2005,0.01302
+Africa_Eastern,2010,0.03657
+Africa_Eastern,2015,0.06485
+Africa_Eastern,2020,0.0246
+Africa_Eastern,2025,0.02165
+Africa_Eastern,2030,0.02295
+Africa_Eastern,2035,0.02371
+Africa_Eastern,2040,0.02788
+Africa_Eastern,2045,0.03026
+Africa_Eastern,2050,0.03442
+Africa_Eastern,2055,0.03537
+Africa_Eastern,2060,0.03852
+Africa_Eastern,2065,0.03891
+Africa_Eastern,2070,0.04155
+Africa_Eastern,2075,0.03973
+Africa_Eastern,2080,0.03879
+Africa_Eastern,2085,0.0368
+Africa_Eastern,2090,0.03712
+Africa_Eastern,2095,0.03723
+Africa_Eastern,2100,0.03245
+Africa_Northern,1990,0.02147
+Africa_Northern,2005,0.02153
+Africa_Northern,2010,0.02958
+Africa_Northern,2015,0.05596
+Africa_Northern,2020,0.02212
+Africa_Northern,2025,0.02122
+Africa_Northern,2030,0.01856
+Africa_Northern,2035,0.01602
+Africa_Northern,2040,0.01569
+Africa_Northern,2045,0.01478
+Africa_Northern,2050,0.0168
+Africa_Northern,2055,0.01695
+Africa_Northern,2060,0.01993
+Africa_Northern,2065,0.0204
+Africa_Northern,2070,0.02286
+Africa_Northern,2075,0.02123
+Africa_Northern,2080,0.02073
+Africa_Northern,2085,0.01944
+Africa_Northern,2090,0.02051
+Africa_Northern,2095,0.02153
+Africa_Northern,2100,0.01765
+Africa_Southern,1990,-0.00354
+Africa_Southern,2005,0.00499
+Africa_Southern,2010,0.05139
+Africa_Southern,2015,0.02493
+Africa_Southern,2020,0.01937
+Africa_Southern,2025,0.01107
+Africa_Southern,2030,0.00935
+Africa_Southern,2035,0.00936
+Africa_Southern,2040,0.01557
+Africa_Southern,2045,0.021
+Africa_Southern,2050,0.02765
+Africa_Southern,2055,0.0304
+Africa_Southern,2060,0.03457
+Africa_Southern,2065,0.03557
+Africa_Southern,2070,0.03865
+Africa_Southern,2075,0.03725
+Africa_Southern,2080,0.03668
+Africa_Southern,2085,0.03494
+Africa_Southern,2090,0.03554
+Africa_Southern,2095,0.0359
+Africa_Southern,2100,0.03142
+Africa_Western,1990,-0.01673
+Africa_Western,2005,0.00991
+Africa_Western,2010,0.03365
+Africa_Western,2015,-0.02015
+Africa_Western,2020,0.0216
+Africa_Western,2025,0.02454
+Africa_Western,2030,0.02438
+Africa_Western,2035,0.02357
+Africa_Western,2040,0.02603
+Africa_Western,2045,0.02742
+Africa_Western,2050,0.03112
+Africa_Western,2055,0.03257
+Africa_Western,2060,0.03588
+Africa_Western,2065,0.03606
+Africa_Western,2070,0.03853
+Africa_Western,2075,0.03666
+Africa_Western,2080,0.03566
+Africa_Western,2085,0.03364
+Africa_Western,2090,0.03391
+Africa_Western,2095,0.03391
+Africa_Western,2100,0.02904
+Australia_NZ,1990,0.01637
+Australia_NZ,2005,0.02074
+Australia_NZ,2010,0.01577
+Australia_NZ,2015,0.01339
+Australia_NZ,2020,0.01299
+Australia_NZ,2025,0.01185
+Australia_NZ,2030,0.01222
+Australia_NZ,2035,0.0116
+Australia_NZ,2040,0.0131
+Australia_NZ,2045,0.01274
+Australia_NZ,2050,0.01301
+Australia_NZ,2055,0.01236
+Australia_NZ,2060,0.01293
+Australia_NZ,2065,0.01178
+Australia_NZ,2070,0.01247
+Australia_NZ,2075,0.01092
+Australia_NZ,2080,0.01138
+Australia_NZ,2085,0.01099
+Australia_NZ,2090,0.01171
+Australia_NZ,2095,0.01421
+Australia_NZ,2100,0.01178
+Brazil,1990,0.01046
+Brazil,2005,0.01142
+Brazil,2010,0.03416
+Brazil,2015,-0.02882
+Brazil,2020,0.02122
+Brazil,2025,0.01741
+Brazil,2030,0.01538
+Brazil,2035,0.01255
+Brazil,2040,0.01514
+Brazil,2045,0.01413
+Brazil,2050,0.01683
+Brazil,2055,0.01567
+Brazil,2060,0.01941
+Brazil,2065,0.02042
+Brazil,2070,0.02456
+Brazil,2075,0.02594
+Brazil,2080,0.027
+Brazil,2085,0.02642
+Brazil,2090,0.02514
+Brazil,2095,0.02254
+Brazil,2100,0.02293
+Canada,1990,0.01774
+Canada,2005,0.01702
+Canada,2010,0.0031
+Canada,2015,0.01569
+Canada,2020,0.01337
+Canada,2025,0.01144
+Canada,2030,0.01123
+Canada,2035,0.01108
+Canada,2040,0.01282
+Canada,2045,0.01259
+Canada,2050,0.01452
+Canada,2055,0.01261
+Canada,2060,0.01386
+Canada,2065,0.01266
+Canada,2070,0.01384
+Canada,2075,0.01305
+Canada,2080,0.01282
+Canada,2085,0.01263
+Canada,2090,0.01359
+Canada,2095,0.01521
+Canada,2100,0.01371
+Central America and Caribbean,1990,0.00527
+Central America and Caribbean,2005,0.01526
+Central America and Caribbean,2010,0.02865
+Central America and Caribbean,2015,0.06165
+Central America and Caribbean,2020,0.01672
+Central America and Caribbean,2025,0.01953
+Central America and Caribbean,2030,0.02122
+Central America and Caribbean,2035,0.02035
+Central America and Caribbean,2040,0.02406
+Central America and Caribbean,2045,0.02403
+Central America and Caribbean,2050,0.02724
+Central America and Caribbean,2055,0.02561
+Central America and Caribbean,2060,0.02915
+Central America and Caribbean,2065,0.03021
+Central America and Caribbean,2070,0.03401
+Central America and Caribbean,2075,0.03446
+Central America and Caribbean,2080,0.03523
+Central America and Caribbean,2085,0.03433
+Central America and Caribbean,2090,0.03252
+Central America and Caribbean,2095,0.0292
+Central America and Caribbean,2100,0.02888
+Central Asia,1990,0.00961
+Central Asia,2005,-0.00235
+Central Asia,2010,0.07118
+Central Asia,2015,0.0533
+Central Asia,2020,0.04254
+Central Asia,2025,0.04087
+Central Asia,2030,0.03573
+Central Asia,2035,0.03262
+Central Asia,2040,0.03399
+Central Asia,2045,0.03301
+Central Asia,2050,0.0329
+Central Asia,2055,0.03033
+Central Asia,2060,0.02931
+Central Asia,2065,0.02925
+Central Asia,2070,0.02973
+Central Asia,2075,0.02931
+Central Asia,2080,0.02924
+Central Asia,2085,0.02928
+Central Asia,2090,0.02853
+Central Asia,2095,0.02847
+Central Asia,2100,0.02701
+China,1990,0.07072
+China,2005,0.08337
+China,2010,0.10276
+China,2015,0.06511
+China,2020,0.05894
+China,2025,0.05228
+China,2030,0.04773
+China,2035,0.04366
+China,2040,0.03995
+China,2045,0.0365
+China,2050,0.0339
+China,2055,0.0306
+China,2060,0.02957
+China,2065,0.0283
+China,2070,0.02917
+China,2075,0.02912
+China,2080,0.02907
+China,2085,0.02775
+China,2090,0.02502
+China,2095,0.01871
+China,2100,0.0191
+EU-12,1990,0.02136
+EU-12,2005,0.0234
+EU-12,2010,0.03186
+EU-12,2015,0.03228
+EU-12,2020,0.03183
+EU-12,2025,0.02611
+EU-12,2030,0.02707
+EU-12,2035,0.02467
+EU-12,2040,0.03059
+EU-12,2045,0.02827
+EU-12,2050,0.03198
+EU-12,2055,0.02607
+EU-12,2060,0.02938
+EU-12,2065,0.02672
+EU-12,2070,0.03002
+EU-12,2075,0.02745
+EU-12,2080,0.0269
+EU-12,2085,0.02505
+EU-12,2090,0.02592
+EU-12,2095,0.0268
+EU-12,2100,0.02469
+EU-15,1990,0.02353
+EU-15,2005,0.01704
+EU-15,2010,0.00346
+EU-15,2015,0.01039
+EU-15,2020,0.01236
+EU-15,2025,0.01188
+EU-15,2030,0.0118
+EU-15,2035,0.01042
+EU-15,2040,0.01166
+EU-15,2045,0.01095
+EU-15,2050,0.01233
+EU-15,2055,0.01104
+EU-15,2060,0.01283
+EU-15,2065,0.01187
+EU-15,2070,0.01398
+EU-15,2075,0.01245
+EU-15,2080,0.01273
+EU-15,2085,0.0114
+EU-15,2090,0.01266
+EU-15,2095,0.01376
+EU-15,2100,0.00772
+Europe_Eastern,1990,0.02286
+Europe_Eastern,2005,-0.01712
+Europe_Eastern,2010,0.03412
+Europe_Eastern,2015,0.12038
+Europe_Eastern,2020,0.03642
+Europe_Eastern,2025,0.03372
+Europe_Eastern,2030,0.03427
+Europe_Eastern,2035,0.03369
+Europe_Eastern,2040,0.03642
+Europe_Eastern,2045,0.03621
+Europe_Eastern,2050,0.03737
+Europe_Eastern,2055,0.03554
+Europe_Eastern,2060,0.03422
+Europe_Eastern,2065,0.03308
+Europe_Eastern,2070,0.03254
+Europe_Eastern,2075,0.03137
+Europe_Eastern,2080,0.03054
+Europe_Eastern,2085,0.03017
+Europe_Eastern,2090,0.02926
+Europe_Eastern,2095,0.02971
+Europe_Eastern,2100,0.02792
+Europe_Non_EU,1990,0.02518
+Europe_Non_EU,2005,0.02093
+Europe_Non_EU,2010,0.021
+Europe_Non_EU,2015,0.12019
+Europe_Non_EU,2020,0.0321
+Europe_Non_EU,2025,0.02806
+Europe_Non_EU,2030,0.0248
+Europe_Non_EU,2035,0.0207
+Europe_Non_EU,2040,0.02089
+Europe_Non_EU,2045,0.01912
+Europe_Non_EU,2050,0.02007
+Europe_Non_EU,2055,0.01813
+Europe_Non_EU,2060,0.01899
+Europe_Non_EU,2065,0.01707
+Europe_Non_EU,2070,0.01906
+Europe_Non_EU,2075,0.01753
+Europe_Non_EU,2080,0.01755
+Europe_Non_EU,2085,0.01606
+Europe_Non_EU,2090,0.01686
+Europe_Non_EU,2095,0.01742
+Europe_Non_EU,2100,0.01159
+European Free Trade Association,1990,0.02067
+European Free Trade Association,2005,0.01337
+European Free Trade Association,2010,0.00808
+European Free Trade Association,2015,-0.06428
+European Free Trade Association,2020,0.01323
+European Free Trade Association,2025,0.00917
+European Free Trade Association,2030,0.00857
+European Free Trade Association,2035,0.00693
+European Free Trade Association,2040,0.00835
+European Free Trade Association,2045,0.00835
+European Free Trade Association,2050,0.01089
+European Free Trade Association,2055,0.01013
+European Free Trade Association,2060,0.01162
+European Free Trade Association,2065,0.01097
+European Free Trade Association,2070,0.01367
+European Free Trade Association,2075,0.01245
+European Free Trade Association,2080,0.01281
+European Free Trade Association,2085,0.01138
+European Free Trade Association,2090,0.01249
+European Free Trade Association,2095,0.01351
+European Free Trade Association,2100,0.00755
+India,1990,0.02406
+India,2005,0.04181
+India,2010,0.06086
+India,2015,0.05302
+India,2020,0.05145
+India,2025,0.05007
+India,2030,0.04823
+India,2035,0.04642
+India,2040,0.04468
+India,2045,0.04253
+India,2050,0.04081
+India,2055,0.03993
+India,2060,0.03772
+India,2065,0.03634
+India,2070,0.03447
+India,2075,0.03346
+India,2080,0.03244
+India,2085,0.03189
+India,2090,0.03236
+India,2095,0.03241
+India,2100,0.03049
+Indonesia,1990,0.04729
+Indonesia,2005,0.02925
+Indonesia,2010,0.04179
+Indonesia,2015,0.03059
+Indonesia,2020,0.06309
+Indonesia,2025,0.05986
+Indonesia,2030,0.05325
+Indonesia,2035,0.0477
+Indonesia,2040,0.04391
+Indonesia,2045,0.04141
+Indonesia,2050,0.03849
+Indonesia,2055,0.0381
+Indonesia,2060,0.03555
+Indonesia,2065,0.03406
+Indonesia,2070,0.03005
+Indonesia,2075,0.0299
+Indonesia,2080,0.02762
+Indonesia,2085,0.0274
+Indonesia,2090,0.02612
+Indonesia,2095,0.02592
+Indonesia,2100,0.02408
+Japan,1990,0.0384
+Japan,2005,0.0092
+Japan,2010,0.00456
+Japan,2015,0.01101
+Japan,2020,0.01088
+Japan,2025,0.01162
+Japan,2030,0.01159
+Japan,2035,0.01171
+Japan,2040,0.01241
+Japan,2045,0.0125
+Japan,2050,0.01307
+Japan,2055,0.01309
+Japan,2060,0.01336
+Japan,2065,0.01365
+Japan,2070,0.01354
+Japan,2075,0.01301
+Japan,2080,0.01326
+Japan,2085,0.01274
+Japan,2090,0.01256
+Japan,2095,0.01244
+Japan,2100,0.01232
+Mexico,1990,0.01273
+Mexico,2005,0.01338
+Mexico,2010,0.00593
+Mexico,2015,0.04672
+Mexico,2020,0.01168
+Mexico,2025,0.01372
+Mexico,2030,0.01586
+Mexico,2035,0.01514
+Mexico,2040,0.01762
+Mexico,2045,0.01746
+Mexico,2050,0.02134
+Mexico,2055,0.02009
+Mexico,2060,0.02357
+Mexico,2065,0.02483
+Mexico,2070,0.02841
+Mexico,2075,0.02892
+Mexico,2080,0.02984
+Mexico,2085,0.02911
+Mexico,2090,0.02772
+Mexico,2095,0.02476
+Mexico,2100,0.02471
+Middle East,1990,-0.01304
+Middle East,2005,0.01895
+Middle East,2010,0.02304
+Middle East,2015,0.0202
+Middle East,2020,0.02035
+Middle East,2025,0.01899
+Middle East,2030,0.01834
+Middle East,2035,0.01625
+Middle East,2040,0.01819
+Middle East,2045,0.01634
+Middle East,2050,0.01772
+Middle East,2055,0.01457
+Middle East,2060,0.01662
+Middle East,2065,0.01545
+Middle East,2070,0.01847
+Middle East,2075,0.01724
+Middle East,2080,0.01891
+Middle East,2085,0.01779
+Middle East,2090,0.01814
+Middle East,2095,0.01729
+Middle East,2100,0.01706
+Pakistan,1990,0.02916
+Pakistan,2005,0.01872
+Pakistan,2010,0.01152
+Pakistan,2015,0.11601
+Pakistan,2020,0.0282
+Pakistan,2025,0.03624
+Pakistan,2030,0.04171
+Pakistan,2035,0.04418
+Pakistan,2040,0.04501
+Pakistan,2045,0.04614
+Pakistan,2050,0.04548
+Pakistan,2055,0.04682
+Pakistan,2060,0.04564
+Pakistan,2065,0.04527
+Pakistan,2070,0.0422
+Pakistan,2075,0.04148
+Pakistan,2080,0.03819
+Pakistan,2085,0.03691
+Pakistan,2090,0.03505
+Pakistan,2095,0.0343
+Pakistan,2100,0.03186
+Russia,1990,0.0173
+Russia,2005,-0.0044
+Russia,2010,0.03807
+Russia,2015,0.02151
+Russia,2020,0.0317
+Russia,2025,0.02785
+Russia,2030,0.0285
+Russia,2035,0.02651
+Russia,2040,0.02765
+Russia,2045,0.02593
+Russia,2050,0.02635
+Russia,2055,0.02517
+Russia,2060,0.026
+Russia,2065,0.02514
+Russia,2070,0.02513
+Russia,2075,0.02438
+Russia,2080,0.0238
+Russia,2085,0.02395
+Russia,2090,0.0237
+Russia,2095,0.02473
+Russia,2100,0.02324
+South Africa,1990,-0.00461
+South Africa,2005,0.00605
+South Africa,2010,0.02238
+South Africa,2015,-6.1e-4
+South Africa,2020,0.01732
+South Africa,2025,0.01406
+South Africa,2030,0.01059
+South Africa,2035,0.00878
+South Africa,2040,0.00884
+South Africa,2045,0.0079
+South Africa,2050,0.00975
+South Africa,2055,0.00993
+South Africa,2060,0.01311
+South Africa,2065,0.01376
+South Africa,2070,0.01691
+South Africa,2075,0.01623
+South Africa,2080,0.01648
+South Africa,2085,0.01546
+South Africa,2090,0.01683
+South Africa,2095,0.01807
+South Africa,2100,0.01457
+South America_Northern,1990,-0.01421
+South America_Northern,2005,0.0026
+South America_Northern,2010,0.01975
+South America_Northern,2015,-0.05403
+South America_Northern,2020,0.00644
+South America_Northern,2025,0.01318
+South America_Northern,2030,0.01505
+South America_Northern,2035,0.01507
+South America_Northern,2040,0.01774
+South America_Northern,2045,0.01768
+South America_Northern,2050,0.02116
+South America_Northern,2055,0.01972
+South America_Northern,2060,0.02321
+South America_Northern,2065,0.02387
+South America_Northern,2070,0.0274
+South America_Northern,2075,0.02792
+South America_Northern,2080,0.02901
+South America_Northern,2085,0.02847
+South America_Northern,2090,0.02698
+South America_Northern,2095,0.02394
+South America_Northern,2100,0.02399
+South America_Southern,1990,0.00426
+South America_Southern,2005,0.02594
+South America_Southern,2010,0.03326
+South America_Southern,2015,0.06767
+South America_Southern,2020,0.02622
+South America_Southern,2025,0.02448
+South America_Southern,2030,0.02295
+South America_Southern,2035,0.01997
+South America_Southern,2040,0.02236
+South America_Southern,2045,0.02143
+South America_Southern,2050,0.02406
+South America_Southern,2055,0.02194
+South America_Southern,2060,0.02503
+South America_Southern,2065,0.02588
+South America_Southern,2070,0.02946
+South America_Southern,2075,0.02966
+South America_Southern,2080,0.03039
+South America_Southern,2085,0.02948
+South America_Southern,2090,0.02779
+South America_Southern,2095,0.02463
+South America_Southern,2100,0.02449
+South Asia,1990,0.01794
+South Asia,2005,0.0245
+South Asia,2010,0.04555
+South Asia,2015,0.12717
+South Asia,2020,0.05578
+South Asia,2025,0.05146
+South Asia,2030,0.04787
+South Asia,2035,0.04414
+South Asia,2040,0.04264
+South Asia,2045,0.04272
+South Asia,2050,0.04205
+South Asia,2055,0.04349
+South Asia,2060,0.04254
+South Asia,2065,0.04217
+South Asia,2070,0.03919
+South Asia,2075,0.03961
+South Asia,2080,0.03734
+South Asia,2085,0.0371
+South Asia,2090,0.03577
+South Asia,2095,0.03551
+South Asia,2100,0.03347
+South Korea,1990,0.07827
+South Korea,2005,0.05114
+South Korea,2010,0.03957
+South Korea,2015,0.01433
+South Korea,2020,0.01474
+South Korea,2025,0.01496
+South Korea,2030,0.01524
+South Korea,2035,0.01562
+South Korea,2040,0.01759
+South Korea,2045,0.01744
+South Korea,2050,0.01838
+South Korea,2055,0.01702
+South Korea,2060,0.01814
+South Korea,2065,0.01688
+South Korea,2070,0.01811
+South Korea,2075,0.01688
+South Korea,2080,0.01713
+South Korea,2085,0.01583
+South Korea,2090,0.01707
+South Korea,2095,0.01832
+South Korea,2100,0.01649
+Southeast Asia,1990,0.03448
+Southeast Asia,2005,0.03495
+Southeast Asia,2010,0.03437
+Southeast Asia,2015,0.03837
+Southeast Asia,2020,0.04239
+Southeast Asia,2025,0.04035
+Southeast Asia,2030,0.03986
+Southeast Asia,2035,0.03815
+Southeast Asia,2040,0.03678
+Southeast Asia,2045,0.0365
+Southeast Asia,2050,0.0356
+Southeast Asia,2055,0.03609
+Southeast Asia,2060,0.03467
+Southeast Asia,2065,0.03401
+Southeast Asia,2070,0.03174
+Southeast Asia,2075,0.03203
+Southeast Asia,2080,0.03033
+Southeast Asia,2085,0.02994
+Southeast Asia,2090,0.02847
+Southeast Asia,2095,0.02674
+Southeast Asia,2100,0.02546
+Taiwan,1990,0.07042
+Taiwan,2005,0.04514
+Taiwan,2010,0.03277
+Taiwan,2015,0.07589
+Taiwan,2020,0.04287
+Taiwan,2025,0.02815
+Taiwan,2030,0.02384
+Taiwan,2035,0.02222
+Taiwan,2040,0.01934
+Taiwan,2045,0.01697
+Taiwan,2050,0.0134
+Taiwan,2055,0.01241
+Taiwan,2060,0.0115
+Taiwan,2065,0.01828
+Taiwan,2070,0.01562
+Taiwan,2075,0.0155
+Taiwan,2080,0.01287
+Taiwan,2085,0.01172
+Taiwan,2090,0.00987
+Taiwan,2095,0.00919
+Taiwan,2100,0.00712
+Argentina,1990,-0.01549
+Argentina,2005,0.02519
+Argentina,2010,0.04693
+Argentina,2015,0.04411
+Argentina,2020,0.0197
+Argentina,2025,0.01914
+Argentina,2030,0.01919
+Argentina,2035,0.01688
+Argentina,2040,0.01743
+Argentina,2045,0.01521
+Argentina,2050,0.01785
+Argentina,2055,0.01602
+Argentina,2060,0.01925
+Argentina,2065,0.02009
+Argentina,2070,0.02374
+Argentina,2075,0.02395
+Argentina,2080,0.02488
+Argentina,2085,0.02412
+Argentina,2090,0.02271
+Argentina,2095,0.01981
+Argentina,2100,0.01983
+Colombia,1990,0.0196
+Colombia,2005,0.0121
+Colombia,2010,0.02966
+Colombia,2015,0.06138
+Colombia,2020,0.01855
+Colombia,2025,0.01242
+Colombia,2030,0.01722
+Colombia,2035,0.01735
+Colombia,2040,0.02093
+Colombia,2045,0.0203
+Colombia,2050,0.02351
+Colombia,2055,0.02191
+Colombia,2060,0.0252
+Colombia,2065,0.02646
+Colombia,2070,0.03024
+Colombia,2075,0.03051
+Colombia,2080,0.03136
+Colombia,2085,0.0304
+Colombia,2090,0.02846
+Colombia,2095,0.02513
+Colombia,2100,0.02485
