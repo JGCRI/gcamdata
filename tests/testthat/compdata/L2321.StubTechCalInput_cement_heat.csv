@@ -1,0 +1,514 @@
+# Values are calculated using L1321.in_EJ_R_cement_F_Y then added GCAM region information and supplysector, subsector, technology, and input information
+region,supplysector,subsector,stub.technology,year,minicam.energy.input,calibrated.value,share.weight.year,subs.share.weight,tech.share.weight
+USA,process heat cement,biomass,biomass,1975,delivered biomass,0.0030771,1975,1,1
+USA,process heat cement,biomass,biomass,1990,delivered biomass,0.003177,1990,1,1
+USA,process heat cement,biomass,biomass,2005,delivered biomass,0.0045375,2005,1,1
+USA,process heat cement,biomass,biomass,2010,delivered biomass,0.0029446,2010,1,1
+USA,process heat cement,coal,coal,1975,delivered coal,0.2030908,1975,1,1
+USA,process heat cement,coal,coal,1990,delivered coal,0.2096845,1990,1,1
+USA,process heat cement,coal,coal,2005,delivered coal,0.2994749,2005,1,1
+USA,process heat cement,coal,coal,2010,delivered coal,0.1943404,2010,1,1
+USA,process heat cement,gas,gas,1975,wholesale gas,0.0092314,1975,1,1
+USA,process heat cement,gas,gas,1990,wholesale gas,0.0095311,1990,1,1
+USA,process heat cement,gas,gas,2005,wholesale gas,0.0136125,2005,1,1
+USA,process heat cement,gas,gas,2010,wholesale gas,0.0088337,2010,1,1
+USA,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.092314,1975,1,1
+USA,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0953112,1990,1,1
+USA,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.1361249,2005,1,1
+USA,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0883365,2010,1,1
+Africa_Eastern,process heat cement,biomass,biomass,1975,delivered biomass,0.0034595,1975,1,1
+Africa_Eastern,process heat cement,biomass,biomass,1990,delivered biomass,0.0030721,1990,1,1
+Africa_Eastern,process heat cement,biomass,biomass,2005,delivered biomass,0.0070412,2005,1,1
+Africa_Eastern,process heat cement,biomass,biomass,2010,delivered biomass,0.0083676,2010,1,1
+Africa_Eastern,process heat cement,coal,coal,1975,delivered coal,0.0010641,1975,1,1
+Africa_Eastern,process heat cement,coal,coal,1990,delivered coal,0.0026203,1990,1,1
+Africa_Eastern,process heat cement,coal,coal,2005,delivered coal,0.0035898,2005,1,1
+Africa_Eastern,process heat cement,coal,coal,2010,delivered coal,0.0054117,2010,1,1
+Africa_Eastern,process heat cement,gas,gas,1975,wholesale gas,0,1975,0,0
+Africa_Eastern,process heat cement,gas,gas,1990,wholesale gas,0,1990,0,0
+Africa_Eastern,process heat cement,gas,gas,2005,wholesale gas,0.0015379,2005,1,1
+Africa_Eastern,process heat cement,gas,gas,2010,wholesale gas,0.0049175,2010,1,1
+Africa_Eastern,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0026567,1975,1,1
+Africa_Eastern,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0033431,1990,1,1
+Africa_Eastern,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0071468,2005,1,1
+Africa_Eastern,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0109807,2010,1,1
+Africa_Northern,process heat cement,biomass,biomass,1975,delivered biomass,0.0015571,1975,1,1
+Africa_Northern,process heat cement,biomass,biomass,1990,delivered biomass,0.0058962,1990,1,1
+Africa_Northern,process heat cement,biomass,biomass,2005,delivered biomass,0.0118219,2005,1,1
+Africa_Northern,process heat cement,biomass,biomass,2010,delivered biomass,0.0600472,2010,1,1
+Africa_Northern,process heat cement,coal,coal,1975,delivered coal,0.009031,1975,1,1
+Africa_Northern,process heat cement,coal,coal,1990,delivered coal,0.034198,1990,1,1
+Africa_Northern,process heat cement,coal,coal,2005,delivered coal,0.0685669,2005,1,1
+Africa_Northern,process heat cement,coal,coal,2010,delivered coal,0.0501134,2010,1,1
+Africa_Northern,process heat cement,gas,gas,1975,wholesale gas,0.009031,1975,1,1
+Africa_Northern,process heat cement,gas,gas,1990,wholesale gas,0.034198,1990,1,1
+Africa_Northern,process heat cement,gas,gas,2005,wholesale gas,0.0685669,2005,1,1
+Africa_Northern,process heat cement,gas,gas,2010,wholesale gas,0.0939606,2010,1,1
+Africa_Northern,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0115223,1975,1,1
+Africa_Northern,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0436319,1990,1,1
+Africa_Northern,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0874819,2005,1,1
+Africa_Northern,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.1198807,2010,1,1
+Africa_Southern,process heat cement,biomass,biomass,1975,delivered biomass,0.0011355,1975,1,1
+Africa_Southern,process heat cement,biomass,biomass,1990,delivered biomass,3.714e-4,1990,1,1
+Africa_Southern,process heat cement,biomass,biomass,2005,delivered biomass,6.97e-4,2005,1,1
+Africa_Southern,process heat cement,biomass,biomass,2010,delivered biomass,8.65e-4,2010,1,1
+Africa_Southern,process heat cement,coal,coal,1975,delivered coal,0.0028966,1975,1,1
+Africa_Southern,process heat cement,coal,coal,1990,delivered coal,0.0021539,1990,1,1
+Africa_Southern,process heat cement,coal,coal,2005,delivered coal,0.0040428,2005,1,1
+Africa_Southern,process heat cement,coal,coal,2010,delivered coal,0.0050172,2010,1,1
+Africa_Southern,process heat cement,gas,gas,1975,wholesale gas,0.0022604,1975,1,1
+Africa_Southern,process heat cement,gas,gas,1990,wholesale gas,0.0021539,1990,1,1
+Africa_Southern,process heat cement,gas,gas,2005,wholesale gas,0.0040428,2005,1,1
+Africa_Southern,process heat cement,gas,gas,2010,wholesale gas,0.0050172,2010,1,1
+Africa_Southern,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0036956,1975,1,1
+Africa_Southern,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0027481,1990,1,1
+Africa_Southern,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.005158,2005,1,1
+Africa_Southern,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0064012,2010,1,1
+Africa_Western,process heat cement,biomass,biomass,1975,delivered biomass,7.351e-4,1975,1,1
+Africa_Western,process heat cement,biomass,biomass,1990,delivered biomass,0.0014824,1990,1,1
+Africa_Western,process heat cement,biomass,biomass,2005,delivered biomass,0.0020995,2005,1,1
+Africa_Western,process heat cement,biomass,biomass,2010,delivered biomass,0.0027779,2010,1,1
+Africa_Western,process heat cement,coal,coal,1975,delivered coal,0.0042636,1975,1,1
+Africa_Western,process heat cement,coal,coal,1990,delivered coal,0.0085982,1990,1,1
+Africa_Western,process heat cement,coal,coal,2005,delivered coal,0.0121772,2005,1,1
+Africa_Western,process heat cement,coal,coal,2010,delivered coal,0.0161121,2010,1,1
+Africa_Western,process heat cement,gas,gas,1975,wholesale gas,0.0042636,1975,1,1
+Africa_Western,process heat cement,gas,gas,1990,wholesale gas,0.0085982,1990,1,1
+Africa_Western,process heat cement,gas,gas,2005,wholesale gas,0.0121772,2005,1,1
+Africa_Western,process heat cement,gas,gas,2010,wholesale gas,0.0161121,2010,1,1
+Africa_Western,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0054397,1975,1,1
+Africa_Western,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0109701,1990,1,1
+Africa_Western,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0155365,2005,1,1
+Africa_Western,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0205568,2010,1,1
+Australia_NZ,process heat cement,biomass,biomass,1975,delivered biomass,0.0010847,1975,1,1
+Australia_NZ,process heat cement,biomass,biomass,1990,delivered biomass,0.0013709,1990,1,1
+Australia_NZ,process heat cement,biomass,biomass,2005,delivered biomass,0.0015044,2005,1,1
+Australia_NZ,process heat cement,biomass,biomass,2010,delivered biomass,0.0015084,2010,1,1
+Australia_NZ,process heat cement,coal,coal,1975,delivered coal,0.0157279,1975,1,1
+Australia_NZ,process heat cement,coal,coal,1990,delivered coal,0.0198781,1990,1,1
+Australia_NZ,process heat cement,coal,coal,2005,delivered coal,0.0218133,2005,1,1
+Australia_NZ,process heat cement,coal,coal,2010,delivered coal,0.0218719,2010,1,1
+Australia_NZ,process heat cement,gas,gas,1975,wholesale gas,0.0103045,1975,1,1
+Australia_NZ,process heat cement,gas,gas,1990,wholesale gas,0.0130236,1990,1,1
+Australia_NZ,process heat cement,gas,gas,2005,wholesale gas,0.0142914,2005,1,1
+Australia_NZ,process heat cement,gas,gas,2010,wholesale gas,0.0143299,2010,1,1
+Australia_NZ,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0,1975,0,0
+Australia_NZ,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0,1990,0,0
+Australia_NZ,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0,2005,0,0
+Australia_NZ,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0,2010,0,0
+Brazil,process heat cement,biomass,biomass,1975,delivered biomass,0.0576749,1975,1,1
+Brazil,process heat cement,biomass,biomass,1990,delivered biomass,0.0766152,1990,1,1
+Brazil,process heat cement,biomass,biomass,2005,delivered biomass,0.1134527,2005,1,1
+Brazil,process heat cement,biomass,biomass,2010,delivered biomass,0.1566688,2010,1,1
+Brazil,process heat cement,coal,coal,1975,delivered coal,6.008e-4,1975,1,1
+Brazil,process heat cement,coal,coal,1990,delivered coal,7.981e-4,1990,1,1
+Brazil,process heat cement,coal,coal,2005,delivered coal,0.0011818,2005,1,1
+Brazil,process heat cement,coal,coal,2010,delivered coal,0.001632,2010,1,1
+Brazil,process heat cement,gas,gas,1975,wholesale gas,6.008e-4,1975,1,1
+Brazil,process heat cement,gas,gas,1990,wholesale gas,7.981e-4,1990,1,1
+Brazil,process heat cement,gas,gas,2005,wholesale gas,0.0011818,2005,1,1
+Brazil,process heat cement,gas,gas,2010,wholesale gas,0.001632,2010,1,1
+Brazil,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0012016,1975,1,1
+Brazil,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0015962,1990,1,1
+Brazil,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0023636,2005,1,1
+Brazil,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0032639,2010,1,1
+Canada,process heat cement,biomass,biomass,1975,delivered biomass,0.0120503,1975,1,1
+Canada,process heat cement,biomass,biomass,1990,delivered biomass,0.0128017,1990,1,1
+Canada,process heat cement,biomass,biomass,2005,delivered biomass,0.0133419,2005,1,1
+Canada,process heat cement,biomass,biomass,2010,delivered biomass,0.0102592,2010,1,1
+Canada,process heat cement,coal,coal,1975,delivered coal,0.0250647,1975,1,1
+Canada,process heat cement,coal,coal,1990,delivered coal,0.0266276,1990,1,1
+Canada,process heat cement,coal,coal,2005,delivered coal,0.0277512,2005,1,1
+Canada,process heat cement,coal,coal,2010,delivered coal,0.0213391,2010,1,1
+Canada,process heat cement,gas,gas,1975,wholesale gas,0.0086762,1975,1,1
+Canada,process heat cement,gas,gas,1990,wholesale gas,0.0092172,1990,1,1
+Canada,process heat cement,gas,gas,2005,wholesale gas,0.0096062,2005,1,1
+Canada,process heat cement,gas,gas,2010,wholesale gas,0.0073866,2010,1,1
+Canada,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0024101,1975,1,1
+Canada,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0025603,1990,1,1
+Canada,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0026684,2005,1,1
+Canada,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0020518,2010,1,1
+Central America and Caribbean,process heat cement,biomass,biomass,1975,delivered biomass,0.0066548,1975,1,1
+Central America and Caribbean,process heat cement,biomass,biomass,1990,delivered biomass,0.0074436,1990,1,1
+Central America and Caribbean,process heat cement,biomass,biomass,2005,delivered biomass,0.0077723,2005,1,1
+Central America and Caribbean,process heat cement,biomass,biomass,2010,delivered biomass,0.0078324,2010,1,1
+Central America and Caribbean,process heat cement,coal,coal,1975,delivered coal,0.0012558,1975,1,1
+Central America and Caribbean,process heat cement,coal,coal,1990,delivered coal,0.0085394,1990,1,1
+Central America and Caribbean,process heat cement,coal,coal,2005,delivered coal,0.0131838,2005,1,1
+Central America and Caribbean,process heat cement,coal,coal,2010,delivered coal,0.0132846,2010,1,1
+Central America and Caribbean,process heat cement,gas,gas,1975,wholesale gas,0.0058764,1975,1,1
+Central America and Caribbean,process heat cement,gas,gas,1990,wholesale gas,0.0115433,1990,1,1
+Central America and Caribbean,process heat cement,gas,gas,2005,wholesale gas,0.0152979,2005,1,1
+Central America and Caribbean,process heat cement,gas,gas,2010,wholesale gas,0.0154255,2010,1,1
+Central America and Caribbean,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0088146,1975,1,1
+Central America and Caribbean,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0178718,1990,1,1
+Central America and Caribbean,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0234019,2005,1,1
+Central America and Caribbean,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0235795,2010,1,1
+Central Asia,process heat cement,biomass,biomass,1975,delivered biomass,8.784e-4,1975,1,1
+Central Asia,process heat cement,biomass,biomass,1990,delivered biomass,7.939e-4,1990,1,1
+Central Asia,process heat cement,biomass,biomass,2005,delivered biomass,4.366e-4,2005,1,1
+Central Asia,process heat cement,biomass,biomass,2010,delivered biomass,5.581e-4,2010,1,1
+Central Asia,process heat cement,coal,coal,1975,delivered coal,0.0066907,1975,1,1
+Central Asia,process heat cement,coal,coal,1990,delivered coal,0.0067336,1990,1,1
+Central Asia,process heat cement,coal,coal,2005,delivered coal,0.0033214,2005,1,1
+Central Asia,process heat cement,coal,coal,2010,delivered coal,0.0042626,2010,1,1
+Central Asia,process heat cement,gas,gas,1975,wholesale gas,0.0592959,1975,1,1
+Central Asia,process heat cement,gas,gas,1990,wholesale gas,0.0530409,1990,1,1
+Central Asia,process heat cement,gas,gas,2005,wholesale gas,0.0294751,2005,1,1
+Central Asia,process heat cement,gas,gas,2010,wholesale gas,0.0376625,2010,1,1
+Central Asia,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0209726,1975,1,1
+Central Asia,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0188172,1990,1,1
+Central Asia,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0104248,2005,1,1
+Central Asia,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.013322,2010,1,1
+China,process heat cement,biomass,biomass,1975,delivered biomass,0,1975,0,0
+China,process heat cement,biomass,biomass,1990,delivered biomass,0,1990,0,0
+China,process heat cement,biomass,biomass,2005,delivered biomass,0,2005,0,0
+China,process heat cement,biomass,biomass,2010,delivered biomass,0,2010,0,0
+China,process heat cement,coal,coal,1975,delivered coal,0.138387,1975,1,1
+China,process heat cement,coal,coal,1990,delivered coal,0.9010333,1990,1,1
+China,process heat cement,coal,coal,2005,delivered coal,3.6421368,2005,1,1
+China,process heat cement,coal,coal,2010,delivered coal,5.7078902,2010,1,1
+China,process heat cement,gas,gas,1975,wholesale gas,0,1975,0,0
+China,process heat cement,gas,gas,1990,wholesale gas,0,1990,0,0
+China,process heat cement,gas,gas,2005,wholesale gas,0,2005,0,0
+China,process heat cement,gas,gas,2010,wholesale gas,0,2010,0,0
+China,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0088332,1975,1,1
+China,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0575128,1990,1,1
+China,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.2324768,2005,1,1
+China,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.3643334,2010,1,1
+EU-12,process heat cement,biomass,biomass,1975,delivered biomass,0.0299985,1975,1,1
+EU-12,process heat cement,biomass,biomass,1990,delivered biomass,0.0243709,1990,1,1
+EU-12,process heat cement,biomass,biomass,2005,delivered biomass,0.0201989,2005,1,1
+EU-12,process heat cement,biomass,biomass,2010,delivered biomass,0.0211424,2010,1,1
+EU-12,process heat cement,coal,coal,1975,delivered coal,0.0586004,1975,1,1
+EU-12,process heat cement,coal,coal,1990,delivered coal,0.0477428,1990,1,1
+EU-12,process heat cement,coal,coal,2005,delivered coal,0.0393886,2005,1,1
+EU-12,process heat cement,coal,coal,2010,delivered coal,0.0411937,2010,1,1
+EU-12,process heat cement,gas,gas,1975,wholesale gas,0.0100899,1975,1,1
+EU-12,process heat cement,gas,gas,1990,wholesale gas,0.010014,1990,1,1
+EU-12,process heat cement,gas,gas,2005,wholesale gas,0.0058693,2005,1,1
+EU-12,process heat cement,gas,gas,2010,wholesale gas,0.0056779,2010,1,1
+EU-12,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.1124159,1975,1,1
+EU-12,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0918711,1990,1,1
+EU-12,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0754164,2005,1,1
+EU-12,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0787998,2010,1,1
+EU-15,process heat cement,biomass,biomass,1975,delivered biomass,0.1199571,1975,1,1
+EU-15,process heat cement,biomass,biomass,1990,delivered biomass,0.1129938,1990,1,1
+EU-15,process heat cement,biomass,biomass,2005,delivered biomass,0.1104029,2005,1,1
+EU-15,process heat cement,biomass,biomass,2010,delivered biomass,0.0977821,2010,1,1
+EU-15,process heat cement,coal,coal,1975,delivered coal,0.231917,1975,1,1
+EU-15,process heat cement,coal,coal,1990,delivered coal,0.2184546,1990,1,1
+EU-15,process heat cement,coal,coal,2005,delivered coal,0.2134457,2005,1,1
+EU-15,process heat cement,coal,coal,2010,delivered coal,0.1890454,2010,1,1
+EU-15,process heat cement,gas,gas,1975,wholesale gas,0.0079971,1975,1,1
+EU-15,process heat cement,gas,gas,1990,wholesale gas,0.0075329,1990,1,1
+EU-15,process heat cement,gas,gas,2005,wholesale gas,0.0073602,2005,1,1
+EU-15,process heat cement,gas,gas,2010,wholesale gas,0.0065188,2010,1,1
+EU-15,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.4398426,1975,1,1
+EU-15,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.4143105,1990,1,1
+EU-15,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.4048107,2005,1,1
+EU-15,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.3585343,2010,1,1
+Europe_Eastern,process heat cement,biomass,biomass,1975,delivered biomass,0.0013422,1975,1,1
+Europe_Eastern,process heat cement,biomass,biomass,1990,delivered biomass,0.0012323,1990,1,1
+Europe_Eastern,process heat cement,biomass,biomass,2005,delivered biomass,5.73e-4,2005,1,1
+Europe_Eastern,process heat cement,biomass,biomass,2010,delivered biomass,5.358e-4,2010,1,1
+Europe_Eastern,process heat cement,coal,coal,1975,delivered coal,0.0093952,1975,1,1
+Europe_Eastern,process heat cement,coal,coal,1990,delivered coal,0.008626,1990,1,1
+Europe_Eastern,process heat cement,coal,coal,2005,delivered coal,0.0040112,2005,1,1
+Europe_Eastern,process heat cement,coal,coal,2010,delivered coal,0.0037508,2010,1,1
+Europe_Eastern,process heat cement,gas,gas,1975,wholesale gas,0.0912676,1975,1,1
+Europe_Eastern,process heat cement,gas,gas,1990,wholesale gas,0.0837957,1990,1,1
+Europe_Eastern,process heat cement,gas,gas,2005,wholesale gas,0.0389657,2005,1,1
+Europe_Eastern,process heat cement,gas,gas,2010,wholesale gas,0.0364362,2010,1,1
+Europe_Eastern,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0322121,1975,1,1
+Europe_Eastern,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.029575,1990,1,1
+Europe_Eastern,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0137526,2005,1,1
+Europe_Eastern,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0128598,2010,1,1
+Europe_Non_EU,process heat cement,biomass,biomass,1975,delivered biomass,0.0121522,1975,1,1
+Europe_Non_EU,process heat cement,biomass,biomass,1990,delivered biomass,0.0188225,1990,1,1
+Europe_Non_EU,process heat cement,biomass,biomass,2005,delivered biomass,0.0290467,2005,1,1
+Europe_Non_EU,process heat cement,biomass,biomass,2010,delivered biomass,0.0352614,2010,1,1
+Europe_Non_EU,process heat cement,coal,coal,1975,delivered coal,0.0234943,1975,1,1
+Europe_Non_EU,process heat cement,coal,coal,1990,delivered coal,0.0363902,1990,1,1
+Europe_Non_EU,process heat cement,coal,coal,2005,delivered coal,0.0561569,2005,1,1
+Europe_Non_EU,process heat cement,coal,coal,2010,delivered coal,0.0681721,2010,1,1
+Europe_Non_EU,process heat cement,gas,gas,1975,wholesale gas,8.101e-4,1975,1,1
+Europe_Non_EU,process heat cement,gas,gas,1990,wholesale gas,0.0012548,1990,1,1
+Europe_Non_EU,process heat cement,gas,gas,2005,wholesale gas,0.0019364,2005,1,1
+Europe_Non_EU,process heat cement,gas,gas,2010,wholesale gas,0.0023508,2010,1,1
+Europe_Non_EU,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0445582,1975,1,1
+Europe_Non_EU,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0690159,1990,1,1
+Europe_Non_EU,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.1065045,2005,1,1
+Europe_Non_EU,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.1292919,2010,1,1
+European Free Trade Association,process heat cement,biomass,biomass,1975,delivered biomass,0.0047786,1975,1,1
+European Free Trade Association,process heat cement,biomass,biomass,1990,delivered biomass,0.0036437,1990,1,1
+European Free Trade Association,process heat cement,biomass,biomass,2005,delivered biomass,0.0032107,2005,1,1
+European Free Trade Association,process heat cement,biomass,biomass,2010,delivered biomass,0.0037129,2010,1,1
+European Free Trade Association,process heat cement,coal,coal,1975,delivered coal,0.0092386,1975,1,1
+European Free Trade Association,process heat cement,coal,coal,1990,delivered coal,0.0070445,1990,1,1
+European Free Trade Association,process heat cement,coal,coal,2005,delivered coal,0.0062074,2005,1,1
+European Free Trade Association,process heat cement,coal,coal,2010,delivered coal,0.0071782,2010,1,1
+European Free Trade Association,process heat cement,gas,gas,1975,wholesale gas,3.186e-4,1975,1,1
+European Free Trade Association,process heat cement,gas,gas,1990,wholesale gas,2.429e-4,1990,1,1
+European Free Trade Association,process heat cement,gas,gas,2005,wholesale gas,2.14e-4,2005,1,1
+European Free Trade Association,process heat cement,gas,gas,2010,wholesale gas,2.475e-4,2010,1,1
+European Free Trade Association,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0175215,1975,1,1
+European Free Trade Association,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0133603,1990,1,1
+European Free Trade Association,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0117727,2005,1,1
+European Free Trade Association,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0136139,2010,1,1
+India,process heat cement,biomass,biomass,1975,delivered biomass,0.0016819,1975,1,1
+India,process heat cement,biomass,biomass,1990,delivered biomass,0.0046653,1990,1,1
+India,process heat cement,biomass,biomass,2005,delivered biomass,0.0086007,2005,1,1
+India,process heat cement,biomass,biomass,2010,delivered biomass,0.0121471,2010,1,1
+India,process heat cement,coal,coal,1975,delivered coal,0.0807318,1975,1,1
+India,process heat cement,coal,coal,1990,delivered coal,0.2239359,1990,1,1
+India,process heat cement,coal,coal,2005,delivered coal,0.4128356,2005,1,1
+India,process heat cement,coal,coal,2010,delivered coal,0.5830626,2010,1,1
+India,process heat cement,gas,gas,1975,wholesale gas,8.41e-4,1975,1,1
+India,process heat cement,gas,gas,1990,wholesale gas,0.0023327,1990,1,1
+India,process heat cement,gas,gas,2005,wholesale gas,0.0043004,2005,1,1
+India,process heat cement,gas,gas,2010,wholesale gas,0.0060736,2010,1,1
+India,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,8.41e-4,1975,1,1
+India,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0023327,1990,1,1
+India,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0043004,2005,1,1
+India,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0060736,2010,1,1
+Indonesia,process heat cement,biomass,biomass,1975,delivered biomass,3.84e-5,1975,1,1
+Indonesia,process heat cement,biomass,biomass,1990,delivered biomass,5.042e-4,1990,1,1
+Indonesia,process heat cement,biomass,biomass,2005,delivered biomass,0.00113,2005,1,1
+Indonesia,process heat cement,biomass,biomass,2010,delivered biomass,0.0013091,2010,1,1
+Indonesia,process heat cement,coal,coal,1975,delivered coal,0.003146,1975,1,1
+Indonesia,process heat cement,coal,coal,1990,delivered coal,0.0413414,1990,1,1
+Indonesia,process heat cement,coal,coal,2005,delivered coal,0.0926628,2005,1,1
+Indonesia,process heat cement,coal,coal,2010,delivered coal,0.1073425,2010,1,1
+Indonesia,process heat cement,gas,gas,1975,wholesale gas,3.069e-4,1975,1,1
+Indonesia,process heat cement,gas,gas,1990,wholesale gas,0.0040333,1990,1,1
+Indonesia,process heat cement,gas,gas,2005,wholesale gas,0.0090403,2005,1,1
+Indonesia,process heat cement,gas,gas,2010,wholesale gas,0.0104724,2010,1,1
+Indonesia,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,3.453e-4,1975,1,1
+Indonesia,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0045375,1990,1,1
+Indonesia,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0101703,2005,1,1
+Indonesia,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0117815,2010,1,1
+Japan,process heat cement,biomass,biomass,1975,delivered biomass,0,1975,0,0
+Japan,process heat cement,biomass,biomass,1990,delivered biomass,0,1990,0,0
+Japan,process heat cement,biomass,biomass,2005,delivered biomass,0,2005,0,0
+Japan,process heat cement,biomass,biomass,2010,delivered biomass,0,2010,0,0
+Japan,process heat cement,coal,coal,1975,delivered coal,0.1788824,1975,1,1
+Japan,process heat cement,coal,coal,1990,delivered coal,0.2193718,1990,1,1
+Japan,process heat cement,coal,coal,2005,delivered coal,0.1763633,2005,1,1
+Japan,process heat cement,coal,coal,2010,delivered coal,0.1397739,2010,1,1
+Japan,process heat cement,gas,gas,1975,wholesale gas,0,1975,0,0
+Japan,process heat cement,gas,gas,1990,wholesale gas,0,1990,0,0
+Japan,process heat cement,gas,gas,2005,wholesale gas,0,2005,0,0
+Japan,process heat cement,gas,gas,2010,wholesale gas,0,2010,0,0
+Japan,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0447206,1975,1,1
+Japan,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0548429,1990,1,1
+Japan,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0440908,2005,1,1
+Japan,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0349435,2010,1,1
+Mexico,process heat cement,biomass,biomass,1975,delivered biomass,0.0065139,1975,1,1
+Mexico,process heat cement,biomass,biomass,1990,delivered biomass,0.012671,1990,1,1
+Mexico,process heat cement,biomass,biomass,2005,delivered biomass,0.015598,2005,1,1
+Mexico,process heat cement,biomass,biomass,2010,delivered biomass,0.0150653,2010,1,1
+Mexico,process heat cement,coal,coal,1975,delivered coal,0.0110235,1975,1,1
+Mexico,process heat cement,coal,coal,1990,delivered coal,0.0214433,1990,1,1
+Mexico,process heat cement,coal,coal,2005,delivered coal,0.0263966,2005,1,1
+Mexico,process heat cement,coal,coal,2010,delivered coal,0.0254952,2010,1,1
+Mexico,process heat cement,gas,gas,1975,wholesale gas,0.0130278,1975,1,1
+Mexico,process heat cement,gas,gas,1990,wholesale gas,0.0253421,1990,1,1
+Mexico,process heat cement,gas,gas,2005,wholesale gas,0.0311959,2005,1,1
+Mexico,process heat cement,gas,gas,2010,wholesale gas,0.0301307,2010,1,1
+Mexico,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0195417,1975,1,1
+Mexico,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0380131,1990,1,1
+Mexico,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0467939,2005,1,1
+Mexico,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.045196,2010,1,1
+Middle East,process heat cement,biomass,biomass,1975,delivered biomass,0,1975,0,0
+Middle East,process heat cement,biomass,biomass,1990,delivered biomass,0,1990,0,0
+Middle East,process heat cement,biomass,biomass,2005,delivered biomass,0,2005,0,0
+Middle East,process heat cement,biomass,biomass,2010,delivered biomass,0,2010,0,0
+Middle East,process heat cement,coal,coal,1975,delivered coal,0,1975,0,0
+Middle East,process heat cement,coal,coal,1990,delivered coal,0,1990,0,0
+Middle East,process heat cement,coal,coal,2005,delivered coal,0,2005,0,0
+Middle East,process heat cement,coal,coal,2010,delivered coal,0,2010,0,0
+Middle East,process heat cement,gas,gas,1975,wholesale gas,0.0211852,1975,1,1
+Middle East,process heat cement,gas,gas,1990,wholesale gas,0.0671104,1990,1,1
+Middle East,process heat cement,gas,gas,2005,wholesale gas,0.1210131,2005,1,1
+Middle East,process heat cement,gas,gas,2010,wholesale gas,0.1853642,2010,1,1
+Middle East,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.039344,1975,1,1
+Middle East,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.1246336,1990,1,1
+Middle East,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.2247386,2005,1,1
+Middle East,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.3442477,2010,1,1
+Pakistan,process heat cement,biomass,biomass,1975,delivered biomass,1.337e-4,1975,1,1
+Pakistan,process heat cement,biomass,biomass,1990,delivered biomass,2.949e-4,1990,1,1
+Pakistan,process heat cement,biomass,biomass,2005,delivered biomass,6.545e-4,2005,1,1
+Pakistan,process heat cement,biomass,biomass,2010,delivered biomass,0.0012081,2010,1,1
+Pakistan,process heat cement,coal,coal,1975,delivered coal,0.0109673,1975,1,1
+Pakistan,process heat cement,coal,coal,1990,delivered coal,0.0241801,1990,1,1
+Pakistan,process heat cement,coal,coal,2005,delivered coal,0.0536698,2005,1,1
+Pakistan,process heat cement,coal,coal,2010,delivered coal,0.0990628,2010,1,1
+Pakistan,process heat cement,gas,gas,1975,wholesale gas,0.00107,1975,1,1
+Pakistan,process heat cement,gas,gas,1990,wholesale gas,0.002359,1990,1,1
+Pakistan,process heat cement,gas,gas,2005,wholesale gas,0.0052361,2005,1,1
+Pakistan,process heat cement,gas,gas,2010,wholesale gas,0.0096647,2010,1,1
+Pakistan,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0012037,1975,1,1
+Pakistan,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0026539,1990,1,1
+Pakistan,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0058906,2005,1,1
+Pakistan,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0108727,2010,1,1
+Russia,process heat cement,biomass,biomass,1975,delivered biomass,0.0031123,1975,1,1
+Russia,process heat cement,biomass,biomass,1990,delivered biomass,0.0031169,1990,1,1
+Russia,process heat cement,biomass,biomass,2005,delivered biomass,0.0017339,2005,1,1
+Russia,process heat cement,biomass,biomass,2010,delivered biomass,0.0016356,2010,1,1
+Russia,process heat cement,coal,coal,1975,delivered coal,0.0217864,1975,1,1
+Russia,process heat cement,coal,coal,1990,delivered coal,0.0218182,1990,1,1
+Russia,process heat cement,coal,coal,2005,delivered coal,0.0121376,2005,1,1
+Russia,process heat cement,coal,coal,2010,delivered coal,0.0114494,2010,1,1
+Russia,process heat cement,gas,gas,1975,wholesale gas,0.2116388,1975,1,1
+Russia,process heat cement,gas,gas,1990,wholesale gas,0.2119478,1990,1,1
+Russia,process heat cement,gas,gas,2005,wholesale gas,0.1179082,2005,1,1
+Russia,process heat cement,gas,gas,2010,wholesale gas,0.1112232,2010,1,1
+Russia,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0746961,1975,1,1
+Russia,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0748051,1990,1,1
+Russia,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0416147,2005,1,1
+Russia,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0392552,2010,1,1
+South Africa,process heat cement,biomass,biomass,1975,delivered biomass,0.0013698,1975,1,1
+South Africa,process heat cement,biomass,biomass,1990,delivered biomass,0.0015331,1990,1,1
+South Africa,process heat cement,biomass,biomass,2005,delivered biomass,0.0020339,2005,1,1
+South Africa,process heat cement,biomass,biomass,2010,delivered biomass,0.0019932,2010,1,1
+South Africa,process heat cement,coal,coal,1975,delivered coal,0.0079449,1975,1,1
+South Africa,process heat cement,coal,coal,1990,delivered coal,0.0088917,1990,1,1
+South Africa,process heat cement,coal,coal,2005,delivered coal,0.0117966,2005,1,1
+South Africa,process heat cement,coal,coal,2010,delivered coal,0.0115606,2010,1,1
+South Africa,process heat cement,gas,gas,1975,wholesale gas,0.0079449,1975,1,1
+South Africa,process heat cement,gas,gas,1990,wholesale gas,0.0088917,1990,1,1
+South Africa,process heat cement,gas,gas,2005,wholesale gas,0.0117966,2005,1,1
+South Africa,process heat cement,gas,gas,2010,wholesale gas,0.0115606,2010,1,1
+South Africa,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0101366,1975,1,1
+South Africa,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0113446,1990,1,1
+South Africa,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0150509,2005,1,1
+South Africa,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0147498,2010,1,1
+South America_Northern,process heat cement,biomass,biomass,1975,delivered biomass,0.0018097,1975,1,1
+South America_Northern,process heat cement,biomass,biomass,1990,delivered biomass,0.002717,1990,1,1
+South America_Northern,process heat cement,biomass,biomass,2005,delivered biomass,0.006381,2005,1,1
+South America_Northern,process heat cement,biomass,biomass,2010,delivered biomass,0.0045336,2010,1,1
+South America_Northern,process heat cement,coal,coal,1975,delivered coal,0.0030626,1975,1,1
+South America_Northern,process heat cement,coal,coal,1990,delivered coal,0.0045979,1990,1,1
+South America_Northern,process heat cement,coal,coal,2005,delivered coal,0.0015488,2005,1,1
+South America_Northern,process heat cement,coal,coal,2010,delivered coal,0.0076723,2010,1,1
+South America_Northern,process heat cement,gas,gas,1975,wholesale gas,0.0036194,1975,1,1
+South America_Northern,process heat cement,gas,gas,1990,wholesale gas,0.0054339,1990,1,1
+South America_Northern,process heat cement,gas,gas,2005,wholesale gas,0.0058908,2005,1,1
+South America_Northern,process heat cement,gas,gas,2010,wholesale gas,0.0090672,2010,1,1
+South America_Northern,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0054291,1975,1,1
+South America_Northern,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0081509,1990,1,1
+South America_Northern,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0088361,2005,1,1
+South America_Northern,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0136008,2010,1,1
+South America_Southern,process heat cement,biomass,biomass,1975,delivered biomass,0.0024695,1975,1,1
+South America_Southern,process heat cement,biomass,biomass,1990,delivered biomass,0.0040981,1990,1,1
+South America_Southern,process heat cement,biomass,biomass,2005,delivered biomass,0.0074508,2005,1,1
+South America_Southern,process heat cement,biomass,biomass,2010,delivered biomass,0.0094673,2010,1,1
+South America_Southern,process heat cement,coal,coal,1975,delivered coal,0.0041791,1975,1,1
+South America_Southern,process heat cement,coal,coal,1990,delivered coal,0.0069353,1990,1,1
+South America_Southern,process heat cement,coal,coal,2005,delivered coal,0.0126091,2005,1,1
+South America_Southern,process heat cement,coal,coal,2010,delivered coal,0.0160215,2010,1,1
+South America_Southern,process heat cement,gas,gas,1975,wholesale gas,0.004939,1975,1,1
+South America_Southern,process heat cement,gas,gas,1990,wholesale gas,0.0081962,1990,1,1
+South America_Southern,process heat cement,gas,gas,2005,wholesale gas,0.0149016,2005,1,1
+South America_Southern,process heat cement,gas,gas,2010,wholesale gas,0.0189345,2010,1,1
+South America_Southern,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0074085,1975,1,1
+South America_Southern,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0122944,1990,1,1
+South America_Southern,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0223524,2005,1,1
+South America_Southern,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0284018,2010,1,1
+South Asia,process heat cement,biomass,biomass,1975,delivered biomass,3.54e-5,1975,1,1
+South Asia,process heat cement,biomass,biomass,1990,delivered biomass,3.93e-5,1990,1,1
+South Asia,process heat cement,biomass,biomass,2005,delivered biomass,2.678e-4,2005,1,1
+South Asia,process heat cement,biomass,biomass,2010,delivered biomass,2.765e-4,2010,1,1
+South Asia,process heat cement,coal,coal,1975,delivered coal,0.0029021,1975,1,1
+South Asia,process heat cement,coal,coal,1990,delivered coal,0.0032241,1990,1,1
+South Asia,process heat cement,coal,coal,2005,delivered coal,0.0219575,2005,1,1
+South Asia,process heat cement,coal,coal,2010,delivered coal,0.0226707,2010,1,1
+South Asia,process heat cement,gas,gas,1975,wholesale gas,2.831e-4,1975,1,1
+South Asia,process heat cement,gas,gas,1990,wholesale gas,3.145e-4,1990,1,1
+South Asia,process heat cement,gas,gas,2005,wholesale gas,0.0021422,2005,1,1
+South Asia,process heat cement,gas,gas,2010,wholesale gas,0.0022118,2010,1,1
+South Asia,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,3.185e-4,1975,1,1
+South Asia,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,3.539e-4,1990,1,1
+South Asia,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.00241,2005,1,1
+South Asia,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0024882,2010,1,1
+South Korea,process heat cement,biomass,biomass,1975,delivered biomass,4.542e-4,1975,1,1
+South Korea,process heat cement,biomass,biomass,1990,delivered biomass,0.0013907,1990,1,1
+South Korea,process heat cement,biomass,biomass,2005,delivered biomass,0.0017908,2005,1,1
+South Korea,process heat cement,biomass,biomass,2010,delivered biomass,0.001756,2010,1,1
+South Korea,process heat cement,coal,coal,1975,delivered coal,0.0395169,1975,1,1
+South Korea,process heat cement,coal,coal,1990,delivered coal,0.1209945,1990,1,1
+South Korea,process heat cement,coal,coal,2005,delivered coal,0.1557957,2005,1,1
+South Korea,process heat cement,coal,coal,2010,delivered coal,0.1527701,2010,1,1
+South Korea,process heat cement,gas,gas,1975,wholesale gas,0,1975,0,0
+South Korea,process heat cement,gas,gas,1990,wholesale gas,0,1990,0,0
+South Korea,process heat cement,gas,gas,2005,wholesale gas,0,2005,0,0
+South Korea,process heat cement,gas,gas,2010,wholesale gas,0,2010,0,0
+South Korea,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0054506,1975,1,1
+South Korea,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0166889,1990,1,1
+South Korea,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0214891,2005,1,1
+South Korea,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0210717,2010,1,1
+Southeast Asia,process heat cement,biomass,biomass,1975,delivered biomass,0.0035109,1975,1,1
+Southeast Asia,process heat cement,biomass,biomass,1990,delivered biomass,0.0129171,1990,1,1
+Southeast Asia,process heat cement,biomass,biomass,2005,delivered biomass,0.0257182,2005,1,1
+Southeast Asia,process heat cement,biomass,biomass,2010,delivered biomass,0.0226791,2010,1,1
+Southeast Asia,process heat cement,coal,coal,1975,delivered coal,0.0693608,1975,1,1
+Southeast Asia,process heat cement,coal,coal,1990,delivered coal,0.1667414,1990,1,1
+Southeast Asia,process heat cement,coal,coal,2005,delivered coal,0.3367354,2005,1,1
+Southeast Asia,process heat cement,coal,coal,2010,delivered coal,0.3801651,2010,1,1
+Southeast Asia,process heat cement,gas,gas,1975,wholesale gas,0.0053825,1975,1,1
+Southeast Asia,process heat cement,gas,gas,1990,wholesale gas,0.0106136,1990,1,1
+Southeast Asia,process heat cement,gas,gas,2005,wholesale gas,0.0216254,2005,1,1
+Southeast Asia,process heat cement,gas,gas,2010,wholesale gas,0.0277163,2010,1,1
+Southeast Asia,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0067648,1975,1,1
+Southeast Asia,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0148379,1990,1,1
+Southeast Asia,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0300823,2005,1,1
+Southeast Asia,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0359845,2010,1,1
+Taiwan,process heat cement,biomass,biomass,1975,delivered biomass,0,1975,0,0
+Taiwan,process heat cement,biomass,biomass,1990,delivered biomass,0,1990,0,0
+Taiwan,process heat cement,biomass,biomass,2005,delivered biomass,0,2005,0,0
+Taiwan,process heat cement,biomass,biomass,2010,delivered biomass,0,2010,0,0
+Taiwan,process heat cement,coal,coal,1975,delivered coal,0.0302873,1975,1,1
+Taiwan,process heat cement,coal,coal,1990,delivered coal,0.0740689,1990,1,1
+Taiwan,process heat cement,coal,coal,2005,delivered coal,0.0628556,2005,1,1
+Taiwan,process heat cement,coal,coal,2010,delivered coal,0.0504578,2010,1,1
+Taiwan,process heat cement,gas,gas,1975,wholesale gas,0,1975,0,0
+Taiwan,process heat cement,gas,gas,1990,wholesale gas,0,1990,0,0
+Taiwan,process heat cement,gas,gas,2005,wholesale gas,0,2005,0,0
+Taiwan,process heat cement,gas,gas,2010,wholesale gas,0,2010,0,0
+Taiwan,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0019332,1975,1,1
+Taiwan,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0047278,1990,1,1
+Taiwan,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0040121,2005,1,1
+Taiwan,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0032207,2010,1,1
+Argentina,process heat cement,biomass,biomass,1975,delivered biomass,0.0026469,1975,1,1
+Argentina,process heat cement,biomass,biomass,1990,delivered biomass,0.0016893,1990,1,1
+Argentina,process heat cement,biomass,biomass,2005,delivered biomass,0.0035926,2005,1,1
+Argentina,process heat cement,biomass,biomass,2010,delivered biomass,0.0047864,2010,1,1
+Argentina,process heat cement,coal,coal,1975,delivered coal,0.0044793,1975,1,1
+Argentina,process heat cement,coal,coal,1990,delivered coal,0.0028589,1990,1,1
+Argentina,process heat cement,coal,coal,2005,delivered coal,0.0060798,2005,1,1
+Argentina,process heat cement,coal,coal,2010,delivered coal,0.0076604,2010,1,1
+Argentina,process heat cement,gas,gas,1975,wholesale gas,0.0052937,1975,1,1
+Argentina,process heat cement,gas,gas,1990,wholesale gas,0.0033787,1990,1,1
+Argentina,process heat cement,gas,gas,2005,wholesale gas,0.0071853,2005,1,1
+Argentina,process heat cement,gas,gas,2010,wholesale gas,0.0092462,2010,1,1
+Argentina,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0079406,1975,1,1
+Argentina,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.005068,1990,1,1
+Argentina,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.0107779,2005,1,1
+Argentina,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0138693,2010,1,1
+Colombia,process heat cement,biomass,biomass,1975,delivered biomass,0.001927,1975,1,1
+Colombia,process heat cement,biomass,biomass,1990,delivered biomass,0.0034961,1990,1,1
+Colombia,process heat cement,biomass,biomass,2005,delivered biomass,0.0053783,2005,1,1
+Colombia,process heat cement,biomass,biomass,2010,delivered biomass,0.0054495,2010,1,1
+Colombia,process heat cement,coal,coal,1975,delivered coal,0.0032611,1975,1,1
+Colombia,process heat cement,coal,coal,1990,delivered coal,0.0059166,1990,1,1
+Colombia,process heat cement,coal,coal,2005,delivered coal,0.0091018,2005,1,1
+Colombia,process heat cement,coal,coal,2010,delivered coal,0.0092222,2010,1,1
+Colombia,process heat cement,gas,gas,1975,wholesale gas,0.0038541,1975,1,1
+Colombia,process heat cement,gas,gas,1990,wholesale gas,0.0069923,1990,1,1
+Colombia,process heat cement,gas,gas,2005,wholesale gas,0.0107566,2005,1,1
+Colombia,process heat cement,gas,gas,2010,wholesale gas,0.010899,2010,1,1
+Colombia,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.0057811,1975,1,1
+Colombia,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.0104884,1990,1,1
+Colombia,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.016135,2005,1,1
+Colombia,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.0163485,2010,1,1

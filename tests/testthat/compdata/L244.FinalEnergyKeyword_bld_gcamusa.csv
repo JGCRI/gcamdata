@@ -1,0 +1,869 @@
+# A44.sector written to all states
+region,supplysector,final.energy
+AK,resid heating,building
+AL,resid heating,building
+AR,resid heating,building
+AZ,resid heating,building
+CA,resid heating,building
+CO,resid heating,building
+CT,resid heating,building
+DC,resid heating,building
+DE,resid heating,building
+FL,resid heating,building
+GA,resid heating,building
+HI,resid heating,building
+IA,resid heating,building
+ID,resid heating,building
+IL,resid heating,building
+IN,resid heating,building
+KS,resid heating,building
+KY,resid heating,building
+LA,resid heating,building
+MA,resid heating,building
+MD,resid heating,building
+ME,resid heating,building
+MI,resid heating,building
+MN,resid heating,building
+MO,resid heating,building
+MS,resid heating,building
+MT,resid heating,building
+NC,resid heating,building
+ND,resid heating,building
+NE,resid heating,building
+NH,resid heating,building
+NJ,resid heating,building
+NM,resid heating,building
+NV,resid heating,building
+NY,resid heating,building
+OH,resid heating,building
+OK,resid heating,building
+OR,resid heating,building
+PA,resid heating,building
+RI,resid heating,building
+SC,resid heating,building
+SD,resid heating,building
+TN,resid heating,building
+TX,resid heating,building
+UT,resid heating,building
+VA,resid heating,building
+VT,resid heating,building
+WA,resid heating,building
+WI,resid heating,building
+WV,resid heating,building
+WY,resid heating,building
+AK,resid cooling,building
+AL,resid cooling,building
+AR,resid cooling,building
+AZ,resid cooling,building
+CA,resid cooling,building
+CO,resid cooling,building
+CT,resid cooling,building
+DC,resid cooling,building
+DE,resid cooling,building
+FL,resid cooling,building
+GA,resid cooling,building
+HI,resid cooling,building
+IA,resid cooling,building
+ID,resid cooling,building
+IL,resid cooling,building
+IN,resid cooling,building
+KS,resid cooling,building
+KY,resid cooling,building
+LA,resid cooling,building
+MA,resid cooling,building
+MD,resid cooling,building
+ME,resid cooling,building
+MI,resid cooling,building
+MN,resid cooling,building
+MO,resid cooling,building
+MS,resid cooling,building
+MT,resid cooling,building
+NC,resid cooling,building
+ND,resid cooling,building
+NE,resid cooling,building
+NH,resid cooling,building
+NJ,resid cooling,building
+NM,resid cooling,building
+NV,resid cooling,building
+NY,resid cooling,building
+OH,resid cooling,building
+OK,resid cooling,building
+OR,resid cooling,building
+PA,resid cooling,building
+RI,resid cooling,building
+SC,resid cooling,building
+SD,resid cooling,building
+TN,resid cooling,building
+TX,resid cooling,building
+UT,resid cooling,building
+VA,resid cooling,building
+VT,resid cooling,building
+WA,resid cooling,building
+WI,resid cooling,building
+WV,resid cooling,building
+WY,resid cooling,building
+AK,resid hot water,building
+AL,resid hot water,building
+AR,resid hot water,building
+AZ,resid hot water,building
+CA,resid hot water,building
+CO,resid hot water,building
+CT,resid hot water,building
+DC,resid hot water,building
+DE,resid hot water,building
+FL,resid hot water,building
+GA,resid hot water,building
+HI,resid hot water,building
+IA,resid hot water,building
+ID,resid hot water,building
+IL,resid hot water,building
+IN,resid hot water,building
+KS,resid hot water,building
+KY,resid hot water,building
+LA,resid hot water,building
+MA,resid hot water,building
+MD,resid hot water,building
+ME,resid hot water,building
+MI,resid hot water,building
+MN,resid hot water,building
+MO,resid hot water,building
+MS,resid hot water,building
+MT,resid hot water,building
+NC,resid hot water,building
+ND,resid hot water,building
+NE,resid hot water,building
+NH,resid hot water,building
+NJ,resid hot water,building
+NM,resid hot water,building
+NV,resid hot water,building
+NY,resid hot water,building
+OH,resid hot water,building
+OK,resid hot water,building
+OR,resid hot water,building
+PA,resid hot water,building
+RI,resid hot water,building
+SC,resid hot water,building
+SD,resid hot water,building
+TN,resid hot water,building
+TX,resid hot water,building
+UT,resid hot water,building
+VA,resid hot water,building
+VT,resid hot water,building
+WA,resid hot water,building
+WI,resid hot water,building
+WV,resid hot water,building
+WY,resid hot water,building
+AK,resid lighting,building
+AL,resid lighting,building
+AR,resid lighting,building
+AZ,resid lighting,building
+CA,resid lighting,building
+CO,resid lighting,building
+CT,resid lighting,building
+DC,resid lighting,building
+DE,resid lighting,building
+FL,resid lighting,building
+GA,resid lighting,building
+HI,resid lighting,building
+IA,resid lighting,building
+ID,resid lighting,building
+IL,resid lighting,building
+IN,resid lighting,building
+KS,resid lighting,building
+KY,resid lighting,building
+LA,resid lighting,building
+MA,resid lighting,building
+MD,resid lighting,building
+ME,resid lighting,building
+MI,resid lighting,building
+MN,resid lighting,building
+MO,resid lighting,building
+MS,resid lighting,building
+MT,resid lighting,building
+NC,resid lighting,building
+ND,resid lighting,building
+NE,resid lighting,building
+NH,resid lighting,building
+NJ,resid lighting,building
+NM,resid lighting,building
+NV,resid lighting,building
+NY,resid lighting,building
+OH,resid lighting,building
+OK,resid lighting,building
+OR,resid lighting,building
+PA,resid lighting,building
+RI,resid lighting,building
+SC,resid lighting,building
+SD,resid lighting,building
+TN,resid lighting,building
+TX,resid lighting,building
+UT,resid lighting,building
+VA,resid lighting,building
+VT,resid lighting,building
+WA,resid lighting,building
+WI,resid lighting,building
+WV,resid lighting,building
+WY,resid lighting,building
+AK,resid appliances,building
+AL,resid appliances,building
+AR,resid appliances,building
+AZ,resid appliances,building
+CA,resid appliances,building
+CO,resid appliances,building
+CT,resid appliances,building
+DC,resid appliances,building
+DE,resid appliances,building
+FL,resid appliances,building
+GA,resid appliances,building
+HI,resid appliances,building
+IA,resid appliances,building
+ID,resid appliances,building
+IL,resid appliances,building
+IN,resid appliances,building
+KS,resid appliances,building
+KY,resid appliances,building
+LA,resid appliances,building
+MA,resid appliances,building
+MD,resid appliances,building
+ME,resid appliances,building
+MI,resid appliances,building
+MN,resid appliances,building
+MO,resid appliances,building
+MS,resid appliances,building
+MT,resid appliances,building
+NC,resid appliances,building
+ND,resid appliances,building
+NE,resid appliances,building
+NH,resid appliances,building
+NJ,resid appliances,building
+NM,resid appliances,building
+NV,resid appliances,building
+NY,resid appliances,building
+OH,resid appliances,building
+OK,resid appliances,building
+OR,resid appliances,building
+PA,resid appliances,building
+RI,resid appliances,building
+SC,resid appliances,building
+SD,resid appliances,building
+TN,resid appliances,building
+TX,resid appliances,building
+UT,resid appliances,building
+VA,resid appliances,building
+VT,resid appliances,building
+WA,resid appliances,building
+WI,resid appliances,building
+WV,resid appliances,building
+WY,resid appliances,building
+AK,resid other appliances,building
+AL,resid other appliances,building
+AR,resid other appliances,building
+AZ,resid other appliances,building
+CA,resid other appliances,building
+CO,resid other appliances,building
+CT,resid other appliances,building
+DC,resid other appliances,building
+DE,resid other appliances,building
+FL,resid other appliances,building
+GA,resid other appliances,building
+HI,resid other appliances,building
+IA,resid other appliances,building
+ID,resid other appliances,building
+IL,resid other appliances,building
+IN,resid other appliances,building
+KS,resid other appliances,building
+KY,resid other appliances,building
+LA,resid other appliances,building
+MA,resid other appliances,building
+MD,resid other appliances,building
+ME,resid other appliances,building
+MI,resid other appliances,building
+MN,resid other appliances,building
+MO,resid other appliances,building
+MS,resid other appliances,building
+MT,resid other appliances,building
+NC,resid other appliances,building
+ND,resid other appliances,building
+NE,resid other appliances,building
+NH,resid other appliances,building
+NJ,resid other appliances,building
+NM,resid other appliances,building
+NV,resid other appliances,building
+NY,resid other appliances,building
+OH,resid other appliances,building
+OK,resid other appliances,building
+OR,resid other appliances,building
+PA,resid other appliances,building
+RI,resid other appliances,building
+SC,resid other appliances,building
+SD,resid other appliances,building
+TN,resid other appliances,building
+TX,resid other appliances,building
+UT,resid other appliances,building
+VA,resid other appliances,building
+VT,resid other appliances,building
+WA,resid other appliances,building
+WI,resid other appliances,building
+WV,resid other appliances,building
+WY,resid other appliances,building
+AK,resid other,building
+AL,resid other,building
+AR,resid other,building
+AZ,resid other,building
+CA,resid other,building
+CO,resid other,building
+CT,resid other,building
+DC,resid other,building
+DE,resid other,building
+FL,resid other,building
+GA,resid other,building
+HI,resid other,building
+IA,resid other,building
+ID,resid other,building
+IL,resid other,building
+IN,resid other,building
+KS,resid other,building
+KY,resid other,building
+LA,resid other,building
+MA,resid other,building
+MD,resid other,building
+ME,resid other,building
+MI,resid other,building
+MN,resid other,building
+MO,resid other,building
+MS,resid other,building
+MT,resid other,building
+NC,resid other,building
+ND,resid other,building
+NE,resid other,building
+NH,resid other,building
+NJ,resid other,building
+NM,resid other,building
+NV,resid other,building
+NY,resid other,building
+OH,resid other,building
+OK,resid other,building
+OR,resid other,building
+PA,resid other,building
+RI,resid other,building
+SC,resid other,building
+SD,resid other,building
+TN,resid other,building
+TX,resid other,building
+UT,resid other,building
+VA,resid other,building
+VT,resid other,building
+WA,resid other,building
+WI,resid other,building
+WV,resid other,building
+WY,resid other,building
+AK,comm heating,building
+AL,comm heating,building
+AR,comm heating,building
+AZ,comm heating,building
+CA,comm heating,building
+CO,comm heating,building
+CT,comm heating,building
+DC,comm heating,building
+DE,comm heating,building
+FL,comm heating,building
+GA,comm heating,building
+HI,comm heating,building
+IA,comm heating,building
+ID,comm heating,building
+IL,comm heating,building
+IN,comm heating,building
+KS,comm heating,building
+KY,comm heating,building
+LA,comm heating,building
+MA,comm heating,building
+MD,comm heating,building
+ME,comm heating,building
+MI,comm heating,building
+MN,comm heating,building
+MO,comm heating,building
+MS,comm heating,building
+MT,comm heating,building
+NC,comm heating,building
+ND,comm heating,building
+NE,comm heating,building
+NH,comm heating,building
+NJ,comm heating,building
+NM,comm heating,building
+NV,comm heating,building
+NY,comm heating,building
+OH,comm heating,building
+OK,comm heating,building
+OR,comm heating,building
+PA,comm heating,building
+RI,comm heating,building
+SC,comm heating,building
+SD,comm heating,building
+TN,comm heating,building
+TX,comm heating,building
+UT,comm heating,building
+VA,comm heating,building
+VT,comm heating,building
+WA,comm heating,building
+WI,comm heating,building
+WV,comm heating,building
+WY,comm heating,building
+AK,comm cooling,building
+AL,comm cooling,building
+AR,comm cooling,building
+AZ,comm cooling,building
+CA,comm cooling,building
+CO,comm cooling,building
+CT,comm cooling,building
+DC,comm cooling,building
+DE,comm cooling,building
+FL,comm cooling,building
+GA,comm cooling,building
+HI,comm cooling,building
+IA,comm cooling,building
+ID,comm cooling,building
+IL,comm cooling,building
+IN,comm cooling,building
+KS,comm cooling,building
+KY,comm cooling,building
+LA,comm cooling,building
+MA,comm cooling,building
+MD,comm cooling,building
+ME,comm cooling,building
+MI,comm cooling,building
+MN,comm cooling,building
+MO,comm cooling,building
+MS,comm cooling,building
+MT,comm cooling,building
+NC,comm cooling,building
+ND,comm cooling,building
+NE,comm cooling,building
+NH,comm cooling,building
+NJ,comm cooling,building
+NM,comm cooling,building
+NV,comm cooling,building
+NY,comm cooling,building
+OH,comm cooling,building
+OK,comm cooling,building
+OR,comm cooling,building
+PA,comm cooling,building
+RI,comm cooling,building
+SC,comm cooling,building
+SD,comm cooling,building
+TN,comm cooling,building
+TX,comm cooling,building
+UT,comm cooling,building
+VA,comm cooling,building
+VT,comm cooling,building
+WA,comm cooling,building
+WI,comm cooling,building
+WV,comm cooling,building
+WY,comm cooling,building
+AK,comm hot water,building
+AL,comm hot water,building
+AR,comm hot water,building
+AZ,comm hot water,building
+CA,comm hot water,building
+CO,comm hot water,building
+CT,comm hot water,building
+DC,comm hot water,building
+DE,comm hot water,building
+FL,comm hot water,building
+GA,comm hot water,building
+HI,comm hot water,building
+IA,comm hot water,building
+ID,comm hot water,building
+IL,comm hot water,building
+IN,comm hot water,building
+KS,comm hot water,building
+KY,comm hot water,building
+LA,comm hot water,building
+MA,comm hot water,building
+MD,comm hot water,building
+ME,comm hot water,building
+MI,comm hot water,building
+MN,comm hot water,building
+MO,comm hot water,building
+MS,comm hot water,building
+MT,comm hot water,building
+NC,comm hot water,building
+ND,comm hot water,building
+NE,comm hot water,building
+NH,comm hot water,building
+NJ,comm hot water,building
+NM,comm hot water,building
+NV,comm hot water,building
+NY,comm hot water,building
+OH,comm hot water,building
+OK,comm hot water,building
+OR,comm hot water,building
+PA,comm hot water,building
+RI,comm hot water,building
+SC,comm hot water,building
+SD,comm hot water,building
+TN,comm hot water,building
+TX,comm hot water,building
+UT,comm hot water,building
+VA,comm hot water,building
+VT,comm hot water,building
+WA,comm hot water,building
+WI,comm hot water,building
+WV,comm hot water,building
+WY,comm hot water,building
+AK,comm ventilation,building
+AL,comm ventilation,building
+AR,comm ventilation,building
+AZ,comm ventilation,building
+CA,comm ventilation,building
+CO,comm ventilation,building
+CT,comm ventilation,building
+DC,comm ventilation,building
+DE,comm ventilation,building
+FL,comm ventilation,building
+GA,comm ventilation,building
+HI,comm ventilation,building
+IA,comm ventilation,building
+ID,comm ventilation,building
+IL,comm ventilation,building
+IN,comm ventilation,building
+KS,comm ventilation,building
+KY,comm ventilation,building
+LA,comm ventilation,building
+MA,comm ventilation,building
+MD,comm ventilation,building
+ME,comm ventilation,building
+MI,comm ventilation,building
+MN,comm ventilation,building
+MO,comm ventilation,building
+MS,comm ventilation,building
+MT,comm ventilation,building
+NC,comm ventilation,building
+ND,comm ventilation,building
+NE,comm ventilation,building
+NH,comm ventilation,building
+NJ,comm ventilation,building
+NM,comm ventilation,building
+NV,comm ventilation,building
+NY,comm ventilation,building
+OH,comm ventilation,building
+OK,comm ventilation,building
+OR,comm ventilation,building
+PA,comm ventilation,building
+RI,comm ventilation,building
+SC,comm ventilation,building
+SD,comm ventilation,building
+TN,comm ventilation,building
+TX,comm ventilation,building
+UT,comm ventilation,building
+VA,comm ventilation,building
+VT,comm ventilation,building
+WA,comm ventilation,building
+WI,comm ventilation,building
+WV,comm ventilation,building
+WY,comm ventilation,building
+AK,comm cooking,building
+AL,comm cooking,building
+AR,comm cooking,building
+AZ,comm cooking,building
+CA,comm cooking,building
+CO,comm cooking,building
+CT,comm cooking,building
+DC,comm cooking,building
+DE,comm cooking,building
+FL,comm cooking,building
+GA,comm cooking,building
+HI,comm cooking,building
+IA,comm cooking,building
+ID,comm cooking,building
+IL,comm cooking,building
+IN,comm cooking,building
+KS,comm cooking,building
+KY,comm cooking,building
+LA,comm cooking,building
+MA,comm cooking,building
+MD,comm cooking,building
+ME,comm cooking,building
+MI,comm cooking,building
+MN,comm cooking,building
+MO,comm cooking,building
+MS,comm cooking,building
+MT,comm cooking,building
+NC,comm cooking,building
+ND,comm cooking,building
+NE,comm cooking,building
+NH,comm cooking,building
+NJ,comm cooking,building
+NM,comm cooking,building
+NV,comm cooking,building
+NY,comm cooking,building
+OH,comm cooking,building
+OK,comm cooking,building
+OR,comm cooking,building
+PA,comm cooking,building
+RI,comm cooking,building
+SC,comm cooking,building
+SD,comm cooking,building
+TN,comm cooking,building
+TX,comm cooking,building
+UT,comm cooking,building
+VA,comm cooking,building
+VT,comm cooking,building
+WA,comm cooking,building
+WI,comm cooking,building
+WV,comm cooking,building
+WY,comm cooking,building
+AK,comm lighting,building
+AL,comm lighting,building
+AR,comm lighting,building
+AZ,comm lighting,building
+CA,comm lighting,building
+CO,comm lighting,building
+CT,comm lighting,building
+DC,comm lighting,building
+DE,comm lighting,building
+FL,comm lighting,building
+GA,comm lighting,building
+HI,comm lighting,building
+IA,comm lighting,building
+ID,comm lighting,building
+IL,comm lighting,building
+IN,comm lighting,building
+KS,comm lighting,building
+KY,comm lighting,building
+LA,comm lighting,building
+MA,comm lighting,building
+MD,comm lighting,building
+ME,comm lighting,building
+MI,comm lighting,building
+MN,comm lighting,building
+MO,comm lighting,building
+MS,comm lighting,building
+MT,comm lighting,building
+NC,comm lighting,building
+ND,comm lighting,building
+NE,comm lighting,building
+NH,comm lighting,building
+NJ,comm lighting,building
+NM,comm lighting,building
+NV,comm lighting,building
+NY,comm lighting,building
+OH,comm lighting,building
+OK,comm lighting,building
+OR,comm lighting,building
+PA,comm lighting,building
+RI,comm lighting,building
+SC,comm lighting,building
+SD,comm lighting,building
+TN,comm lighting,building
+TX,comm lighting,building
+UT,comm lighting,building
+VA,comm lighting,building
+VT,comm lighting,building
+WA,comm lighting,building
+WI,comm lighting,building
+WV,comm lighting,building
+WY,comm lighting,building
+AK,comm refrigeration,building
+AL,comm refrigeration,building
+AR,comm refrigeration,building
+AZ,comm refrigeration,building
+CA,comm refrigeration,building
+CO,comm refrigeration,building
+CT,comm refrigeration,building
+DC,comm refrigeration,building
+DE,comm refrigeration,building
+FL,comm refrigeration,building
+GA,comm refrigeration,building
+HI,comm refrigeration,building
+IA,comm refrigeration,building
+ID,comm refrigeration,building
+IL,comm refrigeration,building
+IN,comm refrigeration,building
+KS,comm refrigeration,building
+KY,comm refrigeration,building
+LA,comm refrigeration,building
+MA,comm refrigeration,building
+MD,comm refrigeration,building
+ME,comm refrigeration,building
+MI,comm refrigeration,building
+MN,comm refrigeration,building
+MO,comm refrigeration,building
+MS,comm refrigeration,building
+MT,comm refrigeration,building
+NC,comm refrigeration,building
+ND,comm refrigeration,building
+NE,comm refrigeration,building
+NH,comm refrigeration,building
+NJ,comm refrigeration,building
+NM,comm refrigeration,building
+NV,comm refrigeration,building
+NY,comm refrigeration,building
+OH,comm refrigeration,building
+OK,comm refrigeration,building
+OR,comm refrigeration,building
+PA,comm refrigeration,building
+RI,comm refrigeration,building
+SC,comm refrigeration,building
+SD,comm refrigeration,building
+TN,comm refrigeration,building
+TX,comm refrigeration,building
+UT,comm refrigeration,building
+VA,comm refrigeration,building
+VT,comm refrigeration,building
+WA,comm refrigeration,building
+WI,comm refrigeration,building
+WV,comm refrigeration,building
+WY,comm refrigeration,building
+AK,comm office,building
+AL,comm office,building
+AR,comm office,building
+AZ,comm office,building
+CA,comm office,building
+CO,comm office,building
+CT,comm office,building
+DC,comm office,building
+DE,comm office,building
+FL,comm office,building
+GA,comm office,building
+HI,comm office,building
+IA,comm office,building
+ID,comm office,building
+IL,comm office,building
+IN,comm office,building
+KS,comm office,building
+KY,comm office,building
+LA,comm office,building
+MA,comm office,building
+MD,comm office,building
+ME,comm office,building
+MI,comm office,building
+MN,comm office,building
+MO,comm office,building
+MS,comm office,building
+MT,comm office,building
+NC,comm office,building
+ND,comm office,building
+NE,comm office,building
+NH,comm office,building
+NJ,comm office,building
+NM,comm office,building
+NV,comm office,building
+NY,comm office,building
+OH,comm office,building
+OK,comm office,building
+OR,comm office,building
+PA,comm office,building
+RI,comm office,building
+SC,comm office,building
+SD,comm office,building
+TN,comm office,building
+TX,comm office,building
+UT,comm office,building
+VA,comm office,building
+VT,comm office,building
+WA,comm office,building
+WI,comm office,building
+WV,comm office,building
+WY,comm office,building
+AK,comm other,building
+AL,comm other,building
+AR,comm other,building
+AZ,comm other,building
+CA,comm other,building
+CO,comm other,building
+CT,comm other,building
+DC,comm other,building
+DE,comm other,building
+FL,comm other,building
+GA,comm other,building
+HI,comm other,building
+IA,comm other,building
+ID,comm other,building
+IL,comm other,building
+IN,comm other,building
+KS,comm other,building
+KY,comm other,building
+LA,comm other,building
+MA,comm other,building
+MD,comm other,building
+ME,comm other,building
+MI,comm other,building
+MN,comm other,building
+MO,comm other,building
+MS,comm other,building
+MT,comm other,building
+NC,comm other,building
+ND,comm other,building
+NE,comm other,building
+NH,comm other,building
+NJ,comm other,building
+NM,comm other,building
+NV,comm other,building
+NY,comm other,building
+OH,comm other,building
+OK,comm other,building
+OR,comm other,building
+PA,comm other,building
+RI,comm other,building
+SC,comm other,building
+SD,comm other,building
+TN,comm other,building
+TX,comm other,building
+UT,comm other,building
+VA,comm other,building
+VT,comm other,building
+WA,comm other,building
+WI,comm other,building
+WV,comm other,building
+WY,comm other,building
+AK,comm non-building,building
+AL,comm non-building,building
+AR,comm non-building,building
+AZ,comm non-building,building
+CA,comm non-building,building
+CO,comm non-building,building
+CT,comm non-building,building
+DC,comm non-building,building
+DE,comm non-building,building
+FL,comm non-building,building
+GA,comm non-building,building
+HI,comm non-building,building
+IA,comm non-building,building
+ID,comm non-building,building
+IL,comm non-building,building
+IN,comm non-building,building
+KS,comm non-building,building
+KY,comm non-building,building
+LA,comm non-building,building
+MA,comm non-building,building
+MD,comm non-building,building
+ME,comm non-building,building
+MI,comm non-building,building
+MN,comm non-building,building
+MO,comm non-building,building
+MS,comm non-building,building
+MT,comm non-building,building
+NC,comm non-building,building
+ND,comm non-building,building
+NE,comm non-building,building
+NH,comm non-building,building
+NJ,comm non-building,building
+NM,comm non-building,building
+NV,comm non-building,building
+NY,comm non-building,building
+OH,comm non-building,building
+OK,comm non-building,building
+OR,comm non-building,building
+PA,comm non-building,building
+RI,comm non-building,building
+SC,comm non-building,building
+SD,comm non-building,building
+TN,comm non-building,building
+TX,comm non-building,building
+UT,comm non-building,building
+VA,comm non-building,building
+VT,comm non-building,building
+WA,comm non-building,building
+WI,comm non-building,building
+WV,comm non-building,building
+WY,comm non-building,building

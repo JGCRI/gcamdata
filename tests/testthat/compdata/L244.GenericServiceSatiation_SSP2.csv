@@ -1,0 +1,67 @@
+# For USA, calculate satiation level as base year service / base year floorspace times multiplier
+# USA values written to all regions, then we make sure that no satiation level is below base year service per floorspace
+region,gcam.consumer,nodeInput,building.node.input,building.service.input,satiation.level
+USA,comm,comm,comm_building,comm others,1.018354
+Africa_Eastern,comm,comm,comm_building,comm others,1.018354
+Africa_Northern,comm,comm,comm_building,comm others,1.018354
+Africa_Southern,comm,comm,comm_building,comm others,1.018354
+Africa_Western,comm,comm,comm_building,comm others,1.018354
+Australia_NZ,comm,comm,comm_building,comm others,1.018354
+Brazil,comm,comm,comm_building,comm others,1.018354
+Canada,comm,comm,comm_building,comm others,1.018354
+Central America and Caribbean,comm,comm,comm_building,comm others,1.018354
+Central Asia,comm,comm,comm_building,comm others,1.018354
+China,comm,comm,comm_building,comm others,1.018354
+EU-12,comm,comm,comm_building,comm others,1.018354
+EU-15,comm,comm,comm_building,comm others,1.018354
+Europe_Eastern,comm,comm,comm_building,comm others,1.018354
+Europe_Non_EU,comm,comm,comm_building,comm others,1.018354
+European Free Trade Association,comm,comm,comm_building,comm others,1.018354
+India,comm,comm,comm_building,comm others,1.018354
+Indonesia,comm,comm,comm_building,comm others,1.018354
+Japan,comm,comm,comm_building,comm others,1.018354
+Mexico,comm,comm,comm_building,comm others,1.018354
+Middle East,comm,comm,comm_building,comm others,1.018354
+Pakistan,comm,comm,comm_building,comm others,1.018354
+Russia,comm,comm,comm_building,comm others,1.018354
+South Africa,comm,comm,comm_building,comm others,1.4176050796666668
+South America_Northern,comm,comm,comm_building,comm others,1.018354
+South America_Southern,comm,comm,comm_building,comm others,1.018354
+South Asia,comm,comm,comm_building,comm others,1.018354
+South Korea,comm,comm,comm_building,comm others,1.018354
+Southeast Asia,comm,comm,comm_building,comm others,1.018354
+Taiwan,comm,comm,comm_building,comm others,1.1481096270689655
+Argentina,comm,comm,comm_building,comm others,1.018354
+Colombia,comm,comm,comm_building,comm others,1.018354
+USA,resid,resid,resid_building,resid others,0.351396
+Africa_Eastern,resid,resid,resid_building,resid others,0.351396
+Africa_Northern,resid,resid,resid_building,resid others,0.351396
+Africa_Southern,resid,resid,resid_building,resid others,0.351396
+Africa_Western,resid,resid,resid_building,resid others,0.351396
+Australia_NZ,resid,resid,resid_building,resid others,0.351396
+Brazil,resid,resid,resid_building,resid others,0.351396
+Canada,resid,resid,resid_building,resid others,0.351396
+Central America and Caribbean,resid,resid,resid_building,resid others,0.351396
+Central Asia,resid,resid,resid_building,resid others,0.351396
+China,resid,resid,resid_building,resid others,0.351396
+EU-12,resid,resid,resid_building,resid others,0.351396
+EU-15,resid,resid,resid_building,resid others,0.351396
+Europe_Eastern,resid,resid,resid_building,resid others,0.351396
+Europe_Non_EU,resid,resid,resid_building,resid others,0.351396
+European Free Trade Association,resid,resid,resid_building,resid others,0.351396
+India,resid,resid,resid_building,resid others,0.351396
+Indonesia,resid,resid,resid_building,resid others,0.351396
+Japan,resid,resid,resid_building,resid others,0.351396
+Mexico,resid,resid,resid_building,resid others,0.351396
+Middle East,resid,resid,resid_building,resid others,0.351396
+Pakistan,resid,resid,resid_building,resid others,0.351396
+Russia,resid,resid,resid_building,resid others,0.351396
+South Africa,resid,resid,resid_building,resid others,0.351396
+South America_Northern,resid,resid,resid_building,resid others,0.351396
+South America_Southern,resid,resid,resid_building,resid others,0.351396
+South Asia,resid,resid,resid_building,resid others,0.351396
+South Korea,resid,resid,resid_building,resid others,0.351396
+Southeast Asia,resid,resid,resid_building,resid others,0.351396
+Taiwan,resid,resid,resid_building,resid others,0.4630796366666666
+Argentina,resid,resid,resid_building,resid others,0.351396
+Colombia,resid,resid,resid_building,resid others,0.351396

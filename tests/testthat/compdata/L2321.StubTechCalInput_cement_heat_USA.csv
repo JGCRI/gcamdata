@@ -1,0 +1,644 @@
+# Subset energy inputs to cement production to include heat producing technologies
+# Added sector information from calibrated technology mapping file
+# Added share weight information
+region,supplysector,subsector,stub.technology,year,minicam.energy.input,calibrated.value,share.weight.year,subs.share.weight,tech.share.weight
+AL,process heat cement,biomass,biomass,1975,delivered biomass,7.792359e-5,1975,1,1
+AZ,process heat cement,biomass,biomass,1975,delivered biomass,1.125736e-4,1975,1,1
+AR,process heat cement,biomass,biomass,1975,delivered biomass,2.481407e-5,1975,1,1
+CA,process heat cement,biomass,biomass,1975,delivered biomass,3.670693e-4,1975,1,1
+CO,process heat cement,biomass,biomass,1975,delivered biomass,6.836997e-5,1975,1,1
+CT,process heat cement,biomass,biomass,1975,delivered biomass,2.429303e-5,1975,1,1
+FL,process heat cement,biomass,biomass,1975,delivered biomass,2.223068e-4,1975,1,1
+GA,process heat cement,biomass,biomass,1975,delivered biomass,9.742172e-5,1975,1,1
+ID,process heat cement,biomass,biomass,1975,delivered biomass,1.799247e-5,1975,1,1
+IL,process heat cement,biomass,biomass,1975,delivered biomass,1.239404e-4,1975,1,1
+IN,process heat cement,biomass,biomass,1975,delivered biomass,6.816258e-5,1975,1,1
+IA,process heat cement,biomass,biomass,1975,delivered biomass,4.954619e-5,1975,1,1
+KS,process heat cement,biomass,biomass,1975,delivered biomass,3.975626e-5,1975,1,1
+KY,process heat cement,biomass,biomass,1975,delivered biomass,3.164957e-5,1975,1,1
+LA,process heat cement,biomass,biomass,1975,delivered biomass,3.682988e-5,1975,1,1
+MD,process heat cement,biomass,biomass,1975,delivered biomass,5.040731e-5,1975,1,1
+MA,process heat cement,biomass,biomass,1975,delivered biomass,2.792573e-5,1975,1,1
+MI,process heat cement,biomass,biomass,1975,delivered biomass,7.223266e-5,1975,1,1
+MN,process heat cement,biomass,biomass,1975,delivered biomass,5.337946e-5,1975,1,1
+MS,process heat cement,biomass,biomass,1975,delivered biomass,2.970765e-5,1975,1,1
+MO,process heat cement,biomass,biomass,1975,delivered biomass,7.832213e-5,1975,1,1
+NE,process heat cement,biomass,biomass,1975,delivered biomass,2.172357e-5,1975,1,1
+NV,process heat cement,biomass,biomass,1975,delivered biomass,5.190006e-5,1975,1,1
+NJ,process heat cement,biomass,biomass,1975,delivered biomass,6.64061e-5,1975,1,1
+NM,process heat cement,biomass,biomass,1975,delivered biomass,1.924764e-5,1975,1,1
+NY,process heat cement,biomass,biomass,1975,delivered biomass,1.012896e-4,1975,1,1
+NC,process heat cement,biomass,biomass,1975,delivered biomass,8.001212e-5,1975,1,1
+OH,process heat cement,biomass,biomass,1975,delivered biomass,9.308381e-5,1975,1,1
+OK,process heat cement,biomass,biomass,1975,delivered biomass,4.278459e-5,1975,1,1
+OR,process heat cement,biomass,biomass,1975,delivered biomass,3.099955e-5,1975,1,1
+PA,process heat cement,biomass,biomass,1975,delivered biomass,1.503838e-4,1975,1,1
+SC,process heat cement,biomass,biomass,1975,delivered biomass,7.132921e-5,1975,1,1
+SD,process heat cement,biomass,biomass,1975,delivered biomass,1.336118e-5,1975,1,1
+TN,process heat cement,biomass,biomass,1975,delivered biomass,6.696953e-5,1975,1,1
+TX,process heat cement,biomass,biomass,1975,delivered biomass,3.429744e-4,1975,1,1
+UT,process heat cement,biomass,biomass,1975,delivered biomass,3.246249e-5,1975,1,1
+VA,process heat cement,biomass,biomass,1975,delivered biomass,8.253548e-5,1975,1,1
+WA,process heat cement,biomass,biomass,1975,delivered biomass,6.549312e-5,1975,1,1
+WV,process heat cement,biomass,biomass,1975,delivered biomass,1.856509e-5,1975,1,1
+WI,process heat cement,biomass,biomass,1975,delivered biomass,5.098758e-5,1975,1,1
+AL,process heat cement,biomass,biomass,1990,delivered biomass,8.045353e-5,1990,1,1
+AZ,process heat cement,biomass,biomass,1990,delivered biomass,1.162285e-4,1990,1,1
+AR,process heat cement,biomass,biomass,1990,delivered biomass,2.56197e-5,1990,1,1
+CA,process heat cement,biomass,biomass,1990,delivered biomass,3.789869e-4,1990,1,1
+CO,process heat cement,biomass,biomass,1990,delivered biomass,7.058973e-5,1990,1,1
+CT,process heat cement,biomass,biomass,1990,delivered biomass,2.508175e-5,1990,1,1
+FL,process heat cement,biomass,biomass,1990,delivered biomass,2.295244e-4,1990,1,1
+GA,process heat cement,biomass,biomass,1990,delivered biomass,1.005847e-4,1990,1,1
+ID,process heat cement,biomass,biomass,1990,delivered biomass,1.857663e-5,1990,1,1
+IL,process heat cement,biomass,biomass,1990,delivered biomass,1.279643e-4,1990,1,1
+IN,process heat cement,biomass,biomass,1990,delivered biomass,7.037562e-5,1990,1,1
+IA,process heat cement,biomass,biomass,1990,delivered biomass,5.11548e-5,1990,1,1
+KS,process heat cement,biomass,biomass,1990,delivered biomass,4.104703e-5,1990,1,1
+KY,process heat cement,biomass,biomass,1990,delivered biomass,3.267714e-5,1990,1,1
+LA,process heat cement,biomass,biomass,1990,delivered biomass,3.802563e-5,1990,1,1
+MD,process heat cement,biomass,biomass,1990,delivered biomass,5.204388e-5,1990,1,1
+MA,process heat cement,biomass,biomass,1990,delivered biomass,2.883239e-5,1990,1,1
+MI,process heat cement,biomass,biomass,1990,delivered biomass,7.457784e-5,1990,1,1
+MN,process heat cement,biomass,biomass,1990,delivered biomass,5.511253e-5,1990,1,1
+MS,process heat cement,biomass,biomass,1990,delivered biomass,3.067216e-5,1990,1,1
+MO,process heat cement,biomass,biomass,1990,delivered biomass,8.086501e-5,1990,1,1
+NE,process heat cement,biomass,biomass,1990,delivered biomass,2.242887e-5,1990,1,1
+NV,process heat cement,biomass,biomass,1990,delivered biomass,5.35851e-5,1990,1,1
+NJ,process heat cement,biomass,biomass,1990,delivered biomass,6.85621e-5,1990,1,1
+NM,process heat cement,biomass,biomass,1990,delivered biomass,1.987255e-5,1990,1,1
+NY,process heat cement,biomass,biomass,1990,delivered biomass,1.045782e-4,1990,1,1
+NC,process heat cement,biomass,biomass,1990,delivered biomass,8.260987e-5,1990,1,1
+OH,process heat cement,biomass,biomass,1990,delivered biomass,9.610595e-5,1990,1,1
+OK,process heat cement,biomass,biomass,1990,delivered biomass,4.417368e-5,1990,1,1
+OR,process heat cement,biomass,biomass,1990,delivered biomass,3.200601e-5,1990,1,1
+PA,process heat cement,biomass,biomass,1990,delivered biomass,1.552663e-4,1990,1,1
+SC,process heat cement,biomass,biomass,1990,delivered biomass,7.364505e-5,1990,1,1
+SD,process heat cement,biomass,biomass,1990,delivered biomass,1.379498e-5,1990,1,1
+TN,process heat cement,biomass,biomass,1990,delivered biomass,6.914382e-5,1990,1,1
+TX,process heat cement,biomass,biomass,1990,delivered biomass,3.541097e-4,1990,1,1
+UT,process heat cement,biomass,biomass,1990,delivered biomass,3.351645e-5,1990,1,1
+VA,process heat cement,biomass,biomass,1990,delivered biomass,8.521516e-5,1990,1,1
+WA,process heat cement,biomass,biomass,1990,delivered biomass,6.761948e-5,1990,1,1
+WV,process heat cement,biomass,biomass,1990,delivered biomass,1.916784e-5,1990,1,1
+WI,process heat cement,biomass,biomass,1990,delivered biomass,5.264299e-5,1990,1,1
+AL,process heat cement,biomass,biomass,2005,delivered biomass,1.14905e-4,2005,1,1
+AZ,process heat cement,biomass,biomass,2005,delivered biomass,1.659995e-4,2005,1,1
+AR,process heat cement,biomass,biomass,2005,delivered biomass,3.659048e-5,2005,1,1
+CA,process heat cement,biomass,biomass,2005,delivered biomass,5.412753e-4,2005,1,1
+CO,process heat cement,biomass,biomass,2005,delivered biomass,1.008174e-4,2005,1,1
+CT,process heat cement,biomass,biomass,2005,delivered biomass,3.582216e-5,2005,1,1
+FL,process heat cement,biomass,biomass,2005,delivered biomass,3.278105e-4,2005,1,1
+GA,process heat cement,biomass,biomass,2005,delivered biomass,1.436567e-4,2005,1,1
+ID,process heat cement,biomass,biomass,2005,delivered biomass,2.653144e-5,2005,1,1
+IL,process heat cement,biomass,biomass,2005,delivered biomass,0.00018276070000000001,2005,1,1
+IN,process heat cement,biomass,biomass,2005,delivered biomass,1.005116e-4,2005,1,1
+IA,process heat cement,biomass,biomass,2005,delivered biomass,7.306012e-5,2005,1,1
+KS,process heat cement,biomass,biomass,2005,delivered biomass,5.862403e-5,2005,1,1
+KY,process heat cement,biomass,biomass,2005,delivered biomass,4.667002e-5,2005,1,1
+LA,process heat cement,biomass,biomass,2005,delivered biomass,5.430882e-5,2005,1,1
+MD,process heat cement,biomass,biomass,2005,delivered biomass,7.432992e-5,2005,1,1
+MA,process heat cement,biomass,biomass,2005,delivered biomass,4.117889e-5,2005,1,1
+MI,process heat cement,biomass,biomass,2005,delivered biomass,1.065133e-4,2005,1,1
+MN,process heat cement,biomass,biomass,2005,delivered biomass,7.871261e-5,2005,1,1
+MS,process heat cement,biomass,biomass,2005,delivered biomass,4.380648e-5,2005,1,1
+MO,process heat cement,biomass,biomass,2005,delivered biomass,1.154927e-4,2005,1,1
+NE,process heat cement,biomass,biomass,2005,delivered biomass,3.203327e-5,2005,1,1
+NV,process heat cement,biomass,biomass,2005,delivered biomass,7.653111e-5,2005,1,1
+NJ,process heat cement,biomass,biomass,2005,delivered biomass,9.792151e-5,2005,1,1
+NM,process heat cement,biomass,biomass,2005,delivered biomass,2.83823e-5,2005,1,1
+NY,process heat cement,biomass,biomass,2005,delivered biomass,1.493603e-4,2005,1,1
+NC,process heat cement,biomass,biomass,2005,delivered biomass,1.179848e-4,2005,1,1
+OH,process heat cement,biomass,biomass,2005,delivered biomass,1.372601e-4,2005,1,1
+OK,process heat cement,biomass,biomass,2005,delivered biomass,6.308956e-5,2005,1,1
+OR,process heat cement,biomass,biomass,2005,delivered biomass,4.57115e-5,2005,1,1
+PA,process heat cement,biomass,biomass,2005,delivered biomass,2.217539e-4,2005,1,1
+SC,process heat cement,biomass,biomass,2005,delivered biomass,1.051811e-4,2005,1,1
+SD,process heat cement,biomass,biomass,2005,delivered biomass,1.970221e-5,2005,1,1
+TN,process heat cement,biomass,biomass,2005,delivered biomass,9.875233e-5,2005,1,1
+TX,process heat cement,biomass,biomass,2005,delivered biomass,5.057452e-4,2005,1,1
+UT,process heat cement,biomass,biomass,2005,delivered biomass,4.786874e-5,2005,1,1
+VA,process heat cement,biomass,biomass,2005,delivered biomass,1.217057e-4,2005,1,1
+WA,process heat cement,biomass,biomass,2005,delivered biomass,9.657524e-5,2005,1,1
+WV,process heat cement,biomass,biomass,2005,delivered biomass,2.737582e-5,2005,1,1
+WI,process heat cement,biomass,biomass,2005,delivered biomass,7.518557e-5,2005,1,1
+AL,process heat cement,biomass,biomass,2010,delivered biomass,7.456616e-5,2010,1,1
+AZ,process heat cement,biomass,biomass,2010,delivered biomass,1.077233e-4,2010,1,1
+AR,process heat cement,biomass,biomass,2010,delivered biomass,2.374492e-5,2010,1,1
+CA,process heat cement,biomass,biomass,2010,delivered biomass,3.512537e-4,2010,1,1
+CO,process heat cement,biomass,biomass,2010,delivered biomass,6.542417e-5,2010,1,1
+CT,process heat cement,biomass,biomass,2010,delivered biomass,2.324633e-5,2010,1,1
+FL,process heat cement,biomass,biomass,2010,delivered biomass,2.127284e-4,2010,1,1
+GA,process heat cement,biomass,biomass,2010,delivered biomass,9.322419e-5,2010,1,1
+ID,process heat cement,biomass,biomass,2010,delivered biomass,1.721724e-5,2010,1,1
+IL,process heat cement,biomass,biomass,2010,delivered biomass,1.186002e-4,2010,1,1
+IN,process heat cement,biomass,biomass,2010,delivered biomass,6.522572e-5,2010,1,1
+IA,process heat cement,biomass,biomass,2010,delivered biomass,4.741143e-5,2010,1,1
+KS,process heat cement,biomass,biomass,2010,delivered biomass,3.804332e-5,2010,1,1
+KY,process heat cement,biomass,biomass,2010,delivered biomass,3.028591e-5,2010,1,1
+LA,process heat cement,biomass,biomass,2010,delivered biomass,3.524302e-5,2010,1,1
+MD,process heat cement,biomass,biomass,2010,delivered biomass,4.823545e-5,2010,1,1
+MA,process heat cement,biomass,biomass,2010,delivered biomass,2.672252e-5,2010,1,1
+MI,process heat cement,biomass,biomass,2010,delivered biomass,6.912043e-5,2010,1,1
+MN,process heat cement,biomass,biomass,2010,delivered biomass,5.107954e-5,2010,1,1
+MS,process heat cement,biomass,biomass,2010,delivered biomass,2.842766e-5,2010,1,1
+MO,process heat cement,biomass,biomass,2010,delivered biomass,7.494752e-5,2010,1,1
+NE,process heat cement,biomass,biomass,2010,delivered biomass,2.078758e-5,2010,1,1
+NV,process heat cement,biomass,biomass,2010,delivered biomass,4.966389e-5,2010,1,1
+NJ,process heat cement,biomass,biomass,2010,delivered biomass,6.354491e-5,2010,1,1
+NM,process heat cement,biomass,biomass,2010,delivered biomass,1.841833e-5,2010,1,1
+NY,process heat cement,biomass,biomass,2010,delivered biomass,9.692543e-5,2010,1,1
+NC,process heat cement,biomass,biomass,2010,delivered biomass,7.65647e-5,2010,1,1
+OH,process heat cement,biomass,biomass,2010,delivered biomass,8.907318e-5,2010,1,1
+OK,process heat cement,biomass,biomass,2010,delivered biomass,4.094117e-5,2010,1,1
+OR,process heat cement,biomass,biomass,2010,delivered biomass,2.96639e-5,2010,1,1
+PA,process heat cement,biomass,biomass,2010,delivered biomass,1.439043e-4,2010,1,1
+SC,process heat cement,biomass,biomass,2010,delivered biomass,6.825591e-5,2010,1,1
+SD,process heat cement,biomass,biomass,2010,delivered biomass,1.27855e-5,2010,1,1
+TN,process heat cement,biomass,biomass,2010,delivered biomass,6.408406e-5,2010,1,1
+TX,process heat cement,biomass,biomass,2010,delivered biomass,3.281969e-4,2010,1,1
+UT,process heat cement,biomass,biomass,2010,delivered biomass,3.106381e-5,2010,1,1
+VA,process heat cement,biomass,biomass,2010,delivered biomass,7.897934e-5,2010,1,1
+WA,process heat cement,biomass,biomass,2010,delivered biomass,6.267127e-5,2010,1,1
+WV,process heat cement,biomass,biomass,2010,delivered biomass,1.776519e-5,2010,1,1
+WI,process heat cement,biomass,biomass,2010,delivered biomass,4.879072e-5,2010,1,1
+AL,process heat cement,coal,coal,1975,delivered coal,0.005142957,1975,1,1
+AZ,process heat cement,coal,coal,1975,delivered coal,0.007429859,1975,1,1
+AR,process heat cement,coal,coal,1975,delivered coal,0.001637728,1975,1,1
+CA,process heat cement,coal,coal,1975,delivered coal,0.02422658,1975,1,1
+CO,process heat cement,coal,coal,1975,delivered coal,0.004512418,1975,1,1
+CT,process heat cement,coal,coal,1975,delivered coal,0.00160334,1975,1,1
+FL,process heat cement,coal,coal,1975,delivered coal,0.01467225,1975,1,1
+GA,process heat cement,coal,coal,1975,delivered coal,0.006429833,1975,1,1
+ID,process heat cement,coal,coal,1975,delivered coal,0.001187503,1975,1,1
+IL,process heat cement,coal,coal,1975,delivered coal,0.008180063,1975,1,1
+IN,process heat cement,coal,coal,1975,delivered coal,0.004498731,1975,1,1
+IA,process heat cement,coal,coal,1975,delivered coal,0.003270048,1975,1,1
+KS,process heat cement,coal,coal,1975,delivered coal,0.002623913,1975,1,1
+KY,process heat cement,coal,coal,1975,delivered coal,0.002088872,1975,1,1
+LA,process heat cement,coal,coal,1975,delivered coal,0.002430772,1975,1,1
+MD,process heat cement,coal,coal,1975,delivered coal,0.003326882,1975,1,1
+MA,process heat cement,coal,coal,1975,delivered coal,0.001843098,1975,1,1
+MI,process heat cement,coal,coal,1975,delivered coal,0.004767356,1975,1,1
+MN,process heat cement,coal,coal,1975,delivered coal,0.003523044,1975,1,1
+MS,process heat cement,coal,coal,1975,delivered coal,0.001960705,1975,1,1
+MO,process heat cement,coal,coal,1975,delivered coal,0.00516926,1975,1,1
+NE,process heat cement,coal,coal,1975,delivered coal,0.001433756,1975,1,1
+NV,process heat cement,coal,coal,1975,delivered coal,0.003425404,1975,1,1
+NJ,process heat cement,coal,coal,1975,delivered coal,0.004382803,1975,1,1
+NM,process heat cement,coal,coal,1975,delivered coal,0.001270344,1975,1,1
+NY,process heat cement,coal,coal,1975,delivered coal,0.006685115,1975,1,1
+NC,process heat cement,coal,coal,1975,delivered coal,0.0052808,1975,1,1
+OH,process heat cement,coal,coal,1975,delivered coal,0.006143531,1975,1,1
+OK,process heat cement,coal,coal,1975,delivered coal,0.002823783,1975,1,1
+OR,process heat cement,coal,coal,1975,delivered coal,0.00204597,1975,1,1
+PA,process heat cement,coal,coal,1975,delivered coal,0.009925331,1975,1,1
+SC,process heat cement,coal,coal,1975,delivered coal,0.0047077280000000004,1975,1,1
+SD,process heat cement,coal,coal,1975,delivered coal,8.81838e-4,1975,1,1
+TN,process heat cement,coal,coal,1975,delivered coal,0.004419989,1975,1,1
+TX,process heat cement,coal,coal,1975,delivered coal,0.02263631,1975,1,1
+UT,process heat cement,coal,coal,1975,delivered coal,0.002142524,1975,1,1
+VA,process heat cement,coal,coal,1975,delivered coal,0.005447342,1975,1,1
+WA,process heat cement,coal,coal,1975,delivered coal,0.004322546,1975,1,1
+WV,process heat cement,coal,coal,1975,delivered coal,0.001225296,1975,1,1
+WI,process heat cement,coal,coal,1975,delivered coal,0.00336518,1975,1,1
+AL,process heat cement,coal,coal,1990,delivered coal,0.005309933,1990,1,1
+AZ,process heat cement,coal,coal,1990,delivered coal,0.007671084,1990,1,1
+AR,process heat cement,coal,coal,1990,delivered coal,0.0016909,1990,1,1
+CA,process heat cement,coal,coal,1990,delivered coal,0.02501314,1990,1,1
+CO,process heat cement,coal,coal,1990,delivered coal,0.004658922,1990,1,1
+CT,process heat cement,coal,coal,1990,delivered coal,0.001655395,1990,1,1
+FL,process heat cement,coal,coal,1990,delivered coal,0.01514861,1990,1,1
+GA,process heat cement,coal,coal,1990,delivered coal,0.00663859,1990,1,1
+ID,process heat cement,coal,coal,1990,delivered coal,0.001226057,1990,1,1
+IL,process heat cement,coal,coal,1990,delivered coal,0.008445645,1990,1,1
+IN,process heat cement,coal,coal,1990,delivered coal,0.004644791,1990,1,1
+IA,process heat cement,coal,coal,1990,delivered coal,0.003376217,1990,1,1
+KS,process heat cement,coal,coal,1990,delivered coal,0.002709104,1990,1,1
+KY,process heat cement,coal,coal,1990,delivered coal,0.002156691,1990,1,1
+LA,process heat cement,coal,coal,1990,delivered coal,0.002509692,1990,1,1
+MD,process heat cement,coal,coal,1990,delivered coal,0.0034348960000000002,1990,1,1
+MA,process heat cement,coal,coal,1990,delivered coal,0.001902938,1990,1,1
+MI,process heat cement,coal,coal,1990,delivered coal,0.004922137,1990,1,1
+MN,process heat cement,coal,coal,1990,delivered coal,0.003637427,1990,1,1
+MS,process heat cement,coal,coal,1990,delivered coal,0.002024363,1990,1,1
+MO,process heat cement,coal,coal,1990,delivered coal,0.00533709,1990,1,1
+NE,process heat cement,coal,coal,1990,delivered coal,0.001480305,1990,1,1
+NV,process heat cement,coal,coal,1990,delivered coal,0.003536617,1990,1,1
+NJ,process heat cement,coal,coal,1990,delivered coal,0.004525099,1990,1,1
+NM,process heat cement,coal,coal,1990,delivered coal,0.001311588,1990,1,1
+NY,process heat cement,coal,coal,1990,delivered coal,0.00690216,1990,1,1
+NC,process heat cement,coal,coal,1990,delivered coal,0.005452252,1990,1,1
+OH,process heat cement,coal,coal,1990,delivered coal,0.006342993,1990,1,1
+OK,process heat cement,coal,coal,1990,delivered coal,0.002915463,1990,1,1
+OR,process heat cement,coal,coal,1990,delivered coal,0.002112397,1990,1,1
+PA,process heat cement,coal,coal,1990,delivered coal,0.01024758,1990,1,1
+SC,process heat cement,coal,coal,1990,delivered coal,0.004860573,1990,1,1
+SD,process heat cement,coal,coal,1990,delivered coal,9.104686e-4,1990,1,1
+TN,process heat cement,coal,coal,1990,delivered coal,0.004563492,1990,1,1
+TX,process heat cement,coal,coal,1990,delivered coal,0.02337124,1990,1,1
+UT,process heat cement,coal,coal,1990,delivered coal,0.002212086,1990,1,1
+VA,process heat cement,coal,coal,1990,delivered coal,0.0056242,1990,1,1
+WA,process heat cement,coal,coal,1990,delivered coal,0.004462886,1990,1,1
+WV,process heat cement,coal,coal,1990,delivered coal,0.001265078,1990,1,1
+WI,process heat cement,coal,coal,1990,delivered coal,0.003474437,1990,1,1
+AL,process heat cement,coal,coal,2005,delivered coal,0.007583732,2005,1,1
+AZ,process heat cement,coal,coal,2005,delivered coal,0.01095597,2005,1,1
+AR,process heat cement,coal,coal,2005,delivered coal,0.002414971,2005,1,1
+CA,process heat cement,coal,coal,2005,delivered coal,0.03572417,2005,1,1
+CO,process heat cement,coal,coal,2005,delivered coal,0.006653949,2005,1,1
+CT,process heat cement,coal,coal,2005,delivered coal,0.002364263,2005,1,1
+FL,process heat cement,coal,coal,2005,delivered coal,0.02163549,2005,1,1
+GA,process heat cement,coal,coal,2005,delivered coal,0.009481342,2005,1,1
+ID,process heat cement,coal,coal,2005,delivered coal,0.001751075,2005,1,1
+IL,process heat cement,coal,coal,2005,delivered coal,0.01206221,2005,1,1
+IN,process heat cement,coal,coal,2005,delivered coal,0.006633765,2005,1,1
+IA,process heat cement,coal,coal,2005,delivered coal,0.004821968,2005,1,1
+KS,process heat cement,coal,coal,2005,delivered coal,0.003869186,2005,1,1
+KY,process heat cement,coal,coal,2005,delivered coal,0.003080221,2005,1,1
+LA,process heat cement,coal,coal,2005,delivered coal,0.003584382,2005,1,1
+MD,process heat cement,coal,coal,2005,delivered coal,0.004905774,2005,1,1
+MA,process heat cement,coal,coal,2005,delivered coal,0.002717807,2005,1,1
+MI,process heat cement,coal,coal,2005,delivered coal,0.007029876,2005,1,1
+MN,process heat cement,coal,coal,2005,delivered coal,0.005195032,2005,1,1
+MS,process heat cement,coal,coal,2005,delivered coal,0.002891228,2005,1,1
+MO,process heat cement,coal,coal,2005,delivered coal,0.007622519,2005,1,1
+NE,process heat cement,coal,coal,2005,delivered coal,0.002114196,2005,1,1
+NV,process heat cement,coal,coal,2005,delivered coal,0.005051053,2005,1,1
+NJ,process heat cement,coal,coal,2005,delivered coal,0.00646282,2005,1,1
+NM,process heat cement,coal,coal,2005,delivered coal,0.001873232,2005,1,1
+NY,process heat cement,coal,coal,2005,delivered coal,0.009857777,2005,1,1
+NC,process heat cement,coal,coal,2005,delivered coal,0.007786994,2005,1,1
+OH,process heat cement,coal,coal,2005,delivered coal,0.009059165,2005,1,1
+OK,process heat cement,coal,coal,2005,delivered coal,0.004163911,2005,1,1
+OR,process heat cement,coal,coal,2005,delivered coal,0.003016959,2005,1,1
+PA,process heat cement,coal,coal,2005,delivered coal,0.01463575,2005,1,1
+SC,process heat cement,coal,coal,2005,delivered coal,0.00694195,2005,1,1
+SD,process heat cement,coal,coal,2005,delivered coal,0.001300346,2005,1,1
+TN,process heat cement,coal,coal,2005,delivered coal,0.006517654,2005,1,1
+TX,process heat cement,coal,coal,2005,delivered coal,0.03337918,2005,1,1
+UT,process heat cement,coal,coal,2005,delivered coal,0.003159337,2005,1,1
+VA,process heat cement,coal,coal,2005,delivered coal,0.008032574,2005,1,1
+WA,process heat cement,coal,coal,2005,delivered coal,0.006373966,2005,1,1
+WV,process heat cement,coal,coal,2005,delivered coal,0.001806804,2005,1,1
+WI,process heat cement,coal,coal,2005,delivered coal,0.004962248,2005,1,1
+AL,process heat cement,coal,coal,2010,delivered coal,0.004921366,2010,1,1
+AZ,process heat cement,coal,coal,2010,delivered coal,0.007109735,2010,1,1
+AR,process heat cement,coal,coal,2010,delivered coal,0.001567165,2010,1,1
+CA,process heat cement,coal,coal,2010,delivered coal,0.02318274,2010,1,1
+CO,process heat cement,coal,coal,2010,delivered coal,0.004317995,2010,1,1
+CT,process heat cement,coal,coal,2010,delivered coal,0.001534258,2010,1,1
+FL,process heat cement,coal,coal,2010,delivered coal,0.01404008,2010,1,1
+GA,process heat cement,coal,coal,2010,delivered coal,0.006152796,2010,1,1
+ID,process heat cement,coal,coal,2010,delivered coal,0.001136338,2010,1,1
+IL,process heat cement,coal,coal,2010,delivered coal,0.007827615,2010,1,1
+IN,process heat cement,coal,coal,2010,delivered coal,0.004304897,2010,1,1
+IA,process heat cement,coal,coal,2010,delivered coal,0.003129155,2010,1,1
+KS,process heat cement,coal,coal,2010,delivered coal,0.002510859,2010,1,1
+KY,process heat cement,coal,coal,2010,delivered coal,0.00199887,2010,1,1
+LA,process heat cement,coal,coal,2010,delivered coal,0.002326039,2010,1,1
+MD,process heat cement,coal,coal,2010,delivered coal,0.00318354,2010,1,1
+MA,process heat cement,coal,coal,2010,delivered coal,0.001763686,2010,1,1
+MI,process heat cement,coal,coal,2010,delivered coal,0.004561948,2010,1,1
+MN,process heat cement,coal,coal,2010,delivered coal,0.00337125,2010,1,1
+MS,process heat cement,coal,coal,2010,delivered coal,0.001876225,2010,1,1
+MO,process heat cement,coal,coal,2010,delivered coal,0.004946536,2010,1,1
+NE,process heat cement,coal,coal,2010,delivered coal,0.001371981,2010,1,1
+NV,process heat cement,coal,coal,2010,delivered coal,0.003277816,2010,1,1
+NJ,process heat cement,coal,coal,2010,delivered coal,0.004193964,2010,1,1
+NM,process heat cement,coal,coal,2010,delivered coal,0.00121561,2010,1,1
+NY,process heat cement,coal,coal,2010,delivered coal,0.006397079,2010,1,1
+NC,process heat cement,coal,coal,2010,delivered coal,0.00505327,2010,1,1
+OH,process heat cement,coal,coal,2010,delivered coal,0.00587883,2010,1,1
+OK,process heat cement,coal,coal,2010,delivered coal,0.002702117,2010,1,1
+OR,process heat cement,coal,coal,2010,delivered coal,0.001957817,2010,1,1
+PA,process heat cement,coal,coal,2010,delivered coal,0.009497686,2010,1,1
+SC,process heat cement,coal,coal,2010,delivered coal,0.00450489,2010,1,1
+SD,process heat cement,coal,coal,2010,delivered coal,8.43843e-4,2010,1,1
+TN,process heat cement,coal,coal,2010,delivered coal,0.004229548,2010,1,1
+TX,process heat cement,coal,coal,2010,delivered coal,0.021661,2010,1,1
+UT,process heat cement,coal,coal,2010,delivered coal,0.002050211,2010,1,1
+VA,process heat cement,coal,coal,2010,delivered coal,0.005212637,2010,1,1
+WA,process heat cement,coal,coal,2010,delivered coal,0.004136304,2010,1,1
+WV,process heat cement,coal,coal,2010,delivered coal,0.001172503,2010,1,1
+WI,process heat cement,coal,coal,2010,delivered coal,0.003220187,2010,1,1
+AL,process heat cement,gas,gas,1975,wholesale gas,2.337708e-4,1975,1,1
+AZ,process heat cement,gas,gas,1975,wholesale gas,3.377209e-4,1975,1,1
+AR,process heat cement,gas,gas,1975,wholesale gas,7.44422e-5,1975,1,1
+CA,process heat cement,gas,gas,1975,wholesale gas,0.001101208,1975,1,1
+CO,process heat cement,gas,gas,1975,wholesale gas,2.051099e-4,1975,1,1
+CT,process heat cement,gas,gas,1975,wholesale gas,7.287908e-5,1975,1,1
+FL,process heat cement,gas,gas,1975,wholesale gas,6.669204e-4,1975,1,1
+GA,process heat cement,gas,gas,1975,wholesale gas,2.922652e-4,1975,1,1
+ID,process heat cement,gas,gas,1975,wholesale gas,5.39774e-5,1975,1,1
+IL,process heat cement,gas,gas,1975,wholesale gas,3.718211e-4,1975,1,1
+IN,process heat cement,gas,gas,1975,wholesale gas,2.044878e-4,1975,1,1
+IA,process heat cement,gas,gas,1975,wholesale gas,1.486386e-4,1975,1,1
+KS,process heat cement,gas,gas,1975,wholesale gas,1.192688e-4,1975,1,1
+KY,process heat cement,gas,gas,1975,wholesale gas,9.494872e-5,1975,1,1
+LA,process heat cement,gas,gas,1975,wholesale gas,1.104896e-4,1975,1,1
+MD,process heat cement,gas,gas,1975,wholesale gas,1.512219e-4,1975,1,1
+MA,process heat cement,gas,gas,1975,wholesale gas,8.377719e-5,1975,1,1
+MI,process heat cement,gas,gas,1975,wholesale gas,2.16698e-4,1975,1,1
+MN,process heat cement,gas,gas,1975,wholesale gas,1.601384e-4,1975,1,1
+MS,process heat cement,gas,gas,1975,wholesale gas,8.912294e-5,1975,1,1
+MO,process heat cement,gas,gas,1975,wholesale gas,2.349664e-4,1975,1,1
+NE,process heat cement,gas,gas,1975,wholesale gas,6.517071e-5,1975,1,1
+NV,process heat cement,gas,gas,1975,wholesale gas,1.557002e-4,1975,1,1
+NJ,process heat cement,gas,gas,1975,wholesale gas,1.992183e-4,1975,1,1
+NM,process heat cement,gas,gas,1975,wholesale gas,5.774291e-5,1975,1,1
+NY,process heat cement,gas,gas,1975,wholesale gas,3.038689e-4,1975,1,1
+NC,process heat cement,gas,gas,1975,wholesale gas,2.400364e-4,1975,1,1
+OH,process heat cement,gas,gas,1975,wholesale gas,2.792514e-4,1975,1,1
+OK,process heat cement,gas,gas,1975,wholesale gas,1.283538e-4,1975,1,1
+OR,process heat cement,gas,gas,1975,wholesale gas,9.299865e-5,1975,1,1
+PA,process heat cement,gas,gas,1975,wholesale gas,4.511514e-4,1975,1,1
+SC,process heat cement,gas,gas,1975,wholesale gas,2.139876e-4,1975,1,1
+SD,process heat cement,gas,gas,1975,wholesale gas,4.008355e-5,1975,1,1
+TN,process heat cement,gas,gas,1975,wholesale gas,2.009086e-4,1975,1,1
+TX,process heat cement,gas,gas,1975,wholesale gas,0.001028923,1975,1,1
+UT,process heat cement,gas,gas,1975,wholesale gas,9.738748e-5,1975,1,1
+VA,process heat cement,gas,gas,1975,wholesale gas,2.476064e-4,1975,1,1
+WA,process heat cement,gas,gas,1975,wholesale gas,1.964794e-4,1975,1,1
+WV,process heat cement,gas,gas,1975,wholesale gas,5.569527e-5,1975,1,1
+WI,process heat cement,gas,gas,1975,wholesale gas,1.529627e-4,1975,1,1
+AL,process heat cement,gas,gas,1990,wholesale gas,2.413606e-4,1990,1,1
+AZ,process heat cement,gas,gas,1990,wholesale gas,3.486856e-4,1990,1,1
+AR,process heat cement,gas,gas,1990,wholesale gas,7.685911e-5,1990,1,1
+CA,process heat cement,gas,gas,1990,wholesale gas,0.001136961,1990,1,1
+CO,process heat cement,gas,gas,1990,wholesale gas,2.117692e-4,1990,1,1
+CT,process heat cement,gas,gas,1990,wholesale gas,7.524525e-5,1990,1,1
+FL,process heat cement,gas,gas,1990,wholesale gas,6.885733e-4,1990,1,1
+GA,process heat cement,gas,gas,1990,wholesale gas,3.017541e-4,1990,1,1
+ID,process heat cement,gas,gas,1990,wholesale gas,5.572988e-5,1990,1,1
+IL,process heat cement,gas,gas,1990,wholesale gas,3.83893e-4,1990,1,1
+IN,process heat cement,gas,gas,1990,wholesale gas,2.111268e-4,1990,1,1
+IA,process heat cement,gas,gas,1990,wholesale gas,1.534644e-4,1990,1,1
+KS,process heat cement,gas,gas,1990,wholesale gas,1.231411e-4,1990,1,1
+KY,process heat cement,gas,gas,1990,wholesale gas,9.803142e-5,1990,1,1
+LA,process heat cement,gas,gas,1990,wholesale gas,1.140769e-4,1990,1,1
+MD,process heat cement,gas,gas,1990,wholesale gas,1.561316e-4,1990,1,1
+MA,process heat cement,gas,gas,1990,wholesale gas,8.649718e-5,1990,1,1
+MI,process heat cement,gas,gas,1990,wholesale gas,2.237335e-4,1990,1,1
+MN,process heat cement,gas,gas,1990,wholesale gas,1.653376e-4,1990,1,1
+MS,process heat cement,gas,gas,1990,wholesale gas,9.201649e-5,1990,1,1
+MO,process heat cement,gas,gas,1990,wholesale gas,2.42595e-4,1990,1,1
+NE,process heat cement,gas,gas,1990,wholesale gas,6.72866e-5,1990,1,1
+NV,process heat cement,gas,gas,1990,wholesale gas,1.607553e-4,1990,1,1
+NJ,process heat cement,gas,gas,1990,wholesale gas,2.056863e-4,1990,1,1
+NM,process heat cement,gas,gas,1990,wholesale gas,5.961765e-5,1990,1,1
+NY,process heat cement,gas,gas,1990,wholesale gas,3.137345e-4,1990,1,1
+NC,process heat cement,gas,gas,1990,wholesale gas,2.478296e-4,1990,1,1
+OH,process heat cement,gas,gas,1990,wholesale gas,2.883179e-4,1990,1,1
+OK,process heat cement,gas,gas,1990,wholesale gas,1.32521e-4,1990,1,1
+OR,process heat cement,gas,gas,1990,wholesale gas,9.601803e-5,1990,1,1
+PA,process heat cement,gas,gas,1990,wholesale gas,4.657989e-4,1990,1,1
+SC,process heat cement,gas,gas,1990,wholesale gas,2.209352e-4,1990,1,1
+SD,process heat cement,gas,gas,1990,wholesale gas,4.138494e-5,1990,1,1
+TN,process heat cement,gas,gas,1990,wholesale gas,2.074315e-4,1990,1,1
+TX,process heat cement,gas,gas,1990,wholesale gas,0.001062329,1990,1,1
+UT,process heat cement,gas,gas,1990,wholesale gas,1.005494e-4,1990,1,1
+VA,process heat cement,gas,gas,1990,wholesale gas,2.556455e-4,1990,1,1
+WA,process heat cement,gas,gas,1990,wholesale gas,2.028584e-4,1990,1,1
+WV,process heat cement,gas,gas,1990,wholesale gas,5.750352e-5,1990,1,1
+WI,process heat cement,gas,gas,1990,wholesale gas,1.57929e-4,1990,1,1
+AL,process heat cement,gas,gas,2005,wholesale gas,3.447151e-4,2005,1,1
+AZ,process heat cement,gas,gas,2005,wholesale gas,4.979985e-4,2005,1,1
+AR,process heat cement,gas,gas,2005,wholesale gas,1.097714e-4,2005,1,1
+CA,process heat cement,gas,gas,2005,wholesale gas,0.001623826,2005,1,1
+CO,process heat cement,gas,gas,2005,wholesale gas,3.024522e-4,2005,1,1
+CT,process heat cement,gas,gas,2005,wholesale gas,1.074665e-4,2005,1,1
+FL,process heat cement,gas,gas,2005,wholesale gas,9.834315e-4,2005,1,1
+GA,process heat cement,gas,gas,2005,wholesale gas,4.309701e-4,2005,1,1
+ID,process heat cement,gas,gas,2005,wholesale gas,7.959432e-5,2005,1,1
+IL,process heat cement,gas,gas,2005,wholesale gas,5.482821e-4,2005,1,1
+IN,process heat cement,gas,gas,2005,wholesale gas,3.015348e-4,2005,1,1
+IA,process heat cement,gas,gas,2005,wholesale gas,2.191804e-4,2005,1,1
+KS,process heat cement,gas,gas,2005,wholesale gas,1.758721e-4,2005,1,1
+KY,process heat cement,gas,gas,2005,wholesale gas,1.400101e-4,2005,1,1
+LA,process heat cement,gas,gas,2005,wholesale gas,1.629265e-4,2005,1,1
+MD,process heat cement,gas,gas,2005,wholesale gas,2.229897e-4,2005,1,1
+MA,process heat cement,gas,gas,2005,wholesale gas,1.235367e-4,2005,1,1
+MI,process heat cement,gas,gas,2005,wholesale gas,3.195398e-4,2005,1,1
+MN,process heat cement,gas,gas,2005,wholesale gas,2.361378e-4,2005,1,1
+MS,process heat cement,gas,gas,2005,wholesale gas,1.314194e-4,2005,1,1
+MO,process heat cement,gas,gas,2005,wholesale gas,3.464781e-4,2005,1,1
+NE,process heat cement,gas,gas,2005,wholesale gas,9.609982e-5,2005,1,1
+NV,process heat cement,gas,gas,2005,wholesale gas,2.295933e-4,2005,1,1
+NJ,process heat cement,gas,gas,2005,wholesale gas,2.937645e-4,2005,1,1
+NM,process heat cement,gas,gas,2005,wholesale gas,8.514689e-5,2005,1,1
+NY,process heat cement,gas,gas,2005,wholesale gas,4.480808e-4,2005,1,1
+NC,process heat cement,gas,gas,2005,wholesale gas,3.539543e-4,2005,1,1
+OH,process heat cement,gas,gas,2005,wholesale gas,4.117802e-4,2005,1,1
+OK,process heat cement,gas,gas,2005,wholesale gas,1.892687e-4,2005,1,1
+OR,process heat cement,gas,gas,2005,wholesale gas,1.371345e-4,2005,1,1
+PA,process heat cement,gas,gas,2005,wholesale gas,6.652616e-4,2005,1,1
+SC,process heat cement,gas,gas,2005,wholesale gas,3.155432e-4,2005,1,1
+SD,process heat cement,gas,gas,2005,wholesale gas,5.910664e-5,2005,1,1
+TN,process heat cement,gas,gas,2005,wholesale gas,2.96257e-4,2005,1,1
+TX,process heat cement,gas,gas,2005,wholesale gas,0.001517236,2005,1,1
+UT,process heat cement,gas,gas,2005,wholesale gas,1.436062e-4,2005,1,1
+VA,process heat cement,gas,gas,2005,wholesale gas,3.65117e-4,2005,1,1
+WA,process heat cement,gas,gas,2005,wholesale gas,2.897257e-4,2005,1,1
+WV,process heat cement,gas,gas,2005,wholesale gas,8.212747e-5,2005,1,1
+WI,process heat cement,gas,gas,2005,wholesale gas,2.255567e-4,2005,1,1
+AL,process heat cement,gas,gas,2010,wholesale gas,2.236985e-4,2010,1,1
+AZ,process heat cement,gas,gas,2010,wholesale gas,3.231698e-4,2010,1,1
+AR,process heat cement,gas,gas,2010,wholesale gas,7.123477e-5,2010,1,1
+CA,process heat cement,gas,gas,2010,wholesale gas,0.001053761,2010,1,1
+CO,process heat cement,gas,gas,2010,wholesale gas,1.962725e-4,2010,1,1
+CT,process heat cement,gas,gas,2010,wholesale gas,6.9739e-5,2010,1,1
+FL,process heat cement,gas,gas,2010,wholesale gas,6.381853e-4,2010,1,1
+GA,process heat cement,gas,gas,2010,wholesale gas,2.796726e-4,2010,1,1
+ID,process heat cement,gas,gas,2010,wholesale gas,5.165172e-5,2010,1,1
+IL,process heat cement,gas,gas,2010,wholesale gas,3.558007e-4,2010,1,1
+IN,process heat cement,gas,gas,2010,wholesale gas,1.956772e-4,2010,1,1
+IA,process heat cement,gas,gas,2010,wholesale gas,1.422343e-4,2010,1,1
+KS,process heat cement,gas,gas,2010,wholesale gas,1.141299e-4,2010,1,1
+KY,process heat cement,gas,gas,2010,wholesale gas,9.085774e-5,2010,1,1
+LA,process heat cement,gas,gas,2010,wholesale gas,1.057291e-4,2010,1,1
+MD,process heat cement,gas,gas,2010,wholesale gas,1.447064e-4,2010,1,1
+MA,process heat cement,gas,gas,2010,wholesale gas,8.016755e-5,2010,1,1
+MI,process heat cement,gas,gas,2010,wholesale gas,2.073613e-4,2010,1,1
+MN,process heat cement,gas,gas,2010,wholesale gas,1.532386e-4,2010,1,1
+MS,process heat cement,gas,gas,2010,wholesale gas,8.528297e-5,2010,1,1
+MO,process heat cement,gas,gas,2010,wholesale gas,2.248426e-4,2010,1,1
+NE,process heat cement,gas,gas,2010,wholesale gas,6.236275e-5,2010,1,1
+NV,process heat cement,gas,gas,2010,wholesale gas,1.489917e-4,2010,1,1
+NJ,process heat cement,gas,gas,2010,wholesale gas,1.906347e-4,2010,1,1
+NM,process heat cement,gas,gas,2010,wholesale gas,5.525499e-5,2010,1,1
+NY,process heat cement,gas,gas,2010,wholesale gas,2.907763e-4,2010,1,1
+NC,process heat cement,gas,gas,2010,wholesale gas,2.296941e-4,2010,1,1
+OH,process heat cement,gas,gas,2010,wholesale gas,2.672195e-4,2010,1,1
+OK,process heat cement,gas,gas,2010,wholesale gas,1.228235e-4,2010,1,1
+OR,process heat cement,gas,gas,2010,wholesale gas,8.899169e-5,2010,1,1
+PA,process heat cement,gas,gas,2010,wholesale gas,4.31713e-4,2010,1,1
+SC,process heat cement,gas,gas,2010,wholesale gas,2.047677e-4,2010,1,1
+SD,process heat cement,gas,gas,2010,wholesale gas,3.83565e-5,2010,1,1
+TN,process heat cement,gas,gas,2010,wholesale gas,1.922522e-4,2010,1,1
+TX,process heat cement,gas,gas,2010,wholesale gas,9.845907e-4,2010,1,1
+UT,process heat cement,gas,gas,2010,wholesale gas,9.319142e-5,2010,1,1
+VA,process heat cement,gas,gas,2010,wholesale gas,2.36938e-4,2010,1,1
+WA,process heat cement,gas,gas,2010,wholesale gas,1.880138e-4,2010,1,1
+WV,process heat cement,gas,gas,2010,wholesale gas,5.329557e-5,2010,1,1
+WI,process heat cement,gas,gas,2010,wholesale gas,1.463722e-4,2010,1,1
+AL,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.002337708,1975,1,1
+AZ,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.003377209,1975,1,1
+AR,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,7.44422e-4,1975,1,1
+CA,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.01101208,1975,1,1
+CO,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.002051099,1975,1,1
+CT,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,7.287908e-4,1975,1,1
+FL,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.006669204,1975,1,1
+GA,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.002922652,1975,1,1
+ID,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,5.39774e-4,1975,1,1
+IL,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.003718211,1975,1,1
+IN,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.002044878,1975,1,1
+IA,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.001486386,1975,1,1
+KS,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.001192688,1975,1,1
+KY,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,9.494872e-4,1975,1,1
+LA,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.001104896,1975,1,1
+MD,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.001512219,1975,1,1
+MA,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,8.377719e-4,1975,1,1
+MI,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.00216698,1975,1,1
+MN,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.001601384,1975,1,1
+MS,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,8.912294e-4,1975,1,1
+MO,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.002349664,1975,1,1
+NE,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,6.517071e-4,1975,1,1
+NV,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.001557002,1975,1,1
+NJ,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.001992183,1975,1,1
+NM,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,5.774291e-4,1975,1,1
+NY,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.003038689,1975,1,1
+NC,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.002400364,1975,1,1
+OH,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.002792514,1975,1,1
+OK,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.001283538,1975,1,1
+OR,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,9.299865e-4,1975,1,1
+PA,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.004511514,1975,1,1
+SC,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.002139876,1975,1,1
+SD,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,4.008355e-4,1975,1,1
+TN,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.002009086,1975,1,1
+TX,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.01028923,1975,1,1
+UT,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,9.738748e-4,1975,1,1
+VA,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.002476064,1975,1,1
+WA,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.001964794,1975,1,1
+WV,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,5.569527e-4,1975,1,1
+WI,process heat cement,refined liquids,refined liquids,1975,refined liquids industrial,0.001529627,1975,1,1
+AL,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.002413606,1990,1,1
+AZ,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.003486856,1990,1,1
+AR,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,7.685911e-4,1990,1,1
+CA,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.01136961,1990,1,1
+CO,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.002117692,1990,1,1
+CT,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,7.524525e-4,1990,1,1
+FL,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.006885733,1990,1,1
+GA,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.003017541,1990,1,1
+ID,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,5.572988e-4,1990,1,1
+IL,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.00383893,1990,1,1
+IN,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.002111268,1990,1,1
+IA,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.001534644,1990,1,1
+KS,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.001231411,1990,1,1
+KY,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,9.803142e-4,1990,1,1
+LA,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.001140769,1990,1,1
+MD,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.001561316,1990,1,1
+MA,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,8.649718e-4,1990,1,1
+MI,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.002237335,1990,1,1
+MN,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.001653376,1990,1,1
+MS,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,9.201649e-4,1990,1,1
+MO,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.00242595,1990,1,1
+NE,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,6.72866e-4,1990,1,1
+NV,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.001607553,1990,1,1
+NJ,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.002056863,1990,1,1
+NM,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,5.961765e-4,1990,1,1
+NY,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.003137345,1990,1,1
+NC,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.002478296,1990,1,1
+OH,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.002883179,1990,1,1
+OK,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.00132521,1990,1,1
+OR,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,9.601803e-4,1990,1,1
+PA,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.004657989,1990,1,1
+SC,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.002209352,1990,1,1
+SD,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,4.138494e-4,1990,1,1
+TN,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.002074315,1990,1,1
+TX,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.01062329,1990,1,1
+UT,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.001005494,1990,1,1
+VA,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.002556455,1990,1,1
+WA,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.002028584,1990,1,1
+WV,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,5.750352e-4,1990,1,1
+WI,process heat cement,refined liquids,refined liquids,1990,refined liquids industrial,0.00157929,1990,1,1
+AL,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.003447151,2005,1,1
+AZ,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.004979985,2005,1,1
+AR,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.001097714,2005,1,1
+CA,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.01623826,2005,1,1
+CO,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.003024522,2005,1,1
+CT,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.001074665,2005,1,1
+FL,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.009834315,2005,1,1
+GA,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.004309701,2005,1,1
+ID,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,7.959432e-4,2005,1,1
+IL,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.005482821,2005,1,1
+IN,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.003015348,2005,1,1
+IA,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.002191804,2005,1,1
+KS,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.001758721,2005,1,1
+KY,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.001400101,2005,1,1
+LA,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.001629265,2005,1,1
+MD,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.002229897,2005,1,1
+MA,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.001235367,2005,1,1
+MI,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.003195398,2005,1,1
+MN,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.002361378,2005,1,1
+MS,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.001314194,2005,1,1
+MO,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.003464781,2005,1,1
+NE,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,9.609982e-4,2005,1,1
+NV,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.002295933,2005,1,1
+NJ,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.002937645,2005,1,1
+NM,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,8.514689e-4,2005,1,1
+NY,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.004480808,2005,1,1
+NC,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.003539543,2005,1,1
+OH,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.004117802,2005,1,1
+OK,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.001892687,2005,1,1
+OR,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.001371345,2005,1,1
+PA,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.006652616,2005,1,1
+SC,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.003155432,2005,1,1
+SD,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,5.910664e-4,2005,1,1
+TN,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.00296257,2005,1,1
+TX,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.01517236,2005,1,1
+UT,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.001436062,2005,1,1
+VA,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.00365117,2005,1,1
+WA,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.002897257,2005,1,1
+WV,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,8.212747e-4,2005,1,1
+WI,process heat cement,refined liquids,refined liquids,2005,refined liquids industrial,0.002255567,2005,1,1
+AL,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.002236985,2010,1,1
+AZ,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.003231698,2010,1,1
+AR,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,7.123477e-4,2010,1,1
+CA,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.01053761,2010,1,1
+CO,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.001962725,2010,1,1
+CT,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,6.9739e-4,2010,1,1
+FL,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.006381853,2010,1,1
+GA,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.002796726,2010,1,1
+ID,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,5.165172e-4,2010,1,1
+IL,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.003558007,2010,1,1
+IN,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.001956772,2010,1,1
+IA,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.001422343,2010,1,1
+KS,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.001141299,2010,1,1
+KY,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,9.085774e-4,2010,1,1
+LA,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.001057291,2010,1,1
+MD,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.001447064,2010,1,1
+MA,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,8.016755e-4,2010,1,1
+MI,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.002073613,2010,1,1
+MN,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.001532386,2010,1,1
+MS,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,8.528297e-4,2010,1,1
+MO,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.002248426,2010,1,1
+NE,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,6.236275e-4,2010,1,1
+NV,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.001489917,2010,1,1
+NJ,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.001906347,2010,1,1
+NM,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,5.525499e-4,2010,1,1
+NY,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.002907763,2010,1,1
+NC,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.002296941,2010,1,1
+OH,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.002672195,2010,1,1
+OK,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.001228235,2010,1,1
+OR,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,8.899169e-4,2010,1,1
+PA,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.00431713,2010,1,1
+SC,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.002047677,2010,1,1
+SD,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,3.83565e-4,2010,1,1
+TN,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.001922522,2010,1,1
+TX,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.009845907,2010,1,1
+UT,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,9.319142e-4,2010,1,1
+VA,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.00236938,2010,1,1
+WA,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.001880138,2010,1,1
+WV,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,5.329557e-4,2010,1,1
+WI,process heat cement,refined liquids,refined liquids,2010,refined liquids industrial,0.001463722,2010,1,1

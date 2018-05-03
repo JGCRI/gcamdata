@@ -1,0 +1,9 @@
+# Uses the structure of L243.SubsectorShrwtFllt_TradedBio
+# Replace shareweights with assumed coefficients (0.1 for low income, 0.5 for high income)
+share.weight,region,supplysector,subsector,year.fillout
+0.1,USA,traded biomass,Africa_Eastern traded biomass,2025
+0.1,USA,traded biomass,Africa_Southern traded biomass,2025
+0.1,USA,traded biomass,Africa_Western traded biomass,2025
+0.1,USA,traded biomass,India traded biomass,2025
+0.1,USA,traded biomass,Pakistan traded biomass,2025
+0.1,USA,traded biomass,South Asia traded biomass,2025

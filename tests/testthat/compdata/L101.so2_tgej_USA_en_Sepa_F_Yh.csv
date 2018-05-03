@@ -1,0 +1,962 @@
+# Matched to EPA categories, summed, converted to Tg
+sector,fuel,year,value
+bld_comm,biomass,1971,0
+bld_comm,biomass,1972,0
+bld_comm,biomass,1973,0
+bld_comm,biomass,1974,0
+bld_comm,biomass,1975,0
+bld_comm,biomass,1976,0
+bld_comm,biomass,1977,0
+bld_comm,biomass,1978,0
+bld_comm,biomass,1979,0
+bld_comm,biomass,1980,0
+bld_comm,biomass,1981,0
+bld_comm,biomass,1982,0
+bld_comm,biomass,1983,0
+bld_comm,biomass,1984,0
+bld_comm,biomass,1985,9.475843160942359e-4
+bld_comm,biomass,1986,9.761877352590916e-4
+bld_comm,biomass,1987,9.273470135592038e-4
+bld_comm,biomass,1988,9.718966076886515e-4
+bld_comm,biomass,1989,8.282036148540172e-4
+bld_comm,biomass,1990,0.0096036623942428
+bld_comm,biomass,1991,0.007851004156704196
+bld_comm,biomass,1992,0.006637299118336897
+bld_comm,biomass,1993,0.12346132747470542
+bld_comm,biomass,1994,0.12071010012150865
+bld_comm,biomass,1995,0.1005917501012572
+bld_comm,biomass,1996,0.1005917501012572
+bld_comm,biomass,1997,0.10779832324283978
+bld_comm,biomass,1998,0.09604371884667906
+bld_comm,biomass,1999,0.06270038892214783
+bld_comm,biomass,2000,0.05697679970047919
+bld_comm,biomass,2001,0.09545137873044403
+bld_comm,biomass,2002,0.08618720354737787
+bld_comm,biomass,2003,1
+bld_comm,biomass,2004,1
+bld_comm,biomass,2005,1
+bld_comm,biomass,2006,1
+bld_comm,biomass,2007,1
+bld_comm,biomass,2008,1
+bld_comm,biomass,2009,1
+bld_comm,biomass,2010,1
+bld_comm,coal,1971,0.1951285071625159
+bld_comm,coal,1972,0.23541436013177205
+bld_comm,coal,1973,0.27252112241624243
+bld_comm,coal,1974,0.26833268938023014
+bld_comm,coal,1975,0.2293265934808976
+bld_comm,coal,1976,0.26517968137003
+bld_comm,coal,1977,0.3512409787009329
+bld_comm,coal,1978,0.436907578893181
+bld_comm,coal,1979,0.26684067699274383
+bld_comm,coal,1980,0.37540099651900893
+bld_comm,coal,1981,0.3807742126001637
+bld_comm,coal,1982,0.49642435380159505
+bld_comm,coal,1983,0.4094532965552846
+bld_comm,coal,1984,0.4621696871038181
+bld_comm,coal,1985,0.45755936240926304
+bld_comm,coal,1986,0.4855876306321741
+bld_comm,coal,1987,0.5139519709830735
+bld_comm,coal,1988,0.517827376844721
+bld_comm,coal,1989,0.5180083805681178
+bld_comm,coal,1990,0.5635507483773634
+bld_comm,coal,1991,0.5175662971326999
+bld_comm,coal,1992,3.1042546359937138
+bld_comm,coal,1993,3.1938234429547188
+bld_comm,coal,1994,3.181130359713601
+bld_comm,coal,1995,3.4042983251832064
+bld_comm,coal,1996,2.2340159395444688
+bld_comm,coal,1997,3.187408058366748
+bld_comm,coal,1998,4.1546419508140255
+bld_comm,coal,1999,2.937426019233882
+bld_comm,coal,2000,3.6031286739640427
+bld_comm,coal,2001,2.8688626931317436
+bld_comm,coal,2002,1.4716771545791638
+bld_comm,coal,2003,1
+bld_comm,coal,2004,1
+bld_comm,coal,2005,1
+bld_comm,coal,2006,1
+bld_comm,coal,2007,1
+bld_comm,coal,2008,1
+bld_comm,coal,2009,1
+bld_comm,coal,2010,1
+bld_comm,gas,1971,3.6970145665797836e-4
+bld_comm,gas,1972,3.570245509369209e-4
+bld_comm,gas,1973,3.6064952765210473e-4
+bld_comm,gas,1974,3.6546118897265537e-4
+bld_comm,gas,1975,3.7348679580464714e-4
+bld_comm,gas,1976,3.5149346200458756e-4
+bld_comm,gas,1977,3.7460387911361826e-4
+bld_comm,gas,1978,3.6083571429207953e-4
+bld_comm,gas,1979,3.3626331510042205e-4
+bld_comm,gas,1980,3.570598515533311e-4
+bld_comm,gas,1981,3.6958164278934276e-4
+bld_comm,gas,1982,3.5709515915109176e-4
+bld_comm,gas,1983,3.8138213035415834e-4
+bld_comm,gas,1984,3.675254511374912e-4
+bld_comm,gas,1985,7.620399518810838e-4
+bld_comm,gas,1986,8.010893048086069e-4
+bld_comm,gas,1987,0.00076784602200013455
+bld_comm,gas,1988,6.956293492940412e-4
+bld_comm,gas,1989,6.820960451996096e-4
+bld_comm,gas,1990,0.002476200626961986
+bld_comm,gas,1991,0.00237782963036835
+bld_comm,gas,1992,0.0023078255214636326
+bld_comm,gas,1993,0.0025910829192789656
+bld_comm,gas,1994,0.0025593079584067696
+bld_comm,gas,1995,0.0024433551889670117
+bld_comm,gas,1996,0.0029311611643768926
+bld_comm,gas,1997,0.0028766461579260785
+bld_comm,gas,1998,0.003082039307851999
+bld_comm,gas,1999,0.0036449817254144584
+bld_comm,gas,2000,0.003549570049033181
+bld_comm,gas,2001,0.004654064561347795
+bld_comm,gas,2002,0.0041774355381856525
+bld_comm,gas,2003,1
+bld_comm,gas,2004,1
+bld_comm,gas,2005,1
+bld_comm,gas,2006,1
+bld_comm,gas,2007,1
+bld_comm,gas,2008,1
+bld_comm,gas,2009,1
+bld_comm,gas,2010,1
+bld_comm,refined liquids,1971,0.35547584200489313
+bld_comm,refined liquids,1972,0.36770495200071873
+bld_comm,refined liquids,1973,0.36581546303266194
+bld_comm,refined liquids,1974,0.3722271912806818
+bld_comm,refined liquids,1975,0.3365839978577412
+bld_comm,refined liquids,1976,0.3263985757680109
+bld_comm,refined liquids,1977,0.3234971202622527
+bld_comm,refined liquids,1978,0.31121874886805606
+bld_comm,refined liquids,1979,0.29963155672562186
+bld_comm,refined liquids,1980,0.4312775025167478
+bld_comm,refined liquids,1981,0.3846295202096592
+bld_comm,refined liquids,1982,0.39854526357409853
+bld_comm,refined liquids,1983,0.25026975807057533
+bld_comm,refined liquids,1984,0.24231149672765936
+bld_comm,refined liquids,1985,0.1953864945013123
+bld_comm,refined liquids,1986,0.2294171635592451
+bld_comm,refined liquids,1987,0.25814425523679274
+bld_comm,refined liquids,1988,0.2515011440757106
+bld_comm,refined liquids,1989,0.25338817133060854
+bld_comm,refined liquids,1990,0.4321696903988919
+bld_comm,refined liquids,1991,0.4314901794079159
+bld_comm,refined liquids,1992,0.44977278066976334
+bld_comm,refined liquids,1993,0.4438812448790146
+bld_comm,refined liquids,1994,0.47869691614747556
+bld_comm,refined liquids,1995,0.5282799729662155
+bld_comm,refined liquids,1996,0.39791297076903237
+bld_comm,refined liquids,1997,0.4559736862910388
+bld_comm,refined liquids,1998,0.38808323133347894
+bld_comm,refined liquids,1999,0.4128671768353975
+bld_comm,refined liquids,2000,0.3395093855821948
+bld_comm,refined liquids,2001,0.33883170982039845
+bld_comm,refined liquids,2002,0.36628262657103827
+bld_comm,refined liquids,2003,1
+bld_comm,refined liquids,2004,1
+bld_comm,refined liquids,2005,1
+bld_comm,refined liquids,2006,1
+bld_comm,refined liquids,2007,1
+bld_comm,refined liquids,2008,1
+bld_comm,refined liquids,2009,1
+bld_comm,refined liquids,2010,1
+bld_resid,biomass,1971,0
+bld_resid,biomass,1972,0
+bld_resid,biomass,1973,0
+bld_resid,biomass,1974,0
+bld_resid,biomass,1975,0
+bld_resid,biomass,1976,0
+bld_resid,biomass,1977,0
+bld_resid,biomass,1978,0
+bld_resid,biomass,1979,0
+bld_resid,biomass,1980,0
+bld_resid,biomass,1981,0
+bld_resid,biomass,1982,0
+bld_resid,biomass,1983,0
+bld_resid,biomass,1984,0
+bld_resid,biomass,1985,0
+bld_resid,biomass,1986,0
+bld_resid,biomass,1987,0
+bld_resid,biomass,1988,0
+bld_resid,biomass,1989,0
+bld_resid,biomass,1990,0
+bld_resid,biomass,1991,0
+bld_resid,biomass,1992,0
+bld_resid,biomass,1993,0.009911167022250878
+bld_resid,biomass,1994,0.010113955020294444
+bld_resid,biomass,1995,0.010631728641712853
+bld_resid,biomass,1996,0.007606889120843559
+bld_resid,biomass,1997,0.010453233776442878
+bld_resid,biomass,1998,0.009320140645135408
+bld_resid,biomass,1999,0.013123841896917503
+bld_resid,biomass,2000,0.010444164162638964
+bld_resid,biomass,2001,0.012233210801609527
+bld_resid,biomass,2002,0.011568319792744686
+bld_resid,biomass,2003,1
+bld_resid,biomass,2004,1
+bld_resid,biomass,2005,1
+bld_resid,biomass,2006,1
+bld_resid,biomass,2007,1
+bld_resid,biomass,2008,1
+bld_resid,biomass,2009,1
+bld_resid,biomass,2010,1
+bld_resid,coal,1971,1.256677782287381
+bld_resid,coal,1972,0.9221792199075184
+bld_resid,coal,1973,0.7151221191785122
+bld_resid,coal,1974,0.777598671137883
+bld_resid,coal,1975,0.7778588501925464
+bld_resid,coal,1976,0.6221254509627147
+bld_resid,coal,1977,0.5615338929244978
+bld_resid,coal,1978,0.5581782030208869
+bld_resid,coal,1979,0.574377191018109
+bld_resid,coal,1980,0.5941970075177706
+bld_resid,coal,1981,0.6590863261387315
+bld_resid,coal,1982,0.6682141636080999
+bld_resid,coal,1983,0.7098169435518252
+bld_resid,coal,1984,0.6996669232312046
+bld_resid,coal,1985,0.376261333043421
+bld_resid,coal,1986,0.39276367924732564
+bld_resid,coal,1987,0.45495985242647347
+bld_resid,coal,1988,0.459528456343031
+bld_resid,coal,1989,0.4388758441402037
+bld_resid,coal,1990,0.029142519128192063
+bld_resid,coal,1991,0.3070049249411884
+bld_resid,coal,1992,0.3080120488064958
+bld_resid,coal,1993,0.2966520122098959
+bld_resid,coal,1994,0.3093584090778241
+bld_resid,coal,1995,0.30499654623076783
+bld_resid,coal,1996,0.025825343232194035
+bld_resid,coal,1997,0.01616974848642597
+bld_resid,coal,1998,0.02486226388044842
+bld_resid,coal,1999,0.012290109456500739
+bld_resid,coal,2000,0.01632815596971424
+bld_resid,coal,2001,0.017558722019295623
+bld_resid,coal,2002,0
+bld_resid,coal,2003,1
+bld_resid,coal,2004,1
+bld_resid,coal,2005,1
+bld_resid,coal,2006,1
+bld_resid,coal,2007,1
+bld_resid,coal,2008,1
+bld_resid,coal,2009,1
+bld_resid,coal,2010,1
+bld_resid,gas,1971,0.0063336635404299315
+bld_resid,gas,1972,0.004714930469331041
+bld_resid,gas,1973,0.004406642865936709
+bld_resid,gas,1974,0.00390292221554341
+bld_resid,gas,1975,0.0034244826893721518
+bld_resid,gas,1976,0.0031557351209340364
+bld_resid,gas,1977,0.003108786250842684
+bld_resid,gas,1978,0.0030628636211345083
+bld_resid,gas,1979,0.0028300544619799376
+bld_resid,gas,1980,0.002157937986671846
+bld_resid,gas,1981,0.0022532080345807654
+bld_resid,gas,1982,0.002008217599849
+bld_resid,gas,1983,0.0027531450052637584
+bld_resid,gas,1984,0.0026474896952228544
+bld_resid,gas,1985,0.0020904450527555038
+bld_resid,gas,1986,0.0021525181521950703
+bld_resid,gas,1987,0.0021480156011391464
+bld_resid,gas,1988,0.0020059679648021843
+bld_resid,gas,1989,0.0015510411318708124
+bld_resid,gas,1990,0.0014789211825995123
+bld_resid,gas,1991,0.0016276334182283834
+bld_resid,gas,1992,0.0015809896367610945
+bld_resid,gas,1993,0.001500386945161312
+bld_resid,gas,1994,0.0015340475576307482
+bld_resid,gas,1995,0.0015332198536520518
+bld_resid,gas,1996,7.101001359019703e-4
+bld_resid,gas,1997,9.344176336158389e-4
+bld_resid,gas,1998,0.0010252419310973217
+bld_resid,gas,1999,0.0045286992207741374
+bld_resid,gas,2000,0.004474090900923687
+bld_resid,gas,2001,0.004662176002541324
+bld_resid,gas,2002,3.799176422326203e-4
+bld_resid,gas,2003,1
+bld_resid,gas,2004,1
+bld_resid,gas,2005,1
+bld_resid,gas,2006,1
+bld_resid,gas,2007,1
+bld_resid,gas,2008,1
+bld_resid,gas,2009,1
+bld_resid,gas,2010,1
+bld_resid,refined liquids,1971,0.06488092935573801
+bld_resid,refined liquids,1972,0.05993153181923905
+bld_resid,refined liquids,1973,0.05896360829372015
+bld_resid,refined liquids,1974,0.0638665014524277
+bld_resid,refined liquids,1975,0.06747629003900532
+bld_resid,refined liquids,1976,0.07154706229829773
+bld_resid,refined liquids,1977,0.07277252424423497
+bld_resid,refined liquids,1978,0.0698034997210097
+bld_resid,refined liquids,1979,0.07419202512457716
+bld_resid,refined liquids,1980,0.08127563460934882
+bld_resid,refined liquids,1981,0.08253045218610736
+bld_resid,refined liquids,1982,0.09122739385728842
+bld_resid,refined liquids,1983,0.07543924437657408
+bld_resid,refined liquids,1984,0.08203577021119118
+bld_resid,refined liquids,1985,0.08424261163938346
+bld_resid,refined liquids,1986,0.08306891117937448
+bld_resid,refined liquids,1987,0.08341300960189171
+bld_resid,refined liquids,1988,0.08071025387145053
+bld_resid,refined liquids,1989,0.07881900163361605
+bld_resid,refined liquids,1990,0.11257745855347691
+bld_resid,refined liquids,1991,0.11516991288216996
+bld_resid,refined liquids,1992,0.11347934780653773
+bld_resid,refined liquids,1993,0.10713299225644701
+bld_resid,refined liquids,1994,0.11019157305389189
+bld_resid,refined liquids,1995,0.10757903209808485
+bld_resid,refined liquids,1996,0.07585367912335708
+bld_resid,refined liquids,1997,0.07519976016671942
+bld_resid,refined liquids,1998,0.07597122386646113
+bld_resid,refined liquids,1999,0.08833766704097684
+bld_resid,refined liquids,2000,0.08488788539698958
+bld_resid,refined liquids,2001,0.08639011247541803
+bld_resid,refined liquids,2002,0.0956524902939375
+bld_resid,refined liquids,2003,1
+bld_resid,refined liquids,2004,1
+bld_resid,refined liquids,2005,1
+bld_resid,refined liquids,2006,1
+bld_resid,refined liquids,2007,1
+bld_resid,refined liquids,2008,1
+bld_resid,refined liquids,2009,1
+bld_resid,refined liquids,2010,1
+cement,all,1971,1.4913667864131872
+cement,all,1972,1.4675305165994479
+cement,all,1973,1.4272342741677748
+cement,all,1974,1.4759115220959995
+cement,all,1975,1.5061973549438201
+cement,all,1976,1.5591672576501179
+cement,all,1977,1.6734327937455749
+cement,all,1978,1.68838007375064
+cement,all,1979,1.6904048334488493
+cement,all,1980,1.7182768607320593
+cement,all,1981,1.751386967489254
+cement,all,1982,1.756755907725908
+cement,all,1983,1.7129416900952827
+cement,all,1984,1.694731828195673
+cement,all,1985,0.526769008995462
+cement,all,1986,0.5172387372641685
+cement,all,1987,0.5035609432580576
+cement,all,1988,0.49753613856029055
+cement,all,1989,0.48476709764597326
+cement,all,1990,0.5167296682300706
+cement,all,1991,0.4906633824647427
+cement,all,1992,0.48624425692604034
+cement,all,1993,0.4626003103305956
+cement,all,1994,0.43000092423917213
+cement,all,1995,0.45011020068314594
+cement,all,1996,0.42538312931645433
+cement,all,1997,0.44629599788123575
+cement,all,1998,0.4422013464442557
+cement,all,1999,0.35667131698212556
+cement,all,2000,0.3690645959819274
+cement,all,2001,0.39726903066391833
+cement,all,2002,0.3939986778821818
+cement,all,2003,1
+cement,all,2004,1
+cement,all,2005,1
+cement,all,2006,1
+cement,all,2007,1
+cement,all,2008,1
+cement,all,2009,1
+cement,all,2010,1
+coal,all,1971,1
+coal,all,1972,1
+coal,all,1973,1
+coal,all,1974,1
+coal,all,1975,1
+coal,all,1976,1
+coal,all,1977,1
+coal,all,1978,1
+coal,all,1979,1
+coal,all,1980,1
+coal,all,1981,1
+coal,all,1982,1
+coal,all,1983,1
+coal,all,1984,1
+coal,all,1985,4.711898131968444e-5
+coal,all,1986,4.758042671604476e-5
+coal,all,1987,4.466468273757307e-5
+coal,all,1988,4.329572741106475e-5
+coal,all,1989,4.2112372735127044e-5
+coal,all,1990,1.6157284522592372e-4
+coal,all,1991,2.8822135469430313e-4
+coal,all,1992,2.9025118676562336e-4
+coal,all,1993,3.0216403218570365e-4
+coal,all,1994,3.214096109936104e-4
+coal,all,1995,3.635252094276979e-4
+coal,all,1996,3.1581969281495895e-4
+coal,all,1997,3.157231825586834e-4
+coal,all,1998,3.0947912644595476e-4
+coal,all,1999,3.5647429883830595e-4
+coal,all,2000,3.514002512118874e-4
+coal,all,2001,3.453748225538155e-4
+coal,all,2002,3.5565232832969755e-4
+coal,all,2003,1
+coal,all,2004,1
+coal,all,2005,1
+coal,all,2006,1
+coal,all,2007,1
+coal,all,2008,1
+coal,all,2009,1
+coal,all,2010,1
+elec_heat,biomass,1971,0
+elec_heat,biomass,1972,0
+elec_heat,biomass,1973,0
+elec_heat,biomass,1974,0
+elec_heat,biomass,1975,0
+elec_heat,biomass,1976,0
+elec_heat,biomass,1977,0
+elec_heat,biomass,1978,0
+elec_heat,biomass,1979,0
+elec_heat,biomass,1980,0
+elec_heat,biomass,1981,0
+elec_heat,biomass,1982,0
+elec_heat,biomass,1983,0
+elec_heat,biomass,1984,0
+elec_heat,biomass,1985,0
+elec_heat,biomass,1986,0
+elec_heat,biomass,1987,0
+elec_heat,biomass,1988,0
+elec_heat,biomass,1989,0
+elec_heat,biomass,1990,0
+elec_heat,biomass,1991,0
+elec_heat,biomass,1992,0
+elec_heat,biomass,1993,0
+elec_heat,biomass,1994,0
+elec_heat,biomass,1995,0
+elec_heat,biomass,1996,0
+elec_heat,biomass,1997,0
+elec_heat,biomass,1998,0
+elec_heat,biomass,1999,0
+elec_heat,biomass,2000,0
+elec_heat,biomass,2001,0
+elec_heat,biomass,2002,0
+elec_heat,biomass,2003,1
+elec_heat,biomass,2004,1
+elec_heat,biomass,2005,1
+elec_heat,biomass,2006,1
+elec_heat,biomass,2007,1
+elec_heat,biomass,2008,1
+elec_heat,biomass,2009,1
+elec_heat,biomass,2010,1
+elec_heat,coal,1971,1.8426324593338232
+elec_heat,coal,1972,1.7158988871893635
+elec_heat,coal,1973,1.7177102952024934
+elec_heat,coal,1974,1.655426955323487
+elec_heat,coal,1975,1.6117447451851499
+elec_heat,coal,1976,1.5148571578219943
+elec_heat,coal,1977,1.416132544757857
+elec_heat,coal,1978,1.3169168766042538
+elec_heat,coal,1979,1.2726989156447586
+elec_heat,coal,1980,1.1924831699894707
+elec_heat,coal,1981,1.0570408675581364
+elec_heat,coal,1982,1.042155736045104
+elec_heat,coal,1983,0.9927774490771064
+elec_heat,coal,1984,0.9870496099338839
+elec_heat,coal,1985,0.9642074692353324
+elec_heat,coal,1986,0.9309773016079469
+elec_heat,coal,1987,0.8952265643285034
+elec_heat,coal,1988,0.8654726079974286
+elec_heat,coal,1989,0.8695005187263385
+elec_heat,coal,1990,0.8419468309588812
+elec_heat,coal,1991,0.8397089475304509
+elec_heat,coal,1992,0.7926109922098782
+elec_heat,coal,1993,0.7486840236512254
+elec_heat,coal,1994,0.7356776803704596
+elec_heat,coal,1995,0.5760877461576304
+elec_heat,coal,1996,0.581897952273205
+elec_heat,coal,1997,0.5755601653657806
+elec_heat,coal,1998,0.5718897753805602
+elec_heat,coal,1999,0.5463073503258226
+elec_heat,coal,2000,0.4676658894692865
+elec_heat,coal,2001,0.4372444236743062
+elec_heat,coal,2002,0.44428343146169447
+elec_heat,coal,2003,1
+elec_heat,coal,2004,1
+elec_heat,coal,2005,1
+elec_heat,coal,2006,1
+elec_heat,coal,2007,1
+elec_heat,coal,2008,1
+elec_heat,coal,2009,1
+elec_heat,coal,2010,1
+elec_heat,gas,1971,2.3233891968314568e-4
+elec_heat,gas,1972,2.3406824068328272e-4
+elec_heat,gas,1973,2.598422172738052e-4
+elec_heat,gas,1974,2.723617036454584e-4
+elec_heat,gas,1975,2.9769541343991533e-4
+elec_heat,gas,1976,3.046391981976913e-4
+elec_heat,gas,1977,2.937483117568775e-4
+elec_heat,gas,1978,2.943788784822944e-4
+elec_heat,gas,1979,2.683875411461477e-4
+elec_heat,gas,1980,2.5321922882164826e-4
+elec_heat,gas,1981,2.5583534615388284e-4
+elec_heat,gas,1982,2.884533650861441e-4
+elec_heat,gas,1983,3.187235293432202e-4
+elec_heat,gas,1984,2.98174728168368e-4
+elec_heat,gas,1985,3.0445085601611373e-4
+elec_heat,gas,1986,3.568246458806515e-4
+elec_heat,gas,1987,3.2591963074879736e-4
+elec_heat,gas,1988,3.5270645545987104e-4
+elec_heat,gas,1989,3.3288978125045393e-4
+elec_heat,gas,1990,3.2803147429807575e-4
+elec_heat,gas,1991,3.2004642430408416e-4
+elec_heat,gas,1992,3.151355950289545e-4
+elec_heat,gas,1993,3.1948014585173913e-4
+elec_heat,gas,1994,2.9425494631372034e-4
+elec_heat,gas,1995,0.002450885638919855
+elec_heat,gas,1996,0.002173328377409806
+elec_heat,gas,1997,0.001673938733916162
+elec_heat,gas,1998,0.001511367130494371
+elec_heat,gas,1999,0.043055188840982445
+elec_heat,gas,2000,0.04084480149392311
+elec_heat,gas,2001,0.04507352536078214
+elec_heat,gas,2002,0.0013000900312346631
+elec_heat,gas,2003,1
+elec_heat,gas,2004,1
+elec_heat,gas,2005,1
+elec_heat,gas,2006,1
+elec_heat,gas,2007,1
+elec_heat,gas,2008,1
+elec_heat,gas,2009,1
+elec_heat,gas,2010,1
+elec_heat,refined liquids,1971,0.6228799662921942
+elec_heat,refined liquids,1972,0.4569878011115736
+elec_heat,refined liquids,1973,0.45878979052909674
+elec_heat,refined liquids,1974,0.464453755235971
+elec_heat,refined liquids,1975,0.44760997703684713
+elec_heat,refined liquids,1976,0.4261250658421039
+elec_heat,refined liquids,1977,0.42973222675837236
+elec_heat,refined liquids,1978,0.43300135389671157
+elec_heat,refined liquids,1979,0.4577369796722726
+elec_heat,refined liquids,1980,0.499596880145387
+elec_heat,refined liquids,1981,0.5315170247689448
+elec_heat,refined liquids,1982,0.6278766393353892
+elec_heat,refined liquids,1983,0.5147275652371259
+elec_heat,refined liquids,1984,0.51865169017708
+elec_heat,refined liquids,1985,0.5294241760988624
+elec_heat,refined liquids,1986,0.5271746458506152
+elec_heat,refined liquids,1987,0.4886720386159303
+elec_heat,refined liquids,1988,0.44295671293753136
+elec_heat,refined liquids,1989,0.4369503133666574
+elec_heat,refined liquids,1990,0.5081853124972325
+elec_heat,refined liquids,1991,0.5223198823389152
+elec_heat,refined liquids,1992,0.541612177018207
+elec_heat,refined liquids,1993,0.5487930860716057
+elec_heat,refined liquids,1994,0.5084018371594029
+elec_heat,refined liquids,1995,0.5913733946178865
+elec_heat,refined liquids,1996,0.590383617826395
+elec_heat,refined liquids,1997,0.4159505496736041
+elec_heat,refined liquids,1998,0.44121233490606415
+elec_heat,refined liquids,1999,0.46927998998233844
+elec_heat,refined liquids,2000,0.4196792104646496
+elec_heat,refined liquids,2001,0.4225187227988762
+elec_heat,refined liquids,2002,0.3546280383323521
+elec_heat,refined liquids,2003,1
+elec_heat,refined liquids,2004,1
+elec_heat,refined liquids,2005,1
+elec_heat,refined liquids,2006,1
+elec_heat,refined liquids,2007,1
+elec_heat,refined liquids,2008,1
+elec_heat,refined liquids,2009,1
+elec_heat,refined liquids,2010,1
+industry_energy,biomass,1971,0
+industry_energy,biomass,1972,0
+industry_energy,biomass,1973,0
+industry_energy,biomass,1974,0
+industry_energy,biomass,1975,0
+industry_energy,biomass,1976,0
+industry_energy,biomass,1977,0
+industry_energy,biomass,1978,0
+industry_energy,biomass,1979,0
+industry_energy,biomass,1980,0
+industry_energy,biomass,1981,0
+industry_energy,biomass,1982,0
+industry_energy,biomass,1983,0
+industry_energy,biomass,1984,0
+industry_energy,biomass,1985,0
+industry_energy,biomass,1986,0
+industry_energy,biomass,1987,0
+industry_energy,biomass,1988,0
+industry_energy,biomass,1989,0
+industry_energy,biomass,1990,0
+industry_energy,biomass,1991,0
+industry_energy,biomass,1992,0
+industry_energy,biomass,1993,0
+industry_energy,biomass,1994,0
+industry_energy,biomass,1995,0
+industry_energy,biomass,1996,0
+industry_energy,biomass,1997,0
+industry_energy,biomass,1998,0
+industry_energy,biomass,1999,0
+industry_energy,biomass,2000,0
+industry_energy,biomass,2001,0
+industry_energy,biomass,2002,0
+industry_energy,biomass,2003,1
+industry_energy,biomass,2004,1
+industry_energy,biomass,2005,1
+industry_energy,biomass,2006,1
+industry_energy,biomass,2007,1
+industry_energy,biomass,2008,1
+industry_energy,biomass,2009,1
+industry_energy,biomass,2010,1
+industry_energy,coal,1971,0.6952479522609746
+industry_energy,coal,1972,0.6470583366873525
+industry_energy,coal,1973,0.540629495991625
+industry_energy,coal,1974,0.5351169658132784
+industry_energy,coal,1975,0.5843796261038502
+industry_energy,coal,1976,0.4818575006884462
+industry_energy,coal,1977,0.492683215868224
+industry_energy,coal,1978,0.493181098330616
+industry_energy,coal,1979,0.5222219953645811
+industry_energy,coal,1980,0.5230049538431025
+industry_energy,coal,1981,0.5577850941671304
+industry_energy,coal,1982,0.6981924024862315
+industry_energy,coal,1983,0.7055162256912871
+industry_energy,coal,1984,0.6818910966449
+industry_energy,coal,1985,0.6969266290743172
+industry_energy,coal,1986,0.7601901639262504
+industry_energy,coal,1987,0.7321610804059002
+industry_energy,coal,1988,0.693137197865935
+industry_energy,coal,1989,0.7840622290368362
+industry_energy,coal,1990,0.8334193216493895
+industry_energy,coal,1991,0.8745266170128821
+industry_energy,coal,1992,1.1534853167944594
+industry_energy,coal,1993,1.1632978597405559
+industry_energy,coal,1994,1.1196305164668794
+industry_energy,coal,1995,1.1352122788012882
+industry_energy,coal,1996,0.9143104210699173
+industry_energy,coal,1997,0.8480474544216944
+industry_energy,coal,1998,0.8785406567714
+industry_energy,coal,1999,0.7250132281349143
+industry_energy,coal,2000,0.7229902436151917
+industry_energy,coal,2001,0.7161214699630601
+industry_energy,coal,2002,0.7771660311517588
+industry_energy,coal,2003,1
+industry_energy,coal,2004,1
+industry_energy,coal,2005,1
+industry_energy,coal,2006,1
+industry_energy,coal,2007,1
+industry_energy,coal,2008,1
+industry_energy,coal,2009,1
+industry_energy,coal,2010,1
+industry_energy,gas,1971,0.01589809942827898
+industry_energy,gas,1972,0.016090773116392506
+industry_energy,gas,1973,0.014218563988224735
+industry_energy,gas,1974,0.01553147806514218
+industry_energy,gas,1975,0.01518251620390237
+industry_energy,gas,1976,0.018318787024626595
+industry_energy,gas,1977,0.016587954551221883
+industry_energy,gas,1978,0.016740969763554204
+industry_energy,gas,1979,0.016793050621832704
+industry_energy,gas,1980,0.01592387845309252
+industry_energy,gas,1981,0.014469082384236482
+industry_energy,gas,1982,0.014350386780170234
+industry_energy,gas,1983,0.015132794065508742
+industry_energy,gas,1984,0.015186946719579082
+industry_energy,gas,1985,0.02276170556732586
+industry_energy,gas,1986,0.02105628845972776
+industry_energy,gas,1987,0.019418957476378697
+industry_energy,gas,1988,0.01849383167142592
+industry_energy,gas,1989,0.01819195173883699
+industry_energy,gas,1990,0.02837548140635321
+industry_energy,gas,1991,0.026863455207420672
+industry_energy,gas,1992,0.028433451415277405
+industry_energy,gas,1993,0.028369492994363563
+industry_energy,gas,1994,0.027413551604726475
+industry_energy,gas,1995,0.027576624092534682
+industry_energy,gas,1996,0.028357563479419822
+industry_energy,gas,1997,0.028558266171709604
+industry_energy,gas,1998,0.02991533628696286
+industry_energy,gas,1999,0.02247268720637018
+industry_energy,gas,2000,0.023004915706670362
+industry_energy,gas,2001,0.025170528570264385
+industry_energy,gas,2002,0.02926410455043499
+industry_energy,gas,2003,1
+industry_energy,gas,2004,1
+industry_energy,gas,2005,1
+industry_energy,gas,2006,1
+industry_energy,gas,2007,1
+industry_energy,gas,2008,1
+industry_energy,gas,2009,1
+industry_energy,gas,2010,1
+industry_energy,refined liquids,1971,0.37082948718504183
+industry_energy,refined liquids,1972,0.3739627571385861
+industry_energy,refined liquids,1973,0.3792995985185744
+industry_energy,refined liquids,1974,0.3889668278268158
+industry_energy,refined liquids,1975,0.34706360104708334
+industry_energy,refined liquids,1976,0.3658313619069642
+industry_energy,refined liquids,1977,0.32213411252016655
+industry_energy,refined liquids,1978,0.3398063773439409
+industry_energy,refined liquids,1979,0.21788937642322792
+industry_energy,refined liquids,1980,0.22450443608794496
+industry_energy,refined liquids,1981,0.20232407890010246
+industry_energy,refined liquids,1982,0.2052586877858443
+industry_energy,refined liquids,1983,0.17001872304670526
+industry_energy,refined liquids,1984,0.17524154192744626
+industry_energy,refined liquids,1985,0.22761506380833876
+industry_energy,refined liquids,1986,0.21671327853197153
+industry_energy,refined liquids,1987,0.22034225983621095
+industry_energy,refined liquids,1988,0.22857553049673854
+industry_energy,refined liquids,1989,0.2482954091634685
+industry_energy,refined liquids,1990,0.358134313032824
+industry_energy,refined liquids,1991,0.3345390690248631
+industry_energy,refined liquids,1992,0.3258115714432837
+industry_energy,refined liquids,1993,0.35377661781228303
+industry_energy,refined liquids,1994,0.34080169192037546
+industry_energy,refined liquids,1995,0.6035302408501284
+industry_energy,refined liquids,1996,0.5209850567600885
+industry_energy,refined liquids,1997,0.5442257502618216
+industry_energy,refined liquids,1998,0.5706734152010814
+industry_energy,refined liquids,1999,0.37413325866334
+industry_energy,refined liquids,2000,0.30435731095447416
+industry_energy,refined liquids,2001,0.2845586078876181
+industry_energy,refined liquids,2002,0.28220363322333686
+industry_energy,refined liquids,2003,1
+industry_energy,refined liquids,2004,1
+industry_energy,refined liquids,2005,1
+industry_energy,refined liquids,2006,1
+industry_energy,refined liquids,2007,1
+industry_energy,refined liquids,2008,1
+industry_energy,refined liquids,2009,1
+industry_energy,refined liquids,2010,1
+oil_gas,all,1971,0.012022143903565935
+oil_gas,all,1972,0.013120774371119312
+oil_gas,all,1973,0.015247199538062917
+oil_gas,all,1974,0.01635280893872499
+oil_gas,all,1975,0.01716415433116663
+oil_gas,all,1976,0.016751961601672628
+oil_gas,all,1977,0.01666961704635085
+oil_gas,all,1978,0.016517338862480184
+oil_gas,all,1979,0.017381725350814337
+oil_gas,all,1980,0.01709659246282131
+oil_gas,all,1981,0.016553199609869073
+oil_gas,all,1982,0.016385957880159254
+oil_gas,all,1983,0.01771172865107925
+oil_gas,all,1984,0.016762171780885564
+oil_gas,all,1985,0.012107190443232193
+oil_gas,all,1986,0.011677402476303118
+oil_gas,all,1987,0.011038750635791012
+oil_gas,all,1988,0.010949274816117554
+oil_gas,all,1989,0.010814357562347193
+oil_gas,all,1990,0.010839409016003453
+oil_gas,all,1991,0.009440264897384134
+oil_gas,all,1992,0.010430519249612885
+oil_gas,all,1993,0.009798640834019786
+oil_gas,all,1994,0.009592513445495388
+oil_gas,all,1995,0.009371105127487124
+oil_gas,all,1996,0.008507640523011771
+oil_gas,all,1997,0.008662983396348323
+oil_gas,all,1998,0.008832626665228245
+oil_gas,all,1999,0.008033729198125268
+oil_gas,all,2000,0.00819280876584523
+oil_gas,all,2001,0.008206747470872865
+oil_gas,all,2002,0.009047952514413522
+oil_gas,all,2003,1
+oil_gas,all,2004,1
+oil_gas,all,2005,1
+oil_gas,all,2006,1
+oil_gas,all,2007,1
+oil_gas,all,2008,1
+oil_gas,all,2009,1
+oil_gas,all,2010,1
+trn_air,all,1971,0.0025553262408771283
+trn_air,all,1972,0.002514307388520961
+trn_air,all,1973,0.0024901313559390283
+trn_air,all,1974,0.0026252984214633437
+trn_air,all,1975,0.0025385112731311347
+trn_air,all,1976,0.002602385655994571
+trn_air,all,1977,0.0024738312115783374
+trn_air,all,1978,0.002433270529139492
+trn_air,all,1979,0.0026967309852368396
+trn_air,all,1980,0.00271056259923289
+trn_air,all,1981,0.0028848738146015317
+trn_air,all,1982,0.0028876200057625055
+trn_air,all,1983,0.002805679735153732
+trn_air,all,1984,0.0024973612501058002
+trn_air,all,1985,0.002395669643548129
+trn_air,all,1986,0.002240575349518842
+trn_air,all,1987,0.00217724332489951
+trn_air,all,1988,0.002090739673057777
+trn_air,all,1989,0.0020350101625833178
+trn_air,all,1990,0.001975977297696825
+trn_air,all,1991,0.002034860943065531
+trn_air,all,1992,0.002073239236130223
+trn_air,all,1993,0.0020471235559965466
+trn_air,all,1994,0.001962044219926925
+trn_air,all,1995,0.00198221602200803
+trn_air,all,1996,0.001895323495199413
+trn_air,all,1997,0.0021513677365038466
+trn_air,all,1998,0.002117761177609887
+trn_air,all,1999,0.002058277121329929
+trn_air,all,2000,0.0022291647998160594
+trn_air,all,2001,0.002087246322630018
+trn_air,all,2002,0.002129984735102385
+trn_air,all,2003,1
+trn_air,all,2004,1
+trn_air,all,2005,1
+trn_air,all,2006,1
+trn_air,all,2007,1
+trn_air,all,2008,1
+trn_air,all,2009,1
+trn_air,all,2010,1
+trn_rail,all,1971,0.22024844317627365
+trn_rail,all,1972,0.2030488302357237
+trn_rail,all,1973,0.19302138211217199
+trn_rail,all,1974,0.19410470811829447
+trn_rail,all,1975,0.18840276587213414
+trn_rail,all,1976,0.18740315108772634
+trn_rail,all,1977,0.1861564566879797
+trn_rail,all,1978,0.18769657510926768
+trn_rail,all,1979,0.1856626019992776
+trn_rail,all,1980,0.18876854446821828
+trn_rail,all,1981,0.18018701712367508
+trn_rail,all,1982,0.17424483421423811
+trn_rail,all,1983,0.1665039310843311
+trn_rail,all,1984,0.15659954811972687
+trn_rail,all,1985,0.14770537970580708
+trn_rail,all,1986,0.13647897588520677
+trn_rail,all,1987,0.125633418218811
+trn_rail,all,1988,0.12282261441555291
+trn_rail,all,1989,0.12445864927301996
+trn_rail,all,1990,0.12786762391663822
+trn_rail,all,1991,0.12961650741244307
+trn_rail,all,1992,0.12845438417121874
+trn_rail,all,1993,0.12812744007975854
+trn_rail,all,1994,0.1236653798437291
+trn_rail,all,1995,0.12274632941454423
+trn_rail,all,1996,0.12220592089544523
+trn_rail,all,1997,0.11571823966696808
+trn_rail,all,1998,0.10842297444509184
+trn_rail,all,1999,0.10911075886955011
+trn_rail,all,2000,0.10373827522919304
+trn_rail,all,2001,0.10461072390371352
+trn_rail,all,2002,0.08436484381544729
+trn_rail,all,2003,1
+trn_rail,all,2004,1
+trn_rail,all,2005,1
+trn_rail,all,2006,1
+trn_rail,all,2007,1
+trn_rail,all,2008,1
+trn_rail,all,2009,1
+trn_rail,all,2010,1
+trn_road,gas,1971,0
+trn_road,gas,1972,0
+trn_road,gas,1973,0
+trn_road,gas,1974,0
+trn_road,gas,1975,0
+trn_road,gas,1976,0
+trn_road,gas,1977,0
+trn_road,gas,1978,0
+trn_road,gas,1979,0
+trn_road,gas,1980,0
+trn_road,gas,1981,0
+trn_road,gas,1982,0
+trn_road,gas,1983,0
+trn_road,gas,1984,0
+trn_road,gas,1985,0
+trn_road,gas,1986,0
+trn_road,gas,1987,0
+trn_road,gas,1988,0
+trn_road,gas,1989,0
+trn_road,gas,1990,0
+trn_road,gas,1991,0
+trn_road,gas,1992,0
+trn_road,gas,1993,0
+trn_road,gas,1994,0
+trn_road,gas,1995,0
+trn_road,gas,1996,0
+trn_road,gas,1997,0
+trn_road,gas,1998,0
+trn_road,gas,1999,0
+trn_road,gas,2000,0
+trn_road,gas,2001,0
+trn_road,gas,2002,0
+trn_road,gas,2003,1
+trn_road,gas,2004,1
+trn_road,gas,2005,1
+trn_road,gas,2006,1
+trn_road,gas,2007,1
+trn_road,gas,2008,1
+trn_road,gas,2009,1
+trn_road,gas,2010,1
+trn_road,refined liquids,1971,9.04634202361315
+trn_road,refined liquids,1972,8.767360479747342
+trn_road,refined liquids,1973,8.633693538490443
+trn_road,refined liquids,1974,9.146562424792373
+trn_road,refined liquids,1975,9.332454441384714
+trn_road,refined liquids,1976,9.148653493188522
+trn_road,refined liquids,1977,9.152573283959011
+trn_road,refined liquids,1978,9.099004462405606
+trn_road,refined liquids,1979,9.68116888414366
+trn_road,refined liquids,1980,10.592056077958233
+trn_road,refined liquids,1981,10.904514970477278
+trn_road,refined liquids,1982,11.293504224900014
+trn_road,refined liquids,1983,11.440920992598292
+trn_road,refined liquids,1984,11.666908519454061
+trn_road,refined liquids,1985,11.9406509524688
+trn_road,refined liquids,1986,11.919751086313491
+trn_road,refined liquids,1987,11.927365183697217
+trn_road,refined liquids,1988,11.596464807447305
+trn_road,refined liquids,1989,11.703265631880331
+trn_road,refined liquids,1990,12.045496710188132
+trn_road,refined liquids,1991,11.382747449399881
+trn_road,refined liquids,1992,10.284081050071888
+trn_road,refined liquids,1993,9.299747152583828
+trn_road,refined liquids,1994,8.214702738961885
+trn_road,refined liquids,1995,7.2861782455144875
+trn_road,refined liquids,1996,6.411996652063419
+trn_road,refined liquids,1997,6.329305207607398
+trn_road,refined liquids,1998,6.056878722491673
+trn_road,refined liquids,1999,5.905442064237347
+trn_road,refined liquids,2000,5.024318865352674
+trn_road,refined liquids,2001,4.753163528902303
+trn_road,refined liquids,2002,5.138037235633398
+trn_road,refined liquids,2003,1
+trn_road,refined liquids,2004,1
+trn_road,refined liquids,2005,1
+trn_road,refined liquids,2006,1
+trn_road,refined liquids,2007,1
+trn_road,refined liquids,2008,1
+trn_road,refined liquids,2009,1
+trn_road,refined liquids,2010,1
+trn_ship,all,1971,0.28779628718991596
+trn_ship,all,1972,0.32303560871020826
+trn_ship,all,1973,0.28315434565434566
+trn_ship,all,1974,0.27459552412323196
+trn_ship,all,1975,0.2692436144383945
+trn_ship,all,1976,0.20298297551013159
+trn_ship,all,1977,0.16827175446358317
+trn_ship,all,1978,0.1410071462416673
+trn_ship,all,1979,0.12873605017844822
+trn_ship,all,1980,0.1161355170452666
+trn_ship,all,1981,0.13060110741566835
+trn_ship,all,1982,0.16365304964576063
+trn_ship,all,1983,0.18976463297038051
+trn_ship,all,1984,0.1706257506581358
+trn_ship,all,1985,0.17065654878776543
+trn_ship,all,1986,0.9616427947934735
+trn_ship,all,1987,0.9215149812220423
+trn_ship,all,1988,0.10792103292929213
+trn_ship,all,1989,0.10497780308335679
+trn_ship,all,1990,0.1032527109111018
+trn_ship,all,1991,0.09771596906921545
+trn_ship,all,1992,0.10270163302328432
+trn_ship,all,1993,0.11000206397920356
+trn_ship,all,1994,0.11437521559413089
+trn_ship,all,1995,0.10744882859498907
+trn_ship,all,1996,0.10622017428583874
+trn_ship,all,1997,0.10348642380501338
+trn_ship,all,1998,0.10254297139460677
+trn_ship,all,1999,0.11178777700392917
+trn_ship,all,2000,0.10488250374509932
+trn_ship,all,2001,0.10937511410873466
+trn_ship,all,2002,0.11678196182289442
+trn_ship,all,2003,1
+trn_ship,all,2004,1
+trn_ship,all,2005,1
+trn_ship,all,2006,1
+trn_ship,all,2007,1
+trn_ship,all,2008,1
+trn_ship,all,2009,1
+trn_ship,all,2010,1

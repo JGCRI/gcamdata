@@ -1,0 +1,59 @@
+# L124.heatoutratio_R_elec_F_tech_Yh used to determine secondary output heat from elec,
+# filtering for only model base years
+region,supplysector,subsector,stub.technology,year,secondary.output.name,secondary.output
+EU-12,electricity,biomass,biomass (conv),1975,district heat,0
+EU-12,electricity,biomass,biomass (conv),1990,district heat,2.275
+EU-12,electricity,biomass,biomass (conv),2005,district heat,0.3531305
+EU-12,electricity,biomass,biomass (conv),2010,district heat,0.6508222
+EU-12,electricity,coal,coal (conv pul),1975,district heat,0.3560378
+EU-12,electricity,coal,coal (conv pul),1990,district heat,0.505761
+EU-12,electricity,coal,coal (conv pul),2005,district heat,0.3618779
+EU-12,electricity,coal,coal (conv pul),2010,district heat,0.3599489
+EU-12,electricity,refined liquids,refined liquids (steam/CT),1975,district heat,0.3712827
+EU-12,electricity,refined liquids,refined liquids (steam/CT),1990,district heat,1.1277229
+EU-12,electricity,refined liquids,refined liquids (steam/CT),2005,district heat,0.6243102
+EU-12,electricity,refined liquids,refined liquids (steam/CT),2010,district heat,0.5182418
+Europe_Eastern,electricity,biomass,biomass (conv),1975,district heat,0
+Europe_Eastern,electricity,biomass,biomass (conv),1990,district heat,0
+Europe_Eastern,electricity,biomass,biomass (conv),2005,district heat,0
+Europe_Eastern,electricity,biomass,biomass (conv),2010,district heat,6.5306697
+Europe_Eastern,electricity,coal,coal (conv pul),1975,district heat,0.9574794
+Europe_Eastern,electricity,coal,coal (conv pul),1990,district heat,0.0149474
+Europe_Eastern,electricity,coal,coal (conv pul),2005,district heat,0.0355718
+Europe_Eastern,electricity,coal,coal (conv pul),2010,district heat,0.071084
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),1975,district heat,1.1925178
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),1990,district heat,0.2623534
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),2005,district heat,1.5971798
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),2010,district heat,0.8740699
+Europe_Non_EU,electricity,coal,coal (conv pul),1975,district heat,0
+Europe_Non_EU,electricity,coal,coal (conv pul),1990,district heat,0
+Europe_Non_EU,electricity,coal,coal (conv pul),2005,district heat,0.0115587
+Europe_Non_EU,electricity,coal,coal (conv pul),2010,district heat,0.0038869
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),1975,district heat,0
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),1990,district heat,0.1549306
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),2005,district heat,0.1417412
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),2010,district heat,0.2230749
+Russia,electricity,coal,coal (conv pul),1975,district heat,0.9574794
+Russia,electricity,coal,coal (conv pul),1990,district heat,1.4086216
+Russia,electricity,coal,coal (conv pul),2005,district heat,1.0469928
+Russia,electricity,coal,coal (conv pul),2010,district heat,1.0756597
+Russia,electricity,refined liquids,refined liquids (steam/CT),1975,district heat,1.1925178
+Russia,electricity,refined liquids,refined liquids (steam/CT),1990,district heat,1.6298359
+Russia,electricity,refined liquids,refined liquids (steam/CT),2005,district heat,0.9780799
+Russia,electricity,refined liquids,refined liquids (steam/CT),2010,district heat,0.6673277
+EU-12,electricity,gas,gas (steam/CT),1975,district heat,0.9825619
+EU-12,electricity,gas,gas (steam/CT),1990,district heat,1.2856104
+EU-12,electricity,gas,gas (steam/CT),2005,district heat,1.3501744
+EU-12,electricity,gas,gas (steam/CT),2010,district heat,1.2954382
+Europe_Eastern,electricity,gas,gas (steam/CT),1975,district heat,1.112219
+Europe_Eastern,electricity,gas,gas (steam/CT),1990,district heat,1.1622944
+Europe_Eastern,electricity,gas,gas (steam/CT),2005,district heat,1.1781844
+Europe_Eastern,electricity,gas,gas (steam/CT),2010,district heat,1.2467622
+Europe_Non_EU,electricity,gas,gas (steam/CT),1975,district heat,0
+Europe_Non_EU,electricity,gas,gas (steam/CT),1990,district heat,0.4243198
+Europe_Non_EU,electricity,gas,gas (steam/CT),2005,district heat,0.8526812
+Europe_Non_EU,electricity,gas,gas (steam/CT),2010,district heat,0.3713712
+Russia,electricity,gas,gas (steam/CT),1975,district heat,1.112219
+Russia,electricity,gas,gas (steam/CT),1990,district heat,1.7749733
+Russia,electricity,gas,gas (steam/CT),2005,district heat,1.0299706
+Russia,electricity,gas,gas (steam/CT),2010,district heat,0.8936446

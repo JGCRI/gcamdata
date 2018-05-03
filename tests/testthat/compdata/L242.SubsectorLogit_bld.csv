@@ -1,0 +1,186 @@
+# Subsector logit exponents of building sector were written for all regions
+# Region/fuel combinations where heat and traditional biomass are not modeled as separate fuels were removed
+region,supplysector,subsector,logit.year.fillout,logit.exponent,logit.type
+USA,building,biomass,1975,-6,NA
+Africa_Eastern,building,biomass,1975,-6,NA
+Africa_Northern,building,biomass,1975,-6,NA
+Africa_Southern,building,biomass,1975,-6,NA
+Africa_Western,building,biomass,1975,-6,NA
+Australia_NZ,building,biomass,1975,-6,NA
+Brazil,building,biomass,1975,-6,NA
+Canada,building,biomass,1975,-6,NA
+Central America and Caribbean,building,biomass,1975,-6,NA
+Central Asia,building,biomass,1975,-6,NA
+China,building,biomass,1975,-6,NA
+EU-12,building,biomass,1975,-6,NA
+EU-15,building,biomass,1975,-6,NA
+Europe_Eastern,building,biomass,1975,-6,NA
+Europe_Non_EU,building,biomass,1975,-6,NA
+European Free Trade Association,building,biomass,1975,-6,NA
+India,building,biomass,1975,-6,NA
+Indonesia,building,biomass,1975,-6,NA
+Japan,building,biomass,1975,-6,NA
+Mexico,building,biomass,1975,-6,NA
+Middle East,building,biomass,1975,-6,NA
+Pakistan,building,biomass,1975,-6,NA
+Russia,building,biomass,1975,-6,NA
+South Africa,building,biomass,1975,-6,NA
+South America_Northern,building,biomass,1975,-6,NA
+South America_Southern,building,biomass,1975,-6,NA
+South Asia,building,biomass,1975,-6,NA
+South Korea,building,biomass,1975,-6,NA
+Southeast Asia,building,biomass,1975,-6,NA
+Taiwan,building,biomass,1975,-6,NA
+Argentina,building,biomass,1975,-6,NA
+Colombia,building,biomass,1975,-6,NA
+USA,building,coal,1975,-6,NA
+Africa_Eastern,building,coal,1975,-6,NA
+Africa_Northern,building,coal,1975,-6,NA
+Africa_Southern,building,coal,1975,-6,NA
+Africa_Western,building,coal,1975,-6,NA
+Australia_NZ,building,coal,1975,-6,NA
+Brazil,building,coal,1975,-6,NA
+Canada,building,coal,1975,-6,NA
+Central America and Caribbean,building,coal,1975,-6,NA
+Central Asia,building,coal,1975,-6,NA
+China,building,coal,1975,-6,NA
+EU-12,building,coal,1975,-6,NA
+EU-15,building,coal,1975,-6,NA
+Europe_Eastern,building,coal,1975,-6,NA
+Europe_Non_EU,building,coal,1975,-6,NA
+European Free Trade Association,building,coal,1975,-6,NA
+India,building,coal,1975,-6,NA
+Indonesia,building,coal,1975,-6,NA
+Japan,building,coal,1975,-6,NA
+Mexico,building,coal,1975,-6,NA
+Middle East,building,coal,1975,-6,NA
+Pakistan,building,coal,1975,-6,NA
+Russia,building,coal,1975,-6,NA
+South Africa,building,coal,1975,-6,NA
+South America_Northern,building,coal,1975,-6,NA
+South America_Southern,building,coal,1975,-6,NA
+South Asia,building,coal,1975,-6,NA
+South Korea,building,coal,1975,-6,NA
+Southeast Asia,building,coal,1975,-6,NA
+Taiwan,building,coal,1975,-6,NA
+Argentina,building,coal,1975,-6,NA
+Colombia,building,coal,1975,-6,NA
+China,building,district heat,1975,-6,NA
+EU-12,building,district heat,1975,-6,NA
+Europe_Eastern,building,district heat,1975,-6,NA
+Europe_Non_EU,building,district heat,1975,-6,NA
+Russia,building,district heat,1975,-6,NA
+USA,building,electricity,1975,-6,NA
+Africa_Eastern,building,electricity,1975,-6,NA
+Africa_Northern,building,electricity,1975,-6,NA
+Africa_Southern,building,electricity,1975,-6,NA
+Africa_Western,building,electricity,1975,-6,NA
+Australia_NZ,building,electricity,1975,-6,NA
+Brazil,building,electricity,1975,-6,NA
+Canada,building,electricity,1975,-6,NA
+Central America and Caribbean,building,electricity,1975,-6,NA
+Central Asia,building,electricity,1975,-6,NA
+China,building,electricity,1975,-6,NA
+EU-12,building,electricity,1975,-6,NA
+EU-15,building,electricity,1975,-6,NA
+Europe_Eastern,building,electricity,1975,-6,NA
+Europe_Non_EU,building,electricity,1975,-6,NA
+European Free Trade Association,building,electricity,1975,-6,NA
+India,building,electricity,1975,-6,NA
+Indonesia,building,electricity,1975,-6,NA
+Japan,building,electricity,1975,-6,NA
+Mexico,building,electricity,1975,-6,NA
+Middle East,building,electricity,1975,-6,NA
+Pakistan,building,electricity,1975,-6,NA
+Russia,building,electricity,1975,-6,NA
+South Africa,building,electricity,1975,-6,NA
+South America_Northern,building,electricity,1975,-6,NA
+South America_Southern,building,electricity,1975,-6,NA
+South Asia,building,electricity,1975,-6,NA
+South Korea,building,electricity,1975,-6,NA
+Southeast Asia,building,electricity,1975,-6,NA
+Taiwan,building,electricity,1975,-6,NA
+Argentina,building,electricity,1975,-6,NA
+Colombia,building,electricity,1975,-6,NA
+USA,building,gas,1975,-6,NA
+Africa_Eastern,building,gas,1975,-6,NA
+Africa_Northern,building,gas,1975,-6,NA
+Africa_Southern,building,gas,1975,-6,NA
+Africa_Western,building,gas,1975,-6,NA
+Australia_NZ,building,gas,1975,-6,NA
+Brazil,building,gas,1975,-6,NA
+Canada,building,gas,1975,-6,NA
+Central America and Caribbean,building,gas,1975,-6,NA
+Central Asia,building,gas,1975,-6,NA
+China,building,gas,1975,-6,NA
+EU-12,building,gas,1975,-6,NA
+EU-15,building,gas,1975,-6,NA
+Europe_Eastern,building,gas,1975,-6,NA
+Europe_Non_EU,building,gas,1975,-6,NA
+European Free Trade Association,building,gas,1975,-6,NA
+India,building,gas,1975,-6,NA
+Indonesia,building,gas,1975,-6,NA
+Japan,building,gas,1975,-6,NA
+Mexico,building,gas,1975,-6,NA
+Middle East,building,gas,1975,-6,NA
+Pakistan,building,gas,1975,-6,NA
+Russia,building,gas,1975,-6,NA
+South Africa,building,gas,1975,-6,NA
+South America_Northern,building,gas,1975,-6,NA
+South America_Southern,building,gas,1975,-6,NA
+South Asia,building,gas,1975,-6,NA
+South Korea,building,gas,1975,-6,NA
+Southeast Asia,building,gas,1975,-6,NA
+Taiwan,building,gas,1975,-6,NA
+Argentina,building,gas,1975,-6,NA
+Colombia,building,gas,1975,-6,NA
+USA,building,refined liquids,1975,-6,NA
+Africa_Eastern,building,refined liquids,1975,-6,NA
+Africa_Northern,building,refined liquids,1975,-6,NA
+Africa_Southern,building,refined liquids,1975,-6,NA
+Africa_Western,building,refined liquids,1975,-6,NA
+Australia_NZ,building,refined liquids,1975,-6,NA
+Brazil,building,refined liquids,1975,-6,NA
+Canada,building,refined liquids,1975,-6,NA
+Central America and Caribbean,building,refined liquids,1975,-6,NA
+Central Asia,building,refined liquids,1975,-6,NA
+China,building,refined liquids,1975,-6,NA
+EU-12,building,refined liquids,1975,-6,NA
+EU-15,building,refined liquids,1975,-6,NA
+Europe_Eastern,building,refined liquids,1975,-6,NA
+Europe_Non_EU,building,refined liquids,1975,-6,NA
+European Free Trade Association,building,refined liquids,1975,-6,NA
+India,building,refined liquids,1975,-6,NA
+Indonesia,building,refined liquids,1975,-6,NA
+Japan,building,refined liquids,1975,-6,NA
+Mexico,building,refined liquids,1975,-6,NA
+Middle East,building,refined liquids,1975,-6,NA
+Pakistan,building,refined liquids,1975,-6,NA
+Russia,building,refined liquids,1975,-6,NA
+South Africa,building,refined liquids,1975,-6,NA
+South America_Northern,building,refined liquids,1975,-6,NA
+South America_Southern,building,refined liquids,1975,-6,NA
+South Asia,building,refined liquids,1975,-6,NA
+South Korea,building,refined liquids,1975,-6,NA
+Southeast Asia,building,refined liquids,1975,-6,NA
+Taiwan,building,refined liquids,1975,-6,NA
+Argentina,building,refined liquids,1975,-6,NA
+Colombia,building,refined liquids,1975,-6,NA
+Africa_Eastern,building,traditional biomass,1975,-6,NA
+Africa_Northern,building,traditional biomass,1975,-6,NA
+Africa_Southern,building,traditional biomass,1975,-6,NA
+Africa_Western,building,traditional biomass,1975,-6,NA
+Brazil,building,traditional biomass,1975,-6,NA
+Central America and Caribbean,building,traditional biomass,1975,-6,NA
+China,building,traditional biomass,1975,-6,NA
+India,building,traditional biomass,1975,-6,NA
+Indonesia,building,traditional biomass,1975,-6,NA
+Mexico,building,traditional biomass,1975,-6,NA
+Pakistan,building,traditional biomass,1975,-6,NA
+South Africa,building,traditional biomass,1975,-6,NA
+South America_Northern,building,traditional biomass,1975,-6,NA
+South America_Southern,building,traditional biomass,1975,-6,NA
+South Asia,building,traditional biomass,1975,-6,NA
+Southeast Asia,building,traditional biomass,1975,-6,NA
+Argentina,building,traditional biomass,1975,-6,NA
+Colombia,building,traditional biomass,1975,-6,NA

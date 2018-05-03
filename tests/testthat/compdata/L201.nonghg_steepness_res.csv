@@ -1,0 +1,164 @@
+# The steepness is from an assumptions file (A51_steepness). It was chosen to replicate the pollutant reduction rates for SO2 in GCAM3.
+# Steepness is removed for technologies with maximum reduction rates of 0.
+region,depresource,Non.CO2,ctrl.name,steepness
+USA,crude oil,SO2_1,GDP_control,3.5
+USA,natural gas,SO2_1,GDP_control,3.5
+China,crude oil,SO2_2,GDP_control,3.5
+China,natural gas,SO2_2,GDP_control,3.5
+India,crude oil,SO2_2,GDP_control,3.5
+India,natural gas,SO2_2,GDP_control,3.5
+USA,coal,CO,GDP_control,3.5
+USA,crude oil,CO,GDP_control,3.5
+USA,natural gas,CO,GDP_control,3.5
+USA,coal,NMVOC,GDP_control,3.5
+USA,crude oil,NMVOC,GDP_control,3.5
+USA,natural gas,NMVOC,GDP_control,3.5
+USA,coal,NOx,GDP_control,3.5
+USA,crude oil,NOx,GDP_control,3.5
+USA,natural gas,NOx,GDP_control,3.5
+Africa_Eastern,coal,CO,GDP_control,3.5
+Africa_Eastern,coal,NMVOC,GDP_control,3.5
+Africa_Eastern,coal,NOx,GDP_control,3.5
+Africa_Northern,coal,CO,GDP_control,3.5
+Africa_Northern,coal,NMVOC,GDP_control,3.5
+Africa_Northern,coal,NOx,GDP_control,3.5
+Africa_Northern,crude oil,NOx,GDP_control,3.5
+Africa_Northern,natural gas,NOx,GDP_control,3.5
+Africa_Southern,coal,CO,GDP_control,3.5
+Africa_Southern,crude oil,CO,GDP_control,3.5
+Africa_Southern,natural gas,CO,GDP_control,3.5
+Africa_Southern,coal,NMVOC,GDP_control,3.5
+Africa_Southern,crude oil,NMVOC,GDP_control,3.5
+Africa_Southern,natural gas,NMVOC,GDP_control,3.5
+Africa_Southern,coal,NOx,GDP_control,3.5
+Africa_Southern,crude oil,NOx,GDP_control,3.5
+Africa_Southern,natural gas,NOx,GDP_control,3.5
+Africa_Western,coal,CO,GDP_control,3.5
+Africa_Western,crude oil,CO,GDP_control,3.5
+Africa_Western,natural gas,CO,GDP_control,3.5
+Africa_Western,coal,NMVOC,GDP_control,3.5
+Africa_Western,crude oil,NMVOC,GDP_control,3.5
+Africa_Western,natural gas,NMVOC,GDP_control,3.5
+Africa_Western,coal,NOx,GDP_control,3.5
+Africa_Western,crude oil,NOx,GDP_control,3.5
+Africa_Western,natural gas,NOx,GDP_control,3.5
+Brazil,coal,CO,GDP_control,3.5
+Brazil,coal,NMVOC,GDP_control,3.5
+Brazil,crude oil,NMVOC,GDP_control,3.5
+Brazil,natural gas,NMVOC,GDP_control,3.5
+Brazil,coal,NOx,GDP_control,3.5
+Brazil,crude oil,NOx,GDP_control,3.5
+Brazil,natural gas,NOx,GDP_control,3.5
+Central Asia,coal,NMVOC,GDP_control,3.5
+Central Asia,crude oil,NOx,GDP_control,3.5
+Central Asia,natural gas,NOx,GDP_control,3.5
+China,coal,CO,GDP_control,3.5
+China,crude oil,CO,GDP_control,3.5
+China,natural gas,CO,GDP_control,3.5
+China,coal,NMVOC,GDP_control,3.5
+China,crude oil,NMVOC,GDP_control,3.5
+China,natural gas,NMVOC,GDP_control,3.5
+China,crude oil,NOx,GDP_control,3.5
+China,natural gas,NOx,GDP_control,3.5
+EU-12,coal,CO,GDP_control,3.5
+EU-12,coal,NMVOC,GDP_control,3.5
+EU-12,crude oil,NMVOC,GDP_control,3.5
+EU-12,natural gas,NMVOC,GDP_control,3.5
+EU-12,coal,NOx,GDP_control,3.5
+EU-15,coal,CO,GDP_control,3.5
+EU-15,coal,NMVOC,GDP_control,3.5
+EU-15,crude oil,NMVOC,GDP_control,3.5
+EU-15,natural gas,NMVOC,GDP_control,3.5
+EU-15,coal,NOx,GDP_control,3.5
+Europe_Eastern,coal,CO,GDP_control,3.5
+Europe_Eastern,coal,NMVOC,GDP_control,3.5
+Europe_Eastern,crude oil,NMVOC,GDP_control,3.5
+Europe_Eastern,natural gas,NMVOC,GDP_control,3.5
+Europe_Eastern,coal,NOx,GDP_control,3.5
+Europe_Non_EU,coal,CO,GDP_control,3.5
+Europe_Non_EU,coal,NMVOC,GDP_control,3.5
+Europe_Non_EU,crude oil,NMVOC,GDP_control,3.5
+Europe_Non_EU,natural gas,NMVOC,GDP_control,3.5
+Europe_Non_EU,coal,NOx,GDP_control,3.5
+European Free Trade Association,coal,CO,GDP_control,3.5
+European Free Trade Association,coal,NMVOC,GDP_control,3.5
+European Free Trade Association,coal,NOx,GDP_control,3.5
+India,coal,CO,GDP_control,3.5
+India,crude oil,CO,GDP_control,3.5
+India,natural gas,CO,GDP_control,3.5
+India,coal,NMVOC,GDP_control,3.5
+India,crude oil,NMVOC,GDP_control,3.5
+India,natural gas,NMVOC,GDP_control,3.5
+India,coal,NOx,GDP_control,3.5
+India,crude oil,NOx,GDP_control,3.5
+India,natural gas,NOx,GDP_control,3.5
+Indonesia,coal,CO,GDP_control,3.5
+Indonesia,coal,NOx,GDP_control,3.5
+Indonesia,crude oil,NOx,GDP_control,3.5
+Indonesia,natural gas,NOx,GDP_control,3.5
+Japan,crude oil,NMVOC,GDP_control,3.5
+Japan,natural gas,NMVOC,GDP_control,3.5
+Mexico,coal,CO,GDP_control,3.5
+Mexico,coal,NMVOC,GDP_control,3.5
+Mexico,crude oil,NMVOC,GDP_control,3.5
+Mexico,natural gas,NMVOC,GDP_control,3.5
+Mexico,coal,NOx,GDP_control,3.5
+Mexico,crude oil,NOx,GDP_control,3.5
+Mexico,natural gas,NOx,GDP_control,3.5
+Middle East,coal,CO,GDP_control,3.5
+Middle East,coal,NMVOC,GDP_control,3.5
+Middle East,coal,NOx,GDP_control,3.5
+Middle East,crude oil,NOx,GDP_control,3.5
+Middle East,natural gas,NOx,GDP_control,3.5
+Pakistan,coal,CO,GDP_control,3.5
+Pakistan,coal,NMVOC,GDP_control,3.5
+Pakistan,coal,NOx,GDP_control,3.5
+Russia,crude oil,CO,GDP_control,3.5
+Russia,natural gas,CO,GDP_control,3.5
+Russia,coal,NMVOC,GDP_control,3.5
+Russia,crude oil,NOx,GDP_control,3.5
+Russia,natural gas,NOx,GDP_control,3.5
+South Africa,coal,CO,GDP_control,3.5
+South Africa,coal,NMVOC,GDP_control,3.5
+South Africa,crude oil,NMVOC,GDP_control,3.5
+South Africa,natural gas,NMVOC,GDP_control,3.5
+South Africa,coal,NOx,GDP_control,3.5
+South America_Northern,coal,CO,GDP_control,3.5
+South America_Northern,coal,NMVOC,GDP_control,3.5
+South America_Northern,crude oil,NMVOC,GDP_control,3.5
+South America_Northern,natural gas,NMVOC,GDP_control,3.5
+South America_Northern,coal,NOx,GDP_control,3.5
+South America_Northern,crude oil,NOx,GDP_control,3.5
+South America_Northern,natural gas,NOx,GDP_control,3.5
+South America_Southern,coal,CO,GDP_control,3.5
+South America_Southern,coal,NMVOC,GDP_control,3.5
+South America_Southern,crude oil,NMVOC,GDP_control,3.5
+South America_Southern,natural gas,NMVOC,GDP_control,3.5
+South America_Southern,coal,NOx,GDP_control,3.5
+South America_Southern,crude oil,NOx,GDP_control,3.5
+South America_Southern,natural gas,NOx,GDP_control,3.5
+South Asia,coal,CO,GDP_control,3.5
+South Asia,coal,NMVOC,GDP_control,3.5
+South Asia,coal,NOx,GDP_control,3.5
+South Korea,coal,CO,GDP_control,3.5
+South Korea,coal,NMVOC,GDP_control,3.5
+South Korea,crude oil,NMVOC,GDP_control,3.5
+South Korea,natural gas,NMVOC,GDP_control,3.5
+South Korea,coal,NOx,GDP_control,3.5
+Southeast Asia,coal,CO,GDP_control,3.5
+Southeast Asia,coal,NMVOC,GDP_control,3.5
+Southeast Asia,coal,NOx,GDP_control,3.5
+Southeast Asia,crude oil,NOx,GDP_control,3.5
+Southeast Asia,natural gas,NOx,GDP_control,3.5
+Taiwan,crude oil,NMVOC,GDP_control,3.5
+Taiwan,natural gas,NMVOC,GDP_control,3.5
+Argentina,coal,CO,GDP_control,3.5
+Argentina,coal,NMVOC,GDP_control,3.5
+Argentina,coal,NOx,GDP_control,3.5
+Colombia,coal,CO,GDP_control,3.5
+Colombia,coal,NMVOC,GDP_control,3.5
+Colombia,crude oil,NMVOC,GDP_control,3.5
+Colombia,natural gas,NMVOC,GDP_control,3.5
+Colombia,coal,NOx,GDP_control,3.5
+Colombia,crude oil,NOx,GDP_control,3.5
+Colombia,natural gas,NOx,GDP_control,3.5

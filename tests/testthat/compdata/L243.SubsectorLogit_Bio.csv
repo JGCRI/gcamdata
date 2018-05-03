@@ -1,0 +1,132 @@
+# Copy bio trade subsector assumption file to all regions
+# Modify subsector name to include the region for the 'traded biomass' sectors.
+# Replace region name for 'traded biomass' with the trade region (currently USA).
+supplysector,subsector,logit.exponent,logit.type,region,logit.year.fillout
+regional biomass,regional biomass,-6,NA,USA,1975
+regional biomass,regional biomass,-6,NA,Africa_Eastern,1975
+regional biomass,regional biomass,-6,NA,Africa_Northern,1975
+regional biomass,regional biomass,-6,NA,Africa_Southern,1975
+regional biomass,regional biomass,-6,NA,Africa_Western,1975
+regional biomass,regional biomass,-6,NA,Australia_NZ,1975
+regional biomass,regional biomass,-6,NA,Brazil,1975
+regional biomass,regional biomass,-6,NA,Canada,1975
+regional biomass,regional biomass,-6,NA,Central America and Caribbean,1975
+regional biomass,regional biomass,-6,NA,Central Asia,1975
+regional biomass,regional biomass,-6,NA,China,1975
+regional biomass,regional biomass,-6,NA,EU-12,1975
+regional biomass,regional biomass,-6,NA,EU-15,1975
+regional biomass,regional biomass,-6,NA,Europe_Eastern,1975
+regional biomass,regional biomass,-6,NA,Europe_Non_EU,1975
+regional biomass,regional biomass,-6,NA,European Free Trade Association,1975
+regional biomass,regional biomass,-6,NA,India,1975
+regional biomass,regional biomass,-6,NA,Indonesia,1975
+regional biomass,regional biomass,-6,NA,Japan,1975
+regional biomass,regional biomass,-6,NA,Mexico,1975
+regional biomass,regional biomass,-6,NA,Middle East,1975
+regional biomass,regional biomass,-6,NA,Pakistan,1975
+regional biomass,regional biomass,-6,NA,Russia,1975
+regional biomass,regional biomass,-6,NA,South Africa,1975
+regional biomass,regional biomass,-6,NA,South America_Northern,1975
+regional biomass,regional biomass,-6,NA,South America_Southern,1975
+regional biomass,regional biomass,-6,NA,South Asia,1975
+regional biomass,regional biomass,-6,NA,South Korea,1975
+regional biomass,regional biomass,-6,NA,Southeast Asia,1975
+regional biomass,regional biomass,-6,NA,Taiwan,1975
+regional biomass,regional biomass,-6,NA,Argentina,1975
+regional biomass,regional biomass,-6,NA,Colombia,1975
+total biomass,domestic biomass,-3,NA,USA,1975
+total biomass,domestic biomass,-3,NA,Africa_Eastern,1975
+total biomass,domestic biomass,-3,NA,Africa_Northern,1975
+total biomass,domestic biomass,-3,NA,Africa_Southern,1975
+total biomass,domestic biomass,-3,NA,Africa_Western,1975
+total biomass,domestic biomass,-3,NA,Australia_NZ,1975
+total biomass,domestic biomass,-3,NA,Brazil,1975
+total biomass,domestic biomass,-3,NA,Canada,1975
+total biomass,domestic biomass,-3,NA,Central America and Caribbean,1975
+total biomass,domestic biomass,-3,NA,Central Asia,1975
+total biomass,domestic biomass,-3,NA,China,1975
+total biomass,domestic biomass,-3,NA,EU-12,1975
+total biomass,domestic biomass,-3,NA,EU-15,1975
+total biomass,domestic biomass,-3,NA,Europe_Eastern,1975
+total biomass,domestic biomass,-3,NA,Europe_Non_EU,1975
+total biomass,domestic biomass,-3,NA,European Free Trade Association,1975
+total biomass,domestic biomass,-3,NA,India,1975
+total biomass,domestic biomass,-3,NA,Indonesia,1975
+total biomass,domestic biomass,-3,NA,Japan,1975
+total biomass,domestic biomass,-3,NA,Mexico,1975
+total biomass,domestic biomass,-3,NA,Middle East,1975
+total biomass,domestic biomass,-3,NA,Pakistan,1975
+total biomass,domestic biomass,-3,NA,Russia,1975
+total biomass,domestic biomass,-3,NA,South Africa,1975
+total biomass,domestic biomass,-3,NA,South America_Northern,1975
+total biomass,domestic biomass,-3,NA,South America_Southern,1975
+total biomass,domestic biomass,-3,NA,South Asia,1975
+total biomass,domestic biomass,-3,NA,South Korea,1975
+total biomass,domestic biomass,-3,NA,Southeast Asia,1975
+total biomass,domestic biomass,-3,NA,Taiwan,1975
+total biomass,domestic biomass,-3,NA,Argentina,1975
+total biomass,domestic biomass,-3,NA,Colombia,1975
+total biomass,imported biomass,-3,NA,USA,1975
+total biomass,imported biomass,-3,NA,Africa_Eastern,1975
+total biomass,imported biomass,-3,NA,Africa_Northern,1975
+total biomass,imported biomass,-3,NA,Africa_Southern,1975
+total biomass,imported biomass,-3,NA,Africa_Western,1975
+total biomass,imported biomass,-3,NA,Australia_NZ,1975
+total biomass,imported biomass,-3,NA,Brazil,1975
+total biomass,imported biomass,-3,NA,Canada,1975
+total biomass,imported biomass,-3,NA,Central America and Caribbean,1975
+total biomass,imported biomass,-3,NA,Central Asia,1975
+total biomass,imported biomass,-3,NA,China,1975
+total biomass,imported biomass,-3,NA,EU-12,1975
+total biomass,imported biomass,-3,NA,EU-15,1975
+total biomass,imported biomass,-3,NA,Europe_Eastern,1975
+total biomass,imported biomass,-3,NA,Europe_Non_EU,1975
+total biomass,imported biomass,-3,NA,European Free Trade Association,1975
+total biomass,imported biomass,-3,NA,India,1975
+total biomass,imported biomass,-3,NA,Indonesia,1975
+total biomass,imported biomass,-3,NA,Japan,1975
+total biomass,imported biomass,-3,NA,Mexico,1975
+total biomass,imported biomass,-3,NA,Middle East,1975
+total biomass,imported biomass,-3,NA,Pakistan,1975
+total biomass,imported biomass,-3,NA,Russia,1975
+total biomass,imported biomass,-3,NA,South Africa,1975
+total biomass,imported biomass,-3,NA,South America_Northern,1975
+total biomass,imported biomass,-3,NA,South America_Southern,1975
+total biomass,imported biomass,-3,NA,South Asia,1975
+total biomass,imported biomass,-3,NA,South Korea,1975
+total biomass,imported biomass,-3,NA,Southeast Asia,1975
+total biomass,imported biomass,-3,NA,Taiwan,1975
+total biomass,imported biomass,-3,NA,Argentina,1975
+total biomass,imported biomass,-3,NA,Colombia,1975
+traded biomass,USA traded biomass,-3,NA,USA,1975
+traded biomass,Africa_Eastern traded biomass,-3,NA,USA,1975
+traded biomass,Africa_Northern traded biomass,-3,NA,USA,1975
+traded biomass,Africa_Southern traded biomass,-3,NA,USA,1975
+traded biomass,Africa_Western traded biomass,-3,NA,USA,1975
+traded biomass,Australia_NZ traded biomass,-3,NA,USA,1975
+traded biomass,Brazil traded biomass,-3,NA,USA,1975
+traded biomass,Canada traded biomass,-3,NA,USA,1975
+traded biomass,Central America and Caribbean traded biomass,-3,NA,USA,1975
+traded biomass,Central Asia traded biomass,-3,NA,USA,1975
+traded biomass,China traded biomass,-3,NA,USA,1975
+traded biomass,EU-12 traded biomass,-3,NA,USA,1975
+traded biomass,EU-15 traded biomass,-3,NA,USA,1975
+traded biomass,Europe_Eastern traded biomass,-3,NA,USA,1975
+traded biomass,Europe_Non_EU traded biomass,-3,NA,USA,1975
+traded biomass,European Free Trade Association traded biomass,-3,NA,USA,1975
+traded biomass,India traded biomass,-3,NA,USA,1975
+traded biomass,Indonesia traded biomass,-3,NA,USA,1975
+traded biomass,Japan traded biomass,-3,NA,USA,1975
+traded biomass,Mexico traded biomass,-3,NA,USA,1975
+traded biomass,Middle East traded biomass,-3,NA,USA,1975
+traded biomass,Pakistan traded biomass,-3,NA,USA,1975
+traded biomass,Russia traded biomass,-3,NA,USA,1975
+traded biomass,South Africa traded biomass,-3,NA,USA,1975
+traded biomass,South America_Northern traded biomass,-3,NA,USA,1975
+traded biomass,South America_Southern traded biomass,-3,NA,USA,1975
+traded biomass,South Asia traded biomass,-3,NA,USA,1975
+traded biomass,South Korea traded biomass,-3,NA,USA,1975
+traded biomass,Southeast Asia traded biomass,-3,NA,USA,1975
+traded biomass,Taiwan traded biomass,-3,NA,USA,1975
+traded biomass,Argentina traded biomass,-3,NA,USA,1975
+traded biomass,Colombia traded biomass,-3,NA,USA,1975

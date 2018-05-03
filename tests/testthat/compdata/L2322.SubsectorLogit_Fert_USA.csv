@@ -1,0 +1,12 @@
+# Replace region from L2322.SubsectorLogit_USAFert with the fertilizer producing states within region USA
+# Replace state subsector with gas
+region,supplysector,subsector,logit.year.fillout,logit.exponent,logit.type
+CA,N fertilizer,gas,1975,-12,NA
+FL,N fertilizer,gas,1975,-12,NA
+GA,N fertilizer,gas,1975,-12,NA
+IA,N fertilizer,gas,1975,-12,NA
+LA,N fertilizer,gas,1975,-12,NA
+MO,N fertilizer,gas,1975,-12,NA
+NC,N fertilizer,gas,1975,-12,NA
+OH,N fertilizer,gas,1975,-12,NA
+TX,N fertilizer,gas,1975,-12,NA

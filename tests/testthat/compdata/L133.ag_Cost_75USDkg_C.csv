@@ -1,0 +1,16 @@
+# GCAM commodity costs are determined by USDA cost data for USA, when available.
+# Commodities without USDA cost data have costs calculated using the average profit
+# among USDA commodities and LDS harvested area and production data.
+GCAM_commodity,Cost_75USDkg
+Corn,0.026906930094982573
+FiberCrop,0.1396342461297812
+OilCrop,0.040931673496109766
+OtherGrain,0.030929987265490243
+Rice,0.05132664400296096
+SugarCrop,0.009225631249448156
+Wheat,0.031821171734395005
+FodderGrass,0.025694498770298738
+FodderHerb,0.04602443212416174
+MiscCrop,0.21520405742496504
+PalmFruit,0.02844894090923719
+Root_Tuber,0.05958882944835021

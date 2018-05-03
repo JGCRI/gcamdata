@@ -1,0 +1,1282 @@
+# Composed directly from input data
+region,supplysector,subsector,stub.technology,year,calOutputValue,share.weight.year,subs.share.weight,tech.share.weight
+Africa_Eastern,electricity,biomass,biomass (conv),1975,4.1759999999999996e-4,1975,1,1
+Africa_Eastern,electricity,biomass,biomass (conv),1990,7.235999999999999e-4,1990,1,1
+Africa_Eastern,electricity,biomass,biomass (conv),2005,0.0011376,2005,1,1
+Africa_Eastern,electricity,biomass,biomass (conv),2010,0.0011376,2010,1,1
+Africa_Eastern,electricity,coal,coal (conv pul),1975,5.917800557586663e-6,1975,1,1
+Africa_Eastern,electricity,coal,coal (conv pul),1990,0.001250829824532994,1990,1,1
+Africa_Eastern,electricity,coal,coal (conv pul),2005,0.0023711768444088857,2005,1,1
+Africa_Eastern,electricity,coal,coal (conv pul),2010,0.0034151715265598884,2010,1,1
+Africa_Eastern,electricity,gas,gas (CC),1975,0,1975,0,0
+Africa_Eastern,electricity,gas,gas (steam/CT),1975,0,1975,0,0
+Africa_Eastern,electricity,gas,gas (CC),1990,0,1990,0,0
+Africa_Eastern,electricity,gas,gas (steam/CT),1990,0,1990,0,0
+Africa_Eastern,electricity,gas,gas (CC),2005,1.3373596827036488e-4,2005,1,1
+Africa_Eastern,electricity,gas,gas (steam/CT),2005,5.133920904507186e-5,2005,1,1
+Africa_Eastern,electricity,gas,gas (CC),2010,9.0355467310936e-5,2010,1,1
+Africa_Eastern,electricity,gas,gas (steam/CT),2010,1.2824085489002157e-4,2010,1,1
+Africa_Eastern,electricity,geothermal,geothermal,1975,0,1975,0,0
+Africa_Eastern,electricity,geothermal,geothermal,1990,0.0011736,1990,1,1
+Africa_Eastern,electricity,geothermal,geothermal,2005,0.0036108,2005,1,1
+Africa_Eastern,electricity,geothermal,geothermal,2010,0.0052956,2010,1,1
+Africa_Eastern,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+Africa_Eastern,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+Africa_Eastern,electricity,nuclear,Gen_II_LWR,2005,0,2005,0,0
+Africa_Eastern,electricity,nuclear,Gen_II_LWR,2010,0,2010,0,0
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),1975,0.0062836180972043335,1975,1,1
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),1990,0.008139117739181625,1990,1,1
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),2005,0.026500117743200848,2005,1,1
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),2010,0.036868433264917864,2010,1,1
+Africa_Eastern,electricity,solar,CSP,1975,0,1975,0,0
+Africa_Eastern,electricity,solar,PV,1975,0,1975,0,0
+Africa_Eastern,electricity,solar,CSP,1990,0,1990,0,0
+Africa_Eastern,electricity,solar,PV,1990,0,1990,0,0
+Africa_Eastern,electricity,solar,CSP,2005,0,2005,1,0
+Africa_Eastern,electricity,solar,PV,2005,3.6e-6,2005,1,1
+Africa_Eastern,electricity,solar,CSP,2010,0,2010,1,0
+Africa_Eastern,electricity,solar,PV,2010,7.2e-6,2010,1,1
+Africa_Eastern,electricity,wind,wind,1975,0,1975,0,0
+Africa_Eastern,electricity,wind,wind,1990,0,1990,0,0
+Africa_Eastern,electricity,wind,wind,2005,1.107287385647912e-5,2005,1,1
+Africa_Eastern,electricity,wind,wind,2010,2.3270731995146018e-4,2010,1,1
+Africa_Northern,electricity,biomass,biomass (conv),1975,0,1975,0,0
+Africa_Northern,electricity,biomass,biomass (conv),1990,0,1990,0,0
+Africa_Northern,electricity,biomass,biomass (conv),2005,0,2005,0,0
+Africa_Northern,electricity,biomass,biomass (conv),2010,0,2010,0,0
+Africa_Northern,electricity,coal,coal (conv pul),1975,0.004014,1975,1,1
+Africa_Northern,electricity,coal,coal (conv pul),1990,0.007968619184589002,1990,1,1
+Africa_Northern,electricity,coal,coal (conv pul),2005,0.04739719419206039,2005,1,1
+Africa_Northern,electricity,coal,coal (conv pul),2010,0.03994140701352313,2010,1,1
+Africa_Northern,electricity,gas,gas (CC),1975,0.007977073499999994,1975,1,1
+Africa_Northern,electricity,gas,gas (steam/CT),1975,0.0031901265000000042,1975,1,1
+Africa_Northern,electricity,gas,gas (CC),1990,0.0753821639999999,1990,1,1
+Africa_Northern,electricity,gas,gas (steam/CT),1990,0.060431436000000074,1990,1,1
+Africa_Northern,electricity,gas,gas (CC),2005,0.19818770516419404,2005,1,1
+Africa_Northern,electricity,gas,gas (steam/CT),2005,0.2842601871109701,2005,1,1
+Africa_Northern,electricity,gas,gas (CC),2010,0.0832846705226602,2010,1,1
+Africa_Northern,electricity,gas,gas (steam/CT),2010,0.5528870740821015,2010,1,1
+Africa_Northern,electricity,geothermal,geothermal,1975,0,1975,0,0
+Africa_Northern,electricity,geothermal,geothermal,1990,0,1990,0,0
+Africa_Northern,electricity,geothermal,geothermal,2005,0,2005,0,0
+Africa_Northern,electricity,geothermal,geothermal,2010,0,2010,0,0
+Africa_Northern,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+Africa_Northern,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+Africa_Northern,electricity,nuclear,Gen_II_LWR,2005,0,2005,0,0
+Africa_Northern,electricity,nuclear,Gen_II_LWR,2010,0,2010,0,0
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),1975,0.029243939914436544,1975,1,1
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),1990,0.11772998857494064,1990,1,1
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),2005,0.1267661979323976,2005,1,1
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),2010,0.20005283321385853,2010,1,1
+Africa_Northern,electricity,solar,CSP,1975,0,1975,0,0
+Africa_Northern,electricity,solar,PV,1975,0,1975,0,0
+Africa_Northern,electricity,solar,CSP,1990,0,1990,0,0
+Africa_Northern,electricity,solar,PV,1990,0,1990,0,0
+Africa_Northern,electricity,solar,CSP,2005,0,2005,0,0
+Africa_Northern,electricity,solar,PV,2005,0,2005,0,0
+Africa_Northern,electricity,solar,CSP,2010,0,2010,0,0
+Africa_Northern,electricity,solar,PV,2010,0,2010,0,0
+Africa_Northern,electricity,wind,wind,1975,0,1975,0,0
+Africa_Northern,electricity,wind,wind,1990,0,1990,0,0
+Africa_Northern,electricity,wind,wind,2005,0.0028800653497961454,2005,1,1
+Africa_Northern,electricity,wind,wind,2010,0.008219832812353178,2010,1,1
+Africa_Southern,electricity,biomass,biomass (conv),1975,0,1975,0,0
+Africa_Southern,electricity,biomass,biomass (conv),1990,0,1990,0,0
+Africa_Southern,electricity,biomass,biomass (conv),2005,0,2005,0,0
+Africa_Southern,electricity,biomass,biomass (conv),2010,0,2010,0,0
+Africa_Southern,electricity,coal,coal (conv pul),1975,0.003744,1975,1,1
+Africa_Southern,electricity,coal,coal (conv pul),1990,0.021506457640959757,1990,1,1
+Africa_Southern,electricity,coal,coal (conv pul),2005,0.020002123350749988,2005,1,1
+Africa_Southern,electricity,coal,coal (conv pul),2010,0.01804619824583098,2010,1,1
+Africa_Southern,electricity,gas,gas (CC),1975,0,1975,0,0
+Africa_Southern,electricity,gas,gas (steam/CT),1975,0,1975,0,0
+Africa_Southern,electricity,gas,gas (CC),1990,0,1990,0,0
+Africa_Southern,electricity,gas,gas (steam/CT),1990,0,1990,0,0
+Africa_Southern,electricity,gas,gas (CC),2005,8.113302633216907e-4,2005,1,1
+Africa_Southern,electricity,gas,gas (steam/CT),2005,0.0033899297980777413,2005,1,1
+Africa_Southern,electricity,gas,gas (CC),2010,0,2010,1,0
+Africa_Southern,electricity,gas,gas (steam/CT),2010,0.006195077253211816,2010,1,1
+Africa_Southern,electricity,geothermal,geothermal,1975,0,1975,0,0
+Africa_Southern,electricity,geothermal,geothermal,1990,0,1990,0,0
+Africa_Southern,electricity,geothermal,geothermal,2005,0,2005,0,0
+Africa_Southern,electricity,geothermal,geothermal,2010,0,2010,0,0
+Africa_Southern,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+Africa_Southern,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+Africa_Southern,electricity,nuclear,Gen_II_LWR,2005,0,2005,0,0
+Africa_Southern,electricity,nuclear,Gen_II_LWR,2010,0,2010,0,0
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),1975,0.0032970957174916415,1975,1,1
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),1990,0.002677630079789283,1990,1,1
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),2005,0.006664285970459078,2005,1,1
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),2010,0.009335302593346785,2010,1,1
+Africa_Southern,electricity,solar,CSP,1975,0,1975,0,0
+Africa_Southern,electricity,solar,PV,1975,0,1975,0,0
+Africa_Southern,electricity,solar,CSP,1990,0,1990,0,0
+Africa_Southern,electricity,solar,PV,1990,0,1990,0,0
+Africa_Southern,electricity,solar,CSP,2005,0,2005,0,0
+Africa_Southern,electricity,solar,PV,2005,0,2005,0,0
+Africa_Southern,electricity,solar,CSP,2010,0,2010,0,0
+Africa_Southern,electricity,solar,PV,2010,0,2010,0,0
+Africa_Southern,electricity,wind,wind,1975,0,1975,0,0
+Africa_Southern,electricity,wind,wind,1990,0,1990,0,0
+Africa_Southern,electricity,wind,wind,2005,2.3728241862907947e-6,2005,1,1
+Africa_Southern,electricity,wind,wind,2010,3.554629594530792e-5,2010,1,1
+Africa_Western,electricity,biomass,biomass (conv),1975,1.4039999999999997e-4,1975,1,1
+Africa_Western,electricity,biomass,biomass (conv),1990,1.692e-4,1990,1,1
+Africa_Western,electricity,biomass,biomass (conv),2005,6.119999999999999e-4,2005,1,1
+Africa_Western,electricity,biomass,biomass (conv),2010,8.28e-4,2010,1,1
+Africa_Western,electricity,coal,coal (conv pul),1975,1.836e-4,1975,1,1
+Africa_Western,electricity,coal,coal (conv pul),1990,0.0013087499596968577,1990,1,1
+Africa_Western,electricity,coal,coal (conv pul),2005,0.0025004523115006463,2005,1,1
+Africa_Western,electricity,coal,coal (conv pul),2010,0.003598997229550661,2010,1,1
+Africa_Western,electricity,gas,gas (CC),1975,0,1975,1,0
+Africa_Western,electricity,gas,gas (steam/CT),1975,0.0019907999999999996,1975,1,1
+Africa_Western,electricity,gas,gas (CC),1990,0.009071532000000005,1990,1,1
+Africa_Western,electricity,gas,gas (steam/CT),1990,0.017586467999999997,1990,1,1
+Africa_Western,electricity,gas,gas (CC),2005,0.021969178956237748,2005,1,1
+Africa_Western,electricity,gas,gas (steam/CT),2005,0.04253278643431967,2005,1,1
+Africa_Western,electricity,gas,gas (CC),2010,8.156836000545502e-4,2010,1,1
+Africa_Western,electricity,gas,gas (steam/CT),2010,0.07906827893133599,2010,1,1
+Africa_Western,electricity,geothermal,geothermal,1975,0,1975,0,0
+Africa_Western,electricity,geothermal,geothermal,1990,0,1990,0,0
+Africa_Western,electricity,geothermal,geothermal,2005,0,2005,0,0
+Africa_Western,electricity,geothermal,geothermal,2010,0,2010,0,0
+Africa_Western,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+Africa_Western,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+Africa_Western,electricity,nuclear,Gen_II_LWR,2005,0,2005,0,0
+Africa_Western,electricity,nuclear,Gen_II_LWR,2010,0,2010,0,0
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),1975,0.010827301847286442,1975,1,1
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),1990,0.017955775773689866,1990,1,1
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),2005,0.034439908975283984,2005,1,1
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),2010,0.04552117849885396,2010,1,1
+Africa_Western,electricity,solar,CSP,1975,0,1975,0,0
+Africa_Western,electricity,solar,PV,1975,0,1975,0,0
+Africa_Western,electricity,solar,CSP,1990,0,1990,0,0
+Africa_Western,electricity,solar,PV,1990,0,1990,0,0
+Africa_Western,electricity,solar,CSP,2005,0,2005,1,0
+Africa_Western,electricity,solar,PV,2005,1.44e-5,2005,1,1
+Africa_Western,electricity,solar,CSP,2010,0,2010,1,0
+Africa_Western,electricity,solar,PV,2010,1.08e-5,2010,1,1
+Africa_Western,electricity,wind,wind,1975,0,1975,0,0
+Africa_Western,electricity,wind,wind,1990,0,1990,0,0
+Africa_Western,electricity,wind,wind,2005,1.167656182822183e-5,2005,1,1
+Africa_Western,electricity,wind,wind,2010,1.7694513280722173e-4,2010,1,1
+Argentina,electricity,biomass,biomass (conv),1975,2.2319999999999998e-4,1975,1,1
+Argentina,electricity,biomass,biomass (conv),1990,3.852e-4,1990,1,1
+Argentina,electricity,biomass,biomass (conv),2005,0.0046368,2005,1,1
+Argentina,electricity,biomass,biomass (conv),2010,0.007902,2010,1,1
+Argentina,electricity,coal,coal (conv pul),1975,0.0022895999999999997,1975,1,1
+Argentina,electricity,coal,coal (conv pul),1990,0.0016128,1990,1,1
+Argentina,electricity,coal,coal (conv pul),2005,0.00567,2005,1,1
+Argentina,electricity,coal,coal (conv pul),2010,0.008064,2010,1,1
+Argentina,electricity,gas,gas (CC),1975,0.011217520124999991,1975,1,1
+Argentina,electricity,gas,gas (steam/CT),1975,0.015066079875000006,1975,1,1
+Argentina,electricity,gas,gas (CC),1990,0.01778174999999996,1990,1,1
+Argentina,electricity,gas,gas (steam/CT),1990,0.053761050000000025,1990,1,1
+Argentina,electricity,gas,gas (CC),2005,0.14358286235294107,2005,1,1
+Argentina,electricity,gas,gas (steam/CT),2005,0.05561233764705892,2005,1,1
+Argentina,electricity,gas,gas (CC),2010,0.06140125342461346,2010,1,1
+Argentina,electricity,gas,gas (steam/CT),2010,0.16318834657538653,2010,1,1
+Argentina,electricity,geothermal,geothermal,1975,0,1975,0,0
+Argentina,electricity,geothermal,geothermal,1990,0,1990,0,0
+Argentina,electricity,geothermal,geothermal,2005,0,2005,0,0
+Argentina,electricity,geothermal,geothermal,2010,0,2010,0,0
+Argentina,electricity,nuclear,Gen_II_LWR,1975,0.0090612,1975,1,1
+Argentina,electricity,nuclear,Gen_II_LWR,1990,0.026211599999999998,1990,1,1
+Argentina,electricity,nuclear,Gen_II_LWR,2005,0.0247428,2005,1,1
+Argentina,electricity,nuclear,Gen_II_LWR,2010,0.025815599999999998,2010,1,1
+Argentina,electricity,refined liquids,refined liquids (steam/CT),1975,0.0490032,1975,1,1
+Argentina,electricity,refined liquids,refined liquids (steam/CT),1990,0.0178164,1990,1,1
+Argentina,electricity,refined liquids,refined liquids (steam/CT),2005,0.020689199999999998,2005,1,1
+Argentina,electricity,refined liquids,refined liquids (steam/CT),2010,0.059745599999999996,2010,1,1
+Argentina,electricity,solar,CSP,1975,0,1975,0,0
+Argentina,electricity,solar,PV,1975,0,1975,0,0
+Argentina,electricity,solar,CSP,1990,0,1990,0,0
+Argentina,electricity,solar,PV,1990,0,1990,0,0
+Argentina,electricity,solar,CSP,2005,0,2005,0,0
+Argentina,electricity,solar,PV,2005,0,2005,0,0
+Argentina,electricity,solar,CSP,2010,0,2010,0,0
+Argentina,electricity,solar,PV,2010,0,2010,0,0
+Argentina,electricity,wind,wind,1975,0,1975,0,0
+Argentina,electricity,wind,wind,1990,0,1990,0,0
+Argentina,electricity,wind,wind,2005,2.7e-4,2005,1,1
+Argentina,electricity,wind,wind,2010,8.999999999999999e-5,2010,1,1
+Australia_NZ,electricity,biomass,biomass (conv),1975,0.0017603999999999999,1975,1,1
+Australia_NZ,electricity,biomass,biomass (conv),1990,0,1990,0,0
+Australia_NZ,electricity,biomass,biomass (conv),2005,0.0015048,2005,1,1
+Australia_NZ,electricity,biomass,biomass (conv),2010,0.0014687999999999997,2010,1,1
+Australia_NZ,electricity,coal,coal (conv pul),1975,0.18606239999999996,1975,1,1
+Australia_NZ,electricity,coal,coal (conv pul),1990,0.43900199999999995,1990,1,1
+Australia_NZ,electricity,coal,coal (conv pul),2005,0.6725124,2005,1,1
+Australia_NZ,electricity,coal,coal (conv pul),2010,0.6555168,2010,1,1
+Australia_NZ,electricity,gas,gas (CC),1975,0.007699961249999993,1975,1,1
+Australia_NZ,electricity,gas,gas (steam/CT),1975,0.0035032387500000045,1975,1,1
+Australia_NZ,electricity,gas,gas (CC),1990,0.039245651999999985,1990,1,1
+Australia_NZ,electricity,gas,gas (steam/CT),1990,0.03288394800000001,1990,1,1
+Australia_NZ,electricity,gas,gas (CC),2005,0.062395212352941154,2005,1,1
+Australia_NZ,electricity,gas,gas (steam/CT),2005,0.05594398764705885,2005,1,1
+Australia_NZ,electricity,gas,gas (CC),2010,0.018128184429349853,2010,1,1
+Australia_NZ,electricity,gas,gas (steam/CT),2010,0.14394381557065017,2010,1,1
+Australia_NZ,electricity,geothermal,geothermal,1975,0.00468,1975,1,1
+Australia_NZ,electricity,geothermal,geothermal,1990,0.0074664,1990,1,1
+Australia_NZ,electricity,geothermal,geothermal,2005,0.0111492,2005,1,1
+Australia_NZ,electricity,geothermal,geothermal,2010,0.0209844,2010,1,1
+Australia_NZ,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+Australia_NZ,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+Australia_NZ,electricity,nuclear,Gen_II_LWR,2005,0,2005,0,0
+Australia_NZ,electricity,nuclear,Gen_II_LWR,2010,0,2010,0,0
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),1975,0.0205956,1975,1,1
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),1990,0.012816,1990,1,1
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),2005,0.010242,2005,1,1
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),2010,0.011386799999999999,2010,1,1
+Australia_NZ,electricity,solar,CSP,1975,0,1975,0,0
+Australia_NZ,electricity,solar,PV,1975,0,1975,0,0
+Australia_NZ,electricity,solar,CSP,1990,0,1990,0,0
+Australia_NZ,electricity,solar,PV,1990,0,1990,0,0
+Australia_NZ,electricity,solar,CSP,2005,3.6e-6,2005,1,1
+Australia_NZ,electricity,solar,PV,2005,2.808e-4,2005,1,1
+Australia_NZ,electricity,solar,CSP,2010,1.44e-5,2010,1,1
+Australia_NZ,electricity,solar,PV,2010,9.828e-4,2010,1,1
+Australia_NZ,electricity,wind,wind,1975,0,1975,0,0
+Australia_NZ,electricity,wind,wind,1990,0,1990,0,0
+Australia_NZ,electricity,wind,wind,2005,0.0053964,2005,1,1
+Australia_NZ,electricity,wind,wind,2010,0.023155199999999997,2010,1,1
+Brazil,electricity,biomass,biomass (conv),1975,0.0031211999999999998,1975,1,1
+Brazil,electricity,biomass,biomass (conv),1990,0.0138924,1990,1,1
+Brazil,electricity,biomass,biomass (conv),2005,0.048927599999999995,2005,1,1
+Brazil,electricity,biomass,biomass (conv),2010,0.113382,2010,1,1
+Brazil,electricity,coal,coal (conv pul),1975,0.0058572,1975,1,1
+Brazil,electricity,coal,coal (conv pul),1990,0.0171144,1990,1,1
+Brazil,electricity,coal,coal (conv pul),2005,0.038671199999999996,2005,1,1
+Brazil,electricity,coal,coal (conv pul),2010,0.0408168,2010,1,1
+Brazil,electricity,gas,gas (CC),1975,0,1975,0,0
+Brazil,electricity,gas,gas (steam/CT),1975,0,1975,0,0
+Brazil,electricity,gas,gas (CC),1990,8.082719999999993e-4,1990,1,1
+Brazil,electricity,gas,gas (steam/CT),1990,3.6532800000000054e-4,1990,1,1
+Brazil,electricity,gas,gas (CC),2005,0.044511951176470554,2005,1,1
+Brazil,electricity,gas,gas (steam/CT),2005,0.023211248823529443,2005,1,1
+Brazil,electricity,gas,gas (CC),2010,0.07770772207174564,2010,1,1
+Brazil,electricity,gas,gas (steam/CT),2010,0.05360227792825434,2010,1,1
+Brazil,electricity,geothermal,geothermal,1975,0,1975,0,0
+Brazil,electricity,geothermal,geothermal,1990,0,1990,0,0
+Brazil,electricity,geothermal,geothermal,2005,0,2005,0,0
+Brazil,electricity,geothermal,geothermal,2010,0,2010,0,0
+Brazil,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+Brazil,electricity,nuclear,Gen_II_LWR,1990,0.0080532,1990,1,1
+Brazil,electricity,nuclear,Gen_II_LWR,2005,0.035477999999999996,2005,1,1
+Brazil,electricity,nuclear,Gen_II_LWR,2010,0.0522828,2010,1,1
+Brazil,electricity,refined liquids,refined liquids (steam/CT),1975,0.014957999999999999,1975,1,1
+Brazil,electricity,refined liquids,refined liquids (steam/CT),1990,0.0177732,1990,1,1
+Brazil,electricity,refined liquids,refined liquids (steam/CT),2005,0.042040799999999996,2005,1,1
+Brazil,electricity,refined liquids,refined liquids (steam/CT),2010,0.057833999999999997,2010,1,1
+Brazil,electricity,solar,CSP,1975,0,1975,0,0
+Brazil,electricity,solar,PV,1975,0,1975,0,0
+Brazil,electricity,solar,CSP,1990,0,1990,0,0
+Brazil,electricity,solar,PV,1990,0,1990,0,0
+Brazil,electricity,solar,CSP,2005,0,2005,0,0
+Brazil,electricity,solar,PV,2005,0,2005,0,0
+Brazil,electricity,solar,CSP,2010,0,2010,0,0
+Brazil,electricity,solar,PV,2010,0,2010,0,0
+Brazil,electricity,wind,wind,1975,0,1975,0,0
+Brazil,electricity,wind,wind,1990,0,1990,0,0
+Brazil,electricity,wind,wind,2005,3.348e-4,2005,1,1
+Brazil,electricity,wind,wind,2010,0.007837199999999999,2010,1,1
+Canada,electricity,biomass,biomass (conv),1975,0.0019891872000000004,1975,1,1
+Canada,electricity,biomass,biomass (conv),1990,0.0137844,1990,1,1
+Canada,electricity,biomass,biomass (conv),2005,0.030002400000000002,2005,1,1
+Canada,electricity,biomass,biomass (conv),2010,0.0279072,2010,1,1
+Canada,electricity,coal,coal (conv pul),1975,0.1306188,1975,1,1
+Canada,electricity,coal,coal (conv pul),1990,0.295992,1990,1,1
+Canada,electricity,coal,coal (conv pul),2005,0.39594239999999997,2005,1,1
+Canada,electricity,coal,coal (conv pul),2010,0.316566,2010,1,1
+Canada,electricity,gas,gas (CC),1975,0.03369530925,1975,1,1
+Canada,electricity,gas,gas (steam/CT),1975,0.022129890750000006,1975,1,1
+Canada,electricity,gas,gas (CC),1990,0.033835175999999995,1990,1,1
+Canada,electricity,gas,gas (steam/CT),1990,0.0010020240000000085,1990,1,1
+Canada,electricity,gas,gas (CC),2005,0.05853327176470588,2005,1,1
+Canada,electricity,gas,gas (steam/CT),2005,0.06776192823529413,2005,1,1
+Canada,electricity,gas,gas (CC),2010,0.016694036101032,2010,1,1
+Canada,electricity,gas,gas (steam/CT),2010,0.173231163898968,2010,1,1
+Canada,electricity,geothermal,geothermal,1975,0,1975,0,0
+Canada,electricity,geothermal,geothermal,1990,0,1990,0,0
+Canada,electricity,geothermal,geothermal,2005,0,2005,0,0
+Canada,electricity,geothermal,geothermal,2010,0,2010,0,0
+Canada,electricity,nuclear,Gen_II_LWR,1975,0.045252,1975,1,1
+Canada,electricity,nuclear,Gen_II_LWR,1990,0.2626812,1990,1,1
+Canada,electricity,nuclear,Gen_II_LWR,2005,0.33134399999999997,2005,1,1
+Canada,electricity,nuclear,Gen_II_LWR,2010,0.3263724,2010,1,1
+Canada,electricity,refined liquids,refined liquids (steam/CT),1975,0.0367416,1975,1,1
+Canada,electricity,refined liquids,refined liquids (steam/CT),1990,0.0592848,1990,1,1
+Canada,electricity,refined liquids,refined liquids (steam/CT),2005,0.0551952,2005,1,1
+Canada,electricity,refined liquids,refined liquids (steam/CT),2010,0.026629200000000002,2010,1,1
+Canada,electricity,solar,CSP,1975,0,1975,0,0
+Canada,electricity,solar,PV,1975,0,1975,0,0
+Canada,electricity,solar,CSP,1990,0,1990,0,0
+Canada,electricity,solar,PV,1990,0,1990,0,0
+Canada,electricity,solar,CSP,2005,0,2005,1,0
+Canada,electricity,solar,PV,2005,6.12e-5,2005,1,1
+Canada,electricity,solar,CSP,2010,0,2010,1,0
+Canada,electricity,solar,PV,2010,5.688e-4,2010,1,1
+Canada,electricity,wind,wind,1975,0,1975,0,0
+Canada,electricity,wind,wind,1990,0,1990,0,0
+Canada,electricity,wind,wind,2005,0.0052956,2005,1,1
+Canada,electricity,wind,wind,2010,0.0344052,2010,1,1
+Central America and Caribbean,electricity,biomass,biomass (conv),1975,0.0043856306207530156,1975,1,1
+Central America and Caribbean,electricity,biomass,biomass (conv),1990,0.0076228775986453366,1990,1,1
+Central America and Caribbean,electricity,biomass,biomass (conv),2005,0.008861999579830308,2005,1,1
+Central America and Caribbean,electricity,biomass,biomass (conv),2010,0.014304942668907542,2010,1,1
+Central America and Caribbean,electricity,coal,coal (conv pul),1975,0,1975,0,0
+Central America and Caribbean,electricity,coal,coal (conv pul),1990,1.548e-4,1990,1,1
+Central America and Caribbean,electricity,coal,coal (conv pul),2005,0.007991999999999999,2005,1,1
+Central America and Caribbean,electricity,coal,coal (conv pul),2010,0.0111816,2010,1,1
+Central America and Caribbean,electricity,gas,gas (CC),1975,1.0386675000000103e-4,1975,1,1
+Central America and Caribbean,electricity,gas,gas (steam/CT),1975,0.004716533249999998,1975,1,1
+Central America and Caribbean,electricity,gas,gas (CC),1990,0,1990,1,0
+Central America and Caribbean,electricity,gas,gas (steam/CT),1990,0.012914288689110192,1990,1,1
+Central America and Caribbean,electricity,gas,gas (CC),2005,0,2005,1,0
+Central America and Caribbean,electricity,gas,gas (steam/CT),2005,0.0420209995715462,2005,1,1
+Central America and Caribbean,electricity,gas,gas (CC),2010,0,2010,1,0
+Central America and Caribbean,electricity,gas,gas (steam/CT),2010,0.05777742905495888,2010,1,1
+Central America and Caribbean,electricity,geothermal,geothermal,1975,5.976e-4,1975,1,1
+Central America and Caribbean,electricity,geothermal,geothermal,1990,0.002898,1990,1,1
+Central America and Caribbean,electricity,geothermal,geothermal,2005,0.0094176,2005,1,1
+Central America and Caribbean,electricity,geothermal,geothermal,2010,0.011786399999999999,2010,1,1
+Central America and Caribbean,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+Central America and Caribbean,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+Central America and Caribbean,electricity,nuclear,Gen_II_LWR,2005,0,2005,0,0
+Central America and Caribbean,electricity,nuclear,Gen_II_LWR,2010,0,2010,0,0
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),1975,0.05096449949831948,1975,1,1
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),1990,0.11983183167939646,1990,1,1
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),2005,0.21926406603589668,2005,1,1
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),2010,0.22065915706563413,2010,1,1
+Central America and Caribbean,electricity,solar,CSP,1975,0,1975,0,0
+Central America and Caribbean,electricity,solar,PV,1975,0,1975,0,0
+Central America and Caribbean,electricity,solar,CSP,1990,0,1990,0,0
+Central America and Caribbean,electricity,solar,PV,1990,0,1990,0,0
+Central America and Caribbean,electricity,solar,CSP,2005,0,2005,0,0
+Central America and Caribbean,electricity,solar,PV,2005,0,2005,0,0
+Central America and Caribbean,electricity,solar,CSP,2010,0,2010,1,0
+Central America and Caribbean,electricity,solar,PV,2010,4.32e-5,2010,1,1
+Central America and Caribbean,electricity,wind,wind,1975,0,1975,0,0
+Central America and Caribbean,electricity,wind,wind,1990,0,1990,0,0
+Central America and Caribbean,electricity,wind,wind,2005,9.143999999999999e-4,2005,1,1
+Central America and Caribbean,electricity,wind,wind,2010,0.00207,2010,1,1
+Central Asia,electricity,biomass,biomass (conv),1975,0,1975,0,0
+Central Asia,electricity,biomass,biomass (conv),1990,0,1990,0,0
+Central Asia,electricity,biomass,biomass (conv),2005,0,2005,0,0
+Central Asia,electricity,biomass,biomass (conv),2010,0,2010,0,0
+Central Asia,electricity,coal,coal (conv pul),1975,0.244923848607272,1975,1,1
+Central Asia,electricity,coal,coal (conv pul),1990,0.25763759999999997,1990,1,1
+Central Asia,electricity,coal,coal (conv pul),2005,0.2020248,2005,1,1
+Central Asia,electricity,coal,coal (conv pul),2010,0.26400239999999997,2010,1,1
+Central Asia,electricity,gas,gas (CC),1975,0,1975,1,0
+Central Asia,electricity,gas,gas (steam/CT),1975,0.11200739385444744,1975,1,1
+Central Asia,electricity,gas,gas (CC),1990,0,1990,1,0
+Central Asia,electricity,gas,gas (steam/CT),1990,0.2709252,1990,1,1
+Central Asia,electricity,gas,gas (CC),2005,0,2005,1,0
+Central Asia,electricity,gas,gas (steam/CT),2005,0.2592324,2005,1,1
+Central Asia,electricity,gas,gas (CC),2010,0,2010,1,0
+Central Asia,electricity,gas,gas (steam/CT),2010,0.2890656,2010,1,1
+Central Asia,electricity,geothermal,geothermal,1975,0,1975,0,0
+Central Asia,electricity,geothermal,geothermal,1990,0,1990,0,0
+Central Asia,electricity,geothermal,geothermal,2005,0,2005,0,0
+Central Asia,electricity,geothermal,geothermal,2010,0,2010,0,0
+Central Asia,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+Central Asia,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+Central Asia,electricity,nuclear,Gen_II_LWR,2005,0.0097776,2005,1,1
+Central Asia,electricity,nuclear,Gen_II_LWR,2010,0.008964,2010,1,1
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),1975,0.22005455035931454,1975,1,1
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),1990,0.1623384,1990,1,1
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),2005,0.042969600000000004,2005,1,1
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),2010,0.0057852,2010,1,1
+Central Asia,electricity,solar,CSP,1975,0,1975,0,0
+Central Asia,electricity,solar,PV,1975,0,1975,0,0
+Central Asia,electricity,solar,CSP,1990,0,1990,0,0
+Central Asia,electricity,solar,PV,1990,0,1990,0,0
+Central Asia,electricity,solar,CSP,2005,0,2005,0,0
+Central Asia,electricity,solar,PV,2005,0,2005,0,0
+Central Asia,electricity,solar,CSP,2010,0,2010,0,0
+Central Asia,electricity,solar,PV,2010,0,2010,0,0
+Central Asia,electricity,wind,wind,1975,0,1975,0,0
+Central Asia,electricity,wind,wind,1990,0,1990,0,0
+Central Asia,electricity,wind,wind,2005,0,2005,0,0
+Central Asia,electricity,wind,wind,2010,2.88e-5,2010,1,1
+China,electricity,biomass,biomass (conv),1975,2.0248390275366084e-7,1975,1,1
+China,electricity,biomass,biomass (conv),1990,1.504511018749849e-6,1990,1,1
+China,electricity,biomass,biomass (conv),2005,0.0086616,2005,1,1
+China,electricity,biomass,biomass (conv),2010,0.0410616,2010,1,1
+China,electricity,coal,coal (conv pul),1975,0.39839399999999997,1975,1,1
+China,electricity,coal,coal (conv pul),1990,1.6973531999999998,1990,1,1
+China,electricity,coal,coal (conv pul),2005,7.205760160594799,2005,1,1
+China,electricity,coal,coal (conv pul),2010,11.86771173508926,2010,1,1
+China,electricity,gas,gas (CC),1975,0,1975,0,0
+China,electricity,gas,gas (steam/CT),1975,0,1975,0,0
+China,electricity,gas,gas (CC),1990,0.006821585999999992,1990,1,1
+China,electricity,gas,gas (steam/CT),1990,0.003125214000000006,1990,1,1
+China,electricity,gas,gas (CC),2005,0.049634017959033584,2005,1,1
+China,electricity,gas,gas (steam/CT),2005,0.033910045579603115,2005,1,1
+China,electricity,gas,gas (CC),2010,0.04539228785947115,2010,1,1
+China,electricity,gas,gas (steam/CT),2010,0.25496935729200354,2010,1,1
+China,electricity,geothermal,geothermal,1975,0,1975,0,0
+China,electricity,geothermal,geothermal,1990,0,1990,0,0
+China,electricity,geothermal,geothermal,2005,4.14e-4,2005,1,1
+China,electricity,geothermal,geothermal,2010,5.832e-4,2010,1,1
+China,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+China,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+China,electricity,nuclear,Gen_II_LWR,2005,0.1911168,2005,1,1
+China,electricity,nuclear,Gen_II_LWR,2010,0.265968,2010,1,1
+China,electricity,refined liquids,refined liquids (steam/CT),1975,0.17125330923764445,1975,1,1
+China,electricity,refined liquids,refined liquids (steam/CT),1990,0.17720220222159802,1990,1,1
+China,electricity,refined liquids,refined liquids (steam/CT),2005,0.22132489335885494,2005,1,1
+China,electricity,refined liquids,refined liquids (steam/CT),2010,0.04838615176720229,2010,1,1
+China,electricity,solar,CSP,1975,0,1975,0,0
+China,electricity,solar,PV,1975,0,1975,0,0
+China,electricity,solar,CSP,1990,0,1990,1,0
+China,electricity,solar,PV,1990,7.2e-6,1990,1,1
+China,electricity,solar,CSP,2005,0,2005,1,0
+China,electricity,solar,PV,2005,2.7399512107092664e-4,2005,1,1
+China,electricity,solar,CSP,2010,0,2010,1,0
+China,electricity,solar,PV,2010,0.0033885487106664184,2010,1,1
+China,electricity,wind,wind,1975,0,1975,0,0
+China,electricity,wind,wind,1990,7.2e-6,1990,1,1
+China,electricity,wind,wind,2005,0.007301508353260501,2005,1,1
+China,electricity,wind,wind,2010,0.16064481739924263,2010,1,1
+Colombia,electricity,biomass,biomass (conv),1975,6.803999999999998e-4,1975,1,1
+Colombia,electricity,biomass,biomass (conv),1990,9.864e-4,1990,1,1
+Colombia,electricity,biomass,biomass (conv),2005,0.0018107999999999998,2005,1,1
+Colombia,electricity,biomass,biomass (conv),2010,0.0017963999999999996,2010,1,1
+Colombia,electricity,coal,coal (conv pul),1975,0.0048276,1975,1,1
+Colombia,electricity,coal,coal (conv pul),1990,0.0133488,1990,1,1
+Colombia,electricity,coal,coal (conv pul),2005,0.0088884,2005,1,1
+Colombia,electricity,coal,coal (conv pul),2010,0.0135144,2010,1,1
+Colombia,electricity,gas,gas (CC),1975,0.0031440048749999984,1975,1,1
+Colombia,electricity,gas,gas (steam/CT),1975,0.004973995125000001,1975,1,1
+Colombia,electricity,gas,gas (CC),1990,0.0017604179999999932,1990,1,1
+Colombia,electricity,gas,gas (steam/CT),1990,0.014435982000000005,1990,1,1
+Colombia,electricity,gas,gas (CC),2005,0.014473842352941146,2005,1,1
+Colombia,electricity,gas,gas (steam/CT),2005,0.01216255764705885,2005,1,1
+Colombia,electricity,gas,gas (CC),2010,0.0156615380844438,2010,1,1
+Colombia,electricity,gas,gas (steam/CT),2010,0.026087661915556202,2010,1,1
+Colombia,electricity,geothermal,geothermal,1975,0,1975,0,0
+Colombia,electricity,geothermal,geothermal,1990,0,1990,0,0
+Colombia,electricity,geothermal,geothermal,2005,0,2005,0,0
+Colombia,electricity,geothermal,geothermal,2010,0,2010,0,0
+Colombia,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+Colombia,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+Colombia,electricity,nuclear,Gen_II_LWR,2005,0,2005,0,0
+Colombia,electricity,nuclear,Gen_II_LWR,2010,0,2010,0,0
+Colombia,electricity,refined liquids,refined liquids (steam/CT),1975,8.819999999999999e-4,1975,1,1
+Colombia,electricity,refined liquids,refined liquids (steam/CT),1990,0.0013644,1990,1,1
+Colombia,electricity,refined liquids,refined liquids (steam/CT),2005,4.104e-4,2005,1,1
+Colombia,electricity,refined liquids,refined liquids (steam/CT),2010,0.0018072,2010,1,1
+Colombia,electricity,solar,CSP,1975,0,1975,0,0
+Colombia,electricity,solar,PV,1975,0,1975,0,0
+Colombia,electricity,solar,CSP,1990,0,1990,0,0
+Colombia,electricity,solar,PV,1990,0,1990,0,0
+Colombia,electricity,solar,CSP,2005,0,2005,0,0
+Colombia,electricity,solar,PV,2005,0,2005,0,0
+Colombia,electricity,solar,CSP,2010,0,2010,0,0
+Colombia,electricity,solar,PV,2010,0,2010,0,0
+Colombia,electricity,wind,wind,1975,0,1975,0,0
+Colombia,electricity,wind,wind,1990,0,1990,0,0
+Colombia,electricity,wind,wind,2005,1.764e-4,2005,1,1
+Colombia,electricity,wind,wind,2010,1.404e-4,2010,1,1
+EU-12,electricity,biomass,biomass (conv),1975,0,1975,0,0
+EU-12,electricity,biomass,biomass (conv),1990,1.656e-4,1990,1,1
+EU-12,electricity,biomass,biomass (conv),2005,0.0098388,2005,1,1
+EU-12,electricity,biomass,biomass (conv),2010,0.0341532,2010,1,1
+EU-12,electricity,coal,coal (conv pul),1975,0.6365759183845868,1975,1,1
+EU-12,electricity,coal,coal (conv pul),1990,0.8593632,1990,1,1
+EU-12,electricity,coal,coal (conv pul),2005,0.8927748,2005,1,1
+EU-12,electricity,coal,coal (conv pul),2010,0.8856971999999999,2010,1,1
+EU-12,electricity,gas,gas (CC),1975,0,1975,1,0
+EU-12,electricity,gas,gas (steam/CT),1975,0.12210968413727612,1975,1,1
+EU-12,electricity,gas,gas (CC),1990,0,1990,1,0
+EU-12,electricity,gas,gas (steam/CT),1990,0.1403028,1990,1,1
+EU-12,electricity,gas,gas (CC),2005,0,2005,1,0
+EU-12,electricity,gas,gas (steam/CT),2005,0.12754799999999997,2005,1,1
+EU-12,electricity,gas,gas (CC),2010,0,2010,1,0
+EU-12,electricity,gas,gas (steam/CT),2010,0.12356639999999999,2010,1,1
+EU-12,electricity,geothermal,geothermal,1975,0,1975,0,0
+EU-12,electricity,geothermal,geothermal,1990,0,1990,0,0
+EU-12,electricity,geothermal,geothermal,2005,0,2005,0,0
+EU-12,electricity,geothermal,geothermal,2010,0,2010,0,0
+EU-12,electricity,nuclear,Gen_II_LWR,1975,0.021520898835705047,1975,1,1
+EU-12,electricity,nuclear,Gen_II_LWR,1990,0.2688192,1990,1,1
+EU-12,electricity,nuclear,Gen_II_LWR,2005,0.34818479999999996,2005,1,1
+EU-12,electricity,nuclear,Gen_II_LWR,2010,0.3271032,2010,1,1
+EU-12,electricity,refined liquids,refined liquids (steam/CT),1975,0.08472501912658928,1975,1,1
+EU-12,electricity,refined liquids,refined liquids (steam/CT),1990,0.084186,1990,1,1
+EU-12,electricity,refined liquids,refined liquids (steam/CT),2005,0.0370116,2005,1,1
+EU-12,electricity,refined liquids,refined liquids (steam/CT),2010,0.038447999999999996,2010,1,1
+EU-12,electricity,solar,CSP,1975,0,1975,0,0
+EU-12,electricity,solar,PV,1975,0,1975,0,0
+EU-12,electricity,solar,CSP,1990,0,1990,0,0
+EU-12,electricity,solar,PV,1990,0,1990,0,0
+EU-12,electricity,solar,CSP,2005,0,2005,1,0
+EU-12,electricity,solar,PV,2005,3.6e-6,2005,1,1
+EU-12,electricity,solar,CSP,2010,0,2010,1,0
+EU-12,electricity,solar,PV,2010,0.0024083999999999998,2010,1,1
+EU-12,electricity,wind,wind,1975,0,1975,0,0
+EU-12,electricity,wind,wind,1990,0,1990,0,0
+EU-12,electricity,wind,wind,2005,0.001008,2005,1,1
+EU-12,electricity,wind,wind,2010,0.0147852,2010,1,1
+EU-15,electricity,biomass,biomass (conv),1975,0.019047198764741896,1975,1,1
+EU-15,electricity,biomass,biomass (conv),1990,0.028464688620680936,1990,1,1
+EU-15,electricity,biomass,biomass (conv),2005,0.15930202542733543,2005,1,1
+EU-15,electricity,biomass,biomass (conv),2010,0.2591957587450256,2010,1,1
+EU-15,electricity,coal,coal (conv pul),1975,1.7352432,1975,1,1
+EU-15,electricity,coal,coal (conv pul),1990,2.8394568,1990,1,1
+EU-15,electricity,coal,coal (conv pul),2005,2.6327051999999997,2005,1,1
+EU-15,electricity,coal,coal (conv pul),2010,2.1447035999999997,2010,1,1
+EU-15,electricity,gas,gas (CC),1975,0.4234382009999999,1975,1,1
+EU-15,electricity,gas,gas (steam/CT),1975,0.11316699900000013,1975,1,1
+EU-15,electricity,gas,gas (CC),1990,0.2808935749915348,1990,1,1
+EU-15,electricity,gas,gas (steam/CT),1990,0.1825464675570151,1990,1,1
+EU-15,electricity,gas,gas (CC),2005,1.646213209524782,2005,1,1
+EU-15,electricity,gas,gas (steam/CT),2005,0.27928043817044246,2005,1,1
+EU-15,electricity,gas,gas (CC),2010,1.1235409305611883,2010,1,1
+EU-15,electricity,gas,gas (steam/CT),2010,1.1573303166654128,2010,1,1
+EU-15,electricity,geothermal,geothermal,1975,0.0089388,1975,1,1
+EU-15,electricity,geothermal,geothermal,1990,0.011613599999999998,1990,1,1
+EU-15,electricity,geothermal,geothermal,2005,0.0194292,2005,1,1
+EU-15,electricity,geothermal,geothermal,2010,0.0201672,2010,1,1
+EU-15,electricity,nuclear,Gen_II_LWR,1975,0.3821616,1975,1,1
+EU-15,electricity,nuclear,Gen_II_LWR,1990,2.5926876,1990,1,1
+EU-15,electricity,nuclear,Gen_II_LWR,2005,3.2435316,2005,1,1
+EU-15,electricity,nuclear,Gen_II_LWR,2010,2.9726928,2010,1,1
+EU-15,electricity,refined liquids,refined liquids (steam/CT),1975,1.162607088992791,1975,1,1
+EU-15,electricity,refined liquids,refined liquids (steam/CT),1990,0.6257125735611551,1990,1,1
+EU-15,electricity,refined liquids,refined liquids (steam/CT),2005,0.35887757374878293,2005,1,1
+EU-15,electricity,refined liquids,refined liquids (steam/CT),2010,0.20094907026028827,2010,1,1
+EU-15,electricity,solar,CSP,1975,0,1975,0,0
+EU-15,electricity,solar,PV,1975,0,1975,0,0
+EU-15,electricity,solar,CSP,1990,0,1990,1,0
+EU-15,electricity,solar,PV,1990,4.32e-5,1990,1,1
+EU-15,electricity,solar,CSP,2005,0,2005,1,0
+EU-15,electricity,solar,PV,2005,0.0052452,2005,1,1
+EU-15,electricity,solar,CSP,2010,0.0024912,2010,1,1
+EU-15,electricity,solar,PV,2010,0.07818119999999999,2010,1,1
+EU-15,electricity,wind,wind,1975,0,1975,0,0
+EU-15,electricity,wind,wind,1990,0.0028008,1990,1,1
+EU-15,electricity,wind,wind,2005,0.2525868,2005,1,1
+EU-15,electricity,wind,wind,2010,0.5218416,2010,1,1
+Europe_Eastern,electricity,biomass,biomass (conv),1975,0,1975,0,0
+Europe_Eastern,electricity,biomass,biomass (conv),1990,0,1990,0,0
+Europe_Eastern,electricity,biomass,biomass (conv),2005,0,2005,0,0
+Europe_Eastern,electricity,biomass,biomass (conv),2010,2.628e-4,2010,1,1
+Europe_Eastern,electricity,coal,coal (conv pul),1975,0.25052862853497765,1975,1,1
+Europe_Eastern,electricity,coal,coal (conv pul),1990,0.42847559999999996,1990,1,1
+Europe_Eastern,electricity,coal,coal (conv pul),2005,0.18004679999999998,2005,1,1
+Europe_Eastern,electricity,coal,coal (conv pul),2010,0.24556319999999995,2010,1,1
+Europe_Eastern,electricity,gas,gas (CC),1975,0,1975,1,0
+Europe_Eastern,electricity,gas,gas (steam/CT),1975,0.14938066082706766,1975,1,1
+Europe_Eastern,electricity,gas,gas (CC),1990,0.07541256599999996,1990,1,1
+Europe_Eastern,electricity,gas,gas (steam/CT),1990,0.17377223400000003,1990,1,1
+Europe_Eastern,electricity,gas,gas (CC),2005,0,2005,1,0
+Europe_Eastern,electricity,gas,gas (steam/CT),2005,0.224154,2005,1,1
+Europe_Eastern,electricity,gas,gas (CC),2010,0,2010,1,0
+Europe_Eastern,electricity,gas,gas (steam/CT),2010,0.17704079999999997,2010,1,1
+Europe_Eastern,electricity,geothermal,geothermal,1975,0,1975,0,0
+Europe_Eastern,electricity,geothermal,geothermal,1990,0,1990,0,0
+Europe_Eastern,electricity,geothermal,geothermal,2005,0,2005,0,0
+Europe_Eastern,electricity,geothermal,geothermal,2010,0,2010,0,0
+Europe_Eastern,electricity,nuclear,Gen_II_LWR,1975,0.05136610608020699,1975,1,1
+Europe_Eastern,electricity,nuclear,Gen_II_LWR,1990,0.2742444,1990,1,1
+Europe_Eastern,electricity,nuclear,Gen_II_LWR,2005,0.31952159999999996,2005,1,1
+Europe_Eastern,electricity,nuclear,Gen_II_LWR,2010,0.3209472,2010,1,1
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),1975,0.5760071013819789,1975,1,1
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),1990,0.2554488,1990,1,1
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),2005,0.0054252,2005,1,1
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),2010,0.0047412,2010,1,1
+Europe_Eastern,electricity,solar,CSP,1975,0,1975,0,0
+Europe_Eastern,electricity,solar,PV,1975,0,1975,0,0
+Europe_Eastern,electricity,solar,CSP,1990,0,1990,0,0
+Europe_Eastern,electricity,solar,PV,1990,0,1990,0,0
+Europe_Eastern,electricity,solar,CSP,2005,0,2005,0,0
+Europe_Eastern,electricity,solar,PV,2005,0,2005,0,0
+Europe_Eastern,electricity,solar,CSP,2010,0,2010,0,0
+Europe_Eastern,electricity,solar,PV,2010,0,2010,0,0
+Europe_Eastern,electricity,wind,wind,1975,0,1975,0,0
+Europe_Eastern,electricity,wind,wind,1990,0,1990,0,0
+Europe_Eastern,electricity,wind,wind,2005,1.404e-4,2005,1,1
+Europe_Eastern,electricity,wind,wind,2010,1.872e-4,2010,1,1
+Europe_Non_EU,electricity,biomass,biomass (conv),1975,0,1975,0,0
+Europe_Non_EU,electricity,biomass,biomass (conv),1990,0,1990,0,0
+Europe_Non_EU,electricity,biomass,biomass (conv),2005,3.2399999999999996e-4,2005,1,1
+Europe_Non_EU,electricity,biomass,biomass (conv),2010,5.003999999999999e-4,2010,1,1
+Europe_Non_EU,electricity,coal,coal (conv pul),1975,0.06182798644067797,1975,1,1
+Europe_Non_EU,electricity,coal,coal (conv pul),1990,0.23152319999999998,1990,1,1
+Europe_Non_EU,electricity,coal,coal (conv pul),2005,0.30782879999999996,2005,1,1
+Europe_Non_EU,electricity,coal,coal (conv pul),2010,0.36616679999999996,2010,1,1
+Europe_Non_EU,electricity,gas,gas (CC),1975,6.504032563962294e-4,1975,1,1
+Europe_Non_EU,electricity,gas,gas (steam/CT),1975,5.271257791196768e-4,1975,1,1
+Europe_Non_EU,electricity,gas,gas (CC),1990,0.037017539999999995,1990,1,1
+Europe_Non_EU,electricity,gas,gas (steam/CT),1990,0.010358460000000002,1990,1,1
+Europe_Non_EU,electricity,gas,gas (CC),2005,0.2339378198697949,2005,1,1
+Europe_Non_EU,electricity,gas,gas (steam/CT),2005,0.024693380130205105,2005,1,1
+Europe_Non_EU,electricity,gas,gas (CC),2010,0.2476078458937394,2010,1,1
+Europe_Non_EU,electricity,gas,gas (steam/CT),2010,0.10460175410626062,2010,1,1
+Europe_Non_EU,electricity,geothermal,geothermal,1975,0,1975,0,0
+Europe_Non_EU,electricity,geothermal,geothermal,1990,2.88e-4,1990,1,1
+Europe_Non_EU,electricity,geothermal,geothermal,2005,3.384e-4,2005,1,1
+Europe_Non_EU,electricity,geothermal,geothermal,2010,0.0024048,2010,1,1
+Europe_Non_EU,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+Europe_Non_EU,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+Europe_Non_EU,electricity,nuclear,Gen_II_LWR,2005,0,2005,0,0
+Europe_Non_EU,electricity,nuclear,Gen_II_LWR,2010,0,2010,0,0
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),1975,0.026355599999999996,1975,1,1
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),1990,0.026208,1990,1,1
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),2005,0.025102799999999998,2005,1,1
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),2010,0.0090072,2010,1,1
+Europe_Non_EU,electricity,solar,CSP,1975,0,1975,0,0
+Europe_Non_EU,electricity,solar,PV,1975,0,1975,0,0
+Europe_Non_EU,electricity,solar,CSP,1990,0,1990,0,0
+Europe_Non_EU,electricity,solar,PV,1990,0,1990,0,0
+Europe_Non_EU,electricity,solar,CSP,2005,0,2005,0,0
+Europe_Non_EU,electricity,solar,PV,2005,0,2005,0,0
+Europe_Non_EU,electricity,solar,CSP,2010,0,2010,0,0
+Europe_Non_EU,electricity,solar,PV,2010,0,2010,0,0
+Europe_Non_EU,electricity,wind,wind,1975,0,1975,0,0
+Europe_Non_EU,electricity,wind,wind,1990,0,1990,0,0
+Europe_Non_EU,electricity,wind,wind,2005,2.484e-4,2005,1,1
+Europe_Non_EU,electricity,wind,wind,2010,0.011001599999999999,2010,1,1
+European Free Trade Association,electricity,biomass,biomass (conv),1975,0,1975,0,0
+European Free Trade Association,electricity,biomass,biomass (conv),1990,0.0016127999999999997,1990,1,1
+European Free Trade Association,electricity,biomass,biomass (conv),2005,0.0020376,2005,1,1
+European Free Trade Association,electricity,biomass,biomass (conv),2010,0.0024335999999999997,2010,1,1
+European Free Trade Association,electricity,coal,coal (conv pul),1975,7.92e-5,1975,1,1
+European Free Trade Association,electricity,coal,coal (conv pul),1990,3.384e-4,1990,1,1
+European Free Trade Association,electricity,coal,coal (conv pul),2005,4.7519999999999995e-4,2005,1,1
+European Free Trade Association,electricity,coal,coal (conv pul),2010,3.8159999999999995e-4,2010,1,1
+European Free Trade Association,electricity,gas,gas (CC),1975,0,1975,0,0
+European Free Trade Association,electricity,gas,gas (steam/CT),1975,0,1975,0,0
+European Free Trade Association,electricity,gas,gas (CC),1990,0,1990,1,0
+European Free Trade Association,electricity,gas,gas (steam/CT),1990,2.7e-4,1990,1,1
+European Free Trade Association,electricity,gas,gas (CC),2005,0.0017451299999999993,2005,1,1
+European Free Trade Association,electricity,gas,gas (steam/CT),2005,1.0527000000000058e-4,2005,1,1
+European Free Trade Association,electricity,gas,gas (CC),2010,0.018093529828344133,2010,1,1
+European Free Trade Association,electricity,gas,gas (steam/CT),2010,1.0870171655866626e-5,2010,1,1
+European Free Trade Association,electricity,geothermal,geothermal,1975,6.48e-5,1975,1,1
+European Free Trade Association,electricity,geothermal,geothermal,1990,0.00108,1990,1,1
+European Free Trade Association,electricity,geothermal,geothermal,2005,0.0059688,2005,1,1
+European Free Trade Association,electricity,geothermal,geothermal,2010,0.016073999999999998,2010,1,1
+European Free Trade Association,electricity,nuclear,Gen_II_LWR,1975,0.0279396,1975,1,1
+European Free Trade Association,electricity,nuclear,Gen_II_LWR,1990,0.0850896,1990,1,1
+European Free Trade Association,electricity,nuclear,Gen_II_LWR,2005,0.0840276,2005,1,1
+European Free Trade Association,electricity,nuclear,Gen_II_LWR,2010,0.0948204,2010,1,1
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),1975,0.0067139999999999995,1975,1,1
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),1990,0.0010152,1990,1,1
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),2005,2.628e-4,2005,1,1
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),2010,1.836e-4,2010,1,1
+European Free Trade Association,electricity,solar,CSP,1975,0,1975,0,0
+European Free Trade Association,electricity,solar,PV,1975,0,1975,0,0
+European Free Trade Association,electricity,solar,CSP,1990,0,1990,1,0
+European Free Trade Association,electricity,solar,PV,1990,3.6e-6,1990,1,1
+European Free Trade Association,electricity,solar,CSP,2005,0,2005,1,0
+European Free Trade Association,electricity,solar,PV,2005,6.84e-5,2005,1,1
+European Free Trade Association,electricity,solar,CSP,2010,0,2010,1,0
+European Free Trade Association,electricity,solar,PV,2010,2.988e-4,2010,1,1
+European Free Trade Association,electricity,wind,wind,1975,0,1975,0,0
+European Free Trade Association,electricity,wind,wind,1990,0,1990,0,0
+European Free Trade Association,electricity,wind,wind,2005,0.0018252,2005,1,1
+European Free Trade Association,electricity,wind,wind,2010,0.0033552,2010,1,1
+India,electricity,biomass,biomass (conv),1975,0,1975,0,0
+India,electricity,biomass,biomass (conv),1990,0,1990,0,0
+India,electricity,biomass,biomass (conv),2005,0.0069228,2005,1,1
+India,electricity,biomass,biomass (conv),2010,0.0074052,2010,1,1
+India,electricity,coal,coal (conv pul),1975,0.15879959999999999,1975,1,1
+India,electricity,coal,coal (conv pul),1990,0.6897707999999999,1990,1,1
+India,electricity,coal,coal (conv pul),2005,1.6989912,2005,1,1
+India,electricity,coal,coal (conv pul),2010,2.350818,2010,1,1
+India,electricity,gas,gas (CC),1975,0,1975,1,0
+India,electricity,gas,gas (steam/CT),1975,0.0018468000000000002,1975,1,1
+India,electricity,gas,gas (CC),1990,0,1990,1,0
+India,electricity,gas,gas (steam/CT),1990,0.0358488,1990,1,1
+India,electricity,gas,gas (CC),2005,0.24716907734243082,2005,1,1
+India,electricity,gas,gas (steam/CT),2005,0.02451212265756913,2005,1,1
+India,electricity,gas,gas (CC),2010,0.038655149984093695,2010,1,1
+India,electricity,gas,gas (steam/CT),2010,0.3853852500159063,2010,1,1
+India,electricity,geothermal,geothermal,1975,0,1975,0,0
+India,electricity,geothermal,geothermal,1990,0,1990,0,0
+India,electricity,geothermal,geothermal,2005,0,2005,0,0
+India,electricity,geothermal,geothermal,2010,0,2010,0,0
+India,electricity,nuclear,Gen_II_LWR,1975,0.0094536,1975,1,1
+India,electricity,nuclear,Gen_II_LWR,1990,0.022107599999999998,1990,1,1
+India,electricity,nuclear,Gen_II_LWR,2005,0.062366399999999995,2005,1,1
+India,electricity,nuclear,Gen_II_LWR,2010,0.09455759999999999,2010,1,1
+India,electricity,refined liquids,refined liquids (steam/CT),1975,0.019314,1975,1,1
+India,electricity,refined liquids,refined liquids (steam/CT),1990,0.0361728,1990,1,1
+India,electricity,refined liquids,refined liquids (steam/CT),2005,0.08366399999999999,2005,1,1
+India,electricity,refined liquids,refined liquids (steam/CT),2010,0.0951876,2010,1,1
+India,electricity,solar,CSP,1975,0,1975,0,0
+India,electricity,solar,PV,1975,0,1975,0,0
+India,electricity,solar,CSP,1990,0,1990,0,0
+India,electricity,solar,PV,1990,0,1990,0,0
+India,electricity,solar,CSP,2005,0,2005,1,0
+India,electricity,solar,PV,2005,6.84e-5,2005,1,1
+India,electricity,solar,CSP,2010,0,2010,1,0
+India,electricity,solar,PV,2010,8.28e-5,2010,1,1
+India,electricity,wind,wind,1975,0,1975,0,0
+India,electricity,wind,wind,1990,1.152e-4,1990,1,1
+India,electricity,wind,wind,2005,0.0237708,2005,1,1
+India,electricity,wind,wind,2010,0.0716796,2010,1,1
+Indonesia,electricity,biomass,biomass (conv),1975,0,1975,0,0
+Indonesia,electricity,biomass,biomass (conv),1990,0,1990,0,0
+Indonesia,electricity,biomass,biomass (conv),2005,7.92e-5,2005,1,1
+Indonesia,electricity,biomass,biomass (conv),2010,3.4199999999999996e-4,2010,1,1
+Indonesia,electricity,coal,coal (conv pul),1975,0,1975,0,0
+Indonesia,electricity,coal,coal (conv pul),1990,0.035164799999999996,1990,1,1
+Indonesia,electricity,coal,coal (conv pul),2005,0.18645479999999998,2005,1,1
+Indonesia,electricity,coal,coal (conv pul),2010,0.24521040000000002,2010,1,1
+Indonesia,electricity,gas,gas (CC),1975,0,1975,0,0
+Indonesia,electricity,gas,gas (steam/CT),1975,0,1975,0,0
+Indonesia,electricity,gas,gas (CC),1990,1.565999999999911e-5,1990,1,1
+Indonesia,electricity,gas,gas (steam/CT),1990,0.0026267400000000007,1990,1,1
+Indonesia,electricity,gas,gas (CC),2005,0.03518385176470584,2005,1,1
+Indonesia,electricity,gas,gas (steam/CT),2005,0.033525748235294146,2005,1,1
+Indonesia,electricity,gas,gas (CC),2010,0.022751867735149915,2010,1,1
+Indonesia,electricity,gas,gas (steam/CT),2010,0.12138493226485009,2010,1,1
+Indonesia,electricity,geothermal,geothermal,1975,0,1975,0,0
+Indonesia,electricity,geothermal,geothermal,1990,0.00405,1990,1,1
+Indonesia,electricity,geothermal,geothermal,2005,0.023774399999999998,2005,1,1
+Indonesia,electricity,geothermal,geothermal,2010,0.0336852,2010,1,1
+Indonesia,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+Indonesia,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+Indonesia,electricity,nuclear,Gen_II_LWR,2005,0,2005,0,0
+Indonesia,electricity,nuclear,Gen_II_LWR,2010,0,2010,0,0
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),1975,0.0064692,1975,1,1
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),1990,0.0551952,1990,1,1
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),2005,0.140904,2005,1,1
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),2010,0.124218,2010,1,1
+Indonesia,electricity,solar,CSP,1975,0,1975,0,0
+Indonesia,electricity,solar,PV,1975,0,1975,0,0
+Indonesia,electricity,solar,CSP,1990,0,1990,0,0
+Indonesia,electricity,solar,PV,1990,0,1990,0,0
+Indonesia,electricity,solar,CSP,2005,0,2005,0,0
+Indonesia,electricity,solar,PV,2005,0,2005,0,0
+Indonesia,electricity,solar,CSP,2010,0,2010,0,0
+Indonesia,electricity,solar,PV,2010,0,2010,0,0
+Indonesia,electricity,wind,wind,1975,0,1975,0,0
+Indonesia,electricity,wind,wind,1990,0,1990,0,0
+Indonesia,electricity,wind,wind,2005,0,2005,0,0
+Indonesia,electricity,wind,wind,2010,0,2010,0,0
+Japan,electricity,biomass,biomass (conv),1975,0,1975,0,0
+Japan,electricity,biomass,biomass (conv),1990,0.037872,1990,1,1
+Japan,electricity,biomass,biomass (conv),2005,0.0795456,2005,1,1
+Japan,electricity,biomass,biomass (conv),2010,0.08443439999999999,2010,1,1
+Japan,electricity,coal,coal (conv pul),1975,0.055799999999999995,1975,1,1
+Japan,electricity,coal,coal (conv pul),1990,0.42014159999999995,1990,1,1
+Japan,electricity,coal,coal (conv pul),2005,1.0927871999999998,2005,1,1
+Japan,electricity,coal,coal (conv pul),2010,1.096182,2010,1,1
+Japan,electricity,gas,gas (CC),1975,0.05860132200000002,1975,1,1
+Japan,electricity,gas,gas (steam/CT),1975,0.01440667799999999,1975,1,1
+Japan,electricity,gas,gas (CC),1990,0.5504150879999998,1990,1,1
+Japan,electricity,gas,gas (steam/CT),1990,0.0510873120000001,1990,1,1
+Japan,electricity,gas,gas (CC),2005,0.7348821458823527,2005,1,1
+Japan,electricity,gas,gas (steam/CT),2005,0.12565825411764728,2005,1,1
+Japan,electricity,gas,gas (CC),2010,0.709122100220057,2010,1,1
+Japan,electricity,gas,gas (steam/CT),2010,0.38713189977994317,2010,1,1
+Japan,electricity,geothermal,geothermal,1975,3.5999999999999997e-4,1975,1,1
+Japan,electricity,geothermal,geothermal,1990,0.0062676,1990,1,1
+Japan,electricity,geothermal,geothermal,2005,0.0116136,2005,1,1
+Japan,electricity,geothermal,geothermal,2010,0.0094752,2010,1,1
+Japan,electricity,nuclear,Gen_II_LWR,1975,0.09044999999999999,1975,1,1
+Japan,electricity,nuclear,Gen_II_LWR,1990,0.7281792,1990,1,1
+Japan,electricity,nuclear,Gen_II_LWR,2005,1.097118,2005,1,1
+Japan,electricity,nuclear,Gen_II_LWR,2010,1.037628,2010,1,1
+Japan,electricity,refined liquids,refined liquids (steam/CT),1975,1.0869048000000001,1975,1,1
+Japan,electricity,refined liquids,refined liquids (steam/CT),1990,0.892386,1990,1,1
+Japan,electricity,refined liquids,refined liquids (steam/CT),2005,0.49509,2005,1,1
+Japan,electricity,refined liquids,refined liquids (steam/CT),2010,0.3508272,2010,1,1
+Japan,electricity,solar,CSP,1975,0,1975,0,0
+Japan,electricity,solar,PV,1975,0,1975,0,0
+Japan,electricity,solar,CSP,1990,0,1990,1,0
+Japan,electricity,solar,PV,1990,3.6e-6,1990,1,1
+Japan,electricity,solar,CSP,2005,0,2005,1,0
+Japan,electricity,solar,PV,2005,0.0053748,2005,1,1
+Japan,electricity,solar,CSP,2010,0,2010,1,0
+Japan,electricity,solar,PV,2010,0.0136764,2010,1,1
+Japan,electricity,wind,wind,1975,0,1975,0,0
+Japan,electricity,wind,wind,1990,0,1990,0,0
+Japan,electricity,wind,wind,2005,0.0063143999999999995,2005,1,1
+Japan,electricity,wind,wind,2010,0.014263199999999998,2010,1,1
+Mexico,electricity,biomass,biomass (conv),1975,0,1975,0,0
+Mexico,electricity,biomass,biomass (conv),1990,0,1990,0,0
+Mexico,electricity,biomass,biomass (conv),2005,0.010965599999999999,2005,1,1
+Mexico,electricity,biomass,biomass (conv),2010,0.0092988,2010,1,1
+Mexico,electricity,coal,coal (conv pul),1975,7.019999999999999e-4,1975,1,1
+Mexico,electricity,coal,coal (conv pul),1990,0.0279864,1990,1,1
+Mexico,electricity,coal,coal (conv pul),2005,0.11899799999999998,2005,1,1
+Mexico,electricity,coal,coal (conv pul),2010,0.11712959999999999,2010,1,1
+Mexico,electricity,gas,gas (CC),1975,0,1975,1,0
+Mexico,electricity,gas,gas (steam/CT),1975,0.0213192,1975,1,1
+Mexico,electricity,gas,gas (CC),1990,0.026908505999999995,1990,1,1
+Mexico,electricity,gas,gas (steam/CT),1990,0.025147494000000006,1990,1,1
+Mexico,electricity,gas,gas (CC),2005,0.3125940952941175,2005,1,1
+Mexico,electricity,gas,gas (steam/CT),2005,0.02993150470588245,2005,1,1
+Mexico,electricity,gas,gas (CC),2010,0.3126507189296665,2010,1,1
+Mexico,electricity,gas,gas (steam/CT),2010,0.1952444810703335,2010,1,1
+Mexico,electricity,geothermal,geothermal,1975,0.0018648,1975,1,1
+Mexico,electricity,geothermal,geothermal,1990,0.018446399999999998,1990,1,1
+Mexico,electricity,geothermal,geothermal,2005,0.0262764,2005,1,1
+Mexico,electricity,geothermal,geothermal,2010,0.0238248,2010,1,1
+Mexico,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+Mexico,electricity,nuclear,Gen_II_LWR,1990,0.0105732,1990,1,1
+Mexico,electricity,nuclear,Gen_II_LWR,2005,0.038897999999999995,2005,1,1
+Mexico,electricity,nuclear,Gen_II_LWR,2010,0.0211644,2010,1,1
+Mexico,electricity,refined liquids,refined liquids (steam/CT),1975,0.0797652,1975,1,1
+Mexico,electricity,refined liquids,refined liquids (steam/CT),1990,0.2234232,1990,1,1
+Mexico,electricity,refined liquids,refined liquids (steam/CT),2005,0.24042599999999997,2005,1,1
+Mexico,electricity,refined liquids,refined liquids (steam/CT),2010,0.15796439999999998,2010,1,1
+Mexico,electricity,solar,CSP,1975,0,1975,0,0
+Mexico,electricity,solar,PV,1975,0,1975,0,0
+Mexico,electricity,solar,CSP,1990,0,1990,1,0
+Mexico,electricity,solar,PV,1990,3.6e-6,1990,1,1
+Mexico,electricity,solar,CSP,2005,0,2005,1,0
+Mexico,electricity,solar,PV,2005,3.24e-5,2005,1,1
+Mexico,electricity,solar,CSP,2010,0,2010,1,0
+Mexico,electricity,solar,PV,2010,1.1159999999999999e-4,2010,1,1
+Mexico,electricity,wind,wind,1975,0,1975,0,0
+Mexico,electricity,wind,wind,1990,3.6e-6,1990,1,1
+Mexico,electricity,wind,wind,2005,6.84e-5,2005,1,1
+Mexico,electricity,wind,wind,2010,0.0044604,2010,1,1
+Middle East,electricity,biomass,biomass (conv),1975,0,1975,0,0
+Middle East,electricity,biomass,biomass (conv),1990,0,1990,0,0
+Middle East,electricity,biomass,biomass (conv),2005,0,2005,0,0
+Middle East,electricity,biomass,biomass (conv),2010,4.32e-5,2010,1,1
+Middle East,electricity,coal,coal (conv pul),1975,4.32e-4,1975,1,1
+Middle East,electricity,coal,coal (conv pul),1990,0.037918799999999996,1990,1,1
+Middle East,electricity,coal,coal (conv pul),2005,0.1326708,2005,1,1
+Middle East,electricity,coal,coal (conv pul),2010,0.1247112,2010,1,1
+Middle East,electricity,gas,gas (CC),1975,0,1975,1,0
+Middle East,electricity,gas,gas (steam/CT),1975,0.0335628,1975,1,1
+Middle East,electricity,gas,gas (CC),1990,0,1990,1,0
+Middle East,electricity,gas,gas (steam/CT),1990,0.3807216,1990,1,1
+Middle East,electricity,gas,gas (CC),2005,0,2005,1,0
+Middle East,electricity,gas,gas (steam/CT),2005,1.3344012,2005,1,1
+Middle East,electricity,gas,gas (CC),2010,0,2010,1,0
+Middle East,electricity,gas,gas (steam/CT),2010,1.9592711999999999,2010,1,1
+Middle East,electricity,geothermal,geothermal,1975,0,1975,0,0
+Middle East,electricity,geothermal,geothermal,1990,0,1990,0,0
+Middle East,electricity,geothermal,geothermal,2005,0,2005,0,0
+Middle East,electricity,geothermal,geothermal,2010,0,2010,0,0
+Middle East,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+Middle East,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+Middle East,electricity,nuclear,Gen_II_LWR,2005,0,2005,0,0
+Middle East,electricity,nuclear,Gen_II_LWR,2010,0,2010,0,0
+Middle East,electricity,refined liquids,refined liquids (steam/CT),1975,0.11295,1975,1,1
+Middle East,electricity,refined liquids,refined liquids (steam/CT),1990,0.4023468,1990,1,1
+Middle East,electricity,refined liquids,refined liquids (steam/CT),2005,0.7206696,2005,1,1
+Middle East,electricity,refined liquids,refined liquids (steam/CT),2010,1.0273716,2010,1,1
+Middle East,electricity,solar,CSP,1975,0,1975,0,0
+Middle East,electricity,solar,PV,1975,0,1975,0,0
+Middle East,electricity,solar,CSP,1990,0,1990,0,0
+Middle East,electricity,solar,PV,1990,0,1990,0,0
+Middle East,electricity,solar,CSP,2005,0,2005,0,0
+Middle East,electricity,solar,PV,2005,0,2005,0,0
+Middle East,electricity,solar,CSP,2010,0,2010,1,0
+Middle East,electricity,solar,PV,2010,2.52e-4,2010,1,1
+Middle East,electricity,wind,wind,1975,0,1975,0,0
+Middle East,electricity,wind,wind,1990,3.6e-6,1990,1,1
+Middle East,electricity,wind,wind,2005,3.0599999999999996e-4,2005,1,1
+Middle East,electricity,wind,wind,2010,6.263999999999999e-4,2010,1,1
+Pakistan,electricity,biomass,biomass (conv),1975,0,1975,0,0
+Pakistan,electricity,biomass,biomass (conv),1990,0,1990,0,0
+Pakistan,electricity,biomass,biomass (conv),2005,0,2005,0,0
+Pakistan,electricity,biomass,biomass (conv),2010,0,2010,0,0
+Pakistan,electricity,coal,coal (conv pul),1975,2.7e-4,1975,1,1
+Pakistan,electricity,coal,coal (conv pul),1990,1.368e-4,1990,1,1
+Pakistan,electricity,coal,coal (conv pul),2005,4.6439999999999996e-4,2005,1,1
+Pakistan,electricity,coal,coal (conv pul),2010,3.168e-4,2010,1,1
+Pakistan,electricity,gas,gas (CC),1975,0.0030884928749999973,1975,1,1
+Pakistan,electricity,gas,gas (steam/CT),1975,0.010764307125000002,1975,1,1
+Pakistan,electricity,gas,gas (CC),1990,0.0015378660000000004,1990,1,1
+Pakistan,electricity,gas,gas (steam/CT),1990,0.044070534,1990,1,1
+Pakistan,electricity,gas,gas (CC),2005,0.05202526411764702,2005,1,1
+Pakistan,electricity,gas,gas (steam/CT),2005,0.09660433588235298,2005,1,1
+Pakistan,electricity,gas,gas (CC),2010,0,2010,1,0
+Pakistan,electricity,gas,gas (steam/CT),2010,0.0931644,2010,1,1
+Pakistan,electricity,geothermal,geothermal,1975,0,1975,0,0
+Pakistan,electricity,geothermal,geothermal,1990,0,1990,0,0
+Pakistan,electricity,geothermal,geothermal,2005,0,2005,0,0
+Pakistan,electricity,geothermal,geothermal,2010,0,2010,0,0
+Pakistan,electricity,nuclear,Gen_II_LWR,1975,0.002178,1975,1,1
+Pakistan,electricity,nuclear,Gen_II_LWR,1990,0.0010548,1990,1,1
+Pakistan,electricity,nuclear,Gen_II_LWR,2005,0.0089424,2005,1,1
+Pakistan,electricity,nuclear,Gen_II_LWR,2010,0.012312,2010,1,1
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),1975,0.0037944,1975,1,1
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),1990,0.0278928,1990,1,1
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),2005,0.0686556,2005,1,1
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),2010,0.11971799999999999,2010,1,1
+Pakistan,electricity,solar,CSP,1975,0,1975,0,0
+Pakistan,electricity,solar,PV,1975,0,1975,0,0
+Pakistan,electricity,solar,CSP,1990,0,1990,0,0
+Pakistan,electricity,solar,PV,1990,0,1990,0,0
+Pakistan,electricity,solar,CSP,2005,0,2005,0,0
+Pakistan,electricity,solar,PV,2005,0,2005,0,0
+Pakistan,electricity,solar,CSP,2010,0,2010,0,0
+Pakistan,electricity,solar,PV,2010,0,2010,0,0
+Pakistan,electricity,wind,wind,1975,0,1975,0,0
+Pakistan,electricity,wind,wind,1990,0,1990,0,0
+Pakistan,electricity,wind,wind,2005,0,2005,0,0
+Pakistan,electricity,wind,wind,2010,0,2010,0,0
+Russia,electricity,biomass,biomass (conv),1975,0,1975,0,0
+Russia,electricity,biomass,biomass (conv),1990,0,1990,0,0
+Russia,electricity,biomass,biomass (conv),2005,0,2005,0,0
+Russia,electricity,biomass,biomass (conv),2010,0,2010,0,0
+Russia,electricity,coal,coal (conv pul),1975,0.9113640654901127,1975,1,1
+Russia,electricity,coal,coal (conv pul),1990,0.5461092,1990,1,1
+Russia,electricity,coal,coal (conv pul),2005,0.5513003999999999,2005,1,1
+Russia,electricity,coal,coal (conv pul),2010,0.5564159999999999,2010,1,1
+Russia,electricity,gas,gas (CC),1975,0,1975,1,0
+Russia,electricity,gas,gas (steam/CT),1975,0.5096994209859554,1975,1,1
+Russia,electricity,gas,gas (CC),1990,0,1990,1,0
+Russia,electricity,gas,gas (steam/CT),1990,1.690344,1990,1,1
+Russia,electricity,gas,gas (CC),2005,0,2005,1,0
+Russia,electricity,gas,gas (steam/CT),2005,1.4949323999999997,2005,1,1
+Russia,electricity,gas,gas (CC),2010,0,2010,1,0
+Russia,electricity,gas,gas (steam/CT),2010,1.7391923999999999,2010,1,1
+Russia,electricity,geothermal,geothermal,1975,0,1975,0,0
+Russia,electricity,geothermal,geothermal,1990,1.008e-4,1990,1,1
+Russia,electricity,geothermal,geothermal,2005,0.0014759999999999999,2005,1,1
+Russia,electricity,geothermal,geothermal,2010,0.001818,2010,1,1
+Russia,electricity,nuclear,Gen_II_LWR,1975,0.08098059508408798,1975,1,1
+Russia,electricity,nuclear,Gen_II_LWR,1990,0.425898,1990,1,1
+Russia,electricity,nuclear,Gen_II_LWR,2005,0.5380056,2005,1,1
+Russia,electricity,nuclear,Gen_II_LWR,2010,0.613494,2010,1,1
+Russia,electricity,refined liquids,refined liquids (steam/CT),1975,0.03338652913211719,1975,1,1
+Russia,electricity,refined liquids,refined liquids (steam/CT),1990,0.46310039999999997,1990,1,1
+Russia,electricity,refined liquids,refined liquids (steam/CT),2005,0.0644112,2005,1,1
+Russia,electricity,refined liquids,refined liquids (steam/CT),2010,0.025718399999999995,2010,1,1
+Russia,electricity,solar,CSP,1975,0,1975,0,0
+Russia,electricity,solar,PV,1975,0,1975,0,0
+Russia,electricity,solar,CSP,1990,0,1990,0,0
+Russia,electricity,solar,PV,1990,0,1990,0,0
+Russia,electricity,solar,CSP,2005,0,2005,0,0
+Russia,electricity,solar,PV,2005,0,2005,0,0
+Russia,electricity,solar,CSP,2010,0,2010,0,0
+Russia,electricity,solar,PV,2010,0,2010,0,0
+Russia,electricity,wind,wind,1975,0,1975,0,0
+Russia,electricity,wind,wind,1990,0,1990,0,0
+Russia,electricity,wind,wind,2005,2.52e-5,2005,1,1
+Russia,electricity,wind,wind,2010,1.44e-5,2010,1,1
+South Africa,electricity,biomass,biomass (conv),1975,0,1975,0,0
+South Africa,electricity,biomass,biomass (conv),1990,0,1990,0,0
+South Africa,electricity,biomass,biomass (conv),2005,9.539999999999999e-4,2005,1,1
+South Africa,electricity,biomass,biomass (conv),2010,0.0010115999999999999,2010,1,1
+South Africa,electricity,coal,coal (conv pul),1975,0.26558639999999994,1975,1,1
+South Africa,electricity,coal,coal (conv pul),1990,0.5613336,1990,1,1
+South Africa,electricity,coal,coal (conv pul),2005,0.8245224,2005,1,1
+South Africa,electricity,coal,coal (conv pul),2010,0.870768,2010,1,1
+South Africa,electricity,gas,gas (CC),1975,0,1975,0,0
+South Africa,electricity,gas,gas (steam/CT),1975,0,1975,0,0
+South Africa,electricity,gas,gas (CC),1990,0,1990,0,0
+South Africa,electricity,gas,gas (steam/CT),1990,0,1990,0,0
+South Africa,electricity,gas,gas (CC),2005,0,2005,0,0
+South Africa,electricity,gas,gas (steam/CT),2005,0,2005,0,0
+South Africa,electricity,gas,gas (CC),2010,0,2010,0,0
+South Africa,electricity,gas,gas (steam/CT),2010,0,2010,0,0
+South Africa,electricity,geothermal,geothermal,1975,0,1975,0,0
+South Africa,electricity,geothermal,geothermal,1990,0,1990,0,0
+South Africa,electricity,geothermal,geothermal,2005,0,2005,0,0
+South Africa,electricity,geothermal,geothermal,2010,0,2010,0,0
+South Africa,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+South Africa,electricity,nuclear,Gen_II_LWR,1990,0.0304164,1990,1,1
+South Africa,electricity,nuclear,Gen_II_LWR,2005,0.0406548,2005,1,1
+South Africa,electricity,nuclear,Gen_II_LWR,2010,0.043556399999999995,2010,1,1
+South Africa,electricity,refined liquids,refined liquids (steam/CT),1975,0,1975,0,0
+South Africa,electricity,refined liquids,refined liquids (steam/CT),1990,0,1990,0,0
+South Africa,electricity,refined liquids,refined liquids (steam/CT),2005,0,2005,0,0
+South Africa,electricity,refined liquids,refined liquids (steam/CT),2010,7.092e-4,2010,1,1
+South Africa,electricity,solar,CSP,1975,0,1975,0,0
+South Africa,electricity,solar,PV,1975,0,1975,0,0
+South Africa,electricity,solar,CSP,1990,0,1990,0,0
+South Africa,electricity,solar,PV,1990,0,1990,0,0
+South Africa,electricity,solar,CSP,2005,0,2005,1,0
+South Africa,electricity,solar,PV,2005,7.56e-5,2005,1,1
+South Africa,electricity,solar,CSP,2010,0,2010,1,0
+South Africa,electricity,solar,PV,2010,7.56e-5,2010,1,1
+South Africa,electricity,wind,wind,1975,0,1975,0,0
+South Africa,electricity,wind,wind,1990,0,1990,0,0
+South Africa,electricity,wind,wind,2005,1.152e-4,2005,1,1
+South Africa,electricity,wind,wind,2010,1.152e-4,2010,1,1
+South America_Northern,electricity,biomass,biomass (conv),1975,1.9757061450508806e-4,1975,1,1
+South America_Northern,electricity,biomass,biomass (conv),1990,1.2843378067372608e-4,1990,1,1
+South America_Northern,electricity,biomass,biomass (conv),2005,1.467749928342511e-4,2005,1,1
+South America_Northern,electricity,biomass,biomass (conv),2010,1.5329858606683732e-4,2010,1,1
+South America_Northern,electricity,coal,coal (conv pul),1975,0,1975,0,0
+South America_Northern,electricity,coal,coal (conv pul),1990,0,1990,0,0
+South America_Northern,electricity,coal,coal (conv pul),2005,0,2005,0,0
+South America_Northern,electricity,coal,coal (conv pul),2010,0,2010,0,0
+South America_Northern,electricity,gas,gas (CC),1975,0,1975,1,0
+South America_Northern,electricity,gas,gas (steam/CT),1975,0.024516,1975,1,1
+South America_Northern,electricity,gas,gas (CC),1990,0,1990,1,0
+South America_Northern,electricity,gas,gas (steam/CT),1990,0.05590206876234,1990,1,1
+South America_Northern,electricity,gas,gas (CC),2005,0,2005,1,0
+South America_Northern,electricity,gas,gas (steam/CT),2005,0.056812152733229246,2005,1,1
+South America_Northern,electricity,gas,gas (CC),2010,0,2010,1,0
+South America_Northern,electricity,gas,gas (steam/CT),2010,0.08967372371844025,2010,1,1
+South America_Northern,electricity,geothermal,geothermal,1975,0,1975,0,0
+South America_Northern,electricity,geothermal,geothermal,1990,0,1990,0,0
+South America_Northern,electricity,geothermal,geothermal,2005,0,2005,0,0
+South America_Northern,electricity,geothermal,geothermal,2010,0,2010,0,0
+South America_Northern,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+South America_Northern,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+South America_Northern,electricity,nuclear,Gen_II_LWR,2005,0,2005,0,0
+South America_Northern,electricity,nuclear,Gen_II_LWR,2010,0,2010,0,0
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),1975,0.015040011508889263,1975,1,1
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),1990,0.0549623947594485,1990,1,1
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),2005,0.0959907602153204,2005,1,1
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),2010,0.11014417267407757,2010,1,1
+South America_Northern,electricity,solar,CSP,1975,0,1975,0,0
+South America_Northern,electricity,solar,PV,1975,0,1975,0,0
+South America_Northern,electricity,solar,CSP,1990,0,1990,0,0
+South America_Northern,electricity,solar,PV,1990,0,1990,0,0
+South America_Northern,electricity,solar,CSP,2005,0,2005,0,0
+South America_Northern,electricity,solar,PV,2005,0,2005,0,0
+South America_Northern,electricity,solar,CSP,2010,0,2010,0,0
+South America_Northern,electricity,solar,PV,2010,0,2010,0,0
+South America_Northern,electricity,wind,wind,1975,0,1975,0,0
+South America_Northern,electricity,wind,wind,1990,0,1990,0,0
+South America_Northern,electricity,wind,wind,2005,0,2005,0,0
+South America_Northern,electricity,wind,wind,2010,0,2010,0,0
+South America_Southern,electricity,biomass,biomass (conv),1975,0.0013248,1975,1,1
+South America_Southern,electricity,biomass,biomass (conv),1990,7.379999999999999e-4,1990,1,1
+South America_Southern,electricity,biomass,biomass (conv),2005,0.0018792,2005,1,1
+South America_Southern,electricity,biomass,biomass (conv),2010,0.0058931999999999995,2010,1,1
+South America_Southern,electricity,coal,coal (conv pul),1975,0.0028872,1975,1,1
+South America_Southern,electricity,coal,coal (conv pul),1990,0.023489999999999997,1990,1,1
+South America_Southern,electricity,coal,coal (conv pul),2005,0.028857599999999994,2005,1,1
+South America_Southern,electricity,coal,coal (conv pul),2010,0.06380279999999999,2010,1,1
+South America_Southern,electricity,gas,gas (CC),1975,4.0339575000000006e-4,1975,1,1
+South America_Southern,electricity,gas,gas (steam/CT),1975,4.426042499999999e-4,1975,1,1
+South America_Southern,electricity,gas,gas (CC),1990,9.894779999999987e-4,1990,1,1
+South America_Southern,electricity,gas,gas (steam/CT),1990,0.003773322000000001,1990,1,1
+South America_Southern,electricity,gas,gas (CC),2005,0.04554976235294114,2005,1,1
+South America_Southern,electricity,gas,gas (steam/CT),2005,0.03508303764705885,2005,1,1
+South America_Southern,electricity,gas,gas (CC),2010,0.011532075272967509,2010,1,1
+South America_Southern,electricity,gas,gas (steam/CT),2010,0.09496312472703247,2010,1,1
+South America_Southern,electricity,geothermal,geothermal,1975,0,1975,0,0
+South America_Southern,electricity,geothermal,geothermal,1990,0,1990,0,0
+South America_Southern,electricity,geothermal,geothermal,2005,0,2005,0,0
+South America_Southern,electricity,geothermal,geothermal,2010,0,2010,0,0
+South America_Southern,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+South America_Southern,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+South America_Southern,electricity,nuclear,Gen_II_LWR,2005,0,2005,0,0
+South America_Southern,electricity,nuclear,Gen_II_LWR,2010,0,2010,0,0
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),1975,0.020401199999999994,1975,1,1
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),1990,0.024048000000000003,1990,1,1
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),2005,0.0371484,2005,1,1
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),2010,0.061992,2010,1,1
+South America_Southern,electricity,solar,CSP,1975,0,1975,0,0
+South America_Southern,electricity,solar,PV,1975,0,1975,0,0
+South America_Southern,electricity,solar,CSP,1990,0,1990,0,0
+South America_Southern,electricity,solar,PV,1990,0,1990,0,0
+South America_Southern,electricity,solar,CSP,2005,0,2005,0,0
+South America_Southern,electricity,solar,PV,2005,0,2005,0,0
+South America_Southern,electricity,solar,CSP,2010,0,2010,1,0
+South America_Southern,electricity,solar,PV,2010,1.08e-5,2010,1,1
+South America_Southern,electricity,wind,wind,1975,0,1975,0,0
+South America_Southern,electricity,wind,wind,1990,0,1990,0,0
+South America_Southern,electricity,wind,wind,2005,2.88e-5,2005,1,1
+South America_Southern,electricity,wind,wind,2010,0.0014544,2010,1,1
+South Asia,electricity,biomass,biomass (conv),1975,1.1424939113854486e-5,1975,1,1
+South Asia,electricity,biomass,biomass (conv),1990,5.776196947511168e-5,1990,1,1
+South Asia,electricity,biomass,biomass (conv),2005,7.2e-6,2005,1,1
+South Asia,electricity,biomass,biomass (conv),2010,0,2010,0,0
+South Asia,electricity,coal,coal (conv pul),1975,0,1975,0,0
+South Asia,electricity,coal,coal (conv pul),1990,0,1990,0,0
+South Asia,electricity,coal,coal (conv pul),2005,0.0010729336287152497,2005,1,1
+South Asia,electricity,coal,coal (conv pul),2010,0.003068960702617133,2010,1,1
+South Asia,electricity,gas,gas (CC),1975,9.808425e-4,1975,1,1
+South Asia,electricity,gas,gas (steam/CT),1975,0.0013951575,1975,1,1
+South Asia,electricity,gas,gas (CC),1990,0.0071827019999999965,1990,1,1
+South Asia,electricity,gas,gas (steam/CT),1990,0.016271298000000003,1990,1,1
+South Asia,electricity,gas,gas (CC),2005,0.026456898110484267,2005,1,1
+South Asia,electricity,gas,gas (steam/CT),2005,0.05982195996230473,2005,1,1
+South Asia,electricity,gas,gas (CC),2010,0,2010,1,0
+South Asia,electricity,gas,gas (steam/CT),2010,0.1392135608135531,2010,1,1
+South Asia,electricity,geothermal,geothermal,1975,0,1975,0,0
+South Asia,electricity,geothermal,geothermal,1990,0,1990,0,0
+South Asia,electricity,geothermal,geothermal,2005,0,2005,0,0
+South Asia,electricity,geothermal,geothermal,2010,0,2010,0,0
+South Asia,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+South Asia,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+South Asia,electricity,nuclear,Gen_II_LWR,2005,0,2005,0,0
+South Asia,electricity,nuclear,Gen_II_LWR,2010,0,2010,0,0
+South Asia,electricity,refined liquids,refined liquids (steam/CT),1975,0.00870150996611187,1975,1,1
+South Asia,electricity,refined liquids,refined liquids (steam/CT),1990,0.008799168753544823,1990,1,1
+South Asia,electricity,refined liquids,refined liquids (steam/CT),2005,0.04289593168649112,2005,1,1
+South Asia,electricity,refined liquids,refined liquids (steam/CT),2010,0.04128270699122189,2010,1,1
+South Asia,electricity,solar,CSP,1975,0,1975,0,0
+South Asia,electricity,solar,PV,1975,0,1975,0,0
+South Asia,electricity,solar,CSP,1990,0,1990,0,0
+South Asia,electricity,solar,PV,1990,0,1990,0,0
+South Asia,electricity,solar,CSP,2005,0,2005,1,0
+South Asia,electricity,solar,PV,2005,5.011507847082248e-4,2005,1,1
+South Asia,electricity,solar,CSP,2010,0,2010,1,0
+South Asia,electricity,solar,PV,2010,5.476376291716497e-4,2010,1,1
+South Asia,electricity,wind,wind,1975,0,1975,0,0
+South Asia,electricity,wind,wind,1990,0,1990,0,0
+South Asia,electricity,wind,wind,2005,4.9238933288849976e-5,2005,1,1
+South Asia,electricity,wind,wind,2010,1.312287334356997e-4,2010,1,1
+South Korea,electricity,biomass,biomass (conv),1975,0,1975,0,0
+South Korea,electricity,biomass,biomass (conv),1990,0,1990,0,0
+South Korea,electricity,biomass,biomass (conv),2005,1.62e-4,2005,1,1
+South Korea,electricity,biomass,biomass (conv),2010,0.0012456,2010,1,1
+South Korea,electricity,coal,coal (conv pul),1975,0.0036504,1975,1,1
+South Korea,electricity,coal,coal (conv pul),1990,0.042372,1990,1,1
+South Korea,electricity,coal,coal (conv pul),2005,0.48265919999999995,2005,1,1
+South Korea,electricity,coal,coal (conv pul),2010,0.7217676,2010,1,1
+South Korea,electricity,gas,gas (CC),1975,0,1975,0,0
+South Korea,electricity,gas,gas (steam/CT),1975,0,1975,0,0
+South Korea,electricity,gas,gas (CC),1990,0.02698126199999999,1990,1,1
+South Korea,electricity,gas,gas (steam/CT),1990,0.00759313800000001,1990,1,1
+South Korea,electricity,gas,gas (CC),2005,0.20284427117647055,2005,1,1
+South Korea,electricity,gas,gas (steam/CT),2005,0.010214528823529438,2005,1,1
+South Korea,electricity,gas,gas (CC),2010,0.2554133278912898,2010,1,1
+South Korea,electricity,gas,gas (steam/CT),2010,0.1100622721087102,2010,1,1
+South Korea,electricity,geothermal,geothermal,1975,0,1975,0,0
+South Korea,electricity,geothermal,geothermal,1990,0,1990,0,0
+South Korea,electricity,geothermal,geothermal,2005,0,2005,0,0
+South Korea,electricity,geothermal,geothermal,2010,0,2010,0,0
+South Korea,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+South Korea,electricity,nuclear,Gen_II_LWR,1990,0.19039319999999998,1990,1,1
+South Korea,electricity,nuclear,Gen_II_LWR,2005,0.5284044,2005,1,1
+South Korea,electricity,nuclear,Gen_II_LWR,2010,0.5349456,2010,1,1
+South Korea,electricity,refined liquids,refined liquids (steam/CT),1975,0.061649999999999996,1975,1,1
+South Korea,electricity,refined liquids,refined liquids (steam/CT),1990,0.0678852,1990,1,1
+South Korea,electricity,refined liquids,refined liquids (steam/CT),2005,0.0757476,2005,1,1
+South Korea,electricity,refined liquids,refined liquids (steam/CT),2010,0.0538668,2010,1,1
+South Korea,electricity,solar,CSP,1975,0,1975,0,0
+South Korea,electricity,solar,PV,1975,0,1975,0,0
+South Korea,electricity,solar,CSP,1990,0,1990,1,0
+South Korea,electricity,solar,PV,1990,3.6e-6,1990,1,1
+South Korea,electricity,solar,CSP,2005,0,2005,1,0
+South Korea,electricity,solar,PV,2005,5.4e-5,2005,1,1
+South Korea,electricity,solar,CSP,2010,0,2010,1,0
+South Korea,electricity,solar,PV,2010,0.0027792,2010,1,1
+South Korea,electricity,wind,wind,1975,0,1975,0,0
+South Korea,electricity,wind,wind,1990,0,1990,0,0
+South Korea,electricity,wind,wind,2005,4.68e-4,2005,1,1
+South Korea,electricity,wind,wind,2010,0.0029411999999999997,2010,1,1
+Southeast Asia,electricity,biomass,biomass (conv),1975,6.3725769833918525e-6,1975,1,1
+Southeast Asia,electricity,biomass,biomass (conv),1990,0.0022087335195061387,1990,1,1
+Southeast Asia,electricity,biomass,biomass (conv),2005,0.009036,2005,1,1
+Southeast Asia,electricity,biomass,biomass (conv),2010,0.020577599999999998,2010,1,1
+Southeast Asia,electricity,coal,coal (conv pul),1975,0.037263599999999994,1975,1,1
+Southeast Asia,electricity,coal,coal (conv pul),1990,0.10459614339022139,1990,1,1
+Southeast Asia,electricity,coal,coal (conv pul),2005,0.27937675907776566,2005,1,1
+Southeast Asia,electricity,coal,coal (conv pul),2010,0.4485955301926564,2010,1,1
+Southeast Asia,electricity,gas,gas (CC),1975,0,1975,1,0
+Southeast Asia,electricity,gas,gas (steam/CT),1975,0.0012744,1975,1,1
+Southeast Asia,electricity,gas,gas (CC),1990,0.04493174400000002,1990,1,1
+Southeast Asia,electricity,gas,gas (steam/CT),1990,0.04469025599999999,1990,1,1
+Southeast Asia,electricity,gas,gas (CC),2005,0.556474847696105,2005,1,1
+Southeast Asia,electricity,gas,gas (steam/CT),2005,0.25162803778803283,2005,1,1
+Southeast Asia,electricity,gas,gas (CC),2010,0.45689544359823514,2010,1,1
+Southeast Asia,electricity,gas,gas (steam/CT),2010,0.6037287697251721,2010,1,1
+Southeast Asia,electricity,geothermal,geothermal,1975,0,1975,0,0
+Southeast Asia,electricity,geothermal,geothermal,1990,0.0196812,1990,1,1
+Southeast Asia,electricity,geothermal,geothermal,2005,0.035654399999999996,2005,1,1
+Southeast Asia,electricity,geothermal,geothermal,2010,0.035751599999999994,2010,1,1
+Southeast Asia,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+Southeast Asia,electricity,nuclear,Gen_II_LWR,1990,0,1990,0,0
+Southeast Asia,electricity,nuclear,Gen_II_LWR,2005,0,2005,0,0
+Southeast Asia,electricity,nuclear,Gen_II_LWR,2010,0,2010,0,0
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),1975,0.0965676252198247,1975,1,1
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),1990,0.19334091685725568,1990,1,1
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),2005,0.11442066433331241,2005,1,1
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),2010,0.10164819367059864,2010,1,1
+Southeast Asia,electricity,solar,CSP,1975,0,1975,0,0
+Southeast Asia,electricity,solar,PV,1975,0,1975,0,0
+Southeast Asia,electricity,solar,CSP,1990,0,1990,0,0
+Southeast Asia,electricity,solar,PV,1990,0,1990,0,0
+Southeast Asia,electricity,solar,CSP,2005,0,2005,1,0
+Southeast Asia,electricity,solar,PV,2005,2.5085409422084847e-4,2005,1,1
+Southeast Asia,electricity,solar,CSP,2010,0,2010,1,0
+Southeast Asia,electricity,solar,PV,2010,3.334136601619316e-4,2010,1,1
+Southeast Asia,electricity,wind,wind,1975,0,1975,0,0
+Southeast Asia,electricity,wind,wind,1990,0,1990,0,0
+Southeast Asia,electricity,wind,wind,2005,8.32651037835114e-5,2005,1,1
+Southeast Asia,electricity,wind,wind,2010,2.8452230626447504e-4,2010,1,1
+Taiwan,electricity,biomass,biomass (conv),1975,0,1975,0,0
+Taiwan,electricity,biomass,biomass (conv),1990,0,1990,0,0
+Taiwan,electricity,biomass,biomass (conv),2005,0.0118296,2005,1,1
+Taiwan,electricity,biomass,biomass (conv),2010,0.0131472,2010,1,1
+Taiwan,electricity,coal,coal (conv pul),1975,0.0059112,1975,1,1
+Taiwan,electricity,coal,coal (conv pul),1990,0.0780588,1990,1,1
+Taiwan,electricity,coal,coal (conv pul),2005,0.33315839999999997,2005,1,1
+Taiwan,electricity,coal,coal (conv pul),2010,0.3407652,2010,1,1
+Taiwan,electricity,gas,gas (CC),1975,0.0011258247000000006,1975,1,1
+Taiwan,electricity,gas,gas (steam/CT),1975,0.0011258246999999997,1975,1,1
+Taiwan,electricity,gas,gas (CC),1990,0.002098565999999999,1990,1,1
+Taiwan,electricity,gas,gas (steam/CT),1990,0.0016274340000000007,1990,1,1
+Taiwan,electricity,gas,gas (CC),2005,0.11462481529411758,2005,1,1
+Taiwan,electricity,gas,gas (steam/CT),2005,0.015601584705882415,2005,1,1
+Taiwan,electricity,gas,gas (CC),2010,0.12403087445856348,2010,1,1
+Taiwan,electricity,gas,gas (steam/CT),2010,0.08059672554143651,2010,1,1
+Taiwan,electricity,geothermal,geothermal,1975,0,1975,0,0
+Taiwan,electricity,geothermal,geothermal,1990,1.08e-5,1990,1,1
+Taiwan,electricity,geothermal,geothermal,2005,0,2005,0,0
+Taiwan,electricity,geothermal,geothermal,2010,0,2010,0,0
+Taiwan,electricity,nuclear,Gen_II_LWR,1975,0,1975,0,0
+Taiwan,electricity,nuclear,Gen_II_LWR,1990,0.1183176,1990,1,1
+Taiwan,electricity,nuclear,Gen_II_LWR,2005,0.1438992,2005,1,1
+Taiwan,electricity,nuclear,Gen_II_LWR,2010,0.14986439999999998,2010,1,1
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),1975,0.0612396,1975,1,1
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),1990,0.0780732,1990,1,1
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),2005,0.039549600000000004,2005,1,1
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),2010,0.0298224,2010,1,1
+Taiwan,electricity,solar,CSP,1975,0,1975,0,0
+Taiwan,electricity,solar,PV,1975,0,1975,0,0
+Taiwan,electricity,solar,CSP,1990,0,1990,0,0
+Taiwan,electricity,solar,PV,1990,0,1990,0,0
+Taiwan,electricity,solar,CSP,2005,0,2005,1,0
+Taiwan,electricity,solar,PV,2005,3.6e-6,2005,1,1
+Taiwan,electricity,solar,CSP,2010,0,2010,1,0
+Taiwan,electricity,solar,PV,2010,8.28e-5,2010,1,1
+Taiwan,electricity,wind,wind,1975,0,1975,0,0
+Taiwan,electricity,wind,wind,1990,0,1990,0,0
+Taiwan,electricity,wind,wind,2005,3.276e-4,2005,1,1
+Taiwan,electricity,wind,wind,2010,0.0035136,2010,1,1
+USA,electricity,biomass,biomass (conv),1975,7.272e-4,1975,1,1
+USA,electricity,biomass,biomass (conv),1990,0.0791316,1990,1,1
+USA,electricity,biomass,biomass (conv),2005,0.11063519999999999,2005,1,1
+USA,electricity,biomass,biomass (conv),2010,0.1154376,2010,1,1
+USA,electricity,coal,coal (conv pul),1975,3.2070672,1975,1,1
+USA,electricity,coal,coal (conv pul),1990,6.0288372,1990,1,1
+USA,electricity,coal,coal (conv pul),2005,7.6805172,2005,1,1
+USA,electricity,coal,coal (conv pul),2010,7.1053884,2010,1,1
+USA,electricity,gas,gas (CC),1975,0.8573458139999998,1975,1,1
+USA,electricity,gas,gas (steam/CT),1975,0.2973973860000002,1975,1,1
+USA,electricity,gas,gas (CC),1990,0.5902752779999997,1990,1,1
+USA,electricity,gas,gas (steam/CT),1990,0.4359767220000003,1990,1,1
+USA,electricity,gas,gas (CC),2005,1.9025044994117644,2005,1,1
+USA,electricity,gas,gas (steam/CT),2005,0.6669379005882357,2005,1,1
+USA,electricity,gas,gas (CC),2010,1.8421646187348448,2010,1,1
+USA,electricity,gas,gas (steam/CT),2010,1.542458181265155,2010,1,1
+USA,electricity,geothermal,geothermal,1975,0.0123264,1975,1,1
+USA,electricity,geothermal,geothermal,1990,0.0576432,1990,1,1
+USA,electricity,geothermal,geothermal,2005,0.0604008,2005,1,1
+USA,electricity,geothermal,geothermal,2010,0.06327719999999999,2010,1,1
+USA,electricity,nuclear,Gen_II_LWR,1975,0.6606432,1975,1,1
+USA,electricity,nuclear,Gen_II_LWR,1990,2.2013028,1990,1,1
+USA,electricity,nuclear,Gen_II_LWR,2005,2.9186136,2005,1,1
+USA,electricity,nuclear,Gen_II_LWR,2010,3.0201515999999997,2010,1,1
+USA,electricity,refined liquids,refined liquids (steam/CT),1975,1.1135916,1975,1,1
+USA,electricity,refined liquids,refined liquids (steam/CT),1990,0.4507488,1990,1,1
+USA,electricity,refined liquids,refined liquids (steam/CT),2005,0.454968,2005,1,1
+USA,electricity,refined liquids,refined liquids (steam/CT),2010,0.1445472,2010,1,1
+USA,electricity,solar,CSP,1975,0,1975,0,0
+USA,electricity,solar,PV,1975,0,1975,0,0
+USA,electricity,solar,CSP,1990,0.0023867999999999997,1990,1,1
+USA,electricity,solar,PV,1990,1.08e-5,1990,1,1
+USA,electricity,solar,CSP,2005,0.0021456,2005,1,1
+USA,electricity,solar,PV,2005,0.0018864,2005,1,1
+USA,electricity,solar,CSP,2010,0.0031644,2010,1,1
+USA,electricity,solar,PV,2010,0.010998,2010,1,1
+USA,electricity,wind,wind,1975,0,1975,0,0
+USA,electricity,wind,wind,1990,0.011037599999999998,1990,1,1
+USA,electricity,wind,wind,2005,0.0643716,2005,1,1
+USA,electricity,wind,wind,2010,0.34253279999999997,2010,1,1

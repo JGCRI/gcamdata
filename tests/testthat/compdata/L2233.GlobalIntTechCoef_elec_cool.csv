@@ -1,0 +1,135 @@
+# Water footprints mapped onto supplysector-subsector-technology tables
+# m^3/MWh converted to m^3/GJ
+sector.name,subsector.name,technology,year,minicam.energy.input,coefficient
+electricity,solar,PV,1975,water_td_elec_W,0.0055556
+electricity,solar,PV,1990,water_td_elec_W,0.0055556
+electricity,solar,PV,2005,water_td_elec_W,0.0055556
+electricity,solar,PV,2010,water_td_elec_W,0.0055556
+electricity,solar,PV,2015,water_td_elec_W,0.0055556
+electricity,solar,PV,2020,water_td_elec_W,0.0055556
+electricity,solar,PV,2025,water_td_elec_W,0.0055556
+electricity,solar,PV,2030,water_td_elec_W,0.0055556
+electricity,solar,PV,2035,water_td_elec_W,0.0055556
+electricity,solar,PV,2040,water_td_elec_W,0.0055556
+electricity,solar,PV,2045,water_td_elec_W,0.0055556
+electricity,solar,PV,2050,water_td_elec_W,0.0055556
+electricity,solar,PV,2055,water_td_elec_W,0.0055556
+electricity,solar,PV,2060,water_td_elec_W,0.0055556
+electricity,solar,PV,2065,water_td_elec_W,0.0055556
+electricity,solar,PV,2070,water_td_elec_W,0.0055556
+electricity,solar,PV,2075,water_td_elec_W,0.0055556
+electricity,solar,PV,2080,water_td_elec_W,0.0055556
+electricity,solar,PV,2085,water_td_elec_W,0.0055556
+electricity,solar,PV,2090,water_td_elec_W,0.0055556
+electricity,solar,PV,2095,water_td_elec_W,0.0055556
+electricity,solar,PV,2100,water_td_elec_W,0.0055556
+elec_CSP,CSP,CSP (recirculating),1975,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),1990,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2005,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2010,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2015,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2020,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2025,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2030,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2035,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2040,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2045,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2050,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2055,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2060,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2065,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2070,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2075,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2080,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2085,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2090,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2095,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (recirculating),2100,water_td_elec_W,0.9166667
+elec_CSP,CSP,CSP (dry_hybrid),1975,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),1990,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2005,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2010,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2015,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2020,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2025,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2030,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2035,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2040,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2045,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2050,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2055,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2060,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2065,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2070,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2075,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2080,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2085,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2090,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2095,water_td_elec_W,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2100,water_td_elec_W,0.2055556
+electricity,solar,PV,1975,water_td_elec_C,0.0055556
+electricity,solar,PV,1990,water_td_elec_C,0.0055556
+electricity,solar,PV,2005,water_td_elec_C,0.0055556
+electricity,solar,PV,2010,water_td_elec_C,0.0055556
+electricity,solar,PV,2015,water_td_elec_C,0.0055556
+electricity,solar,PV,2020,water_td_elec_C,0.0055556
+electricity,solar,PV,2025,water_td_elec_C,0.0055556
+electricity,solar,PV,2030,water_td_elec_C,0.0055556
+electricity,solar,PV,2035,water_td_elec_C,0.0055556
+electricity,solar,PV,2040,water_td_elec_C,0.0055556
+electricity,solar,PV,2045,water_td_elec_C,0.0055556
+electricity,solar,PV,2050,water_td_elec_C,0.0055556
+electricity,solar,PV,2055,water_td_elec_C,0.0055556
+electricity,solar,PV,2060,water_td_elec_C,0.0055556
+electricity,solar,PV,2065,water_td_elec_C,0.0055556
+electricity,solar,PV,2070,water_td_elec_C,0.0055556
+electricity,solar,PV,2075,water_td_elec_C,0.0055556
+electricity,solar,PV,2080,water_td_elec_C,0.0055556
+electricity,solar,PV,2085,water_td_elec_C,0.0055556
+electricity,solar,PV,2090,water_td_elec_C,0.0055556
+electricity,solar,PV,2095,water_td_elec_C,0.0055556
+electricity,solar,PV,2100,water_td_elec_C,0.0055556
+elec_CSP,CSP,CSP (recirculating),1975,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),1990,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2005,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2010,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2015,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2020,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2025,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2030,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2035,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2040,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2045,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2050,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2055,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2060,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2065,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2070,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2075,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2080,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2085,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2090,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2095,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (recirculating),2100,water_td_elec_C,0.9166667
+elec_CSP,CSP,CSP (dry_hybrid),1975,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),1990,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2005,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2010,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2015,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2020,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2025,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2030,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2035,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2040,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2045,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2050,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2055,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2060,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2065,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2070,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2075,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2080,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2085,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2090,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2095,water_td_elec_C,0.2055556
+elec_CSP,CSP,CSP (dry_hybrid),2100,water_td_elec_C,0.2055556

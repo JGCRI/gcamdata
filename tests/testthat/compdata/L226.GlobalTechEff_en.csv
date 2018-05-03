@@ -1,0 +1,289 @@
+# interpolated efficiency values for technologies converting energy inputs
+# can be multiple lines
+sector.name,subsector.name,technology,minicam.energy.input,year,efficiency
+backup_electricity,gas,gas (steam/CT),wholesale gas,1975,0.377
+backup_electricity,gas,gas (steam/CT),wholesale gas,1990,0.377
+backup_electricity,gas,gas (steam/CT),wholesale gas,2005,0.377
+backup_electricity,gas,gas (steam/CT),wholesale gas,2010,0.38
+backup_electricity,gas,gas (steam/CT),wholesale gas,2015,0.382
+backup_electricity,gas,gas (steam/CT),wholesale gas,2020,0.385
+backup_electricity,gas,gas (steam/CT),wholesale gas,2025,0.388
+backup_electricity,gas,gas (steam/CT),wholesale gas,2030,0.39
+backup_electricity,gas,gas (steam/CT),wholesale gas,2035,0.393
+backup_electricity,gas,gas (steam/CT),wholesale gas,2040,0.396
+backup_electricity,gas,gas (steam/CT),wholesale gas,2045,0.398
+backup_electricity,gas,gas (steam/CT),wholesale gas,2050,0.401
+backup_electricity,gas,gas (steam/CT),wholesale gas,2055,0.404
+backup_electricity,gas,gas (steam/CT),wholesale gas,2060,0.407
+backup_electricity,gas,gas (steam/CT),wholesale gas,2065,0.409
+backup_electricity,gas,gas (steam/CT),wholesale gas,2070,0.412
+backup_electricity,gas,gas (steam/CT),wholesale gas,2075,0.415
+backup_electricity,gas,gas (steam/CT),wholesale gas,2080,0.417
+backup_electricity,gas,gas (steam/CT),wholesale gas,2085,0.42
+backup_electricity,gas,gas (steam/CT),wholesale gas,2090,0.423
+backup_electricity,gas,gas (steam/CT),wholesale gas,2095,0.425
+backup_electricity,gas,gas (steam/CT),wholesale gas,2100,0.428
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,1975,0.307
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,1990,0.307
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2005,0.307
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2010,0.31
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2015,0.312
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2020,0.315
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2025,0.318
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2030,0.32
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2035,0.323
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2040,0.326
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2045,0.328
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2050,0.331
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2055,0.334
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2060,0.337
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2065,0.339
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2070,0.342
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2075,0.345
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2080,0.347
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2085,0.35
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2090,0.353
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2095,0.355
+csp_backup,gas,CSP gas hybrid mode,wholesale gas,2100,0.358
+delivered biomass,delivered biomass,delivered biomass,regional biomass,1975,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,1990,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2005,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2010,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2015,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2020,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2025,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2030,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2035,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2040,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2045,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2050,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2055,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2060,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2065,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2070,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2075,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2080,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2085,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2090,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2095,1
+delivered biomass,delivered biomass,delivered biomass,regional biomass,2100,1
+delivered coal,delivered coal,delivered coal,regional coal,1975,1
+delivered coal,delivered coal,delivered coal,regional coal,1990,1
+delivered coal,delivered coal,delivered coal,regional coal,2005,1
+delivered coal,delivered coal,delivered coal,regional coal,2010,1
+delivered coal,delivered coal,delivered coal,regional coal,2015,1
+delivered coal,delivered coal,delivered coal,regional coal,2020,1
+delivered coal,delivered coal,delivered coal,regional coal,2025,1
+delivered coal,delivered coal,delivered coal,regional coal,2030,1
+delivered coal,delivered coal,delivered coal,regional coal,2035,1
+delivered coal,delivered coal,delivered coal,regional coal,2040,1
+delivered coal,delivered coal,delivered coal,regional coal,2045,1
+delivered coal,delivered coal,delivered coal,regional coal,2050,1
+delivered coal,delivered coal,delivered coal,regional coal,2055,1
+delivered coal,delivered coal,delivered coal,regional coal,2060,1
+delivered coal,delivered coal,delivered coal,regional coal,2065,1
+delivered coal,delivered coal,delivered coal,regional coal,2070,1
+delivered coal,delivered coal,delivered coal,regional coal,2075,1
+delivered coal,delivered coal,delivered coal,regional coal,2080,1
+delivered coal,delivered coal,delivered coal,regional coal,2085,1
+delivered coal,delivered coal,delivered coal,regional coal,2090,1
+delivered coal,delivered coal,delivered coal,regional coal,2095,1
+delivered coal,delivered coal,delivered coal,regional coal,2100,1
+delivered gas,delivered gas,delivered gas,gas pipeline,1975,1
+delivered gas,delivered gas,delivered gas,gas pipeline,1990,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2005,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2010,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2015,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2020,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2025,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2030,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2035,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2040,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2045,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2050,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2055,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2060,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2065,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2070,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2075,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2080,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2085,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2090,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2095,1
+delivered gas,delivered gas,delivered gas,gas pipeline,2100,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,1975,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,1990,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2005,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2010,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2015,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2020,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2025,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2030,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2035,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2040,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2045,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2050,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2055,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2060,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2065,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2070,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2075,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2080,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2085,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2090,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2095,1
+elect_td_bld,elect_td_bld,elect_td_bld,electricity_net_ownuse,2100,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,1975,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,1990,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2005,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2010,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2015,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2020,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2025,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2030,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2035,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2040,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2045,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2050,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2055,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2060,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2065,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2070,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2075,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2080,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2085,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2090,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2095,1
+elect_td_ind,elect_td_ind,elect_td_ind,electricity_net_ownuse,2100,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,1975,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,1990,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2005,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2010,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2015,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2020,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2025,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2030,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2035,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2040,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2045,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2050,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2055,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2060,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2065,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2070,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2075,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2080,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2085,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2090,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2095,1
+elect_td_trn,elect_td_trn,elect_td_trn,electricity_net_ownuse,2100,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,1975,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,1990,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2005,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2010,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2015,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2020,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2025,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2030,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2035,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2040,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2045,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2050,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2055,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2060,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2065,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2070,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2075,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2080,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2085,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2090,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2095,1
+electricity_net_ownuse,electricity_net_ownuse,electricity_net_ownuse,electricity,2100,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,1975,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,1990,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2005,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2010,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2015,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2020,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2025,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2030,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2035,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2040,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2045,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2050,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2055,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2060,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2065,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2070,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2075,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2080,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2085,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2090,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2095,1
+gas pipeline,gas pipeline,gas pipeline,gas processing,2100,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,1975,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,1990,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2005,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2010,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2015,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2020,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2025,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2030,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2035,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2040,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2045,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2050,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2055,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2060,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2065,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2070,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2075,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2080,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2085,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2090,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2095,1
+refined liquids enduse,refined liquids enduse,refined liquids enduse,refining,2100,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,1975,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,1990,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2005,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2010,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2015,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2020,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2025,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2030,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2035,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2040,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2045,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2050,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2055,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2060,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2065,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2070,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2075,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2080,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2085,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2090,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2095,1
+refined liquids industrial,refined liquids industrial,refined liquids industrial,refining,2100,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,1975,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,1990,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2005,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2010,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2015,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2020,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2025,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2030,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2035,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2040,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2045,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2050,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2055,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2060,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2065,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2070,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2075,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2080,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2085,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2090,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2095,1
+wholesale gas,wholesale gas,wholesale gas,gas pipeline,2100,1

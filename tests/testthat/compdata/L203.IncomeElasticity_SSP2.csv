@@ -1,0 +1,1119 @@
+# Calculate income elasticity based on SSP2 food demand and GDP growth trajectory
+# Remove any regions for which agriculture and land use are not modeled
+region,energy.final.demand,year,income.elasticity
+USA,FoodDemand_Crops,2015,0.041
+USA,FoodDemand_Crops,2020,0.0408
+USA,FoodDemand_Crops,2025,0.0406
+USA,FoodDemand_Crops,2030,0.0404
+USA,FoodDemand_Crops,2035,0.0403
+USA,FoodDemand_Crops,2040,0.0402
+USA,FoodDemand_Crops,2045,0.0401
+USA,FoodDemand_Crops,2050,0.04
+USA,FoodDemand_Crops,2055,0.0399
+USA,FoodDemand_Crops,2060,0.0399
+USA,FoodDemand_Crops,2065,0.0398
+USA,FoodDemand_Crops,2070,0.0397
+USA,FoodDemand_Crops,2075,0.0397
+USA,FoodDemand_Crops,2080,0.0396
+USA,FoodDemand_Crops,2085,0.0395
+USA,FoodDemand_Crops,2090,0.0395
+USA,FoodDemand_Crops,2095,0.0394
+USA,FoodDemand_Crops,2100,0.0393
+Africa_Eastern,FoodDemand_Crops,2015,0.0513
+Africa_Eastern,FoodDemand_Crops,2020,0.0509
+Africa_Eastern,FoodDemand_Crops,2025,0.0504
+Africa_Eastern,FoodDemand_Crops,2030,0.05
+Africa_Eastern,FoodDemand_Crops,2035,0.0495
+Africa_Eastern,FoodDemand_Crops,2040,0.049
+Africa_Eastern,FoodDemand_Crops,2045,0.0484
+Africa_Eastern,FoodDemand_Crops,2050,0.0479
+Africa_Eastern,FoodDemand_Crops,2055,0.0474
+Africa_Eastern,FoodDemand_Crops,2060,0.0468
+Africa_Eastern,FoodDemand_Crops,2065,0.0463
+Africa_Eastern,FoodDemand_Crops,2070,0.0458
+Africa_Eastern,FoodDemand_Crops,2075,0.0453
+Africa_Eastern,FoodDemand_Crops,2080,0.0448
+Africa_Eastern,FoodDemand_Crops,2085,0.0444
+Africa_Eastern,FoodDemand_Crops,2090,0.0439
+Africa_Eastern,FoodDemand_Crops,2095,0.0435
+Africa_Eastern,FoodDemand_Crops,2100,0.0431
+Africa_Northern,FoodDemand_Crops,2015,0.0473
+Africa_Northern,FoodDemand_Crops,2020,0.0469
+Africa_Northern,FoodDemand_Crops,2025,0.0464
+Africa_Northern,FoodDemand_Crops,2030,0.046
+Africa_Northern,FoodDemand_Crops,2035,0.0455
+Africa_Northern,FoodDemand_Crops,2040,0.0452
+Africa_Northern,FoodDemand_Crops,2045,0.0448
+Africa_Northern,FoodDemand_Crops,2050,0.0445
+Africa_Northern,FoodDemand_Crops,2055,0.0441
+Africa_Northern,FoodDemand_Crops,2060,0.0438
+Africa_Northern,FoodDemand_Crops,2065,0.0435
+Africa_Northern,FoodDemand_Crops,2070,0.0432
+Africa_Northern,FoodDemand_Crops,2075,0.043
+Africa_Northern,FoodDemand_Crops,2080,0.0427
+Africa_Northern,FoodDemand_Crops,2085,0.0425
+Africa_Northern,FoodDemand_Crops,2090,0.0422
+Africa_Northern,FoodDemand_Crops,2095,0.042
+Africa_Northern,FoodDemand_Crops,2100,0.0418
+Africa_Southern,FoodDemand_Crops,2015,0.0497
+Africa_Southern,FoodDemand_Crops,2020,0.0493
+Africa_Southern,FoodDemand_Crops,2025,0.0489
+Africa_Southern,FoodDemand_Crops,2030,0.0485
+Africa_Southern,FoodDemand_Crops,2035,0.0482
+Africa_Southern,FoodDemand_Crops,2040,0.0478
+Africa_Southern,FoodDemand_Crops,2045,0.0474
+Africa_Southern,FoodDemand_Crops,2050,0.047
+Africa_Southern,FoodDemand_Crops,2055,0.0465
+Africa_Southern,FoodDemand_Crops,2060,0.0461
+Africa_Southern,FoodDemand_Crops,2065,0.0456
+Africa_Southern,FoodDemand_Crops,2070,0.0451
+Africa_Southern,FoodDemand_Crops,2075,0.0446
+Africa_Southern,FoodDemand_Crops,2080,0.0442
+Africa_Southern,FoodDemand_Crops,2085,0.0438
+Africa_Southern,FoodDemand_Crops,2090,0.0433
+Africa_Southern,FoodDemand_Crops,2095,0.043
+Africa_Southern,FoodDemand_Crops,2100,0.0426
+Africa_Western,FoodDemand_Crops,2015,0.0495
+Africa_Western,FoodDemand_Crops,2020,0.049
+Africa_Western,FoodDemand_Crops,2025,0.0485
+Africa_Western,FoodDemand_Crops,2030,0.048
+Africa_Western,FoodDemand_Crops,2035,0.0475
+Africa_Western,FoodDemand_Crops,2040,0.047
+Africa_Western,FoodDemand_Crops,2045,0.0465
+Africa_Western,FoodDemand_Crops,2050,0.046
+Africa_Western,FoodDemand_Crops,2055,0.0455
+Africa_Western,FoodDemand_Crops,2060,0.045
+Africa_Western,FoodDemand_Crops,2065,0.0445
+Africa_Western,FoodDemand_Crops,2070,0.044
+Africa_Western,FoodDemand_Crops,2075,0.0436
+Africa_Western,FoodDemand_Crops,2080,0.0432
+Africa_Western,FoodDemand_Crops,2085,0.0427
+Africa_Western,FoodDemand_Crops,2090,0.0423
+Africa_Western,FoodDemand_Crops,2095,0.042
+Africa_Western,FoodDemand_Crops,2100,0.0416
+Australia_NZ,FoodDemand_Crops,2015,0.041
+Australia_NZ,FoodDemand_Crops,2020,0.0408
+Australia_NZ,FoodDemand_Crops,2025,0.0406
+Australia_NZ,FoodDemand_Crops,2030,0.0404
+Australia_NZ,FoodDemand_Crops,2035,0.0403
+Australia_NZ,FoodDemand_Crops,2040,0.0402
+Australia_NZ,FoodDemand_Crops,2045,0.0401
+Australia_NZ,FoodDemand_Crops,2050,0.0399
+Australia_NZ,FoodDemand_Crops,2055,0.0398
+Australia_NZ,FoodDemand_Crops,2060,0.0397
+Australia_NZ,FoodDemand_Crops,2065,0.0396
+Australia_NZ,FoodDemand_Crops,2070,0.0394
+Australia_NZ,FoodDemand_Crops,2075,0.0393
+Australia_NZ,FoodDemand_Crops,2080,0.0392
+Australia_NZ,FoodDemand_Crops,2085,0.039
+Australia_NZ,FoodDemand_Crops,2090,0.0389
+Australia_NZ,FoodDemand_Crops,2095,0.0388
+Australia_NZ,FoodDemand_Crops,2100,0.0386
+Brazil,FoodDemand_Crops,2015,0.0445
+Brazil,FoodDemand_Crops,2020,0.0442
+Brazil,FoodDemand_Crops,2025,0.0438
+Brazil,FoodDemand_Crops,2030,0.0435
+Brazil,FoodDemand_Crops,2035,0.0433
+Brazil,FoodDemand_Crops,2040,0.0431
+Brazil,FoodDemand_Crops,2045,0.0428
+Brazil,FoodDemand_Crops,2050,0.0426
+Brazil,FoodDemand_Crops,2055,0.0424
+Brazil,FoodDemand_Crops,2060,0.0422
+Brazil,FoodDemand_Crops,2065,0.042
+Brazil,FoodDemand_Crops,2070,0.0418
+Brazil,FoodDemand_Crops,2075,0.0416
+Brazil,FoodDemand_Crops,2080,0.0414
+Brazil,FoodDemand_Crops,2085,0.0412
+Brazil,FoodDemand_Crops,2090,0.0411
+Brazil,FoodDemand_Crops,2095,0.0409
+Brazil,FoodDemand_Crops,2100,0.0407
+Canada,FoodDemand_Crops,2015,0.0411
+Canada,FoodDemand_Crops,2020,0.0409
+Canada,FoodDemand_Crops,2025,0.0407
+Canada,FoodDemand_Crops,2030,0.0406
+Canada,FoodDemand_Crops,2035,0.0405
+Canada,FoodDemand_Crops,2040,0.0404
+Canada,FoodDemand_Crops,2045,0.0402
+Canada,FoodDemand_Crops,2050,0.0401
+Canada,FoodDemand_Crops,2055,0.04
+Canada,FoodDemand_Crops,2060,0.0399
+Canada,FoodDemand_Crops,2065,0.0398
+Canada,FoodDemand_Crops,2070,0.0397
+Canada,FoodDemand_Crops,2075,0.0395
+Canada,FoodDemand_Crops,2080,0.0394
+Canada,FoodDemand_Crops,2085,0.0393
+Canada,FoodDemand_Crops,2090,0.0391
+Canada,FoodDemand_Crops,2095,0.039
+Canada,FoodDemand_Crops,2100,0.0388
+Central America and Caribbean,FoodDemand_Crops,2015,0.0469
+Central America and Caribbean,FoodDemand_Crops,2020,0.0465
+Central America and Caribbean,FoodDemand_Crops,2025,0.0462
+Central America and Caribbean,FoodDemand_Crops,2030,0.0459
+Central America and Caribbean,FoodDemand_Crops,2035,0.0455
+Central America and Caribbean,FoodDemand_Crops,2040,0.0452
+Central America and Caribbean,FoodDemand_Crops,2045,0.0449
+Central America and Caribbean,FoodDemand_Crops,2050,0.0446
+Central America and Caribbean,FoodDemand_Crops,2055,0.0442
+Central America and Caribbean,FoodDemand_Crops,2060,0.0439
+Central America and Caribbean,FoodDemand_Crops,2065,0.0436
+Central America and Caribbean,FoodDemand_Crops,2070,0.0433
+Central America and Caribbean,FoodDemand_Crops,2075,0.043
+Central America and Caribbean,FoodDemand_Crops,2080,0.0427
+Central America and Caribbean,FoodDemand_Crops,2085,0.0424
+Central America and Caribbean,FoodDemand_Crops,2090,0.0421
+Central America and Caribbean,FoodDemand_Crops,2095,0.0418
+Central America and Caribbean,FoodDemand_Crops,2100,0.0416
+Central Asia,FoodDemand_Crops,2015,0.047
+Central Asia,FoodDemand_Crops,2020,0.0464
+Central Asia,FoodDemand_Crops,2025,0.0458
+Central Asia,FoodDemand_Crops,2030,0.0453
+Central Asia,FoodDemand_Crops,2035,0.0449
+Central Asia,FoodDemand_Crops,2040,0.0445
+Central Asia,FoodDemand_Crops,2045,0.0442
+Central Asia,FoodDemand_Crops,2050,0.044
+Central Asia,FoodDemand_Crops,2055,0.0438
+Central Asia,FoodDemand_Crops,2060,0.0436
+Central Asia,FoodDemand_Crops,2065,0.0434
+Central Asia,FoodDemand_Crops,2070,0.0431
+Central Asia,FoodDemand_Crops,2075,0.0429
+Central Asia,FoodDemand_Crops,2080,0.0427
+Central Asia,FoodDemand_Crops,2085,0.0426
+Central Asia,FoodDemand_Crops,2090,0.0424
+Central Asia,FoodDemand_Crops,2095,0.0422
+Central Asia,FoodDemand_Crops,2100,0.042
+China,FoodDemand_Crops,2015,0.0463
+China,FoodDemand_Crops,2020,0.0454
+China,FoodDemand_Crops,2025,0.0446
+China,FoodDemand_Crops,2030,0.044
+China,FoodDemand_Crops,2035,0.0435
+China,FoodDemand_Crops,2040,0.0432
+China,FoodDemand_Crops,2045,0.0429
+China,FoodDemand_Crops,2050,0.0426
+China,FoodDemand_Crops,2055,0.0424
+China,FoodDemand_Crops,2060,0.0422
+China,FoodDemand_Crops,2065,0.042
+China,FoodDemand_Crops,2070,0.0419
+China,FoodDemand_Crops,2075,0.0417
+China,FoodDemand_Crops,2080,0.0416
+China,FoodDemand_Crops,2085,0.0414
+China,FoodDemand_Crops,2090,0.0413
+China,FoodDemand_Crops,2095,0.0412
+China,FoodDemand_Crops,2100,0.041
+EU-12,FoodDemand_Crops,2015,0.0443
+EU-12,FoodDemand_Crops,2020,0.0439
+EU-12,FoodDemand_Crops,2025,0.0436
+EU-12,FoodDemand_Crops,2030,0.0432
+EU-12,FoodDemand_Crops,2035,0.043
+EU-12,FoodDemand_Crops,2040,0.0427
+EU-12,FoodDemand_Crops,2045,0.0424
+EU-12,FoodDemand_Crops,2050,0.0422
+EU-12,FoodDemand_Crops,2055,0.042
+EU-12,FoodDemand_Crops,2060,0.0419
+EU-12,FoodDemand_Crops,2065,0.0417
+EU-12,FoodDemand_Crops,2070,0.0415
+EU-12,FoodDemand_Crops,2075,0.0413
+EU-12,FoodDemand_Crops,2080,0.0411
+EU-12,FoodDemand_Crops,2085,0.0409
+EU-12,FoodDemand_Crops,2090,0.0407
+EU-12,FoodDemand_Crops,2095,0.0406
+EU-12,FoodDemand_Crops,2100,0.0404
+EU-15,FoodDemand_Crops,2015,0.0416
+EU-15,FoodDemand_Crops,2020,0.0415
+EU-15,FoodDemand_Crops,2025,0.0413
+EU-15,FoodDemand_Crops,2030,0.0412
+EU-15,FoodDemand_Crops,2035,0.041
+EU-15,FoodDemand_Crops,2040,0.0409
+EU-15,FoodDemand_Crops,2045,0.0407
+EU-15,FoodDemand_Crops,2050,0.0406
+EU-15,FoodDemand_Crops,2055,0.0404
+EU-15,FoodDemand_Crops,2060,0.0403
+EU-15,FoodDemand_Crops,2065,0.0401
+EU-15,FoodDemand_Crops,2070,0.0399
+EU-15,FoodDemand_Crops,2075,0.0398
+EU-15,FoodDemand_Crops,2080,0.0396
+EU-15,FoodDemand_Crops,2085,0.0395
+EU-15,FoodDemand_Crops,2090,0.0393
+EU-15,FoodDemand_Crops,2095,0.0392
+EU-15,FoodDemand_Crops,2100,0.039
+Europe_Eastern,FoodDemand_Crops,2015,0.0473
+Europe_Eastern,FoodDemand_Crops,2020,0.0468
+Europe_Eastern,FoodDemand_Crops,2025,0.0463
+Europe_Eastern,FoodDemand_Crops,2030,0.0458
+Europe_Eastern,FoodDemand_Crops,2035,0.0454
+Europe_Eastern,FoodDemand_Crops,2040,0.045
+Europe_Eastern,FoodDemand_Crops,2045,0.0447
+Europe_Eastern,FoodDemand_Crops,2050,0.0444
+Europe_Eastern,FoodDemand_Crops,2055,0.0441
+Europe_Eastern,FoodDemand_Crops,2060,0.0438
+Europe_Eastern,FoodDemand_Crops,2065,0.0436
+Europe_Eastern,FoodDemand_Crops,2070,0.0433
+Europe_Eastern,FoodDemand_Crops,2075,0.0431
+Europe_Eastern,FoodDemand_Crops,2080,0.0428
+Europe_Eastern,FoodDemand_Crops,2085,0.0426
+Europe_Eastern,FoodDemand_Crops,2090,0.0424
+Europe_Eastern,FoodDemand_Crops,2095,0.0422
+Europe_Eastern,FoodDemand_Crops,2100,0.042
+Europe_Non_EU,FoodDemand_Crops,2015,0.045
+Europe_Non_EU,FoodDemand_Crops,2020,0.0446
+Europe_Non_EU,FoodDemand_Crops,2025,0.0442
+Europe_Non_EU,FoodDemand_Crops,2030,0.0439
+Europe_Non_EU,FoodDemand_Crops,2035,0.0436
+Europe_Non_EU,FoodDemand_Crops,2040,0.0434
+Europe_Non_EU,FoodDemand_Crops,2045,0.0431
+Europe_Non_EU,FoodDemand_Crops,2050,0.0429
+Europe_Non_EU,FoodDemand_Crops,2055,0.0426
+Europe_Non_EU,FoodDemand_Crops,2060,0.0424
+Europe_Non_EU,FoodDemand_Crops,2065,0.0422
+Europe_Non_EU,FoodDemand_Crops,2070,0.042
+Europe_Non_EU,FoodDemand_Crops,2075,0.0418
+Europe_Non_EU,FoodDemand_Crops,2080,0.0416
+Europe_Non_EU,FoodDemand_Crops,2085,0.0414
+Europe_Non_EU,FoodDemand_Crops,2090,0.0412
+Europe_Non_EU,FoodDemand_Crops,2095,0.0411
+Europe_Non_EU,FoodDemand_Crops,2100,0.0409
+European Free Trade Association,FoodDemand_Crops,2015,0.0399
+European Free Trade Association,FoodDemand_Crops,2020,0.0398
+European Free Trade Association,FoodDemand_Crops,2025,0.0396
+European Free Trade Association,FoodDemand_Crops,2030,0.0395
+European Free Trade Association,FoodDemand_Crops,2035,0.0394
+European Free Trade Association,FoodDemand_Crops,2040,0.0393
+European Free Trade Association,FoodDemand_Crops,2045,0.0392
+European Free Trade Association,FoodDemand_Crops,2050,0.0391
+European Free Trade Association,FoodDemand_Crops,2055,0.0389
+European Free Trade Association,FoodDemand_Crops,2060,0.0388
+European Free Trade Association,FoodDemand_Crops,2065,0.0386
+European Free Trade Association,FoodDemand_Crops,2070,0.0385
+European Free Trade Association,FoodDemand_Crops,2075,0.0383
+European Free Trade Association,FoodDemand_Crops,2080,0.0382
+European Free Trade Association,FoodDemand_Crops,2085,0.038
+European Free Trade Association,FoodDemand_Crops,2090,0.0379
+European Free Trade Association,FoodDemand_Crops,2095,0.0377
+European Free Trade Association,FoodDemand_Crops,2100,0.0376
+India,FoodDemand_Crops,2015,0.0494
+India,FoodDemand_Crops,2020,0.0488
+India,FoodDemand_Crops,2025,0.0481
+India,FoodDemand_Crops,2030,0.0476
+India,FoodDemand_Crops,2035,0.0471
+India,FoodDemand_Crops,2040,0.0466
+India,FoodDemand_Crops,2045,0.0462
+India,FoodDemand_Crops,2050,0.0458
+India,FoodDemand_Crops,2055,0.0454
+India,FoodDemand_Crops,2060,0.0451
+India,FoodDemand_Crops,2065,0.0448
+India,FoodDemand_Crops,2070,0.0445
+India,FoodDemand_Crops,2075,0.0442
+India,FoodDemand_Crops,2080,0.0439
+India,FoodDemand_Crops,2085,0.0436
+India,FoodDemand_Crops,2090,0.0434
+India,FoodDemand_Crops,2095,0.0431
+India,FoodDemand_Crops,2100,0.0429
+Indonesia,FoodDemand_Crops,2015,0.0475
+Indonesia,FoodDemand_Crops,2020,0.0469
+Indonesia,FoodDemand_Crops,2025,0.0462
+Indonesia,FoodDemand_Crops,2030,0.0456
+Indonesia,FoodDemand_Crops,2035,0.0451
+Indonesia,FoodDemand_Crops,2040,0.0446
+Indonesia,FoodDemand_Crops,2045,0.0442
+Indonesia,FoodDemand_Crops,2050,0.0438
+Indonesia,FoodDemand_Crops,2055,0.0435
+Indonesia,FoodDemand_Crops,2060,0.0431
+Indonesia,FoodDemand_Crops,2065,0.0428
+Indonesia,FoodDemand_Crops,2070,0.0425
+Indonesia,FoodDemand_Crops,2075,0.0423
+Indonesia,FoodDemand_Crops,2080,0.042
+Indonesia,FoodDemand_Crops,2085,0.0418
+Indonesia,FoodDemand_Crops,2090,0.0415
+Indonesia,FoodDemand_Crops,2095,0.0413
+Indonesia,FoodDemand_Crops,2100,0.0411
+Japan,FoodDemand_Crops,2015,0.0413
+Japan,FoodDemand_Crops,2020,0.0411
+Japan,FoodDemand_Crops,2025,0.041
+Japan,FoodDemand_Crops,2030,0.0408
+Japan,FoodDemand_Crops,2035,0.0407
+Japan,FoodDemand_Crops,2040,0.0406
+Japan,FoodDemand_Crops,2045,0.0404
+Japan,FoodDemand_Crops,2050,0.0403
+Japan,FoodDemand_Crops,2055,0.0402
+Japan,FoodDemand_Crops,2060,0.04
+Japan,FoodDemand_Crops,2065,0.0399
+Japan,FoodDemand_Crops,2070,0.0398
+Japan,FoodDemand_Crops,2075,0.0396
+Japan,FoodDemand_Crops,2080,0.0395
+Japan,FoodDemand_Crops,2085,0.0393
+Japan,FoodDemand_Crops,2090,0.0392
+Japan,FoodDemand_Crops,2095,0.039
+Japan,FoodDemand_Crops,2100,0.0389
+Mexico,FoodDemand_Crops,2015,0.0449
+Mexico,FoodDemand_Crops,2020,0.0446
+Mexico,FoodDemand_Crops,2025,0.0444
+Mexico,FoodDemand_Crops,2030,0.0441
+Mexico,FoodDemand_Crops,2035,0.0438
+Mexico,FoodDemand_Crops,2040,0.0436
+Mexico,FoodDemand_Crops,2045,0.0433
+Mexico,FoodDemand_Crops,2050,0.0431
+Mexico,FoodDemand_Crops,2055,0.0428
+Mexico,FoodDemand_Crops,2060,0.0426
+Mexico,FoodDemand_Crops,2065,0.0423
+Mexico,FoodDemand_Crops,2070,0.0421
+Mexico,FoodDemand_Crops,2075,0.0418
+Mexico,FoodDemand_Crops,2080,0.0416
+Mexico,FoodDemand_Crops,2085,0.0414
+Mexico,FoodDemand_Crops,2090,0.0412
+Mexico,FoodDemand_Crops,2095,0.0409
+Mexico,FoodDemand_Crops,2100,0.0407
+Middle East,FoodDemand_Crops,2015,0.045
+Middle East,FoodDemand_Crops,2020,0.0447
+Middle East,FoodDemand_Crops,2025,0.0444
+Middle East,FoodDemand_Crops,2030,0.0441
+Middle East,FoodDemand_Crops,2035,0.0439
+Middle East,FoodDemand_Crops,2040,0.0437
+Middle East,FoodDemand_Crops,2045,0.0434
+Middle East,FoodDemand_Crops,2050,0.0433
+Middle East,FoodDemand_Crops,2055,0.0431
+Middle East,FoodDemand_Crops,2060,0.0429
+Middle East,FoodDemand_Crops,2065,0.0427
+Middle East,FoodDemand_Crops,2070,0.0425
+Middle East,FoodDemand_Crops,2075,0.0423
+Middle East,FoodDemand_Crops,2080,0.0421
+Middle East,FoodDemand_Crops,2085,0.0419
+Middle East,FoodDemand_Crops,2090,0.0418
+Middle East,FoodDemand_Crops,2095,0.0416
+Middle East,FoodDemand_Crops,2100,0.0414
+Pakistan,FoodDemand_Crops,2015,0.0504
+Pakistan,FoodDemand_Crops,2020,0.0501
+Pakistan,FoodDemand_Crops,2025,0.0498
+Pakistan,FoodDemand_Crops,2030,0.0494
+Pakistan,FoodDemand_Crops,2035,0.049
+Pakistan,FoodDemand_Crops,2040,0.0485
+Pakistan,FoodDemand_Crops,2045,0.0481
+Pakistan,FoodDemand_Crops,2050,0.0476
+Pakistan,FoodDemand_Crops,2055,0.0472
+Pakistan,FoodDemand_Crops,2060,0.0467
+Pakistan,FoodDemand_Crops,2065,0.0463
+Pakistan,FoodDemand_Crops,2070,0.0459
+Pakistan,FoodDemand_Crops,2075,0.0454
+Pakistan,FoodDemand_Crops,2080,0.0451
+Pakistan,FoodDemand_Crops,2085,0.0447
+Pakistan,FoodDemand_Crops,2090,0.0443
+Pakistan,FoodDemand_Crops,2095,0.044
+Pakistan,FoodDemand_Crops,2100,0.0437
+Russia,FoodDemand_Crops,2015,0.0445
+Russia,FoodDemand_Crops,2020,0.044
+Russia,FoodDemand_Crops,2025,0.0436
+Russia,FoodDemand_Crops,2030,0.0432
+Russia,FoodDemand_Crops,2035,0.0429
+Russia,FoodDemand_Crops,2040,0.0426
+Russia,FoodDemand_Crops,2045,0.0424
+Russia,FoodDemand_Crops,2050,0.0422
+Russia,FoodDemand_Crops,2055,0.0421
+Russia,FoodDemand_Crops,2060,0.0419
+Russia,FoodDemand_Crops,2065,0.0417
+Russia,FoodDemand_Crops,2070,0.0416
+Russia,FoodDemand_Crops,2075,0.0414
+Russia,FoodDemand_Crops,2080,0.0413
+Russia,FoodDemand_Crops,2085,0.0411
+Russia,FoodDemand_Crops,2090,0.041
+Russia,FoodDemand_Crops,2095,0.0409
+Russia,FoodDemand_Crops,2100,0.0407
+South Africa,FoodDemand_Crops,2015,0.0455
+South Africa,FoodDemand_Crops,2020,0.0451
+South Africa,FoodDemand_Crops,2025,0.0447
+South Africa,FoodDemand_Crops,2030,0.0443
+South Africa,FoodDemand_Crops,2035,0.044
+South Africa,FoodDemand_Crops,2040,0.0437
+South Africa,FoodDemand_Crops,2045,0.0434
+South Africa,FoodDemand_Crops,2050,0.0432
+South Africa,FoodDemand_Crops,2055,0.043
+South Africa,FoodDemand_Crops,2060,0.0427
+South Africa,FoodDemand_Crops,2065,0.0425
+South Africa,FoodDemand_Crops,2070,0.0423
+South Africa,FoodDemand_Crops,2075,0.0421
+South Africa,FoodDemand_Crops,2080,0.0419
+South Africa,FoodDemand_Crops,2085,0.0417
+South Africa,FoodDemand_Crops,2090,0.0415
+South Africa,FoodDemand_Crops,2095,0.0413
+South Africa,FoodDemand_Crops,2100,0.0412
+South America_Northern,FoodDemand_Crops,2015,0.0441
+South America_Northern,FoodDemand_Crops,2020,0.0438
+South America_Northern,FoodDemand_Crops,2025,0.0436
+South America_Northern,FoodDemand_Crops,2030,0.0433
+South America_Northern,FoodDemand_Crops,2035,0.0431
+South America_Northern,FoodDemand_Crops,2040,0.0428
+South America_Northern,FoodDemand_Crops,2045,0.0426
+South America_Northern,FoodDemand_Crops,2050,0.0423
+South America_Northern,FoodDemand_Crops,2055,0.0421
+South America_Northern,FoodDemand_Crops,2060,0.0418
+South America_Northern,FoodDemand_Crops,2065,0.0416
+South America_Northern,FoodDemand_Crops,2070,0.0413
+South America_Northern,FoodDemand_Crops,2075,0.0411
+South America_Northern,FoodDemand_Crops,2080,0.0409
+South America_Northern,FoodDemand_Crops,2085,0.0407
+South America_Northern,FoodDemand_Crops,2090,0.0405
+South America_Northern,FoodDemand_Crops,2095,0.0403
+South America_Northern,FoodDemand_Crops,2100,0.0401
+South America_Southern,FoodDemand_Crops,2015,0.0457
+South America_Southern,FoodDemand_Crops,2020,0.0453
+South America_Southern,FoodDemand_Crops,2025,0.0449
+South America_Southern,FoodDemand_Crops,2030,0.0445
+South America_Southern,FoodDemand_Crops,2035,0.0441
+South America_Southern,FoodDemand_Crops,2040,0.0438
+South America_Southern,FoodDemand_Crops,2045,0.0435
+South America_Southern,FoodDemand_Crops,2050,0.0432
+South America_Southern,FoodDemand_Crops,2055,0.043
+South America_Southern,FoodDemand_Crops,2060,0.0427
+South America_Southern,FoodDemand_Crops,2065,0.0424
+South America_Southern,FoodDemand_Crops,2070,0.0422
+South America_Southern,FoodDemand_Crops,2075,0.0419
+South America_Southern,FoodDemand_Crops,2080,0.0417
+South America_Southern,FoodDemand_Crops,2085,0.0414
+South America_Southern,FoodDemand_Crops,2090,0.0412
+South America_Southern,FoodDemand_Crops,2095,0.041
+South America_Southern,FoodDemand_Crops,2100,0.0408
+South Asia,FoodDemand_Crops,2015,0.0508
+South Asia,FoodDemand_Crops,2020,0.0502
+South Asia,FoodDemand_Crops,2025,0.0496
+South Asia,FoodDemand_Crops,2030,0.0491
+South Asia,FoodDemand_Crops,2035,0.0486
+South Asia,FoodDemand_Crops,2040,0.0482
+South Asia,FoodDemand_Crops,2045,0.0477
+South Asia,FoodDemand_Crops,2050,0.0473
+South Asia,FoodDemand_Crops,2055,0.0469
+South Asia,FoodDemand_Crops,2060,0.0465
+South Asia,FoodDemand_Crops,2065,0.0461
+South Asia,FoodDemand_Crops,2070,0.0457
+South Asia,FoodDemand_Crops,2075,0.0453
+South Asia,FoodDemand_Crops,2080,0.045
+South Asia,FoodDemand_Crops,2085,0.0446
+South Asia,FoodDemand_Crops,2090,0.0443
+South Asia,FoodDemand_Crops,2095,0.0439
+South Asia,FoodDemand_Crops,2100,0.0436
+South Korea,FoodDemand_Crops,2015,0.0427
+South Korea,FoodDemand_Crops,2020,0.0423
+South Korea,FoodDemand_Crops,2025,0.0419
+South Korea,FoodDemand_Crops,2030,0.0415
+South Korea,FoodDemand_Crops,2035,0.0413
+South Korea,FoodDemand_Crops,2040,0.041
+South Korea,FoodDemand_Crops,2045,0.0408
+South Korea,FoodDemand_Crops,2050,0.0406
+South Korea,FoodDemand_Crops,2055,0.0404
+South Korea,FoodDemand_Crops,2060,0.0403
+South Korea,FoodDemand_Crops,2065,0.0401
+South Korea,FoodDemand_Crops,2070,0.0399
+South Korea,FoodDemand_Crops,2075,0.0398
+South Korea,FoodDemand_Crops,2080,0.0396
+South Korea,FoodDemand_Crops,2085,0.0395
+South Korea,FoodDemand_Crops,2090,0.0394
+South Korea,FoodDemand_Crops,2095,0.0392
+South Korea,FoodDemand_Crops,2100,0.0391
+Southeast Asia,FoodDemand_Crops,2015,0.0474
+Southeast Asia,FoodDemand_Crops,2020,0.0469
+Southeast Asia,FoodDemand_Crops,2025,0.0464
+Southeast Asia,FoodDemand_Crops,2030,0.046
+Southeast Asia,FoodDemand_Crops,2035,0.0456
+Southeast Asia,FoodDemand_Crops,2040,0.0453
+Southeast Asia,FoodDemand_Crops,2045,0.0449
+Southeast Asia,FoodDemand_Crops,2050,0.0446
+Southeast Asia,FoodDemand_Crops,2055,0.0443
+Southeast Asia,FoodDemand_Crops,2060,0.044
+Southeast Asia,FoodDemand_Crops,2065,0.0437
+Southeast Asia,FoodDemand_Crops,2070,0.0434
+Southeast Asia,FoodDemand_Crops,2075,0.0431
+Southeast Asia,FoodDemand_Crops,2080,0.0428
+Southeast Asia,FoodDemand_Crops,2085,0.0426
+Southeast Asia,FoodDemand_Crops,2090,0.0424
+Southeast Asia,FoodDemand_Crops,2095,0.0421
+Southeast Asia,FoodDemand_Crops,2100,0.0419
+Argentina,FoodDemand_Crops,2015,0.0443
+Argentina,FoodDemand_Crops,2020,0.0439
+Argentina,FoodDemand_Crops,2025,0.0436
+Argentina,FoodDemand_Crops,2030,0.0433
+Argentina,FoodDemand_Crops,2035,0.043
+Argentina,FoodDemand_Crops,2040,0.0427
+Argentina,FoodDemand_Crops,2045,0.0425
+Argentina,FoodDemand_Crops,2050,0.0423
+Argentina,FoodDemand_Crops,2055,0.042
+Argentina,FoodDemand_Crops,2060,0.0418
+Argentina,FoodDemand_Crops,2065,0.0416
+Argentina,FoodDemand_Crops,2070,0.0415
+Argentina,FoodDemand_Crops,2075,0.0413
+Argentina,FoodDemand_Crops,2080,0.0411
+Argentina,FoodDemand_Crops,2085,0.0409
+Argentina,FoodDemand_Crops,2090,0.0408
+Argentina,FoodDemand_Crops,2095,0.0406
+Argentina,FoodDemand_Crops,2100,0.0405
+Colombia,FoodDemand_Crops,2015,0.0458
+Colombia,FoodDemand_Crops,2020,0.0455
+Colombia,FoodDemand_Crops,2025,0.0452
+Colombia,FoodDemand_Crops,2030,0.0449
+Colombia,FoodDemand_Crops,2035,0.0446
+Colombia,FoodDemand_Crops,2040,0.0443
+Colombia,FoodDemand_Crops,2045,0.044
+Colombia,FoodDemand_Crops,2050,0.0437
+Colombia,FoodDemand_Crops,2055,0.0435
+Colombia,FoodDemand_Crops,2060,0.0432
+Colombia,FoodDemand_Crops,2065,0.0429
+Colombia,FoodDemand_Crops,2070,0.0426
+Colombia,FoodDemand_Crops,2075,0.0424
+Colombia,FoodDemand_Crops,2080,0.0421
+Colombia,FoodDemand_Crops,2085,0.0419
+Colombia,FoodDemand_Crops,2090,0.0417
+Colombia,FoodDemand_Crops,2095,0.0414
+Colombia,FoodDemand_Crops,2100,0.0412
+USA,FoodDemand_Meat,2015,7e-4
+USA,FoodDemand_Meat,2020,6e-4
+USA,FoodDemand_Meat,2025,5e-4
+USA,FoodDemand_Meat,2030,4e-4
+USA,FoodDemand_Meat,2035,4e-4
+USA,FoodDemand_Meat,2040,3e-4
+USA,FoodDemand_Meat,2045,3e-4
+USA,FoodDemand_Meat,2050,3e-4
+USA,FoodDemand_Meat,2055,3e-4
+USA,FoodDemand_Meat,2060,2e-4
+USA,FoodDemand_Meat,2065,2e-4
+USA,FoodDemand_Meat,2070,2e-4
+USA,FoodDemand_Meat,2075,2e-4
+USA,FoodDemand_Meat,2080,2e-4
+USA,FoodDemand_Meat,2085,2e-4
+USA,FoodDemand_Meat,2090,2e-4
+USA,FoodDemand_Meat,2095,1e-4
+USA,FoodDemand_Meat,2100,1e-4
+Africa_Eastern,FoodDemand_Meat,2015,1
+Africa_Eastern,FoodDemand_Meat,2020,0.474
+Africa_Eastern,FoodDemand_Meat,2025,0.5034
+Africa_Eastern,FoodDemand_Meat,2030,0.4897
+Africa_Eastern,FoodDemand_Meat,2035,0.4917
+Africa_Eastern,FoodDemand_Meat,2040,0.4675
+Africa_Eastern,FoodDemand_Meat,2045,0.4535
+Africa_Eastern,FoodDemand_Meat,2050,0.4488
+Africa_Eastern,FoodDemand_Meat,2055,0.4494
+Africa_Eastern,FoodDemand_Meat,2060,0.4542
+Africa_Eastern,FoodDemand_Meat,2065,0.4633
+Africa_Eastern,FoodDemand_Meat,2070,0.4769
+Africa_Eastern,FoodDemand_Meat,2075,0.4954
+Africa_Eastern,FoodDemand_Meat,2080,0.5173
+Africa_Eastern,FoodDemand_Meat,2085,0.5412
+Africa_Eastern,FoodDemand_Meat,2090,0.5666
+Africa_Eastern,FoodDemand_Meat,2095,0.5951
+Africa_Eastern,FoodDemand_Meat,2100,0.627
+Africa_Northern,FoodDemand_Meat,2015,0.2516
+Africa_Northern,FoodDemand_Meat,2020,0.184
+Africa_Northern,FoodDemand_Meat,2025,0.1206
+Africa_Northern,FoodDemand_Meat,2030,0.0796
+Africa_Northern,FoodDemand_Meat,2035,0.054
+Africa_Northern,FoodDemand_Meat,2040,0.0378
+Africa_Northern,FoodDemand_Meat,2045,0.027
+Africa_Northern,FoodDemand_Meat,2050,0.0197
+Africa_Northern,FoodDemand_Meat,2055,0.0145
+Africa_Northern,FoodDemand_Meat,2060,0.0108
+Africa_Northern,FoodDemand_Meat,2065,0.0081
+Africa_Northern,FoodDemand_Meat,2070,0.0061
+Africa_Northern,FoodDemand_Meat,2075,0.0047
+Africa_Northern,FoodDemand_Meat,2080,0.0037
+Africa_Northern,FoodDemand_Meat,2085,0.0029
+Africa_Northern,FoodDemand_Meat,2090,0.0023
+Africa_Northern,FoodDemand_Meat,2095,0.0019
+Africa_Northern,FoodDemand_Meat,2100,0.0015
+Africa_Southern,FoodDemand_Meat,2015,1
+Africa_Southern,FoodDemand_Meat,2020,0.5401
+Africa_Southern,FoodDemand_Meat,2025,0.6847
+Africa_Southern,FoodDemand_Meat,2030,0.7322
+Africa_Southern,FoodDemand_Meat,2035,0.7574
+Africa_Southern,FoodDemand_Meat,2040,0.6536
+Africa_Southern,FoodDemand_Meat,2045,0.463
+Africa_Southern,FoodDemand_Meat,2050,0.2022
+Africa_Southern,FoodDemand_Meat,2055,0.1341
+Africa_Southern,FoodDemand_Meat,2060,0.0869
+Africa_Southern,FoodDemand_Meat,2065,0.0558
+Africa_Southern,FoodDemand_Meat,2070,0.0358
+Africa_Southern,FoodDemand_Meat,2075,0.0232
+Africa_Southern,FoodDemand_Meat,2080,0.0152
+Africa_Southern,FoodDemand_Meat,2085,0.0101
+Africa_Southern,FoodDemand_Meat,2090,0.0068
+Africa_Southern,FoodDemand_Meat,2095,0.0047
+Africa_Southern,FoodDemand_Meat,2100,0.0033
+Africa_Western,FoodDemand_Meat,2015,1
+Africa_Western,FoodDemand_Meat,2020,0.5097
+Africa_Western,FoodDemand_Meat,2025,0.4698
+Africa_Western,FoodDemand_Meat,2030,0.4734
+Africa_Western,FoodDemand_Meat,2035,0.4935
+Africa_Western,FoodDemand_Meat,2040,0.4885
+Africa_Western,FoodDemand_Meat,2045,0.2087
+Africa_Western,FoodDemand_Meat,2050,0.0836
+Africa_Western,FoodDemand_Meat,2055,0.0527
+Africa_Western,FoodDemand_Meat,2060,0.0331
+Africa_Western,FoodDemand_Meat,2065,0.0208
+Africa_Western,FoodDemand_Meat,2070,0.0133
+Africa_Western,FoodDemand_Meat,2075,0.0086
+Africa_Western,FoodDemand_Meat,2080,0.0057
+Africa_Western,FoodDemand_Meat,2085,0.0038
+Africa_Western,FoodDemand_Meat,2090,0.0026
+Africa_Western,FoodDemand_Meat,2095,0.0018
+Africa_Western,FoodDemand_Meat,2100,0.0013
+Australia_NZ,FoodDemand_Meat,2015,7e-4
+Australia_NZ,FoodDemand_Meat,2020,6e-4
+Australia_NZ,FoodDemand_Meat,2025,5e-4
+Australia_NZ,FoodDemand_Meat,2030,4e-4
+Australia_NZ,FoodDemand_Meat,2035,4e-4
+Australia_NZ,FoodDemand_Meat,2040,3e-4
+Australia_NZ,FoodDemand_Meat,2045,3e-4
+Australia_NZ,FoodDemand_Meat,2050,2e-4
+Australia_NZ,FoodDemand_Meat,2055,2e-4
+Australia_NZ,FoodDemand_Meat,2060,2e-4
+Australia_NZ,FoodDemand_Meat,2065,2e-4
+Australia_NZ,FoodDemand_Meat,2070,2e-4
+Australia_NZ,FoodDemand_Meat,2075,1e-4
+Australia_NZ,FoodDemand_Meat,2080,1e-4
+Australia_NZ,FoodDemand_Meat,2085,1e-4
+Australia_NZ,FoodDemand_Meat,2090,1e-4
+Australia_NZ,FoodDemand_Meat,2095,1e-4
+Australia_NZ,FoodDemand_Meat,2100,1e-4
+Brazil,FoodDemand_Meat,2015,0.0204
+Brazil,FoodDemand_Meat,2020,0.0148
+Brazil,FoodDemand_Meat,2025,0.0106
+Brazil,FoodDemand_Meat,2030,0.008
+Brazil,FoodDemand_Meat,2035,0.0064
+Brazil,FoodDemand_Meat,2040,0.0051
+Brazil,FoodDemand_Meat,2045,0.0042
+Brazil,FoodDemand_Meat,2050,0.0034
+Brazil,FoodDemand_Meat,2055,0.0028
+Brazil,FoodDemand_Meat,2060,0.0023
+Brazil,FoodDemand_Meat,2065,0.0019
+Brazil,FoodDemand_Meat,2070,0.0016
+Brazil,FoodDemand_Meat,2075,0.0013
+Brazil,FoodDemand_Meat,2080,0.0011
+Brazil,FoodDemand_Meat,2085,9e-4
+Brazil,FoodDemand_Meat,2090,7e-4
+Brazil,FoodDemand_Meat,2095,6e-4
+Brazil,FoodDemand_Meat,2100,5e-4
+Canada,FoodDemand_Meat,2015,7e-4
+Canada,FoodDemand_Meat,2020,6e-4
+Canada,FoodDemand_Meat,2025,6e-4
+Canada,FoodDemand_Meat,2030,5e-4
+Canada,FoodDemand_Meat,2035,4e-4
+Canada,FoodDemand_Meat,2040,4e-4
+Canada,FoodDemand_Meat,2045,3e-4
+Canada,FoodDemand_Meat,2050,3e-4
+Canada,FoodDemand_Meat,2055,3e-4
+Canada,FoodDemand_Meat,2060,2e-4
+Canada,FoodDemand_Meat,2065,2e-4
+Canada,FoodDemand_Meat,2070,2e-4
+Canada,FoodDemand_Meat,2075,2e-4
+Canada,FoodDemand_Meat,2080,1e-4
+Canada,FoodDemand_Meat,2085,1e-4
+Canada,FoodDemand_Meat,2090,1e-4
+Canada,FoodDemand_Meat,2095,1e-4
+Canada,FoodDemand_Meat,2100,1e-4
+Central America and Caribbean,FoodDemand_Meat,2015,0.1783
+Central America and Caribbean,FoodDemand_Meat,2020,0.1338
+Central America and Caribbean,FoodDemand_Meat,2025,0.0987
+Central America and Caribbean,FoodDemand_Meat,2030,0.0725
+Central America and Caribbean,FoodDemand_Meat,2035,0.0536
+Central America and Caribbean,FoodDemand_Meat,2040,0.0396
+Central America and Caribbean,FoodDemand_Meat,2045,0.0291
+Central America and Caribbean,FoodDemand_Meat,2050,0.0214
+Central America and Caribbean,FoodDemand_Meat,2055,0.0157
+Central America and Caribbean,FoodDemand_Meat,2060,0.0116
+Central America and Caribbean,FoodDemand_Meat,2065,0.0086
+Central America and Caribbean,FoodDemand_Meat,2070,0.0064
+Central America and Caribbean,FoodDemand_Meat,2075,0.0048
+Central America and Caribbean,FoodDemand_Meat,2080,0.0036
+Central America and Caribbean,FoodDemand_Meat,2085,0.0027
+Central America and Caribbean,FoodDemand_Meat,2090,0.0021
+Central America and Caribbean,FoodDemand_Meat,2095,0.0016
+Central America and Caribbean,FoodDemand_Meat,2100,0.0012
+Central Asia,FoodDemand_Meat,2015,0.1987
+Central Asia,FoodDemand_Meat,2020,0.1187
+Central Asia,FoodDemand_Meat,2025,0.0703
+Central Asia,FoodDemand_Meat,2030,0.0436
+Central Asia,FoodDemand_Meat,2035,0.0293
+Central Asia,FoodDemand_Meat,2040,0.021
+Central Asia,FoodDemand_Meat,2045,0.0159
+Central Asia,FoodDemand_Meat,2050,0.0126
+Central Asia,FoodDemand_Meat,2055,0.0103
+Central Asia,FoodDemand_Meat,2060,0.0084
+Central Asia,FoodDemand_Meat,2065,0.0069
+Central Asia,FoodDemand_Meat,2070,0.0056
+Central Asia,FoodDemand_Meat,2075,0.0046
+Central Asia,FoodDemand_Meat,2080,0.0038
+Central Asia,FoodDemand_Meat,2085,0.0032
+Central Asia,FoodDemand_Meat,2090,0.0027
+Central Asia,FoodDemand_Meat,2095,0.0022
+Central Asia,FoodDemand_Meat,2100,0.0019
+China,FoodDemand_Meat,2015,0.1103
+China,FoodDemand_Meat,2020,0.0469
+China,FoodDemand_Meat,2025,0.0221
+China,FoodDemand_Meat,2030,0.0125
+China,FoodDemand_Meat,2035,0.0081
+China,FoodDemand_Meat,2040,0.0058
+China,FoodDemand_Meat,2045,0.0044
+China,FoodDemand_Meat,2050,0.0034
+China,FoodDemand_Meat,2055,0.0028
+China,FoodDemand_Meat,2060,0.0023
+China,FoodDemand_Meat,2065,0.0019
+China,FoodDemand_Meat,2070,0.0016
+China,FoodDemand_Meat,2075,0.0014
+China,FoodDemand_Meat,2080,0.0012
+China,FoodDemand_Meat,2085,0.0011
+China,FoodDemand_Meat,2090,9e-4
+China,FoodDemand_Meat,2095,8e-4
+China,FoodDemand_Meat,2100,7e-4
+EU-12,FoodDemand_Meat,2015,0.0162
+EU-12,FoodDemand_Meat,2020,0.0117
+EU-12,FoodDemand_Meat,2025,0.0083
+EU-12,FoodDemand_Meat,2030,0.0062
+EU-12,FoodDemand_Meat,2035,0.0046
+EU-12,FoodDemand_Meat,2040,0.0036
+EU-12,FoodDemand_Meat,2045,0.0029
+EU-12,FoodDemand_Meat,2050,0.0023
+EU-12,FoodDemand_Meat,2055,0.0019
+EU-12,FoodDemand_Meat,2060,0.0016
+EU-12,FoodDemand_Meat,2065,0.0013
+EU-12,FoodDemand_Meat,2070,0.0011
+EU-12,FoodDemand_Meat,2075,9e-4
+EU-12,FoodDemand_Meat,2080,8e-4
+EU-12,FoodDemand_Meat,2085,6e-4
+EU-12,FoodDemand_Meat,2090,5e-4
+EU-12,FoodDemand_Meat,2095,5e-4
+EU-12,FoodDemand_Meat,2100,4e-4
+EU-15,FoodDemand_Meat,2015,0.0013
+EU-15,FoodDemand_Meat,2020,0.0011
+EU-15,FoodDemand_Meat,2025,0.001
+EU-15,FoodDemand_Meat,2030,8e-4
+EU-15,FoodDemand_Meat,2035,7e-4
+EU-15,FoodDemand_Meat,2040,6e-4
+EU-15,FoodDemand_Meat,2045,5e-4
+EU-15,FoodDemand_Meat,2050,5e-4
+EU-15,FoodDemand_Meat,2055,4e-4
+EU-15,FoodDemand_Meat,2060,3e-4
+EU-15,FoodDemand_Meat,2065,3e-4
+EU-15,FoodDemand_Meat,2070,3e-4
+EU-15,FoodDemand_Meat,2075,2e-4
+EU-15,FoodDemand_Meat,2080,2e-4
+EU-15,FoodDemand_Meat,2085,2e-4
+EU-15,FoodDemand_Meat,2090,1e-4
+EU-15,FoodDemand_Meat,2095,1e-4
+EU-15,FoodDemand_Meat,2100,1e-4
+Europe_Eastern,FoodDemand_Meat,2015,0.2535
+Europe_Eastern,FoodDemand_Meat,2020,0.162
+Europe_Eastern,FoodDemand_Meat,2025,0.1041
+Europe_Eastern,FoodDemand_Meat,2030,0.0681
+Europe_Eastern,FoodDemand_Meat,2035,0.046
+Europe_Eastern,FoodDemand_Meat,2040,0.0323
+Europe_Eastern,FoodDemand_Meat,2045,0.0236
+Europe_Eastern,FoodDemand_Meat,2050,0.0179
+Europe_Eastern,FoodDemand_Meat,2055,0.0139
+Europe_Eastern,FoodDemand_Meat,2060,0.0107
+Europe_Eastern,FoodDemand_Meat,2065,0.0083
+Europe_Eastern,FoodDemand_Meat,2070,0.0065
+Europe_Eastern,FoodDemand_Meat,2075,0.0051
+Europe_Eastern,FoodDemand_Meat,2080,0.0041
+Europe_Eastern,FoodDemand_Meat,2085,0.0034
+Europe_Eastern,FoodDemand_Meat,2090,0.0028
+Europe_Eastern,FoodDemand_Meat,2095,0.0023
+Europe_Eastern,FoodDemand_Meat,2100,0.0019
+Europe_Non_EU,FoodDemand_Meat,2015,0.0314
+Europe_Non_EU,FoodDemand_Meat,2020,0.0219
+Europe_Non_EU,FoodDemand_Meat,2025,0.0155
+Europe_Non_EU,FoodDemand_Meat,2030,0.0115
+Europe_Non_EU,FoodDemand_Meat,2035,0.0088
+Europe_Non_EU,FoodDemand_Meat,2040,0.0068
+Europe_Non_EU,FoodDemand_Meat,2045,0.0054
+Europe_Non_EU,FoodDemand_Meat,2050,0.0043
+Europe_Non_EU,FoodDemand_Meat,2055,0.0035
+Europe_Non_EU,FoodDemand_Meat,2060,0.0028
+Europe_Non_EU,FoodDemand_Meat,2065,0.0023
+Europe_Non_EU,FoodDemand_Meat,2070,0.0019
+Europe_Non_EU,FoodDemand_Meat,2075,0.0015
+Europe_Non_EU,FoodDemand_Meat,2080,0.0013
+Europe_Non_EU,FoodDemand_Meat,2085,0.0011
+Europe_Non_EU,FoodDemand_Meat,2090,9e-4
+Europe_Non_EU,FoodDemand_Meat,2095,8e-4
+Europe_Non_EU,FoodDemand_Meat,2100,6e-4
+European Free Trade Association,FoodDemand_Meat,2015,2e-4
+European Free Trade Association,FoodDemand_Meat,2020,2e-4
+European Free Trade Association,FoodDemand_Meat,2025,2e-4
+European Free Trade Association,FoodDemand_Meat,2030,2e-4
+European Free Trade Association,FoodDemand_Meat,2035,2e-4
+European Free Trade Association,FoodDemand_Meat,2040,1e-4
+European Free Trade Association,FoodDemand_Meat,2045,1e-4
+European Free Trade Association,FoodDemand_Meat,2050,1e-4
+European Free Trade Association,FoodDemand_Meat,2055,1e-4
+European Free Trade Association,FoodDemand_Meat,2060,1e-4
+European Free Trade Association,FoodDemand_Meat,2065,1e-4
+European Free Trade Association,FoodDemand_Meat,2070,1e-4
+European Free Trade Association,FoodDemand_Meat,2075,1e-4
+European Free Trade Association,FoodDemand_Meat,2080,0
+European Free Trade Association,FoodDemand_Meat,2085,0
+European Free Trade Association,FoodDemand_Meat,2090,0
+European Free Trade Association,FoodDemand_Meat,2095,0
+European Free Trade Association,FoodDemand_Meat,2100,0
+India,FoodDemand_Meat,2015,1
+India,FoodDemand_Meat,2020,0.3673
+India,FoodDemand_Meat,2025,0.4
+India,FoodDemand_Meat,2030,0.4578
+India,FoodDemand_Meat,2035,0.5143
+India,FoodDemand_Meat,2040,0.408
+India,FoodDemand_Meat,2045,0.0981
+India,FoodDemand_Meat,2050,0.0689
+India,FoodDemand_Meat,2055,0.0493
+India,FoodDemand_Meat,2060,0.0358
+India,FoodDemand_Meat,2065,0.0263
+India,FoodDemand_Meat,2070,0.0196
+India,FoodDemand_Meat,2075,0.0148
+India,FoodDemand_Meat,2080,0.0114
+India,FoodDemand_Meat,2085,0.0089
+India,FoodDemand_Meat,2090,0.007
+India,FoodDemand_Meat,2095,0.0055
+India,FoodDemand_Meat,2100,0.0044
+Indonesia,FoodDemand_Meat,2015,0.3155
+Indonesia,FoodDemand_Meat,2020,0.18
+Indonesia,FoodDemand_Meat,2025,0.0988
+Indonesia,FoodDemand_Meat,2030,0.0567
+Indonesia,FoodDemand_Meat,2035,0.0349
+Indonesia,FoodDemand_Meat,2040,0.0226
+Indonesia,FoodDemand_Meat,2045,0.0151
+Indonesia,FoodDemand_Meat,2050,0.0105
+Indonesia,FoodDemand_Meat,2055,0.0075
+Indonesia,FoodDemand_Meat,2060,0.0055
+Indonesia,FoodDemand_Meat,2065,0.0041
+Indonesia,FoodDemand_Meat,2070,0.0031
+Indonesia,FoodDemand_Meat,2075,0.0024
+Indonesia,FoodDemand_Meat,2080,0.0019
+Indonesia,FoodDemand_Meat,2085,0.0015
+Indonesia,FoodDemand_Meat,2090,0.0012
+Indonesia,FoodDemand_Meat,2095,0.001
+Indonesia,FoodDemand_Meat,2100,8e-4
+Japan,FoodDemand_Meat,2015,9e-4
+Japan,FoodDemand_Meat,2020,8e-4
+Japan,FoodDemand_Meat,2025,7e-4
+Japan,FoodDemand_Meat,2030,6e-4
+Japan,FoodDemand_Meat,2035,5e-4
+Japan,FoodDemand_Meat,2040,5e-4
+Japan,FoodDemand_Meat,2045,4e-4
+Japan,FoodDemand_Meat,2050,4e-4
+Japan,FoodDemand_Meat,2055,3e-4
+Japan,FoodDemand_Meat,2060,3e-4
+Japan,FoodDemand_Meat,2065,2e-4
+Japan,FoodDemand_Meat,2070,2e-4
+Japan,FoodDemand_Meat,2075,2e-4
+Japan,FoodDemand_Meat,2080,2e-4
+Japan,FoodDemand_Meat,2085,1e-4
+Japan,FoodDemand_Meat,2090,1e-4
+Japan,FoodDemand_Meat,2095,1e-4
+Japan,FoodDemand_Meat,2100,1e-4
+Mexico,FoodDemand_Meat,2015,0.0302
+Mexico,FoodDemand_Meat,2020,0.0233
+Mexico,FoodDemand_Meat,2025,0.018
+Mexico,FoodDemand_Meat,2030,0.014
+Mexico,FoodDemand_Meat,2035,0.0109
+Mexico,FoodDemand_Meat,2040,0.0085
+Mexico,FoodDemand_Meat,2045,0.0067
+Mexico,FoodDemand_Meat,2050,0.0053
+Mexico,FoodDemand_Meat,2055,0.0041
+Mexico,FoodDemand_Meat,2060,0.0032
+Mexico,FoodDemand_Meat,2065,0.0025
+Mexico,FoodDemand_Meat,2070,0.002
+Mexico,FoodDemand_Meat,2075,0.0016
+Mexico,FoodDemand_Meat,2080,0.0013
+Mexico,FoodDemand_Meat,2085,0.001
+Mexico,FoodDemand_Meat,2090,8e-4
+Mexico,FoodDemand_Meat,2095,7e-4
+Mexico,FoodDemand_Meat,2100,5e-4
+Middle East,FoodDemand_Meat,2015,0.0313
+Middle East,FoodDemand_Meat,2020,0.024
+Middle East,FoodDemand_Meat,2025,0.0184
+Middle East,FoodDemand_Meat,2030,0.0142
+Middle East,FoodDemand_Meat,2035,0.0112
+Middle East,FoodDemand_Meat,2040,0.0091
+Middle East,FoodDemand_Meat,2045,0.0074
+Middle East,FoodDemand_Meat,2050,0.0062
+Middle East,FoodDemand_Meat,2055,0.0053
+Middle East,FoodDemand_Meat,2060,0.0044
+Middle East,FoodDemand_Meat,2065,0.0037
+Middle East,FoodDemand_Meat,2070,0.0031
+Middle East,FoodDemand_Meat,2075,0.0025
+Middle East,FoodDemand_Meat,2080,0.0021
+Middle East,FoodDemand_Meat,2085,0.0018
+Middle East,FoodDemand_Meat,2090,0.0015
+Middle East,FoodDemand_Meat,2095,0.0012
+Middle East,FoodDemand_Meat,2100,0.001
+Pakistan,FoodDemand_Meat,2015,1
+Pakistan,FoodDemand_Meat,2020,0.8466
+Pakistan,FoodDemand_Meat,2025,0.6398
+Pakistan,FoodDemand_Meat,2030,0.5745
+Pakistan,FoodDemand_Meat,2035,0.5467
+Pakistan,FoodDemand_Meat,2040,0.5267
+Pakistan,FoodDemand_Meat,2045,0.527
+Pakistan,FoodDemand_Meat,2050,0.5371
+Pakistan,FoodDemand_Meat,2055,0.5438
+Pakistan,FoodDemand_Meat,2060,0.5503
+Pakistan,FoodDemand_Meat,2065,0.5595
+Pakistan,FoodDemand_Meat,2070,0.5106
+Pakistan,FoodDemand_Meat,2075,0
+Pakistan,FoodDemand_Meat,2080,0
+Pakistan,FoodDemand_Meat,2085,0
+Pakistan,FoodDemand_Meat,2090,0
+Pakistan,FoodDemand_Meat,2095,0
+Pakistan,FoodDemand_Meat,2100,0
+Russia,FoodDemand_Meat,2015,0.0201
+Russia,FoodDemand_Meat,2020,0.013
+Russia,FoodDemand_Meat,2025,0.0086
+Russia,FoodDemand_Meat,2030,0.0059
+Russia,FoodDemand_Meat,2035,0.0043
+Russia,FoodDemand_Meat,2040,0.0033
+Russia,FoodDemand_Meat,2045,0.0026
+Russia,FoodDemand_Meat,2050,0.0022
+Russia,FoodDemand_Meat,2055,0.002
+Russia,FoodDemand_Meat,2060,0.0017
+Russia,FoodDemand_Meat,2065,0.0014
+Russia,FoodDemand_Meat,2070,0.0012
+Russia,FoodDemand_Meat,2075,0.001
+Russia,FoodDemand_Meat,2080,9e-4
+Russia,FoodDemand_Meat,2085,8e-4
+Russia,FoodDemand_Meat,2090,7e-4
+Russia,FoodDemand_Meat,2095,6e-4
+Russia,FoodDemand_Meat,2100,5e-4
+South Africa,FoodDemand_Meat,2015,0.051
+South Africa,FoodDemand_Meat,2020,0.0359
+South Africa,FoodDemand_Meat,2025,0.0245
+South Africa,FoodDemand_Meat,2030,0.0174
+South Africa,FoodDemand_Meat,2035,0.0127
+South Africa,FoodDemand_Meat,2040,0.0096
+South Africa,FoodDemand_Meat,2045,0.0074
+South Africa,FoodDemand_Meat,2050,0.0058
+South Africa,FoodDemand_Meat,2055,0.0046
+South Africa,FoodDemand_Meat,2060,0.0037
+South Africa,FoodDemand_Meat,2065,0.003
+South Africa,FoodDemand_Meat,2070,0.0024
+South Africa,FoodDemand_Meat,2075,0.002
+South Africa,FoodDemand_Meat,2080,0.0017
+South Africa,FoodDemand_Meat,2085,0.0014
+South Africa,FoodDemand_Meat,2090,0.0011
+South Africa,FoodDemand_Meat,2095,0.001
+South Africa,FoodDemand_Meat,2100,8e-4
+South America_Northern,FoodDemand_Meat,2015,0.0136
+South America_Northern,FoodDemand_Meat,2020,0.0107
+South America_Northern,FoodDemand_Meat,2025,0.0086
+South America_Northern,FoodDemand_Meat,2030,0.0067
+South America_Northern,FoodDemand_Meat,2035,0.0052
+South America_Northern,FoodDemand_Meat,2040,0.0041
+South America_Northern,FoodDemand_Meat,2045,0.0032
+South America_Northern,FoodDemand_Meat,2050,0.0025
+South America_Northern,FoodDemand_Meat,2055,0.002
+South America_Northern,FoodDemand_Meat,2060,0.0016
+South America_Northern,FoodDemand_Meat,2065,0.0012
+South America_Northern,FoodDemand_Meat,2070,0.001
+South America_Northern,FoodDemand_Meat,2075,8e-4
+South America_Northern,FoodDemand_Meat,2080,6e-4
+South America_Northern,FoodDemand_Meat,2085,5e-4
+South America_Northern,FoodDemand_Meat,2090,4e-4
+South America_Northern,FoodDemand_Meat,2095,3e-4
+South America_Northern,FoodDemand_Meat,2100,3e-4
+South America_Southern,FoodDemand_Meat,2015,0.065
+South America_Southern,FoodDemand_Meat,2020,0.0424
+South America_Southern,FoodDemand_Meat,2025,0.0285
+South America_Southern,FoodDemand_Meat,2030,0.02
+South America_Southern,FoodDemand_Meat,2035,0.0145
+South America_Southern,FoodDemand_Meat,2040,0.0108
+South America_Southern,FoodDemand_Meat,2045,0.0081
+South America_Southern,FoodDemand_Meat,2050,0.0061
+South America_Southern,FoodDemand_Meat,2055,0.0047
+South America_Southern,FoodDemand_Meat,2060,0.0036
+South America_Southern,FoodDemand_Meat,2065,0.0028
+South America_Southern,FoodDemand_Meat,2070,0.0022
+South America_Southern,FoodDemand_Meat,2075,0.0017
+South America_Southern,FoodDemand_Meat,2080,0.0014
+South America_Southern,FoodDemand_Meat,2085,0.0011
+South America_Southern,FoodDemand_Meat,2090,9e-4
+South America_Southern,FoodDemand_Meat,2095,7e-4
+South America_Southern,FoodDemand_Meat,2100,6e-4
+South Asia,FoodDemand_Meat,2015,1
+South Asia,FoodDemand_Meat,2020,0.3971
+South Asia,FoodDemand_Meat,2025,0.4349
+South Asia,FoodDemand_Meat,2030,0.4905
+South Asia,FoodDemand_Meat,2035,0.5473
+South Asia,FoodDemand_Meat,2040,0.5606
+South Asia,FoodDemand_Meat,2045,0.5773
+South Asia,FoodDemand_Meat,2050,0.5898
+South Asia,FoodDemand_Meat,2055,0.596
+South Asia,FoodDemand_Meat,2060,0.5997
+South Asia,FoodDemand_Meat,2065,0.6105
+South Asia,FoodDemand_Meat,2070,0.6245
+South Asia,FoodDemand_Meat,2075,0.6377
+South Asia,FoodDemand_Meat,2080,0.4046
+South Asia,FoodDemand_Meat,2085,0.0224
+South Asia,FoodDemand_Meat,2090,0.0161
+South Asia,FoodDemand_Meat,2095,0.0116
+South Asia,FoodDemand_Meat,2100,0.0085
+South Korea,FoodDemand_Meat,2015,0.0036
+South Korea,FoodDemand_Meat,2020,0.0024
+South Korea,FoodDemand_Meat,2025,0.0017
+South Korea,FoodDemand_Meat,2030,0.0012
+South Korea,FoodDemand_Meat,2035,9e-4
+South Korea,FoodDemand_Meat,2040,7e-4
+South Korea,FoodDemand_Meat,2045,6e-4
+South Korea,FoodDemand_Meat,2050,5e-4
+South Korea,FoodDemand_Meat,2055,4e-4
+South Korea,FoodDemand_Meat,2060,3e-4
+South Korea,FoodDemand_Meat,2065,3e-4
+South Korea,FoodDemand_Meat,2070,3e-4
+South Korea,FoodDemand_Meat,2075,2e-4
+South Korea,FoodDemand_Meat,2080,2e-4
+South Korea,FoodDemand_Meat,2085,2e-4
+South Korea,FoodDemand_Meat,2090,1e-4
+South Korea,FoodDemand_Meat,2095,1e-4
+South Korea,FoodDemand_Meat,2100,1e-4
+Southeast Asia,FoodDemand_Meat,2015,0.2771
+Southeast Asia,FoodDemand_Meat,2020,0.1867
+Southeast Asia,FoodDemand_Meat,2025,0.1231
+Southeast Asia,FoodDemand_Meat,2030,0.0836
+Southeast Asia,FoodDemand_Meat,2035,0.0586
+Southeast Asia,FoodDemand_Meat,2040,0.0419
+Southeast Asia,FoodDemand_Meat,2045,0.0304
+Southeast Asia,FoodDemand_Meat,2050,0.0222
+Southeast Asia,FoodDemand_Meat,2055,0.0165
+Southeast Asia,FoodDemand_Meat,2060,0.0123
+Southeast Asia,FoodDemand_Meat,2065,0.0093
+Southeast Asia,FoodDemand_Meat,2070,0.0071
+Southeast Asia,FoodDemand_Meat,2075,0.0054
+Southeast Asia,FoodDemand_Meat,2080,0.0042
+Southeast Asia,FoodDemand_Meat,2085,0.0033
+Southeast Asia,FoodDemand_Meat,2090,0.0026
+Southeast Asia,FoodDemand_Meat,2095,0.0021
+Southeast Asia,FoodDemand_Meat,2100,0.0017
+Argentina,FoodDemand_Meat,2015,0.0173
+Argentina,FoodDemand_Meat,2020,0.0119
+Argentina,FoodDemand_Meat,2025,0.0085
+Argentina,FoodDemand_Meat,2030,0.0063
+Argentina,FoodDemand_Meat,2035,0.0047
+Argentina,FoodDemand_Meat,2040,0.0037
+Argentina,FoodDemand_Meat,2045,0.0029
+Argentina,FoodDemand_Meat,2050,0.0024
+Argentina,FoodDemand_Meat,2055,0.0019
+Argentina,FoodDemand_Meat,2060,0.0016
+Argentina,FoodDemand_Meat,2065,0.0013
+Argentina,FoodDemand_Meat,2070,0.0011
+Argentina,FoodDemand_Meat,2075,9e-4
+Argentina,FoodDemand_Meat,2080,8e-4
+Argentina,FoodDemand_Meat,2085,7e-4
+Argentina,FoodDemand_Meat,2090,6e-4
+Argentina,FoodDemand_Meat,2095,5e-4
+Argentina,FoodDemand_Meat,2100,4e-4
+Colombia,FoodDemand_Meat,2015,0.0712
+Colombia,FoodDemand_Meat,2020,0.0501
+Colombia,FoodDemand_Meat,2025,0.0376
+Colombia,FoodDemand_Meat,2030,0.0292
+Colombia,FoodDemand_Meat,2035,0.0223
+Colombia,FoodDemand_Meat,2040,0.017
+Colombia,FoodDemand_Meat,2045,0.0129
+Colombia,FoodDemand_Meat,2050,0.0099
+Colombia,FoodDemand_Meat,2055,0.0076
+Colombia,FoodDemand_Meat,2060,0.0058
+Colombia,FoodDemand_Meat,2065,0.0045
+Colombia,FoodDemand_Meat,2070,0.0035
+Colombia,FoodDemand_Meat,2075,0.0027
+Colombia,FoodDemand_Meat,2080,0.0021
+Colombia,FoodDemand_Meat,2085,0.0017
+Colombia,FoodDemand_Meat,2090,0.0013
+Colombia,FoodDemand_Meat,2095,0.0011
+Colombia,FoodDemand_Meat,2100,9e-4

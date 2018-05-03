@@ -1,0 +1,288 @@
+# A21.sector written to all regions
+# removed regions with no agricultural and land use sector
+region,supplysector,output.unit,input.unit,price.unit,logit.year.fillout,logit.exponent,logit.type
+USA,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Eastern,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Northern,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Southern,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Western,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Australia_NZ,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Brazil,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Canada,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Central America and Caribbean,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Central Asia,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+China,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+EU-12,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+EU-15,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Eastern,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Non_EU,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+European Free Trade Association,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+India,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Indonesia,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Japan,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Mexico,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Middle East,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Pakistan,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Russia,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+South Africa,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+South America_Northern,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+South America_Southern,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+South Asia,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+South Korea,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Southeast Asia,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Taiwan,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Argentina,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+Colombia,regional biomass,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Eastern,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Northern,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Southern,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Western,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Australia_NZ,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Brazil,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Canada,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Central America and Caribbean,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Central Asia,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+China,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+EU-12,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+EU-15,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Eastern,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Non_EU,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+European Free Trade Association,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+India,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Indonesia,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Japan,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Mexico,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Middle East,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Pakistan,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Russia,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+South Africa,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+South America_Northern,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+South America_Southern,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+South Asia,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+South Korea,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Southeast Asia,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Taiwan,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Argentina,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+Colombia,regional coal,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Eastern,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Northern,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Southern,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Western,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Australia_NZ,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Brazil,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Canada,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Central America and Caribbean,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Central Asia,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+China,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+EU-12,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+EU-15,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Eastern,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Non_EU,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+European Free Trade Association,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+India,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Indonesia,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Japan,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Mexico,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Middle East,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Pakistan,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Russia,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+South Africa,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+South America_Northern,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+South America_Southern,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+South Asia,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+South Korea,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Southeast Asia,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Taiwan,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Argentina,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+Colombia,regional natural gas,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Eastern,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Northern,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Southern,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Western,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Australia_NZ,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Brazil,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Canada,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Central America and Caribbean,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Central Asia,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+China,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+EU-12,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+EU-15,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Eastern,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Non_EU,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+European Free Trade Association,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+India,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Indonesia,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Japan,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Mexico,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Middle East,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Pakistan,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Russia,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+South Africa,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+South America_Northern,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+South America_Southern,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+South Asia,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+South Korea,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Southeast Asia,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Taiwan,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Argentina,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+Colombia,unconventional oil production,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Africa_Eastern,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Africa_Northern,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Africa_Southern,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Africa_Western,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Australia_NZ,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Brazil,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Canada,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Central America and Caribbean,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Central Asia,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+China,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+EU-12,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+EU-15,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Europe_Eastern,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Europe_Non_EU,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+European Free Trade Association,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+India,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Indonesia,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Japan,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Mexico,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Middle East,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Pakistan,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Russia,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+South Africa,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+South America_Northern,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+South America_Southern,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+South Asia,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+South Korea,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Southeast Asia,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Taiwan,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Argentina,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+Colombia,regional oil,EJ,EJ,1975$/GJ,1975,-6,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,traded unconventional oil,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Eastern,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Northern,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Southern,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Western,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Australia_NZ,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Brazil,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Canada,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Central America and Caribbean,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Central Asia,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+China,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+EU-12,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+EU-15,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Eastern,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Non_EU,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+European Free Trade Association,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+India,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Indonesia,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Japan,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Mexico,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Middle East,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Pakistan,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Russia,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+South Africa,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+South America_Northern,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+South America_Southern,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+South Asia,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+South Korea,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Southeast Asia,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Argentina,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Colombia,regional corn for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Eastern,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Northern,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Southern,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Western,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Australia_NZ,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Brazil,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Canada,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Central America and Caribbean,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Central Asia,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+China,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+EU-12,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+EU-15,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Eastern,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Non_EU,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+European Free Trade Association,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+India,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Indonesia,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Japan,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Mexico,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Middle East,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Pakistan,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Russia,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+South Africa,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+South America_Northern,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+South America_Southern,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+South Asia,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+South Korea,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Southeast Asia,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Argentina,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+Colombia,regional sugar for ethanol,EJ,EJ,1975$/GJ,1975,-3,NA
+USA,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Eastern,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Northern,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Southern,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Africa_Western,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Australia_NZ,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Brazil,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Canada,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Central America and Caribbean,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Central Asia,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+China,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+EU-12,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+EU-15,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Eastern,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Europe_Non_EU,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+European Free Trade Association,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+India,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Indonesia,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Japan,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Mexico,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Middle East,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Pakistan,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Russia,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+South Africa,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+South America_Northern,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+South America_Southern,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+South Asia,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+South Korea,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Southeast Asia,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Argentina,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA
+Colombia,regional biomassOil,EJ,EJ,1975$/GJ,1975,-3,NA

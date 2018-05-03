@@ -1,0 +1,7 @@
+# Interpolation function key from L222.GlobalTechInterp_en are filtered for USA sectors.
+sector.name,subsector.name,technology,apply.to,from.year,to.year,interpolation.function
+biomass liquids,biomass liquids,cellulosic ethanol,share-weight,2010,2015,fixed
+biomass liquids,biomass liquids,FT biofuels,share-weight,2010,2015,linear
+biomass liquids,biomass liquids,corn ethanol,share-weight,2010,2100,linear
+biomass liquids,biomass liquids,sugar cane ethanol,share-weight,2010,2100,linear
+biomass liquids,biomass liquids,biodiesel,share-weight,2010,2100,linear

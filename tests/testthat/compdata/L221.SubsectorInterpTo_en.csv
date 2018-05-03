@@ -1,0 +1,35 @@
+# A21.subsector_interp written to all regions
+# removed regions with no agricultural and land use sector
+region,supplysector,subsector,apply.to,from.year,to.year,to.value,interpolation.function
+USA,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Africa_Eastern,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Africa_Northern,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Africa_Southern,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Africa_Western,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Australia_NZ,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Brazil,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Canada,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Central America and Caribbean,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Central Asia,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+China,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+EU-12,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+EU-15,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Europe_Eastern,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Europe_Non_EU,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+European Free Trade Association,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+India,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Indonesia,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Japan,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Mexico,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Middle East,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Pakistan,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Russia,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+South Africa,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+South America_Northern,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+South America_Southern,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+South Asia,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+South Korea,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Southeast Asia,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Taiwan,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Argentina,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve
+Colombia,regional oil,unconventional oil,share-weight,2010,2185,2,s-curve

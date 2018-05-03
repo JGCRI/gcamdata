@@ -1,0 +1,922 @@
+# Emissions coefficients corrected by dividing by elec tech efficiencies
+region,supplysector,subsector,stub.technology,year,Non.CO2,emiss.coef,efficiency
+USA,electricity,biomass,biomass (conv),1975,BC,0.013966,0.3619207
+USA,electricity,biomass,biomass (conv),1990,BC,0.0251126,0.2012763
+USA,electricity,biomass,biomass (conv),2005,BC,0.0226855,0.2228108
+USA,electricity,biomass,biomass (conv),2010,BC,0.0224988,0.2246604
+USA,electricity,coal,coal (conv pul),1975,BC,1.001e-4,0.3401157
+USA,electricity,coal,coal (conv pul),1990,BC,9.26e-5,0.3677022
+USA,electricity,coal,coal (conv pul),2005,BC,9.25e-5,0.3678413
+USA,electricity,coal,coal (conv pul),2010,BC,9.22e-5,0.3693908
+USA,electricity,gas,gas (steam/CT),1975,BC,6.8e-6,0.2605263
+USA,electricity,gas,gas (steam/CT),1990,BC,5.9e-6,0.3
+USA,electricity,gas,gas (steam/CT),2005,BC,5.4e-6,0.33
+USA,electricity,gas,gas (steam/CT),2010,BC,4.7e-6,0.3766679
+USA,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0014555,0.3637089
+USA,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0013394,0.3952288
+USA,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0014128,0.3746958
+USA,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0014043,0.3769771
+USA,electricity,biomass,biomass (conv),1975,OC,0.4377867,0.3619207
+USA,electricity,biomass,biomass (conv),1990,OC,0.7871968,0.2012763
+USA,electricity,biomass,biomass (conv),2005,OC,0.7111148,0.2228108
+USA,electricity,biomass,biomass (conv),2010,OC,0.7052603,0.2246604
+USA,electricity,coal,coal (conv pul),1975,OC,6.999e-4,0.3401157
+USA,electricity,coal,coal (conv pul),1990,OC,6.474e-4,0.3677022
+USA,electricity,coal,coal (conv pul),2005,OC,6.472e-4,0.3678413
+USA,electricity,coal,coal (conv pul),2010,OC,6.445e-4,0.3693908
+USA,electricity,gas,gas (steam/CT),1975,OC,4.869e-4,0.2605263
+USA,electricity,gas,gas (steam/CT),1990,OC,4.229e-4,0.3
+USA,electricity,gas,gas (steam/CT),2005,OC,3.844e-4,0.33
+USA,electricity,gas,gas (steam/CT),2010,OC,3.368e-4,0.3766679
+USA,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0078884,0.3637089
+USA,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0072593,0.3952288
+USA,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0076571,0.3746958
+USA,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0076108,0.3769771
+Africa_Eastern,electricity,biomass,biomass (conv),1975,BC,0.007963,0.3694856
+Africa_Eastern,electricity,biomass,biomass (conv),1990,BC,0.0079997,0.3677913
+Africa_Eastern,electricity,biomass,biomass (conv),2005,BC,0.0098521,0.2986407
+Africa_Eastern,electricity,biomass,biomass (conv),2010,BC,0.0098521,0.2986407
+Africa_Eastern,electricity,coal,coal (conv pul),1975,BC,6e-5,0.33
+Africa_Eastern,electricity,coal,coal (conv pul),1990,BC,5.66e-5,0.3498268
+Africa_Eastern,electricity,coal,coal (conv pul),2005,BC,5.67e-5,0.3493643
+Africa_Eastern,electricity,coal,coal (conv pul),2010,BC,5.67e-5,0.3491866
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),1975,BC,4.962e-4,0.6210443
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),1990,BC,8.643e-4,0.356507
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),2005,BC,9.238e-4,0.3335631
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),2010,BC,8.483e-4,0.3632497
+Africa_Eastern,electricity,biomass,biomass (conv),1975,OC,0.1747485,0.3694856
+Africa_Eastern,electricity,biomass,biomass (conv),1990,OC,0.1755535,0.3677913
+Africa_Eastern,electricity,biomass,biomass (conv),2005,OC,0.2162032,0.2986407
+Africa_Eastern,electricity,biomass,biomass (conv),2010,OC,0.2162032,0.2986407
+Africa_Eastern,electricity,coal,coal (conv pul),1975,OC,2.94e-4,0.33
+Africa_Eastern,electricity,coal,coal (conv pul),1990,OC,2.773e-4,0.3498268
+Africa_Eastern,electricity,coal,coal (conv pul),2005,OC,2.777e-4,0.3493643
+Africa_Eastern,electricity,coal,coal (conv pul),2010,OC,2.778e-4,0.3491866
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0018826,0.6210443
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0032795,0.356507
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0035051,0.3335631
+Africa_Eastern,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0032186,0.3632497
+Africa_Northern,electricity,coal,coal (conv pul),1975,BC,2.184e-4,0.2367675
+Africa_Northern,electricity,coal,coal (conv pul),1990,BC,1.927e-4,0.2683558
+Africa_Northern,electricity,coal,coal (conv pul),2005,BC,1.425e-4,0.3629149
+Africa_Northern,electricity,coal,coal (conv pul),2010,BC,1.5e-4,0.3447834
+Africa_Northern,electricity,gas,gas (steam/CT),1975,BC,1.03e-5,0.2605263
+Africa_Northern,electricity,gas,gas (steam/CT),1990,BC,9e-6,0.3
+Africa_Northern,electricity,gas,gas (steam/CT),2005,BC,8.2e-6,0.33
+Africa_Northern,electricity,gas,gas (steam/CT),2010,BC,7.1e-6,0.3766679
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.002995,0.2684861
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0025195,0.3191547
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0026686,0.30132370000000003
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0022182,0.362515
+Africa_Northern,electricity,coal,coal (conv pul),1975,OC,0.0064565000000000004,0.2367675
+Africa_Northern,electricity,coal,coal (conv pul),1990,OC,0.0056965,0.2683558
+Africa_Northern,electricity,coal,coal (conv pul),2005,OC,0.0042123,0.3629149
+Africa_Northern,electricity,coal,coal (conv pul),2010,OC,0.0044338,0.3447834
+Africa_Northern,electricity,gas,gas (steam/CT),1975,OC,0.003127,0.2605263
+Africa_Northern,electricity,gas,gas (steam/CT),1990,OC,0.0027155,0.3
+Africa_Northern,electricity,gas,gas (steam/CT),2005,OC,0.0024687,0.33
+Africa_Northern,electricity,gas,gas (steam/CT),2010,OC,0.0021628,0.3766679
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0686225,0.2684861
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0577281,0.3191547
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0611442,0.30132370000000003
+Africa_Northern,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0508232,0.362515
+Africa_Southern,electricity,coal,coal (conv pul),1975,BC,3.228e-4,0.3062083
+Africa_Southern,electricity,coal,coal (conv pul),1990,BC,4.156e-4,0.2378661
+Africa_Southern,electricity,coal,coal (conv pul),2005,BC,4.226e-4,0.2339175
+Africa_Southern,electricity,coal,coal (conv pul),2010,BC,4.181e-4,0.2364229
+Africa_Southern,electricity,gas,gas (steam/CT),1975,BC,1.98e-5,0.2605263
+Africa_Southern,electricity,gas,gas (steam/CT),1990,BC,1.72e-5,0.3
+Africa_Southern,electricity,gas,gas (steam/CT),2005,BC,1.56e-5,0.33
+Africa_Southern,electricity,gas,gas (steam/CT),2010,BC,1.91e-5,0.2698106
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.006308,0.2436799
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0072574,0.2118006
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0056611,0.2715232
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0065517,0.2346153
+Africa_Southern,electricity,coal,coal (conv pul),1975,OC,0.0030616,0.3062083
+Africa_Southern,electricity,coal,coal (conv pul),1990,OC,0.0039413,0.2378661
+Africa_Southern,electricity,coal,coal (conv pul),2005,OC,0.0040078,0.2339175
+Africa_Southern,electricity,coal,coal (conv pul),2010,OC,0.0039654,0.2364229
+Africa_Southern,electricity,gas,gas (steam/CT),1975,OC,0.0019177,0.2605263
+Africa_Southern,electricity,gas,gas (steam/CT),1990,OC,0.0016653,0.3
+Africa_Southern,electricity,gas,gas (steam/CT),2005,OC,0.0015139,0.33
+Africa_Southern,electricity,gas,gas (steam/CT),2010,OC,0.0018517,0.2698106
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.046368,0.2436799
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0533472,0.2118006
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0416132,0.2715232
+Africa_Southern,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0481595,0.2346153
+Africa_Western,electricity,biomass,biomass (conv),1975,BC,0.3109725,0.0657654
+Africa_Western,electricity,biomass,biomass (conv),1990,BC,0.3035776,0.0673674
+Africa_Western,electricity,biomass,biomass (conv),2005,BC,0.1566698,0.1305372
+Africa_Western,electricity,biomass,biomass (conv),2010,BC,0.1271726,0.1608148
+Africa_Western,electricity,coal,coal (conv pul),1975,BC,0.0011141,0.1236277
+Africa_Western,electricity,coal,coal (conv pul),1990,BC,4.061e-4,0.3391848
+Africa_Western,electricity,coal,coal (conv pul),2005,BC,3.943e-4,0.3493643
+Africa_Western,electricity,coal,coal (conv pul),2010,BC,3.945e-4,0.3491866
+Africa_Western,electricity,gas,gas (steam/CT),1975,BC,4.1e-5,0.1748475
+Africa_Western,electricity,gas,gas (steam/CT),1990,BC,2.39e-5,0.3
+Africa_Western,electricity,gas,gas (steam/CT),2005,BC,2.17e-5,0.33
+Africa_Western,electricity,gas,gas (steam/CT),2010,BC,1.9e-5,0.3766679
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0055729,0.3843415
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0060567,0.3536409
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0063024,0.3398515
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0066176,0.323669
+Africa_Western,electricity,biomass,biomass (conv),1975,OC,4.2017637,0.0657654
+Africa_Western,electricity,biomass,biomass (conv),1990,OC,4.1018455,0.0673674
+Africa_Western,electricity,biomass,biomass (conv),2005,OC,2.116873,0.1305372
+Africa_Western,electricity,biomass,biomass (conv),2010,OC,1.7183162,0.1608148
+Africa_Western,electricity,coal,coal (conv pul),1975,OC,0.0033583,0.1236277
+Africa_Western,electricity,coal,coal (conv pul),1990,OC,0.001224,0.3391848
+Africa_Western,electricity,coal,coal (conv pul),2005,OC,0.0011884,0.3493643
+Africa_Western,electricity,coal,coal (conv pul),2010,OC,0.001189,0.3491866
+Africa_Western,electricity,gas,gas (steam/CT),1975,OC,0.0012654,0.1748475
+Africa_Western,electricity,gas,gas (steam/CT),1990,OC,7.375e-4,0.3
+Africa_Western,electricity,gas,gas (steam/CT),2005,OC,6.705e-4,0.33
+Africa_Western,electricity,gas,gas (steam/CT),2010,OC,5.874e-4,0.3766679
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.013019,0.3843415
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0141493,0.3536409
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0147234,0.3398515
+Africa_Western,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0154595,0.323669
+Australia_NZ,electricity,coal,coal (conv pul),1975,BC,3.271e-4,0.2735812
+Australia_NZ,electricity,coal,coal (conv pul),1990,BC,2.475e-4,0.3615841
+Australia_NZ,electricity,coal,coal (conv pul),2005,BC,2.579e-4,0.3469775
+Australia_NZ,electricity,coal,coal (conv pul),2010,BC,2.591e-4,0.3453771
+Australia_NZ,electricity,gas,gas (steam/CT),1975,BC,1.79e-5,0.2605263
+Australia_NZ,electricity,gas,gas (steam/CT),1990,BC,1.55e-5,0.3
+Australia_NZ,electricity,gas,gas (steam/CT),2005,BC,1.41e-5,0.33
+Australia_NZ,electricity,gas,gas (steam/CT),2010,BC,1.24e-5,0.3766679
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0037734,0.3688242
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0043274,0.3216002
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0043741,0.31817
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0043692,0.3185258
+Australia_NZ,electricity,coal,coal (conv pul),1975,OC,0.0065815,0.2735812
+Australia_NZ,electricity,coal,coal (conv pul),1990,OC,0.0049797,0.3615841
+Australia_NZ,electricity,coal,coal (conv pul),2005,OC,0.0051893,0.3469775
+Australia_NZ,electricity,coal,coal (conv pul),2010,OC,0.0052134,0.3453771
+Australia_NZ,electricity,gas,gas (steam/CT),1975,OC,0.0036831,0.2605263
+Australia_NZ,electricity,gas,gas (steam/CT),1990,OC,0.0031985,0.3
+Australia_NZ,electricity,gas,gas (steam/CT),2005,OC,0.0029077,0.33
+Australia_NZ,electricity,gas,gas (steam/CT),2010,OC,0.0025475,0.3766679
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0588381,0.3688242
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.067478,0.3216002
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0682055,0.31817
+Australia_NZ,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0681293,0.3185258
+Brazil,electricity,biomass,biomass (conv),1975,BC,0.0270941,0.4096859
+Brazil,electricity,biomass,biomass (conv),1990,BC,0.0248171,0.4472745
+Brazil,electricity,biomass,biomass (conv),2005,BC,0.0260493,0.426117
+Brazil,electricity,biomass,biomass (conv),2010,BC,0.0237648,0.4670805
+Brazil,electricity,coal,coal (conv pul),1975,BC,2.356e-4,0.317287
+Brazil,electricity,coal,coal (conv pul),1990,BC,2.746e-4,0.2722028
+Brazil,electricity,coal,coal (conv pul),2005,BC,2.327e-4,0.3212178
+Brazil,electricity,coal,coal (conv pul),2010,BC,2.45e-4,0.3050935
+Brazil,electricity,gas,gas (steam/CT),1975,BC,1.49e-5,0.2605263
+Brazil,electricity,gas,gas (steam/CT),1990,BC,1.3e-5,0.3
+Brazil,electricity,gas,gas (steam/CT),2005,BC,1.18e-5,0.33
+Brazil,electricity,gas,gas (steam/CT),2010,BC,1.03e-5,0.3766679
+Brazil,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0036795,0.3159452
+Brazil,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0035512,0.3273606
+Brazil,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0033348,0.3486009
+Brazil,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.003152,0.3688215
+Brazil,electricity,biomass,biomass (conv),1975,OC,0.2824421,0.4096859
+Brazil,electricity,biomass,biomass (conv),1990,OC,0.2587059,0.4472745
+Brazil,electricity,biomass,biomass (conv),2005,OC,0.2715511,0.426117
+Brazil,electricity,biomass,biomass (conv),2010,OC,0.2477357,0.4670805
+Brazil,electricity,coal,coal (conv pul),1975,OC,5.479e-4,0.317287
+Brazil,electricity,coal,coal (conv pul),1990,OC,6.387e-4,0.2722028
+Brazil,electricity,coal,coal (conv pul),2005,OC,5.412e-4,0.3212178
+Brazil,electricity,coal,coal (conv pul),2010,OC,5.698e-4,0.3050935
+Brazil,electricity,gas,gas (steam/CT),1975,OC,3.556e-4,0.2605263
+Brazil,electricity,gas,gas (steam/CT),1990,OC,3.088e-4,0.3
+Brazil,electricity,gas,gas (steam/CT),2005,OC,2.808e-4,0.33
+Brazil,electricity,gas,gas (steam/CT),2010,OC,2.46e-4,0.3766679
+Brazil,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0066319,0.3159452
+Brazil,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0064006,0.3273606
+Brazil,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0060106,0.3486009
+Brazil,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0056811,0.3688215
+Canada,electricity,biomass,biomass (conv),1975,BC,0.0082282,0.33
+Canada,electricity,biomass,biomass (conv),1990,BC,0.0072398,0.3750543
+Canada,electricity,biomass,biomass (conv),2005,BC,0.0073041,0.3717489
+Canada,electricity,biomass,biomass (conv),2010,BC,0.007323,0.3707894
+Canada,electricity,coal,coal (conv pul),1975,BC,5.21e-5,0.3507219
+Canada,electricity,coal,coal (conv pul),1990,BC,5.44e-5,0.3363298
+Canada,electricity,coal,coal (conv pul),2005,BC,4.82e-5,0.379442
+Canada,electricity,coal,coal (conv pul),2010,BC,4.95e-5,0.3696776
+Canada,electricity,gas,gas (steam/CT),1975,BC,3.7e-6,0.2605263
+Canada,electricity,gas,gas (steam/CT),1990,BC,3.2e-6,0.3
+Canada,electricity,gas,gas (steam/CT),2005,BC,2.9e-6,0.33
+Canada,electricity,gas,gas (steam/CT),2010,BC,2.5e-6,0.3766679
+Canada,electricity,refined liquids,refined liquids (steam/CT),1975,BC,8.842e-4,0.3216291
+Canada,electricity,refined liquids,refined liquids (steam/CT),1990,BC,7.62e-4,0.373192
+Canada,electricity,refined liquids,refined liquids (steam/CT),2005,BC,7.033e-4,0.4043443
+Canada,electricity,refined liquids,refined liquids (steam/CT),2010,BC,8.172e-4,0.3480028
+Canada,electricity,biomass,biomass (conv),1975,OC,0.2768779,0.33
+Canada,electricity,biomass,biomass (conv),1990,OC,0.2436172,0.3750543
+Canada,electricity,biomass,biomass (conv),2005,OC,0.2457834,0.3717489
+Canada,electricity,biomass,biomass (conv),2010,OC,0.2464194,0.3707894
+Canada,electricity,coal,coal (conv pul),1975,OC,3.914e-4,0.3507219
+Canada,electricity,coal,coal (conv pul),1990,OC,4.082e-4,0.3363298
+Canada,electricity,coal,coal (conv pul),2005,OC,3.618e-4,0.379442
+Canada,electricity,coal,coal (conv pul),2010,OC,3.713e-4,0.3696776
+Canada,electricity,gas,gas (steam/CT),1975,OC,2.808e-4,0.2605263
+Canada,electricity,gas,gas (steam/CT),1990,OC,2.439e-4,0.3
+Canada,electricity,gas,gas (steam/CT),2005,OC,2.217e-4,0.33
+Canada,electricity,gas,gas (steam/CT),2010,OC,1.942e-4,0.3766679
+Canada,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0051442,0.3216291
+Canada,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0044334,0.373192
+Canada,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0040918,0.4043443
+Canada,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0047543,0.3480028
+Central America and Caribbean,electricity,biomass,biomass (conv),1975,BC,0.0395982,0.1338559
+Central America and Caribbean,electricity,biomass,biomass (conv),1990,BC,0.0402623,0.1316482
+Central America and Caribbean,electricity,biomass,biomass (conv),2005,BC,0.0398631,0.1329665
+Central America and Caribbean,electricity,biomass,biomass (conv),2010,BC,0.0358967,0.1476586
+Central America and Caribbean,electricity,coal,coal (conv pul),1975,BC,1.082e-4,0.33
+Central America and Caribbean,electricity,coal,coal (conv pul),1990,BC,9.65e-5,0.3698041
+Central America and Caribbean,electricity,coal,coal (conv pul),2005,BC,1.019e-4,0.3503158
+Central America and Caribbean,electricity,coal,coal (conv pul),2010,BC,1.02e-4,0.3500904
+Central America and Caribbean,electricity,gas,gas (steam/CT),1975,BC,7.1e-6,0.2605263
+Central America and Caribbean,electricity,gas,gas (steam/CT),1990,BC,6.6e-6,0.282504
+Central America and Caribbean,electricity,gas,gas (steam/CT),2005,BC,5.7e-6,0.3248498
+Central America and Caribbean,electricity,gas,gas (steam/CT),2010,BC,5.5e-6,0.3408172
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0022551,0.2461618
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0013052,0.425314
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0012365,0.4489546
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0013647,0.4067681
+Central America and Caribbean,electricity,biomass,biomass (conv),1975,OC,0.4033658,0.1338559
+Central America and Caribbean,electricity,biomass,biomass (conv),1990,OC,0.4101301,0.1316482
+Central America and Caribbean,electricity,biomass,biomass (conv),2005,OC,0.4060639,0.1329665
+Central America and Caribbean,electricity,biomass,biomass (conv),2010,OC,0.3656603,0.1476586
+Central America and Caribbean,electricity,coal,coal (conv pul),1975,OC,2.458e-4,0.33
+Central America and Caribbean,electricity,coal,coal (conv pul),1990,OC,2.194e-4,0.3698041
+Central America and Caribbean,electricity,coal,coal (conv pul),2005,OC,2.316e-4,0.3503158
+Central America and Caribbean,electricity,coal,coal (conv pul),2010,OC,2.317e-4,0.3500904
+Central America and Caribbean,electricity,gas,gas (steam/CT),1975,OC,1.659e-4,0.2605263
+Central America and Caribbean,electricity,gas,gas (steam/CT),1990,OC,1.53e-4,0.282504
+Central America and Caribbean,electricity,gas,gas (steam/CT),2005,OC,1.331e-4,0.3248498
+Central America and Caribbean,electricity,gas,gas (steam/CT),2010,OC,1.268e-4,0.3408172
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0039718,0.2461618
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0022988,0.425314
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0021777,0.4489546
+Central America and Caribbean,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0024036,0.4067681
+Central Asia,electricity,coal,coal (conv pul),1975,BC,2.784e-4,0.3667102
+Central Asia,electricity,coal,coal (conv pul),1990,BC,4.669e-4,0.2186332
+Central Asia,electricity,coal,coal (conv pul),2005,BC,4.368e-4,0.2337257
+Central Asia,electricity,coal,coal (conv pul),2010,BC,3.398e-4,0.3004523
+Central Asia,electricity,gas,gas (steam/CT),1975,BC,2.07e-5,0.2572278
+Central Asia,electricity,gas,gas (steam/CT),1990,BC,2.03e-5,0.2613647
+Central Asia,electricity,gas,gas (steam/CT),2005,BC,1.98e-5,0.2690318
+Central Asia,electricity,gas,gas (steam/CT),2010,BC,1.91e-5,0.2776763
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0046092,0.3444126
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0059191,0.2681969
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0058689,0.2704894
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0059385,0.2673183
+Central Asia,electricity,coal,coal (conv pul),1975,OC,0.0020143,0.3667102
+Central Asia,electricity,coal,coal (conv pul),1990,OC,0.0033785,0.2186332
+Central Asia,electricity,coal,coal (conv pul),2005,OC,0.0031603,0.2337257
+Central Asia,electricity,coal,coal (conv pul),2010,OC,0.0024585,0.3004523
+Central Asia,electricity,gas,gas (steam/CT),1975,OC,0.0015303,0.2572278
+Central Asia,electricity,gas,gas (steam/CT),1990,OC,0.0015061,0.2613647
+Central Asia,electricity,gas,gas (steam/CT),2005,OC,0.0014631,0.2690318
+Central Asia,electricity,gas,gas (steam/CT),2010,OC,0.0014176,0.2776763
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0258479,0.3444126
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0331933,0.2681969
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0329119,0.2704894
+Central Asia,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0333024,0.2673183
+China,electricity,biomass,biomass (conv),1975,BC,0.3311802,0.2150024
+China,electricity,biomass,biomass (conv),1990,BC,0.2284001,0.3117535
+China,electricity,biomass,biomass (conv),2005,BC,0.2845865,0.2502035
+China,electricity,biomass,biomass (conv),2010,BC,0.2846943,0.2501088
+China,electricity,coal,coal (conv pul),1975,BC,0.0019603,0.2446291
+China,electricity,coal,coal (conv pul),1990,BC,0.0016301,0.2941866
+China,electricity,coal,coal (conv pul),2005,BC,0.0014822,0.3235407
+China,electricity,coal,coal (conv pul),2010,BC,0.0013534,0.3543458
+China,electricity,gas,gas (steam/CT),1975,BC,9.58e-5,0.2605263
+China,electricity,gas,gas (steam/CT),1990,BC,8.32e-5,0.3
+China,electricity,gas,gas (steam/CT),2005,BC,7.57e-5,0.33
+China,electricity,gas,gas (steam/CT),2010,BC,6.63e-5,0.3766679
+China,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0222031,0.3358711
+China,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0218688,0.3410064
+China,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0218256,0.3416805
+China,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.02135,0.3492914
+China,electricity,biomass,biomass (conv),1975,OC,2.8668571,0.2150024
+China,electricity,biomass,biomass (conv),1990,OC,1.9771427,0.3117535
+China,electricity,biomass,biomass (conv),2005,OC,2.4635193,0.2502035
+China,electricity,biomass,biomass (conv),2010,OC,2.4644521,0.2501088
+China,electricity,coal,coal (conv pul),1975,OC,0.0037857,0.2446291
+China,electricity,coal,coal (conv pul),1990,OC,0.0031479,0.2941866
+China,electricity,coal,coal (conv pul),2005,OC,0.0028623,0.3235407
+China,electricity,coal,coal (conv pul),2010,OC,0.0026135,0.3543458
+China,electricity,gas,gas (steam/CT),1975,OC,0.0018943,0.2605263
+China,electricity,gas,gas (steam/CT),1990,OC,0.0016451,0.3
+China,electricity,gas,gas (steam/CT),2005,OC,0.0014955,0.33
+China,electricity,gas,gas (steam/CT),2010,OC,0.0013102,0.3766679
+China,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0332311,0.3358711
+China,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0327306,0.3410064
+China,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.032666100000000003,0.3416805
+China,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0319543,0.3492914
+EU-12,electricity,biomass,biomass (conv),1975,BC,0.1537873,0.33
+EU-12,electricity,biomass,biomass (conv),1990,BC,0.3591959,0.1412873
+EU-12,electricity,biomass,biomass (conv),2005,BC,0.1880658,0.2698514
+EU-12,electricity,biomass,biomass (conv),2010,BC,0.1755954,0.2890156
+EU-12,electricity,coal,coal (conv pul),1975,BC,0.0012716,0.2687957
+EU-12,electricity,coal,coal (conv pul),1990,BC,0.0011713,0.2918065
+EU-12,electricity,coal,coal (conv pul),2005,BC,0.001064,0.3212283
+EU-12,electricity,coal,coal (conv pul),2010,BC,0.0010644,0.3211145
+EU-12,electricity,gas,gas (steam/CT),1975,BC,8.46e-5,0.2104341
+EU-12,electricity,gas,gas (steam/CT),1990,BC,8.49e-5,0.2095477
+EU-12,electricity,gas,gas (steam/CT),2005,BC,6.13e-5,0.2901365
+EU-12,electricity,gas,gas (steam/CT),2010,BC,5.64e-5,0.3158122
+EU-12,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0299294,0.1775887
+EU-12,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0270945,0.1961698
+EU-12,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0191944,0.2769107
+EU-12,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0170942,0.310931
+EU-12,electricity,biomass,biomass (conv),1975,OC,1.558524,0.33
+EU-12,electricity,biomass,biomass (conv),1990,OC,3.6401921,0.1412873
+EU-12,electricity,biomass,biomass (conv),2005,OC,1.9059116,0.2698514
+EU-12,electricity,biomass,biomass (conv),2010,OC,1.7795334,0.2890156
+EU-12,electricity,coal,coal (conv pul),1975,OC,0.0028748,0.2687957
+EU-12,electricity,coal,coal (conv pul),1990,OC,0.0026481,0.2918065
+EU-12,electricity,coal,coal (conv pul),2005,OC,0.0024056,0.3212283
+EU-12,electricity,coal,coal (conv pul),2010,OC,0.0024064,0.3211145
+EU-12,electricity,gas,gas (steam/CT),1975,OC,0.0019569,0.2104341
+EU-12,electricity,gas,gas (steam/CT),1990,OC,0.0019652,0.2095477
+EU-12,electricity,gas,gas (steam/CT),2005,OC,0.0014193,0.2901365
+EU-12,electricity,gas,gas (steam/CT),2010,OC,0.0013039,0.3158122
+EU-12,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.052442,0.1775887
+EU-12,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0474748,0.1961698
+EU-12,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0336322,0.2769107
+EU-12,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0299523,0.310931
+EU-15,electricity,biomass,biomass (conv),1975,BC,0.0604311,0.2200848
+EU-15,electricity,biomass,biomass (conv),1990,BC,0.0565146,0.2353369
+EU-15,electricity,biomass,biomass (conv),2005,BC,0.0536454,0.2479238
+EU-15,electricity,biomass,biomass (conv),2010,BC,0.0548218,0.2426037
+EU-15,electricity,coal,coal (conv pul),1975,BC,2.948e-4,0.30388
+EU-15,electricity,coal,coal (conv pul),1990,BC,2.513e-4,0.3564714
+EU-15,electricity,coal,coal (conv pul),2005,BC,2.368e-4,0.3781997
+EU-15,electricity,coal,coal (conv pul),2010,BC,2.383e-4,0.3758889
+EU-15,electricity,gas,gas (steam/CT),1975,BC,1.79e-5,0.2605263
+EU-15,electricity,gas,gas (steam/CT),1990,BC,1.55e-5,0.3
+EU-15,electricity,gas,gas (steam/CT),2005,BC,1.41e-5,0.33
+EU-15,electricity,gas,gas (steam/CT),2010,BC,1.24e-5,0.3766679
+EU-15,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0034102,0.4084626
+EU-15,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0036019,0.3867226
+EU-15,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0039878,0.3492985
+EU-15,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0040556,0.3434575
+EU-15,electricity,biomass,biomass (conv),1975,OC,0.6814771,0.2200848
+EU-15,electricity,biomass,biomass (conv),1990,OC,0.6373108,0.2353369
+EU-15,electricity,biomass,biomass (conv),2005,OC,0.6049551,0.2479238
+EU-15,electricity,biomass,biomass (conv),2010,OC,0.6182212,0.2426037
+EU-15,electricity,coal,coal (conv pul),1975,OC,7.415e-4,0.30388
+EU-15,electricity,coal,coal (conv pul),1990,OC,6.321e-4,0.3564714
+EU-15,electricity,coal,coal (conv pul),2005,OC,5.958e-4,0.3781997
+EU-15,electricity,coal,coal (conv pul),2010,OC,5.995e-4,0.3758889
+EU-15,electricity,gas,gas (steam/CT),1975,OC,4.609e-4,0.2605263
+EU-15,electricity,gas,gas (steam/CT),1990,OC,4.003e-4,0.3
+EU-15,electricity,gas,gas (steam/CT),2005,OC,3.639e-4,0.33
+EU-15,electricity,gas,gas (steam/CT),2010,OC,3.188e-4,0.3766679
+EU-15,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.006649,0.4084626
+EU-15,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0070228,0.3867226
+EU-15,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0077752,0.3492985
+EU-15,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0079074,0.3434575
+Europe_Eastern,electricity,coal,coal (conv pul),1975,BC,0.0013383,0.2660033
+Europe_Eastern,electricity,coal,coal (conv pul),1990,BC,0.0012414,0.2867767
+Europe_Eastern,electricity,coal,coal (conv pul),2005,BC,0.0011509,0.3093029
+Europe_Eastern,electricity,coal,coal (conv pul),2010,BC,0.0010514,0.3385835
+Europe_Eastern,electricity,gas,gas (steam/CT),1975,BC,7.21e-5,0.2572278
+Europe_Eastern,electricity,gas,gas (steam/CT),1990,BC,6.18e-5,0.3
+Europe_Eastern,electricity,gas,gas (steam/CT),2005,BC,6.47e-5,0.2865701
+Europe_Eastern,electricity,gas,gas (steam/CT),2010,BC,6.67e-5,0.2779362
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0077263,0.7164946
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0176986,0.312786
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0199474,0.2775234
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0178887,0.3094625
+Europe_Eastern,electricity,coal,coal (conv pul),1975,OC,0.0062914,0.2660033
+Europe_Eastern,electricity,coal,coal (conv pul),1990,OC,0.0058357,0.2867767
+Europe_Eastern,electricity,coal,coal (conv pul),2005,OC,0.0054107,0.3093029
+Europe_Eastern,electricity,coal,coal (conv pul),2010,OC,0.0049427,0.3385835
+Europe_Eastern,electricity,gas,gas (steam/CT),1975,OC,0.0034671,0.2572278
+Europe_Eastern,electricity,gas,gas (steam/CT),1990,OC,0.0029728,0.3
+Europe_Eastern,electricity,gas,gas (steam/CT),2005,OC,0.0031121,0.2865701
+Europe_Eastern,electricity,gas,gas (steam/CT),2010,OC,0.0032088,0.2779362
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0281506,0.7164946
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0644841,0.312786
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0726776,0.2775234
+Europe_Eastern,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0651766,0.3094625
+Europe_Non_EU,electricity,biomass,biomass (conv),1975,BC,0.1954367,0.33
+Europe_Non_EU,electricity,biomass,biomass (conv),1990,BC,0.1954367,0.33
+Europe_Non_EU,electricity,biomass,biomass (conv),2005,BC,0.2083121,0.3096034
+Europe_Non_EU,electricity,biomass,biomass (conv),2010,BC,0.2265956,0.2846222
+Europe_Non_EU,electricity,coal,coal (conv pul),1975,BC,9.677e-4,0.448882
+Europe_Non_EU,electricity,coal,coal (conv pul),1990,BC,0.0013505,0.3216197
+Europe_Non_EU,electricity,coal,coal (conv pul),2005,BC,0.0012825,0.3386805
+Europe_Non_EU,electricity,coal,coal (conv pul),2010,BC,0.0013293,0.3267497
+Europe_Non_EU,electricity,gas,gas (steam/CT),1975,BC,8.68e-5,0.2605263
+Europe_Non_EU,electricity,gas,gas (steam/CT),1990,BC,7.54e-5,0.3
+Europe_Non_EU,electricity,gas,gas (steam/CT),2005,BC,6.85e-5,0.33
+Europe_Non_EU,electricity,gas,gas (steam/CT),2010,BC,6e-5,0.3766679
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0172895,0.3906757
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0225805,0.2991338
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0192044,0.3517212
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0204671,0.3300221
+Europe_Non_EU,electricity,biomass,biomass (conv),1975,OC,5.3671754,0.33
+Europe_Non_EU,electricity,biomass,biomass (conv),1990,OC,5.3671754,0.33
+Europe_Non_EU,electricity,biomass,biomass (conv),2005,OC,5.7207636,0.3096034
+Europe_Non_EU,electricity,biomass,biomass (conv),2010,OC,6.2228732,0.2846222
+Europe_Non_EU,electricity,coal,coal (conv pul),1975,OC,0.0059283,0.448882
+Europe_Non_EU,electricity,coal,coal (conv pul),1990,OC,0.008274,0.3216197
+Europe_Non_EU,electricity,coal,coal (conv pul),2005,OC,0.0078572,0.3386805
+Europe_Non_EU,electricity,coal,coal (conv pul),2010,OC,0.0081441,0.3267497
+Europe_Non_EU,electricity,gas,gas (steam/CT),1975,OC,0.0054433,0.2605263
+Europe_Non_EU,electricity,gas,gas (steam/CT),1990,OC,0.0047271,0.3
+Europe_Non_EU,electricity,gas,gas (steam/CT),2005,OC,0.0042973,0.33
+Europe_Non_EU,electricity,gas,gas (steam/CT),2010,OC,0.0037649,0.3766679
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0820939,0.3906757
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.1072165,0.2991338
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0911861,0.3517212
+Europe_Non_EU,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0971816,0.3300221
+European Free Trade Association,electricity,biomass,biomass (conv),1975,BC,0.0191709,0.33
+European Free Trade Association,electricity,biomass,biomass (conv),1990,BC,0.0333328,0.1897952
+European Free Trade Association,electricity,biomass,biomass (conv),2005,BC,0.0276832,0.2285284
+European Free Trade Association,electricity,biomass,biomass (conv),2010,BC,0.0310136,0.2039882
+European Free Trade Association,electricity,coal,coal (conv pul),1975,BC,2.928e-4,0.1455401
+European Free Trade Association,electricity,coal,coal (conv pul),1990,BC,1.581e-4,0.2694697
+European Free Trade Association,electricity,coal,coal (conv pul),2005,BC,1.051e-4,0.4054331
+European Free Trade Association,electricity,coal,coal (conv pul),2010,BC,1.729e-4,0.2463811
+European Free Trade Association,electricity,gas,gas (steam/CT),1975,BC,8.5e-6,0.2605263
+European Free Trade Association,electricity,gas,gas (steam/CT),1990,BC,1.69e-5,0.1316341
+European Free Trade Association,electricity,gas,gas (steam/CT),2005,BC,6.7e-6,0.33
+European Free Trade Association,electricity,gas,gas (steam/CT),2010,BC,5.9e-6,0.3766679
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0017515,0.3782825
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0028413,0.2331949
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0015831,0.418538
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0013596,0.4873387
+European Free Trade Association,electricity,biomass,biomass (conv),1975,OC,0.4513207,0.33
+European Free Trade Association,electricity,biomass,biomass (conv),1990,OC,0.7847186,0.1897952
+European Free Trade Association,electricity,biomass,biomass (conv),2005,OC,0.6517169,0.2285284
+European Free Trade Association,electricity,biomass,biomass (conv),2010,OC,0.7301198,0.2039882
+European Free Trade Association,electricity,coal,coal (conv pul),1975,OC,0.0015375,0.1455401
+European Free Trade Association,electricity,coal,coal (conv pul),1990,OC,8.304e-4,0.2694697
+European Free Trade Association,electricity,coal,coal (conv pul),2005,OC,5.519e-4,0.4054331
+European Free Trade Association,electricity,coal,coal (conv pul),2010,OC,9.082e-4,0.2463811
+European Free Trade Association,electricity,gas,gas (steam/CT),1975,OC,4.577e-4,0.2605263
+European Free Trade Association,electricity,gas,gas (steam/CT),1990,OC,9.059e-4,0.1316341
+European Free Trade Association,electricity,gas,gas (steam/CT),2005,OC,3.614e-4,0.33
+European Free Trade Association,electricity,gas,gas (steam/CT),2010,OC,3.166e-4,0.3766679
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0071294,0.3782825
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0115651,0.2331949
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0064436,0.418538
+European Free Trade Association,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.005534,0.4873387
+India,electricity,biomass,biomass (conv),1975,BC,0.1171449,0.33
+India,electricity,biomass,biomass (conv),1990,BC,0.1171449,0.33
+India,electricity,biomass,biomass (conv),2005,BC,0.2575945,0.1500724
+India,electricity,biomass,biomass (conv),2010,BC,0.2578588,0.1499186
+India,electricity,coal,coal (conv pul),1975,BC,9.053e-4,0.2875891
+India,electricity,coal,coal (conv pul),1990,BC,8.781e-4,0.2964956
+India,electricity,coal,coal (conv pul),2005,BC,9.757e-4,0.2668402
+India,electricity,coal,coal (conv pul),2010,BC,9.34e-4,0.278752
+India,electricity,gas,gas (steam/CT),1975,BC,9.59e-5,0.1414054
+India,electricity,gas,gas (steam/CT),1990,BC,5.48e-5,0.2474422
+India,electricity,gas,gas (steam/CT),2005,BC,4.11e-5,0.33
+India,electricity,gas,gas (steam/CT),2010,BC,3.6e-5,0.3766679
+India,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0181904,0.2225736
+India,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0168294,0.2405728
+India,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0162543,0.2490855
+India,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0200357,0.2020751
+India,electricity,biomass,biomass (conv),1975,OC,0.9625538,0.33
+India,electricity,biomass,biomass (conv),1990,OC,0.9625538,0.33
+India,electricity,biomass,biomass (conv),2005,OC,2.1165967,0.1500724
+India,electricity,biomass,biomass (conv),2010,OC,2.1187681,0.1499186
+India,electricity,coal,coal (conv pul),1975,OC,0.0016595,0.2875891
+India,electricity,coal,coal (conv pul),1990,OC,0.0016096,0.2964956
+India,electricity,coal,coal (conv pul),2005,OC,0.0017885,0.2668402
+India,electricity,coal,coal (conv pul),2010,OC,0.0017121,0.278752
+India,electricity,gas,gas (steam/CT),1975,OC,0.0017986,0.1414054
+India,electricity,gas,gas (steam/CT),1990,OC,0.0010278,0.2474422
+India,electricity,gas,gas (steam/CT),2005,OC,7.707e-4,0.33
+India,electricity,gas,gas (steam/CT),2010,OC,6.752e-4,0.3766679
+India,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0258424,0.2225736
+India,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0239089,0.2405728
+India,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0230918,0.2490855
+India,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0284638,0.2020751
+Indonesia,electricity,biomass,biomass (conv),1975,BC,0.0781709,0.33
+Indonesia,electricity,biomass,biomass (conv),1990,BC,0.0781709,0.33
+Indonesia,electricity,biomass,biomass (conv),2005,BC,0.1227088,0.2102246
+Indonesia,electricity,biomass,biomass (conv),2010,BC,0.1294542,0.1992705
+Indonesia,electricity,coal,coal (conv pul),1975,BC,5.265e-4,0.33
+Indonesia,electricity,coal,coal (conv pul),1990,BC,4.806e-4,0.3614705
+Indonesia,electricity,coal,coal (conv pul),2005,BC,5.241e-4,0.3315159
+Indonesia,electricity,coal,coal (conv pul),2010,BC,5.556e-4,0.3127199
+Indonesia,electricity,gas,gas (steam/CT),1975,BC,3.47e-5,0.2605263
+Indonesia,electricity,gas,gas (steam/CT),1990,BC,3.02e-5,0.3
+Indonesia,electricity,gas,gas (steam/CT),2005,BC,2.74e-5,0.33
+Indonesia,electricity,gas,gas (steam/CT),2010,BC,2.4e-5,0.3766679
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0228837,0.1180624
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0081303,0.3323001
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.007499,0.360278
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0077278,0.3496069
+Indonesia,electricity,biomass,biomass (conv),1975,OC,3.9156299,0.33
+Indonesia,electricity,biomass,biomass (conv),1990,OC,3.9156299,0.33
+Indonesia,electricity,biomass,biomass (conv),2005,OC,6.1465588,0.2102246
+Indonesia,electricity,biomass,biomass (conv),2010,OC,6.4844414,0.1992705
+Indonesia,electricity,coal,coal (conv pul),1975,OC,0.0058831,0.33
+Indonesia,electricity,coal,coal (conv pul),1990,OC,0.0053709,0.3614705
+Indonesia,electricity,coal,coal (conv pul),2005,OC,0.0058561,0.3315159
+Indonesia,electricity,coal,coal (conv pul),2010,OC,0.0062081,0.3127199
+Indonesia,electricity,gas,gas (steam/CT),1975,OC,0.0039712,0.2605263
+Indonesia,electricity,gas,gas (steam/CT),1990,OC,0.0034486,0.3
+Indonesia,electricity,gas,gas (steam/CT),2005,OC,0.0031351,0.33
+Indonesia,electricity,gas,gas (steam/CT),2010,OC,0.0027467,0.3766679
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.1981853,0.1180624
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.070413,0.3323001
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0649449,0.360278
+Indonesia,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0669273,0.3496069
+Japan,electricity,biomass,biomass (conv),1975,BC,0.0207001,0.33
+Japan,electricity,biomass,biomass (conv),1990,BC,0.0171468,0.398384
+Japan,electricity,biomass,biomass (conv),2005,BC,0.0154179,0.4430583
+Japan,electricity,biomass,biomass (conv),2010,BC,0.0144337,0.4732676
+Japan,electricity,coal,coal (conv pul),1975,BC,3.892e-4,0.118196
+Japan,electricity,coal,coal (conv pul),1990,BC,1.164e-4,0.3953686
+Japan,electricity,coal,coal (conv pul),2005,BC,1.107e-4,0.4157366
+Japan,electricity,coal,coal (conv pul),2010,BC,1.083e-4,0.4248631
+Japan,electricity,gas,gas (steam/CT),1975,BC,9.2e-6,0.2605263
+Japan,electricity,gas,gas (steam/CT),1990,BC,8e-6,0.3
+Japan,electricity,gas,gas (steam/CT),2005,BC,7.3e-6,0.33
+Japan,electricity,gas,gas (steam/CT),2010,BC,6.4e-6,0.3766679
+Japan,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0018042,0.3965248
+Japan,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0016973,0.4215028
+Japan,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0016472,0.4343156
+Japan,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.001539,0.4648602
+Japan,electricity,biomass,biomass (conv),1975,OC,0.3921089,0.33
+Japan,electricity,biomass,biomass (conv),1990,OC,0.324802,0.398384
+Japan,electricity,biomass,biomass (conv),2005,OC,0.2920517,0.4430583
+Japan,electricity,biomass,biomass (conv),2010,OC,0.2734097,0.4732676
+Japan,electricity,coal,coal (conv pul),1975,OC,0.0016448,0.118196
+Japan,electricity,coal,coal (conv pul),1990,OC,4.917e-4,0.3953686
+Japan,electricity,coal,coal (conv pul),2005,OC,4.676e-4,0.4157366
+Japan,electricity,coal,coal (conv pul),2010,OC,4.576e-4,0.4248631
+Japan,electricity,gas,gas (steam/CT),1975,OC,3.977e-4,0.2605263
+Japan,electricity,gas,gas (steam/CT),1990,OC,3.453e-4,0.3
+Japan,electricity,gas,gas (steam/CT),2005,OC,3.139e-4,0.33
+Japan,electricity,gas,gas (steam/CT),2010,OC,2.751e-4,0.3766679
+Japan,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0059091,0.3965248
+Japan,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0055589,0.4215028
+Japan,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0053949,0.4343156
+Japan,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0050404,0.4648602
+Mexico,electricity,biomass,biomass (conv),1975,BC,0.0638795,0.33
+Mexico,electricity,biomass,biomass (conv),1990,BC,0.0638795,0.33
+Mexico,electricity,biomass,biomass (conv),2005,BC,0.0899671,0.2343103
+Mexico,electricity,biomass,biomass (conv),2010,BC,0.1032468,0.2041732
+Mexico,electricity,coal,coal (conv pul),1975,BC,3.979e-4,0.3568125
+Mexico,electricity,coal,coal (conv pul),1990,BC,3.856e-4,0.3681561
+Mexico,electricity,coal,coal (conv pul),2005,BC,3.982e-4,0.3565038
+Mexico,electricity,coal,coal (conv pul),2010,BC,3.904e-4,0.3636765
+Mexico,electricity,gas,gas (steam/CT),1975,BC,3.06e-5,0.2414877
+Mexico,electricity,gas,gas (steam/CT),1990,BC,2.46e-5,0.3
+Mexico,electricity,gas,gas (steam/CT),2005,BC,2.24e-5,0.33
+Mexico,electricity,gas,gas (steam/CT),2010,BC,1.96e-5,0.3766679
+Mexico,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0066899,0.3300179
+Mexico,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0062534,0.3530488
+Mexico,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0061741,0.3575877
+Mexico,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0058926,0.374666
+Mexico,electricity,biomass,biomass (conv),1975,OC,0.4485056,0.33
+Mexico,electricity,biomass,biomass (conv),1990,OC,0.4485056,0.33
+Mexico,electricity,biomass,biomass (conv),2005,OC,0.6316702,0.2343103
+Mexico,electricity,biomass,biomass (conv),2010,OC,0.7249083,0.2041732
+Mexico,electricity,coal,coal (conv pul),1975,OC,6.232e-4,0.3568125
+Mexico,electricity,coal,coal (conv pul),1990,OC,6.04e-4,0.3681561
+Mexico,electricity,coal,coal (conv pul),2005,OC,6.238e-4,0.3565038
+Mexico,electricity,coal,coal (conv pul),2010,OC,6.115e-4,0.3636765
+Mexico,electricity,gas,gas (steam/CT),1975,OC,4.907e-4,0.2414877
+Mexico,electricity,gas,gas (steam/CT),1990,OC,3.95e-4,0.3
+Mexico,electricity,gas,gas (steam/CT),2005,OC,3.591e-4,0.33
+Mexico,electricity,gas,gas (steam/CT),2010,OC,3.146e-4,0.3766679
+Mexico,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.008121,0.3300179
+Mexico,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0075913,0.3530488
+Mexico,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0074949,0.3575877
+Mexico,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0071533,0.374666
+Middle East,electricity,coal,coal (conv pul),1975,BC,3.275e-4,0.278922
+Middle East,electricity,coal,coal (conv pul),1990,BC,2.415e-4,0.3782247
+Middle East,electricity,coal,coal (conv pul),2005,BC,2.203e-4,0.4147335
+Middle East,electricity,coal,coal (conv pul),2010,BC,2.311e-4,0.3952826
+Middle East,electricity,gas,gas (steam/CT),1975,BC,2.49e-5,0.1914029
+Middle East,electricity,gas,gas (steam/CT),1990,BC,1.7e-5,0.27991
+Middle East,electricity,gas,gas (steam/CT),2005,BC,1.48e-5,0.3218313
+Middle East,electricity,gas,gas (steam/CT),2010,BC,1.3e-5,0.3671237
+Middle East,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0043853,0.3239232
+Middle East,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0044165,0.3216345
+Middle East,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.004535,0.3132323
+Middle East,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0049844,0.2849898
+Middle East,electricity,coal,coal (conv pul),1975,OC,0.0036486,0.278922
+Middle East,electricity,coal,coal (conv pul),1990,OC,0.0026907,0.3782247
+Middle East,electricity,coal,coal (conv pul),2005,OC,0.0024538,0.4147335
+Middle East,electricity,coal,coal (conv pul),2010,OC,0.0025746,0.3952826
+Middle East,electricity,gas,gas (steam/CT),1975,OC,0.0028335,0.1914029
+Middle East,electricity,gas,gas (steam/CT),1990,OC,0.0019375,0.27991
+Middle East,electricity,gas,gas (steam/CT),2005,OC,0.0016851,0.3218313
+Middle East,electricity,gas,gas (steam/CT),2010,OC,0.0014773,0.3671237
+Middle East,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.037865,0.3239232
+Middle East,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0381345,0.3216345
+Middle East,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0391574,0.3132323
+Middle East,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0430379,0.2849898
+Pakistan,electricity,coal,coal (conv pul),1975,BC,2.14e-4,0.3071463
+Pakistan,electricity,coal,coal (conv pul),1990,BC,3.621e-4,0.1815576
+Pakistan,electricity,coal,coal (conv pul),2005,BC,4.563e-4,0.1440795
+Pakistan,electricity,coal,coal (conv pul),2010,BC,4.691e-4,0.1401497
+Pakistan,electricity,gas,gas (steam/CT),1975,BC,1.31e-5,0.2605263
+Pakistan,electricity,gas,gas (steam/CT),1990,BC,1.14e-5,0.3
+Pakistan,electricity,gas,gas (steam/CT),2005,BC,1.04e-5,0.33
+Pakistan,electricity,gas,gas (steam/CT),2010,BC,9.5e-6,0.3607746
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0034622,0.2952606
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0033291,0.307067
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0025679,0.3980884
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.002842,0.3596984
+Pakistan,electricity,coal,coal (conv pul),1975,OC,9.737e-4,0.3071463
+Pakistan,electricity,coal,coal (conv pul),1990,OC,0.0016472,0.1815576
+Pakistan,electricity,coal,coal (conv pul),2005,OC,0.0020757,0.1440795
+Pakistan,electricity,coal,coal (conv pul),2010,OC,0.0021339,0.1401497
+Pakistan,electricity,gas,gas (steam/CT),1975,OC,6.117e-4,0.2605263
+Pakistan,electricity,gas,gas (steam/CT),1990,OC,5.313e-4,0.3
+Pakistan,electricity,gas,gas (steam/CT),2005,OC,4.83e-4,0.33
+Pakistan,electricity,gas,gas (steam/CT),2010,OC,4.418e-4,0.3607746
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0122077,0.2952606
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0117383,0.307067
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0090544,0.3980884
+Pakistan,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0100208,0.3596984
+Russia,electricity,coal,coal (conv pul),1975,BC,0.0023007,0.2389953
+Russia,electricity,coal,coal (conv pul),1990,BC,0.002648,0.2076444
+Russia,electricity,coal,coal (conv pul),2005,BC,0.002181,0.2521124
+Russia,electricity,coal,coal (conv pul),2010,BC,0.0016967,0.3240683
+Russia,electricity,gas,gas (steam/CT),1975,BC,1.113e-4,0.2572278
+Russia,electricity,gas,gas (steam/CT),1990,BC,1.055e-4,0.2713751
+Russia,electricity,gas,gas (steam/CT),2005,BC,1.03e-4,0.2780538
+Russia,electricity,gas,gas (steam/CT),2010,BC,9.79e-5,0.2923228
+Russia,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.4761232,0.0179585
+Russia,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0353416,0.2419375
+Russia,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0309849,0.2759557
+Russia,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0313132,0.2730626
+Russia,electricity,coal,coal (conv pul),1975,OC,0.0104712,0.2389953
+Russia,electricity,coal,coal (conv pul),1990,OC,0.0120522,0.2076444
+Russia,electricity,coal,coal (conv pul),2005,OC,0.0099264,0.2521124
+Russia,electricity,coal,coal (conv pul),2010,OC,0.0077224,0.3240683
+Russia,electricity,gas,gas (steam/CT),1975,OC,0.0051847,0.2572278
+Russia,electricity,gas,gas (steam/CT),1990,OC,0.0049144,0.2713751
+Russia,electricity,gas,gas (steam/CT),2005,OC,0.0047964,0.2780538
+Russia,electricity,gas,gas (steam/CT),2010,OC,0.0045622,0.2923228
+Russia,electricity,refined liquids,refined liquids (steam/CT),1975,OC,1.6795162,0.0179585
+Russia,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.1246669,0.2419375
+Russia,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.1092987,0.2759557
+Russia,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.1104567,0.2730626
+South Africa,electricity,biomass,biomass (conv),1975,BC,0.2304547,0.33
+South Africa,electricity,biomass,biomass (conv),1990,BC,0.2304547,0.33
+South Africa,electricity,biomass,biomass (conv),2005,BC,0.3036629,0.2504423
+South Africa,electricity,biomass,biomass (conv),2010,BC,0.3052541,0.2491368
+South Africa,electricity,coal,coal (conv pul),1975,BC,0.0019602,0.2612896
+South Africa,electricity,coal,coal (conv pul),1990,BC,0.0013811,0.3708663
+South Africa,electricity,coal,coal (conv pul),2005,BC,0.0013806,0.3709792
+South Africa,electricity,coal,coal (conv pul),2010,BC,0.0015075,0.3397617
+South Africa,electricity,biomass,biomass (conv),1975,OC,1.7395141,0.33
+South Africa,electricity,biomass,biomass (conv),1990,OC,1.7395141,0.33
+South Africa,electricity,biomass,biomass (conv),2005,OC,2.2921034,0.2504423
+South Africa,electricity,biomass,biomass (conv),2010,OC,2.3041142,0.2491368
+South Africa,electricity,coal,coal (conv pul),1975,OC,0.0033008,0.2612896
+South Africa,electricity,coal,coal (conv pul),1990,OC,0.0023255,0.3708663
+South Africa,electricity,coal,coal (conv pul),2005,OC,0.0023248,0.3709792
+South Africa,electricity,coal,coal (conv pul),2010,OC,0.0025384,0.3397617
+South America_Northern,electricity,biomass,biomass (conv),1975,BC,0.0968701,0.1582916
+South America_Northern,electricity,biomass,biomass (conv),1990,BC,0.0963214,0.1591933
+South America_Northern,electricity,biomass,biomass (conv),2005,BC,0.0961406,0.1594927
+South America_Northern,electricity,biomass,biomass (conv),2010,BC,0.0949807,0.1614404
+South America_Northern,electricity,gas,gas (steam/CT),1975,BC,2.48e-5,0.2170743
+South America_Northern,electricity,gas,gas (steam/CT),1990,BC,2.25e-5,0.2391198
+South America_Northern,electricity,gas,gas (steam/CT),2005,BC,1.72e-5,0.3128591
+South America_Northern,electricity,gas,gas (steam/CT),2010,BC,1.6e-5,0.33613730000000003
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0076716,0.2093336
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0031273,0.5135168
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0034081,0.4712049
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0039451,0.4070701
+South America_Northern,electricity,biomass,biomass (conv),1975,OC,9.862129,0.1582916
+South America_Northern,electricity,biomass,biomass (conv),1990,OC,9.8062681,0.1591933
+South America_Northern,electricity,biomass,biomass (conv),2005,OC,9.7878597,0.1594927
+South America_Northern,electricity,biomass,biomass (conv),2010,OC,9.6697739,0.1614404
+South America_Northern,electricity,gas,gas (steam/CT),1975,OC,0.005758,0.2170743
+South America_Northern,electricity,gas,gas (steam/CT),1990,OC,0.0052272,0.2391198
+South America_Northern,electricity,gas,gas (steam/CT),2005,OC,0.0039952,0.3128591
+South America_Northern,electricity,gas,gas (steam/CT),2010,OC,0.0037185,0.33613730000000003
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.1350383,0.2093336
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.055048,0.5135168
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.059991,0.4712049
+South America_Northern,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0694427,0.4070701
+South America_Southern,electricity,biomass,biomass (conv),1975,BC,0.1287713,0.2213171
+South America_Southern,electricity,biomass,biomass (conv),1990,BC,0.1810485,0.1574125
+South America_Southern,electricity,biomass,biomass (conv),2005,BC,0.1193489,0.2387899
+South America_Southern,electricity,biomass,biomass (conv),2010,BC,0.1133627,0.2513992
+South America_Southern,electricity,coal,coal (conv pul),1975,BC,5.594e-4,0.3431481
+South America_Southern,electricity,coal,coal (conv pul),1990,BC,5.945e-4,0.3228747
+South America_Southern,electricity,coal,coal (conv pul),2005,BC,5.415e-4,0.3544389
+South America_Southern,electricity,coal,coal (conv pul),2010,BC,5.205e-4,0.3687866
+South America_Southern,electricity,gas,gas (steam/CT),1975,BC,3.84e-5,0.2605263
+South America_Southern,electricity,gas,gas (steam/CT),1990,BC,3.33e-5,0.3
+South America_Southern,electricity,gas,gas (steam/CT),2005,BC,3.03e-5,0.33
+South America_Southern,electricity,gas,gas (steam/CT),2010,BC,2.65e-5,0.3766679
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0110054,0.2712117
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0091962,0.3245686
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0107325,0.2781084
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0090293,0.3305662
+South America_Southern,electricity,biomass,biomass (conv),1975,OC,2.0410202,0.2213171
+South America_Southern,electricity,biomass,biomass (conv),1990,OC,2.8696112,0.1574125
+South America_Southern,electricity,biomass,biomass (conv),2005,OC,1.8916741,0.2387899
+South America_Southern,electricity,biomass,biomass (conv),2010,OC,1.7967944,0.2513992
+South America_Southern,electricity,coal,coal (conv pul),1975,OC,0.0019778,0.3431481
+South America_Southern,electricity,coal,coal (conv pul),1990,OC,0.002102,0.3228747
+South America_Southern,electricity,coal,coal (conv pul),2005,OC,0.0019148,0.3544389
+South America_Southern,electricity,coal,coal (conv pul),2010,OC,0.0018403,0.3687866
+South America_Southern,electricity,gas,gas (steam/CT),1975,OC,0.0013882,0.2605263
+South America_Southern,electricity,gas,gas (steam/CT),1990,OC,0.0012056,0.3
+South America_Southern,electricity,gas,gas (steam/CT),2005,OC,0.001096,0.33
+South America_Southern,electricity,gas,gas (steam/CT),2010,OC,9.602e-4,0.3766679
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0301593,0.2712117
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0252013,0.3245686
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0294114,0.2781084
+South America_Southern,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0247441,0.3305662
+South Asia,electricity,coal,coal (conv pul),1975,BC,2.339e-4,0.33
+South Asia,electricity,coal,coal (conv pul),1990,BC,2.339e-4,0.33
+South Asia,electricity,coal,coal (conv pul),2005,BC,2.439e-4,0.3165067
+South Asia,electricity,coal,coal (conv pul),2010,BC,2.879e-4,0.2681184
+South Asia,electricity,gas,gas (steam/CT),1975,BC,1.54e-5,0.2605263
+South Asia,electricity,gas,gas (steam/CT),1990,BC,1.34e-5,0.3
+South Asia,electricity,gas,gas (steam/CT),2005,BC,1.22e-5,0.33
+South Asia,electricity,gas,gas (steam/CT),2010,BC,1.15e-5,0.3484123
+South Asia,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.002146,0.5594399
+South Asia,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0032834,0.3656376
+South Asia,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0036143,0.3321665
+South Asia,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0038965,0.3081088
+South Asia,electricity,coal,coal (conv pul),1975,OC,0.0018551,0.33
+South Asia,electricity,coal,coal (conv pul),1990,OC,0.0018551,0.33
+South Asia,electricity,coal,coal (conv pul),2005,OC,0.0019342,0.3165067
+South Asia,electricity,coal,coal (conv pul),2010,OC,0.0022833,0.2681184
+South Asia,electricity,gas,gas (steam/CT),1975,OC,0.0012522,0.2605263
+South Asia,electricity,gas,gas (steam/CT),1990,OC,0.0010875,0.3
+South Asia,electricity,gas,gas (steam/CT),2005,OC,9.886e-4,0.33
+South Asia,electricity,gas,gas (steam/CT),2010,OC,9.364e-4,0.3484123
+South Asia,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0131886,0.5594399
+South Asia,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0201791,0.3656376
+South Asia,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0222125,0.3321665
+South Asia,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0239469,0.3081088
+South Korea,electricity,biomass,biomass (conv),1975,BC,0.252344,0.33
+South Korea,electricity,biomass,biomass (conv),1990,BC,0.252344,0.33
+South Korea,electricity,biomass,biomass (conv),2005,BC,0.2151746,0.3870043
+South Korea,electricity,biomass,biomass (conv),2010,BC,0.2462693,0.3381401
+South Korea,electricity,coal,coal (conv pul),1975,BC,0.0032992,0.1699902
+South Korea,electricity,coal,coal (conv pul),1990,BC,0.0021741,0.257959
+South Korea,electricity,coal,coal (conv pul),2005,BC,0.0015776,0.355501
+South Korea,electricity,coal,coal (conv pul),2010,BC,0.0015327,0.3659257
+South Korea,electricity,gas,gas (steam/CT),1975,BC,1.121e-4,0.2605263
+South Korea,electricity,gas,gas (steam/CT),1990,BC,9.73e-5,0.3
+South Korea,electricity,gas,gas (steam/CT),2005,BC,8.85e-5,0.33
+South Korea,electricity,gas,gas (steam/CT),2010,BC,7.75e-5,0.3766679
+South Korea,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0267427,0.3261219
+South Korea,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0242596,0.3595034
+South Korea,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0242573,0.3595363
+South Korea,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0220944,0.3947338
+South Korea,electricity,biomass,biomass (conv),1975,OC,6.4298817,0.33
+South Korea,electricity,biomass,biomass (conv),1990,OC,6.4298817,0.33
+South Korea,electricity,biomass,biomass (conv),2005,OC,5.4827839,0.3870043
+South Korea,electricity,biomass,biomass (conv),2010,OC,6.2750941,0.3381401
+South Korea,electricity,coal,coal (conv pul),1975,OC,0.018754,0.1699902
+South Korea,electricity,coal,coal (conv pul),1990,OC,0.0123585,0.257959
+South Korea,electricity,coal,coal (conv pul),2005,OC,0.0089676,0.355501
+South Korea,electricity,coal,coal (conv pul),2010,OC,0.0087121,0.3659257
+South Korea,electricity,gas,gas (steam/CT),1975,OC,0.0065211,0.2605263
+South Korea,electricity,gas,gas (steam/CT),1990,OC,0.005663,0.3
+South Korea,electricity,gas,gas (steam/CT),2005,OC,0.0051482,0.33
+South Korea,electricity,gas,gas (steam/CT),2010,OC,0.0045104,0.3766679
+South Korea,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.117816,0.3261219
+South Korea,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.1068763,0.3595034
+South Korea,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.1068665,0.3595363
+South Korea,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0973375,0.3947338
+Southeast Asia,electricity,biomass,biomass (conv),1975,BC,0.0514104,0.2150024
+Southeast Asia,electricity,biomass,biomass (conv),1990,BC,0.0535144,0.2065493
+Southeast Asia,electricity,biomass,biomass (conv),2005,BC,0.0791638,0.1396264
+Southeast Asia,electricity,biomass,biomass (conv),2010,BC,0.0699517,0.158014
+Southeast Asia,electricity,coal,coal (conv pul),1975,BC,2.843e-4,0.2618223
+Southeast Asia,electricity,coal,coal (conv pul),1990,BC,2.522e-4,0.2952125
+Southeast Asia,electricity,coal,coal (conv pul),2005,BC,2.321e-4,0.3207892
+Southeast Asia,electricity,coal,coal (conv pul),2010,BC,2.285e-4,0.3258021
+Southeast Asia,electricity,gas,gas (steam/CT),1975,BC,2.36e-5,0.164564
+Southeast Asia,electricity,gas,gas (steam/CT),1990,BC,1.29e-5,0.3
+Southeast Asia,electricity,gas,gas (steam/CT),2005,BC,1.17e-5,0.33
+Southeast Asia,electricity,gas,gas (steam/CT),2010,BC,1.03e-5,0.3766679
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0029877,0.3874629
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0033522,0.3453368
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0034353,0.3369823
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0033289,0.3477574
+Southeast Asia,electricity,biomass,biomass (conv),1975,OC,1.4111804,0.2150024
+Southeast Asia,electricity,biomass,biomass (conv),1990,OC,1.4689335,0.2065493
+Southeast Asia,electricity,biomass,biomass (conv),2005,OC,2.1729929,0.1396264
+Southeast Asia,electricity,biomass,biomass (conv),2010,OC,1.9201285,0.158014
+Southeast Asia,electricity,coal,coal (conv pul),1975,OC,0.0017411,0.2618223
+Southeast Asia,electricity,coal,coal (conv pul),1990,OC,0.0015442,0.2952125
+Southeast Asia,electricity,coal,coal (conv pul),2005,OC,0.001421,0.3207892
+Southeast Asia,electricity,coal,coal (conv pul),2010,OC,0.0013992,0.3258021
+Southeast Asia,electricity,gas,gas (steam/CT),1975,OC,0.0014762,0.164564
+Southeast Asia,electricity,gas,gas (steam/CT),1990,OC,8.098e-4,0.3
+Southeast Asia,electricity,gas,gas (steam/CT),2005,OC,7.361e-4,0.33
+Southeast Asia,electricity,gas,gas (steam/CT),2010,OC,6.449e-4,0.3766679
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0141796,0.3874629
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0159093,0.3453368
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0163037,0.3369823
+Southeast Asia,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0157985,0.3477574
+Taiwan,electricity,biomass,biomass (conv),1975,BC,0.0520293,0.33
+Taiwan,electricity,biomass,biomass (conv),1990,BC,0.0520293,0.33
+Taiwan,electricity,biomass,biomass (conv),2005,BC,0.068715300000000007,0.2498666
+Taiwan,electricity,biomass,biomass (conv),2010,BC,0.0686621,0.2500601
+Taiwan,electricity,coal,coal (conv pul),1975,BC,3.529e-4,0.3276417
+Taiwan,electricity,coal,coal (conv pul),1990,BC,3.161e-4,0.3658542
+Taiwan,electricity,coal,coal (conv pul),2005,BC,3.203e-4,0.3610285
+Taiwan,electricity,coal,coal (conv pul),2010,BC,3.195e-4,0.3619328
+Taiwan,electricity,gas,gas (steam/CT),1975,BC,2.31e-5,0.2605263
+Taiwan,electricity,gas,gas (steam/CT),1990,BC,2.01e-5,0.3
+Taiwan,electricity,gas,gas (steam/CT),2005,BC,1.82e-5,0.33
+Taiwan,electricity,gas,gas (steam/CT),2010,BC,1.6e-5,0.3766679
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0044655,0.4026871
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0046568,0.3861496
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0046325,0.3881703
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0047503,0.3785504
+Taiwan,electricity,biomass,biomass (conv),1975,OC,0.4749268,0.33
+Taiwan,electricity,biomass,biomass (conv),1990,OC,0.4749268,0.33
+Taiwan,electricity,biomass,biomass (conv),2005,OC,0.6272381,0.2498666
+Taiwan,electricity,biomass,biomass (conv),2010,OC,0.6267527,0.2500601
+Taiwan,electricity,coal,coal (conv pul),1975,OC,7.187e-4,0.3276417
+Taiwan,electricity,coal,coal (conv pul),1990,OC,6.436e-4,0.3658542
+Taiwan,electricity,coal,coal (conv pul),2005,OC,6.522e-4,0.3610285
+Taiwan,electricity,coal,coal (conv pul),2010,OC,6.506e-4,0.3619328
+Taiwan,electricity,gas,gas (steam/CT),1975,OC,4.817e-4,0.2605263
+Taiwan,electricity,gas,gas (steam/CT),1990,OC,4.183e-4,0.3
+Taiwan,electricity,gas,gas (steam/CT),2005,OC,3.803e-4,0.33
+Taiwan,electricity,gas,gas (steam/CT),2010,OC,3.331e-4,0.3766679
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0070476,0.4026871
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0073494,0.3861496
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0073112,0.3881703
+Taiwan,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0074969,0.3785504
+Argentina,electricity,biomass,biomass (conv),1975,BC,0.1320825,0.1006049
+Argentina,electricity,biomass,biomass (conv),1990,BC,0.1559556,0.0852047
+Argentina,electricity,biomass,biomass (conv),2005,BC,0.0698182,0.1903251
+Argentina,electricity,biomass,biomass (conv),2010,BC,0.0513866,0.2585919
+Argentina,electricity,coal,coal (conv pul),1975,BC,4.581e-4,0.195345
+Argentina,electricity,coal,coal (conv pul),1990,BC,8.2e-4,0.1091457
+Argentina,electricity,coal,coal (conv pul),2005,BC,4.129e-4,0.2167224
+Argentina,electricity,coal,coal (conv pul),2010,BC,3.726e-4,0.2402022
+Argentina,electricity,gas,gas (steam/CT),1975,BC,1.79e-5,0.2605263
+Argentina,electricity,gas,gas (steam/CT),1990,BC,1.55e-5,0.3
+Argentina,electricity,gas,gas (steam/CT),2005,BC,1.41e-5,0.33
+Argentina,electricity,gas,gas (steam/CT),2010,BC,1.24e-5,0.3766679
+Argentina,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0062758,0.2217551
+Argentina,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0055848,0.2491913
+Argentina,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.0041195,0.3378315
+Argentina,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.0037696,0.3691857
+Argentina,electricity,biomass,biomass (conv),1975,OC,2.5065086,0.1006049
+Argentina,electricity,biomass,biomass (conv),1990,OC,2.9595439,0.0852047
+Argentina,electricity,biomass,biomass (conv),2005,OC,1.324928,0.1903251
+Argentina,electricity,biomass,biomass (conv),2010,OC,0.9751545,0.2585919
+Argentina,electricity,coal,coal (conv pul),1975,OC,0.0019395,0.195345
+Argentina,electricity,coal,coal (conv pul),1990,OC,0.0034712,0.1091457
+Argentina,electricity,coal,coal (conv pul),2005,OC,0.0017482,0.2167224
+Argentina,electricity,coal,coal (conv pul),2010,OC,0.0015773,0.2402022
+Argentina,electricity,gas,gas (steam/CT),1975,OC,7.75e-4,0.2605263
+Argentina,electricity,gas,gas (steam/CT),1990,OC,6.73e-4,0.3
+Argentina,electricity,gas,gas (steam/CT),2005,OC,6.118e-4,0.33
+Argentina,electricity,gas,gas (steam/CT),2010,OC,5.36e-4,0.3766679
+Argentina,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0205912,0.2217551
+Argentina,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0183241,0.2491913
+Argentina,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0135162,0.3378315
+Argentina,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0123683,0.3691857
+Colombia,electricity,biomass,biomass (conv),1975,BC,0.0124004,0.3125804
+Colombia,electricity,biomass,biomass (conv),1990,BC,0.0120079,0.3227981
+Colombia,electricity,biomass,biomass (conv),2005,BC,0.0121861,0.3180771
+Colombia,electricity,biomass,biomass (conv),2010,BC,0.0121031,0.3202573
+Colombia,electricity,coal,coal (conv pul),1975,BC,8.1e-5,0.3221432
+Colombia,electricity,coal,coal (conv pul),1990,BC,8.44e-5,0.3093031
+Colombia,electricity,coal,coal (conv pul),2005,BC,8.22e-5,0.3173937
+Colombia,electricity,coal,coal (conv pul),2010,BC,8.44e-5,0.309241
+Colombia,electricity,gas,gas (steam/CT),1975,BC,5.2e-6,0.2605263
+Colombia,electricity,gas,gas (steam/CT),1990,BC,4.5e-6,0.3
+Colombia,electricity,gas,gas (steam/CT),2005,BC,4.1e-6,0.33
+Colombia,electricity,gas,gas (steam/CT),2010,BC,3.6e-6,0.3766679
+Colombia,electricity,refined liquids,refined liquids (steam/CT),1975,BC,0.0013487,0.3010033
+Colombia,electricity,refined liquids,refined liquids (steam/CT),1990,BC,0.0013576,0.2990308
+Colombia,electricity,refined liquids,refined liquids (steam/CT),2005,BC,0.001325,0.3063784
+Colombia,electricity,refined liquids,refined liquids (steam/CT),2010,BC,0.001354,0.2998089
+Colombia,electricity,biomass,biomass (conv),1975,OC,0.8018495,0.3125804
+Colombia,electricity,biomass,biomass (conv),1990,OC,0.7764682,0.3227981
+Colombia,electricity,biomass,biomass (conv),2005,OC,0.7879927,0.3180771
+Colombia,electricity,biomass,biomass (conv),2010,OC,0.7826284,0.3202573
+Colombia,electricity,coal,coal (conv pul),1975,OC,0.001169,0.3221432
+Colombia,electricity,coal,coal (conv pul),1990,OC,0.0012175,0.3093031
+Colombia,electricity,coal,coal (conv pul),2005,OC,0.0011865,0.3173937
+Colombia,electricity,coal,coal (conv pul),2010,OC,0.0012178,0.309241
+Colombia,electricity,gas,gas (steam/CT),1975,OC,7.703e-4,0.2605263
+Colombia,electricity,gas,gas (steam/CT),1990,OC,6.689e-4,0.3
+Colombia,electricity,gas,gas (steam/CT),2005,OC,6.081e-4,0.33
+Colombia,electricity,gas,gas (steam/CT),2010,OC,5.328e-4,0.3766679
+Colombia,electricity,refined liquids,refined liquids (steam/CT),1975,OC,0.0150782,0.3010033
+Colombia,electricity,refined liquids,refined liquids (steam/CT),1990,OC,0.0151777,0.2990308
+Colombia,electricity,refined liquids,refined liquids (steam/CT),2005,OC,0.0148137,0.3063784
+Colombia,electricity,refined liquids,refined liquids (steam/CT),2010,OC,0.0151383,0.2998089

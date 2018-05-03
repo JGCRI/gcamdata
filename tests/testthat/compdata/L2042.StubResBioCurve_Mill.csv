@@ -1,0 +1,2732 @@
+# Sector, subsector, and technology combinations from L2042.GlobalResBio_Mill are repeated for each GCAM region and year,
+# base supply curves are read in from A_resbio_curves and then in specified calibration years BASE_YEARS,
+# replaced by fractions in  A_bio_frac_prod_R to form the table of Mill resbio supply curves for each region and year.
+region,supplysector,subsector,stub.technology,residue.biomass.production,year,price,fract.harvested
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.9
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.9
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.9
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.9
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.9
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.9
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.9
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.9
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.9
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.9
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.9
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.9
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.9
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.9
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.9
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.9
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.668579328
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.668579328
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.668579328
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.668579328
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.312231063
+China,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.312231063
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.312231063
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.312231063
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.598565434
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.598565434
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.598565434
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.598565434
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.598565434
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.598565434
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.598565434
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.598565434
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.101285047
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.101285047
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.101285047
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.101285047
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.546050877
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.546050877
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.546050877
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.546050877
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.9
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.9
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.9
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.9
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.049624485
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.049624485
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.049624485
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.049624485
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.2,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.2,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.2,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.2,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+USA,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Africa_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Africa_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Africa_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Africa_Western,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Australia_NZ,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Brazil,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Canada,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Central America and Caribbean,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Central Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+China,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+EU-12,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+EU-15,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Europe_Eastern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Europe_Non_EU,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+European Free Trade Association,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+India,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Indonesia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Japan,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Mexico,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Middle East,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Pakistan,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Russia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+South Africa,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+South America_Northern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+South America_Southern,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+South Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+South Korea,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Southeast Asia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Argentina,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,1975,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,1990,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2005,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2010,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2015,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2020,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2025,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2030,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2035,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2040,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2045,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2050,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2055,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2060,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2065,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2070,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2075,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2080,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2085,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2090,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2095,10,1
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,0,0
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.2,0.6
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,1.5,0.8
+Colombia,NonFoodDemand_Forest,Forest,Forest,biomass,2100,10,1

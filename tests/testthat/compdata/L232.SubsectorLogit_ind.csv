@@ -1,0 +1,327 @@
+# For industry sector, the subsector logit exponents from A32.subsector_logit are expanded into all GCAM regions with non-existent heat subsectors removed
+region,supplysector,subsector,logit.year.fillout,logit.exponent,logit.type
+USA,industrial energy use,biomass,1975,-6,NA
+Africa_Eastern,industrial energy use,biomass,1975,-6,NA
+Africa_Northern,industrial energy use,biomass,1975,-6,NA
+Africa_Southern,industrial energy use,biomass,1975,-6,NA
+Africa_Western,industrial energy use,biomass,1975,-6,NA
+Australia_NZ,industrial energy use,biomass,1975,-6,NA
+Brazil,industrial energy use,biomass,1975,-6,NA
+Canada,industrial energy use,biomass,1975,-6,NA
+Central America and Caribbean,industrial energy use,biomass,1975,-6,NA
+Central Asia,industrial energy use,biomass,1975,-6,NA
+China,industrial energy use,biomass,1975,-6,NA
+EU-12,industrial energy use,biomass,1975,-6,NA
+EU-15,industrial energy use,biomass,1975,-6,NA
+Europe_Eastern,industrial energy use,biomass,1975,-6,NA
+Europe_Non_EU,industrial energy use,biomass,1975,-6,NA
+European Free Trade Association,industrial energy use,biomass,1975,-6,NA
+India,industrial energy use,biomass,1975,-6,NA
+Indonesia,industrial energy use,biomass,1975,-6,NA
+Japan,industrial energy use,biomass,1975,-6,NA
+Mexico,industrial energy use,biomass,1975,-6,NA
+Middle East,industrial energy use,biomass,1975,-6,NA
+Pakistan,industrial energy use,biomass,1975,-6,NA
+Russia,industrial energy use,biomass,1975,-6,NA
+South Africa,industrial energy use,biomass,1975,-6,NA
+South America_Northern,industrial energy use,biomass,1975,-6,NA
+South America_Southern,industrial energy use,biomass,1975,-6,NA
+South Asia,industrial energy use,biomass,1975,-6,NA
+South Korea,industrial energy use,biomass,1975,-6,NA
+Southeast Asia,industrial energy use,biomass,1975,-6,NA
+Taiwan,industrial energy use,biomass,1975,-6,NA
+Argentina,industrial energy use,biomass,1975,-6,NA
+Colombia,industrial energy use,biomass,1975,-6,NA
+USA,industrial energy use,coal,1975,-6,NA
+Africa_Eastern,industrial energy use,coal,1975,-6,NA
+Africa_Northern,industrial energy use,coal,1975,-6,NA
+Africa_Southern,industrial energy use,coal,1975,-6,NA
+Africa_Western,industrial energy use,coal,1975,-6,NA
+Australia_NZ,industrial energy use,coal,1975,-6,NA
+Brazil,industrial energy use,coal,1975,-6,NA
+Canada,industrial energy use,coal,1975,-6,NA
+Central America and Caribbean,industrial energy use,coal,1975,-6,NA
+Central Asia,industrial energy use,coal,1975,-6,NA
+China,industrial energy use,coal,1975,-6,NA
+EU-12,industrial energy use,coal,1975,-6,NA
+EU-15,industrial energy use,coal,1975,-6,NA
+Europe_Eastern,industrial energy use,coal,1975,-6,NA
+Europe_Non_EU,industrial energy use,coal,1975,-6,NA
+European Free Trade Association,industrial energy use,coal,1975,-6,NA
+India,industrial energy use,coal,1975,-6,NA
+Indonesia,industrial energy use,coal,1975,-6,NA
+Japan,industrial energy use,coal,1975,-6,NA
+Mexico,industrial energy use,coal,1975,-6,NA
+Middle East,industrial energy use,coal,1975,-6,NA
+Pakistan,industrial energy use,coal,1975,-6,NA
+Russia,industrial energy use,coal,1975,-6,NA
+South Africa,industrial energy use,coal,1975,-6,NA
+South America_Northern,industrial energy use,coal,1975,-6,NA
+South America_Southern,industrial energy use,coal,1975,-6,NA
+South Asia,industrial energy use,coal,1975,-6,NA
+South Korea,industrial energy use,coal,1975,-6,NA
+Southeast Asia,industrial energy use,coal,1975,-6,NA
+Taiwan,industrial energy use,coal,1975,-6,NA
+Argentina,industrial energy use,coal,1975,-6,NA
+Colombia,industrial energy use,coal,1975,-6,NA
+China,industrial energy use,district heat,1975,-6,NA
+EU-12,industrial energy use,district heat,1975,-6,NA
+Europe_Eastern,industrial energy use,district heat,1975,-6,NA
+Europe_Non_EU,industrial energy use,district heat,1975,-6,NA
+Russia,industrial energy use,district heat,1975,-6,NA
+USA,industrial energy use,electricity,1975,-6,NA
+Africa_Eastern,industrial energy use,electricity,1975,-6,NA
+Africa_Northern,industrial energy use,electricity,1975,-6,NA
+Africa_Southern,industrial energy use,electricity,1975,-6,NA
+Africa_Western,industrial energy use,electricity,1975,-6,NA
+Australia_NZ,industrial energy use,electricity,1975,-6,NA
+Brazil,industrial energy use,electricity,1975,-6,NA
+Canada,industrial energy use,electricity,1975,-6,NA
+Central America and Caribbean,industrial energy use,electricity,1975,-6,NA
+Central Asia,industrial energy use,electricity,1975,-6,NA
+China,industrial energy use,electricity,1975,-6,NA
+EU-12,industrial energy use,electricity,1975,-6,NA
+EU-15,industrial energy use,electricity,1975,-6,NA
+Europe_Eastern,industrial energy use,electricity,1975,-6,NA
+Europe_Non_EU,industrial energy use,electricity,1975,-6,NA
+European Free Trade Association,industrial energy use,electricity,1975,-6,NA
+India,industrial energy use,electricity,1975,-6,NA
+Indonesia,industrial energy use,electricity,1975,-6,NA
+Japan,industrial energy use,electricity,1975,-6,NA
+Mexico,industrial energy use,electricity,1975,-6,NA
+Middle East,industrial energy use,electricity,1975,-6,NA
+Pakistan,industrial energy use,electricity,1975,-6,NA
+Russia,industrial energy use,electricity,1975,-6,NA
+South Africa,industrial energy use,electricity,1975,-6,NA
+South America_Northern,industrial energy use,electricity,1975,-6,NA
+South America_Southern,industrial energy use,electricity,1975,-6,NA
+South Asia,industrial energy use,electricity,1975,-6,NA
+South Korea,industrial energy use,electricity,1975,-6,NA
+Southeast Asia,industrial energy use,electricity,1975,-6,NA
+Taiwan,industrial energy use,electricity,1975,-6,NA
+Argentina,industrial energy use,electricity,1975,-6,NA
+Colombia,industrial energy use,electricity,1975,-6,NA
+USA,industrial energy use,gas,1975,-6,NA
+Africa_Eastern,industrial energy use,gas,1975,-6,NA
+Africa_Northern,industrial energy use,gas,1975,-6,NA
+Africa_Southern,industrial energy use,gas,1975,-6,NA
+Africa_Western,industrial energy use,gas,1975,-6,NA
+Australia_NZ,industrial energy use,gas,1975,-6,NA
+Brazil,industrial energy use,gas,1975,-6,NA
+Canada,industrial energy use,gas,1975,-6,NA
+Central America and Caribbean,industrial energy use,gas,1975,-6,NA
+Central Asia,industrial energy use,gas,1975,-6,NA
+China,industrial energy use,gas,1975,-6,NA
+EU-12,industrial energy use,gas,1975,-6,NA
+EU-15,industrial energy use,gas,1975,-6,NA
+Europe_Eastern,industrial energy use,gas,1975,-6,NA
+Europe_Non_EU,industrial energy use,gas,1975,-6,NA
+European Free Trade Association,industrial energy use,gas,1975,-6,NA
+India,industrial energy use,gas,1975,-6,NA
+Indonesia,industrial energy use,gas,1975,-6,NA
+Japan,industrial energy use,gas,1975,-6,NA
+Mexico,industrial energy use,gas,1975,-6,NA
+Middle East,industrial energy use,gas,1975,-6,NA
+Pakistan,industrial energy use,gas,1975,-6,NA
+Russia,industrial energy use,gas,1975,-6,NA
+South Africa,industrial energy use,gas,1975,-6,NA
+South America_Northern,industrial energy use,gas,1975,-6,NA
+South America_Southern,industrial energy use,gas,1975,-6,NA
+South Asia,industrial energy use,gas,1975,-6,NA
+South Korea,industrial energy use,gas,1975,-6,NA
+Southeast Asia,industrial energy use,gas,1975,-6,NA
+Taiwan,industrial energy use,gas,1975,-6,NA
+Argentina,industrial energy use,gas,1975,-6,NA
+Colombia,industrial energy use,gas,1975,-6,NA
+USA,industrial energy use,hydrogen,1975,-6,NA
+Africa_Eastern,industrial energy use,hydrogen,1975,-6,NA
+Africa_Northern,industrial energy use,hydrogen,1975,-6,NA
+Africa_Southern,industrial energy use,hydrogen,1975,-6,NA
+Africa_Western,industrial energy use,hydrogen,1975,-6,NA
+Australia_NZ,industrial energy use,hydrogen,1975,-6,NA
+Brazil,industrial energy use,hydrogen,1975,-6,NA
+Canada,industrial energy use,hydrogen,1975,-6,NA
+Central America and Caribbean,industrial energy use,hydrogen,1975,-6,NA
+Central Asia,industrial energy use,hydrogen,1975,-6,NA
+China,industrial energy use,hydrogen,1975,-6,NA
+EU-12,industrial energy use,hydrogen,1975,-6,NA
+EU-15,industrial energy use,hydrogen,1975,-6,NA
+Europe_Eastern,industrial energy use,hydrogen,1975,-6,NA
+Europe_Non_EU,industrial energy use,hydrogen,1975,-6,NA
+European Free Trade Association,industrial energy use,hydrogen,1975,-6,NA
+India,industrial energy use,hydrogen,1975,-6,NA
+Indonesia,industrial energy use,hydrogen,1975,-6,NA
+Japan,industrial energy use,hydrogen,1975,-6,NA
+Mexico,industrial energy use,hydrogen,1975,-6,NA
+Middle East,industrial energy use,hydrogen,1975,-6,NA
+Pakistan,industrial energy use,hydrogen,1975,-6,NA
+Russia,industrial energy use,hydrogen,1975,-6,NA
+South Africa,industrial energy use,hydrogen,1975,-6,NA
+South America_Northern,industrial energy use,hydrogen,1975,-6,NA
+South America_Southern,industrial energy use,hydrogen,1975,-6,NA
+South Asia,industrial energy use,hydrogen,1975,-6,NA
+South Korea,industrial energy use,hydrogen,1975,-6,NA
+Southeast Asia,industrial energy use,hydrogen,1975,-6,NA
+Taiwan,industrial energy use,hydrogen,1975,-6,NA
+Argentina,industrial energy use,hydrogen,1975,-6,NA
+Colombia,industrial energy use,hydrogen,1975,-6,NA
+USA,industrial energy use,refined liquids,1975,-6,NA
+Africa_Eastern,industrial energy use,refined liquids,1975,-6,NA
+Africa_Northern,industrial energy use,refined liquids,1975,-6,NA
+Africa_Southern,industrial energy use,refined liquids,1975,-6,NA
+Africa_Western,industrial energy use,refined liquids,1975,-6,NA
+Australia_NZ,industrial energy use,refined liquids,1975,-6,NA
+Brazil,industrial energy use,refined liquids,1975,-6,NA
+Canada,industrial energy use,refined liquids,1975,-6,NA
+Central America and Caribbean,industrial energy use,refined liquids,1975,-6,NA
+Central Asia,industrial energy use,refined liquids,1975,-6,NA
+China,industrial energy use,refined liquids,1975,-6,NA
+EU-12,industrial energy use,refined liquids,1975,-6,NA
+EU-15,industrial energy use,refined liquids,1975,-6,NA
+Europe_Eastern,industrial energy use,refined liquids,1975,-6,NA
+Europe_Non_EU,industrial energy use,refined liquids,1975,-6,NA
+European Free Trade Association,industrial energy use,refined liquids,1975,-6,NA
+India,industrial energy use,refined liquids,1975,-6,NA
+Indonesia,industrial energy use,refined liquids,1975,-6,NA
+Japan,industrial energy use,refined liquids,1975,-6,NA
+Mexico,industrial energy use,refined liquids,1975,-6,NA
+Middle East,industrial energy use,refined liquids,1975,-6,NA
+Pakistan,industrial energy use,refined liquids,1975,-6,NA
+Russia,industrial energy use,refined liquids,1975,-6,NA
+South Africa,industrial energy use,refined liquids,1975,-6,NA
+South America_Northern,industrial energy use,refined liquids,1975,-6,NA
+South America_Southern,industrial energy use,refined liquids,1975,-6,NA
+South Asia,industrial energy use,refined liquids,1975,-6,NA
+South Korea,industrial energy use,refined liquids,1975,-6,NA
+Southeast Asia,industrial energy use,refined liquids,1975,-6,NA
+Taiwan,industrial energy use,refined liquids,1975,-6,NA
+Argentina,industrial energy use,refined liquids,1975,-6,NA
+Colombia,industrial energy use,refined liquids,1975,-6,NA
+USA,industrial feedstocks,coal,1975,-6,NA
+Africa_Eastern,industrial feedstocks,coal,1975,-6,NA
+Africa_Northern,industrial feedstocks,coal,1975,-6,NA
+Africa_Southern,industrial feedstocks,coal,1975,-6,NA
+Africa_Western,industrial feedstocks,coal,1975,-6,NA
+Australia_NZ,industrial feedstocks,coal,1975,-6,NA
+Brazil,industrial feedstocks,coal,1975,-6,NA
+Canada,industrial feedstocks,coal,1975,-6,NA
+Central America and Caribbean,industrial feedstocks,coal,1975,-6,NA
+Central Asia,industrial feedstocks,coal,1975,-6,NA
+China,industrial feedstocks,coal,1975,-6,NA
+EU-12,industrial feedstocks,coal,1975,-6,NA
+EU-15,industrial feedstocks,coal,1975,-6,NA
+Europe_Eastern,industrial feedstocks,coal,1975,-6,NA
+Europe_Non_EU,industrial feedstocks,coal,1975,-6,NA
+European Free Trade Association,industrial feedstocks,coal,1975,-6,NA
+India,industrial feedstocks,coal,1975,-6,NA
+Indonesia,industrial feedstocks,coal,1975,-6,NA
+Japan,industrial feedstocks,coal,1975,-6,NA
+Mexico,industrial feedstocks,coal,1975,-6,NA
+Middle East,industrial feedstocks,coal,1975,-6,NA
+Pakistan,industrial feedstocks,coal,1975,-6,NA
+Russia,industrial feedstocks,coal,1975,-6,NA
+South Africa,industrial feedstocks,coal,1975,-6,NA
+South America_Northern,industrial feedstocks,coal,1975,-6,NA
+South America_Southern,industrial feedstocks,coal,1975,-6,NA
+South Asia,industrial feedstocks,coal,1975,-6,NA
+South Korea,industrial feedstocks,coal,1975,-6,NA
+Southeast Asia,industrial feedstocks,coal,1975,-6,NA
+Taiwan,industrial feedstocks,coal,1975,-6,NA
+Argentina,industrial feedstocks,coal,1975,-6,NA
+Colombia,industrial feedstocks,coal,1975,-6,NA
+USA,industrial feedstocks,gas,1975,-6,NA
+Africa_Eastern,industrial feedstocks,gas,1975,-6,NA
+Africa_Northern,industrial feedstocks,gas,1975,-6,NA
+Africa_Southern,industrial feedstocks,gas,1975,-6,NA
+Africa_Western,industrial feedstocks,gas,1975,-6,NA
+Australia_NZ,industrial feedstocks,gas,1975,-6,NA
+Brazil,industrial feedstocks,gas,1975,-6,NA
+Canada,industrial feedstocks,gas,1975,-6,NA
+Central America and Caribbean,industrial feedstocks,gas,1975,-6,NA
+Central Asia,industrial feedstocks,gas,1975,-6,NA
+China,industrial feedstocks,gas,1975,-6,NA
+EU-12,industrial feedstocks,gas,1975,-6,NA
+EU-15,industrial feedstocks,gas,1975,-6,NA
+Europe_Eastern,industrial feedstocks,gas,1975,-6,NA
+Europe_Non_EU,industrial feedstocks,gas,1975,-6,NA
+European Free Trade Association,industrial feedstocks,gas,1975,-6,NA
+India,industrial feedstocks,gas,1975,-6,NA
+Indonesia,industrial feedstocks,gas,1975,-6,NA
+Japan,industrial feedstocks,gas,1975,-6,NA
+Mexico,industrial feedstocks,gas,1975,-6,NA
+Middle East,industrial feedstocks,gas,1975,-6,NA
+Pakistan,industrial feedstocks,gas,1975,-6,NA
+Russia,industrial feedstocks,gas,1975,-6,NA
+South Africa,industrial feedstocks,gas,1975,-6,NA
+South America_Northern,industrial feedstocks,gas,1975,-6,NA
+South America_Southern,industrial feedstocks,gas,1975,-6,NA
+South Asia,industrial feedstocks,gas,1975,-6,NA
+South Korea,industrial feedstocks,gas,1975,-6,NA
+Southeast Asia,industrial feedstocks,gas,1975,-6,NA
+Taiwan,industrial feedstocks,gas,1975,-6,NA
+Argentina,industrial feedstocks,gas,1975,-6,NA
+Colombia,industrial feedstocks,gas,1975,-6,NA
+USA,industrial feedstocks,refined liquids,1975,-6,NA
+Africa_Eastern,industrial feedstocks,refined liquids,1975,-6,NA
+Africa_Northern,industrial feedstocks,refined liquids,1975,-6,NA
+Africa_Southern,industrial feedstocks,refined liquids,1975,-6,NA
+Africa_Western,industrial feedstocks,refined liquids,1975,-6,NA
+Australia_NZ,industrial feedstocks,refined liquids,1975,-6,NA
+Brazil,industrial feedstocks,refined liquids,1975,-6,NA
+Canada,industrial feedstocks,refined liquids,1975,-6,NA
+Central America and Caribbean,industrial feedstocks,refined liquids,1975,-6,NA
+Central Asia,industrial feedstocks,refined liquids,1975,-6,NA
+China,industrial feedstocks,refined liquids,1975,-6,NA
+EU-12,industrial feedstocks,refined liquids,1975,-6,NA
+EU-15,industrial feedstocks,refined liquids,1975,-6,NA
+Europe_Eastern,industrial feedstocks,refined liquids,1975,-6,NA
+Europe_Non_EU,industrial feedstocks,refined liquids,1975,-6,NA
+European Free Trade Association,industrial feedstocks,refined liquids,1975,-6,NA
+India,industrial feedstocks,refined liquids,1975,-6,NA
+Indonesia,industrial feedstocks,refined liquids,1975,-6,NA
+Japan,industrial feedstocks,refined liquids,1975,-6,NA
+Mexico,industrial feedstocks,refined liquids,1975,-6,NA
+Middle East,industrial feedstocks,refined liquids,1975,-6,NA
+Pakistan,industrial feedstocks,refined liquids,1975,-6,NA
+Russia,industrial feedstocks,refined liquids,1975,-6,NA
+South Africa,industrial feedstocks,refined liquids,1975,-6,NA
+South America_Northern,industrial feedstocks,refined liquids,1975,-6,NA
+South America_Southern,industrial feedstocks,refined liquids,1975,-6,NA
+South Asia,industrial feedstocks,refined liquids,1975,-6,NA
+South Korea,industrial feedstocks,refined liquids,1975,-6,NA
+Southeast Asia,industrial feedstocks,refined liquids,1975,-6,NA
+Taiwan,industrial feedstocks,refined liquids,1975,-6,NA
+Argentina,industrial feedstocks,refined liquids,1975,-6,NA
+Colombia,industrial feedstocks,refined liquids,1975,-6,NA
+USA,industry,industry,1975,-6,NA
+Africa_Eastern,industry,industry,1975,-6,NA
+Africa_Northern,industry,industry,1975,-6,NA
+Africa_Southern,industry,industry,1975,-6,NA
+Africa_Western,industry,industry,1975,-6,NA
+Australia_NZ,industry,industry,1975,-6,NA
+Brazil,industry,industry,1975,-6,NA
+Canada,industry,industry,1975,-6,NA
+Central America and Caribbean,industry,industry,1975,-6,NA
+Central Asia,industry,industry,1975,-6,NA
+China,industry,industry,1975,-6,NA
+EU-12,industry,industry,1975,-6,NA
+EU-15,industry,industry,1975,-6,NA
+Europe_Eastern,industry,industry,1975,-6,NA
+Europe_Non_EU,industry,industry,1975,-6,NA
+European Free Trade Association,industry,industry,1975,-6,NA
+India,industry,industry,1975,-6,NA
+Indonesia,industry,industry,1975,-6,NA
+Japan,industry,industry,1975,-6,NA
+Mexico,industry,industry,1975,-6,NA
+Middle East,industry,industry,1975,-6,NA
+Pakistan,industry,industry,1975,-6,NA
+Russia,industry,industry,1975,-6,NA
+South Africa,industry,industry,1975,-6,NA
+South America_Northern,industry,industry,1975,-6,NA
+South America_Southern,industry,industry,1975,-6,NA
+South Asia,industry,industry,1975,-6,NA
+South Korea,industry,industry,1975,-6,NA
+Southeast Asia,industry,industry,1975,-6,NA
+Taiwan,industry,industry,1975,-6,NA
+Argentina,industry,industry,1975,-6,NA
+Colombia,industry,industry,1975,-6,NA
