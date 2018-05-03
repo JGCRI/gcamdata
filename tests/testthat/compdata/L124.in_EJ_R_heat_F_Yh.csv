@@ -1,0 +1,5123 @@
+# Input heat is extracted from energy balance, aggregated based on aggregate fuel types
+# To avoid processing failure, 0 years have base year (2010) * 1e-3 added
+fuel,sector,GCAM_region_ID,year,value
+biomass,heat,1,1971,0
+biomass,heat,1,1972,0
+biomass,heat,1,1973,0
+biomass,heat,1,1974,0
+biomass,heat,1,1975,0
+biomass,heat,1,1976,0
+biomass,heat,1,1977,0
+biomass,heat,1,1978,0
+biomass,heat,1,1979,0
+biomass,heat,1,1980,0
+biomass,heat,1,1981,0
+biomass,heat,1,1982,0
+biomass,heat,1,1983,0
+biomass,heat,1,1984,0
+biomass,heat,1,1985,0
+biomass,heat,1,1986,0
+biomass,heat,1,1987,0
+biomass,heat,1,1988,0
+biomass,heat,1,1989,0
+biomass,heat,1,1990,0
+biomass,heat,1,1991,0
+biomass,heat,1,1992,0
+biomass,heat,1,1993,0
+biomass,heat,1,1994,0
+biomass,heat,1,1995,0
+biomass,heat,1,1996,0
+biomass,heat,1,1997,0
+biomass,heat,1,1998,0
+biomass,heat,1,1999,0
+biomass,heat,1,2000,0
+biomass,heat,1,2001,0
+biomass,heat,1,2002,0
+biomass,heat,1,2003,0
+biomass,heat,1,2004,0
+biomass,heat,1,2005,0
+biomass,heat,1,2006,0
+biomass,heat,1,2007,0
+biomass,heat,1,2008,0
+biomass,heat,1,2009,0
+biomass,heat,1,2010,0
+biomass,heat,2,1971,0
+biomass,heat,2,1972,0
+biomass,heat,2,1973,0
+biomass,heat,2,1974,0
+biomass,heat,2,1975,0
+biomass,heat,2,1976,0
+biomass,heat,2,1977,0
+biomass,heat,2,1978,0
+biomass,heat,2,1979,0
+biomass,heat,2,1980,0
+biomass,heat,2,1981,0
+biomass,heat,2,1982,0
+biomass,heat,2,1983,0
+biomass,heat,2,1984,0
+biomass,heat,2,1985,0
+biomass,heat,2,1986,0
+biomass,heat,2,1987,0
+biomass,heat,2,1988,0
+biomass,heat,2,1989,0
+biomass,heat,2,1990,0
+biomass,heat,2,1991,0
+biomass,heat,2,1992,0
+biomass,heat,2,1993,0
+biomass,heat,2,1994,0
+biomass,heat,2,1995,0
+biomass,heat,2,1996,0
+biomass,heat,2,1997,0
+biomass,heat,2,1998,0
+biomass,heat,2,1999,0
+biomass,heat,2,2000,0
+biomass,heat,2,2001,0
+biomass,heat,2,2002,0
+biomass,heat,2,2003,0
+biomass,heat,2,2004,0
+biomass,heat,2,2005,0
+biomass,heat,2,2006,0
+biomass,heat,2,2007,0
+biomass,heat,2,2008,0
+biomass,heat,2,2009,0
+biomass,heat,2,2010,0
+biomass,heat,3,1971,0
+biomass,heat,3,1972,0
+biomass,heat,3,1973,0
+biomass,heat,3,1974,0
+biomass,heat,3,1975,0
+biomass,heat,3,1976,0
+biomass,heat,3,1977,0
+biomass,heat,3,1978,0
+biomass,heat,3,1979,0
+biomass,heat,3,1980,0
+biomass,heat,3,1981,0
+biomass,heat,3,1982,0
+biomass,heat,3,1983,0
+biomass,heat,3,1984,0
+biomass,heat,3,1985,0
+biomass,heat,3,1986,0
+biomass,heat,3,1987,0
+biomass,heat,3,1988,0
+biomass,heat,3,1989,0
+biomass,heat,3,1990,0
+biomass,heat,3,1991,0
+biomass,heat,3,1992,0
+biomass,heat,3,1993,0
+biomass,heat,3,1994,0
+biomass,heat,3,1995,0
+biomass,heat,3,1996,0
+biomass,heat,3,1997,0
+biomass,heat,3,1998,0
+biomass,heat,3,1999,0
+biomass,heat,3,2000,0
+biomass,heat,3,2001,0
+biomass,heat,3,2002,0
+biomass,heat,3,2003,0
+biomass,heat,3,2004,0
+biomass,heat,3,2005,0
+biomass,heat,3,2006,0
+biomass,heat,3,2007,0
+biomass,heat,3,2008,0
+biomass,heat,3,2009,0
+biomass,heat,3,2010,0
+biomass,heat,4,1971,0
+biomass,heat,4,1972,0
+biomass,heat,4,1973,0
+biomass,heat,4,1974,0
+biomass,heat,4,1975,0
+biomass,heat,4,1976,0
+biomass,heat,4,1977,0
+biomass,heat,4,1978,0
+biomass,heat,4,1979,0
+biomass,heat,4,1980,0
+biomass,heat,4,1981,0
+biomass,heat,4,1982,0
+biomass,heat,4,1983,0
+biomass,heat,4,1984,0
+biomass,heat,4,1985,0
+biomass,heat,4,1986,0
+biomass,heat,4,1987,0
+biomass,heat,4,1988,0
+biomass,heat,4,1989,0
+biomass,heat,4,1990,0
+biomass,heat,4,1991,0
+biomass,heat,4,1992,0
+biomass,heat,4,1993,0
+biomass,heat,4,1994,0
+biomass,heat,4,1995,0
+biomass,heat,4,1996,0
+biomass,heat,4,1997,0
+biomass,heat,4,1998,0
+biomass,heat,4,1999,0
+biomass,heat,4,2000,0
+biomass,heat,4,2001,0
+biomass,heat,4,2002,0
+biomass,heat,4,2003,0
+biomass,heat,4,2004,0
+biomass,heat,4,2005,0
+biomass,heat,4,2006,0
+biomass,heat,4,2007,0
+biomass,heat,4,2008,0
+biomass,heat,4,2009,0
+biomass,heat,4,2010,0
+biomass,heat,5,1971,0
+biomass,heat,5,1972,0
+biomass,heat,5,1973,0
+biomass,heat,5,1974,0
+biomass,heat,5,1975,0
+biomass,heat,5,1976,0
+biomass,heat,5,1977,0
+biomass,heat,5,1978,0
+biomass,heat,5,1979,0
+biomass,heat,5,1980,0
+biomass,heat,5,1981,0
+biomass,heat,5,1982,0
+biomass,heat,5,1983,0
+biomass,heat,5,1984,0
+biomass,heat,5,1985,0
+biomass,heat,5,1986,0
+biomass,heat,5,1987,0
+biomass,heat,5,1988,0
+biomass,heat,5,1989,0
+biomass,heat,5,1990,0
+biomass,heat,5,1991,0
+biomass,heat,5,1992,0
+biomass,heat,5,1993,0
+biomass,heat,5,1994,0
+biomass,heat,5,1995,0
+biomass,heat,5,1996,0
+biomass,heat,5,1997,0
+biomass,heat,5,1998,0
+biomass,heat,5,1999,0
+biomass,heat,5,2000,0
+biomass,heat,5,2001,0
+biomass,heat,5,2002,0
+biomass,heat,5,2003,0
+biomass,heat,5,2004,0
+biomass,heat,5,2005,0
+biomass,heat,5,2006,0
+biomass,heat,5,2007,0
+biomass,heat,5,2008,0
+biomass,heat,5,2009,0
+biomass,heat,5,2010,0
+biomass,heat,6,1971,0
+biomass,heat,6,1972,0
+biomass,heat,6,1973,0
+biomass,heat,6,1974,0
+biomass,heat,6,1975,0
+biomass,heat,6,1976,0
+biomass,heat,6,1977,0
+biomass,heat,6,1978,0
+biomass,heat,6,1979,0
+biomass,heat,6,1980,0
+biomass,heat,6,1981,0
+biomass,heat,6,1982,0
+biomass,heat,6,1983,0
+biomass,heat,6,1984,0
+biomass,heat,6,1985,0
+biomass,heat,6,1986,0
+biomass,heat,6,1987,0
+biomass,heat,6,1988,0
+biomass,heat,6,1989,0
+biomass,heat,6,1990,0
+biomass,heat,6,1991,0
+biomass,heat,6,1992,0
+biomass,heat,6,1993,0
+biomass,heat,6,1994,0
+biomass,heat,6,1995,0
+biomass,heat,6,1996,0
+biomass,heat,6,1997,0
+biomass,heat,6,1998,0
+biomass,heat,6,1999,0
+biomass,heat,6,2000,0
+biomass,heat,6,2001,0
+biomass,heat,6,2002,0
+biomass,heat,6,2003,0
+biomass,heat,6,2004,0
+biomass,heat,6,2005,0
+biomass,heat,6,2006,0
+biomass,heat,6,2007,0
+biomass,heat,6,2008,0
+biomass,heat,6,2009,0
+biomass,heat,6,2010,0
+biomass,heat,7,1971,0
+biomass,heat,7,1972,0
+biomass,heat,7,1973,0
+biomass,heat,7,1974,0
+biomass,heat,7,1975,0
+biomass,heat,7,1976,0
+biomass,heat,7,1977,0
+biomass,heat,7,1978,0
+biomass,heat,7,1979,0
+biomass,heat,7,1980,0
+biomass,heat,7,1981,0
+biomass,heat,7,1982,0
+biomass,heat,7,1983,0
+biomass,heat,7,1984,0
+biomass,heat,7,1985,0
+biomass,heat,7,1986,0
+biomass,heat,7,1987,0
+biomass,heat,7,1988,0
+biomass,heat,7,1989,0
+biomass,heat,7,1990,0
+biomass,heat,7,1991,0
+biomass,heat,7,1992,0
+biomass,heat,7,1993,0
+biomass,heat,7,1994,0
+biomass,heat,7,1995,0
+biomass,heat,7,1996,0
+biomass,heat,7,1997,0
+biomass,heat,7,1998,0
+biomass,heat,7,1999,0
+biomass,heat,7,2000,0
+biomass,heat,7,2001,0
+biomass,heat,7,2002,0
+biomass,heat,7,2003,0
+biomass,heat,7,2004,0
+biomass,heat,7,2005,0
+biomass,heat,7,2006,0
+biomass,heat,7,2007,0
+biomass,heat,7,2008,0
+biomass,heat,7,2009,0
+biomass,heat,7,2010,0
+biomass,heat,8,1971,0
+biomass,heat,8,1972,0
+biomass,heat,8,1973,0
+biomass,heat,8,1974,0
+biomass,heat,8,1975,0
+biomass,heat,8,1976,0
+biomass,heat,8,1977,0
+biomass,heat,8,1978,0
+biomass,heat,8,1979,0
+biomass,heat,8,1980,0
+biomass,heat,8,1981,0
+biomass,heat,8,1982,0
+biomass,heat,8,1983,0
+biomass,heat,8,1984,0
+biomass,heat,8,1985,0
+biomass,heat,8,1986,0
+biomass,heat,8,1987,0
+biomass,heat,8,1988,0
+biomass,heat,8,1989,0
+biomass,heat,8,1990,0.0026371800000000003
+biomass,heat,8,1991,0.0026371800000000003
+biomass,heat,8,1992,0.0026371800000000003
+biomass,heat,8,1993,0.0026371800000000003
+biomass,heat,8,1994,0.0026371800000000003
+biomass,heat,8,1995,0.0026371800000000003
+biomass,heat,8,1996,0.0026371800000000003
+biomass,heat,8,1997,0.0026371800000000003
+biomass,heat,8,1998,0.0026371800000000003
+biomass,heat,8,1999,0.0026371800000000003
+biomass,heat,8,2000,0.0026371800000000003
+biomass,heat,8,2001,0.0026371800000000003
+biomass,heat,8,2002,0.0026371800000000003
+biomass,heat,8,2003,0.0026371800000000003
+biomass,heat,8,2004,0.0026371800000000003
+biomass,heat,8,2005,0.0026371800000000003
+biomass,heat,8,2006,0.00226044
+biomass,heat,8,2007,0.00226044
+biomass,heat,8,2008,0.00238602
+biomass,heat,8,2009,0.0025953200000000004
+biomass,heat,8,2010,0.0025953200000000004
+biomass,heat,9,1971,0
+biomass,heat,9,1972,0
+biomass,heat,9,1973,0
+biomass,heat,9,1974,0
+biomass,heat,9,1975,0
+biomass,heat,9,1976,0
+biomass,heat,9,1977,0
+biomass,heat,9,1978,0
+biomass,heat,9,1979,0
+biomass,heat,9,1980,0
+biomass,heat,9,1981,0
+biomass,heat,9,1982,0
+biomass,heat,9,1983,0
+biomass,heat,9,1984,0
+biomass,heat,9,1985,0
+biomass,heat,9,1986,0
+biomass,heat,9,1987,0
+biomass,heat,9,1988,0
+biomass,heat,9,1989,0
+biomass,heat,9,1990,0
+biomass,heat,9,1991,0
+biomass,heat,9,1992,0
+biomass,heat,9,1993,0
+biomass,heat,9,1994,0
+biomass,heat,9,1995,0
+biomass,heat,9,1996,0
+biomass,heat,9,1997,0
+biomass,heat,9,1998,0
+biomass,heat,9,1999,0
+biomass,heat,9,2000,0
+biomass,heat,9,2001,0
+biomass,heat,9,2002,0
+biomass,heat,9,2003,0
+biomass,heat,9,2004,0
+biomass,heat,9,2005,0
+biomass,heat,9,2006,0
+biomass,heat,9,2007,0
+biomass,heat,9,2008,0
+biomass,heat,9,2009,0
+biomass,heat,9,2010,0
+biomass,heat,10,1971,0
+biomass,heat,10,1972,0
+biomass,heat,10,1973,0
+biomass,heat,10,1974,0
+biomass,heat,10,1975,0
+biomass,heat,10,1976,0
+biomass,heat,10,1977,0
+biomass,heat,10,1978,0
+biomass,heat,10,1979,0
+biomass,heat,10,1980,0
+biomass,heat,10,1981,0
+biomass,heat,10,1982,0
+biomass,heat,10,1983,0
+biomass,heat,10,1984,0
+biomass,heat,10,1985,0
+biomass,heat,10,1986,0
+biomass,heat,10,1987,0
+biomass,heat,10,1988,0
+biomass,heat,10,1989,0
+biomass,heat,10,1990,0
+biomass,heat,10,1991,0
+biomass,heat,10,1992,0
+biomass,heat,10,1993,0
+biomass,heat,10,1994,0
+biomass,heat,10,1995,0
+biomass,heat,10,1996,0
+biomass,heat,10,1997,0
+biomass,heat,10,1998,0
+biomass,heat,10,1999,0
+biomass,heat,10,2000,0
+biomass,heat,10,2001,0
+biomass,heat,10,2002,0
+biomass,heat,10,2003,0
+biomass,heat,10,2004,0
+biomass,heat,10,2005,0
+biomass,heat,10,2006,0
+biomass,heat,10,2007,0
+biomass,heat,10,2008,0
+biomass,heat,10,2009,0
+biomass,heat,10,2010,0
+biomass,heat,11,1971,0
+biomass,heat,11,1972,0
+biomass,heat,11,1973,0
+biomass,heat,11,1974,0
+biomass,heat,11,1975,0
+biomass,heat,11,1976,0
+biomass,heat,11,1977,0
+biomass,heat,11,1978,0
+biomass,heat,11,1979,0
+biomass,heat,11,1980,0
+biomass,heat,11,1981,0
+biomass,heat,11,1982,0
+biomass,heat,11,1983,0
+biomass,heat,11,1984,0
+biomass,heat,11,1985,0
+biomass,heat,11,1986,0
+biomass,heat,11,1987,0
+biomass,heat,11,1988,0
+biomass,heat,11,1989,0
+biomass,heat,11,1990,0
+biomass,heat,11,1991,0
+biomass,heat,11,1992,0
+biomass,heat,11,1993,0
+biomass,heat,11,1994,0.00996268
+biomass,heat,11,1995,0.00686504
+biomass,heat,11,1996,0.0094185
+biomass,heat,11,1997,0.011762660000000001
+biomass,heat,11,1998,0.019883500000000002
+biomass,heat,11,1999,0.02021838
+biomass,heat,11,2000,0.020385820000000002
+biomass,heat,11,2001,0.020511400000000003
+biomass,heat,11,2002,0.02042768
+biomass,heat,11,2003,0.020385820000000002
+biomass,heat,11,2004,0.0203021
+biomass,heat,11,2005,0.02021838
+biomass,heat,11,2006,0.020134660000000002
+biomass,heat,11,2007,0.0200928
+biomass,heat,11,2008,0.01979978
+biomass,heat,11,2009,0.019757920000000002
+biomass,heat,11,2010,0.047301800000000005
+biomass,heat,12,1971,0.00234416
+biomass,heat,12,1972,0.0027209
+biomass,heat,12,1973,0.0022604400000000003
+biomass,heat,12,1974,0.0024278800000000003
+biomass,heat,12,1975,0.00242788
+biomass,heat,12,1976,0.0017581200000000002
+biomass,heat,12,1977,0.00301392
+biomass,heat,12,1978,0.0023023
+biomass,heat,12,1979,0.00142324
+biomass,heat,12,1980,0.0013813800000000002
+biomass,heat,12,1981,0.00154882
+biomass,heat,12,1982,0.00163254
+biomass,heat,12,1983,0.0025953200000000004
+biomass,heat,12,1984,0.0022185800000000004
+biomass,heat,12,1985,0.0022185800000000004
+biomass,heat,12,1986,0.00556738
+biomass,heat,12,1987,0.0054836600000000004
+biomass,heat,12,1988,0.0049394800000000004
+biomass,heat,12,1989,0.004311580000000001
+biomass,heat,12,1990,0.00694876
+biomass,heat,12,1991,0.00799526
+biomass,heat,12,1992,0.02478112
+biomass,heat,12,1993,0.023023000000000002
+biomass,heat,12,1994,0.01439984
+biomass,heat,12,1995,0.019171880000000002
+biomass,heat,12,1996,0.0175812
+biomass,heat,12,1997,0.01825096
+biomass,heat,12,1998,0.0165347
+biomass,heat,12,1999,0.015655640000000002
+biomass,heat,12,2000,0.016618420000000002
+biomass,heat,12,2001,0.01582308
+biomass,heat,12,2002,0.02046954
+biomass,heat,12,2003,0.01963234
+biomass,heat,12,2004,0.02603692
+biomass,heat,12,2005,0.02586948
+biomass,heat,12,2006,0.02796248
+biomass,heat,12,2007,0.0232323
+biomass,heat,12,2008,0.02586948
+biomass,heat,12,2009,0.027167140000000003
+biomass,heat,12,2010,0.028255500000000003
+biomass,heat,13,1971,0.028883400000000004
+biomass,heat,13,1972,0.0339066
+biomass,heat,13,1973,0.0309764
+biomass,heat,13,1974,0.02524158
+biomass,heat,13,1975,0.02662296
+biomass,heat,13,1976,0.0255346
+biomass,heat,13,1977,0.02607878
+biomass,heat,13,1978,0.030306640000000003
+biomass,heat,13,1979,0.03147872
+biomass,heat,13,1980,0.0378833
+biomass,heat,13,1981,0.03721354
+biomass,heat,13,1982,0.039976300000000006
+biomass,heat,13,1983,0.042822780000000005
+biomass,heat,13,1984,0.05990166
+biomass,heat,13,1985,0.0701155
+biomass,heat,13,1986,0.06998992000000001
+biomass,heat,13,1987,0.0822549
+biomass,heat,13,1988,0.08271536
+biomass,heat,13,1989,0.08694322
+biomass,heat,13,1990,0.09050132000000001
+biomass,heat,13,1991,0.0969059
+biomass,heat,13,1992,0.09715706
+biomass,heat,13,1993,0.09950122
+biomass,heat,13,1994,0.10565464000000001
+biomass,heat,13,1995,0.07631078000000001
+biomass,heat,13,1996,0.08702694000000001
+biomass,heat,13,1997,0.0883246
+biomass,heat,13,1998,0.08828274
+biomass,heat,13,1999,0.09255246
+biomass,heat,13,2000,0.09510592000000001
+biomass,heat,13,2001,0.10084074
+biomass,heat,13,2002,0.10745462000000001
+biomass,heat,13,2003,0.11758474000000001
+biomass,heat,13,2004,0.11674754000000001
+biomass,heat,13,2005,0.11875682000000001
+biomass,heat,13,2006,0.12532884
+biomass,heat,13,2007,0.14450072
+biomass,heat,13,2008,0.15509130000000002
+biomass,heat,13,2009,0.1699516
+biomass,heat,13,2010,0.19498388000000003
+biomass,heat,14,1971,2.3567180000000006e-5
+biomass,heat,14,1972,2.3567180000000006e-5
+biomass,heat,14,1973,2.3567180000000006e-5
+biomass,heat,14,1974,2.3567180000000006e-5
+biomass,heat,14,1975,2.3567180000000006e-5
+biomass,heat,14,1976,2.3567180000000006e-5
+biomass,heat,14,1977,2.3567180000000006e-5
+biomass,heat,14,1978,2.3567180000000006e-5
+biomass,heat,14,1979,2.3567180000000006e-5
+biomass,heat,14,1980,2.3567180000000006e-5
+biomass,heat,14,1981,2.3567180000000006e-5
+biomass,heat,14,1982,2.3567180000000006e-5
+biomass,heat,14,1983,2.3567180000000006e-5
+biomass,heat,14,1984,2.3567180000000006e-5
+biomass,heat,14,1985,2.3567180000000006e-5
+biomass,heat,14,1986,2.3567180000000006e-5
+biomass,heat,14,1987,2.3567180000000006e-5
+biomass,heat,14,1988,2.3567180000000006e-5
+biomass,heat,14,1989,2.3567180000000006e-5
+biomass,heat,14,1990,0
+biomass,heat,14,1991,0
+biomass,heat,14,1992,0
+biomass,heat,14,1993,0
+biomass,heat,14,1994,0
+biomass,heat,14,1995,0
+biomass,heat,14,1996,0.00611156
+biomass,heat,14,1997,0.00632086
+biomass,heat,14,1998,0.005860400000000001
+biomass,heat,14,1999,0.00661388
+biomass,heat,14,2000,0.00870688
+biomass,heat,14,2001,0.010130120000000001
+biomass,heat,14,2002,0.011511500000000001
+biomass,heat,14,2003,0.012683580000000002
+biomass,heat,14,2004,0.014609140000000001
+biomass,heat,14,2005,0.01657656
+biomass,heat,14,2006,0.01766492
+biomass,heat,14,2007,0.019171880000000002
+biomass,heat,14,2008,0.01992536
+biomass,heat,14,2009,0.02139046
+biomass,heat,14,2010,0.023567180000000004
+biomass,heat,15,1971,0
+biomass,heat,15,1972,0
+biomass,heat,15,1973,0
+biomass,heat,15,1974,0
+biomass,heat,15,1975,0
+biomass,heat,15,1976,0
+biomass,heat,15,1977,0
+biomass,heat,15,1978,0
+biomass,heat,15,1979,0
+biomass,heat,15,1980,0
+biomass,heat,15,1981,6.697600000000001e-7
+biomass,heat,15,1982,6.697600000000001e-7
+biomass,heat,15,1983,6.697600000000001e-7
+biomass,heat,15,1984,6.697600000000001e-7
+biomass,heat,15,1985,6.697600000000001e-7
+biomass,heat,15,1986,6.697600000000001e-7
+biomass,heat,15,1987,6.697600000000001e-7
+biomass,heat,15,1988,0
+biomass,heat,15,1989,0
+biomass,heat,15,1990,0
+biomass,heat,15,1991,0
+biomass,heat,15,1992,0
+biomass,heat,15,1993,0
+biomass,heat,15,1994,0
+biomass,heat,15,1995,0
+biomass,heat,15,1996,0
+biomass,heat,15,1997,0
+biomass,heat,15,1998,1.2558e-4
+biomass,heat,15,1999,3.3488e-4
+biomass,heat,15,2000,3.3488e-4
+biomass,heat,15,2001,2.5116e-4
+biomass,heat,15,2002,2.5116e-4
+biomass,heat,15,2003,2.5116e-4
+biomass,heat,15,2004,1.6744e-4
+biomass,heat,15,2005,1.2558e-4
+biomass,heat,15,2006,3.7674000000000003e-4
+biomass,heat,15,2007,6.6976e-4
+biomass,heat,15,2008,2.9302e-4
+biomass,heat,15,2009,3.3488e-4
+biomass,heat,15,2010,6.6976e-4
+biomass,heat,16,1971,0
+biomass,heat,16,1972,0
+biomass,heat,16,1973,0
+biomass,heat,16,1974,0
+biomass,heat,16,1975,0
+biomass,heat,16,1976,0
+biomass,heat,16,1977,0
+biomass,heat,16,1978,0
+biomass,heat,16,1979,0
+biomass,heat,16,1980,0
+biomass,heat,16,1981,0
+biomass,heat,16,1982,0
+biomass,heat,16,1983,0.0012558
+biomass,heat,16,1984,0.0015069600000000001
+biomass,heat,16,1985,0.0020930000000000002
+biomass,heat,16,1986,0.00217672
+biomass,heat,16,1987,0.0030139200000000002
+biomass,heat,16,1988,0.00301392
+biomass,heat,16,1989,0.0024278800000000003
+biomass,heat,16,1990,0.00322322
+biomass,heat,16,1991,0.0035581
+biomass,heat,16,1992,0.0029302
+biomass,heat,16,1993,0.0031813600000000003
+biomass,heat,16,1994,0.0031395
+biomass,heat,16,1995,0.0030139200000000002
+biomass,heat,16,1996,0.0030139200000000002
+biomass,heat,16,1997,0.0033069400000000004
+biomass,heat,16,1998,0.0034325200000000005
+biomass,heat,16,1999,0.00393484
+biomass,heat,16,2000,0.00393484
+biomass,heat,16,2001,0.00473018
+biomass,heat,16,2002,0.004562740000000001
+biomass,heat,16,2003,0.00531622
+biomass,heat,16,2004,0.00519064
+biomass,heat,16,2005,0.005399940000000001
+biomass,heat,16,2006,0.0056511
+biomass,heat,16,2007,0.006153420000000001
+biomass,heat,16,2008,0.006697600000000001
+biomass,heat,16,2009,0.00862316
+biomass,heat,16,2010,0.00866502
+biomass,heat,17,1971,0
+biomass,heat,17,1972,0
+biomass,heat,17,1973,0
+biomass,heat,17,1974,0
+biomass,heat,17,1975,0
+biomass,heat,17,1976,0
+biomass,heat,17,1977,0
+biomass,heat,17,1978,0
+biomass,heat,17,1979,0
+biomass,heat,17,1980,0
+biomass,heat,17,1981,0
+biomass,heat,17,1982,0
+biomass,heat,17,1983,0
+biomass,heat,17,1984,0
+biomass,heat,17,1985,0
+biomass,heat,17,1986,0
+biomass,heat,17,1987,0
+biomass,heat,17,1988,0
+biomass,heat,17,1989,0
+biomass,heat,17,1990,0
+biomass,heat,17,1991,0
+biomass,heat,17,1992,0
+biomass,heat,17,1993,0
+biomass,heat,17,1994,0
+biomass,heat,17,1995,0
+biomass,heat,17,1996,0
+biomass,heat,17,1997,0
+biomass,heat,17,1998,0
+biomass,heat,17,1999,0
+biomass,heat,17,2000,0
+biomass,heat,17,2001,0
+biomass,heat,17,2002,0
+biomass,heat,17,2003,0
+biomass,heat,17,2004,0
+biomass,heat,17,2005,0
+biomass,heat,17,2006,0
+biomass,heat,17,2007,0
+biomass,heat,17,2008,0
+biomass,heat,17,2009,0
+biomass,heat,17,2010,0
+biomass,heat,18,1971,0
+biomass,heat,18,1972,0
+biomass,heat,18,1973,0
+biomass,heat,18,1974,0
+biomass,heat,18,1975,0
+biomass,heat,18,1976,0
+biomass,heat,18,1977,0
+biomass,heat,18,1978,0
+biomass,heat,18,1979,0
+biomass,heat,18,1980,0
+biomass,heat,18,1981,0
+biomass,heat,18,1982,0
+biomass,heat,18,1983,0
+biomass,heat,18,1984,0
+biomass,heat,18,1985,0
+biomass,heat,18,1986,0
+biomass,heat,18,1987,0
+biomass,heat,18,1988,0
+biomass,heat,18,1989,0
+biomass,heat,18,1990,0
+biomass,heat,18,1991,0
+biomass,heat,18,1992,0
+biomass,heat,18,1993,0
+biomass,heat,18,1994,0
+biomass,heat,18,1995,0
+biomass,heat,18,1996,0
+biomass,heat,18,1997,0
+biomass,heat,18,1998,0
+biomass,heat,18,1999,0
+biomass,heat,18,2000,0
+biomass,heat,18,2001,0
+biomass,heat,18,2002,0
+biomass,heat,18,2003,0
+biomass,heat,18,2004,0
+biomass,heat,18,2005,0
+biomass,heat,18,2006,0
+biomass,heat,18,2007,0
+biomass,heat,18,2008,0
+biomass,heat,18,2009,0
+biomass,heat,18,2010,0
+biomass,heat,19,1971,0
+biomass,heat,19,1972,0
+biomass,heat,19,1973,0
+biomass,heat,19,1974,0
+biomass,heat,19,1975,0
+biomass,heat,19,1976,0
+biomass,heat,19,1977,0
+biomass,heat,19,1978,0
+biomass,heat,19,1979,0
+biomass,heat,19,1980,0
+biomass,heat,19,1981,0
+biomass,heat,19,1982,0
+biomass,heat,19,1983,0
+biomass,heat,19,1984,0
+biomass,heat,19,1985,0
+biomass,heat,19,1986,0
+biomass,heat,19,1987,0
+biomass,heat,19,1988,0
+biomass,heat,19,1989,0
+biomass,heat,19,1990,8.372e-5
+biomass,heat,19,1991,8.372e-5
+biomass,heat,19,1992,1.2558e-4
+biomass,heat,19,1993,1.2558e-4
+biomass,heat,19,1994,1.2558e-4
+biomass,heat,19,1995,1.2558e-4
+biomass,heat,19,1996,1.2558e-4
+biomass,heat,19,1997,1.6744e-4
+biomass,heat,19,1998,1.2558e-4
+biomass,heat,19,1999,1.2558e-4
+biomass,heat,19,2000,1.6744e-4
+biomass,heat,19,2001,2.0930000000000002e-4
+biomass,heat,19,2002,1.6744e-4
+biomass,heat,19,2003,1.6744e-4
+biomass,heat,19,2004,1.6744e-4
+biomass,heat,19,2005,1.2558e-4
+biomass,heat,19,2006,1.2558e-4
+biomass,heat,19,2007,8.372e-5
+biomass,heat,19,2008,8.372e-5
+biomass,heat,19,2009,8.372e-5
+biomass,heat,19,2010,4.186e-5
+biomass,heat,20,1971,0
+biomass,heat,20,1972,0
+biomass,heat,20,1973,0
+biomass,heat,20,1974,0
+biomass,heat,20,1975,0
+biomass,heat,20,1976,0
+biomass,heat,20,1977,0
+biomass,heat,20,1978,0
+biomass,heat,20,1979,0
+biomass,heat,20,1980,0
+biomass,heat,20,1981,0
+biomass,heat,20,1982,0
+biomass,heat,20,1983,0
+biomass,heat,20,1984,0
+biomass,heat,20,1985,0
+biomass,heat,20,1986,0
+biomass,heat,20,1987,0
+biomass,heat,20,1988,0
+biomass,heat,20,1989,0
+biomass,heat,20,1990,0
+biomass,heat,20,1991,0
+biomass,heat,20,1992,0
+biomass,heat,20,1993,0
+biomass,heat,20,1994,0
+biomass,heat,20,1995,0
+biomass,heat,20,1996,0
+biomass,heat,20,1997,0
+biomass,heat,20,1998,0
+biomass,heat,20,1999,0
+biomass,heat,20,2000,0
+biomass,heat,20,2001,0
+biomass,heat,20,2002,0
+biomass,heat,20,2003,0
+biomass,heat,20,2004,0
+biomass,heat,20,2005,0
+biomass,heat,20,2006,0
+biomass,heat,20,2007,0
+biomass,heat,20,2008,0
+biomass,heat,20,2009,0
+biomass,heat,20,2010,0
+biomass,heat,21,1971,0
+biomass,heat,21,1972,0
+biomass,heat,21,1973,0
+biomass,heat,21,1974,0
+biomass,heat,21,1975,0
+biomass,heat,21,1976,0
+biomass,heat,21,1977,0
+biomass,heat,21,1978,0
+biomass,heat,21,1979,0
+biomass,heat,21,1980,0
+biomass,heat,21,1981,0
+biomass,heat,21,1982,0
+biomass,heat,21,1983,0
+biomass,heat,21,1984,0
+biomass,heat,21,1985,0
+biomass,heat,21,1986,0
+biomass,heat,21,1987,0
+biomass,heat,21,1988,0
+biomass,heat,21,1989,0
+biomass,heat,21,1990,0
+biomass,heat,21,1991,0
+biomass,heat,21,1992,0
+biomass,heat,21,1993,0
+biomass,heat,21,1994,0
+biomass,heat,21,1995,0
+biomass,heat,21,1996,0
+biomass,heat,21,1997,0
+biomass,heat,21,1998,0
+biomass,heat,21,1999,0
+biomass,heat,21,2000,0
+biomass,heat,21,2001,0
+biomass,heat,21,2002,0
+biomass,heat,21,2003,0
+biomass,heat,21,2004,0
+biomass,heat,21,2005,0
+biomass,heat,21,2006,0
+biomass,heat,21,2007,0
+biomass,heat,21,2008,0
+biomass,heat,21,2009,0
+biomass,heat,21,2010,0
+biomass,heat,22,1971,0
+biomass,heat,22,1972,0
+biomass,heat,22,1973,0
+biomass,heat,22,1974,0
+biomass,heat,22,1975,0
+biomass,heat,22,1976,0
+biomass,heat,22,1977,0
+biomass,heat,22,1978,0
+biomass,heat,22,1979,0
+biomass,heat,22,1980,0
+biomass,heat,22,1981,0
+biomass,heat,22,1982,0
+biomass,heat,22,1983,0
+biomass,heat,22,1984,0
+biomass,heat,22,1985,0
+biomass,heat,22,1986,0
+biomass,heat,22,1987,0
+biomass,heat,22,1988,0
+biomass,heat,22,1989,0
+biomass,heat,22,1990,0
+biomass,heat,22,1991,0
+biomass,heat,22,1992,0
+biomass,heat,22,1993,0
+biomass,heat,22,1994,0
+biomass,heat,22,1995,0
+biomass,heat,22,1996,0
+biomass,heat,22,1997,0
+biomass,heat,22,1998,0
+biomass,heat,22,1999,0
+biomass,heat,22,2000,0
+biomass,heat,22,2001,0
+biomass,heat,22,2002,0
+biomass,heat,22,2003,0
+biomass,heat,22,2004,0
+biomass,heat,22,2005,0
+biomass,heat,22,2006,0
+biomass,heat,22,2007,0
+biomass,heat,22,2008,0
+biomass,heat,22,2009,0
+biomass,heat,22,2010,0
+biomass,heat,23,1971,1.0598952e-4
+biomass,heat,23,1972,1.0598952e-4
+biomass,heat,23,1973,1.0598952e-4
+biomass,heat,23,1974,1.0598952e-4
+biomass,heat,23,1975,1.0598952e-4
+biomass,heat,23,1976,1.0598952e-4
+biomass,heat,23,1977,1.0598952e-4
+biomass,heat,23,1978,1.0598952e-4
+biomass,heat,23,1979,1.0598952e-4
+biomass,heat,23,1980,1.0598952e-4
+biomass,heat,23,1981,1.0598952e-4
+biomass,heat,23,1982,1.0598952e-4
+biomass,heat,23,1983,1.0598952e-4
+biomass,heat,23,1984,1.0598952e-4
+biomass,heat,23,1985,1.0598952e-4
+biomass,heat,23,1986,1.0598952e-4
+biomass,heat,23,1987,1.0598952e-4
+biomass,heat,23,1988,1.0598952e-4
+biomass,heat,23,1989,1.0598952e-4
+biomass,heat,23,1990,0.16166332
+biomass,heat,23,1991,0.15253784
+biomass,heat,23,1992,0.1427426
+biomass,heat,23,1993,0.098371
+biomass,heat,23,1994,0.0904176
+biomass,heat,23,1995,0.11260340000000002
+biomass,heat,23,1996,0.08539440000000001
+biomass,heat,23,1997,0.07605962000000001
+biomass,heat,23,1998,0.07781774
+biomass,heat,23,1999,0.09669660000000001
+biomass,heat,23,2000,0.08932924
+biomass,heat,23,2001,0.0895804
+biomass,heat,23,2002,0.09138038000000001
+biomass,heat,23,2003,0.0856037
+biomass,heat,23,2004,0.09422686
+biomass,heat,23,2005,0.09736636000000001
+biomass,heat,23,2006,0.10335234000000001
+biomass,heat,23,2007,0.10536162000000002
+biomass,heat,23,2008,0.09225944000000001
+biomass,heat,23,2009,0.09435244000000001
+biomass,heat,23,2010,0.10598952
+biomass,heat,24,1971,0
+biomass,heat,24,1972,0
+biomass,heat,24,1973,0
+biomass,heat,24,1974,0
+biomass,heat,24,1975,0
+biomass,heat,24,1976,0
+biomass,heat,24,1977,0
+biomass,heat,24,1978,0
+biomass,heat,24,1979,0
+biomass,heat,24,1980,0
+biomass,heat,24,1981,0
+biomass,heat,24,1982,0
+biomass,heat,24,1983,0
+biomass,heat,24,1984,0
+biomass,heat,24,1985,0
+biomass,heat,24,1986,0
+biomass,heat,24,1987,0
+biomass,heat,24,1988,0
+biomass,heat,24,1989,0
+biomass,heat,24,1990,0
+biomass,heat,24,1991,0
+biomass,heat,24,1992,0
+biomass,heat,24,1993,0
+biomass,heat,24,1994,0
+biomass,heat,24,1995,0
+biomass,heat,24,1996,0
+biomass,heat,24,1997,0
+biomass,heat,24,1998,0
+biomass,heat,24,1999,0
+biomass,heat,24,2000,0
+biomass,heat,24,2001,0
+biomass,heat,24,2002,0
+biomass,heat,24,2003,0
+biomass,heat,24,2004,0
+biomass,heat,24,2005,0
+biomass,heat,24,2006,0
+biomass,heat,24,2007,0
+biomass,heat,24,2008,0
+biomass,heat,24,2009,0
+biomass,heat,24,2010,0
+biomass,heat,25,1971,0
+biomass,heat,25,1972,0
+biomass,heat,25,1973,0
+biomass,heat,25,1974,0
+biomass,heat,25,1975,0
+biomass,heat,25,1976,0
+biomass,heat,25,1977,0
+biomass,heat,25,1978,0
+biomass,heat,25,1979,0
+biomass,heat,25,1980,0
+biomass,heat,25,1981,0
+biomass,heat,25,1982,0
+biomass,heat,25,1983,0
+biomass,heat,25,1984,0
+biomass,heat,25,1985,0
+biomass,heat,25,1986,0
+biomass,heat,25,1987,0
+biomass,heat,25,1988,0
+biomass,heat,25,1989,0
+biomass,heat,25,1990,0
+biomass,heat,25,1991,0
+biomass,heat,25,1992,0
+biomass,heat,25,1993,0
+biomass,heat,25,1994,0
+biomass,heat,25,1995,0
+biomass,heat,25,1996,0
+biomass,heat,25,1997,0
+biomass,heat,25,1998,0
+biomass,heat,25,1999,0
+biomass,heat,25,2000,0
+biomass,heat,25,2001,0
+biomass,heat,25,2002,0
+biomass,heat,25,2003,0
+biomass,heat,25,2004,0
+biomass,heat,25,2005,0
+biomass,heat,25,2006,0
+biomass,heat,25,2007,0
+biomass,heat,25,2008,0
+biomass,heat,25,2009,0
+biomass,heat,25,2010,0
+biomass,heat,26,1971,0
+biomass,heat,26,1972,0
+biomass,heat,26,1973,0
+biomass,heat,26,1974,0
+biomass,heat,26,1975,0
+biomass,heat,26,1976,0
+biomass,heat,26,1977,0
+biomass,heat,26,1978,0
+biomass,heat,26,1979,0
+biomass,heat,26,1980,0
+biomass,heat,26,1981,0
+biomass,heat,26,1982,0
+biomass,heat,26,1983,0
+biomass,heat,26,1984,0
+biomass,heat,26,1985,0
+biomass,heat,26,1986,0
+biomass,heat,26,1987,0
+biomass,heat,26,1988,0
+biomass,heat,26,1989,0
+biomass,heat,26,1990,0
+biomass,heat,26,1991,0
+biomass,heat,26,1992,0
+biomass,heat,26,1993,0
+biomass,heat,26,1994,0
+biomass,heat,26,1995,0
+biomass,heat,26,1996,0
+biomass,heat,26,1997,0
+biomass,heat,26,1998,0
+biomass,heat,26,1999,0
+biomass,heat,26,2000,0
+biomass,heat,26,2001,0
+biomass,heat,26,2002,0
+biomass,heat,26,2003,0
+biomass,heat,26,2004,0
+biomass,heat,26,2005,0
+biomass,heat,26,2006,0
+biomass,heat,26,2007,0
+biomass,heat,26,2008,0
+biomass,heat,26,2009,0
+biomass,heat,26,2010,0
+biomass,heat,27,1971,0
+biomass,heat,27,1972,0
+biomass,heat,27,1973,0
+biomass,heat,27,1974,0
+biomass,heat,27,1975,0
+biomass,heat,27,1976,0
+biomass,heat,27,1977,0
+biomass,heat,27,1978,0
+biomass,heat,27,1979,0
+biomass,heat,27,1980,0
+biomass,heat,27,1981,0
+biomass,heat,27,1982,0
+biomass,heat,27,1983,0
+biomass,heat,27,1984,0
+biomass,heat,27,1985,0
+biomass,heat,27,1986,0
+biomass,heat,27,1987,0
+biomass,heat,27,1988,0
+biomass,heat,27,1989,0
+biomass,heat,27,1990,0
+biomass,heat,27,1991,0
+biomass,heat,27,1992,0
+biomass,heat,27,1993,0
+biomass,heat,27,1994,0
+biomass,heat,27,1995,0
+biomass,heat,27,1996,0
+biomass,heat,27,1997,0
+biomass,heat,27,1998,0
+biomass,heat,27,1999,0
+biomass,heat,27,2000,0
+biomass,heat,27,2001,0
+biomass,heat,27,2002,0
+biomass,heat,27,2003,0
+biomass,heat,27,2004,0
+biomass,heat,27,2005,0
+biomass,heat,27,2006,0
+biomass,heat,27,2007,0
+biomass,heat,27,2008,0
+biomass,heat,27,2009,0
+biomass,heat,27,2010,0
+biomass,heat,28,1971,0
+biomass,heat,28,1972,0
+biomass,heat,28,1973,0
+biomass,heat,28,1974,0
+biomass,heat,28,1975,0
+biomass,heat,28,1976,0
+biomass,heat,28,1977,0
+biomass,heat,28,1978,0
+biomass,heat,28,1979,0
+biomass,heat,28,1980,0
+biomass,heat,28,1981,0
+biomass,heat,28,1982,0
+biomass,heat,28,1983,0
+biomass,heat,28,1984,0
+biomass,heat,28,1985,0
+biomass,heat,28,1986,0
+biomass,heat,28,1987,0
+biomass,heat,28,1988,0
+biomass,heat,28,1989,0
+biomass,heat,28,1990,0
+biomass,heat,28,1991,0
+biomass,heat,28,1992,0
+biomass,heat,28,1993,0
+biomass,heat,28,1994,2.9302e-4
+biomass,heat,28,1995,5.0232e-4
+biomass,heat,28,1996,7.534800000000001e-4
+biomass,heat,28,1997,0.0010465000000000001
+biomass,heat,28,1998,0.0020092800000000004
+biomass,heat,28,1999,0.0026371800000000003
+biomass,heat,28,2000,0.0033488
+biomass,heat,28,2001,0.00359996
+biomass,heat,28,2002,0.00426972
+biomass,heat,28,2003,0.00426972
+biomass,heat,28,2004,0.0043953
+biomass,heat,28,2005,0.0077441
+biomass,heat,28,2006,0.00682318
+biomass,heat,28,2007,0.00719992
+biomass,heat,28,2008,0.00820456
+biomass,heat,28,2009,0.01029756
+biomass,heat,28,2010,0.01619982
+biomass,heat,29,1971,0
+biomass,heat,29,1972,0
+biomass,heat,29,1973,0
+biomass,heat,29,1974,0
+biomass,heat,29,1975,0
+biomass,heat,29,1976,0
+biomass,heat,29,1977,0
+biomass,heat,29,1978,0
+biomass,heat,29,1979,0
+biomass,heat,29,1980,0
+biomass,heat,29,1981,0
+biomass,heat,29,1982,0
+biomass,heat,29,1983,0
+biomass,heat,29,1984,0
+biomass,heat,29,1985,0
+biomass,heat,29,1986,0
+biomass,heat,29,1987,0
+biomass,heat,29,1988,0
+biomass,heat,29,1989,0
+biomass,heat,29,1990,0
+biomass,heat,29,1991,0
+biomass,heat,29,1992,0
+biomass,heat,29,1993,0
+biomass,heat,29,1994,0
+biomass,heat,29,1995,0
+biomass,heat,29,1996,0
+biomass,heat,29,1997,0
+biomass,heat,29,1998,0
+biomass,heat,29,1999,0
+biomass,heat,29,2000,0
+biomass,heat,29,2001,0
+biomass,heat,29,2002,0
+biomass,heat,29,2003,0
+biomass,heat,29,2004,0
+biomass,heat,29,2005,0
+biomass,heat,29,2006,0
+biomass,heat,29,2007,0
+biomass,heat,29,2008,0
+biomass,heat,29,2009,0
+biomass,heat,29,2010,0
+biomass,heat,30,1971,0
+biomass,heat,30,1972,0
+biomass,heat,30,1973,0
+biomass,heat,30,1974,0
+biomass,heat,30,1975,0
+biomass,heat,30,1976,0
+biomass,heat,30,1977,0
+biomass,heat,30,1978,0
+biomass,heat,30,1979,0
+biomass,heat,30,1980,0
+biomass,heat,30,1981,0
+biomass,heat,30,1982,0
+biomass,heat,30,1983,0
+biomass,heat,30,1984,0
+biomass,heat,30,1985,0
+biomass,heat,30,1986,0
+biomass,heat,30,1987,0
+biomass,heat,30,1988,0
+biomass,heat,30,1989,0
+biomass,heat,30,1990,0
+biomass,heat,30,1991,0
+biomass,heat,30,1992,0
+biomass,heat,30,1993,0
+biomass,heat,30,1994,0
+biomass,heat,30,1995,0
+biomass,heat,30,1996,0
+biomass,heat,30,1997,0
+biomass,heat,30,1998,0
+biomass,heat,30,1999,0
+biomass,heat,30,2000,0
+biomass,heat,30,2001,0
+biomass,heat,30,2002,0
+biomass,heat,30,2003,0
+biomass,heat,30,2004,0
+biomass,heat,30,2005,0
+biomass,heat,30,2006,0
+biomass,heat,30,2007,0
+biomass,heat,30,2008,0
+biomass,heat,30,2009,0
+biomass,heat,30,2010,0
+biomass,heat,31,1971,0
+biomass,heat,31,1972,0
+biomass,heat,31,1973,0
+biomass,heat,31,1974,0
+biomass,heat,31,1975,0
+biomass,heat,31,1976,0
+biomass,heat,31,1977,0
+biomass,heat,31,1978,0
+biomass,heat,31,1979,0
+biomass,heat,31,1980,0
+biomass,heat,31,1981,0
+biomass,heat,31,1982,0
+biomass,heat,31,1983,0
+biomass,heat,31,1984,0
+biomass,heat,31,1985,0
+biomass,heat,31,1986,0
+biomass,heat,31,1987,0
+biomass,heat,31,1988,0
+biomass,heat,31,1989,0
+biomass,heat,31,1990,0
+biomass,heat,31,1991,0
+biomass,heat,31,1992,0
+biomass,heat,31,1993,0
+biomass,heat,31,1994,0
+biomass,heat,31,1995,0
+biomass,heat,31,1996,0
+biomass,heat,31,1997,0
+biomass,heat,31,1998,0
+biomass,heat,31,1999,0
+biomass,heat,31,2000,0
+biomass,heat,31,2001,0
+biomass,heat,31,2002,0
+biomass,heat,31,2003,0
+biomass,heat,31,2004,0
+biomass,heat,31,2005,0
+biomass,heat,31,2006,0
+biomass,heat,31,2007,0
+biomass,heat,31,2008,0
+biomass,heat,31,2009,0
+biomass,heat,31,2010,0
+biomass,heat,32,1971,0
+biomass,heat,32,1972,0
+biomass,heat,32,1973,0
+biomass,heat,32,1974,0
+biomass,heat,32,1975,0
+biomass,heat,32,1976,0
+biomass,heat,32,1977,0
+biomass,heat,32,1978,0
+biomass,heat,32,1979,0
+biomass,heat,32,1980,0
+biomass,heat,32,1981,0
+biomass,heat,32,1982,0
+biomass,heat,32,1983,0
+biomass,heat,32,1984,0
+biomass,heat,32,1985,0
+biomass,heat,32,1986,0
+biomass,heat,32,1987,0
+biomass,heat,32,1988,0
+biomass,heat,32,1989,0
+biomass,heat,32,1990,0
+biomass,heat,32,1991,0
+biomass,heat,32,1992,0
+biomass,heat,32,1993,0
+biomass,heat,32,1994,0
+biomass,heat,32,1995,0
+biomass,heat,32,1996,0
+biomass,heat,32,1997,0
+biomass,heat,32,1998,0
+biomass,heat,32,1999,0
+biomass,heat,32,2000,0
+biomass,heat,32,2001,0
+biomass,heat,32,2002,0
+biomass,heat,32,2003,0
+biomass,heat,32,2004,0
+biomass,heat,32,2005,0
+biomass,heat,32,2006,0
+biomass,heat,32,2007,0
+biomass,heat,32,2008,0
+biomass,heat,32,2009,0
+biomass,heat,32,2010,0
+coal,heat,1,1971,0
+coal,heat,1,1972,0
+coal,heat,1,1973,0
+coal,heat,1,1974,0
+coal,heat,1,1975,0
+coal,heat,1,1976,0
+coal,heat,1,1977,0
+coal,heat,1,1978,0
+coal,heat,1,1979,0
+coal,heat,1,1980,0
+coal,heat,1,1981,0
+coal,heat,1,1982,0
+coal,heat,1,1983,0
+coal,heat,1,1984,0
+coal,heat,1,1985,0
+coal,heat,1,1986,0
+coal,heat,1,1987,0
+coal,heat,1,1988,0
+coal,heat,1,1989,0
+coal,heat,1,1990,0
+coal,heat,1,1991,0
+coal,heat,1,1992,0.03675308
+coal,heat,1,1993,0.03813446
+coal,heat,1,1994,0.034241480000000005
+coal,heat,1,1995,0.034492640000000005
+coal,heat,1,1996,0.03239964
+coal,heat,1,1997,0.04106466
+coal,heat,1,1998,0.02913456
+coal,heat,1,1999,0.03813446
+coal,heat,1,2000,0
+coal,heat,1,2001,0
+coal,heat,1,2002,0
+coal,heat,1,2003,0
+coal,heat,1,2004,0
+coal,heat,1,2005,0
+coal,heat,1,2006,0
+coal,heat,1,2007,0
+coal,heat,1,2008,0
+coal,heat,1,2009,0
+coal,heat,1,2010,0
+coal,heat,2,1971,0
+coal,heat,2,1972,0
+coal,heat,2,1973,0
+coal,heat,2,1974,0
+coal,heat,2,1975,0
+coal,heat,2,1976,0
+coal,heat,2,1977,0
+coal,heat,2,1978,0
+coal,heat,2,1979,0
+coal,heat,2,1980,0
+coal,heat,2,1981,0
+coal,heat,2,1982,0
+coal,heat,2,1983,0
+coal,heat,2,1984,0
+coal,heat,2,1985,0
+coal,heat,2,1986,0
+coal,heat,2,1987,0
+coal,heat,2,1988,0
+coal,heat,2,1989,0
+coal,heat,2,1990,0
+coal,heat,2,1991,0
+coal,heat,2,1992,0
+coal,heat,2,1993,0
+coal,heat,2,1994,0
+coal,heat,2,1995,0
+coal,heat,2,1996,0
+coal,heat,2,1997,0
+coal,heat,2,1998,0
+coal,heat,2,1999,0
+coal,heat,2,2000,0
+coal,heat,2,2001,0
+coal,heat,2,2002,0
+coal,heat,2,2003,0
+coal,heat,2,2004,0
+coal,heat,2,2005,0
+coal,heat,2,2006,0
+coal,heat,2,2007,0
+coal,heat,2,2008,0
+coal,heat,2,2009,0
+coal,heat,2,2010,0
+coal,heat,3,1971,0
+coal,heat,3,1972,0
+coal,heat,3,1973,0
+coal,heat,3,1974,0
+coal,heat,3,1975,0
+coal,heat,3,1976,0
+coal,heat,3,1977,0
+coal,heat,3,1978,0
+coal,heat,3,1979,0
+coal,heat,3,1980,0
+coal,heat,3,1981,0
+coal,heat,3,1982,0
+coal,heat,3,1983,0
+coal,heat,3,1984,0
+coal,heat,3,1985,0
+coal,heat,3,1986,0
+coal,heat,3,1987,0
+coal,heat,3,1988,0
+coal,heat,3,1989,0
+coal,heat,3,1990,0
+coal,heat,3,1991,0
+coal,heat,3,1992,0
+coal,heat,3,1993,0
+coal,heat,3,1994,0
+coal,heat,3,1995,0
+coal,heat,3,1996,0
+coal,heat,3,1997,0
+coal,heat,3,1998,0
+coal,heat,3,1999,0
+coal,heat,3,2000,0
+coal,heat,3,2001,0
+coal,heat,3,2002,0
+coal,heat,3,2003,0
+coal,heat,3,2004,0
+coal,heat,3,2005,0
+coal,heat,3,2006,0
+coal,heat,3,2007,0
+coal,heat,3,2008,0
+coal,heat,3,2009,0
+coal,heat,3,2010,0
+coal,heat,4,1971,0
+coal,heat,4,1972,0
+coal,heat,4,1973,0
+coal,heat,4,1974,0
+coal,heat,4,1975,0
+coal,heat,4,1976,0
+coal,heat,4,1977,0
+coal,heat,4,1978,0
+coal,heat,4,1979,0
+coal,heat,4,1980,0
+coal,heat,4,1981,0
+coal,heat,4,1982,0
+coal,heat,4,1983,0
+coal,heat,4,1984,0
+coal,heat,4,1985,0
+coal,heat,4,1986,0
+coal,heat,4,1987,0
+coal,heat,4,1988,0
+coal,heat,4,1989,0
+coal,heat,4,1990,0
+coal,heat,4,1991,0
+coal,heat,4,1992,0
+coal,heat,4,1993,0
+coal,heat,4,1994,0
+coal,heat,4,1995,0
+coal,heat,4,1996,0
+coal,heat,4,1997,0
+coal,heat,4,1998,0
+coal,heat,4,1999,0
+coal,heat,4,2000,0
+coal,heat,4,2001,0
+coal,heat,4,2002,0
+coal,heat,4,2003,0
+coal,heat,4,2004,0
+coal,heat,4,2005,0
+coal,heat,4,2006,0
+coal,heat,4,2007,0
+coal,heat,4,2008,0
+coal,heat,4,2009,0
+coal,heat,4,2010,0
+coal,heat,5,1971,0
+coal,heat,5,1972,0
+coal,heat,5,1973,0
+coal,heat,5,1974,0
+coal,heat,5,1975,0
+coal,heat,5,1976,0
+coal,heat,5,1977,0
+coal,heat,5,1978,0
+coal,heat,5,1979,0
+coal,heat,5,1980,0
+coal,heat,5,1981,0
+coal,heat,5,1982,0
+coal,heat,5,1983,0
+coal,heat,5,1984,0
+coal,heat,5,1985,0
+coal,heat,5,1986,0
+coal,heat,5,1987,0
+coal,heat,5,1988,0
+coal,heat,5,1989,0
+coal,heat,5,1990,0
+coal,heat,5,1991,0
+coal,heat,5,1992,0
+coal,heat,5,1993,0
+coal,heat,5,1994,0
+coal,heat,5,1995,0
+coal,heat,5,1996,0
+coal,heat,5,1997,0
+coal,heat,5,1998,0
+coal,heat,5,1999,0
+coal,heat,5,2000,0
+coal,heat,5,2001,0
+coal,heat,5,2002,0
+coal,heat,5,2003,0
+coal,heat,5,2004,0
+coal,heat,5,2005,0
+coal,heat,5,2006,0
+coal,heat,5,2007,0
+coal,heat,5,2008,0
+coal,heat,5,2009,0
+coal,heat,5,2010,0
+coal,heat,6,1971,0
+coal,heat,6,1972,0
+coal,heat,6,1973,0
+coal,heat,6,1974,0
+coal,heat,6,1975,0
+coal,heat,6,1976,0
+coal,heat,6,1977,0
+coal,heat,6,1978,0
+coal,heat,6,1979,0
+coal,heat,6,1980,0
+coal,heat,6,1981,0
+coal,heat,6,1982,0
+coal,heat,6,1983,0
+coal,heat,6,1984,0
+coal,heat,6,1985,0
+coal,heat,6,1986,0
+coal,heat,6,1987,0
+coal,heat,6,1988,0
+coal,heat,6,1989,0
+coal,heat,6,1990,0
+coal,heat,6,1991,0
+coal,heat,6,1992,0
+coal,heat,6,1993,0
+coal,heat,6,1994,0
+coal,heat,6,1995,0
+coal,heat,6,1996,0
+coal,heat,6,1997,0
+coal,heat,6,1998,0
+coal,heat,6,1999,0
+coal,heat,6,2000,0
+coal,heat,6,2001,0
+coal,heat,6,2002,0
+coal,heat,6,2003,0
+coal,heat,6,2004,0
+coal,heat,6,2005,0
+coal,heat,6,2006,0
+coal,heat,6,2007,0
+coal,heat,6,2008,0
+coal,heat,6,2009,0
+coal,heat,6,2010,0
+coal,heat,7,1971,0
+coal,heat,7,1972,0
+coal,heat,7,1973,0
+coal,heat,7,1974,0
+coal,heat,7,1975,0
+coal,heat,7,1976,0
+coal,heat,7,1977,0
+coal,heat,7,1978,0
+coal,heat,7,1979,0
+coal,heat,7,1980,0
+coal,heat,7,1981,0
+coal,heat,7,1982,0
+coal,heat,7,1983,0
+coal,heat,7,1984,0
+coal,heat,7,1985,0
+coal,heat,7,1986,0
+coal,heat,7,1987,0
+coal,heat,7,1988,0
+coal,heat,7,1989,0
+coal,heat,7,1990,0
+coal,heat,7,1991,0
+coal,heat,7,1992,0
+coal,heat,7,1993,0
+coal,heat,7,1994,0
+coal,heat,7,1995,0
+coal,heat,7,1996,0
+coal,heat,7,1997,0
+coal,heat,7,1998,0
+coal,heat,7,1999,0
+coal,heat,7,2000,0
+coal,heat,7,2001,0
+coal,heat,7,2002,0
+coal,heat,7,2003,0
+coal,heat,7,2004,0
+coal,heat,7,2005,0
+coal,heat,7,2006,0
+coal,heat,7,2007,0
+coal,heat,7,2008,0
+coal,heat,7,2009,0
+coal,heat,7,2010,0
+coal,heat,8,1971,0
+coal,heat,8,1972,0
+coal,heat,8,1973,0
+coal,heat,8,1974,0
+coal,heat,8,1975,0
+coal,heat,8,1976,0
+coal,heat,8,1977,0
+coal,heat,8,1978,0
+coal,heat,8,1979,0
+coal,heat,8,1980,0
+coal,heat,8,1981,0
+coal,heat,8,1982,0
+coal,heat,8,1983,0
+coal,heat,8,1984,0
+coal,heat,8,1985,0
+coal,heat,8,1986,0
+coal,heat,8,1987,0
+coal,heat,8,1988,0
+coal,heat,8,1989,0
+coal,heat,8,1990,0
+coal,heat,8,1991,0
+coal,heat,8,1992,0
+coal,heat,8,1993,0
+coal,heat,8,1994,0
+coal,heat,8,1995,0
+coal,heat,8,1996,0
+coal,heat,8,1997,0
+coal,heat,8,1998,0
+coal,heat,8,1999,0
+coal,heat,8,2000,0
+coal,heat,8,2001,0
+coal,heat,8,2002,0
+coal,heat,8,2003,0
+coal,heat,8,2004,0
+coal,heat,8,2005,0
+coal,heat,8,2006,0
+coal,heat,8,2007,0
+coal,heat,8,2008,0
+coal,heat,8,2009,0
+coal,heat,8,2010,0
+coal,heat,9,1971,0
+coal,heat,9,1972,0
+coal,heat,9,1973,0
+coal,heat,9,1974,0
+coal,heat,9,1975,0
+coal,heat,9,1976,0
+coal,heat,9,1977,0
+coal,heat,9,1978,0
+coal,heat,9,1979,0
+coal,heat,9,1980,0
+coal,heat,9,1981,0
+coal,heat,9,1982,0
+coal,heat,9,1983,0
+coal,heat,9,1984,0
+coal,heat,9,1985,0
+coal,heat,9,1986,0
+coal,heat,9,1987,0
+coal,heat,9,1988,0
+coal,heat,9,1989,0
+coal,heat,9,1990,0
+coal,heat,9,1991,0
+coal,heat,9,1992,0
+coal,heat,9,1993,0
+coal,heat,9,1994,0
+coal,heat,9,1995,0
+coal,heat,9,1996,0
+coal,heat,9,1997,0
+coal,heat,9,1998,0
+coal,heat,9,1999,0
+coal,heat,9,2000,0
+coal,heat,9,2001,0
+coal,heat,9,2002,0
+coal,heat,9,2003,0
+coal,heat,9,2004,0
+coal,heat,9,2005,0
+coal,heat,9,2006,0
+coal,heat,9,2007,0
+coal,heat,9,2008,0
+coal,heat,9,2009,0
+coal,heat,9,2010,0
+coal,heat,10,1971,0
+coal,heat,10,1972,0
+coal,heat,10,1973,0
+coal,heat,10,1974,0
+coal,heat,10,1975,0
+coal,heat,10,1976,0
+coal,heat,10,1977,0
+coal,heat,10,1978,0
+coal,heat,10,1979,0
+coal,heat,10,1980,0
+coal,heat,10,1981,0
+coal,heat,10,1982,0
+coal,heat,10,1983,0
+coal,heat,10,1984,0
+coal,heat,10,1985,0
+coal,heat,10,1986,0
+coal,heat,10,1987,0
+coal,heat,10,1988,0
+coal,heat,10,1989,0
+coal,heat,10,1990,0.01008826
+coal,heat,10,1991,0.00728364
+coal,heat,10,1992,0.00456274
+coal,heat,10,1993,0.0012139400000000002
+coal,heat,10,1994,0
+coal,heat,10,1995,7.534800000000001e-4
+coal,heat,10,1996,8.372e-5
+coal,heat,10,1997,4.6046000000000005e-4
+coal,heat,10,1998,3.7674000000000003e-4
+coal,heat,10,1999,3.7674000000000003e-4
+coal,heat,10,2000,4.1860000000000004e-4
+coal,heat,10,2001,4.186e-5
+coal,heat,10,2002,4.186e-5
+coal,heat,10,2003,4.186e-5
+coal,heat,10,2004,4.186e-5
+coal,heat,10,2005,4.186e-5
+coal,heat,10,2006,4.186e-5
+coal,heat,10,2007,4.186e-5
+coal,heat,10,2008,4.186e-5
+coal,heat,10,2009,4.186e-5
+coal,heat,10,2010,4.186e-5
+coal,heat,11,1971,0
+coal,heat,11,1972,0
+coal,heat,11,1973,0
+coal,heat,11,1974,0
+coal,heat,11,1975,0
+coal,heat,11,1976,0
+coal,heat,11,1977,0
+coal,heat,11,1978,0.06630624
+coal,heat,11,1979,0.09950122
+coal,heat,11,1980,0.13265434
+coal,heat,11,1981,0.16584932000000002
+coal,heat,11,1982,0.19916988000000002
+coal,heat,11,1983,0.23249044000000002
+coal,heat,11,1984,0.26572728
+coal,heat,11,1985,0.29122002
+coal,heat,11,1986,0.32738706
+coal,heat,11,1987,0.41299076
+coal,heat,11,1988,0.44220904000000005
+coal,heat,11,1989,0.48649692000000005
+coal,heat,11,1990,0.62229076
+coal,heat,11,1991,0.7057177400000001
+coal,heat,11,1992,0.78458198
+coal,heat,11,1993,0.9599335200000001
+coal,heat,11,1994,1.15144302
+coal,heat,11,1995,1.17923806
+coal,heat,11,1996,1.26526036
+coal,heat,11,1997,1.26383712
+coal,heat,11,1998,1.35153382
+coal,heat,11,1999,1.4057006600000002
+coal,heat,11,2000,1.9000672600000001
+coal,heat,11,2001,1.9222949200000001
+coal,heat,11,2002,1.92288096
+coal,heat,11,2003,2.3174951800000003
+coal,heat,11,2004,2.50440008
+coal,heat,11,2005,2.9312465000000003
+coal,heat,11,2006,3.183453
+coal,heat,11,2007,3.3018749400000003
+coal,heat,11,2008,3.2240572
+coal,heat,11,2009,3.30354934
+coal,heat,11,2010,3.49853322
+coal,heat,12,1971,0.32897774
+coal,heat,12,1972,0.33567534000000004
+coal,heat,12,1973,0.32324292
+coal,heat,12,1974,0.3388567
+coal,heat,12,1975,0.34463338
+coal,heat,12,1976,0.36309364
+coal,heat,12,1977,0.3796702
+coal,heat,12,1978,0.42759990000000003
+coal,heat,12,1979,0.45330194
+coal,heat,12,1980,0.47670168
+coal,heat,12,1981,0.4265534
+coal,heat,12,1982,0.44229276
+coal,heat,12,1983,0.44220904
+coal,heat,12,1984,0.4397393
+coal,heat,12,1985,0.47105058
+coal,heat,12,1986,0.43706026
+coal,heat,12,1987,0.44153928000000003
+coal,heat,12,1988,0.4836344375402475
+coal,heat,12,1989,0.47887914941176474
+coal,heat,12,1990,0.46841340000000004
+coal,heat,12,1991,0.4954131
+coal,heat,12,1992,0.4608786
+coal,heat,12,1993,0.32290804
+coal,heat,12,1994,0.2647645
+coal,heat,12,1995,0.27862016
+coal,heat,12,1996,0.30340128
+coal,heat,12,1997,0.26221104
+coal,heat,12,1998,0.22704864000000002
+coal,heat,12,1999,0.20042568
+coal,heat,12,2000,0.17664920000000003
+coal,heat,12,2001,0.19368622
+coal,heat,12,2002,0.17484922000000003
+coal,heat,12,2003,0.17656548000000002
+coal,heat,12,2004,0.16024008
+coal,heat,12,2005,0.15149134
+coal,heat,12,2006,0.15241226
+coal,heat,12,2007,0.14027286000000003
+coal,heat,12,2008,0.13462176
+coal,heat,12,2009,0.1358357
+coal,heat,12,2010,0.15906800000000001
+coal,heat,13,1971,0.0025116
+coal,heat,13,1972,0.0027209
+coal,heat,13,1973,0.00339066
+coal,heat,13,1974,0.009292920000000001
+coal,heat,13,1975,0.012097540000000002
+coal,heat,13,1976,0.013227760000000002
+coal,heat,13,1977,0.015446340000000001
+coal,heat,13,1978,0.00623714
+coal,heat,13,1979,0.00699062
+coal,heat,13,1980,0.00870688
+coal,heat,13,1981,0.00728364
+coal,heat,13,1982,0.0089999
+coal,heat,13,1983,0.017706780000000002
+coal,heat,13,1984,0.03470194
+coal,heat,13,1985,0.0412321
+coal,heat,13,1986,0.03959956
+coal,heat,13,1987,0.0431158
+coal,heat,13,1988,0.040018160000000004
+coal,heat,13,1989,0.034115900000000005
+coal,heat,13,1990,0.03235778
+coal,heat,13,1991,0.029008980000000004
+coal,heat,13,1992,0.024488100000000002
+coal,heat,13,1993,0.02335788
+coal,heat,13,1994,0.01875328
+coal,heat,13,1995,0.01691144
+coal,heat,13,1996,0.01628354
+coal,heat,13,1997,0.014274260000000002
+coal,heat,13,1998,0.01126034
+coal,heat,13,1999,0.0372554
+coal,heat,13,2000,0.037548420000000006
+coal,heat,13,2001,0.03859492
+coal,heat,13,2002,0.04780412
+coal,heat,13,2003,0.034115900000000005
+coal,heat,13,2004,0.05035758
+coal,heat,13,2005,0.026204360000000003
+coal,heat,13,2006,0.02695784
+coal,heat,13,2007,0.05697146000000001
+coal,heat,13,2008,0.05219942
+coal,heat,13,2009,0.05119478
+coal,heat,13,2010,0.05676216
+coal,heat,14,1971,4.612972e-5
+coal,heat,14,1972,4.612972e-5
+coal,heat,14,1973,4.612972e-5
+coal,heat,14,1974,4.612972e-5
+coal,heat,14,1975,4.612972e-5
+coal,heat,14,1976,4.612972e-5
+coal,heat,14,1977,4.612972e-5
+coal,heat,14,1978,4.612972e-5
+coal,heat,14,1979,4.612972e-5
+coal,heat,14,1980,4.612972e-5
+coal,heat,14,1981,4.612972e-5
+coal,heat,14,1982,4.612972e-5
+coal,heat,14,1983,4.612972e-5
+coal,heat,14,1984,4.612972e-5
+coal,heat,14,1985,4.612972e-5
+coal,heat,14,1986,4.612972e-5
+coal,heat,14,1987,4.612972e-5
+coal,heat,14,1988,4.612972e-5
+coal,heat,14,1989,4.612972e-5
+coal,heat,14,1990,0.06563648000000001
+coal,heat,14,1991,0.05889702
+coal,heat,14,1992,0.04403672
+coal,heat,14,1993,0.03633448
+coal,heat,14,1994,0.03164616
+coal,heat,14,1995,0.03152058
+coal,heat,14,1996,0.030432220000000003
+coal,heat,14,1997,0.035287980000000004
+coal,heat,14,1998,0.03227406
+coal,heat,14,1999,0.0265811
+coal,heat,14,2000,0.02503228
+coal,heat,14,2001,0.02356718
+coal,heat,14,2002,0.0207207
+coal,heat,14,2003,0.019883500000000002
+coal,heat,14,2004,0.01979978
+coal,heat,14,2005,0.01875328
+coal,heat,14,2006,0.02143232
+coal,heat,14,2007,0.02222766
+coal,heat,14,2008,0.0200928
+coal,heat,14,2009,0.05031572000000001
+coal,heat,14,2010,0.04612972
+coal,heat,15,1971,0
+coal,heat,15,1972,0
+coal,heat,15,1973,0
+coal,heat,15,1974,0
+coal,heat,15,1975,0
+coal,heat,15,1976,0
+coal,heat,15,1977,0
+coal,heat,15,1978,0
+coal,heat,15,1979,0
+coal,heat,15,1980,0
+coal,heat,15,1981,9.041760000000001e-6
+coal,heat,15,1982,9.041760000000001e-6
+coal,heat,15,1983,9.041760000000001e-6
+coal,heat,15,1984,9.041760000000001e-6
+coal,heat,15,1985,9.041760000000001e-6
+coal,heat,15,1986,9.041760000000001e-6
+coal,heat,15,1987,9.041760000000001e-6
+coal,heat,15,1988,0.0037801672183449654
+coal,heat,15,1989,0.003038329411764706
+coal,heat,15,1990,0.03185546
+coal,heat,15,1991,0.027627600000000002
+coal,heat,15,1992,0.00196742
+coal,heat,15,1993,0.0020930000000000002
+coal,heat,15,1994,0.0017581200000000002
+coal,heat,15,1995,0.0012976600000000002
+coal,heat,15,1996,0.0023023
+coal,heat,15,1997,0.00226044
+coal,heat,15,1998,0.00305578
+coal,heat,15,1999,0.00284648
+coal,heat,15,2000,0.0024697400000000002
+coal,heat,15,2001,0.00255346
+coal,heat,15,2002,0.0024697400000000002
+coal,heat,15,2003,0.0026371800000000003
+coal,heat,15,2004,0.0027209
+coal,heat,15,2005,0.00845572
+coal,heat,15,2006,0.00615342
+coal,heat,15,2007,0.006153420000000001
+coal,heat,15,2008,0.00954408
+coal,heat,15,2009,0.01017198
+coal,heat,15,2010,0.009041760000000001
+coal,heat,16,1971,0
+coal,heat,16,1972,0
+coal,heat,16,1973,0
+coal,heat,16,1974,0
+coal,heat,16,1975,0
+coal,heat,16,1976,0
+coal,heat,16,1977,0
+coal,heat,16,1978,0
+coal,heat,16,1979,0
+coal,heat,16,1980,0
+coal,heat,16,1981,0
+coal,heat,16,1982,0
+coal,heat,16,1983,0
+coal,heat,16,1984,0
+coal,heat,16,1985,0
+coal,heat,16,1986,0
+coal,heat,16,1987,4.186e-5
+coal,heat,16,1988,1.2558e-4
+coal,heat,16,1989,4.186e-5
+coal,heat,16,1990,4.186e-5
+coal,heat,16,1991,4.186e-5
+coal,heat,16,1992,4.186e-5
+coal,heat,16,1993,4.186e-5
+coal,heat,16,1994,8.372e-5
+coal,heat,16,1995,1.2558e-4
+coal,heat,16,1996,4.186e-5
+coal,heat,16,1997,0
+coal,heat,16,1998,0
+coal,heat,16,1999,0
+coal,heat,16,2000,0
+coal,heat,16,2001,4.186e-5
+coal,heat,16,2002,0
+coal,heat,16,2003,0
+coal,heat,16,2004,0
+coal,heat,16,2005,4.186e-5
+coal,heat,16,2006,0
+coal,heat,16,2007,0
+coal,heat,16,2008,0
+coal,heat,16,2009,0
+coal,heat,16,2010,4.186e-5
+coal,heat,17,1971,0
+coal,heat,17,1972,0
+coal,heat,17,1973,0
+coal,heat,17,1974,0
+coal,heat,17,1975,0
+coal,heat,17,1976,0
+coal,heat,17,1977,0
+coal,heat,17,1978,0
+coal,heat,17,1979,0
+coal,heat,17,1980,0
+coal,heat,17,1981,0
+coal,heat,17,1982,0
+coal,heat,17,1983,0
+coal,heat,17,1984,0
+coal,heat,17,1985,0
+coal,heat,17,1986,0
+coal,heat,17,1987,0
+coal,heat,17,1988,0
+coal,heat,17,1989,0
+coal,heat,17,1990,0
+coal,heat,17,1991,0
+coal,heat,17,1992,0
+coal,heat,17,1993,0
+coal,heat,17,1994,0
+coal,heat,17,1995,0
+coal,heat,17,1996,0
+coal,heat,17,1997,0
+coal,heat,17,1998,0
+coal,heat,17,1999,0
+coal,heat,17,2000,0
+coal,heat,17,2001,0
+coal,heat,17,2002,0
+coal,heat,17,2003,0
+coal,heat,17,2004,0
+coal,heat,17,2005,0
+coal,heat,17,2006,0
+coal,heat,17,2007,0
+coal,heat,17,2008,0
+coal,heat,17,2009,0
+coal,heat,17,2010,0
+coal,heat,18,1971,0
+coal,heat,18,1972,0
+coal,heat,18,1973,0
+coal,heat,18,1974,0
+coal,heat,18,1975,0
+coal,heat,18,1976,0
+coal,heat,18,1977,0
+coal,heat,18,1978,0
+coal,heat,18,1979,0
+coal,heat,18,1980,0
+coal,heat,18,1981,0
+coal,heat,18,1982,0
+coal,heat,18,1983,0
+coal,heat,18,1984,0
+coal,heat,18,1985,0
+coal,heat,18,1986,0
+coal,heat,18,1987,0
+coal,heat,18,1988,0
+coal,heat,18,1989,0
+coal,heat,18,1990,0
+coal,heat,18,1991,0
+coal,heat,18,1992,0
+coal,heat,18,1993,0
+coal,heat,18,1994,0
+coal,heat,18,1995,0
+coal,heat,18,1996,0
+coal,heat,18,1997,0
+coal,heat,18,1998,0
+coal,heat,18,1999,0
+coal,heat,18,2000,0
+coal,heat,18,2001,0
+coal,heat,18,2002,0
+coal,heat,18,2003,0
+coal,heat,18,2004,0
+coal,heat,18,2005,0
+coal,heat,18,2006,0
+coal,heat,18,2007,0
+coal,heat,18,2008,0
+coal,heat,18,2009,0
+coal,heat,18,2010,0
+coal,heat,19,1971,0
+coal,heat,19,1972,0
+coal,heat,19,1973,0
+coal,heat,19,1974,0
+coal,heat,19,1975,0
+coal,heat,19,1976,0
+coal,heat,19,1977,0
+coal,heat,19,1978,0
+coal,heat,19,1979,0
+coal,heat,19,1980,0
+coal,heat,19,1981,0
+coal,heat,19,1982,9.209200000000001e-4
+coal,heat,19,1983,9.209200000000001e-4
+coal,heat,19,1984,0.0010465000000000001
+coal,heat,19,1985,9.627800000000001e-4
+coal,heat,19,1986,9.209200000000001e-4
+coal,heat,19,1987,8.790600000000001e-4
+coal,heat,19,1988,9.209200000000001e-4
+coal,heat,19,1989,9.209200000000001e-4
+coal,heat,19,1990,7.953400000000001e-4
+coal,heat,19,1991,7.534800000000001e-4
+coal,heat,19,1992,7.534800000000001e-4
+coal,heat,19,1993,6.6976e-4
+coal,heat,19,1994,7.534800000000001e-4
+coal,heat,19,1995,6.279e-4
+coal,heat,19,1996,5.8604e-4
+coal,heat,19,1997,6.279e-4
+coal,heat,19,1998,6.6976e-4
+coal,heat,19,1999,6.6976e-4
+coal,heat,19,2000,6.6976e-4
+coal,heat,19,2001,5.8604e-4
+coal,heat,19,2002,7.534800000000001e-4
+coal,heat,19,2003,7.1162e-4
+coal,heat,19,2004,5.0232e-4
+coal,heat,19,2005,6.279e-4
+coal,heat,19,2006,5.8604e-4
+coal,heat,19,2007,5.8604e-4
+coal,heat,19,2008,5.4418e-4
+coal,heat,19,2009,0
+coal,heat,19,2010,0
+coal,heat,20,1971,0
+coal,heat,20,1972,0
+coal,heat,20,1973,0
+coal,heat,20,1974,0
+coal,heat,20,1975,0
+coal,heat,20,1976,0
+coal,heat,20,1977,0
+coal,heat,20,1978,0
+coal,heat,20,1979,0
+coal,heat,20,1980,0
+coal,heat,20,1981,0
+coal,heat,20,1982,0
+coal,heat,20,1983,0
+coal,heat,20,1984,0
+coal,heat,20,1985,0
+coal,heat,20,1986,0
+coal,heat,20,1987,0
+coal,heat,20,1988,0
+coal,heat,20,1989,0
+coal,heat,20,1990,0
+coal,heat,20,1991,0
+coal,heat,20,1992,0
+coal,heat,20,1993,0
+coal,heat,20,1994,0
+coal,heat,20,1995,0
+coal,heat,20,1996,0
+coal,heat,20,1997,0
+coal,heat,20,1998,0
+coal,heat,20,1999,0
+coal,heat,20,2000,0
+coal,heat,20,2001,0
+coal,heat,20,2002,0
+coal,heat,20,2003,0
+coal,heat,20,2004,0
+coal,heat,20,2005,0
+coal,heat,20,2006,0
+coal,heat,20,2007,0
+coal,heat,20,2008,0
+coal,heat,20,2009,0
+coal,heat,20,2010,0
+coal,heat,21,1971,0
+coal,heat,21,1972,0
+coal,heat,21,1973,0
+coal,heat,21,1974,0
+coal,heat,21,1975,0
+coal,heat,21,1976,0
+coal,heat,21,1977,0
+coal,heat,21,1978,0
+coal,heat,21,1979,0
+coal,heat,21,1980,0
+coal,heat,21,1981,0
+coal,heat,21,1982,0
+coal,heat,21,1983,0
+coal,heat,21,1984,0
+coal,heat,21,1985,0
+coal,heat,21,1986,0
+coal,heat,21,1987,0
+coal,heat,21,1988,0
+coal,heat,21,1989,0
+coal,heat,21,1990,0
+coal,heat,21,1991,0
+coal,heat,21,1992,0
+coal,heat,21,1993,0
+coal,heat,21,1994,0
+coal,heat,21,1995,0
+coal,heat,21,1996,0
+coal,heat,21,1997,0
+coal,heat,21,1998,0
+coal,heat,21,1999,0
+coal,heat,21,2000,0
+coal,heat,21,2001,0
+coal,heat,21,2002,0
+coal,heat,21,2003,0
+coal,heat,21,2004,0
+coal,heat,21,2005,0
+coal,heat,21,2006,0
+coal,heat,21,2007,0
+coal,heat,21,2008,0
+coal,heat,21,2009,0
+coal,heat,21,2010,0
+coal,heat,22,1971,0
+coal,heat,22,1972,0
+coal,heat,22,1973,0
+coal,heat,22,1974,0
+coal,heat,22,1975,0
+coal,heat,22,1976,0
+coal,heat,22,1977,0
+coal,heat,22,1978,0
+coal,heat,22,1979,0
+coal,heat,22,1980,0
+coal,heat,22,1981,0
+coal,heat,22,1982,0
+coal,heat,22,1983,0
+coal,heat,22,1984,0
+coal,heat,22,1985,0
+coal,heat,22,1986,0
+coal,heat,22,1987,0
+coal,heat,22,1988,0
+coal,heat,22,1989,0
+coal,heat,22,1990,0
+coal,heat,22,1991,0
+coal,heat,22,1992,0
+coal,heat,22,1993,0
+coal,heat,22,1994,0
+coal,heat,22,1995,0
+coal,heat,22,1996,0
+coal,heat,22,1997,0
+coal,heat,22,1998,0
+coal,heat,22,1999,0
+coal,heat,22,2000,0
+coal,heat,22,2001,0
+coal,heat,22,2002,0
+coal,heat,22,2003,0
+coal,heat,22,2004,0
+coal,heat,22,2005,0
+coal,heat,22,2006,0
+coal,heat,22,2007,0
+coal,heat,22,2008,0
+coal,heat,22,2009,0
+coal,heat,22,2010,0
+coal,heat,23,1971,5.6435652e-4
+coal,heat,23,1972,5.6435652e-4
+coal,heat,23,1973,5.6435652e-4
+coal,heat,23,1974,5.6435652e-4
+coal,heat,23,1975,5.6435652e-4
+coal,heat,23,1976,5.6435652e-4
+coal,heat,23,1977,5.6435652e-4
+coal,heat,23,1978,5.6435652e-4
+coal,heat,23,1979,5.6435652e-4
+coal,heat,23,1980,5.6435652e-4
+coal,heat,23,1981,5.6435652e-4
+coal,heat,23,1982,5.6435652e-4
+coal,heat,23,1983,5.6435652e-4
+coal,heat,23,1984,5.6435652e-4
+coal,heat,23,1985,5.6435652e-4
+coal,heat,23,1986,5.6435652e-4
+coal,heat,23,1987,5.6435652e-4
+coal,heat,23,1988,5.6435652e-4
+coal,heat,23,1989,5.6435652e-4
+coal,heat,23,1990,1.7154228
+coal,heat,23,1991,1.65991644
+coal,heat,23,1992,1.4983787000000002
+coal,heat,23,1993,1.2339490800000001
+coal,heat,23,1994,1.1307641800000001
+coal,heat,23,1995,0.94419416
+coal,heat,23,1996,0.80132598
+coal,heat,23,1997,0.7600101600000001
+coal,heat,23,1998,0.64217426
+coal,heat,23,1999,0.67252276
+coal,heat,23,2000,0.68876444
+coal,heat,23,2001,0.6801412800000001
+coal,heat,23,2002,0.69408066
+coal,heat,23,2003,0.71019676
+coal,heat,23,2004,0.67670876
+coal,heat,23,2005,0.66938326
+coal,heat,23,2006,0.67160184
+coal,heat,23,2007,0.6425510000000001
+coal,heat,23,2008,0.57067738
+coal,heat,23,2009,0.49332010000000004
+coal,heat,23,2010,0.56435652
+coal,heat,24,1971,0
+coal,heat,24,1972,0
+coal,heat,24,1973,0
+coal,heat,24,1974,0
+coal,heat,24,1975,0
+coal,heat,24,1976,0
+coal,heat,24,1977,0
+coal,heat,24,1978,0
+coal,heat,24,1979,0
+coal,heat,24,1980,0
+coal,heat,24,1981,0.00577668
+coal,heat,24,1982,0.00531622
+coal,heat,24,1983,0.005734820000000001
+coal,heat,24,1984,0.0058185400000000005
+coal,heat,24,1985,0.00339066
+coal,heat,24,1986,0.00200928
+coal,heat,24,1987,0.0025116
+coal,heat,24,1988,0.0025116
+coal,heat,24,1989,0.0024697400000000002
+coal,heat,24,1990,0.0026371800000000003
+coal,heat,24,1991,0.00267904
+coal,heat,24,1992,0.00255346
+coal,heat,24,1993,0
+coal,heat,24,1994,0
+coal,heat,24,1995,0
+coal,heat,24,1996,0
+coal,heat,24,1997,0
+coal,heat,24,1998,0
+coal,heat,24,1999,0
+coal,heat,24,2000,0
+coal,heat,24,2001,0
+coal,heat,24,2002,0
+coal,heat,24,2003,0
+coal,heat,24,2004,0
+coal,heat,24,2005,0
+coal,heat,24,2006,0
+coal,heat,24,2007,0
+coal,heat,24,2008,0
+coal,heat,24,2009,0
+coal,heat,24,2010,0
+coal,heat,25,1971,0
+coal,heat,25,1972,0
+coal,heat,25,1973,0
+coal,heat,25,1974,0
+coal,heat,25,1975,0
+coal,heat,25,1976,0
+coal,heat,25,1977,0
+coal,heat,25,1978,0
+coal,heat,25,1979,0
+coal,heat,25,1980,0
+coal,heat,25,1981,0
+coal,heat,25,1982,0
+coal,heat,25,1983,0
+coal,heat,25,1984,0
+coal,heat,25,1985,0
+coal,heat,25,1986,0
+coal,heat,25,1987,0
+coal,heat,25,1988,0
+coal,heat,25,1989,0
+coal,heat,25,1990,0
+coal,heat,25,1991,0
+coal,heat,25,1992,0
+coal,heat,25,1993,0
+coal,heat,25,1994,0
+coal,heat,25,1995,0
+coal,heat,25,1996,0
+coal,heat,25,1997,0
+coal,heat,25,1998,0
+coal,heat,25,1999,0
+coal,heat,25,2000,0
+coal,heat,25,2001,0
+coal,heat,25,2002,0
+coal,heat,25,2003,0
+coal,heat,25,2004,0
+coal,heat,25,2005,0
+coal,heat,25,2006,0
+coal,heat,25,2007,0
+coal,heat,25,2008,0
+coal,heat,25,2009,0
+coal,heat,25,2010,0
+coal,heat,26,1971,0
+coal,heat,26,1972,0
+coal,heat,26,1973,0
+coal,heat,26,1974,0
+coal,heat,26,1975,0
+coal,heat,26,1976,0
+coal,heat,26,1977,0
+coal,heat,26,1978,0
+coal,heat,26,1979,0
+coal,heat,26,1980,0
+coal,heat,26,1981,0
+coal,heat,26,1982,0
+coal,heat,26,1983,0
+coal,heat,26,1984,0
+coal,heat,26,1985,0
+coal,heat,26,1986,0
+coal,heat,26,1987,0
+coal,heat,26,1988,0
+coal,heat,26,1989,0
+coal,heat,26,1990,0
+coal,heat,26,1991,0
+coal,heat,26,1992,0
+coal,heat,26,1993,0
+coal,heat,26,1994,0
+coal,heat,26,1995,0
+coal,heat,26,1996,0
+coal,heat,26,1997,0
+coal,heat,26,1998,0
+coal,heat,26,1999,0
+coal,heat,26,2000,0
+coal,heat,26,2001,0
+coal,heat,26,2002,0
+coal,heat,26,2003,0
+coal,heat,26,2004,0
+coal,heat,26,2005,0
+coal,heat,26,2006,0
+coal,heat,26,2007,0
+coal,heat,26,2008,0
+coal,heat,26,2009,0
+coal,heat,26,2010,0
+coal,heat,27,1971,0
+coal,heat,27,1972,0
+coal,heat,27,1973,0
+coal,heat,27,1974,0
+coal,heat,27,1975,0
+coal,heat,27,1976,0
+coal,heat,27,1977,0
+coal,heat,27,1978,0
+coal,heat,27,1979,0
+coal,heat,27,1980,0
+coal,heat,27,1981,0
+coal,heat,27,1982,0
+coal,heat,27,1983,0
+coal,heat,27,1984,0
+coal,heat,27,1985,0
+coal,heat,27,1986,0
+coal,heat,27,1987,0
+coal,heat,27,1988,0
+coal,heat,27,1989,0
+coal,heat,27,1990,0
+coal,heat,27,1991,0
+coal,heat,27,1992,0
+coal,heat,27,1993,0
+coal,heat,27,1994,0
+coal,heat,27,1995,0
+coal,heat,27,1996,0
+coal,heat,27,1997,0
+coal,heat,27,1998,0
+coal,heat,27,1999,0
+coal,heat,27,2000,0
+coal,heat,27,2001,0
+coal,heat,27,2002,0
+coal,heat,27,2003,0
+coal,heat,27,2004,0
+coal,heat,27,2005,0
+coal,heat,27,2006,0
+coal,heat,27,2007,0
+coal,heat,27,2008,0
+coal,heat,27,2009,0
+coal,heat,27,2010,0
+coal,heat,28,1971,0
+coal,heat,28,1972,0
+coal,heat,28,1973,0
+coal,heat,28,1974,0
+coal,heat,28,1975,0
+coal,heat,28,1976,0
+coal,heat,28,1977,0
+coal,heat,28,1978,0
+coal,heat,28,1979,0
+coal,heat,28,1980,0
+coal,heat,28,1981,0
+coal,heat,28,1982,0
+coal,heat,28,1983,0
+coal,heat,28,1984,0
+coal,heat,28,1985,0
+coal,heat,28,1986,0
+coal,heat,28,1987,0
+coal,heat,28,1988,0
+coal,heat,28,1989,0
+coal,heat,28,1990,0
+coal,heat,28,1991,0
+coal,heat,28,1992,0
+coal,heat,28,1993,0
+coal,heat,28,1994,0
+coal,heat,28,1995,0
+coal,heat,28,1996,0
+coal,heat,28,1997,0
+coal,heat,28,1998,0
+coal,heat,28,1999,0
+coal,heat,28,2000,0
+coal,heat,28,2001,0
+coal,heat,28,2002,0
+coal,heat,28,2003,0
+coal,heat,28,2004,0
+coal,heat,28,2005,0
+coal,heat,28,2006,0
+coal,heat,28,2007,0
+coal,heat,28,2008,0
+coal,heat,28,2009,0
+coal,heat,28,2010,0
+coal,heat,29,1971,0
+coal,heat,29,1972,0
+coal,heat,29,1973,0
+coal,heat,29,1974,0
+coal,heat,29,1975,0
+coal,heat,29,1976,0
+coal,heat,29,1977,0
+coal,heat,29,1978,0
+coal,heat,29,1979,0
+coal,heat,29,1980,0
+coal,heat,29,1981,0
+coal,heat,29,1982,0
+coal,heat,29,1983,0
+coal,heat,29,1984,0
+coal,heat,29,1985,0
+coal,heat,29,1986,0
+coal,heat,29,1987,0
+coal,heat,29,1988,0
+coal,heat,29,1989,0
+coal,heat,29,1990,0
+coal,heat,29,1991,0
+coal,heat,29,1992,0
+coal,heat,29,1993,0
+coal,heat,29,1994,0
+coal,heat,29,1995,0
+coal,heat,29,1996,0
+coal,heat,29,1997,0
+coal,heat,29,1998,0
+coal,heat,29,1999,0
+coal,heat,29,2000,0
+coal,heat,29,2001,0
+coal,heat,29,2002,0
+coal,heat,29,2003,0
+coal,heat,29,2004,0
+coal,heat,29,2005,0
+coal,heat,29,2006,0
+coal,heat,29,2007,0
+coal,heat,29,2008,0
+coal,heat,29,2009,0
+coal,heat,29,2010,0
+coal,heat,30,1971,0
+coal,heat,30,1972,0
+coal,heat,30,1973,0
+coal,heat,30,1974,0
+coal,heat,30,1975,0
+coal,heat,30,1976,0
+coal,heat,30,1977,0
+coal,heat,30,1978,0
+coal,heat,30,1979,0
+coal,heat,30,1980,0
+coal,heat,30,1981,0
+coal,heat,30,1982,0
+coal,heat,30,1983,0
+coal,heat,30,1984,0
+coal,heat,30,1985,0
+coal,heat,30,1986,0
+coal,heat,30,1987,0
+coal,heat,30,1988,0
+coal,heat,30,1989,0
+coal,heat,30,1990,0
+coal,heat,30,1991,0
+coal,heat,30,1992,0
+coal,heat,30,1993,0
+coal,heat,30,1994,0
+coal,heat,30,1995,0
+coal,heat,30,1996,0
+coal,heat,30,1997,0
+coal,heat,30,1998,0
+coal,heat,30,1999,0
+coal,heat,30,2000,0
+coal,heat,30,2001,0
+coal,heat,30,2002,0
+coal,heat,30,2003,0
+coal,heat,30,2004,0
+coal,heat,30,2005,0
+coal,heat,30,2006,0
+coal,heat,30,2007,0
+coal,heat,30,2008,0
+coal,heat,30,2009,0
+coal,heat,30,2010,0
+coal,heat,31,1971,0
+coal,heat,31,1972,0
+coal,heat,31,1973,0
+coal,heat,31,1974,0
+coal,heat,31,1975,0
+coal,heat,31,1976,0
+coal,heat,31,1977,0
+coal,heat,31,1978,0
+coal,heat,31,1979,0
+coal,heat,31,1980,0
+coal,heat,31,1981,0
+coal,heat,31,1982,0
+coal,heat,31,1983,0
+coal,heat,31,1984,0
+coal,heat,31,1985,0
+coal,heat,31,1986,0
+coal,heat,31,1987,0
+coal,heat,31,1988,0
+coal,heat,31,1989,0
+coal,heat,31,1990,0
+coal,heat,31,1991,0
+coal,heat,31,1992,0
+coal,heat,31,1993,0
+coal,heat,31,1994,0
+coal,heat,31,1995,0
+coal,heat,31,1996,0
+coal,heat,31,1997,0
+coal,heat,31,1998,0
+coal,heat,31,1999,0
+coal,heat,31,2000,0
+coal,heat,31,2001,0
+coal,heat,31,2002,0
+coal,heat,31,2003,0
+coal,heat,31,2004,0
+coal,heat,31,2005,0
+coal,heat,31,2006,0
+coal,heat,31,2007,0
+coal,heat,31,2008,0
+coal,heat,31,2009,0
+coal,heat,31,2010,0
+coal,heat,32,1971,0
+coal,heat,32,1972,0
+coal,heat,32,1973,0
+coal,heat,32,1974,0
+coal,heat,32,1975,0
+coal,heat,32,1976,0
+coal,heat,32,1977,0
+coal,heat,32,1978,0
+coal,heat,32,1979,0
+coal,heat,32,1980,0
+coal,heat,32,1981,0
+coal,heat,32,1982,0
+coal,heat,32,1983,0
+coal,heat,32,1984,0
+coal,heat,32,1985,0
+coal,heat,32,1986,0
+coal,heat,32,1987,0
+coal,heat,32,1988,0
+coal,heat,32,1989,0
+coal,heat,32,1990,0
+coal,heat,32,1991,0
+coal,heat,32,1992,0
+coal,heat,32,1993,0
+coal,heat,32,1994,0
+coal,heat,32,1995,0
+coal,heat,32,1996,0
+coal,heat,32,1997,0
+coal,heat,32,1998,0
+coal,heat,32,1999,0
+coal,heat,32,2000,0
+coal,heat,32,2001,0
+coal,heat,32,2002,0
+coal,heat,32,2003,0
+coal,heat,32,2004,0
+coal,heat,32,2005,0
+coal,heat,32,2006,0
+coal,heat,32,2007,0
+coal,heat,32,2008,0
+coal,heat,32,2009,0
+coal,heat,32,2010,0
+gas,heat,1,1971,0
+gas,heat,1,1972,0
+gas,heat,1,1973,0
+gas,heat,1,1974,0
+gas,heat,1,1975,0
+gas,heat,1,1976,0
+gas,heat,1,1977,0
+gas,heat,1,1978,0
+gas,heat,1,1979,0
+gas,heat,1,1980,0
+gas,heat,1,1981,0
+gas,heat,1,1982,0
+gas,heat,1,1983,0
+gas,heat,1,1984,0
+gas,heat,1,1985,0
+gas,heat,1,1986,0
+gas,heat,1,1987,0
+gas,heat,1,1988,0
+gas,heat,1,1989,0
+gas,heat,1,1990,0
+gas,heat,1,1991,0
+gas,heat,1,1992,0.0498134
+gas,heat,1,1993,0.05173896
+gas,heat,1,1994,0.046422740000000004
+gas,heat,1,1995,0.05634356
+gas,heat,1,1996,0.06965504
+gas,heat,1,1997,0.08125026
+gas,heat,1,1998,0.039515840000000003
+gas,heat,1,1999,0.05173896
+gas,heat,1,2000,0
+gas,heat,1,2001,0
+gas,heat,1,2002,0
+gas,heat,1,2003,0
+gas,heat,1,2004,0
+gas,heat,1,2005,0
+gas,heat,1,2006,0
+gas,heat,1,2007,0
+gas,heat,1,2008,0
+gas,heat,1,2009,0
+gas,heat,1,2010,0
+gas,heat,2,1971,0
+gas,heat,2,1972,0
+gas,heat,2,1973,0
+gas,heat,2,1974,0
+gas,heat,2,1975,0
+gas,heat,2,1976,0
+gas,heat,2,1977,0
+gas,heat,2,1978,0
+gas,heat,2,1979,0
+gas,heat,2,1980,0
+gas,heat,2,1981,0
+gas,heat,2,1982,0
+gas,heat,2,1983,0
+gas,heat,2,1984,0
+gas,heat,2,1985,0
+gas,heat,2,1986,0
+gas,heat,2,1987,0
+gas,heat,2,1988,0
+gas,heat,2,1989,0
+gas,heat,2,1990,0
+gas,heat,2,1991,0
+gas,heat,2,1992,0
+gas,heat,2,1993,0
+gas,heat,2,1994,0
+gas,heat,2,1995,0
+gas,heat,2,1996,0
+gas,heat,2,1997,0
+gas,heat,2,1998,0
+gas,heat,2,1999,0
+gas,heat,2,2000,0
+gas,heat,2,2001,0
+gas,heat,2,2002,0
+gas,heat,2,2003,0
+gas,heat,2,2004,0
+gas,heat,2,2005,0
+gas,heat,2,2006,0
+gas,heat,2,2007,0
+gas,heat,2,2008,0
+gas,heat,2,2009,0
+gas,heat,2,2010,0
+gas,heat,3,1971,0
+gas,heat,3,1972,0
+gas,heat,3,1973,0
+gas,heat,3,1974,0
+gas,heat,3,1975,0
+gas,heat,3,1976,0
+gas,heat,3,1977,0
+gas,heat,3,1978,0
+gas,heat,3,1979,0
+gas,heat,3,1980,0
+gas,heat,3,1981,0
+gas,heat,3,1982,0
+gas,heat,3,1983,0
+gas,heat,3,1984,0
+gas,heat,3,1985,0
+gas,heat,3,1986,0
+gas,heat,3,1987,0
+gas,heat,3,1988,0
+gas,heat,3,1989,0
+gas,heat,3,1990,0
+gas,heat,3,1991,0
+gas,heat,3,1992,0
+gas,heat,3,1993,0
+gas,heat,3,1994,0
+gas,heat,3,1995,0
+gas,heat,3,1996,0
+gas,heat,3,1997,0
+gas,heat,3,1998,0
+gas,heat,3,1999,0
+gas,heat,3,2000,0
+gas,heat,3,2001,0
+gas,heat,3,2002,0
+gas,heat,3,2003,0
+gas,heat,3,2004,0
+gas,heat,3,2005,0
+gas,heat,3,2006,0
+gas,heat,3,2007,0
+gas,heat,3,2008,0
+gas,heat,3,2009,0
+gas,heat,3,2010,0
+gas,heat,4,1971,0
+gas,heat,4,1972,0
+gas,heat,4,1973,0
+gas,heat,4,1974,0
+gas,heat,4,1975,0
+gas,heat,4,1976,0
+gas,heat,4,1977,0
+gas,heat,4,1978,0
+gas,heat,4,1979,0
+gas,heat,4,1980,0
+gas,heat,4,1981,0
+gas,heat,4,1982,0
+gas,heat,4,1983,0
+gas,heat,4,1984,0
+gas,heat,4,1985,0
+gas,heat,4,1986,0
+gas,heat,4,1987,0
+gas,heat,4,1988,0
+gas,heat,4,1989,0
+gas,heat,4,1990,0
+gas,heat,4,1991,0
+gas,heat,4,1992,0
+gas,heat,4,1993,0
+gas,heat,4,1994,0
+gas,heat,4,1995,0
+gas,heat,4,1996,0
+gas,heat,4,1997,0
+gas,heat,4,1998,0
+gas,heat,4,1999,0
+gas,heat,4,2000,0
+gas,heat,4,2001,0
+gas,heat,4,2002,0
+gas,heat,4,2003,0
+gas,heat,4,2004,0
+gas,heat,4,2005,0
+gas,heat,4,2006,0
+gas,heat,4,2007,0
+gas,heat,4,2008,0
+gas,heat,4,2009,0
+gas,heat,4,2010,0
+gas,heat,5,1971,0
+gas,heat,5,1972,0
+gas,heat,5,1973,0
+gas,heat,5,1974,0
+gas,heat,5,1975,0
+gas,heat,5,1976,0
+gas,heat,5,1977,0
+gas,heat,5,1978,0
+gas,heat,5,1979,0
+gas,heat,5,1980,0
+gas,heat,5,1981,0
+gas,heat,5,1982,0
+gas,heat,5,1983,0
+gas,heat,5,1984,0
+gas,heat,5,1985,0
+gas,heat,5,1986,0
+gas,heat,5,1987,0
+gas,heat,5,1988,0
+gas,heat,5,1989,0
+gas,heat,5,1990,0
+gas,heat,5,1991,0
+gas,heat,5,1992,0
+gas,heat,5,1993,0
+gas,heat,5,1994,0
+gas,heat,5,1995,0
+gas,heat,5,1996,0
+gas,heat,5,1997,0
+gas,heat,5,1998,0
+gas,heat,5,1999,0
+gas,heat,5,2000,0
+gas,heat,5,2001,0
+gas,heat,5,2002,0
+gas,heat,5,2003,0
+gas,heat,5,2004,0
+gas,heat,5,2005,0
+gas,heat,5,2006,0
+gas,heat,5,2007,0
+gas,heat,5,2008,0
+gas,heat,5,2009,0
+gas,heat,5,2010,0
+gas,heat,6,1971,0
+gas,heat,6,1972,0
+gas,heat,6,1973,0
+gas,heat,6,1974,0
+gas,heat,6,1975,0
+gas,heat,6,1976,0
+gas,heat,6,1977,0
+gas,heat,6,1978,0
+gas,heat,6,1979,0
+gas,heat,6,1980,0
+gas,heat,6,1981,0
+gas,heat,6,1982,0
+gas,heat,6,1983,0
+gas,heat,6,1984,0
+gas,heat,6,1985,0
+gas,heat,6,1986,0
+gas,heat,6,1987,0
+gas,heat,6,1988,0
+gas,heat,6,1989,0
+gas,heat,6,1990,0
+gas,heat,6,1991,0
+gas,heat,6,1992,0
+gas,heat,6,1993,0
+gas,heat,6,1994,0
+gas,heat,6,1995,0
+gas,heat,6,1996,0
+gas,heat,6,1997,0
+gas,heat,6,1998,0
+gas,heat,6,1999,0
+gas,heat,6,2000,0
+gas,heat,6,2001,0
+gas,heat,6,2002,0
+gas,heat,6,2003,0
+gas,heat,6,2004,0
+gas,heat,6,2005,0
+gas,heat,6,2006,0
+gas,heat,6,2007,0
+gas,heat,6,2008,0
+gas,heat,6,2009,0
+gas,heat,6,2010,0
+gas,heat,7,1971,0
+gas,heat,7,1972,0
+gas,heat,7,1973,0
+gas,heat,7,1974,0
+gas,heat,7,1975,0
+gas,heat,7,1976,0
+gas,heat,7,1977,0
+gas,heat,7,1978,0
+gas,heat,7,1979,0
+gas,heat,7,1980,0
+gas,heat,7,1981,0
+gas,heat,7,1982,0
+gas,heat,7,1983,0
+gas,heat,7,1984,0
+gas,heat,7,1985,0
+gas,heat,7,1986,0
+gas,heat,7,1987,0
+gas,heat,7,1988,0
+gas,heat,7,1989,0
+gas,heat,7,1990,0
+gas,heat,7,1991,0
+gas,heat,7,1992,0
+gas,heat,7,1993,0
+gas,heat,7,1994,0
+gas,heat,7,1995,0
+gas,heat,7,1996,0
+gas,heat,7,1997,0
+gas,heat,7,1998,0
+gas,heat,7,1999,0
+gas,heat,7,2000,0
+gas,heat,7,2001,0
+gas,heat,7,2002,0
+gas,heat,7,2003,0
+gas,heat,7,2004,0
+gas,heat,7,2005,0
+gas,heat,7,2006,0
+gas,heat,7,2007,0
+gas,heat,7,2008,0
+gas,heat,7,2009,0
+gas,heat,7,2010,0
+gas,heat,8,1971,0
+gas,heat,8,1972,0
+gas,heat,8,1973,0
+gas,heat,8,1974,0
+gas,heat,8,1975,0
+gas,heat,8,1976,0
+gas,heat,8,1977,0
+gas,heat,8,1978,0
+gas,heat,8,1979,0
+gas,heat,8,1980,0
+gas,heat,8,1981,0
+gas,heat,8,1982,0
+gas,heat,8,1983,0
+gas,heat,8,1984,0
+gas,heat,8,1985,0
+gas,heat,8,1986,0
+gas,heat,8,1987,0
+gas,heat,8,1988,0
+gas,heat,8,1989,0
+gas,heat,8,1990,0
+gas,heat,8,1991,0
+gas,heat,8,1992,0
+gas,heat,8,1993,0
+gas,heat,8,1994,0
+gas,heat,8,1995,0
+gas,heat,8,1996,0
+gas,heat,8,1997,0
+gas,heat,8,1998,0
+gas,heat,8,1999,0
+gas,heat,8,2000,0
+gas,heat,8,2001,0
+gas,heat,8,2002,0
+gas,heat,8,2003,0
+gas,heat,8,2004,0
+gas,heat,8,2005,0
+gas,heat,8,2006,0
+gas,heat,8,2007,0
+gas,heat,8,2008,0
+gas,heat,8,2009,0
+gas,heat,8,2010,0
+gas,heat,9,1971,0
+gas,heat,9,1972,0
+gas,heat,9,1973,0
+gas,heat,9,1974,0
+gas,heat,9,1975,0
+gas,heat,9,1976,0
+gas,heat,9,1977,0
+gas,heat,9,1978,0
+gas,heat,9,1979,0
+gas,heat,9,1980,0
+gas,heat,9,1981,0
+gas,heat,9,1982,0
+gas,heat,9,1983,0
+gas,heat,9,1984,0
+gas,heat,9,1985,0
+gas,heat,9,1986,0
+gas,heat,9,1987,0
+gas,heat,9,1988,0
+gas,heat,9,1989,0
+gas,heat,9,1990,0
+gas,heat,9,1991,0
+gas,heat,9,1992,0
+gas,heat,9,1993,0
+gas,heat,9,1994,0
+gas,heat,9,1995,0
+gas,heat,9,1996,0
+gas,heat,9,1997,0
+gas,heat,9,1998,0
+gas,heat,9,1999,0
+gas,heat,9,2000,0
+gas,heat,9,2001,0
+gas,heat,9,2002,0
+gas,heat,9,2003,0
+gas,heat,9,2004,0
+gas,heat,9,2005,0
+gas,heat,9,2006,0
+gas,heat,9,2007,0
+gas,heat,9,2008,0
+gas,heat,9,2009,0
+gas,heat,9,2010,0
+gas,heat,10,1971,0
+gas,heat,10,1972,0
+gas,heat,10,1973,0
+gas,heat,10,1974,0
+gas,heat,10,1975,0
+gas,heat,10,1976,0
+gas,heat,10,1977,0
+gas,heat,10,1978,0
+gas,heat,10,1979,0
+gas,heat,10,1980,0
+gas,heat,10,1981,0
+gas,heat,10,1982,0
+gas,heat,10,1983,0
+gas,heat,10,1984,0
+gas,heat,10,1985,0
+gas,heat,10,1986,0
+gas,heat,10,1987,0
+gas,heat,10,1988,0
+gas,heat,10,1989,0
+gas,heat,10,1990,0.05889702
+gas,heat,10,1991,0.02892526
+gas,heat,10,1992,0.01439984
+gas,heat,10,1993,0.009585940000000001
+gas,heat,10,1994,0.00142324
+gas,heat,10,1995,0.06438068
+gas,heat,10,1996,0.057055180000000004
+gas,heat,10,1997,0.05362266
+gas,heat,10,1998,0.05952492
+gas,heat,10,1999,0.06040398
+gas,heat,10,2000,0.06119932000000001
+gas,heat,10,2001,0.061910940000000005
+gas,heat,10,2002,0.06266442
+gas,heat,10,2003,0.06337604000000001
+gas,heat,10,2004,0.06408766
+gas,heat,10,2005,0.06488300000000001
+gas,heat,10,2006,0.0657202
+gas,heat,10,2007,0.06915272
+gas,heat,10,2008,0.07045037999999999
+gas,heat,10,2009,0.07187362
+gas,heat,10,2010,0.07321314000000001
+gas,heat,11,1971,0
+gas,heat,11,1972,0
+gas,heat,11,1973,0
+gas,heat,11,1974,0
+gas,heat,11,1975,0
+gas,heat,11,1976,0
+gas,heat,11,1977,0
+gas,heat,11,1978,0.00359996
+gas,heat,11,1979,0.00359996
+gas,heat,11,1980,0.00267904
+gas,heat,11,1981,0.005399940000000001
+gas,heat,11,1982,0.00359996
+gas,heat,11,1983,0.006279000000000001
+gas,heat,11,1984,0.005399940000000001
+gas,heat,11,1985,7.1162e-4
+gas,heat,11,1986,0.0010465000000000001
+gas,heat,11,1987,0.0010465000000000001
+gas,heat,11,1988,0.0012558
+gas,heat,11,1989,0.0010465000000000001
+gas,heat,11,1990,0.00912548
+gas,heat,11,1991,0.0010465000000000001
+gas,heat,11,1992,0.005944120000000001
+gas,heat,11,1993,0.00719992
+gas,heat,11,1994,0.0035581000000000002
+gas,heat,11,1995,0.00142324
+gas,heat,11,1996,0.00100464
+gas,heat,11,1997,0.00221858
+gas,heat,11,1998,0.01854398
+gas,heat,11,1999,0.03281824
+gas,heat,11,2000,0.04989712
+gas,heat,11,2001,0.05747378
+gas,heat,11,2002,0.059608640000000004
+gas,heat,11,2003,0.04901806
+gas,heat,11,2004,0.07132944000000001
+gas,heat,11,2005,0.08112468
+gas,heat,11,2006,0.07463638
+gas,heat,11,2007,0.06944574
+gas,heat,11,2008,0.07492940000000001
+gas,heat,11,2009,0.08999900000000001
+gas,heat,11,2010,0.10167794000000001
+gas,heat,12,1971,0.026957840000000004
+gas,heat,12,1972,0.028381080000000003
+gas,heat,12,1973,0.02879968
+gas,heat,12,1974,0.03319498
+gas,heat,12,1975,0.03779958
+gas,heat,12,1976,0.042278600000000006
+gas,heat,12,1977,0.044622760000000004
+gas,heat,12,1978,0.047176220000000005
+gas,heat,12,1979,0.05014828
+gas,heat,12,1980,0.10448256
+gas,heat,12,1981,0.10280816
+gas,heat,12,1982,0.10494302000000001
+gas,heat,12,1983,0.10167794000000001
+gas,heat,12,1984,0.11411036000000001
+gas,heat,12,1985,0.12315212
+gas,heat,12,1986,0.11963588
+gas,heat,12,1987,0.12311026000000001
+gas,heat,12,1988,0.12298883006564552
+gas,heat,12,1989,0.11142112450765865
+gas,heat,12,1990,0.19531876
+gas,heat,12,1991,0.18703048000000003
+gas,heat,12,1992,0.31838716
+gas,heat,12,1993,0.26191802000000003
+gas,heat,12,1994,0.16940742
+gas,heat,12,1995,0.18217472
+gas,heat,12,1996,0.21624876
+gas,heat,12,1997,0.20034196
+gas,heat,12,1998,0.19954662
+gas,heat,12,1999,0.19033742
+gas,heat,12,2000,0.18497934000000002
+gas,heat,12,2001,0.18682118
+gas,heat,12,2002,0.17690036
+gas,heat,12,2003,0.17129112000000002
+gas,heat,12,2004,0.16986788000000003
+gas,heat,12,2005,0.16773302
+gas,heat,12,2006,0.14985880000000001
+gas,heat,12,2007,0.14018914000000002
+gas,heat,12,2008,0.13097994000000002
+gas,heat,12,2009,0.12587302
+gas,heat,12,2010,0.1370915
+gas,heat,13,1971,0
+gas,heat,13,1972,0
+gas,heat,13,1973,0
+gas,heat,13,1974,0
+gas,heat,13,1975,0
+gas,heat,13,1976,0
+gas,heat,13,1977,0
+gas,heat,13,1978,0
+gas,heat,13,1979,0
+gas,heat,13,1980,0.0060697
+gas,heat,13,1981,0.0041860000000000005
+gas,heat,13,1982,0.00623714
+gas,heat,13,1983,0.0054836600000000004
+gas,heat,13,1984,0.006613880000000001
+gas,heat,13,1985,0.013269620000000001
+gas,heat,13,1986,0.022060220000000002
+gas,heat,13,1987,0.028715960000000002
+gas,heat,13,1988,0.026915980000000003
+gas,heat,13,1989,0.023943920000000004
+gas,heat,13,1990,0.025367160000000003
+gas,heat,13,1991,0.028548520000000004
+gas,heat,13,1992,0.027376440000000002
+gas,heat,13,1993,0.0286741
+gas,heat,13,1994,0.02624622
+gas,heat,13,1995,0.11314758
+gas,heat,13,1996,0.098371
+gas,heat,13,1997,0.08535254000000002
+gas,heat,13,1998,0.08715252000000001
+gas,heat,13,1999,0.1689051
+gas,heat,13,2000,0.16940742
+gas,heat,13,2001,0.16166332000000003
+gas,heat,13,2002,0.15856568
+gas,heat,13,2003,0.15019368
+gas,heat,13,2004,0.12532884
+gas,heat,13,2005,0.13252876000000002
+gas,heat,13,2006,0.12708696000000003
+gas,heat,13,2007,0.24693214000000002
+gas,heat,13,2008,0.22654632000000002
+gas,heat,13,2009,0.20327216
+gas,heat,13,2010,0.24362520000000001
+gas,heat,14,1971,5.139570800000001e-4
+gas,heat,14,1972,5.139570800000001e-4
+gas,heat,14,1973,5.139570800000001e-4
+gas,heat,14,1974,5.139570800000001e-4
+gas,heat,14,1975,5.139570800000001e-4
+gas,heat,14,1976,5.139570800000001e-4
+gas,heat,14,1977,5.139570800000001e-4
+gas,heat,14,1978,5.139570800000001e-4
+gas,heat,14,1979,5.139570800000001e-4
+gas,heat,14,1980,5.139570800000001e-4
+gas,heat,14,1981,5.139570800000001e-4
+gas,heat,14,1982,5.139570800000001e-4
+gas,heat,14,1983,5.139570800000001e-4
+gas,heat,14,1984,5.139570800000001e-4
+gas,heat,14,1985,5.139570800000001e-4
+gas,heat,14,1986,5.139570800000001e-4
+gas,heat,14,1987,5.139570800000001e-4
+gas,heat,14,1988,5.139570800000001e-4
+gas,heat,14,1989,5.139570800000001e-4
+gas,heat,14,1990,1.7491619600000001
+gas,heat,14,1991,1.69290212
+gas,heat,14,1992,1.44701648
+gas,heat,14,1993,1.4772394
+gas,heat,14,1994,1.35266404
+gas,heat,14,1995,1.21490278
+gas,heat,14,1996,1.1740055600000001
+gas,heat,14,1997,1.15299184
+gas,heat,14,1998,1.0907878800000002
+gas,heat,14,1999,1.1247363400000001
+gas,heat,14,2000,1.09141578
+gas,heat,14,2001,1.0926715800000002
+gas,heat,14,2002,1.0711974000000002
+gas,heat,14,2003,1.2294700600000001
+gas,heat,14,2004,0.99974238
+gas,heat,14,2005,0.8726554200000001
+gas,heat,14,2006,0.7509684000000001
+gas,heat,14,2007,0.6980155
+gas,heat,14,2008,0.76030318
+gas,heat,14,2009,0.48193418000000005
+gas,heat,14,2010,0.5139570800000001
+gas,heat,15,1971,0
+gas,heat,15,1972,0
+gas,heat,15,1973,0
+gas,heat,15,1974,0
+gas,heat,15,1975,0
+gas,heat,15,1976,0
+gas,heat,15,1977,0
+gas,heat,15,1978,0
+gas,heat,15,1979,0
+gas,heat,15,1980,0
+gas,heat,15,1981,2.570204e-5
+gas,heat,15,1982,2.570204e-5
+gas,heat,15,1983,2.570204e-5
+gas,heat,15,1984,2.570204e-5
+gas,heat,15,1985,2.570204e-5
+gas,heat,15,1986,2.570204e-5
+gas,heat,15,1987,2.570204e-5
+gas,heat,15,1988,0.018493390065645512
+gas,heat,15,1989,0.023988464507658642
+gas,heat,15,1990,0.0035162400000000003
+gas,heat,15,1991,0.00305578
+gas,heat,15,1992,0.02905084
+gas,heat,15,1993,0.018460260000000003
+gas,heat,15,1994,0.015278900000000002
+gas,heat,15,1995,0.01682772
+gas,heat,15,1996,0.01996722
+gas,heat,15,1997,0.019925360000000003
+gas,heat,15,1998,0.01913002
+gas,heat,15,1999,0.01649284
+gas,heat,15,2000,0.016744000000000002
+gas,heat,15,2001,0.020846280000000002
+gas,heat,15,2002,0.027041560000000003
+gas,heat,15,2003,0.02829736
+gas,heat,15,2004,0.03365544
+gas,heat,15,2005,0.030515940000000002
+gas,heat,15,2006,0.0263718
+gas,heat,15,2007,0.027502020000000002
+gas,heat,15,2008,0.023399740000000002
+gas,heat,15,2009,0.020846280000000002
+gas,heat,15,2010,0.025702040000000002
+gas,heat,16,1971,0
+gas,heat,16,1972,0
+gas,heat,16,1973,0
+gas,heat,16,1974,0
+gas,heat,16,1975,0
+gas,heat,16,1976,0
+gas,heat,16,1977,0
+gas,heat,16,1978,0
+gas,heat,16,1979,0
+gas,heat,16,1980,0
+gas,heat,16,1981,0
+gas,heat,16,1982,0
+gas,heat,16,1983,0
+gas,heat,16,1984,0
+gas,heat,16,1985,0
+gas,heat,16,1986,0
+gas,heat,16,1987,0
+gas,heat,16,1988,0
+gas,heat,16,1989,0
+gas,heat,16,1990,0.0019255600000000002
+gas,heat,16,1991,0.00267904
+gas,heat,16,1992,0.0023023
+gas,heat,16,1993,0.0016744
+gas,heat,16,1994,0.0028046200000000003
+gas,heat,16,1995,0.0035581
+gas,heat,16,1996,0.00305578
+gas,heat,16,1997,0.004186
+gas,heat,16,1998,0.004772040000000001
+gas,heat,16,1999,0.00464646
+gas,heat,16,2000,0.004227860000000001
+gas,heat,16,2001,0.00456274
+gas,heat,16,2002,0.00468832
+gas,heat,16,2003,0.00519064
+gas,heat,16,2004,0.00569296
+gas,heat,16,2005,0.005065060000000001
+gas,heat,16,2006,0.00456274
+gas,heat,16,2007,0.004646460000000001
+gas,heat,16,2008,0.004562740000000001
+gas,heat,16,2009,0.00435344
+gas,heat,16,2010,0.004897620000000001
+gas,heat,17,1971,0
+gas,heat,17,1972,0
+gas,heat,17,1973,0
+gas,heat,17,1974,0
+gas,heat,17,1975,0
+gas,heat,17,1976,0
+gas,heat,17,1977,0
+gas,heat,17,1978,0
+gas,heat,17,1979,0
+gas,heat,17,1980,0
+gas,heat,17,1981,0
+gas,heat,17,1982,0
+gas,heat,17,1983,0
+gas,heat,17,1984,0
+gas,heat,17,1985,0
+gas,heat,17,1986,0
+gas,heat,17,1987,0
+gas,heat,17,1988,0
+gas,heat,17,1989,0
+gas,heat,17,1990,0
+gas,heat,17,1991,0
+gas,heat,17,1992,0
+gas,heat,17,1993,0
+gas,heat,17,1994,0
+gas,heat,17,1995,0
+gas,heat,17,1996,0
+gas,heat,17,1997,0
+gas,heat,17,1998,0
+gas,heat,17,1999,0
+gas,heat,17,2000,0
+gas,heat,17,2001,0
+gas,heat,17,2002,0
+gas,heat,17,2003,0
+gas,heat,17,2004,0
+gas,heat,17,2005,0
+gas,heat,17,2006,0
+gas,heat,17,2007,0
+gas,heat,17,2008,0
+gas,heat,17,2009,0
+gas,heat,17,2010,0
+gas,heat,18,1971,0
+gas,heat,18,1972,0
+gas,heat,18,1973,0
+gas,heat,18,1974,0
+gas,heat,18,1975,0
+gas,heat,18,1976,0
+gas,heat,18,1977,0
+gas,heat,18,1978,0
+gas,heat,18,1979,0
+gas,heat,18,1980,0
+gas,heat,18,1981,0
+gas,heat,18,1982,0
+gas,heat,18,1983,0
+gas,heat,18,1984,0
+gas,heat,18,1985,0
+gas,heat,18,1986,0
+gas,heat,18,1987,0
+gas,heat,18,1988,0
+gas,heat,18,1989,0
+gas,heat,18,1990,0
+gas,heat,18,1991,0
+gas,heat,18,1992,0
+gas,heat,18,1993,0
+gas,heat,18,1994,0
+gas,heat,18,1995,0
+gas,heat,18,1996,0
+gas,heat,18,1997,0
+gas,heat,18,1998,0
+gas,heat,18,1999,0
+gas,heat,18,2000,0
+gas,heat,18,2001,0
+gas,heat,18,2002,0
+gas,heat,18,2003,0
+gas,heat,18,2004,0
+gas,heat,18,2005,0
+gas,heat,18,2006,0
+gas,heat,18,2007,0
+gas,heat,18,2008,0
+gas,heat,18,2009,0
+gas,heat,18,2010,0
+gas,heat,19,1971,0
+gas,heat,19,1972,0
+gas,heat,19,1973,0
+gas,heat,19,1974,0
+gas,heat,19,1975,0
+gas,heat,19,1976,0
+gas,heat,19,1977,0
+gas,heat,19,1978,0
+gas,heat,19,1979,0
+gas,heat,19,1980,0
+gas,heat,19,1981,0
+gas,heat,19,1982,0.0030139200000000002
+gas,heat,19,1983,0.00309764
+gas,heat,19,1984,0.0035162400000000003
+gas,heat,19,1985,0.00359996
+gas,heat,19,1986,0.00380926
+gas,heat,19,1987,0.00406042
+gas,heat,19,1988,0.00414414
+gas,heat,19,1989,0.0046046
+gas,heat,19,1990,0.00749294
+gas,heat,19,1991,0.008874320000000002
+gas,heat,19,1992,0.009962680000000002
+gas,heat,19,1993,0.01096732
+gas,heat,19,1994,0.01343706
+gas,heat,19,1995,0.014441700000000002
+gas,heat,19,1996,0.015571920000000001
+gas,heat,19,1997,0.01657656
+gas,heat,19,1998,0.01741376
+gas,heat,19,1999,0.01875328
+gas,heat,19,2000,0.019171880000000002
+gas,heat,19,2001,0.018837
+gas,heat,19,2002,0.01896258
+gas,heat,19,2003,0.01866956
+gas,heat,19,2004,0.02118116
+gas,heat,19,2005,0.02289742
+gas,heat,19,2006,0.022060220000000002
+gas,heat,19,2007,0.02252068
+gas,heat,19,2008,0.02088814
+gas,heat,19,2009,0.02046954
+gas,heat,19,2010,0.02080442
+gas,heat,20,1971,0
+gas,heat,20,1972,0
+gas,heat,20,1973,0
+gas,heat,20,1974,0
+gas,heat,20,1975,0
+gas,heat,20,1976,0
+gas,heat,20,1977,0
+gas,heat,20,1978,0
+gas,heat,20,1979,0
+gas,heat,20,1980,0
+gas,heat,20,1981,0
+gas,heat,20,1982,0
+gas,heat,20,1983,0
+gas,heat,20,1984,0
+gas,heat,20,1985,0
+gas,heat,20,1986,0
+gas,heat,20,1987,0
+gas,heat,20,1988,0
+gas,heat,20,1989,0
+gas,heat,20,1990,0
+gas,heat,20,1991,0
+gas,heat,20,1992,0
+gas,heat,20,1993,0
+gas,heat,20,1994,0
+gas,heat,20,1995,0
+gas,heat,20,1996,0
+gas,heat,20,1997,0
+gas,heat,20,1998,0
+gas,heat,20,1999,0
+gas,heat,20,2000,0
+gas,heat,20,2001,0
+gas,heat,20,2002,0
+gas,heat,20,2003,0
+gas,heat,20,2004,0
+gas,heat,20,2005,0
+gas,heat,20,2006,0
+gas,heat,20,2007,0
+gas,heat,20,2008,0
+gas,heat,20,2009,0
+gas,heat,20,2010,0
+gas,heat,21,1971,0
+gas,heat,21,1972,0
+gas,heat,21,1973,0
+gas,heat,21,1974,0
+gas,heat,21,1975,0
+gas,heat,21,1976,0
+gas,heat,21,1977,0
+gas,heat,21,1978,0
+gas,heat,21,1979,0
+gas,heat,21,1980,0
+gas,heat,21,1981,0
+gas,heat,21,1982,0
+gas,heat,21,1983,0
+gas,heat,21,1984,0
+gas,heat,21,1985,0
+gas,heat,21,1986,0
+gas,heat,21,1987,0
+gas,heat,21,1988,0
+gas,heat,21,1989,0
+gas,heat,21,1990,0
+gas,heat,21,1991,0
+gas,heat,21,1992,0
+gas,heat,21,1993,0
+gas,heat,21,1994,0
+gas,heat,21,1995,0
+gas,heat,21,1996,0
+gas,heat,21,1997,0
+gas,heat,21,1998,0
+gas,heat,21,1999,0
+gas,heat,21,2000,0
+gas,heat,21,2001,0
+gas,heat,21,2002,0
+gas,heat,21,2003,0
+gas,heat,21,2004,0
+gas,heat,21,2005,0
+gas,heat,21,2006,0
+gas,heat,21,2007,0
+gas,heat,21,2008,0
+gas,heat,21,2009,0
+gas,heat,21,2010,0
+gas,heat,22,1971,0
+gas,heat,22,1972,0
+gas,heat,22,1973,0
+gas,heat,22,1974,0
+gas,heat,22,1975,0
+gas,heat,22,1976,0
+gas,heat,22,1977,0
+gas,heat,22,1978,0
+gas,heat,22,1979,0
+gas,heat,22,1980,0
+gas,heat,22,1981,0
+gas,heat,22,1982,0
+gas,heat,22,1983,0
+gas,heat,22,1984,0
+gas,heat,22,1985,0
+gas,heat,22,1986,0
+gas,heat,22,1987,0
+gas,heat,22,1988,0
+gas,heat,22,1989,0
+gas,heat,22,1990,0
+gas,heat,22,1991,0
+gas,heat,22,1992,0
+gas,heat,22,1993,0
+gas,heat,22,1994,0
+gas,heat,22,1995,0
+gas,heat,22,1996,0
+gas,heat,22,1997,0
+gas,heat,22,1998,0
+gas,heat,22,1999,0
+gas,heat,22,2000,0
+gas,heat,22,2001,0
+gas,heat,22,2002,0
+gas,heat,22,2003,0
+gas,heat,22,2004,0
+gas,heat,22,2005,0
+gas,heat,22,2006,0
+gas,heat,22,2007,0
+gas,heat,22,2008,0
+gas,heat,22,2009,0
+gas,heat,22,2010,0
+gas,heat,23,1971,0.0026581100000000004
+gas,heat,23,1972,0.0026581100000000004
+gas,heat,23,1973,0.0026581100000000004
+gas,heat,23,1974,0.0026581100000000004
+gas,heat,23,1975,0.0026581100000000004
+gas,heat,23,1976,0.0026581100000000004
+gas,heat,23,1977,0.0026581100000000004
+gas,heat,23,1978,0.0026581100000000004
+gas,heat,23,1979,0.0026581100000000004
+gas,heat,23,1980,0.0026581100000000004
+gas,heat,23,1981,0.0026581100000000004
+gas,heat,23,1982,0.0026581100000000004
+gas,heat,23,1983,0.0026581100000000004
+gas,heat,23,1984,0.0026581100000000004
+gas,heat,23,1985,0.0026581100000000004
+gas,heat,23,1986,0.0026581100000000004
+gas,heat,23,1987,0.0026581100000000004
+gas,heat,23,1988,0.0026581100000000004
+gas,heat,23,1989,0.0026581100000000004
+gas,heat,23,1990,2.4088337
+gas,heat,23,1991,2.6026455
+gas,heat,23,1992,2.41984288
+gas,heat,23,1993,2.4388473200000003
+gas,heat,23,1994,2.61177098
+gas,heat,23,1995,2.4318567
+gas,heat,23,1996,2.41883824
+gas,heat,23,1997,2.39384782
+gas,heat,23,1998,2.44303332
+gas,heat,23,1999,2.53696716
+gas,heat,23,2000,2.4954001800000003
+gas,heat,23,2001,2.5067861000000002
+gas,heat,23,2002,2.5180883
+gas,heat,23,2003,2.5846875600000003
+gas,heat,23,2004,2.5747667400000003
+gas,heat,23,2005,2.5298091
+gas,heat,23,2006,2.6030641
+gas,heat,23,2007,2.538809
+gas,heat,23,2008,2.4302660200000004
+gas,heat,23,2009,2.43692176
+gas,heat,23,2010,2.65811
+gas,heat,24,1971,0
+gas,heat,24,1972,0
+gas,heat,24,1973,0
+gas,heat,24,1974,0
+gas,heat,24,1975,0
+gas,heat,24,1976,0
+gas,heat,24,1977,0
+gas,heat,24,1978,0
+gas,heat,24,1979,0
+gas,heat,24,1980,0
+gas,heat,24,1981,0
+gas,heat,24,1982,0
+gas,heat,24,1983,0
+gas,heat,24,1984,0
+gas,heat,24,1985,0
+gas,heat,24,1986,0
+gas,heat,24,1987,0
+gas,heat,24,1988,0
+gas,heat,24,1989,0
+gas,heat,24,1990,0
+gas,heat,24,1991,0
+gas,heat,24,1992,0
+gas,heat,24,1993,0
+gas,heat,24,1994,0
+gas,heat,24,1995,0
+gas,heat,24,1996,0
+gas,heat,24,1997,0
+gas,heat,24,1998,0
+gas,heat,24,1999,0
+gas,heat,24,2000,0
+gas,heat,24,2001,0
+gas,heat,24,2002,0
+gas,heat,24,2003,0
+gas,heat,24,2004,0
+gas,heat,24,2005,0
+gas,heat,24,2006,0
+gas,heat,24,2007,0
+gas,heat,24,2008,0
+gas,heat,24,2009,0
+gas,heat,24,2010,0
+gas,heat,25,1971,0
+gas,heat,25,1972,0
+gas,heat,25,1973,0
+gas,heat,25,1974,0
+gas,heat,25,1975,0
+gas,heat,25,1976,0
+gas,heat,25,1977,0
+gas,heat,25,1978,0
+gas,heat,25,1979,0
+gas,heat,25,1980,0
+gas,heat,25,1981,0
+gas,heat,25,1982,0
+gas,heat,25,1983,0
+gas,heat,25,1984,0
+gas,heat,25,1985,0
+gas,heat,25,1986,0
+gas,heat,25,1987,0
+gas,heat,25,1988,0
+gas,heat,25,1989,0
+gas,heat,25,1990,0
+gas,heat,25,1991,0
+gas,heat,25,1992,0
+gas,heat,25,1993,0
+gas,heat,25,1994,0
+gas,heat,25,1995,0
+gas,heat,25,1996,0
+gas,heat,25,1997,0
+gas,heat,25,1998,0
+gas,heat,25,1999,0
+gas,heat,25,2000,0
+gas,heat,25,2001,0
+gas,heat,25,2002,0
+gas,heat,25,2003,0
+gas,heat,25,2004,0
+gas,heat,25,2005,0
+gas,heat,25,2006,0
+gas,heat,25,2007,0
+gas,heat,25,2008,0
+gas,heat,25,2009,0
+gas,heat,25,2010,0
+gas,heat,26,1971,0
+gas,heat,26,1972,0
+gas,heat,26,1973,0
+gas,heat,26,1974,0
+gas,heat,26,1975,0
+gas,heat,26,1976,0
+gas,heat,26,1977,0
+gas,heat,26,1978,0
+gas,heat,26,1979,0
+gas,heat,26,1980,0
+gas,heat,26,1981,0
+gas,heat,26,1982,0
+gas,heat,26,1983,0
+gas,heat,26,1984,0
+gas,heat,26,1985,0
+gas,heat,26,1986,0
+gas,heat,26,1987,0
+gas,heat,26,1988,0
+gas,heat,26,1989,0
+gas,heat,26,1990,0
+gas,heat,26,1991,0
+gas,heat,26,1992,0
+gas,heat,26,1993,0
+gas,heat,26,1994,0
+gas,heat,26,1995,0
+gas,heat,26,1996,0
+gas,heat,26,1997,0
+gas,heat,26,1998,0
+gas,heat,26,1999,0
+gas,heat,26,2000,0
+gas,heat,26,2001,0
+gas,heat,26,2002,0
+gas,heat,26,2003,0
+gas,heat,26,2004,0
+gas,heat,26,2005,0
+gas,heat,26,2006,0
+gas,heat,26,2007,0
+gas,heat,26,2008,0
+gas,heat,26,2009,0
+gas,heat,26,2010,0
+gas,heat,27,1971,0
+gas,heat,27,1972,0
+gas,heat,27,1973,0
+gas,heat,27,1974,0
+gas,heat,27,1975,0
+gas,heat,27,1976,0
+gas,heat,27,1977,0
+gas,heat,27,1978,0
+gas,heat,27,1979,0
+gas,heat,27,1980,0
+gas,heat,27,1981,0
+gas,heat,27,1982,0
+gas,heat,27,1983,0
+gas,heat,27,1984,0
+gas,heat,27,1985,0
+gas,heat,27,1986,0
+gas,heat,27,1987,0
+gas,heat,27,1988,0
+gas,heat,27,1989,0
+gas,heat,27,1990,0
+gas,heat,27,1991,0
+gas,heat,27,1992,0
+gas,heat,27,1993,0
+gas,heat,27,1994,0
+gas,heat,27,1995,0
+gas,heat,27,1996,0
+gas,heat,27,1997,0
+gas,heat,27,1998,0
+gas,heat,27,1999,0
+gas,heat,27,2000,0
+gas,heat,27,2001,0
+gas,heat,27,2002,0
+gas,heat,27,2003,0
+gas,heat,27,2004,0
+gas,heat,27,2005,0
+gas,heat,27,2006,0
+gas,heat,27,2007,0
+gas,heat,27,2008,0
+gas,heat,27,2009,0
+gas,heat,27,2010,0
+gas,heat,28,1971,0
+gas,heat,28,1972,0
+gas,heat,28,1973,0
+gas,heat,28,1974,0
+gas,heat,28,1975,0
+gas,heat,28,1976,0
+gas,heat,28,1977,0
+gas,heat,28,1978,0
+gas,heat,28,1979,0
+gas,heat,28,1980,0
+gas,heat,28,1981,0
+gas,heat,28,1982,0
+gas,heat,28,1983,0
+gas,heat,28,1984,0
+gas,heat,28,1985,0
+gas,heat,28,1986,0
+gas,heat,28,1987,0
+gas,heat,28,1988,0
+gas,heat,28,1989,0
+gas,heat,28,1990,0
+gas,heat,28,1991,0
+gas,heat,28,1992,0
+gas,heat,28,1993,0
+gas,heat,28,1994,0
+gas,heat,28,1995,0
+gas,heat,28,1996,0
+gas,heat,28,1997,0
+gas,heat,28,1998,0
+gas,heat,28,1999,0
+gas,heat,28,2000,0
+gas,heat,28,2001,4.186e-5
+gas,heat,28,2002,0.00799526
+gas,heat,28,2003,0.0024278800000000003
+gas,heat,28,2004,0.00284648
+gas,heat,28,2005,0.00535808
+gas,heat,28,2006,0.006153420000000001
+gas,heat,28,2007,0.0026371800000000003
+gas,heat,28,2008,0.00305578
+gas,heat,28,2009,0.004437160000000001
+gas,heat,28,2010,0.00556738
+gas,heat,29,1971,0
+gas,heat,29,1972,0
+gas,heat,29,1973,0
+gas,heat,29,1974,0
+gas,heat,29,1975,0
+gas,heat,29,1976,0
+gas,heat,29,1977,0
+gas,heat,29,1978,0
+gas,heat,29,1979,0
+gas,heat,29,1980,0
+gas,heat,29,1981,0
+gas,heat,29,1982,0
+gas,heat,29,1983,0
+gas,heat,29,1984,0
+gas,heat,29,1985,0
+gas,heat,29,1986,0
+gas,heat,29,1987,0
+gas,heat,29,1988,0
+gas,heat,29,1989,0
+gas,heat,29,1990,0
+gas,heat,29,1991,0
+gas,heat,29,1992,0
+gas,heat,29,1993,0
+gas,heat,29,1994,0
+gas,heat,29,1995,0
+gas,heat,29,1996,0
+gas,heat,29,1997,0
+gas,heat,29,1998,0
+gas,heat,29,1999,0
+gas,heat,29,2000,0
+gas,heat,29,2001,0
+gas,heat,29,2002,0
+gas,heat,29,2003,0
+gas,heat,29,2004,0
+gas,heat,29,2005,0
+gas,heat,29,2006,0
+gas,heat,29,2007,0
+gas,heat,29,2008,0
+gas,heat,29,2009,0
+gas,heat,29,2010,0
+gas,heat,30,1971,0
+gas,heat,30,1972,0
+gas,heat,30,1973,0
+gas,heat,30,1974,0
+gas,heat,30,1975,0
+gas,heat,30,1976,0
+gas,heat,30,1977,0
+gas,heat,30,1978,0
+gas,heat,30,1979,0
+gas,heat,30,1980,0
+gas,heat,30,1981,0
+gas,heat,30,1982,0
+gas,heat,30,1983,0
+gas,heat,30,1984,0
+gas,heat,30,1985,0
+gas,heat,30,1986,0
+gas,heat,30,1987,0
+gas,heat,30,1988,0
+gas,heat,30,1989,0
+gas,heat,30,1990,0
+gas,heat,30,1991,0
+gas,heat,30,1992,0
+gas,heat,30,1993,0
+gas,heat,30,1994,0
+gas,heat,30,1995,0
+gas,heat,30,1996,0
+gas,heat,30,1997,0
+gas,heat,30,1998,0
+gas,heat,30,1999,0
+gas,heat,30,2000,0
+gas,heat,30,2001,0
+gas,heat,30,2002,0
+gas,heat,30,2003,0
+gas,heat,30,2004,0
+gas,heat,30,2005,0
+gas,heat,30,2006,0
+gas,heat,30,2007,0
+gas,heat,30,2008,0
+gas,heat,30,2009,0
+gas,heat,30,2010,0
+gas,heat,31,1971,0
+gas,heat,31,1972,0
+gas,heat,31,1973,0
+gas,heat,31,1974,0
+gas,heat,31,1975,0
+gas,heat,31,1976,0
+gas,heat,31,1977,0
+gas,heat,31,1978,0
+gas,heat,31,1979,0
+gas,heat,31,1980,0
+gas,heat,31,1981,0
+gas,heat,31,1982,0
+gas,heat,31,1983,0
+gas,heat,31,1984,0
+gas,heat,31,1985,0
+gas,heat,31,1986,0
+gas,heat,31,1987,0
+gas,heat,31,1988,0
+gas,heat,31,1989,0
+gas,heat,31,1990,0
+gas,heat,31,1991,0
+gas,heat,31,1992,0
+gas,heat,31,1993,0
+gas,heat,31,1994,0
+gas,heat,31,1995,0
+gas,heat,31,1996,0
+gas,heat,31,1997,0
+gas,heat,31,1998,0
+gas,heat,31,1999,0
+gas,heat,31,2000,0
+gas,heat,31,2001,0
+gas,heat,31,2002,0
+gas,heat,31,2003,0
+gas,heat,31,2004,0
+gas,heat,31,2005,0
+gas,heat,31,2006,0
+gas,heat,31,2007,0
+gas,heat,31,2008,0
+gas,heat,31,2009,0
+gas,heat,31,2010,0
+gas,heat,32,1971,0
+gas,heat,32,1972,0
+gas,heat,32,1973,0
+gas,heat,32,1974,0
+gas,heat,32,1975,0
+gas,heat,32,1976,0
+gas,heat,32,1977,0
+gas,heat,32,1978,0
+gas,heat,32,1979,0
+gas,heat,32,1980,0
+gas,heat,32,1981,0
+gas,heat,32,1982,0
+gas,heat,32,1983,0
+gas,heat,32,1984,0
+gas,heat,32,1985,0
+gas,heat,32,1986,0
+gas,heat,32,1987,0
+gas,heat,32,1988,0
+gas,heat,32,1989,0
+gas,heat,32,1990,0
+gas,heat,32,1991,0
+gas,heat,32,1992,0
+gas,heat,32,1993,0
+gas,heat,32,1994,0
+gas,heat,32,1995,0
+gas,heat,32,1996,0
+gas,heat,32,1997,0
+gas,heat,32,1998,0
+gas,heat,32,1999,0
+gas,heat,32,2000,0
+gas,heat,32,2001,0
+gas,heat,32,2002,0
+gas,heat,32,2003,0
+gas,heat,32,2004,0
+gas,heat,32,2005,0
+gas,heat,32,2006,0
+gas,heat,32,2007,0
+gas,heat,32,2008,0
+gas,heat,32,2009,0
+gas,heat,32,2010,0
+refined liquids,heat,1,1971,0
+refined liquids,heat,1,1972,0
+refined liquids,heat,1,1973,0
+refined liquids,heat,1,1974,0
+refined liquids,heat,1,1975,0
+refined liquids,heat,1,1976,0
+refined liquids,heat,1,1977,0
+refined liquids,heat,1,1978,0
+refined liquids,heat,1,1979,0
+refined liquids,heat,1,1980,0
+refined liquids,heat,1,1981,0
+refined liquids,heat,1,1982,0
+refined liquids,heat,1,1983,0
+refined liquids,heat,1,1984,0
+refined liquids,heat,1,1985,0
+refined liquids,heat,1,1986,0
+refined liquids,heat,1,1987,0
+refined liquids,heat,1,1988,0
+refined liquids,heat,1,1989,0
+refined liquids,heat,1,1990,0
+refined liquids,heat,1,1991,0
+refined liquids,heat,1,1992,0
+refined liquids,heat,1,1993,0
+refined liquids,heat,1,1994,0
+refined liquids,heat,1,1995,0
+refined liquids,heat,1,1996,0
+refined liquids,heat,1,1997,0
+refined liquids,heat,1,1998,0
+refined liquids,heat,1,1999,0
+refined liquids,heat,1,2000,0
+refined liquids,heat,1,2001,0
+refined liquids,heat,1,2002,0
+refined liquids,heat,1,2003,0
+refined liquids,heat,1,2004,0
+refined liquids,heat,1,2005,0
+refined liquids,heat,1,2006,0
+refined liquids,heat,1,2007,0
+refined liquids,heat,1,2008,0
+refined liquids,heat,1,2009,0
+refined liquids,heat,1,2010,0
+refined liquids,heat,2,1971,0
+refined liquids,heat,2,1972,0
+refined liquids,heat,2,1973,0
+refined liquids,heat,2,1974,0
+refined liquids,heat,2,1975,0
+refined liquids,heat,2,1976,0
+refined liquids,heat,2,1977,0
+refined liquids,heat,2,1978,0
+refined liquids,heat,2,1979,0
+refined liquids,heat,2,1980,0
+refined liquids,heat,2,1981,0
+refined liquids,heat,2,1982,0
+refined liquids,heat,2,1983,0
+refined liquids,heat,2,1984,0
+refined liquids,heat,2,1985,0
+refined liquids,heat,2,1986,0
+refined liquids,heat,2,1987,0
+refined liquids,heat,2,1988,0
+refined liquids,heat,2,1989,0
+refined liquids,heat,2,1990,0
+refined liquids,heat,2,1991,0
+refined liquids,heat,2,1992,0
+refined liquids,heat,2,1993,0
+refined liquids,heat,2,1994,0
+refined liquids,heat,2,1995,0
+refined liquids,heat,2,1996,0
+refined liquids,heat,2,1997,0
+refined liquids,heat,2,1998,0
+refined liquids,heat,2,1999,0
+refined liquids,heat,2,2000,0
+refined liquids,heat,2,2001,0
+refined liquids,heat,2,2002,0
+refined liquids,heat,2,2003,0
+refined liquids,heat,2,2004,0
+refined liquids,heat,2,2005,0
+refined liquids,heat,2,2006,0
+refined liquids,heat,2,2007,0
+refined liquids,heat,2,2008,0
+refined liquids,heat,2,2009,0
+refined liquids,heat,2,2010,0
+refined liquids,heat,3,1971,0
+refined liquids,heat,3,1972,0
+refined liquids,heat,3,1973,0
+refined liquids,heat,3,1974,0
+refined liquids,heat,3,1975,0
+refined liquids,heat,3,1976,0
+refined liquids,heat,3,1977,0
+refined liquids,heat,3,1978,0
+refined liquids,heat,3,1979,0
+refined liquids,heat,3,1980,0
+refined liquids,heat,3,1981,0
+refined liquids,heat,3,1982,0
+refined liquids,heat,3,1983,0
+refined liquids,heat,3,1984,0
+refined liquids,heat,3,1985,0
+refined liquids,heat,3,1986,0
+refined liquids,heat,3,1987,0
+refined liquids,heat,3,1988,0
+refined liquids,heat,3,1989,0
+refined liquids,heat,3,1990,0
+refined liquids,heat,3,1991,0
+refined liquids,heat,3,1992,0
+refined liquids,heat,3,1993,0
+refined liquids,heat,3,1994,0
+refined liquids,heat,3,1995,0
+refined liquids,heat,3,1996,0
+refined liquids,heat,3,1997,0
+refined liquids,heat,3,1998,0
+refined liquids,heat,3,1999,0
+refined liquids,heat,3,2000,0
+refined liquids,heat,3,2001,0
+refined liquids,heat,3,2002,0
+refined liquids,heat,3,2003,0
+refined liquids,heat,3,2004,0
+refined liquids,heat,3,2005,0
+refined liquids,heat,3,2006,0
+refined liquids,heat,3,2007,0
+refined liquids,heat,3,2008,0
+refined liquids,heat,3,2009,0
+refined liquids,heat,3,2010,0
+refined liquids,heat,4,1971,0
+refined liquids,heat,4,1972,0
+refined liquids,heat,4,1973,0
+refined liquids,heat,4,1974,0
+refined liquids,heat,4,1975,0
+refined liquids,heat,4,1976,0
+refined liquids,heat,4,1977,0
+refined liquids,heat,4,1978,0
+refined liquids,heat,4,1979,0
+refined liquids,heat,4,1980,0
+refined liquids,heat,4,1981,0
+refined liquids,heat,4,1982,0
+refined liquids,heat,4,1983,0
+refined liquids,heat,4,1984,0
+refined liquids,heat,4,1985,0
+refined liquids,heat,4,1986,0
+refined liquids,heat,4,1987,0
+refined liquids,heat,4,1988,0
+refined liquids,heat,4,1989,0
+refined liquids,heat,4,1990,0
+refined liquids,heat,4,1991,0
+refined liquids,heat,4,1992,0
+refined liquids,heat,4,1993,0
+refined liquids,heat,4,1994,0
+refined liquids,heat,4,1995,0
+refined liquids,heat,4,1996,0
+refined liquids,heat,4,1997,0
+refined liquids,heat,4,1998,0
+refined liquids,heat,4,1999,0
+refined liquids,heat,4,2000,0
+refined liquids,heat,4,2001,0
+refined liquids,heat,4,2002,0
+refined liquids,heat,4,2003,0
+refined liquids,heat,4,2004,0
+refined liquids,heat,4,2005,0
+refined liquids,heat,4,2006,0
+refined liquids,heat,4,2007,0
+refined liquids,heat,4,2008,0
+refined liquids,heat,4,2009,0
+refined liquids,heat,4,2010,0
+refined liquids,heat,5,1971,0
+refined liquids,heat,5,1972,0
+refined liquids,heat,5,1973,0
+refined liquids,heat,5,1974,0
+refined liquids,heat,5,1975,0
+refined liquids,heat,5,1976,0
+refined liquids,heat,5,1977,0
+refined liquids,heat,5,1978,0
+refined liquids,heat,5,1979,0
+refined liquids,heat,5,1980,0
+refined liquids,heat,5,1981,0
+refined liquids,heat,5,1982,0
+refined liquids,heat,5,1983,0
+refined liquids,heat,5,1984,0
+refined liquids,heat,5,1985,0
+refined liquids,heat,5,1986,0
+refined liquids,heat,5,1987,0
+refined liquids,heat,5,1988,0
+refined liquids,heat,5,1989,0
+refined liquids,heat,5,1990,0
+refined liquids,heat,5,1991,0
+refined liquids,heat,5,1992,0
+refined liquids,heat,5,1993,0
+refined liquids,heat,5,1994,0
+refined liquids,heat,5,1995,0
+refined liquids,heat,5,1996,0
+refined liquids,heat,5,1997,0
+refined liquids,heat,5,1998,0
+refined liquids,heat,5,1999,0
+refined liquids,heat,5,2000,0
+refined liquids,heat,5,2001,0
+refined liquids,heat,5,2002,0
+refined liquids,heat,5,2003,0
+refined liquids,heat,5,2004,0
+refined liquids,heat,5,2005,0
+refined liquids,heat,5,2006,0
+refined liquids,heat,5,2007,0
+refined liquids,heat,5,2008,0
+refined liquids,heat,5,2009,0
+refined liquids,heat,5,2010,0
+refined liquids,heat,6,1971,0
+refined liquids,heat,6,1972,0
+refined liquids,heat,6,1973,0
+refined liquids,heat,6,1974,0
+refined liquids,heat,6,1975,0
+refined liquids,heat,6,1976,0
+refined liquids,heat,6,1977,0
+refined liquids,heat,6,1978,0
+refined liquids,heat,6,1979,0
+refined liquids,heat,6,1980,0
+refined liquids,heat,6,1981,0
+refined liquids,heat,6,1982,0
+refined liquids,heat,6,1983,0
+refined liquids,heat,6,1984,0
+refined liquids,heat,6,1985,0
+refined liquids,heat,6,1986,0
+refined liquids,heat,6,1987,0
+refined liquids,heat,6,1988,0
+refined liquids,heat,6,1989,0
+refined liquids,heat,6,1990,0
+refined liquids,heat,6,1991,0
+refined liquids,heat,6,1992,0
+refined liquids,heat,6,1993,0
+refined liquids,heat,6,1994,0
+refined liquids,heat,6,1995,0
+refined liquids,heat,6,1996,0
+refined liquids,heat,6,1997,0
+refined liquids,heat,6,1998,0
+refined liquids,heat,6,1999,0
+refined liquids,heat,6,2000,0
+refined liquids,heat,6,2001,0
+refined liquids,heat,6,2002,0
+refined liquids,heat,6,2003,0
+refined liquids,heat,6,2004,0
+refined liquids,heat,6,2005,0
+refined liquids,heat,6,2006,0
+refined liquids,heat,6,2007,0
+refined liquids,heat,6,2008,0
+refined liquids,heat,6,2009,0
+refined liquids,heat,6,2010,0
+refined liquids,heat,7,1971,0
+refined liquids,heat,7,1972,0
+refined liquids,heat,7,1973,0
+refined liquids,heat,7,1974,0
+refined liquids,heat,7,1975,0
+refined liquids,heat,7,1976,0
+refined liquids,heat,7,1977,0
+refined liquids,heat,7,1978,0
+refined liquids,heat,7,1979,0
+refined liquids,heat,7,1980,0
+refined liquids,heat,7,1981,0
+refined liquids,heat,7,1982,0
+refined liquids,heat,7,1983,0
+refined liquids,heat,7,1984,0
+refined liquids,heat,7,1985,0
+refined liquids,heat,7,1986,0
+refined liquids,heat,7,1987,0
+refined liquids,heat,7,1988,0
+refined liquids,heat,7,1989,0
+refined liquids,heat,7,1990,0
+refined liquids,heat,7,1991,0
+refined liquids,heat,7,1992,0
+refined liquids,heat,7,1993,0
+refined liquids,heat,7,1994,0
+refined liquids,heat,7,1995,0
+refined liquids,heat,7,1996,0
+refined liquids,heat,7,1997,0
+refined liquids,heat,7,1998,0
+refined liquids,heat,7,1999,0
+refined liquids,heat,7,2000,0
+refined liquids,heat,7,2001,0
+refined liquids,heat,7,2002,0
+refined liquids,heat,7,2003,0
+refined liquids,heat,7,2004,0
+refined liquids,heat,7,2005,0
+refined liquids,heat,7,2006,0
+refined liquids,heat,7,2007,0
+refined liquids,heat,7,2008,0
+refined liquids,heat,7,2009,0
+refined liquids,heat,7,2010,0
+refined liquids,heat,8,1971,0
+refined liquids,heat,8,1972,0
+refined liquids,heat,8,1973,0
+refined liquids,heat,8,1974,0
+refined liquids,heat,8,1975,0
+refined liquids,heat,8,1976,0
+refined liquids,heat,8,1977,0
+refined liquids,heat,8,1978,0
+refined liquids,heat,8,1979,0
+refined liquids,heat,8,1980,0
+refined liquids,heat,8,1981,0
+refined liquids,heat,8,1982,0
+refined liquids,heat,8,1983,0
+refined liquids,heat,8,1984,0
+refined liquids,heat,8,1985,0
+refined liquids,heat,8,1986,0
+refined liquids,heat,8,1987,0
+refined liquids,heat,8,1988,0
+refined liquids,heat,8,1989,0
+refined liquids,heat,8,1990,0
+refined liquids,heat,8,1991,0
+refined liquids,heat,8,1992,0
+refined liquids,heat,8,1993,0
+refined liquids,heat,8,1994,0
+refined liquids,heat,8,1995,0
+refined liquids,heat,8,1996,0
+refined liquids,heat,8,1997,0
+refined liquids,heat,8,1998,0
+refined liquids,heat,8,1999,0
+refined liquids,heat,8,2000,0
+refined liquids,heat,8,2001,0
+refined liquids,heat,8,2002,0
+refined liquids,heat,8,2003,0
+refined liquids,heat,8,2004,0
+refined liquids,heat,8,2005,0
+refined liquids,heat,8,2006,0
+refined liquids,heat,8,2007,0
+refined liquids,heat,8,2008,0
+refined liquids,heat,8,2009,0
+refined liquids,heat,8,2010,0
+refined liquids,heat,9,1971,0
+refined liquids,heat,9,1972,0
+refined liquids,heat,9,1973,0
+refined liquids,heat,9,1974,0
+refined liquids,heat,9,1975,0
+refined liquids,heat,9,1976,0
+refined liquids,heat,9,1977,0
+refined liquids,heat,9,1978,0
+refined liquids,heat,9,1979,0
+refined liquids,heat,9,1980,0
+refined liquids,heat,9,1981,0
+refined liquids,heat,9,1982,0
+refined liquids,heat,9,1983,0
+refined liquids,heat,9,1984,0
+refined liquids,heat,9,1985,0
+refined liquids,heat,9,1986,0
+refined liquids,heat,9,1987,0
+refined liquids,heat,9,1988,0
+refined liquids,heat,9,1989,0
+refined liquids,heat,9,1990,0
+refined liquids,heat,9,1991,0
+refined liquids,heat,9,1992,0
+refined liquids,heat,9,1993,0
+refined liquids,heat,9,1994,0
+refined liquids,heat,9,1995,0
+refined liquids,heat,9,1996,0
+refined liquids,heat,9,1997,0
+refined liquids,heat,9,1998,0
+refined liquids,heat,9,1999,0
+refined liquids,heat,9,2000,0
+refined liquids,heat,9,2001,0
+refined liquids,heat,9,2002,0
+refined liquids,heat,9,2003,0
+refined liquids,heat,9,2004,0
+refined liquids,heat,9,2005,0
+refined liquids,heat,9,2006,0
+refined liquids,heat,9,2007,0
+refined liquids,heat,9,2008,0
+refined liquids,heat,9,2009,0
+refined liquids,heat,9,2010,0
+refined liquids,heat,10,1971,0
+refined liquids,heat,10,1972,0
+refined liquids,heat,10,1973,0
+refined liquids,heat,10,1974,0
+refined liquids,heat,10,1975,0
+refined liquids,heat,10,1976,0
+refined liquids,heat,10,1977,0
+refined liquids,heat,10,1978,0
+refined liquids,heat,10,1979,0
+refined liquids,heat,10,1980,0
+refined liquids,heat,10,1981,0
+refined liquids,heat,10,1982,0
+refined liquids,heat,10,1983,0
+refined liquids,heat,10,1984,0
+refined liquids,heat,10,1985,0
+refined liquids,heat,10,1986,0
+refined liquids,heat,10,1987,0
+refined liquids,heat,10,1988,0
+refined liquids,heat,10,1989,0
+refined liquids,heat,10,1990,0.05328778000000001
+refined liquids,heat,10,1991,0.020050940000000003
+refined liquids,heat,10,1992,0.0458367
+refined liquids,heat,10,1993,0.03072524
+refined liquids,heat,10,1994,0.017539340000000004
+refined liquids,heat,10,1995,0.01100918
+refined liquids,heat,10,1996,0.01536262
+refined liquids,heat,10,1997,0.013144040000000001
+refined liquids,heat,10,1998,0.012725440000000001
+refined liquids,heat,10,1999,0.007953400000000001
+refined liquids,heat,10,2000,0.00619528
+refined liquids,heat,10,2001,0.00552552
+refined liquids,heat,10,2002,0.0049394800000000004
+refined liquids,heat,10,2003,0.00406042
+refined liquids,heat,10,2004,0.0037255400000000003
+refined liquids,heat,10,2005,0.0031395000000000004
+refined liquids,heat,10,2006,0.00284648
+refined liquids,heat,10,2007,0.00196742
+refined liquids,heat,10,2008,0.00142324
+refined liquids,heat,10,2009,0.00100464
+refined liquids,heat,10,2010,8.372000000000001e-4
+refined liquids,heat,11,1971,0
+refined liquids,heat,11,1972,0
+refined liquids,heat,11,1973,0
+refined liquids,heat,11,1974,0
+refined liquids,heat,11,1975,0
+refined liquids,heat,11,1976,0
+refined liquids,heat,11,1977,0
+refined liquids,heat,11,1978,0.0803712
+refined liquids,heat,11,1979,0.0803712
+refined liquids,heat,11,1980,0.0803712
+refined liquids,heat,11,1981,0.0803712
+refined liquids,heat,11,1982,0.0803712
+refined liquids,heat,11,1983,0.0803712
+refined liquids,heat,11,1984,0.10850112
+refined liquids,heat,11,1985,0.11645452
+refined liquids,heat,11,1986,0.13043576
+refined liquids,heat,11,1987,0.11478012
+refined liquids,heat,11,1988,0.12038936
+refined liquids,heat,11,1989,0.12984972
+refined liquids,heat,11,1990,0.13964495999999998
+refined liquids,heat,11,1991,0.13357526
+refined liquids,heat,11,1992,0.14014728
+refined liquids,heat,11,1993,0.19937918000000002
+refined liquids,heat,11,1994,0.21524412000000004
+refined liquids,heat,11,1995,0.14935647999999999
+refined liquids,heat,11,1996,0.14194726000000002
+refined liquids,heat,11,1997,0.12553814
+refined liquids,heat,11,1998,0.15383550000000001
+refined liquids,heat,11,1999,0.13152412
+refined liquids,heat,11,2000,0.17468178
+refined liquids,heat,11,2001,0.17660734
+refined liquids,heat,11,2002,0.1691144
+refined liquids,heat,11,2003,0.16907254000000002
+refined liquids,heat,11,2004,0.15165878
+refined liquids,heat,11,2005,0.11193364
+refined liquids,heat,11,2006,0.1291381
+refined liquids,heat,11,2007,0.11570104
+refined liquids,heat,11,2008,0.13830544
+refined liquids,heat,11,2009,0.131859
+refined liquids,heat,11,2010,0.1686958
+refined liquids,heat,12,1971,0.01201382
+refined liquids,heat,12,1972,0.01343706
+refined liquids,heat,12,1973,0.014232400000000001
+refined liquids,heat,12,1974,0.015697500000000003
+refined liquids,heat,12,1975,0.0240695
+refined liquids,heat,12,1976,0.027376440000000002
+refined liquids,heat,12,1977,0.02905084
+refined liquids,heat,12,1978,0.032818240000000005
+refined liquids,heat,12,1979,0.030808960000000003
+refined liquids,heat,12,1980,0.03930654
+refined liquids,heat,12,1981,0.03792516
+refined liquids,heat,12,1982,0.036418200000000005
+refined liquids,heat,12,1983,0.031395
+refined liquids,heat,12,1984,0.03499496
+refined liquids,heat,12,1985,0.03855306
+refined liquids,heat,12,1986,0.03549728
+refined liquids,heat,12,1987,0.03650192
+refined liquids,heat,12,1988,0.042446040000000004
+refined liquids,heat,12,1989,0.04135768
+refined liquids,heat,12,1990,0.25002978000000003
+refined liquids,heat,12,1991,0.19448156
+refined liquids,heat,12,1992,0.2057419
+refined liquids,heat,12,1993,0.21248136
+refined liquids,heat,12,1994,0.17237948
+refined liquids,heat,12,1995,0.1387659
+refined liquids,heat,12,1996,0.1446263
+refined liquids,heat,12,1997,0.10368722000000001
+refined liquids,heat,12,1998,0.09765938
+refined liquids,heat,12,1999,0.07296198000000001
+refined liquids,heat,12,2000,0.0447902
+refined liquids,heat,12,2001,0.03939026
+refined liquids,heat,12,2002,0.035790300000000004
+refined liquids,heat,12,2003,0.029343860000000003
+refined liquids,heat,12,2004,0.02180906
+refined liquids,heat,12,2005,0.017706780000000002
+refined liquids,heat,12,2006,0.02059512
+refined liquids,heat,12,2007,0.011469640000000001
+refined liquids,heat,12,2008,0.01251614
+refined liquids,heat,12,2009,0.01439984
+refined liquids,heat,12,2010,0.010967320000000001
+refined liquids,heat,13,1971,0.01733004
+refined liquids,heat,13,1972,0.02139046
+refined liquids,heat,13,1973,0.02356718
+refined liquids,heat,13,1974,0.020260240000000002
+refined liquids,heat,13,1975,0.0240695
+refined liquids,heat,13,1976,0.0339066
+refined liquids,heat,13,1977,0.03407404
+refined liquids,heat,13,1978,0.02038582
+refined liquids,heat,13,1979,0.01678586
+refined liquids,heat,13,1980,0.019632339999999998
+refined liquids,heat,13,1981,0.02352532
+refined liquids,heat,13,1982,0.02059512
+refined liquids,heat,13,1983,0.0182091
+refined liquids,heat,13,1984,0.03733912
+refined liquids,heat,13,1985,0.0560924
+refined liquids,heat,13,1986,0.048222720000000004
+refined liquids,heat,13,1987,0.041818140000000004
+refined liquids,heat,13,1988,0.02792062
+refined liquids,heat,13,1989,0.024362520000000002
+refined liquids,heat,13,1990,0.02687412
+refined liquids,heat,13,1991,0.02938572
+refined liquids,heat,13,1992,0.025199720000000002
+refined liquids,heat,13,1993,0.02586948
+refined liquids,heat,13,1994,0.028757820000000003
+refined liquids,heat,13,1995,0.024990420000000003
+refined liquids,heat,13,1996,0.038846080000000005
+refined liquids,heat,13,1997,0.028129920000000003
+refined liquids,heat,13,1998,0.029804320000000002
+refined liquids,heat,13,1999,0.051655240000000005
+refined liquids,heat,13,2000,0.05274360000000001
+refined liquids,heat,13,2001,0.05822726
+refined liquids,heat,13,2002,0.045250660000000005
+refined liquids,heat,13,2003,0.04303208
+refined liquids,heat,13,2004,0.03457636
+refined liquids,heat,13,2005,0.03302754
+refined liquids,heat,13,2006,0.03269266
+refined liquids,heat,13,2007,0.029302
+refined liquids,heat,13,2008,0.0246974
+refined liquids,heat,13,2009,0.03110198
+refined liquids,heat,13,2010,0.036418200000000005
+refined liquids,heat,14,1971,1.5111460000000002e-5
+refined liquids,heat,14,1972,1.5111460000000002e-5
+refined liquids,heat,14,1973,1.5111460000000002e-5
+refined liquids,heat,14,1974,1.5111460000000002e-5
+refined liquids,heat,14,1975,1.5111460000000002e-5
+refined liquids,heat,14,1976,1.5111460000000002e-5
+refined liquids,heat,14,1977,1.5111460000000002e-5
+refined liquids,heat,14,1978,1.5111460000000002e-5
+refined liquids,heat,14,1979,1.5111460000000002e-5
+refined liquids,heat,14,1980,1.5111460000000002e-5
+refined liquids,heat,14,1981,1.5111460000000002e-5
+refined liquids,heat,14,1982,1.5111460000000002e-5
+refined liquids,heat,14,1983,1.5111460000000002e-5
+refined liquids,heat,14,1984,1.5111460000000002e-5
+refined liquids,heat,14,1985,1.5111460000000002e-5
+refined liquids,heat,14,1986,1.5111460000000002e-5
+refined liquids,heat,14,1987,1.5111460000000002e-5
+refined liquids,heat,14,1988,1.5111460000000002e-5
+refined liquids,heat,14,1989,1.5111460000000002e-5
+refined liquids,heat,14,1990,0.58641674
+refined liquids,heat,14,1991,0.51270128
+refined liquids,heat,14,1992,0.28046200000000004
+refined liquids,heat,14,1993,0.22374170000000002
+refined liquids,heat,14,1994,0.21001162
+refined liquids,heat,14,1995,0.17966312
+refined liquids,heat,14,1996,0.1714167
+refined liquids,heat,14,1997,0.13817986000000002
+refined liquids,heat,14,1998,0.13068692
+refined liquids,heat,14,1999,0.09548266000000001
+refined liquids,heat,14,2000,0.07392476
+refined liquids,heat,14,2001,0.0686504
+refined liquids,heat,14,2002,0.05299476
+refined liquids,heat,14,2003,0.04022746
+refined liquids,heat,14,2004,0.0240695
+refined liquids,heat,14,2005,0.01933932
+refined liquids,heat,14,2006,0.0184184
+refined liquids,heat,14,2007,0.01293474
+refined liquids,heat,14,2008,0.011637080000000001
+refined liquids,heat,14,2009,0.0234416
+refined liquids,heat,14,2010,0.015111460000000002
+refined liquids,heat,15,1971,0
+refined liquids,heat,15,1972,0
+refined liquids,heat,15,1973,0
+refined liquids,heat,15,1974,0
+refined liquids,heat,15,1975,0
+refined liquids,heat,15,1976,0
+refined liquids,heat,15,1977,0
+refined liquids,heat,15,1978,0
+refined liquids,heat,15,1979,0
+refined liquids,heat,15,1980,0
+refined liquids,heat,15,1981,1.280916e-5
+refined liquids,heat,15,1982,1.280916e-5
+refined liquids,heat,15,1983,1.280916e-5
+refined liquids,heat,15,1984,1.280916e-5
+refined liquids,heat,15,1985,1.280916e-5
+refined liquids,heat,15,1986,1.280916e-5
+refined liquids,heat,15,1987,1.280916e-5
+refined liquids,heat,15,1988,0
+refined liquids,heat,15,1989,0
+refined liquids,heat,15,1990,0.0039767
+refined liquids,heat,15,1991,0.00443716
+refined liquids,heat,15,1992,0.01511146
+refined liquids,heat,15,1993,0.013897520000000002
+refined liquids,heat,15,1994,0.01113476
+refined liquids,heat,15,1995,0.0123487
+refined liquids,heat,15,1996,0.01707888
+refined liquids,heat,15,1997,0.018795140000000002
+refined liquids,heat,15,1998,0.013102180000000001
+refined liquids,heat,15,1999,0.01460914
+refined liquids,heat,15,2000,0.01264172
+refined liquids,heat,15,2001,0.012181260000000001
+refined liquids,heat,15,2002,0.00728364
+refined liquids,heat,15,2003,0.0074510800000000005
+refined liquids,heat,15,2004,0.0075348
+refined liquids,heat,15,2005,0.019297460000000002
+refined liquids,heat,15,2006,0.0249067
+refined liquids,heat,15,2007,0.021599760000000003
+refined liquids,heat,15,2008,0.020385820000000002
+refined liquids,heat,15,2009,0.02670668
+refined liquids,heat,15,2010,0.01280916
+refined liquids,heat,16,1971,0
+refined liquids,heat,16,1972,0
+refined liquids,heat,16,1973,0
+refined liquids,heat,16,1974,0
+refined liquids,heat,16,1975,0
+refined liquids,heat,16,1976,0
+refined liquids,heat,16,1977,0
+refined liquids,heat,16,1978,0
+refined liquids,heat,16,1979,0
+refined liquids,heat,16,1980,0
+refined liquids,heat,16,1981,1.2558e-4
+refined liquids,heat,16,1982,1.2558e-4
+refined liquids,heat,16,1983,4.186e-5
+refined liquids,heat,16,1984,4.186e-5
+refined liquids,heat,16,1985,4.186e-5
+refined liquids,heat,16,1986,4.186e-5
+refined liquids,heat,16,1987,4.186e-5
+refined liquids,heat,16,1988,3.7674000000000003e-4
+refined liquids,heat,16,1989,1.6744e-4
+refined liquids,heat,16,1990,4.1860000000000004e-4
+refined liquids,heat,16,1991,9.209200000000001e-4
+refined liquids,heat,16,1992,7.953400000000001e-4
+refined liquids,heat,16,1993,3.7674000000000003e-4
+refined liquids,heat,16,1994,6.279e-4
+refined liquids,heat,16,1995,6.279e-4
+refined liquids,heat,16,1996,0.0020511400000000003
+refined liquids,heat,16,1997,0.00171626
+refined liquids,heat,16,1998,0.00226044
+refined liquids,heat,16,1999,0.0030976400000000005
+refined liquids,heat,16,2000,7.953400000000001e-4
+refined liquids,heat,16,2001,9.209200000000001e-4
+refined liquids,heat,16,2002,0.00154882
+refined liquids,heat,16,2003,0.0026371800000000003
+refined liquids,heat,16,2004,0.00108836
+refined liquids,heat,16,2005,7.9534e-4
+refined liquids,heat,16,2006,0.00117208
+refined liquids,heat,16,2007,9.209200000000001e-4
+refined liquids,heat,16,2008,7.534800000000001e-4
+refined liquids,heat,16,2009,0.00142324
+refined liquids,heat,16,2010,0.0033906599999999998
+refined liquids,heat,17,1971,0
+refined liquids,heat,17,1972,0
+refined liquids,heat,17,1973,0
+refined liquids,heat,17,1974,0
+refined liquids,heat,17,1975,0
+refined liquids,heat,17,1976,0
+refined liquids,heat,17,1977,0
+refined liquids,heat,17,1978,0
+refined liquids,heat,17,1979,0
+refined liquids,heat,17,1980,0
+refined liquids,heat,17,1981,0
+refined liquids,heat,17,1982,0
+refined liquids,heat,17,1983,0
+refined liquids,heat,17,1984,0
+refined liquids,heat,17,1985,0
+refined liquids,heat,17,1986,0
+refined liquids,heat,17,1987,0
+refined liquids,heat,17,1988,0
+refined liquids,heat,17,1989,0
+refined liquids,heat,17,1990,0
+refined liquids,heat,17,1991,0
+refined liquids,heat,17,1992,0
+refined liquids,heat,17,1993,0
+refined liquids,heat,17,1994,0
+refined liquids,heat,17,1995,0
+refined liquids,heat,17,1996,0
+refined liquids,heat,17,1997,0
+refined liquids,heat,17,1998,0
+refined liquids,heat,17,1999,0
+refined liquids,heat,17,2000,0
+refined liquids,heat,17,2001,0
+refined liquids,heat,17,2002,0
+refined liquids,heat,17,2003,0
+refined liquids,heat,17,2004,0
+refined liquids,heat,17,2005,0
+refined liquids,heat,17,2006,0
+refined liquids,heat,17,2007,0
+refined liquids,heat,17,2008,0
+refined liquids,heat,17,2009,0
+refined liquids,heat,17,2010,0
+refined liquids,heat,18,1971,0
+refined liquids,heat,18,1972,0
+refined liquids,heat,18,1973,0
+refined liquids,heat,18,1974,0
+refined liquids,heat,18,1975,0
+refined liquids,heat,18,1976,0
+refined liquids,heat,18,1977,0
+refined liquids,heat,18,1978,0
+refined liquids,heat,18,1979,0
+refined liquids,heat,18,1980,0
+refined liquids,heat,18,1981,0
+refined liquids,heat,18,1982,0
+refined liquids,heat,18,1983,0
+refined liquids,heat,18,1984,0
+refined liquids,heat,18,1985,0
+refined liquids,heat,18,1986,0
+refined liquids,heat,18,1987,0
+refined liquids,heat,18,1988,0
+refined liquids,heat,18,1989,0
+refined liquids,heat,18,1990,0
+refined liquids,heat,18,1991,0
+refined liquids,heat,18,1992,0
+refined liquids,heat,18,1993,0
+refined liquids,heat,18,1994,0
+refined liquids,heat,18,1995,0
+refined liquids,heat,18,1996,0
+refined liquids,heat,18,1997,0
+refined liquids,heat,18,1998,0
+refined liquids,heat,18,1999,0
+refined liquids,heat,18,2000,0
+refined liquids,heat,18,2001,0
+refined liquids,heat,18,2002,0
+refined liquids,heat,18,2003,0
+refined liquids,heat,18,2004,0
+refined liquids,heat,18,2005,0
+refined liquids,heat,18,2006,0
+refined liquids,heat,18,2007,0
+refined liquids,heat,18,2008,0
+refined liquids,heat,18,2009,0
+refined liquids,heat,18,2010,0
+refined liquids,heat,19,1971,0
+refined liquids,heat,19,1972,0
+refined liquids,heat,19,1973,0
+refined liquids,heat,19,1974,0
+refined liquids,heat,19,1975,0
+refined liquids,heat,19,1976,0
+refined liquids,heat,19,1977,0
+refined liquids,heat,19,1978,0
+refined liquids,heat,19,1979,0
+refined liquids,heat,19,1980,0
+refined liquids,heat,19,1981,0
+refined liquids,heat,19,1982,0.0014651
+refined liquids,heat,19,1983,0.00154882
+refined liquids,heat,19,1984,0.00171626
+refined liquids,heat,19,1985,0.0016744000000000002
+refined liquids,heat,19,1986,0.00163254
+refined liquids,heat,19,1987,0.0015069600000000001
+refined liquids,heat,19,1988,0.0015069600000000001
+refined liquids,heat,19,1989,0.0015069600000000001
+refined liquids,heat,19,1990,0.0024697400000000002
+refined liquids,heat,19,1991,0.00163254
+refined liquids,heat,19,1992,0.0015069600000000001
+refined liquids,heat,19,1993,0.00154882
+refined liquids,heat,19,1994,0.00154882
+refined liquids,heat,19,1995,0.00154882
+refined liquids,heat,19,1996,0.0014651
+refined liquids,heat,19,1997,0.0013813800000000002
+refined liquids,heat,19,1998,0.0014651
+refined liquids,heat,19,1999,0.0015906800000000001
+refined liquids,heat,19,2000,0.0015488200000000002
+refined liquids,heat,19,2001,0.00142324
+refined liquids,heat,19,2002,0.0014651000000000002
+refined liquids,heat,19,2003,0.0012558
+refined liquids,heat,19,2004,0.0012558
+refined liquids,heat,19,2005,9.627800000000001e-4
+refined liquids,heat,19,2006,6.279e-4
+refined liquids,heat,19,2007,4.1860000000000004e-4
+refined liquids,heat,19,2008,3.7674000000000003e-4
+refined liquids,heat,19,2009,2.9302e-4
+refined liquids,heat,19,2010,7.1162e-4
+refined liquids,heat,20,1971,0
+refined liquids,heat,20,1972,0
+refined liquids,heat,20,1973,0
+refined liquids,heat,20,1974,0
+refined liquids,heat,20,1975,0
+refined liquids,heat,20,1976,0
+refined liquids,heat,20,1977,0
+refined liquids,heat,20,1978,0
+refined liquids,heat,20,1979,0
+refined liquids,heat,20,1980,0
+refined liquids,heat,20,1981,0
+refined liquids,heat,20,1982,0
+refined liquids,heat,20,1983,0
+refined liquids,heat,20,1984,0
+refined liquids,heat,20,1985,0
+refined liquids,heat,20,1986,0
+refined liquids,heat,20,1987,0
+refined liquids,heat,20,1988,0
+refined liquids,heat,20,1989,0
+refined liquids,heat,20,1990,0
+refined liquids,heat,20,1991,0
+refined liquids,heat,20,1992,0
+refined liquids,heat,20,1993,0
+refined liquids,heat,20,1994,0
+refined liquids,heat,20,1995,0
+refined liquids,heat,20,1996,0
+refined liquids,heat,20,1997,0
+refined liquids,heat,20,1998,0
+refined liquids,heat,20,1999,0
+refined liquids,heat,20,2000,0
+refined liquids,heat,20,2001,0
+refined liquids,heat,20,2002,0
+refined liquids,heat,20,2003,0
+refined liquids,heat,20,2004,0
+refined liquids,heat,20,2005,0
+refined liquids,heat,20,2006,0
+refined liquids,heat,20,2007,0
+refined liquids,heat,20,2008,0
+refined liquids,heat,20,2009,0
+refined liquids,heat,20,2010,0
+refined liquids,heat,21,1971,0
+refined liquids,heat,21,1972,0
+refined liquids,heat,21,1973,0
+refined liquids,heat,21,1974,0
+refined liquids,heat,21,1975,0
+refined liquids,heat,21,1976,0
+refined liquids,heat,21,1977,0
+refined liquids,heat,21,1978,0
+refined liquids,heat,21,1979,0
+refined liquids,heat,21,1980,0
+refined liquids,heat,21,1981,0
+refined liquids,heat,21,1982,0
+refined liquids,heat,21,1983,0
+refined liquids,heat,21,1984,0
+refined liquids,heat,21,1985,0
+refined liquids,heat,21,1986,0
+refined liquids,heat,21,1987,0
+refined liquids,heat,21,1988,0
+refined liquids,heat,21,1989,0
+refined liquids,heat,21,1990,0
+refined liquids,heat,21,1991,0
+refined liquids,heat,21,1992,0
+refined liquids,heat,21,1993,0
+refined liquids,heat,21,1994,0
+refined liquids,heat,21,1995,0
+refined liquids,heat,21,1996,0
+refined liquids,heat,21,1997,0
+refined liquids,heat,21,1998,0
+refined liquids,heat,21,1999,0
+refined liquids,heat,21,2000,0
+refined liquids,heat,21,2001,0
+refined liquids,heat,21,2002,0
+refined liquids,heat,21,2003,0
+refined liquids,heat,21,2004,0
+refined liquids,heat,21,2005,0
+refined liquids,heat,21,2006,0
+refined liquids,heat,21,2007,0
+refined liquids,heat,21,2008,0
+refined liquids,heat,21,2009,0
+refined liquids,heat,21,2010,0
+refined liquids,heat,22,1971,0
+refined liquids,heat,22,1972,0
+refined liquids,heat,22,1973,0
+refined liquids,heat,22,1974,0
+refined liquids,heat,22,1975,0
+refined liquids,heat,22,1976,0
+refined liquids,heat,22,1977,0
+refined liquids,heat,22,1978,0
+refined liquids,heat,22,1979,0
+refined liquids,heat,22,1980,0
+refined liquids,heat,22,1981,0
+refined liquids,heat,22,1982,0
+refined liquids,heat,22,1983,0
+refined liquids,heat,22,1984,0
+refined liquids,heat,22,1985,0
+refined liquids,heat,22,1986,0
+refined liquids,heat,22,1987,0
+refined liquids,heat,22,1988,0
+refined liquids,heat,22,1989,0
+refined liquids,heat,22,1990,0
+refined liquids,heat,22,1991,0
+refined liquids,heat,22,1992,0
+refined liquids,heat,22,1993,0
+refined liquids,heat,22,1994,0
+refined liquids,heat,22,1995,0
+refined liquids,heat,22,1996,0
+refined liquids,heat,22,1997,0
+refined liquids,heat,22,1998,0
+refined liquids,heat,22,1999,0
+refined liquids,heat,22,2000,0
+refined liquids,heat,22,2001,0
+refined liquids,heat,22,2002,0
+refined liquids,heat,22,2003,0
+refined liquids,heat,22,2004,0
+refined liquids,heat,22,2005,0
+refined liquids,heat,22,2006,0
+refined liquids,heat,22,2007,0
+refined liquids,heat,22,2008,0
+refined liquids,heat,22,2009,0
+refined liquids,heat,22,2010,0
+refined liquids,heat,23,1971,3.1026632000000004e-4
+refined liquids,heat,23,1972,3.1026632000000004e-4
+refined liquids,heat,23,1973,3.1026632000000004e-4
+refined liquids,heat,23,1974,3.1026632000000004e-4
+refined liquids,heat,23,1975,3.1026632000000004e-4
+refined liquids,heat,23,1976,3.1026632000000004e-4
+refined liquids,heat,23,1977,3.1026632000000004e-4
+refined liquids,heat,23,1978,3.1026632000000004e-4
+refined liquids,heat,23,1979,3.1026632000000004e-4
+refined liquids,heat,23,1980,3.1026632000000004e-4
+refined liquids,heat,23,1981,3.1026632000000004e-4
+refined liquids,heat,23,1982,3.1026632000000004e-4
+refined liquids,heat,23,1983,3.1026632000000004e-4
+refined liquids,heat,23,1984,3.1026632000000004e-4
+refined liquids,heat,23,1985,3.1026632000000004e-4
+refined liquids,heat,23,1986,3.1026632000000004e-4
+refined liquids,heat,23,1987,3.1026632000000004e-4
+refined liquids,heat,23,1988,3.1026632000000004e-4
+refined liquids,heat,23,1989,3.1026632000000004e-4
+refined liquids,heat,23,1990,0.68512262
+refined liquids,heat,23,1991,0.6942062400000001
+refined liquids,heat,23,1992,0.6553601600000001
+refined liquids,heat,23,1993,1.35994768
+refined liquids,heat,23,1994,1.05282086
+refined liquids,heat,23,1995,0.8338512
+refined liquids,heat,23,1996,0.6846203000000001
+refined liquids,heat,23,1997,0.46263672
+refined liquids,heat,23,1998,0.5912725
+refined liquids,heat,23,1999,0.53572428
+refined liquids,heat,23,2000,0.48339928000000004
+refined liquids,heat,23,2001,0.47799934
+refined liquids,heat,23,2002,0.45367868000000006
+refined liquids,heat,23,2003,0.42852082
+refined liquids,heat,23,2004,0.37565164
+refined liquids,heat,23,2005,0.37682372000000003
+refined liquids,heat,23,2006,0.34383804
+refined liquids,heat,23,2007,0.32684288
+refined liquids,heat,23,2008,0.29055026
+refined liquids,heat,23,2009,0.30235478000000005
+refined liquids,heat,23,2010,0.31026632000000004
+refined liquids,heat,24,1971,0
+refined liquids,heat,24,1972,0
+refined liquids,heat,24,1973,0
+refined liquids,heat,24,1974,0
+refined liquids,heat,24,1975,0
+refined liquids,heat,24,1976,0
+refined liquids,heat,24,1977,0
+refined liquids,heat,24,1978,0
+refined liquids,heat,24,1979,0
+refined liquids,heat,24,1980,0
+refined liquids,heat,24,1981,0
+refined liquids,heat,24,1982,0
+refined liquids,heat,24,1983,0
+refined liquids,heat,24,1984,0
+refined liquids,heat,24,1985,0
+refined liquids,heat,24,1986,0
+refined liquids,heat,24,1987,0
+refined liquids,heat,24,1988,0
+refined liquids,heat,24,1989,0
+refined liquids,heat,24,1990,0
+refined liquids,heat,24,1991,0
+refined liquids,heat,24,1992,0
+refined liquids,heat,24,1993,0
+refined liquids,heat,24,1994,0
+refined liquids,heat,24,1995,0
+refined liquids,heat,24,1996,0
+refined liquids,heat,24,1997,0
+refined liquids,heat,24,1998,0
+refined liquids,heat,24,1999,0
+refined liquids,heat,24,2000,0
+refined liquids,heat,24,2001,0
+refined liquids,heat,24,2002,0
+refined liquids,heat,24,2003,0
+refined liquids,heat,24,2004,0
+refined liquids,heat,24,2005,0
+refined liquids,heat,24,2006,0
+refined liquids,heat,24,2007,0
+refined liquids,heat,24,2008,0
+refined liquids,heat,24,2009,0
+refined liquids,heat,24,2010,0
+refined liquids,heat,25,1971,0
+refined liquids,heat,25,1972,0
+refined liquids,heat,25,1973,0
+refined liquids,heat,25,1974,0
+refined liquids,heat,25,1975,0
+refined liquids,heat,25,1976,0
+refined liquids,heat,25,1977,0
+refined liquids,heat,25,1978,0
+refined liquids,heat,25,1979,0
+refined liquids,heat,25,1980,0
+refined liquids,heat,25,1981,0
+refined liquids,heat,25,1982,0
+refined liquids,heat,25,1983,0
+refined liquids,heat,25,1984,0
+refined liquids,heat,25,1985,0
+refined liquids,heat,25,1986,0
+refined liquids,heat,25,1987,0
+refined liquids,heat,25,1988,0
+refined liquids,heat,25,1989,0
+refined liquids,heat,25,1990,0
+refined liquids,heat,25,1991,0
+refined liquids,heat,25,1992,0
+refined liquids,heat,25,1993,0
+refined liquids,heat,25,1994,0
+refined liquids,heat,25,1995,0
+refined liquids,heat,25,1996,0
+refined liquids,heat,25,1997,0
+refined liquids,heat,25,1998,0
+refined liquids,heat,25,1999,0
+refined liquids,heat,25,2000,0
+refined liquids,heat,25,2001,0
+refined liquids,heat,25,2002,0
+refined liquids,heat,25,2003,0
+refined liquids,heat,25,2004,0
+refined liquids,heat,25,2005,0
+refined liquids,heat,25,2006,0
+refined liquids,heat,25,2007,0
+refined liquids,heat,25,2008,0
+refined liquids,heat,25,2009,0
+refined liquids,heat,25,2010,0
+refined liquids,heat,26,1971,0
+refined liquids,heat,26,1972,0
+refined liquids,heat,26,1973,0
+refined liquids,heat,26,1974,0
+refined liquids,heat,26,1975,0
+refined liquids,heat,26,1976,0
+refined liquids,heat,26,1977,0
+refined liquids,heat,26,1978,0
+refined liquids,heat,26,1979,0
+refined liquids,heat,26,1980,0
+refined liquids,heat,26,1981,0
+refined liquids,heat,26,1982,0
+refined liquids,heat,26,1983,0
+refined liquids,heat,26,1984,0
+refined liquids,heat,26,1985,0
+refined liquids,heat,26,1986,0
+refined liquids,heat,26,1987,0
+refined liquids,heat,26,1988,0
+refined liquids,heat,26,1989,0
+refined liquids,heat,26,1990,0
+refined liquids,heat,26,1991,0
+refined liquids,heat,26,1992,0
+refined liquids,heat,26,1993,0
+refined liquids,heat,26,1994,0
+refined liquids,heat,26,1995,0
+refined liquids,heat,26,1996,0
+refined liquids,heat,26,1997,0
+refined liquids,heat,26,1998,0
+refined liquids,heat,26,1999,0
+refined liquids,heat,26,2000,0
+refined liquids,heat,26,2001,0
+refined liquids,heat,26,2002,0
+refined liquids,heat,26,2003,0
+refined liquids,heat,26,2004,0
+refined liquids,heat,26,2005,0
+refined liquids,heat,26,2006,0
+refined liquids,heat,26,2007,0
+refined liquids,heat,26,2008,0
+refined liquids,heat,26,2009,0
+refined liquids,heat,26,2010,0
+refined liquids,heat,27,1971,0
+refined liquids,heat,27,1972,0
+refined liquids,heat,27,1973,0
+refined liquids,heat,27,1974,0
+refined liquids,heat,27,1975,0
+refined liquids,heat,27,1976,0
+refined liquids,heat,27,1977,0
+refined liquids,heat,27,1978,0
+refined liquids,heat,27,1979,0
+refined liquids,heat,27,1980,0
+refined liquids,heat,27,1981,0
+refined liquids,heat,27,1982,0
+refined liquids,heat,27,1983,0
+refined liquids,heat,27,1984,0
+refined liquids,heat,27,1985,0
+refined liquids,heat,27,1986,0
+refined liquids,heat,27,1987,0
+refined liquids,heat,27,1988,0
+refined liquids,heat,27,1989,0
+refined liquids,heat,27,1990,0
+refined liquids,heat,27,1991,0
+refined liquids,heat,27,1992,0
+refined liquids,heat,27,1993,0
+refined liquids,heat,27,1994,0
+refined liquids,heat,27,1995,0
+refined liquids,heat,27,1996,0
+refined liquids,heat,27,1997,0
+refined liquids,heat,27,1998,0
+refined liquids,heat,27,1999,0
+refined liquids,heat,27,2000,0
+refined liquids,heat,27,2001,0
+refined liquids,heat,27,2002,0
+refined liquids,heat,27,2003,0
+refined liquids,heat,27,2004,0
+refined liquids,heat,27,2005,0
+refined liquids,heat,27,2006,0
+refined liquids,heat,27,2007,0
+refined liquids,heat,27,2008,0
+refined liquids,heat,27,2009,0
+refined liquids,heat,27,2010,0
+refined liquids,heat,28,1971,0
+refined liquids,heat,28,1972,0
+refined liquids,heat,28,1973,0
+refined liquids,heat,28,1974,0
+refined liquids,heat,28,1975,0
+refined liquids,heat,28,1976,0
+refined liquids,heat,28,1977,0
+refined liquids,heat,28,1978,0
+refined liquids,heat,28,1979,0
+refined liquids,heat,28,1980,0
+refined liquids,heat,28,1981,0
+refined liquids,heat,28,1982,0
+refined liquids,heat,28,1983,0
+refined liquids,heat,28,1984,0
+refined liquids,heat,28,1985,0
+refined liquids,heat,28,1986,0
+refined liquids,heat,28,1987,0
+refined liquids,heat,28,1988,0
+refined liquids,heat,28,1989,0
+refined liquids,heat,28,1990,0
+refined liquids,heat,28,1991,0
+refined liquids,heat,28,1992,0
+refined liquids,heat,28,1993,0
+refined liquids,heat,28,1994,0.006865040000000001
+refined liquids,heat,28,1995,0.0179998
+refined liquids,heat,28,1996,0.01703702
+refined liquids,heat,28,1997,0.014818440000000002
+refined liquids,heat,28,1998,0.01540448
+refined liquids,heat,28,1999,0.019716060000000004
+refined liquids,heat,28,2000,0.017371900000000003
+refined liquids,heat,28,2001,0.020427680000000004
+refined liquids,heat,28,2002,0.02164162
+refined liquids,heat,28,2003,0.02452996
+refined liquids,heat,28,2004,0.02800434
+refined liquids,heat,28,2005,0.02821364
+refined liquids,heat,28,2006,0.0223951
+refined liquids,heat,28,2007,0.02180906
+refined liquids,heat,28,2008,0.0152789
+refined liquids,heat,28,2009,0.01561378
+refined liquids,heat,28,2010,0.015320760000000001
+refined liquids,heat,29,1971,0
+refined liquids,heat,29,1972,0
+refined liquids,heat,29,1973,0
+refined liquids,heat,29,1974,0
+refined liquids,heat,29,1975,0
+refined liquids,heat,29,1976,0
+refined liquids,heat,29,1977,0
+refined liquids,heat,29,1978,0
+refined liquids,heat,29,1979,0
+refined liquids,heat,29,1980,0
+refined liquids,heat,29,1981,0
+refined liquids,heat,29,1982,0
+refined liquids,heat,29,1983,0
+refined liquids,heat,29,1984,0
+refined liquids,heat,29,1985,0
+refined liquids,heat,29,1986,0
+refined liquids,heat,29,1987,0
+refined liquids,heat,29,1988,0
+refined liquids,heat,29,1989,0
+refined liquids,heat,29,1990,0
+refined liquids,heat,29,1991,0
+refined liquids,heat,29,1992,0
+refined liquids,heat,29,1993,0
+refined liquids,heat,29,1994,0
+refined liquids,heat,29,1995,0
+refined liquids,heat,29,1996,0
+refined liquids,heat,29,1997,0
+refined liquids,heat,29,1998,0
+refined liquids,heat,29,1999,0
+refined liquids,heat,29,2000,0
+refined liquids,heat,29,2001,0
+refined liquids,heat,29,2002,0
+refined liquids,heat,29,2003,0
+refined liquids,heat,29,2004,0
+refined liquids,heat,29,2005,0
+refined liquids,heat,29,2006,0
+refined liquids,heat,29,2007,0
+refined liquids,heat,29,2008,0
+refined liquids,heat,29,2009,0
+refined liquids,heat,29,2010,0
+refined liquids,heat,30,1971,0
+refined liquids,heat,30,1972,0
+refined liquids,heat,30,1973,0
+refined liquids,heat,30,1974,0
+refined liquids,heat,30,1975,0
+refined liquids,heat,30,1976,0
+refined liquids,heat,30,1977,0
+refined liquids,heat,30,1978,0
+refined liquids,heat,30,1979,0
+refined liquids,heat,30,1980,0
+refined liquids,heat,30,1981,0
+refined liquids,heat,30,1982,0
+refined liquids,heat,30,1983,0
+refined liquids,heat,30,1984,0
+refined liquids,heat,30,1985,0
+refined liquids,heat,30,1986,0
+refined liquids,heat,30,1987,0
+refined liquids,heat,30,1988,0
+refined liquids,heat,30,1989,0
+refined liquids,heat,30,1990,0
+refined liquids,heat,30,1991,0
+refined liquids,heat,30,1992,0
+refined liquids,heat,30,1993,0
+refined liquids,heat,30,1994,0
+refined liquids,heat,30,1995,0
+refined liquids,heat,30,1996,0
+refined liquids,heat,30,1997,0
+refined liquids,heat,30,1998,0
+refined liquids,heat,30,1999,0
+refined liquids,heat,30,2000,0
+refined liquids,heat,30,2001,0
+refined liquids,heat,30,2002,0
+refined liquids,heat,30,2003,0
+refined liquids,heat,30,2004,0
+refined liquids,heat,30,2005,0
+refined liquids,heat,30,2006,0
+refined liquids,heat,30,2007,0
+refined liquids,heat,30,2008,0
+refined liquids,heat,30,2009,0
+refined liquids,heat,30,2010,0
+refined liquids,heat,31,1971,0
+refined liquids,heat,31,1972,0
+refined liquids,heat,31,1973,0
+refined liquids,heat,31,1974,0
+refined liquids,heat,31,1975,0
+refined liquids,heat,31,1976,0
+refined liquids,heat,31,1977,0
+refined liquids,heat,31,1978,0
+refined liquids,heat,31,1979,0
+refined liquids,heat,31,1980,0
+refined liquids,heat,31,1981,0
+refined liquids,heat,31,1982,0
+refined liquids,heat,31,1983,0
+refined liquids,heat,31,1984,0
+refined liquids,heat,31,1985,0
+refined liquids,heat,31,1986,0
+refined liquids,heat,31,1987,0
+refined liquids,heat,31,1988,0
+refined liquids,heat,31,1989,0
+refined liquids,heat,31,1990,0
+refined liquids,heat,31,1991,0
+refined liquids,heat,31,1992,0
+refined liquids,heat,31,1993,0
+refined liquids,heat,31,1994,0
+refined liquids,heat,31,1995,0
+refined liquids,heat,31,1996,0
+refined liquids,heat,31,1997,0
+refined liquids,heat,31,1998,0
+refined liquids,heat,31,1999,0
+refined liquids,heat,31,2000,0
+refined liquids,heat,31,2001,0
+refined liquids,heat,31,2002,0
+refined liquids,heat,31,2003,0
+refined liquids,heat,31,2004,0
+refined liquids,heat,31,2005,0
+refined liquids,heat,31,2006,0
+refined liquids,heat,31,2007,0
+refined liquids,heat,31,2008,0
+refined liquids,heat,31,2009,0
+refined liquids,heat,31,2010,0
+refined liquids,heat,32,1971,0
+refined liquids,heat,32,1972,0
+refined liquids,heat,32,1973,0
+refined liquids,heat,32,1974,0
+refined liquids,heat,32,1975,0
+refined liquids,heat,32,1976,0
+refined liquids,heat,32,1977,0
+refined liquids,heat,32,1978,0
+refined liquids,heat,32,1979,0
+refined liquids,heat,32,1980,0
+refined liquids,heat,32,1981,0
+refined liquids,heat,32,1982,0
+refined liquids,heat,32,1983,0
+refined liquids,heat,32,1984,0
+refined liquids,heat,32,1985,0
+refined liquids,heat,32,1986,0
+refined liquids,heat,32,1987,0
+refined liquids,heat,32,1988,0
+refined liquids,heat,32,1989,0
+refined liquids,heat,32,1990,0
+refined liquids,heat,32,1991,0
+refined liquids,heat,32,1992,0
+refined liquids,heat,32,1993,0
+refined liquids,heat,32,1994,0
+refined liquids,heat,32,1995,0
+refined liquids,heat,32,1996,0
+refined liquids,heat,32,1997,0
+refined liquids,heat,32,1998,0
+refined liquids,heat,32,1999,0
+refined liquids,heat,32,2000,0
+refined liquids,heat,32,2001,0
+refined liquids,heat,32,2002,0
+refined liquids,heat,32,2003,0
+refined liquids,heat,32,2004,0
+refined liquids,heat,32,2005,0
+refined liquids,heat,32,2006,0
+refined liquids,heat,32,2007,0
+refined liquids,heat,32,2008,0
+refined liquids,heat,32,2009,0
+refined liquids,heat,32,2010,0

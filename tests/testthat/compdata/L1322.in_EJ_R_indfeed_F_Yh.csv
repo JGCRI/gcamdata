@@ -1,0 +1,3843 @@
+# Industrial feedstock use was calculated using country-level fuel share and energy intensity data to break down generic fertilizer production data.
+# Re-allocation of energy use between energy and feedstock quantities for the industrial sector was done to avoid negative values at the country level, before aggregating to the regional level.
+GCAM_region_ID,sector,fuel,year,value
+1,industry_feedstocks,coal,1971,0
+1,industry_feedstocks,coal,1972,0
+1,industry_feedstocks,coal,1973,0
+1,industry_feedstocks,coal,1974,0
+1,industry_feedstocks,coal,1975,0
+1,industry_feedstocks,coal,1976,0
+1,industry_feedstocks,coal,1977,0
+1,industry_feedstocks,coal,1978,0
+1,industry_feedstocks,coal,1979,0
+1,industry_feedstocks,coal,1980,0
+1,industry_feedstocks,coal,1981,0
+1,industry_feedstocks,coal,1982,0
+1,industry_feedstocks,coal,1983,0
+1,industry_feedstocks,coal,1984,0
+1,industry_feedstocks,coal,1985,0
+1,industry_feedstocks,coal,1986,0
+1,industry_feedstocks,coal,1987,0
+1,industry_feedstocks,coal,1988,0
+1,industry_feedstocks,coal,1989,0
+1,industry_feedstocks,coal,1990,0
+1,industry_feedstocks,coal,1991,0
+1,industry_feedstocks,coal,1992,0
+1,industry_feedstocks,coal,1993,0
+1,industry_feedstocks,coal,1994,0
+1,industry_feedstocks,coal,1995,0
+1,industry_feedstocks,coal,1996,0
+1,industry_feedstocks,coal,1997,0
+1,industry_feedstocks,coal,1998,0
+1,industry_feedstocks,coal,1999,0
+1,industry_feedstocks,coal,2000,0
+1,industry_feedstocks,coal,2001,0
+1,industry_feedstocks,coal,2002,0
+1,industry_feedstocks,coal,2003,0
+1,industry_feedstocks,coal,2004,0
+1,industry_feedstocks,coal,2005,0
+1,industry_feedstocks,coal,2006,0
+1,industry_feedstocks,coal,2007,0
+1,industry_feedstocks,coal,2008,0
+1,industry_feedstocks,coal,2009,0
+1,industry_feedstocks,coal,2010,0
+1,industry_feedstocks,gas,1971,0
+1,industry_feedstocks,gas,1972,0
+1,industry_feedstocks,gas,1973,0
+1,industry_feedstocks,gas,1974,0
+1,industry_feedstocks,gas,1975,0
+1,industry_feedstocks,gas,1976,0
+1,industry_feedstocks,gas,1977,0
+1,industry_feedstocks,gas,1978,0
+1,industry_feedstocks,gas,1979,0
+1,industry_feedstocks,gas,1980,0
+1,industry_feedstocks,gas,1981,0
+1,industry_feedstocks,gas,1982,0
+1,industry_feedstocks,gas,1983,0
+1,industry_feedstocks,gas,1984,0
+1,industry_feedstocks,gas,1985,0
+1,industry_feedstocks,gas,1986,0
+1,industry_feedstocks,gas,1987,0
+1,industry_feedstocks,gas,1988,0
+1,industry_feedstocks,gas,1989,0
+1,industry_feedstocks,gas,1990,0.26605546815633146
+1,industry_feedstocks,gas,1991,0.2234747514678821
+1,industry_feedstocks,gas,1992,0.21264061083685293
+1,industry_feedstocks,gas,1993,0.24040612140346063
+1,industry_feedstocks,gas,1994,0.24261615243356555
+1,industry_feedstocks,gas,1995,0.25703086763877087
+1,industry_feedstocks,gas,1996,0.2693447855229072
+1,industry_feedstocks,gas,1997,0.3359105632100372
+1,industry_feedstocks,gas,1998,0.35035851979716787
+1,industry_feedstocks,gas,1999,0.34354462154586146
+1,industry_feedstocks,gas,2000,0.46443644584984345
+1,industry_feedstocks,gas,2001,0.40774053679007716
+1,industry_feedstocks,gas,2002,0.43295700993894903
+1,industry_feedstocks,gas,2003,0.4479247331011389
+1,industry_feedstocks,gas,2004,0.4543451200222157
+1,industry_feedstocks,gas,2005,0.3908612405215505
+1,industry_feedstocks,gas,2006,0.19691716429785527
+1,industry_feedstocks,gas,2007,0.21359797509798606
+1,industry_feedstocks,gas,2008,0.1949986009073858
+1,industry_feedstocks,gas,2009,0.1582913726264073
+1,industry_feedstocks,gas,2010,0.17692728148889847
+1,industry_feedstocks,refined liquids,1971,3.1048399200000003
+1,industry_feedstocks,refined liquids,1972,3.3338141200000004
+1,industry_feedstocks,refined liquids,1973,3.71377734
+1,industry_feedstocks,refined liquids,1974,3.5946856400000002
+1,industry_feedstocks,refined liquids,1975,3.5022169
+1,industry_feedstocks,refined liquids,1976,3.8358411
+1,industry_feedstocks,refined liquids,1977,4.22049264
+1,industry_feedstocks,refined liquids,1978,4.6494320600000005
+1,industry_feedstocks,refined liquids,1979,4.54373556
+1,industry_feedstocks,refined liquids,1980,4.26716654
+1,industry_feedstocks,refined liquids,1981,4.251971360000001
+1,industry_feedstocks,refined liquids,1982,3.7763999000000004
+1,industry_feedstocks,refined liquids,1983,3.7949020200000003
+1,industry_feedstocks,refined liquids,1984,4.05003872
+1,industry_feedstocks,refined liquids,1985,3.59761584
+1,industry_feedstocks,refined liquids,1986,3.72277724
+1,industry_feedstocks,refined liquids,1987,3.90938912
+1,industry_feedstocks,refined liquids,1988,4.00277878
+1,industry_feedstocks,refined liquids,1989,3.8487339800000004
+1,industry_feedstocks,refined liquids,1990,4.40191388
+1,industry_feedstocks,refined liquids,1991,4.44172274
+1,industry_feedstocks,refined liquids,1992,4.50593598
+1,industry_feedstocks,refined liquids,1993,4.4917873
+1,industry_feedstocks,refined liquids,1994,4.82089062
+1,industry_feedstocks,refined liquids,1995,5.298764380000001
+1,industry_feedstocks,refined liquids,1996,5.60250054
+1,industry_feedstocks,refined liquids,1997,5.71351326
+1,industry_feedstocks,refined liquids,1998,5.5569568600000006
+1,industry_feedstocks,refined liquids,1999,5.9693197200000006
+1,industry_feedstocks,refined liquids,2000,5.6764253
+1,industry_feedstocks,refined liquids,2001,5.7608150600000005
+1,industry_feedstocks,refined liquids,2002,5.879153280000001
+1,industry_feedstocks,refined liquids,2003,5.78626594
+1,industry_feedstocks,refined liquids,2004,6.2794186000000005
+1,industry_feedstocks,refined liquids,2005,6.09029512
+1,industry_feedstocks,refined liquids,2006,6.16694078
+1,industry_feedstocks,refined liquids,2007,6.00506816
+1,industry_feedstocks,refined liquids,2008,5.4131259
+1,industry_feedstocks,refined liquids,2009,4.985651580000001
+1,industry_feedstocks,refined liquids,2010,5.24011852
+2,industry_feedstocks,coal,1971,0
+2,industry_feedstocks,coal,1972,0
+2,industry_feedstocks,coal,1973,0
+2,industry_feedstocks,coal,1974,0
+2,industry_feedstocks,coal,1975,0
+2,industry_feedstocks,coal,1976,0
+2,industry_feedstocks,coal,1977,0
+2,industry_feedstocks,coal,1978,0
+2,industry_feedstocks,coal,1979,0
+2,industry_feedstocks,coal,1980,0
+2,industry_feedstocks,coal,1981,0
+2,industry_feedstocks,coal,1982,0
+2,industry_feedstocks,coal,1983,0
+2,industry_feedstocks,coal,1984,0
+2,industry_feedstocks,coal,1985,0
+2,industry_feedstocks,coal,1986,0
+2,industry_feedstocks,coal,1987,0
+2,industry_feedstocks,coal,1988,0
+2,industry_feedstocks,coal,1989,0
+2,industry_feedstocks,coal,1990,0
+2,industry_feedstocks,coal,1991,0
+2,industry_feedstocks,coal,1992,0
+2,industry_feedstocks,coal,1993,0
+2,industry_feedstocks,coal,1994,0
+2,industry_feedstocks,coal,1995,0
+2,industry_feedstocks,coal,1996,0
+2,industry_feedstocks,coal,1997,0
+2,industry_feedstocks,coal,1998,0
+2,industry_feedstocks,coal,1999,0
+2,industry_feedstocks,coal,2000,0
+2,industry_feedstocks,coal,2001,0
+2,industry_feedstocks,coal,2002,0
+2,industry_feedstocks,coal,2003,0
+2,industry_feedstocks,coal,2004,0
+2,industry_feedstocks,coal,2005,0
+2,industry_feedstocks,coal,2006,0
+2,industry_feedstocks,coal,2007,0
+2,industry_feedstocks,coal,2008,0
+2,industry_feedstocks,coal,2009,0
+2,industry_feedstocks,coal,2010,0
+2,industry_feedstocks,gas,1971,0
+2,industry_feedstocks,gas,1972,0
+2,industry_feedstocks,gas,1973,0
+2,industry_feedstocks,gas,1974,0
+2,industry_feedstocks,gas,1975,0
+2,industry_feedstocks,gas,1976,0
+2,industry_feedstocks,gas,1977,0
+2,industry_feedstocks,gas,1978,0
+2,industry_feedstocks,gas,1979,0
+2,industry_feedstocks,gas,1980,0
+2,industry_feedstocks,gas,1981,0
+2,industry_feedstocks,gas,1982,0
+2,industry_feedstocks,gas,1983,0
+2,industry_feedstocks,gas,1984,0
+2,industry_feedstocks,gas,1985,0
+2,industry_feedstocks,gas,1986,0
+2,industry_feedstocks,gas,1987,0
+2,industry_feedstocks,gas,1988,0
+2,industry_feedstocks,gas,1989,0
+2,industry_feedstocks,gas,1990,0
+2,industry_feedstocks,gas,1991,0
+2,industry_feedstocks,gas,1992,0
+2,industry_feedstocks,gas,1993,0
+2,industry_feedstocks,gas,1994,0
+2,industry_feedstocks,gas,1995,0
+2,industry_feedstocks,gas,1996,0
+2,industry_feedstocks,gas,1997,0
+2,industry_feedstocks,gas,1998,0
+2,industry_feedstocks,gas,1999,0
+2,industry_feedstocks,gas,2000,0
+2,industry_feedstocks,gas,2001,0
+2,industry_feedstocks,gas,2002,0
+2,industry_feedstocks,gas,2003,0
+2,industry_feedstocks,gas,2004,0
+2,industry_feedstocks,gas,2005,0
+2,industry_feedstocks,gas,2006,0
+2,industry_feedstocks,gas,2007,0
+2,industry_feedstocks,gas,2008,0
+2,industry_feedstocks,gas,2009,0
+2,industry_feedstocks,gas,2010,0
+2,industry_feedstocks,refined liquids,1971,0.005791664036421393
+2,industry_feedstocks,refined liquids,1972,0.006926521881692303
+2,industry_feedstocks,refined liquids,1973,0.006542735928515467
+2,industry_feedstocks,refined liquids,1974,0.007947936255849225
+2,industry_feedstocks,refined liquids,1975,0.007471051132946107
+2,industry_feedstocks,refined liquids,1976,0.007360532501433315
+2,industry_feedstocks,refined liquids,1977,0.009559419179998136
+2,industry_feedstocks,refined liquids,1978,0.009052132922913325
+2,industry_feedstocks,refined liquids,1979,0.009799859045535942
+2,industry_feedstocks,refined liquids,1980,0.009603310940007811
+2,industry_feedstocks,refined liquids,1981,0.012102726660604385
+2,industry_feedstocks,refined liquids,1982,0.012159252686020569
+2,industry_feedstocks,refined liquids,1983,0.011930999679639606
+2,industry_feedstocks,refined liquids,1984,0.014825671477302457
+2,industry_feedstocks,refined liquids,1985,0.014070483034622246
+2,industry_feedstocks,refined liquids,1986,0.013748668890461514
+2,industry_feedstocks,refined liquids,1987,0.01834028296077878
+2,industry_feedstocks,refined liquids,1988,0.016990851863235953
+2,industry_feedstocks,refined liquids,1989,0.016708285762420685
+2,industry_feedstocks,refined liquids,1990,0.01598899693782387
+2,industry_feedstocks,refined liquids,1991,0.015727563073377155
+2,industry_feedstocks,refined liquids,1992,0.01582402139644876
+2,industry_feedstocks,refined liquids,1993,0.016013996615184305
+2,industry_feedstocks,refined liquids,1994,0.01592755352149342
+2,industry_feedstocks,refined liquids,1995,0.016243581696582486
+2,industry_feedstocks,refined liquids,1996,0.016425624789058683
+2,industry_feedstocks,refined liquids,1997,0.016372730044924504
+2,industry_feedstocks,refined liquids,1998,0.015478093096205587
+2,industry_feedstocks,refined liquids,1999,0.014332836373550442
+2,industry_feedstocks,refined liquids,2000,0.015655495637103056
+2,industry_feedstocks,refined liquids,2001,0.014109065123419813
+2,industry_feedstocks,refined liquids,2002,0.014687239681311068
+2,industry_feedstocks,refined liquids,2003,0.023152662111639386
+2,industry_feedstocks,refined liquids,2004,0.01520068461729032
+2,industry_feedstocks,refined liquids,2005,0.017942429507962158
+2,industry_feedstocks,refined liquids,2006,0.019918766908524572
+2,industry_feedstocks,refined liquids,2007,0.02115969575393747
+2,industry_feedstocks,refined liquids,2008,0.023963535532358266
+2,industry_feedstocks,refined liquids,2009,0.026851664904677712
+2,industry_feedstocks,refined liquids,2010,0.025846129810548218
+3,industry_feedstocks,coal,1971,0
+3,industry_feedstocks,coal,1972,0
+3,industry_feedstocks,coal,1973,0
+3,industry_feedstocks,coal,1974,0
+3,industry_feedstocks,coal,1975,0
+3,industry_feedstocks,coal,1976,0
+3,industry_feedstocks,coal,1977,0
+3,industry_feedstocks,coal,1978,0
+3,industry_feedstocks,coal,1979,0
+3,industry_feedstocks,coal,1980,0
+3,industry_feedstocks,coal,1981,0
+3,industry_feedstocks,coal,1982,0
+3,industry_feedstocks,coal,1983,0
+3,industry_feedstocks,coal,1984,0
+3,industry_feedstocks,coal,1985,0
+3,industry_feedstocks,coal,1986,0
+3,industry_feedstocks,coal,1987,0
+3,industry_feedstocks,coal,1988,0
+3,industry_feedstocks,coal,1989,0
+3,industry_feedstocks,coal,1990,0
+3,industry_feedstocks,coal,1991,0
+3,industry_feedstocks,coal,1992,0
+3,industry_feedstocks,coal,1993,0
+3,industry_feedstocks,coal,1994,0
+3,industry_feedstocks,coal,1995,0
+3,industry_feedstocks,coal,1996,0
+3,industry_feedstocks,coal,1997,0
+3,industry_feedstocks,coal,1998,0
+3,industry_feedstocks,coal,1999,0
+3,industry_feedstocks,coal,2000,0
+3,industry_feedstocks,coal,2001,0
+3,industry_feedstocks,coal,2002,0
+3,industry_feedstocks,coal,2003,0
+3,industry_feedstocks,coal,2004,0
+3,industry_feedstocks,coal,2005,0
+3,industry_feedstocks,coal,2006,0
+3,industry_feedstocks,coal,2007,0
+3,industry_feedstocks,coal,2008,0
+3,industry_feedstocks,coal,2009,0
+3,industry_feedstocks,coal,2010,0
+3,industry_feedstocks,gas,1971,0
+3,industry_feedstocks,gas,1972,0
+3,industry_feedstocks,gas,1973,0
+3,industry_feedstocks,gas,1974,0
+3,industry_feedstocks,gas,1975,0
+3,industry_feedstocks,gas,1976,0
+3,industry_feedstocks,gas,1977,5.063314339617013e-4
+3,industry_feedstocks,gas,1978,0
+3,industry_feedstocks,gas,1979,0.023159149173666828
+3,industry_feedstocks,gas,1980,0.02000734558049638
+3,industry_feedstocks,gas,1981,0.02748051745128495
+3,industry_feedstocks,gas,1982,0.03259454092144379
+3,industry_feedstocks,gas,1983,0.03239970945996659
+3,industry_feedstocks,gas,1984,0.037705108942181785
+3,industry_feedstocks,gas,1985,0.03884088337833104
+3,industry_feedstocks,gas,1986,0.03800334392481837
+3,industry_feedstocks,gas,1987,0.0410301080379726
+3,industry_feedstocks,gas,1988,0.02861206310803365
+3,industry_feedstocks,gas,1989,0.026960660892385663
+3,industry_feedstocks,gas,1990,0.06922951662938222
+3,industry_feedstocks,gas,1991,0.07669349932357383
+3,industry_feedstocks,gas,1992,0.09586710165049817
+3,industry_feedstocks,gas,1993,0.10238117637368424
+3,industry_feedstocks,gas,1994,0.09016217172603067
+3,industry_feedstocks,gas,1995,0.09430683844964355
+3,industry_feedstocks,gas,1996,0.08906361685857517
+3,industry_feedstocks,gas,1997,0.09658746127765977
+3,industry_feedstocks,gas,1998,0.09748213820973037
+3,industry_feedstocks,gas,1999,0.12478710342798316
+3,industry_feedstocks,gas,2000,0.11825003041269858
+3,industry_feedstocks,gas,2001,0.07491183177041448
+3,industry_feedstocks,gas,2002,0.1734493967134073
+3,industry_feedstocks,gas,2003,0.14340622518465557
+3,industry_feedstocks,gas,2004,0.15794298394224782
+3,industry_feedstocks,gas,2005,0.1733404412869176
+3,industry_feedstocks,gas,2006,0.19962765656400405
+3,industry_feedstocks,gas,2007,0.205375609234493
+3,industry_feedstocks,gas,2008,0.20405155461593488
+3,industry_feedstocks,gas,2009,0.21703389120212208
+3,industry_feedstocks,gas,2010,0.22717094078008704
+3,industry_feedstocks,refined liquids,1971,0.029809594206767473
+3,industry_feedstocks,refined liquids,1972,0.03127543052928339
+3,industry_feedstocks,refined liquids,1973,0.03324316684804107
+3,industry_feedstocks,refined liquids,1974,0.03475043680371691
+3,industry_feedstocks,refined liquids,1975,0.04521611338598229
+3,industry_feedstocks,refined liquids,1976,0.04073839678009582
+3,industry_feedstocks,refined liquids,1977,0.048024447788055494
+3,industry_feedstocks,refined liquids,1978,0.0527133256219575
+3,industry_feedstocks,refined liquids,1979,0.05464205233093672
+3,industry_feedstocks,refined liquids,1980,0.07800209737381875
+3,industry_feedstocks,refined liquids,1981,0.08244473791289704
+3,industry_feedstocks,refined liquids,1982,0.07583397267555819
+3,industry_feedstocks,refined liquids,1983,0.08684646754495673
+3,industry_feedstocks,refined liquids,1984,0.09450254325770768
+3,industry_feedstocks,refined liquids,1985,0.09969129184083239
+3,industry_feedstocks,refined liquids,1986,0.1032503396694856
+3,industry_feedstocks,refined liquids,1987,0.09690091794446337
+3,industry_feedstocks,refined liquids,1988,0.09359367737636
+3,industry_feedstocks,refined liquids,1989,0.11050538142171361
+3,industry_feedstocks,refined liquids,1990,0.1314737218945184
+3,industry_feedstocks,refined liquids,1991,0.1338150641760083
+3,industry_feedstocks,refined liquids,1992,0.12795562775429786
+3,industry_feedstocks,refined liquids,1993,0.1374169782681691
+3,industry_feedstocks,refined liquids,1994,0.12996786486424616
+3,industry_feedstocks,refined liquids,1995,0.14298465160673796
+3,industry_feedstocks,refined liquids,1996,0.13695686711444074
+3,industry_feedstocks,refined liquids,1997,0.1480504290444046
+3,industry_feedstocks,refined liquids,1998,0.14348016853656642
+3,industry_feedstocks,refined liquids,1999,0.1648673944782601
+3,industry_feedstocks,refined liquids,2000,0.16390590370791144
+3,industry_feedstocks,refined liquids,2001,0.16143501593055304
+3,industry_feedstocks,refined liquids,2002,0.174958281850431
+3,industry_feedstocks,refined liquids,2003,0.17722797932410525
+3,industry_feedstocks,refined liquids,2004,0.1887758617981074
+3,industry_feedstocks,refined liquids,2005,0.1868926750433889
+3,industry_feedstocks,refined liquids,2006,0.17634328526482354
+3,industry_feedstocks,refined liquids,2007,0.18844705665747397
+3,industry_feedstocks,refined liquids,2008,0.19685470969863053
+3,industry_feedstocks,refined liquids,2009,0.2112947182107897
+3,industry_feedstocks,refined liquids,2010,0.18387755714570525
+4,industry_feedstocks,coal,1971,0
+4,industry_feedstocks,coal,1972,0
+4,industry_feedstocks,coal,1973,0
+4,industry_feedstocks,coal,1974,0
+4,industry_feedstocks,coal,1975,0
+4,industry_feedstocks,coal,1976,0
+4,industry_feedstocks,coal,1977,0
+4,industry_feedstocks,coal,1978,0
+4,industry_feedstocks,coal,1979,0
+4,industry_feedstocks,coal,1980,0
+4,industry_feedstocks,coal,1981,0
+4,industry_feedstocks,coal,1982,0
+4,industry_feedstocks,coal,1983,0
+4,industry_feedstocks,coal,1984,0
+4,industry_feedstocks,coal,1985,0
+4,industry_feedstocks,coal,1986,0
+4,industry_feedstocks,coal,1987,0
+4,industry_feedstocks,coal,1988,0
+4,industry_feedstocks,coal,1989,0
+4,industry_feedstocks,coal,1990,0
+4,industry_feedstocks,coal,1991,0
+4,industry_feedstocks,coal,1992,0
+4,industry_feedstocks,coal,1993,0
+4,industry_feedstocks,coal,1994,0
+4,industry_feedstocks,coal,1995,0
+4,industry_feedstocks,coal,1996,0
+4,industry_feedstocks,coal,1997,0
+4,industry_feedstocks,coal,1998,0
+4,industry_feedstocks,coal,1999,0
+4,industry_feedstocks,coal,2000,0
+4,industry_feedstocks,coal,2001,0
+4,industry_feedstocks,coal,2002,0
+4,industry_feedstocks,coal,2003,0
+4,industry_feedstocks,coal,2004,0
+4,industry_feedstocks,coal,2005,0
+4,industry_feedstocks,coal,2006,0
+4,industry_feedstocks,coal,2007,0
+4,industry_feedstocks,coal,2008,0
+4,industry_feedstocks,coal,2009,0
+4,industry_feedstocks,coal,2010,0
+4,industry_feedstocks,gas,1971,0
+4,industry_feedstocks,gas,1972,0
+4,industry_feedstocks,gas,1973,0
+4,industry_feedstocks,gas,1974,0
+4,industry_feedstocks,gas,1975,0
+4,industry_feedstocks,gas,1976,0
+4,industry_feedstocks,gas,1977,0
+4,industry_feedstocks,gas,1978,0
+4,industry_feedstocks,gas,1979,0
+4,industry_feedstocks,gas,1980,0
+4,industry_feedstocks,gas,1981,0
+4,industry_feedstocks,gas,1982,0
+4,industry_feedstocks,gas,1983,0
+4,industry_feedstocks,gas,1984,0
+4,industry_feedstocks,gas,1985,0
+4,industry_feedstocks,gas,1986,0
+4,industry_feedstocks,gas,1987,0
+4,industry_feedstocks,gas,1988,0
+4,industry_feedstocks,gas,1989,0
+4,industry_feedstocks,gas,1990,0
+4,industry_feedstocks,gas,1991,0
+4,industry_feedstocks,gas,1992,0
+4,industry_feedstocks,gas,1993,0
+4,industry_feedstocks,gas,1994,0
+4,industry_feedstocks,gas,1995,0
+4,industry_feedstocks,gas,1996,0
+4,industry_feedstocks,gas,1997,0
+4,industry_feedstocks,gas,1998,0
+4,industry_feedstocks,gas,1999,0
+4,industry_feedstocks,gas,2000,0
+4,industry_feedstocks,gas,2001,0
+4,industry_feedstocks,gas,2002,0
+4,industry_feedstocks,gas,2003,0
+4,industry_feedstocks,gas,2004,0
+4,industry_feedstocks,gas,2005,0
+4,industry_feedstocks,gas,2006,0
+4,industry_feedstocks,gas,2007,0
+4,industry_feedstocks,gas,2008,0
+4,industry_feedstocks,gas,2009,0
+4,industry_feedstocks,gas,2010,0
+4,industry_feedstocks,refined liquids,1971,0.006726784226906124
+4,industry_feedstocks,refined liquids,1972,0.007188341440901988
+4,industry_feedstocks,refined liquids,1973,0.006828696147021605
+4,industry_feedstocks,refined liquids,1974,0.006147128646316869
+4,industry_feedstocks,refined liquids,1975,0.006606470723092652
+4,industry_feedstocks,refined liquids,1976,0.004580293818989222
+4,industry_feedstocks,refined liquids,1977,0.005351299193434545
+4,industry_feedstocks,refined liquids,1978,0.004938608979769201
+4,industry_feedstocks,refined liquids,1979,0.005024852739859813
+4,industry_feedstocks,refined liquids,1980,0.005322443407105438
+4,industry_feedstocks,refined liquids,1981,0.006414815759447894
+4,industry_feedstocks,refined liquids,1982,0.0065734923952818665
+4,industry_feedstocks,refined liquids,1983,0.0063704365943533115
+4,industry_feedstocks,refined liquids,1984,0.0056383879138610215
+4,industry_feedstocks,refined liquids,1985,0.0058389664333454655
+4,industry_feedstocks,refined liquids,1986,0.004923879372347149
+4,industry_feedstocks,refined liquids,1987,0.0063805392677178064
+4,industry_feedstocks,refined liquids,1988,0.006539543672280804
+4,industry_feedstocks,refined liquids,1989,0.00689693129825322
+4,industry_feedstocks,refined liquids,1990,0.007486326693444175
+4,industry_feedstocks,refined liquids,1991,0.007860425414969377
+4,industry_feedstocks,refined liquids,1992,0.007334494010037308
+4,industry_feedstocks,refined liquids,1993,0.007010304052061561
+4,industry_feedstocks,refined liquids,1994,0.007362853897636674
+4,industry_feedstocks,refined liquids,1995,0.006579603338336429
+4,industry_feedstocks,refined liquids,1996,0.006814367624141129
+4,industry_feedstocks,refined liquids,1997,0.006959593940637222
+4,industry_feedstocks,refined liquids,1998,0.010272214576964573
+4,industry_feedstocks,refined liquids,1999,0.00750459336322976
+4,industry_feedstocks,refined liquids,2000,0.011717643417623097
+4,industry_feedstocks,refined liquids,2001,0.012753121415913268
+4,industry_feedstocks,refined liquids,2002,0.014272464083165534
+4,industry_feedstocks,refined liquids,2003,0.01609893284983074
+4,industry_feedstocks,refined liquids,2004,0.011097225801550358
+4,industry_feedstocks,refined liquids,2005,0.009950356221413105
+4,industry_feedstocks,refined liquids,2006,0.010614918404751365
+4,industry_feedstocks,refined liquids,2007,0.009898635868226074
+4,industry_feedstocks,refined liquids,2008,0.00912909512962915
+4,industry_feedstocks,refined liquids,2009,0.012623316531250452
+4,industry_feedstocks,refined liquids,2010,0.011569301056121379
+5,industry_feedstocks,coal,1971,0
+5,industry_feedstocks,coal,1972,0
+5,industry_feedstocks,coal,1973,0
+5,industry_feedstocks,coal,1974,0
+5,industry_feedstocks,coal,1975,0
+5,industry_feedstocks,coal,1976,0
+5,industry_feedstocks,coal,1977,0
+5,industry_feedstocks,coal,1978,0
+5,industry_feedstocks,coal,1979,0
+5,industry_feedstocks,coal,1980,0
+5,industry_feedstocks,coal,1981,0
+5,industry_feedstocks,coal,1982,0
+5,industry_feedstocks,coal,1983,0
+5,industry_feedstocks,coal,1984,0
+5,industry_feedstocks,coal,1985,0
+5,industry_feedstocks,coal,1986,0
+5,industry_feedstocks,coal,1987,0
+5,industry_feedstocks,coal,1988,0
+5,industry_feedstocks,coal,1989,0
+5,industry_feedstocks,coal,1990,0
+5,industry_feedstocks,coal,1991,0
+5,industry_feedstocks,coal,1992,0
+5,industry_feedstocks,coal,1993,0
+5,industry_feedstocks,coal,1994,0
+5,industry_feedstocks,coal,1995,0
+5,industry_feedstocks,coal,1996,0
+5,industry_feedstocks,coal,1997,0
+5,industry_feedstocks,coal,1998,0
+5,industry_feedstocks,coal,1999,0
+5,industry_feedstocks,coal,2000,0
+5,industry_feedstocks,coal,2001,0
+5,industry_feedstocks,coal,2002,0
+5,industry_feedstocks,coal,2003,0
+5,industry_feedstocks,coal,2004,0
+5,industry_feedstocks,coal,2005,0
+5,industry_feedstocks,coal,2006,0
+5,industry_feedstocks,coal,2007,0
+5,industry_feedstocks,coal,2008,0
+5,industry_feedstocks,coal,2009,0
+5,industry_feedstocks,coal,2010,0
+5,industry_feedstocks,gas,1971,0
+5,industry_feedstocks,gas,1972,0
+5,industry_feedstocks,gas,1973,0
+5,industry_feedstocks,gas,1974,0
+5,industry_feedstocks,gas,1975,0
+5,industry_feedstocks,gas,1976,0
+5,industry_feedstocks,gas,1977,0
+5,industry_feedstocks,gas,1978,0
+5,industry_feedstocks,gas,1979,0
+5,industry_feedstocks,gas,1980,0
+5,industry_feedstocks,gas,1981,0
+5,industry_feedstocks,gas,1982,0
+5,industry_feedstocks,gas,1983,0
+5,industry_feedstocks,gas,1984,0
+5,industry_feedstocks,gas,1985,0
+5,industry_feedstocks,gas,1986,0
+5,industry_feedstocks,gas,1987,0
+5,industry_feedstocks,gas,1988,0
+5,industry_feedstocks,gas,1989,0
+5,industry_feedstocks,gas,1990,0
+5,industry_feedstocks,gas,1991,0
+5,industry_feedstocks,gas,1992,0
+5,industry_feedstocks,gas,1993,0
+5,industry_feedstocks,gas,1994,0
+5,industry_feedstocks,gas,1995,0
+5,industry_feedstocks,gas,1996,0
+5,industry_feedstocks,gas,1997,0
+5,industry_feedstocks,gas,1998,0
+5,industry_feedstocks,gas,1999,0
+5,industry_feedstocks,gas,2000,0
+5,industry_feedstocks,gas,2001,0
+5,industry_feedstocks,gas,2002,0
+5,industry_feedstocks,gas,2003,0
+5,industry_feedstocks,gas,2004,0
+5,industry_feedstocks,gas,2005,0
+5,industry_feedstocks,gas,2006,0
+5,industry_feedstocks,gas,2007,0
+5,industry_feedstocks,gas,2008,0
+5,industry_feedstocks,gas,2009,0
+5,industry_feedstocks,gas,2010,0
+5,industry_feedstocks,refined liquids,1971,0.008093364535261601
+5,industry_feedstocks,refined liquids,1972,0.010481708541457878
+5,industry_feedstocks,refined liquids,1973,0.01819915625093801
+5,industry_feedstocks,refined liquids,1974,0.01775945852209206
+5,industry_feedstocks,refined liquids,1975,0.02145679643243759
+5,industry_feedstocks,refined liquids,1976,0.025832868429889633
+5,industry_feedstocks,refined liquids,1977,0.03522909898196571
+5,industry_feedstocks,refined liquids,1978,0.029248364363125546
+5,industry_feedstocks,refined liquids,1979,0.04796700892125011
+5,industry_feedstocks,refined liquids,1980,0.03132019069209894
+5,industry_feedstocks,refined liquids,1981,0.041535923152698016
+5,industry_feedstocks,refined liquids,1982,0.03927861149224766
+5,industry_feedstocks,refined liquids,1983,0.030865340301350134
+5,industry_feedstocks,refined liquids,1984,0.030779187442273512
+5,industry_feedstocks,refined liquids,1985,0.026419548189120748
+5,industry_feedstocks,refined liquids,1986,0.030311387288692572
+5,industry_feedstocks,refined liquids,1987,0.040056422979080644
+5,industry_feedstocks,refined liquids,1988,0.03223309231522174
+5,industry_feedstocks,refined liquids,1989,0.040681042271482455
+5,industry_feedstocks,refined liquids,1990,0.0331267339273837
+5,industry_feedstocks,refined liquids,1991,0.04854356176087864
+5,industry_feedstocks,refined liquids,1992,0.03977565653936786
+5,industry_feedstocks,refined liquids,1993,0.04001961821120801
+5,industry_feedstocks,refined liquids,1994,0.034418846641297386
+5,industry_feedstocks,refined liquids,1995,0.03735857897470729
+5,industry_feedstocks,refined liquids,1996,0.04078197849901781
+5,industry_feedstocks,refined liquids,1997,0.027555651943324107
+5,industry_feedstocks,refined liquids,1998,0.029491973260263413
+5,industry_feedstocks,refined liquids,1999,0.023827705245700177
+5,industry_feedstocks,refined liquids,2000,0.02724016840562866
+5,industry_feedstocks,refined liquids,2001,0.03828374804069546
+5,industry_feedstocks,refined liquids,2002,0.041255943512575936
+5,industry_feedstocks,refined liquids,2003,0.03475401344089854
+5,industry_feedstocks,refined liquids,2004,0.02113034287826068
+5,industry_feedstocks,refined liquids,2005,0.0210763461797348
+5,industry_feedstocks,refined liquids,2006,0.02212098551149614
+5,industry_feedstocks,refined liquids,2007,0.01867178262891241
+5,industry_feedstocks,refined liquids,2008,0.0223797477381571
+5,industry_feedstocks,refined liquids,2009,0.020436663115776483
+5,industry_feedstocks,refined liquids,2010,0.01805785424026962
+6,industry_feedstocks,coal,1971,0
+6,industry_feedstocks,coal,1972,0
+6,industry_feedstocks,coal,1973,0
+6,industry_feedstocks,coal,1974,0
+6,industry_feedstocks,coal,1975,0
+6,industry_feedstocks,coal,1976,0
+6,industry_feedstocks,coal,1977,0
+6,industry_feedstocks,coal,1978,0
+6,industry_feedstocks,coal,1979,0
+6,industry_feedstocks,coal,1980,0
+6,industry_feedstocks,coal,1981,0
+6,industry_feedstocks,coal,1982,0
+6,industry_feedstocks,coal,1983,0
+6,industry_feedstocks,coal,1984,0
+6,industry_feedstocks,coal,1985,0
+6,industry_feedstocks,coal,1986,0
+6,industry_feedstocks,coal,1987,0
+6,industry_feedstocks,coal,1988,0
+6,industry_feedstocks,coal,1989,0
+6,industry_feedstocks,coal,1990,0
+6,industry_feedstocks,coal,1991,0
+6,industry_feedstocks,coal,1992,0
+6,industry_feedstocks,coal,1993,0
+6,industry_feedstocks,coal,1994,0
+6,industry_feedstocks,coal,1995,0
+6,industry_feedstocks,coal,1996,0
+6,industry_feedstocks,coal,1997,0
+6,industry_feedstocks,coal,1998,0
+6,industry_feedstocks,coal,1999,0
+6,industry_feedstocks,coal,2000,0
+6,industry_feedstocks,coal,2001,0
+6,industry_feedstocks,coal,2002,0
+6,industry_feedstocks,coal,2003,0
+6,industry_feedstocks,coal,2004,0
+6,industry_feedstocks,coal,2005,0
+6,industry_feedstocks,coal,2006,0
+6,industry_feedstocks,coal,2007,0
+6,industry_feedstocks,coal,2008,0
+6,industry_feedstocks,coal,2009,0
+6,industry_feedstocks,coal,2010,0
+6,industry_feedstocks,gas,1971,0
+6,industry_feedstocks,gas,1972,1.7671565634686578e-4
+6,industry_feedstocks,gas,1973,0.002973443386266204
+6,industry_feedstocks,gas,1974,0.0018117208103570594
+6,industry_feedstocks,gas,1975,0.001826198927193358
+6,industry_feedstocks,gas,1976,0.0017245003953600437
+6,industry_feedstocks,gas,1977,0.003084612516138222
+6,industry_feedstocks,gas,1978,0.0044475584887056175
+6,industry_feedstocks,gas,1979,0.006780701620895244
+6,industry_feedstocks,gas,1980,0.007854229304772038
+6,industry_feedstocks,gas,1981,0.008472273797398523
+6,industry_feedstocks,gas,1982,0.009560030476910092
+6,industry_feedstocks,gas,1983,0.017601903770841067
+6,industry_feedstocks,gas,1984,0.032949159900449825
+6,industry_feedstocks,gas,1985,0.034371396750974184
+6,industry_feedstocks,gas,1986,0.03336147560111511
+6,industry_feedstocks,gas,1987,0.036288278869485616
+6,industry_feedstocks,gas,1988,0.03483006399713945
+6,industry_feedstocks,gas,1989,0.034705958217487426
+6,industry_feedstocks,gas,1990,0.0245321577698056
+6,industry_feedstocks,gas,1991,0.024136597713136053
+6,industry_feedstocks,gas,1992,0.02073919664743235
+6,industry_feedstocks,gas,1993,0.021881203354019052
+6,industry_feedstocks,gas,1994,0.027024444614733786
+6,industry_feedstocks,gas,1995,0.03813026115589762
+6,industry_feedstocks,gas,1996,0.0469779441862125
+6,industry_feedstocks,gas,1997,0.04896520067855911
+6,industry_feedstocks,gas,1998,0.04521927440358194
+6,industry_feedstocks,gas,1999,0.05334734946106578
+6,industry_feedstocks,gas,2000,0.059055552575754476
+6,industry_feedstocks,gas,2001,0.052956201087689746
+6,industry_feedstocks,gas,2002,0.054971668016313806
+6,industry_feedstocks,gas,2003,0.0533616089617027
+6,industry_feedstocks,gas,2004,0.0463343245296626
+6,industry_feedstocks,gas,2005,0.033533760163319236
+6,industry_feedstocks,gas,2006,0.03526266309054813
+6,industry_feedstocks,gas,2007,0.03467486561484266
+6,industry_feedstocks,gas,2008,0.038267689993909976
+6,industry_feedstocks,gas,2009,0.037537217415481314
+6,industry_feedstocks,gas,2010,0.041845436852564144
+6,industry_feedstocks,refined liquids,1971,0.10075702
+6,industry_feedstocks,refined liquids,1972,0.10042214000000001
+6,industry_feedstocks,refined liquids,1973,0.10896158
+6,industry_feedstocks,refined liquids,1974,0.09971052000000001
+6,industry_feedstocks,refined liquids,1975,0.09652916
+6,industry_feedstocks,refined liquids,1976,0.09560824000000001
+6,industry_feedstocks,refined liquids,1977,0.10305932000000001
+6,industry_feedstocks,refined liquids,1978,0.10912902000000001
+6,industry_feedstocks,refined liquids,1979,0.10686858
+6,industry_feedstocks,refined liquids,1980,0.11645452
+6,industry_feedstocks,refined liquids,1981,0.108836
+6,industry_feedstocks,refined liquids,1982,0.10942204000000001
+6,industry_feedstocks,refined liquids,1983,0.09887332000000001
+6,industry_feedstocks,refined liquids,1984,0.11356618
+6,industry_feedstocks,refined liquids,1985,0.11917542
+6,industry_feedstocks,refined liquids,1986,0.12591488
+6,industry_feedstocks,refined liquids,1987,0.11800334000000001
+6,industry_feedstocks,refined liquids,1988,0.14123564
+6,industry_feedstocks,refined liquids,1989,0.14939834000000002
+6,industry_feedstocks,refined liquids,1990,0.16007264000000002
+6,industry_feedstocks,refined liquids,1991,0.15710058000000002
+6,industry_feedstocks,refined liquids,1992,0.15756104
+6,industry_feedstocks,refined liquids,1993,0.16907254000000002
+6,industry_feedstocks,refined liquids,1994,0.17459806
+6,industry_feedstocks,refined liquids,1995,0.1791608
+6,industry_feedstocks,refined liquids,1996,0.18213286
+6,industry_feedstocks,refined liquids,1997,0.17694222
+6,industry_feedstocks,refined liquids,1998,0.1793701
+6,industry_feedstocks,refined liquids,1999,0.17907708
+6,industry_feedstocks,refined liquids,2000,0.18384912
+6,industry_feedstocks,refined liquids,2001,0.18389098
+6,industry_feedstocks,refined liquids,2002,0.1433705
+6,industry_feedstocks,refined liquids,2003,0.14667744
+6,industry_feedstocks,refined liquids,2004,0.13817986000000002
+6,industry_feedstocks,refined liquids,2005,0.18945836000000002
+6,industry_feedstocks,refined liquids,2006,0.19644898000000002
+6,industry_feedstocks,refined liquids,2007,0.19134206
+6,industry_feedstocks,refined liquids,2008,0.19125834
+6,industry_feedstocks,refined liquids,2009,0.18447702000000002
+6,industry_feedstocks,refined liquids,2010,0.19100718000000003
+7,industry_feedstocks,coal,1971,0.00200928
+7,industry_feedstocks,coal,1972,0.0020930000000000002
+7,industry_feedstocks,coal,1973,0.0023023
+7,industry_feedstocks,coal,1974,0.00217672
+7,industry_feedstocks,coal,1975,0.0027209
+7,industry_feedstocks,coal,1976,0.0031395000000000004
+7,industry_feedstocks,coal,1977,0.0018837
+7,industry_feedstocks,coal,1978,0.004311580000000001
+7,industry_feedstocks,coal,1979,0.00380926
+7,industry_feedstocks,coal,1980,0.0050232
+7,industry_feedstocks,coal,1981,0.0045208800000000006
+7,industry_feedstocks,coal,1982,0.0058185400000000005
+7,industry_feedstocks,coal,1983,0.00707434
+7,industry_feedstocks,coal,1984,0.009167340000000001
+7,industry_feedstocks,coal,1985,0.0089999
+7,industry_feedstocks,coal,1986,0.00950222
+7,industry_feedstocks,coal,1987,0.0052743600000000005
+7,industry_feedstocks,coal,1988,0.00284648
+7,industry_feedstocks,coal,1989,0.0028046200000000003
+7,industry_feedstocks,coal,1990,0.00456274
+7,industry_feedstocks,coal,1991,0.00498134
+7,industry_feedstocks,coal,1992,0.00205114
+7,industry_feedstocks,coal,1993,0.00234416
+7,industry_feedstocks,coal,1994,0.0031813600000000003
+7,industry_feedstocks,coal,1995,0.0028046200000000003
+7,industry_feedstocks,coal,1996,0.00699062
+7,industry_feedstocks,coal,1997,0.00925106
+7,industry_feedstocks,coal,1998,0.007953400000000001
+7,industry_feedstocks,coal,1999,0.005734820000000001
+7,industry_feedstocks,coal,2000,0.005944120000000001
+7,industry_feedstocks,coal,2001,0.005734820000000001
+7,industry_feedstocks,coal,2002,0.005065060000000001
+7,industry_feedstocks,coal,2003,0.00728364
+7,industry_feedstocks,coal,2004,0.00728364
+7,industry_feedstocks,coal,2005,0.006697600000000001
+7,industry_feedstocks,coal,2006,0.006279000000000001
+7,industry_feedstocks,coal,2007,0.006153420000000001
+7,industry_feedstocks,coal,2008,0.00623714
+7,industry_feedstocks,coal,2009,0.00598598
+7,industry_feedstocks,coal,2010,0.00598598
+7,industry_feedstocks,gas,1971,0
+7,industry_feedstocks,gas,1972,0
+7,industry_feedstocks,gas,1973,0
+7,industry_feedstocks,gas,1974,0
+7,industry_feedstocks,gas,1975,0
+7,industry_feedstocks,gas,1976,1.3941212162065907e-4
+7,industry_feedstocks,gas,1977,0
+7,industry_feedstocks,gas,1978,0.004784479967978566
+7,industry_feedstocks,gas,1979,0.005886710552558494
+7,industry_feedstocks,gas,1980,0.007381495846387443
+7,industry_feedstocks,gas,1981,0.0015074981385649645
+7,industry_feedstocks,gas,1982,0.0051973022190719646
+7,industry_feedstocks,gas,1983,0.014820806828841723
+7,industry_feedstocks,gas,1984,0.015773435228059622
+7,industry_feedstocks,gas,1985,0.016709548230052492
+7,industry_feedstocks,gas,1986,0.019161316694165587
+7,industry_feedstocks,gas,1987,0.02128316251769548
+7,industry_feedstocks,gas,1988,0.024280190247986222
+7,industry_feedstocks,gas,1989,0.02682818770873122
+7,industry_feedstocks,gas,1990,0.01849375111988086
+7,industry_feedstocks,gas,1991,0.02032549956789918
+7,industry_feedstocks,gas,1992,0.019302355510954362
+7,industry_feedstocks,gas,1993,0.019065684028876435
+7,industry_feedstocks,gas,1994,0.021643729986392954
+7,industry_feedstocks,gas,1995,0.015228714123044284
+7,industry_feedstocks,gas,1996,0.012278648186881468
+7,industry_feedstocks,gas,1997,0.01012508179831256
+7,industry_feedstocks,gas,1998,0.01241160894327132
+7,industry_feedstocks,gas,1999,0.009592616006444791
+7,industry_feedstocks,gas,2000,0.009508497134717301
+7,industry_feedstocks,gas,2001,0.007190540059837002
+7,industry_feedstocks,gas,2002,0.0076739776757044145
+7,industry_feedstocks,gas,2003,0.004710169367380897
+7,industry_feedstocks,gas,2004,0.005246572547789825
+7,industry_feedstocks,gas,2005,0.005530605125919089
+7,industry_feedstocks,gas,2006,0.006121569686869999
+7,industry_feedstocks,gas,2007,0.0064767942149678605
+7,industry_feedstocks,gas,2008,0.0038496044729720326
+7,industry_feedstocks,gas,2009,0.00423073627430829
+7,industry_feedstocks,gas,2010,0.03437703686014336
+7,industry_feedstocks,refined liquids,1971,0.04941795935834736
+7,industry_feedstocks,refined liquids,1972,0.07587506012893429
+7,industry_feedstocks,refined liquids,1973,0.09084548247862853
+7,industry_feedstocks,refined liquids,1974,0.12901252000000002
+7,industry_feedstocks,refined liquids,1975,0.13298922
+7,industry_feedstocks,refined liquids,1976,0.14282632
+7,industry_feedstocks,refined liquids,1977,0.15689128000000002
+7,industry_feedstocks,refined liquids,1978,0.19732804
+7,industry_feedstocks,refined liquids,1979,0.23600668
+7,industry_feedstocks,refined liquids,1980,0.20549074
+7,industry_feedstocks,refined liquids,1981,0.20038382000000002
+7,industry_feedstocks,refined liquids,1982,0.23332764
+7,industry_feedstocks,refined liquids,1983,0.24626238
+7,industry_feedstocks,refined liquids,1984,0.26074594
+7,industry_feedstocks,refined liquids,1985,0.32110806000000003
+7,industry_feedstocks,refined liquids,1986,0.32056388
+7,industry_feedstocks,refined liquids,1987,0.34530314
+7,industry_feedstocks,refined liquids,1988,0.34086598
+7,industry_feedstocks,refined liquids,1989,0.34861008
+7,industry_feedstocks,refined liquids,1990,0.36062390000000005
+7,industry_feedstocks,refined liquids,1991,0.3424148
+7,industry_feedstocks,refined liquids,1992,0.35610302000000005
+7,industry_feedstocks,refined liquids,1993,0.36468432
+7,industry_feedstocks,refined liquids,1994,0.4031118
+7,industry_feedstocks,refined liquids,1995,0.39038636000000004
+7,industry_feedstocks,refined liquids,1996,0.39377702000000003
+7,industry_feedstocks,refined liquids,1997,0.4648553
+7,industry_feedstocks,refined liquids,1998,0.48603646000000006
+7,industry_feedstocks,refined liquids,1999,0.51085944
+7,industry_feedstocks,refined liquids,2000,0.53484522
+7,industry_feedstocks,refined liquids,2001,0.50324092
+7,industry_feedstocks,refined liquids,2002,0.47251568
+7,industry_feedstocks,refined liquids,2003,0.46853898000000005
+7,industry_feedstocks,refined liquids,2004,0.48519926
+7,industry_feedstocks,refined liquids,2005,0.50232
+7,industry_feedstocks,refined liquids,2006,0.53961726
+7,industry_feedstocks,refined liquids,2007,0.54016144
+7,industry_feedstocks,refined liquids,2008,0.5481567
+7,industry_feedstocks,refined liquids,2009,0.55686358
+7,industry_feedstocks,refined liquids,2010,0.64497888
+8,industry_feedstocks,coal,1971,0
+8,industry_feedstocks,coal,1972,0
+8,industry_feedstocks,coal,1973,0
+8,industry_feedstocks,coal,1974,0
+8,industry_feedstocks,coal,1975,0
+8,industry_feedstocks,coal,1976,0
+8,industry_feedstocks,coal,1977,0
+8,industry_feedstocks,coal,1978,0.0060697
+8,industry_feedstocks,coal,1979,0.00514878
+8,industry_feedstocks,coal,1980,0.00560924
+8,industry_feedstocks,coal,1981,0.00473018
+8,industry_feedstocks,coal,1982,0.00552552
+8,industry_feedstocks,coal,1983,0.0056511
+8,industry_feedstocks,coal,1984,0.0063627200000000005
+8,industry_feedstocks,coal,1985,0.01180452
+8,industry_feedstocks,coal,1986,0.01280916
+8,industry_feedstocks,coal,1987,0.015195180000000003
+8,industry_feedstocks,coal,1988,0.01720446
+8,industry_feedstocks,coal,1989,0.01666028
+8,industry_feedstocks,coal,1990,0.013813800000000001
+8,industry_feedstocks,coal,1991,0.01180452
+8,industry_feedstocks,coal,1992,0.008916180000000001
+8,industry_feedstocks,coal,1993,0.01008826
+8,industry_feedstocks,coal,1994,0.00992082
+8,industry_feedstocks,coal,1995,0.010799880000000001
+8,industry_feedstocks,coal,1996,0.01059058
+8,industry_feedstocks,coal,1997,0.01063244
+8,industry_feedstocks,coal,1998,0.0102557
+8,industry_feedstocks,coal,1999,0.009292920000000001
+8,industry_feedstocks,coal,2000,0.0108836
+8,industry_feedstocks,coal,2001,0.00883246
+8,industry_feedstocks,coal,2002,0.00954408
+8,industry_feedstocks,coal,2003,0.010465
+8,industry_feedstocks,coal,2004,0.01138592
+8,industry_feedstocks,coal,2005,0.016409120000000003
+8,industry_feedstocks,coal,2006,0.014064960000000001
+8,industry_feedstocks,coal,2007,0.01469286
+8,industry_feedstocks,coal,2008,0.012181260000000001
+8,industry_feedstocks,coal,2009,0.031436860000000004
+8,industry_feedstocks,coal,2010,0.005985980000000001
+8,industry_feedstocks,gas,1971,0
+8,industry_feedstocks,gas,1972,0
+8,industry_feedstocks,gas,1973,0
+8,industry_feedstocks,gas,1974,0
+8,industry_feedstocks,gas,1975,0
+8,industry_feedstocks,gas,1976,0.029839545766142176
+8,industry_feedstocks,gas,1977,0.03868097815764197
+8,industry_feedstocks,gas,1978,0.04049794913580107
+8,industry_feedstocks,gas,1979,0.03851638967019825
+8,industry_feedstocks,gas,1980,0.053586988733423546
+8,industry_feedstocks,gas,1981,0.043324904651855005
+8,industry_feedstocks,gas,1982,0.048518955719204476
+8,industry_feedstocks,gas,1983,0.07739897740457798
+8,industry_feedstocks,gas,1984,0.09563900068919504
+8,industry_feedstocks,gas,1985,0.09410921861672408
+8,industry_feedstocks,gas,1986,0.06787808202926544
+8,industry_feedstocks,gas,1987,0.0686788138531134
+8,industry_feedstocks,gas,1988,0.08579502279403536
+8,industry_feedstocks,gas,1989,0.0832422686042387
+8,industry_feedstocks,gas,1990,0.07262764483206297
+8,industry_feedstocks,gas,1991,0.08533138734518014
+8,industry_feedstocks,gas,1992,0.07285371848617357
+8,industry_feedstocks,gas,1993,0.08605278060367935
+8,industry_feedstocks,gas,1994,0.08823344523412915
+8,industry_feedstocks,gas,1995,0.08358092226876102
+8,industry_feedstocks,gas,1996,0.08756475871639255
+8,industry_feedstocks,gas,1997,0.09512433443684294
+8,industry_feedstocks,gas,1998,0.0887464313347992
+8,industry_feedstocks,gas,1999,0.09398780292322145
+8,industry_feedstocks,gas,2000,0.08196031230430734
+8,industry_feedstocks,gas,2001,0.057573054537318535
+8,industry_feedstocks,gas,2002,0.0533445968883713
+8,industry_feedstocks,gas,2003,0.06322120681004925
+8,industry_feedstocks,gas,2004,0.0765026633181271
+8,industry_feedstocks,gas,2005,0.06958142770689807
+8,industry_feedstocks,gas,2006,0.0677826891504976
+8,industry_feedstocks,gas,2007,0.06526343962933141
+8,industry_feedstocks,gas,2008,0.04824710630942085
+8,industry_feedstocks,gas,2009,0.0379226011926716
+8,industry_feedstocks,gas,2010,0.036411902626201725
+8,industry_feedstocks,refined liquids,1971,0.24488100000000002
+8,industry_feedstocks,refined liquids,1972,0.26472264
+8,industry_feedstocks,refined liquids,1973,0.30591288000000005
+8,industry_feedstocks,refined liquids,1974,0.30386174
+8,industry_feedstocks,refined liquids,1975,0.28125734
+8,industry_feedstocks,refined liquids,1976,0.29854552
+8,industry_feedstocks,refined liquids,1977,0.34898682000000003
+8,industry_feedstocks,refined liquids,1978,0.38318644
+8,industry_feedstocks,refined liquids,1979,0.41018614000000003
+8,industry_feedstocks,refined liquids,1980,0.38502828000000006
+8,industry_feedstocks,refined liquids,1981,0.39356772
+8,industry_feedstocks,refined liquids,1982,0.30649892
+8,industry_feedstocks,refined liquids,1983,0.32248944
+8,industry_feedstocks,refined liquids,1984,0.35606116
+8,industry_feedstocks,refined liquids,1985,0.41269774000000004
+8,industry_feedstocks,refined liquids,1986,0.42219996000000004
+8,industry_feedstocks,refined liquids,1987,0.47372962
+8,industry_feedstocks,refined liquids,1988,0.46351578000000004
+8,industry_feedstocks,refined liquids,1989,0.46146464000000004
+8,industry_feedstocks,refined liquids,1990,0.47360404
+8,industry_feedstocks,refined liquids,1991,0.47640866000000004
+8,industry_feedstocks,refined liquids,1992,0.51345476
+8,industry_feedstocks,refined liquids,1993,0.54597998
+8,industry_feedstocks,refined liquids,1994,0.55640312
+8,industry_feedstocks,refined liquids,1995,0.5743192
+8,industry_feedstocks,refined liquids,1996,0.61718384
+8,industry_feedstocks,refined liquids,1997,0.6584578000000001
+8,industry_feedstocks,refined liquids,1998,0.602784
+8,industry_feedstocks,refined liquids,1999,0.686504
+8,industry_feedstocks,refined liquids,2000,0.6548997000000001
+8,industry_feedstocks,refined liquids,2001,0.6677088600000001
+8,industry_feedstocks,refined liquids,2002,0.688597
+8,industry_feedstocks,refined liquids,2003,0.77386582
+8,industry_feedstocks,refined liquids,2004,0.86072532
+8,industry_feedstocks,refined liquids,2005,0.84414876
+8,industry_feedstocks,refined liquids,2006,0.8384558000000001
+8,industry_feedstocks,refined liquids,2007,0.80383758
+8,industry_feedstocks,refined liquids,2008,0.78458198
+8,industry_feedstocks,refined liquids,2009,0.7145083400000001
+8,industry_feedstocks,refined liquids,2010,0.80835846
+9,industry_feedstocks,coal,1971,0
+9,industry_feedstocks,coal,1972,0
+9,industry_feedstocks,coal,1973,0
+9,industry_feedstocks,coal,1974,0
+9,industry_feedstocks,coal,1975,0
+9,industry_feedstocks,coal,1976,0
+9,industry_feedstocks,coal,1977,0
+9,industry_feedstocks,coal,1978,0
+9,industry_feedstocks,coal,1979,0
+9,industry_feedstocks,coal,1980,0
+9,industry_feedstocks,coal,1981,0
+9,industry_feedstocks,coal,1982,0
+9,industry_feedstocks,coal,1983,0
+9,industry_feedstocks,coal,1984,0
+9,industry_feedstocks,coal,1985,0
+9,industry_feedstocks,coal,1986,0
+9,industry_feedstocks,coal,1987,0
+9,industry_feedstocks,coal,1988,0
+9,industry_feedstocks,coal,1989,0
+9,industry_feedstocks,coal,1990,0
+9,industry_feedstocks,coal,1991,0
+9,industry_feedstocks,coal,1992,0
+9,industry_feedstocks,coal,1993,0
+9,industry_feedstocks,coal,1994,0
+9,industry_feedstocks,coal,1995,0
+9,industry_feedstocks,coal,1996,0
+9,industry_feedstocks,coal,1997,0
+9,industry_feedstocks,coal,1998,0
+9,industry_feedstocks,coal,1999,0
+9,industry_feedstocks,coal,2000,0
+9,industry_feedstocks,coal,2001,0
+9,industry_feedstocks,coal,2002,0
+9,industry_feedstocks,coal,2003,0
+9,industry_feedstocks,coal,2004,0
+9,industry_feedstocks,coal,2005,0
+9,industry_feedstocks,coal,2006,0
+9,industry_feedstocks,coal,2007,0
+9,industry_feedstocks,coal,2008,0
+9,industry_feedstocks,coal,2009,0
+9,industry_feedstocks,coal,2010,0
+9,industry_feedstocks,gas,1971,0.013719086911902871
+9,industry_feedstocks,gas,1972,0.014441623231140704
+9,industry_feedstocks,gas,1973,0.014805608689571143
+9,industry_feedstocks,gas,1974,0.012745995259406753
+9,industry_feedstocks,gas,1975,0.0103818863
+9,industry_feedstocks,gas,1976,0.0109806202
+9,industry_feedstocks,gas,1977,0.017514766764645282
+9,industry_feedstocks,gas,1978,0.028337318292645193
+9,industry_feedstocks,gas,1979,0.027759231207775528
+9,industry_feedstocks,gas,1980,0.027713766318567996
+9,industry_feedstocks,gas,1981,0.020235507569144526
+9,industry_feedstocks,gas,1982,0.04952328114418183
+9,industry_feedstocks,gas,1983,0.05598680005732789
+9,industry_feedstocks,gas,1984,0.06111748559251745
+9,industry_feedstocks,gas,1985,0.06401022120480114
+9,industry_feedstocks,gas,1986,0.06470298541247375
+9,industry_feedstocks,gas,1987,0.06646911440854743
+9,industry_feedstocks,gas,1988,0.07979488127290389
+9,industry_feedstocks,gas,1989,0.08041666286336902
+9,industry_feedstocks,gas,1990,0.08271587224119371
+9,industry_feedstocks,gas,1991,0.08947137876060826
+9,industry_feedstocks,gas,1992,0.09163662365825151
+9,industry_feedstocks,gas,1993,0.08966961007510346
+9,industry_feedstocks,gas,1994,0.10093436953476112
+9,industry_feedstocks,gas,1995,0.09996364937092368
+9,industry_feedstocks,gas,1996,0.13574664661618985
+9,industry_feedstocks,gas,1997,0.1391067117340003
+9,industry_feedstocks,gas,1998,0.17936789814106824
+9,industry_feedstocks,gas,1999,0.20120847999918381
+9,industry_feedstocks,gas,2000,0.20874895454763326
+9,industry_feedstocks,gas,2001,0.2347928794372998
+9,industry_feedstocks,gas,2002,0.24911081631493706
+9,industry_feedstocks,gas,2003,0.2616831934069204
+9,industry_feedstocks,gas,2004,0.29872761104234763
+9,industry_feedstocks,gas,2005,0.3473772033141963
+9,industry_feedstocks,gas,2006,0.39068509497141624
+9,industry_feedstocks,gas,2007,0.3891432956225253
+9,industry_feedstocks,gas,2008,0.37003393803420037
+9,industry_feedstocks,gas,2009,0.4036853958911443
+9,industry_feedstocks,gas,2010,0.4220376943506277
+9,industry_feedstocks,refined liquids,1971,0.010813991272798766
+9,industry_feedstocks,refined liquids,1972,0.011483991373001901
+9,industry_feedstocks,refined liquids,1973,0.013265874275455312
+9,industry_feedstocks,refined liquids,1974,0.02063364227015933
+9,industry_feedstocks,refined liquids,1975,0.024843364773135982
+9,industry_feedstocks,refined liquids,1976,0.023804019049237863
+9,industry_feedstocks,refined liquids,1977,0.024282489988166667
+9,industry_feedstocks,refined liquids,1978,0.0254222839538404
+9,industry_feedstocks,refined liquids,1979,0.025157649441797363
+9,industry_feedstocks,refined liquids,1980,0.02352604754982252
+9,industry_feedstocks,refined liquids,1981,0.02246601782746875
+9,industry_feedstocks,refined liquids,1982,0.020408080484011947
+9,industry_feedstocks,refined liquids,1983,0.02339591964388342
+9,industry_feedstocks,refined liquids,1984,0.024865278963436474
+9,industry_feedstocks,refined liquids,1985,0.02475438186828628
+9,industry_feedstocks,refined liquids,1986,0.02058303798797532
+9,industry_feedstocks,refined liquids,1987,0.019352904700955995
+9,industry_feedstocks,refined liquids,1988,0.019395842326723624
+9,industry_feedstocks,refined liquids,1989,0.021102103548338417
+9,industry_feedstocks,refined liquids,1990,0.016174790601464924
+9,industry_feedstocks,refined liquids,1991,0.013242046537010799
+9,industry_feedstocks,refined liquids,1992,0.012110361743565518
+9,industry_feedstocks,refined liquids,1993,0.013088630708014425
+9,industry_feedstocks,refined liquids,1994,0.013634777602081547
+9,industry_feedstocks,refined liquids,1995,0.012708305452039716
+9,industry_feedstocks,refined liquids,1996,0.01410820823632252
+9,industry_feedstocks,refined liquids,1997,0.013934409859444098
+9,industry_feedstocks,refined liquids,1998,0.013925821633870872
+9,industry_feedstocks,refined liquids,1999,0.018375794243375567
+9,industry_feedstocks,refined liquids,2000,0.015654848141289597
+9,industry_feedstocks,refined liquids,2001,0.018961583476650223
+9,industry_feedstocks,refined liquids,2002,0.02120437148117937
+9,industry_feedstocks,refined liquids,2003,0.025724834427292377
+9,industry_feedstocks,refined liquids,2004,0.026226780995624446
+9,industry_feedstocks,refined liquids,2005,0.02258470031429886
+9,industry_feedstocks,refined liquids,2006,0.02231603681364989
+9,industry_feedstocks,refined liquids,2007,0.0236136853117207
+9,industry_feedstocks,refined liquids,2008,0.019996411770628556
+9,industry_feedstocks,refined liquids,2009,0.022340647902716886
+9,industry_feedstocks,refined liquids,2010,0.019829083453814626
+10,industry_feedstocks,coal,1971,0.013835435380608123
+10,industry_feedstocks,coal,1972,0.014499420803151654
+10,industry_feedstocks,coal,1973,0.01515618899284145
+10,industry_feedstocks,coal,1974,0.015812957182531246
+10,industry_feedstocks,coal,1975,0.01729248991754672
+10,industry_feedstocks,coal,1976,0.023520961870319185
+10,industry_feedstocks,coal,1977,0.02903492777057198
+10,industry_feedstocks,coal,1978,0.03429629052094409
+10,industry_feedstocks,coal,1979,0.03856167513750089
+10,industry_feedstocks,coal,1980,0.04772034362888937
+10,industry_feedstocks,coal,1981,0.04644289341377844
+10,industry_feedstocks,coal,1982,0.04226411559146644
+10,industry_feedstocks,coal,1983,0.037594565935100535
+10,industry_feedstocks,coal,1984,0.033870473782573775
+10,industry_feedstocks,coal,1985,0.03027629182141423
+10,industry_feedstocks,coal,1986,0.027245054022845938
+10,industry_feedstocks,coal,1987,0.02417051282715525
+10,industry_feedstocks,coal,1988,0.02424990238854632
+10,industry_feedstocks,coal,1989,0.02417773006000898
+10,industry_feedstocks,coal,1990,0
+10,industry_feedstocks,coal,1991,0
+10,industry_feedstocks,coal,1992,0
+10,industry_feedstocks,coal,1993,0
+10,industry_feedstocks,coal,1994,0
+10,industry_feedstocks,coal,1995,0
+10,industry_feedstocks,coal,1996,0
+10,industry_feedstocks,coal,1997,0
+10,industry_feedstocks,coal,1998,0
+10,industry_feedstocks,coal,1999,0
+10,industry_feedstocks,coal,2000,0.02829736
+10,industry_feedstocks,coal,2001,0.020846280000000002
+10,industry_feedstocks,coal,2002,0.019883500000000002
+10,industry_feedstocks,coal,2003,0.024236940000000002
+10,industry_feedstocks,coal,2004,0.01573936
+10,industry_feedstocks,coal,2005,0.025785760000000005
+10,industry_feedstocks,coal,2006,0.02591134
+10,industry_feedstocks,coal,2007,0.02691598
+10,industry_feedstocks,coal,2008,0
+10,industry_feedstocks,coal,2009,0
+10,industry_feedstocks,coal,2010,0
+10,industry_feedstocks,gas,1971,0.030643325374985743
+10,industry_feedstocks,gas,1972,0.03788615984245286
+10,industry_feedstocks,gas,1973,0.04190270515724788
+10,industry_feedstocks,gas,1974,0.04633110862446421
+10,industry_feedstocks,gas,1975,0.04950702763139495
+10,industry_feedstocks,gas,1976,0.058424935193799855
+10,industry_feedstocks,gas,1977,0.06642857238442634
+10,industry_feedstocks,gas,1978,0.07454348880601885
+10,industry_feedstocks,gas,1979,0.07933399027859661
+10,industry_feedstocks,gas,1980,0.08445839572486237
+10,industry_feedstocks,gas,1981,0.08750743176225964
+10,industry_feedstocks,gas,1982,0.09109702773726898
+10,industry_feedstocks,gas,1983,0.09478785654443735
+10,industry_feedstocks,gas,1984,0.09849599655717517
+10,industry_feedstocks,gas,1985,0.10284067256054337
+10,industry_feedstocks,gas,1986,0.107794242366053
+10,industry_feedstocks,gas,1987,0.11342903699334844
+10,industry_feedstocks,gas,1988,0.12020018255152337
+10,industry_feedstocks,gas,1989,0.12776734338257695
+10,industry_feedstocks,gas,1990,0
+10,industry_feedstocks,gas,1991,0
+10,industry_feedstocks,gas,1992,0
+10,industry_feedstocks,gas,1993,0
+10,industry_feedstocks,gas,1994,0.05421406335208756
+10,industry_feedstocks,gas,1995,0.08589630870343895
+10,industry_feedstocks,gas,1996,0.09266612063585403
+10,industry_feedstocks,gas,1997,0.11088549397556385
+10,industry_feedstocks,gas,1998,0.04511357125140977
+10,industry_feedstocks,gas,1999,0.05845391812950261
+10,industry_feedstocks,gas,2000,0.035307552003703585
+10,industry_feedstocks,gas,2001,0.04324172544665787
+10,industry_feedstocks,gas,2002,0.055531378719016464
+10,industry_feedstocks,gas,2003,0.04161155727414029
+10,industry_feedstocks,gas,2004,0.04624787637925208
+10,industry_feedstocks,gas,2005,0.02474750627957515
+10,industry_feedstocks,gas,2006,0.007885807532039251
+10,industry_feedstocks,gas,2007,0
+10,industry_feedstocks,gas,2008,0.05098426100144591
+10,industry_feedstocks,gas,2009,0.03411477675953095
+10,industry_feedstocks,gas,2010,0.031951738026177505
+10,industry_feedstocks,refined liquids,1971,0.20670839496920723
+10,industry_feedstocks,refined liquids,1972,0.2241129201214334
+10,industry_feedstocks,refined liquids,1973,0.2380079533666265
+10,industry_feedstocks,refined liquids,1974,0.25083263367074465
+10,industry_feedstocks,refined liquids,1975,0.29992529947138
+10,industry_feedstocks,refined liquids,1976,0.27907524165419384
+10,industry_feedstocks,refined liquids,1977,0.29312282600731093
+10,industry_feedstocks,refined liquids,1978,0.3109364243712831
+10,industry_feedstocks,refined liquids,1979,0.32876108872874454
+10,industry_feedstocks,refined liquids,1980,0.32890364206838174
+10,industry_feedstocks,refined liquids,1981,0.3144115095542814
+10,industry_feedstocks,refined liquids,1982,0.33310528652444893
+10,industry_feedstocks,refined liquids,1983,0.3421779534553913
+10,industry_feedstocks,refined liquids,1984,0.3218035932051628
+10,industry_feedstocks,refined liquids,1985,0.33108683093177366
+10,industry_feedstocks,refined liquids,1986,0.32946219316379255
+10,industry_feedstocks,refined liquids,1987,0.3497683535627988
+10,industry_feedstocks,refined liquids,1988,0.4152548832985736
+10,industry_feedstocks,refined liquids,1989,0.420268729858203
+10,industry_feedstocks,refined liquids,1990,0.21591388000000003
+10,industry_feedstocks,refined liquids,1991,0.20971860000000003
+10,industry_feedstocks,refined liquids,1992,0.22277892000000002
+10,industry_feedstocks,refined liquids,1993,0.12804974
+10,industry_feedstocks,refined liquids,1994,0.05249244000000001
+10,industry_feedstocks,refined liquids,1995,0.03813446
+10,industry_feedstocks,refined liquids,1996,0.0468832
+10,industry_feedstocks,refined liquids,1997,0.04391114
+10,industry_feedstocks,refined liquids,1998,0.0435344
+10,industry_feedstocks,refined liquids,1999,0.044078580000000006
+10,industry_feedstocks,refined liquids,2000,0.04905992
+10,industry_feedstocks,refined liquids,2001,0.05111106000000001
+10,industry_feedstocks,refined liquids,2002,0.052157560000000006
+10,industry_feedstocks,refined liquids,2003,0.06345976
+10,industry_feedstocks,refined liquids,2004,0.06458998
+10,industry_feedstocks,refined liquids,2005,0.0594412
+10,industry_feedstocks,refined liquids,2006,0.05977608
+10,industry_feedstocks,refined liquids,2007,0.08999900000000001
+10,industry_feedstocks,refined liquids,2008,0.07405034
+10,industry_feedstocks,refined liquids,2009,0.0596505
+10,industry_feedstocks,refined liquids,2010,0.0590226
+11,industry_feedstocks,coal,1971,0
+11,industry_feedstocks,coal,1972,0
+11,industry_feedstocks,coal,1973,0
+11,industry_feedstocks,coal,1974,0
+11,industry_feedstocks,coal,1975,0
+11,industry_feedstocks,coal,1976,0
+11,industry_feedstocks,coal,1977,0
+11,industry_feedstocks,coal,1978,0
+11,industry_feedstocks,coal,1979,0
+11,industry_feedstocks,coal,1980,0
+11,industry_feedstocks,coal,1981,0
+11,industry_feedstocks,coal,1982,0
+11,industry_feedstocks,coal,1983,0
+11,industry_feedstocks,coal,1984,0
+11,industry_feedstocks,coal,1985,0.14169652641082622
+11,industry_feedstocks,coal,1986,0.21755526491829208
+11,industry_feedstocks,coal,1987,0.32360903353193005
+11,industry_feedstocks,coal,1988,0.3416765516302078
+11,industry_feedstocks,coal,1989,0.42653763561994124
+11,industry_feedstocks,coal,1990,0.6454851589947606
+11,industry_feedstocks,coal,1991,0.5812876375501341
+11,industry_feedstocks,coal,1992,0.6624400238908481
+11,industry_feedstocks,coal,1993,0.46254869454857495
+11,industry_feedstocks,coal,1994,0.4337354651189403
+11,industry_feedstocks,coal,1995,0.27447260256421124
+11,industry_feedstocks,coal,1996,0.27548612401482664
+11,industry_feedstocks,coal,1997,0.26034097999478584
+11,industry_feedstocks,coal,1998,0.14227434165856662
+11,industry_feedstocks,coal,1999,0.019571462344096013
+11,industry_feedstocks,coal,2000,0.3785088205132008
+11,industry_feedstocks,coal,2001,0.36420638267558647
+11,industry_feedstocks,coal,2002,0.3402499632504437
+11,industry_feedstocks,coal,2003,0.41569414819019457
+11,industry_feedstocks,coal,2004,0.5313696727820076
+11,industry_feedstocks,coal,2005,0.5801218927785419
+11,industry_feedstocks,coal,2006,0.6253892657904818
+11,industry_feedstocks,coal,2007,0.629507950851948
+11,industry_feedstocks,coal,2008,0.7280200521581108
+11,industry_feedstocks,coal,2009,0.7587812317077394
+11,industry_feedstocks,coal,2010,0.7297382289930002
+11,industry_feedstocks,gas,1971,0
+11,industry_feedstocks,gas,1972,0
+11,industry_feedstocks,gas,1973,0
+11,industry_feedstocks,gas,1974,0
+11,industry_feedstocks,gas,1975,0
+11,industry_feedstocks,gas,1976,0
+11,industry_feedstocks,gas,1977,0
+11,industry_feedstocks,gas,1978,0
+11,industry_feedstocks,gas,1979,0
+11,industry_feedstocks,gas,1980,0
+11,industry_feedstocks,gas,1981,0
+11,industry_feedstocks,gas,1982,0
+11,industry_feedstocks,gas,1983,0
+11,industry_feedstocks,gas,1984,0
+11,industry_feedstocks,gas,1985,0.09505820183166463
+11,industry_feedstocks,gas,1986,0.10892224711951201
+11,industry_feedstocks,gas,1987,0.10992730386626569
+11,industry_feedstocks,gas,1988,0.11421637189434505
+11,industry_feedstocks,gas,1989,0.11812441589141177
+11,industry_feedstocks,gas,1990,0.12023501114136012
+11,industry_feedstocks,gas,1991,0.11803288215718115
+11,industry_feedstocks,gas,1992,0.10122503825452801
+11,industry_feedstocks,gas,1993,0.057281189871021404
+11,industry_feedstocks,gas,1994,0.09589615860541151
+11,industry_feedstocks,gas,1995,0.04524370358977463
+11,industry_feedstocks,gas,1996,0.07558278114709333
+11,industry_feedstocks,gas,1997,0.034089897141367384
+11,industry_feedstocks,gas,1998,0.06801429190244758
+11,industry_feedstocks,gas,1999,0.06282044638402742
+11,industry_feedstocks,gas,2000,0.058613037289485914
+11,industry_feedstocks,gas,2001,0.08244126647873899
+11,industry_feedstocks,gas,2002,0.08299383521441248
+11,industry_feedstocks,gas,2003,0.10069221662576985
+11,industry_feedstocks,gas,2004,0.12467668650914504
+11,industry_feedstocks,gas,2005,0.1570541922224405
+11,industry_feedstocks,gas,2006,0.12059890736870907
+11,industry_feedstocks,gas,2007,0.15593343452912797
+11,industry_feedstocks,gas,2008,0.21205418918803165
+11,industry_feedstocks,gas,2009,0.19108661763078272
+11,industry_feedstocks,gas,2010,0.23006051685514295
+11,industry_feedstocks,refined liquids,1971,0.09898937417067584
+11,industry_feedstocks,refined liquids,1972,0.10482612662239267
+11,industry_feedstocks,refined liquids,1973,0.11005252807149982
+11,industry_feedstocks,refined liquids,1974,0.14266116214242575
+11,industry_feedstocks,refined liquids,1975,0.16117012307623207
+11,industry_feedstocks,refined liquids,1976,0.15974089043892198
+11,industry_feedstocks,refined liquids,1977,0.19638610244120502
+11,industry_feedstocks,refined liquids,1978,0.22186735003181038
+11,industry_feedstocks,refined liquids,1979,0.24863813262214104
+11,industry_feedstocks,refined liquids,1980,0.43397337868672814
+11,industry_feedstocks,refined liquids,1981,0.4268439811039164
+11,industry_feedstocks,refined liquids,1982,0.44422396447313345
+11,industry_feedstocks,refined liquids,1983,0.45780953831288146
+11,industry_feedstocks,refined liquids,1984,0.4984327055196683
+11,industry_feedstocks,refined liquids,1985,0.5613846758257311
+11,industry_feedstocks,refined liquids,1986,0.6291403162862405
+11,industry_feedstocks,refined liquids,1987,0.6779712112105821
+11,industry_feedstocks,refined liquids,1988,0.7231516040225332
+11,industry_feedstocks,refined liquids,1989,0.758447538775273
+11,industry_feedstocks,refined liquids,1990,0.7447261078461805
+11,industry_feedstocks,refined liquids,1991,0.7984800660644327
+11,industry_feedstocks,refined liquids,1992,0.8476687666785687
+11,industry_feedstocks,refined liquids,1993,0.7980677684118798
+11,industry_feedstocks,refined liquids,1994,1.012357833299671
+11,industry_feedstocks,refined liquids,1995,1.018824233458258
+11,industry_feedstocks,refined liquids,1996,1.2027948688934327
+11,industry_feedstocks,refined liquids,1997,1.5539120325173514
+11,industry_feedstocks,refined liquids,1998,1.5357521353060128
+11,industry_feedstocks,refined liquids,1999,1.4302204246928736
+11,industry_feedstocks,refined liquids,2000,1.5500776328137453
+11,industry_feedstocks,refined liquids,2001,1.5610682638483406
+11,industry_feedstocks,refined liquids,2002,1.8192205452416963
+11,industry_feedstocks,refined liquids,2003,2.0368067947720894
+11,industry_feedstocks,refined liquids,2004,2.1786104316306423
+11,industry_feedstocks,refined liquids,2005,2.1456349747845898
+11,industry_feedstocks,refined liquids,2006,2.355939696384163
+11,industry_feedstocks,refined liquids,2007,2.5249345557457405
+11,industry_feedstocks,refined liquids,2008,2.5827997756430374
+11,industry_feedstocks,refined liquids,2009,2.960232650890007
+11,industry_feedstocks,refined liquids,2010,3.7675052363811807
+12,industry_feedstocks,coal,1971,0.03183647035296619
+12,industry_feedstocks,coal,1972,0.029990028690197748
+12,industry_feedstocks,coal,1973,0.031115242045502874
+12,industry_feedstocks,coal,1974,0.031570695400807994
+12,industry_feedstocks,coal,1975,0.030690936695726135
+12,industry_feedstocks,coal,1976,0.03066369609823517
+12,industry_feedstocks,coal,1977,0.028503362290027645
+12,industry_feedstocks,coal,1978,0.02720791411439507
+12,industry_feedstocks,coal,1979,0.021712438432915163
+12,industry_feedstocks,coal,1980,0.021724040497554754
+12,industry_feedstocks,coal,1981,0.020229118696576655
+12,industry_feedstocks,coal,1982,0.02292483416117372
+12,industry_feedstocks,coal,1983,0.02031865085477355
+12,industry_feedstocks,coal,1984,0.0205701401807357
+12,industry_feedstocks,coal,1985,0.020284739181373593
+12,industry_feedstocks,coal,1986,0.01982162677227302
+12,industry_feedstocks,coal,1987,0.018518884471613865
+12,industry_feedstocks,coal,1988,0.017141959272804593
+12,industry_feedstocks,coal,1989,0.012198429453540294
+12,industry_feedstocks,coal,1990,0.009041760000000001
+12,industry_feedstocks,coal,1991,0.030474080000000004
+12,industry_feedstocks,coal,1992,0.0054418
+12,industry_feedstocks,coal,1993,0.00699062
+12,industry_feedstocks,coal,1994,0.007744100000000001
+12,industry_feedstocks,coal,1995,0.0065720200000000005
+12,industry_feedstocks,coal,1996,0.0074510800000000005
+12,industry_feedstocks,coal,1997,0.0065720200000000005
+12,industry_feedstocks,coal,1998,0.00577668
+12,industry_feedstocks,coal,1999,0.00435344
+12,industry_feedstocks,coal,2000,0.00590226
+12,industry_feedstocks,coal,2001,0.00569296
+12,industry_feedstocks,coal,2002,0.018837000000000003
+12,industry_feedstocks,coal,2003,0.0203021
+12,industry_feedstocks,coal,2004,0.028883400000000004
+12,industry_feedstocks,coal,2005,0.02331602
+12,industry_feedstocks,coal,2006,0.0234416
+12,industry_feedstocks,coal,2007,0.0249067
+12,industry_feedstocks,coal,2008,0.02285556
+12,industry_feedstocks,coal,2009,0.013520780000000001
+12,industry_feedstocks,coal,2010,0.0177905
+12,industry_feedstocks,gas,1971,0
+12,industry_feedstocks,gas,1972,0
+12,industry_feedstocks,gas,1973,0
+12,industry_feedstocks,gas,1974,0
+12,industry_feedstocks,gas,1975,0.0010223427289521025
+12,industry_feedstocks,gas,1976,0.003023574353600497
+12,industry_feedstocks,gas,1977,0
+12,industry_feedstocks,gas,1978,6.72438519347035e-4
+12,industry_feedstocks,gas,1979,0
+12,industry_feedstocks,gas,1980,0
+12,industry_feedstocks,gas,1981,0
+12,industry_feedstocks,gas,1982,0
+12,industry_feedstocks,gas,1983,0
+12,industry_feedstocks,gas,1984,0
+12,industry_feedstocks,gas,1985,0
+12,industry_feedstocks,gas,1986,0.006043151963050664
+12,industry_feedstocks,gas,1987,0.016662511130171836
+12,industry_feedstocks,gas,1988,0.022773189635025948
+12,industry_feedstocks,gas,1989,0.03476097357873023
+12,industry_feedstocks,gas,1990,0.05333413944377609
+12,industry_feedstocks,gas,1991,0.02890104388325891
+12,industry_feedstocks,gas,1992,0.09357863672140629
+12,industry_feedstocks,gas,1993,0.07811914156445333
+12,industry_feedstocks,gas,1994,0.0714001251163146
+12,industry_feedstocks,gas,1995,0.0794476548400119
+12,industry_feedstocks,gas,1996,0.09882526260269667
+12,industry_feedstocks,gas,1997,0.1026358624698988
+12,industry_feedstocks,gas,1998,0.06109870406761696
+12,industry_feedstocks,gas,1999,0.06252279937816023
+12,industry_feedstocks,gas,2000,0.09433630887918155
+12,industry_feedstocks,gas,2001,0.10242068219399232
+12,industry_feedstocks,gas,2002,0.05710353363424314
+12,industry_feedstocks,gas,2003,0.07829637114513292
+12,industry_feedstocks,gas,2004,0.08934061964088301
+12,industry_feedstocks,gas,2005,0.11392778750553363
+12,industry_feedstocks,gas,2006,0.08456355450551109
+12,industry_feedstocks,gas,2007,0.11712970539162475
+12,industry_feedstocks,gas,2008,0.11113985232428006
+12,industry_feedstocks,gas,2009,0.05572752909518161
+12,industry_feedstocks,gas,2010,0.05982046304975665
+12,industry_feedstocks,refined liquids,1971,0.20483474627150697
+12,industry_feedstocks,refined liquids,1972,0.2230170662672794
+12,industry_feedstocks,refined liquids,1973,0.23864335937002557
+12,industry_feedstocks,refined liquids,1974,0.24560628143404337
+12,industry_feedstocks,refined liquids,1975,0.26357501976322634
+12,industry_feedstocks,refined liquids,1976,0.28610969317595747
+12,industry_feedstocks,refined liquids,1977,0.3052688288542456
+12,industry_feedstocks,refined liquids,1978,0.3204697111056575
+12,industry_feedstocks,refined liquids,1979,0.3257491056082013
+12,industry_feedstocks,refined liquids,1980,0.3188883609959509
+12,industry_feedstocks,refined liquids,1981,0.30299389357513584
+12,industry_feedstocks,refined liquids,1982,0.31472980384120275
+12,industry_feedstocks,refined liquids,1983,0.32257782703536747
+12,industry_feedstocks,refined liquids,1984,0.3291896349943103
+12,industry_feedstocks,refined liquids,1985,0.31796815067870593
+12,industry_feedstocks,refined liquids,1986,0.342850725598382
+12,industry_feedstocks,refined liquids,1987,0.3405053255419552
+12,industry_feedstocks,refined liquids,1988,0.33504295615548907
+12,industry_feedstocks,refined liquids,1989,0.37565425715644635
+12,industry_feedstocks,refined liquids,1990,0.3591582340921625
+12,industry_feedstocks,refined liquids,1991,0.289145776442818
+12,industry_feedstocks,refined liquids,1992,0.2722951108578328
+12,industry_feedstocks,refined liquids,1993,0.25078882648492634
+12,industry_feedstocks,refined liquids,1994,0.26194704028344606
+12,industry_feedstocks,refined liquids,1995,0.32408637127038403
+12,industry_feedstocks,refined liquids,1996,0.35307393314774993
+12,industry_feedstocks,refined liquids,1997,0.34434971584415225
+12,industry_feedstocks,refined liquids,1998,0.37461533104310557
+12,industry_feedstocks,refined liquids,1999,0.35583143758713076
+12,industry_feedstocks,refined liquids,2000,0.394898848044347
+12,industry_feedstocks,refined liquids,2001,0.3528180622311408
+12,industry_feedstocks,refined liquids,2002,0.3708282035995749
+12,industry_feedstocks,refined liquids,2003,0.35824345882527703
+12,industry_feedstocks,refined liquids,2004,0.41278636232699567
+12,industry_feedstocks,refined liquids,2005,0.4316855665284451
+12,industry_feedstocks,refined liquids,2006,0.4733284795270813
+12,industry_feedstocks,refined liquids,2007,0.46943343431611434
+12,industry_feedstocks,refined liquids,2008,0.4667768792606897
+12,industry_feedstocks,refined liquids,2009,0.4073040191683991
+12,industry_feedstocks,refined liquids,2010,0.39435287837893707
+13,industry_feedstocks,coal,1971,0.10473372
+13,industry_feedstocks,coal,1972,0.10527790000000001
+13,industry_feedstocks,coal,1973,0.09933378
+13,industry_feedstocks,coal,1974,0.098371
+13,industry_feedstocks,coal,1975,0.08451534000000001
+13,industry_feedstocks,coal,1976,0.08275722
+13,industry_feedstocks,coal,1977,0.07689682
+13,industry_feedstocks,coal,1978,0.07338058
+13,industry_feedstocks,coal,1979,0.07245966000000001
+13,industry_feedstocks,coal,1980,0.07132944000000001
+13,industry_feedstocks,coal,1981,0.07019922
+13,industry_feedstocks,coal,1982,0.06337604000000001
+13,industry_feedstocks,coal,1983,0.06458998
+13,industry_feedstocks,coal,1984,0.06898528000000001
+13,industry_feedstocks,coal,1985,0.06680856
+13,industry_feedstocks,coal,1986,0.06408766
+13,industry_feedstocks,coal,1987,0.05839470000000001
+13,industry_feedstocks,coal,1988,0.06191094
+13,industry_feedstocks,coal,1989,0.06789692000000001
+13,industry_feedstocks,coal,1990,0.06224582
+13,industry_feedstocks,coal,1991,0.04010188
+13,industry_feedstocks,coal,1992,0.04240418
+13,industry_feedstocks,coal,1993,0.03587402
+13,industry_feedstocks,coal,1994,0.03675308
+13,industry_feedstocks,coal,1995,0.03888794
+13,industry_feedstocks,coal,1996,0.040018160000000004
+13,industry_feedstocks,coal,1997,0.04068792
+13,industry_feedstocks,coal,1998,0.0406042
+13,industry_feedstocks,coal,1999,0.038469340000000005
+13,industry_feedstocks,coal,2000,0.03721354
+13,industry_feedstocks,coal,2001,0.037925160000000006
+13,industry_feedstocks,coal,2002,0.03700424
+13,industry_feedstocks,coal,2003,0.034743800000000005
+13,industry_feedstocks,coal,2004,0.03214848
+13,industry_feedstocks,coal,2005,0.03415776
+13,industry_feedstocks,coal,2006,0.038343760000000005
+13,industry_feedstocks,coal,2007,0.046255300000000006
+13,industry_feedstocks,coal,2008,0.046046000000000004
+13,industry_feedstocks,coal,2009,0.027376440000000002
+13,industry_feedstocks,coal,2010,0.03449264
+13,industry_feedstocks,gas,1971,0
+13,industry_feedstocks,gas,1972,0
+13,industry_feedstocks,gas,1973,0
+13,industry_feedstocks,gas,1974,0
+13,industry_feedstocks,gas,1975,0.05733158509534564
+13,industry_feedstocks,gas,1976,0.054173147784063874
+13,industry_feedstocks,gas,1977,0.06861164200457742
+13,industry_feedstocks,gas,1978,0.16629336581646806
+13,industry_feedstocks,gas,1979,0.1756411386910516
+13,industry_feedstocks,gas,1980,0.16263193887023372
+13,industry_feedstocks,gas,1981,0.15315433864322592
+13,industry_feedstocks,gas,1982,0.10008486086053373
+13,industry_feedstocks,gas,1983,0.1289678070369955
+13,industry_feedstocks,gas,1984,0.19966975482571753
+13,industry_feedstocks,gas,1985,0.18504092750488654
+13,industry_feedstocks,gas,1986,0.1860672291773912
+13,industry_feedstocks,gas,1987,0.19504754572697877
+13,industry_feedstocks,gas,1988,0.20212816124631908
+13,industry_feedstocks,gas,1989,0.2679421834094733
+13,industry_feedstocks,gas,1990,0.2573298813069045
+13,industry_feedstocks,gas,1991,0.22831597260982098
+13,industry_feedstocks,gas,1992,0.25287920121023544
+13,industry_feedstocks,gas,1993,0.21868239635272974
+13,industry_feedstocks,gas,1994,0.2394167004596226
+13,industry_feedstocks,gas,1995,0.24869276548031383
+13,industry_feedstocks,gas,1996,0.2482881082193035
+13,industry_feedstocks,gas,1997,0.2726059332726108
+13,industry_feedstocks,gas,1998,0.28449823774538585
+13,industry_feedstocks,gas,1999,0.2914305277220949
+13,industry_feedstocks,gas,2000,0.3137293003073456
+13,industry_feedstocks,gas,2001,0.2895289814208115
+13,industry_feedstocks,gas,2002,0.2644067587381538
+13,industry_feedstocks,gas,2003,0.24926566390884594
+13,industry_feedstocks,gas,2004,0.24597111802419994
+13,industry_feedstocks,gas,2005,0.253669184638859
+13,industry_feedstocks,gas,2006,0.23486757223254282
+13,industry_feedstocks,gas,2007,0.26304391894148227
+13,industry_feedstocks,gas,2008,0.2372193454310702
+13,industry_feedstocks,gas,2009,0.21404096181098617
+13,industry_feedstocks,gas,2010,0.2567494516612484
+13,industry_feedstocks,refined liquids,1971,2.2778571287938503
+13,industry_feedstocks,refined liquids,1972,2.5178397789690186
+13,industry_feedstocks,refined liquids,1973,2.7914860586706443
+13,industry_feedstocks,refined liquids,1974,2.7552263728236883
+13,industry_feedstocks,refined liquids,1975,2.314263154639502
+13,industry_feedstocks,refined liquids,1976,2.555289533661549
+13,industry_feedstocks,refined liquids,1977,2.4632945766210512
+13,industry_feedstocks,refined liquids,1978,2.6144175239478336
+13,industry_feedstocks,refined liquids,1979,2.945737176250262
+13,industry_feedstocks,refined liquids,1980,2.7822517708539074
+13,industry_feedstocks,refined liquids,1981,2.6056830235644983
+13,industry_feedstocks,refined liquids,1982,2.4415406985473638
+13,industry_feedstocks,refined liquids,1983,2.6072474408433197
+13,industry_feedstocks,refined liquids,1984,2.686707313536814
+13,industry_feedstocks,refined liquids,1985,2.714971587852733
+13,industry_feedstocks,refined liquids,1986,2.9481871088300164
+13,industry_feedstocks,refined liquids,1987,2.940567126104188
+13,industry_feedstocks,refined liquids,1988,3.0746736594296746
+13,industry_feedstocks,refined liquids,1989,3.03085356827496
+13,industry_feedstocks,refined liquids,1990,2.9986692664346473
+13,industry_feedstocks,refined liquids,1991,3.09737708206918
+13,industry_feedstocks,refined liquids,1992,3.157647241138564
+13,industry_feedstocks,refined liquids,1993,2.9369133298738235
+13,industry_feedstocks,refined liquids,1994,3.2261121059326654
+13,industry_feedstocks,refined liquids,1995,3.3848288886952367
+13,industry_feedstocks,refined liquids,1996,3.2525666542236693
+13,industry_feedstocks,refined liquids,1997,3.470065566225365
+13,industry_feedstocks,refined liquids,1998,3.509854338381975
+13,industry_feedstocks,refined liquids,1999,3.48038396995885
+13,industry_feedstocks,refined liquids,2000,3.4938198977773425
+13,industry_feedstocks,refined liquids,2001,3.4681176329135814
+13,industry_feedstocks,refined liquids,2002,3.505252403183981
+13,industry_feedstocks,refined liquids,2003,3.549416547454659
+13,industry_feedstocks,refined liquids,2004,3.572097211830043
+13,industry_feedstocks,refined liquids,2005,3.599701510338383
+13,industry_feedstocks,refined liquids,2006,3.5346327670991435
+13,industry_feedstocks,refined liquids,2007,3.6547764519973795
+13,industry_feedstocks,refined liquids,2008,3.531109360578592
+13,industry_feedstocks,refined liquids,2009,3.270146385906855
+13,industry_feedstocks,refined liquids,2010,3.418429887290854
+14,industry_feedstocks,coal,1971,0.014152042240059538
+14,industry_feedstocks,coal,1972,0.014831222149337303
+14,industry_feedstocks,coal,1973,0.015503019668296834
+14,industry_feedstocks,coal,1974,0.01617481718725636
+14,industry_feedstocks,coal,1975,0.017688207202494866
+14,industry_feedstocks,coal,1976,0.024059210047133038
+14,industry_feedstocks,coal,1977,0.02969935625026579
+14,industry_feedstocks,coal,1978,0.035081118792260266
+14,industry_feedstocks,coal,1979,0.039444111470338085
+14,industry_feedstocks,coal,1980,0.048812364784180315
+14,industry_feedstocks,coal,1981,0.04750568169785244
+14,industry_feedstocks,coal,1982,0.04323127770359345
+14,industry_feedstocks,coal,1983,0.03845487116769439
+14,industry_feedstocks,coal,1984,0.034645557763484304
+14,industry_feedstocks,coal,1985,0.03096912738500248
+14,industry_feedstocks,coal,1986,0.027868523451343115
+14,industry_feedstocks,coal,1987,0.02472362517577433
+14,industry_feedstocks,coal,1988,0.024804831469274934
+14,industry_feedstocks,coal,1989,0.024731007566092568
+14,industry_feedstocks,coal,1990,0
+14,industry_feedstocks,coal,1991,0
+14,industry_feedstocks,coal,1992,0
+14,industry_feedstocks,coal,1993,4.186e-5
+14,industry_feedstocks,coal,1994,4.186e-5
+14,industry_feedstocks,coal,1995,4.186e-5
+14,industry_feedstocks,coal,1996,0
+14,industry_feedstocks,coal,1997,8.372e-5
+14,industry_feedstocks,coal,1998,3.3488e-4
+14,industry_feedstocks,coal,1999,3.3488e-4
+14,industry_feedstocks,coal,2000,4.1860000000000004e-4
+14,industry_feedstocks,coal,2001,5.0232e-4
+14,industry_feedstocks,coal,2002,3.3488e-4
+14,industry_feedstocks,coal,2003,3.3488e-4
+14,industry_feedstocks,coal,2004,7.534800000000001e-4
+14,industry_feedstocks,coal,2005,0.05445986
+14,industry_feedstocks,coal,2006,0.04905992000000001
+14,industry_feedstocks,coal,2007,0.050776180000000004
+14,industry_feedstocks,coal,2008,0.04864132
+14,industry_feedstocks,coal,2009,0.01707888
+14,industry_feedstocks,coal,2010,0.020385820000000002
+14,industry_feedstocks,gas,1971,0.02072028855158259
+14,industry_feedstocks,gas,1972,0.028347107041768953
+14,industry_feedstocks,gas,1973,0.031402310203379136
+14,industry_feedstocks,gas,1974,0.03548681131207456
+14,industry_feedstocks,gas,1975,0.03783771220906027
+14,industry_feedstocks,gas,1976,0.048254246011633264
+14,industry_feedstocks,gas,1977,0.05778242951421768
+14,industry_feedstocks,gas,1978,0.06758871722164343
+14,industry_feedstocks,gas,1979,0.07257815788627826
+14,industry_feedstocks,gas,1980,0.07770379962539171
+14,industry_feedstocks,gas,1981,0.07903932294796162
+14,industry_feedstocks,gas,1982,0.08102751292465066
+14,industry_feedstocks,gas,1983,0.08326869958407217
+14,industry_feedstocks,gas,1984,0.08555314965408656
+14,industry_feedstocks,gas,1985,0.08942840273370475
+14,industry_feedstocks,gas,1986,0.09482537667001248
+14,industry_feedstocks,gas,1987,0.10192483799535286
+14,industry_feedstocks,gas,1988,0.11186421804864936
+14,industry_feedstocks,gas,1989,0.12384882695904183
+14,industry_feedstocks,gas,1990,0
+14,industry_feedstocks,gas,1991,0
+14,industry_feedstocks,gas,1992,0
+14,industry_feedstocks,gas,1993,0
+14,industry_feedstocks,gas,1994,0
+14,industry_feedstocks,gas,1995,0
+14,industry_feedstocks,gas,1996,0
+14,industry_feedstocks,gas,1997,0
+14,industry_feedstocks,gas,1998,0
+14,industry_feedstocks,gas,1999,0
+14,industry_feedstocks,gas,2000,0
+14,industry_feedstocks,gas,2001,0
+14,industry_feedstocks,gas,2002,0
+14,industry_feedstocks,gas,2003,0
+14,industry_feedstocks,gas,2004,0.19073844933366105
+14,industry_feedstocks,gas,2005,0.19236923040580023
+14,industry_feedstocks,gas,2006,0.18473698282058498
+14,industry_feedstocks,gas,2007,0.18004969439681184
+14,industry_feedstocks,gas,2008,0.1607391690710655
+14,industry_feedstocks,gas,2009,0.09338124635832946
+14,industry_feedstocks,gas,2010,0.1426547698371879
+14,industry_feedstocks,refined liquids,1971,0.5217929387777912
+14,industry_feedstocks,refined liquids,1972,0.5567324919893482
+14,industry_feedstocks,refined liquids,1973,0.592568954192736
+14,industry_feedstocks,refined liquids,1974,0.6256043979135589
+14,industry_feedstocks,refined liquids,1975,0.7527705252652792
+14,industry_feedstocks,refined liquids,1976,0.6972570357928094
+14,industry_feedstocks,refined liquids,1977,0.7330934979961973
+14,industry_feedstocks,refined liquids,1978,0.7790980471121827
+14,industry_feedstocks,refined liquids,1979,0.8251315621860332
+14,industry_feedstocks,refined liquids,1980,0.8287889166053783
+14,industry_feedstocks,refined liquids,1981,0.788148642018805
+14,industry_feedstocks,refined liquids,1982,0.8434736215409474
+14,industry_feedstocks,refined liquids,1983,0.8665092017719749
+14,industry_feedstocks,refined liquids,1984,0.8074979018726224
+14,industry_feedstocks,refined liquids,1985,0.8287889166053783
+14,industry_feedstocks,refined liquids,1986,0.8250009841514355
+14,industry_feedstocks,refined liquids,1987,0.8775741976764033
+14,industry_feedstocks,refined liquids,1988,1.0436070681585605
+14,industry_feedstocks,refined liquids,1989,1.0584299948570828
+14,industry_feedstocks,refined liquids,1990,0.58110052
+14,industry_feedstocks,refined liquids,1991,0.58390514
+14,industry_feedstocks,refined liquids,1992,0.27610856
+14,industry_feedstocks,refined liquids,1993,0.1647191
+14,industry_feedstocks,refined liquids,1994,0.1756027
+14,industry_feedstocks,refined liquids,1995,0.14035658
+14,industry_feedstocks,refined liquids,1996,0.13617058
+14,industry_feedstocks,refined liquids,1997,0.13269620000000001
+14,industry_feedstocks,refined liquids,1998,0.11281270000000002
+14,industry_feedstocks,refined liquids,1999,0.11084528
+14,industry_feedstocks,refined liquids,2000,0.13826358
+14,industry_feedstocks,refined liquids,2001,0.1699516
+14,industry_feedstocks,refined liquids,2002,0.1806259
+14,industry_feedstocks,refined liquids,2003,0.20917442
+14,industry_feedstocks,refined liquids,2004,0.1804166
+14,industry_feedstocks,refined liquids,2005,0.15383550000000001
+14,industry_feedstocks,refined liquids,2006,0.16497026
+14,industry_feedstocks,refined liquids,2007,0.17484922
+14,industry_feedstocks,refined liquids,2008,0.1322776
+14,industry_feedstocks,refined liquids,2009,0.11298014
+14,industry_feedstocks,refined liquids,2010,0.10481744000000001
+15,industry_feedstocks,coal,1971,0
+15,industry_feedstocks,coal,1972,0
+15,industry_feedstocks,coal,1973,0
+15,industry_feedstocks,coal,1974,0
+15,industry_feedstocks,coal,1975,0
+15,industry_feedstocks,coal,1976,0
+15,industry_feedstocks,coal,1977,0
+15,industry_feedstocks,coal,1978,0
+15,industry_feedstocks,coal,1979,0
+15,industry_feedstocks,coal,1980,0
+15,industry_feedstocks,coal,1981,0
+15,industry_feedstocks,coal,1982,0
+15,industry_feedstocks,coal,1983,0
+15,industry_feedstocks,coal,1984,0
+15,industry_feedstocks,coal,1985,0
+15,industry_feedstocks,coal,1986,0
+15,industry_feedstocks,coal,1987,0
+15,industry_feedstocks,coal,1988,0
+15,industry_feedstocks,coal,1989,0
+15,industry_feedstocks,coal,1990,0
+15,industry_feedstocks,coal,1991,0
+15,industry_feedstocks,coal,1992,0
+15,industry_feedstocks,coal,1993,0
+15,industry_feedstocks,coal,1994,0
+15,industry_feedstocks,coal,1995,0
+15,industry_feedstocks,coal,1996,0
+15,industry_feedstocks,coal,1997,0
+15,industry_feedstocks,coal,1998,0
+15,industry_feedstocks,coal,1999,0
+15,industry_feedstocks,coal,2000,0
+15,industry_feedstocks,coal,2001,0
+15,industry_feedstocks,coal,2002,0
+15,industry_feedstocks,coal,2003,0
+15,industry_feedstocks,coal,2004,0
+15,industry_feedstocks,coal,2005,0
+15,industry_feedstocks,coal,2006,4.186e-5
+15,industry_feedstocks,coal,2007,0.00108836
+15,industry_feedstocks,coal,2008,7.534800000000001e-4
+15,industry_feedstocks,coal,2009,9.627800000000001e-4
+15,industry_feedstocks,coal,2010,9.209200000000001e-4
+15,industry_feedstocks,gas,1971,-0
+15,industry_feedstocks,gas,1972,0
+15,industry_feedstocks,gas,1973,0
+15,industry_feedstocks,gas,1974,0
+15,industry_feedstocks,gas,1975,-0
+15,industry_feedstocks,gas,1976,0
+15,industry_feedstocks,gas,1977,0
+15,industry_feedstocks,gas,1978,0
+15,industry_feedstocks,gas,1979,0
+15,industry_feedstocks,gas,1980,0
+15,industry_feedstocks,gas,1981,0
+15,industry_feedstocks,gas,1982,0
+15,industry_feedstocks,gas,1983,0
+15,industry_feedstocks,gas,1984,0
+15,industry_feedstocks,gas,1985,0
+15,industry_feedstocks,gas,1986,0
+15,industry_feedstocks,gas,1987,0
+15,industry_feedstocks,gas,1988,0
+15,industry_feedstocks,gas,1989,0
+15,industry_feedstocks,gas,1990,0
+15,industry_feedstocks,gas,1991,0.0021936429614002814
+15,industry_feedstocks,gas,1992,0.023186384467289683
+15,industry_feedstocks,gas,1993,0.022138879658155107
+15,industry_feedstocks,gas,1994,0.015567310290446605
+15,industry_feedstocks,gas,1995,0.021394521259575968
+15,industry_feedstocks,gas,1996,0.025017474604988113
+15,industry_feedstocks,gas,1997,0.027818441123886657
+15,industry_feedstocks,gas,1998,0.017858695349075113
+15,industry_feedstocks,gas,1999,0.006059286593504128
+15,industry_feedstocks,gas,2000,0.006835281616521683
+15,industry_feedstocks,gas,2001,0.005282560636798918
+15,industry_feedstocks,gas,2002,0.01655383430319252
+15,industry_feedstocks,gas,2003,0.016002342818240572
+15,industry_feedstocks,gas,2004,0.019310572608327334
+15,industry_feedstocks,gas,2005,0.019029217731285693
+15,industry_feedstocks,gas,2006,0.009658188940042133
+15,industry_feedstocks,gas,2007,5.060753771648774e-4
+15,industry_feedstocks,gas,2008,0.004983247222650096
+15,industry_feedstocks,gas,2009,0
+15,industry_feedstocks,gas,2010,0.006081305453354415
+15,industry_feedstocks,refined liquids,1971,0.04210254587978632
+15,industry_feedstocks,refined liquids,1972,0.04693253333117638
+15,industry_feedstocks,refined liquids,1973,0.04701156307616196
+15,industry_feedstocks,refined liquids,1974,0.05360258719356867
+15,industry_feedstocks,refined liquids,1975,0.05282604533847274
+15,industry_feedstocks,refined liquids,1976,0.056663290261796825
+15,industry_feedstocks,refined liquids,1977,0.07153104953154948
+15,industry_feedstocks,refined liquids,1978,0.09433518715699525
+15,industry_feedstocks,refined liquids,1979,0.09780155338971863
+15,industry_feedstocks,refined liquids,1980,0.09160636312639109
+15,industry_feedstocks,refined liquids,1981,0.08677305543586183
+15,industry_feedstocks,refined liquids,1982,0.07966119912393935
+15,industry_feedstocks,refined liquids,1983,0.12242265761160477
+15,industry_feedstocks,refined liquids,1984,0.0918816741831523
+15,industry_feedstocks,refined liquids,1985,0.11416712336836954
+15,industry_feedstocks,refined liquids,1986,0.13137932613365896
+15,industry_feedstocks,refined liquids,1987,0.17469687225311906
+15,industry_feedstocks,refined liquids,1988,0.17201690355168675
+15,industry_feedstocks,refined liquids,1989,0.17077568426937811
+15,industry_feedstocks,refined liquids,1990,0.16073719184052299
+15,industry_feedstocks,refined liquids,1991,0.1550655357281539
+15,industry_feedstocks,refined liquids,1992,0.13820196597380482
+15,industry_feedstocks,refined liquids,1993,0.15448655098937145
+15,industry_feedstocks,refined liquids,1994,0.14000374345859415
+15,industry_feedstocks,refined liquids,1995,0.1528373015430221
+15,industry_feedstocks,refined liquids,1996,0.15786366076083333
+15,industry_feedstocks,refined liquids,1997,0.16962095162951266
+15,industry_feedstocks,refined liquids,1998,0.19623813167707962
+15,industry_feedstocks,refined liquids,1999,0.16396097705319704
+15,industry_feedstocks,refined liquids,2000,0.16033458414747845
+15,industry_feedstocks,refined liquids,2001,0.1603649666928221
+15,industry_feedstocks,refined liquids,2002,0.1691682682764482
+15,industry_feedstocks,refined liquids,2003,0.16336217415462542
+15,industry_feedstocks,refined liquids,2004,0.1923229423313355
+15,industry_feedstocks,refined liquids,2005,0.1917161905423604
+15,industry_feedstocks,refined liquids,2006,0.2644691666902973
+15,industry_feedstocks,refined liquids,2007,0.26926636845125385
+15,industry_feedstocks,refined liquids,2008,0.26942068509517825
+15,industry_feedstocks,refined liquids,2009,0.32593459198907776
+15,industry_feedstocks,refined liquids,2010,0.33794756616811916
+16,industry_feedstocks,coal,1971,0
+16,industry_feedstocks,coal,1972,0
+16,industry_feedstocks,coal,1973,0
+16,industry_feedstocks,coal,1974,0
+16,industry_feedstocks,coal,1975,0
+16,industry_feedstocks,coal,1976,0
+16,industry_feedstocks,coal,1977,0
+16,industry_feedstocks,coal,1978,4.1860000000000004e-4
+16,industry_feedstocks,coal,1979,4.186e-5
+16,industry_feedstocks,coal,1980,4.186e-5
+16,industry_feedstocks,coal,1981,4.186e-5
+16,industry_feedstocks,coal,1982,4.186e-5
+16,industry_feedstocks,coal,1983,4.186e-5
+16,industry_feedstocks,coal,1984,3.3488e-4
+16,industry_feedstocks,coal,1985,1.6744e-4
+16,industry_feedstocks,coal,1986,2.9302e-4
+16,industry_feedstocks,coal,1987,2.5116e-4
+16,industry_feedstocks,coal,1988,1.6744e-4
+16,industry_feedstocks,coal,1989,1.6744e-4
+16,industry_feedstocks,coal,1990,1.2558e-4
+16,industry_feedstocks,coal,1991,1.2558e-4
+16,industry_feedstocks,coal,1992,1.2558e-4
+16,industry_feedstocks,coal,1993,0.00234416
+16,industry_feedstocks,coal,1994,0.0025116
+16,industry_feedstocks,coal,1995,0.00322322
+16,industry_feedstocks,coal,1996,0.00267904
+16,industry_feedstocks,coal,1997,0.00301392
+16,industry_feedstocks,coal,1998,0.004102280000000001
+16,industry_feedstocks,coal,1999,0.0026371800000000003
+16,industry_feedstocks,coal,2000,0.00284648
+16,industry_feedstocks,coal,2001,0.0025116
+16,industry_feedstocks,coal,2002,0.0024278800000000003
+16,industry_feedstocks,coal,2003,0.0020930000000000002
+16,industry_feedstocks,coal,2004,0.00217672
+16,industry_feedstocks,coal,2005,0.0022604400000000003
+16,industry_feedstocks,coal,2006,0.0019255600000000002
+16,industry_feedstocks,coal,2007,0.0022604400000000003
+16,industry_feedstocks,coal,2008,0.0023023
+16,industry_feedstocks,coal,2009,0.00154882
+16,industry_feedstocks,coal,2010,0.00217672
+16,industry_feedstocks,gas,1971,0
+16,industry_feedstocks,gas,1972,0
+16,industry_feedstocks,gas,1973,0
+16,industry_feedstocks,gas,1974,0
+16,industry_feedstocks,gas,1975,0
+16,industry_feedstocks,gas,1976,0
+16,industry_feedstocks,gas,1977,0
+16,industry_feedstocks,gas,1978,0
+16,industry_feedstocks,gas,1979,0
+16,industry_feedstocks,gas,1980,0
+16,industry_feedstocks,gas,1981,0
+16,industry_feedstocks,gas,1982,0
+16,industry_feedstocks,gas,1983,0
+16,industry_feedstocks,gas,1984,0
+16,industry_feedstocks,gas,1985,0
+16,industry_feedstocks,gas,1986,0
+16,industry_feedstocks,gas,1987,0
+16,industry_feedstocks,gas,1988,0
+16,industry_feedstocks,gas,1989,0
+16,industry_feedstocks,gas,1990,0
+16,industry_feedstocks,gas,1991,0
+16,industry_feedstocks,gas,1992,0
+16,industry_feedstocks,gas,1993,0
+16,industry_feedstocks,gas,1994,0
+16,industry_feedstocks,gas,1995,0
+16,industry_feedstocks,gas,1996,0
+16,industry_feedstocks,gas,1997,0
+16,industry_feedstocks,gas,1998,0
+16,industry_feedstocks,gas,1999,0
+16,industry_feedstocks,gas,2000,0.006002892537531657
+16,industry_feedstocks,gas,2001,0.009298365278746461
+16,industry_feedstocks,gas,2002,0.004101423586773166
+16,industry_feedstocks,gas,2003,0.011141511273971024
+16,industry_feedstocks,gas,2004,0.014725018290278488
+16,industry_feedstocks,gas,2005,0.010968817403848146
+16,industry_feedstocks,gas,2006,0.011578105658142036
+16,industry_feedstocks,gas,2007,0.0080906012364493525
+16,industry_feedstocks,gas,2008,0.012335330746949423
+16,industry_feedstocks,gas,2009,0.006434242360734376
+16,industry_feedstocks,gas,2010,0.007484386142487741
+16,industry_feedstocks,refined liquids,1971,0.058787590235703804
+16,industry_feedstocks,refined liquids,1972,0.05971555004054126
+16,industry_feedstocks,refined liquids,1973,0.06911644589519458
+16,industry_feedstocks,refined liquids,1974,0.06911312728988504
+16,industry_feedstocks,refined liquids,1975,0.06782253399557711
+16,industry_feedstocks,refined liquids,1976,0.06494769148220282
+16,industry_feedstocks,refined liquids,1977,0.06791713513298347
+16,industry_feedstocks,refined liquids,1978,0.08002441079388302
+16,industry_feedstocks,refined liquids,1979,0.08571694533110397
+16,industry_feedstocks,refined liquids,1980,0.09089211683393979
+16,industry_feedstocks,refined liquids,1981,0.08960859115243111
+16,industry_feedstocks,refined liquids,1982,0.09018554356377281
+16,industry_feedstocks,refined liquids,1983,0.09191031720528278
+16,industry_feedstocks,refined liquids,1984,0.10198351034355263
+16,industry_feedstocks,refined liquids,1985,0.10175660247276602
+16,industry_feedstocks,refined liquids,1986,0.0948821095619079
+16,industry_feedstocks,refined liquids,1987,0.10731479069439076
+16,industry_feedstocks,refined liquids,1988,0.10174752804815348
+16,industry_feedstocks,refined liquids,1989,0.09682771392999966
+16,industry_feedstocks,refined liquids,1990,0.10182647618319401
+16,industry_feedstocks,refined liquids,1991,0.10104429625989936
+16,industry_feedstocks,refined liquids,1992,0.09600777081864573
+16,industry_feedstocks,refined liquids,1993,0.09589961082778503
+16,industry_feedstocks,refined liquids,1994,0.09504292743589232
+16,industry_feedstocks,refined liquids,1995,0.10730931624176744
+16,industry_feedstocks,refined liquids,1996,0.10147049485867735
+16,industry_feedstocks,refined liquids,1997,0.10051029110685408
+16,industry_feedstocks,refined liquids,1998,0.09910721196941609
+16,industry_feedstocks,refined liquids,1999,0.0968112911147862
+16,industry_feedstocks,refined liquids,2000,0.09772637472639241
+16,industry_feedstocks,refined liquids,2001,0.10835288947541628
+16,industry_feedstocks,refined liquids,2002,0.1082080048429748
+16,industry_feedstocks,refined liquids,2003,0.10776234347488568
+16,industry_feedstocks,refined liquids,2004,0.09993269536558651
+16,industry_feedstocks,refined liquids,2005,0.10039439971153868
+16,industry_feedstocks,refined liquids,2006,0.1058480850731269
+16,industry_feedstocks,refined liquids,2007,0.11306515124849438
+16,industry_feedstocks,refined liquids,2008,0.11574606563854994
+16,industry_feedstocks,refined liquids,2009,0.10849046248452605
+16,industry_feedstocks,refined liquids,2010,0.11111409401583197
+17,industry_feedstocks,coal,1971,0
+17,industry_feedstocks,coal,1972,0
+17,industry_feedstocks,coal,1973,0
+17,industry_feedstocks,coal,1974,0
+17,industry_feedstocks,coal,1975,0
+17,industry_feedstocks,coal,1976,0
+17,industry_feedstocks,coal,1977,0
+17,industry_feedstocks,coal,1978,0
+17,industry_feedstocks,coal,1979,0
+17,industry_feedstocks,coal,1980,0
+17,industry_feedstocks,coal,1981,0
+17,industry_feedstocks,coal,1982,0
+17,industry_feedstocks,coal,1983,0
+17,industry_feedstocks,coal,1984,0
+17,industry_feedstocks,coal,1985,0
+17,industry_feedstocks,coal,1986,0
+17,industry_feedstocks,coal,1987,0
+17,industry_feedstocks,coal,1988,0
+17,industry_feedstocks,coal,1989,0
+17,industry_feedstocks,coal,1990,0
+17,industry_feedstocks,coal,1991,0
+17,industry_feedstocks,coal,1992,0
+17,industry_feedstocks,coal,1993,0
+17,industry_feedstocks,coal,1994,0
+17,industry_feedstocks,coal,1995,0
+17,industry_feedstocks,coal,1996,0
+17,industry_feedstocks,coal,1997,0
+17,industry_feedstocks,coal,1998,0
+17,industry_feedstocks,coal,1999,0
+17,industry_feedstocks,coal,2000,0
+17,industry_feedstocks,coal,2001,0
+17,industry_feedstocks,coal,2002,0
+17,industry_feedstocks,coal,2003,0
+17,industry_feedstocks,coal,2004,0
+17,industry_feedstocks,coal,2005,0
+17,industry_feedstocks,coal,2006,0
+17,industry_feedstocks,coal,2007,0
+17,industry_feedstocks,coal,2008,0
+17,industry_feedstocks,coal,2009,0
+17,industry_feedstocks,coal,2010,0
+17,industry_feedstocks,gas,1971,0
+17,industry_feedstocks,gas,1972,0
+17,industry_feedstocks,gas,1973,0
+17,industry_feedstocks,gas,1974,0
+17,industry_feedstocks,gas,1975,0
+17,industry_feedstocks,gas,1976,-0
+17,industry_feedstocks,gas,1977,0
+17,industry_feedstocks,gas,1978,0
+17,industry_feedstocks,gas,1979,0
+17,industry_feedstocks,gas,1980,-0
+17,industry_feedstocks,gas,1981,0
+17,industry_feedstocks,gas,1982,0
+17,industry_feedstocks,gas,1983,0
+17,industry_feedstocks,gas,1984,6.625672e-4
+17,industry_feedstocks,gas,1985,0.0250713508
+17,industry_feedstocks,gas,1986,0.05417291441286994
+17,industry_feedstocks,gas,1987,0.05318898318461332
+17,industry_feedstocks,gas,1988,0.11366060867695124
+17,industry_feedstocks,gas,1989,0.15237871106570677
+17,industry_feedstocks,gas,1990,0.13738469630191635
+17,industry_feedstocks,gas,1991,0.14231079581900505
+17,industry_feedstocks,gas,1992,0.17221082727329712
+17,industry_feedstocks,gas,1993,0.15779574568929206
+17,industry_feedstocks,gas,1994,0.17090499109857601
+17,industry_feedstocks,gas,1995,0.17996136422305642
+17,industry_feedstocks,gas,1996,0.17359538318181322
+17,industry_feedstocks,gas,1997,0.20947241766130395
+17,industry_feedstocks,gas,1998,0.2071954009773001
+17,industry_feedstocks,gas,1999,0.23336328505150367
+17,industry_feedstocks,gas,2000,0.23815494949208763
+17,industry_feedstocks,gas,2001,0.20669533311366536
+17,industry_feedstocks,gas,2002,0.21972100419063958
+17,industry_feedstocks,gas,2003,0.21142344183835476
+17,industry_feedstocks,gas,2004,0.19263382688997271
+17,industry_feedstocks,gas,2005,0.17644635148558774
+17,industry_feedstocks,gas,2006,0.23060869354056263
+17,industry_feedstocks,gas,2007,0.27668577513732057
+17,industry_feedstocks,gas,2008,0.2245098775417186
+17,industry_feedstocks,gas,2009,0.3731934425000488
+17,industry_feedstocks,gas,2010,0.3871438338292239
+17,industry_feedstocks,refined liquids,1971,0.12538922438401828
+17,industry_feedstocks,refined liquids,1972,0.1389833099047454
+17,industry_feedstocks,refined liquids,1973,0.1461252397254028
+17,industry_feedstocks,refined liquids,1974,0.11611541080501418
+17,industry_feedstocks,refined liquids,1975,0.14088572911728459
+17,industry_feedstocks,refined liquids,1976,0.16001847538937927
+17,industry_feedstocks,refined liquids,1977,0.15575514744055483
+17,industry_feedstocks,refined liquids,1978,0.16923342161511037
+17,industry_feedstocks,refined liquids,1979,0.1667590964049249
+17,industry_feedstocks,refined liquids,1980,0.15114711844624126
+17,industry_feedstocks,refined liquids,1981,0.1941120428627668
+17,industry_feedstocks,refined liquids,1982,0.1939575473140991
+17,industry_feedstocks,refined liquids,1983,0.17290859618084797
+17,industry_feedstocks,refined liquids,1984,0.18702410595932503
+17,industry_feedstocks,refined liquids,1985,0.1886833298583988
+17,industry_feedstocks,refined liquids,1986,0.19871549441286993
+17,industry_feedstocks,refined liquids,1987,0.18165732318461328
+17,industry_feedstocks,refined liquids,1988,0.21433390867695126
+17,industry_feedstocks,refined liquids,1989,0.1964154310657068
+17,industry_feedstocks,refined liquids,1990,0.18242605630191638
+17,industry_feedstocks,refined liquids,1991,0.18731029581900505
+17,industry_feedstocks,refined liquids,1992,0.19594544727329716
+17,industry_feedstocks,refined liquids,1993,0.202502225689292
+17,industry_feedstocks,refined liquids,1994,0.224443931098576
+17,industry_feedstocks,refined liquids,1995,0.3049971842230564
+17,industry_feedstocks,refined liquids,1996,0.30470090318181325
+17,industry_feedstocks,refined liquids,1997,0.334508237661304
+17,industry_feedstocks,refined liquids,1998,0.3113430809773001
+17,industry_feedstocks,refined liquids,1999,0.3739291650515037
+17,industry_feedstocks,refined liquids,2000,0.7040986094920877
+17,industry_feedstocks,refined liquids,2001,0.6387323931136655
+17,industry_feedstocks,refined liquids,2002,0.7450221441906396
+17,industry_feedstocks,refined liquids,2003,0.8109423618383547
+17,industry_feedstocks,refined liquids,2004,0.8910260668899728
+17,industry_feedstocks,refined liquids,2005,0.8930476914855878
+17,industry_feedstocks,refined liquids,2006,0.9988652735405626
+17,industry_feedstocks,refined liquids,2007,1.0811931151373206
+17,industry_feedstocks,refined liquids,2008,1.0079197775417186
+17,industry_feedstocks,refined liquids,2009,0.9466335825000489
+17,industry_feedstocks,refined liquids,2010,0.8832685538292239
+18,industry_feedstocks,coal,1971,0
+18,industry_feedstocks,coal,1972,0
+18,industry_feedstocks,coal,1973,0
+18,industry_feedstocks,coal,1974,0
+18,industry_feedstocks,coal,1975,0
+18,industry_feedstocks,coal,1976,0
+18,industry_feedstocks,coal,1977,0
+18,industry_feedstocks,coal,1978,0
+18,industry_feedstocks,coal,1979,0
+18,industry_feedstocks,coal,1980,0
+18,industry_feedstocks,coal,1981,0
+18,industry_feedstocks,coal,1982,0
+18,industry_feedstocks,coal,1983,0
+18,industry_feedstocks,coal,1984,0
+18,industry_feedstocks,coal,1985,0
+18,industry_feedstocks,coal,1986,0
+18,industry_feedstocks,coal,1987,0
+18,industry_feedstocks,coal,1988,0
+18,industry_feedstocks,coal,1989,0
+18,industry_feedstocks,coal,1990,0
+18,industry_feedstocks,coal,1991,0
+18,industry_feedstocks,coal,1992,0
+18,industry_feedstocks,coal,1993,0
+18,industry_feedstocks,coal,1994,0
+18,industry_feedstocks,coal,1995,0
+18,industry_feedstocks,coal,1996,0
+18,industry_feedstocks,coal,1997,0
+18,industry_feedstocks,coal,1998,0
+18,industry_feedstocks,coal,1999,0
+18,industry_feedstocks,coal,2000,0
+18,industry_feedstocks,coal,2001,0
+18,industry_feedstocks,coal,2002,0
+18,industry_feedstocks,coal,2003,0
+18,industry_feedstocks,coal,2004,0
+18,industry_feedstocks,coal,2005,0
+18,industry_feedstocks,coal,2006,0
+18,industry_feedstocks,coal,2007,0
+18,industry_feedstocks,coal,2008,0
+18,industry_feedstocks,coal,2009,0
+18,industry_feedstocks,coal,2010,0
+18,industry_feedstocks,gas,1971,0.0023339445
+18,industry_feedstocks,gas,1972,0.0025139196
+18,industry_feedstocks,gas,1973,0.0012686645
+18,industry_feedstocks,gas,1974,0.0049464685
+18,industry_feedstocks,gas,1975,0.007000902
+18,industry_feedstocks,gas,1976,0.0046388055
+18,industry_feedstocks,gas,1977,0.023656120272373155
+18,industry_feedstocks,gas,1978,0.03160998722004986
+18,industry_feedstocks,gas,1979,0.027493834302407958
+18,industry_feedstocks,gas,1980,0.02867752663190846
+18,industry_feedstocks,gas,1981,0.02816663483028621
+18,industry_feedstocks,gas,1982,0.02695674623050033
+18,industry_feedstocks,gas,1983,0.03199223859308893
+18,industry_feedstocks,gas,1984,0.05456450410415578
+18,industry_feedstocks,gas,1985,0.09324469092352687
+18,industry_feedstocks,gas,1986,0.09786166899257803
+18,industry_feedstocks,gas,1987,0.09562154422253943
+18,industry_feedstocks,gas,1988,0.09600521476063734
+18,industry_feedstocks,gas,1989,0.10453790352481543
+18,industry_feedstocks,gas,1990,0.11479908837547456
+18,industry_feedstocks,gas,1991,0.12613018071432835
+18,industry_feedstocks,gas,1992,0.135946974013989
+18,industry_feedstocks,gas,1993,0.1476068924745501
+18,industry_feedstocks,gas,1994,0.1414601941957237
+18,industry_feedstocks,gas,1995,0.12296771552749643
+18,industry_feedstocks,gas,1996,0.1427917654692592
+18,industry_feedstocks,gas,1997,0.14449221991690275
+18,industry_feedstocks,gas,1998,0.14208440334301864
+18,industry_feedstocks,gas,1999,0.17810223071811554
+18,industry_feedstocks,gas,2000,0.1993329170979225
+18,industry_feedstocks,gas,2001,0.17647818983889887
+18,industry_feedstocks,gas,2002,0.2159764684750009
+18,industry_feedstocks,gas,2003,0.2067381286355165
+18,industry_feedstocks,gas,2004,0.20214612333771104
+18,industry_feedstocks,gas,2005,0.20563481210685997
+18,industry_feedstocks,gas,2006,0.028356584311681518
+18,industry_feedstocks,gas,2007,0.06643948618145451
+18,industry_feedstocks,gas,2008,0.03815833385154037
+18,industry_feedstocks,gas,2009,0.0719746492898607
+18,industry_feedstocks,gas,2010,0.06664600335329987
+18,industry_feedstocks,refined liquids,1971,0
+18,industry_feedstocks,refined liquids,1972,0
+18,industry_feedstocks,refined liquids,1973,0
+18,industry_feedstocks,refined liquids,1974,0
+18,industry_feedstocks,refined liquids,1975,0
+18,industry_feedstocks,refined liquids,1976,0
+18,industry_feedstocks,refined liquids,1977,0
+18,industry_feedstocks,refined liquids,1978,0
+18,industry_feedstocks,refined liquids,1979,0
+18,industry_feedstocks,refined liquids,1980,0
+18,industry_feedstocks,refined liquids,1981,0
+18,industry_feedstocks,refined liquids,1982,0
+18,industry_feedstocks,refined liquids,1983,0
+18,industry_feedstocks,refined liquids,1984,0
+18,industry_feedstocks,refined liquids,1985,0.015027740000000001
+18,industry_feedstocks,refined liquids,1986,0.0330694
+18,industry_feedstocks,refined liquids,1987,0.10314304
+18,industry_feedstocks,refined liquids,1988,0.09979424
+18,industry_feedstocks,refined liquids,1989,0.11808706000000001
+18,industry_feedstocks,refined liquids,1990,0.13725894
+18,industry_feedstocks,refined liquids,1991,0.14584024
+18,industry_feedstocks,refined liquids,1992,0.1425333
+18,industry_feedstocks,refined liquids,1993,0.15961218
+18,industry_feedstocks,refined liquids,1994,0.14600768
+18,industry_feedstocks,refined liquids,1995,0.12357072000000001
+18,industry_feedstocks,refined liquids,1996,0.21411390000000002
+18,industry_feedstocks,refined liquids,1997,0.15504944
+18,industry_feedstocks,refined liquids,1998,0.08953854
+18,industry_feedstocks,refined liquids,1999,0.10125934
+18,industry_feedstocks,refined liquids,2000,0.14893788000000002
+18,industry_feedstocks,refined liquids,2001,0.15295644
+18,industry_feedstocks,refined liquids,2002,0.13382642
+18,industry_feedstocks,refined liquids,2003,0.11658010000000002
+18,industry_feedstocks,refined liquids,2004,0.14169610000000002
+18,industry_feedstocks,refined liquids,2005,0.19272344
+18,industry_feedstocks,refined liquids,2006,0.28544334000000005
+18,industry_feedstocks,refined liquids,2007,0.24822980000000003
+18,industry_feedstocks,refined liquids,2008,0.2501135
+18,industry_feedstocks,refined liquids,2009,0.24077872
+18,industry_feedstocks,refined liquids,2010,0.20984418000000002
+19,industry_feedstocks,coal,1971,0
+19,industry_feedstocks,coal,1972,0
+19,industry_feedstocks,coal,1973,0
+19,industry_feedstocks,coal,1974,0
+19,industry_feedstocks,coal,1975,0
+19,industry_feedstocks,coal,1976,0
+19,industry_feedstocks,coal,1977,0
+19,industry_feedstocks,coal,1978,0
+19,industry_feedstocks,coal,1979,0
+19,industry_feedstocks,coal,1980,0
+19,industry_feedstocks,coal,1981,0
+19,industry_feedstocks,coal,1982,0
+19,industry_feedstocks,coal,1983,0
+19,industry_feedstocks,coal,1984,0
+19,industry_feedstocks,coal,1985,0
+19,industry_feedstocks,coal,1986,0
+19,industry_feedstocks,coal,1987,0
+19,industry_feedstocks,coal,1988,0
+19,industry_feedstocks,coal,1989,0
+19,industry_feedstocks,coal,1990,0.01670214
+19,industry_feedstocks,coal,1991,0.015027740000000001
+19,industry_feedstocks,coal,1992,0.014902160000000001
+19,industry_feedstocks,coal,1993,0.01322776
+19,industry_feedstocks,coal,1994,0.01079988
+19,industry_feedstocks,coal,1995,0.011637080000000001
+19,industry_feedstocks,coal,1996,0.012055680000000001
+19,industry_feedstocks,coal,1997,0.012725440000000001
+19,industry_feedstocks,coal,1998,0.015111460000000002
+19,industry_feedstocks,coal,1999,0.014944020000000002
+19,industry_feedstocks,coal,2000,0.01460914
+19,industry_feedstocks,coal,2001,0.01247428
+19,industry_feedstocks,coal,2002,0.012055680000000001
+19,industry_feedstocks,coal,2003,0.014064960000000001
+19,industry_feedstocks,coal,2004,0.015362620000000002
+19,industry_feedstocks,coal,2005,0.014818440000000002
+19,industry_feedstocks,coal,2006,0.01670214
+19,industry_feedstocks,coal,2007,0.016534700000000003
+19,industry_feedstocks,coal,2008,0.016283540000000003
+19,industry_feedstocks,coal,2009,0.013688220000000001
+19,industry_feedstocks,coal,2010,0.01439984
+19,industry_feedstocks,gas,1971,0
+19,industry_feedstocks,gas,1972,0
+19,industry_feedstocks,gas,1973,0
+19,industry_feedstocks,gas,1974,0
+19,industry_feedstocks,gas,1975,0
+19,industry_feedstocks,gas,1976,0
+19,industry_feedstocks,gas,1977,0
+19,industry_feedstocks,gas,1978,0
+19,industry_feedstocks,gas,1979,0
+19,industry_feedstocks,gas,1980,0
+19,industry_feedstocks,gas,1981,0
+19,industry_feedstocks,gas,1982,0
+19,industry_feedstocks,gas,1983,0
+19,industry_feedstocks,gas,1984,0
+19,industry_feedstocks,gas,1985,0
+19,industry_feedstocks,gas,1986,0
+19,industry_feedstocks,gas,1987,0
+19,industry_feedstocks,gas,1988,0
+19,industry_feedstocks,gas,1989,0
+19,industry_feedstocks,gas,1990,0
+19,industry_feedstocks,gas,1991,0
+19,industry_feedstocks,gas,1992,0
+19,industry_feedstocks,gas,1993,0
+19,industry_feedstocks,gas,1994,0
+19,industry_feedstocks,gas,1995,0
+19,industry_feedstocks,gas,1996,0
+19,industry_feedstocks,gas,1997,0
+19,industry_feedstocks,gas,1998,0
+19,industry_feedstocks,gas,1999,0
+19,industry_feedstocks,gas,2000,0
+19,industry_feedstocks,gas,2001,0
+19,industry_feedstocks,gas,2002,0
+19,industry_feedstocks,gas,2003,0
+19,industry_feedstocks,gas,2004,0
+19,industry_feedstocks,gas,2005,0
+19,industry_feedstocks,gas,2006,0
+19,industry_feedstocks,gas,2007,0
+19,industry_feedstocks,gas,2008,0
+19,industry_feedstocks,gas,2009,0
+19,industry_feedstocks,gas,2010,0
+19,industry_feedstocks,refined liquids,1971,1.29397632
+19,industry_feedstocks,refined liquids,1972,1.4173452471768977
+19,industry_feedstocks,refined liquids,1973,1.543430108969051
+19,industry_feedstocks,refined liquids,1974,1.4512862000000002
+19,industry_feedstocks,refined liquids,1975,1.18396824
+19,industry_feedstocks,refined liquids,1976,1.3250783
+19,industry_feedstocks,refined liquids,1977,1.3735940400000002
+19,industry_feedstocks,refined liquids,1978,1.45894658
+19,industry_feedstocks,refined liquids,1979,1.5173412800000001
+19,industry_feedstocks,refined liquids,1980,1.1899123600000001
+19,industry_feedstocks,refined liquids,1981,1.08371354
+19,industry_feedstocks,refined liquids,1982,1.0521511000000001
+19,industry_feedstocks,refined liquids,1983,1.0469186000000001
+19,industry_feedstocks,refined liquids,1984,1.11845734
+19,industry_feedstocks,refined liquids,1985,1.1256154
+19,industry_feedstocks,refined liquids,1986,1.16806144
+19,industry_feedstocks,refined liquids,1987,1.22980494
+19,industry_feedstocks,refined liquids,1988,1.31762722
+19,industry_feedstocks,refined liquids,1989,1.37652424
+19,industry_feedstocks,refined liquids,1990,1.4167935600000001
+19,industry_feedstocks,refined liquids,1991,1.4236586
+19,industry_feedstocks,refined liquids,1992,1.48787184
+19,industry_feedstocks,refined liquids,1993,1.46229538
+19,industry_feedstocks,refined liquids,1994,1.56928954
+19,industry_feedstocks,refined liquids,1995,1.64693984
+19,industry_feedstocks,refined liquids,1996,1.6972974200000002
+19,industry_feedstocks,refined liquids,1997,1.7517154200000002
+19,industry_feedstocks,refined liquids,1998,1.6862045200000002
+19,industry_feedstocks,refined liquids,1999,1.76301762
+19,industry_feedstocks,refined liquids,2000,1.71538094
+19,industry_feedstocks,refined liquids,2001,1.6301121200000002
+19,industry_feedstocks,refined liquids,2002,1.7039531600000002
+19,industry_feedstocks,refined liquids,2003,1.75816186
+19,industry_feedstocks,refined liquids,2004,1.7991009400000002
+19,industry_feedstocks,refined liquids,2005,1.7461899
+19,industry_feedstocks,refined liquids,2006,1.74505968
+19,industry_feedstocks,refined liquids,2007,1.73672954
+19,industry_feedstocks,refined liquids,2008,1.5090530000000002
+19,industry_feedstocks,refined liquids,2009,1.6476933200000001
+19,industry_feedstocks,refined liquids,2010,1.64082828
+20,industry_feedstocks,coal,1971,0
+20,industry_feedstocks,coal,1972,0
+20,industry_feedstocks,coal,1973,0
+20,industry_feedstocks,coal,1974,0
+20,industry_feedstocks,coal,1975,0
+20,industry_feedstocks,coal,1976,0
+20,industry_feedstocks,coal,1977,0
+20,industry_feedstocks,coal,1978,0
+20,industry_feedstocks,coal,1979,0
+20,industry_feedstocks,coal,1980,0
+20,industry_feedstocks,coal,1981,0
+20,industry_feedstocks,coal,1982,0
+20,industry_feedstocks,coal,1983,0
+20,industry_feedstocks,coal,1984,9.209200000000001e-4
+20,industry_feedstocks,coal,1985,5.4418e-4
+20,industry_feedstocks,coal,1986,0
+20,industry_feedstocks,coal,1987,0
+20,industry_feedstocks,coal,1988,0
+20,industry_feedstocks,coal,1989,8.372000000000001e-4
+20,industry_feedstocks,coal,1990,9.627800000000001e-4
+20,industry_feedstocks,coal,1991,6.279e-4
+20,industry_feedstocks,coal,1992,0
+20,industry_feedstocks,coal,1993,0
+20,industry_feedstocks,coal,1994,0
+20,industry_feedstocks,coal,1995,0
+20,industry_feedstocks,coal,1996,0
+20,industry_feedstocks,coal,1997,0
+20,industry_feedstocks,coal,1998,0
+20,industry_feedstocks,coal,1999,0
+20,industry_feedstocks,coal,2000,0
+20,industry_feedstocks,coal,2001,0
+20,industry_feedstocks,coal,2002,0
+20,industry_feedstocks,coal,2003,0
+20,industry_feedstocks,coal,2004,0
+20,industry_feedstocks,coal,2005,0
+20,industry_feedstocks,coal,2006,0
+20,industry_feedstocks,coal,2007,0
+20,industry_feedstocks,coal,2008,0
+20,industry_feedstocks,coal,2009,0
+20,industry_feedstocks,coal,2010,0
+20,industry_feedstocks,gas,1971,0.007691607371780804
+20,industry_feedstocks,gas,1972,0.008707920591757541
+20,industry_feedstocks,gas,1973,0.00844406627562752
+20,industry_feedstocks,gas,1974,0.006792902662627538
+20,industry_feedstocks,gas,1975,0.019920994008143907
+20,industry_feedstocks,gas,1976,0.025105109517589156
+20,industry_feedstocks,gas,1977,0.02709480051485591
+20,industry_feedstocks,gas,1978,0.049698857716238644
+20,industry_feedstocks,gas,1979,0.05014986646423879
+20,industry_feedstocks,gas,1980,0.06055873392840848
+20,industry_feedstocks,gas,1981,0.08441422358035362
+20,industry_feedstocks,gas,1982,0.05072023156897895
+20,industry_feedstocks,gas,1983,0.049874466673604456
+20,industry_feedstocks,gas,1984,0.0452522968159398
+20,industry_feedstocks,gas,1985,0.057733831883671156
+20,industry_feedstocks,gas,1986,0.04831343633771854
+20,industry_feedstocks,gas,1987,0.06663579930109215
+20,industry_feedstocks,gas,1988,0.06923991814745714
+20,industry_feedstocks,gas,1989,0.0788775384443449
+20,industry_feedstocks,gas,1990,0.07236598794904384
+20,industry_feedstocks,gas,1991,0.0699460095036994
+20,industry_feedstocks,gas,1992,0.06569459764391541
+20,industry_feedstocks,gas,1993,0.21234893547236136
+20,industry_feedstocks,gas,1994,0.2211690285418891
+20,industry_feedstocks,gas,1995,0.22945967945754597
+20,industry_feedstocks,gas,1996,0.22759102336862233
+20,industry_feedstocks,gas,1997,0.18451736643398575
+20,industry_feedstocks,gas,1998,0.170237198391379
+20,industry_feedstocks,gas,1999,0.14152512145368445
+20,industry_feedstocks,gas,2000,0.1177307822446555
+20,industry_feedstocks,gas,2001,0.10305213880221689
+20,industry_feedstocks,gas,2002,0.09838208785755173
+20,industry_feedstocks,gas,2003,0.09496262956524162
+20,industry_feedstocks,gas,2004,0.09784298121095336
+20,industry_feedstocks,gas,2005,0.08667141696966618
+20,industry_feedstocks,gas,2006,0.09716402635451114
+20,industry_feedstocks,gas,2007,0.1066849584759776
+20,industry_feedstocks,gas,2008,0.11305501599935347
+20,industry_feedstocks,gas,2009,0.10194778775160374
+20,industry_feedstocks,gas,2010,0.10587509597420572
+20,industry_feedstocks,refined liquids,1971,0.06375278000000001
+20,industry_feedstocks,refined liquids,1972,0.0707434
+20,industry_feedstocks,refined liquids,1973,0.0770224
+20,industry_feedstocks,refined liquids,1974,0.07593404000000001
+20,industry_feedstocks,refined liquids,1975,0.08346884
+20,industry_feedstocks,refined liquids,1976,0.08974784000000001
+20,industry_feedstocks,refined liquids,1977,0.09518964
+20,industry_feedstocks,refined liquids,1978,0.10657556000000001
+20,industry_feedstocks,refined liquids,1979,0.12202190000000002
+20,industry_feedstocks,refined liquids,1980,0.12863578
+20,industry_feedstocks,refined liquids,1981,0.17011904
+20,industry_feedstocks,refined liquids,1982,0.20854652
+20,industry_feedstocks,refined liquids,1983,0.23562994
+20,industry_feedstocks,refined liquids,1984,0.26920166
+20,industry_feedstocks,refined liquids,1985,0.30009434
+20,industry_feedstocks,refined liquids,1986,0.30993144
+20,industry_feedstocks,refined liquids,1987,0.31177328
+20,industry_feedstocks,refined liquids,1988,0.35275422
+20,industry_feedstocks,refined liquids,1989,0.36074948
+20,industry_feedstocks,refined liquids,1990,0.27317836
+20,industry_feedstocks,refined liquids,1991,0.31177328000000004
+20,industry_feedstocks,refined liquids,1992,0.3279731
+20,industry_feedstocks,refined liquids,1993,0.32738706
+20,industry_feedstocks,refined liquids,1994,0.32395454
+20,industry_feedstocks,refined liquids,1995,0.30419662000000003
+20,industry_feedstocks,refined liquids,1996,0.30281524000000004
+20,industry_feedstocks,refined liquids,1997,0.29285256000000004
+20,industry_feedstocks,refined liquids,1998,0.27744808
+20,industry_feedstocks,refined liquids,1999,0.32860100000000003
+20,industry_feedstocks,refined liquids,2000,0.27631786
+20,industry_feedstocks,refined liquids,2001,0.2662296
+20,industry_feedstocks,refined liquids,2002,0.29084328
+20,industry_feedstocks,refined liquids,2003,0.29327116000000003
+20,industry_feedstocks,refined liquids,2004,0.2764853
+20,industry_feedstocks,refined liquids,2005,0.26777842
+20,industry_feedstocks,refined liquids,2006,0.2746016
+20,industry_feedstocks,refined liquids,2007,0.26987142000000003
+20,industry_feedstocks,refined liquids,2008,0.26865748
+20,industry_feedstocks,refined liquids,2009,0.21993244
+20,industry_feedstocks,refined liquids,2010,0.22646260000000001
+21,industry_feedstocks,coal,1971,0
+21,industry_feedstocks,coal,1972,0
+21,industry_feedstocks,coal,1973,0
+21,industry_feedstocks,coal,1974,0
+21,industry_feedstocks,coal,1975,0
+21,industry_feedstocks,coal,1976,0
+21,industry_feedstocks,coal,1977,0
+21,industry_feedstocks,coal,1978,0
+21,industry_feedstocks,coal,1979,0
+21,industry_feedstocks,coal,1980,0
+21,industry_feedstocks,coal,1981,0
+21,industry_feedstocks,coal,1982,0
+21,industry_feedstocks,coal,1983,0
+21,industry_feedstocks,coal,1984,0
+21,industry_feedstocks,coal,1985,0
+21,industry_feedstocks,coal,1986,0
+21,industry_feedstocks,coal,1987,0
+21,industry_feedstocks,coal,1988,0
+21,industry_feedstocks,coal,1989,0
+21,industry_feedstocks,coal,1990,0
+21,industry_feedstocks,coal,1991,0
+21,industry_feedstocks,coal,1992,0
+21,industry_feedstocks,coal,1993,0
+21,industry_feedstocks,coal,1994,0
+21,industry_feedstocks,coal,1995,0
+21,industry_feedstocks,coal,1996,0
+21,industry_feedstocks,coal,1997,0
+21,industry_feedstocks,coal,1998,0
+21,industry_feedstocks,coal,1999,0
+21,industry_feedstocks,coal,2000,0
+21,industry_feedstocks,coal,2001,0
+21,industry_feedstocks,coal,2002,0
+21,industry_feedstocks,coal,2003,0
+21,industry_feedstocks,coal,2004,0
+21,industry_feedstocks,coal,2005,0
+21,industry_feedstocks,coal,2006,0
+21,industry_feedstocks,coal,2007,0
+21,industry_feedstocks,coal,2008,0
+21,industry_feedstocks,coal,2009,0
+21,industry_feedstocks,coal,2010,0
+21,industry_feedstocks,gas,1971,0
+21,industry_feedstocks,gas,1972,0
+21,industry_feedstocks,gas,1973,0
+21,industry_feedstocks,gas,1974,0
+21,industry_feedstocks,gas,1975,0
+21,industry_feedstocks,gas,1976,0.0014663025835677454
+21,industry_feedstocks,gas,1977,0
+21,industry_feedstocks,gas,1978,0
+21,industry_feedstocks,gas,1979,0
+21,industry_feedstocks,gas,1980,0.010962461839430226
+21,industry_feedstocks,gas,1981,0.18970587459185229
+21,industry_feedstocks,gas,1982,0.18451390424260433
+21,industry_feedstocks,gas,1983,0.17512810180917487
+21,industry_feedstocks,gas,1984,0.1933257757931826
+21,industry_feedstocks,gas,1985,0.14893951224029162
+21,industry_feedstocks,gas,1986,0.3491944488427048
+21,industry_feedstocks,gas,1987,0.3618824558537252
+21,industry_feedstocks,gas,1988,0.3940940006992243
+21,industry_feedstocks,gas,1989,0.3586105550785579
+21,industry_feedstocks,gas,1990,0.19196349970294146
+21,industry_feedstocks,gas,1991,0.13510714443325508
+21,industry_feedstocks,gas,1992,0.1639242342659573
+21,industry_feedstocks,gas,1993,0.20845933695251798
+21,industry_feedstocks,gas,1994,0.2244200550104949
+21,industry_feedstocks,gas,1995,0.144955142568088
+21,industry_feedstocks,gas,1996,0.16593940232681326
+21,industry_feedstocks,gas,1997,0.18021140504708333
+21,industry_feedstocks,gas,1998,0.2646429855098559
+21,industry_feedstocks,gas,1999,0.2646156048946409
+21,industry_feedstocks,gas,2000,0.2536304154368382
+21,industry_feedstocks,gas,2001,0.2288957232581525
+21,industry_feedstocks,gas,2002,0.32772363675321414
+21,industry_feedstocks,gas,2003,0.3125396063133038
+21,industry_feedstocks,gas,2004,0.4531631332842345
+21,industry_feedstocks,gas,2005,0.472615483930084
+21,industry_feedstocks,gas,2006,0.6153705151441796
+21,industry_feedstocks,gas,2007,0.6704922734774843
+21,industry_feedstocks,gas,2008,0.8298974703425452
+21,industry_feedstocks,gas,2009,0.8508115389717172
+21,industry_feedstocks,gas,2010,0.8607081345771337
+21,industry_feedstocks,refined liquids,1971,0.12273352000000001
+21,industry_feedstocks,refined liquids,1972,0.13504036
+21,industry_feedstocks,refined liquids,1973,0.1500681
+21,industry_feedstocks,refined liquids,1974,0.16894696
+21,industry_feedstocks,refined liquids,1975,0.19397924000000002
+21,industry_feedstocks,refined liquids,1976,0.18853744
+21,industry_feedstocks,refined liquids,1977,0.2319044
+21,industry_feedstocks,refined liquids,1978,0.24638796000000002
+21,industry_feedstocks,refined liquids,1979,0.2618343
+21,industry_feedstocks,refined liquids,1980,0.20159776000000001
+21,industry_feedstocks,refined liquids,1981,0.21704410000000002
+21,industry_feedstocks,refined liquids,1982,0.2371369
+21,industry_feedstocks,refined liquids,1983,0.28184338000000003
+21,industry_feedstocks,refined liquids,1984,0.2727179
+21,industry_feedstocks,refined liquids,1985,0.28942004
+21,industry_feedstocks,refined liquids,1986,0.26631332
+21,industry_feedstocks,refined liquids,1987,0.29247582
+21,industry_feedstocks,refined liquids,1988,0.31403372
+21,industry_feedstocks,refined liquids,1989,0.38213994
+21,industry_feedstocks,refined liquids,1990,0.57247736
+21,industry_feedstocks,refined liquids,1991,0.57436106
+21,industry_feedstocks,refined liquids,1992,0.75113584
+21,industry_feedstocks,refined liquids,1993,0.79354002
+21,industry_feedstocks,refined liquids,1994,0.74808006
+21,industry_feedstocks,refined liquids,1995,0.7696379600000001
+21,industry_feedstocks,refined liquids,1996,0.87123218
+21,industry_feedstocks,refined liquids,1997,0.9297106
+21,industry_feedstocks,refined liquids,1998,1.00870042
+21,industry_feedstocks,refined liquids,1999,0.90287834
+21,industry_feedstocks,refined liquids,2000,0.8631113400000001
+21,industry_feedstocks,refined liquids,2001,0.912548
+21,industry_feedstocks,refined liquids,2002,0.9131340400000001
+21,industry_feedstocks,refined liquids,2003,0.93649192
+21,industry_feedstocks,refined liquids,2004,1.15600576
+21,industry_feedstocks,refined liquids,2005,1.21013074
+21,industry_feedstocks,refined liquids,2006,1.2768974400000002
+21,industry_feedstocks,refined liquids,2007,1.3585663000000001
+21,industry_feedstocks,refined liquids,2008,1.4443793
+21,industry_feedstocks,refined liquids,2009,1.5437968000000002
+21,industry_feedstocks,refined liquids,2010,1.483937
+22,industry_feedstocks,coal,1971,0
+22,industry_feedstocks,coal,1972,0
+22,industry_feedstocks,coal,1973,0
+22,industry_feedstocks,coal,1974,0
+22,industry_feedstocks,coal,1975,0
+22,industry_feedstocks,coal,1976,0
+22,industry_feedstocks,coal,1977,0
+22,industry_feedstocks,coal,1978,0
+22,industry_feedstocks,coal,1979,0
+22,industry_feedstocks,coal,1980,0
+22,industry_feedstocks,coal,1981,0
+22,industry_feedstocks,coal,1982,0
+22,industry_feedstocks,coal,1983,0
+22,industry_feedstocks,coal,1984,0
+22,industry_feedstocks,coal,1985,0
+22,industry_feedstocks,coal,1986,0
+22,industry_feedstocks,coal,1987,0
+22,industry_feedstocks,coal,1988,0
+22,industry_feedstocks,coal,1989,0
+22,industry_feedstocks,coal,1990,0
+22,industry_feedstocks,coal,1991,0
+22,industry_feedstocks,coal,1992,0
+22,industry_feedstocks,coal,1993,0
+22,industry_feedstocks,coal,1994,0
+22,industry_feedstocks,coal,1995,0
+22,industry_feedstocks,coal,1996,0
+22,industry_feedstocks,coal,1997,0
+22,industry_feedstocks,coal,1998,0
+22,industry_feedstocks,coal,1999,0
+22,industry_feedstocks,coal,2000,0
+22,industry_feedstocks,coal,2001,0
+22,industry_feedstocks,coal,2002,0
+22,industry_feedstocks,coal,2003,0
+22,industry_feedstocks,coal,2004,0
+22,industry_feedstocks,coal,2005,0
+22,industry_feedstocks,coal,2006,0
+22,industry_feedstocks,coal,2007,0
+22,industry_feedstocks,coal,2008,0
+22,industry_feedstocks,coal,2009,0
+22,industry_feedstocks,coal,2010,0
+22,industry_feedstocks,gas,1971,0.006743573629716688
+22,industry_feedstocks,gas,1972,0.006621889399085575
+22,industry_feedstocks,gas,1973,0.006101758352361786
+22,industry_feedstocks,gas,1974,0.005506293938294149
+22,industry_feedstocks,gas,1975,0.006357598981529747
+22,industry_feedstocks,gas,1976,0.005766590507309611
+22,industry_feedstocks,gas,1977,0.0066835491385342505
+22,industry_feedstocks,gas,1978,0.006374774070632307
+22,industry_feedstocks,gas,1979,0.008643709354485605
+22,industry_feedstocks,gas,1980,0.022522782911934533
+22,industry_feedstocks,gas,1981,0.03195103746119704
+22,industry_feedstocks,gas,1982,0.0470575288911199
+22,industry_feedstocks,gas,1983,0.04738546769508778
+22,industry_feedstocks,gas,1984,0.04639156092516668
+22,industry_feedstocks,gas,1985,0.046902023725123934
+22,industry_feedstocks,gas,1986,0.046758239876614593
+22,industry_feedstocks,gas,1987,0.04880892460645035
+22,industry_feedstocks,gas,1988,0.04810008185364577
+22,industry_feedstocks,gas,1989,0.04925403478975677
+22,industry_feedstocks,gas,1990,0.0560381573993458
+22,industry_feedstocks,gas,1991,0.04884187796012256
+22,industry_feedstocks,gas,1992,0.024629967520590042
+22,industry_feedstocks,gas,1993,0.032514426645855146
+22,industry_feedstocks,gas,1994,0.0285389589947831
+22,industry_feedstocks,gas,1995,0.030091627077149477
+22,industry_feedstocks,gas,1996,0.045539109744538786
+22,industry_feedstocks,gas,1997,0.04075544533441294
+22,industry_feedstocks,gas,1998,0.05268752807924394
+22,industry_feedstocks,gas,1999,0.05506465640393809
+22,industry_feedstocks,gas,2000,0.052336820320167565
+22,industry_feedstocks,gas,2001,0.05328523409715705
+22,industry_feedstocks,gas,2002,0.05499733680044804
+22,industry_feedstocks,gas,2003,0.0571641627434219
+22,industry_feedstocks,gas,2004,0.05918678943794724
+22,industry_feedstocks,gas,2005,0.06181624539554672
+22,industry_feedstocks,gas,2006,0.058957863946507774
+22,industry_feedstocks,gas,2007,0.06299984045172606
+22,industry_feedstocks,gas,2008,0.05756599416740496
+22,industry_feedstocks,gas,2009,0.06605840524877432
+22,industry_feedstocks,gas,2010,0.060743114852591526
+22,industry_feedstocks,refined liquids,1971,0.0058604
+22,industry_feedstocks,refined liquids,1972,0.0058604
+22,industry_feedstocks,refined liquids,1973,0.00531622
+22,industry_feedstocks,refined liquids,1974,0.0052743600000000005
+22,industry_feedstocks,refined liquids,1975,0.00791154
+22,industry_feedstocks,refined liquids,1976,0.00707434
+22,industry_feedstocks,refined liquids,1977,0.006613880000000001
+22,industry_feedstocks,refined liquids,1978,0.01226498
+22,industry_feedstocks,refined liquids,1979,0.00845572
+22,industry_feedstocks,refined liquids,1980,0.00841386
+22,industry_feedstocks,refined liquids,1981,0.0108836
+22,industry_feedstocks,refined liquids,1982,0.0113022
+22,industry_feedstocks,refined liquids,1983,0.0123487
+22,industry_feedstocks,refined liquids,1984,0.01197196
+22,industry_feedstocks,refined liquids,1985,0.01398124
+22,industry_feedstocks,refined liquids,1986,0.01511146
+22,industry_feedstocks,refined liquids,1987,0.01452542
+22,industry_feedstocks,refined liquids,1988,0.015488200000000002
+22,industry_feedstocks,refined liquids,1989,0.0152789
+22,industry_feedstocks,refined liquids,1990,0.00841386
+22,industry_feedstocks,refined liquids,1991,0.012809160000000002
+22,industry_feedstocks,refined liquids,1992,0.013395200000000001
+22,industry_feedstocks,refined liquids,1993,0.01498588
+22,industry_feedstocks,refined liquids,1994,0.01352078
+22,industry_feedstocks,refined liquids,1995,0.01439984
+22,industry_feedstocks,refined liquids,1996,0.01347892
+22,industry_feedstocks,refined liquids,1997,0.0136045
+22,industry_feedstocks,refined liquids,1998,0.01645098
+22,industry_feedstocks,refined liquids,1999,0.01640912
+22,industry_feedstocks,refined liquids,2000,0.015781220000000002
+22,industry_feedstocks,refined liquids,2001,0.01222312
+22,industry_feedstocks,refined liquids,2002,0.015153320000000001
+22,industry_feedstocks,refined liquids,2003,0.0165347
+22,industry_feedstocks,refined liquids,2004,0.01808352
+22,industry_feedstocks,refined liquids,2005,0.02503228
+22,industry_feedstocks,refined liquids,2006,0.023692760000000004
+22,industry_feedstocks,refined liquids,2007,0.017832360000000002
+22,industry_feedstocks,refined liquids,2008,0.01636726
+22,industry_feedstocks,refined liquids,2009,0.01703702
+22,industry_feedstocks,refined liquids,2010,0.013269620000000001
+23,industry_feedstocks,coal,1971,0.05148179202636616
+23,industry_feedstocks,coal,1972,0.0539524883573133
+23,industry_feedstocks,coal,1973,0.05639632929335886
+23,industry_feedstocks,coal,1974,0.05884017022940441
+23,industry_feedstocks,coal,1975,0.0643455261842323
+23,industry_feedstocks,coal,1976,0.08752173198431262
+23,industry_feedstocks,coal,1977,0.1080392536891346
+23,industry_feedstocks,coal,1978,0.1276168365724006
+23,industry_feedstocks,coal,1979,0.14348837495924588
+23,industry_feedstocks,coal,1980,0.1775678710893756
+23,industry_feedstocks,coal,1981,0.17281446619179247
+23,industry_feedstocks,coal,1982,0.1572651925437664
+23,industry_feedstocks,coal,1983,0.13988975204243156
+23,industry_feedstocks,coal,1984,0.12603236827320624
+23,industry_feedstocks,coal,1985,0.11265838161220972
+23,industry_feedstocks,coal,1986,0.10137911575353793
+23,industry_feedstocks,coal,1987,0.08993871752545658
+23,industry_feedstocks,coal,1988,0.09023412686937417
+23,industry_feedstocks,coal,1989,0.08996557292035817
+23,industry_feedstocks,coal,1990,9.627800000000001e-4
+23,industry_feedstocks,coal,1991,8.790600000000001e-4
+23,industry_feedstocks,coal,1992,8.372000000000001e-4
+23,industry_feedstocks,coal,1993,7.534800000000001e-4
+23,industry_feedstocks,coal,1994,4.6046000000000005e-4
+23,industry_feedstocks,coal,1995,5.4418e-4
+23,industry_feedstocks,coal,1996,0.0011302200000000001
+23,industry_feedstocks,coal,1997,5.0232e-4
+23,industry_feedstocks,coal,1998,0
+23,industry_feedstocks,coal,1999,0
+23,industry_feedstocks,coal,2000,0.03085082
+23,industry_feedstocks,coal,2001,0.03210662
+23,industry_feedstocks,coal,2002,0.05240872
+23,industry_feedstocks,coal,2003,0.041022800000000005
+23,industry_feedstocks,coal,2004,0.02708342
+23,industry_feedstocks,coal,2005,0.02863224
+23,industry_feedstocks,coal,2006,0.024027640000000003
+23,industry_feedstocks,coal,2007,0.01138592
+23,industry_feedstocks,coal,2008,0.010967320000000001
+23,industry_feedstocks,coal,2009,0.00719992
+23,industry_feedstocks,coal,2010,0.011344060000000001
+23,industry_feedstocks,gas,1971,0.13721069871201824
+23,industry_feedstocks,gas,1972,0.16994441624940707
+23,industry_feedstocks,gas,1973,0.18796681100788354
+23,industry_feedstocks,gas,1974,0.20791663706535096
+23,industry_feedstocks,gas,1975,0.2221599140422348
+23,industry_feedstocks,gas,1976,0.26257782892633497
+23,industry_feedstocks,gas,1977,0.2988719834062829
+23,industry_feedstocks,gas,1978,0.33568690716427146
+23,industry_feedstocks,gas,1979,0.3573312948681038
+23,industry_feedstocks,gas,1980,0.38046086010584157
+23,industry_feedstocks,gas,1981,0.39403290428139726
+23,industry_feedstocks,gas,1982,0.41005724336039145
+23,industry_feedstocks,gas,1983,0.42655533615299235
+23,industry_feedstocks,gas,1984,0.4431344426617032
+23,industry_feedstocks,gas,1985,0.46269243737272947
+23,industry_feedstocks,gas,1986,0.4850999591966938
+23,industry_feedstocks,gas,1987,0.510695505915735
+23,industry_feedstocks,gas,1988,0.541608996052767
+23,industry_feedstocks,gas,1989,0.5762539075589164
+23,industry_feedstocks,gas,1990,0.7093322350343345
+23,industry_feedstocks,gas,1991,0.919115509482298
+23,industry_feedstocks,gas,1992,0.9096536722303142
+23,industry_feedstocks,gas,1993,0.9034147235420505
+23,industry_feedstocks,gas,1994,0.6095253197634319
+23,industry_feedstocks,gas,1995,0.5071409369555369
+23,industry_feedstocks,gas,1996,0.3540521007000995
+23,industry_feedstocks,gas,1997,0.4473372226410018
+23,industry_feedstocks,gas,1998,0.4500110781377432
+23,industry_feedstocks,gas,1999,0.4857365837327846
+23,industry_feedstocks,gas,2000,0.5784265776789342
+23,industry_feedstocks,gas,2001,0.573123201904365
+23,industry_feedstocks,gas,2002,0.4556348121454189
+23,industry_feedstocks,gas,2003,0.504710620740134
+23,industry_feedstocks,gas,2004,0.5073170167332733
+23,industry_feedstocks,gas,2005,0.7311650511275026
+23,industry_feedstocks,gas,2006,0.7393692062387341
+23,industry_feedstocks,gas,2007,0.8339516190929107
+23,industry_feedstocks,gas,2008,0.7991601218655451
+23,industry_feedstocks,gas,2009,0.9019884887074691
+23,industry_feedstocks,gas,2010,1.2184520098751783
+23,industry_feedstocks,refined liquids,1971,0.20720707746327
+23,industry_feedstocks,refined liquids,1972,0.3209144772937646
+23,industry_feedstocks,refined liquids,1973,0.3269736534762157
+23,industry_feedstocks,refined liquids,1974,0.3328573946891761
+23,industry_feedstocks,refined liquids,1975,0.35273612671493193
+23,industry_feedstocks,refined liquids,1976,0.35777054983766166
+23,industry_feedstocks,refined liquids,1977,0.3680724749121888
+23,industry_feedstocks,refined liquids,1978,0.37623128044255216
+23,industry_feedstocks,refined liquids,1979,0.384391764898043
+23,industry_feedstocks,refined liquids,1980,0.34913841246718763
+23,industry_feedstocks,refined liquids,1981,0.374971796129731
+23,industry_feedstocks,refined liquids,1982,0.3102541537176372
+23,industry_feedstocks,refined liquids,1983,0.31859189825011097
+23,industry_feedstocks,refined liquids,1984,0.37609331811486707
+23,industry_feedstocks,refined liquids,1985,0.38308040360379575
+23,industry_feedstocks,refined liquids,1986,0.3756248901638459
+23,industry_feedstocks,refined liquids,1987,0.38715763705431827
+23,industry_feedstocks,refined liquids,1988,0.4434918808299985
+23,industry_feedstocks,refined liquids,1989,0.4373484914391009
+23,industry_feedstocks,refined liquids,1990,0.79818648
+23,industry_feedstocks,refined liquids,1991,1.1103783600000001
+23,industry_feedstocks,refined liquids,1992,1.05118832
+23,industry_feedstocks,refined liquids,1993,0.9134270600000001
+23,industry_feedstocks,refined liquids,1994,0.6833645
+23,industry_feedstocks,refined liquids,1995,0.83715814
+23,industry_feedstocks,refined liquids,1996,0.79190748
+23,industry_feedstocks,refined liquids,1997,0.7333034800000001
+23,industry_feedstocks,refined liquids,1998,0.55364036
+23,industry_feedstocks,refined liquids,1999,0.7772146200000001
+23,industry_feedstocks,refined liquids,2000,0.78081458
+23,industry_feedstocks,refined liquids,2001,0.85515794
+23,industry_feedstocks,refined liquids,2002,0.82849312
+23,industry_feedstocks,refined liquids,2003,0.89927838
+23,industry_feedstocks,refined liquids,2004,0.9108317400000001
+23,industry_feedstocks,refined liquids,2005,0.9276176
+23,industry_feedstocks,refined liquids,2006,0.9280362
+23,industry_feedstocks,refined liquids,2007,0.95683588
+23,industry_feedstocks,refined liquids,2008,0.9775984400000001
+23,industry_feedstocks,refined liquids,2009,1.07776942
+23,industry_feedstocks,refined liquids,2010,1.0956855
+24,industry_feedstocks,coal,1971,0.031311280000000004
+24,industry_feedstocks,coal,1972,0.031688020000000004
+24,industry_feedstocks,coal,1973,0.03189732
+24,industry_feedstocks,coal,1974,0.02917642
+24,industry_feedstocks,coal,1975,0.028381080000000003
+24,industry_feedstocks,coal,1976,0.026664820000000002
+24,industry_feedstocks,coal,1977,0.026539240000000002
+24,industry_feedstocks,coal,1978,0.02808806
+24,industry_feedstocks,coal,1979,0.026455520000000003
+24,industry_feedstocks,coal,1980,0.03415776
+24,industry_feedstocks,coal,1981,0.047678540000000005
+24,industry_feedstocks,coal,1982,0.043325100000000005
+24,industry_feedstocks,coal,1983,0.06417138
+24,industry_feedstocks,coal,1984,0.08125026
+24,industry_feedstocks,coal,1985,0.07773402
+24,industry_feedstocks,coal,1986,0.08158514
+24,industry_feedstocks,coal,1987,0.07832006000000001
+24,industry_feedstocks,coal,1988,0.09129666
+24,industry_feedstocks,coal,1989,0.12541256
+24,industry_feedstocks,coal,1990,0.11653824
+24,industry_feedstocks,coal,1991,0.13089622
+24,industry_feedstocks,coal,1992,0.11419408
+24,industry_feedstocks,coal,1993,0.1393938
+24,industry_feedstocks,coal,1994,0.14044030000000002
+24,industry_feedstocks,coal,1995,0.19837454000000002
+24,industry_feedstocks,coal,1996,0.20582562000000001
+24,industry_feedstocks,coal,1997,0.20557446000000001
+24,industry_feedstocks,coal,1998,0.20390006000000002
+24,industry_feedstocks,coal,1999,0.21143486
+24,industry_feedstocks,coal,2000,0.2212301
+24,industry_feedstocks,coal,2001,0.19347692000000002
+24,industry_feedstocks,coal,2002,0.18648630000000002
+24,industry_feedstocks,coal,2003,0.18648630000000002
+24,industry_feedstocks,coal,2004,0.14872858
+24,industry_feedstocks,coal,2005,0.05927376
+24,industry_feedstocks,coal,2006,0.05081804
+24,industry_feedstocks,coal,2007,0.051780820000000005
+24,industry_feedstocks,coal,2008,0.049729680000000005
+24,industry_feedstocks,coal,2009,0.05186454
+24,industry_feedstocks,coal,2010,0.05123664
+24,industry_feedstocks,gas,1971,0
+24,industry_feedstocks,gas,1972,0
+24,industry_feedstocks,gas,1973,0
+24,industry_feedstocks,gas,1974,0
+24,industry_feedstocks,gas,1975,0
+24,industry_feedstocks,gas,1976,0
+24,industry_feedstocks,gas,1977,0
+24,industry_feedstocks,gas,1978,0
+24,industry_feedstocks,gas,1979,0
+24,industry_feedstocks,gas,1980,0
+24,industry_feedstocks,gas,1981,0
+24,industry_feedstocks,gas,1982,0
+24,industry_feedstocks,gas,1983,0
+24,industry_feedstocks,gas,1984,0
+24,industry_feedstocks,gas,1985,0
+24,industry_feedstocks,gas,1986,0
+24,industry_feedstocks,gas,1987,0
+24,industry_feedstocks,gas,1988,0
+24,industry_feedstocks,gas,1989,0
+24,industry_feedstocks,gas,1990,0
+24,industry_feedstocks,gas,1991,0
+24,industry_feedstocks,gas,1992,0
+24,industry_feedstocks,gas,1993,0
+24,industry_feedstocks,gas,1994,0
+24,industry_feedstocks,gas,1995,0
+24,industry_feedstocks,gas,1996,0
+24,industry_feedstocks,gas,1997,0
+24,industry_feedstocks,gas,1998,0
+24,industry_feedstocks,gas,1999,0
+24,industry_feedstocks,gas,2000,0
+24,industry_feedstocks,gas,2001,0
+24,industry_feedstocks,gas,2002,0
+24,industry_feedstocks,gas,2003,0
+24,industry_feedstocks,gas,2004,0
+24,industry_feedstocks,gas,2005,0
+24,industry_feedstocks,gas,2006,0
+24,industry_feedstocks,gas,2007,0
+24,industry_feedstocks,gas,2008,0
+24,industry_feedstocks,gas,2009,0
+24,industry_feedstocks,gas,2010,0
+24,industry_feedstocks,refined liquids,1971,0.0021755569524251634
+24,industry_feedstocks,refined liquids,1972,0.0026177814933843026
+24,industry_feedstocks,refined liquids,1973,0.001139148747485887
+24,industry_feedstocks,refined liquids,1974,0.001456171110414268
+24,industry_feedstocks,refined liquids,1975,0.0031741553745420507
+24,industry_feedstocks,refined liquids,1976,0.0024720694020487427
+24,industry_feedstocks,refined liquids,1977,0.022518706100092416
+24,industry_feedstocks,refined liquids,1978,0.02120772566572101
+24,industry_feedstocks,refined liquids,1979,0.023363013896259173
+24,industry_feedstocks,refined liquids,1980,0.02748351667443804
+24,industry_feedstocks,refined liquids,1981,0.03567652082002245
+24,industry_feedstocks,refined liquids,1982,0.0469576068563073
+24,industry_feedstocks,refined liquids,1983,0.056485734447479855
+24,industry_feedstocks,refined liquids,1984,0.051899300570104605
+24,industry_feedstocks,refined liquids,1985,0.04772923149682227
+24,industry_feedstocks,refined liquids,1986,0.04830398337735344
+24,industry_feedstocks,refined liquids,1987,0.04666979451243289
+24,industry_feedstocks,refined liquids,1988,0.056684854073211055
+24,industry_feedstocks,refined liquids,1989,0.05661270228343127
+24,industry_feedstocks,refined liquids,1990,0.05816848345024543
+24,industry_feedstocks,refined liquids,1991,0.055788203476256626
+24,industry_feedstocks,refined liquids,1992,0.0585067674714054
+24,industry_feedstocks,refined liquids,1993,0.026539240000000002
+24,industry_feedstocks,refined liquids,1994,0.02875782
+24,industry_feedstocks,refined liquids,1995,0.02863224
+24,industry_feedstocks,refined liquids,1996,0.02917642
+24,industry_feedstocks,refined liquids,1997,0.02905084
+24,industry_feedstocks,refined liquids,1998,0.024864840000000003
+24,industry_feedstocks,refined liquids,1999,0.0236509
+24,industry_feedstocks,refined liquids,2000,0.025492740000000003
+24,industry_feedstocks,refined liquids,2001,0.02963688
+24,industry_feedstocks,refined liquids,2002,0.031813600000000004
+24,industry_feedstocks,refined liquids,2003,0.05014828
+24,industry_feedstocks,refined liquids,2004,0.05056688
+24,industry_feedstocks,refined liquids,2005,0.07526428
+24,industry_feedstocks,refined liquids,2006,0.05437614
+24,industry_feedstocks,refined liquids,2007,0.13801242
+24,industry_feedstocks,refined liquids,2008,0.15768662
+24,industry_feedstocks,refined liquids,2009,0.1502774
+24,industry_feedstocks,refined liquids,2010,0.11561732000000001
+25,industry_feedstocks,coal,1971,0
+25,industry_feedstocks,coal,1972,0
+25,industry_feedstocks,coal,1973,0
+25,industry_feedstocks,coal,1974,0
+25,industry_feedstocks,coal,1975,0
+25,industry_feedstocks,coal,1976,0
+25,industry_feedstocks,coal,1977,0
+25,industry_feedstocks,coal,1978,0
+25,industry_feedstocks,coal,1979,0
+25,industry_feedstocks,coal,1980,0
+25,industry_feedstocks,coal,1981,0
+25,industry_feedstocks,coal,1982,0
+25,industry_feedstocks,coal,1983,0
+25,industry_feedstocks,coal,1984,0
+25,industry_feedstocks,coal,1985,0
+25,industry_feedstocks,coal,1986,0
+25,industry_feedstocks,coal,1987,0
+25,industry_feedstocks,coal,1988,0
+25,industry_feedstocks,coal,1989,0
+25,industry_feedstocks,coal,1990,0
+25,industry_feedstocks,coal,1991,0
+25,industry_feedstocks,coal,1992,0
+25,industry_feedstocks,coal,1993,0
+25,industry_feedstocks,coal,1994,0
+25,industry_feedstocks,coal,1995,0
+25,industry_feedstocks,coal,1996,0
+25,industry_feedstocks,coal,1997,0
+25,industry_feedstocks,coal,1998,0
+25,industry_feedstocks,coal,1999,0
+25,industry_feedstocks,coal,2000,0
+25,industry_feedstocks,coal,2001,0
+25,industry_feedstocks,coal,2002,0
+25,industry_feedstocks,coal,2003,0
+25,industry_feedstocks,coal,2004,0
+25,industry_feedstocks,coal,2005,0
+25,industry_feedstocks,coal,2006,0
+25,industry_feedstocks,coal,2007,0
+25,industry_feedstocks,coal,2008,0
+25,industry_feedstocks,coal,2009,0
+25,industry_feedstocks,coal,2010,0
+25,industry_feedstocks,gas,1971,0
+25,industry_feedstocks,gas,1972,0
+25,industry_feedstocks,gas,1973,0
+25,industry_feedstocks,gas,1974,0
+25,industry_feedstocks,gas,1975,0
+25,industry_feedstocks,gas,1976,0
+25,industry_feedstocks,gas,1977,0
+25,industry_feedstocks,gas,1978,0
+25,industry_feedstocks,gas,1979,0
+25,industry_feedstocks,gas,1980,0
+25,industry_feedstocks,gas,1981,0
+25,industry_feedstocks,gas,1982,0
+25,industry_feedstocks,gas,1983,0
+25,industry_feedstocks,gas,1984,0
+25,industry_feedstocks,gas,1985,0
+25,industry_feedstocks,gas,1986,0
+25,industry_feedstocks,gas,1987,0
+25,industry_feedstocks,gas,1988,0
+25,industry_feedstocks,gas,1989,0
+25,industry_feedstocks,gas,1990,0
+25,industry_feedstocks,gas,1991,0
+25,industry_feedstocks,gas,1992,0
+25,industry_feedstocks,gas,1993,0
+25,industry_feedstocks,gas,1994,0
+25,industry_feedstocks,gas,1995,0
+25,industry_feedstocks,gas,1996,0
+25,industry_feedstocks,gas,1997,0
+25,industry_feedstocks,gas,1998,0
+25,industry_feedstocks,gas,1999,0
+25,industry_feedstocks,gas,2000,0
+25,industry_feedstocks,gas,2001,0
+25,industry_feedstocks,gas,2002,0
+25,industry_feedstocks,gas,2003,0
+25,industry_feedstocks,gas,2004,0
+25,industry_feedstocks,gas,2005,0
+25,industry_feedstocks,gas,2006,0
+25,industry_feedstocks,gas,2007,0
+25,industry_feedstocks,gas,2008,0
+25,industry_feedstocks,gas,2009,0
+25,industry_feedstocks,gas,2010,0
+25,industry_feedstocks,refined liquids,1971,0.021165364388432223
+25,industry_feedstocks,refined liquids,1972,0.024388327965441107
+25,industry_feedstocks,refined liquids,1973,0.030182797550924068
+25,industry_feedstocks,refined liquids,1974,0.02641496620541861
+25,industry_feedstocks,refined liquids,1975,0.025930472264622625
+25,industry_feedstocks,refined liquids,1976,0.03944084370966476
+25,industry_feedstocks,refined liquids,1977,0.03766498694684623
+25,industry_feedstocks,refined liquids,1978,0.041965779411267425
+25,industry_feedstocks,refined liquids,1979,0.037206254162501916
+25,industry_feedstocks,refined liquids,1980,0.03812611480407396
+25,industry_feedstocks,refined liquids,1981,0.041233985123946736
+25,industry_feedstocks,refined liquids,1982,0.04559518550868333
+25,industry_feedstocks,refined liquids,1983,0.03925688918357452
+25,industry_feedstocks,refined liquids,1984,0.03377337581371836
+25,industry_feedstocks,refined liquids,1985,0.03656165333507916
+25,industry_feedstocks,refined liquids,1986,0.0478893053128299
+25,industry_feedstocks,refined liquids,1987,0.04941174538674251
+25,industry_feedstocks,refined liquids,1988,0.05543815838208208
+25,industry_feedstocks,refined liquids,1989,0.03723750188886542
+25,industry_feedstocks,refined liquids,1990,0.03655642533132205
+25,industry_feedstocks,refined liquids,1991,0.039444826128233704
+25,industry_feedstocks,refined liquids,1992,0.06653234614123014
+25,industry_feedstocks,refined liquids,1993,0.045244467901799076
+25,industry_feedstocks,refined liquids,1994,0.048507103182989356
+25,industry_feedstocks,refined liquids,1995,0.0748012464616478
+25,industry_feedstocks,refined liquids,1996,0.06762480067548626
+25,industry_feedstocks,refined liquids,1997,0.07307364094548077
+25,industry_feedstocks,refined liquids,1998,0.07681435528919729
+25,industry_feedstocks,refined liquids,1999,0.08094943221134092
+25,industry_feedstocks,refined liquids,2000,0.08367010967107306
+25,industry_feedstocks,refined liquids,2001,0.08618155710096988
+25,industry_feedstocks,refined liquids,2002,0.08205407852796834
+25,industry_feedstocks,refined liquids,2003,0.053840369663476384
+25,industry_feedstocks,refined liquids,2004,0.050282173621465635
+25,industry_feedstocks,refined liquids,2005,0.06413767652941381
+25,industry_feedstocks,refined liquids,2006,0.08286557966860053
+25,industry_feedstocks,refined liquids,2007,0.09366514479550905
+25,industry_feedstocks,refined liquids,2008,0.04713317492089845
+25,industry_feedstocks,refined liquids,2009,0.04813751083609388
+25,industry_feedstocks,refined liquids,2010,0.039179261662136956
+26,industry_feedstocks,coal,1971,0
+26,industry_feedstocks,coal,1972,0
+26,industry_feedstocks,coal,1973,0
+26,industry_feedstocks,coal,1974,0
+26,industry_feedstocks,coal,1975,0
+26,industry_feedstocks,coal,1976,0
+26,industry_feedstocks,coal,1977,0
+26,industry_feedstocks,coal,1978,0
+26,industry_feedstocks,coal,1979,0
+26,industry_feedstocks,coal,1980,0
+26,industry_feedstocks,coal,1981,0
+26,industry_feedstocks,coal,1982,0
+26,industry_feedstocks,coal,1983,0
+26,industry_feedstocks,coal,1984,0
+26,industry_feedstocks,coal,1985,0
+26,industry_feedstocks,coal,1986,0
+26,industry_feedstocks,coal,1987,0
+26,industry_feedstocks,coal,1988,0
+26,industry_feedstocks,coal,1989,0
+26,industry_feedstocks,coal,1990,0
+26,industry_feedstocks,coal,1991,0
+26,industry_feedstocks,coal,1992,0
+26,industry_feedstocks,coal,1993,0
+26,industry_feedstocks,coal,1994,0
+26,industry_feedstocks,coal,1995,0
+26,industry_feedstocks,coal,1996,0
+26,industry_feedstocks,coal,1997,0
+26,industry_feedstocks,coal,1998,0
+26,industry_feedstocks,coal,1999,0
+26,industry_feedstocks,coal,2000,0
+26,industry_feedstocks,coal,2001,0
+26,industry_feedstocks,coal,2002,0
+26,industry_feedstocks,coal,2003,0
+26,industry_feedstocks,coal,2004,0
+26,industry_feedstocks,coal,2005,0
+26,industry_feedstocks,coal,2006,0
+26,industry_feedstocks,coal,2007,0
+26,industry_feedstocks,coal,2008,0
+26,industry_feedstocks,coal,2009,0
+26,industry_feedstocks,coal,2010,0
+26,industry_feedstocks,gas,1971,0
+26,industry_feedstocks,gas,1972,0
+26,industry_feedstocks,gas,1973,0
+26,industry_feedstocks,gas,1974,0
+26,industry_feedstocks,gas,1975,0
+26,industry_feedstocks,gas,1976,0
+26,industry_feedstocks,gas,1977,0
+26,industry_feedstocks,gas,1978,0
+26,industry_feedstocks,gas,1979,0
+26,industry_feedstocks,gas,1980,0
+26,industry_feedstocks,gas,1981,0
+26,industry_feedstocks,gas,1982,0
+26,industry_feedstocks,gas,1983,0
+26,industry_feedstocks,gas,1984,0
+26,industry_feedstocks,gas,1985,0
+26,industry_feedstocks,gas,1986,0
+26,industry_feedstocks,gas,1987,0
+26,industry_feedstocks,gas,1988,0
+26,industry_feedstocks,gas,1989,0
+26,industry_feedstocks,gas,1990,0.027551111547019214
+26,industry_feedstocks,gas,1991,0.018985174628104628
+26,industry_feedstocks,gas,1992,0.026341679576127902
+26,industry_feedstocks,gas,1993,0.025599541145109036
+26,industry_feedstocks,gas,1994,0.02784747256664935
+26,industry_feedstocks,gas,1995,0.026879725432972977
+26,industry_feedstocks,gas,1996,0.028199468735802813
+26,industry_feedstocks,gas,1997,0.04574533006102585
+26,industry_feedstocks,gas,1998,0.054538755710986875
+26,industry_feedstocks,gas,1999,0.08381446743991236
+26,industry_feedstocks,gas,2000,0.0941823245066273
+26,industry_feedstocks,gas,2001,0.09180140157886907
+26,industry_feedstocks,gas,2002,0.09448461146786889
+26,industry_feedstocks,gas,2003,0.08925430625240287
+26,industry_feedstocks,gas,2004,0.09000207230349479
+26,industry_feedstocks,gas,2005,0.09117299377629659
+26,industry_feedstocks,gas,2006,0.10514208883848784
+26,industry_feedstocks,gas,2007,0.05997131044151443
+26,industry_feedstocks,gas,2008,0.030548143351500183
+26,industry_feedstocks,gas,2009,0.02665032719129483
+26,industry_feedstocks,gas,2010,0.024438694487736397
+26,industry_feedstocks,refined liquids,1971,0.0098789600000000009
+26,industry_feedstocks,refined liquids,1972,0.0085813
+26,industry_feedstocks,refined liquids,1973,0.00950222
+26,industry_feedstocks,refined liquids,1974,0.00828828
+26,industry_feedstocks,refined liquids,1975,0.009292920000000001
+26,industry_feedstocks,refined liquids,1976,0.01184638
+26,industry_feedstocks,refined liquids,1977,0.012851020000000001
+26,industry_feedstocks,refined liquids,1978,0.0127673
+26,industry_feedstocks,refined liquids,1979,0.02528344
+26,industry_feedstocks,refined liquids,1980,0.027209
+26,industry_feedstocks,refined liquids,1981,0.02754388
+26,industry_feedstocks,refined liquids,1982,0.025116000000000003
+26,industry_feedstocks,refined liquids,1983,0.01645098
+26,industry_feedstocks,refined liquids,1984,0.0203021
+26,industry_feedstocks,refined liquids,1985,0.02122302
+26,industry_feedstocks,refined liquids,1986,0.02465554
+26,industry_feedstocks,refined liquids,1987,0.02390206
+26,industry_feedstocks,refined liquids,1988,0.026790400000000002
+26,industry_feedstocks,refined liquids,1989,0.0240695
+26,industry_feedstocks,refined liquids,1990,0.027376440000000002
+26,industry_feedstocks,refined liquids,1991,0.03478566
+26,industry_feedstocks,refined liquids,1992,0.025576460000000002
+26,industry_feedstocks,refined liquids,1993,0.0249067
+26,industry_feedstocks,refined liquids,1994,0.0383019
+26,industry_feedstocks,refined liquids,1995,0.033864740000000004
+26,industry_feedstocks,refined liquids,1996,0.05324592
+26,industry_feedstocks,refined liquids,1997,0.04445532
+26,industry_feedstocks,refined liquids,1998,0.07626892
+26,industry_feedstocks,refined liquids,1999,0.049855260000000005
+26,industry_feedstocks,refined liquids,2000,0.035790300000000004
+26,industry_feedstocks,refined liquids,2001,0.037715860000000004
+26,industry_feedstocks,refined liquids,2002,0.0401856
+26,industry_feedstocks,refined liquids,2003,0.05454358
+26,industry_feedstocks,refined liquids,2004,0.05852028
+26,industry_feedstocks,refined liquids,2005,0.04516694
+26,industry_feedstocks,refined liquids,2006,0.04713436000000001
+26,industry_feedstocks,refined liquids,2007,0.03637634
+26,industry_feedstocks,refined liquids,2008,0.04914364
+26,industry_feedstocks,refined liquids,2009,0.057808660000000005
+26,industry_feedstocks,refined liquids,2010,0.05877144
+27,industry_feedstocks,coal,1971,0
+27,industry_feedstocks,coal,1972,0
+27,industry_feedstocks,coal,1973,0
+27,industry_feedstocks,coal,1974,0
+27,industry_feedstocks,coal,1975,0
+27,industry_feedstocks,coal,1976,0
+27,industry_feedstocks,coal,1977,0
+27,industry_feedstocks,coal,1978,0
+27,industry_feedstocks,coal,1979,0
+27,industry_feedstocks,coal,1980,0
+27,industry_feedstocks,coal,1981,0
+27,industry_feedstocks,coal,1982,0
+27,industry_feedstocks,coal,1983,0
+27,industry_feedstocks,coal,1984,0
+27,industry_feedstocks,coal,1985,0
+27,industry_feedstocks,coal,1986,0
+27,industry_feedstocks,coal,1987,0
+27,industry_feedstocks,coal,1988,0
+27,industry_feedstocks,coal,1989,0
+27,industry_feedstocks,coal,1990,0
+27,industry_feedstocks,coal,1991,0
+27,industry_feedstocks,coal,1992,0
+27,industry_feedstocks,coal,1993,0
+27,industry_feedstocks,coal,1994,0
+27,industry_feedstocks,coal,1995,0
+27,industry_feedstocks,coal,1996,0
+27,industry_feedstocks,coal,1997,0
+27,industry_feedstocks,coal,1998,0
+27,industry_feedstocks,coal,1999,0
+27,industry_feedstocks,coal,2000,0
+27,industry_feedstocks,coal,2001,0
+27,industry_feedstocks,coal,2002,0
+27,industry_feedstocks,coal,2003,0
+27,industry_feedstocks,coal,2004,0
+27,industry_feedstocks,coal,2005,0
+27,industry_feedstocks,coal,2006,0
+27,industry_feedstocks,coal,2007,0
+27,industry_feedstocks,coal,2008,0
+27,industry_feedstocks,coal,2009,0
+27,industry_feedstocks,coal,2010,0
+27,industry_feedstocks,gas,1971,0.0047578287
+27,industry_feedstocks,gas,1972,0.0047048967
+27,industry_feedstocks,gas,1973,0.0096952029
+27,industry_feedstocks,gas,1974,0.0106455674
+27,industry_feedstocks,gas,1975,0.0032618513591775077
+27,industry_feedstocks,gas,1976,0.010814385903037198
+27,industry_feedstocks,gas,1977,0.009415856408085819
+27,industry_feedstocks,gas,1978,0.007790490116064437
+27,industry_feedstocks,gas,1979,0.00775235114977279
+27,industry_feedstocks,gas,1980,0.010312465558770549
+27,industry_feedstocks,gas,1981,0.008821267525707546
+27,industry_feedstocks,gas,1982,0.0157374445559241
+27,industry_feedstocks,gas,1983,0.013864853696059934
+27,industry_feedstocks,gas,1984,0.016473749465226343
+27,industry_feedstocks,gas,1985,0.013253328723628192
+27,industry_feedstocks,gas,1986,0.01820470245362003
+27,industry_feedstocks,gas,1987,0.018024761973591628
+27,industry_feedstocks,gas,1988,0.03176485702319967
+27,industry_feedstocks,gas,1989,0.03224948703148198
+27,industry_feedstocks,gas,1990,0.0319311322
+27,industry_feedstocks,gas,1991,0.0275903496
+27,industry_feedstocks,gas,1992,0.0341646345
+27,industry_feedstocks,gas,1993,0.0421346951
+27,industry_feedstocks,gas,1994,0.04885697932937125
+27,industry_feedstocks,gas,1995,0.05228969601205155
+27,industry_feedstocks,gas,1996,0.061966629798685544
+27,industry_feedstocks,gas,1997,0.04889668832517981
+27,industry_feedstocks,gas,1998,0.05023387805437389
+27,industry_feedstocks,gas,1999,0.05162700876088651
+27,industry_feedstocks,gas,2000,0.05044743342971081
+27,industry_feedstocks,gas,2001,0.05504918737704105
+27,industry_feedstocks,gas,2002,0.046684388885183545
+27,industry_feedstocks,gas,2003,0.06369983381448477
+27,industry_feedstocks,gas,2004,0.0622403689058665
+27,industry_feedstocks,gas,2005,0.06489135878332934
+27,industry_feedstocks,gas,2006,0.06658456981476274
+27,industry_feedstocks,gas,2007,0.07328134111536405
+27,industry_feedstocks,gas,2008,0.05857135131051948
+27,industry_feedstocks,gas,2009,0.05642397177141524
+27,industry_feedstocks,gas,2010,0.047835193601401926
+27,industry_feedstocks,refined liquids,1971,0.0013723778089624738
+27,industry_feedstocks,refined liquids,1972,0.002814008387596443
+27,industry_feedstocks,refined liquids,1973,0.0045905404300733334
+27,industry_feedstocks,refined liquids,1974,0.003061234489410907
+27,industry_feedstocks,refined liquids,1975,0.003486641217008656
+27,industry_feedstocks,refined liquids,1976,0.0043205685430499075
+27,industry_feedstocks,refined liquids,1977,0.0032913549297404936
+27,industry_feedstocks,refined liquids,1978,0.004303308692189266
+27,industry_feedstocks,refined liquids,1979,0.004314201193412124
+27,industry_feedstocks,refined liquids,1980,0.00534639675096701
+27,industry_feedstocks,refined liquids,1981,0.004939021254992371
+27,industry_feedstocks,refined liquids,1982,0.004871795541123189
+27,industry_feedstocks,refined liquids,1983,0.004531405049326145
+27,industry_feedstocks,refined liquids,1984,0.006969417646411068
+27,industry_feedstocks,refined liquids,1985,0.006313676480144085
+27,industry_feedstocks,refined liquids,1986,0.006545290254644719
+27,industry_feedstocks,refined liquids,1987,0.007616547929889557
+27,industry_feedstocks,refined liquids,1988,0.009143351305840808
+27,industry_feedstocks,refined liquids,1989,0.0083883787738284
+27,industry_feedstocks,refined liquids,1990,0.007981185767350659
+27,industry_feedstocks,refined liquids,1991,0.0069300976419205676
+27,industry_feedstocks,refined liquids,1992,0.007011075042103693
+27,industry_feedstocks,refined liquids,1993,0.011071722221290289
+27,industry_feedstocks,refined liquids,1994,0.010605997114954555
+27,industry_feedstocks,refined liquids,1995,0.02253373288280994
+27,industry_feedstocks,refined liquids,1996,0.021254116175610547
+27,industry_feedstocks,refined liquids,1997,0.021660250982427073
+27,industry_feedstocks,refined liquids,1998,0.03338655952400078
+27,industry_feedstocks,refined liquids,1999,0.02115349649765077
+27,industry_feedstocks,refined liquids,2000,0.0305125374196014
+27,industry_feedstocks,refined liquids,2001,0.027790118825019555
+27,industry_feedstocks,refined liquids,2002,0.021676730687568962
+27,industry_feedstocks,refined liquids,2003,0.023030337372920547
+27,industry_feedstocks,refined liquids,2004,0.021117286887773288
+27,industry_feedstocks,refined liquids,2005,0.02307521854002767
+27,industry_feedstocks,refined liquids,2006,0.022775072130936286
+27,industry_feedstocks,refined liquids,2007,0.021027951936735133
+27,industry_feedstocks,refined liquids,2008,0.01917339537029165
+27,industry_feedstocks,refined liquids,2009,0.01771060115908706
+27,industry_feedstocks,refined liquids,2010,0.01654058409749075
+28,industry_feedstocks,coal,1971,0
+28,industry_feedstocks,coal,1972,0
+28,industry_feedstocks,coal,1973,0
+28,industry_feedstocks,coal,1974,0
+28,industry_feedstocks,coal,1975,0
+28,industry_feedstocks,coal,1976,0
+28,industry_feedstocks,coal,1977,0
+28,industry_feedstocks,coal,1978,0
+28,industry_feedstocks,coal,1979,0
+28,industry_feedstocks,coal,1980,0
+28,industry_feedstocks,coal,1981,0
+28,industry_feedstocks,coal,1982,0
+28,industry_feedstocks,coal,1983,0
+28,industry_feedstocks,coal,1984,0
+28,industry_feedstocks,coal,1985,0
+28,industry_feedstocks,coal,1986,0
+28,industry_feedstocks,coal,1987,0
+28,industry_feedstocks,coal,1988,0
+28,industry_feedstocks,coal,1989,0
+28,industry_feedstocks,coal,1990,0
+28,industry_feedstocks,coal,1991,0
+28,industry_feedstocks,coal,1992,0
+28,industry_feedstocks,coal,1993,0
+28,industry_feedstocks,coal,1994,0
+28,industry_feedstocks,coal,1995,0
+28,industry_feedstocks,coal,1996,0
+28,industry_feedstocks,coal,1997,0
+28,industry_feedstocks,coal,1998,0
+28,industry_feedstocks,coal,1999,0
+28,industry_feedstocks,coal,2000,0
+28,industry_feedstocks,coal,2001,0
+28,industry_feedstocks,coal,2002,0
+28,industry_feedstocks,coal,2003,0
+28,industry_feedstocks,coal,2004,0
+28,industry_feedstocks,coal,2005,0
+28,industry_feedstocks,coal,2006,0
+28,industry_feedstocks,coal,2007,0.01599052
+28,industry_feedstocks,coal,2008,0.018585840000000003
+28,industry_feedstocks,coal,2009,0.015906800000000002
+28,industry_feedstocks,coal,2010,0.0169533
+28,industry_feedstocks,gas,1971,0
+28,industry_feedstocks,gas,1972,0
+28,industry_feedstocks,gas,1973,0
+28,industry_feedstocks,gas,1974,0
+28,industry_feedstocks,gas,1975,0
+28,industry_feedstocks,gas,1976,0
+28,industry_feedstocks,gas,1977,0
+28,industry_feedstocks,gas,1978,0
+28,industry_feedstocks,gas,1979,0
+28,industry_feedstocks,gas,1980,0
+28,industry_feedstocks,gas,1981,0
+28,industry_feedstocks,gas,1982,0
+28,industry_feedstocks,gas,1983,0
+28,industry_feedstocks,gas,1984,0
+28,industry_feedstocks,gas,1985,0
+28,industry_feedstocks,gas,1986,0
+28,industry_feedstocks,gas,1987,0
+28,industry_feedstocks,gas,1988,0
+28,industry_feedstocks,gas,1989,0
+28,industry_feedstocks,gas,1990,0
+28,industry_feedstocks,gas,1991,0
+28,industry_feedstocks,gas,1992,0
+28,industry_feedstocks,gas,1993,0
+28,industry_feedstocks,gas,1994,0
+28,industry_feedstocks,gas,1995,0
+28,industry_feedstocks,gas,1996,0
+28,industry_feedstocks,gas,1997,0
+28,industry_feedstocks,gas,1998,0
+28,industry_feedstocks,gas,1999,0
+28,industry_feedstocks,gas,2000,0
+28,industry_feedstocks,gas,2001,0
+28,industry_feedstocks,gas,2002,0
+28,industry_feedstocks,gas,2003,0
+28,industry_feedstocks,gas,2004,0
+28,industry_feedstocks,gas,2005,0
+28,industry_feedstocks,gas,2006,0
+28,industry_feedstocks,gas,2007,0
+28,industry_feedstocks,gas,2008,0
+28,industry_feedstocks,gas,2009,0
+28,industry_feedstocks,gas,2010,0
+28,industry_feedstocks,refined liquids,1971,0.016371271015033155
+28,industry_feedstocks,refined liquids,1972,0.015208285696315514
+28,industry_feedstocks,refined liquids,1973,0.03594787524527429
+28,industry_feedstocks,refined liquids,1974,0.04107853187496946
+28,industry_feedstocks,refined liquids,1975,0.047832630609723856
+28,industry_feedstocks,refined liquids,1976,0.05251876877508622
+28,industry_feedstocks,refined liquids,1977,0.07018894846945414
+28,industry_feedstocks,refined liquids,1978,0.08395823276774375
+28,industry_feedstocks,refined liquids,1979,0.09566567779531608
+28,industry_feedstocks,refined liquids,1980,0.11074470436145385
+28,industry_feedstocks,refined liquids,1981,0.09831557809360855
+28,industry_feedstocks,refined liquids,1982,0.09565463693483897
+28,industry_feedstocks,refined liquids,1983,0.11138785013514371
+28,industry_feedstocks,refined liquids,1984,0.12487229017591572
+28,industry_feedstocks,refined liquids,1985,0.13494842335440016
+28,industry_feedstocks,refined liquids,1986,0.15230951261247522
+28,industry_feedstocks,refined liquids,1987,0.16288305330496053
+28,industry_feedstocks,refined liquids,1988,0.1790686109856127
+28,industry_feedstocks,refined liquids,1989,0.1821189555032749
+28,industry_feedstocks,refined liquids,1990,0.2690280654263089
+28,industry_feedstocks,refined liquids,1991,0.38100045294276474
+28,industry_feedstocks,refined liquids,1992,0.5844787550101771
+28,industry_feedstocks,refined liquids,1993,0.6418368384696355
+28,industry_feedstocks,refined liquids,1994,0.680757608929335
+28,industry_feedstocks,refined liquids,1995,0.71157814
+28,industry_feedstocks,refined liquids,1996,0.7592985400000001
+28,industry_feedstocks,refined liquids,1997,0.9507243200000001
+28,industry_feedstocks,refined liquids,1998,1.03009088
+28,industry_feedstocks,refined liquids,1999,1.0566301200000001
+28,industry_feedstocks,refined liquids,2000,1.0477558
+28,industry_feedstocks,refined liquids,2001,1.07898336
+28,industry_feedstocks,refined liquids,2002,1.15165232
+28,industry_feedstocks,refined liquids,2003,1.2200097
+28,industry_feedstocks,refined liquids,2004,1.2103400400000002
+28,industry_feedstocks,refined liquids,2005,1.2710789
+28,industry_feedstocks,refined liquids,2006,1.32934802
+28,industry_feedstocks,refined liquids,2007,1.43240734
+28,industry_feedstocks,refined liquids,2008,1.4370956600000002
+28,industry_feedstocks,refined liquids,2009,1.5332899400000002
+28,industry_feedstocks,refined liquids,2010,1.58867072
+29,industry_feedstocks,coal,1971,0
+29,industry_feedstocks,coal,1972,0
+29,industry_feedstocks,coal,1973,0
+29,industry_feedstocks,coal,1974,0
+29,industry_feedstocks,coal,1975,0
+29,industry_feedstocks,coal,1976,0
+29,industry_feedstocks,coal,1977,0
+29,industry_feedstocks,coal,1978,0
+29,industry_feedstocks,coal,1979,0
+29,industry_feedstocks,coal,1980,0
+29,industry_feedstocks,coal,1981,0
+29,industry_feedstocks,coal,1982,0
+29,industry_feedstocks,coal,1983,0
+29,industry_feedstocks,coal,1984,0
+29,industry_feedstocks,coal,1985,0
+29,industry_feedstocks,coal,1986,0
+29,industry_feedstocks,coal,1987,0
+29,industry_feedstocks,coal,1988,0
+29,industry_feedstocks,coal,1989,0
+29,industry_feedstocks,coal,1990,0
+29,industry_feedstocks,coal,1991,0
+29,industry_feedstocks,coal,1992,0
+29,industry_feedstocks,coal,1993,0
+29,industry_feedstocks,coal,1994,0
+29,industry_feedstocks,coal,1995,0
+29,industry_feedstocks,coal,1996,0.0023205500590407777
+29,industry_feedstocks,coal,1997,0.003105845460949357
+29,industry_feedstocks,coal,1998,0.0012194486984159177
+29,industry_feedstocks,coal,1999,0.002047303879214782
+29,industry_feedstocks,coal,2000,0.0032302537767303786
+29,industry_feedstocks,coal,2001,0.0031131488093597004
+29,industry_feedstocks,coal,2002,0.0014155375394849451
+29,industry_feedstocks,coal,2003,0.0015605132327752244
+29,industry_feedstocks,coal,2004,0.0018998455432649598
+29,industry_feedstocks,coal,2005,0
+29,industry_feedstocks,coal,2006,0
+29,industry_feedstocks,coal,2007,4.137140962942503e-4
+29,industry_feedstocks,coal,2008,0
+29,industry_feedstocks,coal,2009,0
+29,industry_feedstocks,coal,2010,0
+29,industry_feedstocks,gas,1971,-0
+29,industry_feedstocks,gas,1972,0
+29,industry_feedstocks,gas,1973,0
+29,industry_feedstocks,gas,1974,0
+29,industry_feedstocks,gas,1975,0
+29,industry_feedstocks,gas,1976,0
+29,industry_feedstocks,gas,1977,0
+29,industry_feedstocks,gas,1978,0
+29,industry_feedstocks,gas,1979,0
+29,industry_feedstocks,gas,1980,0
+29,industry_feedstocks,gas,1981,0
+29,industry_feedstocks,gas,1982,0
+29,industry_feedstocks,gas,1983,0
+29,industry_feedstocks,gas,1984,0
+29,industry_feedstocks,gas,1985,0.0046834813413463945
+29,industry_feedstocks,gas,1986,0.01698540914711281
+29,industry_feedstocks,gas,1987,0.018817805236852097
+29,industry_feedstocks,gas,1988,0.016359616655736618
+29,industry_feedstocks,gas,1989,0.01685945075323478
+29,industry_feedstocks,gas,1990,0.014608899962385806
+29,industry_feedstocks,gas,1991,0.012532171733075033
+29,industry_feedstocks,gas,1992,0.014551960581347799
+29,industry_feedstocks,gas,1993,0.033476113262268875
+29,industry_feedstocks,gas,1994,0.033351859929504464
+29,industry_feedstocks,gas,1995,0.029722054205866787
+29,industry_feedstocks,gas,1996,0.021478286690822985
+29,industry_feedstocks,gas,1997,0.03921802410810031
+29,industry_feedstocks,gas,1998,0.03432508952713431
+29,industry_feedstocks,gas,1999,0.026978194541811957
+29,industry_feedstocks,gas,2000,0.04007073788916321
+29,industry_feedstocks,gas,2001,0.04240195324112814
+29,industry_feedstocks,gas,2002,0.04675933624355903
+29,industry_feedstocks,gas,2003,0.0545940552963203
+29,industry_feedstocks,gas,2004,0.037285372447446556
+29,industry_feedstocks,gas,2005,0.03912780854294737
+29,industry_feedstocks,gas,2006,0.05910469520941905
+29,industry_feedstocks,gas,2007,0.056367804020508006
+29,industry_feedstocks,gas,2008,0.04993611264314995
+29,industry_feedstocks,gas,2009,0.09115998223510494
+29,industry_feedstocks,gas,2010,0.078707632436428
+29,industry_feedstocks,refined liquids,1971,0.029181387902989502
+29,industry_feedstocks,refined liquids,1972,0.033321031608125724
+29,industry_feedstocks,refined liquids,1973,0.040217088772001613
+29,industry_feedstocks,refined liquids,1974,0.0464021659951305
+29,industry_feedstocks,refined liquids,1975,0.04805544224210168
+29,industry_feedstocks,refined liquids,1976,0.047124748463775644
+29,industry_feedstocks,refined liquids,1977,0.046148508419246025
+29,industry_feedstocks,refined liquids,1978,0.05722375419504438
+29,industry_feedstocks,refined liquids,1979,0.052363737545091035
+29,industry_feedstocks,refined liquids,1980,0.04998052265732183
+29,industry_feedstocks,refined liquids,1981,0.05164376535225569
+29,industry_feedstocks,refined liquids,1982,0.057669028737746
+29,industry_feedstocks,refined liquids,1983,0.06010257423336125
+29,industry_feedstocks,refined liquids,1984,0.06812351234802315
+29,industry_feedstocks,refined liquids,1985,0.09692132651367162
+29,industry_feedstocks,refined liquids,1986,0.09430019996383987
+29,industry_feedstocks,refined liquids,1987,0.11026546816702562
+29,industry_feedstocks,refined liquids,1988,0.12195678731112485
+29,industry_feedstocks,refined liquids,1989,0.12035039761914844
+29,industry_feedstocks,refined liquids,1990,0.13701701447162767
+29,industry_feedstocks,refined liquids,1991,0.14051813680058764
+29,industry_feedstocks,refined liquids,1992,0.14958372828164185
+29,industry_feedstocks,refined liquids,1993,0.17998939354175253
+29,industry_feedstocks,refined liquids,1994,0.22400934085314994
+29,industry_feedstocks,refined liquids,1995,0.27890258961770725
+29,industry_feedstocks,refined liquids,1996,0.29677488511686767
+29,industry_feedstocks,refined liquids,1997,0.38176804136117803
+29,industry_feedstocks,refined liquids,1998,0.33958569310998304
+29,industry_feedstocks,refined liquids,1999,0.3855368371583044
+29,industry_feedstocks,refined liquids,2000,0.3967182029087559
+29,industry_feedstocks,refined liquids,2001,0.4466783333413102
+29,industry_feedstocks,refined liquids,2002,0.6189779447789303
+29,industry_feedstocks,refined liquids,2003,0.741615264559337
+29,industry_feedstocks,refined liquids,2004,0.8585957233788085
+29,industry_feedstocks,refined liquids,2005,0.8893448091696011
+29,industry_feedstocks,refined liquids,2006,0.9448948664138083
+29,industry_feedstocks,refined liquids,2007,1.0103634506872954
+29,industry_feedstocks,refined liquids,2008,0.9899731968738614
+29,industry_feedstocks,refined liquids,2009,1.2302863757398887
+29,industry_feedstocks,refined liquids,2010,1.4827527294107812
+30,industry_feedstocks,coal,1971,0
+30,industry_feedstocks,coal,1972,0
+30,industry_feedstocks,coal,1973,0
+30,industry_feedstocks,coal,1974,0
+30,industry_feedstocks,coal,1975,0
+30,industry_feedstocks,coal,1976,0
+30,industry_feedstocks,coal,1977,0
+30,industry_feedstocks,coal,1978,0
+30,industry_feedstocks,coal,1979,0
+30,industry_feedstocks,coal,1980,0
+30,industry_feedstocks,coal,1981,1.2558e-4
+30,industry_feedstocks,coal,1982,0
+30,industry_feedstocks,coal,1983,0
+30,industry_feedstocks,coal,1984,0
+30,industry_feedstocks,coal,1985,0
+30,industry_feedstocks,coal,1986,0
+30,industry_feedstocks,coal,1987,0
+30,industry_feedstocks,coal,1988,0
+30,industry_feedstocks,coal,1989,0.006404580000000001
+30,industry_feedstocks,coal,1990,0.006153420000000001
+30,industry_feedstocks,coal,1991,0.00904176
+30,industry_feedstocks,coal,1992,0.007953400000000001
+30,industry_feedstocks,coal,1993,0.00908362
+30,industry_feedstocks,coal,1994,0.01033942
+30,industry_feedstocks,coal,1995,0.00799526
+30,industry_feedstocks,coal,1996,0.00682318
+30,industry_feedstocks,coal,1997,0.007241780000000001
+30,industry_feedstocks,coal,1998,0.0069069000000000005
+30,industry_feedstocks,coal,1999,0.007158060000000001
+30,industry_feedstocks,coal,2000,0.00715806
+30,industry_feedstocks,coal,2001,0.00665574
+30,industry_feedstocks,coal,2002,0.007702240000000001
+30,industry_feedstocks,coal,2003,0.01536262
+30,industry_feedstocks,coal,2004,0.00912548
+30,industry_feedstocks,coal,2005,0.00870688
+30,industry_feedstocks,coal,2006,0.009418500000000002
+30,industry_feedstocks,coal,2007,0.01184638
+30,industry_feedstocks,coal,2008,0.0060278400000000005
+30,industry_feedstocks,coal,2009,0.0043952999999999996
+30,industry_feedstocks,coal,2010,0.0393484
+30,industry_feedstocks,gas,1971,0.0100464
+30,industry_feedstocks,gas,1972,0.0117208
+30,industry_feedstocks,gas,1973,0.011637080000000001
+30,industry_feedstocks,gas,1974,0.014316120000000002
+30,industry_feedstocks,gas,1975,0.014734720000000001
+30,industry_feedstocks,gas,1976,0.016283540000000003
+30,industry_feedstocks,gas,1977,0.021097440000000002
+30,industry_feedstocks,gas,1978,0.02746016
+30,industry_feedstocks,gas,1979,0.02503228
+30,industry_feedstocks,gas,1980,4.186e-5
+30,industry_feedstocks,gas,1981,4.186e-5
+30,industry_feedstocks,gas,1982,0.01619982
+30,industry_feedstocks,gas,1983,0.01649284
+30,industry_feedstocks,gas,1984,0.014734720000000001
+30,industry_feedstocks,gas,1985,0.011092900000000001
+30,industry_feedstocks,gas,1986,0.0089999
+30,industry_feedstocks,gas,1987,0.00908362
+30,industry_feedstocks,gas,1988,0.009837100000000001
+30,industry_feedstocks,gas,1989,0.0074510800000000005
+30,industry_feedstocks,gas,1990,0.00665574
+30,industry_feedstocks,gas,1991,0.009292920000000001
+30,industry_feedstocks,gas,1992,0.01126034
+30,industry_feedstocks,gas,1993,0.01126034
+30,industry_feedstocks,gas,1994,0.010381280000000001
+30,industry_feedstocks,gas,1995,0.012851020000000001
+30,industry_feedstocks,gas,1996,0.012851020000000001
+30,industry_feedstocks,gas,1997,0.012599860000000001
+30,industry_feedstocks,gas,1998,0.01239056
+30,industry_feedstocks,gas,1999,0.00853944
+30,industry_feedstocks,gas,2000,0.00133952
+30,industry_feedstocks,gas,2001,0.0015069600000000001
+30,industry_feedstocks,gas,2002,1.2558e-4
+30,industry_feedstocks,gas,2003,0
+30,industry_feedstocks,gas,2004,0
+30,industry_feedstocks,gas,2005,0
+30,industry_feedstocks,gas,2006,0
+30,industry_feedstocks,gas,2007,0
+30,industry_feedstocks,gas,2008,0
+30,industry_feedstocks,gas,2009,0
+30,industry_feedstocks,gas,2010,0
+30,industry_feedstocks,refined liquids,1971,0.01657656
+30,industry_feedstocks,refined liquids,1972,0.016995160000000002
+30,industry_feedstocks,refined liquids,1973,0.018795140000000002
+30,industry_feedstocks,refined liquids,1974,0.01599052
+30,industry_feedstocks,refined liquids,1975,0.02289742
+30,industry_feedstocks,refined liquids,1976,0.03943212
+30,industry_feedstocks,refined liquids,1977,0.054418
+30,industry_feedstocks,refined liquids,1978,0.06689228000000001
+30,industry_feedstocks,refined liquids,1979,0.07706426000000001
+30,industry_feedstocks,refined liquids,1980,0.09364082
+30,industry_feedstocks,refined liquids,1981,0.08786414000000001
+30,industry_feedstocks,refined liquids,1982,0.10657556
+30,industry_feedstocks,refined liquids,1983,0.11716614000000002
+30,industry_feedstocks,refined liquids,1984,0.10427326
+30,industry_feedstocks,refined liquids,1985,0.12474280000000001
+30,industry_feedstocks,refined liquids,1986,0.12989158
+30,industry_feedstocks,refined liquids,1987,0.13742638000000001
+30,industry_feedstocks,refined liquids,1988,0.1433705
+30,industry_feedstocks,refined liquids,1989,0.14634256
+30,industry_feedstocks,refined liquids,1990,0.15429596
+30,industry_feedstocks,refined liquids,1991,0.16279354000000001
+30,industry_feedstocks,refined liquids,1992,0.1714167
+30,industry_feedstocks,refined liquids,1993,0.18807698
+30,industry_feedstocks,refined liquids,1994,0.21072324
+30,industry_feedstocks,refined liquids,1995,0.23650900000000002
+30,industry_feedstocks,refined liquids,1996,0.24576006
+30,industry_feedstocks,refined liquids,1997,0.24965304000000002
+30,industry_feedstocks,refined liquids,1998,0.26669006
+30,industry_feedstocks,refined liquids,1999,0.28175966
+30,industry_feedstocks,refined liquids,2000,0.31922436000000004
+30,industry_feedstocks,refined liquids,2001,0.4956224
+30,industry_feedstocks,refined liquids,2002,0.5138733600000001
+30,industry_feedstocks,refined liquids,2003,0.57360758
+30,industry_feedstocks,refined liquids,2004,0.61341644
+30,industry_feedstocks,refined liquids,2005,0.6002724
+30,industry_feedstocks,refined liquids,2006,0.6168908200000001
+30,industry_feedstocks,refined liquids,2007,0.77445186
+30,industry_feedstocks,refined liquids,2008,0.77340536
+30,industry_feedstocks,refined liquids,2009,0.82351178
+30,industry_feedstocks,refined liquids,2010,0.86428342
+31,industry_feedstocks,coal,1971,0
+31,industry_feedstocks,coal,1972,0
+31,industry_feedstocks,coal,1973,0
+31,industry_feedstocks,coal,1974,0
+31,industry_feedstocks,coal,1975,0
+31,industry_feedstocks,coal,1976,0
+31,industry_feedstocks,coal,1977,0
+31,industry_feedstocks,coal,1978,0
+31,industry_feedstocks,coal,1979,0
+31,industry_feedstocks,coal,1980,0
+31,industry_feedstocks,coal,1981,0
+31,industry_feedstocks,coal,1982,0
+31,industry_feedstocks,coal,1983,0
+31,industry_feedstocks,coal,1984,0
+31,industry_feedstocks,coal,1985,0
+31,industry_feedstocks,coal,1986,0
+31,industry_feedstocks,coal,1987,0
+31,industry_feedstocks,coal,1988,0
+31,industry_feedstocks,coal,1989,0
+31,industry_feedstocks,coal,1990,0
+31,industry_feedstocks,coal,1991,0
+31,industry_feedstocks,coal,1992,0
+31,industry_feedstocks,coal,1993,0
+31,industry_feedstocks,coal,1994,0
+31,industry_feedstocks,coal,1995,0
+31,industry_feedstocks,coal,1996,0
+31,industry_feedstocks,coal,1997,0
+31,industry_feedstocks,coal,1998,0
+31,industry_feedstocks,coal,1999,0
+31,industry_feedstocks,coal,2000,0
+31,industry_feedstocks,coal,2001,0
+31,industry_feedstocks,coal,2002,0
+31,industry_feedstocks,coal,2003,0
+31,industry_feedstocks,coal,2004,0
+31,industry_feedstocks,coal,2005,0
+31,industry_feedstocks,coal,2006,0
+31,industry_feedstocks,coal,2007,0
+31,industry_feedstocks,coal,2008,0
+31,industry_feedstocks,coal,2009,0
+31,industry_feedstocks,coal,2010,0
+31,industry_feedstocks,gas,1971,0.004657629855187178
+31,industry_feedstocks,gas,1972,0.004224032398699767
+31,industry_feedstocks,gas,1973,0.0036250159836316905
+31,industry_feedstocks,gas,1974,0.0030434723733635764
+31,industry_feedstocks,gas,1975,0.0025487017141231374
+31,industry_feedstocks,gas,1976,0.002675516369489656
+31,industry_feedstocks,gas,1977,0.0029614785156839114
+31,industry_feedstocks,gas,1978,0.004325688917349154
+31,industry_feedstocks,gas,1979,0.003508690082838698
+31,industry_feedstocks,gas,1980,0.003914202469614089
+31,industry_feedstocks,gas,1981,0.003047955490988709
+31,industry_feedstocks,gas,1982,0.00498336431012851
+31,industry_feedstocks,gas,1983,0.005046898417307126
+31,industry_feedstocks,gas,1984,0.004709527629418781
+31,industry_feedstocks,gas,1985,0.004901861316188819
+31,industry_feedstocks,gas,1986,0.004909541297308976
+31,industry_feedstocks,gas,1987,0.005541352720210711
+31,industry_feedstocks,gas,1988,0.005333118856576618
+31,industry_feedstocks,gas,1989,0.004968149382785013
+31,industry_feedstocks,gas,1990,0.00510660729135753
+31,industry_feedstocks,gas,1991,0.006216424121616013
+31,industry_feedstocks,gas,1992,0.005970767178101723
+31,industry_feedstocks,gas,1993,0.007332816570310317
+31,industry_feedstocks,gas,1994,0.007409014404029459
+31,industry_feedstocks,gas,1995,0.037410196018061954
+31,industry_feedstocks,gas,1996,0.038330128202950044
+31,industry_feedstocks,gas,1997,0.03676270168308399
+31,industry_feedstocks,gas,1998,0.03669294905858299
+31,industry_feedstocks,gas,1999,0.034995535124199464
+31,industry_feedstocks,gas,2000,0.04281728105425599
+31,industry_feedstocks,gas,2001,0.0550576123806175
+31,industry_feedstocks,gas,2002,0.047481697491798223
+31,industry_feedstocks,gas,2003,0.05376713903649139
+31,industry_feedstocks,gas,2004,0.05235576186724262
+31,industry_feedstocks,gas,2005,0.055919318851175896
+31,industry_feedstocks,gas,2006,0.0635195743208911
+31,industry_feedstocks,gas,2007,0.05512515257313372
+31,industry_feedstocks,gas,2008,0.05724375914660508
+31,industry_feedstocks,gas,2009,0.05699173219763212
+31,industry_feedstocks,gas,2010,0.05298803894520174
+31,industry_feedstocks,refined liquids,1971,0.07363174
+31,industry_feedstocks,refined liquids,1972,0.0694876
+31,industry_feedstocks,refined liquids,1973,0.07321314000000001
+31,industry_feedstocks,refined liquids,1974,0.07836192
+31,industry_feedstocks,refined liquids,1975,0.07484568
+31,industry_feedstocks,refined liquids,1976,0.07806890000000001
+31,industry_feedstocks,refined liquids,1977,0.07568288
+31,industry_feedstocks,refined liquids,1978,0.07823634
+31,industry_feedstocks,refined liquids,1979,0.09012458
+31,industry_feedstocks,refined liquids,1980,0.09175712000000001
+31,industry_feedstocks,refined liquids,1981,0.09623614000000001
+31,industry_feedstocks,refined liquids,1982,0.09698962000000001
+31,industry_feedstocks,refined liquids,1983,0.0776503
+31,industry_feedstocks,refined liquids,1984,0.09498034000000001
+31,industry_feedstocks,refined liquids,1985,0.09234316000000001
+31,industry_feedstocks,refined liquids,1986,0.07547358
+31,industry_feedstocks,refined liquids,1987,0.081627
+31,industry_feedstocks,refined liquids,1988,0.0809991
+31,industry_feedstocks,refined liquids,1989,0.07379918
+31,industry_feedstocks,refined liquids,1990,0.06798064000000001
+31,industry_feedstocks,refined liquids,1991,0.0713713
+31,industry_feedstocks,refined liquids,1992,0.08275722
+31,industry_feedstocks,refined liquids,1993,0.10008726000000001
+31,industry_feedstocks,refined liquids,1994,0.1356264
+31,industry_feedstocks,refined liquids,1995,0.14073332
+31,industry_feedstocks,refined liquids,1996,0.11737544
+31,industry_feedstocks,refined liquids,1997,0.1149057
+31,industry_feedstocks,refined liquids,1998,0.14219842000000002
+31,industry_feedstocks,refined liquids,1999,0.13977054
+31,industry_feedstocks,refined liquids,2000,0.12888694
+31,industry_feedstocks,refined liquids,2001,0.1008826
+31,industry_feedstocks,refined liquids,2002,0.09598498
+31,industry_feedstocks,refined liquids,2003,0.11498942000000001
+31,industry_feedstocks,refined liquids,2004,0.12143586
+31,industry_feedstocks,refined liquids,2005,0.12750556000000002
+31,industry_feedstocks,refined liquids,2006,0.13872404000000002
+31,industry_feedstocks,refined liquids,2007,0.13579384
+31,industry_feedstocks,refined liquids,2008,0.12076610000000002
+31,industry_feedstocks,refined liquids,2009,0.1354171
+31,industry_feedstocks,refined liquids,2010,0.13152412000000002
+32,industry_feedstocks,coal,1971,0
+32,industry_feedstocks,coal,1972,0
+32,industry_feedstocks,coal,1973,0
+32,industry_feedstocks,coal,1974,0
+32,industry_feedstocks,coal,1975,0
+32,industry_feedstocks,coal,1976,0
+32,industry_feedstocks,coal,1977,0
+32,industry_feedstocks,coal,1978,0
+32,industry_feedstocks,coal,1979,0
+32,industry_feedstocks,coal,1980,0
+32,industry_feedstocks,coal,1981,0
+32,industry_feedstocks,coal,1982,0
+32,industry_feedstocks,coal,1983,0
+32,industry_feedstocks,coal,1984,0
+32,industry_feedstocks,coal,1985,0
+32,industry_feedstocks,coal,1986,0
+32,industry_feedstocks,coal,1987,0
+32,industry_feedstocks,coal,1988,0
+32,industry_feedstocks,coal,1989,0
+32,industry_feedstocks,coal,1990,0
+32,industry_feedstocks,coal,1991,0
+32,industry_feedstocks,coal,1992,0
+32,industry_feedstocks,coal,1993,0
+32,industry_feedstocks,coal,1994,0
+32,industry_feedstocks,coal,1995,0
+32,industry_feedstocks,coal,1996,0
+32,industry_feedstocks,coal,1997,0
+32,industry_feedstocks,coal,1998,0
+32,industry_feedstocks,coal,1999,0
+32,industry_feedstocks,coal,2000,0
+32,industry_feedstocks,coal,2001,0
+32,industry_feedstocks,coal,2002,0
+32,industry_feedstocks,coal,2003,0
+32,industry_feedstocks,coal,2004,0
+32,industry_feedstocks,coal,2005,0
+32,industry_feedstocks,coal,2006,0
+32,industry_feedstocks,coal,2007,0
+32,industry_feedstocks,coal,2008,0
+32,industry_feedstocks,coal,2009,0
+32,industry_feedstocks,coal,2010,0
+32,industry_feedstocks,gas,1971,0
+32,industry_feedstocks,gas,1972,0
+32,industry_feedstocks,gas,1973,0
+32,industry_feedstocks,gas,1974,0
+32,industry_feedstocks,gas,1975,0
+32,industry_feedstocks,gas,1976,0
+32,industry_feedstocks,gas,1977,0
+32,industry_feedstocks,gas,1978,0
+32,industry_feedstocks,gas,1979,0
+32,industry_feedstocks,gas,1980,0
+32,industry_feedstocks,gas,1981,0
+32,industry_feedstocks,gas,1982,0
+32,industry_feedstocks,gas,1983,0
+32,industry_feedstocks,gas,1984,0
+32,industry_feedstocks,gas,1985,0
+32,industry_feedstocks,gas,1986,0
+32,industry_feedstocks,gas,1987,0
+32,industry_feedstocks,gas,1988,0
+32,industry_feedstocks,gas,1989,0
+32,industry_feedstocks,gas,1990,0
+32,industry_feedstocks,gas,1991,0
+32,industry_feedstocks,gas,1992,0
+32,industry_feedstocks,gas,1993,0
+32,industry_feedstocks,gas,1994,0
+32,industry_feedstocks,gas,1995,0
+32,industry_feedstocks,gas,1996,0
+32,industry_feedstocks,gas,1997,0
+32,industry_feedstocks,gas,1998,0
+32,industry_feedstocks,gas,1999,0
+32,industry_feedstocks,gas,2000,0
+32,industry_feedstocks,gas,2001,0
+32,industry_feedstocks,gas,2002,0
+32,industry_feedstocks,gas,2003,0
+32,industry_feedstocks,gas,2004,0
+32,industry_feedstocks,gas,2005,0
+32,industry_feedstocks,gas,2006,0
+32,industry_feedstocks,gas,2007,0
+32,industry_feedstocks,gas,2008,0
+32,industry_feedstocks,gas,2009,0
+32,industry_feedstocks,gas,2010,0
+32,industry_feedstocks,refined liquids,1971,0.00401856
+32,industry_feedstocks,refined liquids,1972,0.00401856
+32,industry_feedstocks,refined liquids,1973,0.00401856
+32,industry_feedstocks,refined liquids,1974,0.00401856
+32,industry_feedstocks,refined liquids,1975,0.0041860000000000005
+32,industry_feedstocks,refined liquids,1976,0.0043953
+32,industry_feedstocks,refined liquids,1977,0.00359996
+32,industry_feedstocks,refined liquids,1978,0.0058604
+32,industry_feedstocks,refined liquids,1979,0.006613880000000001
+32,industry_feedstocks,refined liquids,1980,0.00791154
+32,industry_feedstocks,refined liquids,1981,0.007953400000000001
+32,industry_feedstocks,refined liquids,1982,0.007953400000000001
+32,industry_feedstocks,refined liquids,1983,0.00761852
+32,industry_feedstocks,refined liquids,1984,0.00761852
+32,industry_feedstocks,refined liquids,1985,0.00694876
+32,industry_feedstocks,refined liquids,1986,0.007241780000000001
+32,industry_feedstocks,refined liquids,1987,0.00719992
+32,industry_feedstocks,refined liquids,1988,0.01117662
+32,industry_feedstocks,refined liquids,1989,0.012306840000000001
+32,industry_feedstocks,refined liquids,1990,0.013144040000000001
+32,industry_feedstocks,refined liquids,1991,0.01427426
+32,industry_feedstocks,refined liquids,1992,0.016283540000000003
+32,industry_feedstocks,refined liquids,1993,0.05517148
+32,industry_feedstocks,refined liquids,1994,0.06052956
+32,industry_feedstocks,refined liquids,1995,0.06057142
+32,industry_feedstocks,refined liquids,1996,0.0730457
+32,industry_feedstocks,refined liquids,1997,0.06638996
+32,industry_feedstocks,refined liquids,1998,0.07476196
+32,industry_feedstocks,refined liquids,1999,0.07103642
+32,industry_feedstocks,refined liquids,2000,0.07530614000000001
+32,industry_feedstocks,refined liquids,2001,0.07124572
+32,industry_feedstocks,refined liquids,2002,0.0707434
+32,industry_feedstocks,refined liquids,2003,0.07040852
+32,industry_feedstocks,refined liquids,2004,0.07124572
+32,industry_feedstocks,refined liquids,2005,0.06752018
+32,industry_feedstocks,refined liquids,2006,0.06768762
+32,industry_feedstocks,refined liquids,2007,0.05646914
+32,industry_feedstocks,refined liquids,2008,0.05646914
+32,industry_feedstocks,refined liquids,2009,0.0498134
+32,industry_feedstocks,refined liquids,2010,0.04420416

@@ -1,0 +1,709 @@
+# List all region/year combinations for the regional biomass sector/subsector/technology
+# We need to rename the input from 'biomass' to 'total biomass' so we can separate trade.
+# We also want to change the market from global to regional.
+# The only way to do this in the model is to delete these technologies and re-add them with the right input and market-name.
+region,supplysector,subsector,technology,year,minicam.energy.input
+USA,regional biomass,regional biomass,regional biomass,1975,biomass
+USA,regional biomass,regional biomass,regional biomass,1990,biomass
+USA,regional biomass,regional biomass,regional biomass,2005,biomass
+USA,regional biomass,regional biomass,regional biomass,2010,biomass
+USA,regional biomass,regional biomass,regional biomass,2015,biomass
+USA,regional biomass,regional biomass,regional biomass,2020,biomass
+USA,regional biomass,regional biomass,regional biomass,2025,biomass
+USA,regional biomass,regional biomass,regional biomass,2030,biomass
+USA,regional biomass,regional biomass,regional biomass,2035,biomass
+USA,regional biomass,regional biomass,regional biomass,2040,biomass
+USA,regional biomass,regional biomass,regional biomass,2045,biomass
+USA,regional biomass,regional biomass,regional biomass,2050,biomass
+USA,regional biomass,regional biomass,regional biomass,2055,biomass
+USA,regional biomass,regional biomass,regional biomass,2060,biomass
+USA,regional biomass,regional biomass,regional biomass,2065,biomass
+USA,regional biomass,regional biomass,regional biomass,2070,biomass
+USA,regional biomass,regional biomass,regional biomass,2075,biomass
+USA,regional biomass,regional biomass,regional biomass,2080,biomass
+USA,regional biomass,regional biomass,regional biomass,2085,biomass
+USA,regional biomass,regional biomass,regional biomass,2090,biomass
+USA,regional biomass,regional biomass,regional biomass,2095,biomass
+USA,regional biomass,regional biomass,regional biomass,2100,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,1975,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,1990,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2005,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2010,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2015,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2020,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2025,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2030,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2035,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2040,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2045,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2050,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2055,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2060,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2065,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2070,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2075,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2080,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2085,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2090,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2095,biomass
+Africa_Eastern,regional biomass,regional biomass,regional biomass,2100,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,1975,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,1990,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2005,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2010,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2015,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2020,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2025,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2030,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2035,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2040,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2045,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2050,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2055,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2060,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2065,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2070,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2075,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2080,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2085,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2090,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2095,biomass
+Africa_Northern,regional biomass,regional biomass,regional biomass,2100,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,1975,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,1990,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2005,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2010,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2015,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2020,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2025,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2030,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2035,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2040,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2045,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2050,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2055,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2060,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2065,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2070,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2075,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2080,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2085,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2090,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2095,biomass
+Africa_Southern,regional biomass,regional biomass,regional biomass,2100,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,1975,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,1990,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2005,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2010,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2015,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2020,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2025,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2030,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2035,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2040,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2045,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2050,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2055,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2060,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2065,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2070,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2075,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2080,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2085,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2090,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2095,biomass
+Africa_Western,regional biomass,regional biomass,regional biomass,2100,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,1975,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,1990,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2005,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2010,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2015,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2020,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2025,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2030,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2035,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2040,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2045,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2050,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2055,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2060,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2065,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2070,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2075,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2080,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2085,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2090,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2095,biomass
+Australia_NZ,regional biomass,regional biomass,regional biomass,2100,biomass
+Brazil,regional biomass,regional biomass,regional biomass,1975,biomass
+Brazil,regional biomass,regional biomass,regional biomass,1990,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2005,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2010,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2015,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2020,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2025,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2030,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2035,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2040,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2045,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2050,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2055,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2060,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2065,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2070,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2075,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2080,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2085,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2090,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2095,biomass
+Brazil,regional biomass,regional biomass,regional biomass,2100,biomass
+Canada,regional biomass,regional biomass,regional biomass,1975,biomass
+Canada,regional biomass,regional biomass,regional biomass,1990,biomass
+Canada,regional biomass,regional biomass,regional biomass,2005,biomass
+Canada,regional biomass,regional biomass,regional biomass,2010,biomass
+Canada,regional biomass,regional biomass,regional biomass,2015,biomass
+Canada,regional biomass,regional biomass,regional biomass,2020,biomass
+Canada,regional biomass,regional biomass,regional biomass,2025,biomass
+Canada,regional biomass,regional biomass,regional biomass,2030,biomass
+Canada,regional biomass,regional biomass,regional biomass,2035,biomass
+Canada,regional biomass,regional biomass,regional biomass,2040,biomass
+Canada,regional biomass,regional biomass,regional biomass,2045,biomass
+Canada,regional biomass,regional biomass,regional biomass,2050,biomass
+Canada,regional biomass,regional biomass,regional biomass,2055,biomass
+Canada,regional biomass,regional biomass,regional biomass,2060,biomass
+Canada,regional biomass,regional biomass,regional biomass,2065,biomass
+Canada,regional biomass,regional biomass,regional biomass,2070,biomass
+Canada,regional biomass,regional biomass,regional biomass,2075,biomass
+Canada,regional biomass,regional biomass,regional biomass,2080,biomass
+Canada,regional biomass,regional biomass,regional biomass,2085,biomass
+Canada,regional biomass,regional biomass,regional biomass,2090,biomass
+Canada,regional biomass,regional biomass,regional biomass,2095,biomass
+Canada,regional biomass,regional biomass,regional biomass,2100,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,1975,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,1990,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2005,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2010,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2015,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2020,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2025,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2030,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2035,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2040,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2045,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2050,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2055,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2060,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2065,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2070,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2075,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2080,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2085,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2090,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2095,biomass
+Central America and Caribbean,regional biomass,regional biomass,regional biomass,2100,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,1975,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,1990,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2005,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2010,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2015,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2020,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2025,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2030,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2035,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2040,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2045,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2050,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2055,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2060,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2065,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2070,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2075,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2080,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2085,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2090,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2095,biomass
+Central Asia,regional biomass,regional biomass,regional biomass,2100,biomass
+China,regional biomass,regional biomass,regional biomass,1975,biomass
+China,regional biomass,regional biomass,regional biomass,1990,biomass
+China,regional biomass,regional biomass,regional biomass,2005,biomass
+China,regional biomass,regional biomass,regional biomass,2010,biomass
+China,regional biomass,regional biomass,regional biomass,2015,biomass
+China,regional biomass,regional biomass,regional biomass,2020,biomass
+China,regional biomass,regional biomass,regional biomass,2025,biomass
+China,regional biomass,regional biomass,regional biomass,2030,biomass
+China,regional biomass,regional biomass,regional biomass,2035,biomass
+China,regional biomass,regional biomass,regional biomass,2040,biomass
+China,regional biomass,regional biomass,regional biomass,2045,biomass
+China,regional biomass,regional biomass,regional biomass,2050,biomass
+China,regional biomass,regional biomass,regional biomass,2055,biomass
+China,regional biomass,regional biomass,regional biomass,2060,biomass
+China,regional biomass,regional biomass,regional biomass,2065,biomass
+China,regional biomass,regional biomass,regional biomass,2070,biomass
+China,regional biomass,regional biomass,regional biomass,2075,biomass
+China,regional biomass,regional biomass,regional biomass,2080,biomass
+China,regional biomass,regional biomass,regional biomass,2085,biomass
+China,regional biomass,regional biomass,regional biomass,2090,biomass
+China,regional biomass,regional biomass,regional biomass,2095,biomass
+China,regional biomass,regional biomass,regional biomass,2100,biomass
+EU-12,regional biomass,regional biomass,regional biomass,1975,biomass
+EU-12,regional biomass,regional biomass,regional biomass,1990,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2005,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2010,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2015,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2020,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2025,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2030,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2035,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2040,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2045,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2050,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2055,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2060,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2065,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2070,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2075,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2080,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2085,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2090,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2095,biomass
+EU-12,regional biomass,regional biomass,regional biomass,2100,biomass
+EU-15,regional biomass,regional biomass,regional biomass,1975,biomass
+EU-15,regional biomass,regional biomass,regional biomass,1990,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2005,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2010,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2015,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2020,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2025,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2030,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2035,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2040,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2045,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2050,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2055,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2060,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2065,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2070,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2075,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2080,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2085,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2090,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2095,biomass
+EU-15,regional biomass,regional biomass,regional biomass,2100,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,1975,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,1990,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2005,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2010,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2015,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2020,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2025,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2030,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2035,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2040,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2045,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2050,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2055,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2060,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2065,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2070,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2075,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2080,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2085,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2090,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2095,biomass
+Europe_Eastern,regional biomass,regional biomass,regional biomass,2100,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,1975,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,1990,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2005,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2010,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2015,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2020,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2025,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2030,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2035,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2040,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2045,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2050,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2055,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2060,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2065,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2070,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2075,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2080,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2085,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2090,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2095,biomass
+Europe_Non_EU,regional biomass,regional biomass,regional biomass,2100,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,1975,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,1990,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2005,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2010,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2015,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2020,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2025,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2030,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2035,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2040,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2045,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2050,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2055,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2060,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2065,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2070,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2075,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2080,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2085,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2090,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2095,biomass
+European Free Trade Association,regional biomass,regional biomass,regional biomass,2100,biomass
+India,regional biomass,regional biomass,regional biomass,1975,biomass
+India,regional biomass,regional biomass,regional biomass,1990,biomass
+India,regional biomass,regional biomass,regional biomass,2005,biomass
+India,regional biomass,regional biomass,regional biomass,2010,biomass
+India,regional biomass,regional biomass,regional biomass,2015,biomass
+India,regional biomass,regional biomass,regional biomass,2020,biomass
+India,regional biomass,regional biomass,regional biomass,2025,biomass
+India,regional biomass,regional biomass,regional biomass,2030,biomass
+India,regional biomass,regional biomass,regional biomass,2035,biomass
+India,regional biomass,regional biomass,regional biomass,2040,biomass
+India,regional biomass,regional biomass,regional biomass,2045,biomass
+India,regional biomass,regional biomass,regional biomass,2050,biomass
+India,regional biomass,regional biomass,regional biomass,2055,biomass
+India,regional biomass,regional biomass,regional biomass,2060,biomass
+India,regional biomass,regional biomass,regional biomass,2065,biomass
+India,regional biomass,regional biomass,regional biomass,2070,biomass
+India,regional biomass,regional biomass,regional biomass,2075,biomass
+India,regional biomass,regional biomass,regional biomass,2080,biomass
+India,regional biomass,regional biomass,regional biomass,2085,biomass
+India,regional biomass,regional biomass,regional biomass,2090,biomass
+India,regional biomass,regional biomass,regional biomass,2095,biomass
+India,regional biomass,regional biomass,regional biomass,2100,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,1975,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,1990,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2005,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2010,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2015,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2020,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2025,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2030,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2035,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2040,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2045,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2050,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2055,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2060,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2065,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2070,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2075,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2080,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2085,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2090,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2095,biomass
+Indonesia,regional biomass,regional biomass,regional biomass,2100,biomass
+Japan,regional biomass,regional biomass,regional biomass,1975,biomass
+Japan,regional biomass,regional biomass,regional biomass,1990,biomass
+Japan,regional biomass,regional biomass,regional biomass,2005,biomass
+Japan,regional biomass,regional biomass,regional biomass,2010,biomass
+Japan,regional biomass,regional biomass,regional biomass,2015,biomass
+Japan,regional biomass,regional biomass,regional biomass,2020,biomass
+Japan,regional biomass,regional biomass,regional biomass,2025,biomass
+Japan,regional biomass,regional biomass,regional biomass,2030,biomass
+Japan,regional biomass,regional biomass,regional biomass,2035,biomass
+Japan,regional biomass,regional biomass,regional biomass,2040,biomass
+Japan,regional biomass,regional biomass,regional biomass,2045,biomass
+Japan,regional biomass,regional biomass,regional biomass,2050,biomass
+Japan,regional biomass,regional biomass,regional biomass,2055,biomass
+Japan,regional biomass,regional biomass,regional biomass,2060,biomass
+Japan,regional biomass,regional biomass,regional biomass,2065,biomass
+Japan,regional biomass,regional biomass,regional biomass,2070,biomass
+Japan,regional biomass,regional biomass,regional biomass,2075,biomass
+Japan,regional biomass,regional biomass,regional biomass,2080,biomass
+Japan,regional biomass,regional biomass,regional biomass,2085,biomass
+Japan,regional biomass,regional biomass,regional biomass,2090,biomass
+Japan,regional biomass,regional biomass,regional biomass,2095,biomass
+Japan,regional biomass,regional biomass,regional biomass,2100,biomass
+Mexico,regional biomass,regional biomass,regional biomass,1975,biomass
+Mexico,regional biomass,regional biomass,regional biomass,1990,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2005,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2010,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2015,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2020,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2025,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2030,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2035,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2040,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2045,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2050,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2055,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2060,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2065,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2070,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2075,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2080,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2085,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2090,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2095,biomass
+Mexico,regional biomass,regional biomass,regional biomass,2100,biomass
+Middle East,regional biomass,regional biomass,regional biomass,1975,biomass
+Middle East,regional biomass,regional biomass,regional biomass,1990,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2005,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2010,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2015,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2020,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2025,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2030,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2035,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2040,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2045,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2050,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2055,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2060,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2065,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2070,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2075,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2080,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2085,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2090,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2095,biomass
+Middle East,regional biomass,regional biomass,regional biomass,2100,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,1975,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,1990,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2005,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2010,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2015,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2020,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2025,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2030,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2035,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2040,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2045,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2050,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2055,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2060,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2065,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2070,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2075,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2080,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2085,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2090,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2095,biomass
+Pakistan,regional biomass,regional biomass,regional biomass,2100,biomass
+Russia,regional biomass,regional biomass,regional biomass,1975,biomass
+Russia,regional biomass,regional biomass,regional biomass,1990,biomass
+Russia,regional biomass,regional biomass,regional biomass,2005,biomass
+Russia,regional biomass,regional biomass,regional biomass,2010,biomass
+Russia,regional biomass,regional biomass,regional biomass,2015,biomass
+Russia,regional biomass,regional biomass,regional biomass,2020,biomass
+Russia,regional biomass,regional biomass,regional biomass,2025,biomass
+Russia,regional biomass,regional biomass,regional biomass,2030,biomass
+Russia,regional biomass,regional biomass,regional biomass,2035,biomass
+Russia,regional biomass,regional biomass,regional biomass,2040,biomass
+Russia,regional biomass,regional biomass,regional biomass,2045,biomass
+Russia,regional biomass,regional biomass,regional biomass,2050,biomass
+Russia,regional biomass,regional biomass,regional biomass,2055,biomass
+Russia,regional biomass,regional biomass,regional biomass,2060,biomass
+Russia,regional biomass,regional biomass,regional biomass,2065,biomass
+Russia,regional biomass,regional biomass,regional biomass,2070,biomass
+Russia,regional biomass,regional biomass,regional biomass,2075,biomass
+Russia,regional biomass,regional biomass,regional biomass,2080,biomass
+Russia,regional biomass,regional biomass,regional biomass,2085,biomass
+Russia,regional biomass,regional biomass,regional biomass,2090,biomass
+Russia,regional biomass,regional biomass,regional biomass,2095,biomass
+Russia,regional biomass,regional biomass,regional biomass,2100,biomass
+South Africa,regional biomass,regional biomass,regional biomass,1975,biomass
+South Africa,regional biomass,regional biomass,regional biomass,1990,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2005,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2010,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2015,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2020,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2025,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2030,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2035,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2040,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2045,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2050,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2055,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2060,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2065,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2070,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2075,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2080,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2085,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2090,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2095,biomass
+South Africa,regional biomass,regional biomass,regional biomass,2100,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,1975,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,1990,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2005,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2010,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2015,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2020,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2025,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2030,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2035,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2040,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2045,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2050,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2055,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2060,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2065,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2070,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2075,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2080,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2085,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2090,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2095,biomass
+South America_Northern,regional biomass,regional biomass,regional biomass,2100,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,1975,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,1990,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2005,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2010,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2015,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2020,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2025,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2030,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2035,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2040,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2045,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2050,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2055,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2060,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2065,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2070,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2075,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2080,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2085,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2090,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2095,biomass
+South America_Southern,regional biomass,regional biomass,regional biomass,2100,biomass
+South Asia,regional biomass,regional biomass,regional biomass,1975,biomass
+South Asia,regional biomass,regional biomass,regional biomass,1990,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2005,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2010,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2015,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2020,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2025,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2030,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2035,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2040,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2045,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2050,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2055,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2060,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2065,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2070,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2075,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2080,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2085,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2090,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2095,biomass
+South Asia,regional biomass,regional biomass,regional biomass,2100,biomass
+South Korea,regional biomass,regional biomass,regional biomass,1975,biomass
+South Korea,regional biomass,regional biomass,regional biomass,1990,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2005,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2010,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2015,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2020,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2025,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2030,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2035,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2040,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2045,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2050,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2055,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2060,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2065,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2070,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2075,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2080,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2085,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2090,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2095,biomass
+South Korea,regional biomass,regional biomass,regional biomass,2100,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,1975,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,1990,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2005,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2010,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2015,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2020,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2025,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2030,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2035,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2040,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2045,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2050,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2055,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2060,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2065,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2070,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2075,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2080,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2085,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2090,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2095,biomass
+Southeast Asia,regional biomass,regional biomass,regional biomass,2100,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,1975,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,1990,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2005,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2010,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2015,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2020,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2025,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2030,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2035,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2040,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2045,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2050,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2055,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2060,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2065,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2070,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2075,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2080,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2085,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2090,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2095,biomass
+Taiwan,regional biomass,regional biomass,regional biomass,2100,biomass
+Argentina,regional biomass,regional biomass,regional biomass,1975,biomass
+Argentina,regional biomass,regional biomass,regional biomass,1990,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2005,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2010,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2015,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2020,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2025,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2030,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2035,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2040,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2045,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2050,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2055,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2060,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2065,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2070,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2075,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2080,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2085,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2090,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2095,biomass
+Argentina,regional biomass,regional biomass,regional biomass,2100,biomass
+Colombia,regional biomass,regional biomass,regional biomass,1975,biomass
+Colombia,regional biomass,regional biomass,regional biomass,1990,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2005,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2010,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2015,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2020,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2025,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2030,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2035,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2040,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2045,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2050,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2055,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2060,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2065,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2070,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2075,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2080,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2085,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2090,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2095,biomass
+Colombia,regional biomass,regional biomass,regional biomass,2100,biomass

@@ -1,0 +1,3843 @@
+# Generic fertilizer production data was broken down using country-level fuel share and energy intensity data.
+# Re-allocation of energy use between energy and feedstock quantities for the industrial sector was done to avoid negative values at the country level, before aggregating to the regional level.
+GCAM_region_ID,sector,fuel,year,value
+1,N fertilizer,coal,1971,0
+1,N fertilizer,coal,1972,0
+1,N fertilizer,coal,1973,0
+1,N fertilizer,coal,1974,0
+1,N fertilizer,coal,1975,0
+1,N fertilizer,coal,1976,0
+1,N fertilizer,coal,1977,0
+1,N fertilizer,coal,1978,0
+1,N fertilizer,coal,1979,0
+1,N fertilizer,coal,1980,0
+1,N fertilizer,coal,1981,0
+1,N fertilizer,coal,1982,0
+1,N fertilizer,coal,1983,0
+1,N fertilizer,coal,1984,0
+1,N fertilizer,coal,1985,0
+1,N fertilizer,coal,1986,0
+1,N fertilizer,coal,1987,0
+1,N fertilizer,coal,1988,0
+1,N fertilizer,coal,1989,0
+1,N fertilizer,coal,1990,0
+1,N fertilizer,coal,1991,0
+1,N fertilizer,coal,1992,0
+1,N fertilizer,coal,1993,0
+1,N fertilizer,coal,1994,0
+1,N fertilizer,coal,1995,0
+1,N fertilizer,coal,1996,0
+1,N fertilizer,coal,1997,0
+1,N fertilizer,coal,1998,0
+1,N fertilizer,coal,1999,0
+1,N fertilizer,coal,2000,0
+1,N fertilizer,coal,2001,0
+1,N fertilizer,coal,2002,0
+1,N fertilizer,coal,2003,0
+1,N fertilizer,coal,2004,0
+1,N fertilizer,coal,2005,0
+1,N fertilizer,coal,2006,0
+1,N fertilizer,coal,2007,0
+1,N fertilizer,coal,2008,0
+1,N fertilizer,coal,2009,0
+1,N fertilizer,coal,2010,0
+1,N fertilizer,gas,1971,0.04602142857142857
+1,N fertilizer,gas,1972,0.04602142857142857
+1,N fertilizer,gas,1973,0.04602142857142857
+1,N fertilizer,gas,1974,0.04602142857142857
+1,N fertilizer,gas,1975,0.04602142857142857
+1,N fertilizer,gas,1976,0.04602142857142857
+1,N fertilizer,gas,1977,0.04602142857142857
+1,N fertilizer,gas,1978,0.04602142857142857
+1,N fertilizer,gas,1979,0.04602142857142857
+1,N fertilizer,gas,1980,0.04602142857142857
+1,N fertilizer,gas,1981,0.04602142857142857
+1,N fertilizer,gas,1982,0.04602142857142857
+1,N fertilizer,gas,1983,0.04602142857142857
+1,N fertilizer,gas,1984,0.04602142857142857
+1,N fertilizer,gas,1985,0.04602142857142857
+1,N fertilizer,gas,1986,0.04602142857142857
+1,N fertilizer,gas,1987,0.04602142857142857
+1,N fertilizer,gas,1988,0.04602142857142857
+1,N fertilizer,gas,1989,0.04602142857142857
+1,N fertilizer,gas,1990,0.04602142857142856
+1,N fertilizer,gas,1991,0.04602142857142857
+1,N fertilizer,gas,1992,0.04602142857142857
+1,N fertilizer,gas,1993,0.04602142857142857
+1,N fertilizer,gas,1994,0.04602142857142857
+1,N fertilizer,gas,1995,0.04602142857142856
+1,N fertilizer,gas,1996,0.04602142857142856
+1,N fertilizer,gas,1997,0.04602142857142857
+1,N fertilizer,gas,1998,0.04602142857142856
+1,N fertilizer,gas,1999,0.04602142857142857
+1,N fertilizer,gas,2000,0.04602142857142857
+1,N fertilizer,gas,2001,0.04602142857142857
+1,N fertilizer,gas,2002,0.04602142857142857
+1,N fertilizer,gas,2003,0.04602142857142857
+1,N fertilizer,gas,2004,0.04602142857142857
+1,N fertilizer,gas,2005,0.04602142857142857
+1,N fertilizer,gas,2006,0.04602142857142857
+1,N fertilizer,gas,2007,0.04602142857142857
+1,N fertilizer,gas,2008,0.04602142857142857
+1,N fertilizer,gas,2009,0.04602142857142857
+1,N fertilizer,gas,2010,0.04602142857142857
+1,N fertilizer,refined liquids,1971,0
+1,N fertilizer,refined liquids,1972,0
+1,N fertilizer,refined liquids,1973,0
+1,N fertilizer,refined liquids,1974,0
+1,N fertilizer,refined liquids,1975,0
+1,N fertilizer,refined liquids,1976,0
+1,N fertilizer,refined liquids,1977,0
+1,N fertilizer,refined liquids,1978,0
+1,N fertilizer,refined liquids,1979,0
+1,N fertilizer,refined liquids,1980,0
+1,N fertilizer,refined liquids,1981,0
+1,N fertilizer,refined liquids,1982,0
+1,N fertilizer,refined liquids,1983,0
+1,N fertilizer,refined liquids,1984,0
+1,N fertilizer,refined liquids,1985,0
+1,N fertilizer,refined liquids,1986,0
+1,N fertilizer,refined liquids,1987,0
+1,N fertilizer,refined liquids,1988,0
+1,N fertilizer,refined liquids,1989,0
+1,N fertilizer,refined liquids,1990,0
+1,N fertilizer,refined liquids,1991,0
+1,N fertilizer,refined liquids,1992,0
+1,N fertilizer,refined liquids,1993,0
+1,N fertilizer,refined liquids,1994,0
+1,N fertilizer,refined liquids,1995,0
+1,N fertilizer,refined liquids,1996,0
+1,N fertilizer,refined liquids,1997,0
+1,N fertilizer,refined liquids,1998,0
+1,N fertilizer,refined liquids,1999,0
+1,N fertilizer,refined liquids,2000,0
+1,N fertilizer,refined liquids,2001,0
+1,N fertilizer,refined liquids,2002,0
+1,N fertilizer,refined liquids,2003,0
+1,N fertilizer,refined liquids,2004,0
+1,N fertilizer,refined liquids,2005,0
+1,N fertilizer,refined liquids,2006,0
+1,N fertilizer,refined liquids,2007,0
+1,N fertilizer,refined liquids,2008,0
+1,N fertilizer,refined liquids,2009,0
+1,N fertilizer,refined liquids,2010,0
+2,N fertilizer,coal,1971,0
+2,N fertilizer,coal,1972,0
+2,N fertilizer,coal,1973,0
+2,N fertilizer,coal,1974,0
+2,N fertilizer,coal,1975,0
+2,N fertilizer,coal,1976,0
+2,N fertilizer,coal,1977,0
+2,N fertilizer,coal,1978,0
+2,N fertilizer,coal,1979,0
+2,N fertilizer,coal,1980,0
+2,N fertilizer,coal,1981,0
+2,N fertilizer,coal,1982,0
+2,N fertilizer,coal,1983,0
+2,N fertilizer,coal,1984,0
+2,N fertilizer,coal,1985,0
+2,N fertilizer,coal,1986,0
+2,N fertilizer,coal,1987,0
+2,N fertilizer,coal,1988,0
+2,N fertilizer,coal,1989,0
+2,N fertilizer,coal,1990,0
+2,N fertilizer,coal,1991,0
+2,N fertilizer,coal,1992,0
+2,N fertilizer,coal,1993,0
+2,N fertilizer,coal,1994,0
+2,N fertilizer,coal,1995,0
+2,N fertilizer,coal,1996,0
+2,N fertilizer,coal,1997,0
+2,N fertilizer,coal,1998,0
+2,N fertilizer,coal,1999,0
+2,N fertilizer,coal,2000,0
+2,N fertilizer,coal,2001,0
+2,N fertilizer,coal,2002,0
+2,N fertilizer,coal,2003,0
+2,N fertilizer,coal,2004,0
+2,N fertilizer,coal,2005,0
+2,N fertilizer,coal,2006,0
+2,N fertilizer,coal,2007,0
+2,N fertilizer,coal,2008,0
+2,N fertilizer,coal,2009,0
+2,N fertilizer,coal,2010,0
+2,N fertilizer,gas,1971,0
+2,N fertilizer,gas,1972,0
+2,N fertilizer,gas,1973,0
+2,N fertilizer,gas,1974,0
+2,N fertilizer,gas,1975,0
+2,N fertilizer,gas,1976,0
+2,N fertilizer,gas,1977,0
+2,N fertilizer,gas,1978,0
+2,N fertilizer,gas,1979,0
+2,N fertilizer,gas,1980,0
+2,N fertilizer,gas,1981,0
+2,N fertilizer,gas,1982,0
+2,N fertilizer,gas,1983,0
+2,N fertilizer,gas,1984,0
+2,N fertilizer,gas,1985,0
+2,N fertilizer,gas,1986,0
+2,N fertilizer,gas,1987,0
+2,N fertilizer,gas,1988,0
+2,N fertilizer,gas,1989,0
+2,N fertilizer,gas,1990,0
+2,N fertilizer,gas,1991,0
+2,N fertilizer,gas,1992,0
+2,N fertilizer,gas,1993,0
+2,N fertilizer,gas,1994,0
+2,N fertilizer,gas,1995,0
+2,N fertilizer,gas,1996,0
+2,N fertilizer,gas,1997,0
+2,N fertilizer,gas,1998,0
+2,N fertilizer,gas,1999,0
+2,N fertilizer,gas,2000,0
+2,N fertilizer,gas,2001,0
+2,N fertilizer,gas,2002,0
+2,N fertilizer,gas,2003,0
+2,N fertilizer,gas,2004,0
+2,N fertilizer,gas,2005,0
+2,N fertilizer,gas,2006,0
+2,N fertilizer,gas,2007,0
+2,N fertilizer,gas,2008,0
+2,N fertilizer,gas,2009,0
+2,N fertilizer,gas,2010,0
+2,N fertilizer,refined liquids,1971,0
+2,N fertilizer,refined liquids,1972,0.05464285714285715
+2,N fertilizer,refined liquids,1973,0.054642857142857146
+2,N fertilizer,refined liquids,1974,0.054642857142857146
+2,N fertilizer,refined liquids,1975,0.054642857142857146
+2,N fertilizer,refined liquids,1976,0.054642857142857146
+2,N fertilizer,refined liquids,1977,0.054642857142857146
+2,N fertilizer,refined liquids,1978,0.054642857142857146
+2,N fertilizer,refined liquids,1979,0.054642857142857146
+2,N fertilizer,refined liquids,1980,0.054642857142857146
+2,N fertilizer,refined liquids,1981,0.054642857142857146
+2,N fertilizer,refined liquids,1982,0.05464285714285715
+2,N fertilizer,refined liquids,1983,0.054642857142857146
+2,N fertilizer,refined liquids,1984,0.054642857142857146
+2,N fertilizer,refined liquids,1985,0.054642857142857146
+2,N fertilizer,refined liquids,1986,0.054642857142857146
+2,N fertilizer,refined liquids,1987,0.054642857142857146
+2,N fertilizer,refined liquids,1988,0.054642857142857146
+2,N fertilizer,refined liquids,1989,0.054642857142857146
+2,N fertilizer,refined liquids,1990,0.054642857142857146
+2,N fertilizer,refined liquids,1991,0.054642857142857146
+2,N fertilizer,refined liquids,1992,0.054642857142857146
+2,N fertilizer,refined liquids,1993,0.05464285714285715
+2,N fertilizer,refined liquids,1994,0.054642857142857146
+2,N fertilizer,refined liquids,1995,0.054642857142857146
+2,N fertilizer,refined liquids,1996,0.054642857142857146
+2,N fertilizer,refined liquids,1997,0.054642857142857146
+2,N fertilizer,refined liquids,1998,0.054642857142857146
+2,N fertilizer,refined liquids,1999,0.054642857142857146
+2,N fertilizer,refined liquids,2000,0.054642857142857146
+2,N fertilizer,refined liquids,2001,0.054642857142857146
+2,N fertilizer,refined liquids,2002,0.05464285714285714
+2,N fertilizer,refined liquids,2003,0.054642857142857146
+2,N fertilizer,refined liquids,2004,0.05464285714285715
+2,N fertilizer,refined liquids,2005,0.054642857142857146
+2,N fertilizer,refined liquids,2006,0.054642857142857146
+2,N fertilizer,refined liquids,2007,0
+2,N fertilizer,refined liquids,2008,0
+2,N fertilizer,refined liquids,2009,0
+2,N fertilizer,refined liquids,2010,0
+3,N fertilizer,coal,1971,0
+3,N fertilizer,coal,1972,0
+3,N fertilizer,coal,1973,0
+3,N fertilizer,coal,1974,0
+3,N fertilizer,coal,1975,0
+3,N fertilizer,coal,1976,0
+3,N fertilizer,coal,1977,0
+3,N fertilizer,coal,1978,0
+3,N fertilizer,coal,1979,0
+3,N fertilizer,coal,1980,0
+3,N fertilizer,coal,1981,0
+3,N fertilizer,coal,1982,0
+3,N fertilizer,coal,1983,0
+3,N fertilizer,coal,1984,0
+3,N fertilizer,coal,1985,0
+3,N fertilizer,coal,1986,0
+3,N fertilizer,coal,1987,0
+3,N fertilizer,coal,1988,0
+3,N fertilizer,coal,1989,0
+3,N fertilizer,coal,1990,0
+3,N fertilizer,coal,1991,0
+3,N fertilizer,coal,1992,0
+3,N fertilizer,coal,1993,0
+3,N fertilizer,coal,1994,0
+3,N fertilizer,coal,1995,0
+3,N fertilizer,coal,1996,0
+3,N fertilizer,coal,1997,0
+3,N fertilizer,coal,1998,0
+3,N fertilizer,coal,1999,0
+3,N fertilizer,coal,2000,0
+3,N fertilizer,coal,2001,0
+3,N fertilizer,coal,2002,0
+3,N fertilizer,coal,2003,0
+3,N fertilizer,coal,2004,0
+3,N fertilizer,coal,2005,0
+3,N fertilizer,coal,2006,0
+3,N fertilizer,coal,2007,0
+3,N fertilizer,coal,2008,0
+3,N fertilizer,coal,2009,0
+3,N fertilizer,coal,2010,0
+3,N fertilizer,gas,1971,0.043714285714285706
+3,N fertilizer,gas,1972,0.04371428571428572
+3,N fertilizer,gas,1973,0.04371428571428571
+3,N fertilizer,gas,1974,0.04371428571428571
+3,N fertilizer,gas,1975,0.043714285714285706
+3,N fertilizer,gas,1976,0.043714285714285706
+3,N fertilizer,gas,1977,0.04371428571428571
+3,N fertilizer,gas,1978,0.04371428571428572
+3,N fertilizer,gas,1979,0.04371428571428571
+3,N fertilizer,gas,1980,0.04371428571428572
+3,N fertilizer,gas,1981,0.04371428571428571
+3,N fertilizer,gas,1982,0.04371428571428571
+3,N fertilizer,gas,1983,0.04371428571428571
+3,N fertilizer,gas,1984,0.04371428571428571
+3,N fertilizer,gas,1985,0.04371428571428571
+3,N fertilizer,gas,1986,0.04371428571428572
+3,N fertilizer,gas,1987,0.04371428571428571
+3,N fertilizer,gas,1988,0.043714285714285706
+3,N fertilizer,gas,1989,0.04371428571428571
+3,N fertilizer,gas,1990,0.04371428571428571
+3,N fertilizer,gas,1991,0.04371428571428571
+3,N fertilizer,gas,1992,0.043714285714285706
+3,N fertilizer,gas,1993,0.04371428571428571
+3,N fertilizer,gas,1994,0.04371428571428571
+3,N fertilizer,gas,1995,0.04371428571428571
+3,N fertilizer,gas,1996,0.04371428571428571
+3,N fertilizer,gas,1997,0.04371428571428572
+3,N fertilizer,gas,1998,0.04371428571428571
+3,N fertilizer,gas,1999,0.04371428571428572
+3,N fertilizer,gas,2000,0.043714285714285706
+3,N fertilizer,gas,2001,0.04371428571428571
+3,N fertilizer,gas,2002,0.04371428571428572
+3,N fertilizer,gas,2003,0.04371428571428572
+3,N fertilizer,gas,2004,0.04371428571428571
+3,N fertilizer,gas,2005,0.04371428571428571
+3,N fertilizer,gas,2006,0.04371428571428571
+3,N fertilizer,gas,2007,0.04371428571428572
+3,N fertilizer,gas,2008,0.04371428571428571
+3,N fertilizer,gas,2009,0.04371428571428571
+3,N fertilizer,gas,2010,0.04371428571428571
+3,N fertilizer,refined liquids,1971,0
+3,N fertilizer,refined liquids,1972,0
+3,N fertilizer,refined liquids,1973,0
+3,N fertilizer,refined liquids,1974,0
+3,N fertilizer,refined liquids,1975,0
+3,N fertilizer,refined liquids,1976,0
+3,N fertilizer,refined liquids,1977,0
+3,N fertilizer,refined liquids,1978,0
+3,N fertilizer,refined liquids,1979,0
+3,N fertilizer,refined liquids,1980,0
+3,N fertilizer,refined liquids,1981,0
+3,N fertilizer,refined liquids,1982,0
+3,N fertilizer,refined liquids,1983,0
+3,N fertilizer,refined liquids,1984,0
+3,N fertilizer,refined liquids,1985,0
+3,N fertilizer,refined liquids,1986,0
+3,N fertilizer,refined liquids,1987,0
+3,N fertilizer,refined liquids,1988,0
+3,N fertilizer,refined liquids,1989,0
+3,N fertilizer,refined liquids,1990,0
+3,N fertilizer,refined liquids,1991,0
+3,N fertilizer,refined liquids,1992,0
+3,N fertilizer,refined liquids,1993,0
+3,N fertilizer,refined liquids,1994,0
+3,N fertilizer,refined liquids,1995,0
+3,N fertilizer,refined liquids,1996,0
+3,N fertilizer,refined liquids,1997,0
+3,N fertilizer,refined liquids,1998,0
+3,N fertilizer,refined liquids,1999,0
+3,N fertilizer,refined liquids,2000,0
+3,N fertilizer,refined liquids,2001,0
+3,N fertilizer,refined liquids,2002,0
+3,N fertilizer,refined liquids,2003,0
+3,N fertilizer,refined liquids,2004,0
+3,N fertilizer,refined liquids,2005,0
+3,N fertilizer,refined liquids,2006,0
+3,N fertilizer,refined liquids,2007,0
+3,N fertilizer,refined liquids,2008,0
+3,N fertilizer,refined liquids,2009,0
+3,N fertilizer,refined liquids,2010,0
+4,N fertilizer,coal,1971,0
+4,N fertilizer,coal,1972,0
+4,N fertilizer,coal,1973,0
+4,N fertilizer,coal,1974,0
+4,N fertilizer,coal,1975,0
+4,N fertilizer,coal,1976,0
+4,N fertilizer,coal,1977,0
+4,N fertilizer,coal,1978,0
+4,N fertilizer,coal,1979,0
+4,N fertilizer,coal,1980,0
+4,N fertilizer,coal,1981,0
+4,N fertilizer,coal,1982,0
+4,N fertilizer,coal,1983,0
+4,N fertilizer,coal,1984,0
+4,N fertilizer,coal,1985,0
+4,N fertilizer,coal,1986,0
+4,N fertilizer,coal,1987,0
+4,N fertilizer,coal,1988,0
+4,N fertilizer,coal,1989,0
+4,N fertilizer,coal,1990,0
+4,N fertilizer,coal,1991,0
+4,N fertilizer,coal,1992,0
+4,N fertilizer,coal,1993,0
+4,N fertilizer,coal,1994,0
+4,N fertilizer,coal,1995,0
+4,N fertilizer,coal,1996,0
+4,N fertilizer,coal,1997,0
+4,N fertilizer,coal,1998,0
+4,N fertilizer,coal,1999,0
+4,N fertilizer,coal,2000,0
+4,N fertilizer,coal,2001,0
+4,N fertilizer,coal,2002,0
+4,N fertilizer,coal,2003,0
+4,N fertilizer,coal,2004,0
+4,N fertilizer,coal,2005,0
+4,N fertilizer,coal,2006,0
+4,N fertilizer,coal,2007,0
+4,N fertilizer,coal,2008,0
+4,N fertilizer,coal,2009,0
+4,N fertilizer,coal,2010,0
+4,N fertilizer,gas,1971,0
+4,N fertilizer,gas,1972,0
+4,N fertilizer,gas,1973,0
+4,N fertilizer,gas,1974,0
+4,N fertilizer,gas,1975,0
+4,N fertilizer,gas,1976,0
+4,N fertilizer,gas,1977,0.04371428571428571
+4,N fertilizer,gas,1978,0.04371428571428571
+4,N fertilizer,gas,1979,0.04371428571428571
+4,N fertilizer,gas,1980,0.04371428571428571
+4,N fertilizer,gas,1981,0.04371428571428571
+4,N fertilizer,gas,1982,0.043714285714285706
+4,N fertilizer,gas,1983,0.04371428571428572
+4,N fertilizer,gas,1984,0.04371428571428571
+4,N fertilizer,gas,1985,0.04371428571428572
+4,N fertilizer,gas,1986,0.043714285714285706
+4,N fertilizer,gas,1987,0.043714285714285706
+4,N fertilizer,gas,1988,0.04371428571428571
+4,N fertilizer,gas,1989,0.04371428571428571
+4,N fertilizer,gas,1990,0.04371428571428571
+4,N fertilizer,gas,1991,0.04371428571428572
+4,N fertilizer,gas,1992,0.04371428571428571
+4,N fertilizer,gas,1993,0.04371428571428571
+4,N fertilizer,gas,1994,0.04371428571428571
+4,N fertilizer,gas,1995,0.04371428571428572
+4,N fertilizer,gas,1996,0.04371428571428571
+4,N fertilizer,gas,1997,0.04371428571428571
+4,N fertilizer,gas,1998,0.04371428571428571
+4,N fertilizer,gas,1999,0.04371428571428571
+4,N fertilizer,gas,2000,0.04371428571428571
+4,N fertilizer,gas,2001,0.04371428571428571
+4,N fertilizer,gas,2002,0.04371428571428571
+4,N fertilizer,gas,2003,0.04371428571428571
+4,N fertilizer,gas,2004,0.04371428571428571
+4,N fertilizer,gas,2005,0.04371428571428571
+4,N fertilizer,gas,2006,0.04371428571428571
+4,N fertilizer,gas,2007,0.043714285714285706
+4,N fertilizer,gas,2008,0.04371428571428571
+4,N fertilizer,gas,2009,0.04371428571428571
+4,N fertilizer,gas,2010,0.043714285714285706
+4,N fertilizer,refined liquids,1971,0.054642857142857146
+4,N fertilizer,refined liquids,1972,0.05464285714285715
+4,N fertilizer,refined liquids,1973,0.05464285714285714
+4,N fertilizer,refined liquids,1974,0.05464285714285715
+4,N fertilizer,refined liquids,1975,0.054642857142857146
+4,N fertilizer,refined liquids,1976,0.054642857142857146
+4,N fertilizer,refined liquids,1977,0.05464285714285714
+4,N fertilizer,refined liquids,1978,0.054642857142857146
+4,N fertilizer,refined liquids,1979,0.05464285714285715
+4,N fertilizer,refined liquids,1980,0.054642857142857146
+4,N fertilizer,refined liquids,1981,0.054642857142857146
+4,N fertilizer,refined liquids,1982,0.05464285714285714
+4,N fertilizer,refined liquids,1983,0.054642857142857146
+4,N fertilizer,refined liquids,1984,0.054642857142857146
+4,N fertilizer,refined liquids,1985,0.054642857142857146
+4,N fertilizer,refined liquids,1986,0.05464285714285714
+4,N fertilizer,refined liquids,1987,0.05464285714285715
+4,N fertilizer,refined liquids,1988,0.054642857142857146
+4,N fertilizer,refined liquids,1989,0.054642857142857146
+4,N fertilizer,refined liquids,1990,0
+4,N fertilizer,refined liquids,1991,0
+4,N fertilizer,refined liquids,1992,0
+4,N fertilizer,refined liquids,1993,0
+4,N fertilizer,refined liquids,1994,0
+4,N fertilizer,refined liquids,1995,0
+4,N fertilizer,refined liquids,1996,0
+4,N fertilizer,refined liquids,1997,0
+4,N fertilizer,refined liquids,1998,0
+4,N fertilizer,refined liquids,1999,0
+4,N fertilizer,refined liquids,2000,0
+4,N fertilizer,refined liquids,2001,0
+4,N fertilizer,refined liquids,2002,0
+4,N fertilizer,refined liquids,2003,0
+4,N fertilizer,refined liquids,2004,0
+4,N fertilizer,refined liquids,2005,0
+4,N fertilizer,refined liquids,2006,0
+4,N fertilizer,refined liquids,2007,0
+4,N fertilizer,refined liquids,2008,0
+4,N fertilizer,refined liquids,2009,0
+4,N fertilizer,refined liquids,2010,0
+5,N fertilizer,coal,1971,0
+5,N fertilizer,coal,1972,0
+5,N fertilizer,coal,1973,0
+5,N fertilizer,coal,1974,0
+5,N fertilizer,coal,1975,0
+5,N fertilizer,coal,1976,0
+5,N fertilizer,coal,1977,0
+5,N fertilizer,coal,1978,0
+5,N fertilizer,coal,1979,0
+5,N fertilizer,coal,1980,0
+5,N fertilizer,coal,1981,0
+5,N fertilizer,coal,1982,0
+5,N fertilizer,coal,1983,0
+5,N fertilizer,coal,1984,0
+5,N fertilizer,coal,1985,0
+5,N fertilizer,coal,1986,0
+5,N fertilizer,coal,1987,0
+5,N fertilizer,coal,1988,0
+5,N fertilizer,coal,1989,0
+5,N fertilizer,coal,1990,0
+5,N fertilizer,coal,1991,0
+5,N fertilizer,coal,1992,0
+5,N fertilizer,coal,1993,0
+5,N fertilizer,coal,1994,0
+5,N fertilizer,coal,1995,0
+5,N fertilizer,coal,1996,0
+5,N fertilizer,coal,1997,0
+5,N fertilizer,coal,1998,0
+5,N fertilizer,coal,1999,0
+5,N fertilizer,coal,2000,0
+5,N fertilizer,coal,2001,0
+5,N fertilizer,coal,2002,0
+5,N fertilizer,coal,2003,0
+5,N fertilizer,coal,2004,0
+5,N fertilizer,coal,2005,0
+5,N fertilizer,coal,2006,0
+5,N fertilizer,coal,2007,0
+5,N fertilizer,coal,2008,0
+5,N fertilizer,coal,2009,0
+5,N fertilizer,coal,2010,0
+5,N fertilizer,gas,1971,0.043714285714285706
+5,N fertilizer,gas,1972,0
+5,N fertilizer,gas,1973,0.04371428571428571
+5,N fertilizer,gas,1974,0.04371428571428571
+5,N fertilizer,gas,1975,0.04371428571428571
+5,N fertilizer,gas,1976,0.04371428571428571
+5,N fertilizer,gas,1977,0.04371428571428571
+5,N fertilizer,gas,1978,0.04371428571428571
+5,N fertilizer,gas,1979,0.043714285714285706
+5,N fertilizer,gas,1980,0.04371428571428571
+5,N fertilizer,gas,1981,0.04371428571428571
+5,N fertilizer,gas,1982,0.043714285714285706
+5,N fertilizer,gas,1983,0.04371428571428571
+5,N fertilizer,gas,1984,0.043714285714285706
+5,N fertilizer,gas,1985,0.04371428571428571
+5,N fertilizer,gas,1986,0.04371428571428571
+5,N fertilizer,gas,1987,0.04371428571428571
+5,N fertilizer,gas,1988,0.04371428571428572
+5,N fertilizer,gas,1989,0.04371428571428571
+5,N fertilizer,gas,1990,0.043714285714285706
+5,N fertilizer,gas,1991,0.04371428571428571
+5,N fertilizer,gas,1992,0.04371428571428571
+5,N fertilizer,gas,1993,0.043714285714285706
+5,N fertilizer,gas,1994,0.04371428571428571
+5,N fertilizer,gas,1995,0.04371428571428571
+5,N fertilizer,gas,1996,0.04371428571428571
+5,N fertilizer,gas,1997,0.04371428571428572
+5,N fertilizer,gas,1998,0.04371428571428571
+5,N fertilizer,gas,1999,0.04371428571428571
+5,N fertilizer,gas,2000,0.04371428571428571
+5,N fertilizer,gas,2001,0.04371428571428571
+5,N fertilizer,gas,2002,0.043714285714285706
+5,N fertilizer,gas,2003,0.04371428571428571
+5,N fertilizer,gas,2004,0.04371428571428571
+5,N fertilizer,gas,2005,0.04371428571428571
+5,N fertilizer,gas,2006,0.04371428571428571
+5,N fertilizer,gas,2007,0.04371428571428571
+5,N fertilizer,gas,2008,0.04371428571428572
+5,N fertilizer,gas,2009,0.04371428571428571
+5,N fertilizer,gas,2010,0.04371428571428571
+5,N fertilizer,refined liquids,1971,0.05464285714285714
+5,N fertilizer,refined liquids,1972,0.05464285714285715
+5,N fertilizer,refined liquids,1973,0
+5,N fertilizer,refined liquids,1974,0
+5,N fertilizer,refined liquids,1975,0
+5,N fertilizer,refined liquids,1976,0
+5,N fertilizer,refined liquids,1977,0
+5,N fertilizer,refined liquids,1978,0
+5,N fertilizer,refined liquids,1979,0
+5,N fertilizer,refined liquids,1980,0
+5,N fertilizer,refined liquids,1981,0
+5,N fertilizer,refined liquids,1982,0
+5,N fertilizer,refined liquids,1983,0
+5,N fertilizer,refined liquids,1984,0
+5,N fertilizer,refined liquids,1985,0
+5,N fertilizer,refined liquids,1986,0
+5,N fertilizer,refined liquids,1987,0
+5,N fertilizer,refined liquids,1988,0
+5,N fertilizer,refined liquids,1989,0
+5,N fertilizer,refined liquids,1990,0
+5,N fertilizer,refined liquids,1991,0
+5,N fertilizer,refined liquids,1992,0
+5,N fertilizer,refined liquids,1993,0
+5,N fertilizer,refined liquids,1994,0
+5,N fertilizer,refined liquids,1995,0
+5,N fertilizer,refined liquids,1996,0
+5,N fertilizer,refined liquids,1997,0
+5,N fertilizer,refined liquids,1998,0
+5,N fertilizer,refined liquids,1999,0
+5,N fertilizer,refined liquids,2000,0
+5,N fertilizer,refined liquids,2001,0
+5,N fertilizer,refined liquids,2002,0
+5,N fertilizer,refined liquids,2003,0
+5,N fertilizer,refined liquids,2004,0
+5,N fertilizer,refined liquids,2005,0
+5,N fertilizer,refined liquids,2006,0
+5,N fertilizer,refined liquids,2007,0
+5,N fertilizer,refined liquids,2008,0
+5,N fertilizer,refined liquids,2009,0
+5,N fertilizer,refined liquids,2010,0
+6,N fertilizer,coal,1971,0
+6,N fertilizer,coal,1972,0
+6,N fertilizer,coal,1973,0
+6,N fertilizer,coal,1974,0
+6,N fertilizer,coal,1975,0
+6,N fertilizer,coal,1976,0
+6,N fertilizer,coal,1977,0
+6,N fertilizer,coal,1978,0
+6,N fertilizer,coal,1979,0
+6,N fertilizer,coal,1980,0
+6,N fertilizer,coal,1981,0
+6,N fertilizer,coal,1982,0
+6,N fertilizer,coal,1983,0
+6,N fertilizer,coal,1984,0
+6,N fertilizer,coal,1985,0
+6,N fertilizer,coal,1986,0
+6,N fertilizer,coal,1987,0
+6,N fertilizer,coal,1988,0
+6,N fertilizer,coal,1989,0
+6,N fertilizer,coal,1990,0
+6,N fertilizer,coal,1991,0
+6,N fertilizer,coal,1992,0
+6,N fertilizer,coal,1993,0
+6,N fertilizer,coal,1994,0
+6,N fertilizer,coal,1995,0
+6,N fertilizer,coal,1996,0
+6,N fertilizer,coal,1997,0
+6,N fertilizer,coal,1998,0
+6,N fertilizer,coal,1999,0
+6,N fertilizer,coal,2000,0
+6,N fertilizer,coal,2001,0
+6,N fertilizer,coal,2002,0
+6,N fertilizer,coal,2003,0
+6,N fertilizer,coal,2004,0
+6,N fertilizer,coal,2005,0
+6,N fertilizer,coal,2006,0
+6,N fertilizer,coal,2007,0
+6,N fertilizer,coal,2008,0
+6,N fertilizer,coal,2009,0
+6,N fertilizer,coal,2010,0
+6,N fertilizer,gas,1971,0.04371428571428571
+6,N fertilizer,gas,1972,0.04371428571428571
+6,N fertilizer,gas,1973,0.04371428571428571
+6,N fertilizer,gas,1974,0.04371428571428571
+6,N fertilizer,gas,1975,0.043714285714285706
+6,N fertilizer,gas,1976,0.04371428571428571
+6,N fertilizer,gas,1977,0.04371428571428572
+6,N fertilizer,gas,1978,0.04371428571428571
+6,N fertilizer,gas,1979,0.04371428571428571
+6,N fertilizer,gas,1980,0.04371428571428571
+6,N fertilizer,gas,1981,0.04371428571428571
+6,N fertilizer,gas,1982,0.043714285714285706
+6,N fertilizer,gas,1983,0.043714285714285706
+6,N fertilizer,gas,1984,0.04371428571428572
+6,N fertilizer,gas,1985,0.043714285714285706
+6,N fertilizer,gas,1986,0.04371428571428571
+6,N fertilizer,gas,1987,0.04371428571428571
+6,N fertilizer,gas,1988,0.04371428571428572
+6,N fertilizer,gas,1989,0.04371428571428571
+6,N fertilizer,gas,1990,0.04371428571428571
+6,N fertilizer,gas,1991,0.04371428571428571
+6,N fertilizer,gas,1992,0.043714285714285706
+6,N fertilizer,gas,1993,0.04371428571428572
+6,N fertilizer,gas,1994,0.04371428571428571
+6,N fertilizer,gas,1995,0.04371428571428571
+6,N fertilizer,gas,1996,0.04371428571428571
+6,N fertilizer,gas,1997,0.04371428571428572
+6,N fertilizer,gas,1998,0.04371428571428571
+6,N fertilizer,gas,1999,0.04371428571428571
+6,N fertilizer,gas,2000,0.04371428571428572
+6,N fertilizer,gas,2001,0.04371428571428571
+6,N fertilizer,gas,2002,0.04371428571428571
+6,N fertilizer,gas,2003,0.04371428571428571
+6,N fertilizer,gas,2004,0.04371428571428571
+6,N fertilizer,gas,2005,0.04371428571428571
+6,N fertilizer,gas,2006,0.043714285714285706
+6,N fertilizer,gas,2007,0.04371428571428572
+6,N fertilizer,gas,2008,0.043714285714285706
+6,N fertilizer,gas,2009,0.04371428571428572
+6,N fertilizer,gas,2010,0.04371428571428571
+6,N fertilizer,refined liquids,1971,0
+6,N fertilizer,refined liquids,1972,0
+6,N fertilizer,refined liquids,1973,0
+6,N fertilizer,refined liquids,1974,0
+6,N fertilizer,refined liquids,1975,0
+6,N fertilizer,refined liquids,1976,0
+6,N fertilizer,refined liquids,1977,0
+6,N fertilizer,refined liquids,1978,0
+6,N fertilizer,refined liquids,1979,0
+6,N fertilizer,refined liquids,1980,0
+6,N fertilizer,refined liquids,1981,0
+6,N fertilizer,refined liquids,1982,0
+6,N fertilizer,refined liquids,1983,0
+6,N fertilizer,refined liquids,1984,0
+6,N fertilizer,refined liquids,1985,0
+6,N fertilizer,refined liquids,1986,0
+6,N fertilizer,refined liquids,1987,0
+6,N fertilizer,refined liquids,1988,0
+6,N fertilizer,refined liquids,1989,0
+6,N fertilizer,refined liquids,1990,0
+6,N fertilizer,refined liquids,1991,0
+6,N fertilizer,refined liquids,1992,0
+6,N fertilizer,refined liquids,1993,0
+6,N fertilizer,refined liquids,1994,0
+6,N fertilizer,refined liquids,1995,0
+6,N fertilizer,refined liquids,1996,0
+6,N fertilizer,refined liquids,1997,0
+6,N fertilizer,refined liquids,1998,0
+6,N fertilizer,refined liquids,1999,0
+6,N fertilizer,refined liquids,2000,0
+6,N fertilizer,refined liquids,2001,0
+6,N fertilizer,refined liquids,2002,0
+6,N fertilizer,refined liquids,2003,0
+6,N fertilizer,refined liquids,2004,0
+6,N fertilizer,refined liquids,2005,0
+6,N fertilizer,refined liquids,2006,0
+6,N fertilizer,refined liquids,2007,0
+6,N fertilizer,refined liquids,2008,0
+6,N fertilizer,refined liquids,2009,0
+6,N fertilizer,refined liquids,2010,0
+7,N fertilizer,coal,1971,0
+7,N fertilizer,coal,1972,0
+7,N fertilizer,coal,1973,0
+7,N fertilizer,coal,1974,0
+7,N fertilizer,coal,1975,0
+7,N fertilizer,coal,1976,0
+7,N fertilizer,coal,1977,0
+7,N fertilizer,coal,1978,0
+7,N fertilizer,coal,1979,0
+7,N fertilizer,coal,1980,0
+7,N fertilizer,coal,1981,0
+7,N fertilizer,coal,1982,0
+7,N fertilizer,coal,1983,0
+7,N fertilizer,coal,1984,0
+7,N fertilizer,coal,1985,0
+7,N fertilizer,coal,1986,0
+7,N fertilizer,coal,1987,0
+7,N fertilizer,coal,1988,0
+7,N fertilizer,coal,1989,0
+7,N fertilizer,coal,1990,0
+7,N fertilizer,coal,1991,0
+7,N fertilizer,coal,1992,0
+7,N fertilizer,coal,1993,0
+7,N fertilizer,coal,1994,0
+7,N fertilizer,coal,1995,0
+7,N fertilizer,coal,1996,0
+7,N fertilizer,coal,1997,0
+7,N fertilizer,coal,1998,0
+7,N fertilizer,coal,1999,0
+7,N fertilizer,coal,2000,0
+7,N fertilizer,coal,2001,0
+7,N fertilizer,coal,2002,0
+7,N fertilizer,coal,2003,0
+7,N fertilizer,coal,2004,0
+7,N fertilizer,coal,2005,0
+7,N fertilizer,coal,2006,0
+7,N fertilizer,coal,2007,0
+7,N fertilizer,coal,2008,0
+7,N fertilizer,coal,2009,0
+7,N fertilizer,coal,2010,0
+7,N fertilizer,gas,1971,0.04371428571428571
+7,N fertilizer,gas,1972,0.04371428571428571
+7,N fertilizer,gas,1973,0.04371428571428571
+7,N fertilizer,gas,1974,0.04371428571428571
+7,N fertilizer,gas,1975,0.04371428571428571
+7,N fertilizer,gas,1976,0.04371428571428571
+7,N fertilizer,gas,1977,0.04371428571428571
+7,N fertilizer,gas,1978,0.04371428571428571
+7,N fertilizer,gas,1979,0.04371428571428571
+7,N fertilizer,gas,1980,0.04371428571428571
+7,N fertilizer,gas,1981,0.04371428571428571
+7,N fertilizer,gas,1982,0.04371428571428571
+7,N fertilizer,gas,1983,0.04371428571428571
+7,N fertilizer,gas,1984,0.04371428571428571
+7,N fertilizer,gas,1985,0.04371428571428571
+7,N fertilizer,gas,1986,0.04371428571428571
+7,N fertilizer,gas,1987,0.04371428571428571
+7,N fertilizer,gas,1988,0.04371428571428571
+7,N fertilizer,gas,1989,0.04371428571428571
+7,N fertilizer,gas,1990,0.04371428571428571
+7,N fertilizer,gas,1991,0.04371428571428571
+7,N fertilizer,gas,1992,0.04371428571428571
+7,N fertilizer,gas,1993,0.04371428571428571
+7,N fertilizer,gas,1994,0.04371428571428571
+7,N fertilizer,gas,1995,0.04371428571428571
+7,N fertilizer,gas,1996,0.04371428571428571
+7,N fertilizer,gas,1997,0.04371428571428572
+7,N fertilizer,gas,1998,0.04371428571428571
+7,N fertilizer,gas,1999,0.04371428571428572
+7,N fertilizer,gas,2000,0.04371428571428571
+7,N fertilizer,gas,2001,0.04371428571428571
+7,N fertilizer,gas,2002,0.043714285714285706
+7,N fertilizer,gas,2003,0.04371428571428571
+7,N fertilizer,gas,2004,0.04371428571428571
+7,N fertilizer,gas,2005,0.04371428571428571
+7,N fertilizer,gas,2006,0.04371428571428571
+7,N fertilizer,gas,2007,0.04371428571428571
+7,N fertilizer,gas,2008,0.04371428571428571
+7,N fertilizer,gas,2009,0.04371428571428571
+7,N fertilizer,gas,2010,0.04371428571428571
+7,N fertilizer,refined liquids,1971,0.054642857142857146
+7,N fertilizer,refined liquids,1972,0.054642857142857146
+7,N fertilizer,refined liquids,1973,0.054642857142857146
+7,N fertilizer,refined liquids,1974,0
+7,N fertilizer,refined liquids,1975,0
+7,N fertilizer,refined liquids,1976,0
+7,N fertilizer,refined liquids,1977,0
+7,N fertilizer,refined liquids,1978,0
+7,N fertilizer,refined liquids,1979,0
+7,N fertilizer,refined liquids,1980,0
+7,N fertilizer,refined liquids,1981,0
+7,N fertilizer,refined liquids,1982,0
+7,N fertilizer,refined liquids,1983,0
+7,N fertilizer,refined liquids,1984,0
+7,N fertilizer,refined liquids,1985,0
+7,N fertilizer,refined liquids,1986,0
+7,N fertilizer,refined liquids,1987,0
+7,N fertilizer,refined liquids,1988,0
+7,N fertilizer,refined liquids,1989,0
+7,N fertilizer,refined liquids,1990,0
+7,N fertilizer,refined liquids,1991,0
+7,N fertilizer,refined liquids,1992,0
+7,N fertilizer,refined liquids,1993,0
+7,N fertilizer,refined liquids,1994,0
+7,N fertilizer,refined liquids,1995,0
+7,N fertilizer,refined liquids,1996,0
+7,N fertilizer,refined liquids,1997,0
+7,N fertilizer,refined liquids,1998,0
+7,N fertilizer,refined liquids,1999,0
+7,N fertilizer,refined liquids,2000,0
+7,N fertilizer,refined liquids,2001,0
+7,N fertilizer,refined liquids,2002,0
+7,N fertilizer,refined liquids,2003,0
+7,N fertilizer,refined liquids,2004,0
+7,N fertilizer,refined liquids,2005,0
+7,N fertilizer,refined liquids,2006,0
+7,N fertilizer,refined liquids,2007,0
+7,N fertilizer,refined liquids,2008,0
+7,N fertilizer,refined liquids,2009,0
+7,N fertilizer,refined liquids,2010,0
+8,N fertilizer,coal,1971,0
+8,N fertilizer,coal,1972,0
+8,N fertilizer,coal,1973,0
+8,N fertilizer,coal,1974,0
+8,N fertilizer,coal,1975,0
+8,N fertilizer,coal,1976,0
+8,N fertilizer,coal,1977,0
+8,N fertilizer,coal,1978,0
+8,N fertilizer,coal,1979,0
+8,N fertilizer,coal,1980,0
+8,N fertilizer,coal,1981,0
+8,N fertilizer,coal,1982,0
+8,N fertilizer,coal,1983,0
+8,N fertilizer,coal,1984,0
+8,N fertilizer,coal,1985,0
+8,N fertilizer,coal,1986,0
+8,N fertilizer,coal,1987,0
+8,N fertilizer,coal,1988,0
+8,N fertilizer,coal,1989,0
+8,N fertilizer,coal,1990,0
+8,N fertilizer,coal,1991,0
+8,N fertilizer,coal,1992,0
+8,N fertilizer,coal,1993,0
+8,N fertilizer,coal,1994,0
+8,N fertilizer,coal,1995,0
+8,N fertilizer,coal,1996,0
+8,N fertilizer,coal,1997,0
+8,N fertilizer,coal,1998,0
+8,N fertilizer,coal,1999,0
+8,N fertilizer,coal,2000,0
+8,N fertilizer,coal,2001,0
+8,N fertilizer,coal,2002,0
+8,N fertilizer,coal,2003,0
+8,N fertilizer,coal,2004,0
+8,N fertilizer,coal,2005,0
+8,N fertilizer,coal,2006,0
+8,N fertilizer,coal,2007,0
+8,N fertilizer,coal,2008,0
+8,N fertilizer,coal,2009,0
+8,N fertilizer,coal,2010,0
+8,N fertilizer,gas,1971,0.04602142857142857
+8,N fertilizer,gas,1972,0.04602142857142856
+8,N fertilizer,gas,1973,0.04602142857142857
+8,N fertilizer,gas,1974,0.04602142857142857
+8,N fertilizer,gas,1975,0.04602142857142857
+8,N fertilizer,gas,1976,0.04602142857142857
+8,N fertilizer,gas,1977,0.04602142857142857
+8,N fertilizer,gas,1978,0.04602142857142857
+8,N fertilizer,gas,1979,0.04602142857142857
+8,N fertilizer,gas,1980,0.04602142857142857
+8,N fertilizer,gas,1981,0.04602142857142857
+8,N fertilizer,gas,1982,0.04602142857142857
+8,N fertilizer,gas,1983,0.04602142857142857
+8,N fertilizer,gas,1984,0.04602142857142857
+8,N fertilizer,gas,1985,0.04602142857142857
+8,N fertilizer,gas,1986,0.04602142857142857
+8,N fertilizer,gas,1987,0.04602142857142857
+8,N fertilizer,gas,1988,0.04602142857142857
+8,N fertilizer,gas,1989,0.04602142857142857
+8,N fertilizer,gas,1990,0.04602142857142857
+8,N fertilizer,gas,1991,0.046021428571428574
+8,N fertilizer,gas,1992,0.04602142857142856
+8,N fertilizer,gas,1993,0.04602142857142856
+8,N fertilizer,gas,1994,0.04602142857142857
+8,N fertilizer,gas,1995,0.04602142857142857
+8,N fertilizer,gas,1996,0.04602142857142857
+8,N fertilizer,gas,1997,0.04602142857142857
+8,N fertilizer,gas,1998,0.04602142857142857
+8,N fertilizer,gas,1999,0.04602142857142857
+8,N fertilizer,gas,2000,0.04602142857142856
+8,N fertilizer,gas,2001,0.04602142857142857
+8,N fertilizer,gas,2002,0.046021428571428574
+8,N fertilizer,gas,2003,0.04602142857142857
+8,N fertilizer,gas,2004,0.04602142857142857
+8,N fertilizer,gas,2005,0.04602142857142856
+8,N fertilizer,gas,2006,0.04602142857142857
+8,N fertilizer,gas,2007,0.04602142857142857
+8,N fertilizer,gas,2008,0.04602142857142857
+8,N fertilizer,gas,2009,0.04602142857142857
+8,N fertilizer,gas,2010,0.04602142857142857
+8,N fertilizer,refined liquids,1971,0
+8,N fertilizer,refined liquids,1972,0
+8,N fertilizer,refined liquids,1973,0
+8,N fertilizer,refined liquids,1974,0
+8,N fertilizer,refined liquids,1975,0
+8,N fertilizer,refined liquids,1976,0
+8,N fertilizer,refined liquids,1977,0
+8,N fertilizer,refined liquids,1978,0
+8,N fertilizer,refined liquids,1979,0
+8,N fertilizer,refined liquids,1980,0
+8,N fertilizer,refined liquids,1981,0
+8,N fertilizer,refined liquids,1982,0
+8,N fertilizer,refined liquids,1983,0
+8,N fertilizer,refined liquids,1984,0
+8,N fertilizer,refined liquids,1985,0
+8,N fertilizer,refined liquids,1986,0
+8,N fertilizer,refined liquids,1987,0
+8,N fertilizer,refined liquids,1988,0
+8,N fertilizer,refined liquids,1989,0
+8,N fertilizer,refined liquids,1990,0
+8,N fertilizer,refined liquids,1991,0
+8,N fertilizer,refined liquids,1992,0
+8,N fertilizer,refined liquids,1993,0
+8,N fertilizer,refined liquids,1994,0
+8,N fertilizer,refined liquids,1995,0
+8,N fertilizer,refined liquids,1996,0
+8,N fertilizer,refined liquids,1997,0
+8,N fertilizer,refined liquids,1998,0
+8,N fertilizer,refined liquids,1999,0
+8,N fertilizer,refined liquids,2000,0
+8,N fertilizer,refined liquids,2001,0
+8,N fertilizer,refined liquids,2002,0
+8,N fertilizer,refined liquids,2003,0
+8,N fertilizer,refined liquids,2004,0
+8,N fertilizer,refined liquids,2005,0
+8,N fertilizer,refined liquids,2006,0
+8,N fertilizer,refined liquids,2007,0
+8,N fertilizer,refined liquids,2008,0
+8,N fertilizer,refined liquids,2009,0
+8,N fertilizer,refined liquids,2010,0
+9,N fertilizer,coal,1971,0
+9,N fertilizer,coal,1972,0
+9,N fertilizer,coal,1973,0
+9,N fertilizer,coal,1974,0
+9,N fertilizer,coal,1975,0
+9,N fertilizer,coal,1976,0
+9,N fertilizer,coal,1977,0
+9,N fertilizer,coal,1978,0
+9,N fertilizer,coal,1979,0
+9,N fertilizer,coal,1980,0
+9,N fertilizer,coal,1981,0
+9,N fertilizer,coal,1982,0
+9,N fertilizer,coal,1983,0
+9,N fertilizer,coal,1984,0
+9,N fertilizer,coal,1985,0
+9,N fertilizer,coal,1986,0
+9,N fertilizer,coal,1987,0
+9,N fertilizer,coal,1988,0
+9,N fertilizer,coal,1989,0
+9,N fertilizer,coal,1990,0
+9,N fertilizer,coal,1991,0
+9,N fertilizer,coal,1992,0
+9,N fertilizer,coal,1993,0
+9,N fertilizer,coal,1994,0
+9,N fertilizer,coal,1995,0
+9,N fertilizer,coal,1996,0
+9,N fertilizer,coal,1997,0
+9,N fertilizer,coal,1998,0
+9,N fertilizer,coal,1999,0
+9,N fertilizer,coal,2000,0
+9,N fertilizer,coal,2001,0
+9,N fertilizer,coal,2002,0
+9,N fertilizer,coal,2003,0
+9,N fertilizer,coal,2004,0
+9,N fertilizer,coal,2005,0
+9,N fertilizer,coal,2006,0
+9,N fertilizer,coal,2007,0
+9,N fertilizer,coal,2008,0
+9,N fertilizer,coal,2009,0
+9,N fertilizer,coal,2010,0
+9,N fertilizer,gas,1971,0.04371428571428571
+9,N fertilizer,gas,1972,0.04371428571428571
+9,N fertilizer,gas,1973,0.04371428571428572
+9,N fertilizer,gas,1974,0.04371428571428571
+9,N fertilizer,gas,1975,0.04371428571428571
+9,N fertilizer,gas,1976,0.04371428571428571
+9,N fertilizer,gas,1977,0.04371428571428571
+9,N fertilizer,gas,1978,0.04371428571428571
+9,N fertilizer,gas,1979,0.043714285714285706
+9,N fertilizer,gas,1980,0.04371428571428571
+9,N fertilizer,gas,1981,0.04371428571428572
+9,N fertilizer,gas,1982,0.04371428571428571
+9,N fertilizer,gas,1983,0.04371428571428571
+9,N fertilizer,gas,1984,0.043714285714285706
+9,N fertilizer,gas,1985,0.04371428571428571
+9,N fertilizer,gas,1986,0.04371428571428571
+9,N fertilizer,gas,1987,0.04371428571428571
+9,N fertilizer,gas,1988,0.04371428571428572
+9,N fertilizer,gas,1989,0.04371428571428571
+9,N fertilizer,gas,1990,0.04371428571428571
+9,N fertilizer,gas,1991,0.04371428571428571
+9,N fertilizer,gas,1992,0.04371428571428571
+9,N fertilizer,gas,1993,0.043714285714285706
+9,N fertilizer,gas,1994,0.04371428571428571
+9,N fertilizer,gas,1995,0.04371428571428571
+9,N fertilizer,gas,1996,0.04371428571428571
+9,N fertilizer,gas,1997,0.04371428571428571
+9,N fertilizer,gas,1998,0.04371428571428571
+9,N fertilizer,gas,1999,0.04371428571428571
+9,N fertilizer,gas,2000,0.04371428571428571
+9,N fertilizer,gas,2001,0.043714285714285706
+9,N fertilizer,gas,2002,0.04371428571428572
+9,N fertilizer,gas,2003,0.043714285714285706
+9,N fertilizer,gas,2004,0.04371428571428572
+9,N fertilizer,gas,2005,0.04371428571428571
+9,N fertilizer,gas,2006,0.043714285714285706
+9,N fertilizer,gas,2007,0.04371428571428571
+9,N fertilizer,gas,2008,0.04371428571428571
+9,N fertilizer,gas,2009,0.043714285714285706
+9,N fertilizer,gas,2010,0.04371428571428571
+9,N fertilizer,refined liquids,1971,0
+9,N fertilizer,refined liquids,1972,0
+9,N fertilizer,refined liquids,1973,0
+9,N fertilizer,refined liquids,1974,0
+9,N fertilizer,refined liquids,1975,0
+9,N fertilizer,refined liquids,1976,0
+9,N fertilizer,refined liquids,1977,0
+9,N fertilizer,refined liquids,1978,0
+9,N fertilizer,refined liquids,1979,0
+9,N fertilizer,refined liquids,1980,0
+9,N fertilizer,refined liquids,1981,0
+9,N fertilizer,refined liquids,1982,0
+9,N fertilizer,refined liquids,1983,0
+9,N fertilizer,refined liquids,1984,0
+9,N fertilizer,refined liquids,1985,0
+9,N fertilizer,refined liquids,1986,0
+9,N fertilizer,refined liquids,1987,0
+9,N fertilizer,refined liquids,1988,0
+9,N fertilizer,refined liquids,1989,0
+9,N fertilizer,refined liquids,1990,0
+9,N fertilizer,refined liquids,1991,0
+9,N fertilizer,refined liquids,1992,0
+9,N fertilizer,refined liquids,1993,0
+9,N fertilizer,refined liquids,1994,0
+9,N fertilizer,refined liquids,1995,0
+9,N fertilizer,refined liquids,1996,0
+9,N fertilizer,refined liquids,1997,0
+9,N fertilizer,refined liquids,1998,0
+9,N fertilizer,refined liquids,1999,0
+9,N fertilizer,refined liquids,2000,0
+9,N fertilizer,refined liquids,2001,0
+9,N fertilizer,refined liquids,2002,0
+9,N fertilizer,refined liquids,2003,0
+9,N fertilizer,refined liquids,2004,0
+9,N fertilizer,refined liquids,2005,0
+9,N fertilizer,refined liquids,2006,0
+9,N fertilizer,refined liquids,2007,0
+9,N fertilizer,refined liquids,2008,0
+9,N fertilizer,refined liquids,2009,0
+9,N fertilizer,refined liquids,2010,0
+10,N fertilizer,coal,1971,0
+10,N fertilizer,coal,1972,0
+10,N fertilizer,coal,1973,0
+10,N fertilizer,coal,1974,0
+10,N fertilizer,coal,1975,0
+10,N fertilizer,coal,1976,0
+10,N fertilizer,coal,1977,0
+10,N fertilizer,coal,1978,0
+10,N fertilizer,coal,1979,0
+10,N fertilizer,coal,1980,0
+10,N fertilizer,coal,1981,0
+10,N fertilizer,coal,1982,0
+10,N fertilizer,coal,1983,0
+10,N fertilizer,coal,1984,0
+10,N fertilizer,coal,1985,0
+10,N fertilizer,coal,1986,0
+10,N fertilizer,coal,1987,0
+10,N fertilizer,coal,1988,0
+10,N fertilizer,coal,1989,0
+10,N fertilizer,coal,1990,0
+10,N fertilizer,coal,1991,0
+10,N fertilizer,coal,1992,0
+10,N fertilizer,coal,1993,0
+10,N fertilizer,coal,1994,0
+10,N fertilizer,coal,1995,0
+10,N fertilizer,coal,1996,0
+10,N fertilizer,coal,1997,0
+10,N fertilizer,coal,1998,0
+10,N fertilizer,coal,1999,0
+10,N fertilizer,coal,2000,0
+10,N fertilizer,coal,2001,0
+10,N fertilizer,coal,2002,0
+10,N fertilizer,coal,2003,0
+10,N fertilizer,coal,2004,0
+10,N fertilizer,coal,2005,0
+10,N fertilizer,coal,2006,0
+10,N fertilizer,coal,2007,0
+10,N fertilizer,coal,2008,0
+10,N fertilizer,coal,2009,0
+10,N fertilizer,coal,2010,0
+10,N fertilizer,gas,1971,0.04845
+10,N fertilizer,gas,1972,0.04845
+10,N fertilizer,gas,1973,0.04845
+10,N fertilizer,gas,1974,0.04845
+10,N fertilizer,gas,1975,0.04845
+10,N fertilizer,gas,1976,0.04845
+10,N fertilizer,gas,1977,0.04844999999999999
+10,N fertilizer,gas,1978,0.04845000000000001
+10,N fertilizer,gas,1979,0.04845000000000001
+10,N fertilizer,gas,1980,0.04845000000000001
+10,N fertilizer,gas,1981,0.04844999999999999
+10,N fertilizer,gas,1982,0.04844999999999999
+10,N fertilizer,gas,1983,0.04845
+10,N fertilizer,gas,1984,0.04845
+10,N fertilizer,gas,1985,0.04845
+10,N fertilizer,gas,1986,0.04844999999999999
+10,N fertilizer,gas,1987,0.04845
+10,N fertilizer,gas,1988,0.04844999999999999
+10,N fertilizer,gas,1989,0.04844999999999999
+10,N fertilizer,gas,1990,0.04844999999999999
+10,N fertilizer,gas,1991,0.04845
+10,N fertilizer,gas,1992,0.04845
+10,N fertilizer,gas,1993,0.04844999999999999
+10,N fertilizer,gas,1994,0.04845
+10,N fertilizer,gas,1995,0.04845
+10,N fertilizer,gas,1996,0.04844999999999999
+10,N fertilizer,gas,1997,0.04845
+10,N fertilizer,gas,1998,0.04845
+10,N fertilizer,gas,1999,0.04845
+10,N fertilizer,gas,2000,0.04845
+10,N fertilizer,gas,2001,0.04845
+10,N fertilizer,gas,2002,0.04844999999999999
+10,N fertilizer,gas,2003,0.04845
+10,N fertilizer,gas,2004,0.04845
+10,N fertilizer,gas,2005,0.04845
+10,N fertilizer,gas,2006,0.04844999999999999
+10,N fertilizer,gas,2007,0.04845
+10,N fertilizer,gas,2008,0.04845
+10,N fertilizer,gas,2009,0.04845
+10,N fertilizer,gas,2010,0.04844999999999999
+10,N fertilizer,refined liquids,1971,0
+10,N fertilizer,refined liquids,1972,0
+10,N fertilizer,refined liquids,1973,0
+10,N fertilizer,refined liquids,1974,0
+10,N fertilizer,refined liquids,1975,0
+10,N fertilizer,refined liquids,1976,0
+10,N fertilizer,refined liquids,1977,0
+10,N fertilizer,refined liquids,1978,0
+10,N fertilizer,refined liquids,1979,0
+10,N fertilizer,refined liquids,1980,0
+10,N fertilizer,refined liquids,1981,0
+10,N fertilizer,refined liquids,1982,0
+10,N fertilizer,refined liquids,1983,0
+10,N fertilizer,refined liquids,1984,0
+10,N fertilizer,refined liquids,1985,0
+10,N fertilizer,refined liquids,1986,0
+10,N fertilizer,refined liquids,1987,0
+10,N fertilizer,refined liquids,1988,0
+10,N fertilizer,refined liquids,1989,0
+10,N fertilizer,refined liquids,1990,0
+10,N fertilizer,refined liquids,1991,0
+10,N fertilizer,refined liquids,1992,0
+10,N fertilizer,refined liquids,1993,0
+10,N fertilizer,refined liquids,1994,0
+10,N fertilizer,refined liquids,1995,0
+10,N fertilizer,refined liquids,1996,0
+10,N fertilizer,refined liquids,1997,0
+10,N fertilizer,refined liquids,1998,0
+10,N fertilizer,refined liquids,1999,0
+10,N fertilizer,refined liquids,2000,0
+10,N fertilizer,refined liquids,2001,0
+10,N fertilizer,refined liquids,2002,0
+10,N fertilizer,refined liquids,2003,0
+10,N fertilizer,refined liquids,2004,0
+10,N fertilizer,refined liquids,2005,0
+10,N fertilizer,refined liquids,2006,0
+10,N fertilizer,refined liquids,2007,0
+10,N fertilizer,refined liquids,2008,0
+10,N fertilizer,refined liquids,2009,0
+10,N fertilizer,refined liquids,2010,0
+11,N fertilizer,coal,1971,0.06557142857142857
+11,N fertilizer,coal,1972,0.06557142857142857
+11,N fertilizer,coal,1973,0.06557142857142857
+11,N fertilizer,coal,1974,0.06557142857142857
+11,N fertilizer,coal,1975,0.06557142857142857
+11,N fertilizer,coal,1976,0.06557142857142857
+11,N fertilizer,coal,1977,0.06557142857142857
+11,N fertilizer,coal,1978,0.06557142857142857
+11,N fertilizer,coal,1979,0.06557142857142857
+11,N fertilizer,coal,1980,0.06557142857142857
+11,N fertilizer,coal,1981,0.06557142857142857
+11,N fertilizer,coal,1982,0.06557142857142857
+11,N fertilizer,coal,1983,0.06557142857142857
+11,N fertilizer,coal,1984,0.06557142857142857
+11,N fertilizer,coal,1985,0.06557142857142857
+11,N fertilizer,coal,1986,0.06557142857142857
+11,N fertilizer,coal,1987,0.06557142857142857
+11,N fertilizer,coal,1988,0.06557142857142857
+11,N fertilizer,coal,1989,0.06557142857142857
+11,N fertilizer,coal,1990,0.06557142857142857
+11,N fertilizer,coal,1991,0.06557142857142857
+11,N fertilizer,coal,1992,0.06557142857142857
+11,N fertilizer,coal,1993,0.06557142857142857
+11,N fertilizer,coal,1994,0.06557142857142857
+11,N fertilizer,coal,1995,0.06557142857142857
+11,N fertilizer,coal,1996,0.06557142857142857
+11,N fertilizer,coal,1997,0.06557142857142857
+11,N fertilizer,coal,1998,0.06557142857142857
+11,N fertilizer,coal,1999,0.06557142857142857
+11,N fertilizer,coal,2000,0.06557142857142857
+11,N fertilizer,coal,2001,0.06557142857142857
+11,N fertilizer,coal,2002,0.06557142857142857
+11,N fertilizer,coal,2003,0.06557142857142857
+11,N fertilizer,coal,2004,0.06557142857142857
+11,N fertilizer,coal,2005,0.06557142857142857
+11,N fertilizer,coal,2006,0.06557142857142857
+11,N fertilizer,coal,2007,0.06557142857142857
+11,N fertilizer,coal,2008,0.06557142857142857
+11,N fertilizer,coal,2009,0.06557142857142857
+11,N fertilizer,coal,2010,0.06557142857142857
+11,N fertilizer,gas,1971,0.041285714285714294
+11,N fertilizer,gas,1972,0.041285714285714294
+11,N fertilizer,gas,1973,0.041285714285714294
+11,N fertilizer,gas,1974,0.041285714285714294
+11,N fertilizer,gas,1975,0.04128571428571429
+11,N fertilizer,gas,1976,0.041285714285714294
+11,N fertilizer,gas,1977,0.041285714285714294
+11,N fertilizer,gas,1978,0.041285714285714294
+11,N fertilizer,gas,1979,0.041285714285714294
+11,N fertilizer,gas,1980,0.041285714285714294
+11,N fertilizer,gas,1981,0.041285714285714294
+11,N fertilizer,gas,1982,0.041285714285714294
+11,N fertilizer,gas,1983,0.041285714285714294
+11,N fertilizer,gas,1984,0.041285714285714294
+11,N fertilizer,gas,1985,0.041285714285714294
+11,N fertilizer,gas,1986,0.041285714285714294
+11,N fertilizer,gas,1987,0.041285714285714294
+11,N fertilizer,gas,1988,0.041285714285714294
+11,N fertilizer,gas,1989,0.041285714285714294
+11,N fertilizer,gas,1990,0.041285714285714294
+11,N fertilizer,gas,1991,0.041285714285714294
+11,N fertilizer,gas,1992,0.041285714285714294
+11,N fertilizer,gas,1993,0.041285714285714294
+11,N fertilizer,gas,1994,0.041285714285714294
+11,N fertilizer,gas,1995,0.041285714285714294
+11,N fertilizer,gas,1996,0.041285714285714294
+11,N fertilizer,gas,1997,0.041285714285714294
+11,N fertilizer,gas,1998,0.041285714285714294
+11,N fertilizer,gas,1999,0.041285714285714294
+11,N fertilizer,gas,2000,0.041285714285714294
+11,N fertilizer,gas,2001,0.041285714285714294
+11,N fertilizer,gas,2002,0.041285714285714294
+11,N fertilizer,gas,2003,0.041285714285714294
+11,N fertilizer,gas,2004,0.041285714285714294
+11,N fertilizer,gas,2005,0.041285714285714294
+11,N fertilizer,gas,2006,0.04128571428571429
+11,N fertilizer,gas,2007,0.041285714285714294
+11,N fertilizer,gas,2008,0.041285714285714294
+11,N fertilizer,gas,2009,0.04128571428571429
+11,N fertilizer,gas,2010,0.04128571428571429
+11,N fertilizer,refined liquids,1971,0.051000000000000004
+11,N fertilizer,refined liquids,1972,0.051000000000000004
+11,N fertilizer,refined liquids,1973,0.051000000000000004
+11,N fertilizer,refined liquids,1974,0.051
+11,N fertilizer,refined liquids,1975,0.051
+11,N fertilizer,refined liquids,1976,0.051000000000000004
+11,N fertilizer,refined liquids,1977,0.051000000000000004
+11,N fertilizer,refined liquids,1978,0.051000000000000004
+11,N fertilizer,refined liquids,1979,0.051000000000000004
+11,N fertilizer,refined liquids,1980,0.051000000000000004
+11,N fertilizer,refined liquids,1981,0.051000000000000004
+11,N fertilizer,refined liquids,1982,0.051000000000000004
+11,N fertilizer,refined liquids,1983,0.051000000000000004
+11,N fertilizer,refined liquids,1984,0.051000000000000004
+11,N fertilizer,refined liquids,1985,0.051000000000000004
+11,N fertilizer,refined liquids,1986,0.051000000000000004
+11,N fertilizer,refined liquids,1987,0.051000000000000004
+11,N fertilizer,refined liquids,1988,0.051000000000000004
+11,N fertilizer,refined liquids,1989,0.051000000000000004
+11,N fertilizer,refined liquids,1990,0.051000000000000004
+11,N fertilizer,refined liquids,1991,0.051
+11,N fertilizer,refined liquids,1992,0.051000000000000004
+11,N fertilizer,refined liquids,1993,0.051000000000000004
+11,N fertilizer,refined liquids,1994,0.051000000000000004
+11,N fertilizer,refined liquids,1995,0.051000000000000004
+11,N fertilizer,refined liquids,1996,0.051000000000000004
+11,N fertilizer,refined liquids,1997,0.051000000000000004
+11,N fertilizer,refined liquids,1998,0.051000000000000004
+11,N fertilizer,refined liquids,1999,0.051000000000000004
+11,N fertilizer,refined liquids,2000,0.051000000000000004
+11,N fertilizer,refined liquids,2001,0.051000000000000004
+11,N fertilizer,refined liquids,2002,0.051000000000000004
+11,N fertilizer,refined liquids,2003,0.051
+11,N fertilizer,refined liquids,2004,0.051000000000000004
+11,N fertilizer,refined liquids,2005,0.051000000000000004
+11,N fertilizer,refined liquids,2006,0.051
+11,N fertilizer,refined liquids,2007,0.051000000000000004
+11,N fertilizer,refined liquids,2008,0.051000000000000004
+11,N fertilizer,refined liquids,2009,0.051000000000000004
+11,N fertilizer,refined liquids,2010,0.051000000000000004
+12,N fertilizer,coal,1971,0
+12,N fertilizer,coal,1972,0
+12,N fertilizer,coal,1973,0
+12,N fertilizer,coal,1974,0
+12,N fertilizer,coal,1975,0
+12,N fertilizer,coal,1976,0
+12,N fertilizer,coal,1977,0
+12,N fertilizer,coal,1978,0
+12,N fertilizer,coal,1979,0
+12,N fertilizer,coal,1980,0
+12,N fertilizer,coal,1981,0
+12,N fertilizer,coal,1982,0
+12,N fertilizer,coal,1983,0
+12,N fertilizer,coal,1984,0
+12,N fertilizer,coal,1985,0
+12,N fertilizer,coal,1986,0
+12,N fertilizer,coal,1987,0
+12,N fertilizer,coal,1988,0
+12,N fertilizer,coal,1989,0
+12,N fertilizer,coal,1990,0
+12,N fertilizer,coal,1991,0
+12,N fertilizer,coal,1992,0
+12,N fertilizer,coal,1993,0
+12,N fertilizer,coal,1994,0
+12,N fertilizer,coal,1995,0
+12,N fertilizer,coal,1996,0
+12,N fertilizer,coal,1997,0
+12,N fertilizer,coal,1998,0
+12,N fertilizer,coal,1999,0
+12,N fertilizer,coal,2000,0
+12,N fertilizer,coal,2001,0
+12,N fertilizer,coal,2002,0
+12,N fertilizer,coal,2003,0
+12,N fertilizer,coal,2004,0
+12,N fertilizer,coal,2005,0
+12,N fertilizer,coal,2006,0
+12,N fertilizer,coal,2007,0
+12,N fertilizer,coal,2008,0
+12,N fertilizer,coal,2009,0
+12,N fertilizer,coal,2010,0
+12,N fertilizer,gas,1971,0.05272507945789335
+12,N fertilizer,gas,1972,0.05272000011538833
+12,N fertilizer,gas,1973,0.052718640950529735
+12,N fertilizer,gas,1974,0.05272088247730335
+12,N fertilizer,gas,1975,0.05272254513705084
+12,N fertilizer,gas,1976,0.05272704864036
+12,N fertilizer,gas,1977,0.0527311105304322
+12,N fertilizer,gas,1978,0.052728969859444245
+12,N fertilizer,gas,1979,0.05272456060477771
+12,N fertilizer,gas,1980,0.052717676979119034
+12,N fertilizer,gas,1981,0.052703295472905275
+12,N fertilizer,gas,1982,0.05269231283654545
+12,N fertilizer,gas,1983,0.05268162379710737
+12,N fertilizer,gas,1984,0.0526675851086351
+12,N fertilizer,gas,1985,0.05265686927337987
+12,N fertilizer,gas,1986,0.052644542309720675
+12,N fertilizer,gas,1987,0.052637938416442744
+12,N fertilizer,gas,1988,0.052629226582019246
+12,N fertilizer,gas,1989,0.05261801059382926
+12,N fertilizer,gas,1990,0.052611553209452114
+12,N fertilizer,gas,1991,0.052626262046296717
+12,N fertilizer,gas,1992,0.05262586844851072
+12,N fertilizer,gas,1993,0.05262091685134587
+12,N fertilizer,gas,1994,0.052625350708987426
+12,N fertilizer,gas,1995,0.05260834259541376
+12,N fertilizer,gas,1996,0.05254277273771962
+12,N fertilizer,gas,1997,0.052473258632676094
+12,N fertilizer,gas,1998,0.05241203264279632
+12,N fertilizer,gas,1999,0.05234901061659428
+12,N fertilizer,gas,2000,0.05228350113263537
+12,N fertilizer,gas,2001,0.05226693882017416
+12,N fertilizer,gas,2002,0.052260662537263664
+12,N fertilizer,gas,2003,0.05223642752089987
+12,N fertilizer,gas,2004,0.05220204792929392
+12,N fertilizer,gas,2005,0.05217168603442952
+12,N fertilizer,gas,2006,0.05215202949576617
+12,N fertilizer,gas,2007,0.052126841166510694
+12,N fertilizer,gas,2008,0.05211911576260377
+12,N fertilizer,gas,2009,0.05210724576881813
+12,N fertilizer,gas,2010,0.05212297822310482
+12,N fertilizer,refined liquids,1971,0.05294285714285714
+12,N fertilizer,refined liquids,1972,0.052942857142857146
+12,N fertilizer,refined liquids,1973,0.05294285714285715
+12,N fertilizer,refined liquids,1974,0.052942857142857146
+12,N fertilizer,refined liquids,1975,0.052942857142857146
+12,N fertilizer,refined liquids,1976,0.052942857142857146
+12,N fertilizer,refined liquids,1977,0.052942857142857146
+12,N fertilizer,refined liquids,1978,0.05294285714285715
+12,N fertilizer,refined liquids,1979,0.052942857142857146
+12,N fertilizer,refined liquids,1980,0.05294101489419479
+12,N fertilizer,refined liquids,1981,0.05293483338502042
+12,N fertilizer,refined liquids,1982,0.05293504389872877
+12,N fertilizer,refined liquids,1983,0.05293521147978221
+12,N fertilizer,refined liquids,1984,0.05293529775190318
+12,N fertilizer,refined liquids,1985,0.05293361662682316
+12,N fertilizer,refined liquids,1986,0.05292869811794619
+12,N fertilizer,refined liquids,1987,0.052921469677887203
+12,N fertilizer,refined liquids,1988,0.05292048498504441
+12,N fertilizer,refined liquids,1989,0.052918706299469105
+12,N fertilizer,refined liquids,1990,0.05292062455442868
+12,N fertilizer,refined liquids,1991,0.05293288594191633
+12,N fertilizer,refined liquids,1992,0.05294285714285714
+12,N fertilizer,refined liquids,1993,0.052942857142857146
+12,N fertilizer,refined liquids,1994,0.052942857142857146
+12,N fertilizer,refined liquids,1995,0.05294285714285714
+12,N fertilizer,refined liquids,1996,0.052942857142857146
+12,N fertilizer,refined liquids,1997,0.05294285714285714
+12,N fertilizer,refined liquids,1998,0.052942857142857146
+12,N fertilizer,refined liquids,1999,0.052942857142857146
+12,N fertilizer,refined liquids,2000,0.05294285714285715
+12,N fertilizer,refined liquids,2001,0.052942857142857146
+12,N fertilizer,refined liquids,2002,0.052942857142857146
+12,N fertilizer,refined liquids,2003,0.05294285714285715
+12,N fertilizer,refined liquids,2004,0.05294285714285714
+12,N fertilizer,refined liquids,2005,0.05294285714285714
+12,N fertilizer,refined liquids,2006,0.052942857142857146
+12,N fertilizer,refined liquids,2007,0.052942857142857146
+12,N fertilizer,refined liquids,2008,0.052942857142857146
+12,N fertilizer,refined liquids,2009,0.052942857142857146
+12,N fertilizer,refined liquids,2010,0.052942857142857146
+13,N fertilizer,coal,1971,0
+13,N fertilizer,coal,1972,0
+13,N fertilizer,coal,1973,0
+13,N fertilizer,coal,1974,0
+13,N fertilizer,coal,1975,0
+13,N fertilizer,coal,1976,0
+13,N fertilizer,coal,1977,0
+13,N fertilizer,coal,1978,0
+13,N fertilizer,coal,1979,0
+13,N fertilizer,coal,1980,0
+13,N fertilizer,coal,1981,0
+13,N fertilizer,coal,1982,0
+13,N fertilizer,coal,1983,0
+13,N fertilizer,coal,1984,0
+13,N fertilizer,coal,1985,0
+13,N fertilizer,coal,1986,0
+13,N fertilizer,coal,1987,0
+13,N fertilizer,coal,1988,0
+13,N fertilizer,coal,1989,0
+13,N fertilizer,coal,1990,0
+13,N fertilizer,coal,1991,0
+13,N fertilizer,coal,1992,0
+13,N fertilizer,coal,1993,0
+13,N fertilizer,coal,1994,0
+13,N fertilizer,coal,1995,0
+13,N fertilizer,coal,1996,0
+13,N fertilizer,coal,1997,0
+13,N fertilizer,coal,1998,0
+13,N fertilizer,coal,1999,0
+13,N fertilizer,coal,2000,0
+13,N fertilizer,coal,2001,0
+13,N fertilizer,coal,2002,0
+13,N fertilizer,coal,2003,0
+13,N fertilizer,coal,2004,0
+13,N fertilizer,coal,2005,0
+13,N fertilizer,coal,2006,0
+13,N fertilizer,coal,2007,0
+13,N fertilizer,coal,2008,0
+13,N fertilizer,coal,2009,0
+13,N fertilizer,coal,2010,0
+13,N fertilizer,gas,1971,0.04250000000000001
+13,N fertilizer,gas,1972,0.0425
+13,N fertilizer,gas,1973,0.0425
+13,N fertilizer,gas,1974,0.0425
+13,N fertilizer,gas,1975,0.0425
+13,N fertilizer,gas,1976,0.0425
+13,N fertilizer,gas,1977,0.0425
+13,N fertilizer,gas,1978,0.0425
+13,N fertilizer,gas,1979,0.0425
+13,N fertilizer,gas,1980,0.0425
+13,N fertilizer,gas,1981,0.042499999999999996
+13,N fertilizer,gas,1982,0.0425
+13,N fertilizer,gas,1983,0.0425
+13,N fertilizer,gas,1984,0.042499999999999996
+13,N fertilizer,gas,1985,0.04250000000000001
+13,N fertilizer,gas,1986,0.0425
+13,N fertilizer,gas,1987,0.04250000000000001
+13,N fertilizer,gas,1988,0.0425
+13,N fertilizer,gas,1989,0.0425
+13,N fertilizer,gas,1990,0.042499999999999996
+13,N fertilizer,gas,1991,0.042499999999999996
+13,N fertilizer,gas,1992,0.0425
+13,N fertilizer,gas,1993,0.0425
+13,N fertilizer,gas,1994,0.0425
+13,N fertilizer,gas,1995,0.0425
+13,N fertilizer,gas,1996,0.0425
+13,N fertilizer,gas,1997,0.0425
+13,N fertilizer,gas,1998,0.0425
+13,N fertilizer,gas,1999,0.042499999999999996
+13,N fertilizer,gas,2000,0.0425
+13,N fertilizer,gas,2001,0.0425
+13,N fertilizer,gas,2002,0.0425
+13,N fertilizer,gas,2003,0.04250000000000001
+13,N fertilizer,gas,2004,0.0425
+13,N fertilizer,gas,2005,0.04250000000000001
+13,N fertilizer,gas,2006,0.0425
+13,N fertilizer,gas,2007,0.042499999999999996
+13,N fertilizer,gas,2008,0.0425
+13,N fertilizer,gas,2009,0.042499999999999996
+13,N fertilizer,gas,2010,0.0425
+13,N fertilizer,refined liquids,1971,0.04371428571428572
+13,N fertilizer,refined liquids,1972,0.04371428571428571
+13,N fertilizer,refined liquids,1973,0.04371428571428571
+13,N fertilizer,refined liquids,1974,0.043714285714285706
+13,N fertilizer,refined liquids,1975,0.04371428571428571
+13,N fertilizer,refined liquids,1976,0.04371428571428571
+13,N fertilizer,refined liquids,1977,0.04371428571428572
+13,N fertilizer,refined liquids,1978,0.04371428571428572
+13,N fertilizer,refined liquids,1979,0.04371428571428572
+13,N fertilizer,refined liquids,1980,0.04371428571428571
+13,N fertilizer,refined liquids,1981,0.04371428571428571
+13,N fertilizer,refined liquids,1982,0.043714285714285706
+13,N fertilizer,refined liquids,1983,0.04371428571428571
+13,N fertilizer,refined liquids,1984,0.04371428571428571
+13,N fertilizer,refined liquids,1985,0.04371428571428572
+13,N fertilizer,refined liquids,1986,0.04371428571428571
+13,N fertilizer,refined liquids,1987,0.04371428571428571
+13,N fertilizer,refined liquids,1988,0.04371428571428571
+13,N fertilizer,refined liquids,1989,0.04371428571428571
+13,N fertilizer,refined liquids,1990,0.04371428571428571
+13,N fertilizer,refined liquids,1991,0.04371428571428571
+13,N fertilizer,refined liquids,1992,0.04371428571428571
+13,N fertilizer,refined liquids,1993,0.04371428571428571
+13,N fertilizer,refined liquids,1994,0.04371428571428572
+13,N fertilizer,refined liquids,1995,0.04371428571428571
+13,N fertilizer,refined liquids,1996,0.04371428571428571
+13,N fertilizer,refined liquids,1997,0.04371428571428571
+13,N fertilizer,refined liquids,1998,0.04371428571428572
+13,N fertilizer,refined liquids,1999,0.04371428571428571
+13,N fertilizer,refined liquids,2000,0.04371428571428572
+13,N fertilizer,refined liquids,2001,0.04371428571428571
+13,N fertilizer,refined liquids,2002,0.043714285714285706
+13,N fertilizer,refined liquids,2003,0.04371428571428571
+13,N fertilizer,refined liquids,2004,0.04371428571428571
+13,N fertilizer,refined liquids,2005,0.04371428571428571
+13,N fertilizer,refined liquids,2006,0.04371428571428571
+13,N fertilizer,refined liquids,2007,0.04371428571428571
+13,N fertilizer,refined liquids,2008,0.04371428571428571
+13,N fertilizer,refined liquids,2009,0.04371428571428571
+13,N fertilizer,refined liquids,2010,0.04371428571428571
+14,N fertilizer,coal,1971,0
+14,N fertilizer,coal,1972,0
+14,N fertilizer,coal,1973,0
+14,N fertilizer,coal,1974,0
+14,N fertilizer,coal,1975,0
+14,N fertilizer,coal,1976,0
+14,N fertilizer,coal,1977,0
+14,N fertilizer,coal,1978,0
+14,N fertilizer,coal,1979,0
+14,N fertilizer,coal,1980,0
+14,N fertilizer,coal,1981,0
+14,N fertilizer,coal,1982,0
+14,N fertilizer,coal,1983,0
+14,N fertilizer,coal,1984,0
+14,N fertilizer,coal,1985,0
+14,N fertilizer,coal,1986,0
+14,N fertilizer,coal,1987,0
+14,N fertilizer,coal,1988,0
+14,N fertilizer,coal,1989,0
+14,N fertilizer,coal,1990,0
+14,N fertilizer,coal,1991,0
+14,N fertilizer,coal,1992,0
+14,N fertilizer,coal,1993,0
+14,N fertilizer,coal,1994,0
+14,N fertilizer,coal,1995,0
+14,N fertilizer,coal,1996,0
+14,N fertilizer,coal,1997,0
+14,N fertilizer,coal,1998,0
+14,N fertilizer,coal,1999,0
+14,N fertilizer,coal,2000,0
+14,N fertilizer,coal,2001,0
+14,N fertilizer,coal,2002,0
+14,N fertilizer,coal,2003,0
+14,N fertilizer,coal,2004,0
+14,N fertilizer,coal,2005,0
+14,N fertilizer,coal,2006,0
+14,N fertilizer,coal,2007,0
+14,N fertilizer,coal,2008,0
+14,N fertilizer,coal,2009,0
+14,N fertilizer,coal,2010,0
+14,N fertilizer,gas,1971,0.04844999999999999
+14,N fertilizer,gas,1972,0.04845
+14,N fertilizer,gas,1973,0.04844999999999999
+14,N fertilizer,gas,1974,0.04845
+14,N fertilizer,gas,1975,0.04845
+14,N fertilizer,gas,1976,0.04845
+14,N fertilizer,gas,1977,0.04845
+14,N fertilizer,gas,1978,0.04845
+14,N fertilizer,gas,1979,0.04844999999999999
+14,N fertilizer,gas,1980,0.04844999999999999
+14,N fertilizer,gas,1981,0.04845
+14,N fertilizer,gas,1982,0.04845
+14,N fertilizer,gas,1983,0.04844999999999999
+14,N fertilizer,gas,1984,0.04844999999999999
+14,N fertilizer,gas,1985,0.04845
+14,N fertilizer,gas,1986,0.04845
+14,N fertilizer,gas,1987,0.04845000000000001
+14,N fertilizer,gas,1988,0.04844999999999999
+14,N fertilizer,gas,1989,0.04845
+14,N fertilizer,gas,1990,0.04845
+14,N fertilizer,gas,1991,0.04844999999999999
+14,N fertilizer,gas,1992,0.04845
+14,N fertilizer,gas,1993,0.04845
+14,N fertilizer,gas,1994,0.04845
+14,N fertilizer,gas,1995,0.04845
+14,N fertilizer,gas,1996,0.04845
+14,N fertilizer,gas,1997,0.04844999999999999
+14,N fertilizer,gas,1998,0.04845
+14,N fertilizer,gas,1999,0.04845
+14,N fertilizer,gas,2000,0.04845
+14,N fertilizer,gas,2001,0.04844999999999999
+14,N fertilizer,gas,2002,0.04845
+14,N fertilizer,gas,2003,0.04845
+14,N fertilizer,gas,2004,0.04844999999999999
+14,N fertilizer,gas,2005,0.04845
+14,N fertilizer,gas,2006,0.04845
+14,N fertilizer,gas,2007,0.04844999999999999
+14,N fertilizer,gas,2008,0.04845
+14,N fertilizer,gas,2009,0.04845000000000001
+14,N fertilizer,gas,2010,0.04844999999999999
+14,N fertilizer,refined liquids,1971,0
+14,N fertilizer,refined liquids,1972,0
+14,N fertilizer,refined liquids,1973,0
+14,N fertilizer,refined liquids,1974,0
+14,N fertilizer,refined liquids,1975,0
+14,N fertilizer,refined liquids,1976,0
+14,N fertilizer,refined liquids,1977,0
+14,N fertilizer,refined liquids,1978,0
+14,N fertilizer,refined liquids,1979,0
+14,N fertilizer,refined liquids,1980,0
+14,N fertilizer,refined liquids,1981,0
+14,N fertilizer,refined liquids,1982,0
+14,N fertilizer,refined liquids,1983,0
+14,N fertilizer,refined liquids,1984,0
+14,N fertilizer,refined liquids,1985,0
+14,N fertilizer,refined liquids,1986,0
+14,N fertilizer,refined liquids,1987,0
+14,N fertilizer,refined liquids,1988,0
+14,N fertilizer,refined liquids,1989,0
+14,N fertilizer,refined liquids,1990,0
+14,N fertilizer,refined liquids,1991,0
+14,N fertilizer,refined liquids,1992,0
+14,N fertilizer,refined liquids,1993,0
+14,N fertilizer,refined liquids,1994,0
+14,N fertilizer,refined liquids,1995,0
+14,N fertilizer,refined liquids,1996,0
+14,N fertilizer,refined liquids,1997,0
+14,N fertilizer,refined liquids,1998,0
+14,N fertilizer,refined liquids,1999,0
+14,N fertilizer,refined liquids,2000,0
+14,N fertilizer,refined liquids,2001,0
+14,N fertilizer,refined liquids,2002,0
+14,N fertilizer,refined liquids,2003,0
+14,N fertilizer,refined liquids,2004,0
+14,N fertilizer,refined liquids,2005,0
+14,N fertilizer,refined liquids,2006,0
+14,N fertilizer,refined liquids,2007,0
+14,N fertilizer,refined liquids,2008,0
+14,N fertilizer,refined liquids,2009,0
+14,N fertilizer,refined liquids,2010,0
+15,N fertilizer,coal,1971,0
+15,N fertilizer,coal,1972,0
+15,N fertilizer,coal,1973,0
+15,N fertilizer,coal,1974,0
+15,N fertilizer,coal,1975,0
+15,N fertilizer,coal,1976,0
+15,N fertilizer,coal,1977,0
+15,N fertilizer,coal,1978,0
+15,N fertilizer,coal,1979,0
+15,N fertilizer,coal,1980,0
+15,N fertilizer,coal,1981,0
+15,N fertilizer,coal,1982,0
+15,N fertilizer,coal,1983,0
+15,N fertilizer,coal,1984,0
+15,N fertilizer,coal,1985,0
+15,N fertilizer,coal,1986,0
+15,N fertilizer,coal,1987,0
+15,N fertilizer,coal,1988,0
+15,N fertilizer,coal,1989,0
+15,N fertilizer,coal,1990,0
+15,N fertilizer,coal,1991,0
+15,N fertilizer,coal,1992,0
+15,N fertilizer,coal,1993,0
+15,N fertilizer,coal,1994,0
+15,N fertilizer,coal,1995,0
+15,N fertilizer,coal,1996,0
+15,N fertilizer,coal,1997,0
+15,N fertilizer,coal,1998,0
+15,N fertilizer,coal,1999,0
+15,N fertilizer,coal,2000,0
+15,N fertilizer,coal,2001,0
+15,N fertilizer,coal,2002,0
+15,N fertilizer,coal,2003,0
+15,N fertilizer,coal,2004,0
+15,N fertilizer,coal,2005,0
+15,N fertilizer,coal,2006,0
+15,N fertilizer,coal,2007,0
+15,N fertilizer,coal,2008,0
+15,N fertilizer,coal,2009,0
+15,N fertilizer,coal,2010,0
+15,N fertilizer,gas,1971,0.050637886203018276
+15,N fertilizer,gas,1972,0.05053161845891955
+15,N fertilizer,gas,1973,0.05036750547653448
+15,N fertilizer,gas,1974,0.05006936679065417
+15,N fertilizer,gas,1975,0.04996306751255467
+15,N fertilizer,gas,1976,0.04953126951021077
+15,N fertilizer,gas,1977,0.04923940067661196
+15,N fertilizer,gas,1978,0.048502267749746586
+15,N fertilizer,gas,1979,0.04792228348327307
+15,N fertilizer,gas,1980,0.047443565615138156
+15,N fertilizer,gas,1981,0.04709998207418824
+15,N fertilizer,gas,1982,0.04692585325702035
+15,N fertilizer,gas,1983,0.046939794300049874
+15,N fertilizer,gas,1984,0.04704485364189113
+15,N fertilizer,gas,1985,0.047135634655914985
+15,N fertilizer,gas,1986,0.04727293746160382
+15,N fertilizer,gas,1987,0.04720436612116576
+15,N fertilizer,gas,1988,0.04703403857595672
+15,N fertilizer,gas,1989,0.046872380142119384
+15,N fertilizer,gas,1990,0.0465292502272435
+15,N fertilizer,gas,1991,0.04608146780171998
+15,N fertilizer,gas,1992,0.045893291809622955
+15,N fertilizer,gas,1993,0.04581920154223726
+15,N fertilizer,gas,1994,0.04567317548225791
+15,N fertilizer,gas,1995,0.04585540276799342
+15,N fertilizer,gas,1996,0.04603256395916554
+15,N fertilizer,gas,1997,0.046049913272143334
+15,N fertilizer,gas,1998,0.04628270751863803
+15,N fertilizer,gas,1999,0.04657588074784993
+15,N fertilizer,gas,2000,0.04662191632060056
+15,N fertilizer,gas,2001,0.04660282664356184
+15,N fertilizer,gas,2002,0.04672709914802552
+15,N fertilizer,gas,2003,0.046585128741689935
+15,N fertilizer,gas,2004,0.04658312868818518
+15,N fertilizer,gas,2005,0.046840539187047614
+15,N fertilizer,gas,2006,0.047163541722960035
+15,N fertilizer,gas,2007,0.04728664947762096
+15,N fertilizer,gas,2008,0.04721470114719751
+15,N fertilizer,gas,2009,0.04724126082848164
+15,N fertilizer,gas,2010,0.04708821063189293
+15,N fertilizer,refined liquids,1971,0.05066525140253442
+15,N fertilizer,refined liquids,1972,0.05049115711590986
+15,N fertilizer,refined liquids,1973,0.05040180673596399
+15,N fertilizer,refined liquids,1974,0.05009975538484235
+15,N fertilizer,refined liquids,1975,0.05003022433458609
+15,N fertilizer,refined liquids,1976,0.04965367392462953
+15,N fertilizer,refined liquids,1977,0.04937876402204159
+15,N fertilizer,refined liquids,1978,0.04872424886419097
+15,N fertilizer,refined liquids,1979,0.04813209704600181
+15,N fertilizer,refined liquids,1980,0.04759030789239046
+15,N fertilizer,refined liquids,1981,0.04738202212306448
+15,N fertilizer,refined liquids,1982,0.04693289788831894
+15,N fertilizer,refined liquids,1983,0.04688542936202498
+15,N fertilizer,refined liquids,1984,0.04618204441149867
+15,N fertilizer,refined liquids,1985,0.04624636376288427
+15,N fertilizer,refined liquids,1986,0.04634511680219845
+15,N fertilizer,refined liquids,1987,0.046295573928308936
+15,N fertilizer,refined liquids,1988,0.04685376475026787
+15,N fertilizer,refined liquids,1989,0.046061924638226705
+15,N fertilizer,refined liquids,1990,0.04583074307042482
+15,N fertilizer,refined liquids,1991,0.0455437272920285
+15,N fertilizer,refined liquids,1992,0.04542777537374844
+15,N fertilizer,refined liquids,1993,0.04538284647294237
+15,N fertilizer,refined liquids,1994,0.04529546454526897
+15,N fertilizer,refined liquids,1995,0.04540474871833132
+15,N fertilizer,refined liquids,1996,0.0455133359632392
+15,N fertilizer,refined liquids,1997,0.04552409682367841
+15,N fertilizer,refined liquids,1998,0.0456707359056147
+15,N fertilizer,refined liquids,1999,0.04586156922977859
+15,N fertilizer,refined liquids,2000,0.0458921814862571
+15,N fertilizer,refined liquids,2001,0.04587946569796039
+15,N fertilizer,refined liquids,2002,0.04596280224220423
+15,N fertilizer,refined liquids,2003,0.045867704506481866
+15,N fertilizer,refined liquids,2004,0.045866377026618915
+15,N fertilizer,refined liquids,2005,0.04604004118802583
+15,N fertilizer,refined liquids,2006,0.046266290844981635
+15,N fertilizer,refined liquids,2007,0.04635507789723684
+15,N fertilizer,refined liquids,2008,0.04630301224930772
+15,N fertilizer,refined liquids,2009,0.04632217447855531
+15,N fertilizer,refined liquids,2010,0.04621266780927986
+16,N fertilizer,coal,1971,0
+16,N fertilizer,coal,1972,0
+16,N fertilizer,coal,1973,0
+16,N fertilizer,coal,1974,0
+16,N fertilizer,coal,1975,0
+16,N fertilizer,coal,1976,0
+16,N fertilizer,coal,1977,0
+16,N fertilizer,coal,1978,0
+16,N fertilizer,coal,1979,0
+16,N fertilizer,coal,1980,0
+16,N fertilizer,coal,1981,0
+16,N fertilizer,coal,1982,0
+16,N fertilizer,coal,1983,0
+16,N fertilizer,coal,1984,0
+16,N fertilizer,coal,1985,0
+16,N fertilizer,coal,1986,0
+16,N fertilizer,coal,1987,0
+16,N fertilizer,coal,1988,0
+16,N fertilizer,coal,1989,0
+16,N fertilizer,coal,1990,0
+16,N fertilizer,coal,1991,0
+16,N fertilizer,coal,1992,0
+16,N fertilizer,coal,1993,0
+16,N fertilizer,coal,1994,0
+16,N fertilizer,coal,1995,0
+16,N fertilizer,coal,1996,0
+16,N fertilizer,coal,1997,0
+16,N fertilizer,coal,1998,0
+16,N fertilizer,coal,1999,0
+16,N fertilizer,coal,2000,0
+16,N fertilizer,coal,2001,0
+16,N fertilizer,coal,2002,0
+16,N fertilizer,coal,2003,0
+16,N fertilizer,coal,2004,0
+16,N fertilizer,coal,2005,0
+16,N fertilizer,coal,2006,0
+16,N fertilizer,coal,2007,0
+16,N fertilizer,coal,2008,0
+16,N fertilizer,coal,2009,0
+16,N fertilizer,coal,2010,0
+16,N fertilizer,gas,1971,0.04250000000000001
+16,N fertilizer,gas,1972,0.042499999999999996
+16,N fertilizer,gas,1973,0.0425
+16,N fertilizer,gas,1974,0.04250000000000001
+16,N fertilizer,gas,1975,0.0425
+16,N fertilizer,gas,1976,0.0425
+16,N fertilizer,gas,1977,0.04250000000000001
+16,N fertilizer,gas,1978,0.0425
+16,N fertilizer,gas,1979,0.042499999999999996
+16,N fertilizer,gas,1980,0.0425
+16,N fertilizer,gas,1981,0.04250000000000001
+16,N fertilizer,gas,1982,0.0425
+16,N fertilizer,gas,1983,0.04250000000000001
+16,N fertilizer,gas,1984,0.042499999999999996
+16,N fertilizer,gas,1985,0.0425
+16,N fertilizer,gas,1986,0.0425
+16,N fertilizer,gas,1987,0.0425
+16,N fertilizer,gas,1988,0.04250000000000001
+16,N fertilizer,gas,1989,0.0425
+16,N fertilizer,gas,1990,0.0425
+16,N fertilizer,gas,1991,0.0425
+16,N fertilizer,gas,1992,0.04250000000000001
+16,N fertilizer,gas,1993,0.042499999999999996
+16,N fertilizer,gas,1994,0.0425
+16,N fertilizer,gas,1995,0.0425
+16,N fertilizer,gas,1996,0.0425
+16,N fertilizer,gas,1997,0.0425
+16,N fertilizer,gas,1998,0.0425
+16,N fertilizer,gas,1999,0.0425
+16,N fertilizer,gas,2000,0.0425
+16,N fertilizer,gas,2001,0.0425
+16,N fertilizer,gas,2002,0.042499999999999996
+16,N fertilizer,gas,2003,0.0425
+16,N fertilizer,gas,2004,0.0425
+16,N fertilizer,gas,2005,0.0425
+16,N fertilizer,gas,2006,0.0425
+16,N fertilizer,gas,2007,0.0425
+16,N fertilizer,gas,2008,0.0425
+16,N fertilizer,gas,2009,0.0425
+16,N fertilizer,gas,2010,0.04250000000000001
+16,N fertilizer,refined liquids,1971,0.043714285714285706
+16,N fertilizer,refined liquids,1972,0.04371428571428571
+16,N fertilizer,refined liquids,1973,0.043714285714285706
+16,N fertilizer,refined liquids,1974,0.04371428571428571
+16,N fertilizer,refined liquids,1975,0.04371428571428571
+16,N fertilizer,refined liquids,1976,0.04371428571428571
+16,N fertilizer,refined liquids,1977,0.04371428571428572
+16,N fertilizer,refined liquids,1978,0.04371428571428571
+16,N fertilizer,refined liquids,1979,0.04371428571428571
+16,N fertilizer,refined liquids,1980,0.04371428571428571
+16,N fertilizer,refined liquids,1981,0.04371428571428571
+16,N fertilizer,refined liquids,1982,0.04371428571428571
+16,N fertilizer,refined liquids,1983,0.04371428571428571
+16,N fertilizer,refined liquids,1984,0.04371428571428571
+16,N fertilizer,refined liquids,1985,0.043714285714285706
+16,N fertilizer,refined liquids,1986,0.04371428571428571
+16,N fertilizer,refined liquids,1987,0.043714285714285706
+16,N fertilizer,refined liquids,1988,0.043714285714285706
+16,N fertilizer,refined liquids,1989,0.04371428571428571
+16,N fertilizer,refined liquids,1990,0.043714285714285706
+16,N fertilizer,refined liquids,1991,0.043714285714285706
+16,N fertilizer,refined liquids,1992,0.04371428571428571
+16,N fertilizer,refined liquids,1993,0.04371428571428571
+16,N fertilizer,refined liquids,1994,0.04371428571428571
+16,N fertilizer,refined liquids,1995,0.043714285714285706
+16,N fertilizer,refined liquids,1996,0.043714285714285706
+16,N fertilizer,refined liquids,1997,0.04371428571428572
+16,N fertilizer,refined liquids,1998,0.04371428571428571
+16,N fertilizer,refined liquids,1999,0.04371428571428571
+16,N fertilizer,refined liquids,2000,0.043714285714285706
+16,N fertilizer,refined liquids,2001,0.04371428571428572
+16,N fertilizer,refined liquids,2002,0.043714285714285706
+16,N fertilizer,refined liquids,2003,0.04371428571428571
+16,N fertilizer,refined liquids,2004,0.04371428571428571
+16,N fertilizer,refined liquids,2005,0.04371428571428572
+16,N fertilizer,refined liquids,2006,0.04371428571428571
+16,N fertilizer,refined liquids,2007,0.04371428571428571
+16,N fertilizer,refined liquids,2008,0.04371428571428572
+16,N fertilizer,refined liquids,2009,0.04371428571428571
+16,N fertilizer,refined liquids,2010,0.04371428571428571
+17,N fertilizer,coal,1971,0
+17,N fertilizer,coal,1972,0
+17,N fertilizer,coal,1973,0
+17,N fertilizer,coal,1974,0
+17,N fertilizer,coal,1975,0
+17,N fertilizer,coal,1976,0
+17,N fertilizer,coal,1977,0
+17,N fertilizer,coal,1978,0
+17,N fertilizer,coal,1979,0
+17,N fertilizer,coal,1980,0
+17,N fertilizer,coal,1981,0
+17,N fertilizer,coal,1982,0
+17,N fertilizer,coal,1983,0
+17,N fertilizer,coal,1984,0
+17,N fertilizer,coal,1985,0
+17,N fertilizer,coal,1986,0
+17,N fertilizer,coal,1987,0
+17,N fertilizer,coal,1988,0
+17,N fertilizer,coal,1989,0
+17,N fertilizer,coal,1990,0
+17,N fertilizer,coal,1991,0
+17,N fertilizer,coal,1992,0
+17,N fertilizer,coal,1993,0
+17,N fertilizer,coal,1994,0
+17,N fertilizer,coal,1995,0
+17,N fertilizer,coal,1996,0
+17,N fertilizer,coal,1997,0
+17,N fertilizer,coal,1998,0
+17,N fertilizer,coal,1999,0
+17,N fertilizer,coal,2000,0
+17,N fertilizer,coal,2001,0
+17,N fertilizer,coal,2002,0
+17,N fertilizer,coal,2003,0
+17,N fertilizer,coal,2004,0
+17,N fertilizer,coal,2005,0
+17,N fertilizer,coal,2006,0
+17,N fertilizer,coal,2007,0
+17,N fertilizer,coal,2008,0
+17,N fertilizer,coal,2009,0
+17,N fertilizer,coal,2010,0
+17,N fertilizer,gas,1971,0.044321428571428574
+17,N fertilizer,gas,1972,0.044321428571428574
+17,N fertilizer,gas,1973,0.044321428571428574
+17,N fertilizer,gas,1974,0.044321428571428574
+17,N fertilizer,gas,1975,0.044321428571428574
+17,N fertilizer,gas,1976,0.044321428571428574
+17,N fertilizer,gas,1977,0.044321428571428574
+17,N fertilizer,gas,1978,0.044321428571428574
+17,N fertilizer,gas,1979,0.044321428571428574
+17,N fertilizer,gas,1980,0.04432142857142858
+17,N fertilizer,gas,1981,0.044321428571428574
+17,N fertilizer,gas,1982,0.044321428571428574
+17,N fertilizer,gas,1983,0.044321428571428574
+17,N fertilizer,gas,1984,0.044321428571428574
+17,N fertilizer,gas,1985,0.044321428571428574
+17,N fertilizer,gas,1986,0.044321428571428574
+17,N fertilizer,gas,1987,0.044321428571428574
+17,N fertilizer,gas,1988,0.044321428571428574
+17,N fertilizer,gas,1989,0.044321428571428574
+17,N fertilizer,gas,1990,0.044321428571428574
+17,N fertilizer,gas,1991,0.04432142857142858
+17,N fertilizer,gas,1992,0.044321428571428574
+17,N fertilizer,gas,1993,0.044321428571428574
+17,N fertilizer,gas,1994,0.044321428571428574
+17,N fertilizer,gas,1995,0.044321428571428574
+17,N fertilizer,gas,1996,0.044321428571428574
+17,N fertilizer,gas,1997,0.044321428571428574
+17,N fertilizer,gas,1998,0.044321428571428574
+17,N fertilizer,gas,1999,0.044321428571428574
+17,N fertilizer,gas,2000,0.044321428571428574
+17,N fertilizer,gas,2001,0.044321428571428574
+17,N fertilizer,gas,2002,0.044321428571428574
+17,N fertilizer,gas,2003,0.044321428571428574
+17,N fertilizer,gas,2004,0.044321428571428574
+17,N fertilizer,gas,2005,0.044321428571428574
+17,N fertilizer,gas,2006,0.044321428571428574
+17,N fertilizer,gas,2007,0.044321428571428574
+17,N fertilizer,gas,2008,0.044321428571428574
+17,N fertilizer,gas,2009,0.044321428571428574
+17,N fertilizer,gas,2010,0.044321428571428574
+17,N fertilizer,refined liquids,1971,0.060714285714285714
+17,N fertilizer,refined liquids,1972,0.06071428571428572
+17,N fertilizer,refined liquids,1973,0.06071428571428572
+17,N fertilizer,refined liquids,1974,0.06071428571428572
+17,N fertilizer,refined liquids,1975,0.060714285714285714
+17,N fertilizer,refined liquids,1976,0.06071428571428572
+17,N fertilizer,refined liquids,1977,0.06071428571428573
+17,N fertilizer,refined liquids,1978,0.06071428571428572
+17,N fertilizer,refined liquids,1979,0.060714285714285714
+17,N fertilizer,refined liquids,1980,0.06071428571428572
+17,N fertilizer,refined liquids,1981,0.06071428571428572
+17,N fertilizer,refined liquids,1982,0.06071428571428572
+17,N fertilizer,refined liquids,1983,0.06071428571428572
+17,N fertilizer,refined liquids,1984,0.06071428571428572
+17,N fertilizer,refined liquids,1985,0.06071428571428572
+17,N fertilizer,refined liquids,1986,0.060714285714285714
+17,N fertilizer,refined liquids,1987,0.060714285714285714
+17,N fertilizer,refined liquids,1988,0.060714285714285714
+17,N fertilizer,refined liquids,1989,0.06071428571428572
+17,N fertilizer,refined liquids,1990,0.06071428571428572
+17,N fertilizer,refined liquids,1991,0.06071428571428572
+17,N fertilizer,refined liquids,1992,0.06071428571428572
+17,N fertilizer,refined liquids,1993,0.06071428571428572
+17,N fertilizer,refined liquids,1994,0.06071428571428572
+17,N fertilizer,refined liquids,1995,0.06071428571428572
+17,N fertilizer,refined liquids,1996,0.06071428571428573
+17,N fertilizer,refined liquids,1997,0.060714285714285714
+17,N fertilizer,refined liquids,1998,0.06071428571428572
+17,N fertilizer,refined liquids,1999,0.06071428571428573
+17,N fertilizer,refined liquids,2000,0.060714285714285714
+17,N fertilizer,refined liquids,2001,0.06071428571428573
+17,N fertilizer,refined liquids,2002,0.06071428571428572
+17,N fertilizer,refined liquids,2003,0.06071428571428572
+17,N fertilizer,refined liquids,2004,0.06071428571428573
+17,N fertilizer,refined liquids,2005,0.06071428571428572
+17,N fertilizer,refined liquids,2006,0.06071428571428572
+17,N fertilizer,refined liquids,2007,0.06071428571428572
+17,N fertilizer,refined liquids,2008,0.06071428571428572
+17,N fertilizer,refined liquids,2009,0.06071428571428572
+17,N fertilizer,refined liquids,2010,0.06071428571428572
+18,N fertilizer,coal,1971,0
+18,N fertilizer,coal,1972,0
+18,N fertilizer,coal,1973,0
+18,N fertilizer,coal,1974,0
+18,N fertilizer,coal,1975,0
+18,N fertilizer,coal,1976,0
+18,N fertilizer,coal,1977,0
+18,N fertilizer,coal,1978,0
+18,N fertilizer,coal,1979,0
+18,N fertilizer,coal,1980,0
+18,N fertilizer,coal,1981,0
+18,N fertilizer,coal,1982,0
+18,N fertilizer,coal,1983,0
+18,N fertilizer,coal,1984,0
+18,N fertilizer,coal,1985,0
+18,N fertilizer,coal,1986,0
+18,N fertilizer,coal,1987,0
+18,N fertilizer,coal,1988,0
+18,N fertilizer,coal,1989,0
+18,N fertilizer,coal,1990,0
+18,N fertilizer,coal,1991,0
+18,N fertilizer,coal,1992,0
+18,N fertilizer,coal,1993,0
+18,N fertilizer,coal,1994,0
+18,N fertilizer,coal,1995,0
+18,N fertilizer,coal,1996,0
+18,N fertilizer,coal,1997,0
+18,N fertilizer,coal,1998,0
+18,N fertilizer,coal,1999,0
+18,N fertilizer,coal,2000,0
+18,N fertilizer,coal,2001,0
+18,N fertilizer,coal,2002,0
+18,N fertilizer,coal,2003,0
+18,N fertilizer,coal,2004,0
+18,N fertilizer,coal,2005,0
+18,N fertilizer,coal,2006,0
+18,N fertilizer,coal,2007,0
+18,N fertilizer,coal,2008,0
+18,N fertilizer,coal,2009,0
+18,N fertilizer,coal,2010,0
+18,N fertilizer,gas,1971,0.044928571428571436
+18,N fertilizer,gas,1972,0.04492857142857143
+18,N fertilizer,gas,1973,0.04492857142857143
+18,N fertilizer,gas,1974,0.04492857142857143
+18,N fertilizer,gas,1975,0.04492857142857143
+18,N fertilizer,gas,1976,0.04492857142857143
+18,N fertilizer,gas,1977,0.04492857142857143
+18,N fertilizer,gas,1978,0.04492857142857143
+18,N fertilizer,gas,1979,0.04492857142857143
+18,N fertilizer,gas,1980,0.04492857142857143
+18,N fertilizer,gas,1981,0.04492857142857143
+18,N fertilizer,gas,1982,0.04492857142857143
+18,N fertilizer,gas,1983,0.04492857142857143
+18,N fertilizer,gas,1984,0.04492857142857143
+18,N fertilizer,gas,1985,0.04492857142857143
+18,N fertilizer,gas,1986,0.04492857142857143
+18,N fertilizer,gas,1987,0.04492857142857143
+18,N fertilizer,gas,1988,0.04492857142857143
+18,N fertilizer,gas,1989,0.04492857142857143
+18,N fertilizer,gas,1990,0.04492857142857143
+18,N fertilizer,gas,1991,0.04492857142857143
+18,N fertilizer,gas,1992,0.04492857142857143
+18,N fertilizer,gas,1993,0.04492857142857143
+18,N fertilizer,gas,1994,0.04492857142857143
+18,N fertilizer,gas,1995,0.04492857142857143
+18,N fertilizer,gas,1996,0.04492857142857143
+18,N fertilizer,gas,1997,0.04492857142857143
+18,N fertilizer,gas,1998,0.04492857142857143
+18,N fertilizer,gas,1999,0.04492857142857143
+18,N fertilizer,gas,2000,0.04492857142857143
+18,N fertilizer,gas,2001,0.04492857142857143
+18,N fertilizer,gas,2002,0.04492857142857143
+18,N fertilizer,gas,2003,0.04492857142857143
+18,N fertilizer,gas,2004,0.04492857142857143
+18,N fertilizer,gas,2005,0.04492857142857143
+18,N fertilizer,gas,2006,0.04492857142857143
+18,N fertilizer,gas,2007,0.04492857142857143
+18,N fertilizer,gas,2008,0.04492857142857143
+18,N fertilizer,gas,2009,0.04492857142857143
+18,N fertilizer,gas,2010,0.04492857142857143
+18,N fertilizer,refined liquids,1971,0
+18,N fertilizer,refined liquids,1972,0
+18,N fertilizer,refined liquids,1973,0
+18,N fertilizer,refined liquids,1974,0
+18,N fertilizer,refined liquids,1975,0
+18,N fertilizer,refined liquids,1976,0
+18,N fertilizer,refined liquids,1977,0
+18,N fertilizer,refined liquids,1978,0
+18,N fertilizer,refined liquids,1979,0
+18,N fertilizer,refined liquids,1980,0
+18,N fertilizer,refined liquids,1981,0
+18,N fertilizer,refined liquids,1982,0
+18,N fertilizer,refined liquids,1983,0
+18,N fertilizer,refined liquids,1984,0
+18,N fertilizer,refined liquids,1985,0
+18,N fertilizer,refined liquids,1986,0
+18,N fertilizer,refined liquids,1987,0
+18,N fertilizer,refined liquids,1988,0
+18,N fertilizer,refined liquids,1989,0
+18,N fertilizer,refined liquids,1990,0
+18,N fertilizer,refined liquids,1991,0
+18,N fertilizer,refined liquids,1992,0
+18,N fertilizer,refined liquids,1993,0
+18,N fertilizer,refined liquids,1994,0
+18,N fertilizer,refined liquids,1995,0
+18,N fertilizer,refined liquids,1996,0
+18,N fertilizer,refined liquids,1997,0
+18,N fertilizer,refined liquids,1998,0
+18,N fertilizer,refined liquids,1999,0
+18,N fertilizer,refined liquids,2000,0
+18,N fertilizer,refined liquids,2001,0
+18,N fertilizer,refined liquids,2002,0
+18,N fertilizer,refined liquids,2003,0
+18,N fertilizer,refined liquids,2004,0
+18,N fertilizer,refined liquids,2005,0
+18,N fertilizer,refined liquids,2006,0
+18,N fertilizer,refined liquids,2007,0
+18,N fertilizer,refined liquids,2008,0
+18,N fertilizer,refined liquids,2009,0
+18,N fertilizer,refined liquids,2010,0
+19,N fertilizer,coal,1971,0
+19,N fertilizer,coal,1972,0
+19,N fertilizer,coal,1973,0
+19,N fertilizer,coal,1974,0
+19,N fertilizer,coal,1975,0
+19,N fertilizer,coal,1976,0
+19,N fertilizer,coal,1977,0
+19,N fertilizer,coal,1978,0
+19,N fertilizer,coal,1979,0
+19,N fertilizer,coal,1980,0
+19,N fertilizer,coal,1981,0
+19,N fertilizer,coal,1982,0
+19,N fertilizer,coal,1983,0
+19,N fertilizer,coal,1984,0
+19,N fertilizer,coal,1985,0
+19,N fertilizer,coal,1986,0
+19,N fertilizer,coal,1987,0
+19,N fertilizer,coal,1988,0
+19,N fertilizer,coal,1989,0
+19,N fertilizer,coal,1990,0
+19,N fertilizer,coal,1991,0
+19,N fertilizer,coal,1992,0
+19,N fertilizer,coal,1993,0
+19,N fertilizer,coal,1994,0
+19,N fertilizer,coal,1995,0
+19,N fertilizer,coal,1996,0
+19,N fertilizer,coal,1997,0
+19,N fertilizer,coal,1998,0
+19,N fertilizer,coal,1999,0
+19,N fertilizer,coal,2000,0
+19,N fertilizer,coal,2001,0
+19,N fertilizer,coal,2002,0
+19,N fertilizer,coal,2003,0
+19,N fertilizer,coal,2004,0
+19,N fertilizer,coal,2005,0
+19,N fertilizer,coal,2006,0
+19,N fertilizer,coal,2007,0
+19,N fertilizer,coal,2008,0
+19,N fertilizer,coal,2009,0
+19,N fertilizer,coal,2010,0
+19,N fertilizer,gas,1971,0.04492857142857143
+19,N fertilizer,gas,1972,0.04492857142857143
+19,N fertilizer,gas,1973,0.04492857142857143
+19,N fertilizer,gas,1974,0.04492857142857143
+19,N fertilizer,gas,1975,0.04492857142857143
+19,N fertilizer,gas,1976,0.04492857142857142
+19,N fertilizer,gas,1977,0.04492857142857143
+19,N fertilizer,gas,1978,0.04492857142857143
+19,N fertilizer,gas,1979,0.04492857142857143
+19,N fertilizer,gas,1980,0.04492857142857143
+19,N fertilizer,gas,1981,0.04492857142857143
+19,N fertilizer,gas,1982,0.04492857142857143
+19,N fertilizer,gas,1983,0.04492857142857143
+19,N fertilizer,gas,1984,0.04492857142857143
+19,N fertilizer,gas,1985,0.04492857142857143
+19,N fertilizer,gas,1986,0.04492857142857143
+19,N fertilizer,gas,1987,0.04492857142857143
+19,N fertilizer,gas,1988,0.04492857142857143
+19,N fertilizer,gas,1989,0.04492857142857143
+19,N fertilizer,gas,1990,0.04492857142857143
+19,N fertilizer,gas,1991,0.04492857142857143
+19,N fertilizer,gas,1992,0.04492857142857143
+19,N fertilizer,gas,1993,0.04492857142857143
+19,N fertilizer,gas,1994,0.04492857142857143
+19,N fertilizer,gas,1995,0.04492857142857142
+19,N fertilizer,gas,1996,0.04492857142857143
+19,N fertilizer,gas,1997,0.04492857142857143
+19,N fertilizer,gas,1998,0.04492857142857143
+19,N fertilizer,gas,1999,0.04492857142857143
+19,N fertilizer,gas,2000,0.04492857142857143
+19,N fertilizer,gas,2001,0.044928571428571436
+19,N fertilizer,gas,2002,0.04492857142857143
+19,N fertilizer,gas,2003,0.04492857142857143
+19,N fertilizer,gas,2004,0.04492857142857143
+19,N fertilizer,gas,2005,0.04492857142857143
+19,N fertilizer,gas,2006,0.04492857142857143
+19,N fertilizer,gas,2007,0.04492857142857143
+19,N fertilizer,gas,2008,0.04492857142857143
+19,N fertilizer,gas,2009,0.044928571428571436
+19,N fertilizer,gas,2010,0.04492857142857142
+19,N fertilizer,refined liquids,1971,0
+19,N fertilizer,refined liquids,1972,0.054642857142857146
+19,N fertilizer,refined liquids,1973,0.054642857142857146
+19,N fertilizer,refined liquids,1974,0
+19,N fertilizer,refined liquids,1975,0
+19,N fertilizer,refined liquids,1976,0
+19,N fertilizer,refined liquids,1977,0
+19,N fertilizer,refined liquids,1978,0
+19,N fertilizer,refined liquids,1979,0
+19,N fertilizer,refined liquids,1980,0
+19,N fertilizer,refined liquids,1981,0
+19,N fertilizer,refined liquids,1982,0
+19,N fertilizer,refined liquids,1983,0
+19,N fertilizer,refined liquids,1984,0
+19,N fertilizer,refined liquids,1985,0
+19,N fertilizer,refined liquids,1986,0
+19,N fertilizer,refined liquids,1987,0
+19,N fertilizer,refined liquids,1988,0
+19,N fertilizer,refined liquids,1989,0
+19,N fertilizer,refined liquids,1990,0
+19,N fertilizer,refined liquids,1991,0
+19,N fertilizer,refined liquids,1992,0
+19,N fertilizer,refined liquids,1993,0
+19,N fertilizer,refined liquids,1994,0
+19,N fertilizer,refined liquids,1995,0
+19,N fertilizer,refined liquids,1996,0
+19,N fertilizer,refined liquids,1997,0
+19,N fertilizer,refined liquids,1998,0
+19,N fertilizer,refined liquids,1999,0
+19,N fertilizer,refined liquids,2000,0
+19,N fertilizer,refined liquids,2001,0
+19,N fertilizer,refined liquids,2002,0
+19,N fertilizer,refined liquids,2003,0
+19,N fertilizer,refined liquids,2004,0
+19,N fertilizer,refined liquids,2005,0
+19,N fertilizer,refined liquids,2006,0
+19,N fertilizer,refined liquids,2007,0
+19,N fertilizer,refined liquids,2008,0
+19,N fertilizer,refined liquids,2009,0
+19,N fertilizer,refined liquids,2010,0
+20,N fertilizer,coal,1971,0
+20,N fertilizer,coal,1972,0
+20,N fertilizer,coal,1973,0
+20,N fertilizer,coal,1974,0
+20,N fertilizer,coal,1975,0
+20,N fertilizer,coal,1976,0
+20,N fertilizer,coal,1977,0
+20,N fertilizer,coal,1978,0
+20,N fertilizer,coal,1979,0
+20,N fertilizer,coal,1980,0
+20,N fertilizer,coal,1981,0
+20,N fertilizer,coal,1982,0
+20,N fertilizer,coal,1983,0
+20,N fertilizer,coal,1984,0
+20,N fertilizer,coal,1985,0
+20,N fertilizer,coal,1986,0
+20,N fertilizer,coal,1987,0
+20,N fertilizer,coal,1988,0
+20,N fertilizer,coal,1989,0
+20,N fertilizer,coal,1990,0
+20,N fertilizer,coal,1991,0
+20,N fertilizer,coal,1992,0
+20,N fertilizer,coal,1993,0
+20,N fertilizer,coal,1994,0
+20,N fertilizer,coal,1995,0
+20,N fertilizer,coal,1996,0
+20,N fertilizer,coal,1997,0
+20,N fertilizer,coal,1998,0
+20,N fertilizer,coal,1999,0
+20,N fertilizer,coal,2000,0
+20,N fertilizer,coal,2001,0
+20,N fertilizer,coal,2002,0
+20,N fertilizer,coal,2003,0
+20,N fertilizer,coal,2004,0
+20,N fertilizer,coal,2005,0
+20,N fertilizer,coal,2006,0
+20,N fertilizer,coal,2007,0
+20,N fertilizer,coal,2008,0
+20,N fertilizer,coal,2009,0
+20,N fertilizer,coal,2010,0
+20,N fertilizer,gas,1971,0.04371428571428571
+20,N fertilizer,gas,1972,0.04371428571428571
+20,N fertilizer,gas,1973,0.04371428571428571
+20,N fertilizer,gas,1974,0.04371428571428571
+20,N fertilizer,gas,1975,0.04371428571428571
+20,N fertilizer,gas,1976,0.04371428571428571
+20,N fertilizer,gas,1977,0.04371428571428571
+20,N fertilizer,gas,1978,0.04371428571428571
+20,N fertilizer,gas,1979,0.04371428571428571
+20,N fertilizer,gas,1980,0.04371428571428571
+20,N fertilizer,gas,1981,0.04371428571428571
+20,N fertilizer,gas,1982,0.04371428571428571
+20,N fertilizer,gas,1983,0.04371428571428571
+20,N fertilizer,gas,1984,0.04371428571428571
+20,N fertilizer,gas,1985,0.04371428571428571
+20,N fertilizer,gas,1986,0.04371428571428571
+20,N fertilizer,gas,1987,0.04371428571428571
+20,N fertilizer,gas,1988,0.04371428571428571
+20,N fertilizer,gas,1989,0.04371428571428571
+20,N fertilizer,gas,1990,0.04371428571428571
+20,N fertilizer,gas,1991,0.04371428571428571
+20,N fertilizer,gas,1992,0.04371428571428571
+20,N fertilizer,gas,1993,0.04371428571428571
+20,N fertilizer,gas,1994,0.04371428571428571
+20,N fertilizer,gas,1995,0.04371428571428571
+20,N fertilizer,gas,1996,0.04371428571428571
+20,N fertilizer,gas,1997,0.04371428571428571
+20,N fertilizer,gas,1998,0.04371428571428571
+20,N fertilizer,gas,1999,0.04371428571428571
+20,N fertilizer,gas,2000,0.04371428571428571
+20,N fertilizer,gas,2001,0.04371428571428571
+20,N fertilizer,gas,2002,0.04371428571428571
+20,N fertilizer,gas,2003,0.04371428571428571
+20,N fertilizer,gas,2004,0.04371428571428571
+20,N fertilizer,gas,2005,0.04371428571428571
+20,N fertilizer,gas,2006,0.04371428571428571
+20,N fertilizer,gas,2007,0.04371428571428571
+20,N fertilizer,gas,2008,0.04371428571428571
+20,N fertilizer,gas,2009,0.04371428571428571
+20,N fertilizer,gas,2010,0.04371428571428571
+20,N fertilizer,refined liquids,1971,0
+20,N fertilizer,refined liquids,1972,0
+20,N fertilizer,refined liquids,1973,0
+20,N fertilizer,refined liquids,1974,0
+20,N fertilizer,refined liquids,1975,0
+20,N fertilizer,refined liquids,1976,0
+20,N fertilizer,refined liquids,1977,0
+20,N fertilizer,refined liquids,1978,0
+20,N fertilizer,refined liquids,1979,0
+20,N fertilizer,refined liquids,1980,0
+20,N fertilizer,refined liquids,1981,0
+20,N fertilizer,refined liquids,1982,0
+20,N fertilizer,refined liquids,1983,0
+20,N fertilizer,refined liquids,1984,0
+20,N fertilizer,refined liquids,1985,0
+20,N fertilizer,refined liquids,1986,0
+20,N fertilizer,refined liquids,1987,0
+20,N fertilizer,refined liquids,1988,0
+20,N fertilizer,refined liquids,1989,0
+20,N fertilizer,refined liquids,1990,0
+20,N fertilizer,refined liquids,1991,0
+20,N fertilizer,refined liquids,1992,0
+20,N fertilizer,refined liquids,1993,0
+20,N fertilizer,refined liquids,1994,0
+20,N fertilizer,refined liquids,1995,0
+20,N fertilizer,refined liquids,1996,0
+20,N fertilizer,refined liquids,1997,0
+20,N fertilizer,refined liquids,1998,0
+20,N fertilizer,refined liquids,1999,0
+20,N fertilizer,refined liquids,2000,0
+20,N fertilizer,refined liquids,2001,0
+20,N fertilizer,refined liquids,2002,0
+20,N fertilizer,refined liquids,2003,0
+20,N fertilizer,refined liquids,2004,0
+20,N fertilizer,refined liquids,2005,0
+20,N fertilizer,refined liquids,2006,0
+20,N fertilizer,refined liquids,2007,0
+20,N fertilizer,refined liquids,2008,0
+20,N fertilizer,refined liquids,2009,0
+20,N fertilizer,refined liquids,2010,0
+21,N fertilizer,coal,1971,0
+21,N fertilizer,coal,1972,0
+21,N fertilizer,coal,1973,0
+21,N fertilizer,coal,1974,0
+21,N fertilizer,coal,1975,0
+21,N fertilizer,coal,1976,0
+21,N fertilizer,coal,1977,0
+21,N fertilizer,coal,1978,0
+21,N fertilizer,coal,1979,0
+21,N fertilizer,coal,1980,0
+21,N fertilizer,coal,1981,0
+21,N fertilizer,coal,1982,0
+21,N fertilizer,coal,1983,0
+21,N fertilizer,coal,1984,0
+21,N fertilizer,coal,1985,0
+21,N fertilizer,coal,1986,0
+21,N fertilizer,coal,1987,0
+21,N fertilizer,coal,1988,0
+21,N fertilizer,coal,1989,0
+21,N fertilizer,coal,1990,0
+21,N fertilizer,coal,1991,0
+21,N fertilizer,coal,1992,0
+21,N fertilizer,coal,1993,0
+21,N fertilizer,coal,1994,0
+21,N fertilizer,coal,1995,0
+21,N fertilizer,coal,1996,0
+21,N fertilizer,coal,1997,0
+21,N fertilizer,coal,1998,0
+21,N fertilizer,coal,1999,0
+21,N fertilizer,coal,2000,0
+21,N fertilizer,coal,2001,0
+21,N fertilizer,coal,2002,0
+21,N fertilizer,coal,2003,0
+21,N fertilizer,coal,2004,0
+21,N fertilizer,coal,2005,0
+21,N fertilizer,coal,2006,0
+21,N fertilizer,coal,2007,0
+21,N fertilizer,coal,2008,0
+21,N fertilizer,coal,2009,0
+21,N fertilizer,coal,2010,0
+21,N fertilizer,gas,1971,0.04371428571428571
+21,N fertilizer,gas,1972,0.04371428571428571
+21,N fertilizer,gas,1973,0.04371428571428571
+21,N fertilizer,gas,1974,0.04371428571428571
+21,N fertilizer,gas,1975,0.04371428571428571
+21,N fertilizer,gas,1976,0.04371428571428571
+21,N fertilizer,gas,1977,0.04371428571428571
+21,N fertilizer,gas,1978,0.04371428571428572
+21,N fertilizer,gas,1979,0.04371428571428571
+21,N fertilizer,gas,1980,0.04371428571428572
+21,N fertilizer,gas,1981,0.04371428571428571
+21,N fertilizer,gas,1982,0.04371428571428571
+21,N fertilizer,gas,1983,0.04371428571428571
+21,N fertilizer,gas,1984,0.043714285714285706
+21,N fertilizer,gas,1985,0.04371428571428571
+21,N fertilizer,gas,1986,0.04371428571428571
+21,N fertilizer,gas,1987,0.04371428571428571
+21,N fertilizer,gas,1988,0.04371428571428571
+21,N fertilizer,gas,1989,0.04371428571428571
+21,N fertilizer,gas,1990,0.04371428571428571
+21,N fertilizer,gas,1991,0.04371428571428572
+21,N fertilizer,gas,1992,0.04371428571428571
+21,N fertilizer,gas,1993,0.04371428571428572
+21,N fertilizer,gas,1994,0.04371428571428572
+21,N fertilizer,gas,1995,0.04371428571428571
+21,N fertilizer,gas,1996,0.04371428571428572
+21,N fertilizer,gas,1997,0.04371428571428571
+21,N fertilizer,gas,1998,0.04371428571428571
+21,N fertilizer,gas,1999,0.04371428571428571
+21,N fertilizer,gas,2000,0.04371428571428571
+21,N fertilizer,gas,2001,0.04371428571428571
+21,N fertilizer,gas,2002,0.043714285714285706
+21,N fertilizer,gas,2003,0.04371428571428571
+21,N fertilizer,gas,2004,0.04371428571428571
+21,N fertilizer,gas,2005,0.04371428571428571
+21,N fertilizer,gas,2006,0.04371428571428571
+21,N fertilizer,gas,2007,0.04371428571428571
+21,N fertilizer,gas,2008,0.04371428571428572
+21,N fertilizer,gas,2009,0.04371428571428572
+21,N fertilizer,gas,2010,0.043714285714285706
+21,N fertilizer,refined liquids,1971,0
+21,N fertilizer,refined liquids,1972,0
+21,N fertilizer,refined liquids,1973,0
+21,N fertilizer,refined liquids,1974,0
+21,N fertilizer,refined liquids,1975,0
+21,N fertilizer,refined liquids,1976,0
+21,N fertilizer,refined liquids,1977,0
+21,N fertilizer,refined liquids,1978,0
+21,N fertilizer,refined liquids,1979,0
+21,N fertilizer,refined liquids,1980,0
+21,N fertilizer,refined liquids,1981,0
+21,N fertilizer,refined liquids,1982,0
+21,N fertilizer,refined liquids,1983,0
+21,N fertilizer,refined liquids,1984,0
+21,N fertilizer,refined liquids,1985,0
+21,N fertilizer,refined liquids,1986,0
+21,N fertilizer,refined liquids,1987,0
+21,N fertilizer,refined liquids,1988,0
+21,N fertilizer,refined liquids,1989,0
+21,N fertilizer,refined liquids,1990,0
+21,N fertilizer,refined liquids,1991,0
+21,N fertilizer,refined liquids,1992,0
+21,N fertilizer,refined liquids,1993,0
+21,N fertilizer,refined liquids,1994,0
+21,N fertilizer,refined liquids,1995,0
+21,N fertilizer,refined liquids,1996,0
+21,N fertilizer,refined liquids,1997,0
+21,N fertilizer,refined liquids,1998,0
+21,N fertilizer,refined liquids,1999,0
+21,N fertilizer,refined liquids,2000,0
+21,N fertilizer,refined liquids,2001,0
+21,N fertilizer,refined liquids,2002,0
+21,N fertilizer,refined liquids,2003,0
+21,N fertilizer,refined liquids,2004,0
+21,N fertilizer,refined liquids,2005,0
+21,N fertilizer,refined liquids,2006,0
+21,N fertilizer,refined liquids,2007,0
+21,N fertilizer,refined liquids,2008,0
+21,N fertilizer,refined liquids,2009,0
+21,N fertilizer,refined liquids,2010,0
+22,N fertilizer,coal,1971,0
+22,N fertilizer,coal,1972,0
+22,N fertilizer,coal,1973,0
+22,N fertilizer,coal,1974,0
+22,N fertilizer,coal,1975,0
+22,N fertilizer,coal,1976,0
+22,N fertilizer,coal,1977,0
+22,N fertilizer,coal,1978,0
+22,N fertilizer,coal,1979,0
+22,N fertilizer,coal,1980,0
+22,N fertilizer,coal,1981,0
+22,N fertilizer,coal,1982,0
+22,N fertilizer,coal,1983,0
+22,N fertilizer,coal,1984,0
+22,N fertilizer,coal,1985,0
+22,N fertilizer,coal,1986,0
+22,N fertilizer,coal,1987,0
+22,N fertilizer,coal,1988,0
+22,N fertilizer,coal,1989,0
+22,N fertilizer,coal,1990,0
+22,N fertilizer,coal,1991,0
+22,N fertilizer,coal,1992,0
+22,N fertilizer,coal,1993,0
+22,N fertilizer,coal,1994,0
+22,N fertilizer,coal,1995,0
+22,N fertilizer,coal,1996,0
+22,N fertilizer,coal,1997,0
+22,N fertilizer,coal,1998,0
+22,N fertilizer,coal,1999,0
+22,N fertilizer,coal,2000,0
+22,N fertilizer,coal,2001,0
+22,N fertilizer,coal,2002,0
+22,N fertilizer,coal,2003,0
+22,N fertilizer,coal,2004,0
+22,N fertilizer,coal,2005,0
+22,N fertilizer,coal,2006,0
+22,N fertilizer,coal,2007,0
+22,N fertilizer,coal,2008,0
+22,N fertilizer,coal,2009,0
+22,N fertilizer,coal,2010,0
+22,N fertilizer,gas,1971,0.04492857142857143
+22,N fertilizer,gas,1972,0.04492857142857143
+22,N fertilizer,gas,1973,0.04492857142857143
+22,N fertilizer,gas,1974,0.04492857142857143
+22,N fertilizer,gas,1975,0.04492857142857143
+22,N fertilizer,gas,1976,0.04492857142857143
+22,N fertilizer,gas,1977,0.04492857142857143
+22,N fertilizer,gas,1978,0.044928571428571436
+22,N fertilizer,gas,1979,0.044928571428571436
+22,N fertilizer,gas,1980,0.04492857142857143
+22,N fertilizer,gas,1981,0.044928571428571436
+22,N fertilizer,gas,1982,0.04492857142857143
+22,N fertilizer,gas,1983,0.04492857142857143
+22,N fertilizer,gas,1984,0.04492857142857143
+22,N fertilizer,gas,1985,0.04492857142857143
+22,N fertilizer,gas,1986,0.04492857142857143
+22,N fertilizer,gas,1987,0.04492857142857143
+22,N fertilizer,gas,1988,0.04492857142857143
+22,N fertilizer,gas,1989,0.04492857142857143
+22,N fertilizer,gas,1990,0.04492857142857143
+22,N fertilizer,gas,1991,0.04492857142857143
+22,N fertilizer,gas,1992,0.04492857142857143
+22,N fertilizer,gas,1993,0.04492857142857143
+22,N fertilizer,gas,1994,0.04492857142857143
+22,N fertilizer,gas,1995,0.04492857142857143
+22,N fertilizer,gas,1996,0.04492857142857143
+22,N fertilizer,gas,1997,0.04492857142857143
+22,N fertilizer,gas,1998,0.044928571428571436
+22,N fertilizer,gas,1999,0.04492857142857143
+22,N fertilizer,gas,2000,0.04492857142857143
+22,N fertilizer,gas,2001,0.04492857142857143
+22,N fertilizer,gas,2002,0.04492857142857143
+22,N fertilizer,gas,2003,0.04492857142857143
+22,N fertilizer,gas,2004,0.04492857142857143
+22,N fertilizer,gas,2005,0.04492857142857143
+22,N fertilizer,gas,2006,0.04492857142857143
+22,N fertilizer,gas,2007,0.04492857142857143
+22,N fertilizer,gas,2008,0.04492857142857143
+22,N fertilizer,gas,2009,0.04492857142857143
+22,N fertilizer,gas,2010,0.04492857142857143
+22,N fertilizer,refined liquids,1971,0
+22,N fertilizer,refined liquids,1972,0
+22,N fertilizer,refined liquids,1973,0
+22,N fertilizer,refined liquids,1974,0
+22,N fertilizer,refined liquids,1975,0
+22,N fertilizer,refined liquids,1976,0
+22,N fertilizer,refined liquids,1977,0
+22,N fertilizer,refined liquids,1978,0
+22,N fertilizer,refined liquids,1979,0
+22,N fertilizer,refined liquids,1980,0
+22,N fertilizer,refined liquids,1981,0
+22,N fertilizer,refined liquids,1982,0
+22,N fertilizer,refined liquids,1983,0
+22,N fertilizer,refined liquids,1984,0
+22,N fertilizer,refined liquids,1985,0
+22,N fertilizer,refined liquids,1986,0
+22,N fertilizer,refined liquids,1987,0
+22,N fertilizer,refined liquids,1988,0
+22,N fertilizer,refined liquids,1989,0
+22,N fertilizer,refined liquids,1990,0
+22,N fertilizer,refined liquids,1991,0
+22,N fertilizer,refined liquids,1992,0
+22,N fertilizer,refined liquids,1993,0
+22,N fertilizer,refined liquids,1994,0
+22,N fertilizer,refined liquids,1995,0
+22,N fertilizer,refined liquids,1996,0
+22,N fertilizer,refined liquids,1997,0
+22,N fertilizer,refined liquids,1998,0
+22,N fertilizer,refined liquids,1999,0
+22,N fertilizer,refined liquids,2000,0
+22,N fertilizer,refined liquids,2001,0
+22,N fertilizer,refined liquids,2002,0
+22,N fertilizer,refined liquids,2003,0
+22,N fertilizer,refined liquids,2004,0
+22,N fertilizer,refined liquids,2005,0
+22,N fertilizer,refined liquids,2006,0
+22,N fertilizer,refined liquids,2007,0
+22,N fertilizer,refined liquids,2008,0
+22,N fertilizer,refined liquids,2009,0
+22,N fertilizer,refined liquids,2010,0
+23,N fertilizer,coal,1971,0
+23,N fertilizer,coal,1972,0
+23,N fertilizer,coal,1973,0
+23,N fertilizer,coal,1974,0
+23,N fertilizer,coal,1975,0
+23,N fertilizer,coal,1976,0
+23,N fertilizer,coal,1977,0
+23,N fertilizer,coal,1978,0
+23,N fertilizer,coal,1979,0
+23,N fertilizer,coal,1980,0
+23,N fertilizer,coal,1981,0
+23,N fertilizer,coal,1982,0
+23,N fertilizer,coal,1983,0
+23,N fertilizer,coal,1984,0
+23,N fertilizer,coal,1985,0
+23,N fertilizer,coal,1986,0
+23,N fertilizer,coal,1987,0
+23,N fertilizer,coal,1988,0
+23,N fertilizer,coal,1989,0
+23,N fertilizer,coal,1990,0
+23,N fertilizer,coal,1991,0
+23,N fertilizer,coal,1992,0
+23,N fertilizer,coal,1993,0
+23,N fertilizer,coal,1994,0
+23,N fertilizer,coal,1995,0
+23,N fertilizer,coal,1996,0
+23,N fertilizer,coal,1997,0
+23,N fertilizer,coal,1998,0
+23,N fertilizer,coal,1999,0
+23,N fertilizer,coal,2000,0
+23,N fertilizer,coal,2001,0
+23,N fertilizer,coal,2002,0
+23,N fertilizer,coal,2003,0
+23,N fertilizer,coal,2004,0
+23,N fertilizer,coal,2005,0
+23,N fertilizer,coal,2006,0
+23,N fertilizer,coal,2007,0
+23,N fertilizer,coal,2008,0
+23,N fertilizer,coal,2009,0
+23,N fertilizer,coal,2010,0
+23,N fertilizer,gas,1971,0.04845
+23,N fertilizer,gas,1972,0.04845
+23,N fertilizer,gas,1973,0.04845
+23,N fertilizer,gas,1974,0.04845
+23,N fertilizer,gas,1975,0.04845
+23,N fertilizer,gas,1976,0.04845
+23,N fertilizer,gas,1977,0.04845
+23,N fertilizer,gas,1978,0.04845
+23,N fertilizer,gas,1979,0.04845
+23,N fertilizer,gas,1980,0.04845
+23,N fertilizer,gas,1981,0.04845
+23,N fertilizer,gas,1982,0.04845000000000001
+23,N fertilizer,gas,1983,0.04845
+23,N fertilizer,gas,1984,0.04845
+23,N fertilizer,gas,1985,0.04845
+23,N fertilizer,gas,1986,0.04845
+23,N fertilizer,gas,1987,0.04845
+23,N fertilizer,gas,1988,0.04845
+23,N fertilizer,gas,1989,0.04845
+23,N fertilizer,gas,1990,0.04845
+23,N fertilizer,gas,1991,0.04845000000000001
+23,N fertilizer,gas,1992,0.04845000000000001
+23,N fertilizer,gas,1993,0.04845
+23,N fertilizer,gas,1994,0.04845
+23,N fertilizer,gas,1995,0.04845
+23,N fertilizer,gas,1996,0.04845
+23,N fertilizer,gas,1997,0.04845
+23,N fertilizer,gas,1998,0.04845
+23,N fertilizer,gas,1999,0.04845
+23,N fertilizer,gas,2000,0.04845
+23,N fertilizer,gas,2001,0.04845
+23,N fertilizer,gas,2002,0.04844999999999999
+23,N fertilizer,gas,2003,0.04844999999999999
+23,N fertilizer,gas,2004,0.04844999999999999
+23,N fertilizer,gas,2005,0.04845
+23,N fertilizer,gas,2006,0.04845
+23,N fertilizer,gas,2007,0.04845
+23,N fertilizer,gas,2008,0.04845
+23,N fertilizer,gas,2009,0.04845
+23,N fertilizer,gas,2010,0.04845
+23,N fertilizer,refined liquids,1971,0
+23,N fertilizer,refined liquids,1972,0
+23,N fertilizer,refined liquids,1973,0
+23,N fertilizer,refined liquids,1974,0
+23,N fertilizer,refined liquids,1975,0
+23,N fertilizer,refined liquids,1976,0
+23,N fertilizer,refined liquids,1977,0
+23,N fertilizer,refined liquids,1978,0
+23,N fertilizer,refined liquids,1979,0
+23,N fertilizer,refined liquids,1980,0
+23,N fertilizer,refined liquids,1981,0
+23,N fertilizer,refined liquids,1982,0
+23,N fertilizer,refined liquids,1983,0
+23,N fertilizer,refined liquids,1984,0
+23,N fertilizer,refined liquids,1985,0
+23,N fertilizer,refined liquids,1986,0
+23,N fertilizer,refined liquids,1987,0
+23,N fertilizer,refined liquids,1988,0
+23,N fertilizer,refined liquids,1989,0
+23,N fertilizer,refined liquids,1990,0
+23,N fertilizer,refined liquids,1991,0
+23,N fertilizer,refined liquids,1992,0
+23,N fertilizer,refined liquids,1993,0
+23,N fertilizer,refined liquids,1994,0
+23,N fertilizer,refined liquids,1995,0
+23,N fertilizer,refined liquids,1996,0
+23,N fertilizer,refined liquids,1997,0
+23,N fertilizer,refined liquids,1998,0
+23,N fertilizer,refined liquids,1999,0
+23,N fertilizer,refined liquids,2000,0
+23,N fertilizer,refined liquids,2001,0
+23,N fertilizer,refined liquids,2002,0
+23,N fertilizer,refined liquids,2003,0
+23,N fertilizer,refined liquids,2004,0
+23,N fertilizer,refined liquids,2005,0
+23,N fertilizer,refined liquids,2006,0
+23,N fertilizer,refined liquids,2007,0
+23,N fertilizer,refined liquids,2008,0
+23,N fertilizer,refined liquids,2009,0
+23,N fertilizer,refined liquids,2010,0
+24,N fertilizer,coal,1971,0
+24,N fertilizer,coal,1972,0
+24,N fertilizer,coal,1973,0
+24,N fertilizer,coal,1974,0
+24,N fertilizer,coal,1975,0
+24,N fertilizer,coal,1976,0
+24,N fertilizer,coal,1977,0
+24,N fertilizer,coal,1978,0
+24,N fertilizer,coal,1979,0
+24,N fertilizer,coal,1980,0
+24,N fertilizer,coal,1981,0
+24,N fertilizer,coal,1982,0
+24,N fertilizer,coal,1983,0
+24,N fertilizer,coal,1984,0
+24,N fertilizer,coal,1985,0
+24,N fertilizer,coal,1986,0
+24,N fertilizer,coal,1987,0
+24,N fertilizer,coal,1988,0
+24,N fertilizer,coal,1989,0
+24,N fertilizer,coal,1990,0
+24,N fertilizer,coal,1991,0
+24,N fertilizer,coal,1992,0
+24,N fertilizer,coal,1993,0
+24,N fertilizer,coal,1994,0
+24,N fertilizer,coal,1995,0
+24,N fertilizer,coal,1996,0
+24,N fertilizer,coal,1997,0
+24,N fertilizer,coal,1998,0
+24,N fertilizer,coal,1999,0
+24,N fertilizer,coal,2000,0
+24,N fertilizer,coal,2001,0
+24,N fertilizer,coal,2002,0
+24,N fertilizer,coal,2003,0
+24,N fertilizer,coal,2004,0
+24,N fertilizer,coal,2005,0
+24,N fertilizer,coal,2006,0
+24,N fertilizer,coal,2007,0
+24,N fertilizer,coal,2008,0
+24,N fertilizer,coal,2009,0
+24,N fertilizer,coal,2010,0
+24,N fertilizer,gas,1971,0
+24,N fertilizer,gas,1972,0.04371428571428571
+24,N fertilizer,gas,1973,0.04371428571428571
+24,N fertilizer,gas,1974,0.04371428571428571
+24,N fertilizer,gas,1975,0.04371428571428571
+24,N fertilizer,gas,1976,0.04371428571428571
+24,N fertilizer,gas,1977,0.04371428571428571
+24,N fertilizer,gas,1978,0.04371428571428571
+24,N fertilizer,gas,1979,0.04371428571428571
+24,N fertilizer,gas,1980,0.04371428571428571
+24,N fertilizer,gas,1981,0.04371428571428571
+24,N fertilizer,gas,1982,0.04371428571428571
+24,N fertilizer,gas,1983,0.04371428571428571
+24,N fertilizer,gas,1984,0.04371428571428571
+24,N fertilizer,gas,1985,0.04371428571428571
+24,N fertilizer,gas,1986,0.04371428571428571
+24,N fertilizer,gas,1987,0.04371428571428571
+24,N fertilizer,gas,1988,0.04371428571428572
+24,N fertilizer,gas,1989,0.04371428571428571
+24,N fertilizer,gas,1990,0.04371428571428571
+24,N fertilizer,gas,1991,0.04371428571428571
+24,N fertilizer,gas,1992,0.04371428571428571
+24,N fertilizer,gas,1993,0.04371428571428571
+24,N fertilizer,gas,1994,0.04371428571428571
+24,N fertilizer,gas,1995,0.04371428571428571
+24,N fertilizer,gas,1996,0.04371428571428571
+24,N fertilizer,gas,1997,0.043714285714285706
+24,N fertilizer,gas,1998,0.04371428571428571
+24,N fertilizer,gas,1999,0.043714285714285706
+24,N fertilizer,gas,2000,0.04371428571428571
+24,N fertilizer,gas,2001,0.04371428571428571
+24,N fertilizer,gas,2002,0.04371428571428571
+24,N fertilizer,gas,2003,0.04371428571428571
+24,N fertilizer,gas,2004,0.04371428571428571
+24,N fertilizer,gas,2005,0.04371428571428571
+24,N fertilizer,gas,2006,0.04371428571428571
+24,N fertilizer,gas,2007,0.043714285714285706
+24,N fertilizer,gas,2008,0.04371428571428571
+24,N fertilizer,gas,2009,0.04371428571428571
+24,N fertilizer,gas,2010,0.04371428571428571
+24,N fertilizer,refined liquids,1971,0.054642857142857146
+24,N fertilizer,refined liquids,1972,0.05464285714285715
+24,N fertilizer,refined liquids,1973,0.054642857142857146
+24,N fertilizer,refined liquids,1974,0.054642857142857146
+24,N fertilizer,refined liquids,1975,0.05464285714285715
+24,N fertilizer,refined liquids,1976,0.054642857142857146
+24,N fertilizer,refined liquids,1977,0.054642857142857146
+24,N fertilizer,refined liquids,1978,0.054642857142857146
+24,N fertilizer,refined liquids,1979,0.054642857142857146
+24,N fertilizer,refined liquids,1980,0.054642857142857146
+24,N fertilizer,refined liquids,1981,0.05464285714285714
+24,N fertilizer,refined liquids,1982,0.054642857142857146
+24,N fertilizer,refined liquids,1983,0.05464285714285714
+24,N fertilizer,refined liquids,1984,0.054642857142857146
+24,N fertilizer,refined liquids,1985,0.054642857142857146
+24,N fertilizer,refined liquids,1986,0.054642857142857146
+24,N fertilizer,refined liquids,1987,0.054642857142857146
+24,N fertilizer,refined liquids,1988,0.05464285714285715
+24,N fertilizer,refined liquids,1989,0.054642857142857146
+24,N fertilizer,refined liquids,1990,0.054642857142857146
+24,N fertilizer,refined liquids,1991,0.054642857142857146
+24,N fertilizer,refined liquids,1992,0.054642857142857146
+24,N fertilizer,refined liquids,1993,0
+24,N fertilizer,refined liquids,1994,0
+24,N fertilizer,refined liquids,1995,0
+24,N fertilizer,refined liquids,1996,0
+24,N fertilizer,refined liquids,1997,0
+24,N fertilizer,refined liquids,1998,0
+24,N fertilizer,refined liquids,1999,0
+24,N fertilizer,refined liquids,2000,0
+24,N fertilizer,refined liquids,2001,0
+24,N fertilizer,refined liquids,2002,0
+24,N fertilizer,refined liquids,2003,0
+24,N fertilizer,refined liquids,2004,0
+24,N fertilizer,refined liquids,2005,0
+24,N fertilizer,refined liquids,2006,0
+24,N fertilizer,refined liquids,2007,0
+24,N fertilizer,refined liquids,2008,0
+24,N fertilizer,refined liquids,2009,0
+24,N fertilizer,refined liquids,2010,0
+25,N fertilizer,coal,1971,0
+25,N fertilizer,coal,1972,0
+25,N fertilizer,coal,1973,0
+25,N fertilizer,coal,1974,0
+25,N fertilizer,coal,1975,0
+25,N fertilizer,coal,1976,0
+25,N fertilizer,coal,1977,0
+25,N fertilizer,coal,1978,0
+25,N fertilizer,coal,1979,0
+25,N fertilizer,coal,1980,0
+25,N fertilizer,coal,1981,0
+25,N fertilizer,coal,1982,0
+25,N fertilizer,coal,1983,0
+25,N fertilizer,coal,1984,0
+25,N fertilizer,coal,1985,0
+25,N fertilizer,coal,1986,0
+25,N fertilizer,coal,1987,0
+25,N fertilizer,coal,1988,0
+25,N fertilizer,coal,1989,0
+25,N fertilizer,coal,1990,0
+25,N fertilizer,coal,1991,0
+25,N fertilizer,coal,1992,0
+25,N fertilizer,coal,1993,0
+25,N fertilizer,coal,1994,0
+25,N fertilizer,coal,1995,0
+25,N fertilizer,coal,1996,0
+25,N fertilizer,coal,1997,0
+25,N fertilizer,coal,1998,0
+25,N fertilizer,coal,1999,0
+25,N fertilizer,coal,2000,0
+25,N fertilizer,coal,2001,0
+25,N fertilizer,coal,2002,0
+25,N fertilizer,coal,2003,0
+25,N fertilizer,coal,2004,0
+25,N fertilizer,coal,2005,0
+25,N fertilizer,coal,2006,0
+25,N fertilizer,coal,2007,0
+25,N fertilizer,coal,2008,0
+25,N fertilizer,coal,2009,0
+25,N fertilizer,coal,2010,0
+25,N fertilizer,gas,1971,0.04371428571428571
+25,N fertilizer,gas,1972,0.04371428571428571
+25,N fertilizer,gas,1973,0.04371428571428571
+25,N fertilizer,gas,1974,0.04371428571428571
+25,N fertilizer,gas,1975,0.04371428571428571
+25,N fertilizer,gas,1976,0.04371428571428571
+25,N fertilizer,gas,1977,0.04371428571428571
+25,N fertilizer,gas,1978,0.04371428571428571
+25,N fertilizer,gas,1979,0.04371428571428571
+25,N fertilizer,gas,1980,0.04371428571428571
+25,N fertilizer,gas,1981,0.04371428571428571
+25,N fertilizer,gas,1982,0.04371428571428571
+25,N fertilizer,gas,1983,0.04371428571428572
+25,N fertilizer,gas,1984,0.04371428571428571
+25,N fertilizer,gas,1985,0.04371428571428571
+25,N fertilizer,gas,1986,0.04371428571428571
+25,N fertilizer,gas,1987,0.04371428571428571
+25,N fertilizer,gas,1988,0.04371428571428571
+25,N fertilizer,gas,1989,0.04371428571428571
+25,N fertilizer,gas,1990,0.04371428571428571
+25,N fertilizer,gas,1991,0.04371428571428571
+25,N fertilizer,gas,1992,0.04371428571428571
+25,N fertilizer,gas,1993,0.04371428571428571
+25,N fertilizer,gas,1994,0.04371428571428571
+25,N fertilizer,gas,1995,0.04371428571428571
+25,N fertilizer,gas,1996,0.04371428571428571
+25,N fertilizer,gas,1997,0.04371428571428571
+25,N fertilizer,gas,1998,0.04371428571428572
+25,N fertilizer,gas,1999,0.04371428571428571
+25,N fertilizer,gas,2000,0.04371428571428572
+25,N fertilizer,gas,2001,0.04371428571428572
+25,N fertilizer,gas,2002,0.04371428571428571
+25,N fertilizer,gas,2003,0.04371428571428571
+25,N fertilizer,gas,2004,0.04371428571428571
+25,N fertilizer,gas,2005,0.04371428571428571
+25,N fertilizer,gas,2006,0.04371428571428571
+25,N fertilizer,gas,2007,0.04371428571428571
+25,N fertilizer,gas,2008,0.04371428571428571
+25,N fertilizer,gas,2009,0.04371428571428572
+25,N fertilizer,gas,2010,0.043714285714285706
+25,N fertilizer,refined liquids,1971,0
+25,N fertilizer,refined liquids,1972,0
+25,N fertilizer,refined liquids,1973,0
+25,N fertilizer,refined liquids,1974,0
+25,N fertilizer,refined liquids,1975,0
+25,N fertilizer,refined liquids,1976,0
+25,N fertilizer,refined liquids,1977,0
+25,N fertilizer,refined liquids,1978,0
+25,N fertilizer,refined liquids,1979,0
+25,N fertilizer,refined liquids,1980,0
+25,N fertilizer,refined liquids,1981,0
+25,N fertilizer,refined liquids,1982,0
+25,N fertilizer,refined liquids,1983,0
+25,N fertilizer,refined liquids,1984,0
+25,N fertilizer,refined liquids,1985,0
+25,N fertilizer,refined liquids,1986,0
+25,N fertilizer,refined liquids,1987,0
+25,N fertilizer,refined liquids,1988,0
+25,N fertilizer,refined liquids,1989,0
+25,N fertilizer,refined liquids,1990,0
+25,N fertilizer,refined liquids,1991,0
+25,N fertilizer,refined liquids,1992,0
+25,N fertilizer,refined liquids,1993,0
+25,N fertilizer,refined liquids,1994,0
+25,N fertilizer,refined liquids,1995,0
+25,N fertilizer,refined liquids,1996,0
+25,N fertilizer,refined liquids,1997,0
+25,N fertilizer,refined liquids,1998,0
+25,N fertilizer,refined liquids,1999,0
+25,N fertilizer,refined liquids,2000,0
+25,N fertilizer,refined liquids,2001,0
+25,N fertilizer,refined liquids,2002,0
+25,N fertilizer,refined liquids,2003,0
+25,N fertilizer,refined liquids,2004,0
+25,N fertilizer,refined liquids,2005,0
+25,N fertilizer,refined liquids,2006,0
+25,N fertilizer,refined liquids,2007,0
+25,N fertilizer,refined liquids,2008,0
+25,N fertilizer,refined liquids,2009,0
+25,N fertilizer,refined liquids,2010,0
+26,N fertilizer,coal,1971,0
+26,N fertilizer,coal,1972,0
+26,N fertilizer,coal,1973,0
+26,N fertilizer,coal,1974,0
+26,N fertilizer,coal,1975,0
+26,N fertilizer,coal,1976,0
+26,N fertilizer,coal,1977,0
+26,N fertilizer,coal,1978,0
+26,N fertilizer,coal,1979,0
+26,N fertilizer,coal,1980,0
+26,N fertilizer,coal,1981,0
+26,N fertilizer,coal,1982,0
+26,N fertilizer,coal,1983,0
+26,N fertilizer,coal,1984,0
+26,N fertilizer,coal,1985,0
+26,N fertilizer,coal,1986,0
+26,N fertilizer,coal,1987,0
+26,N fertilizer,coal,1988,0
+26,N fertilizer,coal,1989,0
+26,N fertilizer,coal,1990,0
+26,N fertilizer,coal,1991,0
+26,N fertilizer,coal,1992,0
+26,N fertilizer,coal,1993,0
+26,N fertilizer,coal,1994,0
+26,N fertilizer,coal,1995,0
+26,N fertilizer,coal,1996,0
+26,N fertilizer,coal,1997,0
+26,N fertilizer,coal,1998,0
+26,N fertilizer,coal,1999,0
+26,N fertilizer,coal,2000,0
+26,N fertilizer,coal,2001,0
+26,N fertilizer,coal,2002,0
+26,N fertilizer,coal,2003,0
+26,N fertilizer,coal,2004,0
+26,N fertilizer,coal,2005,0
+26,N fertilizer,coal,2006,0
+26,N fertilizer,coal,2007,0
+26,N fertilizer,coal,2008,0
+26,N fertilizer,coal,2009,0
+26,N fertilizer,coal,2010,0
+26,N fertilizer,gas,1971,0.04371428571428572
+26,N fertilizer,gas,1972,0.043714285714285706
+26,N fertilizer,gas,1973,0.04371428571428571
+26,N fertilizer,gas,1974,0.043714285714285706
+26,N fertilizer,gas,1975,0.04371428571428571
+26,N fertilizer,gas,1976,0.04371428571428571
+26,N fertilizer,gas,1977,0.043714285714285706
+26,N fertilizer,gas,1978,0.04371428571428571
+26,N fertilizer,gas,1979,0.04371428571428571
+26,N fertilizer,gas,1980,0.04371428571428571
+26,N fertilizer,gas,1981,0.04371428571428571
+26,N fertilizer,gas,1982,0.04371428571428571
+26,N fertilizer,gas,1983,0.04371428571428571
+26,N fertilizer,gas,1984,0.04371428571428571
+26,N fertilizer,gas,1985,0.04371428571428571
+26,N fertilizer,gas,1986,0.04371428571428571
+26,N fertilizer,gas,1987,0.04371428571428571
+26,N fertilizer,gas,1988,0.04371428571428571
+26,N fertilizer,gas,1989,0.043714285714285706
+26,N fertilizer,gas,1990,0.04371428571428571
+26,N fertilizer,gas,1991,0.04371428571428572
+26,N fertilizer,gas,1992,0.04371428571428571
+26,N fertilizer,gas,1993,0.04371428571428572
+26,N fertilizer,gas,1994,0.043714285714285706
+26,N fertilizer,gas,1995,0.04371428571428571
+26,N fertilizer,gas,1996,0.04371428571428571
+26,N fertilizer,gas,1997,0.043714285714285706
+26,N fertilizer,gas,1998,0.04371428571428571
+26,N fertilizer,gas,1999,0.04371428571428572
+26,N fertilizer,gas,2000,0.04371428571428571
+26,N fertilizer,gas,2001,0.04371428571428571
+26,N fertilizer,gas,2002,0.04371428571428571
+26,N fertilizer,gas,2003,0.04371428571428571
+26,N fertilizer,gas,2004,0.04371428571428571
+26,N fertilizer,gas,2005,0.04371428571428571
+26,N fertilizer,gas,2006,0.04371428571428571
+26,N fertilizer,gas,2007,0.04371428571428571
+26,N fertilizer,gas,2008,0.04371428571428571
+26,N fertilizer,gas,2009,0.04371428571428572
+26,N fertilizer,gas,2010,0.04371428571428571
+26,N fertilizer,refined liquids,1971,0
+26,N fertilizer,refined liquids,1972,0
+26,N fertilizer,refined liquids,1973,0
+26,N fertilizer,refined liquids,1974,0
+26,N fertilizer,refined liquids,1975,0
+26,N fertilizer,refined liquids,1976,0
+26,N fertilizer,refined liquids,1977,0
+26,N fertilizer,refined liquids,1978,0
+26,N fertilizer,refined liquids,1979,0
+26,N fertilizer,refined liquids,1980,0
+26,N fertilizer,refined liquids,1981,0
+26,N fertilizer,refined liquids,1982,0
+26,N fertilizer,refined liquids,1983,0
+26,N fertilizer,refined liquids,1984,0
+26,N fertilizer,refined liquids,1985,0
+26,N fertilizer,refined liquids,1986,0
+26,N fertilizer,refined liquids,1987,0
+26,N fertilizer,refined liquids,1988,0
+26,N fertilizer,refined liquids,1989,0
+26,N fertilizer,refined liquids,1990,0
+26,N fertilizer,refined liquids,1991,0
+26,N fertilizer,refined liquids,1992,0
+26,N fertilizer,refined liquids,1993,0
+26,N fertilizer,refined liquids,1994,0
+26,N fertilizer,refined liquids,1995,0
+26,N fertilizer,refined liquids,1996,0
+26,N fertilizer,refined liquids,1997,0
+26,N fertilizer,refined liquids,1998,0
+26,N fertilizer,refined liquids,1999,0
+26,N fertilizer,refined liquids,2000,0
+26,N fertilizer,refined liquids,2001,0
+26,N fertilizer,refined liquids,2002,0
+26,N fertilizer,refined liquids,2003,0
+26,N fertilizer,refined liquids,2004,0
+26,N fertilizer,refined liquids,2005,0
+26,N fertilizer,refined liquids,2006,0
+26,N fertilizer,refined liquids,2007,0
+26,N fertilizer,refined liquids,2008,0
+26,N fertilizer,refined liquids,2009,0
+26,N fertilizer,refined liquids,2010,0
+27,N fertilizer,coal,1971,0
+27,N fertilizer,coal,1972,0
+27,N fertilizer,coal,1973,0
+27,N fertilizer,coal,1974,0
+27,N fertilizer,coal,1975,0
+27,N fertilizer,coal,1976,0
+27,N fertilizer,coal,1977,0
+27,N fertilizer,coal,1978,0
+27,N fertilizer,coal,1979,0
+27,N fertilizer,coal,1980,0
+27,N fertilizer,coal,1981,0
+27,N fertilizer,coal,1982,0
+27,N fertilizer,coal,1983,0
+27,N fertilizer,coal,1984,0
+27,N fertilizer,coal,1985,0
+27,N fertilizer,coal,1986,0
+27,N fertilizer,coal,1987,0
+27,N fertilizer,coal,1988,0
+27,N fertilizer,coal,1989,0
+27,N fertilizer,coal,1990,0
+27,N fertilizer,coal,1991,0
+27,N fertilizer,coal,1992,0
+27,N fertilizer,coal,1993,0
+27,N fertilizer,coal,1994,0
+27,N fertilizer,coal,1995,0
+27,N fertilizer,coal,1996,0
+27,N fertilizer,coal,1997,0
+27,N fertilizer,coal,1998,0
+27,N fertilizer,coal,1999,0
+27,N fertilizer,coal,2000,0
+27,N fertilizer,coal,2001,0
+27,N fertilizer,coal,2002,0
+27,N fertilizer,coal,2003,0
+27,N fertilizer,coal,2004,0
+27,N fertilizer,coal,2005,0
+27,N fertilizer,coal,2006,0
+27,N fertilizer,coal,2007,0
+27,N fertilizer,coal,2008,0
+27,N fertilizer,coal,2009,0
+27,N fertilizer,coal,2010,0
+27,N fertilizer,gas,1971,0.04492857142857143
+27,N fertilizer,gas,1972,0.044928571428571436
+27,N fertilizer,gas,1973,0.04492857142857143
+27,N fertilizer,gas,1974,0.04492857142857142
+27,N fertilizer,gas,1975,0.04492857142857143
+27,N fertilizer,gas,1976,0.044928571428571436
+27,N fertilizer,gas,1977,0.04492857142857143
+27,N fertilizer,gas,1978,0.04492857142857143
+27,N fertilizer,gas,1979,0.04492857142857143
+27,N fertilizer,gas,1980,0.04492857142857143
+27,N fertilizer,gas,1981,0.04492857142857143
+27,N fertilizer,gas,1982,0.04492857142857143
+27,N fertilizer,gas,1983,0.04492857142857143
+27,N fertilizer,gas,1984,0.04492857142857143
+27,N fertilizer,gas,1985,0.044928571428571436
+27,N fertilizer,gas,1986,0.04492857142857143
+27,N fertilizer,gas,1987,0.04492857142857143
+27,N fertilizer,gas,1988,0.04492857142857143
+27,N fertilizer,gas,1989,0.04492857142857143
+27,N fertilizer,gas,1990,0.044928571428571436
+27,N fertilizer,gas,1991,0.044928571428571436
+27,N fertilizer,gas,1992,0.04492857142857143
+27,N fertilizer,gas,1993,0.044928571428571436
+27,N fertilizer,gas,1994,0.04492857142857143
+27,N fertilizer,gas,1995,0.04492857142857143
+27,N fertilizer,gas,1996,0.04492857142857142
+27,N fertilizer,gas,1997,0.044928571428571436
+27,N fertilizer,gas,1998,0.04492857142857143
+27,N fertilizer,gas,1999,0.04492857142857143
+27,N fertilizer,gas,2000,0.04492857142857143
+27,N fertilizer,gas,2001,0.044928571428571436
+27,N fertilizer,gas,2002,0.04492857142857143
+27,N fertilizer,gas,2003,0.04492857142857143
+27,N fertilizer,gas,2004,0.044928571428571436
+27,N fertilizer,gas,2005,0.044928571428571436
+27,N fertilizer,gas,2006,0.044928571428571436
+27,N fertilizer,gas,2007,0.04492857142857143
+27,N fertilizer,gas,2008,0.04492857142857143
+27,N fertilizer,gas,2009,0.04492857142857143
+27,N fertilizer,gas,2010,0.04492857142857143
+27,N fertilizer,refined liquids,1971,0
+27,N fertilizer,refined liquids,1972,0
+27,N fertilizer,refined liquids,1973,0
+27,N fertilizer,refined liquids,1974,0
+27,N fertilizer,refined liquids,1975,0
+27,N fertilizer,refined liquids,1976,0
+27,N fertilizer,refined liquids,1977,0
+27,N fertilizer,refined liquids,1978,0
+27,N fertilizer,refined liquids,1979,0
+27,N fertilizer,refined liquids,1980,0
+27,N fertilizer,refined liquids,1981,0
+27,N fertilizer,refined liquids,1982,0
+27,N fertilizer,refined liquids,1983,0
+27,N fertilizer,refined liquids,1984,0
+27,N fertilizer,refined liquids,1985,0
+27,N fertilizer,refined liquids,1986,0
+27,N fertilizer,refined liquids,1987,0
+27,N fertilizer,refined liquids,1988,0
+27,N fertilizer,refined liquids,1989,0
+27,N fertilizer,refined liquids,1990,0
+27,N fertilizer,refined liquids,1991,0
+27,N fertilizer,refined liquids,1992,0
+27,N fertilizer,refined liquids,1993,0
+27,N fertilizer,refined liquids,1994,0
+27,N fertilizer,refined liquids,1995,0
+27,N fertilizer,refined liquids,1996,0
+27,N fertilizer,refined liquids,1997,0
+27,N fertilizer,refined liquids,1998,0
+27,N fertilizer,refined liquids,1999,0
+27,N fertilizer,refined liquids,2000,0
+27,N fertilizer,refined liquids,2001,0
+27,N fertilizer,refined liquids,2002,0
+27,N fertilizer,refined liquids,2003,0
+27,N fertilizer,refined liquids,2004,0
+27,N fertilizer,refined liquids,2005,0
+27,N fertilizer,refined liquids,2006,0
+27,N fertilizer,refined liquids,2007,0
+27,N fertilizer,refined liquids,2008,0
+27,N fertilizer,refined liquids,2009,0
+27,N fertilizer,refined liquids,2010,0
+28,N fertilizer,coal,1971,0
+28,N fertilizer,coal,1972,0
+28,N fertilizer,coal,1973,0
+28,N fertilizer,coal,1974,0
+28,N fertilizer,coal,1975,0
+28,N fertilizer,coal,1976,0
+28,N fertilizer,coal,1977,0
+28,N fertilizer,coal,1978,0
+28,N fertilizer,coal,1979,0
+28,N fertilizer,coal,1980,0
+28,N fertilizer,coal,1981,0
+28,N fertilizer,coal,1982,0
+28,N fertilizer,coal,1983,0
+28,N fertilizer,coal,1984,0
+28,N fertilizer,coal,1985,0
+28,N fertilizer,coal,1986,0
+28,N fertilizer,coal,1987,0
+28,N fertilizer,coal,1988,0
+28,N fertilizer,coal,1989,0
+28,N fertilizer,coal,1990,0
+28,N fertilizer,coal,1991,0
+28,N fertilizer,coal,1992,0
+28,N fertilizer,coal,1993,0
+28,N fertilizer,coal,1994,0
+28,N fertilizer,coal,1995,0
+28,N fertilizer,coal,1996,0
+28,N fertilizer,coal,1997,0
+28,N fertilizer,coal,1998,0
+28,N fertilizer,coal,1999,0
+28,N fertilizer,coal,2000,0
+28,N fertilizer,coal,2001,0
+28,N fertilizer,coal,2002,0
+28,N fertilizer,coal,2003,0
+28,N fertilizer,coal,2004,0
+28,N fertilizer,coal,2005,0
+28,N fertilizer,coal,2006,0
+28,N fertilizer,coal,2007,0
+28,N fertilizer,coal,2008,0
+28,N fertilizer,coal,2009,0
+28,N fertilizer,coal,2010,0
+28,N fertilizer,gas,1971,0
+28,N fertilizer,gas,1972,0
+28,N fertilizer,gas,1973,0
+28,N fertilizer,gas,1974,0
+28,N fertilizer,gas,1975,0
+28,N fertilizer,gas,1976,0
+28,N fertilizer,gas,1977,0
+28,N fertilizer,gas,1978,0
+28,N fertilizer,gas,1979,0
+28,N fertilizer,gas,1980,0
+28,N fertilizer,gas,1981,0
+28,N fertilizer,gas,1982,0
+28,N fertilizer,gas,1983,0
+28,N fertilizer,gas,1984,0
+28,N fertilizer,gas,1985,0
+28,N fertilizer,gas,1986,0
+28,N fertilizer,gas,1987,0.04492857142857143
+28,N fertilizer,gas,1988,0.04492857142857143
+28,N fertilizer,gas,1989,0.04492857142857143
+28,N fertilizer,gas,1990,0.04492857142857143
+28,N fertilizer,gas,1991,0.04492857142857143
+28,N fertilizer,gas,1992,0.04492857142857143
+28,N fertilizer,gas,1993,0.04492857142857143
+28,N fertilizer,gas,1994,0.04492857142857143
+28,N fertilizer,gas,1995,0.04492857142857143
+28,N fertilizer,gas,1996,0.04492857142857143
+28,N fertilizer,gas,1997,0.04492857142857143
+28,N fertilizer,gas,1998,0.04492857142857143
+28,N fertilizer,gas,1999,0.04492857142857143
+28,N fertilizer,gas,2000,0.04492857142857143
+28,N fertilizer,gas,2001,0.04492857142857143
+28,N fertilizer,gas,2002,0.04492857142857143
+28,N fertilizer,gas,2003,0.04492857142857143
+28,N fertilizer,gas,2004,0.04492857142857143
+28,N fertilizer,gas,2005,0.04492857142857143
+28,N fertilizer,gas,2006,0.04492857142857142
+28,N fertilizer,gas,2007,0.04492857142857143
+28,N fertilizer,gas,2008,0.04492857142857143
+28,N fertilizer,gas,2009,0.04492857142857143
+28,N fertilizer,gas,2010,0.04492857142857143
+28,N fertilizer,refined liquids,1971,0.054642857142857146
+28,N fertilizer,refined liquids,1972,0.054642857142857146
+28,N fertilizer,refined liquids,1973,0.054642857142857146
+28,N fertilizer,refined liquids,1974,0.054642857142857146
+28,N fertilizer,refined liquids,1975,0.054642857142857146
+28,N fertilizer,refined liquids,1976,0.05464285714285714
+28,N fertilizer,refined liquids,1977,0.054642857142857146
+28,N fertilizer,refined liquids,1978,0.05464285714285715
+28,N fertilizer,refined liquids,1979,0.054642857142857146
+28,N fertilizer,refined liquids,1980,0.054642857142857146
+28,N fertilizer,refined liquids,1981,0.054642857142857146
+28,N fertilizer,refined liquids,1982,0.054642857142857146
+28,N fertilizer,refined liquids,1983,0.05464285714285714
+28,N fertilizer,refined liquids,1984,0.05464285714285715
+28,N fertilizer,refined liquids,1985,0.05464285714285715
+28,N fertilizer,refined liquids,1986,0.054642857142857146
+28,N fertilizer,refined liquids,1987,0.054642857142857146
+28,N fertilizer,refined liquids,1988,0.054642857142857146
+28,N fertilizer,refined liquids,1989,0.054642857142857146
+28,N fertilizer,refined liquids,1990,0.054642857142857146
+28,N fertilizer,refined liquids,1991,0.054642857142857146
+28,N fertilizer,refined liquids,1992,0.05464285714285715
+28,N fertilizer,refined liquids,1993,0.054642857142857146
+28,N fertilizer,refined liquids,1994,0.05464285714285714
+28,N fertilizer,refined liquids,1995,0
+28,N fertilizer,refined liquids,1996,0
+28,N fertilizer,refined liquids,1997,0
+28,N fertilizer,refined liquids,1998,0
+28,N fertilizer,refined liquids,1999,0
+28,N fertilizer,refined liquids,2000,0
+28,N fertilizer,refined liquids,2001,0
+28,N fertilizer,refined liquids,2002,0
+28,N fertilizer,refined liquids,2003,0
+28,N fertilizer,refined liquids,2004,0
+28,N fertilizer,refined liquids,2005,0
+28,N fertilizer,refined liquids,2006,0
+28,N fertilizer,refined liquids,2007,0
+28,N fertilizer,refined liquids,2008,0
+28,N fertilizer,refined liquids,2009,0
+28,N fertilizer,refined liquids,2010,0
+29,N fertilizer,coal,1971,0.06557142857142857
+29,N fertilizer,coal,1972,0.06557142857142857
+29,N fertilizer,coal,1973,0.06557142857142857
+29,N fertilizer,coal,1974,0.06557142857142857
+29,N fertilizer,coal,1975,0.06557142857142857
+29,N fertilizer,coal,1976,0.06557142857142857
+29,N fertilizer,coal,1977,0.06557142857142857
+29,N fertilizer,coal,1978,0.06557142857142856
+29,N fertilizer,coal,1979,0.06557142857142859
+29,N fertilizer,coal,1980,0.06557142857142859
+29,N fertilizer,coal,1981,0.06557142857142857
+29,N fertilizer,coal,1982,0.06557142857142859
+29,N fertilizer,coal,1983,0.06557142857142857
+29,N fertilizer,coal,1984,0.06557142857142857
+29,N fertilizer,coal,1985,0.06557142857142856
+29,N fertilizer,coal,1986,0.06557142857142857
+29,N fertilizer,coal,1987,0.06557142857142857
+29,N fertilizer,coal,1988,0.06557142857142859
+29,N fertilizer,coal,1989,0.06557142857142857
+29,N fertilizer,coal,1990,0.06557142857142857
+29,N fertilizer,coal,1991,0.06557142857142857
+29,N fertilizer,coal,1992,0.06557142857142857
+29,N fertilizer,coal,1993,0.06557142857142857
+29,N fertilizer,coal,1994,0.06557142857142857
+29,N fertilizer,coal,1995,0.06557142857142857
+29,N fertilizer,coal,1996,0.06557142857142857
+29,N fertilizer,coal,1997,0.06557142857142857
+29,N fertilizer,coal,1998,0.06557142857142857
+29,N fertilizer,coal,1999,0.06557142857142857
+29,N fertilizer,coal,2000,0.06557142857142857
+29,N fertilizer,coal,2001,0.06557142857142857
+29,N fertilizer,coal,2002,0.06557142857142857
+29,N fertilizer,coal,2003,0.06557142857142857
+29,N fertilizer,coal,2004,0.06557142857142857
+29,N fertilizer,coal,2005,0.06557142857142857
+29,N fertilizer,coal,2006,0.06557142857142857
+29,N fertilizer,coal,2007,0.06557142857142857
+29,N fertilizer,coal,2008,0.06557142857142857
+29,N fertilizer,coal,2009,0.06557142857142857
+29,N fertilizer,coal,2010,0.06557142857142857
+29,N fertilizer,gas,1971,0.044928571428571436
+29,N fertilizer,gas,1972,0.04492857142857143
+29,N fertilizer,gas,1973,0.04492857142857143
+29,N fertilizer,gas,1974,0.04491355429136779
+29,N fertilizer,gas,1975,0.04489877812400324
+29,N fertilizer,gas,1976,0.044884080086741635
+29,N fertilizer,gas,1977,0.044868993427728765
+29,N fertilizer,gas,1978,0.04486112795169252
+29,N fertilizer,gas,1979,0.044869087242125356
+29,N fertilizer,gas,1980,0.044874798305703414
+29,N fertilizer,gas,1981,0.04487821765832805
+29,N fertilizer,gas,1982,0.04489168154697227
+29,N fertilizer,gas,1983,0.04489735033237292
+29,N fertilizer,gas,1984,0.044905465231445084
+29,N fertilizer,gas,1985,0.04491068641244814
+29,N fertilizer,gas,1986,0.04491208371762594
+29,N fertilizer,gas,1987,0.04491208921537029
+29,N fertilizer,gas,1988,0.044910116446160456
+29,N fertilizer,gas,1989,0.04490024232518691
+29,N fertilizer,gas,1990,0.044886213662748566
+29,N fertilizer,gas,1991,0.04487454439848829
+29,N fertilizer,gas,1992,0.044858914050907604
+29,N fertilizer,gas,1993,0.04484577397513738
+29,N fertilizer,gas,1994,0.04483650023381975
+29,N fertilizer,gas,1995,0.044822423528051096
+29,N fertilizer,gas,1996,0.04481365556683984
+29,N fertilizer,gas,1997,0.044785961761842526
+29,N fertilizer,gas,1998,0.04480848892405792
+29,N fertilizer,gas,1999,0.044825959299263404
+29,N fertilizer,gas,2000,0.04484585439812281
+29,N fertilizer,gas,2001,0.04485608475376443
+29,N fertilizer,gas,2002,0.04481541336943063
+29,N fertilizer,gas,2003,0.044758730762542824
+29,N fertilizer,gas,2004,0.04471162848358116
+29,N fertilizer,gas,2005,0.04465605190419989
+29,N fertilizer,gas,2006,0.044621037877008246
+29,N fertilizer,gas,2007,0.04465607946611781
+29,N fertilizer,gas,2008,0.044658107630919215
+29,N fertilizer,gas,2009,0.044665763542032
+29,N fertilizer,gas,2010,0.044676101870011184
+29,N fertilizer,refined liquids,1971,0.054642857142857146
+29,N fertilizer,refined liquids,1972,0.05464285714285714
+29,N fertilizer,refined liquids,1973,0.05464285714285714
+29,N fertilizer,refined liquids,1974,0.051000000000000004
+29,N fertilizer,refined liquids,1975,0.051000000000000004
+29,N fertilizer,refined liquids,1976,0.051000000000000004
+29,N fertilizer,refined liquids,1977,0.051000000000000004
+29,N fertilizer,refined liquids,1978,0.051000000000000004
+29,N fertilizer,refined liquids,1979,0.051000000000000004
+29,N fertilizer,refined liquids,1980,0.051000000000000004
+29,N fertilizer,refined liquids,1981,0.051
+29,N fertilizer,refined liquids,1982,0.051000000000000004
+29,N fertilizer,refined liquids,1983,0.051000000000000004
+29,N fertilizer,refined liquids,1984,0.051000000000000004
+29,N fertilizer,refined liquids,1985,0.051000000000000004
+29,N fertilizer,refined liquids,1986,0.051000000000000004
+29,N fertilizer,refined liquids,1987,0.051000000000000004
+29,N fertilizer,refined liquids,1988,0.051000000000000004
+29,N fertilizer,refined liquids,1989,0.051000000000000004
+29,N fertilizer,refined liquids,1990,0.051000000000000004
+29,N fertilizer,refined liquids,1991,0.051000000000000004
+29,N fertilizer,refined liquids,1992,0.051000000000000004
+29,N fertilizer,refined liquids,1993,0.051000000000000004
+29,N fertilizer,refined liquids,1994,0.051000000000000004
+29,N fertilizer,refined liquids,1995,0.051000000000000004
+29,N fertilizer,refined liquids,1996,0.051000000000000004
+29,N fertilizer,refined liquids,1997,0.051
+29,N fertilizer,refined liquids,1998,0.05100000000000001
+29,N fertilizer,refined liquids,1999,0.051
+29,N fertilizer,refined liquids,2000,0.051000000000000004
+29,N fertilizer,refined liquids,2001,0.051000000000000004
+29,N fertilizer,refined liquids,2002,0.051000000000000004
+29,N fertilizer,refined liquids,2003,0.05100000000000001
+29,N fertilizer,refined liquids,2004,0.051
+29,N fertilizer,refined liquids,2005,0.051000000000000004
+29,N fertilizer,refined liquids,2006,0.05100000000000001
+29,N fertilizer,refined liquids,2007,0.051000000000000004
+29,N fertilizer,refined liquids,2008,0.051000000000000004
+29,N fertilizer,refined liquids,2009,0.05100000000000001
+29,N fertilizer,refined liquids,2010,0.051000000000000004
+30,N fertilizer,coal,1971,0
+30,N fertilizer,coal,1972,0
+30,N fertilizer,coal,1973,0
+30,N fertilizer,coal,1974,0
+30,N fertilizer,coal,1975,0
+30,N fertilizer,coal,1976,0
+30,N fertilizer,coal,1977,0
+30,N fertilizer,coal,1978,0
+30,N fertilizer,coal,1979,0
+30,N fertilizer,coal,1980,0
+30,N fertilizer,coal,1981,0
+30,N fertilizer,coal,1982,0
+30,N fertilizer,coal,1983,0
+30,N fertilizer,coal,1984,0
+30,N fertilizer,coal,1985,0
+30,N fertilizer,coal,1986,0
+30,N fertilizer,coal,1987,0
+30,N fertilizer,coal,1988,0
+30,N fertilizer,coal,1989,0
+30,N fertilizer,coal,1990,0
+30,N fertilizer,coal,1991,0
+30,N fertilizer,coal,1992,0
+30,N fertilizer,coal,1993,0
+30,N fertilizer,coal,1994,0
+30,N fertilizer,coal,1995,0
+30,N fertilizer,coal,1996,0
+30,N fertilizer,coal,1997,0
+30,N fertilizer,coal,1998,0
+30,N fertilizer,coal,1999,0
+30,N fertilizer,coal,2000,0
+30,N fertilizer,coal,2001,0
+30,N fertilizer,coal,2002,0
+30,N fertilizer,coal,2003,0
+30,N fertilizer,coal,2004,0
+30,N fertilizer,coal,2005,0
+30,N fertilizer,coal,2006,0
+30,N fertilizer,coal,2007,0
+30,N fertilizer,coal,2008,0
+30,N fertilizer,coal,2009,0
+30,N fertilizer,coal,2010,0
+30,N fertilizer,gas,1971,0
+30,N fertilizer,gas,1972,0
+30,N fertilizer,gas,1973,0
+30,N fertilizer,gas,1974,0
+30,N fertilizer,gas,1975,0
+30,N fertilizer,gas,1976,0
+30,N fertilizer,gas,1977,0
+30,N fertilizer,gas,1978,0
+30,N fertilizer,gas,1979,0
+30,N fertilizer,gas,1980,0
+30,N fertilizer,gas,1981,0
+30,N fertilizer,gas,1982,0
+30,N fertilizer,gas,1983,0
+30,N fertilizer,gas,1984,0
+30,N fertilizer,gas,1985,0
+30,N fertilizer,gas,1986,0
+30,N fertilizer,gas,1987,0
+30,N fertilizer,gas,1988,0
+30,N fertilizer,gas,1989,0
+30,N fertilizer,gas,1990,0
+30,N fertilizer,gas,1991,0
+30,N fertilizer,gas,1992,0
+30,N fertilizer,gas,1993,0
+30,N fertilizer,gas,1994,0
+30,N fertilizer,gas,1995,0
+30,N fertilizer,gas,1996,0
+30,N fertilizer,gas,1997,0
+30,N fertilizer,gas,1998,0
+30,N fertilizer,gas,1999,0
+30,N fertilizer,gas,2000,0
+30,N fertilizer,gas,2001,0
+30,N fertilizer,gas,2002,0
+30,N fertilizer,gas,2003,0
+30,N fertilizer,gas,2004,0
+30,N fertilizer,gas,2005,0
+30,N fertilizer,gas,2006,0
+30,N fertilizer,gas,2007,0
+30,N fertilizer,gas,2008,0
+30,N fertilizer,gas,2009,0
+30,N fertilizer,gas,2010,0
+30,N fertilizer,refined liquids,1971,0
+30,N fertilizer,refined liquids,1972,0
+30,N fertilizer,refined liquids,1973,0
+30,N fertilizer,refined liquids,1974,0
+30,N fertilizer,refined liquids,1975,0
+30,N fertilizer,refined liquids,1976,0
+30,N fertilizer,refined liquids,1977,0
+30,N fertilizer,refined liquids,1978,0
+30,N fertilizer,refined liquids,1979,0
+30,N fertilizer,refined liquids,1980,0
+30,N fertilizer,refined liquids,1981,0
+30,N fertilizer,refined liquids,1982,0
+30,N fertilizer,refined liquids,1983,0
+30,N fertilizer,refined liquids,1984,0
+30,N fertilizer,refined liquids,1985,0
+30,N fertilizer,refined liquids,1986,0
+30,N fertilizer,refined liquids,1987,0
+30,N fertilizer,refined liquids,1988,0
+30,N fertilizer,refined liquids,1989,0
+30,N fertilizer,refined liquids,1990,0
+30,N fertilizer,refined liquids,1991,0
+30,N fertilizer,refined liquids,1992,0
+30,N fertilizer,refined liquids,1993,0
+30,N fertilizer,refined liquids,1994,0
+30,N fertilizer,refined liquids,1995,0
+30,N fertilizer,refined liquids,1996,0
+30,N fertilizer,refined liquids,1997,0
+30,N fertilizer,refined liquids,1998,0
+30,N fertilizer,refined liquids,1999,0
+30,N fertilizer,refined liquids,2000,0
+30,N fertilizer,refined liquids,2001,0
+30,N fertilizer,refined liquids,2002,0
+30,N fertilizer,refined liquids,2003,0
+30,N fertilizer,refined liquids,2004,0
+30,N fertilizer,refined liquids,2005,0
+30,N fertilizer,refined liquids,2006,0
+30,N fertilizer,refined liquids,2007,0
+30,N fertilizer,refined liquids,2008,0
+30,N fertilizer,refined liquids,2009,0
+30,N fertilizer,refined liquids,2010,0
+31,N fertilizer,coal,1971,0
+31,N fertilizer,coal,1972,0
+31,N fertilizer,coal,1973,0
+31,N fertilizer,coal,1974,0
+31,N fertilizer,coal,1975,0
+31,N fertilizer,coal,1976,0
+31,N fertilizer,coal,1977,0
+31,N fertilizer,coal,1978,0
+31,N fertilizer,coal,1979,0
+31,N fertilizer,coal,1980,0
+31,N fertilizer,coal,1981,0
+31,N fertilizer,coal,1982,0
+31,N fertilizer,coal,1983,0
+31,N fertilizer,coal,1984,0
+31,N fertilizer,coal,1985,0
+31,N fertilizer,coal,1986,0
+31,N fertilizer,coal,1987,0
+31,N fertilizer,coal,1988,0
+31,N fertilizer,coal,1989,0
+31,N fertilizer,coal,1990,0
+31,N fertilizer,coal,1991,0
+31,N fertilizer,coal,1992,0
+31,N fertilizer,coal,1993,0
+31,N fertilizer,coal,1994,0
+31,N fertilizer,coal,1995,0
+31,N fertilizer,coal,1996,0
+31,N fertilizer,coal,1997,0
+31,N fertilizer,coal,1998,0
+31,N fertilizer,coal,1999,0
+31,N fertilizer,coal,2000,0
+31,N fertilizer,coal,2001,0
+31,N fertilizer,coal,2002,0
+31,N fertilizer,coal,2003,0
+31,N fertilizer,coal,2004,0
+31,N fertilizer,coal,2005,0
+31,N fertilizer,coal,2006,0
+31,N fertilizer,coal,2007,0
+31,N fertilizer,coal,2008,0
+31,N fertilizer,coal,2009,0
+31,N fertilizer,coal,2010,0
+31,N fertilizer,gas,1971,0.04371428571428571
+31,N fertilizer,gas,1972,0.04371428571428571
+31,N fertilizer,gas,1973,0.04371428571428571
+31,N fertilizer,gas,1974,0.04371428571428571
+31,N fertilizer,gas,1975,0.04371428571428571
+31,N fertilizer,gas,1976,0.04371428571428571
+31,N fertilizer,gas,1977,0.043714285714285706
+31,N fertilizer,gas,1978,0.04371428571428571
+31,N fertilizer,gas,1979,0.04371428571428571
+31,N fertilizer,gas,1980,0.04371428571428571
+31,N fertilizer,gas,1981,0.04371428571428571
+31,N fertilizer,gas,1982,0.04371428571428571
+31,N fertilizer,gas,1983,0.04371428571428571
+31,N fertilizer,gas,1984,0.04371428571428571
+31,N fertilizer,gas,1985,0.04371428571428571
+31,N fertilizer,gas,1986,0.04371428571428571
+31,N fertilizer,gas,1987,0.04371428571428571
+31,N fertilizer,gas,1988,0.04371428571428571
+31,N fertilizer,gas,1989,0.04371428571428571
+31,N fertilizer,gas,1990,0.04371428571428571
+31,N fertilizer,gas,1991,0.04371428571428571
+31,N fertilizer,gas,1992,0.04371428571428571
+31,N fertilizer,gas,1993,0.04371428571428571
+31,N fertilizer,gas,1994,0.04371428571428572
+31,N fertilizer,gas,1995,0.04371428571428571
+31,N fertilizer,gas,1996,0.04371428571428571
+31,N fertilizer,gas,1997,0.04371428571428571
+31,N fertilizer,gas,1998,0.04371428571428571
+31,N fertilizer,gas,1999,0.04371428571428571
+31,N fertilizer,gas,2000,0.04371428571428571
+31,N fertilizer,gas,2001,0.04371428571428571
+31,N fertilizer,gas,2002,0.04371428571428571
+31,N fertilizer,gas,2003,0.04371428571428571
+31,N fertilizer,gas,2004,0.04371428571428571
+31,N fertilizer,gas,2005,0.04371428571428571
+31,N fertilizer,gas,2006,0.04371428571428571
+31,N fertilizer,gas,2007,0.04371428571428571
+31,N fertilizer,gas,2008,0.04371428571428571
+31,N fertilizer,gas,2009,0.04371428571428571
+31,N fertilizer,gas,2010,0.04371428571428571
+31,N fertilizer,refined liquids,1971,0
+31,N fertilizer,refined liquids,1972,0
+31,N fertilizer,refined liquids,1973,0
+31,N fertilizer,refined liquids,1974,0
+31,N fertilizer,refined liquids,1975,0
+31,N fertilizer,refined liquids,1976,0
+31,N fertilizer,refined liquids,1977,0
+31,N fertilizer,refined liquids,1978,0
+31,N fertilizer,refined liquids,1979,0
+31,N fertilizer,refined liquids,1980,0
+31,N fertilizer,refined liquids,1981,0
+31,N fertilizer,refined liquids,1982,0
+31,N fertilizer,refined liquids,1983,0
+31,N fertilizer,refined liquids,1984,0
+31,N fertilizer,refined liquids,1985,0
+31,N fertilizer,refined liquids,1986,0
+31,N fertilizer,refined liquids,1987,0
+31,N fertilizer,refined liquids,1988,0
+31,N fertilizer,refined liquids,1989,0
+31,N fertilizer,refined liquids,1990,0
+31,N fertilizer,refined liquids,1991,0
+31,N fertilizer,refined liquids,1992,0
+31,N fertilizer,refined liquids,1993,0
+31,N fertilizer,refined liquids,1994,0
+31,N fertilizer,refined liquids,1995,0
+31,N fertilizer,refined liquids,1996,0
+31,N fertilizer,refined liquids,1997,0
+31,N fertilizer,refined liquids,1998,0
+31,N fertilizer,refined liquids,1999,0
+31,N fertilizer,refined liquids,2000,0
+31,N fertilizer,refined liquids,2001,0
+31,N fertilizer,refined liquids,2002,0
+31,N fertilizer,refined liquids,2003,0
+31,N fertilizer,refined liquids,2004,0
+31,N fertilizer,refined liquids,2005,0
+31,N fertilizer,refined liquids,2006,0
+31,N fertilizer,refined liquids,2007,0
+31,N fertilizer,refined liquids,2008,0
+31,N fertilizer,refined liquids,2009,0
+31,N fertilizer,refined liquids,2010,0
+32,N fertilizer,coal,1971,0
+32,N fertilizer,coal,1972,0
+32,N fertilizer,coal,1973,0
+32,N fertilizer,coal,1974,0
+32,N fertilizer,coal,1975,0
+32,N fertilizer,coal,1976,0
+32,N fertilizer,coal,1977,0
+32,N fertilizer,coal,1978,0
+32,N fertilizer,coal,1979,0
+32,N fertilizer,coal,1980,0
+32,N fertilizer,coal,1981,0
+32,N fertilizer,coal,1982,0
+32,N fertilizer,coal,1983,0
+32,N fertilizer,coal,1984,0
+32,N fertilizer,coal,1985,0
+32,N fertilizer,coal,1986,0
+32,N fertilizer,coal,1987,0
+32,N fertilizer,coal,1988,0
+32,N fertilizer,coal,1989,0
+32,N fertilizer,coal,1990,0
+32,N fertilizer,coal,1991,0
+32,N fertilizer,coal,1992,0
+32,N fertilizer,coal,1993,0
+32,N fertilizer,coal,1994,0
+32,N fertilizer,coal,1995,0
+32,N fertilizer,coal,1996,0
+32,N fertilizer,coal,1997,0
+32,N fertilizer,coal,1998,0
+32,N fertilizer,coal,1999,0
+32,N fertilizer,coal,2000,0
+32,N fertilizer,coal,2001,0
+32,N fertilizer,coal,2002,0
+32,N fertilizer,coal,2003,0
+32,N fertilizer,coal,2004,0
+32,N fertilizer,coal,2005,0
+32,N fertilizer,coal,2006,0
+32,N fertilizer,coal,2007,0
+32,N fertilizer,coal,2008,0
+32,N fertilizer,coal,2009,0
+32,N fertilizer,coal,2010,0
+32,N fertilizer,gas,1971,0.04371428571428571
+32,N fertilizer,gas,1972,0.04371428571428571
+32,N fertilizer,gas,1973,0.04371428571428571
+32,N fertilizer,gas,1974,0.04371428571428571
+32,N fertilizer,gas,1975,0.04371428571428571
+32,N fertilizer,gas,1976,0.04371428571428571
+32,N fertilizer,gas,1977,0.04371428571428571
+32,N fertilizer,gas,1978,0.04371428571428571
+32,N fertilizer,gas,1979,0.04371428571428571
+32,N fertilizer,gas,1980,0.04371428571428571
+32,N fertilizer,gas,1981,0.04371428571428571
+32,N fertilizer,gas,1982,0.04371428571428572
+32,N fertilizer,gas,1983,0.04371428571428572
+32,N fertilizer,gas,1984,0.04371428571428571
+32,N fertilizer,gas,1985,0.04371428571428571
+32,N fertilizer,gas,1986,0.04371428571428571
+32,N fertilizer,gas,1987,0.04371428571428571
+32,N fertilizer,gas,1988,0.04371428571428571
+32,N fertilizer,gas,1989,0.04371428571428571
+32,N fertilizer,gas,1990,0.04371428571428571
+32,N fertilizer,gas,1991,0.04371428571428571
+32,N fertilizer,gas,1992,0.04371428571428571
+32,N fertilizer,gas,1993,0.04371428571428571
+32,N fertilizer,gas,1994,0.04371428571428571
+32,N fertilizer,gas,1995,0.04371428571428571
+32,N fertilizer,gas,1996,0.04371428571428571
+32,N fertilizer,gas,1997,0.04371428571428571
+32,N fertilizer,gas,1998,0.04371428571428571
+32,N fertilizer,gas,1999,0.04371428571428571
+32,N fertilizer,gas,2000,0.04371428571428571
+32,N fertilizer,gas,2001,0.04371428571428571
+32,N fertilizer,gas,2002,0.04371428571428571
+32,N fertilizer,gas,2003,0.04371428571428572
+32,N fertilizer,gas,2004,0.04371428571428571
+32,N fertilizer,gas,2005,0.04371428571428571
+32,N fertilizer,gas,2006,0.043714285714285706
+32,N fertilizer,gas,2007,0.04371428571428571
+32,N fertilizer,gas,2008,0.04371428571428571
+32,N fertilizer,gas,2009,0.04371428571428571
+32,N fertilizer,gas,2010,0.04371428571428571
+32,N fertilizer,refined liquids,1971,0
+32,N fertilizer,refined liquids,1972,0
+32,N fertilizer,refined liquids,1973,0
+32,N fertilizer,refined liquids,1974,0
+32,N fertilizer,refined liquids,1975,0
+32,N fertilizer,refined liquids,1976,0
+32,N fertilizer,refined liquids,1977,0
+32,N fertilizer,refined liquids,1978,0
+32,N fertilizer,refined liquids,1979,0
+32,N fertilizer,refined liquids,1980,0
+32,N fertilizer,refined liquids,1981,0
+32,N fertilizer,refined liquids,1982,0
+32,N fertilizer,refined liquids,1983,0
+32,N fertilizer,refined liquids,1984,0
+32,N fertilizer,refined liquids,1985,0
+32,N fertilizer,refined liquids,1986,0
+32,N fertilizer,refined liquids,1987,0
+32,N fertilizer,refined liquids,1988,0
+32,N fertilizer,refined liquids,1989,0
+32,N fertilizer,refined liquids,1990,0
+32,N fertilizer,refined liquids,1991,0
+32,N fertilizer,refined liquids,1992,0
+32,N fertilizer,refined liquids,1993,0
+32,N fertilizer,refined liquids,1994,0
+32,N fertilizer,refined liquids,1995,0
+32,N fertilizer,refined liquids,1996,0
+32,N fertilizer,refined liquids,1997,0
+32,N fertilizer,refined liquids,1998,0
+32,N fertilizer,refined liquids,1999,0
+32,N fertilizer,refined liquids,2000,0
+32,N fertilizer,refined liquids,2001,0
+32,N fertilizer,refined liquids,2002,0
+32,N fertilizer,refined liquids,2003,0
+32,N fertilizer,refined liquids,2004,0
+32,N fertilizer,refined liquids,2005,0
+32,N fertilizer,refined liquids,2006,0
+32,N fertilizer,refined liquids,2007,0
+32,N fertilizer,refined liquids,2008,0
+32,N fertilizer,refined liquids,2009,0
+32,N fertilizer,refined liquids,2010,0

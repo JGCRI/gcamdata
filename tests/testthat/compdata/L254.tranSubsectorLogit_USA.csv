@@ -1,0 +1,1226 @@
+# The same USA region values are repeated for each state
+region,supplysector,tranSubsector,logit.year.fillout,logit.exponent,logit.type
+AK,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+AL,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+AR,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+AZ,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+CA,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+CO,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+CT,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+DC,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+DE,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+FL,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+GA,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+HI,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+IA,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+ID,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+IL,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+IN,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+KS,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+KY,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+LA,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+MA,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+MD,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+ME,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+MI,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+MN,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+MO,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+MS,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+MT,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+NC,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+ND,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+NE,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+NH,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+NJ,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+NM,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+NV,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+NY,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+OH,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+OK,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+OR,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+PA,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+RI,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+SC,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+SD,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+TN,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+TX,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+UT,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+VA,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+VT,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+WA,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+WI,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+WV,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+WY,trn_aviation_intl,International Aviation,1975,-6,absolute-cost-logit
+AK,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+AL,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+AR,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+AZ,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+CA,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+CO,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+CT,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+DC,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+DE,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+FL,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+GA,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+HI,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+IA,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+ID,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+IL,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+IN,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+KS,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+KY,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+LA,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+MA,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+MD,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+ME,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+MI,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+MN,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+MO,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+MS,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+MT,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+NC,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+ND,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+NE,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+NH,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+NJ,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+NM,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+NV,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+NY,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+OH,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+OK,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+OR,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+PA,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+RI,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+SC,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+SD,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+TN,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+TX,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+UT,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+VA,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+VT,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+WA,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+WI,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+WV,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+WY,trn_freight,Domestic Ship,1975,-6,absolute-cost-logit
+AK,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+AL,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+AR,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+AZ,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+CA,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+CO,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+CT,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+DC,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+DE,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+FL,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+GA,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+HI,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+IA,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+ID,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+IL,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+IN,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+KS,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+KY,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+LA,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+MA,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+MD,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+ME,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+MI,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+MN,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+MO,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+MS,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+MT,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+NC,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+ND,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+NE,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+NH,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+NJ,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+NM,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+NV,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+NY,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+OH,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+OK,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+OR,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+PA,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+RI,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+SC,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+SD,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+TN,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+TX,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+UT,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+VA,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+VT,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+WA,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+WI,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+WV,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+WY,trn_freight,Freight Rail,1975,-1,absolute-cost-logit
+AK,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+AL,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+AR,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+AZ,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+CA,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+CO,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+CT,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+DC,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+DE,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+FL,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+GA,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+HI,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+IA,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+ID,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+IL,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+IN,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+KS,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+KY,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+LA,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+MA,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+MD,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+ME,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+MI,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+MN,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+MO,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+MS,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+MT,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+NC,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+ND,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+NE,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+NH,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+NJ,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+NM,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+NV,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+NY,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+OH,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+OK,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+OR,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+PA,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+RI,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+SC,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+SD,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+TN,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+TX,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+UT,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+VA,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+VT,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+WA,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+WI,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+WV,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+WY,trn_freight_road,Truck (>12t),1975,-8,absolute-cost-logit
+AK,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+AL,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+AR,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+AZ,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+CA,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+CO,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+CT,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+DC,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+DE,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+FL,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+GA,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+HI,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+IA,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+ID,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+IL,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+IN,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+KS,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+KY,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+LA,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+MA,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+MD,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+ME,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+MI,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+MN,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+MO,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+MS,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+MT,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+NC,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+ND,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+NE,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+NH,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+NJ,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+NM,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+NV,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+NY,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+OH,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+OK,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+OR,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+PA,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+RI,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+SC,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+SD,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+TN,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+TX,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+UT,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+VA,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+VT,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+WA,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+WI,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+WV,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+WY,trn_freight_road,Truck (0-2.7t),1975,-8,absolute-cost-logit
+AK,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+AL,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+AR,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+AZ,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+CA,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+CO,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+CT,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+DC,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+DE,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+FL,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+GA,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+HI,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+IA,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+ID,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+IL,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+IN,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+KS,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+KY,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+LA,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+MA,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+MD,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+ME,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+MI,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+MN,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+MO,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+MS,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+MT,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+NC,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+ND,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+NE,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+NH,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+NJ,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+NM,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+NV,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+NY,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+OH,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+OK,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+OR,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+PA,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+RI,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+SC,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+SD,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+TN,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+TX,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+UT,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+VA,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+VT,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+WA,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+WI,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+WV,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+WY,trn_freight_road,Truck (2.7-4.5t),1975,-8,absolute-cost-logit
+AK,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+AL,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+AR,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+AZ,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+CA,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+CO,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+CT,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+DC,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+DE,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+FL,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+GA,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+HI,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+IA,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+ID,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+IL,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+IN,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+KS,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+KY,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+LA,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+MA,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+MD,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+ME,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+MI,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+MN,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+MO,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+MS,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+MT,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+NC,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+ND,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+NE,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+NH,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+NJ,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+NM,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+NV,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+NY,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+OH,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+OK,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+OR,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+PA,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+RI,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+SC,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+SD,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+TN,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+TX,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+UT,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+VA,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+VT,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+WA,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+WI,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+WV,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+WY,trn_freight_road,Truck (4.5-12t),1975,-8,absolute-cost-logit
+AK,trn_pass,Cycle,1975,-6,absolute-cost-logit
+AL,trn_pass,Cycle,1975,-6,absolute-cost-logit
+AR,trn_pass,Cycle,1975,-6,absolute-cost-logit
+AZ,trn_pass,Cycle,1975,-6,absolute-cost-logit
+CA,trn_pass,Cycle,1975,-6,absolute-cost-logit
+CO,trn_pass,Cycle,1975,-6,absolute-cost-logit
+CT,trn_pass,Cycle,1975,-6,absolute-cost-logit
+DC,trn_pass,Cycle,1975,-6,absolute-cost-logit
+DE,trn_pass,Cycle,1975,-6,absolute-cost-logit
+FL,trn_pass,Cycle,1975,-6,absolute-cost-logit
+GA,trn_pass,Cycle,1975,-6,absolute-cost-logit
+HI,trn_pass,Cycle,1975,-6,absolute-cost-logit
+IA,trn_pass,Cycle,1975,-6,absolute-cost-logit
+ID,trn_pass,Cycle,1975,-6,absolute-cost-logit
+IL,trn_pass,Cycle,1975,-6,absolute-cost-logit
+IN,trn_pass,Cycle,1975,-6,absolute-cost-logit
+KS,trn_pass,Cycle,1975,-6,absolute-cost-logit
+KY,trn_pass,Cycle,1975,-6,absolute-cost-logit
+LA,trn_pass,Cycle,1975,-6,absolute-cost-logit
+MA,trn_pass,Cycle,1975,-6,absolute-cost-logit
+MD,trn_pass,Cycle,1975,-6,absolute-cost-logit
+ME,trn_pass,Cycle,1975,-6,absolute-cost-logit
+MI,trn_pass,Cycle,1975,-6,absolute-cost-logit
+MN,trn_pass,Cycle,1975,-6,absolute-cost-logit
+MO,trn_pass,Cycle,1975,-6,absolute-cost-logit
+MS,trn_pass,Cycle,1975,-6,absolute-cost-logit
+MT,trn_pass,Cycle,1975,-6,absolute-cost-logit
+NC,trn_pass,Cycle,1975,-6,absolute-cost-logit
+ND,trn_pass,Cycle,1975,-6,absolute-cost-logit
+NE,trn_pass,Cycle,1975,-6,absolute-cost-logit
+NH,trn_pass,Cycle,1975,-6,absolute-cost-logit
+NJ,trn_pass,Cycle,1975,-6,absolute-cost-logit
+NM,trn_pass,Cycle,1975,-6,absolute-cost-logit
+NV,trn_pass,Cycle,1975,-6,absolute-cost-logit
+NY,trn_pass,Cycle,1975,-6,absolute-cost-logit
+OH,trn_pass,Cycle,1975,-6,absolute-cost-logit
+OK,trn_pass,Cycle,1975,-6,absolute-cost-logit
+OR,trn_pass,Cycle,1975,-6,absolute-cost-logit
+PA,trn_pass,Cycle,1975,-6,absolute-cost-logit
+RI,trn_pass,Cycle,1975,-6,absolute-cost-logit
+SC,trn_pass,Cycle,1975,-6,absolute-cost-logit
+SD,trn_pass,Cycle,1975,-6,absolute-cost-logit
+TN,trn_pass,Cycle,1975,-6,absolute-cost-logit
+TX,trn_pass,Cycle,1975,-6,absolute-cost-logit
+UT,trn_pass,Cycle,1975,-6,absolute-cost-logit
+VA,trn_pass,Cycle,1975,-6,absolute-cost-logit
+VT,trn_pass,Cycle,1975,-6,absolute-cost-logit
+WA,trn_pass,Cycle,1975,-6,absolute-cost-logit
+WI,trn_pass,Cycle,1975,-6,absolute-cost-logit
+WV,trn_pass,Cycle,1975,-6,absolute-cost-logit
+WY,trn_pass,Cycle,1975,-6,absolute-cost-logit
+AK,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+AL,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+AR,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+AZ,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+CA,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+CO,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+CT,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+DC,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+DE,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+FL,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+GA,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+HI,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+IA,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+ID,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+IL,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+IN,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+KS,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+KY,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+LA,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+MA,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+MD,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+ME,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+MI,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+MN,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+MO,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+MS,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+MT,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+NC,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+ND,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+NE,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+NH,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+NJ,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+NM,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+NV,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+NY,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+OH,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+OK,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+OR,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+PA,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+RI,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+SC,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+SD,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+TN,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+TX,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+UT,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+VA,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+VT,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+WA,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+WI,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+WV,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+WY,trn_pass,Domestic Aviation,1975,-6,absolute-cost-logit
+AK,trn_pass,HSR,1975,-6,absolute-cost-logit
+AL,trn_pass,HSR,1975,-6,absolute-cost-logit
+AR,trn_pass,HSR,1975,-6,absolute-cost-logit
+AZ,trn_pass,HSR,1975,-6,absolute-cost-logit
+CA,trn_pass,HSR,1975,-6,absolute-cost-logit
+CO,trn_pass,HSR,1975,-6,absolute-cost-logit
+CT,trn_pass,HSR,1975,-6,absolute-cost-logit
+DC,trn_pass,HSR,1975,-6,absolute-cost-logit
+DE,trn_pass,HSR,1975,-6,absolute-cost-logit
+FL,trn_pass,HSR,1975,-6,absolute-cost-logit
+GA,trn_pass,HSR,1975,-6,absolute-cost-logit
+HI,trn_pass,HSR,1975,-6,absolute-cost-logit
+IA,trn_pass,HSR,1975,-6,absolute-cost-logit
+ID,trn_pass,HSR,1975,-6,absolute-cost-logit
+IL,trn_pass,HSR,1975,-6,absolute-cost-logit
+IN,trn_pass,HSR,1975,-6,absolute-cost-logit
+KS,trn_pass,HSR,1975,-6,absolute-cost-logit
+KY,trn_pass,HSR,1975,-6,absolute-cost-logit
+LA,trn_pass,HSR,1975,-6,absolute-cost-logit
+MA,trn_pass,HSR,1975,-6,absolute-cost-logit
+MD,trn_pass,HSR,1975,-6,absolute-cost-logit
+ME,trn_pass,HSR,1975,-6,absolute-cost-logit
+MI,trn_pass,HSR,1975,-6,absolute-cost-logit
+MN,trn_pass,HSR,1975,-6,absolute-cost-logit
+MO,trn_pass,HSR,1975,-6,absolute-cost-logit
+MS,trn_pass,HSR,1975,-6,absolute-cost-logit
+MT,trn_pass,HSR,1975,-6,absolute-cost-logit
+NC,trn_pass,HSR,1975,-6,absolute-cost-logit
+ND,trn_pass,HSR,1975,-6,absolute-cost-logit
+NE,trn_pass,HSR,1975,-6,absolute-cost-logit
+NH,trn_pass,HSR,1975,-6,absolute-cost-logit
+NJ,trn_pass,HSR,1975,-6,absolute-cost-logit
+NM,trn_pass,HSR,1975,-6,absolute-cost-logit
+NV,trn_pass,HSR,1975,-6,absolute-cost-logit
+NY,trn_pass,HSR,1975,-6,absolute-cost-logit
+OH,trn_pass,HSR,1975,-6,absolute-cost-logit
+OK,trn_pass,HSR,1975,-6,absolute-cost-logit
+OR,trn_pass,HSR,1975,-6,absolute-cost-logit
+PA,trn_pass,HSR,1975,-6,absolute-cost-logit
+RI,trn_pass,HSR,1975,-6,absolute-cost-logit
+SC,trn_pass,HSR,1975,-6,absolute-cost-logit
+SD,trn_pass,HSR,1975,-6,absolute-cost-logit
+TN,trn_pass,HSR,1975,-6,absolute-cost-logit
+TX,trn_pass,HSR,1975,-6,absolute-cost-logit
+UT,trn_pass,HSR,1975,-6,absolute-cost-logit
+VA,trn_pass,HSR,1975,-6,absolute-cost-logit
+VT,trn_pass,HSR,1975,-6,absolute-cost-logit
+WA,trn_pass,HSR,1975,-6,absolute-cost-logit
+WI,trn_pass,HSR,1975,-6,absolute-cost-logit
+WV,trn_pass,HSR,1975,-6,absolute-cost-logit
+WY,trn_pass,HSR,1975,-6,absolute-cost-logit
+AK,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+AL,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+AR,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+AZ,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+CA,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+CO,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+CT,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+DC,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+DE,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+FL,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+GA,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+HI,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+IA,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+ID,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+IL,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+IN,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+KS,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+KY,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+LA,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+MA,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+MD,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+ME,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+MI,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+MN,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+MO,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+MS,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+MT,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+NC,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+ND,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+NE,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+NH,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+NJ,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+NM,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+NV,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+NY,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+OH,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+OK,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+OR,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+PA,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+RI,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+SC,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+SD,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+TN,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+TX,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+UT,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+VA,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+VT,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+WA,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+WI,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+WV,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+WY,trn_pass,Passenger Rail,1975,-1,absolute-cost-logit
+AK,trn_pass,Walk,1975,-6,absolute-cost-logit
+AL,trn_pass,Walk,1975,-6,absolute-cost-logit
+AR,trn_pass,Walk,1975,-6,absolute-cost-logit
+AZ,trn_pass,Walk,1975,-6,absolute-cost-logit
+CA,trn_pass,Walk,1975,-6,absolute-cost-logit
+CO,trn_pass,Walk,1975,-6,absolute-cost-logit
+CT,trn_pass,Walk,1975,-6,absolute-cost-logit
+DC,trn_pass,Walk,1975,-6,absolute-cost-logit
+DE,trn_pass,Walk,1975,-6,absolute-cost-logit
+FL,trn_pass,Walk,1975,-6,absolute-cost-logit
+GA,trn_pass,Walk,1975,-6,absolute-cost-logit
+HI,trn_pass,Walk,1975,-6,absolute-cost-logit
+IA,trn_pass,Walk,1975,-6,absolute-cost-logit
+ID,trn_pass,Walk,1975,-6,absolute-cost-logit
+IL,trn_pass,Walk,1975,-6,absolute-cost-logit
+IN,trn_pass,Walk,1975,-6,absolute-cost-logit
+KS,trn_pass,Walk,1975,-6,absolute-cost-logit
+KY,trn_pass,Walk,1975,-6,absolute-cost-logit
+LA,trn_pass,Walk,1975,-6,absolute-cost-logit
+MA,trn_pass,Walk,1975,-6,absolute-cost-logit
+MD,trn_pass,Walk,1975,-6,absolute-cost-logit
+ME,trn_pass,Walk,1975,-6,absolute-cost-logit
+MI,trn_pass,Walk,1975,-6,absolute-cost-logit
+MN,trn_pass,Walk,1975,-6,absolute-cost-logit
+MO,trn_pass,Walk,1975,-6,absolute-cost-logit
+MS,trn_pass,Walk,1975,-6,absolute-cost-logit
+MT,trn_pass,Walk,1975,-6,absolute-cost-logit
+NC,trn_pass,Walk,1975,-6,absolute-cost-logit
+ND,trn_pass,Walk,1975,-6,absolute-cost-logit
+NE,trn_pass,Walk,1975,-6,absolute-cost-logit
+NH,trn_pass,Walk,1975,-6,absolute-cost-logit
+NJ,trn_pass,Walk,1975,-6,absolute-cost-logit
+NM,trn_pass,Walk,1975,-6,absolute-cost-logit
+NV,trn_pass,Walk,1975,-6,absolute-cost-logit
+NY,trn_pass,Walk,1975,-6,absolute-cost-logit
+OH,trn_pass,Walk,1975,-6,absolute-cost-logit
+OK,trn_pass,Walk,1975,-6,absolute-cost-logit
+OR,trn_pass,Walk,1975,-6,absolute-cost-logit
+PA,trn_pass,Walk,1975,-6,absolute-cost-logit
+RI,trn_pass,Walk,1975,-6,absolute-cost-logit
+SC,trn_pass,Walk,1975,-6,absolute-cost-logit
+SD,trn_pass,Walk,1975,-6,absolute-cost-logit
+TN,trn_pass,Walk,1975,-6,absolute-cost-logit
+TX,trn_pass,Walk,1975,-6,absolute-cost-logit
+UT,trn_pass,Walk,1975,-6,absolute-cost-logit
+VA,trn_pass,Walk,1975,-6,absolute-cost-logit
+VT,trn_pass,Walk,1975,-6,absolute-cost-logit
+WA,trn_pass,Walk,1975,-6,absolute-cost-logit
+WI,trn_pass,Walk,1975,-6,absolute-cost-logit
+WV,trn_pass,Walk,1975,-6,absolute-cost-logit
+WY,trn_pass,Walk,1975,-6,absolute-cost-logit
+AK,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+AL,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+AR,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+AZ,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+CA,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+CO,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+CT,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+DC,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+DE,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+FL,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+GA,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+HI,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+IA,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+ID,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+IL,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+IN,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+KS,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+KY,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+LA,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+MA,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+MD,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+ME,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+MI,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+MN,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+MO,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+MS,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+MT,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+NC,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+ND,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+NE,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+NH,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+NJ,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+NM,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+NV,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+NY,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+OH,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+OK,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+OR,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+PA,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+RI,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+SC,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+SD,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+TN,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+TX,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+UT,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+VA,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+VT,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+WA,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+WI,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+WV,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+WY,trn_pass_road,Bus,1975,-3,absolute-cost-logit
+AK,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+AL,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+AR,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+AZ,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+CA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+CO,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+CT,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+DC,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+DE,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+FL,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+GA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+HI,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+IA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+ID,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+IL,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+IN,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+KS,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+KY,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+LA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+MA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+MD,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+ME,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+MI,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+MN,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+MO,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+MS,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+MT,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+NC,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+ND,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+NE,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+NH,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+NJ,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+NM,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+NV,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+NY,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+OH,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+OK,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+OR,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+PA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+RI,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+SC,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+SD,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+TN,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+TX,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+UT,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+VA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+VT,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+WA,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+WI,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+WV,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+WY,trn_pass_road_LDV_2W,Motorcycle (>250cc),1975,-8,absolute-cost-logit
+AK,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+AL,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+AR,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+AZ,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+CA,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+CO,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+CT,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+DC,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+DE,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+FL,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+GA,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+HI,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+IA,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+ID,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+IL,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+IN,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+KS,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+KY,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+LA,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+MA,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+MD,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+ME,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+MI,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+MN,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+MO,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+MS,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+MT,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+NC,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+ND,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+NE,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+NH,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+NJ,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+NM,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+NV,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+NY,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+OH,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+OK,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+OR,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+PA,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+RI,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+SC,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+SD,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+TN,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+TX,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+UT,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+VA,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+VT,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+WA,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+WI,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+WV,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+WY,trn_pass_road_LDV_4W,Compact Car,1975,-8,absolute-cost-logit
+AK,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+AL,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+AR,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+AZ,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+CA,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+CO,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+CT,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+DC,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+DE,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+FL,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+GA,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+HI,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+IA,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+ID,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+IL,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+IN,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+KS,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+KY,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+LA,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+MA,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+MD,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+ME,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+MI,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+MN,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+MO,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+MS,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+MT,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+NC,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+ND,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+NE,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+NH,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+NJ,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+NM,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+NV,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+NY,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+OH,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+OK,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+OR,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+PA,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+RI,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+SC,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+SD,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+TN,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+TX,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+UT,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+VA,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+VT,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+WA,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+WI,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+WV,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+WY,trn_pass_road_LDV_4W,Large Car,1975,-8,absolute-cost-logit
+AK,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+AL,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+AR,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+AZ,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+CA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+CO,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+CT,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+DC,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+DE,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+FL,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+GA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+HI,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+IA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+ID,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+IL,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+IN,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+KS,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+KY,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+LA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+MA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+MD,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+ME,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+MI,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+MN,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+MO,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+MS,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+MT,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+NC,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+ND,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+NE,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+NH,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+NJ,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+NM,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+NV,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+NY,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+OH,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+OK,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+OR,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+PA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+RI,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+SC,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+SD,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+TN,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+TX,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+UT,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+VA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+VT,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+WA,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+WI,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+WV,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+WY,trn_pass_road_LDV_4W,Light Truck and SUV,1975,-8,absolute-cost-logit
+AK,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+AL,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+AR,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+AZ,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+CA,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+CO,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+CT,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+DC,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+DE,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+FL,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+GA,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+HI,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+IA,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+ID,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+IL,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+IN,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+KS,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+KY,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+LA,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+MA,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+MD,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+ME,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+MI,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+MN,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+MO,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+MS,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+MT,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+NC,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+ND,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+NE,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+NH,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+NJ,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+NM,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+NV,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+NY,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+OH,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+OK,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+OR,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+PA,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+RI,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+SC,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+SD,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+TN,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+TX,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+UT,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+VA,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+VT,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+WA,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+WI,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+WV,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+WY,trn_pass_road_LDV_4W,Midsize Car,1975,-8,absolute-cost-logit
+AK,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+AL,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+AR,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+AZ,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+CA,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+CO,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+CT,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+DC,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+DE,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+FL,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+GA,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+HI,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+IA,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+ID,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+IL,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+IN,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+KS,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+KY,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+LA,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+MA,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+MD,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+ME,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+MI,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+MN,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+MO,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+MS,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+MT,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+NC,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+ND,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+NE,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+NH,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+NJ,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+NM,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+NV,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+NY,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+OH,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+OK,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+OR,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+PA,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+RI,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+SC,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+SD,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+TN,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+TX,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+UT,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+VA,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+VT,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+WA,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+WI,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+WV,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+WY,trn_shipping_intl,International Ship,1975,-6,absolute-cost-logit
+AK,trn_pass,road,1975,-6,absolute-cost-logit
+AL,trn_pass,road,1975,-6,absolute-cost-logit
+AR,trn_pass,road,1975,-6,absolute-cost-logit
+AZ,trn_pass,road,1975,-6,absolute-cost-logit
+CA,trn_pass,road,1975,-6,absolute-cost-logit
+CO,trn_pass,road,1975,-6,absolute-cost-logit
+CT,trn_pass,road,1975,-6,absolute-cost-logit
+DC,trn_pass,road,1975,-6,absolute-cost-logit
+DE,trn_pass,road,1975,-6,absolute-cost-logit
+FL,trn_pass,road,1975,-6,absolute-cost-logit
+GA,trn_pass,road,1975,-6,absolute-cost-logit
+HI,trn_pass,road,1975,-6,absolute-cost-logit
+IA,trn_pass,road,1975,-6,absolute-cost-logit
+ID,trn_pass,road,1975,-6,absolute-cost-logit
+IL,trn_pass,road,1975,-6,absolute-cost-logit
+IN,trn_pass,road,1975,-6,absolute-cost-logit
+KS,trn_pass,road,1975,-6,absolute-cost-logit
+KY,trn_pass,road,1975,-6,absolute-cost-logit
+LA,trn_pass,road,1975,-6,absolute-cost-logit
+MA,trn_pass,road,1975,-6,absolute-cost-logit
+MD,trn_pass,road,1975,-6,absolute-cost-logit
+ME,trn_pass,road,1975,-6,absolute-cost-logit
+MI,trn_pass,road,1975,-6,absolute-cost-logit
+MN,trn_pass,road,1975,-6,absolute-cost-logit
+MO,trn_pass,road,1975,-6,absolute-cost-logit
+MS,trn_pass,road,1975,-6,absolute-cost-logit
+MT,trn_pass,road,1975,-6,absolute-cost-logit
+NC,trn_pass,road,1975,-6,absolute-cost-logit
+ND,trn_pass,road,1975,-6,absolute-cost-logit
+NE,trn_pass,road,1975,-6,absolute-cost-logit
+NH,trn_pass,road,1975,-6,absolute-cost-logit
+NJ,trn_pass,road,1975,-6,absolute-cost-logit
+NM,trn_pass,road,1975,-6,absolute-cost-logit
+NV,trn_pass,road,1975,-6,absolute-cost-logit
+NY,trn_pass,road,1975,-6,absolute-cost-logit
+OH,trn_pass,road,1975,-6,absolute-cost-logit
+OK,trn_pass,road,1975,-6,absolute-cost-logit
+OR,trn_pass,road,1975,-6,absolute-cost-logit
+PA,trn_pass,road,1975,-6,absolute-cost-logit
+RI,trn_pass,road,1975,-6,absolute-cost-logit
+SC,trn_pass,road,1975,-6,absolute-cost-logit
+SD,trn_pass,road,1975,-6,absolute-cost-logit
+TN,trn_pass,road,1975,-6,absolute-cost-logit
+TX,trn_pass,road,1975,-6,absolute-cost-logit
+UT,trn_pass,road,1975,-6,absolute-cost-logit
+VA,trn_pass,road,1975,-6,absolute-cost-logit
+VT,trn_pass,road,1975,-6,absolute-cost-logit
+WA,trn_pass,road,1975,-6,absolute-cost-logit
+WI,trn_pass,road,1975,-6,absolute-cost-logit
+WV,trn_pass,road,1975,-6,absolute-cost-logit
+WY,trn_pass,road,1975,-6,absolute-cost-logit
+AK,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+AL,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+AR,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+AZ,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+CA,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+CO,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+CT,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+DC,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+DE,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+FL,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+GA,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+HI,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+IA,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+ID,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+IL,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+IN,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+KS,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+KY,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+LA,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+MA,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+MD,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+ME,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+MI,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+MN,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+MO,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+MS,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+MT,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+NC,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+ND,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+NE,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+NH,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+NJ,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+NM,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+NV,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+NY,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+OH,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+OK,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+OR,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+PA,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+RI,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+SC,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+SD,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+TN,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+TX,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+UT,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+VA,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+VT,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+WA,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+WI,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+WV,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+WY,trn_pass_road,LDV,1975,-6,absolute-cost-logit
+AK,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+AL,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+AR,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+AZ,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+CA,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+CO,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+CT,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+DC,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+DE,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+FL,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+GA,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+HI,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+IA,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+ID,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+IL,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+IN,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+KS,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+KY,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+LA,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+MA,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+MD,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+ME,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+MI,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+MN,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+MO,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+MS,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+MT,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+NC,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+ND,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+NE,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+NH,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+NJ,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+NM,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+NV,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+NY,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+OH,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+OK,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+OR,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+PA,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+RI,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+SC,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+SD,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+TN,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+TX,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+UT,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+VA,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+VT,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+WA,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+WI,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+WV,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+WY,trn_pass_road_LDV,4W,1975,-6,absolute-cost-logit
+AK,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+AL,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+AR,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+AZ,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+CA,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+CO,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+CT,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+DC,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+DE,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+FL,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+GA,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+HI,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+IA,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+ID,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+IL,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+IN,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+KS,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+KY,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+LA,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+MA,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+MD,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+ME,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+MI,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+MN,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+MO,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+MS,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+MT,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+NC,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+ND,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+NE,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+NH,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+NJ,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+NM,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+NV,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+NY,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+OH,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+OK,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+OR,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+PA,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+RI,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+SC,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+SD,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+TN,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+TX,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+UT,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+VA,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+VT,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+WA,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+WI,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+WV,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+WY,trn_pass_road_LDV,2W,1975,-6,absolute-cost-logit
+AK,trn_freight,road,1975,-6,absolute-cost-logit
+AL,trn_freight,road,1975,-6,absolute-cost-logit
+AR,trn_freight,road,1975,-6,absolute-cost-logit
+AZ,trn_freight,road,1975,-6,absolute-cost-logit
+CA,trn_freight,road,1975,-6,absolute-cost-logit
+CO,trn_freight,road,1975,-6,absolute-cost-logit
+CT,trn_freight,road,1975,-6,absolute-cost-logit
+DC,trn_freight,road,1975,-6,absolute-cost-logit
+DE,trn_freight,road,1975,-6,absolute-cost-logit
+FL,trn_freight,road,1975,-6,absolute-cost-logit
+GA,trn_freight,road,1975,-6,absolute-cost-logit
+HI,trn_freight,road,1975,-6,absolute-cost-logit
+IA,trn_freight,road,1975,-6,absolute-cost-logit
+ID,trn_freight,road,1975,-6,absolute-cost-logit
+IL,trn_freight,road,1975,-6,absolute-cost-logit
+IN,trn_freight,road,1975,-6,absolute-cost-logit
+KS,trn_freight,road,1975,-6,absolute-cost-logit
+KY,trn_freight,road,1975,-6,absolute-cost-logit
+LA,trn_freight,road,1975,-6,absolute-cost-logit
+MA,trn_freight,road,1975,-6,absolute-cost-logit
+MD,trn_freight,road,1975,-6,absolute-cost-logit
+ME,trn_freight,road,1975,-6,absolute-cost-logit
+MI,trn_freight,road,1975,-6,absolute-cost-logit
+MN,trn_freight,road,1975,-6,absolute-cost-logit
+MO,trn_freight,road,1975,-6,absolute-cost-logit
+MS,trn_freight,road,1975,-6,absolute-cost-logit
+MT,trn_freight,road,1975,-6,absolute-cost-logit
+NC,trn_freight,road,1975,-6,absolute-cost-logit
+ND,trn_freight,road,1975,-6,absolute-cost-logit
+NE,trn_freight,road,1975,-6,absolute-cost-logit
+NH,trn_freight,road,1975,-6,absolute-cost-logit
+NJ,trn_freight,road,1975,-6,absolute-cost-logit
+NM,trn_freight,road,1975,-6,absolute-cost-logit
+NV,trn_freight,road,1975,-6,absolute-cost-logit
+NY,trn_freight,road,1975,-6,absolute-cost-logit
+OH,trn_freight,road,1975,-6,absolute-cost-logit
+OK,trn_freight,road,1975,-6,absolute-cost-logit
+OR,trn_freight,road,1975,-6,absolute-cost-logit
+PA,trn_freight,road,1975,-6,absolute-cost-logit
+RI,trn_freight,road,1975,-6,absolute-cost-logit
+SC,trn_freight,road,1975,-6,absolute-cost-logit
+SD,trn_freight,road,1975,-6,absolute-cost-logit
+TN,trn_freight,road,1975,-6,absolute-cost-logit
+TX,trn_freight,road,1975,-6,absolute-cost-logit
+UT,trn_freight,road,1975,-6,absolute-cost-logit
+VA,trn_freight,road,1975,-6,absolute-cost-logit
+VT,trn_freight,road,1975,-6,absolute-cost-logit
+WA,trn_freight,road,1975,-6,absolute-cost-logit
+WI,trn_freight,road,1975,-6,absolute-cost-logit
+WV,trn_freight,road,1975,-6,absolute-cost-logit
+WY,trn_freight,road,1975,-6,absolute-cost-logit
