@@ -141,14 +141,7 @@ parse_csv_header <- function(obj, filename, n = 20, enforce_requirements = TRUE)
   }
 
   # File may be compressed; handle this via a connection
-  if(grepl("\\.gz$", filename)) {
-    con <- gzfile(filename)
-  } else if(grepl("\\.zip$", filename)) {
-    con <- unz(filename, filename = basename(gsub("\\.zip$", "", filename)))
-  } else {
-    con <- file(filename)
-  }
-
+  con <- get_file_connection(filename)
   x <- readLines(con, n = n)
   close(con)
 
@@ -479,14 +472,11 @@ screen_forbidden <- function(fn) {
 #' @return Nothing - run for side effects only.
 #' @note Set \code{root} to "./extdata" in the git directory, not the package root, to make changes that 'stick'.
 #' @export
-#' @details Some GCAM input datafiles have bad line endings (like you would find in Mac OS 9 and previous), and/or
-#' don't have a final newline. This utility script converts all files to have Unix line endings (\code{\\n}) and a final newline.
+#' @details Some GCAM input datafiles have bad (Mac OS 9 CR) line endings, and/or
+#' don't have a final newline. This utility script converts all files to have consistent line endings for the platform it is run on and a final newline.
 #' It also automatically compresses files above a certain size.
 #' @author BBL
 normalize_files <- function(root = system.file("extdata", package = "gcamdata"), min_compress_size = 1) {
-  if(.Platform$OS.type == "windows") {
-   stop("This should not be run on Windows")
-  }
   assert_that(is.character(root))
   assert_that(is.numeric(min_compress_size))
   message("Root: ", root)
@@ -499,17 +489,7 @@ normalize_files <- function(root = system.file("extdata", package = "gcamdata"),
     size <- round(file.size(files[f]) / 1024 / 1024, 3)  # MB
     message(f, "/", length(files), ": ", shortfn, ", ", size, " Mb ", appendLF = FALSE)
 
-    # Open the appropriate-type connection, depending on compression
-    if(grepl("\\.gz$", files[f])) {
-      con <- gzfile(files[f])
-      message("(gz)")
-    } else if(grepl("\\.zip$", files[f])) {
-      con <- unz(files[f], filename = basename(gsub("\\.zip$", "", files[f])))
-      message("(zip)")
-    } else {
-      con <- file(files[f])
-      message()
-    }
+    con <- get_file_connection(files[f])
 
     # Read file and then write it back out
     message("\tReading...", appendLF = FALSE)
@@ -521,7 +501,19 @@ normalize_files <- function(root = system.file("extdata", package = "gcamdata"),
 
     message("\tWriting...", appendLF = FALSE)
     ofile <- gsub("(\\.zip|\\.gz)$", "", files[f])
-    writeLines(txt, ofile)
+    # Compress if necessary
+    if(uc_size >= min_compress_size) {
+      message("\tCompressing...", appendLF = FALSE)
+      ofile <- paste0(ofile, ".gz")
+      # Open a binary connection because we want to ensure that \n is used as separator
+      con <- gzfile(ofile, open = "wb")
+    } else {
+      con <- file(ofile)
+    }
+    # note even though we specify the sep = "\n", if the connection is not binary it
+    # will get converted to the platform specific line ending
+    writeLines(txt, con, sep = "\n")
+    close(con)
     message("OK")
 
     if(ofile != files[f]) {
@@ -530,12 +522,35 @@ normalize_files <- function(root = system.file("extdata", package = "gcamdata"),
       message("OK")
     }
 
-    # Compress if necessary
-    # Note that Rutils::gzip will automatically remove the uncompressed file
-    if(uc_size > min_compress_size) {
-      message("\tCompressing...", appendLF = FALSE)
-      R.utils::gzip(ofile)
-      message("OK")
+    # Unfortunately the gzip format includes a header indicating which OS the archive
+    # was created in.  In order to avoid superfluous "modifications" we will always
+    # override it to be equal to UNIX:
+    # http://www.zlib.org/rfc-gzip.html#header-trailer
+    # http://www.onicos.com/staff/iz/formats/gzip.html
+    if(uc_size >= min_compress_size) {
+      # we need to open the connection for read and write in binary so that
+      # we can seek to the write location and overwrite the OS flag and not
+      # truncate the file
+      con <- file(ofile, "r+b")
+      # seek the write pointer to offset 9 which is where the OS bit is
+      # and write the value 3 (for Unix) in 1 byte and endian is always
+      # little according to the spec
+      seek(con, 9, rw = "write")
+      writeBin(3L, con, 1, endian = "little")
+      close(con)
     }
   }
+}
+
+
+get_file_connection <- function(f) {
+  # Set up the appropriate-type connection, depending on compression
+  if(grepl("\\.gz$", f)) {
+    con <- gzfile(f)
+  } else if(grepl("\\.zip$", f)) {
+    con <- unz(f, filename = basename(gsub("\\.zip$", "", f)))
+  } else {
+    con <- file(f)
+  }
+  con
 }
