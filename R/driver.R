@@ -98,6 +98,7 @@ check_chunk_outputs <- function(chunk, chunk_data, chunk_inputs, promised_output
 #' @param chunk_name Name of current chunk, character
 #' @return A tibble with chunk name, output name, title, units, flags, precursors, and comments.
 #' This table has one row per output name; multiple flags, precursors, etc., are concatenated into single entries.
+#' @importFrom digest digest
 tibbelize_outputs <- function(chunk_data, chunk_name) {
   assert_that(is.character(chunk_name))
   assert_that(is_data_list(chunk_data))
@@ -113,7 +114,7 @@ tibbelize_outputs <- function(chunk_data, chunk_name) {
                                units = paste(get_units(chunk_data[[cd]]), collapse = data.SEPARATOR),
                                comments = paste(get_comments(chunk_data[[cd]]), collapse = data.SEPARATOR),
                                flags = paste(get_flags(chunk_data[[cd]]), collapse = data.SEPARATOR),
-                               md5hash = digest::digest(chunk_data[[cd]], algo = "md5"))
+                               md5hash = digest(chunk_data[[cd]], algo = "md5"))
     }
   }
   bind_rows(metadata)
