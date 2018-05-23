@@ -112,7 +112,8 @@ tibbelize_outputs <- function(chunk_data, chunk_name) {
                                title = paste(get_title(chunk_data[[cd]]), collapse = data.SEPARATOR),
                                units = paste(get_units(chunk_data[[cd]]), collapse = data.SEPARATOR),
                                comments = paste(get_comments(chunk_data[[cd]]), collapse = data.SEPARATOR),
-                               flags = paste(get_flags(chunk_data[[cd]]), collapse = data.SEPARATOR))
+                               flags = paste(get_flags(chunk_data[[cd]]), collapse = data.SEPARATOR),
+                               md5hash = digest::digest(chunk_data[[cd]], algo = "md5"))
     }
   }
   bind_rows(metadata)
