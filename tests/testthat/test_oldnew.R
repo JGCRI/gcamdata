@@ -13,48 +13,37 @@ test_that("matches old data system output", {
     skip("Skip old new when only interested in code coverage")
   }
 
-  # If we're on Travis, need to run the driver to ensure chunk outputs saved
-  # Don't do this locally, to speed things up
+  # Run the driver only to get the gcam data map for comparison
+  gcam_data_map <- driver(quiet = TRUE, return_data_map_only = TRUE)
 
-  # Look for output data in OUTPUTS_DIR under top level
-  # (as this code will be run in tests/testthat)
-  outputs_dir <- normalizePath(file.path("../..", OUTPUTS_DIR))
-  xml_dir <- normalizePath(file.path("../..", XML_DIR))
+  # Now we compare the data map returned above with the pre-packaged version
+  # They should match! See https://github.com/JGCRI/gcamdata/pull/751#issuecomment-331578990
+  # First put what the driver returns and the internal GCAM_DATA_MAP into the same order (can vary if run on PIC for example)
+  gcam_data_map <- arrange(gcam_data_map, name, output)
+  gdm_internal <- arrange(gcamdata:::GCAM_DATA_MAP, name, output)
 
-  if(identical(Sys.getenv("TRAVIS"), "true")) {
-    # Run the driver and save chunk outputs
-    gcam_data_map <- driver(write_outputs = TRUE, quiet = TRUE, outdir = outputs_dir, xmldir = xml_dir, return_data_map_only = TRUE)
-
-    # The following two tests are only run on Travis because they will fail
-    # during the R CMD CHECK process locally (as the R build process removes outputs/)
-    expect_equivalent(file.access(outputs_dir, mode = 4), 0,  # outputs_dir exists and is readable
-                      info = paste("Directory", outputs_dir, "unreadable or does not exist from", getwd()))
-    expect_true(file.info(outputs_dir)$isdir)
-
-    # Now we compare the data map returned above with the pre-packaged version
-    # They should match! See https://github.com/JGCRI/gcamdata/pull/751#issuecomment-331578990
-    # First put what the driver returns and the internal GCAM_DATA_MAP into the same order (can vary if run on PIC for example)
-    gcam_data_map <- arrange(gcam_data_map, name, output)
-    gdm_internal <- arrange(gcamdata:::GCAM_DATA_MAP, name, output)
-
-    # The gcam_data_map that's generated on Travis won't have the proprietary IEA data, so its comments
-    # and units may differ
-    expect_true(tibble::is_tibble(gdm_internal))
-    expect_true(tibble::is_tibble(gcam_data_map))
-    expect_identical(dim(gdm_internal), dim(gcam_data_map), info =
-                       "GCAM_DATA_MAP dimensions don't match. Rerun generate_package_data to update.")
-    expect_identical(gdm_internal$name, gcam_data_map$name, info =
-                       "GCAM_DATA_MAP name doesn't match. Rerun generate_package_data to update.")
-    expect_identical(gdm_internal$output, gcam_data_map$output, info = "GCAM_DATA_MAP output doesn't match")
-    expect_identical(gdm_internal$precursors, gcam_data_map$precursors, info =
-                       "GCAM_DATA_MAP precursors doesn't match. Rerun generate_package_data to update.")
-    expect_identical(gdm_internal$md5hash, gcam_data_map$md5hash, info =
-                       "GCAM_DATA_MAP md5hash doesn't match. Rerun generate_package_data to update only if you do not expect outputs to change.")
-  }
+  # The gcam_data_map that's generated on Travis won't have the proprietary IEA data, so its comments
+  # and units may differ
+  expect_true(tibble::is_tibble(gdm_internal))
+  expect_true(tibble::is_tibble(gcam_data_map))
+  expect_identical(dim(gdm_internal), dim(gcam_data_map), info =
+                     "GCAM_DATA_MAP dimensions don't match. Rerun generate_package_data to update.")
+  expect_identical(gdm_internal$name, gcam_data_map$name, info =
+                     "GCAM_DATA_MAP name doesn't match. Rerun generate_package_data to update.")
+  expect_identical(gdm_internal$output, gcam_data_map$output, info = "GCAM_DATA_MAP output doesn't match")
+  expect_identical(gdm_internal$precursors, gcam_data_map$precursors, info =
+                     "GCAM_DATA_MAP precursors doesn't match. Rerun generate_package_data to update.")
+  expect_identical(gdm_internal$md5hash, gcam_data_map$md5hash, info =
+                     "GCAM_DATA_MAP md5hash doesn't match. Rerun generate_package_data to update only if you do not expect outputs to change.")
 
   # Note the remaining checks should only be enabled if the user has manually
   # provided the appropriate comparison data.
-  if(isTRUE(as.logical(Sys.getenv("gcamdata.validate_with_compdata")))) {
+  if(!is.null(getOption('gcamdata.validate_with_compdata'))) {
+    # Look for output data in OUTPUTS_DIR under top level
+    # (as this code will be run in tests/testthat)
+    outputs_dir <- normalizePath(file.path("../..", OUTPUTS_DIR))
+    xml_dir <- normalizePath(file.path("../..", XML_DIR))
+
     # For each file in OUTPUTS_DIR, look for corresponding file in our
     # comparison data. Load them, reshape new data if necessary, compare.
     for(newf in list.files(outputs_dir, full.names = TRUE)) {
