@@ -2,12 +2,6 @@
 
 context("xml")
 
-test_that("default MI header exists in the package", {
-  conv_test <- create_xml("test.xml")
-
-  expect_true(file.exists(conv_test$mi_header))
-})
-
 test_that("bogus MI header causes error", {
   if(!isTRUE(getOption("gcamdata.use_java"))) {
     skip("Skipping test as global option gcamdata.use_java is not TRUE")
