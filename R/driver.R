@@ -106,6 +106,16 @@ tibbelize_outputs <- function(chunk_data, chunk_name) {
   metadata <- list()
   for(cd in names(chunk_data)) {
     if(!is.null(chunk_data[[cd]]) & length(chunk_data[[cd]])) {
+      if(FLAG_XML %in% get_flags(chunk_data[[cd]])) {
+        indv_hashes = c(digest(chunk_data[[cd]]$xml_file),
+                        digest(chunk_data[[cd]]$mi_header),
+                        sapply(chunk_data[[cd]]$data_tables, digest))
+        hash = digest(indv_hashes)
+      } else if(chunk_name == "INPUT") {
+        hash = digest(as.data.frame(chunk_data[[cd]]))
+      } else {
+        hash = digest(chunk_data[[cd]])
+      }
       # Here we use paste both to collapse vectors into a single string, and deal with possible NULLs
       metadata[[cd]] <- tibble(name = chunk_name,
                                output = cd,
@@ -114,7 +124,7 @@ tibbelize_outputs <- function(chunk_data, chunk_name) {
                                units = paste(get_units(chunk_data[[cd]]), collapse = data.SEPARATOR),
                                comments = paste(get_comments(chunk_data[[cd]]), collapse = data.SEPARATOR),
                                flags = paste(get_flags(chunk_data[[cd]]), collapse = data.SEPARATOR),
-                               md5hash = digest(chunk_data[[cd]], algo = "md5"))
+                               md5hash = hash)
     }
   }
   bind_rows(metadata)
