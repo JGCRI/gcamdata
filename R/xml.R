@@ -17,11 +17,6 @@
 #' interface CSV to XML conversion.
 #' @export
 create_xml <- function(xml_file, mi_header = NULL) {
-  if(is.null(mi_header)) {
-    mi_header <- system.file("extdata/mi_headers", "ModelInterface_headers.txt",
-                             package = "gcamdata")
-  }
-
   list(xml_file = xml_file,
        mi_header = mi_header,
        data_tables = list()) %>%
@@ -75,6 +70,11 @@ make_run_xml_conversion <- function() {
     } else if(isTRUE(use_java)) {
       java_cp <- system.file("extdata/ModelInterface", "CSVToXML.jar",
                              package = "gcamdata")
+      mi_header <- dot$mi_header
+      if(is.null(mi_header)) {
+        mi_header <- system.file("extdata/mi_headers", "ModelInterface_headers.txt",
+                                 package = "gcamdata")
+      }
       # Note ideally we would use the `pipe` method to run the CSVToXML conversion
       # as this would allow us to avoid writing large CSV files to disk only to
       # convert to XML. However it appears on Windows there is no way to "close"
@@ -102,7 +102,7 @@ make_run_xml_conversion <- function() {
         "-Xmx1g", # TODO: memory limits?
         "ModelInterface.ModelGUI2.csvconv.CSVToXMLMain",
         tmpfn, # Read from the temporary file
-        dot$mi_header,
+        mi_header,
         dot$xml_file
       )
       warning_msgs <- system2("java", args, stdout = TRUE, stderr = TRUE)
