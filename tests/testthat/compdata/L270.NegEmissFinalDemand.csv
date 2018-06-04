@@ -1,6 +1,0 @@
-# Mostly just a tag to create the final demand object
-# that will check the net subsidy being paid
-# Note if we are using a global market this tag should only
-# be read into a single region (doesn't matter which)
-region,negative.emissions.final.demand,policy.name
-USA,CO2,negative_emiss_budget

@@ -1,7 +1,0 @@
-# fills out model years in A22.globaltech_interp
-sector.name,subsector.name,technology,apply.to,from.year,to.year,interpolation.function
-refining,biomass liquids,cellulosic ethanol,share-weight,2010,2015,fixed
-refining,biomass liquids,FT biofuels,share-weight,2010,2015,linear
-refining,biomass liquids,corn ethanol,share-weight,2010,2100,linear
-refining,biomass liquids,sugar cane ethanol,share-weight,2010,2100,linear
-refining,biomass liquids,biodiesel,share-weight,2010,2100,linear
