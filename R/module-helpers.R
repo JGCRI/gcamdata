@@ -625,3 +625,52 @@ downscale_FAO_country <- function(data, country_name, dissolution_year, years = 
   data_new[newyrs][is.na(data_new[newyrs])] <- 0
   data_new
 }
+
+#' map_province_name
+#'
+#' Map in an alternative province names, optionally dropping the old name
+#'
+#' @param data Data, tibble
+#' @param mapping Table of alternative province names, tibble
+#' @param map_name Name of new province name column in \code{mapping}, character
+#' @param replace Replace old province name to new name columns? Logical
+#' @return Data with new province name columns added or replaced.
+map_province_name <- function(data, mapping, map_name, replace = FALSE) {
+
+  orig.names <- old.name <- old.index <- new.names <- NULL  # silence package check.
+
+  # Sanity checks
+  assert_that(tibble::is_tibble(data))
+  assert_that(tibble::is_tibble(mapping))
+  assert_that(is.character(map_name))
+
+  orig.names <- names(data)
+  # Some error checking to make sure the mapping names match up.
+  error <- ""
+  old.name <- names(data)[names(data) %in% names(mapping)]
+  if(length (old.name) != 1) {
+    error <- paste( error, "Could not map province: data has zero or many matching column names in mapping.", sep="\n")
+  }
+  if(!any(map_name %in% names(mapping))) {
+    error <- paste(error, "Could not map province: one or more map.names do not match columnnames in mapping.", sep="\n")
+  }
+  if(error != "") {
+    stop(error)
+  }
+
+  # Do the name mapping
+  data <- left_join_error_no_match(data, mapping %>% select(old.name, map_name), by = old.name)
+
+  # Attempt to maintain the orgininal column ordering, if we
+  # are replacing then the new column use that position otherwise
+  # will just be added to the end.
+  if(replace) {
+    old.index <- match(old.name, orig.names)
+    new.names <- c(orig.names[1:length(orig.names) < old.index], map_name, orig.names[ 1:length(orig.names) > old.index])
+  } else {
+    new.names <- c(orig.names, map_name)
+  }
+  return(data[, new.names])
+}
+
+
