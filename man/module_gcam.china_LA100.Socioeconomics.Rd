@@ -18,10 +18,12 @@ the generated outputs: \code{L100.pcGDP_thous90usd_province}, \code{L100.GDP_mil
 original data system was \code{LA100.Socioeconomics.R} (gcam-china level1).
 }
 \description{
-This chunk calculates the historical GDP, per-capita GDP and population by province.
+This chunk generates the historical and future GDP, population and per-capita GDP by province.
 }
 \details{
-Describe in detail what this chunk does.
+This chunk processes historical and future GDP and population data by province,
+fill missing values and covert units; and then calculates per capita GDP by province as
+GDP divided by population.
 }
 \author{
 RC Jul 2018
