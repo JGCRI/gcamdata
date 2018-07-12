@@ -4,14 +4,14 @@
 \alias{map_province_name}
 \title{map_province_name}
 \usage{
-map_province_name(data, mapping, map_name, replace = FALSE)
+map_province_name(data, mapping, map_names, replace = FALSE)
 }
 \arguments{
 \item{data}{Data, tibble}
 
 \item{mapping}{Table of alternative province names, tibble}
 
-\item{map_name}{Name of new province name column in \code{mapping}, character}
+\item{map_names}{Name of new province name columns in \code{mapping}, character}
 
 \item{replace}{Replace old province name to new name columns? Logical}
 }
@@ -19,5 +19,5 @@ map_province_name(data, mapping, map_name, replace = FALSE)
 Data with new province name columns added or replaced.
 }
 \description{
-Map in an alternative province names, optionally dropping the old name
+Map in alternative province names, optionally dropping the old name
 }

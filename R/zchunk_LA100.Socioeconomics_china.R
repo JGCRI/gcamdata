@@ -68,7 +68,7 @@ module_gcam.china_LA100.Socioeconomics <- function(command, ...) {
       group_by(province.name) %>%
       mutate(pop = approx_fun(year, pop, rule = 2)) %>%
       ungroup %>%
-      # Replace full provice names with abbreviation
+      # Replace full province names with abbreviation
       map_province_name(province_names_mappings, "province", TRUE) ->
       L100.Pop_thous_province
 
