@@ -80,8 +80,6 @@ module_gcam.china_LA100.Socioeconomics <- function(command, ...) {
       select(province, year, pcGDP) ->
       L100.pcGDP_thous90usd_province
 
-    # TODO: any reconciliation with national values or at least check how different they are?
-
     # Produce outputs
     L100.GDP_mil90usd_province %>%
       add_title("GDP by province") %>%
