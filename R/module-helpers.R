@@ -662,7 +662,7 @@ map_province_name <- function(data, mapping, map_names, replace = FALSE) {
   # will just be added to the end.
   if(replace) {
     old.index <- match(old.name, orig.names)
-    new.names <- c(orig.names[1:length(orig.names) < old.index], map_names, orig.names[1:length(orig.names) > old.index])
+    new.names <- c(orig.names[seq_along(orig.names) < old.index], map_names, orig.names[seq_along(orig.names) > old.index])
   } else {
     new.names <- c(orig.names, map_names)
   }
