@@ -29,16 +29,16 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
              "L101.inNBS_Mtce_province_S_F"))
   } else if(command == driver.MAKE) {
 
-  # silence package check.
+   # silence package check.
 
   all_data <- list(...)[[1]]
 
-   # Load required inputs
-	 province_names_mappings   <- get_data(all_data, "gcam-china/province_names_mappings")
+    # Load required inputs
+	  province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
     NBS_CESY_process <- get_data(all_data, "gcam-china/NBS_CESY_process")
-    NBS_CESY_material     <- get_data(all_data, "gcam-china/NBS_CESY_material")
+    NBS_CESY_material <- get_data(all_data, "gcam-china/NBS_CESY_material")
     en_balance_Mtce_Yh_province <- get_data(all_data, "gcam-china/en_balance_Mtce_Yh_province")
-    Tibet_share     <- get_data(all_data, "gcam-china/Tibet_share")
+    Tibet_share  <- get_data(all_data, "gcam-china/Tibet_share")
     tibet_shares_mappings <- get_data(all_data, "gcam-china/tibet_shares_mappings")
 
     # Perform computations
@@ -48,13 +48,22 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
     en_balance_Mtce_Yh_province %>%
       subset(province.name != "China" & year %in% historical_years) -> L101.NBS_use_all_Mtce
 
+    #Aggregating NBS province energy data by GCAM sector and fuel
     L101.NBS_use_all_Mtce[L101.NBS_use_all_Mtce$province.name == "Xizang", "province.name"] <- "Tibet" %>%
-        map_province_name(province_names_mappings, "province", TRUE) %>%
-        merge(NBS_CESY_process, all.x=TRUE) %>%
-        merge(NBS_CESY_material, all.x=TRUE) ->
-      L101.NBS_use_all_Mtce
+      map_province_name(province_names_mappings, "province", TRUE) %>%
+      merge(NBS_CESY_process, all.x=TRUE) %>%
+      merge(NBS_CESY_material, all.x=TRUE) %>%
+      subset(!is.na( sector ) & !is.na( fuel ) ) %>%
+      group_by(province,year,sector,fuel) %>%
 
 
+    L101.inNBS_Mtce_province_S_F <- aggregate( value ~ province + year + sector + fuel, L101.inNBS_Mtce_province_S_F, FUN=sum)
+
+    # cast years accross for easier reading
+    L101.NBS_use_all_Mtce$year <- paste0( 'X', L101.NBS_use_all_Mtce$year )
+    L101.inNBS_Mtce_province_S_F$year <- paste0( 'X', L101.inNBS_Mtce_province_S_F$year )
+    L101.NBS_use_all_Mtce <- dcast( L101.NBS_use_all_Mtce, ... ~ year, value.name="value" )
+    L101.inNBS_Mtce_province_S_F <- dcast( L101.inNBS_Mtce_province_S_F, ... ~ year, value.name="value" )
 
     # Produce outputs
     L101.NBS_use_all_Mtce %>%
