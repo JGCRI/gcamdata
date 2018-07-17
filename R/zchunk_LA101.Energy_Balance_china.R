@@ -45,25 +45,77 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
     # Removing the whole China category, and matching in intermediate fuel and sector names
     # The energy balance calls Tibet by it's alternative name Xizang, we will need to switch
     # it for the mappings to work
-    en_balance_Mtce_Yh_province %>%
-      subset(province.name != "China" & year %in% historical_years) -> L101.NBS_use_all_Mtce
-
-    #Aggregating NBS province energy data by GCAM sector and fuel
-    L101.NBS_use_all_Mtce[L101.NBS_use_all_Mtce$province.name == "Xizang", "province.name"] <- "Tibet" %>%
+    # Aggregating NBS province energy data by GCAM sector and fuel
+    L101.NBS_use_all_Mtce <- subset( en_balance_Mtce_Yh_province, province.name != "China"& year %in% HISTORICAL_YEARS)
+    L101.NBS_use_all_Mtce[L101.NBS_use_all_Mtce$province.name == "Xizang", "province.name"] <- "Tibet"
+    L101.NBS_use_all_Mtce %>%
       map_province_name(province_names_mappings, "province", TRUE) %>%
-      merge(NBS_CESY_process, all.x=TRUE) %>%
-      merge(NBS_CESY_material, all.x=TRUE) %>%
+      left_join(NBS_CESY_process ) %>%
+      left_join(NBS_CESY_material ) ->
+      L101.NBS_use_all_Mtce
+
+    L101.NBS_use_all_Mtce %>%
       subset(!is.na( sector ) & !is.na( fuel ) ) %>%
       group_by(province,year,sector,fuel) %>%
+      subset(!is.na(value)) %>%
+      summarise(value=sum(value)) %>%
+      ungroup()->
+      L101.inNBS_Mtce_province_S_F
 
-
-    L101.inNBS_Mtce_province_S_F <- aggregate( value ~ province + year + sector + fuel, L101.inNBS_Mtce_province_S_F, FUN=sum)
 
     # cast years accross for easier reading
-    L101.NBS_use_all_Mtce$year <- paste0( 'X', L101.NBS_use_all_Mtce$year )
-    L101.inNBS_Mtce_province_S_F$year <- paste0( 'X', L101.inNBS_Mtce_province_S_F$year )
-    L101.NBS_use_all_Mtce <- dcast( L101.NBS_use_all_Mtce, ... ~ year, value.name="value" )
-    L101.inNBS_Mtce_province_S_F <- dcast( L101.inNBS_Mtce_province_S_F, ... ~ year, value.name="value" )
+    L101.NBS_use_all_Mtce %>%
+      mutate(year = as.integer(year)) %>%
+      # interpolate missinge values where possible (rule=1)
+      group_by(province) %>%
+      mutate(value = approx_fun(year, value, rule = 1)) %>%
+      ungroup() %>%
+      subset(!is.na(value)) %>%
+      complete(nesting(province), year = c( HISTORICAL_YEARS)) %>%
+      spread(year,value) ->
+      L101.NBS_use_all_Mtce
+
+    L101.inNBS_Mtce_province_S_F %>%
+      mutate(year = as.integer(year)) %>%
+      # interpolate missinge values where possible (rule=1)
+      group_by(province) %>%
+      mutate(value = approx_fun(year, value, rule = 1)) %>%
+      ungroup() %>%
+      subset(!is.na(value)) %>%
+      complete(nesting(province), year = c( HISTORICAL_YEARS)) %>%
+      spread(year,value) ->
+      L101.inNBS_Mtce_province_S_F
+
+    # Make adjustments to  Tibet (XZ) which is mostly unrepresented in the CESY
+    # We have estimates of Tibet shares of energy use by sector.  A rough estimate to give scale
+    # Tibet accounts for 1% of the national energy.
+    Tibet_share %>%
+      left_join( tibet_shares_mappings ) %>%
+      subset(!grepl( 'biomass', fuel ) ) ->
+      L101.tibet_pct
+
+    L101.inNBS_Mtce_CHINA <- colSums( L101.inNBS_Mtce_province_S_F[ format(HISTORICAL_YEARS,4)], na.rm=TRUE )
+
+    L101.inNBS_Mtce_tibet_S_F <- L101.tibet_pct
+    L101.inNBS_Mtce_tibet_S_F <- data.frame( province="XZ", L101.tibet_pct, t( L101.inNBS_Mtce_CHINA ) )
+
+    L101.inNBS_Mtce_tibet_S_F[ paste0( 'X', HISTORICAL_YEARS )] <- L101.inNBS_Mtce_tibet_S_F[ paste0( 'X', HISTORICAL_YEARS )] * 0.01 * L101.inNBS_Mtce_tibet_S_F$share
+
+    L101.NBS_use_all_Mtce %>%
+      subset( province != "XZ" ) %>%
+      bind_rows(L101.inNBS_Mtce_tibet_S_F[c(names( L101.NBS_use_all_Mtce)[1:5],paste0( 'X', HISTORICAL_YEARS ))]) ->
+      L101.NBS_use_all_Mtce
+
+    L101.inNBS_Mtce_tibet_S_F %>%
+      group_by(province,sector,fuel) %>%
+      summarise_at(paste0( 'X', HISTORICAL_YEARS ),sum,na.rm=TRUE) %>%
+      ungroup() ->
+      L101.inNBS_Mtce_tibet_S_F
+
+    L101.inNBS_Mtce_province_S_F %>%
+      subset( province != "XZ" ) %>%
+      bind_rows( L101.inNBS_Mtce_tibet_S_F[ names( L101.inNBS_Mtce_tibet_S_F)] ) ->
+      L101.inNBS_Mtce_province_S_F
 
     # Produce outputs
     L101.NBS_use_all_Mtce %>%
