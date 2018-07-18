@@ -662,9 +662,19 @@ map_province_name <- function(data, mapping, map_names, replace = FALSE) {
   # will just be added to the end.
   if(replace) {
     old.index <- match(old.name, orig.names)
+<<<<<<< HEAD
     new.names <- c(orig.names[1:length(orig.names) < old.index], map_names, orig.names[1:length(orig.names) > old.index])
+=======
+    new.names <- c(orig.names[seq_along(orig.names) < old.index], map_names, orig.names[seq_along(orig.names) > old.index])
+>>>>>>> gcamdata-China-v1.0
   } else {
     new.names <- c(orig.names, map_names)
   }
   return(data[, new.names])
+<<<<<<< HEAD
 }
+=======
+}
+
+
+>>>>>>> gcamdata-China-v1.0
