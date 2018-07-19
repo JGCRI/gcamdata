@@ -23,16 +23,15 @@ module_gcamusa_LB175.nonghg_indenergy <- function(command, ...) {
   } else if(command == driver.MAKE) {
 
     # silence package check
-    GCAM_sector <- sector <- GCAM_fuel <- pollutant <-emissions <- state <-
+    GCAM_sector <- GCAM_fuel <- pollutant <- emissions <- state <-
       sector <- fuel <- Non.CO2 <- NULL
 
     all_data <- list(...)[[1]]
 
     # Load required inputs
     NEI_pollutant_mapping <- get_data(all_data, "gcam-usa/gcam-usa-emission/NEI_pollutant_mapping")
-    CEDS_GCAM_fuel <- get_data(all_data, "gcam-usa/CEDS_GCAM_fuel")
     NEI_2011_GCAM_sectors <- get_data(all_data, "gcam-usa/gcam-usa-emission/NEI_2011_GCAM_sectors")
-
+    CEDS_GCAM_fuel <- get_data(all_data, "gcam-usa/CEDS_GCAM_fuel")
 
     # Perform computations
     # This script assumes the data has been pre-processed. So all that needs to be done is
@@ -42,22 +41,23 @@ module_gcamusa_LB175.nonghg_indenergy <- function(command, ...) {
       #Subset industrial energy use emissions
       filter(GCAM_sector == "industry_energy") %>%
       #GCAM fuels
+      # use left_join because missing value will be generated through matching, drop in the next step
       left_join(CEDS_GCAM_fuel, by = "CEDS_Fuel") %>%
       rename(fuel = GCAM_fuel) %>%
-      na.omit() %>%
+      na.omit %>%
       #GCAM pollutants (filter out missing values)
       rename(NEI_pollutant = pollutant) %>%
+      # use left_join because missing value will be generated through matching, drop in the next step
       left_join(NEI_pollutant_mapping, by = "NEI_pollutant") %>%
-      ###MISSING VALUES: PM filterable. Not needed bc have filt+cond. OK to omit
-      na.omit() %>%
+      #MISSING VALUES: PM filterable. Not needed bc have filt+cond. OK to omit
+      na.omit %>%
       #Convert from short ton to Tg
-      mutate(emissions = emissions / CONV_T_METRIC_SHORT / 10^6, unit = "Tg") %>%
+      mutate(emissions = emissions / CONV_T_METRIC_SHORT / 10 ^ 6, unit = "Tg") %>%
       #Organize
       rename(sector = GCAM_sector) %>%
-      group_by(state,sector,fuel,Non.CO2) %>%
-      summarise(emissions = sum(emissions)) %>%
-      rename(X2010 = emissions) %>%
-      ungroup()
+      group_by(state, sector, fuel, Non.CO2) %>%
+      summarise(value = sum(emissions)) %>%
+      ungroup
 
     L175.nonghg_tg_state_indenergy_F_Yb %>%
       add_title("Industrial energy use sector non-ghg input emission factor by U.S. state / sector / fuel / pollutant / year") %>%
@@ -65,7 +65,8 @@ module_gcamusa_LB175.nonghg_indenergy <- function(command, ...) {
       add_comments("Industrial energy use sector non-ghg input emission factor by U.S. state / sector / fuel / pollutant / year") %>%
       add_legacy_name("L175.nonghg_tg_state_indenergy_F_Yb") %>%
       add_precursors("gcam-usa/gcam-usa-emission/NEI_pollutant_mapping",
-                     "gcam-usa/CEDS_GCAM_fuel","gcam-usa/gcam-usa-emission/NEI_2011_GCAM_sectors") ->
+                     "gcam-usa/CEDS_GCAM_fuel",
+                     "gcam-usa/gcam-usa-emission/NEI_2011_GCAM_sectors") ->
       L175.nonghg_tg_state_indenergy_F_Yb
 
     return_data(L175.nonghg_tg_state_indenergy_F_Yb)
