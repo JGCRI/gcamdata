@@ -56,7 +56,7 @@ module_gcamusa_LB174.nonghg_bld <- function(command, ...) {
       #Convert from short ton to Tg
       mutate(emissions = emissions / CONV_T_METRIC_SHORT / 10 ^ 6, unit = "Tg") %>%
       #Organize
-      group_by(state,sector,fuel,Non.CO2) %>%
+      group_by(state, sector, fuel, Non.CO2) %>%
       summarise(value = sum(emissions)) %>%
       ungroup
 
@@ -66,7 +66,8 @@ module_gcamusa_LB174.nonghg_bld <- function(command, ...) {
       add_comments("Buildings sector non-ghg input emissions by U.S. state / sector / fuel / pollutant / year") %>%
       add_legacy_name("L174.nonghg_tg_state_bld_F_Yb") %>%
       add_precursors("gcam-usa/gcam-usa-emission/NEI_pollutant_mapping",
-                     "gcam-usa/CEDS_GCAM_fuel","gcam-usa/gcam-usa-emission/NEI_2011_GCAM_sectors") ->
+                     "gcam-usa/CEDS_GCAM_fuel",
+                     "gcam-usa/gcam-usa-emission/NEI_2011_GCAM_sectors") ->
       L174.nonghg_tg_state_bld_F_Yb
 
     return_data(L174.nonghg_tg_state_bld_F_Yb)
