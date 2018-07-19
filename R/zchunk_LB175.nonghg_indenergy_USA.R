@@ -35,29 +35,31 @@ module_gcamusa_LB175.nonghg_indenergy <- function(command, ...) {
 
     # Perform computations
     # This script assumes the data has been pre-processed. So all that needs to be done is
-    #to convert to the correct sector/fuel organization and convert units
+    # to convert to the correct sector/fuel organization and convert units
 
     L175.nonghg_tg_state_indenergy_F_Yb <- NEI_2011_GCAM_sectors %>%
-      #Subset industrial energy use emissions
+      # Subset industrial energy use emissions
       filter(GCAM_sector == "industry_energy") %>%
-      #GCAM fuels
+      # GCAM fuels
       # use left_join because missing value will be generated through matching, drop in the next step
       left_join(CEDS_GCAM_fuel, by = "CEDS_Fuel") %>%
       rename(fuel = GCAM_fuel) %>%
       na.omit %>%
-      #GCAM pollutants (filter out missing values)
+      # GCAM pollutants (filter out missing values)
       rename(NEI_pollutant = pollutant) %>%
       # use left_join because missing value will be generated through matching, drop in the next step
       left_join(NEI_pollutant_mapping, by = "NEI_pollutant") %>%
-      #MISSING VALUES: PM filterable. Not needed bc have filt+cond. OK to omit
+      # MISSING VALUES: PM filterable. Not needed bc have filt+cond. OK to omit
       na.omit %>%
-      #Convert from short ton to Tg
+      # Convert from short ton to Tg
       mutate(emissions = emissions / CONV_T_METRIC_SHORT / 10 ^ 6, unit = "Tg") %>%
-      #Organize
+      # Organize
       rename(sector = GCAM_sector) %>%
       group_by(state, sector, fuel, Non.CO2) %>%
       summarise(value = sum(emissions)) %>%
-      ungroup
+      ungroup %>%
+      mutate(year = 2010) %>%
+      select(state, sector, fuel, Non.CO2, year, value)
 
     L175.nonghg_tg_state_indenergy_F_Yb %>%
       add_title("Industrial energy use sector non-ghg input emission factor by U.S. state / sector / fuel / pollutant / year") %>%
