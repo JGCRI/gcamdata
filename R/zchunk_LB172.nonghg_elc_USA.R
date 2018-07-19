@@ -103,7 +103,7 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
       left_join(states_subregions %>% select(state, state_name),
                 by = c("state_name")) %>%
       mutate(sector = "elec_heat") %>%
-      select(state, sector,fuel, Non.CO2, year, value) %>%
+      select(state, sector, fuel, Non.CO2, year, value) %>%
       # filter only future model years prior to 2025
       filter(year %in% FUTURE_YEARS[1:3])
 
@@ -137,8 +137,8 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
       mutate(Non.CO2 = "SO2_ELEC")
     # Add these sudo species into L172 main data
     L172.nonghg_tgej_state_elec_F_Yf <- bind_rows(L172.nonghg_tgej_state_elec_F_Yf,
-                                                  L172.NOx_Coal_Yf,L172.SO2_Coal_Yf,
-                                                  L172.NOx_ELEC_Yf,L172.SO2_ELEC_Yf)
+                                                  L172.NOx_Coal_Yf, L172.SO2_Coal_Yf,
+                                                  L172.NOx_ELEC_Yf, L172.SO2_ELEC_Yf)
 
 
     L172.nonghg_tg_state_elec_F_Yb %>%
