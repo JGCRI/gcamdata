@@ -157,8 +157,8 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
       add_units("Tg") %>%
       add_comments("Base-year electricity non-ghg input emissions by U.S. state / fuel / pollutant / year") %>%
       add_legacy_name("LB172.nonghg_elc_USA") %>%
-      add_precursors("gcam-usa/CEDS_GCAM_fuel", "gcam-usa/gcam-usa-emission/NEI_pollutant_mapping",
-                     "gcam-usa/gcam-usa-emission/NEI_2011_GCAM_sectors") ->
+      add_precursors("gcam-usa/emissions/CEDS_GCAM_fuel", "gcam-usa/emissions/NEI_pollutant_mapping",
+                     "gcam-usa/emissions/NEI_2011_GCAM_sectors") ->
       L172.nonghg_tg_state_elec_F_Yb
 
     L172.nonghg_tgej_state_elec_F_Yf %>%
@@ -166,7 +166,7 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
       add_units("Tg/EJ") %>%
       add_comments("Future year electricity non-co2 input emissions coefficients by U.S. state / fuel / pollutant / year") %>%
       add_legacy_name("LB172.nonghg_elc_USA") %>%
-      add_precursors("gcam-usa/EPA_state_egu_emission_factors_ktPJ", "gcam-usa/states_subregions") ->
+      add_precursors("gcam-usa/emissions/EPA_state_egu_emission_factors_ktPJ", "gcam-usa/states_subregions") ->
       L172.nonghg_tgej_state_elec_F_Yf
 
     return_data(L172.nonghg_tg_state_elec_F_Yb, L172.nonghg_tgej_state_elec_F_Yf )
