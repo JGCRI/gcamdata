@@ -21,7 +21,7 @@ original data system was \code{LB172.nonghg_elc_USA.R} (gcam-usa level1).
 Base-year and future year electricity non-ghg  emissions by U.S. state / fuel / pollutant / year
 }
 \details{
-elec sector non-ghg emissions by U.S. state / sector / fuel / pollutant / base and future year.
+This chunk has two parts: first, it isolates electric nonghg emissions by states from NEI 2011, second, it processes future year electric emission factors from EPA to future GCAM modeling years by fuel
 }
 \author{
 YO July 2018

@@ -110,14 +110,14 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
       # filter only future model years prior to 2025, since we want explicit emission factors
       # in 2015, 2020 and 2025, but keep 2025 leve afterwards
       # INPUT_EMISSION_YEARS is defined as 2015, 2020 and 2025
-      filter(year %in% INPUT_EMISSION_YEARS)
+      filter(year %in% gcamusa.ELEC_INPUT_EMISSION_YEARS)
 
     # Add remaining future years, keeping them constant at 2025 levels
     L172.nonghg_tgej_state_elec_F_Yf_post2025 <- L172.nonghg_tgej_state_elec_F_Yf_prior2025 %>%
       filter(year == 2025) %>%
       select(-year) %>%
       # EXTRA_EMISSION_YEARS is defined as 2030 to 2100 with 5-year step
-      repeat_add_columns(tibble("year" =  EXTRA_EMISSION_YEARS))
+      repeat_add_columns(tibble("year" =  gcamusa.ELEC_EXTRA_EMISSION_YEARS))
 
     # combine together
     L172.nonghg_tgej_state_elec_F_Yf <- bind_rows(L172.nonghg_tgej_state_elec_F_Yf_prior2025,
