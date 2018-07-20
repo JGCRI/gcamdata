@@ -15,10 +15,10 @@
 #' @author YO July 2018
 module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
-    return(c(FILE = "gcam-usa/CEDS_GCAM_fuel",
-             FILE = "gcam-usa/EPA_state_egu_emission_factors_ktPJ",
-             FILE = "gcam-usa/gcam-usa-emission/NEI_pollutant_mapping",
-             FILE = "gcam-usa/gcam-usa-emission/NEI_2011_GCAM_sectors",
+    return(c(FILE = "gcam-usa/emissions/CEDS_GCAM_fuel",
+             FILE = "gcam-usa/emissions/EPA_state_egu_emission_factors_ktPJ",
+             FILE = "gcam-usa/emissions/NEI_pollutant_mapping",
+             FILE = "gcam-usa/emissions/NEI_2011_GCAM_sectors",
              FILE = "gcam-usa/states_subregions"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L172.nonghg_tg_state_elec_F_Yb", "L172.nonghg_tgej_state_elec_F_Yf"))
@@ -33,15 +33,15 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
     all_data <- list(...)[[1]]
 
     # Load required inputs
-    CEDS_GCAM_fuel <- get_data(all_data, "gcam-usa/CEDS_GCAM_fuel")
-    NEI_pollutant_mapping <- get_data(all_data, "gcam-usa/gcam-usa-emission/NEI_pollutant_mapping")
+    CEDS_GCAM_fuel <- get_data(all_data, "gcam-usa/emissions/CEDS_GCAM_fuel")
+    NEI_pollutant_mapping <- get_data(all_data, "gcam-usa/emissions/NEI_pollutant_mapping")
     states_subregions <- get_data(all_data, "gcam-usa/states_subregions")
-    NEI_2011_GCAM_sectors <- get_data(all_data, "gcam-usa/gcam-usa-emission/NEI_2011_GCAM_sectors")
-    EPA_state_egu_emission_factors_ktPJ <- get_data(all_data, "gcam-usa/EPA_state_egu_emission_factors_ktPJ")
+    NEI_2011_GCAM_sectors <- get_data(all_data, "gcam-usa/emissions/NEI_2011_GCAM_sectors")
+    EPA_state_egu_emission_factors_ktPJ <- get_data(all_data, "gcam-usa/emissions/EPA_state_egu_emission_factors_ktPJ")
 
     # Perform computations
 
-    # Input-based emissions in the base year
+    # Input-based emissions for all plants existing in the base year
     # L172.nonghg_tg_state_elc_F_Yb: Electricity non-ghg input emissions by fuel and U.S. state in the final base year
 
     L172.nonghg_tg_state_elec_F_Yb <- NEI_2011_GCAM_sectors %>%
@@ -66,9 +66,9 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
       mutate(year = 2010) %>%
       ungroup
 
-    # Add specific Non.CO2 species for NOx_Coal, SO2_Coal, NOx_ELEC, SO2_ELEC for the base year
+    # Add additional Non.CO2 species for NOx_Coal, SO2_Coal, NOx_ELEC, SO2_ELEC for the base year
     # These species will be used in the Cross State Air Pollutantion Rule (CSAPR) constraints in policy files
-    # CSAPR constains NOx and SO2 emissions only from electric sector, so we need to create new species for them,
+    # CSAPR constrains NOx and SO2 emissions only from electric sector, so we need to create new species for them,
     # but their values are the same as NOx and SO2 in electric sector and fuel type
     # 1) Add N0x_Coal
     L172.NOx_Coal_Yb <- L172.nonghg_tg_state_elec_F_Yb %>%
@@ -92,7 +92,8 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
                                                 L172.NOx_ELEC_Yb, L172.SO2_ELEC_Yb)
 
 
-    # Input-based emissions in the future years, use data from EPA-ORD
+    # Input-based emission factors in the future years, use data from EPA-ORD
+    # There are emission factors for any new power plants
     # L172.nonghg_tgej_state_elec_F_Yf: Electricity non-co2 emissions coefficients by fuel input and U.S. state in future model years
 
     L172.nonghg_tgej_state_elec_F_Yf_prior2025 <- EPA_state_egu_emission_factors_ktPJ %>%
@@ -108,11 +109,12 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
       mutate(sector = "elec_heat") %>%
       select(state, sector, fuel, Non.CO2, year, value) %>%
       # filter only future model years prior to 2025, since we want explicit emission factors
-      # in 2015, 2020 and 2025, but keep 2025 leve afterwards
+      # in 2015, 2020 and 2025, values after 2025 added below
       # INPUT_EMISSION_YEARS is defined as 2015, 2020 and 2025
       filter(year %in% gcamusa.ELEC_INPUT_EMISSION_YEARS)
 
     # Add remaining future years, keeping them constant at 2025 levels
+    # (data in current file is constant after 2025)
     L172.nonghg_tgej_state_elec_F_Yf_post2025 <- L172.nonghg_tgej_state_elec_F_Yf_prior2025 %>%
       filter(year == 2025) %>%
       select(-year) %>%
