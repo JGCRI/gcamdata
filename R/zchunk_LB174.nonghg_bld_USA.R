@@ -8,7 +8,7 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L174.nonghg_tg_state_bld_F_Yb}. The corresponding file in the
 #' original data system was \code{LB174.nonghg_bld_USA.R} (gcam-usa level1).
-#' @details Buildings sector non-ghg input emissions by U.S. state / sector / fuel / pollutant / year.
+#' @details This chunk isolates buildings sector non-ghg input emissions by U.S. state / sector / fuel / pollutant / year from NEI 2011.
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
@@ -42,22 +42,23 @@ module_gcamusa_LB174.nonghg_bld <- function(command, ...) {
       filter(grepl("building", GCAM_sector)) %>%
       # Format to level1 sector naming convention
       mutate(sector = gsub("building_", "", GCAM_sector)) %>%
-      # GCAM fuels; using
-      # left_join becuase missing values will be generated and filtered out in the next step
+      # using left_join becuase orignal CEDS fuel in NEI has one called "Process", there's no GCAM fuel corresponding to that,
+      # OK to omie, missing values will be dropped later
       left_join(CEDS_GCAM_fuel, by = "CEDS_Fuel") %>%
       rename(fuel = GCAM_fuel) %>%
-      # GCAM pollutants (filter out missing values)
       rename(NEI_pollutant = pollutant) %>%
-      # left_join becuase missing matching will be generated and filtered out in the next step
+      # Match on NEI pollutants, using left_join becuase missing values will be produced
+      # The original NEI include filterable PM2.5 and PM10, but here we only need primary ones
+      # OK to omit those filterables
       left_join(NEI_pollutant_mapping, by = "NEI_pollutant") %>%
-      # MISSING VALUES: PM filterable. Not needed bc have filt+cond. OK to omit
       na.omit %>%
       # Convert from short ton to Tg
       mutate(emissions = emissions / CONV_T_METRIC_SHORT / 10 ^ 6, unit = "Tg") %>%
-      # Organize
+      # generate file tibble based on standard GCAM column names, sum emissions for the same state/sector/fuel/species
       group_by(state, sector, fuel, Non.CO2) %>%
       summarise(value = sum(emissions)) %>%
       ungroup %>%
+      # use long format, create column "year" with base year (2010)
       mutate(year = 2010) %>%
       select(state, sector, fuel, Non.CO2, year, value)
 

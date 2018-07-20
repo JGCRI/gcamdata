@@ -21,7 +21,7 @@ original data system was \code{LB174.nonghg_bld_USA.R} (gcam-usa level1).
 Calculate non-ghg emission totals and non-ghg emission shares of total emissions.
 }
 \details{
-Buildings sector non-ghg input emissions by U.S. state / sector / fuel / pollutant / year.
+This chunk isolates buildings sector non-ghg input emissions by U.S. state / sector / fuel / pollutant / year from NEI 2011.
 }
 \author{
 YO July 2018
