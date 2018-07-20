@@ -48,7 +48,7 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
     L172.nonghg_tg_state_elec_F_Yb <- NEI_2011_GCAM_sectors %>%
       # Subset electricity emissions
       filter(GCAM_sector == "elec_heat") %>%
-      # GCAM fuel
+      # GCAM fuel, missing value drop later
       left_join(CEDS_GCAM_fuel, by = "CEDS_Fuel") %>%
       rename(fuel = GCAM_fuel, NEI_pollutant = pollutant) %>%
       # Match on NEI pollutants, using left_join becuase missing values will be produced and dropped later
@@ -100,7 +100,7 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
       # NOTE: for now change oil to refined liquids
       mutate(fuel = gsub("oil","refined liquids", fuel)) %>%
       # state code & select relevant columns
-      left_join(states_subregions %>% select(state, state_name),
+      left_join_error_no_match(states_subregions %>% select(state, state_name),
                 by = c("state_name")) %>%
       mutate(sector = "elec_heat") %>%
       select(state, sector, fuel, Non.CO2, year, value) %>%
