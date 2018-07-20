@@ -33,7 +33,6 @@ module_gcamusa_LB174.nonghg_bld <- function(command, ...) {
     CEDS_GCAM_fuel <- get_data(all_data, "gcam-usa/CEDS_GCAM_fuel")
     NEI_2011_GCAM_sectors <- get_data(all_data, "gcam-usa/gcam-usa-emission/NEI_2011_GCAM_sectors")
 
-
     # Perform computations
     # This script assumes the data has been pre-processed. So all that needs to be done is
     # to convert to the correct sector/fuel organization and convert units
@@ -44,7 +43,7 @@ module_gcamusa_LB174.nonghg_bld <- function(command, ...) {
       # Format to level1 sector naming convention
       mutate(sector = gsub("building_", "", GCAM_sector)) %>%
       # GCAM fuels; using
-      # left_join becuase missing matching will be generated and filtered out in the next step
+      # left_join becuase missing values will be generated and filtered out in the next step
       left_join(CEDS_GCAM_fuel, by = "CEDS_Fuel") %>%
       rename(fuel = GCAM_fuel) %>%
       # GCAM pollutants (filter out missing values)
