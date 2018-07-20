@@ -96,7 +96,7 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
       # Convert to long format
       gather(variable, value, -state_name, -fuel) %>%
       separate(variable, into = c("year","Non.CO2"), sep = "_") %>%
-      mutate(year = as.numeric(substr(year, 2, 5))) %>%
+      mutate(year = as.numeric(year)) %>%
       # NOTE: for now change oil to refined liquids
       mutate(fuel = gsub("oil","refined liquids", fuel)) %>%
       # state code & select relevant columns
