@@ -21,7 +21,7 @@ original data system was \code{LB175.nonghg_indenergy_USA.R} (gcam-usa level1).
 Calculate input emissions for industrial energy use sector by input fuel in the USA.
 }
 \details{
-Industrial sector non-ghg input emissions by U.S. state / sector / fuel / pollutant / year.
+This chunk isolates industrial sector non-ghg input emissions by U.S. state / sector / fuel / pollutant / year.
 }
 \author{
 YO July 2018
