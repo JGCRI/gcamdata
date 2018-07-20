@@ -29,6 +29,10 @@ FUTURE_YEARS            <- seq(2015, 2100, 5)
 HISTORICAL_YEARS        <- 1971:2010
 MODEL_YEARS             <- c(BASE_YEARS, FUTURE_YEARS)
 
+# defined for electric sector future emission factors in LB172 gcam-usa chunk
+INPUT_EMISSION_YEARS    <- seq(2015, 2025, 5)
+EXTRA_EMISSION_YEARS    <- seq(2030, 2100, 5)
+
 
 # GCAM constants ======================================================================
 

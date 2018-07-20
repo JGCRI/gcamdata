@@ -8,10 +8,9 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L172.nonghg_tg_state_elec_F_Yb}, \code{L172.nonghg_tgej_state_elec_F_Yf}. The corresponding file in the
 #' original data system was \code{LB172.nonghg_elc_USA.R} (gcam-usa level1).
-#' @details elec sector non-ghg emissions by U.S. state / sector / fuel / pollutant / base and future year.
+#' @details This chunk has two parts: first, it isolates electric nonghg emissions by states from NEI 2011, second, it processes future year electric emission factors from EPA to future GCAM modeling years by fuel
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
-#' @importFrom dplyr %>%
 #' @importFrom tidyr gather spread
 #' @author YO July 2018
 module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
@@ -42,31 +41,35 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
 
     # Perform computations
 
-    ## Input-based emissions in the base year
+    # Input-based emissions in the base year
     # L172.nonghg_tg_state_elc_F_Yb: Electricity non-ghg input emissions by fuel and U.S. state in the final base year
 
     L172.nonghg_tg_state_elec_F_Yb <- NEI_2011_GCAM_sectors %>%
       # Subset electricity emissions
       filter(GCAM_sector == "elec_heat") %>%
-      # GCAM fuel, missing value drop later
-      left_join(CEDS_GCAM_fuel, by = "CEDS_Fuel") %>%
+      # GCAM fuel
+      left_join_error_no_match(CEDS_GCAM_fuel, by = "CEDS_Fuel") %>%
       rename(fuel = GCAM_fuel, NEI_pollutant = pollutant) %>%
-      # Match on NEI pollutants, using left_join becuase missing values will be produced and dropped later
+      # Match on NEI pollutants, using left_join becuase missing values will be produced
+      # The original NEI include filterable PM2.5 and PM10, but here we only need primary ones
+      # OK to omit those filterables
       left_join(NEI_pollutant_mapping, by = "NEI_pollutant") %>%
-      # MISSING VALUES: PM filterable. Not needed bc have filt+cond. OK to omit
       na.omit %>%
       # Convert from short ton to Tg
       mutate(emissions = emissions / CONV_T_METRIC_SHORT / 10 ^ 6, unit = "Tg") %>%
-      # Organize
+      # aggreate by GCAM sector, fuel and non.CO2 species with standard GCAM column names
       rename(sector = GCAM_sector) %>%
       group_by(state, sector, fuel, Non.CO2) %>%
-      summarise(emissions = sum(emissions)) %>%
-      rename(value = emissions) %>%
+      summarise(value = sum(emissions)) %>%
+      # this is for the base year, previously the column name is X2010 as wide format, here
+      # we create a new column called year, with value as 2010 (the base year)
       mutate(year = 2010) %>%
       ungroup
 
-    ## Add specific Non.CO2 species for NOx_Coal, SO2_Coal, NOx_ELEC, SO2_ELEC for the base year
-    # These species will be used in CSAPR constrains in policy files
+    # Add specific Non.CO2 species for NOx_Coal, SO2_Coal, NOx_ELEC, SO2_ELEC for the base year
+    # These species will be used in the Cross State Air Pollutantion Rule (CSAPR) constraints in policy files
+    # CSAPR constains NOx and SO2 emissions only from electric sector, so we need to create new species for them,
+    # but their values are the same as NOx and SO2 in electric sector and fuel type
     # 1) Add N0x_Coal
     L172.NOx_Coal_Yb <- L172.nonghg_tg_state_elec_F_Yb %>%
       filter(fuel == "coal" & Non.CO2 == "NOx") %>%
@@ -89,36 +92,42 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
                                                 L172.NOx_ELEC_Yb, L172.SO2_ELEC_Yb)
 
 
-    ## Input-based emissions in the future years, use data from EPA-ORD
+    # Input-based emissions in the future years, use data from EPA-ORD
     # L172.nonghg_tgej_state_elec_F_Yf: Electricity non-co2 emissions coefficients by fuel input and U.S. state in future model years
 
     L172.nonghg_tgej_state_elec_F_Yf_prior2025 <- EPA_state_egu_emission_factors_ktPJ %>%
       # Convert to long format
       gather(variable, value, -state_name, -fuel) %>%
-      separate(variable, into = c("year","Non.CO2"), sep = "_") %>%
+      separate(variable, into = c("year", "Non.CO2"), sep = "_") %>%
       mutate(year = as.numeric(year)) %>%
       # NOTE: for now change oil to refined liquids
-      mutate(fuel = gsub("oil","refined liquids", fuel)) %>%
+      mutate(fuel = gsub("oil", "refined liquids", fuel)) %>%
       # state code & select relevant columns
       left_join_error_no_match(states_subregions %>% select(state, state_name),
                 by = c("state_name")) %>%
       mutate(sector = "elec_heat") %>%
       select(state, sector, fuel, Non.CO2, year, value) %>%
-      # filter only future model years prior to 2025
-      filter(year %in% FUTURE_YEARS[1:3])
+      # filter only future model years prior to 2025, since we want explicit emission factors
+      # in 2015, 2020 and 2025, but keep 2025 leve afterwards
+      # INPUT_EMISSION_YEARS is defined as 2015, 2020 and 2025
+      filter(year %in% INPUT_EMISSION_YEARS)
 
     # Add remaining future years, keeping them constant at 2025 levels
     L172.nonghg_tgej_state_elec_F_Yf_post2025 <- L172.nonghg_tgej_state_elec_F_Yf_prior2025 %>%
       filter(year == 2025) %>%
       select(-year) %>%
-      repeat_add_columns(tibble("year" =  FUTURE_YEARS[4:18]))
+      # EXTRA_EMISSION_YEARS is defined as 2030 to 2100 with 5-year step
+      repeat_add_columns(tibble("year" =  EXTRA_EMISSION_YEARS))
 
     # combine together
     L172.nonghg_tgej_state_elec_F_Yf <- bind_rows(L172.nonghg_tgej_state_elec_F_Yf_prior2025,
                                               L172.nonghg_tgej_state_elec_F_Yf_post2025) %>%
       na.omit
 
-    ## Add sodu Non.CO2 species for NOx_Coal, SO2_Coal, NOx_ELEC, SO2_ELEC for future years
+    # Add specific Non.CO2 species for NOx_Coal, SO2_Coal, NOx_ELEC, SO2_ELEC for future years
+    # These species will be used in the Cross State Air Pollutantion Rule (CSAPR) constraints in policy files
+    # CSAPR constains NOx and SO2 emissions only from electric sector, so we need to create new species for them,
+    # but their values NOx and SO2 in electric sector and fuel type
     # 1) Add N0x_Coal
     L172.NOx_Coal_Yf <- L172.nonghg_tgej_state_elec_F_Yf %>%
       filter(fuel == "coal" & Non.CO2 == "NOx") %>%
