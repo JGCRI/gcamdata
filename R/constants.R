@@ -562,6 +562,7 @@ emissions.DIGITS_EMISSIONS <- 10
 
 # GCAM-USA time
 gcamusa.WIND_BASE_COST_YEAR <- 2005
+gcamusa.NEI_BASE_YEAR <- 2010
 
 # GCAM-USA states
 gcamusa.STATES <- c("AK", "AL", "AR", "AZ", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "IA", "ID", "IL", "IN", "KS", "KY", "LA",

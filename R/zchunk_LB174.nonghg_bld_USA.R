@@ -60,7 +60,10 @@ module_gcamusa_LB174.nonghg_bld <- function(command, ...) {
       summarise(value = sum(emissions)) %>%
       ungroup %>%
       # use long format, create column "year" with base year (2010)
-      mutate(year = 2010) %>%
+      # The base-year here is specific to the USNEI data used
+      # Note that we are explicitly approximating 2010 emissions using 2011 values in the NEI
+      # since the NEI is only available every ~3 years
+      mutate(year = gcamusa.NEI_BASE_YEAR) %>%
       select(state, sector, fuel, Non.CO2, year, value)
 
     L174.nonghg_tg_state_bld_F_Yb %>%
