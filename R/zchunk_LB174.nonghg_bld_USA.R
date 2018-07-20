@@ -15,9 +15,9 @@
 #' @author YO July 2018
 module_gcamusa_LB174.nonghg_bld <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
-    return(c(FILE = "gcam-usa/gcam-usa-emission/NEI_pollutant_mapping",
-             FILE = "gcam-usa/CEDS_GCAM_fuel",
-             FILE = "gcam-usa/gcam-usa-emission/NEI_2011_GCAM_sectors"))
+    return(c(FILE = "gcam-usa/emissions/NEI_pollutant_mapping",
+             FILE = "gcam-usa/emissions/CEDS_GCAM_fuel",
+             FILE = "gcam-usa/emissions/NEI_2011_GCAM_sectors"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L174.nonghg_tg_state_bld_F_Yb"))
   } else if(command == driver.MAKE) {
@@ -29,9 +29,9 @@ module_gcamusa_LB174.nonghg_bld <- function(command, ...) {
     all_data <- list(...)[[1]]
 
     # Load required inputs
-    NEI_pollutant_mapping <- get_data(all_data, "gcam-usa/gcam-usa-emission/NEI_pollutant_mapping")
-    CEDS_GCAM_fuel <- get_data(all_data, "gcam-usa/CEDS_GCAM_fuel")
-    NEI_2011_GCAM_sectors <- get_data(all_data, "gcam-usa/gcam-usa-emission/NEI_2011_GCAM_sectors")
+    NEI_pollutant_mapping <- get_data(all_data, "gcam-usa/emissions/NEI_pollutant_mapping")
+    CEDS_GCAM_fuel <- get_data(all_data, "gcam-usa/emissions/CEDS_GCAM_fuel")
+    NEI_2011_GCAM_sectors <- get_data(all_data, "gcam-usa/emissions/NEI_2011_GCAM_sectors")
 
     # Perform computations
     # This script assumes the data has been pre-processed. So all that needs to be done is
@@ -43,7 +43,8 @@ module_gcamusa_LB174.nonghg_bld <- function(command, ...) {
       # Format to level1 sector naming convention
       mutate(sector = gsub("building_", "", GCAM_sector)) %>%
       # using left_join becuase orignal CEDS fuel in NEI has one called "Process", there's no GCAM fuel corresponding to that,
-      # OK to omie, missing values will be dropped later
+      # OK to omit, missing values will be dropped later
+      # TODO: check that the dropped "Process" emissions are not significant
       left_join(CEDS_GCAM_fuel, by = "CEDS_Fuel") %>%
       rename(fuel = GCAM_fuel) %>%
       rename(NEI_pollutant = pollutant) %>%
@@ -67,9 +68,9 @@ module_gcamusa_LB174.nonghg_bld <- function(command, ...) {
       add_units("Tg") %>%
       add_comments("Buildings sector non-ghg input emissions by U.S. state / sector / fuel / pollutant / year") %>%
       add_legacy_name("L174.nonghg_tg_state_bld_F_Yb") %>%
-      add_precursors("gcam-usa/gcam-usa-emission/NEI_pollutant_mapping",
-                     "gcam-usa/CEDS_GCAM_fuel",
-                     "gcam-usa/gcam-usa-emission/NEI_2011_GCAM_sectors") ->
+      add_precursors("gcam-usa/emissions/NEI_pollutant_mapping",
+                     "gcam-usa/emissions/CEDS_GCAM_fuel",
+                     "gcam-usa/emissions/NEI_2011_GCAM_sectors") ->
       L174.nonghg_tg_state_bld_F_Yb
 
     return_data(L174.nonghg_tg_state_bld_F_Yb)
