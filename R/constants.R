@@ -26,6 +26,8 @@ HISTORICAL_YEARS        <- 1971:2010
 MODEL_YEARS             <- c(BASE_YEARS, FUTURE_YEARS)
 
 
+
+
 # GCAM constants ======================================================================
 
 gcam.USA_CODE            <- 1
@@ -523,6 +525,10 @@ emissions.DIGITS_EMISSIONS <- 10
 # GCAM-USA time
 gcamusa.WIND_BASE_COST_YEAR <- 2005
 gcamusa.NEI_BASE_YEAR <- 2010
+
+# defined for electric sector future emission factors in LB172 gcam-usa chunk
+gcamusa.ELEC_INPUT_EMISSION_YEARS    <- seq(2015, 2025, 5)
+gcamusa.ELEC_EXTRA_EMISSION_YEARS    <- seq(2030, 2100, 5)
 
 # GCAM-USA states
 gcamusa.STATES <- c("AK", "AL", "AR", "AZ", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "IA", "ID", "IL", "IN", "KS", "KY", "LA",
