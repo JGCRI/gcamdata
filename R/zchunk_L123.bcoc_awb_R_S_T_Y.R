@@ -47,7 +47,7 @@ module_emissions_L123.bcoc_awb_R_S_T_Y <- function(command, ...) {
 
     # Aggregate BC and OC emissions to GCAM regions and convert to Tg
     bind_rows(OC_AWB_2000, BC_AWB_2000) %>%
-      # Not all iso's will necesarilly have an input value. This is ok, but use left_join becuase of this.
+      # Not all iso's will necesarilly have an input value. This is ok, but use left_join because of this.
       left_join(iso_GCAM_regID, by = "iso") %>%
       group_by(Non.CO2, GCAM_region_ID) %>%
       summarize_if(is.numeric , sum) %>%

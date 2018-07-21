@@ -42,13 +42,13 @@ module_gcamusa_LB174.nonghg_bld <- function(command, ...) {
       filter(grepl("building", GCAM_sector)) %>%
       # Format to level1 sector naming convention
       mutate(sector = gsub("building_", "", GCAM_sector)) %>%
-      # using left_join becuase orignal CEDS fuel in NEI has one called "Process", there's no GCAM fuel corresponding to that,
+      # using left_join because orignal CEDS fuel in NEI has one called "Process", there's no GCAM fuel corresponding to that,
       # OK to omit, missing values will be dropped later
       # TODO: check that the dropped "Process" emissions are not significant
       left_join(CEDS_GCAM_fuel, by = "CEDS_Fuel") %>%
       rename(fuel = GCAM_fuel) %>%
       rename(NEI_pollutant = pollutant) %>%
-      # Match on NEI pollutants, using left_join becuase missing values will be produced
+      # Match on NEI pollutants, using left_join because missing values will be produced
       # The original NEI include filterable PM2.5 and PM10, but here we only need primary ones
       # OK to omit those filterables
       left_join(NEI_pollutant_mapping, by = "NEI_pollutant") %>%

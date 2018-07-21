@@ -50,7 +50,7 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
       # GCAM fuel
       left_join_error_no_match(CEDS_GCAM_fuel, by = "CEDS_Fuel") %>%
       rename(fuel = GCAM_fuel, NEI_pollutant = pollutant) %>%
-      # Match on NEI pollutants, using left_join becuase missing values will be produced
+      # Match on NEI pollutants, using left_join because missing values will be produced
       # The original NEI include filterable PM2.5 and PM10, but here we only need primary ones
       # OK to omit those filterables
       left_join(NEI_pollutant_mapping, by = "NEI_pollutant") %>%
