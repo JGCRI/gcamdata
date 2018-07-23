@@ -12,7 +12,7 @@
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
-#' @author ST September 2017
+#' @author Liu July 2018
 #' @export
 module_gcam.china_LA114.Wind <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
@@ -74,8 +74,9 @@ module_gcam.china_LA114.Wind <- function(command, ...) {
              base.cost = base.cost * gdp_deflator(1975, 2007) / CONV_KWH_GJ,
              capacity.factor = (CapCost * FixedChargeRate + OMFixedCost) /
                (CONV_KWH_GJ * CONV_YEAR_HOURS) / (base.cost - (OMVarCost / (1000 * CONV_KWH_GJ)))) %>%
-      select(province.name, sector, fuel, capacity.factor) ->k
-    k %>%
+      select(province.name, sector, fuel, capacity.factor) %>%
+      #Level 0 has Taiwan, province_names_mappings doesn't, Level 1 in old data system doesn't, so Taiwan was dropped here.
+      filter(province.name != "Taiwan") %>%
       map_province_name(province_names_mappings, "province", TRUE) ->
       L114.CapacityFactor_wind_province
 
