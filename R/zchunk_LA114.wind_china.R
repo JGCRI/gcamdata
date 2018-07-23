@@ -74,7 +74,8 @@ module_gcam.china_LA114.Wind <- function(command, ...) {
              base.cost = base.cost * gdp_deflator(1975, 2007) / CONV_KWH_GJ,
              capacity.factor = (CapCost * FixedChargeRate + OMFixedCost) /
                (CONV_KWH_GJ * CONV_YEAR_HOURS) / (base.cost - (OMVarCost / (1000 * CONV_KWH_GJ)))) %>%
-      select(province.name, sector, fuel, capacity.factor) %>%
+      select(province.name, sector, fuel, capacity.factor) ->k
+    k %>%
       map_province_name(province_names_mappings, "province", TRUE) ->
       L114.CapacityFactor_wind_province
 
