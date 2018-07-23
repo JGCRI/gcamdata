@@ -53,6 +53,7 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
       left_join(NBS_CESY_material, by = "EBMaterial") ->
       L101.NBS_use_all_Mtce
 
+
     L101.NBS_use_all_Mtce %>%
       filter(!is.na( sector) & !is.na(fuel)) %>%
       group_by(province,year,sector,fuel) %>%
@@ -64,23 +65,32 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
 
     # interpolate missinge values where possible (rule=1)
     L101.NBS_use_all_Mtce %>%
-      complete(year = c(HISTORICAL_YEARS)) %>%
+      complete(nesting(province, EBProcess, EBMaterial,fuel, sector), year = HISTORICAL_YEARS) %>%
+      arrange(province, year) %>%
       mutate(year = as.integer(year)) %>%
-      group_by(province) %>%
-      mutate(value = approx_fun(year, value, rule = 1)) %>%
+      group_by(province, fuel, sector, EBProcess, EBMaterial) %>%
+      mutate(value = as.numeric(value), value = approx_fun(year, value, rule = 1)) %>%
       ungroup() %>%
-      arrange(province) %>%
-      filter(!is.na(province)) ->
+      #if we have 1 data point, interpolate will replace it with NA, so we need to add those data back
+      left_join(L101.NBS_use_all_Mtce %>% rename(org = value),
+                by = c("province", "EBProcess", "EBMaterial", "fuel", "sector", "year")) %>%
+      mutate(value = replace(value, is.na(value), org[is.na(value)])) %>%
+      select(-org) ->
       L101.NBS_use_all_Mtce
 
     # interpolate missinge values where possible (rule=1)
     L101.inNBS_Mtce_province_S_F %>%
-      complete(year = c( HISTORICAL_YEARS)) %>%
+      complete(nesting(province, sector, fuel), year = c( HISTORICAL_YEARS)) %>%
+      arrange(province, year) %>%
       mutate(year = as.integer(year)) %>%
-      group_by(province) %>%
+      group_by(province, fuel, sector) %>%
       mutate(value = approx_fun(year, value, rule = 1)) %>%
       ungroup() %>%
-      filter(!is.na(province)) ->
+      #if we have 1 data point, interpolate will replace it with NA, so we need to add those data back
+      left_join(L101.inNBS_Mtce_province_S_F %>% rename(org = value),
+                by = c("province", "fuel", "sector", "year")) %>%
+      mutate(value = replace(value, is.na(value), org[is.na(value)])) %>%
+      select(-org) ->
       L101.inNBS_Mtce_province_S_F
 
     # Make adjustments to  Tibet (XZ) which is mostly unrepresented in the CESY
@@ -107,7 +117,10 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
 
     L101.NBS_use_all_Mtce %>%
       filter(province != "XZ") %>%
-      bind_rows(L101.inNBS_Mtce_tibet_S_F) ->
+      bind_rows(L101.inNBS_Mtce_tibet_S_F) %>%
+      complete(year=HISTORICAL_YEARS,nesting(province, EBProcess, EBMaterial, sector, fuel)) %>%
+      #In the test, if the first data is NA, it will be considered that the type of the entire column is a character, and a type error occurs.
+      arrange(desc(year))->
       L101.NBS_use_all_Mtce
 
     L101.inNBS_Mtce_tibet_S_F %>%
@@ -119,7 +132,8 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
 
     L101.inNBS_Mtce_province_S_F %>%
       filter(province != "XZ") %>%
-      bind_rows(L101.inNBS_Mtce_tibet_S_F) ->
+      bind_rows(L101.inNBS_Mtce_tibet_S_F) %>%
+      complete(nesting(province, sector, fuel), year = c(HISTORICAL_YEARS))  ->
       L101.inNBS_Mtce_province_S_F
 
     # Produce outputs
@@ -134,7 +148,7 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
                      "gcam-china/en_balance_Mtce_Yh_province",
                      "gcam-china/Tibet_share",
                      "gcam-china/tibet_shares_mappings") %>%
-      add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR)->
+      add_flags(FLAG_PROTECT_FLOAT, FLAG_SUM_TEST) ->
       L101.NBS_use_all_Mtce
 
     L101.inNBS_Mtce_province_S_F %>%
@@ -148,7 +162,7 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
                      "gcam-china/en_balance_Mtce_Yh_province",
                      "gcam-china/Tibet_share",
                      "gcam-china/tibet_shares_mappings") %>%
-      add_flags(FLAG_LONG_YEAR_FORM, FLAG_NO_XYEAR)->
+      add_flags(FLAG_PROTECT_FLOAT, FLAG_SUM_TEST) ->
       L101.inNBS_Mtce_province_S_F
 
     return_data(L101.NBS_use_all_Mtce, L101.inNBS_Mtce_province_S_F)
