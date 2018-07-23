@@ -24,5 +24,5 @@ Compute capacity factors for wind by China province.
 Computes capacity factors for wind by US state.
 }
 \author{
-ST September 2017
+Liu July 2018
 }
