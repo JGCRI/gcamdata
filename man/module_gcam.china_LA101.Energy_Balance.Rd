@@ -18,10 +18,12 @@ the generated outputs: \code{L101.NBS_use_all_Mtce}, \code{L101.inNBS_Mtce_provi
 original data system was \code{LA101.Energy_Balance.R} (gcam-china level1).
 }
 \description{
-Briefly describe what this chunk does.
+This chunk generates the historical energy data by province
 }
 \details{
-See above
+This chunk processes historical energy data by province, interpolate missinge value
+and then estimates of Tibet shares of energy use by sector.  A rough estimate to give scale
+Tibet accounts for 1% of the national energy
 }
 \author{
 Yang July 2018
