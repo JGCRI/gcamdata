@@ -13,7 +13,6 @@
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
 #' @author Liu July 2018
-#' @export
 module_gcam.china_LA119.Solar <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "gcam-china/solar_csp_pv_capacityfactor",
