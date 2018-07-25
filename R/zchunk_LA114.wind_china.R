@@ -13,7 +13,6 @@
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
 #' @author Liu July 2018
-#' @export
 module_gcam.china_LA114.Wind <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c( FILE = "gcam-china/wind_potential_province",
