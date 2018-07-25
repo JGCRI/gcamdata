@@ -36,12 +36,12 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
   all_data <- list(...)[[1]]
 
     # Load required inputs
-	  province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
-    NBS_CESY_process <- get_data(all_data, "gcam-china/NBS_CESY_process")
-    NBS_CESY_material <- get_data(all_data, "gcam-china/NBS_CESY_material")
-    en_balance_Mtce_Yh_province <- get_data(all_data, "gcam-china/en_balance_Mtce_Yh_province")
-    Tibet_share  <- get_data(all_data, "gcam-china/Tibet_share")
-    tibet_shares_mappings <- get_data(all_data, "gcam-china/tibet_shares_mappings")
+     province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
+     NBS_CESY_process <- get_data(all_data, "gcam-china/NBS_CESY_process")
+     NBS_CESY_material <- get_data(all_data, "gcam-china/NBS_CESY_material")
+     en_balance_Mtce_Yh_province <- get_data(all_data, "gcam-china/en_balance_Mtce_Yh_province")
+     Tibet_share  <- get_data(all_data, "gcam-china/Tibet_share")
+     tibet_shares_mappings <- get_data(all_data, "gcam-china/tibet_shares_mappings")
 
     # Perform computations
     # Removing the whole China category, and matching in inteediate fuel and sector names
@@ -135,7 +135,8 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
     L101.NBS_use_all_Mtce %>%
       add_title("NBS china energy statistical yearbook by sector / fuel / year") %>%
       add_units("Unit = Mtce") %>%
-      add_comments("historical years") %>%
+      add_comments("Missing values are interpolated if bounded and filled with the next closest value otherwise") %>%
+      add_comments("Make adjustments to  Tibet (XZ) and suppose tibet accounts for 1% of the national energy. ") %>%
       add_legacy_name("L101.NBS_use_all_Mtce") %>%
       add_precursors("gcam-china/province_names_mappings",
                      "gcam-china/NBS_CESY_process",
@@ -149,7 +150,8 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
     L101.inNBS_Mtce_province_S_F %>%
       add_title("NBS china energy statistical yearbook by GCAM sector / fuel / year") %>%
       add_units("Unit = Mtce") %>%
-      add_comments("historical years") %>%
+      add_comments("Missing values are interpolated if bounded and filled with the next closest value otherwise") %>%
+      add_comments("Make adjustments to  Tibet (XZ) and suppose tibet accounts for 1% of the national energy. ") %>%
       add_legacy_name("L101.inNBS_Mtce_province_S_F") %>%
       add_precursors("gcam-china/province_names_mappings",
                      "gcam-china/NBS_CESY_process",
