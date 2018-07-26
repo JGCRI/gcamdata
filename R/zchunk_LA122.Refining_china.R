@@ -216,7 +216,7 @@ module_gcam.china_LA122.Refining <- function(command, ...) {
                      "gcam-china/biofuel_MT_province_F",
                      "gcam-china/province_names_mappings") %>%
       # The difference is very small.
-      add_flags(FLAG_PROTECT_FLOAT) ->
+      add_flags(FLAG_PROTECT_FLOAT, FLAG_SUM_TEST) ->
       L122.out_EJ_province_refining_F
 
     return_data(L122.in_EJ_province_refining_F, L122.out_EJ_province_refining_F)
