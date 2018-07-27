@@ -15,12 +15,12 @@
 #' @author Yang Jul 2018
 module_gcam.china_LA132.Industry <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
-    return(c("gcam-china/L101.inNBS_Mtce_province_S_F",
-             "gcam-china/L101.NBS_use_all_Mtce",
-             "gcam-china/L122.in_EJ_province_refining_F",
+    return(c("L101.inNBS_Mtce_province_S_F",
+             "L101.NBS_use_all_Mtce",
+             "L122.in_EJ_province_refining_F",
              "L123.in_EJ_R_indchp_F_Yh",
              "L123.out_EJ_R_indchp_F_Yh",
-             "L1322.in_EJ_R_indenergy_F_Yh"£¬
+             "L1322.in_EJ_R_indenergy_F_Yh",
              "L1322.in_EJ_R_indfeed_F_Yh"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L132.in_EJ_province_indnochp_F",
@@ -36,7 +36,8 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
     all_data <- list(...)[[1]]
 
     # Load required inputs
-    L101.inEIA_EJ_province_S_F <- get_data(all_data, "L101.inEIA_EJ_province_S_F")
+    L101.inNBS_Mtce_province_S_F <- get_data(all_data, "L101.inNBS_Mtce_province_S_F")
+    L101.NBS_use_all_Mtce <- get_data(all_data, "L101.NBS_use_all_Mtce")
     L122.in_EJ_province_refining_F <- get_data(all_data, "L122.in_EJ_province_refining_F")
     L123.in_EJ_R_indchp_F_Yh <- get_data(all_data, "L123.in_EJ_R_indchp_F_Yh")
     L123.out_EJ_R_indchp_F_Yh <- get_data(all_data, "L123.out_EJ_R_indchp_F_Yh")
@@ -54,7 +55,7 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
       L132.in_EJ_province_refining_elecgas
 
     # Adjust industrial fuel consumption by removing refinery consumption computed above
-    L101.inEIA_EJ_province_S_F %>%
+    L101.inNBS_Mtce_province_S_F %>%
       filter(sector == "industry", fuel %in% c("electricity", "gas")) %>%
       left_join_error_no_match(L132.in_EJ_province_refining_elecgas, by = c("province", "fuel", "year")) %>%
       mutate(value = value - refinery_comsumption,
@@ -63,9 +64,9 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
       L132.in_EJ_province_ind_elecgas_adj
 
     # Bind above with other fuels considered in GCAM's "industrial energy use" sector
-    L101.inEIA_EJ_province_S_F %>%
+    L101.inNBS_Mtce_province_S_F %>%
       filter(sector == "industry",
-             fuel %in% gcam.IND_ENERGY_USE,
+             fuel %in% L1322.in_EJ_R_indenergy_F_Yh$fuel,
              fuel != "gas") %>%
       bind_rows(L132.in_EJ_province_ind_elecgas_adj) ->
       L132.in_EJ_province_indenergy_F_unscaled
@@ -83,7 +84,7 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
     L132.in_pct_province_ind_F %>%
       mutate(sector = "industry_energy") %>% rename(multiplier = value) %>%
       # ^^ prepare for smooth join
-      left_join_error_no_match(filter(L1322.in_EJ_R_indenergy_F_Yh, GCAM_region_ID == gcam.china_CODE),
+      left_join_error_no_match(filter(L1322.in_EJ_R_indenergy_F_Yh, GCAM_region_ID == 11),
                                by = c("fuel", "year", "sector")) %>%
       mutate(value = value *  multiplier) %>%
       select(-multiplier, -GCAM_region_ID) ->
@@ -95,7 +96,7 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
       # ^^ remove fuels that are inputs to cogen systems, i.e., not electricity
       mutate(sector = "chp_elec") %>% rename(multiplier = value) %>%
       # ^^ prepare for smooth join
-      left_join_error_no_match(filter(L123.in_EJ_R_indchp_F_Yh, GCAM_region_ID == gcam.china_CODE),
+      left_join_error_no_match(filter(L123.in_EJ_R_indchp_F_Yh, GCAM_region_ID == 11),
                                by = c("fuel", "year", "sector")) %>%
       mutate(value = value * multiplier) %>%
       select(-multiplier, -GCAM_region_ID) ->
@@ -106,7 +107,7 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
       filter(fuel %in% gcam.IND_ENERGY_USE) %>%
       mutate(sector = "chp_elec") %>% rename(multiplier = value) %>%
       # ^^ prepare for smooth join
-      left_join_error_no_match(filter(L123.out_EJ_R_indchp_F_Yh, GCAM_region_ID == gcam.china_CODE),
+      left_join_error_no_match(filter(L123.out_EJ_R_indchp_F_Yh, GCAM_region_ID == 11),
                                by = c("fuel", "year", "sector")) %>%
       mutate(value = value * multiplier) %>%
       select(-multiplier, -GCAM_region_ID) ->
@@ -119,7 +120,7 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
     # ... gas fuels are apportioned by petchem feed only.
 
     # Compute petroleum feedstocks by province (as proportion of china total)
-    L101.inEIA_EJ_province_S_F %>%
+    L101.inNBS_Mtce_province_S_F %>%
       filter(sector == "industry",
              fuel %in% c("refined liquids (const feed)", "refined liquids (petchem feed)")) %>%
       group_by(province, sector, year) %>% summarise(value = sum(value)) %>% ungroup %>%
@@ -132,7 +133,7 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
 
     # Compute natural gas feedstocks by province (as proportion of china total)
     # Note: assumes petrochemical feedstocks as basis for disaggregating natural gas feedstocks to provinces
-    L101.inEIA_EJ_province_S_F %>%
+    L101.inNBS_Mtce_province_S_F %>%
       filter(sector == "industry",
              fuel == "refined liquids (petchem feed)") %>%
       mutate(sector = "industry_feedstocks", fuel = "gas") %>%
@@ -154,7 +155,7 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
     L132.pct_province_indfeed_F %>%
       rename(multiplier = value) %>%
       # ^^ prepare for smooth join
-      left_join_error_no_match(filter(L1322.in_EJ_R_indfeed_F_Yh, GCAM_region_ID == gcam.china_CODE),
+      left_join_error_no_match(filter(L1322.in_EJ_R_indfeed_F_Yh, GCAM_region_ID == 11),
                                by = c("sector", "fuel", "year")) %>%
       mutate(value = value * multiplier) %>%
       # ^^ get province portions
