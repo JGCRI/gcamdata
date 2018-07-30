@@ -64,12 +64,12 @@ module_gcam.china_LA114.Wind <- function(command, ...) {
     # Get fixed charge rate of capital for wind
     filter(A23.globaltech_capital, technology == "wind")$fixed.charge.rate -> FixedChargeRate
 
-    # Get the base cost by province in the correct units (from 2007$/kWh to 1975$/GJ)
-    # Calculate the capacity factor for the base wind turbine in each province
     wind_potential_province %>%
       mutate(sector = "electricity generation",
              fuel = "wind",
+             # Get the base cost by province in the correct units (from 2007$/kWh to 1975$/GJ)
              base.cost = base.cost * gdp_deflator(1975, 2007) / CONV_KWH_GJ,
+             # Calculate the capacity factor for the base wind turbine in each province
              capacity.factor = (CapCost * FixedChargeRate + OMFixedCost) /
                (CONV_KWH_GJ * CONV_YEAR_HOURS) / (base.cost - (OMVarCost / (1000 * CONV_KWH_GJ)))) %>%
       select(province.name, sector, fuel, capacity.factor) %>%
@@ -82,7 +82,7 @@ module_gcam.china_LA114.Wind <- function(command, ...) {
     # 3.Produce outputs
     L114.CapacityFactor_wind_province %>%
       add_title("Capacity factor for wind by province") %>%
-      add_units("units") %>%
+      add_units("Unitless") %>%
       add_comments("Computed from A23 tables for capital, variable and fixed wind costs") %>%
       add_legacy_name("L114.CapacityFactor_wind_province") %>%
       add_precursors("gcam-china/wind_potential_province",
