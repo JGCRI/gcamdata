@@ -8,7 +8,7 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L114.CapacityFactor_wind_province}. The corresponding file in the
 #' original data system was \code{LA114.Wind.R} (gcam-usa level1).
-#' @details Computes capacity factors for wind by US state.
+#' @details Computed from A23 tables for capital, variable and fixed wind costs by province.
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
@@ -46,17 +46,16 @@ module_gcam.china_LA114.Wind <- function(command, ...) {
     # ... redundant whilst gcamusa.WIND_BASE_COST_YEAR = 2005, ...
     # ... since 2005 is an existing data point in all A23 tables.
     filter_gather_interp_get_cost <- function(x) {
-      . <- NULL  # silence package check notes
       x %>% filter(technology == "wind") %>%
         gather_years %>%
         select(year, value) %>%
         complete(year = c(year, gcamchina.WIND_BASE_COST_YEAR)) %>%
-        mutate(value = approx_fun(year, value, rule = 2)) %>%
+        mutate(value = approx_fun(year, value, rule = 1)) %>%
         filter(year == gcamchina.WIND_BASE_COST_YEAR) %>%
         pull(value)
     }
 
-    #Extract the costs. These are in 1975$
+    # Extract the costs. These are in 1975$
     A23.globaltech_capital %>% filter_gather_interp_get_cost -> CapCost
     A23.globaltech_OMfixed %>% filter_gather_interp_get_cost -> OMFixedCost
     A23.globaltech_OMvar %>% filter_gather_interp_get_cost -> OMVarCost
@@ -65,8 +64,8 @@ module_gcam.china_LA114.Wind <- function(command, ...) {
     # Get fixed charge rate of capital for wind
     filter(A23.globaltech_capital, technology == "wind")$fixed.charge.rate -> FixedChargeRate
 
-    #Get the base cost by province in the correct units (from 2007$/kWh to 1975$/GJ)
-    #Calculate the capacity factor for the base wind turbine in each province
+    # Get the base cost by province in the correct units (from 2007$/kWh to 1975$/GJ)
+    # Calculate the capacity factor for the base wind turbine in each province
     wind_potential_province %>%
       mutate(sector = "electricity generation",
              fuel = "wind",
@@ -74,7 +73,7 @@ module_gcam.china_LA114.Wind <- function(command, ...) {
              capacity.factor = (CapCost * FixedChargeRate + OMFixedCost) /
                (CONV_KWH_GJ * CONV_YEAR_HOURS) / (base.cost - (OMVarCost / (1000 * CONV_KWH_GJ)))) %>%
       select(province.name, sector, fuel, capacity.factor) %>%
-      #Level 0 has Taiwan, province_names_mappings doesn't, Level 1 in old data system doesn't, so Taiwan was dropped here.
+      # Taiwan is not included in the output, drop it here to avoid NAs and to use the map_province_name function.
       filter(province.name != "Taiwan") %>%
       map_province_name(province_names_mappings, "province", TRUE) ->
       L114.CapacityFactor_wind_province
@@ -82,10 +81,9 @@ module_gcam.china_LA114.Wind <- function(command, ...) {
     # -----------------------------------------------------------------------------
     # 3.Produce outputs
     L114.CapacityFactor_wind_province %>%
-      add_title("descriptive title of data") %>%
+      add_title("Capacity factor for wind by province") %>%
       add_units("units") %>%
-      add_comments("comments describing how data generated") %>%
-      add_comments("can be multiple lines") %>%
+      add_comments("Computed from A23 tables for capital, variable and fixed wind costs") %>%
       add_legacy_name("L114.CapacityFactor_wind_province") %>%
       add_precursors("gcam-china/wind_potential_province",
                      "gcam-china/province_names_mappings",

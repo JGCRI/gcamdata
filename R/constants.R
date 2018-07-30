@@ -628,7 +628,7 @@ gcamusa.DIGITS_TRNUSA_DEFAULT     <- 1    # Reduce rounding in detailed USA tran
 
 # GCAM-CHINA constants ======================================================================
 
-# GCAM-USA time
+# GCAM-CHINA time
 gcamchina.WIND_BASE_COST_YEAR <- 2005
 
 # Time shift conditions ======================================================================
