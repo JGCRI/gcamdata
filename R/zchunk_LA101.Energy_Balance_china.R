@@ -44,7 +44,7 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
      tibet_shares_mappings <- get_data(all_data, "gcam-china/tibet_shares_mappings")
 
     # Perform computations
-    # Removing the whole China category, and matching in inteediate fuel and sector names
+    # Removing the whole China category, and matching in intermediate fuel and sector names
     # The energy balance calls Tibet by it's alternative name Xizang, we will need to switch
     # it for the mappings to work
 
@@ -68,7 +68,7 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
       L101.inNBS_Mtce_province_S_F
 
 
-    # Interpolate missinge values where possible (rule=1)
+    # Interpolate missing values where possible (rule=1)
     L101.NBS_use_all_Mtce %>%
       complete(nesting(province, EBProcess, EBMaterial, fuel, sector), year = HISTORICAL_YEARS) %>%
       arrange(province, year) %>%
@@ -109,7 +109,7 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
 
     Tibet_share %>%
       left_join(tibet_shares_mappings, by = c("xz.sector", "xz.fuel")) %>%
-      # TODO: we are removing biomass since all the other provinces do not have it
+      # We are removing biomass since all the other provinces do not have it
       filter(!grepl('biomass', fuel)) %>%
       select(-xz.sector, -xz.fuel) %>%
       repeat_add_columns(tibble(year = HISTORICAL_YEARS)) %>%
