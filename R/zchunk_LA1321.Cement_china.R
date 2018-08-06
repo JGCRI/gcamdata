@@ -29,7 +29,7 @@ module_gcam.china_LA1321.Cement <- function(command, ...) {
 
     all_data <- list(...)[[1]]
 
-    . <- NULL   # silence package check notes
+    sector <- fuel <- province <- multiplier <- GCAM_region_ID <- year <- value <- NULL   # silence package check notes
 
     # Load required inputs
     L1321.out_Mt_R_cement_Yh <- get_data(all_data, "L1321.out_Mt_R_cement_Yh")

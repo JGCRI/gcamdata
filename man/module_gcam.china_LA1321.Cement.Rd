@@ -28,5 +28,5 @@ The state shares were determined by the states' relative values of cement shipme
 The input-out coefficients were downscaled to the states in proportation to the national data.
 }
 \author{
-AS May 2017
+Yang Aug 2018
 }
