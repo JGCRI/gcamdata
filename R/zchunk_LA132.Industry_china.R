@@ -50,7 +50,7 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
 
     # Aggregate all refining fuel consumption for electricity and gas by province
     # TODO: skipping province industrial refining energy use for now due to units issues
-    if(1==2) {
+    if(1 == 2) {
       #Electricity and gas inputs to refineries are now deducted from industry.
       #Subset industrial energy use from whole-US table
     L122.in_EJ_province_refining_F %>%
@@ -67,7 +67,7 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
       left_join_error_no_match(L132.in_EJ_province_refining_elecgas, by = c("province", "fuel", "year")) %>%
       #Replace any negative values with zeroes
       mutate(value = value - refinery_comsumption,
-             value = replace(value, value <0, 0)) %>%
+             value = replace(value, value < 0, 0)) %>%
       select(-refinery_comsumption) ->
       L132.in_EJ_province_ind_elecgas_adj
     }
