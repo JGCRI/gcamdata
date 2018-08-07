@@ -69,23 +69,13 @@ module_gcam.china_LA122.Refining <- function(command, ...) {
 
     # Inputs to crude oil refining - same method of portional allocations, but with multiple fuels
     # Oil refining input fuels
-    L122.in_EJ_R_refining_F_Yh %>%
-      filter(sector == "oil refining") %>%
-      select(fuel) %>%
-      distinct() ->
-      oil_input_fuels
-
-    # Repeat province proportions for all fuels in oil refining sector
-    L122.pct_province_cor %>%
-      select(-fuel) %>%
-      repeat_add_columns(oil_input_fuels) ->
-      L122.pct_province_cor_repF
-
     # Calculate province oil input values
-    L122.pct_province_cor_repF %>%
-      left_join_error_no_match(filter(L122.in_EJ_R_refining_F_Yh, GCAM_region_ID == 11), by = c("sector", "fuel", "year"))  %>%
+    L122.in_EJ_R_refining_F_Yh %>%
+      filter(GCAM_region_ID == 11) %>%
+      left_join(L122.pct_province_cor, by = c("sector", "year")) %>%
+      filter(!is.na(province)) %>%
       # province input value = province proportion * national input value
-      mutate(value = value.x * value.y) %>%
+      mutate(value = value.x * value.y, fuel = fuel.x) %>%
       select(province, sector, fuel, year, value) ->
       L122.in_EJ_province_cor_F
 
