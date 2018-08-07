@@ -42,34 +42,21 @@ module_gcam.china_LA1321.Cement <- function(command, ...) {
 
     # ===================================================
     # Assigning national cement production to provinces
-
     L101.inNBS_Mtce_province_S_F %>%
       filter(sector == "industry" & fuel == "coal") %>%
-      # Convert to province precentages
-      group_by(sector, fuel, year) %>%
-      summarise(sum = sum(value)) %>%
-      ungroup ->
-      Cement_sum
-
-    L101.inNBS_Mtce_province_S_F %>%
-      filter(sector == "industry" & fuel == "coal") %>%
-      # There is NAs in Cement_sum, so use left_join replace left_join_no_match_error.
-      left_join(Cement_sum,by = c("sector", "fuel", "year")) %>%
-      group_by(province, sector, fuel, year) %>%
-      mutate(multiplier = value / sum) %>%
+      group_by(year) %>%
+      mutate(multiplier = value /sum(value)) %>%
       ungroup %>%
-      group_by(province, fuel) %>%
+      group_by(province) %>%
       mutate(multiplier = approx_fun(year, multiplier, rule = 2), sector = "cement") %>%
       ungroup() %>%
-      select(-value,-sum, -fuel) ->
+      select(-value, -fuel) ->
       L1321.in_pct_province_cement
 
     # This section is calculating province-level data by multiplying the province share by the china component in the global data
     # This will generate an output table: Cement production by province / historical year
-    L1321.out_Mt_R_cement_Yh %>%
-      filter(GCAM_region_ID == 11) %>% # Filtering for the china component
-      repeat_add_columns(tibble(province = unique(L1321.in_pct_province_cement$province))) %>% # Expanding the table to the province-level
-      left_join_error_no_match(L1321.in_pct_province_cement, by = c("province", "year", "sector")) %>% # Adding the province share we calculated above
+    L1321.in_pct_province_cement %>%
+      left_join_error_no_match(L1321.out_Mt_R_cement_Yh %>% filter(GCAM_region_ID == 11), by = c("year", "sector")) %>%
       mutate(value = value * multiplier) %>% # Multiplying the national amount with the province share
       select(province, sector, year, value) ->
       L1321.out_Mt_province_cement_Yh
@@ -88,13 +75,8 @@ module_gcam.china_LA1321.Cement <- function(command, ...) {
     # Note that this assumes the same fuel blend in all states
     # This will generate an output table: Energy inputs to cement production by province / fuel / historical year
     L1321.in_pct_province_cement %>%
-      repeat_add_columns(tibble(fuel = unique(L1321.in_EJ_R_cement_F_Y$fuel))) ->
-      L1321.in_pct_province_cement
-
-    L1321.in_EJ_R_cement_F_Y %>%
-      filter(GCAM_region_ID == 11) %>%
-      repeat_add_columns(tibble(province = unique(L1321.in_pct_province_cement$province))) %>%
-      left_join_error_no_match(L1321.in_pct_province_cement, by = c("province", "year", "sector", "fuel")) %>%
+      repeat_add_columns(tibble(fuel = unique(L1321.in_EJ_R_cement_F_Y$fuel))) %>%
+      left_join_error_no_match(L1321.in_EJ_R_cement_F_Y %>% filter(GCAM_region_ID == 11), by = c("year", "sector", "fuel")) %>%
       mutate(value = multiplier * value) %>%
       select(province, sector, fuel, year, value) ->
       L1321.in_EJ_province_cement_F_Y
@@ -121,8 +103,8 @@ module_gcam.china_LA1321.Cement <- function(command, ...) {
     L1321.in_EJ_province_cement_F_Y %>%
       add_title("Energy inputs to cement production by province / fuel / historical year") %>%
       add_units("EJ/yr") %>%
-      add_comments("downscaling national data using state shares") %>%
-      add_comments("these state shares were calculated to be proportional to the their values of cement shipments") %>%
+      add_comments("downscaling national data using province shares") %>%
+      add_comments("these province shares were calculated to be proportional to the their values of cement shipments") %>%
       add_legacy_name("L1321.in_EJ_province_cement_F_Y") %>%
       add_precursors("L101.inNBS_Mtce_province_S_F", "L1321.in_EJ_R_cement_F_Y") %>%
       add_flags(FLAG_PROTECT_FLOAT) ->
