@@ -43,7 +43,7 @@ module_gcam.china_LA1322.Fert <- function(command, ...) {
 
     # Assigning national fertilizer production to provinces
     L101.NBS_use_all_Mtce %>%
-      filter(EBProcess == "Agriculture" & EBMaterial == "Coal Raw") %>%
+      filter(EBProcess == "Agriculture", EBMaterial == "Coal Raw") %>%
       # First zero out NAs in years where some values are NA but not all
       group_by(province, year) %>%
       mutate(value = replace(value, is.na(value) & sum(value, na.rm = T) != 0, 0)) %>%
@@ -59,40 +59,36 @@ module_gcam.china_LA1322.Fert <- function(command, ...) {
       left_join(L1322.in_Mtce_province_Fert %>% rename(org = value),
                 by = c("province", "fuel", "sector", "year", "EBProcess", "EBMaterial")) %>%
       group_by(sector, fuel, province) %>%
-      mutate(sum = sum(org, na.rm = T)) %>%
-      mutate(value = replace(value, is.na(value) & sum != 0, sum)) %>%
-      select(-org, -sum) %>%
+      # Only under the occasion when there is one data point in the group,
+      # approx_fun replaces the one value with NA.
+      # The original gcam_interp function replaces all missing values in that group with the one value when rule = 2.
+      mutate(value = replace(value, is.na(value) & sum(org[is.na(value)], na.rm = T) != 0,
+                             sum(org[is.na(value)], na.rm = T))) %>%
+      select(-org) %>%
       ungroup ->
       L1322.in_Mtce_province_Fert
 
     # Convert to province precentages
-    L1322.in_Mtce_province_Fert %>%
-      group_by(sector, fuel, year) %>%
-      summarise(sum = sum(value)) %>%
-      ungroup ->
-      Fert_sum
 
     L1322.in_Mtce_province_Fert %>%
-      left_join_error_no_match(Fert_sum,by = c("sector", "fuel", "year")) %>%
-      group_by(province, sector, fuel, year) %>%
-      mutate(multiplier = value / sum) %>%
+      group_by(sector, fuel, year) %>%
+      mutate(multiplier = value / sum(value)) %>%
       ungroup %>%
       group_by(province, fuel) %>%
       mutate(multiplier = approx_fun(year, multiplier, rule = 2), sector = "N fertilizer") %>%
       ungroup() %>%
-      select(-value,-sum, -EBProcess, -EBMaterial, -fuel) %>%
+      select(-value, -EBProcess, -EBMaterial, -fuel) %>%
       # Use the same shares for all fuels
       repeat_add_columns(tibble(fuel = unique(L1322.Fert_Prod_MtN_R_F_Y$fuel))) ->
       L1322.in_pct_province_Fert_repF
 
     # Approtion national production to provinces
-    L1322.Fert_Prod_MtN_R_F_Y %>%
-      filter(GCAM_region_ID == 11) %>%
-      repeat_add_columns(tibble(province = unique(L1322.in_pct_province_Fert_repF$province))) %>%
-      left_join_error_no_match(L1322.in_pct_province_Fert_repF, by = c("province", "fuel", "sector", "year")) %>% # Adding the province share we calculated above
+    L1322.in_pct_province_Fert_repF %>%
+      left_join_error_no_match(filter(L1322.Fert_Prod_MtN_R_F_Y, GCAM_region_ID == 11),by = c("fuel", "sector", "year")) %>%
       mutate(value = value * multiplier) %>% # Multiplying the national amount with the province share
       select(province, sector, year, value, fuel) ->
       L1322.out_Mt_province_Fert_Yh
+
 
     # Assuming all provinces have the same IO coefficients
       L1322.IO_R_Fert_F_Yh %>%
