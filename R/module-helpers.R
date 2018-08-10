@@ -668,3 +668,4 @@ map_province_name <- function(data, mapping, map_names, replace = FALSE) {
   }
   return(data[, new.names])
 }
+
