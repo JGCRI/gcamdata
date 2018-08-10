@@ -18,10 +18,10 @@ the generated outputs: \code{L119.CapFacScaler_PV_province}, \code{L119.CapFacSc
 original data system was \code{LA114.Solar.R} (gcam-china level1).
 }
 \description{
-Compute capacity factors for wind by province.
+Compute capacity factors for solar capacity factors by province.
 }
 \details{
-This chunk computes scalars by province to vary capacity factors for central station PV and CSP technologies by province.
+Computes solar capacity factor scalars for PV and CSP technologies by province, divided by the national average.
 }
 \author{
 Liu July 2018

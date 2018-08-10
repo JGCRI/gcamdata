@@ -33,6 +33,10 @@ module_gcam.china_LA119.Solar <- function(command, ...) {
 
     # -----------------------------------------------------------------------------
     # 2.perform computations
+    # Create scalers to scale capacity factors read in the assumptions file.
+    # These scalers will then be used to create capacity factors by province.
+    # The idea is to vary capacity factors for solar technologies by province depending on the varying solar irradiance by province.
+    # Create scalers by province by dividing capacity factor by the average.
     solar_csp_pv_capacityfactor %>%
       mutate(sector = "electricity generation",
              fuel = "solar PV",
