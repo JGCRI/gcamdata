@@ -39,7 +39,7 @@ module_gcam.china_LA122.Refining <- function(command, ...) {
 
     # ===================================================
     # CRUDE OIL REFINING
-    # NOTE: using CESYc crude oil input to refineries as basis for allocation of crude oil refining to provinces
+    # NOTE: using CESY crude oil input to refineries as basis for allocation of crude oil refining to provinces
     # Crude oil consumption by industry is the energy used at refineries (input - output)
 
     # Calculate the percentages of oil consumption in each province
@@ -91,7 +91,7 @@ module_gcam.china_LA122.Refining <- function(command, ...) {
       mutate(value = as.numeric(value), value = approx_fun(year, value, rule = 1)) %>%
       ungroup() %>%
       mutate(fuel = 'corn', sector = "corn ethanol") %>%
-      # ensure all provinces are in the data.frame even thugh they will just be NA
+      # ensure all provinces are in the data.frame even though they will just be NA
       complete(sector, fuel, province = province_names_mappings$province, year = HISTORICAL_YEARS) %>%
       group_by(year) %>%
       mutate(value = value / sum(value, na.rm = T)) %>%
@@ -120,7 +120,7 @@ module_gcam.china_LA122.Refining <- function(command, ...) {
       L122.in_EJ_province_btle_F
 
     # Biodiesel output by province
-    # NOTE: SEDS does not cover biodiesel; using a separate EIA database for disaggregating this to provinces
+    # Note: CESY does not cover biodiesel, using a separate APEC dataset for disaggregating this into provinces.
 
     # Build table of percentages by historical year
     biofuel_MT_province_F %>%
@@ -151,12 +151,10 @@ module_gcam.china_LA122.Refining <- function(command, ...) {
 
     # Biodiesel inputs by province and fuel
     # Biodiesel input fuels
-    L122.in_EJ_R_refining_F_Yh %>%
-      filter(GCAM_region_ID == 11) %>%
-      left_join(L122.pct_province_btlbd, by = c("sector", "year")) %>%
-      filter(!is.na(province)) %>%
-      # province input value = province proportion * national input value
-      mutate(value = value.x * value.y, fuel = fuel.x) %>%
+    L122.pct_province_btlbd %>%
+      left_join(filter(L122.in_EJ_R_refining_F_Yh, GCAM_region_ID == 11), by = c("sector", "year")) %>%
+      # province output value = province proportion * national input value
+      mutate(value = value.x * value.y, fuel = fuel.y) %>%
       select(province, sector, fuel, year, value) ->
       L122.in_EJ_province_btlbd_F
 
