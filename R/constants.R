@@ -626,10 +626,18 @@ gcamuse.DIGITS_DEPRESOURCE        <- 1
 gcamusa.EFFICIENCY_PARTITION_YEAR <- 2005
 gcamusa.DIGITS_TRNUSA_DEFAULT     <- 1    # Reduce rounding in detailed USA transport for compatability with model
 
+<<<<<<< HEAD
 # GCAM-CHINA constants ======================================================================
 
 # GCAM-CHINA time
 gcamchina.WIND_BASE_COST_YEAR <- 2005
+=======
+# GCAM-China constants ======================================================================
+
+# Assumption about the total national share of energy that belongs to Tibet as it is
+# not explicitly included in the national energy balance
+gcamchina.TIBET_NATIONAL_ENERGY_SHARE <- 0.01
+>>>>>>> refs/remotes/origin/gcamdata-China-v1.0
 
 # Time shift conditions ======================================================================
 # Uncomment these lines to run under 'timeshift' conditions
