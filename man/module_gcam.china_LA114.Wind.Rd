@@ -15,13 +15,13 @@ module_gcam.china_LA114.Wind(command, ...)
 Depends on \code{command}: either a vector of required inputs,
 a vector of output names, or (if \code{command} is "MAKE") all
 the generated outputs: \code{L114.CapacityFactor_wind_province}. The corresponding file in the
-original data system was \code{LA114.Wind.R} (gcam-usa level1).
+original data system was \code{LA114.Wind.R} (gcam-china level1).
 }
 \description{
 Compute capacity factors for wind by China province.
 }
 \details{
-Computes capacity factors for wind by US state.
+Computed from A23 tables for capital, variable and fixed wind costs by province.
 }
 \author{
 Liu July 2018

@@ -7,7 +7,7 @@
 #' @return Depends on \code{command}: either a vector of required inputs,
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L114.CapacityFactor_wind_province}. The corresponding file in the
-#' original data system was \code{LA114.Wind.R} (gcam-usa level1).
+#' original data system was \code{LA114.Wind.R} (gcam-china level1).
 #' @details Computed from A23 tables for capital, variable and fixed wind costs by province.
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
@@ -43,7 +43,7 @@ module_gcam.china_LA114.Wind <- function(command, ...) {
 
     # This function filters A23 tables for wind, then gathers and interpolates...
     # ... to get a single value for wind base cost year. Note that the interpolation is...
-    # ... redundant whilst gcamusa.WIND_BASE_COST_YEAR = 2005, ...
+    # ... redundant whilst gcamchina.WIND_BASE_COST_YEAR = 2005, ...
     # ... since 2005 is an existing data point in all A23 tables.
     filter_gather_interp_get_cost <- function(x) {
       x %>% filter(technology == "wind") %>%
@@ -67,7 +67,7 @@ module_gcam.china_LA114.Wind <- function(command, ...) {
     wind_potential_province %>%
       mutate(sector = "electricity generation",
              fuel = "wind",
-             # Get the base cost by province in the correct units (from 2007$/kWh to 1975$/GJ)
+             # capacity factor computed dividing sum of capital and fixed costs (converted to 1975$/GJ) by base cost minus variable cost (converted to 1975$/GJ)
              base.cost = base.cost * gdp_deflator(1975, 2007) / CONV_KWH_GJ,
              # Calculate the capacity factor for the base wind turbine in each province
              capacity.factor = (CapCost * FixedChargeRate + OMFixedCost) /
