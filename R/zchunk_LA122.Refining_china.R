@@ -111,11 +111,12 @@ module_gcam.china_LA122.Refining <- function(command, ...) {
     # Corn ethanol inputs by province and fuel: Repeat percentage-wise table by number of fuel inputs
     # Corn ethanol input fuels
      L122.pct_province_btle %>%
-      left_join_error_no_match(filter(L122.in_EJ_R_refining_F_Yh, GCAM_region_ID == 11),
-                               by = c("sector", "fuel", "year")) %>%
+       # Join in multiple fuels, number of rows increases
+       left_join(filter(L122.in_EJ_R_refining_F_Yh, GCAM_region_ID == 11),
+                by = c("sector", "year")) %>%
       # province input value = province proportion * national input value
       mutate(value = value.x * value.y) %>%
-      select(province, sector, fuel, year, value) ->
+      select(province, sector, fuel = fuel.y, year, value) ->
       L122.in_EJ_province_btle_F
 
     # Biodiesel output by province
@@ -188,7 +189,7 @@ module_gcam.china_LA122.Refining <- function(command, ...) {
                      "L122.out_EJ_R_refining_F_Yh",
                      "gcam-china/biofuel_MT_province_F",
                      "gcam-china/province_names_mappings") %>%
-      add_flags(FLAG_PROTECT_FLOAT) ->
+      add_flags(FLAG_PROTECT_FLOAT, FLAG_SUM_TEST) ->
       L122.out_EJ_province_refining_F
 
     return_data(L122.in_EJ_province_refining_F, L122.out_EJ_province_refining_F)
