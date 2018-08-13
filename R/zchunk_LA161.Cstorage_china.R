@@ -115,7 +115,7 @@ module_gcam.china_LA161.Cstorage <- function(command, ...) {
       add_comments("Cumulative MtC calculated by grid region, then filtered to quartiles") %>%
       add_legacy_name("L161.Cstorage_province") %>%
       add_precursors("gcam-china/province_names_mappings", "gcam-china/CCS_provincial_data", "gcam-china/unallocated_CStorage_province","gcam-china/CCS_provincial_data_add") %>%
-      add_flags(FLAG_PROTECT_FLOAT, FLAG_SUM_TEST) ->
+      add_flags(FLAG_PROTECT_FLOAT) ->
       L161.Cstorage_province
 
     return_data(L161.Cstorage_province)
