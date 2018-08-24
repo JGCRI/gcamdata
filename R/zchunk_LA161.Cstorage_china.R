@@ -58,24 +58,22 @@ module_gcam.china_LA161.Cstorage <- function(command, ...) {
       # use "type=1" to indicate that we want to return only exact matches to the data in the table.
       # only take the (0, 0.2, 0.4, 0.6, 0.8, 1) points in the quartiles
       filter(Cumul_MtC %in% quantile(Cumul_MtC, c(0, 0.2, 0.4, 0.6, 0.8, 1), type = 1)) %>%
-      group_by(province.name) %>%
-      mutate(# this will create grade equal to grade 1 for 0, grade 2 for 0.2, etc.
-             grade = paste("grade",1:6, sep = " "),
-             # from the cumulative totals, return to the marginal quantities associated with each grade
-             MtC = Cumul_MtC- lag(Cumul_MtC,1,0)) %>%
+      # this will create grade equal to grade 1 for 0, grade 2 for 0.2, etc.
+      # from the cumulative totals, return to the marginal quantities associated with each grade
+      mutate(grade = paste("grade", 1:6, sep = " "),
+             MtC = Cumul_MtC - lag(Cumul_MtC, 1, 0)) %>%
       ungroup %>%
       # Return from the list to a data frame with all necessary data
       select(province.name, grade, Cost_1990USDtC, MtC) %>%
       # Add cost grades to provinces without data
       bind_rows(CCS_China_add) %>%
-      mutate(# Setting a minimum cost of 0 on CO2 storage and transport projects
-             Cost_1990USDtC = pmax(Cost_1990USDtC, 0))
-
-    # Manually changing cost curves to avoid grades 2 or 3 being 0. Value determined by linear interpolation. If the data changes in the future, will need to change this
-    L161.Cstorage_province$Cost_1990USDtC[which(L161.Cstorage_province$province.name== "Jilin" & L161.Cstorage_province$grade== "grade 2")]    <- 4.625
-    L161.Cstorage_province$Cost_1990USDtC[which(L161.Cstorage_province$province.name== "Xinjiang" & L161.Cstorage_province$grade== "grade 2")] <- 4.3
-    L161.Cstorage_province$Cost_1990USDtC[which(L161.Cstorage_province$province.name== "Yunnan" & L161.Cstorage_province$grade== "grade 2")]   <- 5.74
-    L161.Cstorage_province$Cost_1990USDtC[which(L161.Cstorage_province$province.name== "Yunnan" & L161.Cstorage_province$grade== "grade 3")]   <- 11.48
+      # Setting a minimum cost of 0 on CO2 storage and transport projects
+      mutate(Cost_1990USDtC = pmax(Cost_1990USDtC, 0)) %>%
+      # Manually changing cost curves to avoid grades 2 or 3 being 0. Value determined by linear interpolation. If the data changes in the future, will need to change this
+      mutate(Cost_1990USDtC = replace(Cost_1990USDtC, province.name == "Jilin" & grade == "grade 2", 4.625),
+             Cost_1990USDtC = replace(Cost_1990USDtC, province.name == "Xinjiang" & grade == "grade 2", 4.3),
+             Cost_1990USDtC = replace(Cost_1990USDtC, province.name == "Yunnan" & grade == "grade 2", 5.74),
+             Cost_1990USDtC = replace(Cost_1990USDtC, province.name == "Yunnan" & grade == "grade 3", 11.48))
 
     #Extending the plateau (bin 2) of the cost curve using additional resource data
     L161.Cstorage_province_g2 <- L161.Cstorage_province %>%
@@ -92,13 +90,13 @@ module_gcam.china_LA161.Cstorage <- function(command, ...) {
     L161.Cstorage_province_g2$add_storage[which(L161.Cstorage_province_g2$province.name=="Gansu")] <- 0
 
     L161.Cstorage_province_g2 %>%
-      transform(MtC=as.numeric(MtC)) %>%
+      transform(MtC = as.numeric(MtC)) %>%
       mutate(MtC = MtC + add_storage) %>%
       select(province.name, grade, Cost_1990USDtC, MtC) ->
       L161.Cstorage_province_g2
 
     L161.Cstorage_province %>%
-      filter(grade !="grade 2") %>%
+      filter(grade != "grade 2") %>%
       bind_rows(L161.Cstorage_province_g2) %>%
       mutate(province.name_0 = province.name) %>%
       arrange(province.name, grade) %>%
