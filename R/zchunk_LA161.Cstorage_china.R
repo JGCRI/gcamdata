@@ -25,13 +25,13 @@ module_gcam.china_LA161.Cstorage <- function(command, ...) {
   } else if(command == driver.MAKE) {
 
     # Silence package checks
-    province <- grid_region <- Cost_2005USDtCO2 <- CO2_Mt <- MtC <- Cumul_MtC <- quantile <-
-      grade <- Cost_1990USDtC <- NULL
+    province <- province.name <- grid_region <- Cost_2005USDtCO2 <- CO2_Mt <- MtC <- MtCO2 <- Cumul_MtC <- quantile <-
+      grade <- Cost_1990USDtC <- add_storage <- NULL
 
     all_data <- list(...)[[1]]
 
     # -----------------------------------------------------------------------------
-    # 1.Load required inputs
+    # 1.Load required inputsMtCO2
     province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
     Dooley_CCS_China        <- get_data(all_data, "gcam-china/CCS_provincial_data")
     CCS_China_add           <- get_data(all_data, "gcam-china/CCS_provincial_data_add")
@@ -39,22 +39,18 @@ module_gcam.china_LA161.Cstorage <- function(command, ...) {
 
     # -----------------------------------------------------------------------------
     # 2.perform computations
-    L161.Csupply_province <- Dooley_CCS_China %>%
+    Dooley_CCS_China %>%
       # Add grid.region
       left_join_error_no_match(province_names_mappings, by = "province.name") %>%
       # Convert prices to 1990 USD per ton C and amounts to C
       mutate(Cost_1990USDtC = Cost_2005USDtCO2 * emissions.CONV_C_CO2 / gdp_deflator(2005, 1990),
              MtC = CO2_Mt * (1 / emissions.CONV_C_CO2)) %>%
       arrange(province.name, Cost_2005USDtCO2) %>%
-    # Removing data for provinces with not enough onshore storage
-      filter(!(province.name %in% c("Fujian", "Guangdong", "Guangxi", "Qinghai")))
-
-    province_data <- L161.Csupply_province %>%
+      # Removing data for provinces with not enough onshore storage
+      filter(!(province.name %in% c("Fujian", "Guangdong", "Guangxi", "Qinghai"))) %>%
       group_by(province.name) %>%
       # Calculate cumulative sum, then filter to the quantiles
-      mutate(Cumul_MtC = cumsum(MtC))
-
-    L161.Cstorage_province <- province_data %>%
+      mutate(Cumul_MtC = cumsum(MtC)) %>%
       # use "type=1" to indicate that we want to return only exact matches to the data in the table.
       # only take the (0, 0.2, 0.4, 0.6, 0.8, 1) points in the quartiles
       filter(Cumul_MtC %in% quantile(Cumul_MtC, c(0, 0.2, 0.4, 0.6, 0.8, 1), type = 1)) %>%
@@ -73,35 +69,26 @@ module_gcam.china_LA161.Cstorage <- function(command, ...) {
       mutate(Cost_1990USDtC = replace(Cost_1990USDtC, province.name == "Jilin" & grade == "grade 2", 4.625),
              Cost_1990USDtC = replace(Cost_1990USDtC, province.name == "Xinjiang" & grade == "grade 2", 4.3),
              Cost_1990USDtC = replace(Cost_1990USDtC, province.name == "Yunnan" & grade == "grade 2", 5.74),
-             Cost_1990USDtC = replace(Cost_1990USDtC, province.name == "Yunnan" & grade == "grade 3", 11.48))
+             Cost_1990USDtC = replace(Cost_1990USDtC, province.name == "Yunnan" & grade == "grade 3", 11.48)) ->
+      L161.Cstorage_province
 
-    #Extending the plateau (bin 2) of the cost curve using additional resource data
-    L161.Cstorage_province_g2 <- L161.Cstorage_province %>%
-      filter(grade == "grade 2") ->
-      L161.Cstorage_province_g2
-
-    L161.Cstorage_province_g2 %>%
-      mutate(add_storage = left_join_error_no_match(L161.Cstorage_province_g2, Unallocated_CStorage, by = c("province.name" = "province.name"))$MtCO2,
-             #Convert to MtC for additional resource
-             add_storage = add_storage * (1 / emissions.CONV_C_CO2)) ->
-      L161.Cstorage_province_g2
-
-    #Gansu is a special case, we are not adding storage
-    L161.Cstorage_province_g2$add_storage[which(L161.Cstorage_province_g2$province.name=="Gansu")] <- 0
-
-    L161.Cstorage_province_g2 %>%
-      transform(MtC = as.numeric(MtC)) %>%
-      mutate(MtC = MtC + add_storage) %>%
+    # Extending the plateau (bin 2) of the cost curve using additional resource data
+    L161.Cstorage_province %>%
+      filter(grade == "grade 2") %>%
+      left_join_error_no_match(Unallocated_CStorage, by = "province.name") %>%
+      # Convert to MtC for additional resource
+      mutate(add_storage = MtCO2 * (1 / emissions.CONV_C_CO2),
+             # Gansu is a special case, we are not adding storage
+             add_storage = replace(add_storage, province.name == "Gansu", 0),
+             MtC = MtC + add_storage) %>%
       select(province.name, grade, Cost_1990USDtC, MtC) ->
       L161.Cstorage_province_g2
 
     L161.Cstorage_province %>%
       filter(grade != "grade 2") %>%
       bind_rows(L161.Cstorage_province_g2) %>%
-      mutate(province.name_0 = province.name) %>%
       arrange(province.name, grade) %>%
-      map_province_name(province_names_mappings, "province", TRUE) %>%
-      mutate(province.name = province.name_0) %>%
+      map_province_name(province_names_mappings, "province", FALSE) %>%
       select(province, province.name, grade, Cost_1990USDtC, MtC) ->
       L161.Cstorage_province
 
@@ -112,7 +99,10 @@ module_gcam.china_LA161.Cstorage <- function(command, ...) {
       add_units("MtC; 1990 USD per tC") %>%
       add_comments("Cumulative MtC calculated by grid region, then filtered to quartiles") %>%
       add_legacy_name("L161.Cstorage_province") %>%
-      add_precursors("gcam-china/province_names_mappings", "gcam-china/CCS_provincial_data", "gcam-china/unallocated_CStorage_province","gcam-china/CCS_provincial_data_add") %>%
+      add_precursors("gcam-china/province_names_mappings",
+                     "gcam-china/CCS_provincial_data",
+                     "gcam-china/unallocated_CStorage_province",
+                     "gcam-china/CCS_provincial_data_add") %>%
       add_flags(FLAG_PROTECT_FLOAT) ->
       L161.Cstorage_province
 
