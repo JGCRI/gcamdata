@@ -52,7 +52,7 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
     # TODO: skipping province industrial refining energy use for now due to units issues
     if(1 == 2) {
       #Electricity and gas inputs to refineries are now deducted from industry.
-      #Subset industrial energy use from whole-US table
+      #Subset industrial energy use from the China table
     L122.in_EJ_province_refining_F %>%
       filter(fuel %in% c("electricity", "gas")) %>%
       group_by(province, fuel, year) %>%
