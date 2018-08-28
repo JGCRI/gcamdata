@@ -638,3 +638,8 @@ gcamchina.TIBET_NATIONAL_ENERGY_SHARE <- 0.01
 # FUTURE_YEARS <- seq(2010, 2100, 5)  # normally seq(2015, 2100, 5)
 # BASE_YEARS <- c(1975, 1990, 2005)   # normally (1975, 1990, 2005, 2010)
 # MODEL_YEARS <- c(BASE_YEARS, FUTURE_YEARS)
+
+# GCAM-China provinces
+gcamchina.PROVINCES <- c("AH", "BJ", "CQ", "FJ", "GD", "GS", "GX", "GZ", "HA", "HB", "HE", "HI", "HL", "HN", "JL", "JS", "JX", "LN", "NM", "NX", "QH", "SC", "SD", "SH",
+                         "SN", "SX", "TJ", "XJ", "XZ", "YN", "ZJ")
+

@@ -74,7 +74,12 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
       arrange(province, year) %>%
       group_by(province, fuel, sector, EBProcess, EBMaterial) %>%
       mutate(value = as.numeric(value), value = approx_fun(year, value, rule = 1)) %>%
-      ungroup() ->
+      ungroup() %>%
+      # When there is one data point, approx_fun replaced it with NA, so we need to add those data back
+      left_join(L101.NBS_use_all_Mtce %>% rename(org = value),
+                by = c("province", "EBProcess", "EBMaterial", "fuel", "sector", "year")) %>%
+      mutate(value = replace(value, is.na(value), org[is.na(value)])) %>%
+      select(-org) ->
       L101.NBS_use_all_Mtce
 
     # Interpolate missinge values where possible (rule=1)
@@ -83,7 +88,12 @@ module_gcam.china_LA101.Energy_Balance <- function(command, ...) {
       arrange(province, year) %>%
       group_by(province, fuel, sector) %>%
       mutate(value = approx_fun(year, value, rule = 1)) %>%
-      ungroup() ->
+      ungroup() %>%
+      # When there is one data point, approx_fun replaced it with NA, so we need to add those data back
+      left_join(L101.inNBS_Mtce_province_S_F %>% rename(org = value),
+                by = c("province", "fuel", "sector", "year")) %>%
+      mutate(value = replace(value, is.na(value), org[is.na(value)])) %>%
+      select(-org) ->
       L101.inNBS_Mtce_province_S_F
 
     # Make adjustments to  Tibet (XZ) which is mostly unrepresented in the CESY
