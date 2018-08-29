@@ -50,9 +50,9 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
 
     # Aggregate all refining fuel consumption for electricity and gas by province
     # TODO: skipping province industrial refining energy use for now due to units issues
-    if(1==2) {
+    if(1 == 2) {
       #Electricity and gas inputs to refineries are now deducted from industry.
-      #Subset industrial energy use from whole-US table
+      #Subset industrial energy use from the China table
     L122.in_EJ_province_refining_F %>%
       filter(fuel %in% c("electricity", "gas")) %>%
       group_by(province, fuel, year) %>%
@@ -67,7 +67,7 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
       left_join_error_no_match(L132.in_EJ_province_refining_elecgas, by = c("province", "fuel", "year")) %>%
       #Replace any negative values with zeroes
       mutate(value = value - refinery_comsumption,
-             value = replace(value, value <0, 0)) %>%
+             value = replace(value, value < 0, 0)) %>%
       select(-refinery_comsumption) ->
       L132.in_EJ_province_ind_elecgas_adj
     }
@@ -85,14 +85,14 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
       filter(sector == "industry",
              fuel %in% unique(L1322.in_EJ_R_indenergy_F_Yh$fuel)) %>%
       bind_rows(L132.in_Mtce_province_indenergy_F_unscaled.bio) %>%
-      complete(nesting(sector,fuel),province, year = HISTORICAL_YEARS) %>%
+      complete(nesting(sector,fuel), province, year = HISTORICAL_YEARS) %>%
       group_by(province, year) %>%
       # First zero out NAs in years where some values are NA but not all
       mutate(value = replace(value, is.na(value) & sum(value, na.rm = T) != 0, 0)) %>%
       ungroup %>%
       # use approx_fun rule = 2 to fill out data in years where the entire province is NA
       group_by(province, sector, fuel) %>%
-      mutate( value = approx_fun(year, value, rule = 2), sum = NULL) %>%
+      mutate(value = approx_fun(year, value, rule = 2), sum = NULL) %>%
       ungroup() ->
       L132.in_Mtce_province_indenergy_F_unscaled
 
@@ -173,12 +173,15 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
       left_join(L132.in_Mtce_province_indfeed_F_unscaled %>% rename(org = value),
                 by = c("province", "fuel", "sector", "year")) %>%
       group_by(sector, fuel, province) %>%
-      mutate(sum =sum(org, na.rm = T)) %>%
-      mutate(value = replace(value, is.na(value) & sum != 0, sum)) %>%
-      select(-org, -sum) %>%
+      # Only under the occasion when there is one data point in the group,
+      # approx_fun replaces the one value with NA.
+      # The original gcam_interp function replaces all missing values in that group with the one value when rule = 2.
+      mutate(value = replace(value, is.na(value) & sum(org[is.na(value)], na.rm = T) != 0,
+                             sum(org[is.na(value)], na.rm = T))) %>%
+      select(-org) %>%
       ungroup %>%
       group_by(sector, fuel, year) %>%
-      mutate(multiplier = value / sum(value, na.rm =T), value = NULL) %>%
+      mutate(multiplier = value / sum(value, na.rm = T), value = NULL) %>%
       replace_na(list(multiplier = 0)) %>%
       ungroup ->
       L132.in_pct_province_indfeed_F
