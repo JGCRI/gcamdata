@@ -628,6 +628,9 @@ gcamusa.DIGITS_TRNUSA_DEFAULT     <- 1    # Reduce rounding in detailed USA tran
 
 # GCAM-China constants ======================================================================
 
+# GCAM-China time
+gcamchina.WIND_BASE_COST_YEAR <- 2005
+
 # Assumption about the total national share of energy that belongs to Tibet as it is
 # not explicitly included in the national energy balance
 gcamchina.TIBET_NATIONAL_ENERGY_SHARE <- 0.01
