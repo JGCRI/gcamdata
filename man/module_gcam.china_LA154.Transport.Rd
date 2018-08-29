@@ -26,5 +26,5 @@ Transportation energy data was downscaled in proportion to NBS province-level tr
 Transportation nonmotor data was downscaled in proportion to province population
 }
 \author{
-AJS June 2017
+Yang Aug 2018
 }
