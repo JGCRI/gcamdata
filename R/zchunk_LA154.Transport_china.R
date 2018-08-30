@@ -95,16 +95,6 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
         mutate(fuel_sector = paste(EBProcess, EBMaterial)) %>%
         full_join(L154.NBS_trn_share_province, by = c("EBProcess", "EBMaterial", "year")) %>%
         replace_na(list(value_share = 0)) %>%
-        mutate(value = NULL) ->
-        L154.pct_province_trn_m_sz_tech_F_Yh
-
-      # TODO: Tibet
-      #L154.pct_province_trn_m_sz_tech_F_Yh <- subset( L154.pct_province_trn_m_sz_tech_F_Yh, province != "XZ" )
-
-      #Now, the full CHINA tran UCD database can be apportioned to the provinces
-      # Creating the first of the three output tables
-      L154.pct_province_trn_m_sz_tech_F_Yh%>%
-        left_join_error_no_match(L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh, by = c("year", "UCD_sector", "mode", "size.class", "UCD_technology", "UCD_fuel","fuel")) %>%
         mutate(value = value * value_share) %>% # Allocating across the provinces
         select(province, UCD_sector, mode, size.class, UCD_technology, UCD_fuel, fuel, year, value) ->
         L154.in_EJ_province_trn_m_sz_tech_F
@@ -123,7 +113,7 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
       # Apportion non-motorized energy consumption to provinces on the basis of population
       # First we will create the province shares based on population
       L100.Pop_thous_province %>%
-        complete( province, year = c(1971:2100)) %>%
+        complete(province, year = c(1971:2100)) %>%
         group_by(province) %>%
         mutate(pop = approx_fun(year, pop, rule = 2)) %>%
         ungroup() %>%
