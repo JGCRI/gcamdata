@@ -33,20 +33,21 @@ module_gcam.china_LA161.Cstorage <- function(command, ...) {
     # -----------------------------------------------------------------------------
     # 1.Load required inputsMtCO2
     province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
-    Dooley_CCS_China        <- get_data(all_data, "gcam-china/CCS_provincial_data")
-    CCS_China_add           <- get_data(all_data, "gcam-china/CCS_provincial_data_add")
+    CCS_China_province      <- get_data(all_data, "gcam-china/CCS_provincial_data")
+    CCS_China_province_add  <- get_data(all_data, "gcam-china/CCS_provincial_data_add")
     Unallocated_CStorage    <- get_data(all_data, "gcam-china/unallocated_CStorage_province")
 
     # -----------------------------------------------------------------------------
     # 2.perform computations
-    Dooley_CCS_China %>%
+    CCS_China_province %>%
       # Add grid.region
       left_join_error_no_match(province_names_mappings, by = "province.name") %>%
-      # Convert prices to 1990 USD per ton C and amounts to C
+      # Convert transport and storage costs from 2005 USD per ton of CO2 to 1990 USD per ton of C
+      # Convert storage unit from Mt CO2 to Mt C
       mutate(Cost_1990USDtC = Cost_2005USDtCO2 * emissions.CONV_C_CO2 / gdp_deflator(2005, 1990),
              MtC = CO2_Mt * (1 / emissions.CONV_C_CO2)) %>%
       arrange(province.name, Cost_2005USDtCO2) %>%
-      # Removing data for provinces with not enough onshore storage
+      # Removing data for provinces without enough onshore storage
       filter(!(province.name %in% c("Fujian", "Guangdong", "Guangxi", "Qinghai"))) %>%
       group_by(province.name) %>%
       # Calculate cumulative sum, then filter to the quantiles
@@ -62,7 +63,8 @@ module_gcam.china_LA161.Cstorage <- function(command, ...) {
       # Return from the list to a data frame with all necessary data
       select(province.name, grade, Cost_1990USDtC, MtC) %>%
       # Add cost grades to provinces without data
-      bind_rows(CCS_China_add) %>%
+      # i.e. Fujian, Guangdong, Guangxi, Qinghai, Hainan, and Tibet
+      bind_rows(CCS_China_province_add) %>%
       # Setting a minimum cost of 0 on CO2 storage and transport projects
       mutate(Cost_1990USDtC = pmax(Cost_1990USDtC, 0)) %>%
       # Manually changing cost curves to avoid grades 2 or 3 being 0. Value determined by linear interpolation. If the data changes in the future, will need to change this
@@ -78,7 +80,7 @@ module_gcam.china_LA161.Cstorage <- function(command, ...) {
       left_join_error_no_match(Unallocated_CStorage, by = "province.name") %>%
       # Convert to MtC for additional resource
       mutate(add_storage = MtCO2 * (1 / emissions.CONV_C_CO2),
-             # Gansu is a special case, we are not adding storage
+             # Gansu is a special case, we are not adding storage, see the China-CCS paper.
              add_storage = replace(add_storage, province.name == "Gansu", 0),
              MtC = MtC + add_storage) %>%
       select(province.name, grade, Cost_1990USDtC, MtC) ->
@@ -97,7 +99,7 @@ module_gcam.china_LA161.Cstorage <- function(command, ...) {
     L161.Cstorage_province %>%
       add_title("CO2 storage curves by province and grade") %>%
       add_units("MtC; 1990 USD per tC") %>%
-      add_comments("Cumulative MtC calculated by grid region, then filtered to quartiles") %>%
+      add_comments("Cumulative MtC calculated by province, then filtered to quartiles") %>%
       add_legacy_name("L161.Cstorage_province") %>%
       add_precursors("gcam-china/province_names_mappings",
                      "gcam-china/CCS_provincial_data",

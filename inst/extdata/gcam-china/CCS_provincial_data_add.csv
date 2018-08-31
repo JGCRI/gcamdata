@@ -1,8 +1,8 @@
 # File: CCS_provincial_data_add.csv
-# Title: CO2 and Cost(1990USD) by province
-# Units: CO2-Mt,Cost-1990USD per t CO2
-# Description: cost grades of provinces without data
-# Source: LA161.Cstorage.R
+# Title: C and Cost(1990USD) by province
+# Units: C-Mt,Cost-1990USD per t C
+# Description: cost grades of provinces without data (Tibet and Hainan) or onshore storage (Fujian, Guangdong, Guangxi, and Qinghai)
+# Source: LA161.Cstorage.R in the old data system
 province.name,grade,Cost_1990USDtC,MtC
 Tibet,grade 1,0,0
 Tibet,grade 2,280,0
