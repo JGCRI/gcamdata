@@ -53,10 +53,22 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
         # Drops the years with zero value
         filter(value != 0) %>%
         # Filter for the china and for historical years only
-        filter(year %in% HISTORICAL_YEARS, GCAM_region_ID == 11) %>%
+        filter(year %in% HISTORICAL_YEARS, GCAM_region_ID == gcam.CHINA_CODE) %>%
         complete(nesting(GCAM_region_ID, UCD_sector, mode, size.class, UCD_technology, UCD_fuel, fuel), year = HISTORICAL_YEARS, fill = list(value = 0)) %>%
         # Fuel and mode will be mapped to NBS fuel and sector
         left_join_error_no_match(trnUCD_NBS_mapping, by = c("fuel", "mode")) ->
+        L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh
+
+      # To delate the confilct category caused by Hong Kong and macau
+      L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh %>%
+        mutate(size.class = replace(size.class, mode == "Bus" & size.class == "All","Light Bus")) %>%
+        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (0-2t)","Truck (0-6t)")) %>%
+        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (2-5t)","Truck (0-6t)")) %>%
+        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (5-9t)","Truck (6-14t)")) %>%
+        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (9-16t)","Truck (6-14t)")) %>%
+        group_by(GCAM_region_ID, UCD_sector, mode, size.class, UCD_fuel, UCD_technology, fuel, year, EBProcess, EBMaterial) %>%
+        summarise(value = sum(value)) %>%
+        ungroup ->
         L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh
 
 
@@ -125,7 +137,7 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
         # Now we can use these shares to allocate the national data across the provinces
         L154.out_mpkm_R_trn_nonmotor_Yh %>%
           rename(value_mode = value) %>%
-          filter(GCAM_region_ID == 11) %>%
+          filter(GCAM_region_ID == gcam.CHINA_CODE) %>%
           left_join(Pop_province_share, by = "year") %>%
           # Apportioning across the modes using the share data
           mutate(value = value_mode * value_share) %>%
