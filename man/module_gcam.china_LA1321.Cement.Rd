@@ -18,15 +18,15 @@ the generated outputs: \code{L1321.out_Mt_province_cement_Yh}, \code{L1321.IO_GJ
 original data system was \code{LA1321.Cement.R} (gcam-china level1).
 }
 \description{
-Allocate across the provinces national cement production, input-output cofficients, and energy inputs to cement production
+To calculate national cement production, energy inputs and Input-output coefficients to provinces
 }
 \details{
-The tables for cement production, i.e., out, and energy inputs, i.e., in, were calculated by applying state shares to national data.
+The tables for cement production, i.e., out, and energy inputs, i.e., in, were calculated by applying province shares to national data.
 
-The state shares were determined by the states' relative values of cement shipments.
+The province shares were determined by the provinces' relative values of cement shipments.
 
-The input-out coefficients were downscaled to the states in proportation to the national data.
+The input-out coefficients were downscaled to the provinces in proportion to the national data.
 }
 \author{
-Yang Aug 2018
+YangLiu Aug 2018
 }
