@@ -1,6 +1,6 @@
 #' module_gcam.china_LA1321.Cement
 #'
-#' Allocate across the provinces national cement production, input-output cofficients, and energy inputs to cement production
+#' To calculate national cement production, energy inputs and Input-output coefficients to provinces
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
@@ -8,13 +8,13 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L1321.out_Mt_province_cement_Yh}, \code{L1321.IO_GJkg_province_cement_F_Yh}, \code{L1321.in_EJ_province_cement_F_Y}. The corresponding file in the
 #' original data system was \code{LA1321.Cement.R} (gcam-china level1).
-#' @details The tables for cement production, i.e., out, and energy inputs, i.e., in, were calculated by applying state shares to national data.
-#' @details The state shares were determined by the states' relative values of cement shipments.
-#' @details The input-out coefficients were downscaled to the states in proportation to the national data.
+#' @details The tables for cement production, i.e., out, and energy inputs, i.e., in, were calculated by applying province shares to national data.
+#' @details The province shares were determined by the provinces' relative values of cement shipments.
+#' @details The input-out coefficients were downscaled to the provinces in proportion to the national data.
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
-#' @author Yang Aug 2018
+#' @author YangLiu Aug 2018
 module_gcam.china_LA1321.Cement <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c("L101.inNBS_Mtce_province_S_F",
@@ -36,8 +36,7 @@ module_gcam.china_LA1321.Cement <- function(command, ...) {
     L1321.IO_GJkg_R_cement_F_Yh <- get_data(all_data, "L1321.IO_GJkg_R_cement_F_Yh")
     L1321.in_EJ_R_cement_F_Y <- get_data(all_data, "L1321.in_EJ_R_cement_F_Y")
 
-    # Proxy for downscaling cement to provinces
-    # TODO: Find a better proxy
+    # Use industrial coal to downscale cement to provinces
     L101.inNBS_Mtce_province_S_F <- get_data(all_data, "L101.inNBS_Mtce_province_S_F")
 
     # ===================================================
@@ -45,38 +44,33 @@ module_gcam.china_LA1321.Cement <- function(command, ...) {
     L101.inNBS_Mtce_province_S_F %>%
       filter(sector == "industry" & fuel == "coal") %>%
       group_by(year) %>%
-      mutate(multiplier = value /sum(value)) %>%
-      ungroup %>%
+      mutate(multiplier = value / sum(value)) %>%
       group_by(province) %>%
       mutate(multiplier = approx_fun(year, multiplier, rule = 2), sector = "cement") %>%
       ungroup() %>%
       select(-value, -fuel) ->
       L1321.in_pct_province_cement
 
-    # This section is calculating province-level data by multiplying the province share by the china component in the global data
-    # This will generate an output table: Cement production by province / historical year
+    # To calculate province-level data by multiplying the province share by the china component in the global data
+    # To generate cement production by province / historical year
     L1321.in_pct_province_cement %>%
-      left_join_error_no_match(L1321.out_Mt_R_cement_Yh %>% filter(GCAM_region_ID == 11), by = c("year", "sector")) %>%
+      left_join_error_no_match(L1321.out_Mt_R_cement_Yh %>% filter(GCAM_region_ID == gcam.CHINA_CODE), by = c("year", "sector")) %>%
       mutate(value = value * multiplier) %>% # Multiplying the national amount with the province share
       select(province, sector, year, value) ->
       L1321.out_Mt_province_cement_Yh
 
-    # This section is downscaling the national input/output (IO) coefficients to the province level
-    # Assuming all provinces have the same IO coefficients for heat, electricity, and limestone
-    # This will generate an output table: Input-output coefficients of cement production by province / fuel / historical year
+    # To generate Input-output coefficients of cement production by province / fuel / historical year
     L1321.IO_GJkg_R_cement_F_Yh %>%
-      filter(GCAM_region_ID == 11) %>%
-      repeat_add_columns(tibble(province = unique( L1321.out_Mt_province_cement_Yh$province))) %>%
+      filter(GCAM_region_ID == gcam.CHINA_CODE) %>%
+      repeat_add_columns(tibble(province = unique(L1321.out_Mt_province_cement_Yh$province))) %>%
       select(province, sector, fuel, year, value) ->
       L1321.IO_GJkg_province_cement_F_Yh
 
-    # Calculating energy inputs to cement production by province
-    # Again, this section is downscaling the national data to the province level, using the province share calculated above
-    # Note that this assumes the same fuel blend in all states
-    # This will generate an output table: Energy inputs to cement production by province / fuel / historical year
+    # Note that this assumes the same fuel blend in all provinces
+    # To generate Energy inputs to cement production by province / fuel / historical year
     L1321.in_pct_province_cement %>%
       repeat_add_columns(tibble(fuel = unique(L1321.in_EJ_R_cement_F_Y$fuel))) %>%
-      left_join_error_no_match(L1321.in_EJ_R_cement_F_Y %>% filter(GCAM_region_ID == 11), by = c("year", "sector", "fuel")) %>%
+      left_join_error_no_match(L1321.in_EJ_R_cement_F_Y %>% filter(GCAM_region_ID == gcam.CHINA_CODE), by = c("year", "sector", "fuel")) %>%
       mutate(value = multiplier * value) %>%
       select(province, sector, fuel, year, value) ->
       L1321.in_EJ_province_cement_F_Y
