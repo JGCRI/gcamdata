@@ -31,6 +31,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
   } else if(command == driver.MAKE) {
 
     # =============================================================================
+    fuel <- value <- State <- . <- value.x <- value.y <- sector <- NULL     # silence package check.
     all_data <- list(...)[[1]]
     HISTORICAL_YEARS_c = c(HISTORICAL_YEARS, 2011, 2012)
     # -----------------------------------------------------------------------------
