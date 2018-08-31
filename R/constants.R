@@ -116,6 +116,7 @@ CONV_MJ_BTU    <- 947.777
 CONV_MWH_GJ <- 3.6                      # Megawatt hours to Gigajoules
 CONV_TBTU_EJ   <- 0.0010551             # TeraBTU to EJ
 CONV_TWH_EJ <- 3.6e-3
+CONV_EJ_MTCE <- 34.12
 
 # Other
 CONV_BM2_M2         <- 1e9
@@ -634,6 +635,9 @@ gcamchina.WIND_BASE_COST_YEAR <- 2005
 # Assumption about the total national share of energy that belongs to Tibet as it is
 # not explicitly included in the national energy balance
 gcamchina.TIBET_NATIONAL_ENERGY_SHARE <- 0.01
+
+# GCAM-China region ID
+CHINA_REGID <- 11
 
 # Time shift conditions ======================================================================
 # Uncomment these lines to run under 'timeshift' conditions
