@@ -1,6 +1,6 @@
 #' module_gcam.china_LB123.Electricity
 #'
-#' To be added.
+#' Electricity sector inputs and outputs, and electricity ownuse.
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
@@ -8,7 +8,7 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L123.in_EJ_province_elec_F}, \code{L123.out_EJ_province_elec_F}, \code{L123.in_EJ_province_ownuse_elec}, \code{L123.out_EJ_province_ownuse_elec}. The corresponding file in the
 #' original data system was \code{LB123.Electricity.R} (gcam-china level1).
-#' @details To be addeed.
+#' @details Compute electricity sector inputs and outputs, and electricity ownuse.
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
@@ -31,6 +31,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
   } else if(command == driver.MAKE) {
 
     # =============================================================================
+    fuel <- value <- State <- . <- value.x <- value.y <- sector <- NULL     # silence package check.
     all_data <- list(...)[[1]]
     HISTORICAL_YEARS_c = c(HISTORICAL_YEARS, 2011, 2012)
     # -----------------------------------------------------------------------------
