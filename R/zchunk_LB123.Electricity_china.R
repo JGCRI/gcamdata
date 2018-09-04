@@ -126,7 +126,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
     # Electricity generation inputs by fuel and province
     # Note that fuel inputs are only available for selected fuels; province_share_data uses this relevant subset
     L123.in_EJ_province_elec_F <- L123.in_EJ_R_elec_F_Yh %>%
-      filter(GCAM_region_ID == CHINA_REGID & fuel %in% L123.pct_province_elec_F$fuel) ->
+      filter(GCAM_region_ID == gcamchina.REGION_ID & fuel %in% L123.pct_province_elec_F$fuel) ->
       L123.in_EJ_province_elec_F
     Fuel_in_Yh = unique(L123.in_EJ_R_elec_F_Yh$fuel)
     L123.pct_province_elec_F %>%
@@ -138,7 +138,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
 
     # Electricity generation outputs by fuel and province
     L123.out_EJ_province_elec_F <- L123.out_EJ_R_elec_F_Yh %>%
-      filter(GCAM_region_ID == CHINA_REGID & fuel %in% L123.pct_province_elec_F$fuel) ->
+      filter(GCAM_region_ID == gcamchina.REGION_ID & fuel %in% L123.pct_province_elec_F$fuel) ->
       L123.out_EJ_province_elec_F
     Fuel_out_Yh = unique(L123.in_EJ_R_elec_F_Yh$fuel)
     L123.pct_province_elec_F %>%
@@ -151,10 +151,10 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
     # ELECTRICITY - OWNUSE
     # Electricity own use by province
     L123.in_EJ_CHINA_ownuse <- L126.in_EJ_R_elecownuse_F_Yh %>%
-      filter(GCAM_region_ID == CHINA_REGID)
+      filter(GCAM_region_ID == gcamchina.REGION_ID)
 
     L123.out_EJ_CHINA_ownuse <- L126.out_EJ_R_elecownuse_F_Yh %>%
-      filter(GCAM_region_ID == CHINA_REGID)
+      filter(GCAM_region_ID == gcamchina.REGION_ID)
 
     L123.net_EJ_CHINA_ownuse <- L123.in_EJ_CHINA_ownuse %>%
       left_join_error_no_match(L123.out_EJ_CHINA_ownuse, by = 'year') %>%
@@ -189,7 +189,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
 
     # Net own use = national total by each province's share
     L123.net_EJ_province_ownuse_elec <- L123.net_EJ_CHINA_ownuse %>%
-      filter(GCAM_region_ID == CHINA_REGID)
+      filter(GCAM_region_ID == gcamchina.REGION_ID)
 
     L123.net_pct_province_CHINA_ownuse_elec %>%
       left_join_error_no_match(L123.net_EJ_province_ownuse_elec, by = 'year') %>%

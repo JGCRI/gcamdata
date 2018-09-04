@@ -54,14 +54,14 @@ module_gcam.china_LA1321.Cement <- function(command, ...) {
     # To calculate province-level data by multiplying the province share by the china component in the global data
     # To generate cement production by province / historical year
     L1321.in_pct_province_cement %>%
-      left_join_error_no_match(L1321.out_Mt_R_cement_Yh %>% filter(GCAM_region_ID == gcam.CHINA_CODE), by = c("year", "sector")) %>%
+      left_join_error_no_match(L1321.out_Mt_R_cement_Yh %>% filter(GCAM_region_ID == gcamchina.REGION_ID), by = c("year", "sector")) %>%
       mutate(value = value * multiplier) %>% # Multiplying the national amount with the province share
       select(province, sector, year, value) ->
       L1321.out_Mt_province_cement_Yh
 
     # To generate Input-output coefficients of cement production by province / fuel / historical year
     L1321.IO_GJkg_R_cement_F_Yh %>%
-      filter(GCAM_region_ID == gcam.CHINA_CODE) %>%
+      filter(GCAM_region_ID == gcamchina.REGION_ID) %>%
       repeat_add_columns(tibble(province = unique(L1321.out_Mt_province_cement_Yh$province))) %>%
       select(province, sector, fuel, year, value) ->
       L1321.IO_GJkg_province_cement_F_Yh
@@ -70,7 +70,7 @@ module_gcam.china_LA1321.Cement <- function(command, ...) {
     # To generate Energy inputs to cement production by province / fuel / historical year
     L1321.in_pct_province_cement %>%
       repeat_add_columns(tibble(fuel = unique(L1321.in_EJ_R_cement_F_Y$fuel))) %>%
-      left_join_error_no_match(L1321.in_EJ_R_cement_F_Y %>% filter(GCAM_region_ID == gcam.CHINA_CODE), by = c("year", "sector", "fuel")) %>%
+      left_join_error_no_match(L1321.in_EJ_R_cement_F_Y %>% filter(GCAM_region_ID == gcamchina.REGION_ID), by = c("year", "sector", "fuel")) %>%
       mutate(value = multiplier * value) %>%
       select(province, sector, fuel, year, value) ->
       L1321.in_EJ_province_cement_F_Y

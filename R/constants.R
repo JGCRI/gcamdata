@@ -628,8 +628,10 @@ gcamusa.EFFICIENCY_PARTITION_YEAR <- 2005
 gcamusa.DIGITS_TRNUSA_DEFAULT     <- 1    # Reduce rounding in detailed USA transport for compatability with model
 
 # GCAM-China constants ======================================================================
-# gcam.CHINA_CODE
-gcam.CHINA_CODE <-11
+
+# GCAM-China region ID
+gcamchina.REGION_ID <-11
+
 # GCAM-China time
 gcamchina.WIND_BASE_COST_YEAR <- 2005
 
@@ -637,8 +639,6 @@ gcamchina.WIND_BASE_COST_YEAR <- 2005
 # not explicitly included in the national energy balance
 gcamchina.TIBET_NATIONAL_ENERGY_SHARE <- 0.01
 
-# GCAM-China region ID
-CHINA_REGID <- 11
 
 # Time shift conditions ======================================================================
 # Uncomment these lines to run under 'timeshift' conditions
