@@ -84,7 +84,7 @@ module_gcam.china_LA1322.Fert <- function(command, ...) {
 
     # Approtion national production to provinces
     L1322.in_pct_province_Fert_repF %>%
-      left_join_error_no_match(filter(L1322.Fert_Prod_MtN_R_F_Y, GCAM_region_ID == gcam.CHINA_CODE), by = c("fuel", "sector", "year")) %>%
+      left_join_error_no_match(filter(L1322.Fert_Prod_MtN_R_F_Y, GCAM_region_ID == gcamchina.REGION_ID), by = c("fuel", "sector", "year")) %>%
       mutate(value = value * multiplier) %>% # Multiplying the national amount with the province share
       select(province, sector, year, value, fuel) ->
       L1322.out_Mt_province_Fert_Yh
@@ -92,7 +92,7 @@ module_gcam.china_LA1322.Fert <- function(command, ...) {
 
     # Assuming all provinces have the same IO coefficients
     L1322.IO_R_Fert_F_Yh %>%
-      filter(GCAM_region_ID == gcam.CHINA_CODE) %>%
+      filter(GCAM_region_ID == gcamchina.REGION_ID) %>%
       repeat_add_columns(tibble(province = gcamchina.PROVINCES.WITHOUT_XZ)) %>%
       select(province, sector, fuel, year, value) ->
       L1322.IO_GJkg_province_Fert_F_Yh

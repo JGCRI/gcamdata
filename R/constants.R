@@ -628,7 +628,7 @@ gcamusa.DIGITS_TRNUSA_DEFAULT     <- 1    # Reduce rounding in detailed USA tran
 
 # GCAM-China constants ======================================================================
 # gcam.CHINA_CODE
-gcam.CHINA_CODE <-11
+gcamchina.REGION_ID <-11
 # GCAM-China time
 gcamchina.WIND_BASE_COST_YEAR <- 2005
 
