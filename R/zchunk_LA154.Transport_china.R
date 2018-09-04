@@ -53,7 +53,7 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
         # Drops the years with zero value
         filter(value != 0) %>%
         # Filter for the china and for historical years only
-        filter(year %in% HISTORICAL_YEARS, GCAM_region_ID == gcam.CHINA_CODE) %>%
+        filter(year %in% HISTORICAL_YEARS, GCAM_region_ID == gcamchina.REGION_ID) %>%
         complete(nesting(GCAM_region_ID, UCD_sector, mode, size.class, UCD_technology, UCD_fuel, fuel), year = HISTORICAL_YEARS, fill = list(value = 0)) %>%
         # Fuel and mode will be mapped to NBS fuel and sector
         left_join_error_no_match(trnUCD_NBS_mapping, by = c("fuel", "mode")) ->
@@ -137,7 +137,7 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
         # Now we can use these shares to allocate the national data across the provinces
         L154.out_mpkm_R_trn_nonmotor_Yh %>%
           rename(value_mode = value) %>%
-          filter(GCAM_region_ID == gcam.CHINA_CODE) %>%
+          filter(GCAM_region_ID == gcamchina.REGION_ID) %>%
           left_join(Pop_province_share, by = "year") %>%
           # Apportioning across the modes using the share data
           mutate(value = value_mode * value_share) %>%
