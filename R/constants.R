@@ -647,5 +647,3 @@ gcamchina.TIBET_NATIONAL_ENERGY_SHARE <- 0.01
 gcamchina.PROVINCES <- c("AH", "BJ", "CQ", "FJ", "GD", "GS", "GX", "GZ", "HA", "HB", "HE", "HI", "HL", "HN", "JL", "JS", "JX", "LN", "NM", "NX", "QH", "SC", "SD", "SH",
                          "SN", "SX", "TJ", "XJ", "XZ", "YN", "ZJ")
 
-gcamchina.PROVINCES.WITHOUT_XZ <- c("AH", "BJ", "CQ", "FJ", "GD", "GS", "GX", "GZ", "HA", "HB", "HE", "HI", "HL", "HN", "JL", "JS", "JX", "LN", "NM", "NX", "QH", "SC", "SD", "SH",
-                         "SN", "SX", "TJ", "XJ",  "YN", "ZJ")
