@@ -23,7 +23,7 @@ module_gcam.china_LA119.Solar <- function(command, ...) {
   } else if(command == driver.MAKE) {
 
     fuel  <- CSP  <- sector <- scaler <-
-      province.nam <- province <- Centralized.PV <- NULL     # silence package check.
+      province.name <- province <- Centralized.PV <- NULL     # silence package check.
 
     all_data <- list(...)[[1]]
     # -----------------------------------------------------------------------------

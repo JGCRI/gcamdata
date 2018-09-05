@@ -25,7 +25,7 @@ module_gcam.china_LA114.Wind <- function(command, ...) {
   } else if(command == driver.MAKE) {
 
     technology <- year <- state <- sector <- capacity.factor <- fuel <- value <- base_cost <-
-      region <- NULL  # silence package check.
+      region <- province.name <- base.cost <- NULL  # silence package check.
 
     all_data <- list(...)[[1]]
 
