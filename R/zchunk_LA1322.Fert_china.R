@@ -99,8 +99,9 @@ module_gcam.china_LA1322.Fert <- function(command, ...) {
       L1322.IO_GJkg_province_Fert_F_Yh
 
     L1322.IO_GJkg_province_Fert_F_Yh %>%
-      left_join_error_no_match(L1322.out_Mt_province_Fert_Yh %>% rename(org = value), by = c("province", "year", "sector", "fuel")) %>%
-      mutate(value = value * org, org = NULL) ->
+      left_join_error_no_match(L1322.out_Mt_province_Fert_Yh %>% rename(output = value), by = c("province", "year", "sector", "fuel")) %>%
+      # Calculate input by multiplying output with input-output coefficients
+      mutate(value = value * output, output = NULL) ->
       L1322.in_EJ_province_Fert_Yh
 
     # ===================================================
