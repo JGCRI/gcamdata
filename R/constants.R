@@ -639,6 +639,9 @@ gcamchina.WIND_BASE_COST_YEAR <- 2005
 # not explicitly included in the national energy balance
 gcamchina.TIBET_NATIONAL_ENERGY_SHARE <- 0.01
 
+# Time constants
+gcamchina.ELEC_HISTORICAL_YEARS <- c(HISTORICAL_YEARS, 2011, 2012)
+
 
 # Time shift conditions ======================================================================
 # Uncomment these lines to run under 'timeshift' conditions
