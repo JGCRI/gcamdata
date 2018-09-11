@@ -111,7 +111,11 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
     L132.in_pct_province_ind_F %>%
       mutate(sector = "industry_energy") %>%
       # Prepare for smooth join
+<<<<<<< HEAD
       left_join_error_no_match(filter(L1322.in_EJ_R_indenergy_F_Yh, GCAM_region_ID == gcamchina.REGION_ID),
+=======
+      left_join_error_no_match(filter(L1322.in_EJ_R_indenergy_F_Yh, GCAM_region_ID == gcam.CHINA_CODE),
+>>>>>>> gcamdata-China-v1.0
                                by = c("fuel", "year", "sector")) %>%
       mutate(value = value *  multiplier) %>%
       select(-multiplier, -GCAM_region_ID) ->
@@ -123,7 +127,11 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
       filter(fuel %in% unique(L123.in_EJ_R_indchp_F_Yh$fuel)) %>%
       # We only want fuels that are inputs to cogen systems, i.e. not electricity
       mutate(sector = "chp_elec") %>%
+<<<<<<< HEAD
       left_join_error_no_match(filter(L123.in_EJ_R_indchp_F_Yh, GCAM_region_ID == gcamchina.REGION_ID),
+=======
+      left_join_error_no_match(filter(L123.in_EJ_R_indchp_F_Yh, GCAM_region_ID == gcam.CHINA_CODE),
+>>>>>>> gcamdata-China-v1.0
                                by = c("fuel", "year", "sector")) %>%
       mutate(value = value * multiplier) %>%
       select(-multiplier, -GCAM_region_ID) ->
@@ -134,7 +142,11 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
       filter(fuel %in% gcam.IND_ENERGY_USE) %>%
       mutate(sector = "chp_elec") %>%
       # ^^ prepare for smooth join
+<<<<<<< HEAD
       left_join_error_no_match(filter(L123.out_EJ_R_indchp_F_Yh, GCAM_region_ID == gcamchina.REGION_ID),
+=======
+      left_join_error_no_match(filter(L123.out_EJ_R_indchp_F_Yh, GCAM_region_ID == gcam.CHINA_CODE),
+>>>>>>> gcamdata-China-v1.0
                                by = c("fuel", "year", "sector")) %>%
       mutate(value = value * multiplier) %>%
       select(-multiplier, -GCAM_region_ID) ->
@@ -189,7 +201,11 @@ module_gcam.china_LA132.Industry <- function(command, ...) {
     # Apportion feedstocks among provinces
     L132.in_pct_province_indfeed_F %>%
       # Prepare for smooth join
+<<<<<<< HEAD
       left_join_error_no_match(filter(L1322.in_EJ_R_indfeed_F_Yh, GCAM_region_ID == gcamchina.REGION_ID),
+=======
+      left_join_error_no_match(filter(L1322.in_EJ_R_indfeed_F_Yh, GCAM_region_ID == gcam.CHINA_CODE),
+>>>>>>> gcamdata-China-v1.0
                                by = c("sector", "fuel", "year")) %>%
       mutate(value = value * multiplier) %>%
       # Get province portions
