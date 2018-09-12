@@ -12,6 +12,12 @@ install:
 
 # Adapt as necessary starting from here
 
+# Appveyor is running into out-of-memory when trying to install gcamdata.compdata package
+# See https://github.com/JGCRI/gcamdata/pull/1044#issuecomment-417306266
+# As a workaround, try making this (suggested packages) optional.  -BBL 8/30/18
+environment:
+  _R_CHECK_FORCE_SUGGESTS_: false
+
 build_script:
   - travis-tool.sh install_deps
 

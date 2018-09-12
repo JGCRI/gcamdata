@@ -12,7 +12,7 @@
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
-#' @author Yang Aug 2018
+#' @author YangLiu Aug 2018
 module_gcam.china_LA1322.Fert <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c("L101.NBS_use_all_Mtce",
@@ -84,22 +84,24 @@ module_gcam.china_LA1322.Fert <- function(command, ...) {
 
     # Approtion national production to provinces
     L1322.in_pct_province_Fert_repF %>%
-      left_join_error_no_match(filter(L1322.Fert_Prod_MtN_R_F_Y, GCAM_region_ID == 11),by = c("fuel", "sector", "year")) %>%
+      left_join_error_no_match(filter(L1322.Fert_Prod_MtN_R_F_Y, GCAM_region_ID == gcamchina.REGION_ID), by = c("fuel", "sector", "year")) %>%
       mutate(value = value * multiplier) %>% # Multiplying the national amount with the province share
       select(province, sector, year, value, fuel) ->
       L1322.out_Mt_province_Fert_Yh
 
 
     # Assuming all provinces have the same IO coefficients
-      L1322.IO_R_Fert_F_Yh %>%
-      filter(GCAM_region_ID == 11) %>%
-      repeat_add_columns(tibble(province = unique( L1322.in_pct_province_Fert_repF$province))) %>%
+    L1322.IO_R_Fert_F_Yh %>%
+      filter(GCAM_region_ID == gcamchina.REGION_ID) %>%
+      repeat_add_columns(tibble(province = gcamchina.PROVINCES)) %>%
+      filter(province != 'XZ') %>%
       select(province, sector, fuel, year, value) ->
       L1322.IO_GJkg_province_Fert_F_Yh
 
     L1322.IO_GJkg_province_Fert_F_Yh %>%
-      left_join_error_no_match(L1322.out_Mt_province_Fert_Yh %>% rename(org = value), by = c("province", "year", "sector", "fuel")) %>%
-      mutate(value = value * org, org = NULL) ->
+      left_join_error_no_match(L1322.out_Mt_province_Fert_Yh %>% rename(output = value), by = c("province", "year", "sector", "fuel")) %>%
+      # Calculate input by multiplying output with input-output coefficients
+      mutate(value = value * output, output = NULL) ->
       L1322.in_EJ_province_Fert_Yh
 
     # ===================================================
@@ -124,7 +126,7 @@ module_gcam.china_LA1322.Fert <- function(command, ...) {
     L1322.in_EJ_province_Fert_Yh %>%
       add_title("Energy inputs to Fertilizer production by province / input / historical year") %>%
       add_units("Unit = GJ/kg and kg/kg") %>%
-      add_comments("province fertilizer production multiplied by province fertilizer input-output coefficient") %>%
+      add_comments("Provincial fertilizer production multiplied by provincial fertilizer input-output coefficient") %>%
       add_legacy_name("L1322.in_EJ_province_Fert_Yh") %>%
       add_precursors("L1322.Fert_Prod_MtN_R_F_Y", "L101.NBS_use_all_Mtce", "L1322.IO_R_Fert_F_Yh") ->
       L1322.in_EJ_province_Fert_Yh
