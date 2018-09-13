@@ -82,7 +82,7 @@ module_gcam.china_LA1322.Fert <- function(command, ...) {
       repeat_add_columns(tibble(fuel = unique(L1322.Fert_Prod_MtN_R_F_Y$fuel))) ->
       L1322.in_pct_province_Fert_repF
 
-    # Approtion national production to provinces
+    # Approtion national production to provinces use "Coal Raw" in Agriculture as a proxy
     L1322.in_pct_province_Fert_repF %>%
       left_join_error_no_match(filter(L1322.Fert_Prod_MtN_R_F_Y, GCAM_region_ID == gcamchina.REGION_ID), by = c("fuel", "sector", "year")) %>%
       mutate(value = value * multiplier) %>% # Multiplying the national amount with the province share
