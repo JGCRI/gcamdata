@@ -18,7 +18,6 @@ module_gcam.china_L201.socioeconomics <- function(command, ...) {
     return(c(FILE = "gcam-china/province_names_mappings",
              "L100.Pop_thous_province",
              "L100.GDP_mil90usd_province",
-             "L102.pcgdp_thous90USD_GCAM3_ctry_Y",
              "L100.pcGDP_thous90usd_province"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L201.InterestRate_CHINA",
@@ -29,7 +28,7 @@ module_gcam.china_L201.socioeconomics <- function(command, ...) {
   } else if(command == driver.MAKE) {
 
     # silence package checks
-    year <- value <- province <- totalPop <- baseGDP <- iso <- growth <- timestep <- NULL
+    year <- value <- province <- totalPop <- baseGDP <- pop <- growth <- timestep <- GDP <- region <- pcGDP <- output <- NULL
 
     all_data <- list(...)[[1]]
 
@@ -37,50 +36,45 @@ module_gcam.china_L201.socioeconomics <- function(command, ...) {
     province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
     L100.Pop_thous_province <- get_data(all_data, "L100.Pop_thous_province")
     L100.GDP_mil90usd_province <- get_data(all_data, "L100.GDP_mil90usd_province")
-    L102.pcgdp_thous90USD_GCAM3_ctry_Y <- get_data(all_data, "L102.pcgdp_thous90USD_GCAM3_ctry_Y")
     L100.pcGDP_thous90usd_province <- get_data(all_data, "L100.pcGDP_thous90usd_province")
 
     # ===================================================
     # L201.InterestRate: Interest rates by region
-    L201.InterestRate <- tibble(region = provinces_subregions$province, interest.rate = socioeconomics.DEFAULT_INTEREST_RATE)
+    L201.InterestRate <- tibble(region = gcamchina.PROVINCES, interest.rate = socioeconomics.DEFAULT_INTEREST_RATE)
 
     # L201.Pop_GCAMChina: Population by region from the GCAM 3.0 core scenario
-    L201.Pop_GCAMCHINA <- L100.Pop_thous_province %>%
+    L100.Pop_thous_province %>%
       filter(year %in% MODEL_YEARS) %>%
-      rename(totalPop = value,
-             region = province) %>%
-      mutate(totalPop = round(totalPop, socioeconomics.POP_DIGITS))
+      mutate(totalPop = pop, region = province, pop = NULL, province = NULL)->
+      L201.Pop_GCAMCHINA
 
     # L201.BaseGDP_GCAMChina: Base GDP for GCAM-China scenario
-    L201.BaseGDP_GCAMCHINA <- L100.GDP_mil90usd_province %>%
+    L100.GDP_mil90usd_province %>%
       filter(year == min(MODEL_YEARS)) %>%
-      rename(baseGDP = value,
+      rename(baseGDP = GDP,
              region = province) %>%
-      mutate(baseGDP = round(baseGDP, socioeconomics.GDP_DIGITS)) %>%
-      select(-year)
+      mutate(region, baseGDP, year = NULL) ->
+      L201.BaseGDP_GCAMCHINA
 
     # L201.LaborForceFillout: Labor force participation and productivity for all scenarios
     # NOTE: No model of labor force used; labor force participation set to a constant
-    L201.LaborForceFillout_CHINA <- tibble(region = provinces_subregions$province,
+    L201.LaborForceFillout_CHINA <- tibble(region = gcamchina.PROVINCES,
                                      year.fillout = min(MODEL_YEARS),
                                      laborforce = socioeconomics.DEFAULT_LABORFORCE)
 
     # LABOR PRODUCTIVITY GROWTH RATE CALCULATION
     # Labor productivity growth is calculated from the change in per-capita GDP ratio in each time period
     # Calculate the growth rate in per-capita GDP
-    L201.LaborProductivity_GCAMCHINA <- L102.pcgdp_thous90USD_GCAM3_ctry_Y %>%
-      filter(tolower(iso) == "China",
-             year %in% MODEL_YEARS) %>%
+    L100.pcGDP_thous90usd_province %>%
+      filter(year %in% MODEL_YEARS) %>%
       # In order to calculate growth rate we need to know how much GDP grew and number of years between periods
-      mutate(growth = value / lag(value),
+      mutate(growth = pcGDP / lag(pcGDP),
              timestep = year - lag(year),
              laborproductivity = round(growth ^ (1 / timestep) - 1, socioeconomics.LABOR_PRODUCTIVITY_DIGITS)) %>%
       # Remove the first model year, since it has no previous period to calculate growth rate
       filter(year != min(MODEL_YEARS)) %>%
-      # Renaming to region because region column needed for write_to_all_provinces
-      rename(region = iso) %>%
-      # NOTE: applying the China average to all provinces equally
-      write_to_all_provinces(LEVEL2_DATA_NAMES[["LaborProductivity"]])
+      mutate(variable = year, growth = NULL, timestep = NULL, pcGDP = NULL) ->
+      L201.LaborProductivity_GCAMCHINA
 
     # ===================================================
 
@@ -89,8 +83,8 @@ module_gcam.china_L201.socioeconomics <- function(command, ...) {
       add_title("Interest rates by province") %>%
       add_units("Unitless") %>%
       add_comments("Constant assumed for all provinces") %>%
-      add_legacy_name("L201.InterestRate_GCAMChina") %>%
-      add_precursors("gcam-China/provinces_subregions") ->
+      add_legacy_name("L201.InterestRate_China") %>%
+      add_precursors("gcam-china/province_names_mappings") ->
       L201.InterestRate_CHINA
 
     L201.Pop_GCAMCHINA %>%
@@ -109,21 +103,20 @@ module_gcam.china_L201.socioeconomics <- function(command, ...) {
       add_precursors("L100.GDP_mil90usd_province") ->
       L201.BaseGDP_GCAMCHINA
 
-    L201.LaborForceFillout %>%
+    L201.LaborForceFillout_CHINA %>%
       add_title("Labor force participation and productivity for all scenarios") %>%
       add_units("Unitless") %>%
       add_comments("Constant value assumed") %>%
       add_legacy_name("L201.LaborForceFillout") %>%
-      add_precursors("gcam-China/provinces_subregions") ->
+      add_precursors("gcam-china/province_names_mappings") ->
       L201.LaborForceFillout_CHINA
 
-    L201.LaborProductivity_GCAMChina %>%
+    L201.LaborProductivity_GCAMCHINA %>%
       add_title("Labor force productivity growth rate for GCAM-China") %>%
-      add_units("Unitless (annual rate of growth)") %>%
-      add_comments("Values from L102.pcgdp_thous90USD_GCAM3_ctry_Y used to calculate annual growth") %>%
-      add_comments("China value written to all provinces") %>%
+      add_units("Unitless (rate of growth)") %>%
+      add_comments("Values from L100.pcGDP_thous90usd_province used to calculate annual growth") %>%
       add_legacy_name("L201.LaborProductivity_GCAMChina") %>%
-      add_precursors("L102.pcgdp_thous90USD_GCAM3_ctry_Y") ->
+      add_precursors("L100.pcGDP_thous90usd_province") ->
       L201.LaborProductivity_GCAMCHINA
 
 
