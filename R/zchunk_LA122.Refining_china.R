@@ -60,27 +60,20 @@ module_gcam.china_LA122.Refining <- function(command, ...) {
     # Crude oil refining output by province
     # Apportion the national total to the provinces
     L122.pct_province_cor %>%
-<<<<<<< HEAD
       left_join_error_no_match(filter(L122.out_EJ_R_refining_F_Yh, GCAM_region_ID == gcamchina.REGION_ID),
-=======
-      left_join_error_no_match(filter(L122.out_EJ_R_refining_F_Yh, GCAM_region_ID == gcam.CHINA_CODE),
->>>>>>> gcamdata-China-v1.0
                                by = c("sector", "year")) %>%
       # province output value = province proportion * national output value
       mutate(value = value.x * value.y) %>%
       select(province, sector, fuel = fuel.x, year, value) ->
       L122.out_EJ_province_cor
 
-    # Inputs to crude oil refining - same method of portional allocations, but with multiple fuels
+    # Inpus to crude oil refining - same method of portional allocations, but with multiple fuels
     # Oil refining input fuels
     # Calculate province oil input values
     L122.pct_province_cor %>%
       # Join in multiple fuels, number of rows increases
-<<<<<<< HEAD
       left_join(filter(L122.in_EJ_R_refining_F_Yh, GCAM_region_ID == gcamchina.REGION_ID),
-=======
-      left_join(filter(L122.in_EJ_R_refining_F_Yh, GCAM_region_ID == gcam.CHINA_CODE),
->>>>>>> gcamdata-China-v1.0
+
                 by = c("sector", "year")) %>%
       # province input value = province proportion * national input value
       mutate(value = value.x * value.y) %>%
@@ -109,11 +102,8 @@ module_gcam.china_LA122.Refining <- function(command, ...) {
 
     # Corn ethanol output by province
     L122.pct_province_btle %>%
-<<<<<<< HEAD
       left_join_error_no_match(filter(L122.out_EJ_R_refining_F_Yh, GCAM_region_ID == gcamchina.REGION_ID),
-=======
-      left_join_error_no_match(filter(L122.out_EJ_R_refining_F_Yh, GCAM_region_ID == gcam.CHINA_CODE),
->>>>>>> gcamdata-China-v1.0
+
                                by = c("sector", "fuel", "year")) %>%
       # province output value = province proportion * national output value
       mutate(value = value.x * value.y) %>%
@@ -124,11 +114,7 @@ module_gcam.china_LA122.Refining <- function(command, ...) {
     # Corn ethanol input fuels
      L122.pct_province_btle %>%
        # Join in multiple fuels, number of rows increases
-<<<<<<< HEAD
        left_join(filter(L122.in_EJ_R_refining_F_Yh, GCAM_region_ID == gcamchina.REGION_ID),
-=======
-       left_join(filter(L122.in_EJ_R_refining_F_Yh, GCAM_region_ID == gcam.CHINA_CODE),
->>>>>>> gcamdata-China-v1.0
                 by = c("sector", "year")) %>%
       # province input value = province proportion * national input value
       mutate(value = value.x * value.y) %>%
@@ -158,11 +144,7 @@ module_gcam.china_LA122.Refining <- function(command, ...) {
 
     # Apportion to the provinces
     L122.pct_province_btlbd %>%
-<<<<<<< HEAD
       left_join_error_no_match(filter(L122.out_EJ_R_refining_F_Yh, GCAM_region_ID == gcamchina.REGION_ID),
-=======
-      left_join_error_no_match(filter(L122.out_EJ_R_refining_F_Yh, GCAM_region_ID == gcam.CHINA_CODE),
->>>>>>> gcamdata-China-v1.0
                                by = c("sector", "fuel", "year")) %>%
       # province output value = province proportion * national output value
       mutate(value = value.x * value.y) %>%
@@ -174,11 +156,7 @@ module_gcam.china_LA122.Refining <- function(command, ...) {
     # Biodiesel input fuels
     L122.pct_province_btlbd %>%
       # Join in multiple fuels, number of rows increases
-<<<<<<< HEAD
       left_join(filter(L122.in_EJ_R_refining_F_Yh, GCAM_region_ID == gcamchina.REGION_ID),
-=======
-      left_join(filter(L122.in_EJ_R_refining_F_Yh, GCAM_region_ID == gcam.CHINA_CODE),
->>>>>>> gcamdata-China-v1.0
                 by = c("sector", "year")) %>%
       # province output value = province proportion * national input value
       mutate(value = value.x * value.y) %>%
