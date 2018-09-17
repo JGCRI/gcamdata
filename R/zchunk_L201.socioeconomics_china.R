@@ -45,7 +45,7 @@ module_gcam.china_L201.socioeconomics <- function(command, ...) {
     # L201.Pop_GCAMChina: Population by region from the GCAM 3.0 core scenario
     L100.Pop_thous_province %>%
       filter(year %in% MODEL_YEARS) %>%
-      mutate(totalPop = pop, region = province, pop = NULL, province = NULL)->
+      mutate(totalPop = pop, region = province, pop = NULL, province = NULL) ->
       L201.Pop_GCAMCHINA
 
     # L201.BaseGDP_GCAMChina: Base GDP for GCAM-China scenario
@@ -53,7 +53,7 @@ module_gcam.china_L201.socioeconomics <- function(command, ...) {
       filter(year == min(MODEL_YEARS)) %>%
       rename(baseGDP = GDP,
              region = province) %>%
-      mutate(region, baseGDP, year = NULL) ->
+      mutate(year = NULL) ->
       L201.BaseGDP_GCAMCHINA
 
     # L201.LaborForceFillout: Labor force participation and productivity for all scenarios
