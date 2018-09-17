@@ -13,7 +13,7 @@
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
-#' @author Yang Aug 2018
+#' @author YangLiu Aug 2018
 module_gcam.china_LA154.Transport <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "gcam-china/trnUCD_NBS_mapping",
@@ -95,17 +95,14 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
       L154.NBS_trn_Mtce_province %>%
         group_by(EBProcess, EBMaterial, year) %>%
         mutate(value_share = value / sum(value, na.rm = T)) %>%
-        complete(nesting(year, sector, fuel, EBProcess, EBMaterial), province = gcamchina.PROVINCES, fill = list(value_share = 0)) %>%
+        complete(nesting(year, sector, fuel, EBProcess, EBMaterial), province = gcamchina.PROVINCES) %>%
+        ungroup() %>%
         # NAs were introduced where national values were 0. Replace NAs with zeros.
         replace_na(list(value_share = 0)) %>%
-        select(province, EBProcess, EBMaterial, year, value_share) ->
-        L154.NBS_trn_share_province
-
-
-      L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh %>%
+        select(province, EBProcess, EBMaterial, year, value_share) %>%
+        left_join(L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh, by = c("EBProcess", "EBMaterial", "year")) %>%
         filter(year %in% HISTORICAL_YEARS) %>%
         mutate(fuel_sector = paste(EBProcess, EBMaterial)) %>%
-        full_join(L154.NBS_trn_share_province, by = c("EBProcess", "EBMaterial", "year")) %>%
         replace_na(list(value_share = 0)) %>%
         mutate(value = value * value_share) %>% # Allocating across the provinces
         select(province, UCD_sector, mode, size.class, UCD_technology, UCD_fuel, fuel, year, value) ->
@@ -128,25 +125,19 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
         complete(province, year = c(1971:2100)) %>%
         group_by(province) %>%
         mutate(pop = approx_fun(year, pop, rule = 2)) %>%
-        ungroup() %>%
         group_by(year) %>%
         mutate(value_share = pop / sum(pop, na.rm = T)) %>%
-        select(province, year, value_share) ->
-        Pop_province_share
-
-        # Now we can use these shares to allocate the national data across the provinces
-        L154.out_mpkm_R_trn_nonmotor_Yh %>%
-          rename(value_mode = value) %>%
-          filter(GCAM_region_ID == gcamchina.REGION_ID) %>%
-          left_join(Pop_province_share, by = "year") %>%
-          # Apportioning across the modes using the share data
-          mutate(value = value_mode * value_share) %>%
-          # Ensuring within historical period
-          filter(year %in% HISTORICAL_YEARS) %>%
-          select(province, mode, year, value) %>%
-          mutate(year = as.integer(year)) ->
-          L154.out_mpkm_province_trn_nonmotor_Yh
-
+        ungroup() %>%
+        select(province, year, value_share) %>%
+        left_join(L154.out_mpkm_R_trn_nonmotor_Yh, by = "year") %>%
+        rename(value_mode = value) %>%
+        filter(GCAM_region_ID == gcamchina.REGION_ID) %>%
+        # Apportioning across the modes using the share data
+        mutate(value = value_mode * value_share) %>%
+        # Ensuring within historical period
+        filter(year %in% HISTORICAL_YEARS) %>%
+        select(province, mode, year, value) ->
+        L154.out_mpkm_province_trn_nonmotor_Yh
 
     # ===================================================
 
