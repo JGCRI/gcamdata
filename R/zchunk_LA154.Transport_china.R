@@ -61,11 +61,11 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
 
       # To delate the confilct category caused by Hong Kong and macau
       L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh %>%
-        mutate(size.class = replace(size.class, mode == "Bus" & size.class == "All","Light Bus")) %>%
-        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (0-2t)","Truck (0-6t)")) %>%
-        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (2-5t)","Truck (0-6t)")) %>%
-        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (5-9t)","Truck (6-14t)")) %>%
-        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (9-16t)","Truck (6-14t)")) %>%
+        mutate(size.class = replace(size.class, mode == "Bus" & size.class == "All", "Light Bus")) %>%
+        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (0-2t)", "Truck (0-6t)")) %>%
+        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (2-5t)", "Truck (0-6t)")) %>%
+        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (5-9t)", "Truck (6-14t)")) %>%
+        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (9-16t)", "Truck (6-14t)")) %>%
         group_by(GCAM_region_ID, UCD_sector, mode, size.class, UCD_fuel, UCD_technology, fuel, year, EBProcess, EBMaterial) %>%
         summarise(value = sum(value)) %>%
         ungroup ->
@@ -129,9 +129,9 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
         mutate(value_share = pop / sum(pop, na.rm = T)) %>%
         ungroup() %>%
         select(province, year, value_share) %>%
-        left_join(L154.out_mpkm_R_trn_nonmotor_Yh, by = "year") %>%
-        rename(value_mode = value) %>%
-        filter(GCAM_region_ID == gcamchina.REGION_ID) %>%
+        left_join(L154.out_mpkm_R_trn_nonmotor_Yh %>%
+                    rename(value_mode = value) %>%
+                    filter(GCAM_region_ID == gcamchina.REGION_ID), by = "year") %>%
         # Apportioning across the modes using the share data
         mutate(value = value_mode * value_share) %>%
         # Ensuring within historical period
