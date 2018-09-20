@@ -628,10 +628,15 @@ gcamusa.EFFICIENCY_PARTITION_YEAR <- 2005
 gcamusa.DIGITS_TRNUSA_DEFAULT     <- 1    # Reduce rounding in detailed USA transport for compatability with model
 
 # GCAM-China constants ======================================================================
+<<<<<<< HEAD
 
 # GCAM-China region ID
 gcamchina.REGION_ID <-11
 
+=======
+# gcam.CHINA_CODE
+gcamchina.REGION_ID <-11
+>>>>>>> gcamdata-China-v1.0
 # GCAM-China time
 gcamchina.WIND_BASE_COST_YEAR <- 2005
 
@@ -649,3 +654,8 @@ gcamchina.ELEC_HISTORICAL_YEARS <- c(HISTORICAL_YEARS, 2011, 2012)
 # FUTURE_YEARS <- seq(2010, 2100, 5)  # normally seq(2015, 2100, 5)
 # BASE_YEARS <- c(1975, 1990, 2005)   # normally (1975, 1990, 2005, 2010)
 # MODEL_YEARS <- c(BASE_YEARS, FUTURE_YEARS)
+
+# GCAM-China provinces
+gcamchina.PROVINCES <- c("AH", "BJ", "CQ", "FJ", "GD", "GS", "GX", "GZ", "HA", "HB", "HE", "HI", "HL", "HN", "JL", "JS", "JX", "LN", "NM", "NX", "QH", "SC", "SD", "SH",
+                         "SN", "SX", "TJ", "XJ", "XZ", "YN", "ZJ")
+
