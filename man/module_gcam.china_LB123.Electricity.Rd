@@ -18,10 +18,10 @@ the generated outputs: \code{L123.in_EJ_province_elec_F}, \code{L123.out_EJ_prov
 original data system was \code{LB123.Electricity.R} (gcam-china level1).
 }
 \description{
-To be added.
+Electricity sector inputs and outputs, and electricity ownuse.
 }
 \details{
-To be addeed.
+Compute electricity sector inputs and outputs, and electricity ownuse.
 }
 \author{
 Liu August 2018
