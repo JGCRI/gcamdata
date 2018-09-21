@@ -74,6 +74,8 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
       mutate(fuel = as.character(fuel)) ->
       L132.GWh_province_F_elec_out
 
+
+
     # Oil and gas does not exist in the CPSY so we will use the CESY for those
     # Note these are in terms of energy in.  Since we are assuming constant efficiencies for all provinces
     # mixing these with the elec_out will be fine for approtioning to provinces
@@ -87,13 +89,10 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
              fuel = replace(fuel, fuel == "natural.gas" & province == "XZ", "gas"),
              # In Tibet our oil and gas numbers are in electricity out and they need to be energy in in Mtce. This is a total hack but
              # just divide by the efficiency. Gas is 0.55 and oil is about 0.35
-             value =  replace(value, province == "XZ" & fuel %in% c("refined liquids", "gas"), 0),
-             copy_rl = value * 100 * CONV_GWH_EJ * CONV_EJ_MTCE / -0.35,
-             copy_g = value * 100 * CONV_GWH_EJ * CONV_EJ_MTCE / -0.55,
-             copy_rl = replace(value, province == "XZ" & fuel == "refined liquids", 0),
-             copy_g = replace(value, province == "XZ" & fuel == "gas", 0),
-             value = value + copy_rl + copy_g) %>%
-      select(-copy_g, -copy_rl) %>%
+             value =  replace(value, province == "XZ" & fuel == "refined liquids",
+                              value[province == "XZ" & fuel == "refined liquids"] * 100 * CONV_GWH_EJ * CONV_EJ_MTCE / -0.35),
+             value =  replace(value, province == "XZ" & fuel == "gas",
+                              value[province == "XZ" & fuel == "gas"] * 100 * CONV_GWH_EJ * CONV_EJ_MTCE / -0.55)) %>%
       # Aggregate by fuel compute each province's percentage, by fuel
       group_by(fuel, year) %>%
       mutate(pct = value / sum(value)) %>%
@@ -108,16 +107,16 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
     L123.pct_province_elec_F %>%
       filter(fuel %in% unique(L123.in_EJ_R_elec_F_Yh$fuel) & year %in% HISTORICAL_YEARS) %>%
       left_join_error_no_match(L123.in_EJ_R_elec_F_Yh %>% filter(GCAM_region_ID == gcamchina.REGION_ID, fuel %in% unique(L123.pct_province_elec_F$fuel)), by = c('year', 'fuel')) %>%
-      mutate(elec_F = value * pct) %>%
-      select(-value, -pct, -GCAM_region_ID) ->
+      mutate(value = value * pct) %>%
+      select(-pct, -GCAM_region_ID) ->
       L123.in_EJ_province_elec_F
 
     # Electricity generation outputs by fuel and province
     L123.pct_province_elec_F %>%
       filter(fuel %in% unique(L123.out_EJ_R_elec_F_Yh$fuel), year %in% HISTORICAL_YEARS) %>%
       left_join_error_no_match(L123.out_EJ_R_elec_F_Yh %>% filter(GCAM_region_ID == gcamchina.REGION_ID, fuel %in% unique(L123.pct_province_elec_F$fuel)), by = c('year', 'fuel')) %>%
-      mutate(elec_F = value * pct) %>%
-      select(-value, -pct, -GCAM_region_ID) ->
+      mutate(value = value * pct) %>%
+      select(-pct, -GCAM_region_ID) ->
       L123.out_EJ_province_elec_F
 
     # ELECTRICITY - OWNUSE
@@ -170,6 +169,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
              fuel = fuel.x) %>%
       select(province, sector, fuel, year, value) ->
       L123.out_EJ_province_ownuse_elec
+
 
     # ===================================================
     L123.in_EJ_province_elec_F %>%
