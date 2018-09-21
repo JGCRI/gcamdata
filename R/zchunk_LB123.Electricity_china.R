@@ -35,7 +35,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
       solar <- solar.adj <- biomass <- fuel <- value <- province  <- sector <- year <- copy_rl <- copy_g <-
       pct <- each <-Sum <- value.x <- value.y <- sector.x <- sector.y <- fuel.x <- fuel.y <- NULL     # silence package check.
     all_data <- list(...)[[1]]
-    HISTORICAL_YEARS_temp <- c(HISTORICAL_YEARS, 2011, 2012)
+
 
     # -----------------------------------------------------------------------------
     # 1.Load required inputs
@@ -66,7 +66,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
       mutate(biomass = coal) %>%
       gather(fuel, value, -province, -year) %>%
       filter(value == 0 | value > 0.1) %>%
-      complete(nesting(province, fuel), year = HISTORICAL_YEARS_temp) %>%
+      complete(nesting(province, fuel), year = gcamchina.ELEC_HISTORICAL_YEARS) %>%
       arrange(province, fuel, year) %>%
       group_by(province, fuel) %>%
       mutate(value = approx_fun(year, value, rule = 2)) %>%
@@ -105,25 +105,17 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
 
     # Electricity generation inputs by fuel and province
     # Note that fuel inputs are only available for selected fuels; province_share_data uses this relevant subset
-    L123.in_EJ_R_elec_F_Yh %>%
-      filter(GCAM_region_ID == gcamchina.REGION_ID, fuel %in% L123.pct_province_elec_F$fuel) ->
-      L123.in_EJ_province_elec_F
-    Fuel_in_Yh = unique(L123.in_EJ_R_elec_F_Yh$fuel)
     L123.pct_province_elec_F %>%
-      filter(fuel %in% Fuel_in_Yh & year %in% HISTORICAL_YEARS) %>%
-      left_join_error_no_match(L123.in_EJ_province_elec_F, by = c('year', 'fuel')) %>%
+      filter(fuel %in% unique(L123.in_EJ_R_elec_F_Yh$fuel) & year %in% HISTORICAL_YEARS) %>%
+      left_join_error_no_match(L123.in_EJ_R_elec_F_Yh %>% filter(GCAM_region_ID == gcamchina.REGION_ID, fuel %in% unique(L123.pct_province_elec_F$fuel)), by = c('year', 'fuel')) %>%
       mutate(elec_F = value * pct) %>%
       select(-value, -pct, -GCAM_region_ID) ->
       L123.in_EJ_province_elec_F
 
     # Electricity generation outputs by fuel and province
-    L123.out_EJ_R_elec_F_Yh %>%
-      filter(GCAM_region_ID == gcamchina.REGION_ID, fuel %in% L123.pct_province_elec_F$fuel) ->
-      L123.out_EJ_province_elec_F
-    Fuel_out_Yh = unique(L123.in_EJ_R_elec_F_Yh$fuel)
     L123.pct_province_elec_F %>%
-      filter(fuel %in% Fuel_out_Yh, year %in% HISTORICAL_YEARS) %>%
-      left_join_error_no_match(L123.out_EJ_province_elec_F, by = c('year', 'fuel')) %>%
+      filter(fuel %in% unique(L123.out_EJ_R_elec_F_Yh$fuel), year %in% HISTORICAL_YEARS) %>%
+      left_join_error_no_match(L123.out_EJ_R_elec_F_Yh %>% filter(GCAM_region_ID == gcamchina.REGION_ID, fuel %in% unique(L123.pct_province_elec_F$fuel)), by = c('year', 'fuel')) %>%
       mutate(elec_F = value * pct) %>%
       select(-value, -pct, -GCAM_region_ID) ->
       L123.out_EJ_province_elec_F
@@ -131,52 +123,37 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
     # ELECTRICITY - OWNUSE
     # Electricity own use by province
     L126.in_EJ_R_elecownuse_F_Yh %>%
-      filter(GCAM_region_ID == gcamchina.REGION_ID) ->
-      L123.in_EJ_CHINA_ownuse
-
-    L126.out_EJ_R_elecownuse_F_Yh %>%
-      filter(GCAM_region_ID == gcamchina.REGION_ID) ->
-      L123.out_EJ_CHINA_ownuse
-
-    L123.in_EJ_CHINA_ownuse %>%
-      left_join_error_no_match(L123.out_EJ_CHINA_ownuse, by = c("GCAM_region_ID", "sector", "fuel", "year")) %>%
+      filter(GCAM_region_ID == gcamchina.REGION_ID) %>%
+      left_join_error_no_match(L126.out_EJ_R_elecownuse_F_Yh, by = c("GCAM_region_ID", "sector", "fuel", "year")) %>%
       mutate(value = value.x - value.y) %>%
       select(-value.x, -value.y) ->
       L123.net_EJ_CHINA_ownuse
 
     # Then build table with each province's share of the national ownuse. Note that this is assumed invariant over time.
-    L123.out_EJ_province_elec_F %>%
-      group_by(province, year) %>%
-      summarise(value = sum(elec_F)) %>%
-      ungroup %>%
-      group_by(year) %>%
-      mutate(value = value/sum(value)) %>%
-      ungroup  %>%
-      mutate(sector = 'electricity ownuse',
-              fuel = 'electricity') %>%
-      replace_na(list(value = 0)) ->
-      L123.net_pct_province_CHINA_ownuse_elec
-
     # Net own use = national total by each province's share
     L123.net_EJ_CHINA_ownuse %>%
       filter(GCAM_region_ID == gcamchina.REGION_ID) ->
       L123.net_EJ_province_ownuse_elec
 
-    L123.net_pct_province_CHINA_ownuse_elec %>%
+    L123.out_EJ_province_elec_F %>%
+      group_by(province, year) %>%
+      summarise(value = sum(elec_F)) %>%
+      ungroup %>%
+      group_by(year) %>%
+      mutate(value = value / sum(value)) %>%
+      ungroup  %>%
+      mutate(sector = 'electricity ownuse',
+              fuel = 'electricity') %>%
+      replace_na(list(value = 0)) %>%
       left_join_error_no_match(L123.net_EJ_province_ownuse_elec, by = c("sector", "fuel", "year")) %>%
       mutate(value = value.x * value.y) %>%
       select(-value.x, -value.y) ->
       L123.net_EJ_province_ownuse_elec
 
     # The input of the electricity_net_ownuse sector is equal to sum of all generation (industrial CHP + electric sector)
-    L123.out_EJ_province_elecind_F <- L123.out_EJ_province_elec_F
-    names(L123.out_EJ_province_elecind_F)[5] <- 'value'
-    L123.out_EJ_province_elecind_F %>%
-      bind_rows(L132.out_EJ_province_indchp_F) ->
-      L123.out_EJ_province_elecind_F
-
-
-    L123.out_EJ_province_elecind_F %>%
+    L123.out_EJ_province_elec_F %>%
+      rename(value = elec_F) %>%
+      bind_rows(L132.out_EJ_province_indchp_F) %>%
       group_by(province, year) %>%
       summarise(value = sum(value)) %>%
       ungroup %>%
@@ -191,7 +168,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
       mutate(value = value.x - value.y,
              sector = sector.x,
              fuel = fuel.x) %>%
-      subset(select = c(province, sector, fuel, year, value)) ->
+      select(province, sector, fuel, year, value) ->
       L123.out_EJ_province_ownuse_elec
 
     # ===================================================
@@ -203,11 +180,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
       add_precursors("gcam-china/province_names_mappings",
                      "gcam-china/CPSY_GWh_province_F_elec_out",
                      "L123.in_EJ_R_elec_F_Yh",
-                     "L123.out_EJ_R_elec_F_Yh",
-                     "L126.in_EJ_R_elecownuse_F_Yh",
-                     "L126.out_EJ_R_elecownuse_F_Yh",
-                     "L101.inNBS_Mtce_province_S_F",
-                     "L132.out_EJ_province_indchp_F") ->
+                     "L101.inNBS_Mtce_province_S_F") ->
       L123.in_EJ_province_elec_F
 
     L123.out_EJ_province_elec_F %>%
@@ -217,12 +190,8 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
       add_legacy_name("L123.out_EJ_province_elec_F") %>%
       add_precursors("gcam-china/province_names_mappings",
                      "gcam-china/CPSY_GWh_province_F_elec_out",
-                     "L123.in_EJ_R_elec_F_Yh",
                      "L123.out_EJ_R_elec_F_Yh",
-                     "L126.in_EJ_R_elecownuse_F_Yh",
-                     "L126.out_EJ_R_elecownuse_F_Yh",
-                     "L101.inNBS_Mtce_province_S_F",
-                     "L132.out_EJ_province_indchp_F") ->
+                     "L101.inNBS_Mtce_province_S_F") ->
       L123.out_EJ_province_elec_F
 
     L123.in_EJ_province_ownuse_elec %>%
@@ -232,10 +201,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
       add_legacy_name("L123.in_EJ_province_ownuse_elec") %>%
       add_precursors("gcam-china/province_names_mappings",
                      "gcam-china/CPSY_GWh_province_F_elec_out",
-                     "L123.in_EJ_R_elec_F_Yh",
                      "L123.out_EJ_R_elec_F_Yh",
-                     "L126.in_EJ_R_elecownuse_F_Yh",
-                     "L126.out_EJ_R_elecownuse_F_Yh",
                      "L101.inNBS_Mtce_province_S_F",
                      "L132.out_EJ_province_indchp_F") ->
       L123.in_EJ_province_elec_F
@@ -247,7 +213,6 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
       add_legacy_name("L123.out_EJ_province_ownuse_elec") %>%
       add_precursors("gcam-china/province_names_mappings",
                      "gcam-china/CPSY_GWh_province_F_elec_out",
-                     "L123.in_EJ_R_elec_F_Yh",
                      "L123.out_EJ_R_elec_F_Yh",
                      "L126.in_EJ_R_elecownuse_F_Yh",
                      "L126.out_EJ_R_elecownuse_F_Yh",
