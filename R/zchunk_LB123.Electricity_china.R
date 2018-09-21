@@ -12,7 +12,7 @@
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
-#' @author Liu August 2018
+#' @author YanLiu August 2018
 module_gcam.china_LB123.Electricity <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "gcam-china/CPSY_GWh_province_F_elec_out",
@@ -31,9 +31,10 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
   } else if(command == driver.MAKE) {
 
     # =============================================================================
-    other <- row <- oil <- natural.gas <- coal<- coal.adj <- wind <- wind.adj<- nuclear<- nuc.adj <-
-      solar <- solar.adj <- biomass <- fuel <- value <- province  <- sector <- year <- copy_rl <- copy_g <-
-      pct <- each <-Sum <- value.x <- value.y <- sector.x <- sector.y <- fuel.x <- fuel.y <- NULL     # silence package check.
+    GCAM_region_ID <- other <- row <- oil <- natural.gas <- coal<- coal.adj <- wind <- wind.adj <-
+      nuclear<- nuc.adj <- solar <- solar.adj <- biomass <- fuel <- value <- province  <- sector <- year <-
+      pct <- each <- Sum <- value.x <- value.y <- sector.x <- sector.y <- fuel.x <- fuel.y <- NULL     # silence package check.
+
     all_data <- list(...)[[1]]
 
 
@@ -72,9 +73,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
       mutate(value = approx_fun(year, value, rule = 2)) %>%
       ungroup %>%
       mutate(fuel = as.character(fuel)) ->
-      L132.GWh_province_F_elec_out
-
-
+      L123.GWh_province_F_elec_out
 
     # Oil and gas does not exist in the CPSY so we will use the CESY for those
     # Note these are in terms of energy in.  Since we are assuming constant efficiencies for all provinces
@@ -83,7 +82,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
       filter(sector == "electricity", fuel %in% c("refined liquids", "gas")) %>%
       replace_na(list(value = 0))  %>%
       select(-sector) %>%
-      bind_rows(L132.GWh_province_F_elec_out)  %>%
+      bind_rows(L123.GWh_province_F_elec_out)  %>%
       # In Tibet, refined liquids inherits oil and gas inherits natural gas
       mutate(fuel = replace(fuel, fuel == "oil" & province == "XZ", "refined liquids"),
              fuel = replace(fuel, fuel == "natural.gas" & province == "XZ", "gas"),
@@ -97,7 +96,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
       group_by(fuel, year) %>%
       mutate(pct = value / sum(value)) %>%
       ungroup %>%
-      mutate(fuel = replace(fuel, fuel == 'solar', 'solar PV')) %>%
+      mutate(fuel = replace(fuel, fuel == "solar", "solar PV")) %>%
       select(-value) %>%
       replace_na(list(pct = 0)) ->
       L123.pct_province_elec_F
@@ -105,8 +104,9 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
     # Electricity generation inputs by fuel and province
     # Note that fuel inputs are only available for selected fuels; province_share_data uses this relevant subset
     L123.pct_province_elec_F %>%
-      filter(fuel %in% unique(L123.in_EJ_R_elec_F_Yh$fuel) & year %in% HISTORICAL_YEARS) %>%
-      left_join_error_no_match(L123.in_EJ_R_elec_F_Yh %>% filter(GCAM_region_ID == gcamchina.REGION_ID, fuel %in% unique(L123.pct_province_elec_F$fuel)), by = c('year', 'fuel')) %>%
+      filter(fuel %in% unique(L123.in_EJ_R_elec_F_Yh$fuel), year %in% HISTORICAL_YEARS) %>%
+      left_join_error_no_match(L123.in_EJ_R_elec_F_Yh %>%
+                                 filter(GCAM_region_ID == gcamchina.REGION_ID), by = c("fuel", "year")) %>%
       mutate(value = value * pct) %>%
       select(-pct, -GCAM_region_ID) ->
       L123.in_EJ_province_elec_F
@@ -114,7 +114,8 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
     # Electricity generation outputs by fuel and province
     L123.pct_province_elec_F %>%
       filter(fuel %in% unique(L123.out_EJ_R_elec_F_Yh$fuel), year %in% HISTORICAL_YEARS) %>%
-      left_join_error_no_match(L123.out_EJ_R_elec_F_Yh %>% filter(GCAM_region_ID == gcamchina.REGION_ID, fuel %in% unique(L123.pct_province_elec_F$fuel)), by = c('year', 'fuel')) %>%
+      left_join_error_no_match(L123.out_EJ_R_elec_F_Yh %>%
+                                 filter(GCAM_region_ID == gcamchina.REGION_ID), by = c("fuel", "year")) %>%
       mutate(value = value * pct) %>%
       select(-pct, -GCAM_region_ID) ->
       L123.out_EJ_province_elec_F
@@ -130,43 +131,33 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
 
     # Then build table with each province's share of the national ownuse. Note that this is assumed invariant over time.
     # Net own use = national total by each province's share
-    L123.net_EJ_CHINA_ownuse %>%
-      filter(GCAM_region_ID == gcamchina.REGION_ID) ->
-      L123.net_EJ_province_ownuse_elec
-
     L123.out_EJ_province_elec_F %>%
       group_by(province, year) %>%
-      summarise(value = sum(elec_F)) %>%
+      summarise(value = sum(value)) %>%
       ungroup %>%
       group_by(year) %>%
       mutate(value = value / sum(value)) %>%
       ungroup  %>%
-      mutate(sector = 'electricity ownuse',
-              fuel = 'electricity') %>%
+      mutate(sector = "electricity ownuse", fuel = "electricity") %>%
       replace_na(list(value = 0)) %>%
-      left_join_error_no_match(L123.net_EJ_province_ownuse_elec, by = c("sector", "fuel", "year")) %>%
+      left_join_error_no_match(L123.net_EJ_CHINA_ownuse, by = c("sector", "fuel", "year")) %>%
       mutate(value = value.x * value.y) %>%
-      select(-value.x, -value.y) ->
+      select(province, sector, fuel, year, value) ->
       L123.net_EJ_province_ownuse_elec
 
     # The input of the electricity_net_ownuse sector is equal to sum of all generation (industrial CHP + electric sector)
     L123.out_EJ_province_elec_F %>%
-      rename(value = elec_F) %>%
       bind_rows(L132.out_EJ_province_indchp_F) %>%
       group_by(province, year) %>%
       summarise(value = sum(value)) %>%
       ungroup %>%
-      mutate(sector = 'electricity ownuse',
-             fuel = 'electricity') ->
+      mutate(sector = "electricity ownuse", fuel = "electricity") ->
       L123.in_EJ_province_ownuse_elec
-
 
     # Output of electricity_net_ownuse sector is equal to input minus ownuse "net" energy
     L123.in_EJ_province_ownuse_elec %>%
-      left_join_error_no_match(L123.net_EJ_province_ownuse_elec, by = c('province', 'year')) %>%
-      mutate(value = value.x - value.y,
-             sector = sector.x,
-             fuel = fuel.x) %>%
+      left_join_error_no_match(L123.net_EJ_province_ownuse_elec, by = c("province", "sector", "fuel", "year")) %>%
+      mutate(value = value.x - value.y) %>%
       select(province, sector, fuel, year, value) ->
       L123.out_EJ_province_ownuse_elec
 
@@ -204,7 +195,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
                      "L123.out_EJ_R_elec_F_Yh",
                      "L101.inNBS_Mtce_province_S_F",
                      "L132.out_EJ_province_indchp_F") ->
-      L123.in_EJ_province_elec_F
+      L123.in_EJ_province_ownuse_elec
 
     L123.out_EJ_province_ownuse_elec %>%
       add_title("Output of electricity net ownuse by province") %>%
