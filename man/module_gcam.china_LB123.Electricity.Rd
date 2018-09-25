@@ -24,5 +24,5 @@ Electricity sector inputs and outputs, and electricity ownuse.
 Compute electricity sector inputs and outputs, and electricity ownuse.
 }
 \author{
-Liu August 2018
+YanLiu August 2018
 }
