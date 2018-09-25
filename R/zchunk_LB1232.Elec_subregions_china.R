@@ -6,7 +6,7 @@
 #' @param ... other optional parameters, depending on command
 #' @return Depends on \code{command}: either a vector of required inputs,
 #' a vector of output names, or (if \code{command} is "MAKE") all
-#' the generated outputs: \code{L1232.out_EJ_sR_elec}. The corresponding file in the
+#' the generated outputs: \code{L1232.out_EJ_sR_elec_CHINA}. The corresponding file in the
 #' original data system was \code{LB1232.Elec_subregions.R} (gcam-china level1).
 #' @details Aggregates CHINA province electricity generation to electricity subregions.
 #' @importFrom assertthat assert_that
@@ -18,7 +18,7 @@ module_gcam.china_LB1232.Elec_subregions_china <- function(command, ...) {
     return(c(FILE = "gcam-china/province_names_mappings",
              "L1231.out_EJ_province_elec_F_tech"))
   } else if(command == driver.DECLARE_OUTPUTS) {
-    return(c("L1232.out_EJ_sR_elec"))
+    return(c("L1232.out_EJ_sR_elec_CHINA"))
   } else if(command == driver.MAKE) {
 
     all_data <- list(...)[[1]]
@@ -33,7 +33,7 @@ module_gcam.china_LB1232.Elec_subregions_china <- function(command, ...) {
 
     # ===================================================
     # Aggregating provinces to electricity subregions
-    L1232.out_EJ_sR_elec <- L1231.out_EJ_province_elec_F_tech %>%
+    L1232.out_EJ_sR_elec_CHINA <- L1231.out_EJ_province_elec_F_tech %>%
       left_join_error_no_match(province_names_mappings, by = "province") %>%
       group_by(grid_region, sector, year) %>%
       summarise(value = sum(value)) %>%
@@ -43,11 +43,11 @@ module_gcam.china_LB1232.Elec_subregions_china <- function(command, ...) {
     add_title("Electricity generation by FERC region/fuel/technology") %>%
       add_units("EJ") %>%
       add_comments("L1231.out_EJ_province_elec_F_tech aggregated to FERC region") %>%
-      add_legacy_name("L1232.out_EJ_sR_elec") %>%
+      add_legacy_name("L1232.out_EJ_sR_elec_CHINA") %>%
       add_precursors("gcam-china/province_names_mappings",
                      "L1231.out_EJ_province_elec_F_tech")
 
-    return_data(L1232.out_EJ_sR_elec)
+    return_data(L1232.out_EJ_sR_elec_CHINA)
   } else {
     stop("Unknown command")
   }
