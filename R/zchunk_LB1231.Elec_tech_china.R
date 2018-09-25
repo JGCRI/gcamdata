@@ -41,30 +41,35 @@ module_gcam.china_LB1231.Elec_tech_china<- function(command, ...) {
     # ==================================================
     # Downscaling of electricity by fuel to fuel and technology
     # Computing nation-level shares of technology within fuel
-    L1231.share_elec_F_tech <- L1231.out_EJ_R_elec_F_tech_Yh %>%
-      filter(GCAM_region_ID == gcam.USA_CODE) %>%
+    L1231.out_EJ_R_elec_F_tech_Yh %>%
+      filter(GCAM_region_ID == gcamchina.REGION_ID) %>%
       left_join_error_no_match(L123.out_EJ_R_elec_F_Yh, by = c("GCAM_region_ID", "fuel", "year")) %>%
       # Value is equal to technology total / fuel total
       mutate(value = value.x / value.y) %>%
       replace_na(list(value = 0)) %>%
       # Repeat for all provinces
-      repeat_add_columns(tibble(province = gcamchina.STATES)) %>%
-      select(province, sector = sector.x, fuel, technology, year, value)
+      repeat_add_columns(tibble(province = gcamchina.PROVINCES)) %>%
+      select(province, sector = sector.x, fuel, technology, year, value) ->
+      L1231.share_elec_F_tech
 
     # Multiply the tech shares by the input and output by province and fuel
-    L1231.in_EJ_province_elec_F_tech <- L1231.share_elec_F_tech %>%
+    L1231.share_elec_F_tech %>%
       # only the fuels that use "inputs" (oil, gas, coal, biomass)
       filter(fuel %in% L1231.in_EJ_R_elec_F_tech_Yh$fuel) %>%
-      left_join_error_no_match(L123.in_EJ_province_elec_F, by = c("province", "sector", "fuel", "year")) %>%
-      # State/Technology output = technology share * province/fuel output
+      left_join(L123.in_EJ_province_elec_F, by = c("province", "sector", "fuel", "year")) %>%
+      # Province/Technology output = technology share * province/fuel output
       mutate(value = value.x * value.y) %>%
-      select(-value.x, - value.y)
+      select(-value.x, - value.y) ->
+      L1231.in_EJ_province_elec_F_tech
 
-    L1231.out_EJ_province_elec_F_tech <- L1231.share_elec_F_tech %>%
-      left_join_error_no_match(L123.out_EJ_province_elec_F, by = c("province", "sector", "fuel", "year")) %>%
-      # State/Technology output = technology share * province/fuel output
+    L1231.share_elec_F_tech %>%
+      # Use left_join because L123.out_EJ_province_elec_F does not contain solar CSP.
+      left_join(L123.out_EJ_province_elec_F, by = c("province", "sector", "fuel", "year")) %>%
+      replace_na(list(value.y = 0)) %>%
+      # Province/Technology output = technology share * province/fuel output
       mutate(value = value.x * value.y) %>%
-      select(-value.x, - value.y)
+      select(-value.x, - value.y) ->
+      L1231.out_EJ_province_elec_F_tech
 
     # ===================================================
 
@@ -78,7 +83,8 @@ module_gcam.china_LB1231.Elec_tech_china<- function(command, ...) {
                      "L1231.out_EJ_R_elec_F_tech_Yh",
                      "L1231.in_EJ_R_elec_F_tech_Yh",
                      "L123.in_EJ_province_elec_F",
-                     "L123.out_EJ_province_elec_F") ->
+                     "L123.out_EJ_province_elec_F") %>%
+      add_flags(FLAG_PROTECT_FLOAT, FLAG_SUM_TEST) ->
       L1231.in_EJ_province_elec_F_tech
 
     L1231.out_EJ_province_elec_F_tech %>%
@@ -88,7 +94,8 @@ module_gcam.china_LB1231.Elec_tech_china<- function(command, ...) {
       add_legacy_name("L1231.out_EJ_province_elec_F_tech") %>%
       add_precursors("L123.out_EJ_R_elec_F_Yh",
                      "L1231.out_EJ_R_elec_F_tech_Yh",
-                     "L123.out_EJ_province_elec_F") ->
+                     "L123.out_EJ_province_elec_F") %>%
+      add_flags(FLAG_PROTECT_FLOAT, FLAG_SUM_TEST) ->
       L1231.out_EJ_province_elec_F_tech
 
     return_data(L1231.in_EJ_province_elec_F_tech, L1231.out_EJ_province_elec_F_tech)
