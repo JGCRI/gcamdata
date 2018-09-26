@@ -24,18 +24,18 @@ module_gcam.china_LB1232.Elec_subregions_china <- function(command, ...) {
     all_data <- list(...)[[1]]
 
     # Silence package checks
-    province <- grid_region <- year <- value <- sector <- NULL
+    province <- grid.region <- year <- value <- sector <- NULL
 
     # Load required inputs
     province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings") %>%
-      select(province, grid_region)
+      select(province, grid.region)
     L1231.out_EJ_province_elec_F_tech <- get_data(all_data, "L1231.out_EJ_province_elec_F_tech")
 
     # ===================================================
     # Aggregating provinces to electricity subregions
     L1232.out_EJ_sR_elec_CHINA <- L1231.out_EJ_province_elec_F_tech %>%
-      left_join_error_no_match(province_names_mappings, by = "province") %>%
-      group_by(grid_region, sector, year) %>%
+      left_join(province_names_mappings, by = "province") %>%
+      group_by(grid.region, sector, year) %>%
       summarise(value = sum(value)) %>%
       ungroup() %>%
       # ===================================================
