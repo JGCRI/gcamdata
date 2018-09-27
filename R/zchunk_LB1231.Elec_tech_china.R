@@ -82,9 +82,8 @@ module_gcam.china_LB1231.Elec_tech_china<- function(command, ...) {
       add_precursors("L123.out_EJ_R_elec_F_Yh",
                      "L1231.out_EJ_R_elec_F_tech_Yh",
                      "L1231.in_EJ_R_elec_F_tech_Yh",
-                     "L123.in_EJ_province_elec_F",
-                     "L123.out_EJ_province_elec_F") %>%
-      add_flags(FLAG_PROTECT_FLOAT, FLAG_SUM_TEST) ->
+                     "L123.in_EJ_province_elec_F") %>%
+      add_flags(FLAG_PROTECT_FLOAT) ->
       L1231.in_EJ_province_elec_F_tech
 
     L1231.out_EJ_province_elec_F_tech %>%
