@@ -10,7 +10,7 @@
 #' original data system was \code{LA123.electricity.R} (energy level1).
 #' @details This script creates electricity generation and inputs by fuel, region and historical year. Estimates are adjusted by efficiency factors.
 #' @importFrom assertthat assert_that
-#' @importFrom dplyr filter full_join funs if_else group_by left_join mutate select semi_join summarise summarise_all
+#' @importFrom dplyr filter full_join if_else group_by left_join mutate select semi_join summarise summarise_all
 #' @importFrom tidyr gather spread
 #' @author FF April 2017
 module_energy_LA123.electricity <- function(command, ...) {
@@ -56,7 +56,7 @@ module_energy_LA123.electricity <- function(command, ...) {
       select(-electricity, -value) %>%
       filter(fuel %in% energy.ELECTRICITY_INPUT_FUELS) %>%
       group_by(GCAM_region_ID, sector, fuel, year) %>%
-      summarise_all(funs(sum)) %>%
+      summarise_all(list(~sum)) %>%
       ungroup() ->
       L123.in_EJ_R_elec_F_Yh
 
@@ -69,7 +69,7 @@ module_energy_LA123.electricity <- function(command, ...) {
       mutate(fuel = electricity, outputs = value) %>%
       select(-electricity, -value) %>%
       group_by(GCAM_region_ID, sector, fuel, year) %>%
-      summarise_all(funs(sum)) %>%
+      summarise_all(list(~sum)) %>%
       ungroup() %>%
       filter(!is.na(fuel)) ->
       L123.out_EJ_R_elec_F_Yh
@@ -127,7 +127,7 @@ module_energy_LA123.electricity <- function(command, ...) {
       mutate(fuel = replace(fuel, fuel == "heat", NA),
              fuel = replace(fuel, fuel == "electricity", NA)) %>%
       group_by(GCAM_region_ID, sector, fuel, year) %>%
-      summarise_all(funs(sum)) %>%
+      summarise_all(list(~sum)) %>%
       ungroup() %>%
       filter(!is.na(fuel)) ->
       L123.out_EJ_R_indchp_F_Yh

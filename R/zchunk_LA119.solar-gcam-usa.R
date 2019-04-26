@@ -10,7 +10,7 @@
 #' original data system was \code{LA119.Solar.R} (gcam-usa level1).
 #' @details This chunk computes scalars by state to vary capacity factors for central station PV and CSP technologies by state.
 #' @importFrom assertthat assert_that
-#' @importFrom dplyr filter funs if_else group_by mutate select summarise summarise_at vars
+#' @importFrom dplyr filter if_else group_by mutate select summarise summarise_at vars
 #' @importFrom tidyr gather spread
 #' @author GI, FF, AS Apr 2017
 module_gcam.usa_LA119.Solar <- function(command, ...) {
@@ -45,7 +45,7 @@ module_gcam.usa_LA119.Solar <- function(command, ...) {
     # Calculate average capacity factor by fuel (not including the 0 capacity factors)
     NREL_us_re_capacity_factors_longform %>%
       group_by(fuel) %>%
-      summarise_at(vars(value), funs(mean(.[. != 0]))) -> # Average does not include 0 capacity factors
+      summarise_at(vars(value), list(~mean(.[. != 0]))) -> # Average does not include 0 capacity factors
       Capacityfactor_average
 
     # Creating scalers by state by dividing capacity factor by the average
