@@ -17,7 +17,8 @@ test_that("screening for use of forbidden functions works", {
     z <- ifelse(x > 10, 10, x)
     d %>%
       mutate(x = 1) %>%
-      mutate(y = 2)
+      mutate(y = 2) %>%
+      summarise_all(funs(sum))
     dd <- melt(d)
     df <- cast(dd)
     dfm <- merge(d, dd)
@@ -30,7 +31,7 @@ test_that("screening for use of forbidden functions works", {
   tb <- screen_forbidden(testbad)
   expect_equivalent(tb[,1], c("consecutive mutate calls", "(?<!error_no_)match(?!es)",
                          "ifelse", "ifelse", "melt", "cast", "rbind",
-                         "cbind", "merge"))
+                         "cbind", "merge", "funs"))
 })
 
 

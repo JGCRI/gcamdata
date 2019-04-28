@@ -442,7 +442,7 @@ screen_forbidden <- function(fn) {
                  "melt", "cast",
                  "rbind", "cbind", "merge",
                  "read\\.csv", "write\\.csv",
-                 "summarise_each", "mutate_each")
+                 "summarise_each", "mutate_each", "funs")
 
   code <- capture.output(fn)
   code <- gsub("#.*$", "", code)      # remove comments
