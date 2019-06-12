@@ -1,6 +1,6 @@
 #' module_gcam.china_L201.socioeconomics
 #'
-#' Interest rate, population, and GDP for GCAM-China.
+#' Interest rate, population, labor productivity, and GDP for GCAM-China.
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
