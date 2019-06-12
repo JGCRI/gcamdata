@@ -6,8 +6,8 @@
 #' @param ... other optional parameters, depending on command
 #' @return Depends on \code{command}: either a vector of required inputs,
 #' a vector of output names, or (if \code{command} is "MAKE") all
-#' the generated outputs: \code{L210.RenewRsrc_CHINA},\code{L210.UnlimitRsrc_CHINA},
-#' \code{L210.UnlimitRsrcPrice_CHINA},\code{L210.SmthRenewRsrcCurves_wind_CHINA},
+#' the generated outputs: \code{L210.RenewRsrc_CHINA},\code{L210.UnlimitRsrc_CHINA},\code{L210.UnlimitRsrc_limestone_CHINA},
+#' \code{L210.UnlimitRsrcPrice_CHINA}, \code{L210.UnlimitRsrcPrice_limestone_CHINA},\code{L210.SmthRenewRsrcCurves_wind_CHINA},
 #' The corresponding file in the
 #' original data system was \code{L210.resources_CHINA.R} (gcam-china level2).
 #' @details GCAM-China resource market information, prices, TechChange parameters, and supply curves.
@@ -18,9 +18,10 @@
 
 module_gcam.china_L210.Resources_china <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
-    return(c(FILE = "gcam-china/wind_potential_province",
+    return(c(FILE = "gcam-china/province_names_mappings",
+             FILE = "gcam-china/wind_potential_province",
              "L1321.out_Mt_province_cement_Yh",
-             "L1231.out_EJ_province_elec_F_tech",
+             FILE = "temp-data-inject/L1231.out_EJ_province_elec_F_tech",
              "L210.RenewRsrc",
              "L210.UnlimitRsrc",
              "L210.UnlimitRsrcPrice",
@@ -43,9 +44,10 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
       state <- unlimited.resource <- value <- year <- year.fillout <- . <- NULL
 
     # Load required inputs
-    wind_potential_province <- getdata( all_data, "gcam-china/wind_potential_province" )
+    province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
+    wind_potential_province <- get_data( all_data, "gcam-china/wind_potential_province" )
     L1321.out_Mt_province_cement_Yh <- get_data(all_data, "L1321.out_Mt_province_cement_Yh")
-    L1231.out_EJ_province_elec_F_tech <- get_data(all_data, "L1231.out_EJ_province_elec_F_tech")
+    L1231.out_EJ_province_elec_F_tech <- get_data(all_data, "temp-data-inject/L1231.out_EJ_province_elec_F_tech")
     L210.RenewRsrc <- get_data(all_data, "L210.RenewRsrc")
     L210.UnlimitRsrc <- get_data(all_data, "L210.UnlimitRsrc")
     L210.UnlimitRsrcPrice <- get_data(all_data, "L210.UnlimitRsrcPrice")
@@ -53,9 +55,9 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     # ===================================================
     cement_provinces <- unique( L1321.out_Mt_province_cement_Yh$province )
 
-    geo_provinces <- gcamchina.PROVINCES[ !gcamchina.PROVINCES %in% L1231.out_EJ_province_elec_F_tech$province[ L1231.out_EJ_province_elec_F_tech$fuel == "geothermal" &
-                                                                                              L1231.out_EJ_province_elec_F_tech$X2010 == 0 ] ]
-    geo_provinces_noresource <- paste( gcamchina.PROVINCES[ !gcamchina.PROVINCES %in% geo_provinces ], "geothermal" )
+    no_geo_provinces <- gcamchina.PROVINCES[ gcamchina.PROVINCES %in% L1231.out_EJ_province_elec_F_tech$province[ L1231.out_EJ_province_elec_F_tech$fuel == "geothermal" &
+                                                                                                                     L1231.out_EJ_province_elec_F_tech$X2010 == 0 ] ]
+    no_geo_provinces_resource <- tibble( region = no_geo_provinces, renewresource = "geothermal")
 
     # L210.RenewRsrc_CHINA: renewable resource info in the provinces
     L210.RenewRsrc_CHINA <- L210.RenewRsrc %>%
@@ -63,7 +65,7 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
              renewresource %in% gcamchina.PROVINCE_RENEWABLE_RESOURCES) %>%
       write_to_all_provinces(LEVEL2_DATA_NAMES[["RenewRsrc"]]) %>%
       # Remove geothermal from provinces that don't have it
-      anti_join(geo_provinces_noresource, by = c("region", "renewresource")) %>%
+      anti_join(no_geo_provinces_resource, by = c("region", "renewresource")) %>%
       mutate(market = region)
 
     # L210.UnlimitRsrc_CHINA: unlimited resource info in the provinces
@@ -97,9 +99,11 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     # L210.SmthRenewRsrcCurves_wind_CHINA: wind resource curves in the provinces
     L210.SmthRenewRsrcCurves_wind_CHINA <- L210.SmthRenewRsrcCurves_wind %>%
       filter(region == "China") %>%
-      repeat_add_columns(tibble(province = gcamchina.PROVINCES)) %>%
+      repeat_add_columns(tibble(province = gcamchina.PROVINCES))
+      left_join_error_no_match(province_names_mappings, by = "province") %>%
+      select()
        # Add in new maxSubResource, mid.price, and curve.exponent from wind_potential_province
-      left_join_error_no_match(wind_potential_province, by = c("province" = "region")) %>%
+      left_join_error_no_match(wind_potential_province, by = c("province" = "province.name"))
       # Convert wind_potential_province units from 2007$/kWh to 1975$/GJ
       mutate(mid_price = mid_price * gdp_deflator(1975, 2007) / CONV_KWH_GJ) %>%
       select(region = province, renewresource, smooth.renewable.subresource, year.fillout,

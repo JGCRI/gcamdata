@@ -647,3 +647,7 @@ gcamchina.TIBET_NATIONAL_ENERGY_SHARE <- 0.01
 gcamchina.PROVINCES <- c("AH", "BJ", "CQ", "FJ", "GD", "GS", "GX", "GZ", "HA", "HB", "HE", "HI", "HL", "HN", "JL", "JS", "JX", "LN", "NM", "NX", "QH", "SC", "SD", "SH",
                          "SN", "SX", "TJ", "XJ", "XZ", "YN", "ZJ")
 
+# Resources that will be modeled at the province level
+gcamchina.PROVINCE_RENEWABLE_RESOURCES <- c("distributed_solar", "geothermal", "onshore wind resource")
+gcamchina.PROVINCE_UNLIMITED_RESOURCES <- c("global solar resource", "limestone")
+
