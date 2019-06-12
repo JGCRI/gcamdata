@@ -66,9 +66,10 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
       write_to_all_provinces(LEVEL2_DATA_NAMES[["RenewRsrc"]]) %>%
       # Remove geothermal from provinces that don't have it
       anti_join(no_geo_provinces_resource, by = c("region", "renewresource")) %>%
-      mutate(market = region)
+      mutate(market = ifelse(renewresource != "onshore wind resource", "China", region))
 
     # L210.UnlimitRsrc_CHINA: unlimited resource info in the provinces
+    # TODO: If needed, add in capacity factor (from old data system, seems to be 0.3 for solar, 0 for limestone)
     L210.UnlimitRsrc_CHINA <- L210.UnlimitRsrc %>%
       filter(region == "China",
              unlimited.resource %in% gcamchina.PROVINCE_UNLIMITED_RESOURCES) %>%
@@ -99,15 +100,15 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     # L210.SmthRenewRsrcCurves_wind_CHINA: wind resource curves in the provinces
     L210.SmthRenewRsrcCurves_wind_CHINA <- L210.SmthRenewRsrcCurves_wind %>%
       filter(region == "China") %>%
-      repeat_add_columns(tibble(province = gcamchina.PROVINCES))
+      repeat_add_columns(tibble(province = gcamchina.PROVINCES)) %>%
       left_join_error_no_match(province_names_mappings, by = "province") %>%
-      select()
+      select(-maxSubResource, -mid.price, -curve.exponent) %>%
        # Add in new maxSubResource, mid.price, and curve.exponent from wind_potential_province
-      left_join_error_no_match(wind_potential_province, by = c("province" = "province.name"))
+      left_join_error_no_match(wind_potential_province, by = c("province.name")) %>%
       # Convert wind_potential_province units from 2007$/kWh to 1975$/GJ
-      mutate(mid_price = mid_price * gdp_deflator(1975, 2007) / CONV_KWH_GJ) %>%
+      mutate(mid.price = mid.price * gdp_deflator(1975, 2007) / CONV_KWH_GJ) %>%
       select(region = province, renewresource, smooth.renewable.subresource, year.fillout,
-             maxSubResource = maxResource, mid.price = mid_price, curve.exponent = curve_exponent)
+             maxSubResource = maxResource, mid.price, curve.exponent)
 
     # ===================================================
 
