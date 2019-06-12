@@ -77,7 +77,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
 
     # Oil and gas does not exist in the CPSY so we will use the CESY for those
     # Note these are in terms of energy in.  Since we are assuming constant efficiencies for all provinces
-    # mixing these with the elec_out will be fine for approtioning to provinces
+    # mixing these with the elec_out will be fine for apportioning to provinces
     L101.inNBS_Mtce_province_S_F %>%
       filter(sector == "electricity", fuel %in% c("refined liquids", "gas")) %>%
       replace_na(list(value = 0))  %>%
@@ -163,6 +163,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
 
 
     # ===================================================
+    # 3.Produce outputs
     L123.in_EJ_province_elec_F %>%
       add_title("Electricity sector energy consumption by province and fuel") %>%
       add_units("EJ") %>%
