@@ -1,6 +1,6 @@
 #' module_gcam.china_L225.hydrogen_china
 #'
-#' Selects the subsectors to be removed from the hydrogen sectors for GCAM-China
+#' Selects the subsectors to be removed from the hydrogen sectors in GCAM-China
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
@@ -8,7 +8,7 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L225.DeleteSubsector_h2_CHINA}. The corresponding file in the
 #' original data system was \code{L225.hydrogen_CHINA.R} (gcam-china level2).
-#' @details This chunk selects the subsectors to be removed from the hydrogen sectors in GCAM-China on the national level.
+#' @details This chunk selects the subsectors to be removed from the hydrogen sectors in GCAM-China at the national level.
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
@@ -29,12 +29,12 @@ module_gcam.china_L225.hydrogen_china <- function(command, ...) {
 
     # ===================================================
     # This chunk selects the subsectors to be removed from the
-    # hydrogen sectors in GCAM CHINA on the national level.
+    # hydrogen sectors in GCAM CHINA at the national level.
 
-    # Since there is no basis for inter-state competition in the hydrogen sector
+    # Since there is no basis for inter-province competition in the hydrogen sector
     # keep the logit exponents for hydrogen at the national level for GCAM CHINA.
     # Select the wind, solar, and electricity subsectors because these resources do
-    # not exists in the national level in GCAM CHINA.
+    # not exists at the national level in GCAM CHINA.
     L225.SubsectorLogit_h2 %>%
       # Copy the region column to remove the attributes from the data frame.
       mutate(region = region) %>%
