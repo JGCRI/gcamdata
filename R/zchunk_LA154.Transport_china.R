@@ -1,6 +1,6 @@
 #' module_gcam.china_LA154.Transport
 #'
-#' Downscale transportation energy consumption and nonmotor data to the province level, generating three ouput tables.
+#' Downscale transportation energy consumption and nonmotor data to the provincial level, generating three ouput tables.
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
@@ -8,8 +8,8 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L154.in_EJ_province_trn_m_sz_tech_F}, \code{L154.out_mpkm_province_trn_nonmotor_Yh}, \code{L154.in_EJ_province_trn_F}. The corresponding file in the
 #' original data system was \code{LA154.Transport.R} (gcam-china level1).
-#' @details Transportation energy data was downscaled in proportion to NBS province-level transportation energy data
-#' @details Transportation nonmotor data was downscaled in proportion to province population
+#' @details Transportation energy data was downscaled in proportion to NBS provincial-level transportation energy data
+#' @details Transportation nonmotor data was downscaled in proportion to provincial population
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
@@ -43,23 +43,23 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
       GCAM_region_ID <- year <- value <- UCD_sector <- size.class <- UCD_technology <- UCD_fuel <- fuel <- EBProcess <- EBMaterial <-
       fuel_sector <- province <- sector <- value_national <- value_share <- pop <- value_mode <- NULL
 
-      # Calculate the province-wise percentages for each of NBS's sector/fuel combinations that is relevant for disaggregating
-      # nation-level transportation energy to the provinces
+      # Calculate the provincial-wise percentages for each of NBS's sector/fuel combinations that is relevant to disaggregating
+      # national-level transportation energy to the provinces
 
       # This starting table is transportation energy consumption by GCAM region (and other variables)
-      # We will first subset this data for only the china and values that are > 0 in the historical periods
+      # We will first subset this data for only China and values that are > 0 in the historical periods
 
       L154.in_EJ_R_trn_m_sz_tech_F_Yh %>%
         # Drops the years with zero value
         filter(value != 0) %>%
-        # Filter for the china and for historical years only
+        # Filter for China and for historical years only
         filter(year %in% HISTORICAL_YEARS, GCAM_region_ID == gcamchina.REGION_ID) %>%
         complete(nesting(GCAM_region_ID, UCD_sector, mode, size.class, UCD_technology, UCD_fuel, fuel), year = HISTORICAL_YEARS, fill = list(value = 0)) %>%
         # Fuel and mode will be mapped to NBS fuel and sector
         left_join_error_no_match(trnUCD_NBS_mapping, by = c("fuel", "mode")) ->
         L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh
 
-      # To delate the confilct category caused by Hong Kong and macau
+      # To delete the conflict size class caused by Hong Kong and Macau
       L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh %>%
         mutate(size.class = replace(size.class, mode == "Bus" & size.class == "All", "Light Bus")) %>%
         mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (0-2t)", "Truck (0-6t)")) %>%
@@ -72,7 +72,7 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
         L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh
 
 
-      # Next, extract the relevant NBS sector & fuel combinations from the full province database
+      # Next, extract the relevant NBS sector & fuel combinations from the full provincial database
       L101.NBS_use_all_Mtce %>%
         # Ensure within historical period
         filter(year %in% HISTORICAL_YEARS) %>%
@@ -91,7 +91,7 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
         ungroup() ->
         L154.NBS_trn_Mtce_province
 
-      # Now the province shares can be calculated
+      # Now the provincial shares can be calculated
       L154.NBS_trn_Mtce_province %>%
         group_by(EBProcess, EBMaterial, year) %>%
         mutate(value_share = value / sum(value, na.rm = T)) %>%
@@ -109,7 +109,7 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
         L154.in_EJ_province_trn_m_sz_tech_F
 
       # As a final step, aggregate by fuel and name the sector
-      # This creates the second of three output tables
+      # This creates one of three output tables
       L154.in_EJ_province_trn_m_sz_tech_F %>%
         group_by(province, fuel, year) %>%
         summarise(value = sum(value)) %>%
@@ -120,7 +120,7 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
         L154.in_EJ_province_trn_F
 
       # Apportion non-motorized energy consumption to provinces on the basis of population
-      # First we will create the province shares based on population
+      # First we will create the provincial shares based on population
       L100.Pop_thous_province %>%
         complete(province, year = c(1971:2100)) %>%
         group_by(province) %>%
@@ -144,7 +144,7 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
     L154.in_EJ_province_trn_m_sz_tech_F %>%
       add_title("Transportation energy consumption by province, sector, mode, size class, and fuel") %>%
       add_units("EJ") %>%
-      add_comments("Transportation energy consumption data was downscaled to the province level using NBS province energy data") %>%
+      add_comments("Transportation energy consumption data was downscaled to the provincial level using NBS provincial energy data") %>%
       add_legacy_name("L154.in_EJ_province_trn_m_sz_tech_F") %>%
       add_precursors("L154.in_EJ_R_trn_m_sz_tech_F_Yh", "gcam-china/trnUCD_NBS_mapping", "L101.NBS_use_all_Mtce", "L101.inNBS_Mtce_province_S_F") %>%
       add_flags(FLAG_PROTECT_FLOAT) ->
@@ -153,7 +153,7 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
     L154.out_mpkm_province_trn_nonmotor_Yh %>%
       add_title("Transportation non-motorized travel by mode and province") %>%
       add_units("million person-km") %>%
-      add_comments("National data was allocated across the provinces in proportion to population") %>%
+      add_comments("National data was allocated across provinces in proportion to population") %>%
       add_legacy_name("L154.out_mpkm_province_trn_nonmotor_Yh") %>%
       add_precursors("L154.out_mpkm_R_trn_nonmotor_Yh", "L100.Pop_thous_province")  %>%
       # Differences are small.(1e-11)
