@@ -8,7 +8,7 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L201.InterestRate_CHINA}, \code{L201.Pop_GCAMCHINA}, \code{L201.BaseGDP_GCAMCHINA}, \code{L201.LaborForceFillout_CHINA}, \code{L201.LaborProductivity_GCAMCHINA}. The corresponding file in the
 #' original data system was \code{L201.socioeconomics_CHINA.R} (gcam-China level2).
-#' @details Interest rate, population, and GDP for GCAM-China.
+#' @details Interest rate, population, labor productivity, and GDP for GCAM-China.
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
 #' @importFrom tidyr gather spread
@@ -42,13 +42,13 @@ module_gcam.china_L201.socioeconomics <- function(command, ...) {
     # L201.InterestRate: Interest rates by region
     L201.InterestRate <- tibble(region = gcamchina.PROVINCES, interest.rate = socioeconomics.DEFAULT_INTEREST_RATE)
 
-    # L201.Pop_GCAMChina: Population by region from the GCAM 3.0 core scenario
+    # L201.Pop_GCAMChina: Population by region, downscaled based on UN population projection 
     L100.Pop_thous_province %>%
       filter(year %in% MODEL_YEARS) %>%
       mutate(totalPop = pop, region = province, pop = NULL, province = NULL) ->
       L201.Pop_GCAMCHINA
 
-    # L201.BaseGDP_GCAMChina: Base GDP for GCAM-China scenario
+    # L201.BaseGDP_GCAMChina: Base GDP for GCAM-China reference scenario
     L100.GDP_mil90usd_province %>%
       filter(year == min(MODEL_YEARS)) %>%
       rename(baseGDP = GDP,
@@ -67,7 +67,7 @@ module_gcam.china_L201.socioeconomics <- function(command, ...) {
     # Calculate the growth rate in per-capita GDP
     L100.pcGDP_thous90usd_province %>%
       filter(year %in% MODEL_YEARS) %>%
-      # In order to calculate growth rate we need to know how much GDP grew and number of years between periods
+      # In order to calculate growth rate we need to know how much GDP grows and number of years between periods
       mutate(growth = pcGDP / lag(pcGDP),
              timestep = year - lag(year),
              laborproductivity = round(growth ^ (1 / timestep) - 1, socioeconomics.LABOR_PRODUCTIVITY_DIGITS)) %>%
@@ -89,7 +89,7 @@ module_gcam.china_L201.socioeconomics <- function(command, ...) {
 
     L201.Pop_GCAMCHINA %>%
       add_title("Population by province") %>%
-      add_units("thoChinand persons") %>%
+      add_units("thousand persons") %>%
       add_comments("Data from L100.Pop_thous_province") %>%
       add_legacy_name("L201.Pop_GCAMChina") %>%
       add_precursors("L100.Pop_thous_province") ->
