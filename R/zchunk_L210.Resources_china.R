@@ -38,10 +38,9 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     all_data <- list(...)[[1]]
 
     # Silence package checks
-    Geothermal_Hydrothermal_GWh <- State <- available <- b_exp <- cost_modifier <- curve.exponent <- curve_exponent <-
-      extractioncost <- generation <- geothermal <- grade <- grade_share <- maxResource <- maxSubResource <- mid.price <-
-      mid_p <- mid_price <- object <- offtake <- offtake_share <- region <- renewresource <- smooth.renewable.subresource <-
-      state <- unlimited.resource <- value <- year <- year.fillout <- . <- NULL
+     curve.exponent <- maxResource <- maxSubResource <- mid.price <-
+     region <- renewresource <- smooth.renewable.subresource <-
+      unlimited.resource <- year.fillout <- province <- . <- NULL
 
     # Load required inputs
     province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
@@ -66,7 +65,7 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
       write_to_all_provinces(LEVEL2_DATA_NAMES[["RenewRsrc"]]) %>%
       # Remove geothermal from provinces that don't have it
       anti_join(no_geo_provinces_resource, by = c("region", "renewresource")) %>%
-      mutate(market = ifelse(renewresource != "onshore wind resource", "China", region))
+      mutate(market = if_else(renewresource != "onshore wind resource", "China", region))
 
     # L210.UnlimitRsrc_CHINA: unlimited resource info in the provinces
     # TODO: If needed, add in capacity factor (from old data system, seems to be 0.3 for solar, 0 for limestone)

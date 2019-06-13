@@ -14,8 +14,8 @@ module_gcam.china_L210.Resources_china(command, ...)
 \value{
 Depends on \code{command}: either a vector of required inputs,
 a vector of output names, or (if \code{command} is "MAKE") all
-the generated outputs: \code{L210.RenewRsrc_CHINA},\code{L210.UnlimitRsrc_CHINA},
-\code{L210.UnlimitRsrcPrice_CHINA},\code{L210.SmthRenewRsrcCurves_wind_CHINA},
+the generated outputs: \code{L210.RenewRsrc_CHINA},\code{L210.UnlimitRsrc_CHINA},\code{L210.UnlimitRsrc_limestone_CHINA},
+\code{L210.UnlimitRsrcPrice_CHINA}, \code{L210.UnlimitRsrcPrice_limestone_CHINA},\code{L210.SmthRenewRsrcCurves_wind_CHINA},
 The corresponding file in the
 original data system was \code{L210.resources_CHINA.R} (gcam-china level2).
 }

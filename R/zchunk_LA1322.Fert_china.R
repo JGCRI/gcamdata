@@ -35,7 +35,7 @@ module_gcam.china_LA1322.Fert <- function(command, ...) {
 
     # Silence package check
     year <- GCAM_region_ID <- value <- org <- sum <- province <-
-      sector <- fuel <- EBProcess <- EBMaterial <- multiplier <- NULL
+      sector <- fuel <- EBProcess <- EBMaterial <- multiplier <- output <- . <- NULL
 
     # ===================================================
     # Get province fertilizer production, input-output intensity coefficients, and
