@@ -116,7 +116,7 @@ CONV_MJ_BTU    <- 947.777
 CONV_MWH_GJ <- 3.6                      # Megawatt hours to Gigajoules
 CONV_TBTU_EJ   <- 0.0010551             # TeraBTU to EJ
 CONV_TWH_EJ <- 3.6e-3
-CONV_EJ_MTCE <- 34.12
+CONV_EJ_MTCE <- 34.12                   #EJ to Metric tons of coal equivalent
 
 # Other
 CONV_BM2_M2         <- 1e9
