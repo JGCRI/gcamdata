@@ -40,7 +40,7 @@ module_gcam.china_LB1232.Elec_subregions_china <- function(command, ...) {
       ungroup() %>%
       # ===================================================
     # Produce outputs
-    add_title("Electricity generation by FERC region/fuel/technology") %>%
+    add_title("Electricity generation by grid region/fuel/technology") %>%
       add_units("EJ") %>%
       add_comments("L1231.out_EJ_province_elec_F_tech aggregated to FERC region") %>%
       add_legacy_name("L1232.out_EJ_sR_elec_CHINA") %>%
