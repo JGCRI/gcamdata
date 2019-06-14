@@ -51,14 +51,16 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
 
     # -----------------------------------------------------------------------------
     # 2.perform computations
+    XZ_ELEC_REALLOC_YEAR <- 2010
+
     CPSY_GWh_province_F_elec_out %>%
       map_province_name(province_names_mappings, "province", TRUE) %>%
       # In Tibet, electricity in 'other' will be split between oil, gas, solar, and geothermal in 2010. For prior years
       # it will be moved into coal.
       mutate(oil = 0,
              natural.gas = 0,
-             oil = replace(oil, province == "XZ" & year == 2010, other[province == "XZ" & year == 2010] / 4),
-             natural.gas = replace(natural.gas, province == "XZ" & year == 2010, other[province == "XZ" & year == 2010] / 4),
+             oil = replace(oil, province == "XZ" & year == XZ_ELEC_REALLOC_YEAR, other[province == "XZ" & year == XZ_ELEC_REALLOC_YEAR] / 4),
+             natural.gas = replace(natural.gas, province == "XZ" & year == XZ_ELEC_REALLOC_YEAR, other[province == "XZ" & year == XZ_ELEC_REALLOC_YEAR] / 4),
              coal = coal + coal.adj,
              wind = wind + wind.adj,
              nuclear = nuclear + nuc.adj,
@@ -66,7 +68,8 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
       select(-other, -row, -coal.adj, -wind.adj, -nuc.adj, -solar.adj) %>%
       mutate(biomass = coal) %>%
       gather(fuel, value, -province, -year) %>%
-      filter(value == 0 | value > 0.1) %>%
+      # remove a few negative values, very small (order of 10^-15) in geothermal) allocated from "other"
+      filter(value >= 0) %>%
       complete(nesting(province, fuel), year = gcamchina.ELEC_HISTORICAL_YEARS) %>%
       arrange(province, fuel, year) %>%
       group_by(province, fuel) %>%
