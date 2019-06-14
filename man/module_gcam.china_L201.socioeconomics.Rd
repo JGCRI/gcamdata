@@ -18,10 +18,10 @@ the generated outputs: \code{L201.InterestRate_CHINA}, \code{L201.Pop_GCAMCHINA}
 original data system was \code{L201.socioeconomics_CHINA.R} (gcam-China level2).
 }
 \description{
-Interest rate, population, and GDP for GCAM-China.
+Interest rate, population, labor productivity, and GDP for GCAM-China.
 }
 \details{
-Interest rate, population, and GDP for GCAM-China.
+Interest rate, population, labor productivity, and GDP for GCAM-China.
 }
 \author{
 YangLiu Aug 2018

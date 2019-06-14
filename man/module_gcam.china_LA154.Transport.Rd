@@ -18,13 +18,13 @@ the generated outputs: \code{L154.in_EJ_province_trn_m_sz_tech_F}, \code{L154.ou
 original data system was \code{LA154.Transport.R} (gcam-china level1).
 }
 \description{
-Downscale transportation energy consumption and nonmotor data to the province level, generating three ouput tables.
+Downscale transportation energy consumption and nonmotor data to the provincial level, generating three ouput tables.
 }
 \details{
-Transportation energy data was downscaled in proportion to NBS province-level transportation energy data
+Transportation energy data was downscaled in proportion to NBS provincial-level transportation energy data
 
-Transportation nonmotor data was downscaled in proportion to province population
+Transportation nonmotor data was downscaled in proportion to provincial population
 }
 \author{
-Yang Aug 2018
+YangLiu Aug 2018
 }

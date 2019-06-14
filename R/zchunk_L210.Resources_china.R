@@ -21,7 +21,7 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     return(c(FILE = "gcam-china/province_names_mappings",
              FILE = "gcam-china/wind_potential_province",
              "L1321.out_Mt_province_cement_Yh",
-             FILE = "temp-data-inject/L1231.out_EJ_province_elec_F_tech",
+             "L1231.out_EJ_province_elec_F_tech",
              "L210.RenewRsrc",
              "L210.UnlimitRsrc",
              "L210.UnlimitRsrcPrice",
@@ -46,7 +46,7 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
     wind_potential_province <- get_data( all_data, "gcam-china/wind_potential_province" )
     L1321.out_Mt_province_cement_Yh <- get_data(all_data, "L1321.out_Mt_province_cement_Yh")
-    L1231.out_EJ_province_elec_F_tech <- get_data(all_data, "temp-data-inject/L1231.out_EJ_province_elec_F_tech")
+    L1231.out_EJ_province_elec_F_tech <- get_data(all_data, "L1231.out_EJ_province_elec_F_tech")
     L210.RenewRsrc <- get_data(all_data, "L210.RenewRsrc")
     L210.UnlimitRsrc <- get_data(all_data, "L210.UnlimitRsrc")
     L210.UnlimitRsrcPrice <- get_data(all_data, "L210.UnlimitRsrcPrice")
@@ -157,7 +157,7 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
       add_units("maxSubResource: EJ; mid.price: 1975$/GJ") %>%
       add_comments("L210.SmthRenewRsrcCurves_wind filtered and written to all provinces") %>%
       add_legacy_name("L210.SmthRenewRsrcCurves_wind_provinces") %>%
-      add_precursors("L210.SmthRenewRsrcCurves_wind", "gcam-china/wind_potential_province") ->
+      add_precursors("L210.SmthRenewRsrcCurves_wind", "gcam-china/wind_potential_province", "gcam-china/province_names_mappings") ->
       L210.SmthRenewRsrcCurves_wind_CHINA
 
     return_data(L210.RenewRsrc_CHINA, L210.UnlimitRsrc_CHINA, L210.UnlimitRsrc_limestone_CHINA,

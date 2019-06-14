@@ -18,10 +18,10 @@ the generated outputs: \code{L225.DeleteSubsector_h2_CHINA}. The corresponding f
 original data system was \code{L225.hydrogen_CHINA.R} (gcam-china level2).
 }
 \description{
-Selects the subsectors to be removed from the hydrogen sectors for GCAM-China
+Selects the subsectors to be removed from the hydrogen sectors in GCAM-China
 }
 \details{
-This chunk selects the subsectors to be removed from the hydrogen sectors in GCAM-China on the national level.
+This chunk selects the subsectors to be removed from the hydrogen sectors in GCAM-China at the national level.
 }
 \author{
 YangLiu September 2018
