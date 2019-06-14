@@ -116,6 +116,7 @@ CONV_MJ_BTU    <- 947.777
 CONV_MWH_GJ <- 3.6                      # Megawatt hours to Gigajoules
 CONV_TBTU_EJ   <- 0.0010551             # TeraBTU to EJ
 CONV_TWH_EJ <- 3.6e-3
+CONV_EJ_MTCE <- 34.12                   #EJ to Metric tons of coal equivalent
 
 # Other
 CONV_BM2_M2         <- 1e9
@@ -627,14 +628,20 @@ gcamusa.EFFICIENCY_PARTITION_YEAR <- 2005
 gcamusa.DIGITS_TRNUSA_DEFAULT     <- 1    # Reduce rounding in detailed USA transport for compatability with model
 
 # GCAM-China constants ======================================================================
-# gcam.CHINA_CODE
+
+# GCAM-China region ID
 gcamchina.REGION_ID <-11
+
 # GCAM-China time
 gcamchina.WIND_BASE_COST_YEAR <- 2005
 
 # Assumption about the total national share of energy that belongs to Tibet as it is
 # not explicitly included in the national energy balance
 gcamchina.TIBET_NATIONAL_ENERGY_SHARE <- 0.01
+
+# Time constants
+gcamchina.ELEC_HISTORICAL_YEARS <- c(HISTORICAL_YEARS, 2011, 2012)
+
 
 # Time shift conditions ======================================================================
 # Uncomment these lines to run under 'timeshift' conditions
