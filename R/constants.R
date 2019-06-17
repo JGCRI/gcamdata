@@ -600,6 +600,7 @@ gcamusa.DIGITS_TRNUSA_DEFAULT     <- 1    # Reduce rounding in detailed USA tran
 
 # GCAM-China region ID
 gcamchina.REGION_ID <-11
+gcamchina.REGION <- "China"
 
 # GCAM-China time
 gcamchina.WIND_BASE_COST_YEAR <- 2005
@@ -618,6 +619,11 @@ gcamchina.PROVINCES <- c("AH", "BJ", "CQ", "FJ", "GD", "GS", "GX", "GZ", "HA", "
 # Resources that will be modeled at the province level
 gcamchina.PROVINCE_RENEWABLE_RESOURCES <- c("distributed_solar", "geothermal", "onshore wind resource")
 gcamchina.PROVINCE_UNLIMITED_RESOURCES <- c("global solar resource", "limestone")
+
+# NOTE: can some of these be combined with gcamusa constants?
+# Number of digits for model input data
+gcamchina.DIGITS_CALOUTPUT          <- 7    # production
+
 
 # Time shift conditions ======================================================================
 # Uncomment these lines to run under 'timeshift' conditions
