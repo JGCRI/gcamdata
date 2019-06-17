@@ -227,6 +227,37 @@ write_to_all_states <- function(data, names) {
 }
 
 
+#' write_to_all_provinces
+#'
+#' write out data to all provinces
+#'
+#' @param data Base tibble to start from
+#' @param names Character vector indicating the column names of the returned tibble
+#' @note Used for China national data by GCAM region, which is repeated for each China province
+#' @return Tibble with data written out to all China provinces
+write_to_all_provinces <- function(data, names) {
+
+  assert_that(is_tibble(data))
+  assert_that(is.character(names))
+
+  region <- NULL  # silence package check notes
+
+  if("logit.year.fillout" %in% names) {
+    data$logit.year.fillout <- "start-year"
+  }
+
+  if("price.exp.year.fillout" %in% names) {
+    data$price.exp.year.fillout <- "start-year"
+  }
+
+  data %>%
+    set_years %>%
+    mutate(region = NULL) %>% # remove region column if it exists
+    repeat_add_columns(tibble(region = gcamchina.PROVINCES)) %>%
+    select(names)
+}
+
+
 #' set_subsector_shrwt
 #'
 #' Calculate subsector shareweights in calibration periods, where subsectors may have multiple technologies
@@ -625,3 +656,47 @@ downscale_FAO_country <- function(data, country_name, dissolution_year, years = 
   data_new[newyrs][is.na(data_new[newyrs])] <- 0
   data_new
 }
+
+#' map_province_name
+#'
+#' Map in alternative province names, optionally dropping the old name
+#'
+#' @param data Data, tibble
+#' @param mapping Table of alternative province names, tibble
+#' @param map_names Name of new province name columns in \code{mapping}, character
+#' @param replace Replace old province name to new name columns? Logical
+#' @return Data with new province name columns added or replaced.
+map_province_name <- function(data, mapping, map_names, replace = FALSE) {
+
+  orig.names <- old.name <- old.index <- new.names <- NULL  # silence package check.
+
+  # Sanity checks
+  assert_that(tibble::is_tibble(data))
+  assert_that(tibble::is_tibble(mapping))
+  assert_that(is.character(map_names))
+
+  orig.names <- names(data)
+  # Some error checking to make sure the mapping names match up.
+  old.name <- names(data)[names(data) %in% names(mapping)]
+  if(length (old.name) != 1) {
+    stop("\nCould not map province: data has zero or many matching column names in mapping.")
+  }
+  if(!all(map_names %in% names(mapping))) {
+    stop("\nCould not map province: one or more map_names do not match column names in mapping.")
+  }
+
+  # Do the name mapping
+  data <- left_join_error_no_match(data, mapping %>% select(old.name, map_names), by = old.name)
+
+  # Attempt to maintain the orgininal column ordering, if we
+  # are replacing then the new column use that position otherwise
+  # will just be added to the end.
+  if(replace) {
+    old.index <- match(old.name, orig.names)
+    new.names <- c(orig.names[seq_along(orig.names) < old.index], map_names, orig.names[seq_along(orig.names) > old.index])
+  } else {
+    new.names <- c(orig.names, map_names)
+  }
+  return(data[, new.names])
+}
+
