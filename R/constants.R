@@ -13,6 +13,7 @@ LOGIT_TYPE_COLNAME        <- "logit.type"        # will be removed by test code 
 FLAG_INPUT_DATA      <- "FLAG_INPUT_DATA"       # input data, don't output
 FLAG_NO_OUTPUT       <- "FLAG_NO_OUTPUT"        # don't output
 FLAG_NO_TEST         <- "FLAG_NO_TEST"          # don't test
+FLAG_PROTECT_FLOAT   <- "FLAG_PROTECT_FLOAT"    # protect float columns from readr bug
 FLAG_SUM_TEST        <- "FLAG_SUM_TEST"         # use less-restrictive sum test
 FLAG_XML             <- "FLAG_XML"              # xml data
 
@@ -116,6 +117,7 @@ CONV_MJ_BTU    <- 947.777
 CONV_MWH_GJ    <- 3.6                   # Megawatt hours to Gigajoules
 CONV_TBTU_EJ   <- 0.0010551             # TeraBTU to EJ
 CONV_TWH_EJ    <- 3.6e-3
+CONV_EJ_MTCE <- 34.12                   #EJ to Metric tons of coal equivalent
 
 # Other
 CONV_BM2_M2         <- 1e9
@@ -594,6 +596,28 @@ gcamuse.DIGITS_DEPRESOURCE        <- 1
 gcamusa.EFFICIENCY_PARTITION_YEAR <- 2005
 gcamusa.DIGITS_TRNUSA_DEFAULT     <- 1    # Reduce rounding in detailed USA transport for compatability with model
 
+# GCAM-China constants ======================================================================
+
+# GCAM-China region ID
+gcamchina.REGION_ID <-11
+
+# GCAM-China time
+gcamchina.WIND_BASE_COST_YEAR <- 2005
+
+# Assumption about the total national share of energy that belongs to Tibet as it is
+# not explicitly included in the national energy balance
+gcamchina.TIBET_NATIONAL_ENERGY_SHARE <- 0.01
+
+# Time constants
+gcamchina.ELEC_HISTORICAL_YEARS <- c(HISTORICAL_YEARS, 2011, 2012)
+
+# GCAM-China provinces
+gcamchina.PROVINCES <- c("AH", "BJ", "CQ", "FJ", "GD", "GS", "GX", "GZ", "HA", "HB", "HE", "HI", "HL", "HN", "JL", "JS", "JX", "LN", "NM", "NX", "QH", "SC", "SD", "SH",
+                         "SN", "SX", "TJ", "XJ", "XZ", "YN", "ZJ")
+
+# Resources that will be modeled at the province level
+gcamchina.PROVINCE_RENEWABLE_RESOURCES <- c("distributed_solar", "geothermal", "onshore wind resource")
+gcamchina.PROVINCE_UNLIMITED_RESOURCES <- c("global solar resource", "limestone")
 
 # Time shift conditions ======================================================================
 # Uncomment these lines to run under 'timeshift' conditions
