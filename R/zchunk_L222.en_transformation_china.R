@@ -136,7 +136,33 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
                                tag1 = "supplysector",
                                tag2 = "pass-through-sector")
 
+    # Process energy files from L222.en_transformation.R for use in the USA,
+    # slightly differently processing for global tech vs not inputs
+    L222.SubsectorLogit_en_USA      <- global_energy_to_USA_nonGlobalTech(L222.SubsectorLogit_en)
+    L222.StubTech_en_USA            <- global_energy_to_USA_nonGlobalTech(L222.StubTech_en)
+    L222.StubTechCoef_refining_USA  <- global_energy_to_USA_nonGlobalTech(L222.StubTechCoef_refining)
+    L222.GlobalTechInterp_en_USA    <- global_energy_to_USA_GlobalTech(L222.GlobalTechInterp_en)
+    L222.GlobalTechCoef_en_USA      <- global_energy_to_USA_GlobalTech(L222.GlobalTechCoef_en)
+    L222.GlobalTechCost_en_USA      <- global_energy_to_USA_GlobalTech(L222.GlobalTechCost_en)
+    L222.GlobalTechShrwt_en_USA     <- global_energy_to_USA_GlobalTech(L222.GlobalTechShrwt_en)
+    L222.GlobalTechCapture_en_USA   <- global_energy_to_USA_GlobalTech(L222.GlobalTechCapture_en)
+    L222.GlobalTechSCurve_en_USA    <- global_energy_to_USA_GlobalTech(L222.GlobalTechSCurve_en)
 
+
+    L222.tables <- list( L222.SubsectorLogit_en = L222.SubsectorLogit_en,
+                         L222.StubTech_en = L222.StubTech_en,
+                         L222.StubTechCoef_refining = L222.StubTechCoef_refining,
+                         L222.GlobalTechInterp_en = L222.GlobalTechInterp_en,
+                         L222.GlobalTechCoef_en = L222.GlobalTechCoef_en,
+                         L222.GlobalTechCost_en = L222.GlobalTechCost_en,
+                         L222.GlobalTechShrwt_en = L222.GlobalTechShrwt_en,
+                         L222.GlobalTechCapture_en = L222.GlobalTechCapture_en,
+                         L222.GlobalTechShutdownProfit_en = L222.GlobalTechShutdownProfit_en,
+                         L222.GlobalTechShutdown_en = L222.GlobalTechShutdown_en,
+                         L222.GlobalTechSCurveProfit_en = L222.GlobalTechSCurveProfit_en,
+                         L222.GlobalTechSCurve_en = L222.GlobalTechSCurve_en,
+                         L222.GlobalTechLifetimeProfit_en = L222.GlobalTechLifetimeProfit_en,
+                         L222.GlobalTechLifetime_en = L222.GlobalTechLifetime_en
 
   } else {
     stop("Unknown command")
