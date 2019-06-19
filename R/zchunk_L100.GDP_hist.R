@@ -32,13 +32,63 @@ module_socioeconomics_L100.GDP_hist <- function(command, ...) {
     usda_gdp_mer <- get_data(all_data, "socioeconomics/USDA_GDP_MER")
     assert_that(tibble::is.tibble(usda_gdp_mer))
 
-    # Convert to long form, filter to historical years, convert units
+    # Convert to long form, convert units
     usda_gdp_mer %>%
       select(-Country) %>%
       gather_years %>%
       filter(!is.na(value), !is.na(iso)) %>%
       mutate(value = value * CONV_BIL_MIL * gdp_deflator(1990, base_year = 2010),
-             year = as.integer(year)) %>%
+             year = as.integer(year)) ->
+      long_iso_year_gdp
+
+
+    # Perform BYU
+    # Skeleton - constant extrapolation
+    # BYUcompliant
+    #
+    # BYU NOTE - must make sure the units are all 1990 USD so averaging
+    # behaves.
+    # BYU NOTE - need to think about labeling that the output has BYU
+    # update done, and a note about the method?
+    if(max(long_iso_year_gdp$year) < BYU_YEAR){
+
+      missingyears <- tibble(year = (max(long_iso_year_gdp$year) +  1):BYU_YEAR)
+
+      # Constant extrapolation operating only on
+      # numeric vector. Can operate on any numeric vector, regardless of grouping
+      # or column name.
+      # What gets output in this chunk
+      long_iso_year_gdp %>%
+        select(iso) %>%
+        distinct %>%
+        repeat_add_columns(missingyears) %>%
+        bind_rows(long_iso_year_gdp, .) %>%
+        group_by(iso) %>%
+        mutate(value = extrapolate_constant(value, n = 1)) %>%
+        ungroup ->
+        long_iso_year_gdp
+
+
+      # Constant extrapolation operating on a (grouped) tibble
+      # with a column named 'value'.
+      long_iso_year_gdp %>%
+        select(iso) %>%
+        distinct %>%
+        repeat_add_columns(missingyears) %>%
+        bind_rows(long_iso_year_gdp, .) %>%
+        group_by(iso) %>%
+        extrapolate_constant_optionB(n = 1) %>%
+        ungroup ->
+        long_iso_year_gdp2
+
+      # Double check the two methods give the same result,
+      # Will remove when we have decided on the method we want.
+      assert_that(!any(long_iso_year_gdp != long_iso_year_gdp2))
+    }
+
+
+    # filter to historical years, convert units
+    long_iso_year_gdp %>%
       add_title("Historical GDP downscaled to country (iso)") %>%
       add_comments("Units converted to constant 1990 USD") %>%
       add_precursors("socioeconomics/USDA_GDP_MER") %>%
