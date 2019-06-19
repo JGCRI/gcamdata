@@ -55,7 +55,8 @@ extrapolate_constant_optionB <- function(x, n=1){
            value = if_else(is.na(value),
                            meanval,
                            value)) %>%
-    select(-meanval)
+    select(-meanval) %>%
+    distinct
 }
 
 
