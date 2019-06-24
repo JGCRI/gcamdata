@@ -624,6 +624,11 @@ gcamchina.PROVINCE_UNLIMITED_RESOURCES <- c("global solar resource", "limestone"
 # Number of digits for model input data
 gcamchina.DIGITS_CALOUTPUT          <- 7    # production
 
+# GCAM-CHINA default constants
+gcamchina.DEFAULT_LOGIT_TYPE  <- NA  # default logit type
+gcamchina.DEFAULT_SHAREWEIGHT <- 1
+
+gcamchina.ELECT_TD_SECTORS  <- c("elect_td_bld", "elect_td_ind", "elect_td_trn")
 
 # Time shift conditions ======================================================================
 # Uncomment these lines to run under 'timeshift' conditions
