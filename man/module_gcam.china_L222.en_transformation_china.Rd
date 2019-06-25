@@ -14,8 +14,8 @@ module_gcam.china_L222.en_transformation_china(command, ...)
 \value{
 Depends on \code{command}: either a vector of required inputs,
 a vector of output names, or (if \code{command} is "MAKE") all
-the generated outputs: \code{L222.DeleteStubTech_USAen}, \code{L222.PassThroughSector_USAen}, \code{L222.Tech_USAen}, \code{L222.TechShrwt_USAen}, \code{L222.TechInterp_USAen}, \code{L222.TechShrwt_USAen}, \code{L222.TechCoef_USAen}, \code{L222.Production_USArefining}, \code{L222.SectorLogitTables_USA[[ curr_table ]]$data}, \code{L222.Supplysector_en_USA}, \code{L222.SubsectorShrwtFllt_en_USA}, \code{L222.StubTechProd_refining_USA}, \code{L222.StubTechMarket_en_USA}, \code{L222.CarbonCoef_en_USA}. The corresponding file in the
-original data system was \code{L222.en_transformation_USA.R} (gcam-usa level2).
+the generated outputs: \code{L222.DeleteStubTech_CHINAen}, \code{L222.PassThroughSector_CHINAen}, \code{L222.Tech_CHINAen}, \code{L222.TechShrwt_CHINAen}, \code{L222.TechInterp_CHINAen}, \code{L222.TechShrwt_CHINAen}, \code{L222.TechCoef_CHINAen}, \code{L222.Production_CHINArefining}, \code{L222.SectorLogitTables_CHINA[[ curr_table ]]$data}, \code{L222.Supplysector_en_CHINA}, \code{L222.SubsectorShrwtFllt_en_CHINA}, \code{L222.StubTechProd_refining_CHINA}, \code{L222.StubTechMarket_en_CHINA}, \code{L222.CarbonCoef_en_CHINA}. The corresponding file in the
+original data system was \code{L222.en_transformation_CHINA.R} (gcam-china level2).
 }
 \description{
 Prepare the assumptions and calibrated outputs for energy transformation supplysectors, subsectors, and technologies specific to China sectors and/or provinces.

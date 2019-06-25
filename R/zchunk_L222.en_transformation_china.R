@@ -6,8 +6,8 @@
 #' @param ... other optional parameters, depending on command
 #' @return Depends on \code{command}: either a vector of required inputs,
 #' a vector of output names, or (if \code{command} is "MAKE") all
-#' the generated outputs: \code{L222.DeleteStubTech_USAen}, \code{L222.PassThroughSector_USAen}, \code{L222.Tech_USAen}, \code{L222.TechShrwt_USAen}, \code{L222.TechInterp_USAen}, \code{L222.TechShrwt_USAen}, \code{L222.TechCoef_USAen}, \code{L222.Production_USArefining}, \code{L222.SectorLogitTables_USA[[ curr_table ]]$data}, \code{L222.Supplysector_en_USA}, \code{L222.SubsectorShrwtFllt_en_USA}, \code{L222.StubTechProd_refining_USA}, \code{L222.StubTechMarket_en_USA}, \code{L222.CarbonCoef_en_USA}. The corresponding file in the
-#' original data system was \code{L222.en_transformation_USA.R} (gcam-usa level2).
+#' the generated outputs: \code{L222.DeleteStubTech_CHINAen}, \code{L222.PassThroughSector_CHINAen}, \code{L222.Tech_CHINAen}, \code{L222.TechShrwt_CHINAen}, \code{L222.TechInterp_CHINAen}, \code{L222.TechShrwt_CHINAen}, \code{L222.TechCoef_CHINAen}, \code{L222.Production_CHINArefining}, \code{L222.SectorLogitTables_CHINA[[ curr_table ]]$data}, \code{L222.Supplysector_en_CHINA}, \code{L222.SubsectorShrwtFllt_en_CHINA}, \code{L222.StubTechProd_refining_CHINA}, \code{L222.StubTechMarket_en_CHINA}, \code{L222.CarbonCoef_en_CHINA}. The corresponding file in the
+#' original data system was \code{L222.en_transformation_CHINA.R} (gcam-china level2).
 #' @details This chunk sets up the USA energy transformation technology databases as well as writing out assumptions to all states/sectors/markets for shareweights and logits.
 #' Calibrated outputs and I:O coefficients are updated from global values produced by \code{\link{module_energy_L222.en_transformation}}.
 #' @importFrom assertthat assert_that
@@ -37,7 +37,18 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
              "L202.CarbonCoef"
              ))
   } else if(command == driver.DECLARE_OUTPUTS) {
-    return(c())
+    return(c("L222.DeleteStubTech_CHINAen", "L222.PassThroughSector_CHINAen", "L222.Tech_CHINAen",
+             "L222.TechShrwt_CHINAen", "L222.TechInterp_CHINAen", "L222.TechCoef_CHINAen", "L222.Production_CHINArefining",
+             "L222.Supplysector_en_CHINA", "L222.SubsectorShrwtFllt_en_CHINA", "L222.StubTechProd_refining_CHINA", "L222.StubTechMarket_en_CHINA",
+             "L222.CarbonCoef_en_CHINA", "L222.GlobalTechSCurve_en_CHINA",
+             "L222.GlobalTechCost_en_CHINA",
+             "L222.SubsectorLogit_en_CHINA",
+             "L222.StubTech_en_CHINA",
+             "L222.StubTechCoef_refining_CHINA",
+             "L222.GlobalTechInterp_en_CHINA",
+             "L222.GlobalTechCoef_en_CHINA",
+             "L222.GlobalTechShrwt_en_CHINA",
+             "L222.GlobalTechCapture_en_CHINA"))
   } else if(command == driver.MAKE) {
 
     all_data <- list(...)[[1]]
@@ -60,7 +71,12 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
     # L222.GlobalTechLifetimeProfit_en <- get_data(all_data, "L222.GlobalTechLifetimeProfit_en")
     # L222.GlobalTechLifetime_en <- get_data(all_data, "L222.GlobalTechLifetime_en")
     L222.Supplysector_en <- get_data(all_data, "L222.Supplysector_en")
-    L202.CarbonCoef <- getdata(all_data, "L202.CarbonCoef")
+    L202.CarbonCoef <- get_data(all_data, "L202.CarbonCoef")
+
+    # silence check package notes
+    calOutputValue <- calibration <- minicam.energy.input <- province <- region <-
+    sector <- sector.name <- subsector <- subsector.name <- supplysector <-
+    supplysector.x <- supplysector.y <- technology <- value <- year <- NULL
 
     # ===================================================
     # Define sector(s) used in L222.en_transformation_China
@@ -105,18 +121,13 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
     # ===================================================
 
     # L222.DeleteStubTech_CHINAen: remove existing stub technologies in the CHINA region
-    # The supplysector and subsector structure in the CHINA refining sector is retained
+    # TThe supplysector and subsector structure in the sectors defined in gcamchina.SECTOR_EN_NAMES are retained
     L222.StubTech_en %>%
       filter(region == gcamchina.REGION,
              supplysector %in% gcamchina.SECTOR_EN_NAMES) ->
       L222.DeleteStubTech_CHINAen
 
-    # L222.TechEQUIV
-    L222.TechEQUIV <- tibble(group.name = "technology",
-                             tag1 = "technology",
-                             tag2 = "pass-through-technology")
-
-    # L222.Tech_CHINAen
+    # L222.PassThroughSector_CHINAen: PassThroughSector information to send vintaging info from provinces to CHINA
     L222.SubsectorLogit_en %>%
       select(LEVEL2_DATA_NAMES[["Subsector"]]) %>%
       filter(region == gcamchina.REGION, supplysector %in% gcamchina.SECTOR_EN_NAMES) %>%
@@ -126,7 +137,7 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
       mutate(technology = paste(province, subsector, sep = " ")) ->
       L222.Tech_CHINAen
 
-    # L222.PassThroughSector_CHINAen: PassThroughSector information to send vintaging info from provinces to CHINA
+    # L222.Tech_CHINAen : The technology pass-throughs used to set the proper node name, CHINA region.
     L222.Tech_CHINAen %>%
       select(province, LEVEL2_DATA_NAMES[["Subsector"]]) ->
       L222.PassThroughSector_CHINAen
@@ -185,11 +196,6 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
       select(LEVEL2_DATA_NAMES[["Production"]]) ->
       L222.Production_CHINArefining
 
-    #L222.SectorEQUIV
-    L222.SectorEQUIV <- tibble(group.name = "sector",
-                               tag1 = "supplysector",
-                               tag2 = "pass-through-sector")
-
     # Process energy files from L222.en_transformation.R for use in China,
     # slightly differently processing for global tech vs not inputs
     L222.SubsectorLogit_en_CHINA      <- global_energy_to_China_nonGlobalTech(L222.SubsectorLogit_en) #has an extra column logit.type : absolute-cost-logit
@@ -218,13 +224,10 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
              old_supplysector = supplysector.y) %>%
       left_join_error_no_match(distinct(select(L222.Supplysector_en, -region)),
                                by = c("old_supplysector" = "supplysector")) %>%
-      select(one_of(LEVEL2_DATA_NAMES[["Supplysector"]])) ->
-      L222.Supplysector_en_CHINA
-
-    # L222.Supplysector_en_CHINA_logit.type - Note there is no competition here so just use the default logit type
-    L222.Supplysector_en_CHINA %>%
+      select(one_of(LEVEL2_DATA_NAMES[["Supplysector"]])) %>%
+    # Note there is no competition here so just use the default logit type
       mutate(logit.type = gcamchina.DEFAULT_LOGIT_TYPE) ->
-      L222.Supplysector_en_CHINA_logit.type
+      L222.Supplysector_en_CHINA
 
     # L222.SubsectorShrwtFllt_en_CHINA: Subsector shareweights, there is no competition here, so just fill out with 1s
     # (will be over-ridden by base year calibration where necessary)
@@ -270,32 +273,21 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
       rename(supplysector = sector.name,
              subsector = subsector.name,
              stub.technology = technology) %>%
-      mutate(market.name = gcamchina.REGION) ->
+      # Finish L222.StubTechMarket_en_CHINA by Setting electricity to the province markets
+      mutate(market.name = if_else(minicam.energy.input %in% gcamchina.ELECT_TD_SECTORS, region, gcamchina.REGION)) ->
       L222.StubTechMarket_en_CHINA
 
-    # Finish L222.StubTechMarket_en_CHINA by Setting electricity to the province markets
-    L222.StubTechMarket_en_CHINA %>%
-      filter(minicam.energy.input %in% gcamchina.ELECT_TD_SECTORS) %>%
-      mutate(market.name = region) ->
-      tmp
-
-    # create a key for filtering
-    L222.StubTech_en_CHINA %>%
-      select(supplysector, subsector, stub.technology) %>%
-      unite(key, supplysector, subsector, stub.technology, sep = "~") %>%
-      distinct ->
-      L222.StubTech_en_CHINA_key
+    #If designated, switch fuel market names to the regional markets
+    if( gcamchina.USE_REGIONAL_FUEL_MARKETS ){
+      L222.StubTechMarket_en_CHINA %>%
+        mutate(market.name = if_else(minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS, region, gcamchina.REGION)) ->
+        L222.StubTechMarket_en_CHINA
+    }
 
     L222.StubTechMarket_en_CHINA %>%
-      filter(!(minicam.energy.input %in% gcamchina.ELECT_TD_SECTORS)) %>%
-      bind_rows(tmp) %>%
-      select(one_of(LEVEL2_DATA_NAMES[["StubTechMarket"]])) %>%
-      unite(key, supplysector, subsector, stub.technology, sep = "~") %>%
-      filter(key %in% L222.StubTech_en_CHINA_key$key) %>%
-      separate(key, c("supplysector", "subsector", "stub.technology"), sep = "~") %>%
-      filter((subsector == "oil refining" & region %in% oil_refining_provinces$province) |
-               subsector != "oil refining") ->
-      L222.StubTechMarket_en_CHINA
+         filter((subsector == "oil refining" & region %in% oil_refining_provinces$province) |
+                  subsector != "oil refining") ->
+         L222.StubTechMarket_en_CHINA
 
     # L222.CarbonCoef_en_CHINA: energy carbon coefficients in China
     #
@@ -317,6 +309,206 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
       rename(PrimaryFuelCO2Coef.name = supplysector) ->
       L222.CarbonCoef_en_CHINA
 
+    # ===================================================
+    # Produce outputs
+    L222.DeleteStubTech_CHINAen %>%
+      mutate(region = region) %>%  # strip off attributes so we can re-write title, etc.
+      add_title("Removes existing stub technologies in the China region") %>%
+      add_units("NA") %>%
+      add_comments("Removes existing stub technologies in the China region from L222.StubTech_en.") %>%
+      add_comments("The supplysector and subsector structure in the sectors defined in gcamchina.SECTOR_EN_NAMES are retained")  %>%
+      add_legacy_name("L222.DeleteStubTech_CHINAen") %>%
+      add_precursors("L222.StubTech_en") ->
+      L222.DeleteStubTech_CHINAen
+
+    L222.PassThroughSector_CHINAen %>%
+      add_title("PassThroughSector information to send vintaging info from provinces to China") %>%
+      add_units("NA") %>%
+      add_comments("state, subsector, supplysector, and region from L222.Tech_CHINAen is renamed.") %>%
+      add_legacy_name("L222.PassThroughSector_CHINAen") %>%
+      same_precursors_as(L222.Tech_CHINAen) ->
+      L222.PassThroughSector_CHINAen
+
+    L222.Tech_CHINAen %>%
+      add_title("The technology pass-throughs used to set the proper node name, CHINA region.") %>%
+      add_units("units") %>%
+      add_comments("China supplysector and subsector information from L222.SubsectorLogit_en is") %>%
+      add_comments("repeated for all China provinces and updated.") %>%
+      add_legacy_name("L222.Tech_CHINAen") %>%
+      add_precursors("L222.SubsectorLogit_en") ->
+      L222.Tech_CHINAen
+
+    L222.TechInterp_CHINAen %>%
+      add_title("Technology shareweights, CHINA region") %>%
+      add_units("NA") %>%
+      add_comments("Technology interpolation only applies to calibrated technologies.For biomass liquids, ") %>%
+      add_comments("allow state shares to shift over time since future techs are different than present techs.") %>%
+      add_legacy_name("L222.TechInterp_CHINAen")  %>%
+      same_precursors_as(L222.Tech_CHINAen) ->
+      L222.TechInterp_CHINAen
+
+    L222.TechShrwt_CHINAen %>%
+      add_title("technology shareweights, CHINA region") %>%
+      add_units("NA") %>%
+      add_comments("L222.Tech_CHINAen is repeated for model base year and future years and shareweights of 0 and") %>%
+      add_comments("1 are added for each, respectively. Overwritten in calibration.") %>%
+      add_legacy_name("L222.TechShrwt_CHINAen") %>%
+      same_precursors_as(L222.Tech_CHINAen) ->
+      L222.TechShrwt_CHINAen
+
+    L222.TechCoef_CHINAen %>%
+      add_title("Technology coefficients and market names, CHINA region") %>%
+      add_units("units") %>%
+      add_comments("Data from L222.TechShrwt_CHINAen is renamed and filled out.") %>%
+      add_legacy_name("L222.TechCoef_CHINAen") %>%
+      same_precursors_as(L222.TechShrwt_CHINAen) ->
+      L222.TechCoef_CHINAen
+
+    L222.Production_CHINArefining %>%
+      add_title("Calibrated refinery production in CHINA (consuming output of provinces)") %>%
+      add_units("NA") %>%
+      add_comments("L122.out_EJ_province_refining_F is aggregated to the supplysector/subsector/technology level.") %>%
+      add_legacy_name("L222.Production_CHINArefining") %>%
+      add_precursors("energy/calibrated_techs",
+                     "L122.out_EJ_province_refining_F") ->
+      L222.Production_CHINArefining
+
+    L222.SubsectorLogit_en_CHINA %>%
+      add_title("Subsector logit competition info for China energy provinces and sectors") %>%
+      add_units("NA") %>%
+      add_comments("Subsector logit data from L222.SubsectorLogit_en are filtered and repeated") %>%
+      add_comments("for China sectors in each province.") %>%
+      add_legacy_name("L222.SubsectorLogit_en_CHINA") %>%
+      add_precursors("L222.SubsectorLogit_en") ->
+      L222.SubsectorLogit_en_CHINA
+
+    L222.StubTech_en_CHINA %>%
+      add_title("Stub technology map for CHINA energy provinces and sectors.") %>%
+      add_units("NA") %>%
+      add_comments("The stub technology table from L222.StubTech_en is filtered and repeated") %>%
+      add_comments("for CHINA energy sectors in each state.") %>%
+      add_legacy_name("L222.StubTech_en_CHINA") %>%
+      add_precursors("L222.StubTech_en") ->
+      L222.StubTech_en_CHINA
+
+    L222.StubTechCoef_refining_CHINA %>%
+      add_title("Refining stub tech coefficients for China energy provinces and sectors") %>%
+      add_units("NA") %>%
+      add_comments("Coefficients for refining stub technologies in L222.StubTechCoef_refining are filtered and repeated") %>%
+      add_comments("for China energy sectors in each province.") %>%
+      add_legacy_name("L222.StubTechCoef_refining_CHINA") %>%
+      add_precursors("L222.StubTechCoef_refining") ->
+      L222.StubTechCoef_refining_CHINA
+
+    L222.GlobalTechSCurve_en_CHINA %>%
+      add_title("Tech S curve parameters for China energy sectors.") %>%
+      add_units("varies") %>%
+      add_comments("S curve parameters from L222.GlobalTechScurve_en are filtered for China sectors.") %>%
+      add_legacy_name("L222.GlobalTechSCurve_en_CHINA") %>%
+      add_precursors("L222.GlobalTechSCurve_en") ->
+      L222.GlobalTechSCurve_en_CHINA
+
+    L222.GlobalTechCost_en_CHINA %>%
+      add_title("Tech costs for China energy sectors.") %>%
+      add_units("varies") %>%
+      add_comments("Tech cost data from L222.GlobalTechCost_en are filtered for China sectors.") %>%
+      add_legacy_name("L222.GlobalTechCost_en_CHINA") %>%
+      add_precursors("L222.GlobalTechCost_en") ->
+      L222.GlobalTechCost_en_CHINA
+
+    L222.GlobalTechInterp_en_CHINA %>%
+      add_title("Interpolation function key for China energy sectors.") %>%
+      add_units("units") %>%
+      add_comments("Interpolation function key from L222.GlobalTechInterp_en are filtered for China sectors.") %>%
+      add_legacy_name("L222.GlobalTechInterp_en_CHINA") %>%
+      add_precursors("L222.GlobalTechInterp_en") ->
+      L222.GlobalTechInterp_en_CHINA
+
+    L222.GlobalTechCoef_en_CHINA %>%
+      add_title("Technology coefficients for China energy sectors.") %>%
+      add_units("NA") %>%
+      add_comments("Global technology coefficients from L222.GlobalTechCoef_en are filtered for China sectors.") %>%
+      add_legacy_name("L222.GlobalTechCoef_en_CHINA") %>%
+      add_precursors("L222.GlobalTechCoef_en") ->
+      L222.GlobalTechCoef_en_CHINA
+
+    L222.GlobalTechShrwt_en_CHINA %>%
+      add_title("Technology shareweights for China energy sectors") %>%
+      add_units("NA") %>%
+      add_comments("Shareweights from L222.GlobalTechShrwt_en are filtered for China energy sectors.") %>%
+      add_legacy_name("L222.GlobalTechShrwt_en_CHINA") %>%
+      add_precursors("L222.GlobalTechShrwt_en") ->
+      L222.GlobalTechShrwt_en_CHINA
+
+    L222.GlobalTechCapture_en_CHINA %>%
+      add_title("Carbon capture data for China energy sectors") %>%
+      add_units("NA") %>%
+      add_comments("Carbon capture data  from L222.GlobalTechCapture_en are filtered for China energy sectors.") %>%
+      add_legacy_name("L222.GlobalTechCapture_en_CHINA") %>%
+      add_precursors("L222.GlobalTechCapture_en") ->
+      L222.GlobalTechCapture_en_CHINA
+
+    L222.Supplysector_en_CHINA %>%
+      add_title("Supplysector information, replace name of supplysector with the subsector names") %>%
+      add_units("Varies") %>%
+      add_comments("L222.Supplysector_en and L222.SubsectorLogit_en is repeated and filtered for use in China provinces.") %>%
+      add_comments("can be multiple lines") %>%
+      add_legacy_name("L222.Supplysector_en_CHINA") %>%
+      add_precursors("L222.Supplysector_en",
+                     "L222.SubsectorLogit_en") ->
+      L222.Supplysector_en_CHINA
+
+    L222.SubsectorShrwtFllt_en_CHINA %>%
+      add_title("Subsector shareweights for energy in CHINA") %>%
+      add_units("NA") %>%
+      add_comments("CHINA energy subsector shareweights. There is no competition here, so shareweights are defaulted to 1.") %>%
+      add_comments("Shareweights will be over-ridden by base year calibration.") %>%
+      add_legacy_name("L222.SubsectorShrwtFllt_en_CHINA") %>%
+      same_precursors_as(L222.SubsectorLogit_en_CHINA) ->
+      L222.SubsectorShrwtFllt_en_CHINA
+
+    L222.StubTechProd_refining_CHINA %>%
+      add_title("China Calibrated fuel production by province.") %>%
+      add_units("varies") %>%
+      add_comments("Tech IDs where the calibration is identified as output in the calibrated_techs file are") %>%
+      add_comments("are used to adjust data from L122.out_EJ_province_refining_F.") %>%
+      add_legacy_name("L222.StubTechProd_refining_CHINA") %>%
+      add_precursors("energy/calibrated_techs",
+                     "L122.out_EJ_province_refining_F") ->
+      L222.StubTechProd_refining_CHINA
+
+    L222.StubTechMarket_en_CHINA %>%
+      add_title("Market names of inputs to province refining sectors") %>%
+      add_units("varies") %>%
+      add_comments("Data from L222.GlobalTechCoef_en is adjusted for use in China provinces, depending") %>%
+      add_comments("on whether regional markets are used.") %>%
+      add_legacy_name("L222.StubTechMarket_en_CHINA") %>%
+      add_precursors("L122.out_EJ_province_refining_F",
+                     "L222.GlobalTechCoef_en") ->
+      L222.StubTechMarket_en_CHINA
+
+    L222.CarbonCoef_en_CHINA %>%
+      add_title("Energy carbon coefficients in China") %>%
+      add_units("varies") %>%
+      add_comments("Carbon coefficients from L202.CarbonCoef are updated with China energy tech shareweights to") %>%
+      add_comments("produce energy carbon coefficients in China.") %>%
+      add_legacy_name("L222.CarbonCoef_en_China") %>%
+      add_precursors("L222.SubsectorLogit_en",
+                     "L202.CarbonCoef")  ->
+      L222.CarbonCoef_en_CHINA
+
+    return_data(L222.DeleteStubTech_CHINAen, L222.PassThroughSector_CHINAen, L222.Tech_CHINAen,
+                L222.TechShrwt_CHINAen, L222.TechInterp_CHINAen, L222.TechCoef_CHINAen, L222.Production_CHINArefining,
+                L222.Supplysector_en_CHINA, L222.SubsectorShrwtFllt_en_CHINA, L222.StubTechProd_refining_CHINA, L222.StubTechMarket_en_CHINA,
+                L222.CarbonCoef_en_CHINA, L222.GlobalTechSCurve_en_CHINA,
+                L222.GlobalTechCost_en_CHINA,
+                L222.SubsectorLogit_en_CHINA,
+                L222.StubTech_en_CHINA,
+                L222.StubTechCoef_refining_CHINA,
+                L222.GlobalTechInterp_en_CHINA,
+                L222.GlobalTechCoef_en_CHINA,
+                L222.GlobalTechShrwt_en_CHINA,
+                L222.GlobalTechCapture_en_CHINA)
 
   } else {
     stop("Unknown command")
