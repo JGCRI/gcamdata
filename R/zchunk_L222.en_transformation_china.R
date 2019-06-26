@@ -196,6 +196,12 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
       select(LEVEL2_DATA_NAMES[["Production"]]) ->
       L222.Production_CHINArefining
 
+    # TODO: figure out a better strategy.  We need to have at least one technology be available in the final
+    # calibration year so we can get a base cost for the absolute cost logit.  Having a share weight of zero
+    # at the subsector is sufficient then to ensure we get no production in the calibration years
+    L222.GlobalTechShrwt_en[L222.GlobalTechShrwt_en$technology == "coal to liquids" & L222.GlobalTechShrwt_en$year == 2010, "share.weight"] <- 1.0
+    L222.GlobalTechShrwt_en[L222.GlobalTechShrwt_en$technology == "gas to liquids" & L222.GlobalTechShrwt_en$year == 2010, "share.weight"] <- 1.0
+
     # Process energy files from L222.en_transformation.R for use in China,
     # slightly differently processing for global tech vs not inputs
     L222.SubsectorLogit_en_CHINA      <- global_energy_to_China_nonGlobalTech(L222.SubsectorLogit_en) #has an extra column logit.type : absolute-cost-logit
