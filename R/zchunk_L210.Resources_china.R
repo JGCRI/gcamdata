@@ -54,9 +54,12 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     # ===================================================
     cement_provinces <- unique( L1321.out_Mt_province_cement_Yh$province )
 
-    no_geo_provinces <- gcamchina.PROVINCES[ gcamchina.PROVINCES %in% L1231.out_EJ_province_elec_F_tech$province[ L1231.out_EJ_province_elec_F_tech$fuel == "geothermal" &
-                                                                                                                     L1231.out_EJ_province_elec_F_tech$X2010 == 0 ] ]
-    no_geo_provinces_resource <- tibble( region = no_geo_provinces, renewresource = "geothermal")
+    L1231.out_EJ_province_elec_F_tech %>%
+      filter(fuel == "geothermal", (year == 2010 & value != 0)) %>%
+      select(province) %>%
+      rename(region = province) %>%
+      mutate(renewresource = "geothermal") ->
+        no_geo_provinces_resource
 
     # L210.RenewRsrc_CHINA: renewable resource info in the provinces
     L210.RenewRsrc_CHINA <- L210.RenewRsrc %>%
