@@ -4,20 +4,26 @@
 \alias{extrapolate_constant}
 \title{extrapolate_constant}
 \usage{
-extrapolate_constant(x, n = 1)
+extrapolate_constant(x, n = 1, numMissing)
 }
 \arguments{
 \item{x}{Vector of values with NA's to be filled in via constant extrapolation
 of the mean of last n non-NA values.}
 
-\item{n}{Number of non-NA values to be averaged to provide the filler value.}
+\item{n}{Number of non-NA values to be averaged to provide the filler value.
+Defaults to n=1: using the last recorded year's value to constantly fill in
+the tail of vector missing values.}
+
+\item{numMissing}{The number of NA values at the tail end of each
+vector to be filled in. This will always be known for each data set in each
+chunk.}
 }
 \value{
 Vector with all NA values replaced with the specified mean.
 }
 \description{
 computes the mean of last n values and uses this constant value to fill in
- missing years at the end of the time series
+ NA values corresponding to missing years at the end of the time series
 }
 \details{
 Computes the mean of last n non-NA values of input vector x
