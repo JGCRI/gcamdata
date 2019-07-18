@@ -67,23 +67,6 @@ module_socioeconomics_L100.GDP_hist <- function(command, ...) {
                                             numMissing = length(missingyears))) %>%
         ungroup ->
         long_iso_year_gdp
-
-
-      # Constant extrapolation operating on a (grouped) tibble
-      # with a column named 'value'.
-      long_iso_year_gdp %>%
-        select(iso) %>%
-        distinct %>%
-        repeat_add_columns(missingyears) %>%
-        bind_rows(long_iso_year_gdp, .) %>%
-        group_by(iso) %>%
-        extrapolate_constant_optionB(n = 1) %>%
-        ungroup ->
-        long_iso_year_gdp2
-
-      # Double check the two methods give the same result,
-      # Will remove when we have decided on the method we want.
-      assert_that(!any(long_iso_year_gdp != long_iso_year_gdp2))
     }
 
 
