@@ -9,6 +9,8 @@
 #' @param x Vector of values with NA's to be filled in via constant extrapolation
 #' of the mean of last n non-NA values.
 #' @param n Number of non-NA values to be averaged to provide the filler value.
+#' Defaults to n=1: using the last recorded year's value to constantly fill in
+#' the tail of vector missing values.
 #' @details Computes the mean of last n non-NA values of input vector x
 #' and uses this constant value to fill in NA values in x.
 #' @return Vector with all NA values replaced with the specified mean.
@@ -16,9 +18,12 @@
 #' @author ACS June 2019
 extrapolate_constant <- function(x, n=1){
 
+  # Some assertion tests to make sure working on right data types
   assert_that(is.numeric(x))
   assert_that(is.scalar(n))
 
+  # The constant value to fill in all tail of vector NA's with.
+  # = mean of the last n nonNA values in the
   meanval <- mean(last_n(x,n))
 
   x[is.na(x)] <- meanval
@@ -27,37 +32,7 @@ extrapolate_constant <- function(x, n=1){
 }
 
 
-#' extrapolate_constant_optionB
-#'
-#'  computes the mean of last n values and uses this constant value to fill in
-#'  missing years at the end of the time series
-#'
-#' @param x Tibble with column name 'value' that contains NA values to be filled in
-#' via constant extrapolation of the mean of last n non-NA values.
-#' @param n Number of non-NA values to be averaged to provide the filler value.
-#' @details Computes the mean of last n non-NA values of column 'value' in an input tibble
-#' (may be grouped)  and uses this constant value to fill in NA values in column 'value'.
-#' @return Tibble with column name 'value' in which all NA values have been filled
-#' in with the specified mean value.
-#' @importFrom assertthat assert_that is.scalar
-#' @author ACS June 2019
-extrapolate_constant_optionB <- function(x, n=1){
 
-  assert_that(is.tibble(x))
-  assert_that(is.scalar(n))
-
-
-  # can't use the faster replace_na function because
-  # if x is grouped, e.g. on iso, each group will have
-  # its own, specific mean value to replace NAs with.
-  x %>%
-    mutate(meanval = mean(last_n(value, n)),
-           value = if_else(is.na(value),
-                           meanval,
-                           value)) %>%
-    select(-meanval) %>%
-    distinct
-}
 
 
 #' last_n
