@@ -18,6 +18,7 @@
 #' and uses this constant value to fill in NA values in x.
 #' @return Vector with all NA values replaced with the specified mean.
 #' @importFrom assertthat assert_that is.scalar
+#' @importFrom utils tail
 #' @author ACS June 2019
 extrapolate_constant <- function(x, n=1, numMissing){
 
