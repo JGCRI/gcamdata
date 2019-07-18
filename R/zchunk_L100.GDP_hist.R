@@ -46,25 +46,25 @@ module_socioeconomics_L100.GDP_hist <- function(command, ...) {
     # Skeleton - constant extrapolation
     # BYUcompliant
     #
-    # BYU NOTE - must make sure the units are all 1990 USD so averaging
-    # behaves.
+    # BYU NOTE - must make sure the units are all 1990 USD (or at least the
+    # same year basis) so averaging behaves. Fine here, but worth noting
+    # across other chunk where money comes up, especially since we drop
+    # unit information pretty early on in most chunks.
     # BYU NOTE - need to think about labeling that the output has BYU
     # update done, and a note about the method?
     if(max(long_iso_year_gdp$year) < BYU_YEAR){
 
-      missingyears <- tibble(year = (max(long_iso_year_gdp$year) +  1):BYU_YEAR)
+      missingyears <- (max(long_iso_year_gdp$year) +  1):BYU_YEAR
 
       # Constant extrapolation operating only on
       # numeric vector. Can operate on any numeric vector, regardless of grouping
       # or column name.
       # What gets output in this chunk
       long_iso_year_gdp %>%
-        select(iso) %>%
-        distinct %>%
-        repeat_add_columns(missingyears) %>%
-        bind_rows(long_iso_year_gdp, .) %>%
+        complete(year = c(year, missingyears), iso) %>%
         group_by(iso) %>%
-        mutate(value = extrapolate_constant(value, n = 1)) %>%
+        mutate(value = extrapolate_constant(value, n = 1,
+                                            numMissing = length(missingyears))) %>%
         ungroup ->
         long_iso_year_gdp
 
