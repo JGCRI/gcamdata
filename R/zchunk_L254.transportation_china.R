@@ -111,14 +111,14 @@ module_gcam.china_L254.transportation_china <- function(command, ...) {
           left_join_error_no_match(select(province_names_mappings, province, grid.region), by = c("region" = "province")) %>%
           mutate(market.name = replace(market.name, minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS,
                                        grid.region[minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS])) %>%
-          select(-grid_region)
+          select(-grid.region)
       }
 
       # Electricity is always consumed from province markets
       if("market.name" %in% names(data_new)) {
         data_new <- data_new %>%
           mutate(market.name = replace(market.name, minicam.energy.input %in% gcamchina.ELECT_TD_SECTORS,
-                                       province[minicam.energy.input %in% gcamchina.ELECT_TD_SECTORS]))
+                                       region[minicam.energy.input %in% gcamchina.ELECT_TD_SECTORS]))
       }
 
       data_new
@@ -141,18 +141,16 @@ module_gcam.china_L254.transportation_china <- function(command, ...) {
     process_CHINA_to_provinces(L254.StubTranTechLoadFactor) -> L254.StubTranTechLoadFactor_CHINA
     process_CHINA_to_provinces(L254.StubTranTechCost) -> L254.StubTranTechCost_CHINA
 
-    #ERROR
-    process_CHINA_to_provinces(L254.StubTranTechCoef) -> L254.StubTranTechCoef_CHINA
-
     L254.StubTranTechCoef %>%
       mutate(coefficient = round(coefficient, digits = gcamchina.DIGITS_TRNCHINA_DEFAULT)) %>%
       process_CHINA_to_provinces ->
       L254.StubTranTechCoef_CHINA
+
     process_CHINA_to_provinces(L254.PerCapitaBased_trn) -> L254.PerCapitaBased_trn_CHINA
     process_CHINA_to_provinces(L254.PriceElasticity_trn) -> L254.PriceElasticity_trn_CHINA
     process_CHINA_to_provinces(L254.IncomeElasticity_trn) -> L254.IncomeElasticity_trn_CHINA
 
-
+  #Calibration
   } else {
     stop("Unknown command")
   }

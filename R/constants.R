@@ -600,6 +600,7 @@ gcamusa.DIGITS_TRNUSA_DEFAULT     <- 1    # Reduce rounding in detailed USA tran
 
 # GCAM-China region ID
 gcamchina.REGION_ID <-11
+gcamchina.REGION <- "China"
 
 # GCAM-China time
 gcamchina.WIND_BASE_COST_YEAR <- 2005
@@ -615,9 +616,26 @@ gcamchina.ELEC_HISTORICAL_YEARS <- c(HISTORICAL_YEARS, 2011, 2012)
 gcamchina.PROVINCES <- c("AH", "BJ", "CQ", "FJ", "GD", "GS", "GX", "GZ", "HA", "HB", "HE", "HI", "HL", "HN", "JL", "JS", "JX", "LN", "NM", "NX", "QH", "SC", "SD", "SH",
                          "SN", "SX", "TJ", "XJ", "XZ", "YN", "ZJ")
 
+# GCAM-China transportation provinces (includes HK and MC)
+gcamchina.TRN_PROVINCES <- c("AH", "BJ", "CQ", "FJ", "GD", "GS", "GX", "GZ", "HA", "HB", "HE", "HI", "HK", "HL", "HN", "JL", "JS", "JX", "LN", "MC", "NM", "NX", "QH", "SC", "SD", "SH",
+                         "SN", "SX", "TJ", "XJ", "XZ", "YN", "ZJ")
+
 # Resources that will be modeled at the province level
 gcamchina.PROVINCE_RENEWABLE_RESOURCES <- c("distributed_solar", "geothermal", "onshore wind resource")
 gcamchina.PROVINCE_UNLIMITED_RESOURCES <- c("global solar resource", "limestone")
+
+gcamchina.ELECT_TD_SECTORS  <- c("elect_td_bld", "elect_td_ind", "elect_td_trn")
+
+# Indicate whether to use regional as opposed to national fuel markets (FALSE = national markets)
+gcamchina.USE_REGIONAL_FUEL_MARKETS  <- TRUE
+
+# Fuels whose markets will be modeled at the regional level
+gcamchina.REGIONAL_FUEL_MARKETS <- c("regional coal", "delivered coal", "wholesale gas", "delivered gas",
+                                     "refined liquids industrial", "refined liquids enduse")
+
+# Number of digits for model input data
+gcamchina.DIGITS_TRNCHINA_DEFAULT <- 1 # Reduce rounding in detailed USA transport for compatability with model
+
 
 # Time shift conditions ======================================================================
 # Uncomment these lines to run under 'timeshift' conditions
