@@ -634,7 +634,7 @@ gcamchina.REGIONAL_FUEL_MARKETS <- c("regional coal", "delivered coal", "wholesa
                                      "refined liquids industrial", "refined liquids enduse")
 
 # Number of digits for model input data
-gcamchina.DIGITS_TRNCHINA_DEFAULT <- 1 # Reduce rounding in detailed USA transport for compatability with model
+gcamchina.DIGITS_TRNCHINA_DEFAULT <- 1 # Reduce rounding in detailed China transport for compatability with model
 
 
 # Time shift conditions ======================================================================

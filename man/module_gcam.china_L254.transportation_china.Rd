@@ -18,7 +18,7 @@ the generated outputs:
 original data system was \code{L254.transportation_CHINA.R} (gcam-china level2).
 }
 \description{
-Generates GCAM-USA model inputs for transportation sector by states.
+Generates GCAM-CHINA model inputs for transportation sector by provinces.
 }
 \details{
 This chunk generates input files for transportation sector with generic information for supplysector,
