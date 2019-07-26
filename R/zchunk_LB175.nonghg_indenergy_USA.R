@@ -66,6 +66,9 @@ module_gcamusa_LB175.nonghg_indenergy <- function(command, ...) {
       mutate(year = gcamusa.NEI_BASE_YEAR) %>%
       select(state, sector, fuel, Non.CO2, year, value)
 
+    #Functionalized version
+    #L175.nonghg_tg_state_indenergy_F_Yb <- NEI_to_GCAM(NEI_2011_GCAM_sectors, CEDS_GCAM_fuel, NEI_pollutant_mapping, c("industry_energy"))
+
     L175.nonghg_tg_state_indenergy_F_Yb %>%
       add_title("Industrial energy use sector non-ghg input emission factor by U.S. state / sector / fuel / pollutant / year") %>%
       add_units("Tg") %>%

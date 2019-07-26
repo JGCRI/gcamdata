@@ -66,6 +66,12 @@ module_gcamusa_LB174.nonghg_bld <- function(command, ...) {
       mutate(year = gcamusa.NEI_BASE_YEAR) %>%
       select(state, sector, fuel, Non.CO2, year, value)
 
+    #Functionalized version
+    #bld_names <- grep("building", unique(NEI_2011_GCAM_sectors$GCAM_sector), value = T)
+    #L174.nonghg_tg_state_bld_F_Yb <- NEI_to_GCAM(NEI_2011_GCAM_sectors, CEDS_GCAM_fuel, NEI_pollutant_mapping, bld_names) %>%
+     # mutate(sector = gsub("building_", "", sector))
+
+
     L174.nonghg_tg_state_bld_F_Yb %>%
       add_title("Buildings sector non-ghg input emissions by U.S. state / sector / fuel / pollutant / year") %>%
       add_units("Tg") %>%

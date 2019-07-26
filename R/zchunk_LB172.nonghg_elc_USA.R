@@ -66,6 +66,10 @@ module_gcamusa_LB172.nonghg_elc <- function(command, ...) {
       mutate(year = 2010) %>%
       ungroup
 
+    #Functionalized version
+    #L172.nonghg_tg_state_elec_F_Yb <- NEI_to_GCAM(NEI_2011_GCAM_sectors, CEDS_GCAM_fuel, NEI_pollutant_mapping, c("elec_heat"))
+
+
     # Add additional Non.CO2 species for NOx_Coal, SO2_Coal, NOx_ELEC, SO2_ELEC for the base year
     # These species will be used in the Cross State Air Pollutantion Rule (CSAPR) constraints in policy files
     # CSAPR constrains NOx and SO2 emissions only from electric sector, so we need to create new species for them,
