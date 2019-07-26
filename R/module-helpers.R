@@ -627,3 +627,56 @@ downscale_FAO_country <- function(data, country_name, dissolution_year, years = 
   data_new[newyrs][is.na(data_new[newyrs])] <- 0
   data_new
 }
+
+#' NEI_to_GCAM
+#'
+#' Helper function to convert EPA National Emissions Inventory (NEI) emissions to GCAM emissions in GCAM-USA
+#' Used for emissions in several sectors
+#' @param NEI_data Base tibble to start from (NEI data)
+#' @param CEDS_GCAM_fuel CEDS to GCAM fuel mapping file
+#' @param NEI_pollutant_mapping NEI to GCAM pollutant mapping file
+#' @param names Character vector indicating the column names of the returned tibble
+#' @importFrom assertthat assert_that
+#' @return tibble with corresponding GCAM sectors
+
+NEI_to_GCAM <- function(NEI_data, CEDS_GCAM_fuel, NEI_pollutant_mapping, names) {
+
+  assert_that(is_tibble(NEI_data))
+  assert_that(is_tibble(CEDS_GCAM_fuel))
+  assert_that(is_tibble(NEI_pollutant_mapping))
+  assert_that(is.character(names))
+  assert_that(has_name(NEI_data, "GCAM_sector"))
+  assert_that(has_name(CEDS_GCAM_fuel, "CEDS_Fuel"))
+  assert_that(has_name(NEI_pollutant_mapping, "NEI_pollutant"))
+
+  data_new <- NEI_data %>%
+    #subset relevant sectors
+    filter(GCAM_sector %in% names) %>%
+    # using left_join becuase orignal CEDS fuel in NEI has one called "Process", there's no GCAM fuel corresponding to that,
+    # OK to omit, missing values will be dropped later
+    # TODO: check that the dropped "Process" emissions are not significant
+    left_join(CEDS_GCAM_fuel, by = "CEDS_Fuel") %>%
+    rename(fuel = GCAM_fuel) %>%
+    na.omit %>%
+    rename(NEI_pollutant = pollutant) %>%
+    # Match on NEI pollutants, using left_join becuase missing values will be produced
+    # The original NEI include filterable PM2.5 and PM10, but here we only need primary ones
+    # OK to omit those filterables
+    left_join(NEI_pollutant_mapping, by = "NEI_pollutant") %>%
+    na.omit %>%
+    # Convert from short ton to Tg
+    mutate(emissions = emissions / CONV_T_METRIC_SHORT / 10 ^ 6, unit = "Tg") %>%
+    # generate file tibble based on standard GCAM column names, sum emissions for the same state/sector/fuel/species
+    rename(sector = GCAM_sector) %>%
+    group_by(state, sector, fuel, Non.CO2) %>%
+    summarise(value = sum(emissions)) %>%
+    ungroup %>%
+    # use long format, create column "year" with base year (2010)
+    # The base-year here is specific to the USNEI data used
+    # Note that we are explicitly approximating 2010 emissions using 2011 values in the NEI
+    # since the NEI is only available every ~3 years
+    mutate(year = gcamusa.NEI_BASE_YEAR) %>%
+    select(state, sector, fuel, Non.CO2, year, value)
+
+}
+
