@@ -637,9 +637,14 @@ downscale_FAO_country <- function(data, country_name, dissolution_year, years = 
 #' @param NEI_pollutant_mapping NEI to GCAM pollutant mapping file
 #' @param names Character vector indicating the column names of the returned tibble
 #' @importFrom assertthat assert_that
+#' @importFrom dplyr filter left_join rename mutate group_by select summarise_all ungroup
 #' @return tibble with corresponding GCAM sectors
 
 NEI_to_GCAM <- function(NEI_data, CEDS_GCAM_fuel, NEI_pollutant_mapping, names) {
+
+  # silence package check notes
+  GCAM_sector <- GCAM_fuel <- pollutant <- emissions <- state <- sector <-
+    fuel <- Non.CO2 <- year <- value <- NULL
 
   assert_that(is_tibble(NEI_data))
   assert_that(is_tibble(CEDS_GCAM_fuel))
@@ -680,3 +685,85 @@ NEI_to_GCAM <- function(NEI_data, CEDS_GCAM_fuel, NEI_pollutant_mapping, names) 
 
 }
 
+#' compute_BC_OC
+#'
+#' Helper function to compute BC and OC EFs from PM2.5 and a mapping file with BC OC fraction content by sector/subsector/technology
+#' Used for emissions in several sectors
+#' @param df tibble which contains PM2.5 data to be used to get BC and OC data
+#' @param BC_OC_assumptions tibble which contains BC and OC fractions
+#' @importFrom assertthat assert_that
+#' @importFrom dplyr filter left_join rename mutate group_by select summarise_all ungroup
+#' @return tibble with BC and OC rows added
+
+compute_BC_OC <- function(df, BC_OC_assumptions) {
+  #There is no data for BC/OC in the base year, so use fractions of PM2.5 to calculate BC/OC emissions.
+  #Compute BC/OC emission factors in the base year based on PM2.5 emission factors
+
+  #Note: BC/OC fractions are given for various level of sector, subsector, and stub.technology.
+  #All levels are not necessarily present for each
+
+  # silence package check notes
+   BC_fraction <- OC_fraction <- subsector.y <- subsector.x <- technology <-
+     BC_fraction_SST <- BC_fraction_ST <- BC_fraction_SS <- emiss.coef <-
+     OC_fraction_SST <- OC_fraction_ST <- OC_fraction_SS <- Non.CO2 <- NULL
+
+  assert_that(is_tibble(df))
+  assert_that(has_name(df, "Non.CO2"))
+
+  BC_df <- df %>%
+    filter(Non.CO2 == "PM2.5") %>%
+    # Cannot do left_join_error_no_match because there are some NA values that will be retained
+    left_join(BC_OC_assumptions,
+              by = c("supplysector" = "sector", "subsector", "stub.technology" = "technology")) %>%
+    mutate(BC_fraction_SST = BC_fraction) %>%
+    select(-BC_fraction, -OC_fraction) %>%
+    left_join(BC_OC_assumptions,
+              by = c("supplysector" = "sector", "stub.technology" = "technology")) %>%
+    mutate(BC_fraction_ST = BC_fraction) %>%
+    select(-BC_fraction, -OC_fraction, -subsector.y) %>%
+    rename(subsector = subsector.x) %>%
+    left_join(BC_OC_assumptions,
+              by = c("supplysector" = "sector", "subsector")) %>%
+    mutate(BC_fraction_SS = BC_fraction) %>%
+    select(-BC_fraction, -OC_fraction, -technology) %>%
+    #Hierarchy of values to be chosen:
+    #1. If all sector, subsector, and technology information is available
+    #2. If sector and technology information is available
+    #3. If sector and subsector information is available
+    mutate(BC_fraction = if_else(is.na(BC_fraction_SST) & is.na(BC_fraction_ST), BC_fraction_SS,
+                                 if_else(is.na(BC_fraction_SST), BC_fraction_ST, BC_fraction_SST)),
+           #Compute emissions coefficients for BC
+           emiss.coef = emiss.coef * BC_fraction,Non.CO2 = "BC") %>%
+    select(-BC_fraction, -BC_fraction_SST, -BC_fraction_ST, -BC_fraction_SS)
+
+  OC_df <- df %>%
+    filter(Non.CO2 == "PM2.5") %>%
+    # Cannot do left_join_error_no_match because there are some NA values that will be retained
+    left_join(BC_OC_assumptions,
+              by = c("supplysector" = "sector", "subsector", "stub.technology" = "technology")) %>%
+    mutate(OC_fraction_SST = OC_fraction) %>%
+    select(-BC_fraction, -OC_fraction) %>%
+    left_join(BC_OC_assumptions,
+              by = c("supplysector" = "sector", "stub.technology" = "technology")) %>%
+    mutate(OC_fraction_ST = OC_fraction) %>%
+    select(-BC_fraction, -OC_fraction, -subsector.y) %>%
+    rename(subsector = subsector.x) %>%
+    left_join(BC_OC_assumptions,
+              by = c("supplysector" = "sector", "subsector")) %>%
+    mutate(OC_fraction_SS = OC_fraction) %>%
+    select(-BC_fraction, -OC_fraction, -technology) %>%
+    #Hierarchy of values to be chosen:
+    #1. If all sector, subsector, and technology information is available
+    #2. If sector and technology information is available
+    #3. If sector and subsector information is available
+    mutate(OC_fraction = if_else(is.na(OC_fraction_SST) & is.na(OC_fraction_ST), OC_fraction_SS,
+                                 if_else(is.na(OC_fraction_SST), OC_fraction_ST, OC_fraction_SST)),
+           #Compute emissions coefficients for BC
+           emiss.coef = emiss.coef * OC_fraction, Non.CO2 = "OC") %>%
+    select(-OC_fraction, -OC_fraction_SST, -OC_fraction_ST, -OC_fraction_SS)
+
+  # Bind base year BC/OC fractions to other EFs
+  df <- bind_rows(df, BC_df, OC_df)
+  return (df)
+
+}
