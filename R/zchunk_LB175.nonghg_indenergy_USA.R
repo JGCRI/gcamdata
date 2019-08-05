@@ -24,7 +24,7 @@ module_gcamusa_LB175.nonghg_indenergy <- function(command, ...) {
 
     # silence package check
     GCAM_sector <- GCAM_fuel <- pollutant <- emissions <- state <-
-      sector <- fuel <- Non.CO2 <- NULL
+      sector <- fuel <- Non.CO2 <- year <- value <- NULL
 
     all_data <- list(...)[[1]]
 
