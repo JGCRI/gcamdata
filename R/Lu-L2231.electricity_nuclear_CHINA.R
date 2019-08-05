@@ -25,6 +25,8 @@ module_gcam.china_L2231.electricity_nuclear_CHINA <- function(command, ...) {
 
     # Silence package checks
     province.name <- fixedOutput <- region <- supplysector <- subsector <- stub.technology <- share.weight.year <- subsector.share.weight <- share.weight <- NULL
+    fuel <- year <- value <- year <- province <- L2231.electricity_nuclear_CHINA <- L2231.StubTechFixOut_elec_nuclear_CHINA <- NULL
+    fuel <- year <- value <- NULL
 
     # Load required inputs
     province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
