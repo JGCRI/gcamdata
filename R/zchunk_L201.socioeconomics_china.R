@@ -40,7 +40,7 @@ module_gcam.china_L201.socioeconomics <- function(command, ...) {
 
     # ===================================================
     # L201.InterestRate: Interest rates by region
-    L201.InterestRate <- tibble(region = gcamchina.PROVINCES, interest.rate = socioeconomics.DEFAULT_INTEREST_RATE)
+    L201.InterestRate <- tibble(region = gcamchina.PROVINCES_noHKMC, interest.rate = socioeconomics.DEFAULT_INTEREST_RATE)
 
     # L201.Pop_GCAMChina: Population by region, downscaled based on UN population projection
     L100.Pop_thous_province %>%
@@ -58,7 +58,7 @@ module_gcam.china_L201.socioeconomics <- function(command, ...) {
 
     # L201.LaborForceFillout: Labor force participation and productivity for all scenarios
     # NOTE: No model of labor force used; labor force participation set to a constant
-    L201.LaborForceFillout_CHINA <- tibble(region = gcamchina.PROVINCES,
+    L201.LaborForceFillout_CHINA <- tibble(region = gcamchina.PROVINCES_noHKMC,
                                      year.fillout = min(MODEL_YEARS),
                                      laborforce = socioeconomics.DEFAULT_LABORFORCE)
 
