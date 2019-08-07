@@ -612,7 +612,7 @@ gcamchina.TIBET_NATIONAL_ENERGY_SHARE <- 0.01
 gcamchina.ELEC_HISTORICAL_YEARS <- c(HISTORICAL_YEARS, 2011, 2012)
 
 # GCAM-China provinces
-gcamchina.PROVINCES_ALL <- c("AH", "BJ", "CQ", "FJ", "GD", "GS", "GX", "GZ", "HA", "HB", "HE", "HI", "HL", "HK", "HN", "JL", "JS", "JX", "LN", "MC", "NM", "NX", "QH", "SC", "SD", "SH",
+gcamchina.PROVINCES_ALL <- c("AH", "BJ", "CQ", "FJ", "GD", "GS", "GX", "GZ", "HA", "HB", "HE", "HI", "HK", "HL", "HN", "JL", "JS", "JX", "LN", "MC", "NM", "NX", "QH", "SC", "SD", "SH",
                          "SN", "SX", "TJ", "XJ", "XZ", "YN", "ZJ")
 
 gcamchina.PROVINCES_noHKMC <- c("AH", "BJ", "CQ", "FJ", "GD", "GS", "GX", "GZ", "HA", "HB", "HE", "HI", "HL", "HN", "JL", "JS", "JX", "LN", "NM", "NX", "QH", "SC", "SD", "SH",
