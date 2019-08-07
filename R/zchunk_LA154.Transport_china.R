@@ -61,11 +61,11 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
 
       # To delete the conflict size class caused by Hong Kong and Macau
       L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh %>%
-        mutate(size.class = replace(size.class, mode == "Bus" & size.class == "All", "Light Bus")) %>%
-        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (0-2t)", "Truck (0-6t)")) %>%
-        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (2-5t)", "Truck (0-6t)")) %>%
-        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (5-9t)", "Truck (6-14t)")) %>%
-        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (9-16t)", "Truck (6-14t)")) %>%
+        mutate(size.class = replace(size.class, mode == "Bus" & size.class == "All", "Light Bus"),
+               size.class = replace(size.class, mode == "Truck" & size.class == "Truck (0-2t)", "Truck (0-6t)"),
+               size.class = replace(size.class, mode == "Truck" & size.class == "Truck (2-5t)", "Truck (0-6t)"),
+               size.class = replace(size.class, mode == "Truck" & size.class == "Truck (5-9t)", "Truck (6-14t)"),
+               size.class = replace(size.class, mode == "Truck" & size.class == "Truck (9-16t)", "Truck (6-14t)")) %>%
         group_by(GCAM_region_ID, UCD_sector, mode, size.class, UCD_fuel, UCD_technology, fuel, year, EBProcess, EBMaterial) %>%
         summarise(value = sum(value)) %>%
         ungroup ->
