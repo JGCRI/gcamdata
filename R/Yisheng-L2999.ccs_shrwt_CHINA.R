@@ -45,6 +45,9 @@ module_gcam.china_L2999.ccs_shrwt_CHINA <- function(command, ...) {
     StubTechInterpOverwrite_1 %>%
       filter(!(region == "XZ" & supplysector == "N fertilizer")) -> StubTechInterpOverwrite_1
 
+    #rename column
+    StubTechShrwt_ccs_1 <- rename(StubTechShrwt_ccs_1, subsector = subsector.name)
+
     # ===================================================
     # Produce outputs
     StubTechShrwt_ccs_1 %>%
