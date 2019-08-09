@@ -55,7 +55,7 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     cement_provinces <- unique( L1321.out_Mt_province_cement_Yh$province )
 
     L1231.out_EJ_province_elec_F_tech %>%
-      filter(fuel == "geothermal", (year == 2010 & value != 0)) %>%
+      filter(fuel == "geothermal", (year == 2010 & value == 0)) %>%
       select(province) %>%
       rename(region = province) %>%
       mutate(renewresource = "geothermal") ->
