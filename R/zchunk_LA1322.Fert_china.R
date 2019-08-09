@@ -93,7 +93,7 @@ module_gcam.china_LA1322.Fert <- function(command, ...) {
     # Assuming all provinces have the same IO coefficients
     L1322.IO_R_Fert_F_Yh %>%
       filter(GCAM_region_ID == gcamchina.REGION_ID) %>%
-      repeat_add_columns(tibble(province = gcamchina.PROVINCES)) %>%
+      repeat_add_columns(tibble(province = gcamchina.PROVINCES_noHKMC)) %>%
       filter(province != 'XZ') %>%
       select(province, sector, fuel, year, value) ->
       L1322.IO_GJkg_province_Fert_F_Yh

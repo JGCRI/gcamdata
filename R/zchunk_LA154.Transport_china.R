@@ -95,7 +95,7 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
       L154.NBS_trn_Mtce_province %>%
         group_by(EBProcess, EBMaterial, year) %>%
         mutate(value_share = value / sum(value, na.rm = T)) %>%
-        complete(nesting(year, sector, fuel, EBProcess, EBMaterial), province = gcamchina.PROVINCES) %>%
+        complete(nesting(year, sector, fuel, EBProcess, EBMaterial), province = gcamchina.PROVINCES_ALL) %>%
         ungroup() %>%
         # NAs were introduced where national values were 0. Replace NAs with zeros.
         replace_na(list(value_share = 0)) %>%
