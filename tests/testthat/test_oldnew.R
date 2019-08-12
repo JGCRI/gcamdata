@@ -89,6 +89,18 @@ test_that("matches old data system output", {
       olddata <- COMPDATA[[oldf]]
       expect_is(olddata, "data.frame", info = paste("No comparison data found for", oldf))
 
+      # During the base year update development process, some outputs from the data
+      # system will be extended and therefore have different dimensions from the
+      # old comparison data. This causes the old-new test to fail.
+      # The extended extrapolation years will be dropped from the newdata
+      # so that comparison can be made to the old data. This also serves to check
+      # that the extrapolation procedure does not touch original data.
+      if(max(newdata$year) == BYU_YEAR){ # one way to check that it's a BYU without flags.
+        newdata %>%
+          filter(year <= max(HISTORICAL_YEARS)) ->
+          newdata
+      }
+
       # Finally, test (NB rounding numeric columns to a sensible number of
       # digits; otherwise spurious mismatches occur)
       # Also first converts integer columns to numeric (otherwise test will
