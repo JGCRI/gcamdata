@@ -3,47 +3,63 @@
 
 #' extrapolate_constant
 #'
-#'  computes the mean of last n values and uses this constant value to fill in
-#'  NA values corresponding to missing years at the end of the time series
+#'  computes the mean of last n original year values (with
+#'  \code{mean(., na.rm = TRUE)}) and uses this constant value to fill in NA
+#'  values corresponding to the extrapolation years at the end of the time series.
+#'  NOTE that this extrapolator does not touch any of the original data. It ONLY
+#'  fills in data corresponding to the extrapolation years. It is the user's
+#'  responsibility to account for this behavior in preparing raw data to be
+#'  extrapolated.
 #'
-#' @param x Vector of values with NA's to be filled in via constant extrapolation
-#' of the mean of last n non-NA values.
-#' @param n Number of non-NA values to be averaged to provide the filler value.
-#' Defaults to n=1: using the last recorded year's value to constantly fill in
-#' the tail of vector missing values.
-#' @param numMissing The number of NA values at the tail end of each
-#' vector to be filled in. This will always be known for each data set in each
-#' chunk.
-#' @details Computes the mean of last n non-NA values of input vector x
-#' and uses this constant value to fill in NA values in x.
+#' @param x Vector of values with NA's corresponding to the extrapolation years
+#' to be filled in via constant extrapolation of the mean of last n original
+#' year values.
+#' @param n Number of final original year values to be averaged to provide the
+#' filler value. Averaging is done with \code{na.rm = TRUE}.
+#' Defaults to n = 1: using the last recorded year's value to constantly fill in
+#' the tail of vector missing values corresponding to extrapolation years.
+#' @param numExtrapYrs The number of NA values at the tail end of each vector that
+#' correspond to the extrapolation years and will be filled in. This will always
+#' be known for each data set in each chunk.
+#' @details Computes the mean of last n original year values of input vector x
+#' and uses this constant value to fill in NA values in x that correspond to the
+#' added extrapolation years.
 #' @return Vector with all NA values replaced with the specified mean.
 #' @importFrom assertthat assert_that is.scalar
 #' @importFrom utils tail
 #' @author ACS June 2019
-extrapolate_constant <- function(x, n=1, numMissing){
+extrapolate_constant <- function(x, n=1, numExtrapYrs){
 
   # Some assertion tests to make sure working on right data types
   assert_that(is.numeric(x))
   assert_that(is.scalar(n))
-  assert_that(is.integer(numMissing))
+  assert_that(is.integer(numExtrapYrs))
 
 
-  # The constant value to fill in all tail of vector NA's with.
-  # = mean of the last n nonNA values in the
-  meanval <- mean(last_n(x,n))
+  # The constant value to fill in all extrapolation year NA's with.
+  # = mean(. , na.rm = TRUE) of the last n  values in the original
+  # data.
+  index_last_n_orig_yrs <- (length(x) - numExtrapYrs - n + 1):(length(x) - numExtrapYrs)
+  meanval <- mean(x[index_last_n_orig_yrs], na.rm = TRUE)
 
 
-  # fill in only the tail end NA values with this constant.
-  x[(length(x) - numMissing + 1):length(x)] <- meanval
+  # fill in only the tail end, extrapolation years
+  # NA values with this constant.
+  index_extrap_yrs <- (length(x) - numExtrapYrs + 1):length(x)
+  x[index_extrap_yrs] <- meanval
 
   return(x)
 }
 
 
 
-#' last_n
+#' last_n_nonNA
 #'
 #'  finds the last n non-NA values in an input vector.
+#'  A convenience functions for users who wish to customize
+#'  their extrapolations beyond the default or who wish to
+#'  identify NA values in their original (unextrapolated)
+#'  data.
 #'
 #' @param x Vector with some NA values
 #' @param n The number of non-NA values sought.
@@ -52,7 +68,7 @@ extrapolate_constant <- function(x, n=1, numMissing){
 #' vector x.
 #' @importFrom assertthat assert_that is.scalar
 #' @author ACS June 2019
-last_n <- function(x, n){
+last_n_nonNA <- function(x, n){
 
   assert_that(is.scalar(n))
 

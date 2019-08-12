@@ -4,30 +4,38 @@
 \alias{extrapolate_constant}
 \title{extrapolate_constant}
 \usage{
-extrapolate_constant(x, n = 1, numMissing)
+extrapolate_constant(x, n = 1, numExtrapYrs)
 }
 \arguments{
-\item{x}{Vector of values with NA's to be filled in via constant extrapolation
-of the mean of last n non-NA values.}
+\item{x}{Vector of values with NA's corresponding to the extrapolation years
+to be filled in via constant extrapolation of the mean of last n original
+year values.}
 
-\item{n}{Number of non-NA values to be averaged to provide the filler value.
-Defaults to n=1: using the last recorded year's value to constantly fill in
-the tail of vector missing values.}
+\item{n}{Number of final original year values to be averaged to provide the
+filler value. Averaging is done with \code{na.rm = TRUE}.
+Defaults to n = 1: using the last recorded year's value to constantly fill in
+the tail of vector missing values corresponding to extrapolation years.}
 
-\item{numMissing}{The number of NA values at the tail end of each
-vector to be filled in. This will always be known for each data set in each
-chunk.}
+\item{numExtrapYrs}{The number of NA values at the tail end of each vector that
+correspond to the extrapolation years and will be filled in. This will always
+be known for each data set in each chunk.}
 }
 \value{
 Vector with all NA values replaced with the specified mean.
 }
 \description{
-computes the mean of last n values and uses this constant value to fill in
- NA values corresponding to missing years at the end of the time series
+computes the mean of last n original year values (with
+ \code{mean(., na.rm = TRUE)}) and uses this constant value to fill in NA
+ values corresponding to the extrapolation years at the end of the time series.
+ NOTE that this extrapolator does not touch any of the original data. It ONLY
+ fills in data corresponding to the extrapolation years. It is the user's
+ responsibility to account for this behavior in preparing raw data to be
+ extrapolated.
 }
 \details{
-Computes the mean of last n non-NA values of input vector x
-and uses this constant value to fill in NA values in x.
+Computes the mean of last n original year values of input vector x
+and uses this constant value to fill in NA values in x that correspond to the
+added extrapolation years.
 }
 \author{
 ACS June 2019
