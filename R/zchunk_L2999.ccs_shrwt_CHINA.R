@@ -25,8 +25,8 @@ module_gcam.china_L2999.ccs_shrwt_CHINA <- function(command, ...) {
     all_data <- list(...)[[1]]
 
     # Silence package checks
-    region <- supplysector <- subsector <- subsector.name <- stub.technology <- year <-
-      share.weight <- delete <- apply.to <- from.year <- to.year <- interpolation.function <- NULL
+    region <- supplysector <- subsector <- subsector <- stub.technology <- year <-
+      share.weight <- apply.to <- from.year <- to.year <- interpolation.function <- NULL
 
     # Load required inputs
     province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
@@ -35,22 +35,20 @@ module_gcam.china_L2999.ccs_shrwt_CHINA <- function(command, ...) {
 
     # ===================================================
     # Apply new ccs shareweights to all provinces
-    StubTechShrwt_ccs_1 <- write_to_all_provinces(StubTechShrwt_ccs, c("region", "supplysector", "subsector.name", "stub.technology", "year", "share.weight"))
-    StubTechInterpOverwrite_1 <- write_to_all_provinces(StubTechInterpOverwrite, c("region", "supplysector", "subsector", "stub.technology", "delete", "apply.to", "from.year", "to.year", "interpolation.function"))
+    L9999.StubTechShrwt_CHINA <- StubTechShrwt_ccs %>%
+      rename(subsector = subsector.name) %>%
+      write_to_all_provinces(LEVEL2_DATA_NAMES[["StubTechShrwt"]], gcamchina.PROVINCES_ALL) %>%
+      # remove Tibet(XZ) N fertilizer
+       filter(!(region == "XZ" & supplysector == "N fertilizer"))
 
-    # remove Tibet(XZ) N fertilizer
-    StubTechShrwt_ccs_1 %>%
-      filter(!(region == "XZ" & supplysector == "N fertilizer")) -> StubTechShrwt_ccs_1
-
-    StubTechInterpOverwrite_1 %>%
-      filter(!(region == "XZ" & supplysector == "N fertilizer")) -> StubTechInterpOverwrite_1
-
-    #rename column
-    StubTechShrwt_ccs_1 <- rename(StubTechShrwt_ccs_1, subsector = subsector.name)
+    L9999.StubTechInterpOverwrite_CHINA <- StubTechInterpOverwrite %>%
+      write_to_all_provinces(c(LEVEL2_DATA_NAMES[["StubTechInterp"]], "delete"), gcamchina.PROVINCES_ALL) %>%
+      # remove Tibet(XZ) N fertilizer
+      filter(!(region == "XZ" & supplysector == "N fertilizer"))
 
     # ===================================================
     # Produce outputs
-    StubTechShrwt_ccs_1 %>%
+    L9999.StubTechShrwt_CHINA %>%
       add_title("Apply new ccs shareweights to all provinces") %>%
       add_units("Unitless") %>%
       add_comments("Assign shareweight assumptions of CCS to subtechnologies by China province") %>%
@@ -60,7 +58,7 @@ module_gcam.china_L2999.ccs_shrwt_CHINA <- function(command, ...) {
                      "gcam-china/A999.StubTechShrwt_ccs") ->
       L9999.StubTechShrwt_CHINA
 
-    StubTechInterpOverwrite_1 %>%
+    L9999.StubTechInterpOverwrite_CHINA %>%
       add_title("Apply ccs shareweights overwrite methods to all provinces") %>%
       add_units("Unitless") %>%
       add_comments("Assign shareweight overwrite methods to China provinces") %>%

@@ -8,7 +8,7 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{CCS_shrwt_CHINA.xml}. The corresponding file in the
 #' original data system was \code{batch_CCS_shrwt_CHINA.xml} (gcam-china processing code-xml batch).
-module_gcamchina_batch_CCS_shrwt_CHINA_xml <- function(command, ...) {
+module_gcam.china_batch_CCS_shrwt_CHINA_xml <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c("L9999.StubTechShrwt_CHINA",
              "L9999.StubTechInterpOverwrite_CHINA"))
@@ -28,9 +28,10 @@ module_gcamchina_batch_CCS_shrwt_CHINA_xml <- function(command, ...) {
     # Unknown function of L9999.StubTechInterpOverwrite_CHINA file, since it's not included in
     # final xml in previous data system @Yisheng Sun
     create_xml("CCS_shrwt_CHINA.xml") %>%
+      add_xml_data(L9999.StubTechInterpOverwrite_CHINA, "StubTechInterp") %>%
       add_xml_data(L9999.StubTechShrwt_CHINA, "StubTechShrwt") %>%
-    # add_xml_data(L9999.StubTechInterpOverwrite_CHINA, "THIS HEADER CANNOT BE FOUND") %>%
-      add_precursors("L9999.StubTechShrwt_CHINA") ->
+      add_precursors("L9999.StubTechShrwt_CHINA",
+                     "L9999.StubTechInterpOverwrite_CHINA") ->
       CCS_shrwt_CHINA.xml
 
 
