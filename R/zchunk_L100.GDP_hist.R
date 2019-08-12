@@ -56,17 +56,17 @@ module_socioeconomics_L100.GDP_hist <- function(command, ...) {
     # update done, and a note about the method?
     if(max(long_iso_year_gdp$year) < BYU_YEAR){
 
-      missingyears <- (max(long_iso_year_gdp$year) +  1):BYU_YEAR
+      extrapyears <- (max(long_iso_year_gdp$year) +  1):BYU_YEAR
 
       # Constant extrapolation operating only on
       # numeric vector. Can operate on any numeric vector, regardless of grouping
       # or column name.
       # What gets output in this chunk
       long_iso_year_gdp %>%
-        complete(year = c(year, missingyears), iso) %>%
+        complete(year = c(year, extrapyears), iso) %>%
         group_by(iso) %>%
         mutate(value = extrapolate_constant(value, n = 1,
-                                            numMissing = length(missingyears))) %>%
+                                            numExtrapYrs = length(extrapyears))) %>%
         ungroup ->
         long_iso_year_gdp
     }
