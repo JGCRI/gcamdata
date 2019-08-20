@@ -42,7 +42,7 @@ module_gcam.china_L2999.ccs_shrwt_CHINA <- function(command, ...) {
        filter(!(region == "XZ" & supplysector == "N fertilizer"))
 
     L9999.StubTechInterpOverwrite_CHINA <- StubTechInterpOverwrite %>%
-      write_to_all_provinces(c(LEVEL2_DATA_NAMES[["StubTechInterp"]], "delete"), gcamchina.PROVINCES_ALL) %>%
+      write_to_all_provinces(c(LEVEL2_DATA_NAMES[["StubTechInterpOverwrited"]]), gcamchina.PROVINCES_ALL) %>%
       # remove Tibet(XZ) N fertilizer
       filter(!(region == "XZ" & supplysector == "N fertilizer"))
 

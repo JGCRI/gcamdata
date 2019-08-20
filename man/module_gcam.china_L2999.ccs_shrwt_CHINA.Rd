@@ -14,7 +14,7 @@ module_gcam.china_L2999.ccs_shrwt_CHINA(command, ...)
 \value{
 Depends on \code{command}: either a vector of required inputs,
 a vector of output names, or (if \code{command} is "MAKE") all
-the generated outputs: \code{L9999.StubTechInterpOverwrite_CHINA}, \code{L9999.StubTechShrwt_CHINA}. The corresponding file in the
+the generated outputs:  \code{L9999.StubTechShrwt_CHINA}. The corresponding file in the
 original data system was \code{L2999.ccs_shrwt_CHINA.R} (gcam-china level2).
 }
 \description{
