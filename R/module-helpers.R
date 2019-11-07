@@ -276,7 +276,7 @@ write_to_all_provinces <- function(data, names) {
     assert_that(is_tibble(data))
     assert_that(is.character(names))
 
-    region <- NULL  # silence package check notes
+    region <- gcamchina.TRN_PROVINCES <- NULL  # silence package check notes
 
     if("logit.year.fillout" %in% names) {
       data$logit.year.fillout <- "start-year"

@@ -76,7 +76,7 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
     # silence check package notes
     calOutputValue <- calibration <- minicam.energy.input <- province <- region <-
     sector <- sector.name <- subsector <- subsector.name <- supplysector <-
-    supplysector.x <- supplysector.y <- technology <- value <- year <- NULL
+    supplysector.x <- supplysector.y <- technology <- value <- year <- gcamchina.PROVINCES <- NULL
 
     # ===================================================
     # Define sector(s) used in L222.en_transformation_China

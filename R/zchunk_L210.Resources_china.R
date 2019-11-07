@@ -40,7 +40,7 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     # Silence package checks
     curve.exponent <- maxResource <- maxSubResource <- mid.price <-
       region <- renewresource <- smooth.renewable.subresource <-
-      unlimited.resource <- year.fillout <- province <- . <- NULL
+      unlimited.resource <- year.fillout <- province <- fuel <- year <- value . <- NULL
 
     # Load required inputs
     province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
