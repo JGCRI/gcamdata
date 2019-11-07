@@ -1,3 +1,5 @@
+# Copyright 2019 Battelle Memorial Institute; see the LICENSE file.
+
 #' module_socioeconomics_L100.Population_downscale_ctry
 #'
 #'  Clean and interpolate both Maddison historical population data (1700-2010) and SSP population scenarios.
@@ -173,6 +175,7 @@ module_socioeconomics_L100.Population_downscale_ctry <- function(command, ...) {
       gather_years(value_col = "pop") %>%  # Long format
       mutate(pop = as.numeric(pop)) %>%  # Clean year variable
       complete(nesting(scenario, iso), year = c(socioeconomics.FINAL_HIST_YEAR, FUTURE_YEARS)) %>%
+      filter(year %in% c(socioeconomics.FINAL_HIST_YEAR, FUTURE_YEARS)) %>%
       group_by(scenario, iso) %>%
       mutate(pop = approx_fun(year, pop),
              ratio_iso_ssp = pop / pop[year == socioeconomics.FINAL_HIST_YEAR]) %>%  # Calculate population ratios to final historical year (2010), no units

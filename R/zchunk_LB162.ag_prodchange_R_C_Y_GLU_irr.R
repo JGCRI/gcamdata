@@ -1,3 +1,5 @@
+# Copyright 2019 Battelle Memorial Institute; see the LICENSE file.
+
 #' module_aglu_LB162.ag_prodchange_R_C_Y_GLU_irr
 #'
 #' This module calculates the first level production/yield change assumptions that are exogenous to GCAM. These rates are calculated for each commodity
@@ -320,7 +322,8 @@ module_aglu_LB162.ag_prodchange_R_C_Y_GLU_irr <- function(command, ...) {
       # Join the agBio Yield Rates
       left_join(L162.agBio_YieldRate_R_C_Ysy_GLU_irr, by = c("GCAM_region_ID", "GCAM_commodity", "GLU", "Irr_Rfd")) %>%
       # NA's include NA years, address
-      tidyr::complete(year = aglu.SPEC_AG_PROD_YEARS, nesting(GCAM_region_ID, GCAM_commodity, GLU, Irr_Rfd)) ->
+      tidyr::complete(year = aglu.SPEC_AG_PROD_YEARS, nesting(GCAM_region_ID, GCAM_commodity, GLU, Irr_Rfd)) %>%
+      filter(!is.na(year)) ->
       # store in a table for further processing
       L162.agbio_YieldRate_R_C_Y_GLU_irr
 
