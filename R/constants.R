@@ -415,7 +415,7 @@ energy.DIGITS_CAPITAL          <- 0
 energy.DIGITS_COEFFICIENT      <- 7
 energy.DIGITS_COST             <- 4
 energy.DIGITS_CURVE_EXPONENT   <- 3
-energy.DIGITS_RESOURCE      <- 1
+energy.DIGITS_DEPRESOURCE      <- 1
 energy.DIGITS_EFFICIENCY       <- 3
 energy.DIGITS_FLOORSPACE       <- 3
 energy.DIGITS_GDP_SUPPLY_ELAST <- 3
@@ -689,10 +689,12 @@ gcamchina.TIBET_NATIONAL_ENERGY_SHARE <- 0.01
 gcamchina.ELEC_HISTORICAL_YEARS <- c(HISTORICAL_YEARS, 2011, 2012)
 
 # GCAM-China provinces
-gcamchina.PROVINCES <- c("AH", "BJ", "CQ", "FJ", "GD", "GS", "GX", "GZ", "HA", "HB", "HE", "HI", "HL", "HN", "JL", "JS", "JX", "LN", "NM", "NX", "QH", "SC", "SD", "SH",
+gcamchina.PROVINCES_ALL <- c("AH", "BJ", "CQ", "FJ", "GD", "GS", "GX", "GZ", "HA", "HB", "HE", "HI", "HK", "HL", "HN", "JL", "JS", "JX", "LN", "MC", "NM", "NX", "QH", "SC", "SD", "SH",
                          "SN", "SX", "TJ", "XJ", "XZ", "YN", "ZJ")
 
 # NOTE: can some of these be combined with gcamusa constants?
+                         "SN", "SX", "TJ", "XJ", "XZ", "YN", "ZJ")
+
 # Resources that will be modeled at the province level
 gcamchina.PROVINCE_RENEWABLE_RESOURCES <- c("distributed_solar", "geothermal", "onshore wind resource")
 gcamchina.PROVINCE_UNLIMITED_RESOURCES <- c("global solar resource", "limestone")
