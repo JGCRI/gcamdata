@@ -146,7 +146,7 @@ module_gcam.china_LA122.Refining <- function(command, ...) {
                                by = c("sector", "fuel", "year")) %>%
       # province output value = province proportion * national output value
       mutate(value = value.x * value.y) %>%
-      select(province, sector, fuel, year, value) ->
+      select(province, sector, year, value) ->
       L122.out_EJ_province_btlbd
 
 

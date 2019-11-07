@@ -48,7 +48,7 @@ module_gcam.china_LB1231.Elec_tech_china<- function(command, ...) {
       mutate(value = value.x / value.y) %>%
       replace_na(list(value = 0)) %>%
       # Repeat for all provinces
-      repeat_add_columns(tibble(province = gcamchina.PROVINCES)) %>%
+      repeat_add_columns(tibble(province = gcamchina.PROVINCES_ALL)) %>%
       select(province, sector = sector.x, fuel, technology, year, value) ->
       L1231.share_elec_F_tech
 
