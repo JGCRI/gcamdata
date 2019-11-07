@@ -26,7 +26,7 @@ module_gcam.china_L2999.ccs_shrwt_CHINA <- function(command, ...) {
 
     # Silence package checks
     region <- supplysector <- subsector <- subsector <- stub.technology <- year <-
-      share.weight <- apply.to <- from.year <- to.year <- interpolation.function <- NULL
+      share.weight <- apply.to <- from.year <- to.year <- interpolation.function <- subsector.name <- NULL
 
     # Load required inputs
     province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
@@ -42,7 +42,7 @@ module_gcam.china_L2999.ccs_shrwt_CHINA <- function(command, ...) {
        filter(!(region == "XZ" & supplysector == "N fertilizer"))
 
     L9999.StubTechInterpOverwrite_CHINA <- StubTechInterpOverwrite %>%
-      write_to_all_provinces(c(LEVEL2_DATA_NAMES[["StubTechInterpOverwrited"]]), gcamchina.PROVINCES_ALL) %>%
+      write_to_all_provinces(c(LEVEL2_DATA_NAMES[["StubTechInterpOverwrite"]]), gcamchina.PROVINCES_ALL) %>%
       # remove Tibet(XZ) N fertilizer
       filter(!(region == "XZ" & supplysector == "N fertilizer"))
 
