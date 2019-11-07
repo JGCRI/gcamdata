@@ -1,4 +1,4 @@
-library(devtools)
+library(usethis)
 library(gcamdata)
 LOGIT_TYPE_COLNAME <- gcamdata:::LOGIT_TYPE_COLNAME
 
@@ -220,6 +220,7 @@ generate_level2_data_names <- function() {
   level2_data_names[["StubTranTechLoadFactor"]] <- c("region", "supplysector", "tranSubsector", "stub.technology", "year", "loadFactor")
   level2_data_names[["StubTranTechProd"]] <- c("region", "supplysector", "tranSubsector", "stub.technology", "year", "calOutputValue")
   level2_data_names[["DeleteStubTech"]] <- level2_data_names[["StubTech"]]
+  level2_data_names[["StubTechInterpOverwrite"]] <- c(level2_data_names[["StubTech"]], "delete", "apply.to", "from.year", "to.year", "interpolation.function")
 
   # Agricultural sectors, subsectors, and technologies
   level2_data_names[["AgSupplySector"]] <- c("region", "AgSupplySector", "output.unit", "input.unit", "price.unit", "calPrice", "market", "logit.year.fillout", "logit.exponent")
@@ -451,4 +452,4 @@ PREBUILT_DATA <- driver(write_outputs = FALSE,
                         ))
 
 # Save these objects for use as internal package data
-devtools::use_data(GCAM_DATA_MAP, LEVEL2_DATA_NAMES, PREBUILT_DATA, overwrite = TRUE, internal = TRUE)
+usethis::use_data(GCAM_DATA_MAP, LEVEL2_DATA_NAMES, PREBUILT_DATA, overwrite = TRUE, internal = TRUE)

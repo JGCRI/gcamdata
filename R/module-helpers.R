@@ -1,3 +1,5 @@
+# Copyright 2019 Battelle Memorial Institute; see the LICENSE file.
+
 # module-helpers.R
 # Module specific helper functions
 
@@ -202,12 +204,16 @@ set_years <- function(data) {
 #'
 #' @param data Base tibble to start from
 #' @param names Character vector indicating the column names of the returned tibble
+#' @param region_list Character vector containing names of regions for which USA national data is repeated
 #' @note Used for USA national data by GCAM region, which is repeated for each US state
+#' @note Contains an argument which allows user to specify a different region list.
+#' @note For example, this is occasionally used to write all USA data to GCAM-USA grid regions.
 #' @return Tibble with data written out to all USA states
-write_to_all_states <- function(data, names) {
+write_to_all_states <- function(data, names, region_list = gcamusa.STATES) {
 
   assert_that(is_tibble(data))
   assert_that(is.character(names))
+  assert_that(is.character(region_list))
 
   region <- NULL  # silence package check notes
 
@@ -222,7 +228,7 @@ write_to_all_states <- function(data, names) {
   data %>%
     set_years %>%
     mutate(region = NULL) %>% # remove region column if it exists
-    repeat_add_columns(tibble(region = gcamusa.STATES)) %>%
+    repeat_add_columns(tibble(region = region_list)) %>%
     select(names)
 }
 
@@ -286,6 +292,39 @@ write_to_all_provinces <- function(data, names) {
       repeat_add_columns(tibble(region = gcamchina.TRN_PROVINCES)) %>%
       select(names)
   }
+
+
+#' write_to_all_provinces
+#'
+#' write out data to all provinces
+#'
+#' @param data Base tibble to start from
+#' @param names Character vector indicating the column names of the returned tibble
+#' @param provinces Character vector indicating which provinces to write out to (all provinces, or provinces w/o HK and MC)
+#' @note Used for China national data by GCAM region, which is repeated for each China province
+#' @return Tibble with data written out to all China provinces
+write_to_all_provinces <- function(data, names, provinces) {
+
+  assert_that(is_tibble(data))
+  assert_that(is.character(names))
+  assert_that(is.character(provinces))
+
+  region <- NULL  # silence package check notes
+
+  if("logit.year.fillout" %in% names) {
+    data$logit.year.fillout <- "start-year"
+  }
+
+  if("price.exp.year.fillout" %in% names) {
+    data$price.exp.year.fillout <- "start-year"
+  }
+
+  data %>%
+    set_years %>%
+    mutate(region = NULL) %>% # remove region column if it exists
+    repeat_add_columns(tibble(region = provinces)) %>%
+    select(names)
+}
 
 
 #' set_subsector_shrwt

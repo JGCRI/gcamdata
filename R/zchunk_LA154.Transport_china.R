@@ -61,11 +61,11 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
 
       # To delete the conflict size class caused by Hong Kong and Macau
       L154.in_EJ_CHINA_trn_m_sz_tech_F_Yh %>%
-        mutate(size.class = replace(size.class, mode == "Bus" & size.class == "All", "Light Bus")) %>%
-        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (0-2t)", "Truck (0-6t)")) %>%
-        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (2-5t)", "Truck (0-6t)")) %>%
-        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (5-9t)", "Truck (6-14t)")) %>%
-        mutate(size.class = replace(size.class, mode == "Truck" & size.class == "Truck (9-16t)", "Truck (6-14t)")) %>%
+        mutate(size.class = replace(size.class, mode == "Bus" & size.class == "All", "Light Bus"),
+               size.class = replace(size.class, mode == "Truck" & size.class == "Truck (0-2t)", "Truck (0-6t)"),
+               size.class = replace(size.class, mode == "Truck" & size.class == "Truck (2-5t)", "Truck (0-6t)"),
+               size.class = replace(size.class, mode == "Truck" & size.class == "Truck (5-9t)", "Truck (6-14t)"),
+               size.class = replace(size.class, mode == "Truck" & size.class == "Truck (9-16t)", "Truck (6-14t)")) %>%
         group_by(GCAM_region_ID, UCD_sector, mode, size.class, UCD_fuel, UCD_technology, fuel, year, EBProcess, EBMaterial) %>%
         summarise(value = sum(value)) %>%
         ungroup ->
@@ -95,7 +95,7 @@ module_gcam.china_LA154.Transport <- function(command, ...) {
       L154.NBS_trn_Mtce_province %>%
         group_by(EBProcess, EBMaterial, year) %>%
         mutate(value_share = value / sum(value, na.rm = T)) %>%
-        complete(nesting(year, sector, fuel, EBProcess, EBMaterial), province = gcamchina.PROVINCES) %>%
+        complete(nesting(year, sector, fuel, EBProcess, EBMaterial), province = gcamchina.PROVINCES_ALL) %>%
         ungroup() %>%
         # NAs were introduced where national values were 0. Replace NAs with zeros.
         replace_na(list(value_share = 0)) %>%

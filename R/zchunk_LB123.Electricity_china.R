@@ -66,6 +66,7 @@ module_gcam.china_LB123.Electricity <- function(command, ...) {
              nuclear = nuclear + nuc.adj,
              solar = solar + solar.adj) %>%
       select(-other, -row, -coal.adj, -wind.adj, -nuc.adj, -solar.adj) %>%
+      # TODO: what about biomass?  Just use coal shares for now
       mutate(biomass = coal) %>%
       gather(fuel, value, -province, -year) %>%
       # remove a few negative values, very small (order of 10^-15) in geothermal) allocated from "other"

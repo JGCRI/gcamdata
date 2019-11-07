@@ -4,12 +4,14 @@
 \alias{write_to_all_provinces}
 \title{write_to_all_provinces}
 \usage{
-write_to_all_provinces(data, names)
+write_to_all_provinces(data, names, provinces)
 }
 \arguments{
 \item{data}{Base tibble to start from}
 
 \item{names}{Character vector indicating the column names of the returned tibble}
+
+\item{provinces}{Character vector indicating which provinces to write out to (all provinces, or provinces w/o HK and MC)}
 }
 \value{
 Tibble with data written out to all China provinces

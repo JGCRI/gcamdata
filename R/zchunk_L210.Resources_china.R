@@ -38,8 +38,8 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     all_data <- list(...)[[1]]
 
     # Silence package checks
-     curve.exponent <- maxResource <- maxSubResource <- mid.price <-
-     region <- renewresource <- smooth.renewable.subresource <-
+    curve.exponent <- maxResource <- maxSubResource <- mid.price <-
+      region <- renewresource <- smooth.renewable.subresource <-
       unlimited.resource <- year.fillout <- province <- . <- NULL
 
     # Load required inputs
@@ -54,15 +54,18 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     # ===================================================
     cement_provinces <- unique( L1321.out_Mt_province_cement_Yh$province )
 
-    no_geo_provinces <- gcamchina.PROVINCES[ gcamchina.PROVINCES %in% L1231.out_EJ_province_elec_F_tech$province[ L1231.out_EJ_province_elec_F_tech$fuel == "geothermal" &
-                                                                                                                     L1231.out_EJ_province_elec_F_tech$X2010 == 0 ] ]
-    no_geo_provinces_resource <- tibble( region = no_geo_provinces, renewresource = "geothermal")
+    L1231.out_EJ_province_elec_F_tech %>%
+      filter(fuel == "geothermal", (year == 2010 & value == 0)) %>%
+      select(province) %>%
+      rename(region = province) %>%
+      mutate(renewresource = "geothermal") ->
+      no_geo_provinces_resource
 
     # L210.RenewRsrc_CHINA: renewable resource info in the provinces
     L210.RenewRsrc_CHINA <- L210.RenewRsrc %>%
       filter(region == "China",
              renewresource %in% gcamchina.PROVINCE_RENEWABLE_RESOURCES) %>%
-      write_to_all_provinces(LEVEL2_DATA_NAMES[["RenewRsrc"]]) %>%
+      write_to_all_provinces(LEVEL2_DATA_NAMES[["RenewRsrc"]], gcamchina.PROVINCES_ALL) %>%
       # Remove geothermal from provinces that don't have it
       anti_join(no_geo_provinces_resource, by = c("region", "renewresource")) %>%
       mutate(market = if_else(renewresource != "onshore wind resource", "China", region))
@@ -72,7 +75,7 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     L210.UnlimitRsrc_CHINA <- L210.UnlimitRsrc %>%
       filter(region == "China",
              unlimited.resource %in% gcamchina.PROVINCE_UNLIMITED_RESOURCES) %>%
-      write_to_all_provinces(LEVEL2_DATA_NAMES[["UnlimitRsrc"]])
+      write_to_all_provinces(LEVEL2_DATA_NAMES[["UnlimitRsrc"]], gcamchina.PROVINCES_ALL)
 
     L210.UnlimitRsrc_limestone_CHINA <- L210.UnlimitRsrc_CHINA %>%
       filter(unlimited.resource == "limestone",
@@ -85,7 +88,7 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     L210.UnlimitRsrcPrice_CHINA <- L210.UnlimitRsrcPrice %>%
       filter(region == "China",
              unlimited.resource %in% gcamchina.PROVINCE_UNLIMITED_RESOURCES) %>%
-      write_to_all_provinces(LEVEL2_DATA_NAMES[["UnlimitRsrcPrice"]])
+      write_to_all_provinces(LEVEL2_DATA_NAMES[["UnlimitRsrcPrice"]], gcamchina.PROVINCES_ALL)
 
     L210.UnlimitRsrcPrice_limestone_CHINA <- L210.UnlimitRsrcPrice_CHINA %>%
       filter(unlimited.resource == "limestone",
@@ -99,10 +102,10 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     # L210.SmthRenewRsrcCurves_wind_CHINA: wind resource curves in the provinces
     L210.SmthRenewRsrcCurves_wind_CHINA <- L210.SmthRenewRsrcCurves_wind %>%
       filter(region == "China") %>%
-      repeat_add_columns(tibble(province = gcamchina.PROVINCES)) %>%
+      repeat_add_columns(tibble(province = gcamchina.PROVINCES_noHKMC)) %>%
       left_join_error_no_match(province_names_mappings, by = "province") %>%
       select(-maxSubResource, -mid.price, -curve.exponent) %>%
-       # Add in new maxSubResource, mid.price, and curve.exponent from wind_potential_province
+      # Add in new maxSubResource, mid.price, and curve.exponent from wind_potential_province
       left_join_error_no_match(wind_potential_province, by = c("province.name")) %>%
       # Convert wind_potential_province units from 2007$/kWh to 1975$/GJ
       mutate(mid.price = mid.price * gdp_deflator(1975, 2007) / CONV_KWH_GJ) %>%
