@@ -5,8 +5,6 @@
 \title{write_to_all_provinces}
 \usage{
 write_to_all_provinces(data, names, provinces)
-
-write_to_all_provinces(data, names, provinces)
 }
 \arguments{
 \item{data}{Base tibble to start from}
@@ -14,23 +12,13 @@ write_to_all_provinces(data, names, provinces)
 \item{names}{Character vector indicating the column names of the returned tibble}
 
 \item{provinces}{Character vector indicating which provinces to write out to (all provinces, or provinces w/o HK and MC)}
-
-\item{data}{Base tibble to start from}
-
-\item{names}{Character vector indicating the column names of the returned tibble}
 }
 \value{
-Tibble with data written out to all China provinces
-
 Tibble with data written out to all China provinces
 }
 \description{
 write out data to all provinces
-
-write out data to all provinces
 }
 \note{
-Used for China national data by GCAM region, which is repeated for each China province
-
 Used for China national data by GCAM region, which is repeated for each China province
 }

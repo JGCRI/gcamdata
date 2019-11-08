@@ -76,7 +76,7 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
     # silence check package notes
     calOutputValue <- calibration <- minicam.energy.input <- province <- region <-
     sector <- sector.name <- subsector <- subsector.name <- supplysector <-
-    supplysector.x <- supplysector.y <- technology <- value <- year <- gcamchina.PROVINCES <- NULL
+    supplysector.x <- supplysector.y <- technology <- value <- year <- NULL
 
     # ===================================================
     # Define sector(s) used in L222.en_transformation_China
@@ -104,7 +104,7 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
       data %>%
         filter(region == gcamchina.REGION,
                supplysector %in% gcamchina.SECTOR_EN_NAMES) %>%
-        write_to_all_provinces(names = c(names(data), "region")) %>%
+        write_to_all_provinces(names = c(names(data), "region"), gcamchina.PROVINCES_NOHKMC) %>%
         filter((subsector == "oil refining" & region %in% oil_refining_provinces$province) |
                  subsector != "oil refining") %>%
         mutate(supplysector = subsector)
@@ -128,14 +128,13 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
       L222.DeleteStubTech_CHINAen
 
     # L222.PassThroughSector_CHINAen: PassThroughSector information to send vintaging info from provinces to CHINA
-    L222.SubsectorLogit_en %>%
+   L222.Tech_CHINAen <- L222.SubsectorLogit_en %>%
       select(LEVEL2_DATA_NAMES[["Subsector"]]) %>%
       filter(region == gcamchina.REGION, supplysector %in% gcamchina.SECTOR_EN_NAMES) %>%
-      repeat_add_columns(tibble::tibble(province = gcamchina.PROVINCES) ) %>%
+      repeat_add_columns(tibble::tibble(province = gcamchina.PROVINCES_NOHKMC) ) %>%
       filter(subsector == gcamchina.SECTOR_oil_refining & province %in% oil_refining_provinces$province
              | subsector != gcamchina.SECTOR_oil_refining) %>%
-      mutate(technology = paste(province, subsector, sep = " ")) ->
-      L222.Tech_CHINAen
+      mutate(technology = paste(province, subsector, sep = " "))
 
     # L222.Tech_CHINAen : The technology pass-throughs used to set the proper node name, CHINA region.
     L222.Tech_CHINAen %>%
@@ -275,7 +274,7 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
     # L222.StubTechMarket_en_CHINA: market names of inputs to province refining sectors
     L222.GlobalTechCoef_en_CHINA %>%
       select(one_of(LEVEL2_DATA_NAMES[["GlobalTechInput"]])) %>%
-      write_to_all_provinces(names = c(LEVEL2_DATA_NAMES[["GlobalTechInput"]], "region")) %>%
+      write_to_all_provinces(names = c(LEVEL2_DATA_NAMES[["GlobalTechInput"]], "region"), gcamchina.PROVINCES_NOHKMC) %>%
       rename(supplysector = sector.name,
              subsector = subsector.name,
              stub.technology = technology) %>%

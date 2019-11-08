@@ -147,7 +147,7 @@ module_gcam.china_L254.transportation_china <- function(command, ...) {
 
       data_new <- data %>%
         filter(region == gcamchina.REGION) %>%
-        write_to_all_trn_provinces(names = c(names(data), "region"))
+        write_to_all_provinces(names = c(names(data), "region"), gcamchina.PROVINCES_ALL)
 
       # Re-set markets from CHINA to regional markets, if called for in the GCAM-China assumptions for selected fuels
       if(gcamchina.USE_REGIONAL_FUEL_MARKETS & "market.name" %in% names(data_new)) {
@@ -272,7 +272,7 @@ module_gcam.china_L254.transportation_china <- function(command, ...) {
     # Write all possible pass-through technologies to all regions
     A54.globaltech_passthru %>%
       repeat_add_columns(tibble(year = MODEL_BASE_YEARS)) %>%
-      write_to_all_trn_provinces(names = c(names(.), "region")) %>%
+      write_to_all_provinces(names = c(names(.), "region"), gcamchina.PROVINCES_ALL) %>%
       select(region, supplysector, tranSubsector, stub.technology = technology, year, minicam.energy.input) %>%
       # Subset only the passthrough technologies that are applicable in each region
       semi_join(L254.StubTranTech_passthru_CHINA,

@@ -40,7 +40,7 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     # Silence package checks
     curve.exponent <- maxResource <- maxSubResource <- mid.price <-
       region <- renewresource <- smooth.renewable.subresource <-
-      unlimited.resource <- year.fillout <- province <- fuel <- year <- value . <- NULL
+      unlimited.resource <- year.fillout <- province <- fuel <- year <- value <- . <- NULL
 
     # Load required inputs
     province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
@@ -102,7 +102,7 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     # L210.SmthRenewRsrcCurves_wind_CHINA: wind resource curves in the provinces
     L210.SmthRenewRsrcCurves_wind_CHINA <- L210.SmthRenewRsrcCurves_wind %>%
       filter(region == "China") %>%
-      repeat_add_columns(tibble(province = gcamchina.PROVINCES_noHKMC)) %>%
+      repeat_add_columns(tibble(province = gcamchina.PROVINCES_NOHKMC)) %>%
       left_join_error_no_match(province_names_mappings, by = "province") %>%
       select(-maxSubResource, -mid.price, -curve.exponent) %>%
       # Add in new maxSubResource, mid.price, and curve.exponent from wind_potential_province
