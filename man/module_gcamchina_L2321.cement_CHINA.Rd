@@ -2,7 +2,7 @@
 % Please edit documentation in R/zchunk_L2321.cement_CHINA.R
 \name{module_gcamchina_L2321.cement_CHINA}
 \alias{module_gcamchina_L2321.cement_CHINA}
-\title{module_gcam.china_L2321.cement_CHINA}
+\title{module_gcamchina_L2321.cement_CHINA}
 \usage{
 module_gcamchina_L2321.cement_CHINA(command, ...)
 }
