@@ -102,14 +102,14 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
     # delete industry sectors in the CHINA region (energy-final-demands and supplysectors)
     L232.Supplysector_ind %>%
       mutate(region = region) %>% # strip attributes from object
-      filter(region == "China") %>%
+      filter(region == gcamchina.REGION) %>%
       select(LEVEL2_DATA_NAMES[["DeleteSupplysector"]]) ->
       L232.DeleteSupplysector_CHINAind  ## OUTPUT
 
     # deleting energy final demand sectors in the full CHINA region")
     L232.PerCapitaBased_ind %>%
       mutate(region = region) %>% # strip attributes from object
-      filter(region == "China") %>%
+      filter(region == gcamchina.REGION) %>%
       select(LEVEL2_DATA_NAMES[["DeleteFinalDemand"]]) ->
       L232.DeleteFinalDemand_CHINAind  ## OUTPUT
 
@@ -124,7 +124,7 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
       # to check to see if the data frame needs to be processed, it's assumed that if the CHINA
       # is not found in the region column that regions have already been processed.
 
-      check_CHINA <- filter(data, region == "China")
+      check_CHINA <- filter(data, region == gcamchina.REGION)
 
       if(nrow(check_CHINA) == 0) {
 
@@ -138,7 +138,7 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
         # then expand the input data to all provinces.
 
         data %>%
-          filter(region == "China") %>%
+          filter(region == gcamchina.REGION) %>%
           write_to_all_provinces(names = names(data), gcamchina.PROVINCES_ALL) ->
           new_data
 
@@ -266,7 +266,7 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
       L232.StubTechCoef_industry_CHINA  ## OUTPUT
 
     # Get markets for fuels consumed by the province industrial sectors
-    L232.StubTech_ind %>% filter(region == "China") %>% select(-region) %>%
+    L232.StubTech_ind %>% filter(region == gcamchina.REGION) %>% select(-region) %>%
       write_to_all_provinces(names = c(names(L232.StubTech_ind), "region"), gcamchina.PROVINCES_ALL) %>%
       repeat_add_columns(tibble(year = MODEL_YEARS)) %>%
       left_join_keep_first_only(A32.globaltech_eff %>% select(supplysector, subsector, technology, minicam.energy.input),
@@ -274,7 +274,7 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
       filter(is.na(minicam.energy.input) == FALSE) %>%
       #The table of all stub technologies includes the generic industrial technology, which doesn't apply here.
       #Only setting markets here for the ones that consume fuels.
-      mutate(market.name = "China") %>%
+      mutate(market.name = gcamchina.REGION) %>%
       select(LEVEL2_DATA_NAMES[["StubTechMarket"]]) %>%
       left_join_error_no_match(province_names_mappings %>% select(province, grid.region), by = c("region" = "province")) %>%
       mutate(market.name = if_else(minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS,
@@ -296,7 +296,7 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
       # ^^ filters for rows contained in L232.chp_techs
       mutate(secondary.output = "electricity") %>%
       select(LEVEL2_DATA_NAMES[["StubTechYr"]], "secondary.output", "market.name") %>%
-      mutate(market.name = "China") %>%
+      mutate(market.name = gcamchina.REGION) %>%
       # ^^ over-ride regional market names
       left_join_error_no_match(province_names_mappings %>%
                                  select(province, grid.region),
@@ -317,7 +317,7 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
     # delete industry sectors in the CHINA region (energy-final-demands and supplysectors)
     L232.Supplysector_ind %>%
       mutate(region = region) %>% # strip attributes from object
-      filter(region == "China") %>%
+      filter(region == gcamchina.REGION) %>%
       select(LEVEL2_DATA_NAMES[["DeleteSupplysector"]]) ->
       L232.DeleteSupplysector_CHINAind  ## OUTPUT
 

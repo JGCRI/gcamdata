@@ -1,6 +1,6 @@
 # Copyright 2019 Battelle Memorial Institute; see the LICENSE file.
 
-#' module_gcamchina_L2321.cement_CHINA
+#' 	module_gcamchina_L2321.cement_CHINA
 #'
 #' Make the logit and input tables for the cement sector in gcam-china
 #'
@@ -103,7 +103,7 @@ module_gcamchina_L2321.cement_CHINA <- function(command, ...) {
     #
     # Create a table that will be used remove the cement supply sector input table.
     L2321.Supplysector_cement %>%
-      filter(region == "China") %>%
+      filter(region == gcamchina.REGION) %>%
       select(region, supplysector) %>%
       # Mutate to remove attributes.
       mutate(region = region) ->
@@ -112,7 +112,7 @@ module_gcamchina_L2321.cement_CHINA <- function(command, ...) {
     # Create the table that will be used to remove the cement sector information from the
     # energy.final.demand input table.
     L2321.PerCapitaBased_cement %>%
-      filter(region == "China") %>%
+      filter(region == gcamchina.REGION) %>%
       select(region, energy.final.demand) %>%
       # Mutate to remove attributes.
       mutate(region = region) ->
@@ -130,7 +130,7 @@ module_gcamchina_L2321.cement_CHINA <- function(command, ...) {
       # to check to see if the data frame needs to be processed, it's assumed that if the CHINA
       # is not found in the region column that regions have already been processed.
 
-      check_df <- filter(data, region == "China")
+      check_df <- filter(data, region == gcamchina.REGION)
 
       if(nrow(check_df) == 0) {
 
@@ -144,7 +144,7 @@ module_gcamchina_L2321.cement_CHINA <- function(command, ...) {
         # then expand the input data to all cement producing provinces.
 
         data %>%
-          filter(region == "China") %>%
+          filter(region == gcamchina.REGION) %>%
           write_to_all_provinces(names = names(data), gcamchina.PROVINCES_ALL) %>%
           filter(region %in% cement_provinces[["province"]]) ->
           new_data
@@ -292,7 +292,7 @@ module_gcamchina_L2321.cement_CHINA <- function(command, ...) {
     # comes from the CHINA level.
     L2321.StubTechCoef_cement_CHINA %>%
       mutate(market.name = region,
-             market.name = if_else(grepl("elec", minicam.energy.input), "China", market.name)) %>%
+             market.name = if_else(grepl("elec", minicam.energy.input), gcamchina.REGION, market.name)) %>%
       # replace market name with the grid region name if the minicam.energy.input is
       # considered a regional fuel market
       left_join(province_names_mappings %>%
@@ -372,7 +372,7 @@ module_gcamchina_L2321.cement_CHINA <- function(command, ...) {
 
     # Fuels are from the CHINA markets, except for regional fuel markets
     L2321.StubTechMarket_cement_CHINA %>%
-      mutate(market.name = "China") %>%
+      mutate(market.name = gcamchina.REGION) %>%
       select(region, supplysector, subsector, stub.technology, year, minicam.energy.input, market.name) %>%
       # replace market name with the grid region name if the minicam.energy.input is
       # considered a regional fuel market
