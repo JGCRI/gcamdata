@@ -726,7 +726,7 @@ gcamchina.DIGITS_TRNCHINA_DEFAULT <- 1 # Reduce rounding in detailed China trans
 # GCAM-CHINA fertlizer constants
 gcamchina.FERT_LOGIT_EXP  <- -3             # Define default logit expoent used in the fertlizer subsector
 gcamchina.FERT_LOGIT_TYPE <- NA
-gcamchina.FERT_NAME       <- "N fertilizer" # Define GCAM-USA category name of fertilizer
+gcamchina.FERT_NAME       <- "N fertilizer" # Define GCAM-China category name of fertilizer
 
 
 # Time shift conditions ======================================================================
