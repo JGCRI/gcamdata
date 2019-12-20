@@ -64,7 +64,6 @@ module_gcamchina_L2321.cement_CHINA <- function(command, ...) {
     A321.demand <- get_data(all_data, "energy/A321.demand")
     A321.globaltech_coef <- get_data(all_data, "energy/A321.globaltech_coef")
 
-    # The following lines will be un commented when #789 is merged.
     L2321.Supplysector_cement <- get_data(all_data, "L2321.Supplysector_cement")
     L2321.FinalEnergyKeyword_cement <- get_data(all_data, "L2321.FinalEnergyKeyword_cement")
     L2321.SubsectorLogit_cement <- get_data(all_data, "L2321.SubsectorLogit_cement")
@@ -364,7 +363,7 @@ module_gcamchina_L2321.cement_CHINA <- function(command, ...) {
     # the process heat supplysector data frame.
     L2321.StubTechMarket_cement_CHINA %>%
       # Use left join here to pass time shift test.
-      left_join(calibrated_techs %>%
+      left_join_error_no_match(calibrated_techs %>%
                   select(supplysector, subsector, stub.technology = technology,
                          minicam.energy.input),
                 by = c("supplysector", "subsector", "stub.technology")) ->

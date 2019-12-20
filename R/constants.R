@@ -728,6 +728,7 @@ gcamchina.FERT_LOGIT_EXP  <- -3             # Define default logit expoent used 
 gcamchina.FERT_LOGIT_TYPE <- NA
 gcamchina.FERT_NAME       <- "N fertilizer" # Define GCAM-USA category name of fertilizer
 
+
 # Time shift conditions ======================================================================
 # Uncomment these lines to run under 'timeshift' conditions
 # # HISTORICAL_YEARS <- 1971:2005       # normally 1971:2010

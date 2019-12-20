@@ -83,7 +83,7 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
     # subsector logit exponents of fertilizer sector for the fuel subsectors to be removed in
     # GCAM-CHINA.
     L2322.SubsectorLogit_Fert %>%
-      filter(region == gcamchina.REGION, supplysector == "N fertilizer", subsector != "Imports") %>%
+      filter(region == gcamchina.REGION, supplysector == gcamchina.FERT_NAME, subsector != "Imports") %>%
       mutate(region = region) %>%
       select(region, supplysector, subsector) ->
       L2322.DeleteSubsector_CHINAFert
@@ -95,7 +95,6 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
       L2322.FinalEnergyKeyword_CHINAFert
 
 
-    # Since N fertilizer sectors are only created in provinces where the NAICS shipping information
     # indicates fertilizer production, create a tibble of the fertilizer producing provinces. This
     # tibble will be used to create the N fertilizer tables for GCAM-CHINA.
     L1322.out_Mt_province_Fert_Yh %>%
@@ -103,13 +102,13 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
       distinct ->
       Fert_provinces
 
-    # Select the supply sector information for fertilizer sector within the US and expand to all of the
+    # Select the supply sector information for fertilizer sector within the China and expand to all of the
     # sates that are fertilizer producers, then create subsector from province and fertilizer name.
     L2322.Supplysector_Fert %>%
-      filter(region == gcamchina.REGION, supplysector == "N fertilizer") %>%
+      filter(region == gcamchina.REGION, supplysector == gcamchina.FERT_NAME) %>%
       select(region, supplysector) %>%
       repeat_add_columns(Fert_provinces) %>%
-      mutate(subsector = paste(province, "N fertilizer")) ->
+      mutate(subsector = paste(province, gcamchina.FERT_NAME)) ->
       L2322.Supplysector_Fert_provinces
 
     # Now add the logit table information to the province fertilizer supply sector data frame.
@@ -129,7 +128,7 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
       L2322.SubsectorShrwtFllt_CHINAFert
 
     # Use the subsector logit exponents of fertilizer sector to create
-    # a table of the subsector default technology share-weights for the US.
+    # a table of the subsector default technology share-weights for the China.
     # that will be interpolated.
     L2322.SubsectorLogit_CHINAFert %>%
       select(region, supplysector, subsector) %>%
@@ -156,7 +155,7 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
       filter(year %in% MODEL_BASE_YEARS) %>%
       mutate(calOutputValue = signif(value, aglu.DIGITS_LAND_USE)) %>%
       select(-value) %>%
-      mutate(region = gcamchina.REGION, supplysector = "N fertilizer") %>%
+      mutate(region = gcamchina.REGION, supplysector = gcamchina.FERT_NAME) %>%
       unite(subsector, province, supplysector, sep = " ", remove = FALSE) ->
       L2322.Production_CHINAFert
 
@@ -165,7 +164,7 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
     # CHINA region fertilizer sector.
     L2322.Production_CHINAFert %>%
       mutate(technology = subsector,
-             input = "N fertilizer",
+             input = gcamchina.FERT_NAME,
              share.weight.year = year,
              subs.share.weight = if_else(calOutputValue == 0, 0, 1),
              tech.share.weight = subs.share.weight) %>%
@@ -178,7 +177,7 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
     # Add minicam energy input information and coefficient to the
     # to the technology share weight data frame.
     L2322.TechShrwt_CHINAFert %>%
-      mutate(minicam.energy.input = "N fertilizer",
+      mutate(minicam.energy.input = gcamchina.FERT_NAME,
              coefficient = 1) %>%
       # Parse out province market name from the fertilizer subsector.
       mutate(market.name = substr(start = 1, stop = 2, subsector)) %>%
@@ -198,7 +197,7 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
       # If the subsetted data frame does not contain any fertilizer supplysector information
       # for the CHINA region then it is assumed that the data frame has already been
       # processed, and the input data frame is returned as is.
-      check_df <- dplyr::filter(data, region == gcamchina.REGION & supplysector == "N fertilizer")
+      check_df <- dplyr::filter(data, region == gcamchina.REGION & supplysector == gcamchina.FERT_NAME)
 
       if(nrow(check_df) == 0) {
         # This does not change the entries of the data frame but will strip the attributes
@@ -217,7 +216,7 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
         # input data frame columns to all CHINA provinces and then subset by the
         # fertilizer producing provinces.
         data %>%
-          filter(region == gcamchina.REGION, supplysector == "N fertilizer") %>%
+          filter(region == gcamchina.REGION, supplysector == gcamchina.FERT_NAME) %>%
           write_to_all_provinces(names = df_names, gcamchina.PROVINCES_ALL) %>%
           filter(region %in% Fert_provinces[["province"]]) ->
           new_df
@@ -344,7 +343,7 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
     L2322.DeleteSubsector_CHINAFert %>%
       add_title("Subsector logit exponents of fertilizer sector to remove from GCAM-CHINA") %>%
       add_units("NA") %>%
-      add_comments("Subset L2322.SubsectorLogit_Fert for all observation other than subsector Imports and supplysector N fertilizer in the US") %>%
+      add_comments("Subset L2322.SubsectorLogit_Fert for all observation other than subsector Imports and supplysector N fertilizer in the China") %>%
       add_legacy_name("L2322.DeleteSubsector_CHINAFert") %>%
       add_precursors("L2322.SubsectorLogit_Fert") ->
       L2322.DeleteSubsector_CHINAFert
@@ -377,7 +376,7 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
     L2322.SubsectorLogit_CHINAFert %>%
       add_title("Subsector logit exponents of fertilizer sector for GCAM CHINA") %>%
       add_units("NA") %>%
-      add_comments("For fertilizer sector in region CHINA, the subsector logit exponents are expanded for US provinces with fertilizer census data.") %>%
+      add_comments("For fertilizer sector in region CHINA, the subsector logit exponents are expanded for China provinces with fertilizer census data.") %>%
       add_legacy_name("L2322.SubsectorLogit_CHINAFert") %>%
       add_precursors("L2322.Supplysector_Fert", "L1322.out_Mt_province_Fert_Yh") ->
       L2322.SubsectorLogit_CHINAFert

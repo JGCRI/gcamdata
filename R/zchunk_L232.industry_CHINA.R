@@ -162,13 +162,17 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
     L132.in_EJ_province_indnochp_F %>%
       bind_rows(L132.in_EJ_province_indchp_F) %>%
       complete(nesting(province, sector, fuel), year = c(year, MODEL_BASE_YEARS)) %>%
-      group_by(province, sector, fuel) %>% mutate(value = approx_fun(year, value)) %>%
-      ungroup %>% filter(year %in% MODEL_BASE_YEARS) %>%
+      group_by(province, sector, fuel) %>%
+      mutate(value = approx_fun(year, value)) %>%
+      ungroup %>%
+      filter(year %in% MODEL_BASE_YEARS) %>%
       rename(region = province) %>%
       left_join_keep_first_only(calibrated_techs, by = c("sector", "fuel")) %>%
       rename(stub.technology = technology) ->
       L232.in_EJ_province_indenergy_F_Yh
-    L232.in_EJ_province_indenergy_F_Yh %>% select(LEVEL2_DATA_NAMES[["StubTechYr"]], "value") %>%
+
+    L232.in_EJ_province_indenergy_F_Yh %>%
+	  select(LEVEL2_DATA_NAMES[["StubTechYr"]], "value") %>%
       left_join_keep_first_only(select(A32.globaltech_eff, subsector, technology, minicam.energy.input),
                                 by = c("subsector", "stub.technology" = "technology")) %>%
       mutate(calibrated.value = round(value, energy.DIGITS_CALOUTPUT),
@@ -176,7 +180,8 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
              tech.share.weight = if_else(calibrated.value > 0, 1, 0)) %>%
       group_by(region, supplysector, subsector, year) %>%
       mutate(x = sum(calibrated.value),
-             subs.share.weight = if_else(x > 0, 1, 0)) %>% ungroup %>%
+             subs.share.weight = if_else(x > 0, 1, 0)) %>%
+      ungroup %>%
       # ^^ sets up variable (x) for defining subsector shareweight
       select(LEVEL2_DATA_NAMES[["StubTechCalInput"]]) ->
       L232.StubTechCalInput_indenergy_CHINA  ## OUTPUT
@@ -184,27 +189,33 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
     # get calibrated input of industrial feedstock technologies
     L132.in_EJ_province_indfeed_F %>%
       complete(nesting(province, sector, fuel), year = c(year, MODEL_BASE_YEARS)) %>%
-      group_by(province, sector, fuel) %>% mutate(value = approx_fun(year, value)) %>%
+      group_by(province, sector, fuel) %>%
+	    mutate(value = approx_fun(year, value)) %>%
       ungroup %>% filter(year %in% MODEL_BASE_YEARS) %>%
       rename(region = province) %>%
       left_join_keep_first_only(calibrated_techs, by = c("sector", "fuel")) %>%
       select(-calibration, -secondary.output) %>%
       rename(stub.technology = technology) ->
       L232.in_EJ_province_indfeed_F_Yh
-    L232.in_EJ_province_indfeed_F_Yh %>% select(LEVEL2_DATA_NAMES[["StubTechYr"]], "value") %>%
+
+    L232.in_EJ_province_indfeed_F_Yh %>%
+      select(LEVEL2_DATA_NAMES[["StubTechYr"]], "value") %>%
       left_join_keep_first_only(select(A32.globaltech_eff, subsector, technology, minicam.energy.input),
                                 by = c("subsector", "stub.technology" = "technology")) %>%
       mutate(calibrated.value = round(value, energy.DIGITS_CALOUTPUT),
              share.weight.year = year,
              tech.share.weight = if_else(calibrated.value > 0, 1, 0)) %>%
-      group_by(region, supplysector, subsector, year) %>% mutate(x = sum(calibrated.value)) %>%
+      group_by(region, supplysector, subsector, year) %>%
+      mutate(x = sum(calibrated.value)) %>%
       # ^^ sets up variable (x) for defining subsector shareweight
-      mutate(subs.share.weight = if_else(x > 0, 1, 0)) %>% ungroup %>%
+      mutate(subs.share.weight = if_else(x > 0, 1, 0)) %>%
+      ungroup %>%
       select(LEVEL2_DATA_NAMES[["StubTechCalInput"]]) ->
       L232.StubTechCalInput_indfeed_CHINA  ## OUTPUT
 
     # get industrial sector calibrated output
     A32.globaltech_eff %>%
+	 #First, need to interpolate industrial tech efficiencies
       complete(nesting(supplysector, subsector, technology, minicam.energy.input, secondary.output),
                year = c(year, MODEL_BASE_YEARS)) %>%
       group_by(supplysector, subsector, technology, minicam.energy.input, secondary.output) %>%
@@ -235,7 +246,7 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
       select(LEVEL2_DATA_NAMES[["StubTechProd"]]) ->
       L232.StubTechProd_industry_CHINA  ## OUTPUT
 
-    # get calibrated output of industrial sector
+    # create the stub tech coefficients of industrial sector
     L232.out_EJ_province_ind_serv_F_Yh %>%
       group_by(region, supplysector, year) %>%
       summarise(calOutputValue = sum(calOutputValue)) %>% ungroup %>%
@@ -313,7 +324,6 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
       L232.BaseService_ind_CHINA  # base service is equal to the output of the industry supplysector
 
     # Delete subsectors that did not have any calibration data
-    # TODO: hard coding hydrogen here, what is the correct way of identifying future technologies?
     # delete industry sectors in the CHINA region (energy-final-demands and supplysectors)
     L232.Supplysector_ind %>%
       mutate(region = region) %>% # strip attributes from object
