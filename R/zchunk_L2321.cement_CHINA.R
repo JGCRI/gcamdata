@@ -362,7 +362,6 @@ module_gcamchina_L2321.cement_CHINA <- function(command, ...) {
     # Use the calibrated technology mapping data frame to add minicam.energy.input information to
     # the process heat supplysector data frame.
     L2321.StubTechMarket_cement_CHINA %>%
-      # Use left join here to pass time shift test.
       left_join_error_no_match(calibrated_techs %>%
                   select(supplysector, subsector, stub.technology = technology,
                          minicam.energy.input),

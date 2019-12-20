@@ -102,8 +102,8 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
       distinct ->
       Fert_provinces
 
-    # Select the supply sector information for fertilizer sector within the China and expand to all of the
-    # sates that are fertilizer producers, then create subsector from province and fertilizer name.
+    # Select the supply sector information for fertilizer sector within China and expand to all of the
+    # provinces that are fertilizer producers, then create subsector from province and fertilizer name.
     L2322.Supplysector_Fert %>%
       filter(region == gcamchina.REGION, supplysector == gcamchina.FERT_NAME) %>%
       select(region, supplysector) %>%
