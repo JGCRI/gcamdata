@@ -723,6 +723,12 @@ gcamchina.REGIONAL_FUEL_MARKETS <- c("regional coal", "delivered coal", "wholesa
 # Number of digits for model input data
 gcamchina.DIGITS_TRNCHINA_DEFAULT <- 1 # Reduce rounding in detailed China transport for compatability with mode
 
+# GCAM-CHINA fertlizer constants
+gcamchina.FERT_LOGIT_EXP  <- -3             # Define default logit expoent used in the fertlizer subsector
+gcamchina.FERT_LOGIT_TYPE <- NA
+gcamchina.FERT_NAME       <- "N fertilizer" # Define GCAM-USA category name of fertilizer
+
+
 # Time shift conditions ======================================================================
 # Uncomment these lines to run under 'timeshift' conditions
 # # HISTORICAL_YEARS <- 1971:2005       # normally 1971:2010
