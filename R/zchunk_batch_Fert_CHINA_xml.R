@@ -59,9 +59,9 @@ module_gcamchina_batch_Fert_CHINA_xml <- function(command, ...) {
     # Produce outputs
     create_xml("Fert_CHINA.xml") %>%
       add_xml_data(L2322.DeleteSubsector_CHINAFert, "DeleteSubsector") %>%
-      add_xml_data(L2322.FinalEnergyKeyword_Fert_CHINA, "FinalEnergyKeyword") %>%
       add_logit_tables_xml(L2322.Supplysector_Fert_CHINA, "Supplysector") %>%
       add_logit_tables_xml(L2322.SubsectorLogit_Fert_CHINA, "SubsectorLogit") %>%
+      add_xml_data(L2322.FinalEnergyKeyword_Fert_CHINA, "FinalEnergyKeyword") %>%
       add_xml_data(L2322.SubsectorShrwtFllt_Fert_CHINA, "SubsectorShrwtFllt") %>%
       add_xml_data(L2322.SubsectorInterp_Fert_CHINA, "SubsectorInterp") %>%
       add_xml_data(L2322.StubTech_Fert_CHINA, "StubTech") %>%

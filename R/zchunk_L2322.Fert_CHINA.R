@@ -46,7 +46,6 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
              "L2322.SubsectorShrwtFllt_Fert_CHINA",
              "L2322.SubsectorInterp_Fert_CHINA",
              "L2322.SubsectorInterp_CHINAFert"))
-
   } else if(command == driver.MAKE) {
 
     all_data <- list(...)[[1]]
@@ -148,16 +147,22 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
       L2322.TechShrwt_CHINAFert
 
 
-    # Subset the province fertilizer production data for model base years,
-    # format digits, and add region and supplysector information to prepare
-    # the data frame to add logit table information.
+    # Calibrated production in CHINA region fertilizer sector (consuming output of provinces)
     L1322.out_Mt_province_Fert_Yh %>%
-      filter(year %in% MODEL_BASE_YEARS) %>%
+      filter(year %in% MODEL_BASE_YEARS ) %>%
+      group_by(province,sector,year) %>%
+      summarise(value = sum(value)) %>%
+      complete(nesting(province), year = c(MODEL_BASE_YEARS)) %>%
+      arrange(province, year) %>%
+      group_by(province) %>%
+      mutate(value = approx_fun(year, value)) %>%
+      ungroup() %>%
       mutate(calOutputValue = signif(value, aglu.DIGITS_LAND_USE)) %>%
       select(-value) %>%
       mutate(region = gcamchina.REGION, supplysector = gcamchina.FERT_NAME) %>%
       unite(subsector, province, supplysector, sep = " ", remove = FALSE) ->
       L2322.Production_CHINAFert
+
 
     # Add technology and subsector share weights and other logit table
     # information to the calibrated output production for fertilizer in the
@@ -215,21 +220,15 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
         # Subset for observations in the CHINA region and expand all of the
         # input data frame columns to all CHINA provinces and then subset by the
         # fertilizer producing provinces.
+        # province-level Exports_fertilizer sector should be excluded
         data %>%
           filter(region == gcamchina.REGION, supplysector == gcamchina.FERT_NAME) %>%
           write_to_all_provinces(names = df_names, gcamchina.PROVINCES_ALL) %>%
           filter(region %in% Fert_provinces[["province"]]) ->
           new_df
+        # province-level N fertilizer should not include the Imports subsector.
+        if( "subsector" %in% names( new_df ) )   new_df %>% filter(subsector != "Imports" ) -> new_df
 
-        # If the input data frame includes subsector information subset the
-        # data frame for gas since province-level N fertilizer should not include
-        # the Imports subsector and there is no need for the alternative fuels either.
-        check_subsector <- c("subsector" %in% names(new_df))
-        if(check_subsector) {
-          new_df %>%
-            filter(grepl("gas", subsector)) ->
-            new_df
-        }
       }
       return(new_df)
     } # end of function
@@ -325,17 +324,18 @@ module_gcamchina_L2322.Fert_CHINA <- function(command, ...) {
       left_join_error_no_match(A322.globaltech_coef %>%
                                  select(supplysector, subsector, technology, minicam.energy.input),
                                by = c("supplysector", "subsector", c("stub.technology" = "technology"))) %>%
-      mutate(market.name = gcamchina.REGION) %>%
-      # replace market name with the grid region name if the minicam.energy.input is
-      # considered a regional fuel market
-      left_join_error_no_match(province_names_mappings %>%
-                                 select(province, grid.region),
-                               by = c("region" = "province")) %>%
-      mutate(market.name = if_else(minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS,
-                                   grid.region, market.name)) %>%
-      select(-grid.region) ->
+      mutate(market.name = region) ->
 	  L2322.StubTechMarket_Fert_CHINA
 
+    # Fuels are from the CHINA markets, except for regional fuel markets
+    L2322.StubTechMarket_Fert_CHINA %>%
+      mutate(market.name = gcamchina.REGION) %>%
+      select(region, supplysector, subsector, stub.technology, year, minicam.energy.input, market.name) %>%
+      # replace market name with the  region name if the minicam.energy.input is
+      # considered a regional fuel market
+      mutate(market.name = if_else(minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS,
+                                   region, market.name)) ->
+      L2322.StubTechMarket_Fert_CHINA
 
     # ===================================================
 

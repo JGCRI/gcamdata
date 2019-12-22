@@ -163,7 +163,7 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
       bind_rows(L132.in_EJ_province_indchp_F) %>%
       complete(nesting(province, sector, fuel), year = c(year, MODEL_BASE_YEARS)) %>%
       group_by(province, sector, fuel) %>%
-      mutate(value = approx_fun(year, value)) %>%
+      mutate(value = approx_fun(year, value,rule = 2)) %>%
       ungroup %>%
       filter(year %in% MODEL_BASE_YEARS) %>%
       rename(region = province) %>%
@@ -235,7 +235,8 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
 
     L232.out_EJ_province_ind_serv_F_Yh %>%
       group_by(region, year) %>%
-      summarise(calOutputValue = sum(calOutputValue)) %>% ungroup %>%
+      summarise(calOutputValue = sum(calOutputValue)) %>%
+      ungroup %>%
       # ^^ aggregate to get output of industrial sector in each region
       mutate(supplysector = "industry",
              subsector = "industry",
@@ -277,20 +278,21 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
       L232.StubTechCoef_industry_CHINA  ## OUTPUT
 
     # Get markets for fuels consumed by the province industrial sectors
-    L232.StubTech_ind %>% filter(region == gcamchina.REGION) %>% select(-region) %>%
+    L232.StubTech_ind %>%
+      filter(region == gcamchina.REGION) %>%
+      select(-region) %>%
       write_to_all_provinces(names = c(names(L232.StubTech_ind), "region"), gcamchina.PROVINCES_ALL) %>%
       repeat_add_columns(tibble(year = MODEL_YEARS)) %>%
-      left_join_keep_first_only(A32.globaltech_eff %>% select(supplysector, subsector, technology, minicam.energy.input),
+      left_join_keep_first_only(A32.globaltech_eff %>%
+                                  select(supplysector, subsector, technology, minicam.energy.input),
                                 by = c("supplysector", "subsector", "stub.technology" = "technology")) %>%
       filter(is.na(minicam.energy.input) == FALSE) %>%
       #The table of all stub technologies includes the generic industrial technology, which doesn't apply here.
       #Only setting markets here for the ones that consume fuels.
       mutate(market.name = gcamchina.REGION) %>%
       select(LEVEL2_DATA_NAMES[["StubTechMarket"]]) %>%
-      left_join_error_no_match(province_names_mappings %>% select(province, grid.region), by = c("region" = "province")) %>%
       mutate(market.name = if_else(minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS,
-                                   grid.region, market.name)) %>%
-      select(-grid.region) %>%
+                                   region, market.name)) %>%
       #NOTE: electricity is consumed from province markets
       mutate(market.name = if_else(grepl("elect_td", minicam.energy.input), region, market.name)) ->
       L232.StubTechMarket_ind_CHINA  ## OUTPUT
@@ -307,7 +309,7 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
       # ^^ filters for rows contained in L232.chp_techs
       mutate(secondary.output = "electricity") %>%
       select(LEVEL2_DATA_NAMES[["StubTechYr"]], "secondary.output", "market.name") %>%
-      mutate(market.name = gcamchina.REGION) %>%
+      mutate(market.name = region) %>%
       # ^^ over-ride regional market names
       left_join_error_no_match(province_names_mappings %>%
                                  select(province, grid.region),
@@ -332,10 +334,12 @@ module_gcam.china_L232.industry_CHINA <- function(command, ...) {
       L232.DeleteSupplysector_CHINAind  ## OUTPUT
 
     L232.StubTechMarket_ind_CHINA %>%
-      filter(subsector != "hydrogen") %>%
-      select(LEVEL2_DATA_NAMES[["Subsector"]]) ->
+      filter(subsector != "hydrogen"  ) %>%
+      anti_join(L232.StubTechCalInput_indenergy_CHINA[, LEVEL2_DATA_NAMES[["Subsector"]]] %>%
+                  full_join(L232.StubTechCalInput_indfeed_CHINA[, LEVEL2_DATA_NAMES[["Subsector"]]])) %>%
+      select(LEVEL2_DATA_NAMES[["Subsector"]]) %>%
+      unique() ->
       L232.DeleteSubsector_ind_CHINA
-
 
     # ===================================================
     # Produce outputs

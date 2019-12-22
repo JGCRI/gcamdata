@@ -63,13 +63,11 @@ module_gcamchina_batch_cement_CHINA_xml <- function(command, ...) {
 
     # Produce outputs
     create_xml("cement_CHINA.xml") %>%
-      add_xml_data(L210.UnlimitRsrc_limestone_CHINA, "UnlimitRsrc") %>%
-      add_xml_data(L210.UnlimitRsrcPrice_limestone_CHINA, "UnlimitRsrcPrice") %>%
       add_xml_data(L2321.DeleteSupplysector_CHINAcement, "DeleteSupplysector") %>%
       add_xml_data(L2321.DeleteFinalDemand_CHINAcement, "DeleteFinalDemand") %>%
       add_logit_tables_xml(L2321.Supplysector_cement_CHINA, "Supplysector") %>%
-      add_xml_data(L2321.FinalEnergyKeyword_cement_CHINA, "FinalEnergyKeyword") %>%
       add_logit_tables_xml(L2321.SubsectorLogit_cement_CHINA, "SubsectorLogit") %>%
+      add_xml_data(L2321.FinalEnergyKeyword_cement_CHINA, "FinalEnergyKeyword") %>%
       add_xml_data(L2321.SubsectorShrwtFllt_cement_CHINA, "SubsectorShrwtFllt") %>%
       add_xml_data(L2321.SubsectorInterp_cement_CHINA, "SubsectorInterp") %>%
       add_xml_data(L2321.StubTech_cement_CHINA, "StubTech") %>%
@@ -81,6 +79,8 @@ module_gcamchina_batch_cement_CHINA_xml <- function(command, ...) {
       add_xml_data(L2321.StubTechCalInput_cement_heat_CHINA, "StubTechCalInput") %>%
       add_xml_data(L2321.StubTechMarket_cement_CHINA, "StubTechMarket") %>%
       add_xml_data(L2321.BaseService_cement_CHINA, "BaseService") %>%
+      add_xml_data(L210.UnlimitRsrc_limestone_CHINA, "UnlimitRsrc") %>%
+      add_xml_data(L210.UnlimitRsrcPrice_limestone_CHINA, "UnlimitRsrcPrice") %>%
       add_precursors("L210.UnlimitRsrc_limestone_CHINA",
                      "L210.UnlimitRsrcPrice_limestone_CHINA",
                      "L2321.DeleteSupplysector_CHINAcement",

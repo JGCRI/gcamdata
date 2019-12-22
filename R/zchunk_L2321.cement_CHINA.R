@@ -372,14 +372,10 @@ module_gcamchina_L2321.cement_CHINA <- function(command, ...) {
     L2321.StubTechMarket_cement_CHINA %>%
       mutate(market.name = gcamchina.REGION) %>%
       select(region, supplysector, subsector, stub.technology, year, minicam.energy.input, market.name) %>%
-      # replace market name with the grid region name if the minicam.energy.input is
+      # replace market name with the  region name if the minicam.energy.input is
       # considered a regional fuel market
-      left_join_error_no_match(province_names_mappings %>%
-                                 select(region = province, grid.region),
-                               by = "region") %>%
       mutate(market.name = if_else(minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS,
-                                   grid.region, market.name)) %>%
-      select(-grid.region) ->
+                                   region, market.name)) ->
       L2321.StubTechMarket_cement_CHINA
 
 
