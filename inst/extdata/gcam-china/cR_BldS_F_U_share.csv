@@ -1,6 +1,10 @@
-# Climate region / building type / fuel / service shares
+# File: cR_BldS_F_U_share.csv
+# Title: Climate region / building type / fuel / service shares
+# Units: NA
+# Description: rawdata/Buildings/Bld_fuel_service_China_climatezone.xlsx
 # Source: TODO
-# From: rawdata/Buildings/Bld_fuel_service_China_climatezone.xlsx
+# Column types: cccnnnnn
+# ----------
 climate.region,sector,fuel,Heating,Cooling ,Lighting,WH & C,Appliance
 C,resid_urban,biomass,1,0,0,0,0
 C,resid_urban,traditional biomass,0,0,0,0,0
