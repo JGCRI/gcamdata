@@ -19,6 +19,7 @@
 module_gcam.china_LA144.Building_CHINA <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c("L142.in_EJ_R_bld_F_Yh",
+             "L144.flsp_bm2_R_comm_Yh",
              FILE="gcam-china/province_names_mappings",
              FILE="gcam-china/cR_BldS_F_U_share",
              FILE="gcam-china/floorspace_m2_province_Yh",
@@ -33,6 +34,7 @@ module_gcam.china_LA144.Building_CHINA <- function(command, ...) {
 
     # Load required inputs
     L142.in_EJ_R_bld_F_Yh <- get_data(all_data, "L142.in_EJ_R_bld_F_Yh")
+    L144.flsp_bm2_R_comm_Yh <- get_data(all_data, "L144.flsp_bm2_R_comm_Yh" )
     province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
     cR_BldS_F_U_share <- get_data(all_data, "gcam-china/cR_BldS_F_U_share")
     flsp_m2pc_province_Yh <- get_data(all_data, "gcam-china/floorspace_m2_province_Yh")
@@ -158,10 +160,11 @@ module_gcam.china_LA144.Building_CHINA <- function(command, ...) {
              value = if_else(is.na(value), 0, value)) %>%
       select(-value.province, - value.total)
 
-    L144.flsp_bm2_province_bld <- L144.in_pct_province_bld_comm %>%
+    L144.flsp_bm2_province_bld_comm <- L144.in_pct_province_bld_comm %>%
       left_join_error_no_match(L144.flsp_bm2_CHINA_comm, by = c("year", "sector")) %>%
-      mutate(value = value.x * value.y) %>%
-      select(province, sector, year, value)
+      mutate(value = value.x * value.y,
+             sector.match = "comm") %>%
+      select(province, sector, sector.match, year, value)
 
     # Residential floorspace: first compute absolute floorspace by multiplying per capita data by population
     # Compute urban population in historical years
@@ -195,18 +198,18 @@ module_gcam.china_LA144.Building_CHINA <- function(command, ...) {
       mutate(Rural = Rural * pop * 1000)  %>%
       select(-pop, -value)
 
-    flsp_bm2_province_Yh <- flsp_m2_province_Yh %>%
-      # TODO: Why are units divided by 10^9?
-      mutate(Urban = Urban / 10^9,
-             Rural = Rural / 10^9)
+    flsp_bm2_province_Yh <- flsp_m2pc_province_Yh_urban_rural %>%
+      # TODO: convert from m^2 to billion-m^2
+      mutate(Urban = Urban / CONV_ONES_BIL,
+             Rural = Rural / CONV_ONES_BIL)
 
     # Combine commercial and residential into one table
-    L144.flsp_bm2_prov_res_urban <- flsp_m2pc_province_Yh_urban_rural %>%
+    L144.flsp_bm2_prov_res_urban <- flsp_bm2_province_Yh %>%
       select(province, year, Urban) %>%
       rename(value = Urban) %>%
       mutate(sector = "resid_urban")
 
-    L144.flsp_bm2_prov_res_rural <- flsp_m2pc_province_Yh_urban_rural %>%
+    L144.flsp_bm2_prov_res_rural <- flsp_bm2_province_Yh %>%
       select(province, year, Rural) %>%
       rename(value = Rural) %>%
       mutate(sector = "resid_rural")
@@ -224,11 +227,14 @@ module_gcam.china_LA144.Building_CHINA <- function(command, ...) {
       repeat_add_columns(tibble::tibble(year = HISTORICAL_YEARS)) %>%
       filter(year < min(MODEL_BASE_YEARS))
 
-    L144.flsp_bm2_province_bld <- bind_rows(L144.flsp_bm2_prov_res_urban_1971_1974,
+    L144.flsp_bm2_province_bld_resid <- bind_rows(L144.flsp_bm2_prov_res_urban_1971_1974,
                                             L144.flsp_bm2_prov_res_urban,
                                             L144.flsp_bm2_prov_res_rural_1971_1974,
                                             L144.flsp_bm2_prov_res_rural) %>%
       mutate(sector.match = "resid")
+
+    L144.flsp_bm2_province_bld <- bind_rows(L144.flsp_bm2_province_bld_comm,
+                                            L144.flsp_bm2_province_bld_resid)
 
     # ===================================================
     # Write outputs
@@ -245,9 +251,10 @@ module_gcam.china_LA144.Building_CHINA <- function(command, ...) {
 
     L144.flsp_bm2_province_bld %>%
       add_title("Buildings floorspace by province and sector (res/comm)") %>%
-      add_units("bm2") %>%
+      add_units("billion-m^2") %>%
       add_legacy_name("L142.flsp_bm2_province_bld") %>%
       add_precursors("L142.in_EJ_R_bld_F_Yh",
+                     "L144.flsp_bm2_R_comm_Yh",
                      FILE="gcam-china/province_names_mappings",
                      FILE="gcam-china/cR_BldS_F_U_share",
                      FILE="gcam-china/floorspace_m2_province_Yh",
