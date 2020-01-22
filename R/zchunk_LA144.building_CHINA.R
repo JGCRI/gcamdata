@@ -27,7 +27,8 @@ module_gcam.china_LA144.Building_CHINA <- function(command, ...) {
              "L100.Pop_thous_province",
              "L101.inNBS_Mtce_province_S_F"))
   } else if(command == driver.DECLARE_OUTPUTS) {
-    return(c())
+    return(c("L144.in_EJ_province_bld_F_U",
+             "L144.flsp_bm2_province_bld"))
   } else if(command == driver.MAKE) {
 
     all_data <- list(...)[[1]]
@@ -44,6 +45,9 @@ module_gcam.china_LA144.Building_CHINA <- function(command, ...) {
 
 
     # Silence package checks
+    GCAM_region_ID <- Rural <- Urban <- Year <- climate.region <- fuel <- pop <- pop.total <-
+      pop.urban <- province <- sector <- sector.match <- service <- share <- value <- value.CHINA <-
+      value.fuel <- value.province <- value.total <- value.x <- value.y <- year <- NULL
 
     # ===================================================
 
@@ -170,14 +174,14 @@ module_gcam.china_LA144.Building_CHINA <- function(command, ...) {
     # Compute urban population in historical years
     total_pop_thous_prov_Yh <- subset(L100.Pop_thous_province, year %in% HISTORICAL_YEARS)
 
-    urban_pop_share_province_Yh.melt <- urban_pop_share_province_Yh %>%
+    urban_pop_share_province_Yh.long <- urban_pop_share_province_Yh %>%
       gather(key = "year", value = "value", as.character(HISTORICAL_YEARS)) %>%
       mutate(year = as.numeric(year)) %>%
       left_join_error_no_match(province_names_mappings, by = c("province.name")) %>%
       select(province, year, value)
 
     urban_pop_thous_prov_Yh <- total_pop_thous_prov_Yh %>%
-      left_join_error_no_match(urban_pop_share_province_Yh.melt, by = c("province", "year")) %>%
+      left_join_error_no_match(urban_pop_share_province_Yh.long, by = c("province", "year")) %>%
       mutate(pop = pop * value)
 
     # Compute rural population in historical years
@@ -242,6 +246,7 @@ module_gcam.china_LA144.Building_CHINA <- function(command, ...) {
     L144.in_EJ_province_bld_F_U %>%
       add_title("Buildings energy consumption by province, sector (res/comm),fuel, and service") %>%
       add_units("EJ") %>%
+      add_comments("NOTE: Using NBS rather than IEA for nation-level disaggregation between residential and commercial")
       add_legacy_name("L142.in_EJ_province_bld_F_U") %>%
       add_precursors("L142.in_EJ_R_bld_F_Yh",
                      FILE="gcam-china/province_names_mappings",
@@ -252,6 +257,7 @@ module_gcam.china_LA144.Building_CHINA <- function(command, ...) {
     L144.flsp_bm2_province_bld %>%
       add_title("Buildings floorspace by province and sector (res/comm)") %>%
       add_units("billion-m^2") %>%
+      add_comments("Comm floorspace calculated on basis of energy consumption by province, Resid floorspace calculated with urban/rural population data and flsp proj")
       add_legacy_name("L142.flsp_bm2_province_bld") %>%
       add_precursors("L142.in_EJ_R_bld_F_Yh",
                      "L144.flsp_bm2_R_comm_Yh",
