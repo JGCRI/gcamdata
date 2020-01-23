@@ -33,6 +33,11 @@ MODEL_BASE_YEARS        <- c(1975, 1990, 2005, 2010)
 MODEL_FUTURE_YEARS      <- seq(2015, 2100, 5)
 MODEL_YEARS             <- c(MODEL_BASE_YEARS, MODEL_FUTURE_YEARS)
 
+# intermediate BYU year constant. Need for early dev where not all data sets get extended.
+# Goal would be to have it handled automatically with a change to HISTORICAL_YEARS.
+# Should be able to just find and replace BYU_YEAR with max(HISTORICAL_YEARS) once the
+# BYU skeleton is in place for all chunks.
+BYU_YEAR                <- 2015
 
 # GCAM constants ======================================================================
 
