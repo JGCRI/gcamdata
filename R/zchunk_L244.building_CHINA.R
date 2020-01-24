@@ -48,7 +48,7 @@ module_gcam.china_L244.building_CHINA <- function(command, ...) {
              FILE = "gcam-china/A44.globaltech_interp",
              FILE = "gcam-china/A44.demand_satiation_mult",
              "L144.flsp_bm2_province_bld",
-             "L142.in_EJ_province_bld_F_U",
+             "L144.in_EJ_province_bld_F_U",
              "L100.pcGDP_thous90usd_province"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c())
@@ -844,40 +844,7 @@ module_gcam.china_L244.building_CHINA <- function(command, ...) {
       same_precursors_as("L244.HDDCDD_A2_GFDL_USA") ->
       L244.HDDCDD_constdds_USA
 
-    return_data(L244.DeleteConsumer_USAbld,
-                L244.DeleteSupplysector_USAbld,
-                L244.SubregionalShares_gcamusa,
-                L244.PriceExp_IntGains_gcamusa,
-                L244.Floorspace_gcamusa,
-                L244.DemandFunction_serv_gcamusa,
-                L244.DemandFunction_flsp_gcamusa,
-                L244.Satiation_flsp_gcamusa,
-                L244.SatiationAdder_gcamusa,
-                L244.ThermalBaseService_gcamusa,
-                L244.GenericBaseService_gcamusa,
-                L244.ThermalServiceSatiation_gcamusa,
-                L244.GenericServiceSatiation_gcamusa,
-                L244.Intgains_scalar_gcamusa,
-                L244.ShellConductance_bld_gcamusa,
-                L244.Supplysector_bld_gcamusa,
-                L244.FinalEnergyKeyword_bld_gcamusa,
-                L244.SubsectorShrwt_bld_gcamusa,
-                L244.SubsectorShrwtFllt_bld_gcamusa,
-                L244.SubsectorInterp_bld_gcamusa,
-                L244.SubsectorInterpTo_bld_gcamusa,
-                L244.SubsectorLogit_bld_gcamusa,
-                L244.StubTech_bld_gcamusa,
-                L244.StubTechCalInput_bld_gcamusa,
-                L244.StubTechMarket_bld,
-                L244.GlobalTechIntGainOutputRatio,
-                L244.GlobalTechInterpTo_bld,
-                L244.GlobalTechEff_bld,
-                L244.GlobalTechShrwt_bld_gcamusa,
-                L244.GlobalTechCost_bld_gcamusa,
-                L244.GlobalTechSCurve_bld,
-                L244.HDDCDD_A2_GFDL_USA,
-                L244.HDDCDD_AEO_2015_USA,
-                L244.HDDCDD_constdds_USA)
+    return_data()
   } else {
     stop("Unknown command")
   }
