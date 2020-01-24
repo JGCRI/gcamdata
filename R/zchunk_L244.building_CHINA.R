@@ -49,6 +49,7 @@ module_gcam.china_L244.building_CHINA <- function(command, ...) {
              FILE = "gcam-china/A44.demand_satiation_mult",
              "L144.flsp_bm2_province_bld",
              "L144.in_EJ_province_bld_F_U",
+             "L100.Pop_thous_province",
              "L100.pcGDP_thous90usd_province"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c())
@@ -62,7 +63,7 @@ module_gcam.china_L244.building_CHINA <- function(command, ...) {
     # Load required inputs
     A44.gcam_consumer_en <- get_data(all_data, "energy/A44.gcam_consumer")
     A44.sector_en <- get_data(all_data, "energy/A44.sector")
-    calibrated_techs_bld_china <- get_data(all_data, "gcam-china/calibrated_techs_bld_usa")
+    calibrated_techs_bld_china <- get_data(all_data, "gcam-china/calibrated_techs_bld_china")
     province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")
     A44.bld_shell_conductance <- get_data(all_data, "gcam-china/A44.bld_shell_conductance")
     A44.demandFn_flsp <- get_data(all_data, "gcam-china/A44.demandFn_flsp")
@@ -83,6 +84,7 @@ module_gcam.china_L244.building_CHINA <- function(command, ...) {
     A44.demand_satiation_mult <- get_data(all_data, "gcam-china/A44.demand_satiation_mult")
     L144.flsp_bm2_province_bld <- get_data(all_data, "L144.flsp_bm2_province_bld")
     L144.in_EJ_province_bld_F_U <- get_data(all_data, "L144.in_EJ_province_bld_F_U")
+    L100.Pop_thous_province <- get_data(all_data, "L100.Pop_thous_province")
     L100.pcGDP_thous90usd_province <- get_data(all_data, "L100.pcGDP_thous90usd_province")
 
     # ===================================================
@@ -93,64 +95,49 @@ module_gcam.china_L244.building_CHINA <- function(command, ...) {
     L244.DeleteSupplysector_CHINAbld <- tibble(region = gcamchina.REGION, supplysector = A44.sector_en$supplysector)
 
     #Subregional population and income shares: need to be read in because these default to 0
-    printlog( "L244.SubregionalShares: subregional population and income shares (not currently used)" )
+    # L244.SubregionalShares_CHINAbld: subregional population and income shares (not currently used)
     #TODO: fix subregional shares
-    L244.SubregionalShares <- write_to_all_provinces( A44.gcam_consumer, names_BldConsumers )
-    L244.SubregionalShares[ c( "pop.year.fillout", "inc.year.fillout" ) ] <- min( model_base_years )
-    L244.SubregionalShares[ c( "subregional.population.share", "subregional.income.share" ) ] <- 1
-
-
-
-    # L244.SubregionalShares_gcamusa: subregional population and income shares (not currently used)
-    L244.SubregionalShares_gcamusa <- write_to_all_states(A44.gcam_consumer, c("region", "gcam.consumer")) %>%
+    L244.SubregionalShares_CHINAbld <- write_to_all_provinces(A44.gcam_consumer, c("region", "gcam.consumer"), gcamchina.PROVINCES_ALL) %>%
       mutate(pop.year.fillout = min(MODEL_BASE_YEARS),
              inc.year.fillout = min(MODEL_BASE_YEARS),
              subregional.population.share = 1,
              subregional.income.share = 1)
 
-    # L244.PriceExp_IntGains_gcamusa: price exponent on floorspace and naming of internal gains trial markets
-    L244.PriceExp_IntGains_gcamusa <- write_to_all_states(A44.gcam_consumer, LEVEL2_DATA_NAMES[["PriceExp_IntGains"]])
+    # L244.PriceExp_IntGains_CHINAbld: price exponent on floorspace and naming of internal gains trial markets
+    L244.PriceExp_IntGains_CHINAbld <- write_to_all_provinces(A44.gcam_consumer, LEVEL2_DATA_NAMES[["PriceExp_IntGains"]], gcamchina.PROVINCES_ALL)
 
-    # L244.Floorspace_gcamusa: base year floorspace
+    # L244.Floorspace_CHINAbld: base year floorspace
     # Keep all historical years for now - these are needed in calculating satiation adders later on
 
-    # Residential floorspace
-    L244.Floorspace_resid <- L144.flsp_bm2_state_res %>%
-      rename(base.building.size = value,
-             region = state,
+    L244.bld_nodes_noregion <- A44.gcam_consumer %>%
+      select(c("gcam.consumer", "nodeInput", "building.node.input"))
+
+    L244.Floorspace_full<- L144.flsp_bm2_province_bld %>%
+      mutate(base.building.size = round(value, gcamchina.DIGITS_FLOORSPACE)) %>%
+      rename(region = province,
              gcam.consumer = sector) %>%
-      mutate(base.building.size = round(base.building.size, energy.DIGITS_FLOORSPACE)) %>%
-      left_join_error_no_match(A44.gcam_consumer, by = "gcam.consumer") %>%
-      select(LEVEL2_DATA_NAMES[["Floorspace"]])
+      left_join_error_no_match(L244.bld_nodes_noregion, by = c("gcam.consumer")) %>%
+      select(LEVEL2_DATA_NAMES[["Floorspace"]]) %>%
+      #TODO: fix floorspace
+      mutate(base.building.size = pmax(base.building.size, gcamchina.MIN_BASE_BUILDING_SIZE))
 
-    # Commercial floorspace
-    L244.Floorspace_comm <- L144.flsp_bm2_state_comm %>%
-      rename(base.building.size = value,
-             region = state,
-             gcam.consumer = sector) %>%
-      mutate(base.building.size = round(base.building.size, energy.DIGITS_FLOORSPACE)) %>%
-      left_join_error_no_match(A44.gcam_consumer, by = "gcam.consumer") %>%
-      select(LEVEL2_DATA_NAMES[["Floorspace"]])
+    L244.Floorspace_CHINAbld <- subset( L244.Floorspace_full, year %in% MODEL_BASE_YEARS )
 
-    L244.Floorspace_full <- bind_rows(L244.Floorspace_resid, L244.Floorspace_comm)
+    # L244.DemandFunction_serv_CHINAbld and L244.DemandFunction_flsp_CHINAbld: demand function types
+    L244.DemandFunction_serv_CHINAbld <- write_to_all_provinces(A44.demandFn_serv, LEVEL2_DATA_NAMES[["DemandFunction_serv"]], gcamchina.PROVINCES_ALL)
+    L244.DemandFunction_flsp_CHINAbld <- write_to_all_provinces(A44.demandFn_flsp, LEVEL2_DATA_NAMES[["DemandFunction_flsp"]], gcamchina.PROVINCES_ALL)
 
-    # Final output only has base years
-    L244.Floorspace_gcamusa <- filter(L244.Floorspace_full, year %in% MODEL_BASE_YEARS)
-
-    # L244.DemandFunction_serv_gcamusa and L244.DemandFunction_flsp_gcamusa: demand function types
-    L244.DemandFunction_serv_gcamusa <- write_to_all_states(A44.demandFn_serv, LEVEL2_DATA_NAMES[["DemandFunction_serv"]])
-    L244.DemandFunction_flsp_gcamusa <- write_to_all_states(A44.demandFn_flsp, LEVEL2_DATA_NAMES[["DemandFunction_flsp"]])
-
-    # L244.Satiation_flsp_gcamusa: Satiation levels assumed for floorspace
-    L244.Satiation_flsp_gcamusa <- A44.satiation_flsp %>%
-      gather(gcam.consumer, value, resid, comm) %>%
-      rename(region = state) %>%
+    # L244.Satiation_flsp_CHINAbld: Satiation levels assumed for floorspace
+    L244.Satiation_flsp_CHINAbld <- A44.satiation_flsp %>%
+      gather(key = gcam.consumer, value = value, c(resid_urban, resid_rural, comm)) %>%
+      rename(region = province) %>%
       # Need to make sure that the satiation level is greater than the floorspace in the final base year
-      left_join_error_no_match(L244.Floorspace_gcamusa %>%
+      # Use left join as HK and MC are present in the floorspace table, remove these
+      left_join(L244.Floorspace_CHINAbld %>%
                                  filter(year == max(MODEL_BASE_YEARS)), by = c("region", "gcam.consumer")) %>%
-      left_join_error_no_match(L100.Pop_thous_state %>% rename(pop = value), by = c("region" = "state", "year")) %>%
+      na.omit() %>%
+      left_join_error_no_match(L100.Pop_thous_province, by = c("region" = "province", "year")) %>%
       mutate(year = as.integer(year),
-             # value.y = population
              pcflsp_mm2cap = base.building.size / pop,
              # Satiation level = must be greater than the observed value in the final calibration year, so if observed value is
              # greater than calculated, multiply observed by 1.001
@@ -158,24 +145,22 @@ module_gcam.china_L244.building_CHINA <- function(command, ...) {
       left_join_error_no_match(A44.gcam_consumer, by = c("gcam.consumer", "nodeInput", "building.node.input")) %>%
       select(LEVEL2_DATA_NAMES[["BldNodes"]], "satiation.level")
 
-    # L244.SatiationAdder_gcamusa: Satiation adders in floorspace demand function
-    # Required for shaping the future floorspace growth trajectories in each region
-    # Match in the per-capita GDP, total floorspace, and population (for calculating per-capita floorspace)
+    # L244.SatiationAdder_CHINAbld: Satiation adders in floorspace demand function
+    # Satiation adder - this is total BS. Required for shaping the future floorspace growth trajectories in each region
 
     # We will filter GDP to energy.SATIATION_YEAR, but this may be greater than the historical years present
     # under timeshift conditions. So we adjust energy.SATIATION_YEAR
     energy.SATIATION_YEAR <- min(max(MODEL_BASE_YEARS), energy.SATIATION_YEAR)
 
-    L244.SatiationAdder_gcamusa <- L244.Satiation_flsp_gcamusa %>%
+    # Match in the per-capita GDP, total floorspace, and population (for calculating per-capita floorspace)
+    L244.SatiationAdder_CHINAbld <- L244.Satiation_flsp_CHINAbld %>%
       # Add per capita GDP
-      left_join_error_no_match(L100.pcGDP_thous90usd_state %>%
-                                 filter(year == energy.SATIATION_YEAR), by = c("region" = "state")) %>%
-      rename(pcGDP = value) %>%
+      left_join_error_no_match(L100.pcGDP_thous90usd_province %>%
+                                 filter(year == energy.SATIATION_YEAR), by = c("region" = "province")) %>%
       # Add floorspace
       left_join_error_no_match(L244.Floorspace_full, by = c("region", "gcam.consumer", "year", "nodeInput", "building.node.input")) %>%
       # Add population
-      left_join_error_no_match(L100.Pop_thous_state, by = c("region" = "state", "year")) %>%
-      rename(pop = value) %>%
+      left_join_error_no_match(L100.Pop_thous_province, by = c("region" = "province", "year")) %>%
       # Calculate per capita floorspace
       mutate(pcFlsp_mm2 = base.building.size / pop,
              # Calculate the satiation adders
@@ -184,6 +169,7 @@ module_gcam.china_L244.building_CHINA <- function(command, ...) {
                energy.DIGITS_SATIATION_ADDER),
              # The satiation adder (million square meters of floorspace per person) needs to be less than the per-capita demand in the final calibration year
              satiation.adder = if_else(satiation.adder > pcFlsp_mm2, pcFlsp_mm2 * 0.999, satiation.adder)) %>%
+      #NOTE: satiation adder is very slightly different (in hundreds decimal place) from old data system, because of slight changes in pcGDP
       select(LEVEL2_DATA_NAMES[["SatiationAdder"]])
 
     # Heating and cooling degree days (thermal services only)
@@ -192,70 +178,18 @@ module_gcam.china_L244.building_CHINA <- function(command, ...) {
     generic_services <- unique(A44.globaltech_intgains$supplysector)
     thermal_services <- dplyr::setdiff(unique(A44.sector$supplysector), generic_services)
 
-    # L244.HDDCDD: Heating and cooling degree days by scenario
-    L244.HDDCDD_scen_state <- L143.HDDCDD_scen_state %>%
-      rename(region = state,
-             degree.days = value)
-
-    # Let's make a climate normal (historical average) for each region, using a selected interval of years
-    # Don't want to just set one year, because we want average values for all regions
-    L244.HDDCDD_normal_state <- L244.HDDCDD_scen_state %>%
-      filter(year %in% seq(1981, 2000),
-             # The AEO_2015 scenario changes this "normal climate" for each region,
-             # which is not desirable since it does not incldue historical data
-             # and is not the standard reference assumption.  Thus, we remove it
-             # from this calculation.
-             Scen != "AEO_2015") %>%
-      group_by(region, variable) %>%
-      summarise(degree.days = mean(degree.days)) %>%
-      ungroup()
-
-    # Subset the heating and cooling services, separately
-    heating_services <- thermal_services[grepl("heating", thermal_services)]
-    cooling_services <- thermal_services[grepl("cooling", thermal_services)]
-
-    L244.HDDCDD_temp <- tidyr::crossing(region = gcamusa.STATES, thermal.building.service.input = thermal_services) %>%
-      # Add in gcam.consumer
-      left_join_error_no_match(calibrated_techs_bld_usa %>%
-                                 select(service, gcam.consumer = sector) %>%
-                                 distinct(), by = c("thermal.building.service.input" = "service")) %>%
-      # Add in nodeInput and building.node.input
-      left_join_error_no_match(A44.gcam_consumer, by = "gcam.consumer") %>%
-      select(LEVEL2_DATA_NAMES[["BldNodes"]], thermal.building.service.input) %>%
-      # Add in model years
-      repeat_add_columns(tibble(year = MODEL_YEARS)) %>%
-      # Add HDD/CDD so that we can join with L244.HDDCDD_scen_state, remove at end
-      mutate(variable = if_else(thermal.building.service.input %in% heating_services, "HDD", "CDD")) %>%
-      # Add in degree days
-      # L244.HDDCDD_scen_state has multiple scenarios, rows in this tbl_df are intended to be duplicated for each scenario
-      # left_join_error_no_match throws an error when rows are duplicated (as intended), so left_join is used
-      left_join(L244.HDDCDD_scen_state, by = c("region", "variable", "year")) %>%
-      mutate(degree.days = round(degree.days, energy.DIGITS_HDDCDD))
-
-    L244.HDDCDD_constdds_USA <- L244.HDDCDD_temp %>%
-      filter(Scen == "constdds") %>%
-      select(-Scen, -GCM, -variable)
-
-    L244.HDDCDD_A2_GFDL_USA <- L244.HDDCDD_temp %>%
-      filter(Scen == "A2") %>%
-      select(-Scen, -GCM, -variable)
-
-    L244.HDDCDD_AEO_2015_USA <- L244.HDDCDD_temp %>%
-      filter(Scen == "AEO_2015") %>%
-      select(-Scen, -GCM, -variable)
-
-    # L244.ShellConductance_bld_gcamusa: Shell conductance (inverse of shell efficiency)
-    L244.ShellConductance_bld_gcamusa <- A44.bld_shell_conductance %>%
+    # L244.ShellConductance_CHINAbld: Shell conductance (inverse of shell efficiency)
+    L244.ShellConductance_CHINAbld  <- A44.bld_shell_conductance %>%
       # Convert to long form
-      gather_years() %>%
+      gather_years()  %>%
       # Interpolate to model years
       complete(gcam.consumer, year = c(year, MODEL_YEARS)) %>%
       group_by(gcam.consumer) %>%
       mutate(value = round(approx_fun(year, value), energy.DIGITS_EFFICIENCY)) %>%
       ungroup() %>%
       filter(year %in% MODEL_YEARS) %>%
-      # Repeat for all states
-      write_to_all_states(names = c(names(.), "region")) %>%
+      # Repeat for all provinces
+      write_to_all_provinces(names = c(names(.), "region"), gcamchina.PROVINCES_ALL) %>%
       # Add nodeInput and building.node.input
       left_join_error_no_match(A44.gcam_consumer, by = "gcam.consumer") %>%
       mutate(floor.to.surface.ratio = energy.FLOOR_TO_SURFACE_RATIO,
@@ -265,11 +199,16 @@ module_gcam.china_L244.building_CHINA <- function(command, ...) {
       select(LEVEL2_DATA_NAMES[["ShellConductance"]])
 
     # The remainder of the building-level parameters require information about the output of each service, which we do not have yet
+    # First, technology-level inputs and efficiencies need to be assigned.
+    # So moving to service supply sectors/subsectors/technologies
+    # supplysector
 
-    # L244.Supplysector_bld: Supplysector info for buildings
-    L244.Supplysector_bld_gcamusa <- write_to_all_states(A44.sector, c(LEVEL2_DATA_NAMES[["Supplysector"]], LOGIT_TYPE_COLNAME))
+    # L244.Supplysector_CHINAbld: Supplysector info for buildings
+    L244.Supplysector_CHINAbld <- write_to_all_provinces(A44.sector, c(LEVEL2_DATA_NAMES[["Supplysector"]], LOGIT_TYPE_COLNAME), gcamchina.PROVINCES_ALL)
 
-    # L244.FinalEnergyKeyword_bld: Supply sector keywords for detailed building sector
+
+
+    # L244.FinalEnergyKeyword_CHINAbld: Supply sector keywords for detailed building sector
     L244.FinalEnergyKeyword_bld_gcamusa <- write_to_all_states(A44.sector, LEVEL2_DATA_NAMES[["FinalEnergyKeyword"]])
 
     # L244.SubsectorLogit_bld: Subsector logit exponents of building sector

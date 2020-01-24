@@ -8,7 +8,7 @@
 #' @param ... other optional parameters, depending on command
 #' @return Depends on \code{command}: either a vector of required inputs,
 #' a vector of output names, or (if \code{command} is "MAKE") all
-#' the generated outputs: \code{L142.in_EJ_province_bld_F_U} The corresponding file in the
+#' the generated outputs: \code{L144.in_EJ_province_bld_F_U} \code{L144.flsp_bm2_province_bld} The corresponding file in the
 #' original data system was \code{LA142.Building.R} (gcam-china level1).
 #' @details Buildings sector energy consumption
 #' @importFrom assertthat assert_that
@@ -246,7 +246,7 @@ module_gcam.china_LA144.Building_CHINA <- function(command, ...) {
     L144.in_EJ_province_bld_F_U %>%
       add_title("Buildings energy consumption by province, sector (res/comm),fuel, and service") %>%
       add_units("EJ") %>%
-      add_comments("NOTE: Using NBS rather than IEA for nation-level disaggregation between residential and commercial")
+      add_comments("NOTE: Using NBS rather than IEA for nation-level disaggregation between residential and commercial") %>%
       add_legacy_name("L142.in_EJ_province_bld_F_U") %>%
       add_precursors("L142.in_EJ_R_bld_F_Yh",
                      FILE="gcam-china/province_names_mappings",
@@ -257,7 +257,7 @@ module_gcam.china_LA144.Building_CHINA <- function(command, ...) {
     L144.flsp_bm2_province_bld %>%
       add_title("Buildings floorspace by province and sector (res/comm)") %>%
       add_units("billion-m^2") %>%
-      add_comments("Comm floorspace calculated on basis of energy consumption by province, Resid floorspace calculated with urban/rural population data and flsp proj")
+      add_comments("Comm floorspace calculated on basis of energy consumption by province, Resid floorspace calculated with urban/rural population data and flsp proj") %>%
       add_legacy_name("L142.flsp_bm2_province_bld") %>%
       add_precursors("L142.in_EJ_R_bld_F_Yh",
                      "L144.flsp_bm2_R_comm_Yh",
