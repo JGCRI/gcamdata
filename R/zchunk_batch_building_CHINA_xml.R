@@ -1,16 +1,16 @@
 # Copyright 2019 Battelle Memorial Institute; see the LICENSE file.
 
-#' module_gcamusa_batch_building_USA_xml
+#' module_gcam.china_batch_building_CHINA_xml
 #'
-#' Construct XML data structure for \code{building_USA.xml}.
+#' Construct XML data structure for \code{building_CHINA.xml}.
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
 #' @return Depends on \code{command}: either a vector of required inputs,
 #' a vector of output names, or (if \code{command} is "MAKE") all
-#' the generated outputs: \code{building_USA.xml}. The corresponding file in the
-#' original data system was \code{batch_building_USA.xml} (gcamusa XML).
-module_gcamusa_batch_building_CHINA_xml <- function(command, ...) {
+#' the generated outputs: \code{building_CHINA.xml}. The corresponding file in the
+#' original data system was \code{batch_building_CHINA.xml} (gcamusa XML).
+module_gcam.china_batch_building_CHINA_xml <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c("L244.DeleteConsumer_CHINAbld",
              "L244.DeleteSupplysector_CHINAbld",
@@ -29,7 +29,6 @@ module_gcamusa_batch_building_CHINA_xml <- function(command, ...) {
              "L244.ShellConductance_CHINAbld",
              "L244.Supplysector_CHINAbld",
              "L244.FinalEnergyKeyword_CHINAbld",
-             "L244.SubsectorShrwt_CHINAbld",
              "L244.SubsectorShrwtFllt_CHINAbld",
              "L244.SubsectorInterp_CHINAbld",
              "L244.SubsectorInterpTo_CHINAbld",
@@ -86,7 +85,7 @@ module_gcamusa_batch_building_CHINA_xml <- function(command, ...) {
     # ===================================================
 
     # Produce outputs
-    create_xml("building_USA.xml") %>%
+    create_xml("building_CHINA.xml") %>%
       add_xml_data(L244.DeleteConsumer_CHINAbld, "DeleteConsumer") %>%
       add_xml_data(L244.DeleteSupplysector_CHINAbld, "DeleteSupplysector") %>%
       add_xml_data(L244.SubregionalShares_CHINAbld, "SubregionalShares") %>%
@@ -151,7 +150,7 @@ module_gcamusa_batch_building_CHINA_xml <- function(command, ...) {
       building_CHINA.xml
 
     # # Some data inputs may not actually contain data. If so, do not add_xml_data.
-    if(!is.null(L244.SubsectorInterpTo_bld)) {
+    if(!is.null(L244.SubsectorInterpTo_CHINAbld)) {
 
       building_CHINA.xml %>%
         add_xml_data(L244.SubsectorInterpTo_CHINAbld, "SubsectorInterpTo") ->
