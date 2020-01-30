@@ -113,6 +113,7 @@ CONV_BBL_TONNE_RFO <- 1 / 6.66 # barrels to tons residual fuel oil
 CONV_TONNE_GJ_RFO <- 40.87 # tons to GJ residual fuel oil
 CONV_BBL_TONNE_DISTILLATE <- 1 / 7.46 # barrels to tons distillate
 CONV_TONNE_GJ_DISTILLATE <- 42.91 # tons to GJ distillate
+CONV_TONNE_GJ_DIESEL <- 45.766
 
 # Time
 CONV_YEAR_HOURS <- 24 * 365.25
@@ -132,6 +133,7 @@ CONV_TBTU_EJ <- 0.0010551 # TeraBTU to EJ
 CONV_MJ_BTU <- 947.777
 CONV_BTU_KJ <- 1.0551
 CONV_EJ_MTCE <- 34.12                   #EJ to Metric tons of coal equivalent
+CONV_BCM_EJ <- 0.04                     #billion m^3 to EJ
 
 
 # Other
@@ -709,13 +711,19 @@ gcamchina.REGIONAL_FUEL_MARKETS <- c("regional coal", "delivered coal", "wholesa
 gcamchina.DIGITS_CALOUTPUT          <- 7    # production
 
 # GCAM-CHINA default constants
+gcamchina.DEFAULT_COEFFICIENT <- 1
 gcamchina.DEFAULT_LOGIT_TYPE  <- NA  # default logit type
+gcamchina.DEFAULT_LOGITEXP    <- -3
+gcamchina.DEFAULT_MARKET      <- gcamchina.REGION
 gcamchina.DEFAULT_SHAREWEIGHT <- 1
 
 gcamchina.ELECT_TD_SECTORS  <- c("elect_td_bld", "elect_td_ind", "elect_td_trn")
 
 # Indicate whether to use regional as opposed to national fuel markets (FALSE = national markets)
 gcamchina.USE_REGIONAL_FUEL_MARKETS  <- TRUE
+
+# Indicate whether to use regional as opposed to national elec markets (FALSE = national markets)
+gcamchina.USE_REGIONAL_ELEC_MARKETS  <- TRUE
 
 # Fuels whose markets will be modeled at the regional level
 gcamchina.REGIONAL_FUEL_MARKETS <- c("regional coal", "delivered coal", "wholesale gas", "delivered gas",
@@ -733,6 +741,10 @@ gcamchina.FERT_NAME       <- "N fertilizer" # Define GCAM-China category name of
 # minimum base building size
 gcamchina.MIN_BASE_BUILDING_SIZE <- 0.001
 
+# RMB conversions
+gcamchina.conv_2015_2010_RMB <- 0.6795
+gcamchina.conv_2014_2010_RMB <- 0.7366
+gcamchina.conv_2010_RMB_USD <-  0.1477
 
 # Time shift conditions ======================================================================
 # Uncomment these lines to run under 'timeshift' conditions

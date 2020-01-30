@@ -14,8 +14,8 @@ module_gcam.china_batch_building_CHINA_xml(command, ...)
 \value{
 Depends on \code{command}: either a vector of required inputs,
 a vector of output names, or (if \code{command} is "MAKE") all
-the generated outputs: \code{building_USA.xml}. The corresponding file in the
-original data system was \code{batch_building_USA.xml} (gcamusa XML).
+the generated outputs: \code{building_CHINA.xml}. The corresponding file in the
+original data system was \code{batch_building_CHINA.xml} (gcamusa XML).
 }
 \description{
 Construct XML data structure for \code{building_CHINA.xml}.

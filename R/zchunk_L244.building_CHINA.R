@@ -14,7 +14,7 @@
 #' \code{L244.ThermalServiceSatiation_CHINAbld}, \code{L244.GenericServiceSatiation_CHINAbld}, \code{L244.Intgains_scalar_CHINAbld},
 #' \code{L244.ShellConductance_CHINAbld}, \code{L244.Supplysector_CHINAbld}, \code{L244.FinalEnergyKeyword_CHINAbld}, \code{L244.SubsectorShrwt_CHINAbld},
 #' \code{L244.SubsectorShrwtFllt_CHINAbld}, \code{L244.SubsectorInterp_CHINAbld}, \code{L244.SubsectorInterpTo_CHINAbld},
-#' \code{L244.SubsectorLogit_CHINAbld, \code{L244.StubTech_CHINAbld}, \code{L244.StubTechCalInput_CHINAbld}, \code{L244.StubTechMarket_CHINAbld},
+#' \code{L244.SubsectorLogit_CHINAbld}, \code{L244.StubTech_CHINAbld}, \code{L244.StubTechCalInput_CHINAbld}, \code{L244.StubTechMarket_CHINAbld},
 #' \code{L244.GlobalTechIntGainOutputRatio_CHINAbld}, \code{L244.GlobalTechInterpTo_CHINAbld}, \code{L244.GlobalTechEff_CHINAbld},
 #' \code{L244.GlobalTechShrwt_CHINAbld}, \code{L244.GlobalTechCost_CHINAbld}, \code{L244.GlobalTechSCurve_CHINAbld},
 #' \code{L244.FuelPrefElast_CHINAbld}.

@@ -1,6 +1,6 @@
 #' module_gcam.china_L226.en_distribution_CHINA
 #'
-#' Create a variety of energy and electricity outputs for CHINA at the province and/or grid_region level.
+#' Create a variety of energy and electricity outputs for CHINA at the province and/or grid.region level.
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
@@ -13,7 +13,7 @@
 #' \item{\code{L226.TechCost_electd_CHINA}: Tech costs for elec T&D when using regional electricity markets.}
 #' \item{\code{L226.Supplysector_electd_CHINA}: CHINA supply sector input, output, and logit info for elec T&D by province.}
 #' \item{\code{L226.SubsectorShrwtFllt_electd_CHINA}: CHINA subsector shareweight fillout for elec T&D by state.}
-#' \item{\code{L226.SubsectorLogit_electd_CHINA}: CHINA subsector logit info for elec T&D by grid_region.}
+#' \item{\code{L226.SubsectorLogit_electd_CHINA}: CHINA subsector logit info for elec T&D by grid.region.}
 #' \item{\code{L226.SubsectorInterp_electd_CHINA}: CHINA interpolation info for elec T&D by province.}
 #' \item{\code{L226.TechCoef_electd_CHINA}: Tech coeff for elec T&D when using regional electricity markets.}
 #' \item{\code{L226.TechShrwt_en_CHINA}: Technology shareweights of energy handling and delivery. Can't use stub technologies because these would inherit the wrong energy-inputs.}
@@ -25,11 +25,11 @@
 #' \item{\code{L226.Ccoef_CHINA}: Carbon coef for CHINA cost adder sectors.}
 #' }
 #' The corresponding file in the original data system was \code{L226.en_distribution_CHINA.R} (gcam-china level2).
-#' @details Create a variety of energy and electricity outputs for CHINA at the province and/or grid_region level.
+#' @details Create a variety of energy and electricity outputs for CHINA at the province and/or grid.region level.
 #' @importFrom dplyr bind_rows distinct filter if_else group_by left_join mutate select summarize
 #' @importFrom tidyr gather spread
 #' @author LuRen Dec 2019
-module_gcamchina_L226.en_distribution_CHINA <- function(command, ...) {
+module_gcam.china_L226.en_distribution_CHINA <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "gcam-china/province_names_mappings",
              FILE = "energy/A21.sector",
@@ -87,7 +87,7 @@ module_gcamchina_L226.en_distribution_CHINA <- function(command, ...) {
     # silence check package notes
     region <- supplysector <- from.year <- to.year <- output.unit <- input.unit <- price.unit <- liq_adj <-
       logit.exponent <- logit.type <- . <- subsector <- State <- Coal <- Natural.gas <- Distillate.fuel.oil <-
-      grid_region <- state_name <- coal_adj <- gas_adj <- liq_adju <- sector1 <- adjustment <- technology <-
+      grid.region <- state_name <- coal_adj <- gas_adj <- liq_adju <- sector1 <- adjustment <- technology <-
       year <- minicam.non.energy.input <- tmp <- sector2 <- trash1 <- trash2 <- input.cost <- sector.name <-
       subsector.name <- stub.technology <- market.name <- state <- NULL
 
@@ -95,9 +95,9 @@ module_gcamchina_L226.en_distribution_CHINA <- function(command, ...) {
     # and processes for use in CHINA electricity T&D
     global_energy_to_CHINA_electd <- function(data) {
       data %>%
-        filter(GCAM_region_ID == gcamchina.REGION_ID),
+        filter(region == gcamchina.REGION,
                supplysector %in% gcamchina.ELECT_TD_SECTORS) %>%
-        write_to_all_states(names(data))
+        write_to_all_provinces(names(data), gcamchina.PROVINCES_ALL)
     } # end global_energy_to_CHINA_electd
 
     # Process inputs:
@@ -141,7 +141,7 @@ module_gcamchina_L226.en_distribution_CHINA <- function(command, ...) {
       select(LEVEL2_DATA_NAMES[["Subsector"]]) %>%
       mutate(logit.year.fillout = min(MODEL_BASE_YEARS),
              logit.exponent = gcamchina.DEFAULT_LOGITEXP,
-             logit.type = NA) %>%
+             logit.type = gcamchina.DEFAULT_LOGIT_TYPE) %>%
       select(LEVEL2_DATA_NAMES[["SubsectorLogit"]], LOGIT_TYPE_COLNAME) ->
       L226.SubsectorLogit_en_CHINA
 
@@ -172,49 +172,56 @@ module_gcamchina_L226.en_distribution_CHINA <- function(command, ...) {
     # Step 1 Convert the units to 1975 USD per GJ
     #Match in region acronyms
     regional_fuel_prices_RMB %>%
-      left_join_error_no_match(province_names_mappings, by = "province.name") ->
-      regional_fuel_prices
+      left_join_error_no_match(province_names_mappings, by = "province.name") %>%
     #Unit conversions
-    regional_fuel_prices %>%
-      mutate(coal = coal*conv_2015_2010_RMB*conv_2010_RMB_USD*conv_2010_1975_USD*conv_EJ_mtce/1000,
-             gas =  gas*conv_2015_2010_RMB*conv_2010_RMB_USD*conv_2010_1975_USD/conv_bcm_EJ/1000,
-             refined.liquids = refined.liquids*conv_2014_2010_RMB*conv_2010_RMB_USD*conv_2010_1975_USD/conv_tonne_GJ_diesel) ->
+      mutate(coal = coal * gcamchina.conv_2015_2010_RMB * gcamchina.conv_2010_RMB_USD * gdp_deflator(1975, 2010) * CONV_EJ_MTCE / 1000,
+             gas =  gas * gcamchina.conv_2015_2010_RMB * gcamchina.conv_2010_RMB_USD * gdp_deflator(1975, 2010) / CONV_BCM_EJ / 1000,
+             refined.liquids = refined.liquids * gcamchina.conv_2014_2010_RMB * gcamchina.conv_2010_RMB_USD * gdp_deflator(1975, 2010) / CONV_TONNE_GJ_DIESEL) ->
       regional_fuel_prices
 
     # Step 2 Consumption weights for calculating average national resource prices
     L101.NBS_use_all_Mtce %>%
-      filter(EBMaterial == "Diesel Oil") %>%
-      mutate((X2010 == "NA","X2010")=0) %>%
-      mutate(as.numeric(X2010)) %>%
-      aggregate(X2010 ~ province, FUN=sum) ->
+      filter(year == 2010, EBMaterial == "Diesel Oil") %>%
+      mutate(value = if_else(is.na(value),0,value)) %>%
+      group_by(province) %>%
+      summarise(value = sum(value)) %>%
+      ungroup() %>%
+      rename(liq_weight = value) ->
       liquids_use_weights
+
     L101.NBS_use_all_Mtce %>%
-      filter(EBMaterial %in% c("LNG","Natural Gas")) %>%
-      mutate((X2010 == "NA","X2010")=0) %>%
-      mutate(as.numeric(X2010)) %>%
-      aggregate(X2010 ~ province, FUN=sum) ->
+      filter(year == 2010, EBMaterial %in% c("LNG","Natural Gas")) %>%
+      mutate(value = if_else(is.na(value),0,value)) %>%
+      group_by(province) %>%
+      summarise(value = sum(value)) %>%
+      ungroup() %>%
+      rename(gas_weight = value) ->
       gas_use_weights
+
     L101.NBS_use_all_Mtce %>%
-      filter(EBMaterial == "Coal Raw") %>%
-      mutate((X2010 == "NA","X2010")=0) %>%
-      mutate(as.numeric(X2010)) %>%
-      aggregate(X2010 ~ province, FUN=sum) ->
+      filter(year == 2010, EBMaterial == "Coal Raw") %>%
+      mutate(value = if_else(is.na(value),0,value))  %>%
+      group_by(province) %>%
+      summarise(value = sum(value)) %>%
+      ungroup() %>%
+      rename(coal_weight = value) ->
       coal_use_weights
+
     regional_fuel_prices %>%
-      left_join_error_no_match(select(liquids_use_weights, region, province), by = c("region" = "province")) %>%
-      left_join_error_no_match(select(gas_use_weights, region, province), by = c("region" = "province")) %>%
-      left_join_error_no_match(select(coal_use_weights, region, province), by = c("region" = "province")) ->
+      left_join_error_no_match(liquids_use_weights, by = c("province")) %>%
+      left_join_error_no_match(gas_use_weights, by = c("province")) %>%
+      left_join_error_no_match(coal_use_weights, by = c("province")) ->
       regional_fuel_prices
 
 
     # Step 3 Final calculation of cost adjustment
     # NOTE: for liquids, using diesel fuel price
-    # finish adjustment calculations by taking the median of each grid_region
+    # finish adjustment calculations by taking the median of each grid.region
     regional_fuel_prices %>%
       mutate(coal_adj = coal - weighted.mean(coal, coal_weight),
              gas_adj = gas - weighted.mean(gas, gas_weight),
              liq_adj = refined.liquids - weighted.mean(refined.liquids, liq_weight)) %>%
-      group_by(grid_region) %>%
+      group_by(grid.region) %>%
       summarize(coal_adj = median(coal_adj),
                 gas_adj = median(gas_adj),
                 liq_adj = median(liq_adj)) %>%
@@ -227,8 +234,8 @@ module_gcamchina_L226.en_distribution_CHINA <- function(command, ...) {
     if(gcamchina.USE_REGIONAL_FUEL_MARKETS) {
       L226.TechShrwt_en_CHINA %>%
         select(LEVEL2_DATA_NAMES[["TechYr"]]) %>%
-        mutate(minicam.non.energy.input = "regional price adjustment") %>%
-        left_join_error_no_match(L226.CostAdj_75USDGJ_FERC_F, by = c("region" = "grid_region")) %>%
+        mutate(minicam.non.energy.input = "regional price adjustment") ->
+        left_join_error_no_match(L226.CostAdj_75USDGJ_FERC_F, by = c("region" = "grid.region")) %>%
         rename(coal = coal_adj,
                gas = gas_adj,
                liquids = liq_adj) %>%
@@ -246,7 +253,7 @@ module_gcamchina_L226.en_distribution_CHINA <- function(command, ...) {
 
     # L226.Ccoef_CHINA: carbon coef for cost adder sectors
     L202.CarbonCoef %>%
-      filter(region == "CHINA") %>%
+      filter(region == gcamchina.REGION) %>%
       select(-region) ->
       L226.Ccoef_CHINA
 
@@ -262,8 +269,8 @@ module_gcamchina_L226.en_distribution_CHINA <- function(command, ...) {
 
     # L226.DeleteSupplysector_CHINAelec: Removing the electricity T&D sectors of the CHINA region
     # This should probably be converted to an assumption and read in at some point.
-    L226.DeleteSupplysector_CHINAelec <- tibble(region == "CHINA", supplysector = gcamchina.ELECT_TD_SECTORS)
-
+    L226.DeleteSupplysector_CHINAelec <- tibble(supplysector = gcamchina.ELECT_TD_SECTORS) %>%
+      mutate(region = gcamchina.REGION)
 
     # Replacing for loop starting on line 161 in old DS.
     # There's also two inputs to this chunk that are NULL, and nothing gets done to: L226.SubsectorShrwt_en, L226.SubsectorInterpTo_en
@@ -323,7 +330,7 @@ module_gcamchina_L226.en_distribution_CHINA <- function(command, ...) {
         mutate(minicam.energy.input = "electricity domestic supply") %>%
         select(-market.name) %>%
         left_join_error_no_match(select(province_names_mappings, grid.region, province), by = c("region" = "province")) %>%
-        rename(market.name = grid_region) ->
+        rename(market.name = grid.region) ->
         L226.TechCoef_electd_CHINA
     }
 
@@ -461,7 +468,7 @@ module_gcamchina_L226.en_distribution_CHINA <- function(command, ...) {
     L226.SubsectorLogit_electd_CHINA %>%
       add_title("CHINA subsector logit info for elec T&D") %>%
       add_units("varies") %>%
-      add_comments("CHINA subsector logit info for elec T&D by grid_region") %>%
+      add_comments("CHINA subsector logit info for elec T&D by grid.region") %>%
       add_legacy_name("L226.SubsectorLogit_electd_CHINA") %>%
       add_precursors("L226.SubsectorLogit_en") ->
       L226.SubsectorLogit_electd_CHINA
