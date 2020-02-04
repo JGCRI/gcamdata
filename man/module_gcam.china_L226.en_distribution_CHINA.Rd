@@ -21,7 +21,7 @@ the generated outputs:
 \item{\code{L226.TechCost_electd_CHINA}: Tech costs for elec T&D when using regional electricity markets.}
 \item{\code{L226.Supplysector_electd_CHINA}: CHINA supply sector input, output, and logit info for elec T&D by province.}
 \item{\code{L226.SubsectorShrwtFllt_electd_CHINA}: CHINA subsector shareweight fillout for elec T&D by state.}
-\item{\code{L226.SubsectorLogit_electd_CHINA}: CHINA subsector logit info for elec T&D by grid_region.}
+\item{\code{L226.SubsectorLogit_electd_CHINA}: CHINA subsector logit info for elec T&D by grid.region.}
 \item{\code{L226.SubsectorInterp_electd_CHINA}: CHINA interpolation info for elec T&D by province.}
 \item{\code{L226.TechCoef_electd_CHINA}: Tech coeff for elec T&D when using regional electricity markets.}
 \item{\code{L226.TechShrwt_en_CHINA}: Technology shareweights of energy handling and delivery. Can't use stub technologies because these would inherit the wrong energy-inputs.}
@@ -35,11 +35,11 @@ the generated outputs:
 The corresponding file in the original data system was \code{L226.en_distribution_CHINA.R} (gcam-china level2).
 }
 \description{
-Create a variety of energy and electricity outputs for CHINA at the province and/or grid_region level.
+Create a variety of energy and electricity outputs for CHINA at the province and/or grid.region level.
 }
 \details{
-Create a variety of energy and electricity outputs for CHINA at the province and/or grid_region level.
+Create a variety of energy and electricity outputs for CHINA at the province and/or grid.region level.
 }
 \author{
-LuRen Dec 2019
+LuRen Dec 2019, edited by BY Feb 2020
 }
