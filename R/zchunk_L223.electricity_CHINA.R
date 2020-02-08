@@ -31,6 +31,8 @@
 module_gcam.china_L223.electricity_China <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "gcam-china/province_names_mappings",
+             FILE = "gcam-china/future_hydro_gen_EJ",
+             FILE = "gcam-china/nuc_share_weight_assumptions",
              FILE = "energy/calibrated_techs",
              FILE = "energy/A23.globaltech_eff",
              "L114.CapacityFactor_wind_province",
@@ -412,32 +414,19 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
     process_CHINA_to_provinces(L223.StubTechCapFactor_elec) -> L223.StubTechCapFactor_elec_CHINA
 
     # NOTE: Modify the share-weight path for nuclear to include province preferences
-    L1231.out_EJ_province_elec_F_tech %>%
-      filter(year == max(HISTORICAL_YEARS)) %>%
-      group_by(province) %>%
-      summarise(elec = sum(value)) %>%
-      ungroup ->
-      L223.out_EJ_province_elec
-
-    L1231.out_EJ_province_elec_F_tech %>%
-      filter(fuel == "nuclear", year == max(HISTORICAL_YEARS)) %>%
-      left_join_error_no_match(L223.out_EJ_province_elec, by = "province") %>%
-      mutate(share = value / elec,
-             avg.share = sum(value) / sum(elec),
-             pref = share / avg.share) %>%
-      select(province, pref) %>%
-      # Just set some bounds on the share weight multiplier
-      mutate(share.weight.mult = pref,
-             share.weight.mult = replace(share.weight.mult, share.weight.mult < 0.1, 0.1),
-             share.weight.mult = replace(share.weight.mult, share.weight.mult > 2, 2)) ->
-      L223.province_nuc_pref
-
-    L223.SubsectorShrwt_nuc_CHINA %>%
-      left_join_error_no_match(L223.province_nuc_pref, by = c("region" = "province")) %>%
-      mutate(share.weight = round(share.weight * share.weight.mult, digits = energy.DIGITS_COST)) %>%
-      select(-pref, -share.weight.mult) ->
+    nuc_share_weight_assumptions %>%
+      gather("year","share.weight",-region) %>%
+      mutate(supplysector = "electricity",
+             subsector = "nuclear") ->
       L223.SubsectorShrwt_nuc_CHINA
 
+    substr( L223.SubsectorShrwt_nuc_CHINA$year, 2, 5 ) ->
+      L223.SubsectorShrwt_nuc_CHINA$year
+    
+    L223.SubsectorShrwt_nuc_CHINA[names_SubsectorShrwt] ->
+      L223.SubsectorShrwt_nuc_CHINA
+    
+   
     # Stub technology information for province electricity generation
     # calibration
     L1231.in_EJ_province_elec_F_tech %>%
@@ -480,14 +469,28 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
 
     # Add in future hydropower generation here
     # L223.StubTechFixOut_hydro_CHINA: fixed output of future hydropower
-    # NOTE: This just holds it constant for now;
-    # at some point, should downscale of the (almost completely flat) nation-level projection
+    # NOTE: National data is adjusted in 2014 and 2020 to match data from Bo Liu;
+    # Downscare to provinces is based on relative hydro ele generation share in 2010
+    # Linear interpolate rule 2
+    future_hydro_gen_EJ %>%
+      complete(year = FUTURE_YEARS) %>%
+      mutate(value = approx_fun(year,value,rule = 2)) %>%
+      filter(year %in% MODEL_FUTURE_YEARS) ->
+      hydro_elec_gen
+    
     L223.StubTechFixOut_elec_CHINA %>%
       filter(grepl("hydro", stub.technology), year == max(HISTORICAL_YEARS)) %>%
-      select(-year) %>%
-      repeat_add_columns(tibble(year = MODEL_FUTURE_YEARS)) ->
+      mutate(share = fixedOutput / sum(fixedOutput)) %>%
+      as_tibble() %>% 
+      repeat_add_columns(tibble(year2 = MODEL_FUTURE_YEARS)) %>%
+      mutate(year = year2,share.weight.year = year2) %>%
+      left_join(hydro_elec_gen,-value,by = "year") %>%
+      mutate(fixedOutput = value * share) -> 
       L223.StubTechFixOut_hydro_CHINA
-
+      
+    L223.StubTechFixOut_hydro_CHINA[names_StubTechFixOut] ->
+      L223.StubTechFixOut_hydro_CHINA
+      
     # L223.StubTechProd_elec_CHINA: calibrated output of electricity generation technologies
     L223.calout_EJ_province_elec_F_tech %>%
       select(LEVEL2_DATA_NAMES[["StubTechYr"]], calOutputValue) %>%
@@ -867,11 +870,10 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
     L223.SubsectorShrwt_nuc_CHINA %>%
       add_title("Share-weights for nuclear in the provinces") %>%
       add_units("Unitless") %>%
-      add_comments("The same China region values are repeated for each province") %>%
-      add_comments("Modify the share-weight path for nuclear to include province preferences") %>%
+      add_comments("Table used to adjust nuclear share weights that have been adjusted") %>%
+      add_comments("manually to match data from Bo Liu") %>%
       add_legacy_name("L223.SubsectorShrwt_nuc_CHINA") %>%
-      add_precursors("L223.SubsectorShrwt_nuc",
-                     "L1231.out_EJ_province_elec_F_tech") ->
+      add_precursors("nuc_share_weight_assumptions") ->
       L223.SubsectorShrwt_nuc_CHINA
 
     L223.SubsectorShrwt_renew_CHINA %>%
@@ -939,9 +941,10 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
     L223.StubTechFixOut_hydro_CHINA %>%
       add_title("Fixed outputs of future hydropower electricity generation in the provinces") %>%
       add_units("EJ") %>%
-      add_comments("This just holds it constant for now.") %>%
+      add_comments("It holds constants beyond 2020, and interpolate between 2014 and 2020.") %>%
       add_legacy_name("L223.StubTechFixOut_hydro_CHINA") %>%
-      same_precursors_as("L223.StubTechFixOut_elec_CHINA") ->
+      same_precursors_as("L223.StubTechFixOut_elec_CHINA",
+                         "future_hydro_gen_EJ") ->
       L223.StubTechFixOut_hydro_CHINA
 
     L223.StubTechProd_elec_CHINA %>%
