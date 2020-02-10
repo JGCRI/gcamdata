@@ -426,7 +426,6 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
     L223.SubsectorShrwt_nuc_CHINA[names_SubsectorShrwt] ->
       L223.SubsectorShrwt_nuc_CHINA
     
-    
     # Stub technology information for province electricity generation
     # calibration
     L1231.in_EJ_province_elec_F_tech %>%
@@ -486,11 +485,11 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
       mutate(year = year2,share.weight.year = year2) %>%
       left_join(hydro_elec_gen,-value,by = "year") %>%
       mutate(fixedOutput = value * share) -> 
-      L223.StubTechFixOut_hydro_CHINA
+      L223.StubTechFixOut_hydro_CHINA      
     
     L223.StubTechFixOut_hydro_CHINA[names_StubTechFixOut] ->
       L223.StubTechFixOut_hydro_CHINA
-    
+
     # L223.StubTechProd_elec_CHINA: calibrated output of electricity generation technologies
     L223.calout_EJ_province_elec_F_tech %>%
       select(LEVEL2_DATA_NAMES[["StubTechYr"]], calOutputValue) %>%
