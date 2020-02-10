@@ -142,19 +142,20 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
 
 
     # A vector indicating provinces where geothermal electric technologies will not be created
-    L1231.out_EJ_province_elec_F_tech %>%
-      left_join(province_names_mappings, by = c("Province" = "province_name")) %>%
-      filter(Geothermal_Hydrothermal_GWh == 0) %>%
+
+     L1231.out_EJ_province_elec_F_tech %>%
+      left_join_error_no_match(province_names_mappings) %>%
+      filter(value == 0) %>%
       transmute(geo_province_noresource = paste(province, "geothermal", sep = " ")) %>%
       unlist ->
       geo_provinces_noresource
 
 
-    # gcamCHINA.USE_REGIONAL_ELEC_MARKETS is TRUE, indicating to resolve electricity demands
+    # gcamchina.USE_REGIONAL_ELEC_MARKETS is TRUE, indicating to resolve electricity demands
     # at the level of the grid regions. The entire loop below produces outputs
     # assoicated with resolving demand at the national level, and is currently disabled.
     # Instead, a set of empty tibbles are produced at the end of this chunk.
-    if(!gcamCHINA.USE_REGIONAL_ELEC_MARKETS) {
+    if(!gcamchina.USE_REGIONAL_ELEC_MARKETS) {
       # PART 1: THE CHINA REGION
       # Define the sector(s) that will be used in this code file. Can be one or multiple sectors
       # The subsectors of the existing China electricity sector are deleted.
@@ -162,13 +163,13 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
       # NOTE: This also removes the rooftop PV subsector of the CHINA elect_td_bld sector
       L223.SubsectorLogit_elec %>%
         select(LEVEL2_DATA_NAMES[["Subsector"]]) %>%
-        filter(region == gcam.CHINA_REGION) ->
+        filter(region == gcamchina.REGION) ->
         L223.DeleteSubsector_CHINAelec
 
       # L223.Supplysector_CHINAelec: supplysector for electricity sector in the China region,
       # including logit exponent between grid regions
       # All of the supplysector information is the same as before, except the logit exponent
-      tibble(region = gcam.CHINA_REGION,
+      tibble(region = gcamchina.REGION,
              supplysector = elec_gen_names,
              output.unit = "EJ",
              input.unit = "EJ",
@@ -181,7 +182,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
 
       # L223.SubsectorShrwtFllt_CHINAelec: subsector (grid region) share-weights in China electricity
       # No need to read in subsector logit exponents, which are applied to the technology competition
-      tibble(region = gcam.CHINA_REGION,
+      tibble(region = gcamchina.REGION,
              supplysector = elec_gen_names,
              subsector = paste(grid.regions, elec_gen_names, sep = " "),
              year.fillout = min(MODEL_BASE_YEARS),
@@ -381,7 +382,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
         minicam.energy.input <- NULL  # silence package check notes
 
       data_new <- data %>%
-        filter(region == gcam.CHINA_REGION) %>%
+        filter(region == gcamchina.REGION) %>%
         write_to_all_provinces(names(data))
 
       if("subsector" %in% names(data_new)) {
@@ -507,7 +508,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
                                 by = c("supplysector", "subsector", "stub.technology" = "technology")) %>%
       # Remove NA rows for hydro
       na.omit %>%
-      mutate(market.name = gcam.CHINA_REGION,
+      mutate(market.name = gcamchina.REGION,
              market.name = replace(market.name,
                                    minicam.energy.input %in% c(gcamCHINA.PROVINCE_RENEWABLE_RESOURCES, gcamCHINA.PROVINCE_UNLIMITED_RESOURCES),
                                    region[minicam.energy.input %in% c(gcamCHINA.PROVINCE_RENEWABLE_RESOURCES, gcamCHINA.PROVINCE_UNLIMITED_RESOURCES)])) %>%
@@ -527,7 +528,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
     L223.GlobalIntTechBackup_elec %>%
       mutate(supplysector = sector.name, subsector = subsector.name) %>%
       write_to_all_provinces(names = c(names(.), 'region')) %>%
-      mutate(market.name = gcam.CHINA_REGION, stub.technology = technology) %>%
+      mutate(market.name = gcamchina.REGION, stub.technology = technology) %>%
       select(LEVEL2_DATA_NAMES[["StubTechMarket"]]) ->
       L223.StubTechMarket_backup_CHINA
 
@@ -536,7 +537,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
     if(!gcamCHINA.USE_REGIONAL_ELEC_MARKETS) {
       L223.StubTechMarket_backup_CHINA %>%
         select(LEVEL2_DATA_NAMES[["StubTechYr"]]) %>%
-        mutate(electric.sector.market = gcam.CHINA_REGION) ->
+        mutate(electric.sector.market = gcamchina.REGION) ->
         L223.StubTechElecMarket_backup_CHINA
     }
 
@@ -548,7 +549,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
       L223.CapacityFactor_wind_province
 
     L223.StubTechCapFactor_elec %>%
-      filter(region == gcam.CHINA_REGION) %>%
+      filter(region == gcamchina.REGION) %>%
       semi_join(L223.CapacityFactor_wind_province, by = c("supplysector", "subsector")) %>%
       select(-region, -capacity.factor) %>%
       write_to_all_provinces(names = c(names(.), "region")) %>%
@@ -567,7 +568,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
 
     # Just use the subsector for matching - technologies include storage technologies as well
     L223.StubTechCapFactor_elec %>%
-      filter(region == gcam.CHINA_REGION) %>%
+      filter(region == gcamchina.REGION) %>%
       semi_join(L223.CapFacScaler_solar_province, by = c("supplysector", "subsector")) %>%
       select(-region) %>%
       write_to_all_provinces(., c(names(.), "region")) %>%
