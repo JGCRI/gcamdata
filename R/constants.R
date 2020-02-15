@@ -746,6 +746,13 @@ gcamchina.conv_2015_2010_RMB <- 0.6795
 gcamchina.conv_2014_2010_RMB <- 0.7366
 gcamchina.conv_2010_RMB_USD <-  0.1477
 
+# Logit exponent regulating competition between different grid regions in China electricity market
+# (single market approach only)
+gcamchina.grid.region_LOGIT      <- -6
+
+gcamchina.grid.region_LOGIT_TYPE <- "relative-cost-logit"
+
+
 # Time shift conditions ======================================================================
 # Uncomment these lines to run under 'timeshift' conditions
 # # HISTORICAL_YEARS <- 1971:2005       # normally 1971:2010

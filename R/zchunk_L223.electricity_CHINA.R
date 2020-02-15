@@ -1,4 +1,4 @@
-#' module_gcam.china_L223.electricity_China
+#' module_gcam.china_L223.electricity_CHINA
 #'
 #' Generates GCAM-China model inputs for electrcity sector by grid regions and provinces.
 #'
@@ -26,9 +26,9 @@
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr arrange bind_rows filter if_else group_by left_join matches mutate select semi_join summarise transmute
 #' @importFrom tidyr gather spread
-#' @author Yisheng SUN Jan 2020
+#' @author YangLiu Jan 2020
 
-module_gcam.china_L223.electricity_China <- function(command, ...) {
+module_gcam.china_L223.electricity_CHINA <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "gcam-china/province_names_mappings",
              FILE = "gcam-china/future_hydro_gen_EJ",
@@ -128,6 +128,9 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
     L1231.in_EJ_province_elec_F_tech <- get_data(all_data, "L1231.in_EJ_province_elec_F_tech")
     L1231.out_EJ_province_elec_F_tech <- get_data(all_data, "L1231.out_EJ_province_elec_F_tech")
     L1232.out_EJ_sR_elec <- get_data(all_data, "L1232.out_EJ_sR_elec")
+    #L126.out_EJ_province_td_elec <- get_data(all_data, "L126.out_EJ_province_td_elec")
+
+
 
 
     # A vector of China grid region names
@@ -142,7 +145,6 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
 
 
     # A vector indicating provinces where geothermal electric technologies will not be created
-
      L1231.out_EJ_province_elec_F_tech %>%
       left_join_error_no_match(province_names_mappings) %>%
       filter(value == 0) %>%
@@ -175,8 +177,8 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
              input.unit = "EJ",
              price.unit = "1975$/GJ",
              logit.year.fillout = min(MODEL_BASE_YEARS),
-             logit.exponent = gcamCHINA.grid.region_LOGIT,
-             logit.type = gcamCHINA.grid.region_LOGIT_TYPE) %>%
+             logit.exponent = gcamchina.grid.region_LOGIT,
+             logit.type = gcamchina.grid.region_LOGIT_TYPE) %>%
         select(LEVEL2_DATA_NAMES[["Supplysector"]]) ->
         L223.Supplysector_CHINAelec
 
@@ -203,8 +205,8 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
       L223.SubsectorShrwtFllt_CHINAelec %>%
         select(LEVEL2_DATA_NAMES[["Subsector"]]) %>%
         mutate(logit.year.fillout = min(MODEL_BASE_YEARS),
-               logit.exponent = gcamCHINA.grid.region_LOGIT,
-               logit.type = gcamCHINA.grid.region_LOGIT_TYPE) %>%
+               logit.exponent = gcamchina.grid.region_LOGIT,
+               logit.type = gcamchina.grid.region_LOGIT_TYPE) %>%
         select(LEVEL2_DATA_NAMES[["SubsectorLogit"]]) ->
         L223.SubsectorLogit_CHINAelec
 
@@ -256,8 +258,8 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
            input.unit = "EJ",
            price.unit = "1975$/GJ",
            logit.year.fillout = min(MODEL_BASE_YEARS),
-           logit.exponent = gcamCHINA.grid.region_LOGIT,
-           logit.type = gcamCHINA.grid.region_LOGIT_TYPE) %>%
+           logit.exponent = gcamchina.grid.region_LOGIT,
+           logit.type = gcamchina.grid.region_LOGIT_TYPE) %>%
       select(c(LEVEL2_DATA_NAMES[["Supplysector"]], LOGIT_TYPE_COLNAME)) ->
       L223.Supplysector_elec_GRIDR
 
@@ -286,8 +288,8 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
     L223.SubsectorShrwtFllt_elec_GRIDR %>%
       select(LEVEL2_DATA_NAMES[["Subsector"]]) %>%
       mutate(logit.year.fillout = min(MODEL_BASE_YEARS),
-             logit.exponent = gcamCHINA.grid.region_LOGIT,
-             logit.type = gcamCHINA.grid.region_LOGIT_TYPE) %>%
+             logit.exponent = gcamchina.grid.region_LOGIT,
+             logit.type = gcamchina.grid.region_LOGIT_TYPE) %>%
       select(c(LEVEL2_DATA_NAMES[["SubsectorLogit"]], LOGIT_TYPE_COLNAME)) ->
       L223.SubsectorLogit_elec_GRIDR
 
@@ -306,24 +308,6 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
              coefficient = 1,
              market.name = substr(technology, 1, nchar(subsector) - nchar(supplysector) - 1)) ->
       L223.TechCoef_elec_GRIDR
-
-    # L223.PassthroughSector_elec_CHINA: passthrough sector of provinces
-    # The marginal revenue sector is the region's electricity sector
-    # whereas the marginal revenue market is the grid region.
-    #province_names_mappings %>%
-    #  select(region = province, grid.region) %>%
-    #  mutate(passthrough.sector = "electricity",
-    #         marginal.revenue.sector = "electricity",
-    #         marginal.revenue.market = grid.region) %>%
-    #  select(-grid.region) ->
-    #  L223.PassthroughSector_elec_CHINA
-
-    # L223.PassthroughTech_elec_GRIDR: passthrough technology of grid regions
-    # This one should contain region, supplysector, subsector, technology for the grid regions
-    # to which electricity produced in provinces is passed through.
-    #L223.TechShrwt_elec_GRIDR %>%
-    #  select(region, supplysector, subsector, technology) ->
-    #  L223.PassthroughTech_elec_GRIDR
 
     # L223.Production_elec_GRIDR: calibrated electricity production in grid region (consuming output of grid subregions)
     L1231.out_EJ_province_elec_F_tech %>%
@@ -383,7 +367,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
 
       data_new <- data %>%
         filter(region == gcamchina.REGION) %>%
-        write_to_all_provinces(names(data))
+        write_to_all_provinces(names(data),gcamchina.PROVINCES_NOHKMC)
 
       if("subsector" %in% names(data_new)) {
         data_new <- data_new %>%
@@ -391,11 +375,11 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
       }
 
       # Re-set markets from China to regional markets, if called for in the GCAM-China assumptions for selected fuels
-      if(gcamCHINA.USE_REGIONAL_FUEL_MARKETS & "market.name" %in% names(data_new)) {
+      if(gcamchina.USE_REGIONAL_FUEL_MARKETS & "market.name" %in% names(data_new)) {
         data_new <- data_new %>%
           left_join_error_no_match(select(province_names_mappings,province, grid.region), by = c("region" = "province")) %>%
-          mutate(market.name = replace(market.name, minicam.energy.input %in% gcamCHINA.REGIONAL_FUEL_MARKETS,
-                                       grid.region[minicam.energy.input %in% gcamCHINA.REGIONAL_FUEL_MARKETS])) %>%
+          mutate(market.name = replace(market.name, minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS,
+                                       grid.region[minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS])) %>%
           select(-grid.region)
       }
 
@@ -418,13 +402,9 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
     nuc_share_weight_assumptions %>%
       gather("year","share.weight",-region) %>%
       mutate(supplysector = "electricity",
-             subsector = "nuclear") ->
-      L223.SubsectorShrwt_nuc_CHINA
-
-    substr( L223.SubsectorShrwt_nuc_CHINA$year, 2, 5 ) ->
-      L223.SubsectorShrwt_nuc_CHINA$year
-
-    L223.SubsectorShrwt_nuc_CHINA[names_SubsectorShrwt] ->
+             subsector = "nuclear",
+             year = as.numeric(year)) %>%
+      select(LEVEL2_DATA_NAMES[["SubsectorShrwt"]]) ->
       L223.SubsectorShrwt_nuc_CHINA
 
     # Stub technology information for province electricity generation
@@ -488,7 +468,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
       mutate(fixedOutput = value * share) ->
       L223.StubTechFixOut_hydro_CHINA
 
-    L223.StubTechFixOut_hydro_CHINA[names_StubTechFixOut] ->
+    L223.StubTechFixOut_hydro_CHINA[LEVEL2_DATA_NAMES[["StubTechFixOut"]]] ->
       L223.StubTechFixOut_hydro_CHINA
 
     # L223.StubTechProd_elec_CHINA: calibrated output of electricity generation technologies
@@ -510,16 +490,16 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
       na.omit %>%
       mutate(market.name = gcamchina.REGION,
              market.name = replace(market.name,
-                                   minicam.energy.input %in% c(gcamCHINA.PROVINCE_RENEWABLE_RESOURCES, gcamCHINA.PROVINCE_UNLIMITED_RESOURCES),
-                                   region[minicam.energy.input %in% c(gcamCHINA.PROVINCE_RENEWABLE_RESOURCES, gcamCHINA.PROVINCE_UNLIMITED_RESOURCES)])) %>%
+                                   minicam.energy.input %in% c(gcamchina.PROVINCE_RENEWABLE_RESOURCES, gcamchina.PROVINCE_UNLIMITED_RESOURCES),
+                                   region[minicam.energy.input %in% c(gcamchina.PROVINCE_RENEWABLE_RESOURCES, gcamchina.PROVINCE_UNLIMITED_RESOURCES)])) %>%
       filter(!paste(region, subsector) %in% geo_provinces_noresource) ->
       L223.StubTechMarket_elec_CHINA
 
-    if(gcamCHINA.USE_REGIONAL_ELEC_MARKETS) {
+    if(gcamchina.USE_REGIONAL_ELEC_MARKETS) {
       L223.StubTechMarket_elec_CHINA %>%
         left_join_error_no_match(select(province_names_mappings, grid.region, province), by = c("region" = "province")) %>%
-        mutate(market.name = replace(market.name, minicam.energy.input %in% gcamCHINA.REGIONAL_FUEL_MARKETS,
-                                     grid.region[minicam.energy.input %in% gcamCHINA.REGIONAL_FUEL_MARKETS])) %>%
+        mutate(market.name = replace(market.name, minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS,
+                                     grid.region[minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS])) %>%
         select(-grid.region) ->
         L223.StubTechMarket_elec_CHINA
     }
@@ -527,14 +507,14 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
     # L223.StubTechMarket_backup_CHINA: market names of backup inputs to province electricity sectors
     L223.GlobalIntTechBackup_elec %>%
       mutate(supplysector = sector.name, subsector = subsector.name) %>%
-      write_to_all_provinces(names = c(names(.), 'region')) %>%
+      write_to_all_provinces(names = c(names(.),'region'),gcamchina.PROVINCES_NOHKMC) %>%
       mutate(market.name = gcamchina.REGION, stub.technology = technology) %>%
       select(LEVEL2_DATA_NAMES[["StubTechMarket"]]) ->
       L223.StubTechMarket_backup_CHINA
 
     # L223.StubTechElecMarket_backup_CHINA: market name of electricity sector for backup calculations
     # The backup electric market is only set here if regional electricity markets are not used (i.e. one national grid)
-    if(!gcamCHINA.USE_REGIONAL_ELEC_MARKETS) {
+    if(!gcamchina.USE_REGIONAL_ELEC_MARKETS) {
       L223.StubTechMarket_backup_CHINA %>%
         select(LEVEL2_DATA_NAMES[["StubTechYr"]]) %>%
         mutate(electric.sector.market = gcamchina.REGION) ->
@@ -552,7 +532,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
       filter(region == gcamchina.REGION) %>%
       semi_join(L223.CapacityFactor_wind_province, by = c("supplysector", "subsector")) %>%
       select(-region, -capacity.factor) %>%
-      write_to_all_provinces(names = c(names(.), "region")) %>%
+      write_to_all_provinces(names = c(names(.),'region'),gcamchina.PROVINCES_NOHKMC) %>%
       left_join_error_no_match(L223.CapacityFactor_wind_province,
                                by = c("region" = "province", "supplysector", "subsector")) %>%
       mutate(capacity.factor = round(capacity.factor, digits = energy.DIGITS_CAPACITY_FACTOR)) %>%
@@ -571,7 +551,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
       filter(region == gcamchina.REGION) %>%
       semi_join(L223.CapFacScaler_solar_province, by = c("supplysector", "subsector")) %>%
       select(-region) %>%
-      write_to_all_provinces(., c(names(.), "region")) %>%
+      write_to_all_provinces(.,names = c(names(.),'region'),gcamchina.PROVINCES_NOHKMC) %>%
       # For matching capacity factors to technologies, create a variable (tech) that matches what's in the capacity factor table
       mutate(tech = sub("_storage", "", stub.technology)) %>%
       left_join_error_no_match(L223.CapFacScaler_solar_province,
@@ -592,7 +572,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
         add_precursors("L223.SubsectorLogit_elec") ->
         L223.DeleteSubsector_CHINAelec
     } else {
-      # If gcamCHINA.USE_REGIONAL_ELEC_MARKETS is TURE,
+      # If gcamchina.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
       missing_data() %>%
@@ -610,7 +590,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
       add_legacy_name("L223.Supplysector_CHINAelec") ->
         L223.Supplysector_CHINAelec
     } else {
-      # If gcamCHINA.USE_REGIONAL_ELEC_MARKETS is TURE,
+      # If gcamchina.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
       missing_data() %>%
@@ -627,7 +607,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
         add_precursors("gcam-china/province_names_mappings") ->
         L223.SubsectorShrwtFllt_CHINAelec
     } else {
-      # If gcamCHINA.USE_REGIONAL_ELEC_MARKETS is TURE,
+      # If gcamchina.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
       missing_data() %>%
@@ -644,7 +624,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
         same_precursors_as("L223.SubsectorShrwtFllt_CHINAelec") ->
         L223.SubsectorInterp_CHINAelec
     } else {
-      # If gcamCHINA.USE_REGIONAL_ELEC_MARKETS is TURE,
+      # If gcamchina.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
       missing_data() %>%
@@ -662,7 +642,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
         same_precursors_as("L223.SubsectorShrwtFllt_CHINAelec") ->
         L223.SubsectorLogit_CHINAelec
     } else {
-      # If gcamCHINA.USE_REGIONAL_ELEC_MARKETS is TURE,
+      # If gcamchina.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
       missing_data() %>%
@@ -679,7 +659,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
         same_precursors_as("L223.SubsectorShrwtFllt_CHINAelec") ->
         L223.TechShrwt_CHINAelec
     } else {
-      # If gcamCHINA.USE_REGIONAL_ELEC_MARKETS is TURE,
+      # If gcamchina.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
       missing_data() %>%
@@ -696,7 +676,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
         same_precursors_as("L223.TechShrwt_CHINAelec") ->
         L223.TechCoef_CHINAelec
     } else {
-      # If gcamCHINA.USE_REGIONAL_ELEC_MARKETS is TURE,
+      # If gcamchina.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
       missing_data() %>%
@@ -714,7 +694,7 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
                        "energy/calibrated_techs") ->
         L223.Production_CHINAelec
     } else {
-      # If gcamCHINA.USE_REGIONAL_ELEC_MARKETS is TURE,
+      # If gcamchina.USE_REGIONAL_ELEC_MARKETS is TURE,
       # indicating to resolve electricity demands at the level of the grid regions,
       # then blank tibbles of the national level data are produced.
       missing_data() %>%
@@ -772,24 +752,6 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
       add_legacy_name("L223.TechCoef_elec_GRIDR") %>%
       same_precursors_as("L223.TechShrwt_elec_GRIDR") ->
       L223.TechCoef_elec_GRIDR
-
-    #L223.PassthroughSector_elec_CHINA %>%
-    #  add_title("Passthrough sector of the provinces") %>%
-    #  add_units("Unitless") %>%
-    #  add_comments("The marginal revenue sector is the region's electricity sector.") %>%
-    #  add_comments("The marginal revenue market is the grid region.") %>%
-    #  add_legacy_name("L223.PassthroughSector_elec_CHINA") %>%
-    #  add_precursors("gcam-china/province_names_mappings") ->
-    #  L223.PassthroughSector_elec_CHINA
-
-    #L223.PassthroughTech_elec_GRIDR %>%
-    #  add_title("Passthrough technology of the grid regions") %>%
-    #  add_units("Unitless") %>%
-    #  add_comments("This contains region, supplysector, subsector, technology for the grid regions") %>%
-    #  add_comments("to which electricity produced in provinces is passed through") %>%
-    #  add_legacy_name("L223.PassthroughTech_elec_GRIDR") %>%
-    #  same_precursors_as("L223.TechShrwt_elec_GRIDR") ->
-    #  L223.PassthroughTech_elec_GRIDR
 
     L223.Production_elec_GRIDR %>%
       add_title("Calibrated electricity production of subsectors in grid regions") %>%
@@ -873,7 +835,8 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
       add_comments("Table used to adjust nuclear share weights that have been adjusted") %>%
       add_comments("manually to match data from Bo Liu") %>%
       add_legacy_name("L223.SubsectorShrwt_nuc_CHINA") %>%
-      add_precursors("nuc_share_weight_assumptions") ->
+      add_precursors("L223.SubsectorShrwt_nuc_CHINA",
+                     "gcam-china/nuc_share_weight_assumptions") ->
       L223.SubsectorShrwt_nuc_CHINA
 
     L223.SubsectorShrwt_renew_CHINA %>%
@@ -943,8 +906,9 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
       add_units("EJ") %>%
       add_comments("It holds constants beyond 2020, and interpolate between 2014 and 2020.") %>%
       add_legacy_name("L223.StubTechFixOut_hydro_CHINA") %>%
-      same_precursors_as("L223.StubTechFixOut_elec_CHINA",
-                         "future_hydro_gen_EJ") ->
+      add_precursors("L1231.out_EJ_province_elec_F_tech",
+                     "energy/calibrated_techs",
+                     "gcam-china/future_hydro_gen_EJ") ->
       L223.StubTechFixOut_hydro_CHINA
 
     L223.StubTechProd_elec_CHINA %>%
@@ -1054,3 +1018,4 @@ module_gcam.china_L223.electricity_China <- function(command, ...) {
     stop("Unknown command")
   }
 }
+
