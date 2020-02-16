@@ -16,20 +16,28 @@
 #' \code{L2232.TechCoef_elec_GRIDR}, \code{L2232.TechCoef_elecownuse_GRIDR}, \code{L2232.Production_imports_GRIDR},
 #' \code{L2232.Production_elec_gen_GRIDR}, \code{L2232.StubTechElecMarket_backup_CHINA}. The corresponding file in the
 #' original data system was \code{L2232.electricity_GRIDR_CHINA.R} (gcam-china level2).
-#' @details This chunk generates input files to create electricity trade and passthrough sectors for the grid regions,
-#' and balances electricity supply and demand for each grid region.
+#' @details This code file only builds the electric sector model input if the demand is being resolved at the level of the grid regions.
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr arrange filter if_else group_by left_join mutate select summarise
 #' @importFrom tidyr gather spread
-#' @author RC Oct 2017
-module_gcam.china_L2232.electricity_GRIDR_CHINA <- function(command, ...) {
+#' @author YangLiu Jan 2020
+module_gcamchina_L2232.electricity_GRIDR_CHINA <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "gcam-china/province_names_mappings",
              FILE = "energy/A23.sector",
              FILE = "gcam-china/A232.structure",
              "L123.in_EJ_province_ownuse_elec",
              "L123.out_EJ_province_ownuse_elec",
-             "L126.in_EJ_province_td_elec",
+             "L122.in_EJ_province_refining_F",
+             "L123.out_EJ_province_elec_F",
+             "L132.in_EJ_province_indchp_F",
+             "L132.in_EJ_province_indfeed_F",
+             "L132.in_EJ_province_indnochp_F",
+             "L126.IO_R_electd_F_Yh",
+             "L1321.in_EJ_province_cement_F_Y",
+             "L1322.in_EJ_province_Fert_Yh",
+             "L144.in_EJ_province_bld_F_U",
+             "L154.in_EJ_province_trn_F",
              "L132.out_EJ_province_indchp_F",
              "L1232.out_EJ_sR_elec",
              "L223.StubTechMarket_backup_CHINA"))
@@ -70,10 +78,52 @@ module_gcam.china_L2232.electricity_GRIDR_CHINA <- function(command, ...) {
     A232.structure <- get_data(all_data, "gcam-china/A232.structure")
     L123.in_EJ_province_ownuse_elec <- get_data(all_data, "L123.in_EJ_province_ownuse_elec")
     L123.out_EJ_province_ownuse_elec <- get_data(all_data, "L123.out_EJ_province_ownuse_elec")
-    L126.in_EJ_province_td_elec <- get_data(all_data, "L126.in_EJ_province_td_elec")
     L132.out_EJ_province_indchp_F <- get_data(all_data, "L132.out_EJ_province_indchp_F")
     L1232.out_EJ_sR_elec <- get_data(all_data, "L1232.out_EJ_sR_elec")
     L223.StubTechMarket_backup_CHINA <- get_data(all_data, "L223.StubTechMarket_backup_CHINA")
+    L126.IO_R_electd_F_Yh <- get_data(all_data, "L126.IO_R_electd_F_Yh")
+    L122.in_EJ_province_refining_F <- get_data(all_data, "L122.in_EJ_province_refining_F")
+    L123.out_EJ_province_elec_F <- get_data(all_data, "L123.out_EJ_province_elec_F")
+    L132.in_EJ_province_indchp_F <- get_data(all_data, "L132.in_EJ_province_indchp_F")
+    L132.in_EJ_province_indfeed_F <- get_data(all_data, "L132.in_EJ_province_indfeed_F")
+    L132.in_EJ_province_indnochp_F <- get_data(all_data, "L132.in_EJ_province_indnochp_F")
+    L1321.in_EJ_province_cement_F_Y <- get_data(all_data, "L1321.in_EJ_province_cement_F_Y")
+    L1322.in_EJ_province_Fert_Yh <- get_data(all_data, "L1322.in_EJ_province_Fert_Yh")
+    L144.in_EJ_province_bld_F_U <- get_data(all_data, "L144.in_EJ_province_bld_F_U")
+    L154.in_EJ_province_trn_F <- get_data(all_data, "L154.in_EJ_province_trn_F")
+
+    # calculate  L126.in_EJ_province_td_elec
+    L126.in_EJ_province_S_F <- bind_rows(L122.in_EJ_province_refining_F, L123.out_EJ_province_elec_F,
+                                         L132.in_EJ_province_indchp_F, L132.in_EJ_province_indfeed_F,
+                                         L132.in_EJ_province_indnochp_F, L1321.in_EJ_province_cement_F_Y,
+                                         L1322.in_EJ_province_Fert_Yh, L144.in_EJ_province_bld_F_U,
+                                         L154.in_EJ_province_trn_F)
+
+    # Final energy by fuel
+    L126.in_EJ_province_F <- L126.in_EJ_province_S_F %>%
+      filter(year %in% HISTORICAL_YEARS) %>%
+      group_by(province, fuel, year) %>%
+      summarise(value = sum(value)) %>%
+      ungroup()
+
+    # ELECTRICITY TRANSMISSION AND DISTRIBUTION
+    # Compile each province's total elec consumption: refining, bld, ind, trn.
+    L126.in_EJ_province_elec <- L126.in_EJ_province_F %>%
+      filter(fuel == "electricity")
+
+    # Deriving electricity T&D output as the sum of all tracked demands of electricity
+    L126.out_EJ_province_td_elec <- L126.in_EJ_province_elec %>%
+      mutate(sector = "elect_td") %>%
+      select(province, sector, fuel, year, value)
+
+    # Assigning all provinces the national average T&D coefficients from L126.IO_R_electd_F_Yh
+    L126.in_EJ_province_td_elec <- L126.out_EJ_province_td_elec %>%
+      left_join_error_no_match(L126.IO_R_electd_F_Yh, by = c("fuel", "year")) %>%
+      # province input elec = province output elec * coefficient
+      mutate(value = value.x * value.y) %>%
+      select(province, sector = sector.x, fuel, year, value)
+
+
 
     # This chunk builds the electric sector model with demand resolved at the grid region level.
 
@@ -339,7 +389,7 @@ module_gcam.china_L2232.electricity_GRIDR_CHINA <- function(command, ...) {
       select(LEVEL2_DATA_NAMES[["Production"]]) ->
       L2232.Production_elec_gen_GRIDR
 
-    # PART 3: THE STATES
+    # PART 3: THE provinceS
     # L2232.StubTechElecMarket_backup_CHINA_GRIDR: electric sector name for provinces
     # Reset the electric sector market to the grid regions (for backup calculations)
     L223.StubTechMarket_backup_CHINA %>%
@@ -422,7 +472,15 @@ module_gcam.china_L2232.electricity_GRIDR_CHINA <- function(command, ...) {
       same_precursors_as("L2232.TechShrwt_CHINAelec") %>%
       add_precursors("L123.in_EJ_province_ownuse_elec",
                      "L123.out_EJ_province_ownuse_elec",
-                     "L126.in_EJ_province_td_elec",
+                     "L122.in_EJ_province_refining_F",
+                     "L123.out_EJ_province_elec_F",
+                     "L132.in_EJ_province_indchp_F",
+                     "L132.in_EJ_province_indfeed_F",
+                     "L132.in_EJ_province_indnochp_F",
+                     "L1321.in_EJ_province_cement_F_Y",
+                     "L1322.in_EJ_province_Fert_Yh",
+                     "L144.in_EJ_province_bld_F_U",
+                     "L154.in_EJ_province_trn_F",
                      "L132.out_EJ_province_indchp_F",
                      "L1232.out_EJ_sR_elec") ->
       L2232.Production_exports_CHINAelec

@@ -835,7 +835,7 @@ module_gcam.china_L223.electricity_CHINA <- function(command, ...) {
       add_comments("Table used to adjust nuclear share weights that have been adjusted") %>%
       add_comments("manually to match data from Bo Liu") %>%
       add_legacy_name("L223.SubsectorShrwt_nuc_CHINA") %>%
-      add_precursors("L223.SubsectorShrwt_nuc_CHINA",
+      add_precursors("L223.SubsectorShrwt_nuc",
                      "gcam-china/nuc_share_weight_assumptions") ->
       L223.SubsectorShrwt_nuc_CHINA
 

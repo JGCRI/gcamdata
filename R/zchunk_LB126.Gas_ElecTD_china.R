@@ -86,7 +86,8 @@ module_gcam.china_LB126.Gas_ElecTD_china <- function(command, ...) {
     L126.net_EJ_province_pipeline_gas <- L101.inNBS_Mtce_province_S_F %>%
       filter(sector == "resource",
              fuel == "gas") %>%
-      mutate(value = replace_na(value , 0)) %>%
+      mutate(value = replace_na(value , 0),sector = "gas pipeline") %>%
+
 
       group_by(year) %>%
       # Pct share = province/year value divided by total china value for that year
