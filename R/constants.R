@@ -725,7 +725,7 @@ gcamchina.USE_REGIONAL_FUEL_MARKETS  <- TRUE
 # Indicate whether to use regional as opposed to national elec markets (FALSE = national markets)
 gcamchina.USE_REGIONAL_ELEC_MARKETS  <- TRUE
 
-# Fuels whose markets will be modeled at the regional level
+#regional_fuel_markets: fuels whose markets will be modeled at the level of the provinces, with prices calibrated
 gcamchina.REGIONAL_FUEL_MARKETS <- c("regional coal", "delivered coal", "wholesale gas", "delivered gas",
                                      "refined liquids industrial", "refined liquids enduse")
 

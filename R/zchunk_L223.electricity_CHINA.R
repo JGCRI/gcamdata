@@ -495,11 +495,11 @@ module_gcam.china_L223.electricity_CHINA <- function(command, ...) {
       filter(!paste(region, subsector) %in% geo_provinces_noresource) ->
       L223.StubTechMarket_elec_CHINA
 
-    if(gcamchina.USE_REGIONAL_ELEC_MARKETS) {
+    if(gcamchina.USE_REGIONAL_FUEL_MARKETS) {
       L223.StubTechMarket_elec_CHINA %>%
         left_join_error_no_match(select(province_names_mappings, grid.region, province), by = c("region" = "province")) %>%
         mutate(market.name = replace(market.name, minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS,
-                                     grid.region[minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS])) %>%
+                                     region[minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS])) %>%
         select(-grid.region) ->
         L223.StubTechMarket_elec_CHINA
     }

@@ -21,7 +21,7 @@
 #' @importFrom dplyr arrange filter if_else group_by left_join mutate select summarise
 #' @importFrom tidyr gather spread
 #' @author YangLiu Jan 2020
-module_gcamchina_L2232.electricity_GRIDR_CHINA <- function(command, ...) {
+module_gcam.china_L2232.electricity_GRIDR_CHINA <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "gcam-china/province_names_mappings",
              FILE = "energy/A23.sector",
@@ -39,7 +39,7 @@ module_gcamchina_L2232.electricity_GRIDR_CHINA <- function(command, ...) {
              "L144.in_EJ_province_bld_F_U",
              "L154.in_EJ_province_trn_F",
              "L132.out_EJ_province_indchp_F",
-             "L1232.out_EJ_sR_elec",
+             "L1232.out_EJ_sR_elec_CHINA",
              "L223.StubTechMarket_backup_CHINA"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L2232.DeleteSupplysector_CHINAelec",
@@ -79,7 +79,7 @@ module_gcamchina_L2232.electricity_GRIDR_CHINA <- function(command, ...) {
     L123.in_EJ_province_ownuse_elec <- get_data(all_data, "L123.in_EJ_province_ownuse_elec")
     L123.out_EJ_province_ownuse_elec <- get_data(all_data, "L123.out_EJ_province_ownuse_elec")
     L132.out_EJ_province_indchp_F <- get_data(all_data, "L132.out_EJ_province_indchp_F")
-    L1232.out_EJ_sR_elec <- get_data(all_data, "L1232.out_EJ_sR_elec")
+    L1232.out_EJ_sR_elec_CHINA <- get_data(all_data, "L1232.out_EJ_sR_elec_CHINA")
     L223.StubTechMarket_backup_CHINA <- get_data(all_data, "L223.StubTechMarket_backup_CHINA")
     L126.IO_R_electd_F_Yh <- get_data(all_data, "L126.IO_R_electd_F_Yh")
     L122.in_EJ_province_refining_F <- get_data(all_data, "L122.in_EJ_province_refining_F")
@@ -118,7 +118,7 @@ module_gcamchina_L2232.electricity_GRIDR_CHINA <- function(command, ...) {
 
     # Assigning all provinces the national average T&D coefficients from L126.IO_R_electd_F_Yh
     L126.in_EJ_province_td_elec <- L126.out_EJ_province_td_elec %>%
-      left_join_error_no_match(L126.IO_R_electd_F_Yh, by = c("fuel", "year")) %>%
+      left_join(L126.IO_R_electd_F_Yh %>% filter(GCAM_region_ID == gcamchina.REGION_ID), by = c("fuel", "year")) %>%
       # province input elec = province output elec * coefficient
       mutate(value = value.x * value.y) %>%
       select(province, sector = sector.x, fuel, year, value)
@@ -128,6 +128,7 @@ module_gcamchina_L2232.electricity_GRIDR_CHINA <- function(command, ...) {
     # This chunk builds the electric sector model with demand resolved at the grid region level.
 
     # A vector of CHINA grid region names
+    province_names_mappings %>% rename(grid_region = grid.region) -> province_names_mappings
     grid_regions <- province_names_mappings$grid_region %>%
       unique %>%
       sort
@@ -211,8 +212,9 @@ module_gcamchina_L2232.electricity_GRIDR_CHINA <- function(command, ...) {
     # to calculate exports, imports, and net supply
 
     # Generation by grid region
-    L1232.out_EJ_sR_elec %>%
+    L1232.out_EJ_sR_elec_CHINA %>%
       filter(year %in% MODEL_BASE_YEARS) %>%
+      mutate(grid_region = grid.region) %>%
       select(grid_region, year, generation = value) ->
       L2232.out_EJ_sR_elec
 
@@ -482,7 +484,7 @@ module_gcamchina_L2232.electricity_GRIDR_CHINA <- function(command, ...) {
                      "L144.in_EJ_province_bld_F_U",
                      "L154.in_EJ_province_trn_F",
                      "L132.out_EJ_province_indchp_F",
-                     "L1232.out_EJ_sR_elec") ->
+                     "L1232.out_EJ_sR_elec_CHINA") ->
       L2232.Production_exports_CHINAelec
 
     L2232.Supplysector_elec_GRIDR %>%
