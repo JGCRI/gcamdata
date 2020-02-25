@@ -310,7 +310,7 @@ module_gcam.china_L226.en_distribution_CHINA <- function(command, ...) {
       # L226.TechShrwt_electd_CHINA: Tech share weights for electricity T&D
       L226.GlobalTechShrwt_en %>%
         filter(sector.name %in% gcamchina.ELECT_TD_SECTORS) %>%
-        write_to_all_states(c("region", names(L226.GlobalTechShrwt_en))) %>%
+        write_to_all_provinces(c("region", names(L226.GlobalTechShrwt_en)), gcamchina.PROVINCES_ALL) %>%
         rename(supplysector = sector.name,
                subsector = subsector.name) ->
         L226.TechShrwt_electd_CHINA
@@ -318,7 +318,7 @@ module_gcam.china_L226.en_distribution_CHINA <- function(command, ...) {
       # L226.TechCost_electd_CHINA: Tech costs for electricity T&D
       L226.GlobalTechCost_en %>%
         filter(sector.name %in% gcamchina.ELECT_TD_SECTORS) %>%
-        write_to_all_states(c("region", names(L226.GlobalTechCost_en))) %>%
+        write_to_all_provinces(c("region", names(L226.GlobalTechCost_en)), gcamchina.PROVINCES_ALL) %>%
         rename(supplysector = sector.name,
                subsector = subsector.name) ->
         L226.TechCost_electd_CHINA
@@ -462,7 +462,7 @@ module_gcam.china_L226.en_distribution_CHINA <- function(command, ...) {
     L226.Supplysector_electd_CHINA %>%
       add_title("CHINA supply sector input, output, and logit info for elec T&D") %>%
       add_units("varies") %>%
-      add_comments("CHINA supply sector input, output, and logit info for elec T&D by state") %>%
+      add_comments("CHINA supply sector input, output, and logit info for elec T&D by province") %>%
       add_legacy_name("L226.Supplysector_electd_CHINA") %>%
       add_precursors("L226.Supplysector_en") ->
       L226.Supplysector_electd_CHINA
