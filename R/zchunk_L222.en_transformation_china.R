@@ -168,11 +168,11 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
 
     # L222.TechCoef_CHINAen: technology coefficients and market names, CHINA region
     L222.TechShrwt_CHINAen %>%
-      select(LEVEL2_DATA_NAMES[["Tech"]]) %>%
       mutate(minicam.energy.input = subsector,
              coefficient = 1,
              # market.name is the province name, extracting it from the technology
-             market.name = substr(technology, 1, nchar(technology) - nchar(subsector) - 1)) ->
+             market.name = substr(technology, 1, nchar(technology) - nchar(subsector) - 1)) %>%
+      select(LEVEL2_DATA_NAMES[["TechCoef"]]) ->
       L222.TechCoef_CHINAen
 
     # L222.Production_CHINArefining: calibrated refinery production in CHINA (consuming output of provinces)

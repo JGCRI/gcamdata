@@ -450,7 +450,8 @@ module_gcam.china_L2232.electricity_GRIDR_CHINA <- function(command, ...) {
       add_comments("Set the same value across all model years") %>%
       add_legacy_name("L2232.TechShrwt_CHINAelec") %>%
       add_precursors("gcam-china/A232.structure",
-                     "gcam-china/province_names_mappings") ->
+                     "gcam-china/province_names_mappings",
+                     "L126.IO_R_electd_F_Yh") ->
       L2232.TechShrwt_CHINAelec
 
     L2232.TechCoef_CHINAelec %>%
