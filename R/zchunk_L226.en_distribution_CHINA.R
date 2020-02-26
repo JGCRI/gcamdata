@@ -178,7 +178,7 @@ module_gcam.china_L226.en_distribution_CHINA <- function(command, ...) {
     #Unit conversions
       mutate(coal = coal * gcamchina.CONV_2015_2010_RMB * gcamchina.CONV_2010_RMB_USD * gdp_deflator(1975, 2010) * CONV_EJ_MTCE / 1000,
              gas =  gas * gcamchina.CONV_2015_2010_RMB * gcamchina.CONV_2010_RMB_USD * gdp_deflator(1975, 2010) / CONV_BCM_EJ / 1000,
-             refined.liquids = refined.liquids * gcamchina.CONV_2014_2010_RMB * gcamchina.conv_2010_RMB_USD * gdp_deflator(1975, 2010) / CONV_TONNE_GJ_DIESEL) ->
+             refined.liquids = refined.liquids * gcamchina.CONV_2014_2010_RMB * gcamchina.CONV_2010_RMB_USD * gdp_deflator(1975, 2010) / CONV_TONNE_GJ_DIESEL) ->
       regional_fuel_prices
 
     # Step 2 Consumption weights for calculating average national resource prices
