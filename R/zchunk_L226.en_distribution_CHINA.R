@@ -90,7 +90,8 @@ module_gcam.china_L226.en_distribution_CHINA <- function(command, ...) {
       logit.exponent <- logit.type <- . <- subsector <- State <- Coal <- Natural.gas <- Distillate.fuel.oil <-
       grid.region <- state_name <- coal_adj <- gas_adj <- liq_adju <- sector1 <- adjustment <- technology <-
       year <- minicam.non.energy.input <- tmp <- sector2 <- trash1 <- trash2 <- input.cost <- sector.name <-
-      subsector.name <- stub.technology <- market.name <- state <- NULL
+      subsector.name <- stub.technology <- market.name <- state <- coal <- gas <- refined.liquids <- EBMaterial <-
+      value <- province <- coal_weight <- gas_weight <- liq_weight <- adj_price <- NULL
 
     # global_energy_to_CHINA_electd - takes global energy inputs from L226.en_distribution.R
     # and processes for use in CHINA electricity T&D
@@ -175,9 +176,9 @@ module_gcam.china_L226.en_distribution_CHINA <- function(command, ...) {
     regional_fuel_prices_RMB %>%
       left_join_error_no_match(province_names_mappings, by = "province.name") %>%
     #Unit conversions
-      mutate(coal = coal * gcamchina.conv_2015_2010_RMB * gcamchina.conv_2010_RMB_USD * gdp_deflator(1975, 2010) * CONV_EJ_MTCE / 1000,
-             gas =  gas * gcamchina.conv_2015_2010_RMB * gcamchina.conv_2010_RMB_USD * gdp_deflator(1975, 2010) / CONV_BCM_EJ / 1000,
-             refined.liquids = refined.liquids * gcamchina.conv_2014_2010_RMB * gcamchina.conv_2010_RMB_USD * gdp_deflator(1975, 2010) / CONV_TONNE_GJ_DIESEL) ->
+      mutate(coal = coal * gcamchina.CONV_2015_2010_RMB * gcamchina.CONV_2010_RMB_USD * gdp_deflator(1975, 2010) * CONV_EJ_MTCE / 1000,
+             gas =  gas * gcamchina.CONV_2015_2010_RMB * gcamchina.CONV_2010_RMB_USD * gdp_deflator(1975, 2010) / CONV_BCM_EJ / 1000,
+             refined.liquids = refined.liquids * gcamchina.CONV_2014_2010_RMB * gcamchina.conv_2010_RMB_USD * gdp_deflator(1975, 2010) / CONV_TONNE_GJ_DIESEL) ->
       regional_fuel_prices
 
     # Step 2 Consumption weights for calculating average national resource prices
@@ -241,8 +242,8 @@ module_gcam.china_L226.en_distribution_CHINA <- function(command, ...) {
     # L226.TechCost_en_CHINA: cost adders
       L226.TechShrwt_en_CHINA %>%
         select(LEVEL2_DATA_NAMES[["TechYr"]]) %>%
-        mutate(minicam.non.energy.input = "regional price adjustment") %>%
-        mutate(adj_price = if_else(grepl("coal", supplysector), "coal",
+        mutate(minicam.non.energy.input = "regional price adjustment",
+               adj_price = if_else(grepl("coal", supplysector), "coal",
                                    if_else(grepl("liquid", supplysector), "liquids",
                                            "gas"))) %>%
         # must use left join, HK and MC have NA values

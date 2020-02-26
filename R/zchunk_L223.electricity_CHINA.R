@@ -130,7 +130,8 @@ module_gcam.china_L223.electricity_CHINA <- function(command, ...) {
     L1232.out_EJ_sR_elec <- get_data(all_data, "L1232.out_EJ_sR_elec")
     #L126.out_EJ_province_td_elec <- get_data(all_data, "L126.out_EJ_province_td_elec")
 
-
+    # Silence package notes
+    fixedOutput <- year2 <- NULL
 
 
     # A vector of China grid region names
@@ -177,8 +178,8 @@ module_gcam.china_L223.electricity_CHINA <- function(command, ...) {
              input.unit = "EJ",
              price.unit = "1975$/GJ",
              logit.year.fillout = min(MODEL_BASE_YEARS),
-             logit.exponent = gcamchina.grid.region_LOGIT,
-             logit.type = gcamchina.grid.region_LOGIT_TYPE) %>%
+             logit.exponent = gcamchina.GRID.REGION_LOGIT,
+             logit.type = gcamchina.GRID.REGION_LOGIT_TYPE) %>%
         select(LEVEL2_DATA_NAMES[["Supplysector"]]) ->
         L223.Supplysector_CHINAelec
 
@@ -205,8 +206,8 @@ module_gcam.china_L223.electricity_CHINA <- function(command, ...) {
       L223.SubsectorShrwtFllt_CHINAelec %>%
         select(LEVEL2_DATA_NAMES[["Subsector"]]) %>%
         mutate(logit.year.fillout = min(MODEL_BASE_YEARS),
-               logit.exponent = gcamchina.grid.region_LOGIT,
-               logit.type = gcamchina.grid.region_LOGIT_TYPE) %>%
+               logit.exponent = gcamchina.GRID.REGION_LOGIT,
+               logit.type = gcamchina.GRID.REGION_LOGIT_TYPE) %>%
         select(LEVEL2_DATA_NAMES[["SubsectorLogit"]]) ->
         L223.SubsectorLogit_CHINAelec
 
@@ -258,8 +259,8 @@ module_gcam.china_L223.electricity_CHINA <- function(command, ...) {
            input.unit = "EJ",
            price.unit = "1975$/GJ",
            logit.year.fillout = min(MODEL_BASE_YEARS),
-           logit.exponent = gcamchina.grid.region_LOGIT,
-           logit.type = gcamchina.grid.region_LOGIT_TYPE) %>%
+           logit.exponent = gcamchina.GRID.REGION_LOGIT,
+           logit.type = gcamchina.GRID.REGION_LOGIT_TYPE) %>%
       select(c(LEVEL2_DATA_NAMES[["Supplysector"]], LOGIT_TYPE_COLNAME)) ->
       L223.Supplysector_elec_GRIDR
 
@@ -288,8 +289,8 @@ module_gcam.china_L223.electricity_CHINA <- function(command, ...) {
     L223.SubsectorShrwtFllt_elec_GRIDR %>%
       select(LEVEL2_DATA_NAMES[["Subsector"]]) %>%
       mutate(logit.year.fillout = min(MODEL_BASE_YEARS),
-             logit.exponent = gcamchina.grid.region_LOGIT,
-             logit.type = gcamchina.grid.region_LOGIT_TYPE) %>%
+             logit.exponent = gcamchina.GRID.REGION_LOGIT,
+             logit.type = gcamchina.GRID.REGION_LOGIT_TYPE) %>%
       select(c(LEVEL2_DATA_NAMES[["SubsectorLogit"]], LOGIT_TYPE_COLNAME)) ->
       L223.SubsectorLogit_elec_GRIDR
 

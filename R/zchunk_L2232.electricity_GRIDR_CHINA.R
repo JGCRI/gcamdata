@@ -70,7 +70,8 @@ module_gcam.china_L2232.electricity_GRIDR_CHINA <- function(command, ...) {
       generation <- imports <- in_ownuse <- market.name <- minicam.energy.input <-
       exports <- net.exports <- net.supply <- net_ownuse <- ownuse <- ownuse_coef <-
       subsector <- subsector.logit <- subsector.logit.type <- technology <-
-      technology.logit <- technology.logit.type <- NULL  # silence package check notes
+      technology.logit <- technology.logit.type <- fuel <- sector <- GCAM_region_ID <-
+      value.x <- value.y <- sector.x <- grid.region <- NULL  # silence package check notes
 
     # Load required inputs
     province_names_mappings <- get_data(all_data, "gcam-china/province_names_mappings")

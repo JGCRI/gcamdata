@@ -56,6 +56,9 @@ module_gcam.china_L261.carbon_storage_CHINA <- function(command, ...) {
     L261.GlobalTechCost_C <- get_data(all_data, "L261.GlobalTechCost_C")
 
     # Silence package notes
+    province <- region <- resource <- MtC <- Cost_1990USDtC <- subresource <- grade <-
+      available <- extractioncost <- subsector <- stub.technology <- coefficient <- market.name <-
+      minicam.energy.input <- NULL
 
     # ===================================================
     # Perform computations

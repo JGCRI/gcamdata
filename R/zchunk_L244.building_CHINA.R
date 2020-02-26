@@ -88,7 +88,13 @@ module_gcam.china_L244.building_CHINA <- function(command, ...) {
   } else if(command == driver.MAKE) {
 
     # Silence package checks
-
+    value <- province <- sector <- base.building.size <- year <- gcam.consumer <- resid_urban <- resid_rural <-
+      comm <- pop <- pcflsp_mm2cap <- satiation.level <- pcGDP <- pcFlsp_mm2 <- satiation.adder <- . <- year.fillout <-
+      to.value <- supplysector <- subsector <- technology <- minicam.energy.input <- region <- market.name <-
+      calibrated.value <- calOutputValue <- share.weight <- input.cost <- sector.name <- steepness_stock <- steepness_new <-
+      half_life_stock <- half_life_new <- input.ratio <- efficiency <- internal.gains.output.ratio <-
+      internal.gains.market.name <- base.service <- multiplier <- thermal.building.service.input <-
+      degree.days <- NULL
 
     all_data <- list(...)[[1]]
 
