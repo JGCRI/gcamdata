@@ -32,7 +32,8 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
              "L210.UnlimitRsrc_limestone_CHINA",
              "L210.UnlimitRsrcPrice_CHINA",
              "L210.UnlimitRsrcPrice_limestone_CHINA",
-             "L210.SmthRenewRsrcCurves_wind_CHINA"))
+             "L210.SmthRenewRsrcCurves_wind_CHINA",
+             "L210.ResTechShrwt_CHINA"))
   } else if(command == driver.MAKE) {
 
     all_data <- list(...)[[1]]
@@ -112,6 +113,15 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
       select(region = province, renewresource, smooth.renewable.subresource, year.fillout,
              maxSubResource = maxResource, mid.price, curve.exponent)
 
+    # L210.ResTechShrwt_China: To provide a shell for the technology object in the resources
+    L210.SmthRenewRsrcCurves_wind_CHINA %>%
+      select(region, resource = renewresource, subresource = smooth.renewable.subresource) %>%
+      repeat_add_columns(tibble(year = MODEL_YEARS)) %>%
+      mutate(technology = subresource,
+             share.weight = 1.0) %>%
+      select(LEVEL2_DATA_NAMES[["ResTechShrwt"]]) ->
+      L210.ResTechShrwt_CHINA
+
     # ===================================================
 
     # Produce outputs
@@ -163,8 +173,16 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
       add_precursors("L210.SmthRenewRsrcCurves_wind", "gcam-china/wind_potential_province", "gcam-china/province_names_mappings") ->
       L210.SmthRenewRsrcCurves_wind_CHINA
 
+    L210.ResTechShrwt_CHINA %>%
+      add_title("Technology share-weights for the renewable resources") %>%
+      add_units("NA") %>%
+      add_comments("Mostly just to provide a shell of a technology for the resource to use") %>%
+      add_precursors("L210.SmthRenewRsrcCurves_wind") ->
+      L210.ResTechShrwt_CHINA
+
+
     return_data(L210.RenewRsrc_CHINA, L210.UnlimitRsrc_CHINA, L210.UnlimitRsrc_limestone_CHINA,
-                L210.UnlimitRsrcPrice_CHINA, L210.UnlimitRsrcPrice_limestone_CHINA, L210.SmthRenewRsrcCurves_wind_CHINA)
+                L210.UnlimitRsrcPrice_CHINA, L210.UnlimitRsrcPrice_limestone_CHINA, L210.SmthRenewRsrcCurves_wind_CHINA, L210.ResTechShrwt_CHINA)
   } else {
     stop("Unknown command")
   }
