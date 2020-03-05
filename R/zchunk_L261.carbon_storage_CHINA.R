@@ -6,7 +6,11 @@
 #' @param ... other optional parameters, depending on command
 #' @return Depends on \code{command}: either a vector of required inputs,
 #' a vector of output names, or (if \code{command} is "MAKE") all
-#' the generated outputs: \code{L161.Cstorage_province}. The corresponding file in the
+#' the generated outputs: \code{L261.DeleteSubsector_CHINAC, \code{L261.Rsrc_province}, \code{L261.RsrcCurves_province},
+#' \code{L261.Supplysector_C_CHINA},\code{L261.SubsectorLogit_C_CHINA},\code{L261.SubsectorShrwtFllt_C_CHINA},
+#' \code{L261.StubTech_C_CHINA},\code{L261.StubTechMarket_C_CHINA},
+#' \code{L261.DeleteRsrc_CHINAC},\code{L261.UnlimitRsrc_CHINA}, \code{L261.GlobalTechCost_C_CHINA},\code{L261.ResTechShrwt_C_CHINA}
+#' The corresponding file in the
 #' original data system was \code{L261_carbon_storage_CHINA.R} (gcam-china level2).
 #' @details China carbon storage model input for GCAM-China energy electricity sectors
 #' @importFrom assertthat assert_that
@@ -26,7 +30,8 @@ module_gcam.china_L261.carbon_storage_CHINA <- function(command, ...) {
              "L261.SubsectorShrwtFllt_C",
              "L261.StubTech_C",
              "L261.GlobalTechCoef_C",
-             "L261.GlobalTechCost_C"))
+             "L261.GlobalTechCost_C",
+             "L261.ResTechShrwt_C"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L261.DeleteSubsector_CHINAC",
              "L261.Rsrc_province",
@@ -38,7 +43,8 @@ module_gcam.china_L261.carbon_storage_CHINA <- function(command, ...) {
              "L261.StubTechMarket_C_CHINA",
              "L261.DeleteRsrc_CHINAC",
              "L261.UnlimitRsrc_CHINA",
-             "L261.GlobalTechCost_C_CHINA"))
+             "L261.GlobalTechCost_C_CHINA",
+             "L261.ResTechShrwt_C_CHINA"))
   } else if(command == driver.MAKE) {
 
     all_data <- list(...)[[1]]
@@ -54,6 +60,7 @@ module_gcam.china_L261.carbon_storage_CHINA <- function(command, ...) {
     L261.StubTech_C <- get_data(all_data, "L261.StubTech_C")
     L261.GlobalTechCoef_C <- get_data(all_data, "L261.GlobalTechCoef_C")
     L261.GlobalTechCost_C <- get_data(all_data, "L261.GlobalTechCost_C")
+    L261.ResTechShrwt_C <- get_data(all_data, "L261.ResTechShrwt_C")
 
     # Silence package notes
     province <- region <- resource <- MtC <- Cost_1990USDtC <- subresource <- grade <-
@@ -181,6 +188,10 @@ module_gcam.china_L261.carbon_storage_CHINA <- function(command, ...) {
                input.cost = min(CO2_cost_capacity_province$mid.price) / gdp_deflator(2005, base_year = 1990) * emissions.CONV_C_CO2)
     }
 
+    L261.ResTechShrwt_C_CHINA <- L261.ResTechShrwt_C %>%
+      filter(region == gcamchina.REGION) %>%
+      write_to_all_provinces(LEVEL2_DATA_NAMES[["ResTechShrwt"]], gcamchina.PROVINCES_NOHKMC)
+
     # ===================================================
     # Produce outputs
     if(gcamchina.USE_UNIFORM_CSTORAGE_MARKET){
@@ -307,10 +318,17 @@ module_gcam.china_L261.carbon_storage_CHINA <- function(command, ...) {
       same_precursors_as("L261.StubTech_C_CHINA") ->
       L261.StubTechMarket_C_CHINA
 
+    L261.ResTechShrwt_C_CHINA %>%
+      add_title("Technology share-weights for the onshore C storage") %>%
+      add_units("NA") %>%
+      add_comments("Mostly just to provide a shell of a technology for the resource to use") %>%
+      add_precursors("L261.ResTechShrwt_C") ->
+      L261.ResTechShrwt_C_CHINA
+
     return_data(L261.DeleteSubsector_CHINAC, L261.Rsrc_province,
                 L261.RsrcCurves_province, L261.Supplysector_C_CHINA, L261.SubsectorLogit_C_CHINA,
                 L261.SubsectorShrwtFllt_C_CHINA, L261.StubTech_C_CHINA, L261.StubTechMarket_C_CHINA,
-                L261.DeleteRsrc_CHINAC, L261.UnlimitRsrc_CHINA, L261.GlobalTechCost_C_CHINA)
+                L261.DeleteRsrc_CHINAC, L261.UnlimitRsrc_CHINA, L261.GlobalTechCost_C_CHINA, L261.ResTechShrwt_C_CHINA)
 
   } else {
     stop("Unknown command")

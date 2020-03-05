@@ -22,7 +22,8 @@ module_gcamchina_batch_Cstorage_CHINA_xml <- function(command, ...) {
              "L261.StubTechMarket_C_CHINA",
              "L261.DeleteRsrc_CHINAC",
              "L261.UnlimitRsrc_CHINA",
-             "L261.GlobalTechCost_C_CHINA"))
+             "L261.GlobalTechCost_C_CHINA",
+             "L261.ResTechShrwt_C_CHINA"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c(XML = "Cstorage_CHINA.xml"))
   } else if(command == driver.MAKE) {
@@ -41,6 +42,7 @@ module_gcamchina_batch_Cstorage_CHINA_xml <- function(command, ...) {
     L261.DeleteRsrc_CHINAC <- get_data(all_data, "L261.DeleteRsrc_CHINAC")
     L261.UnlimitRsrc_CHINA <- get_data(all_data, "L261.UnlimitRsrc_CHINA")
     L261.GlobalTechCost_C_CHINA <- get_data(all_data, "L261.GlobalTechCost_C_CHINA")
+    L261.ResTechShrwt_C_CHINA <- get_data(all_data, "L261.ResTechShrwt_C_CHINA")
 
     # ===================================================
 
@@ -57,6 +59,7 @@ module_gcamchina_batch_Cstorage_CHINA_xml <- function(command, ...) {
       add_xml_data(L261.StubTechMarket_C_CHINA, "StubTechMarket") %>%
       add_xml_data(L261.UnlimitRsrc_CHINA, "UnlimitRsrc") %>%
       add_xml_data(L261.GlobalTechCost_C_CHINA, "GlobalTechCost") %>%
+      add_xml_data(L261.ResTechShrwt_C_CHINA, "ResTechShrwt") %>%
       add_precursors("L261.DeleteSubsector_CHINAC",
                      "L261.Rsrc_province",
                      "L261.RsrcCurves_province",
@@ -67,7 +70,8 @@ module_gcamchina_batch_Cstorage_CHINA_xml <- function(command, ...) {
                      "L261.StubTechMarket_C_CHINA",
                      "L261.DeleteRsrc_CHINAC",
                      "L261.UnlimitRsrc_CHINA",
-                     "L261.GlobalTechCost_C_CHINA") ->
+                     "L261.GlobalTechCost_C_CHINA",
+                     "L261.ResTechShrwt_C_CHINA") ->
       Cstorage_CHINA.xml
 
     return_data(Cstorage_CHINA.xml)
