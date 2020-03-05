@@ -11,6 +11,7 @@
 module_gcam.china_batch_resources_CHINA_xml <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c("L210.RenewRsrc_CHINA",
+             "L210.RenewRsrcPrice_CHINA",
              "L210.UnlimitRsrc_CHINA",
              "L210.UnlimitRsrcPrice_CHINA",
              "L210.SmthRenewRsrcTechChange_CHINA",
@@ -27,6 +28,7 @@ module_gcam.china_batch_resources_CHINA_xml <- function(command, ...) {
 
     # Load required inputs
     L210.RenewRsrc_CHINA <- get_data(all_data, "L210.RenewRsrc_CHINA")
+    L210.RenewRsrcPrice_CHINA <- get_data(all_data, "L210.RenewRsrcPrice_CHINA")
     L210.UnlimitRsrc_CHINA <- get_data(all_data, "L210.UnlimitRsrc_CHINA")
     L210.UnlimitRsrcPrice_CHINA <- get_data(all_data, "L210.UnlimitRsrcPrice_CHINA")
     L210.SmthRenewRsrcTechChange_CHINA <- get_data(all_data, "L210.SmthRenewRsrcTechChange_CHINA")
@@ -41,6 +43,7 @@ module_gcam.china_batch_resources_CHINA_xml <- function(command, ...) {
     # Produce outputs
     create_xml("resources_CHINA.xml") %>%
       add_xml_data(L210.RenewRsrc_CHINA, "RenewRsrc") %>%
+      add_xml_data(L210.RenewRsrcPrice_CHINA, "RenewRsrcPrice") %>%
       add_xml_data(L210.UnlimitRsrc_CHINA, "UnlimitRsrc") %>%
       add_xml_data(L210.UnlimitRsrcPrice_CHINA, "UnlimitRsrcPrice") %>%
       add_xml_data(L210.SmthRenewRsrcTechChange_CHINA, "SmthRenewRsrcTechChange") %>%
@@ -52,6 +55,7 @@ module_gcam.china_batch_resources_CHINA_xml <- function(command, ...) {
       add_node_equiv_xml("subresource") %>%
       add_xml_data(L210.ResTechShrwt_CHINA, "ResTechShrwt") %>%
       add_precursors("L210.RenewRsrc_CHINA",
+                     "L210.RenewRsrcPrice_CHINA",
                      "L210.UnlimitRsrc_CHINA",
                      "L210.UnlimitRsrcPrice_CHINA",
                      "L210.SmthRenewRsrcTechChange_CHINA",
