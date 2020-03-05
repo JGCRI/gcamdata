@@ -7,9 +7,9 @@
 #' @return Depends on \code{command}: either a vector of required inputs,
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L210.RenewRsrc_CHINA},\code{L210.UnlimitRsrc_CHINA},\code{L210.UnlimitRsrc_limestone_CHINA},
-#' \code{L210.UnlimitRsrcPrice_CHINA}, \code{L210.UnlimitRsrcPrice_limestone_CHINA},\code{L210.SmthRenewRsrcCurves_wind_CHINA},
-#' The corresponding file in the
-#' original data system was \code{L210.resources_CHINA.R} (gcam-china level2).
+#' \code{L210.UnlimitRsrcPrice_CHINA}, \code{L210.UnlimitRsrcPrice_limestone_CHINA},\code{L210.SmthRenewRsrcCurves_wind_CHINA}, \code{L210.SmthRenewRsrcTechChange_CHINA},
+#' \code{L210.GrdRenewRsrcCurves_geo_CHINA}, \code{L210.GrdRenewRsrcMax_geo_CHINA}, \code{L210.SmthRenewRsrcCurvesGdpElast_roofPV_CHINA}, \code{L210.ResTechShrwt_CHINA}
+#' The corresponding file in the original data system was \code{L210.resources_CHINA.R} (gcam-china level2).
 #' @details GCAM-China resource market information, prices, TechChange parameters, and supply curves.
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter mutate select
@@ -25,15 +25,23 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
              "L210.RenewRsrc",
              "L210.UnlimitRsrc",
              "L210.UnlimitRsrcPrice",
-             "L210.SmthRenewRsrcCurves_wind"))
+             "L210.SmthRenewRsrcTechChange",
+             "L210.SmthRenewRsrcCurves_wind",
+             "L210.SmthRenewRsrcCurvesGdpElast_roofPV",
+             "L210.GrdRenewRsrcCurves_geo",
+             "L210.GrdRenewRsrcMax_geo"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L210.RenewRsrc_CHINA",
              "L210.UnlimitRsrc_CHINA",
              "L210.UnlimitRsrc_limestone_CHINA",
              "L210.UnlimitRsrcPrice_CHINA",
              "L210.UnlimitRsrcPrice_limestone_CHINA",
+             "L210.SmthRenewRsrcTechChange_CHINA",
              "L210.SmthRenewRsrcCurves_wind_CHINA",
-             "L210.ResTechShrwt_CHINA"))
+             "L210.ResTechShrwt_CHINA",
+             "L210.GrdRenewRsrcCurves_geo_CHINA",
+             "L210.GrdRenewRsrcMax_geo_CHINA",
+             "L210.SmthRenewRsrcCurvesGdpElast_roofPV_CHINA"))
   } else if(command == driver.MAKE) {
 
     all_data <- list(...)[[1]]
@@ -51,7 +59,12 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     L210.RenewRsrc <- get_data(all_data, "L210.RenewRsrc")
     L210.UnlimitRsrc <- get_data(all_data, "L210.UnlimitRsrc")
     L210.UnlimitRsrcPrice <- get_data(all_data, "L210.UnlimitRsrcPrice")
+    L210.SmthRenewRsrcTechChange <- get_data(all_data, "L210.SmthRenewRsrcTechChange")
     L210.SmthRenewRsrcCurves_wind <- get_data(all_data, "L210.SmthRenewRsrcCurves_wind")
+    L210.SmthRenewRsrcCurvesGdpElast_roofPV <- get_data(all_data, "L210.SmthRenewRsrcCurvesGdpElast_roofPV")
+    L210.GrdRenewRsrcCurves_geo <- get_data(all_data, "L210.GrdRenewRsrcCurves_geo")
+    L210.GrdRenewRsrcMax_geo <- get_data(all_data, "L210.GrdRenewRsrcMax_geo")
+
     # ===================================================
     cement_provinces <- unique( L1321.out_Mt_province_cement_Yh$province )
 
@@ -98,7 +111,28 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
     L210.UnlimitRsrcPrice_CHINA <- L210.UnlimitRsrcPrice_CHINA %>%
       filter(unlimited.resource != "limestone")
 
-    # TODO: L210.SmthRenewRsrcTechChange_CHINA (look at old data system code chunk) can be added back in when we have distributed_solar added by province
+    # L210.SmthRenewRsrcTechChange_CHINA: smooth renewable resource tech change
+    L210.SmthRenewRsrcTechChange_CHINA <- L210.SmthRenewRsrcTechChange %>%
+      filter(region == gcamchina.REGION,
+             renewresource %in% gcamchina.PROVINCE_RENEWABLE_RESOURCES) %>%
+      write_to_all_provinces(LEVEL2_DATA_NAMES[["SmthRenewRsrcTechChange"]], gcamchina.PROVINCES_ALL) %>%
+      # If geothermal is included in this table, remove provinces that don't exist
+      anti_join(no_geo_provinces_resource, by = c("region", "renewresource"))
+
+    # L210.GrdRenewRsrcCurves_geo_CHINA: geothermal resource curves in the provinces
+    L210.GrdRenewRsrcCurves_geo_CHINA <- L210.GrdRenewRsrcCurves_geo %>%
+      filter(region == gcamchina.REGION) %>%
+      write_to_all_provinces(LEVEL2_DATA_NAMES[["RenewRsrcCurves"]], gcamchina.PROVINCES_ALL) %>%
+      # If geothermal is included in this table, remove provinces that don't exist
+      anti_join(no_geo_provinces_resource, by = c("region", "renewresource"))
+
+    # Maximum resources: currently assuming this is just set to 1, and the resource info is stored in the grades
+    # L210.GrdRenewRsrcMax_geo_CHINA: max sub resource for geothermal (placeholder)
+    L210.GrdRenewRsrcMax_geo_CHINA <- L210.GrdRenewRsrcMax_geo %>%
+      filter(region == gcamchina.REGION) %>%
+      write_to_all_provinces(LEVEL2_DATA_NAMES[["GrdRenewRsrcMax"]], gcamchina.PROVINCES_ALL) %>%
+      # If geothermal is included in this table, remove provinces that don't exist
+      anti_join(no_geo_provinces_resource, by = c("region", "renewresource"))
 
     # L210.SmthRenewRsrcCurves_wind_CHINA: wind resource curves in the provinces
     L210.SmthRenewRsrcCurves_wind_CHINA <- L210.SmthRenewRsrcCurves_wind %>%
@@ -113,15 +147,21 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
       select(region = province, renewresource, smooth.renewable.subresource, year.fillout,
              maxSubResource = maxResource, mid.price, curve.exponent)
 
+    # L210.SmthRenewRsrcCurvesGdpElast_roofPV_CHINA: rooftop PV resource curves in the provinces
+    L210.SmthRenewRsrcCurvesGdpElast_roofPV_CHINA <- L210.SmthRenewRsrcCurvesGdpElast_roofPV %>%
+      filter(region == gcamchina.REGION) %>%
+      write_to_all_provinces(LEVEL2_DATA_NAMES[["SmthRenewRsrcCurvesGdpElast"]], gcamchina.PROVINCES_ALL)
+
     # L210.ResTechShrwt_China: To provide a shell for the technology object in the resources
     L210.SmthRenewRsrcCurves_wind_CHINA %>%
       select(region, resource = renewresource, subresource = smooth.renewable.subresource) %>%
+      bind_rows(select(L210.GrdRenewRsrcMax_geo_CHINA, region, resource = renewresource, subresource = sub.renewable.resource)) %>%
+      bind_rows(select(L210.SmthRenewRsrcCurvesGdpElast_roofPV_CHINA, region, resource = renewresource, subresource = smooth.renewable.subresource)) %>%
       repeat_add_columns(tibble(year = MODEL_YEARS)) %>%
       mutate(technology = subresource,
              share.weight = 1.0) %>%
       select(LEVEL2_DATA_NAMES[["ResTechShrwt"]]) ->
       L210.ResTechShrwt_CHINA
-
     # ===================================================
 
     # Produce outputs
@@ -165,6 +205,14 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
       add_precursors("L210.UnlimitRsrcPrice", "L1321.out_Mt_province_cement_Yh") ->
       L210.UnlimitRsrcPrice_limestone_CHINA
 
+    L210.SmthRenewRsrcTechChange_CHINA %>%
+      add_title("Smooth renewable resource tech change: China") %>%
+      add_units("Unitless") %>%
+      add_comments("L210.SmthRenewRsrcTechChange filtered and written to all provinces") %>%
+      add_legacy_name("NA") %>%
+      add_precursors("L210.SmthRenewRsrcTechChange") ->
+      L210.SmthRenewRsrcTechChange_CHINA
+
     L210.SmthRenewRsrcCurves_wind_CHINA %>%
       add_title("Wind resource curves in the provinces") %>%
       add_units("maxSubResource: EJ; mid.price: 1975$/GJ") %>%
@@ -172,6 +220,30 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
       add_legacy_name("L210.SmthRenewRsrcCurves_wind_provinces") %>%
       add_precursors("L210.SmthRenewRsrcCurves_wind", "gcam-china/wind_potential_province", "gcam-china/province_names_mappings") ->
       L210.SmthRenewRsrcCurves_wind_CHINA
+
+    L210.GrdRenewRsrcCurves_geo_CHINA %>%
+      add_title("Geothermal resource curves in the provinces") %>%
+      add_units("available: EJ; extractioncost: 1975$/GJ") %>%
+      add_comments("China data from L210.GrdRenewRsrcCurves_geo filtered and written to all provinces") %>%
+      add_legacy_name("NA") %>%
+      add_precursors("L210.GrdRenewRsrcCurves_geo") ->
+      L210.GrdRenewRsrcCurves_geo_CHINA
+
+    L210.GrdRenewRsrcMax_geo_CHINA %>%
+      add_title("Max sub resource for geothermal (placeholder)") %>%
+      add_units("Unitless") %>%
+      add_comments("L210.GrdRenewRsrcMax_geo filtered and written to relevant provinces, constant value used") %>%
+      add_legacy_name("NA") %>%
+      add_precursors("L210.GrdRenewRsrcMax_geo") ->
+      L210.GrdRenewRsrcMax_geo_CHINA
+
+    L210.SmthRenewRsrcCurvesGdpElast_roofPV_CHINA %>%
+      add_title("Rooftop PV resource curves by province") %>%
+      add_units("maxSubResource: EJ; mid.price = 1975$/GJ") %>%
+      add_comments("China data from L210.GrdRenewRsrcCurves_geo filtered and written to all provinces") %>%
+      add_legacy_name("NA") %>%
+      add_precursors("L210.SmthRenewRsrcCurvesGdpElast_roofPV") ->
+      L210.SmthRenewRsrcCurvesGdpElast_roofPV_CHINA
 
     L210.ResTechShrwt_CHINA %>%
       add_title("Technology share-weights for the renewable resources") %>%
@@ -182,7 +254,9 @@ module_gcam.china_L210.Resources_china <- function(command, ...) {
 
 
     return_data(L210.RenewRsrc_CHINA, L210.UnlimitRsrc_CHINA, L210.UnlimitRsrc_limestone_CHINA,
-                L210.UnlimitRsrcPrice_CHINA, L210.UnlimitRsrcPrice_limestone_CHINA, L210.SmthRenewRsrcCurves_wind_CHINA, L210.ResTechShrwt_CHINA)
+                L210.UnlimitRsrcPrice_CHINA, L210.UnlimitRsrcPrice_limestone_CHINA,
+                L210.SmthRenewRsrcTechChange_CHINA, L210.SmthRenewRsrcCurves_wind_CHINA, L210.ResTechShrwt_CHINA,
+                L210.GrdRenewRsrcCurves_geo_CHINA, L210.GrdRenewRsrcMax_geo_CHINA, L210.SmthRenewRsrcCurvesGdpElast_roofPV_CHINA)
   } else {
     stop("Unknown command")
   }
