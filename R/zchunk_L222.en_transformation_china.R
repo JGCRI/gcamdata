@@ -138,9 +138,13 @@ module_gcam.china_L222.en_transformation_china <- function(command, ...) {
 
     # L222.Tech_CHINAen : The technology pass-throughs used to set the proper node name, CHINA region.
     L222.Tech_CHINAen %>%
-      select(province, LEVEL2_DATA_NAMES[["Subsector"]]) ->
+      select(province, LEVEL2_DATA_NAMES[["Subsector"]]) %>%
+      rename(region = province,
+             pass.through.sector = subsector,
+             marginal.revenue.sector = supplysector,
+             marginal.revenue.market = region) ->
       L222.PassThroughSector_CHINAen
-    names(L222.PassThroughSector_CHINAen) <- LEVEL2_DATA_NAMES[["PassThroughSector"]]
+
 
     L222.Tech_CHINAen %>%
       select(LEVEL2_DATA_NAMES[["Tech"]]) ->
