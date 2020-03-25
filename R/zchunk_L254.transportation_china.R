@@ -152,10 +152,9 @@ module_gcam.china_L254.transportation_china <- function(command, ...) {
       # Re-set markets from CHINA to regional markets, if called for in the GCAM-China assumptions for selected fuels
       if(gcamchina.USE_REGIONAL_FUEL_MARKETS & "market.name" %in% names(data_new)) {
         data_new <- data_new %>%
-          left_join_error_no_match(select(province_names_mappings, province, grid.region), by = c("region" = "province")) %>%
+          left_join_error_no_match(select(province_names_mappings, province), by = c("region" = "province")) %>%
           mutate(market.name = replace(market.name, minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS,
-                                       grid.region[minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS])) %>%
-          select(-grid.region)
+                                       region[minicam.energy.input %in% gcamchina.REGIONAL_FUEL_MARKETS]))
       }
 
       # Electricity is always consumed from province markets
