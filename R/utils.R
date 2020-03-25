@@ -494,3 +494,68 @@ screen_forbidden <- function(fn) {
   }
   rslt
 }
+
+#' fast_group_by
+#'
+#' A version of group_by that uses data.table instead of dplyr
+#'
+#' This group_by function that uses data.table offers a much higher speed
+#' especially when working with high volume datasets. This function can also be
+#' called within dplyr pipes. data.table will also inherently ensure consistency
+#' between LHS and RHS
+#'
+#'
+#' @param df The tibble on which the group_by is to be performed
+#' @param by A vector with the criteria for the group_by.
+#' @param colname A string with the column name on which the grouping is to be performed
+#' @param func A string with the function to be performed. Default is set to "sum"
+#' @return A tibble with the aggregated data.
+#' @importFrom data.table as.data.table
+#' @importFrom tibble as_tibble
+#' @author kbn 24 Mar 2020
+fast_group_by<- function(df,by,colname="value",func= "sum"){
+
+
+    #Convert relevant column to numeric
+    df[,colname]<- as.numeric(df[,colname])
+
+    #Store as data.table
+    df <- as.data.table(df)
+
+    #Complete operations
+    df<- df[, (colname) := (get(func)(get(colname))), by]
+
+    #Save back to tibble
+    df<- as_tibble(df)
+
+    return(df)
+}
+
+#' data_table_bind
+#'
+#' A binding function that uses data.table. This can be used as a replacement for rbind or bind_rows.
+#'
+#' This binding function takes advantage of the data processing capabilities of data.table. This can be
+#' called within dplyr pipes.
+#'
+#'
+#' @param ... The tibbles to be merged.
+#' @return A tibble with the combined data.
+#' @importFrom data.table as.data.table rbindlist
+#' @importFrom tibble as_tibble
+#' @return A tibble with combined data.
+#' @author kbn 24 Mar 2020
+data_table_bind<-function(...){
+
+    #Create a list for binding
+    list_for_bind =list(...)
+
+    #bind into one dataframe
+    df <- rbindlist(list_for_bind,use.names=TRUE)
+
+    #Return as tibble
+    df<-as_tibble(df)
+
+    return(df)
+
+}
