@@ -497,22 +497,30 @@ screen_forbidden <- function(fn) {
 
 #' fast_group_by
 #'
-#' A version of group_by that uses data.table instead of dplyr
+#' A version of group_by that uses data.table instead of dplyr. Creates groups, runs a user specified function, ungroups and returns
+#' a processed tibble. Please use this function for grouping only numeric data.
 #'
 #' This group_by function that uses data.table offers a much higher speed
 #' especially when working with high volume datasets. This function can also be
 #' called within dplyr pipes. data.table will also inherently ensure consistency
-#' between LHS and RHS
+#' between LHS and RHS. The function will perform a combination of a group_by , mutate and ungroup.
 #'
+#' Example-
+#'
+#' A group_by with dplyr - grouped_data <- data -> group_by(iso,year,glu_code) -> mutate(value=sum(value)) -> ungroup()
+#'
+#' Same group_by with data.table - grouped_data <- fast_group_by(data, by=c("iso","year","glu_code"),colname = "value", func = "sum" )
 #'
 #' @param df The tibble on which the group_by is to be performed
-#' @param by A vector with the criteria for the group_by.
+#' @param by A vector of strings with the criteria for the group_by.
 #' @param colname A string with the column name on which the grouping is to be performed
 #' @param func A string with the function to be performed. Default is set to "sum"
 #' @return A tibble with the aggregated data.
 #' @importFrom data.table as.data.table
 #' @importFrom tibble as_tibble
+#' @importFrom dplyr %>%
 #' @author kbn 24 Mar 2020
+#' @export
 fast_group_by<- function(df,by,colname="value",func= "sum"){
 
 
@@ -538,19 +546,24 @@ fast_group_by<- function(df,by,colname="value",func= "sum"){
 #' This binding function takes advantage of the data processing capabilities of data.table. This can be
 #' called within dplyr pipes.
 #'
+#'Example-
+#'
+#'Bind 2 datasets (x,y) with same columns using the following,
+#'
+#'Bound_dataset<- data_table_bind(x,y)
 #'
 #' @param ... The tibbles to be merged.
-#' @return A tibble with the combined data.
 #' @importFrom data.table as.data.table rbindlist
 #' @importFrom tibble as_tibble
 #' @return A tibble with combined data.
 #' @author kbn 24 Mar 2020
+#' @export
 data_table_bind<-function(...){
 
     #Create a list for binding
     list_for_bind =list(...)
 
-    #bind into one dataframe
+    #bind into one dataframe using rbindlist
     df <- rbindlist(list_for_bind,use.names=TRUE)
 
     #Return as tibble
