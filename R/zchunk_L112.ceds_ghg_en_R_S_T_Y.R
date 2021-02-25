@@ -607,7 +607,7 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
 
       # Compute share of rice production by GLU in each region / year
       L101.ag_Prod_Mt_R_C_Y_GLU %>%
-        filter(GCAM_commodity == "Rice", year %in% HISTORICAL_YEARS) %>%
+        filter(GCAM_commodity == "Rice", year %in% emissions.CEDS_YEARS) %>%
         group_by(GCAM_region_ID, GCAM_commodity, year) %>%
         # Total production by region, commodity, and year for calculating share
         mutate(total_prod = sum(value)) %>%
