@@ -202,6 +202,8 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
       L112.CEDS_Road_emissions <- L112.CEDS_GCAM %>%  filter(CEDS_agg_sector == "trn_road")
       L112.CEDS_GCAM<- L112.CEDS_GCAM %>%  filter(CEDS_agg_sector != "trn_road")
 
+      `%notin%` <- Negate(`%in%`)
+
       #Clean IEA data, filter to road emissions and  remove zero emission technologies.
       IEA_Ctry_data %>%
         #Use only historical years
