@@ -53,6 +53,7 @@ gcam.DEFAULT_PRICE <- 1.0
 driver.MAKE            <- "MAKE"
 driver.DECLARE_OUTPUTS <- "DECLARE_OUTPUTS"
 driver.DECLARE_INPUTS  <- "DECLARE_INPUTS"
+driver.DECLARE_MODIFY  <- "DECLARE_MODIFY"
 
 
 # Data and utility constants ======================================================================
@@ -60,6 +61,7 @@ driver.DECLARE_INPUTS  <- "DECLARE_INPUTS"
 data.SEPARATOR <- "; "
 data.PRECURSOR <- "Precursor"
 data.DEPENDENT <- "Dependent"
+data.USER_MOD_POSTFIX <- "__0"
 
 
 # Modeltime constants ======================================================================
