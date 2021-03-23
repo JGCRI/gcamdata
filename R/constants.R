@@ -53,6 +53,7 @@ gcam.DEFAULT_PRICE <- 1.0
 driver.MAKE            <- "MAKE"
 driver.DECLARE_OUTPUTS <- "DECLARE_OUTPUTS"
 driver.DECLARE_INPUTS  <- "DECLARE_INPUTS"
+driver.DECLARE_MODIFY  <- "DECLARE_MODIFY"
 
 # Set the driver source to EDGAR to switch back to old emissions structure.
 driver.EMISSIONS_SOURCE <- "CEDS"
@@ -63,6 +64,7 @@ driver.EMISSIONS_SOURCE <- "CEDS"
 data.SEPARATOR <- "; "
 data.PRECURSOR <- "Precursor"
 data.DEPENDENT <- "Dependent"
+data.USER_MOD_POSTFIX <- "__0"
 
 
 # Modeltime constants ======================================================================
