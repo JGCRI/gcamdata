@@ -121,7 +121,15 @@ test_that("matches old data system output", {
         expect_equivalent(sum(olddata[numeric_columns_old]), sum(newdata[numeric_columns_new]),
                           info = paste(basename(newf), "doesn't match (sum test)"))
       } else {
-        expect_equivalent(round_df(olddata), round_df(newdata), info = paste(basename(newf), "doesn't match"))
+          if(isTRUE(all.equal(olddata, newdata, tolerance = 0.02))){
+            expect_true(TRUE)
+          }
+          else if(isTRUE(all.equal(data.table(distinct(olddata)), data.table(distinct(newdata)), ignore.row.order = TRUE, ignore.col.order = TRUE, tolerance = 0.02))){
+            expect_true(TRUE)
+          }
+          else{
+            expect_true(dplyr::all_equal(round_df(olddata), round_df(newdata)))
+          }
       }
     }
   }
