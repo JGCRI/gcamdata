@@ -202,7 +202,7 @@ module_emissions_L102.nonco2_ceds_R_S_Y <- function(command, ...) {
           L102.ceds_GFED_nonco2_tg_R_S_F
 
         # verify the calculated data matches the prebuilt version if not a warning
-        # will be generated and should only be ignored if the underly CEDS data
+        # will be generated and should only be ignored if the underlying CEDS data
         # actually changed
         verify_identical_prebuilt(L102.ceds_GFED_nonco2_tg_R_S_F)
 

@@ -55,7 +55,7 @@ driver.MAKE            <- "MAKE"
 driver.DECLARE_OUTPUTS <- "DECLARE_OUTPUTS"
 driver.DECLARE_INPUTS  <- "DECLARE_INPUTS"
 
-#Set the driver source to EDGAR to switch back to old emissions structure.
+# Set the driver source to EDGAR to switch back to old emissions structure.
 driver.EMISSIONS_SOURCE <- "CEDS"
 #driver.EMISSIONS_SOURCE <- "EDGAR"
 
