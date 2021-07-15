@@ -35,7 +35,7 @@ module_gcamusa_LB1233.elec_water_USA <- function(command, ...) {
       `Technology Code` <- cooling_system <- water_type <- technology <- state <-
       state <- sector <- fuel <- out_MWh <- out_MWh_ <- `First Year of Operation` <-
       grid_region <- share <- sum_share_tech <- share_nat <- value <-
-      year <- water_withdrawals <- water_consumption <- out_MWh.sea <-
+      year <- water_withdrawals <- water_consumption <- out_MWh.sea <- `Generation Technology` <-
       out_MWh_sea <- share_nat.sea <- Electric.sector <- Electric.sector.technology <- NULL
 
     # Load required inputs
@@ -52,11 +52,11 @@ module_gcamusa_LB1233.elec_water_USA <- function(command, ...) {
     `Generation Technology` <- NULL # silence package check notes
 
     # Define unique states and basins that have access to seawater that will
-    # allow for seawater cooling
+    # allow for seawate cooling
 
     seawater_states_basins <- unique(usa_seawater_states_basins$seawater_region)
 
-    # initial processing of UCS database
+    # inital processing of UCS database
     UCS_Database %>%
       rename(state = State,
              out_MWh = `Estimated Generation (MWh)`,

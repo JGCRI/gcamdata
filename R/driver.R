@@ -507,7 +507,8 @@ driver_drake <- function(
    }
    else {
     chunks_to_run <- c(unfound_inputs$input, chunklist$name)
-  }
+   }
+  dir.create(xmldir, showWarnings = FALSE, recursive = TRUE)
 
   # Loop over each chunk and add a target for it and the command to build it
   # as appropriate for if it is just loading a FILE or running an actual chunk.
@@ -544,6 +545,12 @@ driver_drake <- function(
     }
     else {
       po <- subset(chunkoutputs, name == chunk)$output  # promised outputs
+      if(length(po) == 0) {
+        # chunks may get disabled due to configuration options in constants.R
+        # so if they are not currently configured to return any outputs we can just
+        # skip it
+        next
+      }
       # add the chunk to the target list
       target <- c(target, chunk)
       # Generate the command to run the chunk as:
