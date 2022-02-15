@@ -94,7 +94,7 @@ test_that("matches old data system output", {
       }
 
       # TEMPORARY FIX TO PASS CHECKS
-      if ("L131.in_EJ_R_Senduse_F_Yh.csv" %in% newf){
+      if (grepl("L131.in_EJ_R_Senduse_F_Yh.csv", newf)){
         olddata <- olddata %>%
         mutate(value = if_else(is.nan(value), as.double(NA), value))
       }
