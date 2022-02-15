@@ -1,0 +1,70 @@
+name: R-CMD
+
+# Controls when the action will run. 
+on: [push, pull_request]
+
+jobs:
+  R-CMD:
+    runs-on: ${{ matrix.config.os }}
+
+    name: ${{ matrix.config.os }} (${{ matrix.config.r }})
+
+    strategy:
+      fail-fast: false 
+      matrix:
+         config:
+          # for latest stable version of R for MacOSX
+          # {os: macOS-latest, r: 'release'}
+
+          # for latest stable version of R for Windows
+          #- {os: windows-latest, r: 'release'}
+
+          # for latest stable version of R for ubuntu-20.04 
+          - {os: ubuntu-20.04, r: 'release', rspm: "https://packagemanager.rstudio.com/cran/__linux__/focal/latest"}
+          #- {os: ubuntu-18.04, r: 'release', rspm: "https://packagemanager.rstudio.com/cran/__linux__/xenial/latest"}
+  
+    env:
+      R_REMOTES_NO_ERRORS_FROM_WARNINGS: false
+      GCAMDATA_USE_JAVA: true
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: r-lib/actions/setup-r@master
+        with:
+          r-version: ${{ matrix.config.r }}
+
+      - name: Cache R packages 
+        uses: actions/cache@v1 
+        with: 
+          path: ${{ env.R_LIBS_USER }} 
+          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }} 
+          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1- 
+
+      - name: Ubuntu config
+        if: startsWith(matrix.config.os, 'ubuntu')
+        run: |
+          sudo apt-get install libcurl4-openssl-dev
+          sudo fallocate -l 8g /mnt/for_fork.swap
+          sudo chmod 600 /mnt/for_fork.swap
+          sudo mkswap /mnt/for_fork.swap
+          sudo swapon /mnt/for_fork.swap
+
+      - name: Restore renv and check
+        run: |
+          install.packages(c("renv"), repos = "https://cloud.r-project.org")
+          renv::init( bare = TRUE)
+          renv::restore()
+          rcmdcheck::rcmdcheck(args = c("--no-manual", "--ignore-vignettes"), build_args = c("--no-build-vignettes"), error_on = "error", check_dir = "check")
+        shell: Rscript {0}
+        
+      # - name: Install dependencies - macOS and Windows
+      #   if: runner.os != 'Linux'
+      #   run: |
+      #     install.packages(c("remotes", "rcmdcheck"), repos = "https://cloud.r-project.org")
+      #     remotes::install_deps(dependencies = TRUE)
+      #   shell: Rscript {0}
+      
+      # - name: Check
+      #   run: rcmdcheck::rcmdcheck(args = c("--no-manual", "--ignore-vignettes"), build_args = c("--no-build-vignettes"), error_on = "error", check_dir = "check")
+      #   shell: Rscript {0}
