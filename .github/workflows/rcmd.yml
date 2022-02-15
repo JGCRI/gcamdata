@@ -1,7 +1,7 @@
 name: R-CMD
 
 # Controls when the action will run. 
-on: [pell_request]
+on: [pull_request]
 
 jobs:
   R-CMD:
