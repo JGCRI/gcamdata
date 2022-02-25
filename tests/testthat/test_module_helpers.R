@@ -220,8 +220,8 @@ test_that("get_ssp_regions", {
 
   pcGDP <- tibble(GCAM_region_ID = 1:3,
                   scenario = ssp,
-                  year = yr,
-                  value = gdp_deflator(1990, yr) *
+                  year = eval(yr),
+                  value = gdp_deflator(1990, eval(yr)) *
                     c(aglu.LOW_GROWTH_PCGDP - 1,
                       aglu.HIGH_GROWTH_PCGDP + 1,
                       mean(c(aglu.LOW_GROWTH_PCGDP, aglu.HIGH_GROWTH_PCGDP))))
