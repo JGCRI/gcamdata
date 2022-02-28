@@ -237,7 +237,7 @@ test_that("get_ssp_regions", {
   expect_error(get_ssp_regions(pcGDP, reg_names, income_group = "zzz"))
 
   # No matches if we change year and/or scenario
-  expect_equal(get_ssp_regions(pcGDP, reg_names, income_group = "low", year_filter = yr - 1), character(0))
+  expect_equal(get_ssp_regions(pcGDP, reg_names, income_group = "low", year_filter = eval(yr) - 1), character(0))
   expect_equal(get_ssp_regions(pcGDP, reg_names, income_group = "high", ssp_filter = paste0(ssp, "x")), character(0))
 })
 
