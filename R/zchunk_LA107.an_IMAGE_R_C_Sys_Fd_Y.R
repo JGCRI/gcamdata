@@ -179,7 +179,7 @@ module_aglu_LA107.an_IMAGE_R_C_Sys_Fd_Y <- function(command, ...) {
       select(-feedVal, -prodVal) ->
       L107.an_FeedIO_R_C_Sys_Fd_Y
 
-    # Need to fill in NAs
+    # Need to fill in NAs - new method RLH 3/9/22
     # Step 1: Extrapolate for any commodity/system/feed combos that are just missing some years
     L107.an_FeedIO_R_C_Sys_Fd_Y %>%
       group_by(GCAM_region_ID, GCAM_commodity, system, feed) %>%
@@ -197,17 +197,16 @@ module_aglu_LA107.an_IMAGE_R_C_Sys_Fd_Y <- function(command, ...) {
       L107.an_FeedIO_R_C_Sys_Fd_Y
 
     # Step 2: For any commodity/system/feed combos that exist in other regions and in that region with a different system
-    # Replace with global ratios of commodity/feed between systems in other regions
+    # Replace with global average ratio of commodity/feed between systems in other regions
     L107.an_FeedIO_R_C_Sys_Fd_Y %>%
-      group_by(GCAM_commodity, year, system, feed) %>%
-      # Global mean in each commodity/year/system/feed
-      summarise(global_mean = mean(value, na.rm = TRUE)) %>%
-      ungroup() %>%
-      spread(system, global_mean) %>%
+      spread(system, value) %>%
       # na.omit will remove any commodity/feeds that only exist with one system
       na.omit() %>%
       mutate(mixed_to_pastoral = Mixed/Pastoral) %>%
-      select(-Mixed, -Pastoral) ->
+      group_by(GCAM_commodity, year, feed) %>%
+      # mean ratio each commodity/year/system/feed
+      summarise(mixed_to_pastoral = mean(mixed_to_pastoral)) %>%
+      ungroup ->
       L107.an_FeedIO_global_ratios
 
     # Adjust values based on ratios
