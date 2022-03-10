@@ -869,7 +869,7 @@ module_energy_L223.electricity <- function(command, ...) {
       group_by(GCAM_region_ID, sector, fuel) %>%
       mutate(value = approx_fun(year, value, rule = 1)) %>%
       ungroup() %>%
-      filter(year %in% MODEL_FUTURE_YEARS[!MODEL_FUTURE_YEARS %in% HISTORICAL_YEARS]) %>%
+      filter(year %in% MODEL_FUTURE_YEARS) %>%
       # append region names
       left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID") ->
       L223.StubTechFixOut_hydro
