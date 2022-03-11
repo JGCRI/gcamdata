@@ -20,6 +20,7 @@ module_energy_LA118.hydro <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "common/iso_GCAM_regID",
              FILE = "energy/Hydropower_potential",
+             FILE = "energy/mappings/IEA_product_fuel",
              "L100.IEA_en_bal_ctry_hist",
              FILE = "energy/A18.hydro_output"))
   } else if(command == driver.DECLARE_OUTPUTS) {
@@ -31,6 +32,7 @@ module_energy_LA118.hydro <- function(command, ...) {
     # Load required inputs
     iso_GCAM_regID <- get_data(all_data, "common/iso_GCAM_regID")
     Hydropower_potential <- get_data(all_data, "energy/Hydropower_potential")
+    IEA_product_fuel <- get_data(all_data, "energy/mappings/IEA_product_fuel")
     A18.hydro_output <- get_data(all_data, "energy/A18.hydro_output")
     L100.IEA_en_bal_ctry_hist <- get_data(all_data, "L100.IEA_en_bal_ctry_hist")
 
@@ -97,7 +99,8 @@ module_energy_LA118.hydro <- function(command, ...) {
 
       # Calculate the growth potential by country, which is the economic potential minus the actual generation in the most recent historical year (from the IEA balances)
       L100.IEA_en_bal_ctry_hist %>%
-        filter(FLOW == "ELOUTPUT", PRODUCT == "Hydro", year %in% HYDRO_HIST_YEARS) %>%
+        left_join(rename(IEA_product_fuel, PRODUCT = product), by = "PRODUCT") %>%
+        filter(FLOW == "ELOUTPUT", fuel == "elec_hydro", year %in% HYDRO_HIST_YEARS) %>%
         mutate(value_base = value * CONV_GWH_EJ) %>%
         left_join_error_no_match(iso_GCAM_regID, by = "iso") %>%
         select(iso, region_GCAM3, year, value_base) ->
@@ -230,7 +233,7 @@ module_energy_LA118.hydro <- function(command, ...) {
         add_comments("In most cases, a growth potential for each country was calculated,
                    multiplied by its share in the region, and added to the base-year ouput") %>%
         add_legacy_name("L118.out_EJ_R_elec_hydro_Yfut") %>%
-        add_precursors("common/iso_GCAM_regID", "energy/Hydropower_potential",
+        add_precursors("common/iso_GCAM_regID", "energy/Hydropower_potential", "energy/mappings/IEA_product_fuel",
                        "L100.IEA_en_bal_ctry_hist", "energy/A18.hydro_output") ->
         L118.out_EJ_R_elec_hydro_Yfut
 
