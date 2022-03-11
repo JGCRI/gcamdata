@@ -1403,7 +1403,7 @@ module_energy_L223.electricity <- function(command, ...) {
       add_units("Exajoules/year") %>%
       add_comments("Interpolated from historical year calibrated outputs and filtered list to technologies with a fixed output. By default, this is hydropower.") %>%
       add_legacy_name("L223.StubTechFixOut_elec") %>%
-      add_precursors("common/GCAM_region_names", "energy/calibrated_techs", "L223.out_EJ_R_elec_F_tech_Yh") ->
+      add_precursors("common/GCAM_region_names", "energy/calibrated_techs", "L1231.out_EJ_R_elec_F_tech_Yh") ->
       L223.StubTechFixOut_elec
 
     L223.StubTechFixOut_hydro %>%
