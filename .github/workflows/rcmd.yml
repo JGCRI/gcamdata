@@ -5,23 +5,15 @@ on: [pull_request]
 
 jobs:
   R-CMD:
-    runs-on: ${{ matrix.config.os }}
-
-    name: ${{ matrix.config.os }} (${{ matrix.config.r }})
+    runs-on: ubuntu-20.04
 
     strategy:
       fail-fast: false 
       matrix:
          config:
-          # for latest stable version of R for MacOSX
-          # {os: macOS-latest, r: 'release'}
+          R: [ '3.6.3', 'release' ]
 
-          # for latest stable version of R for Windows
-          #- {os: windows-latest, r: 'release'}
-
-          # for latest stable version of R for ubuntu-20.04 
-          - {os: ubuntu-20.04, r: 'release', rspm: "https://packagemanager.rstudio.com/cran/__linux__/focal/latest"}
-          #- {os: ubuntu-18.04, r: 'release', rspm: "https://packagemanager.rstudio.com/cran/__linux__/xenial/latest"}
+    name: R ${{ matrix.R }} R-CMD
   
     env:
       R_REMOTES_NO_ERRORS_FROM_WARNINGS: false
