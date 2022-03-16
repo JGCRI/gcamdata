@@ -10,8 +10,7 @@ jobs:
     strategy:
       fail-fast: false 
       matrix:
-         config:
-          R: [ '3.6.3', 'release' ]
+        R: [ '3.6.3', 'release' ]
 
     name: R ${{ matrix.R }} R-CMD
   
