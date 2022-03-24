@@ -24,6 +24,7 @@ module_energy_LA121.liquids <- function(command, ...) {
              FILE = "aglu/IIASA_biofuel_production",
              FILE = "aglu/IIASA_biofuel_tech_mapping",
              FILE = "aglu/IIASA_biofuel_region_mapping",
+             FILE = "aglu/A_OilSeed_SecOut",
              FILE = "energy/calibrated_techs",
              FILE = "energy/mappings/IEA_product_rsrc",
              FILE = "energy/A21.unoil_demandshares",
@@ -35,7 +36,8 @@ module_energy_LA121.liquids <- function(command, ...) {
     return(c("L121.in_EJ_R_unoil_F_Yh",
              "L121.in_EJ_R_TPES_crude_Yh",
              "L121.in_EJ_R_TPES_unoil_Yh",
-             "L121.share_R_TPES_biofuel_tech"))
+             "L121.share_R_TPES_biofuel_tech",
+             "L121.BiomassOilRatios_kgGJ_R_C"))
   } else if(command == driver.MAKE) {
 
     ## silence package check.
@@ -44,37 +46,40 @@ module_energy_LA121.liquids <- function(command, ...) {
       secondary.output <- supplysector <- region_GCAM3 <- value_RG3 <-
       share <- share_RG3_world <- subsector <- technology <- minicam.energy.input <-
       value_coef <- fuel.y <- value_coef_gas <- resource <- Production_ML <-
-      Biofuel <- GCAM_commodity <- NULL
+      Biofuel <- GCAM_commodity <- SecOutRatio <- IOcoef <- Weighted_IOcoef <-
+      Weighted_SecOutRatio <- Weight <- NULL
 
     all_data <- list(...)[[1]]
 
     # Load required inputs
-    iso_GCAM_regID <- get_data(all_data, "common/iso_GCAM_regID")
-    IIASA_biofuel_production <- get_data(all_data, "aglu/IIASA_biofuel_production")
-    IIASA_biofuel_tech_mapping <- get_data(all_data, "aglu/IIASA_biofuel_tech_mapping")
-    IIASA_biofuel_region_mapping <- get_data(all_data, "aglu/IIASA_biofuel_region_mapping")
-    calibrated_techs <- get_data(all_data, "energy/calibrated_techs")
-    IEA_product_rsrc <- get_data(all_data, "energy/mappings/IEA_product_rsrc")
-    A21.unoil_demandshares <- get_data(all_data, "energy/A21.unoil_demandshares")
-    A21.globaltech_coef <- get_data(all_data, "energy/A21.globaltech_coef")
-    L100.IEA_en_bal_ctry_hist <- get_data(all_data, "L100.IEA_en_bal_ctry_hist")
-    L1011.en_bal_EJ_R_Si_Fi_Yh <- get_data(all_data, "L1011.en_bal_EJ_R_Si_Fi_Yh")
+    iso_GCAM_regID <- get_data(all_data, "common/iso_GCAM_regID", strip_attributes = TRUE)
+    IIASA_biofuel_production <- get_data(all_data, "aglu/IIASA_biofuel_production", strip_attributes = TRUE)
+    IIASA_biofuel_tech_mapping <- get_data(all_data, "aglu/IIASA_biofuel_tech_mapping", strip_attributes = TRUE)
+    IIASA_biofuel_region_mapping <- get_data(all_data, "aglu/IIASA_biofuel_region_mapping", strip_attributes = TRUE)
+    A_OilSeed_SecOut <- get_data(all_data, "aglu/A_OilSeed_SecOut", strip_attributes = TRUE)
+    calibrated_techs <- get_data(all_data, "energy/calibrated_techs", strip_attributes = TRUE)
+    IEA_product_rsrc <- get_data(all_data, "energy/mappings/IEA_product_rsrc", strip_attributes = TRUE)
+    A21.unoil_demandshares <- get_data(all_data, "energy/A21.unoil_demandshares", strip_attributes = TRUE)
+    A21.globaltech_coef <- get_data(all_data, "energy/A21.globaltech_coef", strip_attributes = TRUE)
+    L100.IEA_en_bal_ctry_hist <- get_data(all_data, "L100.IEA_en_bal_ctry_hist", strip_attributes = TRUE)
+    L1011.en_bal_EJ_R_Si_Fi_Yh <- get_data(all_data, "L1011.en_bal_EJ_R_Si_Fi_Yh", strip_attributes = TRUE)
 
     # L100.IEA_en_bal_ctry_hist might be null (meaning the data system is running
     # without the proprietary IEA data files). If this is the case, we substitute
     # pre-built output datasets and exit.
     if(is.null(L100.IEA_en_bal_ctry_hist)) {
       # Proprietary IEA energy data are not available, so used prebuilt outputs
-      L121.in_EJ_R_unoil_F_Yh <- prebuilt_data("L121.in_EJ_R_unoil_F_Yh")
-      L121.in_EJ_R_TPES_crude_Yh <- prebuilt_data("L121.in_EJ_R_TPES_crude_Yh")
-      L121.in_EJ_R_TPES_unoil_Yh <- prebuilt_data("L121.in_EJ_R_TPES_unoil_Yh")
-      L121.share_R_TPES_biofuel_tech <- prebuilt_data("L121.share_R_TPES_biofuel_tech")
+      L121.in_EJ_R_unoil_F_Yh <- extract_prebuilt_data("L121.in_EJ_R_unoil_F_Yh")
+      L121.in_EJ_R_TPES_crude_Yh <- extract_prebuilt_data("L121.in_EJ_R_TPES_crude_Yh")
+      L121.in_EJ_R_TPES_unoil_Yh <- extract_prebuilt_data("L121.in_EJ_R_TPES_unoil_Yh")
+      L121.share_R_TPES_biofuel_tech <- extract_prebuilt_data("L121.share_R_TPES_biofuel_tech")
+      L121.BiomassOilRatios_kgGJ_R_C <- extract_prebuilt_data("L121.BiomassOilRatios_kgGJ_R_C")
     } else {
 
       L100.IEA_en_bal_ctry_hist %>%
         gather_years -> L100.IEA_en_bal_ctry_hist
 
-      L111.Prod_EJ_R_F_Yh <- L111.Prod_EJ_R_F_Yh <- get_data(all_data, "L111.Prod_EJ_R_F_Yh")
+      L111.Prod_EJ_R_F_Yh <- L111.Prod_EJ_R_F_Yh <- get_data(all_data, "L111.Prod_EJ_R_F_Yh", strip_attributes = TRUE)
 
       # ===================================================
 
@@ -200,6 +205,29 @@ module_energy_LA121.liquids <- function(command, ...) {
         ungroup() %>%
         select(GCAM_region_ID, Biofuel, technology, GCAM_commodity, share)
 
+      # 02/2020 addition (gpk) - regional average oilcrop -> biomassOil -> secondary output of feed ratios
+      # vary considerably according to the feedstock type. Using a soybean-based secondary output coefficient
+      # will over-estimate this flow in countries using mostly rapeseed feedstocks, and vice versa. This is
+      # addressed by computing region-specific weighted average secondary output coefficients.
+      L121.BiomassOilRatios_kgGJ_R_C <- left_join(IIASA_biofuel_production,
+                                                       IIASA_biofuel_tech_mapping,
+                                                       by = c("Biofuel", "Crop")) %>%
+        left_join(IIASA_biofuel_region_mapping, by = "Region") %>%
+        left_join(A_OilSeed_SecOut, by = "Crop") %>%
+        filter(!is.na(SecOutRatio),
+               Production_ML > 0) %>%
+        mutate(Weighted_SecOutRatio = Production_ML * SecOutRatio,
+               Weighted_IOcoef = Production_ML * IOcoef) %>%
+        left_join_error_no_match(select(iso_GCAM_regID, GCAM_region_ID, iso), by = "iso") %>%
+        group_by(GCAM_region_ID, GCAM_commodity) %>%
+        summarise(Weight = sum(Production_ML),
+                  Weighted_IOcoef = sum(Weighted_IOcoef),
+                  Weighted_SecOutRatio = sum(Weighted_SecOutRatio)) %>%
+        ungroup() %>%
+        mutate(IOcoef = Weighted_IOcoef / Weight,
+               SecOutRatio = Weighted_SecOutRatio / Weight) %>%
+        select(GCAM_region_ID, GCAM_commodity, IOcoef, SecOutRatio)
+
       # ===================================================
       # Produce outputs
       L121.in_EJ_R_unoil_F_Yh %>%
@@ -238,17 +266,27 @@ module_energy_LA121.liquids <- function(command, ...) {
                        "aglu/IIASA_biofuel_tech_mapping", "L100.IEA_en_bal_ctry_hist", "common/iso_GCAM_regID") ->
         L121.share_R_TPES_biofuel_tech
 
+      L121.BiomassOilRatios_kgGJ_R_C %>%
+        add_title("BiomassOil input-output coefficient (kg crop / GJ oil) and secondary output ratio (kg feedcake / GJ oil) by region / feedstock", overwrite = TRUE) %>%
+        add_units("kg / GJ") %>%
+        add_comments("Calculated from weighted average OilCrop oil contents and assumptions about losses") %>%
+        add_precursors("aglu/IIASA_biofuel_production", "aglu/IIASA_biofuel_region_mapping",
+                       "aglu/IIASA_biofuel_tech_mapping", "aglu/A_OilSeed_SecOut", "common/iso_GCAM_regID") ->
+        L121.BiomassOilRatios_kgGJ_R_C
+
       # At this point the objects should be identical to the prebuilt objects
       verify_identical_prebuilt(L121.in_EJ_R_unoil_F_Yh,
                                 L121.in_EJ_R_TPES_crude_Yh,
                                 L121.in_EJ_R_TPES_unoil_Yh,
-                                L121.share_R_TPES_biofuel_tech)
+                                L121.share_R_TPES_biofuel_tech,
+                                L121.BiomassOilRatios_kgGJ_R_C)
     }
 
     return_data(L121.in_EJ_R_unoil_F_Yh,
                 L121.in_EJ_R_TPES_crude_Yh,
                 L121.in_EJ_R_TPES_unoil_Yh,
-                L121.share_R_TPES_biofuel_tech)
+                L121.share_R_TPES_biofuel_tech,
+                L121.BiomassOilRatios_kgGJ_R_C)
   } else {
     stop("Unknown command")
   }

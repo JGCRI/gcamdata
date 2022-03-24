@@ -19,10 +19,22 @@
 #' @importFrom tidyr gather spread
 #' @author GPK May 2017
 module_emissions_L114.bcoc_en_R_S_T_Y <- function(command, ...) {
+  # if(driver.EMISSIONS_SOURCE == "CEDS") {
+  #   if(command == driver.DECLARE_INPUTS) {
+  #     return(NULL)
+  #   } else if(command == driver.DECLARE_OUTPUTS) {
+  #     return(NULL)
+  #   } else if(command == driver.MAKE) {
+  #     return_data()
+  #   } else {
+  #     stop("Unknown command")
+  #   }}
+  # else {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "common/iso_GCAM_regID",
              FILE = "emissions/mappings/EPA_ghg_tech",
              FILE = "emissions/mappings/GCAM_sector_tech",
+             FILE = "emissions/mappings/GCAM_sector_tech_Revised",
              "L101.in_EJ_R_en_Si_F_Yh",
              "L104.bcoc_tgej_USA_en_T_1990",
              FILE = "emissions/RCP_BC_2000",
@@ -42,6 +54,13 @@ module_emissions_L114.bcoc_en_R_S_T_Y <- function(command, ...) {
     iso_GCAM_regID <- get_data(all_data, "common/iso_GCAM_regID")
     EPA_ghg_tech <- get_data(all_data, "emissions/mappings/EPA_ghg_tech")
     GCAM_sector_tech <- get_data(all_data, "emissions/mappings/GCAM_sector_tech")
+
+    if (energy.TRAN_UCD_MODE == "rev.mode"){
+      GCAM_sector_tech <- get_data(all_data, "emissions/mappings/GCAM_sector_tech_Revised")
+
+    }
+
+
     L101.in_EJ_R_en_Si_F_Yh <- get_data(all_data, "L101.in_EJ_R_en_Si_F_Yh")
     L104.bcoc_tgej_USA_en_T_1990 <- get_data(all_data, "L104.bcoc_tgej_USA_en_T_1990")
     RCP_BC_2000 <- get_data(all_data, "emissions/RCP_BC_2000")
@@ -142,6 +161,7 @@ module_emissions_L114.bcoc_en_R_S_T_Y <- function(command, ...) {
       add_precursors("common/iso_GCAM_regID",
                      "emissions/mappings/EPA_ghg_tech",
                      "emissions/mappings/GCAM_sector_tech",
+                     "emissions/mappings/GCAM_sector_tech_Revised",
                      "L101.in_EJ_R_en_Si_F_Yh",
                      "L104.bcoc_tgej_USA_en_T_1990",
                      "emissions/RCP_BC_2000",
@@ -153,3 +173,4 @@ module_emissions_L114.bcoc_en_R_S_T_Y <- function(command, ...) {
     stop("Unknown command")
   }
 }
+# }

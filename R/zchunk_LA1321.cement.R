@@ -62,7 +62,7 @@ module_energy_LA1321.cement <- function(command, ...) {
     L102.CO2_Mt_R_F_Yh <- get_data(all_data, "L102.CO2_Mt_R_F_Yh")
     L123.in_EJ_R_elec_F_Yh <- get_data(all_data, "L123.in_EJ_R_elec_F_Yh")
     L123.out_EJ_R_elec_F_Yh <- get_data(all_data, "L123.out_EJ_R_elec_F_Yh")
-    L132.in_EJ_R_indenergy_F_Yh <- get_data(all_data, "L132.in_EJ_R_indenergy_F_Yh")
+    L132.in_EJ_R_indenergy_F_Yh <- get_data(all_data, "L132.in_EJ_R_indenergy_F_Yh", strip_attributes = TRUE)
 
     # ===================================================
     # 2. Perform computations
@@ -214,7 +214,11 @@ module_energy_LA1321.cement <- function(command, ...) {
       ungroup() ->
       L1321.IO_R_elec_Yh
 
-    # Set cap on IO coefficients for regions and years exceeding maximum value - NOTE: Not sure why we have this cap? Worth revisiting.
+    # Set cap on IO coefficients for regions and years exceeding maximum value
+    # Generation technologies with extremely low efficiency indicate that a significant portion of the power sector 
+    # in the given region/year is combined heat and power systems.
+    # Since we don't account for that here, we use this constant to set a reasonable limit on how much of the 
+    # total primary energy in IEA's estimate is electricity-related. (see issue #833)
     L1321.IO_R_elec_Yh$value[L1321.IO_R_elec_Yh$value > energy.MAX_IOELEC] <- energy.MAX_IOELEC
 
     # Build data frame including all above calculated values for cement production - intensity, fuel shares, energy for heat and electricity

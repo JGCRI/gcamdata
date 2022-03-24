@@ -186,14 +186,20 @@ set_traded_names <- function(data, GCAM_region_names, apply_selected_only = TRUE
 #' @return Modified tibble with 'numerical' values instead of text.
 #' @note The returned 'numerical' values are actually characters; this helper function doesn't touch column types.
 set_years <- function(data) {
+  ## silence package check.
+  . <- NULL
+
   assert_that(is_tibble(data))
+  year_recode <- c("start-year" =  min(MODEL_BASE_YEARS),
+                   "final-calibration-year" = max(MODEL_BASE_YEARS),
+                   "final-historical-year" = as.numeric(max(HISTORICAL_YEARS)),
+                   "initial-future-year" = min(MODEL_FUTURE_YEARS),
+                   "initial-nonhistorical-year" = min(MODEL_YEARS[MODEL_YEARS > max(HISTORICAL_YEARS)]),
+                   "end-year" = max(MODEL_FUTURE_YEARS))
   if(nrow(data)) {
-    data[data == "start-year"] <- min(MODEL_BASE_YEARS)
-    data[data == "final-calibration-year"] <- max(MODEL_BASE_YEARS)
-    data[data == "final-historical-year"] <- max(HISTORICAL_YEARS)
-    data[data == "initial-future-year"] <- min(MODEL_FUTURE_YEARS)
-    data[data == "initial-nonhistorical-year"] <- min(MODEL_YEARS[MODEL_YEARS > max(HISTORICAL_YEARS)])
-    data[data == "end-year"] <- max(MODEL_FUTURE_YEARS)
+    data %>%
+      dplyr::mutate_if(list(~ any(. %in% names(year_recode))), list(~ dplyr::recode(., !!!year_recode, .default=suppressWarnings(as.numeric(.))))) ->
+      data
   }
   data
 }
@@ -466,7 +472,7 @@ get_ssp_regions <- function(pcGDP, reg_names, income_group,
 #'     the column \code{technology}.  In other words for shadowing technologies the decay is
 #'     only applied to the difference in the values in the last year in which one was
 #'     specified. This is to allow for instance a Gas CC plant to have cost reductions at a
-#'     moderate pace but a Gas CC+CCS can have rapid cost reductions tothe CCS portion of
+#'     moderate pace but a Gas CC+CCS can have rapid cost reductions to the CCS portion of
 #'     the cost.
 #'
 #' @param d The wide format tibble with values under year columns that will be filled
@@ -505,29 +511,22 @@ fill_exp_decay_extrapolate <- function(d, out_years) {
   # values which are specified (approx_fun rule=1)
   d <- gather_years(d)
 
-  # We would like to replicate values for all years including those found in the
-  # data as well as requested in out_years with the exception of the year (which
-  # which is the column we are replicating on) and value which we would like to
-  # just fill the missing values with NA (which is what complete does)
-  # NOTE: the approach for programmatically selecting columns got completely
-  # overhauled in recent version of dplyr, and it seems to have affected the nesting
-  # function particularly. How to specify columns also seems inconsistent
-  # between the versions, and thus we fall back on checking versions and doing
-  # something different.
-  if(utils::packageVersion("dplyr") < "0.7") {
-    d %>%
-      complete(tidyr::nesting_(select(., -year, -value)), year = union(year, out_years)) ->
-      d
-  } else {
-    nesting_vars <- paste0('`', names(d)[!(names(d) %in% c("year", "value"))], '`')
-    d %>%
-      complete(tidyr::nesting_(nesting_vars), year = union(year, out_years)) ->
-      d
-  }
   d %>%
+    # We just need to "complete" the years to include all years in d and out_years.
+    # However, finding a way to programmatically select columns for use in nest/nesting
+    # that is compatible across versions of tidyr is impossible.
+    # Instead we replicate the underlying steps of complete: expand, then left_join
+    # so we can directly use the basic dplyr/tidyr functions which have more
+    # reliable column select behavior.
+    select(-year, -value) %>%
+    distinct() %>%
+    repeat_add_columns(tibble(year=c(unique(c(d$year, out_years))))) %>%
+    left_join(d, by=names(.)) %>%
     # for the purposes of interpolating (and later extrapolating) we would like
     # to just group by everything except year and value
-    dplyr::group_by_(.dots = paste0('`', names(.)[!(names(.) %in% c("year", "value"))], '`')) %>%
+    dplyr::group_by_at(dplyr::vars(-year, -value)) %>%
+    # we must also arrange for consistency with the old complete behavior
+    arrange(year, .by_group = TRUE) %>%
     # finally do the linearly interpolation between values which are specified
     mutate(value = approx_fun(year, value, rule = 1)) ->
     d
@@ -585,11 +584,11 @@ fill_exp_decay_extrapolate <- function(d, out_years) {
                              (1.0 - improvement.rate) ^ (year - year_base),
                            value)) %>%
     # drop the extra columns created for the shadow / exp decay calculation
-    dplyr::select_(.dots = paste0('`', names(d_nonshadowed), '`')) %>%
+    select(names(d_nonshadowed)) %>%
     ungroup() ->
     d_shadowed
 
-  # Pull all the data together and drop exptrapolation parameters.
+  # Pull all the data together and drop extrapolation parameters.
   bind_rows(ungroup(d_no_extrap), d_nonshadowed, d_shadowed) %>%
     select(-matches('improvement.')) %>%
     filter(year %in% out_years)
@@ -639,4 +638,53 @@ downscale_FAO_country <- function(data, country_name, dissolution_year, years = 
                      paste(data_ratio[["item"]], data_ratio[["element"]])), newyrs]
   data_new[newyrs][is.na(data_new[newyrs])] <- 0
   data_new
+}
+
+
+#' evaluate_smooth_res_curve
+#'
+#' Helper function to calculate the smooth renewable resource supply available at a particular price point from
+#' the relevant smooth renewable resource curve parameters (curve exponent, mid-price, maximum sub-resource).
+#' supply = ((p - base.price) ^ curve.exponent) / (mid.price ^ curve.exponent + ((p - base.price) ^ curve.exponent)) * maxSubResource
+#' Note that all of these can be vectors
+#' The functional form of GCAM's smooth renewable resource curve is documented at:
+#' http://jgcri.github.io/gcam-doc/energy.html#renewable-resources
+#' @param curve.exponent smooth renewable resource curve shape parameter, numeric
+#' @param mid.price the price at which 50 percent of the maximum available resource is produced, numeric
+#' @param base.price the minimum cost of producing (generating electricity from) the resource
+#' @param maxSubResource the maximum quantity of energy that could be produced at any price, numeric
+#' @param p price, numeric
+#' @return quantity of the resource supplied (i.e. quantity of electricity produced from said resource)
+evaluate_smooth_res_curve <- function(curve.exponent, mid.price, base.price, maxSubResource, p) {
+
+  supply <- ((p - base.price) ^ curve.exponent) / (mid.price ^ curve.exponent + ((p - base.price) ^ curve.exponent)) * maxSubResource
+  # zero out the supply where the price was less than the base.price
+  supply[p < base.price] <- 0
+  supply
+
+}
+
+
+#' smooth_res_curve_approx_error
+#'
+#' Helper function to check how well a set of smooth renewable curve parameters matches the supply-points
+#' from which the curve parameters are generated.
+#' In gcamdata, this function is used in combination with stats::optimize to minimize the error of the
+#' smooth renewable curve fit relative to the supply-points. Note that the first argument
+#' (curve.exponent) is the one that is changed by optimize when trying to minimize the error.
+#' The functional form of GCAM's smooth renewable resource curve is documented at:
+#' http://jgcri.github.io/gcam-doc/energy.html#renewable-resources
+#'
+#' @param curve.exponent smooth renewable resource curve shape parameter, numeric
+#' @param mid.price the price at which 50 percent of the maximum available resource is produced, numeric
+#' @param base.price the minimum cost of producing (generating electricity from) the resource
+#' @param maxSubResource the maximum quantity of energy that could be produced at any price, numeric
+#' @param supply_points a tibble of price and supply points along a resource curve in a region, numeric
+#' @return cross product of errors
+smooth_res_curve_approx_error <- function(curve.exponent, mid.price, base.price, maxSubResource, supply_points) {
+
+  f_p <- evaluate_smooth_res_curve(curve.exponent, mid.price, base.price, maxSubResource, supply_points$price)
+  error <- f_p - supply_points$supply
+  crossprod(error, error)
+
 }

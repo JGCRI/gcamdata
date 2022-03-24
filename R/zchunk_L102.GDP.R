@@ -164,7 +164,8 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
     gdp_mil90usd_rgn <- gdp_mil90usd_ctry %>%
       filter(year %in% HISTORICAL_YEARS) %>%
       group_by(GCAM_region_ID, year) %>%
-      summarise(gdp = sum(gdp))
+      summarise(gdp = sum(gdp)) %>%
+      ungroup()
     ## gdp_mil90usd_ctry:  iso, GCAM_region_ID, year, gdp
     ## gdp_mil90usd_rgn:  GCAM_region_ID, year, gdp
 
@@ -208,7 +209,8 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       mutate(gdp.rate = if_else(gdp.rate == 'n/a', '0', gdp.rate), # Treat string 'n/a' as missing.
              year = as.integer(year),
              gdp.rate = as.numeric(gdp.rate)) %>%
-      replace_na(list(year = 2010)) %>% # have to do this for `complete` to work as expected.
+      #kbn 2020-03-26 Updated below to the last year in the IMF_GDP_YEARS so that latest GDP growth rates are picked up
+      replace_na(list(year =  max(socioeconomics.IMF_GDP_YEARS))) %>% # have to do this for `complete` to work as expected.
       complete(iso, year) %>%
       replace_na(list(gdp.rate = 0.0))
 
@@ -217,16 +219,19 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       mutate(gdp.ratio = 1.0 + gdp.rate / 100.0) %>%
       arrange(year) %>% group_by(iso) %>%
       mutate(gdp = cumprod(gdp.ratio)) %>% # actually ratio of gdp to base-year
+      ungroup() %>%
       # gdp, but we're calling it "gdp" so
       # that join.gdp.ts() can work with it.
       select(iso, year, gdp)
 
+
+    gdp.mil90usd.imf.country.yr <-
     gdp_mil90usd_ctry %>%
       # filter gdp data so that it ends right at the first year of the IMF ratio data
       filter(year <= min(imfgdp.ratio$year), year >= min(HISTORICAL_YEARS)) %>%
       select(iso, year, gdp) %>%
-      join.gdp.ts(imfgdp.ratio, 'iso') ->
-      gdp.mil90usd.imf.country.yr
+      join.gdp.ts(imfgdp.ratio, 'iso')
+
     ## columns: iso, year, gdp
 
     ## Aggregate by GCAM region
@@ -234,6 +239,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       left_join_error_no_match(gdp.mil90usd.imf.country.yr, iso_region32_lookup, by = 'iso') %>%
       group_by(GCAM_region_ID, year) %>%
       summarise(gdp = sum(gdp)) %>%
+      ungroup() %>%
       filter(year %in% c(HISTORICAL_YEARS, FUTURE_YEARS))
     ## columns:  GCAM_region_ID, year, gdp
 
@@ -274,10 +280,11 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       mutate(pcgdp = gdp / population) %>%
       select(scenario, GCAM_region_ID, year, pcgdp)
 
-    ## Calculate the PPP-MER conversion factor in 2010 for each region.
+    ## Calculate the PPP-MER conversion factor in base year for each region.
     ## Our PPP values are in billions of 2005$, so we make that conversion
     ## here too.
-    PPP.MER.baseyr <- 2010
+    #kbn 2020-03-26 Using model final base year here below
+    PPP.MER.baseyr <- MODEL_FINAL_BASE_YEAR
     mer.rgn <- gdp_mil90usd_ctry %>%
       filter(year == PPP.MER.baseyr) %>%
       group_by(GCAM_region_ID) %>%

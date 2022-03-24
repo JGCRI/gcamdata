@@ -18,13 +18,25 @@
 #' @importFrom dplyr arrange bind_rows filter group_by left_join mutate right_join select summarise summarise_if
 #' @importFrom tidyr gather replace_na
 #' @author RC April 2018
-module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
+module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...)  {
+  if(driver.EMISSIONS_SOURCE == "CEDS") {
+    if(command == driver.DECLARE_INPUTS) {
+      return(NULL)
+    } else if(command == driver.DECLARE_OUTPUTS) {
+      return(NULL)
+    } else if(command == driver.MAKE) {
+      return_data()
+    } else {
+      stop("Unknown command")
+    }}
+  else {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "common/iso_GCAM_regID",
              FILE = "emissions/EDGAR/EDGAR_sector",
              FILE = "emissions/EDGAR/EDGAR_nation",
              FILE = "emissions/mappings/EPA_tech",
              FILE = "emissions/mappings/GCAM_sector_tech",
+             FILE = "emissions/mappings/GCAM_sector_tech_Revised",
              "L101.in_EJ_R_en_Si_F_Yh",
              "L101.so2_tgej_USA_en_Sepa_F_Yh",
              "L101.co_tgej_USA_en_Sepa_F_Yh",
@@ -56,6 +68,12 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
     EDGAR_nation <- get_data(all_data, "emissions/EDGAR/EDGAR_nation")
     EPA_tech <- get_data(all_data, "emissions/mappings/EPA_tech")
     GCAM_sector_tech <- get_data(all_data, "emissions/mappings/GCAM_sector_tech")
+
+    if (energy.TRAN_UCD_MODE == "rev.mode"){
+      GCAM_sector_tech <- get_data(all_data, "emissions/mappings/GCAM_sector_tech_Revised")
+
+    }
+
 
     L101.co_tgej_USA_en_Sepa_F_Yh  <- get_data(all_data, "L101.co_tgej_USA_en_Sepa_F_Yh")
     L101.so2_tgej_USA_en_Sepa_F_Yh <- get_data(all_data, "L101.so2_tgej_USA_en_Sepa_F_Yh")
@@ -239,6 +257,7 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
                      "emissions/EDGAR/EDGAR_nation",
                      "emissions/mappings/EPA_tech",
                      "emissions/mappings/GCAM_sector_tech",
+                     "emissions/mappings/GCAM_sector_tech_Revised",
                      "L101.in_EJ_R_en_Si_F_Yh",
                      "L101.so2_tgej_USA_en_Sepa_F_Yh",
                      "L101.co_tgej_USA_en_Sepa_F_Yh",
@@ -264,4 +283,5 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
   } else {
     stop("Unknown command")
   }
+}
 }
