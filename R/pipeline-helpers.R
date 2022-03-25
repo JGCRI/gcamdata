@@ -361,7 +361,7 @@ gather_years <- function(d, value_col = "value", year_pattern = YEAR_PATTERN, na
     stats::setNames(sub("value", value_col, names(.)))
 }
 
-#' fast_group_by
+#' fast_group_by_mutate
 #'
 #' A version of group_by that uses data.table instead of dplyr. Creates groups, runs a user specified function, ungroups and returns
 #' a processed tibble. Please use this function for grouping only numeric data.
@@ -387,17 +387,63 @@ gather_years <- function(d, value_col = "value", year_pattern = YEAR_PATTERN, na
 #' @importFrom dplyr %>%
 #' @author kbn 24 Mar 2020
 #' @export
-fast_group_by <- function(df, by, colname = "value", func = "sum"){
-
+fast_group_by_mutate <- function(df, by, colname = "value", func = "sum"){
 
   # Convert relevant column to numeric
-  df[, colname] <- as.numeric(df[, colname])
+  df[[colname]] <- as.numeric(df[[colname]])
 
   # Store as data.table
   df <- as.data.table(df)
 
   # Complete operations
   df <- df[, (colname) := (get(func)(get(colname))), by]
+
+  # Save back to tibble
+  df <- as_tibble(df)
+
+  return(df)
+}
+
+#' fast_group_by_summ
+#'
+#' A version of group_by that uses data.table instead of dplyr. Creates groups, runs a user specified function, ungroups and returns
+#' a processed tibble. Please use this function for grouping only numeric data.
+#'
+#' This group_by function that uses data.table offers a much higher speed
+#' especially when working with high volume datasets. This function can also be
+#' called within dplyr pipes. data.table will also inherently ensure consistency
+#' between LHS and RHS. The function will perform a combination of a group_by , summarise and ungroup.
+#'
+#' Example-
+#'
+#' A group_by with dplyr - grouped_data <- data -> group_by(iso,year,glu_code) -> summarise(value=sum(value)) -> ungroup()
+#'
+#' Same group_by with data.table - grouped_data <- fast_group_by(data, by=c("iso","year","glu_code"), colname = "value", func = "sum" )
+#'
+#' @param df The tibble on which the group_by is to be performed
+#' @param by A vector of strings with the criteria for the group_by.
+#' @param colname A string or vector of strings with the column name on which the grouping is to be performed
+#' @param func A string with the function to be performed. Default is set to "sum"
+#' @return A tibble with the aggregated data.
+#' @importFrom data.table as.data.table
+#' @importFrom tibble as_tibble
+#' @importFrom dplyr %>%
+#' @author rlh 25 Mar 2022
+#' @export
+fast_group_by_summ <- function(df, by, colname = "value", func = "sum"){
+
+  # Throw error if not numeric
+  if (!all(sapply(df[colname],class) %in% c("numeric", "integer"))){
+    stop("Trying to summarise non-numeric data")
+  }
+
+  # Store as data.table
+  df <- as.data.table(df)
+
+  # Complete operations
+  df <- df[, lapply(.SD, get(func)),
+                by,
+                .SDcols = colname]
 
   # Save back to tibble
   df <- as_tibble(df)
