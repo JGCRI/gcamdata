@@ -235,6 +235,7 @@ aglu.MAX_MGDFOR_FRAC  <- 1    # Maximum percentage of any region/GLUs forest tha
 # GDP constraints
 aglu.HIGH_GROWTH_PCGDP <- 12.275   # GDP per capita high threshold for SSP4 region groupings, thousand 2010$ per person
 aglu.LOW_GROWTH_PCGDP  <- 2.75     # GDP per capita low threshold for SSP4 region groupings, thousand 2010$ per person
+aglu.PCGDP_YEAR <- 2010            # Year to compare to PCGDP thresholds
 
 # AgLu mulitpliers
 aglu.MGMT_YIELD_ADJ <- 0.2       # Yield multiplier that goes from the observed yield to the "high" and "low" yields: observed plus or minus observed times this number.
