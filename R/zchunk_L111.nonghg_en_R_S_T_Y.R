@@ -17,8 +17,20 @@
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr arrange bind_rows filter group_by left_join mutate right_join select summarise summarise_if
 #' @importFrom tidyr gather replace_na
+#' @importFrom tibble tibble
 #' @author RC April 2018
-module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
+module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...)  {
+  if(driver.EMISSIONS_SOURCE == "CEDS") {
+    if(command == driver.DECLARE_INPUTS) {
+      return(NULL)
+    } else if(command == driver.DECLARE_OUTPUTS) {
+      return(NULL)
+    } else if(command == driver.MAKE) {
+      return_data()
+    } else {
+      stop("Unknown command")
+    }}
+  else {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "common/iso_GCAM_regID",
              FILE = "emissions/EDGAR/EDGAR_sector",
@@ -100,7 +112,7 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
       left_join(GCAM_sector_tech %>% select(sector, fuel, technology, EPA_agg_sector, EPA_agg_fuel) %>% unique,
                 by = c("sector", "fuel", "technology")) %>%
       # Duplicate value for all gases
-      repeat_add_columns(tibble::tibble(Non.CO2 = emissions.NONGHG_GASES)) %>%
+      repeat_add_columns(tibble(Non.CO2 = emissions.NONGHG_GASES)) %>%
       # Match in emissions factors
       left_join(L111.nonghg_tgej_USA_en_Sepa_F_Yh, by = c("Non.CO2", "EPA_agg_sector" = "sector", "EPA_agg_fuel" = "fuel", "year")) %>%
       # Compute unscaled emissions
@@ -272,4 +284,5 @@ module_emissions_L111.nonghg_en_R_S_T_Y <- function(command, ...) {
   } else {
     stop("Unknown command")
   }
+}
 }

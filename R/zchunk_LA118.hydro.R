@@ -38,7 +38,7 @@ module_energy_LA118.hydro <- function(command, ...) {
     # without the proprietary IEA data files). If this is the case, we substitute a
     # pre-built output dataset and exit.
     if(is.null(L100.IEA_en_bal_ctry_hist)) {
-      L118.out_EJ_R_elec_hydro_Yfut <- prebuilt_data("L118.out_EJ_R_elec_hydro_Yfut")
+      L118.out_EJ_R_elec_hydro_Yfut <- extract_prebuilt_data("L118.out_EJ_R_elec_hydro_Yfut")
     } else {
       L100.IEA_en_bal_ctry_hist %>%
         gather_years ->

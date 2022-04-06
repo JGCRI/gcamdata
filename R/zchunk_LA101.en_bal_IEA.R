@@ -13,7 +13,7 @@
 #' @details Assign IEA product and flow data to nomenclature used in GCAM (fuel and sector, respectively), summarizing
 #' by (generally) iso and/or region, sector, fuel, and year.
 #' @importFrom assertthat assert_that
-#' @importFrom dplyr bind_rows distinct filter funs if_else group_by left_join matches mutate select summarise summarise_all
+#' @importFrom dplyr bind_rows distinct filter if_else group_by left_join matches mutate select summarise summarise_all
 #' @importFrom tidyr replace_na
 #' @author FF and BBL July 2017
 module_energy_LA101.en_bal_IEA <- function(command, ...) {
@@ -52,10 +52,10 @@ module_energy_LA101.en_bal_IEA <- function(command, ...) {
     # pre-built output datasets and exit.
     if(is.null(L100.IEA_en_bal_ctry_hist)) {
       # Proprietary IEA energy data are not available, so used saved outputs
-      L101.en_bal_EJ_R_Si_Fi_Yh_full <- prebuilt_data("L101.en_bal_EJ_R_Si_Fi_Yh_full")
-      L101.en_bal_EJ_ctry_Si_Fi_Yh_full <- prebuilt_data("L101.en_bal_EJ_ctry_Si_Fi_Yh_full")
-      L101.in_EJ_ctry_trn_Fi_Yh <- prebuilt_data("L101.in_EJ_ctry_trn_Fi_Yh")
-      L101.in_EJ_ctry_bld_Fi_Yh <- prebuilt_data("L101.in_EJ_ctry_bld_Fi_Yh")
+      L101.en_bal_EJ_R_Si_Fi_Yh_full <- extract_prebuilt_data("L101.en_bal_EJ_R_Si_Fi_Yh_full")
+      L101.en_bal_EJ_ctry_Si_Fi_Yh_full <- extract_prebuilt_data("L101.en_bal_EJ_ctry_Si_Fi_Yh_full")
+      L101.in_EJ_ctry_trn_Fi_Yh <- extract_prebuilt_data("L101.in_EJ_ctry_trn_Fi_Yh")
+      L101.in_EJ_ctry_bld_Fi_Yh <- extract_prebuilt_data("L101.in_EJ_ctry_bld_Fi_Yh")
     } else {
 
       # Add IEA data to main tibble (lines 35-46 in original file)
@@ -118,7 +118,7 @@ module_energy_LA101.en_bal_IEA <- function(command, ...) {
         # note it's critical that 'conversion' is _last_ in this select, because summarise_all below will operate on it too!
         select(GCAM_region_ID, sector, fuel, matches(YEAR_PATTERN), conversion) %>%
         group_by(GCAM_region_ID, sector, fuel) %>%
-        summarise_all(funs(sum(. * conversion))) %>%
+        summarise_all(list(~ sum(. * conversion))) %>%
         select(-conversion) %>%
         # at this point dataset is much smaller; go to long form
         gather_years ->
@@ -170,7 +170,7 @@ module_energy_LA101.en_bal_IEA <- function(command, ...) {
         # note it's critical that 'conversion' is _last_ in this select, because summarise_all below will operate on it too!
         select(iso, sector, fuel, matches(YEAR_PATTERN), conversion) %>%
         group_by(iso, sector, fuel) %>%
-        summarise_all(funs(sum(. * conversion))) %>%
+        summarise_all(list(~ sum(. * conversion))) %>%
         ungroup %>%
         select(-conversion) %>%
         # at this point dataset is much smaller; go to long form
@@ -189,7 +189,7 @@ module_energy_LA101.en_bal_IEA <- function(command, ...) {
         # note it's critical that 'conversion' is _last_ in this select, because summarise_all below will operate on it too!
         select(iso, sector, fuel, matches(YEAR_PATTERN), conversion) %>%
         group_by(iso, sector, fuel) %>%
-        summarise_all(funs(sum(. * conversion))) %>%
+        summarise_all(list(~ sum(. * conversion))) %>%
         ungroup %>%
         select(-conversion) %>%
         # at this point dataset is much smaller; go to long form
@@ -203,7 +203,7 @@ module_energy_LA101.en_bal_IEA <- function(command, ...) {
         # note it's critical that 'conversion' is _last_ in this select, because summarise_all below will operate on it too!
         select(iso, GCAM_region_ID, sector, fuel, matches(YEAR_PATTERN), conversion) %>%
         group_by(iso, GCAM_region_ID, sector, fuel) %>%
-        summarise_all(funs(sum(. * conversion))) %>%
+        summarise_all(list(~ sum(. * conversion))) %>%
         ungroup %>%
         select(-conversion) %>%
         # at this point dataset is much smaller; go to long form
