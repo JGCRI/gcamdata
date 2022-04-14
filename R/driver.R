@@ -541,7 +541,7 @@ driver_drake <- function(
     #                             paste0(stringr::str_extract(input, ".+(?=.xml)"),
     #                                    data.USER_MOD_POSTFIX, ".xml"),
     #                             paste0(input, data.USER_MOD_POSTFIX)))
-    xml_dependents <- lapply(modify_table$input, dstrace, direction = "downstream") %>%
+    xml_dependents <- lapply(modify_table$input, dstrace, direction = "downstream", print = FALSE) %>%
       bind_rows() %>%
       filter(stringr::str_detect(object_name, ".xml"))
     # adjust chunkinputs so chunks that require as input any object that is
