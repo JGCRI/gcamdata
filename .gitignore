@@ -8,6 +8,10 @@
 # Drake files
 .drake/
 
+# targets files
+_targets/
+_targets*
+
 # Files produced by data system
 outputs/
 xml/
