@@ -65,7 +65,6 @@ driver.EMISSIONS_SOURCE <- "CEDS"
 data.SEPARATOR <- "; "
 data.PRECURSOR <- "Precursor"
 data.DEPENDENT <- "Dependent"
-data.USER_MOD_POSTFIX <- "__0"
 
 
 # Modeltime constants ======================================================================
