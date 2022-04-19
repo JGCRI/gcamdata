@@ -319,14 +319,14 @@ is_data_list <- function(data_list) {
 }
 
 
-#' prebuilt_data
+#' extract_prebuilt_data
 #'
 #' Extract a prebuilt data object from the PREBUILT_DATA store.
 #'
 #' @param object_name The name of the desired object, character
 #' @param pb \code{PREBUILT_DATA} object; overridden only for testing
 #' @return The data object (a tibble).
-prebuilt_data <- function(object_name, pb = NULL) {
+extract_prebuilt_data <- function(object_name, pb = NULL) {
   if(is.null(pb)) {
     pb <- PREBUILT_DATA
   }

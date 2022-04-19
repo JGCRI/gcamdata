@@ -18,6 +18,7 @@
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr arrange bind_rows filter group_by left_join mutate select summarise summarise_all summarise_at vars
 #' @importFrom tidyr gather replace_na spread
+#' @importFrom tibble tibble
 #' @author RMH May 2017
 module_emissions_L125.bcoc_unmgd_R_S_T_Y <- function(command, ...) {
   if(driver.EMISSIONS_SOURCE == "CEDS") {
@@ -129,7 +130,7 @@ module_emissions_L125.bcoc_unmgd_R_S_T_Y <- function(command, ...) {
       filter(year == 2000) %>%
       group_by(GCAM_region_ID, Land_Type, year) %>%
       summarise_at(vars(value), sum) %>% # aggregate grassland land area by regions/land type
-      repeat_add_columns(tibble::tibble(Non.CO2 = unique(L125.RCP$Non.CO2))) %>% # repeat for both BC and OC
+      repeat_add_columns(tibble(Non.CO2 = unique(L125.RCP$Non.CO2))) %>% # repeat for both BC and OC
       left_join_error_no_match(L125.RCP %>% select(-lcf), by = c("GCAM_region_ID", "Non.CO2")) %>% # add emissions to land region area
       mutate(em_factor = sav / value) %>% # calculate emission factor (emissions/area)
       select(GCAM_region_ID, Land_Type, Non.CO2, em_factor) %>%
@@ -166,7 +167,7 @@ module_emissions_L125.bcoc_unmgd_R_S_T_Y <- function(command, ...) {
     L125.bcoc_tgbkm2_R_forest_2000_calculations <-
       left_join_error_no_match(L125.bcoc_tgbkm2_R_forestfire_2000, L125.bcoc_tgbkm2_R_defor_2000,
                                by = c("GCAM_region_ID", "Land_Type")) %>% # combine FF and Deforestation drivers
-      repeat_add_columns(tibble::tibble(Non.CO2 = unique(L125.RCP$Non.CO2))) %>% # repeat for both BC and OC
+      repeat_add_columns(tibble(Non.CO2 = unique(L125.RCP$Non.CO2))) %>% # repeat for both BC and OC
       left_join_error_no_match(L125.RCP %>% select(-sav), by = c("GCAM_region_ID", "Non.CO2")) %>% # add emissions to land regions
       left_join(L125.GFED_ALL %>% select(-Deforest, -ForestFire), by = c("GCAM_region_ID", "Non.CO2")) %>%
       mutate(ForestFireEmiss = lcf * PctForestFire, # calc forest fire emissions (RCP emissions x GFED ratios)

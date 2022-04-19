@@ -115,7 +115,7 @@ module_emissions_L102.nonco2_ceds_R_S_Y <- function(command, ...) {
         CEDS_N2O$Non.CO2 <- "N2O"
         # Prepare unmanaged forest emissions from CMIP to be combined with CEDS data set
         CMIP_unmgd_emissions %>%
-          filter(iso %notin% c(emissions.GFED_NODATA)) %>%
+          filter(!iso %in% c(emissions.GFED_NODATA)) %>%
           distinct() %>%
           left_join(CMIP_sector_map, by = c("sector" = "LULUC_sector_abr")) %>%
           na.omit() %>%
@@ -210,7 +210,7 @@ module_emissions_L102.nonco2_ceds_R_S_Y <- function(command, ...) {
       }
       else {
         # raw CEDS datasets not available, so we will use the prebuilt version
-        L102.ceds_GFED_nonco2_tg_R_S_F <- prebuilt_data("L102.ceds_GFED_nonco2_tg_R_S_F")
+        L102.ceds_GFED_nonco2_tg_R_S_F <- extract_prebuilt_data("L102.ceds_GFED_nonco2_tg_R_S_F")
       }
 
       return_data(L102.ceds_GFED_nonco2_tg_R_S_F)
