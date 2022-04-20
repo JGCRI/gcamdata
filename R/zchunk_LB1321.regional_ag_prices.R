@@ -234,8 +234,8 @@ module_aglu_LB1321.regional_ag_prices <- function(command, ...) {
       mutate(prPmult = prP / avg_prP_C,
              production_wt_prPmult = prPmult * production) %>%
       group_by(GCAM_region_ID) %>%
-      summarise(production_wt_prPmult = sum(production_wt_prPmult, na.rm=T),
-                production = sum(production, na.rm=T)) %>%
+      summarise(production_wt_prPmult = sum(production_wt_prPmult),
+                production = sum(production)) %>%
       mutate(prPmult_R = production_wt_prPmult / production) %>%
       select(GCAM_region_ID, prPmult_R)
 
