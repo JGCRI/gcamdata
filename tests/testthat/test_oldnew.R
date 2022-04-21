@@ -79,8 +79,6 @@ test_that("matches old data system output", {
         next
       }
 
-      flag_sum_test <- grepl(FLAG_SUM_TEST, new_firstline)
-
       newdata <- read_csv(newf, comment = COMMENT_CHAR)
       oldf <- sub('.csv$', '', basename(newf))
       # get the comparison data which is coming from the gcamdata.compdata package
@@ -116,27 +114,18 @@ test_that("matches old data system output", {
       }
 
       expect_identical(dim(olddata), dim(newdata), info = paste("Dimensions are not the same for", basename(newf)))
-      # Some datasets throw errors when tested via `expect_equivalent` because of
-      # rounding issues, even when we verify that they're identical to three s.d.
-      # I think this is because of differences between readr::write_csv and write.csv
-      # To work around this, we allow chunks to tag datasets with FLAG_SUM_TEST,
-      # which is less strict, just comparing the sum of all numeric data
-      if(flag_sum_test) {
-        numeric_columns_old <- sapply(olddata, is.numeric)
-        numeric_columns_new <- sapply(newdata, is.numeric)
-        expect_equivalent(sum(olddata[numeric_columns_old]), sum(newdata[numeric_columns_new]),
-                          info = paste(basename(newf), "doesn't match (sum test)"))
-      } else {
-          if(isTRUE(all.equal(olddata, newdata, tolerance = 0.02))){
-            expect_true(TRUE)
-          }
-          else if(isTRUE(all.equal(data.table(distinct(olddata)), data.table(distinct(newdata)), ignore.row.order = TRUE, ignore.col.order = TRUE, tolerance = 0.02))){
-            expect_true(TRUE)
-          }
-          else{
-            expect_true(dplyr::all_equal(round_df(olddata), round_df(newdata)))
-          }
+
+
+      if(isTRUE(all.equal(olddata, newdata, tolerance = 0.02))){
+        expect_true(TRUE)
       }
+      else if(isTRUE(all.equal(data.table(distinct(olddata)), data.table(distinct(newdata)), ignore.row.order = TRUE, ignore.col.order = TRUE, tolerance = 0.02))){
+        expect_true(TRUE)
+      }
+      else{
+        expect_true(dplyr::all_equal(round_df(olddata), round_df(newdata)))
+      }
+
     }
   }
 })
