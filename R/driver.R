@@ -607,10 +607,24 @@ driver_drake <- function(
     summarise(command = unique(command)) %>%
     ungroup()
 
+  # Create separate plan for constants
+  # Doing this allows us to build constants first
+  # If it is part of gcamdata_plan, it will be the last to build, so if there are any errors,
+  # everything will get re-written, which is unnecessary
+  constants_plan <- tibble(target = "constants", command = "file_in('R/constants.R')")
+  # Still bind to gcamdata_plan so that the first time drake is used, constants will be cached
+  gcamdata_plan <- bind_rows(constants_plan, gcamdata_plan)
+
   # Have drake figure out what needs to be done and do it!
   # Any additional arguments given are passed directly on to make
  if(!return_plan_only){
-   drake::make(gcamdata_plan, ...)
+   # Clean if the cache exists and constants is out of date
+   if (!is.null(drake::find_cache()) & length(drake::outdated(constants_plan, do_prework = F) > 0)){
+     if(!quiet) message("NOTE: constants.R has been changed, all cached data will be removed and the data system will be re-run")
+      drake::clean()
+      drake::make(constants_plan, ...)
+   }
+     drake::make(gcamdata_plan, ...)
  }
 
   if(return_data_map_only) {
