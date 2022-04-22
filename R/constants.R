@@ -597,6 +597,8 @@ emissions.MODEL_BASE_YEARS        <- MODEL_BASE_YEARS
 emissions.NH3_EXTRA_YEARS         <- 1971:1989
 emissions.NH3_HISTORICAL_YEARS    <- 1990:2002
 emissions.SSP_FUTURE_YEARS        <- MODEL_YEARS[MODEL_YEARS %in% 2015:2100]
+emissions.HFC_FUT_YEAR            <- 2030            # max year for emissions factors in L241.fgas
+emissions.GV_YEARS                <- c(2020, 2030)   # years to fill in from Guus Velders data
 
 # Other emissions constants
 emissions.CONV_C_CO2    <- 44 / 12 # Convert Carbon to CO2
