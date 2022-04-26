@@ -20,6 +20,7 @@
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr bind_rows filter group_by left_join mutate select summarise
 #' @importFrom tidyr replace_na
+#' @importFrom tibble tibble
 #' @author CH July 2017
 module_emissions_L113.ghg_an_R_S_T_Y <- function(command, ...) {
   if(driver.EMISSIONS_SOURCE == "CEDS") {
@@ -79,7 +80,7 @@ module_emissions_L113.ghg_an_R_S_T_Y <- function(command, ...) {
       rename(production = value) %>%
       left_join(GCAM_sector_tech, by = c("GCAM_commodity" = "sector", "system" = "fuel", "feed" = "technology")) %>%
       select(GCAM_region_ID, GCAM_commodity, system, feed, year, production, EPA_agg_sector, EDGAR_agg_sector) %>%
-      repeat_add_columns(tibble::tibble(Non.CO2 = c("N2O_AGR", "CH4_AGR"))) %>%  # Add Gas Name and AGR for agriculture
+      repeat_add_columns(tibble(Non.CO2 = c("N2O_AGR", "CH4_AGR"))) %>%  # Add Gas Name and AGR for agriculture
       # match in emissions factors, using left_join and dropping fuel column
       left_join(L103.ghg_tgmt_USA_an_Sepa_F_2005, by = c("EPA_agg_sector" = "sector")) %>%
       mutate(epa_emissions = production * ch4_em_factor) %>%  # compute unscaled emissions
