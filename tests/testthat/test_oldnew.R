@@ -127,11 +127,12 @@ test_that("matches old data system output", {
       else if(isTRUE(dplyr::all_equal(round_df(olddata), round_df(newdata)))){
         expect_true(TRUE)
       } else {
-        changed_outputs <- c(changed_outputs, newf)
+        changed_outputs <- c(changed_outputs, oldf)
       }
 
     }
     if (length(changed_outputs > 0)){
+      print("The following outputs have changed:")
       print(changed_outputs)
       expect_true(FALSE)
     }
