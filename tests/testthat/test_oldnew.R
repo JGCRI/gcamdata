@@ -65,6 +65,8 @@ test_that("matches old data system output", {
     # so we will skip this test
     skip("gcamdata.compdata package not available")
   } else {
+    # Create a list of changed outputs
+    changed_outputs <- c()
     # For each file in OUTPUTS_DIR, look for corresponding file in our
     # comparison data. Load them, reshape new data if necessary, compare.
     for(newf in list.files(outputs_dir, full.names = TRUE)) {
@@ -122,10 +124,16 @@ test_that("matches old data system output", {
       else if(isTRUE(all.equal(data.table(distinct(olddata)), data.table(distinct(newdata)), ignore.row.order = TRUE, ignore.col.order = TRUE, tolerance = 0.02))){
         expect_true(TRUE)
       }
-      else{
-        expect_true(dplyr::all_equal(round_df(olddata), round_df(newdata)))
+      else if(isTRUE(dplyr::all_equal(round_df(olddata), round_df(newdata)))){
+        expect_true(TRUE)
+      } else {
+        changed_outputs <- c(changed_outputs, newf)
       }
 
+    }
+    if (length(changed_outputs > 0)){
+      print(changed_outputs)
+      expect_true(FALSE)
     }
   }
 })
