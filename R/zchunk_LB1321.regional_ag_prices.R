@@ -149,13 +149,17 @@ module_aglu_LB1321.regional_ag_prices <- function(command, ...) {
 
     L1321.prod_kt_ctry_CttnLnt <- filter(L1321.ag_prod_kt_ctry_item, item == "Seed cotton") %>%
       mutate(item = "Cotton lint",
+             item.code = (FAO_ag_items_TRADE %>% filter(pp_commod == 'Cotton lint'))$item.code,
              production = production * aglu.WEIGHT_COTTON_LINT)
+
     L1321.prod_kt_ctry_CttnSd <- filter(L1321.ag_prod_kt_ctry_item, item == "Seed cotton") %>%
       mutate(item = "Cottonseed",
+             item.code = (FAO_ag_items_TRADE %>% filter(pp_commod == 'Cottonseed'))$item.code,
              production = production * (1 - aglu.WEIGHT_COTTON_LINT))
+
     L1321.ag_prod_kt_ctry_item <- bind_rows(filter(L1321.ag_prod_kt_ctry_item, item != "Seed cotton"),
-                                         L1321.prod_kt_ctry_CttnLnt,
-                                         L1321.prod_kt_ctry_CttnSd)
+                                            L1321.prod_kt_ctry_CttnLnt,
+                                            L1321.prod_kt_ctry_CttnSd)
 
     L1321.an_prod_kt_ctry_item <- FAO_an_Prod_t_PRODSTAT %>%
       gather_years() %>%
