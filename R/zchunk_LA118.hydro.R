@@ -97,13 +97,16 @@ module_energy_LA118.hydro <- function(command, ...) {
         select(iso, Economic_EJ) -> # Stripping down unneeded information from table
         Hydropower_potential
 
-      # Calculate the growth potential by country, which is the economic potential minus the actual generation in the most recent historical year (from the IEA balances)
+      # Calculate the growth potential by country, which is the economic potential minus
+      # the actual generation in the most recent historical year (from the IEA balances)
       L100.IEA_en_bal_ctry_hist %>%
         left_join(rename(IEA_product_fuel, PRODUCT = product), by = "PRODUCT") %>%
         filter(FLOW == "ELOUTPUT", fuel == "elec_hydro", year %in% HYDRO_HIST_YEARS) %>%
         mutate(value_base = value * CONV_GWH_EJ) %>%
         left_join_error_no_match(iso_GCAM_regID, by = "iso") %>%
-        select(iso, region_GCAM3, year, value_base) ->
+        group_by(iso, region_GCAM3, year) %>%
+        summarise(value_base = sum(value_base)) %>%
+        ungroup()->
         L118.out_EJ_ctry_elec_hydro_fby
 
       # Aggregate by region
@@ -170,6 +173,7 @@ module_energy_LA118.hydro <- function(command, ...) {
       Hydropower_potential %>%
         group_by(region_GCAM3) %>%
         summarise(Growth_potential_EJ_sum = sum(Growth_potential_EJ)) %>%
+        ungroup() %>%
         filter(!is.na(region_GCAM3)) -> # Getting rid of the NA caused by Kosova not having a RG3 name
         Hydropower_potential_RG3 # Represents total pie of each country
 
