@@ -13,6 +13,7 @@ driver_drake(
   return_data_map_only = FALSE,
   return_plan_only = FALSE,
   write_xml = !return_data_map_only,
+  write_csv = FALSE,
   xmldir = XML_DIR,
   quiet = FALSE,
   ...
@@ -37,6 +38,8 @@ the other \code{return_*} parameters above}
 \item{return_plan_only}{Return only the drake plan (logical)}
 
 \item{write_xml}{Write XML Batch chunk outputs to disk?}
+
+\item{write_csv}{Write csv files to outputs folder?}
 
 \item{xmldir}{Location to write output XML (ignored if \code{write_outputs} is \code{FALSE})}
 

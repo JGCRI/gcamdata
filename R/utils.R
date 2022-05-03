@@ -623,3 +623,38 @@ create_datamap_from_cache <- function(gcamdata_plan, ...) {
     # convert drake names back to data system names
     mutate(output = if_else(name == "INPUT", gsub('\\.', '/', output), output))
 }
+
+#' write_csv_from_cache
+#'
+#' Loads a target from the drake cache and writes it as a csv to the outputs folder
+#'
+#' @param output The name of the output to load and write
+#' @param dir Cache directory (.drake folder)
+#' @param target List of all objects in cache
+#' @param quiet Print messages?
+#' @importFrom drake find_cache readd
+write_csv_from_cache <- function(output, dir = NULL, target_list = NULL, quiet = F){
+
+  if (is.null(dir)){
+    # Get drake cache directory
+    dir <- find_cache()
+  }
+
+  # Try to load data, if not able to inform user and quit
+  tryCatch({
+    data <- readd(output, path = dir, character_only = TRUE)
+  }, error = function(e) {
+    if(!quiet) message("Output cannot be loaded")
+    return()
+  }
+  )
+
+  # If data has no flags or if the flags do not indicate an XML or input CSV, write the output
+  if(is.null(attr(data[[1]], "flags")) || !attr(data[[1]], "flags") %in% c("FLAG_INPUT_DATA", "FLAG_XML")){
+    save_chunkdata(data)
+  }
+  # If XML or input CSV flags, do not write the output
+  else {
+    if(!quiet) message("Output has flag: ", attr(data[[1]], "flags"), ". Cannot write output")
+  }
+}
