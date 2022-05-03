@@ -612,17 +612,39 @@ driver_drake <- function(
   # If it is part of gcamdata_plan, it will be the last to build, so if there are any errors,
   # everything will get re-written, which is unnecessary
   constants_plan <- tibble(target = "constants", command = "file_in('R/constants.R')")
+
+  # Separate plan for prebuilt_data -- we will track each name and clear the cache for it's chunk if
+  # there are any changes
+  prebuilt_data_plan <- tibble(target = names(PREBUILT_DATA)) %>%
+    mutate(command = paste0("gcamdata::PREBUILT_DATA[['", target, "']]"),
+           target = paste0("PREBUILT_", target))
   # Still bind to gcamdata_plan so that the first time drake is used, constants will be cached
-  gcamdata_plan <- bind_rows(constants_plan, gcamdata_plan)
+  gcamdata_plan <- bind_rows(constants_plan, prebuilt_data_plan, gcamdata_plan)
 
   # Have drake figure out what needs to be done and do it!
   # Any additional arguments given are passed directly on to make
  if(!return_plan_only){
    # Clean if the cache exists and constants is out of date
-   if (!is.null(drake::find_cache()) & length(drake::outdated(constants_plan, do_prework = F) > 0)){
+   if (!is.null(drake::find_cache()) & length(drake::outdated(constants_plan, do_prework = F)) > 0){
      if(!quiet) message("NOTE: constants.R has been changed, all cached data will be removed and the data system will be re-run")
       drake::clean()
+      # Make here in case there is an error making gcamdata_plan, in which case, constants might not
+      # have been made yet, and then we'd clear the cache unnecessarily
       drake::make(constants_plan, ...)
+   } else if (!is.null(drake::find_cache()) & length(drake::outdated(prebuilt_data_plan, do_prework = F)) > 0){
+     # Clean specific chunks if the cache exists and prebuilt_data is out of date
+     if(!quiet) message("NOTE: PREBUILT_DATA has been changed, the relevant cached data will be removed")
+     for (nm in drake::outdated(prebuilt_data_plan, do_prework = F)){
+        nm_fix <- stringr::str_remove(nm, "PREBUILT_")
+        chunk_to_clear <- filter(gcamdata_plan, target == nm_fix)$command
+        chunk_to_clear <- stringr::str_extract(chunk_to_clear, "^.+(?=\\[)")
+      if (length(chunk_to_clear) == 1){
+        drake::clean(chunk_to_clear)
+      }
+     }
+     # Make here in case there is an error making gcamdata_plan, in which case, the prebuilt data might not
+     # have been made yet, and then we'd clear the cache unnecessarily
+     drake::make(prebuilt_data_plan, ...)
    }
      drake::make(gcamdata_plan, ...)
  }
