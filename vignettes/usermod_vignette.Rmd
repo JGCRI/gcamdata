@@ -72,7 +72,7 @@ Because we used the constant `NEW.SHWT` to assign the new value in our function,
 NEW.SHWT <- 0.5
 
 driver_drake(user_modifications = c("usermod_fert"),
-        user_suffix = "__1") # output xml will be saved as ORIGINALNAME_001.xml
+        xml_suffix = "__1") # output xml will be saved as ORIGINALNAME_001.xml
 ```
 
 
@@ -89,6 +89,6 @@ for (i in 1:length(shareweights)){
   NEW.SHWT <- shareweights[i]
   
   driver(user_modifications = c("usermod_fert"),
-               user_suffix = paste0("__", i))
+               xml_suffix = paste0("__", i))
 }
 ```

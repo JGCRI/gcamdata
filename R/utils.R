@@ -327,7 +327,7 @@ save_chunkdata <- function(chunkdata, write_inputs = FALSE, create_dirs = FALSE,
     if(FLAG_XML %in% get_flags(cd)) {
       if(write_xml) {
         # TODO: worry about absolute paths?
-        cd$xml_file <- file.path(xml_dir, cd$xml_file)
+        cd <- set_xml_file_helper(cd, file.path(xml_dir, cd$xml_file))
         run_xml_conversion(cd)
       }
     } else if(write_outputs) {
