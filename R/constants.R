@@ -16,7 +16,6 @@ DISABLED_MODULES         <- "NONE"
 FLAG_INPUT_DATA      <- "FLAG_INPUT_DATA"       # input data, don't output
 FLAG_NO_OUTPUT       <- "FLAG_NO_OUTPUT"        # don't output
 FLAG_NO_TEST         <- "FLAG_NO_TEST"          # don't test
-FLAG_SUM_TEST        <- "FLAG_SUM_TEST"         # use less-restrictive sum test
 FLAG_XML             <- "FLAG_XML"              # xml data
 
 
@@ -189,6 +188,8 @@ aglu.SSP_DEMAND_YEARS       <- seq(2015, 2100, 5) # food demand in the SSPs is c
 aglu.TRADE_CAL_YEARS        <- 2008:2012 # Years used for calculating base year gross trade. Should ideally include the final base year, but note that the trade data starts in 1986.
 aglu.TRADE_FINAL_BASE_YEAR  <- max(MODEL_BASE_YEARS) # The base year to which gross trade volumes are assigned. Should be within the aglu.TRADE_CAL_YEARS and equal to the final model calibration year
 aglu.FALLOW_YEARS           <- 2008:2012 # Years used for calculating the % of fallow land
+aglu.BIO_YEAR_FILLOUT       <- 2025 # year.fillout for L243.bio_trade_input
+
 aglu.TRADED_CROPS           <- c("Corn", "FiberCrop", "MiscCrop", "OilCrop", "OtherGrain", "PalmFruit", "Rice", "RootTuber", "SugarCrop", "Wheat")
 aglu.TRADED_MEATS           <- c("Beef", "Dairy", "Pork", "Poultry", "SheepGoat")
 aglu.TRADED_AG_AN           <- c(aglu.TRADED_CROPS, aglu.TRADED_MEATS)
@@ -598,6 +599,8 @@ emissions.MODEL_BASE_YEARS        <- MODEL_BASE_YEARS
 emissions.NH3_EXTRA_YEARS         <- 1971:1989
 emissions.NH3_HISTORICAL_YEARS    <- 1990:2002
 emissions.SSP_FUTURE_YEARS        <- MODEL_YEARS[MODEL_YEARS %in% 2015:2100]
+emissions.HFC_FUT_YEAR            <- 2030            # max year for emissions factors in L241.fgas
+emissions.GV_YEARS                <- c(2020, 2030)   # years to fill in from Guus Velders data
 
 # Other emissions constants
 emissions.CONV_C_CO2    <- 44 / 12 # Convert Carbon to CO2
@@ -633,6 +636,13 @@ emissions.DIGITS_EMISS_COEF    <- 7
 emissions.DIGITS_EMISSIONS     <- 10
 emissions.DIGITS_MACC          <- 3
 
+# Parameters for the urban processing sector
+emissions.URBAN_PROCESS_PERCAPITABASED <- 1 # service as function of population?
+emissions.URBAN_PROCESS_INCOME_ELASTICITY <- 0
+emissions.URBAN_PROCESS_BASE_SERVICE <- 0.004 # base service (per capita)
+emissions.URBAN_PROCESS_AEEI <- 0 # No energy efficiency improvements
+# Calibrated value for misc emissions from industrial and urban processes
+emissions.INDURB_PROCESS_MISCEMISSIONS_CALVAL <- 0.001
 
 # GCAM-USA constants ======================================================================
 
