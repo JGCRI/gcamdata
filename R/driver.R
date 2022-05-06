@@ -460,7 +460,7 @@ driver_drake <- function(
   xmldir = XML_DIR,
   quiet = FALSE,
   user_modifications = NULL,
-  user_suffix = "__0",
+  user_suffix = data.USER_MOD_POSTFIX,
   ...){
 
 
@@ -510,11 +510,6 @@ driver_drake <- function(
   # check if any user chunks are set in which case we need to adjust the
   # chunklist/chunkinputs/chunkoutputs to shim the user chunk in place
   if(!is.null(user_modifications)) {
-    # first, ensure that user_suffix is not in any of the standard input/outputs
-    if (any(stringr::str_detect(c(chunkinputs$input, chunkoutputs$output, chunklist$name), user_suffix))){
-      stop("user_suffix is in the name of an expected input/output/chunk, please change it to a unique string")
-    }
-
     # a user modification chunk uses a special command: driver.DECLARE_MODIFY
     # to indicate which ds "objects" it wants to modify
     # that chunk will then require those objects as inputs AND produce those
@@ -524,13 +519,12 @@ driver_drake <- function(
 
     # in order to shim the user modification in we adjust all chunk_inputs
     # for any object to be modified to input the object with the constant
-    # user_suffix appended to the end instead
+    # data.USER_MOD_POSTFIX appended to the end instead
     # and the user chunk will input the original object and output the appended
     # data name
 
     # Set data.USER_MOD_POSTFIX for use in get_data()
     data.USER_MOD_POSTFIX <<- user_suffix
-
     # first get a list of all objects that are to be modified
     lapply(user_modifications, chunk_inputs, driver.DECLARE_MODIFY) %>%
       bind_rows() %>%
@@ -538,20 +532,24 @@ driver_drake <- function(
       mutate(data_mod = paste0(input, user_suffix)) ->
       modify_table
 
-    # get list of all dependents, so we know all the affected outputs
-    dependents <- lapply(modify_table$input, dstrace, direction = "downstream", print = FALSE) %>%
+    # get list of all dependents
+    # need to quiet this
+    # dependents <- lapply(modify_table$input, dstrace, direction = "downstream") %>%
+    #   bind_rows() %>%
+    #   distinct(input = object_name) %>%
+    #   mutate(data_mod = if_else(stringr::str_detect(input, ".xml"),
+    #                             paste0(stringr::str_extract(input, ".+(?=.xml)"),
+    #                                    data.USER_MOD_POSTFIX, ".xml"),
+    #                             paste0(input, data.USER_MOD_POSTFIX)))
+    xml_dependents <- lapply(modify_table$input, dstrace, direction = "downstream", print = FALSE) %>%
       bind_rows() %>%
-      distinct(input = object_name) %>%
-      mutate(data_mod = if_else(stringr::str_detect(input, ".xml"),
-                                paste0(stringr::str_extract(input, ".+(?=.xml)"),
-                                       user_suffix, ".xml"),
-                                paste0(input, user_suffix)))
-
+      filter(stringr::str_detect(object_name, ".xml"))
     # adjust chunkinputs so chunks that require as input any object that is
     # to be modified (or dependent of a modified input) will now input the
-    # user_suffix appended name
+    # data.USER_MOD_POSTFIX appended name
     chunkinputs %>%
-      left_join(dependents, by = c("input")) %>%
+      left_join(select(modify_table, input, data_mod), by = c("input")) %>%
+      # left_join(dependents, by = c("input")) %>%
       mutate(input = if_else(is.na(data_mod), input, data_mod),
              from_file = if_else(is.na(data_mod), from_file, FALSE)) %>%
       select(-data_mod) %>%
@@ -563,15 +561,15 @@ driver_drake <- function(
       chunkinputs
 
     # add in the outputs from the user mod chunks which are the modify object names
-    # appended with user_suffix
+    # appended with data.USER_MOD_POSTFIX
     # also adjust all chunk outputs to reflect dependencies
     lapply(user_modifications, chunk_outputs, driver.DECLARE_MODIFY) %>%
       bind_rows() %>%
       mutate(output = paste0(output, user_suffix)) %>%
-      bind_rows(chunkoutputs) %>%
-      left_join(dependents, by = c("output" = "input")) %>%
-      mutate(output = if_else(is.na(data_mod), output, data_mod)) %>%
-      select(-data_mod) ->
+      bind_rows(chunkoutputs) ->
+      # left_join(dependents, by = c("output" = "input")) %>%
+      # mutate(output = if_else(is.na(data_mod), output, data_mod)) %>%
+      # select(-data_mod) ->
       chunkoutputs
 
     # now we just need to add the user mod chunks to the chunklist
@@ -581,6 +579,13 @@ driver_drake <- function(
                      chunk=user_modifications,
                      disabled=FALSE)) ->
       chunklist
+
+    # lastly, delete the modified data from cache so that user modifications are always run
+    # cache <- storr::storr_rds(".drake")
+    # for (mod in modify_table$data_mod){
+    #   cache$del(mod)
+    # }
+
   }
 
   # Keep track of chunk inputs for later pruning
@@ -708,16 +713,8 @@ driver_drake <- function(
       #```
       # The downside is data is likely to be duplicated in the cache.
       target <- c(target, make.names(po))
-      # Need to remove usermod suffix from any outputs here, since chunk
-      # outputs will not contain suffix
-      if(!is.null(user_modifications)){
-        # Only exception is if the chunk is in the user_modifications
-        if (!(chunk %in% user_modifications)) {
-          po <- stringr::str_remove(po, user_suffix)
-        }
-      }
-
       command <- c(command, paste(chunk, '["', po, '"]', sep = ""))
+
       # We need to seperate out XML outputs so that we can add commands
       # to actually run the XML conversion and write out the gcam inputs
       po_xml <- subset(chunkoutputs, name == chunk & to_xml)$output
@@ -727,6 +724,13 @@ driver_drake <- function(
         target <- c(target, make.names(paste0(xmldir, po_xml)))
         fileout <- paste0(xmldir, po_xml)
 
+        # If xml file is downstream of user modifications, add USER_MOD_POSTFIX
+        if(!is.null(user_modifications)){
+          if(po_xml %in% xml_dependents$object_name){
+            fileout <- paste0(stringr::str_extract(fileout, ".+(?=.xml)"),
+                              user_suffix, ".xml")
+          }
+        }
         # Generate the command to run the XML conversion:
         # `xml/out1.xml <- run_xml_conversion(set_xml_file_helper(out1.xml, file_out("xml/out1.xml")))`
         # Note, the `file_out()` wrapper notifies drake the XML file is an output
