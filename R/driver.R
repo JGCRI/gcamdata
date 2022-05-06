@@ -28,7 +28,7 @@ run_chunk <- function(chunk, all_data) {
 #' @param chunk_inputs Names of chunk inputs, character
 #' @param promised_outputs Names of chunk's promised outputs, character
 #' @param outputs_xml Logical vector: are outputs XML?
-check_chunk_outputs <- function(chunk, chunk_data, chunk_inputs, promised_outputs, outputs_xml, usermod) {
+check_chunk_outputs <- function(chunk, chunk_data, chunk_inputs, promised_outputs, outputs_xml) {
   assert_that(is_data_list(chunk_data))
 
   # Check that the chunk has provided required data for all objects
@@ -36,13 +36,6 @@ check_chunk_outputs <- function(chunk, chunk_data, chunk_inputs, promised_output
   pc_all <- c()
   for(obj in names(chunk_data)) {
     obj_flags <- get_flags(chunk_data[[obj]])
-    # # If usermod is true, then add data.USER_MOD_POSTFIX where expected
-    # if (usermod){
-    #   changed_outputs <- stringr::str_which(promised_outputs, data.USER_MOD_POSTFIX)
-    #   if (length(changed_outputs) > 0){
-    #       changed_outputs
-    #   }
-    # }
     # Chunks have to returns tibbles, unless they're tagged as being XML
     if(!outputs_xml[which(obj == promised_outputs)]) {
       assert_that(tibble::is_tibble(chunk_data[[obj]]), msg = paste(obj, "is", class(obj)))
@@ -168,8 +161,7 @@ driver <- function(all_data = empty_data(),
                    write_xml = write_outputs,
                    outdir = OUTPUTS_DIR, xmldir = XML_DIR,
                    quiet = FALSE,
-                   user_modifications = NULL,
-                   user_suffix = "__0") {
+                   user_modifications = NULL) {
 
   # If users ask to stop after a chunk, but also specify they want particular inputs,
   # or if they ask to stop before a chunk, while asking for outputs, that's confusing.
@@ -207,11 +199,6 @@ driver <- function(all_data = empty_data(),
   # check if any user chunks are set in which case we need to adjust the
   # chunklist/chunkinputs/chunkoutputs to shim the user chunk in place
   if(!is.null(user_modifications)) {
-    # first, ensure that user_suffix is not in any of the standard input/outputs
-    if (any(stringr::str_detect(c(chunkinputs$input, chunkoutputs$output, chunklist$name), user_suffix))){
-      stop("user_suffix is in the name of an expected input/output/chunk, please change it to a unique string")
-    }
-
     # a user modification chunk uses a special command: driver.DECLARE_MODIFY
     # to indicate which ds "objects" it wants to modify
     # that chunk will then require those objects as inputs AND produce those
@@ -221,34 +208,21 @@ driver <- function(all_data = empty_data(),
 
     # in order to shim the user modification in we adjust all chunk_inputs
     # for any object to be modified to input the object with the constant
-    # user_suffix appended to the end instead
+    # data.USER_MOD_POSTFIX appended to the end instead
     # and the user chunk will input the original object and output the appended
     # data name
-
-    # Set data.USER_MOD_POSTFIX for use in get_data()
-    data.USER_MOD_POSTFIX <<- user_suffix
 
     # first get a list of all objects that are to be modified
     lapply(user_modifications, chunk_inputs, driver.DECLARE_MODIFY) %>%
       bind_rows() %>%
       # generate the mod data name by appending data.USER_MOD_POSTFIX
-      mutate(data_mod = paste0(input, user_suffix)) ->
+      mutate(data_mod = paste0(input, data.USER_MOD_POSTFIX)) ->
       modify_table
 
-    # get list of all dependents, so we know all the affected outputs
-    dependents <- lapply(modify_table$input, dstrace, direction = "downstream", print = FALSE) %>%
-      bind_rows() %>%
-      distinct(input = object_name) %>%
-      mutate(data_mod = if_else(stringr::str_detect(input, ".xml"),
-                                paste0(stringr::str_extract(input, ".+(?=.xml)"),
-                                       user_suffix, ".xml"),
-                                paste0(input, user_suffix)))
-
     # adjust chunkinputs so chunks that require as input any object that is
-    # to be modified (or dependent of a modified input) will now input the
-    # user_suffix appended name
+    # to be modified will now input the data.USER_MOD_POSTFIX appended name
     chunkinputs %>%
-      left_join(dependents, by = c("input")) %>%
+      left_join(select(modify_table, input, data_mod), by = c("input")) %>%
       mutate(input = if_else(is.na(data_mod), input, data_mod),
              from_file = if_else(is.na(data_mod), from_file, FALSE)) %>%
       select(-data_mod) %>%
@@ -260,15 +234,11 @@ driver <- function(all_data = empty_data(),
       chunkinputs
 
     # add in the outputs from the user mod chunks which are the modify object names
-    # appended with user_suffix
-    # also adjust all chunk outputs to reflect dependencies
+    # appended with data.USER_MOD_POSTFIX
     lapply(user_modifications, chunk_outputs, driver.DECLARE_MODIFY) %>%
       bind_rows() %>%
-      mutate(output = paste0(output, user_suffix)) %>%
-      bind_rows(chunkoutputs) %>%
-      left_join(dependents, by = c("output" = "input")) %>%
-      mutate(output = if_else(is.na(data_mod), output, data_mod)) %>%
-      select(-data_mod) ->
+      mutate(output = paste0(output, data.USER_MOD_POSTFIX)) %>%
+      bind_rows(chunkoutputs) ->
       chunkoutputs
 
     # now we just need to add the user mod chunks to the chunklist
@@ -380,27 +350,11 @@ driver <- function(all_data = empty_data(),
       chunk_data <- run_chunk(chunk, all_data[input_names])
       tdiff <- as.numeric(difftime(Sys.time(), time1, units = "secs"))
       if(!quiet) print(paste("- make", format(round(tdiff, 2), nsmall = 2)))
-
       po <- subset(chunkoutputs, name == chunk)$output  # promised outputs
 
-      # Adjust names for outputs that are affected by user_modifications
-      if (!is.null(user_modifications)){
-        changed_outputs <- stringr::str_which(po, data.USER_MOD_POSTFIX)
-        if (any(changed_outputs) & !(chunk %in% user_modifications)){
-          for (co in changed_outputs){
-            co_no_suffix <- stringr::str_remove(po[co], user_suffix)
-            names(chunk_data)[names(chunk_data) == co_no_suffix] <- po[co]
-
-            if(FLAG_XML %in% get_flags(chunk_data[po[co]][[1]])) {
-              chunk_data[po[co]][[1]]$xml_file <- po[co]
-          }
-        }
-      }
-      }
       check_chunk_outputs(chunk, chunk_data, input_names,
                           promised_outputs = po,
-                          outputs_xml = subset(chunkoutputs, name == chunk)$to_xml,
-                          usermod = !is.null(user_modifications))
+                          outputs_xml = subset(chunkoutputs, name == chunk)$to_xml)
 
       # Save precursor information and other metadata
       if(return_data_map_only) {
