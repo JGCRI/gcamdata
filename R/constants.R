@@ -65,7 +65,7 @@ driver.EMISSIONS_SOURCE <- "CEDS"
 data.SEPARATOR <- "; "
 data.PRECURSOR <- "Precursor"
 data.DEPENDENT <- "Dependent"
-data.USER_MOD_POSTFIX <- "__0"
+
 
 # Modeltime constants ======================================================================
 # The number of years encompased in the first model period, currently hard coded in the C++
