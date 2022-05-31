@@ -389,6 +389,7 @@ find_chunks <- function(pattern = "^module_[a-zA-Z\\.]*_.*$", include_disabled =
 #' chunk_inputs
 #'
 #' @param chunks A character vector of chunks names
+#' @param call_flag Flag to look for in inputs
 #' @return A tibble with columns 'name' (chunk name), 'input' (name of data),
 #' 'file_file' (whether object is read from a file), and 'optional' (whether
 #' the object is optional or not).

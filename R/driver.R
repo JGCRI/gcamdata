@@ -66,6 +66,7 @@ check_chunk_outputs <- function(chunk, chunk_data, chunk_inputs, promised_output
     pc <- attr(chunk_data[[obj]], ATTR_PRECURSORS)
     pc_all <- c(pc_all, pc)
     empty_precursors <- empty_precursors & is.null(pc)
+    # Remove data.USER_MOD_POSTFIX from input names, as these won't be present in precursors
     matches <- pc %in% c(gsub(data.USER_MOD_POSTFIX, '', chunk_inputs), promised_outputs)
     if(!all(matches)) {
       stop("Some precursors for '", obj, "' aren't inputs - chunk ", chunk)
@@ -246,7 +247,7 @@ driver <- function(all_data = empty_data(),
                 lapply(user_modifications, chunk_inputs, driver.DECLARE_INPUTS)) ->
       chunkinputs
 
-    # add in the outputs from the user mod chunks which are the modify object names
+    # add in the outputs from the user mod chunks which are the modified object names
     # appended with data.USER_MOD_POSTFIX
     lapply(user_modifications, chunk_outputs, driver.DECLARE_MODIFY) %>%
       bind_rows() %>%
@@ -256,10 +257,10 @@ driver <- function(all_data = empty_data(),
 
     # now we just need to add the user mod chunks to the chunklist
     bind_rows(chunklist,
-              tibble(name=user_modifications,
-                     module="user",
-                     chunk=user_modifications,
-                     disabled=FALSE)) ->
+              tibble(name = user_modifications,
+                     module = "user",
+                     chunk = user_modifications,
+                     disabled = FALSE)) ->
       chunklist
   }
 
@@ -579,10 +580,10 @@ driver_drake <- function(
 
     # now we just need to add the user mod chunks to the chunklist
     bind_rows(chunklist,
-              tibble(name=user_modifications,
-                     module="user",
-                     chunk=user_modifications,
-                     disabled=FALSE)) ->
+              tibble(name = user_modifications,
+                     module = "user",
+                     chunk = user_modifications,
+                     disabled = FALSE)) ->
       chunklist
   }
 
