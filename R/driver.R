@@ -140,6 +140,9 @@ tibbelize_outputs <- function(chunk_data, chunk_name) {
 #' @param write_xml Write XML Batch chunk outputs to disk?
 #' @param outdir Location to write output data (ignored if \code{write_outputs} is \code{FALSE})
 #' @param xmldir Location to write output XML (ignored if \code{write_outputs} is \code{FALSE})
+#' @param user_modifications A list of function names which implement a user mod chunk.  TODO: link a vingenette or something.
+#' @param xml_suffix A suffix to be appended at the end of all XML file name if not null.  Such a feature is
+#' useful when using \code{user_modifications} to generate alternative scenarios.
 #' @return A list of all built data (or a data map tibble if requested).
 #' @details The driver loads any necessary data from input files,
 #' runs all code chunks in an order dictated by their dependencies,
@@ -161,7 +164,8 @@ driver <- function(all_data = empty_data(),
                    write_xml = write_outputs,
                    outdir = OUTPUTS_DIR, xmldir = XML_DIR,
                    quiet = FALSE,
-                   user_modifications = NULL) {
+                   user_modifications = NULL,
+                   xml_suffix = NULL) {
 
   # If users ask to stop after a chunk, but also specify they want particular inputs,
   # or if they ask to stop before a chunk, while asking for outputs, that's confusing.
@@ -186,6 +190,15 @@ driver <- function(all_data = empty_data(),
   assert_that(is.logical(write_outputs))
   assert_that(is.logical(write_xml))
   assert_that(is.logical(quiet))
+
+  # we need to use package data to set this in effect in such a way that drake does not notice
+  # and think all XML files need to be rebuilt with the suffix
+  if (!is.null(xml_suffix)){
+    xml.XML_SUFFIX <<- xml_suffix
+  }
+  if(!is.null(user_modifications) && is.null(xml_suffix)) {
+    warning("It is highly reccommended to utilize `xml_suffix` to distinguish XML inputs derived from `user_modifications`")
+    }
 
   if(!quiet) cat("GCAM Data System v", as.character(utils::packageVersion("gcamdata")), "\n", sep = "")
 
@@ -441,6 +454,9 @@ driver <- function(all_data = empty_data(),
 #' @param write_xml Write XML Batch chunk outputs to disk?
 #' @param xmldir Location to write output XML (ignored if \code{write_outputs} is \code{FALSE})
 #' @param quiet Suppress output?
+#' @param user_modifications A list of function names which implement a user mod chunk.  TODO: link a vingenette or something.
+#' @param xml_suffix A suffix to be appended at the end of all XML file name if not null.  Such a feature is
+#' useful when using \code{user_modifications} to generate alternative scenarios.
 #' @param ... Additional arguments to be forwarded on to \code{make}
 #' @return A list of all built data (or a data map tibble if requested).
 #' @importFrom magrittr "%>%"
@@ -460,6 +476,7 @@ driver_drake <- function(
   xmldir = XML_DIR,
   quiet = FALSE,
   user_modifications = NULL,
+  xml_suffix = NULL,
   ...){
 
 
@@ -492,6 +509,15 @@ driver_drake <- function(
   assert_that(is.logical(return_plan_only))
   assert_that(is.logical(write_xml))
   assert_that(is.logical(quiet))
+
+  # we need to use package data to set this in effect in such a way that drake does not notice
+  # and think all XML files need to be rebuilt with the suffix
+  if (!is.null(xml_suffix)){
+    xml.XML_SUFFIX <<- xml_suffix
+  }
+  if(!is.null(user_modifications) && is.null(xml_suffix)) {
+    warning("It is highly reccommended to utilize `xml_suffix` to distinguish XML inputs derived from `user_modifications`")
+  }
 
   if(return_plan_only) {
     assert_that(!return_data_map_only)
