@@ -46,7 +46,7 @@ set_xml_file_helper <- function(xml, fq_name) {
 
   # append an XML suffix if so configured
   if(!is.null(xml.XML_SUFFIX)) {
-    xml$xml_file <- paste0(xml$xml_file, xml.XML_SUFFIX)
+    xml$xml_file <- paste0(gsub('\\.xml$', '', xml$xml_file), xml.XML_SUFFIX, '.xml')
   }
 
   invisible(xml)

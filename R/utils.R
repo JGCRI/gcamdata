@@ -442,6 +442,7 @@ inputs_of <- function(chunks) {
 #' List all chunk outputs.
 #'
 #' @param chunks A character vector of chunks names
+#' @param call_flag Flag to look for in outputs
 #' @return A tibble with columns 'name' (chunk name), 'output' (name of data),
 #' and 'to_xml' (whether or not this is an XML structure).
 #' @export
