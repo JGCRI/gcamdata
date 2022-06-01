@@ -632,16 +632,17 @@ create_datamap_from_cache <- function(gcamdata_plan, ...) {
 #' @param dir Cache directory (.drake folder)
 #' @param target List of all objects in cache
 #' @param quiet Print messages?
+#' @importFrom drake find_cache readd
 write_csv_from_cache <- function(output, dir = NULL, target_list = NULL, quiet = F){
 
   if (is.null(dir)){
     # Get drake cache directory
-    dir <- drake::find_cache()
+    dir <- find_cache()
   }
 
   # Try to load data, if not able to inform user and quit
   tryCatch({
-    data <- drake::readd(output, path = dir, character_only = TRUE)
+    data <- readd(output, path = dir, character_only = TRUE)
   }, error = function(e) {
     if(!quiet) message("Output cannot be loaded")
     return()
