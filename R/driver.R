@@ -635,9 +635,9 @@ driver_drake <- function(
      # Clean specific chunks if the cache exists and prebuilt_data is out of date
      if(!quiet) message("NOTE: PREBUILT_DATA has been changed, the relevant cached data will be removed")
      for (nm in drake::outdated(prebuilt_data_plan, do_prework = F)){
-        nm_fix <- stringr::str_remove(nm, "PREBUILT_")
+        nm_fix <- gsub("PREBUILT_", "", nm)
         chunk_to_clear <- filter(gcamdata_plan, target == nm_fix)$command
-        chunk_to_clear <- stringr::str_extract(chunk_to_clear, "^.+(?=\\[)")
+        chunk_to_clear <- gsub('\\[.*$', '', chunk_to_clear)
       if (length(chunk_to_clear) == 1){
         drake::clean(chunk_to_clear)
       }
