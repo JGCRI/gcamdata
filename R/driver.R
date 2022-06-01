@@ -384,7 +384,6 @@ driver <- function(all_data = empty_data(),
 #' the other \code{return_*} parameters above
 #' @param return_plan_only Return only the drake plan (logical)
 #' @param write_xml Write XML Batch chunk outputs to disk?
-#' @param write_csv Write csv files to outputs folder?
 #' @param xmldir Location to write output XML (ignored if \code{write_outputs} is \code{FALSE})
 #' @param quiet Suppress output?
 #' @param ... Additional arguments to be forwarded on to \code{make}
@@ -403,7 +402,6 @@ driver_drake <- function(
   return_data_map_only = FALSE,
   return_plan_only = FALSE,
   write_xml = !return_data_map_only,
-  write_csv = FALSE,
   xmldir = XML_DIR,
   quiet = FALSE,
   ...){
@@ -649,26 +647,6 @@ driver_drake <- function(
      drake::make(prebuilt_data_plan, ...)
    }
      drake::make(gcamdata_plan, ...)
- }
-
-  # If write_csv, then save all output data in gcamdata_plan to csv
- if (write_csv){
-   if(!quiet) cat("Writing csvs\n")
-   # Get list of targets - need to remove constants and prebuilt data
-   # Try to remove some unnecessary files first
-   plan_to_write <- gcamdata_plan %>%
-     filter(stringr::str_detect(command, "module_"), # Only want outputs of chunks
-            stringr::str_detect(target, "module_", negate = T), # Don't want the actual chunks themselves
-            stringr::str_detect(target, ".xml", negate = T), # Don't want xmls
-            stringr::str_detect(command, "module_data_", negate = T) # Don't want data chunks
-     )
-   targets <- plan_to_write$target
-
-   dir <- drake::find_cache()
-   for (tmp in targets){
-     write_csv_from_cache(tmp, dir, quiet = T)
-   }
-
  }
 
   if(return_data_map_only) {
