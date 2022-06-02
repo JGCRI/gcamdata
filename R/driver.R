@@ -720,12 +720,14 @@ driver_drake <- function(
       if(write_xml && length(po_xml) > 0) {
         # Add the xmldir to the XML output name and include those in the
         # target list.
-        target <- c(target, make.names(paste0(xmldir, po_xml)))
+        po_xml_path = file.path(xmldir, po_xml) %>% gsub("/{2,}", "/", .)# Don't want multiple consecutive slashes, as drake views that as separate object
+        target <- c(target, make.names(po_xml_path))
         # Generate the command to run the XML conversion:
         # `xml/out1.xml <- run_xml_conversion(set_xml_file_helper(out1.xml, file_out("xml/out1.xml")))`
         # Note, the `file_out()` wrapper notifies drake the XML file is an output
         # of this plan and allows it to know to re-produce missing/altered XML files
-        command <- c(command, paste0("run_xml_conversion(set_xml_file_helper(", po_xml, "[[1]], file_out('", paste0(xmldir, po_xml), "')))"))
+        command <- c(command, paste0("run_xml_conversion(set_xml_file_helper(", po_xml, "[[1]],
+             file_out('", po_xml_path, "')))"))
       }
     }
 
