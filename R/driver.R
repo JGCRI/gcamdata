@@ -66,7 +66,8 @@ check_chunk_outputs <- function(chunk, chunk_data, chunk_inputs, promised_output
     pc <- attr(chunk_data[[obj]], ATTR_PRECURSORS)
     pc_all <- c(pc_all, pc)
     empty_precursors <- empty_precursors & is.null(pc)
-    matches <- pc %in% c(chunk_inputs, promised_outputs)
+    # Remove data.USER_MOD_POSTFIX from input names, as these won't be present in precursors
+    matches <- pc %in% c(gsub(data.USER_MOD_POSTFIX, '', chunk_inputs), promised_outputs)
     if(!all(matches)) {
       stop("Some precursors for '", obj, "' aren't inputs - chunk ", chunk)
     }
@@ -76,7 +77,7 @@ check_chunk_outputs <- function(chunk, chunk_data, chunk_inputs, promised_output
   }
 
   # Every input should be a precursor for something
-  if(!all(chunk_inputs %in% pc_all)) {
+  if(!all(gsub(data.USER_MOD_POSTFIX, '', chunk_inputs) %in% pc_all)) {
     message("Inputs ", paste(dplyr::setdiff(chunk_inputs, pc_all), collapse = ", "),
             " don't appear as precursors for any outputs - chunk ", chunk)
   }
@@ -140,6 +141,9 @@ tibbelize_outputs <- function(chunk_data, chunk_name) {
 #' @param write_xml Write XML Batch chunk outputs to disk?
 #' @param outdir Location to write output data (ignored if \code{write_outputs} is \code{FALSE})
 #' @param xmldir Location to write output XML (ignored if \code{write_outputs} is \code{FALSE})
+#' @param user_modifications A list of function names which implement a user mod chunk. See vignettes/usermod_vignette.Rmd for more details and examples.
+#' @param xml_suffix A suffix to be appended at the end of all XML file name if not null.  Such a feature is
+#' useful when using \code{user_modifications} to generate alternative scenarios.
 #' @return A list of all built data (or a data map tibble if requested).
 #' @details The driver loads any necessary data from input files,
 #' runs all code chunks in an order dictated by their dependencies,
@@ -160,7 +164,9 @@ driver <- function(all_data = empty_data(),
                    write_outputs = !return_data_map_only,
                    write_xml = write_outputs,
                    outdir = OUTPUTS_DIR, xmldir = XML_DIR,
-                   quiet = FALSE) {
+                   quiet = FALSE,
+                   user_modifications = NULL,
+                   xml_suffix = NULL) {
 
   # If users ask to stop after a chunk, but also specify they want particular inputs,
   # or if they ask to stop before a chunk, while asking for outputs, that's confusing.
@@ -186,6 +192,15 @@ driver <- function(all_data = empty_data(),
   assert_that(is.logical(write_xml))
   assert_that(is.logical(quiet))
 
+  # we need to use package data to set this in effect in such a way that drake does not notice
+  # and think all XML files need to be rebuilt with the suffix
+  if (!is.null(xml_suffix)){
+    xml.XML_SUFFIX <<- xml_suffix
+  }
+  if(!is.null(user_modifications) && is.null(xml_suffix)) {
+    warning("It is highly reccommended to utilize `xml_suffix` to distinguish XML inputs derived from `user_modifications`")
+    }
+
   if(!quiet) cat("GCAM Data System v", as.character(utils::packageVersion("gcamdata")), "\n", sep = "")
 
   chunklist <- find_chunks()
@@ -194,6 +209,60 @@ driver <- function(all_data = empty_data(),
   if(!quiet) cat("Found", nrow(chunkinputs), "chunk data requirements\n")
   chunkoutputs <- chunk_outputs(chunklist$name)
   if(!quiet) cat("Found", nrow(chunkoutputs), "chunk data products\n")
+
+  # check if any user chunks are set in which case we need to adjust the
+  # chunklist/chunkinputs/chunkoutputs to shim the user chunk in place
+  if(!is.null(user_modifications)) {
+    # a user modification chunk uses a special command: driver.DECLARE_MODIFY
+    # to indicate which ds "objects" it wants to modify
+    # that chunk will then require those objects as inputs AND produce those
+    # objects as output
+    # these chunks will also be allowed to specify regular driver.DECLARE_INPUTS
+    # which will be passed as input but NOT output back out
+
+    # in order to shim the user modification in we adjust all chunk_inputs
+    # for any object to be modified to input the object with the constant
+    # data.USER_MOD_POSTFIX appended to the end instead
+    # and the user chunk will input the original object and output the appended
+    # data name
+
+    # first get a list of all objects that are to be modified
+    lapply(user_modifications, chunk_inputs, driver.DECLARE_MODIFY) %>%
+      bind_rows() %>%
+      # generate the mod data name by appending data.USER_MOD_POSTFIX
+      mutate(data_mod = paste0(input, data.USER_MOD_POSTFIX)) ->
+      modify_table
+
+    # adjust chunkinputs so chunks that require as input any object that is
+    # to be modified will now input the data.USER_MOD_POSTFIX appended name
+    chunkinputs %>%
+      left_join(select(modify_table, input, data_mod), by = c("input")) %>%
+      mutate(input = if_else(is.na(data_mod), input, data_mod),
+             from_file = if_else(is.na(data_mod), from_file, FALSE)) %>%
+      select(-data_mod) %>%
+      # add on the input requirements for the user mod chunk which are the
+      # original object names as well as any other driver.DECLARE_INPUTS they
+      # require
+      bind_rows(select(modify_table, -data_mod),
+                lapply(user_modifications, chunk_inputs, driver.DECLARE_INPUTS)) ->
+      chunkinputs
+
+    # add in the outputs from the user mod chunks which are the modified object names
+    # appended with data.USER_MOD_POSTFIX
+    lapply(user_modifications, chunk_outputs, driver.DECLARE_MODIFY) %>%
+      bind_rows() %>%
+      mutate(output = paste0(output, data.USER_MOD_POSTFIX)) %>%
+      bind_rows(chunkoutputs) ->
+      chunkoutputs
+
+    # now we just need to add the user mod chunks to the chunklist
+    bind_rows(chunklist,
+              tibble(name = user_modifications,
+                     module = "user",
+                     chunk = user_modifications,
+                     disabled = FALSE)) ->
+      chunklist
+  }
 
   # Keep track of chunk inputs for later pruning
   chunkinputs %>%
@@ -386,6 +455,9 @@ driver <- function(all_data = empty_data(),
 #' @param write_xml Write XML Batch chunk outputs to disk?
 #' @param xmldir Location to write output XML (ignored if \code{write_outputs} is \code{FALSE})
 #' @param quiet Suppress output?
+#' @param user_modifications A list of function names which implement a user mod chunk. See vignettes/usermod_vignette.Rmd for more details and examples.
+#' @param xml_suffix A suffix to be appended at the end of all XML file name if not null.  Such a feature is
+#' useful when using \code{user_modifications} to generate alternative scenarios.
 #' @param ... Additional arguments to be forwarded on to \code{make}
 #' @return A list of all built data (or a data map tibble if requested).
 #' @importFrom magrittr "%>%"
@@ -404,6 +476,8 @@ driver_drake <- function(
   write_xml = !return_data_map_only,
   xmldir = XML_DIR,
   quiet = FALSE,
+  user_modifications = NULL,
+  xml_suffix = NULL,
   ...){
 
 
@@ -437,6 +511,15 @@ driver_drake <- function(
   assert_that(is.logical(write_xml))
   assert_that(is.logical(quiet))
 
+  # we need to use package data to set this in effect in such a way that drake does not notice
+  # and think all XML files need to be rebuilt with the suffix
+  if (!is.null(xml_suffix)){
+    xml.XML_SUFFIX <<- xml_suffix
+  }
+  if(!is.null(user_modifications) && is.null(xml_suffix)) {
+    warning("It is highly reccommended to utilize `xml_suffix` to distinguish XML inputs derived from `user_modifications`")
+  }
+
   if(return_plan_only) {
     assert_that(!return_data_map_only)
   }
@@ -449,6 +532,60 @@ driver_drake <- function(
   if(!quiet) message("Found ", nrow(chunkinputs), " chunk data requirements")
   chunkoutputs <- chunk_outputs(chunklist$name)
   if(!quiet) message("Found ", nrow(chunkoutputs), " chunk data products")
+
+  # check if any user chunks are set in which case we need to adjust the
+  # chunklist/chunkinputs/chunkoutputs to shim the user chunk in place
+  if(!is.null(user_modifications)) {
+    # a user modification chunk uses a special command: driver.DECLARE_MODIFY
+    # to indicate which ds "objects" it wants to modify
+    # that chunk will then require those objects as inputs AND produce those
+    # objects as output
+    # these chunks will also be allowed to specify regular driver.DECLARE_INPUTS
+    # which will be passed as input but NOT output back out
+
+    # in order to shim the user modification in we adjust all chunk_inputs
+    # for any object to be modified to input the object with the constant
+    # data.USER_MOD_POSTFIX appended to the end instead
+    # and the user chunk will input the original object and output the appended
+    # data name
+
+    # first get a list of all objects that are to be modified
+    lapply(user_modifications, chunk_inputs, driver.DECLARE_MODIFY) %>%
+      bind_rows() %>%
+      # generate the mod data name by appending data.USER_MOD_POSTFIX
+      mutate(data_mod = paste0(input, data.USER_MOD_POSTFIX)) ->
+      modify_table
+
+    # adjust chunkinputs so chunks that require as input any object that is
+    # to be modified will now input the data.USER_MOD_POSTFIX appended name
+    chunkinputs %>%
+      left_join(select(modify_table, input, data_mod), by = c("input")) %>%
+      mutate(input = if_else(is.na(data_mod), input, data_mod),
+             from_file = if_else(is.na(data_mod), from_file, FALSE)) %>%
+      select(-data_mod) %>%
+      # add on the input requirements for the user mod chunk which are the
+      # original object names as well as any other driver.DECLARE_INPUTS they
+      # require
+      bind_rows(select(modify_table, -data_mod),
+                lapply(user_modifications, chunk_inputs, driver.DECLARE_INPUTS)) ->
+      chunkinputs
+
+    # add in the outputs from the user mod chunks which are the modify object names
+    # appended with data.USER_MOD_POSTFIX
+    lapply(user_modifications, chunk_outputs, driver.DECLARE_MODIFY) %>%
+      bind_rows() %>%
+      mutate(output = paste0(output, data.USER_MOD_POSTFIX)) %>%
+      bind_rows(chunkoutputs) ->
+      chunkoutputs
+
+    # now we just need to add the user mod chunks to the chunklist
+    bind_rows(chunklist,
+              tibble(name = user_modifications,
+                     module = "user",
+                     chunk = user_modifications,
+                     disabled = FALSE)) ->
+      chunklist
+  }
 
   # Keep track of chunk inputs for later pruning
   chunkinputs %>%
@@ -562,7 +699,8 @@ driver_drake <- function(
       # Also note we explicitly list just the inputs required for the chunk which is
       # different than in driver where we give `all_data`, again this is for drake so it
       # can match up target names to commands and develop the dependencies between them.
-      command <- c(command, paste0("gcamdata:::", chunk, "('", driver.MAKE, "', c(", paste(make.names(input_names), collapse = ","), "))"))
+      nsprefix <- if_else(chunk %in% user_modifications, "", "gcamdata:::")
+      command <- c(command, paste0(nsprefix, chunk, "('", driver.MAKE, "', c(", paste(make.names(input_names), collapse = ","), "))"))
 
       # A chunk should in principle generate many output targets however drake assumes
       # one target per command.  We get around this by unpacking the list of outputs
@@ -573,7 +711,7 @@ driver_drake <- function(
       # outputN <- chunk["outputN"]
       #```
       # The downside is data is likely to be duplicated in the cache.
-      target <- c(target, po)
+      target <- c(target, make.names(po))
       command <- c(command, paste(chunk, '["', po, '"]', sep = ""))
 
       # We need to seperate out XML outputs so that we can add commands
