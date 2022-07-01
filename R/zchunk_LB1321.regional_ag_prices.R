@@ -167,8 +167,8 @@ module_aglu_LB1321.regional_ag_prices <- function(command, ...) {
              production = production * (1 - aglu.WEIGHT_COTTON_LINT))
 
     L1321.ag_prod_kt_ctry_item <- bind_rows(filter(L1321.ag_prod_kt_ctry_item, item != "Seed cotton"),
-                                         L1321.prod_kt_ctry_CttnLnt,
-                                         L1321.prod_kt_ctry_CttnSd)
+                                            L1321.prod_kt_ctry_CttnLnt,
+                                            L1321.prod_kt_ctry_CttnSd)
 
     L1321.an_prod_kt_ctry_item <- FAO_an_Prod_t_PRODSTAT %>%
       gather_years() %>%
