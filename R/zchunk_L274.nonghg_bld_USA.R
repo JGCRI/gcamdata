@@ -170,7 +170,10 @@ if(command == driver.DECLARE_INPUTS) {
   L274.nonghg_bld_tech_coeff_USA_ResWoodF_PM <- EPA_resid_wood_furnace_PM_EF_future_factors %>%
     # need to use left join because we are changing the number of rows in the table, having a row for every region (state)
     filter(year > MODEL_FINAL_BASE_YEAR) %>%
-    left_join((L274.nonghg_bld_tech_coeff_Yb_USA %>% filter(year == MODEL_FINAL_BASE_YEAR)),
+    left_join((L274.nonghg_bld_tech_coeff_Yb_USA %>% filter(year == if_else( # Want to filter to MODEL_FINAL_BASE_YEAR
+      MODEL_FINAL_BASE_YEAR > max(L274.nonghg_bld_tech_coeff_Yb_USA$year), # But in case not in data, filter to max year
+      max(L274.nonghg_bld_tech_coeff_Yb_USA$year),
+      MODEL_FINAL_BASE_YEAR))),
               by = c("supplysector", "stub.technology", "Non.CO2")) %>%
     mutate(emiss.coef = factor * emiss.coef) %>%
     rename(year = year.x) %>%

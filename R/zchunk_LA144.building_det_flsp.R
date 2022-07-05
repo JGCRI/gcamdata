@@ -288,38 +288,40 @@ module_energy_LA144.building_det_flsp <- function(command, ...) {
     # due to the bias.correction.adder incorporated to the floorspace demand.
 
     # First, define which is by default the final observed year and save the regions with observed data beyond that point (up to the final calibration year)
-    avg_fin_obs_year<-2005
-    regions_with_obs_data<-c("China","USA")
+    avg_fin_obs_year <- 2005
+    regions_with_obs_data <- c("China","USA")
     `%notin%` <- Negate(`%in%`) # A ancillary function to help data processing
 
     # Then, calculate the habitable land, which is going to be used to estimate the floorspace per capita in final calibration year for the rest of regions.
     # The following table extracts the non habitable land per region, adding up the Tundra and the RockIceDesert categories
-    L144.non_hab_land_pre<-L221.LN1_UnmgdAllocation %>%
+    L144.non_hab_land_pre <- L221.LN1_UnmgdAllocation %>%
       filter(!grepl("Urban",LandNode1)) %>%
-      rename(nonHab=allocation) %>%
+      rename(nonHab = allocation) %>%
       group_by(region,year) %>%
-      summarise(nonHab=sum(nonHab)) %>%
+      summarise(nonHab = sum(nonHab)) %>%
       ungroup()
 
     # Some regions do not have any Tundra or RockIceDesert, so the prior table needs to be completed by back-filling zeroes
-    L144.adj_reg<-anti_join(L221.LN1_UnmgdAllocation,L144.non_hab_land_pre, by = c("region", "year")) %>%
+    L144.adj_reg <- anti_join(L221.LN1_UnmgdAllocation,L144.non_hab_land_pre, by = c("region", "year")) %>%
       select(region,year)%>%
       distinct(region,year) %>%
-      mutate(nonHab=0)
+      mutate(nonHab = 0)
 
     L144.non_hab_land<- bind_rows(L144.non_hab_land_pre,L144.adj_reg)
 
     # Habitable land is calculated by subtracting the non-habitable land from total land
-    L144.hab_land_flsp<-L221.LN0_Land %>%
-      select(region, totland=landAllocation) %>%
+    L144.hab_land_flsp <- L221.LN0_Land %>%
+      select(region, totland = landAllocation) %>%
       repeat_add_columns(tibble(year = MODEL_BASE_YEARS)) %>%
-      left_join_error_no_match(L144.non_hab_land,by=c("region","year")) %>%
-      mutate(value=totland-nonHab,
-             Units="thous km2") %>%
+      left_join_error_no_match(L144.non_hab_land,by = c("region","year")) %>%
+      mutate(value = totland-nonHab,
+             Units = "thous km2") %>%
       select(region,year,Units,value)
 
-    L144.hab_land_flsp_fin<-L144.hab_land_flsp %>%
-      filter(year==MODEL_FINAL_BASE_YEAR) %>%
+    L144.hab_land_flsp_fin <- L144.hab_land_flsp %>%
+      filter(year == if_else(MODEL_FINAL_BASE_YEAR > max(L144.hab_land_flsp$year),
+                             max(L144.hab_land_flsp$year),
+                             MODEL_FINAL_BASE_YEAR)) %>%
       select(-year) %>%
       repeat_add_columns(tibble(year = MODEL_FUTURE_YEARS)) %>%
       bind_rows(L144.hab_land_flsp) %>%
@@ -327,10 +329,10 @@ module_energy_LA144.building_det_flsp <- function(command, ...) {
 
     # ----------------------------------
     # Population per GCAM region is also used for the floorspace estimation:
-    L100.Pop_thous_R_Y<-L100.Pop_thous_ctry_Yh %>%
-      left_join_error_no_match(iso_GCAM_regID %>% select(GCAM_region_ID,iso), by="iso") %>%
+    L100.Pop_thous_R_Y <- L100.Pop_thous_ctry_Yh %>%
+      left_join_error_no_match(iso_GCAM_regID %>% select(GCAM_region_ID,iso), by = "iso") %>%
       group_by(GCAM_region_ID,year) %>%
-      summarise(value=sum(value)*1E3) %>%
+      summarise(value = sum(value) * 1E3) %>%
       ungroup()
 
     # Estimation of the Gompertz parameters(land.density.param,b.param,and income.param):
@@ -339,14 +341,14 @@ module_energy_LA144.building_det_flsp <- function(command, ...) {
     # - Similar (or higher) per capita income
     # - Similar (or lower) population density
     # Therefore, we substitute the parameters for USA by those estimated using subregional data (not included in the DS).
-    L144.flsp_param_pre<-L144.flsp_bm2_R_res_Yh_pre %>%
+    L144.flsp_param_pre <- L144.flsp_bm2_R_res_Yh_pre %>%
       left_join_error_no_match(GCAM_region_names, by="GCAM_region_ID") %>%
       # take all periods from regions with observed data:
       filter(region %in% regions_with_obs_data) %>%
       bind_rows(L144.flsp_bm2_R_res_Yh_pre %>%
                   left_join_error_no_match(GCAM_region_names, by="GCAM_region_ID") %>%
                   filter(region %notin% regions_with_obs_data,
-                          year<=avg_fin_obs_year)) %>%
+                          year <= avg_fin_obs_year)) %>%
       rename(flps_bm2 = value) %>%
       #add GDP
       left_join_error_no_match(L102.gdp_mil90usd_GCAM3_R_Y, by = c("GCAM_region_ID", "year")) %>%
@@ -359,8 +361,8 @@ module_energy_LA144.building_det_flsp <- function(command, ...) {
              pc_flsp = (flps_bm2* 1E9) / pop) %>%
       left_join_error_no_match(L144.hab_land_flsp_fin %>%
                                  group_by(region,Units) %>%
-                                 complete(nesting(year=min(L144.flsp_bm2_R_res_Yh_pre$year):max(L144.flsp_bm2_R_res_Yh_pre$year))) %>%
-                                 mutate(value=if_else(is.na(value),approx_fun(year,value,rule = 2),value)) %>%
+                                 complete(nesting(year = min(L144.flsp_bm2_R_res_Yh_pre$year):max(L144.flsp_bm2_R_res_Yh_pre$year))) %>%
+                                 mutate(value = if_else(is.na(value),approx_fun(year,value,rule = 2),value)) %>%
                                  ungroup() %>%
                                  select(-Units),
                               by = c("year", "region")) %>%

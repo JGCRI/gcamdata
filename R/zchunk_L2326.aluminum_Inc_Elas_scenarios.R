@@ -25,6 +25,7 @@ module_socioeconomics_L2326.aluminum_Inc_Elas_scenarios <- function(command, ...
              "L102.pcgdp_thous90USD_Scen_R_Y",
              "L102.pcgdp_thous90USD_GCAM3_R_Y",
              "L101.Pop_thous_Scen_R_Yfut",
+             "L101.Pop_thous_R_Yh",
              "L101.Pop_thous_GCAM3_R_Y",
              "L102.gdp_mil90usd_GCAM3_R_Y",
              "L1326.out_Mt_R_aluminum_Yh"))
@@ -66,6 +67,10 @@ module_socioeconomics_L2326.aluminum_Inc_Elas_scenarios <- function(command, ...
       ungroup() %>%
       rename(pcgdp_90thousUSD = value) %>%
       mutate(year = as.integer(year)) %>%
+      left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID")
+
+    L101.Pop_thous_R_Yh <- get_data(all_data, "L101.Pop_thous_R_Yh", strip_attributes = TRUE) %>%
+      rename(population = value) %>%
       left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID")
 
     L101.Pop_thous_Scen_R_Yfut <- get_data(all_data, "L101.Pop_thous_Scen_R_Yfut", strip_attributes = TRUE) %>%
@@ -115,10 +120,17 @@ module_socioeconomics_L2326.aluminum_Inc_Elas_scenarios <- function(command, ...
       select( GCAM_region_ID, year,population_2015 )
 
     # ===================================================
+    # Create one population dataset to pass timeshift tests
+    # This is required because L101.Pop_thous_Scen_R_Yfut uses FUTURE_YEARS,
+    # but here we want to create a dataset from MODEL_FUTURE_YEARS, which may start before FUTURE_YEARS
+    L101_Pop_hist_and_fut <- L101.Pop_thous_R_Yh %>%
+      repeat_add_columns(distinct(L101.Pop_thous_Scen_R_Yfut, scenario)) %>%
+      bind_rows(L101.Pop_thous_Scen_R_Yfut)
+
     #First calculate the per capita aluminum consumption
     L2326.pcgdp_thous90USD_Scen_R_Y  <- L102.pcgdp_thous90USD_Scen_R_Y %>%
       filter(year %in%  MODEL_FUTURE_YEARS) %>%
-      left_join_error_no_match(L101.Pop_thous_Scen_R_Yfut, by = c("scenario", "GCAM_region_ID", "year", "region")) %>%
+      left_join_error_no_match(L101_Pop_hist_and_fut, by = c("scenario", "GCAM_region_ID", "year", "region")) %>%
       left_join_error_no_match(A326.inc_elas_parameter, by = c( "region")) %>%
       mutate(per_capita_aluminum = a * exp(b/(pcgdp_90thousUSD * 1000 * COV_1990USD_2005USD)) * (1-m) ^ (year- 2015),
              aluminum_pro = per_capita_aluminum * population*0.000001)
