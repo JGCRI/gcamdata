@@ -25,6 +25,7 @@ module_socioeconomics_L2323.iron_steel_Inc_Elas_scenarios <- function(command, .
              "L102.pcgdp_thous90USD_Scen_R_Y",
              "L102.pcgdp_thous90USD_GCAM3_R_Y",
              "L101.Pop_thous_Scen_R_Yfut",
+             "L101.Pop_thous_R_Yh",
              "L101.Pop_thous_GCAM3_R_Y",
              "L102.gdp_mil90usd_GCAM3_R_Y",
              "L1323.out_Mt_R_iron_steel_Yh"))
@@ -68,6 +69,10 @@ module_socioeconomics_L2323.iron_steel_Inc_Elas_scenarios <- function(command, .
       mutate(year = as.integer(year)) %>%
       left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID")
 
+    L101.Pop_thous_R_Yh <- get_data(all_data, "L101.Pop_thous_R_Yh", strip_attributes = TRUE) %>%
+      rename(population = value) %>%
+      left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID")
+
     L101.Pop_thous_Scen_R_Yfut <- get_data(all_data, "L101.Pop_thous_Scen_R_Yfut", strip_attributes = TRUE) %>%
       ungroup() %>%
       rename(population = value) %>%
@@ -106,10 +111,17 @@ module_socioeconomics_L2323.iron_steel_Inc_Elas_scenarios <- function(command, .
 
 
     # ===================================================
+    # Create one population dataset to pass timeshift tests
+    # This is required because L101.Pop_thous_Scen_R_Yfut uses FUTURE_YEARS,
+    # but here we want to create a dataset from MODEL_FUTURE_YEARS, which may start before FUTURE_YEARS
+    L101_Pop_hist_and_fut <- L101.Pop_thous_R_Yh %>%
+      repeat_add_columns(distinct(L101.Pop_thous_Scen_R_Yfut, scenario)) %>%
+      bind_rows(L101.Pop_thous_Scen_R_Yfut)
+
     #First calculate the per capita steel consumption
     L2323.pcgdp_thous90USD_Scen_R_Y  <- L102.pcgdp_thous90USD_Scen_R_Y %>%
       filter(year %in%  MODEL_FUTURE_YEARS) %>%
-      left_join_error_no_match(L101.Pop_thous_Scen_R_Yfut, by = c("scenario", "GCAM_region_ID", "year", "region")) %>%
+      left_join_error_no_match(L101_Pop_hist_and_fut, by = c("scenario", "GCAM_region_ID", "year", "region")) %>%
       left_join_error_no_match(A323.inc_elas_parameter, by = c( "region")) %>%
       mutate(per_capita_steel = a * exp(b/(pcgdp_90thousUSD * 1000 * COV_1990USD_2005USD)) * (1-m) ^ (year- MODEL_FINAL_BASE_YEAR),
              steel_pro = per_capita_steel * population*0.000001)
@@ -187,61 +199,61 @@ module_socioeconomics_L2323.iron_steel_Inc_Elas_scenarios <- function(command, .
     L2323.pcgdp_thous90USD_Scen_R_Y[["gSSP1"]] %>%
       add_title("iron_steel Income Elasticity: gssp1") %>%
       add_legacy_name("L2323.iron_steel_incelas_gssp1")%>%
-      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut","socioeconomics/A323.inc_elas_parameter") ->
+      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut", "L101.Pop_thous_R_Yh","socioeconomics/A323.inc_elas_parameter") ->
       L2323.iron_steel_incelas_gssp1
 
     L2323.pcgdp_thous90USD_Scen_R_Y[["gSSP2"]] %>%
       add_title("iron_steel Income Elasticity: gssp2") %>%
       add_legacy_name("L2323.iron_steel_incelas_gssp2")%>%
-      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut","socioeconomics/A323.inc_elas_parameter") ->
+      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut", "L101.Pop_thous_R_Yh","socioeconomics/A323.inc_elas_parameter") ->
       L2323.iron_steel_incelas_gssp2
 
     L2323.pcgdp_thous90USD_Scen_R_Y[["gSSP3"]] %>%
       add_title("iron_steel Income Elasticity: gssp3") %>%
       add_legacy_name("L2323.iron_steel_incelas_gssp3")%>%
-      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut","socioeconomics/A323.inc_elas_parameter") ->
+      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut", "L101.Pop_thous_R_Yh","socioeconomics/A323.inc_elas_parameter") ->
       L2323.iron_steel_incelas_gssp3
 
     L2323.pcgdp_thous90USD_Scen_R_Y[["gSSP4"]] %>%
       add_title("iron_steel Income Elasticity: gssp4") %>%
       add_legacy_name("L2323.iron_steel_incelas_gssp4")%>%
-      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut","socioeconomics/A323.inc_elas_parameter") ->
+      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut", "L101.Pop_thous_R_Yh","socioeconomics/A323.inc_elas_parameter") ->
       L2323.iron_steel_incelas_gssp4
 
     L2323.pcgdp_thous90USD_Scen_R_Y[["gSSP5"]] %>%
       add_title("iron_steel Income Elasticity: gssp5") %>%
       add_legacy_name("L2323.iron_steel_incelas_gssp5")%>%
-      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut","socioeconomics/A323.inc_elas_parameter") ->
+      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut", "L101.Pop_thous_R_Yh","socioeconomics/A323.inc_elas_parameter") ->
       L2323.iron_steel_incelas_gssp5
 
     L2323.pcgdp_thous90USD_Scen_R_Y[["SSP1"]] %>%
       add_title("iron_steel Income Elasticity: ssp1") %>%
       add_legacy_name("L2323.iron_steel_incelas_ssp1")%>%
-      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut","socioeconomics/A323.inc_elas_parameter") ->
+      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut", "L101.Pop_thous_R_Yh","socioeconomics/A323.inc_elas_parameter") ->
       L2323.iron_steel_incelas_ssp1
 
     L2323.pcgdp_thous90USD_Scen_R_Y[["SSP2"]] %>%
       add_title("iron_steel Income Elasticity: ssp2") %>%
       add_legacy_name("L2323.iron_steel_incelas_ssp2")%>%
-      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut","socioeconomics/A323.inc_elas_parameter") ->
+      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut", "L101.Pop_thous_R_Yh","socioeconomics/A323.inc_elas_parameter") ->
       L2323.iron_steel_incelas_ssp2
 
     L2323.pcgdp_thous90USD_Scen_R_Y[["SSP3"]] %>%
       add_title("iron_steel Income Elasticity: ssp3") %>%
       add_legacy_name("L2323.iron_steel_incelas_ssp3")%>%
-      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut","socioeconomics/A323.inc_elas_parameter") ->
+      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut", "L101.Pop_thous_R_Yh","socioeconomics/A323.inc_elas_parameter") ->
       L2323.iron_steel_incelas_ssp3
 
     L2323.pcgdp_thous90USD_Scen_R_Y[["SSP4"]] %>%
       add_title("iron_steel Income Elasticity: ssp4") %>%
       add_legacy_name("L2323.iron_steel_incelas_ssp4")%>%
-      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut","socioeconomics/A323.inc_elas_parameter") ->
+      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut", "L101.Pop_thous_R_Yh","socioeconomics/A323.inc_elas_parameter") ->
       L2323.iron_steel_incelas_ssp4
 
     L2323.pcgdp_thous90USD_Scen_R_Y[["SSP5"]] %>%
       add_title("iron_steel Income Elasticity: ssp5") %>%
       add_legacy_name("L2323.iron_steel_incelas_ssp5")%>%
-      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut","socioeconomics/A323.inc_elas_parameter") ->
+      add_precursors("L102.pcgdp_thous90USD_Scen_R_Y","L101.Pop_thous_Scen_R_Yfut", "L101.Pop_thous_R_Yh","socioeconomics/A323.inc_elas_parameter") ->
       L2323.iron_steel_incelas_ssp5
 
     L2323.iron_steel_incelas_gcam3 %>%

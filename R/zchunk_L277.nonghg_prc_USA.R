@@ -150,7 +150,7 @@ module_gcamusa_L277.nonghg_prc_USA <- function(command, ...) {
       write_to_all_states(LEVEL2_DATA_NAMES[["GDPCtrlMax"]]) %>%
       mutate(year = max(MODEL_BASE_YEARS),
              # this is a somewhat arbitrary value, but consistent between pollutants
-             max.reduction = gcamusa.NONGHG_PROC_SECTORS.gdp_max_reduction ) %>%
+             max.reduction = gcamusa.NONGHG_PROC_SECTORS.GDP_MAX_REDUCTION ) %>%
       distinct()
 
     # Adding controls for PM and NH3 emissions
@@ -159,7 +159,7 @@ module_gcamusa_L277.nonghg_prc_USA <- function(command, ...) {
       filter(Non.CO2 == "NMVOC") %>%
       # then removing this column
       select( -Non.CO2 ) %>%
-      repeat_add_columns(tibble(Non.CO2 = gcamusa.NONGHG_PROC_SECTORS.missing_pollutants)) %>%
+      repeat_add_columns(tibble(Non.CO2 = gcamusa.NONGHG_PROC_SECTORS.MISSING_POLLUTANTS)) %>%
       # rebind to table without PMs and NH3
       bind_rows( L277.nonghg_max_reduction_USA_noPM )
 
@@ -169,7 +169,7 @@ module_gcamusa_L277.nonghg_prc_USA <- function(command, ...) {
       filter(subsector == "landfills") %>%
       # then removing this column
       select( -subsector ) %>%
-      repeat_add_columns(tibble(subsector = gcamusa.NONGHG_PROC_SECTORS.missing_subsectors)) %>%
+      repeat_add_columns(tibble(subsector = gcamusa.NONGHG_PROC_SECTORS.MISSING_SUBSECTORS)) %>%
       # making the stub.technology name match the subsector name
       mutate( stub.technology = subsector ) %>%
       # rebind to table without wastewater
@@ -182,7 +182,7 @@ module_gcamusa_L277.nonghg_prc_USA <- function(command, ...) {
       write_to_all_states(LEVEL2_DATA_NAMES[["GDPCtrlSteep"]]) %>%
       mutate(year = max(MODEL_BASE_YEARS),
              # this is the current value for all pollutants anyway
-             steepness = gcamusa.NONGHG_PROC_SECTORS.gdp_steepness) %>%
+             steepness = gcamusa.NONGHG_PROC_SECTORS.GDP_STEEPNESS) %>%
       distinct()
 
     # Adding controls for PM and NH3 emissions
@@ -191,7 +191,7 @@ module_gcamusa_L277.nonghg_prc_USA <- function(command, ...) {
       filter(Non.CO2 == "NMVOC") %>%
       # then removing this column
       select( -Non.CO2 ) %>%
-      repeat_add_columns(tibble(Non.CO2 = gcamusa.NONGHG_PROC_SECTORS.missing_pollutants)) %>%
+      repeat_add_columns(tibble(Non.CO2 = gcamusa.NONGHG_PROC_SECTORS.MISSING_POLLUTANTS)) %>%
       # rebind to table without PMs and NH3
       bind_rows( L277.nonghg_steepness_USA_noPM )
 
@@ -201,7 +201,7 @@ module_gcamusa_L277.nonghg_prc_USA <- function(command, ...) {
       filter(subsector == "landfills") %>%
       # then removing this column
       select( -subsector ) %>%
-      repeat_add_columns(tibble(subsector = gcamusa.NONGHG_PROC_SECTORS.missing_subsectors)) %>%
+      repeat_add_columns(tibble(subsector = gcamusa.NONGHG_PROC_SECTORS.MISSING_SUBSECTORS)) %>%
       # making the stub.technology name match the subsector name
       mutate( stub.technology = subsector ) %>%
       # rebind to table without wastewater

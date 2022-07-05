@@ -161,7 +161,7 @@ module_emissions_L102.nonco2_ceds_R_S_Y <- function(command, ...) {
 
         # Filter for iso's whose emissions will be scaled to CEDS (currently just USA)
         L102.CEDS %>%
-          filter(iso %in% emissions.CEDS_scale) -> L102.CEDS_to_scale
+          filter(iso %in% emissions.CEDS_SCALE) -> L102.CEDS_to_scale
 
 
         # Aggregate by region, GHG, and CEDS sector

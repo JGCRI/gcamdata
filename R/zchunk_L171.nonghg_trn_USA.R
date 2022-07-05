@@ -104,7 +104,7 @@ module_gcamusa_L171.nonghg_trn_USA <- function(command, ...) {
       filter(Vintage >= gcamusa.MOVES_MIN_VINTAGE_YEAR & yearID >= min(gcamusa.MOVES_BASE_YEAR_CLASSES)) %>%
       # Assign vintages into five-year bins since emissions factor data is provided in 5 year increments.
       # Each bin gets its year and the 4 years preceding it (i.e. 2010 has 2006-2010).
-      mutate(Vintage = ceiling(Vintage/gcamusa.TRN_EF_timestep)*gcamusa.TRN_EF_timestep) %>%
+      mutate(Vintage = ceiling(Vintage/gcamusa.TRN_EF_TIMESTEP)*gcamusa.TRN_EF_TIMESTEP) %>%
       # Aggregate so the age fractions still add up to one
       group_by(sourceTypeID, yearID, Vintage) %>%
       summarise(ageFraction = sum(ageFraction))%>%
@@ -159,7 +159,7 @@ module_gcamusa_L171.nonghg_trn_USA <- function(command, ...) {
       filter(ageID <= gcamusa.MOVES_MAX_AGE) %>%
       # Assign vintages into five-year bins since emissions factor data is provided in 5 year increments.
       # Each bin gets its year and the 4 years preceding it (i.e. 2010 has 2006-2010).
-      mutate(Vintage = ceiling(Vintage/gcamusa.TRN_EF_timestep)*gcamusa.TRN_EF_timestep) %>%
+      mutate(Vintage = ceiling(Vintage/gcamusa.TRN_EF_TIMESTEP)*gcamusa.TRN_EF_TIMESTEP) %>%
       # Aggregate so the age fractions still add up to one
       group_by(MARKAL_Class, yearID, Vintage) %>%
       summarise(ageFraction = sum(ageFraction))%>%

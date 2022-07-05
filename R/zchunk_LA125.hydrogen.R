@@ -297,8 +297,8 @@ module_energy_LA125.hydrogen <- function(command, ...) {
       complete(nesting(sector.name, subsector.name, technology,minicam.energy.input), year = sort(unique(c(year, MODEL_BASE_YEARS, MODEL_FUTURE_YEARS)))) %>%
       arrange(sector.name, subsector.name, technology, minicam.energy.input, year) %>%
       group_by(sector.name, subsector.name, technology, minicam.energy.input) %>%
-      mutate(value = 1 / value) %>%
-      mutate(units = if_else(minicam.energy.input %in% c( 'water_td_ind_C','water_td_ind_W' ),'GJ H2 / M3 H2O','GJ H2 / GJ input')) %>%
+      mutate(value = 1 / value,
+             units = if_else(minicam.energy.input %in% c( 'water_td_ind_C','water_td_ind_W' ),'GJ H2 / M3 H2O','GJ H2 / GJ input')) %>%
       fill(units,.direction='downup') %>%
       mutate(improvement_to_2040 = (value[year == 2040] - value[year == 2015]) / value[year == 2015],
              improvement_rate = (1 + improvement_to_2040) ^ (1 / (2040 - 2015)) - 1) %>%
