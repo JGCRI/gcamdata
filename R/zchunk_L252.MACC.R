@@ -164,23 +164,24 @@ module_emissions_L252.MACC <- function(command, ...) {
     # L252.AgMAC: Agricultural abatement (including bioenergy)
     # L252.AgMAC_full contains year-specific MACs for all future modeling periods till 2050
     L252.AgMAC_full <- L211.AGREmissions %>%
+      filter(Non.CO2 %in% emissions.AG_MACC_GHG_NAMES) %>%
       select(-input.emissions, -year) %>%
-      bind_rows(L211.AGRBio %>%
+      bind_rows(filter(L211.AGRBio, Non.CO2 %in% emissions.AG_MACC_GHG_NAMES) %>%
                   select(-bio_N2O_coef, -year)) %>%
       distinct() %>%
-      filter(Non.CO2 %in% emissions.AG_MACC_GHG_NAMES) %>%
       # Add in mac.control
       left_join_error_no_match(GCAM_sector_tech %>%
                                  select(mac.control = EPA_MACC_Sector, supplysector) %>%
                                  distinct, # taking distinct values because there were repeats for AEZs
                                by = c("AgSupplySector" = "supplysector")) %>%
       mac_reduction_adder %>%
-      arrange(region, AgProductionTechnology) %>%
+      # arrange(region, AgProductionTechnology) %>%
       # Add column for market variable
       mutate(market.name = emissions.MAC_MARKET) %>%
-      repeat_add_columns(tibble(Irr_Rfd = paste0(aglu.IRR_DELIMITER, c("IRR", "RFD")))) %>%
-      repeat_add_columns(tibble(mgmt = paste0(aglu.MGMT_DELIMITER, c("lo", "hi")))) %>%
-      unite(AgProductionTechnology, AgProductionTechnology, Irr_Rfd, mgmt, sep = "") %>%
+      repeat_add_columns(tibble(Irr_Rfd_mgmt = paste0(aglu.IRR_DELIMITER,
+                                                 paste(rep(c("IRR", "RFD"), each = length(c("lo", "hi"))),
+                                                       c("lo", "hi"), sep = aglu.MGMT_DELIMITER)))) %>%
+      unite(AgProductionTechnology, AgProductionTechnology, Irr_Rfd_mgmt, sep = "") %>%
       # Remove EPA_Region - useful up to now for diagnostic, but not needed for csv->xml conversion
       select(region, AgSupplySector, AgSupplySubsector, AgProductionTechnology, year, Non.CO2,
              mac.control, tax, mac.reduction, market.name)
@@ -330,36 +331,29 @@ module_emissions_L252.MACC <- function(command, ...) {
 
     # find the first non-all-zero-MAC year, maybe different by region/sector
     # here conduct this process at this combined tibble (L252.MAC_summary) containing all sectors
-    # the idea is creating a varible called "key" containing the combined information of sector-subsector-technology-gas-base.year
     # both the one-time MAC (MAC at base year) and all TCs will be defined at this sector/subsector/technology/gas/base.year in xmls
     L252.MAC_base_year <- L252.MAC_summary %>%
-      # use left_join to only keep omit != 1 rows (NAs)
+      # use anti_join to get rid of cooling rows
       # here cooling' mitigation potential increased a lot (leading to tech.change > 1), so use the
       # second non-all-zero-MAC year has its MAC Tech.change base year
-      left_join(A_MACC_TechChange_omit, by = c("supplysector", "year")) %>%
-      filter(is.na(omit)) %>%
-      select(-omit) %>%
-      mutate(key = paste(region, supplysector, subsector, stub.technology, Non.CO2, sep = "-")) %>%
-      filter(!(key %in% L252.MAC_remove$key)) %>%
+      anti_join(A_MACC_TechChange_omit, by = c("supplysector", "year")) %>%
+      anti_join(L252.MAC_remove, by = c("region", "supplysector", "subsector", "stub.technology", "Non.CO2", "mac.control")) %>%
       filter(mac.reduction > 0) %>%
-      group_by(key) %>%
-      arrange() %>%
-      slice(1) %>%
+      group_by(region, supplysector, subsector, stub.technology, Non.CO2) %>%
+      filter(year == min(year)) %>%
       ungroup() %>%
-      rename(mac.reduction.base = mac.reduction) %>%
-      rename(base.year = year) %>%
-      mutate(key = paste(region, supplysector, subsector, stub.technology, Non.CO2, base.year, sep = "-")) %>%
-      select(key, base.year)
+      select(region, supplysector, subsector, stub.technology, Non.CO2, year)
 
     # next will create MAC file for each broad catagory as usual
 
     # 1) AgMAC for agriculture
     # base-year MAC curve
-    L252.AgMAC <- L252.AgMAC_full %>%
-      mutate(key = paste(region, AgSupplySector, AgSupplySubsector, AgProductionTechnology, Non.CO2, year, sep = "-")) %>%
-      left_join(L252.MAC_base_year, by = "key") %>%
-      na.omit() %>%
-      select(-key, -base.year)
+    # SLOW
+    L252.AgMAC <-  L252.AgMAC_full %>%
+      inner_join(L252.MAC_base_year, by = c("region", "AgSupplySector" = "supplysector",
+                                                "AgSupplySubsector" = "subsector",
+                                                "AgProductionTechnology" = "stub.technology",
+                                                "year", "Non.CO2"))
 
     # combination of sector/subsector/gas used to isolate TC rows from the combined TC file (L252.MAC_summary_TC_average)
     Ag_key <- L252.AgMAC %>%
@@ -380,10 +374,9 @@ module_emissions_L252.MACC <- function(command, ...) {
     # 2) L252.MAC_an for livestock
     # base-year MAC curve
     L252.MAC_an <- L252.MAC_an_full %>%
-      mutate(key = paste(region, supplysector, subsector, stub.technology, Non.CO2, year, sep = "-")) %>%
-      left_join(L252.MAC_base_year, by = "key") %>%
-      na.omit() %>%
-      select(-key, -base.year)
+      inner_join(L252.MAC_base_year, by = c("region", "supplysector",
+                                                "subsector", "stub.technology",
+                                                "year", "Non.CO2"))
 
     # combination of sector/subsector/gas used to isolate TC rows from the combined TC file (L252.MAC_summary_TC_average)
     An_key <- L252.MAC_an %>%
@@ -401,10 +394,9 @@ module_emissions_L252.MACC <- function(command, ...) {
     # 3) L252.MAC_prc for process emissions
     # base-year MAC curve
     L252.MAC_prc <- L252.MAC_prc_full %>%
-      mutate(key = paste(region, supplysector, subsector, stub.technology, Non.CO2, year, sep = "-")) %>%
-      left_join(L252.MAC_base_year, by = "key") %>%
-      na.omit() %>%
-      select(-key, -base.year)
+      inner_join(L252.MAC_base_year, by = c("region", "supplysector",
+                                            "subsector", "stub.technology",
+                                            "year", "Non.CO2"))
 
     # combination of sector/subsector/gas used to isolate TC rows from the combined TC file (L252.MAC_summary_TC_average)
     Proc_key <- L252.MAC_prc %>%
@@ -422,10 +414,9 @@ module_emissions_L252.MACC <- function(command, ...) {
     # 4) L252.MAC_higwp for F-gases
     # base-year MAC curve
     L252.MAC_higwp <- L252.MAC_higwp_full %>%
-      mutate(key = paste(region, supplysector, subsector, stub.technology, Non.CO2, year, sep = "-")) %>%
-      left_join(L252.MAC_base_year, by = "key") %>%
-      na.omit() %>%
-      select(-key, -base.year)
+      inner_join(L252.MAC_base_year, by = c("region", "supplysector",
+                                            "subsector", "stub.technology",
+                                            "year", "Non.CO2"))
 
     # combination of sector/subsector/gas used to isolate TC rows from the combined TC file (L252.MAC_summary_TC_average)
     HighGwp_key <- L252.MAC_higwp %>%
@@ -443,10 +434,10 @@ module_emissions_L252.MACC <- function(command, ...) {
     # 5) L252.ResMAC_fos for resource production
     # base-year MAC curve
     L252.ResMAC_fos <- L252.ResMAC_fos_full %>%
-      mutate(key = paste(region, resource, subresource, technology, Non.CO2, year, sep = "-")) %>%
-      left_join(L252.MAC_base_year, by = "key") %>%
-      na.omit() %>%
-      select(-key, -base.year) %>%
+      inner_join(L252.MAC_base_year, by = c("region", "resource" = "supplysector",
+                                            "subresource" = "subsector",
+                                            "technology" = "stub.technology",
+                                            "year", "Non.CO2")) %>%
       mutate(year = emissions.CTRL_BASE_YEAR)
 
     # combination of sector/subsector/gas used to isolate TC rows from the combined TC file (L252.MAC_summary_TC_average)
