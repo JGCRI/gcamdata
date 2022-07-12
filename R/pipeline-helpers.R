@@ -144,6 +144,37 @@ fast_left_join <- function(left, right, by) {
   as_tibble(dtr[dtl, allow.cartesian=TRUE])
 }
 
+#' Fast separate for large tables
+#'
+#' The tidyr separate function is a little on the slow side for very large
+#' tables.  This version converts its inputs
+#' \code{\link[data.table]{data.table}} structures, and uses that package's
+#' \code{\link[data.table]{tstrsplit}} function to do a faster separate.
+#'
+#' Because there is some overhead associated with setting up and indexing the
+#' data.table structures, this function is only useful when the table
+#' is quite large.
+#'
+#' @param data The table that would have been passed to separate.  Any class inheriting from
+#' \code{data.frame} is acceptable.
+#' @param old_col Character string of old column name.
+#' @param new_cols Character vector of new columns to create.
+#' @param sep Character vector of text to split the column on.
+#' @param ... Rest of call to \code{\link[data.table]{tstrsplit}}
+#' @param drop Logical to determine whether to drop \code{old_col} from \code{data}. Defaults to true.
+#' @return The left join of \code{left} and \code{right}.  It will be returned
+#' as a \code{tbl_df}, irrespective of the type of the inputs.
+#' @importFrom data.table data.table
+#' @importFrom assertthat assert_that
+#' @importFrom tibble as_tibble
+fast_separate <- function(data, old_col, new_cols, sep, ..., drop = T) {
+  assert_that(is.data.frame(data))
+
+  data_dt <- data.table::as.data.table(data)
+  data_dt[, (new_cols) := data.table::tstrsplit(get(old_col), sep, ...)]
+  if (drop){data_dt[, variable := NULL]}
+  as_tibble(data_dt)
+}
 
 #' approx_fun
 #'

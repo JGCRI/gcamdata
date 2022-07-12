@@ -312,7 +312,8 @@ module_gcamusa_L171.nonghg_trn_USA <- function(command, ...) {
     # Gather the raw data
     MARKAL_LDV_EFs_gpm.long <- MARKAL_LDV_EFs_gpm %>%
       tidyr::gather(variable, value, -Class, -Fuel, -Vintage, convert=T) %>%
-      separate(variable, into = c("pollutant", "year", "region"), sep="\\.", convert = T) %>%
+      fast_separate(old_col = "variable", new_cols = c("pollutant", "year", "region"),
+                    sep = ".", fixed=TRUE, type.convert=TRUE) %>%
       mutate(pollutant = gsub("PM2_5", "PM2.5", pollutant)) %>%
       ###NOTE: filtering out some fuels for now for lack of efficiency/service demand data, and also the CO2 data
       filter(pollutant != "CO2" & !(Fuel %in% gcamusa.MARKAL_LDV_FILTER_OUT_FUELS))
@@ -458,7 +459,8 @@ module_gcamusa_L171.nonghg_trn_USA <- function(command, ...) {
     # Gather the raw data
     MARKAL_HDV_EFs_gpm.long <- MARKAL_HDV_EFs_gpm %>%
       tidyr::gather(variable ,value, -Class, -Fuel, -Vintage, convert=T) %>%
-      separate(variable, into = c("pollutant", "year", "region"), sep="\\.", convert = T) %>%
+      fast_separate(old_col = "variable", new_cols = c("pollutant", "year", "region"),
+                    sep = ".",fixed=TRUE, type.convert=TRUE) %>%
       mutate(pollutant = gsub("PM2_5", "PM2.5", pollutant)) %>%
       ###NOTE: filtering out the CO2 data
       filter(pollutant != "CO2")
@@ -680,7 +682,7 @@ module_gcamusa_L171.nonghg_trn_USA <- function(command, ...) {
     L171.nonco2_tgpkm_censusR_trn_SMarkal_F_V_Y <- L171.trn_USA_emiss_degrades %>%
       rename(class = Class, fuel = Fuel, vintage = Vintage) %>%
       select( c( region, class, fuel, vintage, pollutant, year, value ) ) %>%
-      arrange(region, class, fuel, vintage, pollutant)%>%
+      arrange(region, class, fuel, vintage, pollutant) %>%
       mutate(year = as.numeric(year)) %>%
       na.omit()
 
