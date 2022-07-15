@@ -25,7 +25,7 @@ module_emissions_L161.nonghg_en_ssp_R_S_T_Y <- function(command, ...) {
              FILE = "emissions/GAINS_activities",
              FILE = "emissions/GAINS_emissions",
              "L102.pcgdp_thous90USD_Scen_R_Y",
-             "L111.nonghg_tgej_R_en_S_F_Yh",
+             "L111.nonghg_tgej_R_en_S_F_Yh_infered_combEF_AP",
              "L114.bcoc_tgej_R_en_S_F_2000",
              FILE = "emissions/A61_emfact_rules"))
   } else if(command == driver.DECLARE_OUTPUTS) {
@@ -64,7 +64,7 @@ module_emissions_L161.nonghg_en_ssp_R_S_T_Y <- function(command, ...) {
       # CLE = current legislation, SLE = stringent legislation, MFR = maximum feasible reductions
       gather(scenario, value, CLE, MFR, SLE)
     L102.pcgdp_thous90USD_Scen_R_Y <- get_data(all_data, "L102.pcgdp_thous90USD_Scen_R_Y")
-    L111.nonghg_tgej_R_en_S_F_Yh <- get_data(all_data, "L111.nonghg_tgej_R_en_S_F_Yh")
+    L111.nonghg_tgej_R_en_S_F_Yh_infered_combEF_AP <- get_data(all_data, "L111.nonghg_tgej_R_en_S_F_Yh_infered_combEF_AP")
     L114.bcoc_tgej_R_en_S_F_2000 <- get_data(all_data, "L114.bcoc_tgej_R_en_S_F_2000") %>%
       gather(year, value, `2000`) %>%
       mutate(year = as.integer(year))
@@ -134,14 +134,11 @@ module_emissions_L161.nonghg_en_ssp_R_S_T_Y <- function(command, ...) {
              region_grouping = if_else(value >= emissions.LOW_PCGDP, "highmed", "low"))
 
     # Compute future emissions factors for GAINS scenarios
-    emfact_scaled <- L111.nonghg_tgej_R_en_S_F_Yh %>%
+    emfact_scaled <- L111.nonghg_tgej_R_en_S_F_Yh_infered_combEF_AP %>%
       filter(year == emissions.GAINS_BASE_YEAR) %>%
-      # Add in BC/OC emissions factors, assumed that 2005 emissions factors are identical to 2000
-      bind_rows(L114.bcoc_tgej_R_en_S_F_2000 %>%
-                  mutate(year = emissions.GAINS_BASE_YEAR)) %>%
       # Add GAINS regions and sectors
       left_join_error_no_match(A_regions %>% select(GCAM_region_ID, GAINS_region), by = "GCAM_region_ID") %>%
-      left_join(GCAM_sector_tech %>% select(supplysector, subsector, stub.technology, IIASA_sector),
+      left_join(GCAM_sector_tech %>% select(supplysector, subsector, stub.technology, IIASA_sector) %>% distinct(),
                 by = c("supplysector", "subsector", "stub.technology")) %>%
       # Remove non-IIASA sectors and technologies with 0 emissions factor in base year. No reason to read in future zeroes.
       filter(!is.na(IIASA_sector), value != 0) %>%
@@ -263,7 +260,7 @@ module_emissions_L161.nonghg_en_ssp_R_S_T_Y <- function(command, ...) {
                      "emissions/GAINS_activities",
                      "emissions/GAINS_emissions",
                      "L102.pcgdp_thous90USD_Scen_R_Y",
-                     "L111.nonghg_tgej_R_en_S_F_Yh",
+                     "L111.nonghg_tgej_R_en_S_F_Yh_infered_combEF_AP",
                      "L114.bcoc_tgej_R_en_S_F_2000",
                      "emissions/A61_emfact_rules") ->
       L161.SSP15_EF
@@ -280,7 +277,7 @@ module_emissions_L161.nonghg_en_ssp_R_S_T_Y <- function(command, ...) {
                      "emissions/GAINS_activities",
                      "emissions/GAINS_emissions",
                      "L102.pcgdp_thous90USD_Scen_R_Y",
-                     "L111.nonghg_tgej_R_en_S_F_Yh",
+                     "L111.nonghg_tgej_R_en_S_F_Yh_infered_combEF_AP",
                      "L114.bcoc_tgej_R_en_S_F_2000",
                      "emissions/A61_emfact_rules") ->
       L161.SSP2_EF
@@ -297,7 +294,7 @@ module_emissions_L161.nonghg_en_ssp_R_S_T_Y <- function(command, ...) {
                      "emissions/GAINS_activities",
                      "emissions/GAINS_emissions",
                      "L102.pcgdp_thous90USD_Scen_R_Y",
-                     "L111.nonghg_tgej_R_en_S_F_Yh",
+                     "L111.nonghg_tgej_R_en_S_F_Yh_infered_combEF_AP",
                      "L114.bcoc_tgej_R_en_S_F_2000",
                      "emissions/A61_emfact_rules") ->
       L161.SSP34_EF

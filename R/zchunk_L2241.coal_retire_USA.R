@@ -1,3 +1,5 @@
+# Copyright 2019 Battelle Memorial Institute; see the LICENSE file.
+
 #' module_gcamusa_L2241.coal_retire_USA
 #'
 #' Generates GCAM-USA model input for removing coal capacity retired between 2011 and 2015, 2016 and 2020, and vintaging capacity which continues to operate beyond 2020.
@@ -272,9 +274,9 @@ module_gcamusa_L2241.coal_retire_USA <- function(command, ...) {
       left_join(eia_923_data_2018 %>%
                   rename(generation = Net.Generation.Year.To.Date),
                 by = c("State", "Generator.ID" = "Generator.Id", "Plant.Code" = "Plant.Id")) %>%
-      replace_na(list(generation = 0)) %>%
+      replace_na(list(generation = as.integer(0))) %>%
       # a couple of plants in MO, kY, and MI have negative generation values - reset to zero
-      mutate(generation = if_else(generation < 0, 0 , generation)) ->
+      mutate(generation = if_else(generation < 0, as.integer(0), generation)) ->
       L2241.coal_units_gen_2018
 
     # The Planned.Retirement.Year variable reflects planned retirements.
