@@ -146,21 +146,29 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
       bind_rows(CEDS_int_shipping)->L112.CEDS_GCAM
 
     #In case of tanker loading emissions which are classified as process emissions, transfer them to refined liquids. Same for processs industrial energy emissions
+    # SLOW -- mostly at group_by summarise
     L112.CEDS_GCAM %>%
-      mutate(CEDS_agg_fuel=if_else(CEDS_agg_sector=="trn_intl_ship",if_else(CEDS_agg_fuel=="process","refined liquids",CEDS_agg_fuel),CEDS_agg_fuel)) %>%
+      mutate(CEDS_agg_fuel = if_else(CEDS_agg_sector == "trn_intl_ship",
+                                     if_else(CEDS_agg_fuel == "process", "refined liquids", CEDS_agg_fuel),
+                                     CEDS_agg_fuel),
       # Note that these are 1A1bc other energy transformation emissions, which are from both refineries and processes such as coal coke plants. These will be broken out in CEDS in the future in more detail.
-      mutate(CEDS_agg_fuel=if_else(CEDS_agg_sector=="industry_energy",if_else(CEDS_agg_fuel=="process","refined liquids",CEDS_agg_fuel),CEDS_agg_fuel)) %>%
+        CEDS_agg_fuel = if_else(CEDS_agg_sector == "industry_energy",
+                              if_else(CEDS_agg_fuel == "process", "refined liquids", CEDS_agg_fuel),
+                              CEDS_agg_fuel),
       #Only keep nitric and adipic acids for N2O. For the rest, put these in generic industrial processes.
-      mutate(CEDS_agg_sector=if_else(Non.CO2 !="N2O",if_else(CEDS_agg_fuel=="process",
-                                                             if_else(CEDS_agg_sector=="chemicals_nitric","industry_processes",CEDS_agg_sector),CEDS_agg_sector),CEDS_agg_sector)) %>%
-      mutate(CEDS_agg_sector=if_else(Non.CO2 !="N2O",if_else(CEDS_agg_fuel=="process",
-                                                             if_else(CEDS_agg_sector=="chemicals_adipic","industry_processes",CEDS_agg_sector),CEDS_agg_sector),CEDS_agg_sector)) %>%
+        CEDS_agg_sector = if_else(Non.CO2 !="N2O",
+                                  if_else(CEDS_agg_fuel=="process",
+                                          if_else(CEDS_agg_sector=="chemicals_nitric","industry_processes",CEDS_agg_sector),CEDS_agg_sector),
+                                  CEDS_agg_sector),
+        CEDS_agg_sector = if_else(Non.CO2 !="N2O",if_else(CEDS_agg_fuel == "process",
+                                                             if_else(CEDS_agg_sector == "chemicals_adipic", "industry_processes", CEDS_agg_sector), CEDS_agg_sector),
+                                  CEDS_agg_sector)) %>%
       group_by(GCAM_region_ID, Non.CO2, CEDS_agg_sector, CEDS_agg_fuel, year) %>%
       summarise(emissions = sum(emissions)) %>%
       ungroup() %>%
       na.omit() %>%
       #filter data for final model base year, since we may not have GCAM activity data beyond the latest base year.
-      filter(year<= max(HISTORICAL_YEARS))->L112.CEDS_GCAM
+      filter(year <= max(HISTORICAL_YEARS)) -> L112.CEDS_GCAM
 
     # Load required inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
@@ -263,11 +271,11 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
     #Clean IEA data, filter to road emissions and  remove zero emission technologies.
     IEA_Ctry_data %>%
       #Use only historical years
-      filter(year <= max(HISTORICAL_YEARS)) %>%
-      filter(UCD_category=="trn_road and rail") %>%
-      filter(!mode %in% c("Rail","HSR")) %>%
+      filter(year <= max(HISTORICAL_YEARS),
+             UCD_category=="trn_road and rail",
+             !mode %in% c("Rail","HSR")) %>%
       select(-UCD_fuel,-fuel,-size.class) %>%
-      rename(fuel=UCD_technology) %>%
+      rename(fuel = UCD_technology) %>%
       #NG is treated separately.
       filter(!fuel %in% c(emissions.ZERO_EM_TECH,"NG")) %>%
       mutate(fuel =if_else(fuel=="Hybrid Liquids","Liquids",fuel))->Clean_IEA_ctry_data
@@ -291,6 +299,7 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
       distinct() ->GAINS_sector_weights
 
     #Calculate GAINS mode weights which we can use on CEDS data to distribute emissions into different modes.
+    # SLOW group by mutate
     Clean_IEA_ctry_data %>%
       group_by(iso,mode,year,UCD_sector) %>%
       mutate(value=sum(value)) %>%
@@ -690,6 +699,7 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
       L112.nonco2_tgej_R_en_S_F_Yh_withNAs
 
     # Generates global median emissions factors
+    # SLOW group by mutate
     L112.nonco2_tgej_R_en_S_F_Yh_withNAs %>%
       replace_na(list(emfact = 0)) %>%
       group_by(year, Non.CO2, supplysector, subsector, stub.technology) %>%
@@ -883,6 +893,7 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
       L122.ghgsoil_tg_R_C_Y_GLU
 
     # Bind together dataframes & aggregate
+    # SLOW group by summarise
     L122.ghg_tg_R_agr_C_Y_GLU_full <- bind_rows( L122.ghg_tg_R_rice_Y_GLU, L122.ghgsoil_tg_R_C_Y_GLU#, L122.ghgfert_tg_R_C_Y_GLU
     ) %>%
       group_by(GCAM_region_ID, GCAM_commodity, GCAM_subsector, year, GLU, Non.CO2) %>%
