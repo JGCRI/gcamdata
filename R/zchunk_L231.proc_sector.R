@@ -51,7 +51,8 @@ module_emissions_L231.proc_sector <- function(command, ...) {
              "L231.GlobalTechCoef_urb_ind",
              "L231.GlobalTechCost_urb_ind",
              "L231.RegionalTechCalValue_urb_ind",
-             "L231.IndCoef"))
+             "L231.IndCoef",
+             "L231.Ind_globaltech_eff"))
   } else if(command == driver.MAKE) {
 
     # Silence package checks
@@ -224,7 +225,7 @@ module_emissions_L231.proc_sector <- function(command, ...) {
     # L231.IndCoef: coefficient on industrial processes as an input to the industry sector
     # Coefficient = sum of calibrated value / change in industry output from 1990
     # First, interpolate A32.globaltech_eff efficiency values to all years
-    Ind.globaltech_eff <- A32.globaltech_eff %>%
+    L231.Ind_globaltech_eff <- A32.globaltech_eff %>%
       select(-year, -value) %>%
       repeat_add_columns(tibble(year = c(HISTORICAL_YEARS, MODEL_FUTURE_YEARS))) %>%
       left_join(A32.globaltech_eff, by = c("supplysector", "subsector", "technology", "minicam.energy.input",
@@ -247,10 +248,10 @@ module_emissions_L231.proc_sector <- function(command, ...) {
 
     # Now combine input energy info and join with efficiency values
     L231.IndCoef <- bind_rows(L1322.in_EJ_R_indenergy_F_Yh %>%
-                                mutate(sector = "industrial energy use"),
+                                mutate(sector = "other industrial energy use"),
                               L1322.in_EJ_R_indfeed_F_Yh %>%
-                                mutate(sector = "industrial feedstocks")) %>%
-      left_join_keep_first_only(Ind.globaltech_eff, by = c("sector", "fuel", "year")) %>%
+                                mutate(sector = "other industrial feedstocks")) %>%
+      left_join_keep_first_only(L231.Ind_globaltech_eff, by = c("sector", "fuel", "year")) %>%
       # Calculate service as energy * efficiency
       mutate(service = value * efficiency) %>%
       na.omit() %>%
@@ -260,9 +261,10 @@ module_emissions_L231.proc_sector <- function(command, ...) {
       filter(year %in% MODEL_BASE_YEARS) %>%
       left_join_error_no_match(sum.calvalue, by = c("GCAM_region_ID", "year")) %>%
       mutate(coefficient = ind_proc_input / ind_output,
-             supplysector = "industry",
-             subsector = "industry",
-             technology = "industry",
+             supplysector = "other industry",
+             subsector = "other industry",
+             technology = "other industry",
+
              minicam.energy.input = "industrial processes") %>%
       left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID")
 
@@ -436,10 +438,18 @@ module_emissions_L231.proc_sector <- function(command, ...) {
                      "common/GCAM_region_names") ->
       L231.IndCoef
 
+    L231.Ind_globaltech_eff %>%
+      add_title("Industrial efficiency values for all years") %>%
+      add_units("NA") %>%
+      add_comments("A32.globaltech_eff efficiency values interpolated to all years") %>%
+      add_legacy_name("L231.IndCoef") %>%
+      add_precursors("energy/A32.globaltech_eff") ->
+      L231.Ind_globaltech_eff
+
     return_data(L231.UnlimitRsrc, L231.UnlimitRsrcPrice, L231.FinalDemand_urb, L231.Supplysector_urb_ind, L231.SubsectorLogit_urb_ind,
                 L231.SubsectorShrwt_urb_ind, L231.SubsectorShrwtFllt_urb_ind, L231.SubsectorInterp_urb_ind, L231.SubsectorInterpTo_urb_ind,
                 L231.StubTech_urb_ind, L231.GlobalTechShrwt_urb_ind, L231.GlobalTechEff_urb_ind, L231.GlobalTechCoef_urb_ind,
-                L231.GlobalTechCost_urb_ind, L231.RegionalTechCalValue_urb_ind, L231.IndCoef)
+                L231.GlobalTechCost_urb_ind, L231.RegionalTechCalValue_urb_ind, L231.IndCoef, L231.Ind_globaltech_eff)
   } else {
     stop("Unknown command")
   }

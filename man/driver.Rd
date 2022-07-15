@@ -49,7 +49,7 @@ the other \code{return_*} parameters above}
 
 \item{quiet}{Suppress output?}
 
-\item{user_modifications}{A list of function names which implement a user mod chunk.  \code{vignette("usermod_vignette", package = "gcamdata")}}
+\item{user_modifications}{A list of function names which implement a user mod chunk. See vignettes/usermod_vignette.Rmd for more details and examples.}
 
 \item{xml_suffix}{A suffix to be appended at the end of all XML file name if not null.  Such a feature is
 useful when using \code{user_modifications} to generate alternative scenarios.}

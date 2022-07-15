@@ -3,7 +3,7 @@
 context("oldnew")
 
 library(readr)
-OLDNEW <- F # Run old-new tests?
+OLDNEW <- T # Run old-new tests?
 
 if (OLDNEW){
   test_that("matches old data system output", {

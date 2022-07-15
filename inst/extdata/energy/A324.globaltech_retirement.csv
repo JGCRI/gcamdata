@@ -1,0 +1,72 @@
+# File: A324.globaltech_retirement.csv
+# Title: Off-road technology lifetimes and shutdown rates
+# Units: Years for lifetime and half.life; Unitless for shutdown.rate; steepness; median.shutdown.point; profit.shutdown.steepness
+# Comments: maximum lifetime of cohort. If no retirement function is used; the entire cohort is retired in this number of years
+#           shutdown.rate: portion of cohort retired each year; used by the phased-shutdown-decider retirement function
+#           half.life: number of years at which 50% of the cohort is retired; using the s-curve-shutdown-decider retirement function
+#           steepness: shape parameter used by the s-curve-shutdown-decider retirement function
+#           median.shutdown.point: profit-ratio at which 50% of the cohort is shut down for lack of profitability
+#           profit.shutdown.steepness: shape parameter of profit-shutdown-decider function
+# Column types: ccccicinni
+# ----------
+supplysector,subsector,technology,year,lifetime,shutdown.rate,half.life,steepness,median.shutdown.point,profit.shutdown.steepness
+agricultural energy use,mobile,refined liquids,final-calibration-year,20,,10,0.3,-0.5,6
+agricultural energy use,mobile,electricity,final-calibration-year,20,,10,0.3,-0.5,6
+agricultural energy use,mobile,hydrogen,final-calibration-year,20,,10,0.3,-0.5,6
+mining energy use,mobile,refined liquids,final-calibration-year,20,,10,0.3,-0.5,6
+mining energy use,mobile,electricity,final-calibration-year,20,,10,0.3,-0.5,6
+mining energy use,mobile,hydrogen,final-calibration-year,20,,10,0.3,-0.5,6
+construction energy use,mobile,refined liquids,final-calibration-year,20,,10,0.3,-0.5,6
+construction energy use,mobile,electricity,final-calibration-year,20,,10,0.3,-0.5,6
+construction energy use,mobile,hydrogen,final-calibration-year,20,,10,0.3,-0.5,6
+agricultural energy use,mobile,refined liquids,initial-future-year,20,,10,0.3,-0.5,6
+agricultural energy use,mobile,electricity,initial-future-year,20,,10,0.3,-0.5,6
+agricultural energy use,mobile,hydrogen,initial-future-year,20,,10,0.3,-0.5,6
+mining energy use,mobile,refined liquids,initial-future-year,20,,10,0.3,-0.5,6
+mining energy use,mobile,electricity,initial-future-year,20,,10,0.3,-0.5,6
+mining energy use,mobile,hydrogen,initial-future-year,20,,10,0.3,-0.5,6
+construction energy use,mobile,refined liquids,initial-future-year,20,,10,0.3,-0.5,6
+construction energy use,mobile,electricity,initial-future-year,20,,10,0.3,-0.5,6
+construction energy use,mobile,hydrogen,initial-future-year,20,,10,0.3,-0.5,6
+agricultural energy use,stationary,refined liquids,final-calibration-year,20,,10,0.3,-0.5,6
+agricultural energy use,stationary,gas,final-calibration-year,20,,10,0.3,-0.5,6
+agricultural energy use,stationary,biomass,final-calibration-year,20,,10,0.3,-0.5,6
+agricultural energy use,stationary,electricity,final-calibration-year,20,,10,0.3,-0.5,6
+agricultural energy use,stationary,hydrogen,final-calibration-year,20,,10,0.3,-0.5,6
+agricultural energy use,stationary,coal,final-calibration-year,20,,10,0.3,-0.5,6
+agricultural energy use,stationary,heat,final-calibration-year,20,,10,0.3,-0.5,6
+mining energy use,stationary,refined liquids,final-calibration-year,20,,10,0.3,-0.5,6
+mining energy use,stationary,gas,final-calibration-year,20,,10,0.3,-0.5,6
+mining energy use,stationary,biomass,final-calibration-year,20,,10,0.3,-0.5,6
+mining energy use,stationary,electricity,final-calibration-year,20,,10,0.3,-0.5,6
+mining energy use,stationary,hydrogen,final-calibration-year,20,,10,0.3,-0.5,6
+mining energy use,stationary,coal,final-calibration-year,20,,10,0.3,-0.5,6
+mining energy use,stationary,heat,final-calibration-year,20,,10,0.3,-0.5,6
+construction energy use,stationary,refined liquids,final-calibration-year,20,,10,0.3,-0.5,6
+construction energy use,stationary,gas,final-calibration-year,20,,10,0.3,-0.5,6
+construction energy use,stationary,biomass,final-calibration-year,20,,10,0.3,-0.5,6
+construction energy use,stationary,electricity,final-calibration-year,20,,10,0.3,-0.5,6
+construction energy use,stationary,hydrogen,final-calibration-year,20,,10,0.3,-0.5,6
+construction energy use,stationary,coal,final-calibration-year,20,,10,0.3,-0.5,6
+construction energy use,stationary,heat,final-calibration-year,20,,10,0.3,-0.5,6
+agricultural energy use,stationary,refined liquids,initial-future-year,20,,10,0.3,-0.5,6
+agricultural energy use,stationary,gas,initial-future-year,20,,10,0.3,-0.5,6
+agricultural energy use,stationary,biomass,initial-future-year,20,,10,0.3,-0.5,6
+agricultural energy use,stationary,electricity,initial-future-year,20,,10,0.3,-0.5,6
+agricultural energy use,stationary,hydrogen,initial-future-year,20,,10,0.3,-0.5,6
+agricultural energy use,stationary,coal,initial-future-year,20,,10,0.3,-0.5,6
+agricultural energy use,stationary,heat,initial-future-year,20,,10,0.3,-0.5,6
+mining energy use,stationary,refined liquids,initial-future-year,20,,10,0.3,-0.5,6
+mining energy use,stationary,gas,initial-future-year,20,,10,0.3,-0.5,6
+mining energy use,stationary,biomass,initial-future-year,20,,10,0.3,-0.5,6
+mining energy use,stationary,electricity,initial-future-year,20,,10,0.3,-0.5,6
+mining energy use,stationary,hydrogen,initial-future-year,20,,10,0.3,-0.5,6
+mining energy use,stationary,coal,initial-future-year,20,,10,0.3,-0.5,6
+mining energy use,stationary,heat,initial-future-year,20,,10,0.3,-0.5,6
+construction energy use,stationary,refined liquids,initial-future-year,20,,10,0.3,-0.5,6
+construction energy use,stationary,gas,initial-future-year,20,,10,0.3,-0.5,6
+construction energy use,stationary,biomass,initial-future-year,20,,10,0.3,-0.5,6
+construction energy use,stationary,electricity,initial-future-year,20,,10,0.3,-0.5,6
+construction energy use,stationary,hydrogen,initial-future-year,20,,10,0.3,-0.5,6
+construction energy use,stationary,coal,initial-future-year,20,,10,0.3,-0.5,6
+construction energy use,stationary,heat,initial-future-year,20,,10,0.3,-0.5,6

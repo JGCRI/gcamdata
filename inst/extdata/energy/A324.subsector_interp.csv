@@ -1,0 +1,14 @@
+# File: A324.subsector_interp.csv
+# Title: agriculture, construction, mining default subsector shareweight interpolation
+# Units: NA
+# Column types: ccccccc
+# ----------
+supplysector,subsector,apply.to,from.year,to.year,to.value,interpolation.function
+agricultural energy use,mobile,share-weight,final-calibration-year,end-year,,fixed
+agricultural energy use,stationary,share-weight,final-calibration-year,end-year,,fixed
+mining energy use,mobile,share-weight,final-calibration-year,end-year,,fixed
+mining energy use,stationary,share-weight,final-calibration-year,end-year,,fixed
+construction,construction,share-weight,final-calibration-year,end-year,,fixed
+construction energy use,mobile,share-weight,final-calibration-year,end-year,,fixed
+construction energy use,stationary,share-weight,final-calibration-year,end-year,,fixed
+construction feedstocks,refined liquids,share-weight,final-calibration-year,end-year,,fixed
