@@ -98,6 +98,12 @@
 
     
     
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">knitr</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/knitr/man/opts_chunk.html" class="external-link">opts_chunk</a></span><span class="op">$</span><span class="fu">set</span><span class="op">(</span></span>
+<span>  collapse <span class="op">=</span> <span class="cn">TRUE</span>,</span>
+<span>  comment <span class="op">=</span> <span class="st">"#&gt;"</span></span>
+<span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/options.html" class="external-link">options</a></span><span class="op">(</span>rmarkdown.html_vignette.check_title <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div>
 <div class="section level2">
 <h2 id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
 </h2>
@@ -124,6 +130,221 @@
 <h2 id="examples">Examples<a class="anchor" aria-label="anchor" href="#examples"></a>
 </h2>
 <p>Let’s explore <code><a href="../reference/driver_drake.html">driver_drake()</a></code> and see how it can help us run the data system. We’ll start by doing an initial run which will create and store output in the drake cache and create all of our xml files. We run this just as we would <code><a href="../reference/driver.html">driver()</a></code>.</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Load package and run driver_drake, output messages are hidden </span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">load_all</span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+<p>On Windows we may run into the MAX_PATH file path limit after the package is installed. If you get the following error, make sure you load the package with <code>devtools::load_all()</code>.</p>
+<pre><code>Error in file.rename() :
+  expanded 'to' name too long</code></pre>
+<p>Next, we’ll explore two different edits of a chunk and see how <code><a href="../reference/driver_drake.html">driver_drake()</a></code> responds.</p>
+<div class="section level3">
+<h3 id="example-1">Example 1<a class="anchor" aria-label="anchor" href="#example-1"></a>
+</h3>
+<p>First, let’s edit the input, <code>FAO_municipal_water_AQUASTAT.csv</code> by duplicating its final row. This adds another value of 0.4877 to the file. The values from this file get aggregated, so adding a non-zero value affects other chunks.</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Copy the file so we can get it back later</span></span>
+<span><span class="va">example_file</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/find_csv_file.html">find_csv_file</a></span><span class="op">(</span><span class="st">"water/FAO_municipal_water_AQUASTAT"</span>, <span class="cn">FALSE</span><span class="op">)</span><span class="op">[[</span><span class="fl">1</span><span class="op">]</span><span class="op">]</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/files.html" class="external-link">file.copy</a></span><span class="op">(</span>from <span class="op">=</span> <span class="va">example_file</span>, to <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste0</a></span><span class="op">(</span><span class="va">example_file</span>, <span class="st">".bak"</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="co"># Add a row to the end of the file with value = 0.4877</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/cat.html" class="external-link">cat</a></span><span class="op">(</span><span class="st">"\nZimbabwe,181,Municipal water withdrawal,4251,2017,0.4877,,"</span>, file <span class="op">=</span> <span class="va">example_file</span>, append <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="co"># Load and run driver_drake(). Print run time. </span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">load_all</span><span class="op">(</span><span class="st">"."</span><span class="op">)</span></span>
+<span><span class="va">t1</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.time</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.time</a></span><span class="op">(</span><span class="op">)</span><span class="op">-</span><span class="va">t1</span><span class="op">)</span></span></code></pre></div>
+<p>As expected, <code><a href="../reference/driver_drake.html">driver_drake()</a></code> runs all dependencies of <code>FAO_municipal_water_AQUASTAT.csv</code> since they need to be updated from adding in a non-zero value.</p>
+</div>
+<div class="section level3">
+<h3 id="example-2">Example 2<a class="anchor" aria-label="anchor" href="#example-2"></a>
+</h3>
+<p>Next, we will append another row to the bottom of that same file, but this time, we will give it a value of 0, which after aggregation should have no further effect.</p>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Add a row but with value = 0</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/cat.html" class="external-link">cat</a></span><span class="op">(</span><span class="st">"\nZimbabwe,181,Municipal water withdrawal,4251,2017,0,,"</span>, file <span class="op">=</span> <span class="va">example_file</span>, append <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="co"># Load and run driver_drake(). Print run time. </span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">load_all</span><span class="op">(</span><span class="st">"."</span><span class="op">)</span></span>
+<span><span class="va">t1</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.time</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.time</a></span><span class="op">(</span><span class="op">)</span><span class="op">-</span><span class="va">t1</span><span class="op">)</span></span></code></pre></div>
+<p>This time, <code><a href="../reference/driver_drake.html">driver_drake()</a></code> only ran <code>FAO_municipal_water_AQUASTAT</code> and it’s <code>R</code> chunk since adding a 0 affects nothing downstream.</p>
+<p>Let’s get our original file back and run <code>driver_drake</code>.</p>
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Finally, clean up the changes from this example</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/files.html" class="external-link">file.rename</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste0</a></span><span class="op">(</span><span class="va">example_file</span>, <span class="st">".bak"</span><span class="op">)</span>, <span class="va">example_file</span><span class="op">)</span></span>
+<span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span><span class="op">)</span> </span></code></pre></div>
+</div>
+<div class="section level3">
+<h3 id="example-3">Example 3<a class="anchor" aria-label="anchor" href="#example-3"></a>
+</h3>
+<p>If you edit or delete an XML file, you can quickly and easily get the original file back by running <code><a href="../reference/driver_drake.html">driver_drake()</a></code>.</p>
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Delete wind_reeds_USA.xml </span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/files.html" class="external-link">file.remove</a></span><span class="op">(</span><span class="st">"xml/wind_reeds_USA.xml"</span><span class="op">)</span></span>
+<span><span class="co"># Load and run driver_drake(). Print run time. </span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">load_all</span><span class="op">(</span><span class="st">"."</span><span class="op">)</span></span>
+<span><span class="va">t1</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.time</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.time</a></span><span class="op">(</span><span class="op">)</span><span class="op">-</span><span class="va">t1</span><span class="op">)</span></span></code></pre></div>
+<p>Now we have our file back without re-running the entire datasystem.</p>
+</div>
+</div>
+<div class="section level2">
+<h2 id="arguments-to-driver_drake">Arguments to <code>driver_drake()</code><a class="anchor" aria-label="anchor" href="#arguments-to-driver_drake"></a>
+</h2>
+<p><code><a href="../reference/driver_drake.html">driver_drake()</a></code> supports the same arguments as <code><a href="../reference/driver.html">driver()</a></code> (see <code><a href="../reference/driver.html">?driver</a></code>), except <code>write_outputs</code> (since <code>drake</code> must include all outputs in the cache). Thus users can still use <code>stop_before</code> or <code>return_data_map_only</code> as before except with the benefits of <code>drake</code>: if no modifications were made they can just be generated from cache. Users can also pass additional arguments to <code><a href="../reference/driver_drake.html">driver_drake()</a></code> which will be forwarded on to <code>make()</code>. You can see <code><a href="https://docs.ropensci.org/drake/reference/make.html" class="external-link">?drake::make</a></code> for all available options, but some useful ones include:</p>
+<ul>
+<li>
+<p><code>verbose</code>: integer, controls printing to the console/terminal (defualt: <code>1</code>)</p>
+<ul>
+<li>0: print nothing</li>
+<li>1: print target names as they build</li>
+<li>2: show a progress bar to track what percent of targets have been completed. Also shows a spinner bar during preprocessing tasks</li>
+</ul>
+</li>
+<li><p><code>history</code>: logical, whether to record the build history of targets (default: <code>TRUE</code>). This is helpful if you need to recover old data. Or perhaps check how some outputs changed between commits. However, given the size of the data produced by <code>gcamdata</code> it may lead to very large cache sizes. Thus it may be beneficial to set it to <code>FALSE</code> or at least clean out the cache from time to time.</p></li>
+<li>
+<p><code>memory_strategy</code>: character scalar, name of the strategy <code>drake</code> uses to load/unload a target’s dependencies in memory (default: <code>"speed"</code>). Some options include</p>
+<ul>
+<li>
+<code>"speed"</code>: maximizes speed but hogs memory. Recommended for users with at least 5GB of available RAM.</li>
+<li>
+<code>"autoclean"</code>: conserves memory but sacrifices speed by unloading outputs after no more targets depend on them. This behavior is similar to that of <code><a href="../reference/driver.html">driver()</a></code>.</li>
+</ul>
+</li>
+</ul>
+<div class="section level3">
+<h3 id="more-examples">More Examples<a class="anchor" aria-label="anchor" href="#more-examples"></a>
+</h3>
+<p>Here are some additional examples of calling <code><a href="../reference/driver_drake.html">driver_drake()</a></code> with some of the alternative arguments discussed above.</p>
+<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Run with a progress bar</span></span>
+<span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span>verbose <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span>
+<span><span class="co"># Run, stop before a chunk and conserve memory</span></span>
+<span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span>stop_before <span class="op">=</span> <span class="st">"module_aglu_LA100.FAO_downscale_ctry"</span>, memory_strategy <span class="op">=</span> <span class="st">"autoclean"</span><span class="op">)</span></span></code></pre></div>
+</div>
+</div>
+<div class="section level2">
+<h2 id="parallel-computing">Parallel Computing<a class="anchor" aria-label="anchor" href="#parallel-computing"></a>
+</h2>
+<p>Parallel computing is supported by <code>drake</code> but requires some “backend” to do the work. The two primary backend R packages that are used are <code>clustermq</code> and <code>future</code>. In addition each of these packages support two different mechanisms to utilizing multiple cores: <code>multisession</code> - which launches multiple independent sessions of R and communicates between them using a message passing system; or <code>multicore</code>: just the one R session but multiple threads are created with in it. However, we found that when using the <code>multisession</code> mechanism with either package, you must do a full reinstall the <code>gcamdata</code> package each time you change a target (<code>devtools::load_all()</code> is not sufficient) for the targets to update and build correctly. Also, the <code>multicore</code> option is not supported on Windows.</p>
+<div class="section level3">
+<h3 id="options">Options<a class="anchor" aria-label="anchor" href="#options"></a>
+</h3>
+<p>When running <code><a href="../reference/driver_drake.html">driver_drake()</a></code> with parallelism, the following arguments to <code>make()</code> should be specified in <code><a href="../reference/driver_drake.html">driver_drake()</a></code></p>
+<ul>
+<li>jobs: integer, maximum number of parallel workers for processing targets. A user should choose a value &lt;= the number of CPU cores their system has.</li>
+<li>caching: character string, should be set to <code>"worker"</code> as to avoid wasting time doing synchronization</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="the-clustermq-backend">The <code>clustermq</code> backend<a class="anchor" aria-label="anchor" href="#the-clustermq-backend"></a>
+</h3>
+<p>See the <code>clustermq</code> <a href="https://cran.r-project.org/web/packages/clustermq/vignettes/userguide.html" class="external-link">installation guide</a> for installation instructions and options. <code>clustermq</code> requires <code>R version 3.5</code> or greater. Note, on Mac and Windows a simple <code>install.packages("clustermq") is sufficient. &lt;!-- - explain how to install clustermq package on PIC --&gt; For using</code>clustermq<code>on PIC (PNNL Institutional Computing) we have already installed the full set of required R packages in a shared space as successfully compiling</code>clustermq<code>was not straightforward due to compiler version issues.  To use</code>drake<code>+</code>clustermq<code>in PIC a user can:     * Get necessary libraries with:</code>export R_LIBS=/pic/projects/GCAM/GCAM-libraries/R/x86_64-pc-linux-gnu-library/3.5<code>* Load the</code>zeromq<code>library with:</code>module load zeromq/4.1.4<code>* Open</code>R 3.5.1<code>with:</code>module load R/3.5.1<code>* Open an</code>R<code>session and set the global option below     * Run</code>driver_drake()` with the arguments such as below</p>
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Load clustermq and set type to multicore</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://mschubert.github.io/clustermq/" class="external-link">clustermq</a></span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/options.html" class="external-link">options</a></span><span class="op">(</span>clustermq.scheduler <span class="op">=</span> <span class="st">"multicore"</span><span class="op">)</span></span>
+<span><span class="co"># Load and run </span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">load_all</span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span>parallelism <span class="op">=</span> <span class="st">"clustermq"</span>, caching <span class="op">=</span> <span class="st">"worker"</span>, jobs <span class="op">=</span> <span class="fl">48</span><span class="op">)</span></span></code></pre></div>
+<p>If you get the following error while trying to load <code>clustermq</code>, make sure you have the <code>zeromq</code> library loaded ( <code>module load zeromq/4.1.4</code>).</p>
+<pre><code>library(clustermq)
+Error: package or namespace load failed for 'clustermq' in dyn.load(file, DLLpath = DLLpath, ...):
+ unable to load shared object '/qfs/projects/ops/rh6/R/3.5.1/lib64/R/library/clustermq/libs/clustermq.so':
+  libzmq.so.5: cannot open shared object file: No such file or directory</code></pre>
+<p>On PIC, we had good performance with <code>clustermq</code>, type <code>multicore</code>, and <code>jobs = 48</code>. The initial build took 5 minutes and 40 seconds as opposed to just over 30 minutes for the <code><a href="../reference/driver_drake.html">driver_drake()</a></code> build without parallelism. For reference, the build with <code><a href="../reference/driver.html">driver()</a></code> on PIC took 22 minutes and 41 seconds.</p>
+<p>Recall, if you are trying to use <code>clustermq</code> on Windows, <code>multicore</code> is not supported. To use <code>multisession</code>, make sure you reinstall after any changes are make before you try to run <code><a href="../reference/driver_drake.html">driver_drake()</a></code>.</p>
+</div>
+<div class="section level3">
+<h3 id="the-future-backend">The <code>future</code> backend<a class="anchor" aria-label="anchor" href="#the-future-backend"></a>
+</h3>
+<p>We did not have good performance with <code>future</code>. On a local Windows machine, the initial build with <code>parallelism = future</code> and type <code>multisession</code> took 1 hour and 14 seconds. It took over an hour on PIC as well. We still document it here in case the situation improves in the future.</p>
+<p>To use this backend, install the <code>future</code> package and provide the following arguments:</p>
+<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Run driver_drake with future plan multisession</span></span>
+<span><span class="fu">future</span><span class="fu">::</span><span class="fu">plan</span><span class="op">(</span><span class="fu">future</span><span class="fu">::</span><span class="va">multisession</span><span class="op">)</span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">load_all</span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span>parallelism <span class="op">=</span> <span class="st">"future"</span>, caching <span class="op">=</span> <span class="st">"worker"</span>, jobs <span class="op">=</span> <span class="fl">4</span><span class="op">)</span></span></code></pre></div>
+<p>See <code>?future::plan</code> for all strategy options and explanations.</p>
+</div>
+</div>
+<div class="section level2">
+<h2 id="loading-data-from-the-drake-cache">Loading data from the <code>drake</code> cache<a class="anchor" aria-label="anchor" href="#loading-data-from-the-drake-cache"></a>
+</h2>
+<p>You can use the typical arguments to <code><a href="../reference/driver_drake.html">driver_drake()</a></code> such as <code>stop_before</code> or <code>return_data_names</code> to return outputs from cache after the initial run. And if you unsure if there have been any modifications since the last run that is the best way to load them. However, if you are sure it is up to date, we have provided a utility method <code>load_from_cache</code> for doing so and returning the data in the same format as data returned from <code>driver(stop_after = "module_emissions_L121.nonco2_awb_R_S_T_Y")</code>. Therefore we recommend using this utility rather than directly using <code><a href="https://docs.ropensci.org/drake/reference/readd.html" class="external-link">drake::readd</a></code> directly.</p>
+<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># We can give a list of files we want to load</span></span>
+<span><span class="va">data</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/load_from_cache.html">load_from_cache</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"L121.nonco2_tg_R_awb_C_Y_GLU"</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="va">data</span></span>
+<span><span class="co"># We can also combine this with other gcamdata utilities to</span></span>
+<span><span class="co"># load all input or outputs of a chunk as well</span></span>
+<span><span class="va">data</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/load_from_cache.html">load_from_cache</a></span><span class="op">(</span><span class="fu"><a href="../reference/outputs_of.html">outputs_of</a></span><span class="op">(</span><span class="st">"module_emissions_L121.nonco2_awb_R_S_T_Y"</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="va">data</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="the-drake-plan">The drake “plan”<a class="anchor" aria-label="anchor" href="#the-drake-plan"></a>
+</h2>
+<p>To utilize <code>drake</code>’s features, <code><a href="../reference/driver_drake.html">driver_drake()</a></code> must generate a drake <code>plan</code> to supply to<code><a href="https://docs.ropensci.org/drake/reference/make.html" class="external-link">drake::make()</a></code>, which builds the data system. The <code>plan</code> is a data frame with columns “target” and “command”. Each row is a step in the workflow and the target is the return value of the corresponding command. <code>drake</code> understands the dependency relationships between targets and commands in the plan, regardless of the order they are written. The <code>make()</code> function runs the targets in the correct order and stores the results in a hidden cache. In <code>gcamdata</code> the targets are either inputs/outputs or chunk names. The plan can be obtained by calling <code>driver_drake(return_plan_only = TRUE)</code> and may be useful for debugging or when using additional drake features described next.</p>
+<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">plan</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span>return_plan_only <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="co"># Pick targets to show the commands that would be used to build them</span></span>
+<span><span class="va">plan</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/stats/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">target</span> <span class="op"><a href="https://rdrr.io/r/base/match.html" class="external-link">%in%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"socioeconomics.SSP_database_v9"</span>,</span>
+<span>                       <span class="st">"L2052.AgCost_ag_irr_mgmt"</span>,</span>
+<span>                       <span class="st">"module_aglu_batch_ag_cost_IRR_MGMT_xml"</span>,</span>
+<span>                       <span class="st">"xml.ag_cost_IRR_MGMT.xml"</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="additional-features">Additional Features<a class="anchor" aria-label="anchor" href="#additional-features"></a>
+</h2>
+<p>You can visualize targets and their dependency relationships with <code>vis_drake_graph()</code>. This function produces an interactive graph that shows how targets are connected within the plan. You can hover over nodes to see commands of a target and double click nodes to contract neighborhoods into clusters. To just see downstream nodes from a specific target, set <code>from = &lt;target_name&gt;</code>. See <code>?vis_drake_graph</code> for all graph options. Here is an example of how <code>vis_drake_graph</code> could be used.</p>
+<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">load_all</span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="co"># Get the drake plan </span></span>
+<span><span class="va">plan</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span>return_plan_only <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="co"># Display the dependency graph downstream from module L210.RenewRscr </span></span>
+<span><span class="fu">vis_drake_graph</span><span class="op">(</span><span class="va">plan</span>, from <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/make.names.html" class="external-link">make.names</a></span><span class="op">(</span><span class="st">"L210.RenewRsrc"</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
+<p>See the <code>drake</code> documentation for other features. Some that may be useful with <code>gcamdata</code> include * <code>outdated(plan)</code>: lists all of the targets that are outdated * <code>predict_runtime(plan)</code>: <code>drake</code> records the time it takes to build each target and uses this to predict the runtime of the next <code>make()</code></p>
+</div>
+<div class="section level2">
+<h2 id="writing-csv-outputs-with-driver_drake">Writing csv outputs with driver_drake<a class="anchor" aria-label="anchor" href="#writing-csv-outputs-with-driver_drake"></a>
+</h2>
+<p>Sometimes it is useful to write out intermediate outputs to csv files. This is done for all outputs when using <code>driver(write_outputs = T)</code>, but is not necessary when using <code><a href="../reference/driver_drake.html">driver_drake()</a></code> since the outputs are saved in the cache. However, if a user would still like to save these csv files, we offer a few examples of how to do this below. In all cases, we recommend running <code><a href="../reference/driver_drake.html">driver_drake()</a></code> first to ensure the cache is up-to-date.</p>
+<div class="section level3">
+<h3 id="saving-one-file">Saving one file<a class="anchor" aria-label="anchor" href="#saving-one-file"></a>
+</h3>
+<p>If there is one file that you would like to save from the cache, you can quickly access it and save it using <code><a href="../reference/load_from_cache.html">load_from_cache()</a></code> and <code><a href="../reference/save_chunkdata.html">save_chunkdata()</a></code></p>
+<div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Choose the output from the cache, which will be loaded as a list of tibbles </span></span>
+<span><span class="co"># (in this case a list of length 1)</span></span>
+<span><span class="fu"><a href="../reference/load_from_cache.html">load_from_cache</a></span><span class="op">(</span><span class="st">"L2072.AgCoef_BphysWater_bio_mgmt"</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="../reference/save_chunkdata.html">save_chunkdata</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level3">
+<h3 id="saving-all-outputs-from-a-specific-chunk">Saving all outputs from a specific chunk<a class="anchor" aria-label="anchor" href="#saving-all-outputs-from-a-specific-chunk"></a>
+</h3>
+<p>To save all the outputs from one chunk, we can simply return those outputs from <code><a href="../reference/driver_drake.html">driver_drake()</a></code>.</p>
+<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Here we can return all the outputs of a chunk using driver_drake</span></span>
+<span><span class="fu"><a href="../reference/outputs_of.html">outputs_of</a></span><span class="op">(</span><span class="st">"module_energy_L244.building_det"</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="../reference/load_from_cache.html">load_from_cache</a></span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="../reference/save_chunkdata.html">save_chunkdata</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level3">
+<h3 id="saving-all-data-system-outputs">Saving all data system outputs<a class="anchor" aria-label="anchor" href="#saving-all-data-system-outputs"></a>
+</h3>
+<p>This is not recommended, as it is not usually necessary and will be fairly slow, but is possible by returning all the necessary data names and then loading them all from cache.</p>
+<div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Get the names of all outputs</span></span>
+<span><span class="va">all_output_names</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span>return_plan_only <span class="op">=</span> <span class="cn">T</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span></span>
+<span>  <span class="co"># Filter to non-xml module outputs (not from a data module)</span></span>
+<span>  <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/grep.html" class="external-link">grepl</a></span><span class="op">(</span><span class="st">'^module'</span>, <span class="va">command</span><span class="op">)</span>,</span>
+<span>                <span class="fu"><a href="https://rdrr.io/r/base/grep.html" class="external-link">grepl</a></span><span class="op">(</span><span class="st">'^L[0-9]{3,}'</span>, <span class="va">target</span><span class="op">)</span><span class="op">)</span> </span>
+<span><span class="co"># Load all outputs</span></span>
+<span><span class="fu"><a href="../reference/load_from_cache.html">load_from_cache</a></span><span class="op">(</span><span class="va">all_output_names</span><span class="op">$</span><span class="va">target</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="../reference/save_chunkdata.html">save_chunkdata</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+</div>
 </div>
   </div>
 
