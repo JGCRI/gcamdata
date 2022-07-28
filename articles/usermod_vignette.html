@@ -93,7 +93,7 @@
     <div class="page-header toc-ignore">
       <h1 data-toc-skip>How to Write a User Modification Chunk</h1>
             
-            <h4 data-toc-skip class="date">2022-07-20</h4>
+            <h4 data-toc-skip class="date">2022-07-28</h4>
       
       <small class="dont-index">Source: <a href="https://github.com/JGCRI/gcamdata/blob/HEAD/vignettes/usermod_vignette.Rmd" class="external-link"><code>vignettes/usermod_vignette.Rmd</code></a></small>
       <div class="hidden name"><code>usermod_vignette.Rmd</code></div>
@@ -157,7 +157,58 @@
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">NEW.SHWT</span> <span class="op">&lt;-</span> <span class="fl">0.5</span></span>
 <span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span>user_modifications <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"usermod_fert"</span><span class="op">)</span>,</span>
-<span>        xml_suffix <span class="op">=</span> <span class="st">"__1"</span><span class="op">)</span> <span class="co"># output xml will be saved as ORIGINALNAME_001.xml</span></span></code></pre></div>
+<span>        xml_suffix <span class="op">=</span> <span class="st">"__1"</span><span class="op">)</span> <span class="co"># output xml will be saved as ORIGINALNAME_001.xml</span></span>
+<span><span class="co">#&gt; GCAM Data System v5.1</span></span>
+<span><span class="co">#&gt; Found 420 chunks</span></span>
+<span><span class="co">#&gt; Found 4267 chunk data requirements</span></span>
+<span><span class="co">#&gt; Found 2416 chunk data products</span></span>
+<span><span class="co">#&gt; 1453 chunk data input(s) not accounted for</span></span>
+<span><span class="co">#&gt; &gt; target usermod_fert</span></span>
+<span><span class="co">#&gt; &gt; target energy.A322.subsector_shrwt__0</span></span>
+<span><span class="co">#&gt; &gt; target module_energy_L2322.Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.Supplysector_Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.SubsectorLogit_Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.SubsectorInterp_Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.StubTech_Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.FinalEnergyKeyword_Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.SubsectorShrwtFllt_Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.StubTechFixOut_Fert_exp</span></span>
+<span><span class="co">#&gt; &gt; target L2322.GlobalTechCost_Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.GlobalTechProfitShutdown_Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.GlobalTechSCurve_Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.StubTechProd_Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.GlobalTechCoef_Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.GlobalTechCapture_Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.GlobalTechShrwt_Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.StubTechFixOut_Fert_imp</span></span>
+<span><span class="co">#&gt; &gt; target L2322.StubTechCoef_Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.BaseService_Fert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.PerCapitaBased_Fert</span></span>
+<span><span class="co">#&gt; &gt; target module_gcamusa_L2322.Fert_USA</span></span>
+<span><span class="co">#&gt; &gt; target module_energy_batch_en_Fert_xml</span></span>
+<span><span class="co">#&gt; &gt; target L2322.TechCoef_USAFert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.SubsectorInterp_Fert_USA</span></span>
+<span><span class="co">#&gt; &gt; target L2322.StubTechProd_Fert_USA</span></span>
+<span><span class="co">#&gt; &gt; target L2322.SubsectorLogit_USAFert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.SubsectorShrwtFllt_USAFert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.StubTechCoef_Fert_USA</span></span>
+<span><span class="co">#&gt; &gt; target L2322.StubTech_Fert_USA</span></span>
+<span><span class="co">#&gt; &gt; target L2322.DeleteSubsector_USAFert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.StubTechMarket_Fert_USA</span></span>
+<span><span class="co">#&gt; &gt; target L2322.FinalEnergyKeyword_Fert_USA</span></span>
+<span><span class="co">#&gt; &gt; target L2322.TechShrwt_USAFert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.Supplysector_Fert_USA</span></span>
+<span><span class="co">#&gt; &gt; target L2322.FinalEnergyKeyword_USAFert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.SubsectorInterp_USAFert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.SubsectorShrwtFllt_Fert_USA</span></span>
+<span><span class="co">#&gt; &gt; target L2322.Production_USAFert</span></span>
+<span><span class="co">#&gt; &gt; target L2322.SubsectorLogit_Fert_USA</span></span>
+<span><span class="co">#&gt; &gt; target en_Fert.xml</span></span>
+<span><span class="co">#&gt; &gt; target module_gcamusa_batch_Fert_USA_xml</span></span>
+<span><span class="co">#&gt; &gt; target xml.en_Fert.xml</span></span>
+<span><span class="co">#&gt; &gt; target Fert_USA.xml</span></span>
+<span><span class="co">#&gt; &gt; target xml.Fert_USA.xml</span></span>
+<span><span class="co">#&gt; All done.</span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="run-usermod_fert-multiple-times">Run usermod_fert multiple times<a class="anchor" aria-label="anchor" href="#run-usermod_fert-multiple-times"></a>
@@ -193,7 +244,7 @@
 
       <footer><div class="copyright">
   <p></p>
-<p>Developed by Ben Bond-Lamberty, Katherine Calvin, Ryna Cui, Kalyn Dorheim, Leyang Feng, Jill Horing, Russell Horowitz, Page Kyle, Robert Link, Pralit Patel, Christopher Roney, Abigail Snyder, Aaron Staniszweski, Sean Turner, Matthew Binsted, Zarrar Khan.</p>
+<p>Developed by Russell Horowitz, Ben Bond-Lamberty, Katherine Calvin, Ryna Cui, Kalyn Dorheim, Leyang Feng, Jill Horing, Page Kyle, Robert Link, Pralit Patel, Christopher Roney, Abigail Snyder, Aaron Staniszweski, Sean Turner, Matthew Binsted, Zarrar Khan.</p>
 </div>
 
 <div class="pkgdown">

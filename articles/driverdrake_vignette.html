@@ -128,7 +128,7 @@
 </h2>
 <p>Let’s explore <code><a href="../reference/driver_drake.html">driver_drake()</a></code> and see how it can help us run the data system. We’ll start by doing an initial run which will create and store output in the drake cache and create all of our xml files. We run this just as we would <code><a href="../reference/driver.html">driver()</a></code>.</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># Load package and run driver_drake, output messages are hidden </span></span>
+<code class="sourceCode R"><span><span class="co"># Load package and run driver_drake, output messages are hidden</span></span>
 <span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">load_all</span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
 <p>On Windows we may run into the MAX_PATH file path limit after the package is installed. If you get the following error, make sure you load the package with <code>devtools::load_all()</code>.</p>
@@ -138,51 +138,159 @@
 <div class="section level3">
 <h3 id="example-1">Example 1<a class="anchor" aria-label="anchor" href="#example-1"></a>
 </h3>
-<p>First, let’s edit the input, <code>FAO_municipal_water_AQUASTAT.csv</code> by duplicating its final row. This adds another value of 0.4877 to the file. The values from this file get aggregated, so adding a non-zero value affects other chunks.</p>
+<p>First, let’s edit the input, <code>A61.globaltech_cost.csv</code> by changing a cost value.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># Copy the file so we can get it back later</span></span>
-<span><span class="va">example_file</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/find_csv_file.html">find_csv_file</a></span><span class="op">(</span><span class="st">"water/FAO_municipal_water_AQUASTAT"</span>, <span class="cn">FALSE</span><span class="op">)</span><span class="op">[[</span><span class="fl">1</span><span class="op">]</span><span class="op">]</span></span>
+<span><span class="va">example_file</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/find_csv_file.html">find_csv_file</a></span><span class="op">(</span><span class="st">"energy/A61.globaltech_cost"</span>, <span class="cn">FALSE</span><span class="op">)</span><span class="op">[[</span><span class="fl">1</span><span class="op">]</span><span class="op">]</span></span>
+<span><span class="co">#&gt; Found ../inst/extdata/energy/A61.globaltech_cost.csv</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/files.html" class="external-link">file.copy</a></span><span class="op">(</span>from <span class="op">=</span> <span class="va">example_file</span>, to <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste0</a></span><span class="op">(</span><span class="va">example_file</span>, <span class="st">".bak"</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="co"># Add a row to the end of the file with value = 0.4877</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/cat.html" class="external-link">cat</a></span><span class="op">(</span><span class="st">"\nZimbabwe,181,Municipal water withdrawal,4251,2017,0.4877,,"</span>, file <span class="op">=</span> <span class="va">example_file</span>, append <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
-<span><span class="co"># Load and run driver_drake(). Print run time. </span></span>
+<span><span class="co">#&gt; [1] TRUE</span></span>
+<span><span class="co"># Change one value in file, then rewrite to same path</span></span>
+<span><span class="va">tmp</span> <span class="op">&lt;-</span> <span class="fu">readr</span><span class="fu">::</span><span class="fu"><a href="https://readr.tidyverse.org/reference/read_lines.html" class="external-link">read_lines</a></span><span class="op">(</span><span class="va">example_file</span><span class="op">)</span></span>
+<span><span class="va">tmp</span><span class="op">[</span><span class="fl">9</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/grep.html" class="external-link">sub</a></span><span class="op">(</span><span class="st">"211"</span>, <span class="st">"200"</span>, <span class="va">tmp</span><span class="op">[</span><span class="fl">9</span><span class="op">]</span><span class="op">)</span></span>
+<span><span class="fu">readr</span><span class="fu">::</span><span class="fu"><a href="https://readr.tidyverse.org/reference/read_lines.html" class="external-link">write_lines</a></span><span class="op">(</span><span class="va">tmp</span>, <span class="va">example_file</span><span class="op">)</span></span>
+<span><span class="co"># Load and run driver_drake(). Print run time.</span></span>
 <span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">load_all</span><span class="op">(</span><span class="st">"."</span><span class="op">)</span></span>
+<span><span class="co">#&gt; i Loading gcamdata</span></span>
 <span><span class="va">t1</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.time</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.time</a></span><span class="op">(</span><span class="op">)</span><span class="op">-</span><span class="va">t1</span><span class="op">)</span></span></code></pre></div>
-<p>As expected, <code><a href="../reference/driver_drake.html">driver_drake()</a></code> runs all dependencies of <code>FAO_municipal_water_AQUASTAT.csv</code> since they need to be updated from adding in a non-zero value.</p>
+<span><span class="co">#&gt; GCAM Data System v5.1</span></span>
+<span><span class="co">#&gt; Found 420 chunks</span></span>
+<span><span class="co">#&gt; Found 4267 chunk data requirements</span></span>
+<span><span class="co">#&gt; Found 2416 chunk data products</span></span>
+<span><span class="co">#&gt; 1452 chunk data input(s) not accounted for</span></span>
+<span><span class="co">#&gt; Warning: missing file_in() files:</span></span>
+<span><span class="co">#&gt;   R/constants.R</span></span>
+<span><span class="co">#&gt; Warning: Do not run make() from a subdirectory of your project.</span></span>
+<span><span class="co">#&gt;   running make() from: C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\vignettes</span></span>
+<span><span class="co">#&gt;   drake project root:  C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata</span></span>
+<span><span class="co">#&gt;   cache directory:     C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\.drake</span></span>
+<span><span class="co">#&gt; &gt; target energy.A61.globaltech_cost</span></span>
+<span><span class="co">#&gt; &gt; target module_energy_L261.Cstorage</span></span>
+<span><span class="co">#&gt; &gt; target L261.RsrcCurves_C_low</span></span>
+<span><span class="co">#&gt; &gt; target L261.RsrcCurves_C_high</span></span>
+<span><span class="co">#&gt; &gt; target L261.SubsectorShrwtFllt_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.Rsrc</span></span>
+<span><span class="co">#&gt; &gt; target L261.StubTech_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.GlobalTechCoef_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.SubsectorLogit_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.Supplysector_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.GlobalTechShrwt_C_nooffshore</span></span>
+<span><span class="co">#&gt; &gt; target L261.GlobalTechCost_C_High</span></span>
+<span><span class="co">#&gt; &gt; target L261.RsrcCurves_C_lowest</span></span>
+<span><span class="co">#&gt; &gt; target L261.GlobalTechShrwt_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.GlobalTechCost_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.RsrcCurves_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.UnlimitRsrc</span></span>
+<span><span class="co">#&gt; &gt; target L261.ResTechShrwt_C</span></span>
+<span><span class="co">#&gt; &gt; target module_energy_batch_Cstorage_xml</span></span>
+<span><span class="co">#&gt; &gt; target Cstorage.xml</span></span>
+<span><span class="co">#&gt; &gt; target xml.Cstorage.xml</span></span>
+<span><span class="co">#&gt; All done.</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.time</a></span><span class="op">(</span><span class="op">)</span><span class="op">-</span><span class="va">t1</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Time difference of 4.300751 mins</span></span></code></pre></div>
+<p>As expected, <code><a href="../reference/driver_drake.html">driver_drake()</a></code> runs all dependencies of <code>A61.globaltech_cost.csv</code> since they need to be updated to the new cost value.</p>
 </div>
 <div class="section level3">
 <h3 id="example-2">Example 2<a class="anchor" aria-label="anchor" href="#example-2"></a>
 </h3>
-<p>Next, we will append another row to the bottom of that same file, but this time, we will give it a value of 0, which after aggregation should have no further effect.</p>
+<p>Next, we will append another column to the end of that same file, but this time with a year outside of GCAM’s model year, so it will get filtered out and should have no further effect.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># Add a row but with value = 0</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/cat.html" class="external-link">cat</a></span><span class="op">(</span><span class="st">"\nZimbabwe,181,Municipal water withdrawal,4251,2017,0,,"</span>, file <span class="op">=</span> <span class="va">example_file</span>, append <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
-<span><span class="co"># Load and run driver_drake(). Print run time. </span></span>
+<code class="sourceCode R"><span><span class="co"># Add a column with a year that will be filtered out</span></span>
+<span><span class="va">tmp</span><span class="op">[</span><span class="fl">6</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste0</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/trimws.html" class="external-link">trimws</a></span><span class="op">(</span><span class="va">tmp</span><span class="op">[</span><span class="fl">6</span><span class="op">]</span><span class="op">)</span>, <span class="st">"i"</span><span class="op">)</span> <span class="co"># tell gcamdata that there will be another integer column</span></span>
+<span><span class="va">tmp</span><span class="op">[</span><span class="fl">8</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste0</a></span><span class="op">(</span><span class="va">tmp</span><span class="op">[</span><span class="fl">8</span><span class="op">]</span>, <span class="st">",2200"</span><span class="op">)</span> <span class="co"># year = 2200</span></span>
+<span><span class="va">tmp</span><span class="op">[</span><span class="fl">9</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste0</a></span><span class="op">(</span><span class="va">tmp</span><span class="op">[</span><span class="fl">9</span><span class="op">]</span>, <span class="st">",211"</span><span class="op">)</span> <span class="co"># value = 211</span></span>
+<span><span class="fu">readr</span><span class="fu">::</span><span class="fu"><a href="https://readr.tidyverse.org/reference/read_lines.html" class="external-link">write_lines</a></span><span class="op">(</span><span class="va">tmp</span>, <span class="va">example_file</span><span class="op">)</span></span>
+<span><span class="co"># Load and run driver_drake(). Print run time.</span></span>
 <span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">load_all</span><span class="op">(</span><span class="st">"."</span><span class="op">)</span></span>
+<span><span class="co">#&gt; i Loading gcamdata</span></span>
 <span><span class="va">t1</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.time</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.time</a></span><span class="op">(</span><span class="op">)</span><span class="op">-</span><span class="va">t1</span><span class="op">)</span></span></code></pre></div>
-<p>This time, <code><a href="../reference/driver_drake.html">driver_drake()</a></code> only ran <code>FAO_municipal_water_AQUASTAT</code> and it’s <code>R</code> chunk since adding a 0 affects nothing downstream.</p>
+<span><span class="co">#&gt; GCAM Data System v5.1</span></span>
+<span><span class="co">#&gt; Found 420 chunks</span></span>
+<span><span class="co">#&gt; Found 4267 chunk data requirements</span></span>
+<span><span class="co">#&gt; Found 2416 chunk data products</span></span>
+<span><span class="co">#&gt; 1452 chunk data input(s) not accounted for</span></span>
+<span><span class="co">#&gt; Warning: missing file_in() files:</span></span>
+<span><span class="co">#&gt;   R/constants.R</span></span>
+<span><span class="co">#&gt; Warning: Do not run make() from a subdirectory of your project.</span></span>
+<span><span class="co">#&gt;   running make() from: C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\vignettes</span></span>
+<span><span class="co">#&gt;   drake project root:  C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata</span></span>
+<span><span class="co">#&gt;   cache directory:     C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\.drake</span></span>
+<span><span class="co">#&gt; &gt; target energy.A61.globaltech_cost</span></span>
+<span><span class="co">#&gt; &gt; target module_energy_L261.Cstorage</span></span>
+<span><span class="co">#&gt; All done.</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.time</a></span><span class="op">(</span><span class="op">)</span><span class="op">-</span><span class="va">t1</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Time difference of 1.682541 mins</span></span></code></pre></div>
+<p>This time, <code><a href="../reference/driver_drake.html">driver_drake()</a></code> only ran <code>energy.A61.globaltech_cost</code> and it’s <code>R</code> chunk since the change affects nothing downstream.</p>
 <p>Let’s get our original file back and run <code>driver_drake</code>.</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># Finally, clean up the changes from this example</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/files.html" class="external-link">file.rename</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste0</a></span><span class="op">(</span><span class="va">example_file</span>, <span class="st">".bak"</span><span class="op">)</span>, <span class="va">example_file</span><span class="op">)</span></span>
-<span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span><span class="op">)</span> </span></code></pre></div>
+<span><span class="co">#&gt; [1] TRUE</span></span>
+<span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="co">#&gt; GCAM Data System v5.1</span></span>
+<span><span class="co">#&gt; Found 420 chunks</span></span>
+<span><span class="co">#&gt; Found 4267 chunk data requirements</span></span>
+<span><span class="co">#&gt; Found 2416 chunk data products</span></span>
+<span><span class="co">#&gt; 1452 chunk data input(s) not accounted for</span></span>
+<span><span class="co">#&gt; Warning: missing file_in() files:</span></span>
+<span><span class="co">#&gt;   R/constants.R</span></span>
+<span><span class="co">#&gt; Warning: Do not run make() from a subdirectory of your project.</span></span>
+<span><span class="co">#&gt;   running make() from: C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\vignettes</span></span>
+<span><span class="co">#&gt;   drake project root:  C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata</span></span>
+<span><span class="co">#&gt;   cache directory:     C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\.drake</span></span>
+<span><span class="co">#&gt; &gt; target energy.A61.globaltech_cost</span></span>
+<span><span class="co">#&gt; &gt; target module_energy_L261.Cstorage</span></span>
+<span><span class="co">#&gt; &gt; target L261.RsrcCurves_C_low</span></span>
+<span><span class="co">#&gt; &gt; target L261.RsrcCurves_C_high</span></span>
+<span><span class="co">#&gt; &gt; target L261.SubsectorShrwtFllt_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.Rsrc</span></span>
+<span><span class="co">#&gt; &gt; target L261.StubTech_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.GlobalTechCoef_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.SubsectorLogit_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.Supplysector_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.GlobalTechShrwt_C_nooffshore</span></span>
+<span><span class="co">#&gt; &gt; target L261.GlobalTechCost_C_High</span></span>
+<span><span class="co">#&gt; &gt; target L261.RsrcCurves_C_lowest</span></span>
+<span><span class="co">#&gt; &gt; target L261.GlobalTechShrwt_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.GlobalTechCost_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.RsrcCurves_C</span></span>
+<span><span class="co">#&gt; &gt; target L261.UnlimitRsrc</span></span>
+<span><span class="co">#&gt; &gt; target L261.ResTechShrwt_C</span></span>
+<span><span class="co">#&gt; &gt; target module_energy_batch_Cstorage_xml</span></span>
+<span><span class="co">#&gt; &gt; target Cstorage.xml</span></span>
+<span><span class="co">#&gt; &gt; target xml.Cstorage.xml</span></span>
+<span><span class="co">#&gt; All done.</span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="example-3">Example 3<a class="anchor" aria-label="anchor" href="#example-3"></a>
 </h3>
 <p>If you edit or delete an XML file, you can quickly and easily get the original file back by running <code><a href="../reference/driver_drake.html">driver_drake()</a></code>.</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># Delete wind_reeds_USA.xml </span></span>
+<code class="sourceCode R"><span><span class="co"># Delete wind_reeds_USA.xml</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/files.html" class="external-link">file.remove</a></span><span class="op">(</span><span class="st">"xml/wind_reeds_USA.xml"</span><span class="op">)</span></span>
-<span><span class="co"># Load and run driver_drake(). Print run time. </span></span>
+<span><span class="co">#&gt; [1] TRUE</span></span>
+<span><span class="co"># Load and run driver_drake(). Print run time.</span></span>
 <span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">load_all</span><span class="op">(</span><span class="st">"."</span><span class="op">)</span></span>
+<span><span class="co">#&gt; i Loading gcamdata</span></span>
 <span><span class="va">t1</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.time</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.time</a></span><span class="op">(</span><span class="op">)</span><span class="op">-</span><span class="va">t1</span><span class="op">)</span></span></code></pre></div>
+<span><span class="co">#&gt; GCAM Data System v5.1</span></span>
+<span><span class="co">#&gt; Found 420 chunks</span></span>
+<span><span class="co">#&gt; Found 4267 chunk data requirements</span></span>
+<span><span class="co">#&gt; Found 2416 chunk data products</span></span>
+<span><span class="co">#&gt; 1452 chunk data input(s) not accounted for</span></span>
+<span><span class="co">#&gt; Warning: missing file_in() files:</span></span>
+<span><span class="co">#&gt;   R/constants.R</span></span>
+<span><span class="co">#&gt; Warning: Do not run make() from a subdirectory of your project.</span></span>
+<span><span class="co">#&gt;   running make() from: C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\vignettes</span></span>
+<span><span class="co">#&gt;   drake project root:  C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata</span></span>
+<span><span class="co">#&gt;   cache directory:     C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\.drake</span></span>
+<span><span class="co">#&gt; &gt; target xml.wind_reeds_USA.xml</span></span>
+<span><span class="co">#&gt; All done.</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Sys.time.html" class="external-link">Sys.time</a></span><span class="op">(</span><span class="op">)</span><span class="op">-</span><span class="va">t1</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Time difference of 1.654303 mins</span></span></code></pre></div>
 <p>Now we have our file back without re-running the entire datasystem.</p>
 </div>
 </div>
@@ -242,7 +350,7 @@
 <code class="sourceCode R"><span><span class="co"># Load clustermq and set type to multicore</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://mschubert.github.io/clustermq/" class="external-link">clustermq</a></span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/options.html" class="external-link">options</a></span><span class="op">(</span>clustermq.scheduler <span class="op">=</span> <span class="st">"multicore"</span><span class="op">)</span></span>
-<span><span class="co"># Load and run </span></span>
+<span><span class="co"># Load and run</span></span>
 <span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">load_all</span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span>parallelism <span class="op">=</span> <span class="st">"clustermq"</span>, caching <span class="op">=</span> <span class="st">"worker"</span>, jobs <span class="op">=</span> <span class="fl">48</span><span class="op">)</span></span></code></pre></div>
 <p>If you get the following error while trying to load <code>clustermq</code>, make sure you have the <code>zeromq</code> library loaded ( <code>module load zeromq/4.1.4</code>).</p>
@@ -274,10 +382,41 @@ Error: package or namespace load failed for 'clustermq' in dyn.load(file, DLLpat
 <code class="sourceCode R"><span><span class="co"># We can give a list of files we want to load</span></span>
 <span><span class="va">data</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/load_from_cache.html">load_from_cache</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"L121.nonco2_tg_R_awb_C_Y_GLU"</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="va">data</span></span>
+<span><span class="co">#&gt; $L121.nonco2_tg_R_awb_C_Y_GLU</span></span>
+<span><span class="co">#&gt; # A tibble: 2,995,650 x 7</span></span>
+<span><span class="co">#&gt;    GCAM_region_ID Non.CO2   GCAM_commodity GCAM_subsector GLU     year      value</span></span>
+<span><span class="co">#&gt;             &lt;int&gt; &lt;chr&gt;     &lt;chr&gt;          &lt;chr&gt;          &lt;chr&gt;  &lt;dbl&gt;      &lt;dbl&gt;</span></span>
+<span><span class="co">#&gt;  1              1 BC_AWB    Corn           CornC4         GLU023  1971 0.0000501 </span></span>
+<span><span class="co">#&gt;  2              1 CH4_AWB   Corn           CornC4         GLU023  1971 0.000389  </span></span>
+<span><span class="co">#&gt;  3              1 CO_AWB    Corn           CornC4         GLU023  1971 0.00682   </span></span>
+<span><span class="co">#&gt;  4              1 H2_AWB    Corn           CornC4         GLU023  1971 0.000166  </span></span>
+<span><span class="co">#&gt;  5              1 N2O_AWB   Corn           CornC4         GLU023  1971 0.00000669</span></span>
+<span><span class="co">#&gt;  6              1 NH3_AWB   Corn           CornC4         GLU023  1971 0.000145  </span></span>
+<span><span class="co">#&gt;  7              1 NMVOC_AWB Corn           CornC4         GLU023  1971 0.00154   </span></span>
+<span><span class="co">#&gt;  8              1 NOx_AWB   Corn           CornC4         GLU023  1971 0.000208  </span></span>
+<span><span class="co">#&gt;  9              1 OC_AWB    Corn           CornC4         GLU023  1971 0.000154  </span></span>
+<span><span class="co">#&gt; 10              1 SO2_AWB   Corn           CornC4         GLU023  1971 0.0000267 </span></span>
+<span><span class="co">#&gt; # ... with 2,995,640 more rows</span></span>
 <span><span class="co"># We can also combine this with other gcamdata utilities to</span></span>
 <span><span class="co"># load all input or outputs of a chunk as well</span></span>
 <span><span class="va">data</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/load_from_cache.html">load_from_cache</a></span><span class="op">(</span><span class="fu"><a href="../reference/outputs_of.html">outputs_of</a></span><span class="op">(</span><span class="st">"module_emissions_L121.nonco2_awb_R_S_T_Y"</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="va">data</span></span></code></pre></div>
+<span><span class="co">#&gt; Error in module_emissions_L121.nonco2_awb_R_S_T_Y("DECLARE_OUTPUTS"): could not find function "module_emissions_L121.nonco2_awb_R_S_T_Y"</span></span>
+<span><span class="va">data</span></span>
+<span><span class="co">#&gt; $L121.nonco2_tg_R_awb_C_Y_GLU</span></span>
+<span><span class="co">#&gt; # A tibble: 2,995,650 x 7</span></span>
+<span><span class="co">#&gt;    GCAM_region_ID Non.CO2   GCAM_commodity GCAM_subsector GLU     year      value</span></span>
+<span><span class="co">#&gt;             &lt;int&gt; &lt;chr&gt;     &lt;chr&gt;          &lt;chr&gt;          &lt;chr&gt;  &lt;dbl&gt;      &lt;dbl&gt;</span></span>
+<span><span class="co">#&gt;  1              1 BC_AWB    Corn           CornC4         GLU023  1971 0.0000501 </span></span>
+<span><span class="co">#&gt;  2              1 CH4_AWB   Corn           CornC4         GLU023  1971 0.000389  </span></span>
+<span><span class="co">#&gt;  3              1 CO_AWB    Corn           CornC4         GLU023  1971 0.00682   </span></span>
+<span><span class="co">#&gt;  4              1 H2_AWB    Corn           CornC4         GLU023  1971 0.000166  </span></span>
+<span><span class="co">#&gt;  5              1 N2O_AWB   Corn           CornC4         GLU023  1971 0.00000669</span></span>
+<span><span class="co">#&gt;  6              1 NH3_AWB   Corn           CornC4         GLU023  1971 0.000145  </span></span>
+<span><span class="co">#&gt;  7              1 NMVOC_AWB Corn           CornC4         GLU023  1971 0.00154   </span></span>
+<span><span class="co">#&gt;  8              1 NOx_AWB   Corn           CornC4         GLU023  1971 0.000208  </span></span>
+<span><span class="co">#&gt;  9              1 OC_AWB    Corn           CornC4         GLU023  1971 0.000154  </span></span>
+<span><span class="co">#&gt; 10              1 SO2_AWB   Corn           CornC4         GLU023  1971 0.0000267 </span></span>
+<span><span class="co">#&gt; # ... with 2,995,640 more rows</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="the-drake-plan">The drake “plan”<a class="anchor" aria-label="anchor" href="#the-drake-plan"></a>
@@ -285,12 +424,25 @@ Error: package or namespace load failed for 'clustermq' in dyn.load(file, DLLpat
 <p>To utilize <code>drake</code>’s features, <code><a href="../reference/driver_drake.html">driver_drake()</a></code> must generate a drake <code>plan</code> to supply to<code><a href="https://docs.ropensci.org/drake/reference/make.html" class="external-link">drake::make()</a></code>, which builds the data system. The <code>plan</code> is a data frame with columns “target” and “command”. Each row is a step in the workflow and the target is the return value of the corresponding command. <code>drake</code> understands the dependency relationships between targets and commands in the plan, regardless of the order they are written. The <code>make()</code> function runs the targets in the correct order and stores the results in a hidden cache. In <code>gcamdata</code> the targets are either inputs/outputs or chunk names. The plan can be obtained by calling <code>driver_drake(return_plan_only = TRUE)</code> and may be useful for debugging or when using additional drake features described next.</p>
 <div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">plan</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span>return_plan_only <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="co">#&gt; GCAM Data System v5.1</span></span>
+<span><span class="co">#&gt; Found 420 chunks</span></span>
+<span><span class="co">#&gt; Found 4267 chunk data requirements</span></span>
+<span><span class="co">#&gt; Found 2416 chunk data products</span></span>
+<span><span class="co">#&gt; 1452 chunk data input(s) not accounted for</span></span>
+<span><span class="co">#&gt; All done.</span></span>
 <span><span class="co"># Pick targets to show the commands that would be used to build them</span></span>
 <span><span class="va">plan</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span></span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/stats/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">target</span> <span class="op"><a href="https://rdrr.io/r/base/match.html" class="external-link">%in%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"socioeconomics.SSP_database_v9"</span>,</span>
 <span>                       <span class="st">"L2052.AgCost_ag_irr_mgmt"</span>,</span>
 <span>                       <span class="st">"module_aglu_batch_ag_cost_IRR_MGMT_xml"</span>,</span>
-<span>                       <span class="st">"xml.ag_cost_IRR_MGMT.xml"</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
+<span>                       <span class="st">"xml.ag_cost_IRR_MGMT.xml"</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="co">#&gt; # A tibble: 4 x 2</span></span>
+<span><span class="co">#&gt;   target                                 command                                                                                                                                   </span></span>
+<span><span class="co">#&gt;   &lt;chr&gt;                                  &lt;chr&gt;                                                                                                                                     </span></span>
+<span><span class="co">#&gt; 1 L2052.AgCost_ag_irr_mgmt               "module_aglu_L2052.ag_prodchange_cost_irr_mgmt[\"L2052.AgCost_ag_irr_mgmt\"]"                                                             </span></span>
+<span><span class="co">#&gt; 2 module_aglu_batch_ag_cost_IRR_MGMT_xml "gcamdata:::module_aglu_batch_ag_cost_IRR_MGMT_xml('MAKE', c(L2052.AgCost_ag_irr_mgmt,L2052.AgCost_bio_irr_mgmt,L2052.AgCost_For))"       </span></span>
+<span><span class="co">#&gt; 3 socioeconomics.SSP_database_v9         "load_csv_files('socioeconomics/SSP_database_v9', FALSE, quiet = TRUE, dummy = file_in('../inst/extdata/socioeconomics/SSP_database_v9.cs~</span></span>
+<span><span class="co">#&gt; 4 xml.ag_cost_IRR_MGMT.xml               "run_xml_conversion(set_xml_file_helper(ag_cost_IRR_MGMT.xml[[1]],\n             file_out('xml/ag_cost_IRR_MGMT.xml')))"</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="additional-features">Additional Features<a class="anchor" aria-label="anchor" href="#additional-features"></a>
@@ -298,10 +450,18 @@ Error: package or namespace load failed for 'clustermq' in dyn.load(file, DLLpat
 <p>You can visualize targets and their dependency relationships with <code>vis_drake_graph()</code>. This function produces an interactive graph that shows how targets are connected within the plan. You can hover over nodes to see commands of a target and double click nodes to contract neighborhoods into clusters. To just see downstream nodes from a specific target, set <code>from = &lt;target_name&gt;</code>. See <code>?vis_drake_graph</code> for all graph options. Here is an example of how <code>vis_drake_graph</code> could be used.</p>
 <div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">load_all</span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="co"># Get the drake plan </span></span>
+<span><span class="co">#&gt; i Loading gcamdata</span></span>
+<span><span class="co"># Get the drake plan</span></span>
 <span><span class="va">plan</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span>return_plan_only <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
-<span><span class="co"># Display the dependency graph downstream from module L210.RenewRscr </span></span>
-<span><span class="fu">vis_drake_graph</span><span class="op">(</span><span class="va">plan</span>, from <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/make.names.html" class="external-link">make.names</a></span><span class="op">(</span><span class="st">"L210.RenewRsrc"</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
+<span><span class="co">#&gt; GCAM Data System v5.1</span></span>
+<span><span class="co">#&gt; Found 420 chunks</span></span>
+<span><span class="co">#&gt; Found 4267 chunk data requirements</span></span>
+<span><span class="co">#&gt; Found 2416 chunk data products</span></span>
+<span><span class="co">#&gt; 1452 chunk data input(s) not accounted for</span></span>
+<span><span class="co">#&gt; All done.</span></span>
+<span><span class="co"># Display the dependency graph downstream from module L210.RenewRscr</span></span>
+<span><span class="fu">vis_drake_graph</span><span class="op">(</span><span class="va">plan</span>, from <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/make.names.html" class="external-link">make.names</a></span><span class="op">(</span><span class="st">"L210.RenewRsrc"</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Error in loadNamespace(name): there is no package called 'webshot'</span></span></code></pre></div>
 <p>See the <code>drake</code> documentation for other features. Some that may be useful with <code>gcamdata</code> include * <code>outdated(plan)</code>: lists all of the targets that are outdated * <code>predict_runtime(plan)</code>: <code>drake</code> records the time it takes to build each target and uses this to predict the runtime of the next <code>make()</code></p>
 </div>
 <div class="section level2">
@@ -313,7 +473,7 @@ Error: package or namespace load failed for 'clustermq' in dyn.load(file, DLLpat
 </h3>
 <p>If there is one file that you would like to save from the cache, you can quickly access it and save it using <code><a href="../reference/load_from_cache.html">load_from_cache()</a></code> and <code><a href="../reference/save_chunkdata.html">save_chunkdata()</a></code></p>
 <div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># Choose the output from the cache, which will be loaded as a list of tibbles </span></span>
+<code class="sourceCode R"><span><span class="co"># Choose the output from the cache, which will be loaded as a list of tibbles</span></span>
 <span><span class="co"># (in this case a list of length 1)</span></span>
 <span><span class="fu"><a href="../reference/load_from_cache.html">load_from_cache</a></span><span class="op">(</span><span class="st">"L2072.AgCoef_BphysWater_bio_mgmt"</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span></span>
 <span>  <span class="fu"><a href="../reference/save_chunkdata.html">save_chunkdata</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
@@ -337,7 +497,7 @@ Error: package or namespace load failed for 'clustermq' in dyn.load(file, DLLpat
 <span><span class="va">all_output_names</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/driver_drake.html">driver_drake</a></span><span class="op">(</span>return_plan_only <span class="op">=</span> <span class="cn">T</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span></span>
 <span>  <span class="co"># Filter to non-xml module outputs (not from a data module)</span></span>
 <span>  <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/grep.html" class="external-link">grepl</a></span><span class="op">(</span><span class="st">'^module'</span>, <span class="va">command</span><span class="op">)</span>,</span>
-<span>                <span class="fu"><a href="https://rdrr.io/r/base/grep.html" class="external-link">grepl</a></span><span class="op">(</span><span class="st">'^L[0-9]{3,}'</span>, <span class="va">target</span><span class="op">)</span><span class="op">)</span> </span>
+<span>                <span class="fu"><a href="https://rdrr.io/r/base/grep.html" class="external-link">grepl</a></span><span class="op">(</span><span class="st">'^L[0-9]{3,}'</span>, <span class="va">target</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co"># Load all outputs</span></span>
 <span><span class="fu"><a href="../reference/load_from_cache.html">load_from_cache</a></span><span class="op">(</span><span class="va">all_output_names</span><span class="op">$</span><span class="va">target</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span></span>
 <span>  <span class="fu"><a href="../reference/save_chunkdata.html">save_chunkdata</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
@@ -357,7 +517,7 @@ Error: package or namespace load failed for 'clustermq' in dyn.load(file, DLLpat
 
       <footer><div class="copyright">
   <p></p>
-<p>Developed by Ben Bond-Lamberty, Katherine Calvin, Ryna Cui, Kalyn Dorheim, Leyang Feng, Jill Horing, Russell Horowitz, Page Kyle, Robert Link, Pralit Patel, Christopher Roney, Abigail Snyder, Aaron Staniszweski, Sean Turner, Matthew Binsted, Zarrar Khan.</p>
+<p>Developed by Russell Horowitz, Ben Bond-Lamberty, Katherine Calvin, Ryna Cui, Kalyn Dorheim, Leyang Feng, Jill Horing, Page Kyle, Robert Link, Pralit Patel, Christopher Roney, Abigail Snyder, Aaron Staniszweski, Sean Turner, Matthew Binsted, Zarrar Khan.</p>
 </div>
 
 <div class="pkgdown">

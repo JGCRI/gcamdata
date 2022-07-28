@@ -2,8 +2,16 @@ pandoc: 2.7.3
 pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
+  debugging: changing-the-data-system/debugging.html
+  index: changing-the-data-system/index.html
+  input_data_documentation: changing-the-data-system/input_data_documentation.html
+  prebuilt_data: changing-the-data-system/prebuilt_data.html
+  speed_tips: changing-the-data-system/speed_tips.html
+  string_lookup_table: changing-the-data-system/string_lookup_table.html
+  style_guide: changing-the-data-system/style_guide.html
+  xml_conversion: changing-the-data-system/xml_conversion.html
   driverdrake_vignette: driverdrake_vignette.html
   getting-started: getting-started/getting-started.html
   usermod_vignette: usermod_vignette.html
-last_built: 2022-07-20T15:33Z
+last_built: 2022-07-28T14:55Z
 
