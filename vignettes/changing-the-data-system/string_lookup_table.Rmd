@@ -1,0 +1,299 @@
+---
+title: String Lookup Table
+---
+
+string | description
+------ | -----------
+.melt | refers to a molten data frame (all data under a single column)
+A | indicates an assumption
+acr | acre
+addl | additional
+adj | adjusted from original data table of the same name
+adv | advanced scenario
+AEZ | by AEZ (agro-ecological zone)
+ag | agricultural product
+agg | aggregated from original categories
+agg | aggregate, as in an aggregate sector
+agProdChange | agricultural productivity change, as annual improvement rate
+ALL | full mass balance table: production, net exports, supply, and all tracked dispositions
+an | animal product
+archv | FAO archive data (early years for data split by years)
+arid | arid (refers to arid AEZs)
+avg | average
+bal | balances
+bbl | barrels
+bbld | barrels per day
+bil | billion
+bio | biomass
+bld | building sector
+bm2 | billion square meters, or thousand square kilometers
+bm3 | billion cubic meters (cubic kilometers)
+by | base year
+C | by GCAM commodity
+C | carbon
+C_density | carbon density
+cal | calibrated
+cal | caloric content
+Capture | CO2 capture
+Carbon | carbon
+Ccoef | carbon emissions coefficient
+ccs | carbon capture and storage
+CDD | cooling degree days (Fahrenheit)
+Cdensity | carbon density
+CDIAC | Carbon Dioxide Information Analysis Center
+cement | cement
+chp | combined heat and power
+CL | cropland
+cm | global gridded crop model
+Cnf | by GCAM commodity, not including fodder crops
+coef | input-output coefficient
+comm | commercial sector
+conv | conversion
+conv | convergence
+cost | input-cost
+crop | plant-based food commodities
+crude | crude oil
+ctry | country
+curve | supply curve
+d | day
+DepRsrc | depletable resource
+det | detailed, as in a detailed sector
+Diet | consumer diet
+digits | number of digits (used for rounding)
+distribution | energy transmission, distribution, delivery
+EcYield | economic yield (output per unit of cropland per year)
+eff | efficiency (output/input)
+EGS | enhanced geothermal systems
+EIA | Energy Information Administration
+EJ | exajoules
+elas | elasticity
+elast | elasticity
+elec | electricity
+electd | electricity transmission and distribution
+emiss | emissions
+en | energy
+enduse | end-use sectors (buildings, industry, transportation)
+ErosCtrl | quantity of resbio left in situ for erosion control
+Exp | exports
+F | by feed type
+F | by fuel type
+FAO | United Nations Food and Agriculture Organization
+fao | FAO category (e.g. Rfao - by FAO year)
+FAO2050 | FAO Agriculture Towards 2050 report
+fby | final base year
+Feed | animal feed
+Fert | fertilizer
+Fi | intermediate fuel
+Fiber | fiber crops
+fin | final
+FixOut | fixedOutput
+Fllt | fillout (fillout = 1)
+flow | flow in IEA energy balances; similar to a sector or a use
+flsp | floorspace
+fn | function
+fn | filename
+Fodder | fodder crops
+Food | consumption by humans
+For | forest
+fos | fossil energy
+frac | fraction
+FuelPref | fuelprefElasticity
+fuelshare | share by specified fuel
+full | complete; with all applicable combinations included
+fy | future years
+gas | natural or synthetic gaseous fuel
+gaspipe | gas pipeline
+gasproc | gas processing
+Gcal | gigacalories
+gcam3 | from, or consistent with, GCAM 3.0/3.1
+gcm | general circulation (climate) model
+GDP | GDP (gross domestic product)
+gepic | GEPIC global gridded crop model
+GIS | from geospatial data
+GJ | gigajoules
+GJt | gigajoules per tonne
+globaltech | global technology
+Grass | Grassland
+GrdRenewRsrc | graded renewable resource
+GTAP | Global Trade Analysis Project
+H | hydrogen
+h2 | hydrogen
+HA | harvested area
+Ha | hectares
+ha | hectares
+harv | harvested
+HDD | heating degree days (Fahrenheit)
+heat | district heat
+hist | historical
+hydro | hydroelectric power
+i | by input
+IEA | International Energy Agency
+iea | IEA category
+IFA | International Fertilizer Industry Association
+ifa | IFA category (e.g. Rifa - by IFA year)
+IMAGE | IMAGE integrated assessment model
+img | IMAGE category (e.g. Rimg - by IMAGE year)
+Imp | imports
+imp | imports
+in | input
+ind | industrial sector
+indenergy | industrial energy use
+indfeed | industrial feedstocks
+info | general information
+input | minicam-energy-input
+interp | interpolation
+intlship | international shipping
+inttech | intermittent-technology
+IO | input-output coefficient (intensity)
+iso | three-digit lower-case country ISO code
+Jatr | Jatropha
+kbbl | thousand barrels
+kbbld | thousand barrels per day
+kcal | kilocalories
+kgC | kilograms of carbon
+kHa | kilohectares
+km2 | square kilometers
+km3 | cubic kilometers (= billion cubic meters)
+kt | kilotonnes
+ktoe | kilotonnes of oil equivalent
+kw | kilowatt
+kwh | kilowatt-hours
+L1 | level1 data / processing-code
+L2 | level2 data / processing-code
+LC | land cover
+LCi | land cover, incomplete in that non-existent combinations are not written out
+liq | refined liquid fuels
+LN | land node
+loadfactor | transportation load factor (pers/veh or tonnes/veh)
+Logit | logit-exponent
+lpjml | LPJmL global gridded crop model
+LT | land type
+LTsage | SAGE land type
+LV | Land Value
+m | transportation mode
+m2 | square meters
+m3 | cubic meters
+max | indicates a maximum value
+Mcal | megacalories
+meat | animal-based food commodities
+MER | market exchange rates
+Mgd | managed
+mi | model interface
+mil | million
+Mill | milling (forest product processing)
+min | indicates a minimum value
+MJ | megajoules
+Mm3 | million cubic meters
+most | most (to the greatest extent)
+MSW | municipal solid waste
+Mt | megatonnes (= teragrams)
+mult | multiplier
+N | nitrogen
+names | column names
+NEcost | non-energy cost
+neg | negative values only (positive values set to 0)
+NetExp | net exports (positive values = net exporter, negative values = net importer)
+NH3 | anhydrous ammonia
+nonenergy_Cseq | carbon sequestration through non-energy use
+nonexist | that do not exist
+nonfood | agricultural commodity demands other than for food, animal feed, or bioenergy
+nonmotor | non-motorized, as a transportation mode (i.e., walking and cycling)
+nonspec | non-specified
+noresm | NorESM general circulation model
+num | numerical (i.e. not prefixed by "X")
+OM | operations and maintenance
+OMfixed | fixed O&M costs
+OMvar | variable O&M costs
+OtherUses | Other uses of ag commodities; includes processing losses, energy/industrial uses, seed, waste, stock changes, and other uses.
+out | output
+ownuse | own use of energy, generally electricity
+P | price
+passthru | pass-through sector or technology
+Past | pasture
+pc | per-capita
+Pcal | petacalories
+pcGDP | per-capita GDP
+peak | at peak biomass
+Pg | petagrams
+PJ | petajoules
+pkm | passenger kilometers
+pol | polar (refers to polar AEZs)
+pop | population
+popl | poplar
+pos | positive values only (negative values set to 0)
+PPP | purchasing power parity
+prelim | preliminary estimate, to be revised later
+primary | primary energy
+Prod | production
+product | product in IEA energy balances; similar to a fuel
+Protect | protected lands (lands removed from economic land competition)
+R | by GCAM region
+rate | annual rate of change
+ratio | ratio from a specified year
+RCP | representative concentration pathway
+ref | reference scenario
+refining | refining
+reg | region
+renew | renewable
+RenewRsrc | renewable resource
+rep | repeated by…
+res | residential sector
+resbio | residue biomass
+retire | retirement parameters
+RFO | residual fuel oil
+RG3 | region from GCAM 3.0
+roofPV | rooftop photovoltaic
+Rsrc | resource
+rsrc | resource
+S | by system (mixed, pastoral)
+S | by sector
+Scen | scenario
+Sepa | EPA sectors
+serv | service, generally for the buildings sector
+shell | building shell
+Shrub | Shrubland
+shrwt | share-weight
+Si | by intermediate sector
+SmthRenewRsrc | smooth renewable resource
+SSP | shared socioeconomic pathway
+state | by state in the USA
+StubTech | stub-technology
+SubRsrc | subresource
+subs | subsector
+supp | supplysector
+Supply | domestic supply (= total consumption = production - net exports)
+swgr | switchgrass
+sz | vehicle size class
+t | tonnes
+t | technology
+tech | technology
+Tg | teragrams
+tha | tonnes per hectare
+thous | thousand
+tkm | tonne kilometers
+TOT | total
+TPES | total primary energy supply (= total consumption = production - net exports)
+tradbio | traditional biomass
+trn | transportation sector
+trop | tropical (refers to tropical AEZs)
+U | uranium
+UCD | UC Davis (developers of GCAM 4.0 transportation database)
+unconv_oil | unconventional oil
+UnlimitRsrc | unlimited resource
+UnMgd | unmanaged
+unoil | unconventional oil
+USD | US dollars (generally indicated by a dollar year)
+V | value
+value | land value
+Veg | vegetation
+vkm | vehicle kilometers
+VOTT | value of time in transit
+wind | wind energy
+Y | year
+yearcols | year columns
+Yfut | future years
+Yh | historical years
+Yield | yield (generally on a harvested area basis, but may be on an economic basis)
+Ynsy | Year (non-specified years)
+Yr | year
+Ysy | Year (specified years)

@@ -1,0 +1,34 @@
+---
+title: Changing the Data System
+---
+
+Users will often want to make changes to gcamdata code or add new "chunks". Below we offer some advice and tips about how to achieve this.
+
+What is a Chunk?
+--------------------
+A _chunk_ is just our term for a unit of code corresponding to a single R file in gcamdata. A chunk will normally comprise a single function, chunks are separated into files according to what _module_ they belong to: aglu, emissions, energy, gcam-usa, modeltime, and socioeconomics.
+
+Chunks know how to respond to three messages sent by the driver:
+* `driver.DECLARE_INPUTS`: The chunk returns the names of its required inputs..
+* `driver.DECLARE_OUTPUTS`: The chunk returns the names of the outputs it will produce. 
+* `driver.MAKE`: The chunk builds its data outputs and returns them.
+
+Code Style
+--------------------
+* Please follow this [style guide](style_guide.html) for all code
+
+Basic Chunk Debugging
+--------------------
+* To walk through a chunk, we recommend following [these](debugging.html) steps
+
+Input Data
+--------------------
+* All input data needs to be [documented](input_data_documentation.html)
+* Constant values should be set in the [constants file](https://github.com/JGCRI/gcamdata/blob/master/R/constants.R), not within individual chunks. Make sure to check if the constant already exists and defined new constants in ALL CAPS with, optionally, an initial lowercase qualifier. See the many examples in the file.
+* Some [proprietary and prebuilt data](prebuilt_data.html) is used in gcamdata.
+
+Writing Chunks
+--------------------
+* [Speed tips](speed_tips.html)
+* Confused about chunk/object names? Check out the [string lookup table](string_lookup_table.html)
+* The chunks to [write xmls](xml_conversion.html) are a bit different than the standard data chunks

@@ -1,0 +1,34 @@
+---
+title: Style Guide
+---
+
+Generally, we follow [Hadley Wickham's R style guide](http://adv-r.had.co.nz/Style.html).
+
+Most importantly:
+* Use `<-` for assignment, not `=`.
+* Operators _do_ get spacing, parentheses do _not_: `if (x + 1) print("yes")`
+* Use short, clear, and consistent variable names.
+* [[Clearly comment your code and data|Documentation]].
+
+### Standard R packages
+
+We're using a standard set of R packages to handle many tasks–mostly from what is known as the [tidyverse](http://tidyverse.org). These include:
+* [dplyr](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html) for data manipulation and processing;
+* [tidyr](https://blog.rstudio.org/2016/02/02/tidyr-0-4-0/) for data reshaping;
+* [assertthat](https://cran.r-project.org/web/packages/assertthat/index.html) for assertions;
+* [tibble](https://blog.rstudio.org/2016/03/24/tibble-1-0-0/) for better data frames;
+* [magrittr](https://cran.r-project.org/web/packages/magrittr/README.html) for building pipelines.
+
+### Pipelines
+
+A word about pipelines: we aim to use these consistently and when it makes sense...but don't take things to extremes. Sometimes `y <- f(g(x))` really _is_ the clearest notation.
+
+### Things NOT to use
+
+The package tests will raise an error for all of these:
+* R's `match()` function
+* The `reshape` or `reshape2` packages (i.e. `melt` or `cast`)
+* Loops (this is not an ironclad prohibition, but should be very rare)
+* R's `ifelse` function - if necessary use `dplyr::if_else` instead
+* Any of R's `apply` family of functions, `rowMeans`, etc. (again, with rare exceptions) 
+* Successive `mutate()` calls. See [Hints for speed](speed_tips.html)

@@ -1,0 +1,157 @@
+---
+title: XML Conversion
+---
+
+As the gcamdata pacakge builds all of the data needed to run GCAM as the last step we will need to generate XML files that GCAM expects as it's input files.  This article describes the basics of writing a chunk that creates an XML file and a guide to create a new "header" to convert a table to XML syntax that does not already exist in the library.
+
+## Writing a batch XML chunk
+As noted above a batch XML chunk will declare as inputs L200-chunk outputs that need to get converted to XML.  It would declare as output an "XML" object corresponding to the GCAM XML input file it generates.  Generally each batch chunk generates just one XML but this isn't enforced and users are free to generate more than one if it makes sense to do so (such as creating a XML files by looping over each scenario).
+
+From here a user would simply add each tibble in using the XML pipeline helpers defined in `xml.R`:
+
+```R
+# Load required inputs
+L200.ModelTime <- get_data(all_data, "L200.ModelTime")
+L200.ModelTimeInterYears <- get_data(all_data, "L200.ModelTimeInterYears")
+
+# Produce outputs
+create_xml("modeltime.xml") %>%
+add_xml_data(L200.ModelTime, "ModelTime") %>%
+add_xml_data(L200.ModelTimeInterYears, "ModelTimeInterYears") %>%
+add_precursors("L200.ModelTime", "L200.ModelTimeInterYears") ->
+modeltime.xml
+
+return_data(modeltime.xml)
+```
+
+Let's take a closer look at those XML pipeline helpers.  Note that these functions are "exported" so users can use them to convert tibbles to XML for their own analysis done outside of the gcamdata package.  You can check the documentation for them using the typicall R syntax: `?create_xml`.
+
+### create_xml
+Creates the "XML" objects and typically a user only needs to provide the XML file name to save as.
+```R
+#' The basis to define how to convert data to an XML file.  This method
+#' simple requires the name to save the XML file as and optionally the
+#' model interface "header" file that defines the transformation lookup
+#' to go from tabular data to hierarchical.  The result of this should be
+#' used in a dplyr pipeline with one or more calls to \code{\link{add_xml_data}}
+#' to add the data to convert and finally ending with \code{\link{run_xml_conversion}}
+#' to run the conversion.
+#'
+#' @param xml_file The name to save the XML file to
+#' @param mi_header The model interface "header".  This will default to the one
+#' included in this package
+#' @return A "data structure" to hold the various parts needed to run the model
+#' interface CSV to XML conversion.
+#' @export
+```
+
+### add_xml_data
+Adds a tibble to the XML started under `create_xml` which gets transformed using the "header" tag specified as the second argument.  Note the order in which tibbles are added can be relevant so users should think carefully about that.  Particularly if they need to use the functions `add_rename_landnode_xml` or `add_node_equiv_xml`.  Also note that generally gcamdata does not enforce column ordering to match the old data system however the Model Interface will match "headers" by column ordering.  Thus we have provided a database of `LEVEL2_DATA_NAMES`, which is equivalent to the `name_DepRsrc` etc in the old data system, to ensure columns in the correct order prior to XML conversion.  The `add_xml_data` method will by default use the supplied header to look up the ordering from `LEVEL2_DATA_NAMES` and automatically reorder the columns for you.  If you get an error message along the lines of `Error: Unknown columns selected` from this method it is likely that your columns are not matching up to the header.  In such a case users can just ensure proper column ordering manually and pass `NULL` as the last argument to this function.
+```R
+#' Add a table to include for conversion to XML.  We need the tibble to convert
+#' and a header tag which can be looked up in the header file to convert the
+#' tibble.  This method is meant to be included in a pipeline between calls of
+#' \code{\link{create_xml}} and \code{\link{run_xml_conversion}}.
+#'
+#' @param dot The current state of the pipeline started from \code{create_xml}
+#' @param data The tibble of data to add to the conversion
+#' @param header The header tag to can be looked up in the header file to
+#' convert \code{data}
+#' @param column_order_lookup A tag that can be used to look up \code{LEVEL2_DATA_NAMES}
+#' to reorder the columns of data before XML conversion to ensure the correspond
+#' with the ModelInterface header.  Note by default the \code{header} is used and if
+#' given \code{NULL} no column reordering will be done.
+#' @return A "data structure" to hold the various parts needed to run the model
+#' interface CSV to XML conversion.
+#' @author PP March 2017
+#' @export
+```
+
+### run_xml_conversion
+Calls the Model Interface to convert tibbles to XML as defined through calls to `create_xml` and `add_xml_data`.  Note that unlike the old data system all of the conversion will happen in memory instead of writing to disk CSV files and Batch XML files.  As noted earlier the driver will only actually run the conversions if it is configured to do so.
+
+```R
+#' Run the CSV to XML conversion using the model interface tool.  This method
+#' should be the final call in a pipeline started with \code{\link{create_xml}}
+#' and one or more calls to \code{\link{add_xml_data}}.
+#'
+#' Not that this method relies on Java to run the conversion.  To avoid errors for
+#' users who do not have Java installed it will check the global option
+#' \code{gcamdata.use_java} before attempting to run the conversion.  If the flag
+#' is set to \code{FALSE} a warning will be issued and the conversion skipped.
+#' To enable the use of Java a user can set \code{options(gcamdata.use_java=TRUE)}
+#'
+#' @param dot The current state of the pipeline started from \code{create_xml}
+#' @return The argument passed in unmodified in case a user wanted run the
+#' conversion again at a later time.
+#' @author PP March 2017
+#' @export
+```
+
+A couple of more specialized helper functions which may be required from time to time are also provided:
+
+### add_rename_landnode_xml
+Due to limitation in how the model interface converts tables [[Headers]] aribrary levels of nesting of the same tag needs to get numbered, i.e. LandNode1, LandNode2, etc, during processing and as a very last step renamed back, i.e. LandNode.  This method does that for you.
+
+```R
+#' Add a table to an XML pipeline that instructs the ModelInterface to rename
+#' LandNodeX to LandNode.  Such a table is necessary to help work around
+#' limitations in the XML processing that node names of the same name can not be
+#' nested with in each other: LandNode/LandNode thus instead we say
+#' LandNode1/LandNode2 and rename as the last step.  Therefore in most cases a
+#' user should add this table near the end of the XML pipeline.
+#' @param dot The current state of the pipeline started from \code{create_xml}
+#' @return A "data structure" to hold the various parts needed to run the model
+#' interface CSV to XML conversion.
+#' @author Pralit Patel
+#' @export
+```
+
+### add_node_equiv_xml
+Sometimes it is handy to just read in one table to read in some parameter even though it might need to get set into XML nodes with different node names.  For example `share-weight` into `technology` and `intermittent-technology`.  This method defines "equivalence classes" which can allow the Model Interface to support such a thing.
+
+```R
+#' Add a table to an XML pipeline that instructs the ModelInterface to treat
+#' tags in the same class as the same when enabled.  Thus not requiring multiple
+#' headers for instance to read in a share-weight into a technology
+#' intermittent-technology or tranTechnology.  A user taking advantage of this
+#' feature would then read this table early in the XML pipeline.
+#' @param dot The current state of the pipeline started from \code{create_xml}
+#' @param equiv_class A name of the equivalence class to add.  This could be any
+#' key in the list \code{XML_NODE_EQUIV}.
+#' @return A "data structure" to hold the various parts needed to run the model
+#' interface CSV to XML conversion.
+#' @author Pralit Patel
+#' @export
+```
+
+## Model Interface Headers
+At the core of converting tabular data such as tibbles into XML is this home grown "header" language.  It's basic principal is to assign to each column of a table a `parent-node-name/child-node-name` relationship (Note they can get more complicated to specificy arbitrary grandparent relationships although such a feature is no longer actively used).  In addition, you can add a `+` in the header  such as `parent/+{specified=inline}child` to read a value out of the current row of the table being processed:
+
+```xml
+<parent>
+<child specified="inline">Value read from table</child>
+</parent>
+```
+
+Or you can specify the `+` with an attribute and the value from the table will be read into that attribute `parent/+{name;specified=inline}child`:
+
+```xml
+<parent>
+<child name="Value read from table" specified="inline"></child>
+</parent>
+```
+
+Each column will get such a header (they do not necessarily have to read a value from the table using `+`) and any additional XML heirarchical relationship information will be specied at the end.  Only one such definition will be specified with no parent and that will be used as the root of the XML.  Thus the Model Interface will process each table row by row starting from the root and processing columns in parent / child relationship.
+The default database of Model Interface headers are found in the gcamdata package under `inst/extdata/mi_headers/ModelInterface_headers.txt`.  Note that the first entry in each line is a look up "header" and is the tag specied as the second argument in `add_xml_data`.
+
+```
+DepRsrc, world/+{name}region, region/+{name}depresource, depresource/+output-unit, depresource/+price-unit, depresource/+market, scenario, scenario/world
+```
+
+When adding a new header you can update the default database `inst/extdata/mi_headers/ModelInterface_headers.txt` and give it a unique lookup of a sensible name.  Since we can not expect the column order of tibbles to be in some expected order you will also need to update the `LEVEL2_DATA_NAMES` in `data-raw/level2_data_names.R`.  Here you will have to update the list where the key is the same lookup in the header definition and the value is an array of column names in the order corresponding to your header.
+```R
+level2_data_names[["DepRsrc"]] <- c( "region", "depresource", "output.unit", "price.unit", "market" )
+```
+
+Once this is done you should re-reun `data-raw/level2_data_names.R` to update the data loaded by the gcamdata package at runtime.
