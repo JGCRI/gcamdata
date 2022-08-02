@@ -14,6 +14,7 @@ module_energy_batch_electricity_xml <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c("L223.Supplysector_elec",
               "L223.ElecReserve",
+              "L223.SectorUseTrialMarket_elec",
               "L223.SubsectorLogit_elec",
               "L223.SubsectorShrwtFllt_elec",
               "L223.SubsectorShrwt_elec",
@@ -51,7 +52,8 @@ module_energy_batch_electricity_xml <- function(command, ...) {
               "L223.StubTechFixOut_elec",
               "L223.StubTechFixOut_hydro",
               "L223.StubTechProd_elec",
-              "L223.StubTechEff_elec"))
+              "L223.StubTechEff_elec",
+              "L223.StubTechSecOut_desal"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c(XML = "electricity.xml"))
   } else if(command == driver.MAKE) {
@@ -61,6 +63,7 @@ module_energy_batch_electricity_xml <- function(command, ...) {
     # Load required inputs
     L223.Supplysector_elec <- get_data(all_data, "L223.Supplysector_elec")
     L223.ElecReserve <- get_data(all_data, "L223.ElecReserve")
+    L223.SectorUseTrialMarket_elec <- get_data(all_data, "L223.SectorUseTrialMarket_elec")
     L223.SubsectorLogit_elec <- get_data(all_data, "L223.SubsectorLogit_elec")
     L223.SubsectorShrwtFllt_elec <- get_data(all_data, "L223.SubsectorShrwtFllt_elec")
     L223.SubsectorShrwt_elec <- get_data(all_data, "L223.SubsectorShrwt_elec")
@@ -99,6 +102,7 @@ module_energy_batch_electricity_xml <- function(command, ...) {
     L223.StubTechFixOut_hydro <- get_data(all_data, "L223.StubTechFixOut_hydro")
     L223.StubTechProd_elec <- get_data(all_data, "L223.StubTechProd_elec")
     L223.StubTechEff_elec <- get_data(all_data, "L223.StubTechEff_elec")
+    L223.StubTechSecOut_desal <- get_data(all_data, "L223.StubTechSecOut_desal")
 
     share.weight <- subsector.share.weight <- intermittent.technology <- NULL # silence package checks
 
@@ -114,6 +118,7 @@ module_energy_batch_electricity_xml <- function(command, ...) {
     create_xml("electricity.xml") %>%
       add_logit_tables_xml(L223.Supplysector_elec, "Supplysector") %>%
       add_xml_data(L223.ElecReserve, "ElecReserve") %>%
+      add_xml_data(L223.SectorUseTrialMarket_elec, "SectorUseTrialMarket") %>%
       add_logit_tables_xml(L223.SubsectorLogit_elec, "SubsectorLogit") %>%
       add_xml_data(L223.SubsectorShrwtFllt_elec, "SubsectorShrwtFllt") %>%
       add_xml_data(L223.SubsectorShrwt_elec, "SubsectorShrwt") %>%
@@ -152,8 +157,10 @@ module_energy_batch_electricity_xml <- function(command, ...) {
       add_xml_data(L223.StubTechFixOut_hydro, "StubTechFixOut") %>%
       add_xml_data(L223.StubTechProd_elec, "StubTechProd") %>%
       add_xml_data(L223.StubTechEff_elec, "StubTechEff") %>%
+      add_xml_data(L223.StubTechSecOut_desal, "StubTechSecOut") %>%
       add_precursors("L223.Supplysector_elec",
                      "L223.ElecReserve",
+                     "L223.SectorUseTrialMarket_elec",
                      "L223.SubsectorLogit_elec",
                      "L223.SubsectorShrwtFllt_elec",
                      "L223.SubsectorShrwt_elec",
@@ -191,7 +198,8 @@ module_energy_batch_electricity_xml <- function(command, ...) {
                      "L223.StubTechFixOut_elec",
                      "L223.StubTechFixOut_hydro",
                      "L223.StubTechProd_elec",
-                     "L223.StubTechEff_elec") ->
+                     "L223.StubTechEff_elec",
+                     "L223.StubTechSecOut_desal") ->
       electricity.xml
 
     return_data(electricity.xml)

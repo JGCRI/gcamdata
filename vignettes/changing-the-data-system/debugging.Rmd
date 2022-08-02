@@ -1,0 +1,25 @@
+---
+title: Debugging gcamdata
+---
+
+You can debug a gcamdata chunk as you would normally debug any function, using breakpoints or the `browser()` function ([see here for more explanation](https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-the-RStudio-IDE)) However, users may find it easier to debug by running a gcamdata chunk line by line. This can be achieved by running `driver` or `driver_drake` and saving the inputs of a chunk to `all_data`, and then begin running your chunk from loading the inputs.  If `stop_before` is specified, by default that chunk's inputs are returned. If `stop_after` is specified, that chunk's outputs are returned. 
+
+For example, if you run:
+
+`all_data <- driver(stop_before = "module_emissions_L121.nonco2_awb_R_S_T_Y")`
+
+All inputs of `module_emissions_L121.nonco2_awb_R_S_T_Y` will be saved to `all_data`. From there, you can run `get_data(all_data, <input-name>)` or alternatively begin running your chunk line by line, starting with loading required inputs. 
+
+Similarly, if you are using driver_drake you can do 
+
+`all_data <- driver_drake(stop_before = "module_emissions_L121.nonco2_awb_R_S_T_Y")`
+
+which also saves the inputs to `all_data`. 
+
+We have also provided a utility method `load_from_cache()` for returning input or output data in the same format as data returned from `driver(stop_before = "module_emissions_L121.nonco2_awb_R_S_T_Y")`, which looks like 
+
+`all_data <- load_from_cache(inputs_of("module_emissions_L121.nonco2_awb_R_S_T_Y"))`
+
+We recommend using this utility rather than using drake::readd directly.
+
+Additionally, you likely will need to load the package with `devtools::load_all()` so that all necessary functions are available at the command line. Remember to reload after making changes.  

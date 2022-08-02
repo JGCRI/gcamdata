@@ -1,0 +1,143 @@
+---
+title: "How to Write a User Modification Chunk"
+date: "2022-07-28"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{usermod_chunks}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+
+## Introduction
+Users may want to change the default gcamdata behavior by either modifying input assumptions or changing intermediate chunks. They can now write a "user modification" chunk that can be "plugged in" to the data system. This new chunk can modify any objects that are used or created in gcamdata and pass the modified object to all dependent chunks.
+
+User-modification chunks have a format similar to other data chunks in gcamdata, except that instead of producing a new output, it returns a modified data object that replaces the original data object in the data system. These new chunks can be added to `driver_drake()` or `driver()` using the new arguments `user_modifications` and `xml_suffix`, which tell gcamdata which modification function to use and what suffix to add to all impacted downstream xmls. 
+
+## Example: Modify Shareweight
+Below we show an example user-modification chunk to change a shareweight in an input csv file.
+
+### User Modification Chunk
+Here we load in two csv files, "energy/A322.subsector_shrwt.csv" and "common/GCAM_region_names.csv". We modify A322.subsector_shrwt, so we list it under `driver.DECLARE_MODIFY`, but do not modify GCAM_region_names, so it is listed under `driver.DECLARE_INPUTS`. Then, we set the shareweight column of the first row of A322.subsector_shrwt to `NEW.SHWT`. Finally, we use a new `return_modified()` function to return the modified A322.subsector_shrwt (note that we have to include the path for input files).
+
+
+
+
+```r
+usermod_fert <- function(command, ...) {
+  if(command == driver.DECLARE_MODIFY) {
+    return(c(FILE = "energy/A322.subsector_shrwt"))
+  } else if(command == driver.DECLARE_INPUTS) {
+    # In addition to the objects users want to modify we can also ask for any other
+    # inputs we need to do our operations but won't be modified
+    return(c(FILE = "common/GCAM_region_names"))
+  } else if(command == driver.MAKE) {
+    all_data <- list(...)[[1]]
+    GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
+    A322.subsector_shrwt <- get_data(all_data, "energy/A322.subsector_shrwt")
+    # Users could also read in additional files that exist outside of the data system
+    # They should do that manually instead of through the driver.DECLARE_INPUTS so as to
+    # avoid mixing user's custom files with Core files
+    # A23.globaltech_eff.mine <- read_csv("/path/to/my/custom/A23.globaltech_eff_with_random_changes.csv")
+    
+    # Make some changes...
+    A322.subsector_shrwt <- A322.subsector_shrwt %>%
+      mutate(share.weight = as.double(share.weight),
+             year = as.integer(year))
+    A322.subsector_shrwt[1,"share.weight"] <- NEW.SHWT
+    
+    # NOTE: we have to match the original object name we asked for in driver.DECLARE_MODIFY, 
+    # which means including the file path for input files
+    # i.e. "energy/A322.subsector_shrwt" not "A322.subsector_shrwt"  
+    # Other objects can be listed out just like for `return_data`
+    return_modified("energy/A322.subsector_shrwt" = A322.subsector_shrwt)
+  } else {
+    stop("Unknown command")
+  }
+}
+```
+
+### Run usermod_fert once
+To include our modification, we include this new chunk in our call to `driver_drake()` and also include a suffix to append to any affected objects (currently mandatory to include suffix).
+
+Because we used the constant `NEW.SHWT` to assign the new value in our function, we first need to set it here.
+
+```r
+NEW.SHWT <- 0.5
+driver_drake(user_modifications = c("usermod_fert"),
+        xml_suffix = "__1") # output xml will be saved as ORIGINALNAME_001.xml
+#> GCAM Data System v5.1
+#> Found 420 chunks
+#> Found 4267 chunk data requirements
+#> Found 2416 chunk data products
+#> 1453 chunk data input(s) not accounted for
+#> > target usermod_fert
+#> > target energy.A322.subsector_shrwt__0
+#> > target module_energy_L2322.Fert
+#> > target L2322.Supplysector_Fert
+#> > target L2322.SubsectorLogit_Fert
+#> > target L2322.SubsectorInterp_Fert
+#> > target L2322.StubTech_Fert
+#> > target L2322.FinalEnergyKeyword_Fert
+#> > target L2322.SubsectorShrwtFllt_Fert
+#> > target L2322.StubTechFixOut_Fert_exp
+#> > target L2322.GlobalTechCost_Fert
+#> > target L2322.GlobalTechProfitShutdown_Fert
+#> > target L2322.GlobalTechSCurve_Fert
+#> > target L2322.StubTechProd_Fert
+#> > target L2322.GlobalTechCoef_Fert
+#> > target L2322.GlobalTechCapture_Fert
+#> > target L2322.GlobalTechShrwt_Fert
+#> > target L2322.StubTechFixOut_Fert_imp
+#> > target L2322.StubTechCoef_Fert
+#> > target L2322.BaseService_Fert
+#> > target L2322.PerCapitaBased_Fert
+#> > target module_gcamusa_L2322.Fert_USA
+#> > target module_energy_batch_en_Fert_xml
+#> > target L2322.TechCoef_USAFert
+#> > target L2322.SubsectorInterp_Fert_USA
+#> > target L2322.StubTechProd_Fert_USA
+#> > target L2322.SubsectorLogit_USAFert
+#> > target L2322.SubsectorShrwtFllt_USAFert
+#> > target L2322.StubTechCoef_Fert_USA
+#> > target L2322.StubTech_Fert_USA
+#> > target L2322.DeleteSubsector_USAFert
+#> > target L2322.StubTechMarket_Fert_USA
+#> > target L2322.FinalEnergyKeyword_Fert_USA
+#> > target L2322.TechShrwt_USAFert
+#> > target L2322.Supplysector_Fert_USA
+#> > target L2322.FinalEnergyKeyword_USAFert
+#> > target L2322.SubsectorInterp_USAFert
+#> > target L2322.SubsectorShrwtFllt_Fert_USA
+#> > target L2322.Production_USAFert
+#> > target L2322.SubsectorLogit_Fert_USA
+#> > target en_Fert.xml
+#> > target module_gcamusa_batch_Fert_USA_xml
+#> > target xml.en_Fert.xml
+#> > target Fert_USA.xml
+#> > target xml.Fert_USA.xml
+#> All done.
+```
+
+
+### Run usermod_fert multiple times
+We can also generate multiple modified xmls using `driver_drake()`. To do this, we simply need to change the value of `NEW.SHWT` and ensure that each different value is associated with a different `xml_suffix`. As well, we need to clear the usermod_fert object from drake's cache using `drake::clean()` as drake is not aware of the change to `NEW.SHWT`. If you do not include this call, drake may assume that all downstream objects/xmls do not need to be updated.
+
+
+```r
+# Multiple shareweights to use
+shareweights <- seq(0.2, 1, 0.1)
+for (i in 1:length(shareweights)){
+  drake::clean(list="usermod_fert") # Ensures that drakes knows to run usermod_fert
+  
+  NEW.SHWT <- shareweights[i]
+  
+  driver_drake(user_modifications = c("usermod_fert"),
+               xml_suffix = paste0("__", i))
+}
+```
+
+See a video tutorial here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S9PwWAEpLIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,0 +1,140 @@
+title: gcamdata
+
+home:
+  sidebar:
+    structure: [links, license, community, authors, dev]
+
+navbar:
+  type: inverse
+  left:
+    - icon: fa-home
+      href: index.html
+    - text: "Getting Started"
+      href: articles/getting-started/getting-started.html
+    - text: Vignettes
+      menu:
+        - text: "driver_drake"
+          href: articles/driverdrake_vignette.html
+        - text: "User Modification Functions"
+          href: articles/usermod_vignette.html
+    - text: Changing the Datasystem
+      href: "articles/changing-the-data-system/index.html"
+    - icon: fa-file-code-o
+      text: "Reference"
+      href: reference/index.html
+
+reference:
+  - title: Running gcamdata
+    contents:
+      - driver_drake
+      - driver
+      - dstrace
+      - info
+      - inputs_of
+      - load_from_cache
+      - outputs_of
+      - create_datamap_from_cache
+  - title: Chunk Helper Functions
+    contents:
+      - add_carbon_info
+      - add_node_leaf_names
+      - approx_fun
+      - approx_fun_constant
+      - append_GLU
+      - change_iso_code
+      - downscale_FAO_country
+      - dstrace_chunks
+      - dstrace_plot
+      - evaluate_smooth_res_curve
+      - extract_prebuilt_data
+      - fast_left_join
+      - fill_exp_decay_extrapolate
+      - gather_years
+      - gdp_deflator
+      - get_ssp_regions
+      - graph_chunks
+      - join.gdp.ts
+      - left_join_error_no_match
+      - left_join_keep_first_only
+      - NEI_to_GCAM
+      - protect_integer_cols
+      - reduce_mgd_carbon
+      - rename_SO2
+      - repeat_add_columns
+      - replace_GLU
+      - return_data
+      - return_modified
+      - save_chunkdata
+      - set_subsector_shrwt
+      - set_traded_names
+      - set_water_input_name
+      - set_years
+      - smooth_res_curve_approx_error
+      - standardize_iso
+      - verify_identical_prebuilt
+      - write_to_all_regions
+      - write_to_all_states
+  - title: Add to Output Data
+    contents:
+      - add_comments
+      - add_flags
+      - add_legacy_name
+      - add_precursors
+      - add_reference
+      - add_title
+      - add_units
+      - same_attributes_as
+      - same_precursors_as
+  - title: XML Batch Chunk Functions
+    contents:
+      - add_logit_tables_xml
+      - add_logit_tables_xml_generate_levels
+      - add_node_equiv_xml
+      - add_rename_landnode_xml
+      - add_xml_data
+      - add_xml_data_generate_levels
+  - title: Constants
+    contents:
+      - GCAM_DATA_MAP
+      - LEVEL2_DATA_NAMES
+      - PREBUILT_DATA
+      - XML_NODE_EQUIV
+  - title: internal
+    contents:
+      - matches("module_")
+      - add_column_types_header_line
+      - add_data
+      - check_chunk_outputs
+      - chunk_inputs
+      - chunk_outputs
+      - chunk_readylist
+      - cmp_xml_files
+      - compute_BC_OC
+      - compute_BC_OC_elc
+      - compute_BC_OC_transport
+      - create_xml
+      - empty_data
+      - extract_header_info
+      - find_chunks
+      - find_csv_file
+      - find_header
+      - get_comments
+      - get_data
+      - get_flags
+      - get_relative_to_workdir
+      - is_data_list
+      - load_csv_files
+      - missing_data
+      - normalize_files
+      - parse_csv_header
+      - remove_data
+      - run_chunk
+      - run_xml_conversion
+      - run_xml_tests
+      - screen_forbidden
+      - set_xml_file_helper
+      - tibbelize_outputs
+      - warn_data_injects
+      - warn_datachunk_bypass
+      - warn_mismarked_fileinputs
+      - xml.XML_SUFFIX

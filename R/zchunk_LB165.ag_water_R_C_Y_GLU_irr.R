@@ -8,8 +8,9 @@
 #' @param ... other optional parameters, depending on command
 #' @return Depends on \code{command}: either a vector of required inputs,
 #' a vector of output names, or (if \code{command} is "MAKE") all
-#' the generated outputs: \code{L165.BlueIrr_m3kg_R_C_GLU}, \code{L165.TotIrr_m3kg_R_C_GLU}, \code{L165.GreenRfd_m3kg_R_C_GLU}, \code{L165.ag_IrrEff_R}. The corresponding file in the
-#' original data system was \code{LB165.ag_water_R_C_Y_GLU_irr.R} (aglu level1).
+#' the generated outputs: \code{L165.BlueIrr_m3kg_R_C_GLU}, \code{L165.TotIrr_m3kg_R_C_GLU},
+#' \code{L165.GreenRfd_m3kg_R_C_GLU}, \code{L165.ag_IrrEff_R}, \code{L165.IrrWithd_km3_R_Y}. The corresponding file in
+#' the original data system was \code{LB165.ag_water_R_C_Y_GLU_irr.R} (aglu level1).
 #' @details Use inventory estimates of either water demand coefficients by country and crop,
 #' or aggregated gridded volumes of water use by country, GLU, and crop, to calculate average
 #' water consumption coefficients by GCAM region, crop, GLU, and irrigation level.
@@ -31,12 +32,15 @@ module_aglu_LB165.ag_water_R_C_Y_GLU_irr <- function(command, ...) {
              FILE = "aglu/Rohwer_2007_IrrigationEff",
              "L151.ag_irrProd_t_ctry_crop",
              "L151.ag_rfdProd_t_ctry_crop",
-             "L151.ag_irrHA_ha_ctry_crop"))
+             "L151.ag_irrHA_ha_ctry_crop",
+             "L161.ag_irrProd_Mt_R_C_Y_GLU"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L165.BlueIrr_m3kg_R_C_GLU",
              "L165.TotIrr_m3kg_R_C_GLU",
              "L165.GreenRfd_m3kg_R_C_GLU",
-             "L165.ag_IrrEff_R"))
+             "L165.ag_IrrEff_R",
+             "L165.IrrWithd_km3_R_Y",
+             "L165.IrrWithd_km3_R_B_Y"))
   } else if(command == driver.MAKE) {
 
     ## Silence package check.
@@ -45,10 +49,10 @@ module_aglu_LB165.ag_water_R_C_Y_GLU_irr <- function(command, ...) {
       blue_m3kg <- green_m3kg <- irrProd <- blue_thousm3 <- irrProd_t <-
       BlueIrr_m3kg <- total_m3kg <- GreenIrr_m3kg <- green_thousm3 <-
       GreenIrr_thousm3 <- rfdProd <- rfdProd_t <- GreenRfd_thousm3 <-
-      MH2014_proxy <- GLU <- NULL
+      MH2014_proxy <- GLU <- year <- IrrWithd_km3 <- NULL
     GreenRfd_m3kg <- GCAM_region_ID <- GCAM_commodity <- BlueIrr_thousm3 <-
       TotIrr_m3kg <- application.eff <- management.eff <- irrHA <-
-      field.eff <- conveyance.eff <- NULL
+      field.eff <- conveyance.eff <- GCAM_subsector <- NULL
 
     all_data <- list(...)[[1]]
 
@@ -62,6 +66,7 @@ module_aglu_LB165.ag_water_R_C_Y_GLU_irr <- function(command, ...) {
     L151.ag_irrProd_t_ctry_crop <- get_data(all_data, "L151.ag_irrProd_t_ctry_crop")
     L151.ag_rfdProd_t_ctry_crop <- get_data(all_data, "L151.ag_rfdProd_t_ctry_crop")
     L151.ag_irrHA_ha_ctry_crop <- get_data(all_data, "L151.ag_irrHA_ha_ctry_crop")
+    L161.ag_irrProd_Mt_R_C_Y_GLU <- get_data(all_data, "L161.ag_irrProd_Mt_R_C_Y_GLU")
 
 
     # Perform computations
@@ -319,7 +324,7 @@ module_aglu_LB165.ag_water_R_C_Y_GLU_irr <- function(command, ...) {
              GreenRfd_thousm3 = GreenRfd_m3kg * rfdProd_t) %>%
       # match in GCAM regions and commodities for aggregation
       left_join_error_no_match(select(iso_GCAM_regID, iso, GCAM_region_ID), by = "iso") %>%
-      left_join_keep_first_only(select(FAO_ag_items_PRODSTAT, GTAP_crop, GCAM_commodity), by = "GTAP_crop") ->
+      left_join_keep_first_only(select(FAO_ag_items_PRODSTAT, GTAP_crop, GCAM_commodity, GCAM_subsector), by = "GTAP_crop") ->
       L165.ag_Water_ctry_crop_GLU
 
     # Original lines 243-265
@@ -343,7 +348,7 @@ module_aglu_LB165.ag_water_R_C_Y_GLU_irr <- function(command, ...) {
 
       # at this point, the crops are ready for aggregation by GCAM region and commodity
       filter(!is.na(GCAM_commodity)) %>%   # to replicate `aggregate` behavior
-      group_by(GCAM_region_ID, GCAM_commodity, GLU) %>%
+      group_by(GCAM_region_ID, GCAM_commodity, GCAM_subsector, GLU) %>%
       summarise_at(vars(irrProd_t, rfdProd_t, BlueIrr_thousm3, GreenIrr_thousm3, GreenRfd_thousm3), sum) %>%
       ungroup %>%
       mutate(BlueIrr_m3kg = BlueIrr_thousm3 / irrProd_t,
@@ -356,9 +361,9 @@ module_aglu_LB165.ag_water_R_C_Y_GLU_irr <- function(command, ...) {
     L165.ag_Water_R_C_GLU[is.na(L165.ag_Water_R_C_GLU)] <- 0
 
     # Create the final tables to be written out (original lines 267-270)
-    L165.BlueIrr_m3kg_R_C_GLU <- select(L165.ag_Water_R_C_GLU, GCAM_region_ID, GCAM_commodity, GLU, BlueIrr_m3kg)
-    L165.TotIrr_m3kg_R_C_GLU <- select(L165.ag_Water_R_C_GLU, GCAM_region_ID, GCAM_commodity, GLU, TotIrr_m3kg)
-    L165.GreenRfd_m3kg_R_C_GLU <- select(L165.ag_Water_R_C_GLU, GCAM_region_ID, GCAM_commodity, GLU, GreenRfd_m3kg)
+    L165.BlueIrr_m3kg_R_C_GLU <- select(L165.ag_Water_R_C_GLU, GCAM_region_ID, GCAM_commodity, GCAM_subsector, GLU, BlueIrr_m3kg)
+    L165.TotIrr_m3kg_R_C_GLU <- select(L165.ag_Water_R_C_GLU, GCAM_region_ID, GCAM_commodity, GCAM_subsector, GLU, TotIrr_m3kg)
+    L165.GreenRfd_m3kg_R_C_GLU <- select(L165.ag_Water_R_C_GLU, GCAM_region_ID, GCAM_commodity, GCAM_subsector, GLU, GreenRfd_m3kg)
 
     # Original lines 272-290
     # Irrigation Efficiency: Compile country-level data to GCAM regions, weighted by total irrigated harvested area
@@ -377,6 +382,31 @@ module_aglu_LB165.ag_water_R_C_Y_GLU_irr <- function(command, ...) {
       summarise(field.eff = weighted.mean(field.eff, irrHA),
                 conveyance.eff = weighted.mean(conveyance.eff, irrHA)) ->
       L165.ag_IrrEff_R
+
+    # Final step: Computing water withdrawals volumes by region for energy-for-water estimation
+    # Note that this was not in the original data system
+    # water withdrawal volumes are calculated as irrigated crop production times blue water coefficients, divided by field efficiencies
+    # The ignore_columns argument is used due to mismatches in coverage between MIRCA and Mekonnen+Hoekstra; these are
+    # minor region/glu/crop observations
+    L165.IrrWithd_km3_R_C_Y_GLU <- L161.ag_irrProd_Mt_R_C_Y_GLU %>%
+      left_join_error_no_match(L165.BlueIrr_m3kg_R_C_GLU,
+                               by = c("GCAM_region_ID", "GCAM_commodity", "GCAM_subsector", "GLU"),
+                               ignore_columns = "BlueIrr_m3kg") %>%
+      left_join_error_no_match(select(L165.ag_IrrEff_R, GCAM_region_ID, field.eff),
+                               by = "GCAM_region_ID") %>%
+      mutate(BlueIrr_m3kg = if_else(is.na(BlueIrr_m3kg), 0, BlueIrr_m3kg),
+             IrrWithd_km3 = value * BlueIrr_m3kg / field.eff) %>%
+      select(GCAM_region_ID, GCAM_commodity, GCAM_subsector, GLU, year, IrrWithd_km3)
+
+    # aggregate by GCAM region and year
+    L165.IrrWithd_km3_R_Y <- group_by(L165.IrrWithd_km3_R_C_Y_GLU, GCAM_region_ID, year) %>%
+      summarise(IrrWithd_km3 = sum(IrrWithd_km3)) %>%
+      ungroup()
+
+    # aggregate by GCAM region, basin, and year
+    L165.IrrWithd_km3_R_B_Y <- group_by(L165.IrrWithd_km3_R_C_Y_GLU, GCAM_region_ID, GLU, year) %>%
+      summarise(IrrWithd_km3 = sum(IrrWithd_km3)) %>%
+      ungroup()
 
     # Produce outputs
     L165.BlueIrr_m3kg_R_C_GLU %>%
@@ -429,7 +459,28 @@ module_aglu_LB165.ag_water_R_C_Y_GLU_irr <- function(command, ...) {
                      "L151.ag_irrHA_ha_ctry_crop") ->
       L165.ag_IrrEff_R
 
-    return_data(L165.BlueIrr_m3kg_R_C_GLU, L165.TotIrr_m3kg_R_C_GLU, L165.GreenRfd_m3kg_R_C_GLU, L165.ag_IrrEff_R)
+    L165.IrrWithd_km3_R_Y %>%
+      add_title("Irrigation water withdrawals by GCAM region") %>%
+      add_units("km^3") %>%
+      add_comments("All irrigation water provided to agricultural sector by region (crops and land use regions aggregated)") %>%
+      same_precursors_as(L165.BlueIrr_m3kg_R_C_GLU) %>%
+      same_precursors_as(L165.ag_IrrEff_R) %>%
+      add_precursors("L161.ag_irrProd_Mt_R_C_Y_GLU")->
+      L165.IrrWithd_km3_R_Y
+
+    L165.IrrWithd_km3_R_B_Y %>%
+      add_title("Irrigation water withdrawals by GCAM region and GLU") %>%
+      add_units("km^3") %>%
+      add_comments("All irrigation water provided to agricultural sector by land use region (GCAM region and GLU)") %>%
+      same_precursors_as(L165.IrrWithd_km3_R_Y) ->
+      L165.IrrWithd_km3_R_B_Y
+
+      return_data(L165.BlueIrr_m3kg_R_C_GLU,
+                  L165.TotIrr_m3kg_R_C_GLU,
+                  L165.GreenRfd_m3kg_R_C_GLU,
+                  L165.ag_IrrEff_R,
+                  L165.IrrWithd_km3_R_Y,
+                  L165.IrrWithd_km3_R_B_Y)
   } else {
     stop("Unknown command")
   }

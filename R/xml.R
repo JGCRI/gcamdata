@@ -31,6 +31,11 @@ create_xml <- function(xml_file, mi_header = NULL) {
     invisible()
 }
 
+#' A suffix to be appended to the XML name in \code{set_xml_file_helper}.  Potentially
+#' useful when used to generate permutations of inputs.  We need to go through a package
+#' data so as to do this in a way that is opaque to drake
+xml.XML_SUFFIX <- NULL
+
 #' set_xml_file_helper
 #'
 #' @param xml The xml pipeline object
@@ -38,6 +43,11 @@ create_xml <- function(xml_file, mi_header = NULL) {
 #' @return The updated XML object.
 set_xml_file_helper <- function(xml, fq_name) {
   xml$xml_file <- fq_name
+
+  # append an XML suffix if so configured
+  if(!is.null(xml.XML_SUFFIX)) {
+    xml$xml_file <- paste0(gsub('\\.xml$', '', xml$xml_file), xml.XML_SUFFIX, '.xml')
+  }
 
   invisible(xml)
 }
@@ -275,7 +285,7 @@ add_node_equiv_xml <- function(dot, equiv_class) {
 #' @param old_tag The XML tag which is being expanded to add more levels
 #' @param new_tag The XML tag which will serve as the additional levels
 #' @param num_levels The number of additional levels to generate
-#' @param rename_file Whether to rename the final \code{old_tag} to
+#' @param rename_final Whether to rename the final \code{old_tag} to
 #' \code{new_tag} in the original header
 #' @param column_name The base name of the column in \code{data} which will get
 #' expanded by appending \code{paste0(column_name, (seq_len(num_levels) - 1))}
@@ -335,7 +345,7 @@ add_xml_data_generate_levels <- function(dot, data, header, old_tag, new_tag, nu
 #' @param old_tag The XML tag which is being expanded to add more levels
 #' @param new_tag The XML tag which will serve as the additional levels
 #' @param num_levels The number of additional levels to generate
-#' @param rename_file Whether to rename the final \code{old_tag} to
+#' @param rename_final Whether to rename the final \code{old_tag} to
 #' \code{new_tag} in the original header
 #' @param column_name The base name of the column in \code{data} which will get
 #' expanded by appending \code{paste0(column_name, (seq_len(num_levels) - 1))}

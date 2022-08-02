@@ -1,0 +1,17 @@
+---
+title: Debugging gcamdata
+---
+
+Speed isn't everything, but we do care about it. Ways to make your code run faster:
+
+* Grouped operations are very expensive. Avoid them where possible. Leaving the grouping on a tbl_df will often trigger grouped operations, so make sure to call ungroup when you're done with a necessary grouped operation. In particular, if you find yourself using `tidyr::complete` and its inclusion immediately slows down the driver, it may be working in groups. If the groups are not actually necessary for the pipeline, try adding `ungroup()` at the beginning of the pipeline / before the call to `tidyr::complete`.
+* Try to filter data sets as early as you can in the pipeline. The computational complexity of everything you do scales with the size of the data.
+* Cross-products dramatically increase the size of the data, and therefore the complexity of everything you do to it afterward. If you have to complete a data set, try to do so as late in the process as possible. In particular, it is better to interpolate missing years on the final product, rather than interpolating at the beginning and carrying the interpolated data through the entire process.
+* Recognize common or repeated operations and do them only once, storing the results for reuse, rather than recalculating them.
+* For very large tables (a few hundred thousand rows or more), there is now a `fast_left_join` function that uses a different library to do the join.
+* Use `replace_na()`, which is _much_ faster than using `mutate` + `if_else` in combination.
+* For replacing values that meet some specified condition (other than being `NA`) while leaving other values alone, use `replace` instead of `if_else`; it is also much faster.
+* Don't use successive `mutate()` calls, e.g. `x %>% mutate(...) %>% mutate(...)`. Combining these into a single `x %>% mutate(..., ...)` call can result in a 30-40% speedup. Note that the package checks scan for this and will raise an error.
+
+Some things that seem like they might help but haven't been verified with experiments:
+* It _may_ be faster to convert strings to factors prior to doing a join. However, the dplyr team has been working on fixing this, and it's not clear whether the difference is as stark as it used to be.  See discussion here:  https://github.com/tidyverse/dplyr/issues/1386

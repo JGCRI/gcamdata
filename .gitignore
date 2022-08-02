@@ -14,7 +14,7 @@ _targets*
 
 # Files produced by data system
 outputs/
-xml/
+xml*/
 sample-generator/outputs/
 R/*.html
 Rplots.pdf
@@ -24,6 +24,7 @@ inst/doc
 
 # Proprietary files
 IEA_EnergyBalances_2019.csv.gz
+*CEDS_emissions.csv
 
 # OS files
 .DS_Store
@@ -33,3 +34,6 @@ IEA_EnergyBalances_2019.csv.gz
 
 # junk produced when developing the python scripts
 *pycache*
+
+# pkgdown stuff
+docs/*
