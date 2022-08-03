@@ -1051,7 +1051,7 @@ driver_targets <- function(
   # as appropriate for if it is just loading a FILE or running an actual chunk.
   target <- c()
   command <- c()
-  for(chunk in chunks_to_run) {
+  for(chunk in unique(chunks_to_run)) {
 
     inputs <- filter(chunkinputs, name == chunk)
     input_names <- inputs$input
@@ -1124,7 +1124,9 @@ driver_targets <- function(
         # `xml/out1.xml <- run_xml_conversion(set_xml_file_helper(out1.xml, file_out("xml/out1.xml")))`
         # Note, the `file_out()` wrapper notifies drake the XML file is an output
         # of this plan and allows it to know to re-produce missing/altered XML files
-        command <- c(command, paste0("gcamdata:::run_xml_conversion(gcamdata:::set_xml_file_helper(", po_xml, "[[1]], file_out('", paste0(xmldir, po_xml), "')))"))
+        command <- c(command, paste0("gcamdata:::run_xml_conversion(gcamdata:::set_xml_file_helper(", po_xml, "[[1]], '", paste0(xmldir, po_xml), "'))"))
+
+        # command <- c(command, paste0("gcamdata:::run_xml_conversion(gcamdata:::set_xml_file_helper(", po_xml, "[[1]], file_out('", paste0(xmldir, po_xml), "')))"))
       }
     }
 
@@ -1139,15 +1141,15 @@ driver_targets <- function(
   # to collapase those while still maintaining some error checking
   # in case we somehow specified different commands for them.
   path <- targets::tar_config_get("script")
-  write("library(targets)",file = path)
-  write("devtools::load_all()",
+  #write("library(targets)",file = path)
+  #write("devtools::load_all()",
   # write("tar_option_set(packages = c('gcamdata'), import = c('gcamdata'))",
-        file = path, append=TRUE)
-  write("list(",file = path, append=TRUE)
+  #       file = path, append=TRUE)
+  write("list(",file = path)
   # Initialize all_data
   # write("tar_target(all_data, list()),",file = path, append=TRUE)
   for (i in 1:length(target)){
-    line <- paste0("tar_target(", target[i], ", ", command[i], ")")
+    line <- paste0("targets::tar_target(", target[i], ", ", command[i], ")")
     if (i < length(target)){
       line <- paste0(line, ",")
     }
@@ -1159,8 +1161,8 @@ driver_targets <- function(
   # Have targets figure out what needs to be done and do it!
   # Any additional arguments given are passed directly on to make
   if(!return_plan_only){
-    # targets::tar_make(callr_function = NULL)
-    targets::tar_make(...)
+    targets::tar_make(callr_function = NULL, envir = globalenv(), reporter = "verbose_positives")
+    # targets::tar_make(..., envir = baseenv())
 
   }
 
