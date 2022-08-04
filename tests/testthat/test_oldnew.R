@@ -95,12 +95,6 @@ if (OLDNEW){
           next
         }
 
-        # TEMPORARY FIX TO PASS CHECKS
-        if (grepl("L131.in_EJ_R_Senduse_F_Yh.csv", newf)){
-          olddata <- olddata %>%
-            mutate(value = if_else(is.nan(value), as.double(NA), value))
-        }
-
         # Finally, test (NB rounding numeric columns to a sensible number of
         # digits; otherwise spurious mismatches occur)
         # Also first converts integer columns to numeric (otherwise test will
