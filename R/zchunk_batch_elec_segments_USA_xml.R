@@ -175,9 +175,6 @@ module_gcamusa_batch_elec_segments_USA_xml <- function(command, ...) {
     # Rename tibble columns to match the L2 data names.
     L2234.PassThroughSector_elecS_USA <- rename(L2234.PassThroughSector_elecS_USA, pass.through.sector = passthrough.sector)
     L2234.PassThroughTech_elecS_grid_USA <- rename(L2234.PassThroughTech_elecS_grid_USA, pass.through.technology = technology)
-    # NOTE:  below is an issue with LEVEL2_DATA_NAMES... PrimaryRenewKeywordInt name should be intermittent.technology,
-    # as the table is for intermittent technologies and the old DS MI header name is intermittent.technology
-    L2234.PrimaryRenewKeywordInt_elecS_USA <- rename(L2234.PrimaryRenewKeywordInt_elecS_USA, technology = intermittent.technology)
 
     # Function to fix GlobalTech / GlobalIntTech sector & subsector names, which is a recurring issue
     fix_global_tech_names <- function(data){
@@ -201,11 +198,8 @@ module_gcamusa_batch_elec_segments_USA_xml <- function(command, ...) {
     L2234.GlobalTechProfitShutdown_elecS_USA <- fix_global_tech_names(L2234.GlobalTechProfitShutdown_elecS_USA)
     L2234.GlobalTechSCurve_elecS_USA <- fix_global_tech_names(L2234.GlobalTechSCurve_elecS_USA)
     L2234.GlobalTechCapture_elecS_USA <- fix_global_tech_names(L2234.GlobalTechCapture_elecS_USA)
-    # NOTE:  below is an issue with LEVEL2_DATA_NAMES... GlobalIntTechBackup name should be intermittent.technology,
-    # as the table is for intermittent technologies and the old DS MI header name is intermittent.technology
     L2234.GlobalIntTechBackup_elecS_USA <- L2234.GlobalIntTechBackup_elecS_USA %>%
-      fix_global_tech_names() %>%
-      rename(technology = intermittent.technology)
+      fix_global_tech_names()
 
     L2234.StubTechProd_elecS_USA <- rename(L2234.StubTechProd_elecS_USA, tech.share.weight = share.weight)
     L2234.TechProd_elecS_grid_USA <- rename(L2234.TechProd_elecS_grid_USA, tech.share.weight = share.weight)
