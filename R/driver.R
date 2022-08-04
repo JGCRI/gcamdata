@@ -1145,19 +1145,20 @@ driver_targets <- function(
   #write("devtools::load_all()",
   # write("tar_option_set(packages = c('gcamdata'), import = c('gcamdata'))",
   #       file = path, append=TRUE)
-  write("list(",file = path)
-  # Initialize all_data
-  # write("tar_target(all_data, list()),",file = path, append=TRUE)
+  if(!quiet) cat("Starting _targets.R\n")
+  targets_list <- "list(\n"
   for (i in 1:length(target)){
     line <- paste0("targets::tar_target(", target[i], ", ", command[i], ")")
     if (i < length(target)){
-      line <- paste0(line, ",")
+      line <- paste0(line, ",\n")
+    } else {
+      line <- paste0(line, ")")
     }
-    write(line,file = path,append = TRUE)
+    targets_list <- paste0(targets_list, line)
 
   }
-  write(")",file = path,append = TRUE)
-
+  write(targets_list,file = path)
+  if(!quiet) cat("Done with _targets.R\n")
   # Have targets figure out what needs to be done and do it!
   # Any additional arguments given are passed directly on to make
   if(!return_plan_only){
