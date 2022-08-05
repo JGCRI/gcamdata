@@ -368,7 +368,7 @@ module_gcamusa_L222.en_transformation_USA <- function(command, ...) {
         bind_rows(tmp) %>%
         select(one_of(LEVEL2_DATA_NAMES[["StubTechMarket"]])) %>%
         unite(key, supplysector, subsector, stub.technology, sep = "~") %>%
-        filter(key %in% L222.StubTech_en_USA_key$key) %>%
+        semi_join(L222.StubTech_en_USA_key, by = "key") %>%
         separate(key, c("supplysector", "subsector", "stub.technology"), sep = "~") %>%
         filter((subsector == "oil refining" & region %in% oil_refining_states) |
                  subsector != "oil refining") ->

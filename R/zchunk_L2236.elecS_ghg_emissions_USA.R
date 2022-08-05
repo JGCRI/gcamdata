@@ -152,7 +152,7 @@ module_gcamusa_L2236.elecS_ghg_emissions_USA <- function(command, ...) {
     # Electricity segments
     L1231.in_EJ_state_elec_F_tech %>%
       mutate(sector = "electricity") %>%
-      filter(year %in% L2236.elec_ghg_emissions_USA$year & technology %in% L2236.elec_ghg_emissions_USA$stub.technology) %>%
+      semi_join(L2236.elec_ghg_emissions_USA, by = c("year", "technology" = "stub.technology")) %>%
       # We do not expect at 1:1 match may use a left_join here.
       left_join(A23.elecS_tech_mapping %>%
                   select(-subsector_1),

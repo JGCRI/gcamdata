@@ -341,7 +341,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
     gdp_mil90usd_ctry_Yh <- gdp_mil90usd_ctry_Yh %>%
       # Only take future GDP if iso has historical GDP
       bind_rows(gdp_bilusd_ctry_Yfut %>%
-                  filter(iso %in% gdp_mil90usd_ctry_Yh$iso)) %>%
+                  semi_join(gdp_mil90usd_ctry_Yh, by = "iso")) %>%
       left_join_error_no_match(iso_GCAM_regID %>%
                                  select(iso, region_GCAM3), by = "iso")
 

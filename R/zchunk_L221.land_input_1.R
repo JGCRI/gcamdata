@@ -193,8 +193,8 @@ module_aglu_L221.land_input_1 <- function(command, ...) {
     # Build a temporary table of Land Cover allocated for Unmanaged Land, and then split into different
     # output tables by years. It is also used for the Carbon Content output table
     L125.LC_bm2_R_LT_Yh_GLU %>%
-      filter(Land_Type %in% unique(A_LandLeaf_Unmgd1$UnmanagedLandLeaf),
-             year %in% c(aglu.LAND_HISTORY_YEARS, MODEL_BASE_YEARS)) %>%
+      semi_join(A_LandLeaf_Unmgd1, by = c("Land_Type" = "UnmanagedLandLeaf")) %>%
+      filter(year %in% c(aglu.LAND_HISTORY_YEARS, MODEL_BASE_YEARS)) %>%
       mutate(allocation = round(value, aglu.DIGITS_LAND_USE)) %>%
       select(-value) %>%
       mutate(LandNode1 = paste(Land_Type, GLU, sep = aglu.CROP_GLU_DELIMITER),

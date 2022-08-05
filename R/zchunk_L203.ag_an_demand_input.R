@@ -371,13 +371,15 @@ module_aglu_L203.ag_an_demand_input <- function(command, ...) {
       summarise(base.service = sum(calOutputValue)) %>%
       ungroup()
 
-    L203.StapleBaseService <- filter(L203.Demand, supplysector %in% A_demand_food_staples$staples.food.demand.input) %>%
+    L203.StapleBaseService <- L203.Demand %>%
+      semi_join(A_demand_food_staples, by = c("supplysector" = "staples.food.demand.input")) %>%
       rename(staples.food.demand.input = supplysector) %>%
       left_join_error_no_match(select(L203.DemandStapleParams, region, gcam.consumer, nodeInput, staples.food.demand.input),
                              by = c("region", "staples.food.demand.input")) %>%
       select(LEVEL2_DATA_NAMES[["StapleBaseService"]])
 
-    L203.NonStapleBaseService <- filter(L203.Demand, supplysector %in% A_demand_food_nonstaples$non.staples.food.demand.input) %>%
+    L203.NonStapleBaseService <- L203.Demand %>%
+      semi_join(A_demand_food_staples, by = c("supplysector" = "non.staples.food.demand.input")) %>%
       rename(non.staples.food.demand.input = supplysector) %>%
       left_join_error_no_match(select(L203.DemandNonStapleParams, region, gcam.consumer, nodeInput, non.staples.food.demand.input),
                                by = c("region", "non.staples.food.demand.input")) %>%

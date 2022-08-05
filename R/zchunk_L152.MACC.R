@@ -170,7 +170,7 @@ module_emissions_L152.MACC <- function(command, ...) {
 
     if(!is.na(EPA_MAC_missing_region$GCAM_region_ID_missing)){
       L152.MAC_pct_R_S_Proc_EPA_missing %>%
-        filter(GCAM_region_ID %in% EPA_MAC_missing_region$GCAM_region_ID_alternative) %>%
+        semi_join(EPA_MAC_missing_region, by = c("GCAM_region_ID" = "GCAM_region_ID_alternative")) %>%
         left_join_error_no_match(EPA_MAC_missing_region, by = c("GCAM_region_ID" = "GCAM_region_ID_alternative")) %>%
         mutate(GCAM_region_ID = GCAM_region_ID_missing) %>%
         select(-GCAM_region_ID_missing) %>%

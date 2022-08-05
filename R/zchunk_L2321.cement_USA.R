@@ -275,7 +275,7 @@ module_gcamusa_L2321.cement_USA <- function(command, ...) {
     # input-output data frame, add model years and minicam information in preparation
     # for the left join in the next step.
     L2321.StubTech_cement_USA  %>%
-      filter(supplysector %in% L2321.IO_GJkg_state_cement_F_Yh_complete$supplysector) %>%
+      semi_join(L2321.IO_GJkg_state_cement_F_Yh_complete, by = "supplysector") %>%
       repeat_add_columns(tibble(year = MODEL_YEARS)) %>%
       repeat_add_columns(minicam_to_add) ->
       L2321.StubTechCoef_cement_USA
@@ -328,7 +328,7 @@ module_gcamusa_L2321.cement_USA <- function(command, ...) {
     # filtering for supply sectors NOT included in the L2321.StubTechCoef_cement_USA data frame which
     # contains electricity inputs.
     L2321.StubTechCalInput_cement_heat_USA %>%
-      filter(!supplysector %in% L2321.StubTechCoef_cement_USA$supplysector) ->
+      anti_join(L2321.StubTechCoef_cement_USA, by = "supplysector") ->
       L2321.StubTechCalInput_cement_heat_USA_NOelectricity
 
     # Add region and share weight information, format.
@@ -349,7 +349,7 @@ module_gcamusa_L2321.cement_USA <- function(command, ...) {
     # cement supplysector leaving only the process heat supplysector.
     L2321.StubTech_cement_USA %>%
       repeat_add_columns(tibble(year = MODEL_YEARS)) %>%
-      filter(!supplysector %in% L2321.StubTechCoef_cement_USA$supplysector) ->
+      anti_join(L2321.StubTechCoef_cement_USA, by = "supplysector") ->
       L2321.StubTechMarket_cement_USA
 
     # Use the calibrated technology mapping data frame to add minicam.energy.input information to

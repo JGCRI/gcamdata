@@ -133,7 +133,7 @@ module_water_L133.water_demand_livestock <- function(command, ...) {
                                  filter(year == 2000) %>%
                                  select(GCAM_region_ID, GCAM_commodity, year, value),
         by = c("GCAM_region_ID", "GCAM_commodity")) %>%
-      filter(GCAM_commodity %in% A_an_supplysector$supplysector) ->
+      semi_join(A_an_supplysector, by = c("GCAM_commodity" = "supplysector")) ->
       L133.water_demand_livestock_R_C_W_km3_Mt
 
     # Average the aggregated livestock water consumption by the total production. Since water

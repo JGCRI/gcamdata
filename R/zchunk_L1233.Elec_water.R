@@ -162,8 +162,7 @@ module_water_L1233.Elec_water <- function(command, ...) {
     ## ...  USING COOLING-WITHIN-GENERATION TECHNOLOGY SHARES
     ## NOTE: ASSUMES UNIFORM EFFICIENCY ACROSS ALL COOLING SYSTEM TYPES
     L1233.shares_R_elec_F_tech_Yh_cool %>%
-      filter(fuel %in% L1231.in_EJ_R_elec_F_tech_Yh$fuel) %>%
-      filter(technology %in% L1231.in_EJ_R_elec_F_tech_Yh$technology) %>%
+      semi_join(L1231.in_EJ_R_elec_F_tech_Yh, by = c("fuel", "technology")) %>%
       left_join(L1231.in_EJ_R_elec_F_tech_Yh,
                 by = c("GCAM_region_ID", "sector", "fuel", "technology", "year")) %>%
       mutate(value = share * value) %>% select(-share) -> L1233.in_EJ_R_elec_F_tech_Yh_cool
@@ -219,8 +218,8 @@ module_water_L1233.Elec_water <- function(command, ...) {
       mutate(plant_type = sub("\\ \\(CCS\\)", "", plant_type)) %>%
       # ^^ sub out CCS parentheses to allow clean join with A.23, which doesn't classify tech. at this detail
       # filter regions in case there are GCAM3 regions that aren't assigned to any regions (e.g., running with a small # of regions)
-      right_join(filter(A23.CoolingSystemShares_RG3_LF, region_GCAM3 %in% L1233.R_iso_RG3$region_GCAM3),
-                 by = c("cooling_system", "water_type", "plant_type", "region_GCAM3")) %>%
+      right_join(semi_join(A23.CoolingSystemShares_RG3_LF, L1233.R_iso_RG3, by = "region_GCAM3"),
+                 by = c("cooling_system", "water_type", "plant_type", "region_GCAM3"))  %>%
       select(-region_GCAM3, -plant_type) ->
       L1233.shrwt_R_elec_cool_Yf
 

@@ -359,7 +359,7 @@ module_aglu_L2012.ag_For_Past_bio_input_irr_mgmt <- function(command, ...) {
 
     # Write out the all years and CO2 object for Pasture AgProductionTechnologies
     L2012.AgProduction_For_Past %>%
-      filter(AgSupplySector %in% L123.ag_Prod_Mt_R_Past_Y_GLU$GCAM_commodity) %>%
+      semi_join(L123.ag_Prod_Mt_R_Past_Y_GLU, by = c("AgSupplySector" = "GCAM_commodity")) %>%
       select(LEVEL2_DATA_NAMES[["AgTech"]]) %>%
       distinct() %>%
       repeat_add_columns(tibble(year = MODEL_YEARS)) %>%

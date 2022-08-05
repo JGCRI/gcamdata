@@ -345,7 +345,7 @@ module_energy_L2324.Off_road <- function(command, ...) {
              share.weight.year = year,
              tech.share.weight = if_else(calibrated.value > 0, 1, 0)) %>%
       set_subsector_shrwt(value_col = "calibrated.value") %>%
-      filter(!(region %in% L2324.rm_heat_techs_R$region & stub.technology == 'heat')) %>% #remove heat technology from regions that have no distict heat
+      anti_join(L2324.rm_heat_techs_R, by = c("region", "stub.technology" = "technology"))  %>% #remove heat technology from regions that have no distict heat
       select(LEVEL2_DATA_NAMES[["StubTechCalInput"]]) ->
       L2324.StubTechCalInput_Off_road
 
