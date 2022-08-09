@@ -1165,11 +1165,8 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
       select(GCAM_region_ID, Land_Type, year,value) %>%
       distinct() %>% # aggregate grassland land area by regions/land type
       repeat_add_columns(tibble(Non.CO2 = unique(L124.bcoc_tg_R_grass_Y_GLU$Non.CO2))) %>%
-      semi_join(L124.bcoc_tg_R_grass_Y_GLU, by = "year") %>% # repeat for both BC and OC
-      inner_join(L124.bcoc_tg_R_grass_Y_GLU %>%
-                   rename(em=value) %>%
-                   semi_join(L124.LC_bm2_R_Grass_Yh_GLU_adj, by = "year"),
-                 by = c("GCAM_region_ID", "Non.CO2","year","Land_Type")) %>% # add emissions to land region area
+      filter(year %in% c(L124.bcoc_tg_R_grass_Y_GLU$year)) %>% # repeat for both BC and OC
+      inner_join(L124.bcoc_tg_R_grass_Y_GLU %>% rename(em=value) %>% filter(year %in% c(L124.LC_bm2_R_Grass_Yh_GLU_adj$year)), by = c("GCAM_region_ID", "Non.CO2","year","Land_Type")) %>% # add emissions to land region area
       mutate(em_factor = em / value) %>% # calculate emission factor (emissions/area)
       select(GCAM_region_ID, Land_Type, Non.CO2, em_factor,year) %>%
       arrange(Non.CO2, Land_Type,GCAM_region_ID,year) %>%

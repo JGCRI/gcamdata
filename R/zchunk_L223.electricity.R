@@ -258,7 +258,7 @@ module_energy_L223.electricity <- function(command, ...) {
 
     # Where country-level shareweights are provided, use those
     L223.SubsectorShrwt_nuc_ctry %>%
-      semi_join(A23.subsector_shrwt_nuc_R, by = "iso") %>%
+      filter(iso %in% A23.subsector_shrwt_nuc_R$iso) %>%
       select(-matches(YEAR_PATTERN)) %>%
       left_join_error_no_match(select(A23.subsector_shrwt_nuc_R, iso, matches(YEAR_PATTERN)),
                                by = "iso") %>%

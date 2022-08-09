@@ -155,12 +155,12 @@ module_gcamusa_L273.en_ghg_emissions_USA <- function(command, ...) {
     # Fertilizer
     L1322.in_EJ_state_Fert_Yh %>%
       mutate(technology = fuel) %>%
-      semi_join(en_ghg_emissions_USA, by = "year") ->
+      filter(year %in% en_ghg_emissions_USA$year) ->
       fert_fuel_input_state
 
     # Industry
     L232.StubTechCalInput_indenergy_USA %>%
-      semi_join(en_ghg_emissions_USA, by = "year") %>%
+      filter(year %in% en_ghg_emissions_USA$year) %>%
       # We do not expect at 1:1 match here because we are using the left join to subset for supplysector / subsector /
       # stub.tehcnology combinations in the data frame. Use a left_join_keep_first_only to preserve the old datasystem
       # behavior.
@@ -205,7 +205,7 @@ module_gcamusa_L273.en_ghg_emissions_USA <- function(command, ...) {
 
     # Buildings: First subset the heating and cooling demands
     L244.StubTechCalInput_bld_gcamusa %>%
-      semi_join(en_ghg_emissions_USA, by = c("year", "subsector")) %>%
+      filter(year %in% en_ghg_emissions_USA$year & subsector %in% en_ghg_emissions_USA$subsector) %>%
       # Add a sector column to match with the emissions data
       mutate(sector = if_else(supplysector %in% c("comm heating", "comm cooling", "resid heating", "resid cooling"),
                               supplysector,if_else(grepl("comm", supplysector),"comm others","resid others"))) %>%
@@ -270,7 +270,7 @@ module_gcamusa_L273.en_ghg_emissions_USA <- function(command, ...) {
     # Electricity net own use output by state
     L123.out_EJ_state_ownuse_elec %>%
       #Subset relevant years
-      semi_join(L241.hfc_pfc_USA, by = "year") %>%
+      filter(year %in% L241.hfc_pfc_USA$year) %>%
       mutate(supplysector = "electricity_net_ownuse",
              subsector = supplysector,
              stub.technology = supplysector) ->
@@ -356,7 +356,7 @@ module_gcamusa_L273.en_ghg_emissions_USA <- function(command, ...) {
     # For building cooling, have to add more specific technologies on the state level. This means that both
     # of the building cooling techs in GCAM-USA will have identical MAC curves
     L252.MAC_higwp_USA %>%
-      semi_join(L273.out_ghg_emissions_bld_cool, by = "supplysector") %>%
+      filter(supplysector %in% L273.out_ghg_emissions_bld_cool$supplysector) %>%
       select(region, supplysector, subsector, stub.technology, year, Non.CO2, mac.control,
              tax, mac.reduction, market.name) %>%
       repeat_add_columns(tibble("state_technology" = unique(L273.out_ghg_emissions_bld_cool$stub.technology))) %>%
@@ -369,7 +369,7 @@ module_gcamusa_L273.en_ghg_emissions_USA <- function(command, ...) {
 
     # Electricity own use will be written out at the grid region level
     L252.MAC_higwp_USA %>%
-      semi_join(L273.out_ghg_emissions_elec_ownuse, by = c("supplysector" = "subsector")) %>%
+      filter(supplysector %in% L273.out_ghg_emissions_elec_ownuse$subsector) %>%
       select(-region) %>%
       repeat_add_columns(tibble("region" = states_subregions$grid_region)) ->
       L273.MAC_higwp_elec_ownuse

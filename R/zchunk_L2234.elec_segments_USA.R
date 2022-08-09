@@ -1013,7 +1013,7 @@ module_gcamusa_L2234.elec_segments_USA <- function(command, ...) {
       select(-share.weight) %>%
       mutate(minicam.energy.input = supplysector,
              market.name = substr(subsector, 1, 2)) %>%
-      semi_join(states_subregions, by = c("market.name" = "state")) -> L2234.TechMarket_elecS_grid
+      filter(market.name %in% states_subregions$state) -> L2234.TechMarket_elecS_grid
 
     # Coefficients for technologies in grid region sectors.
     # Coefficients for generation sectors are 1.

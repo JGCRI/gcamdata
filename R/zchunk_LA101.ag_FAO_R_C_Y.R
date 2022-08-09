@@ -214,7 +214,7 @@ module_aglu_LA101.ag_FAO_R_C_Y <- function(command, ...) {
       Hyde_cropland_share_basin
 
     FAO_PRODSTAT_DOWNSCALED %>%
-      semi_join(Hyde_cropland_share_basin, by = "iso") %>%                                                       # Filter to the same set of countries as above (in FAOSTAT, not Monfreda/LDS, with cropland in Hyde)
+      filter(iso %in% Hyde_cropland_share_basin$iso) %>%                                                         # Filter to the same set of countries as above (in FAOSTAT, not Monfreda/LDS, with cropland in Hyde)
       full_join(Hyde_cropland_share_basin, by = "iso") %>%
       mutate(harvested.area = harvested.area * default_share_GLU,                                                # multiply through by shares of GLU within country and crop
              production = production * default_share_GLU) %>%

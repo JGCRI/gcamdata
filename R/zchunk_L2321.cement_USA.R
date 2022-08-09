@@ -275,7 +275,7 @@ module_gcamusa_L2321.cement_USA <- function(command, ...) {
     # input-output data frame, add model years and minicam information in preparation
     # for the left join in the next step.
     L2321.StubTech_cement_USA  %>%
-      semi_join(L2321.IO_GJkg_state_cement_F_Yh_complete, by = "supplysector") %>%
+      filter(supplysector %in% L2321.IO_GJkg_state_cement_F_Yh_complete$supplysector) %>%
       repeat_add_columns(tibble(year = MODEL_YEARS)) %>%
       repeat_add_columns(minicam_to_add) ->
       L2321.StubTechCoef_cement_USA

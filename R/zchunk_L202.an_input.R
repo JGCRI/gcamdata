@@ -143,7 +143,7 @@ module_aglu_L202.an_input <- function(command, ...) {
     # for scavenging is assigned a different name from the corresponding commodity and supplysector
     # (to avoid having two markets with the same name)
     L202.ag_Feed_Mt_R_C_Y.mlt %>%
-      semi_join(A_agRsrcCurves, by = c("GCAM_commodity" = "sub.renewable.resource")) %>%
+      filter(GCAM_commodity %in% A_agRsrcCurves$sub.renewable.resource) %>%
       group_by(region, GCAM_region_ID, GCAM_commodity) %>%
       summarise(maxSubResource = max(value)) %>%
       # bind the two tables together, re-name the columns to the appropriate headers, and add in a sub.renewable.resource category
@@ -384,7 +384,7 @@ module_aglu_L202.an_input <- function(command, ...) {
 
     # Here we are using USA prices for all regions for FodderHerb, Residue, Scavenging_Other
     L202.ag_Feed_Prices <- L132.ag_an_For_Prices %>%
-      semi_join(L202.ag_Feed_P_share_R_C, by = c("GCAM_commodity" = "subsector")) %>%
+      filter(GCAM_commodity %in% unique(L202.ag_Feed_P_share_R_C$subsector)) %>%
       bind_rows(L202.rsrcP_R_C_75USDkg) %>%
       write_to_all_regions(c("region", "GCAM_commodity", "calPrice"), GCAM_region_names) %>%
       rename(default_price = calPrice) %>%

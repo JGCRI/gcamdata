@@ -100,7 +100,7 @@ module_aglu_L2231.land_input_3_irr <- function(command, ...) {
     #This chunk just deals with the unmanaged forest nodes. Therefore we filter the protected area fractions just for unmanaged forests.
     L120.LC_prot_land_frac_GLU <- get_data(all_data, "L120.LC_prot_land_frac_GLU", strip_attributes = TRUE) %>%
       mutate(Land_Type =if_else(Land_Type == aglu.FOREST_NODE_NAMES, "UnmanagedForest" ,Land_Type)) %>%
-      semi_join(A_LandLeaf_Unmgd3, by = c("Land_Type" = "UnmanagedLandLeaf")) %>%
+      filter(Land_Type %in% c(A_LandLeaf_Unmgd3$UnmanagedLandLeaf)) %>%
       left_join_error_no_match(basin_to_country_mapping %>%rename(GLU=GLU_code) %>%  select(GLU,GLU_name),by=c("GLU")) %>%
       mutate(UnmanagedLandLeaf = paste0(Land_Type,"_",GLU_name)) %>%
       filter(year==MODEL_FINAL_BASE_YEAR) %>%

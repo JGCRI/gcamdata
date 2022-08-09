@@ -96,7 +96,7 @@ module_energy_LA102.en_emiss_CDIAC <- function(command, ...) {
 
     # Calculate the regional emissions coefficients by fuel, using only the energy whose carbon is assumed to be emitted
     L102.CO2_Mt_R_F_Yh %>%
-      semi_join(L102.en_emitted_EJ_R_Fi_Yh, by = "fuel") %>%
+      filter(fuel %in% L102.en_emitted_EJ_R_Fi_Yh$fuel) %>%
       left_join_error_no_match(L102.en_emitted_EJ_R_Fi_Yh, by = c("GCAM_region_ID", "fuel", "year")) %>%
       mutate(value = value / val_energy) %>%
       select(-val_energy) %>%
@@ -119,7 +119,7 @@ module_energy_LA102.en_emiss_CDIAC <- function(command, ...) {
       group_by(fuel, year) %>%
       summarise(value = sum(value)) %>%
       ungroup() %>%
-      semi_join(L102.en_emitted_EJ_Fi_Yh, by = "fuel") %>%
+      filter(fuel %in% L102.en_emitted_EJ_Fi_Yh$fuel) %>%
       left_join_error_no_match(L102.en_emitted_EJ_Fi_Yh, by = c("fuel", "year")) %>%
       mutate(value = value.x / value.y) %>%
       select(-value.x, -value.y) ->

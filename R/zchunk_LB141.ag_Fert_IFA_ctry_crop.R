@@ -180,7 +180,7 @@ module_aglu_LB141.ag_Fert_IFA_ctry_crop <- function(command, ...) {
     # This avoids the use of left_join_keep_first_only in the subsequent pipeline.
     AGLU_ctry %>%
       # take only the isos we need
-      semi_join(L141.LDS_ag_HA_ha, by = "iso") %>%
+      filter(iso %in% L141.LDS_ag_HA_ha$iso) %>%
       select(iso, IFA2002_country, IFA_region) %>%
       distinct() ->
       # store in a table to join to L141.LDS_ag_HA_ha

@@ -411,7 +411,7 @@ module_gcamusa_L2235.elec_segments_FERC_USA <- function(command, ...) {
                   complete(nesting(export_grid), Year = MODEL_BASE_YEARS) %>%
                   group_by(export_grid) %>%
                   mutate(grid_exports = approx_fun(Year, grid_exports, rule = 2)) %>%
-                  semi_join(grid_imports, by = "Year"),
+                  filter(Year %in% grid_imports$Year),
                 by = c("Year", "import_grid" = "export_grid")) %>%
       ## If grids do not have imports or exports, a NA will occur,
       ## we replace these with zeros to understand that 100% share is

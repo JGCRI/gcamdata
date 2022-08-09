@@ -56,7 +56,7 @@ module_gcamusa_LB1231.Elec_tech<- function(command, ...) {
     # Multiply the tech shares by the input and output by state and fuel
     L1231.in_EJ_state_elec_F_tech <- L1231.share_elec_F_tech %>%
       # only the fuels that use "inputs" (oil, gas, coal, biomass)
-      semi_join(L1231.in_EJ_R_elec_F_tech_Yh, by = "fuel") %>%
+      filter(fuel %in% L1231.in_EJ_R_elec_F_tech_Yh$fuel) %>%
       left_join_error_no_match(L123.in_EJ_state_elec_F, by = c("state", "sector", "fuel", "year")) %>%
       # State/Technology output = technology share * state/fuel output
       mutate(value = value.x * value.y) %>%

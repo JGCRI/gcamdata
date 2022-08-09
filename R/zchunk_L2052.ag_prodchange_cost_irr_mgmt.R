@@ -109,8 +109,7 @@ module_aglu_L2052.ag_prodchange_cost_irr_mgmt <- function(command, ...) {
     # be grown in Puerto Rico, and (b) have lower producer prices in Puerto Rico than in the USA.
 
     # Specifically, the method applies the cost:price ratio of each crop in the USA to each crop in all regions
-    L132.ag_an_For_Prices %>%
-      semi_join(L164.ag_Cost_75USDkg_C, by = "GCAM_commodity") %>%
+    L132.ag_an_For_Prices %>% filter(GCAM_commodity %in% L164.ag_Cost_75USDkg_C$GCAM_commodity) %>%
       mutate(region = gcam.USA_REGION) %>%
       select(region, GCAM_commodity, calPrice) %>%
       left_join_error_no_match(L164.ag_Cost_75USDkg_C, by = "GCAM_commodity") %>%

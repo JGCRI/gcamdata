@@ -267,7 +267,7 @@ module_water_L2233.electricity_water <- function(command, ...) {
       select(to.supplysector) %>% unique -> L2233.elec_cool_Int_supplysectors
 
     L2233.supplysector_info %>%
-      semi_join(L2233.elec_cool_Int_supplysectors, by = c("supplysector" = "to.supplysector")) %>%
+      filter(supplysector %in% L2233.elec_cool_Int_supplysectors$to.supplysector) %>%
       mutate(electricity.reserve.margin = unique(A23.sector$electricity.reserve.margin),
              average.grid.capacity.factor = unique(A23.sector$average.grid.capacity.factor)) %>%
       # ^^ Margin and capacity factor assumed to be same as for electricity and elect_td_bld

@@ -297,7 +297,7 @@ module_gcamusa_L271.nonghg_trn_USA <- function(command, ...) {
 
     # Combine LDV and HDV tables
     L254.StubTranTech_USA_trn <- bind_rows(L254.StubTranTech_USA_LDV.coeff,L254.StubTranTech_USA_HDV.coeff) %>%
-      semi_join(L171.nonco2_tgpkm_censusR_trn_SMarkal_F_V_Y, by = c("year" = "vintage")) %>%
+      filter(year %in% unique(L171.nonco2_tgpkm_censusR_trn_SMarkal_F_V_Y$vintage)) %>%
       # Add on lifetime for each technology that can be used to calculate final emissions coefficient
       # need to use left join (some vehicles (Buses) have NA for lifetime)
       left_join(L254.GlobalTranTechSCurve, by = c("tranSubsector" = "subsector.name",
@@ -317,7 +317,7 @@ module_gcamusa_L271.nonghg_trn_USA <- function(command, ...) {
 
     # Prepare table containing emissions factor degradation data
     degrades <- L171.nonco2_tgpkm_censusR_trn_SMarkal_F_V_Y %>%
-      semi_join(L254.StubTranTech_USA_trn, by = c("class" = "MARKAL_class", "fuel" = "MARKAL_fuel")) %>%
+      filter(class %in% unique(L254.StubTranTech_USA_trn$MARKAL_class), fuel %in% unique(L254.StubTranTech_USA_trn$MARKAL_fuel)) %>%
       unite(id, class, fuel, vintage, pollutant, region, sep = " ", remove = FALSE)
 
     # Create a list that contains linear fits for each degradation rate id, with labels

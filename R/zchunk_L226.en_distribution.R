@@ -230,7 +230,7 @@ module_energy_L226.en_distribution <- function(command, ...) {
     # Use base and future IO ratios to generate L226.StubTechCoef_electd: calibrated coefficients on electricity transmission and distribution
     # Electricity T&D: Because this is written out to multiple sectors, need to start with the list in calibrated_techs
     calibrated_techs %>%
-      semi_join(L226.IO_R_electd_F_Y, by = c("sector", "fuel")) %>%
+      filter(paste(sector, fuel) %in% paste(L226.IO_R_electd_F_Y$sector, L226.IO_R_electd_F_Y$fuel)) %>%
       # append region names and calibrated tech info
       repeat_add_columns(tibble("GCAM_region_ID" = unique(L226.IO_R_electd_F_Y$GCAM_region_ID))) %>%
       left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID") %>%
@@ -240,7 +240,7 @@ module_energy_L226.en_distribution <- function(command, ...) {
       rename(stub.technology = technology, coefficient = value) %>%
       mutate(market.name = region) %>%
       select(-sector, -fuel, -calibration, -secondary.output, -GCAM_region_ID) %>%
-      mutate(coefficient = round(coefficient, DIGITS_COEFFICIENT)) ->
+      mutate(coefficient = round(coefficient, DIGITS_COEFFICIENT))->
       L226.StubTechCoef_electd
 
     # Interpolate regional gas pipeline IO coefs to generate future year values, add region names, and calibrated tech information

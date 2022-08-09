@@ -345,7 +345,7 @@ module_water_L201.water_resources_constrained <- function(command, ...) {
       group_by(GCAM_basin_ID) %>% summarise(runoff = mean(runoff_max)) %>%
       ungroup() %>%
       #keep only basins in use
-      semi_join(L201.region_basin_home, by = "GCAM_basin_ID")  ->
+      filter(GCAM_basin_ID %in% L201.region_basin_home$GCAM_basin_ID) ->
       runoff_mean_hist
 
     access_fraction_uncalibrated %>%
