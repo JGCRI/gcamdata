@@ -275,7 +275,7 @@ module_aglu_LB1321.regional_ag_prices <- function(command, ...) {
       filter(GCAM_commodity %in% aglu.TRADED_CROPS)
 
     L1321.an_prP_R_C_75USDkg <- L1321.prP_R_C_75USDkg %>%
-      filter(GCAM_commodity %in% unique(L1321.an_prP_ctry_item_75USDkg$GCAM_commodity))
+      semi_join(L1321.an_prP_ctry_item_75USDkg, by = "GCAM_commodity")
 
     # Addendum - to improve feed prices and meat price calibration, compute and include regionally adjusted foddergrass and pasture prices
     L1321.ag_prP_R_Grass_75USDkg <- L1321.prPmult_R %>%

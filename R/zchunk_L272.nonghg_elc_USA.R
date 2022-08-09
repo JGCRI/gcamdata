@@ -175,7 +175,7 @@
 	L272.nonghg_elec_tech_coeff_Yf_USA.No.NH3 <- L2233.StubTechProd_elecS_cool_USA %>%
 	  select(-c(calOutputValue, share.weight.year, subs.share.weight, tech.share.weight, year)) %>%
 	  # only retain entries for subsectors that we have fuel consumption for
-	  filter(subsector0 %in% agg_fuel_input_elec_Yb$fuel) %>%
+	  semi_join(agg_fuel_input_elec_Yb, by = c("subsector0" = "fuel")) %>%
 	  # add future years, we only need the minimum future year, as the EF will pass forward in the model
 	  repeat_add_columns(tibble::tibble(year = unique(min(MODEL_FUTURE_YEARS)))) %>%
 	  # add pollutants

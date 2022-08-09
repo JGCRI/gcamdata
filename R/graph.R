@@ -65,7 +65,7 @@ graph_chunks <- function(module_filter = NULL,
 
     # Add those into the main chunklist
     chunklist %>%
-      filter(name %in% module_feeders$name.y) %>%
+      semi_join(module_feeders, by = c("name" = "name.y")) %>%
       bind_rows(cl_main) %>%
       distinct ->
       chunklist

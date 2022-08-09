@@ -67,7 +67,7 @@ module_aglu_LA107.an_IMAGE_R_C_Sys_Fd_Y <- function(command, ...) {
     # Take the total production table L105 and filter so that the GCAM_commodity in L105 match the commodity in the
     # fraction of mixed production table, L100.IMAGE_an_Prodmixfrac_ctry_C_Y.
     L105.an_Prod_Mt_ctry_C_Y %>%
-      filter(GCAM_commodity %in% L100.IMAGE_an_Prodmixfrac_ctry_C_Y$commodity) ->
+      semi_join(L100.IMAGE_an_Prodmixfrac_ctry_C_Y, by = c("GCAM_commodity" = "commodity")) ->
       # store in a new table of total production by country, commodity, and year:
       L107.an_Prod_Mt_ctry_C_Y
 

@@ -124,7 +124,7 @@ module_gcamusa_LA100.Socioeconomics <- function(command, ...) {
 
     L100.Pop_USA %>%
       bind_rows(L100.Pop_GR %>%
-                  filter(!(year %in% L100.Pop_USA$year)) %>%
+                  anti_join(L100.Pop_USA, by = "year") %>%
                   select(-growth_rate)) %>%
       mutate(pop = round(pop, socioeconomics.POP_DIGITS)) %>%
       rename(value = pop) %>%

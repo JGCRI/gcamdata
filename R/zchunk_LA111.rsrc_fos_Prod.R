@@ -172,7 +172,7 @@ module_energy_LA111.rsrc_fos_Prod <- function(command, ...) {
         left_join_keep_first_only(select(A11.fos_curves, resource, subresource), by = "subresource") %>%
         repeat_add_columns(tibble(grade = unique(A11.fos_curves$grade))) %>%
         # remove non-existent grades
-        filter(paste(subresource, grade) %in% paste(A11.fos_curves$subresource, A11.fos_curves$grade)) %>%
+        semi_join(A11.fos_curves, by = c("subresource", "grade")) %>%
         # match in GCAM3 region, along with available resources
         left_join_error_no_match(select(iso_GCAM_regID, iso, region_GCAM3), by = "iso") %>%
         left_join_error_no_match(select(A11.fos_curves, region_GCAM3, subresource, grade, available_region_GCAM3 = available),

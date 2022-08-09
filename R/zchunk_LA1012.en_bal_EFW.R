@@ -62,7 +62,7 @@ module_energy_LA1012.en_bal_EFW <- function(command, ...) {
 
     # 1.1 Compute the share of each desal-related (i.e., commercial and industrial) sector's energy by region, fuel, and year
     L1012.desal_shares <- filter(L1011.en_bal_EJ_R_Si_Fi_Yh, sector %in% efw.DESAL_ENERGY_SECTORS) %>%
-      filter(fuel %in% L171.in_EJ_R_desal_F_Yh$fuel) %>%
+      semi_join(L171.in_EJ_R_desal_F_Yh, by = "fuel") %>%
       group_by(GCAM_region_ID, fuel, year) %>%
       mutate(share = value / sum(value)) %>%
       replace_na(list(share = 0)) %>%

@@ -86,7 +86,7 @@ module_energy_LA124.heat <- function(command, ...) {
                                by = c("sector", "fuel", "year")) %>%
       mutate(value = value / IO_Coef) %>%
       select(-IO_Coef) %>%
-      filter(GCAM_region_ID %in% heat_regionIDs$GCAM_region_ID)-> L124.out_EJ_R_heat_F_Yh
+      semi_join(heat_regionIDs, by = "GCAM_region_ID") -> L124.out_EJ_R_heat_F_Yh
 
     # Secondary output of heat from main activity CHP plants
     L1012.en_bal_EJ_R_Si_Fi_Yh %>%
@@ -103,9 +103,9 @@ module_energy_LA124.heat <- function(command, ...) {
     # Secondary output coefficients on heat produced by main activity CHP plants
     L1231.out_EJ_R_elec_F_tech_Yh %>%
       filter(GCAM_region_ID %in% heat_regionIDs$GCAM_region_ID,
-             year %in% HISTORICAL_YEARS) %>%
-      # Select only technologies that have heat output in calibrated techs mapping
-      filter(technology %in% calibrated_techs$technology[calibrated_techs$secondary.output == "heat"]) %>%
+             year %in% HISTORICAL_YEARS,
+             # Select only technologies that have heat output in calibrated techs mapping
+             technology %in% calibrated_techs$technology[calibrated_techs$secondary.output == "heat"]) %>%
       left_join_error_no_match(L124.out_EJ_R_heatfromelec_F_Yh %>%
                                  rename(value_heatfromelec = value) %>%
                                  rename(temp = sector), by = c("GCAM_region_ID", "fuel", "year")) %>%

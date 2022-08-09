@@ -94,7 +94,7 @@ module_gcamusa_LB123.Electricity <- function(command, ...) {
     # Allocating total energy input values to states using shares
     L123.in_EJ_state_elec_F <- L123.pct_state_elec_F %>%
       # L123.in_EJ_R_elec_F_Yh only has certain fuels
-      filter(fuel %in% unique(L123.in_EJ_R_elec_F_Yh$fuel)) %>%
+      semi_join(L123.in_EJ_R_elec_F_Yh, by = "fuel") %>%
       left_join_error_no_match(L123.in_EJ_R_elec_F_Yh %>%
                                  select(fuel, year, value),
                                by = c("fuel", "year")) %>%

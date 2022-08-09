@@ -134,7 +134,7 @@ module_energy_LB2011.ff_ALL_R_C_Y <- function(command, ...) {
     # each region is solely an importer or an exporter.
     L2011.ff_ALL_EJ_R_C_Y %>%
       left_join_error_no_match(GCAM_region_names, by = "region") %>%
-      filter(! year %in% L2011.ff_GrossTrade_EJ_R_C_Final_Cal_Year_adj$year) %>%
+      anti_join(L2011.ff_GrossTrade_EJ_R_C_Final_Cal_Year_adj, by = "year") %>%
       mutate(GrossExp_EJ = if_else(net_trade<=0, 0, net_trade),
              GrossImp_EJ = if_else(net_trade<0, -1*net_trade, 0),
              GCAM_Commodity = fuel) %>%

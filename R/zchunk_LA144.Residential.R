@@ -294,7 +294,7 @@ module_gcamusa_LA144.Residential <- function(command, ...) {
         if(unique(df$year) %in% c(1990, 1993, 2009, 2015)) {
           df %>%
             gather(variable, value, -NWEIGHT, -year, -subregion9) %>%
-            filter(variable %in% unique(RECS_variables$variable)) %>%
+            semi_join(RECS_variables, by = "variable") %>%
             mutate(NWEIGHT = as.numeric(NWEIGHT),
                    value = as.numeric(value)) %>%
             group_by(subregion9, year, variable) %>%
@@ -312,7 +312,7 @@ module_gcamusa_LA144.Residential <- function(command, ...) {
         if(unique(df$year) %in% c(1993:2009)) {
           df %>%
             gather(variable, value, -NWEIGHT, -year, -subregion13) %>%
-            filter(variable %in% unique(RECS_variables$variable)) %>%
+            semi_join(RECS_variables, by = "variable") %>%
             mutate(NWEIGHT = as.numeric(NWEIGHT),
                    value = as.numeric(value)) %>%
             group_by(subregion13, year, variable) %>%
@@ -453,11 +453,11 @@ module_gcamusa_LA144.Residential <- function(command, ...) {
     appl_other_services <- EIA_AEO_services %>%
       filter(EIA_sector == "Residential") %>%
       select(service) %>%
-      filter(!(service %in% unique(RECS_variables$service)))
+      anti_join(RECS_variables, by = "service")
 
     # Aggregate appliances and other by service and fuel
     L144.EIA_AEO_appl_other_F <- L144.EIA_AEO_Tab4 %>%
-      filter(service %in% unique(appl_other_services$service)) %>%
+      semi_join(appl_other_services, by = "service") %>%
       group_by(service, fuel, year) %>%
       summarise(value = sum(value)) %>%
       group_by(fuel, year) %>%
