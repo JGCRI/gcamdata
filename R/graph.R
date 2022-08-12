@@ -101,6 +101,13 @@ graph_chunks <- function(module_filter = NULL,
     right_join(chunklist, by = "name") ->
     chunklist
 
+  chunklist <- chunklist %>%
+    mutate(chunk = case_when(
+      grepl("xml", chunk) ~ sub("batch_", "", chunk),
+      grepl("^L(A|B)?[0-9]{3,4}", chunk) ~ stringr::str_extract(chunk, "^L(A|B)?[0-9]{3,4}"),
+      TRUE ~ chunk
+    ))
+
   # Compute edges (dependencies)
   chunkinputs %>%
     inner_join(chunkoutputs, by = c("input" = "output")) ->
@@ -131,8 +138,8 @@ graph_chunks <- function(module_filter = NULL,
        #      vertex.label.dist = 1,
        vertex.label.cex = .5,
        vertex.label.color = "grey",
-       vertex.size = 5,
-       edge.arrow.size = 0.3,
+       vertex.size = 4,
+       edge.arrow.size = 0.08,
        layout = coords)
   title(module_filter, sub = paste("DSR-integration", date()))
 
