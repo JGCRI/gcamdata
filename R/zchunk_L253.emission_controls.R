@@ -303,10 +303,10 @@ module_emissions_L253.emission_controls <- function(command, ...) {
         L253.Retrofit_off <- select(L253.Retrofit_off, region, supplysector, subsector, stub.technology, period, Non.CO2, linear.control, start.year, end.year, disable.em.control)
 
         # Separate out US State emission controls
-        L253.EF_retrofit_USA <- semi_join(L253.EF_retrofit, states_subregions, by = c("region" = "state"))
-        L253.EF_NSPS_new_vintage_USA <- semi_join(L253.EF_NSPS_new_vintage, states_subregions, by = c("region" = "state"))
-        L253.delete_gdp_control_USA <- semi_join(L253.delete_gdp_control, states_subregions, by = c("region" = "state"))
-        L253.Retrofit_off_USA <- semi_join(L253.Retrofit_off, states_subregions, by = c("region" = "state"))
+        L253.EF_retrofit_USA <- filter(L253.EF_retrofit, region %in% states_subregions$state)
+        L253.EF_NSPS_new_vintage_USA <- filter(L253.EF_NSPS_new_vintage, region %in% states_subregions$state)
+        L253.delete_gdp_control_USA <- filter(L253.delete_gdp_control, region %in% states_subregions$state)
+        L253.Retrofit_off_USA <- filter(L253.Retrofit_off, region %in% states_subregions$state)
         L253.EF_retrofit <- anti_join(L253.EF_retrofit, states_subregions, by = c("region" = "state"))
         L253.EF_NSPS_new_vintage <- anti_join(L253.EF_NSPS_new_vintage, states_subregions, by = c("region" = "state"))
         L253.delete_gdp_control <- anti_join(L253.delete_gdp_control, states_subregions, by = c("region" = "state"))

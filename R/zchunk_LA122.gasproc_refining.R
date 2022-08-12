@@ -222,7 +222,7 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
     # First, calculate and create the derived crop inputs to the various first-generation biofuel technologies
     L122.in_EJ_R_biofuel_F_Yh %>%
       left_join(select(calibrated_techs, sector, fuel, passthrough.sector = minicam.energy.input), by = c("sector", "fuel")) %>%
-      semi_join(A21.globaltech_coef, by = c("passthrough.sector" = "supplysector")) -> L122.in_EJ_R_1stgenbio_F_Yh
+      filter(passthrough.sector %in% A21.globaltech_coef$supplysector) -> L122.in_EJ_R_1stgenbio_F_Yh
 
     A21.globaltech_coef %>%
       select(passthrough.sector = supplysector, minicam.energy.input) %>%
@@ -357,11 +357,11 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
     # subtract from the gas processing sector's production
     if(gas_to_unconv_oil == reg_nat_gas) {
       L122.out_EJ_R_gasproc_gas_Yh %>%
-        semi_join(L121.in_EJ_R_unoil_F_Yh, by = "GCAM_region_ID") %>%
+        filter(GCAM_region_ID %in% L121.in_EJ_R_unoil_F_Yh$GCAM_region_ID) %>%
         left_join(select(L121.in_EJ_R_unoil_F_Yh, GCAM_region_ID, fuel, year, in_value = value), by = c("GCAM_region_ID", "fuel", "year")) %>%
         mutate(value = if_else(is.na(in_value), value , value - in_value)) %>%
         select(-in_value) %>%
-      bind_rows(anti_join(L122.out_EJ_R_gasproc_gas_Yh, L121.in_EJ_R_unoil_F_Yh, by = "GCAM_region_ID")) ->
+        bind_rows(anti_join(L122.out_EJ_R_gasproc_gas_Yh, L121.in_EJ_R_unoil_F_Yh, by = "GCAM_region_ID")) ->
         L122.out_EJ_R_gasproc_gas_Yh
     }
 

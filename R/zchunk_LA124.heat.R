@@ -86,7 +86,7 @@ module_energy_LA124.heat <- function(command, ...) {
                                by = c("sector", "fuel", "year")) %>%
       mutate(value = value / IO_Coef) %>%
       select(-IO_Coef) %>%
-      semi_join(heat_regionIDs, by = "GCAM_region_ID") -> L124.out_EJ_R_heat_F_Yh
+      filter(GCAM_region_ID %in% heat_regionIDs$GCAM_region_ID)-> L124.out_EJ_R_heat_F_Yh
 
     # Secondary output of heat from main activity CHP plants
     L1012.en_bal_EJ_R_Si_Fi_Yh %>%

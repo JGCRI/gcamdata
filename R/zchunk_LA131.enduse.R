@@ -84,9 +84,9 @@ module_energy_LA131.enduse <- function(command, ...) {
 
     # Subset the end use sectors and aggregate by fuel
     L1012.en_bal_EJ_R_Si_Fi_Yh %>%
-      semi_join(enduse_sector_aggregation, by = "sector") %>%
-      filter(year %in% HISTORICAL_YEARS,
-             fuel == "electricity")  %>%
+      filter(sector %in% enduse_sector_aggregation$sector,
+             year %in% HISTORICAL_YEARS,
+             fuel == "electricity") %>%
       group_by(GCAM_region_ID, fuel, year) %>%
       summarise(value = sum(value)) ->
       Enduse_elect_unscaled
@@ -101,7 +101,7 @@ module_energy_LA131.enduse <- function(command, ...) {
 
     # Multiply the electricity scalers by the original estimates of electricity consumption by end use sectors
     L1012.en_bal_EJ_R_Si_Fi_Yh %>%
-      semi_join(enduse_sector_aggregation, by = "sector") %>%
+      filter(sector %in% enduse_sector_aggregation$sector) %>%
       filter(fuel == "electricity") %>%
       left_join_error_no_match(Enduse_elect_scaler, by = c("GCAM_region_ID", "year")) %>%
       mutate(value = value.x * value.y) %>%
@@ -110,7 +110,7 @@ module_energy_LA131.enduse <- function(command, ...) {
 
     # Replace unscaled estimates of end use sector electricity consumption in full table
     L1012.en_bal_EJ_R_Si_Fi_Yh %>%
-      semi_join(enduse_sector_aggregation, by = "sector") %>%
+      filter(sector %in% enduse_sector_aggregation$sector) %>%
       filter(fuel != "electricity") %>%
       bind_rows(Enduse_elect_scaled) ->
       Enduse_elect_scaled_heat_unscaled # still need to scale heat

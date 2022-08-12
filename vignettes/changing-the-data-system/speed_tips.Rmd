@@ -12,7 +12,7 @@ Speed isn't everything, but we do care about it. Ways to make your code run fast
 * Use `replace_na()`, which is _much_ faster than using `mutate` + `if_else` in combination.
 * For replacing values that meet some specified condition (other than being `NA`) while leaving other values alone, use `replace` instead of `if_else`; it is also much faster.
 * Don't use successive `mutate()` calls, e.g. `x %>% mutate(...) %>% mutate(...)`. Combining these into a single `x %>% mutate(..., ...)` call can result in a 30-40% speedup. Note that the package checks scan for this and will raise an error.
-* Avoid `filter(x, z %in% y$z)`, instead using `semi_join(y, by = "z")` or `anti_join(y, by = "z")`. This is usually 25-30% faster. The exception is when making multiple filter calls, in which case it is often faster to have one call to `filter()` rather than use `filter() %>% semi_join()`.
+* Avoid `filter(x, !(z %in% y$z))`, instead using `anti_join(y, by = "z")`. This is usually 25-30% faster.
 
 Some things that seem like they might help but haven't been verified with experiments:
 * It _may_ be faster to convert strings to factors prior to doing a join. However, the dplyr team has been working on fixing this, and it's not clear whether the difference is as stark as it used to be.  See discussion here:  https://github.com/tidyverse/dplyr/issues/1386
