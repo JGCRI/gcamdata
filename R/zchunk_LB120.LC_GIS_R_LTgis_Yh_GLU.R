@@ -120,6 +120,10 @@ module_aglu_LB120.LC_GIS_R_LTgis_Yh_GLU <- function(command, ...) {
       select(iso,GCAM_region_ID, GLU, Land_Type, soil_c, vegc_ag, vegc_bg, land_code)  %>%
       distinct() -> L120.LC_soil_veg_carbon_GLU_agg
 
+    Various_CarbonData_LTsage_Unmanaged <- Various_CarbonData_LTsage %>%
+      filter(!LT_SAGE %in% c("Pasture","UrbanLand","Cropland")) %>%
+      mutate(LT_SAGE = gsub(" ","",LT_SAGE))
+
     L100.Land_type_area_ha %>%
       ## Add data for GCAM region ID and GLU
       left_join_error_no_match(distinct(iso_GCAM_regID, iso, .keep_all = TRUE), by = "iso") %>%
@@ -130,7 +134,7 @@ module_aglu_LB120.LC_GIS_R_LTgis_Yh_GLU <- function(command, ...) {
       ## Drop all rows with missing values (inland bodies of water)
       na.omit() %>%
       # moirai only outputs carbon values from unmanaged land. Therefore, we remove pastures, urbanland and cropland from the below. We continue to calculate the carbon values for these land types using the Houghton structure.
-      left_join_error_no_match(Various_CarbonData_LTsage %>%  filter(!LT_SAGE %in% c("Pasture","UrbanLand","Cropland")) %>% mutate(LT_SAGE = gsub(" ","",LT_SAGE)), by= c("LT_SAGE")) %>%
+      left_join_error_no_match(Various_CarbonData_LTsage_Unmanaged, by= c("LT_SAGE")) %>%
       mutate(`mature age` = if_else(is.na(`mature age`),1,`mature age`)) %>%
       complete(nesting(GCAM_region_ID, Land_Type, GLU,iso,land_code), year, fill = list(value = 0)) %>%
       complete(nesting(GCAM_region_ID, Land_Type, GLU,iso,land_code), year = unique(c(year, aglu.LAND_COVER_YEARS))) %>%
@@ -163,6 +167,9 @@ module_aglu_LB120.LC_GIS_R_LTgis_Yh_GLU <- function(command, ...) {
       #Add adjustment for Tundra. Our Tundra values are unreliable. Use Houghton for those,
       mutate(`mature age` = if_else(Land_Type == "Tundra", aglu.DEFAULT_TUNDRA_AGE, `mature age`))->L120.LC_soil_veg_carbon_GLU_all_cat
 
+    Various_CarbonData_LTsage_cropland <- Various_CarbonData_LTsage %>%
+      filter(!LT_SAGE %in% c("Pasture","UrbanLand","Unmanaged")) %>%
+      mutate(LT_SAGE = gsub(" ","",LT_SAGE))
 
     #Compute Cropland carbon
     L100.Land_type_area_ha %>%
@@ -175,7 +182,7 @@ module_aglu_LB120.LC_GIS_R_LTgis_Yh_GLU <- function(command, ...) {
       ## Drop all rows with missing values (inland bodies of water)
       na.omit() %>%
       # moirai only outputs carbon values from unmanaged land. Therefore, we remove pastures, urbanland and cropland from the below. We continue to calculate the carbon values for these land types using the Houghton structure.
-      left_join_error_no_match(Various_CarbonData_LTsage %>%  filter(!LT_SAGE %in% c("Pasture","UrbanLand","Unmanaged")) %>% mutate(LT_SAGE = gsub(" ","",LT_SAGE)), by= c("LT_SAGE")) %>%
+      left_join_error_no_match(Various_CarbonData_LTsage_cropland, by= c("LT_SAGE")) %>%
       mutate(`mature age` = if_else(is.na(`mature age`),1,`mature age`)) %>%
       complete(nesting(GCAM_region_ID, Land_Type, GLU,iso,land_code), year, fill = list(value = 0)) %>%
       complete(nesting(GCAM_region_ID, Land_Type, GLU,iso,land_code), year = unique(c(year, aglu.LAND_COVER_YEARS))) %>%
@@ -199,8 +206,8 @@ module_aglu_LB120.LC_GIS_R_LTgis_Yh_GLU <- function(command, ...) {
     Land_for_Crop_carbon %>%
       left_join_keep_first_only(L120.LC_soil_veg_carbon_mean_LT_GLU_reg, by=c("GLU", "GCAM_region_ID", "Land_Type")) %>%
       mutate(soil_c = if_else(is.na(soil_c),aglu.DEFAULT_SOIL_CARBON_CROPLAND,soil_c),
-             veg_c = if_else(is.na(veg_c),aglu.DEFAULT_VEG_CARBON_CROPLAND,veg_c)) %>%
-      mutate(Land_Type = "Cropland") %>%
+             veg_c = if_else(is.na(veg_c),aglu.DEFAULT_VEG_CARBON_CROPLAND,veg_c),
+             Land_Type = "Cropland") %>%
       group_by(GCAM_region_ID, Land_Type, GLU) %>%
       #Note that soil and vegetation carbon units are in Mgc/ha. These are therefore converted to kg/m2 using CONV_THA_KGM2.
       #We compute a weighted average using land area as a weight.

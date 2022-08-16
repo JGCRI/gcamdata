@@ -384,9 +384,9 @@ module_energy_LA125.hydrogen <- function(command, ...) {
                                (year>=2015) ~ value[year == 2015]*(1 + improvement_rate) ^ (year - 2015),
                                year >= 2040 ~ value[year == 2040]*(1 + improvement_rate_post_2040)^(year - 2040)),
              value = case_when(technology == 'coal chemical' & year>2015~value[year == 2015]*(1 + improvement_rate) ^ (year - 2015),
-                               TRUE~value))%>%
-      mutate( improve_max = case_when( ( year >= 1975 ) ~ ( value[ year == 2015] * ( 1 + max_improvement ) ) ) ) %>%
-      mutate( value = if_else( value > improve_max & improvement_rate > 0, improve_max, value ), # set to max improvement value if exceeded
+                               TRUE~value),
+             improve_max = case_when( ( year >= 1975 ) ~ ( value[ year == 2015] * ( 1 + max_improvement ) ) ) ,
+             value = if_else( value > improve_max & improvement_rate > 0, improve_max, value ), # set to max improvement value if exceeded
               #for techs with negative improvement rates (i.e., consuming more input like electricity per unit over time, but presumably less primary input like natural gas),
               #make 2040 value the "least efficient" they can get
               value = case_when( improvement_rate < 0 & year >= 2040 ~ value[year == 2040],
