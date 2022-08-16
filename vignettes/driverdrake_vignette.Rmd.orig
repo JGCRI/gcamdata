@@ -147,8 +147,7 @@ When running `driver_drake()` with parallelism, the following arguments to `make
 
 
 ### The `clustermq` backend
-See the `clustermq` [installation guide](https://cran.r-project.org/web/packages/clustermq/vignettes/userguide.html) for installation instructions and options. `clustermq` requires `R version 3.5` or greater.  Note, on Mac and Windows a simple `install.packages("clustermq") is sufficient.
-<!-- - explain how to install clustermq package on PIC -->
+See the `clustermq` [installation guide](https://cran.r-project.org/web/packages/clustermq/vignettes/userguide.html) for installation instructions and options. `clustermq` requires `R version 3.5` or greater.  Note, on Mac and Windows a simple `install.packages("clustermq")` is sufficient.
 For using `clustermq` on PIC (PNNL Institutional Computing) we have already installed the full set of required R packages in a shared space as successfully compiling `clustermq` was not straightforward due to compiler version issues.  To use `drake` + `clustermq` in PIC a user can:
     * Get necessary libraries with: `export R_LIBS=/pic/projects/GCAM/GCAM-libraries/R/x86_64-pc-linux-gnu-library/3.5`
     * Load the `zeromq` library with: `module load zeromq/4.1.4`
