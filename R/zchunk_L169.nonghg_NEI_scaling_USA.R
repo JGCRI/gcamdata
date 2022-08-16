@@ -340,8 +340,8 @@ module_gcamusa_L169.nonghg_NEI_scaling_USA <- function(command, ...) {
     # 1.1 preparing CEDS data
     # Converting from Tg to short ton to match NEI units
     L102.ceds_GFED_nonco2_tg_C_S_F %>%
-      mutate( emissions = emissions / CONV_TST_TG * 1000 ) %>%
-      mutate( units = "TON" ) -> CEDS_ton
+      mutate( emissions = emissions / CONV_TST_TG * 1000,
+              units = "TON" ) -> CEDS_ton
 
     # 1.2 preparing the NEI data
     NEI_2008_2017_final %>%
