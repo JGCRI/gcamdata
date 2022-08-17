@@ -348,7 +348,17 @@
 <div class="section level3">
 <h3 id="the-clustermq-backend">The <code>clustermq</code> backend<a class="anchor" aria-label="anchor" href="#the-clustermq-backend"></a>
 </h3>
-<p>See the <code>clustermq</code> <a href="https://cran.r-project.org/web/packages/clustermq/vignettes/userguide.html" class="external-link">installation guide</a> for installation instructions and options. <code>clustermq</code> requires <code>R version 3.5</code> or greater. Note, on Mac and Windows a simple <code>install.packages("clustermq")</code> is sufficient. For using <code>clustermq</code> on PIC (PNNL Institutional Computing) we have already installed the full set of required R packages in a shared space as successfully compiling <code>clustermq</code> was not straightforward due to compiler version issues. To use <code>drake</code> + <code>clustermq</code> in PIC a user can: * Get necessary libraries with: <code>export R_LIBS=/pic/projects/GCAM/GCAM-libraries/R/x86_64-pc-linux-gnu-library/3.5</code> * Load the <code>zeromq</code> library with: <code>module load zeromq/4.1.4</code> * Open <code>R 3.5.1</code> with: <code>module load R/3.5.1</code> * Open an <code>R</code> session and set the global option below * Run <code><a href="../reference/driver_drake.html">driver_drake()</a></code> with the arguments such as below</p>
+<p>See the <code>clustermq</code> <a href="https://cran.r-project.org/web/packages/clustermq/vignettes/userguide.html" class="external-link">installation guide</a> for installation instructions and options. <code>clustermq</code> requires <code>R version 3.5</code> or greater. Note, on Mac and Windows a simple <code>install.packages("clustermq")</code> is sufficient. For using <code>clustermq</code> on PIC (PNNL Institutional Computing) we have already installed the full set of required R packages in a shared space as successfully compiling <code>clustermq</code> was not straightforward due to compiler version issues. To use <code>drake</code> + <code>clustermq</code> in PIC a user can:</p>
+<ul>
+<li>Get necessary libraries with: <code>export R_LIBS=/pic/projects/GCAM/GCAM-libraries/R/x86_64-pc-linux-gnu-library/3.5</code>
+</li>
+<li>Load the <code>zeromq</code> library with: <code>module load zeromq/4.1.4</code>
+</li>
+<li>Open <code>R 3.5.1</code> with: <code>module load R/3.5.1</code>
+</li>
+<li>Open an <code>R</code> session and set the global option below</li>
+<li>Run <code><a href="../reference/driver_drake.html">driver_drake()</a></code> with the arguments such as below</li>
+</ul>
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># Load clustermq and set type to multicore</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://mschubert.github.io/clustermq/" class="external-link">clustermq</a></span><span class="op">)</span></span>
@@ -465,7 +475,14 @@ Error: package or namespace load failed for 'clustermq' in dyn.load(file, DLLpat
 <span><span class="co"># Display the dependency graph downstream from module L210.RenewRscr</span></span>
 <span><span class="fu">vis_drake_graph</span><span class="op">(</span><span class="va">plan</span>, from <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/make.names.html" class="external-link">make.names</a></span><span class="op">(</span><span class="st">"L210.RenewRsrc"</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Error in loadNamespace(name): there is no package called 'webshot'</span></span></code></pre></div>
-<p>See the <code>drake</code> documentation for other features. Some that may be useful with <code>gcamdata</code> include * <code>outdated(plan)</code>: lists all of the targets that are outdated * <code>predict_runtime(plan)</code>: <code>drake</code> records the time it takes to build each target and uses this to predict the runtime of the next <code>make()</code></p>
+<p>See the <code>drake</code> documentation for other features. Some that may be useful with <code>gcamdata</code> include</p>
+<ul>
+<li>
+<code>outdated(plan)</code>: lists all of the targets that are outdated</li>
+<li>
+<code>predict_runtime(plan)</code>: <code>drake</code> records the time it takes to build each target and uses this to predict the runtime of the next <code>make()</code>
+</li>
+</ul>
 </div>
 <div class="section level2">
 <h2 id="writing-csv-outputs-with-driver_drake">Writing csv outputs with driver_drake<a class="anchor" aria-label="anchor" href="#writing-csv-outputs-with-driver_drake"></a>
