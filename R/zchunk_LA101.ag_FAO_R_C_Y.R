@@ -104,8 +104,7 @@ module_aglu_LA101.ag_FAO_R_C_Y <- function(command, ...) {
     L100.FAO_ag_HA_ha %>%
       select(-countries, -country.codes, -item.codes, -element, -element.codes) %>%                             # Remove unnecessary columns
       mutate(iso = if_else(iso %in% c("srb", "mne"), "scg", iso)) %>%                                           # Re-map Serbia (srb) and Montenegro (mne) to the iso code for the single country (scg)
-      group_by(item, iso, year) %>%                                                                             # scg is the iso code in the Monfreda data because its base year is ~2000
-      summarise(value = sum(value)) ->                                                                          # Aggregate by ISO, item, and region (some iso codes apply to multiple lines in data)
+      fast_group_by_summ(by = c("item", "iso", "year")) ->                                                                          # Aggregate by ISO, item, and region (some iso codes apply to multiple lines in data)
       FAO_ag_HA_ha
 
     L100.FAO_ag_Prod_t %>%
@@ -113,8 +112,7 @@ module_aglu_LA101.ag_FAO_R_C_Y <- function(command, ...) {
       mutate(value = if_else(iso == "usa" & item == "Alfalfa for forage and silage",
                              value / 4, value),                                                                 # Divide USA Alfalfa production by 4 "for consistency with USDA"
              iso = if_else(iso %in% c("srb", "mne"), "scg", iso)) %>%                                           # Re-map Serbia (srb) and Montenegro (mne) to the iso code for the single country (scg)
-      group_by(item, iso, year) %>%                                                                             # scg is the iso code in the Monfreda data because its base year is ~2000
-      summarise(value = sum(value)) ->                                                                          # Aggregate by ISO, item, and region (some iso codes apply to multiple lines in data)
+      fast_group_by_summ(by = c("item", "iso", "year")) ->                                                                          # Aggregate by ISO, item, and region (some iso codes apply to multiple lines in data)
       FAO_ag_Prod_t
 
     # Set production to zero when harvested area is zero and vice versa
@@ -168,10 +166,8 @@ module_aglu_LA101.ag_FAO_R_C_Y <- function(command, ...) {
       left_join_error_no_match(distinct(select(FAO_ag_items_PRODSTAT, item, GCAM_commodity, GCAM_subsector)), by = "item",      # distinct() to avoid duplicating data for items with multiple rows in FAO_ag_items_PRODSTAT
                                ignore_columns = c("GCAM_commodity", "GCAM_subsector")) %>%                                           # ignore GCAM_commodity column to avoid error in ljenm (this column has NA for FAO items not modeled in GCAM)
       filter(!is.na(GCAM_commodity)) %>%                                                                        # Remove commodities not included in GCAM
-      group_by(iso, GCAM_commodity, GCAM_subsector, year) %>%
-      summarise(harvested.area = sum(harvested.area),
-                production = sum(production)) %>%
-      ungroup() ->
+      fast_group_by_summ(by = c("iso", "GCAM_commodity", "GCAM_subsector", "year"),
+                         colname = c("harvested.area", "production")) ->
       FAO_PRODSTAT_DOWNSCALED
 
     # First group: crops and countries in BOTH datasetes (LDS/Monfreda and FAOSTAT)
@@ -231,17 +227,13 @@ module_aglu_LA101.ag_FAO_R_C_Y <- function(command, ...) {
       select(iso, GCAM_commodity, GCAM_subsector, GLU, year, production) %>%                                                    # Select relevant columns (not harvested.area)
       rename(value = production) %>%                                                                            # Rename column since tests are expecting "value"
       left_join_error_no_match(iso_GCAM_regID, by = "iso") %>%                                                  # Map in ISO codes
-      group_by(GCAM_region_ID, GCAM_commodity, GCAM_subsector, GLU, year) %>%                                                   # Group by region, commodity, GLU, year
-      summarise(value = sum(value)) %>%                                                                         # Aggregate then map to appropriate data frame
-      mutate(value = value * CONV_TON_MEGATON) %>%                                                              # Convert from tons to Mt
-      ungroup() ->                                                                                              # Ungroup before complete
+      fast_group_by_summ(by = c("GCAM_region_ID", "GCAM_commodity", "GCAM_subsector", "GLU", "year")) %>%       # Aggregate then map to appropriate data frame
+      mutate(value = value * CONV_TON_MEGATON) ->
       L101.ag_Prod_Mt_R_C_Y_GLU
 
     # Also write out the production volumes without basin-level detail, or subsector differentiation (i.e. by region, crop, year)
     L101.ag_Prod_Mt_R_C_Y_GLU %>%
-      group_by(GCAM_region_ID, GCAM_commodity, year) %>%
-      summarise(value = sum(value)) %>%
-      ungroup() %>%
+      fast_group_by_summ(by = c("GCAM_region_ID", "GCAM_commodity", "year")) %>%
       complete(GCAM_region_ID = unique(iso_GCAM_regID$GCAM_region_ID),
                GCAM_commodity, year, fill = list(value = 0))  ->                                                # Fill in missing region/commodity combinations with 0
       L101.ag_Prod_Mt_R_C_Y
@@ -250,17 +242,13 @@ module_aglu_LA101.ag_FAO_R_C_Y <- function(command, ...) {
     FAO_PRODSTAT_DOWNSCALED %>%
       select(iso, GCAM_commodity, GCAM_subsector, GLU, year, harvested.area) %>%                                              # Select relevant columns (not production)
       rename(value = harvested.area) %>%                                                                      # Rename column since tests are expecting "value"
-      left_join_error_no_match(iso_GCAM_regID, by = "iso") %>%                                               # Map in ISO codes
-      group_by(GCAM_region_ID, GCAM_commodity, GCAM_subsector, GLU, year) %>%                                                      # Group by region, commodity, GLU, year
-      summarise(value = sum(value)) %>%                                                                       # Aggregate then map to appropriate data frame
-      mutate(value = value * CONV_HA_BM2) %>%                                                                # Convert from hectares to billion m2
-      ungroup() ->                                                                                           # Ungroup before complete
+      left_join_error_no_match(iso_GCAM_regID, by = "iso") %>%                                                # Map in ISO codes
+      fast_group_by_summ(by = c("GCAM_region_ID", "GCAM_commodity", "GCAM_subsector", "GLU", "year")) %>%     # Aggregate then map to appropriate data frame
+      mutate(value = value * CONV_HA_BM2) ->                                                                                           # Ungroup before complete
       L101.ag_HA_bm2_R_C_Y_GLU
 
     L101.ag_HA_bm2_R_C_Y_GLU %>%
-      group_by(GCAM_region_ID, GCAM_commodity, year) %>%
-      summarise(value = sum(value)) %>%
-      ungroup() %>%
+      fast_group_by_summ(by = c("GCAM_region_ID", "GCAM_commodity", "year")) %>%
       complete(GCAM_region_ID = unique(iso_GCAM_regID$GCAM_region_ID),
                GCAM_commodity, year, fill = list(value = 0)) ->                                               # Fill in missing region/commodity combinations with 0
       L101.ag_HA_bm2_R_C_Y
