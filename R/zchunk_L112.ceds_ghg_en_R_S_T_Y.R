@@ -146,29 +146,22 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
       bind_rows(CEDS_int_shipping)->L112.CEDS_GCAM
 
     #In case of tanker loading emissions which are classified as process emissions, transfer them to refined liquids. Same for processs industrial energy emissions
-    # SLOW -- mostly at group_by summarise
     L112.CEDS_GCAM %>%
-      mutate(CEDS_agg_fuel = if_else(CEDS_agg_sector == "trn_intl_ship",
-                                     if_else(CEDS_agg_fuel == "process", "refined liquids", CEDS_agg_fuel),
-                                     CEDS_agg_fuel),
-      # Note that these are 1A1bc other energy transformation emissions, which are from both refineries and processes such as coal coke plants. These will be broken out in CEDS in the future in more detail.
-        CEDS_agg_fuel = if_else(CEDS_agg_sector == "industry_energy",
-                              if_else(CEDS_agg_fuel == "process", "refined liquids", CEDS_agg_fuel),
-                              CEDS_agg_fuel),
-      #Only keep nitric and adipic acids for N2O. For the rest, put these in generic industrial processes.
-        CEDS_agg_sector = if_else(Non.CO2 !="N2O",
-                                  if_else(CEDS_agg_fuel=="process",
-                                          if_else(CEDS_agg_sector=="chemicals_nitric","industry_processes",CEDS_agg_sector),CEDS_agg_sector),
-                                  CEDS_agg_sector),
-        CEDS_agg_sector = if_else(Non.CO2 !="N2O",if_else(CEDS_agg_fuel == "process",
-                                                             if_else(CEDS_agg_sector == "chemicals_adipic", "industry_processes", CEDS_agg_sector), CEDS_agg_sector),
-                                  CEDS_agg_sector)) %>%
-      group_by(GCAM_region_ID, Non.CO2, CEDS_agg_sector, CEDS_agg_fuel, year) %>%
-      summarise(emissions = sum(emissions)) %>%
-      ungroup() %>%
-      na.omit() %>%
       #filter data for final model base year, since we may not have GCAM activity data beyond the latest base year.
-      filter(year <= max(HISTORICAL_YEARS)) -> L112.CEDS_GCAM
+      filter(year <= max(HISTORICAL_YEARS)) %>%
+      mutate(CEDS_agg_fuel = case_when(
+        CEDS_agg_sector == "trn_intl_ship" & CEDS_agg_fuel == "process" ~ "refined liquids",
+        CEDS_agg_sector == "industry_energy" & CEDS_agg_fuel == "process" ~ "refined liquids",
+        TRUE ~ CEDS_agg_fuel
+        ),
+      CEDS_agg_sector = case_when(
+        Non.CO2 !="N2O" & CEDS_agg_fuel=="process" & CEDS_agg_sector=="chemicals_nitric" ~ "industry_processes",
+        Non.CO2 !="N2O" & CEDS_agg_fuel=="process" & CEDS_agg_sector=="chemicals_adipic" ~ "industry_processes",
+        TRUE ~ CEDS_agg_sector
+        )) %>%
+      fast_group_by_summ(by = c("GCAM_region_ID", "Non.CO2", "CEDS_agg_sector", "CEDS_agg_fuel", "year"),
+                         colname = "emissions") %>%
+      na.omit() -> L112.CEDS_GCAM
 
     # Load required inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
@@ -182,7 +175,7 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
 
     #If using revised size classes, use revised data else use old data
     if (energy.TRAN_UCD_MODE == "rev.mode"){
-      IEA_Ctry_data %>% rename(mode=rev.mode,size.class=rev_size.class)->IEA_Ctry_data
+      IEA_Ctry_data %>% rename(mode=rev.mode,size.class=rev_size.class) -> IEA_Ctry_data
     }
     #kbn Add code below so that we can use revised sub-sectors from transportation model
     if (energy.TRAN_UCD_MODE == "rev.mode"){
@@ -201,7 +194,7 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
     }
 
 
-    if (energy.TRAN_UCD_MODE=="rev.mode"){
+    if (energy.TRAN_UCD_MODE == "rev.mode"){
       UCD_techs <- get_data(all_data, "emissions/mappings/UCD_techs_emissions_revised")
     }else{
       UCD_techs <- get_data(all_data, "energy/mappings/UCD_techs")}
@@ -282,74 +275,82 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
 
     #Calculate GAINS sector weights which we can use on CEDS data to distribute emissions into Passenger and Freight.
     Clean_IEA_ctry_data %>%
-      group_by(iso,UCD_sector,year) %>%
+      group_by(iso, UCD_sector, year) %>%
       mutate(value=sum(value)) %>%
       ungroup() %>%
-      select(iso,UCD_sector,year,value,GCAM_region_ID) %>%
+      select(iso, UCD_sector, year, value, GCAM_region_ID) %>%
       distinct() %>%
       repeat_add_columns(tibble(Non.co2 = unique(GAINS_sector$Non.co2))) %>%
-      left_join(GAINS_sector %>% gather("UCD_sector","em_fact","Freight":"Passenger"),by=c("iso","year","Non.co2","UCD_sector")) %>%
+      left_join(GAINS_sector %>% gather("UCD_sector","em_fact","Freight":"Passenger"), by = c("iso","year","Non.co2","UCD_sector")) %>%
       na.omit() %>%
       filter(UCD_sector != "Motorcycle") %>%
-      group_by(Non.co2,GCAM_region_ID,year,UCD_sector) %>%
-      mutate(sector_weight=sum(em_fact*value)) %>%
+      group_by(Non.co2, GCAM_region_ID, year, UCD_sector) %>%
+      mutate(sector_weight = sum(em_fact * value)) %>%
       ungroup() %>%
-      select(Non.co2,GCAM_region_ID,year,UCD_sector,sector_weight) %>%
+      select(Non.co2, GCAM_region_ID, year, UCD_sector, sector_weight) %>%
       #Use these sector weights to split CEDS emissions into passenger and freight
-      distinct() ->GAINS_sector_weights
+      distinct() -> GAINS_sector_weights
 
     #Calculate GAINS mode weights which we can use on CEDS data to distribute emissions into different modes.
-    # SLOW group by mutate
     Clean_IEA_ctry_data %>%
-      group_by(iso,mode,year,UCD_sector) %>%
-      mutate(value=sum(value)) %>%
+      group_by(iso, mode, year, UCD_sector) %>%
+      mutate(value = sum(value)) %>%
       ungroup() %>%
       select(iso,mode,year,value,GCAM_region_ID,UCD_sector) %>%
       distinct() %>%
       repeat_add_columns(tibble(Non.co2 = unique(GAINS_fuel$Non.co2))) %>%
-      left_join(GAINS_fuel , by=c("Non.co2","iso","year")) %>%
-      na.omit() %>%
-      #Now calculate mode wights here
-      group_by(Non.co2,GCAM_region_ID,year,mode,UCD_sector) %>%
-      #For LDV_2W_3W use a weighted average of light and heavy diesel oil. For Trucks use heavy diesel oil and for passenger buses use light oil.
-      mutate(mode_weight=if_else(mode=="Bus",sum(dieseloil*value),
-                                 if_else(mode %in% c(LDV_2W_3W_modes),sum(((lightoil+dieseloil)/2)*value),
-                                         if_else(mode=="Truck",sum(dieseloil*value),sum(lightoil*value))))) %>%
-      ungroup() %>%
-      select(Non.co2,GCAM_region_ID,year,mode,mode_weight,UCD_sector) %>%
-      distinct()->GAINS_mode_weights
+      left_join(GAINS_fuel, by = c("Non.co2","iso","year")) %>%
+      na.omit() -> GAINS_mode_weights_pre
+
+    # For speed, use data.table directly here
+    # Hard to create function, since it involves multiple grouped if_else mutates
+    # For LDV_2W_3W use a weighted average of light and heavy diesel oil. For Trucks and buses use heavy diesel oil and for LDV_4W use light oil.
+    GAINS_mode_weights <- as.data.table(GAINS_mode_weights_pre)
+    GAINS_mode_weights <- GAINS_mode_weights[mode %in% c("Bus", "Truck"),
+                                             mode_weight :=  sum(dieseloil * value),
+                                             by = c("Non.co2", "GCAM_region_ID", "year", "mode", "UCD_sector")]
+    GAINS_mode_weights <- GAINS_mode_weights[mode %in% LDV_2W_3W_modes,
+             mode_weight :=  sum(((lightoil + dieseloil) / 2) * value),
+             by = c("Non.co2", "GCAM_region_ID", "year", "mode", "UCD_sector")]
+    GAINS_mode_weights <- GAINS_mode_weights[mode == "LDV_4W",
+             mode_weight :=  sum(lightoil * value),
+             by = c("Non.co2", "GCAM_region_ID", "year", "mode", "UCD_sector")]
+    GAINS_mode_weights <- as_tibble(GAINS_mode_weights) %>%
+      select(Non.co2, GCAM_region_ID, year, mode, mode_weight, UCD_sector) %>%
+      distinct()
 
     #Complete distribution here by sector, mode.
     L112.CEDS_Road_emissions %>%
-      rename(Non.co2=Non.CO2) %>%
+      rename(Non.co2 = Non.CO2) %>%
       #Compute emissions by non.co2
-      group_by(GCAM_region_ID,year,Non.co2) %>%
-      mutate(emissions=sum(emissions)) %>%
+      group_by(GCAM_region_ID, year, Non.co2) %>%
+      mutate(emissions = sum(emissions)) %>%
       ungroup() %>%
-      select(GCAM_region_ID,year,Non.co2,emissions) %>%
+      select(GCAM_region_ID, year, Non.co2, emissions) %>%
       distinct() %>%
       #Join in sector weights
-      left_join(GAINS_sector_weights, by=c("GCAM_region_ID","year","Non.co2")) %>%
+      left_join(GAINS_sector_weights, by = c("GCAM_region_ID","year","Non.co2")) %>%
       na.omit() %>%
       #First split emissions into Passenger and Freight %>%
-      group_by(GCAM_region_ID,year,Non.co2) %>%
-      mutate(sum_sector_weight=sum(sector_weight)) %>%
+      group_by(GCAM_region_ID, year, Non.co2) %>%
+      mutate(sum_sector_weight = sum(sector_weight)) %>%
       ungroup() %>%
-      mutate(emissions=(emissions*sector_weight)/sum_sector_weight) %>%
-      left_join(GAINS_mode_weights, by=c("GCAM_region_ID","year","Non.co2","UCD_sector")) %>%
+      mutate(emissions=(emissions * sector_weight) / sum_sector_weight) %>%
+      left_join(GAINS_mode_weights, by=c("GCAM_region_ID", "year", "Non.co2", "UCD_sector")) %>%
       na.omit() %>%
       #Now do mode weight calculation
-      group_by(GCAM_region_ID,year,Non.co2,UCD_sector) %>%
-      mutate(sum_mode_weight=sum(mode_weight)) %>%
+      group_by(GCAM_region_ID, year, Non.co2, UCD_sector) %>%
+      mutate(sum_mode_weight = sum(mode_weight)) %>%
       ungroup() %>%
-      mutate(emissions=(emissions*mode_weight)/sum_mode_weight) %>%
+      mutate(emissions = (emissions * mode_weight) / sum_mode_weight) %>%
       ungroup() %>%
-      mutate(CEDS_agg_fuel=paste0("refined liquids")) %>%
-      rename(CEDS_agg_sector=mode,Non.CO2=Non.co2) %>%
-      select(GCAM_region_ID,year,Non.CO2,CEDS_agg_sector,CEDS_agg_fuel,emissions) %>% distinct()->L112.CEDS_GCAM_Road_Emissions_GAINS
+      mutate(CEDS_agg_fuel = paste0("refined liquids")) %>%
+      rename(CEDS_agg_sector = mode, Non.CO2 = Non.co2) %>%
+      select(GCAM_region_ID, year, Non.CO2, CEDS_agg_sector, CEDS_agg_fuel, emissions) %>%
+      distinct() -> L112.CEDS_GCAM_Road_Emissions_GAINS
 
     #Bind new GAINS weighted emissions into CEDS emissions
-    L112.CEDS_GCAM %>%  bind_rows(L112.CEDS_GCAM_Road_Emissions_GAINS)->L112.CEDS_GCAM
+    L112.CEDS_GCAM %>%  bind_rows(L112.CEDS_GCAM_Road_Emissions_GAINS) -> L112.CEDS_GCAM
 
 
 
@@ -363,34 +364,36 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
     IEA_Ctry_data %>%
       #Use only historical years
       filter(year <= max(HISTORICAL_YEARS)) %>%
-      filter(UCD_category=="trn_road and rail") %>%
-      filter(!mode %in% c("Rail","HSR")) %>%
-      select(-UCD_fuel,-fuel) %>%
-      rename(fuel=UCD_technology) %>%
-      filter(fuel %in% c("NG"))->Clean_IEA_ctry_data_NG
+      filter(UCD_category == "trn_road and rail") %>%
+      filter(!mode %in% c("Rail", "HSR")) %>%
+      select(-UCD_fuel, -fuel) %>%
+      rename(fuel = UCD_technology) %>%
+      filter(fuel %in% c("NG")) -> Clean_IEA_ctry_data_NG
 
     # Now calculate emissions factors
     Clean_IEA_ctry_data_NG %>%
-      group_by(iso,mode,size.class,year,UCD_sector,fuel) %>%
-      mutate(value=sum(value)) %>%
+      group_by(iso, mode, size.class, year, UCD_sector, fuel) %>%
+      mutate(value = sum(value)) %>%
       ungroup() %>%
-      select(iso,mode,year,value,GCAM_region_ID,UCD_sector,fuel,size.class) %>%
+      select(iso, mode, year, value, GCAM_region_ID, UCD_sector, fuel, size.class) %>%
       distinct() %>%
       repeat_add_columns(tibble(Non.co2 = unique(GAINS_fuel_NG$Non.co2))) %>%
-      left_join(GAINS_fuel_NG , by=c("Non.co2","iso","year")) %>%
+      left_join(GAINS_fuel_NG , by=c("Non.co2", "iso", "year")) %>%
       na.omit() %>%
-      rename(em=natural_gas) %>%
+      rename(em = natural_gas) %>%
       #Now calculate mode wights here
-      group_by(Non.co2,GCAM_region_ID,year,mode,UCD_sector,size.class,fuel) %>%
-      mutate(em_factor= sum(em*value)/sum(value), energy= sum(value)) %>%
+      group_by(Non.co2, GCAM_region_ID, year, mode, UCD_sector, size.class, fuel) %>%
+      mutate(em_factor = sum(em * value)/ sum(value), energy = sum(value)) %>%
       ungroup() %>%
-      select(Non.co2,GCAM_region_ID,year,mode,em_factor,UCD_sector,fuel,size.class, energy) %>%
+      select(Non.co2, GCAM_region_ID, year, mode, em_factor, UCD_sector, fuel, size.class, energy) %>%
       distinct() %>%
-      rename(Non.CO2=Non.co2, stub.technology=fuel,value=em_factor) %>%
+      rename(Non.CO2 = Non.co2, stub.technology = fuel, value = em_factor) %>%
       #Values from GAINS are in kt/ej. Convert to Tg/ej.
-      mutate(value=if_else(is.na(value),0,0.001*value),energy=if_else(is.na(energy),0,energy)) %>%
-      left_join_keep_first_only(UCD_techs %>% select(-fuel) %>% rename(stub.technology=UCD_technology,subsector=tranSubsector),by=c("mode","size.class","UCD_sector","stub.technology")) %>%
-      select(GCAM_region_ID,Non.CO2,supplysector,stub.technology,year,value,subsector,energy)->GAINS_NG_em_factors
+      mutate(value = if_else(is.na(value), 0,0.001 * value), energy = if_else(is.na(energy), 0, energy)) %>%
+      left_join_keep_first_only(UCD_techs %>% select(-fuel) %>%
+                                  rename(stub.technology = UCD_technology, subsector = tranSubsector),
+                                by = c("mode", "size.class", "UCD_sector", "stub.technology")) %>%
+      select(GCAM_region_ID, Non.CO2, supplysector, stub.technology, year, value, subsector, energy) -> GAINS_NG_em_factors
 
     # ===========================
     #Part 2:Combustion Energy Emissions#
@@ -408,9 +411,9 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
     # to get oil_gas emissions for USA
     NEI_tg_oilgas_USA_Yb.noBCOC <- NEI_tg_oilgas_state_Yb %>%
       group_by(Non.CO2, year) %>%
-      mutate(value=sum(value)) %>%
+      mutate(value = sum(value)) %>%
       # We want one value for each pollutant and year
-      distinct(Non.CO2,year,value) %>%
+      distinct(Non.CO2, year, value) %>%
       ungroup() %>%
       # add columns that specify what sector / tech these emissions are (necessary for BC OC function)
       # since we are aggregated natural gas and oil production, and they have the same BC OC fractions,
@@ -426,9 +429,9 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
     # Extrapolate the data to future model years, and format the table
     BCOC_PM25_ratios_ext <- BCOC_PM25_ratios %>%
       gather_years() %>%
-      complete(nesting(Parameter,sector,subsector,technology), year = MODEL_YEARS) %>%
+      complete(nesting(Parameter, sector, subsector, technology), year = MODEL_YEARS) %>%
       # extrapolate missing years
-      group_by(Parameter,sector,subsector,technology) %>%
+      group_by(Parameter, sector, subsector, technology) %>%
       mutate(value = approx_fun(year, value, rule = 2)) %>%
       ungroup() %>%
       spread( Parameter, value ) %>%
@@ -699,7 +702,6 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
       L112.nonco2_tgej_R_en_S_F_Yh_withNAs
 
     # Generates global median emissions factors
-    # SLOW group by mutate
     L112.nonco2_tgej_R_en_S_F_Yh_withNAs %>%
       replace_na(list(emfact = 0)) %>%
       group_by(year, Non.CO2, supplysector, subsector, stub.technology) %>%
@@ -896,9 +898,9 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
     # SLOW group by summarise
     L122.ghg_tg_R_agr_C_Y_GLU_full <- bind_rows( L122.ghg_tg_R_rice_Y_GLU, L122.ghgsoil_tg_R_C_Y_GLU#, L122.ghgfert_tg_R_C_Y_GLU
     ) %>%
-      group_by(GCAM_region_ID, GCAM_commodity, GCAM_subsector, year, GLU, Non.CO2) %>%
-      summarise(value = sum(emissions)) %>%
-      ungroup()
+      fast_group_by_summ(by = c("GCAM_region_ID", "GCAM_commodity", "GCAM_subsector", "year", "GLU", "Non.CO2"),
+                         colname = "emissions") %>%
+      rename(value = emissions)
 
     # ===================================================
     # Part 6: AGRICULTURAL WASTE BURNING
