@@ -7,7 +7,16 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
+```{r, setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+options(rmarkdown.html_vignette.check_title = FALSE)
 
+library(devtools)
+devtools::load_all()
+```
 
 ## Introduction
 The function `driver_drake()`, located in `R/driver.R`, runs the GCAM data system, like `driver()`. However, unlike `driver()`, `driver_drake()` skips steps that are already up-to-date, saving time. The central function of `drake` is `drake::make()`, which builds the data system. `drake`'s `make` is more sophisticated than the standard GNU `make` based systems because it checks the content has substantively changed instead of only if a file has been modified, and similarly only runs subsequent steps that are actually affected by the latest changes since the previous `make()`.
@@ -27,8 +36,7 @@ When running `make()`, `drake` stores your targets in a hidden cache by default 
 ## Examples
 Let's explore `driver_drake()` and see how it can help us run the data system. We'll start by doing an initial run which will create and store output in the drake cache and create all of our xml files. We run this just as we would `driver()`.
 
-
-```r
+```{r eval = TRUE, results = FALSE}
 # Load package and run driver_drake, output messages are hidden
 devtools::load_all()
 driver_drake()
@@ -46,57 +54,19 @@ Next, we'll explore two different edits of a chunk and see how `driver_drake()` 
 
 First, let's edit the input, `A61.globaltech_cost.csv` by changing a cost value.
 
-
-```r
+```{r eval = TRUE}
 # Copy the file so we can get it back later
 example_file <- find_csv_file("energy/A61.globaltech_cost", FALSE)[[1]]
-#> Found ../inst/extdata/energy/A61.globaltech_cost.csv
 file.copy(from = example_file, to = paste0(example_file, ".bak"))
-#> [1] TRUE
 # Change one value in file, then rewrite to same path
 tmp <- readr::read_lines(example_file)
 tmp[9] <- sub("211", "200", tmp[9])
 readr::write_lines(tmp, example_file)
 # Load and run driver_drake(). Print run time.
 devtools::load_all(".")
-#> i Loading gcamdata
 t1 <- Sys.time()
 driver_drake()
-#> GCAM Data System v5.1
-#> Found 420 chunks
-#> Found 4267 chunk data requirements
-#> Found 2416 chunk data products
-#> 1452 chunk data input(s) not accounted for
-#> Warning: missing file_in() files:
-#>   R/constants.R
-#> Warning: Do not run make() from a subdirectory of your project.
-#>   running make() from: C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\vignettes
-#>   drake project root:  C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata
-#>   cache directory:     C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\.drake
-#> > target energy.A61.globaltech_cost
-#> > target module_energy_L261.Cstorage
-#> > target L261.RsrcCurves_C_low
-#> > target L261.RsrcCurves_C_high
-#> > target L261.SubsectorShrwtFllt_C
-#> > target L261.Rsrc
-#> > target L261.StubTech_C
-#> > target L261.GlobalTechCoef_C
-#> > target L261.SubsectorLogit_C
-#> > target L261.Supplysector_C
-#> > target L261.GlobalTechShrwt_C_nooffshore
-#> > target L261.GlobalTechCost_C_High
-#> > target L261.RsrcCurves_C_lowest
-#> > target L261.GlobalTechShrwt_C
-#> > target L261.GlobalTechCost_C
-#> > target L261.RsrcCurves_C
-#> > target L261.UnlimitRsrc
-#> > target L261.ResTechShrwt_C
-#> > target module_energy_batch_Cstorage_xml
-#> > target Cstorage.xml
-#> > target xml.Cstorage.xml
-#> All done.
 print(Sys.time()-t1)
-#> Time difference of 4.300751 mins
 ```
 As expected, `driver_drake()` runs all dependencies of `A61.globaltech_cost.csv` since they need to be updated to the new cost value.
 
@@ -104,8 +74,7 @@ As expected, `driver_drake()` runs all dependencies of `A61.globaltech_cost.csv`
 ### Example 2
 
 Next, we will append another column to the end of that same file, but this time with a year outside of GCAM's model year, so it will get filtered out and should have no further effect.
-
-```r
+```{r eval = TRUE}
 # Add a column with a year that will be filtered out
 tmp[6] <- paste0(trimws(tmp[6]), "i") # tell gcamdata that there will be another integer column
 tmp[8] <- paste0(tmp[8], ",2200") # year = 2200
@@ -113,97 +82,29 @@ tmp[9] <- paste0(tmp[9], ",211") # value = 211
 readr::write_lines(tmp, example_file)
 # Load and run driver_drake(). Print run time.
 devtools::load_all(".")
-#> i Loading gcamdata
 t1 <- Sys.time()
 driver_drake()
-#> GCAM Data System v5.1
-#> Found 420 chunks
-#> Found 4267 chunk data requirements
-#> Found 2416 chunk data products
-#> 1452 chunk data input(s) not accounted for
-#> Warning: missing file_in() files:
-#>   R/constants.R
-#> Warning: Do not run make() from a subdirectory of your project.
-#>   running make() from: C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\vignettes
-#>   drake project root:  C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata
-#>   cache directory:     C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\.drake
-#> > target energy.A61.globaltech_cost
-#> > target module_energy_L261.Cstorage
-#> All done.
 print(Sys.time()-t1)
-#> Time difference of 1.682541 mins
 ```
 This time, `driver_drake()` only ran `energy.A61.globaltech_cost` and it's `R` chunk since the change affects nothing downstream.
 
 Let's get our original file back and run `driver_drake`.
-
-```r
+```{r eval = TRUE}
 # Finally, clean up the changes from this example
 file.rename(paste0(example_file, ".bak"), example_file)
-#> [1] TRUE
 driver_drake()
-#> GCAM Data System v5.1
-#> Found 420 chunks
-#> Found 4267 chunk data requirements
-#> Found 2416 chunk data products
-#> 1452 chunk data input(s) not accounted for
-#> Warning: missing file_in() files:
-#>   R/constants.R
-#> Warning: Do not run make() from a subdirectory of your project.
-#>   running make() from: C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\vignettes
-#>   drake project root:  C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata
-#>   cache directory:     C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\.drake
-#> > target energy.A61.globaltech_cost
-#> > target module_energy_L261.Cstorage
-#> > target L261.RsrcCurves_C_low
-#> > target L261.RsrcCurves_C_high
-#> > target L261.SubsectorShrwtFllt_C
-#> > target L261.Rsrc
-#> > target L261.StubTech_C
-#> > target L261.GlobalTechCoef_C
-#> > target L261.SubsectorLogit_C
-#> > target L261.Supplysector_C
-#> > target L261.GlobalTechShrwt_C_nooffshore
-#> > target L261.GlobalTechCost_C_High
-#> > target L261.RsrcCurves_C_lowest
-#> > target L261.GlobalTechShrwt_C
-#> > target L261.GlobalTechCost_C
-#> > target L261.RsrcCurves_C
-#> > target L261.UnlimitRsrc
-#> > target L261.ResTechShrwt_C
-#> > target module_energy_batch_Cstorage_xml
-#> > target Cstorage.xml
-#> > target xml.Cstorage.xml
-#> All done.
 ```
 
 ### Example 3
 If you edit or delete an XML file, you can quickly and easily get the original file back by running `driver_drake()`.
-
-```r
+```{r eval = TRUE}
 # Delete wind_reeds_USA.xml
 file.remove("xml/wind_reeds_USA.xml")
-#> [1] TRUE
 # Load and run driver_drake(). Print run time.
 devtools::load_all(".")
-#> i Loading gcamdata
 t1 <- Sys.time()
 driver_drake()
-#> GCAM Data System v5.1
-#> Found 420 chunks
-#> Found 4267 chunk data requirements
-#> Found 2416 chunk data products
-#> 1452 chunk data input(s) not accounted for
-#> Warning: missing file_in() files:
-#>   R/constants.R
-#> Warning: Do not run make() from a subdirectory of your project.
-#>   running make() from: C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\vignettes
-#>   drake project root:  C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata
-#>   cache directory:     C:\Users\horo597\OneDrive - PNNL\Documents\gcamdata\.drake
-#> > target xml.wind_reeds_USA.xml
-#> All done.
 print(Sys.time()-t1)
-#> Time difference of 1.654303 mins
 ```
 Now we have our file back without re-running the entire datasystem.
 
@@ -227,8 +128,7 @@ Users can also pass additional arguments to `driver_drake()` which will be forwa
 
 ### More Examples
 Here are some additional examples of calling `driver_drake()` with some of the alternative arguments discussed above.
-
-```r
+```{r eval = FALSE}
 # Run with a progress bar
 driver_drake(verbose = 2)
 # Run, stop before a chunk and conserve memory
@@ -256,8 +156,7 @@ For using `clustermq` on PIC (PNNL Institutional Computing) we have already inst
     * Open an `R` session and set the global option below
     * Run `driver_drake()` with the arguments such as below
 
-
-```r
+```{r eval = FALSE}
 # Load clustermq and set type to multicore
 library(clustermq)
 options(clustermq.scheduler = "multicore")
@@ -284,8 +183,7 @@ Recall, if you are trying to use `clustermq` on Windows, `multicore` is not supp
 We did not have good performance with `future`. On a local Windows machine, the initial build with `parallelism = future` and type `multisession` took 1 hour and 14 seconds. It took over an hour on PIC as well. We still document it here in case the situation improves in the future.
 
 To use this backend, install the `future` package and provide the following arguments:
-
-```r
+```{r eval = FALSE}
 # Run driver_drake with future plan multisession
 future::plan(future::multisession)
 devtools::load_all()
@@ -297,95 +195,40 @@ See `?future::plan` for all strategy options and explanations.
 ## Loading data from the `drake` cache
 You can use the typical arguments to `driver_drake()` such as `stop_before` or `return_data_names` to return outputs from cache after the initial run.  And if you unsure if there have been any modifications since the last run that is the best way to load them.  However, if you are sure it is up to date, we have provided a utility method `load_from_cache` for doing so and returning the data in the same format as data returned from `driver(stop_after = "module_emissions_L121.nonco2_awb_R_S_T_Y")`.  Therefore we recommend using this utility rather than directly using `drake::readd` directly.
 
-
-```r
+```{r eval = TRUE}
 # We can give a list of files we want to load
 data <- load_from_cache(c("L121.nonco2_tg_R_awb_C_Y_GLU"))
 data
-#> $L121.nonco2_tg_R_awb_C_Y_GLU
-#> # A tibble: 2,995,650 x 7
-#>    GCAM_region_ID Non.CO2   GCAM_commodity GCAM_subsector GLU     year      value
-#>             <int> <chr>     <chr>          <chr>          <chr>  <dbl>      <dbl>
-#>  1              1 BC_AWB    Corn           CornC4         GLU023  1971 0.0000501 
-#>  2              1 CH4_AWB   Corn           CornC4         GLU023  1971 0.000389  
-#>  3              1 CO_AWB    Corn           CornC4         GLU023  1971 0.00682   
-#>  4              1 H2_AWB    Corn           CornC4         GLU023  1971 0.000166  
-#>  5              1 N2O_AWB   Corn           CornC4         GLU023  1971 0.00000669
-#>  6              1 NH3_AWB   Corn           CornC4         GLU023  1971 0.000145  
-#>  7              1 NMVOC_AWB Corn           CornC4         GLU023  1971 0.00154   
-#>  8              1 NOx_AWB   Corn           CornC4         GLU023  1971 0.000208  
-#>  9              1 OC_AWB    Corn           CornC4         GLU023  1971 0.000154  
-#> 10              1 SO2_AWB   Corn           CornC4         GLU023  1971 0.0000267 
-#> # ... with 2,995,640 more rows
 # We can also combine this with other gcamdata utilities to
 # load all input or outputs of a chunk as well
 data <- load_from_cache(outputs_of("module_emissions_L121.nonco2_awb_R_S_T_Y"))
-#> Error in module_emissions_L121.nonco2_awb_R_S_T_Y("DECLARE_OUTPUTS"): could not find function "module_emissions_L121.nonco2_awb_R_S_T_Y"
 data
-#> $L121.nonco2_tg_R_awb_C_Y_GLU
-#> # A tibble: 2,995,650 x 7
-#>    GCAM_region_ID Non.CO2   GCAM_commodity GCAM_subsector GLU     year      value
-#>             <int> <chr>     <chr>          <chr>          <chr>  <dbl>      <dbl>
-#>  1              1 BC_AWB    Corn           CornC4         GLU023  1971 0.0000501 
-#>  2              1 CH4_AWB   Corn           CornC4         GLU023  1971 0.000389  
-#>  3              1 CO_AWB    Corn           CornC4         GLU023  1971 0.00682   
-#>  4              1 H2_AWB    Corn           CornC4         GLU023  1971 0.000166  
-#>  5              1 N2O_AWB   Corn           CornC4         GLU023  1971 0.00000669
-#>  6              1 NH3_AWB   Corn           CornC4         GLU023  1971 0.000145  
-#>  7              1 NMVOC_AWB Corn           CornC4         GLU023  1971 0.00154   
-#>  8              1 NOx_AWB   Corn           CornC4         GLU023  1971 0.000208  
-#>  9              1 OC_AWB    Corn           CornC4         GLU023  1971 0.000154  
-#> 10              1 SO2_AWB   Corn           CornC4         GLU023  1971 0.0000267 
-#> # ... with 2,995,640 more rows
 ```
 
 
 ## The drake "plan"
 To utilize `drake`'s features, `driver_drake()` must generate a drake `plan` to supply to`drake::make()`, which builds the data system. The `plan` is a data frame with columns “target” and “command”. Each row is a step in the workflow and the target is the return value of the corresponding command. `drake` understands the dependency relationships between targets and commands in the plan, regardless of the order they are written. The `make()` function runs the targets in the correct order and stores the results in a hidden cache.  In `gcamdata` the targets are either inputs/outputs or chunk names.  The plan can be obtained by calling `driver_drake(return_plan_only = TRUE)` and may be useful for debugging or when using additional drake features described next.
 
-
-```r
+```{r eval = TRUE}
 plan <- driver_drake(return_plan_only = TRUE)
-#> GCAM Data System v5.1
-#> Found 420 chunks
-#> Found 4267 chunk data requirements
-#> Found 2416 chunk data products
-#> 1452 chunk data input(s) not accounted for
-#> All done.
 # Pick targets to show the commands that would be used to build them
 plan %>%
   filter(target %in% c("socioeconomics.SSP_database_v9",
                        "L2052.AgCost_ag_irr_mgmt",
                        "module_aglu_batch_ag_cost_IRR_MGMT_xml",
                        "xml.ag_cost_IRR_MGMT.xml"))
-#> # A tibble: 4 x 2
-#>   target                                 command                                                                                                                                   
-#>   <chr>                                  <chr>                                                                                                                                     
-#> 1 L2052.AgCost_ag_irr_mgmt               "module_aglu_L2052.ag_prodchange_cost_irr_mgmt[\"L2052.AgCost_ag_irr_mgmt\"]"                                                             
-#> 2 module_aglu_batch_ag_cost_IRR_MGMT_xml "gcamdata:::module_aglu_batch_ag_cost_IRR_MGMT_xml('MAKE', c(L2052.AgCost_ag_irr_mgmt,L2052.AgCost_bio_irr_mgmt,L2052.AgCost_For))"       
-#> 3 socioeconomics.SSP_database_v9         "load_csv_files('socioeconomics/SSP_database_v9', FALSE, quiet = TRUE, dummy = file_in('../inst/extdata/socioeconomics/SSP_database_v9.cs~
-#> 4 xml.ag_cost_IRR_MGMT.xml               "run_xml_conversion(set_xml_file_helper(ag_cost_IRR_MGMT.xml[[1]],\n             file_out('xml/ag_cost_IRR_MGMT.xml')))"
 ```
 
 ## Additional Features
 
 You can visualize targets and their dependency relationships with `vis_drake_graph()`. This function produces an interactive graph that shows how targets are connected within the plan. You can hover over nodes to see commands of a target and double click nodes to contract neighborhoods into clusters. To just see downstream nodes from a specific target, set `from = <target_name>`. See `?vis_drake_graph` for all graph options. Here is an example of how `vis_drake_graph` could be used.
 
-
-```r
+```{r eval = TRUE}
 devtools::load_all()
-#> i Loading gcamdata
 # Get the drake plan
 plan <- driver_drake(return_plan_only = TRUE)
-#> GCAM Data System v5.1
-#> Found 420 chunks
-#> Found 4267 chunk data requirements
-#> Found 2416 chunk data products
-#> 1452 chunk data input(s) not accounted for
-#> All done.
 # Display the dependency graph downstream from module L210.RenewRscr
 vis_drake_graph(plan, from = make.names("L210.RenewRsrc"))
-#> Error in loadNamespace(name): there is no package called 'webshot'
 ```
 
 
@@ -403,8 +246,7 @@ Sometimes it is useful to write out intermediate outputs to csv files. This is d
 ### Saving one file
 If there is one file that you would like to save from the cache, you can quickly access it and save it using `load_from_cache()` and `save_chunkdata()`
 
-
-```r
+```{r eval = FALSE}
 # Choose the output from the cache, which will be loaded as a list of tibbles
 # (in this case a list of length 1)
 load_from_cache("L2072.AgCoef_BphysWater_bio_mgmt") %>%
@@ -414,8 +256,7 @@ load_from_cache("L2072.AgCoef_BphysWater_bio_mgmt") %>%
 ### Saving all outputs from a specific chunk
 To save all the outputs from one chunk, we can simply return those outputs from `driver_drake()`.
 
-
-```r
+```{r eval = FALSE}
 # Here we can return all the outputs of a chunk using driver_drake
 outputs_of("module_energy_L244.building_det") %>%
   load_from_cache() %>%
@@ -425,8 +266,7 @@ outputs_of("module_energy_L244.building_det") %>%
 ### Saving all data system outputs
 This is not recommended, as it is not usually necessary and will be fairly slow, but is possible by returning all the necessary data names and then loading them all from cache.
 
-
-```r
+```{r eval = FALSE}
 # Get the names of all outputs
 all_output_names <- driver_drake(return_plan_only = T) %>%
   # Filter to non-xml module outputs (not from a data module)

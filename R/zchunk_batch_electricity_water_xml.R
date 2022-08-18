@@ -138,7 +138,8 @@ module_water_batch_electricity_water_xml <- function(command, ...) {
     L2233.GlobalIntTechLifetime_elec_cool <- rename(L2233.GlobalIntTechLifetime_elec_cool, `intermittent.technology` = technology )
     L2233.GlobalIntTechShrwt_elec_cool    <- rename(L2233.GlobalIntTechShrwt_elec_cool,  `intermittent.technology` = technology )
     L2233.GlobalIntTechCapFac_elec_cool   <- rename(L2233.GlobalIntTechCapFac_elec_cool,  `intermittent.technology` = technology )
-
+    L2233.PrimaryRenewKeywordInt_elec_cool <- rename(L2233.PrimaryRenewKeywordInt_elec_cool, `intermittent.technology` = technology)
+    L2233.GlobalIntTechBackup_elec_cool <- rename(L2233.GlobalIntTechBackup_elec_cool, `intermittent.technology` = technology)
 
     # Produce outputs
     create_xml("electricity_water.xml") %>%

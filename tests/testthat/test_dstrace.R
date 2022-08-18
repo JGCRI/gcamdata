@@ -63,19 +63,26 @@ test_that("dstrace works", {
   expect_output(dstrace("i1", gcam_data_map = gdm, direction = "both"), regexp = "Dependent: o1")
   expect_output(dstrace("i1", gcam_data_map = gdm, direction = "both"), regexp = "Dependent: o2")
 
-  # Test ds_plot too, a bit
-  # This tracelist corresponds to the dstrace output for gdm above
-  tracelist <- tibble(object_name = c("i1", "o1", "o2"),
-                      tracenum = 1:3,
-                      relationship = c("Self", "Dependent", "Dependent"),
-                      relatives = c("o1", "o2", ""))
-  mat <- dstrace_plot("i1", tracelist, upstream = TRUE, downstream = TRUE)
-  expect_identical(dim(mat), c(nrow(tracelist), nrow(tracelist)))
 
-  # Catches f-ed up relationship
-  tracelist$relationship[2] <- "Cousin marriage"
-  expect_error(dstrace_plot("i1", tracelist, upstream = TRUE, downstream = TRUE))
 })
+
+if(require(igraph, quietly = TRUE, warn.conflicts = FALSE)) {
+  test_that("dstrace plot works", {
+
+    # Test ds_plot too, a bit
+    # This tracelist corresponds to the dstrace output for gdm above
+    tracelist <- tibble(object_name = c("i1", "o1", "o2"),
+                        tracenum = 1:3,
+                        relationship = c("Self", "Dependent", "Dependent"),
+                        relatives = c("o1", "o2", ""))
+    mat <- dstrace_plot("i1", tracelist, upstream = TRUE, downstream = TRUE)
+    expect_identical(dim(mat), c(nrow(tracelist), nrow(tracelist)))
+
+    # Catches f-ed up relationship
+    tracelist$relationship[2] <- "Cousin marriage"
+    expect_error(dstrace_plot("i1", tracelist, upstream = TRUE, downstream = TRUE))
+  })
+}
 
 test_that("info works", {
   # handles bad input

@@ -1,0 +1,73 @@
+---
+title: Input Files
+---
+
+Most input files are comma separated value (CSV). We require csv files to have certain metadata headers, as described below.
+
+
+## Documenting input files
+
+All CSV input files should have a header that looks something like this:
+
+```
+# File: filename [REQUIRED]
+# Title: Title of dataset [REQUIRED]
+# Units: Units [REQUIRED]
+# Comments: Comments, may be multiline
+# Description: A synonym for comments, may be multiline
+# Source: Citation or source if available
+# Column types: iiccnn [REQUIRED]
+(data starts here)
+```
+
+You may use "Unit" or "Units"; "Comments" or "Description"; and "Reference", "References", "Source", or "Sources".
+
+The "Column types" header line above is now mandatory, and gives the type (technically, the R _class_) that should be assigned to each column. The most common types are "i"=integer, "n"=numeric, "c"=character (string), and "l"=logical. A full list of supported types can be found [here](https://readr.tidyverse.org/reference/read_delim.html).  Note that an "admin" (i.e. not exported) function called `add_column_types_header_line` is provided which will guess column types and update CSV files that did not include this metadata (by default: `overwrite = FALSE`) for you.
+
+### Units
+
+If the data in this source file all have one unit, that unit should be provided as noted above. Some other situations that may be encountered are noted below and how they should be abbreviated:
+
+Unit or situation | Example 'Units' entry
+----------------- | -----------------------
+No units          | NA or None
+Unitless          | Unitless
+Variables with more than one unit in the same table  | Mt for 'x', USD1990 for 'y'
+Units given as a column (or perhaps row) in the csv table     | Units-in-table
+
+**Do not guess at units!** Find the original source file or ask someone if you are not certain. As a last resort, "unknown" is acceptable (but in that case be sure to open an issue).
+
+### Other Tips
+- Be careful with editing in Excel (e.g., a comma within a line will result in a tab and the remainder of the line will not be read in by the metadata parser)
+
+- Please compress any file larger than ~1 MB (giving it either a `.zip` or `.gz` extension).
+
+## Proprietary data files
+There is one proprietary dataset used in gcamdata at present: the IEA's [World Energy Balances](http://data.iea.org/payment/products/117-world-energy-balances.aspx). At present gcamdata uses the 2019 edition. While the "pre-built data" that comes with the package (in `R/sysdata.rda`) allows users to run gcamdata without using the energy balances, certain modifications such as re-configuring GCAM's regions do require users to have the energy balances within the workspace. Because the dataset is proprietary, it can't be distributed; rather, users will need to purchase the dataset, and perform the following steps in order to get the correct file correctly in gcamdata. The following steps are performed on a PC, starting from the data browser that comes with the World Energy Balances.
+
+1. In Beyond browser, drag fields to create a table with fields COUNTRY, FLOW, PRODUCT. Click on FLOW, then go to Dimension ->  Edit dimension and change the label field to CODE. (E.g., It should be INDPROD instead of Production). The size of the file should be about 236 Mb.
+2. Using a text editor (see note below), add header information to the CSV file. The first lines of the file should appear as follows:
+```
+# File: IEA_EnergyBalances_2019.csv.gz
+# Title: IEA World Energy Balances (2019 edition)
+# Units: ktoe; GWh; TJ
+# Column types: cccnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+# ----------
+COUNTRY,FLOW,PRODUCT,1960, ...
+World,INDPROD,Hard coal (if no detail),, ...
+```
+
+3. Using a text editor, clean the csv file (see note below):
+
+* delete three empty cells in the first row, cell “YEAR, and the empty second row.
+* "China (P.R. of China and Hong Kong, China)" - replace with China (P.R. of China and Hong Kong)
+* People's Republic of China  -  replace with Peoples Republic of China
+* Democratic People's Republic of Korea   - replace with Dem. Peoples Rep. of Korea
+* Côte d'Ivoire  -  replace with Cote dIvoire
+* Curaçao  -  replace with Curacao
+* Plurinational State of Bolivia - replace with Bolivia
+* replace all “c” (confidential data) with “..” which then will be replaced with zero in R.
+
+4. Save it using GZ compression with the following filename: `IEA_EnergyBalances_2019.csv.gz`, and place it in the following folder in the gcamdata package: `inst/extdata/energy/`
+
+NOTE: NEVER use Excel to clean the csv. Excel can only open part of the file, and the rest will be missing. If you use a PC, do not use Notepad (it takes 3 minutes per operation). Instead, use another, more powerful editor, like Sublime text editor.

@@ -1,0 +1,61 @@
+---
+title: Prebuilt Data
+---
+
+The GCAM Data System makes use of [IEA proprietary data](https://www.iea.org/statistics/balances/) that can't be publicly posted online (i.e. in this repository). At the same time, GCAM and its data system are public, community models, and we want folks to be able to run them _without_ the IEA data. Additionally, there outputs from the [CEDS](https://github.com/JGCRI/CEDS) emissions database are too large to include in this repository. This page describes the solution currently in the data system, how's it's implemented, and things to be aware of.
+
+
+
+## Proprietary data in the GCAM data system 
+
+The 'raw' (see Note 1 below) IEA data consist of two files:
+* `inst/extdata/energy/en_OECD.csv`
+* `inst/extdata/energy/en_nonOECD.csv`
+
+These are read by a single chunk in the data system, [module_energy_LA100.IEA_downscale_ctry](https://github.com/JGCRI/gcamdata/blob/master/R/zchunk_LA100.IEA_downscale_ctry.R), which combines them and produces its output, the object `L100.IEA_en_bal_ctry_hist` (energy balances downscaled to 201 countries by iso code, FLOW, PRODUCT, and historical year). This object is used by four chunks immediately downstream:
+
+* `module_energy_LA101.en_bal_IEA`
+* `module_energy_LA111.rsrc_fos_Prod`
+* `module_energy_LA118.hydro`
+* `module_energy_LA121.oil`
+
+These each summarize the IEA data and do various operations, collectively producing nine objects that in turn flow to various downstream chunks. 
+
+>Note 1: The raw IEA data files used by GCAM are flat file csv exports of the entire IEA energy balances databases. Data starts in 1960 for OECD countries and 1971 for non-OECD countries. Some cleanup of country names was performed to remove non-standard characters.
+
+## What happens when IEA data are not available
+
+In `module_energy_LA100.IEA_downscale_ctry`, you'll see that `en_OECD.csv` and `en_nonOECD.csv` are marked as `OPTIONAL_FILE` inputs (lines 25-26 in `zchunk_LA100.IEA_downscale_ctr.R`). This is unique in the data system, and means that the data system driver doesn't error if they're not found; instead, `get_data()` will return NULL if they're not available. The code checks for this in line 49, and then in lines 305-306 sends a `missing_data()` object back to the driver.
+
+At this point there's a `L100.IEA_en_bal_ctry_hist` object, but instead of being a tibble it's a `missing_data()` object. In each of the four downstream chunks, we check for this condition. E.g. in `module_energy_LA101.en_bal_IEA`:
+
+```{r eval = FALSE}
+    if(is.null(L100.IEA_en_bal_ctry_hist)) {
+      # Proprietary IEA energy data are not available, so used saved outputs
+      L101.en_bal_EJ_R_Si_Fi_Yh_full <- extract_prebuilt_data("L101.en_bal_EJ_R_Si_Fi_Yh_full")
+      L101.en_bal_EJ_ctry_Si_Fi_Yh_full <- extract_prebuilt_data("L101.en_bal_EJ_ctry_Si_Fi_Yh_full")
+      L101.in_EJ_ctry_trn_Fi_Yh <- extract_prebuilt_data("L101.in_EJ_ctry_trn_Fi_Yh")
+      L101.in_EJ_ctry_bld_Fi_Yh <- extract_prebuilt_data("L101.in_EJ_ctry_bld_Fi_Yh")
+    } else {
+```
+
+So, if the IEA data aren't available, we load (from the internal package data object) the chunk's outputs and send them back to the driver. These cached or _prebuilt_ data are saved in a binary format and thus guaranteed to be bit-for-bit identical to what we would have produced, had the IEA data been available.
+
+**Important point**: when `module_energy_LA101.en_bal_IEA` and its kin 'really' generate their data, i.e. when the IEA data are available, they confirm that these objects match the cached versions exactly. If not, a warning is issued.
+
+This seems like a lot of work. Why didn't we simply cache the IEA data itself?** Because it's proprietary, and we can't post it to GitHub, even in a binary format. We _can_, however, cache the one-step-downstream summarized objects.
+
+In summary, through this mechanism the data system will produce numerically identical outputs, regardless of whether the proprietary IEA data are present or not. The only difference (but see Note 2 below) will be that some objects will be tagged with an additional comment: "** PRE-BUILT; RAW IEA DATA NOT AVAILABLE **".
+
+You can access the package's prebuilt data via `gcamdata:::PREBUILT_DATA`.
+
+>Note 2: Distributing pre-aggregated data effectively hard-wires the country-to-region mapping; that is, without the proprietary data, users do not have the capability to adjust the country-to-region mapping files (to construct different model regions) or change the mapping from IEA’s sectors and fuels to GCAM’s sectors and fuels.
+
+## What to do if you change something
+
+If you change how any of these early-stage chunks (the one that initially handles `en_OECD.csv` and `en_nonOECD.csv`, or its immediate downstream dependents) work, you'll need to follow several steps:
+1. If you're working with these chunks, you _must have the proprietary data installed_. Otherwise, the system will use its cached data and ignore your code changes.
+2. Your changed chunk will be issuing a warning about a mismatch between its output(s) and the prebuilt data, so re-run [generate_package_data.R](https://github.com/JGCRI/gcamdata/blob/master/data-raw/generate_package_data.R). This updates the internal package data, in particular the `PREBUILT_DATA` object that the `extract_prebuilt_data()` calls above use. Note that if you're adding a _new_ chunk that uses IEA data, you'll need to add its output(s) here.
+3. Rebuild the package. The driver should now run without warnings.
+4. The oldnew test will be failing. Update the [gcamdata.compdata](https://github.com/JGCRI/gcamdata.compdata) package by copying your changed output(s) (from `./outputs` into the corresponding folder in `gcamdata.compdata`, and then re-running its `update-compdata.R` script. Rebuild `gcamdata.compdata`.
+5. Best practice: confirm that the driver runs and all tests pass both _with_ and _without_ the proprietary data.

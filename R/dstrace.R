@@ -143,7 +143,10 @@ dstrace_chunks <- function(chunk_names, gcam_data_map, prev_trace_list = c()) {
 #' @param ... Extra arguments passed on to \code{\link{plot}}
 #' @return Adjacency matrix, invisible
 dstrace_plot <- function(object_name, tracelist, upstream, downstream, ...) {
-
+  # We merely suggest igraph. Ensure we have it before proceeding.
+  if(!requireNamespace('igraph')) {
+    stop("The `igraph` package is required to plot `dstrace()`.")
+  }
   # Make an adjacency matrix, laboriously
   mat <- matrix(0, nrow = nrow(tracelist), ncol = nrow(tracelist))
   colnames(mat) <- paste0(tracelist$tracenum, ". ", tracelist$object_name)
