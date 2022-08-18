@@ -95,8 +95,7 @@ module_gcamusa_L169.nonghg_NEI_scaling_USA <- function(command, ...) {
         filter( !grepl( "^1A", CEDS_Sector ) ) %>%
         mutate( CEDS_Fuel = "Process" ) %>%
         # sum emissions by state, sector, year, and pollutant now that they all have the same fuel
-        group_by( state, pollutant, year, CEDS_Sector, CEDS_Fuel, unit ) %>%
-        mutate( emissions = sum( emissions ) ) %>%
+        fast_group_by_mutate(by = c("state", "pollutant", "year", "CEDS_Sector", "CEDS_Fuel", "unit"), colname = "emissions") %>%
         distinct()
 
       NEI_refined_all <- NEI_refined_combustion %>%
@@ -159,6 +158,7 @@ module_gcamusa_L169.nonghg_NEI_scaling_USA <- function(command, ...) {
                 grepl("1A3bi", CEDS_Sector ) ) %>%
         group_by( state, year, pollutant, CEDS_Fuel, tier1_description, unit ) %>%
         mutate( emissions = sum(emissions) ) %>%
+        ungroup %>%
         distinct() %>%
         mutate( "CEDS_Sector" = "1A3bi_Road" ) %>%
         complete( nesting( state, pollutant, CEDS_Sector, CEDS_Fuel, tier1_description, unit ), year = 2008:2017 ) %>%
@@ -380,12 +380,12 @@ module_gcamusa_L169.nonghg_NEI_scaling_USA <- function(command, ...) {
                      total_emissions1997 = sum( emissions97 ),
                      total_emissions1996 = sum( emissions96 ),
                      total_emissions1990 = sum( emissions90 )) %>%
+      ungroup() %>%
       distinct( state, pollutant_code, tier1_description, .keep_all = T ) %>%
       select( c(state, pollutant_code, tier1_description, total_emissions2007, total_emissions2006, total_emissions2005,
                        total_emissions2004, total_emissions2003, total_emissions2002, total_emissions2001, total_emissions2000,
                        total_emissions1999, total_emissions1998, total_emissions1997, total_emissions1996, total_emissions1990 ) ) %>%
       gather( id, total_emissions, -c( state, pollutant_code, tier1_description ) ) %>%
-      ungroup() %>%
       separate( id, into = c("id", "year"), sep = "emissions" ) %>%
       select( -id ) %>%
       mutate( year = as.integer( year ) ) %>%
@@ -492,8 +492,8 @@ module_gcamusa_L169.nonghg_NEI_scaling_USA <- function(command, ...) {
     NEI_scaled_to_state_emissions %>%
       gather( id, emissions, -c( state, pollutant, CEDS_Sector, CEDS_Fuel, unit, GCAM_sector ) ) %>%
       separate( id, into = c("id", "year"), sep = "emissions" ) %>%
-      select( -id ) %>%
-      mutate( year = as.integer( year ) ) -> NEI_1990_2007_no_domestic_ship
+      mutate(year = as.integer( gsub("emissions", "", id))) %>%
+      select(-id) -> NEI_1990_2007_no_domestic_ship
 
     # assign Process CEDS_Fuel to process sectors
     NEI_1990_2007_no_domestic_ship %>%
@@ -513,10 +513,8 @@ module_gcamusa_L169.nonghg_NEI_scaling_USA <- function(command, ...) {
    NEI_1990_2007_final %>%
       bind_rows( NEI_2008_2017_final %>% select( -c( tier1_description ) ) ) %>%
       # make sure emissions are grouped by state, year, CEDS_sector, CEDS_Fuel and pollutant
-      group_by( state, pollutant, CEDS_Sector, CEDS_Fuel, year ) %>%
-      mutate( emissions = sum( emissions ) ) %>%
-      distinct( state, pollutant, GCAM_sector, CEDS_Sector, CEDS_Fuel, unit, year, emissions ) %>%
-      ungroup() -> NEI_1990_2017_GCAM_sectors
+     fast_group_by_mutate(colname  = "emissions", by = c("state", "pollutant", "CEDS_Sector", "CEDS_Fuel", "year")) %>%
+      distinct( state, pollutant, GCAM_sector, CEDS_Sector, CEDS_Fuel, unit, year, emissions ) -> NEI_1990_2017_GCAM_sectors
 
     # ===================================================
     # Produce outputs
