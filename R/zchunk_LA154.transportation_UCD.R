@@ -100,16 +100,15 @@ module_energy_LA154.transportation_UCD <- function(command, ...) {
     OTAQ_trn_data_EMF37_to_bind_noenergy <- filter(OTAQ_trn_data_EMF37_to_bind, variable != "energy") %>%
       complete(nesting(sce, UCD_region, UCD_sector, mode, size.class, UCD_technology, UCD_fuel, variable, unit),
                year = UCD_data_years) %>%
-      group_by(sce, UCD_region, UCD_sector, mode, size.class, UCD_technology, UCD_fuel, variable, unit) %>%
-      mutate(value = approx_fun(year, value, rule = 2)) %>%
-      ungroup()
+      fast_group_by_approx(by = c("sce", "UCD_region", "UCD_sector", "mode", "size.class", "UCD_technology", "UCD_fuel", "variable", "unit"),
+                           rule = 2)
 
     UCD_trn_data_nocalibration <- UCD_trn_data %>%
       filter(!variable %in% c("energy", "service output")) %>%
       anti_join(OTAQ_trn_data_EMF37_to_bind_noenergy, by = c("sce", "UCD_region", "UCD_sector", "mode","size.class",
                                                     "UCD_technology", "UCD_fuel", "variable", "unit", "year")) %>%
-      bind_rows(OTAQ_trn_data_EMF37_to_bind_noenergy) %>%
-      arrange(sce, UCD_region, UCD_sector, mode, size.class, UCD_technology, UCD_fuel, variable, unit, year)
+      bind_rows(OTAQ_trn_data_EMF37_to_bind_noenergy) #%>%
+      # arrange(sce, UCD_region, UCD_sector, mode, size.class, UCD_technology, UCD_fuel, variable, unit, year)
 
       UCD_trn_data_calibrated <- filter(UCD_trn_data, variable %in% c("energy", "service output")
                                     & year == min(year)) %>%
@@ -231,22 +230,6 @@ module_energy_LA154.transportation_UCD <- function(command, ...) {
       select(iso, UCD_sector, mode, size.class, UCD_technology,
              UCD_fuel, UCD_category, fuel, GCAM_region_ID, year, value,rev.mode,rev_size.class)
 
-
-
-    # kbn 2020-29-01 Add function for fast_group_by_sum.This function uses data.table instead of dplyr thus increasing speed.Creates a group_by and then summarises. This will be
-    #added to utils.R as a function. We have submitted a separate issue PR on github for the same.
-    fast_group_by_sum<- function(df,by,value){
-      df <- as.data.table(df)
-
-      df<- df[, value:=sum(value), by]
-      df<- df[, c(by,"value"), with = FALSE]
-      df<- as_tibble(df)
-      df<- df %>%  distinct()
-
-      return(df)
-    }
-
-
     # Aggregating by GCAM region
     IEA_hist_data_times_UCD_shares_region <- IEA_hist_data_times_UCD_shares %>%
       #kbn 2019-09-10. Aggregate by size.class and mode structure defined in constants.Changes described in detail in comment with search string,kbn 2020-03-26.
@@ -319,9 +302,7 @@ module_energy_LA154.transportation_UCD <- function(command, ...) {
       mutate(value = if_else(unit == "2005$/veh/yr", value / vkt_veh_yr, value),
              unit = if_else(unit == "2005$/veh/yr", "2005$/vkt", unit)) %>%
       #kbn 2020-01-29 Updated with sce below. Changes described in detail in comment with search string,kbn 2020-03-26.
-      group_by(UCD_region, UCD_sector, mode, size.class, UCD_technology, UCD_fuel, unit, year,sce) %>%
-      summarise(value = sum(value)) %>%
-      ungroup() %>%
+      fast_group_by_summ(by = c("UCD_region", "UCD_sector", "mode", "size.class", "UCD_technology", "UCD_fuel", "unit", "year","sce")) %>%
       mutate(variable = "non-fuel costs")
 
 
@@ -369,20 +350,11 @@ module_energy_LA154.transportation_UCD <- function(command, ...) {
     UCD_trn_data_fillout <- bind_rows(
       filter( UCD_trn_data, variable %in% c("intensity", "load factor", "speed")),
       UCD_trn_cost_data,
-      UCD_trn_data_allyears)
-    # Fill out all missing values with the nearest available year that is not missing
-    #kbn 2020-06-02: Removing duplicates here. If they exist.
-    UCD_trn_data_fillout %>%  distinct()->UCD_trn_data_fillout
-
-    #kbn 2020 adding data.table here to increase speed.
-    UCD_trn_data_fillout <- as.data.table(UCD_trn_data_fillout)
-    #Set order
-    #Changing below to year so that we don't add values for intermittent years for SSPs
-    setorderv(UCD_trn_data_fillout,c("UCD_region", "UCD_sector", paste(energy.TRAN_UCD_MODE), paste(energy.TRAN_UCD_SIZE_CLASS), "UCD_technology", "UCD_fuel", "variable", "unit", "year"))
-    #Making sure that value is numeric as a check so that we do not get a failure in the if_else
-    UCD_trn_data_fillout <-    UCD_trn_data_fillout[, value :=as.numeric(value)]
-    # Start interpolation
-    UCD_trn_data_fillout <- UCD_trn_data_fillout[, value := if_else(is.na(value), as.numeric(approx_fun(year, value, rule = 2)), as.numeric(value)),by= c("UCD_region", "UCD_sector", "mode", "size.class", "UCD_technology", "UCD_fuel", "variable", "unit","sce")]
+      UCD_trn_data_allyears)  %>%
+      distinct() %>%
+      # Fill out all missing values with the nearest available year that is not missing
+      fast_group_by_approx(by = c("UCD_region", "UCD_sector", "mode", "size.class", "UCD_technology", "UCD_fuel", "variable", "unit", "sce"),
+                           rule = 2)
 
     #kbn 2020 filtering out SSP values that are the same. Basically if a certain combination has the same value for a SSP in a year compared to core,
     #just keep the core value.
@@ -399,19 +371,14 @@ module_energy_LA154.transportation_UCD <- function(command, ...) {
 
 
     IEA_histfut_data_times_UCD_shares <- IEA_hist_data_times_UCD_shares %>%
-      bind_rows(IEA_fut_data_times_UCD_shares) #%>%
-    #kbn 2020-01-29 Adding sce below. Changes described in detail in comment with search string,kbn 2020-03-26.
-    #kbn 2020-01-29 tUse data.table here instead of dplyr. Changes described in detail in comment with search string,kbn 2020-03-26.
-    IEA_histfut_data_times_UCD_shares <- IEA_histfut_data_times_UCD_shares
-    IEA_histfut_data_times_UCD_shares <- as.data.table(IEA_histfut_data_times_UCD_shares)
-    IEA_histfut_data_times_UCD_shares <- IEA_histfut_data_times_UCD_shares[, value := if_else(is.na(value), approx_fun(year, value, rule = 2), value),by= c("iso", "UCD_sector", "mode", "size.class", "UCD_technology", "UCD_fuel", "UCD_category", "fuel")]
-    IEA_histfut_data_times_UCD_shares <- IEA_histfut_data_times_UCD_shares[,c("iso", "UCD_sector", paste(energy.TRAN_UCD_MODE), paste(energy.TRAN_UCD_SIZE_CLASS), "UCD_technology", "UCD_fuel", "UCD_category", "fuel","value","year","GCAM_region_ID"),with=FALSE]
-    IEA_histfut_data_times_UCD_shares <- as_tibble(IEA_histfut_data_times_UCD_shares)
+      bind_rows(IEA_fut_data_times_UCD_shares) %>%
+      fast_group_by_approx(by = c("iso", "UCD_sector", "mode", "size.class", "UCD_technology", "UCD_fuel", "UCD_category", "fuel"),
+                           rule = 2) %>%
+      select(-mode, -size.class)
 
     IEA_data_times_UCD_shares_UCD_sector_agg <- IEA_histfut_data_times_UCD_shares %>%
       #kbn 2019-10-09 group by mode selected by user below. Changes described in detail in comment with search string,kbn 2020-03-26.
-      #kbn 2020 fast_group_by_sum is used instead of regular group_by for speed. Changes described in detail in comment with search string,kbn 2020-03-26.
-      fast_group_by_sum(by=c("iso", "UCD_sector", paste(energy.TRAN_UCD_MODE), "year"))
+      fast_group_by_summ(by=c("iso", "UCD_sector", paste(energy.TRAN_UCD_MODE), "year"))
 
     #kbn 2019-10-09 activate below if using new mode. We lose the mode and size_class columns during the group_by calls above. We need those columns in the calculations below
     #The below code brings back those columns.
@@ -419,7 +386,7 @@ module_energy_LA154.transportation_UCD <- function(command, ...) {
 
       #kbn -Once again, we drop some data. We are adding those back in the old size classes so we can keep track of modes and size classes
       UCD_trn_data_fillout<-UCD_trn_data_fillout %>%
-        inner_join(Size_class_New,by= c("UCD_region","rev.mode","rev_size.class"))
+        inner_join(Size_class_New, by = c("UCD_region","rev.mode","rev_size.class"))
 
 
       colnames(UCD_trn_data_fillout)[colnames(UCD_trn_data_fillout)=='mode.x']<-'mode'
@@ -442,7 +409,7 @@ module_energy_LA154.transportation_UCD <- function(command, ...) {
     #kbn 2019-10-10 we do not have data for certain vehicle categories. so we are dropping that data to avoid NAs.Note thathere,
     # we are trying to lose columns where the load factor, intensity and non-fuel costs are all not NAs but the speed IS an NA. We would
     #have to use a subset, but given the size of the dataset, the code below is much faster.
-    UCD_trn_data_variable_spread<-UCD_trn_data_variable_spread[!(is.na(UCD_trn_data_variable_spread$`load factor`)&
+    UCD_trn_data_variable_spread <- UCD_trn_data_variable_spread[!(is.na(UCD_trn_data_variable_spread$`load factor`)&
                                                                    !(is.na(UCD_trn_data_variable_spread$intensity)) &
                                                                    !(is.na(UCD_trn_data_variable_spread$`non-fuel costs`)) &
                                                                    (is.na(UCD_trn_data_variable_spread$speed))),]
@@ -499,7 +466,10 @@ module_energy_LA154.transportation_UCD <- function(command, ...) {
     ALL_ctry_var %>%
       filter(sce != "CORE") %>%
       left_join_keep_first_only(ALL_ctry_var_CORE, by= c("UCD_technology","UCD_fuel", "UCD_sector", "mode", "size.class","rev.mode","rev_size.class", "year", "GCAM_region_ID")) %>%
-      mutate(weight_EJ =if_else(is.na(weight_EJ),weight_EJ_core,weight_EJ),intensity =if_else(is.na(intensity),intensity_CORE,intensity), `load factor`=if_else(is.na(`load factor`),loadfactor_CORE,`load factor`), `non-fuel costs`=if_else(`non-fuel costs` == 0,non_fuel_cost_core,`non-fuel costs`)) %>%
+      mutate(weight_EJ = if_else(is.na(weight_EJ), weight_EJ_core, weight_EJ),
+             intensity = if_else(is.na(intensity), intensity_CORE,intensity),
+             `load factor` = if_else(is.na(`load factor`), loadfactor_CORE, `load factor`),
+             `non-fuel costs` = if_else(`non-fuel costs` == 0, non_fuel_cost_core,`non-fuel costs`)) %>%
       select(-loadfactor_CORE,-weight_EJ_core,-intensity_CORE,-non_fuel_cost_core) %>%
       filter(`non-fuel costs` != 0)-> ALL_ctry_var_SSPS
 
@@ -514,13 +484,13 @@ module_energy_LA154.transportation_UCD <- function(command, ...) {
       mutate(Tvkm = weight_EJ / intensity,
              Tpkm = Tvkm * `load factor`,
              Tusd = Tvkm * `non-fuel costs`,
-             Thr = Tvkm / speed.x) %>%
-      #kbn 2019-10-09 calculate weighted volumes below using revised size classes
-      #kbn 2020-01-29 Adding sce below. Changes described in detail in comment with search string,kbn 2020-03-26.
-      group_by(UCD_technology,UCD_fuel, UCD_sector, !!(as.name(energy.TRAN_UCD_MODE)), !!(as.name(energy.TRAN_UCD_SIZE_CLASS)), year, GCAM_region_ID,sce) %>%
-      summarise(weight_EJ = sum(weight_EJ), Tvkm = sum(Tvkm), Tpkm = sum(Tpkm),Tusd = sum(Tusd), Thr = sum(Thr)) %>%
-      ungroup()
-
+             Thr = Tvkm / speed.x)
+    # ALL_region_var is already in data.table, so we may as well do group_by %>% summarise() directly
+    ALL_region_var <- ALL_region_var[, lapply(.SD, sum),
+                                       by = c("UCD_technology", "UCD_fuel", "UCD_sector",
+                                              energy.TRAN_UCD_MODE, energy.TRAN_UCD_SIZE_CLASS,
+                                              "year", "GCAM_region_ID", "sce"),
+                                       .SDcols = c("weight_EJ", "Tvkm", "Tpkm", "Tusd", "Thr")]
 
 
 

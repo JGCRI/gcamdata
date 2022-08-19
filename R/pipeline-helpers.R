@@ -511,6 +511,50 @@ fast_group_by_summ <- function(df, by, colname = "value", func = "sum"){
   return(df)
 }
 
+#' fast_group_by_approx
+#'
+#' A faster replacement for grouped approx_fun() calls
+#'
+#' This group_by function uses data.table offers a much higher speed
+#' especially when working with high volume datasets. This function can also be
+#' called within dplyr pipes.
+#'
+#' Example-
+#'
+#' A group_by with dplyr - data -> group_by(iso, glu_code) -> mutate(value = approx_fun(year, value, rule = 2)) -> ungroup()
+#'
+#' Same group_by with data.table -  fast_group_by_approx(data, by=c("iso", "glu_code"), rule = 2)
+#'
+#' @param df The tibble on which the group_by is to be performed
+#' @param by A vector of strings with the criteria for the group_by.
+#' @param year_col The year argument to approx_fun - defaults as "year"
+#' @param value_col The value argument to approx_fun - defaults as "value"
+#' @param rule The rule argument to approx_fun - defaults as "value"
+#' @return A tibble with the aggregated data.
+#' @importFrom data.table as.data.table
+#' @importFrom tibble as_tibble
+#' @importFrom dplyr %>%
+#' @author rlh Aug 2022
+#' @export
+fast_group_by_approx <- function(df, by, year_col = "year", value_col = "value", rule = 1){
+  df <- as.data.table(df)
+
+  # Filter to groups with an NA to fill, and fill with approx_fun
+  dt_na <- df[, if(any(is.na( (get(value_col)) ))) .SD,
+              by = by][, (value_col) :=  (as.numeric(approx_fun(year = get(year_col), value = get(value_col), rule = rule))), by = by]
+
+  # Bind with groups without NAs, if they exist
+  if (nrow(df) == nrow(dt_na)){
+    return(as_tibble(dt_na))
+  } else {
+    df <- rbind( df[, if(!any(is.na( (get(value_col)) ))) .SD, by = by],
+                 dt_na)
+    return(as_tibble(df))
+    }
+
+}
+
+
 #' data_table_bind
 #'
 #' A binding function that uses data.table. This can be used as a replacement for rbind or bind_rows.
