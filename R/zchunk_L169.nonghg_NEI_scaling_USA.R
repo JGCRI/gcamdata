@@ -491,7 +491,6 @@ module_gcamusa_L169.nonghg_NEI_scaling_USA <- function(command, ...) {
     # ======================================
     NEI_scaled_to_state_emissions %>%
       gather( id, emissions, -c( state, pollutant, CEDS_Sector, CEDS_Fuel, unit, GCAM_sector ) ) %>%
-      separate( id, into = c("id", "year"), sep = "emissions" ) %>%
       mutate(year = as.integer( gsub("emissions", "", id))) %>%
       select(-id) -> NEI_1990_2007_no_domestic_ship
 

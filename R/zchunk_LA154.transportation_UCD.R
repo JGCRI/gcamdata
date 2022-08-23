@@ -496,6 +496,7 @@ module_energy_LA154.transportation_UCD <- function(command, ...) {
 
     # Reverse the calculations to calculate the weighted average of each derived variable
     ALL_region_var <- ALL_region_var %>%
+      as_tibble() %>%
       mutate(intensity_MJvkm = weight_EJ / Tvkm,
              loadfactor = Tpkm / Tvkm,
              cost_usdvkm = Tusd / Tvkm,

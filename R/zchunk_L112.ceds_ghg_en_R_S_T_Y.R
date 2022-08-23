@@ -259,19 +259,19 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
 
     #Filter out road emissions
     L112.CEDS_Road_emissions <- L112.CEDS_GCAM %>%  filter(CEDS_agg_sector == "trn_road")
-    L112.CEDS_GCAM<- L112.CEDS_GCAM %>%  filter(CEDS_agg_sector != "trn_road")
+    L112.CEDS_GCAM <- L112.CEDS_GCAM %>%  filter(CEDS_agg_sector != "trn_road")
 
     #Clean IEA data, filter to road emissions and  remove zero emission technologies.
     IEA_Ctry_data %>%
       #Use only historical years
       filter(year <= max(HISTORICAL_YEARS),
-             UCD_category=="trn_road and rail",
+             UCD_category =="trn_road and rail",
              !mode %in% c("Rail","HSR")) %>%
       select(-UCD_fuel,-fuel,-size.class) %>%
       rename(fuel = UCD_technology) %>%
       #NG is treated separately.
-      filter(!fuel %in% c(emissions.ZERO_EM_TECH,"NG")) %>%
-      mutate(fuel =if_else(fuel=="Hybrid Liquids","Liquids",fuel))->Clean_IEA_ctry_data
+      filter(!fuel %in% c(emissions.ZERO_EM_TECH, "NG")) %>%
+      mutate(fuel =if_else(fuel=="Hybrid Liquids", "Liquids", fuel)) -> Clean_IEA_ctry_data
 
     #Calculate GAINS sector weights which we can use on CEDS data to distribute emissions into Passenger and Freight.
     Clean_IEA_ctry_data %>%
@@ -296,7 +296,7 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
       group_by(iso, mode, year, UCD_sector) %>%
       mutate(value = sum(value)) %>%
       ungroup() %>%
-      select(iso,mode,year,value,GCAM_region_ID,UCD_sector) %>%
+      select(iso, mode, year, value, GCAM_region_ID, UCD_sector) %>%
       distinct() %>%
       repeat_add_columns(tibble(Non.co2 = unique(GAINS_fuel$Non.co2))) %>%
       left_join(GAINS_fuel, by = c("Non.co2","iso","year")) %>%
@@ -389,7 +389,7 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
       distinct() %>%
       rename(Non.CO2 = Non.co2, stub.technology = fuel, value = em_factor) %>%
       #Values from GAINS are in kt/ej. Convert to Tg/ej.
-      mutate(value = if_else(is.na(value), 0,0.001 * value), energy = if_else(is.na(energy), 0, energy)) %>%
+      mutate(value = if_else(is.na(value), 0, 0.001 * value), energy = if_else(is.na(energy), 0, energy)) %>%
       left_join_keep_first_only(UCD_techs %>% select(-fuel) %>%
                                   rename(stub.technology = UCD_technology, subsector = tranSubsector),
                                 by = c("mode", "size.class", "UCD_sector", "stub.technology")) %>%
@@ -895,7 +895,6 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
       L122.ghgsoil_tg_R_C_Y_GLU
 
     # Bind together dataframes & aggregate
-    # SLOW group by summarise
     L122.ghg_tg_R_agr_C_Y_GLU_full <- bind_rows( L122.ghg_tg_R_rice_Y_GLU, L122.ghgsoil_tg_R_C_Y_GLU#, L122.ghgfert_tg_R_C_Y_GLU
     ) %>%
       fast_group_by_summ(by = c("GCAM_region_ID", "GCAM_commodity", "GCAM_subsector", "year", "GLU", "Non.CO2"),
@@ -1113,7 +1112,7 @@ module_emissions_L112.ceds_ghg_en_R_S_T_Y <- function(command, ...) {
       filter(!(Non.CO2 %in% c("CH4", "N2O"))) %>%
       select(GCAM_region_ID, Non.CO2, supplysector, subsector, stub.technology, year, value = emissions) %>%
       bind_rows(GAINS_NG_em_factors %>% mutate(value=energy*value) %>%
-                  filter(!(Non.CO2 %in% c("CH4", "N2O","CO2"))) %>% select(-energy))->L111.nonghg_tg_R_en_S_F_Yh
+                  filter(!(Non.CO2 %in% c("CH4", "N2O","CO2"))) %>% select(-energy)) -> L111.nonghg_tg_R_en_S_F_Yh
 
 
 
