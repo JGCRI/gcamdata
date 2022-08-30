@@ -537,6 +537,8 @@ fast_group_by_summ <- function(df, by, colname = "value", func = "sum"){
 #' @author rlh Aug 2022
 #' @export
 fast_group_by_approx <- function(df, by, year_col = "year", value_col = "value", rule = 1){
+  if (!is.double(df[[value_col]])){stop("The column to be used with approx_fun must be of type double")}
+
   df <- as.data.table(df)
 
   # Filter to groups with an NA to fill, and fill with approx_fun

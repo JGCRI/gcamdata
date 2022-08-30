@@ -109,17 +109,18 @@ module_aglu_LB162.ag_prodchange_R_C_Y_GLU_irr <- function(command, ...) {
     # Finally, Calculate yield multipliers.
     FAO_ag_CROSIT %>%
       select(CROSIT_ctry, CROSIT_crop, year, Yield_kgHa_rainfed) %>%
-      mutate(Irr_Rfd = "RFD") %>%
-      rename(yield_kgHa = Yield_kgHa_rainfed) %>%
+      mutate(Irr_Rfd = "RFD",
+             Yield_kgHa_rainfed = as.double(Yield_kgHa_rainfed)) %>%
+      rename(yield_kgHa =Yield_kgHa_rainfed) %>%
       bind_rows(L162.ag_irrYield_kgHa_Rcrs_Ccrs_Y) %>%
       # add the missing aglu.SPEC_AG_PROD_YEARS and interpolate the yields
       complete(year = c(year, aglu.SPEC_AG_PROD_YEARS) ,
                       CROSIT_ctry, CROSIT_crop, Irr_Rfd) %>%
       select(CROSIT_ctry, CROSIT_crop, Irr_Rfd, year, yield_kgHa) %>%
       arrange(year) %>%
-      group_by(CROSIT_ctry, CROSIT_crop, Irr_Rfd) %>%
-      mutate(yield_kgHa = approx_fun(year, yield_kgHa)) %>%
-      ungroup() %>% filter(year %in% aglu.SPEC_AG_PROD_YEARS) %>%
+      fast_group_by_approx(by = c("CROSIT_ctry", "CROSIT_crop", "Irr_Rfd"),
+                           value_col = "yield_kgHa") %>%
+      filter(year %in% aglu.SPEC_AG_PROD_YEARS) %>%
       # calculate yield multipliers
       group_by(CROSIT_ctry, CROSIT_crop, Irr_Rfd) %>%
       mutate(Mult = yield_kgHa / first(yield_kgHa)) %>%
@@ -223,9 +224,8 @@ module_aglu_LB162.ag_prodchange_R_C_Y_GLU_irr <- function(command, ...) {
       left_join_error_no_match(select(FAO_ag_items_PRODSTAT, GTAP_crop, GCAM_commodity, GCAM_subsector), by = "GTAP_crop") %>%
       # Multiply base-year harvested area by the future productivity multipliers to calculate prod_mod and aggregate
       mutate(Prod_mod = HA * Mult) %>%
-      group_by(GCAM_region_ID, GCAM_commodity, GCAM_subsector, year, GLU, Irr_Rfd) %>%
-      summarise(HA = sum(HA), Prod_mod = sum(Prod_mod)) %>%
-      ungroup() %>%
+      fast_group_by_summ(by = c("GCAM_region_ID", "GCAM_commodity", "GCAM_subsector", "year", "GLU", "Irr_Rfd"),
+                                                          colname = c("HA", "Prod_mod")) %>%
       # Calculate YieldRatio = Prod_mod/HA by region-commodity-glu-irrigation-year; subset and output the YieldRatios
       mutate(YieldRatio = Prod_mod / HA) %>%
       na.omit() %>%
@@ -360,11 +360,9 @@ module_aglu_LB162.ag_prodchange_R_C_Y_GLU_irr <- function(command, ...) {
       complete(year = c(max(HISTORICAL_YEARS),FUTURE_YEARS), nesting(GCAM_region_ID, GCAM_commodity, GCAM_subsector, GLU, Irr_Rfd)) %>%
       left_join_error_no_match(L162.defaultYieldRate, by = c("year", "GCAM_commodity")) %>%
       # replace NA's - which correspond to years we just filled in - with the default yield for that year we just joined
-      group_by(GCAM_region_ID, GCAM_commodity, GCAM_subsector, GLU, Irr_Rfd, year) %>%
-      mutate(YieldRate = replace(YieldRate,
-                                 is.na(YieldRate),
-                                 defaultRate)) %>%
-      ungroup() %>%
+      mutate(YieldRate = if_else(is.na(YieldRate),
+                                 defaultRate,
+                                 YieldRate)) %>%
       select(-defaultRate) ->
       L162.agbio_YieldRate_R_C_Y_GLU_irr
 
