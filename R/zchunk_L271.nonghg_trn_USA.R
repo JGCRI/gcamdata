@@ -93,12 +93,11 @@ module_gcamusa_L271.nonghg_trn_USA <- function(command, ...) {
       # since MARKAL classes don't directly map to new UCD classes, we must use averaging
       # Ex. UCD_class = Car maps to MARKAL_class = Compact car AND MARKAL_class = Full size car
       # Thus, "Car" will be assigned an EF that is the average of Compact car and Full size car
-      group_by( region, supplysector, tranSubsector, stub.technology, MARKAL_LDV_fuel, year, Non.CO2 ) %>%
-      mutate( value = mean( value ) ) %>%
+      fast_group_by_mutate(by = c("region", "supplysector", "tranSubsector", "stub.technology", "MARKAL_LDV_fuel", "year", "Non.CO2"),
+                           func = "mean") %>%
       # only need to keep one entry per tranSubsector
       distinct( region, supplysector, tranSubsector, stub.technology, MARKAL_LDV_fuel, year, Non.CO2, value ) %>%
       rename(emiss.coef = value) %>%
-      ungroup() %>%
       # select relevant columns
       select( -MARKAL_LDV_fuel )
 
@@ -133,12 +132,11 @@ module_gcamusa_L271.nonghg_trn_USA <- function(command, ...) {
       # since MARKAL classes don't directly map to new UCD classes, we must use averaging
       # Ex. UCD_class = Medium truck maps to MARKAL_class = Commercial truck AND MARKAL_class = Heavy duty short haul truck
       # Thus, "Car" will be assigned an EF that is the average of Compact car and Full size car
-      group_by( region, supplysector, tranSubsector, stub.technology, MARKAL_HDV_fuel, year, Non.CO2 ) %>%
-      mutate( value = mean( value ) ) %>%
+      fast_group_by_mutate(by = c( "region", "supplysector", "tranSubsector", "stub.technology", "MARKAL_HDV_fuel", "year", "Non.CO2"),
+                           func = "mean") %>%
       # only need to keep one entry per tranSubsector
       distinct( region, supplysector, tranSubsector, stub.technology, MARKAL_HDV_fuel, year, Non.CO2, value ) %>%
       rename(emiss.coef = value) %>%
-      ungroup() %>%
       # select relevant columns
       select( -MARKAL_HDV_fuel )
 
@@ -444,20 +442,20 @@ module_gcamusa_L271.nonghg_trn_USA <- function(command, ...) {
       # TODO: In the future, this should be done further upstream and be a weighted average.
       # There are multiple entries for the same supplysector/subsector/tranSubsector
       # due to multiple MARKAL classes mapping to single UCD classes. Use averaging.
-      group_by(region, supplysector, tranSubsector, stub.technology, year, Non.CO2, linear.control, start.year, end.year, allow.ef.increase) %>%
-      mutate( final.emissions.coefficient = mean( final.emissions.coefficient ) ) %>%
-      distinct() %>%
-      ungroup()
+      fast_group_by_mutate(by = c("region", "supplysector", "tranSubsector", "stub.technology", "year", "Non.CO2",
+                                  "linear.control", "start.year", "end.year", "allow.ef.increase"),
+                           colname = "final.emissions.coefficient", func = "mean") %>%
+      distinct()
 
     # ===================================================
 
     # Produce outputs
 
     L271.nonco2_trn_tech_coeff_USA_scaled %>%
-      add_title("Non-CO2 transportation emissions coefficients by state / supplysector / tranSubsector / stub.technology / year / Non.CO2") %>%
+      add_title("Non-CO2 transportation emissions coefficients by state / supplysector / tranSubsector / stub.technology / year / Non.CO2", overwrite = T) %>%
       add_units("Tg/million pass-km or Tg/million ton-km") %>%
       add_comments("Efs for base and future years from MARKAL, scaled to CEDS") %>%
-      add_legacy_name("L274.nonghg_bld_tech_coeff_USA") %>%
+      add_legacy_name("L274.nonghg_bld_tech_coeff_USA", overwrite = T) %>%
       add_precursors("L254.StubTranTech_USA",
                      "gcam-usa/emissions/MARKAL_UCD_class",
                      "gcam-usa/emissions/MARKAL_UCD_LDV_fuel",
@@ -469,10 +467,10 @@ module_gcamusa_L271.nonghg_trn_USA <- function(command, ...) {
       L271.nonco2_trn_tech_coeff_USA
 
     L271.nonco2_trn_emiss_control_USA_scaled %>%
-      add_title("Non-CO2 new transportation linear control final emissions coefficients by state / supplysector / tranSubsector / stub.technology / year / Non.CO2") %>%
+      add_title("Non-CO2 new transportation linear control final emissions coefficients by state / supplysector / tranSubsector / stub.technology / year / Non.CO2", overwrite = T) %>%
       add_units("Tg/million pass-km or Tg/million ton-km") %>%
       add_comments("Efs for base and future years") %>%
-      add_legacy_name("L274.nonghg_bld_tech_coeff_USA") %>%
+      add_legacy_name("L274.nonghg_bld_tech_coeff_USA", overwrite = T) %>%
       add_precursors("L254.StubTranTech_USA",
                      "gcam-usa/emissions/MARKAL_UCD_class",
                      "gcam-usa/emissions/MARKAL_UCD_LDV_fuel",
