@@ -625,3 +625,38 @@ create_datamap_from_cache <- function(gcamdata_plan, ...) {
     # convert drake names back to data system names
     mutate(output = if_else(name == "INPUT", gsub('\\.', '/', output), output))
 }
+
+screen_forbidden2 <- function(fn) {
+  forbidden <- c("[:graph:]*\\![\\w|\\s|\\(]+%in%[\\w|\\s]+\\$")
+
+  # If this is a level 1 chunk we add a couple constants
+  level1 <- regexpr("_L1[0-9]+", deparse(substitute(fn))) > 0
+  if(level1) {
+    forbidden <- c(forbidden, "MODEL_BASE_YEARS", "MODEL_FUTURE_YEARS")
+  }
+
+  code <- capture.output(fn)
+  code <- gsub("#.*$", "", code)      # remove comments
+  code <- gsub('"[^"]*"', "", code)   # remove double quoted material
+  code <- gsub("'[^']*'", "", code)   # remove single quoted material
+
+  # For some reason the R package check process seems to concatenate certain lines;
+  # in particular a mutate() followed by a replace_na() ends up on a single line, which
+  # can cause false positives below if it's then followed by another mutate(). This
+  # does not occur during 'normal' testthat testing.
+  # Anyway, ensure all %>% operations are on separate lines
+  code <- unlist(vapply(code, strsplit, split = "%>%", fixed = TRUE, FUN.VALUE = list(1)))
+
+  rslt <- character()
+
+
+  # General screen-forbidden search, single lines only
+  for(f in unique(forbidden)) {
+    bad <- stringr::str_which(code, f)
+    if(length(bad) > 0) {
+      rslt <- rbind(rslt,
+                    cbind(f, code[bad]))
+    }
+  }
+  rslt
+}
