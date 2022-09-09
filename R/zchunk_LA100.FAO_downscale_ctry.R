@@ -131,7 +131,7 @@ module_aglu_LA100.FAO_downscale_ctry <- function(command, ...) {
       #Step 4: If there is no column, create it.
       for (i in Yrs){
         if (!toString(i) %in% c(colnames(df))){
-          df[,toString(i)]<-NA_integer_
+          df[,toString(i)]<-NA_real_
         }
       }
 
