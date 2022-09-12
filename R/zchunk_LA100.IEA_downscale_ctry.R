@@ -116,7 +116,8 @@ module_energy_LA100.IEA_downscale_ctry <- function(command, ...) {
                                                              "Other Africa",
                                                              "Other non-OECD Americas",
                                                              "Other non-OECD Asia"))
-      IEA_ctry_single <- filter(IEA_ctry, ! IEA_ctry %in% IEA_ctry_composite$IEA_ctry)
+
+      IEA_ctry_single <- anti_join(IEA_ctry, IEA_ctry_composite, by = "IEA_ctry")
 
       # Split IEA energy balances into table of single countries and composite regions
       # (keeping only desired composite regions)

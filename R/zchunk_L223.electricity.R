@@ -262,7 +262,7 @@ module_energy_L223.electricity <- function(command, ...) {
       select(-matches(YEAR_PATTERN)) %>%
       left_join_error_no_match(select(A23.subsector_shrwt_nuc_R, iso, matches(YEAR_PATTERN)),
                                by = "iso") %>%
-      bind_rows(filter(L223.SubsectorShrwt_nuc_ctry, !iso %in% A23.subsector_shrwt_nuc_R$iso)) %>%
+      bind_rows(anti_join(L223.SubsectorShrwt_nuc_ctry, A23.subsector_shrwt_nuc_R, by = "iso")) %>%
 
       # Use GDP by country as a weighting factor in going from country-level shareweights to region-level shareweights
       gather_years %>%

@@ -361,7 +361,7 @@ module_energy_LA122.gasproc_refining <- function(command, ...) {
         left_join(select(L121.in_EJ_R_unoil_F_Yh, GCAM_region_ID, fuel, year, in_value = value), by = c("GCAM_region_ID", "fuel", "year")) %>%
         mutate(value = if_else(is.na(in_value), value , value - in_value)) %>%
         select(-in_value) %>%
-      bind_rows(filter(L122.out_EJ_R_gasproc_gas_Yh,!(GCAM_region_ID %in% L121.in_EJ_R_unoil_F_Yh$GCAM_region_ID))) ->
+        bind_rows(anti_join(L122.out_EJ_R_gasproc_gas_Yh, L121.in_EJ_R_unoil_F_Yh, by = "GCAM_region_ID")) ->
         L122.out_EJ_R_gasproc_gas_Yh
     }
 

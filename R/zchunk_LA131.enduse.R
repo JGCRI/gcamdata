@@ -70,8 +70,7 @@ module_energy_LA131.enduse <- function(command, ...) {
 
     L122.in_EJ_R_refining_F_Yh %>%
       filter(fuel == "electricity", year %in% HISTORICAL_YEARS) %>%
-      bind_rows(Unoil_elect) %>%
-      bind_rows(L121.in_EJ_R_EFW_elec_Yh) %>%
+      bind_rows(Unoil_elect, L121.in_EJ_R_EFW_elec_Yh) %>%
       group_by(GCAM_region_ID, fuel, year) %>%
       summarise(value = sum(value)) ->
       Unoil_Refin_EFW_elect
@@ -85,8 +84,9 @@ module_energy_LA131.enduse <- function(command, ...) {
 
     # Subset the end use sectors and aggregate by fuel
     L1012.en_bal_EJ_R_Si_Fi_Yh %>%
-      filter(sector %in% enduse_sector_aggregation$sector, year %in% HISTORICAL_YEARS) %>%
-      filter(fuel == "electricity") %>%
+      filter(sector %in% enduse_sector_aggregation$sector,
+             year %in% HISTORICAL_YEARS,
+             fuel == "electricity") %>%
       group_by(GCAM_region_ID, fuel, year) %>%
       summarise(value = sum(value)) ->
       Enduse_elect_unscaled
@@ -119,13 +119,15 @@ module_energy_LA131.enduse <- function(command, ...) {
     # Total delivered heat = output of district heat sector + secondary (heat) output of electric sector
     L124.out_EJ_R_heatfromelec_F_Yh %>%
       group_by(GCAM_region_ID, year) %>%
-      summarise(value = sum(value)) ->
+      summarise(value = sum(value)) %>%
+      ungroup ->
       Heatfromelect
 
     L124.out_EJ_R_heat_F_Yh %>%
       filter(year %in% HISTORICAL_YEARS) %>%
       group_by(GCAM_region_ID, year) %>%
       summarise(value = sum(value)) %>%
+      ungroup %>%
       left_join_error_no_match(Heatfromelect, by = c("GCAM_region_ID", "year")) %>%
       mutate(value = value.x + value.y) %>%
       select(-value.x, -value.y) ->
@@ -182,8 +184,8 @@ module_energy_LA131.enduse <- function(command, ...) {
       Enduse_total
 
     L131.in_EJ_R_Senduse_F_Yh %>%
-      filter(fuel == "heat") %>%
-      filter(GCAM_region_ID %in% GCAM_region_ID_no_heat) %>%
+      filter(fuel == "heat",
+             GCAM_region_ID %in% GCAM_region_ID_no_heat) %>%
       left_join_error_no_match(Enduse_total, by = c("GCAM_region_ID", "fuel", "year")) %>%
       mutate(value = value.x / value.y) %>%
       select(-value.x, -value.y) ->

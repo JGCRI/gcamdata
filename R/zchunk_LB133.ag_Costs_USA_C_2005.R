@@ -284,7 +284,7 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
       # use the FAO PRODSTAT data to join GCAM_commodity information:
       left_join_error_no_match(select(FAO_ag_items_PRODSTAT, GTAP_crop, GCAM_commodity), by = c("GTAP_crop")) %>%
       # filter to just the commodities we DON'T have costs for above
-      filter(!(GCAM_commodity %in% L133.ag_Cost_75USDm2_C$GCAM_commodity)) ->
+      anti_join(L133.ag_Cost_75USDm2_C, by = "GCAM_commodity") ->
       L133.LDS_usa_oth
 
     # Use the LDS 'other' crop table, L133.LDS_usa_oth, to calculate missing costs.

@@ -145,7 +145,7 @@ module_emissions_L102.nonco2_ceds_R_S_Y <- function(command, ...) {
 
 
         CEDS_allgas %>%
-          filter(!(CEDS_allgas$sector %in% unique(L102.CMIP_unmgd_emissions$sector))) %>%
+          anti_join(L102.CMIP_unmgd_emissions, by = "sector") %>%
           bind_rows(L102.CMIP_unmgd_emissions) %>%
           left_join(CEDS_sector_map, by = c("sector" = "CEDS_sector")) %>%
           left_join(CEDS_fuel_map, by = c("fuel" = "CEDS_fuel")) %>%

@@ -453,7 +453,7 @@ module_gcamusa_LA144.Residential <- function(command, ...) {
     appl_other_services <- EIA_AEO_services %>%
       filter(EIA_sector == "Residential") %>%
       select(service) %>%
-      filter(!(service %in% unique(RECS_variables$service)))
+      anti_join(RECS_variables, by = "service")
 
     # Aggregate appliances and other by service and fuel
     L144.EIA_AEO_appl_other_F <- L144.EIA_AEO_Tab4 %>%

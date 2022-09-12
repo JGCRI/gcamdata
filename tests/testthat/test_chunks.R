@@ -48,7 +48,7 @@ test_that("doesn't use forbidden calls", {
   for(ch in unique(chunklist$name)) {
     fn <- getFromNamespace(ch, ns = "gcamdata")
     chk <- screen_forbidden(fn)
-    if(length(chk > 0)) {
+    if(length(chk) > 0) {
         infostr <- paste("Forbidden functions called in ", ch, ":  \n",
                          paste("[", chk[,1], "]", chk[,2], collapse = "\n"))
     }
