@@ -196,7 +196,7 @@ generate_level2_data_names <- function() {
   level2_data_names[["GlobalIntTechShutdown"]] <- c("sector.name", "subsector.name", "intermittent.technology", "year", "lifetime", "shutdown.rate")
   level2_data_names[["GlobalIntTechProfitShutdown"]] <- c("sector.name", "subsector.name", "intermittent.technology", "year", "median.shutdown.point", "steepness")
   level2_data_names[["GlobalIntTechSCurve"]] <- c("sector.name", "subsector.name", "intermittent.technology", "year", "lifetime", "steepness", "half.life")
-  level2_data_names[["GlobalIntTechBackup"]] <- c("sector.name", "subsector.name", "technology", "year", "electric.sector.name", "trial.market.name", "backup.capital.cost", "backup.capacity.factor", "capacity.limit", "minicam.energy.input", "minicam.non.energy.input", "flag")
+  level2_data_names[["GlobalIntTechBackup"]] <- c("sector.name", "subsector.name", "intermittent.technology", "year", "electric.sector.name", "trial.market.name", "backup.capital.cost", "backup.capacity.factor", "capacity.limit", "minicam.energy.input", "minicam.non.energy.input", "flag")
   level2_data_names[["GlobalTranTechShrwt"]] <- c("sector.name", "subsector.name", "tranTechnology", "year", "share.weight")
   level2_data_names[["GlobalTranTechInterp"]] <- c("sector.name", "subsector.name", "tranTechnology", "apply.to", "from.year", "to.year", "interpolation.function")
   level2_data_names[["GlobalTranTechSCurve"]] <- c("sector.name", "subsector.name", "tranTechnology", "year", "lifetime", "steepness", "half.life")
@@ -208,7 +208,7 @@ generate_level2_data_names <- function() {
   level2_data_names[["PrimaryConsKeyword"]] <- c(level2_data_names[["GlobalTechYr"]], "primary.consumption")
   level2_data_names[["PrimaryConsKeywordff"]] <- c("region", "supplysector", "subsector", "technology", "year", "primary.consumption")
   level2_data_names[["PrimaryRenewKeyword"]] <- c(level2_data_names[["GlobalTechYr"]], "primary.renewable")
-  level2_data_names[["PrimaryRenewKeywordInt"]] <- c(level2_data_names[["GlobalTechYr"]], "primary.renewable")
+  level2_data_names[["PrimaryRenewKeywordInt"]] <- c("sector.name", "subsector.name", "intermittent.technology", "year", "primary.renewable")
   level2_data_names[["GlobalTechCTaxInput"]] <- c(level2_data_names[["GlobalTechYr"]], "ctax.input", "fuel.C.coef")
   level2_data_names[["DeleteGlobalTechInput"]] <- level2_data_names[["GlobalTechInput"]]
   level2_data_names[["GlobalIntTechCost"]] <- c("sector.name", "subsector.name", "intermittent.technology", "year", "minicam.non.energy.input", "input.cost")
