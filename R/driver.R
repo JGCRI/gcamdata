@@ -933,6 +933,8 @@ driver_targets <- function(
   write_xml = !return_data_map_only,
   xmldir = XML_DIR,
   quiet = FALSE,
+  user_modifications = NULL,
+  xml_suffix = NULL,
   ...){
 
 
@@ -973,6 +975,15 @@ driver_targets <- function(
   assert_that(is.logical(write_xml))
   assert_that(is.logical(quiet))
 
+  # we need to use package data to set this in effect in such a way that drake does not notice
+  # and think all XML files need to be rebuilt with the suffix
+  if (!is.null(xml_suffix)){
+    xml.XML_SUFFIX <<- xml_suffix
+  }
+  if(!is.null(user_modifications) && is.null(xml_suffix)) {
+    warning("It is highly recommended to utilize `xml_suffix` to distinguish XML inputs derived from `user_modifications`")
+  }
+
   if(return_plan_only) {
     assert_that(!return_data_map_only)
   }
@@ -985,6 +996,60 @@ driver_targets <- function(
   if(!quiet) message("Found ", nrow(chunkinputs), " chunk data requirements")
   chunkoutputs <- chunk_outputs(chunklist$name)
   if(!quiet) message("Found ", nrow(chunkoutputs), " chunk data products")
+
+  # check if any user chunks are set in which case we need to adjust the
+  # chunklist/chunkinputs/chunkoutputs to shim the user chunk in place
+  if(!is.null(user_modifications)) {
+    # a user modification chunk uses a special command: driver.DECLARE_MODIFY
+    # to indicate which ds "objects" it wants to modify
+    # that chunk will then require those objects as inputs AND produce those
+    # objects as output
+    # these chunks will also be allowed to specify regular driver.DECLARE_INPUTS
+    # which will be passed as input but NOT output back out
+
+    # in order to shim the user modification in we adjust all chunk_inputs
+    # for any object to be modified to input the object with the constant
+    # data.USER_MOD_POSTFIX appended to the end instead
+    # and the user chunk will input the original object and output the appended
+    # data name
+
+    # first get a list of all objects that are to be modified
+    lapply(user_modifications, chunk_inputs, driver.DECLARE_MODIFY) %>%
+      bind_rows() %>%
+      # generate the mod data name by appending data.USER_MOD_POSTFIX
+      mutate(data_mod = paste0(input, data.USER_MOD_POSTFIX)) ->
+      modify_table
+
+    # adjust chunkinputs so chunks that require as input any object that is
+    # to be modified will now input the data.USER_MOD_POSTFIX appended name
+    chunkinputs %>%
+      left_join(select(modify_table, input, data_mod), by = c("input")) %>%
+      mutate(input = if_else(is.na(data_mod), input, data_mod),
+             from_file = if_else(is.na(data_mod), from_file, FALSE)) %>%
+      select(-data_mod) %>%
+      # add on the input requirements for the user mod chunk which are the
+      # original object names as well as any other driver.DECLARE_INPUTS they
+      # require
+      bind_rows(select(modify_table, -data_mod),
+                lapply(user_modifications, chunk_inputs, driver.DECLARE_INPUTS)) ->
+      chunkinputs
+
+    # add in the outputs from the user mod chunks which are the modify object names
+    # appended with data.USER_MOD_POSTFIX
+    lapply(user_modifications, chunk_outputs, driver.DECLARE_MODIFY) %>%
+      bind_rows() %>%
+      mutate(output = paste0(output, data.USER_MOD_POSTFIX)) %>%
+      bind_rows(chunkoutputs) ->
+      chunkoutputs
+
+    # now we just need to add the user mod chunks to the chunklist
+    bind_rows(chunklist,
+              tibble(name = user_modifications,
+                     module = "user",
+                     chunk = user_modifications,
+                     disabled = FALSE)) ->
+      chunklist
+  }
 
   # Keep track of chunk inputs for later pruning
   chunkinputs %>%
@@ -1098,7 +1163,9 @@ driver_targets <- function(
       # Also note we explicitly list just the inputs required for the chunk which is
       # different than in driver where we give `all_data`, again this is for drake so it
       # can match up target names to commands and develop the dependencies between them.
-      command <- c(command, paste0("gcamdata:::", chunk, "('", driver.MAKE, "', c(", paste(make.names(input_names), collapse = ","), "))"))
+      nsprefix <- if_else(chunk %in% user_modifications, "", "gcamdata:::")
+      command <- c(command, paste0(nsprefix, chunk, "('", driver.MAKE, "', c(", paste(make.names(input_names), collapse = ","), "))"))
+      # command <- c(command, paste0("gcamdata:::", chunk, "('", driver.MAKE, "', c(", paste(make.names(input_names), collapse = ","), "))"))
 
       # A chunk should in principle generate many output targets however drake assumes
       # one target per command.  We get around this by unpacking the list of outputs
@@ -1109,8 +1176,8 @@ driver_targets <- function(
       # outputN <- chunk["outputN"]
       #```
       # The downside is data is likely to be duplicated in the cache.
-      target <- c(target, po)
-      # target <- c(target, paste0("all_data[[", po, "]]"))
+      target <- c(target, make.names(po))
+      # target <- c(target, po)
       command <- c(command, paste(chunk, '["', po, '"]', sep = ""))
 
       # We need to seperate out XML outputs so that we can add commands
@@ -1119,14 +1186,16 @@ driver_targets <- function(
       if(write_xml && length(po_xml) > 0) {
         # Add the xmldir to the XML output name and include those in the
         # target list.
-        target <- c(target, make.names(paste0(xmldir, po_xml)))
+        # target <- c(target, make.names(paste0(xmldir, po_xml)))
+        po_xml_path = file.path(xmldir, po_xml) %>% gsub("/{2,}", "/", .)# Don't want multiple consecutive slashes, as drake views that as separate object
+        target <- c(target, make.names(po_xml_path))
         # Generate the command to run the XML conversion:
         # `xml/out1.xml <- run_xml_conversion(set_xml_file_helper(out1.xml, file_out("xml/out1.xml")))`
         # Note, the `file_out()` wrapper notifies drake the XML file is an output
         # of this plan and allows it to know to re-produce missing/altered XML files
-        command <- c(command, paste0("gcamdata:::run_xml_conversion(gcamdata:::set_xml_file_helper(", po_xml, "[[1]], '", paste0(xmldir, po_xml), "'))"))
+        # command <- c(command, paste0("gcamdata:::run_xml_conversion(gcamdata:::set_xml_file_helper(", po_xml, "[[1]], '", paste0(xmldir, po_xml), "'))"))
 
-        # command <- c(command, paste0("gcamdata:::run_xml_conversion(gcamdata:::set_xml_file_helper(", po_xml, "[[1]], file_out('", paste0(xmldir, po_xml), "')))"))
+        command <- c(command, paste0("run_xml_conversion(set_xml_file_helper(", po_xml, "[[1]],'", po_xml_path, "'))"))
       }
     }
 
@@ -1138,15 +1207,22 @@ driver_targets <- function(
   # as a "plan" tibble which can be passed to targets::make.
   # We may have duplicate targets at this point from loading files
   # which drake will not allow.  We can "summarize" with unique
-  # to collapase those while still maintaining some error checking
+  # to collapse those while still maintaining some error checking
   # in case we somehow specified different commands for them.
   path <- targets::tar_config_get("script")
-  #write("library(targets)",file = path)
-  #write("devtools::load_all()",
-  # write("tar_option_set(packages = c('gcamdata'), import = c('gcamdata'))",
-  #       file = path, append=TRUE)
   if(!quiet) cat("Starting _targets.R\n")
   targets_list <- "list(\n"
+  # Add constants
+  line <- paste0("targets::tar_target( constants, 'R/constants.R', format = 'file'),\n")
+  targets_list <- paste0(targets_list, line)
+  # Add prebuilts
+  for (nm in names(PREBUILT_DATA)){
+    line <- paste0("targets::tar_target(",  paste0("PREBUILT_", nm, ", "),
+                   paste0("gcamdata::PREBUILT_DATA[['", nm, "']]),\n"))
+    targets_list <- paste0(targets_list, line)
+  }
+
+  # Add all other targets
   for (i in 1:length(target)){
     line <- paste0("targets::tar_target(", target[i], ", ", command[i], ")")
     if (i < length(target)){
@@ -1162,11 +1238,32 @@ driver_targets <- function(
   # Have targets figure out what needs to be done and do it!
   # Any additional arguments given are passed directly on to make
   if(!return_plan_only){
+    # Clean if constants is out of date
+    if (length( targets::tar_outdated(names = "constants", callr_function = NULL, envir = globalenv())) > 0){
+      if(!quiet) message("NOTE: constants.R has been changed, all cached data will be removed and the data system will be re-run")
+      if(!quiet) message("Ignore if first time running driver_targets().")
+      targets::tar_delete(everything())
+      # Make here in case there is an error making gcamdata_plan, in which case, constants might not
+      # have been made yet, and then we'd clear the cache unnecessarily
+      targets::tar_make(names = "constants", callr_function = NULL, envir = globalenv(), reporter = "verbose_positives")
+    } else {
+      prebuilt_to_clear <- targets::tar_outdated(paste0("PREBUILT_", names(PREBUILT_DATA)), callr_function = NULL, envir = globalenv())
+      if (length(prebuilt_to_clear) > 0){
+      # Clean specific chunks if the cache exists and prebuilt_data is out of date
+      if(!quiet) message("NOTE: PREBUILT_DATA has been changed, the relevant cached data will be removed.")
+      if(!quiet) message("Ignore if first time running driver_targets().")
+        for (nm in prebuilt_to_clear){
+        nm_fix <- gsub("PREBUILT_", "", nm)
+        chunk_to_clear <- command[which(target == nm_fix)]
+        chunk_to_clear <- gsub('\\[.*$', '', chunk_to_clear)
+        if (length(chunk_to_clear) == 1){
+          targets::tar_delete(names = chunk_to_clear)
+          }
+        }
+      }
+    }
     targets::tar_make(callr_function = NULL, envir = globalenv(), reporter = "verbose_positives")
-    # targets::tar_make(..., envir = baseenv())
-
   }
-
   if(return_data_map_only) {
     # user requested data map only so create it from the cache
     x <- create_datamap_from_cache(gcamdata_plan, ...)
