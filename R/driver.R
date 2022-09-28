@@ -938,19 +938,12 @@ driver_targets <- function(
   ...){
 
 
-  # We merely suggest drake as we can still run the data system via driver
+  # We merely suggest targets as we can still run the data system via driver
   # with out it.  Ensure we have it before proceeding.
   if(!requireNamespace('targets')) {
     stop("The `targets` package is required to run `driver_targets()`.  Either install it or fall back to `driver()`")
   }
 
-  # # If there isn't a targets script, make one
-  # if(!file.exists(tar_config_get("script"))){
-  #   targets::tar_script()
-  # }
-  # # Open it for editing
-  # targets::tar_edit()
-  tar_list <- list()
   # If users ask to stop after a chunk, but also specify they want particular inputs,
   # or if they ask to stop before a chunk, while asking for outputs, that's confusing.
   if(missing(return_outputs_of) && !missing(return_inputs_of) && !missing(stop_after)) {
@@ -975,7 +968,7 @@ driver_targets <- function(
   assert_that(is.logical(write_xml))
   assert_that(is.logical(quiet))
 
-  # we need to use package data to set this in effect in such a way that drake does not notice
+  # we need to use package data to set this in effect in such a way that targets does not notice
   # and think all XML files need to be rebuilt with the suffix
   if (!is.null(xml_suffix)){
     xml.XML_SUFFIX <<- xml_suffix
@@ -1137,12 +1130,11 @@ driver_targets <- function(
       }
       else {
         # We have a file to load so generate the load_csv_files command:
-        # `target <- load_csv_files( chunk, optional, quiet = TRUE, dummy = file_in(fqfn) )`
-        # Note the dummy = file_in is a work around so that we can signal to drake that
-        # target is actually coming from a file in the file system since the chunk names
-        # as we use them in gcamdata would not themselves be sufficient to tell drake where
-        # to find it.
-        command <- c(command, paste0("gcamdata:::load_csv_files('", chunk, "', ", optional, ", quiet = TRUE, dummy = file_in('", fqfn, "'))"))
+        command <- c(command, paste0("gcamdata:::load_csv_files(", paste0("FILE_", make.names(chunk)), ", ", optional, ", quiet = TRUE)"))
+        # Also need to add the file to the targets list so that it gets tracked
+        target <- c(target,paste0("FILE_", make.names(chunk)))
+        command <- c(command, fqfn)
+
       }
     }
     else {
@@ -1165,7 +1157,6 @@ driver_targets <- function(
       # can match up target names to commands and develop the dependencies between them.
       nsprefix <- if_else(chunk %in% user_modifications, "", "gcamdata:::")
       command <- c(command, paste0(nsprefix, chunk, "('", driver.MAKE, "', c(", paste(make.names(input_names), collapse = ","), "))"))
-      # command <- c(command, paste0("gcamdata:::", chunk, "('", driver.MAKE, "', c(", paste(make.names(input_names), collapse = ","), "))"))
 
       # A chunk should in principle generate many output targets however drake assumes
       # one target per command.  We get around this by unpacking the list of outputs
@@ -1177,7 +1168,6 @@ driver_targets <- function(
       #```
       # The downside is data is likely to be duplicated in the cache.
       target <- c(target, make.names(po))
-      # target <- c(target, po)
       command <- c(command, paste(chunk, '["', po, '"]', sep = ""))
 
       # We need to seperate out XML outputs so that we can add commands
@@ -1186,15 +1176,12 @@ driver_targets <- function(
       if(write_xml && length(po_xml) > 0) {
         # Add the xmldir to the XML output name and include those in the
         # target list.
-        # target <- c(target, make.names(paste0(xmldir, po_xml)))
         po_xml_path = file.path(xmldir, po_xml) %>% gsub("/{2,}", "/", .)# Don't want multiple consecutive slashes, as drake views that as separate object
         target <- c(target, make.names(po_xml_path))
         # Generate the command to run the XML conversion:
         # `xml/out1.xml <- run_xml_conversion(set_xml_file_helper(out1.xml, file_out("xml/out1.xml")))`
         # Note, the `file_out()` wrapper notifies drake the XML file is an output
         # of this plan and allows it to know to re-produce missing/altered XML files
-        # command <- c(command, paste0("gcamdata:::run_xml_conversion(gcamdata:::set_xml_file_helper(", po_xml, "[[1]], '", paste0(xmldir, po_xml), "'))"))
-
         command <- c(command, paste0("run_xml_conversion(set_xml_file_helper(", po_xml, "[[1]],'", po_xml_path, "'))"))
       }
     }
@@ -1224,7 +1211,11 @@ driver_targets <- function(
 
   # Add all other targets
   for (i in 1:length(target)){
-    line <- paste0("targets::tar_target(", target[i], ", ", command[i], ")")
+    if (grepl("^FILE_", target[i])){
+      line <- paste0("targets::tar_target(", target[i], ", '", command[i], "', format = 'file')")
+    } else {
+      line <- paste0("targets::tar_target(", target[i], ", ", command[i], ")")
+    }
     if (i < length(target)){
       line <- paste0(line, ",\n")
     } else {

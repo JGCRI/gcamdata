@@ -58,6 +58,8 @@ load_csv_files <- function(filenames, optionals, quiet = FALSE, dummy = NULL, ..
   for(fnum in seq_along(filenames)) {
     f <- filenames[fnum]
     if(!quiet) cat("Loading", f, "...\n")
+    f <- gsub("inst/extdata/", "", f)
+    f <- gsub(".csv", "", f)
     fqfn <- find_csv_file(f, optionals[fnum], quiet = quiet)
 
     if(is.null(fqfn)) {
