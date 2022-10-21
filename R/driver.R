@@ -911,7 +911,7 @@ warn_datachunk_bypass <- function() {
 #' @param return_data_names Return these data objects (character). By default this is the union of \code{return_inputs_of} and \code{return_outputs_of}
 #' @param return_data_map_only Return only the precursor information? (logical) This overrides
 #' the other \code{return_*} parameters above
-#' @param return_plan_only Return only the drake plan (logical)
+#' @param return_plan_only Return only the targets plan (logical)
 #' @param write_xml Write XML Batch chunk outputs to disk?
 #' @param xmldir Location to write output XML (ignored if \code{write_outputs} is \code{FALSE})
 #' @param quiet Suppress output?
@@ -1149,16 +1149,16 @@ driver_targets <- function(
       target <- c(target, chunk)
       # Generate the command to run the chunk as:
       # `target <- gcamdata:::chunk( "MAKE", c(input1, input2, inputN) )`
-      # Note we bypass run_chunk here otherwise drake isn't able to associate
+      # Note we bypass run_chunk here otherwise targets isn't able to associate
       # the source code for the chunk with the command and the "make" functionality
       # would break.
       # Also note we explicitly list just the inputs required for the chunk which is
-      # different than in driver where we give `all_data`, again this is for drake so it
+      # different than in driver where we give `all_data`, again this is for targets so it
       # can match up target names to commands and develop the dependencies between them.
       nsprefix <- if_else(chunk %in% user_modifications, "", "gcamdata:::")
       command <- c(command, paste0(nsprefix, chunk, "('", driver.MAKE, "', c(", paste(make.names(input_names), collapse = ","), "))"))
 
-      # A chunk should in principle generate many output targets however drake assumes
+      # A chunk should in principle generate many output targets however the package targets assumes
       # one target per command.  We get around this by unpacking the list of outputs
       # from a chunk as an explicit target+command:
       # ```
@@ -1176,12 +1176,10 @@ driver_targets <- function(
       if(write_xml && length(po_xml) > 0) {
         # Add the xmldir to the XML output name and include those in the
         # target list.
-        po_xml_path = file.path(xmldir, po_xml) %>% gsub("/{2,}", "/", .)# Don't want multiple consecutive slashes, as drake views that as separate object
+        po_xml_path = file.path(xmldir, po_xml) %>% gsub("/{2,}", "/", .)# Don't want multiple consecutive slashes, as targets views that as separate object
         target <- c(target, make.names(po_xml_path))
         # Generate the command to run the XML conversion:
         # `xml/out1.xml <- run_xml_conversion(set_xml_file_helper(out1.xml, file_out("xml/out1.xml")))`
-        # Note, the `file_out()` wrapper notifies drake the XML file is an output
-        # of this plan and allows it to know to re-produce missing/altered XML files
         command <- c(command, paste0("run_xml_conversion(set_xml_file_helper(", po_xml, "[[1]],'", po_xml_path, "'))"))
       }
     }
@@ -1193,12 +1191,13 @@ driver_targets <- function(
   # At this point we can pull the target and command list together
   # as a "plan" tibble which can be passed to targets::make.
   # We may have duplicate targets at this point from loading files
-  # which drake will not allow.  We can "summarize" with unique
+  # which package:targets will not allow.  We can "summarize" with unique
   # to collapse those while still maintaining some error checking
   # in case we somehow specified different commands for them.
   path <- targets::tar_config_get("script")
   if(!quiet) cat("Starting _targets.R\n")
-  targets_list <- "list(\n"
+  targets_list <- "targets::tar_option_set(imports = c('gcamdata'))\n"
+  targets_list <- paste0(targets_list, "list(\n")
   # Add constants
   line <- paste0("targets::tar_target( constants, 'R/constants.R', format = 'file'),\n")
   targets_list <- paste0(targets_list, line)
@@ -1229,26 +1228,29 @@ driver_targets <- function(
   # Have targets figure out what needs to be done and do it!
   # Any additional arguments given are passed directly on to make
   if(!return_plan_only){
-    # Clean if constants is out of date
-    if (length( targets::tar_outdated(names = "constants", callr_function = NULL, envir = globalenv())) > 0){
-      if(!quiet) message("NOTE: constants.R has been changed, all cached data will be removed and the data system will be re-run")
-      if(!quiet) message("Ignore if first time running driver_targets().")
-      targets::tar_delete(everything())
-      # Make here in case there is an error making gcamdata_plan, in which case, constants might not
-      # have been made yet, and then we'd clear the cache unnecessarily
-      targets::tar_make(names = "constants", callr_function = NULL, envir = globalenv(), reporter = "verbose_positives")
-    } else {
-      prebuilt_to_clear <- targets::tar_outdated(paste0("PREBUILT_", names(PREBUILT_DATA)), callr_function = NULL, envir = globalenv())
-      if (length(prebuilt_to_clear) > 0){
-      # Clean specific chunks if the cache exists and prebuilt_data is out of date
-      if(!quiet) message("NOTE: PREBUILT_DATA has been changed, the relevant cached data will be removed.")
-      if(!quiet) message("Ignore if first time running driver_targets().")
-        for (nm in prebuilt_to_clear){
-        nm_fix <- gsub("PREBUILT_", "", nm)
-        chunk_to_clear <- command[which(target == nm_fix)]
-        chunk_to_clear <- gsub('\\[.*$', '', chunk_to_clear)
-        if (length(chunk_to_clear) == 1){
-          targets::tar_delete(names = chunk_to_clear)
+    # First check if store exists. If not, skip to make the plan
+    if(file.exists(targets::tar_config_get("store"))){
+      # Clean if constants is out of date
+      if (length( targets::tar_outdated(names = "constants", callr_function = NULL, envir = globalenv())) > 0){
+        if(!quiet) message("NOTE: constants.R has been changed, all cached data will be removed and the data system will be re-run")
+        if(!quiet) message("Ignore if first time running driver_targets().")
+        targets::tar_delete(everything())
+        # Make here in case there is an error making gcamdata_plan, in which case, constants might not
+        # have been made yet, and then we'd clear the cache unnecessarily
+        targets::tar_make(names = "constants", callr_function = NULL, envir = globalenv(), reporter = "verbose_positives")
+      } else {
+        prebuilt_to_clear <- targets::tar_outdated(paste0("PREBUILT_", names(PREBUILT_DATA)), callr_function = NULL, envir = globalenv())
+        if (length(prebuilt_to_clear) > 0){
+        # Clean specific chunks if the cache exists and prebuilt_data is out of date
+        if(!quiet) message("NOTE: PREBUILT_DATA has been changed, the relevant cached data will be removed.")
+        if(!quiet) message("Ignore if first time running driver_targets().")
+          for (nm in prebuilt_to_clear){
+          nm_fix <- gsub("PREBUILT_", "", nm)
+          chunk_to_clear <- command[which(target == nm_fix)]
+          chunk_to_clear <- gsub('\\[.*$', '', chunk_to_clear)
+          if (length(chunk_to_clear) == 1){
+            targets::tar_delete(names = chunk_to_clear)
+            }
           }
         }
       }
