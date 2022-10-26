@@ -46,3 +46,13 @@ for (i in 1:3){
 }
 
 
+### Visualization ---- Still way too messy----------
+drake::clean(list="modify_A44.share_serv_fuel")
+SEED_NUM <- 1
+gcamdata_plan <- driver_drake(user_modifications = c("modify_A44.share_serv_fuel"),
+                              xml_suffix = paste0("__", i),
+                              return_plan_only = T)
+outdated_files <- outdated(gcamdata_plan)
+outdated_plan <- gcamdata_plan %>%
+  filter(target %in% outdated_files)
+vis_drake_graph(outdated_plan, targets_only = TRUE, show_output_files = FALSE)
