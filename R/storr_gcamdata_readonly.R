@@ -22,6 +22,8 @@ gcamdata_R6_driver_class <- R6::R6Class(
   public = list(
     read_driver = NULL,
     write_driver = NULL,
+    hash_algorithm = NULL,
+    path = NULL,
     traits = list(accept = "object"),
 
     initialize = function(read_driver, write_driver) {
@@ -43,10 +45,12 @@ gcamdata_R6_driver_class <- R6::R6Class(
       }
       self$read_driver <- read_driver
       self$write_driver <- write_driver
+      self$hash_algorithm <- read_driver$hash_algorithm
+      self$path <- read_driver$path
     },
 
     type = function() {
-      "environment"
+      "gcam_read_write"
     },
 
     destroy = function() {
@@ -57,7 +61,7 @@ gcamdata_R6_driver_class <- R6::R6Class(
     get_hash = function(key, namespace) {
       # Get from write_driver if available (this will be more recent)
       # Otherwise get from read_driver
-      if (key %in% self$write_driver$list()){
+      if (self$write_driver$exists_hash(key, namespace)) {
         self$write_driver$get_hash(key, namespace)
       } else {
         self$read_driver$get_hash(key, namespace)
@@ -66,52 +70,44 @@ gcamdata_R6_driver_class <- R6::R6Class(
 
     set_hash = function(key, namespace, hash) {
       # Only ever set to write_driver
-      self$write_driver$driver$set_hash(key, namespace, hash)
+      self$write_driver$set_hash(key, namespace, hash)
     },
 
     get_object = function(hash) {
       # Get from write_driver if available (this will be more recent)
       # Otherwise get from read_driver
-      if (hash %in% self$write_driver$list_hashes()){
-        self$write_driver$driver$get_object(hash)
+      if (self$write_driver$exists_object(hash)) {
+        self$write_driver$get_object(hash)
       } else {
-        self$read_driver$driver$get_object(hash)
+        self$read_driver$get_object(hash)
         }
       },
 
     set_object = function(hash, value) {
       # Only ever set to write_driver
-      self$write_driver$driver$set_object(hash, value)
+      self$write_driver$set_object(hash, value)
     },
 
     exists_hash = function(key, namespace) {
       # Get from write_driver if available (this will be more recent)
       # Otherwise get from read_driver
-      if (key %in% self$write_driver$list()){
-        self$write_driver$driver$exists_hash(key, namespace)
-      } else {
-        self$read_driver$driver$exists_hash(key, namespace)
-      }
+      self$write_driver$exists_hash(key, namespace) || self$read_driver$exists_hash(key, namespace)
     },
 
     exists_object = function(hash) {
       # Get from write_driver if available (this will be more recent)
       # Otherwise get from read_driver
-      if (hash %in% self$write_driver$list_hashes()){
-        self$write_driver$exists_object(hash)
-      } else {
-        self$read_driver$exists_object(hash)
-      }
+      self$write_driver$exists_object(hash) || self$read_driver$exists_object(hash)
     },
 
     del_hash = function(key, namespace) {
       # Only ever delete to write_driver
-      self$write_driver$driver$del_hash(key, namespace)
+      self$write_driver$del_hash(key, namespace)
     },
 
     del_object = function(hash) {
       # Only ever delete to write_driver
-      self$write_driver$driver$del_object(hash)
+      self$write_driver$del_object(hash)
     },
 
     list_hashes = function() {
@@ -121,7 +117,7 @@ gcamdata_R6_driver_class <- R6::R6Class(
 
     list_keys = function(namespace) {
       # combine both lists
-      unique(c(self$write_driver$driver$list_keys(namespace), self$read_driver$driver$list_keys(namespace)))
+      unique(c(self$write_driver$list_keys(namespace), self$read_driver$list_keys(namespace)))
     },
 
     list_namespaces = function() {
