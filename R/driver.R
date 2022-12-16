@@ -641,6 +641,10 @@ driver_drake <- function(
        unique()
 
      chunks_to_run <- dstrace_chunks(run_chunks, verts)
+     # Need to explicitly remove any stop_before chunks
+     if (!missing(stop_before)){
+       chunks_to_run <- chunks_to_run[chunks_to_run != stop_before]
+     }
    }
    else {
     chunks_to_run <- c(unfound_inputs$input, chunklist$name)
