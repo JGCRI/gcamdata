@@ -4,10 +4,21 @@
 #' read from a cache without writing anything new. Instead it writes to
 #' a temporary environment that is not saved.
 #'
-#' FINISH DOCUMENTATION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-#' For example, we can use the drake cache as a the read-only driver and then when running
-#' driver_drake(cache = storr_gcamdata_readonly)
-#' #' FINISH DOCUMENTATION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#' Example implementation to write multiple versions of an xml modified by a user-modification function:
+#' # Set up readonly driver
+#' read_driver <- driver_rds(".drake/")
+#' write_driver <- driver_environment(hash_algorithm = read_driver$hash_algorithm)
+#' my_read_write_cache <- storr_gcamdata_readonly(read_driver, write_driver)
+#'
+#' source("../usermod_fert.R")                                     # load in a user_mod function - see usermod_vignette.Rmd for the function code
+#'
+#' shwts <- c(0.2, 0.4, 0.6)                                       # Example shareweights to plug into usermod_fert
+#' for (i in 1:length(shwts)){
+#' drake::clean(list="usermod_fert", cache = my_read_write_cache)  # Ensures that drakes knows to run usermod_fert
+#' NEW.SHWT <- shwts\\[ i \\]                                      # Set new shareweight for this loop
+#' driver_drake(user_modifications = c("usermod_fert"),            # Run driver_drake, with a new xml_suffix for each output and
+#' xml_suffix = paste0("__", i),                                   # explicitly setting the cache with out read-only version
+#' cache = my_read_write_cache)}
 #'
 #'
 #' @param read_driver A storr::storr_rds() cache driver that is only used to read data. Typically, this will be the standard drake cache.
