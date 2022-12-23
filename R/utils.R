@@ -36,6 +36,7 @@ find_header <- function(fqfn) {
 #' @param optionals Logical vector, specifying whether corresponding file is optional
 #' @param quiet Logical - suppress messages?
 #' @param dummy Not used, here as a hack for drake
+#' @param auto_gdp_deflate Year to automatically convert price data to, or FALSE, if no automatic price conversion desired
 #' @param ... Any other parameter to pass to \code{readr::read_csv}
 #' @details The data frames read in are marked as inputs, not ones that have
 #' been computed, via \code{\link{add_comments}}. Optional files that are not found
@@ -44,7 +45,7 @@ find_header <- function(fqfn) {
 #' @importFrom magrittr "%>%"
 #' @importFrom methods is
 #' @importFrom assertthat assert_that
-load_csv_files <- function(filenames, optionals, quiet = FALSE, dummy = NULL, ...) {
+load_csv_files <- function(filenames, optionals, quiet = FALSE, dummy = NULL, auto_gdp_deflate = PRICE_YEAR, ...) {
   assert_that(is.character(filenames))
   assert_that(is.logical(optionals))
   assert_that(is.logical(quiet))
@@ -72,6 +73,18 @@ load_csv_files <- function(filenames, optionals, quiet = FALSE, dummy = NULL, ..
     header <- find_header(fqfn)
     col_types <- extract_header_info(header, label = "Column types:", fqfn, required = TRUE)
 
+    # Check if there is a price column - if so, note column numbers and switch to numeric for reading in
+    if (grepl("p", col_types)){
+      price_cols <- gregexpr("p", col_types)[[1]]
+      col_types <- gsub("p", "n", col_types)
+    } else {
+      # If no price column, throw a warning if strings like "$", "USD", "Price" are in the header
+      # Specifying no letters following usd because of common "USDA" string
+      if (any(grepl("usd(?![A-Za-z])|price|cost|gdp|\\$", header, ignore.case = TRUE, perl = TRUE))){
+        warning(paste("Possible price data in", f,"but no price column indicated"))
+      }
+    }
+
     # Attempt the file read
     # Note `options(warn = 2)` forces all warnings to errors...
     op <- options(warn = 2)
@@ -80,6 +93,24 @@ load_csv_files <- function(filenames, optionals, quiet = FALSE, dummy = NULL, ..
     # ...ensuring we trap any anomaly here
     if(is(fd, "try-error")) {
       stop("Error or warning while reading ", basename(fqfn))
+    }
+
+    # If price data present, convert here, unless auto_gdp_deflate is set to FALSE
+    if (exists("price_cols") & auto_gdp_deflate){
+      # pull out price year from PriceUnits header
+      # using required = TRUE to throw error if not found
+      # !!!!!!!!!!! EVENTUALLY ADD IN ABILITY TO HAVE MULTIPLE PRICE YEARS
+      # !!!!!!!!!!! ALSO WHAT TO DO WHEN BOTH REGULAR UNITS AND PRICE UNITS INCLUDED
+      price_units <- extract_header_info(header, label = "PriceUnits:", fqfn, required = TRUE)
+      price_year_start <- regexpr("[0-9]{4}", price_units)
+      price_year <- substr(price_units, price_year_start, price_year_start + 3)
+
+      # Apply gdp_deflator to price columns
+      fd[, price_cols] <- fd[, price_cols] * gdp_deflator(auto_gdp_deflate, price_year)
+
+      # Update metadata to indicate that gdp_deflator has been applied, with new and original units
+      header[grep("PriceUnits:", header)] <- paste("# PriceUnits:",  gsub(price_year, auto_gdp_deflate, price_units),
+                                                   "(converted from", price_units, "with gdp_deflator())")
     }
 
     # Parse the file's header and add metadata
@@ -200,7 +231,7 @@ parse_csv_header <- function(obj, filename, header, enforce_requirements = TRUE)
 
   obj %>%
     add_title(extract_header_info(header, "Title:", filename, required = enforce_requirements)) %>%
-    add_units(extract_header_info(header, "Units?:", filename, required = enforce_requirements)) %>%
+    add_units(extract_header_info(header, "PriceUnits:|Units?:", filename, required = enforce_requirements)) %>%
     add_comments(extract_header_info(header, "(Comments|Description):", filename, multiline = TRUE)) %>%
     add_reference(extract_header_info(header, "(References?|Sources?):", filename, multiline = TRUE))
 }
