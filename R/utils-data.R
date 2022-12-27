@@ -283,7 +283,12 @@ get_data <- function(all_data, name, strip_attributes = FALSE, ensure_currency_y
 
       attr(all_data[[name]], "price_units") <- price_units_cols
     }
-
+    # Once we've converted the price units, we don't want to keep passing forward the columns and units to be converted
+    # Here we change the names of the attributes so that they don't go through this loop again
+    attr(all_data[[name]], "ConvertedPriceColumns") <- attr(all_data[[name]], "PriceColumns")
+    attr(all_data[[name]], "ConvertedPriceUnits") <- attr(all_data[[name]], ATTR_PRICE_UNITS)
+    attr(all_data[[name]], "PriceColumns") <- NULL
+    attr(all_data[[name]], ATTR_PRICE_UNITS) <- NULL
 
   }
 
