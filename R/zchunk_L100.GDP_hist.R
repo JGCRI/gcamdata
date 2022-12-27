@@ -45,13 +45,13 @@ module_socioeconomics_L100.GDP_hist <- function(command, ...) {
       select(-Country) %>%
       gather_years %>%
       filter(!is.na(value), !is.na(iso)) %>%
-      mutate(value = value * CONV_BIL_MIL * gdp_deflator(1990, base_year = 2010),
+      mutate(value = value * CONV_BIL_MIL,
              year = as.integer(year)) %>%
       add_title("Historical GDP downscaled to country (iso)") %>%
-      add_comments("Units converted to constant 1990 USD") %>%
+      add_comments(paste("Units converted to constant", PRICE_YEAR, "USD")) %>%
       add_precursors("socioeconomics/USDA_GDP_MER",
                      "socioeconomics/WB_ExtraCountries_GDP_MER") %>%
-      add_units("Million 1990 USD") %>%
+      add_units(paste("Million", PRICE_YEAR, "USD")) %>%
       add_legacy_name("L100.gdp_mil90usd_ctry_Yh") ->
       L100.gdp_mil90usd_ctry_Yh
 
