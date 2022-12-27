@@ -1,10 +1,10 @@
 # File: NREL_ATB_capital.csv
 # Title: Technology overnight capital cost assumptions by year from NREL 2019 ATB
-# Units: $2015/kW for 2015-2016; $2017/kW for 2017-2050
+# PriceUnits: $2015/kW;$2015/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW;$2017/kW
 # Source: NREL 2019 Annual Technology Baseline for 2017-2050 (https://atb.nrel.gov/electricity/2019/files/2019-ATB-data.xlsm); NREL 2017 Annual Technology Baseline for 2015-2016 (https://data.nrel.gov/files/71/2017-ATB-data.xlsm)
 # Comments: tech_type corresponds to tab within the ATB workbooks; tech_detail corresponds to the more detailed technologies within those tabs.
 # Users can specify how ATB technologies are mapped to GCAM technologies in energy/mappings/atb_gcam_mapping.csv.
-# Column types: ccccnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn 
+# Column types: ccccpppppppppppppppppppppppppppppppppppp 
 # ----------
 tech_type,tech_detail,input,case,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047,2048,2049,2050
 Offshore Wind,TRG 1 - Low,capital,adv tech,3535,3269,2986,2312,2238,2166,2096,2029,1964,1901,1840,1781,1724,1669,1615,1563,1513,1464,1417,1372,1328,1285,1244,1204,1166,1128,1092,1057,1023,990,958,928,898,869,841,814

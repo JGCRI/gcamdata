@@ -2,6 +2,7 @@
 # Title: ATB to GCAM technology mapping
 # Units: unitless scaling factor
 # Source: NA
+# NoPriceTag
 # Comments: Mapping between ATB 2019 technologies and GCAM technologies.  Conversion factor of 1 indicates at 1:1 mapping between ATB & GCAM technologies.
 # Some GCAM technologies do not correspond directly to technologies in the ATB data set and are inferred in some way - as described below:
 # For technologies which are not included in the ATB database; we calculate the cost ratio (from the previous GCAM cost assumptions) relative to a technology which is included in the ATB database and apply that ratios to the costs for a technology which is in the ATB database.
