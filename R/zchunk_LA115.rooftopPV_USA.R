@@ -56,14 +56,14 @@ module_gcamusa_LA115.rooftopPV <- function(command, ...) {
       (max_resid_capacity_factor * energy.HOURS_PER_YEAR) +
       energy.PV_RESID_OM / (max_resid_capacity_factor * energy.HOURS_PER_YEAR)
     # ... and in 1975USD / GJ (a constant)
-    PV_resid_min_LEC_1975 <- PV_resid_min_LEC_2005 * gdp_deflator(1975, 2005) / CONV_KWH_GJ
+    PV_resid_min_LEC_1975 <- PV_resid_min_LEC_2005 * gdp_deflator(PRICE_YEAR, 2005) / CONV_KWH_GJ
 
     # Get minimum levelized electricity cost (LEC) for commercial PV in 2005USD / KW (a constant)
     PV_comm_min_LEC_2005 <- (energy.PV_COMM_INSTALLED_COST / energy.PV_DERATING_FACTOR ) * PV_FCR /
       (max_comm_capacity_factor * energy.HOURS_PER_YEAR) +
       energy.PV_COMM_OM / (max_comm_capacity_factor * energy.HOURS_PER_YEAR)
     # ... and in 1975USD / GJ (a constant)
-    PV_comm_min_LEC_1975 <- PV_comm_min_LEC_2005 * gdp_deflator(1975, 2005) / CONV_KWH_GJ
+    PV_comm_min_LEC_1975 <- PV_comm_min_LEC_2005 * gdp_deflator(PRICE_YEAR, 2005) / CONV_KWH_GJ
 
 
     # COMPUTE SUPPLY CURVES AND SMOOTH SUPPLY CURVE PARAMETERS (mid_p,  b_exp)
@@ -150,7 +150,7 @@ module_gcamusa_LA115.rooftopPV <- function(command, ...) {
       left_join_error_no_match(L115.rsrc_state_rooftopPV, by = "state") %>%
       ## output attributes...
       add_title("Resource curves for rooftop PV") %>%
-      add_units("1975$/GJ (mid-price) and EJ/yr (maxsubresource)") %>%
+      add_units(paste0(PRICE_YEAR, "$/GJ (mid-price) and EJ/yr (maxsubresource)")) %>%
       add_comments("Note: Fitted supply curve parameters are sensitive to ordering generation values with equal price") %>%
       add_legacy_name("L115.rsrc_state_rooftopPV") %>%
       add_precursors("gcam-usa/states_subregions",
