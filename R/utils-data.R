@@ -292,6 +292,15 @@ get_data <- function(all_data, name, strip_attributes = FALSE, ensure_currency_y
 
   }
 
+  # If price data present and ensure_currency_year is set to FALSE, overwrite the attributes to ensure they don't get
+  # passed to future objects
+  if ("PriceColumns" %in% names(attributes(all_data[[name]])) & !ensure_currency_year){
+    attr(all_data[[name]], "UnusedPriceColumns") <- attr(all_data[[name]], "PriceColumns")
+    attr(all_data[[name]], "UnusedPriceUnits") <- attr(all_data[[name]], ATTR_PRICE_UNITS)
+    attr(all_data[[name]], "PriceColumns") <- NULL
+    attr(all_data[[name]], ATTR_PRICE_UNITS) <- NULL
+  }
+
 
 
   # If strip_attributes == TRUE, remove all attributes.
