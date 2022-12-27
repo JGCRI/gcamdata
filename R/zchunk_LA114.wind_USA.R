@@ -66,7 +66,7 @@ module_gcamusa_LA114.wind <- function(command, ...) {
     us_state_wind %>%
       mutate(sector = "electricity generation",
              fuel = "wind",
-             base_cost = base_cost * gdp_deflator(1975, 2007) / CONV_KWH_GJ,
+             base_cost = base_cost / CONV_KWH_GJ,
              capacity.factor = (L114.CapCost * L114.FixedChargeRate + L114.OMFixedCost) /
                (CONV_KWH_GJ * CONV_YEAR_HOURS) / (base_cost - (L114.OMVarCost / CONV_MWH_GJ))) %>%
       # ^^ capacity factor computed dividing sum of capital and fixed costs (converted to $/GJ) by ...
