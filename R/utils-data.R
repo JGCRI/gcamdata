@@ -9,6 +9,7 @@
 
 ATTR_TITLE <- "title"
 ATTR_UNITS <- "units"
+ATTR_PRICE_UNITS <- "price_units"
 ATTR_COMMENTS <- "comments"
 ATTR_PRECURSORS <- "precursors"
 ATTR_LEGACY_NAME <- "legacy_name"
@@ -89,6 +90,20 @@ get_comments <- function(x) {
 add_units <- function(x, units) {
   assertthat::assert_that(is.character(units) | is.null(units))
   attr(x, ATTR_UNITS) <- c(attr(x, ATTR_UNITS), units)
+  x
+}
+
+#' add_price_units
+#'
+#' Add character price units to a data system object. Units are written out
+#' with the data when the file is saved.
+#'
+#' @param x An object
+#' @param units Price Units (character)
+#' @return \code{x} with units appended to any existing comments.
+add_price_units <- function(x, units) {
+  assertthat::assert_that(is.character(units) | is.null(units))
+  attr(x, ATTR_PRICE_UNITS) <- c(attr(x, ATTR_PRICE_UNITS), units)
   x
 }
 
@@ -200,10 +215,11 @@ get_reference <- function(x) { attr(x, ATTR_REFERENCE) }
 #' @param name Name of data to return
 #' @param strip_attributes Boolean indicating that `gcamdata` attributes should be
 #'                         removed when this data chunk is loaded.
+#' @param ensure_currency_year Year to automatically convert price data to, or FALSE, if no automatic price conversion desired
 #' @return Data object (currently, a tibble or data frame). If the object was marked
 #' \code{NA} in the data store, indicating an optional input that was not found,
 #' a \code{NULL} is returned.
-get_data <- function(all_data, name, strip_attributes = FALSE) {
+get_data <- function(all_data, name, strip_attributes = FALSE, ensure_currency_year = PRICE_YEAR) {
   assertthat::assert_that(is_data_list(all_data))
 
   names(all_data) <- gsub(data.USER_MOD_POSTFIX, '', names(all_data))
@@ -217,6 +233,61 @@ get_data <- function(all_data, name, strip_attributes = FALSE) {
   if(nrow(all_data[[name]]) > 0 && all(is.na(all_data[[name]]))) {
     return(NULL)
   }
+
+  # If price data present, convert here, unless ensure_currency_year is set to FALSE
+  if ("PriceColumns" %in% names(attributes(all_data[[name]])) & ensure_currency_year){
+    # pull out price year from PriceUnits header
+    # !!!!!!!!!!! Should we ensure that it doesn't get re-converted?
+    # !!!!!!!!!!! ALSO WHAT TO DO WHEN BOTH REGULAR UNITS AND PRICE UNITS INCLUDED
+
+    price_cols <- attr(all_data[[name]], "PriceColumns")
+
+    # Ensure that PriceUnits exist and that there are either one PriceUnits or one for each price_cols (separated by ;)
+    price_units <- attr(all_data[[name]], ATTR_PRICE_UNITS)
+
+    if(is.null(price_units) | length(price_units) < 1) {
+      stop("No price units found for", name)
+    }
+
+    # Check for semi-colons
+    price_units_cols <- strsplit(price_units, ";")[[1]]
+
+    # If one price_units, apply to all price columns
+    if(length(price_units_cols) == 1){
+      price_year <- get_price_year(price_units_cols)
+
+      # Apply gdp_deflator to price columns
+      all_data[[name]][, price_cols] <- all_data[[name]][, price_cols] * gdp_deflator(ensure_currency_year, price_year)
+
+      # Update metadata to indicate that gdp_deflator has been applied, with new and original units
+      attr(all_data[[name]], "price_units") <- paste(gsub(price_year, ensure_currency_year, price_units_cols),
+                                                     "(converted from", price_units_cols, "with gdp_deflator())")
+    } else {
+      # Should either have 1 price units col or same as number of PriceColumns
+      if(length(price_units_cols) != length(price_cols)){
+        stop("Mismatch between number of price units and number of price columns in", name)
+      }
+
+      # Loop through and apply each price_unit to each price_column
+      for(i in 1:length(price_units_cols)){
+        price_unit <- price_units_cols[i]
+        price_year <- get_price_year(price_unit)
+
+        # Apply gdp_deflator to price columns
+        all_data[[name]][, price_cols[i]] <- all_data[[name]][, price_cols[i]] * gdp_deflator(ensure_currency_year, price_year)
+
+        # Update metadata to indicate that gdp_deflator has been applied, with new and original units
+        price_units_cols[i] <- paste(gsub(price_year, ensure_currency_year, price_unit),
+                                                       "(converted from", price_unit, "with gdp_deflator())")
+      }
+
+      attr(all_data[[name]], "price_units") <- price_units_cols
+    }
+
+
+  }
+
+
 
   # If strip_attributes == TRUE, remove all attributes.
   # As of dplyr 1.0.0, these can no longer be easily overwritten, so we remove them
@@ -395,4 +466,25 @@ verify_identical_prebuilt <- function(..., pb = NULL) {
     warning("Re-run generate_package_data.R to rebuild package data")
   }
   invisible(mismatch)
+}
+
+#' get_price_year
+#'
+#' Gets price year from price_units string.
+#'
+#' @param ... The objects
+#' @param unit String from price_units
+#' @return String of year
+get_price_year <- function(unit) {
+  price_year_start <- gregexpr("[0-9]{4}", unit)
+
+  if(length(price_year_start) < 1 | length(price_year_start[[1]]) < 1 | price_year_start[[1]] < 1){
+    stop("No year found in price units")
+  }
+
+  if(length(price_year_start) > 1 | length(price_year_start[[1]]) > 1){
+    stop("Multiple years present in price data, check for missing ';' between units")
+  }
+
+  substr(unit, price_year_start[[1]], price_year_start[[1]] + 3)
 }
