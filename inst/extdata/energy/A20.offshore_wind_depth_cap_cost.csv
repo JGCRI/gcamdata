@@ -1,9 +1,9 @@
 # File: A20.offshore_wind_depth_cap_cost.csv
 # Title: Depth class and capital cost for offshore wind
-# Units: 1975$ per GJ
+# PriceUnits: 1975$ per GJ
 # Comments: Depth class-specific cost assumptions
 # Source: Based on data from the literature such as Cranmer (2017), Beiter (2016), EIA (2017), and Lazard (2016)
-# Column types: ci
+# Column types: cp
 #  ----------
 depth_class,capital.overnight
 shallow,1039

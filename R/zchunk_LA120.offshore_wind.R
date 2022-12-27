@@ -301,14 +301,14 @@ module_energy_LA120.offshore_wind <- function(command, ...) {
       summarise(cost = sum(cost)) %>%
       ungroup() -> L120.offshore_wind_cost_per_kW
 
-    # Now to convert 2013 $/kW cost to 1975 $/GJ cost
+    # Now calculate the grid cost per GJ
     L120.offshore_wind_cost_per_kW %>%
       left_join_error_no_match(L120.offshore_wind_CF %>%
                                  select(region, CF) %>%
                                  unique(),
                                by = "region") %>%
       mutate(fcr = L120.offshore_wind_fcr,
-             grid.cost = fcr * cost / (CONV_YEAR_HOURS * CF* CONV_KWH_GJ) * gdp_deflator(1975, 2013)) -> L120.grid.cost
+             grid.cost = fcr * cost / (CONV_YEAR_HOURS * CF* CONV_KWH_GJ)) -> L120.grid.cost
 
     # Set grid connection cost for all regions
     GCAM_region_names %>%
@@ -343,7 +343,7 @@ module_energy_LA120.offshore_wind <- function(command, ...) {
 
     L120.GridCost_offshore_wind %>%
       add_title("Grid connectivity cost adder for offshore wind") %>%
-      add_units("$1975/GJ") %>%
+      add_units(paste0(PRICE_YEAR, "/GJ")) %>%
       add_comments("Adder by GCAM Region") %>%
       add_precursors("common/iso_GCAM_regID", "common/GCAM_region_names", "energy/NREL_offshore_energy",
                      "energy/A20.wind_class_CFs", "L113.globaltech_capital_ATB",
