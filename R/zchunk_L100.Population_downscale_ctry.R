@@ -19,7 +19,7 @@ module_socioeconomics_L100.Population_downscale_ctry <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "socioeconomics/socioeconomics_ctry",
              "Maddison_population",
-             FILE = "socioeconomics/SSP_database_v9",
+             FILE = "socioeconomics/SSP_database_v9_population",
              FILE = "socioeconomics/UN_popTot"))
   } else if(command == driver.DECLARE_OUTPUTS) {
     return(c("L100.Pop_thous_ctry_Yh",
@@ -38,7 +38,7 @@ module_socioeconomics_L100.Population_downscale_ctry <- function(command, ...) {
     # Load required inputs
     socioeconomics_ctry <- get_data(all_data, "socioeconomics/socioeconomics_ctry")
     Maddison_population <- get_data(all_data, "Maddison_population")
-    SSP_database_v9 <- get_data(all_data, "socioeconomics/SSP_database_v9")
+    SSP_database_v9_population <- get_data(all_data, "socioeconomics/SSP_database_v9_population")
     UN_popTot <- get_data(all_data, "socioeconomics/UN_popTot", strip_attributes = TRUE)
 
     # ===================================================
@@ -166,7 +166,7 @@ module_socioeconomics_L100.Population_downscale_ctry <- function(command, ...) {
       select(-year)
 
     # Second, generate ratios of future population to base year (2010) for all SSPs. The ratios will be applied to the historical year populations so there are no jumps/inconsistencies.
-    L100.Pop_thous_SSP_ctry_Yfut <- SSP_database_v9 %>% # Note units in SSP database are millions, but convert to thousands when we multiply by historic year
+    L100.Pop_thous_SSP_ctry_Yfut <- SSP_database_v9_population %>% # Note units in SSP database are millions, but convert to thousands when we multiply by historic year
       filter(MODEL == "IIASA-WiC POP", VARIABLE == "Population") %>%  # IIASA-WiC is the official SSP population data set
       mutate(iso = tolower(REGION),
              scenario = substr(SCENARIO, 1, 4)) %>%
@@ -210,7 +210,7 @@ module_socioeconomics_L100.Population_downscale_ctry <- function(command, ...) {
       add_units("thousand") %>%
       add_comments("Future population calculated as final historical year (2010) population times ratio of SSP future years to SSP 2010") %>%
       add_legacy_name("L100.Pop_thous_SSP_ctry_Yfut") %>%
-      add_precursors("socioeconomics/socioeconomics_ctry", "socioeconomics/SSP_database_v9", "socioeconomics/UN_popTot") ->
+      add_precursors("socioeconomics/socioeconomics_ctry", "socioeconomics/SSP_database_v9_population", "socioeconomics/UN_popTot") ->
       L100.Pop_thous_SSP_ctry_Yfut
 
     return_data(L100.Pop_thous_ctry_Yh, L100.Pop_thous_SSP_ctry_Yfut)

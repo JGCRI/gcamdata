@@ -114,7 +114,7 @@ join.gdp.ts <- function(past, future, grouping) {
 module_socioeconomics_L102.GDP <- function(command, ...) {
   if(command == driver.DECLARE_INPUTS) {
     return(c(FILE = "common/iso_GCAM_regID",
-             FILE = "socioeconomics/SSP_database_v9",
+             FILE = "socioeconomics/SSP_database_v9_GDP",
              FILE = "socioeconomics/IMF_GDP_growth",
              FILE = "socioeconomics/GCAM3_GDP",
              "L100.gdp_mil90usd_ctry_Yh",
@@ -141,7 +141,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
 
     # Load required inputs
     iso_GCAM_regID <- get_data(all_data, "common/iso_GCAM_regID")
-    SSP_database_v9 <- get_data(all_data, "socioeconomics/SSP_database_v9")
+    SSP_database_v9_GDP <- get_data(all_data, "socioeconomics/SSP_database_v9_GDP")
     IMF_GDP_growth <- get_data(all_data, "socioeconomics/IMF_GDP_growth")
     GCAM3_GDP <- get_data(all_data, "socioeconomics/GCAM3_GDP") %>%
       gather_years %>%
@@ -171,7 +171,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
 
     ## Get the future GDP in the SSP scenarios.  These are PPP values in 2005 dollars
     gdp_bilusd_rgn_Yfut <-
-      filter(SSP_database_v9, MODEL == 'OECD Env-Growth' & VARIABLE == 'GDP|PPP') %>%
+      filter(SSP_database_v9_GDP, MODEL == 'OECD Env-Growth' & VARIABLE == 'GDP|PPP') %>%
       standardize_iso('REGION') %>%
       change_iso_code('rou', 'rom') %>%
       left_join_error_no_match(iso_region32_lookup, by = 'iso') %>%
@@ -225,8 +225,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       select(iso, year, gdp)
 
 
-    gdp.mil90usd.imf.country.yr <-
-    gdp_mil90usd_ctry %>%
+    gdp.mil90usd.imf.country.yr <- gdp_mil90usd_ctry %>%
       # filter gdp data so that it ends right at the first year of the IMF ratio data
       filter(year <= min(imfgdp.ratio$year), year >= min(HISTORICAL_YEARS)) %>%
       select(iso, year, gdp) %>%
@@ -288,7 +287,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
     mer.rgn <- gdp_mil90usd_ctry %>%
       filter(year == PPP.MER.baseyr) %>%
       group_by(GCAM_region_ID) %>%
-      mutate(MER = gdp * gdp_deflator(2005, 1990) * CONV_MIL_BIL) %>%
+      mutate(MER = gdp * CONV_MIL_BIL) %>%
       summarise(MER = sum(MER))
     ## columns: GCAM_region_ID, MER
 
@@ -317,7 +316,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
     # GDP by GCAM 3.0 region - downscale to country according to actual shares in the historical periods, and SSPbase in the future periods
 
     # Future GDP
-    gdp_bilusd_ctry_Yfut <- SSP_database_v9 %>%
+    gdp_bilusd_ctry_Yfut <- SSP_database_v9_GDP %>%
       filter(MODEL == 'OECD Env-Growth' & VARIABLE == 'GDP|PPP') %>%
       standardize_iso('REGION') %>%
       change_iso_code('rou', 'rom') %>%
@@ -417,14 +416,14 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       rename(value = gdp) %>%
       mutate(year = as.integer(year)) %>%
       add_title("Gross Domestic Product (GDP) by scenario, region, and year.") %>%
-      add_units("Millions of 1990 USD (MER)") %>%
+      add_units(paste("Millions of", PRICE_YEAR, "USD (MER)")) %>%
       add_comments("For the SSP scenarios, SSP GDP projections are scaled to match ") %>%
       add_comments("historical values in the base year (2010).  For the gSSP scenarios ") %>%
       add_comments("IMF growth projections are applied from 2010-2020, and the SSP projections ") %>%
       add_comments("are scaled to match the 2020 values resulting from this process.") %>%
       add_legacy_name("L102.gdp_mil90usd_Scen_R_Y") %>%
       add_precursors("common/iso_GCAM_regID",
-                     "socioeconomics/SSP_database_v9",
+                     "socioeconomics/SSP_database_v9_GDP",
                      "socioeconomics/IMF_GDP_growth",
                      "L100.gdp_mil90usd_ctry_Yh") ->
       L102.gdp_mil90usd_Scen_R_Y
@@ -434,12 +433,12 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       filter(year %in% c(HISTORICAL_YEARS, FUTURE_YEARS)) %>%
       rename(value = pcgdp) %>%
       add_title("Gross Domestic Product (GDP) per capita, by scenario, region, and year.") %>%
-      add_units("Thousands of 1990 USD (MER)") %>%
+      add_units(paste("Thousands of", PRICE_YEAR, "USD (MER)")) %>%
       add_comments("Computed as GDP/population.  Values prior to the base year (2010) are ") %>%
       add_comments("historical; values subsequent are from SSP projections.") %>%
       add_legacy_name("L102.pcgdp_thous90USD_Scen_R_Y") %>%
       add_precursors("common/iso_GCAM_regID",
-                     "socioeconomics/SSP_database_v9",
+                     "socioeconomics/SSP_database_v9_GDP",
                      "socioeconomics/IMF_GDP_growth",
                      "L100.gdp_mil90usd_ctry_Yh",
                      "L101.Pop_thous_R_Yh",
@@ -450,36 +449,36 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       add_title("Purchasing Power Parity (PPP) to Market Exchange Rate (MER) GDP conversions, by region") %>%
       add_units("unitless") %>%
       add_comments("Calculated as GDP(PPP) / GDP(MER) in the base year (2010) for each region.  The") %>%
-      add_comments("table also contains PPP-GDP and MER-GDP in billions of 2005 USD for the base year, ") %>%
+      add_comments(paste("table also contains PPP-GDP and MER-GDP in billions of", PRICE_YEAR, "USD for the base year, ")) %>%
       add_comments("because they were included in the original table, but I'm not sure they are used for, ") %>%
       add_comments("or useful for, anything besides calculating the ratio.") %>%
       add_legacy_name("L102.PPP_MER_R") %>%
       add_precursors("common/iso_GCAM_regID",
-                     "socioeconomics/SSP_database_v9",
+                     "socioeconomics/SSP_database_v9_GDP",
                      "socioeconomics/IMF_GDP_growth",
                      "L100.gdp_mil90usd_ctry_Yh") ->
       L102.PPP_MER_R
 
     gdp_mil90usd_GCAM3_R_Y %>%
       add_title("GDP by GCAM3 Region") %>%
-      add_units("Million 1990 USD") %>%
+      add_units(paste("Million", PRICE_YEAR, "USD")) %>%
       add_comments("Scales historical SSP GDP data to GCAM3 GDP data.") %>%
       add_comments("Calculates future GDP based on ratio of GCAM3 future to 2010 value.") %>%
       add_legacy_name("L102.gdp_mil90usd_GCAM3_R_Y") %>%
       add_precursors("common/iso_GCAM_regID",
-                     "socioeconomics/SSP_database_v9",
+                     "socioeconomics/SSP_database_v9_GDP",
                      "L100.gdp_mil90usd_ctry_Yh",
                      "socioeconomics/GCAM3_GDP") ->
       L102.gdp_mil90usd_GCAM3_R_Y
 
     gdp_mil90usd_GCAM3_ctry_Y %>%
       add_title("GCAM3 GDP by Country") %>%
-      add_units("Million 1990 USD") %>%
+      add_units(paste("Million", PRICE_YEAR, "USD")) %>%
       add_comments("Scales historical SSP GDP data to GCAM3 GDP data.") %>%
       add_comments("Calculates future GDP based on ratio of GCAM3 future to 2010 value.") %>%
       add_legacy_name("L102.gdp_mil90usd_GCAM3_ctry_Y") %>%
       add_precursors("common/iso_GCAM_regID",
-                     "socioeconomics/SSP_database_v9",
+                     "socioeconomics/SSP_database_v9_GDP",
                      "L100.gdp_mil90usd_ctry_Yh",
                      "socioeconomics/GCAM3_GDP") ->
       L102.gdp_mil90usd_GCAM3_ctry_Y
@@ -490,7 +489,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       add_comments("L102.gdp_mil90usd_GCAM3_R_Y divided by population from L101.Pop_thous_GCAM3_R_Y") %>%
       add_legacy_name("L102.pcgdp_thous90USD_GCAM3_R_Y") %>%
       add_precursors("common/iso_GCAM_regID",
-                     "socioeconomics/SSP_database_v9",
+                     "socioeconomics/SSP_database_v9_GDP",
                      "L100.gdp_mil90usd_ctry_Yh",
                      "socioeconomics/GCAM3_GDP",
                      "L101.Pop_thous_GCAM3_R_Y") ->
@@ -502,7 +501,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       add_comments("L102.gdp_mil90usd_GCAM3_ctry_Y divided by population from L101.Pop_thous_GCAM3_ctry_Y") %>%
       add_legacy_name("L102.pcgdp_thous90USD_GCAM3_ctry_Y") %>%
       add_precursors("common/iso_GCAM_regID",
-                     "socioeconomics/SSP_database_v9",
+                     "socioeconomics/SSP_database_v9_GDP",
                      "L100.gdp_mil90usd_ctry_Yh",
                      "socioeconomics/GCAM3_GDP",
                      "L101.Pop_thous_GCAM3_ctry_Y") ->
