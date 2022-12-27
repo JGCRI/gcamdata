@@ -138,13 +138,11 @@ module_gcamusa_LA100.Socioeconomics <- function(command, ...) {
       PH_year_value_historical %>%
       group_by(Area) %>%
       mutate(value = approx_fun(year, value, rule = 2)) %>%
-      ungroup() %>%
-      mutate(value = value * gdp_deflator(1990, 1997)) -> L100.GDP_87_96_90USD_state
+      ungroup()  -> L100.GDP_87_96_90USD_state
 
     BEA_GDP_97_18_12USD_state %>%
       select(-Fips) %>%
-      gather_years %>%
-      mutate(value = value * gdp_deflator(1990, 2012)) -> L100.GDP_97_18_90USD_state
+      gather_years -> L100.GDP_97_18_90USD_state
 
     L100.GDP_87_96_90USD_state %>%
       bind_rows(L100.GDP_97_18_90USD_state) %>%
@@ -269,7 +267,7 @@ module_gcamusa_LA100.Socioeconomics <- function(command, ...) {
 
     L100.pcGDP_thous90usd_state %>%
       add_title("Per-capita GDP by state") %>%
-      add_units("thousand 1990 USD per capita") %>%
+      add_units(paste("thousand", PRICE_YEAR, "USD per capita")) %>%
       add_comments("") %>%
       add_precursors("gcam-usa/states_subregions",
                      "gcam-usa/Census_pop",
@@ -280,7 +278,7 @@ module_gcamusa_LA100.Socioeconomics <- function(command, ...) {
 
     L100.GDP_mil90usd_state %>%
       add_title("GDP by state") %>%
-      add_units("million 1990 USD") %>%
+      add_units(paste("million", PRICE_YEAR, "USD")) %>%
       add_comments("") %>%
       same_precursors_as(L100.pcGDP_thous90usd_state) %>%
       add_precursors("gcam-usa/NCAR_SSP2_pop_state",
