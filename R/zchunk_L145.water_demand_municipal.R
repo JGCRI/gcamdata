@@ -42,7 +42,8 @@ module_water_L145.water_demand_municipal <- function(command, ...) {
     iso_GCAM_regID <- get_data(all_data, "common/iso_GCAM_regID")
     aquastat_ctry <- get_data(all_data, "water/aquastat_ctry")
     FAO_municipal_water_AQUASTAT <- get_data(all_data, "water/FAO_municipal_water_AQUASTAT")
-    IBNET_municipal_water_cost_USDm3 <- get_data(all_data, "water/IBNET_municipal_water_cost_USDm3")
+    IBNET_municipal_water_cost_USDm3 <- get_data(all_data, "water/IBNET_municipal_water_cost_USDm3",
+                                                 ensure_currency_year = FALSE) # don't convert currency here because price data in nominal years
     municipal_water_use_efficiency <- get_data(all_data, "water/municipal_water_use_efficiency")
     mfg_water_mapping <- get_data(all_data, "water/mfg_water_mapping")
 
@@ -88,21 +89,21 @@ module_water_L145.water_demand_municipal <- function(command, ...) {
       select(iso, year, value)
 
     # Come up with GCAM regional average prices starting with the country level IBNET data.
-    # Note that since the years are all over the place, we will convert all to 1975 dollar,
+    # Note that since the years are all over the place, we will convert all to dollars in PRICE_YEAR,
     # and use the average across years too.
 
     # Since IBNET_municipal_water_cost_USDm3 is in nominal years we will need a table of deflators
-    # to normalize each to constant 1975$
+    # to normalize each to constant USD in PRICE_YEAR
     # The pipeline below uses group_by() to apply the gdp_deflator() function to each row
     tibble(year = unique(IBNET_municipal_water_cost_USDm3$year)) %>%
-      mutate(deflator = gdp_deflator(1975, year)) ->
+      mutate(deflator = gdp_deflator(PRICE_YEAR, year)) ->
       conv_Price_DollarYear
 
     L145.municipal_water_cost_R_75USD_m3 <- IBNET_municipal_water_cost_USDm3 %>%
       left_join_error_no_match(aquastat_ctry[ c("aquastat_ctry", "iso")], by = c("country" = "aquastat_ctry")) %>%
       left_join_error_no_match(iso_GCAM_regID[c("iso", "GCAM_region_ID")], by = "iso") %>%
       left_join_error_no_match(conv_Price_DollarYear, by = "year") %>%
-      # Convert nominal dollars to 1975$
+      # Convert nominal dollars to PRICE_YEAR
       mutate(cost = cost * deflator,
              expenditure = cost * consumption) %>%
       group_by(GCAM_region_ID) %>%
@@ -201,9 +202,9 @@ module_water_L145.water_demand_municipal <- function(command, ...) {
 
     L145.municipal_water_cost_R_75USD_m3 %>%
       add_title("Municipal water base deleivery cost by GCAM_region_ID") %>%
-      add_units("1975$/m^3") %>%
+      add_units(paste0(PRICE_YEAR, "$/m^3")) %>%
       add_comments("Generate GCAM regional average prices starting with the country-level IBNET data") %>%
-      add_comments("1. Convert nominal dollars to 1975$;
+      add_comments("1. Convert nominal dollars to $ in PRICE_YEAR;
                    2. Get country-level expenditure (cost * consumption);
                    3. Sum up country-level expenditure and cost to get region-level expenditure and cost;
                    4. Divide region-level expenditure by region-level consumption to get region-level cost") %>%
