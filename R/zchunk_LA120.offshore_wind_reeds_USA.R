@@ -306,7 +306,7 @@ module_gcamusa_LA120.offshore_wind_reeds_USA <- function(command, ...) {
       filter(cost != 0) %>%
       left_join_error_no_match(reeds_offshore_wind_curve_CF_avg, by =c("Wind_Resource_Region", "Wind_Class" = "TRG")) %>%
       mutate(fcr = L120.offshore_wind_fcr,
-             grid.cost = fcr * cost / (CONV_YEAR_HOURS * CF * CONV_MWH_GJ) * gdp_deflator(1975,2013)) %>%
+             grid.cost = fcr * cost / (CONV_YEAR_HOURS * CF * CONV_MWH_GJ)) %>%
       left_join_error_no_match(reeds_regions_states %>%
                                  select(Region, State),
                                by = c("Wind_Resource_Region" = "Region")) %>%
@@ -345,7 +345,7 @@ module_gcamusa_LA120.offshore_wind_reeds_USA <- function(command, ...) {
 
     L120.GridCost_offshore_wind_USA %>%
       add_title("Grid connectivity cost adder for offshore wind in USA") %>%
-      add_units("$1975/GJ") %>%
+      add_units(paste0("$", PRICE_YEAR,"/GJ")) %>%
       add_comments("Adder by States") %>%
       add_precursors( "gcam-usa/reeds_offshore_wind_curve_grid_cost",
                       "gcam-usa/reeds_regions_states",
