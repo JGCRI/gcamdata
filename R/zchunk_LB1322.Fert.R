@@ -331,7 +331,7 @@ module_energy_LB1322.Fert <- function(command, ...) {
     L1322.Fert_Fuelcost_75USDGJ_gas <- L1322.P_gas_75USDGJ * L1322.IO_GJkgN_Fert_gas
 
     # Convert total NH3 cost (2010$/tNH3) to N cost (1975$/kgN)
-    Fert_Cost_75USDkgN <- aglu.FERT_PRICE * gdp_deflator(1975, aglu.FERT_PRICE_YEAR) * CONV_KG_T / CONV_NH3_N
+    Fert_Cost_75USDkgN <- aglu.FERT_PRICE * gdp_deflator(PRICE_YEAR, aglu.FERT_PRICE_YEAR) * CONV_KG_T / CONV_NH3_N
 
     # Calculate non-fuel cost of natural gas steam reforming (includes delivery charges)
     L1322.Fert_NEcost_75USDkgN_gas <- as.double(Fert_Cost_75USDkgN - L1322.Fert_Fuelcost_75USDGJ_gas)
@@ -342,9 +342,9 @@ module_energy_LB1322.Fert <- function(command, ...) {
     # NOTE: Because our NGSR NEcosts were calculated as a residual from mkt prices, and include delivery costs,
     # not using a ratio of costs, but rather an arithmetic adder. H2A costs are in $/kgH; convert to N-equivalent
 
-    # First, calculate costs in 1975 USD per kg N
+    # First, calculate costs in PRICE_YEAR USD per kg N
     H2A_Prod_Tech %>%
-      mutate(NEcost_75USDkgN = NEcost * gdp_deflator(1975, 2016) * NH3_H_frac / CONV_NH3_N) ->
+      mutate(NEcost_75USDkgN = NEcost * NH3_H_frac / CONV_NH3_N) ->
       H2A_Prod_Tech_1975
 
     # Derive costs as the cost of NGSR plus the specified cost adder
@@ -437,7 +437,7 @@ module_energy_LB1322.Fert <- function(command, ...) {
 
     L1322.Fert_NEcost_75USDkgN_F %>%
       add_title("Fertilizer non-energy costs by technology") %>%
-      add_units("1975USD/kgN") %>%
+      add_units(paste0(PRICE_YEAR, "USD/kgN")) %>%
       add_comments("Gas was calculated using USA market fertilizer price minus GCAM fuel costs.") %>%
       add_comments("Gas with CCS, coal, and coal with CCS were calculated using H2A characteristics of hydrogen production technologies") %>%
       add_comments("Oil was set to generally balance the total net costs with natural gas steam reforming.") %>%

@@ -1,7 +1,7 @@
 # File: A22.globaltech_cost.csv
 # Title: Primary energy transformation technologies default cost assumptions
-# Units: 1975$/GJ
-# Column types: ccccnnnnnc 
+# PriceUnits: 1975$/GJ
+# Column types: ccccpppnnc 
 # ----------
 supplysector,subsector,technology,minicam.non.energy.input,1971,2010,2100,improvement.max,improvement.rate,improvement.shadow.technology
 gas processing,natural gas,natural gas,non-energy,0.2,0.2,0.2,,,

@@ -1,8 +1,9 @@
 # File: A10.rsrc_info.csv
 # Title: Information about resources in each region
 # Units: 1975$/kg for uranium and limestone;  1975$/GJ for everything else
+# PriceUnits: 1975$ (per kg or per GJ)
 # Source: Prices from GCAM 3.1 model input. 2010 2015 estimated
-# Column types: cccccnnnnnn
+# Column types: cccccpppppp
 # ----------
 resource,resource_type,market,output-unit,price-unit,1971,1975,1990,2005,2010,2015
 coal,resource,regional,EJ,1975$/GJ,0.4,0.4,0.435,0.382,0.495,0.547
