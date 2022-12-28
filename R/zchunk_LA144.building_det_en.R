@@ -252,7 +252,7 @@ module_energy_LA144.building_det_en <- function(command, ...) {
              CapitalCost = `installed cost` * CRF,
              NonEnergyCost = CapitalCost + `O&M cost`,
              ServiceOutput = UEC * efficiency,
-             NEcostPerService = NonEnergyCost / ServiceOutput * gdp_deflator(1975, 2005)) %>%
+             NEcostPerService = NonEnergyCost / ServiceOutput) %>%
       select(supplysector, subsector, technology, NEcostPerService) ->
       L144.NEcost_75USDGJ # This is a final output table.
 
@@ -563,7 +563,7 @@ module_energy_LA144.building_det_en <- function(command, ...) {
 
     L144.NEcost_75USDGJ %>%
       add_title("Building Non energy cost by supplysector / subsector / technology") %>%
-      add_units("1975$/GJ-service") %>%
+      add_units(paste0(PRICE_YEAR, "$/GJ-service")) %>%
       add_comments("Non energy cost per service is calculated using lifetime, O&M cost, installed cost, discount rate, efficiency, and other underlying variables") %>%
       add_legacy_name("L144.NEcost_75USDGJ") %>%
       add_precursors("energy/A44.cost_efficiency") ->
