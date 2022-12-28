@@ -21,7 +21,8 @@ module_aglu_LB132.ag_an_For_Prices_USA_C_2005 <- function(command, ...) {
     return(c(FILE = "aglu/FAO/FAO_ag_items_PRODSTAT",
              FILE = "aglu/FAO/FAO_an_items_PRODSTAT",
              FILE = "aglu/FAO/FAO_USA_ag_an_P_USDt_PRICESTAT",
-             FILE = "aglu/FAO/FAO_USA_For_Exp_t_USD_FORESTAT",
+             FILE = "aglu/FAO/FAO_USA_For_Exp_t_FORESTAT",
+             FILE = "aglu/FAO/FAO_USA_For_Exp_USD_FORESTAT",
              FILE = "aglu/USDA_Alfalfa_prices_USDt",
              # Use level0 production data instead of level1 with the 5-yr rolling average
              FILE = "aglu/FAO/FAO_ag_Prod_t_PRODSTAT",
@@ -41,17 +42,18 @@ module_aglu_LB132.ag_an_For_Prices_USA_C_2005 <- function(command, ...) {
     # Load required inputs
     FAO_ag_items_PRODSTAT <- get_data(all_data, "aglu/FAO/FAO_ag_items_PRODSTAT")
     FAO_an_items_PRODSTAT <- get_data(all_data, "aglu/FAO/FAO_an_items_PRODSTAT")
-    FAO_USA_ag_an_P_USDt_PRICESTAT <- get_data(all_data, "aglu/FAO/FAO_USA_ag_an_P_USDt_PRICESTAT")
-    FAO_USA_For_Exp_t_USD_FORESTAT <- get_data(all_data, "aglu/FAO/FAO_USA_For_Exp_t_USD_FORESTAT")
-    USDA_Alfalfa_prices_USDt <- get_data(all_data, "aglu/USDA_Alfalfa_prices_USDt")
+    FAO_USA_ag_an_P_USDt_PRICESTAT <- get_data(all_data, "aglu/FAO/FAO_USA_ag_an_P_USDt_PRICESTAT", ensure_currency_year = FALSE) # price data in nominal years
+    FAO_USA_For_Exp_USD_FORESTAT <- get_data(all_data, "aglu/FAO/FAO_USA_For_Exp_USD_FORESTAT", ensure_currency_year = FALSE) # price data in nominal years
+    USDA_Alfalfa_prices_USDt <- get_data(all_data, "aglu/USDA_Alfalfa_prices_USDt", ensure_currency_year = FALSE) # price data in nominal years
+    FAO_USA_For_Exp_t_FORESTAT <- get_data(all_data, "aglu/FAO/FAO_USA_For_Exp_t_FORESTAT")
     FAO_ag_Prod_t_PRODSTAT <- get_data(all_data, "aglu/FAO/FAO_ag_Prod_t_PRODSTAT")
     FAO_USA_an_Prod_t_PRODSTAT <- get_data(all_data, "aglu/FAO/FAO_USA_an_Prod_t_PRODSTAT")
-
+    FAO_USA_For_Exp_t_USD_FORESTAT <- bind_rows(FAO_USA_For_Exp_USD_FORESTAT, FAO_USA_For_Exp_t_FORESTAT)
     # Since FAO_USA_ag_an_P_USDt_PRICESTAT is in nominal years we will need a table of deflators
-    # to normalize each to constant 1975$
+    # to normalize each to constant PRICE_YEAR$
     tibble(year = aglu.MODEL_PRICE_YEARS) %>%
       group_by(year) %>%
-      summarise(deflator = gdp_deflator(1975, year)) ->
+      summarise(deflator = gdp_deflator(PRICE_YEAR, year)) ->
       conv_Price_DollarYear
 
     # Converting cotton back to primary equivalent (seed cotton)
@@ -111,7 +113,7 @@ module_aglu_LB132.ag_an_For_Prices_USA_C_2005 <- function(command, ...) {
       # Calculate production weighted average price for each GCAM commodity
       mutate(Price_USDt = V_USD / prod) %>%
       select(GCAM_commodity, year, Price_USDt) %>%
-      # Convert nominal dollar year to constant 1975$
+      # Convert nominal dollar year to constant PRICE_YEAR$
       left_join_error_no_match(conv_Price_DollarYear, by = "year") %>%
       mutate(Price_USDt  = Price_USDt * deflator) %>%
       select(-deflator) %>%
@@ -140,7 +142,7 @@ module_aglu_LB132.ag_an_For_Prices_USA_C_2005 <- function(command, ...) {
       ungroup() %>%
       # Calculate production weighted average price for each GCAM commodity
       mutate(Price_USDt = V_USD / prod) %>%
-      # Convert nominal dollar year to constant 1975$
+      # Convert nominal dollar year to constant PRICE_YEAR$
       left_join_error_no_match(conv_Price_DollarYear, by = "year") %>%
       mutate(Price_USDt  = Price_USDt * deflator) %>%
       select(-deflator) %>%
@@ -159,7 +161,7 @@ module_aglu_LB132.ag_an_For_Prices_USA_C_2005 <- function(command, ...) {
     USDA_Alfalfa_prices_USDt %>%
       select(year, avg) %>%
       filter(year %in% aglu.MODEL_PRICE_YEARS) %>%
-      # Convert nominal dollar year to constant 1975$
+      # Convert nominal dollar year to constant PRICE_YEAR$
       left_join_error_no_match(conv_Price_DollarYear, by = "year") %>%
       mutate(avg  = avg * deflator) %>%
       select(-deflator) %>%
@@ -178,7 +180,7 @@ module_aglu_LB132.ag_an_For_Prices_USA_C_2005 <- function(command, ...) {
       select(-Price_USDt) %>%
       # Combine animal products
       bind_rows(Price_an) %>%
-      mutate(unit = "1975$/kg") ->
+      mutate(unit = paste0(PRICE_YEAR, "$/kg")) ->
       Price_ag_an
 
     # Part 3: Forest products, and will be combined with outputs from Part 1 and Part 2
@@ -193,7 +195,7 @@ module_aglu_LB132.ag_an_For_Prices_USA_C_2005 <- function(command, ...) {
       spread(element, value) %>%
       # Calculate forest price as export value (in thous USD) divided by export quantity
       mutate(Price_USDm3 = ExpV_USD * 1000 / Exp_m3) %>%
-      # Convert nominal dollar year to constant 1975$
+      # Convert nominal dollar year to constant PRICE_YEAR$
       left_join_error_no_match(conv_Price_DollarYear, by = "year") %>%
       mutate(Price_USDm3  = Price_USDm3 * deflator) %>%
       select(-deflator) %>%
@@ -204,7 +206,7 @@ module_aglu_LB132.ag_an_For_Prices_USA_C_2005 <- function(command, ...) {
       # Convert to model units
       mutate(calPrice = round(Price_USDm3, digits = aglu.DIGITS_CALPRICE)) %>%
       select(GCAM_commodity, calPrice) %>%
-      mutate(unit = "1975$/m3") %>%
+      mutate(unit = paste0(PRICE_YEAR, "$/m3")) %>%
       # Part 4: merging everything into a single table
       bind_rows(Price_ag_an) ->
       Price_ag_an_For
@@ -228,14 +230,15 @@ module_aglu_LB132.ag_an_For_Prices_USA_C_2005 <- function(command, ...) {
     # Produce outputs
     Price_ag_an_For %>%
       add_title("Prices for all GCAM AGLU commodities") %>%
-      add_units("1975$/kg and 1975$/m3") %>%
+      add_units(paste0(PRICE_YEAR, "$/kg and ", PRICE_YEAR, "$/m3")) %>%
       add_comments("Calculate average prices over calibration years by GCAM commodity.") %>%
       add_comments("Averages across years are unweighted; averages over FAO item are weighted by production.") %>%
       add_legacy_name("L132.ag_an_For_Prices") %>%
       add_precursors("aglu/FAO/FAO_ag_items_PRODSTAT",
                      "aglu/FAO/FAO_an_items_PRODSTAT",
                      "aglu/FAO/FAO_USA_ag_an_P_USDt_PRICESTAT",
-                     "aglu/FAO/FAO_USA_For_Exp_t_USD_FORESTAT",
+                     "aglu/FAO/FAO_USA_For_Exp_USD_FORESTAT",
+                     "aglu/FAO/FAO_USA_For_Exp_t_FORESTAT",
                      "aglu/USDA_Alfalfa_prices_USDt",
                      "aglu/FAO/FAO_ag_Prod_t_PRODSTAT",
                      "aglu/FAO/FAO_USA_an_Prod_t_PRODSTAT") ->
