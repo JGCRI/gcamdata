@@ -42,7 +42,7 @@ module_emissions_L152.MACC <- function(command, ...) {
     # Load required inputs
     EPA_master <- get_data(all_data, "emissions/EPA/EPA_2019_raw")
     EPA_ag <- get_data(all_data, "emissions/EPA/EPA_2019_MACC_Ag_updated_baseline")
-    EPA_MACC_master <- get_data(all_data, "emissions/EPA/EPA_2019_MACC_raw")
+    EPA_MACC_master <- get_data(all_data, "emissions/EPA/EPA_2019_MACC_raw", ensure_currency_year = CARBON_PRICE_YEAR)
     EPA_MACC_mapping <- get_data(all_data, "emissions/EPA_MACC_mapping")
     EPA_MACC_control_mapping <- get_data(all_data, "emissions/EPA_MACC_control_mapping")
     EPA_MAC_missing_region <- get_data(all_data, "emissions/EPA_MAC_missing_region")
@@ -81,7 +81,7 @@ module_emissions_L152.MACC <- function(command, ...) {
       rename(cost_2010USD_tCO2e = p, reduction_MtCO2e = q) %>%
       select(GCAM_region_ID, Sector, Process, year, cost_2010USD_tCO2e, reduction_MtCO2e) %>%
       mutate(cost_2010USD_tCO2e = as.numeric(cost_2010USD_tCO2e),
-             cost_1990USD_tCe = round(cost_2010USD_tCO2e * emissions.CONV_C_CO2 * gdp_deflator(1990, base_year = 2010), 0)) %>%
+             cost_1990USD_tCe = round(cost_2010USD_tCO2e * emissions.CONV_C_CO2, 0)) %>%
       select(-cost_2010USD_tCO2e) ->
       L152.EPA_MACC_MtCO2e_ungrouped
 
@@ -131,7 +131,7 @@ module_emissions_L152.MACC <- function(command, ...) {
       select(Sector, Process, GCAM_region_ID, year, cost_1990USD_tCe, reduction_pct) ->
       L152.EPA_MACC_percent_MtCO2e
 
-    price_cut <- round(emissions.MAC_TAXES * emissions.CONV_C_CO2 * gdp_deflator(1990, base_year = 2010), 0)
+    price_cut <- round(emissions.MAC_TAXES * emissions.CONV_C_CO2 * gdp_deflator(CARBON_PRICE_YEAR, base_year = 2010), 0)
 
     # create a template based on standarized price-cuts
     L152.EPA_MACC_percent_MtCO2e %>%
