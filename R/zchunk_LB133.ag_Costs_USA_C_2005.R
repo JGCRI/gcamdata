@@ -48,17 +48,18 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
     USDA_crops <- get_data(all_data, "aglu/USDA_crops")
     USDA_item_cost <- get_data(all_data, "aglu/USDA_item_cost")
     FAO_ag_items_PRODSTAT <- get_data(all_data, "aglu/FAO/FAO_ag_items_PRODSTAT")
-    USDA_cost_data <- get_data(all_data, "aglu/USDA_cost_data")
+    USDA_cost_data <- get_data(all_data, "aglu/USDA_cost_data", ensure_currency_year = FALSE) # nominal currency years
     L100.LDS_ag_HA_ha <- get_data(all_data, "L100.LDS_ag_HA_ha")
     L100.LDS_ag_prod_t <- get_data(all_data, "L100.LDS_ag_prod_t")
     L132.ag_an_For_Prices <- get_data(all_data, "L132.ag_an_For_Prices")
 
-    # convert USDA_cost_data to long form
+    # convert USDA_cost_data to long form and constant currency
     # Next, Take USDA item cost data from input table USDA_cost_data, and add GCAM commodity and GTAP crop mapping info
     # from the USDA crop mapping input table, USDA_crops.
     # Then add cost type (variable or na) from the USDA_item_cost input table.
     USDA_cost_data %>%
       gather_years %>%
+      mutate(value = value * gdp_deflator(PRICE_YEAR, year)) %>%
       # join in the GCAM and GTAP mapping information:
       left_join_error_no_match(USDA_crops, by = c("Crop" = "USDA_crop")) %>%
       # then join cost_type information:
@@ -94,6 +95,7 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
       bind_rows(Sugarbeet_cost_data) ->
       L133.USDA_cost_data
 
+    # Convert L133.USDA_cost_data to same currency year - PRICE_YEAR
 
     # Lines 35-67 in original file
     # Select only variable price data, only in aglu.MODEL_COST_YEARS = 2008:2011 by default.
@@ -109,12 +111,6 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
       filter(cost_type == "variable", year %in% aglu.MODEL_COST_YEARS) %>%
       # select just identifying information of interest:
       select(GCAM_commodity, GTAP_crop, Item, year, value) %>%
-      # Convert costs from the given nominal dollars to 1975 dollars:
-      # (have to group by years and store in a dummy value1 column to get the conversion correct)
-      group_by(GCAM_commodity, GTAP_crop, Item, year, value) %>%
-      mutate(value1 = value * gdp_deflator(1975, base_year = year)) %>%
-      # ungroup, drop value and rename value1 to value to get the correct table of 1975 dollars/acre:
-      ungroup() %>% select(-value) %>% rename(value = value1) %>%
       # Calculate the average across years for each commodity-item combination, and convert to dollars/m2:
       #   (In particular, the average is computed across non-NA years. So if only 3 of 5 years are non-NA,
       #   the average is over those 3 numbers, not over 5 with 0's filled in for the NA's.)
@@ -321,7 +317,7 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
     # Produce outputs
     L133.USDA_cost_data %>%
       add_title("USDA cost database with some missing data filled in") %>%
-      add_units("Units = USD/acre and others") %>%
+      add_units(paste0("Units = ", PRICE_YEAR, " USD/acre and others")) %>%
       add_comments("USDA cost data with missing SugarBeet data extrapolated from the last") %>%
       add_comments("reported year (2007) using the average growth rate from 2000-2007.") %>%
       add_comments("Note: USDA_crops and USDA_item_cost are already mapped in") %>%
@@ -333,7 +329,7 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
 
     L133.ag_Cost_75USDkg_C %>%
       add_title("Costs of GCAM commodities") %>%
-      add_units("Units = 1975$/kg (75USDkg)") %>%
+      add_units(paste0("Units = ", PRICE_YEAR, "$/kg (75USDkg)")) %>%
       add_comments("GCAM commodity costs are determined by USDA cost data for USA, when available.") %>%
       add_comments("Commodities without USDA cost data have costs calculated using the average profit") %>%
       add_comments("among USDA commodities and LDS harvested area and production data.") %>%
