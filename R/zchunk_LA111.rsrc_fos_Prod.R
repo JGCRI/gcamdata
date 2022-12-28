@@ -210,7 +210,7 @@ module_energy_LA111.rsrc_fos_Prod <- function(command, ...) {
 
       L111.RsrcCurves_EJ_R_Ffos %>%
         add_title("Fossil resource supply curves", overwrite = TRUE) %>%
-        add_units("available: EJ; extractioncost: 1975$/GJ") %>%
+        add_units(paste0("available: EJ; extractioncost: ", PRICE_YEAR, "$/GJ")) %>%
         add_comments("Downscale GCAM3.0 supply curves to the country level (on the basis of resource") %>%
         add_comments("production) and aggregate by the new GCAM regions.") %>%
         add_comments("Use crude oil production shares as a proxy for unconventional oil resources.") %>%
