@@ -2,6 +2,7 @@
 # Title: Electricity technology retirement parameters
 # Units: Years for lifetime and half.life; Unitless for shutdown.rate; steepness; median.shutdown.point; profit.shutdown.steepness
 # Source: GCAM assumptions; generally consistent with other models
+# NoPriceTag
 # Comments: lifetime: maximum lifetime of cohort. If no retirement function is used; the entire cohort is retired in this number of years.
 #           shutdown.rate: portion of cohort retired each year; used by the phased-shutdown-decider retirement function.
 #           half.life: number of years at which 50% of the cohort is retired; using the s-curve-shutdown-decider retirement function.
