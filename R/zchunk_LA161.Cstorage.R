@@ -83,11 +83,11 @@ module_energy_LA161.Cstorage <- function(command, ...) {
              subresource = unique(A61.Cstorage_curves$subresource),
              # NOTE: currently assuming that all regions have the same price points
              # Rounding the digits here, as the fossil supply curves are normally already rounded to one digit
-             extractioncost = round(cost_2005USDtCO2 * emissions.CONV_C_CO2 / gdp_deflator(2005, 1990), energy.DIGITS_COST)) %>%
+             extractioncost = round(cost_2005USDtCO2 * emissions.CONV_C_CO2, energy.DIGITS_COST)) %>%
       select(-cost_2005USDtCO2) %>%
       # Produce output
       add_title("Carbon storage resource supply curves by GCAM region") %>%
-      add_units("Mt C") %>%
+      add_units(paste0("Mt C; ", PRICE_YEAR, "USD")) %>%
       add_comments("GCAM3 supply curves downscaled to country by land share") %>%
       add_comments("Country supply curves aggregated to GCAM4 region") %>%
       add_legacy_name("L161.RsrcCurves_MtC_R") %>%
