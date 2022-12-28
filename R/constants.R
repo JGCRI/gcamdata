@@ -35,7 +35,7 @@ MODEL_YEARS             <- c(MODEL_BASE_YEARS, MODEL_FUTURE_YEARS)
 MODEL_FINAL_BASE_YEAR   <- 2015
 # Year for automatic conversion of price data read into gcamdata
 PRICE_YEAR              <- 1975
-
+CARBON_PRICE_YEAR       <- 1990
 # GCAM constants ======================================================================
 
 gcam.USA_CODE            <- 1
