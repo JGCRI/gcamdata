@@ -32,14 +32,14 @@ module_gcamusa_LA161.Cstorage <- function(command, ...) {
     # Load required inputs
     states_subregions <- get_data(all_data, "gcam-usa/states_subregions") %>%
       select(state, grid_region)
-    Dooley_CCS_USA <- get_data(all_data, "gcam-usa/Dooley_CCS_USA")
+    Dooley_CCS_USA <- get_data(all_data, "gcam-usa/Dooley_CCS_USA", ensure_currency_year = CARBON_PRICE_YEAR)
 
     # ===================================================
     L161.Csupply_state <- Dooley_CCS_USA %>%
       # Add grid_region
       left_join_error_no_match(states_subregions, by = "state") %>%
-      # Convert prices to 1990 USD per ton C and amounts to C
-      mutate(Cost_1990USDtC = Cost_2005USDtCO2 * emissions.CONV_C_CO2 / gdp_deflator(2005, 1990),
+      # Convert prices to CARBON_PRICE_YEAR USD per ton C and amounts to C
+      mutate(Cost_1990USDtC = Cost_2005USDtCO2 * emissions.CONV_C_CO2,
              MtC = CO2_Mt * (1 / emissions.CONV_C_CO2))
 
     # NOTE: there may be grid regions (e.g. AK, HI) that do not have CO2 storage points. These are not assigned onshore CO2 storage curves
@@ -69,7 +69,7 @@ module_gcamusa_LA161.Cstorage <- function(command, ...) {
     # ===================================================
     # Produce outputs
       add_title("CO2 storage curves by FERC regions and grades") %>%
-      add_units("MtC; 1990 USD per tC") %>%
+      add_units(paste0("MtC; ", CARBON_PRICE_YEAR, " USD per tC")) %>%
       add_comments("Cumulative MtC calculated by grid region, then filtered to quartiles") %>%
       add_comments("Final MtC value is marginal increase") %>%
       add_legacy_name("L161.Cstorage_FERC") %>%
