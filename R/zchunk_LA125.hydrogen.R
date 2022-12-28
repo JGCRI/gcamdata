@@ -45,7 +45,14 @@ module_energy_LA125.hydrogen <- function(command, ...) {
 
 
     H2A_prod_coef <- get_data(all_data, "energy/H2A_IO_coef_data")
-    H2A_prod_cost <- get_data(all_data, "energy/H2A_NE_cost_data")
+    H2A_prod_cost <- get_data(all_data, "energy/H2A_NE_cost_data", ensure_currency_year = FALSE) %>% # multiple currency years, so need to convert manually
+      select(-notes) %>%
+      gather_years() %>%
+      mutate(value = if_else(units == "$2016/kg H2", value * gdp_deflator(PRICE_YEAR, 2016),
+                             if_else(units == "$2005/kg H2", value * gdp_deflator(PRICE_YEAR, 2005),
+                                     NA_real_)),
+             units = paste0("$", PRICE_YEAR, "/kg H2"))
+
     H2A_electrolyzer_NEcost_CF <- get_data(all_data, "energy/H2A_electrolyzer_NEcost_CF")
 
     L223.GlobalTechCapital_elec <- get_data(all_data, "L223.GlobalTechCapital_elec")
@@ -132,15 +139,10 @@ module_energy_LA125.hydrogen <- function(command, ...) {
 
 
 
-     # D. Convert Units from H2A ($/kg, GJ/kg) to GCAM (1975$/GJ, GJ/GJ)
+     # D. Convert Units from H2A ($/kg, GJ/kg) to GCAM (PRICE_YEAR$/GJ, GJ/GJ)
      H2A_prod_cost %>%
-       select(-notes)%>%
-       gather_years() %>%
-       mutate(value = if_else(units == "$2016/kg H2", value * gdp_deflator(1975,2016),
-                              if_else(units == "$2005/kg H2", value * gdp_deflator(1975,2005),
-                                      NA_real_)),
-              value=value/CONV_GJ_KGH2,
-              units="$1975/GJ H2")-> H2A_prod_cost_conv
+       mutate(value = value / CONV_GJ_KGH2,
+              units = paste0("$", PRICE_YEAR, "/GJ H2")) -> H2A_prod_cost_conv
 
      H2A_prod_coef %>%
        select(-notes)%>%
@@ -491,7 +493,7 @@ module_energy_LA125.hydrogen <- function(command, ...) {
 
     L125.Electrolyzer_IdleRatio_Params %>%
       add_title("Parameters of linear relationship between idle ratio and NE cost of electrolyzers") %>%
-      add_units("2016$/kg H2") %>%
+      add_units(paste0(PRICE_YEAR, "$/kg H2")) %>%
       add_comments("IdleRatio = 1 / Capacity factor; linear model used to estimate levelized cost as fn of reciprocal of CF") %>%
       add_precursors("energy/H2A_electrolyzer_NEcost_CF") ->
       L125.Electrolyzer_IdleRatio_Params

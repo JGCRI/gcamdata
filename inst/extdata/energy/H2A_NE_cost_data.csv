@@ -1,9 +1,9 @@
 # File: H2A_NE_cost_data.csv
 # Title: H2A non-energy costs of hydrogen production technologies
-# Units: Generally 2016$/kg, unless otherwise indicated
+# PriceUnits: Generally 2016$/kg, unless otherwise indicated as 2005$/kg
 # Source: H2A is the DOE EERE Hydrogen program's analysis model (https://www.hydrogen.energy.gov/h2a_analysis.html). H2A 2018 (generally), Results tab (2008 for nuclear thermal splitting)
 # Comments: Non-energy cost = required selling price - feedstock costs. Max improvement = improvement_to_2040 + 10%, unless otherwise stated
-# Column types: cccccnnnnc
+# Column types: cccccppnnc
 # ----------
 sector.name,subsector.name,technology,minicam.non.energy.input,units,2015,2040,improvement_to_2040,max_improvement,notes
 H2 central production,biomass,biomass to H2,non-energy,$2016/kg H2,1.0395,0.8729,0.1603,0.26,

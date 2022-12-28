@@ -2,7 +2,6 @@
 # Title: H2A energy input-output coefficients of hydrogen production technologies
 # Units: Generally GJ in /kg H2 out, unless otherwise indicated
 # Source: H2A is the DOE EERE Hydrogen program's analysis model (https://www.hydrogen.energy.gov/h2a_analysis.html). H2A 2018 (generally), Results tab (2008 for nuclear thermal splitting)
-# Comments: Non-energy cost = required selling price - feedstock costs. Max improvement = improvement_to_2040 + 10%, unless otherwise stated
 # Column types: cccccnnc
 # ----------
 sector.name,subsector.name,technology,minicam.energy.input,units,2015,2040,notes
