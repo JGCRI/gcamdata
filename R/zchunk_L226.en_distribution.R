@@ -373,7 +373,7 @@ module_energy_L226.en_distribution <- function(command, ...) {
 
     L226.GlobalTechCost_en %>%
       add_title("global final energy delivery subsector cost adders") %>%
-      add_units("?") %>%
+      add_units(paste0(PRICE_YEAR ,"USD/GJ")) %>%
       add_comments("interpolated to all model years based on assumptions in A26.globaltech_cost") %>%
       add_legacy_name("L226.GlobalTechCost_en") %>%
       add_precursors("energy/A26.globaltech_cost") ->

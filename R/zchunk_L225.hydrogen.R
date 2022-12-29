@@ -435,7 +435,7 @@ module_energy_L225.hydrogen <- function(command, ...) {
 
     L225.GlobalTechInputPMult %>%
       add_title("Price conversion from transportation technologies") %>%
-      add_comments(paste0("converts from $", CARBON_PRICE_YEAR, "/million-tkm to $", PRICE_YEAR, "/billion-tkm")) %>%
+      add_comments(paste0("converts from $", CARBON_PRICE_YEAR, "/kg-km to $", PRICE_YEAR, "/tkm")) %>%
       add_units("Unitless") ->
       L225.GlobalTechInputPMult_h2
 
