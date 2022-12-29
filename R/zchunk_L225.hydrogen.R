@@ -180,7 +180,7 @@ module_energy_L225.hydrogen <- function(command, ...) {
       complete(nesting(supplysector, subsector, technology, minicam.energy.input),
                year = c(year, MODEL_BASE_YEARS, MODEL_FUTURE_YEARS)) %>%
       mutate(price.unit.conversion = approx_fun(year, price.unit.conversion, rule = 2),
-             price.unit.conversion = price.unit.conversion * gdp_deflator(CARBON_PRICE_YEAR, PRICE_YEAR) / gdp_deflator(1990, 1975)) %>%
+             price.unit.conversion = price.unit.conversion * gdp_deflator(PRICE_YEAR, CARBON_PRICE_YEAR) / gdp_deflator(1975, 1990)) %>%
       rename(sector.name = supplysector, subsector.name = subsector) %>%
       select(LEVEL2_DATA_NAMES[["GlobalTechInputPMult"]]) %>%
       filter(year %in% c(MODEL_BASE_YEARS, MODEL_FUTURE_YEARS)) -> L225.GlobalTechInputPMult
@@ -435,7 +435,7 @@ module_energy_L225.hydrogen <- function(command, ...) {
 
     L225.GlobalTechInputPMult %>%
       add_title("Price conversion from transportation technologies") %>%
-      add_comments(paste0("converts from $", CARBON_PRICE_YEAR, "/tkm to $", PRICE_YEAR, "$/EJ")) %>%
+      add_comments(paste0("converts from $", CARBON_PRICE_YEAR, "/million-tkm to $", PRICE_YEAR, "/billion-tkm")) %>%
       add_units("Unitless") ->
       L225.GlobalTechInputPMult_h2
 
