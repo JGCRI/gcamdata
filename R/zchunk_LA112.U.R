@@ -43,7 +43,7 @@ module_energy_LA112.U <- function(command, ...) {
 
       # Produce outputs
       add_title("Uranium resource curves for global supply") %>%
-      add_units("1975$/kgU; MtU") %>%
+      add_units(paste0(PRICE_YEAR, "$/kgU; MtU")) %>%
       add_comments("Uranium supply and extraction costs imported from GCAM 3.0 data") %>%
       add_comments("All global supply is assigned to a single region") %>%
       add_legacy_name("L112.RsrcCurves_Mt_R_U") %>%
