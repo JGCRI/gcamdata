@@ -457,7 +457,7 @@ module_energy_L225.hydrogen <- function(command, ...) {
 
     L225.StubTechCost_h2 %>%
       add_title("Regional hydrogen production costs") %>%
-      add_units("$", PRICE_YEAR, "/GJ") %>%
+      add_units(paste0("$", PRICE_YEAR, "/GJ")) %>%
       add_comments("LCOH for the electrolyzer and renewables providing electricity.") %>%
       add_precursors("L125.Electrolyzer_IdleRatio_Params",
                      "L223.StubTechCapFactor_elec",
