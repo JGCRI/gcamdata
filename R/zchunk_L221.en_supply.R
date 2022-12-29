@@ -541,7 +541,7 @@ module_energy_L221.en_supply <- function(command, ...) {
 
     L221.GlobalTechCost_en %>%
       add_title("Costs of global technologies") %>%
-      add_units("1975$/GJ") %>%
+      add_units(paste0(PRICE_YEAR, "$/GJ")) %>%
       add_comments("A21.globaltech_cost interpolated to all model years") %>%
       add_legacy_name("L221.GlobalTechCost_en") %>%
       add_precursors("energy/A21.globaltech_cost") ->
@@ -573,7 +573,7 @@ module_energy_L221.en_supply <- function(command, ...) {
 
     L221.StubTechFractProd_en %>%
       add_title("Price and production fraction for secondary feed outputs") %>%
-      add_units("1975$, fraction") %>%
+      add_units(paste0(PRICE_YEAR, "$; fraction")) %>%
       add_comments("Prices, production of feed output from L108.ag_Feed_Mt_R_C_Y and L202.ag_consP_R_C_75USDkg") %>%
       add_legacy_name("L221.StubTechFractProd_en") %>%
       add_precursors("L108.ag_Feed_Mt_R_C_Y", "L202.ag_consP_R_C_75USDkg", "aglu/A_an_input_subsector") ->
@@ -581,7 +581,7 @@ module_energy_L221.en_supply <- function(command, ...) {
 
     L221.StubTechFractCalPrice_en %>%
       add_title("Calibrated prices of secondary outputs of feed from energy technologies (DDGS and feedcakes)") %>%
-      add_units("1975$/kg") %>%
+      add_units(paste0(PRICE_YEAR, "$/kg")) %>%
       add_comments("Value only relevant for share-weight calculation") %>%
       add_precursors("L108.ag_Feed_Mt_R_C_Y", "L202.ag_consP_R_C_75USDkg", "aglu/A_an_input_subsector") ->
       L221.StubTechFractCalPrice_en
@@ -596,7 +596,7 @@ module_energy_L221.en_supply <- function(command, ...) {
 
     L221.RsrcPrice_en %>%
       add_title("Resource price for feedcrop secondary output") %>%
-      add_units("1975$") %>%
+      add_units(paste0(PRICE_YEAR, "$")) %>%
       add_comments("A21.rsrc_info interpolated to all historical model time periods") %>%
       add_legacy_name("L221.RsrcPrice_en") %>%
       same_precursors_as(L221.StubTechFractCalPrice_en) ->
