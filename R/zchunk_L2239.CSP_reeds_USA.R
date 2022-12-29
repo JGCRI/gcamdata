@@ -168,7 +168,7 @@ module_gcamusa_L2239.CSP_reeds_USA <- function(command, ...) {
     L2239.CSP_potential_EJ %>%
       bind_rows(L2239.CSP_potential_EJ_non_reeds_states) -> L2239.CSP_potential_EJ
 
-    # L2239.CSP_matrix: Creating a matrix of costs (1975$/GJ) and resource potential (EJ) by state and class
+    # L2239.CSP_matrix: Creating a matrix of costs (PRICE_YEAR$/GJ) and resource potential (EJ) by state and class
     L2234.GlobalIntTechCapital_elecS_USA %>%
       filter(intermittent.technology == "CSP_peak",
              year == max(MODEL_BASE_YEARS)) %>%
@@ -307,8 +307,7 @@ module_gcamusa_L2239.CSP_reeds_USA <- function(command, ...) {
                                by = "Region") %>%
       left_join_error_no_match(L2239.CSP_CF, by = c("State", "CSP.class" ="class")) %>%
       mutate(fcr = L2239.fcr,
-             grid.cost = fcr * cost / (CONV_YEAR_HOURS * CF * CONV_MWH_GJ),
-             grid.cost = grid.cost* gdp_deflator(1975, 2004)) %>%
+             grid.cost = fcr * cost / (CONV_YEAR_HOURS * CF * CONV_MWH_GJ)) %>%
       group_by(State) %>%
       summarise(grid.cost = min(min(grid.cost), mean(grid.cost))) %>%
       ungroup() %>%
@@ -520,7 +519,7 @@ module_gcamusa_L2239.CSP_reeds_USA <- function(command, ...) {
 
     L2239.GrdRenewRsrcCurves_CSP_reeds_USA %>%
       add_title("Graded Supply Curves of CSP Resources at the State-Level") %>%
-      add_units("available: fraction of maxSubResource; extractioncost: $1975/GJ") %>%
+      add_units(paste0("available: fraction of maxSubResource; extractioncost: $", PRICE_YEAR, "/GJ")) %>%
       add_comments("Data from ReEDS") %>%
       add_legacy_name("L2239.GrdRenewRsrcCurves_CSP_USA_reeds") %>%
       same_precursors_as("L2239.DeleteUnlimitRsrc_reeds_USA") ->
@@ -573,7 +572,7 @@ module_gcamusa_L2239.CSP_reeds_USA <- function(command, ...) {
 
     L2239.StubTechCost_CSP_reeds_USA %>%
       add_title("State-specific Grid Connection Cost Adders for CSP Technologies") %>%
-      add_units("$1975/GJ") %>%
+      add_units(paste0("$", PRICE_YEAR, "/GJ")) %>%
       add_comments("Grid connection cost adders are read in for all 18 states in the ReEDS CSP data set") %>%
       add_comments("This includes 9 regions with only 1 CSP grade which are not assigned CSP resource supply curves") %>%
       add_comments("Data from ReEDS") %>%
