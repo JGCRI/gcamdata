@@ -32,7 +32,7 @@ module_energy_LA117.tradbio <- function(command, ...) {
 
     # Load required inputs
     L1012.en_bal_EJ_R_Si_Fi_Yh <- get_data(all_data, "L1012.en_bal_EJ_R_Si_Fi_Yh")
-    A17.tradbio_curves <- get_data(all_data, "energy/A17.tradbio_curves", strip_attributes = TRUE)
+    A17.tradbio_curves <- get_data(all_data, "energy/A17.tradbio_curves")
 
     # ===================================================
 
@@ -56,7 +56,7 @@ module_energy_LA117.tradbio <- function(command, ...) {
     # Produce outputs
 
       add_title("Traditional biomass resources by GCAM region ") %>%
-      add_units("available: EJ; extractioncost: 1975$/GJ") %>%
+      add_units(paste0("available: EJ; extractioncost: ", PRICE_YEAR, "$/GJ")) %>%
       add_comments("Multiply the max historical amount used in each region by the supply curve amount") %>%
       add_legacy_name("L117.RsrcCurves_EJ_R_tradbio") %>%
       add_precursors("L1012.en_bal_EJ_R_Si_Fi_Yh", "energy/A17.tradbio_curves") ->
