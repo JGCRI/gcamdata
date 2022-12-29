@@ -262,7 +262,7 @@ module_aglu_L240.ag_trade <- function(command, ...) {
 
     L240.TechCost_tra %>%
       add_title("Technology costs for traded ag commodities") %>%
-      add_units("1975$/kg") %>%
+      add_units(paste0(PRICE_YEAR, "$/kg")) %>%
       add_comments("Exogenous cost to reflect shipping + handling of traded commodities") %>%
       add_precursors("common/GCAM_region_names",
                      "aglu/A_agTradedTechnology") ->

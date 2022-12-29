@@ -1,9 +1,10 @@
 # File: A_agRegionalTechnology.csv
 # Title: Technology-level assumptions of regional crop agricultural markets
 # Units: Various
+# PriceUnits: 1975$/kg
 # Comments: pass-through subsectors; there is no technology competition
 # Source: NA
-# Column types: ccccnnnc 
+# Column types: ccccnpnc 
 # ----------
 supplysector,subsector,technology,minicam.energy.input,coefficient,input.cost,share.weight,market.name
 regional corn,domestic corn,domestic corn,Corn,1,0,1,regional
