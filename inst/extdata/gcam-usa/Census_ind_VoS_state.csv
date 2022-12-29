@@ -1,8 +1,8 @@
 # File: Census_ind_VoS_state.csv
 # Title: Value of Shipments from Manufacturing by State
-# Units: thousand USD in 2008
+# PriceUnits: thousand USD in 2008
 # Source: US Census Bureau Industry Data
-# Column types: ccicinn 
+# Column types: ccicipp
 # ----------
 state_name,state,NAICS_code,industry,year,VoS_thousUSD_NA,VoS_thousUSD
 Alabama,AL,31,Manufacturing,2008,116400000,116400000

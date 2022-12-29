@@ -106,7 +106,7 @@ module_energy_LA116.geo <- function(command, ...) {
       select(GCAM_region_ID, resource, subresource, grade, available, extractioncost) %>%
       # Documentation
       add_title("Hydrothermal geothermal supply curves by GCAM region") %>%
-      add_units("EJ/yr") %>%
+      add_units(paste0("EJ/yr;", PRICE_YEAR, "USD")) %>%
       add_comments("Downscale GCAM 3.0 geothermal supply curves to countries on land area basis; aggregate to GCAM regions") %>%
       add_legacy_name("L116.RsrcCurves_EJ_R_geo") %>%
       add_precursors("common/iso_GCAM_regID",
@@ -133,7 +133,7 @@ module_energy_LA116.geo <- function(command, ...) {
       select(GCAM_region_ID, resource, subresource, grade, available, extractioncost) %>%
       # Documentation
       add_title("Enhanced Geothermal Systems (EGS) supply curves by GCAM region") %>%
-      add_units("EJ/yr") %>%
+      add_units(paste0("EJ/yr;", PRICE_YEAR, "USD")) %>%
       add_comments("Downscale GCAM 3.0 EGS supply curves to countries on land area basis; aggregate to GCAM regions") %>%
       add_legacy_name("L116.RsrcCurves_EJ_R_EGS") %>%
       add_precursors("common/iso_GCAM_regID",
