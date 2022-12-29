@@ -1,8 +1,8 @@
 # File: A25.globaltech_cost.csv
 # Title: Hydrogen non-energy costs
-# Units: 1975$/GJ
+# PriceUnits: 1975$/GJ
 # Comments: Solar panel and wind turbine costs are based on 20% and 46% capacity factors respectively.  Distribution and dispensing costs from HDSAM for Columbus OH. Costs decrease from 2030 to 2100 as follows: 25% reduction for distribution, 20% reduction for dispensing from pipelines, 10% reduction for dispensing from liquid trucks
-# Column types: ccccnnnnnnnnnnnnnnnnnnn
+# Column types: ccccppppppppppppppppppp
 # ----------
 supplysector,subsector,technology,minicam.non.energy.input,1971,2015,2020,2025,2030,2035,2040,2045,2050,2055,2060,2065,2070,2075,2080,2085,2090,2095,2100
 H2 central production,coal,coal chemical,non-energy,2.299229361,2.299229361,2.220280453,2.144042424,2.070422188,1.999329859,1.930678636,1.864384698,1.800367102,1.738547686,1.701429727,1.701429727,1.701429727,1.701429727,1.701429727,1.701429727,1.701429727,1.701429727,1.701429727
