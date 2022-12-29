@@ -440,7 +440,7 @@ get_ssp_regions <- function(pcGDP, reg_names, income_group,
 
   pcGDP %>%
     left_join_error_no_match(reg_names, by = "GCAM_region_ID") %>%
-    mutate(value = value * gdp_deflator(year_filter, 1990)) %>%
+    mutate(value = value * gdp_deflator(year_filter, PRICE_YEAR)) %>%
     filter(scenario == ssp_filter, year == year_filter) %>%
     select(GCAM_region_ID, value, region) ->
     pcGDP_yf

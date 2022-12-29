@@ -1,8 +1,8 @@
 # File: A10.EnvironCost_SSPs.csv
 # Title: Environmental Costs only for fossil resources as specified in the SSPs
-# Units: $/GJ
+# PriceUnits: $/GJ
 # Source: Calvin et al. 2017. The SSP4: A world of deepening inequality. Global Environmental Change.
-# Column types: ccccinnnnnnnnnnnnnnnnn 
+# Column types: ccccpppppppppppppppppp 
 # ----------
 SSP,resource,reserve.subresource,resource.reserve.technology,2015,2020,2025,2030,2035,2040,2045,2050,2055,2060,2065,2070,2075,2080,2085,2090,2095,2100
 SSP1,coal,coal,coal,0,0.080294118,0.160588235,0.240882353,0.321176471,0.401470588,0.481764706,0.562058824,0.642352941,0.722647059,0.802941176,0.883235294,0.963529412,1.043823529,1.124117647,1.204411765,1.284705882,1.365
