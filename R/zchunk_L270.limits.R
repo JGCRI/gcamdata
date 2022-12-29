@@ -340,14 +340,14 @@ module_energy_L270.limits <- function(command, ...) {
 
     L270.RenewRsrcPrice %>%
       add_title("Prices for the biomass externality cost resource") %>%
-      add_units("1975$/GJ") %>%
+      add_units(paste0(PRICE_YEAR, "$/GJ")) %>%
       add_comments("Initial price guesses") %>%
       same_precursors_as(L270.RenewRsrc) ->
       L270.RenewRsrcPrice
 
     L270.GrdRenewRsrcCurves %>%
       add_title("Graded renewable supply curve for the biomass externality cost resource") %>%
-      add_units("available: EJ; extractioncost: 1975$/GJ") %>%
+      add_units(paste0("available: EJ; extractioncost: ", PRICE_YEAR, "$/GJ")) %>%
       add_comments("Creates the renewable resource which maps purpose grown biomass") %>%
       add_comments("deployment to an additional cost meant to reflect various externalities.") %>%
       add_precursors("energy/A27.rsrc_info",
