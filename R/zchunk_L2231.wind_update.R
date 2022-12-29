@@ -277,14 +277,14 @@ module_energy_L2231.wind_update <- function(command, ...) {
       summarise(cost = sum(cost)) %>%
       ungroup() -> L2231.onshore_wind_cost_per_kW
 
-    # Now to convert 2010 $/kW cost to 1975 $/GJ cost
+    # Now to convert PRICE_YEAR $/kW cost to PRICE_YEAR $/GJ cost
     L2231.onshore_wind_cost_per_kW %>%
       left_join_error_no_match(L2231.StubTechCapFactor_onshore_wind %>%
                                  select(region, capacity.factor) %>%
                                  unique(),
                                by = c("region")) %>%
       mutate(fcr = L2231.onshore_wind_fcr,
-             grid.cost = fcr * cost / (CONV_YEAR_HOURS * capacity.factor * CONV_KWH_GJ) * gdp_deflator(1975, 2010)) -> L2231.grid.cost
+             grid.cost = fcr * cost / (CONV_YEAR_HOURS * capacity.factor * CONV_KWH_GJ)) -> L2231.grid.cost
 
     # Set grid connection cost for all regions
     GCAM_region_names %>%
@@ -328,7 +328,7 @@ module_energy_L2231.wind_update <- function(command, ...) {
 
     L2231.SmthRenewRsrcCurves_onshore_wind %>%
       add_title("Smooth Renewable Resource Curve Onshore Wind") %>%
-      add_units("Unitless") %>%
+      add_units(paste0("maxSubResource: EJ; mid.price: ", PRICE_YEAR, "$/GJ")) %>%
       add_comments("Resource curve and prices for onshore wind by region") %>%
       add_legacy_name("L2231.SmthRenewRsrcCurves_onshore_wind") %>%
       add_precursors( "common/iso_GCAM_regID", "common/GCAM_region_names", "energy/mappings/fuel_energy_input",  "energy/A20.wind_class_CFs", "L113.globaltech_capital_ATB", "L113.globaltech_OMfixed_ATB", "energy/NREL_onshore_energy", "L223.StubTechCapFactor_elec") ->
@@ -352,7 +352,7 @@ module_energy_L2231.wind_update <- function(command, ...) {
 
     L2231.StubTechCost_onshore_wind %>%
       add_title("Cost of onshore wind") %>%
-      add_units("Unitless") %>%
+      add_units(paste0( PRICE_YEAR, "$/GJ")) %>%
       add_comments("Regional price adjustment of input cost by region") %>%
       add_legacy_name("L2231.StubTechCost_onshore_wind") %>%
       same_precursors_as("L2231.SmthRenewRsrcCurves_onshore_wind") %>%
