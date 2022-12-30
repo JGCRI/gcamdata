@@ -372,7 +372,7 @@ module_energy_L262.dac <- function(command, ...) {
         filter(scenario == sce) %>%
         select(-c(scenario))%>%
         add_title(paste("Cost coefficients of dac -", sce)) %>%
-        add_units("1975$/kg for supplysector dac; 1975$/GJ for supplysector process heat dac") %>%
+        add_units(paste0(PRICE_YEAR, "$/kg for supplysector dac; ", PRICE_YEAR, "$/GJ for supplysector process heat dac")) %>%
         add_comments(sce) %>%
         add_comments("Includes non-energy related capture costs only per kgC captured from the atmosphere. Storage costs will be computed endogenously through the carbon storage markets. Additional non-energy cost of process heat dac assumed zero.") %>%
         add_legacy_name(paste0("L262.GlobalTechCost_dac_", tolower(sce))) %>%
@@ -488,7 +488,7 @@ module_energy_L262.dac <- function(command, ...) {
 
     L262.GlobalTechCost_dac %>%
       add_title("Non-energy costs of global dac manufacturing technologies") %>%
-      add_units("1975$/kg for supplysector dac; 1975$/GJ for supplysector process heat dac") %>%
+      add_units(paste0(PRICE_YEAR, "$/kg for supplysector dac; ", PRICE_YEAR, "$/GJ for supplysector process heat dac")) %>%
       add_comments("Includes non-energy related capture costs only per kgC captured from the atmosphere. Storage costs will be computed endogenously through the carbon storage markets. Additional non-energy cost of process heat dac assumed zero.") %>%
       add_precursors("energy/A62.globaltech_cost_ssp1","energy/A62.globaltech_cost_ssp2","energy/A62.globaltech_cost_ssp3","energy/A62.globaltech_cost_ssp4","energy/A62.globaltech_cost_ssp5") ->
       L262.GlobalTechCost_dac
