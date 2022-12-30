@@ -197,10 +197,10 @@ module_gcamusa_L226.en_distribution_USA <- function(command, ...) {
     EIA_state_energy_prices %>%
       # save NA for processing
       left_join(select(states_subregions, grid_region, state_name), by = c("State" = "state_name")) %>%
-      mutate(coal_adj = (Coal -  EIA_US_C_NG_DFO_prices$Coal) * CONV_BTU_KJ * gdp_deflator(1975, 2009),
+      mutate(coal_adj = (Coal -  EIA_US_C_NG_DFO_prices$Coal) * CONV_BTU_KJ,
              gas_adj =  if_else(State == "Hawaii", gcamusa.GAS_ADJ_THRESH,
-                                (Natural.gas - EIA_US_C_NG_DFO_prices$Natural.gas) * CONV_BTU_KJ * gdp_deflator(1975, 2009)),
-             liq_adj = (Distillate.fuel.oil - EIA_US_C_NG_DFO_prices$Distillate.fuel.oil)* CONV_BTU_KJ  * gdp_deflator(1975, 2009)) ->
+                                (Natural.gas - EIA_US_C_NG_DFO_prices$Natural.gas) * CONV_BTU_KJ),
+             liq_adj = (Distillate.fuel.oil - EIA_US_C_NG_DFO_prices$Distillate.fuel.oil)* CONV_BTU_KJ) ->
       EIA_tmp
 
     # Step 3: get maximum coal adjustment for replacing NA's:
@@ -337,7 +337,7 @@ module_gcamusa_L226.en_distribution_USA <- function(command, ...) {
 
     L226.TechCost_electd_USA %>%
       add_title("Tech costs for elec T&D when using regional electricity markets") %>%
-      add_units("1975$") %>%
+      add_units(paste0(PRICE_YEAR, "$")) %>%
       add_comments("Tech costs for elec T&D when using regional electricity markets") %>%
       add_comments("The elect_td sectors can not use the global tech database as their input is different.") %>%
       add_legacy_name("L226.TechCost_electd_USA") %>%
@@ -402,7 +402,7 @@ module_gcamusa_L226.en_distribution_USA <- function(command, ...) {
     if(exists("L226.TechCost_en_USA")) {
       L226.TechCost_en_USA %>%
         add_title("Regional price adjustments/cost adders for USA energy.") %>%
-        add_units("1975$/GJ") %>%
+        add_units(paste0(PRICE_YEAR, "$/GJ")) %>%
         add_comments("Regional price adjustments/cost adders for USA energy") %>%
         add_legacy_name("L226.TechCost_en_USA") %>%
         add_precursors("gcam-usa/states_subregions",

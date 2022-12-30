@@ -1,8 +1,8 @@
 # File: EIA_state_energy_prices.csv
 # Title: EIA_state_energy_prices
 # Source: http://www.eia.gov/state/seds/data.cfm?incfile=/state/seds/sep_sum/html/sum_pr_tot.html&sid=US  Table E1. Primary Energy Electricity and Total Energy Price Estimates 2017
-# Units: Dollars per Million Btu
-# Column types: cnnnnnnnnnnnnnnn 
+# PriceUnits: 2009 Dollars per Million Btu
+# Column types: cppppppppppppppp 
 # ----------
 State,Coal,Natural.gas,Distillate.fuel.oil,Jet.fuel,LPG,Motor.gasoline,Residual.fuel.oil,Other.petroleum,Petroleum.total,Nuclear.fuel,Biomass,Total.primary,Electricity,Retail.electricity,Total.energy
 Alabama,2.42,4.42,17.36,11.65,20.19,18.5,7.68,22.69,17.98,0.74,3.03,6.67,2.02,28.85,15.97
