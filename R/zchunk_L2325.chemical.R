@@ -597,7 +597,7 @@ module_energy_L2325.chemical <- function(command, ...) {
 
     L2325.GlobalTechCost_chemical %>%
       add_title("Non-energy costs of global chemical manufacturing technologies") %>%
-      add_units("1975$/kg for supplysector chemical; 1975$/GJ for supplysector process heat chemical") %>%
+      add_units(paste0(PRICE_YEAR, "$/kg for supplysector chemical; ", PRICE_YEAR, "$/GJ for supplysector process heat chemical")) %>%
       add_comments("For chemical sector, the Non-energy costs of global chemical manufacturing technologies are calculated then adjusted with CCS to include CO2 capture costs") %>%
       add_legacy_name("L2325.GlobalTechCost_chemical") %>%
       add_precursors("energy/A325.globaltech_cost", "energy/A325.globaltech_coef") ->
