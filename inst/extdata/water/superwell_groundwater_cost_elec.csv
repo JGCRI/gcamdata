@@ -3,7 +3,8 @@
 # Comments: Costs and depth bins are processed from superwell output. elec_coef = (Specific_weight * TotalHead / Pump_Efficiency) / 1000 * Annual_Operation_time / 3600 * conv_m3_km3
 # Source: Superwell model: https://github.com/JGCRI/superwell
 # Units: costs in 1975USD per m3; available in km3; elec_coef in kwh per m3
-# Column types: cicnnnn
+# PriceUnits: 1975USD/m3
+# Column types: cicppnn
 # ----------
 Country,GCAM_basin_ID,cost_bin,minNEcost,maxNEcost,available,elec_coef
 Angola,162,"(0.00618,0.0443]",0.015398810537359857,0.017314436836620768,0.6516719676523857,0.7869424121715171

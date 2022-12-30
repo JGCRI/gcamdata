@@ -173,7 +173,7 @@ module_water_L101.water_supply_groundwater <- function(command, ...) {
 
     L101.DepRsrcCurves_ground_uniform_bm3 %>%
       add_title("Uniform groundwater non-renewable resource curves") %>%
-      add_units("km^3/yr") %>%
+      add_units(paste0(PRICE_YEAR, "USD; km^3/yr")) %>%
       add_comments("These curves are not based on estimates of actual groundwater volumes") %>%
       add_legacy_name("L101.DepRsrcCurves_ground_uniform_bm3") %>%
       add_precursors("water/groundwater_uniform") ->
@@ -181,7 +181,7 @@ module_water_L101.water_supply_groundwater <- function(command, ...) {
 
     L101.groundwater_grades_constrained_bm3 %>%
       add_title("Realistic groundwater non-renewable resource curves") %>%
-      add_units("km^3/yr") %>%
+      add_units(paste0(PRICE_YEAR, "USD; km^3/yr")) %>%
       add_comments("These curves are based on global estimates of groundwater volumes") %>%
       add_legacy_name("L101.groundwater_grades_constrained_bm3") %>%
       add_precursors("common/iso_GCAM_regID",
@@ -191,7 +191,7 @@ module_water_L101.water_supply_groundwater <- function(command, ...) {
 
     L101.groundwater_depletion_bm3 %>%
       add_title("Groundwater depletion trends") %>%
-      add_units("km^3/yr") %>%
+      add_units(paste0(PRICE_YEAR, "USD; km^3/yr")) %>%
       add_comments("Used for calibration of historical withdrawals") %>%
       add_legacy_name("L101.groundwater_depletion_bm3") %>%
       add_precursors("water/groundwater_trend_watergap",
