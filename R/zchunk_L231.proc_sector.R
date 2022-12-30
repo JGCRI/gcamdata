@@ -413,7 +413,7 @@ module_emissions_L231.proc_sector <- function(command, ...) {
 
     L231.GlobalTechCost_urb_ind %>%
       add_title("Urban and Industrial Processes Global Technology Costs") %>%
-      add_units("units") %>%
+      add_units(paste0(PRICE_YEAR, "$")) %>%
       add_comments("A31.globaltech_cost interpolated to model years") %>%
       add_legacy_name("L231.GlobalTechCost_urb_ind") %>%
       add_precursors("emissions/A31.globaltech_cost") ->
