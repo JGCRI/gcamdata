@@ -186,7 +186,7 @@ module_gcamusa_L2247.elecS_tech_costs_USA <- function(command, ...) {
 
     L2247.GlobalTechCost_ptc_USA %>%
       add_title("Production cost adjustments for non-intermittent electricity sector technologies in USA") %>%
-      add_units("1975$US/GJ") %>%
+      add_units(paste0(PRICE_YEAR, "$US/GJ")) %>%
       add_comments("Read in Poduction Tax Credits as cost adder (subtracter)") %>%
       add_legacy_name("L2247.GlobalTechCost_ptc_USA") %>%
       add_precursors("gcam-usa/A23.ptc_USA",
@@ -196,7 +196,7 @@ module_gcamusa_L2247.elecS_tech_costs_USA <- function(command, ...) {
 
     L2247.GlobalIntTechCost_ptc_USA %>%
       add_title("Production cost adjustments for intermittent electricity sector technologies in USA") %>%
-      add_units("1975$US/GJ") %>%
+      add_units(paste0(PRICE_YEAR, "$US/GJ")) %>%
       add_comments("Read in Poduction Tax Credits as cost adder (subtracter)") %>%
       add_legacy_name("L2247.GlobalIntTechCost_ptc_USA") %>%
       add_precursors("gcam-usa/A23.ptc_inttech_USA",
