@@ -519,7 +519,7 @@ module_energy_L222.en_transformation <- function(command, ...) {
 
     L222.GlobalTechCost_en %>%
       add_title("Costs of global technologies for energy transformation") %>%
-      add_units("1975USD/GJ") %>%
+      add_units(paste0(PRICE_YEAR, "USD/GJ")) %>%
       add_comments("Values interpolated to model years from assumptions in A22.globaltech_cost") %>%
       add_legacy_name("L222.GlobalTechCost_en") %>%
       add_precursors("energy/A22.globaltech_cost") ->
@@ -631,7 +631,7 @@ module_energy_L222.en_transformation <- function(command, ...) {
 
     L222.GlobalTechCost_low_en %>%
       add_title("Low-tech costs of global technologies for energy transformation") %>%
-      add_units("1975 USD/GJ") %>%
+      add_units(paste0(PRICE_YEAR, "USD/GJ")) %>%
       add_comments("Low tech cost projections interpolated to model years from pessmistic cost assumptions contained in A22.globaltech_cost_low") %>%
       add_legacy_name("L222.GlobalTechCost_low_en") %>%
       add_precursors("energy/A22.globaltech_cost_low") ->

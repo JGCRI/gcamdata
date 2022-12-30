@@ -1,8 +1,8 @@
 # File: A22.globaltech_cost_low.csv
 # Title: Primary energy transformation technologies default cost assumptions
-# Units: 1975$US/GJ
+# PriceUnits: 1975$US/GJ
 # Description: global capital cost assumptions for energy transformation technologies used to interpolate model capital costs. Low tech assumptions are more expensive
-# Column types: ccccnnnn 
+# Column types: ccccpppp 
 # ----------
 supplysector,subsector,technology,minicam.non.energy.input,1971,2010,2015,2100
 gas processing,biomass gasification,biomass gasification,non-energy,3.85,3.85,3.85,4.065
