@@ -492,7 +492,7 @@ verify_identical_prebuilt <- function(..., pb = NULL) {
 get_price_year <- function(unit) {
   price_year_start <- gregexpr("[0-9]{4}", unit)
 
-  if(length(price_year_start) < 1 | length(price_year_start[[1]]) < 1 | price_year_start[[1]] < 1){
+  if(length(price_year_start) < 1 | length(price_year_start[[1]]) < 1 | min(price_year_start[[1]]) < 1){
     stop("No year found in price units")
   }
 

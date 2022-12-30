@@ -255,7 +255,7 @@ module_water_L271.desalination <- function(command, ...) {
 
     L271.GlobalTechCost_desal %>%
       add_title("Desalinated water global technology costs") %>%
-      add_units("1975$/m3") %>%
+      add_units(paste0(PRICE_YEAR, "$/m3")) %>%
       add_comments("Includes levelized capital and non-fuel operating costs of desalination") %>%
       add_precursors("common/GCAM_region_names", "water/A71.globaltech_cost") ->
       L271.GlobalTechCost_desal
