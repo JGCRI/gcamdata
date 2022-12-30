@@ -705,7 +705,7 @@ module_energy_L232.other_industry <- function(command, ...) {
 
     L232.GlobalTechCost_ind %>%
       add_title("Capital costs of global industrial technologies") %>%
-      add_units("1975$/GJ") %>%
+      add_units(paste0(PRICE_YEAR, "$/GJ")) %>%
       add_comments("For industry sector, the capital costs from A32.globaltech_cost are interpolated into all base years and future years") %>%
       add_legacy_name("L232.GlobalTechCost_ind") %>%
       add_precursors("energy/A32.globaltech_cost") ->
