@@ -233,7 +233,7 @@ module_gcamusa_L245.water_demand_municipal <- function(command, ...) {
 
     L245.TechCost_USA %>%
       add_title("Municipal water non-energy costs for US states") %>%
-      add_units("1975USD/m3") %>%
+      add_units(paste0(PRICE_YEAR, "USD/m3")) %>%
       add_comments("Costs joined to sector infromation and expanded for all model years") %>%
       add_legacy_name("L245.TechCost_USA") %>%
       add_precursors("water/A45.sector",
