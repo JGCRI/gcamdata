@@ -1,7 +1,7 @@
 # File: A24.globaltech_cost.csv
 # Title: District heat non-energy costs
-# Units: 1975$/GJ
-# Column types: ccccnnnnnnnnn 
+# PriceUnits: 1975$/GJ
+# Column types: ccccppppppppp 
 # ----------
 supplysector,subsector,technology,minicam.non.energy.input,1971,2005,2020,2035,2050,2065,2080,2095,2100
 district heat,biomass,biomass,non-energy,2.129,2.129,2.129,2.005,1.888,1.778,1.674,1.576,1.576
