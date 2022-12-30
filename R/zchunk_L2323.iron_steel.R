@@ -401,7 +401,7 @@ module_energy_L2323.iron_steel <- function(command, ...) {
 
     L2323.GlobalTechCost_iron_steel %>%
       add_title("Non-energy costs of global iron and steel manufacturing technologies") %>%
-      add_units("1975$/kg for supplysector iron_steel; 1975$/GJ for supplysector process heat iron_steel") %>%
+      add_units(paste0(PRICE_YEAR, "$/kg for supplysector iron_steel; ", PRICE_YEAR, "$/GJ for supplysector process heat iron_steel")) %>%
       add_comments("For iron and steel sector, the Non-energy costs of global iron and steel manufacturing technologies are calculated then adjusted with CCS to include CO2 capture costs") %>%
       add_legacy_name("L2323.GlobalTechCost_iron_steel") %>%
       add_precursors("energy/A323.globaltech_cost", "energy/A323.globaltech_co2capture", "energy/A323.globaltech_coef") ->
