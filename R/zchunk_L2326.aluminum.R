@@ -535,7 +535,7 @@ module_energy_L2326.aluminum <- function(command, ...) {
 
     L2326.GlobalTechCost_aluminum %>%
       add_title("Non-energy costs of global aluminum manufacturing technologies") %>%
-      add_units("1975$/kg for supplysector aluminum; 1975$/GJ for supplysector process heat aluminum") %>%
+      add_units(paste0(PRICE_YEAR, "$/kg for supplysector aluminum; ", PRICE_YEAR, "$/GJ for supplysector process heat aluminum")) %>%
       add_comments("For aluminum sector, the Non-energy costs of global aluminum manufacturing technologies are calculated then adjusted with CCS to include CO2 capture costs") %>%
       add_legacy_name("L2326.GlobalTechCost_aluminum") %>%
       add_precursors("energy/A326.globaltech_cost", "energy/A326.globaltech_coef") ->
