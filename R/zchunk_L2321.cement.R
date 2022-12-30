@@ -219,10 +219,10 @@ module_energy_L2321.cement <- function(command, ...) {
     # Note: adjusting non-energy costs of technologies with CCS to include CO2 capture costs
     #       The additional CCS-related non-energy costs are not included in the global technology assessment.
     #       Calculate here in two steps:
-    #       (1) calculate the additional CCS costs per unit of carbon produced in 1975$
+    #       (1) calculate the additional CCS costs per unit of carbon produced in PRICE_YEAR$
     #       (2) calculate the quantity of CO2 produced per unit of cement produced (in kgC per kg cement)
-    cement_CCS_cost_total_1975USDtC <- energy.CEMENT_CCS_COST_2000USDTCO2 * gdp_deflator(1975, base_year = 2000) * emissions.CONV_C_CO2
-    CO2_storage_cost_1975USDtC <- energy.CO2_STORAGE_COST_1990_USDTC * gdp_deflator(1975, base_year = 1990)
+    cement_CCS_cost_total_1975USDtC <- energy.CEMENT_CCS_COST_2000USDTCO2 * gdp_deflator(PRICE_YEAR, base_year = 2000) * emissions.CONV_C_CO2
+    CO2_storage_cost_1975USDtC <- energy.CO2_STORAGE_COST_1990_USDTC * gdp_deflator(PRICE_YEAR, base_year = 1990)
     cement_CCS_cost_1975USDtC <- cement_CCS_cost_total_1975USDtC - CO2_storage_cost_1975USDtC
 
     L2321.GlobalTechCapture_cement %>%
@@ -532,7 +532,7 @@ module_energy_L2321.cement <- function(command, ...) {
 
     L2321.GlobalTechCost_cement %>%
       add_title("Non-energy costs of global cement manufacturing technologies") %>%
-      add_units("1975$/kg for supplysector cement; 1975$/GJ for supplysector process heat cement") %>%
+      add_units(paste0(PRICE_YEAR, " $/kg for supplysector cement; ", PRICE_YEAR, "$/GJ for supplysector process heat cement")) %>%
       add_comments("For cement sector, the Non-energy costs of global cement manufacturing technologies are calculated then adjusted with CCS to include CO2 capture costs") %>%
       add_legacy_name("L2321.GlobalTechCost_cement") %>%
       add_precursors("energy/A321.globaltech_cost", "energy/A321.globaltech_co2capture", "energy/A321.globaltech_coef", "emissions/A_PrimaryFuelCCoef") ->
