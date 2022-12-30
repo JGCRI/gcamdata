@@ -246,7 +246,7 @@ module_aglu_L2042.resbio_input_irr_mgmt <- function(command, ...) {
       L2042.AgResBio_For
     L204.AgResBioCurve_For %>%
       add_title("Forest residue biomass supply curves") %>%
-      add_units("Fraction Harvested") %>%
+      add_units(paste0(PRICE_YEAR, "$/GJ; Fraction Harvested")) %>%
       add_comments("For each region-supplySector-supplySubsector-ProductionTech combination in L2042.AgResBio_For, ") %>%
       add_comments("base supply curves are read in from A_resbio_curves and then in specified calibration years MODEL_BASE_YEARS, ") %>%
       add_comments("replaced by fractions in  A_bio_frac_prod_R to form the table of Forest resbio supply curves for each region and year.") %>%
@@ -270,7 +270,7 @@ module_aglu_L2042.resbio_input_irr_mgmt <- function(command, ...) {
 
     L204.StubResBioCurve_Mill %>%
       add_title("Mill residue biomass supply curves") %>%
-      add_units("Fraction harvested") %>%
+      add_units(paste0(PRICE_YEAR, "$/GJ; Fraction Harvested")) %>%
       add_comments("Sector, subsector, and technology combinations from L2042.GlobalResBio_Mill are repeated for each GCAM region and year, ") %>%
       add_comments("base supply curves are read in from A_resbio_curves and then in specified calibration years MODEL_BASE_YEARS, ") %>%
       add_comments("replaced by fractions in  A_bio_frac_prod_R to form the table of Mill resbio supply curves for each region and year.") %>%
@@ -301,7 +301,7 @@ module_aglu_L2042.resbio_input_irr_mgmt <- function(command, ...) {
 
     L2042.AgResBioCurve_ag_irr_mgmt %>%
       add_title("Agriculture residue biomass supply curves") %>%
-      add_units("Fraction harvested") %>%
+      add_units(paste0(PRICE_YEAR, "$/GJ; Fraction Harvested")) %>%
       add_comments("For each region-supplySector-supplySubsector-ProductionTech-irrigation-tech combination in L2042.AgResBio_ag_irr_mgmt, ") %>%
       add_comments("base supply curves are read in from A_resbio_curves to form the table of Agriculture resbio supply curves for each region and year.") %>%
       add_legacy_name("L2042.AgResBioCurve_ag_irr_mgmt") %>%
