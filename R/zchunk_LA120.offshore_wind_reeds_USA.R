@@ -330,7 +330,7 @@ module_gcamusa_LA120.offshore_wind_reeds_USA <- function(command, ...) {
 
     L120.RsrcCurves_EJ_R_offshore_wind_USA %>%
       add_title("Offshore wind resource curve USA") %>%
-      add_units("maxSubResource: EJ; mid.price: 1975$/GJ") %>%
+      add_units(paste0("maxSubResource: EJ; mid.price: ", PRICE_YEAR, "$/GJ")) %>%
       add_comments("Offshore wind resource curve by states") %>%
       add_precursors("gcam-usa/reeds_regions_states",
                      "L113.globaltech_capital_ATB",

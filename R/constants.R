@@ -499,12 +499,19 @@ energy.MAX_IOELEC <- 4
 # Solar related constants
 energy.HOURS_PER_YEAR          <- 24 * 365
 energy.PV_COMM_INSTALLED_COST  <- 7290     # 2005USD per kw
+attr(energy.PV_COMM_INSTALLED_COST, ATTR_CURR_YEAR) <- 2005
 energy.PV_COMM_OM              <- 40       # 2005USD per kw per year
+attr(energy.PV_COMM_OM, ATTR_CURR_YEAR) <- 2005
+
 energy.PV_DERATING_FACTOR      <- 0.77     # Incorporates various factors: inverters, transformers, mismatch, soiling, and others
 energy.PV_DISCOUNT_RATE        <- 0.1      # year^-1
 energy.PV_LIFETIME             <- 30       # years
+
 energy.PV_RESID_INSTALLED_COST <- 9500     # 2005USD per kw
+attr(energy.PV_RESID_INSTALLED_COST, ATTR_CURR_YEAR) <- 2005
 energy.PV_RESID_OM             <- 100      # 2005USD per kw per year
+attr(energy.PV_RESID_OM, ATTR_CURR_YEAR) <- 2005
+
 energy.CSP_STORAGE_CF_DIFF     <- 0.25     # capacity factor difference between CSP_storage (0.5) and CSP (0.25)
 energy.SOLAR_ELECTROLYSIS_KGH2_D <- 50000    # kg of h2 produced per day at a solar-electrolysis plant
 energy.ELECTROLYZER_RENEWABLE_CAPACITY_RATIO <- 0.618  # unitless capacity ratio of electrolyzers to renewable-electric equipment
@@ -513,6 +520,8 @@ energy.ELECTROLYZER_RENEWABLE_CAPACITY_RATIO <- 0.618  # unitless capacity ratio
 energy.WIND_CURVE_MIDPOINT <- 0.5
 energy.WIND_MIN_POTENTIAL <- 0.001
 energy.WIND_ELECTROLYSIS_KGH2_D <- 50000    # kg of h2 produced per day at a wind-electrolysis plant
+energy.WIND_PRICE_INCREMENT <- 0.1 # 1975 USD - The price increment between min and max price is set at 0.1 USD
+attr(energy.WIND_PRICE_INCREMENT, ATTR_CURR_YEAR) <- 1975
 
 # Digits for rounding into XMLs
 energy.DIGITS_CALOUTPUT        <- 7

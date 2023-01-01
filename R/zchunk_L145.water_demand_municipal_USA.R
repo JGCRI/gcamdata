@@ -94,7 +94,7 @@ module_gcamusa_L145.water_demand_municipal <- function(command, ...) {
 
     L145.municipal_water_cost_state_75USD_m3 %>%
       add_title("Municipal water base deleivery cost by US state") %>%
-      add_units("1975$/m3") %>%
+      add_units(paste0(PRICE_YEAR, "$/m3")) %>%
       add_comments("Use the same USA national average cost data from IBNET for all states") %>%
       add_legacy_name("L145.municipal_water_cost_state_75USD_m3") %>%
       add_precursors("L145.municipal_water_cost_R_75USD_m3") ->

@@ -532,7 +532,7 @@ module_energy_LA144.building_det_flsp <- function(command, ...) {
     # Buildings is assumed to be 20% of GDP
     BLD_FRAC_OF_INCOME <- 0.2
 
-    # The residential table will be used to calculate building floorspace prices. Units will be 1990$ / m2
+    # The residential table will be used to calculate building floorspace prices. Units will be PRICE_YEAR$ / m2
     # Note that this produces a final output table.
     L144.flsp_bm2_R_res_Yh %>%
       rename(value_flsp = value) %>%
@@ -580,7 +580,7 @@ module_energy_LA144.building_det_flsp <- function(command, ...) {
 
     L144.flspPrice_90USDm2_R_bld_Yh %>%
       add_title("Building floorspace prices by GCAM region / historical year") %>%
-      add_units("1990$ / m2") %>%
+      add_units(paste0(PRICE_YEAR, "$ / m2")) %>%
       add_comments("A fraction of GDP pertaining to buildings was divided by residential floorspace") %>%
       add_legacy_name("L144.flspPrice_90USDm2_R_bld_Yh") %>%
       add_precursors("common/iso_GCAM_regID",  "energy/A44.pcflsp_default",

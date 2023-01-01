@@ -51,19 +51,19 @@ module_gcamusa_LA115.rooftopPV <- function(command, ...) {
       filter(NREL_Com_PV_supply_curve, Rel_Cost == min(Rel_Cost))$MW /
       energy.HOURS_PER_YEAR -> max_comm_capacity_factor
 
-    # Get minimum levelized electricity cost (LEC) for residential PV in 2005USD / KW (a constant)
-    PV_resid_min_LEC_2005 <- (energy.PV_RESID_INSTALLED_COST / energy.PV_DERATING_FACTOR) * PV_FCR /
+    # Get minimum levelized electricity cost (LEC) for residential PV in PRICE_YEAR USD / KW (a constant)
+    PV_resid_min_LEC_2005 <- (currency_constant(energy.PV_RESID_INSTALLED_COST) / energy.PV_DERATING_FACTOR) * PV_FCR /
       (max_resid_capacity_factor * energy.HOURS_PER_YEAR) +
-      energy.PV_RESID_OM / (max_resid_capacity_factor * energy.HOURS_PER_YEAR)
-    # ... and in 1975USD / GJ (a constant)
-    PV_resid_min_LEC_1975 <- PV_resid_min_LEC_2005 * gdp_deflator(PRICE_YEAR, 2005) / CONV_KWH_GJ
+      currency_constant(energy.PV_RESID_OM) / (max_resid_capacity_factor * energy.HOURS_PER_YEAR)
+    # ... and in PRICE_YEAR USD / GJ (a constant)
+    PV_resid_min_LEC_1975 <- PV_resid_min_LEC_2005 / CONV_KWH_GJ
 
-    # Get minimum levelized electricity cost (LEC) for commercial PV in 2005USD / KW (a constant)
-    PV_comm_min_LEC_2005 <- (energy.PV_COMM_INSTALLED_COST / energy.PV_DERATING_FACTOR ) * PV_FCR /
+    # Get minimum levelized electricity cost (LEC) for commercial PV in PRICE_YEAR USD / KW (a constant)
+    PV_comm_min_LEC_2005 <- (currency_constant(energy.PV_COMM_INSTALLED_COST) / energy.PV_DERATING_FACTOR ) * PV_FCR /
       (max_comm_capacity_factor * energy.HOURS_PER_YEAR) +
-      energy.PV_COMM_OM / (max_comm_capacity_factor * energy.HOURS_PER_YEAR)
-    # ... and in 1975USD / GJ (a constant)
-    PV_comm_min_LEC_1975 <- PV_comm_min_LEC_2005 * gdp_deflator(PRICE_YEAR, 2005) / CONV_KWH_GJ
+      currency_constant(energy.PV_COMM_OM) / (max_comm_capacity_factor * energy.HOURS_PER_YEAR)
+    # ... and in PRICE_YEAR USD / GJ (a constant)
+    PV_comm_min_LEC_1975 <- PV_comm_min_LEC_2005 / CONV_KWH_GJ
 
 
     # COMPUTE SUPPLY CURVES AND SMOOTH SUPPLY CURVE PARAMETERS (mid_p,  b_exp)

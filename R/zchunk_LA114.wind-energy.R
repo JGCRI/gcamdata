@@ -75,9 +75,6 @@ module_energy_LA114.wind <- function(command, ...) {
     # The minimum prices are taken from the Zhou data. The maximum prices are calculated using the function,
     # generate_max_prices, which will determine the price at which supply is 95% of the max resource.
 
-    # The price increment between min and max price is set at 0.1 USD
-    L114.price_inc <- 0.1 # 1975 USD
-
     # The min and max price points for each region will be determined. Remember that the minimum prices are taken
     # from the Zhou data. The maximum prices are calculated using the function, generate_max_prices.
     L114.RsrcCurves_EJ_ctry_wind %>%
@@ -99,7 +96,7 @@ module_energy_LA114.wind <- function(command, ...) {
       data <- filter(regional_min_max_price_points, GCAM_region_ID == region_ID)
 
       # Generates all the price points by establishing points at 0.1 USD increments from min to max
-      prices <- tibble(p = seq(data$min.price, data$max.price, L114.price_inc))
+      prices <- tibble(p = seq(data$min.price, data$max.price, energy.WIND_PRICE_INCREMENT))
 
       # Applies the price points to each country (maintaining essential curve data)
       L114.RsrcCurves_EJ_ctry_wind %>%
