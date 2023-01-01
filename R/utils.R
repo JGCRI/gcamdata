@@ -708,3 +708,17 @@ screen_undesired <- function(fn) {
   }
   rslt
 }
+
+#' currency_constant
+#'
+#' Convert any currency/price/cost constants with \code{gdp_deflator}
+#'
+#'
+#' @param value The price/cost constant value, with an attribute, ATTR_CURR_YEAR, that contains the dollar year of the value
+#' @param conv_year The year to convert to, defaults to PRICE_YEAR
+#' @return Converted price/cost value in conv_year dollars
+#' @author RLH Dec 2022
+#' @export
+currency_constant <- function(value, conv_year = PRICE_YEAR) {
+  value * gdp_deflator(conv_year, attributes(value)[[ATTR_CURR_YEAR]])
+}

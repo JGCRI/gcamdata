@@ -14,6 +14,7 @@ ATTR_COMMENTS <- "comments"
 ATTR_PRECURSORS <- "precursors"
 ATTR_LEGACY_NAME <- "legacy_name"
 ATTR_REFERENCE <- "reference"
+ATTR_CURR_YEAR <- "currency-year"
 
 #' add_title
 #'

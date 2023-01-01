@@ -4,7 +4,13 @@
 \alias{parse_csv_header}
 \title{parse_csv_header}
 \usage{
-parse_csv_header(obj, filename, header, enforce_requirements = TRUE)
+parse_csv_header(
+  obj,
+  filename,
+  header,
+  enforce_requirements = TRUE,
+  price_cols = FALSE
+)
 }
 \arguments{
 \item{obj}{The object to attach attributes to}

@@ -9,6 +9,7 @@ UNDER_TIMESHIFT          <- FALSE
 YEAR_PATTERN             <- "^(1|2)[0-9]{3}$"   # a 1 or 2 followed by three digits, and nothing else
 LOGIT_TYPE_COLNAME       <- "logit.type"        # will be removed by test code before old-new comparison
 DISABLED_MODULES         <- "NONE"
+ATTR_CURR_YEAR <- "currency-year"
 
 
 # Flags ======================================================================
@@ -623,7 +624,9 @@ water.COOLING_SYSTEM_FCR                  <- 0.15  # Cooling system fixed charge
 water.COOLING_SYSTEM_LOGIT 				        <- -5    # Cooling system logit (Unitless)
 water.DEFAULT_IRR_WATER_PRICE             <- 0.001 # 1975$/m3. This excludes water abstraction costs explicitly modeled.
 water.DEFAULT_UNLIMITED_WATER_PRICE       <- 0
+attr(water.DEFAULT_UNLIMITED_WATER_PRICE, ATTR_CURR_YEAR) <- 1975
 water.DEFAULT_UNLIMITED_WITHD_WATER_PRICE <- 0.00001 # 1975$/m3. This excludes water abstraction costs explicitly modeled.
+attr(water.DEFAULT_UNLIMITED_WITHD_WATER_PRICE, ATTR_CURR_YEAR) <- 1975
 water.DEFAULT_BASEYEAR_WATER_PRICE        <- 0.001
 water.GRADE_HIST_UPPER_BOUND              <- 0.0062  # This value is derived from the Superwell cost bins, and indicates the upper bound production cost of nonrenewable groundwater during the historical period
 water.IRR_PRICE_SUBSIDY_MULT              <- 0.05  # Multiplier for irrigation water price (OECD 2009 Managing Water for All; aiming for 1% of muni water price)

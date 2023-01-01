@@ -4,7 +4,12 @@
 \alias{get_data}
 \title{getdata}
 \usage{
-get_data(all_data, name, strip_attributes = FALSE)
+get_data(
+  all_data,
+  name,
+  strip_attributes = FALSE,
+  ensure_currency_year = PRICE_YEAR
+)
 }
 \arguments{
 \item{all_data}{Data structure}
@@ -13,6 +18,8 @@ get_data(all_data, name, strip_attributes = FALSE)
 
 \item{strip_attributes}{Boolean indicating that `gcamdata` attributes should be
 removed when this data chunk is loaded.}
+
+\item{ensure_currency_year}{Year to automatically convert price data to, or FALSE, if no automatic price conversion desired}
 }
 \value{
 Data object (currently, a tibble or data frame). If the object was marked
