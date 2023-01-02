@@ -15,7 +15,7 @@
 #' original data system was \code{LB133.ag_Costs_USA_C_2005.R} (aglu level1).
 #' @details USDA cost information is scaled to the level of GCAM commodity using LDS harvested area and
 #' production data to compute weighting factors for aggregation and convert cost from USD/square meter
-#' to the more useful USD/kg. Cost information is converted to the GCAM base of 1975 USD before aggregation.
+#' to the more useful USD/kg. Cost information is converted to the GCAM base of PRICE_YEAR USD before aggregation.
 #' For commodities without USDA cost information, the average profit among USDA commodities is combined
 #' with LDS harvested area and production data to calculate cost.
 #' @importFrom assertthat assert_that
@@ -99,8 +99,7 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
 
     # Lines 35-67 in original file
     # Select only variable price data, only in aglu.MODEL_COST_YEARS = 2008:2011 by default.
-    # Finally, convert each cost from the given nominal year dollars to 1975 dollars, average across MODEL_COST_YEARS,
-    # and convert from dollars/acre to dollars/m2.
+    # Finally, convert each cost from dollars/acre to dollars/m2.
     # Assume USDA costs are reported in current dollar, w/o specific notes on dollar year.
     # The methodology handbook describes adjusting intra-year inflation for price, and inter-year inflation for assets depreciation
     # Reference @ https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/technical/econ/costs/?&cid=nrcs143_009751
@@ -120,7 +119,7 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
       # mean value. Overwrite this to 0:
       # old comment: (indicates a variable cost not disaggregated in the target years)
       replace_na(list(cost_75USDm2 = 0)) ->
-      # store in a table of costs in 1975 dollars per square meter, by commodity and year:
+      # store in a table of costs in PRICE_YEAR dollars per square meter, by commodity and year:
       L133.ag_Cost_75USDm2_Cusda_Yusda
 
 
@@ -140,12 +139,12 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
       # aggregate average cost to the level of GCAM_commodity and GTAP_crop:
       group_by(GCAM_commodity, GTAP_crop) %>%
       summarise(cost_75USDm2 = sum(cost_75USDm2)) ->
-      # store in a table of cost in 1975 dollars/m2 by commodity:
+      # store in a table of cost in PRICE_YEAR dollars/m2 by commodity:
       L133.ag_Cost_75USDm2_Cusda
 
 
     # Lines 69-95 in original file.
-    # Cost in 1975 USD/kg is calculated for each GCAM_commodity.
+    # Cost in PRICE_YEAR USD/kg is calculated for each GCAM_commodity.
     #
     # 1. LDS Harvested area and Production data are aggregated to different levels.
     #
@@ -209,8 +208,8 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
       # L133.LDS_ag_HA_ha_USA, and converting the value from hectares to billion square meters:
       left_join_error_no_match(L133.LDS_ag_HA_ha_USA, by = c("GTAP_crop")) %>%
       rename(HA_bm2 = value) %>% mutate(HA_bm2 = HA_bm2 * CONV_HA_BM2) %>%
-      # Calculate the total expenditure in billion 1975 dollars for each USDA commodity = GCAM_commodity-GTAP_crop combo
-      # by Expenditures in bil75USD = Cost in 1975 dollars/square meter   * Harvested area in billion square meters
+      # Calculate the total expenditure in billion PRICE_YEAR dollars for each USDA commodity = GCAM_commodity-GTAP_crop combo
+      # by Expenditures in bil75USD = Cost in PRICE_YEAR dollars/square meter   * Harvested area in billion square meters
       #    Expenditures_bil75USD    = cost_75USDm2                        * HA_bm2:
       mutate(Expenditures_bil75USD = cost_75USDm2 * HA_bm2) %>%
       # aggregate over GTAP_crops to get Expenditures and harvested area at the level of GCAM_commodity:
@@ -238,8 +237,8 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
 
     # Lines 98-106 in original file
     # Agricultural Prices in table L132.ag_an_For_Prices are joined to the Commodity Cost table, L133.ag_Cost_75USDm2_C,
-    # and used to ensure that Costs in 1975USD/kg don't lead to profits below a minimum profit margin, aglu.MIN_PROFIT_MARGIN
-    # Finally, revenue in Billion 1975 USD is calculated as Production * Price.
+    # and used to ensure that Costs in PRICE_YEARUSD/kg don't lead to profits below a minimum profit margin, aglu.MIN_PROFIT_MARGIN
+    # Finally, revenue in Billion PRICE_YEAR USD is calculated as Production * Price.
     L133.ag_Cost_75USDm2_C %>%
       # Join Agricultural Prices table to get a calPrice column:
       left_join_error_no_match(select(L132.ag_an_For_Prices, -unit), by = c("GCAM_commodity")) %>%
@@ -254,7 +253,7 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
 
 
     # Line 107 in original file
-    # calculate the Average Profit in 1975USD/m2. This is a scaler quantity, the average profit across all
+    # calculate the Average Profit in PRICE_YEARUSD/m2. This is a scaler quantity, the average profit across all
     # commodities:  (total revenue - total expenditures) / (total Harvested Area)
     L133.ag_Cost_75USDm2_C %>%
       select(-GCAM_commodity) %>%
@@ -263,7 +262,7 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
 
 
     # Lines 109-126 in original file
-    # Finish calculating Cost = Price - (Profit / Yield) for each GCAM_commodity in 1975 USD/kg. There are
+    # Finish calculating Cost = Price - (Profit / Yield) for each GCAM_commodity in PRICE_YEAR USD/kg. There are
     # commodities not yet considered, such as OilPalm, Fodders, etc. The data for these in the US is missing
     # from at least one input source used to calculate Costs so far.
 
@@ -307,7 +306,7 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
 
 
     # Lines 125 - 127
-    # Join the two tables of cost information to get Cost in 1975 USD/kg for each GCAM Commodity
+    # Join the two tables of cost information to get Cost in PRICE_YEAR USD/kg for each GCAM Commodity
     L133.ag_Cost_75USDm2_C %>%
       select(GCAM_commodity, Cost_75USDkg) %>%
       bind_rows(L133.ag_Cost_75USDkg_Cothr) ->

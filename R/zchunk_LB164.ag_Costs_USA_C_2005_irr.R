@@ -154,7 +154,7 @@ module_aglu_LB164.ag_Costs_USA_C_2005_irr <- function(command, ...) {
     # Produce outputs
     L164.ag_Cost_75USDkg_C %>%
       add_title("Production costs of GCAM commodities not including purchased irrigation water") %>%
-      add_units("1975USD/kg") %>%
+      add_units(paste0(PRICE_YEAR, "USD/kg")) %>%
       add_comments("USDA cost data is used to calculate total production costs - purchased irrigation water costs for") %>%
       add_comments("GCAM commodities covered in USDA spreadsheets. This produces a commodity level water cost fraction for some") %>%
       add_comments("but not all GCAM commodities. L161.ag_irr_HA_frac_R_C_GLU irrigated vs rainfed harvested area data for the") %>%

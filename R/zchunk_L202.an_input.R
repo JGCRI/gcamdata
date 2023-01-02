@@ -133,7 +133,7 @@ module_aglu_L202.an_input <- function(command, ...) {
     # L202.RenewRsrcPrice: resource prices
     L202.RenewRsrc %>%
       select(region, renewresource) %>%
-      mutate(year = min(MODEL_BASE_YEARS), price = gcam.DEFAULT_PRICE) ->
+      mutate(year = min(MODEL_BASE_YEARS), price = currency_constant(gcam.DEFAULT_PRICE)) ->
       L202.RenewRsrcPrice
 
     # L202.maxSubResource: maximum amount of resource production allowed in any period (72-97)
@@ -532,7 +532,7 @@ module_aglu_L202.an_input <- function(command, ...) {
 
     L202.RenewRsrcPrice %>%
       add_title("Resource prices") %>%
-      add_units("1975$/kg") %>%
+      add_units(paste0(PRICE_YEAR, "$/kg")) %>%
       add_comments("A_agRsrc written to all regions with `year` set to first model base year and `price` = 1") %>%
       add_legacy_name("L202.RenewRsrcPrice") %>%
       add_precursors("aglu/A_agRsrc", "common/GCAM_region_names") ->
@@ -548,7 +548,7 @@ module_aglu_L202.an_input <- function(command, ...) {
 
     L202.RenewRsrcCurves %>%
       add_title("Renewable resource curves") %>%
-      add_units("available: Unitless fraction of maxSubResource; extractioncost: 1975$/kg") %>%
+      add_units(paste0("available: Unitless fraction of maxSubResource; extractioncost: ", PRICE_YEAR, "$/kg")) %>%
       add_comments("A_agRsrcCurves written to all regions") %>%
       add_legacy_name("L202.RenewRsrcCurves") %>%
       add_precursors("aglu/A_agRsrcCurves", "common/GCAM_region_names") ->
@@ -571,7 +571,7 @@ module_aglu_L202.an_input <- function(command, ...) {
 
     L202.UnlimitedRenewRsrcPrice %>%
       add_title("Unlimited renewable resource price") %>%
-      add_units("1975$/kg") %>%
+      add_units(paste0(PRICE_YEAR, "$/kg")) %>%
       add_comments("A_agUnlimitedRsrcCurves written to all regions") %>%
       add_legacy_name("L202.UnlimitedRenewRsrcPrice") %>%
       add_precursors("aglu/A_agUnlimitedRsrcCurves", "common/GCAM_region_names") ->
@@ -698,7 +698,7 @@ module_aglu_L202.an_input <- function(command, ...) {
 
     L202.StubTechCost_an %>%
       add_title("Costs of animal production technologies") %>%
-      add_units("1975$/kg") %>%
+      add_units(paste0(PRICE_YEAR, "$/kg")) %>%
       add_comments("Animal feed cost, prices, and technology") %>%
       add_comments("This is the non-feed cost; i.e., all costs of producing animal commodities except for the feed.") %>%
       add_legacy_name("L202.StubTechCost_an") %>%
@@ -710,7 +710,7 @@ module_aglu_L202.an_input <- function(command, ...) {
     # Return also the consumer prices, to be made available elsewhere
     L202.ag_consP_R_C_75USDkg %>%
       add_title("Consumer costs of crops") %>%
-      add_units("1975$/kg") %>%
+      add_units(paste0(PRICE_YEAR, "$/kg")) %>%
       add_comments("Computed from weighted average of domestically sourced crops (which use producer prices) and imports") %>%
       add_comments("Imported crop prices are computed from weighted average of producer prices of exporting countries") %>%
       add_precursors("L1321.ag_prP_R_C_75USDkg", "L109.ag_ALL_Mt_R_C_Y", "L1091.GrossTrade_Mt_R_C_Y") ->

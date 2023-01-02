@@ -280,12 +280,12 @@ module_energy_LB1322.Fert <- function(command, ...) {
       mutate(value = approx_fun(year, value)) %>%
       filter(year == aglu.FERT_PRICE_YEAR) %>%
       mutate(value = replace_na(value, 0)) %>%
-      pull(value) -> # Save cost as single number. Units are 1975 USD per GJ.
+      pull(value) -> # Save cost as single number. Units are PRICE_YEAR USD per GJ.
       A10.rsrc_cost_aglu.FERT_PRICE_YEAR
 
 
     # A21.globaltech_cost and A22.globaltech_cost report costs on primary energy handling (A21) and transformation technologies (A22)
-    # Units for both are 1975$/GJ
+    # Units for both are PRICE_YEAR$/GJ
     # As mentioned above, because 2010 is the year used as the fertilizer base price (from A10.rsrc_info), we will interpolate for
     # this year for both global tech cost tables so that we may add up all costs consistently.
 
@@ -298,7 +298,7 @@ module_energy_LB1322.Fert <- function(command, ...) {
       mutate(value = approx_fun(year, value)) %>%
       filter(year == aglu.FERT_PRICE_YEAR) %>%
       mutate(value = if_else(is.na(value) ,0 , as.double(value))) %>%
-      pull(value) -> # Save cost as single number. Units are 1975 USD per GJ.
+      pull(value) -> # Save cost as single number. Units are PRICE_YEAR USD per GJ.
       A21.globaltech_cost_aglu.FERT_PRICE_YEAR
 
 
@@ -312,12 +312,12 @@ module_energy_LB1322.Fert <- function(command, ...) {
       mutate(value = approx_fun(year, value)) %>%
       filter(year == aglu.FERT_PRICE_YEAR) %>%
       mutate(value = if_else(is.na(value),0,as.double(value))) %>%
-      pull(value) -> # Save cost as single number. Units are 1975 USD per GJ.
+      pull(value) -> # Save cost as single number. Units are PRICE_YEAR USD per GJ.
       A22.globaltech_cost_aglu.FERT_PRICE_YEAR
 
 
-    # Sum up costs. Units are 1975 USD per GJ.
-    L1322.P_gas_75USDGJ <- A10.rsrc_cost_aglu.FERT_PRICE_YEAR + energy.GAS_PIPELINE_COST_ADDER_75USDGJ
+    # Sum up costs. Units are PRICE_YEAR USD per GJ.
+    L1322.P_gas_75USDGJ <- A10.rsrc_cost_aglu.FERT_PRICE_YEAR + currency_constant(energy.GAS_PIPELINE_COST_ADDER_75USDGJ)
 
     # Obtain fertilizer input-output cofficient for natural gas in aglu.FERT_PRICE_YEAR
     L1322.IO_R_Fert_F_Yh %>%
@@ -327,10 +327,10 @@ module_energy_LB1322.Fert <- function(command, ...) {
       pull(value) -> # Save coefficient as single number
       L1322.IO_GJkgN_Fert_gas
 
-    # Multiply cost by input-output cofficient. Units are 1975 USD per GJ.
+    # Multiply cost by input-output cofficient. Units are PRICE_YEAR USD per GJ.
     L1322.Fert_Fuelcost_75USDGJ_gas <- L1322.P_gas_75USDGJ * L1322.IO_GJkgN_Fert_gas
 
-    # Convert total NH3 cost (2010$/tNH3) to N cost (1975$/kgN)
+    # Convert total NH3 cost (2010$/tNH3) to N cost (PRICE_YEAR$/kgN)
     Fert_Cost_75USDkgN <- aglu.FERT_PRICE * gdp_deflator(PRICE_YEAR, aglu.FERT_PRICE_YEAR) * CONV_KG_T / CONV_NH3_N
 
     # Calculate non-fuel cost of natural gas steam reforming (includes delivery charges)
@@ -377,9 +377,8 @@ module_energy_LB1322.Fert <- function(command, ...) {
     # Fertilizer is made from relatively low-cost by-products of oil refining
     # Also, the technology is being phased out where it is currently used (primarily India)
     # To minimize price distortions from this phase-out, and to ensure no negative profit rates in the ag sector,
-    # set the NE cost to generally balance the total net costs with natural gas steam reforming
-
-    L1322.Fert_NEcost_75USDkgN_oil <- -0.05
+    # set the NE cost to generally balance the total net costs with natural gas steam reforming with
+    # energy.FERT_NE_COST_USD_KGN_OIL
 
     # Build final output table with NE costs by technology.  Non-energy costs for direct hydrogen production were set equal to those of vented gas.
     L1322.Fert_NEcost_75USDkgN_F <- tibble(fuel = c("gas", "gas CCS", "coal", "coal CCS", "refined liquids","hydrogen"),
@@ -387,7 +386,7 @@ module_energy_LB1322.Fert <- function(command, ...) {
                                                                L1322.Fert_NEcost_75USDkgN_gasCCS,
                                                                L1322.Fert_NEcost_75USDkgN_coal,
                                                                L1322.Fert_NEcost_75USDkgN_coalCCS,
-                                                               L1322.Fert_NEcost_75USDkgN_oil,
+                                                               currency_constant(energy.FERT_NE_COST_USD_KGN_OIL),
                                                                L1322.Fert_NEcost_75USDkgN_H2))
 
     # ===================================================

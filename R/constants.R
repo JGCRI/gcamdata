@@ -49,6 +49,7 @@ GCAM_REGION_ID      <- "GCAM_region_ID"
 # The default market price GCAM will use to start solving from if it has no other info
 # If users do not have an estimate for a starting price this is a safe one to set
 gcam.DEFAULT_PRICE <- 1.0
+attr(gcam.DEFAULT_PRICE, ATTR_CURR_YEAR) <- 1975
 gcam.DEFAULT_SUBSECTOR_LOGIT <- -3
 gcam.DEFAULT_TECH_LOGIT      <- -6
 
@@ -474,6 +475,9 @@ energy.RSRC_FUELS              <- c("coal", "gas", "refined liquids")
 energy.HEAT_PRICE <- 3.2
 energy.GAS_PRICE  <- 2
 energy.GAS_PIPELINE_COST_ADDER_75USDGJ  <- 0.1  # estimated cost mark-up from "regional natural gas" to "wholesale gas" (1975$/GJ)
+attr(energy.GAS_PIPELINE_COST_ADDER_75USDGJ, ATTR_CURR_YEAR) <- 1975
+energy.FERT_NE_COST_USD_KGN_OIL <- -0.05
+attr(energy.FERT_NE_COST_USD_KGN_OIL, ATTR_CURR_YEAR) <- 1975
 
 energy.CO2.STORAGE.MARKET <- "carbon-storage"
 
@@ -637,7 +641,9 @@ attr(water.DEFAULT_UNLIMITED_WATER_PRICE, ATTR_CURR_YEAR) <- 1975
 water.DEFAULT_UNLIMITED_WITHD_WATER_PRICE <- 0.00001 # 1975$/m3. This excludes water abstraction costs explicitly modeled.
 attr(water.DEFAULT_UNLIMITED_WITHD_WATER_PRICE, ATTR_CURR_YEAR) <- 1975
 water.DEFAULT_BASEYEAR_WATER_PRICE        <- 0.001
-water.GRADE_HIST_UPPER_BOUND              <- 0.0062  # This value is derived from the Superwell cost bins, and indicates the upper bound production cost of nonrenewable groundwater during the historical period
+attr(water.DEFAULT_BASEYEAR_WATER_PRICE, ATTR_CURR_YEAR) <- 1975
+water.PRICE_HIST_UPPER_BOUND              <- 0.0062  # This value is derived from the Superwell cost bins, and indicates the upper bound production cost of nonrenewable groundwater during the historical period
+attr(water.PRICE_HIST_UPPER_BOUND, ATTR_CURR_YEAR) <- 1975
 water.IRR_PRICE_SUBSIDY_MULT              <- 0.05  # Multiplier for irrigation water price (OECD 2009 Managing Water for All; aiming for 1% of muni water price)
 water.DRY_COOLING_EFF_ADJ 				        <- 0.95  # Dry cooling efficiency adjustment (Unitless)
 water.IRRIGATION                          <- "Irrigation"
@@ -652,7 +658,7 @@ water.PRIMARY_ENERGY                      <- "Mining"
 water.LIVESTOCK_TYPES                     <- c("Beef","Dairy","Pork","Poultry","SheepGoat")
 water.DELETE_DEMAND_TYPES                 <- c("water_td_elec_W", "water_td_elec_C", "water_td_muni_W", "water_td_muni_C", "water_td_ind_W", "water_td_ind_C")
 
-water.WATER_UNITS_PRICE                   <- "1975$/m^3"
+water.WATER_UNITS_PRICE                   <- paste0(PRICE_YEAR, "$/m^3")
 water.WATER_UNITS_QUANTITY                <- "km^3"
 water.DIGITS_MUNI_WATER                   <- 4
 water.IRR_SHARE                           <- 1    # Irrigation demands are compiled by basin, so no separate basin-within-region sharing is applied
@@ -681,6 +687,7 @@ water.GROUNDWATER_SCENARIO <- "25pct" # may be "05pct", "25pct", or "40pct" (i.e
 
 # Groundwater depletable resource curve parameters (see Kim et al., 2016)
 water.GROUNDWATER_MAX_PRICE_INC <- 10000
+attr(water.GROUNDWATER_MAX_PRICE_INC, ATTR_CURR_YEAR) <- 1975
 water.GROUNDWATER_UNIFORM_GRADES <- 10
 water.GROUNDWATER_BETA <- 1.0
 water.DIGITS_GROUND_WATER <- 6 # Digits for rounding estimates of historical groundwater depletion
@@ -691,8 +698,11 @@ water.GW_DEPLETION_HISTORICAL <- c(2005, 2010, 2015) # Historical years for grou
 water.GW_DEPLETION_BASE_YEAR <- 1990 # Historical year for groundwater depletion calibration
 water.RUNOFF_HISTORICAL <- c(1990, 2005, 2010, 2015) # Historical years for freshwater runoff
 water.RENEW.COST.GRADE1 <- 0.00001 # Renewable water grade1 cost
+attr(water.RENEW.COST.GRADE1, ATTR_CURR_YEAR) <- 1975
 water.RENEW.COST.GRADE2 <- 0.001 # Renewable water grade2 cost
+attr(water.RENEW.COST.GRADE2, ATTR_CURR_YEAR) <- 1975
 water.RENEW.COST.GRADE3 <- 10 # Renewable water grade3 cost
+attr(water.RENEW.COST.GRADE3, ATTR_CURR_YEAR) <- 1975
 water.DEMAND_FRAC_THRESHOLD <- 1e-4 # Demand fraction of total runoff below which we use a 3-point supply curve to help model solution
 
 # Energy-for-water constants ======================================================================

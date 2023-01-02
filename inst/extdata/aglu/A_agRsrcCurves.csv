@@ -1,8 +1,8 @@
 # File: A_agRsrcCurves.csv
 # Title: Sets the characteristics and supply curves of the non-modeled inputs to animal production
-# Units: Various
+# PriceUnits: 1975$/kg
 # Source: NA
-# Column types: cccnn 
+# Column types: cccnp 
 # ----------
 renewresource,sub.renewable.resource,grade,available,extractioncost
 Residue,Residue,grade 1,0,0.001

@@ -68,7 +68,7 @@ module_water_L101.water_supply_groundwater <- function(command, ...) {
       # add price points and expand out all basins to required number of grades
       # prices are from base.prc, base.prc * water.GROUNDWATER_MAX_PRICE_INC on a log interval
       repeat_add_columns(tibble(price=seq(log(1),
-                                          log(water.GROUNDWATER_MAX_PRICE_INC),
+                                          log(currency_constant(water.GROUNDWATER_MAX_PRICE_INC)),
                                           length.out = water.GROUNDWATER_UNIFORM_GRADES))) %>%
       mutate(price = exp(price + log(base.prc))) ->
       gw_uniform_grade_expand

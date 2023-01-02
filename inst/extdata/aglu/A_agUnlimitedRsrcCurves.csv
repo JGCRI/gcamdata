@@ -1,8 +1,8 @@
 # File: A_agUnlimitedRsrcCurves.csv
 # Title: Sets the characteristics and supply curves of OtherMeat_Fish
-# Units: Various
+# PriceUnits: 1975$/kg
 # Source: NA
-# Column types: ccccnn
+# Column types: ccccnp
 # ----------
 unlimited.resource,market,output.unit,price.unit,capacity.factor,price
 OtherMeat_Fish,global,Mt,1975$/kg,1,1
