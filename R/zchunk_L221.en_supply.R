@@ -89,7 +89,8 @@ module_energy_L221.en_supply <- function(command, ...) {
     A21.globaltech_shrwt <- get_data(all_data, "energy/A21.globaltech_shrwt", strip_attributes = TRUE)
     A21.globaltech_keyword <- get_data(all_data, "energy/A21.globaltech_keyword", strip_attributes = TRUE)
     A21.globaltech_secout <- get_data(all_data, "energy/A21.globaltech_secout", strip_attributes = TRUE)
-    A21.rsrc_info <- get_data(all_data, "energy/A21.rsrc_info", strip_attributes = TRUE)
+    A21.rsrc_info <- get_data(all_data, "energy/A21.rsrc_info", strip_attributes = TRUE) %>%
+      mutate(`price-unit` = paste0(PRICE_YEAR, `price-unit`))
     L121.BiomassOilRatios_kgGJ_R_C <- get_data(all_data, "L121.BiomassOilRatios_kgGJ_R_C", strip_attributes = TRUE)
     L122.in_Mt_R_C_Yh <- get_data(all_data, "L122.in_Mt_R_C_Yh", strip_attributes = TRUE)
     A_an_input_subsector <- get_data(all_data, "aglu/A_an_input_subsector")

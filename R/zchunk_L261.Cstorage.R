@@ -95,7 +95,7 @@ module_energy_L261.Cstorage <- function(command, ...) {
       # Reset regional markets to the names of the specific regions
       mutate(market = replace(market, market == "regional", region[market == "regional"]),
              capacity.factor = as.numeric(capacity.factor),
-             `price-unit` = paste0(CARBON_PRICE_YEAR, "$/tC")) %>%
+             `price-unit` = paste0(CARBON_PRICE_YEAR, `price-unit`)) %>%
       rename(output.unit = `output-unit`, price.unit = `price-unit`) ->
       L261.rsrc_info
 
