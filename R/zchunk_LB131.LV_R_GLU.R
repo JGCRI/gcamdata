@@ -37,7 +37,6 @@ module_aglu_LB131.LV_R_GLU <- function(command, ...) {
     # Calculate the total value of each geographic land unit (GLU)
     L100.GTAP_LV_milUSD %>%
       left_join_error_no_match(iso_GCAM_regID, by = "iso") %>%                                         # Map in ISO codes
-      mutate(value = value * gdp_deflator(1975, base_year = 2001)) %>%                                  # Convert to 1975$
       group_by(GCAM_region_ID, GLU) %>%                                                                 # Group by GCAM_region_ID and GLU
       summarize(value = sum(value)) %>%                                                                 # Aggregate value to GCAM region and GLU
       ungroup() %>%
@@ -60,7 +59,7 @@ module_aglu_LB131.LV_R_GLU <- function(command, ...) {
     # Produce outputs
     L131.LV_USD75_m2_R_GLU %>%
       add_title("Land value by GCAM region and GLU") %>%
-      add_units("1975$ per m2") %>%
+      add_units(paste0(PRICE_YEAR, "$ per m2")) %>%
       add_comments("Compute average value of land using total value from L100 and harvested area from L122") %>%
       add_legacy_name("L131.LV_USD75_m2_R_GLU") %>%
       add_precursors("L100.GTAP_LV_milUSD", "L122.LC_bm2_R_HarvCropLand_Yh_GLU", "common/iso_GCAM_regID") ->
