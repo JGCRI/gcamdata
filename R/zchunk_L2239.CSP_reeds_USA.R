@@ -345,7 +345,7 @@ module_gcamusa_L2239.CSP_reeds_USA <- function(command, ...) {
       distinct(region = State) %>%
       mutate(renewresource = "CSP_resource",
              output.unit = "EJ",
-             price.unit = "1975$/GJ",
+             price.unit = paste0(PRICE_YEAR, "$/GJ"),
              market = region) -> L2239.RenewRsrc_CSP_reeds_USA
 
     # Table to create the graded resource curves

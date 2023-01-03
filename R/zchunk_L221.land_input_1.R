@@ -123,7 +123,7 @@ module_aglu_L221.land_input_1 <- function(command, ...) {
       left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID") ->
       A_soil_time_scale_R
 
-    # Convert land value to  1975$ per thousand km2 and calculate minimum land value,
+    # Convert land value to  PRICE_YEAR$ per thousand km2 and calculate minimum land value,
     # setting a minimum threshold on the land values to ensure that no land use regions get a value of zero
     L131.LV_USD75_m2_R_GLU %>%
       mutate(LV_USD75_bm2 = round(LV_USD75_m2 * CONV_BM2_M2, aglu.DIGITS_LAND_VALUE)) ->
@@ -257,7 +257,7 @@ module_aglu_L221.land_input_1 <- function(command, ...) {
       L221.LN0_SoilTimeScale
     L221.LN1_ValueLogit %>%
       add_title("Unmanaged land value by region and GLU, and logit exponent of first nest") %>%
-      add_units("1975USD/thousand square kilometers") %>%
+      add_units(paste0(PRICE_YEAR, "USD/thousand square kilometers")) %>%
       add_comments("L131 land value data is joined with LandNode Logit assumptions.") %>%
       add_comments("A minimum value is set to ensure all regins have a nonzero land value.") %>%
       add_legacy_name("L221.LN1_ValueLogit") %>%

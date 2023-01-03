@@ -352,7 +352,7 @@ module_gcamusa_L2238.PV_reeds_USA <- function(command, ...) {
       rename(region = State) %>%
       mutate(renewresource = "PV_resource",
              output.unit = "EJ",
-             price.unit = "1975$/GJ",
+             price.unit = paste0(PRICE_YEAR, "$/GJ"),
              market = region) %>%
       # Utility-scale (i.e. non-rooftop) solar is assumed to be infeasible in DC.
       # Thus, it should not be assigned "PV_resource".

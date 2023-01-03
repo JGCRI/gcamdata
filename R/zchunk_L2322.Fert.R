@@ -362,7 +362,7 @@ module_energy_L2322.Fert <- function(command, ...) {
 
     L2322.GlobalTechCost_Fert %>%
       add_title("Non-energy costs of global fertilizer manufacturing technologies") %>%
-      add_units("1975 USD/kg N") %>%
+      add_units(paste0(PRICE_YEAR, " USD/kg N")) %>%
       add_comments("For fertilizer sector, the non-energy costs of global fertilizer manufacturing technologies are calculated using values from L1322.Fert_NEcost_75USDkgN_F") %>%
       add_legacy_name("L2322.GlobalTechCost_Fert") %>%
       add_precursors("L1322.Fert_NEcost_75USDkgN_F") ->

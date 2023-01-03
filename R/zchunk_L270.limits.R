@@ -114,7 +114,7 @@ module_energy_L270.limits <- function(command, ...) {
            policyType = "RES") %>%
       repeat_add_columns(tibble(year = MODEL_FUTURE_YEARS)) %>%
       mutate(constraint = 1,
-             price.unit = "1975$/GJ",
+             price.unit = paste0(PRICE_YEAR, "$/GJ"),
              output.unit = "EJ") ->
       L270.CreditMkt
 

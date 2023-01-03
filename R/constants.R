@@ -265,9 +265,12 @@ aglu.LOW_PROD_GROWTH_MULT <- 0.5 # Multipliers for low ag prod growth scenarios
 
 # AgLU cost constants
 aglu.BIO_GRASS_COST_75USD_GJ <- 0.75   # Production costs of biomass (from Patrick Luckow's work)
+attr(aglu.BIO_GRASS_COST_75USD_GJ, ATTR_CURR_YEAR) <- 1975
 aglu.BIO_TREE_COST_75USD_GJ  <- 0.67   # Production costs of biomass (from Patrick Luckow's work)
+attr(aglu.BIO_TREE_COST_75USD_GJ, ATTR_CURR_YEAR) <- 1975
 aglu.FERT_PRICE              <- 596    # Price of fertilizer, 2010$ per ton NH3
 aglu.FERT_PRICE_YEAR         <- 2010    # Year corresponding to the above price/cost
+attr(aglu.FERT_PRICE, ATTR_CURR_YEAR) <- aglu.FERT_PRICE_YEAR
 aglu.FOR_COST_75USDM3        <- 29.59  # Forestry cost (1975$/GJ)
 aglu.FOR_COST_SHARE          <- 0.59   # Non-land forestry cost share (from 2011 GTAP data base)
 
@@ -636,6 +639,7 @@ water.COOLING_SYSTEM_CAPACITY_FACTOR      <- 0.6   # Cooling system capacity fac
 water.COOLING_SYSTEM_FCR                  <- 0.15  # Cooling system fixed charge rate (Unitless)
 water.COOLING_SYSTEM_LOGIT 				        <- -5    # Cooling system logit (Unitless)
 water.DEFAULT_IRR_WATER_PRICE             <- 0.001 # 1975$/m3. This excludes water abstraction costs explicitly modeled.
+attr(water.DEFAULT_IRR_WATER_PRICE, ATTR_CURR_YEAR) <- 1975
 water.DEFAULT_UNLIMITED_WATER_PRICE       <- 0
 attr(water.DEFAULT_UNLIMITED_WATER_PRICE, ATTR_CURR_YEAR) <- 1975
 water.DEFAULT_UNLIMITED_WITHD_WATER_PRICE <- 0.00001 # 1975$/m3. This excludes water abstraction costs explicitly modeled.
@@ -718,6 +722,7 @@ efw.MAX_COMM_ENERGY_MUNI_EFW              <- 0.3       # maximum share of commer
 efw.MAX_WWTRT_FRAC                        <- 0.85      # maximum share of municipal/industrial water use that can be treated as wastewater (considering consumptive uses)
 efw.WWTRT_STEEPNESS                       <- 10        # steepness assumption relating per-capita GDP to the portion of municipal/industrial wastewater treated
 efw.DEFAULT_IRR_ELEC_PRICE_75USDGJ        <- 15        # default assumed price paid for the electricity used for irrigation water abstraction
+attr(efw.DEFAULT_IRR_ELEC_PRICE_75USDGJ, ATTR_CURR_YEAR) <- 1975
 
 efw.WWTRT_GDP_SCEN                        <- "SSP2"    # scenario to use for increasing the fraction of wastewater treated as a function of GDP in post-2010 years
 efw.COUNTRIES_ELEC_DESAL                  <- c("are", "qat", "sau")     # countries whose desalination-related energy is in the power sector (combined electric + desal plants)

@@ -279,7 +279,7 @@ module_energy_L239.ff_trade <- function(command, ...) {
 
     L239.TechCost_tra %>%
       add_title("Technology costs for traded ff commodities") %>%
-      add_units("1975$/GJ") %>%
+      add_units(paste0(PRICE_YEAR, "$/GJ")) %>%
       add_comments("Exogenous cost to reflect shipping + handling of traded commodities") %>%
       add_precursors("common/GCAM_region_names",
                      "energy/A_ff_TradedTechnology") ->

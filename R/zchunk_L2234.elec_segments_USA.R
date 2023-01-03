@@ -1290,7 +1290,7 @@ module_gcamusa_L2234.elec_segments_USA <- function(command, ...) {
 
     L2234.GlobalTechCapital_elecS %>%
       add_title("Electricity Load Segments Technology Capital Costs") %>%
-      add_units("1975$ per kW; unitless (fixed.charge.rate)") %>%
+      add_units(paste0(PRICE_YEAR, "$ per kW; unitless (fixed.charge.rate)")) %>%
       add_comments("Capital costs of electricity load segments generation technologies") %>%
       add_legacy_name("L2234.GlobalTechCapital_elecS") %>%
       add_precursors("gcam-usa/A23.elecS_tech_mapping",
@@ -1301,7 +1301,7 @@ module_gcamusa_L2234.elec_segments_USA <- function(command, ...) {
 
     L2234.GlobalIntTechCapital_elecS %>%
       add_title("Electricity Load Segments Intermittent Technology Capital Costs") %>%
-      add_units("1975$ per kW; unitless (fixed.charge.rate)") %>%
+      add_units(paste0(PRICE_YEAR, "$ per kW; unitless (fixed.charge.rate)")) %>%
       add_comments("Capital costs of intermittent lectricity load segments generation technologies") %>%
       add_legacy_name("L2234.GlobalIntTechCapital_elecS") %>%
       add_precursors("gcam-usa/A23.elecS_inttech_mapping",
@@ -1311,7 +1311,7 @@ module_gcamusa_L2234.elec_segments_USA <- function(command, ...) {
 
     L2234.GlobalTechOMfixed_elecS %>%
       add_title("Electricity Load Segments Technology Fixed OM Costs") %>%
-      add_units("1975$/kW/yr") %>%
+      add_units(paste0(PRICE_YEAR, "$/kW/yr")) %>%
       add_comments("Fixed OM costs of electricity load segments generation technologies") %>%
       add_legacy_name("L2234.GlobalTechOMfixed_elecS") %>%
       add_precursors("gcam-usa/A23.elecS_tech_mapping",
@@ -1322,7 +1322,7 @@ module_gcamusa_L2234.elec_segments_USA <- function(command, ...) {
 
     L2234.GlobalIntTechOMfixed_elecS %>%
       add_title("Electricity Load Segments Intermittent Technology Fixed OM Costs") %>%
-      add_units("1975$/kW/yr") %>%
+      add_units(paste0(PRICE_YEAR, "$/kW/yr")) %>%
       add_comments("Fixed OM costs of intermittent electricity load segments generation technologies") %>%
       add_legacy_name("L2234.GlobalIntTechOMfixed_elecS") %>%
       add_precursors("gcam-usa/A23.elecS_inttech_mapping",
@@ -1332,7 +1332,7 @@ module_gcamusa_L2234.elec_segments_USA <- function(command, ...) {
 
     L2234.GlobalTechOMvar_elecS %>%
       add_title("Electricity Load Segments Technology Variable OM Costs") %>%
-      add_units("1975$/MWh") %>%
+      add_units(paste0(PRICE_YEAR, "$/MWh")) %>%
       add_comments("Variable OM costs of electricity load segments generation technologies") %>%
       add_legacy_name("L2234.GlobalTechOMvar_elecS") %>%
       add_precursors("gcam-usa/A23.elecS_tech_mapping",
@@ -1343,7 +1343,7 @@ module_gcamusa_L2234.elec_segments_USA <- function(command, ...) {
 
     L2234.GlobalIntTechOMvar_elecS %>%
       add_title("Electricity Load Segments Intermittent Technology Variable OM Costs") %>%
-      add_units("1975$/MWh") %>%
+      add_units(paste0(PRICE_YEAR, "$/MWh")) %>%
       add_comments("Variable OM costs of intermittent electricity load segments generation technologies") %>%
       add_legacy_name("L2234.GlobalIntTechOMvar_elecS") %>%
       add_precursors("gcam-usa/A23.elecS_inttech_mapping",
@@ -1437,7 +1437,7 @@ module_gcamusa_L2234.elec_segments_USA <- function(command, ...) {
 
     L2234.GlobalIntTechBackup_elecS %>%
       add_title("Electricity Load Segments Intermittent Technology Backup Characteristics") %>%
-      add_units("1975$/kW/yr (backup.capital.cost); unitless") %>%
+      add_units(paste0(PRICE_YEAR, "$/kW/yr (backup.capital.cost); unitless")) %>%
       add_comments("Backup characteristics for electricity load segments intermittent technologies") %>%
       add_legacy_name("L2234.GlobalIntTechBackup_elecS") %>%
       add_precursors("gcam-usa/A23.elecS_inttech_mapping",

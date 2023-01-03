@@ -240,8 +240,8 @@ module_aglu_L2072.ag_water_irr_mgmt <- function(command, ...) {
       left_join_error_no_match(L2072.Coef_GJm3_IrrEnergy_R,
                                by = c("region", "year")) %>%
       # Calculate water price and water cost
-      mutate(WaterCost = coefficient * (water.DEFAULT_IRR_WATER_PRICE +
-                                          (elec_GJm3 * efw.DEFAULT_IRR_ELEC_PRICE_75USDGJ * water.IRR_PRICE_SUBSIDY_MULT)) /
+      mutate(WaterCost = coefficient * (currency_constant(water.DEFAULT_IRR_WATER_PRICE) +
+                                          (elec_GJm3 * currency_constant(efw.DEFAULT_IRR_ELEC_PRICE_75USDGJ) * water.IRR_PRICE_SUBSIDY_MULT)) /
                conveyance.eff) %>%
       # Join in non-land variable costs
       left_join_error_no_match(L2052.AgCost_ag_irr_mgmt,
@@ -352,7 +352,7 @@ module_aglu_L2072.ag_water_irr_mgmt <- function(command, ...) {
 
     L2072.AgNonEnergyCost_IrrWaterWdraw %>%
       add_title("Irrigation water subsidies by region / crop / year / GLU / management level") %>%
-      add_units("1975$/kg") %>%
+      add_units(paste0(PRICE_YEAR, "$/kg")) %>%
       add_comments("Water subsidies are calculated to keep profit rates of irrigated technologies above a minimum level") %>%
       add_comments("While implemented using <input-cost>, all values are negative so these reduce net costs") %>%
       same_precursors_as("L2072.AgCoef_IrrWaterWdraw_ag_mgmt") %>%

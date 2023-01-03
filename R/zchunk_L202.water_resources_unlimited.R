@@ -154,7 +154,7 @@ module_water_L202.water_resources_unlimited <- function(command, ...) {
 
     L202.UnlimitRsrcPrice_mapped %>%
       add_title("Price for unlimited water resources (mapped)") %>%
-      add_units("1975$/m^3") %>%
+      add_units(paste0(PRICE_YEAR, "$/m^3")) %>%
       add_comments("The removed record is biophysical water consumption for Taiwan") %>%
       add_legacy_name("L202.UnlimitRsrcPrice") %>%
       add_precursors("common/GCAM_region_names",
@@ -175,7 +175,7 @@ module_water_L202.water_resources_unlimited <- function(command, ...) {
 
     L202.UnlimitRsrcPrice_nonmapped %>%
       add_title("Price for unlimited water resources (non-mapped)") %>%
-      add_units("1975$/m^3") %>%
+      add_units(paste0(PRICE_YEAR, "$/m^3")) %>%
       add_comments("The removed record is biophysical water consumption for Taiwan") %>%
       add_legacy_name("L202.UnlimitRsrcPrice") %>%
       add_precursors("common/GCAM_region_names",

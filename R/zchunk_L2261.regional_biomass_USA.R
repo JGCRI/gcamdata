@@ -526,7 +526,7 @@ module_gcamusa_L2261.regional_biomass_USA <- function(command, ...) {
 
     L2261.StubTechFractProd_bio_USA %>%
       add_title("Production Information for State-level Biomass Supply Sector Secondary Feed Outputs") %>%
-      add_units("1975$ (price); fraction") %>%
+      add_units(paste0(PRICE_YEAR, "$ (price); fraction")) %>%
       add_comments("Cost curve points (prices and production fraction) for producing secondary output feedcrops") %>%
       add_comments("Secondary output (DDGS and feedcakes) generated from corn and biomassOil only") %>%
       add_legacy_name("L2261.StubTechFractProd_bio_USA") %>%
@@ -536,7 +536,7 @@ module_gcamusa_L2261.regional_biomass_USA <- function(command, ...) {
 
     L2261.StubTechFractCalPrice_bio_USA %>%
       add_title("Calibrated historical price for DDGS") %>%
-      add_units("1975$/kg") %>%
+      add_units(paste0(PRICE_YEAR, "$/kg")) %>%
       add_comments("Value only relevant for share-weight calculation") %>%
       add_precursors("L221.StubTechFractCalPrice_en") ->
       L2261.StubTechFractCalPrice_bio_USA
@@ -568,7 +568,7 @@ module_gcamusa_L2261.regional_biomass_USA <- function(command, ...) {
 
     L2261.RsrcPrice_DDGS_USA %>%
       add_title("Depletable Resource Information for State-level Biomass Supply Sector Secondary Feed Outputs") %>%
-      add_units("1975$/kg") %>%
+      add_units(paste0(PRICE_YEAR, "$/kg")) %>%
       add_comments("Depletable resource prices for state-level DDGS & feedcake secondary outputs") %>%
       add_legacy_name("L2261.RsrcPrice_DDGS_USA") %>%
       add_precursors("L221.RsrcPrice_en") ->
@@ -625,7 +625,7 @@ module_gcamusa_L2261.regional_biomass_USA <- function(command, ...) {
 
     L2261.TechCost_dbm_USA %>%
       add_title("Technology Costs for State-level Delivered Biomass Sectors") %>%
-      add_units("1975$/GJ") %>%
+      add_units(paste0(PRICE_YEAR, "$/GJ")) %>%
       add_comments("Technology costs for state-level delivered biomass sectors") %>%
       add_legacy_name("L2261.TechCost_dbm_USA") %>%
       add_precursors("gcam-usa/A28.sector",
