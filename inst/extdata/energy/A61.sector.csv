@@ -1,8 +1,8 @@
 # File: A61.sector.csv
 # Title: Carbon storage supplysector info
-# Units: MtC for output unit; 1990$/tC for price unit; unitless for logit exponent
+# Units: MtC for output unit; $/tC for price unit; unitless for logit exponent
 # NoPriceTag
 # Column types: ccccic 
 # ----------
 supplysector,output.unit,input.unit,price.unit,logit.exponent,logit.type
-carbon-storage,MtC,MtC,1990$/tC,-6,absolute-cost-logit
+carbon-storage,MtC,MtC,$/tC,-6,absolute-cost-logit

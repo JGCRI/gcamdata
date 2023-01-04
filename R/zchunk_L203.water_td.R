@@ -59,7 +59,8 @@ module_water_L203.water_td <- function(command, ...) {
     # Load required inputs
     iso_GCAM_regID <- get_data(all_data, "common/iso_GCAM_regID")
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
-    A03.sector <- get_data(all_data, "water/A03.sector")
+    A03.sector <- get_data(all_data, "water/A03.sector") %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
     A03.subsector <- get_data(all_data, "water/A03.subsector")
     basin_to_country_mapping <- get_data(all_data, "water/basin_to_country_mapping")
     water_td_sectors <- get_data(all_data, "water/water_td_sectors")

@@ -52,7 +52,8 @@ module_water_L273.EFW_manufacturing <- function(command, ...) {
     # Load required inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
     EFW_mapping <- get_data(all_data, "water/EFW_mapping")
-    A73.sector <- get_data(all_data, "water/A73.sector", strip_attributes = TRUE)
+    A73.sector <- get_data(all_data, "water/A73.sector", strip_attributes = TRUE) %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
     A73.subsector_interp <- get_data(all_data, "water/A73.subsector_interp", strip_attributes = TRUE)
     A73.subsector_logit <- get_data(all_data, "water/A73.subsector_logit", strip_attributes = TRUE)
     A73.subsector_shrwt <- get_data(all_data, "water/A73.subsector_shrwt", strip_attributes = TRUE)

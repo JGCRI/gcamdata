@@ -132,7 +132,8 @@ module_water_L2233.electricity_water <- function(command, ...) {
     calibrated_techs <- get_data(all_data, "energy/calibrated_techs")
     A23.globalinttech <- get_data(all_data, "energy/A23.globalinttech")
     A23.globaltech_shrwt <- get_data(all_data, "energy/A23.globaltech_shrwt")
-    A23.sector <- get_data(all_data, "energy/A23.sector")
+    A23.sector <- get_data(all_data, "energy/A23.sector") %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
     elec_tech_water_map <- get_data(all_data, "water/elec_tech_water_map",strip_attributes = TRUE)
     water_td_sectors <- get_data(all_data, "water/water_td_sectors", strip_attributes = TRUE)
     A23.CoolingSystemCosts <- get_data(all_data, "water/A23.CoolingSystemCosts",strip_attributes = TRUE)

@@ -5,8 +5,8 @@
 # Column types: ccccic 
 # ----------
 supplysector,output.unit,input.unit,price.unit,logit.exponent,logit.type
-off peak electricity,EJ,EJ,1975$/GJ,-3,relative-cost-logit
-intermediate electricity,EJ,EJ,1975$/GJ,-3,relative-cost-logit
-subpeak electricity,EJ,EJ,1975$/GJ,-3,relative-cost-logit
-peak electricity,EJ,EJ,1975$/GJ,-3,relative-cost-logit
-electricity,EJ,EJ,1975$/GJ,-3,relative-cost-logit
+off peak electricity,EJ,EJ,$/GJ,-3,relative-cost-logit
+intermediate electricity,EJ,EJ,$/GJ,-3,relative-cost-logit
+subpeak electricity,EJ,EJ,$/GJ,-3,relative-cost-logit
+peak electricity,EJ,EJ,$/GJ,-3,relative-cost-logit
+electricity,EJ,EJ,$/GJ,-3,relative-cost-logit

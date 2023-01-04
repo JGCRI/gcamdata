@@ -71,9 +71,13 @@ module_gcamusa_L226.en_distribution_USA <- function(command, ...) {
 
     # Load required inputs
     states_subregions <- get_data(all_data, "gcam-usa/states_subregions")
-    A21.sector <- get_data(all_data, "energy/A21.sector", strip_attributes = TRUE)
-    A_ff_regional_sector <- get_data(all_data, "energy/A_ff_RegionalSector", strip_attributes = TRUE) %>% mutate(traded=0)
-    A26.sector <- get_data(all_data, "energy/A26.sector", strip_attributes = TRUE)
+    A21.sector <- get_data(all_data, "energy/A21.sector", strip_attributes = TRUE) %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
+    A_ff_regional_sector <- get_data(all_data, "energy/A_ff_RegionalSector", strip_attributes = TRUE) %>%
+      mutate(traded = 0,
+             price.unit = paste0(PRICE_YEAR, price.unit))
+    A26.sector <- get_data(all_data, "energy/A26.sector", strip_attributes = TRUE) %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
     EIA_state_energy_prices <- get_data(all_data, "gcam-usa/EIA_state_energy_prices", strip_attributes = TRUE)
     L202.CarbonCoef <- get_data(all_data, "L202.CarbonCoef", strip_attributes = TRUE)
     L226.Supplysector_en <- get_data(all_data, "L226.Supplysector_en", strip_attributes = TRUE)

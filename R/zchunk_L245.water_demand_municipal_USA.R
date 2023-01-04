@@ -49,7 +49,8 @@ module_gcamusa_L245.water_demand_municipal <- function(command, ...) {
       region <- supplysector <- NULL  # silence package check notes
 
     # Load required inputs
-    A45.sector <- get_data(all_data, "water/A45.sector", strip_attributes = TRUE)
+    A45.sector <- get_data(all_data, "water/A45.sector", strip_attributes = TRUE) %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
     A45.tech_cost <- get_data(all_data, "water/A45.tech_cost", strip_attributes = TRUE)
     A45.demand <- get_data(all_data, "water/A45.demand", strip_attributes = TRUE)
     water_td_sectors <- get_data(all_data, "water/water_td_sectors")

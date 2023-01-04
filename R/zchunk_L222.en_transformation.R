@@ -83,7 +83,8 @@ module_energy_L222.en_transformation <- function(command, ...) {
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
     calibrated_techs <- get_data(all_data, "energy/calibrated_techs", strip_attributes = TRUE)
     A_regions <- get_data(all_data, "energy/A_regions")
-    A22.sector <- get_data(all_data, "energy/A22.sector", strip_attributes = TRUE)
+    A22.sector <- get_data(all_data, "energy/A22.sector", strip_attributes = TRUE) %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
     A22.subsector_logit <- get_data(all_data, "energy/A22.subsector_logit", strip_attributes = TRUE)
     A22.subsector_shrwt <- get_data(all_data, "energy/A22.subsector_shrwt", strip_attributes = TRUE)
     A22.subsector_interp <- get_data(all_data, "energy/A22.subsector_interp", strip_attributes = TRUE)

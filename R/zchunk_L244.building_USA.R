@@ -117,7 +117,8 @@ module_gcamusa_L244.building_USA <- function(command, ...) {
 
     # Load required inputs
     A44.gcam_consumer_en <- get_data(all_data, "energy/A44.gcam_consumer", strip_attributes = TRUE)
-    A44.sector_en <- get_data(all_data, "energy/A44.sector", strip_attributes = TRUE)
+    A44.sector_en <- get_data(all_data, "energy/A44.sector", strip_attributes = TRUE)  %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
     calibrated_techs_bld_usa <- get_data(all_data, "gcam-usa/calibrated_techs_bld_usa", strip_attributes = TRUE)
     states_subregions <- get_data(all_data, "gcam-usa/states_subregions", strip_attributes = TRUE)
     A44.bld_shell_conductance <- get_data(all_data, "gcam-usa/A44.bld_shell_conductance", strip_attributes = TRUE)
@@ -125,7 +126,8 @@ module_gcamusa_L244.building_USA <- function(command, ...) {
     A44.demandFn_serv <- get_data(all_data, "gcam-usa/A44.demandFn_serv", strip_attributes = TRUE)
     A44.gcam_consumer <- get_data(all_data, "gcam-usa/A44.gcam_consumer", strip_attributes = TRUE)
     A44.satiation_flsp <- get_data(all_data, "gcam-usa/A44.satiation_flsp", strip_attributes = TRUE)
-    A44.sector <- get_data(all_data, "gcam-usa/A44.sector", strip_attributes = TRUE)
+    A44.sector <- get_data(all_data, "gcam-usa/A44.sector", strip_attributes = TRUE) %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
     A44.subsector_interp <- get_data(all_data, "gcam-usa/A44.subsector_interp", strip_attributes = TRUE)
     A44.subsector_logit <- get_data(all_data, "gcam-usa/A44.subsector_logit", strip_attributes = TRUE)
     A44.subsector_shrwt <- get_data(all_data, "gcam-usa/A44.subsector_shrwt", strip_attributes = TRUE)

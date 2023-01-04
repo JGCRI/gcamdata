@@ -5,8 +5,8 @@
 # Column types: ccccic 
 # ----------
 supplysector,output.unit,input.unit,price.unit,logit.exponent,logit.type
-base load generation,EJ,EJ,1975$/GJ,-3,relative-cost-logit
-intermediate generation,EJ,EJ,1975$/GJ,-3,relative-cost-logit
-subpeak generation,EJ,EJ,1975$/GJ,-3,relative-cost-logit
-peak generation,EJ,EJ,1975$/GJ,-3,relative-cost-logit
-elect_td_bld,EJ,EJ,1975$/GJ,-3,relative-cost-logit
+base load generation,EJ,EJ,$/GJ,-3,relative-cost-logit
+intermediate generation,EJ,EJ,$/GJ,-3,relative-cost-logit
+subpeak generation,EJ,EJ,$/GJ,-3,relative-cost-logit
+peak generation,EJ,EJ,$/GJ,-3,relative-cost-logit
+elect_td_bld,EJ,EJ,$/GJ,-3,relative-cost-logit

@@ -7,5 +7,5 @@
 # Column types: ccccinnc 
 # ----------
 supplysector,output.unit,input.unit,price.unit,logit.exponent,electricity.reserve.margin,average.grid.capacity.factor,logit.type
-electricity,EJ,EJ,1975$/GJ,-3,0.15,0.6,
-elect_td_bld,EJ,EJ,1975$/GJ,-6,0.15,0.6,
+electricity,EJ,EJ,$/GJ,-3,0.15,0.6,
+elect_td_bld,EJ,EJ,$/GJ,-6,0.15,0.6,

@@ -65,8 +65,10 @@ module_gcamusa_L2232.electricity_FERC_USA <- function(command, ...) {
 
     # Load required inputs
     states_subregions <- get_data(all_data, "gcam-usa/states_subregions")
-    A23.sector <- get_data(all_data, "energy/A23.sector", strip_attributes = TRUE)
-    A232.structure <- get_data(all_data, "gcam-usa/A232.structure", strip_attributes = TRUE)
+    A23.sector <- get_data(all_data, "energy/A23.sector", strip_attributes = TRUE) %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
+    A232.structure <- get_data(all_data, "gcam-usa/A232.structure", strip_attributes = TRUE) %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
     L123.in_EJ_state_ownuse_elec <- get_data(all_data, "L123.in_EJ_state_ownuse_elec")
     L123.out_EJ_state_ownuse_elec <- get_data(all_data, "L123.out_EJ_state_ownuse_elec")
     L126.in_EJ_state_td_elec <- get_data(all_data, "L126.in_EJ_state_td_elec")

@@ -151,7 +151,8 @@ module_gcamusa_L2234.elec_segments_USA <- function(command, ...) {
 
     # Load required inputs
     states_subregions <- get_data(all_data, "gcam-usa/states_subregions", strip_attributes = TRUE)
-    A23.elecS_sector <- get_data(all_data, "gcam-usa/A23.elecS_sector", strip_attributes = TRUE)
+    A23.elecS_sector <- get_data(all_data, "gcam-usa/A23.elecS_sector", strip_attributes = TRUE) %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
     A23.elecS_metainfo <- get_data(all_data, "gcam-usa/A23.elecS_metainfo", strip_attributes = TRUE)
     A23.elecS_subsector_logit <- get_data(all_data, "gcam-usa/A23.elecS_subsector_logit", strip_attributes = TRUE)
     A23.elecS_subsector_shrwt <- get_data(all_data, "gcam-usa/A23.elecS_subsector_shrwt", strip_attributes = TRUE)

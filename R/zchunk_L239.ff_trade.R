@@ -56,10 +56,12 @@ module_energy_L239.ff_trade <- function(command, ...) {
 
     # Load required inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names",strip_attributes = TRUE)
-    A_ff_RegionalSector <- get_data(all_data, "energy/A_ff_RegionalSector",strip_attributes = TRUE)
+    A_ff_RegionalSector <- get_data(all_data, "energy/A_ff_RegionalSector",strip_attributes = TRUE) %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
     A_ff_RegionalSubsector <- get_data(all_data, "energy/A_ff_RegionalSubsector",strip_attributes = TRUE)
     A_ff_RegionalTechnology <- get_data(all_data, "energy/A_ff_RegionalTechnology",strip_attributes = TRUE)
-    A_ff_TradedSector <- get_data(all_data, "energy/A_ff_TradedSector",strip_attributes = TRUE)
+    A_ff_TradedSector <- get_data(all_data, "energy/A_ff_TradedSector",strip_attributes = TRUE) %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
     A_ff_TradedSubsector <- get_data(all_data, "energy/A_ff_TradedSubsector",strip_attributes = TRUE)
     A_ff_TradedTechnology <- get_data(all_data, "energy/A_ff_TradedTechnology",strip_attributes = TRUE)
     L2011.ff_GrossTrade_EJ_R_C_Y <- get_data(all_data, "L2011.ff_GrossTrade_EJ_R_C_Y",strip_attributes = TRUE)

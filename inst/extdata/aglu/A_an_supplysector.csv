@@ -5,8 +5,8 @@
 # Column types: ccccic 
 # ----------
 supplysector,output.unit,input.unit,price.unit,logit.exponent,logit.type
-Beef,Mt,Mt,1975$/kg,-3,
-Dairy,Mt,Mt,1975$/kg,-3,
-Pork,Mt,Mt,1975$/kg,-3,
-Poultry,Mt,Mt,1975$/kg,-3,
-SheepGoat,Mt,Mt,1975$/kg,-3,
+Beef,Mt,Mt,$/kg,-3,
+Dairy,Mt,Mt,$/kg,-3,
+Pork,Mt,Mt,$/kg,-3,
+Poultry,Mt,Mt,$/kg,-3,
+SheepGoat,Mt,Mt,$/kg,-3,

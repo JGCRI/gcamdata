@@ -61,7 +61,8 @@ module_aglu_L2012.ag_For_Past_bio_input_irr_mgmt <- function(command, ...) {
     # Load required inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
     basin_to_country_mapping <- get_data(all_data, "water/basin_to_country_mapping")
-    A_AgSupplySector <- get_data(all_data, "aglu/A_agSupplySector", strip_attributes = TRUE)
+    A_AgSupplySector <- get_data(all_data, "aglu/A_agSupplySector", strip_attributes = TRUE) %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
     A_AgSupplySubsector <- get_data(all_data, "aglu/A_agSupplySubsector", strip_attributes = TRUE)
     L101.ag_Prod_Mt_R_C_Y_GLU <- get_data(all_data, "L101.ag_Prod_Mt_R_C_Y_GLU", strip_attributes = TRUE)
     L113.ag_bioYield_GJm2_R_GLU <- get_data(all_data, "L113.ag_bioYield_GJm2_R_GLU", strip_attributes = TRUE)

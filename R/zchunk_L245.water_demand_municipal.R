@@ -48,7 +48,8 @@ module_water_L245.water_demand_municipal <- function(command, ...) {
     # Load required inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
     water_td_sectors <- get_data(all_data, "water/water_td_sectors")
-    A45.sector <- get_data(all_data, "water/A45.sector", strip_attributes = TRUE)
+    A45.sector <- get_data(all_data, "water/A45.sector", strip_attributes = TRUE) %>%
+      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
     A45.tech_cost <- get_data(all_data, "water/A45.tech_cost")
     A45.demand <- get_data(all_data, "water/A45.demand")
     L145.municipal_water_R_W_Yh_km3 <- get_data(all_data, "L145.municipal_water_R_W_Yh_km3")
