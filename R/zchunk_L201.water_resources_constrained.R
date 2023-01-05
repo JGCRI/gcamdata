@@ -145,7 +145,7 @@ module_water_L201.water_resources_constrained <- function(command, ...) {
     # read in base year price
     L201.Rsrc %>%
       mutate(year = MODEL_YEARS[1],
-             price = currency_constant(water.DEFAULT_BASEYEAR_WATER_PRICE)
+             price = water.DEFAULT_BASEYEAR_WATER_PRICE
              ) %>%
       arrange(region, resource) %>%
       select(LEVEL2_DATA_NAMES[["RsrcPrice"]]) ->
@@ -187,9 +187,9 @@ module_water_L201.water_resources_constrained <- function(command, ...) {
         grade == "grade3" ~ 1 #100% available
         ) ) %>%
       mutate(extractioncost = case_when(
-        grade == "grade1" ~ currency_constant(water.RENEW.COST.GRADE1),
-        grade == "grade2" ~ currency_constant(water.RENEW.COST.GRADE2),
-        grade == "grade3" ~ currency_constant(water.RENEW.COST.GRADE3)
+        grade == "grade1" ~ water.RENEW.COST.GRADE1,
+        grade == "grade2" ~ water.RENEW.COST.GRADE2,
+        grade == "grade3" ~ water.RENEW.COST.GRADE3
         ) ) %>%
       select(region, resource, sub.renewable.resource, grade, available, extractioncost) %>%
       arrange(region, resource, grade) ->
@@ -373,8 +373,8 @@ module_water_L201.water_resources_constrained <- function(command, ...) {
         ungroup() %>%
         filter(available > 0) %>%
         mutate(subresource = "groundwater grade hist",
-               lower_cost = currency_constant(water.DEFAULT_BASEYEAR_WATER_PRICE),
-               upper_cost = currency_constant(water.PRICE_HIST_UPPER_BOUND)) ->
+               lower_cost = water.DEFAULT_BASEYEAR_WATER_PRICE,
+               upper_cost = water.PRICE_HIST_UPPER_BOUND) ->
       groundwater_hist
 
 # Construction of the curves: grade hist first

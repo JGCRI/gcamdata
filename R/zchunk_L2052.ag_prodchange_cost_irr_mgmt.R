@@ -129,9 +129,9 @@ module_aglu_L2052.ag_prodchange_cost_irr_mgmt <- function(command, ...) {
       select(names_AgTech) %>%
       unique() %>%
       bind_rows(unique(select(L201.AgYield_bio_tree, one_of(names_AgTech)))) %>%
-      mutate(nonLandVariableCost = currency_constant(aglu.BIO_GRASS_COST_75USD_GJ),
+      mutate(nonLandVariableCost = aglu.BIO_GRASS_COST_75USD_GJ,
              nonLandVariableCost = replace(nonLandVariableCost, grepl("Tree", AgProductionTechnology),
-                                           currency_constant(aglu.BIO_TREE_COST_75USD_GJ))) %>%
+                                           aglu.BIO_TREE_COST_75USD_GJ)) %>%
       # Copy coefficients to all four technologies
       repeat_add_columns(tibble(IRR_RFD = c("IRR", "RFD"))) %>%
       repeat_add_columns(tibble(MGMT = c("hi", "lo"))) %>%

@@ -52,16 +52,16 @@ module_gcamusa_LA115.rooftopPV <- function(command, ...) {
       energy.HOURS_PER_YEAR -> max_comm_capacity_factor
 
     # Get minimum levelized electricity cost (LEC) for residential PV in PRICE_YEAR USD / KW (a constant)
-    PV_resid_min_LEC_2005 <- (currency_constant(energy.PV_RESID_INSTALLED_COST) / energy.PV_DERATING_FACTOR) * PV_FCR /
+    PV_resid_min_LEC_2005 <- (energy.PV_RESID_INSTALLED_COST / energy.PV_DERATING_FACTOR) * PV_FCR /
       (max_resid_capacity_factor * energy.HOURS_PER_YEAR) +
-      currency_constant(energy.PV_RESID_OM) / (max_resid_capacity_factor * energy.HOURS_PER_YEAR)
+      energy.PV_RESID_OM / (max_resid_capacity_factor * energy.HOURS_PER_YEAR)
     # ... and in PRICE_YEAR USD / GJ (a constant)
     PV_resid_min_LEC_1975 <- PV_resid_min_LEC_2005 / CONV_KWH_GJ
 
     # Get minimum levelized electricity cost (LEC) for commercial PV in PRICE_YEAR USD / KW (a constant)
-    PV_comm_min_LEC_2005 <- (currency_constant(energy.PV_COMM_INSTALLED_COST) / energy.PV_DERATING_FACTOR ) * PV_FCR /
+    PV_comm_min_LEC_2005 <- (energy.PV_COMM_INSTALLED_COST / energy.PV_DERATING_FACTOR ) * PV_FCR /
       (max_comm_capacity_factor * energy.HOURS_PER_YEAR) +
-      currency_constant(energy.PV_COMM_OM) / (max_comm_capacity_factor * energy.HOURS_PER_YEAR)
+      energy.PV_COMM_OM / (max_comm_capacity_factor * energy.HOURS_PER_YEAR)
     # ... and in PRICE_YEAR USD / GJ (a constant)
     PV_comm_min_LEC_1975 <- PV_comm_min_LEC_2005 / CONV_KWH_GJ
 

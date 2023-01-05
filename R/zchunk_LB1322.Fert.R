@@ -317,7 +317,7 @@ module_energy_LB1322.Fert <- function(command, ...) {
 
 
     # Sum up costs. Units are PRICE_YEAR USD per GJ.
-    L1322.P_gas_75USDGJ <- A10.rsrc_cost_aglu.FERT_PRICE_YEAR + currency_constant(energy.GAS_PIPELINE_COST_ADDER_75USDGJ)
+    L1322.P_gas_75USDGJ <- A10.rsrc_cost_aglu.FERT_PRICE_YEAR + energy.GAS_PIPELINE_COST_ADDER_75USDGJ
 
     # Obtain fertilizer input-output cofficient for natural gas in aglu.FERT_PRICE_YEAR
     L1322.IO_R_Fert_F_Yh %>%
@@ -386,7 +386,7 @@ module_energy_LB1322.Fert <- function(command, ...) {
                                                                L1322.Fert_NEcost_75USDkgN_gasCCS,
                                                                L1322.Fert_NEcost_75USDkgN_coal,
                                                                L1322.Fert_NEcost_75USDkgN_coalCCS,
-                                                               currency_constant(energy.FERT_NE_COST_USD_KGN_OIL),
+                                                               energy.FERT_NE_COST_USD_KGN_OIL,
                                                                L1322.Fert_NEcost_75USDkgN_H2))
 
     # ===================================================
