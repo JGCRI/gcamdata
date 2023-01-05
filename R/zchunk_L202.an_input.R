@@ -88,19 +88,15 @@ module_aglu_L202.an_input <- function(command, ...) {
     # Load required inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
     A_regions <- get_data(all_data, "energy/A_regions")
-    A_agRsrc <- get_data(all_data, "aglu/A_agRsrc", strip_attributes = TRUE) %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
+    A_agRsrc <- get_data(all_data, "aglu/A_agRsrc", strip_attributes = TRUE)
     A_agSubRsrc <- get_data(all_data, "aglu/A_agSubRsrc", strip_attributes = TRUE)
     A_agRsrcCurves <- get_data(all_data, "aglu/A_agRsrcCurves", strip_attributes = TRUE)
-    A_agUnlimitedRsrcCurves <- get_data(all_data, "aglu/A_agUnlimitedRsrcCurves", strip_attributes = TRUE) %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
-    A_an_input_supplysector <- get_data(all_data, "aglu/A_an_input_supplysector", strip_attributes = TRUE) %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
+    A_agUnlimitedRsrcCurves <- get_data(all_data, "aglu/A_agUnlimitedRsrcCurves", strip_attributes = TRUE)
+    A_an_input_supplysector <- get_data(all_data, "aglu/A_an_input_supplysector", strip_attributes = TRUE)
     A_an_input_subsector <- get_data(all_data, "aglu/A_an_input_subsector", strip_attributes = TRUE)
     A_an_input_technology <- get_data(all_data, "aglu/A_an_input_technology", strip_attributes = TRUE)
     A_an_input_globaltech_shrwt <- get_data(all_data, "aglu/A_an_input_globaltech_shrwt")
-    A_an_supplysector <- get_data(all_data, "aglu/A_an_supplysector", strip_attributes = TRUE) %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
+    A_an_supplysector <- get_data(all_data, "aglu/A_an_supplysector", strip_attributes = TRUE)
     A_an_subsector <- get_data(all_data, "aglu/A_an_subsector", strip_attributes = TRUE)
     A_an_technology <- get_data(all_data, "aglu/A_an_technology", strip_attributes = TRUE)
     L132.ag_an_For_Prices <- get_data(all_data, "L132.ag_an_For_Prices")

@@ -83,8 +83,7 @@ module_aglu_L203.ag_an_demand_input <- function(command, ...) {
 
     # Load required inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names", strip_attributes = TRUE)
-    A_demand_supplysector <- get_data(all_data, "aglu/A_demand_supplysector", strip_attributes = TRUE) %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
+    A_demand_supplysector <- get_data(all_data, "aglu/A_demand_supplysector", strip_attributes = TRUE)
     A_demand_nesting_subsector <- get_data(all_data, "aglu/A_demand_nesting_subsector", strip_attributes = TRUE)
     A_demand_subsector <- get_data(all_data, "aglu/A_demand_subsector", strip_attributes = TRUE)
     A_demand_technology <- get_data(all_data, "aglu/A_demand_technology", strip_attributes = TRUE)

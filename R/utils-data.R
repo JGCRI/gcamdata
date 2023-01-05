@@ -217,10 +217,12 @@ get_reference <- function(x) { attr(x, ATTR_REFERENCE) }
 #' @param strip_attributes Boolean indicating that `gcamdata` attributes should be
 #'                         removed when this data chunk is loaded.
 #' @param ensure_currency_year Year to automatically convert price data to, or FALSE, if no automatic price conversion desired
+#' @param price.units.complete Year to automatically paste to the price.units column in input data, or FALSE, if no pasting desired
 #' @return Data object (currently, a tibble or data frame). If the object was marked
 #' \code{NA} in the data store, indicating an optional input that was not found,
 #' a \code{NULL} is returned.
-get_data <- function(all_data, name, strip_attributes = FALSE, ensure_currency_year = PRICE_YEAR) {
+get_data <- function(all_data, name, strip_attributes = FALSE,
+                     ensure_currency_year = PRICE_YEAR, price.units.complete = PRICE_YEAR) {
   assertthat::assert_that(is_data_list(all_data))
 
   names(all_data) <- gsub(data.USER_MOD_POSTFIX, '', names(all_data))
@@ -302,7 +304,19 @@ get_data <- function(all_data, name, strip_attributes = FALSE, ensure_currency_y
     attr(all_data[[name]], ATTR_PRICE_UNITS) <- NULL
   }
 
-
+  # Adjust for price.unit columns
+  price_unit_present <- grepl("price.*unit", names(all_data[[name]]))
+  if (any(price_unit_present) & price.units.complete){
+    price_unit_cols <- which(price_unit_present)
+    # Check that $ in price_unit_cols
+    for (i in price_unit_cols){
+      if(any(!grepl("\\$", all_data[[name]][[i]]))){
+        stop("Price units column is missing dollar sign")
+      }
+    }
+    # Apply paste0(price.units.complete, x) for all columns x
+    all_data[[name]][,price_unit_cols] <- apply(all_data[[name]][, price_unit_cols], 2, function(x) paste0(price.units.complete, x))
+  }
 
   # If strip_attributes == TRUE, remove all attributes.
   # As of dplyr 1.0.0, these can no longer be easily overwritten, so we remove them

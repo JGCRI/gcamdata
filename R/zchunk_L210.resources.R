@@ -113,8 +113,7 @@ module_energy_L210.resources <- function(command, ...) {
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
     A_regions <- get_data(all_data, "energy/A_regions")
     A10.rsrc_info <- get_data(all_data, "energy/A10.rsrc_info", strip_attributes = TRUE) %>%
-      gather_years %>%
-      mutate(`price-unit` = paste0(PRICE_YEAR, `price-unit`))
+      gather_years
     A10.subrsrc_info <- get_data(all_data, "energy/A10.subrsrc_info", strip_attributes = TRUE)
     A10.TechChange <- get_data(all_data, "energy/A10.TechChange") %>%
       gather_years

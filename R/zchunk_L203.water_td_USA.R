@@ -56,14 +56,10 @@ module_gcamusa_L203.water_td_USA <- function(command, ...) {
     # Load required inputs
     basin_to_country_mapping <- get_data(all_data, "water/basin_to_country_mapping")
     water_td_sectors <- get_data(all_data, "water/water_td_sectors")
-    A71.sector <- get_data(all_data, "water/A71.sector") %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
-    A72.sector <- get_data(all_data, "water/A72.sector") %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
-    A73.sector <- get_data(all_data, "water/A73.sector") %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
-    A74.sector <- get_data(all_data, "water/A74.sector") %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
+    A71.sector <- get_data(all_data, "water/A71.sector")
+    A72.sector <- get_data(all_data, "water/A72.sector")
+    A73.sector <- get_data(all_data, "water/A73.sector")
+    A74.sector <- get_data(all_data, "water/A74.sector")
     L103.water_mapping_USA_R_LS_W_Ws_share <- get_data(all_data, "L103.water_mapping_USA_R_LS_W_Ws_share", strip_attributes = TRUE)
     L103.water_mapping_USA_R_PRI_W_Ws_share <- get_data(all_data, "L103.water_mapping_USA_R_PRI_W_Ws_share", strip_attributes = TRUE)
     L103.water_mapping_USA_R_GLU_W_Ws_share <- get_data(all_data,"L103.water_mapping_USA_R_GLU_W_Ws_share", strip_attributes = TRUE)
@@ -72,8 +68,7 @@ module_gcamusa_L203.water_td_USA <- function(command, ...) {
     state_and_basin <- get_data(all_data, "gcam-usa/state_and_basin")
     usa_seawater_states_basins <- get_data(all_data, "gcam-usa/usa_seawater_states_basins")
     water_td_sectors <- get_data(all_data, "water/water_td_sectors")
-    A03.sector <- get_data(all_data, "water/A03.sector") %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
+    A03.sector <- get_data(all_data, "water/A03.sector")
     L201.RsrcTechCoef <- get_data(all_data, "L201.RsrcTechCoef", strip_attributes = TRUE)
     L203.Supplysector_desal_basin <- get_data(all_data, "L203.Supplysector_desal_basin", strip_attributes = TRUE)
 
