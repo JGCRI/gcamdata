@@ -76,8 +76,7 @@ module_energy_L2325.chemical <- function(command, ...) {
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
     calibrated_techs <- get_data(all_data, "energy/calibrated_techs")
     A_regions <- get_data(all_data, "energy/A_regions")
-    A325.sector <- get_data(all_data, "energy/A325.sector", strip_attributes = TRUE) %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
+    A325.sector <- get_data(all_data, "energy/A325.sector", strip_attributes = TRUE)
     A325.subsector_interp <- get_data(all_data, "energy/A325.subsector_interp", strip_attributes = TRUE)
     A325.subsector_logit <- get_data(all_data, "energy/A325.subsector_logit", strip_attributes = TRUE)
     A325.subsector_shrwt <- get_data(all_data, "energy/A325.subsector_shrwt", strip_attributes = TRUE)

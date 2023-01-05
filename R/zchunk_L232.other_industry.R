@@ -98,8 +98,7 @@ module_energy_L232.other_industry <- function(command, ...) {
     calibrated_techs <- get_data(all_data, "energy/calibrated_techs", strip_attributes = TRUE)
     A_regions <- get_data(all_data, "energy/A_regions")
     A23.chp_elecratio <- get_data(all_data, "energy/A23.chp_elecratio")
-    A32.sector <- get_data(all_data, "energy/A32.sector", strip_attributes = TRUE) %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
+    A32.sector <- get_data(all_data, "energy/A32.sector", strip_attributes = TRUE)
     A32.subsector_interp <- get_data(all_data, "energy/A32.subsector_interp", strip_attributes = TRUE)
     A32.subsector_logit <- get_data(all_data, "energy/A32.subsector_logit", strip_attributes = TRUE)
     A32.subsector_shrwt <- get_data(all_data, "energy/A32.subsector_shrwt", strip_attributes = TRUE)

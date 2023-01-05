@@ -80,8 +80,7 @@ module_energy_L2321.cement <- function(command, ...) {
     # Load required inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
     calibrated_techs <- get_data(all_data, "energy/calibrated_techs")
-    A321.sector <- get_data(all_data, "energy/A321.sector", strip_attributes = TRUE) %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
+    A321.sector <- get_data(all_data, "energy/A321.sector", strip_attributes = TRUE)
     A_PrimaryFuelCCoef <- get_data(all_data, "emissions/A_PrimaryFuelCCoef")
     A321.subsector_interp <- get_data(all_data, "energy/A321.subsector_interp", strip_attributes = TRUE)
     A321.subsector_logit <- get_data(all_data, "energy/A321.subsector_logit", strip_attributes = TRUE)

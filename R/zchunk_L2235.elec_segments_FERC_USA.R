@@ -98,13 +98,11 @@ module_gcamusa_L2235.elec_segments_FERC_USA <- function(command, ...) {
 
     # Load required inputs
     states_subregions <- get_data(all_data, "gcam-usa/states_subregions",strip_attributes = TRUE)
-    A232.structure <- get_data(all_data, "gcam-usa/A232.structure",strip_attributes = TRUE) %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
+    A232.structure <- get_data(all_data, "gcam-usa/A232.structure",strip_attributes = TRUE)
     A232.elec_subsector_shrwt_grid_adj <- get_data(all_data, "gcam-usa/A232.elec_subsector_shrwt_grid_adj",strip_attributes = TRUE)
     A232.elec_subsector_shrwt_interpto_grid_adj <- get_data(all_data, "gcam-usa/A232.elec_subsector_shrwt_interpto_grid_adj",strip_attributes = TRUE)
     A23.elec_delete <- get_data(all_data, "gcam-usa/A23.elec_delete",strip_attributes = TRUE)
-    A23.elecS_sector_vertical <- get_data(all_data, "gcam-usa/A23.elecS_sector_vertical",strip_attributes = TRUE) %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
+    A23.elecS_sector_vertical <- get_data(all_data, "gcam-usa/A23.elecS_sector_vertical",strip_attributes = TRUE)
     A23.elecS_metainfo_vertical <- get_data(all_data, "gcam-usa/A23.elecS_metainfo_vertical",strip_attributes = TRUE)
     pca_state <- get_data(all_data, "gcam-usa/pca_state",strip_attributes = TRUE)
     pca_electricity_trade <- get_data(all_data, "gcam-usa/pca_electricity_trade",strip_attributes = TRUE)

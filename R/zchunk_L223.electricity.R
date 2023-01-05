@@ -156,8 +156,7 @@ module_energy_L223.electricity <- function(command, ...) {
     iso_GCAM_regID <- get_data(all_data, "common/iso_GCAM_regID")
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
     calibrated_techs <- get_data(all_data, "energy/calibrated_techs", strip_attributes = TRUE)
-    A23.sector <- get_data(all_data, "energy/A23.sector", strip_attributes = TRUE) %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
+    A23.sector <- get_data(all_data, "energy/A23.sector", strip_attributes = TRUE)
     A23.subsector_logit <- get_data(all_data, "energy/A23.subsector_logit", strip_attributes = TRUE)
     A23.subsector_shrwt <- get_data(all_data, "energy/A23.subsector_shrwt", strip_attributes = TRUE)
     A23.subsector_interp <- get_data(all_data, "energy/A23.subsector_interp", strip_attributes = TRUE)

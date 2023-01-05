@@ -98,10 +98,8 @@ module_gcamusa_L2261.regional_biomass_USA <- function(command, ...) {
       subsector_1 <- to.technology <- NULL
 
     # Load required inputs
-    A21.sector <- get_data(all_data, "energy/A21.sector", strip_attributes = TRUE) %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
-    A26.sector <- get_data(all_data, "energy/A26.sector", strip_attributes = TRUE) %>%
-      mutate(price.unit = paste0(PRICE_YEAR, price.unit))
+    A21.sector <- get_data(all_data, "energy/A21.sector", strip_attributes = TRUE)
+    A26.sector <- get_data(all_data, "energy/A26.sector", strip_attributes = TRUE)
     A28.sector <- get_data(all_data, "gcam-usa/A28.sector", strip_attributes = TRUE)
     A23.elecS_tech_mapping_cool <- get_data(all_data, "gcam-usa/A23.elecS_tech_mapping_cool")
     usa_seawater_states_basins <- get_data(all_data, "gcam-usa/usa_seawater_states_basins")

@@ -117,8 +117,7 @@ module_energy_L254.transportation_UCD <- function(command, ...) {
     A54.demand_SSP1 <- get_data(all_data, "energy/A54.demand_ssp1",strip_attributes = TRUE)%>% mutate(sce=paste0("SSP1"))
     A54.demand<-bind_rows(A54.demand,A54.demand_SSP1)
 
-    A54.sector <- get_data(all_data, "energy/A54.sector",strip_attributes = TRUE) %>%
-      mutate(price.unit = paste0(CARBON_PRICE_YEAR, price.unit))
+    A54.sector <- get_data(all_data, "energy/A54.sector",strip_attributes = TRUE)
     #kbn 2019-10-11 Insert code to use revised versions for subsectors below
     Size_class_New<- get_data(all_data, "energy/mappings/UCD_size_class_revisions",strip_attributes = TRUE) %>%
                      select(-UCD_region) %>%
