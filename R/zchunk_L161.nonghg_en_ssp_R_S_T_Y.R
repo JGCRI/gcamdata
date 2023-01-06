@@ -130,8 +130,7 @@ module_emissions_L161.nonghg_en_ssp_R_S_T_Y <- function(command, ...) {
       # pass the timeshift, but is really not what we want to be doing, since the years in this code
       # are fairly set in stone right now
       filter(scenario == "SSP4", year == HISTORICAL_YEARS[length(HISTORICAL_YEARS)]) %>%
-      mutate(value = value * gdp_deflator(HISTORICAL_YEARS[length(HISTORICAL_YEARS)], PRICE_YEAR),
-             region_grouping = if_else(value >= emissions.LOW_PCGDP, "highmed", "low"))
+      mutate(region_grouping = if_else(value >= emissions.LOW_PCGDP, "highmed", "low"))
 
     # Compute future emissions factors for GAINS scenarios
     emfact_scaled <- L111.nonghg_tgej_R_en_S_F_Yh_infered_combEF_AP %>%

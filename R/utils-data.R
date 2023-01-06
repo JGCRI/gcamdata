@@ -240,9 +240,6 @@ get_data <- function(all_data, name, strip_attributes = FALSE,
   # If price data present, convert here, unless ensure_currency_year is set to FALSE
   if ("PriceColumns" %in% names(attributes(all_data[[name]])) & ensure_currency_year){
     # pull out price year from PriceUnits header
-    # !!!!!!!!!!! Should we ensure that it doesn't get re-converted?
-    # !!!!!!!!!!! ALSO WHAT TO DO WHEN BOTH REGULAR UNITS AND PRICE UNITS INCLUDED
-
     price_cols <- attr(all_data[[name]], "PriceColumns")
 
     # Ensure that PriceUnits exist and that there are either one PriceUnits or one for each price_cols (separated by ;)
@@ -308,14 +305,22 @@ get_data <- function(all_data, name, strip_attributes = FALSE,
   price_unit_present <- grepl("price.*unit", names(all_data[[name]]))
   if (any(price_unit_present) & price.units.complete){
     price_unit_cols <- which(price_unit_present)
-    # Check that $ in price_unit_cols
-    for (i in price_unit_cols){
-      if(any(!grepl("\\$", all_data[[name]][[i]]))){
-        stop("Price units column is missing dollar sign")
+    for(i in price_unit_cols){
+      # If column all NA, don't do anything
+      if(any(is.na(all_data[[name]][[i]]))){
+        next
+      } else {
+        # Check that $ in price_unit_cols
+          if(any(!grepl("\\$", all_data[[name]][[i]]))){
+            stop("Price units column is missing dollar sign")
+          }
+
+        # Apply paste0(price.units.complete, x) for all columns x
+        all_data[[name]][[i]] <- paste0(price.units.complete, all_data[[name]][[i]])
       }
     }
-    # Apply paste0(price.units.complete, x) for all columns x
-    all_data[[name]][,price_unit_cols] <- apply(all_data[[name]][, price_unit_cols], 2, function(x) paste0(price.units.complete, x))
+
+
   }
 
   # If strip_attributes == TRUE, remove all attributes.

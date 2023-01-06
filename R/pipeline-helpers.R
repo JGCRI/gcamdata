@@ -320,52 +320,6 @@ missing_data <- function() {
     add_flags(FLAG_NO_TEST, FLAG_NO_OUTPUT)
 }
 
-#' Calculate a gross domestic product (GDP) implicit price deflator between two years.
-#'
-#' The GDP deflator is a measure of price inflation with respect to a
-#' specific base year; it allows us to back out the effects of inflation when we
-#' compare prices over time.  This function calculates a deflator given a base
-#' year (the year to convert from) and a conversion year (the year to convert
-#' to).  To use the deflator, multiply prices in base-year dollars by the deflator; the
-#' result will be prices in the converted dollar year.
-#'
-#' @param year Year to convert TO.
-#' @param base_year Year to convert FROM.
-#' @return GDP Deflator.  Multiply to convert FROM \code{base_year} dollars TO
-#' \code{year} dollars.
-#' @source U.S. Bureau of Economic Analysis, Gross domestic product (implicit
-#' price deflator) [A191RD3A086NBEA], retrieved from FRED, Federal Reserve Bank
-#' of St. Louis; https://fred.stlouisfed.org/series/A191RD3A086NBEA, April 12,
-#' 2017
-#' @author BBL
-#' @export
-#' @examples
-#' gdp_bil_1990USD <- c(4770, 4779, 4937)
-#' gdp_bil_2010USD <- gdp_bil_1990USD * gdp_deflator(2010, base_year = 1990)
-gdp_deflator <- function(year, base_year) {
-  # This time series is the BEA "A191RD3A086NBEA" product
-  # Downloaded 12/22/2022 from https://fred.stlouisfed.org/series/A191RD3A086NBEA
-  gdp_years <- 1929:2020
-  gdp <- c(9.418, 9.073, 8.141, 7.188, 6.989, 7.371, 7.523, 7.615, 7.941,
-           7.714, 7.639, 7.731, 8.253, 8.909, 9.316, 9.538, 9.785, 11.047,
-           12.259, 12.947, 12.926, 13.087, 14.014, 14.256, 14.429, 14.563,
-           14.809, 15.313, 15.821, 16.181, 16.403, 16.627, 16.804, 17.009,
-           17.204, 17.466, 17.786, 18.284, 18.815, 19.616, 20.578, 21.663,
-           22.762, 23.746, 25.047, 27.301, 29.829, 31.471, 33.426, 35.778,
-           38.746, 42.246, 46.243, 49.1, 51.023, 52.864, 54.536, 55.634,
-           57.01, 59.021, 61.335, 63.631, 65.783, 67.282, 68.877, 70.347,
-           71.823, 73.138, 74.399, 75.236, 76.296, 78.025, 79.783, 81.026,
-           82.625, 84.843, 87.504, 90.204, 92.642, 94.419, 95.024, 96.166,
-           98.164, 100, 101.751, 103.654, 104.691, 105.74, 107.749, 110.339,
-           112.318, 113.784)
-  names(gdp) <- gdp_years
-
-  assert_that(all(year %in% gdp_years))
-  assert_that(all(base_year %in% gdp_years))
-
-  as.vector(unlist(gdp[as.character(year)] / gdp[as.character(base_year)]))
-}
-
 
 #' Helper function: call \code{tidyr::gather} for year-like columns and convert them to integers
 #'

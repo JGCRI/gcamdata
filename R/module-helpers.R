@@ -426,10 +426,11 @@ reduce_mgd_carbon <- function( data, LTfor = "Forest", LTpast = "Pasture") {
 #' @param income_group A string indicating which region group (low, medium, high)
 #' @param ssp_filter A string indicating which SSP to filter to (SSP4 by default)
 #' @param year_filter An integer indicating which year to use (2010 by default)
+#' @param check_units Bool to check that dollar years are the same between pcGDP and GDP threshold constants
 #' @return A character vector of region names belonging to the specified income group.
 #' @importFrom dplyr filter mutate select
 get_ssp_regions <- function(pcGDP, reg_names, income_group,
-                            ssp_filter = "SSP4", year_filter = aglu.PCGDP_YEAR) {
+                            ssp_filter = "SSP4", year_filter = aglu.PCGDP_YEAR, check_units = T) {
   assert_that(is_tibble(pcGDP))
   assert_that(is_tibble(reg_names))
   assert_that(is.character(income_group))
@@ -438,9 +439,25 @@ get_ssp_regions <- function(pcGDP, reg_names, income_group,
 
   value <- scenario <- year <- GCAM_region_ID <- region <- NULL  # silence package check notes
 
+  # Check that pcGDP and aglu.LOW_GROWTH_PCGDP/aglu.HIGH_GROWTH_PCGDP are in the same units
+  # If units aren't available, warn
+  if (check_units){
+    if ("units" %in% names(attributes(pcGDP))){
+      low_year <- get_price_year(attr(aglu.LOW_GROWTH_PCGDP, "currency-year"))
+      high_year <- get_price_year(attr(aglu.HIGH_GROWTH_PCGDP, "currency-year"))
+      pcGDP_year <-  get_price_year(attr(pcGDP, "units"))
+      if (pcGDP_year != high_year | pcGDP_year != low_year){
+        stop("Dollar years for per-capita GDP data and aglu.LOW_GROWTH_PCGDP or aglu.HIGH_GROWTH_PCGDP do not match")
+      }
+    } else {
+      warning("Units are missing from per-capita GDP data, ensure that same dollar-year is being used for comparison")
+    }
+  }
+
+
   pcGDP %>%
     left_join_error_no_match(reg_names, by = "GCAM_region_ID") %>%
-    mutate(value = value * gdp_deflator(year_filter, PRICE_YEAR)) %>%
+    mutate(value = value) %>%
     filter(scenario == ssp_filter, year == year_filter) %>%
     select(GCAM_region_ID, value, region) ->
     pcGDP_yf

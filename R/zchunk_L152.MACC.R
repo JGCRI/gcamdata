@@ -131,7 +131,7 @@ module_emissions_L152.MACC <- function(command, ...) {
       select(Sector, Process, GCAM_region_ID, year, cost_1990USD_tCe, reduction_pct) ->
       L152.EPA_MACC_percent_MtCO2e
 
-    price_cut <- round(emissions.MAC_TAXES * emissions.CONV_C_CO2 * gdp_deflator(CARBON_PRICE_YEAR, base_year = 2010), 0)
+    price_cut <- round(emissions.MAC_TAXES * emissions.CONV_C_CO2, 0)
 
     # create a template based on standarized price-cuts
     L152.EPA_MACC_percent_MtCO2e %>%

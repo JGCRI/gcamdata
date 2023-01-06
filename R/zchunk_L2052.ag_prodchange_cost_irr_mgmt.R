@@ -64,7 +64,7 @@ module_aglu_L2052.ag_prodchange_cost_irr_mgmt <- function(command, ...) {
     L2012.AgSupplySector <- get_data(all_data, "L2012.AgSupplySector", strip_attributes = TRUE)
     L201.AgYield_bio_grass <- get_data(all_data, "L201.AgYield_bio_grass", strip_attributes = TRUE)
     L201.AgYield_bio_tree <- get_data(all_data, "L201.AgYield_bio_tree", strip_attributes = TRUE)
-    L102.pcgdp_thous90USD_Scen_R_Y <- get_data(all_data, "L102.pcgdp_thous90USD_Scen_R_Y", strip_attributes = TRUE)
+    L102.pcgdp_thous90USD_Scen_R_Y <- get_data(all_data, "L102.pcgdp_thous90USD_Scen_R_Y")
     L1321.expP_R_F_75USDm3 <- get_data(all_data, "L1321.expP_R_F_75USDm3", strip_attributes = TRUE)
 
     # Define column names

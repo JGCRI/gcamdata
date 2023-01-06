@@ -131,7 +131,9 @@ module_aglu_L2062.ag_Fert_irr_mgmt <- function(command, ...) {
 
       # Calculate fertilizer cost using a fixed value (specified in constants.R in 2007$ per ton of NH3)
       # and the fertilizer coefficient calculated above. Subtract from original nonLandVariableCost.
-      mutate(FertCost = coefficient * aglu.FERT_PRICE * gdp_deflator(PRICE_YEAR, 2007) * CONV_KG_T / CONV_NH3_N,
+      # Note that there is an inconsistency in the dollar year above for algu.FERT_PRICE (2010) vs below (2007)
+      # To recreate old behavior, we use the gdp_deflator to adjust, but this should be addressed
+      mutate(FertCost = coefficient * aglu.FERT_PRICE * gdp_deflator(2010, 2007) * CONV_KG_T / CONV_NH3_N,
              nonLandVariableCost = round(nonLandVariableCost - FertCost, aglu.DIGITS_CALPRICE)) %>%
       select(-minicam.energy.input, -coefficient, -FertCost) ->
       L2062.AgCost_bio_irr_mgmt_adj

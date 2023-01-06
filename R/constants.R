@@ -9,7 +9,6 @@ UNDER_TIMESHIFT          <- FALSE
 YEAR_PATTERN             <- "^(1|2)[0-9]{3}$"   # a 1 or 2 followed by three digits, and nothing else
 LOGIT_TYPE_COLNAME       <- "logit.type"        # will be removed by test code before old-new comparison
 DISABLED_MODULES         <- "NONE"
-ATTR_CURR_YEAR <- "currency-year"
 
 
 # Flags ======================================================================
@@ -37,6 +36,64 @@ MODEL_FINAL_BASE_YEAR   <- 2015
 # Year for automatic conversion of price data read into gcamdata
 PRICE_YEAR              <- 1975
 CARBON_PRICE_YEAR       <- 1990
+
+# Functions needed for constants ======================================================================
+# These functions are used by constants, so need to be read in above them in the same file
+
+
+#' Calculate a gross domestic product (GDP) implicit price deflator between two years.
+#'
+#' The GDP deflator is a measure of price inflation with respect to a
+#' specific base year; it allows us to back out the effects of inflation when we
+#' compare prices over time.  This function calculates a deflator given a base
+#' year (the year to convert from) and a conversion year (the year to convert
+#' to).  To use the deflator, multiply prices in base-year dollars by the deflator; the
+#' result will be prices in the converted dollar year.
+#'
+#' @param year Year to convert TO.
+#' @param base_year Year to convert FROM.
+#' @return GDP Deflator.  Multiply to convert FROM \code{base_year} dollars TO
+#' \code{year} dollars.
+#' @source U.S. Bureau of Economic Analysis, Gross domestic product (implicit
+#' price deflator) [A191RD3A086NBEA], retrieved from FRED, Federal Reserve Bank
+#' of St. Louis; https://fred.stlouisfed.org/series/A191RD3A086NBEA, April 12,
+#' 2017
+#' @author BBL
+#' @export
+#' @examples
+#' gdp_bil_1990USD <- c(4770, 4779, 4937)
+#' gdp_bil_2010USD <- gdp_bil_1990USD * gdp_deflator(2010, base_year = 1990)
+gdp_deflator <- function(year, base_year) {
+  # This time series is the BEA "A191RD3A086NBEA" product
+  # Downloaded 12/22/2022 from https://fred.stlouisfed.org/series/A191RD3A086NBEA
+  gdp_years <- 1929:2020
+  gdp <- c(9.418, 9.073, 8.141, 7.188, 6.989, 7.371, 7.523, 7.615, 7.941,
+           7.714, 7.639, 7.731, 8.253, 8.909, 9.316, 9.538, 9.785, 11.047,
+           12.259, 12.947, 12.926, 13.087, 14.014, 14.256, 14.429, 14.563,
+           14.809, 15.313, 15.821, 16.181, 16.403, 16.627, 16.804, 17.009,
+           17.204, 17.466, 17.786, 18.284, 18.815, 19.616, 20.578, 21.663,
+           22.762, 23.746, 25.047, 27.301, 29.829, 31.471, 33.426, 35.778,
+           38.746, 42.246, 46.243, 49.1, 51.023, 52.864, 54.536, 55.634,
+           57.01, 59.021, 61.335, 63.631, 65.783, 67.282, 68.877, 70.347,
+           71.823, 73.138, 74.399, 75.236, 76.296, 78.025, 79.783, 81.026,
+           82.625, 84.843, 87.504, 90.204, 92.642, 94.419, 95.024, 96.166,
+           98.164, 100, 101.751, 103.654, 104.691, 105.74, 107.749, 110.339,
+           112.318, 113.784)
+  names(gdp) <- gdp_years
+
+  assert_that(all(year %in% gdp_years))
+  assert_that(all(base_year %in% gdp_years))
+
+  as.vector(unlist(gdp[as.character(year)] / gdp[as.character(base_year)]))
+}
+
+# Internal function to shortcut using gdp_deflator for all constants that use currency
+set_currency_constant <- function(value, base_year, convert_to_year = PRICE_YEAR){
+  value <- value * gdp_deflator(convert_to_year, base_year)
+  attr(value, "currency-year") <-  paste("Converted to", convert_to_year, "USD")
+  attr(value, "original-currency-year") <-  base_year
+  value
+}
 # GCAM constants ======================================================================
 
 gcam.USA_CODE            <- 1
@@ -48,8 +105,7 @@ gcam.IND_ENERGY_USE      <- c("biomass", "coal", "gas", "refined liquids")  # GC
 GCAM_REGION_ID      <- "GCAM_region_ID"
 # The default market price GCAM will use to start solving from if it has no other info
 # If users do not have an estimate for a starting price this is a safe one to set
-gcam.DEFAULT_PRICE <- 1.0
-attr(gcam.DEFAULT_PRICE, ATTR_CURR_YEAR) <- 1975
+gcam.DEFAULT_PRICE <- set_currency_constant(1.0, 1975)
 gcam.DEFAULT_SUBSECTOR_LOGIT <- -3
 gcam.DEFAULT_TECH_LOGIT      <- -6
 
@@ -247,15 +303,15 @@ aglu.MIN_HA_TO_CROPLAND <- 1  # minimum harvested:cropped ratios
 aglu.MAX_HA_TO_CROPLAND <- 3  # maximum harvested:cropped ratios
 
 # Minimum non-input costs of animal production technologies, in $/kg
-aglu.MIN_AN_NONINPUT_COST <- 0.05
+aglu.MIN_AN_NONINPUT_COST <- set_currency_constant(0.05, 1975)
 
 # Production constraints
 aglu.MAX_MGDPAST_FRAC <- 0.95 # Maximum percentage of any region/GLUs pasture that is allowed to be in managed production.
 aglu.MAX_MGDFOR_FRAC  <- 1    # Maximum percentage of any region/GLUs forest that is allowed to be in managed production.
 
 # GDP constraints
-aglu.HIGH_GROWTH_PCGDP <- 12.275   # GDP per capita high threshold for SSP4 region groupings, thousand 2010$ per person
-aglu.LOW_GROWTH_PCGDP  <- 2.75     # GDP per capita low threshold for SSP4 region groupings, thousand 2010$ per person
+aglu.HIGH_GROWTH_PCGDP <- set_currency_constant(12.275, 2010)    # GDP per capita high threshold for SSP4 region groupings, thousand 2010$ per person
+aglu.LOW_GROWTH_PCGDP  <- set_currency_constant(2.75, 2010)      # GDP per capita low threshold for SSP4 region groupings, thousand 2010$ per person
 aglu.PCGDP_YEAR <- 2010            # Year to compare to PCGDP thresholds
 
 # AgLu mulitpliers
@@ -264,14 +320,11 @@ aglu.HI_PROD_GROWTH_MULT <- 1.5  # Multipliers for high ag prod growth scenarios
 aglu.LOW_PROD_GROWTH_MULT <- 0.5 # Multipliers for low ag prod growth scenarios
 
 # AgLU cost constants
-aglu.BIO_GRASS_COST_75USD_GJ <- 0.75   # Production costs of biomass (from Patrick Luckow's work)
-attr(aglu.BIO_GRASS_COST_75USD_GJ, ATTR_CURR_YEAR) <- 1975
-aglu.BIO_TREE_COST_75USD_GJ  <- 0.67   # Production costs of biomass (from Patrick Luckow's work)
-attr(aglu.BIO_TREE_COST_75USD_GJ, ATTR_CURR_YEAR) <- 1975
-aglu.FERT_PRICE              <- 596    # Price of fertilizer, 2010$ per ton NH3
-aglu.FERT_PRICE_YEAR         <- 2010    # Year corresponding to the above price/cost
-attr(aglu.FERT_PRICE, ATTR_CURR_YEAR) <- aglu.FERT_PRICE_YEAR
-aglu.FOR_COST_75USDM3        <- 29.59  # Forestry cost (1975$/GJ)
+aglu.BIO_GRASS_COST_75USD_GJ <- set_currency_constant(0.75, 1975)   # Production costs of biomass (from Patrick Luckow's work)
+aglu.BIO_TREE_COST_75USD_GJ  <- set_currency_constant(0.67, 1975)   # Production costs of biomass (from Patrick Luckow's work)
+aglu.FERT_PRICE_YEAR         <- 2010    # Year corresponding to the below price/cost
+aglu.FERT_PRICE              <- set_currency_constant(596, aglu.FERT_PRICE_YEAR)     # Price of fertilizer, 2010$ per ton NH3
+aglu.FOR_COST_75USDM3        <- set_currency_constant(29.59, 1975)  # Forestry cost (1975$/GJ)
 aglu.FOR_COST_SHARE          <- 0.59   # Non-land forestry cost share (from 2011 GTAP data base)
 
 # Price at which base year bio frac produced is used.
@@ -281,7 +334,7 @@ aglu.FOR_COST_SHARE          <- 0.59   # Non-land forestry cost share (from 2011
 # This price, in 1975$/GJ, indicates the biomass price at
 # the given shares. It should be close to the model's actual
 # (endogenous) biomass prices in the final calibration year.
-aglu.PRICE_BIO_FRAC <- 1.2
+aglu.PRICE_BIO_FRAC <- set_currency_constant(1.2, 1975)
 
 # Fertilizer application rate for biomass, and carbon yields. Values from Adler et al. 2007 (doi:10.1890/05-2018)
 aglu.BIO_GRASS_FERT_IO_GNM2 <- 5.6
@@ -475,12 +528,10 @@ energy.RSRC_FUELS              <- c("coal", "gas", "refined liquids")
 
 # Assumed base year heat price, used for calculating adjustment to non-energy costs of electricity
 # technologies with secondary output of heat in units of 1975$/EJ
-energy.HEAT_PRICE <- 3.2
-energy.GAS_PRICE  <- 2
-energy.GAS_PIPELINE_COST_ADDER_75USDGJ  <- 0.1  # estimated cost mark-up from "regional natural gas" to "wholesale gas" (1975$/GJ)
-attr(energy.GAS_PIPELINE_COST_ADDER_75USDGJ, ATTR_CURR_YEAR) <- 1975
-energy.FERT_NE_COST_USD_KGN_OIL <- -0.05
-attr(energy.FERT_NE_COST_USD_KGN_OIL, ATTR_CURR_YEAR) <- 1975
+energy.HEAT_PRICE <- set_currency_constant(3.2, 1975)
+energy.GAS_PRICE  <- set_currency_constant(2, 1975)
+energy.GAS_PIPELINE_COST_ADDER_75USDGJ  <- set_currency_constant(0.1, 1975)  # estimated cost mark-up from "regional natural gas" to "wholesale gas" (1975$/GJ)
+energy.FERT_NE_COST_USD_KGN_OIL <- set_currency_constant(-0.05, 1975)
 
 energy.CO2.STORAGE.MARKET <- "carbon-storage"
 
@@ -488,11 +539,11 @@ energy.CO2.STORAGE.MARKET <- "carbon-storage"
 # in the old data system this was intended to be 2150 but was actually 2100
 energy.INDCOEF_CONVERGENCE_YR <- 2100
 
-energy.CEMENT_CCS_COST_2000USDTCO2 <- 50 # Starting point of supply curve in Mahasenan et al 2003; come from ENERGY_ASSUMPTIONS/A_ccs_data.R
-energy.CO2_STORAGE_COST_1990_USDTC <- 42 # From GCAM 1.0 inputs; come from ENERGY_ASSUMPTIONS/A_ccs_data.R
+energy.CEMENT_CCS_COST_2000USDTCO2 <- set_currency_constant(50, 2000) # Starting point of supply curve in Mahasenan et al 2003; come from ENERGY_ASSUMPTIONS/A_ccs_data.R
+energy.CO2_STORAGE_COST_1990_USDTC <- set_currency_constant(42, 1990) # From GCAM 1.0 inputs; come from ENERGY_ASSUMPTIONS/A_ccs_data.R
 
 energy.FLOOR_TO_SURFACE_RATIO <- 5.5
-energy.GDP_MID_SATIATION      <- 10.5
+energy.GDP_MID_SATIATION      <- set_currency_constant(10.5, 1990)
 
 energy.INTERNAL_GAINS_SCALAR_USA_H <- -930
 energy.INTERNAL_GAINS_SCALAR_USA_C <- 350
@@ -505,19 +556,15 @@ energy.MAX_IOELEC <- 4
 
 # Solar related constants
 energy.HOURS_PER_YEAR          <- 24 * 365
-energy.PV_COMM_INSTALLED_COST  <- 7290     # 2005USD per kw
-attr(energy.PV_COMM_INSTALLED_COST, ATTR_CURR_YEAR) <- 2005
-energy.PV_COMM_OM              <- 40       # 2005USD per kw per year
-attr(energy.PV_COMM_OM, ATTR_CURR_YEAR) <- 2005
+energy.PV_COMM_INSTALLED_COST  <- set_currency_constant(7290, 2005)     # 2005USD per kw
+energy.PV_COMM_OM              <- set_currency_constant(40, 2005)       # 2005USD per kw per year
 
 energy.PV_DERATING_FACTOR      <- 0.77     # Incorporates various factors: inverters, transformers, mismatch, soiling, and others
 energy.PV_DISCOUNT_RATE        <- 0.1      # year^-1
 energy.PV_LIFETIME             <- 30       # years
 
-energy.PV_RESID_INSTALLED_COST <- 9500     # 2005USD per kw
-attr(energy.PV_RESID_INSTALLED_COST, ATTR_CURR_YEAR) <- 2005
-energy.PV_RESID_OM             <- 100      # 2005USD per kw per year
-attr(energy.PV_RESID_OM, ATTR_CURR_YEAR) <- 2005
+energy.PV_RESID_INSTALLED_COST <- set_currency_constant(9500, 2005)     # 2005USD per kw
+energy.PV_RESID_OM             <- set_currency_constant(100, 2005)      # 2005USD per kw per year
 
 energy.CSP_STORAGE_CF_DIFF     <- 0.25     # capacity factor difference between CSP_storage (0.5) and CSP (0.25)
 energy.SOLAR_ELECTROLYSIS_KGH2_D <- 50000    # kg of h2 produced per day at a solar-electrolysis plant
@@ -527,8 +574,7 @@ energy.ELECTROLYZER_RENEWABLE_CAPACITY_RATIO <- 0.618  # unitless capacity ratio
 energy.WIND_CURVE_MIDPOINT <- 0.5
 energy.WIND_MIN_POTENTIAL <- 0.001
 energy.WIND_ELECTROLYSIS_KGH2_D <- 50000    # kg of h2 produced per day at a wind-electrolysis plant
-energy.WIND_PRICE_INCREMENT <- 0.1 # 1975 USD - The price increment between min and max price is set at 0.1 USD
-attr(energy.WIND_PRICE_INCREMENT, ATTR_CURR_YEAR) <- 1975
+energy.WIND_PRICE_INCREMENT <- set_currency_constant(0.1, 1975) # 1975 USD - The price increment between min and max price is set at 0.1 USD
 
 # Digits for rounding into XMLs
 energy.DIGITS_CALOUTPUT        <- 7
@@ -638,16 +684,11 @@ water.AG_ONLY_WATER_TYPES                 <- "biophysical water consumption"
 water.COOLING_SYSTEM_CAPACITY_FACTOR      <- 0.6   # Cooling system capacity factor (Unitless)
 water.COOLING_SYSTEM_FCR                  <- 0.15  # Cooling system fixed charge rate (Unitless)
 water.COOLING_SYSTEM_LOGIT 				        <- -5    # Cooling system logit (Unitless)
-water.DEFAULT_IRR_WATER_PRICE             <- 0.001 # 1975$/m3. This excludes water abstraction costs explicitly modeled.
-attr(water.DEFAULT_IRR_WATER_PRICE, ATTR_CURR_YEAR) <- 1975
-water.DEFAULT_UNLIMITED_WATER_PRICE       <- 0
-attr(water.DEFAULT_UNLIMITED_WATER_PRICE, ATTR_CURR_YEAR) <- 1975
-water.DEFAULT_UNLIMITED_WITHD_WATER_PRICE <- 0.00001 # 1975$/m3. This excludes water abstraction costs explicitly modeled.
-attr(water.DEFAULT_UNLIMITED_WITHD_WATER_PRICE, ATTR_CURR_YEAR) <- 1975
-water.DEFAULT_BASEYEAR_WATER_PRICE        <- 0.001
-attr(water.DEFAULT_BASEYEAR_WATER_PRICE, ATTR_CURR_YEAR) <- 1975
-water.PRICE_HIST_UPPER_BOUND              <- 0.0062  # This value is derived from the Superwell cost bins, and indicates the upper bound production cost of nonrenewable groundwater during the historical period
-attr(water.PRICE_HIST_UPPER_BOUND, ATTR_CURR_YEAR) <- 1975
+water.DEFAULT_IRR_WATER_PRICE             <- set_currency_constant(0.001, 1975) # 1975$/m3. This excludes water abstraction costs explicitly modeled.
+water.DEFAULT_UNLIMITED_WATER_PRICE       <- set_currency_constant(0, 1975)
+water.DEFAULT_UNLIMITED_WITHD_WATER_PRICE <- set_currency_constant(0.00001, 1975) # 1975$/m3. This excludes water abstraction costs explicitly modeled.
+water.DEFAULT_BASEYEAR_WATER_PRICE        <- set_currency_constant(0.001, 1975)
+water.PRICE_HIST_UPPER_BOUND              <-set_currency_constant(0.0062, 1975)  # This value is derived from the Superwell cost bins, and indicates the upper bound production cost of nonrenewable groundwater during the historical period
 water.IRR_PRICE_SUBSIDY_MULT              <- 0.05  # Multiplier for irrigation water price (OECD 2009 Managing Water for All; aiming for 1% of muni water price)
 water.DRY_COOLING_EFF_ADJ 				        <- 0.95  # Dry cooling efficiency adjustment (Unitless)
 water.IRRIGATION                          <- "Irrigation"
@@ -690,8 +731,7 @@ water.GROUNDWATER_CALIBRATION <- "watergap"  # "gleeson"
 water.GROUNDWATER_SCENARIO <- "25pct" # may be "05pct", "25pct", or "40pct" (i.e., 5, 25, 40 % of groundwater)
 
 # Groundwater depletable resource curve parameters (see Kim et al., 2016)
-water.GROUNDWATER_MAX_PRICE_INC <- 10000
-attr(water.GROUNDWATER_MAX_PRICE_INC, ATTR_CURR_YEAR) <- 1975
+water.GROUNDWATER_MAX_PRICE_INC <- set_currency_constant(10000, 1975)
 water.GROUNDWATER_UNIFORM_GRADES <- 10
 water.GROUNDWATER_BETA <- 1.0
 water.DIGITS_GROUND_WATER <- 6 # Digits for rounding estimates of historical groundwater depletion
@@ -701,12 +741,9 @@ water.DIGITS_RENEW_WATER_RSC <- 7 # Digits for rounding renewable resource suppl
 water.GW_DEPLETION_HISTORICAL <- c(2005, 2010, 2015) # Historical years for groundwater depletion
 water.GW_DEPLETION_BASE_YEAR <- 1990 # Historical year for groundwater depletion calibration
 water.RUNOFF_HISTORICAL <- c(1990, 2005, 2010, 2015) # Historical years for freshwater runoff
-water.RENEW.COST.GRADE1 <- 0.00001 # Renewable water grade1 cost
-attr(water.RENEW.COST.GRADE1, ATTR_CURR_YEAR) <- 1975
-water.RENEW.COST.GRADE2 <- 0.001 # Renewable water grade2 cost
-attr(water.RENEW.COST.GRADE2, ATTR_CURR_YEAR) <- 1975
-water.RENEW.COST.GRADE3 <- 10 # Renewable water grade3 cost
-attr(water.RENEW.COST.GRADE3, ATTR_CURR_YEAR) <- 1975
+water.RENEW.COST.GRADE1 <- set_currency_constant(0.00001, 1975) # Renewable water grade1 cost
+water.RENEW.COST.GRADE2 <- set_currency_constant(0.001, 1975) # Renewable water grade2 cost
+water.RENEW.COST.GRADE3 <- set_currency_constant(10, 1975) # Renewable water grade3 cost
 water.DEMAND_FRAC_THRESHOLD <- 1e-4 # Demand fraction of total runoff below which we use a 3-point supply curve to help model solution
 
 # Energy-for-water constants ======================================================================
@@ -721,8 +758,7 @@ efw.MAX_COMMIND_ENERGY_MUNI_EFW           <- 0.2       # maximum share of commer
 efw.MAX_COMM_ENERGY_MUNI_EFW              <- 0.3       # maximum share of commercial sector energy consumption that can be re-assigned to municipal water systems
 efw.MAX_WWTRT_FRAC                        <- 0.85      # maximum share of municipal/industrial water use that can be treated as wastewater (considering consumptive uses)
 efw.WWTRT_STEEPNESS                       <- 10        # steepness assumption relating per-capita GDP to the portion of municipal/industrial wastewater treated
-efw.DEFAULT_IRR_ELEC_PRICE_75USDGJ        <- 15        # default assumed price paid for the electricity used for irrigation water abstraction
-attr(efw.DEFAULT_IRR_ELEC_PRICE_75USDGJ, ATTR_CURR_YEAR) <- 1975
+efw.DEFAULT_IRR_ELEC_PRICE_75USDGJ        <- set_currency_constant(15, 1975)        # default assumed price paid for the electricity used for irrigation water abstraction
 
 efw.WWTRT_GDP_SCEN                        <- "SSP2"    # scenario to use for increasing the fraction of wastewater treated as a function of GDP in post-2010 years
 efw.COUNTRIES_ELEC_DESAL                  <- c("are", "qat", "sau")     # countries whose desalination-related energy is in the power sector (combined electric + desal plants)
@@ -776,8 +812,8 @@ emissions.CH4.GWP.AR4 <- 25 # used for EPA non-CO2 scaling, the 2019 EPA non-CO2
 emissions.N2O.GWP.AR4 <- 298 # used for EPA non-CO2 scaling, the 2019 EPA non-CO2 report uses AR4 GWPs
 
 emissions.COAL_SO2_THRESHOLD <- 0.1   # Tg/EJ (here referring to Tg SO2 per EJ of coal electricity)
-emissions.LOW_PCGDP          <- 2.75  # thousand 1990 USD
-emissions.MAC_TAXES          <- c(0, 2, 4, 6, 13, 27, 53, 100, 200, 450, 850, 2000, 3000, 5000) # Range of MAC curve costs to keep to read into GCAM; they are in EPA's units (2010USD_tCO2e)
+emissions.LOW_PCGDP          <- set_currency_constant(2.75, 1990)  # thousand 1990 USD
+emissions.MAC_TAXES          <- set_currency_constant(c(0, 2, 4, 6, 13, 27, 53, 100, 200, 450, 850, 2000, 3000, 5000), 2010) # Range of MAC curve costs to keep to read into GCAM; they are in EPA's units (2010USD_tCO2e)
 emissions.MAC_MARKET         <- "CO2" # Default market that MAC curves will look for
 emissions.MAC_HIGHESTREDUCTION <- 0.95 # a high MAC reduction used to replace calculated values there are greater than 1
 
@@ -805,7 +841,6 @@ emissions.DIGITS_MACC          <- 3
 # using these same constants for all states in GCAM-USA chunk L231.proc_sector_USA.R)
 # would be good to know where these values come from
 emissions.FINAL_DEMAND <- "urban processes"
-emissions.FINAL_DEMAND_PCB <- 1 # per capita based
 emissions.FINAL_DEMAND_INCELAS <- 0 # income elasticity
 emissions.FINAL_DEMAND_BASE_SERVICE <- 0.004
 emissions.FINAL_DEMAND_AEEI <- 0 # autonomous energy efficiency improvement
@@ -976,7 +1011,7 @@ water.MAPPED_PRI_WATER_TYPES                  <- c("water consumption", "water w
 gcamusa.MIN_PRIM_ENERGY_YEAR <- 1990
 
 # GCAM-USA does not have energy-for-water so desalination is an exogenous, unlimited resource with a fixed price
-gcamusa.DESALINATION_PRICE                  <- 0.214  # 1975$/m3
+gcamusa.DESALINATION_PRICE                  <- set_currency_constant(0.214, 1975)  # 1975$/m3
 
 # GCAM-USA transportation emissions vehicle classes
 gcamusa.MOVES_BASE_YEAR_CLASSES <- c(2005,2010,2015) # Year classes of cars to be used to get base year vintaged emissions

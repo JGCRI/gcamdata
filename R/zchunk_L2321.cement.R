@@ -221,9 +221,8 @@ module_energy_L2321.cement <- function(command, ...) {
     #       Calculate here in two steps:
     #       (1) calculate the additional CCS costs per unit of carbon produced in PRICE_YEAR$
     #       (2) calculate the quantity of CO2 produced per unit of cement produced (in kgC per kg cement)
-    cement_CCS_cost_total_1975USDtC <- energy.CEMENT_CCS_COST_2000USDTCO2 * gdp_deflator(PRICE_YEAR, base_year = 2000) * emissions.CONV_C_CO2
-    CO2_storage_cost_1975USDtC <- energy.CO2_STORAGE_COST_1990_USDTC * gdp_deflator(PRICE_YEAR, base_year = 1990)
-    cement_CCS_cost_1975USDtC <- cement_CCS_cost_total_1975USDtC - CO2_storage_cost_1975USDtC
+    cement_CCS_cost_total_1975USDtC <- energy.CEMENT_CCS_COST_2000USDTCO2 * emissions.CONV_C_CO2
+    cement_CCS_cost_1975USDtC <- cement_CCS_cost_total_1975USDtC - energy.CO2_STORAGE_COST_1990_USDTC
 
     L2321.GlobalTechCapture_cement %>%
       pull(remove.fraction) %>%

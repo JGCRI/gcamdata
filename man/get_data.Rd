@@ -8,7 +8,8 @@ get_data(
   all_data,
   name,
   strip_attributes = FALSE,
-  ensure_currency_year = PRICE_YEAR
+  ensure_currency_year = PRICE_YEAR,
+  price.units.complete = PRICE_YEAR
 )
 }
 \arguments{
@@ -20,6 +21,8 @@ get_data(
 removed when this data chunk is loaded.}
 
 \item{ensure_currency_year}{Year to automatically convert price data to, or FALSE, if no automatic price conversion desired}
+
+\item{price.units.complete}{Year to automatically paste to the price.units column in input data, or FALSE, if no pasting desired}
 }
 \value{
 Data object (currently, a tibble or data frame). If the object was marked

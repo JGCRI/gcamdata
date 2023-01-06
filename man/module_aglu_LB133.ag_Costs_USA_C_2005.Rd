@@ -26,7 +26,7 @@ cost.
 \details{
 USDA cost information is scaled to the level of GCAM commodity using LDS harvested area and
 production data to compute weighting factors for aggregation and convert cost from USD/square meter
-to the more useful USD/kg. Cost information is converted to the GCAM base of 1975 USD before aggregation.
+to the more useful USD/kg. Cost information is converted to the GCAM base of PRICE_YEAR USD before aggregation.
 For commodities without USDA cost information, the average profit among USDA commodities is combined
 with LDS harvested area and production data to calculate cost.
 }
