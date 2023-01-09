@@ -53,6 +53,7 @@ module_gcamusa_L270.limits_USA <- function(command, ...) {
     states_subregions <- get_data(all_data, "gcam-usa/states_subregions")
     A23.elecS_tech_mapping_cool <- get_data(all_data, "gcam-usa/A23.elecS_tech_mapping_cool", strip_attributes = TRUE)
     A23.elecS_tech_availability <- get_data(all_data, "gcam-usa/A23.elecS_tech_availability", strip_attributes = TRUE)
+    L270.CreditMkt <- get_data(all_data, "L270.CreditMkt", strip_attributes = TRUE)
     L270.CreditOutput <- get_data(all_data, "L270.CreditOutput", strip_attributes = TRUE)
     L270.CreditInput_elec <- get_data(all_data, "L270.CreditInput_elec", strip_attributes = TRUE)
     L270.NegEmissBudgetMaxPrice <- get_data(all_data, "L270.NegEmissBudgetMaxPrice", strip_attributes = TRUE)
