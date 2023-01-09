@@ -27,7 +27,7 @@ module_emissions_batch_all_unmgd_emissions_xml <- function(command, ...) {
     all_data <- list(...)[[1]]
 
     # Load required inputs
-    L212.AgSupplySector <- get_data(all_data, "L212.AgSupplySector")
+    L212.AgSupplySector <- get_data(all_data, "L212.AgSupplySector", price.units.complete = FALSE)
     L212.AgSupplySubsector <- get_data(all_data, "L212.AgSupplySubsector")
     L212.ItemName <- get_data(all_data, "L212.ItemName")
     L212.GRASSEmissions <- get_data(all_data, "L212.GRASSEmissions")

@@ -38,7 +38,7 @@ module_gcamusa_batch_negative_emissions_budget_usa_xml <- function(command, ...)
       curr_data_name <- paste0("L270.NegEmissBudget_USA_", scen)
       curr_xml_name <- paste0("negative_emissions_budget_USA_", scen, ".xml")
       create_xml(curr_xml_name) %>%
-        add_xml_data(get_data(all_data, curr_data_name), "PortfolioStd") %>%
+        add_xml_data(get_data(all_data, curr_data_name, price.units.complete = FALSE), "PortfolioStd") %>%
         add_xml_data(L270.NegEmissBudgetMaxPrice_USA, "PortfolioStdMaxPrice") %>%
         add_precursors(curr_data_name,
                        "L270.NegEmissBudgetMaxPrice_USA") %>%

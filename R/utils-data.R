@@ -306,8 +306,8 @@ get_data <- function(all_data, name, strip_attributes = FALSE,
   if (any(price_unit_present) & price.units.complete){
     price_unit_cols <- which(price_unit_present)
     for(i in price_unit_cols){
-      # If column all NA, don't do anything
-      if(any(is.na(all_data[[name]][[i]]))){
+      # If column has NA or already has year, don't do anything
+      if(any(is.na(all_data[[name]][[i]]) | grepl("[0-9]{4}", all_data[[name]][[i]]) )){
         next
       } else {
         # Check that $ in price_unit_cols

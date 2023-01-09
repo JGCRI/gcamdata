@@ -46,7 +46,7 @@ module_energy_batch_negative_emissions_budget_xml <- function(command, ...) {
         add_xml_data(L270.CTaxInput, "GlobalTechCTaxInput") %>%
         add_xml_data(L270.LandRootNegEmissMkt, "LandRootNegEmissMkt") %>%
         add_xml_data(L270.NegEmissBudgetMaxPrice, "PortfolioStdMaxPrice") %>%
-        add_xml_data(get_data(all_data, curr_data_name), "PortfolioStd") %>%
+        add_xml_data(get_data(all_data, curr_data_name, price.units.complete = FALSE), "PortfolioStd") %>%
         add_precursors("L270.CTaxInput", "L270.LandRootNegEmissMkt", "L270.NegEmissBudgetMaxPrice", curr_data_name) %>%
         assign(curr_xml_name, ., envir = curr_env)
 
