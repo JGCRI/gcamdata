@@ -209,7 +209,7 @@ module_gcamusa_L244.building_USA <- function(command, ...) {
 
     # L244.Satiation_flsp_gcamusa: Satiation levels assumed for floorspace
     L244.Satiation_flsp_gcamusa <- A44.satiation_flsp %>%
-      gather(gcam.consumer, value, resid, comm) %>%
+      gather(gcam.consumer, value, comm) %>%
       rename(region = state) %>%
       # Need to make sure that the satiation level is greater than the floorspace in the final base year
       left_join_error_no_match(L244.Floorspace_gcamusa %>%

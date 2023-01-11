@@ -44,7 +44,7 @@ module_socioeconomics_L252.Trn_Inc_Elas_scenarios <- function(command, ...) {
 
     # Load required inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
-    A52.inc_elas <- get_data(all_data, "socioeconomics/A52.inc_elas")
+    A52.inc_elas <- get_data(all_data, "socioeconomics/A52.inc_elas", ensure_currency_year = CARBON_PRICE_YEAR)
     L102.pcgdp_thous90USD_Scen_R_Y <- get_data(all_data, "L102.pcgdp_thous90USD_Scen_R_Y", strip_attributes = TRUE) %>%
       rename(pcgdp_90thousUSD = value) %>%
       mutate(year = as.integer(year))

@@ -557,7 +557,7 @@ energy.CEMENT_CCS_COST_2000USDTCO2 <- set_currency_constant(50, 2000) # Starting
 energy.CO2_STORAGE_COST_1990_USDTC <- set_currency_constant(42, 1990) # From GCAM 1.0 inputs; come from ENERGY_ASSUMPTIONS/A_ccs_data.R
 
 energy.FLOOR_TO_SURFACE_RATIO <- 5.5
-energy.GDP_MID_SATIATION      <- set_currency_constant(10.5, 1990)
+energy.GDP_MID_SATIATION      <- set_currency_constant(10.5, base_year = 1990, convert_to_year = 1990)
 
 energy.INTERNAL_GAINS_SCALAR_USA_H <- -930
 energy.INTERNAL_GAINS_SCALAR_USA_C <- 350
