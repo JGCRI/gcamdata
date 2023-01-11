@@ -194,7 +194,7 @@ module_socioeconomics_L201.Pop_GDP_scenarios <- function(command, ...) {
       L201.PPPConvert
     L201.BaseGDP_Scen %>%
       add_title("GDP in base scenario and year") %>%
-      add_units("Million 1990USD") %>%
+      add_units(paste0("Million ", CARBON_PRICE_YEAR, "USD")) %>%
       add_comments(paste("Base scenario is", socioeconomics.BASE_GDP_SCENARIO)) %>%
       add_comments(paste("Base year is", min(MODEL_BASE_YEARS))) %>%
       add_legacy_name("L201.BaseGDP_Scen") %>%
@@ -203,7 +203,7 @@ module_socioeconomics_L201.Pop_GDP_scenarios <- function(command, ...) {
 
     L201.BaseGDP_GCAM3 %>%
       add_title("GCAM3 Model Base Year GDP by Region") %>%
-      add_units("Million 1990 USD") %>%
+      add_units(paste0("Million ", CARBON_PRICE_YEAR, "USD")) %>%
       add_comments("Filtered years, rounded values, and renamed columns in L102.gdp_mil90usd_GCAM3_R_Y") %>%
       add_legacy_name("L201.BaseGDP_GCAM3") %>%
       add_precursors("common/GCAM_region_names",

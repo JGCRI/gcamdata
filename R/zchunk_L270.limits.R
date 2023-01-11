@@ -182,7 +182,7 @@ module_energy_L270.limits <- function(command, ...) {
              policyType = "tax",
              market = region,
              price.unit = "%",
-             output.unit = "mil 1990$") %>%
+             output.unit = paste0("mil ", CARBON_PRICE_YEAR, "$")) %>%
       select(-value) %>%
       # constrain in only years which could include a carbon price
       filter(year >= 2020) ->

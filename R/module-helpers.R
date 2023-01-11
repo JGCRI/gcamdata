@@ -447,7 +447,9 @@ get_ssp_regions <- function(pcGDP, reg_names, income_group,
       high_year <- get_price_year(attr(aglu.HIGH_GROWTH_PCGDP, "currency-year"))
       pcGDP_year <-  get_price_year(attr(pcGDP, "units"))
       if (pcGDP_year != high_year | pcGDP_year != low_year){
-        stop("Dollar years for per-capita GDP data and aglu.LOW_GROWTH_PCGDP or aglu.HIGH_GROWTH_PCGDP do not match")
+        if(high_year != low_year){ stop("years for aglu.LOW_GROWTH_PCGDP and aglu.HIGH_GROWTH_PCGDP do not match")}
+        pcGDP <- pcGDP %>%
+          mutate(value = value * gdp_deflator(high_year, pcGDP_year))
       }
     } else {
       warning("Units are missing from per-capita GDP data, ensure that same dollar-year is being used for comparison")

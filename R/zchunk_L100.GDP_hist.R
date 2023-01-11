@@ -31,8 +31,8 @@ module_socioeconomics_L100.GDP_hist <- function(command, ...) {
     all_data <- list(...)[[1]]
 
     # Load required inputs
-    usda_gdp_mer <- get_data(all_data, "socioeconomics/USDA_GDP_MER")
-    WB_ExtraCountries_GDP_MER <- get_data(all_data, "socioeconomics/WB_ExtraCountries_GDP_MER")
+    usda_gdp_mer <- get_data(all_data, "socioeconomics/USDA_GDP_MER", ensure_currency_year = CARBON_PRICE_YEAR)
+    WB_ExtraCountries_GDP_MER <- get_data(all_data, "socioeconomics/WB_ExtraCountries_GDP_MER", ensure_currency_year = CARBON_PRICE_YEAR)
     assert_that(tibble::is_tibble(usda_gdp_mer))
     assert_that(tibble::is_tibble(WB_ExtraCountries_GDP_MER))
 
@@ -48,10 +48,10 @@ module_socioeconomics_L100.GDP_hist <- function(command, ...) {
       mutate(value = value * CONV_BIL_MIL,
              year = as.integer(year)) %>%
       add_title("Historical GDP downscaled to country (iso)") %>%
-      add_comments(paste("Units converted to constant", PRICE_YEAR, "USD")) %>%
+      add_comments(paste("Units converted to constant", CARBON_PRICE_YEAR, "USD")) %>%
       add_precursors("socioeconomics/USDA_GDP_MER",
                      "socioeconomics/WB_ExtraCountries_GDP_MER") %>%
-      add_units(paste("Million", PRICE_YEAR, "USD")) %>%
+      add_units(paste("Million", CARBON_PRICE_YEAR, "USD")) %>%
       add_legacy_name("L100.gdp_mil90usd_ctry_Yh") ->
       L100.gdp_mil90usd_ctry_Yh
 

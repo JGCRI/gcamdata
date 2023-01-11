@@ -74,15 +74,13 @@ module_emissions_L152.MACC <- function(command, ...) {
       EPA_MACC_baselines_MtCO2e
 
     # mac data
-    # Convert from 2010$/tCO2e to 1990$/tC
+    # Convert from CARBON_PRICE_YEAR$/tCO2e to CARBON_PRICE_YEAR$/tC
     EPA_MACC_master %>%
       left_join(EPA_country_map %>% select(-iso) %>% rename(country = EPA_country), by = "country") %>%
       left_join_error_no_match(EPA_MACC_control_mapping, by = c("sector", "source")) %>%
-      rename(cost_2010USD_tCO2e = p, reduction_MtCO2e = q) %>%
-      select(GCAM_region_ID, Sector, Process, year, cost_2010USD_tCO2e, reduction_MtCO2e) %>%
-      mutate(cost_2010USD_tCO2e = as.numeric(cost_2010USD_tCO2e),
-             cost_1990USD_tCe = round(cost_2010USD_tCO2e * emissions.CONV_C_CO2, 0)) %>%
-      select(-cost_2010USD_tCO2e) ->
+      rename(cost_1990USD_tCe = p, reduction_MtCO2e = q) %>%
+      select(GCAM_region_ID, Sector, Process, year, cost_1990USD_tCe, reduction_MtCO2e) %>%
+      mutate(cost_1990USD_tCe = round(cost_1990USD_tCe * emissions.CONV_C_CO2, 0))  ->
       L152.EPA_MACC_MtCO2e_ungrouped
 
     # For in abatement and basebline data:
@@ -185,8 +183,8 @@ module_emissions_L152.MACC <- function(command, ...) {
     # Produce outputs
     L152.MAC_pct_R_S_Proc_EPA %>%
       add_title("Marginal abatement cost curves by GCAM region / EPA sector / process /year") %>%
-      add_units("%") %>%
-      add_comments("Marginal abatement cost curves, in percent reduction by 1990 USD abatement costs from EPA cost curves") %>%
+      add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: %")) %>%
+      add_comments(paste0("Marginal abatement cost curves, in percent reduction by ", CARBON_PRICE_YEAR, " USD abatement costs from EPA cost curves")) %>%
       add_legacy_name("L152.MAC_pct_R_S_Proc_EPA") %>%
       add_precursors("emissions/EPA/EPA_2019_raw",
                      "emissions/EPA/EPA_2019_MACC_Ag_updated_baseline",

@@ -53,13 +53,12 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
     L100.LDS_ag_prod_t <- get_data(all_data, "L100.LDS_ag_prod_t")
     L132.ag_an_For_Prices <- get_data(all_data, "L132.ag_an_For_Prices")
 
-    # convert USDA_cost_data to long form and constant currency
+    # convert USDA_cost_data to long form
     # Next, Take USDA item cost data from input table USDA_cost_data, and add GCAM commodity and GTAP crop mapping info
     # from the USDA crop mapping input table, USDA_crops.
     # Then add cost type (variable or na) from the USDA_item_cost input table.
     USDA_cost_data %>%
       gather_years %>%
-      mutate(value = value * gdp_deflator(PRICE_YEAR, year)) %>%
       # join in the GCAM and GTAP mapping information:
       left_join_error_no_match(USDA_crops, by = c("Crop" = "USDA_crop")) %>%
       # then join cost_type information:
@@ -99,7 +98,7 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
 
     # Lines 35-67 in original file
     # Select only variable price data, only in aglu.MODEL_COST_YEARS = 2008:2011 by default.
-    # Finally, convert each cost from dollars/acre to dollars/m2.
+    # Finally, convert each cost from the given nominal year dollars/acre to 1975 dollars/m2, average across MODEL_COST_YEARS,
     # Assume USDA costs are reported in current dollar, w/o specific notes on dollar year.
     # The methodology handbook describes adjusting intra-year inflation for price, and inter-year inflation for assets depreciation
     # Reference @ https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/technical/econ/costs/?&cid=nrcs143_009751
@@ -110,6 +109,8 @@ module_aglu_LB133.ag_Costs_USA_C_2005 <- function(command, ...) {
       filter(cost_type == "variable", year %in% aglu.MODEL_COST_YEARS) %>%
       # select just identifying information of interest:
       select(GCAM_commodity, GTAP_crop, Item, year, value) %>%
+      # Convert to constant currency
+      mutate(value = value * gdp_deflator(PRICE_YEAR, year)) %>%
       # Calculate the average across years for each commodity-item combination, and convert to dollars/m2:
       #   (In particular, the average is computed across non-NA years. So if only 3 of 5 years are non-NA,
       #   the average is over those 3 numbers, not over 5 with 0's filled in for the NA's.)
