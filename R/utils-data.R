@@ -375,6 +375,15 @@ return_data <- function(...) {
                     paste0(dname, " is being returned grouped. This is not allowed; please ungroup()"))
     }
   })
+
+  # also remove FLAG_INPUT_DATA from any returned data - without this, many output data tibbles don't get written by save_chunkdata
+  dots <- sapply(names(dots), simplify = FALSE, function(dname) {
+    if(FLAG_INPUT_DATA %in% get_flags(dots[[dname]])) {
+    attr(dots[[dname]], "flags") <- attr(dots[[dname]], "flags")[attr(dots[[dname]], "flags") != FLAG_INPUT_DATA]
+    }
+    dots[[dname]]
+    })
+
   dots
 }
 
