@@ -83,7 +83,12 @@ if (OLDNEW){
           next
         }
 
-        newdata <- read_csv(newf, comment = COMMENT_CHAR)
+        if(grepl("L142.pfc_R_S_T_Yh", newf)){
+          newdata <- read_csv(newf, comment = COMMENT_CHAR, col_types = list(EDGAR_agg_sector = readr::col_character()))
+        } else {
+          newdata <- read_csv(newf, comment = COMMENT_CHAR)
+        }
+
         oldf <- sub('.csv$', '', basename(newf))
         # get the comparison data which is coming from the gcamdata.compdata package
         olddata <- get_comparison_data(oldf)

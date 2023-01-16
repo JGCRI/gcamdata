@@ -130,7 +130,7 @@ module_gcamusa_L254.transportation_USA <- function(command, ...) {
 
     A54.globaltech_nonmotor <- get_data(all_data, "energy/A54.globaltech_nonmotor",strip_attributes = TRUE)
     A54.globaltech_passthru <- get_data(all_data, "energy/A54.globaltech_passthru",strip_attributes = TRUE)
-    A54.sector <- get_data(all_data, "energy/A54.sector",strip_attributes = TRUE)
+    A54.sector <- get_data(all_data, "energy/A54.sector",strip_attributes = TRUE, price.units.complete = CARBON_PRICE_YEAR)
     states_subregions <- get_data(all_data, "gcam-usa/states_subregions",strip_attributes = TRUE)
     #kbn 2020-02-27 Making changes to select the CORE scenario for transportation in GCAM USA
     L254.Supplysector_trn <- get_data(all_data, "L254.Supplysector_trn",strip_attributes = TRUE) %>% filter(sce %in% c("CORE"))

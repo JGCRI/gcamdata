@@ -66,8 +66,8 @@ module_energy_L261.Cstorage <- function(command, ...) {
 
     # Load required inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
-    A61.rsrc_info <- get_data(all_data, "energy/A61.rsrc_info", strip_attributes = TRUE)
-    A61.sector <- get_data(all_data, "energy/A61.sector", strip_attributes = TRUE)
+    A61.rsrc_info <- get_data(all_data, "energy/A61.rsrc_info", strip_attributes = TRUE, price.units.complete = CARBON_PRICE_YEAR)
+    A61.sector <- get_data(all_data, "energy/A61.sector", strip_attributes = TRUE, price.units.complete = CARBON_PRICE_YEAR)
     A61.subsector_logit <- get_data(all_data, "energy/A61.subsector_logit", strip_attributes = TRUE)
     A61.subsector_shrwt <- get_data(all_data, "energy/A61.subsector_shrwt", strip_attributes = TRUE)
     A61.globaltech_coef <- get_data(all_data, "energy/A61.globaltech_coef")
@@ -94,8 +94,7 @@ module_energy_L261.Cstorage <- function(command, ...) {
       repeat_add_columns(GCAM_region_names) %>%
       # Reset regional markets to the names of the specific regions
       mutate(market = replace(market, market == "regional", region[market == "regional"]),
-             capacity.factor = as.numeric(capacity.factor),
-             `price-unit` = paste0(CARBON_PRICE_YEAR, `price-unit`)) %>%
+             capacity.factor = as.numeric(capacity.factor)) %>%
       rename(output.unit = `output-unit`, price.unit = `price-unit`) ->
       L261.rsrc_info
 
