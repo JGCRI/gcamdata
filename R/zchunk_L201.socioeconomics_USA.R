@@ -143,7 +143,7 @@ module_gcamusa_L201.socioeconomics_USA <- function(command, ...) {
 
     L201.BaseGDP_GCAMUSA %>%
       add_title("Base year GDP by state") %>%
-      add_units("million 1990 USD") %>%
+      add_units(paste0("million ", CARBON_PRICE_YEAR, " USD")) %>%
       add_comments("Data from L100.GDP_mil90usd_state") %>%
       add_legacy_name("L201.BaseGDP_GCAMUSA") %>%
       add_precursors("L100.GDP_mil90usd_state") ->
@@ -175,7 +175,7 @@ module_gcamusa_L201.socioeconomics_USA <- function(command, ...) {
 
     L201.BaseGDP_national_updated_USA %>%
       add_title("Updated base year GDP for USA region, consistent with sum-of-states") %>%
-      add_units("million 1990 USD") %>%
+      add_units(paste0("million ", CARBON_PRICE_YEAR, " USD")) %>%
       add_comments("Updates USA region base year GDP to match the 50 state + DC total") %>%
       add_legacy_name("L2011.BaseGDP_updated_USA_national") %>%
       same_precursors_as("L201.BaseGDP_GCAMUSA") ->

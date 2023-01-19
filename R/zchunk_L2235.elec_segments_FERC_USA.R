@@ -490,7 +490,7 @@ module_gcamusa_L2235.elec_segments_FERC_USA <- function(command, ...) {
     # Base GDP in FERC grid regions
     states_subregions %>%
       distinct(grid_region) %>%
-      mutate(baseGDP = 1) %>%
+      mutate(baseGDP = gcamusa.BASEGDP) %>%
       rename(region = grid_region) %>%
       arrange(region) -> L2235.BaseGDP_FERC_USA
 
@@ -652,7 +652,7 @@ module_gcamusa_L2235.elec_segments_FERC_USA <- function(command, ...) {
 
     L2235.BaseGDP_FERC_USA %>%
       add_title("FERC Grid Region Base Year GDP") %>%
-      add_units("million 1990 USD") %>%
+      add_units("million ", CARBON_PRICE_YEAR, " USD") %>%
       add_comments("Base year GDP in the FERC grid regions") %>%
       add_comments("Value is arbitrary and does not matter; but a value must be read in") %>%
       add_legacy_name("L2235.BaseGDP_FERC") %>%

@@ -50,8 +50,6 @@ module_socioeconomics_L2326.aluminum_Inc_Elas_scenarios <- function(command, ...
       aluminum_pro_before <- population_before <- aluminum_hist <- inc_elas <- NULL # silence package check.
 
     all_data <- list(...)[[1]]
-    # Load required inputs
-    COV_1990USD_2005USD = 1.383
 
     # Load required inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
@@ -101,22 +99,26 @@ module_socioeconomics_L2326.aluminum_Inc_Elas_scenarios <- function(command, ...
 
     pcgdp_2015 <- L102.pcgdp_thous90USD_Scen_R_Y %>%
       filter(year == 2015) %>%
-      mutate(pcgdp_90thousUSD_2015 = pcgdp_90thousUSD,year = 2020 ) %>%
+      mutate(pcgdp_90thousUSD_2015 = pcgdp_90thousUSD,
+             year = 2020 ) %>%
       select(scenario, GCAM_region_ID, year,pcgdp_90thousUSD_2015)
 
     pcgdp_2015_GCAM3 <- L102.pcgdp_thous90USD_GCAM3_R_Y %>%
       filter(year == 2015) %>%
-      mutate(pcgdp_90thousUSD_2015 = pcgdp_90thousUSD,year = 2020 ) %>%
+      mutate(pcgdp_90thousUSD_2015 = pcgdp_90thousUSD,
+             year = 2020 ) %>%
       select( GCAM_region_ID, year,pcgdp_90thousUSD_2015)
 
     population_2015 <- L101.Pop_thous_Scen_R_Yfut %>%
       filter(year == 2015) %>%
-      mutate(population_2015 = population ,year = 2020 ) %>%
+      mutate(population_2015 = population,
+             year = 2020 ) %>%
       select(scenario, GCAM_region_ID, year,population_2015 )
 
     population_2015_GCAM3 <- L101.Pop_thous_GCAM3_R_Y %>%
       filter(year == 2015) %>%
-      mutate(population_2015 = population ,year = 2020 ) %>%
+      mutate(population_2015 = population,
+             year = 2020 ) %>%
       select( GCAM_region_ID, year,population_2015 )
 
     # ===================================================
@@ -132,7 +134,7 @@ module_socioeconomics_L2326.aluminum_Inc_Elas_scenarios <- function(command, ...
       filter(year %in%  MODEL_FUTURE_YEARS) %>%
       left_join_error_no_match(L101_Pop_hist_and_fut, by = c("scenario", "GCAM_region_ID", "year", "region")) %>%
       left_join_error_no_match(A326.inc_elas_parameter, by = c( "region")) %>%
-      mutate(per_capita_aluminum = a * exp(b/(pcgdp_90thousUSD * 1000 * COV_1990USD_2005USD)) * (1-m) ^ (year- 2015),
+      mutate(per_capita_aluminum = a * exp(b/(pcgdp_90thousUSD * 1000 * socioeconomics.COV_1990USD_2005USD)) * (1-m) ^ (year- 2015),
              aluminum_pro = per_capita_aluminum * population*0.000001)
 
 
@@ -175,7 +177,7 @@ module_socioeconomics_L2326.aluminum_Inc_Elas_scenarios <- function(command, ...
       filter(year %in%  MODEL_FUTURE_YEARS) %>%
       left_join_error_no_match(L101.Pop_thous_GCAM3_R_Y, by = c("GCAM_region_ID", "year", "region")) %>%
       left_join_error_no_match(A326.inc_elas_parameter, by = c( "region")) %>%
-      mutate(per_capita_aluminum = a * exp(b/(pcgdp_90thousUSD * 1000 * COV_1990USD_2005USD)) * (1-m) ^ (year- 2015),
+      mutate(per_capita_aluminum = a * exp(b/(pcgdp_90thousUSD * 1000 * socioeconomics.COV_1990USD_2005USD)) * (1-m) ^ (year- 2015),
              aluminum_pro = per_capita_aluminum * population*0.000001)
 
 

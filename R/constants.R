@@ -662,6 +662,9 @@ energy.OFF_ROAD.BIOMASS_GROWTH <- c("Africa_Eastern","Africa_Southern","Africa_W
 energy.IRON_STEEL.DEFAULT_COEF <- c("Biomass-based","scrap","H2 wholesale delivery") #assign iron & steel global technology coefficients
 
 # Socioeconomics constants ======================================================================
+# Temporary currency conversion constant - will need to be replaced with gdp_deflator
+# Was set in L2324 and L2326 Inc_Elas chunks
+socioeconomics.COV_1990USD_2005USD <- 1.383
 
 # Population years - note that these sequences shouldn't have any overlap,
 # and should contain all historical years used by other modules
@@ -1015,6 +1018,7 @@ gcamusa.ELEC_SEGMENT_BASE <- "base load generation"
 gcamusa.ELEC_SEGMENT_INT <- "intermediate generation"
 gcamusa.ELEC_SEGMENT_SUBPEAK <- "subpeak generation"
 gcamusa.ELEC_SEGMENT_PEAK <- "peak generation"
+gcamusa.BASEGDP <- set_currency_constant(1, 1990, convert_to_year = CARBON_PRICE_YEAR)
 
 # Water mapping assumptions
 gcamusa.FINAL_MAPPING_YEAR <- 2010 # Water mappings are conducted from the Huang et al. (2018) dataset which are through 2010, not the final historical year

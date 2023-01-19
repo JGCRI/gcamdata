@@ -2,7 +2,7 @@
 
 #' module_socioeconomics_L100.GDP_hist
 #'
-#' Prepare GDP database for later use: filter missing values and convert units to 1990 USD.
+#' Prepare GDP database for later use: filter missing values and convert units to CARBON_PRICE_YEAR USD.
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
@@ -13,7 +13,7 @@
 #' @details At present the GDP database used requires no downscaling and all
 #' major countries are included, so really no processing steps are needed.
 #' All that happens in this file right now is filtering out \code{NA} values
-#' and converting the units to GCAM's GDP unit (million 1990 USD).
+#' and converting the units to GCAM's GDP unit (million CARBON_PRICE_YEAR USD).
 #' @importFrom assertthat assert_that
 #' @importFrom tibble tibble
 #' @importFrom dplyr filter mutate select

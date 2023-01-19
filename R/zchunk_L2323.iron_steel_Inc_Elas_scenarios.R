@@ -52,8 +52,6 @@ module_socioeconomics_L2323.iron_steel_Inc_Elas_scenarios <- function(command, .
     all_data <- list(...)[[1]]
 
     # Load required inputs
-    COV_1990USD_2005USD = 1.383
-
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
     A323.inc_elas <- get_data(all_data, "socioeconomics/A323.inc_elas", strip_attributes = TRUE)
     A323.inc_elas_parameter  <- get_data(all_data, "socioeconomics/A323.inc_elas_parameter", strip_attributes = TRUE)
@@ -123,7 +121,7 @@ module_socioeconomics_L2323.iron_steel_Inc_Elas_scenarios <- function(command, .
       filter(year %in%  MODEL_FUTURE_YEARS) %>%
       left_join_error_no_match(L101_Pop_hist_and_fut, by = c("scenario", "GCAM_region_ID", "year", "region")) %>%
       left_join_error_no_match(A323.inc_elas_parameter, by = c( "region")) %>%
-      mutate(per_capita_steel = a * exp(b/(pcgdp_90thousUSD * 1000 * COV_1990USD_2005USD)) * (1-m) ^ (year- MODEL_FINAL_BASE_YEAR),
+      mutate(per_capita_steel = a * exp(b/(pcgdp_90thousUSD * 1000 * socioeconomics.COV_1990USD_2005USD)) * (1-m) ^ (year- MODEL_FINAL_BASE_YEAR),
              steel_pro = per_capita_steel * population*0.000001)
 
 
@@ -166,7 +164,7 @@ module_socioeconomics_L2323.iron_steel_Inc_Elas_scenarios <- function(command, .
       filter(year %in%  MODEL_FUTURE_YEARS) %>%
       left_join_error_no_match(L101.Pop_thous_GCAM3_R_Y, by = c("GCAM_region_ID", "year", "region")) %>%
       left_join_error_no_match(A323.inc_elas_parameter, by = c( "region")) %>%
-      mutate(per_capita_steel = a * exp(b/(pcgdp_90thousUSD * 1000 * COV_1990USD_2005USD)) * (1-m) ^ (year- 2015),
+      mutate(per_capita_steel = a * exp(b/(pcgdp_90thousUSD * 1000 * socioeconomics.COV_1990USD_2005USD)) * (1-m) ^ (year- 2015),
              steel_pro = per_capita_steel * population*0.000001)
 
 

@@ -396,7 +396,7 @@ module_energy_L270.limits <- function(command, ...) {
         filter(scenario == scen) %>%
         select(-scenario) %>%
         add_title(paste0("The negative emissions budget in scenario ", scen)) %>%
-        add_units("mil 1990$") %>%
+        add_units(paste0("mil ", CARBON_PRICE_YEAR, "$")) %>%
         add_comments("The budget a market is willing to subsidize negative emissions") %>%
         add_legacy_name(curr_data_name) %>%
         add_precursors(if_else(scen == "GCAM3", "L102.gdp_mil90usd_GCAM3_R_Y", "L102.gdp_mil90usd_Scen_R_Y")) %>%

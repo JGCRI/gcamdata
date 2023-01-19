@@ -97,9 +97,9 @@ join.gdp.ts <- function(past, future, grouping) {
 #' by GCAM region.
 #'
 #' The scenarios generated include the SSPs and the gSSPs (SSPs modified by
-#' near-term IMF projections).  GDP outputs are in millions of 1990 USD, Market
+#' near-term IMF projections).  GDP outputs are in millions of CARBON_PRICE_YEAR USD, Market
 #' Exchange Rate (measured in 2010) is used for foreign currency.  Per-capita
-#' values are in thousands of 1990 USD.
+#' values are in thousands of CARBON_PRICE_YEAR USD.
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command

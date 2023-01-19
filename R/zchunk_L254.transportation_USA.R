@@ -511,7 +511,7 @@ module_gcamusa_L254.transportation_USA <- function(command, ...) {
 
     L254.StubTranTechCost_USA %>%
       add_title("Costs of transportation stub technologies in the US states") %>%
-      add_units("$1990USD / vkm") %>%
+      add_units(paste0("$", CARBON_PRICE_YEAR, "USD / vkm")) %>%
       add_comments("The same USA region values are repeated for each state") %>%
       add_legacy_name("L254.StubTranTechCost_USA") %>%
       add_precursors("gcam-usa/states_subregions",

@@ -470,7 +470,7 @@ module_gcamusa_L273.en_ghg_emissions_USA <- function(command, ...) {
 
     L273.MAC_higwp_USA %>%
       add_title("Abatement curves for the HFCs and PFCs in all U.S. states") %>%
-      add_units("tax: 1990 USD; mac.reduction: % reduction") %>%
+      add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction")) %>%
       add_comments("The MAC curves will be identical to those for the USA.") %>%
       add_legacy_name("L252.MAC_higwp") %>%
       add_precursors("gcam-usa/states_subregions",

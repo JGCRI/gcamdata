@@ -489,7 +489,7 @@ module_emissions_L252.MACC <- function(command, ...) {
       lapply(function(df) {
         df %>%
           add_title("Marginal Abatement Cost Curves with Technology Changes for Agriculture crop") %>%
-          add_units("tax: 1990 USD; mac.reduction: % reduction; tech_change: Unitless") %>%
+          add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction; tech_change: Unitless")) %>%
           add_comments("adjust L252.AgMAC_tc_average to reflect variations in SSPs") %>%
           add_comments("Technology change data added in from A_MACC_TechChange_SSP_Mult") %>%
           same_precursors_as("L252.AgMAC_tc_average") %>%
@@ -504,7 +504,7 @@ module_emissions_L252.MACC <- function(command, ...) {
       lapply(function(df) {
         df %>%
           add_title("Marginal Abatement Cost Curves with Technology Changes for Animals") %>%
-          add_units("tax: 1990 USD; mac.reduction: % reduction; tech_change: Unitless") %>%
+          add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction; tech_change: Unitless")) %>%
           add_comments("adjust L252.MAC_an_tc_average to reflect variations in SSPs") %>%
           add_comments("Technology change data added in from A_MACC_TechChange_SSP_Mult") %>%
           same_precursors_as("L252.MAC_an_tc_average") %>%
@@ -518,7 +518,7 @@ module_emissions_L252.MACC <- function(command, ...) {
       lapply(function(df) {
         df %>%
           add_title("Marginal Abatement Cost Curves with Technology Changes for Industrial and Urban Processing Greenhouse Gases") %>%
-          add_units("tax: 1990 USD; mac.reduction: % reduction; tech_change: Unitless") %>%
+          add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction; tech_change: Unitless")) %>%
           add_comments("adjust L252.MAC_prc_tc_average to reflect variations in SSPs") %>%
           add_comments("Technology change data added in from A_MACC_TechChange_SSP_Mult") %>%
           same_precursors_as("L252.MAC_prc_tc_average") %>%
@@ -532,7 +532,7 @@ module_emissions_L252.MACC <- function(command, ...) {
       lapply(function(df) {
         df %>%
           add_title("Marginal Abatement Cost Curves with Technology Changes for Fossil Resources") %>%
-          add_units("tax: 1990 USD; mac.reduction: % reduction; tech_change: Unitless") %>%
+          add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction; tech_change: Unitless")) %>%
           add_comments("adjust L252.ResMAC_fos_tc_average to reflect variations in SSPs") %>%
           add_comments("Technology change data added in from A_MACC_TechChange") %>%
           same_precursors_as("L252.ResMAC_fos_tc_average") %>%
@@ -546,7 +546,7 @@ module_emissions_L252.MACC <- function(command, ...) {
       lapply(function(df) {
         df %>%
           add_title("Marginal Abatement Cost Curves with Technology Changes for F-gases") %>%
-          add_units("tax: 1990 USD; mac.reduction: % reduction; tech_change: Unitless") %>%
+          add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction; tech_change: Unitless")) %>%
           add_comments("adjust L252.MAC_higwp_tc_average to reflect variations in SSPs") %>%
           add_comments("Technology change data added in from A_MACC_TechChange") %>%
           same_precursors_as("L252.MAC_higwp_tc_average") %>%

@@ -2,7 +2,7 @@
 
 #' module_emissions_L152.MACC
 #'
-#' Create Marginal Abatement Cost Curves, in percent reduction by 1990 USD abatement costs from EPA cost curves.
+#' Create Marginal Abatement Cost Curves, in percent reduction by CARBON_PRICE_YEAR USD abatement costs from EPA cost curves.
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
@@ -10,7 +10,7 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L152.MAC_pct_R_S_Proc_EPA}. The corresponding file in the
 #' original data system was \code{L152.MACC.R} (emissions level1).
-#' @details Create Marginal abatement cost curves, in percent reduction by 1990 USD costs from EPA cost curves.
+#' @details Create Marginal abatement cost curves, in percent reduction by CARBON_PRICE_YEAR USD costs from EPA cost curves.
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter group_by left_join mutate select vars summarize_at
 #' @importFrom tidyr gather spread
