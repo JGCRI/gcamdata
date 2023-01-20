@@ -79,9 +79,9 @@ load_csv_files <- function(filenames, optionals, quiet = FALSE, dummy = NULL, ..
     } else {
       # If no price column, throw a warning if strings like "$", "USD", "Price" are in the header
       # Specifying no letters following usd because of common "USDA" string
-      # Can include '# NoPriceTag' in data to indicate no price data in file
+      # Can include '# NoCurrencyTag' in data to indicate no price data in file
       if (any(grepl("usd(?![A-Za-z])|price|cost|\\$", header, ignore.case = TRUE, perl = TRUE)) &
-          !any(grepl("# NoPriceTag", header, ignore.case = TRUE))){
+          !any(grepl("# NoCurrencyTag", header, ignore.case = TRUE))){
         warning(paste("Possible price data in", f,"but no price column indicated"))
       }
     }
