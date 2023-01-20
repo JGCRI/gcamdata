@@ -120,7 +120,7 @@ module_emissions_L253.emission_controls <- function(command, ...) {
              year %in% MODEL_YEARS) %>%
       left_join_error_no_match(non_co2_region_info, by = "GCAM_region_ID") %>%
       select(year, value, region) %>%
-      mutate(value = value * gdp_deflator(2015, PRICE_YEAR)) %>%
+      mutate(value = value * gdp_deflator(2015, CURRENCY_YEAR)) %>%
       spread(year, value) -> pcGDP_MER
 
     # Get regional SO2 species names

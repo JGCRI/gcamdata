@@ -174,7 +174,7 @@ module_gcamusa_L223.electricity_USA <- function(command, ...) {
            supplysector = elec_gen_names,
            output.unit = "EJ",
            input.unit = "EJ",
-           price.unit = paste0(PRICE_YEAR, "$/GJ"),
+           price.unit = paste0(CURRENCY_YEAR, "$/GJ"),
            logit.year.fillout = min(MODEL_BASE_YEARS),
            logit.exponent = gcamusa.GRID_REGION_LOGIT,
            logit.type = gcamusa.GRID_REGION_LOGIT_TYPE) %>%
@@ -987,7 +987,7 @@ module_gcamusa_L223.electricity_USA <- function(command, ...) {
 
     L223.StubTechCost_offshore_wind_USA %>%
       add_title("State-specific non-energy cost adder for offshore wind grid connection cost") %>%
-      add_units(paste0("$", PRICE_YEAR,"/GJ")) %>%
+      add_units(paste0("$", CURRENCY_YEAR,"/GJ")) %>%
       add_comments("Adder") %>%
       add_precursors("L114.CapacityFactor_wind_state",
                      "L223.Supplysector_elec",

@@ -2,7 +2,7 @@
 
 #' module_emissions_L152.MACC
 #'
-#' Create Marginal Abatement Cost Curves, in percent reduction by CARBON_PRICE_YEAR USD abatement costs from EPA cost curves.
+#' Create Marginal Abatement Cost Curves, in percent reduction by CARBON_CURRENCY_YEAR USD abatement costs from EPA cost curves.
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
@@ -10,7 +10,7 @@
 #' a vector of output names, or (if \code{command} is "MAKE") all
 #' the generated outputs: \code{L152.MAC_pct_R_S_Proc_EPA}. The corresponding file in the
 #' original data system was \code{L152.MACC.R} (emissions level1).
-#' @details Create Marginal abatement cost curves, in percent reduction by CARBON_PRICE_YEAR USD costs from EPA cost curves.
+#' @details Create Marginal abatement cost curves, in percent reduction by CARBON_CURRENCY_YEAR USD costs from EPA cost curves.
 #' @importFrom assertthat assert_that
 #' @importFrom dplyr filter group_by left_join mutate select vars summarize_at
 #' @importFrom tidyr gather spread
@@ -42,7 +42,7 @@ module_emissions_L152.MACC <- function(command, ...) {
     # Load required inputs
     EPA_master <- get_data(all_data, "emissions/EPA/EPA_2019_raw")
     EPA_ag <- get_data(all_data, "emissions/EPA/EPA_2019_MACC_Ag_updated_baseline")
-    EPA_MACC_master <- get_data(all_data, "emissions/EPA/EPA_2019_MACC_raw", ensure_currency_year = CARBON_PRICE_YEAR)
+    EPA_MACC_master <- get_data(all_data, "emissions/EPA/EPA_2019_MACC_raw", ensure_currency_year = CARBON_CURRENCY_YEAR)
     EPA_MACC_mapping <- get_data(all_data, "emissions/EPA_MACC_mapping")
     EPA_MACC_control_mapping <- get_data(all_data, "emissions/EPA_MACC_control_mapping")
     EPA_MAC_missing_region <- get_data(all_data, "emissions/EPA_MAC_missing_region")
@@ -74,7 +74,7 @@ module_emissions_L152.MACC <- function(command, ...) {
       EPA_MACC_baselines_MtCO2e
 
     # mac data
-    # Convert from CARBON_PRICE_YEAR$/tCO2e to CARBON_PRICE_YEAR$/tC
+    # Convert from CARBON_CURRENCY_YEAR$/tCO2e to CARBON_CURRENCY_YEAR$/tC
     EPA_MACC_master %>%
       left_join(EPA_country_map %>% select(-iso) %>% rename(country = EPA_country), by = "country") %>%
       left_join_error_no_match(EPA_MACC_control_mapping, by = c("sector", "source")) %>%
@@ -183,8 +183,8 @@ module_emissions_L152.MACC <- function(command, ...) {
     # Produce outputs
     L152.MAC_pct_R_S_Proc_EPA %>%
       add_title("Marginal abatement cost curves by GCAM region / EPA sector / process /year") %>%
-      add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: %")) %>%
-      add_comments(paste0("Marginal abatement cost curves, in percent reduction by ", CARBON_PRICE_YEAR, " USD abatement costs from EPA cost curves")) %>%
+      add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: %")) %>%
+      add_comments(paste0("Marginal abatement cost curves, in percent reduction by ", CARBON_CURRENCY_YEAR, " USD abatement costs from EPA cost curves")) %>%
       add_legacy_name("L152.MAC_pct_R_S_Proc_EPA") %>%
       add_precursors("emissions/EPA/EPA_2019_raw",
                      "emissions/EPA/EPA_2019_MACC_Ag_updated_baseline",

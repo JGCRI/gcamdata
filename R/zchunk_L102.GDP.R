@@ -97,9 +97,9 @@ join.gdp.ts <- function(past, future, grouping) {
 #' by GCAM region.
 #'
 #' The scenarios generated include the SSPs and the gSSPs (SSPs modified by
-#' near-term IMF projections).  GDP outputs are in millions of CARBON_PRICE_YEAR USD, Market
+#' near-term IMF projections).  GDP outputs are in millions of CARBON_CURRENCY_YEAR USD, Market
 #' Exchange Rate (measured in 2010) is used for foreign currency.  Per-capita
-#' values are in thousands of CARBON_PRICE_YEAR USD.
+#' values are in thousands of CARBON_CURRENCY_YEAR USD.
 #'
 #' @param command API command to execute
 #' @param ... other optional parameters, depending on command
@@ -141,9 +141,9 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
 
     # Load required inputs
     iso_GCAM_regID <- get_data(all_data, "common/iso_GCAM_regID")
-    SSP_database_v9_GDP <- get_data(all_data, "socioeconomics/SSP_database_v9_GDP", ensure_currency_year = CARBON_PRICE_YEAR)
+    SSP_database_v9_GDP <- get_data(all_data, "socioeconomics/SSP_database_v9_GDP", ensure_currency_year = CARBON_CURRENCY_YEAR)
     IMF_GDP_growth <- get_data(all_data, "socioeconomics/IMF_GDP_growth")
-    GCAM3_GDP <- get_data(all_data, "socioeconomics/GCAM3_GDP", ensure_currency_year = CARBON_PRICE_YEAR) %>%
+    GCAM3_GDP <- get_data(all_data, "socioeconomics/GCAM3_GDP", ensure_currency_year = CARBON_CURRENCY_YEAR) %>%
       gather_years
     L100.gdp_mil90usd_ctry_Yh <- get_data(all_data, "L100.gdp_mil90usd_ctry_Yh")
     L101.Pop_thous_GCAM3_R_Y <- get_data(all_data, "L101.Pop_thous_GCAM3_R_Y")
@@ -287,7 +287,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       filter(year == PPP.MER.baseyr) %>%
       group_by(GCAM_region_ID) %>%
       # gdp_deflator only used to match old outputs, not necessary
-      mutate(MER = gdp * gdp_deflator(2005, CARBON_PRICE_YEAR) * CONV_MIL_BIL) %>%
+      mutate(MER = gdp * gdp_deflator(2005, CARBON_CURRENCY_YEAR) * CONV_MIL_BIL) %>%
       summarise(MER = sum(MER))
     ## columns: GCAM_region_ID, MER
 
@@ -305,7 +305,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       ungroup %>%
       filter(year == PPP.MER.baseyr, scenario == 'SSP1') %>%
       # gdp_deflator only used to match old outputs, not necessary
-      mutate(PPP = gdp * gdp_deflator(2005, CARBON_PRICE_YEAR)) %>%
+      mutate(PPP = gdp * gdp_deflator(2005, CARBON_CURRENCY_YEAR)) %>%
       select(GCAM_region_ID, PPP)
 
     ppp.mer.rgn <-
@@ -417,7 +417,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       rename(value = gdp) %>%
       mutate(year = as.integer(year)) %>%
       add_title("Gross Domestic Product (GDP) by scenario, region, and year.") %>%
-      add_units(paste("Millions of", CARBON_PRICE_YEAR, "USD (MER)")) %>%
+      add_units(paste("Millions of", CARBON_CURRENCY_YEAR, "USD (MER)")) %>%
       add_comments("For the SSP scenarios, SSP GDP projections are scaled to match ") %>%
       add_comments("historical values in the base year (2010).  For the gSSP scenarios ") %>%
       add_comments("IMF growth projections are applied from 2010-2020, and the SSP projections ") %>%
@@ -434,7 +434,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       filter(year %in% c(HISTORICAL_YEARS, FUTURE_YEARS)) %>%
       rename(value = pcgdp) %>%
       add_title("Gross Domestic Product (GDP) per capita, by scenario, region, and year.") %>%
-      add_units(paste("Thousands of", CARBON_PRICE_YEAR, "USD (MER)")) %>%
+      add_units(paste("Thousands of", CARBON_CURRENCY_YEAR, "USD (MER)")) %>%
       add_comments("Computed as GDP/population.  Values prior to the base year (2010) are ") %>%
       add_comments("historical; values subsequent are from SSP projections.") %>%
       add_legacy_name("L102.pcgdp_thous90USD_Scen_R_Y") %>%
@@ -450,7 +450,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       add_title("Purchasing Power Parity (PPP) to Market Exchange Rate (MER) GDP conversions, by region") %>%
       add_units("unitless") %>%
       add_comments("Calculated as GDP(PPP) / GDP(MER) in the base year (2010) for each region.  The") %>%
-      add_comments(paste("table also contains PPP-GDP and MER-GDP in billions of", CARBON_PRICE_YEAR, "USD for the base year, ")) %>%
+      add_comments(paste("table also contains PPP-GDP and MER-GDP in billions of", CARBON_CURRENCY_YEAR, "USD for the base year, ")) %>%
       add_comments("because they were included in the original table, but I'm not sure they are used for, ") %>%
       add_comments("or useful for, anything besides calculating the ratio.") %>%
       add_legacy_name("L102.PPP_MER_R") %>%
@@ -462,7 +462,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
 
     gdp_mil90usd_GCAM3_R_Y %>%
       add_title("GDP by GCAM3 Region") %>%
-      add_units(paste("Million", CARBON_PRICE_YEAR, "USD")) %>%
+      add_units(paste("Million", CARBON_CURRENCY_YEAR, "USD")) %>%
       add_comments("Scales historical SSP GDP data to GCAM3 GDP data.") %>%
       add_comments("Calculates future GDP based on ratio of GCAM3 future to 2010 value.") %>%
       add_legacy_name("L102.gdp_mil90usd_GCAM3_R_Y") %>%
@@ -474,7 +474,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
 
     gdp_mil90usd_GCAM3_ctry_Y %>%
       add_title("GCAM3 GDP by Country") %>%
-      add_units(paste("Million", CARBON_PRICE_YEAR, "USD")) %>%
+      add_units(paste("Million", CARBON_CURRENCY_YEAR, "USD")) %>%
       add_comments("Scales historical SSP GDP data to GCAM3 GDP data.") %>%
       add_comments("Calculates future GDP based on ratio of GCAM3 future to 2010 value.") %>%
       add_legacy_name("L102.gdp_mil90usd_GCAM3_ctry_Y") %>%
@@ -486,7 +486,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
 
     pcgdp_thous90USD_GCAM3_R_Y %>%
       add_title("Per-Capita GDP by GCAM3 Region") %>%
-      add_units(paste0("Thousand ", CARBON_PRICE_YEAR, " USD")) %>%
+      add_units(paste0("Thousand ", CARBON_CURRENCY_YEAR, " USD")) %>%
       add_comments("L102.gdp_mil90usd_GCAM3_R_Y divided by population from L101.Pop_thous_GCAM3_R_Y") %>%
       add_legacy_name("L102.pcgdp_thous90USD_GCAM3_R_Y") %>%
       add_precursors("common/iso_GCAM_regID",
@@ -498,7 +498,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
 
     pcgdp_thous90USD_GCAM3_ctry_Y %>%
       add_title("GCAM3 Per-Capita GDP by Country") %>%
-      add_units(paste0("Thousand ", CARBON_PRICE_YEAR, " USD")) %>%
+      add_units(paste0("Thousand ", CARBON_CURRENCY_YEAR, " USD")) %>%
       add_comments("L102.gdp_mil90usd_GCAM3_ctry_Y divided by population from L101.Pop_thous_GCAM3_ctry_Y") %>%
       add_legacy_name("L102.pcgdp_thous90USD_GCAM3_ctry_Y") %>%
       add_precursors("common/iso_GCAM_regID",

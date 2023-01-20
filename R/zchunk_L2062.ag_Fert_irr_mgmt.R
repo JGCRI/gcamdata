@@ -160,7 +160,7 @@ module_aglu_L2062.ag_Fert_irr_mgmt <- function(command, ...) {
       L2062.AgCoef_Fert_bio_irr_mgmt
     L2062.AgCost_ag_irr_mgmt_adj %>%
       add_title("Adjusted non-land variable cost for agricultural technologies") %>%
-      add_units(paste0(PRICE_YEAR, "$ per kg")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$ per kg")) %>%
       add_comments("Subtract cost of fertilizer from non-land variable cost.") %>%
       add_comments("Fertilizer costs is computed using a fixed NH3 cost and the fertilizer coefficient") %>%
       add_legacy_name("L2062.AgCost_ag_irr_mgmt_adj") %>%
@@ -169,7 +169,7 @@ module_aglu_L2062.ag_Fert_irr_mgmt <- function(command, ...) {
       L2062.AgCost_ag_irr_mgmt_adj
     L2062.AgCost_bio_irr_mgmt_adj %>%
       add_title("Adjusted non-land variable cost for agricultural technologies") %>%
-      add_units(paste0(PRICE_YEAR, "$ per GJ")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$ per GJ")) %>%
       add_comments("Subtract cost of fertilizer from non-land variable cost.") %>%
       add_comments("Fertilizer costs is computed using a fixed NH3 cost and the fertilizer coefficient") %>%
       add_legacy_name("L2062.AgCost_bio_irr_mgmt_adj") %>%

@@ -66,12 +66,12 @@ module_energy_L261.Cstorage <- function(command, ...) {
 
     # Load required inputs
     GCAM_region_names <- get_data(all_data, "common/GCAM_region_names")
-    A61.rsrc_info <- get_data(all_data, "energy/A61.rsrc_info", strip_attributes = TRUE, price.units.complete = CARBON_PRICE_YEAR)
-    A61.sector <- get_data(all_data, "energy/A61.sector", strip_attributes = TRUE, price.units.complete = CARBON_PRICE_YEAR)
+    A61.rsrc_info <- get_data(all_data, "energy/A61.rsrc_info", strip_attributes = TRUE, price.units.complete = CARBON_CURRENCY_YEAR)
+    A61.sector <- get_data(all_data, "energy/A61.sector", strip_attributes = TRUE, price.units.complete = CARBON_CURRENCY_YEAR)
     A61.subsector_logit <- get_data(all_data, "energy/A61.subsector_logit", strip_attributes = TRUE)
     A61.subsector_shrwt <- get_data(all_data, "energy/A61.subsector_shrwt", strip_attributes = TRUE)
     A61.globaltech_coef <- get_data(all_data, "energy/A61.globaltech_coef")
-    A61.globaltech_cost <- get_data(all_data, "energy/A61.globaltech_cost", ensure_currency_year = PRICE_YEAR) # use PRICE_YEAR here, but CARBON_PRICE_YEAR in L161.RsrcCurves_MtC_R
+    A61.globaltech_cost <- get_data(all_data, "energy/A61.globaltech_cost", ensure_currency_year = CURRENCY_YEAR) # use CURRENCY_YEAR here, but CARBON_CURRENCY_YEAR in L161.RsrcCurves_MtC_R
     A61.globaltech_shrwt <- get_data(all_data, "energy/A61.globaltech_shrwt", strip_attributes = TRUE)
     L161.RsrcCurves_MtC_R <- get_data(all_data, "L161.RsrcCurves_MtC_R", strip_attributes = TRUE)
 
@@ -210,7 +210,7 @@ module_energy_L261.Cstorage <- function(command, ...) {
       L261.GlobalTechCoef_C # This is a final output table.
 
     # Costs of global technologies
-    # A61.globaltech_cost reports carbon storage offshore storage cost (PRICE_YEAR$/tCO2)
+    # A61.globaltech_cost reports carbon storage offshore storage cost (CURRENCY_YEAR$/tCO2)
     A61.globaltech_cost %>%
       gather_years %>%
       # Expand table to include all model base and future years
@@ -229,7 +229,7 @@ module_energy_L261.Cstorage <- function(command, ...) {
              technology = "onshore carbon-storage") %>%
       bind_rows(L261.GlobalTechCost_C) %>%
       # Price out CCS by using storage cost that is very high (i.e., $10,000/tCO2)
-      mutate(input.cost = 10000) -> # PRICE_YEAR$/tCO2
+      mutate(input.cost = 10000) -> # CURRENCY_YEAR$/tCO2
       L261.GlobalTechCost_C_High # This is a final output table.
 
     # Shareweights of global technologies for energy transformation
@@ -255,7 +255,7 @@ module_energy_L261.Cstorage <- function(command, ...) {
 
     L261.Rsrc %>%
       add_title("Carbon storage information") %>%
-      add_units(paste0("Output unit as listed (MtC), price unit as listed (", CARBON_PRICE_YEAR, "$/tC)")) %>%
+      add_units(paste0("Output unit as listed (MtC), price unit as listed (", CARBON_CURRENCY_YEAR, "$/tC)")) %>%
       add_comments("Carbon storage resource information was expanded to include GCAM region names") %>%
       add_comments("and filtered for only depletable resources") %>%
       add_legacy_name("L261.Rsrc") %>%
@@ -264,7 +264,7 @@ module_energy_L261.Cstorage <- function(command, ...) {
 
     L261.UnlimitRsrc %>%
       add_title("Unlimited carbon storage information") %>%
-      add_units(paste0("Output unit as listed (MtC), price unit as listed (", CARBON_PRICE_YEAR, "$/tC), capacity factor is unitless")) %>%
+      add_units(paste0("Output unit as listed (MtC), price unit as listed (", CARBON_CURRENCY_YEAR, "$/tC), capacity factor is unitless")) %>%
       add_comments("Carbon storage resource information was expanded to include GCAM region names") %>%
       add_comments("and filtered for only unlimited resources (i.e., offshore)") %>%
       add_legacy_name("L261.UnlimitRsrc") %>%
@@ -273,7 +273,7 @@ module_energy_L261.Cstorage <- function(command, ...) {
 
     L261.RsrcCurves_C %>%
       add_title("Supply curve of carbon storage resources") %>%
-      add_units(paste0("Available in MtCO2, Extraction Cost in ", CARBON_PRICE_YEAR, "$/tCO2")) %>%
+      add_units(paste0("Available in MtCO2, Extraction Cost in ", CARBON_CURRENCY_YEAR, "$/tCO2")) %>%
       add_comments("GCAM region names were added to the resource supply curves generated in level 1") %>%
       add_legacy_name("L261.RsrcCurves_C") %>%
       add_precursors("common/GCAM_region_names", "L161.RsrcCurves_MtC_R") ->
@@ -288,7 +288,7 @@ module_energy_L261.Cstorage <- function(command, ...) {
 
     L261.RsrcCurves_C_high %>%
       add_title("High supply curve of onshore carbon storage resources") %>%
-      add_units(paste0("Available in MtCO2, Extraction Cost in ", CARBON_PRICE_YEAR, "$/tCO2")) %>%
+      add_units(paste0("Available in MtCO2, Extraction Cost in ", CARBON_CURRENCY_YEAR, "$/tCO2")) %>%
       add_comments("A multiplier (based on high level of CCS use) was applied to the extraction cost to generate a high supply curve") %>%
       add_legacy_name("L261.RsrcCurves_C_high") %>%
       add_precursors("common/GCAM_region_names", "L161.RsrcCurves_MtC_R") ->
@@ -296,7 +296,7 @@ module_energy_L261.Cstorage <- function(command, ...) {
 
     L261.RsrcCurves_C_low %>%
       add_title("Low supply curve of onshore carbon storage resources") %>%
-      add_units(paste0("Available in MtCO2, Extraction Cost in ", CARBON_PRICE_YEAR, "$/tCO2")) %>%
+      add_units(paste0("Available in MtCO2, Extraction Cost in ", CARBON_CURRENCY_YEAR, "$/tCO2")) %>%
       add_comments("A multiplier (based on low level of CCS use) was applied to the extraction cost to generate a low supply curve") %>%
       add_legacy_name("L261.RsrcCurves_C_low") %>%
       add_precursors("common/GCAM_region_names", "L161.RsrcCurves_MtC_R") ->
@@ -304,7 +304,7 @@ module_energy_L261.Cstorage <- function(command, ...) {
 
     L261.RsrcCurves_C_lowest %>%
       add_title("Lowest supply curve of onshore carbon storage resources") %>%
-      add_units(paste0("Available in MtCO2, Extraction Cost in ", CARBON_PRICE_YEAR, "$/tCO2")) %>%
+      add_units(paste0("Available in MtCO2, Extraction Cost in ", CARBON_CURRENCY_YEAR, "$/tCO2")) %>%
       add_comments("A multiplier (based on lowest level of CCS use) was applied to the extraction cost to generate a lowest supply curve") %>%
       add_legacy_name("L261.RsrcCurves_C_lowest") %>%
       add_precursors("common/GCAM_region_names", "L161.RsrcCurves_MtC_R") ->
@@ -352,7 +352,7 @@ module_energy_L261.Cstorage <- function(command, ...) {
 
     L261.GlobalTechCost_C %>%
       add_title("Carbon storage global technology costs across base model years") %>%
-      add_units(paste0(PRICE_YEAR, "$/tCO2")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/tCO2")) %>%
       add_comments("Global technology coefficients were interpolated across all base model years") %>%
       add_legacy_name("L261.GlobalTechCost_C") %>%
       add_precursors("energy/A61.globaltech_cost") ->
@@ -360,7 +360,7 @@ module_energy_L261.Cstorage <- function(command, ...) {
 
     L261.GlobalTechCost_C_High %>%
       add_title("Carbon storage global technology costs across base model years (high price scenario)") %>%
-      add_units(paste0(PRICE_YEAR, "$/tCO2")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/tCO2")) %>%
       add_comments("Assigned onshore and offshore carbon storage technologies a high price to price out CCS") %>%
       add_legacy_name("L261.GlobalTechCost_C_High") %>%
       add_precursors("energy/A61.globaltech_cost") ->

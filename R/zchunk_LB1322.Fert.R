@@ -280,12 +280,12 @@ module_energy_LB1322.Fert <- function(command, ...) {
       mutate(value = approx_fun(year, value)) %>%
       filter(year == aglu.FERT_PRICE_YEAR) %>%
       mutate(value = replace_na(value, 0)) %>%
-      pull(value) -> # Save cost as single number. Units are PRICE_YEAR USD per GJ.
+      pull(value) -> # Save cost as single number. Units are CURRENCY_YEAR USD per GJ.
       A10.rsrc_cost_aglu.FERT_PRICE_YEAR
 
 
     # A21.globaltech_cost and A22.globaltech_cost report costs on primary energy handling (A21) and transformation technologies (A22)
-    # Units for both are PRICE_YEAR$/GJ
+    # Units for both are CURRENCY_YEAR$/GJ
     # As mentioned above, because 2010 is the year used as the fertilizer base price (from A10.rsrc_info), we will interpolate for
     # this year for both global tech cost tables so that we may add up all costs consistently.
 
@@ -298,7 +298,7 @@ module_energy_LB1322.Fert <- function(command, ...) {
       mutate(value = approx_fun(year, value)) %>%
       filter(year == aglu.FERT_PRICE_YEAR) %>%
       mutate(value = if_else(is.na(value) ,0 , as.double(value))) %>%
-      pull(value) -> # Save cost as single number. Units are PRICE_YEAR USD per GJ.
+      pull(value) -> # Save cost as single number. Units are CURRENCY_YEAR USD per GJ.
       A21.globaltech_cost_aglu.FERT_PRICE_YEAR
 
 
@@ -312,11 +312,11 @@ module_energy_LB1322.Fert <- function(command, ...) {
       mutate(value = approx_fun(year, value)) %>%
       filter(year == aglu.FERT_PRICE_YEAR) %>%
       mutate(value = if_else(is.na(value),0,as.double(value))) %>%
-      pull(value) -> # Save cost as single number. Units are PRICE_YEAR USD per GJ.
+      pull(value) -> # Save cost as single number. Units are CURRENCY_YEAR USD per GJ.
       A22.globaltech_cost_aglu.FERT_PRICE_YEAR
 
 
-    # Sum up costs. Units are PRICE_YEAR USD per GJ.
+    # Sum up costs. Units are CURRENCY_YEAR USD per GJ.
     L1322.P_gas_75USDGJ <- A10.rsrc_cost_aglu.FERT_PRICE_YEAR + energy.GAS_PIPELINE_COST_ADDER_75USDGJ
 
     # Obtain fertilizer input-output cofficient for natural gas in aglu.FERT_PRICE_YEAR
@@ -327,10 +327,10 @@ module_energy_LB1322.Fert <- function(command, ...) {
       pull(value) -> # Save coefficient as single number
       L1322.IO_GJkgN_Fert_gas
 
-    # Multiply cost by input-output cofficient. Units are PRICE_YEAR USD per GJ.
+    # Multiply cost by input-output cofficient. Units are CURRENCY_YEAR USD per GJ.
     L1322.Fert_Fuelcost_75USDGJ_gas <- L1322.P_gas_75USDGJ * L1322.IO_GJkgN_Fert_gas
 
-    # Convert total NH3 cost (2010$/tNH3) to N cost (PRICE_YEAR$/kgN)
+    # Convert total NH3 cost (2010$/tNH3) to N cost (CURRENCY_YEAR$/kgN)
     Fert_Cost_75USDkgN <- aglu.FERT_PRICE * CONV_KG_T / CONV_NH3_N
 
     # Calculate non-fuel cost of natural gas steam reforming (includes delivery charges)
@@ -342,7 +342,7 @@ module_energy_LB1322.Fert <- function(command, ...) {
     # NOTE: Because our NGSR NEcosts were calculated as a residual from mkt prices, and include delivery costs,
     # not using a ratio of costs, but rather an arithmetic adder. H2A costs are in $/kgH; convert to N-equivalent
 
-    # First, calculate costs in PRICE_YEAR USD per kg N
+    # First, calculate costs in CURRENCY_YEAR USD per kg N
     H2A_Prod_Tech %>%
       mutate(NEcost_75USDkgN = NEcost * NH3_H_frac / CONV_NH3_N) ->
       H2A_Prod_Tech_1975
@@ -436,7 +436,7 @@ module_energy_LB1322.Fert <- function(command, ...) {
 
     L1322.Fert_NEcost_75USDkgN_F %>%
       add_title("Fertilizer non-energy costs by technology") %>%
-      add_units(paste0(PRICE_YEAR, "USD/kgN")) %>%
+      add_units(paste0(CURRENCY_YEAR, "USD/kgN")) %>%
       add_comments("Gas was calculated using USA market fertilizer price minus GCAM fuel costs.") %>%
       add_comments("Gas with CCS, coal, and coal with CCS were calculated using H2A characteristics of hydrogen production technologies") %>%
       add_comments("Oil was set to generally balance the total net costs with natural gas steam reforming.") %>%

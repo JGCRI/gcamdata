@@ -472,7 +472,7 @@ module_energy_L242.building_agg <- function(command, ...) {
 
     L242.GlobalTechCost_bld %>%
       add_title("Capital costs of global building technologies") %>%
-      add_units(paste0(PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("Interpolated data across model years") %>%
       add_legacy_name("L242.GlobalTechCost_bld") %>%
       add_precursors("energy/A42.globaltech_cost") ->

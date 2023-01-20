@@ -180,7 +180,7 @@ module_energy_L225.hydrogen <- function(command, ...) {
       complete(nesting(supplysector, subsector, technology, minicam.energy.input),
                year = c(year, MODEL_BASE_YEARS, MODEL_FUTURE_YEARS)) %>%
       mutate(price.unit.conversion = approx_fun(year, price.unit.conversion, rule = 2),
-             price.unit.conversion = price.unit.conversion * gdp_deflator(PRICE_YEAR, CARBON_PRICE_YEAR) / gdp_deflator(1975, 1990)) %>%
+             price.unit.conversion = price.unit.conversion * gdp_deflator(CURRENCY_YEAR, CARBON_CURRENCY_YEAR) / gdp_deflator(1975, 1990)) %>%
       rename(sector.name = supplysector, subsector.name = subsector) %>%
       select(LEVEL2_DATA_NAMES[["GlobalTechInputPMult"]]) %>%
       filter(year %in% c(MODEL_BASE_YEARS, MODEL_FUTURE_YEARS)) -> L225.GlobalTechInputPMult
@@ -191,7 +191,7 @@ module_energy_L225.hydrogen <- function(command, ...) {
       arrange(supplysector, subsector, technology, minicam.non.energy.input, year) %>%
       group_by(supplysector, subsector, technology, minicam.non.energy.input) %>%
       mutate(input.cost = round(approx_fun(year, value, rule = 2), digits = energy.DIGITS_COST),
-             units = paste0('$', PRICE_YEAR,'/GJ H2')) %>%
+             units = paste0('$', CURRENCY_YEAR,'/GJ H2')) %>%
       ungroup %>%
       filter(year %in% c(MODEL_BASE_YEARS, MODEL_FUTURE_YEARS)) %>%
       # Assign the columns "sector.name" and "subsector.name", consistent with the location info of a global technology
@@ -396,7 +396,7 @@ module_energy_L225.hydrogen <- function(command, ...) {
 
     L225.GlobalTechCost_h2 %>%
       add_title("Costs of global technologies for hydrogen") %>%
-      add_units(paste0("$", PRICE_YEAR, " / GJ H2")) %>%
+      add_units(paste0("$", CURRENCY_YEAR, " / GJ H2")) %>%
       add_comments("Interpolated orginal data into all model years") %>%
       add_precursors("L125.globaltech_cost",'energy/A25.globaltech_cost')  -> L225.GlobalTechCost_h2
 
@@ -435,7 +435,7 @@ module_energy_L225.hydrogen <- function(command, ...) {
 
     L225.GlobalTechInputPMult %>%
       add_title("Price conversion from transportation technologies") %>%
-      add_comments(paste0("converts from $", CARBON_PRICE_YEAR, "/kg-km to $", PRICE_YEAR, "/tkm")) %>%
+      add_comments(paste0("converts from $", CARBON_CURRENCY_YEAR, "/kg-km to $", CURRENCY_YEAR, "/tkm")) %>%
       add_units("Unitless") ->
       L225.GlobalTechInputPMult_h2
 
@@ -457,7 +457,7 @@ module_energy_L225.hydrogen <- function(command, ...) {
 
     L225.StubTechCost_h2 %>%
       add_title("Regional hydrogen production costs") %>%
-      add_units(paste0("$", PRICE_YEAR, "/GJ")) %>%
+      add_units(paste0("$", CURRENCY_YEAR, "/GJ")) %>%
       add_comments("LCOH for the electrolyzer and renewables providing electricity.") %>%
       add_precursors("L125.Electrolyzer_IdleRatio_Params",
                      "L223.StubTechCapFactor_elec",

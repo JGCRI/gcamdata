@@ -252,7 +252,7 @@ module_aglu_L2052.ag_prodchange_cost_irr_mgmt <- function(command, ...) {
     # Produce outputs
     L2052.AgCost_ag_irr_mgmt %>%
       add_title("Non-land variable costs of crops prodction by region / crop / GLU / technology") %>%
-      add_units(paste0(PRICE_YEAR, "$ per kg")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$ per kg")) %>%
       add_comments("The same costs are assigned to all four technologies") %>%
       add_legacy_name("L2052.AgCost_ag_irr_mgmt") %>%
       add_precursors("common/GCAM_region_names",
@@ -266,7 +266,7 @@ module_aglu_L2052.ag_prodchange_cost_irr_mgmt <- function(command, ...) {
 
     L2052.AgCost_bio_irr_mgmt %>%
       add_title("Non-land variable costs of biomass crops production by region / crop / GLU / technology") %>%
-      add_units(paste0(PRICE_YEAR, "$ per kg")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$ per kg")) %>%
       add_comments("The same costs are assigned to all four technologies") %>%
       add_legacy_name("L2052.AgCost_bio_irr_mgmt") %>%
       add_precursors("L201.AgYield_bio_grass",
@@ -275,7 +275,7 @@ module_aglu_L2052.ag_prodchange_cost_irr_mgmt <- function(command, ...) {
 
     L2052.AgCost_For %>%
       add_title("Non-land variable costs of forest prodction by region / GLU") %>%
-      add_units(paste0(PRICE_YEAR, "$ per kg")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$ per kg")) %>%
       add_comments("Technologies are not specified for forest") %>%
       add_legacy_name("L2052.AgCost_For") %>%
       add_precursors("common/GCAM_region_names",

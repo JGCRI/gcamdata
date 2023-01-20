@@ -205,7 +205,7 @@ module_water_L245.water_demand_municipal <- function(command, ...) {
 
     L245.TechCost %>%
       add_title("Municipal water non-energy costs") %>%
-      add_units(paste0(PRICE_YEAR, "USD/m3")) %>%
+      add_units(paste0(CURRENCY_YEAR, "USD/m3")) %>%
       add_comments("Costs joined to sector infromation and expanded for all model years") %>%
       add_legacy_name("L245.TechCost") %>%
       add_precursors("common/GCAM_region_names",

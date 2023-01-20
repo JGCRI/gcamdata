@@ -352,7 +352,7 @@ module_aglu_L2072.ag_water_irr_mgmt <- function(command, ...) {
 
     L2072.AgNonEnergyCost_IrrWaterWdraw %>%
       add_title("Irrigation water subsidies by region / crop / year / GLU / management level") %>%
-      add_units(paste0(PRICE_YEAR, "$/kg")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/kg")) %>%
       add_comments("Water subsidies are calculated to keep profit rates of irrigated technologies above a minimum level") %>%
       add_comments("While implemented using <input-cost>, all values are negative so these reduce net costs") %>%
       same_precursors_as("L2072.AgCoef_IrrWaterWdraw_ag_mgmt") %>%

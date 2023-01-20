@@ -202,7 +202,7 @@ module_gcamusa_L261.carbon_storage_USA <- function(command, ...) {
 
     L261.RsrcCurves_FERC %>%
       add_title("Onshore storage supply curves in the FERC regions") %>%
-      add_units(paste0("MtC and ", CARBON_PRICE_YEAR, "USDtC")) %>%
+      add_units(paste0("MtC and ", CARBON_CURRENCY_YEAR, "USDtC")) %>%
       add_comments("Onshore carbon storage availability and extraction costs in each FERC region") %>%
       add_legacy_name("L261.RsrcCurves_FERC") %>%
       add_precursors("L161.Cstorage_FERC") %>%

@@ -91,7 +91,7 @@ module_aglu_LA100.GTAP_downscale_ctry <- function(command, ...) {
 
       # Produce outputs
       add_title("Land value by country / GLU / GTAP commodity class") %>%
-      add_units(paste("Million", PRICE_YEAR, "US Dollars")) %>%
+      add_units(paste("Million", CURRENCY_YEAR, "US Dollars")) %>%
       add_comments("Compute the country-within-GTAP region's production share for each of the commodity classes") %>%
       add_comments("Downscale the GTAP region-level land value to countries by production shares") %>%
       add_legacy_name("L100.GTAP_LV_milUSD") %>%

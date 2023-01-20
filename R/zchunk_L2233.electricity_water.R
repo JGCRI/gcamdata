@@ -705,7 +705,7 @@ module_water_L2233.electricity_water <- function(command, ...) {
 
     L2233.Elec_tables_globaltech_nocost_$GlobalIntTechBackup_elec %>%
       add_title("Capital costs of backup technologies for intermittent techs") %>%
-      add_units(paste0(PRICE_YEAR, "USD/kW/yr")) ->
+      add_units(paste0(CURRENCY_YEAR, "USD/kW/yr")) ->
       L2233.GlobalIntTechBackup_elec_cool
 
     L2233.Elec_tables_globaltech_nocost_$GlobalIntTechEff_elec %>%
@@ -866,7 +866,7 @@ module_water_L2233.electricity_water <- function(command, ...) {
     attr(L2233.GlobalIntTechCapital_elec, ATTR_PRECURSORS) <- NULL
     L2233.GlobalIntTechCapital_elec %>%
       add_title("Capital costs for intermittent electricity generating tech", overwrite = TRUE) %>%
-      add_units(paste0(PRICE_YEAR, "$US/kW")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$US/kW")) %>%
       add_comments("Composed directly from input data") %>%
       add_legacy_name("L2233.GlobalIntTechCapital_elec", overwrite = TRUE) %>%
       add_precursors("water/elec_tech_water_map",
@@ -877,7 +877,7 @@ module_water_L2233.electricity_water <- function(command, ...) {
     attr(L2233.GlobalTechCapital_elecPassthru, ATTR_PRECURSORS) <- NULL
     L2233.GlobalTechCapital_elecPassthru %>%
       add_title("Capital costs for standard electricity generating tech", overwrite = TRUE) %>%
-      add_units(paste0(PRICE_YEAR, "$US/kW")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$US/kW")) %>%
       add_comments("Composed directly from input data") %>%
       add_legacy_name("L2233.GlobalTechCapital_elecPassthru", overwrite = TRUE) %>%
       add_precursors("water/elec_tech_water_map",
@@ -888,7 +888,7 @@ module_water_L2233.electricity_water <- function(command, ...) {
     attr(L2233.GlobalIntTechOMfixed_elec, ATTR_PRECURSORS) <- NULL
     L2233.GlobalIntTechOMfixed_elec %>%
       add_title("Operation and maintainance costs (fixed) for intermittent electricity generating tech", overwrite = TRUE) %>%
-      add_units(paste0(PRICE_YEAR, "$US/kW/yr")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$US/kW/yr")) %>%
       add_comments("Composed directly from input data") %>%
       add_legacy_name("L2233.GlobalIntTechOMfixed_elec", overwrite = TRUE) %>%
       add_precursors("water/elec_tech_water_map",
@@ -899,7 +899,7 @@ module_water_L2233.electricity_water <- function(command, ...) {
     attr(L2233.GlobalTechOMfixed_elecPassthru, ATTR_PRECURSORS) <- NULL
     L2233.GlobalTechOMfixed_elecPassthru %>%
       add_title("Operation and maintainance costs (fixed) for standard electricity generating tech", overwrite = TRUE) %>%
-      add_units(paste0(PRICE_YEAR, "$US/kW/yr")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$US/kW/yr")) %>%
       add_comments("Composed directly from input data") %>%
       add_legacy_name("L2233.GlobalTechOMfixed_elecPassthru", overwrite = TRUE) %>%
       add_precursors("water/elec_tech_water_map",
@@ -910,7 +910,7 @@ module_water_L2233.electricity_water <- function(command, ...) {
     attr(L2233.GlobalIntTechOMvar_elec, ATTR_PRECURSORS) <- NULL
     L2233.GlobalIntTechOMvar_elec %>%
       add_title("Operation and maintainance costs (variable) for intermittent electricity generating tech", overwrite = TRUE) %>%
-      add_units(paste0(PRICE_YEAR, "$US/MWh")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$US/MWh")) %>%
       add_comments("Composed directly from input data") %>%
       add_legacy_name("L2233.GlobalIntTechOMvar_elec", overwrite = TRUE) %>%
       add_precursors("water/elec_tech_water_map",
@@ -921,7 +921,7 @@ module_water_L2233.electricity_water <- function(command, ...) {
     attr(L2233.GlobalTechOMvar_elecPassthru, ATTR_PRECURSORS) <- NULL
     L2233.GlobalTechOMvar_elecPassthru %>%
       add_title("Operation and maintainance costs (variable) for standard electricity generating tech", overwrite = TRUE) %>%
-      add_units(paste0(PRICE_YEAR, "$US/MWh")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$US/MWh")) %>%
       add_comments("Composed directly from input data") %>%
       add_legacy_name("L2233.GlobalTechOMvar_elecPassthru", overwrite = TRUE) %>%
       add_precursors("water/elec_tech_water_map",
@@ -1013,7 +1013,7 @@ module_water_L2233.electricity_water <- function(command, ...) {
 
     L2233.GlobalTechCapital_elec_cool %>%
       add_title("Overnight capital, charge rates and capacity factors for standard cooling technologies") %>%
-      add_units(paste0(PRICE_YEAR, "USD")) %>%
+      add_units(paste0(CURRENCY_YEAR, "USD")) %>%
       add_comments("Capital costs converted from 2005USD") %>%
       add_comments("Fixed input assumptions for capacity factor and FCR") %>%
       add_legacy_name("L2233.GlobalTechCapital_elec_cool") %>%
@@ -1023,7 +1023,7 @@ module_water_L2233.electricity_water <- function(command, ...) {
 
     L2233.GlobalIntTechCapital_elec_cool %>%
       add_title("Overnight capital, charge rates and capacity factors for standard cooling technologies") %>%
-      add_units(paste0(PRICE_YEAR, "USD")) %>%
+      add_units(paste0(CURRENCY_YEAR, "USD")) %>%
       add_comments("Capital costs converted from 2005USD") %>%
       add_comments("Fixed input assumptions for capacity factor and FCR") %>%
       add_legacy_name("L2233.GlobalIntTechCapital_elec_cool") %>%

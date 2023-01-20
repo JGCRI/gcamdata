@@ -99,7 +99,7 @@ module_aglu_LB1321.regional_ag_prices <- function(command, ...) {
       inner_join(L1321.GDPdefl_ctry,
                  by = c("countries", "year")) %>%
       mutate(value = as.numeric(value),
-             value = ((value / currentUSD_per_baseyearUSD) * gdp_deflator(PRICE_YEAR, aglu.DEFLATOR_BASE_YEAR) / CONV_T_KG)) %>%
+             value = ((value / currentUSD_per_baseyearUSD) * gdp_deflator(CURRENCY_YEAR, aglu.DEFLATOR_BASE_YEAR) / CONV_T_KG)) %>%
       select(iso, pp_commod = item, year, value) %>%
       drop_na(value)
 
@@ -301,7 +301,7 @@ module_aglu_LB1321.regional_ag_prices <- function(command, ...) {
       inner_join(L1321.GDPdefl_ctry,
                  by = c("countries", "year")) %>%
       mutate(ExpV_kUSD = as.numeric(ExpV_kUSD),
-             ExpV_kUSD = ((ExpV_kUSD / currentUSD_per_baseyearUSD) * gdp_deflator(PRICE_YEAR, aglu.DEFLATOR_BASE_YEAR))) %>%
+             ExpV_kUSD = ((ExpV_kUSD / currentUSD_per_baseyearUSD) * gdp_deflator(CURRENCY_YEAR, aglu.DEFLATOR_BASE_YEAR))) %>%
       select(iso, GCAM_commodity, year, ExpV_kUSD, Exp_m3) %>%
       drop_na(ExpV_kUSD, Exp_m3)
 
@@ -352,7 +352,7 @@ module_aglu_LB1321.regional_ag_prices <- function(command, ...) {
     # Produce outputs
     L1321.ag_prP_R_C_75USDkg %>%
       add_title("Regional agricultural commodity prices for all traded primary GCAM AGLU commodities") %>%
-      add_units(paste0(PRICE_YEAR, "$/kg")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/kg")) %>%
       add_comments("Region-specific calibration prices by GCAM commodity and region") %>%
       add_precursors("common/iso_GCAM_regID",
                      "aglu/AGLU_ctry",
@@ -365,7 +365,7 @@ module_aglu_LB1321.regional_ag_prices <- function(command, ...) {
 
     L1321.an_prP_R_C_75USDkg %>%
       add_title("Regional animal commodity prices") %>%
-      add_units(paste0(PRICE_YEAR, "$/kg")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/kg")) %>%
       add_comments("Region-specific prices by GCAM commodity and region") %>%
       same_precursors_as(L1321.ag_prP_R_C_75USDkg) %>%
       add_precursors("aglu/FAO/FAO_an_Prod_t_PRODSTAT") ->
@@ -373,7 +373,7 @@ module_aglu_LB1321.regional_ag_prices <- function(command, ...) {
 
     L1321.expP_R_F_75USDm3 %>%
       add_title("Regional prices for GCAM forest commodities") %>%
-      add_units(paste0(PRICE_YEAR, "$/m3")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/m3")) %>%
       add_comments("Region-specific calibration prices by GCAM commodity and region") %>%
       add_precursors("common/iso_GCAM_regID",
                      "aglu/AGLU_ctry",

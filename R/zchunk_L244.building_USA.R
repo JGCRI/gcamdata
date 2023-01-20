@@ -940,7 +940,7 @@ module_gcamusa_L244.building_USA <- function(command, ...) {
 
     L244.GlobalTechCost_bld_gcamusa %>%
       add_title("Non-fuel costs of global building technologies") %>%
-      add_units(paste0(PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("Values from A44.globaltech_cost") %>%
       add_legacy_name("L244.GlobalTechCost_bld") %>%
       add_precursors("gcam-usa/A44.globaltech_cost") ->

@@ -489,7 +489,7 @@ module_emissions_L252.MACC <- function(command, ...) {
       lapply(function(df) {
         df %>%
           add_title("Marginal Abatement Cost Curves with Technology Changes for Agriculture crop") %>%
-          add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction; tech_change: Unitless")) %>%
+          add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: % reduction; tech_change: Unitless")) %>%
           add_comments("adjust L252.AgMAC_tc_average to reflect variations in SSPs") %>%
           add_comments("Technology change data added in from A_MACC_TechChange_SSP_Mult") %>%
           same_precursors_as("L252.AgMAC_tc_average") %>%
@@ -504,7 +504,7 @@ module_emissions_L252.MACC <- function(command, ...) {
       lapply(function(df) {
         df %>%
           add_title("Marginal Abatement Cost Curves with Technology Changes for Animals") %>%
-          add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction; tech_change: Unitless")) %>%
+          add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: % reduction; tech_change: Unitless")) %>%
           add_comments("adjust L252.MAC_an_tc_average to reflect variations in SSPs") %>%
           add_comments("Technology change data added in from A_MACC_TechChange_SSP_Mult") %>%
           same_precursors_as("L252.MAC_an_tc_average") %>%
@@ -518,7 +518,7 @@ module_emissions_L252.MACC <- function(command, ...) {
       lapply(function(df) {
         df %>%
           add_title("Marginal Abatement Cost Curves with Technology Changes for Industrial and Urban Processing Greenhouse Gases") %>%
-          add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction; tech_change: Unitless")) %>%
+          add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: % reduction; tech_change: Unitless")) %>%
           add_comments("adjust L252.MAC_prc_tc_average to reflect variations in SSPs") %>%
           add_comments("Technology change data added in from A_MACC_TechChange_SSP_Mult") %>%
           same_precursors_as("L252.MAC_prc_tc_average") %>%
@@ -532,7 +532,7 @@ module_emissions_L252.MACC <- function(command, ...) {
       lapply(function(df) {
         df %>%
           add_title("Marginal Abatement Cost Curves with Technology Changes for Fossil Resources") %>%
-          add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction; tech_change: Unitless")) %>%
+          add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: % reduction; tech_change: Unitless")) %>%
           add_comments("adjust L252.ResMAC_fos_tc_average to reflect variations in SSPs") %>%
           add_comments("Technology change data added in from A_MACC_TechChange") %>%
           same_precursors_as("L252.ResMAC_fos_tc_average") %>%
@@ -546,7 +546,7 @@ module_emissions_L252.MACC <- function(command, ...) {
       lapply(function(df) {
         df %>%
           add_title("Marginal Abatement Cost Curves with Technology Changes for F-gases") %>%
-          add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction; tech_change: Unitless")) %>%
+          add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: % reduction; tech_change: Unitless")) %>%
           add_comments("adjust L252.MAC_higwp_tc_average to reflect variations in SSPs") %>%
           add_comments("Technology change data added in from A_MACC_TechChange") %>%
           same_precursors_as("L252.MAC_higwp_tc_average") %>%
@@ -559,7 +559,7 @@ module_emissions_L252.MACC <- function(command, ...) {
     # Produce outputs
     L252.ResMAC_fos %>%
       add_title("Marginal Abatement Cost Curves for Fossil Resources based on EPA 2020 level") %>%
-      add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction")) %>%
+      add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: % reduction")) %>%
       add_comments("Category data from L201.ghg_res given tax and mac.reduction data from L152.MAC_pct_R_S_Proc_EPA") %>%
       add_legacy_name("L252.ResMAC_fos") %>%
       add_precursors("emissions/A_regions", "emissions/mappings/CEDS_sector_tech_proc", "emissions/mappings/CEDS_sector_tech_proc_revised",
@@ -577,7 +577,7 @@ module_emissions_L252.MACC <- function(command, ...) {
 
     L252.ResMAC_fos_tc_average %>%
       add_title("Tech.change for Fossil Resources MAC based on EPA 2020 level") %>%
-      add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction")) %>%
+      add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: % reduction")) %>%
       add_comments("Category data from L201.ghg_res given tax and mac.reduction data from L152.MAC_pct_R_S_Proc_EPA") %>%
       add_legacy_name("L252.ResMAC_fos") %>%
       same_precursors_as("L252.ResMAC_fos_tc") ->
@@ -585,7 +585,7 @@ module_emissions_L252.MACC <- function(command, ...) {
 
     L252.AgMAC %>%
       add_title("Marginal Abatement Cost Curves for Agriculture based on EPA 2020 level") %>%
-      add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction")) %>%
+      add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: % reduction")) %>%
       add_comments("Category data from L211.AGREmissions and L211.AGRBio given tax and mac.reduction data from L152.MAC_pct_R_S_Proc_EPA") %>%
       add_legacy_name("L252.AgMAC") %>%
       add_precursors("emissions/A_regions", "emissions/mappings/CEDS_sector_tech_proc", "emissions/mappings/CEDS_sector_tech_proc_revised",
@@ -594,7 +594,7 @@ module_emissions_L252.MACC <- function(command, ...) {
 
     L252.AgMAC_tc_average %>%
       add_title("tech.change for Agriculture MAC based on EPA 2020 level") %>%
-      add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction")) %>%
+      add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: % reduction")) %>%
       add_comments("Category data from L211.AGREmissions and L211.AGRBio given tax and mac.reduction data from L152.MAC_pct_R_S_Proc_EPA") %>%
       add_legacy_name("L252.AgMAC") %>%
       same_precursors_as("L252.AgMAC_tc") ->
@@ -602,7 +602,7 @@ module_emissions_L252.MACC <- function(command, ...) {
 
     L252.MAC_an %>%
       add_title("Marginal Abatement Cost Curves for Animals based on EPA 2020 level") %>%
-      add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction")) %>%
+      add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: % reduction")) %>%
       add_comments("Category data from L211.AnEmissions given tax and mac.reduction data from L152.MAC_pct_R_S_Proc_EPA") %>%
       add_legacy_name("L252.MAC_an") %>%
       add_precursors("emissions/A_regions", "emissions/mappings/CEDS_sector_tech_proc", "emissions/mappings/CEDS_sector_tech_proc_revised",
@@ -611,7 +611,7 @@ module_emissions_L252.MACC <- function(command, ...) {
 
     L252.MAC_an_tc_average %>%
       add_title("Tech.chage for Animals MAC based on EPA 2020 level") %>%
-      add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction")) %>%
+      add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: % reduction")) %>%
       add_comments("Category data from L211.AnEmissions given tax and mac.reduction data from L152.MAC_pct_R_S_Proc_EPA") %>%
       add_legacy_name("L252.MAC_an") %>%
       same_precursors_as("L252.MAC_an_tc") ->
@@ -619,7 +619,7 @@ module_emissions_L252.MACC <- function(command, ...) {
 
     L252.MAC_prc %>%
       add_title("Marginal Abatement Cost Curves for Industrial and Urban Processing Greenhouse Gases based on EPA 2020 level") %>%
-      add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction")) %>%
+      add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: % reduction")) %>%
       add_comments("Category data from L232.nonco2_prc given tax and mac.reduction data from L152.MAC_pct_R_S_Proc_EPA") %>%
       add_legacy_name("L252.MAC_prc") %>%
       add_precursors("emissions/A_regions", "emissions/mappings/CEDS_sector_tech_proc", "emissions/mappings/CEDS_sector_tech_proc_revised",
@@ -637,7 +637,7 @@ module_emissions_L252.MACC <- function(command, ...) {
 
     L252.MAC_prc_tc_average %>%
       add_title("tech.change for Industrial and Urban Processing Greenhouse Gases MAC based on EPA 2020 level") %>%
-      add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction")) %>%
+      add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: % reduction")) %>%
       add_comments("Category data from L232.nonco2_prc given tax and mac.reduction data from L152.MAC_pct_R_S_Proc_EPA") %>%
       add_legacy_name("L252.MAC_prc") %>%
       same_precursors_as("L252.MAC_prc_tc") ->
@@ -645,7 +645,7 @@ module_emissions_L252.MACC <- function(command, ...) {
 
     L252.MAC_higwp %>%
       add_title("Marginal Abatement Cost Curves for High GWP Gases based on EPA 2020 level") %>%
-      add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction")) %>%
+      add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: % reduction")) %>%
       add_comments("Category data from L241.hfc_all and L241.pfc_all given tax and mac.reduction data from L152.MAC_pct_R_S_Proc_EPA") %>%
       add_legacy_name("L252.MAC_higwp") %>%
       add_precursors("emissions/A_regions", "emissions/mappings/CEDS_sector_tech_proc", "emissions/mappings/CEDS_sector_tech_proc_revised",
@@ -664,7 +664,7 @@ module_emissions_L252.MACC <- function(command, ...) {
 
     L252.MAC_higwp_tc_average %>%
       add_title("tech.change for High GWP Gases MAC based on EPA 2020 level") %>%
-      add_units(paste0("tax: ", CARBON_PRICE_YEAR, " USD; mac.reduction: % reduction")) %>%
+      add_units(paste0("tax: ", CARBON_CURRENCY_YEAR, " USD; mac.reduction: % reduction")) %>%
       add_legacy_name("L252.MAC_higwp") %>%
       same_precursors_as("L252.MAC_higwp_tc") ->
       L252.MAC_higwp_tc_average

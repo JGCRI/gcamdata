@@ -59,7 +59,7 @@ module_aglu_LB131.LV_R_GLU <- function(command, ...) {
     # Produce outputs
     L131.LV_USD75_m2_R_GLU %>%
       add_title("Land value by GCAM region and GLU") %>%
-      add_units(paste0(PRICE_YEAR, "$ per m2")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$ per m2")) %>%
       add_comments("Compute average value of land using total value from L100 and harvested area from L122") %>%
       add_legacy_name("L131.LV_USD75_m2_R_GLU") %>%
       add_precursors("L100.GTAP_LV_milUSD", "L122.LC_bm2_R_HarvCropLand_Yh_GLU", "common/iso_GCAM_regID") ->

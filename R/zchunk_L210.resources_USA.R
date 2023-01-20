@@ -209,7 +209,7 @@ module_gcamusa_L210.resources_USA <- function(command, ...) {
       repeat_add_columns(tibble(state = gcamusa.STATES)) %>%
       # Add in new maxSubResource, mid.price, and curve.exponent from us_state_wind
       left_join_error_no_match(us_state_wind, by = c("state" = "region")) %>%
-      # Convert us_state_wind units from PRICE_YEAR$/kWh to PRICE_YEAR$/GJ
+      # Convert us_state_wind units from CURRENCY_YEAR$/kWh to CURRENCY_YEAR$/GJ
       mutate(mid_price = mid_price / CONV_KWH_GJ) %>%
       select(region = state, renewresource, smooth.renewable.subresource, year.fillout,
              maxSubResource = maxResource, mid.price = mid_price, curve.exponent = curve_exponent) %>%
@@ -343,7 +343,7 @@ module_gcamusa_L210.resources_USA <- function(command, ...) {
 
     L210.UnlimitRsrcPrice_USA %>%
       add_title("Unlimited resource prices in the states") %>%
-      add_units(paste0(PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("L210.UnlimitRsrcPrice filtered and written to all states") %>%
       add_legacy_name("L210.UnlimitRsrcPrice_USA") %>%
       add_precursors("L210.UnlimitRsrcPrice",
@@ -352,7 +352,7 @@ module_gcamusa_L210.resources_USA <- function(command, ...) {
 
     L210.UnlimitRsrcPrice_limestone_USA %>%
       add_title("Limestone prices in the states") %>%
-      add_units(paste0(PRICE_YEAR, "$/kg")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/kg")) %>%
       add_comments("L210.UnlimitRsrcPrice filtered and written to all states") %>%
       add_legacy_name("L210.UnlimitRsrcPrice_limestone_USA") %>%
       add_precursors("L210.UnlimitRsrcPrice",
@@ -379,7 +379,7 @@ module_gcamusa_L210.resources_USA <- function(command, ...) {
 
     L210.SmthRenewRsrcCurves_wind_USA %>%
       add_title("Wind resource curves in the states") %>%
-      add_units(paste0("maxSubResource: EJ; mid.price: ", PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0("maxSubResource: EJ; mid.price: ", CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("L210.SmthRenewRsrcCurves_wind filtered and written to all states") %>%
       add_legacy_name("L210.SmthRenewRsrcCurves_wind_USA") %>%
       add_precursors("L210.SmthRenewRsrcCurves_wind",
@@ -389,14 +389,14 @@ module_gcamusa_L210.resources_USA <- function(command, ...) {
 
     L210.SmthRenewRsrcCurves_offshore_wind_USA %>%
       add_title("Offshore wind resource curve USA") %>%
-      add_units(paste0("maxSubResource: EJ; mid.price: ", PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0("maxSubResource: EJ; mid.price: ", CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("Copy of L120.RsrcCurves_EJ_R_offshore_wind_USA") %>%
       add_precursors("L120.RsrcCurves_EJ_R_offshore_wind_USA") ->
       L210.SmthRenewRsrcCurves_offshore_wind_USA
 
     L210.GrdRenewRsrcCurves_geo_USA %>%
       add_title("Geothermal resource curves in the states") %>%
-      add_units(paste0("available: EJ; extractioncost: ", PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0("available: EJ; extractioncost: ", CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("USA data from L210.GrdRenewRsrcCurves_geo shared out with NREL_us_re_technical_potential") %>%
       add_legacy_name("L210.GrdRenewRsrcCurves_geo_USA") %>%
       add_precursors("L210.GrdRenewRsrcCurves_geo",
@@ -414,7 +414,7 @@ module_gcamusa_L210.resources_USA <- function(command, ...) {
 
     L210.SmthRenewRsrcCurvesGdpElast_roofPV_USA %>%
       add_title("Rooftop PV resource curves by state") %>%
-      add_units(paste0("maxSubResource: EJ; mid.price: ", PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0("maxSubResource: EJ; mid.price: ", CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("Values from L115.rsrc_state_rooftopPV added to categories from L210.SmthRenewRsrcCurvesGdpElast_roofPV") %>%
       add_legacy_name("L210.SmthRenewRsrcCurvesGdpElast_roofPV_USA") %>%
       add_precursors("L210.SmthRenewRsrcCurvesGdpElast_roofPV",

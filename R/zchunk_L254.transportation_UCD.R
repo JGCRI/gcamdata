@@ -117,7 +117,7 @@ module_energy_L254.transportation_UCD <- function(command, ...) {
     A54.demand_SSP1 <- get_data(all_data, "energy/A54.demand_ssp1",strip_attributes = TRUE)%>% mutate(sce=paste0("SSP1"))
     A54.demand<-bind_rows(A54.demand,A54.demand_SSP1)
 
-    A54.sector <- get_data(all_data, "energy/A54.sector",strip_attributes = TRUE, price.units.complete = CARBON_PRICE_YEAR)
+    A54.sector <- get_data(all_data, "energy/A54.sector",strip_attributes = TRUE, price.units.complete = CARBON_CURRENCY_YEAR)
     #kbn 2019-10-11 Insert code to use revised versions for subsectors below
     Size_class_New<- get_data(all_data, "energy/mappings/UCD_size_class_revisions",strip_attributes = TRUE) %>%
                      select(-UCD_region) %>%
@@ -576,7 +576,7 @@ module_energy_L254.transportation_UCD <- function(command, ...) {
     #kbn 2020-06-02 Updating with sce below (See description of changes using search string kbn 2020-06-02 Making changes to generate xmls for SSPs flexibly)
     L154.cost_usdvkm_R_trn_m_sz_tech_F_Y %>%
       filter(year %in% MODEL_YEARS) %>%
-      mutate(input.cost = round((value / gdp_deflator(2005, CARBON_PRICE_YEAR)), energy.DIGITS_COST)) %>%
+      mutate(input.cost = round((value / gdp_deflator(2005, CARBON_CURRENCY_YEAR)), energy.DIGITS_COST)) %>%
       left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID") %>%
       left_join_keep_first_only(UCD_techs, by = c("UCD_sector", "mode", "size.class", "UCD_technology", "UCD_fuel")) %>%
       rename(stub.technology = tranTechnology) %>%
@@ -979,8 +979,8 @@ module_energy_L254.transportation_UCD <- function(command, ...) {
 
     L254.StubTranTechCost %>%
       add_title("TranTechnology costs (all periods)") %>%
-      add_units(paste0("$", CARBON_PRICE_YEAR, "USD / vkm")) %>%
-      add_comments(paste0("Non-fuel cost was adjusted to ", CARBON_PRICE_YEAR)) %>%
+      add_units(paste0("$", CARBON_CURRENCY_YEAR, "USD / vkm")) %>%
+      add_comments(paste0("Non-fuel cost was adjusted to ", CARBON_CURRENCY_YEAR)) %>%
       add_comments("Transportation cost table was mapped from UCD technology to GCAM technology") %>%
       add_legacy_name("L254.StubTranTechCost") %>%
       add_precursors("common/GCAM_region_names", "energy/mappings/UCD_techs", "energy/mappings/UCD_techs_revised", "energy/mappings/UCD_size_class_revisions", "L154.cost_usdvkm_R_trn_m_sz_tech_F_Y") ->

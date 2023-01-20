@@ -363,7 +363,7 @@ module_energy_L252.transportation <- function(command, ...) {
 
     L252.GlobalTechCost_trn %>%
       add_title("Capital costs of global transportation technologies") %>%
-      add_units(paste0(PRICE_YEAR, "/GJ")) %>%
+      add_units(paste0(CURRENCY_YEAR, "/GJ")) %>%
       add_comments("Capital costs were interpolated across model years") %>%
       add_legacy_name("L252.GlobalTechCost_trn") %>%
       add_precursors("energy/A52.globaltech_cost") ->

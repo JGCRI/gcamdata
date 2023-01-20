@@ -469,7 +469,7 @@ module_water_L201.water_resources_constrained <- function(command, ...) {
 
       L201.RsrcPrice %>%
         add_title("Base year price") %>%
-        add_units(paste0(PRICE_YEAR, "$")) %>%
+        add_units(paste0(CURRENCY_YEAR, "$")) %>%
         add_comments("") %>%
         add_legacy_name("L201.RsrcPrice") %>%
         add_precursors("water/basin_to_country_mapping",
@@ -481,7 +481,7 @@ module_water_L201.water_resources_constrained <- function(command, ...) {
 
       L201.RenewRsrcCurves_uncalibrated %>%
         add_title("Uncalibrated renewable resource curves") %>%
-        add_units(paste0("bm^3, ", PRICE_YEAR, "$")) %>%
+        add_units(paste0("bm^3, ", CURRENCY_YEAR, "$")) %>%
         add_comments("") %>%
         add_legacy_name("L201.RenewRsrcCurves_uncalibrated") %>%
         add_precursors("L100.runoff_accessible") ->
@@ -489,7 +489,7 @@ module_water_L201.water_resources_constrained <- function(command, ...) {
 
       L201.GrdRenewRsrcMax_runoff %>%
         add_title("Maximum runoff") %>%
-        add_units(paste0("bm^3, ", PRICE_YEAR, "$")) %>%
+        add_units(paste0("bm^3, ", CURRENCY_YEAR, "$")) %>%
         add_comments("Upper limit of water supply; RenewRsrc is applied to this to get renewable water") %>%
         add_legacy_name("L201.GrdRenewRsrcMax_runoff") %>%
         add_precursors("L100.runoff_max_bm3") ->
@@ -497,7 +497,7 @@ module_water_L201.water_resources_constrained <- function(command, ...) {
 
       L201.DepRsrcCurves_ground_uniform %>%
         add_title("Uniform depletable groundwater curves") %>%
-        add_units(paste0("bm^3, ", PRICE_YEAR, "$")) %>%
+        add_units(paste0("bm^3, ", CURRENCY_YEAR, "$")) %>%
         add_comments("") %>%
         add_legacy_name("L201.DepRsrcCurves_ground_uniform") %>%
         add_precursors("L101.DepRsrcCurves_ground_uniform_bm3") ->
@@ -505,7 +505,7 @@ module_water_L201.water_resources_constrained <- function(command, ...) {
 
       L201.RenewRsrcCurves_calib %>%
         add_title("Calibrated renewable water curves") %>%
-        add_units(paste0("bm^3, ", PRICE_YEAR, "$")) %>%
+        add_units(paste0("bm^3, ", CURRENCY_YEAR, "$")) %>%
         add_comments("Calibrated to ensure observed groundwater is taken in calibration years") %>%
         add_legacy_name("L201.RenewRsrcCurves_calib") %>%
         add_precursors("L103.water_mapping_R_B_W_Ws_share",
@@ -519,7 +519,7 @@ module_water_L201.water_resources_constrained <- function(command, ...) {
 
       L201.DepRsrcCurves_ground %>%
         add_title("Depletable groundwater curves") %>%
-        add_units(paste0("bm^3, ", PRICE_YEAR, "$")) %>%
+        add_units(paste0("bm^3, ", CURRENCY_YEAR, "$")) %>%
         add_comments("Includes historical grades") %>%
         add_legacy_name("L201.DepRsrcCurves_ground") %>%
         add_precursors("L103.water_mapping_R_B_W_Ws_share",

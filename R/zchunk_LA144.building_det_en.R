@@ -563,7 +563,7 @@ module_energy_LA144.building_det_en <- function(command, ...) {
 
     L144.NEcost_75USDGJ %>%
       add_title("Building Non energy cost by supplysector / subsector / technology") %>%
-      add_units(paste0(PRICE_YEAR, "$/GJ-service")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/GJ-service")) %>%
       add_comments("Non energy cost per service is calculated using lifetime, O&M cost, installed cost, discount rate, efficiency, and other underlying variables") %>%
       add_legacy_name("L144.NEcost_75USDGJ") %>%
       add_precursors("energy/A44.cost_efficiency") ->

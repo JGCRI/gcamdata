@@ -34,8 +34,8 @@ MODEL_FUTURE_YEARS      <- seq(2020, 2100, 5)
 MODEL_YEARS             <- c(MODEL_BASE_YEARS, MODEL_FUTURE_YEARS)
 MODEL_FINAL_BASE_YEAR   <- 2015
 # Year for automatic conversion of price data read into gcamdata
-PRICE_YEAR              <- 1975
-CARBON_PRICE_YEAR       <- 1990
+CURRENCY_YEAR              <- 1975
+CARBON_CURRENCY_YEAR       <- 1990
 
 # Functions needed for constants ======================================================================
 # These functions are used by constants, so need to be read in above them in the same file
@@ -102,7 +102,7 @@ gdp_deflator <- function(year, base_year) {
 }
 
 # Internal function to shortcut using gdp_deflator for all constants that use currency
-set_currency_constant <- function(value, base_year, convert_to_year = PRICE_YEAR){
+set_currency_constant <- function(value, base_year, convert_to_year = CURRENCY_YEAR){
   value <- value * gdp_deflator(convert_to_year, base_year)
   attr(value, "currency-year") <-  paste("Converted to", convert_to_year, "USD")
   attr(value, "original-currency-year") <-  base_year
@@ -720,7 +720,7 @@ water.PRIMARY_ENERGY                      <- "Mining"
 water.LIVESTOCK_TYPES                     <- c("Beef","Dairy","Pork","Poultry","SheepGoat")
 water.DELETE_DEMAND_TYPES                 <- c("water_td_elec_W", "water_td_elec_C", "water_td_muni_W", "water_td_muni_C", "water_td_ind_W", "water_td_ind_C")
 
-water.WATER_UNITS_PRICE                   <- paste0(PRICE_YEAR, "$/m^3")
+water.WATER_UNITS_PRICE                   <- paste0(CURRENCY_YEAR, "$/m^3")
 water.WATER_UNITS_QUANTITY                <- "km^3"
 water.DIGITS_MUNI_WATER                   <- 4
 water.IRR_SHARE                           <- 1    # Irrigation demands are compiled by basin, so no separate basin-within-region sharing is applied
@@ -831,7 +831,7 @@ emissions.N2O.GWP.AR4 <- 298 # used for EPA non-CO2 scaling, the 2019 EPA non-CO
 emissions.COAL_SO2_THRESHOLD <- 0.1   # Tg/EJ (here referring to Tg SO2 per EJ of coal electricity)
 emissions.LOW_PCGDP          <- set_currency_constant(2.75, 1990)  # thousand 1990 USD
 emissions.MAC_TAXES          <- set_currency_constant(c(0, 2, 4, 6, 13, 27, 53, 100, 200, 450, 850, 2000, 3000, 5000),
-                                                      base_year = 2010, convert_to_year = CARBON_PRICE_YEAR) # Range of MAC curve costs to keep to read into GCAM; they are in EPA's units (2010USD_tCO2e)
+                                                      base_year = 2010, convert_to_year = CARBON_CURRENCY_YEAR) # Range of MAC curve costs to keep to read into GCAM; they are in EPA's units (2010USD_tCO2e)
 emissions.MAC_MARKET         <- "CO2" # Default market that MAC curves will look for
 emissions.MAC_HIGHESTREDUCTION <- 0.95 # a high MAC reduction used to replace calculated values there are greater than 1
 
@@ -1018,7 +1018,7 @@ gcamusa.ELEC_SEGMENT_BASE <- "base load generation"
 gcamusa.ELEC_SEGMENT_INT <- "intermediate generation"
 gcamusa.ELEC_SEGMENT_SUBPEAK <- "subpeak generation"
 gcamusa.ELEC_SEGMENT_PEAK <- "peak generation"
-gcamusa.BASEGDP <- set_currency_constant(1, 1990, convert_to_year = CARBON_PRICE_YEAR)
+gcamusa.BASEGDP <- set_currency_constant(1, 1990, convert_to_year = CARBON_CURRENCY_YEAR)
 
 # Water mapping assumptions
 gcamusa.FINAL_MAPPING_YEAR <- 2010 # Water mappings are conducted from the Huang et al. (2018) dataset which are through 2010, not the final historical year

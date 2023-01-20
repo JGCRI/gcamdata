@@ -89,7 +89,7 @@ module_gcamusa_L2237.wind_reeds_USA <- function(command, ...) {
       summarise_if(is.numeric, sum) %>%
       ungroup() -> L2237.wind_potential_EJ
 
-    # L2237.wind_matrix: Creating a matrix of costs (PRICE_YEAR$/GJ) and cumulative resource potential (EJ) by state and class
+    # L2237.wind_matrix: Creating a matrix of costs (CURRENCY_YEAR$/GJ) and cumulative resource potential (EJ) by state and class
     L2234.GlobalIntTechCapital_elecS_USA %>%
       filter(intermittent.technology == "wind_base",
              year == max(MODEL_BASE_YEARS)) %>%
@@ -331,7 +331,7 @@ module_gcamusa_L2237.wind_reeds_USA <- function(command, ...) {
 
     L2237.SmthRenewRsrcCurves_wind_reeds_USA %>%
       add_title("Wind Resource Supply Curve Parameters") %>%
-      add_units(paste0("maxSubResource: EJ; mid.price: $", PRICE_YEAR, "/GJ")) %>%
+      add_units(paste0("maxSubResource: EJ; mid.price: $", CURRENCY_YEAR, "/GJ")) %>%
       add_comments("Data from ReEDS") %>%
       add_legacy_name("L2237.SmthRenewRsrcCurves_wind_USA_reeds") %>%
       add_precursors('gcam-usa/reeds_regions_states',
@@ -371,7 +371,7 @@ module_gcamusa_L2237.wind_reeds_USA <- function(command, ...) {
 
     L2237.StubTechCost_wind_reeds_USA %>%
       add_title("State-specific Grid Connection Cost Adders for Wind Power Technologies") %>%
-      add_units(paste0("$", PRICE_YEAR, "/GJ")) %>%
+      add_units(paste0("$", CURRENCY_YEAR, "/GJ")) %>%
       add_comments("Data from ReEDS") %>%
       add_legacy_name("L2237.StubTechCost_wind_USA_reeds") %>%
       add_precursors('gcam-usa/reeds_regions_states',

@@ -343,7 +343,7 @@ module_energy_LA120.offshore_wind <- function(command, ...) {
 
     L120.GridCost_offshore_wind %>%
       add_title("Grid connectivity cost adder for offshore wind") %>%
-      add_units(paste0("$", PRICE_YEAR, "/GJ")) %>%
+      add_units(paste0("$", CURRENCY_YEAR, "/GJ")) %>%
       add_comments("Adder by GCAM Region") %>%
       add_precursors("common/iso_GCAM_regID", "common/GCAM_region_names", "energy/NREL_offshore_energy",
                      "energy/A20.wind_class_CFs", "L113.globaltech_capital_ATB",

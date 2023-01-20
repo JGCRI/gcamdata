@@ -34,7 +34,7 @@ module_energy_LA161.Cstorage <- function(command, ...) {
     # Load required inputs
     iso_GCAM_regID <- get_data(all_data, "common/iso_GCAM_regID")
     Land_type_area_ha <- get_data(all_data, "aglu/LDS/Land_type_area_ha")
-    A61.Cstorage_curves <- get_data(all_data, "energy/A61.Cstorage_curves", ensure_currency_year = CARBON_PRICE_YEAR)
+    A61.Cstorage_curves <- get_data(all_data, "energy/A61.Cstorage_curves", ensure_currency_year = CARBON_CURRENCY_YEAR)
     Dooley_Cstorage_RG3_MtCO2 <- get_data(all_data, "energy/Dooley_Cstorage_RG3_MtCO2") %>%
       gather(variable, value, -region_GCAM3)
 
@@ -87,7 +87,7 @@ module_energy_LA161.Cstorage <- function(command, ...) {
       select(-cost_2005USDtCO2) %>%
       # Produce output
       add_title("Carbon storage resource supply curves by GCAM region") %>%
-      add_units(paste0("Mt C; ", CARBON_PRICE_YEAR, "USD")) %>%
+      add_units(paste0("Mt C; ", CARBON_CURRENCY_YEAR, "USD")) %>%
       add_comments("GCAM3 supply curves downscaled to country by land share") %>%
       add_comments("Country supply curves aggregated to GCAM4 region") %>%
       add_legacy_name("L161.RsrcCurves_MtC_R") %>%

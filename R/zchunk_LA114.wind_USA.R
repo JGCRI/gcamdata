@@ -56,12 +56,12 @@ module_gcamusa_LA114.wind <- function(command, ...) {
     L113.globaltech_capital_ATB %>% filter_gather_interp_get_cost -> L114.CapCost
     L113.globaltech_OMfixed_ATB %>% filter_gather_interp_get_cost -> L114.OMFixedCost
     L113.globaltech_OMvar_ATB %>% filter_gather_interp_get_cost -> L114.OMVarCost
-    # ^^ all above rates are in $PRICE_YEAR
+    # ^^ all above rates are in $CURRENCY_YEAR
 
     # Get fixed charge rate of capital for wind
     filter(L113.globaltech_capital_ATB, technology == "wind")$fixed.charge.rate -> L114.FixedChargeRate
 
-    # Convert state level wind base cost data to PRICE_YEAR$/GJ, ...
+    # Convert state level wind base cost data to CURRENCY_YEAR$/GJ, ...
     # ... then compute capacity factor for the base wind turbine in each state
     us_state_wind %>%
       mutate(sector = "electricity generation",

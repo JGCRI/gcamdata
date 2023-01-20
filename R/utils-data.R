@@ -222,7 +222,7 @@ get_reference <- function(x) { attr(x, ATTR_REFERENCE) }
 #' \code{NA} in the data store, indicating an optional input that was not found,
 #' a \code{NULL} is returned.
 get_data <- function(all_data, name, strip_attributes = FALSE,
-                     ensure_currency_year = PRICE_YEAR, price.units.complete = PRICE_YEAR) {
+                     ensure_currency_year = CURRENCY_YEAR, price.units.complete = CURRENCY_YEAR) {
   assertthat::assert_that(is_data_list(all_data))
 
   names(all_data) <- gsub(data.USER_MOD_POSTFIX, '', names(all_data))

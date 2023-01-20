@@ -114,7 +114,7 @@ module_energy_L270.limits <- function(command, ...) {
            policyType = "RES") %>%
       repeat_add_columns(tibble(year = MODEL_FUTURE_YEARS)) %>%
       mutate(constraint = 1,
-             price.unit = paste0(PRICE_YEAR, "$/GJ"),
+             price.unit = paste0(CURRENCY_YEAR, "$/GJ"),
              output.unit = "EJ") ->
       L270.CreditMkt
 
@@ -182,7 +182,7 @@ module_energy_L270.limits <- function(command, ...) {
              policyType = "tax",
              market = region,
              price.unit = "%",
-             output.unit = paste0("mil ", CARBON_PRICE_YEAR, "$")) %>%
+             output.unit = paste0("mil ", CARBON_CURRENCY_YEAR, "$")) %>%
       select(-value) %>%
       # constrain in only years which could include a carbon price
       filter(year >= 2020) ->
@@ -340,14 +340,14 @@ module_energy_L270.limits <- function(command, ...) {
 
     L270.RenewRsrcPrice %>%
       add_title("Prices for the biomass externality cost resource") %>%
-      add_units(paste0(PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("Initial price guesses") %>%
       same_precursors_as(L270.RenewRsrc) ->
       L270.RenewRsrcPrice
 
     L270.GrdRenewRsrcCurves %>%
       add_title("Graded renewable supply curve for the biomass externality cost resource") %>%
-      add_units(paste0("available: EJ; extractioncost: ", PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0("available: EJ; extractioncost: ", CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("Creates the renewable resource which maps purpose grown biomass") %>%
       add_comments("deployment to an additional cost meant to reflect various externalities.") %>%
       add_precursors("energy/A27.rsrc_info",
@@ -396,7 +396,7 @@ module_energy_L270.limits <- function(command, ...) {
         filter(scenario == scen) %>%
         select(-scenario) %>%
         add_title(paste0("The negative emissions budget in scenario ", scen)) %>%
-        add_units(paste0("mil ", CARBON_PRICE_YEAR, "$")) %>%
+        add_units(paste0("mil ", CARBON_CURRENCY_YEAR, "$")) %>%
         add_comments("The budget a market is willing to subsidize negative emissions") %>%
         add_legacy_name(curr_data_name) %>%
         add_precursors(if_else(scen == "GCAM3", "L102.gdp_mil90usd_GCAM3_R_Y", "L102.gdp_mil90usd_Scen_R_Y")) %>%

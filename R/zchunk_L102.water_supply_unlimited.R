@@ -62,7 +62,7 @@ module_water_L102.water_supply_unlimited <- function(command, ...) {
     L102.unlimited_mapped_water_price_B_W_Y_75USDm3 %>%
       mutate(water_type = as.character(water_type)) %>%
       add_title("Water price assumptions for mapped water types") %>%
-      add_units(paste0(PRICE_YEAR, "$/m3")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/m3")) %>%
       add_comments("Nominal default water prices") %>%
       add_legacy_name("L102.unlimited_mapped_water_price_R_W_Y_75USDm3") %>%
       add_precursors("water/basin_to_country_mapping") ->
@@ -71,7 +71,7 @@ module_water_L102.water_supply_unlimited <- function(command, ...) {
     L102.unlimited_nonmapped_water_price_R_W_Y_75USDm3 %>%
       mutate(water_type = as.character(water_type)) %>%
       add_title("Water price assumptions for nonmapped water types") %>%
-      add_units(paste0(PRICE_YEAR, "$/m3")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/m3")) %>%
       add_comments("Nominal default water prices") %>%
       add_legacy_name("L102.unlimited_nonmapped_water_price_R_W_Y_75USDm3") %>%
       add_precursors("common/GCAM_region_names") ->

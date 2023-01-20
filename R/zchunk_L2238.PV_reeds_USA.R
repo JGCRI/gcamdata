@@ -177,7 +177,7 @@ module_gcamusa_L2238.PV_reeds_USA <- function(command, ...) {
     L2238.PV_potential_EJ %>%
       bind_rows(L2238.PV_potential_EJ_non_reeds_states) -> L2238.PV_potential_EJ
 
-    # L2238.PV_matrix: Create a matrix of costs (PRICE_YEAR$/GJ) and resource potential (EJ) by state and class
+    # L2238.PV_matrix: Create a matrix of costs (CURRENCY_YEAR$/GJ) and resource potential (EJ) by state and class
     L2234.GlobalIntTechCapital_elecS_USA %>%
       filter(intermittent.technology == "PV_peak",
              year == max(MODEL_BASE_YEARS)) %>%
@@ -352,7 +352,7 @@ module_gcamusa_L2238.PV_reeds_USA <- function(command, ...) {
       rename(region = State) %>%
       mutate(renewresource = "PV_resource",
              output.unit = "EJ",
-             price.unit = paste0(PRICE_YEAR, "$/GJ"),
+             price.unit = paste0(CURRENCY_YEAR, "$/GJ"),
              market = region) %>%
       # Utility-scale (i.e. non-rooftop) solar is assumed to be infeasible in DC.
       # Thus, it should not be assigned "PV_resource".
@@ -510,7 +510,7 @@ module_gcamusa_L2238.PV_reeds_USA <- function(command, ...) {
 
     L2238.GrdRenewRsrcCurves_PV_reeds_USA %>%
       add_title("Graded Supply Curves of Solar PV Resources at the State-Level") %>%
-      add_units(paste0("available: fraction of maxSubResource; extractioncost: $", PRICE_YEAR, "/GJ")) %>%
+      add_units(paste0("available: fraction of maxSubResource; extractioncost: $", CURRENCY_YEAR, "/GJ")) %>%
       add_comments("Data from ReEDS") %>%
       add_legacy_name("L2238.GrdRenewRsrcCurves_PV_USA_reeds") %>%
       same_precursors_as("L2238.RenewRsrc_PV_reeds_USA") ->
@@ -561,7 +561,7 @@ module_gcamusa_L2238.PV_reeds_USA <- function(command, ...) {
 
     L2238.StubTechCost_PV_reeds_USA %>%
       add_title("State-specific Grid Connection Cost Adders for Solar PV Technologies") %>%
-      add_units(paste0("$", PRICE_YEAR, "/GJ")) %>%
+      add_units(paste0("$", CURRENCY_YEAR, "/GJ")) %>%
       add_comments("Data from ReEDS") %>%
       add_legacy_name("L2238.StubTechCost_PV_USA_reeds") %>%
       add_precursors('gcam-usa/reeds_regions_states',

@@ -1044,7 +1044,7 @@ module_energy_L244.building_det <- function(command, ...) {
 
     L244.GlobalTechCost_bld %>%
       add_title("Non-fuel costs of global building technologies") %>%
-      add_units(paste0(PRICE_YEAR, "$/GJ-service")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/GJ-service")) %>%
       add_comments("Costs from L144.NEcost_75USDGJ expanded to model years") %>%
       add_legacy_name("L244.GlobalTechCost_bld") %>%
       add_precursors("L144.NEcost_75USDGJ") ->

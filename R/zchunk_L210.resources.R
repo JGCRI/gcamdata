@@ -658,7 +658,7 @@ module_energy_L210.resources <- function(command, ...) {
 
     L210.RsrcPrice %>%
       add_title("Historical prices for depletable resources") %>%
-      add_units(paste0(PRICE_YEAR, "$/kg for uranium;  ", PRICE_YEAR, "$/GJ for everything else")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/kg for uranium;  ", CURRENCY_YEAR, "$/GJ for everything else")) %>%
       add_comments("A10.rsrc_info written to all regions") %>%
       add_legacy_name("L210.RsrcPrice") %>%
       same_precursors_as(L210.Rsrc) ->
@@ -666,7 +666,7 @@ module_energy_L210.resources <- function(command, ...) {
 
     L210.RenewRsrcPrice %>%
       add_title("Historical prices for renewable resources") %>%
-      add_units(paste0(PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("A10.rsrc_info written to all regions") %>%
       add_legacy_name("L210.RenewRsrcPrice") %>%
       same_precursors_as(L210.RenewRsrc) ->
@@ -674,7 +674,7 @@ module_energy_L210.resources <- function(command, ...) {
 
     L210.UnlimitRsrcPrice %>%
       add_title("Historical prices for unlimited resources") %>%
-      add_units(paste0(PRICE_YEAR, "$/kg for limestone;  ", PRICE_YEAR, "$/GJ for everything else")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/kg for limestone;  ", CURRENCY_YEAR, "$/GJ for everything else")) %>%
       add_comments("A10.rsrc_info written to all regions") %>%
       add_legacy_name("L210.UnlimitRsrcPrice") %>%
       same_precursors_as(L210.UnlimitRsrc) ->
@@ -707,7 +707,7 @@ module_energy_L210.resources <- function(command, ...) {
 
     L210.SubresourcePriceAdder %>%
       add_title("Adjust calibration price adders in future model years") %>%
-      add_units(paste0(PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("A10.SubresourcePriceAdder written to all regions") %>%
       add_precursors("common/GCAM_region_names", "energy/A10.SubresourcePriceAdder") ->
       L210.SubresourcePriceAdder
@@ -730,7 +730,7 @@ module_energy_L210.resources <- function(command, ...) {
 
     L210.RsrcCurves_fos %>%
       add_title("Supply curves of fossil resources") %>%
-      add_units(paste0("available: EJ; extractioncost: ", PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0("available: EJ; extractioncost: ", CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("Data from L111.RsrcCurves_EJ_R_Ffos") %>%
       add_legacy_name("L210.RsrcCurves_fos") %>%
       add_precursors("L111.RsrcCurves_EJ_R_Ffos", "L111.Prod_EJ_R_F_Yh", "energy/A10.ResSubresourceProdLifetime", "common/GCAM_region_names") ->
@@ -738,7 +738,7 @@ module_energy_L210.resources <- function(command, ...) {
 
     L210.RsrcCurves_U %>%
       add_title("Supply curves of uranium resources") %>%
-      add_units(paste0("available: MtU; extractioncost: ", PRICE_YEAR, "$/kgU")) %>%
+      add_units(paste0("available: MtU; extractioncost: ", CURRENCY_YEAR, "$/kgU")) %>%
       add_comments("Data from L112.RsrcCurves_Mt_R_U") %>%
       add_legacy_name("L210.RsrcCurves_U") %>%
       add_precursors("L112.RsrcCurves_Mt_R_U", "common/GCAM_region_names") ->
@@ -746,7 +746,7 @@ module_energy_L210.resources <- function(command, ...) {
 
     L210.SmthRenewRsrcCurves_MSW %>%
       add_title("Supply curves of waste biomass resources") %>%
-      add_units(paste0("maxSubResource: EJ; mid.price: ", PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0("maxSubResource: EJ; mid.price: ", CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("Data from L113.RsrcCurves_EJ_R_MSW") %>%
       add_legacy_name("L210.SmthRenewRsrcCurves_MSW") %>%
       add_precursors("L113.RsrcCurves_EJ_R_MSW", "common/GCAM_region_names") ->
@@ -754,7 +754,7 @@ module_energy_L210.resources <- function(command, ...) {
 
     L210.SmthRenewRsrcCurves_wind %>%
       add_title("Supply curves of wind resources") %>%
-      add_units(paste0("maxSubResource: EJ; mid.price: ", PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0("maxSubResource: EJ; mid.price: ", CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("Data from L114.RsrcCurves_EJ_R_wind") %>%
       add_legacy_name("L210.SmthRenewRsrcCurves_wind") %>%
       add_precursors("L114.RsrcCurves_EJ_R_wind", "common/GCAM_region_names") ->
@@ -762,14 +762,14 @@ module_energy_L210.resources <- function(command, ...) {
 
     L210.SmthRenewRsrcCurves_offshore_wind %>%
       add_title("Supply curves of offshore wind resources") %>%
-      add_units(paste0("maxSubResource: EJ; mid.price: ", PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0("maxSubResource: EJ; mid.price: ", CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("Data from L120.RsrcCurves_EJ_R_offshore_wind") %>%
       add_precursors("L120.RsrcCurves_EJ_R_offshore_wind", "common/GCAM_region_names") ->
       L210.SmthRenewRsrcCurves_offshore_wind
 
     L210.SmthRenewRsrcCurvesGdpElast_roofPV %>%
       add_title("Supply curves of rooftop PV resources") %>%
-      add_units(paste0("maxSubResource: EJ; mid.price: ", PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0("maxSubResource: EJ; mid.price: ", CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("Data from L115.RsrcCurves_EJ_R_roofPV") %>%
       add_legacy_name("L210.SmthRenewRsrcCurvesGdpElast_roofPV") %>%
       add_precursors("L115.RsrcCurves_EJ_R_roofPV", "common/GCAM_region_names") ->
@@ -777,7 +777,7 @@ module_energy_L210.resources <- function(command, ...) {
 
     L210.GrdRenewRsrcCurves_geo %>%
       add_title("Graded supply curves of geothermal (hydrothermal) resources") %>%
-      add_units(paste0("available: EJ; extractioncost: ", PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0("available: EJ; extractioncost: ", CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("Data from L116.RsrcCurves_EJ_R_geo") %>%
       add_legacy_name("L210.GrdRenewRsrcCurves_geo") %>%
       add_precursors("L116.RsrcCurves_EJ_R_geo", "common/GCAM_region_names") ->
@@ -793,7 +793,7 @@ module_energy_L210.resources <- function(command, ...) {
 
     L210.GrdRenewRsrcCurves_EGS %>%
       add_title("Graded supply curves of geothermal (EGS) resources") %>%
-      add_units(paste0("available: EJ; extractioncost: ", PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0("available: EJ; extractioncost: ", CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("Data from L116.RsrcCurves_EJ_R_EGS") %>%
       add_legacy_name("L210.GrdRenewRsrcCurves_EGS") %>%
       add_precursors("L116.RsrcCurves_EJ_R_EGS", "common/GCAM_region_names") ->
@@ -809,7 +809,7 @@ module_energy_L210.resources <- function(command, ...) {
 
     L210.GrdRenewRsrcCurves_tradbio %>%
       add_title("Graded supply curves of traditional biomass resources") %>%
-      add_units(paste0("available: EJ; extractioncost: ", PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0("available: EJ; extractioncost: ", CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("Data from L117.RsrcCurves_EJ_R_tradbio") %>%
       add_legacy_name("L210.GrdRenewRsrcCurves_tradbio") %>%
       add_precursors("L117.RsrcCurves_EJ_R_tradbio", "common/GCAM_region_names") ->

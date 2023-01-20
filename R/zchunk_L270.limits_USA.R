@@ -153,7 +153,7 @@ module_gcamusa_L270.limits_USA <- function(command, ...) {
         filter(region == gcam.USA_REGION) %>%
         write_to_all_states(names(curr_data)) %>%
         add_title(paste0("The negative emissions budget in scenario ", negative_emiss_input_names[i])) %>%
-        add_units(paste0("mil ", CARBON_PRICE_YEAR, "$")) %>%
+        add_units(paste0("mil ", CARBON_CURRENCY_YEAR, "$")) %>%
         add_comments("The budget a market is willing to subsidize negative emissions") %>%
         add_precursors(negative_emiss_input_names[i]) %>%
         assign(negative_emiss_output_names[i], ., envir = curr_env)

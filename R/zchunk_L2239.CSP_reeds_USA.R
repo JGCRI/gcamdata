@@ -168,7 +168,7 @@ module_gcamusa_L2239.CSP_reeds_USA <- function(command, ...) {
     L2239.CSP_potential_EJ %>%
       bind_rows(L2239.CSP_potential_EJ_non_reeds_states) -> L2239.CSP_potential_EJ
 
-    # L2239.CSP_matrix: Creating a matrix of costs (PRICE_YEAR$/GJ) and resource potential (EJ) by state and class
+    # L2239.CSP_matrix: Creating a matrix of costs (CURRENCY_YEAR$/GJ) and resource potential (EJ) by state and class
     L2234.GlobalIntTechCapital_elecS_USA %>%
       filter(intermittent.technology == "CSP_peak",
              year == max(MODEL_BASE_YEARS)) %>%
@@ -345,7 +345,7 @@ module_gcamusa_L2239.CSP_reeds_USA <- function(command, ...) {
       distinct(region = State) %>%
       mutate(renewresource = "CSP_resource",
              output.unit = "EJ",
-             price.unit = paste0(PRICE_YEAR, "$/GJ"),
+             price.unit = paste0(CURRENCY_YEAR, "$/GJ"),
              market = region) -> L2239.RenewRsrc_CSP_reeds_USA
 
     # Table to create the graded resource curves
@@ -519,7 +519,7 @@ module_gcamusa_L2239.CSP_reeds_USA <- function(command, ...) {
 
     L2239.GrdRenewRsrcCurves_CSP_reeds_USA %>%
       add_title("Graded Supply Curves of CSP Resources at the State-Level") %>%
-      add_units(paste0("available: fraction of maxSubResource; extractioncost: $", PRICE_YEAR, "/GJ")) %>%
+      add_units(paste0("available: fraction of maxSubResource; extractioncost: $", CURRENCY_YEAR, "/GJ")) %>%
       add_comments("Data from ReEDS") %>%
       add_legacy_name("L2239.GrdRenewRsrcCurves_CSP_USA_reeds") %>%
       same_precursors_as("L2239.DeleteUnlimitRsrc_reeds_USA") ->
@@ -572,7 +572,7 @@ module_gcamusa_L2239.CSP_reeds_USA <- function(command, ...) {
 
     L2239.StubTechCost_CSP_reeds_USA %>%
       add_title("State-specific Grid Connection Cost Adders for CSP Technologies") %>%
-      add_units(paste0("$", PRICE_YEAR, "/GJ")) %>%
+      add_units(paste0("$", CURRENCY_YEAR, "/GJ")) %>%
       add_comments("Grid connection cost adders are read in for all 18 states in the ReEDS CSP data set") %>%
       add_comments("This includes 9 regions with only 1 CSP grade which are not assigned CSP resource supply curves") %>%
       add_comments("Data from ReEDS") %>%

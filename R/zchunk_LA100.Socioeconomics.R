@@ -43,8 +43,8 @@ module_gcamusa_LA100.Socioeconomics <- function(command, ...) {
     states_subregions <- get_data(all_data, "gcam-usa/states_subregions")
     Census_pop <- get_data(all_data, "gcam-usa/Census_pop") %>%
       gather_years("pop")
-    BEA_GDP_97_18_12USD_state <- get_data(all_data, "gcam-usa/BEA_GDP_97_18_12USD_state", ensure_currency_year = CARBON_PRICE_YEAR)
-    BEA_GDP_87_96_97USD_state <- get_data(all_data, "gcam-usa/BEA_GDP_87_96_97USD_state", ensure_currency_year = CARBON_PRICE_YEAR)
+    BEA_GDP_97_18_12USD_state <- get_data(all_data, "gcam-usa/BEA_GDP_97_18_12USD_state", ensure_currency_year = CARBON_CURRENCY_YEAR)
+    BEA_GDP_87_96_97USD_state <- get_data(all_data, "gcam-usa/BEA_GDP_87_96_97USD_state", ensure_currency_year = CARBON_CURRENCY_YEAR)
     NCAR_SSP2_pop_state <- get_data(all_data, "gcam-usa/NCAR_SSP2_pop_state")
     AEO_2019_regional_pcGDP_ratio <- get_data(all_data, "gcam-usa/AEO_2019_regional_pcGDP_ratio")
     L102.pcgdp_thous90USD_Scen_R_Y <- get_data(all_data, "L102.pcgdp_thous90USD_Scen_R_Y")
@@ -267,7 +267,7 @@ module_gcamusa_LA100.Socioeconomics <- function(command, ...) {
 
     L100.pcGDP_thous90usd_state %>%
       add_title("Per-capita GDP by state") %>%
-      add_units(paste("thousand", CARBON_PRICE_YEAR, "USD per capita")) %>%
+      add_units(paste("thousand", CARBON_CURRENCY_YEAR, "USD per capita")) %>%
       add_comments("") %>%
       add_precursors("gcam-usa/states_subregions",
                      "gcam-usa/Census_pop",
@@ -278,7 +278,7 @@ module_gcamusa_LA100.Socioeconomics <- function(command, ...) {
 
     L100.GDP_mil90usd_state %>%
       add_title("GDP by state") %>%
-      add_units(paste("million", CARBON_PRICE_YEAR, "USD")) %>%
+      add_units(paste("million", CARBON_CURRENCY_YEAR, "USD")) %>%
       add_comments("") %>%
       same_precursors_as(L100.pcGDP_thous90usd_state) %>%
       add_precursors("gcam-usa/NCAR_SSP2_pop_state",

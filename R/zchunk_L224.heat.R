@@ -353,7 +353,7 @@ module_energy_L224.heat <- function(command, ...) {
 
     L224.GlobalTechCost_heat %>%
       add_title("Costs of global technologies for district heat") %>%
-      add_units(paste0(PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("A24.globaltech_cost interpolated to all model years for sector district heat") %>%
       add_legacy_name("L224.GlobalTechCost_heat") %>%
       add_precursors("energy/A24.globaltech_cost") ->
@@ -388,7 +388,7 @@ module_energy_L224.heat <- function(command, ...) {
 
     L224.StubTechCost_elec %>%
       add_title("Stubtech costs with secondary output heat") %>%
-      add_units(paste0(PRICE_YEAR, "$/GJ")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$/GJ")) %>%
       add_comments("From L224.StubTechSecOut_elec calculate cost adjustment, equal to the output of heat multiplied by the heat price") %>%
       add_comments("modify costs for technologies with efficiencies below default, apply to all model periods") %>%
       add_legacy_name("L224.StubTechCost_elec") %>%

@@ -337,7 +337,7 @@ module_gcamusa_L226.en_distribution_USA <- function(command, ...) {
 
     L226.TechCost_electd_USA %>%
       add_title("Tech costs for elec T&D when using regional electricity markets") %>%
-      add_units(paste0(PRICE_YEAR, "$")) %>%
+      add_units(paste0(CURRENCY_YEAR, "$")) %>%
       add_comments("Tech costs for elec T&D when using regional electricity markets") %>%
       add_comments("The elect_td sectors can not use the global tech database as their input is different.") %>%
       add_legacy_name("L226.TechCost_electd_USA") %>%
@@ -402,7 +402,7 @@ module_gcamusa_L226.en_distribution_USA <- function(command, ...) {
     if(exists("L226.TechCost_en_USA")) {
       L226.TechCost_en_USA %>%
         add_title("Regional price adjustments/cost adders for USA energy.") %>%
-        add_units(paste0(PRICE_YEAR, "$/GJ")) %>%
+        add_units(paste0(CURRENCY_YEAR, "$/GJ")) %>%
         add_comments("Regional price adjustments/cost adders for USA energy") %>%
         add_legacy_name("L226.TechCost_en_USA") %>%
         add_precursors("gcam-usa/states_subregions",
