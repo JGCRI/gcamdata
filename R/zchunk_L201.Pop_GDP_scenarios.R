@@ -75,8 +75,9 @@ module_socioeconomics_L201.Pop_GDP_scenarios <- function(command, ...) {
       filter(scenario == socioeconomics.BASE_GDP_SCENARIO) %>%   # use the standard scenario
       filter(year == min(MODEL_BASE_YEARS)) %>% # find the first year
       left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID") %>%
-      mutate(baseGDP = round(value, socioeconomics.GDP_DIGITS)) %>%
-      select(region, baseGDP)
+      mutate(baseGDP = round(value, socioeconomics.GDP_DIGITS),
+             GDP.unit = paste0("Million", CARBON_CURRENCY_YEAR, "US$")) %>%
+      select(region, baseGDP, GDP.unit)
 
     # L201.LaborForceFillout: Labor force participation and productivity for all scenarios
     # NOTE: No model of labor force used; labor force participation set to a constant
@@ -153,8 +154,9 @@ module_socioeconomics_L201.Pop_GDP_scenarios <- function(command, ...) {
     L201.BaseGDP_GCAM3 <- L102.gdp_mil90usd_GCAM3_R_Y %>%
       filter(year == MODEL_YEARS[1]) %>%
       left_join_error_no_match(GCAM_region_names, by = "GCAM_region_ID") %>%
-      mutate(value = round(value, socioeconomics.GDP_DIGITS)) %>%
-      select(region, baseGDP = value)
+      mutate(value = round(value, socioeconomics.GDP_DIGITS),
+             GDP.unit = paste0("Million", CARBON_CURRENCY_YEAR, "US$")) %>%
+      select(region, baseGDP = value, GDP.unit)
 
     # Labor productivity growth is calculated from the change in per-capita GDP ratio in each time period
     # For the GCAM 3.0 scenario, calculate the per-capita GDP

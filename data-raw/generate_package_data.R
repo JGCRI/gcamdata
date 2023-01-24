@@ -36,7 +36,7 @@ generate_level2_data_names <- function() {
 
   # Socioeconomics
   level2_data_names[["Pop"]] <- c("region", "year", "totalPop")
-  level2_data_names[["BaseGDP"]] <- c("region", "baseGDP")
+  level2_data_names[["BaseGDP"]] <- c("region", "baseGDP", "GDP.unit")
   level2_data_names[["LaborForce"]] <- c("region", "year", "laborforce")
   level2_data_names[["LaborForceFillout"]] <- c("region", "year.fillout", "laborforce")
   level2_data_names[["LaborProductivity"]] <- c("region", "year", "laborproductivity")

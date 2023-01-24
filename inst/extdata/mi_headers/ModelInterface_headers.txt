@@ -46,7 +46,7 @@ AvgFossilEffKeyword, global-technology-database/+{sector-name}location-info, glo
 
 Pop, world/+{name}region, demographics/+{year}populationMiniCAM, populationMiniCAM/+totalPop, scenario, scenario/world, region/demographics
 
-BaseGDP, world/+{name}region, GDP/+baseGDP, scenario, scenario/world, region/GDP
+BaseGDP, world/+{name}region, GDP/+baseGDP, GDP/+GDP-unit, scenario, scenario/world, region/GDP
 
 LaborForce, world/+{name}region, GDP/+{year}laborforce, GDP/+laborforce, scenario, scenario/world, region/GDP
 
