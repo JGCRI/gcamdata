@@ -674,3 +674,52 @@ screen_undesired <- function(fn) {
   }
   rslt
 }
+
+#' chunk_details_description
+#'
+#' Get the description and details from a chunk from its /man*.Rd page.
+#' All non-batch chunk info can be retrieved with the following code:
+#' chunk_names <- find_chunks('^module_[a-zA-Z\\.]*_L.*$')
+#' bind_rows(lapply(chunk_names$name, chunk_details_description))
+#'
+#' @param chunkname The name of the chunk to extract details from
+#' @return Tibble with chunk name, details, and description
+#' @author HN & RLH October 2022
+chunk_details_description <- function(chunkname) {
+  assertthat::assert_that(is.character(chunkname))
+
+  # Get .Rd filename
+  chunkname_Rd <- list.files(path = "man", pattern = chunkname, full.names = TRUE, recursive = TRUE)
+
+  # There should only be one .Rd file per chunk
+  if(length(chunkname_Rd) != 1){
+    stop(paste0("Numbers of .Rd files for ", chunkname, " is not equal to 1"))
+  }
+
+  # Read in documentation
+  lines <- readLines(chunkname_Rd)
+
+  # Search for description and details in documentation
+  for (l in 1:length(lines)) {
+    # If we find description label, read it in until closing bracket
+    if (lines[l] == "\\description{") {
+      ldes <- l + 1
+      while (lines[ldes] != "}"){
+        ldes <- ldes + 1
+      }
+      des <- paste(lines[(l+1):(ldes-1)], collapse = " ")
+    }
+    # If we find details label, read it in until closing bracket
+    else if (lines[l] == "\\details{"){
+      ldet = l
+      ldet <- l + 1
+      while (lines[ldet] != "}"){
+        ldet <- ldet + 1
+      }
+      det <- paste(lines[(l+1):(ldet-1)], collapse = " ")
+    }
+    l <- l + 1
+  }
+  # Return the description and details string if they exist, empty string if not
+  return(tibble(name = chunkname, description = get0("des", mode = "character"), details = get0("det", mode = "character")))
+}
