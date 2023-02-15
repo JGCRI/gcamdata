@@ -238,7 +238,7 @@ module_water_L2233.electricity_water <- function(command, ...) {
 
     L2233.TechMap %>%
       select(to.supplysector) %>%
-      filter(!(to.supplysector %in% L223_data$StubTech_elec[["supplysector"]])) %>%
+      anti_join(L223_data$StubTech_elec, by = c("to.supplysector" = "supplysector")) %>%
       unique() %>%
       rename(supplysector = to.supplysector) -> L2233.elec_cool_supplysectors
     # ^^ generates single column of elec technologies for expansion of Supplysector_elec...
@@ -365,9 +365,9 @@ module_water_L2233.electricity_water <- function(command, ...) {
 
     # Capital costs of intermittent technologies applied in the electricity sector...
     GlobalTechCapital_elecPassthru %>%
-      filter(sector.name == to.supplysector & sector.name %in% A23.globalinttech$supplysector) %>%
-      filter(subsector.name == to.subsector & subsector.name %in% A23.globalinttech$subsector) %>%
-      filter(technology == to.technology & technology %in% A23.globalinttech$technology) %>%
+      filter(sector.name == to.supplysector & sector.name %in% A23.globalinttech$supplysector,
+             subsector.name == to.subsector & subsector.name %in% A23.globalinttech$subsector,
+             technology == to.technology & technology %in% A23.globalinttech$technology) %>%
       select(LEVEL2_DATA_NAMES[["GlobalTechCapital"]]) ->
       L2233.GlobalIntTechCapital_elec # --OUTPUT--
 
@@ -382,9 +382,9 @@ module_water_L2233.electricity_water <- function(command, ...) {
 
     # OMfixed costs of intermittent technologies applied in the electricity sector
     GlobalTechOMfixed_elecPassthru %>%
-      filter(sector.name == to.supplysector & sector.name %in% A23.globalinttech$supplysector) %>%
-      filter(subsector.name == to.subsector & subsector.name %in% A23.globalinttech$subsector) %>%
-      filter(technology == to.technology & technology %in% A23.globalinttech$technology) %>%
+      filter(sector.name == to.supplysector & sector.name %in% A23.globalinttech$supplysector,
+             subsector.name == to.subsector & subsector.name %in% A23.globalinttech$subsector,
+             technology == to.technology & technology %in% A23.globalinttech$technology) %>%
       select(LEVEL2_DATA_NAMES[["GlobalTechOMfixed"]]) ->
       L2233.GlobalIntTechOMfixed_elec # --OUTPUT--
 
@@ -398,9 +398,9 @@ module_water_L2233.electricity_water <- function(command, ...) {
 
     # OMvar costs of intermittent technologies applied in the electricity sector
     GlobalTechOMvar_elecPassthru %>%
-      filter(sector.name == to.supplysector & sector.name %in% A23.globalinttech$supplysector) %>%
-      filter(subsector.name == to.subsector & subsector.name %in% A23.globalinttech$subsector) %>%
-      filter(technology == to.technology & technology %in% A23.globalinttech$technology) %>%
+      filter(sector.name == to.supplysector & sector.name %in% A23.globalinttech$supplysector,
+             subsector.name == to.subsector & subsector.name %in% A23.globalinttech$subsector,
+             technology == to.technology & technology %in% A23.globalinttech$technology) %>%
       select(LEVEL2_DATA_NAMES[["GlobalTechOMvar"]]) ->
       L2233.GlobalIntTechOMvar_elec # --OUTPUT--
 

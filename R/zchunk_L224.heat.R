@@ -87,46 +87,46 @@ module_energy_L224.heat <- function(command, ...) {
     # Create list of regions with district heat modeled
     A_regions %>%
       filter(has_district_heat == 1) %>%
-      select(region) -> heat_region
+      select(GCAM_region_ID, region) -> heat_region
 
     # Supply sector information for district heat sectors
     A24.sector %>%
-      write_to_all_regions(c(LEVEL2_DATA_NAMES[["Supplysector"]], LOGIT_TYPE_COLNAME), GCAM_region_names = GCAM_region_names) %>%
-      filter(region %in% heat_region$region) -> L224.Supplysector_heat
+      write_to_all_regions(c(LEVEL2_DATA_NAMES[["Supplysector"]], LOGIT_TYPE_COLNAME),
+                           GCAM_region_names = heat_region)  -> L224.Supplysector_heat
 
     # Subsector logit exponents of district heat sectors
     A24.subsector_logit %>%
-      write_to_all_regions(c(LEVEL2_DATA_NAMES[["SubsectorLogit"]], LOGIT_TYPE_COLNAME), GCAM_region_names = GCAM_region_names) %>%
-      filter(region %in% heat_region$region) -> L224.SubsectorLogit_heat
+      write_to_all_regions(c(LEVEL2_DATA_NAMES[["SubsectorLogit"]], LOGIT_TYPE_COLNAME),
+                           GCAM_region_names = heat_region) -> L224.SubsectorLogit_heat
 
     # L224.SubsectorShrwt_heat and L224.SubsectorShrwtFllt_heat: Subsector shareweights of district heat sectors
     if(any(!is.na(A24.subsector_shrwt$year))) {
       A24.subsector_shrwt %>%
         filter(!is.na(year)) %>%
-        write_to_all_regions(LEVEL2_DATA_NAMES[["SubsectorShrwt"]], GCAM_region_names = GCAM_region_names ) %>%
-        filter(region %in% heat_region$region) -> L224.SubsectorShrwt_heat
+        write_to_all_regions(LEVEL2_DATA_NAMES[["SubsectorShrwt"]],
+                             GCAM_region_names = heat_region) -> L224.SubsectorShrwt_heat
     }
 
     if(any(!is.na(A24.subsector_shrwt$year.fillout))) {
       A24.subsector_shrwt %>%
         filter(!is.na(year.fillout)) %>%
-        write_to_all_regions(LEVEL2_DATA_NAMES[["SubsectorShrwtFllt"]], GCAM_region_names = GCAM_region_names ) %>%
-        filter(region %in% heat_region$region) -> L224.SubsectorShrwtFllt_heat
+        write_to_all_regions(LEVEL2_DATA_NAMES[["SubsectorShrwtFllt"]],
+                             GCAM_region_names = heat_region) -> L224.SubsectorShrwtFllt_heat
     }
 
     # Subsector shareweight interpolation of district heat sectors
     if(any(is.na(A24.subsector_interp$to.value))) {
       A24.subsector_interp %>%
         filter(is.na(to.value)) %>%
-        write_to_all_regions(LEVEL2_DATA_NAMES[["SubsectorInterp"]], GCAM_region_names = GCAM_region_names) %>%
-        filter(region %in% heat_region$region) -> L224.SubsectorInterp_heat
+        write_to_all_regions(LEVEL2_DATA_NAMES[["SubsectorInterp"]],
+                             GCAM_region_names = heat_region) -> L224.SubsectorInterp_heat
     }
 
     if(any(!is.na(A24.subsector_interp$to.value))) {
       A24.subsector_interp %>%
         filter(!is.na(to.value)) %>%
-        write_to_all_regions(LEVEL2_DATA_NAMES[["SubsectorInterpTo"]], GCAM_region_names = GCAM_region_names) %>%
-        filter(region %in% heat_region$region) -> L224.SubsectorInterpTo_heat
+        write_to_all_regions(LEVEL2_DATA_NAMES[["SubsectorInterpTo"]],
+                             GCAM_region_names = heat_region) -> L224.SubsectorInterpTo_heat
     }
 
     # Identification of stub technologies of district heat
@@ -134,9 +134,8 @@ module_energy_L224.heat <- function(command, ...) {
     A24.globaltech_shrwt %>%
       select(supplysector, subsector, technology) %>%
       distinct %>%
-      write_to_all_regions(LEVEL2_DATA_NAMES[["Tech"]], GCAM_region_names = GCAM_region_names) %>%
-      rename(stub.technology = technology) %>%
-      filter(region %in% heat_region$region) -> L224.StubTech_heat
+      write_to_all_regions(LEVEL2_DATA_NAMES[["Tech"]], GCAM_region_names = heat_region) %>%
+      rename(stub.technology = technology) -> L224.StubTech_heat
 
     # Coefficients of global technologies
     # L224.GlobalTechCoef_heat: Energy inputs and coefficients of global technologies for district heat
@@ -181,13 +180,12 @@ module_energy_L224.heat <- function(command, ...) {
 
     # Calibration and region-specific data, calibrated input to district heat
     L124.in_EJ_R_heat_F_Yh %>%
-      left_join(GCAM_region_names, by = "GCAM_region_ID") %>%
+      right_join(heat_region, by = "GCAM_region_ID") %>%
       left_join(calibrated_techs %>%
                   select(sector, fuel, supplysector, subsector, technology, minicam.energy.input) %>%
                   distinct, by = c("sector", "fuel")) %>%
       rename(stub.technology = technology) %>%
       filter(year %in% MODEL_BASE_YEARS) %>%
-      filter(region %in% heat_region$region) %>%
       select(LEVEL2_DATA_NAMES[["StubTechYr"]], "minicam.energy.input", "value") %>%
       mutate(calibrated.value = round(value, energy.DIGITS_CALOUTPUT),
              year.share.weight = year,
@@ -226,8 +224,7 @@ module_energy_L224.heat <- function(command, ...) {
     L1231.eff_R_elec_F_tech_Yh %>%
       filter(year %in% MODEL_YEARS) %>%
       rename(efficiency = value) %>%
-      left_join(GCAM_region_names, by = "GCAM_region_ID") %>%
-      filter(region %in% heat_region$region) %>%
+      right_join(heat_region, by = "GCAM_region_ID") %>%
       filter(fuel == "gas") %>%
       filter(efficiency < energy.DEFAULT_ELECTRIC_EFFICIENCY) %>%
       mutate(cost_modifier = energy.GAS_PRICE * (1 / energy.DEFAULT_ELECTRIC_EFFICIENCY - 1 / efficiency)) -> L224.eff_cost_adj_Rh_elec_gas_sc_Y

@@ -625,3 +625,52 @@ create_datamap_from_cache <- function(gcamdata_plan, ...) {
     # convert drake names back to data system names
     mutate(output = if_else(name == "INPUT", gsub('\\.', '/', output), output))
 }
+
+#' screen_undesired
+#'
+#' Screen a function for use of functions undesired, but not forbidden, by data system style guide.
+#'
+#' Certain functions are undesired, but not necessarily forbidden. This function tests a function for calls to forbidden functions
+#' and flags the offending lines.
+#'
+#' @param fn The function to be tested. This is the actual function object, not
+#' the name of the function.
+#' @return Nx2 Character matrix of flagged lines and the test that tripped them
+#' (empty vector, if none)
+#' @author RLH Sept 2022
+#' @importFrom utils capture.output
+screen_undesired <- function(fn) {
+  undesired <- c("use anti_join" = ".*\\!(\\w|\\s|\\()+%in%(\\w|\\s)+\\$")
+
+  code <- capture.output(fn)
+  code <- gsub("#.*$", "", code)      # remove comments
+  code <- gsub('"[^"]*"', "", code)   # remove double quoted material
+  code <- gsub("'[^']*'", "", code)   # remove single quoted material
+
+  # For some reason the R package check process seems to concatenate certain lines;
+  # in particular a mutate() followed by a replace_na() ends up on a single line, which
+  # can cause false positives below if it's then followed by another mutate(). This
+  # does not occur during 'normal' testthat testing.
+  # Anyway, ensure all %>% operations are on separate lines
+  code <- unlist(vapply(code, strsplit, split = "%>%", fixed = TRUE, FUN.VALUE = list(1)))
+
+  # Special multiline case: consecutive mutate calls
+  rslt <- character()
+
+  # General screen-undesired search, single lines only
+  for(i in seq_along(undesired)) {
+    f <- undesired[i]
+    bad <- grep(f, code, perl = TRUE)
+    if(length(bad) > 0) {
+      if(nchar(names(f)) > 0 ){
+        rslt <- rbind(rslt,
+                      cbind(names(f), code[bad]))
+      } else {
+        rslt <- rbind(rslt,
+                      cbind(f, code[bad]))
+      }
+
+    }
+  }
+  rslt
+}

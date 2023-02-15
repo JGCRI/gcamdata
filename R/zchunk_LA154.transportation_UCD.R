@@ -337,12 +337,11 @@ module_energy_LA154.transportation_UCD <- function(command, ...) {
 
     # Creating tibble with all GCAM years to join with. The values will be filled out using the first available year.
     # Remove years in all GCAM years that are already in UCD database
-    all_years <- tibble( year = c(HISTORICAL_YEARS, FUTURE_YEARS)) %>%
-      filter(!(year %in% unique(UCD_trn_data$year)))
+    all_years <- tibble( year = setdiff(c(HISTORICAL_YEARS, FUTURE_YEARS), UCD_trn_data$year))
 
     UCD_trn_data_sce <- bind_rows(UCD_trn_data_SSP1,UCD_trn_data_SSP3,UCD_trn_data_SSP5)
-    all_years_SSPs <- tibble( year = c(MODEL_FINAL_BASE_YEAR, MODEL_FUTURE_YEARS)) %>%
-      filter(!(year %in% unique(UCD_trn_data$year)))
+    all_years_SSPs <- tibble(year = setdiff(c(MODEL_FINAL_BASE_YEAR, MODEL_FUTURE_YEARS), UCD_trn_data$year))
+
     #kbn 2020-01-30 We don't need all years for the SSPs. Only selecting years from 2015 on wards. Splitting years
     #into CORE years and SSP years.
     UCD_trn_data_allyears_CORE <- bind_rows(

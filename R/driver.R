@@ -284,7 +284,7 @@ driver <- function(all_data = empty_data(),
 
   # If there are any unaccounted for input requirements,
   # try to load them from csv files
-  unfound_inputs <- filter(chunkinputs, !input %in% chunkoutputs$output)
+  unfound_inputs <- anti_join(chunkinputs, chunkoutputs, by = c("input" = "output"))
   if(nrow(unfound_inputs)) {
 
     # These should all be marked as 'from_file'
@@ -607,7 +607,7 @@ driver_drake <- function(
 
   # If there are any unaccounted for input requirements,
   # try to load them from csv files
-  unfound_inputs <- filter(chunkinputs, !input %in% chunkoutputs$output)
+  unfound_inputs <- anti_join(chunkinputs, chunkoutputs, by = c("input" = "output"))
   if(nrow(unfound_inputs)) {
 
     # These should all be marked as 'from_file'
@@ -641,6 +641,10 @@ driver_drake <- function(
        unique()
 
      chunks_to_run <- dstrace_chunks(run_chunks, verts)
+     # Need to explicitly remove any stop_before chunks
+     if (!missing(stop_before)){
+       chunks_to_run <- chunks_to_run[chunks_to_run != stop_before]
+     }
    }
    else {
     chunks_to_run <- c(unfound_inputs$input, chunklist$name)
@@ -827,7 +831,7 @@ warn_data_injects <- function() {
     filter(grepl(TEMP_DATA_INJECT, input)) %>%
     mutate(base_input = basename(input)) %>%
     # Look for any tdi inputs that appear in the enabled chunks' outputs
-    filter(base_input %in% co$output) %>%
+    semi_join(co, by = c("base_input" = "output")) %>%
     left_join(select(co, upstream_chunk, output), by = c("base_input" = "output")) ->
     ci_tdi
 

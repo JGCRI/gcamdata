@@ -97,7 +97,7 @@ module_gcamusa_L276.nonghg_othertrn_USA <- function(command, ...) {
     # We will aggregate emissions and fuel consumption from all states, and
     # calculate a national EF based off of these values
     L276.air_nonghg_tech_coeff_Yb_USA <- L254.StubTranTech_USA %>%
-      filter(tranSubsector %in% c("Domestic Aviation") & stub.technology %in% L270.nonghg_tg_state_othertrn_F_Yb$fuel) %>%
+      filter(tranSubsector == "Domestic Aviation" & stub.technology %in% L270.nonghg_tg_state_othertrn_F_Yb$fuel) %>%
       select( -sce ) %>%
       repeat_add_columns(tibble::tibble(year=MODEL_BASE_YEARS)) %>%
       repeat_add_columns(tibble::tibble(Non.CO2=unique(L270.nonghg_tg_state_othertrn_F_Yb$Non.CO2))) %>%
@@ -258,23 +258,20 @@ module_gcamusa_L276.nonghg_othertrn_USA <- function(command, ...) {
 
   # Apply 2012 EFs to historical years
   # NOTE: In the future, use a different source for earlier base year EFs since domestic shipping has changed in the last decade
-  L276.nonghg_othertrn_tech_coeff_USA_marine_Yb <- L254.StubTranTech_USA %>%
+  L276.nonghg_othertrn_tech_coeff_USA_marine <- L254.StubTranTech_USA %>%
     select( -sce ) %>%
-    filter(tranSubsector %in% c("Domestic Ship") & stub.technology %in% L270.nonghg_tg_state_othertrn_F_Yb$fuel) %>%
+    filter(tranSubsector == "Domestic Ship" & stub.technology %in% L270.nonghg_tg_state_othertrn_F_Yb$fuel) %>%
     repeat_add_columns( tibble::tibble( year = MODEL_BASE_YEARS ) ) %>%
-    # remove final base year
+    repeat_add_columns( tibble::tibble( Non.CO2 = unique( L270.nonghg_tg_state_othertrn_F_Yb$Non.CO2 ) ) )
+
+  L276.nonghg_othertrn_tech_coeff_USA_marine_Yb <- L276.nonghg_othertrn_tech_coeff_USA_marine %>%
     filter( year != max( MODEL_BASE_YEARS ) ) %>%
-    repeat_add_columns( tibble::tibble( Non.CO2 = unique( L270.nonghg_tg_state_othertrn_F_Yb$Non.CO2 ) ) ) %>%
     left_join( shipping_EF_Tg_per_EJ_Yb, by = c( "Non.CO2", "stub.technology" ) ) %>%
     # remove NH3, as we do not have EFs for it
     na.omit()
 
   # Apply current base years EFs to the current base year
-  L276.nonghg_othertrn_tech_coeff_USA_marine_2015 <- L254.StubTranTech_USA %>%
-    select( -sce ) %>%
-    filter(tranSubsector %in% c("Domestic Ship") & stub.technology %in% L270.nonghg_tg_state_othertrn_F_Yb$fuel) %>%
-    repeat_add_columns( tibble::tibble( year = max( MODEL_BASE_YEARS ) ) ) %>%
-    repeat_add_columns( tibble::tibble( Non.CO2 = unique( L270.nonghg_tg_state_othertrn_F_Yb$Non.CO2 ) ) ) %>%
+  L276.nonghg_othertrn_tech_coeff_USA_marine_2015 <- L276.nonghg_othertrn_tech_coeff_USA_marine %>%
     left_join( shipping_EF_Tg_per_EJ_2015, by = c( "year", "Non.CO2", "stub.technology" ) ) %>%
     # remove NH3, as we do not have EFs for it
     na.omit()
@@ -282,7 +279,7 @@ module_gcamusa_L276.nonghg_othertrn_USA <- function(command, ...) {
   # Apply 2018 EFs to future years (only need to apply to first future year as this will be carried forward)
   L276.nonghg_othertrn_tech_coeff_USA_marine_Yf <- L254.StubTranTech_USA %>%
     select( -sce ) %>%
-    filter(tranSubsector %in% c("Domestic Ship") & stub.technology %in% L270.nonghg_tg_state_othertrn_F_Yb$fuel) %>%
+    filter(tranSubsector == "Domestic Ship" & stub.technology %in% L270.nonghg_tg_state_othertrn_F_Yb$fuel) %>%
     repeat_add_columns( tibble::tibble( year = min( MODEL_FUTURE_YEARS ) ) ) %>%
     # remove final base year
     filter( year != max( MODEL_BASE_YEARS ) ) %>%

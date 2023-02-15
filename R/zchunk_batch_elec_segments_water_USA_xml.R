@@ -230,8 +230,6 @@ module_gcamusa_batch_elec_segments_water_USA_xml <- function(command, ...) {
     L2233.GlobalTechSCurve_elecS_cool_USA <- rename(L2233.GlobalTechSCurve_elecS_cool_USA, sector.name = supplysector)
     L2233.GlobalTechLifetime_elecS_cool_USA <- rename(L2233.GlobalTechLifetime_elecS_cool_USA, sector.name = supplysector)
     L2233.GlobalTechCapture_elecS_cool_USA <- rename(L2233.GlobalTechCapture_elecS_cool_USA, sector.name = supplysector)
-    L2233.PrimaryRenewKeywordInt_elecS_cool_USA <- rename(L2233.PrimaryRenewKeywordInt_elecS_cool_USA,  technology = intermittent.technology)
-    L2233.GlobalIntTechBackup_elecS_cool_USA <- rename(L2233.GlobalIntTechBackup_elecS_cool_USA, technology = intermittent.technology)
     L2233.GlobalIntTechCoef_elecS_cool_USA <- rename(L2233.GlobalIntTechCoef_elecS_cool_USA,technology = intermittent.technology)
 
     L2233.StubTechMarket_elecS_cool_USA <- rename(L2233.StubTechMarket_elecS_cool_USA, stub.technology = technology)

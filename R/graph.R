@@ -16,7 +16,10 @@ graph_chunks <- function(module_filter = NULL,
                          plot_gcam = FALSE,
                          include_disabled = FALSE,
                          quiet = TRUE) {
-
+  # We merely suggest igraph. Ensure we have it before proceeding.
+  if(!requireNamespace('igraph')) {
+    stop("The `igraph` package is required to run `graph_chunks()`.")
+  }
   palette <- output <- to_xml <- module <- name.y <- name <- disabled <-
     input <- num <- NULL   # silence notes on package check.
 
