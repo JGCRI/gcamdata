@@ -52,6 +52,9 @@ However, there are known issues with some recent package dependencies (i.e. `rea
 For this reason, we suggest using `renv`, described below. 
 
 ## Optional `renv` -- currently included in GCAM 6.0 and gcamdata release
+**NOTE THAT SETTING UP/RESTORING RENV WHILE ON VPN CAN CAUSE ERRORS**
+**HIGHLY RECOMMENDED TO AVOID VPN DURING SET-UP**
+
 `renv` is an R package for dependency management. Using it will save a private R library with the correct versions of any package dependencies.
 
 The steps to use `renv` include:
