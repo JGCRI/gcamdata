@@ -33,7 +33,8 @@ module_aglu_LB123.LC_R_MgdPastFor_Yh_GLU <- function(command, ...) {
              "L123.LC_bm2_R_MgdPast_Yh_GLU",
              "L123.For_Prod_bm3_R_Y_GLU",
              "L123.For_Yield_m3m2_R_GLU",
-             "L123.LC_bm2_R_MgdFor_Yh_GLU"))
+             "L123.LC_bm2_R_MgdFor_Yh_GLU",
+             "L123.LC_bm2_R_MgdFor_Yh_GLU_beforeadjust"))
   } else if(command == driver.MAKE) {
 
     all_data <- list(...)[[1]]
@@ -106,9 +107,10 @@ module_aglu_LB123.LC_R_MgdPastFor_Yh_GLU <- function(command, ...) {
       mutate(MgdPast = value / pasture_yield) %>%
       select(-value, -pasture_yield) %>%
       # Match in total pasture land
-      left_join_error_no_match(L123.LC_bm2_R_Past_Y_GLU,
+      left_join(L123.LC_bm2_R_Past_Y_GLU,
                                by = c("GCAM_region_ID", "Land_Type", "GLU", "year")) %>%
       # Calculate the percentage of managed to total pasture land
+      mutate(value= if_else(is.na(value),0,value)) %>%
       mutate(frac = MgdPast / value) %>%
       replace_na(list(frac = 0)) %>%
       # Apply maximum percentage of any region/GLUs pasture that is allowed to be in production (managed)
@@ -235,15 +237,17 @@ module_aglu_LB123.LC_R_MgdPastFor_Yh_GLU <- function(command, ...) {
       # Scale managed forest land based on population in pre-aglu years
       mutate(MgdFor = MgdFor * PopRatio) %>%
       select(-PopRatio) %>%
-      filter(year %in% aglu.LAND_COVER_YEARS) ->
-      L123.LC_bm2_R_MgdFor_Yh_GLU
+      filter(year %in% aglu.LAND_COVER_YEARS) ->L123.LC_bm2_R_MgdFor_Yh_GLU_beforeadjust
+
 
     # Adjust managed forest land: where managed forest is greater than
     # assumed maximum percentage of total forest, reduce the managed forest land.
-    L123.LC_bm2_R_MgdFor_Yh_GLU %>%
+    L123.LC_bm2_R_MgdFor_Yh_GLU_beforeadjust %>%
       # Match in total forest land
-      left_join_error_no_match(filter(L120.LC_bm2_R_LT_Yh_GLU, Land_Type == "Forest", year %in% aglu.LAND_COVER_YEARS),
+      left_join(filter(L120.LC_bm2_R_LT_Yh_GLU, Land_Type == "Forest", year %in% aglu.LAND_COVER_YEARS),
                                by = c("GCAM_region_ID", "Land_Type", "GLU", "year")) %>%
+
+      mutate(value= if_else(is.na(value),0,value)) %>%
       # Calculate the fraction of managed to total forest land
       mutate(frac = MgdFor / value) %>%
       select(-value, -MgdFor) %>%
@@ -252,8 +256,9 @@ module_aglu_LB123.LC_R_MgdPastFor_Yh_GLU <- function(command, ...) {
       # Apply maximum percentage of any region/GLUs forest that is allowed to be in production (managed)
       mutate(frac = replace(frac, frac > aglu.MAX_MGDFOR_FRAC, aglu.MAX_MGDFOR_FRAC)) %>%
       # Match in total forest land again to calculate the adjusted managed forest land
-      left_join_error_no_match(filter(L120.LC_bm2_R_LT_Yh_GLU, Land_Type == "Forest", year %in% aglu.LAND_COVER_YEARS),
+      left_join(filter(L120.LC_bm2_R_LT_Yh_GLU, Land_Type == "Forest", year %in% aglu.LAND_COVER_YEARS),
                                by = c("GCAM_region_ID", "Land_Type", "GLU", "year")) %>%
+      mutate(value= if_else(is.na(value),0,value)) %>%
       # Recalculate managed forest land, adjusted by assumed maximum portion that can be managed
       mutate(value = value * frac) %>%
       select(-frac) ->
@@ -349,7 +354,19 @@ module_aglu_LB123.LC_R_MgdPastFor_Yh_GLU <- function(command, ...) {
       same_precursors_as("L123.LC_bm2_R_MgdFor_Yh_GLU") ->
       L123.For_Yield_m3m2_R_GLU
 
-    return_data(L123.ag_Prod_Mt_R_Past_Y_GLU, L123.ag_Yield_kgm2_R_Past_Y_GLU, L123.LC_bm2_R_MgdPast_Yh_GLU, L123.For_Prod_bm3_R_Y_GLU, L123.For_Yield_m3m2_R_GLU, L123.LC_bm2_R_MgdFor_Yh_GLU)
+    L123.LC_bm2_R_MgdFor_Yh_GLU_beforeadjust %>%
+      na.omit() %>%
+      #L123.LC_bm2_R_MgdFor_Yh_GLU %>%
+      add_title("Managed forest land cover by GCAM region / historical year / GLU") %>%
+      add_units("bm2") %>%
+      add_comments("This is required managed forest area, with right yield, which might be adjusted later if total forest is not enough") %>%
+      add_legacy_name("L123.LC_bm2_R_MgdFor_Yh_GLU_beforeadjust") %>%
+      same_precursors_as("L123.For_Prod_bm3_R_Y_GLU_beforeadjust") %>%
+      add_precursors("L101.Pop_thous_R_Yh") ->
+      L123.LC_bm2_R_MgdFor_Yh_GLU_beforeadjust
+
+    return_data(L123.ag_Prod_Mt_R_Past_Y_GLU, L123.ag_Yield_kgm2_R_Past_Y_GLU, L123.LC_bm2_R_MgdPast_Yh_GLU, L123.For_Prod_bm3_R_Y_GLU, L123.For_Yield_m3m2_R_GLU, L123.LC_bm2_R_MgdFor_Yh_GLU,
+                L123.LC_bm2_R_MgdFor_Yh_GLU_beforeadjust)
   } else {
     stop("Unknown command")
   }

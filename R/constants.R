@@ -439,6 +439,10 @@ aglu.DIGITS_RES_ENERGY    <- 4
 aglu.DIGITS_WATER_CONTENT <- 2
 
 
+# Adding a switch here to use the beforeadjustfile
+
+aglu.USE_BEFORE_ADJUST_FOREST_FILE <- TRUE
+
 #Land leaf names used in the data system for different land types
 aglu.PASTURE_NODE_NAMES <- "Pasture"
 aglu.FOREST_NODE_NAMES <- "Forest"
