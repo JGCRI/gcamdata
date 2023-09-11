@@ -478,6 +478,7 @@ driver_drake <- function(
   quiet = FALSE,
   user_modifications = NULL,
   xml_suffix = NULL,
+  path_to_config = NULL,
   ...){
 
 
@@ -506,6 +507,7 @@ driver_drake <- function(
   assert_that(is.null(return_inputs_of) | is.character(return_inputs_of))
   assert_that(is.null(return_outputs_of) | is.character(return_outputs_of))
   assert_that(is.null(return_data_names) | is.character(return_data_names))
+  assert_that(is.null(path_to_config) | is.character(path_to_config))
   assert_that(is.logical(return_data_map_only))
   assert_that(is.logical(return_plan_only))
   assert_that(is.logical(write_xml))
@@ -758,6 +760,32 @@ driver_drake <- function(
   prebuilt_data_plan <- tibble(target = names(PREBUILT_DATA)) %>%
     mutate(command = paste0("gcamdata::PREBUILT_DATA[['", target, "']]"),
            target = paste0("PREBUILT_", target))
+
+  # If configuration path is provided, filter plan to only build specified XMLs
+  if(!missing(path_to_config)){
+
+    if(!requireNamespace('xml2')) {
+      stop("The `xml2` package is required to build specified XMLs from a configuration file.")
+    }
+
+    # Read config and extract "scenario components" section
+    config <- xml2::read_xml(path_to_config)
+    scen_components <- xml2::xml_children(xml2::xml_child(config, "ScenarioComponents")) %>%
+      xml2::as_list() %>%
+      unlist() %>%
+      as.data.frame() %>%
+      setNames(c("files"))
+
+    # Filter components into a dataframe that matches available targets
+    scen_components %>%
+      filter(grepl("gcamdata", files)) %>%
+      separate(files, c("location", "name"), "/xml/") %>%
+      select(name) %>%
+      mutate(name = gsub("^", "xml.", name)) -> targets_to_match
+
+  }
+
+
   # Still bind to gcamdata_plan so that the first time drake is used, constants will be cached
   gcamdata_plan <- bind_rows(constants_plan, prebuilt_data_plan, gcamdata_plan)
 
@@ -786,7 +814,13 @@ driver_drake <- function(
      # have been made yet, and then we'd clear the cache unnecessarily
      drake::make(prebuilt_data_plan, ...)
    }
-     drake::make(gcamdata_plan, ...)
+
+   if(exists("targets_to_match")){
+     drake::make(gcamdata_plan, targets = targets_to_match$name, ...)
+   }
+
+   drake::make(gcamdata_plan, ...)
+
  }
 
   if(return_data_map_only) {
