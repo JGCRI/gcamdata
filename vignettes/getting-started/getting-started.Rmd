@@ -1,0 +1,103 @@
+---
+title: "Getting Started with gcamdata"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{getting-started}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## R
+
+R must be version 3.2 or higher (however current testing is done with version 3.6.3 and above).
+
+We suggest using RStudio.
+
+## Clone this repository
+
+On the command line: navigate to your desired folder location and then enter `git clone https://github.com/JGCRI/gcamdata.git` 
+
+If using GitHub Desktop: Go to https://github.com/jgcri/gcamdata and click the green "Code" button. Then click "Open with GitHub Desktop".
+
+## Loading the `gcamdata` package
+
+Open the `gcamdata` folder you just cloned and double-click the `gcamdata.Rproj` file. RStudio should open the project.
+
+If you have not installed `devtools` before, first enter the following into the R console
+```{r eval = FALSE}
+install.packages("devtools")
+```
+
+Then to load the `gcamdata` package, enter:
+
+```{r eval = FALSE}
+devtools::load_all()
+```
+
+## Package dependencies
+You may also need to install package dependencies, for example using:
+```R
+devtools::install_deps()
+```
+However, there are known issues with some recent package dependencies (i.e. `readr 2.0`, `tidyr 1.2`)
+
+For this reason, we suggest using `renv`, described below. 
+
+## Optional `renv` -- currently included in GCAM 6.0 and gcamdata release
+**NOTE THAT SETTING UP/RESTORING RENV WHILE ON VPN CAN CAUSE ERRORS**
+**HIGHLY RECOMMENDED TO AVOID VPN DURING SET-UP**
+
+`renv` is an R package for dependency management. Using it will save a private R library with the correct versions of any package dependencies.
+
+The steps to use `renv` include:
+
+1. Install renv package (if not already installed)
+
+```{r eval = FALSE}
+install.packages( "https://cran.r-project.org/src/contrib/Archive/renv/renv_0.12.5.tar.gz", repos = NULL, type = "source" )
+```
+
+2. Initialize a local library (may prompt you to restart your R session)
+```{r eval = FALSE}
+renv::init( bare = TRUE)
+```
+
+3. Install the correct packages (this may take some time)
+```{r eval = FALSE}
+renv::restore()
+```
+
+You should now be set to run the driver without running into any package version issues. Note that if you have completed these steps once, your R session should automatically connect to this private library when you open `gcamdata.Rproj`. If your R session doesn't connect to this (for example, if you changed branches), you can run the following to reconnect to this private library:
+
+```{r eval = FALSE}
+renv::activate()
+```
+
+See a video tutorial here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EO6NPCf7lKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Run the driver
+You should now be ready to run the driver, which is the main processing function that generates intermediate data outputs and xml files for GCAM. There are two ways to run the driver:
+
+1. 
+```{r eval = FALSE}
+driver_drake()
+```
+`driver_drake()` runs the driver and stores the outputs in a hidden cache. When you run `driver_drake()` again it will skip steps that are up-to-date. This is useful if you will be adjusting the data inputs and code and running the data system multiple times. For this reason, we almost always recommend using `driver_drake()`. More details can be found in the [vignette](https://jgcri.github.io/gcamdata/articles/driverdrake_vignette.html).
+
+2. 
+```{r eval = FALSE}
+driver()
+```
+See [the documentation](https://jgcri.github.io/gcamdata/reference/driver.html) for more options when running the driver, such as what outputs to generate or when to stop.
+
+

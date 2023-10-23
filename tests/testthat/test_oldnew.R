@@ -3,7 +3,7 @@
 context("oldnew")
 
 library(readr)
-OLDNEW <- F # Run old-new tests?
+OLDNEW <- T # Run old-new tests?
 
 if (OLDNEW){
   test_that("matches old data system output", {
@@ -35,12 +35,12 @@ if (OLDNEW){
                         info = paste("Directory", outputs_dir, "unreadable or does not exist from", getwd()))
       expect_true(file.info(outputs_dir)$isdir)
 
-    # Now we compare the data map returned above with the pre-packaged version
-    # They should match! See https://github.com/JGCRI/gcamdata/pull/751#issuecomment-331578990
-    # First put what the driver returns and the internal GCAM_DATA_MAP into the same order (can vary if run on PIC for example)
-    gcam_data_map <- arrange(gcam_data_map, name, output)
-    data("GCAM_DATA_MAP")
-    gdm_internal <- arrange(GCAM_DATA_MAP, name, output)
+      # Now we compare the data map returned above with the pre-packaged version
+      # They should match! See https://github.com/JGCRI/gcamdata/pull/751#issuecomment-331578990
+      # First put what the driver returns and the internal GCAM_DATA_MAP into the same order (can vary if run on PIC for example)
+      gcam_data_map <- arrange(gcam_data_map, name, output)
+      data("GCAM_DATA_MAP")
+      gdm_internal <- arrange(GCAM_DATA_MAP, name, output)
 
       # The gcam_data_map that's generated on GitHub Actions won't have the proprietary IEA data, so its comments
       # and units may differ
