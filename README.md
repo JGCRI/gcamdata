@@ -1,6 +1,6 @@
-[![codecov](https://codecov.io/gh/JGCRI/gcamdata/branch/main/graph/badge.svg)](https://codecov.io/gh/JGCRI/gcamdata)
-![R-CMD](https://github.com/JGCRI/gcamdata/workflows/R-CMD/badge.svg)
-![coverage-test](https://github.com/JGCRI/gcamdata/workflows/coverage-test/badge.svg)
+# This Repository is Archived
+
+The mangment and version control of **gcamdata** has been folded into [gcam-core](https://github.com/jgcri/gcam-core). For the most uptodate version of gcamdata pelase see https://github.com/JGCRI/gcam-core/tree/master/input/gcamdata. 
 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1249932.svg)](https://doi.org/10.5281/zenodo.1249932)
