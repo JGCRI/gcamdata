@@ -294,24 +294,42 @@ module_aglu_LB120.LC_GIS_R_LTgis_Yh_GLU <- function(command, ...) {
       mutate(year = as.integer(year)) ->
       L120.LC_bm2_R_LT_Yh_GLU
 
+
+    # adding a switch in L123.LC_bm2_R_MgdFor_Yh_GLU_beforeadjust ----
+    # The file is used if "TRUE"
+    # If not, forest yield could be wrong #' module_aglu_LB123.LC_R_MgdPastFor_Yh_GLU
+    # The file is an output from
+    # It need to be set to not "TRUE" if breaking out regions
+    # Then add L123.LC_bm2_R_MgdFor_Yh_GLU_beforeadjust.csv from output to AGLU/LDS
+    # For regions with zero forest land but positive production
+    # Areas can be added in that csv
     # scale forest to avoid negative unmanaged forest area which caused issue for yield in Pakistan and African regions
     # L123.LC_bm2_R_MgdFor_Yh_GLU_beforeadjust, pulled from L123.LC_bm2_R_MgdFor_Yh_GLU before managed forest scaling, was used here.
-    L120.LC_bm2_R_LT_Yh_GLU %>%
-      left_join(L120.LC_bm2_R_LT_Yh_GLU %>%
-                  spread(Land_Type, value, fill = 0) %>%
-                  left_join(L123.LC_bm2_R_MgdFor_Yh_GLU_beforeadjust %>% select(-Land_Type),
-			by = c("GCAM_region_ID", "GLU", "year")) %>%
-                  mutate(nonForScaler =
-                           if_else((Forest - MgdFor) < 0 & Forest > 0,
-                                   1 + (Forest - MgdFor)/(Grassland + Shrubland + Pasture), 1),
-                         ForScaler = if_else((Forest - MgdFor) < 0 & Forest > 0,  MgdFor/Forest ,1)) %>%
-                  select(GCAM_region_ID, GLU, year, nonForScaler, ForScaler),
-                by = c("GCAM_region_ID", "GLU", "year") ) %>%
-      mutate(value = if_else(Land_Type %in% c("Grassland", "Shrubland" , "Pasture"),
-                             value * nonForScaler,
-                             if_else(Land_Type == "Forest", value * ForScaler, value) )) %>%
-      select(-nonForScaler, -ForScaler) ->
-      L120.LC_bm2_R_LT_Yh_GLU
+    if (aglu.USE_BEFORE_ADJUST_FOREST_FILE) {
+      # scale forest to avoid negative unmanaged forest area which caused issue for yield in Pakistan and African regions
+      # L123.LC_bm2_R_MgdFor_Yh_GLU_beforeadjust, pulled from L123.LC_bm2_R_MgdFor_Yh_GLU before managed forest scaling, was used here.
+
+      L120.LC_bm2_R_LT_Yh_GLU %>%
+        left_join(L120.LC_bm2_R_LT_Yh_GLU %>%
+                    spread(Land_Type, value, fill = 0) %>%
+                    left_join(L123.LC_bm2_R_MgdFor_Yh_GLU_beforeadjust %>% select(-Land_Type),
+                              by = c("GCAM_region_ID", "GLU", "year")) %>%
+                    mutate(nonForScaler =
+                             if_else((Forest - MgdFor) < 0 & Forest > 0,
+                                     1 + (Forest - MgdFor)/(Grassland + Shrubland + Pasture), 1),
+                           ForScaler = if_else((Forest - MgdFor) < 0 & Forest > 0,  MgdFor/Forest ,1)) %>%
+                    select(GCAM_region_ID, GLU, year, nonForScaler, ForScaler),
+                  by = c("GCAM_region_ID", "GLU", "year") ) %>%
+        #If the forest scaler exceeds a limit,or if the nonForscaler goes negative then don't do this adjustment. It will lead to cropland errors downstream.
+        # These errors happen in years other than calibration years in just in one basin, namely NileR.
+        mutate(ForScaler= if_else(is.nan(ForScaler)|is.na(ForScaler) | ForScaler >= 20 | nonForScaler <1 ,1,ForScaler),
+               nonForScaler= if_else(is.nan(nonForScaler)|is.na(nonForScaler)| ForScaler >= 20| nonForScaler <1,1,nonForScaler),
+               value = if_else(Land_Type %in% c("Grassland", "Shrubland" , "Pasture"),
+                               value * nonForScaler,
+                               if_else(Land_Type == "Forest", value * ForScaler, value) )) %>%
+        select(-nonForScaler, -ForScaler) ->
+        L120.LC_bm2_R_LT_Yh_GLU
+    }
 
     # Subset the land types that are not further modified
     L120.LC_bm2_R_UrbanLand_Yh_GLU <- filter(L120.LC_bm2_R_LT_Yh_GLU, Land_Type == "UrbanLand")
